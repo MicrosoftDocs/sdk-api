@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddComboBox.htm
 old-project: shell
 ms.assetid: fdb7d682-5182-4bc0-b256-5073bd55c96d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: AddComboBox, AddComboBox method [Windows Shell], AddComboBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddComboBox method, IFileDialogCustomize.AddComboBox, IFileDialogCustomize::AddComboBox, shell.IFileDialogCustomize_AddComboBox, shell_IFileDialogCustomize_AddComboBox, shobjidl_core/IFileDialogCustomize::AddComboBox
 ms.prod: windows
 ms.technology: windows-sdk

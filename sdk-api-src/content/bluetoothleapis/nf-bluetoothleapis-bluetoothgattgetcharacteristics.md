@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetcharacteristics.htm
 old-project: bltooth
 ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
 ms.prod: windows
 ms.technology: windows-sdk

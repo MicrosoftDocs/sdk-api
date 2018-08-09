@@ -4,10 +4,10 @@ title: ITSGAuthorizeResourceSink
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 4656064a-41d9-428c-8260-24eea0ee83cc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITSGAuthorizeResourceSink, ITSGAuthorizeResourceSink interface [Remote Desktop Services], ITSGAuthorizeResourceSink interface [Remote Desktop Services],described, termserv.itsgauthorizeresourcesink, tsgpolicyengine/ITSGAuthorizeResourceSink
 ms.prod: windows
 ms.technology: windows-sdk

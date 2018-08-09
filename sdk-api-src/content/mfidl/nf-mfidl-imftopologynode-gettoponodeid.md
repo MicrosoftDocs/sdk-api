@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_gettoponodeid.htm
 old-project: medfound
 ms.assetid: 9c0e5be9-6481-4132-ad5b-9db13fb07391
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 9c0e5be9-6481-4132-ad5b-9db13fb07391, GetTopoNodeID, GetTopoNodeID method [Media Foundation], GetTopoNodeID method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetTopoNodeID method, IMFTopologyNode.GetTopoNodeID, IMFTopologyNode::GetTopoNodeID, mf.imftopologynode_gettoponodeid, mfidl/IMFTopologyNode::GetTopoNodeID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Retrieves the identifier of the node.
+Retrieves the identifier of the node.
 
 
 ## -parameters
@@ -79,12 +78,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        When a node is first created, it is assigned an identifier. Node identifiers are unique within a topology, but can be reused across several topologies. The topology loader uses the identifier to look up nodes in the previous topology, so that it can reuse objects from the previous topology.
+When a node is first created, it is assigned an identifier. Node identifiers are unique within a topology, but can be reused across several topologies. The topology loader uses the identifier to look up nodes in the previous topology, so that it can reuse objects from the previous topology.
       
 
-
-        To find a node in a topology by its identifier, call <a href="https://msdn.microsoft.com/34c8326f-bd34-4bf6-9171-a1ed3191b85e">IMFTopology::GetNodeByID</a>.
+To find a node in a topology by its identifier, call <a href="https://msdn.microsoft.com/34c8326f-bd34-4bf6-9171-a1ed3191b85e">IMFTopology::GetNodeByID</a>.
       
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_setstreamsink.htm
 old-project: medfound
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IMFPMediaItem.SetStreamSink, IMFPMediaItem::SetStreamSink, SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: GDI+ 1.1
 <div> </div>
 
 
-
-        Sets a media sink for the media item. A <i>media sink</i> is an object that consumes the data from one or more streams.
+Sets a media sink for the media item. A <i>media sink</i> is an object that consumes the data from one or more streams.
       
 
 

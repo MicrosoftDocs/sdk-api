@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplateManager
 author: windows-sdk-content
 description: Used to manage file screen templates.
 old-location: fsrm\ifsrmfilescreentemplatemanager.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 89577ab3-2648-4b37-9fc0-c64929223a13
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], IFsrmFileScreenTemplateManager interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplatemanager, fsrm.ifsrmfilescreentemplatemanager, fsrmscreen/IFsrmFileScreenTemplateManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to manage file screen templates.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileScreenTemplateManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileScreenTemplateManager)</code> as the interface 
     identifier. For an example, see 
@@ -63,7 +63,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenTemplateManager</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmFileScreenTemplateManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenTemplateManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmFileScreenTemplateManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

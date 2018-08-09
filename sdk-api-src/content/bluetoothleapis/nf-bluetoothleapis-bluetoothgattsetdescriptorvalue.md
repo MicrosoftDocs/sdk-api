@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattsetdescriptorvalue.htm
 old-project: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -402,8 +402,6 @@ An error that lies in the reserved range has been received.
 
 
 ## -remarks
-
-
 
 
 

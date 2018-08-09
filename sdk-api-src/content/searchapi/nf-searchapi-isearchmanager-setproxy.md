@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_SetProxy.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\setproxy.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager interface [search],SetProxy method, ISearchManager.SetProxy, ISearchManager::SetProxy, SetProxy, SetProxy method [search], SetProxy method [search],ISearchManager interface, _search_ISearchManager_SetProxy, search._search_ISearchManager_SetProxy, searchapi/ISearchManager::SetProxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Stores information in the indexer that determines how the indexer will work and 
 
 ### -param sUseProxy [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a></b>
 
-Sets whether and how to use a proxy, using one of the values enumerated in <a href="https://msdn.microsoft.com/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>.
+Sets whether and how to use a proxy, using one of the values enumerated in <a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a>.
 
 
 ### -param fLocalByPassProxy [in]

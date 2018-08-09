@@ -7,7 +7,7 @@ old-location: gdi\setboundsrect.htm
 old-project: gdi
 ms.assetid: ad361e78-42e8-4945-9395-fab983e396df
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DCB_ACCUMULATE, DCB_DISABLE, DCB_ENABLE, DCB_RESET, SetBoundsRect, SetBoundsRect function [Windows GDI], _win32_SetBoundsRect, gdi.setboundsrect, wingdi/SetBoundsRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ The <b>SetBoundsRect</b> function controls the accumulation of bounding rectangl
 A handle to the device context for which to accumulate bounding rectangles.
 
 
-### -param lprect
+### -param lprect [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure used to set the bounding rectangle. Rectangle dimensions are in logical coordinates. This parameter can be <b>NULL</b>.
 
 
 ### -param flags [in]
@@ -122,11 +122,6 @@ Clears the bounding rectangle.
 </tr>
 </table>
  
-
-
-#### - lprcBounds [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure used to set the bounding rectangle. Rectangle dimensions are in logical coordinates. This parameter can be <b>NULL</b>.
 
 
 ## -returns

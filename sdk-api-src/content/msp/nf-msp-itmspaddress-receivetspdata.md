@@ -7,7 +7,7 @@ old-location: tapi3\itmspaddress_receivetspdata.htm
 old-project: tapi
 ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 
 ### -param pMSPCall [in]
 
-Pointer to <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the MSP Call object.
+Pointer to <a href="_com_iunknown">IUnknown</a> interface of the MSP Call object.
 
 
 ### -param pBuffer

@@ -7,7 +7,7 @@ old-location: ndf\ndfexecutediagnosis.htm
 old-project: ndf
 ms.assetid: b65f30c3-53d5-4282-8d38-5723772f15fc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexecutediagnosis, ndfapi/NdfExecuteDiagnosis
 ms.prod: windows
 ms.technology: windows-sdk

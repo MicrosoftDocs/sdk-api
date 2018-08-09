@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enummethodswithname.htm
 old-project: WinRT
 ms.assetid: 5252b535-23e5-4af1-91df-006717c4e159
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: EnumMethodsWithName, EnumMethodsWithName method [Windows Runtime], EnumMethodsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodsWithName method, IMetaDataImport.EnumMethodsWithName, IMetaDataImport::EnumMethodsWithName, rometadataapi/IMetaDataImport::EnumMethodsWithName, winrt.imetadataimport_enummethodswithname
 ms.prod: windows
 ms.technology: windows-sdk

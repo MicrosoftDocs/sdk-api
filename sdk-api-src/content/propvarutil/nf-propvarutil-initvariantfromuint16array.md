@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt16Array.htm
 old-project: properties
 ms.assetid: 57fe1dd2-48a5-486e-a2cb-53cf0b8f96b0
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromUInt16Array, InitVariantFromUInt16Array function [Windows Properties], _shell_InitVariantFromUInt16Array, properties.InitVariantFromUInt16Array, propvarutil/InitVariantFromUInt16Array, shell.InitVariantFromUInt16Array
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI2 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762339(v=VS.85).aspx">InitVariantFromUInt16Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt16Array">InitVariantFromUInt16Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762310(v=VS.85).aspx">InitPropVariantFromUInt16Vector</a>
+<a href="shell.InitPropVariantFromUInt16Vector">InitPropVariantFromUInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>
+<a href="shell.InitVariantFromUInt16">InitVariantFromUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776624(v=VS.85).aspx">VariantToUInt16Array</a>
+<a href="shell.VariantToUInt16Array">VariantToUInt16Array</a>
  
 
  

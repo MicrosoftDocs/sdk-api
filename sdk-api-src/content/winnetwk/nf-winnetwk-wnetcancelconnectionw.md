@@ -4,10 +4,10 @@ title: WNetCancelConnectionW function
 author: windows-sdk-content
 description: The WNetCancelConnection function cancels an existing network connection.
 old-location: wnet\wnetcancelconnection.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: e180d497-5e14-459a-8cf6-5664dfb88419
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WNetCancelConnection, WNetCancelConnection function [Windows Networking (WNet)], WNetCancelConnectionA, WNetCancelConnectionW, _win32_wnetcancelconnection, winnetwk/WNetCancelConnection, winnetwk/WNetCancelConnectionA, winnetwk/WNetCancelConnectionW, wnet.wnetcancelconnection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\setflags.htm
 old-project: tablet
 ms.assetid: 62ad43c4-4795-4af9-af20-e45da30ba132
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_COERCE, RECOFLAG_LINEMODE, RECOFLAG_PREFIXOK, RECOFLAG_SINGLESEG, RECOFLAG_WORDMODE, SetFlags, SetFlags function [Tablet PC], recapis/SetFlags, tablet.setflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,15 +112,9 @@ Recognizer coerces the result based on the factoid you specify for the context. 
 <td width="60%">
 Recognizer supports the recognition of any prefix part of the strings that are defined in the default or specified (factoid) language model.
 
-
-
 For example, without this flag, the user writes "handw" and the recognizer returns suggestions (such as "hander" or "handed") that are words that exist in the recognizer lexicon. With the flag, the recognizer may return "handw" as one of the suggestions since it is a valid prefix of the word "handwriting" that exists in the recognizer lexicon.
 
-
-
 The Tablet PC Input Panel sets this flag in most cases, except when the input scope is IS_DEFAULT (or no input scope) or when there is no user word list or regular expression.
-
-
 
 Recognizers of East Asian characters should return E_INVALIDARG when a caller passes in this flag.
 
@@ -144,8 +138,6 @@ The recognizer does not split lines but must still do character and word separat
 </td>
 <td width="60%">
 Disables multiple segmentation. By default, the recognizer returns multiple segmentations (alternates) for the ink.
-
-
 
 For example, if you write "together" as separate strokes, the recognizer may segment the ink as "to get her", "to gather", or "together". Set this flag if you do not need multiple segmentations of the ink when you query for alternates. This improves performance and reduces memory usage.
 

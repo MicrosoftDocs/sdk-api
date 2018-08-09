@@ -7,7 +7,7 @@ old-location: rm\drmattest.htm
 old-project: adrms_sdk
 ms.assetid: f0975845-d609-4f7a-a663-6481334c983d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMAttest, DRMAttest function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAttest, rm.drmattest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,19 +83,14 @@ The data to encode.
 An enumeration that determines whether to include full environment data or only a hash.
 
 
-### -param pcAttestedBlob
+### -param pcAttestedBlob [in, out]
 
-TBD
+Length, in characters, of the string being returned, plus one for a terminating null character.
 
 
 ### -param wszAttestedBlob [out]
 
 The signed data.
-
-
-#### - pcStrLen [in, out]
-
-Length, in characters, of the string being returned, plus one for a terminating null character.
 
 
 ## -returns

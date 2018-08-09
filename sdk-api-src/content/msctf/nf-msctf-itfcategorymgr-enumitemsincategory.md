@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_enumitemsincategory.htm
 old-project: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: EnumItemsInCategory, EnumItemsInCategory method [Text Services Framework], EnumItemsInCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumItemsInCategory method, ITfCategoryMgr.EnumItemsInCategory, ITfCategoryMgr::EnumItemsInCategory, _tsf_itfcategorymgr_enumitemsincategory_ref, msctf/ITfCategoryMgr::EnumItemsInCategory, tsf.itfcategorymgr_enumitemsincategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,14 +139,12 @@ There is insufficient memory to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/271e5fbe-54e2-47e3-97d4-cd4211b92080">
-        ITfCategoryMgr::EnumCategoriesInItem
+<a href="https://msdn.microsoft.com/271e5fbe-54e2-47e3-97d4-cd4211b92080">ITfCategoryMgr::EnumCategoriesInItem
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">
-        ITfCategoryMgr::RegisterCategory
+<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory
       </a>
  
 

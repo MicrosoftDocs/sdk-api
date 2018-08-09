@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_getsecuritysetting.htm
 old-project: nativewifi
 ms.assetid: 3e5fa757-41fd-4541-a16e-15c2fb66e15a
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetSecuritySetting, GetSecuritySetting method [NativeWIFI], GetSecuritySetting method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSecuritySetting method, IDot11AdHocNetwork.GetSecuritySetting, IDot11AdHocNetwork::GetSecuritySetting, adhoc/IDot11AdHocNetwork::GetSecuritySetting, nwifi.idot11adhocnetwork_getsecuritysetting
 ms.prod: windows
 ms.technology: windows-sdk

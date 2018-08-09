@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_settag.htm
 old-project: directmanipulation
 ms.assetid: f695845b-8980-45cd-8231-e3ce29ce322f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetTag method, IDirectManipulationViewport.SetTag, IDirectManipulationViewport::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
 ms.prod: windows
 ms.technology: windows-sdk

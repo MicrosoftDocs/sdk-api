@@ -7,7 +7,7 @@ old-location: gdi\enumdisplaydevices.htm
 old-project: gdi
 ms.assetid: df3b493c-23d2-4996-9b79-86009efe3078
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumDisplayDevices, EnumDisplayDevices function [Windows GDI], EnumDisplayDevicesA, EnumDisplayDevicesW, _win32_EnumDisplayDevices, gdi.enumdisplaydevices, winuser/EnumDisplayDevices, winuser/EnumDisplayDevicesA, winuser/EnumDisplayDevicesW
 ms.prod: windows
 ms.technology: windows-sdk

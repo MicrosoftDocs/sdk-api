@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tiled_resources_tier.htm
 old-project: direct3d11
 ms.assetid: F2E58CDC-4E65-4166-976A-E58B6DC7B1E8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D11_TILED_RESOURCES_NOT_SUPPORTED, D3D11_TILED_RESOURCES_TIER, D3D11_TILED_RESOURCES_TIER enumeration [Direct3D 11], D3D11_TILED_RESOURCES_TIER_1, D3D11_TILED_RESOURCES_TIER_2, D3D11_TILED_RESOURCES_TIER_3, d3d11/D3D11_TILED_RESOURCES_NOT_SUPPORTED, d3d11/D3D11_TILED_RESOURCES_TIER, d3d11/D3D11_TILED_RESOURCES_TIER_1, d3d11/D3D11_TILED_RESOURCES_TIER_2, d3d11/D3D11_TILED_RESOURCES_TIER_3, direct3d11.d3d11_tiled_resources_tier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,10 +67,10 @@ Tiled resources are not supported.
 
 Tier_1 tiled resources are supported.
 
-The device supports calls to <a href="https://msdn.microsoft.com/69950ce7-9c8e-4f00-860d-e118e2bbc81a">CreateTexture2D</a> and so on with the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_TILED</a> flag.
+The device supports calls to <a href="https://msdn.microsoft.com/69950ce7-9c8e-4f00-860d-e118e2bbc81a">CreateTexture2D</a> and so on with the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_TILED</a> flag.
             
 
-The device supports calls to <a href="https://msdn.microsoft.com/5aec93c5-12a1-4b4e-813e-ee1e85adbf14">CreateBuffer</a> with the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_TILE_POOL</a> flag.
+The device supports calls to <a href="https://msdn.microsoft.com/5aec93c5-12a1-4b4e-813e-ee1e85adbf14">CreateBuffer</a> with the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_TILE_POOL</a> flag.
             
 
 If you access tiles (read or write) that are <b>NULL</b>-mapped, you get undefined behavior, which includes device-removed.  Apps can map all tiles to a single "default" tile to avoid this condition.

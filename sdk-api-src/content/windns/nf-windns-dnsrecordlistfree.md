@@ -4,10 +4,10 @@ title: DnsRecordListFree macro
 author: windows-sdk-content
 description: Frees memory allocated for DNS records obtained using the DnsQuery function.
 old-location: dns\dnsrecordlistfree.htm
-old-project: DNS
+old-project: dns
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,28 +61,14 @@ The
 
 
 
-### -param p
-
-TBD
-
-
-### -param t
-
-TBD
-
-
-
-
-
-
-#### - FreeType [in]
-
-A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://msdn.microsoft.com/976982a1-08f1-4c67-b823-1eea34f0c643">DNS_FREE_TYPE</a> enumeration.
-
-
-#### - pRecordList [in, out, optional]
+### -param p [in, out, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
+
+
+### -param t [in]
+
+A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://msdn.microsoft.com/976982a1-08f1-4c67-b823-1eea34f0c643">DNS_FREE_TYPE</a> enumeration.
 
 
 ## -remarks

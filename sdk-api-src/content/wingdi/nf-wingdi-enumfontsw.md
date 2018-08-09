@@ -7,7 +7,7 @@ old-location: gdi\enumfonts.htm
 old-project: gdi
 ms.assetid: b5dfc38d-c400-4900-a15b-f251815ee346
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumFonts, EnumFonts function [Windows GDI], EnumFontsA, EnumFontsW, _win32_EnumFonts, gdi.enumfonts, wingdi/EnumFonts, wingdi/EnumFontsA, wingdi/EnumFontsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,29 +70,19 @@ The <b>EnumFonts</b> function enumerates the fonts available on a specified devi
 A handle to the device context from which to enumerate the fonts.
 
 
-### -param lpLogfont
+### -param lpLogfont [in]
 
-TBD
+A pointer to a null-terminated string that specifies the typeface name of the desired fonts. If <i>lpFaceName</i> is <b>NULL</b>, <b>EnumFonts</b> randomly selects and enumerates one font of each available typeface.
 
 
-### -param lpProc
+### -param lpProc [in]
 
-TBD
+A pointer to the application definedcallback function. For more information, see <a href="https://msdn.microsoft.com/23401bf9-50f9-4bc1-9fd6-dcb4c22d38f7">EnumFontsProc</a>.
 
 
 ### -param lParam [in]
 
 A pointer to any application-defined data. The data is passed to the callback function along with the font information.
-
-
-#### - lpFaceName [in]
-
-A pointer to a null-terminated string that specifies the typeface name of the desired fonts. If <i>lpFaceName</i> is <b>NULL</b>, <b>EnumFonts</b> randomly selects and enumerates one font of each available typeface.
-
-
-#### - lpFontFunc [in]
-
-A pointer to the application definedcallback function. For more information, see <a href="https://msdn.microsoft.com/23401bf9-50f9-4bc1-9fd6-dcb4c22d38f7">EnumFontsProc</a>.
 
 
 ## -returns

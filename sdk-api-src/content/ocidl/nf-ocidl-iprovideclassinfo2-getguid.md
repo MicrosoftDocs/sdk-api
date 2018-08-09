@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo2_getguid.htm
 old-project: com
 ms.assetid: 1a424b93-93a9-4dc7-9c77-349522ee9e70
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetGUID, GetGUID method [COM], GetGUID method [COM],IProvideClassInfo2 interface, IProvideClassInfo2 interface [COM],GetGUID method, IProvideClassInfo2.GetGUID, IProvideClassInfo2::GetGUID, _com_iprovideclassinfo2_getguid, com.iprovideclassinfo2_getguid, ocidl/IProvideClassInfo2::GetGUID
 ms.prod: windows
 ms.technology: windows-sdk

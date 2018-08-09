@@ -7,7 +7,7 @@ old-location: dshow\dxva_coppsetsignalingcmddata.htm
 old-project: DirectShow
 ms.assetid: f104b0c6-2b2f-4e6a-97e6-d73008cb80ef
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [DirectShow], DXVA_COPPSetSignalingCmdDataStructure, _DXVA_COPPSetSignalingCmdData, dshow.dxva_coppsetsignalingcmddata, dxva9typ/DXVA_COPPSetSignalingCmdData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,28 +66,24 @@ This command causes the driver to insert Wide Screen Signalling (WSS) codes or o
 
 ### -field ActiveTVProtectionStandard
 
-
-            Specifies the protection standard and format that is current active. The value is a member of the <a href="https://msdn.microsoft.com/3a724f93-8625-4594-a45b-c2e4c882b579">COPP_TVProtectionStandard</a> enumeration.
+Specifies the protection standard and format that is current active. The value is a member of the <a href="https://msdn.microsoft.com/3a724f93-8625-4594-a45b-c2e4c882b579">COPP_TVProtectionStandard</a> enumeration.
           
 
 
 ### -field AspectRatioChangeMask1
 
-
-            Bit mask indicating which bits from <b>AspectRatioData1</b> to set in the signal.
+Bit mask indicating which bits from <b>AspectRatioData1</b> to set in the signal.
 
 
 ### -field AspectRatioData1
 
-
-            Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://msdn.microsoft.com/9beb172c-6255-482b-90cc-a32b2e5d3bec">COPP_ImageAspectRatio_EN300294</a> enumeration.
+Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://msdn.microsoft.com/9beb172c-6255-482b-90cc-a32b2e5d3bec">COPP_ImageAspectRatio_EN300294</a> enumeration.
           
 
 
 ### -field AspectRatioChangeMask2
 
-
-            Bit mask indicating which bits from <b>AspectRatioData2</b> to set in the signal.
+Bit mask indicating which bits from <b>AspectRatioData2</b> to set in the signal.
 
 
 ### -field AspectRatioData2
@@ -97,8 +93,7 @@ An additional data element related to aspect ratio. The presence and meaning of 
 
 ### -field AspectRatioChangeMask3
 
-
-            Bit mask indicating which bits from <b>AspectRatioData3</b> to set in the signal.
+Bit mask indicating which bits from <b>AspectRatioData3</b> to set in the signal.
 
 
 ### -field AspectRatioData3
@@ -108,22 +103,19 @@ An additional data element related to aspect ratio for the current protection st
 
 ### -field ExtendedInfoChangeMask
 
-
-            Array of bit masks indicating which bits in <b>ExtendedInfoData</b> to change. This array is currently not used. Set each member to zero.
+Array of bit masks indicating which bits in <b>ExtendedInfoData</b> to change. This array is currently not used. Set each member to zero.
           
 
 
 ### -field ExtendedInfoData
 
-
-            Additional signaling elements to be set. This array is currently not used.
+Additional signaling elements to be set. This array is currently not used.
           Set each member to zero.
 
 
 ### -field Reserved
 
-
-            Reserved. Set to zero.
+Reserved. Set to zero.
           
 
 

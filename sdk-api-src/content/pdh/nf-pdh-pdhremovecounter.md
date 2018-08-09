@@ -4,10 +4,10 @@ title: PdhRemoveCounter function
 author: windows-sdk-content
 description: Removes a counter from a query.
 old-location: perf\pdhremovecounter.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Handle of the counter to remove from its query. The
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

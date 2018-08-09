@@ -4,10 +4,10 @@ title: WSAWaitForMultipleEvents function
 author: windows-sdk-content
 description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 old-location: winsock\wsawaitformultipleevents_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,28 +146,28 @@ If the <b>WSAWaitForMultipleEvents</b> function fails, the return value is <b>WS
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></td>
 <td>A successful 
 <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></td>
 <td>A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>Not enough free memory was available to complete the operation.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></td>
 <td>One or more of the values in the <i>lphEvents</i> array is not a valid event object handle.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_PARAMETER</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_PARAMETER</a></td>
 <td>The <i>cEvents</i> parameter does not contain a valid handle count.</td>
 </tr>
 </table>

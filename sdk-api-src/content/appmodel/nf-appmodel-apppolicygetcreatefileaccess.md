@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetcreatefileaccess_function.htm
 old-project: appxpkg
 ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function [App packaging and management], appmodel/AppPolicyGetCreateFileAccess, appxpkg.apppolicygetcreatefileaccess_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829654(v=VS.85).aspx">AppPolicyCreateFileAccess</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating whether the process has full or restricted access to the IO devices.
+A pointer to a variable of the <a href="appxpkg.apppolicycreatefileaccess_enumeration">AppPolicyCreateFileAccess</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating whether the process has full or restricted access to the IO devices.
 
 
 ## -returns
@@ -75,8 +75,6 @@ A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library
 If the function succeeds, the function returns ERROR_SUCCESS.
 
 If no known create file access policy was found for the process token, the function raises a STATUS_ASSERTION_FAILURE exception and returns ERROR_NOT_FOUND.
-
-
 
 If either processToken or policy are null, the function returns ERROR_INVALID_PARAMETER.
 

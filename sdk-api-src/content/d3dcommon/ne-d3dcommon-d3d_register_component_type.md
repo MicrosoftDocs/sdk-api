@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_register_component_type.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_register_component_type.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 8367382c-870a-5a34-573e-10f182156f96, D3D10_REGISTER_COMPONENT_FLOAT32, D3D10_REGISTER_COMPONENT_SINT32, D3D10_REGISTER_COMPONENT_TYPE, D3D10_REGISTER_COMPONENT_TYPE enumeration [Direct3D 10], D3D10_REGISTER_COMPONENT_UINT32, D3D10_REGISTER_COMPONENT_UNKNOWN, D3D_REGISTER_COMPONENT_TYPE, d3d10shader/D3D10_REGISTER_COMPONENT_FLOAT32, d3d10shader/D3D10_REGISTER_COMPONENT_SINT32, d3d10shader/D3D10_REGISTER_COMPONENT_TYPE, d3d10shader/D3D10_REGISTER_COMPONENT_UINT32, d3d10shader/D3D10_REGISTER_COMPONENT_UNKNOWN, d3dcommon/D3D10_REGISTER_COMPONENT_FLOAT32, d3dcommon/D3D10_REGISTER_COMPONENT_SINT32, d3dcommon/D3D10_REGISTER_COMPONENT_TYPE, d3dcommon/D3D10_REGISTER_COMPONENT_UINT32, d3dcommon/D3D10_REGISTER_COMPONENT_UNKNOWN, direct3d10.d3d10_register_component_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The register component types, usually used in <a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>.
+The register component types, usually used in <a href="https://msdn.microsoft.com/4c789141-5381-4fe9-b54f-c1a2761a5a20">D3D10_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -enum-fields
@@ -116,7 +116,7 @@ typedef D3D_REGISTER_COMPONENT_TYPE D3D10_REGISTER_COMPONENT_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

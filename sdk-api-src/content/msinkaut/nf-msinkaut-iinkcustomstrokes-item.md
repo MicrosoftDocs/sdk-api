@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes_item.htm
 old-project: tablet
 ms.assetid: 14cdc466-2acf-4af0-8fbc-74233edf3884
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 14cdc466-2acf-4af0-8fbc-74233edf3884, IInkCustomStrokes interface [Tablet PC],Item method, IInkCustomStrokes.Item, IInkCustomStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Item, tablet.iinkcustomstrokes_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Retrieves the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb0
 
 ### -param Identifier [in]
 
-
-             The numeric index or string name of the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a> to return from the <a href="https://msdn.microsoft.com/0b4eb5d6-ccf0-46c1-ae02-a393e67b817e">IInkCustomStrokes</a> collection.
+The numeric index or string name of the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a> to return from the <a href="https://msdn.microsoft.com/0b4eb5d6-ccf0-46c1-ae02-a393e67b817e">IInkCustomStrokes</a> collection.
           
 
 

@@ -7,7 +7,7 @@ old-location: p2p\drtcreatederivedkeysecurityprovider.htm
 old-project: p2psdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,16 @@ The <b>DrtCreateDerivedKeySecurityProvider</b> function creates the derived key 
 Pointer to the certificate that is the "root" portion of the chain. This is used to ensure that keys derived from the same chain can be verified.
 
 
-### -param pLocalCert
+### -param pLocalCert [out]
+
+Pointer to the <a href="https://msdn.microsoft.com/1eedfff3-d561-462e-bad0-45e7bc46fb1a">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure.
+
+
+### -param ppSecurityProvider
 
 TBD
 
 
-### -param ppSecurityProvider [out]
-
-Pointer to the <a href="https://msdn.microsoft.com/1eedfff3-d561-462e-bad0-45e7bc46fb1a">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure.
 
 
 ## -returns

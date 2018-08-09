@@ -7,7 +7,7 @@ old-location: opc\iopcpartenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 6405bf6f-da60-463c-9acc-820b586e42e1
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcPartEnumerator.MovePrevious, IOpcPartEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MovePrevious, opc.iopcpartenumerator_moveprevious
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,8 +163,7 @@ The current position already precedes the first item of the enumerator.
 
 
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="https://msdn.microsoft.com/4d52bb74-53f5-4c7c-a42e-5d67e330b48c">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="https://msdn.microsoft.com/4d52bb74-53f5-4c7c-a42e-5d67e330b48c">MoveNext</a>method after creating the enumerator.
 
 
 #### Thread Safety

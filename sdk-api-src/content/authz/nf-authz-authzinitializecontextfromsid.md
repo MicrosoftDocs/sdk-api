@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromsid.htm
 old-project: secauthz
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN_GROUPS, AuthzInitializeContextFromSid, AuthzInitializeContextFromSid function [Security], _win32_authzinitializecontextfromsid, authz/AuthzInitializeContextFromSid, security.authzinitializecontextfromsid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,14 +155,7 @@ A pointer to parameters to be passed to the callback function that computes dyna
 Starting with Windows 8 and Windows Server 2012, this parameter must be  <b>NULL</b> if the resource manager is remote. Otherwise, ERROR_NOT_SUPPORTED will be set.
 
 
-### -param phAuthzClientContext
-
-TBD
-
-
-
-
-#### - pAuthzClientContext [out]
+### -param phAuthzClientContext [out]
 
 A pointer to the handle to the client context that the <b>AuthzInitializeContextFromSid</b> function creates.  When you have finished using the handle, free it by calling the <a href="https://msdn.microsoft.com/cad9fff0-9aa6-4cb2-a34f-94cf72f66bca">AuthzFreeContext</a> function.
 
@@ -209,7 +202,7 @@ This function calls the  <a href="https://msdn.microsoft.com/c20a02a0-5303-4433-
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

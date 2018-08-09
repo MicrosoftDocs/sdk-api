@@ -4,10 +4,10 @@ title: ITForwardInformation::GetForwardType
 author: windows-sdk-content
 description: The GetForwardType method gets the forwarding mode.
 old-location: tapi3\itforwardinformation_getforwardtype.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 02d3c558-585a-4dcc-873e-8465c1d2af64
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: GetForwardType, GetForwardType method [TAPI 2.2], GetForwardType method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],GetForwardType method, ITForwardInformation.GetForwardType, ITForwardInformation::GetForwardType, _tapi3_itforwardinformation_getforwardtype, tapi3.itforwardinformation_getforwardtype, tapi3if/ITForwardInformation::GetForwardType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppDestinationAddress</i> and <i>ppCallerAddress</i> parameters.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppDestinationAddress</i> and <i>ppCallerAddress</i> parameters.
 			
 
 

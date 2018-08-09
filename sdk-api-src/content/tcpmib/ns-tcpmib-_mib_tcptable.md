@@ -4,10 +4,10 @@ title: "_MIB_TCPTABLE"
 author: windows-sdk-content
 description: Contains a table of TCP connections for IPv4 on the local computer.
 old-location: mib\mib_tcptable.htm
-old-project: MIB
+old-project: mib
 ms.assetid: a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_TCPTABLE, PMIB_TCPTABLE structure pointer [MIB], _MIB_TCPTABLE, _mpr_mib_tcptable, iprtrmib/MIB_TCPTABLE, iprtrmib/PMIB_TCPTABLE, mib.mib_tcptable, rras.mib_tcptable, tcpmib/MIB_TCPTABLE, tcpmib/PMIB_TCPTABLE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ A pointer to a table of TCP connections implemented as an array of
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa366026(v=VS.85).aspx">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <b>MIB_TCPTABLE</b> structure. An array of <a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> structures are contained in the <b>MIB_TCPTABLE</b> structure. 
+The <a href="_iphlp_gettcptable">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <b>MIB_TCPTABLE</b> structure. An array of <a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> structures are contained in the <b>MIB_TCPTABLE</b> structure. 
 
 
 

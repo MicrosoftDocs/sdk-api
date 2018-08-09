@@ -7,7 +7,7 @@ old-location: tsf\ts_status.htm
 old-project: TSF
 ms.assetid: d27d81f2-8599-4b65-866b-4e8fd2f589f5
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_status_ref, textstor/TS_STATUS, tsf.ts_status
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,8 @@ The <a href="https://msdn.microsoft.com/1f00c8e1-435c-45ce-892a-36af68154144">TF
 </tr>
 <tr>
 <td>TS_SD_UIINTEGRATIONENABLE</td>
-<td><b>Starting with Windows 8.1:</b> The text control owning the document sets this flag to indicate its support of Input Method Editor (IME) UI integration. When specified, the IME should attempt to align the candidate window below the text box instead of floating near the cursor.<div class="alert"><b>Note</b>  Not all IMEs respond to this flag. IME candidate lists are positioned on the screen with sufficient size to allow basic text input. In some cases, the IME may enforce a reasonable minimum size.  An IME might also choose to adjust the candidate window and keyboard input behavior to provide a better user experience, such as using a horizontal candidate list and allowing some keys such as up arrow and down arrow to be sent to the app for scenarios such as suggestion list navigation.</div>
+<td>
+<b>Starting with Windows 8.1:</b> The text control owning the document sets this flag to indicate its support of Input Method Editor (IME) UI integration. When specified, the IME should attempt to align the candidate window below the text box instead of floating near the cursor.<div class="alert"><b>Note</b>  Not all IMEs respond to this flag. IME candidate lists are positioned on the screen with sufficient size to allow basic text input. In some cases, the IME may enforce a reasonable minimum size.  An IME might also choose to adjust the candidate window and keyboard input behavior to provide a better user experience, such as using a horizontal candidate list and allowing some keys such as up arrow and down arrow to be sent to the app for scenarios such as suggestion list navigation.</div>
 <div> </div>
 </td>
 </tr>
@@ -204,20 +205,17 @@ The <a href="https://msdn.microsoft.com/1f00c8e1-435c-45ce-892a-36af68154144">TF
 
 
 
-<a href="https://msdn.microsoft.com/44ecc116-e6f3-48dd-9bff-16d3c1e4cc97">
-        ITextStoreACPSink::OnStatusChange
+<a href="https://msdn.microsoft.com/44ecc116-e6f3-48dd-9bff-16d3c1e4cc97">ITextStoreACPSink::OnStatusChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/61192268-5a5f-4caa-bdb8-799ee4aea24e">
-        ITextStoreAnchor::GetStatus
+<a href="https://msdn.microsoft.com/61192268-5a5f-4caa-bdb8-799ee4aea24e">ITextStoreAnchor::GetStatus
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/28bdfa93-29c1-4a9f-b85e-20c39a1b429b">
-        ITextStoreAnchorSink::OnStatusChange
+<a href="https://msdn.microsoft.com/28bdfa93-29c1-4a9f-b85e-20c39a1b429b">ITextStoreAnchorSink::OnStatusChange
       </a>
  
 

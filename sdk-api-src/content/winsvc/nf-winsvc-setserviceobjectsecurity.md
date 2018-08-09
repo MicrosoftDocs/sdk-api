@@ -4,10 +4,10 @@ title: SetServiceObjectSecurity function
 author: windows-sdk-content
 description: Sets the security descriptor of a service object.
 old-location: security\setserviceobjectsecurity.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 39481d9a-79d5-4bbf-8480-4095a34dddb6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetServiceObjectSecurity, SetServiceObjectSecurity function [Security], _win32_setserviceobjectsecurity, security.setserviceobjectsecurity, winsvc/SetServiceObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -237,7 +237,7 @@ Note that granting certain access to untrusted users (such as SERVICE_CHANGE_CON
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

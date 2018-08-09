@@ -4,10 +4,10 @@ title: GetNextUmsListItem function
 author: windows-sdk-content
 description: Returns the next user-mode scheduling (UMS) thread context in a list of thread contexts.
 old-location: base\getnextumslistitem.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
 ms.prod: windows
 ms.technology: windows-sdk

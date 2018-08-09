@@ -7,7 +7,7 @@ old-location: mscs\igetclusternetworkinfo.htm
 old-project: mscs
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: IGetClusterNetworkInfo, IGetClusterNetworkInfo interface [Failover Cluster], IGetClusterNetworkInfo interface [Failover Cluster],described, _wolf_igetclusternetworkinfo, cluadmex/IGetClusterNetworkInfo, mscs.igetclusternetworkinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,9 +112,9 @@ If the object being extended is not a network, queries for
 <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
 </li>
 </ul>
-Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer, 
+Failover Cluster Administrator passes in an <a href="_com_iunknown">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> for one of the 
+     <a href="_com_IUnknown_QueryInterface">QueryInterface</a> for one of the 
      <b>IGetClusterNetworkInfo</b> methods.
 
 

@@ -7,7 +7,7 @@ old-location: com\ibindctx_getobjectparam.htm
 old-project: com
 ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetObjectParam, GetObjectParam method [COM], GetObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],GetObjectParam method, IBindCtx.GetObjectParam, IBindCtx::GetObjectParam, _com_ibindctx_getobjectparam, com.ibindctx_getobjectparam, objidl/IBindCtx::GetObjectParam
 ms.prod: windows
 ms.technology: windows-sdk

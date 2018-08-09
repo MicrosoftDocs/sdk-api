@@ -7,7 +7,7 @@ old-location: mf\imftopoloader_load.htm
 old-project: medfound
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a fully loaded topology from the input partial topology.
+Creates a fully loaded topology from the input partial topology.
         
 
 
@@ -74,8 +73,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e
 
 ### -param pCurrentTopo [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the previous full topology. The topology loader can re-use objects from this topology in the new topology. This parameter can be <b>NULL</b>. See Remarks.
+A pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the previous full topology. The topology loader can re-use objects from this topology in the new topology. This parameter can be <b>NULL</b>. See Remarks.
           
 
 
@@ -83,8 +81,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -99,8 +96,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -126,16 +122,13 @@ One or more output nodes contain <a href="https://msdn.microsoft.com/c0936e3c-3c
 
 
 
-
-        This method creates any intermediate transforms that are needed to complete the topology. It also sets the input and output media types on all of the objects in the topology. If the method succeeds, the full topology is returned in the <i>ppOutputTopo</i> parameter.
+This method creates any intermediate transforms that are needed to complete the topology. It also sets the input and output media types on all of the objects in the topology. If the method succeeds, the full topology is returned in the <i>ppOutputTopo</i> parameter.
       
 
-
-        You can use the <i>pCurrentTopo</i> parameter to provide a full topology that was previously loaded. If this topology contains objects that are needed in the new topology, the topology loader can re-use them without creating them again. This caching can potentially make the process faster. The objects from <i>pCurrentTopo</i> will not be reconfigured, so you can specify a topology that is actively streaming data. For example, while a topology is still running, you can pre-load the next topology.
+You can use the <i>pCurrentTopo</i> parameter to provide a full topology that was previously loaded. If this topology contains objects that are needed in the new topology, the topology loader can re-use them without creating them again. This caching can potentially make the process faster. The objects from <i>pCurrentTopo</i> will not be reconfigured, so you can specify a topology that is actively streaming data. For example, while a topology is still running, you can pre-load the next topology.
       
 
-
-        Before calling this method, you must ensure that the output nodes in the partial topology have valid <a href="https://msdn.microsoft.com/fe403cab-b901-4c8e-a23c-788ee65c4689">IMFStreamSink</a> pointers, not <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointers. The Media Session automatically performs this action inside the <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">IMFMediaSession::SetTopology</a> method. However, if you call <b>Load</b> before calling <b>SetTopology</b>, you must bind the output nodes manually. For more information, see <a href="https://msdn.microsoft.com/d4f93f34-0af1-431f-9333-70ea09691b64">Binding Output Nodes to Media Sinks</a>.
+Before calling this method, you must ensure that the output nodes in the partial topology have valid <a href="https://msdn.microsoft.com/fe403cab-b901-4c8e-a23c-788ee65c4689">IMFStreamSink</a> pointers, not <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointers. The Media Session automatically performs this action inside the <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">IMFMediaSession::SetTopology</a> method. However, if you call <b>Load</b> before calling <b>SetTopology</b>, you must bind the output nodes manually. For more information, see <a href="https://msdn.microsoft.com/d4f93f34-0af1-431f-9333-70ea09691b64">Binding Output Nodes to Media Sinks</a>.
       
 
 

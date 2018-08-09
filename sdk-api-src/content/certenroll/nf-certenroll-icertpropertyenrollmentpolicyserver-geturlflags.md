@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_geturlflags.htm
 old-project: seccertenroll
 ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
 ms.prod: windows
 ms.technology: windows-sdk

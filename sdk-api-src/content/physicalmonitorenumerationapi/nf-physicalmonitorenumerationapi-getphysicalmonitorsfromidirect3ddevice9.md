@@ -7,7 +7,7 @@ old-location: monitor\getphysicalmonitorsfromidirect3ddevice9.htm
 old-project: Monitor
 ms.assetid: 1e0e9749-8ee4-42d5-ab7b-182222b6c429
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetPhysicalMonitorsFromIDirect3DDevice9, GetPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Retrieves the physical monitors associated with a Direct3D device.
+Retrieves the physical monitors associated with a Direct3D device.
 
 
 ## -parameters
@@ -62,22 +61,19 @@ req.product: ADAM
 
 ### -param pDirect3DDevice9 [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of the Direct3D device.
+Pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of the Direct3D device.
           
 
 
 ### -param dwPhysicalMonitorArraySize [in]
 
-
-            Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="https://msdn.microsoft.com/1cb0f035-a429-4355-89b8-d8bcd89cb037">GetNumberOfPhysicalMonitorsFromIDirect3DDevice9</a>.
+Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="https://msdn.microsoft.com/1cb0f035-a429-4355-89b8-d8bcd89cb037">GetNumberOfPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param pPhysicalMonitorArray [out]
 
-
-            Pointer to an array of <a href="https://msdn.microsoft.com/58eb4999-37d9-472d-aa26-38b19a2287b2">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
+Pointer to an array of <a href="https://msdn.microsoft.com/58eb4999-37d9-472d-aa26-38b19a2287b2">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
           
 
 
@@ -94,12 +90,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        A single Direct3D device can be associated with more than one physical monitor. This function returns a handle and a text description for each physical monitor.
+A single Direct3D device can be associated with more than one physical monitor. This function returns a handle and a text description for each physical monitor.
       
 
-
-        When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="https://msdn.microsoft.com/ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf">DestroyPhysicalMonitors</a> function.
+When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="https://msdn.microsoft.com/ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf">DestroyPhysicalMonitors</a> function.
       
 
 

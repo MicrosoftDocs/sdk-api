@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadStr.htm
 old-project: properties
 ms.assetid: 2E3E86D6-B070-49fc-AAF0-D6DCF0EA16B7
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadStr, PSPropertyBag_ReadStr function [Windows Properties], properties.PSPropertyBag_ReadStr, propsys/PSPropertyBag_ReadStr, shell.PSPropertyBag_ReadStr, shell_PSPropertyBag_ReadStr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845078(v=VS.85).aspx">PSPropertyBag_WriteStr</a>
+<a href="shell.PSPropertyBag_WriteStr">PSPropertyBag_WriteStr</a>
  
 
  

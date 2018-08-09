@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4getfreeipaddress.htm
 old-project: dhcp
 ms.assetid: acce28e6-ea4a-4f27-8fb6-913f0e5aa52e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhcp.dhcpv4getfreeipaddress, dhcpsapi/DhcpV4GetFreeIPAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,41 +69,26 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the IPv4 subnet ID from which available addresses to lease to clients are retrieved.
 
 
-### -param StartIP
-
-TBD
+### -param StartIP [in]
 
 
-### -param EndIP
-
-TBD
+<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's starting point address from where the available addresses are retrieved. If this parameter is 0, the start address of the IPv4 subnet specified by <i>ScopeId</i> is the default.
 
 
-### -param NumFreeAddrReq
-
-TBD
-
-
-### -param IPAddrList [out]
-
-Pointer to a <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c03699a9aa0a">DHCP_IP_ARRAY</a> structure that contains the list of available IPv4 addresses that can be leased to clients.
-
-
-#### - endIP [in]
+### -param EndIP [in]
 
 
 <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's end point address from where the available addresses are retrieved. If this parameter is 0, the end address of the IPv4 subnet specified by <i>ScopeId</i> parameter is taken as the default.
 
 
-#### - numFreeAddrReq [in]
+### -param NumFreeAddrReq [in]
 
 Integer that specifies the number of IPv4 addresses retrieved from the specified scope in <i>IPAddrList</i>. If this parameter is 0, only one IPv4 address is returned.
 
 
-#### - startIP [in]
+### -param IPAddrList [out]
 
-
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that specifies the scope IPv4 range's starting point address from where the available addresses are retrieved. If this parameter is 0, the start address of the IPv4 subnet specified by <i>ScopeId</i> is the default.
+Pointer to a <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c03699a9aa0a">DHCP_IP_ARRAY</a> structure that contains the list of available IPv4 addresses that can be leased to clients.
 
 
 ## -returns

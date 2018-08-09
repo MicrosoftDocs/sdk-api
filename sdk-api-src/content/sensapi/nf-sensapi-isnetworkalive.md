@@ -4,10 +4,10 @@ title: IsNetworkAlive function
 author: windows-sdk-content
 description: The IsNetworkAlive function determines whether or not a local system is connected to a network, and identifies the type of network connection, for example, a LAN, WAN, or both.
 old-location: sens\isnetworkalive.htm
-old-project: Sens
+old-project: sens
 ms.assetid: 1a2f3acd-0626-4fb2-8c5f-f3a0704cc0b4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: IsNetworkAlive, IsNetworkAlive function [SENS], _zaw_isnetworkalive, sens.isnetworkalive, sensapi/IsNetworkAlive, syncmgr.isnetworkalive
 ms.prod: windows
 ms.technology: windows-sdk

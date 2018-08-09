@@ -7,7 +7,7 @@ old-location: gdi\paletteindex.htm
 old-project: gdi
 ms.assetid: 76d859fa-11a5-451f-9d7a-9cf0740eca36
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX, gdi.paletteindex, wingdi/PALETTEINDEX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,6 @@ The <b>PALETTEINDEX</b> macro accepts an index to a logical-color palette entry 
 
 
 ### -param i
-
-TBD
-
-
-
-
-
-
-#### - wPaletteIndex
 
 An index to the palette entry containing the color to be used for a graphics operation.
 

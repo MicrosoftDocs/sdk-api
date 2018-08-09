@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_insertembedded.htm
 old-project: TSF
 ms.assetid: 414842cc-7c3e-4f5c-93ac-3bd0eda5293e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbedded method, ITextStoreAnchor.InsertEmbedded, ITextStoreAnchor::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::InsertEmbedded, tsf.itextstoreanchor_insertembedded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,7 +177,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
@@ -185,14 +185,12 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/722506fa-db83-49d3-9434-a4ad7b797ce2">
-        ITextStoreAnchor::QueryInsertEmbedded
+<a href="https://msdn.microsoft.com/722506fa-db83-49d3-9434-a4ad7b797ce2">ITextStoreAnchor::QueryInsertEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/03beac03-cd09-4e03-b700-d96741e4932b">
-        ITextStoreAnchor::SetText
+<a href="https://msdn.microsoft.com/03beac03-cd09-4e03-b700-d96741e4932b">ITextStoreAnchor::SetText
       </a>
 
 
@@ -202,8 +200,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/a455d712-42d5-472e-862d-85ae3ba9149f">
-        TS_IE_* Constants
+<a href="https://msdn.microsoft.com/a455d712-42d5-472e-862d-85ae3ba9149f">TS_IE_* Constants
       </a>
  
 

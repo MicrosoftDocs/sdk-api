@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager.htm
 old-project: medfound
 ms.assetid: 66781a1f-7469-4222-9e99-6b1415830f4c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Adjusts playback quality. This interface is exposed by the quality manager.
+Adjusts playback quality. This interface is exposed by the quality manager.
         
 
 

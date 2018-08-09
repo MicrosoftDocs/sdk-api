@@ -7,7 +7,7 @@ old-location: intl\enumcalendarinfoex.htm
 old-project: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalization for Windows Applications], EnumCalendarInfoExA, EnumCalendarInfoExW, _win32_EnumCalendarInfoEx, intl.enumcalendarinfoex, winnls/EnumCalendarInfoEx, winnls/EnumCalendarInfoExA, winnls/EnumCalendarInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Enumerates calendar information for a locale specified by identifier.
 
 
 
-### -param lpCalInfoEnumProcEx
+### -param lpCalInfoEnumProcEx [in]
 
-TBD
+Pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/983c527d-f7dc-4771-ba3d-30ad763171a0">EnumCalendarInfoProcEx</a>.
 
 
 ### -param Locale [in]
@@ -109,11 +109,6 @@ TBD
 ### -param CalType [in]
 
 Type of calendar information. For more information, see <a href="https://msdn.microsoft.com/33361a97-0f27-477a-a0ee-3d4d3aaeaacf">Calendar Type Information</a>. Only one calendar type can be specified per call to this function, except where noted.
-
-
-#### - pCalInfoEnumProcEx [in]
-
-Pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/983c527d-f7dc-4771-ba3d-30ad763171a0">EnumCalendarInfoProcEx</a>.
 
 
 ## -returns

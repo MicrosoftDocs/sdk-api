@@ -7,7 +7,7 @@ old-location: tsf\itffnconfigureregistereudc.htm
 old-project: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
 ms.prod: windows
 ms.technology: windows-sdk

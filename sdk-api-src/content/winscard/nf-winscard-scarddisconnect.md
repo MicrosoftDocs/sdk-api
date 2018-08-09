@@ -4,10 +4,10 @@ title: SCardDisconnect function
 author: windows-sdk-content
 description: Terminates a connection previously opened between the calling application and a smart card in the target reader.
 old-location: security\scarddisconnect.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,7 +151,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

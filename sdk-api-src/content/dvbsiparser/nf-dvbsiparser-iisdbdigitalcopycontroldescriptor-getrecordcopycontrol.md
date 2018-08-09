@@ -7,7 +7,7 @@ old-location: mstv\iisdbdigitalcopycontroldescriptor_getrecordcopycontrol.htm
 old-project: mstv
 ms.assetid: 800e2263-b04a-4030-9aba-c0b38033b82d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordCopyControl, GetRecordCopyControl method [Microsoft TV Technologies], GetRecordCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetRecordCopyControl method, IIsdbDigitalCopyControlDescriptor.GetRecordCopyControl, IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetRecordCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getrecordcopycontrol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Gets copy control data from a specified component in an Integrated Services Digi
 ### -param bRecordIndex [in]
 
 Specifies the record number for the component,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/cc4e190e-8dd9-4e87-9f85-ed5ecea6eadc">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>
-  method to get the number of records in the digital copy control descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/cc4e190e-8dd9-4e87-9f85-ed5ecea6eadc">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>method to get the number of records in the digital copy control descriptor.
 
 
 ### -param pbComponentTag [out]

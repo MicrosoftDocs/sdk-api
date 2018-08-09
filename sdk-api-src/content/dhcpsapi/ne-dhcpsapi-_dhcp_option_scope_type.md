@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_scope_type.htm
 old-project: dhcp
 ms.assetid: 3e49bbe4-a8d2-4e1a-b66d-a7d4b45dd670
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_TYPE, DHCP_OPTION_SCOPE_TYPE, DHCP_OPTION_SCOPE_TYPE enumeration [DHCP], DhcpDefaultOptions, DhcpGlobalOptions, DhcpMScopeOptions, DhcpReservedOptions, DhcpSubnetOptions, LPDHCP_OPTION_SCOPE_TYPE, LPDHCP_OPTION_SCOPE_TYPE enumeration pointer [DHCP], _DHCP_OPTION_SCOPE_TYPE, dhcp.dhcp_option_scope_type, dhcpsapi/DHCP_OPTION_SCOPE_TYPE, dhcpsapi/DhcpDefaultOptions, dhcpsapi/DhcpGlobalOptions, dhcpsapi/DhcpMScopeOptions, dhcpsapi/DhcpReservedOptions, dhcpsapi/DhcpSubnetOptions, dhcpsapi/LPDHCP_OPTION_SCOPE_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DHCP_OPTION_SCOPE_TYPE</b> enumeration defines the set of possible DHCP option scopes.
+The <b>DHCP_OPTION_SCOPE_TYPE</b> enumeration defines the set of possible DHCP option scopes.
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: iphlp\getunidirectionaladapterinfo.htm
 old-project: iphlp
 ms.assetid: 32aa3a8e-ae74-4da9-bc8d-b28e270d9702
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetUniDirectionalAdapterInfo, GetUniDirectionalAdapterInfo function [IP Helper], _iphlp_getunidirectionaladapterinfo, iphlp.getunidirectionaladapterinfo, iphlpapi/GetUniDirectionalAdapterInfo
 ms.prod: windows
 ms.technology: windows-sdk

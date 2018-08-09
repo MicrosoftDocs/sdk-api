@@ -7,7 +7,7 @@ old-location: tsf\itfreadonlyproperty_getvalue.htm
 old-project: TSF
 ms.assetid: c82ef360-e0b1-4e1a-b839-36b8e9c52347
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetValue method, ITfReadOnlyProperty.GetValue, ITfReadOnlyProperty::GetValue, _tsf_itfreadonlyproperty_getvalue_ref, msctf/ITfReadOnlyProperty::GetValue, tsf.itfreadonlyproperty_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,20 +174,17 @@ TEXT:  this is some colored text
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">
-        ITfDocumentMgr::CreateContext
+<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange</a>
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a>
 
 
 

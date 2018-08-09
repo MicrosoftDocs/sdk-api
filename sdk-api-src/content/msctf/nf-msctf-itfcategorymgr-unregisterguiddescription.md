@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_unregisterguiddescription.htm
 old-project: TSF
 ms.assetid: 42bc1ddc-9f11-40dc-849c-2effc6efe1c8
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDescription method, ITfCategoryMgr.UnregisterGUIDDescription, ITfCategoryMgr::UnregisterGUIDDescription, UnregisterGUIDDescription, UnregisterGUIDDescription method [Text Services Framework], UnregisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregisterguiddescription_ref, msctf/ITfCategoryMgr::UnregisterGUIDDescription, tsf.itfcategorymgr_unregisterguiddescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,14 +117,12 @@ The GUID cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/e0c4f64e-7e20-4dff-b597-acc280aebf32">
-        ITfCategoryMgr::GetGUIDDescription
+<a href="https://msdn.microsoft.com/e0c4f64e-7e20-4dff-b597-acc280aebf32">ITfCategoryMgr::GetGUIDDescription
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/cb42e583-af5b-42ba-9637-889c7d4bdc82">
-        ITfCategoryMgr::RegisterGUIDDescription
+<a href="https://msdn.microsoft.com/cb42e583-af5b-42ba-9637-889c7d4bdc82">ITfCategoryMgr::RegisterGUIDDescription
       </a>
  
 

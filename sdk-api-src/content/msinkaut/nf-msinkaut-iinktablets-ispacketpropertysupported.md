@@ -7,7 +7,7 @@ old-location: tablet\inktablets_ispacketpropertysupported.htm
 old-project: tablet
 ms.assetid: f83caf4a-b8ca-4cee-9060-679128a1bd77
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablets interface [Tablet PC],IsPacketPropertySupported method, IInkTablets.IsPacketPropertySupported, IInkTablets::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::IsPacketPropertySupported, tablet.inktablets_ispacketpropertysupported
 ms.prod: windows
 ms.technology: windows-sdk
@@ -171,7 +171,7 @@ The flag is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
+<a href="tablet.iinktablets">IInkTablets</a>
 
 
 

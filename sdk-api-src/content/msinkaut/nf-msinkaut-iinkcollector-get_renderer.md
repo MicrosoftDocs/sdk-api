@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_renderer.htm
 old-project: tablet
 ms.assetid: 1abd8f85-88f5-4dc6-a0b8-9156b57c57a5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 1abd8f85-88f5-4dc6-a0b8-9156b57c57a5, IInkCollector interface [Tablet PC],Renderer property, IInkCollector.Renderer, IInkCollector.get_Renderer, IInkCollector::Renderer, IInkCollector::get_Renderer, IInkCollector::putref_Renderer, InkCollector.get_Renderer, Put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkCollector interface, get_Renderer, msinkaut/IInkCollector::Renderer, msinkaut/IInkCollector::get_Renderer, msinkaut/IInkCollector::putref_Renderer, tablet.inkcollector_renderer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ When handling certain window messages, changing the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="tablet.iinkcollector">IInkCollector</a>
 
 
 

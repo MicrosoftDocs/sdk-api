@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextgetspi1.htm
 old-project: fwp
 ms.assetid: 623ef4ab-5bcc-4801-ba18-a246da392abe
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaContextGetSpi1, IPsecSaContextGetSpi1 function [Filtering], fwp.ipsecsacontextgetspi1, fwpmu/IPsecSaContextGetSpi1
 ms.prod: windows
 ms.technology: windows-sdk

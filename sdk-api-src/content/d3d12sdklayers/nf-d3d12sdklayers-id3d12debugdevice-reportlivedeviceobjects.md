@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice_reportlivedeviceobjects.htm
 old-project: direct3d12
 ms.assetid: 37771598-DC2E-42FA-B17D-A187164A3314
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12DebugDevice interface,ReportLiveDeviceObjects method, ID3D12DebugDevice.ReportLiveDeviceObjects, ID3D12DebugDevice::ReportLiveDeviceObjects, ReportLiveDeviceObjects, ReportLiveDeviceObjects method, ReportLiveDeviceObjects method,ID3D12DebugDevice interface, d3d12sdklayers/ID3D12DebugDevice::ReportLiveDeviceObjects, direct3d12.id3d12debugdevice_reportlivedeviceobjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,10 +72,10 @@ A value from the <a href="https://msdn.microsoft.com/FF868102-26FC-4541-9C21-0B8
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
-            <a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a>
+            <a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a>
 
 
 

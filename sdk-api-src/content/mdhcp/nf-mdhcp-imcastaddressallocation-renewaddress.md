@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_renewaddress.htm
 old-project: tapi
 ms.assetid: 9f52d1e9-61d9-4f67-b180-c1844b4eb7f1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RenewAddress method, IMcastAddressAllocation.RenewAddress, IMcastAddressAllocation::RenewAddress, RenewAddress, RenewAddress method [TAPI 2.2], RenewAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_renewaddress, mdhcp/IMcastAddressAllocation::RenewAddress, tapi3.imcastaddressallocation_renewaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
  The 

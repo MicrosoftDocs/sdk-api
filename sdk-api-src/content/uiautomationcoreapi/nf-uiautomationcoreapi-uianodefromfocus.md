@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromFocusFunction.htm
 old-project: WinAuto
 ms.assetid: 6ea47aee-1f9f-40e1-8c55-a1813203575e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaNodeFromFocus, UiaNodeFromFocus function [Windows Accessibility], uiauto.uiauto_UiaNodeFromFocusFunction, uiauto_UiaNodeFromFocusFunction, uiautomationcoreapi/UiaNodeFromFocus, winauto.uiauto_UiaNodeFromFocusFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ The address of a variable that receives a pointer to a <a href="http://go.micros
 				This parameter is passed uninitialized.
 
 
-### -param ppTreeStructure
-
-TBD
-
-
-
-
-#### - pTreeStructure [out]
+### -param ppTreeStructure [out]
 
 Type: <b>BSTR*</b>
 

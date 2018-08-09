@@ -7,7 +7,7 @@ old-location: mf\mfp_acquire_user_credential_event.htm
 old-project: medfound
 ms.assetid: 61767b81-8641-43d5-b272-148d52517727
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation], mf.mfp_acquire_user_credential_event, mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,8 +130,7 @@ Pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d5
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  callback method.  You can use the <a href="https://msdn.microsoft.com/4079acb8-8ae2-46e3-b7d9-50a700696fd6">MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  callback method.  You can use the <a href="https://msdn.microsoft.com/4079acb8-8ae2-46e3-b7d9-50a700696fd6">MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT</a> macro for this purpose.
 
 If the <b>flags</b> member contains the <b>MFP_CREDENTIAL_PROMPT</b> flag, the application should do the following:
 

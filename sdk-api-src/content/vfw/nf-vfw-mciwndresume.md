@@ -7,7 +7,7 @@ old-location: multimedia\mciwndresume.htm
 old-project: Multimedia
 ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
 ms.prod: windows
 ms.technology: windows-sdk

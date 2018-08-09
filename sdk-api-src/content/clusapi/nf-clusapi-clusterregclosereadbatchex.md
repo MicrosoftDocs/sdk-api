@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosereadbatchex.htm
 old-project: mscs
 ms.assetid: 45509B96-F67D-4754-B073-0B881D681011
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegCloseReadBatchEx, ClusterRegCloseReadBatchEx function [Failover Cluster], IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX function [Failover Cluster], clusapi/ClusterRegCloseReadBatchEx, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,10 +81,10 @@ The flags for the operation.
 A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a> function.
 
 
-##### - flags.IsolatedRead (2)
-
-
 ##### - flags.None (0)
+
+
+##### - flags.IsolatedRead (2)
 
 
 ## -returns

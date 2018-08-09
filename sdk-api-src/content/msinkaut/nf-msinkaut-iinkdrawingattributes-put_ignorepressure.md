@@ -7,7 +7,7 @@ old-location: tablet\inkdrawingattributes_ignorepressure.htm
 old-project: tablet
 ms.assetid: adf5beec-75df-46a3-91e4-33595340aca2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],IgnorePressure property, IInkDrawingAttributes.IgnorePressure, IInkDrawingAttributes.put_IgnorePressure, IInkDrawingAttributes::IgnorePressure, IInkDrawingAttributes::get_IgnorePressure, IInkDrawingAttributes::put_IgnorePressure, IgnorePressure property [Tablet PC], IgnorePressure property [Tablet PC],IInkDrawingAttributes interface, InkDrawingAttributes.get_IgnorePressure, InkDrawingAttributes.put_IgnorePressure, adf5beec-75df-46a3-91e4-33595340aca2, get_Width, msinkaut/IInkDrawingAttributes::IgnorePressure, msinkaut/IInkDrawingAttributes::get_IgnorePressure, msinkaut/IInkDrawingAttributes::put_IgnorePressure, put_IgnorePressure, put_Width, tablet.inkdrawingattributes_ignorepressure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ The greater the pressure on the pen tip, the more ink that is drawn. Set this pr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
 
 
 

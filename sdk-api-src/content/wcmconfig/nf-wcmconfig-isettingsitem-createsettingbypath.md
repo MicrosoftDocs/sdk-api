@@ -4,10 +4,10 @@ title: ISettingsItem::CreateSettingByPath
 author: windows-sdk-content
 description: Creates a setting object specified by the path.
 old-location: smi\isettingsitem_createsettingbypath.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\polylineto.htm
 old-project: gdi
 ms.assetid: 76020742-b651-4244-82c3-13034573c306
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PolylineTo, PolylineTo function [Windows GDI], _win32_PolylineTo, gdi.polylineto, wingdi/PolylineTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,26 +65,14 @@ The <b>PolylineTo</b> function draws one or more straight lines.
 A handle to the device context.
 
 
-### -param apt
-
-TBD
-
-
-### -param cpt
-
-TBD
-
-
-
-
-#### - cCount [in]
-
-The number of points in the array.
-
-
-#### - lppt [in]
+### -param apt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contains the vertices of the line, in logical units.
+
+
+### -param cpt [in]
+
+The number of points in the array.
 
 
 ## -returns

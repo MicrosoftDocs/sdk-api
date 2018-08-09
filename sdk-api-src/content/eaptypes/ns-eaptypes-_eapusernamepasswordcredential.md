@@ -7,7 +7,7 @@ old-location: eaphost\eapusernamepasswordcredential.htm
 old-project: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], _EapUsernamePasswordCredential, eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ A NULL-terminated Unicode string that contains the username that needs authentic
 
 ### -field password
 
-A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the <a href="https://msdn.microsoft.com/library/Aa374803(v=VS.85).aspx">CredProtect</a> function. The EAP method must use the <a href="https://msdn.microsoft.com/7a22fb2b-edfc-45f2-b2d2-729f3761584d">CredUnprotect</a> function to retrieve the unencrypted password.
+A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the <a href="EapUsernamePasswordCredential ">CredProtect</a> function. The EAP method must use the <a href="https://msdn.microsoft.com/7a22fb2b-edfc-45f2-b2d2-729f3761584d">CredUnprotect</a> function to retrieve the unencrypted password.
 
 
 ## -see-also

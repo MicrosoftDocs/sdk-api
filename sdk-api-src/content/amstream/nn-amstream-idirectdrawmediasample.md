@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediasample.htm
 old-project: DirectShow
 ms.assetid: 0a83b257-e88f-4870-924c-56ddc325f17f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], IDirectDrawMediaSample interface [DirectShow],described, IDirectDrawMediaSampleInterface, amstream/IDirectDrawMediaSample, dshow.idirectdrawmediasample
 ms.prod: windows
 ms.technology: windows-sdk

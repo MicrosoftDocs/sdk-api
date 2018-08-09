@@ -4,10 +4,10 @@ title: PdhReadRawLogRecord function
 author: windows-sdk-content
 description: Reads the information in the specified binary trace log file.
 old-location: perf\pdhreadrawlogrecord.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: fb93b6ea-ca31-4ff1-a553-b02388be8b72
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Reads the information in the specified binary trace log file.
+Reads the information in the specified binary trace log file.
 		
 
 
@@ -87,8 +86,7 @@ Size of the <i>pRawLogRecord</i> buffer, in <b>TCHARs</b>. If zero on input, the
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

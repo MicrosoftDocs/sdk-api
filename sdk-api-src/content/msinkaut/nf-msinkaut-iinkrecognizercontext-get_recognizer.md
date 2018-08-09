@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_recognizer.htm
 old-project: tablet
 ms.assetid: a15234b1-1ac2-4241-b1cd-eb9702ee2a49
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Recognizer property, IInkRecognizerContext.Recognizer, IInkRecognizerContext.get_Recognizer, IInkRecognizerContext::Recognizer, IInkRecognizerContext::get_Recognizer, InkRecognizerContext.get_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkRecognizerContext interface, a15234b1-1ac2-4241-b1cd-eb9702ee2a49, get_Recognizer, msinkaut/IInkRecognizerContext::Recognizer, msinkaut/IInkRecognizerContext::get_Recognizer, put_Recognizer, tablet.inkrecognizercontext_recognizer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
 
 
 

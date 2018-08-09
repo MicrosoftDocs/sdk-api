@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextgetbyid0_func.htm
 old-project: fwp
 ms.assetid: afa32d9b-17fd-44f0-b2df-119ca3aed5cd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderContextGetById0, FwpmProviderContextGetById0 function [Filtering], fwp.fwpmprovidercontextgetbyid0_func, fwpmu/FwpmProviderContextGetById0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FwpmProviderContextGetById0</b> function retrieves a provider context.
+The <b>FwpmProviderContextGetById0</b> function retrieves a provider context.
 <div class="alert"><b>Note</b>  <b>FwpmProviderContextGetById0</b> is the specific implementation of FwpmProviderContextGetById used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7,  <a href="https://msdn.microsoft.com/76353efa-844e-4c7f-9f9a-0bf2e247c58b">FwpmProviderContextGetById1</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/50578a7a-d869-4fad-a159-f69a234069e6">FwpmProviderContextGetById2</a> is available.</div><div> </div>
 
 ## -parameters

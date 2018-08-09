@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowVisualState.
 old-project: WinAuto
 ms.assetid: 49e1a441-0ba8-4b76-afe8-6b81a489ff92
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedWindowVisualState property [Windows Accessibility], CachedWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedWindowVisualState property, IUIAutomationWindowPattern.CachedWindowVisualState, IUIAutomationWindowPattern.get_CachedWindowVisualState, IUIAutomationWindowPattern::CachedWindowVisualState, IUIAutomationWindowPattern::get_CachedWindowVisualState, get_CachedWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: eaphost\eappeerinvokeidentityui.htm
 old-project: eaphost
 ms.assetid: 9b3a525a-2322-496e-83c7-a3180235583a
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerInvokeIdentityUI, EapPeerInvokeIdentityUI function [EAPHost], eaphost.eappeerinvokeidentityui, eapmethodpeerapis/EapPeerInvokeIdentityUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Raises a custom interactive user interface dialog to obtain user identity inform
 An <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> structure that contains vendor and author information about the EAP method used for authenticating the connection.
 
 
-### -param dwFlags
+### -param dwFlags [in]
 
-TBD
+A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ### -param hwndParent [in]
@@ -98,8 +98,7 @@ Otherwise, set this parameter to the <b>pUserData</b> member of the structure po
 
 ### -param pdwSizeOfUserDataOut [out]
 
-Specifies the size, in bytes, of the <i>ppUserDataOut</i>
-buffer.
+Specifies the size, in bytes, of the <i>ppUserDataOut</i>buffer.
 
 
 ### -param ppUserDataOut [out]
@@ -115,11 +114,6 @@ A pointer to the pointer of the returned user data. The data is passed to <a hre
 ### -param ppEapError [out]
 
 A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/85b4197c-5caf-4e2b-94fd-e651712dd39d">EapPeerFreeErrorMemory</a>.
-
-
-#### - dwflags [in]
-
-A combination of <a href="https://msdn.microsoft.com/b6305349-3418-475e-8a37-2c06b399556e">EAP flags</a> that describe the  EAP authentication session behavior.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregistercomplete.htm
 old-project: seccrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvRestoreRegisterComplete</b>  function completes a registered Certificate Services restore operation.
+The <b>CertSrvRestoreRegisterComplete</b>  function completes a registered Certificate Services restore operation.
 
 
 ## -parameters
@@ -74,8 +73,7 @@ A handle to a Certificate Services restore context. You must set this handle by 
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

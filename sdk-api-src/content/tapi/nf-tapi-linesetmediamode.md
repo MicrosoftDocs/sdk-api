@@ -4,10 +4,10 @@ title: lineSetMediaMode function
 author: windows-sdk-content
 description: The lineSetMediaMode function sets the media type(s) of the specified call in its LINECALLINFO structure. For more information, see ITLegacyCallMediaControl::SetMediaType.
 old-location: tapi2\linesetmediamode.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_linesetmediamode, lineSetMediaMode, lineSetMediaMode function [TAPI 2.2], tapi/lineSetMediaMode, tapi2.linesetmediamode"
 ms.prod: windows
 ms.technology: windows-sdk

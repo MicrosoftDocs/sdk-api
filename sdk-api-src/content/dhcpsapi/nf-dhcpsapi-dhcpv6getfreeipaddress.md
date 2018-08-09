@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6getfreeipaddress.htm
 old-project: dhcp
 ms.assetid: 4448bbfb-5942-42f9-8daf-3bf86e124052
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV6GetFreeIPAddress, DhcpV6GetFreeIPAddress function [DHCP], dhcp.dhcpv6getfreeipaddress, dhcpsapi/DhcpV6GetFreeIPAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,41 +69,26 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 <a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure that specifies the IPv6 subnet ID from which available addresses to lease to clients are retrieved.
 
 
-### -param StartIP
-
-TBD
+### -param StartIP [in]
 
 
-### -param EndIP
-
-TBD
+<a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure that specifies the scope IPv6 range's starting point address from where the available addresses are retrieved. If this parameter is 0, the start address of the IPv6 subnet specified by <i>ScopeId</i> is the default.
 
 
-### -param NumFreeAddrReq
-
-TBD
-
-
-### -param IPAddrList [out]
-
-Pointer to a <a href="https://msdn.microsoft.com/B87CF991-FFC8-4CB4-8EE9-66716EC9B58D">DHCPV6_IP_ARRAY</a> structure that contains the list of available IPv6 addresses that can be leased to clients.
-
-
-#### - endIP [in]
+### -param EndIP [in]
 
 
 <a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure that specifies the scope IPv6 range's end point address from where the available addresses are retrieved. If this parameter is 0, the end address of the IPv6 subnet specified by <i>ScopeId</i> parameter is taken as the default.
 
 
-#### - numFreeAddrReq [in]
+### -param NumFreeAddrReq [in]
 
 Integer that specifies the number of IPv6 addresses retrieved from the specified scope in <i>IPAddrList</i>. If this parameter is 0, only one IPv6 address is returned.
 
 
-#### - startIP [in]
+### -param IPAddrList [out]
 
-
-<a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure that specifies the scope IPv6 range's starting point address from where the available addresses are retrieved. If this parameter is 0, the start address of the IPv6 subnet specified by <i>ScopeId</i> is the default.
+Pointer to a <a href="https://msdn.microsoft.com/B87CF991-FFC8-4CB4-8EE9-66716EC9B58D">DHCPV6_IP_ARRAY</a> structure that contains the list of available IPv6 addresses that can be leased to clients.
 
 
 ## -returns

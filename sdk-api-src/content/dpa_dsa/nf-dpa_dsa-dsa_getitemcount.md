@@ -7,7 +7,7 @@ old-location: controls\DSA_GetItemCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_getitemcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_GetItemCount, DSA_GetItemCount macro [Windows Controls], _shell_DSA_GetItemCount, _shell_DSA_GetItemCount_cpp, controls.DSA_GetItemCount, controls._shell_DSA_GetItemCount, dpa_dsa/DSA_GetItemCount
 ms.prod: windows
 ms.technology: windows-sdk

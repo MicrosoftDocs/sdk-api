@@ -7,7 +7,7 @@ old-location: tsf\itfrangeacp.htm
 old-project: TSF
 ms.assetid: aaa497ca-4cf2-401a-a6d8-cc8a75479cc4
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], ITfRangeACP interface [Text Services Framework],described, _tsf_itfrangeacp_ref, msctf/ITfRangeACP, tsf.itfrangeacp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Sets the application character position and length of the range object.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

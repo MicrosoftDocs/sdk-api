@@ -7,7 +7,7 @@ old-location: winprog\_dciman_dciopenprovider.htm
 old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciopenprovider.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dciopenprovider, dciman/DCIOpenProvider, winprog._dciman_dciopenprovider, winui._dciman_dciopenprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Device context handle of display.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

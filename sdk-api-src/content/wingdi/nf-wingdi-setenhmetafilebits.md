@@ -7,7 +7,7 @@ old-location: gdi\setenhmetafilebits.htm
 old-project: gdi
 ms.assetid: 0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetEnhMetaFileBits, SetEnhMetaFileBits function [Windows GDI], _win32_SetEnhMetaFileBits, gdi.setenhmetafilebits, wingdi/SetEnhMetaFileBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,24 +63,12 @@ The <b>SetEnhMetaFileBits</b> function creates a memory-based enhanced-format me
 
 
 
-### -param nSize
-
-TBD
-
-
-### -param pb
-
-TBD
-
-
-
-
-#### - cbBuffer [in]
+### -param nSize [in]
 
 Specifies the size, in bytes, of the data provided.
 
 
-#### - lpData [in]
+### -param pb [in]
 
 Pointer to a buffer that contains enhanced-metafile data. (It is assumed that the data in the buffer was obtained by calling the <a href="https://msdn.microsoft.com/2bbfa0da-5b1e-4843-9777-c2e4c5fd3b78">GetEnhMetaFileBits</a> function.)
 

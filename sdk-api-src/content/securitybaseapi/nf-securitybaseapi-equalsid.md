@@ -7,7 +7,7 @@ old-location: security\equalsid.htm
 old-project: secauthz
 ms.assetid: 08420df3-f6e6-462e-a2e6-d2a7a90be8ed
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: EqualSid, EqualSid function [Security], _win32_equalsid, security.equalsid, securitybaseapi/EqualSid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ If either <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

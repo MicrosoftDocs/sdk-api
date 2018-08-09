@@ -7,7 +7,7 @@ old-location: tsf\itfcompartment_getvalue.htm
 old-project: TSF
 ms.assetid: 31a9efbd-ebde-4877-a387-ebaccd97d732
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue method [Text Services Framework],ITfCompartment interface, ITfCompartment interface [Text Services Framework],GetValue method, ITfCompartment.GetValue, ITfCompartment::GetValue, _tsf_itfcompartment_getvalue_ref, msctf/ITfCompartment::GetValue, tsf.itfcompartment_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pvarValue [out]
 
-Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
 
 
 ## -returns
@@ -147,7 +147,7 @@ The caller must recognize the supplied data format in order to use the data. The
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a>
+<a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
  
 
  

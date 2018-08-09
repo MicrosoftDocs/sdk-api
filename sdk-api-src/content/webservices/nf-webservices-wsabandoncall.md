@@ -7,7 +7,7 @@ old-location: wsw\wsabandoncall.htm
 old-project: wsw
 ms.assetid: 709af94d-44ad-46af-8771-99d0aba5d77d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsAbandonCall, WsAbandonCall function [Web Services for Windows], webservices/WsAbandonCall, wsw.wsabandoncall
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_settoponodeid.htm
 old-project: medfound
 ms.assetid: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d, IMFTopologyNode interface [Media Foundation],SetTopoNodeID method, IMFTopologyNode.SetTopoNodeID, IMFTopologyNode::SetTopoNodeID, SetTopoNodeID, SetTopoNodeID method [Media Foundation], SetTopoNodeID method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_settoponodeid, mfidl/IMFTopologyNode::SetTopoNodeID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sets the identifier for the node.
+Sets the identifier for the node.
 
 
 ## -parameters
@@ -70,8 +69,7 @@ req.product: GDI+ 1.1
 
 #### - llTopoID [in]
 
-
-            The identifier for the node.
+The identifier for the node.
           
 
 
@@ -93,8 +91,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -106,8 +103,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> has already been set for this object.
+The <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> has already been set for this object.
               
 
 </td>
@@ -122,8 +118,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        When a node is first created, it is assigned an identifier. Typically there is no reason for an application to override the identifier. Within a topology, each node identifier should be unique.
+When a node is first created, it is assigned an identifier. Typically there is no reason for an application to override the identifier. Within a topology, each node identifier should be unique.
       
 
 

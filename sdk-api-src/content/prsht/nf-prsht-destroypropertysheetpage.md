@@ -7,7 +7,7 @@ old-location: controls\DestroyPropertySheetPage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function.
+Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function.
 
 
 ## -parameters
@@ -60,13 +60,6 @@ Destroys a property sheet page. An application must call this function for pages
 
 
 ### -param Arg1
-
-TBD
-
-
-
-
-#### - hPSPage
 
 Type: <b>HPROPSHEETPAGE</b>
 

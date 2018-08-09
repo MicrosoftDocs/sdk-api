@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobjectwindowless.htm
 old-project: com
 ms.assetid: 86aabb46-6bc7-4953-b4eb-8692552ca380
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleInPlaceObjectWindowless, IOleInPlaceObjectWindowless interface [COM], IOleInPlaceObjectWindowless interface [COM],described, _ole_ioleinplaceobjectwindowless, com.ioleinplaceobjectwindowless, ocidl/IOleInPlaceObjectWindowless
 ms.prod: windows
 ms.technology: windows-sdk

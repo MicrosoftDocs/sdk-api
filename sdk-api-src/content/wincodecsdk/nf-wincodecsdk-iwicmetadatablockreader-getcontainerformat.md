@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockreader_getcontainerformat.htm
 old-project: wic
 ms.assetid: b53e6b4e-e5b9-4e4a-b10b-443e3ca2d689
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataBlockReader.GetContainerFormat, IWICMetadataBlockReader::GetContainerFormat, _wic_codec_iwicmetadatablockreader_getcontainerformat, wic._wic_codec_iwicmetadatablockreader_getcontainerformat, wincodecsdk/IWICMetadataBlockReader::GetContainerFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Retrieves the container format of the decoder.
 
 Type: <b>GUID*</b>
 
-The container format of the decoder. The native container format GUIDs are listed in <a href="https://msdn.microsoft.com/en-us/library/Ee719882(v=VS.85).aspx">WIC GUIDs and CLSIDs</a>.
+The container format of the decoder. The native container format GUIDs are listed in <a href="_wic_guids_clsids.htm">WIC GUIDs and CLSIDs</a>.
 
 
 ## -returns

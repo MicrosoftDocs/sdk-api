@@ -7,7 +7,7 @@ old-location: mf\mfoffset.htm
 old-project: medfound
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], _MFOffset, e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Specifies an offset as a fixed-point real number.
+Specifies an offset as a fixed-point real number.
         
 
 
@@ -63,15 +62,13 @@ req.product: GDI+ 1.1
 
 ### -field fract
 
-
-            The fractional part of the number.
+The fractional part of the number.
           
 
 
 ### -field value
 
-
-            The integer part of the number.
+The integer part of the number.
           
 
 
@@ -79,8 +76,7 @@ req.product: GDI+ 1.1
 
 
 
-
-        The value of the number is <b>value</b> + (<b>fract</b> / 65536.0f).
+The value of the number is <b>value</b> + (<b>fract</b> / 65536.0f).
 
 
 #### Examples

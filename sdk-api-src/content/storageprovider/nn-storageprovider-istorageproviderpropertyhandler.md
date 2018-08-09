@@ -7,7 +7,7 @@ old-location: shell\istorageproviderpropertyhandler.htm
 old-project: shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IStorageProviderPropertyHandler interface
@@ -79,7 +80,7 @@ Gets the properties managed by the sync engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt149092(v=VS.85).aspx">SaveProperties</a>
+<a href="https://msdn.microsoft.com/983751BA-BF36-4018-A95A-4BEA1E9BA3BF">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Saves properties associated with a file or folder.

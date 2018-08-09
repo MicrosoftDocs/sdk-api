@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_drawstroke.htm
 old-project: tablet
 ms.assetid: 3d8b7892-a120-452a-b83c-474df9be5f52
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 3d8b7892-a120-452a-b83c-474df9be5f52, DrawStroke, DrawStroke method [Tablet PC], DrawStroke method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],DrawStroke method, IInkRenderer.DrawStroke, IInkRenderer::DrawStroke, msinkaut/IInkRenderer::DrawStroke, tablet.inkrenderer_drawstroke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,7 +196,7 @@ The <a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">In
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="tablet.iinkrenderer">IInkRenderer</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: taskschd\itask_settaskflags.htm
 old-project: taskschd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the flags that modify the behavior of a scheduled <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task</a>.
+This method sets the flags that modify the behavior of a scheduled <a href="t.htm">task</a>.
 
 
 ## -parameters

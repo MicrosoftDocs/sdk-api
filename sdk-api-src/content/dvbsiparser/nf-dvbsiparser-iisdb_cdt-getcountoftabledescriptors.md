@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: ea01a53f-8d0b-4594-87b4-d293901fca19
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_CDT.GetCountOfTableDescriptors, IISDB_CDT::GetCountOfTableDescriptors, dvbsiparser/IISDB_CDT::GetCountOfTableDescriptors, mstv.iisdb_cdt_getcountoftabledescriptors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns the number of descriptors for logos in
+Returns the number of descriptors for logos in
   an Integrated Services Digital Broadcasting (ISDB) common data table (CDT). 
 
 

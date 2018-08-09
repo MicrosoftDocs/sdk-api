@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_fullscreenmode.htm
 old-project: DirectShow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>get_FullScreenMode</code> method queries whether the video renderer is
 
 ### -param FullScreenMode [out]
 
-
-            Receives the value OATRUE if the video renderer is in full-screen mode, or OAFALSE otherwise.
+Receives the value OATRUE if the video renderer is in full-screen mode, or OAFALSE otherwise.
           
 
 

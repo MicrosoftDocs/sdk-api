@@ -7,7 +7,7 @@ old-location: mf\dxvahdsw_callbacks.htm
 old-project: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], _DXVAHDSW_CALLBACKS, dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,26 +102,22 @@ Function pointer of type <a href="https://msdn.microsoft.com/0b633dcc-c6eb-47e5-
 
 ### -field GetVideoProcessorFilterRange
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/3c28ffcf-dad5-4ed1-8b04-12e22fd566a4">PDXVAHDSW_GetVideoProcessorFilterRange</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/3c28ffcf-dad5-4ed1-8b04-12e22fd566a4">PDXVAHDSW_GetVideoProcessorFilterRange</a>.
 
 
 ### -field DestroyDevice
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e">PDXVAHDSW_DestroyDevice</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e">PDXVAHDSW_DestroyDevice</a>.
 
 
 ### -field CreateVideoProcessor
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/69ddcfc4-e91a-4ad5-ac0f-41683352d55a">PDXVAHDSW_CreateVideoProcessor</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/69ddcfc4-e91a-4ad5-ac0f-41683352d55a">PDXVAHDSW_CreateVideoProcessor</a>.
 
 
 ### -field SetVideoProcessBltState
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/604af2f8-42e8-465c-a49f-8c6c9bcc84dd">PDXVAHDSW_SetVideoProcessBltState</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/604af2f8-42e8-465c-a49f-8c6c9bcc84dd">PDXVAHDSW_SetVideoProcessBltState</a>.
 
 
 ### -field GetVideoProcessBltStatePrivate
@@ -132,26 +128,22 @@ Function pointer of type <a href="https://msdn.microsoft.com/32154457-5270-4e60-
 
 ### -field SetVideoProcessStreamState
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/1fbecdbd-9f04-4d1e-82a6-4c6ce522cdaf">PDXVAHDSW_SetVideoProcessStreamState</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/1fbecdbd-9f04-4d1e-82a6-4c6ce522cdaf">PDXVAHDSW_SetVideoProcessStreamState</a>.
 
 
 ### -field GetVideoProcessStreamStatePrivate
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/db751314-8c3c-4969-87c4-0b2b2201ce20">PDXVAHDSW_GetVideoProcessStreamStatePrivate</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/db751314-8c3c-4969-87c4-0b2b2201ce20">PDXVAHDSW_GetVideoProcessStreamStatePrivate</a>.
 
 
 ### -field VideoProcessBltHD
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/94e6b59f-dd00-4d32-b1ca-a592a67cd0ec">PDXVAHDSW_VideoProcessBltHD</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/94e6b59f-dd00-4d32-b1ca-a592a67cd0ec">PDXVAHDSW_VideoProcessBltHD</a>.
 
 
 ### -field DestroyVideoProcessor
 
-
-          Function pointer of type <a href="https://msdn.microsoft.com/46667a66-3638-4cf0-9966-3e659d00f914">PDXVAHDSW_DestroyVideoProcessor</a>.
+Function pointer of type <a href="https://msdn.microsoft.com/46667a66-3638-4cf0-9966-3e659d00f914">PDXVAHDSW_DestroyVideoProcessor</a>.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsinkex_writestreamparameter.htm
 old-project: WmiSdk
 ms.assetid: 609ed388-3d6a-49ba-91ae-78a34bddd100
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteStreamParameter method, IWbemObjectSinkEx.WriteStreamParameter, IWbemObjectSinkEx::WriteStreamParameter, WriteStreamParameter, WriteStreamParameter method [Windows Management Instrumentation], WriteStreamParameter method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteStreamParameter, wmi.iwbemobjectsinkex_writestreamparameter
 ms.prod: windows
 ms.technology: windows-sdk

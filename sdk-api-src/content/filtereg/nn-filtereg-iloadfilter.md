@@ -7,7 +7,7 @@ old-location: search\iloadfilter.htm
 old-project: search
 ms.assetid: 7ac51909-fa0e-4f97-8da0-0ab4c5de7d60
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ This method is not implemented.
 
 
 
-A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a> interface.
+A filter, also known as a filter handler, is an implementation of the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> interface.
 
 
 
@@ -118,7 +118,7 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940430(v=VS.85).aspx">Developing Filter Handlers</a>
+<a href="https://msdn.microsoft.com/7b24986b-972d-4674-846b-f856b908edf4">Developing Filter Handlers</a>
 
 
 
@@ -126,7 +126,7 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>
 
 
 

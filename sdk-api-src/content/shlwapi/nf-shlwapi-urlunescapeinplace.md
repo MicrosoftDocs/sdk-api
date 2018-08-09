@@ -7,7 +7,7 @@ old-location: shell\UrlUnescapeInPlace.htm
 old-project: shell
 ms.assetid: 315215dc-c074-4abb-8bb2-006eff18b88d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, UrlUnescapeInPlace, UrlUnescapeInPlace function [Windows Shell], _win32_UrlUnescapeInPlace, shell.UrlUnescapeInPlace, shlwapi/UrlUnescapeInPlace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ Converts escape sequences back into ordinary characters and overwrites the origi
 
 
 
-### -param pszUrl
+### -param pszUrl [in, out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to a <b>null</b>-terminated string that contains the URL. The converted string is returned through this parameter.
 
 
 ### -param dwFlags [in]
@@ -75,13 +77,6 @@ The flags that control which characters are unescaped.
 #### URL_DONT_UNESCAPE_EXTRA_INFO
 
 Do not convert the # or ? character, or any characters following them in the string.
-
-
-#### - pszURL [in, out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to a <b>null</b>-terminated string that contains the URL. The converted string is returned through this parameter.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getmodified.htm
 old-project: printdocs
 ms.assetid: 364beb9d-01e7-477c-92b2-f2fdb19a87f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetModified method, IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ The <b>modified</b> property contains the date and time the package was last mod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx">SYSTEMTIME</a>
+<a href="_win32_systemtime_str">SYSTEMTIME</a>
 
 
 

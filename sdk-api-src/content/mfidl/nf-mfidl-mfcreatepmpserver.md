@@ -7,7 +7,7 @@ old-location: mf\mfcreatepmpserver.htm
 old-project: medfound
 ms.assetid: 2bf5541e-9b7e-4e7a-a868-4956c1f70882
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2bf5541e-9b7e-4e7a-a868-4956c1f70882, MFCreatePMPServer, MFCreatePMPServer function [Media Foundation], mf.mfcreatepmpserver, mfidl/MFCreatePMPServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

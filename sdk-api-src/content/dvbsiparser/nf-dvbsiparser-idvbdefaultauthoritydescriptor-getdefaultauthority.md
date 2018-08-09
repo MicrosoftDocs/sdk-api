@@ -7,7 +7,7 @@ old-location: mstv\idvbdefaultauthoritydescriptor_getdefaultauthority.htm
 old-project: mstv
 ms.assetid: dd615bd1-3db7-4577-aa10-d68ad61b068c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDefaultAuthority, GetDefaultAuthority method [Microsoft TV Technologies], GetDefaultAuthority method [Microsoft TV Technologies],IDvbDefaultAuthorityDescriptor interface, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],GetDefaultAuthority method, IDvbDefaultAuthorityDescriptor.GetDefaultAuthority, IDvbDefaultAuthorityDescriptor::GetDefaultAuthority, dvbsiparser/IDvbDefaultAuthorityDescriptor::GetDefaultAuthority, mstv.idvbdefaultauthoritydescriptor_getdefaultauthority
 ms.prod: windows
 ms.technology: windows-sdk

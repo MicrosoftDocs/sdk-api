@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfilesenumerator.htm
 old-project: appxpkg
 ms.assetid: AC2E55C3-1EEF-4867-BECC-37F6269029D6
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxBlockMapFilesEnumerator, IAppxBlockMapFilesEnumerator interface [App packaging and management], IAppxBlockMapFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxBlockMapFilesEnumerator, appxpkg.iappxblockmapfilesenumerator
 ms.prod: windows
 ms.technology: windows-sdk

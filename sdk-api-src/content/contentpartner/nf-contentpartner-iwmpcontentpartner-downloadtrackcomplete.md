@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_downloadtrackcomplete.htm
 old-project: WMP
 ms.assetid: 9614e266-259c-411f-93cf-9be87c930b16
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: DownloadTrackComplete, DownloadTrackComplete method [Windows Media Player], DownloadTrackComplete method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],DownloadTrackComplete method, IWMPContentPartner.DownloadTrackComplete, IWMPContentPartner::DownloadTrackComplete, IWMPContentPartnerDownloadTrackComplete, contentpartner/IWMPContentPartner::DownloadTrackComplete, wmp.iwmpcontentpartner_downloadtrackcomplete
 ms.prod: windows
 ms.technology: windows-sdk

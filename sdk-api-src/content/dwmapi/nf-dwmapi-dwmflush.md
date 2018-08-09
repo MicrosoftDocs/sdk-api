@@ -7,7 +7,7 @@ old-location: dwm\dwmflush.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmflush.htm
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 08/06/2018
 ms.keywords: DwmFlush, DwmFlush function [Desktop Window Manager], _udwm_dwmflush, _udwm_dwmflush_cpp, dwm.dwmflush, dwmapi/DwmFlush, winui._udwm_dwmflush
 ms.prod: windows
 ms.technology: windows-sdk

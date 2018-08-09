@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getcdt.htm
 old-project: mstv
 ms.assetid: c984a340-d31b-43a5-baac-323629002aab
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCDT, GetCDT method [Microsoft TV Technologies], GetCDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetCDT method, IIsdbSiParser2.GetCDT, IIsdbSiParser2::GetCDT, dvbsiparser/IIsdbSiParser2::GetCDT, mstv.iisdbsiparser2_getcdt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Pointer to the download_data_id field value for the CDT.
 
 ### -param ppCDT [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/6e0ceabb-4d67-46c1-9e7d-e00d5ad82280">IISDB_CDT</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/6e0ceabb-4d67-46c1-9e7d-e00d5ad82280">IISDB_CDT</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

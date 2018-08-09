@@ -4,10 +4,10 @@ title: ITAddress::get_AddressName
 author: windows-sdk-content
 description: The get_AddressName method gets the displayable name of the address.
 old-location: tapi3\itaddress_get_addressname.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: cb26dcf5-0192-4156-914b-9aa6e76a2bd2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_AddressName method, ITAddress.get_AddressName, ITAddress::get_AddressName, _tapi3_itaddress_get_addressname, get_AddressName, get_AddressName method [TAPI 2.2], get_AddressName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_addressname, tapi3if/ITAddress::get_AddressName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ The <i>ppName</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 

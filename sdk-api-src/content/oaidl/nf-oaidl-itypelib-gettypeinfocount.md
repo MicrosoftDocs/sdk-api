@@ -7,7 +7,7 @@ old-location: automat\itypelib_gettypeinfocount.htm
 old-project: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoCount method, ITypeLib.GetTypeInfoCount, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
 ms.prod: windows
 ms.technology: windows-sdk

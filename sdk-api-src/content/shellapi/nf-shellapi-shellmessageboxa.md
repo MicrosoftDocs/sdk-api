@@ -7,7 +7,7 @@ old-location: shell\ShellMessageBox.htm
 old-project: shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: Internet Explorer 5.0
 
 <p class="CCE_Message">[<b>ShellMessageBox</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-<b>ShellMessageBox</b> is a special instance of <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a> that provides the option of using the owner window's title as the title of the message box.
+<b>ShellMessageBox</b> is a special instance of <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a> that provides the option of using the owner window's title as the title of the message box.
   
 
 
@@ -69,9 +69,11 @@ req.product: Internet Explorer 5.0
 
 
 
-### -param hAppInst
+### -param hAppInst [in]
 
-TBD
+Type: <b>HINSTANCE</b>
+
+The handle of the module from which to load a string resource named in <i>pszTitle</i>. If <i>pszTitle</i> does not name a string resource, this parameter is ignored. This value must be valid if <i>pszMsg</i> or <i>pszTitle</i> is a resource ID.
 
 
 ### -param hWnd [in]
@@ -81,54 +83,30 @@ Type: <b>HWND</b>
 A handle to the owner window of the message box to be created. If this variable is not <b>NULL</b>, the title of the owner window is used as the title of the message box.
 
 
-### -param lpcText
-
-TBD
-
-
-### -param lpcTitle
-
-TBD
-
-
-### -param fuStyle [in]
-
-Type: <b>UINT</b>
-
-Specifies the contents and behavior of the dialog box. For possible values, see <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>.
-
-
-### -param param
-
-TBD
-
-
-
-
-####### - ... [in]
-
-A variable argument list that is combined with <i>pszMsg</i> to form the full text displayed in the message box.
-
-
-#### - hInst [in]
-
-Type: <b>HINSTANCE</b>
-
-The handle of the module from which to load a string resource named in <i>pszTitle</i>. If <i>pszTitle</i> does not name a string resource, this parameter is ignored. This value must be valid if <i>pszMsg</i> or <i>pszTitle</i> is a resource ID.
-
-
-#### - pszMsg [in]
+### -param lpcText [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string that contains either the message to be displayed or a resource ID specifying where the message is to be retrieved from.
 
 
-#### - pszTitle [in]
+### -param lpcTitle [in]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string that contains the dialog box title or a resource ID specifying where the title is to be retrieved. If both this parameter and <i>hWnd</i> are <b>NULL</b>, no title is displayed. If this parameter points to a loadable resource formed with the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro, it overrides <i>hWnd</i> as the title.
+A pointer to a null-terminated string that contains the dialog box title or a resource ID specifying where the title is to be retrieved. If both this parameter and <i>hWnd</i> are <b>NULL</b>, no title is displayed. If this parameter points to a loadable resource formed with the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro, it overrides <i>hWnd</i> as the title.
+
+
+### -param fuStyle [in]
+
+Type: <b>UINT</b>
+
+Specifies the contents and behavior of the dialog box. For possible values, see <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>.
+
+
+### -param param [in]
+
+A variable argument list that is combined with <i>pszMsg</i> to form the full text displayed in the message box.
 
 
 ## -returns
@@ -137,7 +115,7 @@ A pointer to a null-terminated string that contains the dialog box title or a re
 
 Type: <b>int</b>
 
-An integer value indicating a button that was pressed in the message box. For specific values, see <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>.
+An integer value indicating a button that was pressed in the message box. For specific values, see <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>.
 
 					
 
@@ -151,11 +129,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>
  
 
  

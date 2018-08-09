@@ -7,7 +7,7 @@ old-location: rras\mpradmingeterrorstring.htm
 old-project: rras
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Specifies the error code for a  router error.
 ### -param lplpwsErrorString [out]
 
 Pointer to an <b>LPWSTR</b> variable that points to the text associated with the <i>dwError</i> code on successful return. Free this memory by calling 
-<a href="https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx">LocalFree</a>.
+<a href="_win32_localfree">LocalFree</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The error code in <i>dwError</i> is unknown.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx">LocalFree</a>
+<a href="_win32_localfree">LocalFree</a>
 
 
 

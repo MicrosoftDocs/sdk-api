@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetthreadinitializationtype_function.htm
 old-project: appxpkg
 ms.assetid: E8D52FDB-CD62-407A-9F70-2825E0BF8523
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: AppPolicyGetThreadInitializationType, AppPolicyGetThreadInitializationType function [App packaging and management], appmodel/AppPolicyGetThreadInitializationType, appxpkg.apppolicygetthreadinitializationtype_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -35,6 +35,9 @@ api_type:
  - DllExport
 api_location:
  - api-ms-win-appmodel-runtime-l1-1-2.dll
+ - kernel.appcore.dll
+ - kernel32.dll
+ - kernelbase.dll
 api_name:
  - AppPolicyGetThreadInitializationType
 product: Windows
@@ -65,7 +68,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829661(v=VS.85).aspx">AppPolicyThreadInitializationType</a> enumerated type. When the function returns successfully, the variable contains a value indicating the kind of initialization that should be automatically performed for the process when beginthread[ex] creates a thread.
+A pointer to a variable of the <a href="appxpkg.apppolicythreadinitializationtype_enumeration">AppPolicyThreadInitializationType</a> enumerated type. When the function returns successfully, the variable contains a value indicating the kind of initialization that should be automatically performed for the process when beginthread[ex] creates a thread.
 
 
 ## -returns
@@ -74,9 +77,7 @@ A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library
 
 If the function succeeds, the function returns ERROR_SUCCESS.
 
-If no known create file access policy was found for the process token, the function raises a STATUS_ASSERTION_FAILURE exception and returns ERROR_NOT_FOUND.
-
-
+If no known thread initialization policy was found for the process token, the function raises a STATUS_ASSERTION_FAILURE exception and returns ERROR_NOT_FOUND.
 
 If either processToken or policy are null, the function returns ERROR_INVALID_PARAMETER.
 

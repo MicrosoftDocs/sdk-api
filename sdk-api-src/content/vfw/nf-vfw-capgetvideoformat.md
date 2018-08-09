@@ -7,7 +7,7 @@ old-location: multimedia\capgetvideoformat.htm
 old-project: Multimedia
 ms.assetid: 2013bf9c-3759-440a-a62c-2ba3c54441c1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capGetVideoFormat, capGetVideoFormat, capGetVideoFormat macro [Windows Multimedia], multimedia.capgetvideoformat, vfw/capGetVideoFormat"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a capture window.
 
 ### -param s
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. You can also specify <b>NULL</b> to retrieve the number of bytes needed by <b>BITMAPINFO</b>. 
 
 
 ### -param wSize
 
 Size, in bytes, of the structure referenced by <i>s</i>. 
-
-
-#### - psVideoFormat
-
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. You can also specify <b>NULL</b> to retrieve the number of bytes needed by <b>BITMAPINFO</b>. 
 
 
 ## -remarks

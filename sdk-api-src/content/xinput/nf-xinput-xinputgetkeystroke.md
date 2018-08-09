@@ -73,7 +73,7 @@ Retrieves a gamepad input event.
 
 ### -param pKeystroke
 
-[out] Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419271(v=VS.85).aspx">XINPUT_KEYSTROKE</a> structure that receives an input event.
+[out] Pointer to an <a href="https://msdn.microsoft.com/A140EA39-70C1-4F6B-BFFF-CA81D46E487A">XINPUT_KEYSTROKE</a> structure that receives an input event.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419271(v=VS.85).aspx">XINPUT_KEYSTROKE</a>
+<a href="https://msdn.microsoft.com/A140EA39-70C1-4F6B-BFFF-CA81D46E487A">XINPUT_KEYSTROKE</a>
 
 
 

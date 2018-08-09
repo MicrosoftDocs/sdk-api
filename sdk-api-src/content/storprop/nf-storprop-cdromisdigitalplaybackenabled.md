@@ -4,10 +4,10 @@ title: CdromIsDigitalPlaybackEnabled function
 author: windows-sdk-content
 description: Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.
 old-location: base\cdromisdigitalplaybackenabled.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: StorProp.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # CdromIsDigitalPlaybackEnabled function

@@ -7,7 +7,7 @@ old-location: taskschd\itasktrigger.htm
 old-project: taskschd
 ms.assetid: 990702f4-fb6f-47a7-b538-f6632f831a4e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITaskTrigger, ITaskTrigger interface [Task Scheduler], ITaskTrigger interface [Task Scheduler],described, _msb_itasktrigger, mstask/ITaskTrigger, taskschd.itasktrigger, triggers [Task Scheduler],interfaces,ITaskTrigger (obsolete)
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 
 Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
 
-<b>ITaskTrigger</b> is the primary interface of the <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task_trigger object</a>. To create a trigger object, call 
+<b>ITaskTrigger</b> is the primary interface of the <a href="t.htm">task_trigger object</a>. To create a trigger object, call 
 <a href="https://msdn.microsoft.com/ff8c9c3b-697f-42f0-a5b5-6194e4c89096">CreateTrigger</a> or 
 <a href="https://msdn.microsoft.com/f99b342c-9233-43e3-93f1-88586e975608">GetTrigger</a>.
 

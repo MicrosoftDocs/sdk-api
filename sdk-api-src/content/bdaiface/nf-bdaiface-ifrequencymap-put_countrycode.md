@@ -7,7 +7,7 @@ old-location: mstv\ifrequencymap_put_countrycode.htm
 old-project: mstv
 ms.assetid: 8473e292-b47b-4c1a-b45e-b8acf0e36263
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_CountryCode method, IFrequencyMap.put_CountryCode, IFrequencyMap::put_CountryCode, IFrequencyMapput_CountryCode, bdaiface/IFrequencyMap::put_CountryCode, mstv.ifrequencymap_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IFrequencyMap interface
 ms.prod: windows
 ms.technology: windows-sdk

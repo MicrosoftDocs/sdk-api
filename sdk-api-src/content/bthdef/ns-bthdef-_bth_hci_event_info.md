@@ -7,7 +7,7 @@ old-location: bluetooth\bth_hci_event_info.htm
 old-project: bluetooth
 ms.assetid: 9cb5eada-2fce-4568-9d2c-530cd39a2e4c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: "*PBTH_HCI_EVENT_INFO, *PBTH_HCI_EVENT_INFO structure [Bluetooth], BTH_HCI_EVENT_INFO, BTH_HCI_EVENT_INFO structure [Bluetooth], _BTH_HCI_EVENT_INFO, bluetooth.bth_hci_event_info, bthdef/*PBTH_HCI_EVENT_INFO, bthdef/BTH_HCI_EVENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

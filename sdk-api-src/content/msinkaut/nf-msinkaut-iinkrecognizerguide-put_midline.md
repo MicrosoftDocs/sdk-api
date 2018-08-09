@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizerguide_midline.htm
 old-project: tablet
 ms.assetid: 764dc583-62b4-41fc-98df-69a2f1a6fcf5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 764dc583-62b4-41fc-98df-69a2f1a6fcf5, IInkRecognizerGuide interface [Tablet PC],Midline property, IInkRecognizerGuide.Midline, IInkRecognizerGuide.put_Midline, IInkRecognizerGuide::Midline, IInkRecognizerGuide::get_Midline, IInkRecognizerGuide::put_Midline, InkRecognizerGuide.get_Midline, InkRecognizerGuide.put_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognizerGuide interface, get_Midline, msinkaut/IInkRecognizerGuide::Midline, msinkaut/IInkRecognizerGuide::get_Midline, msinkaut/IInkRecognizerGuide::put_Midline, put_Midline, tablet.inkrecognizerguide_midline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ The value is 0 if the midline is not present.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
+<a href="tablet.iinkrecognizerguide">IInkRecognizerGuide</a>
 
 
 

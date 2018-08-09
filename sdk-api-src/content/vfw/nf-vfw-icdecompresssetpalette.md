@@ -7,7 +7,7 @@ old-location: multimedia\icdecompresssetpalette.htm
 old-project: Multimedia
 ms.assetid: a3c4b04f-23a5-4499-b76e-50ab4565857d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICDecompressSetPalette, ICDecompressSetPalette macro [Windows Multimedia], _win32_ICDecompressSetPalette, multimedia.icdecompresssetpalette, vfw/ICDecompressSetPalette
 ms.prod: windows
 ms.technology: windows-sdk

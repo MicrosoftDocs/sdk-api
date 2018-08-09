@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots_Reset.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\reset.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumSearchRoots interface [search],Reset method, IEnumSearchRoots.Reset, IEnumSearchRoots::Reset, Reset, Reset method [search], Reset method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Reset, search._search_IEnumSearchRoots_Reset, searchapi/IEnumSearchRoots::Reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">IEnumSearchRoots::Next</a> retrieves from the beginning.
         
 
 

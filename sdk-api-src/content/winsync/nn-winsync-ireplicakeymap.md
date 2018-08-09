@@ -7,7 +7,7 @@ old-location: winsync\ireplicakeymap.htm
 old-project: winsync
 ms.assetid: 3c195842-316a-4c49-ace4-444fa4a38ad2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IReplicaKeyMap, IReplicaKeyMap interface [Windows Sync], IReplicaKeyMap interface [Windows Sync],described, winsync.ireplicakeymap, winsync/IReplicaKeyMap
 ms.prod: windows
 ms.technology: windows-sdk

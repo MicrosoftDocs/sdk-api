@@ -7,7 +7,7 @@ old-location: etw\tdhgetwppproperty.htm
 old-project: ETW
 ms.assetid: a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,7 +128,7 @@ The specified property was not found.
 </dl>
 </td>
 <td width="60%">
-<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://msdn.microsoft.com/en-us/library/Hh447283(v=VS.85).aspx">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
+<i>BufferSize</i> is too small. To get the required buffer size, call <a href="TdhGetWppProperty">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
 
 </td>
 </tr>

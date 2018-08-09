@@ -7,7 +7,7 @@ old-location: controls\Header_GetItemDropDownRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemdropdownrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windows Controls], _shell_Header_GetItemDropDownRect, _shell_Header_GetItemDropDownRect_cpp, commctrl/Header_GetItemDropDownRect, controls.Header_GetItemDropDownRect, controls._shell_Header_GetItemDropDownRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775339(v=VS.85).aspx">HDM_GETITEMDROPDOWNRECT</a> message explicitly.
+Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/d7188dfb-4ffa-4641-b210-2c2ec480ca13">HDM_GETITEMDROPDOWNRECT</a> message explicitly.
 
 
 ## -parameters
@@ -72,16 +72,7 @@ Type: <b>int</b>
 The zero-based index of the header control item for which to retrieve the bounding rectangle.
 
 
-### -param lprc
-
-TBD
-
-
-
-
-
-
-#### - lpItemRect [in, out]
+### -param lprc [in, out]
 
 Type: <b>LPRECT</b>
 

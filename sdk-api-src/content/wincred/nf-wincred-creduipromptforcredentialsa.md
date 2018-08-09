@@ -4,10 +4,10 @@ title: CredUIPromptForCredentialsA function
 author: windows-sdk-content
 description: Creates and displays a configurable dialog box that accepts credentials information from a user.
 old-location: security\creduipromptforcredentials.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 97a8e750-3e63-4e6f-a875-1e5c49c30dd4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_COMPLETE_USERNAME, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_KEEP_USERNAME, CREDUI_FLAGS_PASSWORD_ONLY_OK, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CREDUI_FLAGS_VALIDATE_USERNAME, CredUIPromptForCredentials, CredUIPromptForCredentials function [Security], CredUIPromptForCredentialsA, CredUIPromptForCredentialsW, _cred_creduipromptforcredentials, security.creduipromptforcredentials, wincred/CredUIPromptForCredentials, wincred/CredUIPromptForCredentialsA, wincred/CredUIPromptForCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb2
 A pointer to a null-terminated string that contains  the name of the target for the credentials, typically a server name. For Distributed File System (DFS) connections, this string is of the form <i>ServerName</i>\<i>ShareName</i>. This parameter is used to identify target information when storing and retrieving credentials.
 
 
-### -param pContext
+### -param pContext [in]
 
-TBD
+This parameter is reserved for future use. It must be <b>NULL</b>.
 
 
 ### -param dwAuthError [in, optional]
@@ -107,10 +107,12 @@ If the CREDUI_FLAGS_DO_NOT_PERSIST flag is not specified, the value returned in 
 If no domain or server is specified as part of this parameter, the value of the  <b>pszTargetName</b> parameter is used as the domain to form a <i>DomainName</i>\<i>UserName</i> pair. On output, this parameter receives a string that contains that <i>DomainName</i>\<i>UserName</i> pair.
 
 
-### -param ulUserNameBufferSize
+### -param ulUserNameBufferSize [in]
 
-TBD
+The maximum number of characters that can be copied to <i>pszUserName</i> including the terminating null character.
 
+<div class="alert"><b>Note</b>  CREDUI_MAX_USERNAME_LENGTH does not include the terminating null character.</div>
+<div> </div>
 
 ### -param pszPassword [in, out]
 
@@ -121,14 +123,22 @@ This function copies the user-supplied password to this buffer, copying a maximu
 When you have finished using the password, clear the password from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
 
 
-### -param ulPasswordBufferSize
+### -param ulPasswordBufferSize [in]
 
-TBD
+The maximum number of characters that can be copied to <i>pszPassword</i> including the terminating null character.
 
+<div class="alert"><b>Note</b>  CREDUI_MAX_PASSWORD_LENGTH does not include the terminating null character.</div>
+<div> </div>
 
-### -param save
+### -param save [in, out]
 
-TBD
+A pointer to a <b>BOOL</b> that specifies the initial state of the <b>Save</b> check box and receives the state of the <b>Save</b> check box after the user has responded to the dialog box. If this value is not <b>NULL</b>  and <b>CredUIPromptForCredentials</b> returns NO_ERROR, then <i>pfSave</i> returns the state of the <b>Save</b> check box when the user chose <b>OK</b> in the dialog box.
+
+If the CREDUI_FLAGS_PERSIST flag is specified, the <b>Save</b> check box is not displayed, but is considered to be selected.
+
+If the CREDUI_FLAGS_DO_NOT_PERSIST flag is specified and CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX is not specified, the <b>Save</b> check box is not displayed, but is considered to be cleared.
+
+An application that needs to use CredUI to prompt the user for credentials, but does not need the credential management services provided by the credential manager, can use <i>pfSave</i> to receive the state of the <b>Save</b> check box after the user closes the dialog box. To do this, the caller must specify CREDUI_FLAGS_DO_NOT_PERSIST and  CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX in <i>dwFlags</i>. When CREDUI_FLAGS_DO_NOT_PERSIST and  CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX are set, the application is responsible for examining *<i>pfSave</i> after the function returns, and if *<i>pfSave</i> is <b>TRUE</b>,  then the application must take the appropriate action to save the user credentials within the resources of the application.
 
 
 ### -param dwFlags [in]
@@ -334,36 +344,6 @@ Check that the user name is valid.
 </table>
  
 
-
-#### - Reserved [in]
-
-This parameter is reserved for future use. It must be <b>NULL</b>.
-
-
-#### - pfSave [in, out]
-
-A pointer to a <b>BOOL</b> that specifies the initial state of the <b>Save</b> check box and receives the state of the <b>Save</b> check box after the user has responded to the dialog box. If this value is not <b>NULL</b>  and <b>CredUIPromptForCredentials</b> returns NO_ERROR, then <i>pfSave</i> returns the state of the <b>Save</b> check box when the user chose <b>OK</b> in the dialog box.
-
-If the CREDUI_FLAGS_PERSIST flag is specified, the <b>Save</b> check box is not displayed, but is considered to be selected.
-
-If the CREDUI_FLAGS_DO_NOT_PERSIST flag is specified and CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX is not specified, the <b>Save</b> check box is not displayed, but is considered to be cleared.
-
-An application that needs to use CredUI to prompt the user for credentials, but does not need the credential management services provided by the credential manager, can use <i>pfSave</i> to receive the state of the <b>Save</b> check box after the user closes the dialog box. To do this, the caller must specify CREDUI_FLAGS_DO_NOT_PERSIST and  CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX in <i>dwFlags</i>. When CREDUI_FLAGS_DO_NOT_PERSIST and  CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX are set, the application is responsible for examining *<i>pfSave</i> after the function returns, and if *<i>pfSave</i> is <b>TRUE</b>,  then the application must take the appropriate action to save the user credentials within the resources of the application.
-
-
-#### - ulPasswordMaxChars [in]
-
-The maximum number of characters that can be copied to <i>pszPassword</i> including the terminating null character.
-
-<div class="alert"><b>Note</b>  CREDUI_MAX_PASSWORD_LENGTH does not include the terminating null character.</div>
-<div> </div>
-
-#### - ulUserNameMaxChars [in]
-
-The maximum number of characters that can be copied to <i>pszUserName</i> including the terminating null character.
-
-<div class="alert"><b>Note</b>  CREDUI_MAX_USERNAME_LENGTH does not include the terminating null character.</div>
-<div> </div>
 
 ## -returns
 

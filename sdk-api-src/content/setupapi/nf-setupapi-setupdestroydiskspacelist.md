@@ -7,7 +7,7 @@ old-location: setup\setupdestroydiskspacelist.htm
 old-project: SetupApi
 ms.assetid: bf5fd250-5744-4bb7-ad4f-45f754e75460
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupDestroyDiskSpaceList, SetupDestroyDiskSpaceList function [Setup API], _setupapi_setupdestroydiskspacelist, setup.setupdestroydiskspacelist, setupapi/SetupDestroyDiskSpaceList
 ms.prod: windows
 ms.technology: windows-sdk

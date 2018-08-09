@@ -4,10 +4,10 @@ title: InitializeConditionVariable function
 author: windows-sdk-content
 description: Initializes a condition variable.
 old-location: base\initializeconditionvariable.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InitializeConditionVariable, InitializeConditionVariable function, base.initializeconditionvariable, synchapi/InitializeConditionVariable, winbase/InitializeConditionVariable
 ms.prod: windows
 ms.technology: windows-sdk

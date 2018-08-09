@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_directorytype.htm
 old-project: tapi
 ms.assetid: 3f0ca4c2-4ba9-4a6e-877b-36486086368f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryType method, ITDirectory.get_DirectoryType, ITDirectory::get_DirectoryType, _tapi3_itdirectory_get_directorytype, get_DirectoryType, get_DirectoryType method [TAPI 2.2], get_DirectoryType method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryType, tapi3.itdirectory_get_directorytype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

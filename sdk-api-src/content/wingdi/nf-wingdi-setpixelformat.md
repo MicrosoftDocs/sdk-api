@@ -7,7 +7,7 @@ old-location: opengl\setpixelformat.htm
 old-project: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Specifies the device context whose pixel format the function attempts to set.
 
 ### -param format
 
-TBD
+Index that identifies the pixel format to set. The various pixel formats supported by a device context are identified by one-based indexes.
 
 
 ### -param ppfd
 
 Pointer to a <a href="https://msdn.microsoft.com/1480dea3-ae74-4e8b-b4de-fca8de5d8395">PIXELFORMATDESCRIPTOR</a> structure that contains the logical pixel format specification. The system's metafile component uses this structure to record the logical pixel format specification. The structure has no other effect upon the behavior of the <b>SetPixelFormat</b> function.
-
-
-#### - iPixelFormat
-
-Index that identifies the pixel format to set. The various pixel formats supported by a device context are identified by one-based indexes.
 
 
 ## -returns

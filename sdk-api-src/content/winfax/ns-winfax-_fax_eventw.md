@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_event_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9bw2.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: "*PFAX_EVENTW, FAX_EVENT, FAX_EVENT structure [Fax Service], FAX_EVENTA, FAX_EVENTW, FEI_ABORTING, FEI_ANSWERED, FEI_BAD_ADDRESS, FEI_BUSY, FEI_CALL_BLACKLISTED, FEI_CALL_DELAYED, FEI_COMPLETED, FEI_DELETED, FEI_DIALING, FEI_DISCONNECTED, FEI_FATAL_ERROR, FEI_FAXSVC_ENDED, FEI_FAXSVC_STARTED, FEI_IDLE, FEI_JOB_QUEUED, FEI_MODEM_POWERED_OFF, FEI_MODEM_POWERED_ON, FEI_NEVENTS, FEI_NOT_FAX_CALL, FEI_NO_ANSWER, FEI_NO_DIAL_TONE, FEI_RECEIVING, FEI_RINGING, FEI_ROUTING, FEI_SENDING, PFAX_EVENT, PFAX_EVENT structure pointer [Fax Service], _FAX_EVENTW, _mfax_fax_event_str, fax._mfax_fax_event_str, winfax/FAX_EVENT, winfax/FAX_EVENTA, winfax/FAX_EVENTW, winfax/PFAX_EVENT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows Address Book 5.0
 
 The <b>FAX_EVENT</b> structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
 
-To create a fax event queue, the fax client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms691325(v=VS.85).aspx">FaxInitializeEventQueue</a> function. The queue enables the application to receive notifications of asynchronous events from the fax server.
+To create a fax event queue, the fax client application must call the <a href="https://msdn.microsoft.com/921007cf-a836-4e90-a544-b320eea2bd54">FaxInitializeEventQueue</a> function. The queue enables the application to receive notifications of asynchronous events from the fax server.
 
 
 ## -struct-fields
@@ -248,34 +248,19 @@ Type: <b>DWORD</b>
 Specifies a unique number that identifies the fax job of interest. If this member is equal to the value 0xffffffff, it indicates an inactive fax job. Note that this number is not a print spooler identification number. 
 
 
-##### - EventId.FEI_ABORTING
+##### - EventId.FEI_DIALING
 
-The device is aborting a fax job. 
-
-
-##### - EventId.FEI_ANSWERED
-
-The receiving device answered a new call. 
+The sending device is dialing a fax number. 
 
 
-##### - EventId.FEI_BAD_ADDRESS
+##### - EventId.FEI_SENDING
 
-The sending device cannot complete the call because the fax number is invalid. 
-
-
-##### - EventId.FEI_BUSY
-
-The sending device has encountered a busy signal. 
+The sending device is transmitting a page of fax data. 
 
 
-##### - EventId.FEI_CALL_BLACKLISTED
+##### - EventId.FEI_RECEIVING
 
-The device cannot complete the call because the telephone number is blocked or reserved; numbers such as 911 are blocked. 
-
-
-##### - EventId.FEI_CALL_DELAYED
-
-The sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+The receiving device is receiving a page of fax data. 
 
 
 ##### - EventId.FEI_COMPLETED
@@ -283,14 +268,24 @@ The sending device received a busy signal multiple times. The device cannot retr
 The device has completed a fax transmission call. 
 
 
-##### - EventId.FEI_DELETED
+##### - EventId.FEI_BUSY
 
-The fax job has been processed. The job identifier for the job is no longer valid.
+The sending device has encountered a busy signal. 
 
 
-##### - EventId.FEI_DIALING
+##### - EventId.FEI_NO_ANSWER
 
-The sending device is dialing a fax number. 
+The receiving device does not answer. 
+
+
+##### - EventId.FEI_BAD_ADDRESS
+
+The sending device cannot complete the call because the fax number is invalid. 
+
+
+##### - EventId.FEI_NO_DIAL_TONE
+
+The sending device cannot complete the call because it does not detect a dial tone. 
 
 
 ##### - EventId.FEI_DISCONNECTED
@@ -303,59 +298,19 @@ The device cannot complete the call because a fax device was disconnected, or be
 The device encountered a fatal protocol error. 
 
 
-##### - EventId.FEI_FAXSVC_ENDED
-
-The fax service has terminated. For more information, see the following Remarks section.
-
-
-##### - EventId.FEI_FAXSVC_STARTED
-
-The fax service has started. For more information, see the following Remarks section.
-
-
-##### - EventId.FEI_IDLE
-
-The device is idle. 
-
-
-##### - EventId.FEI_JOB_QUEUED
-
-The fax job has been queued. 
-
-
-##### - EventId.FEI_MODEM_POWERED_OFF
-
-The modem device was turned off. 
-
-
-##### - EventId.FEI_MODEM_POWERED_ON
-
-The modem device was turned on. 
-
-
-##### - EventId.FEI_NEVENTS
-
-The total number of fax events received. For more information, see the following Remarks section. 
-
-
 ##### - EventId.FEI_NOT_FAX_CALL
 
 The modem device received a data call or a voice call. 
 
 
-##### - EventId.FEI_NO_ANSWER
+##### - EventId.FEI_CALL_DELAYED
 
-The receiving device does not answer. 
-
-
-##### - EventId.FEI_NO_DIAL_TONE
-
-The sending device cannot complete the call because it does not detect a dial tone. 
+The sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
 
 
-##### - EventId.FEI_RECEIVING
+##### - EventId.FEI_CALL_BLACKLISTED
 
-The receiving device is receiving a page of fax data. 
+The device cannot complete the call because the telephone number is blocked or reserved; numbers such as 911 are blocked. 
 
 
 ##### - EventId.FEI_RINGING
@@ -363,23 +318,68 @@ The receiving device is receiving a page of fax data.
 The receiving device is ringing. 
 
 
+##### - EventId.FEI_ABORTING
+
+The device is aborting a fax job. 
+
+
 ##### - EventId.FEI_ROUTING
 
 The receiving device is routing a received fax document. 
 
 
-##### - EventId.FEI_SENDING
+##### - EventId.FEI_MODEM_POWERED_ON
 
-The sending device is transmitting a page of fax data. 
+The modem device was turned on. 
+
+
+##### - EventId.FEI_MODEM_POWERED_OFF
+
+The modem device was turned off. 
+
+
+##### - EventId.FEI_IDLE
+
+The device is idle. 
+
+
+##### - EventId.FEI_FAXSVC_ENDED
+
+The fax service has terminated. For more information, see the following Remarks section.
+
+
+##### - EventId.FEI_ANSWERED
+
+The receiving device answered a new call. 
+
+
+##### - EventId.FEI_FAXSVC_STARTED
+
+The fax service has started. For more information, see the following Remarks section.
+
+
+##### - EventId.FEI_JOB_QUEUED
+
+The fax job has been queued. 
+
+
+##### - EventId.FEI_DELETED
+
+The fax job has been processed. The job identifier for the job is no longer valid.
+
+
+##### - EventId.FEI_NEVENTS
+
+The total number of fax events received. For more information, see the following Remarks section. 
 
 
 ## -remarks
 
 
 
-After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message from the fax service, it will no longer receive fax events. To resume receiving fax events, the application must call the <a href="https://msdn.microsoft.com/en-us/library/ms691325(v=VS.85).aspx">FaxInitializeEventQueue</a> function again when the fax service restarts. The application can determine if the fax service is running by using the service control manager.
+After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message from the fax service, it will no longer receive fax events. To resume receiving fax events, the application must call the <a href="https://msdn.microsoft.com/921007cf-a836-4e90-a544-b320eea2bd54">FaxInitializeEventQueue</a> function again when the fax service restarts. The application can determine if the fax service is running by using the service control manager.
 
-If the application receives events using notification messages, it can use the <b>FEI_NEVENTS</b> event. If the message is between the application's base window message and the base window message + <b>FEI_NEVENTS</b>, then the application can process the message as a fax window message. An application specifies the base window message using the <i>MessageStart</i> parameter to the <a href="https://msdn.microsoft.com/en-us/library/ms691325(v=VS.85).aspx">FaxInitializeEventQueue</a> function; the base window message must be greater than the <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a> message. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691909(v=VS.85).aspx">FaxClose</a> and <a href="https://msdn.microsoft.com/en-us/library/ms692290(v=VS.85).aspx">Enabling an Application to Receive Notifications of Fax Events</a>.
+If the application receives events using notification messages, it can use the <b>FEI_NEVENTS</b> event. If the message is between the application's base window message and the base window message + <b>FEI_NEVENTS</b>, then the application can process the message as a fax window message. An application specifies the base window message using the <i>MessageStart</i> parameter to the <a href="https://msdn.microsoft.com/921007cf-a836-4e90-a544-b320eea2bd54">FaxInitializeEventQueue</a> function; the base window message must be greater than the <a href="_win32_WM_USER">WM_USER</a> message. For more information, see <a href="https://msdn.microsoft.com/d2a59e30-24bd-4a65-ba9b-8187ed6f53f6">FaxClose</a> and <a href="https://msdn.microsoft.com/f226b757-af51-4161-95d5-1c73bf1ccbef">Enabling an Application to Receive Notifications of Fax Events</a>.
 
 
 
@@ -393,19 +393,19 @@ If the application receives events using notification messages, it can use the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691909(v=VS.85).aspx">FaxClose</a>
+<a href="https://msdn.microsoft.com/d2a59e30-24bd-4a65-ba9b-8187ed6f53f6">FaxClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691325(v=VS.85).aspx">FaxInitializeEventQueue</a>
+<a href="https://msdn.microsoft.com/921007cf-a836-4e90-a544-b320eea2bd54">FaxInitializeEventQueue</a>
  
 
  

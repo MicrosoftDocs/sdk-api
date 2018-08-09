@@ -7,7 +7,7 @@ old-location: setup\setuppromptreboot.htm
 old-project: SetupApi
 ms.assetid: 14b34fd9-ae96-4552-b99d-488bae5c7644
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupPromptReboot, SetupPromptReboot function [Setup API], _setupapi_setuppromptreboot, setup.setuppromptreboot, setupapi/SetupPromptReboot
 ms.prod: windows
 ms.technology: windows-sdk

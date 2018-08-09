@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_getrangeendoffset.htm
 old-project: medfound
 ms.assetid: 015CBC40-BE9E-4C9F-AC1B-30FFDD2B11CC
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], GetRangeEndOffset method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetRangeEndOffset method, IMFHttpDownloadRequest.GetRangeEndOffset, IMFHttpDownloadRequest::GetRangeEndOffset, mf.imfhttpdownloadrequest_getrangeendoffset, mfidl/IMFHttpDownloadRequest::GetRangeEndOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The offset of the last byte in the current response, counted from the start of t
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -105,8 +104,7 @@ Successfully completed the operation.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>qwpRangeEnd</i> parameter is an invalid pointer.
+The <i>qwpRangeEnd</i> parameter is an invalid pointer.
 
 </td>
 </tr>

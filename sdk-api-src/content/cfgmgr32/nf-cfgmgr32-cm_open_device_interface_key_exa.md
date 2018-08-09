@@ -7,7 +7,7 @@ old-location: devinst\cm_open_device_interface_key_exa.htm
 old-project: devinst
 ms.assetid: 2BD4755C-00F0-4C0F-9A4D-0BED4C27FC21
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Open_Device_Interface_Key_ExA, CM_Open_Device_Interface_Key_ExA function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExA, devinst.cm_open_device_interface_key_exa
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromwindow.htm
 old-project: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Specifies the handle of a window for which an object is to be retrieved. To retrieve an interface pointer to the cursor or caret object, specify <b>NULL</b> and use the appropriate object ID in <i>dwObjectID</i>.
 
 
-### -param dwId
+### -param dwId [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Specifies the object ID. This value is one of the standard <a href="https://msdn.microsoft.com/dc1603f8-29e5-4acd-817a-c6957feaff6c">object identifier</a> constants or a custom object ID such as <a href="object_identifiers.htm">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
 
 
 ### -param riid [in]
@@ -85,13 +87,6 @@ Specifies the reference identifier of the requested interface. This value is eit
 Type: <b>void**</b>
 
 Address of a pointer variable that receives the address of the specified interface.
-
-
-#### - dwObjectID [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Specifies the object ID. This value is one of the standard <a href="https://msdn.microsoft.com/dc1603f8-29e5-4acd-817a-c6957feaff6c">object identifier</a> constants or a custom object ID such as <a href="https://msdn.microsoft.com/library/Aa377982(v=VS.85).aspx">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
 
 
 ## -returns
@@ -147,7 +142,7 @@ As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43
 
 Clients use this function to obtain access to the Microsoft Office 2000 native object model. The native object model provides clients with accessibility information about an Office application's document or client area that is not exposed by Microsoft Active Accessibility.
 
-To obtain an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to a class supported by the native object model, specify <a href="https://msdn.microsoft.com/library/Aa377982(v=VS.85).aspx">OBJID_NATIVEOM</a> in <i>dwObjectID</i>. When using this object identifier, the <i>hwnd</i> parameter must match the following window class types.
+To obtain an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to a class supported by the native object model, specify <a href="object_identifiers.htm">OBJID_NATIVEOM</a> in <i>dwObjectID</i>. When using this object identifier, the <i>hwnd</i> parameter must match the following window class types.
 
 <table>
 <tr>

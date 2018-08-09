@@ -7,7 +7,7 @@ old-location: multimedia\capcapturesetsetup.htm
 old-project: Multimedia
 ms.assetid: 663dcb34-6b11-4208-b5d6-216799fb774d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capCaptureSetSetup, capCaptureSetSetup, capCaptureSetSetup macro [Windows Multimedia], multimedia.capcapturesetsetup, vfw/capCaptureSetSetup"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a capture window.
 
 ### -param s
 
-TBD
+Pointer to a CAPTUREPARMS structure. 
 
 
 ### -param wSize
 
 Size, in bytes, of the structure referenced by s. 
-
-
-#### - psCapParms
-
-Pointer to a CAPTUREPARMS structure. 
 
 
 ## -remarks

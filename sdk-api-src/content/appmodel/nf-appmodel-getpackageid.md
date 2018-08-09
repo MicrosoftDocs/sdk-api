@@ -7,7 +7,7 @@ old-location: appxpkg\getpackageid.htm
 old-project: appxpkg
 ms.assetid: BA5D87F5-72FD-48BE-A104-EC7D1459FD58
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetPackageId, GetPackageId function [App packaging and management], appmodel/GetPackageId, appxpkg.getpackageid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,14 +80,7 @@ Type: <b>UINT32*</b>
 On input, the size of <i>buffer</i>, in bytes. On output, the size of the structure returned, in bytes.
 
 
-### -param buffer
-
-TBD
-
-
-
-
-#### - pBuffer [out, optional]
+### -param buffer [out, optional]
 
 Type: <b>BYTE*</b>
 

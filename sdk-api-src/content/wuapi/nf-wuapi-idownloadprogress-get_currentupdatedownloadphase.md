@@ -4,10 +4,10 @@ title: IDownloadProgress::get_CurrentUpdateDownloadPhase
 author: windows-sdk-content
 description: Gets a DownloadPhase enumeration value that specifies the phase of the download that is currently in progress.
 old-location: wua\idownloadprogress_currentupdatedownloadphase.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 5c94b0e9-c137-4677-a014-b8467a8049e5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CurrentUpdateDownloadPhase property [Windows Update Agent], CurrentUpdateDownloadPhase property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateDownloadPhase property, IDownloadProgress.CurrentUpdateDownloadPhase, IDownloadProgress.get_CurrentUpdateDownloadPhase, IDownloadProgress::CurrentUpdateDownloadPhase, IDownloadProgress::get_CurrentUpdateDownloadPhase, get_CurrentUpdateDownloadPhase, wua.idownloadprogress_currentupdatedownloadphase, wuapi/IDownloadProgress::CurrentUpdateDownloadPhase, wuapi/IDownloadProgress::get_CurrentUpdateDownloadPhase
 ms.prod: windows
 ms.technology: windows-sdk

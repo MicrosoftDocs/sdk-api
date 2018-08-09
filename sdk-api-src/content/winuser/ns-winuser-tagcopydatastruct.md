@@ -7,7 +7,7 @@ old-location: dataxchg\copydatastruct.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\datacopy\datacopyreference\datacopystructures\copydatastruct.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCOPYDATASTRUCT, COPYDATASTRUCT, COPYDATASTRUCT structure [Data Exchange], PCOPYDATASTRUCT, PCOPYDATASTRUCT structure pointer [Data Exchange], _win32_COPYDATASTRUCT_str, _win32_copydatastruct_str_cpp, dataxchg.copydatastruct, tagCOPYDATASTRUCT, winui._win32_copydatastruct_str, winuser/COPYDATASTRUCT, winuser/PCOPYDATASTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains data to be passed to another application by the <a href="https://msdn.microsoft.com/en-us/library/ms649011(v=VS.85).aspx">WM_COPYDATA</a> message. 
+Contains data to be passed to another application by the <a href="https://msdn.microsoft.com/d937a260-9fd2-4450-a762-20120f589ab1">WM_COPYDATA</a> message. 
 
 
 ## -struct-fields
@@ -85,7 +85,7 @@ The data to be passed to the receiving application. This member can be <b>NULL</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649011(v=VS.85).aspx">WM_COPYDATA</a>
+<a href="https://msdn.microsoft.com/d937a260-9fd2-4450-a762-20120f589ab1">WM_COPYDATA</a>
  
 
  

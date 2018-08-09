@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediasession.htm
 old-project: medfound
 ms.assetid: 86b2b5ec-231c-4943-9add-1a5a60e72268
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreateMediaSession function [Media Foundation], mf.mfcreatemediasession, mfidl/MFCreateMediaSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,19 +64,11 @@ Creates the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573
 
 ### -param pConfiguration
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
+Pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. This parameter can be <b>NULL</b>. See Remarks.
           
 
 
 ### -param ppMediaSession
-
-TBD
-
-
-
-
-#### - ppMS
 
 Receives a pointer to the Media Session's <a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a> interface. The caller must release the interface. Before releasing the last reference to the <b>IMFMediaSession</b> pointer, the application must call the <a href="https://msdn.microsoft.com/5b9663c2-e32e-4075-b397-59ae01558e15">IMFMediaSession::Shutdown</a> method.
 
@@ -99,8 +91,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -115,12 +106,10 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 
 
 
-
-        If your application does not play protected content, you can use this function to create the Media Session in the application's process. To use the Media Session for protected content, you must call <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>.
+If your application does not play protected content, you can use this function to create the Media Session in the application's process. To use the Media Session for protected content, you must call <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a>.
       
 
-
-        You can use the <i>pConfiguration</i> parameter to specify any of the following attributes:
+You can use the <i>pConfiguration</i> parameter to specify any of the following attributes:
       
         
 

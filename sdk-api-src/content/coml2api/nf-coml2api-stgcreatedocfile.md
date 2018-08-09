@@ -7,7 +7,7 @@ old-location: stg\stgcreatedocfile.htm
 old-project: stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,8 @@ A pointer to the location of the
 
 
 <b>StgCreateDocfile</b> can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

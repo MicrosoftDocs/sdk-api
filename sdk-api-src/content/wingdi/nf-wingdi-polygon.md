@@ -7,7 +7,7 @@ old-location: gdi\polygon.htm
 old-project: gdi
 ms.assetid: 2f958b91-039a-4e02-b727-be142bb18b06
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Polygon, Polygon function [Windows GDI], _win32_Polygon, gdi.polygon, wingdi/Polygon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,12 @@ The <b>Polygon</b> function draws a polygon consisting of two or more vertices c
 A handle to the device context.
 
 
-### -param apt
-
-TBD
-
-
-### -param cpt
-
-TBD
-
-
-
-
-#### - lpPoints [in]
+### -param apt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
 
 
-#### - nCount [in]
+### -param cpt [in]
 
 The number of vertices in the array. This value must be greater than or equal to 2.
 

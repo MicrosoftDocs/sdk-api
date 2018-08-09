@@ -4,10 +4,10 @@ title: AddQuadraticBezier function
 author: windows-sdk-content
 description: Creates a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\id2d1geometrysink_addquadraticbezier.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 142f0823-0d8d-4216-8f40-9dec7f48032e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: AddQuadraticBezier, AddQuadraticBezier methods [Direct2D], ID2D1GeometrySink::AddQuadraticBezier, d2d1/AddQuadraticBezier, direct2d.id2d1geometrysink_addquadraticbezier
 ms.prod: windows
 ms.technology: windows-sdk

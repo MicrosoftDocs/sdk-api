@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetloggingcategories.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_30vn.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: FaxSetLoggingCategories, FaxSetLoggingCategories function [Fax Service], FaxSetLoggingCategoriesA, FaxSetLoggingCategoriesW, _mfax_faxsetloggingcategories, fax._mfax_faxsetloggingcategories, winfax/FaxSetLoggingCategories, winfax/FaxSetLoggingCategoriesA, winfax/FaxSetLoggingCategoriesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,21 +66,21 @@ A fax client application calls the <b>FaxSetLoggingCategories</b> function to mo
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
 
 
 ### -param Categories [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a> structures. Each structure contains the data to modify one logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level for the category. For a description of predefined logging categories and logging levels, see the <b>FAX_LOG_CATEGORY</b> topic.
+Pointer to an array of <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a> structures. Each structure contains the data to modify one logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level for the category. For a description of predefined logging categories and logging levels, see the <b>FAX_LOG_CATEGORY</b> topic.
 
 
 ### -param NumberCategories [in]
 
 Type: <b>DWORD</b>
 
-Specifies a <b>DWORD</b> variable that contains the number of <a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a> structures the function passes in the <i>Categories</i> parameter.
+Specifies a <b>DWORD</b> variable that contains the number of <a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a> structures the function passes in the <i>Categories</i> parameter.
 
 
 ## -returns
@@ -116,7 +116,7 @@ One or all of the <i>FaxHandle</i>, <i>Categories</i>, or <i>NumberCategories</i
 </dl>
 </td>
 <td width="60%">
-The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a>.
+The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="_win32_WM_USER">WM_USER</a>.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is s
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">FAX_CONFIG_SET</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_CONFIG_SET</a> access is required.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ An error occurred during memory allocation.
 
 
 
-The fax service administration application, a Microsoft Management Console (MMC) snap-in component, typically calls the <b>FaxSetLoggingCategories</b> function to modify the current logging categories and logging levels for a fax server. To query the categories and levels, an application can call the <a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a> function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690748(v=VS.85).aspx">Managing Logging Categories</a>.
+The fax service administration application, a Microsoft Management Console (MMC) snap-in component, typically calls the <b>FaxSetLoggingCategories</b> function to modify the current logging categories and logging levels for a fax server. To query the categories and levels, an application can call the <a href="https://msdn.microsoft.com/bcd650b3-92f3-4b3b-b4c2-c3418f914711">FaxGetLoggingCategories</a> function. For more information, see <a href="https://msdn.microsoft.com/958fecf7-a787-4f86-bc67-53f7564ec43a">Managing Logging Categories</a>.
 
 
 
@@ -162,23 +162,23 @@ The fax service administration application, a Microsoft Management Console (MMC)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690890(v=VS.85).aspx">FAX_LOG_CATEGORY</a>
+<a href="https://msdn.microsoft.com/125addbb-5567-4ddc-9d48-e05ae93ec075">FAX_LOG_CATEGORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/bcd650b3-92f3-4b3b-b4c2-c3418f914711">FaxGetLoggingCategories</a>
  
 
  

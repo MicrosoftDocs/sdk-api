@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaPropertyConditionStruct.htm
 old-project: WinAuto
 ms.assetid: 8a1ccd34-7839-4004-a663-0ce831c599f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaPropertyCondition, UiaPropertyCondition structure [Windows Accessibility], uiauto.uiauto_UiaPropertyConditionStruct, uiauto_UiaPropertyConditionStruct, uiautomationcoreapi/UiaPropertyCondition, winauto.uiauto_UiaPropertyConditionStruct
 ms.prod: windows
 ms.technology: windows-sdk

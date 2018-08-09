@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2_GetDefaultSearchGUID.htm
 old-project: shell
 ms.assetid: 20acd646-6cb7-420e-84b3-2f9b385a349c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetDefaultSearchGUID, GetDefaultSearchGUID method [Windows Shell], GetDefaultSearchGUID method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultSearchGUID method, IShellFolder2.GetDefaultSearchGUID, IShellFolder2::GetDefaultSearchGUID, _win32_IShellFolder2_GetDefaultSearchGUID, shell.IShellFolder2_GetDefaultSearchGUID, shobjidl_core/IShellFolder2::GetDefaultSearchGUID
 ms.prod: windows
 ms.technology: windows-sdk

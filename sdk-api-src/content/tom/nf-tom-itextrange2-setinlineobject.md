@@ -4,10 +4,10 @@ title: ITextRange2::SetInlineObject
 author: windows-sdk-content
 description: Sets or inserts the properties of an inline object for a degenerate range.
 old-location: controls\itextrange2_setinlineobject.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetInlineObject method, ITextRange2.SetInlineObject, ITextRange2::SetInlineObject, SetInlineObject, SetInlineObject method [Windows Controls], SetInlineObject method [Windows Controls],ITextRange2 interface, controls.itextrange2_setinlineobject, tom/ITextRange2::SetInlineObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,14 +84,14 @@ The object character as defined in <a href="https://msdn.microsoft.com/0ed4a595-
 
 Type: <b>long</b>
 
-The closing bracket (<a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
+The closing bracket (<a href="objecttype.htm">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
 
 
 ### -param Char2 [in]
 
 Type: <b>long</b>
 
-The separator character for <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBracketsWithSeps</a>, which can be one of the following values.
+The separator character for <a href="objecttype.htm">tomBracketsWithSeps</a>, which can be one of the following values.
 
 
 ### -param Count [in]
@@ -112,7 +112,7 @@ The TeX style, as defined in <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4
 
 Type: <b>long</b>
 
-The number of columns in the inline object. For  <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomMatrix</a> only.
+The number of columns in the inline object. For  <a href="objecttype.htm">tomMatrix</a> only.
 
 
 ## -returns

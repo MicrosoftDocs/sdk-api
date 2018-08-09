@@ -4,10 +4,10 @@ title: LookupAccountSidW function
 author: windows-sdk-content
 description: Accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 old-location: security\lookupaccountsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: b8a44ffc-86e1-4f79-ad51-8340da9eaefd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,15 @@ The <b>LookupAccountSid</b> function accepts a <a href="https://msdn.microsoft.c
 A pointer to a <b>null</b>-terminated character string that specifies the target computer. This string can be the name of a remote computer. If this parameter is <b>NULL</b>, the account name translation begins on the local system. If the name cannot be resolved on the local system, this function will try to resolve the name using domain controllers trusted by the local system. Generally, specify a value for  <i>lpSystemName</i> only when the  account is in an untrusted domain and the   name of a computer in that domain is known.
 
 
-### -param Sid
+### -param Sid [in]
 
-TBD
+A pointer to the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> to look up.
 
 
-### -param Name
+### -param Name [out, optional]
 
-TBD
+A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter.
 
 
 ### -param cchName [in, out]
@@ -87,28 +88,7 @@ TBD
 On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
 
-### -param ReferencedDomainName
-
-TBD
-
-
-### -param cchReferencedDomainName [in, out]
-
-On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character.
-
-
-### -param peUse [out]
-
-A pointer to a variable that receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a> value that indicates the type of the account.
-
-
-#### - lpName [out, optional]
-
-A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter.
-
-
-#### - lpReferencedDomainName [out, optional]
+### -param ReferencedDomainName [out, optional]
 
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found.
 
@@ -120,10 +100,15 @@ On a workstation, the domain name returned for most accounts in the security dat
 Some accounts are predefined by the system. The domain name returned for these accounts is BUILTIN.
 
 
-#### - lpSid [in]
+### -param cchReferencedDomainName [in, out]
 
-A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> to look up.
+On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character.
+
+
+### -param peUse [out]
+
+A pointer to a variable that receives a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a> value that indicates the type of the account.
 
 
 ## -returns
@@ -166,7 +151,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

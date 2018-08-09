@@ -7,7 +7,7 @@ old-location: mscs\clusterregcreatebatchnotifyport.htm
 old-project: mscs
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
 ms.prod: windows
 ms.technology: windows-sdk

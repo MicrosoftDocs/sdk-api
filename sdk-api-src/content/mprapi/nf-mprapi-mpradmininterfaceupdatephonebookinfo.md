@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfaceupdatephonebookinfo.htm
 old-project: rras
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceUpdatePhonebookInfo, MprAdminInterfaceUpdatePhonebookInfo function [RAS], _mpr_mpradmininterfaceupdatephonebookinfo, mprapi/MprAdminInterfaceUpdatePhonebookInfo, rras.mpradmininterfaceupdatephonebookinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,7 +170,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

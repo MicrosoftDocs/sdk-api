@@ -4,10 +4,10 @@ title: WSDXMLBuildAnyForSingleElement function
 author: windows-sdk-content
 description: Creates an XML element with a specified name and value.
 old-location: ncd\wsdxmlbuildanyforsingleelement.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 2a8b9b4a-0a08-442a-896f-f980bff28f03
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSDXMLBuildAnyForSingleElement, WSDXMLBuildAnyForSingleElement function, ncd.wsdxmlbuildanyforsingleelement, wsdutil/WSDXMLBuildAnyForSingleElement
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iphlp\createsortedaddresspairs.htm
 old-project: iphlp
 ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
 ms.prod: windows
 ms.technology: windows-sdk

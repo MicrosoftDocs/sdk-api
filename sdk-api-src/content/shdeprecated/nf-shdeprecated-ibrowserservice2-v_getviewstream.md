@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_v_GetViewStream.htm
 old-project: shell
 ms.assetid: fb6b2739-7eb1-4037-8a21-1c4d0f70cde3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_GetViewStream method, IBrowserService2.v_GetViewStream, IBrowserService2::v_GetViewStream, shdeprecated/IBrowserService2::v_GetViewStream, shell.IBrowserService2_v_GetViewStream, v_GetViewStream, v_GetViewStream method [Windows Shell], v_GetViewStream method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_GetViewStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Not used.
 
 Type: <b>LPCWSTR</b>
 
-
-          A pointer to a buffer that contains the Unicode name of the window.
+A pointer to a buffer that contains the Unicode name of the window.
         
 
 

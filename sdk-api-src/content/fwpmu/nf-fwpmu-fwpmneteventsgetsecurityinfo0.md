@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventsgetsecurityinfo0.htm
 old-project: fwp
 ms.assetid: 07bbf1e1-5945-41cf-8acd-9da983b9d56b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmNetEventsGetSecurityInfo0, FwpmNetEventsGetSecurityInfo0 function [Filtering], fwp.fwpmneteventsgetsecurityinfo0, fwpmu/FwpmNetEventsGetSecurityInfo0
 ms.prod: windows
 ms.technology: windows-sdk

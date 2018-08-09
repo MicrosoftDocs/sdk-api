@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothfindfirstdevice.htm
 old-project: bluetooth
 ms.assetid: f73acbb4-119f-4a73-a338-d11e8cf7e6be
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothFindFirstDevice, BluetoothFindFirstDevice function [Bluetooth], bluetooth.bluetoothfindfirstdevice, bluetoothapis/BluetoothFindFirstDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,8 +120,7 @@ The structure pointed to by <i>pbtsp</i> or <i>pbtdi</i> is not the correct size
 
 
 
-<a href="https://msdn.microsoft.com/e267df61-d0f5-434f-b49c-6899c2abfa2a">
-				BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="https://msdn.microsoft.com/e267df61-d0f5-434f-b49c-6899c2abfa2a">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

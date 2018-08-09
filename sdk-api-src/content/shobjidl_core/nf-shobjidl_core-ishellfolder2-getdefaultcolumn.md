@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2_GetDefaultColumn.htm
 old-project: shell
 ms.assetid: 5d1a1273-be67-4bb3-b549-8adacea0cb5f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetDefaultColumn, GetDefaultColumn method [Windows Shell], GetDefaultColumn method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultColumn method, IShellFolder2.GetDefaultColumn, IShellFolder2::GetDefaultColumn, _win32_IShellFolder2_GetDefaultColumn, shell.IShellFolder2_GetDefaultColumn, shobjidl_core/IShellFolder2::GetDefaultColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 
 <h3><a id="Notes_to_Users"></a><a id="notes_to_users"></a><a id="NOTES_TO_USERS"></a>Notes to Users</h3>
-
-			Both column indexes returned by this method are intended for use by an application that is presenting a folder view of this folder.
+Both column indexes returned by this method are intended for use by an application that is presenting a folder view of this folder.
 
 The column specified by 
 				<i>pSort</i> is the one that should be used for sorting the items in the folder. To determine the sorting order of any pair of items, pass their PIDLs to <a href="https://msdn.microsoft.com/54d805cc-5396-4892-9347-cafc2d90779f">CompareIDs</a>. Specify the column by setting the 

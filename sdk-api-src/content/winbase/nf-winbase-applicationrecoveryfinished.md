@@ -4,10 +4,10 @@ title: ApplicationRecoveryFinished function
 author: windows-sdk-content
 description: Indicates that the calling application has completed its data recovery.
 old-location: recovery\applicationrecoveryfinished.htm
-old-project: Recovery
+old-project: recovery
 ms.assetid: 2c9309c5-c36d-4b68-a642-ed087024dba1
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: ApplicationRecoveryFinished, ApplicationRecoveryFinished function [Recovery], recovery.applicationrecoveryfinished, winbase/ApplicationRecoveryFinished
 ms.prod: windows
 ms.technology: windows-sdk

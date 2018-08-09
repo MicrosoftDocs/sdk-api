@@ -7,7 +7,7 @@ old-location: security\access_mode.htm
 old-project: secauthz
 ms.assetid: 52d1b3a3-eed5-4603-9056-520320da2a52
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ACCESS_MODE, ACCESS_MODE enumeration [Security], DENY_ACCESS, GRANT_ACCESS, NOT_USED_ACCESS, REVOKE_ACCESS, SET_ACCESS, SET_AUDIT_FAILURE, SET_AUDIT_SUCCESS, _ACCESS_MODE, _win32_access_mode_str, accctrl/ACCESS_MODE, accctrl/DENY_ACCESS, accctrl/GRANT_ACCESS, accctrl/NOT_USED_ACCESS, accctrl/REVOKE_ACCESS, accctrl/SET_ACCESS, accctrl/SET_AUDIT_FAILURE, accctrl/SET_AUDIT_SUCCESS, security.access_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,8 +47,7 @@ targetos: Windows
 ## -description
 
 
-
-			The <b>ACCESS_MODE</b> enumeration contains values that indicate how the access rights in an 
+The <b>ACCESS_MODE</b> enumeration contains values that indicate how the access rights in an 
 <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure apply to the trustee. Functions such as 
 <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and 
 <a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a> use these values to set or retrieve information in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
@@ -72,8 +71,7 @@ Indicates an
 
 ### -field SET_ACCESS
 
-Indicates an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
-						 structure that allows the specified rights. 
+Indicates an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>structure that allows the specified rights. 
 
 
 
@@ -84,8 +82,7 @@ On input, this value discards any existing access control information for the tr
 ### -field DENY_ACCESS
 
 Indicates an 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a>
-						 structure that denies the specified rights. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a>structure that denies the specified rights. 
 
 
 
@@ -101,8 +98,7 @@ Indicates that all existing <a href="https://msdn.microsoft.com/library/windows/
 
 ### -field SET_AUDIT_SUCCESS
 
-Indicates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
-						 structure that generates audit messages for successful attempts to use the specified access rights. 
+Indicates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for successful attempts to use the specified access rights. 
 						
 
 On input, this value combines the specified rights with any existing audited access rights for the trustee.
@@ -111,8 +107,7 @@ On input, this value combines the specified rights with any existing audited acc
 ### -field SET_AUDIT_FAILURE
 
 Indicates a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
-						 structure that generates audit messages for failed attempts to use the specified access rights.  
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for failed attempts to use the specified access rights.  
 
 On input, this value combines the specified rights with any existing audited access rights for the trustee.
 

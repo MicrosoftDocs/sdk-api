@@ -7,7 +7,7 @@ old-location: mf\mfp_play_event.htm
 old-project: medfound
 ms.assetid: 2cf8805f-8a3c-45a6-87ad-fa4da9115833
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_PLAY_EVENT, MFP_PLAY_EVENT structure [Media Foundation], mf.mfp_play_event, mfplay/MFP_PLAY_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ Pointer to the <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/2a67965f-3429-4ce7-ae62-8952cacb00eb">MFP_GET_PLAY_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/2a67965f-3429-4ce7-ae62-8952cacb00eb">MFP_GET_PLAY_EVENT</a> macro for this purpose.
 
 
 

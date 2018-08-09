@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireplugin_processitem.htm
 old-project: acquisition
 ms.assetid: f8a9144e-a728-48b7-a729-eec6d4db6d9e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem method, IPhotoAcquirePlugin.ProcessItem, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Specifies a double word value indicating whether this method is being called bef
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

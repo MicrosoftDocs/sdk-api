@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_utilitiesft.htm
 old-project: wmi_v2
 ms.assetid: 4f82b7b3-833c-42e8-a80c-2d057fc34fe4
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_UtilitiesFT, MI_UtilitiesFT structure [Windows Management Infrastructure (MI)], _MI_UtilitiesFT, mi/MI_UtilitiesFT, wmi_v2.mi_utilitiesft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,10 @@ A support structure used in the
 
 
 
-#### - CimErrorFromErrorCode
+#### - MapErrorToMiErrorCategory
 
-Maps an operating-system specific error code to a CIM error instance. See 
-   <a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a>.
+This function has been deprecated. See 
+   <a href="https://msdn.microsoft.com/58ac8e3e-ae87-40b1-bf27-1b32168a033e">MI_Utilities_MapErrorToMiErrorCategory</a>.
 
 
 #### - MapErrorToExtendedError
@@ -75,8 +75,8 @@ This function has been deprecated. See
    <a href="https://msdn.microsoft.com/cbd5bd18-897d-49ce-82b7-98f97c3c02d7">MI_Utilities_MapErrorToExtendedError</a>.
 
 
-#### - MapErrorToMiErrorCategory
+#### - CimErrorFromErrorCode
 
-This function has been deprecated. See 
-   <a href="https://msdn.microsoft.com/58ac8e3e-ae87-40b1-bf27-1b32168a033e">MI_Utilities_MapErrorToMiErrorCategory</a>.
+Maps an operating-system specific error code to a CIM error instance. See 
+   <a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a>.
 

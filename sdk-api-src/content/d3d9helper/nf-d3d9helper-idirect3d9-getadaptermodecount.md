@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__getadaptermodecount.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptermodecount.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 8c15b401-a18e-3d6f-8b01-fd6833879d87, GetAdapterModeCount, GetAdapterModeCount method [Direct3D 9], GetAdapterModeCount method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterModeCount method, IDirect3D9.GetAdapterModeCount, IDirect3D9::GetAdapterModeCount, d3d9helper/IDirect3D9::GetAdapterModeCount, direct3d9.idirect3d9__getadaptermodecount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Ordinal number that denotes the display adapter. D3DADAPTER_DEFAULT is always th
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
 
-Identifies the format of the surface type using <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>. Use <a href="https://msdn.microsoft.com/library/Bb174314(v=VS.85).aspx">EnumAdapterModes</a> to see the valid formats.
+Identifies the format of the surface type using <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>. Use <a href="https://msdn.microsoft.com/2e86d5bf-c7ac-47a8-af6c-0cd953d4cfa0">EnumAdapterModes</a> to see the valid formats.
 
 
 ## -returns
@@ -89,11 +89,11 @@ This method returns the number of display modes on this adapter or zero if Adapt
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174314(v=VS.85).aspx">EnumAdapterModes</a>
+<a href="https://msdn.microsoft.com/2e86d5bf-c7ac-47a8-af6c-0cd953d4cfa0">EnumAdapterModes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\ix509publickey_initialize_method.htm
 old-project: seccertenroll
 ms.assetid: b6db46b2-95f5-4ba9-829d-97bf83fd9806
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509PublicKey interface [Security],Initialize method, IX509PublicKey.Initialize, IX509PublicKey::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Initialize, security.ix509publickey_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

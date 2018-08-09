@@ -7,7 +7,7 @@ old-location: gdi\dibindex.htm
 old-project: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,6 @@ The <b>DIBINDEX</b> macro takes an index to an entry in a DIB color table and re
 
 
 ### -param n
-
-TBD
-
-
-
-
-
-
-#### - wColorTableIndex
 
 Specifies an index to the color table entry containing the color to be used for a graphics operation.
 

@@ -7,7 +7,7 @@ old-location: controls\PFNDPAMERGECONST.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamergeconst.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGECONST, PFNDPAMERGECONST callback, PFNDPAMERGECONST callback function [Windows Controls], _shell_PFNDPAMERGECONST, _shell_PFNDPAMERGECONST_cpp, controls.PFNDPAMERGECONST, controls._shell_PFNDPAMERGECONST, dpa_dsa/PFNDPAMERGECONST
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/library/Bb775629(v=VS.85).aspx">DPA_Merge</a>, using constant values.
+Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/c2d8ffab-1cd1-4328-9740-524c39b6821c">DPA_Merge</a>, using constant values.
 
 
 ## -parameters
@@ -143,7 +143,7 @@ A pointer to constant data which results from the merge, or <b>NULL</b> if there
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a>
+<a href="https://msdn.microsoft.com/88b6e213-d39e-4c48-acd4-772e164ab175">PFNDPAMERGE</a>
  
 
  

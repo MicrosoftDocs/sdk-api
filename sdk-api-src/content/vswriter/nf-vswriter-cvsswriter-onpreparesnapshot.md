@@ -4,10 +4,10 @@ title: CVssWriter::OnPrepareSnapshot
 author: windows-sdk-content
 description: The OnPrepareSnapshot method is called by a writer to handle a PrepareForSnapshot event. It is used to perform operations needed to prepare a writer to participate in the shadow copy or to veto a shadow copy.
 old-location: base\cvsswriter_onpreparesnapshot.htm
-old-project: VSS
+old-project: vss
 ms.assetid: a077323e-d04c-4bf7-8aa6-5028fa1c6e6b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareSnapshot method, CVssWriter.OnPrepareSnapshot, CVssWriter::OnPrepareSnapshot, OnPrepareSnapshot, OnPrepareSnapshot method [VSS], OnPrepareSnapshot method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparesnapshot, base.cvsswriter_onpreparesnapshot, vswriter/CVssWriter::OnPrepareSnapshot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 The 
-<b>OnPrepareSnapshot</b> method is called by a writer to handle a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForSnapshot</a> event. It is used to perform operations needed to prepare a writer to participate in the shadow copy or to veto a shadow copy.
+<b>OnPrepareSnapshot</b> method is called by a writer to handle a <a href="vssgloss_p.htm">PrepareForSnapshot</a> event. It is used to perform operations needed to prepare a writer to participate in the shadow copy or to veto a shadow copy.
 
 <b>OnPrepareSnapshot</b> is a pure virtual method. It is not implemented by the 
 <a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> base class, and must be implemented by derived classes.
@@ -85,13 +85,13 @@ The implementation of this method must return <b>true</b> except in the case of 
 The 
 <b>OnPrepareSnapshot</b> method performs operations that are required prior to any shadow copy freeze.
 
-The time-out window for handling a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForSnapshot</a> event is typically longer than that for handling a <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">Freeze</a> event. Therefore, developers can use 
+The time-out window for handling a <a href="vssgloss_p.htm">PrepareForSnapshot</a> event is typically longer than that for handling a <a href="vssgloss_f.htm">Freeze</a> event. Therefore, developers can use 
 <b>OnPrepareSnapshot</b> to handle more time-consuming operations. A typical use might be for the writer to explicitly checkpoint its data.
 
 Writers should never throw an exception from this method or any other <b>CVssWriter(Ex)::On<i>Xxx</i></b> callback method.
 
 If this method calls the <a href="https://msdn.microsoft.com/bea5ba9c-538b-453f-ae6d-12b94b8edeb6">CVssWriterEx2::GetSessionId</a>, <a href="https://msdn.microsoft.com/9fef9d77-dc0d-4ba0-a317-5c62355458f7">CVssWriter::SetWriterFailure</a>, or <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+<a href="writers.htm">Writer Event Handling</a>.
 
 
 

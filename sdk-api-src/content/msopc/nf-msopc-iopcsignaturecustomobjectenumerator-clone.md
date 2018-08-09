@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectenumerator_clone.htm
 old-project: OPC
 ms.assetid: 51dd3758-26c6-4d4f-a956-61a9ff1f67c5
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureCustomObjectEnumerator.Clone, IOpcSignatureCustomObjectEnumerator::Clone, msopc/IOpcSignatureCustomObjectEnumerator::Clone, opc.iopcsignaturecustomobjectenumerator_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates a copy of the current <a href="https://msdn.microsoft.com/e82caa1e-4cf8-
 
 ### -param copy [out, retval]
 
-A pointer to a copy of the <a href="https://msdn.microsoft.com/e82caa1e-4cf8-457f-86d9-24f707544199">IOpcSignatureCustomObjectEnumerator</a>
-    interface pointer.
+A pointer to a copy of the <a href="https://msdn.microsoft.com/e82caa1e-4cf8-457f-86d9-24f707544199">IOpcSignatureCustomObjectEnumerator</a>interface pointer.
 
 
 ## -returns

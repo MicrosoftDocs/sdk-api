@@ -7,7 +7,7 @@ old-location: devinst\sp_devinstall_params.htm
 old-project: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSP_DEVINSTALL_PARAMS_W, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_W, _SP_DEVINSTALL_PARAMS_W, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -457,20 +457,9 @@ Set to use the Class Install parameters. <a href="https://msdn.microsoft.com/lib
 Set to force <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> to build a device's list of compatible drivers from its class driver list instead of the INF file.
 
 
-##### - Flags.DI_DIDCLASS
+##### - Flags.DI_DRIVERPAGE_ADDED
 
-Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> has already built a list of the drivers for this class of device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551001">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a list of drivers for a class.
-
-This flag is read-only. Only the operating system sets this flag.
-
-
-##### - Flags.DI_DIDCOMPAT
-
-Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> has already built a list of compatible drivers for this device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551001">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a compatible driver list.
-
-This flag is only set in device installation parameters that are associated with a particular device information element, not in parameters for a device information set as a whole.
-
-This flag is read-only. Only the operating system sets this flag.
+Set by a class installer or co-installer if the installer supplies a page that replaces the system-supplied driver properties page. If this flag is set, the operating system does not display the system-supplied driver page.
 
 
 ##### - Flags.DI_DONOTCALLCONFIGMG
@@ -492,11 +481,6 @@ If this flag is set, device installation applications, class installers, and co-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537996">CM_Disable_DevNode</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538001">CM_Disable_DevNode_Ex</a>
 
-##### - Flags.DI_DRIVERPAGE_ADDED
-
-Set by a class installer or co-installer if the installer supplies a page that replaces the system-supplied driver properties page. If this flag is set, the operating system does not display the system-supplied driver page.
-
-
 ##### - Flags.DI_ENUMSINGLEINF
 
 Set if installers and other <a href="devinst.device_installation_components">device installation components</a> should only search the INF file specified by SP_DEVINSTALL_PARAMS.<b>DriverPath</b>. If this flag is set, <b>DriverPath</b> contains the path of a single INF file instead of a path of a directory.
@@ -510,13 +494,6 @@ Set to indicate that the Select Device page should list drivers in the order in 
 ##### - Flags.DI_INSTALLDISABLED
 
 Set if the device should be installed in a disabled state by default. To be recognized, this flag must be set before Windows calls the default handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a> request. 
-
-
-##### - Flags.DI_MULTMFGS
-
-Set by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> contains drivers that are provided by multiple manufacturers.
-
-This flag is read-only. Only the operating system sets this flag.
 
 
 ##### - Flags.DI_NEEDREBOOT
@@ -581,6 +558,29 @@ Set to allow support for OEM disks. If this flag is set, the operating system pr
 Set if a class installer or co-installer supplied strings that should be used during <a href="https://msdn.microsoft.com/library/windows/hardware/ff552115">SetupDiSelectDevice</a>.
 
 
+##### - Flags.DI_DIDCLASS
+
+Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> has already built a list of the drivers for this class of device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551001">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a list of drivers for a class.
+
+This flag is read-only. Only the operating system sets this flag.
+
+
+##### - Flags.DI_DIDCOMPAT
+
+Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> has already built a list of compatible drivers for this device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551001">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a compatible driver list.
+
+This flag is only set in device installation parameters that are associated with a particular device information element, not in parameters for a device information set as a whole.
+
+This flag is read-only. Only the operating system sets this flag.
+
+
+##### - Flags.DI_MULTMFGS
+
+Set by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> contains drivers that are provided by multiple manufacturers.
+
+This flag is read-only. Only the operating system sets this flag.
+
+
 ##### - FlagsEx.DI_FLAGSEX_ALLOWEXCLUDEDDRVS
 
 If set, include drivers that were marked "Exclude From Select." 
@@ -598,21 +598,6 @@ If set and the DI_NOWRITE_IDS flag is clear, always write hardware and compatibl
 ##### - FlagsEx.DI_FLAGSEX_APPENDDRIVERLIST
 
 If set, <b>SetupDiBuildDriverInfoList</b> appends a new driver list to an existing list. This flag is relevant when searching multiple locations.
-
-
-##### - FlagsEx.DI_FLAGSEX_CI_FAILED
-
-Set by the operating system if a class installer failed to load or start. This flag is read-only.
-
-
-##### - FlagsEx.DI_FLAGSEX_DIDCOMPATINFO
-
-Windows has built a list of <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver nodes</a> that are compatible with the device. This flag is read-only.
-
-
-##### - FlagsEx.DI_FLAGSEX_DIDINFOLIST
-
-Windows has built a list of driver nodes that includes all the drivers that are listed in the INF files of the specified setup class. If the specified setup class is <b>NULL</b> because the HDEVINFO set or device has no associated class, the list includes all driver nodes from all available INF files. This flag is read-only.
 
 
 ##### - FlagsEx.DI_FLAGSEX_DRIVERLIST_FROM_URL
@@ -649,11 +634,6 @@ If set, the driver was obtained from the Internet. Windows will not use the devi
 (Windows XP and later.) If set, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> includes only the currently installed driver when creating a list of class drivers or device-compatible drivers.
 
 
-##### - FlagsEx.DI_FLAGSEX_IN_SYSTEM_SETUP
-
-If set, installation is occurring during initial system setup. This flag is read-only.
-
-
 ##### - FlagsEx.DI_FLAGSEX_NO_DRVREG_MODIFY
 
 Do not process the <b>AddReg</b> and <b>DelReg</b> entries for the device's hardware and software (driver) keys. That is, the <b>AddReg</b> and <b>DelReg</b> entries in the INF file <i>DDInstall</i> and <i>DDInstall</i><b>.HW</b> sections.
@@ -679,6 +659,26 @@ Set if the installation failed. If this flag is set, the <a href="https://msdn.m
 ##### - FlagsEx.DI_FLAGSEX_USECLASSFORCOMPAT
 
 Filter INF files on the device's setup class when building a list of compatible drivers. If a device's setup class is known, setting this flag reduces the time that is required to build a list of compatible drivers when searching INF files that are not precompiled. This flag is ignored if DI_COMPAT_FROM_CLASS is set.
+
+
+##### - FlagsEx.DI_FLAGSEX_CI_FAILED
+
+Set by the operating system if a class installer failed to load or start. This flag is read-only.
+
+
+##### - FlagsEx.DI_FLAGSEX_DIDCOMPATINFO
+
+Windows has built a list of <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver nodes</a> that are compatible with the device. This flag is read-only.
+
+
+##### - FlagsEx.DI_FLAGSEX_DIDINFOLIST
+
+Windows has built a list of driver nodes that includes all the drivers that are listed in the INF files of the specified setup class. If the specified setup class is <b>NULL</b> because the HDEVINFO set or device has no associated class, the list includes all driver nodes from all available INF files. This flag is read-only.
+
+
+##### - FlagsEx.DI_FLAGSEX_IN_SYSTEM_SETUP
+
+If set, installation is occurring during initial system setup. This flag is read-only.
 
 
 ## -see-also

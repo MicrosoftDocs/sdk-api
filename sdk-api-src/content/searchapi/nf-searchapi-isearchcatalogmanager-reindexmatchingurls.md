@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_ReindexMatchingURLs.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexmatchingurls.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexMatchingURLs method, ISearchCatalogManager.ReindexMatchingURLs, ISearchCatalogManager::ReindexMatchingURLs, ReindexMatchingURLs, ReindexMatchingURLs method [search], ReindexMatchingURLs method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexMatchingURLs, search._search_ISearchCatalogManager_ReindexMatchingURLs, searchapi/ISearchCatalogManager::ReindexMatchingURLs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
+Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
       
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LPCWSTR</b>
 
-
-          A pointer to the pattern to be matched for reindexing. The pattern can be a standard pattern such as <code>*.pdf</code> or a pattern in the form of a URL such as <code>file:///c:\MyStuff\*.pdf</code>.
+A pointer to the pattern to be matched for reindexing. The pattern can be a standard pattern such as <code>*.pdf</code> or a pattern in the form of a URL such as <code>file:///c:\MyStuff\*.pdf</code>.
         
 
 

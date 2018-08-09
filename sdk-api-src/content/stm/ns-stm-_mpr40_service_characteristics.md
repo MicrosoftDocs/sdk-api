@@ -4,10 +4,10 @@ title: "_MPR40_SERVICE_CHARACTERISTICS"
 author: windows-sdk-content
 description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
 old-location: rras\mpr_service_characteristics.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR40_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _MPR40_SERVICE_CHARACTERISTICS, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,6 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _MPR40_SERVICE_CHARACTERISTICS structure

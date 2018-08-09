@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereferencecollection_getcount.htm
 old-project: printdocs
 ms.assetid: 7728930a-408d-445f-9b0d-9043912d4e72
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPageReferenceCollection.GetCount, IXpsOMPageReferenceCollection::GetCount, xps.ixpsompagereferencecollection_getcount, xpsobjectmodel/IXpsOMPageReferenceCollection::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

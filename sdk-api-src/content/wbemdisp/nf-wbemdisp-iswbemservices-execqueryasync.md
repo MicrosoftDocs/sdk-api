@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execqueryasync.htm
 old-project: WmiSdk
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ExecQueryAsync, ExecQueryAsync method [Windows Management Instrumentation], ExecQueryAsync method [Windows Management Instrumentation],ISWbemServices interface, ExecQueryAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecQueryAsync method, ISWbemServices.ExecQueryAsync, ISWbemServices::ExecQueryAsync, SWbemServices object [Windows Management Instrumentation],ExecQueryAsync method, SWbemServices.ExecQueryAsync, _hmm_swbemservices.execqueryasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemQueryFlagPrototype, wmi.swbemservices_execqueryasync
 ms.prod: windows
 ms.technology: windows-sdk

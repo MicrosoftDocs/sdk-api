@@ -7,7 +7,7 @@ old-location: winsock\napi_provider_level.htm
 old-project: winsock
 ms.assetid: 70b5fcde-657b-4f27-b55b-5f5ac3373344
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: NAPI_PROVIDER_LEVEL, NAPI_PROVIDER_LEVEL enumeration [Winsock], ProviderLevel_None, ProviderLevel_Primary, ProviderLevel_Secondary, napi_provider_level_tag, nsemail/NAPI_PROVIDER_LEVEL, nsemail/ProviderLevel_None, nsemail/ProviderLevel_Primary, nsemail/ProviderLevel_Secondary, winsock.napi_provider_level
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ There should be only a single primary NS_EMAIL namespace provider for a domain r
 
 
 
-This enumeration is supported on Windows Vista
-  and later.
+This enumeration is supported on Windows Vistaand later.
 
 The <b>NAPI_PROVIDER_LEVEL</b> enumeration is used by the <a href="https://msdn.microsoft.com/543aa20c-eec2-4177-87ed-ba9c91251010">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structure to specify the authority level of  a NS_EMAIL namespace provider for a domain. Each namespace provider registered in the NS_EMAIL namespace can support multiple domains. The list of supported domains is specified in the provider registration blob as a list of <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structures. Each supported domain specification contains a <b>NAPI_PROVIDER_LEVEL</b> value in the <b>AuthLevel</b> member of the <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> that describes the type of support provided by the provider for that domain. 
 

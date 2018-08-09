@@ -7,7 +7,7 @@ old-location: dshow\eavencmpacodingmode.htm
 old-project: DirectShow
 ms.assetid: 37c3309b-05ea-4c78-b447-196d16c0f0cd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: codecapi/eAVEncMPACodingMode, codecapi/eAVEncMPACodingMode_DualChannel, codecapi/eAVEncMPACodingMode_JointStereo, codecapi/eAVEncMPACodingMode_Mono, codecapi/eAVEncMPACodingMode_Stereo, codecapi/eAVEncMPACodingMode_Surround, dshow.eavencmpacodingmode, eAVEncMPACodingMode, eAVEncMPACodingMode enumeration [DirectShow], eAVEncMPACodingModeEnumeration, eAVEncMPACodingMode_DualChannel, eAVEncMPACodingMode_JointStereo, eAVEncMPACodingMode_Mono, eAVEncMPACodingMode_Stereo, eAVEncMPACodingMode_Surround
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,22 +63,19 @@ Specifies the MPEG audio encoding mode. This enumeration is used with the <a hre
 
 ### -field eAVEncMPACodingMode_Mono
 
-
-            Single channel.
+Single channel.
           This mode corresponds to single_channel mode (bit code '11'), defined in ISO/IEC 11172-3.
 
 
 ### -field eAVEncMPACodingMode_Stereo
 
-
-            Stereo channels.
+Stereo channels.
           This mode corresponds to stereo mode ('00'), defined in ISO/IEC 11172-3.
 
 
 ### -field eAVEncMPACodingMode_DualChannel
 
-
-            Two mono channels.
+Two mono channels.
           This mode corresponds to dual_channel mode ('10'), defined in ISO/IEC 11172-3.
 
 
@@ -89,8 +86,7 @@ Joint stereo mode. This mode uses similarities between the two channels to achie
 
 ### -field eAVEncMPACodingMode_Surround
 
-
-            Surround audio (5.1 channels).
+Surround audio (5.1 channels).
           This mode applies to MPEG-2 audio (ISO/IEC 13818-3).
 
 

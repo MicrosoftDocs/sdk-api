@@ -7,7 +7,7 @@ old-location: intl\text.htm
 old-project: Intl
 ms.assetid: 427d365f-2277-460c-8120-3ccb6c6cea4f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,6 @@ Identifies a string as Unicode when UNICODE is defined by a preprocessor directi
 
 
 ### -param quote
-
-TBD
-
-
-
-
-
-
-#### - string
 
 Pointer to the string to interpret as UTF-16 or ANSI.
 

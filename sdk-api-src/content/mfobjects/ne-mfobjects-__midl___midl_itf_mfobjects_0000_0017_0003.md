@@ -7,7 +7,7 @@ old-location: mf\mf_file_flags.htm
 old-project: medfound
 ms.assetid: 1e1c906e-c832-4df1-96f5-86e690c3c34e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1e1c906e-c832-4df1-96f5-86e690c3c34e, MF_FILEFLAGS_ALLOW_WRITE_SHARING, MF_FILEFLAGS_NOBUFFERING, MF_FILEFLAGS_NONE, MF_FILE_FLAGS, MF_FILE_FLAGS enumeration [Media Foundation], __MIDL___MIDL_itf_mfobjects_0000_0017_0003, mf.mf_file_flags, mfobjects/MF_FILEFLAGS_ALLOW_WRITE_SHARING, mfobjects/MF_FILEFLAGS_NOBUFFERING, mfobjects/MF_FILEFLAGS_NONE, mfobjects/MF_FILE_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Specifies the behavior when opening a file.
+Specifies the behavior when opening a file.
         
 
 
@@ -63,15 +62,13 @@ req.product: GDI+ 1.1
 
 ### -field MF_FILEFLAGS_NONE
 
-
-            Use the default behavior.
+Use the default behavior.
           
 
 
 ### -field MF_FILEFLAGS_NOBUFFERING
 
-
-            Open the file with no system caching.
+Open the file with no system caching.
           
 
 

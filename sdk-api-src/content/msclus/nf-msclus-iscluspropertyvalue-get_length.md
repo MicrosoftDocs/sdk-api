@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalue_length.htm
 old-project: mscs
 ms.assetid: c9c2e4b8-71db-4d28-80ac-f774af573871
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusPropertyValue object [Failover Cluster],Length property, ClusPropertyValue.Length, ISClusPropertyValue.get_Length, ISClusPropertyValue::get_Length, Length property [Failover Cluster], Length property [Failover Cluster],ClusPropertyValue object, _wolf_cluspropertyvalue.length, get_Length, mscs.cluspropertyvalue_length
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the byte 
-    size of a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a>.
+    size of a <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

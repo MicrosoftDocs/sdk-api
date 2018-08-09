@@ -7,7 +7,7 @@ old-location: controls\ListView_SetInfoTip.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetInfoTip, ListView_SetInfoTip macro [Windows Controls], _win32_ListView_SetInfoTip, _win32_ListView_SetInfoTip_cpp, commctrl/ListView_SetInfoTip, controls.ListView_SetInfoTip, controls._win32_ListView_SetInfoTip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets tooltip text. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761180(v=VS.85).aspx">LVM_SETINFOTIP</a> message explicitly. 
+Sets tooltip text. You can use this macro or send the <a href="https://msdn.microsoft.com/3dbf6a9a-52ec-4619-9c70-041e75942e20">LVM_SETINFOTIP</a> message explicitly. 
 
 
 ## -parameters
@@ -60,36 +60,22 @@ Sets tooltip text. You can use this macro or send the <a href="https://msdn.micr
 
 ### -param hwndLV
 
-TBD
-
-
-### -param plvInfoTip
-
-TBD
-
-
-
-
-
-
-#### - hwnd
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
-#### - plvSetInfoTip
+### -param plvInfoTip
 
 Type: <b>PLVSETINFOTIP</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774764(v=VS.85).aspx">LVSETINFOTIP</a>
+<a href="https://msdn.microsoft.com/763d8231-3572-40d7-b120-0e88835a3d63">LVSETINFOTIP</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetInfoTip</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetInfoTip</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

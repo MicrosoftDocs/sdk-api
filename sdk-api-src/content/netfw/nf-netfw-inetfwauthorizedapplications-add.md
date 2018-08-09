@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_add.htm
 old-project: ics
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Application to add to the collection via an <a href="https://msdn.microsoft.com/
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -151,8 +150,7 @@ The  method failed because the  object is already in the collection.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamily.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FontFamily, FontFamily class [GDI+], FontFamily class [GDI+],described, _gdiplus_CLASS_FontFamily_Class, gdiplus._gdiplus_CLASS_FontFamily_Class, gdiplusheaders/FontFamily
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-This <a href="https://msdn.microsoft.com/library/ms536168(v=VS.85).aspx">FontFamily</a> class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
+This <a href="https://msdn.microsoft.com/9d8f73d7-d6ea-44d4-be5c-a003f6eba508">FontFamily</a> class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
 
 
 ## -remarks

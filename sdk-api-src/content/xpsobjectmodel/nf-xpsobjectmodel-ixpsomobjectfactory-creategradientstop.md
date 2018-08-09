@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_creategradientstop.htm
 old-project: printdocs
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateGradientStop, CreateGradientStop method [XPS Documents and Packaging], CreateGradientStop method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGradientStop method, IXpsOMObjectFactory.CreateGradientStop, IXpsOMObjectFactory::CreateGradientStop, xps.ixpsomobjectfactory_creategradientstop, xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
 ms.prod: windows
 ms.technology: windows-sdk

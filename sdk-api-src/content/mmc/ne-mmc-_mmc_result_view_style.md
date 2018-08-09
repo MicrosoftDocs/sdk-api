@@ -7,7 +7,7 @@ old-location: mmc\mmc_result_view_style.htm
 old-project: MMC
 ms.assetid: 2f1b93e2-aa1d-4478-877b-a26cdb3dc84b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: MMC_NOSORTHEADER, MMC_RESULT_VIEW_STYLE, MMC_RESULT_VIEW_STYLE enumeration [MMC], MMC_SHOWSELALWAYS, MMC_SINGLESEL, _MMC_RESULT_VIEW_STYLE, _slate_mmc_result_view_style, mmc.mmc_result_view_style, mmc/MMC_NOSORTHEADER, mmc/MMC_RESULT_VIEW_STYLE, mmc/MMC_SHOWSELALWAYS, mmc/MMC_SINGLESEL
 ms.prod: windows
 ms.technology: windows-sdk

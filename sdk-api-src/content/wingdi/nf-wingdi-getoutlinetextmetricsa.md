@@ -7,7 +7,7 @@ old-location: gdi\getoutlinetextmetrics.htm
 old-project: gdi
 ms.assetid: b8c7a557-ca35-41a4-9043-8496e5b01564
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetOutlineTextMetrics, GetOutlineTextMetrics function [Windows GDI], GetOutlineTextMetricsA, GetOutlineTextMetricsW, _win32_GetOutlineTextMetrics, gdi.getoutlinetextmetrics, wingdi/GetOutlineTextMetrics, wingdi/GetOutlineTextMetricsA, wingdi/GetOutlineTextMetricsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,24 +70,12 @@ The <b>GetOutlineTextMetrics</b> function retrieves text metrics for TrueType fo
 A handle to the device context.
 
 
-### -param cjCopy
-
-TBD
-
-
-### -param potm
-
-TBD
-
-
-
-
-#### - cbData [in]
+### -param cjCopy [in]
 
 The size, in bytes, of the array that receives the text metrics.
 
 
-#### - lpOTM [out, optional]
+### -param potm [out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b">OUTLINETEXTMETRIC</a> structure. If this parameter is <b>NULL</b>, the function returns the size of the buffer required for the retrieved metric data.
 

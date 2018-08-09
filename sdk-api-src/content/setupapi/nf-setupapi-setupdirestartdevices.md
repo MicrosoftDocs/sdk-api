@@ -7,7 +7,7 @@ old-location: devinst\setupdirestartdevices.htm
 old-project: devinst
 ms.assetid: 38bb2e40-e522-4155-9d2c-f6aaeea70839
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_7.htm
 old-project: dfs
 ms.assetid: 03bcd93d-e3ec-49aa-be6c-399922f67c28
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDFS_INFO_7, *PDFS_INFO_7, DFS_INFO_7, DFS_INFO_7 structure [Distributed File System], LPDFS_INFO_7, LPDFS_INFO_7 structure pointer [Distributed File System], PDFS_INFO_7, PDFS_INFO_7 structure pointer [Distributed File System], _DFS_INFO_7, dfs.dfs_info_7, fs.dfs_info_7, lmdfs/DFS_INFO_7, lmdfs/LPDFS_INFO_7, lmdfs/PDFS_INFO_7, netmgmt.dfs_info_7"
 ms.prod: windows
 ms.technology: windows-sdk

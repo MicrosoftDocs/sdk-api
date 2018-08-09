@@ -4,10 +4,10 @@ title: RtlUnwind2 function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind2.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,14 +83,7 @@ A pointer to an <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c
 A value to be placed in the integer function return register before continuing execution.
 
 
-### -param ContextRecord
-
-TBD
-
-
-
-
-#### - OriginalContext [in]
+### -param ContextRecord [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that stores context 
      during the unwind operation.

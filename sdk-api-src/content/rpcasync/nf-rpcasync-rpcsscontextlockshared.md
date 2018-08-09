@@ -7,7 +7,7 @@ old-location: rpc\rpcsscontextlockshared.htm
 old-project: rpc
 ms.assetid: 469f0995-54ff-40a6-9322-3d173e2c9861
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSsContextLockShared, RpcSsContextLockShared function [RPC], _rpc_rpcsscontextlockshared, rpc.rpcsscontextlockshared, rpcasync/RpcSsContextLockShared
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcSsContextLockShared</b> function enables an application to begin using a context handle in shared mode.
 
 
@@ -81,8 +80,7 @@ For [out] only context handles, the
 
 
 
-
-						Returns RPC_S_OK upon successful execution, indicating the thread now has access to the context handle in shared mode.
+Returns RPC_S_OK upon successful execution, indicating the thread now has access to the context handle in shared mode.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
 <a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
@@ -136,7 +134,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ab1aee44-4add-4816-a7ef-38bbf7b38918">context_handle</a>
+<a href="https://msdn.microsoft.com/">context_handle</a>
 
 
 

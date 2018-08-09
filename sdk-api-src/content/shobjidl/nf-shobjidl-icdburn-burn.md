@@ -7,7 +7,7 @@ old-location: shell\ICDBurn_Burn.htm
 old-project: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],Burn method, ICDBurn.Burn, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
 ms.prod: windows
 ms.technology: windows-sdk

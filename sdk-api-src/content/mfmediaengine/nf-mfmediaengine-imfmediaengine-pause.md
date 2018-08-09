@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_pause.htm
 old-project: medfound
 ms.assetid: 5C1FEBDA-18B5-4BF4-9AF4-FF6DBCDD880D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Pause method, IMFMediaEngine.Pause, IMFMediaEngine::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_pause, mfmediaengine/IMFMediaEngine::Pause
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownerservices_serialize.htm
 old-project: TSF
 ms.assetid: e67b6fa7-610d-426f-a290-36c0da4068f4
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Serialize method, ITfContextOwnerServices.Serialize, ITfContextOwnerServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_serialize_ref, msctf/ITfContextOwnerServices::Serialize, tsf.itfcontextownerservices_serialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,14 +163,12 @@ When calling this method, the application must be able to grant a synchronous re
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">
-        TF_PERSISTENT_PROPERTY_HEADER_ACP
+<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">TF_PERSISTENT_PROPERTY_HEADER_ACP
       </a>
  
 

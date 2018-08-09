@@ -7,7 +7,7 @@ old-location: automat\variant_usermarshal.htm
 old-project: automat
 ms.assetid: 1c273053-9a9e-4a04-af35-995378bc0142
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VARIANT_UserMarshal, VARIANT_UserMarshal function [Automation], _oa96_VARIANT_UserMarshal, automat.variant_usermarshal, oaidl/VARIANT_UserMarshal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in]
+
+The data used by RPC.
+
+
 #### - pBuffer [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry.
-
-
-#### - pFlags [in]
-
-The data used by RPC.
 
 
 #### - pVariant [in]

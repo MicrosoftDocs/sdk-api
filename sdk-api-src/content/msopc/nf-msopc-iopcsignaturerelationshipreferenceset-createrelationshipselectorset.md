@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreferenceset_createrelationshipselect
 old-project: OPC
 ms.assetid: 7b11f066-3e3a-4dd0-a938-853301bc6914
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: CreateRelationshipSelectorSet, CreateRelationshipSelectorSet method [Open Packaging Conventions], CreateRelationshipSelectorSet method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],CreateRelationshipSelectorSet method, IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet, IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet, opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset
 ms.prod: windows
 ms.technology: windows-sdk

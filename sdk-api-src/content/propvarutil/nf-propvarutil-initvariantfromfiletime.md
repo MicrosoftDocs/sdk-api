@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromFileTime.htm
 old-project: properties
 ms.assetid: cd61a268-ef73-4dd3-98d4-9811922d01f4
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromFileTime, InitVariantFromFileTime function [Windows Properties], _shell_InitVariantFromFileTime, properties.InitVariantFromFileTime, propvarutil/InitVariantFromFileTime, shell.InitVariantFromFileTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ Creates a VT_DATE variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762323(v=VS.85).aspx">InitVariantFromFileTime</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromFileTime">InitVariantFromFileTime</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,11 +128,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
+<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
+<a href="shell.VariantToFileTime">VariantToFileTime</a>
  
 
  

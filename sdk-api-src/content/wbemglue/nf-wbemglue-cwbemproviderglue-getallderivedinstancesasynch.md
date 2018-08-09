@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getallderivedinstancesasynch.htm
 old-project: WmiSdk
 ms.assetid: d58f8aca-2176-443e-b82a-87ee8bae8cf8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstancesAsynch method, CWbemProviderGlue.GetAllDerivedInstancesAsynch, CWbemProviderGlue::GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstancesasynch, wbemglue/CWbemProviderGlue::GetAllDerivedInstancesAsynch, wmi.cwbemproviderglue_getallderivedinstancesasynch
 ms.prod: windows
 ms.technology: windows-sdk

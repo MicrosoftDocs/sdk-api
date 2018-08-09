@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_SetTime.htm
 old-project: shell
 ms.assetid: D4B949F6-5508-4624-9706-491184703DC6
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellDispatch object [Windows Shell],SetTime method, IShellDispatch.SetTime, IShellDispatch::SetTime, SetTime, SetTime method [Windows Shell], SetTime method [Windows Shell],IShellDispatch object, shell.IShellDispatch_SetTime
 ms.prod: windows
 ms.technology: windows-sdk

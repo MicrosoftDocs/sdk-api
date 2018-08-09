@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_getobjecttransform.htm
 old-project: tablet
 ms.assetid: 11195fa1-ca59-4da6-8454-6209c75ccc67
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 11195fa1-ca59-4da6-8454-6209c75ccc67, GetObjectTransform, GetObjectTransform method [Tablet PC], GetObjectTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetObjectTransform method, IInkRenderer.GetObjectTransform, IInkRenderer::GetObjectTransform, msinkaut/IInkRenderer::GetObjectTransform, tablet.inkrenderer_getobjecttransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,7 +136,7 @@ Any translations applied to this transform should be in ink space units (1 unit 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="tablet.iinkrenderer">IInkRenderer</a>
 
 
 

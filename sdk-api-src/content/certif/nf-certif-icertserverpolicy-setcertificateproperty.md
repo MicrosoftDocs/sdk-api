@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_setcertificateproperty.htm
 old-project: seccrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ The certificate is not valid after the given date.
 <td width="60%">
  Set this property to 0x00000400 to prevent the request from being persisted in the CA database.
 
-<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="https://msdn.microsoft.com/e7ece535-31c7-4468-a9ef-84f4dbf16d76">GetCertificateProperty</a>
-								when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
+<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="https://msdn.microsoft.com/e7ece535-31c7-4468-a9ef-84f4dbf16d76">GetCertificateProperty</a>when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
 <div> </div>
 <b>Windows Storage Server 2003:  </b>This field is not supported.
 

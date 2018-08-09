@@ -7,7 +7,7 @@ old-location: dshow\iamextendedseeking_get_exseekcapabilities.htm
 old-project: DirectShow
 ms.assetid: caae9e8c-6d42-4bbc-a66a-bdde1009469d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_ExSeekCapabilities method, IAMExtendedSeeking.get_ExSeekCapabilities, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,11 +84,9 @@ The Windows Media Source filter sets the extended seeking flags as follows.
 
 <table>
 <tr>
-<td>
-              Flag
+<td>Flag
             </td>
-<td>
-              Condition
+<td>Condition
             </td>
 </tr>
 <tr>

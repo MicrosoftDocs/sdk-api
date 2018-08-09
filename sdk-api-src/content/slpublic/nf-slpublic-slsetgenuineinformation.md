@@ -4,10 +4,10 @@ title: SLSetGenuineInformation function
 author: windows-sdk-content
 description: Specifies information about the genuine status of a Windows computer.
 old-location: security\slsetgenuineinformation.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLSetGenuineInformation function
@@ -58,9 +59,9 @@ Specifies information about the genuine status of a Windows computer.
 
 
 
-### -param pQueryId
+### -param pQueryId [in]
 
-TBD
+A pointer to an <b>SLID</b> structure that specifies the application for which to set information.
 
 
 ### -param pwszValueName [in]
@@ -113,11 +114,6 @@ A pointer to an array of <b>BYTE</b> values that specify the value associated wi
 Some name-value pairs allow this parameter to be <b>NULL</b>. In this case, the existing value of the name-value pair is deleted.
 
 When you have finished using this array, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
-
-
-#### - pAppId [in]
-
-A pointer to an <b>SLID</b> structure that specifies the application for which to set information.
 
 
 ## -returns

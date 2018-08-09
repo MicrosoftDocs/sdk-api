@@ -7,7 +7,7 @@ old-location: controls\LVTILEINFO.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLVTILEINFO, LVTILEINFO, LVTILEINFO structure [Windows Controls], PLVTILEINFO, PLVTILEINFO structure pointer [Windows Controls], commctrl/LVTILEINFO, commctrl/PLVTILEINFO, controls.LVTILEINFO, controls.inet_LVTILEINFO, inet_LVTILEINFO, inet_LVTILEINFO_cpp, tagLVTILEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ A pointer to an array of column formats (for example, LVCFMT_LEFT), one for each
 
 In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed.
 
-Column information can also be set in the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure when creating the list item.
+Column information can also be set in the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure when creating the list item.
 
 
 

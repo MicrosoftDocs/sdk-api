@@ -7,7 +7,7 @@ old-location: base\getthreadtimes.htm
 old-project: procthread
 ms.assetid: eb61aa05-15d8-4251-947a-54df8433b858
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: GetThreadTimes, GetThreadTimes function, _win32_getthreadtimes, base.getthreadtimes, processthreadsapi/GetThreadTimes, winbase/GetThreadTimes
 ms.prod: windows
 ms.technology: windows-sdk

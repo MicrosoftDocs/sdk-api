@@ -7,7 +7,7 @@ old-location: search\iurlaccessor4_shouldindexproperty.htm
 old-project: search
 ms.assetid: 44F10BD2-0CE5-4462-A50B-CBD63EE3B802
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexProperty method, IUrlAccessor4.ShouldIndexProperty, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search],IUrlAccessor4 interface, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Returns S_FALSE if the property should not be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd183431(v=VS.85).aspx">IUrlAccessor4</a>
+<a href="https://msdn.microsoft.com/e49bfd50-1743-41aa-b11b-c47b9355489f">IUrlAccessor4</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tsf\itfrange.htm
 old-project: TSF
 ms.assetid: b8889f7d-3228-4ecc-8d24-c04234d3101e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ITfRange interface [Text Services Framework],described, _tsf_itfrange_ref, msctf/ITfRange, tsf.itfrange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -343,13 +343,12 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 
-<a href="https://msdn.microsoft.com/14a726c3-6531-4d49-9f22-20460be02b81">
-        ITfComposition::GetRange
+<a href="https://msdn.microsoft.com/14a726c3-6531-4d49-9f22-20460be02b81">ITfComposition::GetRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 
@@ -357,8 +356,7 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 
-<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">
-        TF_SELECTION
+<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">TF_SELECTION
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: wer\werstorequeryreportmetadatav2.htm
 old-project: wer
 ms.assetid: ADF6619C-1F3E-4AFF-9E25-4F6F83D1353C
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 function [Windows Error Reporting], wer.werstorequeryreportmetadatav2, werapi/WerStoreQueryReportMetadataV2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,34 +63,17 @@ Retrieves metadata about a report in the store.
 
 ### -param hReportStore
 
-TBD
+The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 
 
 ### -param pszReportKey
 
-TBD
+The string identifying which report is being queried (previously retrieved with <a href="https://msdn.microsoft.com/E4732B60-BFBE-4916-83A6-5F031D267913">WerStoreGetFirstReportKey</a> or <a href="https://msdn.microsoft.com/781D54A9-6F51-445E-89A8-A0C944081B81">WerStoreGetNextReportKey</a>).
 
 
 ### -param pReportMetadata
 
-TBD
-
-
-
-
-#### - metadata
-
 A pointer to the report store metadata in the form of a <a href="https://msdn.microsoft.com/037170B1-B2DF-402F-A9E6-48C7693C9A93">WER_REPORT_METADATA_V2</a> structure. The field <b>SizeOfFileNames</b> should be set to 0 during the first call. The function updates this field with the required size to hold the file names associated with the report. The field <b>FileNames</b> should then be allocated with <b>SizeOfFileNames</b> bytes and the function should be called again to get all of the file names.
-
-
-#### - reportKey
-
-The string identifying which report is being queried (previously retrieved with <a href="https://msdn.microsoft.com/E4732B60-BFBE-4916-83A6-5F031D267913">WerStoreGetFirstReportKey</a> or <a href="https://msdn.microsoft.com/781D54A9-6F51-445E-89A8-A0C944081B81">WerStoreGetNextReportKey</a>).
-
-
-#### - store
-
-The error report store (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 
 
 ## -returns

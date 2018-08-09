@@ -7,7 +7,7 @@ old-location: rras\mprinforemoveall.htm
 old-project: rras
 ms.assetid: 4afa616f-bf4b-4700-8ca1-9bb679bc30ff
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprInfoRemoveAll, MprInfoRemoveAll function [RAS], _mpr_mprinforemoveall, mprapi/MprInfoRemoveAll, rras.mprinforemoveall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Either the <i>lpHeader</i> parameter is <b>NULL</b> or the <i>lplpNewHeader</i> 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

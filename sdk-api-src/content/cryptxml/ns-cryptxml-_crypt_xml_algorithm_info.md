@@ -7,7 +7,7 @@ old-location: security\crypt_xml_algorithm_info.htm
 old-project: seccrypto
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO structure [Security], CRYPT_XML_GROUP_ID_HASH, CRYPT_XML_GROUP_ID_SIGN, PCRYPT_XML_ALGORITHM_INFO, PCRYPT_XML_ALGORITHM_INFO structure pointer [Security], _CRYPT_XML_ALGORITHM_INFO, cryptxml/CRYPT_XML_ALGORITHM_INFO, cryptxml/PCRYPT_XML_ALGORITHM_INFO, security.crypt_xml_algorithm_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,8 @@ A <b>DWORD</b> value that specifies the group type to which the algorithm belong
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="_CRYPT_XML_GROUP_ID_HASH_________"></a><a id="_crypt_xml_group_id_hash_________"></a><dl>
-<dt><b>
-CRYPT_XML_GROUP_ID_HASH         </b></dt>
+<td width="40%"><a id="CRYPT_XML_GROUP_ID_HASH_________"></a><a id="crypt_xml_group_id_hash_________"></a><dl>
+<dt><b>CRYPT_XML_GROUP_ID_HASH         </b></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -95,9 +94,8 @@ Hash algorithms
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_CRYPT_XML_GROUP_ID_SIGN_________"></a><a id="_crypt_xml_group_id_sign_________"></a><dl>
-<dt><b>
-CRYPT_XML_GROUP_ID_SIGN         </b></dt>
+<td width="40%"><a id="CRYPT_XML_GROUP_ID_SIGN_________"></a><a id="crypt_xml_group_id_sign_________"></a><dl>
+<dt><b>CRYPT_XML_GROUP_ID_SIGN         </b></dt>
 <dt>2</dt>
 </dl>
 </td>

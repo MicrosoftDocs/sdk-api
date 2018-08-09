@@ -7,7 +7,7 @@ old-location: mstv\iisdblogotransmissiondescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 7ad7d7b5-a20f-4d03-b699-a39fe7ea7568
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbLogoTransmissionDescriptor.GetTag, IIsdbLogoTransmissionDescriptor::GetTag, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetTag, mstv.iisdblogotransmissiondescriptor_gettag
 ms.prod: windows
 ms.technology: windows-sdk

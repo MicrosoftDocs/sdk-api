@@ -7,7 +7,7 @@ old-location: base\symmatchstring.htm
 old-project: debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ A variable that indicates whether or not the comparison is to be case sensitive.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

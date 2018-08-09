@@ -7,7 +7,7 @@ old-location: fs\terminatereadlog.htm
 old-project: Clfs
 ms.assetid: fb0a4c4e-cdb7-4c42-9102-bc76b8b70193
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: TerminateReadLog, TerminateReadLog function [Files], clfsw32/TerminateReadLog, fs.terminatereadlog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-        It is important to deallocate unused read contexts.  Failure to call this function causes resource leaks.
+It is important to deallocate unused read contexts.  Failure to call this function causes resource leaks.
 
 
 

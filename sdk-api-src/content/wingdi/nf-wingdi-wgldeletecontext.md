@@ -7,7 +7,7 @@ old-location: opengl\wgldeletecontext.htm
 old-project: OpenGL
 ms.assetid: 51d4cce1-fd2d-436e-816b-b89d3cd66f3a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglDeleteContext, opengl.wgldeletecontext, wglDeleteContext, wglDeleteContext function [OpenGL], wingdi/wglDeleteContext"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ The <b>wglDeleteContext</b> function deletes a specified OpenGL rendering contex
 
 
 ### -param Arg1
-
-TBD
-
-
-
-
-#### - hglrc
 
 Handle to an OpenGL rendering context that the function will delete.
 

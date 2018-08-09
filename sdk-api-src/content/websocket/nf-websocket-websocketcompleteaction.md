@@ -7,7 +7,7 @@ old-location: websock\websocketcompleteaction.htm
 old-project: WebSock
 ms.assetid: e9b90176-c76f-42c2-b378-834a690bfe72
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: WebSocketCompleteAction, WebSocketCompleteAction function [Websocket Protocol Component API], websock.websocketcompleteaction, websocket/WebSocketCompleteAction
 ms.prod: windows
 ms.technology: windows-sdk

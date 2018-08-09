@@ -7,7 +7,7 @@ old-location: hidpi\getsystemdpiforprocess.htm
 old-project: hidpi
 ms.assetid: 94236ECF-E69A-4D77-AABA-D43FE8DF8203
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSystemDpiForProcess, GetSystemDpiForProcess function [High DPI], hidpi.getsystemdpiforprocess, winuser/GetSystemDpiForProcess
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ Retrieves the system DPI associated with a given process. This is useful for avo
 
 
 ### -param hProcess
-
-TBD
-
-
-
-
-#### - hprocess
 
 The handle for the process to examine. If this value is null, this API behaves identically to <a href="https://msdn.microsoft.com/B744EC4A-DB78-4654-B50F-C27CB7702899">GetDpiForSystem</a>.
 

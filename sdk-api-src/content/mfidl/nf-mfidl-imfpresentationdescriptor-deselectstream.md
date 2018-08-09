@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor_deselectstream.htm
 old-project: medfound
 ms.assetid: 3de1f0d5-10fc-415b-898b-4643a391ba79
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream, DeselectStream method [Media Foundation], DeselectStream method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],DeselectStream method, IMFPresentationDescriptor.DeselectStream, IMFPresentationDescriptor::DeselectStream, mf.imfpresentationdescriptor_deselectstream, mfidl/IMFPresentationDescriptor::DeselectStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Deselects a stream in the presentation.
 
 ### -param dwDescriptorIndex [in]
 
-
-            The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="https://msdn.microsoft.com/a01b8f91-b42a-4910-8afb-6134f5f65759">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
+The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="https://msdn.microsoft.com/a01b8f91-b42a-4910-8afb-6134f5f65759">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
           
 
 
@@ -88,8 +87,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,12 +114,10 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="https://msdn.microsoft.com/3f0eaace-9d85-4999-bb3f-34c268dfea2c">IMFPresentationDescriptor::SelectStream</a>.
+If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="https://msdn.microsoft.com/3f0eaace-9d85-4999-bb3f-34c268dfea2c">IMFPresentationDescriptor::SelectStream</a>.
       
 
-
-        To query whether a stream is selected, call <a href="https://msdn.microsoft.com/1db28049-cd62-4b1b-932b-b4d4e12fd671">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
+To query whether a stream is selected, call <a href="https://msdn.microsoft.com/1db28049-cd62-4b1b-932b-b4d4e12fd671">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

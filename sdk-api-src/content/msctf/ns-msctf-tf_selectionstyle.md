@@ -7,7 +7,7 @@ old-location: tsf\tf_selectionstyle.htm
 old-project: TSF
 ms.assetid: 3a38172b-611b-445f-be24-ea2a19178255
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_SELECTIONSTYLE, TF_SELECTIONSTYLE structure [Text Services Framework], _tsf_tf_selectionstyle_ref, msctf/TF_SELECTIONSTYLE, tsf.tf_selectionstyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ An interim character selection spans exactly one character and is visually repre
 
 
 
-<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">
-        TF_SELECTION
+<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">TF_SELECTION
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_enummediastreams.htm
 old-project: DirectShow
 ms.assetid: 2fb51794-83ac-44c5-b388-d7b945870324
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],EnumMediaStreams method, IMultiMediaStream.EnumMediaStreams, IMultiMediaStream::EnumMediaStreams, IMultiMediaStreamEnumMediaStreams, dshow.imultimediastream_enummediastreams, mmstream/IMultiMediaStream::EnumMediaStreams
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ipat_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 347d8c6f-0934-4ea0-9914-9b4ac47a9306
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForNextTable method, IPAT.RegisterForNextTable, IPAT::RegisterForNextTable, IPATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForNextTable, mstv.ipat_registerfornexttable
 ms.prod: windows
 ms.technology: windows-sdk

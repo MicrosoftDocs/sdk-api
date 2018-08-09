@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__endofstream.htm
 old-project: WMP
 ms.assetid: 1f4e3a69-da55-4adf-87ab-118954070096
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: EndOfStream, EndOfStream method [Windows Media Player], EndOfStream method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],EndOfStream method, IWMPEvents.EndOfStream, IWMPEvents::EndOfStream, IWMPEventsEndOfStream, wmp.iwmpevents_iwmpevents__endofstream, wmp/IWMPEvents::EndOfStream
 ms.prod: windows
 ms.technology: windows-sdk

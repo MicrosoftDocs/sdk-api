@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawgammacontrol.htm
 old-project: directdraw
 ms.assetid: a6286a2d-76d5-49ec-afd5-cbf112528db8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], IDirectDrawGammaControl interface [DirectDraw],described, ddraw/IDirectDrawGammaControl, directdraw.idirectdrawgammacontrol
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUpdateException::get_Message
 author: windows-sdk-content
 description: Gets a message that describes the search results.
 old-location: wua\iupdateexception_message.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 29dc3787-d646-4ebf-9a0e-c4fc42c39846
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUpdateException interface [Windows Update Agent],Message property, IUpdateException.Message, IUpdateException.get_Message, IUpdateException::Message, IUpdateException::get_Message, Message property [Windows Update Agent], Message property [Windows Update Agent],IUpdateException interface, get_Message, wua.iupdateexception_message, wuapi/IUpdateException::Message, wuapi/IUpdateException::get_Message
 ms.prod: windows
 ms.technology: windows-sdk

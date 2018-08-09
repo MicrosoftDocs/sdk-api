@@ -7,7 +7,7 @@ old-location: p2p\peergraphdelete.htm
 old-project: p2psdk
 ms.assetid: 7962e425-ca74-4695-a394-5495e74bd460
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphDelete, PeerGraphDelete function [Peer Networking], p2p.peergraphdelete, p2p/PeerGraphDelete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphDelete</b> function deletes the data  associated with a specified peer graph.
+The <b>PeerGraphDelete</b> function deletes the data  associated with a specified peer graph.
 
 
 ## -parameters

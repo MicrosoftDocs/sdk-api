@@ -7,7 +7,7 @@ old-location: security\authzfreecontext.htm
 old-project: secauthz
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Starting with Windows Server 2012 and Windows 8, this function also frees the 
 
 
 
-### -param hAuthzClientContext
-
-TBD
-
-
-
-
-#### - AuthzClientContext [in]
+### -param hAuthzClientContext [in]
 
 The <b>AUTHZ_CLIENT_CONTEXT_HANDLE</b> structure to be freed.
 
@@ -90,7 +83,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesdirtyinfo_localdirtybytecount.htm
 old-project: offlinefiles
 ms.assetid: c261d5ac-5834-42c7-b644-4244db9d653e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],LocalDirtyByteCount method, IOfflineFilesDirtyInfo.LocalDirtyByteCount, IOfflineFilesDirtyInfo::LocalDirtyByteCount, LocalDirtyByteCount, LocalDirtyByteCount method [Offline Files], LocalDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::LocalDirtyByteCount, of.iofflinefilesdirtyinfo_localdirtybytecount
 ms.prod: windows
 ms.technology: windows-sdk

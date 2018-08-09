@@ -7,8 +7,8 @@ old-location: mscs\clusterreggetbatchnotification.htm
 old-project: mscs
 ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896
 ms.author: windowssdkdev
-ms.date: 07/12/2018
-ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, clusapi/ClusterRegGetBatchNotification, mscs.clusterreggetbatchnotification
+ms.date: 08/06/2018
+ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster], clusapi/ClusterRegGetBatchNotification, clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterreggetbatchnotification
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function

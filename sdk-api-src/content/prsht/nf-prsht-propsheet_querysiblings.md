@@ -7,7 +7,7 @@ old-location: controls\PropSheet_QuerySiblings.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_querysiblings.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_QuerySiblings, PropSheet_QuerySiblings macro [Windows Controls], _win32_PropSheet_QuerySiblings, _win32_PropSheet_QuerySiblings_cpp, controls.PropSheet_QuerySiblings, controls._win32_PropSheet_QuerySiblings, prsht/PropSheet_QuerySiblings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Causes a property sheet to send the <a href="https://msdn.microsoft.com/library/Bb774599(v=VS.85).aspx">PSM_QUERYSIBLINGS</a> message to each of its pages. You can use this macro or send the <b>PSM_QUERYSIBLINGS</b> message explicitly.
+Causes a property sheet to send the <a href="https://msdn.microsoft.com/96f48847-b7b8-4d6f-8bde-ada915b7c962">PSM_QUERYSIBLINGS</a> message to each of its pages. You can use this macro or send the <b>PSM_QUERYSIBLINGS</b> message explicitly.
 
 
 ## -parameters
@@ -61,38 +61,19 @@ Causes a property sheet to send the <a href="https://msdn.microsoft.com/library/
 
 ### -param hDlg
 
-TBD
-
-
-### -param wParam
-
-TBD
-
-
-### -param lParam
-
-TBD
-
-
-
-
-
-
-#### - hPropSheetDlg
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the property sheet.
 
 
-#### - param1
+### -param wParam
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WPARAM</a></b>
 
 First application-defined parameter.
 
 
-#### - param2
+### -param lParam
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 

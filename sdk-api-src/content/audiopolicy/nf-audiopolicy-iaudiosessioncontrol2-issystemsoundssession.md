@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm
 old-project: CoreAudio
 ms.assetid: 9060f89c-83b1-433d-96e3-86ae4b1c7e7c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],IsSystemSoundsSession method, IAudioSessionControl2.IsSystemSoundsSession, IAudioSessionControl2::IsSystemSoundsSession, IsSystemSoundsSession, IsSystemSoundsSession method [Core Audio], IsSystemSoundsSession method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::IsSystemSoundsSession, coreaudio.iaudiosessioncontrol2_issystemsoundssession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>IsSystemSoundsSession</b> method indicates whether the session is a syste
 
 
 
-
-          The possible return codes include, but are not limited to, the values shown in the following table.
+The possible return codes include, but are not limited to, the values shown in the following table.
 
 <table>
 <tr>

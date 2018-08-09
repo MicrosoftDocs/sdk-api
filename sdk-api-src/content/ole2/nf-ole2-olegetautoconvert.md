@@ -7,7 +7,7 @@ old-location: com\olegetautoconvert.htm
 old-project: com
 ms.assetid: f84e578a-d2ed-4b7b-9b7c-5d63f12d5781
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleGetAutoConvert, OleGetAutoConvert function [COM], _com_OleGetAutoConvert, com.olegetautoconvert, ole2/OleGetAutoConvert
 ms.prod: windows
 ms.technology: windows-sdk

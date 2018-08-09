@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertysetft.htm
 old-project: wmi_v2
 ms.assetid: d71c0378-0b97-44ea-9f42-e533b93f195e
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_PropertySetFT, MI_PropertySetFT structure [Windows Management Infrastructure (MI)], _MI_PropertySetFT, mi/MI_PropertySetFT, wmi_v2.mi_propertysetft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,22 +63,10 @@ A support structure used in the
 
 
 
-#### - AddElement
+#### - GetElementCount
 
-Adds a name to the property list. See 
-       <a href="https://msdn.microsoft.com/b7676ebd-bc65-4aad-b3c7-263ceb976b20">MI_PropertySet_AddElement</a>.
-
-
-#### - Clear
-
-Removes all names from the property list. See 
-       <a href="https://msdn.microsoft.com/c5cd80b7-51bc-48dd-a49d-c3ce6d92fd55">MI_PropertySet_Clear</a>.
-
-
-#### - Clone
-
-Creates a copy of the specified property set on the heap. See 
-       <a href="https://msdn.microsoft.com/77e7fc5c-3fb9-4037-94b9-c93155c06416">MI_PropertySet_Clone</a>.
+Gets the number of elements in the specified property set. See 
+       <a href="https://msdn.microsoft.com/450f778c-6b59-4c01-9c21-7f96f28ebe26">MI_PropertySet_GetElementCount</a>.
 
 
 #### - ContainsElement
@@ -87,16 +75,10 @@ Determines whether the property list contains the specified property. See
        <a href="https://msdn.microsoft.com/71cf9c53-4e97-432c-9dfe-bef8ba119f71">MI_PropertySet_ContainsElement</a>.
 
 
-#### - Delete
+#### - AddElement
 
-Deletes the specified property list that was constructed on the heap. See 
-       <a href="https://msdn.microsoft.com/8ab75a67-0b0e-443b-87b1-ca33f44dde9b">MI_PropertySet_Delete</a>.
-
-
-#### - Destruct
-
-Deletes the specified property list that was constructed on the stack. See 
-       <a href="https://msdn.microsoft.com/b00eba60-5fff-4e31-acee-c9b148e9ab7c">MI_PropertySet_Destruct</a>.
+Adds a name to the property list. See 
+       <a href="https://msdn.microsoft.com/b7676ebd-bc65-4aad-b3c7-263ceb976b20">MI_PropertySet_AddElement</a>.
 
 
 #### - GetElementAt
@@ -105,8 +87,26 @@ Gets the element of a property set at the specified index. See
        <a href="https://msdn.microsoft.com/234fe69f-cba6-4ad0-b970-f90346488417">MI_PropertySet_GetElementAt</a>.
 
 
-#### - GetElementCount
+#### - Clear
 
-Gets the number of elements in the specified property set. See 
-       <a href="https://msdn.microsoft.com/450f778c-6b59-4c01-9c21-7f96f28ebe26">MI_PropertySet_GetElementCount</a>.
+Removes all names from the property list. See 
+       <a href="https://msdn.microsoft.com/c5cd80b7-51bc-48dd-a49d-c3ce6d92fd55">MI_PropertySet_Clear</a>.
+
+
+#### - Destruct
+
+Deletes the specified property list that was constructed on the stack. See 
+       <a href="https://msdn.microsoft.com/b00eba60-5fff-4e31-acee-c9b148e9ab7c">MI_PropertySet_Destruct</a>.
+
+
+#### - Delete
+
+Deletes the specified property list that was constructed on the heap. See 
+       <a href="https://msdn.microsoft.com/8ab75a67-0b0e-443b-87b1-ca33f44dde9b">MI_PropertySet_Delete</a>.
+
+
+#### - Clone
+
+Creates a copy of the specified property set on the heap. See 
+       <a href="https://msdn.microsoft.com/77e7fc5c-3fb9-4037-94b9-c93155c06416">MI_PropertySet_Clone</a>.
 

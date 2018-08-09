@@ -7,7 +7,7 @@ old-location: eaphost\eap_peer_method_routines.htm
 old-project: eaphost
 ms.assetid: fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EAP_PEER_METHOD_ROUTINES, EAP_PEER_METHOD_ROUTINES structure [EAPHost], _EAP_PEER_METHOD_ROUTINES, eaphost.eap_peer_method_routines, eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,8 +134,7 @@ Returns <b>TRUE</b> if the user identity and user data blob are not returned suc
 
 #### pdwSizeOfUserDataOut
 
-Specifies the size, in bytes, of the <i>ppUserDataOut</i>
-buffer.
+Specifies the size, in bytes, of the <i>ppUserDataOut</i>buffer.
 
 
 

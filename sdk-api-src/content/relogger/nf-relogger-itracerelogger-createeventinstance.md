@@ -4,10 +4,10 @@ title: ITraceRelogger::CreateEventInstance
 author: windows-sdk-content
 description: Generates a new event.
 old-location: etw\itracerelogger_createeventinstance.htm
-old-project: etw
+old-project: ETW
 ms.assetid: 1a000e38-018d-4077-bf4c-0bfec6cdb676
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/07/2018
 ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventInstance method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],CreateEventInstance method, ITraceRelogger.CreateEventInstance, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
 ms.prod: windows
 ms.technology: windows-sdk

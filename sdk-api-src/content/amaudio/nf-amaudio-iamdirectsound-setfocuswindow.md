@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_setfocuswindow.htm
 old-project: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDirectSound.SetFocusWindow, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,20 @@ The <code>SetFocusWindow</code> method specifies a window to handle sound playba
 
 
 
+#### - hWnd [in]
+
+Specifies a handle to the window. If this value is <b>NULL</b>, the sound will not be associated with any window.
+
+
 #### - bMixingOnOrOff [in]
 
 Specifies whether to mix the sound when the window loses focus.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -92,11 +95,6 @@ Specifies whether to mix the sound when the window loses focus.
 </tr>
 </table>
  
-
-
-#### - hWnd [in]
-
-Specifies a handle to the window. If this value is <b>NULL</b>, the sound will not be associated with any window.
 
 
 ## -returns

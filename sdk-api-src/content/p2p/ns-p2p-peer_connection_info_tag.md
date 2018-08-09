@@ -7,7 +7,7 @@ old-location: p2p\peer_connection_info.htm
 old-project: p2psdk
 ms.assetid: 039fa00e-c193-46fd-b7e6-41eb7baeab3e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PEER_CONNECTION_INFO, PEER_CONNECTION_INFO structure [Peer Networking], p2p.peer_connection_info, p2p/peer_connection_info_tag, peer_connection_info_tag
 ms.prod: windows
 ms.technology: windows-sdk

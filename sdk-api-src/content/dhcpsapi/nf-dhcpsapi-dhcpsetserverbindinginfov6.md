@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetserverbindinginfov6.htm
 old-project: dhcp
 ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 This parameter is not used and must be set to 0.
 
 
-### -param BindElementInfo
-
-TBD
-
-
-
-
-#### - BindElementsInfo [in]
+### -param BindElementInfo [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/b78ebdf8-da24-418c-8fe8-aed3047dfdf3">DHCPV6_BIND_ELEMENT_ARRAY</a> structure that contains the IPv6 interface bindings for the DHCPv6 server.
 

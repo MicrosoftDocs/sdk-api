@@ -4,10 +4,10 @@ title: UnloadPerfCounterTextStringsA function
 author: windows-sdk-content
 description: Unloads performance objects and counters from the computer for the specified application.
 old-location: perf\unloadperfcountertextstrings.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function [Perf], UnloadPerfCounterTextStringsA, UnloadPerfCounterTextStringsW, _win32_unloadperfcountertextstrings, base.unloadperfcountertextstrings, loadperf/UnloadPerfCounterTextStrings, loadperf/UnloadPerfCounterTextStringsA, loadperf/UnloadPerfCounterTextStringsW, perf.unloadperfcountertextstrings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ Unloads performance objects and counters from the computer for the specified app
 
 
 
-### -param lpCommandLine
+### -param lpCommandLine [in]
 
-TBD
+Null-terminated string that consists of one or more arbitrary letters, a space, and then the name of the application. The name of the application must match the <b>drivername</b> key value found in the initialization (.ini) file used to <a href="https://msdn.microsoft.com/19f6989a-708a-485d-94c0-ab617707ced4">load the text strings</a>.
 
 
 ### -param bQuietModeArg [in]
@@ -72,17 +72,11 @@ TBD
 Set to <b>TRUE</b> to prevent the function from displaying the output from the  <b>Unlodctr</b> tool; otherwise, <b>FALSE</b>. This parameter has meaning only if the application is run from a command prompt.
 
 
-#### - commandLine [in]
-
-Null-terminated string that consists of one or more arbitrary letters, a space, and then the name of the application. The name of the application must match the <b>drivername</b> key value found in the initialization (.ini) file used to <a href="https://msdn.microsoft.com/19f6989a-708a-485d-94c0-ab617707ced4">load the text strings</a>.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, the return value is ERROR_SUCCESS.
+If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 

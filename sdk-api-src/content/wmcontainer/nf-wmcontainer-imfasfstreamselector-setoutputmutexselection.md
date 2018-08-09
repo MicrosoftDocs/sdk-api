@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_setoutputmutexselection.htm
 old-project: medfound
 ms.assetid: eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputMutexSelection method, IMFASFStreamSelector.SetOutputMutexSelection, IMFASFStreamSelector::SetOutputMutexSelection, SetOutputMutexSelection, SetOutputMutexSelection method [Media Foundation], SetOutputMutexSelection method [Media Foundation],IMFASFStreamSelector interface, eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd, mf.imfasfstreamselector_setoutputmutexselection, wmcontainer/IMFASFStreamSelector::SetOutputMutexSelection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_getinputformatcount.htm
 old-project: wmformat
 ms.assetid: c3afe9e8-e045-4329-b3e5-6026147322ad
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetInputFormatCount, GetInputFormatCount method [windows Media Format], GetInputFormatCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormatCount method, IWMWriter.GetInputFormatCount, IWMWriter::GetInputFormatCount, IWMWriterGetInputFormatCount, wmformat.iwmwriter_getinputformatcount, wmsdkidl/IWMWriter::GetInputFormatCount
 ms.prod: windows
 ms.technology: windows-sdk

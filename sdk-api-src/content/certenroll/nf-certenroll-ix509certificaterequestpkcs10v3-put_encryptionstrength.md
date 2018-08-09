@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v3_encryptionstrength.htm
 old-project: seccertenroll
 ms.assetid: 4c3f1825-ded8-4692-9ad9-b6c09beffc71
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],EncryptionStrength property, IX509CertificateRequestPkcs10V3.EncryptionStrength, IX509CertificateRequestPkcs10V3.put_EncryptionStrength, IX509CertificateRequestPkcs10V3::EncryptionStrength, IX509CertificateRequestPkcs10V3::get_EncryptionStrength, IX509CertificateRequestPkcs10V3::put_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionStrength, put_EncryptionStrength, security.ix509certificaterequestpkcs10v3_encryptionstrength
 ms.prod: windows
 ms.technology: windows-sdk

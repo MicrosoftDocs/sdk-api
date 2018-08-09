@@ -4,10 +4,10 @@ title: MsiGetMode function
 author: windows-sdk-content
 description: The MsiGetMode function is used to determine whether the installer is currently running in a specified mode, as listed in the table.
 old-location: setup\msigetmode.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 45827df5-3f3f-4fb9-bdfe-38dc78a45321
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MSIRUNMODE_ADMIN, MSIRUNMODE_ADVERTISE, MSIRUNMODE_CABINET, MSIRUNMODE_COMMIT, MSIRUNMODE_LOGENABLED, MSIRUNMODE_MAINTENANCE, MSIRUNMODE_OPERATIONS, MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MSIRUNMODE_RESERVED11, MSIRUNMODE_RESERVED14, MSIRUNMODE_RESERVED15, MSIRUNMODE_ROLLBACK, MSIRUNMODE_ROLLBACKENABLED, MSIRUNMODE_SCHEDULED, MSIRUNMODE_SOURCESHORTNAMES, MSIRUNMODE_TARGETSHORTNAMES, MSIRUNMODE_WINDOWS9X, MSIRUNMODE_ZAWENABLED, MsiGetMode, MsiGetMode function, _msi_msigetmode, msiquery/MsiGetMode, setup.msigetmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ The
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
 
 
-### -param eRunMode
-
-TBD
-
-
-
-
-#### - iRunMode [in]
+### -param eRunMode [in]
 
 Specifies the run mode. This parameter must have one of the following values. 
 
@@ -305,7 +298,7 @@ Note that not all the run mode values of <i>iRunMode </i>are available when call
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

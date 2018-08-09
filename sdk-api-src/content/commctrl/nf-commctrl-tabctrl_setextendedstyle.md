@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetExtendedStyle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_SetExtendedStyle, TabCtrl_SetExtendedStyle macro [Windows Controls], _win32_TabCtrl_SetExtendedStyle, _win32_TabCtrl_SetExtendedStyle_cpp, commctrl/TabCtrl_SetExtendedStyle, controls.TabCtrl_SetExtendedStyle, controls._win32_TabCtrl_SetExtendedStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the extended styles that the tab control will use. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760627(v=VS.85).aspx">TCM_SETEXTENDEDSTYLE</a> message explicitly. 
+Sets the extended styles that the tab control will use. You can use this macro or send the <a href="https://msdn.microsoft.com/96ccebe1-2836-4198-8cd7-858401562c21">TCM_SETEXTENDEDSTYLE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,28 +60,14 @@ Sets the extended styles that the tab control will use. You can use this macro o
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tab control. 
 
 
 ### -param dw
 
-TBD
-
-
-
-
-
-
-#### - dwExStyle
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Value that contains the new tab control extended styles. This value is a combination of tab control <a href="https://msdn.microsoft.com/library/Bb760546(v=VS.85).aspx">extended styles</a>. 
-
-
-#### - hwndTab
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tab control. 
+Value that contains the new tab control extended styles. This value is a combination of tab control <a href="https://msdn.microsoft.com/24294037-598c-4fcd-8a7c-8647ccfb1d81">extended styles</a>. 
 

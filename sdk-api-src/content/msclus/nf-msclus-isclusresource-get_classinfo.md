@@ -7,7 +7,7 @@ old-location: mscs\clusresource_classinfo.htm
 old-project: mscs
 ms.assetid: 0af280ef-ea5a-4cca-8065-2ee74d2dafc1
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, ClassInfo property [Failover Cluster], ClassInfo property [Failover Cluster],ClusResource class, ClusResource class [Failover Cluster],ClassInfo property, ClusResource.ClassInfo, ISClusResource.get_ClassInfo, ISClusResource::get_ClassInfo, _wolf_clusresource.classinfo, get_ClassInfo, mscs.clusresource_classinfo
 ms.prod: windows
 ms.technology: windows-sdk

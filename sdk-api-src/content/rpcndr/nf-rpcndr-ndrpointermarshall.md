@@ -7,7 +7,7 @@ old-location: rpc\ndrpointermarshall.htm
 old-project: rpc
 ms.assetid: efbdb93e-5d6b-4116-b1bf-8836cd9d7b89
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrPointerMarshall, NdrPointerMarshall function [RPC], rpc.ndrpointermarshall, rpcndr/NdrPointerMarshall
 ms.prod: windows
 ms.technology: windows-sdk

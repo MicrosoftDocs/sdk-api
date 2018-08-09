@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetCLSID.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getclsid.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetCLSID method, IUrlAccessor.GetCLSID, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Gets the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
+Gets the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>CLSID*</b>
 
-
-                    Receives a pointer to the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed. 
+Receives a pointer to the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed. 
                 
 
 
@@ -85,8 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-                If this information is not available, you can return E_NOTIMPL or E_FAIL.
+If this information is not available, you can return E_NOTIMPL or E_FAIL.
             
 
 

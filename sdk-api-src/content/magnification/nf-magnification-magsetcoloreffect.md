@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagSetColorEffect.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetcoloreffect.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagSetColorEffect, MagSetColorEffect function [Magnification API], magapi.magapi_MagSetColorEffect, magapi_MagSetColorEffect, magnification/MagSetColorEffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The magnification window.
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or <b>NULL</b> to remove the current color effect, if any.
 
@@ -145,7 +145,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692387(v=VS.85).aspx">MagGetColorEffect</a>
+<a href="https://msdn.microsoft.com/d86d3e43-5da0-460c-b243-d0797f5d0911">MagGetColorEffect</a>
  
 
  

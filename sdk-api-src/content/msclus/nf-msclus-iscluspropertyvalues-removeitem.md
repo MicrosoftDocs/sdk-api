@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalues_removeitem.htm
 old-project: mscs
 ms.assetid: 86184297-c7e1-41da-b760-fbda1ae949ae
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusPropertyValues collection [Failover Cluster],RemoveItem method, ClusPropertyValues.RemoveItem, ISClusPropertyValues.RemoveItem, ISClusPropertyValues::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusPropertyValues collection, _wolf_cluspropertyvalues.removeitem, mscs.cluspropertyvalues_removeitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Deletes 
-    a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a> from a 
+    a <a href="p_gly.htm">property value</a> from a 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

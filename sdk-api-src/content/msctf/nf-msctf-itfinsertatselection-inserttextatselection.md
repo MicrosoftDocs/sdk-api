@@ -7,7 +7,7 @@ old-location: tsf\itfinsertatselection_inserttextatselection.htm
 old-project: TSF
 ms.assetid: 1373fe9b-6c51-4514-a7da-c1f872d9b1ce
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertTextAtSelection method, ITfInsertAtSelection.InsertTextAtSelection, ITfInsertAtSelection::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITfInsertAtSelection interface, TF_IAS_NOQUERY, TF_IAS_NO_DEFAULT_COMPOSITION, TF_IAS_QUERYONLY, _tsf_itfinsertatselection_inserttextatselection_ref, msctf/ITfInsertAtSelection::InsertTextAtSelection, tsf.itfinsertatselection_inserttextatselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -197,7 +197,7 @@ Selection is read-only.
 
 
 
-To insert an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object instead of text, use <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
+To insert an <a href="_ole_idataobject">IDataObject</a> object instead of text, use <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
 
 
 
@@ -207,7 +207,7 @@ To insert an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
@@ -216,20 +216,17 @@ To insert an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bd303639-942f-4cb0-8d69-1715f85b6ef3">
-        ITfInsertAtSelection
+<a href="https://msdn.microsoft.com/bd303639-942f-4cb0-8d69-1715f85b6ef3">ITfInsertAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">
-        ITfInsertAtSelection::InsertEmbeddedAtSelection
+<a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection
       </a>
  
 

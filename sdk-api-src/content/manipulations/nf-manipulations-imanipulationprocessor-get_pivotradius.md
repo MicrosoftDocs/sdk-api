@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_pivotradius.htm
 old-project: wintouch
 ms.assetid: 793999b6-abb1-4912-9e9c-764f6f68ea29
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotRadius property, IManipulationProcessor.PivotRadius, IManipulationProcessor.get_PivotRadius, IManipulationProcessor::PivotRadius, IManipulationProcessor::get_PivotRadius, IManipulationProcessor::put_PivotRadius, PivotRadius property [Windows Touch], PivotRadius property [Windows Touch],IManipulationProcessor interface, get_PivotRadius, manipulations/IManipulationProcessor::PivotRadius, manipulations/IManipulationProcessor::get_PivotRadius, manipulations/IManipulationProcessor::put_PivotRadius, wintouch.imanipulationprocessor_pivotradius
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  
-The pivot radius must either be negative, 0, or a value greater than 1. Setting the pivot radius to a value between 0.0 and 1.0 will return <b>E_INVALIDARG</b>.
+<div class="alert"><b>Note</b>  The pivot radius must either be negative, 0, or a value greater than 1. Setting the pivot radius to a value between 0.0 and 1.0 will return <b>E_INVALIDARG</b>.
       </div>
 <div> </div>
 

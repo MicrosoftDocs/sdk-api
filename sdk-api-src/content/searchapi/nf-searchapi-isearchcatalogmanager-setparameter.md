@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_SetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],SetParameter method, ISearchCatalogManager.SetParameter, ISearchCatalogManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetParameter, search._search_ISearchCatalogManager_SetParameter, searchapi/ISearchCatalogManager::SetParameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Sets a name/value parameter for the catalog.
+Sets a name/value parameter for the catalog.
         
 
 
@@ -65,17 +64,15 @@ req.product: ADAM
 
 Type: <b>LPCWSTR</b>
 
-
-                    The name of the parameter to change.
+The name of the parameter to change.
                 
 
 
 ### -param pValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-
-                    A pointer to the new value for the parameter.
+A pointer to the new value for the parameter.
                 
 
 

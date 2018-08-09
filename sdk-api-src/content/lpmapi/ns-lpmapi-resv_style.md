@@ -7,7 +7,7 @@ old-location: qos\resv_style.htm
 old-project: qos
 ms.assetid: facc4217-1e6f-44af-bc04-84993f2dfeec
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: RESV_STYLE, RESV_STYLE structure [QOS], STYLE_FF, STYLE_SE, STYLE_WF, lpmapi/RESV_STYLE, qos.resv_style
 ms.prod: windows
 ms.technology: windows-sdk

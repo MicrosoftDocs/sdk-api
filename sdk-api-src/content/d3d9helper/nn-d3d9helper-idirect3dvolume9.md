@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolume9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 3502e743-9dc5-6b50-07d2-5a1e110c1543, IDirect3DVolume9, IDirect3DVolume9 interface [Direct3D 9], IDirect3DVolume9 interface [Direct3D 9],described, d3d9helper/IDirect3DVolume9, direct3d9.idirect3dvolume9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3DVolume9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205933(v=VS.85).aspx">FreePrivateData</a>
+<a href="https://msdn.microsoft.com/d4e075e0-2cd7-4160-97d6-fd8c1a932529">FreePrivateData</a>
 </td>
 <td align="left" width="63%">
 Frees the specified private data associated with this volume.
@@ -80,7 +80,7 @@ Frees the specified private data associated with this volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205934(v=VS.85).aspx">GetContainer</a>
+<a href="https://msdn.microsoft.com/7a23f9b8-3dfe-408a-be20-83796a0685a6">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Provides access to the parent volume texture object, if this surface is a child level of a volume texture.
@@ -89,7 +89,7 @@ Provides access to the parent volume texture object, if this surface is a child 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205935(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/7b3f60c3-9bb6-45d3-aa57-148b7089bf15">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the volume.
@@ -107,7 +107,7 @@ Retrieves the device associated with a volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205937(v=VS.85).aspx">GetPrivateData</a>
+<a href="https://msdn.microsoft.com/73f37211-b6e6-4007-8767-6f68fa026cb5">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Copies the private data associated with the volume to a provided buffer.
@@ -116,7 +116,7 @@ Copies the private data associated with the volume to a provided buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205938(v=VS.85).aspx">LockBox</a>
+<a href="https://msdn.microsoft.com/055f3e52-30f6-4fbe-90a0-e56ac0ebe3ca">LockBox</a>
 </td>
 <td align="left" width="63%">
 Locks a box on a volume resource.
@@ -125,7 +125,7 @@ Locks a box on a volume resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205939(v=VS.85).aspx">SetPrivateData</a>
+<a href="https://msdn.microsoft.com/e6d49e44-2633-4a11-8361-f8ea3b2b7d37">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Associates data with the volume that is intended for use by the application, not by Direct3D.
@@ -134,7 +134,7 @@ Associates data with the volume that is intended for use by the application, not
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205940(v=VS.85).aspx">UnlockBox</a>
+<a href="https://msdn.microsoft.com/5055ca1d-40d9-4074-830d-3432e6ea1018">UnlockBox</a>
 </td>
 <td align="left" width="63%">
 Unlocks a box on a volume resource.
@@ -148,7 +148,7 @@ Unlocks a box on a volume resource.
 
 
 
-The <b>IDirect3DVolume9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/library/Bb205944(v=VS.85).aspx">IDirect3DVolumeTexture9::GetVolumeLevel</a> method.
+The <b>IDirect3DVolume9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/e4df1245-d709-4bbb-863b-6f8c112b49ac">IDirect3DVolumeTexture9::GetVolumeLevel</a> method.
 
 This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
 

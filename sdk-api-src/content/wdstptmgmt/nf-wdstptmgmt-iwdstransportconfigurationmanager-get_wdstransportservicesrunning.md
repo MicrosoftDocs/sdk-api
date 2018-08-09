@@ -4,10 +4,10 @@ title: IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
 author: windows-sdk-content
 description: Receives a value that indicates whether WDS transport services are running on the server.
 old-location: wds\iwdstransportconfigurationmanager_wdstransportservicesrunning.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 0296a818-1a5f-494c-869a-a124fc75cb85
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],WdsTransportServicesRunning property, IWdsTransportConfigurationManager.WdsTransportServicesRunning, IWdsTransportConfigurationManager.get_WdsTransportServicesRunning, IWdsTransportConfigurationManager::WdsTransportServicesRunning, IWdsTransportConfigurationManager::get_WdsTransportServicesRunning, WdsTransportServicesRunning property [Windows Deployment Services], WdsTransportServicesRunning property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_WdsTransportServicesRunning, wds.iwdstransportconfigurationmanager_wdstransportservicesrunning, wdstptmgmt/IWdsTransportConfigurationManager::WdsTransportServicesRunning, wdstptmgmt/IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_height.htm
 old-project: DirectShow
 ms.assetid: c1d29cd5-1e82-4406-b007-aa7b581d158e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow.get_Height, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height, get_Height method [DirectShow], get_Height method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>get_Height</code> method retrieves the height of the video window.
 
 ### -param pHeight [out]
 
-
-            Receives the height, in pixels.
+Receives the height, in pixels.
           
 
 

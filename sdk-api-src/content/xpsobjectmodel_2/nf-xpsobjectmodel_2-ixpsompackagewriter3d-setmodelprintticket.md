@@ -7,7 +7,7 @@ old-location: xps\ixpsompackagewriter3d_setmodelprintticket.htm
 old-project: printdocs
 ms.assetid: 2CCA48A9-CB7C-40F9-8BE0-FEC74AA25902
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMPackageWriter3D interface [XPS Documents and Packaging],SetModelPrintTicket method, IXpsOMPackageWriter3D.SetModelPrintTicket, IXpsOMPackageWriter3D::SetModelPrintTicket, SetModelPrintTicket, SetModelPrintTicket method [XPS Documents and Packaging], SetModelPrintTicket method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, xps.ixpsompackagewriter3d_setmodelprintticket, xpsobjectmodel_2/IXpsOMPackageWriter3D::SetModelPrintTicket
 ms.prod: windows
 ms.technology: windows-sdk

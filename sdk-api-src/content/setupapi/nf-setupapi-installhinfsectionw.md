@@ -7,7 +7,7 @@ old-location: setup\installhinfsection.htm
 old-project: SetupApi
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ If a file is copied or modified, the caller of this function is required have pr
 
 
 
-### -param Window
+### -param Window [in]
 
-TBD
+The parent window handle. Typically <i>hwnd</i> is Null.
 
 
 ### -param ModuleHandle [in]
@@ -80,29 +80,12 @@ TBD
 Reserved and should be Null.
 
 
-### -param CommandLine
-
-TBD
-
-
-### -param ShowCommand
-
-TBD
-
-
-
-
-#### - CmdLineBuffer [in]
+### -param CommandLine [in]
 
 Pointer to buffer containing the command line. You should use a null-terminated string.
 
 
-#### - hwnd [in]
-
-The parent window handle. Typically <i>hwnd</i> is Null.
-
-
-#### - nCmdShow [in]
+### -param ShowCommand [in]
 
 Reserved and should be zero.
 

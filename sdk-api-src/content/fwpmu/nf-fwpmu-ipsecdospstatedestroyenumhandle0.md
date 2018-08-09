@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospstatedestroyenumhandle0.htm
 old-project: fwp
 ms.assetid: d7e1710d-8142-4583-a7b6-960fbdb2fcbb
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecDospStateDestroyEnumHandle0, IPsecDospStateDestroyEnumHandle0 function [Filtering], fwp.ipsecdospstatedestroyenumhandle0, fwpmu/IPsecDospStateDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IPsecDospStateDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20">IPsecDospStateCreateEnumHandle0</a>.
+The <b>IPsecDospStateDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20">IPsecDospStateCreateEnumHandle0</a>.
 
 
 ## -parameters

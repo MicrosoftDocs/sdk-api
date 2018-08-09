@@ -7,7 +7,7 @@ old-location: ifsk\filterfindnext.htm
 old-project: ifsk
 ms.assetid: ce56037b-d303-4efa-956f-6bbe5127efb7
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterFindNext, FilterFindNext function [Installable File System Drivers], FltWin32ApiRef_8f2234d4-aef1-47d3-9b9f-a43fbb309bef.xml, fltuser/FilterFindNext, ifsk.filterfindnext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,8 +151,7 @@ The buffer pointed to by <i>lpBuffer</i> is not large enough to contain the requ
 </dl>
 </td>
 <td width="60%">
-
-        An invalid value was specified for the <i>dwInformationClass</i> parameter.  For example, if <b>FilterAggregateStandardInformation</b> is specified for an operating system prior to Windows Vista, <b>FilterFindNext</b> returns this HRESULT value.
+An invalid value was specified for the <i>dwInformationClass</i> parameter.  For example, if <b>FilterAggregateStandardInformation</b> is specified for an operating system prior to Windows Vista, <b>FilterFindNext</b> returns this HRESULT value.
        
 
 </td>

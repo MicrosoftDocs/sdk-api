@@ -4,10 +4,10 @@ title: ListBox_GetCount macro
 author: windows-sdk-content
 description: Gets the number of items in a list box. You can use this macro or send the LB_GETCOUNT message explicitly.
 old-location: controls\ListBox_GetCount.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcount.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ListBox_GetCount, ListBox_GetCount macro [Windows Controls], _win32_ListBox_GetCount, _win32_ListBox_GetCount_cpp, controls.ListBox_GetCount, controls._win32_ListBox_GetCount, windowsx/ListBox_GetCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the number of items in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775195(v=VS.85).aspx">LB_GETCOUNT</a> message explicitly.
+Gets the number of items in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/1fbe44fc-8b9d-4bfa-a8bb-06817eecf064">LB_GETCOUNT</a> message explicitly.
 
 
 

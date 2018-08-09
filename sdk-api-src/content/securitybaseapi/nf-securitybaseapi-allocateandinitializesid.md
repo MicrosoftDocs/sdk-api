@@ -7,7 +7,7 @@ old-location: security\allocateandinitializesid.htm
 old-project: secauthz
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,90 +82,50 @@ Specifies the number of subauthorities to place in the SID. This parameter also 
 For example, a value of 3 indicates that the subauthority values specified by the <i>dwSubAuthority0</i>, <i>dwSubAuthority1</i>, and <i>dwSubAuthority2</i> parameters have meaningful values and to ignore the remainder.
 
 
-### -param nSubAuthority0
+### -param nSubAuthority0 [in]
 
-TBD
-
-
-### -param nSubAuthority1
-
-TBD
+Subauthority value to place in the SID.
 
 
-### -param nSubAuthority2
+### -param nSubAuthority1 [in]
 
-TBD
-
-
-### -param nSubAuthority3
-
-TBD
+Subauthority value to place in the SID.
 
 
-### -param nSubAuthority4
+### -param nSubAuthority2 [in]
 
-TBD
-
-
-### -param nSubAuthority5
-
-TBD
+Subauthority value to place in the SID.
 
 
-### -param nSubAuthority6
+### -param nSubAuthority3 [in]
 
-TBD
+Subauthority value to place in the SID.
 
 
-### -param nSubAuthority7
+### -param nSubAuthority4 [in]
 
-TBD
+Subauthority value to place in the SID.
+
+
+### -param nSubAuthority5 [in]
+
+Subauthority value to place in the SID.
+
+
+### -param nSubAuthority6 [in]
+
+Subauthority value to place in the SID.
+
+
+### -param nSubAuthority7 [in]
+
+Subauthority value to place in the SID.
 
 
 ### -param pSid [out]
 
 A pointer to a variable that receives the pointer to the allocated and initialized 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure.
-
-
-#### - dwSubAuthority0 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority1 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority2 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority3 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority4 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority5 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority6 [in]
-
-Subauthority value to place in the SID.
-
-
-#### - dwSubAuthority7 [in]
-
-Subauthority value to place in the SID.
 
 
 ## -returns
@@ -207,7 +167,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: ad\dsquerysitesbycost.htm
 old-project: ad
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ The <b>DsQuerySitesByCost</b> function gets  the communication cost between one 
 A directory service handle.
 
 
-### -param pszFromSite
+### -param pszFromSite [in]
 
-TBD
+Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
 
 
-### -param rgszToSites
+### -param rgszToSites [in]
 
-TBD
+Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 
 
 ### -param cToSites [in]
@@ -91,16 +91,6 @@ Reserved.
 Pointer to an array of <a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a> structures that receives the cost data. Each element in this array contains the cost data between the site identified by the <i>pwszFromSite</i> parameter and the site identified by the corresponding <i>rgwszToSites</i> element.
 
 The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/810caa4f-8275-4ad8-ad3e-72061fc073dd">DsQuerySitesFree</a>.
-
-
-#### - pwszFromSite [in]
-
-Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
-
-
-#### - rgwszToSites [in]
-
-Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 
 
 ## -returns

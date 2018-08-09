@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtoindex.htm
 old-project: iphlp
 ms.assetid: 904cd94c-dd46-42ac-aef2-ffed4b3e5899
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceLuidToIndex, ConvertInterfaceLuidToIndex function [IP Helper], iphlp.convertinterfaceluidtoindex, netioapi/ConvertInterfaceLuidToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ On success,
 <tr>
 <td width="40%">
 <dl>
-<dt><b>
-								ERROR_INVALID_PARAMETER</b></dt>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,9 +103,7 @@ One of the parameters was invalid. This error is returned if either the <i>Inter
 
 
 
-The <b>ConvertInterfaceLuidToIndex</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceLuidToIndex</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceLuidToIndex</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

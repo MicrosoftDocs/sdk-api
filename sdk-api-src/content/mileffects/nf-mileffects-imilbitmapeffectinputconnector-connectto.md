@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinputconnector_connectto.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\connectto.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: ConnectTo, ConnectTo method [WPF Bitmap Effects], ConnectTo method [WPF Bitmap Effects],IMILBitmapEffectInputConnector interface, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],ConnectTo method, IMILBitmapEffectInputConnector.ConnectTo, IMILBitmapEffectInputConnector::ConnectTo, _wibe_imilbitmapeffectinputconnector_connectto, mileffects/IMILBitmapEffectInputConnector::ConnectTo, wibe._wibe_imilbitmapeffectinputconnector_connectto
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Connects the input connector to the given output connector.
 
 ### -param pConnector [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>*</b>
 
 A pointer to the connector to connect the input to.
 

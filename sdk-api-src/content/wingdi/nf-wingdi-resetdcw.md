@@ -7,7 +7,7 @@ old-location: gdi\resetdc.htm
 old-project: gdi
 ms.assetid: 3f77db51-90d1-4a87-812b-1e129ae8fde9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ResetDC, ResetDC function [Windows GDI], ResetDCA, ResetDCW, _win32_ResetDC, gdi.resetdc, wingdi/ResetDC, wingdi/ResetDCA, wingdi/ResetDCW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>ResetDC</b> function updates the specified printer or plotter device cont
 A handle to the DC to update.
 
 
-### -param lpdm
-
-TBD
-
-
-
-
-#### - lpInitData [in]
+### -param lpdm [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing information about the new DC.
 

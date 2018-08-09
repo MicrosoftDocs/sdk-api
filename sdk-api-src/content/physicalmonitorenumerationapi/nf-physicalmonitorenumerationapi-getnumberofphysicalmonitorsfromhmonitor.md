@@ -7,7 +7,7 @@ old-location: monitor\getnumberofphysicalmonitorsfromhmonitor.htm
 old-project: Monitor
 ms.assetid: c4cc3012-10ae-4435-8d81-e0a9eb62b55c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromHMONITOR, GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ Retrieves the number of physical monitors associated with an <b>HMONITOR</b> mon
 
 ### -param hMonitor [in]
 
-
-            A monitor handle. Monitor handles are returned by several Multiple Display Monitor functions, including <a href="https://msdn.microsoft.com/a7668c28-77c9-4373-ae1a-eab3cb98f866">EnumDisplayMonitors</a> and <a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>, which are part of the graphics device interface (GDI).
+A monitor handle. Monitor handles are returned by several Multiple Display Monitor functions, including <a href="https://msdn.microsoft.com/a7668c28-77c9-4373-ae1a-eab3cb98f866">EnumDisplayMonitors</a> and <a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>, which are part of the graphics device interface (GDI).
           
 
 
 ### -param pdwNumberOfPhysicalMonitors [out]
 
-
-            Receives the number of physical monitors associated with the monitor handle.
+Receives the number of physical monitors associated with the monitor handle.
           
 
 
@@ -78,8 +76,7 @@ Retrieves the number of physical monitors associated with an <b>HMONITOR</b> mon
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 

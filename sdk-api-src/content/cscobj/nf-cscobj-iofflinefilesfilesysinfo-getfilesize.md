@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfilesysinfo_getfilesize.htm
 old-project: offlinefiles
 ms.assetid: a24b7126-ee9a-40f8-9fcd-8696e756a6b9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetFileSize method, IOfflineFilesFileSysInfo.GetFileSize, IOfflineFilesFileSysInfo::GetFileSize, cscobj/IOfflineFilesFileSysInfo::GetFileSize, of.iofflinefilesfilesysinfo_getfilesize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetCommBreak function
 author: windows-sdk-content
 description: Suspends character transmission for a specified communications device and places the transmission line in a break state until the ClearCommBreak function is called.
 old-location: base\setcommbreak.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 997fa1e0-c585-4517-abe7-77b9b08440ee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: SetCommBreak, SetCommBreak function, _win32_setcommbreak, base.setcommbreak, winbase/SetCommBreak
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Suspends character transmission for a specified communications device and places
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ## -returns
@@ -99,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
  
 
  

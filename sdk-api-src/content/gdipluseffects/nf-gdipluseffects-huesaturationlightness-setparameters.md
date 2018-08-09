@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: HueSaturationLightness class [GDI+],SetParameters method, HueSaturationLightness.SetParameters, HueSaturationLightness::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],HueSaturationLightness class, _gdiplus_CLASS_HueSaturationLightness_SetParameters_, gdiplus._gdiplus_CLASS_HueSaturationLightness_SetParameters_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a> object. 
+The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/3bb652eb-62f0-4948-9484-4439dc9bd54e">HueSaturationLightness</a> object. 
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>HueSaturationLightness::SetParameters</b> method sets the parameters of t
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/d46ef884-ac73-4fa0-8c4d-d033ac1ed406">HueSaturationLightnessParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534069(v=VS.85).aspx">HueSaturationLightnessParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/d46ef884-ac73-4fa0-8c4d-d033ac1ed406">HueSaturationLightnessParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534461(v=VS.85).aspx">HueSaturationLightness</a>
+<a href="https://msdn.microsoft.com/3bb652eb-62f0-4948-9484-4439dc9bd54e">HueSaturationLightness</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535441(v=VS.85).aspx">HueSaturationLightness::GetParameters</a>
+<a href="https://msdn.microsoft.com/a743d9fb-ba19-4dfd-be66-2339ce27d70c">HueSaturationLightness::GetParameters</a>
  
 
  

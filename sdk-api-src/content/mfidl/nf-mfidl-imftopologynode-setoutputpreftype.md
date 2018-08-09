@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_setoutputpreftype.htm
 old-project: medfound
 ms.assetid: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8, IMFTopologyNode interface [Media Foundation],SetOutputPrefType method, IMFTopologyNode.SetOutputPrefType, IMFTopologyNode::SetOutputPrefType, SetOutputPrefType, SetOutputPrefType method [Media Foundation], SetOutputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setoutputpreftype, mfidl/IMFTopologyNode::SetOutputPrefType
 ms.prod: windows
 ms.technology: windows-sdk

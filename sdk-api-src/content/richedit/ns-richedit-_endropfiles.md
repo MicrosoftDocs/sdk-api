@@ -7,7 +7,7 @@ old-location: controls\ENDROPFILES.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\endropfiles.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ENDROPFILES, ENDROPFILES structure [Windows Controls], _endropfiles, _win32_ENDROPFILES_str, _win32_ENDROPFILES_str_cpp, controls.ENDROPFILES, controls._win32_ENDROPFILES_str, richedit/ENDROPFILES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Contains information associated with an <a href="https://msdn.microsoft.com/library/Bb787966(v=VS.85).aspx">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message.
+Contains information associated with an <a href="https://msdn.microsoft.com/fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message.
 
 
 ## -struct-fields
@@ -62,10 +61,9 @@ req.product: ADAM
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-
-            Notification header. 
+Notification header. 
 
 
 ### -field hDrop
@@ -86,6 +84,5 @@ Character position at which the dropped files would be inserted.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-
-            Indicates whether the specified character position is protected (<b>TRUE</b>) or not protected (<b>FALSE</b>).
+Indicates whether the specified character position is protected (<b>TRUE</b>) or not protected (<b>FALSE</b>).
 

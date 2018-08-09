@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopygroups_clone.htm
 old-project: bits
 ms.assetid: f2743edd-9fc5-451b-b1ff-17f4591923ba
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],Clone method, IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
 ms.prod: windows
 ms.technology: windows-sdk

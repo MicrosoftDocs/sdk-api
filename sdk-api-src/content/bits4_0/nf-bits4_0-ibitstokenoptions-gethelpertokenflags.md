@@ -7,7 +7,7 @@ old-location: bits\ibitstokenoptions_gethelpertokenflags.htm
 old-project: bits
 ms.assetid: d00596bf-7695-4a5e-8d13-4700876fdef6
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, GetHelperTokenFlags, GetHelperTokenFlags method [BITS], GetHelperTokenFlags method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenFlags method, IBitsTokenOptions.GetHelperTokenFlags, IBitsTokenOptions::GetHelperTokenFlags, bits.ibitstokenoptions_gethelpertokenflags, bits4_0/IBitsTokenOptions::GetHelperTokenFlags
 ms.prod: windows
 ms.technology: windows-sdk

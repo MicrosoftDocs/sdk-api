@@ -4,10 +4,10 @@ title: "_SecPkgContext_NegoStatus"
 author: windows-sdk-content
 description: Specifies the error status of the last attempt to create a client context.
 old-location: security\secpkgcontext_negostatus.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus structure pointer [Security], SecPkgContext_NegoStatus, SecPkgContext_NegoStatus structure [Security], _SecPkgContext_NegoStatus, security.secpkgcontext_negostatus, sspi/PSecPkgContext_NegoStatus, sspi/SecPkgContext_NegoStatus"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_NegoStatus structure

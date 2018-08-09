@@ -4,10 +4,10 @@ title: CreateFileMappingA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 old-location: base\createfilemapping.htm
-old-project: Memory
+old-project: memory
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ A handle to the file from which to create a file mapping object.
 The file must be opened with access rights that are compatible with the protection flags that the 
        <i>flProtect</i> parameter specifies. It is not required, but it is recommended that files 
        you intend to map be opened for exclusive access. For more information, see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+       <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -96,9 +96,19 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
        of a specified size  that is backed by the system paging file instead of by a file in the file system.
 
 
-### -param lpFileMappingAttributes
+### -param lpFileMappingAttributes [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+       structure that determines whether a returned handle can be inherited by child processes. The 
+      <b>lpSecurityDescriptor</b> member of the 
+      <b>SECURITY_ATTRIBUTES</b> structure specifies a 
+      security descriptor for a new file mapping object.
+
+If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
+      and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default 
+      security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
+      more information, see 
+      <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
 
 
 ### -param flProtect [in]
@@ -429,21 +439,6 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
        guidelines that are outlined for Terminal Services so that applications can support multiple users.
 
 
-#### - lpAttributes [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
-       structure that determines whether a returned handle can be inherited by child processes. The 
-      <b>lpSecurityDescriptor</b> member of the 
-      <b>SECURITY_ATTRIBUTES</b> structure specifies a 
-      security descriptor for a new file mapping object.
-
-If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited 
-      and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default 
-      security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
-      more information, see 
-      <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
-
-
 ## -returns
 
 
@@ -506,8 +501,8 @@ The exception is related to remote files. Although
     each computer only sees its own writes to the page. When the data gets updated on the disk, it is not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>) are not necessarily coherent.
+    (<a href="base.readfile">ReadFile</a> and 
+    <a href="base.writefile">WriteFile</a>) are not necessarily coherent.
 
 Mapped views of a file mapping object maintain internal references to the object, and a file mapping object 
     does not close until all references to it are released. Therefore, to fully close a file mapping object, an 
@@ -653,7 +648,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -669,7 +664,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

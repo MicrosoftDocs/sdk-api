@@ -7,7 +7,7 @@ old-location: rpc\mesincrementalhandlereset.htm
 old-project: rpc
 ms.assetid: 13ca3bd0-0527-4d54-84a1-aa6efca88e8d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: MesIncrementalHandleReset, MesIncrementalHandleReset function [RPC], _rpc_mesincrementalhandlereset, midles/MesIncrementalHandleReset, rpc.mesincrementalhandlereset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,13 +86,6 @@ Pointer to the user-supplied <b>Read</b> function. This parameter can be <b>NULL
 
 
 ### -param Operation
-
-TBD
-
-
-
-
-#### - OpCode
 
 Specifies the operation. Valid operations are <b>MES_ENCODE</b>, <b>MES_ENCODE_NDR64</b>, or <b>MES_DECODE</b>.
 

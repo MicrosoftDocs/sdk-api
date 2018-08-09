@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamunprepareheader.htm
 old-project: Multimedia
 ms.assetid: 6d693a74-13b6-4923-8267-2e2ecebf78e5
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmStreamUnprepareHeader, acmStreamUnprepareHeader, acmStreamUnprepareHeader function [Windows Multimedia], msacm/acmStreamUnprepareHeader, multimedia.acmstreamunprepareheader"
 ms.prod: windows
 ms.technology: windows-sdk

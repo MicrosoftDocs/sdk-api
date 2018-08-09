@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_cancel.htm
 old-project: wpd_sdk
 ms.assetid: 5883f855-826c-405f-939f-b2d28548c931
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceCapabilities.Cancel, IPortableDeviceCapabilities::Cancel, IPortableDeviceCapabilitiesCancel, portabledeviceapi/IPortableDeviceCapabilities::Cancel, wpdsdk.iportabledevicecapabilities_cancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Cancel</b> method cancels a pending request on this interface.
+The <b>Cancel</b> method cancels a pending request on this interface.
       
 
 
@@ -68,8 +67,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -108,7 +106,7 @@ This method cancels all pending operations on the current device handle, which c
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

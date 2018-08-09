@@ -7,7 +7,7 @@ old-location: shell\IContextMenu3.htm
 old-project: shell
 ms.assetid: c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IContextMenu3, IContextMenu3 interface [Windows Shell], IContextMenu3 interface [Windows Shell],described, _win32_IContextMenu3, shell.IContextMenu3, shobjidl_core/IContextMenu3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Allows client objects of the <b>IContextMenu3</b> interface to handle messages a
 This interface also provides the methods of the <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> and <a href="https://msdn.microsoft.com/4e3331ad-4adc-4ea9-8a22-6aad15f618c8">IContextMenu2</a> interfaces, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement <b>IContextMenu3</b> if your shortcut menu extension needs to process the <a href="https://msdn.microsoft.com/library/ms646349(v=VS.85).aspx">WM_MENUCHAR</a> message.
+Implement <b>IContextMenu3</b> if your shortcut menu extension needs to process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message.
 
 			    
 

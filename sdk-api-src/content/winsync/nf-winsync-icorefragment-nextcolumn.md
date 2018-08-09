@@ -7,7 +7,7 @@ old-location: winsync\icorefragment_nextcolumn.htm
 old-project: winsync
 ms.assetid: d50527cb-00ba-4e7b-9fb3-267eaa6cd6e6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ICoreFragment interface [Windows Sync],NextColumn method, ICoreFragment.NextColumn, ICoreFragment::NextColumn, NextColumn, NextColumn method [Windows Sync], NextColumn method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextcolumn, winsync/ICoreFragment::NextColumn
 ms.prod: windows
 ms.technology: windows-sdk

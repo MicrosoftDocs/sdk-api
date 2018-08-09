@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm
 old-project: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The string retrieved by this method is determined by flags set in the <i>sortDescription</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx">labelInfo</a> element in the property's .propdesc file.
+The string retrieved by this method is determined by flags set in the <i>sortDescription</i> attribute of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propdesc file.
 
 It is the responsibility of the calling application to release <i>ppszDescription</i> when it is no longer needed.
 
@@ -100,7 +100,7 @@ It is the responsibility of the calling application to release <i>ppszDescriptio
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

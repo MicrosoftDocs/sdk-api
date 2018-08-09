@@ -7,7 +7,7 @@ old-location: mf\imftransform_processmessage.htm
 old-project: medfound
 ms.assetid: a6dc67e5-8473-444a-8463-24f411e59565
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessMessage method, IMFTransform.ProcessMessage, IMFTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFTransform interface, a6dc67e5-8473-444a-8463-24f411e59565, mf.imftransform_processmessage, mftransform/IMFTransform::ProcessMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sends a message to the Media Foundation transform (MFT).
+Sends a message to the Media Foundation transform (MFT).
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param eMessage [in]
 
-
-            The message to send, specified as a member of the <a href="https://msdn.microsoft.com/55b0aa32-53af-4f19-9d99-9885c1e28588">MFT_MESSAGE_TYPE</a> enumeration.
+The message to send, specified as a member of the <a href="https://msdn.microsoft.com/55b0aa32-53af-4f19-9d99-9885c1e28588">MFT_MESSAGE_TYPE</a> enumeration.
           
 
 
 ### -param ulParam [in]
 
-
-            Message parameter. The meaning of this parameter depends on the message type.
+Message parameter. The meaning of this parameter depends on the message type.
           
 
 
@@ -80,8 +77,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -96,8 +92,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -109,8 +104,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream number. Applies to the <b>MFT_MESSAGE_NOTIFY_END_OF_STREAM</b> message.
+Invalid stream number. Applies to the <b>MFT_MESSAGE_NOTIFY_END_OF_STREAM</b> message.
               
 
 </td>
@@ -122,8 +116,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The media type is not set on one or more streams.
+The media type is not set on one or more streams.
               
 
 </td>
@@ -138,15 +131,13 @@ req.product: GDI+ 1.1
 
 
 
-
-        Before calling this method, set the media types on all input and output streams.
+Before calling this method, set the media types on all input and output streams.
       
 
-
-        The MFT might ignore certain message types. If so, the method returns <b>S_OK</b>. An error code indicates that the transform handles this message type but was unable to process the message in this instance.
+The MFT might ignore certain message types. If so, the method returns <b>S_OK</b>. An error code indicates that the transform handles this message type but was unable to process the message in this instance.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessMessage</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessMessage</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

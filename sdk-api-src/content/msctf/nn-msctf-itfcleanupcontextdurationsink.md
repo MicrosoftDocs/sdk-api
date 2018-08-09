@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextdurationsink.htm
 old-project: TSF
 ms.assetid: 2bbdc26a-5543-4de4-b347-2062be593c4b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,8 +99,7 @@ A context cleanup occurs when:
 <ul>
 <li>The text service is deactivated while a context is still on the context stack. This can occur when the active text service is changed or when the active language changes while the text service is active.</li>
 <li>
-<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">
-              ITfThreadMgr::Deactivate
+<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">ITfThreadMgr::Deactivate
             </a> is called while a context is still on the context stack.</li>
 </ul>
 A text service can use the notifications of this interface to prevent itself from performing any context initialization during the context cleanup operation.
@@ -113,8 +112,7 @@ A text service can use the notifications of this interface to prevent itself fro
 
 
 
-<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">
-        ITfSourceSingle::AdviseSingleSink
+<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITfSourceSingle::AdviseSingleSink
       </a>
 
 
@@ -124,7 +122,7 @@ A text service can use the notifications of this interface to prevent itself fro
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

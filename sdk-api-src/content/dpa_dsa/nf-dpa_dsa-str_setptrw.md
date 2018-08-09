@@ -7,7 +7,7 @@ old-location: controls\Str_SetPtrW.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\str_setptrw.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Str_SetPtr, Str_SetPtr function [Windows Controls], Str_SetPtrA, Str_SetPtrW, _win32_Str_SetPtrW, _win32_Str_SetPtrW_cpp, controls.Str_SetPtrW, controls._win32_Str_SetPtrW, dpa_dsa/Str_SetPtr, dpa_dsa/Str_SetPtrA, dpa_dsa/Str_SetPtrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,26 +60,14 @@ Sets <i>ppszCurrent</i> to a copy of <i>pszNew</i> and frees the previous value,
 
 
 
-### -param ppsz
-
-TBD
-
-
-### -param psz
-
-TBD
-
-
-
-
-#### - ppszCurrent [in, out]
+### -param ppsz [in, out]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a>*</b>
 
 The address of a pointer to the current string. The current string is freed and the pointer is set to a copy of <i>pszNew</i>.
 
 
-#### - pszNew
+### -param psz
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 

@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepairs_clear_method.htm
 old-project: seccertenroll
 ms.assetid: eded4dc2-ad3d-44eb-a20c-217756fad40f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Clear method, IX509NameValuePairs.Clear, IX509NameValuePairs::Clear, certenroll/IX509NameValuePairs::Clear, security.ix509namevaluepairs_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

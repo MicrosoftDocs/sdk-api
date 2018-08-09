@@ -7,7 +7,7 @@ old-location: fs\changentmsmediatype.htm
 old-project: Rsm
 ms.assetid: 89b3eb9b-0614-47a9-825e-1335c7fc5d0d
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,26 +68,14 @@ Handle to the session returned by the
 <a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
 
 
-### -param lpMediaId
-
-TBD
-
-
-### -param lpPoolId
-
-TBD
-
-
-
-
-#### - MPoolId [in]
-
-Unique identifier of the media pool from which the media is to be allocated.
-
-
-#### - Pmid [in]
+### -param lpMediaId [in]
 
 Unique identifier of the physical media to be moved.
+
+
+### -param lpPoolId [in]
+
+Unique identifier of the media pool from which the media is to be allocated.
 
 
 ## -returns
@@ -221,7 +209,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

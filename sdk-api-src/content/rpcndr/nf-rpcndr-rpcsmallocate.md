@@ -7,7 +7,7 @@ old-location: rpc\rpcsmallocate.htm
 old-project: rpc
 ms.assetid: ca3373fa-8ea4-452e-b2a2-f30eb48fef9d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSmAllocate, RpcSmAllocate function [RPC], _rpc_rpcsmallocate, rpc.rpcsmallocate, rpcndr/RpcSmAllocate
 ms.prod: windows
 ms.technology: windows-sdk

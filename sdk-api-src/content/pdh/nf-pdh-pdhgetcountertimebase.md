@@ -4,10 +4,10 @@ title: PdhGetCounterTimeBase function
 author: windows-sdk-content
 description: Returns the time base of the specified counter.
 old-location: perf\pdhgetcountertimebase.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: b034c00e-50f1-46af-aebc-0cb968c0b737
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhGetCounterTimeBase, PdhGetCounterTimeBase function [Perf], _win32_pdhgetcountertimebase, base.pdhgetcountertimebase, pdh/PdhGetCounterTimeBase, perf.pdhgetcountertimebase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ Time base that specifies the number of performance values a counter samples per 
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

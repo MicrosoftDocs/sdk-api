@@ -7,7 +7,7 @@ old-location: mf\mfvideocompressedinfo.htm
 old-project: medfound
 ms.assetid: fe9aa287-33e9-4413-8bc5-0e7b2da1112e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFVideoCompressedInfo, MFVideoCompressedInfo structure [Media Foundation], _MFVideoCompressedInfo, fe9aa287-33e9-4413-8bc5-0e7b2da1112e, mf.mfvideocompressedinfo, mfobjects/MFVideoCompressedInfo
 ms.prod: windows
 ms.technology: windows-sdk

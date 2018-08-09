@@ -4,10 +4,10 @@ title: IFsrmRule
 author: windows-sdk-content
 description: Defines a rule.
 old-location: fsrm\ifsrmrule.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], IFsrmRule interface [File Server Resource Manager],described, fs.ifsrmrule, fsrm.ifsrmrule, fsrm/IFsrmRule
 ms.prod: windows
 ms.technology: windows-sdk

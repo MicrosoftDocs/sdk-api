@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingbinary.htm
 old-project: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary, traceloggingprovider/TraceLoggingBinary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,14 @@ The binary data to process.
 The size of the data in bytes.
 
 
-#### - description [in, optional]
-
-Description of the binary data. This parameter must be a literal string and will be included in the PDB. 
-
-
 #### - name [in, optional]
 
 The name of the data. This parameter must be a literal string and cannot contain any escape ('/0') characters. 
+
+
+#### - description [in, optional]
+
+Description of the binary data. This parameter must be a literal string and will be included in the PDB. 
 
 
 #### - tags [in, optional]

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Union_c_a_b_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\union.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Rect class [GDI+],Union method, Rect.Union, Rect::Union, Union, Union method [GDI+], Union method [GDI+],Rect class, _gdiplus_CLASS_Rect_Union_c_a_b_, gdiplus._gdiplus_CLASS_Rect_Union_c_a_b_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,11 +148,11 @@ The following example creates three rectangles. The code forms the union of the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534975(v=VS.85).aspx">Intersect Methods</a>
+<a href="https://msdn.microsoft.com/b391c256-5165-4c5c-a45a-dee74e32d391">Intersect Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
 
 
 
@@ -160,11 +160,11 @@ The following example creates three rectangles. The code forms the union of the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

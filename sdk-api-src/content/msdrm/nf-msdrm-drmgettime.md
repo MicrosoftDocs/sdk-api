@@ -7,7 +7,7 @@ old-location: rm\drmgettime.htm
 old-project: adrms_sdk
 ms.assetid: 124507af-ccb4-4552-9421-bbbf1b556930
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\iinkdisp.htm
 old-project: tablet
 ms.assetid: 85B683AA-D859-4717-8C61-C0EB4BBA5F61
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkDisp, IInkDisp interface [Tablet PC], IInkDisp interface [Tablet PC],described, msinkaut/IInkDisp, tablet.iinkdisp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -227,8 +227,7 @@ Retrieves the bounding box in ink space coordinates for either all of the stroke
 <a href="https://msdn.microsoft.com/2025f728-cb08-4285-8584-c9ad537e58f2">HitTestCircle</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection that are either completely inside or intersected by a known circle.
+Retrieves the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection that are either completely inside or intersected by a known circle.
         
 
 </td>
@@ -238,8 +237,7 @@ Retrieves the bounding box in ink space coordinates for either all of the stroke
 <a href="https://msdn.microsoft.com/fe88410d-e3e7-4899-b6fe-04e6eed98bbb">HitTestWithLasso</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the strokes within a polyline selection area.
+Retrieves the strokes within a polyline selection area.
         
 
 </td>
@@ -249,8 +247,7 @@ Retrieves the bounding box in ink space coordinates for either all of the stroke
 <a href="https://msdn.microsoft.com/401c4f62-a406-49ac-9911-91f815cde9c8">HitTestWithRectangle</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the strokes that are contained within a specified rectangle.
+Retrieves the strokes that are contained within a specified rectangle.
 
 </td>
 </tr>
@@ -333,8 +330,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-          Gets the collection of application-defined data that are stored in an object.
+Gets the collection of application-defined data that are stored in an object.
         
 
 </td>

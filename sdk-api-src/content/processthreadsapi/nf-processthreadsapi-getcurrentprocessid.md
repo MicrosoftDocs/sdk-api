@@ -7,7 +7,7 @@ old-location: base\getcurrentprocessid.htm
 old-project: procthread
 ms.assetid: a442e147-0db0-4911-94de-91728a4b277a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurrentProcessId, GetCurrentProcessId function, _win32_getcurrentprocessid, base.getcurrentprocessid, processthreadsapi/GetCurrentProcessId, winbase/GetCurrentProcessId
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\icertpropertysha1hash.htm
 old-project: seccertenroll
 ms.assetid: 0946827b-c933-472c-9466-aaa3495ab202
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICertPropertySHA1Hash, ICertPropertySHA1Hash interface [Security], ICertPropertySHA1Hash interface [Security],described, certenroll/ICertPropertySHA1Hash, security.icertpropertysha1hash
 ms.prod: windows
 ms.technology: windows-sdk

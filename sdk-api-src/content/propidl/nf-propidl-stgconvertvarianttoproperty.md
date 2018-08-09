@@ -7,7 +7,7 @@ old-location: stg\stgconvertvarianttoproperty.htm
 old-project: stg
 ms.assetid: 3d35b808-4fa6-44ec-9c46-96ceee1dafd0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgConvertVariantToProperty, StgConvertVariantToProperty function [Structured Storage], propidl/StgConvertVariantToProperty, stg.stgconvertvarianttoproperty
 ms.prod: windows
 ms.technology: windows-sdk

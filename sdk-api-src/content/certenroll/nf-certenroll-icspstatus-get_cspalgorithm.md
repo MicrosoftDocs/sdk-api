@@ -7,7 +7,7 @@ old-location: security\icspstatus_cspalgorithm.htm
 old-project: seccertenroll
 ms.assetid: fc86ff4a-98f4-4e14-8d24-132926c9b41d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: CspAlgorithm property [Security], CspAlgorithm property [Security],ICspStatus interface, ICspStatus interface [Security],CspAlgorithm property, ICspStatus.CspAlgorithm, ICspStatus.get_CspAlgorithm, ICspStatus::CspAlgorithm, ICspStatus::get_CspAlgorithm, certenroll/ICspStatus::CspAlgorithm, certenroll/ICspStatus::get_CspAlgorithm, get_CspAlgorithm, security.icspstatus_cspalgorithm
 ms.prod: windows
 ms.technology: windows-sdk

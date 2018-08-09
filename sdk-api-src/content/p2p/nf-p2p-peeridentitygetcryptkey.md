@@ -7,7 +7,7 @@ old-location: p2p\peeridentitygetcryptkey.htm
 old-project: p2psdk
 ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerIdentityGetCryptKey</b> function retrieves a handle to a cryptographic service provider (CSP).
+The <b>PeerIdentityGetCryptKey</b> function retrieves a handle to a cryptographic service provider (CSP).
 
 
 ## -parameters
@@ -137,8 +136,7 @@ An identity that matches the specified name cannot be found.
 
 The  key can be retrieved by calling <a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptGetUserKey</a>.
 
-
-        When the handle is not required anymore, the application is responsible for releasing the handle by using <a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptReleaseContext</a>.
+When the handle is not required anymore, the application is responsible for releasing the handle by using <a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptReleaseContext</a>.
 
 
 

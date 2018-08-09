@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpgetendpoint.htm
 old-project: p2psdk
 ms.assetid: d81b0aab-90b5-4583-b554-efe38c220e59
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
 ms.prod: windows
 ms.technology: windows-sdk

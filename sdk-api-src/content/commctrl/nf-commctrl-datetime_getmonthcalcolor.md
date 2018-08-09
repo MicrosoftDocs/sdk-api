@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetMonthCalColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DateTime_GetMonthCalColor, DateTime_GetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_GetMonthCalColor, _win32_DateTime_GetMonthCalColor_cpp, commctrl/DateTime_GetMonthCalColor, controls.DateTime_GetMonthCalColor, controls._win32_DateTime_GetMonthCalColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761759(v=VS.85).aspx">DTM_GETMCCOLOR</a> message explicitly. 
+Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/892e8c23-f0d0-4fd6-98ed-39592c4d316f">DTM_GETMCCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Gets the color for a given portion of the month calendar within a date and time 
 
 ### -param hdp
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a DTP control. 
 
 
 ### -param iColor
@@ -136,11 +138,4 @@ Retrieve the color used to display header day and trailing day text. Header and 
 </tr>
 </table>
  
-
-
-#### - hwndDP
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to a DTP control. 
 

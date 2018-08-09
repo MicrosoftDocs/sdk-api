@@ -7,7 +7,7 @@ old-location: mf\mfcreateaudiorendereractivate.htm
 old-project: medfound
 ms.assetid: bce55c34-d64a-4f3b-8d09-6c9363e4eb11
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateAudioRendererActivate, MFCreateAudioRendererActivate function [Media Foundation], bce55c34-d64a-4f3b-8d09-6c9363e4eb11, mf.mfcreateaudiorendereractivate, mfidl/MFCreateAudioRendererActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Creates an activation object for the <a href="https://msdn.microsoft.com/5884a12
 
 ### -param ppActivate [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. Use this interface to create the audio renderer. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. Use this interface to create the audio renderer. The caller must release the interface.
           
 
 

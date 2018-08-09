@@ -7,7 +7,7 @@ old-location: com\olecreatepictureindirect.htm
 old-project: com
 ms.assetid: fb021348-07d4-4974-a71e-abb1b8d760c4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleCreatePictureIndirect, OleCreatePictureIndirect function [COM], _ole_OleCreatePictureIndirect, com.olecreatepictureindirect, olectl/OleCreatePictureIndirect
 ms.prod: windows
 ms.technology: windows-sdk

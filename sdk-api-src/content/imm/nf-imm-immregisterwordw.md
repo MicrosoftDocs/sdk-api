@@ -7,7 +7,7 @@ old-location: intl\immregisterword.htm
 old-project: Intl
 ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmRegisterWord, ImmRegisterWord function [Internationalization for Windows Applications], ImmRegisterWordA, ImmRegisterWordW, _win32_ImmRegisterWord, imm/ImmRegisterWord, imm/ImmRegisterWordA, imm/ImmRegisterWordW, intl.immregisterword
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Registers a string with the dictionary of the IME associated with the specified 
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
+Input locale identifier.
 
 
 ### -param lpszReading [in]
@@ -71,17 +71,7 @@ TBD
 Pointer to a null-terminated reading string associated with the string to register.
 
 
-### -param DWORD
-
-TBD
-
-
-### -param lpszRegister [in]
-
-Pointer to the null-terminated string to register.
-
-
-#### - dwStyle [in]
+### -param DWORD [in]
 
 Style of the string to register. This parameter can have any of the following values.
 
@@ -114,9 +104,9 @@ The string has a private style maintained by the specified IME. See the Remarks 
  
 
 
-#### - hKL [in]
+### -param lpszRegister [in]
 
-Input locale identifier.
+Pointer to the null-terminated string to register.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: automat\vari1fromdate.htm
 old-project: automat
 ms.assetid: 248dff64-8847-40ef-a081-7653e459d3d1
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI1FromDate, VarI1FromDate function [Automation], _oa96_VarI1FromDate, automat.vari1fromdate, oleauto/VarI1FromDate
 ms.prod: windows
 ms.technology: windows-sdk

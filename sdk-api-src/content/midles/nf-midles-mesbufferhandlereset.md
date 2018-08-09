@@ -7,7 +7,7 @@ old-location: rpc\mesbufferhandlereset.htm
 old-project: rpc
 ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,30 +72,10 @@ Style of <i>Handle</i>. Valid styles are <b>MES_FIXED_BUFFER_HANDLE</b> or <b>ME
 
 ### -param Operation
 
-TBD
-
-
-### -param pBuffer
-
-TBD
-
-
-### -param BufferSize
-
-Bytes of data to be decoded in the buffer. Note that this is used only for the fixed buffer style of serialization.
-
-
-### -param pEncodedSize
-
-Pointer to the size of the completed encoding. Note that this is used only when the operation is <b>MES_ENCODE</b> or <b>MES_ENCODE_NDR64</b>.
-
-
-#### - OpCode
-
 Operation code. Valid codes are <b>MES_ENCODE</b>, <b>MES_ENCODE_NDR64</b>, or <b>MES_DECODE</b>.
 
 
-#### - ppBuffer
+### -param pBuffer
 
 For <b>MES_DECODE</b>, pointer to a pointer to the buffer containing the data to be decoded. 
 
@@ -107,6 +87,16 @@ For <b>MES_ENCODE</b>, pointer to a pointer to the buffer for
 <a href="https://msdn.microsoft.com/d2c3805b-47bf-4bca-b904-9414e26dde68">dynamic buffer style of serialization</a>.
 
 For <b>MES_ENCODE_NDR64</b>, pointer to a pointer to the buffer for fixed buffer style, and pointer to a pointer to return the buffer address for dynamic buffer style of serialization, but explicitly uses NDR64 to encode the buffer. The user-provided buffer must be aligned to 16.
+
+
+### -param BufferSize
+
+Bytes of data to be decoded in the buffer. Note that this is used only for the fixed buffer style of serialization.
+
+
+### -param pEncodedSize
+
+Pointer to the size of the completed encoding. Note that this is used only when the operation is <b>MES_ENCODE</b> or <b>MES_ENCODE_NDR64</b>.
 
 
 ## -returns

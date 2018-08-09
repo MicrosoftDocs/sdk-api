@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiaudiostream.htm
 old-project: rdp
 ms.assetid: B2BC04A1-DE22-4543-9F10-33B0B99E0F92
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIAudioStream, IRDPSRAPIAudioStream class [RDP], IRDPSRAPIAudioStream class [RDP],described, rdp.irdpsrapiaudiostream, rdpencomapi/IRDPSRAPIAudioStream
 ms.prod: windows
 ms.technology: windows-sdk

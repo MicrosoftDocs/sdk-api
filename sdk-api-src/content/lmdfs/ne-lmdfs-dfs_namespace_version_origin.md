@@ -7,7 +7,7 @@ old-location: dfs\dfs_namespace_version_origin.htm
 old-project: dfs
 ms.assetid: b260e132-41fd-460b-87e6-c6e0490dc8b4
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDFS_NAMESPACE_VERSION_ORIGIN, DFS_NAMESPACE_VERSION_ORIGIN, DFS_NAMESPACE_VERSION_ORIGIN enumeration [Distributed File System], DFS_NAMESPACE_VERSION_ORIGIN_COMBINED, DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN, DFS_NAMESPACE_VERSION_ORIGIN_SERVER, dfs.dfs_namespace_version_origin, fs.dfs_namespace_version_origin, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_COMBINED, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_SERVER"
 ms.prod: windows
 ms.technology: windows-sdk

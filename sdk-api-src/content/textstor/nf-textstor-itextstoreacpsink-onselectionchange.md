@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onselectionchange.htm
 old-project: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,14 +124,12 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">
-        ITextStoreACP::InsertTextAtSelection
+<a href="https://msdn.microsoft.com/b57ad8da-6f79-4d27-96e0-608cbcaae826">ITextStoreACP::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">
-        ITextStoreACP::SetSelection
+<a href="https://msdn.microsoft.com/e9151b63-2ca7-4995-a36b-b919ab2d491a">ITextStoreACP::SetSelection
       </a>
 
 

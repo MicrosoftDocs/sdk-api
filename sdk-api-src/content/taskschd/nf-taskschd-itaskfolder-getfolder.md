@@ -4,10 +4,10 @@ title: ITaskFolder::GetFolder
 author: windows-sdk-content
 description: Gets a folder that contains tasks at a specified location.
 old-location: taskschd\itaskfolder_getfolder.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 62a0b946-ba06-46cf-bf38-e6774bdaae0a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolder method, ITaskFolder.GetFolder, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
 ms.prod: windows
 ms.technology: windows-sdk

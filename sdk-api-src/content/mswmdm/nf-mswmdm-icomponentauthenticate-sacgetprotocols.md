@@ -7,7 +7,7 @@ old-location: wmdm\icomponentauthenticate_sacgetprotocols.htm
 old-project: WMDM
 ms.assetid: db01f2a4-5cd5-4acc-be17-37b4c9861cc9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACGetProtocols method, IComponentAuthenticate.SACGetProtocols, IComponentAuthenticate::SACGetProtocols, IComponentAuthenticateSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACGetProtocols, wmdm.icomponentauthenticate_sacgetprotocols
 ms.prod: windows
 ms.technology: windows-sdk

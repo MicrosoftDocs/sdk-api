@@ -4,10 +4,10 @@ title: EvtNextPublisherId function
 author: windows-sdk-content
 description: Gets the identifier of a provider from the enumerator.
 old-location: wes\evtnextpublisherid.htm
-old-project: WES
+old-project: wes
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
 ms.prod: windows
 ms.technology: windows-sdk

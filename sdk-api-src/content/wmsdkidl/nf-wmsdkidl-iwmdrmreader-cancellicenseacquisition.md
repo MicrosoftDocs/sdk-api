@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader_cancellicenseacquisition.htm
 old-project: wmformat
 ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
 ms.prod: windows
 ms.technology: windows-sdk

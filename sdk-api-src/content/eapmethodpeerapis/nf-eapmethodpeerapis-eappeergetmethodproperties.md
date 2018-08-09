@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetmethodproperties.htm
 old-project: eaphost
 ms.assetid: A989D86D-BFF9-4EF4-AF98-7F0F41195186
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapPeerGetMethodProperties, EapPeerGetMethodProperties function [EAPHost], eaphost.eappeergetmethodproperties, eapmethodpeerapis/EapPeerGetMethodProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,24 +79,25 @@ An <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP
 A handle to the user impersonation token to use in this session.
 
 
-### -param dwSizeOfConnectionDataIn
+### -param dwSizeOfConnectionDataIn [in]
 
-TBD
-
-
-### -param pConnectionDataIn
-
-TBD
+The size, in bytes, of the connection data buffer provided in <i>pbEapConnData</i>.
 
 
-### -param dwSizeOfUserDataIn
+### -param pConnectionDataIn [in]
 
-TBD
+Connection data used for the EAP method. If set to NULL, the static property of the method, as configured in the registry, is returned.
 
 
-### -param pUserDataIn
+### -param dwSizeOfUserDataIn [in]
 
-TBD
+The size, in bytes, of the user data buffer provided in <i>pbUserData</i>.
+                
+
+
+### -param pUserDataIn [in]
+
+A pointer to a byte buffer that contains the opaque user data  BLOB. This parameter can be NULL.
 
 
 ### -param pMethodPropertyArray [out]
@@ -109,25 +110,4 @@ A pointer to the method properties array <a href="https://msdn.microsoft.com/1df
 
  
 A pointer to a address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/36f9b5dd-821d-4cc5-a1dd-587098635d17">EapPeerFreeErrorMemory</a>.
-
-
-#### - dwEapConnDataSize [in]
-
-The size, in bytes, of the connection data buffer provided in <i>pbEapConnData</i>.
-
-
-#### - dwUserDataSize [in]
-
-The size, in bytes, of the user data buffer provided in <i>pbUserData</i>.
-                
-
-
-#### - pbEapConnData [in]
-
-Connection data used for the EAP method. If set to NULL, the static property of the method, as configured in the registry, is returned.
-
-
-#### - pbUserData [in]
-
-A pointer to a byte buffer that contains the opaque user data  BLOB. This parameter can be NULL.
 

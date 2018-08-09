@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getdisplaymode.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdisplaymode.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9b212895-5a3c-2630-7af4-0caee7db56cb, GetDisplayMode, GetDisplayMode method [Direct3D 9], GetDisplayMode method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDisplayMode method, IDirect3DDevice9.GetDisplayMode, IDirect3DDevice9::GetDisplayMode, d3d9helper/IDirect3DDevice9::GetDisplayMode, direct3d9.idirect3ddevice9__getdisplaymode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,16 +68,16 @@ An unsigned integer specifying the swap chain.
 
 ### -param pMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172548(v=VS.85).aspx">D3DDISPLAYMODE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e83c03ee-2067-45c9-8fd8-8c4db5558df4">D3DDISPLAYMODE</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172548(v=VS.85).aspx">D3DDISPLAYMODE</a> structure containing data about the display mode of the adapter. As opposed to the display mode of the device, which may not be active if the device does not own full-screen mode. 
+Pointer to a <a href="https://msdn.microsoft.com/e83c03ee-2067-45c9-8fd8-8c4db5558df4">D3DDISPLAYMODE</a> structure containing data about the display mode of the adapter. As opposed to the display mode of the device, which may not be active if the device does not own full-screen mode. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -89,7 +89,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

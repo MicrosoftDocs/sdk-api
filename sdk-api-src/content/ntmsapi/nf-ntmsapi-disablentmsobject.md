@@ -7,7 +7,7 @@ old-location: fs\disablentmsobject.htm
 old-project: Rsm
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -249,7 +249,7 @@ All objects contained by a disabled object are also disabled. For example, disab
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
  
 
  

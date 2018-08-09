@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getlocationcodes.htm
 old-project: mstv
 ms.assetid: 31fa68d4-1719-4a93-bec9-6a7ba4f36c0b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetLocationCodes, GetLocationCodes method [Microsoft TV Technologies], GetLocationCodes method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCodes method, ISCTE_EAS.GetLocationCodes, ISCTE_EAS::GetLocationCodes, ISCTE_EASGetLocationCodes, atscpsipparser/ISCTE_EAS::GetLocationCodes, mstv.iscte_eas_getlocationcodes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,29 +60,25 @@ The <b>GetLocationCodes</b> method returns location codes from the EAS table.
 
 ### -param bIndex [in]
 
-
-            The zero-based index of the location codes to retrieve. Call <a href="https://msdn.microsoft.com/f498ead0-246d-4741-a995-45a5cf63847e">ISCTE_EAS::GetLocationCount</a> to get the number of locations.
+The zero-based index of the location codes to retrieve. Call <a href="https://msdn.microsoft.com/f498ead0-246d-4741-a995-45a5cf63847e">ISCTE_EAS::GetLocationCount</a> to get the number of locations.
           
 
 
 ### -param pbState [out]
 
-
-            Receives the state_code field.
+Receives the state_code field.
           
 
 
 ### -param pbCountySubdivision [out]
 
-
-            Receives the county_subdivision field.
+Receives the county_subdivision field.
           
 
 
 ### -param pwCounty [out]
 
-
-            Receives the county_code field.
+Receives the county_code field.
           
 
 
@@ -90,8 +86,7 @@ The <b>GetLocationCodes</b> method returns location codes from the EAS table.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

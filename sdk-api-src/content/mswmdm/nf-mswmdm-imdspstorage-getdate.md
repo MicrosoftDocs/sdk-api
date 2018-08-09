@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_getdate.htm
 old-project: WMDM
 ms.assetid: 4ba0c598-9ea2-42cc-a234-1c0e192971a8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetDate method, IMDSPStorage.GetDate, IMDSPStorage::GetDate, IMDSPStorageGetDate, mswmdm/IMDSPStorage::GetDate, wmdm.imdspstorage_getdate
 ms.prod: windows
 ms.technology: windows-sdk

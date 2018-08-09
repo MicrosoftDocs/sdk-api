@@ -7,7 +7,7 @@ old-location: netmgmt\netaccesssetinfo.htm
 old-project: netmgmt
 ms.assetid: 9daf70e0-2402-4823-9e17-4702bbb3aa3d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 1, NetAccessSetInfo, NetAccessSetInfo function [Network Management], _win32_netaccesssetinfo, lmaccess/NetAccessSetInfo, netmgmt.netaccesssetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,40 +72,10 @@ TBD
 
 ### -param resource
 
-TBD
-
-
-### -param level
-
-TBD
-
-
-### -param buf
-
-TBD
-
-
-#### - cbBuffer
-
-Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
-
-
-#### - pbBuffer
-
-Pointer to the buffer that contains the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
-
-
-#### - pszResource
-
 Pointer to a string that contains the name of the network resource to modify.
 
 
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - sLevel
+### -param level
 
 Specifies the information level of the data. This parameter can be the following value.
 
@@ -127,6 +97,21 @@ The <i>pbBuffer</i> parameter points to an
 </tr>
 </table>
  
+
+
+### -param buf
+
+Pointer to the buffer that contains the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
+
+
+#### - pszServer
+
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+
+
+#### - cbBuffer
+
+Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
 
 
 #### - sParmNum

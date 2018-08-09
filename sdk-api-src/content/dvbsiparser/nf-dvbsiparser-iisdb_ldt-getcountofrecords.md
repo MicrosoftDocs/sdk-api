@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getcountofrecords.htm
 old-project: mstv
 ms.assetid: da91deea-527c-4458-9db5-ae500cee19bb
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_LDT.GetCountOfRecords, IISDB_LDT::GetCountOfRecords, dvbsiparser/IISDB_LDT::GetCountOfRecords, mstv.iisdb_ldt_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the number of records in an
+Gets the number of records in an
   Integrated Services Digital Broadcasting (ISDB)
   linked description table (LDT). An LDT contains data used to collect reference
   information from other tables.

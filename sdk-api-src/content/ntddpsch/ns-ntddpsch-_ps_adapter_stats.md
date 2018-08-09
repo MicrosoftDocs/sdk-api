@@ -7,7 +7,7 @@ old-location: qos\ps_adapter_stats.htm
 old-project: qos
 ms.assetid: 365b3987-9a7a-4c15-980d-aa39956c68c8
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPS_ADAPTER_STATS, PPS_ADAPTER_STATS, PPS_ADAPTER_STATS structure pointer [QOS], PS_ADAPTER_STATS, PS_ADAPTER_STATS structure [QOS], _PS_ADAPTER_STATS, _gqos_ps_adapter_stats, ntddpsch/PPS_ADAPTER_STATS, ntddpsch/PS_ADAPTER_STATS, qos.ps_adapter_stats"
 ms.prod: windows
 ms.technology: windows-sdk

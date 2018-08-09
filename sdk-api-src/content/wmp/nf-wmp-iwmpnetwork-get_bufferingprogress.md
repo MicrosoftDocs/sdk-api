@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_bufferingprogress.htm
 old-project: WMP
 ms.assetid: 5c8cc541-3fc2-49b8-8a1a-f4959989aafe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingProgress method, IWMPNetwork.get_bufferingProgress, IWMPNetwork::get_bufferingProgress, IWMPNetworkget_bufferingProgress, get_bufferingProgress, get_bufferingProgress method [Windows Media Player], get_bufferingProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingprogress, wmp/IWMPNetwork::get_bufferingProgress
 ms.prod: windows
 ms.technology: windows-sdk

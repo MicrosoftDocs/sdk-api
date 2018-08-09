@@ -4,10 +4,10 @@ title: GetAddrInfoExW function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 old-location: winsock\getaddrinfoex.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -219,9 +219,14 @@ This namespace identifier is supported on Windows Vista and later.
 A pointer to an optional GUID of a specific namespace provider to query in the case where  multiple namespace providers are registered under a single namespace such as <b>NS_DNS</b>. Passing the GUID for specific namespace provider will result in only the specified namespace provider being queried. The <a href="https://msdn.microsoft.com/f5b6cd42-c5cb-43b6-bb96-fd260217e252">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
 
 
-### -param hints
+### -param hints [in, optional]
 
-TBD
+A pointer to an 
+<a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure that provides hints about the type of socket the caller supports. 
+
+The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <b>GetAddrInfoEx</b> function will fail with <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a>.
+
+See the Remarks for more details.
 
 
 ### -param ppResult [out]
@@ -282,14 +287,7 @@ On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICOD
 On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
 
 
-### -param lpHandle
-
-TBD
-
-
-
-
-#### - lpNameHandle [out, optional]
+#### - lpHandle [out, optional]
 
 An optional pointer used only for asynchronous operations.  
 
@@ -300,16 +298,6 @@ On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function wil
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
 On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
-
-#### - pHints [in, optional]
-
-A pointer to an 
-<a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure that provides hints about the type of socket the caller supports. 
-
-The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <b>GetAddrInfoEx</b> function will fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
-
-See the Remarks for more details.
 
 
 ## -returns
@@ -330,42 +318,42 @@ Most nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>An invalid parameter was provided. This error is returned if any of the reserved parameters are not <b>NULL</b>. This error is also returned if an invalid value was provided for the <b>ai_flags</b> member of the <i>pHints</i> parameter.</td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>The <b>ai_family</b> member  of the <i>pHints</i> parameter is not supported.</td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></td>
 <td>The name does not resolve for the supplied parameters or the <i>pName</i> and <i>pServiceName</i> parameters were not provided.</td>
 </tr>
 <tr>
 <td>EAI_SERVICE</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATYPE_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></td>
 <td>The <i>pServiceName</i> parameter is not supported for the specified <b>ai_socktype</b> member of the <i>pHints</i> parameter.</td>
 </tr>
 <tr>
 <td>EAI_SOCKTYPE</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESOCKTNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAESOCKTNOSUPPORT</a></td>
 <td>The <b>ai_socktype</b> member of the <i>pHints</i> parameter is not supported.</td>
 </tr>
 </table>
@@ -385,7 +373,7 @@ Use the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -396,7 +384,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -408,7 +396,7 @@ An address incompatible with the requested protocol was used. This error is retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -420,7 +408,7 @@ An invalid argument was supplied.  This error is returned if an invalid value wa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESOCKTNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAESOCKTNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -432,7 +420,7 @@ The support for the specified socket type does not exist in this address family.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -443,7 +431,7 @@ No such host is known. This error is returned if the name does not resolve for t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -454,7 +442,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -465,7 +453,7 @@ A nonrecoverable error occurred during a database lookup. This error is returned
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -477,7 +465,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASERVICE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -488,7 +476,7 @@ No such service is known. The service cannot be found in the specified name spac
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -499,7 +487,7 @@ This is usually a temporary error during hostname resolution and means that the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -1135,7 +1123,7 @@ Several functions on Windows Vista and later support conversion between Unicode
 
  
 
-The <a href="https://msdn.microsoft.com/e39aa5c2-3f76-40b2-9948-bbd795c6c525">IdnToAscii</a> function uses Punycode to convert an IDN to the ASCII  representation of the original Unicode string using the standard algorithm defined in <a href="http://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>. The <a href="https://msdn.microsoft.com/90707414-aef7-4265-bc2b-d48ac79db099">IdnToUnicode</a> function converts the ASCII form of an IDN to the normal Unicode UTF-16 encoding syntax. For more information and links to related draft standards, see <a href="https://msdn.microsoft.com/en-us/library/Dd318142(v=VS.85).aspx">Handling Internationalized Domain Names (IDNs)</a>.
+The <a href="https://msdn.microsoft.com/e39aa5c2-3f76-40b2-9948-bbd795c6c525">IdnToAscii</a> function uses Punycode to convert an IDN to the ASCII  representation of the original Unicode string using the standard algorithm defined in <a href="http://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>. The <a href="https://msdn.microsoft.com/90707414-aef7-4265-bc2b-d48ac79db099">IdnToUnicode</a> function converts the ASCII form of an IDN to the normal Unicode UTF-16 encoding syntax. For more information and links to related draft standards, see <a href="_win32_IDN">Handling Internationalized Domain Names (IDNs)</a>.
 
 
 
@@ -1187,7 +1175,7 @@ If neither <b>AI_CANONNAME</b> nor <b>AI_NUMERICHOST</b> is used, the
 <b>GetAddrInfoEx</b> function attempts to resolve the name to an address or multiple addresses.
 
 When the <b>AI_CANONNAME</b> bit is set, the <i>pName</i> parameter cannot be <b>NULL</b>. Otherwise the 
-<b>GetAddrInfoEx</b> function will  fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
+<b>GetAddrInfoEx</b> function will  fail with <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a>.
 
 When the <b>AI_CANONNAME</b> bit is set and the 
 <b>GetAddrInfoEx</b> function returns success, the <b>ai_canonname</b> member in the <i>ppResult</i> parameter points to a <b>NULL</b>-terminated string that contains the canonical name of the specified node.
@@ -1308,7 +1296,7 @@ If the  <b>AI_FQDN</b> is set and a flat name (single label) is specified,  <b>G
 <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure. This is different than <b>AI_CANONNAME</b> bit flag that returns the canonical name registered in DNS which may be different than the fully qualified domain name  that the flat name resolved to. 
 
 When the <b>AI_FQDN</b> bit is set, the <i>pName</i> parameter cannot be <b>NULL</b>. Otherwise the 
-<b>GetAddrInfoEx</b> function will  fail with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a>.
+<b>GetAddrInfoEx</b> function will  fail with <a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a>.
 
 On Windows 8 and Windows Server 2012, both the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits can be set. If the <b>GetAddrInfoEx</b> function is called with both the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits, the <i>ppResult</i> parameter returns a pointer to an <a href="https://msdn.microsoft.com/9CB33347-A838-473D-B5CD-1149D6632CF2">addrinfoex2</a> structure, not an <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure.
 

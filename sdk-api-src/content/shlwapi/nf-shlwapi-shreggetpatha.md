@@ -7,7 +7,7 @@ old-location: shell\SHRegGetPath.htm
 old-project: shell
 ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHRegGetPath, SHRegGetPath function [Windows Shell], SHRegGetPathA, SHRegGetPathW, _win32_SHRegGetPath, shell.SHRegGetPath, shlwapi/SHRegGetPath, shlwapi/SHRegGetPathA, shlwapi/SHRegGetPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,25 @@ Retrieves a file path from the registry, expanding environment variables as need
 
 
 
-### -param hKey
+### -param hKey [in]
 
-TBD
+Type: <b>HKEY</b>
 
-
-### -param pcszSubKey
-
-TBD
+A handle to a key that is currently open, or a registry root key.
 
 
-### -param pcszValue
+### -param pcszSubKey [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that contains the name of the subkey.
+
+
+### -param pcszValue [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that contains the name of the value that holds the unexpanded path string.
 
 
 ### -param pszPath [out]
@@ -93,27 +99,6 @@ A buffer to hold the expanded path. You should set the size of this buffer to <b
 Type: <b>DWORD</b>
 
 Reserved.
-
-
-#### - hkey [in]
-
-Type: <b>HKEY</b>
-
-A handle to a key that is currently open, or a registry root key.
-
-
-#### - pszSubkey [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string that contains the name of the subkey.
-
-
-#### - pszValue [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string that contains the name of the value that holds the unexpanded path string.
 
 
 ## -returns
@@ -141,32 +126,27 @@ The following environment strings will be replaced by their equivalent path.
 <th>Folder</th>
 </tr>
 <tr>
-<td>
-							%USERPROFILE%
+<td>%USERPROFILE%
 						</td>
 <td>The current user's profile folder</td>
 </tr>
 <tr>
-<td>
-							%ALLUSERSPROFILE%
+<td>%ALLUSERSPROFILE%
 						</td>
 <td>The All Users profile folder</td>
 </tr>
 <tr>
-<td>
-							%ProgramFiles%
+<td>%ProgramFiles%
 						</td>
 <td>The Program Files folder</td>
 </tr>
 <tr>
-<td>
-							%SystemRoot%
+<td>%SystemRoot%
 						</td>
 <td>The system root folder</td>
 </tr>
 <tr>
-<td>
-							%SystemDrive%
+<td>%SystemDrive%
 						</td>
 <td>The system drive letter</td>
 </tr>

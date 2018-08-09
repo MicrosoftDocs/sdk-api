@@ -7,7 +7,7 @@ old-location: shell\SHGetTemporaryPropertyForItem.htm
 old-project: shell
 ms.assetid: 53953a5a-04a2-4749-a03b-8cbd5ac889f1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetTemporaryPropertyForItem, SHGetTemporaryPropertyForItem function [Windows Shell], _shell_SHGetTemporaryPropertyForItem, shell.SHGetTemporaryPropertyForItem, shobjidl_core/SHGetTemporaryPropertyForItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,12 @@ A pointer to the item for which the temporary property is to be retrieved.
 
 ### -param propkey
 
-TBD
-
-
-### -param ppropvar
-
-TBD
-
-
-
-
-#### - pk
-
 Type: <b>REFPROPERTYKEY</b>
 
 The property key.
 
 
-#### - ppropvarInk [out]
+### -param ppropvar [out]
 
 Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
 

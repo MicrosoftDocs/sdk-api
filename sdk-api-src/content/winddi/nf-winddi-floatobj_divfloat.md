@@ -7,7 +7,7 @@ old-location: display\floatobj_divfloat.htm
 old-project: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in]
+
+Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the quotient of *<i>pf</i> divided by <i>f</i>.
+
+
 #### - f [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the division.
-
-
-#### - pf [in]
-
-Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the quotient of *<i>pf</i> divided by <i>f</i>.
 
 
 ## -returns

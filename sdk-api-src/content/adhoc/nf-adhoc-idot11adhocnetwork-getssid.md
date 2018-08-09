@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_getssid.htm
 old-project: nativewifi
 ms.assetid: a1a190a2-038b-4353-8dc9-76950b1da9ff
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetSSID, GetSSID method [NativeWIFI], GetSSID method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSSID method, IDot11AdHocNetwork.GetSSID, IDot11AdHocNetwork::GetSSID, adhoc/IDot11AdHocNetwork::GetSSID, nwifi.idot11adhocnetwork_getssid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Gets the SSID of the network.
 
 The SSID of the network.
 
-You must free this string using <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 

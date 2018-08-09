@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0006"
 author: windows-sdk-content
 description: Indicates the type of IP address.
 old-location: wds\wdstransport_ip_address_type.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 11ed1cff-eeb6-41ab-86a1-af2db5b8e155
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressIpv4, WdsTptIpAddressIpv6, WdsTptIpAddressUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0006, wds.wdstransport_ip_address_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE, wdstptmgmt/WdsTptIpAddressIpv4, wdstptmgmt/WdsTptIpAddressIpv6, wdstptmgmt/WdsTptIpAddressUnknown"
 ms.prod: windows
 ms.technology: windows-sdk

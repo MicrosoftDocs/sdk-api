@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_get_addresscount.htm
 old-project: tapi
 ms.assetid: af7c6923-3859-46c0-aced-5b334a423e03
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_AddressCount method, IMcastLeaseInfo.get_AddressCount, IMcastLeaseInfo::get_AddressCount, _tapi3_imcastleaseinfo_get_addresscount, get_AddressCount, get_AddressCount method [TAPI 2.2], get_AddressCount method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_AddressCount, tapi3.imcastleaseinfo_get_addresscount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
  The 

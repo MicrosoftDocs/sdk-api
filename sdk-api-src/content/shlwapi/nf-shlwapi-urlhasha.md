@@ -7,7 +7,7 @@ old-location: shell\UrlHash.htm
 old-project: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,11 @@ Hashes a URL string.
 
 
 
-### -param pszUrl
+### -param pszUrl [in]
 
-TBD
+Type: <b>PCTSTR</b>
+
+A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
 
 
 ### -param pbHash [out]
@@ -80,13 +82,6 @@ A pointere to a buffer that, when this function returns successfully, receives t
 Type: <b>DWORD</b>
 
 The number of elements in the array at <i>pbHash</i>. It should be no larger than 256.
-
-
-#### - pszURL [in]
-
-Type: <b>PCTSTR</b>
-
-A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
 
 
 ## -returns

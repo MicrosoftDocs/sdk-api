@@ -7,7 +7,7 @@ old-location: controls\ListView_GetHotCursor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotcursor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetHotCursor, ListView_GetHotCursor macro [Windows Controls], _win32_ListView_GetHotCursor, _win32_ListView_GetHotCursor_cpp, commctrl/ListView_GetHotCursor, controls.ListView_GetHotCursor, controls._win32_ListView_GetHotCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774938(v=VS.85).aspx">LVM_GETHOTCURSOR</a> message explicitly. 
+Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/064d04b2-d74e-4a80-aec6-97a3c53fc4fb">LVM_GETHOTCURSOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Gets the HCURSOR used when the pointer is over an item while hot tracking is ena
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -78,7 +69,7 @@ A handle to a list-view control.
 
 
 
-A list-view control uses hot tracking and hover selection when the <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_TRACKSELECT</a> style is set. 
+A list-view control uses hot tracking and hover selection when the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a> style is set. 
 
 
 

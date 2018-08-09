@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory.htm
 old-project: shell
 ms.assetid: a684b373-6de4-4b4a-bbae-85e1c5a7e04a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Gets the search folder as a <a href="https://msdn.microsoft.com/599b9c0a-df04-4d
 <a href="https://msdn.microsoft.com/6ac5acc3-e522-4b6f-a31c-c0850445e00c">SetCondition</a>
 </td>
 <td align="left" width="63%">
-Sets the  <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
+Sets the  <a href="_search_ICondition">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
 
 </td>
 </tr>
@@ -110,8 +110,7 @@ Sets the search folder display name, as specified.
 <a href="https://msdn.microsoft.com/ef72f196-cfd5-4547-85cb-0ccfdc496c46">SetFolderLogicalViewMode</a>
 </td>
 <td align="left" width="63%">
-
-      Sets folder logical view mode. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="https://msdn.microsoft.com/a9b09dc6-751e-4d5f-b016-0b26c15c68f6">ISearchFolderItemFactory::SetFolderTypeID</a> method.
+Sets folder logical view mode. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="https://msdn.microsoft.com/a9b09dc6-751e-4d5f-b016-0b26c15c68f6">ISearchFolderItemFactory::SetFolderTypeID</a> method.
 
 </td>
 </tr>

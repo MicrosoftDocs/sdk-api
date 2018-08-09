@@ -7,7 +7,7 @@ old-location: mf\dxva2createvideoservice.htm
 old-project: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,13 @@ Creates a DirectX Video Acceleration (DXVA) services object. Call this function 
 
 ### -param pDD
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of a Direct3D device.
+A pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of a Direct3D device.
           
 
 
 ### -param riid
 
-
-            The interface identifier (IID) of the requested interface. Any of the following interfaces might be supported by the Direct3D device:
+The interface identifier (IID) of the requested interface. Any of the following interfaces might be supported by the Direct3D device:
           
 
 <ul>
@@ -88,8 +86,7 @@ Creates a DirectX Video Acceleration (DXVA) services object. Call this function 
 
 ### -param ppService
 
-
-            Receives a pointer to the interface. The caller must release the interface.
+Receives a pointer to the interface. The caller must release the interface.
           
 
 

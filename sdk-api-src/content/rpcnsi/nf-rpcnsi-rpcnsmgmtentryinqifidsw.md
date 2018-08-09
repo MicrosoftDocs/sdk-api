@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmtentryinqifids.htm
 old-project: rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
 ms.prod: windows
 ms.technology: windows-sdk

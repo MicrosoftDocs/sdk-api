@@ -7,7 +7,7 @@ old-location: fs\reserventmscleanerslot.htm
 old-project: Rsm
 ms.assetid: 17e5acf8-c6b3-42a8-a9fe-fdda53779b67
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -214,7 +214,7 @@ The slot reserved with the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
 
 
 

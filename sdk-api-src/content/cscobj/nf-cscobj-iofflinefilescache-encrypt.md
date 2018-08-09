@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_encrypt.htm
 old-project: offlinefiles
 ms.assetid: b7531018-4837-4fde-8947-0f099f6de9e5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],Encrypt method, IOfflineFilesCache.Encrypt, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.  When the cache is encrypted, all files subsequently cached are automatically encrypted.  When the cache is unencrypted, all files subsequently cached are cached unencrypted.
+Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.  When the cache is encrypted, all files subsequently cached are automatically encrypted.  When the cache is unencrypted, all files subsequently cached are cached unencrypted.
 
 Existing files in the cache are either encrypted or unencrypted to match the new state of the cache.
 

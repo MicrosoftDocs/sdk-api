@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingunexportpnp.htm
 old-project: rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,13 +83,6 @@ Interface specification for the binding handles to be removed from the name serv
 
 
 ### -param ObjectVector
-
-TBD
-
-
-
-
-#### - ObjectUuidVec
 
 Pointer to a vector of object UUIDs that the server no longer wants to offer. The application constructs this vector. A null value indicates there are no object UUIDs to unexport (only binding handles are to be unexported).
 

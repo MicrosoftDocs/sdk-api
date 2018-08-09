@@ -7,7 +7,7 @@ old-location: ual\ualregisterproduct.htm
 old-project: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The name of the major product to register with UAL. For example, "Windows Server
 The name of the role or minor product within the major product to be registered with UAL. For example, "DHCP".
 
 
-### -param wszGuid
-
-TBD
-
-
-
-
-#### - wszRoleGuid [in]
+### -param wszGuid [in]
 
 The GUID associated with the role specified by the <i>wszRoleName</i> parameter.
 

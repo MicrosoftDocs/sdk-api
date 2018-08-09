@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextPattern_GetSelection.htm
 old-project: WinAuto
 ms.assetid: 2aca7414-afb2-402d-80cf-d7ce3e719b20
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetSelection method, IUIAutomationTextPattern.GetSelection, IUIAutomationTextPattern::GetSelection, uiauto.uiauto_IUIAutomationTextPattern_GetSelection, uiauto_IUIAutomationTextPattern_GetSelection, uiautomationclient/IUIAutomationTextPattern::GetSelection, winauto.uiauto_IUIAutomationTextPattern_GetSelection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

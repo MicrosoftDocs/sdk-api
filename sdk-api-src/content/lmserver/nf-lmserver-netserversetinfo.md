@@ -7,7 +7,7 @@ old-location: netmgmt\netserversetinfo.htm
 old-project: netmgmt
 ms.assetid: 1a04a43d-34f9-4a08-ac66-750120792af0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
 ms.prod: windows
 ms.technology: windows-sdk

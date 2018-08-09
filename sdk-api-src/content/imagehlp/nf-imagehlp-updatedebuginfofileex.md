@@ -7,7 +7,7 @@ old-location: base\updatedebuginfofileex.htm
 old-project: debug
 ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,14 +80,7 @@ A pointer to an
 <a href="https://msdn.microsoft.com/6511341f-252d-4f73-bb90-284bbb69b065">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
 
 
-### -param OldCheckSum
-
-TBD
-
-
-
-
-#### - OldChecksum [in]
+### -param OldCheckSum [in]
 
 The original checksum value. If this value does not match the checksum that is present in the mapped image, the flags in the symbol file contain IMAGE_SEPARATE_DEBUG_MISMATCH and the last error value is set to ERROR_INVALID_DATA.
 					

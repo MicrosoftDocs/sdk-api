@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_unordered_access_view_desc.htm
 old-project: direct3d12
 ms.assetid: 0C3A31FE-625D-4CB3-87FD-D2C33D008DD4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_UNORDERED_ACCESS_VIEW_DESC, D3D12_UNORDERED_ACCESS_VIEW_DESC structure, d3d12/D3D12_UNORDERED_ACCESS_VIEW_DESC, direct3d12.d3d12_unordered_access_view_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Describes the subresources from a resource that are accessible by using an unord
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the viewing format.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the viewing format.
 
 
 ### -field ViewDimension

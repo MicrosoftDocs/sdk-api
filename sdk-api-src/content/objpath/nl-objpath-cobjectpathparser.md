@@ -7,7 +7,7 @@ old-location: wmi\cobjectpathparser.htm
 old-project: WmiSdk
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser"
 ms.prod: windows
 ms.technology: windows-sdk

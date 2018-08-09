@@ -7,7 +7,7 @@ old-location: rras\mgm_if_entry_str.htm
 old-project: rras
 ms.assetid: df3d18fe-1f73-47fd-aab8-818f83c7fcb9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMGM_IF_ENTRY, MGM_IF_ENTRY, MGM_IF_ENTRY structure [RAS], PMGM_IF_ENTRY, PMGM_IF_ENTRY structure pointer [RAS], _MGM_IF_ENTRY, _mpr_mgm_if_entry_str, mgm/MGM_IF_ENTRY, mgm/PMGM_IF_ENTRY, rras.mgm_if_entry_str"
 ms.prod: windows
 ms.technology: windows-sdk

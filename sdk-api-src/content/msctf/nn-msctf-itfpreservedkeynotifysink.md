@@ -7,7 +7,7 @@ old-location: tsf\itfpreservedkeynotifysink.htm
 old-project: TSF
 ms.assetid: 0bf786b5-efcd-4c58-835b-47e7adf9be63
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework],described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,20 +95,17 @@ Preserved keys are keyboard shortcuts that an application or TSF text service ca
 
 
 
-<a href="https://msdn.microsoft.com/ad5cd485-9231-4c29-8977-754dbf25c979">
-        ITfKeystrokeMgr::PreserveKey
+<a href="https://msdn.microsoft.com/ad5cd485-9231-4c29-8977-754dbf25c979">ITfKeystrokeMgr::PreserveKey
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/feb83f22-652c-4fec-b35d-a0cc41eab533">
-        ITfKeystrokeMgr::SetPreservedKeyDescription
+<a href="https://msdn.microsoft.com/feb83f22-652c-4fec-b35d-a0cc41eab533">ITfKeystrokeMgr::SetPreservedKeyDescription
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">
-        ITfKeystrokeMgr::UnpreserveKey
+<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">ITfKeystrokeMgr::UnpreserveKey
       </a>
 
 
@@ -118,7 +115,7 @@ Preserved keys are keyboard shortcuts that an application or TSF text service ca
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

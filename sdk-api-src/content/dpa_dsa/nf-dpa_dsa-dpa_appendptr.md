@@ -7,7 +7,7 @@ old-location: controls\DPA_AppendPtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_appendptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_AppendPtr, _shell_DPA_AppendPtr_cpp, controls.DPA_AppendPtr, controls._shell_DPA_AppendPtr, dpa_dsa/DPA_AppendPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Inserts a new item at the end of a dynamic pointer array (DPA).
 
 ### -param hdpa
 
-TBD
+A handle to a DPA.
 
 
 ### -param pitem
@@ -68,16 +68,11 @@ TBD
 A pointer to the item that is to be inserted.
 
 
-#### - pdpa
-
-A handle to a DPA.
-
-
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> function.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/275585f9-b26b-4528-a5b2-471dc1623a68">DPA_InsertPtr</a> function.</div>
 <div> </div>
 
 

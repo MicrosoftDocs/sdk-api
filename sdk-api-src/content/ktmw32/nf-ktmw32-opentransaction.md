@@ -4,10 +4,10 @@ title: OpenTransaction function
 author: windows-sdk-content
 description: Opens an existing transaction.
 old-location: fs\opentransaction.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ The following list identifies the  possible error codes:
 
 
 
-
-        Clients close the transaction handle by using the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function. If the last transaction handle is closed without anyone calling the <a href="https://msdn.microsoft.com/17db5e1f-685b-46f0-bac6-dff4c18bb515">CommitTransaction</a> function on the transaction, then the KTM implicitly rolls back the transaction.
+Clients close the transaction handle by using the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function. If the last transaction handle is closed without anyone calling the <a href="https://msdn.microsoft.com/17db5e1f-685b-46f0-bac6-dff4c18bb515">CommitTransaction</a> function on the transaction, then the KTM implicitly rolls back the transaction.
 
 
 

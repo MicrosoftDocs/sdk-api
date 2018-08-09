@@ -4,10 +4,10 @@ title: NetShareEnum function
 author: windows-sdk-content
 description: Retrieves information about each shared resource on a server.
 old-location: fs\netshareenum.htm
-old-project: NetShare
+old-project: netshare
 ms.assetid: 9114c54d-3905-4d40-9162-b3ea605f6fcb
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, 2, 502, 503, NetShareEnum, NetShareEnum function [Files], _win32_netshareenum, fs.netshareenum, lmshare/NetShareEnum, netmgmt.netshareenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ The <i>bufptr</i> parameter points to an array of
 </dl>
 </td>
 <td width="60%">
-Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="https://msdn.microsoft.com/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
+Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="fs.share_info_503">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -336,7 +336,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a>
+<a href="fs.share_info_503">SHARE_INFO_503</a>
  
 
  

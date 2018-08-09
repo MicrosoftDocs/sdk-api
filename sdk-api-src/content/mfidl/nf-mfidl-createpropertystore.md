@@ -7,7 +7,7 @@ old-location: mf\createpropertystore.htm
 old-project: medfound
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: GDI+ 1.1
 
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Instead, applications should use the <b>PSCreateMemoryPropertyStore</b> function to create property stores.]
 
-
-          Creates an empty property store object.
+Creates an empty property store object.
 
 
 ## -parameters
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param ppStore [out]
 
-
-            Receives a pointer to the <b>IPropertyStore</b> interface. The caller must release the interface.
+Receives a pointer to the <b>IPropertyStore</b> interface. The caller must release the interface.
           
 
 

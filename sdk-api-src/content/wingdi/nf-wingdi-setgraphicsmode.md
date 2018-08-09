@@ -7,7 +7,7 @@ old-location: gdi\setgraphicsmode.htm
 old-project: gdi
 ms.assetid: 73824a14-2951-45a2-98cd-156418c59a2d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GM_ADVANCED, GM_COMPATIBLE, SetGraphicsMode, SetGraphicsMode function [Windows GDI], _win32_SetGraphicsMode, gdi.setgraphicsmode, wingdi/SetGraphicsMode
 ms.prod: windows
 ms.technology: windows-sdk

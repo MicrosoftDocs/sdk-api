@@ -7,7 +7,7 @@ old-location: security\iazscope_addpolicyreader.htm
 old-project: secauthz
 ms.assetid: dd4d3254-8bcf-46b5-8e7b-d3f076988a7c
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzScope object, AddPolicyReader method [Security],IAzScope interface, AzScope object [Security],AddPolicyReader method, IAzScope interface [Security],AddPolicyReader method, IAzScope.AddPolicyReader, IAzScope::AddPolicyReader, azroles/IAzScope::AddPolicyReader, security.iazscope_addpolicyreader
 ms.prod: windows
 ms.technology: windows-sdk

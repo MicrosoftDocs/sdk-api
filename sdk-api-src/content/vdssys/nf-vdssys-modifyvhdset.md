@@ -7,7 +7,7 @@ old-location: vhd\modifyvhdset.htm
 old-project: VStor
 ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,9 @@ Modifies the internal contents of a virtual disk file. Can be used to set the ac
 
 
 
-### -param VirtualDiskHandle [in]
+### -param VirtualDiskHandle
 
-A handle to the open virtual disk. This must be a VHD Set file.
-
-Modification flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F">MODIFY_VHDSET_FLAG</a> enumeration.
+TBD
 
 
 ### -param Parameters [in]
@@ -73,11 +71,11 @@ Modification flags, which must be a valid combination of the <a href="https://ms
 A pointer to a valid <a href="https://msdn.microsoft.com/558323D6-2D97-40C8-9CAF-E97604D2F742">MODIFY_VHDSET_PARAMETERS</a> structure that contains modification data.
 
 
-### -param Flags
+### -param Flags [in]
 
-TBD
+A handle to the open virtual disk. This must be a VHD Set file.
 
-
+Modification flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F">MODIFY_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

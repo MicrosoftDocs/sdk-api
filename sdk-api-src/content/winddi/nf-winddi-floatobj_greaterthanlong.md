@@ -7,7 +7,7 @@ old-location: display\floatobj_greaterthanlong.htm
 old-project: display
 ms.assetid: 2d464472-c89b-47ad-811e-a2f5445e12a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FLOATOBJ_GreaterThanLong, FLOATOBJ_GreaterThanLong function [Display Devices], display.floatobj_greaterthanlong, gdifncs_75edc272-ffac-4ff0-9b3b-c542d3d0ae89.xml, winddi/FLOATOBJ_GreaterThanLong
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in]
+
+Pointer to the FLOATOBJ.
+
+
 #### - l [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the comparison.
-
-
-#### - pf [in]
-
-Pointer to the FLOATOBJ.
 
 
 ## -returns

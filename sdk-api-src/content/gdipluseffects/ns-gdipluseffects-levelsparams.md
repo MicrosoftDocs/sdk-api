@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_LevelsParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\levelsparams.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: LevelsParams, LevelsParams structure [GDI+], _gdiplus_STRUC_LevelsParams, gdiplus._gdiplus_STRUC_LevelsParams, gdipluseffects/LevelsParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,8 @@ The <b>LevelsParams</b> structure contains members that specify adjustments to t
 You can adjust the light, midtone, or dark areas of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>LevelsParams</b> structure.</li>
-<li>Pass the address of the <b>LevelsParams</b> structure to the <a href="https://msdn.microsoft.com/library/ms535361(v=VS.85).aspx">Levels::SetParameters</a> method of a <a href="https://msdn.microsoft.com/library/ms534471(v=VS.85).aspx">Levels</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/library/ms534471(v=VS.85).aspx">Levels</a> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>LevelsParams</b> structure to the <a href="https://msdn.microsoft.com/928f88d3-1fc0-49a5-b286-794c157d10aa">Levels::SetParameters</a> method of a <a href="https://msdn.microsoft.com/0256fa03-f029-472e-988a-9eb7ed117673">Levels</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/0256fa03-f029-472e-988a-9eb7ed117673">Levels</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

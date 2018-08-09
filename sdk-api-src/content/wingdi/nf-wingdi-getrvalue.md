@@ -7,7 +7,7 @@ old-location: gdi\getrvalue.htm
 old-project: gdi
 ms.assetid: c183b671-20f8-468c-af0d-9f03cbc4b170
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetRValue, GetRValue macro [Windows GDI], _win32_GetRValue, gdi.getrvalue, wingdi/GetRValue
 ms.prod: windows
 ms.technology: windows-sdk

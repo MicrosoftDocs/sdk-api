@@ -7,7 +7,7 @@ old-location: p2p\drt_scope.htm
 old-project: p2psdk
 ms.assetid: 0b144ec0-c2d7-4996-84a0-4ab137285a30
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DRT_GLOBAL_SCOPE, DRT_LINK_LOCAL_SCOPE, DRT_SCOPE, DRT_SCOPE enumeration [Peer Networking], DRT_SITE_LOCAL_SCOPE, drt/DRT_GLOBAL_SCOPE, drt/DRT_LINK_LOCAL_SCOPE, drt/DRT_SCOPE, drt/DRT_SITE_LOCAL_SCOPE, drt_scope_tag, p2p.drt_scope
 ms.prod: windows
 ms.technology: windows-sdk

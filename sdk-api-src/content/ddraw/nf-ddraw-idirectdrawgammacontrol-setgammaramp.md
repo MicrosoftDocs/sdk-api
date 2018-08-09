@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawgammacontrol_setgammaramp.htm
 old-project: directdraw
 ms.assetid: 3bde7ba7-8498-42e5-bd5a-625e162fc1db
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method, IDirectDrawGammaControl.SetGammaRamp, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
 ms.prod: windows
 ms.technology: windows-sdk

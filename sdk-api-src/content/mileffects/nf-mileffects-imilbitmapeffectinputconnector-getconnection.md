@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinputconnector_getconnection.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\getconnection.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetConnection, GetConnection method [WPF Bitmap Effects], GetConnection method [WPF Bitmap Effects],IMILBitmapEffectInputConnector interface, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],GetConnection method, IMILBitmapEffectInputConnector.GetConnection, IMILBitmapEffectInputConnector::GetConnection, _wibe_imilbitmapeffectinputconnector_getconnection, mileffects/IMILBitmapEffectInputConnector::GetConnection, wibe._wibe_imilbitmapeffectinputconnector_getconnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
+Gets the <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the <a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMI
 
 ### -param ppConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>**</b>
 
 A pointer that receives a pointer to the associated output connector.
 

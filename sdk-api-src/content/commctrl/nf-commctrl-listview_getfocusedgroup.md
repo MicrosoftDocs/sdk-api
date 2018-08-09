@@ -7,7 +7,7 @@ old-location: controls\ListView_GetFocusedGroup.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfocusedgroup.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetFocusedGroup, ListView_GetFocusedGroup macro [Windows Controls], _shell_ListView_GetFocusedGroup, _shell_ListView_GetFocusedGroup_cpp, commctrl/ListView_GetFocusedGroup, controls.ListView_GetFocusedGroup, controls._shell_ListView_GetFocusedGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774925(v=VS.85).aspx">LVM_GETFOCUSEDGROUP</a> message explicitly. 
+Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/c1902f35-84b7-4f46-89a6-e48148f06172">LVM_GETFOCUSEDGROUP</a> message explicitly. 
 
 
 

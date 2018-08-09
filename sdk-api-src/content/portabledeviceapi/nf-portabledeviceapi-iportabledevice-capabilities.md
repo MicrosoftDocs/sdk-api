@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_capabilities.htm
 old-project: wpd_sdk
 ms.assetid: 3d44e488-1bef-4cdd-bb0b-2b8154deb19e
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Capabilities method, IPortableDevice.Capabilities, IPortableDevice::Capabilities, IPortableDeviceCapabilities, portabledeviceapi/IPortableDevice::Capabilities, wpdsdk.iportabledevice_capabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Capabilities</b> method retrieves an interface used to query the capabilities of a portable device.
+The <b>Capabilities</b> method retrieves an interface used to query the capabilities of a portable device.
       
 
 
@@ -64,8 +63,7 @@ req.product: ADAM
 
 ### -param ppCapabilities [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities</a> interface that can describe the device's capabilities. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities</a> interface that can describe the device's capabilities. The caller must release this interface when it is done with it.
           
 
 
@@ -73,8 +71,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

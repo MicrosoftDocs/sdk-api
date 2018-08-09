@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_queryrange.htm
 old-project: TSF
 ms.assetid: 84a9bf73-7215-429a-9573-66acf4d3ff18
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryRange method, ITfFnLMProcessor.QueryRange, ITfFnLMProcessor::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_queryrange_ref, ctffunc/ITfFnLMProcessor::QueryRange, tsf.itffnlmprocessor_queryrange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\iobjectids_remove_method.htm
 old-project: seccertenroll
 ms.assetid: c8b9508d-f64a-453f-a336-0da47b2ccdec
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

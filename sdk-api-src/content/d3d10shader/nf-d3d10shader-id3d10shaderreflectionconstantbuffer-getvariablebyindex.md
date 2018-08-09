@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionconstantbuffer_getvariablebyindex
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionconstantbuffer_getvariablebyindex.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetVariableByIndex, GetVariableByIndex method [Direct3D 10], GetVariableByIndex method [Direct3D 10],ID3D10ShaderReflectionConstantBuffer interface, ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10],GetVariableByIndex method, ID3D10ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex, d3d10shader/ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex, dc3115ea-2cdd-68c8-a77f-883ae86bf1a4, direct3d10.id3d10shaderreflectionconstantbuffer_getvariablebyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5b88bd75-831b-4daf-baca-d4a3c1fa5876">ID3D10ShaderReflectionVariable</a>*</b>
 
-A pointer to a shader-reflection variable interface (see <a href="https://msdn.microsoft.com/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a>).
+A pointer to a shader-reflection variable interface (see <a href="https://msdn.microsoft.com/5b88bd75-831b-4daf-baca-d4a3c1fa5876">ID3D10ShaderReflectionVariable Interface</a>).
 
 
 
@@ -81,7 +81,7 @@ A pointer to a shader-reflection variable interface (see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173836(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer Interface</a>
+<a href="https://msdn.microsoft.com/5418147a-6d9f-44fc-a9ce-f619fc389ee4">ID3D10ShaderReflectionConstantBuffer Interface</a>
  
 
  

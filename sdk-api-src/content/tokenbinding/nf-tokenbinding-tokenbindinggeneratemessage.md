@@ -4,10 +4,10 @@ title: TokenBindingGenerateMessage function
 author: windows-sdk-content
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,19 +74,14 @@ An array that contains the sizes of the corresponding token binding structures t
 The number of elements that the array in the <i>tokenBindings</i> parameter contains. This value cannot be 0.
 
 
-### -param tokenBindingMessage
+### -param tokenBindingMessage [out]
 
-TBD
+A pointer that receives the address of the buffer that is allocated for the token binding message.  Use the <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> method to free that memory.
 
 
 ### -param tokenBindingMessageSize [out]
 
 A pointer to a variable that contains the size of the buffer allocated for the <i>tokenBindingMessage</i> parameter.
-
-
-#### - tokenBindingMesssage [out]
-
-A pointer that receives the address of the buffer that is allocated for the token binding message.  Use the <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function to allocate the memory for this buffer, and the <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> method to free that memory.
 
 
 ## -returns

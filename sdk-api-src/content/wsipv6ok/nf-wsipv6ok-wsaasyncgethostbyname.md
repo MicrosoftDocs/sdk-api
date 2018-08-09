@@ -4,10 +4,10 @@ title: WSAAsyncGetHostByName macro
 author: windows-sdk-content
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,36 +63,22 @@ The
 
 
 
-### -param a
+#### - a [in]
 
-TBD
-
-
-### -param b
-
-TBD
+Handle of the window that will receive a message when the asynchronous request completes.
 
 
-### -param c
+#### - b [in]
 
-TBD
-
-
-### -param d
-
-TBD
+Message to be received when the asynchronous request completes.
 
 
-### -param e
+#### - c [in]
 
-TBD
-
-
+Pointer to the null-terminated name of the host.
 
 
-
-
-#### - buf [out]
+#### - d [out]
 
 Pointer to the data area to receive the 
 <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> data. The data area must be larger than the size of a 
@@ -101,24 +87,9 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-#### - buflen [in]
+#### - e [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
-
-
-#### - hWnd [in]
-
-Handle of the window that will receive a message when the asynchronous request completes.
-
-
-#### - name [in]
-
-Pointer to the null-terminated name of the host.
-
-
-#### - wMsg [in]
-
-Message to be received when the asynchronous request completes.
 
 
 ## -remarks
@@ -136,13 +107,13 @@ On successful completion, the buffer specified to the original function call con
 <b>hostent</b> structure pointer and accessed as appropriate.
 
 If the error code is 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a>, the size of the buffer specified by <i>buflen</i> in the original call was too small to contain all the resulting information. In this case, the low 16 bits of <i>lParam</i> contain the size of buffer required to supply all the requisite information. If the application decides that the partial data is inadequate, it can reissue the 
+<a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a>, the size of the buffer specified by <i>buflen</i> in the original call was too small to contain all the resulting information. In this case, the low 16 bits of <i>lParam</i> contain the size of buffer required to supply all the requisite information. If the application decides that the partial data is inadequate, it can reissue the 
 <b>WSAAsyncGetHostByName</b> function call with a buffer large enough to receive all the desired information (that is, no smaller than the low 16 bits of <i>lParam</i>).
 
 The buffer specified to this function is used by Windows Sockets to construct a 
 <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure together with the contents of data areas referenced by members of the same 
 <b>hostent</b> structure. To avoid the 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a> error, the application should provide a buffer of at least MAXGETHOSTSTRUCT bytes (as defined in Winsock2.h).
+<a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a> error, the application should provide a buffer of at least MAXGETHOSTSTRUCT bytes (as defined in Winsock2.h).
 
 The error code and buffer length should be extracted from the <i>lParam</i> using the macros <b>WSAGETASYNCERROR</b> and <b>WSAGETASYNCBUFLEN</b>, defined in Winsock2.h as:
 

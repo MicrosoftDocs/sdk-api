@@ -7,7 +7,7 @@ old-location: shell\syncmgr_syncmgrhandlerinfo.htm
 old-project: shell
 ms.assetid: 8640796c-e5d0-48c8-b82b-7a153201e7de
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO structure pointer [Windows Shell], SYNCMGRHANDLERINFO, SYNCMGRHANDLERINFO structure [Windows Shell], _tagSYNCMGRHANDLERINFO, mobsync/LPSYNCMGRHANDLERINFO, mobsync/SYNCMGRHANDLERINFO, shell.syncmgr_syncmgrhandlerinfo, syncmgr.syncmgrhandlerinfo"
 ms.prod: windows
 ms.technology: windows-sdk

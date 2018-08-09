@@ -7,7 +7,7 @@ old-location: shell\SHGetKnownFolderPath.htm
 old-project: shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. 
 
 Type: <b>PWSTR*</b>
 
-When this method returns, contains the address of a pointer to a null-terminated Unicode string that specifies the path of the known folder. The calling process is responsible for freeing this resource once it is no longer needed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
+When this method returns, contains the address of a pointer to a null-terminated Unicode string that specifies the path of the known folder. The calling process is responsible for freeing this resource once it is no longer needed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\\".
 
 
 ## -returns

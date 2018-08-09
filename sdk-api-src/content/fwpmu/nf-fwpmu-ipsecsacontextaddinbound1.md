@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextaddinbound1.htm
 old-project: fwp
 ms.assetid: a6717ff9-41f9-4cbc-9493-b9d80a137571
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaContextAddInbound1, IPsecSaContextAddInbound1 function [Filtering], fwp.ipsecsacontextaddinbound1, fwpmu/IPsecSaContextAddInbound1
 ms.prod: windows
 ms.technology: windows-sdk

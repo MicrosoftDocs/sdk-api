@@ -7,7 +7,7 @@ old-location: nwifi\ienumdot11adhocnetworks_clone.htm
 old-project: nativewifi
 ms.assetid: 595829c6-ca87-4a69-8d09-a398b5cd9f34
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocNetworks interface, IEnumDot11AdHocNetworks interface [NativeWIFI],Clone method, IEnumDot11AdHocNetworks.Clone, IEnumDot11AdHocNetworks::Clone, adhoc/IEnumDot11AdHocNetworks::Clone, nwifi.ienumdot11adhocnetworks_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,10 +60,7 @@ Creates a new enumeration interface.
 
 ### -param ppEnum [out]
 
-A pointer to a variable that, on successful return, points to an <a href="https://msdn.microsoft.com/5818e921-86bc-4f96-9ecd-3cb9c9a1a488">IEnumDot11AdHocNetworks</a>
-  
-  
-  interface.   
+A pointer to a variable that, on successful return, points to an <a href="https://msdn.microsoft.com/5818e921-86bc-4f96-9ecd-3cb9c9a1a488">IEnumDot11AdHocNetworks</a>interface.   
 
 
 ## -returns

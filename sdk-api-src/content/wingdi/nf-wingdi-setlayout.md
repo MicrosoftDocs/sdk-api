@@ -7,7 +7,7 @@ old-location: gdi\setlayout.htm
 old-project: gdi
 ms.assetid: 81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LAYOUT_BITMAPORIENTATIONPRESERVED, LAYOUT_RTL, SetLayout, SetLayout function [Windows GDI], _win32_SetLayout, gdi.setlayout, wingdi/SetLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>SetLayout</b> function changes the layout of a device context (DC).
 A handle to the DC.
 
 
-### -param l
-
-TBD
-
-
-
-
-#### - dwLayout [in]
+### -param l [in]
 
 The DC layout. This parameter can be one or more of the following values.
 
@@ -166,7 +159,7 @@ Once the LAYOUT_RTL flag is selected, flags normally specifying right or left ar
 
 <b>SetLayout</b> cannot modify drawing directly into the bits of a DIB.
 
-For more information, see "Window Layout and Mirroring" in <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Window Features</a>.
+For more information, see "Window Layout and Mirroring" in <a href="_win32_Window_Features_cpp">Window Features</a>.
 
 
 

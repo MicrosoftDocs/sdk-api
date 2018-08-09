@@ -7,7 +7,7 @@ old-location: mf\imfshutdown_getshutdownstatus.htm
 old-project: medfound
 ms.assetid: 8cf5f5f3-a3ad-4745-87e8-764ed118477a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 8cf5f5f3-a3ad-4745-87e8-764ed118477a, GetShutdownStatus, GetShutdownStatus method [Media Foundation], GetShutdownStatus method [Media Foundation],IMFShutdown interface, IMFShutdown interface [Media Foundation],GetShutdownStatus method, IMFShutdown.GetShutdownStatus, IMFShutdown::GetShutdownStatus, mf.imfshutdown_getshutdownstatus, mfidl/IMFShutdown::GetShutdownStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Queries the status of an earlier call to the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">IMFShutdown::Shutdown</a> method.
+Queries the status of an earlier call to the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">IMFShutdown::Shutdown</a> method.
         
 
 
@@ -64,8 +63,7 @@ req.product: GDI+ 1.1
 
 ### -param pStatus [out]
 
-
-            Receives a member of the <a href="https://msdn.microsoft.com/a2257260-3f2c-4c6b-88cc-b8927b899782">MFSHUTDOWN_STATUS</a> enumeration.
+Receives a member of the <a href="https://msdn.microsoft.com/a2257260-3f2c-4c6b-88cc-b8927b899782">MFSHUTDOWN_STATUS</a> enumeration.
           
 
 
@@ -73,8 +71,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -89,8 +86,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -113,8 +109,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-
-                The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has not been called on this object.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has not been called on this object.
               
 
 </td>

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7.htm
 old-project: directdraw
 ms.assetid: 1a1164fe-00c2-4469-8346-f86f7f48781e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], IDirectDraw7 interface [DirectDraw],described, ddraw/IDirectDraw7, directdraw.idirectdraw7
 ms.prod: windows
 ms.technology: windows-sdk

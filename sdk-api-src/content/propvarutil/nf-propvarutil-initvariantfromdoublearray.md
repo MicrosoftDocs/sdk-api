@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromDoubleArray.htm
 old-project: properties
 ms.assetid: 781b6999-4551-499d-ba37-0a7e05fc6eab
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromDoubleArray, InitVariantFromDoubleArray function [Windows Properties], _shell_InitVariantFromDoubleArray, properties.InitVariantFromDoubleArray, propvarutil/InitVariantFromDoubleArray, shell.InitVariantFromDoubleArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_R8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762322(v=VS.85).aspx">InitVariantFromDoubleArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
+<a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
+<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a>
+<a href="shell.VariantToDoubleArray">VariantToDoubleArray</a>
  
 
  

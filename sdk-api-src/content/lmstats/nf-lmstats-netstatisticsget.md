@@ -4,10 +4,10 @@ title: NetStatisticsGet function
 author: windows-sdk-content
 description: Retrieves operating statistics for a service. Currently, only the workstation and server services are supported.
 old-location: fs\netstatisticsget.htm
-old-project: NetShare
+old-project: netshare
 ms.assetid: d0e51d8a-2f54-42ca-9759-0da82c1f0f55
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,42 +59,17 @@ Retrieves operating statistics for a service. Currently, only the workstation an
 
 
 
-### -param ServerName
+### -param ServerName [in]
 
-TBD
-
-
-### -param Service
-
-TBD
+Pointer to a string that specifies the DNS or NetBIOS name of the server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
-### -param Level
+### -param Service [in]
 
-TBD
-
-
-### -param Options
-
-TBD
+Pointer to a string that specifies the name of the service about which to get the statistics. Only the values <b>SERVICE_SERVER</b> and <b>SERVICE_WORKSTATION</b> are currently allowed.
 
 
-### -param Buffer
-
-TBD
-
-
-
-
-#### - bufptr [out]
-
-Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
-
-
-#### - level [in]
+### -param Level [in]
 
 Specifies the information level of the data. This parameter can be the following value. 
 
@@ -121,19 +96,17 @@ Return statistics about a workstation or a server. The <i>bufptr</i> parameter p
  
 
 
-#### - options [in]
+### -param Options [in]
 
 This parameter must be zero.
 
 
-#### - server [in]
+### -param Buffer [out]
 
-Pointer to a string that specifies the DNS or NetBIOS name of the server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - service [in]
-
-Pointer to a string that specifies the name of the service about which to get the statistics. Only the values <b>SERVICE_SERVER</b> and <b>SERVICE_WORKSTATION</b> are currently allowed.
+Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
+<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
+<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
 
 
 ## -returns

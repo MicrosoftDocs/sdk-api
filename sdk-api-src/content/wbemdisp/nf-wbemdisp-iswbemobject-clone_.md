@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_clone_.htm
 old-project: WmiSdk
 ms.assetid: d0773c94-30b5-4217-8a9a-0bceb9e75f02
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Clone_, Clone_ method [Windows Management Instrumentation], Clone_ method [Windows Management Instrumentation],ISWbemObject interface, Clone_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],Clone_ method, ISWbemObject.Clone_, ISWbemObject::Clone_, SWbemObject object [Windows Management Instrumentation],Clone_ method, SWbemObject.Clone_, _hmm_swbemobject.clone_, wmi.swbemobject_clone_
 ms.prod: windows
 ms.technology: windows-sdk

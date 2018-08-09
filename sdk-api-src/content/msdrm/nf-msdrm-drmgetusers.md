@@ -7,7 +7,7 @@ old-location: rm\drmgetusers.htm
 old-project: adrms_sdk
 ms.assetid: 4c8c8249-2e90-4eea-9a3b-dd7d9970ba98
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetUsers, DRMGetUsers function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsers, rm.drmgetusers
 ms.prod: windows
 ms.technology: windows-sdk

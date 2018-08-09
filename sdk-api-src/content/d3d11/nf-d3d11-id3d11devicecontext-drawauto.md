@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_drawauto.htm
 old-project: direct3d11
 ms.assetid: 34688e87-514f-4f85-b56b-e0245400a5ac
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DrawAuto, DrawAuto method [Direct3D 11], DrawAuto method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawAuto method, ID3D11DeviceContext.DrawAuto, ID3D11DeviceContext::DrawAuto, d3d11/ID3D11DeviceContext::DrawAuto, d5e26d9c-e682-ea81-70bc-d35792e62157, direct3d11.id3d11devicecontext_drawauto
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ After data has been streamed out to stream-output stage buffers, those buffers c
 
 The following diagram shows the DrawAuto process.
 
-<img alt="Diagram of DrawAuto as data moves through several stages to a buffer and then back to the Input Assembler stage" src="./images/d3d11_pipeline_stages_drawauto.png"/>
+<img alt="Diagram of DrawAuto as data moves through several stages to a buffer and then back to the Input Assembler stage" src="images/d3d11_pipeline_stages_drawauto.png"/>
 
 Calling DrawAuto does not change the state of the streaming-output buffers that were bound again as inputs.
 

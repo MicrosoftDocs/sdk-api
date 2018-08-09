@@ -7,7 +7,7 @@ old-location: com\ipicture_set_hpal.htm
 old-project: com
 ms.assetid: c20b9efd-cf85-4ee1-890b-35fde0226982
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IPicture interface [COM],set_hPal method, IPicture.set_hPal, IPicture::set_hPal, _ctrl_ipicture_set_hpal, com.ipicture_set_hpal, ocidl/IPicture::set_hPal, set_hPal, set_hPal method [COM], set_hPal method [COM],IPicture interface
 ms.prod: windows
 ms.technology: windows-sdk

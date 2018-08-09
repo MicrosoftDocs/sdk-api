@@ -7,7 +7,7 @@ old-location: appxpkg\package_id.htm
 old-project: appxpkg
 ms.assetid: 4B15281A-2227-47B7-A750-0A01DB8543FC
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: PACKAGE_ID, PACKAGE_ID structure [App packaging and management], appmodel/PACKAGE_IDW, appxpkg.package_id
 ms.prod: windows
 ms.technology: windows-sdk

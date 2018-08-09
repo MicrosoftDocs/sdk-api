@@ -7,7 +7,7 @@ old-location: gdi\settextalign.htm
 old-project: gdi
 ms.assetid: 422868c5-14c9-4374-9cc5-b7bf91ab9eb4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetTextAlign, SetTextAlign function [Windows GDI], TA_BASELINE, TA_BOTTOM, TA_CENTER, TA_LEFT, TA_NOUPDATECP, TA_RIGHT, TA_RTLREADING, TA_TOP, TA_UPDATECP, VTA_BASELINE, VTA_CENTER, _win32_SetTextAlign, gdi.settextalign, wingdi/SetTextAlign
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>SetTextAlign</b> function sets the text-alignment flags for the specified
 A handle to the device context.
 
 
-### -param align
-
-TBD
-
-
-
-
-#### - fMode [in]
+### -param align [in]
 
 The text alignment by using a mask of the values in the following list. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
 

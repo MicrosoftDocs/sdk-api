@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptioninfov5.htm
 old-project: dhcp
 ms.assetid: bf7b744d-da02-4c2f-b29a-e2b9b3fe3881
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfoV5 function [DHCP], dhcp.dhcpgetoptioninfov5, dhcpsapi/DhcpGetOptionInfoV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetOptionInfoV5</b> function returns information on a specific DHCP option.
+The <b>DhcpGetOptionInfoV5</b> function returns information on a specific DHCP option.
 
 
 ## -parameters
@@ -201,8 +200,7 @@ The specified DHCP client is not a reserved client. o
 
 
 
-<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">
-        DHCP_OPTION</a>
+<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a>
 
 
 

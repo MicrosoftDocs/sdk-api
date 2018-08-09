@@ -7,7 +7,7 @@ old-location: http\httpcloserequestqueue.htm
 old-project: http
 ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The application must close the request queue when it is no longer required.
 
 
 
-### -param RequestQueueHandle
-
-TBD
-
-
-
-
-#### - ReqQueueHandle [in]
+### -param RequestQueueHandle [in]
 
 The handle to the request queue that is closed. A request queue is created and its handle returned by a call to the 
 <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.

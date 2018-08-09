@@ -7,7 +7,7 @@ old-location: mib\mib_ipnetrow.htm
 old-project: mib
 ms.assetid: aa9aa9f9-2334-4b08-896f-f4a77caa0f7f
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPNETROW, *PMIB_IPNETROW_LH, MIB_IPNETROW, MIB_IPNETROW structure [MIB], MIB_IPNETROW_LH, MIB_IPNET_TYPE_DYNAMIC, MIB_IPNET_TYPE_INVALID, MIB_IPNET_TYPE_OTHER, MIB_IPNET_TYPE_STATIC, PMIB_IPNETROW, PMIB_IPNETROW structure pointer [MIB], _MIB_IPNETROW_LH, _mpr_mib_ipnetrow, ipmib/MIB_IPNETROW, ipmib/PMIB_IPNETROW, iprtrmib/MIB_IPNETROW, iprtrmib/PMIB_IPNETROW, mib.mib_ipnetrow, rras.mib_ipnetrow"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -171,11 +171,11 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365866(v=VS.85).aspx">CreateIpNetEntry</a>
+<a href="_iphlp_createipnetentry">CreateIpNetEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365882(v=VS.85).aspx">DeleteIpNetEntry</a>
+<a href="_iphlp_deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
@@ -183,7 +183,7 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa366365(v=VS.85).aspx">SetIpNetEntry</a>
+<a href="_iphlp_setipnetentry">SetIpNetEntry</a>
  
 
  

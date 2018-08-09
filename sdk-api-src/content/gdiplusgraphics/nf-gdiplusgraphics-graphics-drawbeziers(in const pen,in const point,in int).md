@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBeziers_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziersmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: DrawBeziers, DrawBeziers methods [GDI+], Graphics.DrawBeziers, Graphics.DrawBeziers(IN const Pen,IN const Point,IN INT), Graphics::DrawBeziers, Graphics::DrawBeziers(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawBeziers_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawBeziers_Methods, gdiplusgraphics/DrawBeziers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,19 @@ DrawBeziers methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536146(v=VS.85).aspx">DrawBeziers(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/0c17b9b9-48da-44ac-b4de-38c08c24a740">DrawBeziers(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536146(v=VS.85).aspx">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
+The <a href="https://msdn.microsoft.com/0c17b9b9-48da-44ac-b4de-38c08c24a740">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536147(v=VS.85).aspx">DrawBeziers(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/3a0f5b23-24bb-4255-a6fe-30cfb701350a">DrawBeziers(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536147(v=VS.85).aspx">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
+The <a href="https://msdn.microsoft.com/3a0f5b23-24bb-4255-a6fe-30cfb701350a">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
 
 </td>
 </tr>

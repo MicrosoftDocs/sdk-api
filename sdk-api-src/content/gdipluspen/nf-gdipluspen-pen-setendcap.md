@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetEndCap_endCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setendcap.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Pen class [GDI+],SetEndCap method, Pen.SetEndCap, Pen::SetEndCap, SetEndCap, SetEndCap method [GDI+], SetEndCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetEndCap_endCap_, gdiplus._gdiplus_CLASS_Pen_SetEndCap_endCap_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::SetEndCap</b> method sets the end cap for this 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>Pen::SetEndCap</b> method sets the end cap for this
 
 ### -param endCap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a> enumeration that specifies the end cap of a line. 
+Element of the <a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a> enumeration that specifies the end cap of a line. 
 
 
 ## -returns
@@ -88,31 +88,31 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533852(v=VS.85).aspx">Drawing a Line with Line Caps</a>
+<a href="https://msdn.microsoft.com/c9d90114-3913-486c-a808-b08dd473d9a1">Drawing a Line with Line Caps</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a>
+<a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535029(v=VS.85).aspx">Pen::GetEndCap</a>
+<a href="https://msdn.microsoft.com/ba247773-7e9f-4130-a14c-42c3153e4da5">Pen::GetEndCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535034(v=VS.85).aspx">Pen::GetStartCap</a>
+<a href="https://msdn.microsoft.com/4024524a-f139-4ec5-8788-b071658b8374">Pen::GetStartCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535052(v=VS.85).aspx">Pen::SetLineCap</a>
+<a href="https://msdn.microsoft.com/2e52ce66-a567-42b9-ae47-2957ac3e0723">Pen::SetLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclientinfov4.htm
 old-project: dhcp
 ms.assetid: 0657e107-bf3d-4bcd-88a1-84a6cd7f934d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpCreateClientInfoV4, DhcpCreateClientInfoV4 function [DHCP], dhcp.dhcpcreateclientinfov4, dhcpsapi/DhcpCreateClientInfoV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpCreateClientInfoV4</b> function creates a client information record on the DHCP server, extending the functionality of <a href="https://msdn.microsoft.com/121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b">DhcpCreateClientInfo</a> by including the client type (DHCP or BOOTP) in the record.
+The <b>DhcpCreateClientInfoV4</b> function creates a client information record on the DHCP server, extending the functionality of <a href="https://msdn.microsoft.com/121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b">DhcpCreateClientInfo</a> by including the client type (DHCP or BOOTP) in the record.
 
 
 ## -parameters

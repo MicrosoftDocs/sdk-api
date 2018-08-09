@@ -7,7 +7,7 @@ old-location: display\engdeviceiocontrol.htm
 old-project: display
 ms.assetid: a38186b6-4b27-4360-8721-49c95dd94806
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngDeviceIoControl, EngDeviceIoControl function [Display Devices], display.engdeviceiocontrol, gdifncs_735d205a-99e3-4397-a5ac-31312ac734e7.xml, winddi/EngDeviceIoControl
 ms.prod: windows
 ms.technology: windows-sdk

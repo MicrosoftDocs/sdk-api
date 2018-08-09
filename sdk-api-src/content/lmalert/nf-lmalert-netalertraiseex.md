@@ -7,7 +7,7 @@ old-location: netmgmt\netalertraiseex.htm
 old-project: netmgmt
 ms.assetid: 9762f0d6-0022-4e05-b2d8-6223d7bbb2c8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaiseEx, NetAlertRaiseEx function [Network Management], _win32_netalertraiseex, lmalert/NetAlertRaiseEx, netmgmt.netalertraiseex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,37 +64,7 @@ The
 
 
 
-### -param AlertType
-
-TBD
-
-
-### -param VariableInfo [in]
-
-A pointer to the data to send to the clients listening for the interrupting message. The data should consist of one 
-<a href="https://msdn.microsoft.com/43119dcf-7d04-4e3b-b1dc-20e814fbdc2f">ADMIN_OTHER_INFO</a>, 
-<a href="https://msdn.microsoft.com/832ebe88-e1c4-4ce3-8057-922419b577f7">ERRLOG_OTHER_INFO</a>, 
-<a href="https://msdn.microsoft.com/f2fd87bc-abde-43c0-b29d-d43cc5f038b8">PRINT_OTHER_INFO</a>, or 
-<a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a> structure followed by any required variable-length information. For more information, see the code sample in the following Remarks section. 
-
-
-
-
-The calling application must allocate and free the memory for all structures and variable data. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
-
-
-### -param VariableInfoSize [in]
-
-The number of bytes of variable information in the buffer pointed to by the <i>VariableInfo</i> parameter.
-
-
-### -param ServiceName [in]
-
-A pointer to a constant string that specifies the name of the service raising the interrupting message.
-
-
-#### - AlertEventName [in]
+### -param AlertType [in]
 
 A pointer to a constant string that specifies the alert class (type of alert) to raise. This parameter can be one of the following predefined values, or a user-defined alert class for network applications. (The event name for an alert can be any text string.) 
 
@@ -157,6 +127,31 @@ An application or resource was used.
 </tr>
 </table>
  
+
+
+### -param VariableInfo [in]
+
+A pointer to the data to send to the clients listening for the interrupting message. The data should consist of one 
+<a href="https://msdn.microsoft.com/43119dcf-7d04-4e3b-b1dc-20e814fbdc2f">ADMIN_OTHER_INFO</a>, 
+<a href="https://msdn.microsoft.com/832ebe88-e1c4-4ce3-8057-922419b577f7">ERRLOG_OTHER_INFO</a>, 
+<a href="https://msdn.microsoft.com/f2fd87bc-abde-43c0-b29d-d43cc5f038b8">PRINT_OTHER_INFO</a>, or 
+<a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a> structure followed by any required variable-length information. For more information, see the code sample in the following Remarks section. 
+
+
+
+
+The calling application must allocate and free the memory for all structures and variable data. For more information, see 
+<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+
+
+### -param VariableInfoSize [in]
+
+The number of bytes of variable information in the buffer pointed to by the <i>VariableInfo</i> parameter.
+
+
+### -param ServiceName [in]
+
+A pointer to a constant string that specifies the name of the service raising the interrupting message.
 
 
 ## -returns

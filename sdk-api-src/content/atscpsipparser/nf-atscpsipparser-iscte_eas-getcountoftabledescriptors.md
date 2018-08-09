@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: 1d6cae55-233f-49e0-8ced-9dd21b0aa32b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetCountOfTableDescriptors</b> method returns the number of descriptors i
 
 ### -param pdwVal [out]
 
-
-            Receives the number of descriptors.
+Receives the number of descriptors.
           
 
 

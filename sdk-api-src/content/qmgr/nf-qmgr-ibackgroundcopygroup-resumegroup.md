@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup_resumegroup.htm
 old-project: bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],ResumeGroup method, IBackgroundCopyGroup.ResumeGroup, IBackgroundCopyGroup::ResumeGroup, ResumeGroup, ResumeGroup method [BITS], ResumeGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_resumegroup, qmgr/IBackgroundCopyGroup::ResumeGroup
 ms.prod: windows
 ms.technology: windows-sdk

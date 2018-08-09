@@ -4,10 +4,10 @@ title: GradientMeshPatchFromCoonsPatch function
 author: windows-sdk-content
 description: Creates a D2D1_GRADIENT_MESH_PATCH from a given Coons patch description.
 old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -217,7 +217,7 @@ Returns the created <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-
 
 The following image shows the numbering of control points in a Coons patch.
 
-<img alt="Numbering of control points in a Coons patch" src="./images/coonspatch.png"/>
+<img alt="Numbering of control points in a Coons patch" src="images/coonspatch.png"/>
 
 
 

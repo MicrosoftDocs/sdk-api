@@ -7,7 +7,7 @@ old-location: fwp\ikeext_statistics1.htm
 old-project: fwp
 ms.assetid: 73c36ea1-d009-4724-8b1c-54503ad57e4d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_STATISTICS1, IKEEXT_STATISTICS1 structure [Filtering], IKEEXT_STATISTICS1_, fwp.ikeext_statistics1, iketypes/IKEEXT_STATISTICS1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <a href="https://msdn.microsoft.com/aefacc39-92a5-4d73-ac3c-0b5bf1407a90">IKEEXT_STATISTICS1</a> structure stores various IKE, AuthIP, and IKEv2 statistics.
+The <a href="https://msdn.microsoft.com/aefacc39-92a5-4d73-ac3c-0b5bf1407a90">IKEEXT_STATISTICS1</a> structure stores various IKE, AuthIP, and IKEv2 statistics.
 <div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/aefacc39-92a5-4d73-ac3c-0b5bf1407a90">IKEEXT_STATISTICS1</a> is the specific implementation of IKEEXT_STATISTICS used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <b>IKEEXT_STATISTICS0</b> is available.</div><div> </div>
 
 ## -struct-fields

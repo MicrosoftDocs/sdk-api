@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_collectionmode.htm
 old-project: tablet
 ms.assetid: 390fa1a1-254a-4070-806c-c8c478f69254
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 390fa1a1-254a-4070-806c-c8c478f69254, CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],CollectionMode property, IInkCollector.CollectionMode, IInkCollector.put_CollectionMode, IInkCollector::CollectionMode, IInkCollector::get_CollectionMode, IInkCollector::put_CollectionMode, InkCollector.get_CollectionMode, InkCollector.put_CollectionMode, get_CollectionMode, msinkaut/IInkCollector::CollectionMode, msinkaut/IInkCollector::get_CollectionMode, msinkaut/IInkCollector::put_CollectionMode, put_CollectionMode, tablet.inkcollector_collectionmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ When <b>CollectionMode</b> is set to <a href="https://msdn.microsoft.com/41928d0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="tablet.iinkcollector">IInkCollector</a>
 
 
 

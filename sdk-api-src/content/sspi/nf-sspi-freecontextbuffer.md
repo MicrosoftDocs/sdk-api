@@ -4,10 +4,10 @@ title: FreeContextBuffer function
 author: windows-sdk-content
 description: Enables callers of security package functions to free memory buffers allocated by the security package.
 old-location: security\freecontextbuffer.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # FreeContextBuffer function
@@ -90,7 +91,7 @@ The <b>FreeContextBuffer</b> function can free any memory allocated by a securit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

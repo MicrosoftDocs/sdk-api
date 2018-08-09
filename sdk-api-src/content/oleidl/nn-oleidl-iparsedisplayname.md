@@ -7,7 +7,7 @@ old-location: com\iparsedisplayname.htm
 old-project: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Display name parsing is necessary when the end user inputs a string to identify 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseDisplayName</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IParseDisplayName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseDisplayName</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IParseDisplayName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

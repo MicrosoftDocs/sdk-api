@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_skip.htm
 old-project: wpd_sdk
 ms.assetid: a55b9ccc-8d6b-49e6-af3d-ad7915aa3abd
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Skip method, IEnumPortableDeviceObjectIDs.Skip, IEnumPortableDeviceObjectIDs::Skip, IEnumPortableDeviceObjectIDsSkip, Skip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Skip, wpdsdk.ienumportabledeviceobjectids_skip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Skip</b> method skips a specified number of objects in the enumeration sequence.
+The <b>Skip</b> method skips a specified number of objects in the enumeration sequence.
       
 
 
@@ -64,8 +63,7 @@ req.product: ADAM
 
 ### -param cObjects [in]
 
-
-            The number of objects to skip.
+The number of objects to skip.
           
 
 
@@ -73,8 +71,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

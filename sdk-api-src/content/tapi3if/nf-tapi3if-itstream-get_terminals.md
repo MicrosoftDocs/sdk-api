@@ -4,10 +4,10 @@ title: ITStream::get_Terminals
 author: windows-sdk-content
 description: The get_Terminals method creates a collection of terminals associated with the current stream. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateTerminals method.
 old-location: tapi3\itstream_get_terminals.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2861dbf7-fc13-4182-90e5-32347f3d1e54
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Terminals method, ITStream.get_Terminals, ITStream::get_Terminals, _tapi3_itstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITStream interface, tapi3.itstream_get_terminals, tapi3if/ITStream::get_Terminals
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,8 +122,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>ITStream::get_Terminals</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>ITStream::get_Terminals</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 

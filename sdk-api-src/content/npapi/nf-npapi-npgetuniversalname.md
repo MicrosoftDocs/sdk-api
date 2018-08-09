@@ -7,7 +7,7 @@ old-location: security\npgetuniversalname.htm
 old-project: secauthn
 ms.assetid: 976b5910-c34f-49fa-b25e-82bf607e33a9
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, _mnp_npgetuniversalname, npapi/NPGetUniversalName, security.npgetuniversalname
 ms.prod: windows
 ms.technology: windows-sdk

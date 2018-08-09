@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetHeaderTitle.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadertitle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: PropSheet_SetHeaderTitle, PropSheet_SetHeaderTitle macro [Windows Controls], _win32_PropSheet_SetHeaderTitle, _win32_PropSheet_SetHeaderTitle_cpp, controls.PropSheet_SetHeaderTitle, controls._win32_PropSheet_SetHeaderTitle, prsht/PropSheet_SetHeaderTitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the title text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774623(v=VS.85).aspx">PSM_SETHEADERTITLE</a> message explicitly.
+Sets the title text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/19d4badf-d99d-4a28-92d4-33bcf5d23944">PSM_SETHEADERTITLE</a> message explicitly.
 
 
 ## -parameters
@@ -61,38 +61,19 @@ Sets the title text for the header of a wizard's interior page. You can use this
 
 ### -param hDlg
 
-TBD
-
-
-### -param index
-
-TBD
-
-
-### -param lpszText
-
-TBD
-
-
-
-
-
-
-#### - hWizardDlg
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the wizard's window.
 
 
-#### - iPageIndex
+### -param index
 
 Type: <b>int</b>
 
 Zero-based index of the page.
 
 
-#### - pszHeaderTitle
+### -param lpszText
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 

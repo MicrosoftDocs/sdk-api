@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactManager_Initialize.htm
 old-project: wincontacts
 ms.assetid: 50e87ba0-fcf0-4b64-87f4-dfb0ff16373f
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: IContactManager interface [Windows Contacts],Initialize method, IContactManager.Initialize, IContactManager::Initialize, Initialize, Initialize method [Windows Contacts], Initialize method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Initialize, icontact/IContactManager::Initialize, wincontacts._wincontacts_IContactManager_Initialize
 ms.prod: windows
 ms.technology: windows-sdk

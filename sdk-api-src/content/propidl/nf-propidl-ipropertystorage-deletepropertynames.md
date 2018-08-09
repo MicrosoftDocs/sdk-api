@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_deletepropertynames.htm
 old-project: stg
 ms.assetid: fedeb7fb-b84a-44a4-82d8-3a365296af69
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: DeletePropertyNames, DeletePropertyNames method [Structured Storage], DeletePropertyNames method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeletePropertyNames, IPropertyStorage interface [Structured Storage],DeletePropertyNames method, IPropertyStorage.DeletePropertyNames, IPropertyStorage::DeletePropertyNames, _stg_ipropertystorage_deletepropertynames, propidl/IPropertyStorage::DeletePropertyNames, stg.ipropertystorage_deletepropertynames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>DeletePropertyNames</b> method deletes specified string names from the current property set.
+The <b>DeletePropertyNames</b> method deletes specified string names from the current property set.
 
 
 ## -parameters
@@ -74,8 +73,7 @@ Property identifiers for which string names are to be deleted.
 
 
 
-
-						This method supports the standard return value E_UNEXPECTED, in addition to the following:
+This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 
 

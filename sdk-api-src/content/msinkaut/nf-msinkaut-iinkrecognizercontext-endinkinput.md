@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_endinkinput.htm
 old-project: tablet
 ms.assetid: a384edf8-3b3d-4e0c-b39c-976798457076
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: EndInkInput, EndInkInput method [Tablet PC], EndInkInput method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],EndInkInput method, IInkRecognizerContext.EndInkInput, IInkRecognizerContext::EndInkInput, a384edf8-3b3d-4e0c-b39c-976798457076, msinkaut/IInkRecognizerContext::EndInkInput, tablet.inkrecognizercontext_endinkinput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Success.
+Success.
               
 
 </td>
@@ -95,8 +94,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Cannot allocate memory to complete the operation.
+Cannot allocate memory to complete the operation.
               
 
 </td>
@@ -108,8 +106,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                An unspecified error occurred.
+An unspecified error occurred.
               
 
 </td>
@@ -121,8 +118,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                An exception occurred inside the method.
+An exception occurred inside the method.
               
 
 </td>
@@ -151,7 +147,7 @@ Incremental recognition is the ability of the recognizer to process only a small
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
 
 
 

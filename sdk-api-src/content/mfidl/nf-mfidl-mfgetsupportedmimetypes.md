@@ -7,7 +7,7 @@ old-location: mf\mfgetsupportedmimetypes.htm
 old-project: medfound
 ms.assetid: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

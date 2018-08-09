@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_setflags.htm
 old-project: medfound
 ms.assetid: dac4f9b0-e83a-4e99-9a4a-ec1154c929a7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: IMFASFMultiplexer interface [Media Foundation],SetFlags method, IMFASFMultiplexer.SetFlags, IMFASFMultiplexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFMultiplexer interface, dac4f9b0-e83a-4e99-9a4a-ec1154c929a7, mf.imfasfmultiplexer_setflags, wmcontainer/IMFASFMultiplexer::SetFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

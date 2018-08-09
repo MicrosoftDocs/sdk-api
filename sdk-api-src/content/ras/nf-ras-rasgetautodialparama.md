@@ -7,7 +7,7 @@ old-location: rras\rasgetautodialparam.htm
 old-project: rras
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasGetAutodialParam, RasGetAutodialParam function [RAS], RasGetAutodialParamA, RasGetAutodialParamW, _ras_rasgetautodialparam, ras/RasGetAutodialParam, ras/RasGetAutodialParamA, ras/RasGetAutodialParamW, rras.rasgetautodialparam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ TBD
 
 
 
-#### - dwKey [in]
+#### - [in]
 
 Specifies the AutoDial parameter to retrieve. This parameter can be one of the following values. 
 
@@ -135,6 +135,11 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
  
 
 
+#### - lpvValue [out]
+
+Pointer to a buffer that receives the value for the specified parameter.
+
+
 #### - lpdwcbValue [in, out]
 
 Pointer to a <b>DWORD</b> value. 
@@ -145,11 +150,6 @@ Pointer to a <b>DWORD</b> value.
 On input, set this value to indicate the size, in bytes, of the <i>lpvValue</i> buffer.
 
 On output, this value indicates the actual size of the value written to the buffer.
-
-
-#### - lpvValue [out]
-
-Pointer to a buffer that receives the value for the specified parameter.
 
 
 ## -returns

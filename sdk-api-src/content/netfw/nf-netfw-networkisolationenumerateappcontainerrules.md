@@ -7,7 +7,7 @@ old-location: ics\networkisolationenumerateappcontainerrules.htm
 old-project: ics
 ms.assetid: 53c9cd2c-06da-41ba-bbd8-bd695fb7fabf
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: NetworkIsolationEnumerateAppContainerRules, NetworkIsolationEnumerateAppContainerRules function [ICS/ICF], ics.networkisolationenumerateappcontainerrules, netfw/NetworkIsolationEnumerateAppContainerRules
 ms.prod: windows
 ms.technology: windows-sdk

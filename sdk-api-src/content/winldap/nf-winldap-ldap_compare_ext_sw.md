@@ -4,10 +4,10 @@ title: ldap_compare_ext_sW function
 author: windows-sdk-content
 description: Use the ldap_compare_ext_s function to determine if an attribute, for a given entry, holds a known value.
 old-location: ldap\ldap_compare_ext_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: b22568b1-5043-422e-9c4e-cc51cc77d143
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_compare_ext_s, ldap.ldap__compare__ext__s, ldap.ldap_compare_ext_s, ldap_compare_ext_s, ldap_compare_ext_s function [LDAP], ldap_compare_ext_sA, ldap_compare_ext_sW, winldap/ldap_compare_ext_s, winldap/ldap_compare_ext_sA, winldap/ldap_compare_ext_sW"
 ms.prod: windows
 ms.technology: windows-sdk

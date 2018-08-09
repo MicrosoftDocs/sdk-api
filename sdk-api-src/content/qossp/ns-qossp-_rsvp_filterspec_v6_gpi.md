@@ -7,7 +7,7 @@ old-location: qos\rsvp_filterspec_v6_gpi.htm
 old-project: qos
 ms.assetid: ede040f4-4858-42d8-a4b5-af6e79c036d7
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPRSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI structure [QOS], RSVP_FILTERSPEC_V6_GPI, RSVP_FILTERSPEC_V6_GPI structure [QOS], _RSVP_FILTERSPEC_V6_GPI, qos.rsvp_filterspec_v6_gpi, qossp/*LPRSVP_FILTERSPEC_V6_GPI, qossp/RSVP_FILTERSPEC_V6_GPI"
 ms.prod: windows
 ms.technology: windows-sdk

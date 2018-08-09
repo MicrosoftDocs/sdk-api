@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionList_GetAt.htm
 old-project: properties
 ms.assetid: ab4967b8-6650-49fa-b6d5-d72688b080db
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetAt method, IPropertyDescriptionList.GetAt, IPropertyDescriptionList::GetAt, _shell_IPropertyDescriptionList_GetAt, properties.IPropertyDescriptionList_GetAt, propsys/IPropertyDescriptionList::GetAt, shell.IPropertyDescriptionList_GetAt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The number of the property in the list string.
 
 Type: <b>REFIID</b>
 
-
-          A reference to the IID of the requested property description interface, typically IID_IPropertyDescription.
+A reference to the IID of the requested property description interface, typically IID_IPropertyDescription.
         
 
 
@@ -79,8 +78,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-          When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="shell.IPropertyDescription">IPropertyDescription</a>.
         
 
 
@@ -99,8 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, eliminating the possibility of a coding error.
+It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, eliminating the possibility of a coding error.
       
 
 

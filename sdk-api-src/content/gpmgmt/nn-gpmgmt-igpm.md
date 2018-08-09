@@ -4,10 +4,10 @@ title: IGPM
 author: windows-sdk-content
 description: The IGPM interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 old-location: gpmc\igpm.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 2780760e-7114-46b0-a264-00ed58a556cb
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,12 +56,12 @@ The
 <b>IGPM</b> interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 
 The <b>GPM</b> object is the only object used with 
-the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function.
+the <a href="_com_cocreateinstance">CoCreateInstance</a> function.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPM</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPM</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPM</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IGPM</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -205,7 +205,7 @@ Sets the location of .adm files that are specified by the user, and initiates re
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

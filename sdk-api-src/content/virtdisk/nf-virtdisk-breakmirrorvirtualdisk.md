@@ -7,7 +7,7 @@ old-location: vhd\breakmirrorvirtualdisk.htm
 old-project: VStor
 ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk

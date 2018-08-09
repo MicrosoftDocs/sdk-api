@@ -7,7 +7,7 @@ old-location: mf\mftregister.htm
 old-project: medfound
 ms.assetid: fb3a2b67-d3e4-4d5f-960a-3979f4780904
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFTRegister, MFTRegister function [Media Foundation], MFT_CODEC_MERIT_Attribute, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE, MFT_ENUM_FLAG_HARDWARE, MFT_ENUM_FLAG_SYNCMFT, MFT_ENUM_FLAG_TRANSCODE_ONLY, fb3a2b67-d3e4-4d5f-960a-3979f4780904, mf.mftregister, mfapi/MFTRegister
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Adds information about a Media Foundation transform (MFT) to the registry.
+Adds information about a Media Foundation transform (MFT) to the registry.
         
 
 Applications can enumerate the MFT by calling the <a href="https://msdn.microsoft.com/a3bd2b3c-0b0b-4d64-99cc-6093c773f71c">MFTEnum</a> or <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> function.
@@ -65,28 +64,24 @@ Applications can enumerate the MFT by calling the <a href="https://msdn.microsof
 
 ### -param clsidMFT [in]
 
-
-            The CLSID of the MFT.
+The CLSID of the MFT.
           The MFT must also be registered as a COM object using the same CLSID.
 
 
 ### -param guidCategory [in]
 
-
-            GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
+GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
           
 
 
 ### -param pszName [in]
 
-
-            Wide-character string that contains the friendly name of the MFT.
+Wide-character string that contains the friendly name of the MFT.
 
 
 ### -param Flags [in]
 
-
-            Bitwise <b>OR</b> of zero or more of the following flags from the <a href="https://msdn.microsoft.com/ba39fb66-d8b6-49c1-8312-18ebdcb012c9">_MFT_ENUM_FLAG</a>  enumeration:
+Bitwise <b>OR</b> of zero or more of the following flags from the <a href="https://msdn.microsoft.com/ba39fb66-d8b6-49c1-8312-18ebdcb012c9">_MFT_ENUM_FLAG</a>  enumeration:
 
 <table>
 <tr>
@@ -163,8 +158,7 @@ Prior to Windows 7, the <i>Flags</i> parameter was reserved.
 
 ### -param cInputTypes [in]
 
-
-            Number of elements in the <i>pInputTypes</i> array.
+Number of elements in the <i>pInputTypes</i> array.
           
 
 
@@ -177,8 +171,7 @@ This parameter can be <b>NULL</b>. However, if the parameter is <b>NULL</b>, the
 
 ### -param cOutputTypes [in]
 
-
-            Number of elements in the <i>pOutputTypes</i> array.
+Number of elements in the <i>pOutputTypes</i> array.
           
 
 
@@ -228,8 +221,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The registry entries created by this function are read by the following functions: 
+The registry entries created by this function are read by the following functions: 
 
 <table>
 <tr>
@@ -260,12 +252,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 This function does not register the CLSID of the MFT for the <b>CoCreateInstance</b> or <b>CoGetClassObject</b> functions.
       
 
-
-        To remove the entries from the registry, call <a href="https://msdn.microsoft.com/2e63a098-5b83-4ea9-8149-4972f8ed0944">MFTUnregister</a>.
+To remove the entries from the registry, call <a href="https://msdn.microsoft.com/2e63a098-5b83-4ea9-8149-4972f8ed0944">MFTUnregister</a>.
       If you remove an MFT from the system, you should always call <b>MFTUnregister</b>.
 
-
-        The formats given in the <i>pInputTypes</i> and <i>pOutputTypes</i> parameters are intended to help applications search for MFTs by format. Applications can use the <a href="https://msdn.microsoft.com/a3bd2b3c-0b0b-4d64-99cc-6093c773f71c">MFTEnum</a> or <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> functions to enumerate MFTs that match a particular set of formats.
+The formats given in the <i>pInputTypes</i> and <i>pOutputTypes</i> parameters are intended to help applications search for MFTs by format. Applications can use the <a href="https://msdn.microsoft.com/a3bd2b3c-0b0b-4d64-99cc-6093c773f71c">MFTEnum</a> or <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> functions to enumerate MFTs that match a particular set of formats.
 
 It is recommended 
         to specify at least one input type in <i>pInputTypes</i> and one output type in the <i>pOutputTypes</i> parameter. Otherwise, the MFT might be skipped in the enumeration.

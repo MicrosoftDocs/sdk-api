@@ -7,7 +7,7 @@ old-location: display\floatobj_div.htm
 old-project: display
 ms.assetid: 110473d8-712a-4670-96e0-daf57dd5efd2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FLOATOBJ_Div, FLOATOBJ_Div function [Display Devices], display.floatobj_div, gdifncs_0ffe4b55-d291-47b0-bbd4-351e01ffe228.xml, winddi/FLOATOBJ_Div
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ TBD
 
 
 
-#### - pf [in, out]
+#### - [in, out]
 
 Pointer to the first FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the quotient of *<i>pf</i> divided by *<i>pf1</i>.
 

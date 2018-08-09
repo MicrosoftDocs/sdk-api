@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setrendermode.htm
 old-project: wic
 ms.assetid: 3150abb3-795d-416d-b3eb-0001796f510d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRenderMode method, IWICDevelopRaw.SetRenderMode, IWICDevelopRaw::SetRenderMode, SetRenderMode, SetRenderMode method [Windows Imaging Component], SetRenderMode method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrendermode, wic._wic_codec_iwicdevelopraw_setrendermode, wincodec/IWICDevelopRaw::SetRenderMode
 ms.prod: windows
 ms.technology: windows-sdk

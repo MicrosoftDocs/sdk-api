@@ -7,7 +7,7 @@ old-location: automat\vardecfix.htm
 old-project: automat
 ms.assetid: 714567f9-7159-4081-a5d2-afd4da789961
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarDecFix, VarDecFix function [Automation], _oa96_VarDecFix, automat.vardecfix, oleauto/VarDecFix
 ms.prod: windows
 ms.technology: windows-sdk

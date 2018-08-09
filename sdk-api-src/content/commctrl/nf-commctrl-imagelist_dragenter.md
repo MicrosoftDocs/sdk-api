@@ -7,7 +7,7 @@ old-location: controls\ImageList_DragEnter.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragenter.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ImageList_DragEnter, ImageList_DragEnter function [Windows Controls], _win32_ImageList_DragEnter, _win32_ImageList_DragEnter_cpp, commctrl/ImageList_DragEnter, controls.ImageList_DragEnter, controls._win32_ImageList_DragEnter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-To begin a drag operation, use the <a href="https://msdn.microsoft.com/library/Bb761516(v=VS.85).aspx">ImageList_BeginDrag</a> function. 
+To begin a drag operation, use the <a href="https://msdn.microsoft.com/5b262b32-5ec2-4f19-8a76-4c318aec7dc7">ImageList_BeginDrag</a> function. 
 
 
 

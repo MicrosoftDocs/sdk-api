@@ -7,7 +7,7 @@ old-location: controls\CHARFORMAT2.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat2.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CFE_ALLCAPS, CFE_AUTOBACKCOLOR, CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_EMBOSS, CFE_EXTENDED, CFE_FONTBOUND, CFE_HIDDEN, CFE_IMPRINT, CFE_ITALIC, CFE_LINK, CFE_LINKPROTECTED, CFE_MATH, CFE_MATHNOBUILDUP, CFE_MATHORDINARY, CFE_OUTLINE, CFE_PROTECTED, CFE_REVISED, CFE_SHADOW, CFE_SMALLCAPS, CFE_STRIKEOUT, CFE_SUBSCRIPT, CFE_SUPERSCRIPT, CFE_UNDERLINE, CFM_ALL, CFM_ALL2, CFM_ALLCAPS, CFM_ANIMATION, CFM_BACKCOLOR, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_COOKIE, CFM_DISABLED, CFM_EFFECTS, CFM_EFFECTS2, CFM_EMBOSS, CFM_EXTENDED, CFM_FACE, CFM_FONTBOUND, CFM_HIDDEN, CFM_IMPRINT, CFM_ITALIC, CFM_KERNING, CFM_LCID, CFM_LINK, CFM_LINKPROTECTED, CFM_MATH, CFM_MATHNOBUILDUP, CFM_MATHORDINARY, CFM_OFFSET, CFM_OUTLINE, CFM_PROTECTED, CFM_REVAUTHOR, CFM_REVISED, CFM_SHADOW, CFM_SIZE, CFM_SMALLCAPS, CFM_SPACING, CFM_STRIKEOUT, CFM_STYLE, CFM_SUBSCRIPT, CFM_SUPERSCRIPT, CFM_UNDERLINE, CFM_UNDERLINETYPE, CFM_WEIGHT, CFU_CF1UNDERLINE, CFU_INVERT, CFU_UNDERLINE, CFU_UNDERLINEDASH, CFU_UNDERLINEDASHDOT, CFU_UNDERLINEDASHDOTDOT, CFU_UNDERLINEDOTTED, CFU_UNDERLINEDOUBLE, CFU_UNDERLINEDOUBLEWAVE, CFU_UNDERLINEHAIRLINE, CFU_UNDERLINEHEAVYWAVE, CFU_UNDERLINELONGDASH, CFU_UNDERLINENONE, CFU_UNDERLINETHICK, CFU_UNDERLINETHICKDASH, CFU_UNDERLINETHICKDASHDOT, CFU_UNDERLINETHICKDASHDOTDOT, CFU_UNDERLINETHICKDOTTED, CFU_UNDERLINETHICKLONGDASH, CFU_UNDERLINEWAVE, CFU_UNDERLINEWORD, CHARFORMAT2, CHARFORMAT2 structure [Windows Controls], CHARFORMAT2A, CHARFORMAT2W, _win32_CHARFORMAT2_str, _win32_CHARFORMAT2_str_cpp, controls.CHARFORMAT2, controls._win32_CHARFORMAT2_str, richedit/CHARFORMAT2, richedit/CHARFORMAT2A, richedit/CHARFORMAT2W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information about character formatting in a rich edit control.<b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/library/Bb788026(v=VS.85).aspx">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/library/Bb774230(v=VS.85).aspx">EM_SETCHARFORMAT</a> messages. 
+Contains information about character formatting in a rich edit control.<b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -138,7 +138,7 @@ Specifies the underline type. To use this member, set the <b>CFM_UNDERLINETYPE</
 </dl>
 </td>
 <td width="60%">
-The structure maps <a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
+The structure maps <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
 
 </td>
 </tr>
@@ -385,303 +385,11 @@ Underline color.
 
 
 
-#### - bCharSet
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
-
-Character set value. It can be one of the values specified for the <b>lfCharSet</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. To use this member, set the <b>CFM_CHARSET</b> flag in the <b>dwMask</b> member. 
-
-
-#### - bPitchAndFamily
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
-
-Specifies the font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. 
-
-
 #### - cbSize
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
-
-
-#### - crTextColor
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
-
-Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOCOLOR</b> character effect is specified. To generate a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro. 
-
-
-#### - dwEffects
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
-                
-
-This member can be a combination of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_ALLCAPS"></a><a id="cfe_allcaps"></a><dl>
-<dt><b>CFE_ALLCAPS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are all capital letters. The value does not affect the way the control displays the text. This value applies only to versions earlier than Microsoft Rich Edit 3.0. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_AUTOBACKCOLOR"></a><a id="cfe_autobackcolor"></a><dl>
-<dt><b>CFE_AUTOBACKCOLOR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The background color is the return value of <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>(<b>COLOR_WINDOW</b>). If this flag is set, <b>crBackColor</b> member is ignored.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_AUTOCOLOR"></a><a id="cfe_autocolor"></a><dl>
-<dt><b>CFE_AUTOCOLOR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The text color is the return value of <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>(<b>COLOR_WINDOWTEXT</b>). If this flag is set, the <b>crTextColor</b> member is ignored.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_BOLD"></a><a id="cfe_bold"></a><dl>
-<dt><b>CFE_BOLD</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are bold.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_DISABLED"></a><a id="cfe_disabled"></a><dl>
-<dt><b>CFE_DISABLED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are displayed with a shadow that is offset by 3/4 point or one pixel, whichever is larger.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_EMBOSS"></a><a id="cfe_emboss"></a><dl>
-<dt><b>CFE_EMBOSS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are embossed. The value does not affect how the control displays the text. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_EXTENDED"></a><a id="cfe_extended"></a><dl>
-<dt><b>CFE_EXTENDED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The characters are less common members of a script. A font that supports a script should check if it has glyphs for such characters.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_FONTBOUND"></a><a id="cfe_fontbound"></a><dl>
-<dt><b>CFE_FONTBOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-Font is chosen by the rich edit control because the active font doesn’t support the characters. This process is called font binding.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_HIDDEN"></a><a id="cfe_hidden"></a><dl>
-<dt><b>CFE_HIDDEN</b></dt>
-</dl>
-</td>
-<td width="60%">
-For Microsoft Rich Edit 3.0 and later, characters are not displayed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_IMPRINT"></a><a id="cfe_imprint"></a><dl>
-<dt><b>CFE_IMPRINT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are displayed as imprinted characters. The value does not affect how the control displays the text. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_ITALIC"></a><a id="cfe_italic"></a><dl>
-<dt><b>CFE_ITALIC</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are italic.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_LINK"></a><a id="cfe_link"></a><dl>
-<dt><b>CFE_LINK</b></dt>
-</dl>
-</td>
-<td width="60%">
-A rich edit control can send <a href="https://msdn.microsoft.com/library/Bb787970(v=VS.85).aspx">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_LINKPROTECTED"></a><a id="cfe_linkprotected"></a><dl>
-<dt><b>CFE_LINKPROTECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are part of a friendly name link.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_MATH"></a><a id="cfe_math"></a><dl>
-<dt><b>CFE_MATH</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are in a math zone.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_MATHNOBUILDUP"></a><a id="cfe_mathnobuildup"></a><dl>
-<dt><b>CFE_MATHNOBUILDUP</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters do not participate in a math build up. For example, when applied to a /, the / will not be used to build up a fraction.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_MATHORDINARY"></a><a id="cfe_mathordinary"></a><dl>
-<dt><b>CFE_MATHORDINARY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are displayed as ordinary text within a math zone.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_OUTLINE"></a><a id="cfe_outline"></a><dl>
-<dt><b>CFE_OUTLINE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are displayed as outlined characters. The value does not affect how the control displays the text. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_PROTECTED"></a><a id="cfe_protected"></a><dl>
-<dt><b>CFE_PROTECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_REVISED"></a><a id="cfe_revised"></a><dl>
-<dt><b>CFE_REVISED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are marked as revised.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_SHADOW"></a><a id="cfe_shadow"></a><dl>
-<dt><b>CFE_SHADOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are displayed as shadowed characters. The value does not affect how the control displays the text. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_SMALLCAPS"></a><a id="cfe_smallcaps"></a><dl>
-<dt><b>CFE_SMALLCAPS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are in small capital letters. The value does not affect how the control displays the text. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_STRIKEOUT"></a><a id="cfe_strikeout"></a><dl>
-<dt><b>CFE_STRIKEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are struck out.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_SUBSCRIPT"></a><a id="cfe_subscript"></a><dl>
-<dt><b>CFE_SUBSCRIPT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are subscript. The <b>CFE_SUPERSCRIPT</b> and <b>CFE_SUBSCRIPT</b> values are mutually exclusive. For both values, the control automatically calculates an offset and a smaller font size. Alternatively, you can use the <b>yHeight</b> and <b>yOffset</b> members to explicitly specify font size and offset for subscript and superscript characters.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_SUPERSCRIPT"></a><a id="cfe_superscript"></a><dl>
-<dt><b>CFE_SUPERSCRIPT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are superscript. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CFE_UNDERLINE"></a><a id="cfe_underline"></a><dl>
-<dt><b>CFE_UNDERLINE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Characters are underlined.
-
-</td>
-</tr>
-</table>
- 
+Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
 
 
 #### - dwMask
@@ -1166,11 +874,275 @@ The <b>wWeight</b> member is valid.
  
 
 
-#### - szFaceName
+#### - dwEffects
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">TCHAR</a>[LF_FACESIZE]</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A null-terminated character array specifying the font name. To use this member, set the <b>CFM_FACE</b> flag in the <b>dwMask</b> member. 
+A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
+                
+
+This member can be a combination of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_ALLCAPS"></a><a id="cfe_allcaps"></a><dl>
+<dt><b>CFE_ALLCAPS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are all capital letters. The value does not affect the way the control displays the text. This value applies only to versions earlier than Microsoft Rich Edit 3.0. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_AUTOBACKCOLOR"></a><a id="cfe_autobackcolor"></a><dl>
+<dt><b>CFE_AUTOBACKCOLOR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The background color is the return value of <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>(<b>COLOR_WINDOW</b>). If this flag is set, <b>crBackColor</b> member is ignored.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_AUTOCOLOR"></a><a id="cfe_autocolor"></a><dl>
+<dt><b>CFE_AUTOCOLOR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The text color is the return value of <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>(<b>COLOR_WINDOWTEXT</b>). If this flag is set, the <b>crTextColor</b> member is ignored.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_BOLD"></a><a id="cfe_bold"></a><dl>
+<dt><b>CFE_BOLD</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are bold.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_DISABLED"></a><a id="cfe_disabled"></a><dl>
+<dt><b>CFE_DISABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are displayed with a shadow that is offset by 3/4 point or one pixel, whichever is larger.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_EMBOSS"></a><a id="cfe_emboss"></a><dl>
+<dt><b>CFE_EMBOSS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are embossed. The value does not affect how the control displays the text. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_EXTENDED"></a><a id="cfe_extended"></a><dl>
+<dt><b>CFE_EXTENDED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The characters are less common members of a script. A font that supports a script should check if it has glyphs for such characters.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_FONTBOUND"></a><a id="cfe_fontbound"></a><dl>
+<dt><b>CFE_FONTBOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+Font is chosen by the rich edit control because the active font doesn’t support the characters. This process is called font binding.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_HIDDEN"></a><a id="cfe_hidden"></a><dl>
+<dt><b>CFE_HIDDEN</b></dt>
+</dl>
+</td>
+<td width="60%">
+For Microsoft Rich Edit 3.0 and later, characters are not displayed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_IMPRINT"></a><a id="cfe_imprint"></a><dl>
+<dt><b>CFE_IMPRINT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are displayed as imprinted characters. The value does not affect how the control displays the text. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_ITALIC"></a><a id="cfe_italic"></a><dl>
+<dt><b>CFE_ITALIC</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are italic.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_LINK"></a><a id="cfe_link"></a><dl>
+<dt><b>CFE_LINK</b></dt>
+</dl>
+</td>
+<td width="60%">
+A rich edit control can send <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_LINKPROTECTED"></a><a id="cfe_linkprotected"></a><dl>
+<dt><b>CFE_LINKPROTECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are part of a friendly name link.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_MATH"></a><a id="cfe_math"></a><dl>
+<dt><b>CFE_MATH</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are in a math zone.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_MATHNOBUILDUP"></a><a id="cfe_mathnobuildup"></a><dl>
+<dt><b>CFE_MATHNOBUILDUP</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters do not participate in a math build up. For example, when applied to a /, the / will not be used to build up a fraction.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_MATHORDINARY"></a><a id="cfe_mathordinary"></a><dl>
+<dt><b>CFE_MATHORDINARY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are displayed as ordinary text within a math zone.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_OUTLINE"></a><a id="cfe_outline"></a><dl>
+<dt><b>CFE_OUTLINE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are displayed as outlined characters. The value does not affect how the control displays the text. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_PROTECTED"></a><a id="cfe_protected"></a><dl>
+<dt><b>CFE_PROTECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_REVISED"></a><a id="cfe_revised"></a><dl>
+<dt><b>CFE_REVISED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are marked as revised.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_SHADOW"></a><a id="cfe_shadow"></a><dl>
+<dt><b>CFE_SHADOW</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are displayed as shadowed characters. The value does not affect how the control displays the text. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_SMALLCAPS"></a><a id="cfe_smallcaps"></a><dl>
+<dt><b>CFE_SMALLCAPS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are in small capital letters. The value does not affect how the control displays the text. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_STRIKEOUT"></a><a id="cfe_strikeout"></a><dl>
+<dt><b>CFE_STRIKEOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are struck out.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_SUBSCRIPT"></a><a id="cfe_subscript"></a><dl>
+<dt><b>CFE_SUBSCRIPT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are subscript. The <b>CFE_SUPERSCRIPT</b> and <b>CFE_SUBSCRIPT</b> values are mutually exclusive. For both values, the control automatically calculates an offset and a smaller font size. Alternatively, you can use the <b>yHeight</b> and <b>yOffset</b> members to explicitly specify font size and offset for subscript and superscript characters.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_SUPERSCRIPT"></a><a id="cfe_superscript"></a><dl>
+<dt><b>CFE_SUPERSCRIPT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are superscript. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CFE_UNDERLINE"></a><a id="cfe_underline"></a><dl>
+<dt><b>CFE_UNDERLINE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Characters are underlined.
+
+</td>
+</tr>
+</table>
+ 
 
 
 #### - yHeight
@@ -1187,6 +1159,34 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Character offset from the baseline, in twips. If the value of this member is positive, the character is a superscript; if the value is negative, the character is a subscript. To use this member, set the <b>CFM_OFFSET</b> flag in the <b>dwMask</b> member. 
 
 
+#### - crTextColor
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+
+Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOCOLOR</b> character effect is specified. To generate a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro. 
+
+
+#### - bCharSet
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+
+Character set value. It can be one of the values specified for the <b>lfCharSet</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. To use this member, set the <b>CFM_CHARSET</b> flag in the <b>dwMask</b> member. 
+
+
+#### - bPitchAndFamily
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+
+Specifies the font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. 
+
+
+#### - szFaceName
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">TCHAR</a>[LF_FACESIZE]</b>
+
+A null-terminated character array specifying the font name. To use this member, set the <b>CFM_FACE</b> flag in the <b>dwMask</b> member. 
+
+
 ## -remarks
 
 
@@ -1201,7 +1201,7 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
+<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
 
 
 
@@ -1209,15 +1209,15 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788026(v=VS.85).aspx">EM_GETCHARFORMAT</a>
+<a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774230(v=VS.85).aspx">EM_SETCHARFORMAT</a>
+<a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
 
 
 

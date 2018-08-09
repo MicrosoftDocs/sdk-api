@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3.htm
 old-project: shell
 ms.assetid: 1aa70db8-4225-49de-8b8f-ec86b1aafa22
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], IShellFolderViewDual3 interface [Windows Shell],described, _shell_IShellFolderViewDual3, shell.IShellFolderViewDual3, shldisp/IShellFolderViewDual3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ Gets the icon size setting for the current folder.
 <a href="https://msdn.microsoft.com/9edad3e2-317f-4ff5-82fb-a816de5d2aa8">get_SortColumns</a>
 </td>
 <td align="left" width="63%">
-
-      Gets the names of the columns used to sort the current folder.
+Gets the names of the columns used to sort the current folder.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getsubject.htm
 old-project: printdocs
 ms.assetid: 80499d81-4adc-402c-ab72-4ebc77eefaea
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSubject, GetSubject method [XPS Documents and Packaging], GetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetSubject method, IXpsOMCoreProperties.GetSubject, IXpsOMCoreProperties::GetSubject, xps.ixpsomcoreproperties_getsubject, xpsobjectmodel/IXpsOMCoreProperties::GetSubject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>subject</b> property contains the topic of the resource's content.
 
-This method allocates the memory used by the string that is returned in <i>subject</i>.  If <i>subject</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>subject</i>.  If <i>subject</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

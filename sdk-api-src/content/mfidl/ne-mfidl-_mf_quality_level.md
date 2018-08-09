@@ -7,7 +7,7 @@ old-location: mf\mf_quality_level.htm
 old-project: medfound
 ms.assetid: 6fe5abbb-c079-4d74-9c75-6fb502054546
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6fe5abbb-c079-4d74-9c75-6fb502054546, MF_NUM_QUALITY_LEVELS, MF_QUALITY_LEVEL, MF_QUALITY_LEVEL enumeration [Media Foundation], MF_QUALITY_NORMAL, MF_QUALITY_NORMAL_MINUS_1, MF_QUALITY_NORMAL_MINUS_2, MF_QUALITY_NORMAL_MINUS_3, MF_QUALITY_NORMAL_MINUS_4, MF_QUALITY_NORMAL_MINUS_5, _MF_QUALITY_LEVEL, mf.mf_quality_level, mfidl/MF_NUM_QUALITY_LEVELS, mfidl/MF_QUALITY_LEVEL, mfidl/MF_QUALITY_NORMAL, mfidl/MF_QUALITY_NORMAL_MINUS_1, mfidl/MF_QUALITY_NORMAL_MINUS_2, mfidl/MF_QUALITY_NORMAL_MINUS_3, mfidl/MF_QUALITY_NORMAL_MINUS_4, mfidl/MF_QUALITY_NORMAL_MINUS_5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,50 +61,43 @@ Specifies the quality level for a pipeline component. The quality level determin
 
 ### -field MF_QUALITY_NORMAL
 
-
-            Normal quality.
+Normal quality.
           
 
 
 ### -field MF_QUALITY_NORMAL_MINUS_1
 
-
-            One level below normal quality.
+One level below normal quality.
           
 
 
 ### -field MF_QUALITY_NORMAL_MINUS_2
 
-
-            Two levels below normal quality.
+Two levels below normal quality.
           
 
 
 ### -field MF_QUALITY_NORMAL_MINUS_3
 
-
-            Three levels below normal quality.
+Three levels below normal quality.
           
 
 
 ### -field MF_QUALITY_NORMAL_MINUS_4
 
-
-            Four levels below normal quality.
+Four levels below normal quality.
           
 
 
 ### -field MF_QUALITY_NORMAL_MINUS_5
 
-
-            Five levels below normal quality.
+Five levels below normal quality.
           
 
 
 ### -field MF_NUM_QUALITY_LEVELS
 
-
-            Maximum number of quality levels. This value is not a valid flag.
+Maximum number of quality levels. This value is not a valid flag.
           
 
 
@@ -112,12 +105,10 @@ Specifies the quality level for a pipeline component. The quality level determin
 
 
 
-
-        Each successive quality level decreases the amount of processing that is needed, while also reducing the resulting quality of the audio or video. The specific algorithm used to reduce quality depends on the component. Mode 1 is the least aggressive mode, and mode 5 is the most aggressive. A component is not required to implement all five levels. Also, the same quality level might not be comparable between two different components.
+Each successive quality level decreases the amount of processing that is needed, while also reducing the resulting quality of the audio or video. The specific algorithm used to reduce quality depends on the component. Mode 1 is the least aggressive mode, and mode 5 is the most aggressive. A component is not required to implement all five levels. Also, the same quality level might not be comparable between two different components.
       
 
-
-        Video decoders can often reduce quality by leaving out certain post-processing steps. The enhanced video renderer (EVR) can sometimes reduce quality by switching to a different deinterlacing mode.
+Video decoders can often reduce quality by leaving out certain post-processing steps. The enhanced video renderer (EVR) can sometimes reduce quality by switching to a different deinterlacing mode.
       
 
 

@@ -4,10 +4,10 @@ title: CertAddStoreToCollection function
 author: windows-sdk-content
 description: The CertAddStoreToCollection function adds a sibling certificate store to a collection certificate store.
 old-location: security\certaddstoretocollection.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ea848d74-c3ec-4166-90ea-121b33f7f318
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertAddStoreToCollection, CertAddStoreToCollection function [Security], _crypto2_certaddstoretocollection, security.certaddstoretocollection, wincrypt/CertAddStoreToCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,19 +69,14 @@ Handle of a certificate store.
 Handle of a sibling store to be added to the collection store. For more information, see  Remarks.
 
 
-### -param dwUpdateFlags
+### -param dwUpdateFlags [in]
 
-TBD
+Indicates whether <a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">certificates</a>, CRLs, and CTLs can be added to the new sibling store member of the collection store. To enable addition, set <i>dwUpdateFlag</i> to CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG.   To disable additions, set <i>dwUpdateFlag</i> to zero.
 
 
 ### -param dwPriority [in]
 
 Sets a priority level of the new store in the collection, with zero being the lowest priority. If zero is passed for this parameter, the specified store is appended as the last store in the collection. The priority levels of the stores in a collection determine the order in which the stores are enumerated, and the search order of the stores when attempting to retrieve a certificate, CRL, or CTL. Priority levels also determine to which store of a collection a new certificate, CRL, or CTL is added. For more information, see  Remarks.
-
-
-#### - dwUpdateFlag [in]
-
-Indicates whether <a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">certificates</a>, CRLs, and CTLs can be added to the new sibling store member of the collection store. To enable addition, set <i>dwUpdateFlag</i> to CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG.   To disable additions, set <i>dwUpdateFlag</i> to zero.
 
 
 ## -returns
@@ -238,7 +233,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

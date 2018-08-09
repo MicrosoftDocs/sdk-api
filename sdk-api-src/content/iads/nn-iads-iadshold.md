@@ -7,7 +7,7 @@ old-location: adsi\iadshold.htm
 old-project: ADSI
 ms.assetid: ccc22915-0f67-4089-9ddc-491b6f7ef554
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI],described, _ds_iadshold, adsi.iadshold, iads/IADsHold
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

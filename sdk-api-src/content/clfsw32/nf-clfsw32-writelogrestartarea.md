@@ -7,7 +7,7 @@ old-location: fs\writelogrestartarea.htm
 old-project: Clfs
 ms.assetid: deb5fd90-e987-4e5b-9740-6ecef8705557
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea, WriteLogRestartArea function [Files], clfsw32/WriteLogRestartArea, fs.writelogrestartarea
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,18 +117,6 @@ Assigns no flags.
  
 
 
-#### - pOverlapped [in, out, optional]
-
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
-
-This parameter can be <b>NULL</b> if an asynchronous operation is not used.
-
-
-#### - pcbWritten [out, optional]
-
-A pointer to a variable that receives the number of bytes that are  written when an operation completes.
-
-
 #### - plsnBase [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the new base LSN of the log after successfully writing the restart area.  
@@ -136,9 +124,21 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 This value cannot be outside the range of the active log. It must be at least the value of the current base LSN, and not greater than the LSN that was returned in the <i>lastLSN</i> parameter from the latest call to <a href="https://msdn.microsoft.com/2036fc26-d040-4738-b66e-d5d3d0dbe385">ReserveAndAppendLog</a>.  If you omit this optional parameter, the base LSN  does not change.
 
 
+#### - pcbWritten [out, optional]
+
+A pointer to a variable that receives the number of bytes that are  written when an operation completes.
+
+
 #### - plsnNext [out, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the LSN of the restart area that is written.
+
+
+#### - pOverlapped [in, out, optional]
+
+A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
+
+This parameter can be <b>NULL</b> if an asynchronous operation is not used.
 
 
 ## -returns
@@ -160,8 +160,7 @@ The following  list identifies the possible error codes:
 
 
 
-
-        The <b>WriteLogRestartArea</b> causes both a flush of all current buffered log records and a flush of the log metadata.
+The <b>WriteLogRestartArea</b> causes both a flush of all current buffered log records and a flush of the log metadata.
 
 If a client calls <b>WriteLogRestartArea</b> on  a  log  that is created to support asynchronous operations (for example, if the <i>fFlagsAndAttributes</i> parameter of <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>  is set to <b>FILE_FLAG_OVERLAPPED</b> when the log is created), the client must supply a pointer to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure in the <i>pOverlapped</i> parameter of <b>WriteLogRestartArea</b>.
 

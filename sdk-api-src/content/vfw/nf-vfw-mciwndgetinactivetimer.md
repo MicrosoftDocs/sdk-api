@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetinactivetimer.htm
 old-project: Multimedia
 ms.assetid: a9683a34-7fbd-4878-a547-4421d5888308
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MCIWndGetInactiveTimer, MCIWndGetInactiveTimer macro [Windows Multimedia], _win32_MCIWndGetInactiveTimer, multimedia.mciwndgetinactivetimer, vfw/MCIWndGetInactiveTimer
 ms.prod: windows
 ms.technology: windows-sdk

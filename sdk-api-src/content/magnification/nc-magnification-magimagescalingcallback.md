@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagImageScalingCallback.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magimagescalingcallback.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagImageScalingCallback, MagImageScalingCallback callback, MagImageScalingCallback callback function [Magnification API], magapi.magapi_MagImageScalingCallback, magapi_MagImageScalingCallback, magnification/MagImageScalingCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The input data.
 
 ### -param srcheader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a></b>
+Type: <b><a href="https://msdn.microsoft.com/875a0e1d-2513-4ed2-8215-f2d2d91dd234">MAGIMAGEHEADER</a></b>
 
 The description of the input format.
 
@@ -89,7 +89,7 @@ The output data.
 
 ### -param destheader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a></b>
+Type: <b><a href="https://msdn.microsoft.com/875a0e1d-2513-4ed2-8215-f2d2d91dd234">MAGIMAGEHEADER</a></b>
 
 The description of the output format.
 
@@ -131,11 +131,11 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a>
+<a href="https://msdn.microsoft.com/875a0e1d-2513-4ed2-8215-f2d2d91dd234">MAGIMAGEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692388(v=VS.85).aspx">MagGetImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/492a1022-503f-45ed-89e2-e2fe0d01bed6">MagGetImageScalingCallback</a>
  
 
  

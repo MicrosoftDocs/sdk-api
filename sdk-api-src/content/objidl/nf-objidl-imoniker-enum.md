@@ -7,7 +7,7 @@ old-location: com\imoniker_enum.htm
 old-project: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMoniker interface [COM],Enum method, IMoniker.Enum, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
 ms.prod: windows
 ms.technology: windows-sdk

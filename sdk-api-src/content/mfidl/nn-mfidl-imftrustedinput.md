@@ -7,7 +7,7 @@ old-location: mf\imftrustedinput.htm
 old-project: medfound
 ms.assetid: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], IMFTrustedInput interface [Media Foundation],described, mf.imftrustedinput, mfidl/IMFTrustedInput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Implemented by components that provide input trust authorities (ITAs). This interface is used to get the ITA for each of the component's streams.
+Implemented by components that provide input trust authorities (ITAs). This interface is used to get the ITA for each of the component's streams.
         
 
 

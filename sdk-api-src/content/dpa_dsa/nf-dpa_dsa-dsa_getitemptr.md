@@ -7,7 +7,7 @@ old-location: controls\DSA_GetItemPtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitemptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DSA_GetItemPtr, DSA_GetItemPtr function [Windows Controls], _win32_DSA_GetItemPtr, _win32_DSA_GetItemPtr_cpp, controls.DSA_GetItemPtr, controls._win32_DSA_GetItemPtr, dpa_dsa/DSA_GetItemPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,30 +64,18 @@ Gets a pointer to an element from a dynamic structure array (DSA).
 
 
 
-### -param hdsa
-
-TBD
-
-
-### -param i
-
-TBD
-
-
-
-
-#### - index [in]
-
-Type: <b>int</b>
-
-The index of the element to be retrieved (zero-based).
-
-
-#### - pdsa [in]
+### -param hdsa [in]
 
 Type: <b>HDSA</b>
 
 A handle to the DSA containing the element.
+
+
+### -param i [in]
+
+Type: <b>int</b>
+
+The index of the element to be retrieved (zero-based).
 
 
 ## -returns

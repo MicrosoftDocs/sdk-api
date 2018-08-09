@@ -7,7 +7,7 @@ old-location: automat\varbstrfromdec.htm
 old-project: automat
 ms.assetid: 8e4da8c0-b2e4-4611-8f7d-e415dfcc846c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarBstrFromDec, VarBstrFromDec function [Automation], _oa96_VarBstrFromDec, automat.varbstrfromdec, oleauto/VarBstrFromDec
 ms.prod: windows
 ms.technology: windows-sdk

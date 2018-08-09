@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dsetblobpart.htm
 old-project: direct3dhlsl
 ms.assetid: 244B094D-408A-4EC3-BC56-A7EE41D695E4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3DSetBlobPart, D3DSetBlobPart function [HLSL], d3dcompiler/D3DSetBlobPart, direct3dhlsl.d3dsetblobpart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The length of the compiled shader data that <i>pSrcData</i> points to.
 
 Type: <b><a href="https://msdn.microsoft.com/333bc68a-0412-48e7-ac28-69ec5eea9ce8">D3D_BLOB_PART</a></b>
 
-A <a href="https://msdn.microsoft.com/333bc68a-0412-48e7-ac28-69ec5eea9ce8">D3D_BLOB_PART</a>-typed value that specifies the part to set. Currently, you can update only private data; that is, <b>D3DSetBlobPart</b> currently only supports the <a href="https://msdn.microsoft.com/library/Ff728720(v=VS.85).aspx">D3D_BLOB_PRIVATE_DATA</a> value.
+A <a href="https://msdn.microsoft.com/333bc68a-0412-48e7-ac28-69ec5eea9ce8">D3D_BLOB_PART</a>-typed value that specifies the part to set. Currently, you can update only private data; that is, <b>D3DSetBlobPart</b> currently only supports the <a href="d3d_blob_part.htm">D3D_BLOB_PRIVATE_DATA</a> value.
 
 
 ### -param Flags [in]

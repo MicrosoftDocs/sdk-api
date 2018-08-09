@@ -7,7 +7,7 @@ old-location: controls\IImageList_DragShowNolock.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragshownolock.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DragShowNolock, DragShowNolock method [Windows Controls], DragShowNolock method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragShowNolock method, IImageList.DragShowNolock, IImageList::DragShowNolock, comctl_IImageList_DragShowNolock, comctl_IImageList_DragShowNolock_cpp, commoncontrols/IImageList::DragShowNolock, controls.IImageList_DragShowNolock, controls.comctl_IImageList_DragShowNolock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-		Shows or hides the image being dragged. 
+Shows or hides the image being dragged. 
 		
 
 
@@ -83,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use <b>IImageList::DragShowNolock</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::DragShowNolock</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

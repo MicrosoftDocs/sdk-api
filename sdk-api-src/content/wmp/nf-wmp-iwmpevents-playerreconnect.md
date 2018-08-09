@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playerreconnect.htm
 old-project: WMP
 ms.assetid: 16e9aa76-8ecf-471e-a30c-b8cf834cee0e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerReconnect method, IWMPEvents.PlayerReconnect, IWMPEvents::PlayerReconnect, IWMPEventsPlayerReconnect, PlayerReconnect, PlayerReconnect method [Windows Media Player], PlayerReconnect method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerreconnect, wmp/IWMPEvents::PlayerReconnect
 ms.prod: windows
 ms.technology: windows-sdk

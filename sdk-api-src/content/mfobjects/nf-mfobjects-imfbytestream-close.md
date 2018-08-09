@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_close.htm
 old-project: medfound
 ms.assetid: d5f704ab-fa3f-4a53-9b97-eb48a75e481b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Close method, IMFByteStream.Close, IMFByteStream::Close, d5f704ab-fa3f-4a53-9b97-eb48a75e481b, mf.imfbytestream_close, mfobjects/IMFByteStream::Close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.
+Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.
         
 
 

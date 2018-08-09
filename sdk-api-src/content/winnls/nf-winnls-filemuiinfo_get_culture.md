@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo_get_culture.htm
 old-project: Intl
 ms.assetid: 3afed0e8-3a9c-4513-954a-83855a53f5b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_CULTURE, intl.filemuiinfo_get_culture, winnls/FILEMUIINFO_GET_CULTURE
 ms.prod: windows
 ms.technology: windows-sdk

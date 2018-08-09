@@ -4,10 +4,10 @@ title: ApplyControlToken function
 author: windows-sdk-content
 description: Provides a way to apply a control token to a security context.
 old-location: security\applycontroltoken.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ApplyControlToken function
@@ -142,7 +143,7 @@ This function can be used to shut down the <a href="https://msdn.microsoft.com/3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

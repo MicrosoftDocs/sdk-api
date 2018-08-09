@@ -7,7 +7,7 @@ old-location: dxmath\xmstoredecn4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreDecN4(XMDECN4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMStoreDecN4, XMStoreDecN4, XMStoreDecN4 method [DirectX Math Support APIs], dxmath.xmstoredecn4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx">XMDECN4</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>.
 
 
 ## -parameters

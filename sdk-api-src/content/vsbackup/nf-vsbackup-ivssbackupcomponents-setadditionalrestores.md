@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetAdditionalRestores
 author: windows-sdk-content
 description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivssbackupcomponents_setadditionalrestores.htm
-old-project: VSS
+old-project: vss
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetAdditionalRestores method, IVssBackupComponents.SetAdditionalRestores, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,15 +104,15 @@ The value of the string should not be <b>NULL</b>, and should contain the same c
 
 
 
-#### - bAdditionalResources [in]
-
-If the value of this parameter is <b>true</b>, additional restores of the component will follow this restore. If the value is <b>false</b>, additional restores of the component will not follow this restore.
-
-
 #### - componentType [in]
 
 Type of the component. See 
 <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
+
+
+#### - bAdditionalResources [in]
+
+If the value of this parameter is <b>true</b>, additional restores of the component will follow this restore. If the value is <b>false</b>, additional restores of the component will not follow this restore.
 
 
 ## -returns

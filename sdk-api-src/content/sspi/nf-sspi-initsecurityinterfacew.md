@@ -4,10 +4,10 @@ title: InitSecurityInterfaceW function
 author: windows-sdk-content
 description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
 old-location: security\initsecurityinterface.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,6 +46,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # InitSecurityInterfaceW function
@@ -81,7 +82,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

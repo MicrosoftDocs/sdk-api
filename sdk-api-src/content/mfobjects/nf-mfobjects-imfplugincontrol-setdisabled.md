@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm
 old-project: medfound
 ms.assetid: ff50e746-42f5-4fbe-a904-f83b3c691d32
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, IMFPluginControl.SetDisabled, IMFPluginControl::SetDisabled, SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,8 +117,7 @@ Invalid argument.
 
 
 
-
-        The blocked list is global to the caller's process. Calling this method does not affect the list in other processes.
+The blocked list is global to the caller's process. Calling this method does not affect the list in other processes.
       
 
 

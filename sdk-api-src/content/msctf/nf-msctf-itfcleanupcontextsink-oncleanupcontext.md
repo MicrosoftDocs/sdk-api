@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextsink_oncleanupcontext.htm
 old-project: TSF
 ms.assetid: 6af597e6-f997-4b28-8994-a8dbabcaaa68
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCleanupContextSink interface [Text Services Framework],OnCleanupContext method, ITfCleanupContextSink.OnCleanupContext, ITfCleanupContextSink::OnCleanupContext, OnCleanupContext, OnCleanupContext method [Text Services Framework], OnCleanupContext method [Text Services Framework],ITfCleanupContextSink interface, _tsf_itfcleanupcontextsink_oncleanupcontext_ref, msctf/ITfCleanupContextSink::OnCleanupContext, tsf.itfcleanupcontextsink_oncleanupcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ A context cleanup occurs when:
 <ul>
 <li>The text service is deactivated while a context is still on the context stack. This can occur when the active text service is changed or when the active language changes while the text service is active.</li>
 <li>
-<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">
-              ITfThreadMgr::Deactivate
+<a href="https://msdn.microsoft.com/7293fbfa-c385-4713-80b2-760e54dbf4c1">ITfThreadMgr::Deactivate
             </a> is called while a context is still on the context stack.</li>
 </ul>
 This method provides the text service with a final opportunity to modify the text or properties within the context. For example, if the text service currently has a composition open when the context cleanup occurs. This method enables the text service to close the composition before the context is destroyed.
@@ -106,8 +105,7 @@ The TSF manager automatically releases all properties, including custom properti
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">
-        ITfContext
+<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: rras\support_functions.htm
 old-project: rras
 ms.assetid: c6e1e3a3-2c2a-40ef-965f-554263614bdf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS structure pointer [RAS], SUPPORT_FUNCTIONS, SUPPORT_FUNCTIONS structure [RAS], SUPPORT_FUNCTIONS_50, _SUPPORT_FUNCTIONS_50, _mpr_support_functions, routprot/PSUPPORT_FUNCTIONS, routprot/SUPPORT_FUNCTIONS, rras.support_functions"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,6 +90,73 @@ Specifies the identifier of the routing protocol on behalf of which the connecti
 Specifies the identifier of the interface for which the connection should be established.
 
 
+#### - SetInterfaceReceiveType
+
+The routing protocol calls the 
+<b>SetInterfaceReceiveType</b> function to set the receive capability of the specified interface.
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/3d350f63-13d6-4ed3-b0be-215b91658e0a">SetInterfaceReceiveType</a> function provided by the router manager for the routing protocol.
+
+
+
+#### ProtocolId
+
+Specifies the identifier of the routing protocol that makes the call.
+
+
+
+#### InterfaceIndex
+
+Specifies the index of the interface on which to set the receive type.
+
+
+
+#### InterfaceReceiveType
+
+Specifies the receive type. This parameter must be one of the following values. 
+
+
+
+
+IR_PROMISCUOUS
+
+IR_PROMISCUOUS_MULTICAST
+
+
+
+#### bActivate
+
+Specifies whether to activate the interface.
+
+
+#### - ValidateRoute
+
+The routing protocol calls the 
+<b>ValidateRoute</b> function to set the route preference and perform other route validation.
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/f70bd4bb-8d3c-4408-9e83-4482c5ef8d70">ValidateRoute</a> function provided by the router manager for the routing protocol.
+
+
+
+#### ProtocolId
+
+Specifies the identifier of the routing protocol that makes the call.
+
+
+
+#### RouteInfo
+
+Pointer to information that describes the route to validate.
+
+
+
+#### DestAddress
+
+Pointer to information that describes the destination address. This parameter is optional and can be <b>NULL</b>.
+
+
 #### - MIBEntryCreate
 
 The routing protocol calls 
@@ -121,6 +188,33 @@ Pointer to the data to pass with the Create request.
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/9108ece9-ecac-44cc-b8cb-79a8381e698b">MIBEntryDelete</a> function provided by the router manager for the routing protocol.
+
+
+#### - MIBEntrySet
+
+The routing protocol calls 
+<b>MIBEntrySet</b> to execute an SNMP MIB-style Set request of the router manager or a peer protocol DLL.
+
+Pointer to the 
+<a href="https://msdn.microsoft.com/f80d0bda-9e03-40ee-8ec5-45c806091d3d">MIBEntrySet</a> function provided by the router manager for the routing protocol.
+
+
+
+#### dwRoutingPid
+
+Specifies the identifier of the DLL that  processes this request. This parameter can be the identifier of the router manager or the identifier of a routing protocol.
+
+
+
+#### InputDataSize
+
+Specifies the size, in bytes, of the data to pass with the Set request.
+
+
+
+#### InputData
+
+Pointer to the data to pass with the Set request.
 
 
 #### - MIBEntryGet
@@ -259,100 +353,6 @@ On output this variable receives the size, in bytes, of the data placed in the o
 #### OutputData
 
 Pointer to a buffer that  holds the data from the MIB entry.
-
-
-#### - MIBEntrySet
-
-The routing protocol calls 
-<b>MIBEntrySet</b> to execute an SNMP MIB-style Set request of the router manager or a peer protocol DLL.
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/f80d0bda-9e03-40ee-8ec5-45c806091d3d">MIBEntrySet</a> function provided by the router manager for the routing protocol.
-
-
-
-#### dwRoutingPid
-
-Specifies the identifier of the DLL that  processes this request. This parameter can be the identifier of the router manager or the identifier of a routing protocol.
-
-
-
-#### InputDataSize
-
-Specifies the size, in bytes, of the data to pass with the Set request.
-
-
-
-#### InputData
-
-Pointer to the data to pass with the Set request.
-
-
-#### - SetInterfaceReceiveType
-
-The routing protocol calls the 
-<b>SetInterfaceReceiveType</b> function to set the receive capability of the specified interface.
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/3d350f63-13d6-4ed3-b0be-215b91658e0a">SetInterfaceReceiveType</a> function provided by the router manager for the routing protocol.
-
-
-
-#### ProtocolId
-
-Specifies the identifier of the routing protocol that makes the call.
-
-
-
-#### InterfaceIndex
-
-Specifies the index of the interface on which to set the receive type.
-
-
-
-#### InterfaceReceiveType
-
-Specifies the receive type. This parameter must be one of the following values. 
-
-
-
-
-IR_PROMISCUOUS
-
-IR_PROMISCUOUS_MULTICAST
-
-
-
-#### bActivate
-
-Specifies whether to activate the interface.
-
-
-#### - ValidateRoute
-
-The routing protocol calls the 
-<b>ValidateRoute</b> function to set the route preference and perform other route validation.
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/f70bd4bb-8d3c-4408-9e83-4482c5ef8d70">ValidateRoute</a> function provided by the router manager for the routing protocol.
-
-
-
-#### ProtocolId
-
-Specifies the identifier of the routing protocol that makes the call.
-
-
-
-#### RouteInfo
-
-Pointer to information that describes the route to validate.
-
-
-
-#### DestAddress
-
-Pointer to information that describes the destination address. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -see-also

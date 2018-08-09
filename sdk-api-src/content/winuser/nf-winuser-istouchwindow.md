@@ -7,7 +7,7 @@ old-location: wintouch\istouchwindow.htm
 old-project: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,14 @@ Checks whether a specified window is touch-capable and, optionally, retrieves th
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+The handle of the window. The function fails with <b>ERROR_ACCESS_DENIED</b> if the calling thread is not on the same desktop as the specified window.
 
 
 ### -param pulFlags [out, optional]
 
 The address of the <b>ULONG</b> variable to receive the modifier flags for the specified window's touch capability.
-
-
-#### - hWnd [in]
-
-The handle of the window. The function fails with <b>ERROR_ACCESS_DENIED</b> if the calling thread is not on the same desktop as the specified window.
 
 
 ## -returns

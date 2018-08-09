@@ -7,7 +7,7 @@ old-location: qos\rsvp_filterspec_v6_flow.htm
 old-project: qos
 ms.assetid: 5bca12be-5bc4-40b2-bc72-52cf0297821b
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPRSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW structure [QOS], RSVP_FILTERSPEC_V6_FLOW, RSVP_FILTERSPEC_V6_FLOW structure [QOS], _RSVP_FILTERSPEC_V6_FLOW, qos.rsvp_filterspec_v6_flow, qossp/*LPRSVP_FILTERSPEC_V6_FLOW, qossp/RSVP_FILTERSPEC_V6_FLOW"
 ms.prod: windows
 ms.technology: windows-sdk

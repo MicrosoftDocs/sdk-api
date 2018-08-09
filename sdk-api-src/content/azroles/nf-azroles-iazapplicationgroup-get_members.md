@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_members.htm
 old-project: secauthz
 ms.assetid: 1370fe81-a729-477e-a500-1823abb713e1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzApplicationGroup object [Security],Members property, IAzApplicationGroup interface [Security],Members property, IAzApplicationGroup.Members, IAzApplicationGroup.get_Members, IAzApplicationGroup::Members, IAzApplicationGroup::get_Members, Members property [Security], Members property [Security],AzApplicationGroup object, Members property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Members, azroles/IAzApplicationGroup::get_Members, get_Members, security.iazapplicationgroup_members
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ This property is read-only.
 
 This property is ignored unless the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> property is AZ_GROUPTYPE_BASIC.
 
-In JScript, the returned <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

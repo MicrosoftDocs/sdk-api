@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_createmediasource.htm
 old-project: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],CreateMediaSource method, IMFSensorGroup.CreateMediaSource, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Receives a pointer to the created media source.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ Receives a pointer to the created media source.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

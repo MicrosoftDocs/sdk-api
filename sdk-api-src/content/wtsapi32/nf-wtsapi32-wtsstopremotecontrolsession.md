@@ -4,10 +4,10 @@ title: WTSStopRemoteControlSession function
 author: windows-sdk-content
 description: Stops a remote control session.
 old-location: termserv\wtsstopremotecontrolsession.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 65e5b584-4ffc-4b89-992e-7ada7df0262b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSStopRemoteControlSession, WTSStopRemoteControlSession function [Remote Desktop Services], termserv.wtsstopremotecontrolsession, wtsapi32/WTSStopRemoteControlSession
 ms.prod: windows
 ms.technology: windows-sdk

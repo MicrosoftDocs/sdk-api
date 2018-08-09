@@ -7,7 +7,7 @@ old-location: controls\FlatSB_SetScrollRange.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FlatSB_SetScrollRange, FlatSB_SetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollRange, _win32_FlatSB_SetScrollRange_cpp, commctrl/FlatSB_SetScrollRange, controls.FlatSB_SetScrollRange, controls._win32_FlatSB_SetScrollRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/library/Bb787599(v=VS.85).aspx">SetScrollRange</a> function. 
+Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a> function. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Sets the scroll range of a flat scroll bar. If flat scroll bars are not initiali
 
 ### -param param
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
 
 
 ### -param code
@@ -100,12 +102,16 @@ Sets the scroll range of the vertical scroll bar.
 
 ### -param min
 
-TBD
+Type: <b>int</b>
+
+The new minimum scroll range value. 
 
 
 ### -param max
 
-TBD
+Type: <b>int</b>
+
+The new maximum scroll range value. 
 
 
 ### -param fRedraw
@@ -113,27 +119,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether the scroll bar should be redrawn immediately to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn; if it is <b>FALSE</b>, the scroll bar is not redrawn. 
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
-
-
-#### - nMaxPos
-
-Type: <b>int</b>
-
-The new maximum scroll range value. 
-
-
-#### - nMinPos
-
-Type: <b>int</b>
-
-The new minimum scroll range value. 
 
 
 ## -returns

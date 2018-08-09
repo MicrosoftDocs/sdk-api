@@ -7,7 +7,7 @@ old-location: gdi\getpaletteentries.htm
 old-project: gdi
 ms.assetid: 5e72e881-32e1-458e-a09e-91fa13abe178
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries function [Windows GDI], _win32_GetPaletteEntries, gdi.getpaletteentries, wingdi/GetPaletteEntries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,36 +68,19 @@ The <b>GetPaletteEntries</b> function retrieves a specified range of palette ent
 A handle to the logical palette.
 
 
-### -param iStart
-
-TBD
-
-
-### -param cEntries
-
-TBD
-
-
-### -param pPalEntries
-
-TBD
-
-
-
-
-#### - iStartIndex [in]
+### -param iStart [in]
 
 The first entry in the logical palette to be retrieved.
 
 
-#### - lppe [out]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures to receive the palette entries. The array must contain at least as many structures as specified by the <i>nEntries</i> parameter.
-
-
-#### - nEntries [in]
+### -param cEntries [in]
 
 The number of entries in the logical palette to be retrieved.
+
+
+### -param pPalEntries [out]
+
+A pointer to an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures to receive the palette entries. The array must contain at least as many structures as specified by the <i>nEntries</i> parameter.
 
 
 ## -returns

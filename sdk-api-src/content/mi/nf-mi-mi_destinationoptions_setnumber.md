@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setnumber.htm
 old-project: wmi_v2
 ms.assetid: 46e81ecd-7fb5-465a-8caa-04288c559fea
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_DestinationOptions_SetNumber, MI_DestinationOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetNumber, wmi_v2.mi_destinationoptions_setnumber
 ms.prod: windows
 ms.technology: windows-sdk

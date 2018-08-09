@@ -7,7 +7,7 @@ old-location: oprec\operationstart.htm
 old-project: oprec
 ms.assetid: 3E67057E-D09F-48BA-A95A-5D00F4783D9C
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec.operationstart, winbase/OperationStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ If an application calls <b>OperationStart</b> for an operation ID for which a pr
 
 
 
-### -param OperationStartParams
-
-TBD
-
-
-
-
-#### - OperationParams [in]
+### -param OperationStartParams [in]
 
 An <a href="https://msdn.microsoft.com/51AE0017-2CDE-4BCD-AE03-B366343DE558">_OPERATION_START_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 

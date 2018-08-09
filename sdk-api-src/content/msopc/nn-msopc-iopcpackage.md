@@ -7,7 +7,7 @@ old-location: opc\iopcpackage.htm
 old-project: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions],described, msopc/IOpcPackage, opc.iopcpackage
 ms.prod: windows
 ms.technology: windows-sdk

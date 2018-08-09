@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcecontrolasuser.htm
 old-project: mscs
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
 ms.prod: windows
 ms.technology: windows-sdk

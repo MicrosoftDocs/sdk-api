@@ -7,7 +7,7 @@ old-location: controls\ListView_ApproximateViewRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_approximateviewrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774883(v=VS.85).aspx">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
+Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/a14331a8-217d-48c6-9489-fb90c4d31b91">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -60,17 +60,23 @@ Calculates the approximate width and height required to display a given number o
 
 ### -param hwnd
 
-TBD
+Type: <b>hwndLV</b>
+
+A handle to the list-view control. 
 
 
 ### -param iWidth
 
-TBD
+Type: <b>int</b>
+
+The proposed x-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current width value. 
 
 
 ### -param iHeight
 
-TBD
+Type: <b>int</b>
+
+The proposed y-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current height value. 
 
 
 ### -param iCount
@@ -78,25 +84,4 @@ TBD
 Type: <b>int</b>
 
 The number of items to be displayed in the control. If this parameter is -1, the message uses the total number of items in the control.
-
-
-#### - cx
-
-Type: <b>int</b>
-
-The proposed x-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current width value. 
-
-
-#### - cy
-
-Type: <b>int</b>
-
-The proposed y-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current height value. 
-
-
-#### - hwndLV
-
-Type: <b>hwndLV</b>
-
-A handle to the list-view control. 
 

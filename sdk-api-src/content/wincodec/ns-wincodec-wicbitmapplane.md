@@ -7,7 +7,7 @@ old-location: wic\wicbitmapplane.htm
 old-project: wic
 ms.assetid: 4E988284-DE71-48B2-BF77-D616FAA2A3B1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PWICBitmapPlane, PWICBitmapPlane structure pointer [Windows Imaging Component], WICBitmapPlane, WICBitmapPlane structure [Windows Imaging Component], wic.wicbitmapplane, wincodec/PWICBitmapPlane, wincodec/WICBitmapPlane
 ms.prod: windows
 ms.technology: windows-sdk

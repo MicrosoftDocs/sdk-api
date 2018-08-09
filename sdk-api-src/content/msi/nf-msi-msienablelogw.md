@@ -4,10 +4,10 @@ title: MsiEnableLogW function
 author: windows-sdk-content
 description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
 old-location: setup\msienablelog.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLLOGATTRIBUTES_APPEND, INSTALLLOGATTRIBUTES_FLUSHEACHLINE, INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_EXTRADEBUG, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_INFO, INSTALLLOGMODE_LOGONLYONERROR, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROPERTYDUMP, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_USER, INSTALLLOGMODE_VERBOSE, INSTALLLOGMODE_WARNING, MsiEnableLog, MsiEnableLog function, MsiEnableLogA, MsiEnableLogW, _msi_msienablelog, msi/MsiEnableLog, msi/MsiEnableLogA, msi/MsiEnableLogW, setup.msienablelog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiEnableLog</b> function sets the log mode for all subsequent installations that are initiated in the calling process.
 
 
@@ -251,7 +250,7 @@ If this value is set, the installer appends the existing log specified by <i>szL
 </td>
 <td width="60%">
 Forces the log buffer to be flushed after each line. If this value is not set, the installer flushes the log buffer after 20 lines by calling 
-<a href="https://msdn.microsoft.com/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>.
+<a href="base.flushfilebuffers">FlushFileBuffers</a>.
 
 </td>
 </tr>
@@ -313,7 +312,7 @@ The path to the log file location must already exist when using this function. T
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
+<a href="installer_function_reference.htm">Interface and Logging Functions</a>
 
 
 

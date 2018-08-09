@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_gettop.htm
 old-project: TSF
 ms.assetid: 5be7635f-ec27-4892-9cfe-dba31e202510
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetTop, GetTop method [Text Services Framework], GetTop method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetTop method, ITfDocumentMgr.GetTop, ITfDocumentMgr::GetTop, _tsf_itfdocumentmgr_gettop_ref, msctf/ITfDocumentMgr::GetTop, tsf.itfdocumentmgr_gettop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,14 +127,12 @@ A memory allocation error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/71248c77-7440-412c-b565-39c04108b98b">
-        ITfDocumentMgr::GetBase
+<a href="https://msdn.microsoft.com/71248c77-7440-412c-b565-39c04108b98b">ITfDocumentMgr::GetBase
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/afd5452b-4121-428d-801f-1638c2767c67">
-        ITfDocumentMgr::Push
+<a href="https://msdn.microsoft.com/afd5452b-4121-428d-801f-1638c2767c67">ITfDocumentMgr::Push
       </a>
  
 

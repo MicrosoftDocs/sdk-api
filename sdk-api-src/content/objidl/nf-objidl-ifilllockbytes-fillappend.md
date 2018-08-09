@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes_fillappend.htm
 old-project: stg
 ms.assetid: 3f25c48f-85a4-4778-b262-ad0c52cb1ac9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: FillAppend, FillAppend method [Structured Storage], FillAppend method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAppend method, IFillLockBytes.FillAppend, IFillLockBytes::FillAppend, _stg_ifilllockbytes_fillappend, objidl/IFillLockBytes::FillAppend, stg.ifilllockbytes_fillappend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>FillAppend</b> method writes a new block of bytes to the end of a byte array.
+The <b>FillAppend</b> method writes a new block of bytes to the end of a byte array.
 
 
 ## -parameters
@@ -79,8 +78,7 @@ Number of bytes that were successfully written.
 
 
 
-
-						This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL.
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL.
 
 
 

@@ -7,7 +7,7 @@ old-location: rras\mpradmininitializedll.htm
 old-project: rras
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
 ms.prod: windows
 ms.technology: windows-sdk

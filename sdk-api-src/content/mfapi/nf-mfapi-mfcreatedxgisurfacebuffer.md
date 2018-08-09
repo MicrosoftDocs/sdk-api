@@ -7,7 +7,7 @@ old-location: mf\mfcreatedxgisurfacebuffer.htm
 old-project: medfound
 ms.assetid: 5D859F36-A82B-488B-A2F6-C697A1AA86BC
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateDXGISurfaceBuffer, MFCreateDXGISurfaceBuffer function [Media Foundation], mf.mfcreatedxgisurfacebuffer, mfapi/MFCreateDXGISurfaceBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,13 @@ Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DX
 
 ### -param riid [in]
 
-
-            Identifies the type of DXGI surface. This value must be <b>IID_ID3D11Texture2D</b>.
+Identifies the type of DXGI surface. This value must be <b>IID_ID3D11Texture2D</b>.
           
 
 
 ### -param punkSurface [in]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the DXGI surface.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the DXGI surface.
           
 
 
@@ -80,8 +78,7 @@ The zero-based index of a subresource of the surface. The media buffer object is
 
 ### -param fBottomUpWhenLinear [in]
 
-
-            If <b>TRUE</b>, the buffer's <a href="https://msdn.microsoft.com/32601f2e-ab91-4a65-bcf4-8e063e90fbb0">IMF2DBuffer::ContiguousCopyTo</a> method copies the buffer into a bottom-up format. The bottom-up format is compatible with GDI for uncompressed RGB images. If this parameter is <b>FALSE</b>, the <b>ContiguousCopyTo</b> method copies the buffer into a top-down format, which is compatible with Direct3D.
+If <b>TRUE</b>, the buffer's <a href="https://msdn.microsoft.com/32601f2e-ab91-4a65-bcf4-8e063e90fbb0">IMF2DBuffer::ContiguousCopyTo</a> method copies the buffer into a bottom-up format. The bottom-up format is compatible with GDI for uncompressed RGB images. If this parameter is <b>FALSE</b>, the <b>ContiguousCopyTo</b> method copies the buffer into a top-down format, which is compatible with Direct3D.
           
 
 For more information about top-down versus bottom-up images, see <a href="https://msdn.microsoft.com/13cd1106-48b3-4522-ac09-8efbaab5c31d">Image Stride</a>.
@@ -89,8 +86,7 @@ For more information about top-down versus bottom-up images, see <a href="https:
 
 ### -param ppBuffer [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface. The caller must release the buffer.
+Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface. The caller must release the buffer.
           
 
 

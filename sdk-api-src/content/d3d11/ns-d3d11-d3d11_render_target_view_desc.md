@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_render_target_view_desc.htm
 old-project: direct3d11
 ms.assetid: b154ac98-49ed-4d00-8cb6-5e57680e125c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0571f2fa-1f94-b9a4-ea30-5f99a077c507, D3D11_RENDER_TARGET_VIEW_DESC, D3D11_RENDER_TARGET_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_RENDER_TARGET_VIEW_DESC, direct3d11.d3d11_render_target_view_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Specifies the subresources from a resource that are accessible using a render-ta
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
-The data format (see <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>).
+The data format (see <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>).
 
 
 ### -field ViewDimension

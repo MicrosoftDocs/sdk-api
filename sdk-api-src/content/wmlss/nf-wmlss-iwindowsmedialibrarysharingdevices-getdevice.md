@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDevices::GetDevice
 author: windows-sdk-content
 description: The GetDevice method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
 old-location: wmlss\IWMLSDevicesGetDevice.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: 38a1f5d2-0347-4564-9403-2bf726198aa6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetDevice, GetDevice method [Windows Media Library Sharing Services], GetDevice method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],GetDevice method, IWindowsMediaLibrarySharingDevices.GetDevice, IWindowsMediaLibrarySharingDevices::GetDevice, wmlss.IWMLSDevicesGetDevice, wmlss/IWindowsMediaLibrarySharingDevices::GetDevice
 ms.prod: windows
 ms.technology: windows-sdk

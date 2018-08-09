@@ -4,10 +4,10 @@ title: TSPI_providerShutdown function
 author: windows-sdk-content
 description: The TSPI_providerShutdown function shuts down the service provider. The service provider terminates any activities it has in progress and releases any resources it has allocated.
 old-location: tspi\tspi_providershutdown.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b13e0ed6-c053-4290-bc4c-5f66e4a376b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_providerShutdown, TSPI_providerShutdown function [TAPI 2.2], _tspi_tspi_providershutdown, tspi.tspi_providershutdown, tspi/TSPI_providerShutdown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\iswindowvisible.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowvisible.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IsWindowVisible, IsWindowVisible function [Windows and Messages], _win32_IsWindowVisible, _win32_iswindowvisible_cpp, winmsg.iswindowvisible, winui._win32_iswindowvisible, winuser/IsWindowVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ Any drawing to a window with the <b>WS_VISIBLE</b> style will not be displayed i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 

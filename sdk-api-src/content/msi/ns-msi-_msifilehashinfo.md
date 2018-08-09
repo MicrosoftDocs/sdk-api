@@ -4,10 +4,10 @@ title: "_MSIFILEHASHINFO"
 author: windows-sdk-content
 description: The MSIFILEHASHINFO structure contains the file hash information returned by MsiGetFileHash and used in the MsiFileHash table.
 old-location: setup\msifilehashinfo.htm
-old-project: Msi
+old-project: msi
 ms.assetid: b4176b5b-149d-4542-9a6c-27281877a3ff
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMSIFILEHASHINFO, PMSIFILEHASHINFO structure pointer, _MSIFILEHASHINFO, _msi_msifilehashinfo, msi/MSIFILEHASHINFO, msi/PMSIFILEHASHINFO, setup.msifilehashinfo"
 ms.prod: windows
 ms.technology: windows-sdk

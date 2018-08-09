@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_hittest_rectangle__single.htm
 old-project: tablet
 ms.assetid: 401c4f62-a406-49ac-9911-91f815cde9c8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 401c4f62-a406-49ac-9911-91f815cde9c8, HitTestWithRectangle, HitTestWithRectangle method [Tablet PC], HitTestWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestWithRectangle method, IInkDisp.HitTestWithRectangle, IInkDisp::HitTestWithRectangle, msinkaut/IInkDisp::HitTestWithRectangle, tablet.inkdisp_hittest_rectangle__single
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-          Retrieves the strokes that are contained within a specified rectangle.
+Retrieves the strokes that are contained within a specified rectangle.
 
 
 ## -parameters
@@ -159,7 +158,7 @@ To determine which points of a known stroke intersect the test area, call the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

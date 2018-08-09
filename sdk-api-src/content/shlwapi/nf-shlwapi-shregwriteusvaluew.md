@@ -7,7 +7,7 @@ old-location: shell\SHRegWriteUSValue.htm
 old-project: shell
 ms.assetid: f94569c6-415b-4263-bab4-8a5baca47901
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_DWORD_LITTLE_ENDIAN, REG_EXPAND_SZ, REG_FULL_RESOURCE_DESCRIPTOR, REG_LINK, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_QWORD_LITTLE_ENDIAN, REG_RESOURCE_LIST, REG_RESOURCE_REQUIREMENTS_LIST, REG_SZ, SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegWriteUSValue, SHRegWriteUSValue function [Windows Shell], SHRegWriteUSValueA, SHRegWriteUSValueW, _win32_SHRegWriteUSValue, shell.SHRegWriteUSValue, shlwapi/SHRegWriteUSValue, shlwapi/SHRegWriteUSValueA, shlwapi/SHRegWriteUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,15 @@ A handle to a currently open registry subkey. The subkey must have been opened w
 This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
 
 
-### -param pwzValue
+#### - pwzValue [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that specifies the name of the value. This value is an entry in the subkey specified by <i>hUSKey</i>. If a value with this name is not already present in the subkey, it will be added.
+
+                        
+
+If this parameter is <b>NULL</b> or an empty string, the function sets the type and data for the subkey's Default value.
 
 
 ### -param dwType [in]
@@ -193,29 +199,13 @@ Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszVa
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT (0x00000006)
-
-Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
+##### - dwType.REG_NONE (0x00000000)
 
 
-##### - dwFlags.SHREGSET_FORCE_HKCU (0x00000002)
-
-Write to <b>HKEY_CURRENT_USER</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
+##### - dwType.REG_SZ (0x00000001)
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM (0x00000008)
-
-Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
-
-
-##### - dwFlags.SHREGSET_HKCU (0x00000001)
-
-Write to <b>HKEY_CURRENT_USER</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey.
-
-
-##### - dwFlags.SHREGSET_HKLM (0x00000004)
-
-Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey..
+##### - dwType.REG_EXPAND_SZ (0x00000002)
 
 
 ##### - dwType.REG_BINARY (0x00000003)
@@ -224,16 +214,10 @@ Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>p
 ##### - dwType.REG_DWORD (0x00000004)
 
 
-##### - dwType.REG_DWORD_BIG_ENDIAN (0x00000005)
-
-
 ##### - dwType.REG_DWORD_LITTLE_ENDIAN (0x00000004)
 
 
-##### - dwType.REG_EXPAND_SZ (0x00000002)
-
-
-##### - dwType.REG_FULL_RESOURCE_DESCRIPTOR (0x00000009)
+##### - dwType.REG_DWORD_BIG_ENDIAN (0x00000005)
 
 
 ##### - dwType.REG_LINK (0x00000006)
@@ -242,7 +226,13 @@ Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>p
 ##### - dwType.REG_MULTI_SZ (0x00000007)
 
 
-##### - dwType.REG_NONE (0x00000000)
+##### - dwType.REG_RESOURCE_LIST (0x00000008)
+
+
+##### - dwType.REG_FULL_RESOURCE_DESCRIPTOR (0x00000009)
+
+
+##### - dwType.REG_RESOURCE_REQUIREMENTS_LIST (0x0000000A)
 
 
 ##### - dwType.REG_QWORD (0x0000000B)
@@ -251,24 +241,29 @@ Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>p
 ##### - dwType.REG_QWORD_LITTLE_ENDIAN (0x0000000B)
 
 
-##### - dwType.REG_RESOURCE_LIST (0x00000008)
+##### - dwFlags.SHREGSET_HKCU (0x00000001)
+
+Write to <b>HKEY_CURRENT_USER</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey.
 
 
-##### - dwType.REG_RESOURCE_REQUIREMENTS_LIST (0x0000000A)
+##### - dwFlags.SHREGSET_FORCE_HKCU (0x00000002)
+
+Write to <b>HKEY_CURRENT_USER</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
 
 
-##### - dwType.REG_SZ (0x00000001)
+##### - dwFlags.SHREGSET_HKLM (0x00000004)
+
+Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>pszValue</i> does not currently exist under the specified subkey..
 
 
-#### - pszValue [in]
+##### - dwFlags.SHREGSET_FORCE_HKLM (0x00000008)
 
-Type: <b>LPCTSTR</b>
+Write to <b>HKEY_LOCAL_MACHINE</b>. If a value of the name specified in <i>pszValue</i> already exists, it will be overwritten.
 
-A pointer to a null-terminated string that specifies the name of the value. This value is an entry in the subkey specified by <i>hUSKey</i>. If a value with this name is not already present in the subkey, it will be added.
 
-                        
+##### - dwFlags.SHREGSET_DEFAULT (0x00000006)
 
-If this parameter is <b>NULL</b> or an empty string, the function sets the type and data for the subkey's Default value.
+Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
 ## -returns

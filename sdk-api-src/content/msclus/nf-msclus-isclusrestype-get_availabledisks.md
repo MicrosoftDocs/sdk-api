@@ -7,7 +7,7 @@ old-location: mscs\clusrestype_availabledisks.htm
 old-project: mscs
 ms.assetid: fc700541-793b-423b-bea6-ad04deddb16a
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AvailableDisks property [Failover Cluster], AvailableDisks property [Failover Cluster],ClusResType object, ClusResType object [Failover Cluster],AvailableDisks property, ClusResType.AvailableDisks, ISClusResType.get_AvailableDisks, ISClusResType::get_AvailableDisks, _wolf_clusrestype.availabledisks, get_AvailableDisks, mscs.clusrestype_availabledisks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 Returns the 
     collection representing the <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disks</a> available to the 
     resource type. A Physical Disk is available if it is 
-    <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster-capable</a> and is currently not being 
+    <a href="c_gly.htm">cluster-capable</a> and is currently not being 
     used as a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
 
 This property is read-only.

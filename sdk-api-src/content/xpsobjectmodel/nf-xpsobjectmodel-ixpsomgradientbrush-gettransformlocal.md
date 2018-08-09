@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientbrush_gettransformlocal.htm
 old-project: printdocs
 ms.assetid: dfdd6797-b7e6-46fa-92b1-d9c418e8a510
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGradientBrush.GetTransformLocal, IXpsOMGradientBrush::GetTransformLocal, xps.ixpsomgradientbrush_gettransformlocal, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLocal
 ms.prod: windows
 ms.technology: windows-sdk

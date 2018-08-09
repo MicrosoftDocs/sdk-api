@@ -7,7 +7,7 @@ old-location: shell\SHDoDragDrop.htm
 old-project: shell
 ms.assetid: 76c98516-ede9-47de-b4ad-257a162775b9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHDoDragDrop, SHDoDragDrop function [Windows Shell], _win32_SHDoDragDrop, shell.SHDoDragDrop, shlobj_core/SHDoDragDrop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,11 @@ Type: <b>HWND</b>
 The handle of the window used to obtain the drag image. This value can be <b>NULL</b>. See Remarks for more details.
 
 
-### -param pdata
+### -param pdata [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
+
+A pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on a data object that contains the data being dragged.
 
 
 ### -param pdsrc [in]
@@ -96,13 +98,6 @@ The effects that the source allows in the drag-and-drop operation. The most sign
 Type: <b>DWORD*</b>
 
 A pointer to a value that indicates how the drag-and-drop operation affected the source data. The <i>pdwEffect</i> parameter is set only if the operation is not canceled. For a list of possible values, see <a href="https://msdn.microsoft.com/d8e46899-3fbf-4012-8dd3-67fa627526d5">DROPEFFECT</a>.
-
-
-#### - pdtobj [in]
-
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
-
-A pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on a data object that contains the data being dragged.
 
 
 ## -returns

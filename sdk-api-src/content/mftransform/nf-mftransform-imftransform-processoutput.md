@@ -7,7 +7,7 @@ old-location: mf\imftransform_processoutput.htm
 old-project: medfound
 ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMFTransform.ProcessOutput, IMFTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation],IMFTransform interface, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Generates output from the current input data.
+Generates output from the current input data.
         
 
 
@@ -64,29 +63,25 @@ req.product: GDI+ 1.1
 
 ### -param dwFlags [in]
 
-
-            Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/846e91a5-7cd8-4b58-9484-b9cb9af0bebf">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/846e91a5-7cd8-4b58-9484-b9cb9af0bebf">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
           
 
 
 ### -param cOutputBufferCount [in]
 
-
-            Number of elements in the <i>pOutputSamples</i> array. The value must be at least 1.
+Number of elements in the <i>pOutputSamples</i> array. The value must be at least 1.
           
 
 
 ### -param pOutputSamples [in, out]
 
-
-            Pointer to an array of <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
+Pointer to an array of <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
           
 
 
 ### -param pdwStatus [out]
 
-
-            Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/80804b33-1dac-41f8-8446-8f929bf9b931">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/80804b33-1dac-41f8-8446-8f929bf9b931">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
           
 
 
@@ -94,8 +89,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -110,8 +104,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -134,8 +127,7 @@ The <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">Pr
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream identifier in the <b>dwStreamID</b> member of one or more <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures.
+Invalid stream identifier in the <b>dwStreamID</b> member of one or more <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures.
               
 
 </td>
@@ -147,8 +139,7 @@ The <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">Pr
 </dl>
 </td>
 <td width="60%">
-
-                The transform cannot produce output data until it receives more input data.
+The transform cannot produce output data until it receives more input data.
               
 
 </td>
@@ -160,8 +151,7 @@ The <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">Pr
 </dl>
 </td>
 <td width="60%">
-
-                The format has changed on an output stream, or there is a new preferred format, or there is a new output stream.
+The format has changed on an output stream, or there is a new preferred format, or there is a new output stream.
               
 
 </td>
@@ -173,8 +163,7 @@ The <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">Pr
 </dl>
 </td>
 <td width="60%">
-
-                You must set the media type on one or more streams of the MFT.
+You must set the media type on one or more streams of the MFT.
               
 
 </td>
@@ -191,34 +180,28 @@ The <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">Pr
 
 
 
-
-        The size of the <i>pOutputSamples</i> array must be equal to or greater than the number of <i>selected</i> output streams. The number of selected output streams equals the total number of output streams minus the number of <i>deselected</i> streams. A stream is deselected if it has the <b>MFT_OUTPUT_STREAM_OPTIONAL</b> flag and the caller does not set a media type (or sets the media type to <b>NULL</b>). For more information, see <a href="https://msdn.microsoft.com/f67e1e81-baf5-414a-ac23-45d4d6317255">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
+The size of the <i>pOutputSamples</i> array must be equal to or greater than the number of <i>selected</i> output streams. The number of selected output streams equals the total number of output streams minus the number of <i>deselected</i> streams. A stream is deselected if it has the <b>MFT_OUTPUT_STREAM_OPTIONAL</b> flag and the caller does not set a media type (or sets the media type to <b>NULL</b>). For more information, see <a href="https://msdn.microsoft.com/f67e1e81-baf5-414a-ac23-45d4d6317255">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
       
 
 This method generates output samples and can also generate events. If the method succeeds, at least one of the following conditions is true:
 
 <ul>
-<li>
-            One or more samples in the <i>pOutputSamples</i> array contains output data.
+<li>One or more samples in the <i>pOutputSamples</i> array contains output data.
           </li>
-<li>
-            One or more members of the <i>pOutputSamples</i> array contains a non-empty collection of events.
+<li>One or more members of the <i>pOutputSamples</i> array contains a non-empty collection of events.
           </li>
 </ul>
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including Mftransform.h, this method is renamed <b>MFTProcessOutput</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including Mftransform.h, this method is renamed <b>MFTProcessOutput</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 <h3><a id="Output_Buffers"></a><a id="output_buffers"></a><a id="OUTPUT_BUFFERS"></a>Output Buffers</h3>
 The MFT returns output data for a stream through the <b>pSample</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure. This structure member is a pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of a media sample. (See <a href="https://msdn.microsoft.com/14389eea-8091-4c10-849e-53db3e98a7c8">Media Samples</a>.) The media sample is allocated either by the caller or by the MFT, depending on the MFT's allocation model. To find the allocation model, call <a href="https://msdn.microsoft.com/06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5">IMFTransform::GetOutputStreamInfo</a> and examine the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/4181d8b8-7c1b-4f8e-a0c6-63ab039539f6">MFT_OUTPUT_STREAM_INFO</a> structure:
 
 <ul>
-<li>
-              If the <b>MFT_OUTPUT_STREAM_PROVIDES_SAMPLES</b> flag is present, the MFT allocates the media sample.
+<li>If the <b>MFT_OUTPUT_STREAM_PROVIDES_SAMPLES</b> flag is present, the MFT allocates the media sample.
             </li>
-<li>
-              If the <b>MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES</b> flag is present, the caller can optionally provide a media sample. If <b>pSample</b> is <b>NULL</b>, the MFT will allocate the media sample.
+<li>If the <b>MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES</b> flag is present, the caller can optionally provide a media sample. If <b>pSample</b> is <b>NULL</b>, the MFT will allocate the media sample.
             </li>
-<li>
-              If neither of these two flags is present, the caller must allocate the media sample.
+<li>If neither of these two flags is present, the caller must allocate the media sample.
             </li>
 </ul>
 These flags remain constant unless the media type for the output stream changes.
@@ -241,14 +224,11 @@ The MFT can return a collection of event objects in the <b>pEvents</b> member of
 To send an event to the caller, the MFT performs the following steps inside <b>ProcessOutput</b>:
 
 <ol>
-<li>
-              Create a new collection object by calling <a href="https://msdn.microsoft.com/6a7bf7b6-62f1-4eac-9849-39021ee50f42">MFCreateCollection</a>.
+<li>Create a new collection object by calling <a href="https://msdn.microsoft.com/6a7bf7b6-62f1-4eac-9849-39021ee50f42">MFCreateCollection</a>.
             </li>
-<li>
-              Add one or more events to the collection by calling <a href="https://msdn.microsoft.com/1ef2463b-3d5e-4ed0-ab7c-68758e6cc056">IMFCollection::AddElement</a>.
+<li>Add one or more events to the collection by calling <a href="https://msdn.microsoft.com/1ef2463b-3d5e-4ed0-ab7c-68758e6cc056">IMFCollection::AddElement</a>.
             </li>
-<li>
-              Set the <b>pEvents</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure equal to the <a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a> pointer. The MFT leaves a reference count on this interface; the caller must release the pointer.
+<li>Set the <b>pEvents</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure equal to the <a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a> pointer. The MFT leaves a reference count on this interface; the caller must release the pointer.
             </li>
 </ol>
 Events do not have time stamps. The caller should process the events before processing the output samples. In other words, events occur at the point in the stream immediately after the previous call to <b>ProcessOutput</b>, and prior to any output samples returned from the current <b>ProcessOutput</b> call.
@@ -285,14 +265,11 @@ An MFT should not use the <a href="https://msdn.microsoft.com/a37d0840-c896-43a0
 The <b>ProcessOutput</b> method can cause any of the following changes in an output stream:
 
 <ul>
-<li>
-              The deletion of an output stream. To signal a stream deletion, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_STREAM_END</b> flag in the <b>dwStatus</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
+<li>The deletion of an output stream. To signal a stream deletion, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_STREAM_END</b> flag in the <b>dwStatus</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
             </li>
-<li>
-              The creation of a new output stream. To signal a new output stream, the MFT sets the <b>MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS</b> flag in the <i>pdwStatus</i> parameter. A new stream can have the same stream identifier as a deleted stream.
+<li>The creation of a new output stream. To signal a new output stream, the MFT sets the <b>MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS</b> flag in the <i>pdwStatus</i> parameter. A new stream can have the same stream identifier as a deleted stream.
             </li>
-<li>
-              A format change on an output stream. To signal a format change, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag in the <b>dwStatus</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
+<li>A format change on an output stream. To signal a format change, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag in the <b>dwStatus</b> member of the <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
             </li>
 </ul>
 It is possible that all three of these actions will result from a single call to <b>ProcessOutput</b>. The caller must respond to them in the order listed here—first deletions, then additions, then format changes.
@@ -303,17 +280,15 @@ The <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag signals a format change on 
 An input sample might have attributes, which are accessed through the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. Unless a specific attribute no longer applies, all attributes should be copied into the corresponding output sample. The responsibily for copying attributes is determined as follows:
 
 <ul>
-<li>
-              If the value of the <a href="https://msdn.microsoft.com/039ecb35-9aa9-4e8a-bbbc-042b9c4c874c">MFPKEY_EXATTRIBUTE_SUPPORTED</a> property on the MFT is <b>VARIANT_TRUE</b>, the MFT copies the attributes.
+<li>If the value of the <a href="https://msdn.microsoft.com/039ecb35-9aa9-4e8a-bbbc-042b9c4c874c">MFPKEY_EXATTRIBUTE_SUPPORTED</a> property on the MFT is <b>VARIANT_TRUE</b>, the MFT copies the attributes.
             </li>
-<li>
-              If the value of <a href="https://msdn.microsoft.com/039ecb35-9aa9-4e8a-bbbc-042b9c4c874c">MFPKEY_EXATTRIBUTE_SUPPORTED</a> is <b>VARIANT_FALSE</b>, or the property is not set, the client must copy the sample attributes. Do not overwrite any attributes that the MFT sets on the output sample.
+<li>If the value of <a href="https://msdn.microsoft.com/039ecb35-9aa9-4e8a-bbbc-042b9c4c874c">MFPKEY_EXATTRIBUTE_SUPPORTED</a> is <b>VARIANT_FALSE</b>, or the property is not set, the client must copy the sample attributes. Do not overwrite any attributes that the MFT sets on the output sample.
             </li>
 </ul>
 For a list of sample attributes, see <a href="https://msdn.microsoft.com/64aead5a-61c4-4e83-a556-af33e0aa82be">Sample Attributes</a>.
 
 <h3><a id="Asynchronous_Processing"></a><a id="asynchronous_processing"></a><a id="ASYNCHRONOUS_PROCESSING"></a>Asynchronous Processing</h3>
-The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="https://msdn.microsoft.com/library/Dd317909(v=VS.85).aspx">Asynchronous MFTs</a>.
+The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="asynchronous_mfts.htm">Asynchronous MFTs</a>.
 
 
 

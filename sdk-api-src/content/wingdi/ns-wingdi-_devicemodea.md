@@ -7,7 +7,7 @@ old-location: gdi\devmode.htm
 old-project: printdocs
 ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _devicemodeA, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -1263,20 +1263,17 @@ This member must be zero.
 <a id="DMBIN_TRACTOR"></a>
 <a id="dmbin_tractor"></a>
 
-##### - dmDefaultSource.DMBIN_SMALLFMT
-
-<a id="DMBIN_UPPER"></a>
-<a id="dmbin_upper"></a>
-
 ##### - dmDefaultSource.DMBIN_TRACTOR
 
 <a id="DMBIN_SMALLFMT"></a>
 <a id="dmbin_smallfmt"></a>
 
+##### - dmDefaultSource.DMBIN_SMALLFMT
+
+<a id="DMBIN_UPPER"></a>
+<a id="dmbin_upper"></a>
+
 ##### - dmDefaultSource.DMBIN_UPPER
-
-
-##### - dmPrintQuality.DMRES_DRAFT
 
 
 ##### - dmPrintQuality.DMRES_HIGH
@@ -1284,15 +1281,18 @@ This member must be zero.
 <a id="DMRES_MEDIUM"></a>
 <a id="dmres_medium"></a>
 
+##### - dmPrintQuality.DMRES_MEDIUM
+
+<a id="DMRES_LOW"></a>
+<a id="dmres_low"></a>
+
 ##### - dmPrintQuality.DMRES_LOW
 
 <a id="DMRES_DRAFT"></a>
 <a id="dmres_draft"></a>
 
-##### - dmPrintQuality.DMRES_MEDIUM
+##### - dmPrintQuality.DMRES_DRAFT
 
-<a id="DMRES_LOW"></a>
-<a id="dmres_low"></a>
 
 ## -remarks
 

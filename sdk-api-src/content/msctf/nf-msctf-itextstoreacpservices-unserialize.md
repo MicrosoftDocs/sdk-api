@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_unserialize.htm
 old-project: TSF
 ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unserialize method, ITextStoreACPServices.Unserialize, ITextStoreACPServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -159,14 +159,12 @@ While calling this method, the application must be able to grant a synchronous r
 
 
 
-<a href="https://msdn.microsoft.com/14be52d1-4f8c-4deb-aa92-470c3608c841">
-        ITextStoreACPServices::Serialize
+<a href="https://msdn.microsoft.com/14be52d1-4f8c-4deb-aa92-470c3608c841">ITextStoreACPServices::Serialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7d7af737-6241-43a9-946e-6a03a423b20f">
-        ITfPersistentPropertyLoaderACP
+<a href="https://msdn.microsoft.com/7d7af737-6241-43a9-946e-6a03a423b20f">ITfPersistentPropertyLoaderACP
       </a>
 
 
@@ -176,8 +174,7 @@ While calling this method, the application must be able to grant a synchronous r
 
 
 
-<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">
-        TF_PERSISTENT_PROPERTY_HEADER_ACP
+<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">TF_PERSISTENT_PROPERTY_HEADER_ACP
       </a>
  
 

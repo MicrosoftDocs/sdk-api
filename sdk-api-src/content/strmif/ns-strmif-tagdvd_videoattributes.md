@@ -7,7 +7,7 @@ old-location: dshow\dvd_videoattributes.htm
 old-project: DirectShow
 ms.assetid: b395a322-d63e-41a0-b97a-88f99aeba0e5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: DVD_VideoAttributes, DVD_VideoAttributes structure [DirectShow], DVD_VideoAttributesStructure, dshow.dvd_videoattributes, strmif/DVD_VideoAttributes, tagDVD_VideoAttributes
 ms.prod: windows
 ms.technology: windows-sdk

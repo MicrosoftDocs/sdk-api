@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecorddurationbyindex.htm
 old-project: mstv
 ms.assetid: e7021a9e-4266-4c17-8874-4b10cf7d6428
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordDurationByIndex, GetRecordDurationByIndex method [Microsoft TV Technologies], GetRecordDurationByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDurationByIndex method, IISDB_SDTT.GetRecordDurationByIndex, IISDB_SDTT::GetRecordDurationByIndex, dvbsiparser/IISDB_SDTT::GetRecordDurationByIndex, mstv.iisdb_sdtt_getrecorddurationbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Receives the event duration from a schedule record
+Receives the event duration from a schedule record
   in an Integrated Services Digital Broadcasting
   (ISDB)  Software Download
   Trigger Table
@@ -66,17 +65,14 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">IISDB_SDTT::GetCountOfRecords</a>
-  method to get the number of records in the SDTT.
+Specifies the record number,
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">IISDB_SDTT::GetCountOfRecords</a>method to get the number of records in the SDTT.
 
 
 
 ### -param dwIndex [in]
 
-
-  Specifies which descriptor to retrieve, indexed from zero.
+Specifies which descriptor to retrieve, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/04f32111-4c4b-4f5b-81d1-fa7c19841cd8">IISDB_SDTT::GetRecordCountOfDescriptors</a> method to get the number
   of descriptors for a particular record.
 

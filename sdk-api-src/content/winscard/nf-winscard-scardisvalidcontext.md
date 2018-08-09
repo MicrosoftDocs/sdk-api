@@ -4,10 +4,10 @@ title: SCardIsValidContext function
 author: windows-sdk-content
 description: Determines whether a smart card context handle is valid.
 old-location: security\scardisvalidcontext.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 50bcb6aa-6265-4035-8265-45990f791ce3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCardIsValidContext, SCardIsValidContext function [Security], _smart_scardisvalidcontext, security.scardisvalidcontext, winscard/SCardIsValidContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ The <i>hContext</i> parameter is not valid.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

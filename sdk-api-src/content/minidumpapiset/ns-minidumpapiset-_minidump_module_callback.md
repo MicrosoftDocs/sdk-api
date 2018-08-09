@@ -7,7 +7,7 @@ old-location: base\minidump_module_callback_str.htm
 old-project: debug
 ms.assetid: 8ca48df0-ed0e-4ee3-a20a-d89057be37f3
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK structure, PMINIDUMP_MODULE_CALLBACK, PMINIDUMP_MODULE_CALLBACK structure pointer, _MINIDUMP_MODULE_CALLBACK, _win32_minidump_module_callback_str, base.minidump_module_callback_str, minidumpapiset/MINIDUMP_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_MODULE_CALLBACK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ The timestamp value of the module executable image, in <b>time_t</b> format.
 ### -field VersionInfo
 
 A 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
+<a href="_win32_vs_fixedfileinfo_str">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
 
 
 ### -field CvRecord
@@ -125,7 +125,7 @@ The size of the miscellaneous record of the module in the <b>MiscRecord</b> memb
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a>
+<a href="_win32_vs_fixedfileinfo_str">VS_FIXEDFILEINFO</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\Header_InsertItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_InsertItem, Header_InsertItem macro [Windows Controls], _win32_Header_InsertItem, _win32_Header_InsertItem_cpp, commctrl/Header_InsertItem, controls.Header_InsertItem, controls._win32_Header_InsertItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Inserts a new item into a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775351(v=VS.85).aspx">HDM_INSERTITEM</a> message explicitly. 
+Inserts a new item into a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/aececf32-090d-4cd4-a239-4435a322f72e">HDM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -67,23 +67,18 @@ A handle to the header control.
 
 ### -param i
 
-TBD
+Type: <b>int</b>
+
+The index of the item after which the new item is to be inserted. The new item is inserted at the end of the header control if 
+					<i>index</i> is greater than or equal to the number of items in the control. If 
+					<i>index</i> is zero, the new item is inserted at the beginning of the header control. 
 
 
 ### -param phdi
 
 Type: <b>const LPHDITEM</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure that contains information about the new item. 
-
-
-#### - index
-
-Type: <b>int</b>
-
-The index of the item after which the new item is to be inserted. The new item is inserted at the end of the header control if 
-					<i>index</i> is greater than or equal to the number of items in the control. If 
-					<i>index</i> is zero, the new item is inserted at the beginning of the header control. 
+A pointer to an <a href="https://msdn.microsoft.com/2a717394-9123-409d-bda9-8e4ac6534101">HDITEM</a> structure that contains information about the new item. 
 
 
 ## -remarks

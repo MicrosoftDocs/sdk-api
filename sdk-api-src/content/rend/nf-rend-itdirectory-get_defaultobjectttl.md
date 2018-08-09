@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_defaultobjectttl.htm
 old-project: tapi
 ms.assetid: f0a24ad9-0020-4f62-a0f2-071b9d251f79
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DefaultObjectTTL method, ITDirectory.get_DefaultObjectTTL, ITDirectory::get_DefaultObjectTTL, _tapi3_itdirectory_get_defaultobjectttl, get_DefaultObjectTTL, get_DefaultObjectTTL method [TAPI 2.2], get_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DefaultObjectTTL, tapi3.itdirectory_get_defaultobjectttl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

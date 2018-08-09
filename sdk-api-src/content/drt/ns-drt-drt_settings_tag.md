@@ -7,7 +7,7 @@ old-location: p2p\drt_settings.htm
 old-project: p2psdk
 ms.assetid: 22408b8e-b114-43cd-8f84-3eaf8508f441
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDRT_SETTINGS, DRT_SETTINGS, DRT_SETTINGS structure [Peer Networking], PDRT_SETTINGS, PDRT_SETTINGS structure pointer [Peer Networking], drt/DRT_SETTINGS, drt/PDRT_SETTINGS, drt_settings_tag, p2p.drt_settings"
 ms.prod: windows
 ms.technology: windows-sdk

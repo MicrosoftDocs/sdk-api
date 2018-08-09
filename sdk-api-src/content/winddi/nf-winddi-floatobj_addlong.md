@@ -7,7 +7,7 @@ old-location: display\floatobj_addlong.htm
 old-project: display
 ms.assetid: a6355e47-5373-4b03-bafc-308a64e8e0aa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: FLOATOBJ_AddLong, FLOATOBJ_AddLong function [Display Devices], display.floatobj_addlong, gdifncs_d669d0ec-1d1e-4e14-b259-cd7b8bfe5d85.xml, winddi/FLOATOBJ_AddLong
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in, out]
+
+Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the sum of *<i>pf</i> and *<i>f</i>.
+
+
 #### - l [in]
 
 Specifies the LONG operand. This value is converted to a FLOATOBJ for the summation.
-
-
-#### - pf [in, out]
-
-Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the sum of *<i>pf</i> and *<i>f</i>.
 
 
 ## -returns

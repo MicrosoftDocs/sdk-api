@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilegeset_deleteall.htm
 old-project: WmiSdk
 ms.assetid: 368caa14-1c53-4090-8569-97ea743905de
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: DeleteAll, DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation],ISWbemPrivilegeSet interface, DeleteAll method [Windows Management Instrumentation],SWbemPrivilegeSet object, ISWbemPrivilegeSet interface [Windows Management Instrumentation],DeleteAll method, ISWbemPrivilegeSet.DeleteAll, ISWbemPrivilegeSet::DeleteAll, SWbemPrivilegeSet object [Windows Management Instrumentation],DeleteAll method, SWbemPrivilegeSet.DeleteAll, _hmm_swbemprivilegeset.deleteall, wmi.swbemprivilegeset_deleteall
 ms.prod: windows
 ms.technology: windows-sdk

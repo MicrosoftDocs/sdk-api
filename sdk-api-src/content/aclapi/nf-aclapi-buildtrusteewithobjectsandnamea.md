@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithobjectsandname.htm
 old-project: secauthz
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>BuildTrusteeWithObjectsAndName</b> function initializes a 
+The <b>BuildTrusteeWithObjectsAndName</b> function initializes a 
 <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure with the object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) information and  initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.
 
 
@@ -127,7 +126,7 @@ For more information about object-specific ACEs, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

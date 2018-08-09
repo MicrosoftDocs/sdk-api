@@ -4,10 +4,10 @@ title: QueryServiceConfigA function
 author: windows-sdk-content
 description: Retrieves the configuration parameters of the specified service.
 old-location: base\queryserviceconfig.htm
-old-project: Services
+old-project: services
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: QueryServiceConfig, QueryServiceConfig function, QueryServiceConfigA, QueryServiceConfigW, _win32_queryserviceconfig, base.queryserviceconfig, winsvc/QueryServiceConfig, winsvc/QueryServiceConfigA, winsvc/QueryServiceConfigW
 ms.prod: windows
 ms.technology: windows-sdk

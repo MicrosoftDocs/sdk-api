@@ -7,7 +7,7 @@ old-location: shell\SizeTToInt.htm
 old-project: shell
 ms.assetid: 65f178c1-8029-40c5-af31-03f158d90582
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SizeTToInt, SizeTToInt function [Windows Shell], ULongPtrToInt, _shell_SizeTToInt, intsafe/SizeTToInt, shell.SizeTToInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ Converts a value of type <b>size_t</b> to a value of type <b>INT</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>size_t</b>
+
+The value to be converted.
 
 
 ### -param piResult [out]
@@ -69,13 +71,6 @@ TBD
 Type: <b>INT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - cbOperand [in]
-
-Type: <b>size_t</b>
-
-The value to be converted.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IEnumTerminal::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_next.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d419fd5e-2e08-4d41-93c2-062cd86973f4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: IEnumTerminal interface [TAPI 2.2],Next method, IEnumTerminal.Next, IEnumTerminal::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumTerminal interface, _tapi3_ienumterminal_next, tapi3.ienumterminal_next, tapi3if/IEnumTerminal::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>IEnumTerminal::Next</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface returned by <b>IEnumTerminal::Next</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 

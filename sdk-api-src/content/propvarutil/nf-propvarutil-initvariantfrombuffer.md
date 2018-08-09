@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromBuffer.htm
 old-project: properties
 ms.assetid: 4dd28a13-2161-4258-a32f-57e5bd8ce091
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromBuffer, InitVariantFromBuffer function [Windows Properties], _shell_InitVariantFromBuffer, properties.InitVariantFromBuffer, propvarutil/InitVariantFromBuffer, shell.InitVariantFromBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI1 variant..
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,11 +132,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>
+<a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
+<a href="shell.VariantToBuffer">VariantToBuffer</a>
  
 
  

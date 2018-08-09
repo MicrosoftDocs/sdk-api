@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser.htm
 old-project: mstv
 ms.assetid: dbe922b3-b843-4eaa-807d-5608cfbb9686
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], IAtscPsipParser interface [Microsoft TV Technologies],described, IAtscPsipParserInterface, atscpsipparser/IAtscPsipParser, mstv.iatscpsipparser
 ms.prod: windows
 ms.technology: windows-sdk

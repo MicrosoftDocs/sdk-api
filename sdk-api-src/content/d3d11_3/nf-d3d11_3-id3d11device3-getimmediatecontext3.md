@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_getimmediatecontext3.htm
 old-project: direct3d11
 ms.assetid: E9E247C3-6326-46AC-A742-F5A4BE701B5B
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetImmediateContext3, GetImmediateContext3 method [Direct3D 11], GetImmediateContext3 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],GetImmediateContext3 method, ID3D11Device3.GetImmediateContext3, ID3D11Device3::GetImmediateContext3, d3d11_3/ID3D11Device3::GetImmediateContext3, direct3d11.id3d11device3_getimmediatecontext3
 ms.prod: windows
 ms.technology: windows-sdk

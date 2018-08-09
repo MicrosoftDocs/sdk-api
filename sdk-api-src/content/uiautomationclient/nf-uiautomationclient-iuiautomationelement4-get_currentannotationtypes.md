@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationTypes.htm
 old-project: WinAuto
 ms.assetid: 665297AC-AD49-44F4-A51C-16D3EC85B431
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CurrentAnnotationTypes property [Windows Accessibility], CurrentAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationTypes property, IUIAutomationElement4.CurrentAnnotationTypes, IUIAutomationElement4.get_CurrentAnnotationTypes, IUIAutomationElement4::CurrentAnnotationTypes, IUIAutomationElement4::get_CurrentAnnotationTypes, get_CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845692(v=VS.85).aspx">CachedAnnotationTypes</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes">CachedAnnotationTypes</a>
 
 
 

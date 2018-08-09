@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_put_blockunrateddelay.htm
 old-project: mstv
 ms.assetid: 2caabce8-57b0-4a43-87b7-1b045ca573db
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRatedDelay method, IDTFilter.put_BlockUnRatedDelay, IDTFilter::put_BlockUnRatedDelay, IDTFilterput_BlockUnRatedDelay, encdec/IDTFilter::put_BlockUnRatedDelay, mstv.idtfilter_put_blockunrateddelay, put_BlockUnRatedDelay, put_BlockUnRatedDelay method [Microsoft TV Technologies], put_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface
 ms.prod: windows
 ms.technology: windows-sdk

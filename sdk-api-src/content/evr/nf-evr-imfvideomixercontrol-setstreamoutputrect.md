@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
 old-project: medfound
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Sets the position of a video stream within the composition rectangle.
+Sets the position of a video stream within the composition rectangle.
         
 
 
@@ -76,8 +75,7 @@ Pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +90,7 @@ Pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -105,8 +102,7 @@ Pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4
 </dl>
 </td>
 <td width="60%">
-
-                The coordinates of the bounding rectangle given in <i>pnrcOutput</i> are not valid.
+The coordinates of the bounding rectangle given in <i>pnrcOutput</i> are not valid.
               
 
 </td>
@@ -118,8 +114,7 @@ Pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream identifier.
+Invalid stream identifier.
               
 
 </td>
@@ -134,17 +129,15 @@ Pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4
 
 
 
-
-        The mixer draws each video stream inside a bounding rectangle that is specified relative to the final video image. This bounding rectangle is given in <i>normalized</i> coordinates. For more information, see <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4721526">MFVideoNormalizedRect</a> structure.
+The mixer draws each video stream inside a bounding rectangle that is specified relative to the final video image. This bounding rectangle is given in <i>normalized</i> coordinates. For more information, see <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4721526">MFVideoNormalizedRect</a> structure.
       
 
-
-        The coordinates of the bounding rectangle must fall within the range [0.0, 1.0]. Also, the X and Y coordinates of the upper-left corner cannot exceed the X and Y coordinates of the lower-right corner. In other words, the bounding rectangle must fit entirely within the composition rectangle and cannot be flipped vertically or horizontally.
+The coordinates of the bounding rectangle must fall within the range [0.0, 1.0]. Also, the X and Y coordinates of the upper-left corner cannot exceed the X and Y coordinates of the lower-right corner. In other words, the bounding rectangle must fit entirely within the composition rectangle and cannot be flipped vertically or horizontally.
       
 
 The following diagram shows how the EVR mixes substreams.
 
-<img alt="Diagram showing an image, then that image inside a larger output rectangle, then a portion of the image in a source rectangle" border="" src="./images/d87d365f-a004-4896-ad03-48cd28449403.gif"/>
+<img alt="Diagram showing an image, then that image inside a larger output rectangle, then a portion of the image in a source rectangle" border="" src="images/d87d365f-a004-4896-ad03-48cd28449403.gif"/>
 The output rectangle for the stream is specified by calling <b>SetStreamOutputRect</b>. The source rectangle is specified by calling <a href="https://msdn.microsoft.com/5dc789b7-e206-4f1d-a0b2-12cb98ce4184">IMFVideoDisplayControl::SetVideoPosition</a>. The mixer applies the output rectangle first, when it mixes the streams into a single bounding rectangle. This bounding rectangle is called <i>composition space</i>. Then the presenter applies the source rectangle to the composited image.
 
 

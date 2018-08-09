@@ -7,7 +7,7 @@ old-location: gdi\setbrushorgex.htm
 old-project: gdi
 ms.assetid: dcc7575a-49fd-4306-8baa-57e9e0d5ed1f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetBrushOrgEx, SetBrushOrgEx function [Windows GDI], _win32_SetBrushOrgEx, gdi.setbrushorgex, wingdi/SetBrushOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,14 @@ The <b>SetBrushOrgEx</b> function sets the brush origin that GDI assigns to the 
 A handle to the device context.
 
 
-### -param x
+### -param x [in]
 
-TBD
+The x-coordinate, in device units, of the new brush origin. If this value is greater than the brush width, its value is reduced using the modulus operator (<i>nXOrg</i> <b>mod</b> brush width).
 
 
-### -param y
+### -param y [in]
 
-TBD
+The y-coordinate, in device units, of the new brush origin. If this value is greater than the brush height, its value is reduced using the modulus operator (<i>nYOrg</i> <b>mod</b> brush height).
 
 
 ### -param lppt [out]
@@ -83,16 +83,6 @@ TBD
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the previous brush origin.
 
 This parameter can be <b>NULL</b> if the previous brush origin is not required.
-
-
-#### - nXOrg [in]
-
-The x-coordinate, in device units, of the new brush origin. If this value is greater than the brush width, its value is reduced using the modulus operator (<i>nXOrg</i> <b>mod</b> brush width).
-
-
-#### - nYOrg [in]
-
-The y-coordinate, in device units, of the new brush origin. If this value is greater than the brush height, its value is reduced using the modulus operator (<i>nYOrg</i> <b>mod</b> brush height).
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: controls\Pager_SetBorder.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setborder.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Pager_SetBorder, Pager_SetBorder macro [Windows Controls], _win32_Pager_SetBorder, _win32_Pager_SetBorder_cpp, commctrl/Pager_SetBorder, controls.Pager_SetBorder, controls._win32_Pager_SetBorder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760880(v=VS.85).aspx">PGM_SETBORDER</a> message explicitly. 
+Sets the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/073a1f9e-f05b-4203-9035-8106e87e55cd">PGM_SETBORDER</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Sets the current border size for the pager control. You can use this macro or se
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the pager control. 
 
 
 ### -param iBorder
@@ -69,11 +71,4 @@ Type: <b>int</b>
 
 New size of the border, in pixels. This value should not be larger than the pager button or less than zero. If <i>iBorder</i> is too large, the border will be drawn the same size as the button. If 
 <i>iBorder</i> is negative, the border size will be set to zero. 
-
-
-#### - hwndPager
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the pager control. 
 

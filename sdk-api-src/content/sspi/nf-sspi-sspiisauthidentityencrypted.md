@@ -4,10 +4,10 @@ title: SspiIsAuthIdentityEncrypted function
 author: windows-sdk-content
 description: Indicates whether the specified identity structure is encrypted.
 old-location: security\sspiisauthidentityencrypted.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: b85095f5-0ca5-4d75-866d-9b756404c1d9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [Security], security.sspiisauthidentityencrypted, sspi/SspiIsAuthIdentityEncrypted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SspiIsAuthIdentityEncrypted function

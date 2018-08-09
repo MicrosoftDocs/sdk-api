@@ -7,7 +7,7 @@ old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm
 old-project: medfound
 ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByIndex, GetOutputTrustAuthorityByIndex method [Media Foundation], GetOutputTrustAuthorityByIndex method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityByIndex method, IMFTrustedOutput.GetOutputTrustAuthorityByIndex, IMFTrustedOutput::GetOutputTrustAuthorityByIndex, mf.imftrustedoutput_getoutputtrustauthoritybyindex, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets an output trust authority (OTA), specified by index.
+Gets an output trust authority (OTA), specified by index.
 
 
 ## -parameters
@@ -63,15 +62,13 @@ req.product: GDI+ 1.1
 
 ### -param dwIndex [in]
 
-
-            Zero-based index of the OTA to retrieve. To get the number of OTAs provided by this object, call <a href="https://msdn.microsoft.com/3aae6859-0b32-4705-9045-b98d0bbf43a6">IMFTrustedOutput::GetOutputTrustAuthorityCount</a>.
+Zero-based index of the OTA to retrieve. To get the number of OTAs provided by this object, call <a href="https://msdn.microsoft.com/3aae6859-0b32-4705-9045-b98d0bbf43a6">IMFTrustedOutput::GetOutputTrustAuthorityCount</a>.
           
 
 
 ### -param ppauthority [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/21594ac0-7e3c-44a3-bbee-64316dd51824">IMFOutputTrustAuthority</a> interface of the OTA. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/21594ac0-7e3c-44a3-bbee-64316dd51824">IMFOutputTrustAuthority</a> interface of the OTA. The caller must release the interface.
           
 
 

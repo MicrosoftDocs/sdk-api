@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethods_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_956c.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxInboundRoutingMethods object, FaxInboundRoutingMethods object [Fax Service],Count property, FaxInboundRoutingMethods.Count, IFaxInboundRoutingMethods.get_Count, IFaxInboundRoutingMethods::get_Count, _mfax_faxinboundroutingmethods.count, fax._mfax_faxinboundroutingmethods_count, fax._mfax_faxinboundroutingmethods_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a> collection. This is the total number of inbound routing methods associated with the fax server.
+The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a> collection. This is the total number of inbound routing methods associated with the fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686674(v=VS.85).aspx">FaxInboundRoutingMethods</a>
+<a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a>
+<a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

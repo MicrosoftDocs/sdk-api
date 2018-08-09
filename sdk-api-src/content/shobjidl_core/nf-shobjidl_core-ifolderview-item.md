@@ -7,7 +7,7 @@ old-location: shell\IFolderView_Item.htm
 old-project: shell
 ms.assetid: c130ef36-1255-4c57-be31-7fc2029d9f66
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFolderView interface [Windows Shell],Item method, IFolderView.Item, IFolderView::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IFolderView interface, _shell_IFolderView_Item, shell.IFolderView_Item, shobjidl_core/IFolderView::Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The index of the item in the view.
 
 Type: <b>PITEMID_CHILD*</b>
 
-
-          The address of a pointer to a PIDL containing the item's identifier information.
+The address of a pointer to a PIDL containing the item's identifier information.
         
 
 
@@ -90,8 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        When no longer needed, the PIDL should be freed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+When no longer needed, the PIDL should be freed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netmgmt\alert_var_data.htm
 old-project: netmgmt
 ms.assetid: ff71fb3d-8c01-47ac-93f2-108b1f49e2da
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_alert_var_data, lmalert/ALERT_VAR_DATA, netmgmt.alert_var_data
 ms.prod: windows
 ms.technology: windows-sdk

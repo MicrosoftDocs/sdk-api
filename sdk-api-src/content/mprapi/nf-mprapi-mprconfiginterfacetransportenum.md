@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacetransportenum.htm
 old-project: rras
 ms.assetid: ae395eb8-8019-432c-bf96-b602c8e34f12
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprConfigInterfaceTransportEnum, MprConfigInterfaceTransportEnum function [RAS], _mpr_mprconfiginterfacetransportenum, mprapi/MprConfigInterfaceTransportEnum, rras.mprconfiginterfacetransportenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -187,7 +187,7 @@ No more entries available from the current resume position.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

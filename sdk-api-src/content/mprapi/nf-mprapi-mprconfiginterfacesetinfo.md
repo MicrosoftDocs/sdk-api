@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacesetinfo.htm
 old-project: rras
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprConfigInterfaceSetInfo, MprConfigInterfaceSetInfo function [RAS], _mpr_mprconfiginterfacesetinfo, mprapi/MprConfigInterfaceSetInfo, rras.mprconfiginterfacesetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,14 +110,7 @@ A DWORD value that describes the format in which the information is structured i
  
 
 
-### -param lpbBuffer
-
-TBD
-
-
-
-
-#### - lpBuffer [in]
+### -param lpbBuffer [in]
 
 A pointer to a  
 <a href="https://msdn.microsoft.com/b204c10e-ccce-4d62-a7a9-75cf4fe1d9ba">MPR_INTERFACE_0</a>, 
@@ -177,7 +170,7 @@ The interface that corresponds to <i>hRouterInterface</i> is not present in the 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -209,7 +202,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

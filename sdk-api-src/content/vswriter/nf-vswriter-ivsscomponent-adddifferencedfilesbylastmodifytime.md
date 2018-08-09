@@ -4,10 +4,10 @@ title: IVssComponent::AddDifferencedFilesByLastModifyTime
 author: windows-sdk-content
 description: Used by a writer to indicate that a file set (a specified file or files) should be evaluated against a last modification time stamp for inclusion in a time stamped incremental or differential backup using entire files.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifytime.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 33372d10-c947-45de-9ea2-03ba6378179d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddDifferencedFilesByLastModifyTime, AddDifferencedFilesByLastModifyTime method [VSS], AddDifferencedFilesByLastModifyTime method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyTime method, IVssComponent.AddDifferencedFilesByLastModifyTime, IVssComponent::AddDifferencedFilesByLastModifyTime, _win32_ivsscomponent_adddifferencedfilesbylastmodifytime, base.ivsscomponent_adddifferencedfilesbylastmodifytime, vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,8 +160,8 @@ The caller is out of memory or other system resources.
 <td width="60%">
 This method was not called by a writer or, if called by a writer, it either was not called during a 
         backup operation or was called while handling a 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupComplete</a> or 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> event.
+        <a href="vssgloss_b.htm">BackupComplete</a> or 
+        <a href="vssgloss_b.htm">BackupShutdown</a> event.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-A writer calls this method to specify that certain files in a component should be backed up only if they have been modified since a certain time. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa385002(v=VS.85).aspx">Backup By Last Modify Time</a>.
+A writer calls this method to specify that certain files in a component should be backed up only if they have been modified since a certain time. For more information, see <a href="writer_role_in_backing_up_complex_stores.htm">Backup By Last Modify Time</a>.
 
 This method can be called only by writers supporting the last modified schema 
     (<b>VSS_BS_LAST_MODIFY</b>), and only during backup operations. Writers using this method do 
@@ -222,7 +222,7 @@ If the backup type (<a href="https://msdn.microsoft.com/82934737-0d80-4b5d-a1fa-
 The 
     <b>AddDifferencedFilesByLastModifyTime</b> 
     method should be called prior to the actual start of a backup operation, typically while handling the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event (see 
+    <a href="vssgloss_p.htm">PostSnapshot</a> event (see 
     <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>).
 
 If the time-stamp value set by 

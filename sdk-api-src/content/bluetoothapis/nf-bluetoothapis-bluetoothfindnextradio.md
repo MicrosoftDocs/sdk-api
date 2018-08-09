@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothfindnextradio.htm
 old-project: bluetooth
 ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothFindNextRadio, BluetoothFindNextRadio function [Bluetooth], bluetooth.bluetoothfindnextradio, bluetoothapis/BluetoothFindNextRadio
 ms.prod: windows
 ms.technology: windows-sdk

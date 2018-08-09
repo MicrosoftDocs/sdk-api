@@ -7,7 +7,7 @@ old-location: ad\dsgetdcname.htm
 old-project: ad
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -306,16 +306,6 @@ Pointer to a null-terminated string that specifies the name of the server to pro
       used.
 
 
-#### - DomainGuid [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the 
-    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
-  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
-  <i>ComputerName</i> cannot be found, 
-  <b>DsGetDcName</b> attempts to locate a domain controller in the 
-      domain having the GUID specified by <i>DomainGuid</i>.
-
-
 #### - DomainName [in]
 
 Pointer to a null-terminated string that specifies the name of the domain or application partition to 
@@ -337,6 +327,16 @@ If <i>DomainName</i> is <b>NULL</b> and the
        <i>Flags</i> parameter does not contain the <b>DS_GC_SERVER_REQUIRED</b> 
        flag, <i>ComputerName</i> is set to the default domain name of the primary domain of the 
        computer identified by <i>ComputerName</i>.
+
+
+#### - DomainGuid [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the 
+    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
+  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
+  <i>ComputerName</i> cannot be found, 
+  <b>DsGetDcName</b> attempts to locate a domain controller in the 
+      domain having the GUID specified by <i>DomainGuid</i>.
 
 
 #### - SiteName [in]

@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider_GetDefaultCategory.htm
 old-project: shell
 ms.assetid: b5a5d04c-b666-4063-bf0b-02564aa967ab
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetDefaultCategory, GetDefaultCategory method [Windows Shell], GetDefaultCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetDefaultCategory method, ICategoryProvider.GetDefaultCategory, ICategoryProvider::GetDefaultCategory, inet_ICategoryProvider_GetDefaultCategory, shell.ICategoryProvider_GetDefaultCategory, shobjidl_core/ICategoryProvider::GetDefaultCategory
 ms.prod: windows
 ms.technology: windows-sdk

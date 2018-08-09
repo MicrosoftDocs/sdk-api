@@ -7,7 +7,7 @@ old-location: dshow\videoinfoheader2.htm
 old-project: DirectShow
 ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          The <b>VIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
+The <b>VIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
         
 
 
@@ -63,9 +62,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -field rcSource
 
-
-            
-              A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="https://msdn.microsoft.com/fdddbffb-c44f-4364-9e2e-b721ba39c74f">Source and Target Rectangles in Video Renderers</a>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="https://msdn.microsoft.com/fdddbffb-c44f-4364-9e2e-b721ba39c74f">Source and Target Rectangles in Video Renderers</a>.
           
 
 
@@ -83,15 +80,13 @@ The approximate data rate of the video stream, in bits per second.
 
 ### -field dwBitErrorRate
 
-
-            The data error rate of the video stream, in bits per second.
+The data error rate of the video stream, in bits per second.
           
 
 
 ### -field AvgTimePerFrame
 
-
-            The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
           
 
 
@@ -243,7 +238,6 @@ The Y dimension of picture aspect ratio. For example, 9 for a 16-inch x 9-inch d
 
 ### -field dwControlFlags
 
-
 This field was originally named <b>dwReserved</b>, and was required to be zero. The field was renamed to <b>dwControlFlags</b>, and must contain a bitwise OR of zero or more of the following flags:
 
 
@@ -332,14 +326,11 @@ The <b>dwInterlaceFlags</b> field indicates whether the video is interlaced, and
 
 <table>
 <tr>
-<th>
-              Display Mode
+<th>Display Mode
             </th>
-<th>
-              Interlace Flags
+<th>Interlace Flags
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

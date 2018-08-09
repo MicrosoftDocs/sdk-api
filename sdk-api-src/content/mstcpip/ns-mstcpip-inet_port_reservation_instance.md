@@ -7,7 +7,7 @@ old-location: winsock\inet_port_reservation_instance.htm
 old-project: winsock
 ms.assetid: F2332474-453F-40A3-8A0B-03A97300B724
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PINET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE structure [Winsock], PINET_PORT_RESERVATION_INSTANCE, PINET_PORT_RESERVATION_INSTANCE structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_INSTANCE, mstcpip/PINET_PORT_RESERVATION_INSTANCE, winsock.inet_port_reservation_instance"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A port reservation token for a block of TCP or UDP ports.
 
 
 
-The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is supported on Windows Vista
-  and later.
+The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is supported on Windows Vistaand later.
 
 The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href="https://msdn.microsoft.com/1A2E3920-88D2-4109-B7EF-E66BD4AB6153">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL when acquring a runtime reservation for a block of TCP or UDP ports.  
 

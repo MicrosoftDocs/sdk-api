@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3.htm
 old-project: direct3d11
 ms.assetid: 0AA10851-0077-4075-BD41-72FCD7BC0556
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D11Device3, ID3D11Device3 interface [Direct3D 11], ID3D11Device3 interface [Direct3D 11],described, d3d11_3/ID3D11Device3, direct3d11.id3d11device3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ Creates a query object for querying information from the GPU.
 <a href="https://msdn.microsoft.com/42BA8F50-7D86-4411-AE05-74F492761DBD">CreateRasterizerState2</a>
 </td>
 <td align="left" width="63%">
-Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
 
 </td>
 </tr>

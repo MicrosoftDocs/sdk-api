@@ -4,10 +4,10 @@ title: "_DNS_MESSAGE_BUFFER"
 author: windows-sdk-content
 description: The DNS_MESSAGE_BUFFER structure stores message information for DNS queries.
 old-location: dns\dns_message_buffer.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 2a6fdf8f-ac30-4e32-9cde-67d41ddef8af
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PDNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER structure [DNS], PDNS_MESSAGE_BUFFER, PDNS_MESSAGE_BUFFER structure pointer [DNS], _DNS_MESSAGE_BUFFER, _dns_dns_message_buffer, dns.dns_message_buffer, windns/DNS_MESSAGE_BUFFER, windns/PDNS_MESSAGE_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvb_dit.htm
 old-project: mstv
 ms.assetid: 8acbb1ac-100f-47b9-b8db-580d1a845946
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVB_DIT, IDVB_DIT interface [Microsoft TV Technologies], IDVB_DIT interface [Microsoft TV Technologies],described, IDVB_DITInterface, dvbsiparser/IDVB_DIT, mstv.idvb_dit
 ms.prod: windows
 ms.technology: windows-sdk

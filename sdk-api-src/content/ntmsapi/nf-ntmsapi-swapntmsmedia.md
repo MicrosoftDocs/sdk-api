@@ -7,7 +7,7 @@ old-location: fs\swapntmsmedia.htm
 old-project: Rsm
 ms.assetid: 1e931ae0-b15c-48c8-b6a0-6fa1689263a2
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -226,7 +226,7 @@ The media for both LMIDs must not be in use for this function to succeed.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

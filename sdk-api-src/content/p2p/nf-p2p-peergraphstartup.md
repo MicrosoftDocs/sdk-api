@@ -7,7 +7,7 @@ old-location: p2p\peergraphstartup.htm
 old-project: p2psdk
 ms.assetid: 00ffdec7-f084-4170-a4a1-e6112bab4d61
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphStartup, PeerGraphStartup function [Peer Networking], p2p.peergraphstartup, p2p/PeerGraphStartup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphStartup</b> function  indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.  <b>PeerGraphStartup</b> must be called before any other peer graphing functions. It must be matched by a call to <a href="https://msdn.microsoft.com/036f1bd6-f8aa-47ba-841e-f731ff486860">PeerGraphShutdown</a>.
+The <b>PeerGraphStartup</b> function  indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.  <b>PeerGraphStartup</b> must be called before any other peer graphing functions. It must be matched by a call to <a href="https://msdn.microsoft.com/036f1bd6-f8aa-47ba-841e-f731ff486860">PeerGraphShutdown</a>.
 
 
 ## -parameters
@@ -115,8 +114,7 @@ The version requested is not supported by the Peer Infrastructure .dll installed
 
 
 
-<a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">
-        PEER_VERSION_DATA</a>
+<a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">PEER_VERSION_DATA</a>
 
 
 

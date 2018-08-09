@@ -4,10 +4,10 @@ title: "_VDS_CONTROLLER_PROP"
 author: windows-sdk-content
 description: Defines the properties of a controller object.
 old-location: base\vds_controller_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: b9da3920-9bae-4198-ba0d-a0755aee15e4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP structure [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_CONTROLLER_PROP, base.vds_controller_prop, vds/_VDS_CONTROLLER_PROP, vdshwprv/_VDS_CONTROLLER_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,19 +117,19 @@ A
 The number of ports that the controller contains. Ports are numbered from zero. Hardware providers should set this member to zero for PCI RAID cards.
 
 
-##### - health.VDS_H_DEGRADED (11)
-
-
-##### - health.VDS_H_FAILED (8)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
+##### - health.VDS_H_FAILED (8)
+
+
 ##### - health.VDS_H_REPLACED (9)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_DEGRADED (11)
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett_getetmid.htm
 old-project: mstv
 ms.assetid: e45e6709-bb16-4644-b2d1-2ffd6d85f224
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetEtmId, GetEtmId method [Microsoft TV Technologies], GetEtmId method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetEtmId method, IATSC_ETT.GetEtmId, IATSC_ETT::GetEtmId, IATSC_ETTGetEtmId, atscpsipparser/IATSC_ETT::GetEtmId, mstv.iatsc_ett_getetmid
 ms.prod: windows
 ms.technology: windows-sdk

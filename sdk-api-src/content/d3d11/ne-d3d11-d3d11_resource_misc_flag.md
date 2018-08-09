@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_resource_misc_flag.htm
 old-project: direct3d11
 ms.assetid: 2a324055-21b0-4dad-a8e0-781905329dc2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 47ca3aa9-52f4-d1e0-6da2-56bc4682c9ee, D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3D11_RESOURCE_MISC_BUFFER_STRUCTURED, D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3D11_RESOURCE_MISC_FLAG, D3D11_RESOURCE_MISC_FLAG enumeration [Direct3D 11], D3D11_RESOURCE_MISC_GDI_COMPATIBLE, D3D11_RESOURCE_MISC_GENERATE_MIPS, D3D11_RESOURCE_MISC_GUARDED, D3D11_RESOURCE_MISC_HW_PROTECTED, D3D11_RESOURCE_MISC_RESOURCE_CLAMP, D3D11_RESOURCE_MISC_RESTRICTED_CONTENT, D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE, D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, D3D11_RESOURCE_MISC_SHARED, D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX, D3D11_RESOURCE_MISC_SHARED_NTHANDLE, D3D11_RESOURCE_MISC_TEXTURECUBE, D3D11_RESOURCE_MISC_TILED, D3D11_RESOURCE_MISC_TILE_POOL, d3d11/D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, d3d11/D3D11_RESOURCE_MISC_BUFFER_STRUCTURED, d3d11/D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d11/D3D11_RESOURCE_MISC_FLAG, d3d11/D3D11_RESOURCE_MISC_GDI_COMPATIBLE, d3d11/D3D11_RESOURCE_MISC_GENERATE_MIPS, d3d11/D3D11_RESOURCE_MISC_GUARDED, d3d11/D3D11_RESOURCE_MISC_HW_PROTECTED, d3d11/D3D11_RESOURCE_MISC_RESOURCE_CLAMP, d3d11/D3D11_RESOURCE_MISC_RESTRICTED_CONTENT, d3d11/D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE, d3d11/D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d11/D3D11_RESOURCE_MISC_SHARED, d3d11/D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX, d3d11/D3D11_RESOURCE_MISC_SHARED_NTHANDLE, d3d11/D3D11_RESOURCE_MISC_TEXTURECUBE, d3d11/D3D11_RESOURCE_MISC_TILED, d3d11/D3D11_RESOURCE_MISC_TILE_POOL, direct3d11.d3d11_resource_misc_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Enables resource data sharing between two or more Direct3D devices. The only res
 <div class="alert"><b>Note</b>  Starting with Windows 8, <b>WARP</b> devices fully support shared resources.
             </div>
 <div> </div>
-<div class="alert"><b>Note</b>  Starting with Windows 8, we recommend that you enable resource data sharing between two or more Direct3D devices by using a combination of the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags instead.
+<div class="alert"><b>Note</b>  Starting with Windows 8, we recommend that you enable resource data sharing between two or more Direct3D devices by using a combination of the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags instead.
             </div>
 <div> </div>
 
@@ -171,7 +171,7 @@ You must set the texture format to one of the following types.
 <li>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</li>
 </ul>For example, set the <b>Format</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to one of these  types.
               </li>
-<li>You cannot use D3D11_RESOURCE_MISC_GDI_COMPATIBLE with multisampling. Therefore, set the <b>Count</b> member of the <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure to 1. Then, set the <b>SampleDesc</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to this <b>DXGI_SAMPLE_DESC</b> structure.
+<li>You cannot use D3D11_RESOURCE_MISC_GDI_COMPATIBLE with multisampling. Therefore, set the <b>Count</b> member of the <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure to 1. Then, set the <b>SampleDesc</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to this <b>DXGI_SAMPLE_DESC</b> structure.
               </li>
 </ul>
 

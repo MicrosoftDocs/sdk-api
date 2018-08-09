@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader2_getcopyoutputlevels.htm
 old-project: wmformat
 ms.assetid: 32c8110b-1a96-432d-a82c-5769757dd4f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCopyOutputLevels, GetCopyOutputLevels method [windows Media Format], GetCopyOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetCopyOutputLevels method, IWMDRMReader2.GetCopyOutputLevels, IWMDRMReader2::GetCopyOutputLevels, IWMDRMReader2GetCopyOutputLevels, wmformat.iwmdrmreader2_getcopyoutputlevels, wmsdkidl/IWMDRMReader2::GetCopyOutputLevels
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MsiSourceListClearAllA function
 author: windows-sdk-content
 description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency.
 old-location: setup\msisourcelistclearall.htm
-old-project: Msi
+old-project: msi
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceListClearAllA, MsiSourceListClearAllW, _msi_msisourcelistclearall, msi/MsiSourceListClearAll, msi/MsiSourceListClearAllA, msi/MsiSourceListClearAllW, setup.msisourcelistclearall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiSourceListClearAll</b> function removes all network sources from the source list of a patch or product in a specified context. For more information, see 
 <a href="https://msdn.microsoft.com/3d6a0524-d5df-4d4c-b861-d4a7da95ce40">Source Resiliency</a>.
 		
@@ -88,8 +87,7 @@ Reserved for future use. This value must be set to 0.
 
 
 
-
-					The <b>MsiSourceListClearAll</b> function returns the following values.
+The <b>MsiSourceListClearAll</b> function returns the following values.
 
 <table>
 <tr>

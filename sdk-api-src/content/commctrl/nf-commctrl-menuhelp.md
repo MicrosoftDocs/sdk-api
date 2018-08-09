@@ -7,7 +7,7 @@ old-location: controls\MenuHelp.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\status\functions\menuhelp.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MenuHelp, MenuHelp function [Windows Controls], _win32_MenuHelp, _win32_MenuHelp_cpp, commctrl/MenuHelp, controls.MenuHelp, controls._win32_MenuHelp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Processes <a href="https://msdn.microsoft.com/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
+Processes <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322cb0">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Processes <a href="https://msdn.microsoft.com/library/ms646352(v=VS.85).aspx">WM
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Message being processed. This can be either <a href="https://msdn.microsoft.com/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> or <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>. 
+Message being processed. This can be either <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322cb0">WM_MENUSELECT</a> or <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a>. 
 
 
 ### -param wParam
@@ -122,8 +122,7 @@ No return value.
 
 
 
-
-		The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://msdn.microsoft.com/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages.
+The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322cb0">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> messages.
 		
 
 

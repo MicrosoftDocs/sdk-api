@@ -7,7 +7,7 @@ old-location: controls\ImageList_CoCreateInstance.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_cocreateinstance.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ImageList_CoCreateInstance, ImageList_CoCreateInstance function [Windows Controls], _shell_ImageList_CoCreateInstance, _shell_ImageList_CoCreateInstance_cpp, commoncontrols/ImageList_CoCreateInstance, controls.ImageList_CoCreateInstance, controls._shell_ImageList_CoCreateInstance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Reference to the desired interface ID.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://msdn.microsoft.com/library/Bb761419(v=VS.85).aspx">IImageList2</a>, which provides the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://msdn.microsoft.com/950CA48D-A1DB-448D-B2A0-BCBD17FAC316">IImageList2</a>, which provides the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
 
 
 ## -returns

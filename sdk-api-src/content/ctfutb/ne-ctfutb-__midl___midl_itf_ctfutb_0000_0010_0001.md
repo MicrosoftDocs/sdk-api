@@ -7,7 +7,7 @@ old-location: tsf\tflbiclick.htm
 old-project: TSF
 ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_LBI_CLK_LEFT, TF_LBI_CLK_RIGHT, TfLBIClick, TfLBIClick enumeration [Text Services Framework], __MIDL___MIDL_itf_ctfutb_0000_0010_0001, _tsf_tflbiclick_ref, ctfutb/TF_LBI_CLK_LEFT, ctfutb/TF_LBI_CLK_RIGHT, ctfutb/TfLBIClick, tsf.tflbiclick
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,20 +73,17 @@ The user left-clicked the button.
 
 
 
-<a href="https://msdn.microsoft.com/52592a39-8b79-4e9c-9d8b-1100c9f36eca">
-        ITfLangBarItemBalloon::OnClick
+<a href="https://msdn.microsoft.com/52592a39-8b79-4e9c-9d8b-1100c9f36eca">ITfLangBarItemBalloon::OnClick
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b4e5857e-7e0b-462d-90cd-cb0e7b1143d5">
-        ITfLangBarItemBitmap::OnClick
+<a href="https://msdn.microsoft.com/b4e5857e-7e0b-462d-90cd-cb0e7b1143d5">ITfLangBarItemBitmap::OnClick
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/8d376d22-897d-4032-9c9e-7d0f93d73fac">
-        ITfLangBarItemBitmapButton::OnClick
+<a href="https://msdn.microsoft.com/8d376d22-897d-4032-9c9e-7d0f93d73fac">ITfLangBarItemBitmapButton::OnClick
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: security\ix509enrollment.htm
 old-project: seccertenroll
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Out-of-band enrollment
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509Enrollment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509Enrollment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -334,7 +334,7 @@ Retrieves an <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d787
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

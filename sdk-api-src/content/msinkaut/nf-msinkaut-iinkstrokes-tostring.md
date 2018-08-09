@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_tostring.htm
 old-project: tablet
 ms.assetid: e1f1d68b-16c2-4d97-ae5f-091e5ec285c2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 702ec977-2d87-4d52-916e-423f1df03829, IInkStrokes interface [Tablet PC],ToString method, IInkStrokes.ToString, IInkStrokes::ToString, ToString, ToString method [Tablet PC], ToString method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::ToString, tablet.inkstrokes_tostring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Success.
+Success.
               
 
 </td>
@@ -101,8 +100,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                A parameter contained an invalid pointer.
+A parameter contained an invalid pointer.
               
 
 </td>
@@ -114,8 +112,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Operation failed.
+Operation failed.
               
 
 </td>
@@ -127,8 +124,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                Out of memory.
+Out of memory.
               
 
 </td>
@@ -140,8 +136,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                An exception occurred inside the method.
+An exception occurred inside the method.
               
 
 </td>
@@ -153,8 +148,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                No recognizers are installed, the recognizers registry key is corrupted, or your environment does not support handwriting recognition.
+No recognizers are installed, the recognizers registry key is corrupted, or your environment does not support handwriting recognition.
               
 
 </td>
@@ -190,7 +184,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

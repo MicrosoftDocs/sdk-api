@@ -7,7 +7,7 @@ old-location: etw\tdhcleanuppayloadeventfilterdescriptor.htm
 old-project: ETW
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,7 @@ The <b>TdhCleanupPayloadEventFilterDescriptor</b> function frees the aggregated 
 
 
 
-### -param EventFilterDescriptor
-
-TBD
-
-
-
-
-#### - PayloadEventFilterDescriptor [in, out]
+### -param EventFilterDescriptor [in, out]
 
 A pointer to an <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure that contains aggregated filters where the allocated memory is to be freed. The <b>EVENT_FILTER_DESCRIPTOR</b> structure  passed was created by calling the <a href="https://msdn.microsoft.com/B9093E64-1796-4AF2-AB45-84F278813B66">TdhAggregatePayloadFilters</a> function.  
 

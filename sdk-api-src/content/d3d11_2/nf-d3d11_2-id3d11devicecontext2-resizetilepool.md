@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_resizetilepool.htm
 old-project: direct3d11
 ms.assetid: 0F464025-7BF3-47C4-BD77-B4C312E53B07
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],ResizeTilePool method, ID3D11DeviceContext2.ResizeTilePool, ID3D11DeviceContext2::ResizeTilePool, ResizeTilePool, ResizeTilePool method [Direct3D 11], ResizeTilePool method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::ResizeTilePool, direct3d11.id3d11devicecontext2_resizetilepool
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
 

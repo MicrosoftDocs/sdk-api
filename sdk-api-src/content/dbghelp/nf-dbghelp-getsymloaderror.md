@@ -7,7 +7,7 @@ old-location: base\getsymloaderror.htm
 old-project: debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, dbghelp/GetSymLoadError
 ms.prod: windows
 ms.technology: windows-sdk

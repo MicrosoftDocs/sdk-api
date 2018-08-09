@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile2.htm
 old-project: bits
 ms.assetid: facff24d-56a3-4a1f-a726-3442c17fe869
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyFile2, IBackgroundCopyFile2 interface [BITS], IBackgroundCopyFile2 interface [BITS],described, bits.ibackgroundcopyfile2, bits2_0/IBackgroundCopyFile2
 ms.prod: windows
 ms.technology: windows-sdk

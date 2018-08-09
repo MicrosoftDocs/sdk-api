@@ -4,10 +4,10 @@ title: SLPersistApplicationPolicies function
 author: windows-sdk-content
 description: Stores the current consumed policies to disk for fast policy access.
 old-location: security\slpersistapplicationpolicies.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: a4bf2bcc-3ea5-4288-9bad-b74efdd9969c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLPersistApplicationPolicies, SLPersistApplicationPolicies function [Security], security.slpersistapplicationpolicies, slpublic/SLPersistApplicationPolicies
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLPersistApplicationPolicies function

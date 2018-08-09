@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced6.htm
 old-project: wmformat
 ms.assetid: 95e8c151-9aae-4930-824c-8809dfc07705
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media Format], IWMReaderAdvanced6 interface [windows Media Format],described, IWMReaderAdvanced6Interface, wmformat.iwmreaderadvanced6, wmsdkidl/IWMReaderAdvanced6
 ms.prod: windows
 ms.technology: windows-sdk

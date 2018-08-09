@@ -7,7 +7,7 @@ old-location: controls\HDITEM.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\structures\hditem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPHDITEMW, Combining Flags:, Display:, HDFT_HASNOVALUE, HDFT_ISDATE, HDFT_ISNUMBER, HDFT_ISSTRING, HDF_BITMAP, HDF_BITMAP_ON_RIGHT, HDF_CENTER, HDF_CHECKBOX, HDF_CHECKED, HDF_FIXEDWIDTH, HDF_IMAGE, HDF_JUSTIFYMASK, HDF_LEFT, HDF_OWNERDRAW, HDF_RIGHT, HDF_RTLREADING, HDF_SORTDOWN, HDF_SORTUP, HDF_SPLITBUTTON, HDF_STRING, HDITEM, HDITEM structure [Windows Controls], HDITEMA, HDITEMW, HDI_BITMAP, HDI_DI_SETITEM, HDI_FILTER, HDI_FORMAT, HDI_HEIGHT, HDI_IMAGE, HDI_LPARAM, HDI_ORDER, HDI_STATE, HDI_TEXT, HDI_WIDTH, LPHDITEM, LPHDITEM structure pointer [Windows Controls], Text Justification:, _HD_ITEMW, _win32_HDITEM, _win32_HDITEM_cpp, commctrl/HDITEM, commctrl/HDITEMA, commctrl/HDITEMW, commctrl/LPHDITEM, controls.HDITEM, controls._win32_HDITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ The <b>hbm</b> member is valid.
 </dl>
 </td>
 <td width="60%">
-
-                While handling the message <a href="https://msdn.microsoft.com/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a>, the header control may not have all the values needed to complete the request.  In this case, the control must call the application back for the values via the <a href="https://msdn.microsoft.com/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification.  If HDI_DI_SETITEM has been passed in the <b>HDM_GETITEM</b> message, the control will cache any values returned from HDN_GETDISPINFO (otherwise the values remain unset.)
+While handling the message <a href="https://msdn.microsoft.com/fb1330d3-fd28-490c-9caa-4b2b5ff86ba0">HDM_GETITEM</a>, the header control may not have all the values needed to complete the request.  In this case, the control must call the application back for the values via the <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification.  If HDI_DI_SETITEM has been passed in the <b>HDM_GETITEM</b> message, the control will cache any values returned from HDN_GETDISPINFO (otherwise the values remain unset.)
 
 </td>
 </tr>
@@ -108,8 +107,7 @@ The <b>fmt</b> member is valid.
 </dl>
 </td>
 <td width="60%">
-
-                The <b>type</b> and <b>pvFilter</b> members are valid. This is used to filter out the values specified in the <b>type</b> member.
+The <b>type</b> and <b>pvFilter</b> members are valid. This is used to filter out the values specified in the <b>type</b> member.
 
 </td>
 </tr>
@@ -129,8 +127,7 @@ The same as HDI_WIDTH.
 </dl>
 </td>
 <td width="60%">
-
-                The 
+The 
 						<b>iImage</b> member is valid and specifies the image to be displayed with the item.
 
 </td>
@@ -151,8 +148,7 @@ The <b>lParam</b> member is valid.
 </dl>
 </td>
 <td width="60%">
-
-                The <b>iOrder</b> member is valid and specifies the item's order value.
+The <b>iOrder</b> member is valid and specifies the item's order value.
 
 </td>
 </tr>
@@ -202,7 +198,7 @@ The width or height of the item.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
-A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://msdn.microsoft.com/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
+A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
 
 
 ### -field hbm
@@ -300,8 +296,7 @@ The item displays a bitmap.
 </dl>
 </td>
 <td width="60%">
-
-                The bitmap appears to the right of text.
+The bitmap appears to the right of text.
 
 </td>
 </tr>
@@ -343,8 +338,7 @@ The preceding value can be combined with:
 </dl>
 </td>
 <td width="60%">
-
-                Display an image from an image list. Specify the image list by sending an <a href="https://msdn.microsoft.com/library/Bb775365(v=VS.85).aspx">HDM_SETIMAGELIST</a> message. Specify the index of the image in the <b>iImage</b> member of this structure.
+Display an image from an image list. Specify the image list by sending an <a href="https://msdn.microsoft.com/1d7f07fa-f6f4-422a-949c-97d0388343e3">HDM_SETIMAGELIST</a> message. Specify the index of the image in the <b>iImage</b> member of this structure.
 
 </td>
 </tr>
@@ -397,7 +391,7 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. The item displays a checkbox.  The flag is only valid when the <a href="https://msdn.microsoft.com/library/Bb775241(v=VS.85).aspx">HDS_CHECKBOXES</a> style is first set on the header control. 
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00 and later</a>. The item displays a checkbox.  The flag is only valid when the <a href="Header_Control_Styles.htm">HDS_CHECKBOXES</a> style is first set on the header control. 
 
 </td>
 </tr>
@@ -449,24 +443,21 @@ Application-defined item data.
 
 Type: <b>int</b>
 
-
-            The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://msdn.microsoft.com/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
+The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
 
 
 ### -field iOrder
 
 Type: <b>int</b>
 
-
-            The order in which the item appears within the header control, from left to right. That is, the value for the far left item is 0. The value for the next item to the right is 1, and so on. 
+The order in which the item appears within the header control, from left to right. That is, the value for the far left item is 0. The value for the next item to the right is 1, and so on. 
 
 
 ### -field type
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The type of filter specified by <b>pvFilter</b>. The possible types include: 
+The type of filter specified by <b>pvFilter</b>. The possible types include: 
 
 <table>
 <tr>
@@ -523,8 +514,7 @@ Ignore <b>pvFilter</b>.
 
 Type: <b>void*</b>
 
-
-            The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://msdn.microsoft.com/library/Bb775251(v=VS.85).aspx">HDTEXTFILTER</a> structure.
+The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://msdn.microsoft.com/4c43553e-e02e-42ad-9a1f-e8f608f66941">HDTEXTFILTER</a> structure.
 
 
 ### -field state
@@ -557,7 +547,7 @@ The item has keyboard focus.
 
 
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

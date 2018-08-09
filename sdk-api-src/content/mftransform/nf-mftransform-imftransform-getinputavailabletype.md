@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputavailabletype.htm
 old-project: medfound
 ms.assetid: ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetInputAvailableType, GetInputAvailableType method [Media Foundation], GetInputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputAvailableType method, IMFTransform.GetInputAvailableType, IMFTransform::GetInputAvailableType, ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf, mf.imftransform_getinputavailabletype, mftransform/IMFTransform::GetInputAvailableType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets an available media type for an input stream on this Media Foundation transform (MFT).
+Gets an available media type for an input stream on this Media Foundation transform (MFT).
         
 
 
@@ -64,22 +63,19 @@ req.product: GDI+ 1.1
 
 ### -param dwInputStreamID [in]
 
-
-            Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
+Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
           
 
 
 ### -param dwTypeIndex [in]
 
-
-            Index of the media type to retrieve. Media types are indexed from zero and returned in approximate order of preference.
+Index of the media type to retrieve. Media types are indexed from zero and returned in approximate order of preference.
           
 
 
 ### -param ppType [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface.
           
 
 
@@ -87,8 +83,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -103,8 +98,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +110,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The MFT does not have a list of available input types.
+The MFT does not have a list of available input types.
               
 
 </td>
@@ -129,8 +122,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream identifier.
+Invalid stream identifier.
               
 
 </td>
@@ -142,8 +134,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The <i>dwTypeIndex</i> parameter is out of range.
+The <i>dwTypeIndex</i> parameter is out of range.
               
 
 </td>
@@ -155,8 +146,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                You must set the output types before setting the input types.
+You must set the output types before setting the input types.
               
 
 </td>
@@ -171,22 +161,18 @@ req.product: GDI+ 1.1
 
 
 
-
-        The MFT defines a list of available media types for each input stream and orders them by preference. This method enumerates the available media types for an input stream. To enumerate the available types, increment <i>dwTypeIndex</i> until the method returns <b>MF_E_NO_MORE_TYPES</b>.
+The MFT defines a list of available media types for each input stream and orders them by preference. This method enumerates the available media types for an input stream. To enumerate the available types, increment <i>dwTypeIndex</i> until the method returns <b>MF_E_NO_MORE_TYPES</b>.
       
 
-
-        Setting the media type on one stream might change the available types for another stream, or change the preference order. However, an MFT is not required to update the list of available types dynamically. The only guaranteed way to test whether you can set a particular input type is to call <a href="https://msdn.microsoft.com/822a83d1-177a-4a8d-842e-eb76f8253283">IMFTransform::SetInputType</a>.
+Setting the media type on one stream might change the available types for another stream, or change the preference order. However, an MFT is not required to update the list of available types dynamically. The only guaranteed way to test whether you can set a particular input type is to call <a href="https://msdn.microsoft.com/822a83d1-177a-4a8d-842e-eb76f8253283">IMFTransform::SetInputType</a>.
       
 
-
-        In some cases, an MFT cannot return a list of input types until one or more output types are set. If so, the method returns <b>MF_E_TRANSFORM_TYPE_NOT_SET</b>.
+In some cases, an MFT cannot return a list of input types until one or more output types are set. If so, the method returns <b>MF_E_TRANSFORM_TYPE_NOT_SET</b>.
       
 
+An MFT is not required to implement this method. However, most MFTs should implement this method, unless the supported types are simple and can be discovered through the <a href="https://msdn.microsoft.com/d1bac1c7-3f9b-46b7-bdf7-c32983c648ee">MFTGetInfo</a> function.
 
-        An MFT is not required to implement this method. However, most MFTs should implement this method, unless the supported types are simple and can be discovered through the <a href="https://msdn.microsoft.com/d1bac1c7-3f9b-46b7-bdf7-c32983c648ee">MFTGetInfo</a> function.
-
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputAvailableType</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputAvailableType</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 For encoders, after the output type is set, <b>GetInputAvailableType</b> must return a list of input types that are compatible with the current output type. This means that all types returned by <b>GetInputAvailableType</b> after the output type is set must be valid types for <a href="https://msdn.microsoft.com/822a83d1-177a-4a8d-842e-eb76f8253283">SetInputType</a>.
 

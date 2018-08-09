@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_GetFolderType.htm
 old-project: shell
 ms.assetid: 450ee4cc-5a09-4f14-832a-3982ec9de03b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetFolderType, GetFolderType method [Windows Shell], GetFolderType method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetFolderType method, IShellLibrary.GetFolderType, IShellLibrary::GetFolderType, _shell_IShellLibrary_GetFolderType, shell.IShellLibrary_GetFolderType, shobjidl_core/IShellLibrary::GetFolderType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-         Gets the library's folder type.      
+Gets the library's folder type.      
       
 
 
@@ -65,8 +64,7 @@ req.product: Outlook Express 6.0
 
 Type: <b><a href="https://msdn.microsoft.com/d147a05c-6a03-4f20-a7be-20825fcbeec2">FOLDERTYPEID</a>*</b>
 
-
-            The  view template that is applied to a folder, usually based on its intended use and contents.
+The  view template that is applied to a folder, usually based on its intended use and contents.
             
 
 

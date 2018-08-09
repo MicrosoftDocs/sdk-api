@@ -7,7 +7,7 @@ old-location: iphlp\icmpsendecho2ex.htm
 old-project: iphlp
 ms.assetid: 7b2b2cae-650f-4ecb-aa2e-a55ee4026999
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: IcmpSendEcho2Ex, IcmpSendEcho2Ex function [IP Helper], icmpapi/IcmpSendEcho2Ex, iphlp.icmpsendecho2ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>IcmpSendEcho2Ex</b> function sends an IPv4 ICMP echo request and returns either immediately (if <i>Event</i> or <i>ApcRoutine</i> is non-<b>NULL</b>) or returns after the specified time-out. The <i>ReplyBuffer</i> contains the ICMP responses, if any.
 
 

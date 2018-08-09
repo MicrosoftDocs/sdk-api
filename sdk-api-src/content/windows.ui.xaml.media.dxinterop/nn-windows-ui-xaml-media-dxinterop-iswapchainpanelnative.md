@@ -7,7 +7,7 @@ old-location: winrt\iswapchainpanelnative.htm
 old-project: WinRT
 ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
 ms.prod: windows
 ms.technology: windows-sdk

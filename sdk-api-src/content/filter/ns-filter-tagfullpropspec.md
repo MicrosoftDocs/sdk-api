@@ -7,7 +7,7 @@ old-location: indexsrv\fullpropspec.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Specifies a property set and a property within the property set.
 
@@ -68,7 +68,7 @@ The globally unique identifier (GUID) that identifies the property set.
 
 ### -field psProperty
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
+A pointer to the <a href="_stg_propspec">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
 
 
 ## -see-also
@@ -76,7 +76,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690965(v=VS.85).aspx">IFilter::Init</a>
+<a href="https://msdn.microsoft.com/5cb9b675-258e-46b0-905f-15a086f84f74">IFilter::Init</a>
  
 
  

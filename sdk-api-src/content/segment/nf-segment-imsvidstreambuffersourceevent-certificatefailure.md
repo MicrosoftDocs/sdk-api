@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_certificatefailure.htm
 old-project: mstv
 ms.assetid: 10621576-65d0-46c1-8817-a96ee3822518
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: CertificateFailure, CertificateFailure method [Microsoft TV Technologies], CertificateFailure method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],CertificateFailure method, IMSVidStreamBufferSourceEvent.CertificateFailure, IMSVidStreamBufferSourceEvent::CertificateFailure, IMSVidStreamBufferSourceEventCertificateFailure, mstv.imsvidstreambuffersourceevent_certificatefailure, segment/IMSVidStreamBufferSourceEvent::CertificateFailure
 ms.prod: windows
 ms.technology: windows-sdk

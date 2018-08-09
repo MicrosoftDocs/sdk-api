@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceindextoluid.htm
 old-project: iphlp
 ms.assetid: c757228c-93f1-4545-8921-9d048bca580c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceIndexToLuid, ConvertInterfaceIndexToLuid function [IP Helper], iphlp.convertinterfaceindextoluid, netioapi/ConvertInterfaceIndexToLuid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,7 @@ One of the parameters was invalid. This error is returned if the <i>InterfaceLui
 
 
 
-The <b>ConvertInterfaceIndexToLuid</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceIndexToLuid</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceIndexToLuid</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_gettargetrect.htm
 old-project: direct3ddxgi
 ms.assetid: 1B42CE33-7130-433F-940F-B45D3152BB33
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: GetTargetRect, GetTargetRect method [DXGI], GetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetTargetRect method, IDXGIDecodeSwapChain.GetTargetRect, IDXGIDecodeSwapChain::GetTargetRect, direct3ddxgi.idxgidecodeswapchain_gettargetrect, dxgi1_3/IDXGIDecodeSwapChain::GetTargetRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

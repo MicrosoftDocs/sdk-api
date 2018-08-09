@@ -7,7 +7,7 @@ old-location: fs\readfile.htm
 old-project: fileio
 ms.assetid: 4ad4580d-c002-44a4-a5f6-757e83ed8732
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
 ms.prod: windows
 ms.technology: windows-sdk

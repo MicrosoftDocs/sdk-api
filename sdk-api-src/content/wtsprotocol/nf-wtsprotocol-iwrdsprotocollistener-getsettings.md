@@ -4,10 +4,10 @@ title: IWRdsProtocolListener::GetSettings
 author: windows-sdk-content
 description: Gets the listener setting information for client connection requests.
 old-location: termserv\iwrdsprotocollistener_getsettings.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 644eaa8f-776d-49de-af23-de9faef80e74
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolListener interface, IWRdsProtocolListener interface [Remote Desktop Services],GetSettings method, IWRdsProtocolListener.GetSettings, IWRdsProtocolListener::GetSettings, termserv.iwrdsprotocollistener_getsettings, wtsprotocol/IWRdsProtocolListener::GetSettings
 ms.prod: windows
 ms.technology: windows-sdk

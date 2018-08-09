@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CachedSizeOfSet.htm
 old-project: WinAuto
 ms.assetid: 5050338F-F159-451C-A195-8380AE50180A
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedSizeOfSet property [Windows Accessibility], CachedSizeOfSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedSizeOfSet property, IUIAutomationElement4.CachedSizeOfSet, IUIAutomationElement4.get_CachedSizeOfSet, IUIAutomationElement4::CachedSizeOfSet, IUIAutomationElement4::get_CachedSizeOfSet, get_CachedSizeOfSet, uiautomationclient/IUIAutomationElement4::CachedSizeOfSet, uiautomationclient/IUIAutomationElement4::get_CachedSizeOfSet, winauto.uiauto_IUIAutomationElement4_CachedSizeOfSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

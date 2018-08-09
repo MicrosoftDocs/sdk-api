@@ -7,7 +7,7 @@ old-location: gdi\setdibcolortable.htm
 old-project: gdi
 ms.assetid: f301c34d-6e8e-4dc8-b3f3-0fdc658d09e3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetDIBColorTable, SetDIBColorTable function [Windows GDI], _win32_SetDIBColorTable, gdi.setdibcolortable, wingdi/SetDIBColorTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ The <b>SetDIBColorTable</b> function sets RGB (red, green, blue) color values in
 A device context. A DIB must be selected into this device context.
 
 
-### -param iStart
+### -param iStart [in]
 
-TBD
+A zero-based color table index that specifies the first color table entry to set.
 
 
 ### -param cEntries [in]
@@ -77,21 +77,9 @@ TBD
 The number of color table entries to set.
 
 
-### -param prgbq
-
-TBD
-
-
-
-
-#### - pColors [in]
+### -param prgbq [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/22e0991d-078e-4b44-9f03-004137e31f6c">RGBQUAD</a> structures containing new color information for the DIB's color table.
-
-
-#### - uStartIndex [in]
-
-A zero-based color table index that specifies the first color table entry to set.
 
 
 ## -returns

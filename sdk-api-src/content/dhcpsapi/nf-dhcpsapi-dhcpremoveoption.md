@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremoveoption.htm
 old-project: dhcp
 ms.assetid: a165d88c-113c-41ed-920e-f8f434578158
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
 ms.prod: windows
 ms.technology: windows-sdk

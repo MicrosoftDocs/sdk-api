@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingqueue_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4x7p_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxIncomingQueue, IFaxIncomingQueue interface [Fax Service], IFaxIncomingQueue interface [Fax Service],described, _mfax_faxincomingqueue_cpp, fax._mfax_faxincomingqueue_cpp, faxcomex/IFaxIncomingQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,14 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxIncomingQueue</b> interface is used by a fax client application to manage the inbound fax jobs (<a href="https://msdn.microsoft.com/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
+The <b>IFaxIncomingQueue</b> interface is used by a fax client application to manage the inbound fax jobs (<a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
 
-The <b>IFaxIncomingQueue</b> interface is accessed through the <a href="https://msdn.microsoft.com/library/ms684838(v=VS.85).aspx">IFaxFolders</a> interface.
+The <b>IFaxIncomingQueue</b> interface is accessed through the <a href="https://msdn.microsoft.com/98e650c7-fc8e-4bf3-91ca-d9dc2ab09f50">IFaxFolders</a> interface.
 <div class="alert"><b>Note</b>  Changes made to the <b>FaxIncomingQueue</b> object will not be saved until you call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingQueue</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingQueue</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxIncomingQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,28 +74,28 @@ The <b>IFaxIncomingQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686687(v=VS.85).aspx">GetJob</a>
+<a href="https://msdn.microsoft.com/6b545785-f237-4a36-9b9c-1eca4e4daaa4">GetJob</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686687(v=VS.85).aspx">GetJob</a> method returns an incoming fax job in the job queue according to its ID.
+The <a href="https://msdn.microsoft.com/6b545785-f237-4a36-9b9c-1eca4e4daaa4">GetJob</a> method returns an incoming fax job in the job queue according to its ID.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">GetJobs</a>
+<a href="https://msdn.microsoft.com/c739a92b-4b3e-4ab5-8b17-4bc4db19ed0b">GetJobs</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">GetJobs</a> method returns the collection of inbound fax jobs in the queue.
+The <a href="https://msdn.microsoft.com/c739a92b-4b3e-4ab5-8b17-4bc4db19ed0b">GetJobs</a> method returns the collection of inbound fax jobs in the queue.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a>
+<a href="https://msdn.microsoft.com/23626ea8-e2e8-4592-a930-f4be7b8f88d0">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/23626ea8-e2e8-4592-a930-f4be7b8f88d0">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Re
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object's data.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method saves the <a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a> object's data.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save<
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms685101(v=VS.85).aspx">Blocked</a>
+<a href="https://msdn.microsoft.com/65345e37-996a-40e4-a43b-38dbf94fe24f">Blocked</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms685101(v=VS.85).aspx">Blocked</a> property is a Boolean value that indicates whether the job queue for incoming faxes is blocked. 
+The <a href="https://msdn.microsoft.com/65345e37-996a-40e4-a43b-38dbf94fe24f">Blocked</a> property is a Boolean value that indicates whether the job queue for incoming faxes is blocked. 
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <a href="https://msdn.microsoft.com/library/ms685101(v=VS.85).aspx">Blocked<
 
 
 
-To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms686008(v=VS.85).aspx">IFaxFolders::get_IncomingQueue</a> method.
+To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://msdn.microsoft.com/3e29e5dd-bbb0-4ea3-9f1d-44df674febd8">IFaxFolders::get_IncomingQueue</a> method.
 
 
 
@@ -149,19 +149,19 @@ To create a <b>FaxIncomingQueue</b> object in C++, call the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684838(v=VS.85).aspx">IFaxFolders</a>
+<a href="https://msdn.microsoft.com/98e650c7-fc8e-4bf3-91ca-d9dc2ab09f50">IFaxFolders</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685088(v=VS.85).aspx">IFaxIncomingQueue::Save</a>
+<a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">IFaxIncomingQueue::Save</a>
  
 
  

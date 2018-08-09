@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getexitcode.htm
 old-project: taskschd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the last exit code returned by the executable associated with the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a> on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
+Retrieves the last exit code returned by the executable associated with the <a href="w.htm">work item</a> on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 
 
 ## -parameters

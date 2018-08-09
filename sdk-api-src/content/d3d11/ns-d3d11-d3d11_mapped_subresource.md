@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_mapped_subresource.htm
 old-project: direct3d11
 ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,8 @@ Type: <b>void*</b>
 Pointer to the data. When <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> provides the pointer, the runtime ensures that the pointer has a specific alignment, depending on the following feature levels:
 
 <ul>
-<li>For <a href="https://msdn.microsoft.com/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a> and higher, the pointer is aligned to 16 bytes.</li>
-<li>For lower than <a href="https://msdn.microsoft.com/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a>, the pointer is aligned to 4 bytes.</li>
+<li>For <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a> and higher, the pointer is aligned to 16 bytes.</li>
+<li>For lower than <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a>, the pointer is aligned to 4 bytes.</li>
 </ul>
 
 ### -field RowPitch

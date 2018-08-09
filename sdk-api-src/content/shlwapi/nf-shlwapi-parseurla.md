@@ -7,7 +7,7 @@ old-location: shell\ParseURL.htm
 old-project: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, _win32_ParseURL, shell.ParseURL, shlwapi/ParseURL, shlwapi/ParseURLA, shlwapi/ParseURLW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,11 @@ Performs rudimentary parsing of a URL.
 
 
 
-### -param pcszURL
+### -param pcszURL [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string containing the URL to be parsed.
 
 
 ### -param ppu [in, out]
@@ -75,13 +77,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/9092dd7a-ff5b-465f-a808-ef4e0067f540">PARSEDURL</a>*</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/9092dd7a-ff5b-465f-a808-ef4e0067f540">PARSEDURL</a> structure that receives the parsed results. The calling application must set the structure's <i>cbSize</i> member to the size of the structure before calling <b>ParseURL</b>.
-
-
-#### - pcszUrl [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string containing the URL to be parsed.
 
 
 ## -returns
@@ -99,7 +94,7 @@ Returns <b>S_OK</b> on success, or a COM error code otherwise. The function retu
 
 
 
-The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="https://msdn.microsoft.com/library/Aa384376(v=VS.85).aspx">InternetCrackUrl</a>.
+The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="_inet_InternetCrackUrl_Function">InternetCrackUrl</a>.
 
 
 #### Examples

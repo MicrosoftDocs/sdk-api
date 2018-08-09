@@ -4,10 +4,10 @@ title: WdsCliFindFirstImage function
 author: windows-sdk-content
 description: Starts the enumeration of images stored on a WDS server and returns a find handle that references the first image.
 old-location: wds\wdsclifindfirstimage.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 1c631022-4c2b-410d-ab24-d0b8f7df10a3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsCliFindFirstImage, WdsCliFindFirstImage function [Windows Deployment Services], wds.wdsclifindfirstimage, wdsclientapi/WdsCliFindFirstImage
 ms.prod: windows
 ms.technology: windows-sdk

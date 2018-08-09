@@ -4,10 +4,10 @@ title: GetThemeSysInt function
 author: windows-sdk-content
 description: Retrieves the value of a system int.
 old-location: controls\GetThemeSysInt.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,7 @@ Type: <b>HTHEME</b>
 Handle to theme data.
 
 
-### -param iIntId
-
-TBD
-
-
-### -param piValue [in]
-
-Type: <b>int*</b>
-
-Pointer to an <b>int</b> that receives the system integer value.
-
-
-#### - iIntID [in]
+### -param iIntId [in]
 
 Type: <b>int</b>
 
@@ -101,6 +89,13 @@ The minimum color depth, in bits, required to properly view this style.
 </tr>
 </table>
  
+
+
+### -param piValue [in]
+
+Type: <b>int*</b>
+
+Pointer to an <b>int</b> that receives the system integer value.
 
 
 ## -returns

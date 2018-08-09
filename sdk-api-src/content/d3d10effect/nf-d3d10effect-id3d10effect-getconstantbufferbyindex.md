@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_getconstantbufferbyindex.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyindex.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6e59189f-e563-27f9-5003-f6af77fe5eb9, GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 10], GetConstantBufferByIndex method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByIndex method, ID3D10Effect.GetConstantBufferByIndex, ID3D10Effect::GetConstantBufferByIndex, d3d10effect/ID3D10Effect::GetConstantBufferByIndex, direct3d10.id3d10effect_getconstantbufferbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer Interface</a>.
 
 
 
@@ -90,7 +90,7 @@ An effect that contains a variable that will be read/written by an application r
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
  
 
  

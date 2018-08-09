@@ -4,10 +4,10 @@ title: "_DnsRecordW"
 author: windows-sdk-content
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm
-old-project: DNS
+old-project: dns
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DNS_RECORD, DNS_RECORD structure [DNS], PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -678,29 +678,14 @@ Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/868
 
 
 
-##### - Data.ATMA, Atma
+##### - Data.SOA, Soa
 
-The RR data type is <a href="https://msdn.microsoft.com/09df3990-36bd-4656-b5cd-792e521adf9d">DNS_ATMA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
-
-
-##### - Data.DNSKEY, Dnskey
-
-Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
+The RR data type is <a href="https://msdn.microsoft.com/715cbb70-91fe-47ac-a713-1fe0701d4f8c">DNS_SOA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SOA</b>.
 
 
-##### - Data.DS, Ds
+##### - Data.PTR, Ptr, NS, Ns, CNAME, Cname, DNAME, Dname, MB, Mb, MD, Md, MF, Mf, MG, Mg, MR, Mr
 
-Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/8624cc27-feb5-4e4a-8970-40aa1d43960e">DNS_DS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
-
-
-##### - Data.HINFO, Hinfo, ISDN, Isdn, TXT, Txt, X25
-
-The RR data type is <a href="https://msdn.microsoft.com/3ff643e2-d736-45d5-8cf8-ab5e63caf44b">DNS_TXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TEXT</b>.
-
-
-##### - Data.KEY, Key
-
-The RR data type is <a href="https://msdn.microsoft.com/d7d60322-4d06-4c57-b181-c6a38e09e1ef">DNS_KEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_KEY</b>.
+The RR data type is <a href="https://msdn.microsoft.com/8b7f8898-ac91-46da-876c-889c427068a3">DNS_PTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_PTR</b>.
 
 
 ##### - Data.MINFO, Minfo, RP, Rp
@@ -713,34 +698,19 @@ The RR data type is <a href="https://msdn.microsoft.com/cd392b48-734f-462b-b893-
 The RR data type is <a href="https://msdn.microsoft.com/72a0b42e-a7af-42d2-b672-cf06d0b5d1ba">DNS_MX_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MX</b>.
 
 
-##### - Data.NAPTR, Naptr
+##### - Data.HINFO, Hinfo, ISDN, Isdn, TXT, Txt, X25
 
-The RR data type is <a href="https://msdn.microsoft.com/8f576efb-4ef3-4fc0-8cf5-d373460a3b3c">DNS_NAPTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
-
-
-##### - Data.NSEC, Nsec
-
-Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/ea446732-bc6a-4597-b164-11bfd77c07f2">DNS_NSEC_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+The RR data type is <a href="https://msdn.microsoft.com/3ff643e2-d736-45d5-8cf8-ab5e63caf44b">DNS_TXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TEXT</b>.
 
 
-##### - Data.NXT, Nxt
+##### - Data.WKS, Wks
 
-The RR data type is <a href="https://msdn.microsoft.com/0e5370c2-30d3-4bb7-85a0-f4412f5572fd">DNS_NXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
-
-
-##### - Data.OPT, Opt
-
-Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/a8e23127-a625-4206-abe8-0787b4ac0f30">DNS_OPT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+The RR data type is <a href="https://msdn.microsoft.com/94477345-74e7-40bf-a75b-e4bf67f1c17b">DNS_WKS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WKS</b>.
 
 
-##### - Data.PTR, Ptr, NS, Ns, CNAME, Cname, DNAME, Dname, MB, Mb, MD, Md, MF, Mf, MG, Mg, MR, Mr
+##### - Data.KEY, Key
 
-The RR data type is <a href="https://msdn.microsoft.com/8b7f8898-ac91-46da-876c-889c427068a3">DNS_PTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_PTR</b>.
-
-
-##### - Data.RRSIG, Rrsig
-
-Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/09c2f515-acc1-402f-8e62-a0d273031633">DNS_RRSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_RRSIG</b>.
+The RR data type is <a href="https://msdn.microsoft.com/d7d60322-4d06-4c57-b181-c6a38e09e1ef">DNS_KEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_KEY</b>.
 
 
 ##### - Data.SIG, Sig
@@ -748,14 +718,49 @@ Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/09c
 The RR data type is <a href="https://msdn.microsoft.com/184f7a8d-5a81-4dea-ba9c-05f40042bbb5">DNS_SIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SIG</b>.
 
 
-##### - Data.SOA, Soa
+##### - Data.ATMA, Atma
 
-The RR data type is <a href="https://msdn.microsoft.com/715cbb70-91fe-47ac-a713-1fe0701d4f8c">DNS_SOA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SOA</b>.
+The RR data type is <a href="https://msdn.microsoft.com/09df3990-36bd-4656-b5cd-792e521adf9d">DNS_ATMA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
+
+
+##### - Data.NXT, Nxt
+
+The RR data type is <a href="https://msdn.microsoft.com/0e5370c2-30d3-4bb7-85a0-f4412f5572fd">DNS_NXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
 
 ##### - Data.SRV, Srv
 
 The RR data type is <a href="https://msdn.microsoft.com/212db7ac-a5e3-4e58-b1c2-0eb551403dfc">DNS_SRV_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
+
+
+##### - Data.NAPTR, Naptr
+
+The RR data type is <a href="https://msdn.microsoft.com/8f576efb-4ef3-4fc0-8cf5-d373460a3b3c">DNS_NAPTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
+
+
+##### - Data.OPT, Opt
+
+Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/a8e23127-a625-4206-abe8-0787b4ac0f30">DNS_OPT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+
+
+##### - Data.DS, Ds
+
+Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/8624cc27-feb5-4e4a-8970-40aa1d43960e">DNS_DS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
+
+
+##### - Data.RRSIG, Rrsig
+
+Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/09c2f515-acc1-402f-8e62-a0d273031633">DNS_RRSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_RRSIG</b>.
+
+
+##### - Data.NSEC, Nsec
+
+Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/ea446732-bc6a-4597-b164-11bfd77c07f2">DNS_NSEC_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+
+
+##### - Data.DNSKEY, Dnskey
+
+Windows 7 or later: The RR data type is <a href="https://msdn.microsoft.com/5c15980f-6dc7-4b6d-8be1-e22fdea8fe67">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
 
 
 ##### - Data.TKEY, Tkey
@@ -776,11 +781,6 @@ The RR data type is <a href="https://msdn.microsoft.com/df41c397-e662-42b4-9193-
 ##### - Data.WINSR, WinsR, NBSTAT, Nbstat
 
 The RR data type is <a href="https://msdn.microsoft.com/a7e79e30-905f-42a5-a4de-02d71adfe95e">DNS_WINSR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINSR</b>.
-
-
-##### - Data.WKS, Wks
-
-The RR data type is <a href="https://msdn.microsoft.com/94477345-74e7-40bf-a75b-e4bf67f1c17b">DNS_WKS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WKS</b>.
 
 
 ## -remarks

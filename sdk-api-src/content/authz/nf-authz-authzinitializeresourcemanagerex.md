@@ -7,7 +7,7 @@ old-location: security\authzinitializeresourcemanagerex.htm
 old-project: secauthz
 ms.assetid: CDB78606-1B53-4516-90E6-1FF096B3D7D9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES, AuthzInitializeResourceManagerEx, AuthzInitializeResourceManagerEx function [Security], authz/AuthzInitializeResourceManagerEx, security.authzinitializeresourcemanagerex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,8 +129,7 @@ A pointer to the returned resource manager handle. When you have finished using 
 
 
 
-
-						If the function succeeds, the function returns a value of <b>TRUE</b>. 
+If the function succeeds, the function returns a value of <b>TRUE</b>. 
 
 If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 

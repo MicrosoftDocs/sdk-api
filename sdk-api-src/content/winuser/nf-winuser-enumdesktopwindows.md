@@ -77,7 +77,7 @@ If this parameter is NULL, the current desktop is used.
 ### -param lpfn [in]
 
 A pointer to an application-defined 
-<a href="https://msdn.microsoft.com/en-us/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a> callback function.
+<a href="_win32_enumwindowsproc_cpp">EnumWindowsProc</a> callback function.
 
 
 ### -param lParam [in]
@@ -124,7 +124,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a>
+<a href="_win32_enumwindowsproc_cpp">EnumWindowsProc</a>
 
 
 

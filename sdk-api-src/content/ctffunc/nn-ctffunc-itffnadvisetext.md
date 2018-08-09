@@ -7,7 +7,7 @@ old-location: tsf\itffnadvisetext.htm
 old-project: TSF
 ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ Called when the text within a context changes.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

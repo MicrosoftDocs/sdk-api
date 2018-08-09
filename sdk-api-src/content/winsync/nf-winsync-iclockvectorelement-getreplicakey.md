@@ -7,7 +7,7 @@ old-location: winsync\iclockvectorelement_getreplicakey.htm
 old-project: winsync
 ms.assetid: d6f1ce72-e8fd-4f87-a184-7126e880804d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetReplicaKey, GetReplicaKey method [Windows Sync], GetReplicaKey method [Windows Sync],IClockVectorElement interface, IClockVectorElement interface [Windows Sync],GetReplicaKey method, IClockVectorElement.GetReplicaKey, IClockVectorElement::GetReplicaKey, winsync.iclockvectorelement_getreplicakey, winsync/IClockVectorElement::GetReplicaKey
 ms.prod: windows
 ms.technology: windows-sdk

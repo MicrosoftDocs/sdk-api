@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_unregisterendpointnotificationcallba
 old-project: CoreAudio
 ms.assetid: dc1e85af-f399-469d-806a-a2d80b700b75
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],UnregisterEndpointNotificationCallback method, IMMDeviceEnumerator.UnregisterEndpointNotificationCallback, IMMDeviceEnumerator::UnregisterEndpointNotificationCallback, IMMDeviceEnumeratorUnregisterEndpointNotificationC, UnregisterEndpointNotificationCallback, UnregisterEndpointNotificationCallback method [Core Audio], UnregisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_unregisterendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,9 +117,7 @@ The specified notification interface was not found.
 
 
 
-
-        
-      The client must ensure that the <a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient</a> object is not released after the <a href="https://msdn.microsoft.com/2c524f64-0b35-4433-9768-582dcb580a74">RegisterEndpointNotificationCallback</a> call and before calling <b>UnregisterEndpointNotificationCallback</b>. These methods do not call the client's <b>IMMNotificationClient::AddRef</b> and <b>IMMNotificationClient::Release</b> implementations. The client is responsible for maintaining the reference count of the <b>IMMNotificationClient</b> object. The client must increment the count if the <b>RegisterEndpointNotificationCallback</b> call succeeds and release the final reference only after calling <b>UnregisterEndpointNotificationCallback</b> or implement some other mechanism to ensure that the object is not deleted before <b>UnregisterEndpointNotificationCallback</b> is called. Otherwise, the application leaks the resources held by the <b>IMMNotificationClient</b> and any other object that is implemented in the same container. 
+The client must ensure that the <a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient</a> object is not released after the <a href="https://msdn.microsoft.com/2c524f64-0b35-4433-9768-582dcb580a74">RegisterEndpointNotificationCallback</a> call and before calling <b>UnregisterEndpointNotificationCallback</b>. These methods do not call the client's <b>IMMNotificationClient::AddRef</b> and <b>IMMNotificationClient::Release</b> implementations. The client is responsible for maintaining the reference count of the <b>IMMNotificationClient</b> object. The client must increment the count if the <b>RegisterEndpointNotificationCallback</b> call succeeds and release the final reference only after calling <b>UnregisterEndpointNotificationCallback</b> or implement some other mechanism to ensure that the object is not deleted before <b>UnregisterEndpointNotificationCallback</b> is called. Otherwise, the application leaks the resources held by the <b>IMMNotificationClient</b> and any other object that is implemented in the same container. 
 
 
 

@@ -4,10 +4,10 @@ title: PdhExpandWildCardPathW function
 author: windows-sdk-content
 description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function.
 old-location: perf\pdhexpandwildcardpath.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 415da310-de56-4d58-8959-231426867526
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPath, PdhExpandWildCardPath function [Perf], PdhExpandWildCardPathA, PdhExpandWildCardPathW, _win32_pdhexpandwildcardpath, base.pdhexpandwildcardpath, pdh/PdhExpandWildCardPath, pdh/PdhExpandWildCardPathA, pdh/PdhExpandWildCardPathW, perf.pdhexpandwildcardpath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,8 +130,7 @@ Do not expand the instance name if the path contains a wildcard character for pa
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
@@ -214,8 +213,7 @@ You should call this function twice, the first time to get the required buffer s
 <a href="https://msdn.microsoft.com/d90954ab-ec2f-42fd-90b7-66f59f3d1115">PdhExpandCounterPath</a> in the following ways:
 
 <ol>
-<li>
-						Lets you control which wildcard characters are expanded.</li>
+<li>Lets you control which wildcard characters are expanded.</li>
 <li>The contents of a log file can be used as the source of counter names. </li>
 </ol>
 The general counter path format is as follows:

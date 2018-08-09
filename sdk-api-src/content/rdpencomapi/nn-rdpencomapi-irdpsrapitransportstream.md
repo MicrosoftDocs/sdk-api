@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstream.htm
 old-project: rdp
 ms.assetid: 18ac00d5-f574-463f-a34a-40c2dc16d4d8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], IRDPSRAPITransportStream interface [RDP],described, rdp.irdpsrapitransportstream, rdpencomapi/IRDPSRAPITransportStream
 ms.prod: windows
 ms.technology: windows-sdk

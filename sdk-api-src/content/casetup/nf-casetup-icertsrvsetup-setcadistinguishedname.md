@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setcadistinguishedname.htm
 old-project: seccrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
 ms.prod: windows
 ms.technology: windows-sdk

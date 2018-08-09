@@ -7,7 +7,7 @@ old-location: controls\NMLVEMPTYMARKUP.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: EMF_CENTERED, NMLVEMPTYMARKUP, NMLVEMPTYMARKUP structure [Windows Controls], commctrl/NMLVEMPTYMARKUP, controls.NMLVEMPTYMARKUP, controls.shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP_cpp, tagNMLVEMPTYMARKUP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/library/Bb774833(v=VS.85).aspx">LVN_GETEMPTYMARKUP</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/5ea74120-f347-493a-af14-6bda5b8f6082">LVN_GETEMPTYMARKUP</a> notification code. 
 
 
 
@@ -61,7 +61,7 @@ Contains information used with the <a href="https://msdn.microsoft.com/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 Info on the notification message.
 

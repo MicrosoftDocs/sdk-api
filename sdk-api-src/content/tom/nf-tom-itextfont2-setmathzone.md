@@ -4,10 +4,10 @@ title: ITextFont2::SetMathZone
 author: windows-sdk-content
 description: Sets whether a math zone is active.
 old-location: controls\itextfont2_setmathzone.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 4e43d51a-3001-4611-8aa1-fcf8cc2655fc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetMathZone method, ITextFont2.SetMathZone, ITextFont2::SetMathZone, SetMathZone, SetMathZone method [Windows Controls], SetMathZone method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmathzone, tom/ITextFont2::SetMathZone
 ms.prod: windows
 ms.technology: windows-sdk

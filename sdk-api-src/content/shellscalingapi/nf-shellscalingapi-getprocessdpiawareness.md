@@ -7,7 +7,7 @@ old-location: hidpi\getprocessdpiawareness.htm
 old-project: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
 ms.author: windowssdkdev
-ms.date: 03/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Retrieves the dots per inch (dpi) awareness of the specified process.
 Handle of the process that is being queried. If this parameter is NULL, the current process is queried.
 
 
-### -param value
-
-TBD
-
-
-
-
-#### - *value [out]
+### -param value [out]
 
 The DPI awareness of the specified process. Possible values are from the <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a> enumeration.
 

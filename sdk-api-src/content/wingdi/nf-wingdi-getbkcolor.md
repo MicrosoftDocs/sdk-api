@@ -7,7 +7,7 @@ old-location: gdi\getbkcolor.htm
 old-project: gdi
 ms.assetid: 1c6e8d05-4b8d-476d-852c-f06f316cb8b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetBkColor, GetBkColor function [Windows GDI], _win32_GetBkColor, gdi.getbkcolor, wingdi/GetBkColor
 ms.prod: windows
 ms.technology: windows-sdk

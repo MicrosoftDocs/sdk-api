@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_hours.htm
 old-project: WmiSdk
 ms.assetid: 83f084fa-57a5-4467-acea-7e19de82a91f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Hours property [Windows Management Instrumentation], Hours property [Windows Management Instrumentation],ISWbemDateTime interface, Hours property [Windows Management Instrumentation],SWbemDateTime object, ISWbemDateTime interface [Windows Management Instrumentation],Hours property, ISWbemDateTime.get_Hours, ISWbemDateTime.put_Hours, ISWbemDateTime::put_Hours, SWbemDateTime object [Windows Management Instrumentation],Hours property, SWbemDateTime.Hours, _hmm_swbemdatetime.hours, put_Hours, wmi.swbemdatetime_hours
 ms.prod: windows
 ms.technology: windows-sdk

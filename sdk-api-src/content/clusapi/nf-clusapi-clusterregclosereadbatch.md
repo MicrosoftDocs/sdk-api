@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosereadbatch.htm
 old-project: mscs
 ms.assetid: A164EB9F-290E-446E-98E9-95C6C3C3D00C
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegCloseReadBatch, ClusterRegCloseReadBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH function [Failover Cluster], clusapi/ClusterRegCloseReadBatch, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
 ms.prod: windows
 ms.technology: windows-sdk

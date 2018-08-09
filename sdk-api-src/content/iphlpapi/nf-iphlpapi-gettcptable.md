@@ -7,7 +7,7 @@ old-location: iphlp\gettcptable.htm
 old-project: iphlp
 ms.assetid: e90c5aa0-3126-489b-af44-bf86cb45a6d1
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetTcpTable, GetTcpTable function [IP Helper], _iphlp_gettcptable, iphlp.gettcptable, iphlpapi/GetTcpTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,24 +60,22 @@ The
 
 
 
-### -param TcpTable
+### -param TcpTable [out]
 
-TBD
-
-
-### -param SizePointer
-
-TBD
+A pointer to a buffer that receives the TCP connection table as a 
+<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structure.
 
 
-### -param Order
+### -param SizePointer [in, out]
 
-TBD
+On input, specifies the size in  bytes  of the buffer pointed to by the <i>pTcpTable</i> parameter.
+
+On output, if the buffer is not large enough to hold the returned connection table, the function sets this parameter equal to the required buffer size in bytes.
+
+On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>. 
 
 
-
-
-#### - bOrder [in]
+### -param Order [in]
 
 A Boolean value that specifies whether the TCP connection table should be sorted. If this parameter is <b>TRUE</b>, the table is sorted in the order of: 
 
@@ -89,21 +87,6 @@ A Boolean value that specifies whether the TCP connection table should be sorted
 <li>Remote port</li>
 </ol>
 
-
-
-#### - pTcpTable [out]
-
-A pointer to a buffer that receives the TCP connection table as a 
-<a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structure.
-
-
-#### - pdwSize [in, out]
-
-On input, specifies the size in  bytes  of the buffer pointed to by the <i>pTcpTable</i> parameter.
-
-On output, if the buffer is not large enough to hold the returned connection table, the function sets this parameter equal to the required buffer size in bytes.
-
-On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>. 
 
 
 ## -returns

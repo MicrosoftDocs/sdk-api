@@ -7,7 +7,7 @@ old-location: display\gdiinfo.htm
 old-project: display
 ms.assetid: f75f599f-43ea-4da6-a6e3-6591cf6d69f1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: "*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO, PGDIINFO structure pointer [Display Devices], _GDIINFO, display.gdiinfo, grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml, winddi/GDIINFO, winddi/PGDIINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The GDIINFO structure describes the graphics capabilities of a given device.
 
 Specifies the driver version number. The byte ordering of <b>ulVersion</b> has the following form.
 
-<img alt="Figure showing the ulVersion member specifying the driver version number" src="./images/ver_nmbr.png"/>
+<img alt="Figure showing the ulVersion member specifying the driver version number" src="images/ver_nmbr.png"/>
 
 The high-order 16 bits must be set to zero. Bits 8 through 15 specify the version number of the Microsoft operating system for which the driver is designed. The high-order 4 bits of this range specify the major number of the version, the low-order 4 bits contain the minor number of the version. The low-order 8 bits of <b>ulVersion</b> specify the version number of the display driver; this value should be incremented for each release of the display driver binary file.
 

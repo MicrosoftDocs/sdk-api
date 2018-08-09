@@ -7,7 +7,7 @@ old-location: shell\FolderItems3_Filter.htm
 old-project: shell
 ms.assetid: 19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: Filter, Filter method [Windows Shell], Filter method [Windows Shell],FolderItems3 object, FolderItems3 object [Windows Shell],Filter method, FolderItems3.Filter, FolderItems3::Filter, _win32_FolderItems3_Filter, shell.FolderItems3_Filter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ This parameter can be one of the flags listed in <a href="https://msdn.microsoft
 
 #### - bstrFilter [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A filter string that specifies what should be listed in the <a href="https://msdn.microsoft.com/b99201b3-95e8-4ddd-b338-dee8d107d0a0">FolderItems</a> collection.
 

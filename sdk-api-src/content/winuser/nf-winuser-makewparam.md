@@ -7,7 +7,7 @@ old-location: winmsg\makewparam.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPARAM, _win32_makewparam_cpp, winmsg.makewparam, winui._win32_makewparam, winuser/MAKEWPARAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,12 @@ Creates a value for use as a <i>wParam</i> parameter in a message. The macro con
 
 ### -param l
 
-TBD
+The low-order word of the new value.
 
 
 ### -param h
 
-TBD
-
-
-
-
-
-
-#### - wHigh
-
 The high-order word of the new value.
-
-
-#### - wLow
-
-The low-order word of the new value.
 
 
 ## -see-also
@@ -92,15 +78,15 @@ The low-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx">MAKELONG</a>
+<a href="https://msdn.microsoft.com/161979a1-296c-47ed-bf41-74a561b5ba05">MAKELONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx">MAKELPARAM</a>
+<a href="https://msdn.microsoft.com/a8107ab0-b800-45de-b705-8439d0c9c0d7">MAKELPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632662(v=VS.85).aspx">MAKELRESULT</a>
+<a href="https://msdn.microsoft.com/8a86594d-05cd-44e4-aceb-3541e4d3af16">MAKELRESULT</a>
 
 
 

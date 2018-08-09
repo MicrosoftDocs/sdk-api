@@ -7,7 +7,7 @@ old-location: setup\setupverifyinffile.htm
 old-project: SetupApi
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,7 @@ An optional pointer to a
 <a href="https://msdn.microsoft.com/eb66ef5a-212d-4224-87b5-d64e8e188139">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
 
 
-### -param InfSignerInfo
-
-TBD
-
-
-
-
-#### - InfFileName [out]
+### -param InfSignerInfo [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/50ceee47-3a89-4bd7-8508-5a4d75514861">SP_INF_SIGNER_INFO</a> structure that receives information about the INF digital signature, that is, if it is signed.
 

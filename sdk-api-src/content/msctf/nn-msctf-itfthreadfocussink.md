@@ -7,7 +7,7 @@ old-location: tsf\itfthreadfocussink.htm
 old-project: TSF
 ms.assetid: 17335fa9-01ee-4585-9454-f326b6281ab1
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfThreadFocusSink, ITfThreadFocusSink interface [Text Services Framework], ITfThreadFocusSink interface [Text Services Framework],described, _tsf_itfthreadfocussink_ref, msctf/ITfThreadFocusSink, tsf.itfthreadfocussink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Called when the thread receives the UI focus.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

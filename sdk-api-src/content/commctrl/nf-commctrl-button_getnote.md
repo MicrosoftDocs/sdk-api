@@ -7,7 +7,7 @@ old-location: controls\Button_GetNote.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnote.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Button_GetNote, Button_GetNote macro [Windows Controls], _shell_Button_GetNote, _shell_Button_GetNote_cpp, commctrl/Button_GetNote, controls.Button_GetNote, controls._shell_Button_GetNote
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the text of the note associated with a command link button. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775965(v=VS.85).aspx">BCM_GETNOTE</a> message explicitly.
+Gets the text of the note associated with a command link button. You can use this macro or send the <a href="https://msdn.microsoft.com/ddaf4227-1316-49b5-abf0-00215472c46c">BCM_GETNOTE</a> message explicitly.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ A pointer to the length of the note, in characters.
 
 
 
-This macro works only with the <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_COMMANDLINK</a> and <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_DEFCOMMANDLINK</a> button styles.
+This macro works only with the <a href="Button_Styles.htm">BS_COMMANDLINK</a> and <a href="Button_Styles.htm">BS_DEFCOMMANDLINK</a> button styles.
 
 
 
@@ -93,11 +93,11 @@ This macro works only with the <a href="https://msdn.microsoft.com/library/Bb775
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://msdn.microsoft.com/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b">Button Types</a>
 
 
 

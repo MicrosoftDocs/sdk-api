@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_DisplayParseError.htm
 old-project: shell
 ms.assetid: 966fec07-6a67-435a-8908-67999afce9f0
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DisplayParseError, DisplayParseError method [Windows Shell], DisplayParseError method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],DisplayParseError method, IBrowserService.DisplayParseError, IBrowserService::DisplayParseError, shdeprecated/IBrowserService::DisplayParseError, shell.IBrowserService_DisplayParseError, zone_IBrowserService_DisplayParseError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ An <b>HRESULT</b> returned by <a href="https://msdn.microsoft.com/02f5a6cb-2f90-
 
 Type: <b>LPCWSTR</b>
 
-
-          A pointer to a buffer containing the URL that failed to parse. This method displays the failed URL in an error dialog box.
+A pointer to a buffer containing the URL that failed to parse. This method displays the failed URL in an error dialog box.
         
 
 
@@ -90,8 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        The <b>HRESULT</b> returned by <a href="https://msdn.microsoft.com/02f5a6cb-2f90-4613-80cd-1e8a47bb32c2">IBrowserService::IEParseDisplayName</a> can be passed to <b>IBrowserService::DisplayParseError</b> without first checking for success or failure.
+The <b>HRESULT</b> returned by <a href="https://msdn.microsoft.com/02f5a6cb-2f90-4613-80cd-1e8a47bb32c2">IBrowserService::IEParseDisplayName</a> can be passed to <b>IBrowserService::DisplayParseError</b> without first checking for success or failure.
       
 
 

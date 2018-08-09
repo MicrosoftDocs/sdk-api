@@ -4,10 +4,10 @@ title: ComboBox_AddItemData macro
 author: windows-sdk-content
 description: Adds item data to the list in a combo box at the specified location. You can use this macro or send the CB_ADDSTRING message explicitly.
 old-location: controls\ComboBox_AddItemData.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_additemdata.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ComboBox_AddItemData, ComboBox_AddItemData macro [Windows Controls], _win32_ComboBox_AddItemData, _win32_ComboBox_AddItemData_cpp, controls.ComboBox_AddItemData, controls._win32_ComboBox_AddItemData, windowsx/ComboBox_AddItemData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds item data to the list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a> message explicitly.
+Adds item data to the list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to the item data to add.
 
 
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>.
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>.
 	
 
 

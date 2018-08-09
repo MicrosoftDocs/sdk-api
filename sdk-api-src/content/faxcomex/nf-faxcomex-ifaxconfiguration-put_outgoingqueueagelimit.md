@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\outgoingqueueagelimit.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueueAgeLimit property, FaxConfiguration.OutgoingQueueAgeLimit, IFaxConfiguration.put_OutgoingQueueAgeLimit, IFaxConfiguration::put_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb, put_OutgoingQueueAgeLimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
  
 
  

@@ -4,10 +4,10 @@ title: PdhExpandCounterPathA function
 author: windows-sdk-content
 description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 old-location: perf\pdhexpandcounterpath.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Size of the <i>mszExpandedPathList</i> buffer, in <b>TCHARs</b>. If zero on inpu
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

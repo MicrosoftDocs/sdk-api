@@ -7,7 +7,7 @@ old-location: security\scesvc_info_type.htm
 old-project: secmgmt
 ms.assetid: 697dfecf-46a9-4558-90e2-099fabc60742
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: SCESVC_INFO_TYPE, SCESVC_INFO_TYPE enumeration [Security], SceSvcAnalysisInfo, SceSvcConfigurationInfo, SceSvcInternalUse, SceSvcMergedPolicyInfo, _SCESVC_INFO_TYPE, _config_scesvc_info_type, scesvc/SCESVC_INFO_TYPE, scesvc/SceSvcAnalysisInfo, scesvc/SceSvcConfigurationInfo, scesvc/SceSvcInternalUse, scesvc/SceSvcMergedPolicyInfo, security.scesvc_info_type
 ms.prod: windows
 ms.technology: windows-sdk

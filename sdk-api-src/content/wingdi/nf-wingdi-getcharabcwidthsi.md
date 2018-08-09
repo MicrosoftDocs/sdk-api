@@ -7,7 +7,7 @@ old-location: gdi\getcharabcwidthsi.htm
 old-project: gdi
 ms.assetid: 7d1210ee-42b7-4f2e-9e89-fb1543d76290
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCharABCWidthsI, GetCharABCWidthsI function [Windows GDI], _win32_GetCharABCWidthsI, gdi.getcharabcwidthsi, wingdi/GetCharABCWidthsI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,7 @@ The number of glyph indices.
 A pointer to an array that contains glyph indices. If this parameter is <b>NULL</b>, the <i>giFirst</i> parameter is used instead. The <i>cgi</i> parameter specifies the number of glyph indices in this array.
 
 
-### -param pabc
-
-TBD
-
-
-
-
-#### - lpabc [out]
+### -param pabc [out]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structures that receives the character widths, in logical units. This array must contain at least as many <b>ABC</b> structures as there are glyph indices specified by the <i>cgi</i> parameter.
 

@@ -4,10 +4,10 @@ title: "_RM_SHUTDOWN_TYPE"
 author: windows-sdk-content
 description: Configures the shut down of applications.
 old-location: rstmgr\rm_shutdown_type.htm
-old-project: RstMgr
+old-project: rstmgr
 ms.assetid: e75f60a3-535b-4c1f-85ae-37f4c4c71ede
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RM_SHUTDOWN_TYPE, RmForceShutdown, RmShutdownOnlyRegistered, _RM_SHUTDOWN_TYPE, _RM_SHUTDOWN_TYPE enumeration [Restart Mgr], restartmanager/RmForceShutdown, restartmanager/RmShutdownOnlyRegistered, restartmanager/_RM_SHUTDOWN_TYPE, rstmgr.rm_shutdown_type
 ms.prod: windows
 ms.technology: windows-sdk

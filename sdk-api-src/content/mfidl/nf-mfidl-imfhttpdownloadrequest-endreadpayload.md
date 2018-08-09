@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endreadpayload.htm
 old-project: medfound
 ms.assetid: 491437FE-1401-4841-AE0E-428F28E34D4D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EndReadPayload, EndReadPayload method [Media Foundation], EndReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReadPayload method, IMFHttpDownloadRequest.EndReadPayload, IMFHttpDownloadRequest::EndReadPayload, mf.imfhttpdownloadrequest_endreadpayload, mfidl/IMFHttpDownloadRequest::EndReadPayload
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Specifies the number of bytes written to the buffer that Media Foundation provid
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -97,8 +96,7 @@ Specifies the number of bytes written to the buffer that Media Foundation provid
 </dl>
 </td>
 <td width="60%">
-
-                Successfully wrote data to the buffer provided in <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a>.
+Successfully wrote data to the buffer provided in <a href="https://msdn.microsoft.com/01B799C2-63C6-4BDC-AAE2-CFC3C426A218">BeginReadPayload</a>.
 
 </td>
 </tr>

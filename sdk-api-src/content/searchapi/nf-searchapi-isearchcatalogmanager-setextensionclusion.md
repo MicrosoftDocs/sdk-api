@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_SetExtensionClusion.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setextensionclusion.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],SetExtensionClusion method, ISearchCatalogManager.SetExtensionClusion, ISearchCatalogManager::SetExtensionClusion, SetExtensionClusion, SetExtensionClusion method [search], SetExtensionClusion method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetExtensionClusion, search._search_ISearchCatalogManager_SetExtensionClusion, searchapi/ISearchCatalogManager::SetExtensionClusion
 ms.prod: windows
 ms.technology: windows-sdk

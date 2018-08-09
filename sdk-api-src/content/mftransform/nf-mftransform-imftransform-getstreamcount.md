@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamcount.htm
 old-project: medfound
 ms.assetid: 491f7f44-fcac-4236-ba5c-e5705267c6c2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamCount method, IMFTransform.GetStreamCount, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the current number of input and output streams on this Media Foundation transform (MFT).
+Gets the current number of input and output streams on this Media Foundation transform (MFT).
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param pcInputStreams [out]
 
-
-            Receives the number of input streams.
+Receives the number of input streams.
           
 
 
 ### -param pcOutputStreams [out]
 
-
-            Receives the number of output streams.
+Receives the number of output streams.
           
 
 
@@ -89,14 +86,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
+The number of streams includes unselected streams—that is, streams with no media type or a <b>NULL</b> media type.
 
-        The number of streams includes unselected streams—that is, streams with no media type or a <b>NULL</b> media type.
-
-
-        This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
+This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamCount</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamCount</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

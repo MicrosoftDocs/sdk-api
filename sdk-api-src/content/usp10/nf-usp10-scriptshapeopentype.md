@@ -7,7 +7,7 @@ old-location: intl\scriptshapeopentype.htm
 old-project: Intl
 ms.assetid: d2e062a6-2ec8-4057-b525-d1cd719dc736
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScriptShapeOpenType, ScriptShapeOpenType function [Internationalization for Windows Applications], _win32_ScriptShapeOpenType, intl.scriptshapeopentype, usp10/ScriptShapeOpenType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ An <a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPE
 
 ### -param rcRangeChars [in, optional]
 
-Array of characters in each <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">range</a>. The number of array elements is indicated by <i>cRanges</i>. The values of the elements of this array add up to the value of <i>cChars</i>.
+Array of characters in each <a href="uniscribe_glossary.htm">range</a>. The number of array elements is indicated by <i>cRanges</i>. The values of the elements of this array add up to the value of <i>cChars</i>.
 
 
 ### -param rpRangeProperties [in, optional]
@@ -193,7 +193,7 @@ For the <i>rpRangeProperties</i> parameter, the <a href="https://msdn.microsoft.
 </ul>
 </li>
 </ul>
-<img alt="Illustration showing the range, item, run, and feature of each word in a line of text that uses six properties to present eight words" border="" src="./images/Nested_Properties.GIF"/>
+<img alt="Illustration showing the range, item, run, and feature of each word in a line of text that uses six properties to present eight words" border="" src="images/Nested_Properties.GIF"/>
 <div class="alert"><b>Note</b>  The illustration makes use of many calls to <b>ScriptShapeOpenType</b>, each representing one run.</div>
 <div> </div>
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>

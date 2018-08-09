@@ -4,10 +4,10 @@ title: SLDepositOfflineConfirmationIdEx function
 author: windows-sdk-content
 description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation.
 old-location: security\sldepositofflineconfirmationidex.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 22817dc4-5d06-41bd-980d-b4402f74b82b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLDepositOfflineConfirmationIdEx, SLDepositOfflineConfirmationIdEx function [Security], security.sldepositofflineconfirmationidex, slpublic/SLDepositOfflineConfirmationIdEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLDepositOfflineConfirmationIdEx function

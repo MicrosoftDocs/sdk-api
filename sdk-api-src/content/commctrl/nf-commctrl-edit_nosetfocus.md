@@ -7,7 +7,7 @@ old-location: controls\Edit_NoSetFocus.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_nosetfocus.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_Edit_NoSetFocus, _win32_Edit_NoSetFocus_cpp, commctrl/Edit_NoSetFocus, controls.Edit_NoSetFocus, controls._win32_Edit_NoSetFocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a> message explicitly.
+Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the <a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a> message explicitly.
 
 
 ## -parameters
@@ -61,15 +61,6 @@ Prevents a single-line edit control from receiving keyboard focus. You can use t
 
 
 ### -param hwndCtl
-
-TBD
-
-
-
-
-
-
-#### - hwndEdit
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -80,7 +71,7 @@ A handle to the edit control.
 
 
 
-The <a href="https://msdn.microsoft.com/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a> message is ignored if the edit control is not a single-line edit control. 
+The <a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a> message is ignored if the edit control is not a single-line edit control. 
 
 After this message is sent, the effect is permanent.
 
@@ -92,7 +83,7 @@ After this message is sent, the effect is permanent.
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a>
+<a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a>
  
 
  

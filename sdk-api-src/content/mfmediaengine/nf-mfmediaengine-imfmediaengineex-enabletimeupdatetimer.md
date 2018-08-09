@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_enabletimeupdatetimer.htm
 old-project: medfound
 ms.assetid: 07128937-bb90-4ed5-85ef-e58c8a273d39
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableTimeUpdateTimer method, IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfvalidatemediatypesize.htm
 old-project: medfound
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Validates the size of a buffer for a video format block.
+Validates the size of a buffer for a video format block.
         
 
 
@@ -124,15 +123,13 @@ GUID that specifies the type of format block. It must be one of the following va
 
 ### -param pBlock [in]
 
-
-            Pointer to a buffer that contains the format block.
+Pointer to a buffer that contains the format block.
           
 
 
 ### -param cbSize [in]
 
-
-            Size of the <i>pBlock</i> buffer, in bytes.
+Size of the <i>pBlock</i> buffer, in bytes.
           
 
 
@@ -154,8 +151,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The buffer that contains the format block is large enough.
+The buffer that contains the format block is large enough.
               
 
 </td>
@@ -167,8 +163,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The buffer that contains the format block is too small, or the format block is not valid.
+The buffer that contains the format block is too small, or the format block is not valid.
               
 
 </td>
@@ -180,8 +175,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                This function does not support the specified format type.
+This function does not support the specified format type.
               
 
 </td>

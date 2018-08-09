@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette_getentries.htm
 old-project: directdraw
 ms.assetid: ae3c639f-beb4-40b6-a237-60d6e560a1c3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetEntries method, IDirectDrawPalette.GetEntries, IDirectDrawPalette::GetEntries, ddraw/IDirectDrawPalette::GetEntries, directdraw.idirectdrawpalette_getentries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ Retrieves palette values from a DirectDrawPalette object.
 
 
 
-#### - dwBase [in]
-
-Start of the entries to be retrieved sequentially.
-
-
 #### - dwFlags [in]
 
 Currently not used and must be set to 0.
+
+
+#### - dwBase [in]
+
+Start of the entries to be retrieved sequentially.
 
 
 #### - dwNumEntries [in]

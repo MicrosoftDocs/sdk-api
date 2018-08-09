@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getselection.htm
 old-project: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,8 +220,7 @@ if(SUCCEEDED(hr) &amp;&amp; (uFetched &gt; 0))
 
 
 
-<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">
-        TF_SELECTION
+<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">TF_SELECTION
       </a>
  
 

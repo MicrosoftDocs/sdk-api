@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getsupportedcommands.htm
 old-project: wpd_sdk
 ms.assetid: 974b16c7-27a0-40a6-8941-e93293a69b48
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceCapabilities.GetSupportedCommands, IPortableDeviceCapabilities::GetSupportedCommands, IPortableDeviceCapabilitiesGetSupportedCommands, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands, wpdsdk.iportabledevicecapabilities_getsupportedcommands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ The <b>GetSupportedCommands</b> method retrieves a list of all the supported com
 
 ### -param ppCommands [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597583">IPortableDeviceKeyCollection</a> interface that holds all the valid commands. For a list of commands that are defined by Windows Portable Devices, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597583">IPortableDeviceKeyCollection</a> interface that holds all the valid commands. For a list of commands that are defined by Windows Portable Devices, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>. The caller must release this interface when it is done with it.
           
 
 
@@ -72,8 +71,7 @@ The <b>GetSupportedCommands</b> method retrieves a list of all the supported com
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -102,8 +100,7 @@ The method succeeded.
 
 
 
-
-        None.
+None.
       
 
 
@@ -114,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

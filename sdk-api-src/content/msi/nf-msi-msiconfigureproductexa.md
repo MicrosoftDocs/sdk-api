@@ -4,10 +4,10 @@ title: MsiConfigureProductExA function
 author: windows-sdk-content
 description: Installs or uninstalls a product.
 old-location: setup\msiconfigureproductex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 7a7ae88a-b893-4d10-8542-b2066d1572a9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProductEx, MsiConfigureProductEx function, MsiConfigureProductExA, MsiConfigureProductExW, _msi_msiconfigureproductex, msi/MsiConfigureProductEx, msi/MsiConfigureProductExA, msi/MsiConfigureProductExW, setup.msiconfigureproductex
 ms.prod: windows
 ms.technology: windows-sdk

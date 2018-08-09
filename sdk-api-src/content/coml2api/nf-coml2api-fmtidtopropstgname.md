@@ -7,7 +7,7 @@ old-location: stg\fmtidtopropstgname.htm
 old-project: stg
 ms.assetid: 044f8883-bbd2-4cd3-b9dc-739ecb711bdd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: FmtIdToPropStgName, FmtIdToPropStgName function [Structured Storage], _stg_fmtidtopropstgname, coml2api/FmtIdToPropStgName, stg.fmtidtopropstgname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ A pointer to a null-terminated string that receives the storage or stream name o
 
 
 
-
-						This function supports the standard return value E_INVALIDARG as well as the following:
+This function supports the standard return value E_INVALIDARG as well as the following:
 
 
 

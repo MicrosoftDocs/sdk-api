@@ -4,10 +4,10 @@ title: WSAPoll function
 author: windows-sdk-content
 description: The WSAPoll function determines status of one or more sockets.
 old-location: winsock\wsapoll.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,14 @@ The <b>WSAPoll</b> function determines status of one or more sockets.
 
 
 
-### -param fdArray
+### -param fdArray [in, out]
 
-TBD
+An array of one or more <b>POLLFD</b> structures specifying the set  of sockets for which status is requested. The   array must contain at least one structure with a valid socket. Upon return, this parameter receives the updated sockets with the <b>revents</b> status flags member set on each one that matches the status query criteria.
 
 
-### -param fds
+### -param fds [in]
 
-TBD
+The number of <b>WSAPOLLFD</b> structures in <i>fdarray</i>. This is not necessarily the number of sockets for which status is requested.
 
 
 ### -param timeout [in]
@@ -93,16 +93,6 @@ A value that specifies the wait behavior, based on the following values.
 </tr>
 </table>
  
-
-
-#### - fdarray [in, out]
-
-An array of one or more <b>POLLFD</b> structures specifying the set  of sockets for which status is requested. The   array must contain at least one structure with a valid socket. Upon return, this parameter receives the updated sockets with the <b>revents</b> status flags member set on each one that matches the status query criteria.
-
-
-#### - nfds [in]
-
-The number of <b>WSAPOLLFD</b> structures in <i>fdarray</i>. This is not necessarily the number of sockets for which status is requested.
 
 
 ## -returns
@@ -140,7 +130,7 @@ Returns one of the following values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +141,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +152,7 @@ An exception occurred while reading user input parameters.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -174,7 +164,7 @@ An invalid parameter was passed. This error is returned if the <i>fdarray</i> pa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -228,7 +218,7 @@ A combination of the following flags can be set in the <b>events</b> member of t
 
 The <b>POLLIN</b> flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>POLLRDBAND</b> flag values. The <b>POLLOUT</b> flag is defined as the same as the <b>POLLWRNORM</b>  flag value.
 
-The <b>events</b> member of the <a href="https://msdn.microsoft.com/88f122ce-e2ca-44ce-bd53-d73d0962e7ef">WSAPOLLFD</a> structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function will retrieve the extended error code of <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
+The <b>events</b> member of the <a href="https://msdn.microsoft.com/88f122ce-e2ca-44ce-bd53-d73d0962e7ef">WSAPOLLFD</a> structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function will retrieve the extended error code of <a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
 
 When the <b>WSAPoll</b> function returns a positive value, a combination of the following flags are returned in the <b>revents</b> member of the <a href="https://msdn.microsoft.com/88f122ce-e2ca-44ce-bd53-d73d0962e7ef">WSAPOLLFD</a> structures pointed to by the <i>fdarray</i> parameter to indicate socket  status:<table>
 <tr>

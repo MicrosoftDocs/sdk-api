@@ -7,7 +7,7 @@ old-location: setup\setupremovefromsourcelist.htm
 old-project: SetupApi
 ms.assetid: 9e87f481-7d6a-4d8e-8f71-d104de3533f8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupRemoveFromSourceList, SetupRemoveFromSourceList function [Setup API], SetupRemoveFromSourceListA, SetupRemoveFromSourceListW, _setupapi_setupremovefromsourcelist, setup.setupremovefromsourcelist, setupapi/SetupRemoveFromSourceList, setupapi/SetupRemoveFromSourceListA, setupapi/SetupRemoveFromSourceListW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,16 +109,6 @@ Remove all subdirectories of the source.
 Pointer to a null-terminated string that specifies the source to remove from the list.
 
 
-##### - Flags.SRCLIST_SUBDIRS
-
-Remove all subdirectories of the source.
-
-
-##### - Flags.SRCLIST_SYSIFADMIN
-
-If the caller is an administrator, the source is removed from the per-system list; if the caller is not an administrator, the source is removed from the per-user list for the current user.
-
-
 ##### - Flags.SRCLIST_SYSTEM
 
 Remove the source to the per-system list. The caller must be an administrator.
@@ -127,6 +117,16 @@ Remove the source to the per-system list. The caller must be an administrator.
 ##### - Flags.SRCLIST_USER
 
 Remove the source to the per-user list.
+
+
+##### - Flags.SRCLIST_SYSIFADMIN
+
+If the caller is an administrator, the source is removed from the per-system list; if the caller is not an administrator, the source is removed from the per-user list for the current user.
+
+
+##### - Flags.SRCLIST_SUBDIRS
+
+Remove all subdirectories of the source.
 
 
 ## -returns

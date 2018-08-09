@@ -7,7 +7,7 @@ old-location: mmc\iimagelist_imagelistsetstrip.htm
 old-project: MMC
 ms.assetid: b736a5ab-86a7-4c8d-82b7-bbe9f98bc402
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.ImageListSetStrip, IImageList::ImageListSetStrip, ImageListSetStrip, ImageListSetStrip method [MMC], ImageListSetStrip method [MMC],IImageList interface, _slate_iimagelist_imagelistsetstrip, mmc.iimagelist_imagelistsetstrip, mmc/IImageList::ImageListSetStrip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,14 @@ A value that specifies the index assigned to the first image in the strip. This 
 A value that specifies the color used to generate a mask.
 
 
-#### - BMapLg [in]
-
-Win32 HBITMAP handle to the large (32x32) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapLg.
-
-
 #### - BMapSm [in]
 
 Win32 HBITMAP handle to the small (16x16) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapSm.
+
+
+#### - BMapLg [in]
+
+Win32 HBITMAP handle to the large (32x32) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapLg.
 
 
 ## -returns

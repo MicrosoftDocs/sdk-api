@@ -7,7 +7,7 @@ old-location: intl\immreleasecontext.htm
 old-project: Intl
 ms.assetid: e14b087a-58ef-4360-9368-3fdd088c14f6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,14 @@ Releases the input context and unlocks the memory associated in the input contex
 
 
 
-### -param HWND
-
-TBD
-
-
-### -param HIMC
-
-TBD
-
-
-
-
-#### - hIMC [in]
-
-Handle to the input context.
-
-
-#### - hWnd [in]
+### -param HWND [in]
 
 Handle to the window for which the input context was previously retrieved.
+
+
+### -param HIMC [in]
+
+Handle to the input context.
 
 
 ## -returns

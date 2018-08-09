@@ -7,7 +7,7 @@ old-location: display\drvbitblt.htm
 old-project: display
 ms.assetid: d7b4e25c-b9a1-4200-b449-b7c7ed059db4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0f0d-4b76-b060-207e332dafde.xml, display.drvbitblt, winddi/DrvBitBlt
 ms.prod: windows
 ms.technology: windows-sdk

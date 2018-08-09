@@ -7,7 +7,7 @@ old-location: qos\qos_object_hdr.htm
 old-project: qos
 ms.assetid: a2021d70-e7ef-4c2a-8800-1a1d7540ce02
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPQOS_OBJECT_HDR, LPQOS_OBJECT_HDR, LPQOS_OBJECT_HDR structure pointer [QOS], QOS_OBJECT_DESTADDR, QOS_OBJECT_END_OF_LIST, QOS_OBJECT_HDR, QOS_OBJECT_HDR structure [QOS], QOS_OBJECT_SD_MODE, QOS_OBJECT_SHAPING_RATE, RSVP_OBJECT_ADSPEC, RSVP_OBJECT_FILTERSPEC_LIST, RSVP_OBJECT_POLICY_INFO, RSVP_OBJECT_RESERVE_INFO, _gqos_qos_object_hdr, qos.qos_object_hdr, qos/LPQOS_OBJECT_HDR, qos/QOS_OBJECT_HDR"
 ms.prod: windows
 ms.technology: windows-sdk

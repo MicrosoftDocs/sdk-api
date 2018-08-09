@@ -7,7 +7,7 @@ old-location: shell\LongLongToLong.htm
 old-project: shell
 ms.assetid: c77dbb9f-6c3a-4793-9740-ce9b75727b0d
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: Int64ToLong, LongLongToLong, LongLongToLong function [Windows Shell], intsafe/LongLongToLong, shell.LongLongToLong
 ms.prod: windows
 ms.technology: windows-sdk

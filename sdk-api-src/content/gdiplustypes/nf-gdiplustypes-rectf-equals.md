@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Equals_rect_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\equals_30rect.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],RectF class, RectF class [GDI+],Equals method, RectF.Equals, RectF::Equals, _gdiplus_CLASS_RectF_Equals_rect_, gdiplus._gdiplus_CLASS_RectF_Equals_rect_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Two rectangles are the same if their
 
 
 The following example creates two 
-						<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a> objects, moves the second 
+						<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> objects, moves the second 
 						<b>RectF</b> object horizontally by a specified value, and then determines whether the two 
 						<b>RectF</b> objects are the same.
 
@@ -129,7 +129,7 @@ The following example creates two
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
 
 
 
@@ -137,11 +137,11 @@ The following example creates two
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

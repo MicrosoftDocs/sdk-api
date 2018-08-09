@@ -7,7 +7,7 @@ old-location: mf\idxvahd_videoprocessor.htm
 old-project: medfound
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
 ms.prod: windows
 ms.technology: windows-sdk

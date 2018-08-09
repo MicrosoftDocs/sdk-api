@@ -4,10 +4,10 @@ title: "_VDS_DRIVE_PROP"
 author: windows-sdk-content
 description: Defines the properties of a drive object.
 old-location: base\vds_drive_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: c17f13f6-ccea-4370-84d1-b422efb63e73
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_DRIVE_PROP, VDS_DRIVE_PROP, VDS_DRIVE_PROP structure [VDS], VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_DRIVE_PROP, base.vds_drive_prop, vds/_VDS_DRIVE_PROP, vdshwprv/_VDS_DRIVE_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,19 +133,19 @@ The number of the bus to which the drive is connected. This number is an impleme
 The number of the slot that the drive occupies. This number is an implementer-assigned value that uniquely identifies the slot within the bus. It is not constrained by the number of slots that the bus contains, and it is not related to the value of the <b>sMaxNumberOfSlotsEachBus</b> member of the <a href="https://msdn.microsoft.com/8fecb874-5c59-4f55-b528-040ff9209612">VDS_SUB_SYSTEM_PROP</a> structure.
 
 
-##### - health.VDS_H_FAILED (8)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
-##### - health.VDS_H_PENDING_FAILURE (10)
+##### - health.VDS_H_FAILED (8)
 
 
 ##### - health.VDS_H_REPLACED (9)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_PENDING_FAILURE (10)
 
 
 ## -remarks

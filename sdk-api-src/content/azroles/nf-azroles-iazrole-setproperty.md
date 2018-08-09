@@ -7,7 +7,7 @@ old-location: security\iazrole_setproperty.htm
 old-project: secauthz
 ms.assetid: 0f1c4abe-69cc-4672-8a74-eaaf55fc6e88
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzRole object [Security],SetProperty method, IAzRole interface [Security],SetProperty method, IAzRole.SetProperty, IAzRole::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzRole object, SetProperty method [Security],IAzRole interface, azroles/IAzRole::SetProperty, security.iazrole_setproperty
 ms.prod: windows
 ms.technology: windows-sdk

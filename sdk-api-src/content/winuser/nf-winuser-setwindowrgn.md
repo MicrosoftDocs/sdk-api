@@ -7,7 +7,7 @@ old-location: gdi\setwindowrgn.htm
 old-project: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ If the function fails, the return value is zero.
 
 
 
-When this function is called, the system sends the <a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
+When this function is called, the system sends the <a href="_win32_wm_windowposchanging_cpp">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
 
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
@@ -126,7 +126,7 @@ To obtain the window region of a window, call the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>
+<a href="_win32_wm_windowposchanging_cpp">WM_WINDOWPOSCHANGING</a>
  
 
  

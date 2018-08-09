@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_isencrypted.htm
 old-project: tapi
 ms.assetid: a3228efa-2501-44ec-ba85-0e3b7c00b483
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_IsEncrypted method, ITDirectoryObjectConference.get_IsEncrypted, ITDirectoryObjectConference::get_IsEncrypted, _tapi3_itdirectoryobjectconference_get_isencrypted, get_IsEncrypted, get_IsEncrypted method [TAPI 2.2], get_IsEncrypted method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_IsEncrypted, tapi3.itdirectoryobjectconference_get_isencrypted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

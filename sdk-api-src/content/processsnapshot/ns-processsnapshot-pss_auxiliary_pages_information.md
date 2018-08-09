@@ -7,7 +7,7 @@ old-location: proc_snap\pss_auxiliary_pages_information.htm
 old-project: proc_snap
 ms.assetid: 122DD3DF-002A-4250-9E37-BA239638A684
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: PSS_AUXILIARY_PAGES_INFORMATION, PSS_AUXILIARY_PAGES_INFORMATION structure, proc_snap.pss_auxiliary_pages_information, processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

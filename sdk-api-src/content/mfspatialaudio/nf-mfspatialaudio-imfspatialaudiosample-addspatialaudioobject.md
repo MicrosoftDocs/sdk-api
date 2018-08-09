@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudiosample_addspatialaudioobject.htm
 old-project: medfound
 ms.assetid: D967B4FE-8E11-4520-BF9E-725ACC7AA99A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],AddSpatialAudioObject method, IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject
 ms.prod: windows
 ms.technology: windows-sdk

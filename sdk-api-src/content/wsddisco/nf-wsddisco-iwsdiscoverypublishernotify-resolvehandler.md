@@ -4,10 +4,10 @@ title: IWSDiscoveryPublisherNotify::ResolveHandler
 author: windows-sdk-content
 description: Is called when a Resolve is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: b0dd2b82-5d08-4dd3-8e6a-892ebaf71045
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
 ms.prod: windows
 ms.technology: windows-sdk

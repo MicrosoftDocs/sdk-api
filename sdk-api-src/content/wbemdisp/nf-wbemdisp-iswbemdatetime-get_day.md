@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_day.htm
 old-project: WmiSdk
 ms.assetid: 60da99bc-560c-45bc-b787-f4bef8e5a509
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Day property [Windows Management Instrumentation], Day property [Windows Management Instrumentation],ISWbemDateTime interface, Day property [Windows Management Instrumentation],SWbemDateTime object, ISWbemDateTime interface [Windows Management Instrumentation],Day property, ISWbemDateTime.get_Day, ISWbemDateTime.put_Day, ISWbemDateTime::get_Day, SWbemDateTime object [Windows Management Instrumentation],Day property, SWbemDateTime.Day, _hmm_swbemdatetime.day, get_Day, wmi.swbemdatetime_day
 ms.prod: windows
 ms.technology: windows-sdk

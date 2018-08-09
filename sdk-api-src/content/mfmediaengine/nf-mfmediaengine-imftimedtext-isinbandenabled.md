@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_isinbandenabled.htm
 old-project: medfound
 ms.assetid: 21BBA2CE-6732-45BD-B5EC-7DBC4A3123E1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTimedText interface [Media Foundation],IsInBandEnabled method, IMFTimedText.IsInBandEnabled, IMFTimedText::IsInBandEnabled, IsInBandEnabled, IsInBandEnabled method [Media Foundation], IsInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_isinbandenabled, mfmediaengine/IMFTimedText::IsInBandEnabled
 ms.prod: windows
 ms.technology: windows-sdk

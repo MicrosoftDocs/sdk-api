@@ -4,10 +4,10 @@ title: ITLocationInfo::get_CityCode
 author: windows-sdk-content
 description: The get_CityCode method gets the code for the city.
 old-location: tapi3\itlocationinfo_get_citycode.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CityCode method, ITLocationInfo.get_CityCode, ITLocationInfo::get_CityCode, _tapi3_itlocationinfo_get_citycode, get_CityCode, get_CityCode method [TAPI 2.2], get_CityCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_citycode, tapi3if/ITLocationInfo::get_CityCode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCode</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppCode</i> parameter.
 			
 
 The value that this method returns corresponds to the <b>dwCityCodeSize</b> and <b>dwCityCodeOffset</b> members of TAPI 2's 

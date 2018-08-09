@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_unregistercategory.htm
 old-project: TSF
 ms.assetid: 73013bc1-4623-4e00-b87b-29ea3d728e9f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterCategory method, ITfCategoryMgr.UnregisterCategory, ITfCategoryMgr::UnregisterCategory, UnregisterCategory, UnregisterCategory method [Text Services Framework], UnregisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregistercategory_ref, msctf/ITfCategoryMgr::UnregisterCategory, tsf.itfcategorymgr_unregistercategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,8 +122,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">
-        ITfCategoryMgr::RegisterCategory
+<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory
       </a>
  
 

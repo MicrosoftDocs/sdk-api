@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_setworkitemdata.htm
 old-project: taskschd
 ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetWorkItemData method, IScheduledWorkItem.SetWorkItemData, IScheduledWorkItem::SetWorkItemData, SetWorkItemData, SetWorkItemData method [Task Scheduler], SetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setworkitemdata, mstask/IScheduledWorkItem::SetWorkItemData, taskschd.ischeduledworkitem_setworkitemdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method stores application-defined data associated with the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
+This method stores application-defined data associated with the <a href="w.htm">work item</a>.
 
 
 ## -parameters

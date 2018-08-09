@@ -4,10 +4,10 @@ title: SLSetAuthenticationData function
 author: windows-sdk-content
 description: Sets authentication data.
 old-location: security\slsetauthenticationdata.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLSetAuthenticationData function

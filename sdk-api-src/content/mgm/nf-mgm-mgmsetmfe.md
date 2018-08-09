@@ -7,7 +7,7 @@ old-location: rras\mgmsetmfe.htm
 old-project: rras
 ms.assetid: 143c080a-be80-47fb-a159-e6c95aa0d7ea
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe, rras.mgmsetmfe
 ms.prod: windows
 ms.technology: windows-sdk

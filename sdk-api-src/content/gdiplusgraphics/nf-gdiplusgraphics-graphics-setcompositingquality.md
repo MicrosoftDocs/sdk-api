@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQ
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingquality.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],SetCompositingQuality method, Graphics.SetCompositingQuality, Graphics::SetCompositingQuality, SetCompositingQuality, SetCompositingQuality method [GDI+], SetCompositingQuality method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_, gdiplus._gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>Graphics::SetCompositingQuality</b> method sets the compositing quality o
 
 ### -param compositingQuality [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534094(v=VS.85).aspx">CompositingQuality</a></b>
+Type: <b><a href="https://msdn.microsoft.com/d5e0e6ff-9b82-45e2-bcf6-3d66a509eba7">CompositingQuality</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534094(v=VS.85).aspx">CompositingQuality</a> enumeration that specifies the compositing quality. 
+Element of the <a href="https://msdn.microsoft.com/d5e0e6ff-9b82-45e2-bcf6-3d66a509eba7">CompositingQuality</a> enumeration that specifies the compositing quality. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533803(v=VS.85).aspx">Alpha Blending Lines and Fills</a>
+<a href="https://msdn.microsoft.com/f8c22d1a-b96b-4d16-928e-20adbae4c4a7">Alpha Blending Lines and Fills</a>
 
 
 
@@ -93,27 +93,27 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535700(v=VS.85).aspx">Graphics::GetCompositingMode</a>
+<a href="https://msdn.microsoft.com/dbc105a5-7541-491c-a8f0-fadecd1670cb">Graphics::GetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/7d37da31-6ab0-4054-8a98-64cfbf9225ec">Graphics::GetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/93367fac-4f61-4082-9f67-13028f1b8a94">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534459(v=VS.85).aspx">HatchBrush</a>
+<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536340(v=VS.85).aspx">New Features</a>
+<a href="https://msdn.microsoft.com/0257a23c-560e-472e-863a-6ab5881dc156">New Features</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534508(v=VS.85).aspx">SolidBrush</a>
+<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
  
 
  

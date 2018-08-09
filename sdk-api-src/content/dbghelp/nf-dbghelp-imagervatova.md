@@ -7,7 +7,7 @@ old-location: base\imagervatova.htm
 old-project: debug
 ms.assetid: 7f022054-d98e-44c8-b256-5c34711ce471
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: ImageRvaToVa, ImageRvaToVa function, _win32_imagervatova, base.imagervatova, dbghelp/ImageRvaToVa
 ms.prod: windows
 ms.technology: windows-sdk

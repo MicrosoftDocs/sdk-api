@@ -4,10 +4,10 @@ title: WlanSetSecuritySettings function
 author: windows-sdk-content
 description: Sets the security settings for a configurable object.
 old-location: nwifi\wlansetsecuritysettings.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
 ms.prod: windows
 ms.technology: windows-sdk

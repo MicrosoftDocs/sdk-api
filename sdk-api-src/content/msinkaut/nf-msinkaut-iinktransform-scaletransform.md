@@ -7,7 +7,7 @@ old-location: tablet\inktransform_scaletransform.htm
 old-project: tablet
 ms.assetid: 49da109e-afca-4695-94ab-e4ed00d82e5a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkTransform interface [Tablet PC],ScaleTransform method, IInkTransform.ScaleTransform, IInkTransform::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkTransform interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkTransform::ScaleTransform, tablet.inktransform_scaletransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ For the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="tablet.iinktransform">IInkTransform</a>
 
 
 

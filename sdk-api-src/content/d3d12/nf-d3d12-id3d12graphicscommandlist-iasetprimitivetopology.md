@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_iasetprimitivetopology.htm
 old-project: direct3d12
 ms.assetid: 743C48DF-C67E-48A0-B027-B2776E65968F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IASetPrimitiveTopology, IASetPrimitiveTopology method, IASetPrimitiveTopology method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetPrimitiveTopology method, ID3D12GraphicsCommandList.IASetPrimitiveTopology, ID3D12GraphicsCommandList::IASetPrimitiveTopology, d3d12/ID3D12GraphicsCommandList::IASetPrimitiveTopology, direct3d12.id3d12graphicscommandlist_iasetprimitivetopology
 ms.prod: windows
 ms.technology: windows-sdk

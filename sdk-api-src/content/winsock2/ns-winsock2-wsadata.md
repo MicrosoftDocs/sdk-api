@@ -4,10 +4,10 @@ title: WSAData
 author: windows-sdk-content
 description: Contains information about the Windows Sockets implementation.
 old-location: winsock\wsadata_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], WSAData, _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
 ms.prod: windows
 ms.technology: windows-sdk

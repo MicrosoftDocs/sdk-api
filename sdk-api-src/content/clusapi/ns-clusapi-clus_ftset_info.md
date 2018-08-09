@@ -7,7 +7,7 @@ old-location: mscs\clus_ftset_info.htm
 old-project: mscs
 ms.assetid: 75F2589D-8F4F-4B65-AE05-DA48A1EED03F
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCLUS_FTSET_INFO, CLUS_FTSET_INFO, CLUS_FTSET_INFO structure [Failover Cluster], PCLUS_FTSET_INFO, PCLUS_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUS_FTSET_INFO, clusapi/PCLUS_FTSET_INFO, mscs.clus_ftset_info"
 ms.prod: windows
 ms.technology: windows-sdk

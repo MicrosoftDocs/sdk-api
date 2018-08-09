@@ -7,7 +7,7 @@ old-location: automat\varr8fromcy.htm
 old-project: automat
 ms.assetid: 568d0798-8e91-4bb2-a650-9c51ec4568c9
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR8FromCy, VarR8FromCy function [Automation], _oa96_VarR8FromCy, automat.varr8fromcy, oleauto/VarR8FromCy
 ms.prod: windows
 ms.technology: windows-sdk

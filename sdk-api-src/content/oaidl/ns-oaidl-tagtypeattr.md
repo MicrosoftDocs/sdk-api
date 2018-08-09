@@ -7,7 +7,7 @@ old-location: automat\typeattr.htm
 old-project: automat
 ms.assetid: 00c2b307-b944-44de-a9c7-1165fb27165b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPTYPEATTR, LPTYPEATTR, LPTYPEATTR structure pointer [Automation], TYPEATTR, TYPEATTR structure [Automation], _oa96_TYPEATTR, automat.typeattr, oaidl/LPTYPEATTR, oaidl/TYPEATTR, tagTYPEATTR"
 ms.prod: windows
 ms.technology: windows-sdk

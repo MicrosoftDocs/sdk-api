@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetserverbindinginfo.htm
 old-project: dhcp
 ms.assetid: c0f5c9c1-d421-4977-aa26-1b8b7406802d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpGetServerBindingInfo, DhcpGetServerBindingInfo function [DHCP], dhcp.dhcpgetserverbindinginfo, dhcpsapi/DhcpGetServerBindingInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetServerBindingInfo</b> function returns endpoint bindings set on the DHCP server.
+The <b>DhcpGetServerBindingInfo</b> function returns endpoint bindings set on the DHCP server.
 
 
 ## -parameters
@@ -120,8 +119,7 @@ This function requires network byte ordering for all <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/9e43b2ab-f69d-4024-b6b1-8a36a3577767">
-        DHCP_BIND_ELEMENT_ARRAY</a>
+<a href="https://msdn.microsoft.com/9e43b2ab-f69d-4024-b6b1-8a36a3577767">DHCP_BIND_ELEMENT_ARRAY</a>
 
 
 

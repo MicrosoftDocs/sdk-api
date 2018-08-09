@@ -7,7 +7,7 @@ old-location: mscs\clustergroupopenenum.htm
 old-project: mscs
 ms.assetid: d8f9eff0-1784-4b55-8603-c262d5c23f6c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback function [Failover Cluster], _wolf_clustergroupopenenum, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, mscs.clustergroupopenenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Opens an enumerator for iterating through a 
+Opens an enumerator for iterating through a 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group's</a> <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> 
     and/or the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> that are included in its list of preferred 
     owners. The <b>PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM</b> type defines a pointer to this function.

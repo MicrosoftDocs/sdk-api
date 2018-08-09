@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_setdictionarylocal.htm
 old-project: printdocs
 ms.assetid: f6cd655f-8850-4fce-95af-50edbdd38cb1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMCanvas.SetDictionaryLocal, IXpsOMCanvas::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionarylocal, xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal
 ms.prod: windows
 ms.technology: windows-sdk

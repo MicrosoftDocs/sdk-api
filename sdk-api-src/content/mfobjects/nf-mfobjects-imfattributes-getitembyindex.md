@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getitembyindex.htm
 old-project: medfound
 ms.assetid: 1290bc45-fcac-4379-b26c-e67ef678f193
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1290bc45-fcac-4379-b26c-e67ef678f193, GetItemByIndex, GetItemByIndex method [Media Foundation], GetItemByIndex method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItemByIndex method, IMFAttributes.GetItemByIndex, IMFAttributes::GetItemByIndex, mf.imfattributes_getitembyindex, mfobjects/IMFAttributes::GetItemByIndex
 ms.prod: windows
 ms.technology: windows-sdk

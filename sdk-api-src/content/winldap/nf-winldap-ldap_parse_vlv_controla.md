@@ -4,10 +4,10 @@ title: ldap_parse_vlv_controlA function
 author: windows-sdk-content
 description: Used to find and parse VLV search results.
 old-location: ldap\ldap_parse_vlv_control.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: a1a1e47f-c53b-48a3-9c40-0e1518c5c729
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_parse_vlv_control, ldap.ldap__parse__vlv__control, ldap.ldap_parse_vlv_control, ldap_parse_vlv_control, ldap_parse_vlv_control function [LDAP], ldap_parse_vlv_controlA, ldap_parse_vlv_controlW, winldap/ldap_parse_vlv_control, winldap/ldap_parse_vlv_controlA, winldap/ldap_parse_vlv_controlW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,67 +61,35 @@ The <b>ldap_parse_vlv_control</b> function is used to find and parse VLV search 
 
 
 
-### -param ExternalHandle
+### -param ExternalHandle [in]
 
-TBD
-
-
-### -param Control
-
-TBD
+The LDAP session handle.
 
 
-### -param TargetPos
-
-TBD
-
-
-### -param ListCount
-
-TBD
-
-
-### -param Context
-
-TBD
-
-
-### -param ErrCode
-
-TBD
-
-
-
-
-#### - contextp [out]
-
-The server-generated context identifier. If the server does not return a context identifier, this parameter will be set to <b>NULL</b>. If <b>NULL</b> is passed for contextp, the context identifier is not returned.
-
-
-#### - ctrls [in]
+### -param Control [in]
 
 The address of a NULL-terminated array of <a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a> structures, typically obtained by a call to 
 <a href="https://msdn.microsoft.com/6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9">ldap_parse_result</a>.
 
 
-#### - errcodep [out]
+### -param TargetPos [out]
 
-The VLV result code, as provided by the virtualListViewResult element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the result code is not returned.
-
-
-#### - ld [in]
-
-The LDAP session handle.
+The numeric position of the target entry in the result set list, as provided by the targetPosition element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the target position is not returned.
 
 
-#### - list_countp [out]
+### -param ListCount [out]
 
 The server estimate of the number of entries in the list as provided by the contentCount element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the size is not returned.
 
 
-#### - target_posp [out]
+### -param Context [out]
 
-The numeric position of the target entry in the result set list, as provided by the targetPosition element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the target position is not returned.
+The server-generated context identifier. If the server does not return a context identifier, this parameter will be set to <b>NULL</b>. If <b>NULL</b> is passed for contextp, the context identifier is not returned.
+
+
+### -param ErrCode [out]
+
+The VLV result code, as provided by the virtualListViewResult element of the BER-encoded response control (<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>). If this parameter is <b>NULL</b>, the result code is not returned.
 
 
 ## -returns

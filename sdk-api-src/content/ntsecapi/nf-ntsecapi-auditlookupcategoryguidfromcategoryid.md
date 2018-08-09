@@ -7,7 +7,7 @@ old-location: security\auditlookupcategoryguidfromcategoryid_func.htm
 old-project: secauthz
 ms.assetid: 2f00fe52-2e94-473a-be13-252b50b58522
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditLookupCategoryGuidFromCategoryId, AuditLookupCategoryGuidFromCategoryId function [Security], ntsecapi/AuditLookupCategoryGuidFromCategoryId, security.auditlookupcategoryguidfromcategoryid_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ A pointer to a <b>GUID</b> structure that represents the audit-policy category s
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

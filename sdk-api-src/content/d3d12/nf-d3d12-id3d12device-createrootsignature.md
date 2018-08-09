@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createrootsignature.htm
 old-project: direct3d12
 ms.assetid: CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: CreateRootSignature, CreateRootSignature method, CreateRootSignature method,ID3D12Device interface, ID3D12Device interface,CreateRootSignature method, ID3D12Device.CreateRootSignature, ID3D12Device::CreateRootSignature, d3d12/ID3D12Device::CreateRootSignature, direct3d12.id3d12device_createrootsignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ A pointer to a memory block that receives a pointer to the root signature.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

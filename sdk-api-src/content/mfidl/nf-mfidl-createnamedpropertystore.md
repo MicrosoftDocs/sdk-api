@@ -7,7 +7,7 @@ old-location: mf\createnamedpropertystore.htm
 old-project: medfound
 ms.assetid: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46, CreateNamedPropertyStore, CreateNamedPropertyStore function [Media Foundation], mf.createnamedpropertystore, mfidl/CreateNamedPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk

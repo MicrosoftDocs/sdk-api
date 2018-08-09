@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6releaseprefix.htm
 old-project: dhcp
 ms.assetid: 252646db-f8d2-42d1-87af-2426dff2c72c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Dhcpv6ReleasePrefix, Dhcpv6ReleasePrefix function [DHCP], dhcp.dhcpv6releaseprefix, dhcpv6csdk/Dhcpv6ReleasePrefix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,7 @@ Pointer to a <a href="https://msdn.microsoft.com/90dbc386-02d9-4631-8af3-edd3453
 <div class="alert"><b>Note</b>   DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
 
-### -param leaseInfo
-
-TBD
-
-
-
-
-#### - prefixleaseInfo [in]
+### -param leaseInfo [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/d3e76716-a8cc-4618-a85f-d8fb9ca3257e">DHCPV6CAPIPrefixLeaseInformation</a> structure that is used to release the prefix.
 

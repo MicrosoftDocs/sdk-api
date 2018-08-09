@@ -7,7 +7,7 @@ old-location: security\setsecurityaccessmask.htm
 old-project: secauthz
 ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask
 ms.prod: windows
 ms.technology: windows-sdk

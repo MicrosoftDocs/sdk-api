@@ -7,7 +7,7 @@ old-location: shell\SIZETToInt_1.htm
 old-project: shell
 ms.assetid: 00a1229b-28cf-4d8e-a59a-0c91872b2e06
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SIZETToInt, SIZETToInt function [Windows Shell], UIntPtrToInt, _shell_SIZETToInt, intsafe/SIZETToInt, shell.SIZETToInt, shell.SIZETToInt_1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,11 @@ Converts a value of type <b>SIZE_T</b> to a value of type <b>INT</b>.
 
 
 
-### -param uOperand
+### -param uOperand [in]
 
-TBD
+Type: <b>SIZE_T</b>
+
+The value to be converted.
 
 
 ### -param piResult [out]
@@ -69,13 +71,6 @@ TBD
 Type: <b>INT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - cbOperand [in]
-
-Type: <b>SIZE_T</b>
-
-The value to be converted.
 
 
 ## -returns

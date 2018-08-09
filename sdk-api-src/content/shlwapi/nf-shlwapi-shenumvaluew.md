@@ -7,7 +7,7 @@ old-location: shell\SHEnumValue.htm
 old-project: shell
 ms.assetid: bb0eaa07-5112-4ce3-8796-5439bd863226
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHEnumValue, SHEnumValue function [Windows Shell], SHEnumValueA, SHEnumValueW, _win32_SHEnumValue, shell.SHEnumValue, shlwapi/SHEnumValue, shlwapi/SHEnumValueA, shlwapi/SHEnumValueW
 ms.prod: windows
 ms.technology: windows-sdk

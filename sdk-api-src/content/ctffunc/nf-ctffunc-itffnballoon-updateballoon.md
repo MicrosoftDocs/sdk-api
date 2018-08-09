@@ -7,7 +7,7 @@ old-location: tsf\itffnballoon_updateballoon.htm
 old-project: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon method, ITfFnBalloon.UpdateBalloon, ITfFnBalloon::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfFnBalloon interface, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,14 +129,12 @@ The language bar balloon implementation should update its style and text by modi
 
 
 
-<a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">
-        ITfLangBarItemBalloon::GetBalloonInfo
+<a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItemBalloon::GetBalloonInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">
-        ITfLangBarItemSink::OnUpdate
+<a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate
       </a>
 
 

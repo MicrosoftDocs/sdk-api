@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ItemDataPosition.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\itemdataposition.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: ItemDataPosition, ItemDataPosition enumeration [GDI+], ItemDataPositionAfterBits, ItemDataPositionAfterHeader, ItemDataPositionAfterPalette, _gdiplus_ENUM_ItemDataPosition, gdiplus._gdiplus_ENUM_ItemDataPosition, gdiplusimaging/ItemDataPosition, gdiplusimaging/ItemDataPositionAfterBits, gdiplusimaging/ItemDataPositionAfterHeader, gdiplusimaging/ItemDataPositionAfterPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ GDI+ supports custom metadata for JPEG, PNG, and GIF image files.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534468(v=VS.85).aspx">ImageItemData</a>
+<a href="https://msdn.microsoft.com/56316228-9cae-46d5-bfef-bbd523aabd2b">ImageItemData</a>
  
 
  

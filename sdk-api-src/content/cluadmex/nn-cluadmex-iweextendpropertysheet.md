@@ -7,7 +7,7 @@ old-location: mscs\iweextendpropertysheet.htm
 old-project: mscs
 ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: IWEExtendPropertySheet, IWEExtendPropertySheet interface [Failover Cluster], IWEExtendPropertySheet interface [Failover Cluster],described, _wolf_iweextendpropertysheet, cluadmex/IWEExtendPropertySheet, mscs.iweextendpropertysheet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 Implement the <b>IWEExtendPropertySheet</b> 
     interface to create property sheet pages for a 
-    <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster object</a> and add them to a 
+    <a href="c_gly.htm">cluster object</a> and add them to a 
     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> property 
     sheet.
 

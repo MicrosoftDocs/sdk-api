@@ -7,7 +7,7 @@ old-location: wsl\wslunregisterdistribution.htm
 old-project: wsl
 ms.assetid: B655E05D-4F4E-401D-8A24-6E8E8B0CE00C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Unregisters a distribution from the Windows Subsystem for Linux (WSL).
 
 
 
-### -param distributionName
-
-TBD
-
-
-
-
-#### - distroName [in]
+### -param distributionName [in]
 
 Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 

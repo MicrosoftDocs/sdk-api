@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice.htm
 old-project: medfound
 ms.assetid: fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation],described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/0c5f37c6-4220-44ee-9ae3-c31a6454a42a">GetFilterPropertyRange</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the range of values for an image filter supported by a video processor device.
+Gets the range of values for an image filter supported by a video processor device.
         
 
 </td>
@@ -96,8 +95,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/b4945e2f-6907-4e02-9719-89c8e0bf1404">GetProcAmpRange</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the range of values for a video processor (ProcAmp) setting.
+Gets the range of values for a video processor (ProcAmp) setting.
         
 
 </td>
@@ -107,8 +105,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451674">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the capabilities of a specified video processor device.
+Gets the capabilities of a specified video processor device.
         
 
 </td>
@@ -118,8 +115,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/26b52407-7c75-4731-aff3-41376aa9ac3a">GetVideoProcessorDeviceGuids</a>
 </td>
 <td align="left" width="63%">
-
-          Gets an array of GUIDs that identifies the video processors supported by the graphics hardware.
+Gets an array of GUIDs that identifies the video processors supported by the graphics hardware.
         
 
 </td>
@@ -129,8 +125,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/aecbba1e-309c-4668-9e17-d59710d86151">GetVideoProcessorRenderTargets</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the supported render targets for a specified video processor device.
+Gets the supported render targets for a specified video processor device.
         
 
 </td>
@@ -140,8 +135,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1">GetVideoProcessorSubStreamFormats</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a list of substream formats supported by a specified video processor device.
+Gets a list of substream formats supported by a specified video processor device.
         
 
 </td>
@@ -151,8 +145,7 @@ Creates a video processor device.
 <a href="https://msdn.microsoft.com/3d0bdd60-6cc7-4229-aed9-40b407167456">RegisterVideoProcessorSoftwareDevice</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a software video processing device.
+Gets a software video processing device.
         
 
 </td>

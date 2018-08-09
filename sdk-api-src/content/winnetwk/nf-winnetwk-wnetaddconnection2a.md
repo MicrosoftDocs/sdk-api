@@ -4,10 +4,10 @@ title: WNetAddConnection2A function
 author: windows-sdk-content
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection2.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,9 +164,21 @@ If the connection fails because of an invalid password and the CONNECT_INTERACTI
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
 
 
-### -param lpUserName
+### -param lpUserName [in]
 
-TBD
+A pointer to a constant <b>null</b>-terminated string that specifies a user name for making the connection. 
+
+
+
+
+If <i>lpUserName</i> is <b>NULL</b>, the function uses the default user name. (The user context for the process provides the default user name.)
+
+The <i>lpUserName</i> parameter is specified when users want to connect to a network resource for which they have been assigned a user name or account other than the default user name or account.
+
+The user-name string represents a 
+<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. It may be specific to a network provider.
+
+<b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
 
 
 ### -param dwFlags [in]
@@ -319,23 +331,6 @@ If this flag is set, and the operating system prompts for a credential, the cred
 </tr>
 </table>
  
-
-
-#### - lpUsername [in]
-
-A pointer to a constant <b>null</b>-terminated string that specifies a user name for making the connection. 
-
-
-
-
-If <i>lpUserName</i> is <b>NULL</b>, the function uses the default user name. (The user context for the process provides the default user name.)
-
-The <i>lpUserName</i> parameter is specified when users want to connect to a network resource for which they have been assigned a user name or account other than the default user name or account.
-
-The user-name string represents a 
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. It may be specific to a network provider.
-
-<b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
 
 
 ## -returns

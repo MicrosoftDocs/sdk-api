@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getpriority.htm
 old-project: directdraw
 ms.assetid: 59a47305-92d5-42a3-9ad1-11c80e3744df
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetPriority, GetPriority method [DirectDraw], GetPriority method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPriority method, IDirectDrawSurface7.GetPriority, IDirectDrawSurface7::GetPriority, ddraw/IDirectDrawSurface7::GetPriority, directdraw.idirectdrawsurface7_getpriority
 ms.prod: windows
 ms.technology: windows-sdk

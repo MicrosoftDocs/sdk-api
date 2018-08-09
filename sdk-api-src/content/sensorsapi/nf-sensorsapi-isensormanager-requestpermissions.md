@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\Isensormanager_requestpermissions.htm
 old-project: SensorsAPI
 ms.assetid: 6a21820c-4f13-4220-ad13-34d0226597b6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
 ms.prod: windows
 ms.technology: windows-sdk

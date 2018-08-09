@@ -7,7 +7,7 @@ old-location: tablet\iinkpicture.htm
 old-project: tablet
 ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interface [Tablet PC],described, msinkaut/IInkPicture, tablet.iinkpicture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -348,8 +348,7 @@ Occurs after the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a56
 <a href="https://msdn.microsoft.com/ae56b5a2-e3e2-468c-a572-a9b46eb1d39d">SizeModeChanged</a>
 </td>
 <td align="left" width="63%">
-
-          Occurs after the <a href="https://msdn.microsoft.com/3ce10b92-80d4-4517-92cb-eff10fc8c0ba">SizeMode</a> property of the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has been changed.
+Occurs after the <a href="https://msdn.microsoft.com/3ce10b92-80d4-4517-92cb-eff10fc8c0ba">SizeMode</a> property of the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has been changed.
         
 
 </td>

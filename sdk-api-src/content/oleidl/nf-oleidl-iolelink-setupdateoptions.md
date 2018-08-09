@@ -7,7 +7,7 @@ old-location: com\iolelink_setupdateoptions.htm
 old-project: com
 ms.assetid: 310c25b5-a2f6-4ed7-8673-c53809fad32f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: IOleLink interface [COM],SetUpdateOptions method, IOleLink.SetUpdateOptions, IOleLink::SetUpdateOptions, SetUpdateOptions, SetUpdateOptions method [COM], SetUpdateOptions method [COM],IOleLink interface, _ole_iolelink_setupdateoptions, com.iolelink_setupdateoptions, oleidl/IOleLink::SetUpdateOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ If OLEUDPATE_ALWAYS is specified as the update option, the linked object updates
 
 <ul>
 <li>When the update option is changed from manual to automatic, if the link source is running.</li>
-<li>
-Whenever the linked object binds to the link source.</li>
+<li>Whenever the linked object binds to the link source.</li>
 <li>Whenever the link source is running and the linked object's <a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">IOleObject::Close</a>, <a href="https://msdn.microsoft.com/3a200812-48d9-4202-987a-1400aa66191c">IPersistStorage::Save</a>, or <a href="https://msdn.microsoft.com/26da5e16-5790-49c0-ba63-5feee49cd4c6">IAdviseSink::OnSave</a> implementations are called.</li>
 </ul>
 For both manual and automatic links, the linked object updates the cache whenever the container application calls <a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-1d3378a44903">IOleObject::Update</a> or <a href="https://msdn.microsoft.com/c1da8b95-88e7-42b0-884c-5aa394cc49f4">IOleLink::Update</a>.

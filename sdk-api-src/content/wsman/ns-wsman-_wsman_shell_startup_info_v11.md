@@ -4,10 +4,10 @@ title: "_WSMAN_SHELL_STARTUP_INFO_V11"
 author: windows-sdk-content
 description: Defines the shell startup parameters to be used with the WSManCreateShell function. The structure must be allocated by the client and passed to the WSManCreateShell function.
 old-location: winrm\wsman_shell_startup_info.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: a9e004de-b157-4ad3-a463-a42ccb56f1ba
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSMAN_SHELL_STARTUP_INFO, WSMAN_SHELL_STARTUP_INFO structure [Windows Remote Management], WSMAN_SHELL_STARTUP_INFO_V11, _WSMAN_SHELL_STARTUP_INFO_V11, winrm.wsman_shell_startup_info, wsman/WSMAN_SHELL_STARTUP_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,11 +75,6 @@ Specifies an optional friendly name to be associated with the shell. This parame
 
 
 
-#### - idleTimeoutMs
-
-Specifies the maximum duration, in milliseconds, the shell will stay open without any client request. When the maximum duration is exceeded, the shell is automatically deleted. Any value from 0  to 0xFFFFFFFF can be set. This duration has a maximum value specified by the Idle time-out GPO setting, if enabled, or by the IdleTimeout local configuration. The default value of the maximum duration in the GPO/local configuration is 15 minutes. However, a system administrator can change this value. To use the maximum value from the GPO/local configuration, the client should specify 0 (zero) in this field. If an explicit value between 0 to 0xFFFFFFFF is used, the minimum value between the explicit API value and the value from the GPO/local configuration is used.
-
-
 #### - inputStreamSet
 
 A pointer to a <a href="https://msdn.microsoft.com/a5705afa-e0b3-4a74-8c13-5abf3f53a209">WSMAN_STREAM_ID_SET</a> structure that specifies a set of input streams for the shell. Streams not present in the filter can be ignored by the shell implementation.  For the Windows Cmd.exe shell, this value should be L"stdin".
@@ -92,12 +87,17 @@ A pointer to a <a href="https://msdn.microsoft.com/a5705afa-e0b3-4a74-8c13-5abf3
 If the value is <b>NULL</b>, the implementation uses an array with L"stdout" and L"stderr" as the default value.
 
 
-#### - variableSet
+#### - idleTimeoutMs
 
-A pointer to a <a href="https://msdn.microsoft.com/3d9b4374-241f-489e-946a-9c180d77de3b">WSMAN_ENVIRONMENT_VARIABLE_SET</a> structure that specifies an array of variable name and value pairs, which describe the starting environment for the shell. The content of these elements is shell specific and can be defined in terms of other environment variables. If a <b>NULL</b> value is passed, the default environment is used on the server side.
+Specifies the maximum duration, in milliseconds, the shell will stay open without any client request. When the maximum duration is exceeded, the shell is automatically deleted. Any value from 0  to 0xFFFFFFFF can be set. This duration has a maximum value specified by the Idle time-out GPO setting, if enabled, or by the IdleTimeout local configuration. The default value of the maximum duration in the GPO/local configuration is 15 minutes. However, a system administrator can change this value. To use the maximum value from the GPO/local configuration, the client should specify 0 (zero) in this field. If an explicit value between 0 to 0xFFFFFFFF is used, the minimum value between the explicit API value and the value from the GPO/local configuration is used.
 
 
 #### - workingDirectory
 
 Specifies the starting directory for a shell. It is  used with any execution command. If this member is a <b>NULL</b> value, a default directory will be used by the remote machine when executing the command. An empty value is treated by the underlying protocol as an omitted value.
+
+
+#### - variableSet
+
+A pointer to a <a href="https://msdn.microsoft.com/3d9b4374-241f-489e-946a-9c180d77de3b">WSMAN_ENVIRONMENT_VARIABLE_SET</a> structure that specifies an array of variable name and value pairs, which describe the starting environment for the shell. The content of these elements is shell specific and can be defined in terms of other environment variables. If a <b>NULL</b> value is passed, the default environment is used on the server side.
 

@@ -7,7 +7,7 @@ old-location: devinst\cm_get_devnode_property_exw.htm
 old-project: devinst
 ms.assetid: 6766C495-0DAA-41E6-BB62-6FD21718FF8D
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Get_DevNode_Property_ExW, CM_Get_DevNode_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Property_ExW, devinst.cm_get_devnode_property_exw
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_AUTH_TYPE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\auth_type.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: AUTH_TYPE, AUTH_TYPE enumeration [search], _AUTH_TYPE, _search_AUTH_TYPE, eAUTH_TYPE_ANONYMOUS, eAUTH_TYPE_BASIC, eAUTH_TYPE_NTLM, search._search_AUTH_TYPE, searchapi/AUTH_TYPE, searchapi/eAUTH_TYPE_ANONYMOUS, searchapi/eAUTH_TYPE_BASIC, searchapi/eAUTH_TYPE_NTLM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Describes authentication types for content access.
 
 ### -field eAUTH_TYPE_ANONYMOUS
 
-
-        Anonymous.
+Anonymous.
       
 
 
@@ -74,7 +73,6 @@ NTLM challenge/response.
 
 ### -field eAUTH_TYPE_BASIC
 
-
-        Basic authentication. 
+Basic authentication. 
       
 

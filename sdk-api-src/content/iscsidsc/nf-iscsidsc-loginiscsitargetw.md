@@ -7,7 +7,7 @@ old-location: iscsidisc\loginiscsitarget.htm
 old-project: iSCSIDisc
 ms.assetid: e94e72d2-b93c-41f4-aafc-78e6a97d7a26
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, LoginIScsiTargetW, LoginIscsiTarget, LoginIscsiTarget function [iSCSI Discovery Library API], LoginIscsiTargetA, LoginIscsiTargetW, iscsidisc.loginiscsitarget, iscsidsc/LoginIscsiTarget, iscsidsc/LoginIscsiTargetA, iscsidsc/LoginIscsiTargetW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,9 @@ If <b>true</b>, the <b>LoginIscsiTarget</b> function establishes a login session
 If <i>IsInformationalSession</i> is <b>false</b>, <b>LoginIscsiTarget</b> reports the LUNs associated with the target to the "Plug and Play" Manager, and the system loads drivers for the LUNs.
 
 
-### -param InitiatorInstance
+### -param InitiatorInstance [in, optional]
 
-TBD
+The name of the initiator that logs in to the target. If <i>InitiatorName</i> is <b>null</b>, the iSCSI initiator service selects an initiator. 
 
 
 ### -param InitiatorPortNumber [in, optional]
@@ -223,11 +223,6 @@ A pointer to a structure of type <a href="https://msdn.microsoft.com/d13975f9-58
 
 A pointer to a structure of type <a href="https://msdn.microsoft.com/cc68fda4-6dbf-42de-8e0e-e144bd4e9524">ISCSI_UNIQUE_CONNECTION_ID</a> that, on return, contains a unique connection identifier for the login session. 
 
-
-
-#### - InitiatorName [in, optional]
-
-The name of the initiator that logs in to the target. If <i>InitiatorName</i> is <b>null</b>, the iSCSI initiator service selects an initiator. 
 
 
 ## -returns

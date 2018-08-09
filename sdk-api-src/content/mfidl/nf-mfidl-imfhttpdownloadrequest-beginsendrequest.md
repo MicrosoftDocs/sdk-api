@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_beginsendrequest.htm
 old-project: medfound
 ms.assetid: 38025B19-146A-4050-9BD2-2CF974729FE3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: BeginSendRequest, BeginSendRequest method [Media Foundation], BeginSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginSendRequest method, IMFHttpDownloadRequest.BeginSendRequest, IMFHttpDownloadRequest::BeginSendRequest, mf.imfhttpdownloadrequest_beginsendrequest, mfidl/IMFHttpDownloadRequest::BeginSendRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -102,8 +101,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 </dl>
 </td>
 <td width="60%">
-
-                Successfully started the asynchronous operation.
+Successfully started the asynchronous operation.
 
 </td>
 </tr>
@@ -114,8 +112,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

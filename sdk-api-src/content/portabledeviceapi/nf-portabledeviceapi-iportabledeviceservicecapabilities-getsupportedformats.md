@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformats.htm
 old-project: wpd_sdk
 ms.assetid: 1df1ed1b-d231-4327-84eb-1bcf74dd881b
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceServiceCapabilities.GetSupportedFormats, IPortableDeviceServiceCapabilities::GetSupportedFormats, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormats, wpdsdk.iportabledeviceservicecapabilities_getsupportedformats
 ms.prod: windows
 ms.technology: windows-sdk

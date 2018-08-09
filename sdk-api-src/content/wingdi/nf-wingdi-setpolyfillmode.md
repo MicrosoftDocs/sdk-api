@@ -7,7 +7,7 @@ old-location: gdi\setpolyfillmode.htm
 old-project: gdi
 ms.assetid: 233926c4-2658-405d-89b6-05ece844623d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ALTERNATE, SetPolyFillMode, SetPolyFillMode function [Windows GDI], WINDING, _win32_SetPolyFillMode, gdi.setpolyfillmode, wingdi/SetPolyFillMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>SetPolyFillMode</b> function sets the polygon fill mode for functions tha
 A handle to the device context.
 
 
-### -param mode
-
-TBD
-
-
-
-
-#### - iPolyFillMode [in]
+### -param mode [in]
 
 The new fill mode. This parameter can be one of the following values.
 

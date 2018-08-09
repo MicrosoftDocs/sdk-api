@@ -4,10 +4,10 @@ title: WSAImpersonateSocketPeer function
 author: windows-sdk-content
 description: Used to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
 old-location: winsock\wsaimpersonatesocketpeer.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 8dd2c0dd-ca1d-40b8-8e58-a980e67b6941
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,24 +64,12 @@ The <b>WSAImpersonateSocketPeer</b> function is used to impersonate the security
 Identifies the application socket.
 
 
-### -param PeerAddr
-
-TBD
-
-
-### -param PeerAddrLen
-
-TBD
-
-
-
-
-#### - PeerAddress [in, optional]
+### -param PeerAddr [in, optional]
 
 The IP address of the peer to be impersonated.  For connection-oriented sockets, the connected socket uniquely identifies a peer.  In this case, this parameter is ignored.
 
 
-#### - peerAddressLen [in]
+### -param PeerAddrLen [in]
 
 The size, in bytes, of the <i>PeerAddress</i> parameter.
 
@@ -103,7 +91,7 @@ Some possible error codes are listed below.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +102,7 @@ The system detected an invalid address pointer in attempting to use a pointer ar
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +113,7 @@ The specified address family is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +124,7 @@ A buffer passed was too small.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

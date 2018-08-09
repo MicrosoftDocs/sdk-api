@@ -7,7 +7,7 @@ old-location: automat\vardeccmp.htm
 old-project: automat
 ms.assetid: ebb418c0-c15d-42c2-88a3-1ffcd36a2750
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarDecCmp, VarDecCmp function [Automation], _oa96_VarDecCmp, automat.vardeccmp, oleauto/VarDecCmp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\ienummcastscope_next.htm
 old-project: tapi
 ms.assetid: f7618414-c2fc-46c8-8f9d-c1ad217c8d94
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Next method, IEnumMcastScope.Next, IEnumMcastScope::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_next, mdhcp/IEnumMcastScope::Next, tapi3.ienummcastscope_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

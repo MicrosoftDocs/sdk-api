@@ -4,10 +4,10 @@ title: SaslGetContextOption function
 author: windows-sdk-content
 description: Retrieves the specified property of the specified SASL context.
 old-location: security\saslgetcontextoption.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: c9c424d3-07e6-4ed0-9189-c932af0475d9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslGetContextOption, SaslGetContextOption function [Security], security.saslgetcontextoption, sspi/SaslGetContextOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SaslGetContextOption function

@@ -7,7 +7,7 @@ old-location: dshow\amvainternalmeminfo.htm
 old-project: DirectShow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], _tag_AMVAInternalMemInfo, amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AMVAInternalMemInfo</b> structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
+The <b>AMVAInternalMemInfo</b> structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 
 
 ## -struct-fields
@@ -61,8 +60,7 @@ req.irql:
 
 ### -field dwScratchMemAlloc
 
-
-            Amount of scratch memory the HAL will allocate for its private use.
+Amount of scratch memory the HAL will allocate for its private use.
           
 
 

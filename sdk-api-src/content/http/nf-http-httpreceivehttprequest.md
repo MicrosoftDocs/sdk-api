@@ -7,7 +7,7 @@ old-location: http\httpreceivehttprequest.htm
 old-project: http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY, HttpReceiveHttpRequest, HttpReceiveHttpRequest function [HTTP], _http_httpreceivehttprequest, http.httpreceivehttprequest, http/HttpReceiveHttpRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,12 @@ The
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+A handle to the request queue from which to retrieve the next available request. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
 ### -param RequestId [in]
@@ -118,9 +121,12 @@ All of the entity bodies are copied along with the request headers. The <b>pEnti
  
 
 
-### -param RequestBuffer
+### -param RequestBuffer [out]
 
-TBD
+A pointer to a buffer into which the function copies an 
+<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure and entity body for the HTTP request. <b>HTTP_REQUEST.RequestId</b> contains the identifier for this HTTP request, which the application can use in subsequent calls <a href="https://msdn.microsoft.com/b4ba765f-537b-4021-9ecc-d400d9b94723">HttpReceiveRequestEntityBody</a>, 
+<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a>, or 
+<a href="https://msdn.microsoft.com/f2ff2e40-ef1f-4c35-a615-f31ac63ab738">HttpSendResponseEntityBody</a>.
 
 
 ### -param RequestBufferLength [in]
@@ -128,27 +134,7 @@ TBD
 Size, in bytes, of the  <i>pRequestBuffer</i> buffer.
 
 
-### -param BytesReturned
-
-TBD
-
-
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReqQueueHandle [in]
-
-A handle to the request queue from which to retrieve the next available request. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
-
-
-#### - pBytesReceived [out, optional]
+### -param BytesReturned [out, optional]
 
 Optional. A pointer to a variable that receives the size, in bytes, of the entity body, or of the remaining part of the entity body. 
 
@@ -156,6 +142,13 @@ Optional. A pointer to a variable that receives the size, in bytes, of the entit
 
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
+
+
+### -param OPTIONAL
+
+TBD
+
+
 
 
 #### - pOverlapped [in, optional]
@@ -170,14 +163,6 @@ A synchronous call blocks until a request has arrived in the specified queue and
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see  
 <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
-
-
-#### - pRequestBuffer [out]
-
-A pointer to a buffer into which the function copies an 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure and entity body for the HTTP request. <b>HTTP_REQUEST.RequestId</b> contains the identifier for this HTTP request, which the application can use in subsequent calls <a href="https://msdn.microsoft.com/b4ba765f-537b-4021-9ecc-d400d9b94723">HttpReceiveRequestEntityBody</a>, 
-<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a>, or 
-<a href="https://msdn.microsoft.com/f2ff2e40-ef1f-4c35-a615-f31ac63ab738">HttpSendResponseEntityBody</a>.
 
 
 ## -returns

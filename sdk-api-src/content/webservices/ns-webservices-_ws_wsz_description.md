@@ -7,7 +7,7 @@ old-location: wsw\ws_wsz_description.htm
 old-project: wsw
 ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for Windows], _WS_WSZ_DESCRIPTION, webservices/WS_WSZ_DESCRIPTION, wsw.ws_wsz_description
 ms.prod: windows
 ms.technology: windows-sdk

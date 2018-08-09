@@ -7,7 +7,7 @@ old-location: tsf\itfqueryembedded.htm
 old-project: TSF
 ms.assetid: 6e2c3ad5-73c6-481f-9ade-58782e12dfbd
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework],described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

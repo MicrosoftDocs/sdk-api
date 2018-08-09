@@ -4,10 +4,10 @@ title: WlanSaveTemporaryProfile function
 author: windows-sdk-content
 description: Saves a temporary profile to the profile store.
 old-location: nwifi\wlansavetemporaryprofile.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: e409fd30-eddd-4cc7-acb7-35af6ef51a10
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WLAN_PROFILE_CONNECTION_MODE_AUTO, WLAN_PROFILE_CONNECTION_MODE_SET_BY_CLIENT, WLAN_PROFILE_USER, WlanSaveTemporaryProfile, WlanSaveTemporaryProfile function [NativeWIFI], nwifi.wlansavetemporaryprofile, wlanapi/WlanSaveTemporaryProfile
 ms.prod: windows
 ms.technology: windows-sdk

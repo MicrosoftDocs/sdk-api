@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setaxisy_overloaded.htm
 old-project: directcomp
 ms.assetid: C86E4D59-4E9D-44BF-BA9D-91714D0C2D37
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionRotateTransform3D::SetAxisY, SetAxisY, SetAxisY methods [DirectComposition], dcomp/SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\pdf_render_params.htm
 old-project: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,14 +86,9 @@ Represents a set of properties for outputting a single page of a Portable Docume
 
 
 
-#### - BackgroundColor
+#### - SourceRect
 
-Outputs the page with the specified background color. The default is {1.f, 1.f, 1.f, 1.f}, which represents the values 1.0 for red, green, blue, and alpha channel, respectively. These values, taken together, represent white at full opacity.
-
-
-#### - DestinationHeight
-
-Outputs the page at the specified height. The default is 0.f.
+Outputs a rectangular portion of the original page, as defined by the <b>D2D_RECT_F</b> structure's upper-left and lower-right corner x- and y-coordinates. The default value is 0.f for all coordinates.
 
 
 #### - DestinationWidth
@@ -101,14 +96,19 @@ Outputs the page at the specified height. The default is 0.f.
 Outputs the page at the specified width. The default is 0.f.
 
 
+#### - DestinationHeight
+
+Outputs the page at the specified height. The default is 0.f.
+
+
+#### - BackgroundColor
+
+Outputs the page with the specified background color. The default is {1.f, 1.f, 1.f, 1.f}, which represents the values 1.0 for red, green, blue, and alpha channel, respectively. These values, taken together, represent white at full opacity.
+
+
 #### - IgnoreHighContrast
 
 False to use the system's high contrast display settings; otherwise true. The default is true.
-
-
-#### - SourceRect
-
-Outputs a rectangular portion of the original page, as defined by the <b>D2D_RECT_F</b> structure's upper-left and lower-right corner x- and y-coordinates. The default value is 0.f for all coordinates.
 
 
 ## -remarks

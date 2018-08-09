@@ -2,12 +2,12 @@
 UID: NN:msinkaut.IInkStrokeDisp
 title: IInkStrokeDisp
 author: windows-sdk-content
-description: Represents a single ink stroke.
+description: Represents a single ink stroke.A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark.
 old-location: tablet\iinkstrokedisp.htm
 old-project: tablet
 ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 
 Represents a single ink stroke.
 
-
-          A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark. It is the set of data that is captured in a single pen down, up, or move sequence.
+A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark. It is the set of data that is captured in a single pen down, up, or move sequence.
 
 
 

@@ -4,10 +4,10 @@ title: getnameinfo function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.
 old-location: winsock\getnameinfo_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,78 +60,41 @@ The
 
 
 
-### -param pSockaddr
-
-TBD
-
-
-### -param SockaddrLength
-
-TBD
-
-
-### -param pNodeBuffer
-
-TBD
-
-
-### -param NodeBufferSize
-
-TBD
-
-
-### -param pServiceBuffer
-
-TBD
-
-
-### -param ServiceBufferSize
-
-TBD
-
-
-### -param Flags
-
-TBD
-
-
-
-
-#### - flags [in]
-
-A value used to customize processing of the 
-<b>getnameinfo</b> function. See the Remarks section.
-
-
-#### - host [out]
-
-A pointer to  an ANSI string used to hold the host name. On success, the host name is returned as a Fully Qualified Domain Name (FQDN) by default. If the <i>host</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a host name string.
-
-
-#### - hostlen [in]
-
-The length, in bytes, of the buffer pointed to by the <i>host</i> parameter. The caller must provide a buffer large enough to hold the host name, including the terminating <b>NULL</b> character. 
-
-
-#### - sa [in]
+### -param pSockaddr [in]
 
 A pointer to a socket address structure that contains the address and port number of the socket. For IPv4, the <i>sa</i> parameter points to a 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
 
 
-#### - salen [in]
+### -param SockaddrLength [in]
 
 The length, in bytes, of the structure pointed to by the <i>sa</i> parameter.
 
 
-#### - serv [out]
+### -param pNodeBuffer [out]
+
+A pointer to  an ANSI string used to hold the host name. On success, the host name is returned as a Fully Qualified Domain Name (FQDN) by default. If the <i>host</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a host name string.
+
+
+### -param NodeBufferSize [in]
+
+The length, in bytes, of the buffer pointed to by the <i>host</i> parameter. The caller must provide a buffer large enough to hold the host name, including the terminating <b>NULL</b> character. 
+
+
+### -param pServiceBuffer [out]
 
 A pointer to  an ANSI string to hold the service name. On success, an ANSI string that represents the service name associated with the port number is returned. If the <i>serv</i> parameter is <b>NULL</b>, this indicates the caller does not want to receive a service name string.
 
 
-#### - servlen [in]
+### -param ServiceBufferSize [in]
 
 The length, in bytes, of the buffer pointed to by the <i>serv</i> parameter. The caller must provide a buffer large enough to hold the service name, including the terminating <b>NULL</b> character.
+
+
+### -param Flags [in]
+
+A value used to customize processing of the 
+<b>getnameinfo</b> function. See the Remarks section.
 
 
 ## -returns
@@ -152,32 +115,32 @@ Nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>One or more invalid parameters was passed to the <b>getnameinfo</b> function. This error is returned if a host name was requested but the <i>hostlen</i> parameter was zero or if a service name was requested, but the <i>servlen</i> parameter was zero. </td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>The <b>sa_family</b> member of socket address structure pointed to by the <i>sa</i> parameter is not supported. </td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></td>
 <td>A service name was requested, but no port number was found in the structure pointed to by the <i>sa</i> parameter or no service name matching the port number was found. NI_NAMEREQD is set and the host name cannot be located, or both the <i>host</i> and <i>serv</i> parameters were <b>NULL</b>. </td>
 </tr>
 </table>
@@ -199,7 +162,7 @@ In addition, the following error codes can be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">

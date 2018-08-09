@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_clearview.htm
 old-project: direct3d11
 ms.assetid: 7CC8DEB6-075C-40EB-822D-8A627E285FA2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ClearView, ClearView method [Direct3D 11], ClearView method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],ClearView method, ID3D11DeviceContext1.ClearView, ID3D11DeviceContext1::ClearView, d3d11_1/ID3D11DeviceContext1::ClearView, direct3d11.id3d11devicecontext1_clearview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,9 +100,9 @@ Returns nothing.
 
 When you apply rectangles to buffers, set the top value to 0 and the bottom value to 1 and set the left value and right value to describe the extent within the buffer. When the top value equals the bottom value or the left value equals the right value, the rectangle is empty and a no-op is achieved.
 
-The driver converts and clamps color values to the destination format as appropriate per Direct3D conversion rules.  For example, if the format of the view is <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R8G8B8A8_UNORM</a>, the driver clamps inputs to 0.0f to 1.0f (+INF -&gt; 1.0f (0XFF)/NaN -&gt; 0.0f).
+The driver converts and clamps color values to the destination format as appropriate per Direct3D conversion rules.  For example, if the format of the view is <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R8G8B8A8_UNORM</a>, the driver clamps inputs to 0.0f to 1.0f (+INF -&gt; 1.0f (0XFF)/NaN -&gt; 0.0f).
 
-If the format is integer, such as <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R8G8B8A8_UINT</a>, the runtime interprets inputs as integral floats. Therefore, 235.0f maps to 235 (rounds to zero, out of range/INF values clamp to target range, and NaN to 0).
+If the format is integer, such as <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R8G8B8A8_UINT</a>, the runtime interprets inputs as integral floats. Therefore, 235.0f maps to 235 (rounds to zero, out of range/INF values clamp to target range, and NaN to 0).
 
 Here are the color mappings:
 

@@ -7,7 +7,7 @@ old-location: p2p\peergroupsetproperties.htm
 old-project: p2psdk
 ms.assetid: 20acf963-de8f-4bcd-a9d6-a513d516b108
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupSetProperties, PeerGroupSetProperties function [Peer Networking], p2p.peergroupsetproperties, p2p/PeerGroupSetProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupSetProperties</b> function sets the current peer group properties. In version 1.0 of this API,  only the creator of the peer group can perform this operation.
+The <b>PeerGroupSetProperties</b> function sets the current peer group properties. In version 1.0 of this API,  only the creator of the peer group can perform this operation.
 
 
 ## -parameters
@@ -179,8 +178,7 @@ For applications that utilize passwords, it is recommended the passwords are han
 
 
 
-<a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">
-		  PEER_GROUP_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a>
 
 
 

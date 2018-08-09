@@ -7,7 +7,7 @@ old-location: mstv\ipat_initialize.htm
 old-project: mstv
 ms.assetid: 51aa6d14-655c-4800-87f0-85d9a77b6c15
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],Initialize method, IPAT.Initialize, IPAT::Initialize, IPATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::Initialize, mstv.ipat_initialize
 ms.prod: windows
 ms.technology: windows-sdk

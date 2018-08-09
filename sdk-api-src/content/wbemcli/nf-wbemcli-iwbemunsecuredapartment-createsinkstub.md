@@ -7,7 +7,7 @@ old-location: wmi\iwbemunsecuredapartment_createsinkstub.htm
 old-project: WmiSdk
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: CreateSinkStub, CreateSinkStub method [Windows Management Instrumentation], CreateSinkStub method [Windows Management Instrumentation],IWbemUnsecuredApartment interface, IWbemUnsecuredApartment interface [Windows Management Instrumentation],CreateSinkStub method, IWbemUnsecuredApartment.CreateSinkStub, IWbemUnsecuredApartment::CreateSinkStub, WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/IWbemUnsecuredApartment::CreateSinkStub, wmi.iwbemunsecuredapartment_createsinkstub
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,8 @@ Reserved.
 
 Receives a pointer to a substitute object to be used in asynchronous 
       <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls. The user receives an 
-      <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer and must call 
-      <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> for 
+      <a href="_com_iunknown">IUnknown</a> pointer and must call 
+      <a href="_com_iunknown_queryinterface">QueryInterface</a> for 
       <b>IID_WbemObjectSink</b> before using this object in asynchronous 
       <b>IWbemServices</b> calls.
 
@@ -142,7 +142,7 @@ Receives a pointer to a substitute object to be used in asynchronous
 
 
 This method returns standard COM error codes for 
-       <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a>. It returns 
+       <a href="_com_iunknown_queryinterface">QueryInterface</a>. It returns 
        <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not 
        supported, the method returns <b>E_NOINTERFACE</b>.
 

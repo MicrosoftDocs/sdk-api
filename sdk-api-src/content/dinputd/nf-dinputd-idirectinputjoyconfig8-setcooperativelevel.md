@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_setcooperativelevel.htm
 old-project: hid
 ms.assetid: 0132194a-ee7b-4aa2-af79-f92071072429
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetCooperativeLevel method, IDirectInputJoyConfig8.SetCooperativeLevel, IDirectInputJoyConfig8::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [Human Input Devices], SetCooperativeLevel method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_3730e9ce-af55-43a3-866f-ecb288958005.xml, dinputd/IDirectInputJoyConfig8::SetCooperativeLevel, hid.idirectinputjoyconfig8_setcooperativelevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ The <b>IDirectInputJoyConfig8::SetCooperativeLevel </b>method establishes the co
 
 
 
-#### - dwFlags
-
-Specifies one of a set of flags that describe the  level of cooperation associated with the device. The value must be DISCL_EXCLUSIVE | DISCL_BACKGROUND. 
-
-
 #### - hwnd
 
 Handle to the window associated with the interface. This parameter must be non-NULL and must be a top-level window. It is an error to destroy the window while it is still associated with an <b>IDirectInputJoyConfig8</b> interface. 
+
+
+#### - dwFlags
+
+Specifies one of a set of flags that describe the  level of cooperation associated with the device. The value must be DISCL_EXCLUSIVE | DISCL_BACKGROUND. 
 
 
 ## -returns

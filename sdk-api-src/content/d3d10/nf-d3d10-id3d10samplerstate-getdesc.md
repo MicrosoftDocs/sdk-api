@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10samplerstate_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10samplerstate_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6131b597-fb10-10b7-7f9a-f0dbdb30f917, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10SamplerState interface, ID3D10SamplerState interface [Direct3D 10],GetDesc method, ID3D10SamplerState.GetDesc, ID3D10SamplerState::GetDesc, d3d10/ID3D10SamplerState::GetDesc, direct3d10.id3d10samplerstate_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the sampler state.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172415(v=VS.85).aspx">D3D10_SAMPLER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b97db311-de57-45f3-a6dd-8af768b2680d">D3D10_SAMPLER_DESC</a>*</b>
 
-A pointer to the sampler state (see <a href="https://msdn.microsoft.com/library/Bb172415(v=VS.85).aspx">D3D10_SAMPLER_DESC</a>).
+A pointer to the sampler state (see <a href="https://msdn.microsoft.com/b97db311-de57-45f3-a6dd-8af768b2680d">D3D10_SAMPLER_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState Interface</a>
+<a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState Interface</a>
  
 
  

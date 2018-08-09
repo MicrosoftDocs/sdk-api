@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_getlanguage.htm
 old-project: medfound
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetLanguage method, IMFMetadata.GetLanguage, IMFMetadata::GetLanguage, mf.imfmetadata_getlanguage, mfidl/IMFMetadata::GetLanguage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the current language setting.
+Gets the current language setting.
 
 
 ## -parameters
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -param ppwszRFC1766 [out]
 
-
-            Receives a pointer to a null-terminated string containing an RFC 1766-compliant language tag. The caller must release the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to a null-terminated string containing an RFC 1766-compliant language tag. The caller must release the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
           
 
 
@@ -86,8 +84,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -110,8 +107,7 @@ The metadata provider does not support multiple languages.
 </dl>
 </td>
 <td width="60%">
-
-                No language was set.
+No language was set.
               
 
 </td>

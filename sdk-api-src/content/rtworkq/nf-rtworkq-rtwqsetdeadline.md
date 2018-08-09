@@ -7,7 +7,7 @@ old-location: base\rtwqsetdeadline.htm
 old-project: procthread
 ms.assetid: 1A5D6352-283C-43FC-B011-48DFA69BC75A
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: RtwqSetDeadline, RtwqSetDeadline function, base.rtwqsetdeadline, rtworkq/RtwqSetDeadline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,19 +64,14 @@ Sets a deadline by which the work in a work queue must be completed.
 The identifier for the work queue. The identifier is returned by the <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> function. 
 
 
-### -param deadlineInHNS
+### -param deadlineInHNS [in]
 
-TBD
+ The deadline for the work in the queue to be completed, in milliseconds.
 
 
 ### -param pRequest [in, out]
 
 Receives a handle to the request that can be used to cancel the request by calling <a href="https://msdn.microsoft.com/4128B655-AFF9-4AEF-8EDB-A6DC8DA05FE9">RtwqCancelDeadline</a>.
-
-
-#### - llDeadline [in]
-
- The deadline for the work in the queue to be completed, in milliseconds.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mstv\iattributeget.htm
 old-project: mstv
 ms.assetid: 561267ac-8720-4aba-b812-784ab1e42114
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], IAttributeGet interface [Microsoft TV Technologies],described, IAttributeGetInterface, dsattrib/IAttributeGet, mstv.iattributeget
 ms.prod: windows
 ms.technology: windows-sdk

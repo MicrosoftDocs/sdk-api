@@ -7,7 +7,7 @@ old-location: gdi\extcreateregion.htm
 old-project: gdi
 ms.assetid: 4dcff824-eb1d-425c-b246-db4ace2c6518
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ExtCreateRegion, ExtCreateRegion function [Windows GDI], _win32_ExtCreateRegion, gdi.extcreateregion, wingdi/ExtCreateRegion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ The <b>ExtCreateRegion</b> function creates a region from the specified region a
 
 
 
-### -param lpx
+### -param lpx [in]
 
-TBD
+A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that defines the transformation to be performed on the region. If this pointer is <b>NULL</b>, the identity transformation is used.
 
 
 ### -param nCount [in]
@@ -73,21 +73,9 @@ TBD
 The number of bytes pointed to by <i>lpRgnData</i>.
 
 
-### -param lpData
-
-TBD
-
-
-
-
-#### - lpRgnData [in]
+### -param lpData [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-6cc185e4de22">RGNDATA</a> structure that contains the region data in logical units.
-
-
-#### - lpXform [in]
-
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure that defines the transformation to be performed on the region. If this pointer is <b>NULL</b>, the identity transformation is used.
 
 
 ## -returns

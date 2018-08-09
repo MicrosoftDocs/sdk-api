@@ -7,7 +7,7 @@ old-location: mstv\imsvidwebdvd2.htm
 old-project: mstv
 ms.assetid: f0385f72-02fe-4efc-8324-7af93d6ecb9d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidWebDVD2, IMSVidWebDVD2 interface [Microsoft TV Technologies], IMSVidWebDVD2 interface [Microsoft TV Technologies],described, mstv.imsvidwebdvd2, segment/IMSVidWebDVD2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      Contains methods that save and load the current location and state for DVD playback.
+Contains methods that save and load the current location and state for DVD playback.
 
 
 ## -remarks

@@ -4,10 +4,10 @@ title: EvtSubscribe function
 author: windows-sdk-content
 description: Creates a subscription that will receive current and future events from a channel or log file that match the specified query criteria.
 old-location: wes\evtsubscribe.htm
-old-project: WES
+old-project: wes
 ms.assetid: e7c4c5f9-2a5a-4004-8f19-13eb61c4346b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,9 +87,9 @@ A query that specifies the types of events that you want the subscription servic
 A handle to a bookmark that identifies the starting point for the subscription.  To get a bookmark handle, call the <a href="https://msdn.microsoft.com/1020d923-090b-48fc-96c2-394db5cd241e">EvtCreateBookmark</a> function.  You must set this parameter if the <i>Flags</i> parameter contains the EvtSubscribeStartAfterBookmark flag; otherwise, <b>NULL</b>.
 
 
-### -param Context
+### -param Context [in]
 
-TBD
+A caller-defined context value that the subscription service will pass to the specified callback each time it delivers an event.
 
 
 ### -param Callback [in]
@@ -100,11 +100,6 @@ Pointer to your <a href="https://msdn.microsoft.com/935a787c-fd71-492d-a803-80cb
 ### -param Flags [in]
 
 One or more flags that specify when to start subscribing to events. For example, if you specify EvtSubscribeStartAtOldestRecord, the service will retrieve all current and future events that match your query criteria; however, if you specify EvtSubscribeToFutureEvents, the service returns only future events that match your query criteria. For possible values, see the <a href="https://msdn.microsoft.com/2e0d5442-c9ac-4165-96ae-6f4122a5ce0a">EVT_SUBSCRIBE_FLAGS</a> enumeration.
-
-
-#### - context [in]
-
-A caller-defined context value that the subscription service will pass to the specified callback each time it delivers an event.
 
 
 ## -returns

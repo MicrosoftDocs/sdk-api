@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnector_getbitmapeffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\getbitmapeffect.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetBitmapEffect, GetBitmapEffect method [WPF Bitmap Effects], GetBitmapEffect method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, IMILBitmapEffectConnector interface [WPF Bitmap Effects],GetBitmapEffect method, IMILBitmapEffectConnector.GetBitmapEffect, IMILBitmapEffectConnector::GetBitmapEffect, _wibe_imilbitmapeffectconnector_getbitmapeffect, mileffects/IMILBitmapEffectConnector::GetBitmapEffect, wibe._wibe_imilbitmapeffectconnector_getbitmapeffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> associated with the connector.
+Gets the <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> associated with the connector.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMI
 
 ### -param ppEffect [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>**</b>
 
 A pointer that receives a pointer to the bitmap effect.
 

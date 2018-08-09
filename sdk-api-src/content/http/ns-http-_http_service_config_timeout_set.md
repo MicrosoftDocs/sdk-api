@@ -7,7 +7,7 @@ old-location: http\http_service_config_timeout_set.htm
 old-project: http
 ms.assetid: 928cb09d-9f63-4334-b034-ee27e950ce0a
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_SET, HTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], _HTTP_SERVICE_CONFIG_TIMEOUT_SET, http.http_service_config_timeout_set, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, http/HTTP_SERVICE_CONFIG_TIMEOUT_SET"
 ms.prod: windows
 ms.technology: windows-sdk

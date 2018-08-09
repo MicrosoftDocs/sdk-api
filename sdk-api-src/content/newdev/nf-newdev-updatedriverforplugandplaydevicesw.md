@@ -7,7 +7,7 @@ old-location: devinst\updatedriverforplugandplaydevices.htm
 old-project: devinst
 ms.assetid: dd5022df-5b65-4ed4-ac54-68149df2c851
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation], UpdateDriverForPlugAndPlayDevicesA, UpdateDriverForPlugAndPlayDevicesW, devinst.updatedriverforplugandplaydevices, di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml, newdev/UpdateDriverForPlugAndPlayDevices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,17 +122,17 @@ If this flag is set and the function finds a device that matches the <i>Hardware
 <div class="alert"><b>Important</b>  Use this flag only with extreme caution. Setting this flag can cause an older driver to be installed over a newer driver, if a user runs the vendor's application after newer drivers are available.</div>
 <div> </div>
 
+##### - InstallFlags.INSTALLFLAG_READONLY
+
+If this flag is set, the function will not copy, rename, or delete any installation files. Use of this flag should be limited to environments in which file access is restricted or impossible, such as an "embedded" operating system.
+
+
 ##### - InstallFlags.INSTALLFLAG_NONINTERACTIVE
 
 If this flag is set, the function will return <b>FALSE</b> when any attempt to display UI is detected. Set this flag only if the function will be called from a component (such as a service) that cannot display UI. 
 
 <div class="alert"><b>Note</b>    If this flag is set and a UI display is attempted, the device can be left in an indeterminate state.</div>
 <div> </div>
-
-##### - InstallFlags.INSTALLFLAG_READONLY
-
-If this flag is set, the function will not copy, rename, or delete any installation files. Use of this flag should be limited to environments in which file access is restricted or impossible, such as an "embedded" operating system.
-
 
 ## -returns
 

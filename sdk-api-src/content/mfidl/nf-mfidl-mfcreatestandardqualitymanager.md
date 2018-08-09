@@ -7,7 +7,7 @@ old-location: mf\mfcreatestandardqualitymanager.htm
 old-project: medfound
 ms.assetid: 9abaa474-8a00-4e36-897d-9de9578333b7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectstringvariable_getstring.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectstringvariable_getstring.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9daf3f6a-842b-088b-a335-a0eed8c5bd16, GetString, GetString method [Direct3D 10], GetString method [Direct3D 10],ID3D10EffectStringVariable interface, ID3D10EffectStringVariable interface [Direct3D 10],GetString method, ID3D10EffectStringVariable.GetString, ID3D10EffectStringVariable::GetString, d3d10effect/ID3D10EffectStringVariable::GetString, direct3d10.id3d10effectstringvariable_getstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A pointer to the string.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173705(v=VS.85).aspx">ID3D10EffectStringVariable Interface</a>
+<a href="https://msdn.microsoft.com/b388e9fd-f931-46e5-a194-d832c347003a">ID3D10EffectStringVariable Interface</a>
  
 
  

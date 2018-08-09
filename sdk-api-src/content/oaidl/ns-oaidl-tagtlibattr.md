@@ -7,7 +7,7 @@ old-location: automat\tlibattr.htm
 old-project: automat
 ms.assetid: 7715a862-1e20-4035-a146-2c9aa134f929
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPTLIBATTR, LPTLIBATTR, LPTLIBATTR structure pointer [Automation], TLIBATTR, TLIBATTR structure [Automation], _oa96_TLIBATTR, automat.tlibattr, oaidl/LPTLIBATTR, oaidl/TLIBATTR, tagTLIBATTR"
 ms.prod: windows
 ms.technology: windows-sdk

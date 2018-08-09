@@ -7,7 +7,7 @@ old-location: p2p\peergraphlisten.htm
 old-project: p2psdk
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphListen</b> function indicates that  a peer graph should  start listening for incoming connections.
+The <b>PeerGraphListen</b> function indicates that  a peer graph should  start listening for incoming connections.
 
 ## -parameters
 
@@ -197,8 +196,7 @@ The graph must be initialized with a call to <a href="https://msdn.microsoft.com
 
 To be able to accept direct connections, a node must  subscribe to the  <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event.  
 
-
-        Before this function can be called, the application must  call <a href="https://msdn.microsoft.com/62e3ec57-378c-4322-9ad4-a40d98e03dab">PeerGraphCreate</a> or <a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a>. 
+Before this function can be called, the application must  call <a href="https://msdn.microsoft.com/62e3ec57-378c-4322-9ad4-a40d98e03dab">PeerGraphCreate</a> or <a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a>. 
 
 <div class="alert"><b>Note</b>  If this is the first time a peer graph is opened, all calls to <b>PeerGraphListen</b>  fail until the node  connects to and synchronizes with  the peer graph.</div>
 <div> </div>

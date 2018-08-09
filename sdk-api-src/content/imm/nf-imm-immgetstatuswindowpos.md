@@ -7,7 +7,7 @@ old-location: intl\immgetstatuswindowpos.htm
 old-project: Intl
 ms.assetid: 785d8523-14a7-4443-8326-34ca197b1cff
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmGetStatusWindowPos, imm/ImmGetStatusWindowPos, intl.immgetstatuswindowpos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ Retrieves the position of the status window.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lpptPos [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure in which the function retrieves the position coordinates. These are screen coordinates, relative to the upper left corner of the screen.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

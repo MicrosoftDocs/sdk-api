@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache.htm
 old-project: WinAuto
 ms.assetid: 42bdc6c4-8ee5-4338-aba1-9740221786c8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFirstChildElementBuildCache, GetFirstChildElementBuildCache method [Windows Accessibility], GetFirstChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElementBuildCache method, IUIAutomationTreeWalker.GetFirstChildElementBuildCache, IUIAutomationTreeWalker::GetFirstChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

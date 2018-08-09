@@ -7,7 +7,7 @@ old-location: http\httpsetserversessionproperty.htm
 old-project: http
 ms.assetid: d655832c-68a1-42d1-ac91-964884bf2dac
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetServerSessionProperty, HttpSetServerSessionProperty function [HTTP], http.httpsetserversessionproperty, http/HttpSetServerSessionProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,17 +149,7 @@ Enables server side authentication that uses a channel binding token (CBT).
  
 
 
-### -param PropertyInformation
-
-TBD
-
-
-### -param PropertyInformationLength [in]
-
-The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
-
-#### - pPropertyInformation [in]
+### -param PropertyInformation [in]
 
 A pointer to the buffer that contains the property data.
 
@@ -214,6 +204,11 @@ A pointer to the buffer that contains the property data.
  
 
 
+
+
+### -param PropertyInformationLength [in]
+
+The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
 
 
 ## -returns

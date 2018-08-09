@@ -7,7 +7,7 @@ old-location: cos\getobjectcontext.htm
 old-project: cossdk
 ms.assetid: e93406df-e61c-4ee5-9cd4-828aab2c05b6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,16 +60,7 @@ For similar functionality, see <a href="https://msdn.microsoft.com/7e2edb2f-ca86
 
 
 
-### -param ppIOC
-
-TBD
-
-
-
-
-
-
-#### - ppInstanceContext [out]
+### -param ppIOC [out]
 
 A reference to <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> on the object's context. If the object's component has not been imported into an MTS package or if the <b>GetObjectContext</b> function is called from a constructor or an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> method, this parameter is set to a <b>NULL</b> pointer.
 

@@ -7,7 +7,7 @@ old-location: winsensors\magnetometeraccuracy.htm
 old-project: SensorsAPI
 ms.assetid: DBD06A2E-35AB-4692-8475-98B803C2202B
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [WinSensors], Unknown, Unreliable, sensorsapi/Approximate, sensorsapi/High, sensorsapi/MagnetometerAccuracy, sensorsapi/Unknown, sensorsapi/Unreliable, winsensors.magnetometeraccuracy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,16 +73,6 @@ Specifies the accuracy of the magnetometer.
 
 
 
-#### - Approximate
-
-The actual and reported values differ but may be accurate enough for some application. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration. 
-
-
-#### - High
-
-The actual and reported values are accurate. No additional calibration is needed. 
-
-
 #### - Unknown
 
 This value is not used. 
@@ -91,6 +81,16 @@ This value is not used.
 #### - Unreliable
 
 The reported values have a high degree of inaccuracy. Apps will typically ask the user to calibrate the device whenever this value is returned.
+
+
+#### - Approximate
+
+The actual and reported values differ but may be accurate enough for some application. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration. 
+
+
+#### - High
+
+The actual and reported values are accurate. No additional calibration is needed. 
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: of\offlinefilesquerystatusex.htm
 old-project: offlinefiles
 ms.assetid: 1916F3F7-3B99-40CA-B503-EA1D10991BF4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: OfflineFilesQueryStatusEx, OfflineFilesQueryStatusEx function [Offline Files], cscapi/OfflineFilesQueryStatusEx, of.offlinefilesquerystatusex
 ms.prod: windows
 ms.technology: windows-sdk

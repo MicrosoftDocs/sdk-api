@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_4_str.htm
 old-project: dfs
 ms.assetid: 0b255be8-b719-4f40-9051-7e8a1bffa0e0
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDFS_INFO_4, *PDFS_INFO_4, DFS_INFO_4, DFS_INFO_4 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_4, LPDFS_INFO_4 structure pointer [Distributed File System], PDFS_INFO_4, PDFS_INFO_4 structure pointer [Distributed File System], _DFS_INFO_4, _win32_dfs_info_4_str, dfs.dfs_info_4_str, fs.dfs_info_4_str, lmdfs/DFS_INFO_4, lmdfs/LPDFS_INFO_4, lmdfs/PDFS_INFO_4, netmgmt.dfs_info_4_str"
 ms.prod: windows
 ms.technology: windows-sdk

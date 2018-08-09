@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getservicestate.htm
 old-project: DirectShow
 ms.assetid: 7a927341-6ff4-41f5-918b-ea5b9e1ebe9a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetServiceState method, IAMWstDecoder.GetServiceState, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Pointer to a variable that receives the state, specified as a member of the <a h
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

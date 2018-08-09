@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_clone.htm
 old-project: wpd_sdk
 ms.assetid: 70287534-501f-480d-85ee-64049a0938fb
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Clone method, IEnumPortableDeviceObjectIDs.Clone, IEnumPortableDeviceObjectIDs::Clone, IEnumPortableDeviceObjectIDsClone, portabledeviceapi/IEnumPortableDeviceObjectIDs::Clone, wpdsdk.ienumportabledeviceobjectids_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Clone</b> method duplicates the current I<b>EnumPortableDeviceObjectIDs</b> interface.
+The <b>Clone</b> method duplicates the current I<b>EnumPortableDeviceObjectIDs</b> interface.
       
 
 <b>Not implemented in this release.</b>
@@ -66,8 +65,7 @@ req.product: ADAM
 
 ### -param ppEnum [out]
 
-
-            Address of a variable that receives a pointer to an enumeration interface. The caller must release this interface when it is finished with the interface.
+Address of a variable that receives a pointer to an enumeration interface. The caller must release this interface when it is finished with the interface.
           
 
 
@@ -75,8 +73,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

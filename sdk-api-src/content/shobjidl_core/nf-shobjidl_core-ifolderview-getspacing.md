@@ -7,7 +7,7 @@ old-location: shell\IFolderView_GetSpacing.htm
 old-project: shell
 ms.assetid: 6ea81c40-773f-4f53-97c1-99619e46be48
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetSpacing, GetSpacing method [Windows Shell], GetSpacing method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSpacing method, IFolderView.GetSpacing, IFolderView::GetSpacing, _shell_IFolderView_GetSpacing, shell.IFolderView_GetSpacing, shobjidl_core/IFolderView::GetSpacing
 ms.prod: windows
 ms.technology: windows-sdk

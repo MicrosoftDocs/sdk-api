@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_data_so_statistics.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_so_statistics.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS structure [Direct3D 10], cf410b92-83dc-df50-69b8-4970b24d4f1c, d3d10/D3D10_QUERY_DATA_SO_STATISTICS, direct3d10.d3d10_query_data_so_statistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Query information about the amount of data streamed out to the stream-output buffers in between <a href="https://msdn.microsoft.com/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a>.
+Query information about the amount of data streamed out to the stream-output buffers in between <a href="https://msdn.microsoft.com/53ae44d0-822b-4fc9-ac77-814ac73eb08a">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/147a93b4-7151-4800-8aa5-286058f49ee8">ID3D10Asynchronous::End</a>.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ Number of primitives that would have been written to the stream-output buffers i
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

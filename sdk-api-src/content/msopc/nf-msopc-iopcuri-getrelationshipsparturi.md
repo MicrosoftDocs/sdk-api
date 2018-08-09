@@ -7,7 +7,7 @@ old-location: opc\iopcuri_getrelationshipsparturi.htm
 old-project: OPC
 ms.assetid: 1b953b4c-6e8d-4097-a6bf-618b49cdd603
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetRelationshipsPartUri, GetRelationshipsPartUri method [Open Packaging Conventions], GetRelationshipsPartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelationshipsPartUri method, IOpcUri.GetRelationshipsPartUri, IOpcUri::GetRelationshipsPartUri, msopc/IOpcUri::GetRelationshipsPartUri, opc.iopcuri_getrelationshipsparturi
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,14 @@ Gets the part name of the Relationships part that stores relationships that have
 
 ### -param relationshipPartUri [out, retval]
 
-
-              A pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface of the part URI object that represents the part name of the Relationships part. The source URI of the relationships stored in this Relationships part is represented by the  current OPC URI object.
+A pointer to the <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IOpcPartUri</a> interface of the part URI object that represents the part name of the Relationships part. The source URI of the relationships stored in this Relationships part is represented by the  current OPC URI object.
 
 
 ## -returns
 
 
 
-
-              The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
 
 <table>
@@ -96,8 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>relationshipPartUri</i> parameter is <b>NULL</b>.
+The <i>relationshipPartUri</i> parameter is <b>NULL</b>.
               
 
 </td>
@@ -110,8 +107,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The current <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a> represents a Relationships part and cannot be the source of any relationships.
+The current <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23d6d4">IOpcUri</a> represents a Relationships part and cannot be the source of any relationships.
               
 
 </td>
@@ -124,8 +120,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
               
 
 </td>
@@ -138,8 +133,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API.
+An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API.
               
 
 </td>

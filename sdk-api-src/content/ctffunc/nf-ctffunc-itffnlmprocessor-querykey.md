@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_querykey.htm
 old-project: TSF
 ms.assetid: 9d28c2c2-ed0e-4987-ace9-25ed9d7a40a0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryKey method, ITfFnLMProcessor.QueryKey, ITfFnLMProcessor::QueryKey, QueryKey, QueryKey method [Text Services Framework], QueryKey method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_querykey_ref, ctffunc/ITfFnLMProcessor::QueryKey, tsf.itffnlmprocessor_querykey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,12 +64,12 @@ Contains a <b>BOOL</b> that specifies if this is a key-down or a key-up event. C
 
 ### -param vKey [in]
 
-Contains the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Contains the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
 
 
 ### -param lparamKeydata [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
 
 
 ### -param pfInterested [out]
@@ -114,11 +114,11 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>
+<a href="_win32_wm_keydown">WM_KEYDOWN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>
+<a href="_win32_wm_keyup">WM_KEYUP</a>
  
 
  

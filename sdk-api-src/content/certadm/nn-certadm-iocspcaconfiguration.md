@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration.htm
 old-project: seccrypto
 ms.assetid: 57900e1e-9c51-4c1b-aa42-634b6c3a9999
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], IOCSPCAConfiguration interface [Security],described, certadm/IOCSPCAConfiguration, security.iocspcaconfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Microsoft provides a default implementation of this interface in the <b>OCSPCACo
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

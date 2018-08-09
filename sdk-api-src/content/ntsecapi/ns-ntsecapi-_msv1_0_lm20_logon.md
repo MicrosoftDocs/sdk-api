@@ -7,7 +7,7 @@ old-location: security\msv1_0_lm20_logon.htm
 old-project: secauthn
 ms.assetid: 0736ab5b-a475-4593-a15e-970b5d4c64d0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PMSV1_0_LM20_LOGON, MSV1_0_ALLOW_MSVCHAPV2, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CHECK_LOGONHOURS_FOR_S4U, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_CLEARTEXT_PASSWORD_SUPPLIED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_INTERNET_DOMAIN, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON structure [Security], MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_S4U2SELF, MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, MSV1_0_USE_CLIENT_CHALLENGE, MSV1_0_USE_DOMAIN_FOR_ROUTING_ONLY, PMSV1_0_LM20_LOGON, PMSV1_0_LM20_LOGON structure pointer [Security], _MSV1_0_LM20_LOGON, _lsa_msv1_0_lm20_logon, ntsecapi/MSV1_0_LM20_LOGON, ntsecapi/PMSV1_0_LM20_LOGON, security.msv1_0_lm20_logon"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ It is used by
 
 ### -field MessageType
 
-
-						A <a href="https://msdn.microsoft.com/03bf43f0-44f4-40c6-8d5d-381f36ebdd0e">MSV1_0_LOGON_SUBMIT_TYPE</a> value that specifies the type of logon being requested. This member must be set to <b>MsV1_0Lm20Logon</b> or <b>MsV1_0NetworkLogon</b>. 
+A <a href="https://msdn.microsoft.com/03bf43f0-44f4-40c6-8d5d-381f36ebdd0e">MSV1_0_LOGON_SUBMIT_TYPE</a> value that specifies the type of logon being requested. This member must be set to <b>MsV1_0Lm20Logon</b> or <b>MsV1_0NetworkLogon</b>. 
 
 
 
@@ -75,8 +74,7 @@ If this member is set to <b>MsV1_0Lm20Logon</b>, the MSV1_0 package ignores the 
 
 ### -field LogonDomainName
 
-
-						A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain (or mixed domain) that is in the trusted domain list of this computer. If the logon domain name is not known (for example, for clients that do not supply this information), this member should be passed in as a zero-length string. This domain is the authenticating authority.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain (or mixed domain) that is in the trusted domain list of this computer. If the logon domain name is not known (for example, for clients that do not supply this information), this member should be passed in as a zero-length string. This domain is the authenticating authority.
 
 
 ### -field UserName
@@ -235,8 +233,7 @@ Returns the profile path for <a href="https://msdn.microsoft.com/f1caccd2-3453-4
 </dl>
 </td>
 <td width="60%">
-
-								In normal operation, the <b>LogonDomainName</b> member is used as a suggestion. The package (using the NetLogon service) will continue passing the logon request to domain controllers higher in the trusted domain path until one authoritatively rejects the logon.
+In normal operation, the <b>LogonDomainName</b> member is used as a suggestion. The package (using the NetLogon service) will continue passing the logon request to domain controllers higher in the trusted domain path until one authoritatively rejects the logon.
 								
 
 This flag overrides that behavior so that only the specified domain controller will attempt to process the logon. If <b>LogonDomainName</b> is blank, the logon will not be attempted.

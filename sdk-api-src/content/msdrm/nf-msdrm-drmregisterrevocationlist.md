@@ -7,7 +7,7 @@ old-location: rm\drmregisterrevocationlist.htm
 old-project: adrms_sdk
 ms.assetid: 819a8471-e447-4a4d-ae52-5929350df2c8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMRegisterRevocationList, DRMRegisterRevocationList function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterRevocationList, rm.drmregisterrevocationlist
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorcollection_removebyid.htm
 old-project: SensorsAPI
 ms.assetid: 933ea072-d62c-4274-a2c0-69282ecb79d2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensorCollection interface,RemoveByID method, ISensorCollection.RemoveByID, ISensorCollection::RemoveByID, RemoveByID, RemoveByID method, RemoveByID method,ISensorCollection interface, sensorsapi/ISensorCollection::RemoveByID, winsensors_com_ref.isensorcollection_removebyid
 ms.prod: windows
 ms.technology: windows-sdk

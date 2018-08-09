@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_inserttextatselection.htm
 old-project: TSF
 ms.assetid: b57ad8da-6f79-4d27-96e0-608cbcaae826
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP.InsertTextAtSelection, ITextStoreACP::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, _tsf_itextstoreacp_inserttextatselection_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::InsertTextAtSelection, tsf.itextstoreacp_inserttextatselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -246,14 +246,12 @@ Applications should not call the <a href="https://msdn.microsoft.com/ed11ebb8-31
 
 
 
-<a href="https://msdn.microsoft.com/adc5c539-fdb1-4829-ad17-2f54ec179c47">
-        TF_IAS_* Constants
+<a href="https://msdn.microsoft.com/adc5c539-fdb1-4829-ad17-2f54ec179c47">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0">
-        TS_TEXTCHANGE
+<a href="https://msdn.microsoft.com/af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0">TS_TEXTCHANGE
       </a>
  
 

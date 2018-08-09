@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentvolumeinfo.htm
 old-project: DirectShow
 ms.assetid: 2da53db9-5565-4bca-ba0a-90f7e07ccbb9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetCurrentVolumeInfo, GetCurrentVolumeInfo method [DirectShow], GetCurrentVolumeInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVolumeInfo method, IDvdInfo.GetCurrentVolumeInfo, IDvdInfo::GetCurrentVolumeInfo, IDvdInfoGetCurrentVolumeInfo, dshow.idvdinfo_getcurrentvolumeinfo, strmif/IDvdInfo::GetCurrentVolumeInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,11 +86,6 @@ Pointer to the retrieved current disc side (<a href="https://msdn.microsoft.com/
 
 
 
-#### - pNumOfTitles [out]
-
-Pointer to the retrieved number of titles available in this volume.
-
-
 #### - pNumOfVol [out]
 
 Pointer to the retrieved number of volumes in the volume set.
@@ -99,6 +94,11 @@ Pointer to the retrieved number of volumes in the volume set.
 #### - pThisVolNum [out]
 
 Pointer to the retrieved volume number for this root directory.
+
+
+#### - pNumOfTitles [out]
+
+Pointer to the retrieved number of titles available in this volume.
 
 
 ## -returns

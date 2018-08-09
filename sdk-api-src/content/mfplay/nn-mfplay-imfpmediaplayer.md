@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer.htm
 old-project: medfound
 ms.assetid: fa57d465-1ee9-4f7a-9be8-66a6d73f65e8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], IMFPMediaPlayer interface [Media Foundation],described, mf.imfpmediaplayer, mfplay/IMFPMediaPlayer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: GDI+ 1.1
 <div> </div>
 
 
-
-        Contains methods to play media files.
+Contains methods to play media files.
 
 The MFPlay player object exposes this interface. To get a pointer to this interface, call <a href="https://msdn.microsoft.com/80c668e2-5e93-4af2-871c-646228e18717">MFPCreateMediaPlayer</a>.
 

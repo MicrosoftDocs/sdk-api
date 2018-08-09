@@ -7,7 +7,7 @@ old-location: com\cogetcurrentprocess.htm
 old-project: com
 ms.assetid: 46b0448f-f1c5-4da7-8489-bbd6d0fab79e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoGetCurrentProcess, CoGetCurrentProcess function [COM], _com_CoGetCurrentProcess, com.cogetcurrentprocess, combaseapi/CoGetCurrentProcess
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [GDI+], Graphics.DrawEllipse, Graphics.DrawEllipse(IN const Pen,IN INT,IN INT,IN INT,IN INT), Graphics::DrawEllipse, Graphics::DrawEllipse(IN const Pen,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplusgraphics/DrawEllipse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,37 +65,37 @@ DrawEllipse methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536062(v=VS.85).aspx">DrawEllipse(Pen*,Rect&)</a>
+<a href="https://msdn.microsoft.com/b543d2fd-507c-46bf-bb82-9e1562d6562e">DrawEllipse(Pen*,Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536062(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
+The <a href="https://msdn.microsoft.com/b543d2fd-507c-46bf-bb82-9e1562d6562e">Graphics::DrawEllipse</a> method draws an ellipse.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536065(v=VS.85).aspx">DrawEllipse(Pen*,RectF&)</a>
+<a href="https://msdn.microsoft.com/c520987b-a425-4959-b293-5988de01a553">DrawEllipse(Pen*,RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536065(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
+The <a href="https://msdn.microsoft.com/c520987b-a425-4959-b293-5988de01a553">Graphics::DrawEllipse</a> method draws an ellipse.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536067(v=VS.85).aspx">DrawEllipse(Pen*,INT,INT,INT,INT)</a>
+<a href="https://msdn.microsoft.com/feec1bd9-2e6a-436b-adcd-c53d99b8c738">DrawEllipse(Pen*,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536067(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
+The <a href="https://msdn.microsoft.com/feec1bd9-2e6a-436b-adcd-c53d99b8c738">Graphics::DrawEllipse</a> method draws an ellipse.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536064(v=VS.85).aspx">DrawEllipse(Pen*,REAL,REAL,REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/34b52dc4-ac48-47d5-8c3d-e29f07ad311d">DrawEllipse(Pen*,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536064(v=VS.85).aspx">Graphics::DrawEllipse</a> method draws an ellipse.
+The <a href="https://msdn.microsoft.com/34b52dc4-ac48-47d5-8c3d-e29f07ad311d">Graphics::DrawEllipse</a> method draws an ellipse.
 
 </td>
 </tr>

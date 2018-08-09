@@ -4,10 +4,10 @@ title: WNetDisconnectDialog function
 author: windows-sdk-content
 description: The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetdisconnectdialog.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 76e0f38a-e057-4496-9c2f-7ea73d19bd76
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RESOURCETYPE_DISK, WNetDisconnectDialog, WNetDisconnectDialog function [Windows Networking (WNet)], _win32_wnetdisconnectdialog, winnetwk/WNetDisconnectDialog, wnet.wnetdisconnectdialog
 ms.prod: windows
 ms.technology: windows-sdk

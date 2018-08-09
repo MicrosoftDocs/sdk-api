@@ -7,7 +7,7 @@ old-location: security\sslfreecertificate.htm
 old-project: secauthn
 ms.assetid: bf643ece-fe79-4f6e-a216-108fce6757a4
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: SslFreeCertificate, SslFreeCertificate function [Security], schannel/SslFreeCertificate, security.sslfreecertificate
 ms.prod: windows
 ms.technology: windows-sdk

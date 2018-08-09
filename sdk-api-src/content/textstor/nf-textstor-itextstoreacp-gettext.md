@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_gettext.htm
 old-project: TSF
 ms.assetid: c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetText method, ITextStoreACP.GetText, ITextStoreACP::GetText, _tsf_itextstoreacp_gettext_ref, textstor/ITextStoreACP::GetText, tsf.itextstoreacp_gettext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -189,8 +189,7 @@ On exit, <i>pacpNext</i> should be set to the character position of the next cha
 
 
 
-<a href="https://msdn.microsoft.com/601cd6b0-0064-4cd3-99cd-850104a861a5">
-        TS_RUNINFO
+<a href="https://msdn.microsoft.com/601cd6b0-0064-4cd3-99cd-850104a861a5">TS_RUNINFO
       </a>
  
 

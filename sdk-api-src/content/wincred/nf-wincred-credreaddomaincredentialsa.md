@@ -4,10 +4,10 @@ title: CredReadDomainCredentialsA function
 author: windows-sdk-content
 description: Reads the domain credentials from the user's credential set.
 old-location: security\credreaddomaincredentials.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,14 +89,7 @@ Cache the TargetInfo for a subsequent read using <a href="https://msdn.microsoft
 Count of the credentials returned in the <i>Credentials</i> array.
 
 
-### -param Credential
-
-TBD
-
-
-
-
-#### - Credentials [out]
+### -param Credential [out]
 
 Pointer to an array of pointers to credentials. The most specific existing credential matching the <i>TargetInfo</i> is returned. If credentials of various types (for example, CRED_TYPE_DOMAIN_PASSWORD and CRED_TYPE_DOMAIN_CERTIFICATE credentials) exist, one of each type is returned. If a connection were to be made to the named target, this most-specific credential would be used. 
 

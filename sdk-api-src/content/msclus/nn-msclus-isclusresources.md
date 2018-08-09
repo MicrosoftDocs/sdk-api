@@ -7,7 +7,7 @@ old-location: mscs\clusresources_collection.htm
 old-project: mscs
 ms.assetid: 56dd53e7-7e2e-481f-b343-da51c7c52553
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResources, ClusResources collection [Failover Cluster], ClusResources collection [Failover Cluster],described, ISClusResources, _wolf_clusresources_collection, msclus/ClusResources, mscs.clusresources_collection
 ms.prod: windows
 ms.technology: windows-sdk

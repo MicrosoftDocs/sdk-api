@@ -7,7 +7,7 @@ old-location: fs\decommissionntmsmedia.htm
 old-project: Rsm
 ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ Handle to the session returned by the
 <a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
 
 
-### -param lpMediaId
-
-TBD
-
-
-
-
-#### - lpMedia [in]
+### -param lpMediaId [in]
 
 Unique identifier of a side of a piece of physical media.
 
@@ -229,7 +222,7 @@ Only media that is in the Available state can be decommissioned. For more inform
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

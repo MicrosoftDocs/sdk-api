@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_findbyuniqueid.htm
 old-project: secauthn
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],FindByUniqueID method, IIdentityProvider.FindByUniqueID, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid
 ms.prod: windows
 ms.technology: windows-sdk

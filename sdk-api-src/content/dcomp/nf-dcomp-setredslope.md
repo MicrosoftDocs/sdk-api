@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setredslope_overloade
 old-project: directcomp
 ms.assetid: 486dad35-e9f2-cc7e-1c20-0e69ce1d22bb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: SetRedSlope, dcomp/setredslope, directcomp.idcompositionlineartransfereffect_setredslope_overloaded, idcompositionlineartransfereffect::setredslope, setredslope, setredslope methods [DirectComposition]
 ms.prod: windows
 ms.technology: windows-sdk

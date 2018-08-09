@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_GetPropertyDescription.htm
 old-project: properties
 ms.assetid: c26f6f7e-7ed1-4a97-a9b0-63197ee7b43a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescription method, IPropertySystem.GetPropertyDescription, IPropertySystem::GetPropertyDescription, properties.IPropertySystem_GetPropertyDescription, propsys/IPropertySystem::GetPropertyDescription, shell.IPropertySystem_GetPropertyDescription, shell_IPropertySystem_GetPropertyDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, to obtain the property description for a given <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescription">IPropertyDescription</a>, to obtain the property description for a given <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets an instance of the subsystem object that implements <a href="https://msdn.m
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the desired property key. See <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
+A reference to the desired property key. See <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface pointer.
+The address of an <a href="shell.IPropertyDescription">IPropertyDescription</a> interface pointer.
 
 
 ## -returns
@@ -122,7 +122,7 @@ Indicates that <i>ppv</i> is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

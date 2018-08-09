@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrary_get_name.htm
 old-project: WMP
 ms.assetid: 28f1e3bc-3692-4fd0-a0b3-fecc3a173103
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_name method, IWMPLibrary.get_name, IWMPLibrary::get_name, IWMPLibraryget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_name, wmp/IWMPLibrary::get_name
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\polypolygon.htm
 old-project: gdi
 ms.assetid: ac0a2802-c8b0-4cd7-9521-5b179f2c70b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon, gdi.polypolygon, wingdi/PolyPolygon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,34 +66,17 @@ The <b>PolyPolygon</b> function draws a series of closed polygons. Each polygon 
 A handle to the device context.
 
 
-### -param apt
-
-TBD
-
-
-### -param asz
-
-TBD
-
-
-### -param csz
-
-TBD
-
-
-
-
-#### - lpPoints [in]
+### -param apt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that define the vertices of the polygons, in logical coordinates. The polygons are specified consecutively. Each polygon is closed automatically by drawing a line from the last vertex to the first. Each vertex should be specified once.
 
 
-#### - lpPolyCounts [in]
+### -param asz [in]
 
 A pointer to an array of integers, each of which specifies the number of points in the corresponding polygon. Each integer must be greater than or equal to 2.
 
 
-#### - nCount [in]
+### -param csz [in]
 
 The total number of polygons.
 

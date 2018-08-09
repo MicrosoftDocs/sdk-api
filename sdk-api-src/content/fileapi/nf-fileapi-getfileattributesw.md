@@ -7,7 +7,7 @@ old-location: fs\getfileattributes.htm
 old-project: fileio
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: GetFileAttributes, GetFileAttributes function [Files], GetFileAttributesA, GetFileAttributesW, _win32_getfileattributes, base.getfileattributes, fileapi/GetFileAttributes, fileapi/GetFileAttributesA, fileapi/GetFileAttributesW, fs.getfileattributes, winbase/GetFileAttributes, winbase/GetFileAttributesA, winbase/GetFileAttributesW
 ms.prod: windows
 ms.technology: windows-sdk

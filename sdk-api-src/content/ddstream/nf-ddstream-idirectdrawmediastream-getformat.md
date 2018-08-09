@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream_getformat.htm
 old-project: DirectShow
 ms.assetid: 3729bbe6-3504-46b3-9978-e66afc56344f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetFormat method, IDirectDrawMediaStream.GetFormat, IDirectDrawMediaStream::GetFormat, IDirectDrawMediaStreamGetFormat, ddstream/IDirectDrawMediaStream::GetFormat, dshow.idirectdrawmediastream_getformat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,11 +84,9 @@ Pointer to the flags set in a <b>DDSURFACEDESC</b> structure. Flags of interest 
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

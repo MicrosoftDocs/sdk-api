@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_freesectorsonmedia.htm
 old-project: imapi
 ms.assetid: a36dd3de-ca08-4783-beca-95813402692b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_FreeSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia, IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_freesectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
 ms.prod: windows
 ms.technology: windows-sdk

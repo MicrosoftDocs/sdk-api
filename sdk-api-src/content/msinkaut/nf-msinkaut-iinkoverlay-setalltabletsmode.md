@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_setalltabletsmode.htm
 old-project: tablet
 ms.assetid: 33c659af-ffa1-4fd8-8f85-feb22a6e58fe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetAllTabletsMode method, IInkOverlay.SetAllTabletsMode, IInkOverlay::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkOverlay interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkOverlay::SetAllTabletsMode, tablet.inkoverlay_setalltabletsmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

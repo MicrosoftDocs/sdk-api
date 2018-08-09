@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates_count.htm
 old-project: seccertenroll
 ms.assetid: 92183bf8-fa1a-4377-a659-cc7ab3e2ca41
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Count property [Security], Count property [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Count property, IX509CertificateTemplates.Count, IX509CertificateTemplates.get_Count, IX509CertificateTemplates::Count, IX509CertificateTemplates::get_Count, certenroll/IX509CertificateTemplates::Count, certenroll/IX509CertificateTemplates::get_Count, get_Count, security.ix509certificatetemplates_count
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_startsessionkeyrefresh.htm
 old-project: medfound
 ms.assetid: f25ad491-9ffb-40d1-94c3-af0cbae553bf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IDirect3DCryptoSession9 interface [Media Foundation],StartSessionKeyRefresh method, IDirect3DCryptoSession9.StartSessionKeyRefresh, IDirect3DCryptoSession9::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],IDirect3DCryptoSession9 interface, d3d9/IDirect3DCryptoSession9::StartSessionKeyRefresh, mf.idirect3dcryptosession9_startsessionkeyrefresh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 To generate a new session key, perform a bitwise <b>XOR</b> between the previous session key and the random number. The new session key does not take affect until the application calls <a href="https://msdn.microsoft.com/b5e4522b-d5a5-4ece-9b78-2cebdf9f9364">IDirect3DCryptoSession9::FinishSessionKeyRefresh</a>.
 
-If the driver supports this method, the driver sets the <b>D3DCPCAPS_FRESHENSESSIONKEY</b>
-capabilities flag in  the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
+If the driver supports this method, the driver sets the <b>D3DCPCAPS_FRESHENSESSIONKEY</b>capabilities flag in  the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
 
 
 

@@ -7,7 +7,7 @@ old-location: base\pwm_controller_get_actual_period_output.htm
 old-project: devio
 ms.assetid: 280F564F-FF7F-4121-B726-9F9AF9E98EB7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT, PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT structure, _PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT, base.pwm_controller_get_actual_period_output, pwm/PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The effective output signal period as it would be measured on the  output channe
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
  
 
  

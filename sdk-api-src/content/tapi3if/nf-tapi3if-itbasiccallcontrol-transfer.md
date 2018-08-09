@@ -4,10 +4,10 @@ title: ITBasicCallControl::Transfer
 author: windows-sdk-content
 description: The Transfer method transfers the current call to the destination address.
 old-location: tapi3\itbasiccallcontrol_transfer.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 4f2a06e6-9f0b-4bf3-9f18-6e9f57c4b02f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Transfer method, ITBasicCallControl.Transfer, ITBasicCallControl::Transfer, Transfer, Transfer method [TAPI 2.2], Transfer method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_transfer, tapi3.itbasiccallcontrol_transfer, tapi3if/ITBasicCallControl::Transfer
 ms.prod: windows
 ms.technology: windows-sdk

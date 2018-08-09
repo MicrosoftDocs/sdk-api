@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_factoid.htm
 old-project: tablet
 ms.assetid: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe, Factoid property [Tablet PC], Factoid property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Factoid property, IPenInputPanel.Factoid, IPenInputPanel.get_Factoid, IPenInputPanel::Factoid, IPenInputPanel::get_Factoid, IPenInputPanel::put_Factoid, PenInputPanel.get_Factoid, PenInputPanel.put_Factoid, get_Factoid, peninputpanel/IPenInputPanel::Factoid, peninputpanel/IPenInputPanel::get_Factoid, peninputpanel/IPenInputPanel::put_Factoid, put_Factoid, tablet.peninputpanel_factoid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,10 +86,8 @@ The <a href="https://msdn.microsoft.com/247a1f7d-8205-4e4d-9cfc-daad9bd2191f">Wo
 The default value for the <b>Factoid</b> property is DEFAULT. In locales that use recognizers of Latin script, all factoids may be used. In locales that use recognizers of East Asian characters, the following factoid values are relevant:
 
 <ul>
-<li>
-            DIGIT: Implies the Num bias button on the East Asian writing pad.</li>
-<li>
-            ONECAHR: Implies the Alpha bias button on the East Asian writing pad.</li>
+<li>DIGIT: Implies the Num bias button on the East Asian writing pad.</li>
+<li>ONECAHR: Implies the Alpha bias button on the East Asian writing pad.</li>
 <li>Common <a href="https://msdn.microsoft.com/247a1f7d-8205-4e4d-9cfc-daad9bd2191f">factoids</a> (JapaneseCommon, ChineseSimpleCommon, ChineseTraditionalCommon, KoreanCommon, KanjiCommon, and HangulCommon) imply the Alpha/Num bias button on the East Asian writing pad.</li>
 </ul>
 All factoid values other than DIGIT and ONECHAR are interpreted as the common factoid that is appropriate for the current input locale.
@@ -108,7 +106,7 @@ If the <b>Factoid</b> property is set, it is forwarded to the recognizer only if
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

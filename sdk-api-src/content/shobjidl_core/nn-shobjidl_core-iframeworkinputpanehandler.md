@@ -7,7 +7,7 @@ old-location: shell\IFrameworkInputPaneHandler.htm
 old-project: shell
 ms.assetid: E8038442-9E96-4eee-968E-3A6BC747852D
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
 ms.prod: windows
 ms.technology: windows-sdk

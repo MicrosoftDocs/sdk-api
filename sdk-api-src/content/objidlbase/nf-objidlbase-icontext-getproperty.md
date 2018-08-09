@@ -7,7 +7,7 @@ old-location: com\icontext_getproperty.htm
 old-project: com
 ms.assetid: 76c6f790-9103-4cee-8a67-0f69b00ba0a1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],IContext interface, IContext interface [COM],GetProperty method, IContext.GetProperty, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk

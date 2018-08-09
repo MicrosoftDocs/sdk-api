@@ -7,7 +7,7 @@ old-location: edp\srpgetenterpriseids.htm
 old-project: EDP
 ms.assetid: 850FA83D-A90F-40CA-99BE-F6DD890F4E6F
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EDP.srpgetenterpriseids, SrpGetEnterpriseIds, SrpGetEnterpriseIds function, srpapi/SrpGetEnterpriseIds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SrpGetEnterpriseIds function

@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtsetcanceltimeout.htm
 old-project: rpc
 ms.assetid: 0a616f5d-b30a-4cd3-9348-19f09f373c50
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcMgmtSetCancelTimeout, RpcMgmtSetCancelTimeout function [RPC], _rpc_rpcmgmtsetcanceltimeout, rpc.rpcmgmtsetcanceltimeout, rpcdce/RpcMgmtSetCancelTimeout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,6 @@ The
 
 
 ### -param Timeout
-
-TBD
-
-
-
-
-#### - Seconds
 
 Seconds to wait for a server to acknowledge a cancel command. To specify that a client waits an indefinite amount of time, supply the value RPC_C_CANCEL_INFINITE_TIMEOUT.
 

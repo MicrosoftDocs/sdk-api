@@ -7,7 +7,7 @@ old-location: rm\drmverify.htm
 old-project: adrms_sdk
 ms.assetid: aebf46e7-9de2-40e7-a748-0621a61ccb6a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMVerify, DRMVerify function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMVerify, rm.drmverify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,9 @@ For Rights Management Services 1.0, the <b>DRMVerify</b> function verifies data 
 The data to verify (original data).
 
 
-### -param pcAttestedData
+### -param pcAttestedData [in, out]
 
-TBD
+Length, in characters, of the data to verify, plus one for a terminating null character.
 
 
 ### -param wszAttestedData [out]
@@ -88,51 +88,24 @@ The signed data.
 Whether full environment information,  or just a hash of the environment, is included.
 
 
-### -param pcPrincipal
-
-TBD
-
-
-### -param wszPrincipal
-
-TBD
-
-
-### -param pcManifest
-
-TBD
-
-
-### -param wszManifest
-
-TBD
-
-
-
-
-#### - pcManifestChain [in, out]
-
-Size, in characters, of the manifest used to sign the data, plus one for a terminating null character. For information about making a manifest, see <a href="https://msdn.microsoft.com/dc5e2d57-bacc-43cc-8f97-a2962812fa6c">Creating an Application Manifest</a>.
-
-
-#### - pcPrincipalChain [in, out]
+### -param pcPrincipal [in, out]
 
 Size, in characters, of the <i>wszPrincipalCredentials</i> parameter, plus one for a terminating null character.
 
 
-#### - pcStrLenAttestedData [in, out]
-
-Length, in characters, of the data to verify, plus one for a terminating null character.
-
-
-#### - wszManifestChain [out]
-
-The manifest used to sign, as a null-terminated string.
-
-
-#### - wszPrincipalChain [out]
+### -param wszPrincipal [out]
 
 Certificate chain of the principal attesting the data. This chain is needed to create the principal used to verify the data.
+
+
+### -param pcManifest [in, out]
+
+Size, in characters, of the manifest used to sign the data, plus one for a terminating null character. For information about making a manifest, see <a href="https://msdn.microsoft.com/dc5e2d57-bacc-43cc-8f97-a2962812fa6c">Creating an Application Manifest</a>.
+
+
+### -param wszManifest [out]
+
+The manifest used to sign, as a null-terminated string.
 
 
 ## -returns

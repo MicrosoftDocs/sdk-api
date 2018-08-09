@@ -7,7 +7,7 @@ old-location: wmi\chstring_getlength.htm
 old-project: WmiSdk
 ms.assetid: b898f9d1-b9a2-4c7b-a7c0-1b6b51ae565f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: "?GetLength@CHString@@QBEHXZ, ?GetLength@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],GetLength method, CHString.GetLength, CHString::GetLength, GetLength, GetLength method [Windows Management Instrumentation], GetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getlength, chstring/CHString::GetLength, wmi.chstring_getlength"
 ms.prod: windows
 ms.technology: windows-sdk

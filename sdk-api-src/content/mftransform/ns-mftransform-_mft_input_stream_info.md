@@ -7,7 +7,7 @@ old-location: mf\mft_input_stream_info.htm
 old-project: medfound
 ms.assetid: de3d6d70-3525-42a0-bc1a-2625e7ebd918
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFT_INPUT_STREAM_INFO, MFT_INPUT_STREAM_INFO structure [Media Foundation], _MFT_INPUT_STREAM_INFO, de3d6d70-3525-42a0-bc1a-2625e7ebd918, mf.mft_input_stream_info, mftransform/MFT_INPUT_STREAM_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft
 
 ### -field cbSize
 
-
-            The minimum size of each input buffer, in bytes. If the size is variable or the MFT does not require a specific size, the value is zero. For uncompressed audio, the value should be the audio frame size, which you can get from the <a href="https://msdn.microsoft.com/7d304826-ad81-4243-a675-2f55b668b348">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> attribute in the media type.
+The minimum size of each input buffer, in bytes. If the size is variable or the MFT does not require a specific size, the value is zero. For uncompressed audio, the value should be the audio frame size, which you can get from the <a href="https://msdn.microsoft.com/7d304826-ad81-4243-a675-2f55b668b348">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> attribute in the media type.
           
 
 

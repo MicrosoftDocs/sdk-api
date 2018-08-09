@@ -7,7 +7,7 @@ old-location: automat\bstr_userfree.htm
 old-project: automat
 ms.assetid: d15c2f80-abbd-4564-b962-a88a3bb7acb7
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: BSTR_UserFree, BSTR_UserFree function [Automation], _oa96_BSTR_UserFree, automat.bstr_userfree, oaidl/BSTR_UserFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in]
+
+The data used by RPC.
+
+
 #### - pBstr [in]
 
 The object.
-
-
-#### - pFlags [in]
-
-The data used by RPC.
 
 
 ## -returns

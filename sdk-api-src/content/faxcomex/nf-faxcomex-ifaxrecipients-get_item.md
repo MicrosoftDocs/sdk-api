@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0q7h.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxRecipients object [Fax Service],Item property, FaxRecipients.Item, IFaxRecipients.get_Item, IFaxRecipients::get_Item, Item property [Fax Service], Item property [Fax Service],FaxRecipients object, _mfax_faxrecipients.item, fax._mfax_faxrecipients_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a> collection. 
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693479(v=VS.85).aspx">Broadcasting a Fax</a>
+<a href="https://msdn.microsoft.com/82a9e599-35d3-4fca-954f-dbc579c023f5">Broadcasting a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689604(v=VS.85).aspx">FaxRecipients</a>
+<a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689605(v=VS.85).aspx">IFaxRecipients</a>
+<a href="https://msdn.microsoft.com/b2481702-3e83-4b99-87ba-d9af9fdd63aa">IFaxRecipients</a>
  
 
  

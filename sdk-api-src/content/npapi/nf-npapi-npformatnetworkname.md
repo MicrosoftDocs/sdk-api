@@ -7,7 +7,7 @@ old-location: security\npformatnetworkname.htm
 old-project: secauthn
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,8 +150,7 @@ Specifies the average number of characters that will fit on a single line where 
 
 
 
-
-						If the function succeeds, it should return WN_SUCCESS.
+If the function succeeds, it should return WN_SUCCESS.
 					
 
 If the function fails, it should return the following value. All other errors will be ignored, and the unformatted network name will be used.

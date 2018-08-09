@@ -7,7 +7,7 @@ old-location: com\ibindctx_getrunningobjecttable.htm
 old-project: com
 ms.assetid: 26938d07-d772-4e72-a6aa-57dd2f2cece1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable method [COM], GetRunningObjectTable method [COM],IBindCtx interface, IBindCtx interface [COM],GetRunningObjectTable method, IBindCtx.GetRunningObjectTable, IBindCtx::GetRunningObjectTable, _com_ibindctx_getrunningobjecttable, com.ibindctx_getrunningobjecttable, objidl/IBindCtx::GetRunningObjectTable
 ms.prod: windows
 ms.technology: windows-sdk

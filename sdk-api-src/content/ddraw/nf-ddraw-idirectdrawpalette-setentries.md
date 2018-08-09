@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette_setentries.htm
 old-project: directdraw
 ms.assetid: c12247b9-ecb3-4fdf-b25f-373da06df791
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirectDrawPalette.SetEntries, IDirectDrawPalette::SetEntries, SetEntries, SetEntries method [DirectDraw], SetEntries method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::SetEntries, directdraw.idirectdrawpalette_setentries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,6 @@ Changes entries in a DirectDrawPalette object immediately.
 
 
 
-#### - dwCount [in]
-
-Number of palette entries to be changed.
-
-
 #### - dwFlags [in]
 
 Currently not used and must be set to 0.
@@ -78,6 +73,11 @@ Currently not used and must be set to 0.
 #### - dwStartingEntry [in]
 
 First entry to be set.
+
+
+#### - dwCount [in]
+
+Number of palette entries to be changed.
 
 
 #### - lpEntries [in]

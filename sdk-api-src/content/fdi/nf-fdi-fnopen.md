@@ -7,7 +7,7 @@ old-location: winprog\fnopen.htm
 old-project: devnotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,13 +59,9 @@ The <b>FNOPEN</b> macro provides the declaration for the application-defined cal
 
 
 
-### -param fn
+### -param fn [in]
 
-TBD
-
-
-
-
+The name of the file.
 
 
 #### - oflag
@@ -76,11 +72,6 @@ Specifies the type of operations allowed.
 #### - pmode
 
 Specifies the permission mode.
-
-
-#### - pszFile [in]
-
-The name of the file.
 
 
 ## -remarks

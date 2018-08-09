@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob3_replaceremoteprefix.htm
 old-project: bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
 ms.prod: windows
 ms.technology: windows-sdk

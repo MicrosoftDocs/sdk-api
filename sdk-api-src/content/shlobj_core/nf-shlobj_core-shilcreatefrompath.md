@@ -7,7 +7,7 @@ old-location: shell\SHILCreateFromPath.htm
 old-project: shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,14 +77,7 @@ Type: <b>PIDLIST_ABSOLUTE*</b>
 The path in <i>pszPath</i> expressed as a PIDL.
 
 
-### -param rgfInOut
-
-TBD
-
-
-
-
-#### - rgflnOut [in, out, optional]
+### -param rgfInOut [in, out, optional]
 
 Type: <b>DWORD*</b>
 

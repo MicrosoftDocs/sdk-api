@@ -7,7 +7,7 @@ old-location: rras\rasgeterrorstring.htm
 old-project: rras
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,36 +62,19 @@ The
 
 
 
-### -param ResourceId
+### -param ResourceId [in]
 
-TBD
-
-
-### -param lpszString
-
-TBD
+Specifies the error value of interest. These are values returned by one of the RAS functions: those listed in the RasError.h header file.
 
 
-### -param InBufSize
-
-TBD
-
-
-
-
-#### - cBufSize [in]
-
-Specifies the size, in characters, of the buffer pointed to by <i>lpszErrorString</i>.
-
-
-#### - lpszErrorString [out]
+### -param lpszString [out]
 
 Pointer to a buffer that receives the error string. This parameter must not be <b>NULL</b>.
 
 
-#### - uErrorValue [in]
+### -param InBufSize [in]
 
-Specifies the error value of interest. These are values returned by one of the RAS functions: those listed in the RasError.h header file.
+Specifies the size, in characters, of the buffer pointed to by <i>lpszErrorString</i>.
 
 
 ## -returns
@@ -100,7 +83,7 @@ Specifies the error value of interest. These are values returned by one of the R
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="https://msdn.microsoft.com/library/ms629690(v=VS.85).aspx">GetLastError</a> information set by the 
+If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="_win32_getlasterror">GetLastError</a> information set by the 
 <b>RasGetErrorString</b> function.
 
 <table>
@@ -183,11 +166,11 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa366574(v=VS.85).aspx">GlobalAlloc</a>
+<a href="_win32_globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="_win32_loadstring">LoadString</a>
 
 
 

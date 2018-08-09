@@ -7,7 +7,7 @@ old-location: rpc\mesinqprocencodingid.htm
 old-project: rpc
 ms.assetid: b6d73cc3-cd35-4fe7-87e6-ecbfef777c44
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mesinqprocencodingid, midles/MesInqProcEncodingId, rpc.mesinqprocencodingid
 ms.prod: windows
 ms.technology: windows-sdk

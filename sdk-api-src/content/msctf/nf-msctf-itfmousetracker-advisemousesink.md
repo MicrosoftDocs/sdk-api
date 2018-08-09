@@ -7,7 +7,7 @@ old-location: tsf\itfmousetracker_advisemousesink.htm
 old-project: TSF
 ms.assetid: d73b2b9b-8904-4507-9b32-dcb8946fb887
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseMouseSink, AdviseMouseSink method [Text Services Framework], AdviseMouseSink method [Text Services Framework],ITfMouseTracker interface, ITfMouseTracker interface [Text Services Framework],AdviseMouseSink method, ITfMouseTracker.AdviseMouseSink, ITfMouseTracker::AdviseMouseSink, _tsf_itfmousetracker_advisemousesink_ref, msctf/ITfMouseTracker::AdviseMouseSink, tsf.itfmousetracker_advisemousesink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,14 +161,12 @@ The value placed in <i>pdwCookie</i> must be saved and passed to <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/d6e5549e-768d-47af-a553-84430641cda4">
-        ITfMouseSink
+<a href="https://msdn.microsoft.com/d6e5549e-768d-47af-a553-84430641cda4">ITfMouseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1aa4fdb7-b16d-4e58-934a-8323450f6749">
-        ITfMouseSink::OnMouseEvent
+<a href="https://msdn.microsoft.com/1aa4fdb7-b16d-4e58-934a-8323450f6749">ITfMouseSink::OnMouseEvent
       </a>
 
 
@@ -177,8 +175,7 @@ The value placed in <i>pdwCookie</i> must be saved and passed to <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/7707b7ce-662b-43e5-ada4-ba42eec56ede">
-        ITfMouseTracker::UnadviseMouseSink
+<a href="https://msdn.microsoft.com/7707b7ce-662b-43e5-ada4-ba42eec56ede">ITfMouseTracker::UnadviseMouseSink
       </a>
 
 

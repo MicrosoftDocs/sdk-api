@@ -7,7 +7,7 @@ old-location: shell\IEnumPublishedApps_Next.htm
 old-project: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-		Gets the next <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> object in the enumeration.
+Gets the next <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> object in the enumeration.
 		
 
 
@@ -72,8 +71,7 @@ req.product: ADAM
 
 Type: <b><a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a>**</b>
 
-
-          A pointer to an <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> interface reference variable that returns the next application object. Note that the category of the application object returned must match that passed into <a href="https://msdn.microsoft.com/b24c3007-662a-4c42-9ca7-367180152deb">EnumApps</a>.
+A pointer to an <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0e">IPublishedApp</a> interface reference variable that returns the next application object. Note that the category of the application object returned must match that passed into <a href="https://msdn.microsoft.com/b24c3007-662a-4c42-9ca7-367180152deb">EnumApps</a>.
         
 
 
@@ -83,8 +81,7 @@ Type: <b><a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c6093b2c0
 
 Type: <b>HRESULT</b>
 
-
-          Returns S_OK if an item is returned, S_FALSE if there are no more items to enumerate, a COM-defined error value otherwise.
+Returns S_OK if an item is returned, S_FALSE if there are no more items to enumerate, a COM-defined error value otherwise.
         
 
 

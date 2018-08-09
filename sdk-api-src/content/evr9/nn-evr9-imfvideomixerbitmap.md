@@ -7,7 +7,7 @@ old-location: mf\imfvideomixerbitmap.htm
 old-project: medfound
 ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], IMFVideoMixerBitmap interface [Media Foundation],described, evr9/IMFVideoMixerBitmap, mf.imfvideomixerbitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,17 +56,13 @@ Alpha-blends a static bitmap image with the video displayed by the <a href="http
 
 The EVR mixer implements this interface. To get a pointer to the interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a>. The service identifier GUID is MR_VIDEO_MIXER_SERVICE. Call <b>GetService</b> on any of the following objects:
 <ul>
-<li>
-              The <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>, if the topology contains an instance of the EVR.
+<li>The <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>, if the topology contains an instance of the EVR.
             </li>
-<li>
-              The EVR media sink.
+<li>The EVR media sink.
             </li>
-<li>
-              The DirectShow EVR filter.
+<li>The DirectShow EVR filter.
             </li>
-<li>
-              The EVR mixer.
+<li>The EVR mixer.
             </li>
 </ul>If you implement a custom mixer for the EVR, the mixer can optionally expose this interface as a service.
 

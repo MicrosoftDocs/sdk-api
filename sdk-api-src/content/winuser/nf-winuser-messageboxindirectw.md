@@ -7,7 +7,7 @@ old-location: dlgbox\messageboxindirect.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxindirect.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MessageBoxIndirect, MessageBoxIndirect function [Dialog Boxes], MessageBoxIndirectA, MessageBoxIndirectW, _win32_MessageBoxIndirect, _win32_messageboxindirect_cpp, dlgbox.messageboxindirect, winui._win32_messageboxindirect, winuser/MessageBoxIndirect, winuser/MessageBoxIndirectA, winuser/MessageBoxIndirectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,18 +64,11 @@ Creates, displays, and operates a message box. The message box contains applicat
 
 
 
-### -param lpmbp
-
-TBD
-
-
-
-
-#### - lpMsgBoxParams [in]
+### -param lpmbp [in]
 
 Type: <b>const LPMSGBOXPARAMS</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms645402(v=VS.85).aspx">MSGBOXPARAMS</a> structure that contains information used to display the message box. 
+A pointer to a <a href="https://msdn.microsoft.com/4fa1c91a-556f-4a1e-94f6-a2f9609e996c">MSGBOXPARAMS</a> structure that contains information used to display the message box. 
 
 
 ## -returns
@@ -213,7 +206,7 @@ The <b>Yes</b> button was selected.
 
 
 
-When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <b>lpszText</b> and <b>lpszCaption</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms645402(v=VS.85).aspx">MSGBOXPARAMS</a> structure should not be taken from a resource file, because an attempt to load the resource may fail. 
+When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <b>lpszText</b> and <b>lpszCaption</b> members of the <a href="https://msdn.microsoft.com/4fa1c91a-556f-4a1e-94f6-a2f9609e996c">MSGBOXPARAMS</a> structure should not be taken from a resource file, because an attempt to load the resource may fail. 
 
 If you create a message box while a dialog box is present, use a handle to the dialog box as the <i>hWnd</i> parameter. The <i>hWnd</i> parameter should not identify a child window, such as a control in a dialog box. 
 
@@ -229,19 +222,19 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645402(v=VS.85).aspx">MSGBOXPARAMS</a>
+<a href="https://msdn.microsoft.com/4fa1c91a-556f-4a1e-94f6-a2f9609e996c">MSGBOXPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>
+<a href="https://msdn.microsoft.com/aca871a0-4767-4a7d-ab12-6eb7d03577ef">MessageBoxEx</a>
 
 
 

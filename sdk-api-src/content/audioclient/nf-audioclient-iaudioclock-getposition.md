@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclock_getposition.htm
 old-project: CoreAudio
 ms.assetid: 2271bd73-8cb6-4048-a16c-f765d0fae6bd
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetPosition, GetPosition method [Core Audio], GetPosition method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetPosition method, IAudioClock.GetPosition, IAudioClock::GetPosition, IAudioClockGetPosition, audioclient/IAudioClock::GetPosition, coreaudio.iaudioclock_getposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,10 +130,8 @@ Rendering or capture clients that need to expose a clock based on the stream's c
 This method retrieves two correlated stream-position values:
 
 <ul>
-<li>
-            Device position. The client obtains the device position through output parameter <i>pu64Position</i>. This is the stream position of the sample that is currently playing through the speakers (for a rendering stream) or being recorded through the microphone (for a capture stream).</li>
-<li>
-            Performance counter. The client obtains the performance counter through output parameter <i>pu64QPCPosition</i>. This is the counter value that the method obtained by calling the <b>QueryPerformanceCounter</b> function at the time that the audio endpoint device recorded the stream position (<i>*pu64Position</i>). Note that <b>GetPosition</b> converts the counter value to 100-nanosecond time units.</li>
+<li>Device position. The client obtains the device position through output parameter <i>pu64Position</i>. This is the stream position of the sample that is currently playing through the speakers (for a rendering stream) or being recorded through the microphone (for a capture stream).</li>
+<li>Performance counter. The client obtains the performance counter through output parameter <i>pu64QPCPosition</i>. This is the counter value that the method obtained by calling the <b>QueryPerformanceCounter</b> function at the time that the audio endpoint device recorded the stream position (<i>*pu64Position</i>). Note that <b>GetPosition</b> converts the counter value to 100-nanosecond time units.</li>
 </ul>
 The device position is meaningless unless it is combined with the device frequency reported by the <b>IAudioClock::GetFrequency</b> method. The reason is that the units in which the device positions for different streams are expressed might vary according to factors such as whether the stream was opened in shared mode or exclusive mode. However, the frequency <i>f</i> obtained from <b>GetFrequency</b> is always expressed in units that are compatible with those of the device position <i>p</i>. Thus, the stream-relative offset in seconds can always be calculated as <i>p</i>/<i>f</i>.
 

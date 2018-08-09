@@ -7,7 +7,7 @@ old-location: psapi\psapi_ws_watch_information_str.htm
 old-project: psapi
 ms.assetid: 61083366-2a55-431c-807a-3eb85ba0b347
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPSAPI_WS_WATCH_INFORMATION, PPSAPI_WS_WATCH_INFORMATION, PPSAPI_WS_WATCH_INFORMATION structure pointer [PSAPI], PSAPI_WS_WATCH_INFORMATION, PSAPI_WS_WATCH_INFORMATION structure [PSAPI], _PSAPI_WS_WATCH_INFORMATION, _win32_psapi_ws_watch_information_str, base.psapi_ws_watch_information_str, psapi.psapi_ws_watch_information_str, psapi/PPSAPI_WS_WATCH_INFORMATION, psapi/PSAPI_WS_WATCH_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

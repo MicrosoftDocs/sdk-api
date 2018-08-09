@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_put_accname.htm
 old-project: WinAuto
 ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[<a href="https://msdn.microsoft.com/562df006-cbde-407b-b539-f86cb3403a97">IAccessible::put_accName</a> is no longer supported. ]
 
-The <a href="https://msdn.microsoft.com/562df006-cbde-407b-b539-f86cb3403a97">IAccessible::put_accName</a> method is no longer supported. Client applications should use a control-specific workaround, such as the <a href="https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx">SetWindowText</a> function. Servers should return E_NOTIMPL.
+The <a href="https://msdn.microsoft.com/562df006-cbde-407b-b539-f86cb3403a97">IAccessible::put_accName</a> method is no longer supported. Client applications should use a control-specific workaround, such as the <a href="winui._win32_SetWindowText">SetWindowText</a> function. Servers should return E_NOTIMPL.
 
 
 ## -parameters

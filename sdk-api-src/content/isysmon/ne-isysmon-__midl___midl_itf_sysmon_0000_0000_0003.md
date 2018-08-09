@@ -7,7 +7,7 @@ old-location: sysmon\sysmonbatchreason.htm
 old-project: sysmon
 ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/30/2018
 ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, SysmonBatchReason, SysmonBatchReason enumeration [SysMon], __MIDL___MIDL_itf_sysmon_0000_0000_0003, isysmon/SysmonBatchAddCounters, isysmon/SysmonBatchAddFiles, isysmon/SysmonBatchNone, isysmon/SysmonBatchReason, sysmon.sysmonbatchreason
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,10 +73,9 @@ Defines the reason for locking the System Monitor.
 
 
 
-#### - SysmonBatchAddCounters
+#### - SysmonBatchNone
 
-Prevents the System Monitor from sampling the counter immediately when you use <a href="https://msdn.microsoft.com/9daecfe6-c2a9-48af-8b59-4f81f0325535">ICounters.Add</a> to add a counter to the 
-collection.
+Use to free all locks. Typically, you call <a href="https://msdn.microsoft.com/6b9d683a-7a97-44a4-9eb6-6caaafe2abdd">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
 
 
 #### - SysmonBatchAddFiles
@@ -85,9 +84,10 @@ Prevents the System Monitor from sampling the file immediately when you use <a h
 collection.
 
 
-#### - SysmonBatchNone
+#### - SysmonBatchAddCounters
 
-Use to free all locks. Typically, you call <a href="https://msdn.microsoft.com/6b9d683a-7a97-44a4-9eb6-6caaafe2abdd">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
+Prevents the System Monitor from sampling the counter immediately when you use <a href="https://msdn.microsoft.com/9daecfe6-c2a9-48af-8b59-4f81f0325535">ICounters.Add</a> to add a counter to the 
+collection.
 
 
 ## -see-also

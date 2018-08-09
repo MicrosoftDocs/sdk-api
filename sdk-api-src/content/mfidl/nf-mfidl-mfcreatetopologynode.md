@@ -7,7 +7,7 @@ old-location: mf\mfcreatetopologynode.htm
 old-project: medfound
 ms.assetid: 67c32232-09cb-4098-b80b-4b93ee121190
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 67c32232-09cb-4098-b80b-4b93ee121190, MFCreateTopologyNode, MFCreateTopologyNode function [Media Foundation], mf.mfcreatetopologynode, mfidl/MFCreateTopologyNode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a topology node.
+Creates a topology node.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: GDI+ 1.1
 
 ### -param NodeType [in]
 
-
-            The type of node to create, specified as a member of the <a href="https://msdn.microsoft.com/73ea1f48-0d86-4104-860c-83a4f9189920">MF_TOPOLOGY_TYPE</a> enumeration.
+The type of node to create, specified as a member of the <a href="https://msdn.microsoft.com/73ea1f48-0d86-4104-860c-83a4f9189920">MF_TOPOLOGY_TYPE</a> enumeration.
 
 
 ### -param ppNode [out]
 
-
-            Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the interface.
+Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the interface.
           
 
 

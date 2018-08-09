@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: c491b2d0-6426-4a76-b3a1-4477fdf1779c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPBDA_EIT.GetRecordCountOfDescriptors, IPBDA_EIT::GetRecordCountOfDescriptors, dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors, mstv.ipbda_eit_getrecordcountofdescriptors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets the number of event records from an  event information table (EIT) in a Pro
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the service record number, indexed from zero.
+Specifies the service record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/7f09421d-ae19-4c8e-93a2-31fa8697742a">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 

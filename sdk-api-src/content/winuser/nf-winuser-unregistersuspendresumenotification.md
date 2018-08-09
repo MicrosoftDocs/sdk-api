@@ -4,10 +4,10 @@ title: UnregisterSuspendResumeNotification function
 author: windows-sdk-content
 description: Cancels a registration to receive notification when the system is suspended or resumed. Similar to PowerUnregisterSuspendResumeNotification but operates in user mode.
 old-location: base\unregistersuspendresumenotification.htm
-old-project: Power
+old-project: power
 ms.assetid: d9307452-9670-4e9c-9df8-6a3b41d0bd2e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UnregisterSuspendResumeNotification, UnregisterSuspendResumeNotification function, base.unregistersuspendresumenotification, winuser/UnregisterSuspendResumeNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Cancels a registration to receive notification when the system is suspended or r
 
 
 
-### -param Handle
-
-TBD
-
-
-
-
-#### - RegistrationHandle [in, out]
+### -param Handle [in, out]
 
 A handle to a registration obtained by calling the <a href="https://msdn.microsoft.com/6cd42d32-07e9-4cbd-83f9-6146b1cb54db">RegisterSuspendResumeNotification</a> function.
 

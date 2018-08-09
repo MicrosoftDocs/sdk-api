@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_pop.htm
 old-project: TSF
 ms.assetid: bbf65d8d-5a59-4c4b-a132-fa28babcd70b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfDocumentMgr.Pop, ITfDocumentMgr::Pop, Pop, Pop method [Text Services Framework], Pop method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,14 +151,12 @@ This method causes the <a href="https://msdn.microsoft.com/de07d7cf-db91-44e0-a0
 
 
 
-<a href="https://msdn.microsoft.com/de07d7cf-db91-44e0-a0b2-4de26262552f">
-        ITfThreadMgrEventSink::OnPopContext
+<a href="https://msdn.microsoft.com/de07d7cf-db91-44e0-a0b2-4de26262552f">ITfThreadMgrEventSink::OnPopContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/da4532e4-aa00-41af-8dfc-1880dc5b3b22">
-        ITfThreadMgrEventSink::OnUninitDocumentMgr
+<a href="https://msdn.microsoft.com/da4532e4-aa00-41af-8dfc-1880dc5b3b22">ITfThreadMgrEventSink::OnUninitDocumentMgr
       </a>
  
 

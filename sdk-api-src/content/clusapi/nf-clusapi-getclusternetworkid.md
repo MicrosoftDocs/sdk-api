@@ -7,7 +7,7 @@ old-location: mscs\getclusternetworkid.htm
 old-project: mscs
 ms.assetid: 25091883-12fa-41b6-9ac0-70bc22db3f05
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: GetClusterNetworkId, GetClusterNetworkId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NETWORK_ID, PCLUSAPI_GET_CLUSTER_NETWORK_ID function [Failover Cluster], _wolf_getclusternetworkid, clusapi/GetClusterNetworkId, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_ID, mscs.getclusternetworkid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ Handle to a network.
 Pointer to the identifier of the network associated with <i>hNetwork</i>, including the null-terminating character.
 
 
-### -param lpcchName
-
-TBD
-
-
-
-
-#### - lpcchNetworkId [in, out]
+### -param lpcchName [in, out]
 
 Pointer to the size of the <i>lpszNetworkID</i> buffer as a count of characters. On input, specify the maximum number of characters the buffer can hold, including the terminating <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding the terminating <b>NULL</b>.
 

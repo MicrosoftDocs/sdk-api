@@ -7,7 +7,7 @@ old-location: fs\truncatelog.htm
 old-project: Clfs
 ms.assetid: 76ef1a01-ba5c-4419-ac2f-4ba53dcc5bc4
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog
 ms.prod: windows
 ms.technology: windows-sdk

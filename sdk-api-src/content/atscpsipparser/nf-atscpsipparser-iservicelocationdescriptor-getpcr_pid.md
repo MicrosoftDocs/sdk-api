@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getpcr_pid.htm
 old-project: mstv
 ms.assetid: a81a2218-3c44-4b17-a5cb-bb68d10da977
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetPCR_PID, GetPCR_PID method [Microsoft TV Technologies], GetPCR_PID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetPCR_PID method, IServiceLocationDescriptor.GetPCR_PID, IServiceLocationDescriptor::GetPCR_PID, atscpsipparser/IServiceLocationDescriptor::GetPCR_PID, mstv.iservicelocationdescriptor_getpcr_pid
 ms.prod: windows
 ms.technology: windows-sdk

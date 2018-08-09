@@ -4,10 +4,10 @@ title: "_RM_APP_TYPE"
 author: windows-sdk-content
 description: Specifies the type of application that is described by the RM_PROCESS_INFO structure.
 old-location: rstmgr\rm_app_type.htm
-old-project: RstMgr
+old-project: rstmgr
 ms.assetid: f980b11c-8de1-45dc-b514-8f4cf571afa6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RM_APP_TYPE, RmConsole, RmCritical, RmExplorer, RmMainWindow, RmOtherWindow, RmService, RmUnknownApp, _RM_APP_TYPE, _RM_APP_TYPE enumeration [Restart Mgr], restartmanager/RmConsole, restartmanager/RmCritical, restartmanager/RmExplorer, restartmanager/RmMainWindow, restartmanager/RmOtherWindow, restartmanager/RmService, restartmanager/RmUnknownApp, restartmanager/_RM_APP_TYPE, rstmgr.rm_app_type
 ms.prod: windows
 ms.technology: windows-sdk

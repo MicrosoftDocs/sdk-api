@@ -7,7 +7,7 @@ old-location: mf\mfasf_multiplexerflags.htm
 old-project: medfound
 ms.assetid: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44, MFASF_MULTIPLEXERFLAGS, MFASF_MULTIPLEXERFLAGS enumeration [Media Foundation], MFASF_MULTIPLEXER_AUTOADJUST_BITRATE, enumeration [Media Foundation], mf.mfasf_multiplexerflags, wmcontainer/MFASF_MULTIPLEXERFLAGS, wmcontainer/MFASF_MULTIPLEXER_AUTOADJUST_BITRATE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\iassociatedidentityprovider_disassociateidentity.htm
 old-project: secauthn
 ms.assetid: 6e89b558-bb58-4ef9-86f5-447d5cb0a946
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: DisassociateIdentity, DisassociateIdentity method [Security], DisassociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],DisassociateIdentity method, IAssociatedIdentityProvider.DisassociateIdentity, IAssociatedIdentityProvider::DisassociateIdentity, identityprovider/IAssociatedIdentityProvider::DisassociateIdentity, identitystore/IAssociatedIdentityProvider::DisassociateIdentity, security.iassociatedidentityprovider_disassociateidentity
 ms.prod: windows
 ms.technology: windows-sdk

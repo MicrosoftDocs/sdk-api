@@ -7,7 +7,7 @@ old-location: oprec\operation_start_parameters.htm
 old-project: oprec
 ms.assetid: 51AE0017-2CDE-4BCD-AE03-B366343DE558
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: "*POPERATION_START_PARAMETERS, OPERATION_API_VERSION, OPERATION_START_PARAMETERS, OPERATION_START_PARAMETERS structure [Operation Recorder], OPERATION_START_TRACE_CURRENT_THREAD, POPERATION_START_PARAMETERS, POPERATION_START_PARAMETERS structure pointer [Operation Recorder], _OPERATION_START_PARAMETERS, oprec.operation_start_parameters, winbase/OPERATION_START_PARAMETERS, winbase/POPERATION_START_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

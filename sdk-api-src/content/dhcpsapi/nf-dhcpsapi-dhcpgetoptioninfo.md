@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetoptioninfo.htm
 old-project: dhcp
 ms.assetid: b62b0a07-3043-417d-affe-d3a350907f4e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetOptionInfo, DhcpGetOptionInfo function [DHCP], dhcp.dhcpgetoptioninfo, dhcpsapi/DhcpGetOptionInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,8 +122,7 @@ The specified option definition could not be found in the DHCP server database.
 
 
 
-<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">
-        DHCP_OPTION</a>
+<a href="https://msdn.microsoft.com/1be34eb4-a226-4f07-b763-173a4f8a0671">DHCP_OPTION</a>
 
 
 

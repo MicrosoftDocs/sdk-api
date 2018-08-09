@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetAttributeValueConPat.htm
 old-project: WinAuto
 ms.assetid: f5d90dba-7c84-45a8-be84-898d6079c428
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TextRange_GetAttributeValue, TextRange_GetAttributeValue function [Windows Accessibility], uiauto.uiauto_TextRange_GetAttributeValueConPat, uiauto_TextRange_GetAttributeValueConPat, uiautomationcoreapi/TextRange_GetAttributeValue, winauto.uiauto_TextRange_GetAttributeValueConPat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ Type: <b>HUIATEXTRANGE</b>
 A text range object.
 
 
-### -param attributeId
+### -param attributeId [in]
 
-TBD
+Type: <b>TEXTATTRIBUTEID</b>
+
+The text attribute whose value is wanted. For a list of text attribute IDs, see <a href="https://msdn.microsoft.com/67d86817-6a3f-4047-88d9-34f33f52a563">Text Attribute Identifiers</a>.
 
 
 ### -param pRetVal [out]
@@ -78,13 +80,6 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">
 When this function returns, contains 
 				the value of the attribute for the text range.
 				This parameter is passed uninitialized.
-
-
-#### - attributeID [in]
-
-Type: <b>TEXTATTRIBUTEID</b>
-
-The text attribute whose value is wanted. For a list of text attribute IDs, see <a href="https://msdn.microsoft.com/67d86817-6a3f-4047-88d9-34f33f52a563">Text Attribute Identifiers</a>.
 
 
 ## -returns

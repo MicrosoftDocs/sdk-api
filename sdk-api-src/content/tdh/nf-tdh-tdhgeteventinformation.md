@@ -7,7 +7,7 @@ old-location: etw\tdhgeteventinformation_func.htm
 old-project: ETW
 ms.assetid: 81542550-79aa-4d67-a472-ac3ee3a3ce63
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhGetEventInformation, TdhGetEventInformation function [ETW], etw.tdhgeteventinformation_func, tdh.tdhgeteventinformation_func, tdh/TdhGetEventInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Retrieves metadata about an event.
 
 
 
-### -param Event
+### -param Event [in]
 
-TBD
+The event record passed to your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback. For details, see the <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure.
 
 
 ### -param TdhContextCount [in]
@@ -71,41 +71,19 @@ TBD
 Number of elements in <i>pTdhContext</i>.
 
 
-### -param TdhContext
+### -param TdhContext [in]
 
-TBD
-
-
-### -param Buffer
-
-TBD
+Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://msdn.microsoft.com/184df0af-3ac5-406f-a298-4f23826ad85e">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
 
 
-### -param BufferSize
-
-TBD
-
-
-
-
-#### - pBuffer [out]
+### -param Buffer [out]
 
 User-allocated buffer to receive the event information. For details, see the <a href="https://msdn.microsoft.com/ecf57a23-0dd2-4954-82ac-e92f651c226f">TRACE_EVENT_INFO</a> structure.
 
 
-#### - pBufferSize [in, out]
+### -param BufferSize [in, out]
 
 Size, in bytes, of the <i>pBuffer</i> buffer. If the function succeeds, this parameter receives the size of the buffer used. If the buffer is too small, the function returns ERROR_INSUFFICIENT_BUFFER and sets this parameter to the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and this parameter receives the required buffer size.
-
-
-#### - pEvent [in]
-
-The event record passed to your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback. For details, see the <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure.
-
-
-#### - pTdhContext [in]
-
-Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://msdn.microsoft.com/184df0af-3ac5-406f-a298-4f23826ad85e">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
 
 
 ## -returns

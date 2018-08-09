@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::GetFileStreamInterface
 author: windows-sdk-content
 description: Retrieves a file stream interface that you can use to access the contents of the file.
 old-location: fsrm\ifsrmpropertybag_getfilestreaminterface.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: GetFileStreamInterface, GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileStreamInterface method, IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
 ms.prod: windows
 ms.technology: windows-sdk

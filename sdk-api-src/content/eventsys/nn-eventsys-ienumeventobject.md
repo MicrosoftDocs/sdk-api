@@ -7,7 +7,7 @@ old-location: cos\ienumeventobject.htm
 old-project: cossdk
 ms.assetid: a42d0791-28d0-4d83-b94d-ff2f8ef9a614
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObject interface [COM+],described, _cos_ienumeventobject, cos.ienumeventobject, eventsys/IEnumEventObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,6 @@ The <b>IEnumEventObject</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
 Creates an enumerator that contains the same enumeration state as the current one.
 
 </td>
@@ -86,7 +85,6 @@ Creates an enumerator that contains the same enumeration state as the current on
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
 </td>
 <td align="left" width="63%">
-
 Retrieves the specified number of items in the enumeration sequence.
 
 </td>
@@ -96,7 +94,6 @@ Retrieves the specified number of items in the enumeration sequence.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-
 Resets the enumeration sequence to the beginning.
 
 </td>
@@ -106,7 +103,6 @@ Resets the enumeration sequence to the beginning.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
 </td>
 <td align="left" width="63%">
-
 Skips over the specified number of items in the enumeration sequence.
 
 </td>

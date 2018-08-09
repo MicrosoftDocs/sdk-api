@@ -7,7 +7,7 @@ old-location: shell\PtrdiffTAdd.htm
 old-project: shell
 ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
 ms.prod: windows
 ms.technology: windows-sdk

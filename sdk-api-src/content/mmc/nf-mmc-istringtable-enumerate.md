@@ -7,7 +7,7 @@ old-location: mmc\istringtable_enumerate.htm
 old-project: MMC
 ms.assetid: 3d23e29d-a80f-4710-8285-c9e64fd580a1
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Enumerate, Enumerate method [MMC], Enumerate method [MMC],IStringTable interface, IStringTable interface [MMC],Enumerate method, IStringTable.Enumerate, IStringTable::Enumerate, _slate_istringtable_enumerate, mmc.istringtable_enumerate, mmc/IStringTable::Enumerate
 ms.prod: windows
 ms.technology: windows-sdk

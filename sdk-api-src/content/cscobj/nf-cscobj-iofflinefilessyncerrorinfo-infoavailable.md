@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm
 old-project: offlinefiles
 ms.assetid: f4a491fb-445b-4a90-9131-e0e5964154fa
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoAvailable method, IOfflineFilesSyncErrorInfo.InfoAvailable, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
-   
+Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
 
 
 ## -parameters

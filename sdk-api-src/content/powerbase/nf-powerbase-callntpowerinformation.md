@@ -7,7 +7,7 @@ old-location: base\callntpowerinformation.htm
 old-project: power
 ms.assetid: adc0052d-e2dd-4c55-996c-6af8f5987d79
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInformation function, LastSleepTime, LastWakeTime, ProcessorInformation, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, SystemBatteryState, SystemExecutionState, SystemPowerCapabilities, SystemPowerInformation, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemReserveHiberFile, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, _win32_callntpowerinformation, base.callntpowerinformation, powerbase/CallNtPowerInformation, powrprof/CallNtPowerInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -376,47 +376,25 @@ This information level is not supported.
  
 
 
-### -param InputBuffer
-
-TBD
-
-
-### -param InputBufferLength
-
-TBD
-
-
-### -param OutputBuffer
-
-TBD
-
-
-### -param OutputBufferLength
-
-TBD
-
-
-
-
-#### - lpInputBuffer [in]
+### -param InputBuffer [in]
 
 A pointer to an optional input buffer. The data type of this buffer depends on the information level 
       requested in the <i>InformationLevel</i> parameter.
 
 
-#### - lpOutputBuffer [out]
+### -param InputBufferLength [in]
+
+The size of the input buffer, in bytes.
+
+
+### -param OutputBuffer [out]
 
 A pointer to an optional output buffer. The data type of this buffer depends on the information level 
       requested in the <i>InformationLevel</i> parameter. If the buffer is too small to contain the 
       information, the function returns STATUS_BUFFER_TOO_SMALL.
 
 
-#### - nInputBufferSize [in]
-
-The size of the input buffer, in bytes.
-
-
-#### - nOutputBufferSize [in]
+### -param OutputBufferLength [in]
 
 The size of the output buffer, in bytes. Depending on the information level requested, this may be a 
       variably sized buffer.

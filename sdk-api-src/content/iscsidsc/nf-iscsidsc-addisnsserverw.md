@@ -7,7 +7,7 @@ old-location: iscsidisc\addisnsserver.htm
 old-project: iSCSIDisc
 ms.assetid: c01f00f9-2929-4745-a60b-89ab1143a084
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddISNSServerW, AddIsnsServer, AddIsnsServer function [iSCSI Discovery Library API], AddIsnsServerA, AddIsnsServerW, iscsidisc.addisnsserver, iscsidsc/AddIsnsServer, iscsidsc/AddIsnsServerA, iscsidsc/AddIsnsServerW
 ms.prod: windows
 ms.technology: windows-sdk

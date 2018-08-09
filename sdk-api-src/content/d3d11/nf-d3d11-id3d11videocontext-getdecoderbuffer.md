@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_getdecoderbuffer.htm
 old-project: medfound
 ms.assetid: 6842D5D7-6165-4428-91BD-2234BE5332B8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetDecoderBuffer, GetDecoderBuffer method [Media Foundation], GetDecoderBuffer method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetDecoderBuffer method, ID3D11VideoContext.GetDecoderBuffer, ID3D11VideoContext::GetDecoderBuffer, d3d11/ID3D11VideoContext::GetDecoderBuffer, mf.id3d11videocontext_getdecoderbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The graphics driver allocates the buffers that are used for decoding. This method locks the Microsoft Direct3D
- surface that contains the buffer. When you are done using the buffer, call <a href="https://msdn.microsoft.com/C7BD4CA6-706D-4C3A-AED1-EDF1C65E41E0">ID3D11VideoContext::ReleaseDecoderBuffer</a> to unlock the surface.
+The graphics driver allocates the buffers that are used for decoding. This method locks the Microsoft Direct3Dsurface that contains the buffer. When you are done using the buffer, call <a href="https://msdn.microsoft.com/C7BD4CA6-706D-4C3A-AED1-EDF1C65E41E0">ID3D11VideoContext::ReleaseDecoderBuffer</a> to unlock the surface.
 
 
 

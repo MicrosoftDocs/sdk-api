@@ -7,7 +7,7 @@ old-location: controls\ListView_GetInsertMark.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetInsertMark, ListView_GetInsertMark macro [Windows Controls], _win32_ListView_GetInsertMark, _win32_ListView_GetInsertMark_cpp, commctrl/ListView_GetInsertMark, controls.ListView_GetInsertMark, controls._win32_ListView_GetInsertMark
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the position of the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774945(v=VS.85).aspx">LVM_GETINSERTMARK</a> message explicitly. 
+Gets the position of the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/ad00df4c-4b4b-48f1-8821-7849a216df2e">LVM_GETINSERTMARK</a> message explicitly. 
 
 
 ## -parameters
@@ -67,24 +67,15 @@ A handle to the list-view control.
 
 ### -param lvim
 
-TBD
-
-
-
-
-
-
-#### - plvim
-
 Type: <b>PLVINSERTMARK</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774758(v=VS.85).aspx">LVINSERTMARK</a>
+<a href="https://msdn.microsoft.com/61af07a1-34b1-4780-b36e-765e80783116">LVINSERTMARK</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetInsertMark</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetInsertMark</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

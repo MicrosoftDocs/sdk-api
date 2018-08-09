@@ -7,7 +7,7 @@ old-location: base\imagegetcertificateheader.htm
 old-project: debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ A handle to the image file. This handle must be opened for FILE_READ_DATA access
 The index of the certificate whose header is to be returned.
 
 
-### -param Certificateheader
-
-TBD
-
-
-
-
-#### - CertificateHeader [in, out]
+### -param Certificateheader [in, out]
 
 A pointer to the <b>WIN_CERTIFICATE</b> structure that receives the certificate header.
 

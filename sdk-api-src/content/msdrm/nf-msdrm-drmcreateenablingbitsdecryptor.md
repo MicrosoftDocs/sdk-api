@@ -7,7 +7,7 @@ old-location: rm\drmcreateenablingbitsdecryptor.htm
 old-project: adrms_sdk
 ms.assetid: 133582e2-6396-476f-a28b-37ed0257fb79
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMCreateEnablingBitsDecryptor, DRMCreateEnablingBitsDecryptor function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingBitsDecryptor, rm.drmcreateenablingbitsdecryptor
 ms.prod: windows
 ms.technology: windows-sdk

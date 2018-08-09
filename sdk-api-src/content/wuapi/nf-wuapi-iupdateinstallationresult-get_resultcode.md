@@ -4,10 +4,10 @@ title: IUpdateInstallationResult::get_ResultCode
 author: windows-sdk-content
 description: Gets an OperationResultCode value that specifies the result of an operation on an update.
 old-location: wua\iupdateinstallationresult_resultcode.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: d254b49e-fef2-4f46-a013-df736cd94cb3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],ResultCode property, IUpdateInstallationResult.ResultCode, IUpdateInstallationResult.get_ResultCode, IUpdateInstallationResult::ResultCode, IUpdateInstallationResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IUpdateInstallationResult interface, get_ResultCode, wua.iupdateinstallationresult_resultcode, wuapi/IUpdateInstallationResult::ResultCode, wuapi/IUpdateInstallationResult::get_ResultCode
 ms.prod: windows
 ms.technology: windows-sdk

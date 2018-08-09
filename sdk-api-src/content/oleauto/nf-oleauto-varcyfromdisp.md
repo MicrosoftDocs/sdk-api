@@ -7,7 +7,7 @@ old-location: automat\varcyfromdisp.htm
 old-project: automat
 ms.assetid: 197f2169-2d32-429e-a338-717e7bf43d1e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarCyFromDisp, VarCyFromDisp function [Automation], _oa96_VarCyFromDisp, automat.varcyfromdisp, oleauto/VarCyFromDisp
 ms.prod: windows
 ms.technology: windows-sdk

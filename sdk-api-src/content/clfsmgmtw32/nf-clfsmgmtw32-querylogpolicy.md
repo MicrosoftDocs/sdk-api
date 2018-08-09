@@ -7,7 +7,7 @@ old-location: fs\querylogpolicy.htm
 old-project: Clfs
 ms.assetid: 45bed7c7-132e-48f9-8b9a-d8cb1580f456
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryLogPolicy, fs.querylogpolicy
 ms.prod: windows
 ms.technology: windows-sdk

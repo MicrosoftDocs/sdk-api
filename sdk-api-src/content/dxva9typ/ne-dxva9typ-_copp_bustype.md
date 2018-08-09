@@ -7,7 +7,7 @@ old-location: dshow\copp_bustype.htm
 old-project: DirectShow
 ms.assetid: eb3666bd-1987-419f-8d48-0dbca147bf7e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: COPP_BusType, COPP_BusType , COPP_BusType enumeration [DirectShow], COPP_BusTypeEnumeration, COPP_BusType_AGP, COPP_BusType_ForceDWORD, COPP_BusType_Integrated, COPP_BusType_PCI, COPP_BusType_PCIExpress, COPP_BusType_PCIX, COPP_BusType_Unknown, _COPP_BusType, dshow.copp_bustype, dxva9typ/COPP_BusType, dxva9typ/COPP_BusType_AGP, dxva9typ/COPP_BusType_ForceDWORD, dxva9typ/COPP_BusType_Integrated, dxva9typ/COPP_BusType_PCI, dxva9typ/COPP_BusType_PCIExpress, dxva9typ/COPP_BusType_PCIX, dxva9typ/COPP_BusType_Unknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,50 +64,43 @@ Specifies the type of I/O bus used by the graphics adapter.
 
 ### -field COPP_BusType_Unknown
 
-
-            Unknown bus type.
+Unknown bus type.
           
 
 
 ### -field COPP_BusType_PCI
 
-
-            PCI bus.
+PCI bus.
           
 
 
 ### -field COPP_BusType_PCIX
 
-
-            PCI-X bus.
+PCI-X bus.
           
 
 
 ### -field COPP_BusType_PCIExpress
 
-
-            PCI Express bus.
+PCI Express bus.
           
 
 
 ### -field COPP_BusType_AGP
 
-
-            AGP bus.
+AGP bus.
           
 
 
 ### -field COPP_BusType_Integrated
 
-
-            Integrated bus. This flag can be combined with the other flags. This flag indicates that the command and status signals between the graphics adapter and other subsystems on the computer are not available on an expansion bus that has a public specification and standard connector type, unless it is a memory bus.
+Integrated bus. This flag can be combined with the other flags. This flag indicates that the command and status signals between the graphics adapter and other subsystems on the computer are not available on an expansion bus that has a public specification and standard connector type, unless it is a memory bus.
           
 
 
 ### -field COPP_BusType_ForceDWORD
 
-
-            Reserved.
+Reserved.
           
 
 

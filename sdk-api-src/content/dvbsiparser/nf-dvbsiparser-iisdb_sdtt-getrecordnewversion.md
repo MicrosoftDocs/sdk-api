@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordnewversion.htm
 old-project: mstv
 ms.assetid: 0a121a8b-10fd-4f78-922a-6be704c2cab4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordNewVersion, GetRecordNewVersion method [Microsoft TV Technologies], GetRecordNewVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordNewVersion method, IISDB_SDTT.GetRecordNewVersion, IISDB_SDTT::GetRecordNewVersion, dvbsiparser/IISDB_SDTT::GetRecordNewVersion, mstv.iisdb_sdtt_getrecordnewversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns a new version_number field value from a subtable
+Returns a new version_number field value from a subtable
   within an
   Integrated Services Digital Broadcasting (ISDB) software download
   trigger table
@@ -66,17 +65,14 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">IISDB_SDTT::GetCountOfRecords</a>
-  method to get the number of records in the SDTT.
+Specifies the record number,
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">IISDB_SDTT::GetCountOfRecords</a>method to get the number of records in the SDTT.
 
 
 
 ### -param pwVal [out]
 
-
-  Receives the new version_number field value.
+Receives the new version_number field value.
 
 
 
@@ -98,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd694352(v=VS.85).aspx">IISDB_SDTT::GetCountOfRecords</a>
+<a href="iisdb_sdtt::getcountofrecords">IISDB_SDTT::GetCountOfRecords</a>
  
 
  

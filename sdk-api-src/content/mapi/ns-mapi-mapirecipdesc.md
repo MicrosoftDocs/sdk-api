@@ -7,7 +7,7 @@ old-location: mapi\mapirecipdesc.htm
 old-project: windowsmapi
 ms.assetid: 1457617f-de55-4875-91f5-afddee84b782
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/07/2018
 ms.keywords: "*lpMapiRecipDesc, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDesc, MapiRecipDesc structure, lpMapiRecipDesc, lpMapiRecipDesc structure pointer, mapi.mapirecipdesc, mapi/MapiRecipDesc, mapi/lpMapiRecipDesc"
 ms.prod: windows
 ms.technology: windows-sdk

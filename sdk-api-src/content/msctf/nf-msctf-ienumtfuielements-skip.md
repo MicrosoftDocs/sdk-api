@@ -7,7 +7,7 @@ old-location: tsf\ienumtfuielements_skip.htm
 old-project: TSF
 ms.assetid: 44ba8fb1-e702-4f53-b95a-719b4fdfcaa0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Skip method, IEnumTfUIElements.Skip, IEnumTfUIElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Skip, tsf.ienumtfuielements_skip
 ms.prod: windows
 ms.technology: windows-sdk

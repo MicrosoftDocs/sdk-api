@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessor_getcreationparameters.htm
 old-project: medfound
 ms.assetid: e9ea3311-8642-4651-b9da-fbba08ec92fb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetCreationParameters method, IDirectXVideoProcessor.GetCreationParameters, IDirectXVideoProcessor::GetCreationParameters, dxva2api/IDirectXVideoProcessor::GetCreationParameters, e9ea3311-8642-4651-b9da-fbba08ec92fb, mf.idirectxvideoprocessor_getcreationparameters
 ms.prod: windows
 ms.technology: windows-sdk

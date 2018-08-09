@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_put_securitydescriptor.htm
 old-project: tapi
 ms.assetid: 1a6fe823-c794-4b6c-af51-ef03efe62606
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],put_SecurityDescriptor method, ITDirectoryObject.put_SecurityDescriptor, ITDirectoryObject::put_SecurityDescriptor, _tapi3_itdirectoryobject_put_securitydescriptor, put_SecurityDescriptor, put_SecurityDescriptor method [TAPI 2.2], put_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::put_SecurityDescriptor, tapi3.itdirectoryobject_put_securitydescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

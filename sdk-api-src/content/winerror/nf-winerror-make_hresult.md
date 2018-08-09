@@ -7,7 +7,7 @@ old-location: com\make_hresult_macro.htm
 old-project: com
 ms.assetid: f9624cbd-35a4-4e44-a796-cf463366299a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MAKE_HRESULT, MAKE_HRESULT macro [COM], _com_MAKE_HRESULT, com.make_hresult, com.make_hresult_macro, dmerror/MAKE_HRESULT
 ms.prod: windows
 ms.technology: windows-sdk

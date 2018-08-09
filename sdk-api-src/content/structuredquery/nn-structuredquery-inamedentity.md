@@ -7,7 +7,7 @@ old-location: search\_search_INamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\inamedentity.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search],described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>INamedEntity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231362(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://msdn.microsoft.com/b502c6fd-6b17-4abf-9a88-0ba168ff41f3">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
 Retrieves a default phrase to use for this named entity in restatements.

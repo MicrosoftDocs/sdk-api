@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr.htm
 old-project: TSF
 ms.assetid: a7fa257f-e600-4554-8b23-f73323f37e69
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], ITfLangBarItemMgr interface [Text Services Framework],described, _tsf_itflangbaritemmgr_ref, ctfutb/ITfLangBarItemMgr, tsf.itflangbaritemmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 The <b>ITfLangBarItemMgr</b> interface is implemented by the language bar and used by a text service to manage items in the language bar.
 
-A text service obtains an instance of this interface by calling ITfThreadMgr::QueryInterface with IID_ITfLangBarItemMgr. An instance of this interface can also be created by calling <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_LangBarItemMgr.
+A text service obtains an instance of this interface by calling ITfThreadMgr::QueryInterface with IID_ITfLangBarItemMgr. An instance of this interface can also be created by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with CLSID_TF_LangBarItemMgr.
 
 
 ## -inheritance
@@ -186,7 +186,7 @@ Removes one or more language bar item event sinks.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -194,7 +194,7 @@ Removes one or more language bar item event sinks.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

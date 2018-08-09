@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_popupcorrectionheight.htm
 old-project: tablet
 ms.assetid: 986b7527-c634-45d9-a2eb-86fa999e57ba
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 986b7527-c634-45d9-a2eb-86fa999e57ba, ITextInputPanel interface [Tablet PC],PopUpCorrectionHeight property, ITextInputPanel.PopUpCorrectionHeight, ITextInputPanel.get_PopUpCorrectionHeight, ITextInputPanel::PopUpCorrectionHeight, ITextInputPanel::get_PopUpCorrectionHeight, PopUpCorrectionHeight property [Tablet PC], PopUpCorrectionHeight property [Tablet PC],ITextInputPanel interface, get_PopUpCorrectionHeight, peninputpanel/ITextInputPanel::PopUpCorrectionHeight, peninputpanel/ITextInputPanel::get_PopUpCorrectionHeight, tablet.itextinputpanel_popupcorrectionheight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  
-		In Windows 7, this function will always return the height as 0.
+<div class="alert"><b>Note</b>  In Windows 7, this function will always return the height as 0.
 		</div>
 <div> </div>
 To get the full height of the in-place Input Panel with the Post-Insertion correction comb popped-up, add the height of the <a href="https://msdn.microsoft.com/9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb">ITextInputPanel::InPlaceBoundingRectangle Property</a> to the <b>ITextInputPanel::PopUpCorrectionHeight Property</b>.

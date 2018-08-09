@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo.
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getoutputconnectorinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetOutputConnectorInfo, GetOutputConnectorInfo method [WPF Bitmap Effects], GetOutputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetOutputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
+Retrieves the <a href="https://msdn.microsoft.com/18f9260d-b7cd-4b45-a7bd-f3bd3647eebe">IMILBitmapEffectConnectorInfo</a> associated with the given output pin.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A zero based index value indicating which output pin to query for connector info
 
 ### -param ppConnectorInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/18f9260d-b7cd-4b45-a7bd-f3bd3647eebe">IMILBitmapEffectConnectorInfo</a>**</b>
 
 When this method returns, contain the connector information for the given output pin.
 

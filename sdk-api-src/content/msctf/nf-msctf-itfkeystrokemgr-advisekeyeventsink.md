@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_advisekeyeventsink.htm
 old-project: TSF
 ms.assetid: dfda786a-09f5-412c-878d-0ba0cbbdafe0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseKeyEventSink, AdviseKeyEventSink method [Text Services Framework], AdviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],AdviseKeyEventSink method, ITfKeystrokeMgr.AdviseKeyEventSink, ITfKeystrokeMgr::AdviseKeyEventSink, _tsf_itfkeystrokemgr_advisekeyeventsink_ref, msctf/ITfKeystrokeMgr::AdviseKeyEventSink, tsf.itfkeystrokemgr_advisekeyeventsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,8 +146,7 @@ The foreground key event sink receives all keyboard events. A non-foreground key
 
 
 
-<a href="https://msdn.microsoft.com/bd9058c0-55b0-4231-a336-7cea4db75c0f">
-        ITfThreadMgr::Activate
+<a href="https://msdn.microsoft.com/bd9058c0-55b0-4231-a336-7cea4db75c0f">ITfThreadMgr::Activate
       </a>
  
 

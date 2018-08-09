@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_getthreadmarshalinterface.htm
 old-project: TSF
 ms.assetid: 9adfc307-ab22-4dfb-a5a8-40d9ad4900ad
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetThreadMarshalInterface, GetThreadMarshalInterface method [Text Services Framework], GetThreadMarshalInterface method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadMarshalInterface method, ITfLangBarMgr.GetThreadMarshalInterface, ITfLangBarMgr::GetThreadMarshalInterface, _tsf_itflangbarmgr_getthreadmarshalinterface_ref, ctfutb/ITfLangBarMgr::GetThreadMarshalInterface, tsf.itflangbarmgr_getthreadmarshalinterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,11 +83,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms694500(v=VS.85).aspx">CoCreateFreeThreadedMarshaler</a>
+<a href="_com_cocreatefreethreadedmarshaler">CoCreateFreeThreadedMarshaler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>
+<a href="_com_comarshalinterface">CoMarshalInterface</a>
 
 
 

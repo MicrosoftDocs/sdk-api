@@ -4,10 +4,10 @@ title: TSPI_providerConfig function
 author: windows-sdk-content
 description: The TSPI_providerConfig function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerConfig.
 old-location: tspi\tspi_providerconfig.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b0fa2a9e-bc8b-4364-9442-2091f2366107
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
 ms.prod: windows
 ms.technology: windows-sdk

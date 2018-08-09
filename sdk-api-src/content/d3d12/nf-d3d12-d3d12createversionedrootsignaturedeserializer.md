@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12createversionedrootsignaturedeserializer.htm
 old-project: direct3d12
 ms.assetid: 0C079508-C330-4391-82CB-54DAAFBACB87
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12CreateVersionedRootSignatureDeserializer, D3D12CreateVersionedRootSignatureDeserializer function, d3d12/D3D12CreateVersionedRootSignatureDeserializer, direct3d12.d3d12createversionedrootsignaturedeserializer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ A pointer to a memory block that receives a pointer to the root signature deseri
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

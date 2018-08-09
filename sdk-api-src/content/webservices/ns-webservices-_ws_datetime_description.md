@@ -7,7 +7,7 @@ old-location: wsw\ws_datetime_description.htm
 old-project: wsw
 ms.assetid: f6a7094f-56c0-4d8e-9050-fe41c4a82bf4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_DATETIME_DESCRIPTION, WS_DATETIME_DESCRIPTION structure [Web Services for Windows], _WS_DATETIME_DESCRIPTION, webservices/WS_DATETIME_DESCRIPTION, wsw.ws_datetime_description
 ms.prod: windows
 ms.technology: windows-sdk

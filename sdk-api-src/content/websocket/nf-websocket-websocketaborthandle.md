@@ -7,7 +7,7 @@ old-location: websock\websocketaborthandle.htm
 old-project: WebSock
 ms.assetid: fcfa67cf-9121-4f65-bba9-31ebca1291bd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: WebSocketAbortHandle, WebSocketAbortHandle function [Websocket Protocol Component API], websock.websocketaborthandle, websocket/WebSocketAbortHandle
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc_cryptattributes_property.htm
 old-project: seccertenroll
 ms.assetid: 733d29d8-95ea-4193-99b0-a07fcf560435
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: CryptAttributes property [Security], CryptAttributes property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],CryptAttributes property, IX509CertificateRequestCmc.CryptAttributes, IX509CertificateRequestCmc.get_CryptAttributes, IX509CertificateRequestCmc::CryptAttributes, IX509CertificateRequestCmc::get_CryptAttributes, certenroll/IX509CertificateRequestCmc::CryptAttributes, certenroll/IX509CertificateRequestCmc::get_CryptAttributes, get_CryptAttributes, security.ix509certificaterequestcmc_cryptattributes_property
 ms.prod: windows
 ms.technology: windows-sdk

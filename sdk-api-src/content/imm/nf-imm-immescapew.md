@@ -7,7 +7,7 @@ old-location: intl\immescape.htm
 old-project: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,46 +63,24 @@ Accesses capabilities of particular IMEs that are not available through other IM
 
 
 
-### -param HKL
-
-TBD
-
-
-### -param HIMC
-
-TBD
-
-
-### -param UINT
-
-TBD
-
-
-### -param LPVOID
-
-TBD
-
-
-
-
-#### - hIMC [in]
-
-Handle to the input context.
-
-
-#### - hKL [in]
+### -param HKL [in]
 
 Input locale identifier.
 
 
-#### - lpData [in, out]
+### -param HIMC [in]
 
-Pointer to the data required for the escape specified in <i>uEscape</i>. On output, this parameter indicates the result of the escape. For more information, see <a href="https://msdn.microsoft.com/ede886dc-8a92-428c-8975-3feadc1d4f90">IME Escapes</a>.
+Handle to the input context.
 
 
-#### - uEscape [in]
+### -param UINT [in]
 
 Index of the operations. For more information, see <a href="https://msdn.microsoft.com/ede886dc-8a92-428c-8975-3feadc1d4f90">IME Escapes</a>.
+
+
+### -param LPVOID [in, out]
+
+Pointer to the data required for the escape specified in <i>uEscape</i>. On output, this parameter indicates the result of the escape. For more information, see <a href="https://msdn.microsoft.com/ede886dc-8a92-428c-8975-3feadc1d4f90">IME Escapes</a>.
 
 
 ## -returns

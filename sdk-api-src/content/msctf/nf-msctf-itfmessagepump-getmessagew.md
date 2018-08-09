@@ -7,7 +7,7 @@ old-location: tsf\itfmessagepump_getmessagew.htm
 old-project: TSF
 ms.assetid: e2283d04-f5b8-4b86-9fa5-517e46417b07
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetMessageW, GetMessageW method [Text Services Framework], GetMessageW method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageW method, ITfMessagePump.GetMessageW, ITfMessagePump::GetMessageW, _tsf_itfmessagepump_getmessagew_ref, msctf/ITfMessagePump::GetMessageW, tsf.itfmessagepump_getmessagew
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pMsg [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that receives message data.
+Pointer to a <a href="_win32_msg_str">MSG</a> structure that receives message data.
 
 
 ### -param hwnd [in]
@@ -136,7 +136,7 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="_win32_getmessage">GetMessage</a>
 
 
 
@@ -144,7 +144,7 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="_win32_msg_str">MSG</a>
  
 
  

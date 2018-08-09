@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothauthenticatedevice.htm
 old-project: bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothAuthenticateDevice, BluetoothAuthenticateDevice function [Bluetooth], bluetooth.bluetoothauthenticatedevice, bluetoothapis/BluetoothAuthenticateDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A valid local radio handle, or <b>NULL</b>. If <b>NULL</b>, authentication is at
 
 ### -param pbtbi
 
-TBD
+A structure of type <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> that contains the record of the Bluetooth device to be authenticated.
 
 
 ### -param pszPasskey
@@ -81,11 +81,6 @@ A Personal Identification Number (PIN) to be used for device authentication. If 
 ### -param ulPasskeyLength
 
 The size, in characters, of <i>pszPasskey</i>. The size of <i>pszPasskey</i> must be less than or equal to <b>BLUETOOTH_MAX_PASSKEY_SIZE</b>.
-
-
-#### - pbtdi
-
-A structure of type <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> that contains the record of the Bluetooth device to be authenticated.
 
 
 ## -returns

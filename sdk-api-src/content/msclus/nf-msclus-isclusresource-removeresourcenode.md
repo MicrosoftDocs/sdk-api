@@ -7,7 +7,7 @@ old-location: mscs\clusresource_removeresourcenode.htm
 old-project: mscs
 ms.assetid: 4ec493da-4524-4015-8aa7-fb4a8c3d78de
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource class [Failover Cluster],RemoveResourceNode method, ClusResource.RemoveResourceNode, ISClusResource.RemoveResourceNode, ISClusResource::RemoveResourceNode, RemoveResourceNode, RemoveResourceNode method [Failover Cluster], RemoveResourceNode method [Failover Cluster],ClusResource class, _wolf_clusresource.removeresourcenode, mscs.clusresource_removeresourcenode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_newinstance.htm
 old-project: wmi_v2
 ms.assetid: 59571aa0-7fc2-4724-94e8-15b8a62327b6
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Context_NewInstance, MI_Context_NewInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_NewInstance, wmi.mi_newinstance, wmi_v2.mi_context_newinstance
 ms.prod: windows
 ms.technology: windows-sdk

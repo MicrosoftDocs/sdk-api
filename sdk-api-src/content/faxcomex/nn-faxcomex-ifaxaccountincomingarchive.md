@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccountincomingarchive_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\faxint_ifaxaccountincomingarchive.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxAccountIncomingArchive, IFaxAccountIncomingArchive interface [Fax Service], IFaxAccountIncomingArchive interface [Fax Service],described, _mfax_faxaccountincomingarchive_cpp, fax._mfax_faxaccountincomingarchive_cpp, faxcomex/IFaxAccountIncomingArchive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,12 +53,12 @@ req.product: Internet Explorer 5
 
 Used by a fax client application to access a particular fax account's archive of successfully received inbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 
-A default implementation of <b>IFaxAccountIncomingArchive</b> is provided as the <a href="https://msdn.microsoft.com/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a> object.
+A default implementation of <b>IFaxAccountIncomingArchive</b> is provided as the <a href="https://msdn.microsoft.com/d2ae93a1-6325-4b8f-a227-4eb0678702d2">FaxAccountIncomingArchive</a> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountIncomingArchive</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccountIncomingArchive</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountIncomingArchive</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxAccountIncomingArchive</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IFaxAccountIncomingArchive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/f9e253ef-1f61-48d5-9f71-7e14ebf538fa">GetMessage</a>
 </td>
 <td align="left" width="63%">
 Returns a fax message from the archive of inbound faxes, for a particular fax account, by using the fax message ID.
@@ -83,7 +83,7 @@ Returns a fax message from the archive of inbound faxes, for a particular fax ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359048(v=VS.85).aspx">GetMessages</a>
+<a href="https://msdn.microsoft.com/b3469e29-3d98-432b-84bb-2e5a105bf0b0">GetMessages</a>
 </td>
 <td align="left" width="63%">
 Returns a new iterator (archive cursor) for the archive of inbound fax messages for a particular fax account.
@@ -92,10 +92,10 @@ Returns a new iterator (archive cursor) for the archive of inbound fax messages 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa359049(v=VS.85).aspx">Refresh</a>
+<a href="https://msdn.microsoft.com/ae09646e-70d3-440d-83a0-a38e691b5037">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://msdn.microsoft.com/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a> object information for a particular fax account from the fax server. 
+Refreshes <a href="https://msdn.microsoft.com/d2ae93a1-6325-4b8f-a227-4eb0678702d2">FaxAccountIncomingArchive</a> object information for a particular fax account from the fax server. 
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Refreshes <a href="https://msdn.microsoft.com/library/Aa358957(v=VS.85).aspx">Fa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359050(v=VS.85).aspx">SizeHigh</a>
+<a href="https://msdn.microsoft.com/d88b8ae9-88ce-4ea6-a34d-6d4da4b92b97">SizeHigh</a>
 
 
 </td>
@@ -126,7 +126,7 @@ Specifies the high 32-bit value (in bytes) for the size of the archive of inboun
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359051(v=VS.85).aspx">SizeLow</a>
+<a href="https://msdn.microsoft.com/947c6fb4-4a67-4c8d-a70c-f23e9ce8e301">SizeLow</a>
 
 
 </td>
@@ -147,11 +147,11 @@ Specifies the low 32-bit value (in bytes) for the size of the archive of inbound
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a>
+<a href="https://msdn.microsoft.com/d2ae93a1-6325-4b8f-a227-4eb0678702d2">FaxAccountIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

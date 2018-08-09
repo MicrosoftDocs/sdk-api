@@ -7,7 +7,7 @@ old-location: shell\DiskQuotaControl_OnUserNameChanged.htm
 old-project: shell
 ms.assetid: df32cb17-ad90-4535-a36b-60c5b4e9999f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: OnUserNameChanged, OnUserNameChanged function [Windows Shell], _win32_DiskQuotaControl_OnUserNameChanged, dskquota/OnUserNameChanged, shell.DiskQuotaControl_OnUserNameChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ Occurs when the name information for a <a href="https://msdn.microsoft.com/0cdf3
 
 
 ### -param pUser
-
-TBD
-
-
-
-
-#### - oUser
 
 The <b>Object</b> that evaluates to the <a href="https://msdn.microsoft.com/0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf">DIDiskQuotaUser</a> object associated with the user whose name has been resolved.
 

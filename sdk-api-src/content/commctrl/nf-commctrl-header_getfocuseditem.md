@@ -7,7 +7,7 @@ old-location: controls\Header_GetFocusedItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getfocuseditem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775330(v=VS.85).aspx">HDM_GETFOCUSEDITEM</a> message explicitly.
+Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/9ad8e497-6f81-4226-b138-d1101f2fd8b3">HDM_GETFOCUSEDITEM</a> message explicitly.
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Gets the item in a header control that has the focus. Use this macro or send the
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndHD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -79,7 +70,7 @@ A handle to the header control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775238(v=VS.85).aspx">About Header Controls</a>
+<a href="https://msdn.microsoft.com/b464fb9a-e342-4209-ba6f-15b5388f3914">About Header Controls</a>
  
 
  

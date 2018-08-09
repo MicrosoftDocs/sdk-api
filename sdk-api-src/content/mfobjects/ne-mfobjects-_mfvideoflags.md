@@ -7,7 +7,7 @@ old-location: mf\mfvideoflags.htm
 old-project: medfound
 ms.assetid: 2530bf1d-05b1-4c16-b00b-117c0dadb301
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2530bf1d-05b1-4c16-b00b-117c0dadb301, MFVideoFlag_AnalogProtected, MFVideoFlag_BottomUpLinearRep, MFVideoFlag_DigitallyProtected, MFVideoFlag_FieldRepeatCountMask, MFVideoFlag_FieldRepeatCountShift, MFVideoFlag_LowerFieldFirst, MFVideoFlag_PAD_TO_16x9, MFVideoFlag_PAD_TO_4x3, MFVideoFlag_PAD_TO_Mask, MFVideoFlag_PAD_TO_None, MFVideoFlag_PanScanEnabled, MFVideoFlag_ProgressiveContent, MFVideoFlag_ProgressiveSeqReset, MFVideoFlag_SrcContentHint16x9, MFVideoFlag_SrcContentHint235_1, MFVideoFlag_SrcContentHintMask, MFVideoFlag_SrcContentHintNone, MFVideoFlags, MFVideoFlags enumeration [Media Foundation], MFVideoFlags_DXVASurface, MFVideoFlags_ForceQWORD, MFVideoFlags_RenderTargetSurface, _MFVideoFlags, mf.mfvideoflags, mfobjects/MFVideoFlag_AnalogProtected, mfobjects/MFVideoFlag_BottomUpLinearRep, mfobjects/MFVideoFlag_DigitallyProtected, mfobjects/MFVideoFlag_FieldRepeatCountMask, mfobjects/MFVideoFlag_FieldRepeatCountShift, mfobjects/MFVideoFlag_LowerFieldFirst, mfobjects/MFVideoFlag_PAD_TO_16x9, mfobjects/MFVideoFlag_PAD_TO_4x3, mfobjects/MFVideoFlag_PAD_TO_Mask, mfobjects/MFVideoFlag_PAD_TO_None, mfobjects/MFVideoFlag_PanScanEnabled, mfobjects/MFVideoFlag_ProgressiveContent, mfobjects/MFVideoFlag_ProgressiveSeqReset, mfobjects/MFVideoFlag_SrcContentHint16x9, mfobjects/MFVideoFlag_SrcContentHint235_1, mfobjects/MFVideoFlag_SrcContentHintMask, mfobjects/MFVideoFlag_SrcContentHintNone, mfobjects/MFVideoFlags, mfobjects/MFVideoFlags_DXVASurface, mfobjects/MFVideoFlags_ForceQWORD, mfobjects/MFVideoFlags_RenderTargetSurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -225,25 +225,15 @@ MFVideoFlag_DigitallyProtected
 The following flags were defined to describe per-sample interlacing information, but are obsolete:
 
 <ul>
-<li>
-            
-              MFVideoFlag_ProgressiveContent
+<li>MFVideoFlag_ProgressiveContent
           </li>
-<li>
-            
-              MFVideoFlag_FieldRepeatCountMask
+<li>MFVideoFlag_FieldRepeatCountMask
           </li>
-<li>
-            
-              MFVideoFlag_FieldRepeatCountShift
+<li>MFVideoFlag_FieldRepeatCountShift
           </li>
-<li>
-            
-              MFVideoFlag_ProgressiveSeqReset
+<li>MFVideoFlag_ProgressiveSeqReset
           </li>
-<li>
-            
-              MFVideoFlag_LowerFieldFirst
+<li>MFVideoFlag_LowerFieldFirst
             
           </li>
 </ul>

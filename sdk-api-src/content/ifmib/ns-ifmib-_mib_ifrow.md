@@ -7,7 +7,7 @@ old-location: mib\mib_ifrow.htm
 old-project: mib
 ms.assetid: b08631e9-6036-4377-b2f2-4ea899acb787
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IFROW, IF_OPER_STATUS_CONNECTED, IF_OPER_STATUS_CONNECTING, IF_OPER_STATUS_DISCONNECTED, IF_OPER_STATUS_NON_OPERATIONAL, IF_OPER_STATUS_OPERATIONAL, IF_OPER_STATUS_UNREACHABLE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, MIB_IFROW, MIB_IFROW structure [MIB], PMIB_IFROW, PMIB_IFROW structure pointer [MIB], _MIB_IFROW, _mpr_mib_ifrow, ifmib/MIB_IFROW, ifmib/PMIB_IFROW, iprtrmib/MIB_IFROW, iprtrmib/PMIB_IFROW, mib.mib_ifrow, rras.mib_ifrow"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -464,9 +464,7 @@ A description of the interface.
 
 
 
-The <b>dwSpeed</b> member of the <b>MIB_IFROW</b> structure will be incorrect for very high-speed network interfaces (10 Gbit/s network adapter, for example) since the maximum value that can be store in a DWORD is 4,294,967,295. Applications should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structure returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552517">GetIfEntry2</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>
-			functions or the <a href="https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6">IP_ADAPTER_ADDRESSES</a> structure returned by the <a href="https://msdn.microsoft.com/7b34138f-7263-4b73-95df-9e854fd81135">GetAdaptersAddresses</a>
-   function for determining the speed for very high-speed network interfaces.
+The <b>dwSpeed</b> member of the <b>MIB_IFROW</b> structure will be incorrect for very high-speed network interfaces (10 Gbit/s network adapter, for example) since the maximum value that can be store in a DWORD is 4,294,967,295. Applications should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structure returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552517">GetIfEntry2</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>functions or the <a href="https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6">IP_ADAPTER_ADDRESSES</a> structure returned by the <a href="https://msdn.microsoft.com/7b34138f-7263-4b73-95df-9e854fd81135">GetAdaptersAddresses</a>function for determining the speed for very high-speed network interfaces.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IFROW</b> structure is defined in the <i>Ifmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ifmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ifmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
@@ -482,7 +480,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365939(v=VS.85).aspx">GetIfEntry</a>
+<a href="_iphlp_getifentry">GetIfEntry</a>
 
 
 

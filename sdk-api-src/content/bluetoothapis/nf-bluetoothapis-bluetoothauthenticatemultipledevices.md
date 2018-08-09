@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothauthenticatemultipledevices.htm
 old-project: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothAuthenticateMultipleDevices, BluetoothAuthenticateMultipleDevices function [Bluetooth], bluetooth.bluetoothauthenticatemultipledevices, bluetoothapis/BluetoothAuthenticateMultipleDevices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,13 +76,6 @@ The number of devices in the <i>pbtdi</i> array of <a href="https://msdn.microso
 
 
 ### -param rgbtdi
-
-TBD
-
-
-
-
-#### - pbtdi
 
 An array of <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structures that contain records for the Bluetooth devices to be authenticated.
 

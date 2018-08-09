@@ -7,7 +7,7 @@ old-location: setup\setuprenameerror.htm
 old-project: SetupApi
 ms.assetid: 43371fa0-d7b4-42e0-a94d-d307a7210618
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupRenameError, SetupRenameError function [Setup API], SetupRenameErrorA, SetupRenameErrorW, _setupapi_setuprenameerror, setup.setuprenameerror, setupapi/SetupRenameError, setupapi/SetupRenameErrorA, setupapi/SetupRenameErrorW
 ms.prod: windows
 ms.technology: windows-sdk

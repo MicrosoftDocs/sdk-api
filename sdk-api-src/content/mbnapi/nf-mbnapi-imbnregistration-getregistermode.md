@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration_getregistermode.htm
 old-project: mbn
 ms.assetid: 30030eb8-3b08-4583-a7ba-0560db32007f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: GetRegisterMode, GetRegisterMode method [Microsoft Broadband Networks], GetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterMode method, IMbnRegistration.GetRegisterMode, IMbnRegistration::GetRegisterMode, mbn.imbnregistration_getregistermode, mbnapi/IMbnRegistration::GetRegisterMode
 ms.prod: windows
 ms.technology: windows-sdk

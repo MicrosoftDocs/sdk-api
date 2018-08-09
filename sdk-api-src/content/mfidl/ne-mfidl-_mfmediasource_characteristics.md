@@ -7,7 +7,7 @@ old-location: mf\mfmediasource_characteristics.htm
 old-project: medfound
 ms.assetid: 115f4a6b-99c2-436e-9483-c44003e61a7d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 115f4a6b-99c2-436e-9483-c44003e61a7d, MFMEDIASOURCE_CAN_PAUSE, MFMEDIASOURCE_CAN_SEEK, MFMEDIASOURCE_CAN_SKIPBACKWARD, MFMEDIASOURCE_CAN_SKIPFORWARD, MFMEDIASOURCE_CHARACTERISTICS, MFMEDIASOURCE_CHARACTERISTICS enumeration [Media Foundation], MFMEDIASOURCE_DOES_NOT_USE_NETWORK, MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS, MFMEDIASOURCE_HAS_SLOW_SEEK, MFMEDIASOURCE_IS_LIVE, _MFMEDIASOURCE_CHARACTERISTICS, mf.mfmediasource_characteristics, mfidl/MFMEDIASOURCE_CAN_PAUSE, mfidl/MFMEDIASOURCE_CAN_SEEK, mfidl/MFMEDIASOURCE_CAN_SKIPBACKWARD, mfidl/MFMEDIASOURCE_CAN_SKIPFORWARD, mfidl/MFMEDIASOURCE_CHARACTERISTICS, mfidl/MFMEDIASOURCE_DOES_NOT_USE_NETWORK, mfidl/MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS, mfidl/MFMEDIASOURCE_HAS_SLOW_SEEK, mfidl/MFMEDIASOURCE_IS_LIVE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,25 @@ Defines the characteristics of a media source. These flags are retrieved by the 
 
 ### -field MFMEDIASOURCE_IS_LIVE
 
-
-            This flag indicates a data source that runs constantly, such as a live presentation. If the source is stopped and then restarted, there will be a gap in the content.
+This flag indicates a data source that runs constantly, such as a live presentation. If the source is stopped and then restarted, there will be a gap in the content.
           
 
 
 ### -field MFMEDIASOURCE_CAN_SEEK
 
-
-            The media source supports seeking.
+The media source supports seeking.
           
 
 
 ### -field MFMEDIASOURCE_CAN_PAUSE
 
-
-            The source can pause.
+The source can pause.
           
 
 
 ### -field MFMEDIASOURCE_HAS_SLOW_SEEK
 
-
-            The media source downloads content. It might take a long time to seek to parts of the content that have not been downloaded.
+The media source downloads content. It might take a long time to seek to parts of the content that have not been downloaded.
           
 
 

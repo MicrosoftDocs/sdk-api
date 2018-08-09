@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onstartedittransaction.htm
 old-project: TSF
 ms.assetid: 9e86d767-8ace-4bd0-af12-2139814b4e44
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreAnchorSink.OnStartEditTransaction, ITextStoreAnchorSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstartedittransaction_ref, textstor/ITextStoreAnchorSink::OnStartEditTransaction, tsf.itextstoreanchorsink_onstartedittransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ Use of edit transactions is optional.
 
 
 
-<a href="https://msdn.microsoft.com/fe7610b3-02f0-491a-8c55-f9dc9843073b">
-        ITextStoreAnchorSink::OnEndEditTransaction
+<a href="https://msdn.microsoft.com/fe7610b3-02f0-491a-8c55-f9dc9843073b">ITextStoreAnchorSink::OnEndEditTransaction
       </a>
 
 

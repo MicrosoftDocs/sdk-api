@@ -7,7 +7,7 @@ old-location: tcui\showgameinviteui.htm
 old-project: tcui
 ms.assetid: DE4705C2-4590-4140-8CF8-B8552D6CA843
 ms.author: windowssdkdev
-ms.date: 03/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShowGameInviteUI, ShowGameInviteUI function, gamingtcui/ShowGameInviteUI, tcui.showgameinviteui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

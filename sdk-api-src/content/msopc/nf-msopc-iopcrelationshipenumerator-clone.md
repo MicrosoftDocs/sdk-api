@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipenumerator_clone.htm
 old-project: OPC
 ms.assetid: 838f9486-be46-461f-b570-bc77003f1619
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipEnumerator.Clone, IOpcRelationshipEnumerator::Clone, msopc/IOpcRelationshipEnumerator::Clone, opc.iopcrelationshipenumerator_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,8 +119,7 @@ The enumerator is invalid because the underlying set has changed.
 
 
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/d0733a11-0ba6-445f-8e3c-b62ad7b6b4bf">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/d0733a11-0ba6-445f-8e3c-b62ad7b6b4bf">MoveNext</a>method after creating the enumerator.
 
 
 #### Thread Safety

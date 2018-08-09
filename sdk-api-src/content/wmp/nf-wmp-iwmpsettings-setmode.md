@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_setmode.htm
 old-project: WMP
 ms.assetid: 28a404a7-5bb0-41bb-a5b2-cc6138b8176e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],setMode method, IWMPSettings.setMode, IWMPSettings::setMode, IWMPSettingssetMode, setMode, setMode method [Windows Media Player], setMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_setmode, wmp/IWMPSettings::setMode
 ms.prod: windows
 ms.technology: windows-sdk

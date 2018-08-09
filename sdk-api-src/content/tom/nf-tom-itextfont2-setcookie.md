@@ -4,10 +4,10 @@ title: ITextFont2::SetCookie
 author: windows-sdk-content
 description: Sets the client cookie.
 old-location: controls\itextfont2_setcookie.htm
-old-project: Controls
+old-project: controls
 ms.assetid: d1b4c7a8-ba4c-482f-8431-14d45474ccc0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCookie method, ITextFont2.SetCookie, ITextFont2::SetCookie, SetCookie, SetCookie method [Windows Controls], SetCookie method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcookie, tom/ITextFont2::SetCookie
 ms.prod: windows
 ms.technology: windows-sdk

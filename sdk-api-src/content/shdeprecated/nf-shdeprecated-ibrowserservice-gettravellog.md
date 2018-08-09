@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetTravelLog.htm
 old-project: shell
 ms.assetid: 8e6c09e4-5489-4c21-8e42-28cdc4c216f1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetTravelLog, GetTravelLog method [Windows Shell], GetTravelLog method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTravelLog method, IBrowserService.GetTravelLog, IBrowserService::GetTravelLog, shdeprecated/IBrowserService::GetTravelLog, shell.IBrowserService_GetTravelLog, zone_IBrowserService_GetTravelLog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Deprecated. Retrieves the browser's <a href="https://msdn.microsoft.com/820869aa
 
 Type: <b><a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>**</b>
 
-
-          The address that receives a pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>.
+The address that receives a pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>.
         
 
 

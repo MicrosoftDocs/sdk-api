@@ -4,10 +4,10 @@ title: IVssComponentEx
 author: windows-sdk-content
 description: Defines additional methods for examining and modifying information about components contained in a requester's Backup Components Document.
 old-location: base\ivsscomponentex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Defines additional methods for examining  and modifying information about compon
 The <b>IVssComponentEx</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx</b> 
-   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> interface, and pass 
    the <b>IID_IVssComponentEx</b> constant as the interface identifier (IID) parameter.
 
@@ -92,7 +92,7 @@ Determines whether a requester has marked the restore of a component as authorit
 <a href="https://msdn.microsoft.com/51f96d3e-c783-42f4-9e04-94bf3a6b7c09">GetPostSnapshotFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message string that a writer has  set for a given component.
+Returns the <a href="vssgloss_p.htm">PostSnapshot</a> failure message string that a writer has  set for a given component.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).
 <a href="https://msdn.microsoft.com/b086ff8d-ff51-4550-887d-e7741e2469f2">GetPrepareForBackupFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message string that a writer has  set for a given component.
+Returns the <a href="vssgloss_p.htm">PrepareForBackup</a> failure message string that a writer has  set for a given component.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Obtains the roll-forward operation type for a component and obtains the restore 
 <a href="https://msdn.microsoft.com/7cf4e512-d557-4187-b489-5cca76c0560f">SetPostSnapshotFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message string for a component.
+Sets a <a href="vssgloss_p.htm">PostSnapshot</a> failure message string for a component.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx"
 <a href="https://msdn.microsoft.com/b2c48c06-8bfc-431b-aab3-89ec9b30a9a0">SetPrepareForBackupFailureMsg</a>
 </td>
 <td align="left" width="63%">
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message string for a component.
+Sets a <a href="vssgloss_p.htm">PrepareForBackup</a> failure message string for a component.
 
 </td>
 </tr>

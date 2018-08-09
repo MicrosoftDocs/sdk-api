@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_readsample.htm
 old-project: medfound
 ms.assetid: 99bd9bd7-d8d1-433a-bc5a-4b9761de5048
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],ReadSample method, IMFSourceReader.ReadSample, IMFSourceReader::ReadSample, MF_SOURCE_READER_ANY_STREAM, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, ReadSample, ReadSample method [Media Foundation], ReadSample method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_readsample, mfreadwrite/IMFSourceReader::ReadSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -238,9 +238,7 @@ In synchronous mode:
 <li>The <i>pdwActualStreamIndex</i> and <i>pllTimestamp</i> parameters can be <b>NULL</b>.</li>
 <li>The method blocks until the next sample is available.</li>
 </ul>
-
-          
-          In synchronous mode, if the <i>dwStreamIndex</i> parameter is <b>MF_SOURCE_READER_ANY_STREAM</b>, you should pass a non-<b>NULL</b> value for <i>pdwActualStreamIndex</i>, so that you know which stream delivered the sample.
+In synchronous mode, if the <i>dwStreamIndex</i> parameter is <b>MF_SOURCE_READER_ANY_STREAM</b>, you should pass a non-<b>NULL</b> value for <i>pdwActualStreamIndex</i>, so that you know which stream delivered the sample.
 
 This method can return flags in the <i>pdwStreamFlags</i> parameter without returning a media sample in <i>ppSample</i>. Therefore, the <i>ppSample</i> parameter can receive a <b>NULL</b> pointer even when the method succeeds. For example, when the source reader reaches the end of the stream, it returns the <b>MF_SOURCE_READERF_ENDOFSTREAM</b> flag in <i>pdwStreamFlags</i> and sets <i>ppSample</i> to <b>NULL</b>.
 

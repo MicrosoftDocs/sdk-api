@@ -7,7 +7,7 @@ old-location: winsync\iloadchangecontext_getsyncchange.htm
 old-project: winsync
 ms.assetid: 6ac425bc-f6ec-4a95-b351-01f9eb27a744
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync],ILoadChangeContext interface, ILoadChangeContext interface [Windows Sync],GetSyncChange method, ILoadChangeContext.GetSyncChange, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
 ms.prod: windows
 ms.technology: windows-sdk

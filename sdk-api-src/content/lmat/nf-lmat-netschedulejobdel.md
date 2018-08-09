@@ -7,7 +7,7 @@ old-location: netmgmt\netschedulejobdel.htm
 old-project: netmgmt
 ms.assetid: 5ae668ab-f51d-457e-a239-2ec16a0e5a55
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: GDI+ 1.1
 
 ]
 
-
-			The
+The
 				<b>NetScheduleJobDel</b> function deletes a range of jobs queued to run at a computer. This function requires that the schedule service be started at the computer to which the job deletion request is being sent. 
 
 

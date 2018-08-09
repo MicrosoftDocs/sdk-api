@@ -4,10 +4,10 @@ title: DeleteUrlCacheGroup function
 author: windows-sdk-content
 description: Releases the specified GROUPID and any associated state in the cache index file.
 old-location: wininet\deleteurlcachegroup.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: f1ff70db-36b7-4805-8f23-e3920acf0d11
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteUrlCacheGroup, DeleteUrlCacheGroup function [WinINet], _inet_deleteurlcachegroup_function, wininet.deleteurlcachegroup, wininet/DeleteUrlCacheGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ ID of the cache group to be released.
 ### -param dwFlags [in]
 
 Controls the cache group deletion. This can be set to 
-any member of the <a href="https://msdn.microsoft.com/9ca2069e-497d-4747-acf4-d5b8020b8ab7">cache group constants</a>. When this parameter is set to <a href="https://msdn.microsoft.com/en-us/library/Aa383923(v=VS.85).aspx">CACHEGROUP_FLAG_FLUSHURL_ONDELETE</a>, it causes 
+any member of the <a href="https://msdn.microsoft.com/9ca2069e-497d-4747-acf4-d5b8020b8ab7">cache group constants</a>. When this parameter is set to <a href="cache_group_constants.htm">CACHEGROUP_FLAG_FLUSHURL_ONDELETE</a>, it causes 
 <b>DeleteUrlCacheGroup</b> to delete all of the cache entries associated with this group, unless the entry belongs to another group.
 
 

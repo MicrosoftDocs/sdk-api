@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_showfloating.htm
 old-project: TSF
 ms.assetid: f667762a-f276-4311-827e-f89eca7eba1e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],ShowFloating method, ITfLangBarEventSink.ShowFloating, ITfLangBarEventSink::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_showfloating_ref, ctfutb/ITfLangBarEventSink::ShowFloating, tsf.itflangbareventsink_showfloating
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/628e1d85-9614-4327-b89b-723f6eeb0718">
-        TF_SFT_* Constants
+<a href="https://msdn.microsoft.com/628e1d85-9614-4327-b89b-723f6eeb0718">TF_SFT_* Constants
       </a>
  
 

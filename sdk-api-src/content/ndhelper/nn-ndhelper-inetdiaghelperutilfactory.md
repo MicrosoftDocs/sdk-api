@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperutilfactory.htm
 old-project: ndf
 ms.assetid: 5e97ff3b-0dd5-4370-bf28-72fc92818564
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetDiagHelperUtilFactory, INetDiagHelperUtilFactory interface [NDF], INetDiagHelperUtilFactory interface [NDF],described, ndf.inetdiaghelperutilfactory, ndhelper/INetDiagHelperUtilFactory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface.htm
 old-project: nativewifi
 ms.assetid: a4a73ff8-e24a-4f44-9205-c60699d1c27d
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], IDot11AdHocInterface interface [NativeWIFI],described, adhoc/IDot11AdHocInterface, nwifi.idot11adhocinterface
 ms.prod: windows
 ms.technology: windows-sdk

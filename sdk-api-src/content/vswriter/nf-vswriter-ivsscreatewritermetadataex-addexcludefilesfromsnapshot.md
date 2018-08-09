@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 author: windows-sdk-content
 description: Reports any file sets that will be explicitly excluded by the writer when a shadow copy is created.
 old-location: base\ivsscreatewritermetadataex_addexcludefilesfromsnapshot.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AddExcludeFilesFromSnapshot, AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method,IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Reports any <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
+Reports any <a href="vssgloss_f.htm">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
 
 Calling this method does not cause the files to be excluded. The writer is responsible for deleting the files from the shadow copy in its <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a> method.
 
@@ -199,9 +199,9 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 The use of the <b>AddExcludeFilesFromSnapshot</b> method is optional. Writers should use this method only for large files that change significantly between shadow copy operations.
 
-This method is not a substitute for the <a href="https://msdn.microsoft.com/705bb666-9080-4b42-af58-9cc21fbf88cf">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> are excluded from backup.
+This method is not a substitute for the <a href="https://msdn.microsoft.com/705bb666-9080-4b42-af58-9cc21fbf88cf">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="vssgloss_f.htm">file sets</a> are excluded from backup.
 
-The caller is responsible for calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the resources of the returned 
+The caller is responsible for calling the <a href="_com_iunknown_release">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

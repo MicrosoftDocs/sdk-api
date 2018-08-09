@@ -7,7 +7,7 @@ old-location: mf\mft_message_type.htm
 old-project: medfound
 ms.assetid: 55b0aa32-53af-4f19-9d99-9885c1e28588
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 55b0aa32-53af-4f19-9d99-9885c1e28588, MFT_MESSAGE_COMMAND_DRAIN, MFT_MESSAGE_COMMAND_FLUSH, MFT_MESSAGE_COMMAND_MARKER, MFT_MESSAGE_COMMAND_TICK, MFT_MESSAGE_DROP_SAMPLES, MFT_MESSAGE_NOTIFY_BEGIN_STREAMING, MFT_MESSAGE_NOTIFY_END_OF_STREAM, MFT_MESSAGE_NOTIFY_END_STREAMING, MFT_MESSAGE_NOTIFY_START_OF_STREAM, MFT_MESSAGE_SET_D3D_MANAGER, MFT_MESSAGE_TYPE, MFT_MESSAGE_TYPE enumeration [Media Foundation], _MFT_MESSAGE_TYPE, mf.mft_message_type, mftransform/MFT_MESSAGE_COMMAND_DRAIN, mftransform/MFT_MESSAGE_COMMAND_FLUSH, mftransform/MFT_MESSAGE_COMMAND_MARKER, mftransform/MFT_MESSAGE_COMMAND_TICK, mftransform/MFT_MESSAGE_DROP_SAMPLES, mftransform/MFT_MESSAGE_NOTIFY_BEGIN_STREAMING, mftransform/MFT_MESSAGE_NOTIFY_END_OF_STREAM, mftransform/MFT_MESSAGE_NOTIFY_END_STREAMING, mftransform/MFT_MESSAGE_NOTIFY_START_OF_STREAM, mftransform/MFT_MESSAGE_SET_D3D_MANAGER, mftransform/MFT_MESSAGE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,8 +97,7 @@ See <a href="https://msdn.microsoft.com/fd346d56-1f80-488a-94c8-4e4e36d72890">MF
 
 ### -field MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
 
-
-            Notifies the MFT that streaming is about to begin.
+Notifies the MFT that streaming is about to begin.
             
           
 
@@ -107,8 +106,7 @@ See <a href="https://msdn.microsoft.com/a7f02e92-a747-4ac6-aa83-60897acb2bc5">MF
 
 ### -field MFT_MESSAGE_NOTIFY_END_STREAMING
 
-
-            Notifies the MFT that streaming is about to end.
+Notifies the MFT that streaming is about to end.
             
           
 
@@ -117,8 +115,7 @@ See <a href="https://msdn.microsoft.com/df313a66-e80f-499c-a9f2-a7cbaaf0a7d4">MF
 
 ### -field MFT_MESSAGE_NOTIFY_END_OF_STREAM
 
-
-            Notifies the MFT that an input stream has ended.
+Notifies the MFT that an input stream has ended.
             
           
 
@@ -127,8 +124,7 @@ See <a href="https://msdn.microsoft.com/2d6cdf45-1bb4-4915-bd27-efa041089100">MF
 
 ### -field MFT_MESSAGE_NOTIFY_START_OF_STREAM
 
-
-            Notifies the MFT that the first sample is about to be processed. 
+Notifies the MFT that the first sample is about to be processed. 
 
 See
             

@@ -7,7 +7,7 @@ old-location: winmsg\findwindowex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindowex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FindWindowEx, FindWindowEx function [Windows and Messages], FindWindowExA, FindWindowExW, _win32_FindWindowEx, _win32_findwindowex_cpp, winmsg.findwindowex, winui._win32_findwindowex, winuser/FindWindowEx, winuser/FindWindowExA, winuser/FindWindowExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,33 +70,18 @@ Retrieves a handle to a window whose class name and window name match the specif
 
 
 
-### -param hWndParent
+### -param hWndParent [in, optional]
 
-TBD
+Type: <b>HWND</b>
 
+A handle to the parent window whose child windows are to be searched.
 
-### -param hWndChildAfter
+If <i>hwndParent</i> is <b>NULL</b>, the function uses the desktop window as the parent window. The function searches among windows that are child windows of the desktop. 
 
-TBD
-
-
-### -param lpszClass [in, optional]
-
-Type: <b>LPCTSTR</b>
-
-The class name or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
-
- If <i>lpszClass</i> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names, or it can be <code>MAKEINTATOM(0x8000)</code>. In this latter case, 0x8000 is the atom for a menu class. For more information, see the Remarks section of this topic.
+If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="window_features.htm">message-only windows</a>. 
 
 
-### -param lpszWindow [in, optional]
-
-Type: <b>LPCTSTR</b>
-
-The window name (the window's title). If this parameter is <b>NULL</b>, all window names match. 
-
-
-#### - hwndChildAfter [in, optional]
+### -param hWndChildAfter [in, optional]
 
 Type: <b>HWND</b>
 
@@ -107,15 +92,20 @@ If <i>hwndChildAfter</i> is <b>NULL</b>, the search begins with the first child 
 Note that if both <i>hwndParent</i> and <i>hwndChildAfter</i> are <b>NULL</b>, the function searches all top-level and message-only windows. 
 
 
-#### - hwndParent [in, optional]
+### -param lpszClass [in, optional]
 
-Type: <b>HWND</b>
+Type: <b>LPCTSTR</b>
 
-A handle to the parent window whose child windows are to be searched.
+The class name or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
 
-If <i>hwndParent</i> is <b>NULL</b>, the function uses the desktop window as the parent window. The function searches among windows that are child windows of the desktop. 
+ If <i>lpszClass</i> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>, or any of the predefined control-class names, or it can be <code>MAKEINTATOM(0x8000)</code>. In this latter case, 0x8000 is the atom for a menu class. For more information, see the Remarks section of this topic.
 
-If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">message-only windows</a>. 
+
+### -param lpszWindow [in, optional]
+
+Type: <b>LPCTSTR</b>
+
+The window name (the window's title). If this parameter is <b>NULL</b>, all window names match. 
 
 
 ## -returns
@@ -136,7 +126,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
+If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
 
 An application can call this function in the following way.
 
@@ -156,19 +146,19 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://msdn.microsoft.com/c4a063ea-a12f-49fe-8654-987e175452a8">EnumWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx">FindWindow</a>
+<a href="https://msdn.microsoft.com/8240f00c-5772-4f6e-b05f-3e5a5b0efa27">FindWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633582(v=VS.85).aspx">GetClassName</a>
+<a href="https://msdn.microsoft.com/039dd7cd-07cf-4c8a-9287-365d54da2f43">GetClassName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx">GetWindowText</a>
+<a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a>
 
 
 
@@ -176,11 +166,11 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
 
 
 

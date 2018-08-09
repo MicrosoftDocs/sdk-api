@@ -4,10 +4,10 @@ title: LockWorkStation function
 author: windows-sdk-content
 description: Locks the workstation's display.
 old-location: base\lockworkstation.htm
-old-project: Shutdown
+old-project: shutdown
 ms.assetid: e0f7f2b9-0fc1-4e76-b5bb-286408240fc6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: LockWorkStation, LockWorkStation function, _win32_lockworkstation, base.lockworkstation, winuser/LockWorkStation
 ms.prod: windows
 ms.technology: windows-sdk

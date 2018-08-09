@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorlength.htm
 old-project: secauthz
 ms.assetid: eb331839-ff3e-4f4b-b93b-18da2ea72697
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetSecurityDescriptorLength, GetSecurityDescriptorLength function [Security], _win32_getsecuritydescriptorlength, security.getsecuritydescriptorlength, securitybaseapi/GetSecurityDescriptorLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ The minimum length of a security descriptor is SECURITY_DESCRIPTOR_MIN_LENGTH. A
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_deletecolumn.htm
 old-project: MMC
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],DeleteColumn method, IHeaderCtrl.DeleteColumn, IHeaderCtrl::DeleteColumn, mmc.iheaderctrl_deletecolumn, mmc/IHeaderCtrl::DeleteColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ This method returns <i>E_FAIL</i> when an item has already been inserted into th
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://msdn.microsoft.com/64da2c79-2ede-4b17-a706-8e5cc0ade007">IHeaderCtrl</a>
 
 
 

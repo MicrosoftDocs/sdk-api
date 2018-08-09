@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifierset_add.htm
 old-project: WmiSdk
 ms.assetid: 8f4c4da2-4890-4515-a3dc-76d154dae43c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],ISWbemQualifierSet interface, Add method [Windows Management Instrumentation],SWbemQualifierSet object, ISWbemQualifierSet interface [Windows Management Instrumentation],Add method, ISWbemQualifierSet.Add, ISWbemQualifierSet::Add, SWbemQualifierSet object [Windows Management Instrumentation],Add method, SWbemQualifierSet.Add, _hmm_swbemqualifierset.add, wmi.swbemqualifierset_add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,9 +104,9 @@ Reserved. The default value is 0.
 
 
 
-#### - bOverridable [in, optional]
+#### - bPropagatesToSubclasses [in, optional]
 
-Boolean value that indicates if this qualifier can be overridden when propagated. The default value is <b>TRUE</b>.
+Boolean value that indicates if this new qualifier is propagated to subclasses. The default value is <b>TRUE</b>.
 
 
 #### - bPropagatesToInstances [in, optional]
@@ -114,9 +114,9 @@ Boolean value that indicates if this qualifier can be overridden when propagated
 Boolean value that indicates if this new qualifier is propagated to instances. The default value is <b>TRUE</b>.
 
 
-#### - bPropagatesToSubclasses [in, optional]
+#### - bOverridable [in, optional]
 
-Boolean value that indicates if this new qualifier is propagated to subclasses. The default value is <b>TRUE</b>.
+Boolean value that indicates if this qualifier can be overridden when propagated. The default value is <b>TRUE</b>.
 
 
 ## -returns

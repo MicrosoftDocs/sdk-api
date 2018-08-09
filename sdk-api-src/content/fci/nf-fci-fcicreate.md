@@ -7,7 +7,7 @@ old-location: winprog\fcicreate.htm
 old-project: devnotes
 ms.assetid: bfcea06d-2f09-405c-955c-0f56149148f2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,19 +64,19 @@ The <b>FCICreate</b> function creates an FCI context.
 Pointer to an <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure that receives the error information.
 
 
-### -param pfnfcifp
+### -param pfnfcifp [in]
 
-TBD
-
-
-### -param pfna
-
-TBD
+Pointer to an application-defined callback function to notify when a file is placed in the cabinet. The function should be declared using the <a href="https://msdn.microsoft.com/f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0">FNFCIFILEPLACED</a> macro.
 
 
-### -param pfnf
+### -param pfna [in]
 
-TBD
+Pointer to an application-defined callback function to allocate memory. The function should be declared using the <a href="https://msdn.microsoft.com/339ac9d2-60bc-4a90-8a46-6fbb073be9d1">FNFCIALLOC</a> macro.
+
+
+### -param pfnf [in]
+
+Pointer to an application-defined callback function to free previously allocated memory. The function should be delcared using the <a href="https://msdn.microsoft.com/48f052e2-7786-430a-b3dc-afcfdffae387">FNFCIFREE</a> macro.
 
 
 ### -param pfnopen [in]
@@ -122,21 +122,6 @@ Pointer to a <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a
 ### -param pv [in, optional]
 
 Pointer to an application-defined value that is passed to callback functions.
-
-
-#### - pfnalloc [in]
-
-Pointer to an application-defined callback function to allocate memory. The function should be declared using the <a href="https://msdn.microsoft.com/339ac9d2-60bc-4a90-8a46-6fbb073be9d1">FNFCIALLOC</a> macro.
-
-
-#### - pfnfiledest [in]
-
-Pointer to an application-defined callback function to notify when a file is placed in the cabinet. The function should be declared using the <a href="https://msdn.microsoft.com/f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0">FNFCIFILEPLACED</a> macro.
-
-
-#### - pfnfree [in]
-
-Pointer to an application-defined callback function to free previously allocated memory. The function should be delcared using the <a href="https://msdn.microsoft.com/48f052e2-7786-430a-b3dc-afcfdffae387">FNFCIFREE</a> macro.
 
 
 ## -returns

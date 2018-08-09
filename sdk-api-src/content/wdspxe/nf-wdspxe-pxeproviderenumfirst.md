@@ -4,10 +4,10 @@ title: PxeProviderEnumFirst function
 author: windows-sdk-content
 description: Starts an enumeration of registered providers.
 old-location: wds\pxeproviderenumfirst.htm
-old-project: Wds
+old-project: wds
 ms.assetid: b810455b-219b-49da-a4eb-c1a170711c68
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PxeProviderEnumFirst, PxeProviderEnumFirst function [Windows Deployment Services], wds.pxeproviderenumfirst, wdspxe/PxeProviderEnumFirst
 ms.prod: windows
 ms.technology: windows-sdk

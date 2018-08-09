@@ -4,10 +4,10 @@ title: IWSManEnumerator::get_AtEndOfStream
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether there are any more items in the collection.
 old-location: winrm\enumerator_atendofstream.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 5e80674a-7889-4753-b0dd-4d7b44eba00a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],Enumerator object, Enumerator object [Windows Remote Management],AtEndOfStream property, Enumerator.AtEndOfStream, False, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, True, get_AtEndOfStream, winrm.enumerator_atendofstream, wsman.enumerator_atendofstream
 ms.prod: windows
 ms.technology: windows-sdk

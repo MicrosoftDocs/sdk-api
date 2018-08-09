@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_sendcommand.htm
 old-project: wpd_sdk
 ms.assetid: ccc7f87a-dea3-4a1e-a181-86928e23bd35
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],SendCommand method, IPortableDevice.SendCommand, IPortableDevice::SendCommand, IPortableDeviceSendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::SendCommand, wpdsdk.iportabledevice_sendcommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>SendCommand</b> method sends a command to the device and retrieves the results synchronously.
+The <b>SendCommand</b> method sends a command to the device and retrieves the results synchronously.
       
 
 
@@ -64,15 +63,13 @@ req.product: ADAM
 
 ### -param dwFlags [in]
 
-
-            Currently not used; specify zero.
+Currently not used; specify zero.
           
 
 
 ### -param pParameters [in]
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that specifies the command and parameters to call on the device. This interface must include the following two values to indicate the command. Additional parameters vary depending on the command. For a list of the parameters that are required for each command, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that specifies the command and parameters to call on the device. This interface must include the following two values to indicate the command. Additional parameters vary depending on the command. For a list of the parameters that are required for each command, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>.
             
 
 <table>
@@ -94,8 +91,7 @@ req.product: ADAM
 
 ### -param ppResults [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a> to learn what values are returned by each command call.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a> to learn what values are returned by each command call.
           
 
 
@@ -103,8 +99,7 @@ req.product: ADAM
 
 
 
-
-            The returned value indicates success or failure to send a command and return a result from the driver; it does not indicate whether the driver supports the command or if it encountered some error in processing the command. (For more information, see Remarks.) These errors are returned in the <b>HRESULT</b> values of the <i>ppResults</i> parameter. The possible <b>HRESULT</b> values returned by this method include, but are not limited to, those in the following table.
+The returned value indicates success or failure to send a command and return a result from the driver; it does not indicate whether the driver supports the command or if it encountered some error in processing the command. (For more information, see Remarks.) These errors are returned in the <b>HRESULT</b> values of the <i>ppResults</i> parameter. The possible <b>HRESULT</b> values returned by this method include, but are not limited to, those in the following table.
           
 
 <table>
@@ -144,12 +139,10 @@ At least one of the arguments was a NULL pointer.
 
 
 
-
-        This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>.
+This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>.
       
 
-
-        Most Windows Portable Devices methods actually work by sending one or more of the Windows Portable Devices commands for you and wrapping the parameters for you. Some commands have no corresponding Windows Portable Devices methods. The only way to call these commands is by using <b>SendCommand</b>. The following commands have no corresponding method:
+Most Windows Portable Devices methods actually work by sending one or more of the Windows Portable Devices commands for you and wrapping the parameters for you. Some commands have no corresponding Windows Portable Devices methods. The only way to call these commands is by using <b>SendCommand</b>. The following commands have no corresponding method:
       
 
 <ul>
@@ -169,24 +162,19 @@ At least one of the arguments was a NULL pointer.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597830">WPD_COMMAND_STORAGE_EJECT</a>
 </li>
 </ul>
-
-        You also must call <b>SendCommand</b> to send any custom driver commands driver.
+You also must call <b>SendCommand</b> to send any custom driver commands driver.
       
 
-
-        Some custom commands may require a specific Input/Output Control Code (IOCTL) access level. Your application sets this access level by calling the <a href="https://msdn.microsoft.com/9b5d1b8c-7863-4807-a34b-56d30a47bd5c">IPortableDeviceValues::SetUnsignedIntegerValue</a> method on the command parameters that it passes to the <b>SendCommand</b> method. For example, if a custom command requires read-only access, you would call <b>SetUnsignedIntegerValue</b> and pass WPD_API_OPTION_IOCTL_ACCESS as the first argument and FILE_READ_ACCESS as the second argument. By updating these command parameters, your application ensures that the Windows Portable Devices API issues the command with the read-only IOCTL.
+Some custom commands may require a specific Input/Output Control Code (IOCTL) access level. Your application sets this access level by calling the <a href="https://msdn.microsoft.com/9b5d1b8c-7863-4807-a34b-56d30a47bd5c">IPortableDeviceValues::SetUnsignedIntegerValue</a> method on the command parameters that it passes to the <b>SendCommand</b> method. For example, if a custom command requires read-only access, you would call <b>SetUnsignedIntegerValue</b> and pass WPD_API_OPTION_IOCTL_ACCESS as the first argument and FILE_READ_ACCESS as the second argument. By updating these command parameters, your application ensures that the Windows Portable Devices API issues the command with the read-only IOCTL.
       
 
-
-        Errors that are encountered by the driver while processing a command are retrieved by the <i>ppResults</i> parameter, not by the <b>SendCommand</b> return value. The return value of this method is any error (or success) code that is encountered while sending the command to the driver.
+Errors that are encountered by the driver while processing a command are retrieved by the <i>ppResults</i> parameter, not by the <b>SendCommand</b> return value. The return value of this method is any error (or success) code that is encountered while sending the command to the driver.
       
 
-
-        If a driver does not support the specified command, this method will succeed, but the only guaranteed element in the returned <i>ppResults</i> parameter will be WPD_PROPERTY_COMMON_HRESULT, which will contain E_NOTIMPL. You can verify whether a driver supports a command by calling <a href="https://msdn.microsoft.com/974b16c7-27a0-40a6-8941-e93293a69b48">IPortableDeviceCapabilities::GetSupportedCommands</a> before calling a command.
+If a driver does not support the specified command, this method will succeed, but the only guaranteed element in the returned <i>ppResults</i> parameter will be WPD_PROPERTY_COMMON_HRESULT, which will contain E_NOTIMPL. You can verify whether a driver supports a command by calling <a href="https://msdn.microsoft.com/974b16c7-27a0-40a6-8941-e93293a69b48">IPortableDeviceCapabilities::GetSupportedCommands</a> before calling a command.
       
 
-
-        If a command supports options (such as delete recursively or delete nonrecursively), you can query for supported options by calling <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>.
+If a command supports options (such as delete recursively or delete nonrecursively), you can query for supported options by calling <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>.
       
 
 There is no option to set a timeout in a call to <b>SendCommand</b> but the developer can attempt to cancel the command by calling <a href="https://msdn.microsoft.com/dcda2e43-ee12-44a4-a7ab-a2a542082d07">IPortableDevice::Cancel</a> from a separate thread.

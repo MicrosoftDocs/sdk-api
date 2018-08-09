@@ -7,7 +7,7 @@ old-location: automat\vari8fromstr.htm
 old-project: automat
 ms.assetid: 9aed5795-cfac-4a81-a05a-adcd661c7e3f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarI8FromStr, VarI8FromStr function [Automation], _oa96_VarI8FromStr, automat.vari8fromstr, oleauto/VarI8FromStr
 ms.prod: windows
 ms.technology: windows-sdk

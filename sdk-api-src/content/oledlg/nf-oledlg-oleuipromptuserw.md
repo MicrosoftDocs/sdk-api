@@ -7,7 +7,7 @@ old-location: com\oleuipromptuser.htm
 old-project: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ The resource number of the dialog box to be displayed. See Remarks.
 The handle to the parent window of the dialog box.
 
 
-### -param param
-
-TBD
-
-
-
-
-####### - ... [in]
+### -param param [in]
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 

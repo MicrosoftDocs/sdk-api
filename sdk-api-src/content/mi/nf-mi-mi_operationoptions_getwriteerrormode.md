@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getwriteerrormode.htm
 old-project: wmi_v2
 ms.assetid: e2bfaa20-a389-4e52-b8dd-e06941cf7393
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_GetWriteErrorMode, MI_OperationOptions_GetWriteErrorMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetWriteErrorMode, wmi_v2.mi_operationoptions_getwriteerrormode
 ms.prod: windows
 ms.technology: windows-sdk

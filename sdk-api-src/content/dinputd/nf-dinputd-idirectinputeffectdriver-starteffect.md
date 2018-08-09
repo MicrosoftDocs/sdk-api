@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_starteffect.htm
 old-project: hid
 ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StartEffect method, IDirectInputEffectDriver.StartEffect, IDirectInputEffectDriver::StartEffect, StartEffect, StartEffect method [Human Input Devices], StartEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml, dinputd/IDirectInputEffectDriver::StartEffect, hid.idirectinputeffectdriver_starteffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,14 @@ The <b>IDirectInputEffectDriver::StartEffect</b> method begins the playback of a
 
 
 
-#### - dwCount
+#### - dwID
 
-Specifies the number of times to perform the effect. If the value is INFINITE, then the effect should be repeated until explicitly stopped or paused. 
+Identifies the external joystick number being addressed 
 
 
 #### - dwEffect
 
 Specifies the effect to be played. 
-
-
-#### - dwID
-
-Identifies the external joystick number being addressed 
 
 
 #### - dwMode
@@ -91,6 +86,11 @@ Specifies how the effect is to affect other effects. Only the mode listed below 
 #### DIES_SOLO
 
 Indicates that all other effects on the device should be stopped before the specified effect is played. If this flag is omitted, the effect is mixed with existing effects that have already started on the device. 
+
+
+#### - dwCount
+
+Specifies the number of times to perform the effect. If the value is INFINITE, then the effect should be repeated until explicitly stopped or paused. 
 
 
 ## -returns

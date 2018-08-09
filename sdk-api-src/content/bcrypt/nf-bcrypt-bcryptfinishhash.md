@@ -7,7 +7,7 @@ old-location: security\bcryptfinishhash_func.htm
 old-project: seccng
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfwrapmediatype.htm
 old-project: medfound
 ms.assetid: a3dd74bc-1f1c-40b9-a43e-d45ff621248f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a media type that wraps another media type.
+Creates a media type that wraps another media type.
         
 
 
@@ -63,8 +62,7 @@ req.product: GDI+ 1.1
 
 ### -param pOrig
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type to wrap in a new media type.
+A pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type to wrap in a new media type.
           
 
 
@@ -93,8 +91,7 @@ Applications can define custom subtype GUIDs.
 
 ### -param ppWrap
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the new media type that wraps the original media type. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the new media type that wraps the original media type. The caller must release the interface.
           
 
 
@@ -111,8 +108,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The original media type (<i>pOrig</i>) is stored in the new media type under the <a href="https://msdn.microsoft.com/3bd94523-0206-44d8-83a2-e569e4ab7815">MF_MT_WRAPPED_TYPE</a> attribute. To extract the original media type, call <a href="https://msdn.microsoft.com/2cb6a5ae-315f-4de2-8817-da9d41db14b8">MFUnwrapMediaType</a>.
+The original media type (<i>pOrig</i>) is stored in the new media type under the <a href="https://msdn.microsoft.com/3bd94523-0206-44d8-83a2-e569e4ab7815">MF_MT_WRAPPED_TYPE</a> attribute. To extract the original media type, call <a href="https://msdn.microsoft.com/2cb6a5ae-315f-4de2-8817-da9d41db14b8">MFUnwrapMediaType</a>.
       
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

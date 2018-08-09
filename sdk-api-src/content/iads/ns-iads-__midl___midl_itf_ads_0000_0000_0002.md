@@ -7,7 +7,7 @@ old-location: adsi\ads_octet_string.htm
 old-project: ADSI
 ms.assetid: ecad3601-081d-4cb6-a6dd-7781d652af8e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [ADSI], PADS_OCTET_STRING, PADS_OCTET_STRING structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0002, _ds_ads_octet_string, adsi.ads__octet__string, adsi.ads_octet_string, iads/ADS_OCTET_STRING, iads/PADS_OCTET_STRING"
 ms.prod: windows
 ms.technology: windows-sdk

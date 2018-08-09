@@ -4,10 +4,10 @@ title: SaslSetContextOption function
 author: windows-sdk-content
 description: Sets the value of the specified property for the specified SASL context.
 old-location: security\saslsetcontextoption.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 3c3b1209-b0de-4100-8dfe-53ea314b790b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslSetContextOption, SaslSetContextOption function [Security], security.saslsetcontextoption, sspi/SaslSetContextOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SaslSetContextOption function

@@ -7,7 +7,7 @@ old-location: adsi\iadsnamespaces.htm
 old-project: ADSI
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ hr = ADsGetObject(L"ADs:", IID_IADsNamespaces, (void**)&amp;pNs);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

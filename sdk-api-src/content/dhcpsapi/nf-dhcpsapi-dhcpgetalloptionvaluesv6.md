@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetalloptionvaluesv6.htm
 old-project: dhcp
 ms.assetid: b8be43f1-198b-4c96-a258-014842673192
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionValuesV6, DhcpGetAllOptionValuesV6 function [DHCP], dhcp.dhcpgetalloptionvaluesv6, dhcpsapi/DhcpGetAllOptionValuesV6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetAllOptionValuesV6</b> function returns an array that contains all option values defined for a specific scope on the DHCP server.
+The <b>DhcpGetAllOptionValuesV6</b> function returns an array that contains all option values defined for a specific scope on the DHCP server.
 
 
 ## -parameters

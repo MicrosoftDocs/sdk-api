@@ -7,7 +7,7 @@ old-location: qos\qosaddsockettoflow.htm
 old-project: qos
 ms.assetid: 44136284-b553-446e-a95f-1eac476a7143
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: QOSAddSocketToFlow, QOSAddSocketToFlow function [QOS], QOS_NON_ADAPTIVE_FLOW, qos.qosaddsockettoflow, qos2/QOSAddSocketToFlow
 ms.prod: windows
 ms.technology: windows-sdk

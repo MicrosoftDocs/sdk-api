@@ -7,7 +7,7 @@ old-location: rpc\ndrproxygetbuffer.htm
 old-project: rpc
 ms.assetid: cdc07d50-a6cf-4107-9676-f48156fed1ca
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrProxyGetBuffer, NdrProxyGetBuffer function [RPC], rpc.ndrproxygetbuffer, rpcproxy/NdrProxyGetBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrProxyGetBuffer</b> function obtains a network buffer from COM through the use of an <a href="https://msdn.microsoft.com/library/ms686644(v=VS.85).aspx">IRpcChannelBuffer::GetBuffer</a> method call.
+The <b>NdrProxyGetBuffer</b> function obtains a network buffer from COM through the use of an <a href="_com_irpcchannelbuffer_getbuffer">IRpcChannelBuffer::GetBuffer</a> method call.
 
 
 ## -parameters

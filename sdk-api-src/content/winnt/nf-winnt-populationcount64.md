@@ -7,7 +7,7 @@ old-location: winprog\populationcount64.htm
 old-project: winprog
 ms.assetid: 6123F331-7D4F-4D94-9543-D5A45F7559D8
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: PopulationCount64, PopulationCount64 function [Windows API], winnt/PopulationCount64, winprog.populationcount64
 ms.prod: windows
 ms.technology: windows-sdk

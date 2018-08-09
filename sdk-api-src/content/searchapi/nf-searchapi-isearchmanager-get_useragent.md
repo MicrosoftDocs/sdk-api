@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_UserAgent.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useragent.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager interface [search],get_UserAgent method, ISearchManager.get_UserAgent, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent, get_UserAgent method [search], get_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Retrieves the user agent string.
+Retrieves the user agent string.
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LPWSTR*</b>
 
-
-                Receives the address of a pointer to the user agent string.
+Receives the address of a pointer to the user agent string.
             
 
 

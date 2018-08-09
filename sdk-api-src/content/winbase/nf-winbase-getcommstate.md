@@ -4,10 +4,10 @@ title: GetCommState function
 author: windows-sdk-content
 description: Retrieves the current control settings for a specified communications device.
 old-location: base\getcommstate.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 974c2ddc-9f7f-445e-ac47-8cd86817ce9b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetCommState, GetCommState function, _win32_getcommstate, base.getcommstate, winbase/GetCommState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Retrieves the current control settings for a specified communications device.
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpDCB [in, out]
@@ -100,7 +100,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

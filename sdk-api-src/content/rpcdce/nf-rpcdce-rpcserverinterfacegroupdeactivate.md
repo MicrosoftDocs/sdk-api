@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinterfacegroupdeactivate.htm
 old-project: rpc
 ms.assetid: 625D8E6E-278F-4A96-879B-64294531D21B
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerInterfaceGroupDeactivate, RpcServerInterfaceGroupDeactivate function [RPC], rpc.rpcserverinterfacegroupdeactivate, rpcdce/RpcServerInterfaceGroupDeactivate
 ms.prod: windows
 ms.technology: windows-sdk

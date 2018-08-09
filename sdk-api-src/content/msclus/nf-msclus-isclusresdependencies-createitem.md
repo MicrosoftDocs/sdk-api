@@ -7,7 +7,7 @@ old-location: mscs\clusresdependencies_createitem.htm
 old-project: mscs
 ms.assetid: aaaf80c4-216e-4aaa-a674-3f24e0bfce7e
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResDependencies class [Failover Cluster],CreateItem method, ClusResDependencies.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResDependencies class, ISClusResDependencies.CreateItem, ISClusResDependencies::CreateItem, _wolf_clusresdependencies.createitem, mscs.clusresdependencies_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and adds it to the 
-    <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">dependency</a> collection.
+    <a href="d_gly.htm">dependency</a> collection.
 
 
 ## -parameters
@@ -88,6 +88,22 @@ Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
+#### - ResourceName
+
+<b>String</b> containing the name of the resource to create.
+
+
+#### - ResourceType
+
+<b>String</b> specifying the type of the resource to create.
+
+
+#### - GroupName
+
+<b>String</b> containing the name of the 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to which the new resource will belong.
+
+
 #### - Flag
 
 Value indicating how to create the resource. <i>Flag</i> can be set to one of the 
@@ -109,22 +125,6 @@ The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cl
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
         resource.
-
-
-#### - GroupName
-
-<b>String</b> containing the name of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to which the new resource will belong.
-
-
-#### - ResourceName
-
-<b>String</b> containing the name of the resource to create.
-
-
-#### - ResourceType
-
-<b>String</b> specifying the type of the resource to create.
 
 
 ## -returns

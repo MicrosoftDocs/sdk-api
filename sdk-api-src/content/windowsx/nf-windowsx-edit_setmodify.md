@@ -4,10 +4,10 @@ title: Edit_SetModify macro
 author: windows-sdk-content
 description: Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the EM_SETMODIFY message explicitly.
 old-location: controls\Edit_SetModify.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setmodify.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Edit_SetModify, Edit_SetModify macro [Windows Controls], _win32_Edit_SetModify, _win32_Edit_SetModify_cpp, controls.Edit_SetModify, controls._win32_Edit_SetModify, windowsx/Edit_SetModify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761651(v=VS.85).aspx">EM_SETMODIFY</a> message explicitly.
+Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/9393f03e-0719-458b-8122-616df738c417">EM_SETMODIFY</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761651(v=VS.85).aspx">EM_SETMODIFY</a>.
+For more information, see <a href="https://msdn.microsoft.com/9393f03e-0719-458b-8122-616df738c417">EM_SETMODIFY</a>.
 
 
 

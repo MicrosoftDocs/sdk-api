@@ -7,7 +7,7 @@ old-location: monitor\destroyphysicalmonitor.htm
 old-project: Monitor
 ms.assetid: 5371cbe4-80f5-4514-88e7-38107cd1a127
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: DestroyPhysicalMonitor, DestroyPhysicalMonitor function [Monitor Configuration], monitor.destroyphysicalmonitor, physicalmonitorenumerationapi/DestroyPhysicalMonitor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Closes a handle to a physical monitor. Call this function to close a monitor han
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor.
+Handle to a physical monitor.
           
 
 

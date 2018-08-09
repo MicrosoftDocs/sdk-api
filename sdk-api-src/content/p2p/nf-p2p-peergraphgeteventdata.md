@@ -7,7 +7,7 @@ old-location: p2p\peergraphgeteventdata.htm
 old-project: p2psdk
 ms.assetid: b64bb920-3fbc-4927-a1b1-39c99850bdd5
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphGetEventData, PeerGraphGetEventData function [Peer Networking], p2p.peergraphgeteventdata, p2p/PeerGraphGetEventData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphGetEventData</b> function retrieves peer events. An application  calls this function until the  return value   <b>PEER_S_NO_EVENT_DATA</b> is returned, which indicates that a call is successful, but that there are no more peer events to retrieve.
+The <b>PeerGraphGetEventData</b> function retrieves peer events. An application  calls this function until the  return value   <b>PEER_S_NO_EVENT_DATA</b> is returned, which indicates that a call is successful, but that there are no more peer events to retrieve.
 
 
 ## -parameters
@@ -145,8 +144,7 @@ Peer event data is returned in  a <a href="https://msdn.microsoft.com/a052bff8-e
 
 
 
-<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">
-        PEER_GRAPH_EVENT_DATA</a>
+<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a>
 
 
 

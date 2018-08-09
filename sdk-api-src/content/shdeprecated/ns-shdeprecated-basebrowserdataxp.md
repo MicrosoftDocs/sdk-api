@@ -7,7 +7,7 @@ old-location: shell\BASEBROWSERDATA.htm
 old-project: shell
 ms.assetid: d56e42e8-a556-4470-82d9-466edd84214f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPBASEBROWSERDATA, *LPBASEBROWSERDATAXP, BASEBROWSERDATA, BASEBROWSERDATA structure [Windows Shell], BASEBROWSERDATAXP, FALSE, LPCBASEBROWSERDATA, LPCBASEBROWSERDATA structure pointer [Windows Shell], SECURELOCK_FIRSTSUGGEST, SECURELOCK_NOCHANGE, SECURELOCK_SET_FORTEZZA, SECURELOCK_SET_MIXED, SECURELOCK_SET_SECURE128BIT, SECURELOCK_SET_SECURE40BIT, SECURELOCK_SET_SECURE56BIT, SECURELOCK_SET_SECUREUNKNOWNBIT, SECURELOCK_SET_UNSECURE, SECURELOCK_SUGGEST_FORTEZZA, SECURELOCK_SUGGEST_MIXED, SECURELOCK_SUGGEST_SECURE128BIT, SECURELOCK_SUGGEST_SECURE40BIT, SECURELOCK_SUGGEST_SECURE56BIT, SECURELOCK_SUGGEST_SECUREUNKNOWNBIT, SECURELOCK_SUGGEST_UNSECURE, TRUE, shdeprecated/BASEBROWSERDATA, shdeprecated/LPCBASEBROWSERDATA, shell.BASEBROWSERDATA, zone_BASEBROWSERDATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,9 +86,9 @@ A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame
 
 ### -field _pautoWB2
 
-Type: <b><a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> object.
+A pointer to the browser's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> object.
 
 
 ### -field _pautoEDS
@@ -357,19 +357,14 @@ Type: <b>CLSID</b>
 Type: <b>HWND</b>
 
 
-##### - _eSecureLockIcon.SECURELOCK_FIRSTSUGGEST
-
-A security encryption setting should be suggested.
-
-
 ##### - _eSecureLockIcon.SECURELOCK_NOCHANGE (-1)
 
 No change in security encryption status.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_FORTEZZA
+##### - _eSecureLockIcon.SECURELOCK_SET_UNSECURE (0)
 
-There is Fortezza security encryption present.
+Default. 0x0000. No security encryption present.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SET_MIXED
@@ -377,9 +372,9 @@ There is Fortezza security encryption present.
 There are multiple security encryption methods present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECURE128BIT
+##### - _eSecureLockIcon.SECURELOCK_SET_SECUREUNKNOWNBIT
 
-There is 128-bit security encryption present.
+The security encryption level is not known.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SET_SECURE40BIT
@@ -392,19 +387,24 @@ There is 40-bit security encryption present.
 There is 56-bit security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECUREUNKNOWNBIT
+##### - _eSecureLockIcon.SECURELOCK_SET_FORTEZZA
 
-The security encryption level is not known.
-
-
-##### - _eSecureLockIcon.SECURELOCK_SET_UNSECURE (0)
-
-Default. 0x0000. No security encryption present.
+There is Fortezza security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_FORTEZZA
+##### - _eSecureLockIcon.SECURELOCK_SET_SECURE128BIT
 
-Fortezza security encryption has been suggested.
+There is 128-bit security encryption present.
+
+
+##### - _eSecureLockIcon.SECURELOCK_FIRSTSUGGEST
+
+A security encryption setting should be suggested.
+
+
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_UNSECURE (SECURELOCK_FIRSTSUGGEST)
+
+No security encryption has been suggested.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SUGGEST_MIXED
@@ -412,9 +412,9 @@ Fortezza security encryption has been suggested.
 Mixed security encryption methods have been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE128BIT
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECUREUNKNOWNBIT
 
-128-bit security encryption has been suggested.
+Unknown security encryption method has been suggested.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE40BIT
@@ -427,41 +427,14 @@ Mixed security encryption methods have been suggested.
 56-bit security encryption has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECUREUNKNOWNBIT
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_FORTEZZA
 
-Unknown security encryption method has been suggested.
-
-
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_UNSECURE (SECURELOCK_FIRSTSUGGEST)
-
-No security encryption has been suggested.
+Fortezza security encryption has been suggested.
 
 
-##### - _fIsViewMSHTML.FALSE
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE128BIT
 
-The browser is hosting folder content.
-
-
-##### - _fIsViewMSHTML.TRUE
-
-The browser is hosting web content.
-
-
-##### - _fPrivacyImpacted.FALSE
-
-There is not a privacy concern with the browser's content.
-
-
-##### - _fPrivacyImpacted.TRUE
-
-There is a privacy concern with the browser's content.
-
-
-#### - _lPhishingFilterStatus
-
-Type: <b>LONG</b>
-
-<b>Windows Vista with Service Pack 1 (SP1) and later or Windows Internet Explorer 7 and later only</b>. 0 if the phishing filter is off; 1 if it is on.
+128-bit security encryption has been suggested.
 
 
 #### - _pidlNewShellView
@@ -469,4 +442,31 @@ Type: <b>LONG</b>
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A temporary placeholder for <b>_pidlPending</b> on first navigation to the pending location.
+
+
+##### - _fIsViewMSHTML.TRUE
+
+The browser is hosting web content.
+
+
+##### - _fIsViewMSHTML.FALSE
+
+The browser is hosting folder content.
+
+
+##### - _fPrivacyImpacted.TRUE
+
+There is a privacy concern with the browser's content.
+
+
+##### - _fPrivacyImpacted.FALSE
+
+There is not a privacy concern with the browser's content.
+
+
+#### - _lPhishingFilterStatus
+
+Type: <b>LONG</b>
+
+<b>Windows Vista with Service Pack 1 (SP1) and later or Windows Internet Explorer 7 and later only</b>. 0 if the phishing filter is off; 1 if it is on.
 

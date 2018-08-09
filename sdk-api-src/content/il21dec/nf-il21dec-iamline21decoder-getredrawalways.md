@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_getredrawalways.htm
 old-project: DirectShow
 ms.assetid: 9ab65d23-816d-4c6f-a0bc-b3334babdc23
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetRedrawAlways method, IAMLine21Decoder.GetRedrawAlways, IAMLine21Decoder::GetRedrawAlways, IAMLine21DecoderGetRedrawAlways, dshow.iamline21decoder_getredrawalways, il21dec/IAMLine21Decoder::GetRedrawAlways
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Pointer to a variable that receives one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

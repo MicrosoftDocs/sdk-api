@@ -7,7 +7,7 @@ old-location: controls\UNDONAMEID.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\undonameid.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: UID_AUTOTABLE, UID_CUT, UID_DELETE, UID_DRAGDROP, UID_PASTE, UID_TYPING, UID_UNKNOWN, UNDONAMEID, UNDONAMEID enumeration [Windows Controls], _undonameid, _win32_UNDONAMEID_str, _win32_UNDONAMEID_str_cpp, controls.UNDONAMEID, controls._win32_UNDONAMEID_str, richedit/UID_AUTOTABLE, richedit/UID_CUT, richedit/UID_DELETE, richedit/UID_DRAGDROP, richedit/UID_PASTE, richedit/UID_TYPING, richedit/UID_UNKNOWN, richedit/UNDONAMEID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Contains values that indicate types of rich edit control actions that can be undone or redone. The <a href="https://msdn.microsoft.com/library/Bb774186(v=VS.85).aspx">EM_GETREDONAME</a> and <a href="https://msdn.microsoft.com/library/Bb774202(v=VS.85).aspx">EM_GETUNDONAME</a> messages use this enumeration type to return a value. 
+Contains values that indicate types of rich edit control actions that can be undone or redone. The <a href="https://msdn.microsoft.com/8649236f-32dc-45d3-847e-c9f65ffba44c">EM_GETREDONAME</a> and <a href="https://msdn.microsoft.com/43351909-f8bc-425a-9d9b-655e3b47eb75">EM_GETUNDONAME</a> messages use this enumeration type to return a value. 
 
 
 ## -enum-fields
@@ -100,11 +100,11 @@ Automatic table insertion; for example, typing +---+---+&lt;Enter&gt; to insert 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774186(v=VS.85).aspx">EM_GETREDONAME</a>
+<a href="https://msdn.microsoft.com/8649236f-32dc-45d3-847e-c9f65ffba44c">EM_GETREDONAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774202(v=VS.85).aspx">EM_GETUNDONAME</a>
+<a href="https://msdn.microsoft.com/43351909-f8bc-425a-9d9b-655e3b47eb75">EM_GETUNDONAME</a>
 
 
 

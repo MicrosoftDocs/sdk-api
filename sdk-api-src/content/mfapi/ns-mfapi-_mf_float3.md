@@ -7,7 +7,7 @@ old-location: mf\mf_float3.htm
 old-project: medfound
 ms.assetid: F284993C-A149-4C89-866D-5E46E6AD2CCC
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MF_FLOAT3, MF_FLOAT3 structure [Media Foundation], PMF_FLOAT3, PMF_FLOAT3 structure pointer [Media Foundation], _MF_FLOAT3, mf.mf_float3, mfapi/MF_FLOAT3, mfapi/PMF_FLOAT3
 ms.prod: windows
 ms.technology: windows-sdk

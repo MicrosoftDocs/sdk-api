@@ -7,7 +7,7 @@ old-location: http\httpprepareurl.htm
 old-project: http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumn.htm
 old-project: WinAuto
 ms.assetid: bc2ac0da-f41c-42c3-aff9-92bc0c5c9d64
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedColumn property [Windows Accessibility], CachedColumn property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedColumn property, IUIAutomationGridItemPattern.CachedColumn, IUIAutomationGridItemPattern.get_CachedColumn, IUIAutomationGridItemPattern::CachedColumn, IUIAutomationGridItemPattern::get_CachedColumn, get_CachedColumn, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumn, uiauto_IUIAutomationGridItemPattern_CachedColumn, uiautomationclient/IUIAutomationGridItemPattern::CachedColumn, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumn, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

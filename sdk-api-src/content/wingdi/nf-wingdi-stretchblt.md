@@ -7,7 +7,7 @@ old-location: gdi\stretchblt.htm
 old-project: gdi
 ms.assetid: 5130c88e-08e8-4faa-a1cb-a8106c86cea0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StretchBlt, StretchBlt function [Windows GDI], _win32_StretchBlt, gdi.stretchblt, wingdi/StretchBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,24 @@ The <b>StretchBlt</b> function copies a bitmap from a source rectangle into a de
 A handle to the destination device context.
 
 
-### -param xDest
+### -param xDest [in]
 
-TBD
-
-
-### -param yDest
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param wDest
+### -param yDest [in]
 
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param hDest
+### -param wDest [in]
 
-TBD
+The width, in logical units, of the destination rectangle.
+
+
+### -param hDest [in]
+
+The height, in logical units, of the destination rectangle.
 
 
 ### -param hdcSrc [in]
@@ -94,78 +94,31 @@ TBD
 A handle to the source device context.
 
 
-### -param xSrc
-
-TBD
-
-
-### -param ySrc
-
-TBD
-
-
-### -param wSrc
-
-TBD
-
-
-### -param hSrc
-
-TBD
-
-
-### -param rop
-
-TBD
-
-
-
-
-#### - dwRop [in]
-
-The raster operation to be performed. Raster operation codes define how the system combines colors in output operations that involve a brush, a source bitmap, and a destination bitmap.
-
-See <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a> for a list of common raster operation codes (ROPs). Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
-
-
-#### - nHeightDest [in]
-
-The height, in logical units, of the destination rectangle.
-
-
-#### - nHeightSrc [in]
-
-The height, in logical units, of the source rectangle.
-
-
-#### - nWidthDest [in]
-
-The width, in logical units, of the destination rectangle.
-
-
-#### - nWidthSrc [in]
-
-The width, in logical units, of the source rectangle.
-
-
-#### - nXOriginDest [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - nXOriginSrc [in]
+### -param xSrc [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
 
-#### - nYOriginDest [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - nYOriginSrc [in]
+### -param ySrc [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
+
+
+### -param wSrc [in]
+
+The width, in logical units, of the source rectangle.
+
+
+### -param hSrc [in]
+
+The height, in logical units, of the source rectangle.
+
+
+### -param rop [in]
+
+The raster operation to be performed. Raster operation codes define how the system combines colors in output operations that involve a brush, a source bitmap, and a destination bitmap.
+
+See <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a> for a list of common raster operation codes (ROPs). Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
 
 
 ## -returns

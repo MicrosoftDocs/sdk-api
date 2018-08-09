@@ -7,7 +7,7 @@ old-location: mscs\clusdisk_scsiaddress.htm
 old-project: mscs
 ms.assetid: 2f9bd5e9-a939-438d-9bd1-bd9ef30c53cd
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusDisk object [Failover Cluster],ScsiAddress property, ClusDisk.ScsiAddress, ISClusDisk.get_ScsiAddress, ISClusDisk::get_ScsiAddress, ScsiAddress property [Failover Cluster], ScsiAddress property [Failover Cluster],ClusDisk object, _wolf_clusdisk.scsiaddress, get_ScsiAddress, mscs.clusdisk_scsiaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns a 
     <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object describing 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> information about a 
+    <a href="s_gly.htm">SCSI</a> information about a 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 This property is read-only.

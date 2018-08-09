@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getcertcncheck.htm
 old-project: wmi_v2
 ms.assetid: 8f6a4f66-29cf-486b-9114-05cd357a32bf
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_DestinationOptions_GetCertCNCheck, MI_DestinationOptions_GetCertCNCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertCNCheck, wmi_v2.mi_destinationoptions_getcertcncheck
 ms.prod: windows
 ms.technology: windows-sdk

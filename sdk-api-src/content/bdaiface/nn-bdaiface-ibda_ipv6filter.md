@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipv6filter.htm
 old-project: mstv
 ms.assetid: b506d382-c56d-4c5b-ad57-e186173ea9a8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], IBDA_IPV6Filter interface [Microsoft TV Technologies],described, IBDA_IPV6FilterInterface, bdaiface/IBDA_IPV6Filter, mstv.ibda_ipv6filter
 ms.prod: windows
 ms.technology: windows-sdk

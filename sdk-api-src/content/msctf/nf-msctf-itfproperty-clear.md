@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_clear.htm
 old-project: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
 ms.prod: windows
 ms.technology: windows-sdk
@@ -159,8 +159,7 @@ It is not necessary to call this method when a context is about to be destroyed.
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -169,8 +168,7 @@ It is not necessary to call this method when a context is about to be destroyed.
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_scan_list.htm
 old-project: dhcp
 ms.assetid: 9dc20612-1c08-4493-aab3-b524d8d88251
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_SCAN_LIST, DHCP_SCAN_LIST, DHCP_SCAN_LIST structure [DHCP], LPDHCP_SCAN_LIST, LPDHCP_SCAN_LIST structure pointer [DHCP], _DHCP_SCAN_LIST, dhcp.dhcp_scan_list, dhcpsapi/LPDHCP_SCAN_LIST, dhcpsapi/_DHCP_SCAN_LIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,12 @@ The <b>DHCP_SCAN_LIST</b> structure defines a list of all desynchronized client 
 
 ### -field NumScanItems
 
-Specifies the number of <a href="https://msdn.microsoft.com/82e36660-fb56-4334-97d0-c34facad55a6">DHCP_SCAN_ITEM</a>
-         structures listed in <i>ScanItems</i>.
+Specifies the number of <a href="https://msdn.microsoft.com/82e36660-fb56-4334-97d0-c34facad55a6">DHCP_SCAN_ITEM</a>structures listed in <i>ScanItems</i>.
 
 
 ### -field ScanItems
 
-Pointer to a list of <a href="https://msdn.microsoft.com/82e36660-fb56-4334-97d0-c34facad55a6">DHCP_SCAN_ITEM</a>
-         structures that contain the specific client IP addresses whose leases differed between the in-memory cache of client leases and the subnet client lease database during a <a href="https://msdn.microsoft.com/6324c197-7237-449f-ae23-4f04b1b7498e">DhcpScanDatabase</a>
-       operation.
+Pointer to a list of <a href="https://msdn.microsoft.com/82e36660-fb56-4334-97d0-c34facad55a6">DHCP_SCAN_ITEM</a>structures that contain the specific client IP addresses whose leases differed between the in-memory cache of client leases and the subnet client lease database during a <a href="https://msdn.microsoft.com/6324c197-7237-449f-ae23-4f04b1b7498e">DhcpScanDatabase</a>operation.
 
 
 ### -field ScanItems.size_is

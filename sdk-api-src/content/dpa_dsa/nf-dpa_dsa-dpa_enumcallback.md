@@ -7,7 +7,7 @@ old-location: controls\DPA_EnumCallback.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_enumcallback.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_EnumCallback, DPA_EnumCallback function [Windows Controls], _win32_DPA_EnumCallback, _win32_DPA_EnumCallback_cpp, controls.DPA_EnumCallback, controls._win32_DPA_EnumCallback, dpa_dsa/DPA_EnumCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,9 @@ Iterates through the Dynamic Pointer Array (DPA) and calls <i>pfnCB</i> on each 
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param pfnCB
@@ -83,13 +85,6 @@ Type: <b>void*</b>
 A callback data pointer. <i>pData</i> is passed as a parameter to <i>pfnCB</i>.
 
 
-#### - pdpa
-
-Type: <b>HDPA</b>
-
-A handle to a DPA.
-
-
 ## -returns
 
 
@@ -104,7 +99,7 @@ No return value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775713(v=VS.85).aspx">PFNDAENUMCALLBACKCONST</a>
+<a href="https://msdn.microsoft.com/2fe1546f-d517-4d63-a3a6-1d3ea0238b3d">PFNDAENUMCALLBACKCONST</a>
  
 
  

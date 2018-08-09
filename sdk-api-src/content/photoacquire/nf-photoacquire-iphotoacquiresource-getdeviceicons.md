@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquiresource_getdeviceicons.htm
 old-project: acquisition
 ms.assetid: 98859baa-a6bd-4b12-992b-af6736fa9650
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetDeviceIcons, GetDeviceIcons method [Picture Acquisition], GetDeviceIcons method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetDeviceIcons method, IPhotoAcquireSource.GetDeviceIcons, IPhotoAcquireSource::GetDeviceIcons, IPhotoAcquireSourceGetDeviceIcons, photoacquire/IPhotoAcquireSource::GetDeviceIcons, picacq.iphotoacquiresource_getdeviceicons
 ms.prod: windows
 ms.technology: windows-sdk

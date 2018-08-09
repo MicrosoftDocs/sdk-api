@@ -7,7 +7,7 @@ old-location: dshow\iamstats.htm
 old-project: DirectShow
 ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <code>IAMStats</code> interface retrieves performance data from the Filter G
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -139,11 +139,9 @@ Each statistic is defined by a name and an index. Use the <b>GetIndex</b> method
 
 <table>
 <tr>
-<th>
-              Name
+<th>Name
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -175,7 +173,7 @@ For each of these statistics, the values represent time in milliseconds.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

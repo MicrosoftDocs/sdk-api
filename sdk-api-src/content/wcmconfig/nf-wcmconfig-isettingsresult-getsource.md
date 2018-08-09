@@ -4,10 +4,10 @@ title: ISettingsResult::GetSource
 author: windows-sdk-content
 description: Returns the file or path where the error has occurred.
 old-location: smi\isettingsresult_getsource.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 2a76b243-5294-47a7-8ad3-b39425735866
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetSource method, ISettingsResult.GetSource, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
 ms.prod: windows
 ms.technology: windows-sdk

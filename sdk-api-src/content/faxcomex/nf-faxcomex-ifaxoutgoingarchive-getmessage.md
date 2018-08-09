@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_getmessage.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7did.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxOutgoingArchive object [Fax Service],GetMessage method, FaxOutgoingArchive.GetMessage, GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],FaxOutgoingArchive object, IFaxOutgoingArchive.GetMessage, IFaxOutgoingArchive::GetMessage, _mfax_faxoutgoingarchive.getmessage, fax._mfax_faxoutgoingarchive_getmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,9 @@ Specifies a null-terminated string that contains the message ID of the fax to re
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a></b>
+Type: <b><a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a></b>
 
-A <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object.
+A <a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a> object.
 
 
 
@@ -89,7 +89,7 @@ A <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoin
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> or <b>farQUERY_OUT_ARCHIVE</b> access right. With the <b>farSUBMIT_LOW</b> access right, the user will be able to use this method only for his own faxes. With the <b>farQUERY_OUT_ARCHIVE</b> access right, he will be able to use this method for all of the faxes on the server.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> or <b>farQUERY_OUT_ARCHIVE</b> access right. With the <b>farSUBMIT_LOW</b> access right, the user will be able to use this method only for his own faxes. With the <b>farQUERY_OUT_ARCHIVE</b> access right, he will be able to use this method for all of the faxes on the server.
 
 
 
@@ -99,15 +99,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/ffed51b3-0a07-4667-8d8d-5054362489c4">FaxOutgoingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688636(v=VS.85).aspx">IFaxOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/6bd3eb63-512e-4774-9bb7-f99d1293f2f3">IFaxOutgoingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693472(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/68f6c0f2-ea06-401c-9021-c50940f8cd7a">Visual Basic Example</a>
  
 
  

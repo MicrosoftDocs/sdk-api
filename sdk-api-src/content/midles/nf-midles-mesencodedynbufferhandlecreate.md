@@ -7,7 +7,7 @@ old-location: rpc\mesencodedynbufferhandlecreate.htm
 old-project: rpc
 ms.assetid: 4d8cb8e3-aa5a-4354-87e7-57543baa57e8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate function [RPC], _rpc_mesencodedynbufferhandlecreate, midles/MesEncodeDynBufferHandleCreate, rpc.mesencodedynbufferhandlecreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ### -param pBuffer
 
-TBD
+Pointer to a pointer to the stub-supplied buffer containing the encoding after serialization is complete.
 
 
 ### -param pEncodedSize
@@ -73,11 +73,6 @@ Pointer to the size of the completed encoding. The size will be written to the m
 ### -param pHandle
 
 Pointer to the address to which the handle will be written.
-
-
-#### - ppBuffer
-
-Pointer to a pointer to the stub-supplied buffer containing the encoding after serialization is complete.
 
 
 ## -returns

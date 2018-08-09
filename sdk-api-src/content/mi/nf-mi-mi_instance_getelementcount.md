@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getelementcount.htm
 old-project: wmi_v2
 ms.assetid: a378bde1-c164-4905-82f8-f771f8da60ba
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Instance_GetElementCount, MI_Instance_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetElementCount, wmi_v2.mi_instance_getelementcount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamparse_setparsetime.htm
 old-project: DirectShow
 ms.assetid: 52c53994-7cb7-4f50-a00d-87faa309c717
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime
 ms.prod: windows
 ms.technology: windows-sdk

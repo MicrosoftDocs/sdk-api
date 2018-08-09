@@ -7,7 +7,7 @@ old-location: ndf\inetdiaghelperex_reconfirmlowhealth.htm
 old-project: ndf
 ms.assetid: 4ac1c901-cfc3-4ef6-aceb-d496179145b8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReconfirmLowHealth method, INetDiagHelperEx.ReconfirmLowHealth, INetDiagHelperEx::ReconfirmLowHealth, ReconfirmLowHealth, ReconfirmLowHealth method [NDF], ReconfirmLowHealth method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reconfirmlowhealth, ndhelper/INetDiagHelperEx::ReconfirmLowHealth
 ms.prod: windows
 ms.technology: windows-sdk

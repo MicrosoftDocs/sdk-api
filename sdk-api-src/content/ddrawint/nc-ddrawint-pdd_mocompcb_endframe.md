@@ -7,7 +7,7 @@ old-location: display\ddmocompendframe.htm
 old-project: display
 ms.assetid: 3589f003-32fc-44c4-867a-abf54f347de9
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DdMoCompEndFrame, DdMoCompEndFrame callback function [Display Devices], PDD_MOCOMPCB_ENDFRAME, PDD_MOCOMPCB_ENDFRAME callback, ddfncs_24cad2ef-0770-46d5-a3f3-a4565ec66626.xml, ddrawint/DdMoCompEndFrame, display.ddmocompendframe
 ms.prod: windows
 ms.technology: windows-sdk

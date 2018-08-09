@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetLexicalData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getlexicaldata.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetLexicalData, GetLexicalData method [search], GetLexicalData method [search],IQuerySolution interface, IQuerySolution interface [search],GetLexicalData method, IQuerySolution.GetLexicalData, IQuerySolution::GetLexicalData, _search_IQuerySolution_GetLexicalData, search._search_IQuerySolution_GetLexicalData, structuredquery/IQuerySolution::GetLexicalData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ Receives the query string. This parameter can be <b>NULL</b>.
 
 ### -param ppTokens [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231300(v=VS.85).aspx">ITokenCollection</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/e7f5b3ce-dae2-41ec-90ff-9ab49e0301bd">ITokenCollection</a>**</b>
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231300(v=VS.85).aspx">ITokenCollection</a> object that describes how the query was tokenized. This parameter can be <b>NULL</b>.
+Receives a pointer to an <a href="https://msdn.microsoft.com/e7f5b3ce-dae2-41ec-90ff-9ab49e0301bd">ITokenCollection</a> object that describes how the query was tokenized. This parameter can be <b>NULL</b>.
             
 
 
@@ -86,7 +86,7 @@ Receives a LCID for the word breaker used for this query. This parameter can be 
 
 ### -param ppWordBreaker [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
+Type: <b><a href="33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
 Receives a pointer to the word breaker used for this query. This parameter can be <b>NULL</b>.
             

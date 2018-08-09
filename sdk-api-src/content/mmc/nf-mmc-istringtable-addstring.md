@@ -7,7 +7,7 @@ old-location: mmc\istringtable_addstring.htm
 old-project: MMC
 ms.assetid: fd4672fb-89d1-4542-b917-58c01290c928
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: AddString, AddString method [MMC], AddString method [MMC],IStringTable interface, IStringTable interface [MMC],AddString method, IStringTable.AddString, IStringTable::AddString, _slate_istringtable_addstring, mmc.istringtable_addstring, mmc/IStringTable::AddString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetThemeSysString function
 author: windows-sdk-content
 description: Retrieves the value of a system string.
 old-location: controls\GetThemeSysString.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysstring.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetThemeSysString, GetThemeSysString function [Windows Controls], TMT_CSSNAME, TMT_XMLNAME, controls.GetThemeSysString, controls.inet_GetThemeSysString, inet_GetThemeSysString, inet_GetThemeSysString_cpp, uxtheme/GetThemeSysString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,26 +66,7 @@ Type: <b>HTHEME</b>
 Handle to theme data.
 
 
-### -param iStringId
-
-TBD
-
-
-### -param pszStringBuff [out]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
-
-Pointer to the buffer that receives the string value from this function.
-
-
-### -param cchMaxStringChars [in]
-
-Type: <b>int</b>
-
-Value of type <b>int</b> that specifies the maximum number of characters the string buffer can hold.
-
-
-#### - iStringID [in]
+### -param iStringId [in]
 
 Type: <b>int</b>
 
@@ -118,6 +99,20 @@ The name of the XML file associated with the theme specified by <i>hTheme</i>.
 </tr>
 </table>
  
+
+
+### -param pszStringBuff [out]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
+
+Pointer to the buffer that receives the string value from this function.
+
+
+### -param cchMaxStringChars [in]
+
+Type: <b>int</b>
+
+Value of type <b>int</b> that specifies the maximum number of characters the string buffer can hold.
 
 
 ## -returns

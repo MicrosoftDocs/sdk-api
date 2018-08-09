@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecamvideoaccelerator.htm
 old-project: wmformat
 ms.assetid: 48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [windows Media Format], IWMCodecAMVideoAccelerator interface [windows Media Format],described, IWMCodecAMVideoAcceleratorInterface, wmdxva/IWMCodecAMVideoAccelerator, wmformat.iwmcodecamvideoaccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-This interface is exposed by the Windows Media Decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/e38c02bb-335c-4f93-9e98-1a9dc65a37c5">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
+This interface is exposed by the Windows Media Decoder <a href="wmformat_glossary.htm">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/e38c02bb-335c-4f93-9e98-1a9dc65a37c5">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
 
 
 

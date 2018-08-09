@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_usersize64.htm
 old-project: automat
 ms.assetid: 5F41D197-027E-4640-833A-4F6239F0DFB0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation], automat.lpsafearray_usersize64, wia_xp/LPSAFEARRAY_UserSize64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in]
+
+The data used by RPC.
+
+
 #### - Offset [in]
 
 Sets the buffer offset so that the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
-
-
-#### - pFlags [in]
-
-The data used by RPC.
 
 
 #### - ppSafeArray [in]

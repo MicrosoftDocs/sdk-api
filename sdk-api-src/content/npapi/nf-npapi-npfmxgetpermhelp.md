@@ -7,7 +7,7 @@ old-location: security\npfmxgetpermhelp.htm
 old-project: secauthn
 ms.assetid: a7bf24fb-a775-4a13-a808-86a0d4d25332
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPFMXGetPermHelp, NPFMXGetPermHelp function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxgetpermhelp, npapi/NPFMXGetPermHelp, security.npfmxgetpermhelp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,37 +64,7 @@ Retrieves the help file and help context of the permission editor dialog boxes w
 Pointer to the name of the drive currently selected in File Manager.
 
 
-### -param nDialogType
-
-TBD
-
-
-### -param fDirectory [in]
-
-Specifies whether the selected item is a directory. This should be set to <b>TRUE</b> if the selected item in File Manager is a directory, and <b>FALSE</b> if it is a file.
-
-
-### -param lpFileNameBuffer
-
-TBD
-
-
-### -param lpBufferSize [in, out]
-
-Pointer to a <b>DWORD</b> that specifies the size of the buffer passed in. If <i>lpBuffer</i> is not large enough, on return, this contains the size of buffer needed.
-
-
-### -param lpnHelpContext [out]
-
-Pointer to a <b>DWORD</b> that will receive the help context for the given <i>nType</i>.
-
-
-#### - lpBuffer [in, out]
-
-Pointer to a buffer that will receive the help file name.
-
-
-#### - nType [in]
+### -param nDialogType [in]
 
 Specifies the menu item in the <b>Security</b> menu of File Manager on which to bring up Help. This can be one of the following values. 
 
@@ -142,12 +112,31 @@ Show help on the <b>Owner</b> menu item.
  
 
 
+### -param fDirectory [in]
+
+Specifies whether the selected item is a directory. This should be set to <b>TRUE</b> if the selected item in File Manager is a directory, and <b>FALSE</b> if it is a file.
+
+
+### -param lpFileNameBuffer [in, out]
+
+Pointer to a buffer that will receive the help file name.
+
+
+### -param lpBufferSize [in, out]
+
+Pointer to a <b>DWORD</b> that specifies the size of the buffer passed in. If <i>lpBuffer</i> is not large enough, on return, this contains the size of buffer needed.
+
+
+### -param lpnHelpContext [out]
+
+Pointer to a <b>DWORD</b> that will receive the help context for the given <i>nType</i>.
+
+
 ## -returns
 
 
 
-
-						If the function succeeds, the function should return WN_SUCCESS.
+If the function succeeds, the function should return WN_SUCCESS.
 
 If the function fails, it should call 
 <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to set extended error information, which may include the following values.

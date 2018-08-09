@@ -7,7 +7,7 @@ old-location: com\cotaskmemfree.htm
 old-project: com
 ms.assetid: 3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoTaskMemFree, CoTaskMemFree function [COM], _com_CoTaskMemFree, com.cotaskmemfree, combaseapi/CoTaskMemFree
 ms.prod: windows
 ms.technology: windows-sdk

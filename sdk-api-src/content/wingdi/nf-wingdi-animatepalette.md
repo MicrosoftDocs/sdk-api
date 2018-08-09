@@ -7,7 +7,7 @@ old-location: gdi\animatepalette.htm
 old-project: gdi
 ms.assetid: 65dd45e2-39a4-4a94-bd14-b0c8e4a609a3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AnimatePalette, AnimatePalette function [Windows GDI], _win32_AnimatePalette, gdi.animatepalette, wingdi/AnimatePalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>AnimatePalette</b> function replaces entries in the specified logical pal
 
 
 
-### -param hPal
+### -param hPal [in]
 
-TBD
+A handle to the logical palette.
 
 
 ### -param iStartIndex [in]
@@ -79,11 +79,6 @@ The number of entries to be replaced.
 ### -param ppe [in]
 
 A pointer to the first member in an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures used to replace the current entries.
-
-
-#### - hpal [in]
-
-A handle to the logical palette.
 
 
 ## -returns

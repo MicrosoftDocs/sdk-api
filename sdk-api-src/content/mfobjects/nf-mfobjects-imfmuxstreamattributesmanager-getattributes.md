@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
 old-project: medfound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The attributes for the specified substream.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ The attributes for the specified substream.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -105,8 +103,7 @@ The attributes for the specified substream.
 </dl>
 </td>
 <td width="60%">
-
-                Invalid argument.
+Invalid argument.
               
 
 </td>
@@ -118,8 +115,7 @@ The attributes for the specified substream.
 </dl>
 </td>
 <td width="60%">
-
-                The stream specified substream index is invalid. Call <a href="https://msdn.microsoft.com/631802B5-00F7-4219-9B21-5A1FB8628477">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
+The stream specified substream index is invalid. Call <a href="https://msdn.microsoft.com/631802B5-00F7-4219-9B21-5A1FB8628477">GetStreamCount</a> to get the number of substreams managed by the multiplexed media source.
 
 </td>
 </tr>

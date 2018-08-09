@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getpreviousprogram.htm
 old-project: mstv
 ms.assetid: 9c03a5c9-9dc1-4163-bbc8-8dae2037eb24
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetPreviousProgram, GetPreviousProgram method [Microsoft TV Technologies], GetPreviousProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousProgram method, ITuneRequestInfo.GetPreviousProgram, ITuneRequestInfo::GetPreviousProgram, ITuneRequestInfoGetPreviousProgram, bdatif/ITuneRequestInfo::GetPreviousProgram, mstv.itunerequestinfo_getpreviousprogram
 ms.prod: windows
 ms.technology: windows-sdk

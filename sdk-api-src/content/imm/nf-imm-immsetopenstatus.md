@@ -7,7 +7,7 @@ old-location: intl\immsetopenstatus.htm
 old-project: Intl
 ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,26 +61,14 @@ Opens or closes the IME.
 
 
 
-### -param HIMC
-
-TBD
-
-
-### -param BOOL
-
-TBD
-
-
-
-
-#### - fOpen [in]
-
-<b>TRUE</b> if the IME is open, or <b>FALSE</b> if it is closed.
-
-
-#### - hIMC [in]
+### -param HIMC [in]
 
 Handle to the input context.
+
+
+### -param BOOL [in]
+
+<b>TRUE</b> if the IME is open, or <b>FALSE</b> if it is closed.
 
 
 ## -returns

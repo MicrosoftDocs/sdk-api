@@ -7,7 +7,7 @@ old-location: wmformat\wmt_rights.htm
 old-project: wmformat
 ms.assetid: 52a9a5ec-58fb-4804-8f56-4d863c738934
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WMT_RIGHTS, WMT_RIGHTS enumeration [windows Media Format], WMT_RIGHT_COLLABORATIVE_PLAY, WMT_RIGHT_COPY, WMT_RIGHT_COPY_TO_CD, WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE, WMT_RIGHT_COPY_TO_SDMI_DEVICE, WMT_RIGHT_ONE_TIME, WMT_RIGHT_PLAYBACK, WMT_RIGHT_SAVE_STREAM_PROTECTED, WMT_RIGHT_SDMI_NOMORECOPIES, WMT_RIGHT_SDMI_TRIGGER, enumeration [windows Media Format], wmformat.wmt_rights, wmsdkidl/WMT_RIGHTS, wmsdkidl/WMT_RIGHT_COLLABORATIVE_PLAY, wmsdkidl/WMT_RIGHT_COPY, wmsdkidl/WMT_RIGHT_COPY_TO_CD, wmsdkidl/WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE, wmsdkidl/WMT_RIGHT_COPY_TO_SDMI_DEVICE, wmsdkidl/WMT_RIGHT_ONE_TIME, wmsdkidl/WMT_RIGHT_PLAYBACK, wmsdkidl/WMT_RIGHT_SAVE_STREAM_PROTECTED, wmsdkidl/WMT_RIGHT_SDMI_NOMORECOPIES, wmsdkidl/WMT_RIGHT_SDMI_TRIGGER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Specifies the right to play content without restriction.
 
 ### -field WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE
 
-Specifies the right to copy content to a device not compliant with the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">Secure Digital Music Initiative (SDMI)</a>.
+Specifies the right to copy content to a device not compliant with the <a href="wmformat_glossary.htm">Secure Digital Music Initiative (SDMI)</a>.
 
 
 ### -field WMT_RIGHT_COPY_TO_CD

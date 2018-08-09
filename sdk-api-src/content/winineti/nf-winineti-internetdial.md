@@ -4,10 +4,10 @@ title: InternetDial function
 author: windows-sdk-content
 description: Initiates a connection to the Internet using a modem.
 old-location: wininet\internetdial.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, InternetDialW, _inet_internetdial_function, wininet.internetdial, winineti/InternetDial, winineti/InternetDialA, winineti/InternetDialW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ Initiates a connection to the Internet using a modem.
 Handle to the parent window.
 
 
-### -param lpszConnectoid
+### -param lpszConnectoid [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that specifies the name of the dial-up connection to be used. If this parameter contains the empty string (""), the user chooses the connection. If this parameter is <b>NULL</b>, the function connects to the autodial connection.
 
 
 ### -param dwFlags [in]
@@ -147,11 +147,6 @@ Pointer to a variable that specifies the connection number. This number is a uni
 ### -param dwReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
-
-
-#### - pszEntryName [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the name of the dial-up connection to be used. If this parameter contains the empty string (""), the user chooses the connection. If this parameter is <b>NULL</b>, the function connects to the autodial connection.
 
 
 ## -returns

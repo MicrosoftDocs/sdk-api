@@ -7,7 +7,7 @@ old-location: stg\stgopenstorageex.htm
 old-project: stg
 ms.assetid: 4f2138fb-1f80-4345-a3cb-9c11023457b1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _stg_stgopenstorageex, coml2api/StgOpenStorageEx, stg.stgopenstorageex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>StgOpenStorageEx</b> function opens an existing root storage object in the file system. Use this function to open <a href="https://msdn.microsoft.com/23b425e6-dfe5-403b-8f43-de6843a03dcd">Compound Files</a> and regular files. To create a new file, use the 
+The <b>StgOpenStorageEx</b> function opens an existing root storage object in the file system. Use this function to open <a href="https://msdn.microsoft.com/23b425e6-dfe5-403b-8f43-de6843a03dcd">Compound Files</a> and regular files. To create a new file, use the 
 <a href="https://msdn.microsoft.com/6442977d-e980-419e-abe9-9d15dbb045c1">StgCreateStorageEx</a> function.
 <div class="alert"><b>Note</b>  To use enhancements, all Windows 2000, Windows XP, and Windows Server 2003 applications should call <b>StgOpenStorageEx</b>, instead of 
 <a href="https://msdn.microsoft.com/5ff18dc8-b24f-42bb-8c32-efc4d3696687">StgOpenStorage</a>. The 
@@ -82,7 +81,7 @@ A value that specifies the access mode to open the new storage object. For more 
 If the storage object is opened in direct mode (<b>STGM_DIRECT</b>) with access to either <b>STGM_WRITE</b> or <b>STGM_READWRITE</b>, the sharing mode must be <b>STGM_SHARE_EXCLUSIVE</b> unless the <b>STGM_DIRECT_SWMR</b> mode is specified. For more information, see the Remarks section. If the storage object is opened in direct mode with access to <b>STGM_READ</b>, the sharing mode must be either <b>STGM_SHARE_EXCLUSIVE</b> or <b>STGM_SHARE_DENY_WRITE</b>, unless <b>STGM_PRIORITY</b> or <b>STGM_DIRECT_SWMR</b> is specified. For more information, see the Remarks section.
 
 The mode in which a file is opened can affect implementation performance. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa380364(v=VS.85).aspx">Compound File Implementation Limits</a>.
+<a href="structured_storage_interfaces.htm">Compound File Implementation Limits</a>.
 
 
 ### -param stgfmt [in]
@@ -105,9 +104,9 @@ A pointer to an
 <b>StgOpenStorageEx</b>. For more information, see the <b>STGOPTIONS</b> structure.
 
 
-### -param pSecurityDescriptor
+### -param pSecurityDescriptor [in]
 
-TBD
+Reserved; must be zero.
 
 
 ### -param riid [in]
@@ -122,18 +121,12 @@ A value that specifies the GUID of the interface pointer to return. Can also be 
 The address of an interface pointer variable that receives a pointer for an interface on the storage object opened; contains <b>NULL</b> if operation failed.
 
 
-#### - reserved2 [in]
-
-Reserved; must be zero.
-
-
 ## -returns
 
 
 
-
-						This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see <a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
+This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see <a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

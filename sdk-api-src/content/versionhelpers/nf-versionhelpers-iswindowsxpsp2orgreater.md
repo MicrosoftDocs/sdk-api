@@ -7,7 +7,7 @@ old-location: base\iswindowsxpsp2orgreater.htm
 old-project: SysInfo
 ms.assetid: DA957BA8-AD28-4096-8BE5-B77CA55B9324
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: IsWindowsXPSP2OrGreater, IsWindowsXPSP2OrGreater function, base.iswindowsxpsp2orgreater, versionhelpers/IsWindowsXPSP2OrGreater
 ms.prod: windows
 ms.technology: windows-sdk

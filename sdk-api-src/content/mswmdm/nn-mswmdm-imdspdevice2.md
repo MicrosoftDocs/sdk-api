@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice2.htm
 old-project: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager],described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
 ms.prod: windows
 ms.technology: windows-sdk

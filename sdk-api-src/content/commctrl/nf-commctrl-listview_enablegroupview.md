@@ -7,7 +7,7 @@ old-location: controls\ListView_EnableGroupView.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_enablegroupview.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_EnableGroupView, ListView_EnableGroupView macro [Windows Controls], _win32_ListView_EnableGroupView, _win32_ListView_EnableGroupView_cpp, commctrl/ListView_EnableGroupView, controls.ListView_EnableGroupView, controls._win32_ListView_EnableGroupView
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774900(v=VS.85).aspx">LVM_ENABLEGROUPVIEW</a> message explicitly. 
+Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the <a href="https://msdn.microsoft.com/783a5e23-d1cb-4523-a6d2-b2cf93fa7f62">LVM_ENABLEGROUPVIEW</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-To use <b>ListView_EnableGroupView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_EnableGroupView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

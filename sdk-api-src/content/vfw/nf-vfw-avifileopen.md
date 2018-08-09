@@ -7,7 +7,7 @@ old-location: multimedia\avifileopen.htm
 old-project: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,18 +77,6 @@ Null-terminated string containing the name of the file to open.
 
 ### -param uMode
 
-TBD
-
-
-### -param lpHandler
-
-TBD
-
-
-
-
-#### - mode
-
 Access mode to use when opening the file. The default access mode is OF_READ. The following access modes can be specified with <b>AVIFileOpen</b>.
 
 <table>
@@ -138,7 +126,7 @@ Access mode to use when opening the file. The default access mode is OF_READ. Th
  
 
 
-#### - pclsidHandler
+### -param lpHandler
 
 Pointer to a class identifier of the standard or custom handler you want to use. If the value is <b>NULL</b>, the system chooses a handler from the registry based on the file extension or the RIFF type specified in the file.
 

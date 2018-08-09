@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping method obtains a specific alternate location mapping of a file set.
 old-location: base\ivssexaminewritermetadata_getalternatelocationmapping.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetAlternateLocationMapping method, IVssExamineWriterMetadata.GetAlternateLocationMapping, IVssExamineWriterMetadata::GetAlternateLocationMapping, _win32_ivssexaminewritermetadata_getalternatelocationmapping, base.ivssexaminewritermetadata_getalternatelocationmapping, vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -199,7 +199,7 @@ Again, if no valid alternate location mapping is defined, this constitutes a wri
 
 An alternate location mapping is used only during a restore operation and should not be confused with an alternate path, which is used only during a backup operation.
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

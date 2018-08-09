@@ -7,7 +7,7 @@ old-location: bits\bits_job_property_id.htm
 old-project: bits
 ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: BITS_JOB_PROPERTY_DYNAMIC_CONTENT, BITS_JOB_PROPERTY_HIGH_PERFORMANCE, BITS_JOB_PROPERTY_ID, BITS_JOB_PROPERTY_ID enumeration [BITS], BITS_JOB_PROPERTY_ID_COST_FLAGS, BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, BITS_JOB_PROPERTY_NOTIFICATION_CLSID, BITS_JOB_PROPERTY_ON_DEMAND_MODE, BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS, __MIDL___MIDL_itf_bits5_0_0000_0000_0002, bits.bits_job_property_id, bits5_0/BITS_JOB_PROPERTY_DYNAMIC_CONTENT, bits5_0/BITS_JOB_PROPERTY_HIGH_PERFORMANCE, bits5_0/BITS_JOB_PROPERTY_ID, bits5_0/BITS_JOB_PROPERTY_ID_COST_FLAGS, bits5_0/BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, bits5_0/BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, bits5_0/BITS_JOB_PROPERTY_NOTIFICATION_CLSID, bits5_0/BITS_JOB_PROPERTY_ON_DEMAND_MODE, bits5_0/BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>BITS_JOB_PROPERTY_ID</b> enumeration specifies the
 ### -field BITS_JOB_PROPERTY_ID_COST_FLAGS
 
 The ID that is used to 
-      <a href="https://msdn.microsoft.com/library/Hh446785(v=VS.85).aspx">control transfer behavior</a> over cellular and/or 
+      <a href="bits_job_transfer_policy.htm">control transfer behavior</a> over cellular and/or 
       similar networks. This property may be changed while a transfer is ongoing – the new cost flags will take effect immediately. 
 
 
@@ -74,7 +74,7 @@ This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>Dword</b> field.
 
 ### -field BITS_JOB_PROPERTY_NOTIFICATION_CLSID
 
-    The ID that is used to <a href="https://msdn.microsoft.com/library/Aa363146(v=VS.85).aspx">register a COM callback</a> by CLSID to receive notifications about the progress and completion of a BITS job. The CLSID must refer to a class associated with a registered out-of-process COM server. It may also be set to <b>GUID_NULL</b> to clear a previously set notification CLSID. 
+    The ID that is used to <a href="registering_a_com_callback.htm">register a COM callback</a> by CLSID to receive notifications about the progress and completion of a BITS job. The CLSID must refer to a class associated with a registered out-of-process COM server. It may also be set to <b>GUID_NULL</b> to clear a previously set notification CLSID. 
 
 
 This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>CLsID</b> field. 
@@ -83,7 +83,7 @@ This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>CLsID</b> field.
 
 ### -field BITS_JOB_PROPERTY_DYNAMIC_CONTENT
 
-    The ID for marking a BITS job as being willing to download  content which does not support the normal <a href="https://msdn.microsoft.com/library/Aa362846(v=VS.85).aspx">HTTP requirements for BITS downloads</a>: HEAD requests, the Content-Length header, and the Content-Range header. Downloading this type of content is opt-in, because BITS cannot pause and resume downloads jobs without that support. If a job with this property enabled is interrupted for any reason, such as a temporary loss of network connectivity or the system rebooting, BITS will restart the download from the beginning instead of resuming where it left off. BITS also cannot throttle bandwidth usage for dynamic downloads; BITS will not perform unthrottled transfers for any job that does not have <b>BG_JOB_PRIORITY_FOREGROUND</b> assigned, so you should typically set that priority every time you use set a job as allowing dynamic content. 
+    The ID for marking a BITS job as being willing to download  content which does not support the normal <a href="http_requirements_for_bits_downloads.htm">HTTP requirements for BITS downloads</a>: HEAD requests, the Content-Length header, and the Content-Range header. Downloading this type of content is opt-in, because BITS cannot pause and resume downloads jobs without that support. If a job with this property enabled is interrupted for any reason, such as a temporary loss of network connectivity or the system rebooting, BITS will restart the download from the beginning instead of resuming where it left off. BITS also cannot throttle bandwidth usage for dynamic downloads; BITS will not perform unthrottled transfers for any job that does not have <b>BG_JOB_PRIORITY_FOREGROUND</b> assigned, so you should typically set that priority every time you use set a job as allowing dynamic content. 
 
 
 This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>Enable</b> field. This property is only supported for <b>BG_JOB_TYPE_DOWNLOAD</b> jobs. It is not supported for downloads that use <b>FILE_RANGES</b>. This property may only be set prior to the first time <b>Resume</b> is called on a job.
@@ -112,7 +112,7 @@ and restart the job from the beginning instead of resuming from where it left of
 
 ### -field BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS
 
-    The ID for marking a BITS job as being willing to include default credentials in requests to proxy servers. Enabling this property is equivalent to setting a <a href="https://msdn.microsoft.com/077d6275-8600-4091-b78e-419a41a2101a">WinHTTP security level</a> of <b>WINHTTP_AUTOLOGON_SECURITY_LEVEL_MEDIUM</b> on the requests that BITS makes on the user’s behalf. The user BITS retrieves stored credentials from the is the same as the one it makes network requests on behalf of: BITS will normally use the job owner’s credentials, unless you have explicitly provided a network <a href="https://msdn.microsoft.com/library/Dd904467(v=VS.85).aspx">helper token</a>, in which case BITS will use the network helper token’s credentials.
+    The ID for marking a BITS job as being willing to include default credentials in requests to proxy servers. Enabling this property is equivalent to setting a <a href="https://msdn.microsoft.com/077d6275-8600-4091-b78e-419a41a2101a">WinHTTP security level</a> of <b>WINHTTP_AUTOLOGON_SECURITY_LEVEL_MEDIUM</b> on the requests that BITS makes on the user’s behalf. The user BITS retrieves stored credentials from the is the same as the one it makes network requests on behalf of: BITS will normally use the job owner’s credentials, unless you have explicitly provided a network <a href="helper_tokens_for_bits_transfer_jobs.htm">helper token</a>, in which case BITS will use the network helper token’s credentials.
 
     This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>Target</b> field. However, only the <b>BG_AUTH_TARGET_PROXY</b> target is supported.
 
@@ -130,8 +130,6 @@ This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>Dword</b> field.
 ### -field BITS_JOB_PROPERTY_ON_DEMAND_MODE
 
 The ID that is used to control whether a job is in On Demand mode. On Demand jobs allow the app to request particular ranges for a file download instead of downloading from the start to the end. The default value is <b>FALSE</b>; the job is not on-demand. Ranges are requested using the <a href="https://msdn.microsoft.com/C36BDE94-03AC-4F06-B17B-B8729226F8AC">IBackgroundCopyFile6::RequestFileRanges</a> method.
-
-
 
 This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>Enable</b> field.   
 

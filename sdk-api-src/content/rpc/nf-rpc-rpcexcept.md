@@ -7,7 +7,7 @@ old-location: rpc\rpcexcept.htm
 old-project: rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,15 +63,6 @@ The
 
 
 ### -param expr
-
-TBD
-
-
-
-
-
-
-#### - expression
 
 Expression that is evaluated when an exception occurs. If <i>expression</i> evaluates to a nonzero value, the exception statements are executed. If <i>expression</i> evaluates to a zero value, unwinding continues to the next 
 <a href="https://msdn.microsoft.com/3addb367-4bdc-4c11-bf4d-b5b94da45b26">RpcTryExcept</a> or 

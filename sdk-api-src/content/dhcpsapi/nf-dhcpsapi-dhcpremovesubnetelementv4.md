@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremovesubnetelementv4.htm
 old-project: dhcp
 ms.assetid: 30edda5e-17de-46ec-9a6a-eab26a6ed29a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpRemoveSubnetElementV4, DhcpRemoveSubnetElementV4 function [DHCP], dhcp.dhcpremovesubnetelementv4, dhcpsapi/DhcpRemoveSubnetElementV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,8 +160,7 @@ At least one multicast IPv4 address has been leased out to a MADCAP client.
 
 
 
-<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">
-        DHCP_FORCE_FLAG</a>
+<a href="https://msdn.microsoft.com/2ec45a99-432d-4218-9048-81714ceff36b">DHCP_FORCE_FLAG</a>
 
 
 

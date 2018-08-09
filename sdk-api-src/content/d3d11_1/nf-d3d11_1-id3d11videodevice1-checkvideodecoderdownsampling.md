@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1_checkvideodecoderdownsampling.htm
 old-project: medfound
 ms.assetid: EB05C2F7-AC7A-42BD-A661-5101641A920C
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CheckVideoDecoderDownsampling, CheckVideoDecoderDownsampling method [Media Foundation], CheckVideoDecoderDownsampling method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],CheckVideoDecoderDownsampling method, ID3D11VideoDevice1.CheckVideoDecoderDownsampling, ID3D11VideoDevice1::CheckVideoDecoderDownsampling, d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling, mf.id3d11videodevice1_checkvideodecoderdownsampling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ The configuration data associated with the decode profile.
 
 ### -param pFrameRate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>*</b>
 
 The frame rate of the video content. This is used by the driver to determine whether the video can be decoded in real-time. 
 
@@ -111,7 +111,7 @@ Pointer to a boolean value set by the driver that indicates if real-time decodin
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

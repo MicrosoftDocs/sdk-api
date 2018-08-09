@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject_getprivatedata.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData, GetPrivateData method [DXGI], GetPrivateData method [DXGI],IDXGIObject interface, IDXGIObject interface [DXGI],GetPrivateData method, IDXGIObject.GetPrivateData, IDXGIObject::GetPrivateData, direct3ddxgi.idxgiobject_getprivatedata, dxgi/IDXGIObject::GetPrivateData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,9 @@ Pointer to the data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 
@@ -96,18 +96,18 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb50955
 
 
 
-If the data returned is a pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, or one of its derivative classes, previously set by <a href="https://msdn.microsoft.com/library/Bb174545(v=VS.85).aspx">IDXGIObject::SetPrivateDataInterface</a>, you must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">::Release()</a> on the pointer before the pointer is freed to decrement the reference count.
+If the data returned is a pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, or one of its derivative classes, previously set by <a href="https://msdn.microsoft.com/7b64aa3a-ccb3-4aed-a37b-58e4bd77ed8c">IDXGIObject::SetPrivateDataInterface</a>, you must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">::Release()</a> on the pointer before the pointer is freed to decrement the reference count.
 
-You can pass <b>GUID_DeviceType</b> in the <i>Name</i> parameter of <b>GetPrivateData</b> to retrieve the device type from the display adapter object (<a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>, <a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a>, <a href="https://msdn.microsoft.com/9AAD133C-CE40-498B-827F-2B35C7C15B8C">IDXGIAdapter2</a>). 
+You can pass <b>GUID_DeviceType</b> in the <i>Name</i> parameter of <b>GetPrivateData</b> to retrieve the device type from the display adapter object (<a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>, <a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a>, <a href="https://msdn.microsoft.com/9AAD133C-CE40-498B-827F-2B35C7C15B8C">IDXGIAdapter2</a>). 
 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To get the type of device on which the display adapter was created</b>
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> or <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> object to retrieve the <a href="https://msdn.microsoft.com/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> object.</li>
-<li>Call <a href="https://msdn.microsoft.com/library/Bb174542(v=VS.85).aspx">GetParent</a> on the <a href="https://msdn.microsoft.com/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> object to retrieve the <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> object.</li>
-<li>Call <b>GetPrivateData</b> on the <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> object with <b>GUID_DeviceType</b> to retrieve the type of device on which the display adapter was created. <i>pData</i> will point to a value from the driver-type enumeration (for example, a value from <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-488c-80a8-6c5e11986d6a">D3D_DRIVER_TYPE</a>).</li>
+<li>Call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> or <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a> object to retrieve the <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a> object.</li>
+<li>Call <a href="https://msdn.microsoft.com/7e7f7494-445e-4bf1-8b94-fc40b7d9b887">GetParent</a> on the <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a> object to retrieve the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> object.</li>
+<li>Call <b>GetPrivateData</b> on the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> object with <b>GUID_DeviceType</b> to retrieve the type of device on which the display adapter was created. <i>pData</i> will point to a value from the driver-type enumeration (for example, a value from <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-488c-80a8-6c5e11986d6a">D3D_DRIVER_TYPE</a>).</li>
 </ol>
-On Windows 7 or earlier, this type is either a value from <a href="https://msdn.microsoft.com/library/Bb205042(v=VS.85).aspx">D3D10_DRIVER_TYPE</a> or <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-488c-80a8-6c5e11986d6a">D3D_DRIVER_TYPE</a> depending on which kind of device was created. On Windows 8, this type is always a value from <b>D3D_DRIVER_TYPE</b>. Don't use <a href="https://msdn.microsoft.com/library/Bb174544(v=VS.85).aspx">IDXGIObject::SetPrivateData</a> with <b>GUID_DeviceType</b> because the behavior when doing so is undefined.
+On Windows 7 or earlier, this type is either a value from <a href="https://msdn.microsoft.com/0dc66bd9-4e88-460f-a05d-b78347a29cad">D3D10_DRIVER_TYPE</a> or <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-488c-80a8-6c5e11986d6a">D3D_DRIVER_TYPE</a> depending on which kind of device was created. On Windows 8, this type is always a value from <b>D3D_DRIVER_TYPE</b>. Don't use <a href="https://msdn.microsoft.com/fd34c22f-a8fa-4012-be4c-e251b951261f">IDXGIObject::SetPrivateData</a> with <b>GUID_DeviceType</b> because the behavior when doing so is undefined.
 
 
 
@@ -121,7 +121,7 @@ On Windows 7 or earlier, this type is either a value from <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

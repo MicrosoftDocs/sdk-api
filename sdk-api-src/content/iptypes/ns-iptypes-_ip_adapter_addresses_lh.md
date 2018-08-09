@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_addresses.htm
 old-project: iphlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_LH, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_ADAPTER_ADDRESSES, IP_ADAPTER_ADDRESSES structure [IP Helper], IP_ADAPTER_ADDRESSES_LH, IP_ADAPTER_ADDRESSES_XP, IP_ADAPTER_DDNS_ENABLED, IP_ADAPTER_DHCP_ENABLED, IP_ADAPTER_IPV4_ENABLED, IP_ADAPTER_IPV6_ENABLED, IP_ADAPTER_IPV6_MANAGE_ADDRESS_CONFIG, IP_ADAPTER_IPV6_OTHER_STATEFUL_CONFIG, IP_ADAPTER_NETBIOS_OVER_TCPIP_ENABLED, IP_ADAPTER_NO_MULTICAST, IP_ADAPTER_RECEIVE_ONLY, IP_ADAPTER_REGISTER_ADAPTER_SUFFIX, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, PIP_ADAPTER_ADDRESSES, PIP_ADAPTER_ADDRESSES structure pointer [IP Helper], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _IP_ADAPTER_ADDRESSES_LH, _iphlp_ip_adapter_addresses, iphlp.ip_adapter_addresses, iptypes/IP_ADAPTER_ADDRESSES, iptypes/PIP_ADAPTER_ADDRESSES"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -1061,19 +1061,15 @@ The order of  linked <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b
     member do not reflect the order that IP addresses were added to an adapter and may vary between versions of Windows. 
 
  In addition, the linked <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member and the linked <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae58-dcf34ee6cf31">IP_ADAPTER_PREFIX</a>
-   structures pointed to by the <b>FirstPrefix</b> 
+    member and the linked <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae58-dcf34ee6cf31">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
     member are maintained as separate internal linked lists by the operating system. As a result, the order of linked <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member does not have any relationship with the order of linked <b>IP_ADAPTER_PREFIX</b>
-   structures pointed to by the <b>FirstPrefix</b> 
+    member does not have any relationship with the order of linked <b>IP_ADAPTER_PREFIX</b>structures pointed to by the <b>FirstPrefix</b> 
     member. 
 
-On Windows Vista and later, the linked <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae58-dcf34ee6cf31">IP_ADAPTER_PREFIX</a>
-   structures pointed to by the <b>FirstPrefix</b> 
+On Windows Vista and later, the linked <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae58-dcf34ee6cf31">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
     member include three IP adapter prefixes for each IP address assigned to the adapter. These include the host IP address prefix, the subnet IP address prefix, and the subnet broadcast IP address prefix. In addition, for each adapter there is a multicast address prefix and a broadcast address prefix.
 
-On Windows XP with SP1 and later prior to Windows Vista, the linked <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae58-dcf34ee6cf31">IP_ADAPTER_PREFIX</a>
-   structures pointed to by the <b>FirstPrefix</b> 
+On Windows XP with SP1 and later prior to Windows Vista, the linked <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae58-dcf34ee6cf31">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
     member include only a single IP adapter prefix for each IP address assigned to the adapter. 
 
 In the Windows SDK, the version of the structure for use on Windows Vista and later is  defined as 

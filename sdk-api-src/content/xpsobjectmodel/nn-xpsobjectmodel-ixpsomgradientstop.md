@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstop.htm
 old-project: printdocs
 ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
 ms.prod: windows
 ms.technology: windows-sdk

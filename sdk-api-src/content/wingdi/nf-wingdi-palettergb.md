@@ -7,7 +7,7 @@ old-location: gdi\palettergb.htm
 old-project: gdi
 ms.assetid: affe6d0f-2827-4de1-a21e-8fdcdad85fc5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PALETTERGB, PALETTERGB macro [Windows GDI], _win32_PALETTERGB, gdi.palettergb, wingdi/PALETTERGB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,36 +64,17 @@ The <b>PALETTERGB</b> macro accepts three values that represent the relative int
 
 ### -param r
 
-TBD
+The intensity of the red color field.
 
 
 ### -param g
 
-TBD
+The intensity of the green color field.
 
 
 ### -param b
 
-TBD
-
-
-
-
-
-
-#### - bBlue
-
 The intensity of the blue color field.
-
-
-#### - bGreen
-
-The intensity of the green color field.
-
-
-#### - bRed
-
-The intensity of the red color field.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofile.htm
 old-project: medfound
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IMFSensorProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845822(v=VS.85).aspx">AddBlockedControl</a>
+<a href="mf.imfsensorprofile_addblockedcontrol">AddBlockedControl</a>
 </td>
 <td align="left" width="63%">
     Adds the specified blocked control .
@@ -80,7 +80,7 @@ The <b>IMFSensorProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845823(v=VS.85).aspx">AddProfileFilter</a>
+<a href="mf.imfsensorprofile_addprofilefilter">AddProfileFilter</a>
 </td>
 <td align="left" width="63%">
 Adds a profile filter to the specified media stream.
@@ -89,7 +89,7 @@ Adds a profile filter to the specified media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845824(v=VS.85).aspx">GetProfileId</a>
+<a href="mf.imfsensorprofile_getprofileid">GetProfileId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sensor profile ID.
@@ -98,7 +98,7 @@ Retrieves the sensor profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845825(v=VS.85).aspx">IsMediaTypeSupported</a>
+<a href="mf.imfsensorprofile_ismediatypesupported">IsMediaTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if a media stream supports the specified media type.

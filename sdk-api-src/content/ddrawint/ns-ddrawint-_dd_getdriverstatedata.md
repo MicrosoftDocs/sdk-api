@@ -7,7 +7,7 @@ old-location: display\dd_getdriverstatedata.htm
 old-project: display
 ms.assetid: a8b02b56-1733-467b-bd11-0185e6778d34
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: "*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA structure [Display Devices], _DD_GETDRIVERSTATEDATA, d3dstrct_a7ee9601-b71c-4ff4-8ac5-37b62608d463.xml, ddrawint/DD_GETDRIVERSTATEDATA, display.dd_getdriverstatedata"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,9 +147,7 @@ Specifies the location where the driver writes the return value of the <a href="
 
 Applications can use the <b>IDirect3DDevice7::GetInfo</b> method and specify the D3DDEVINFOID_D3DTEXTUREMANAGER, D3DDEVINFOID_TEXTUREMANAGER, and D3DDEVINFOID_TEXTURING flags to retrieve texturing information. For more information about this method and the structures related to these flags, see the DirectX SDK documentation. The runtime then passes these flags to the driver.
 
-<b>
-     DirectX 8.1 versions only.</b>
-     The Direct3D runtime specifies the D3DDEVINFOID_VCACHE flag in the <b>dwFlags</b> member to retrieve vertex-cache information from the driver specified at the <b>lpDD</b> member. The driver specifies this information in a D3DDEVINFO_VCACHE structure and returns it at the <b>lpdwStates</b> member. 
+<b>DirectX 8.1 versions only.</b>The Direct3D runtime specifies the D3DDEVINFOID_VCACHE flag in the <b>dwFlags</b> member to retrieve vertex-cache information from the driver specified at the <b>lpDD</b> member. The driver specifies this information in a D3DDEVINFO_VCACHE structure and returns it at the <b>lpdwStates</b> member. 
 
 <b>DirectX 9.0 and later versions only.</b> The Direct3D runtime asynchronously queries the driver for vertex-cache information by using the D3DDP2OP_CREATEQUERY and D3DDP2OP_ISSUEQUERY commands and the D3DQUERYTYPE_VCACHE query type in calls to the driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544702">D3DDEVINFO_VCACHE</a>.
 

@@ -4,10 +4,10 @@ title: InterlockedCompareExchange16 function
 author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 16-bit values and exchanges with another 16-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange16.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InterlockedCompareExchange16, InterlockedCompareExchange16 function, base.interlockedcompareexchange16, winnt/InterlockedCompareExchange16
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,26 +70,14 @@ To operate on 128-bit values, use the <a href="https://msdn.microsoft.com/55a5ec
  A pointer to the destination value.
 
 
-### -param ExChange
-
-TBD
-
-
-### -param Comperand
-
-TBD
-
-
-
-
-#### - Comparand [in]
-
-The value to compare to <i>Destination</i>.
-
-
-#### - Exchange [in]
+### -param ExChange [in]
 
 The exchange value.
+
+
+### -param Comperand [in]
+
+The value to compare to <i>Destination</i>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
 old-project: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetVideoDecoderService method, IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
+Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
         
 
 

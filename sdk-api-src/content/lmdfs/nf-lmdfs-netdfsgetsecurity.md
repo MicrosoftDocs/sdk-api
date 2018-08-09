@@ -7,7 +7,7 @@ old-location: dfs\netdfsgetsecurity.htm
 old-project: dfs
 ms.assetid: a6db7c82-c2ec-464a-8c05-2360622880b4
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: NetDfsGetSecurity, NetDfsGetSecurity function [Distributed File System], dfs.netdfsgetsecurity, fs.netdfsgetsecurity, lmdfs/NetDfsGetSecurity, netmgmt.netdfsgetsecurity
 ms.prod: windows
 ms.technology: windows-sdk

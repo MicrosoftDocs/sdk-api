@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextPattern_GetVisibleRangesConPat.htm
 old-project: WinAuto
 ms.assetid: 509c1d6e-c7ae-4c74-8635-27071ea37696
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TextPattern_GetVisibleRanges, TextPattern_GetVisibleRanges function [Windows Accessibility], uiauto.uiauto_TextPattern_GetVisibleRangesConPat, uiauto_TextPattern_GetVisibleRangesConPat, uiautomationcoreapi/TextPattern_GetVisibleRanges, winauto.uiauto_TextPattern_GetVisibleRangesConPat
 ms.prod: windows
 ms.technology: windows-sdk

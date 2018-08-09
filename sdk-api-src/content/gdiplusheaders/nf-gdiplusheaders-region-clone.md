@@ -2,12 +2,12 @@
 UID: NF:gdiplusheaders.Region.Clone
 title: Region::Clone
 author: windows-sdk-content
-description: The Region::Clone method makes a copy of this Region object and returns the address of the new Region object.
+description: The Region::Clone method makes a copy of this Regionobject and returns the address of the new Regionobject.
 old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\clone_1.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Region class [GDI+],Clone method, Region.Clone, Region::Clone, _gdiplus_CLASS_Region_Clone_, gdiplus._gdiplus_CLASS_Region_Clone_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,10 +52,8 @@ req.product: GDI+ 1.0
 
 
 The <b>Region::Clone</b> method makes a copy of this 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a>
- object and returns the address of the new 
-			<b>Region</b>
- object.
+			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a>object and returns the address of the new 
+			<b>Region</b>object.
 
 
 ## -parameters
@@ -73,8 +71,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardw
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a>
- object.
+						<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a>object.
 
 
 

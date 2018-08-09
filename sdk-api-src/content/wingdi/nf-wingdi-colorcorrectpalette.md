@@ -7,7 +7,7 @@ old-location: wcs\colorcorrectpalette.htm
 old-project: WCS
 ms.assetid: e7680521-fb1e-4292-945f-867964dac1ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ColorCorrectPalette, ColorCorrectPalette function [Windows Color System], _color_ColorCorrectPalette, wcs.colorcorrectpalette, wingdi/ColorCorrectPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,44 +63,22 @@ The <b>ColorCorrectPalette</b> function corrects the entries of a palette using 
 
 ### -param hdc
 
-TBD
+Specifies a device context whose WCS parameters to use.
 
 
 ### -param hPal
 
-TBD
+Specifies the handle to the palette to be color corrected.
 
 
 ### -param deFirst
 
-TBD
+Specifies the first entry in the palette to be color corrected.
 
 
 ### -param num
 
-TBD
-
-
-
-
-#### - dwFirstEntry
-
-Specifies the first entry in the palette to be color corrected.
-
-
-#### - dwNumOfEntries
-
 Specifies the number of entries to color correct.
-
-
-#### - hDC
-
-Specifies a device context whose WCS parameters to use.
-
-
-#### - hPalette
-
-Specifies the handle to the palette to be color corrected.
 
 
 ## -returns

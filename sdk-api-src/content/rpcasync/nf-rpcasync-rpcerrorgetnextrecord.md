@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorgetnextrecord.htm
 old-project: rpc
 ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcErrorGetNextRecord, RpcErrorGetNextRecord function [RPC], _rpc_rpcerrorgetnextrecord, rpc.rpcerrorgetnextrecord, rpcasync/RpcErrorGetNextRecord
 ms.prod: windows
 ms.technology: windows-sdk

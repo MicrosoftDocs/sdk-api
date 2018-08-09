@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_udfrevision.htm
 old-project: imapi
 ms.assetid: a4b0e73b-6bef-44e1-b0b7-9a4e0fcc1370
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_UDFRevision method, IFileSystemImage.put_UDFRevision, IFileSystemImage::put_UDFRevision, imapi.ifilesystemimage_put_udfrevision, imapi2fs/IFileSystemImage::put_UDFRevision, put_UDFRevision, put_UDFRevision method [IMAPI], put_UDFRevision method [IMAPI],IFileSystemImage interface
 ms.prod: windows
 ms.technology: windows-sdk

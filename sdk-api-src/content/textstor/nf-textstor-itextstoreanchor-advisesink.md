@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_advisesink.htm
 old-project: TSF
 ms.assetid: a2196d1c-b03e-44b4-b695-970feddb8ce5
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],AdviseSink method, ITextStoreAnchor.AdviseSink, ITextStoreAnchor::AdviseSink, textstor/ITextStoreAnchor::AdviseSink, tsf.itextstoreanchor_advisesink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,14 +151,12 @@ Servers only maintain a single connection point. Attempts to advise a second sin
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">
-        ITextStoreAnchor
+<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/01ddc659-0ed9-41e9-bde9-92aad9d74716">
-        ITextStoreAnchor::UnadviseSink
+<a href="https://msdn.microsoft.com/01ddc659-0ed9-41e9-bde9-92aad9d74716">ITextStoreAnchor::UnadviseSink
       </a>
 
 

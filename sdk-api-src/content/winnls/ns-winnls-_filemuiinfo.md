@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo.htm
 old-project: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _FILEMUIINFO, _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO"
 ms.prod: windows
 ms.technology: windows-sdk

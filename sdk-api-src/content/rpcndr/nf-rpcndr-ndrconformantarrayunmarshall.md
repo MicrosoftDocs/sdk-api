@@ -7,9 +7,9 @@ old-location: rpc\ndrconformantarrayunmarshall.htm
 old-project: rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall
-, NdrConformantArrayUnmarshall function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/NdrConformantArrayUnmarshall
+, pStubMsg, pStubMsg function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/pStubMsg
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - RpcRT4.dll
 api_name:
- - NdrConformantArrayUnmarshall
+ - pStubMsg
 product: Windows
 targetos: Windows
 req.lib: RpcRT4.lib
@@ -60,9 +60,9 @@ The <b>NdrConformantArrayUnmarshall</b> function unmarshals a conformant array.
 
 
 
-### -param pStubMsg
+### -param pStubMsg [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
 
 
 ### -param ppMemory [out]
@@ -78,11 +78,6 @@ Pointer to the format string description.
 ### -param fMustAlloc [in]
 
 Flag that specifies whether the stub must allocate the memory into which the conformant array is to be marshalled. Specify <b>TRUE</b> if RPC must allocate <i>ppMemory</i>.
-
-
-#### - NdrConformantArrayUnmarshall [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
 
 
 ## -returns

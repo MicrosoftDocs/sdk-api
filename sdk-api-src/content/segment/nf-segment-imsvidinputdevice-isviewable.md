@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevice_isviewable.htm
 old-project: mstv
 ms.assetid: 4f62bcc4-8c58-4663-9b1f-a5ed7d000a79
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],IsViewable method, IMSVidInputDevice.IsViewable, IMSVidInputDevice::IsViewable, IMSVidInputDeviceIsViewable, IsViewable, IsViewable method [Microsoft TV Technologies], IsViewable method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_isviewable, segment/IMSVidInputDevice::IsViewable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,11 +72,9 @@ Pointer to variable that receives one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

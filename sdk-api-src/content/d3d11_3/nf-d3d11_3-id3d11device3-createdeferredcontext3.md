@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createdeferredcontext3.htm
 old-project: direct3d11
 ms.assetid: 78B52E38-3256-4151-96DA-4C81A2A516CF
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreateDeferredContext3, CreateDeferredContext3 method [Direct3D 11], CreateDeferredContext3 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateDeferredContext3 method, ID3D11Device3.CreateDeferredContext3, ID3D11Device3::CreateDeferredContext3, d3d11_3/ID3D11Device3::CreateDeferredContext3, direct3d11.id3d11device3_createdeferredcontext3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Upon completion of the method, the passed pointer to an <a href="https://msdn.mi
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
             

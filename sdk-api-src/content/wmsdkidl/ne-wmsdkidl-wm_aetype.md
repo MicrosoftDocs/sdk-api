@@ -7,7 +7,7 @@ old-location: wmformat\wm_aetype.htm
 old-project: wmformat
 ms.assetid: 514e6745-c521-41bd-81c2-b6c24cfb0192
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WM_AETYPE, WM_AETYPE enumeration [windows Media Format], WM_AETYPE_EXCLUDE, WM_AETYPE_INCLUDE, wmformat.wm_aetype, wmsdkidl/WM_AETYPE, wmsdkidl/WM_AETYPE_EXCLUDE, wmsdkidl/WM_AETYPE_INCLUDE
 ms.prod: windows
 ms.technology: windows-sdk

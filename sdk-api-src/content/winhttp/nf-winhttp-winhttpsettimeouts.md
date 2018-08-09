@@ -4,10 +4,10 @@ title: WinHttpSetTimeouts function
 author: windows-sdk-content
 description: Sets time-outs involved with HTTP transactions.
 old-location: http\winhttpsettimeouts.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,50 +65,28 @@ The <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HI
 <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a> or <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>. 
 
 
-### -param nResolveTimeout
-
-TBD
-
-
-### -param nConnectTimeout
-
-TBD
-
-
-### -param nSendTimeout
-
-TBD
-
-
-### -param nReceiveTimeout
-
-TBD
-
-
-
-
-#### - dwConnectTimeout [in]
-
-A value of type integer that specifies the time-out value, in milliseconds, to use for server connection requests. If a connection request takes longer than this time-out value, the request is canceled. The initial value is 60,000 (60 seconds).
-
-TCP/IP can time out while setting up the socket during the three leg SYN/ACK exchange, regardless of the value of this parameter.
-
-
-#### - dwReceiveTimeout [in]
-
-A value of type integer that specifies the time-out value, in milliseconds, to receive a response to a request. If a response takes longer than this time-out value, the request is canceled. The initial value is 30,000 (30 seconds).
-
-
-#### - dwResolveTimeout [in]
+### -param nResolveTimeout [in]
 
 A value of type integer that specifies the time-out value, in milliseconds, to use for name resolution. If resolution takes longer than this time-out value, the action is canceled. The initial value is zero, meaning no time-out (infinite). 
 
 <b>Windows Vista and Windows XP:  </b>If DNS timeout is specified using NAME_RESOLUTION_TIMEOUT, there is an overhead of one thread per request.
 
 
-#### - dwSendTimeout [in]
+### -param nConnectTimeout [in]
+
+A value of type integer that specifies the time-out value, in milliseconds, to use for server connection requests. If a connection request takes longer than this time-out value, the request is canceled. The initial value is 60,000 (60 seconds).
+
+TCP/IP can time out while setting up the socket during the three leg SYN/ACK exchange, regardless of the value of this parameter.
+
+
+### -param nSendTimeout [in]
 
 A value of type integer that specifies the time-out value, in milliseconds, to use for sending requests. If sending a request takes longer than this time-out value, the send is canceled. The initial value is 30,000 (30 seconds).
+
+
+### -param nReceiveTimeout [in]
+
+A value of type integer that specifies the time-out value, in milliseconds, to receive a response to a request. If a response takes longer than this time-out value, the request is canceled. The initial value is 30,000 (30 seconds).
 
 
 ## -returns

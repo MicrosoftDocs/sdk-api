@@ -7,7 +7,7 @@ old-location: dxmath\xmstorehalf4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreHalf4(XMHALF4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMStoreHalf4, XMStoreHalf4, XMStoreHalf4 method [DirectX Math Support APIs], dxmath.xmstorehalf4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/library/Ee419664(v=VS.85).aspx">XMHALF4</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/194CC053-8341-4E26-B8B2-5F137B201D80">XMHALF4</a>.
 
 
 ## -parameters

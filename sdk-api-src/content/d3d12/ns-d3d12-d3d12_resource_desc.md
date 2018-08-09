@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_desc.htm
 old-project: direct3d12
 ms.assetid: 908BCB65-A7C6-473D-81AB-CCCA029AB6F9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_RESOURCE_DESC, D3D12_RESOURCE_DESC structure, d3d12/D3D12_RESOURCE_DESC, direct3d12.d3d12_resource_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,13 +98,13 @@ Specifies the number of MIP levels.
 
 ### -field Format
 
-Specifies one member of  <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
+Specifies one member of  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>.
           
 
 
 ### -field SampleDesc
 
-Specifies a <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure.
+Specifies a <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure.
           
 
 

@@ -7,7 +7,7 @@ old-location: base\regqueryinfokey.htm
 old-project: SysInfo
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,15 @@ This handle is returned by the
 A pointer to a buffer that receives the user-defined class of the key. This parameter can be <b>NULL</b>.
 
 
-### -param lpcchClass
+### -param lpcchClass [in, out, optional]
 
-TBD
+A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpClass</i> parameter, in characters. 
+
+The size should include the terminating <b>null</b> character. When the function returns, this variable contains the size of the class string that is stored in the buffer. The count returned does not include the terminating <b>null</b> character. If the buffer is not big enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string, in characters, without counting the terminating <b>null</b> character.
+
+If <i>lpClass</i> is <b>NULL</b>, <i>lpcClass</i> can be <b>NULL</b>.
+
+If the <i>lpClass</i> parameter is a valid address, but the <i>lpcClass</i> parameter is not, for example, it is <b>NULL</b>, then the  function returns ERROR_INVALID_PARAMETER.
 
 
 ### -param lpReserved
@@ -109,14 +115,18 @@ This parameter is reserved and must be <b>NULL</b>.
 A pointer to a variable that receives the number of subkeys that are contained by the specified key. This parameter can be <b>NULL</b>.
 
 
-### -param lpcbMaxSubKeyLen
+### -param lpcbMaxSubKeyLen [out, optional]
 
-TBD
+A pointer to a variable that receives the size of the key's subkey with the longest name, in Unicode characters, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b>. 
 
 
-### -param lpcbMaxClassLen
 
-TBD
+					
+
+
+### -param lpcbMaxClassLen [out, optional]
+
+A pointer to a variable that receives the size of the longest string that specifies a subkey class, in Unicode characters. The count returned does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 
 ### -param lpcValues [out, optional]
@@ -124,14 +134,14 @@ TBD
 A pointer to a variable that receives the number of values that are associated with the key. This parameter can be <b>NULL</b>.
 
 
-### -param lpcbMaxValueNameLen
+### -param lpcbMaxValueNameLen [out, optional]
 
-TBD
+A pointer to a variable that receives the size of the key's longest value name, in Unicode characters. The size does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 
-### -param lpcbMaxValueLen
+### -param lpcbMaxValueLen [out, optional]
 
-TBD
+A pointer to a variable that receives the size of the longest data component among the key's values, in bytes. This parameter can be <b>NULL</b>.
 
 
 ### -param lpcbSecurityDescriptor [out, optional]
@@ -149,41 +159,6 @@ A pointer to a
 
 The function sets the members of the 
 <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure to indicate the last time that the key or any of its value entries is modified.
-
-
-#### - lpcClass [in, out, optional]
-
-A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpClass</i> parameter, in characters. 
-
-The size should include the terminating <b>null</b> character. When the function returns, this variable contains the size of the class string that is stored in the buffer. The count returned does not include the terminating <b>null</b> character. If the buffer is not big enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string, in characters, without counting the terminating <b>null</b> character.
-
-If <i>lpClass</i> is <b>NULL</b>, <i>lpcClass</i> can be <b>NULL</b>.
-
-If the <i>lpClass</i> parameter is a valid address, but the <i>lpcClass</i> parameter is not, for example, it is <b>NULL</b>, then the  function returns ERROR_INVALID_PARAMETER.
-
-
-#### - lpcMaxClassLen [out, optional]
-
-A pointer to a variable that receives the size of the longest string that specifies a subkey class, in Unicode characters. The count returned does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
-
-
-#### - lpcMaxSubKeyLen [out, optional]
-
-A pointer to a variable that receives the size of the key's subkey with the longest name, in Unicode characters, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b>. 
-
-
-
-					
-
-
-#### - lpcMaxValueLen [out, optional]
-
-A pointer to a variable that receives the size of the longest data component among the key's values, in bytes. This parameter can be <b>NULL</b>.
-
-
-#### - lpcMaxValueNameLen [out, optional]
-
-A pointer to a variable that receives the size of the key's longest value name, in Unicode characters. The size does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 
 ## -returns

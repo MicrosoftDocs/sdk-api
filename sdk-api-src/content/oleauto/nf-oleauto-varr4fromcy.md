@@ -7,7 +7,7 @@ old-location: automat\varr4fromcy.htm
 old-project: automat
 ms.assetid: 25ac1a9f-b23e-4613-a629-e14cecc8902b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR4FromCy, VarR4FromCy function [Automation], _oa96_VarR4FromCy, automat.varr4fromcy, oleauto/VarR4FromCy
 ms.prod: windows
 ms.technology: windows-sdk

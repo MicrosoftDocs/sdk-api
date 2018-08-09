@@ -7,7 +7,7 @@ old-location: shell\IntlStrEqWorker.htm
 old-project: shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrEqWorkerA, IntlStrEqWorkerW, _win32_IntlStrEqWorker, shell.IntlStrEqWorker, shlwapi/IntlStrEqWorker, shlwapi/IntlStrEqWorkerA, shlwapi/IntlStrEqWorkerW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,18 @@ Type: <b>BOOL</b>
 A value that is set to <b>TRUE</b> for a case-sensitive comparison, or to <b>FALSE</b> for a case-insensitive comparison.
 
 
-### -param lpString1
+### -param lpString1 [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string.
 
 
-### -param lpString2
+### -param lpString2 [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string.
 
 
 ### -param nChar [in]
@@ -85,20 +89,6 @@ TBD
 Type: <b>int</b>
 
 The number of characters to be compared, starting from the beginning of the strings.
-
-
-#### - pszStr1 [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string.
-
-
-#### - pszStr2 [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string.
 
 
 ## -returns

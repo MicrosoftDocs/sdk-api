@@ -7,7 +7,7 @@ old-location: shell\PathCombine.htm
 old-project: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,42 +66,25 @@ Concatenates two strings that represent properly formed paths into one path; als
 
 
 
-### -param pszDest
+### -param pszDest [out]
 
-TBD
+Type: <b>LPTSTR</b>
 
-
-### -param pszDir
-
-TBD
+A pointer to a buffer that, when this function returns successfully, receives the combined path string. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
 
 
-### -param pszFile
-
-TBD
-
-
-
-
-#### - pszMore [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the second path. This value can be <b>NULL</b>.
-
-
-#### - pszPathIn [in, optional]
+### -param pszDir [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the first path. This value can be <b>NULL</b>.
 
 
-#### - pszPathOut [out]
+### -param pszFile [in]
 
-Type: <b>LPTSTR</b>
+Type: <b>LPCTSTR</b>
 
-A pointer to a buffer that, when this function returns successfully, receives the combined path string. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
+A pointer to a null-terminated string of maximum length MAX_PATH that contains the second path. This value can be <b>NULL</b>.
 
 
 ## -returns

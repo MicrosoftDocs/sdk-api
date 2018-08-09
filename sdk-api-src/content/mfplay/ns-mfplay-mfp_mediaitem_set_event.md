@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_set_event.htm
 old-project: medfound
 ms.assetid: 51ff492f-8199-4e1a-8d8b-d86bbb3c98dc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_MEDIAITEM_SET_EVENT, MFP_MEDIAITEM_SET_EVENT structure [Media Foundation], mf.mfp_mediaitem_set_event, mfplay/MFP_MEDIAITEM_SET_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ A pointer to the <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/3a03a657-0c93-496c-b3dc-6afeef7ee03f">MFP_GET_MEDIAITEM_SET_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/3a03a657-0c93-496c-b3dc-6afeef7ee03f">MFP_GET_MEDIAITEM_SET_EVENT</a> macro for this purpose.
 
 If one or more streams could not be connected to a media sink, the event property store contains the <a href="https://msdn.microsoft.com/b5e45bfc-d91d-41b8-aaa4-72b3a23d869e">MFP_PKEY_StreamRenderingResults</a> property. The value of the property is an array of <b>HRESULT</b> values, indicating which streams were connected successfully.  The event property store can be accessed through the <b>header.pPropertyStore</b> member.
 

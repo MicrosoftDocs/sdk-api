@@ -7,7 +7,7 @@ old-location: netmgmt\netserverenum.htm
 old-project: netmgmt
 ms.assetid: 10012a87-805e-4817-9f09-9e5632b1fa09
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 100, 101, NetServerEnum, NetServerEnum function [Network Management], SV_TYPE_AFP, SV_TYPE_ALL, SV_TYPE_ALTERNATE_XPORT, SV_TYPE_BACKUP_BROWSER, SV_TYPE_CLUSTER_NT, SV_TYPE_CLUSTER_VS_NT, SV_TYPE_DCE, SV_TYPE_DFS, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_MFPN, SV_TYPE_SERVER_NT, SV_TYPE_SERVER_OSF, SV_TYPE_SERVER_UNIX, SV_TYPE_SERVER_VMS, SV_TYPE_SQLSERVER, SV_TYPE_TERMINALSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WINDOWS, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, _win32_netserverenum, lmserver/NetServerEnum, netmgmt.netserverenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -507,6 +507,11 @@ All servers. This is a convenience that will return all possible servers.
  
 
 
+#### - servername [in, optional]
+
+Reserved; must be <b>NULL</b>.
+
+
 #### - domain [in, optional]
 
 A pointer to a constant string that specifies the name of the domain for which a list of servers is to be returned. The domain name must be a NetBIOS domain name (for example, microsoft). 
@@ -518,11 +523,6 @@ If this parameter is <b>NULL</b>, the primary domain is implied.
 #### - resume_handle [in, out, optional]
 
 Reserved; must be set to zero.
-
-
-#### - servername [in, optional]
-
-Reserved; must be <b>NULL</b>.
 
 
 ## -returns

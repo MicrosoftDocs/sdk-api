@@ -7,7 +7,7 @@ old-location: security\iazapplication_addpolicyadministratorname.htm
 old-project: secauthz
 ms.assetid: cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzApplication object, AddPolicyAdministratorName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministratorName method, IAzApplication interface [Security],AddPolicyAdministratorName method, IAzApplication.AddPolicyAdministratorName, IAzApplication::AddPolicyAdministratorName, azroles/IAzApplication::AddPolicyAdministratorName, security.iazapplication_addpolicyadministratorname
 ms.prod: windows
 ms.technology: windows-sdk

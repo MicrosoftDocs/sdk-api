@@ -7,7 +7,7 @@ old-location: rras\mprconfigservergetinfo.htm
 old-project: rras
 ms.assetid: 6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprConfigServerGetInfo, MprConfigServerGetInfo function [RAS], _mpr_mprconfigservergetinfo, mprapi/MprConfigServerGetInfo, rras.mprconfigservergetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,14 +94,7 @@ A DWORD value that describes the format in which the information is returned in 
  
 
 
-### -param lplpbBuffer
-
-TBD
-
-
-
-
-#### - lplpBuffer [out]
+### -param lplpbBuffer [out]
 
 On successful completion, a pointer to a 
 <a href="https://msdn.microsoft.com/cffda25b-28f8-4d76-987c-eadcea9c032b">MPR_SERVER_0</a>, 
@@ -162,7 +155,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -177,7 +170,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: p2p\peercollabasyncinviteendpoint.htm
 old-project: p2psdk
 ms.assetid: 2606d2ef-26d3-4c52-b481-3ea38350295a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabAsyncInviteEndpoint, PeerCollabAsyncInviteEndpoint function [Peer Networking], p2p.peercollabasyncinviteendpoint, p2p/PeerCollabAsyncInviteEndpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ This API sends an invitation to the endpoint specified as input. It does not gua
 A toast will appear for the recipient of the invitation. This toast will be converted to a dialog box in which the user can accept or decline the invitation. When the invitation is successfully accepted, the collaborative application is launched on the recipient's machine.
 
 
-To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
+To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
 
 
 The <a href="https://msdn.microsoft.com/f9471e51-5eec-4927-bd12-7d362f5101ee">PeerCollabGetInvitiationResponse</a> function will return PEER_E_CONNECTION_FAILED if the endpoint to which the invitation is being sent is not accepting invitations.

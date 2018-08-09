@@ -7,7 +7,7 @@ old-location: security\lsaquerytrusteddomaininfobyname.htm
 old-project: secmgmt
 ms.assetid: d33d6cee-bd8b-49f4-8e65-07cdc65bec7c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: LsaQueryTrustedDomainInfoByName, LsaQueryTrustedDomainInfoByName function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixInformation, _lsa_lsaquerytrusteddomaininfobyname, ntsecapi/LsaQueryTrustedDomainInfoByName, security.lsaquerytrusteddomaininfobyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ When you have finished using the buffer, free it by calling the <a href="https:/
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> value, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

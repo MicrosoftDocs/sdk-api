@@ -7,7 +7,7 @@ old-location: dshow\iampushsource_getpushsourceflags.htm
 old-project: DirectShow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_removepublisherproperty.htm
 old-project: cossdk
 ms.assetid: 3893e605-dd01-47d3-bb7d-095964433ef9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEventSubscription interface [COM+],RemovePublisherProperty method, IEventSubscription.RemovePublisherProperty, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty
 ms.prod: windows
 ms.technology: windows-sdk

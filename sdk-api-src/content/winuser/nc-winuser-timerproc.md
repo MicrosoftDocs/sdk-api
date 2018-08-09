@@ -7,7 +7,7 @@ old-location: winmsg\timerproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\timerproc.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-An application-defined callback function that processes <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages. The 
+An application-defined callback function that processes <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> messages. The 
 			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name. 
 
 
@@ -78,18 +78,18 @@ An application-defined callback function that processes <a href="https://msdn.mi
 
 
 
-#### - dwTime [in]
-
-Type: <b>DWORD</b>
-
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
-
-
 #### - hwnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window associated with the timer. 
+
+
+#### - uMsg [in]
+
+Type: <b>UINT</b>
+
+The <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message. 
 
 
 #### - idEvent [in]
@@ -99,11 +99,11 @@ Type: <b>UINT_PTR</b>
 The timer's identifier. 
 
 
-#### - uMsg [in]
+#### - dwTime [in]
 
-Type: <b>UINT</b>
+Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
 
 
 ## -returns
@@ -124,7 +124,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a>
+<a href="https://msdn.microsoft.com/d842abb3-e02d-41a2-b500-311fe04122e2">KillTimer</a>
 
 
 
@@ -132,7 +132,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
+<a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a>
 
 
 
@@ -140,7 +140,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\readglobalpwrpolicy.htm
 old-project: power
 ms.assetid: 65da3d9f-b688-4d41-9da0-05159297d169
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: ReadGlobalPwrPolicy, ReadGlobalPwrPolicy function, _win32_readglobalpwrpolicy, base.readglobalpwrpolicy, powrprof/ReadGlobalPwrPolicy
 ms.prod: windows
 ms.technology: windows-sdk

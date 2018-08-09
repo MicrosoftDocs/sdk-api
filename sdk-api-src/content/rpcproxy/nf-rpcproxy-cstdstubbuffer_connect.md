@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer_connect.htm
 old-project: rpc
 ms.assetid: 73aacc1f-b501-4e63-b69a-e64a85664f79
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdStubBuffer_Connect, CStdStubBuffer_Connect function [RPC], rpc.cstdstubbuffer_connect, rpcproxy/CStdStubBuffer_Connect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdStubBuffer_Connect is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_Connect</b> function implements the  <a href="https://msdn.microsoft.com/library/ms678495(v=VS.85).aspx">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
+The <b>CStdStubBuffer_Connect</b> function implements the  <a href="_com_irpcstubbuffer_connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ The <b>CStdStubBuffer_Connect</b> function implements the  <a href="https://msdn
 
 ### -param This [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
+Pointer to the <a href="_com_iunknown">IUnknown</a> interface of the server object. 
 
 
 ## -returns

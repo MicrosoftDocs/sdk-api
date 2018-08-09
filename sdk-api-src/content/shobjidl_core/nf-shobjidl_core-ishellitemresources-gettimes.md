@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_GetTimes.htm
 old-project: shell
 ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,16 +70,14 @@ A pointer to the creation date and time as a <a href="https://msdn.microsoft.com
 
 Type: <b>FILETIME*</b>
 
-
-          A pointer to write date and time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+A pointer to write date and time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
 
 
 ### -param pftAccess [out]
 
 Type: <b>FILETIME*</b>
 
-
-          A pointer to access date and time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+A pointer to access date and time as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
         
 
 

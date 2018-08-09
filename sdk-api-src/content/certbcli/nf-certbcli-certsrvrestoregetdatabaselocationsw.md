@@ -7,7 +7,7 @@ old-location: security\certsrvrestoregetdatabaselocations.htm
 old-project: seccrypto
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvRestoreGetDatabaseLocations</b> function is used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
+The <b>CertSrvRestoreGetDatabaseLocations</b> function is used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
 
 
 ## -parameters
@@ -122,8 +121,7 @@ A pointer to the <b>DWORD</b> value that specifies the number of bytes in <i>ppw
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

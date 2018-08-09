@@ -7,7 +7,7 @@ old-location: dxmath\xmhalf4.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMHALF4
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: XMHALF4, XMHALF4 structure [DirectX Math Support APIs], directxpackedvector/XMHALF4, dxmath.xmhalf4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,18 +50,15 @@ req.irql:
 ## -description
 
 
-
-	Describes a 4D vector consisting of four half-precision (16-bit) floating-point values.
+Describes a 4D vector consisting of four half-precision (16-bit) floating-point values.
     
 
 
 
-
-	For a list of additional functionality such as constructors and operators that are available
-	using <code>XMHALF4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/library/Ee415322(v=VS.85).aspx">XMHALF4 Extensions</a>.
-<div class="alert"><b>Note</b>  
-	See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
+For a list of additional functionality such as constructors and operators that are available
+	using <code>XMHALF4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/2bd8d651-e60e-409c-9257-5b30e212372e">XMHALF4 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -104,8 +101,7 @@ req.irql:
 
 
 
-
-	    The definition of the <code>HALF</code> type used under DirectXMath is consistent with the <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4610935">IEEE
+The definition of the <code>HALF</code> type used under DirectXMath is consistent with the <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4610935">IEEE
 	    standard</a>, and consists of a sign bit, a 5 bit biased exponent, and a 10 bit
 	    mantissa:
 	
@@ -123,11 +119,10 @@ req.irql:
 </tr>
 </table></span></div>
 <code>XMHALF4</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by
-	    using <a href="https://msdn.microsoft.com/library/Ee419895(v=VS.85).aspx">XMLoadHalf4</a>.
+	    using <a href="https://msdn.microsoft.com/a17c391c-1c40-4c3e-b915-7b2690a17eb5">XMLoadHalf4</a>.
 	
 
-
-	    Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMHALF4</code> with <a href="https://msdn.microsoft.com/library/Ee420355(v=VS.85).aspx">XMStoreHalf4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMHALF4</code> with <a href="https://msdn.microsoft.com/3c9c65f1-257a-4d73-b681-5d25ce3dbfb7">XMStoreHalf4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -147,7 +142,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415322(v=VS.85).aspx">XMHALF4 Extensions</a>
+<a href="https://msdn.microsoft.com/2bd8d651-e60e-409c-9257-5b30e212372e">XMHALF4 Extensions</a>
  
 
  

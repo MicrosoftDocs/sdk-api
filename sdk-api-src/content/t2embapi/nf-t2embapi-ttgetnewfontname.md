@@ -7,7 +7,7 @@ old-location: gdi\ttgetnewfontname.htm
 old-project: gdi
 ms.assetid: 08636992-8dd8-461c-b360-f52a19d845bf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TTGetNewFontName, TTGetNewFontName function [Windows GDI], _win32_TTGetNewFontName, gdi.ttgetnewfontname, t2embapi/TTGetNewFontName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Obtains the family name for the font loaded through <a href="https://msdn.micros
 Handle that identifies the embedded font that has been installed. The handle references an internal structure, not an Hfont.
 
 
-### -param wzWinFamilyName
+### -param wzWinFamilyName [out]
 
-TBD
+Buffer to hold the new 16-bit-character Microsoft Windows family name.
 
 
 ### -param cchMaxWinName [in]
@@ -82,11 +82,6 @@ Buffer to hold the new 8-bit-character MacIntosh family name.
 ### -param cchMaxMacName [in]
 
 Length of the string allocated for the Macintosh name (<i>szMacFamilyName</i>). Must be at least LF_FACESIZE long.
-
-
-#### - szWinFamilyName [out]
-
-Buffer to hold the new 16-bit-character Microsoft Windows family name.
 
 
 ## -returns

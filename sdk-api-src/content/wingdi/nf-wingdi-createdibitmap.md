@@ -7,7 +7,7 @@ old-location: gdi\createdibitmap.htm
 old-project: gdi
 ms.assetid: e9a5b525-a6b6-4309-9e53-69d274b85783
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CBM_INIT, CreateDIBitmap, CreateDIBitmap function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBitmap, gdi.createdibitmap, wingdi/CreateDIBitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,34 +68,14 @@ The <b>CreateDIBitmap</b> function creates a compatible bitmap (DDB) from a DIB 
 A handle to a device context.
 
 
-### -param pbmih
+### -param pbmih [in]
 
-TBD
+A pointer to a bitmap information header structure, <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a>.
 
-
-### -param flInit
-
-TBD
+If <i>fdwInit</i> is CBM_INIT, the function uses the bitmap information header structure to obtain the desired width and height of the bitmap as well as other information. Note that a positive value for the height indicates a bottom-up DIB while a negative value for the height indicates a top-down DIB. Calling <b>CreateDIBitmap</b> with <i>fdwInit</i> as CBM_INIT is equivalent to calling the <a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">CreateCompatibleBitmap</a> function to create a DDB in the format of the device and then calling the <a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a> function to translate the DIB bits to the DDB.
 
 
-### -param pjBits
-
-TBD
-
-
-### -param pbmi
-
-TBD
-
-
-### -param iUsage
-
-TBD
-
-
-
-
-#### - fdwInit [in]
+### -param flInit [in]
 
 Specifies how the system initializes the bitmap bits. The following value is defined.
 
@@ -122,7 +102,17 @@ If this flag is clear, the data pointed to by those parameters is not used.
 If <i>fdwInit</i> is zero, the system does not initialize the bitmap bits.
 
 
-#### - fuUsage [in]
+### -param pjBits [in]
+
+A pointer to an array of bytes containing the initial bitmap data. The format of the data depends on the <b>biBitCount</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure to which the <i>lpbmi</i> parameter points.
+
+
+### -param pbmi [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that describes the dimensions and color format of the array pointed to by the <i>lpbInit</i> parameter.
+
+
+### -param iUsage [in]
 
 Specifies whether the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure was initialized and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or palette indexes. The <i>fuUsage</i> parameter must be one of the following values.
 
@@ -153,23 +143,6 @@ A color table is provided and contains literal RGB values.
 </tr>
 </table>
  
-
-
-#### - lpbInit [in]
-
-A pointer to an array of bytes containing the initial bitmap data. The format of the data depends on the <b>biBitCount</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure to which the <i>lpbmi</i> parameter points.
-
-
-#### - lpbmi [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that describes the dimensions and color format of the array pointed to by the <i>lpbInit</i> parameter.
-
-
-#### - lpbmih [in]
-
-A pointer to a bitmap information header structure, <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a>.
-
-If <i>fdwInit</i> is CBM_INIT, the function uses the bitmap information header structure to obtain the desired width and height of the bitmap as well as other information. Note that a positive value for the height indicates a bottom-up DIB while a negative value for the height indicates a top-down DIB. Calling <b>CreateDIBitmap</b> with <i>fdwInit</i> as CBM_INIT is equivalent to calling the <a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">CreateCompatibleBitmap</a> function to create a DDB in the format of the device and then calling the <a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a> function to translate the DIB bits to the DDB.
 
 
 ## -returns

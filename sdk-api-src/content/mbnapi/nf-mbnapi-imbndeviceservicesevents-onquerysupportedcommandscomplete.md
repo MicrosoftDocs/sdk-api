@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onquerysupportedcommandscomplete.htm
 old-project: mbn
 ms.assetid: CA304FF5-B630-4CD5-8E23-844499D6A8D1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQuerySupportedCommandsComplete method, IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete, IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks], OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerysupportedcommandscomplete, mbnapi/IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Notification method indicating that a query for the messages supported on a devi
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the query was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the query was requested.
 
 
 ### -param commandIDList [in]

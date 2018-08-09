@@ -7,7 +7,7 @@ old-location: gdi\offsetviewportorgex.htm
 old-project: gdi
 ms.assetid: 54311cbe-1c54-4193-8991-891dbd0856bf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OffsetViewportOrgEx, OffsetViewportOrgEx function [Windows GDI], _win32_OffsetViewportOrgEx, gdi.offsetviewportorgex, wingdi/OffsetViewportOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,36 +68,19 @@ The <b>OffsetViewportOrgEx</b> function modifies the viewport origin for a devic
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lppt
-
-TBD
-
-
-
-
-#### - lpPoint [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure. The previous viewport origin, in device units, is placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous viewport origin is not returned.
-
-
-#### - nXOffset [in]
+### -param x [in]
 
 The horizontal offset, in device units.
 
 
-#### - nYOffset [in]
+### -param y [in]
 
 The vertical offset, in device units.
+
+
+### -param lppt [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure. The previous viewport origin, in device units, is placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous viewport origin is not returned.
 
 
 ## -returns

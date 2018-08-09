@@ -7,7 +7,7 @@ old-location: base\verifyversioninfo.htm
 old-project: SysInfo
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,15 @@ Compares a set of operating system version requirements to the corresponding val
 
 
 
-### -param lpVersionInformation
+### -param lpVersionInformation [in]
 
-TBD
+A pointer to an 
+<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure containing the operating system version requirements to compare. The <i>dwTypeMask</i> parameter indicates the members of this structure that contain information to compare. 
+
+
+
+
+You must set the <b>dwOSVersionInfoSize</b> member of this structure to <code>sizeof(OSVERSIONINFOEX)</code>. You must also specify valid data for the members indicated by <i>dwTypeMask</i>. The function ignores structure members for which the corresponding <i>dwTypeMask</i> bit is not set.
 
 
 ### -param dwTypeMask [in]
@@ -182,17 +188,6 @@ The type of comparison to be used for each <b>lpVersionInfo</b> member being com
 <a href="https://msdn.microsoft.com/5ee18447-e55f-4d79-9d21-be7a619ea647">VerSetConditionMask</a> function or the 
 <a href="https://msdn.microsoft.com/c93be952-41a8-48c4-b24f-996bf9237727">VER_SET_CONDITION</a> macro once for each 
 <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> member being compared.
-
-
-#### - lpVersionInfo [in]
-
-A pointer to an 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure containing the operating system version requirements to compare. The <i>dwTypeMask</i> parameter indicates the members of this structure that contain information to compare. 
-
-
-
-
-You must set the <b>dwOSVersionInfoSize</b> member of this structure to <code>sizeof(OSVERSIONINFOEX)</code>. You must also specify valid data for the members indicated by <i>dwTypeMask</i>. The function ignores structure members for which the corresponding <i>dwTypeMask</i> bit is not set.
 
 
 ## -returns

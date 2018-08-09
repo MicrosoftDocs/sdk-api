@@ -7,7 +7,7 @@ old-location: mbn\mbn_context.htm
 old-project: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
 ms.prod: windows
 ms.technology: windows-sdk

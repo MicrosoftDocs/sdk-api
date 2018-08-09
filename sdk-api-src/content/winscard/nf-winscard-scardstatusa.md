@@ -4,10 +4,10 @@ title: SCardStatusA function
 author: windows-sdk-content
 description: Provides the current status of a smart card in a reader.
 old-location: security\scardstatus.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCARD_ABSENT, SCARD_NEGOTIABLE, SCARD_POWERED, SCARD_PRESENT, SCARD_PROTOCOL_RAW, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_SPECIFIC, SCARD_SWALLOWED, SCardStatus, SCardStatus function [Security], SCardStatusA, SCardStatusW, _smart_scardstatus, security.scardstatus, winscard/SCardStatus, winscard/SCardStatusA, winscard/SCardStatusW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ Reference value returned from
 <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
 
 
-### -param mszReaderNames
+### -param mszReaderNames [out]
 
-TBD
+List of display names (multiple string) by which the currently connected reader is known.
 
 
 ### -param pcchReaderLen [in, out, optional]
@@ -213,11 +213,6 @@ Pointer to a 32-byte buffer that receives the <a href="https://msdn.microsoft.co
 On input, supplies the length of the <i>pbAtr</i> buffer. On output, receives the number of bytes in the ATR string (32 bytes maximum). If this buffer length is specified as SCARD_AUTOALLOCATE, then <i>pbAtr</i> is converted to a pointer to a byte pointer, and it receives the address of a block of memory that contains the multiple-string structure.
 
 
-#### - szReaderName [out]
-
-List of display names (multiple string) by which the currently connected reader is known.
-
-
 ## -returns
 
 
@@ -225,7 +220,7 @@ List of display names (multiple string) by which the currently connected reader 
 If the function successfully provides the current status of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> in a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 
 

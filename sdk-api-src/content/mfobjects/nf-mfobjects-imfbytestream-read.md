@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_read.htm
 old-project: medfound
 ms.assetid: 6e0d5363-f2c2-4334-86ca-71fac61073d3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6e0d5363-f2c2-4334-86ca-71fac61073d3, IMFByteStream interface [Media Foundation],Read method, IMFByteStream.Read, IMFByteStream::Read, Read, Read method [Media Foundation], Read method [Media Foundation],IMFByteStream interface, mf.imfbytestream_read, mfobjects/IMFByteStream::Read
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Reads data from the stream.
+Reads data from the stream.
         
 
 
@@ -64,22 +63,19 @@ req.product: GDI+ 1.1
 
 ### -param pb [in]
 
-
-            Pointer to a buffer that receives the data. The caller must allocate the buffer.
+Pointer to a buffer that receives the data. The caller must allocate the buffer.
           
 
 
 ### -param cb [in]
 
-
-            Size of the buffer in bytes.
+Size of the buffer in bytes.
           
 
 
 ### -param pcbRead [out]
 
-
-            Receives the number of bytes that are copied into the buffer. This parameter cannot be <b>NULL</b>.
+Receives the number of bytes that are copied into the buffer. This parameter cannot be <b>NULL</b>.
           
 
 
@@ -96,16 +92,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        This method reads at most <i>cb</i> bytes from the current position in the stream and copies them into the buffer provided by the caller. The number of bytes that were read is returned in the <i>pcbRead</i> parameter. The method does not return an error code on reaching the end of the file, so the application should check the value in <i>pcbRead</i> after the method returns.
+This method reads at most <i>cb</i> bytes from the current position in the stream and copies them into the buffer provided by the caller. The number of bytes that were read is returned in the <i>pcbRead</i> parameter. The method does not return an error code on reaching the end of the file, so the application should check the value in <i>pcbRead</i> after the method returns.
       
 
-
-        This method is synchronous. It blocks until the read operation completes.
+This method is synchronous. It blocks until the read operation completes.
       
 
-<b> Implementation notes:</b>
-This method should update the current position in the stream by adding the number of bytes that were read, which is specified by the value returned in the <i>pcbRead</i> parameter,  to the current position. Other methods that can update the current position are <b>Read</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>, <a href="https://msdn.microsoft.com/078a8ffe-7b4f-487e-8655-fe5ea14ba306">BeginWrite</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>, and <a href="https://msdn.microsoft.com/20518fed-4083-413b-b9b1-e54c4c5630d4">SetCurrentPosition</a>. 
+<b> Implementation notes:</b>This method should update the current position in the stream by adding the number of bytes that were read, which is specified by the value returned in the <i>pcbRead</i> parameter,  to the current position. Other methods that can update the current position are <b>Read</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>, <a href="https://msdn.microsoft.com/078a8ffe-7b4f-487e-8655-fe5ea14ba306">BeginWrite</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>, and <a href="https://msdn.microsoft.com/20518fed-4083-413b-b9b1-e54c4c5630d4">SetCurrentPosition</a>. 
 
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

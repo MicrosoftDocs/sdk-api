@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextaddoutbound1.htm
 old-project: fwp
 ms.assetid: ca8bc833-4d6f-4ed0-9c9b-15bbca5e0090
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaContextAddOutbound1, IPsecSaContextAddOutbound1 function [Filtering], fwp.ipsecsacontextaddoutbound1, fwpmu/IPsecSaContextAddOutbound1
 ms.prod: windows
 ms.technology: windows-sdk

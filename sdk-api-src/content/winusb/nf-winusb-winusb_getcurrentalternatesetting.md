@@ -7,7 +7,7 @@ old-location: buses\winusb_getcurrentalternatesetting.htm
 old-project: usbref
 ms.assetid: a644eb68-2192-4927-ac67-77384f8cf2b6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinUsb_GetCurrentAlternateSetting, WinUsb_GetCurrentAlternateSetting function [Buses], buses.winusb_getcurrentalternatesetting, winusb/WinUsb_GetCurrentAlternateSetting, winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ The <b>WinUsb_GetCurrentAlternateSetting</b> function gets the current alternate
 An opaque handle to an interface in the selected configuration. To get the current alternate setting in the first (default) interface on the device, use the interface handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
 
 
-### -param SettingNumber
-
-TBD
-
-
-
-
-#### - AlternateSetting [out]
+### -param SettingNumber [out]
 
 A pointer to an unsigned character that receives an integer that indicates the current alternate setting.
 

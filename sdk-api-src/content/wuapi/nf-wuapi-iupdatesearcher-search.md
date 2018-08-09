@@ -4,10 +4,10 @@ title: IUpdateSearcher::Search
 author: windows-sdk-content
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
 ms.prod: windows
 ms.technology: windows-sdk

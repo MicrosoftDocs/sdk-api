@@ -7,7 +7,7 @@ old-location: adsi\iadscontainer_movehere.htm
 old-project: ADSI
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IADsContainer::MoveHere</b>
-  method moves a specified object to the container that implements this interface.
-  The method can be used to rename an object.
+The <b>IADsContainer::MoveHere</b>method moves a specified object to the container that implements this interface.The method can be used to rename an object.
 
 
 ## -parameters
@@ -78,6 +76,11 @@ The <b>IADsContainer::MoveHere</b>
 
 
 
+#### - bstrSourceObject [in]
+
+The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
+
+
 #### - bstrNewName [in]
 
 The null-terminated Unicode string that specifies the relative name of the new object within the container. This can be
@@ -85,15 +88,10 @@ The null-terminated Unicode string that specifies the relative name of the new o
     renamed accordingly in the process.
 
 
-#### - bstrSourceObject [in]
-
-The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
-
-
 #### - ppbstrNewObject [out]
 
 Pointer to a pointer to the 
-     <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the moved
+     <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the moved
     object.
 
 
@@ -139,13 +137,10 @@ In Active Directory, you can move an object within the same domain
 <div class="alert"><b>Note</b>  When using the 
      <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> function to bind to
     an ADSI object, you must use the <b>ADS_USE_DELEGATION</b> flag of the 
-     <a href="https://msdn.microsoft.com/3a45e0c2-5392-456d-80c9-ebd17d056a85">ADS_AUTHENTICATION_ENUM</a>
-    in the <i>dwReserved</i> parameter of this function
+     <a href="https://msdn.microsoft.com/3a45e0c2-5392-456d-80c9-ebd17d056a85">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
     in order to create cross-domain moves with <b>IADsContainer::MoveHere</b>. The
     <b>ADsOpenObject</b> function is equivalent to the 
-     <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">IADsOpenDSObject::OpenDsObject</a>
-    method. Likewise, using the <b>OpenDsObject</b>
-    method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
+     <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
     <b>ADS_USE_DELEGATION</b> flag of the
     <b>ADS_AUTHENTICATION_ENUM</b> in order to make cross-domain moves with
     <b>IADsContainer::MoveHere</b>.</div>
@@ -170,8 +165,7 @@ ou.MoveHere("LDAP://server2/CN=jeffsmith,OU=Sales,DC=South,DC=Fabrikam,DC=Com", 
 A serverless ADsPath can be used for either the source or the
     destination or both.
 
-The <b>IADsContainer::MoveHere</b>
-    method can be used either to rename an object within the same container or to
+The <b>IADsContainer::MoveHere</b>method can be used either to rename an object within the same container or to
     move an object among different containers. Moving an object retains the
     object RDN, whereas renaming an object alters the RDN.
 
@@ -339,7 +333,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

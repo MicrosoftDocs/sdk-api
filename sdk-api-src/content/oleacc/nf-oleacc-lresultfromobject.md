@@ -7,7 +7,7 @@ old-location: winauto\lresultfromobject.htm
 old-project: WinAuto
 ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: LresultFromObject, LresultFromObject function [Windows Accessibility], _msaa_LresultFromObject, msaa.lresultfromobject, oleacc/LresultFromObject, winauto.lresultfromobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Value sent by the associated <a href="https://msdn.microsoft.com/59350aa1-1697-4110-b9a6-f30ee56c4cff">WM_GETOBJECT</a> message in its <i>wParam</i> parameter.
 
 
-### -param punk
-
-TBD
-
-
-
-
-#### - pAcc [in]
+### -param punk [in]
 
 Type: <b>LPUNKNOWN</b>
 

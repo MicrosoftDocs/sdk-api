@@ -7,7 +7,7 @@ old-location: wer\reportfault.htm
 old-project: wer
 ms.assetid: 9f7c2abc-4d9a-4f3b-a540-e4546ed709de
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ Enables an application that performs its own exception handling to report faults
 <a href="https://msdn.microsoft.com/57e8cb3a-1b11-45b9-9676-3b6dc600d225">EXCEPTION_POINTERS</a> structure.
 
 
-### -param dwOpt
-
-TBD
-
-
-
-
-#### - dwMode [in]
+### -param dwOpt [in]
 
 This parameter is reserved for system use and should be set to zero.
 

@@ -7,7 +7,7 @@ old-location: automat\safearraygetdim.htm
 old-project: automat
 ms.assetid: bc52b23b-d323-478c-881f-d2a31a3289c5
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SafeArrayGetDim, SafeArrayGetDim function [Automation], _oa96_SafeArrayGetDim, automat.safearraygetdim, oleauto/SafeArrayGetDim
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorMan
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\fromfile_75filename_useembeddedcolormanagement.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: FromFile, FromFile method [GDI+], FromFile method [GDI+],Image class, Image class [GDI+],FromFile method, Image.FromFile, Image::FromFile, _gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::FromFile</b> method creates an 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object based on a file.
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object based on a file.
 
 
 ## -parameters
@@ -72,18 +72,18 @@ Pointer to a wide-character string that specifies the name of the file.
 Type: <b>BOOL</b>
 
 Optional. Boolean value that specifies whether the new 
-					<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object applies color correction according to color management information that is embedded in the image file. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>. 
+					<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object applies color correction according to color management information that is embedded in the image file. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object.
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
 
 
 
@@ -93,7 +93,7 @@ This method returns a pointer to the new
 
 
 You can create 
-				<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> objects based on files of a variety of types including BMP, GIF, JPEG, PNG, TIFF, and EMF.
+				<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> objects based on files of a variety of types including BMP, GIF, JPEG, PNG, TIFF, and EMF.
 
 
 
@@ -107,27 +107,27 @@ You can create
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
+<a href="https://msdn.microsoft.com/0ad2a132-6db6-4099-81a2-10e1cd1b1f61">Drawing, Positioning, and Cloning Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535365(v=VS.85).aspx">Image Constructors</a>
+<a href="https://msdn.microsoft.com/4962e901-cc4f-4225-8d24-731225e149e6">Image Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535367(v=VS.85).aspx">Image::Clone</a>
+<a href="https://msdn.microsoft.com/a22163d0-36fc-4bf3-be21-f39145138a87">Image::Clone</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535371(v=VS.85).aspx">Image::FromStream</a>
+<a href="https://msdn.microsoft.com/93fd84c5-ef6b-447f-b456-30b5a8cf0e7d">Image::FromStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
  
 
  

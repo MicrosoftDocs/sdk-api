@@ -7,7 +7,7 @@ old-location: mf\mfgetservice.htm
 old-project: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +115,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The service requested cannot be found in the object represented by <i>punkObject</i>.
+The service requested cannot be found in the object represented by <i>punkObject</i>.
               
 
 </td>

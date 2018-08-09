@@ -7,7 +7,7 @@ old-location: gdi\roundrect.htm
 old-project: gdi
 ms.assetid: 17808a6a-7bd0-4fd6-81ab-00d5db764b93
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RoundRect, RoundRect function [Windows GDI], _win32_RoundRect, gdi.roundrect, wingdi/RoundRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,66 +66,34 @@ The <b>RoundRect</b> function draws a rectangle with rounded corners. The rectan
 A handle to the device context.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-### -param width
-
-TBD
-
-
-### -param height
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical coordinates, of the lower-right corner of the rectangle.
-
-
-#### - nHeight [in]
-
-The height, in logical coordinates, of the ellipse used to draw the rounded corners.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 The x-coordinate, in logical coordinates, of the upper-left corner of the rectangle.
 
 
-#### - nRightRect [in]
-
-The x-coordinate, in logical coordinates, of the lower-right corner of the rectangle.
-
-
-#### - nTopRect [in]
+### -param top [in]
 
 The y-coordinate, in logical coordinates, of the upper-left corner of the rectangle.
 
 
-#### - nWidth [in]
+### -param right [in]
+
+The x-coordinate, in logical coordinates, of the lower-right corner of the rectangle.
+
+
+### -param bottom [in]
+
+The y-coordinate, in logical coordinates, of the lower-right corner of the rectangle.
+
+
+### -param width [in]
 
 The width, in logical coordinates, of the ellipse used to draw the rounded corners.
+
+
+### -param height [in]
+
+The height, in logical coordinates, of the ellipse used to draw the rounded corners.
 
 
 ## -returns

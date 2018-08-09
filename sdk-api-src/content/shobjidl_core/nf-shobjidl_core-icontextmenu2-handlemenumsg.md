@@ -7,7 +7,7 @@ old-location: shell\IContextMenu2_HandleMenuMsg.htm
 old-project: shell
 ms.assetid: 06ea4563-a299-4587-906f-4f312c21498a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: HandleMenuMsg, HandleMenuMsg method [Windows Shell], HandleMenuMsg method [Windows Shell],IContextMenu2 interface, IContextMenu2 interface [Windows Shell],HandleMenuMsg method, IContextMenu2.HandleMenuMsg, IContextMenu2::HandleMenuMsg, _win32_IContextMenu2_HandleMenuMsg, shell.IContextMenu2_HandleMenuMsg, shobjidl_core/IContextMenu2::HandleMenuMsg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If <a href="https://msdn.microsoft.com/4e3331ad-4adc-4ea9-8a22-6aad15f618c8">IContextMenu2</a> or <a href="https://msdn.microsoft.com/c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c">IContextMenu3</a> is needed, the best implementation for new context menus is to implement all their logic in <a href="https://msdn.microsoft.com/d258edb1-9489-4cdf-b398-16af37a1cb38">HandleMenuMsg2</a> and have their <b>IContextMenu2::HandleMenuMsg</b> implementation simply delegate the call to <b>HandleMenuMsg2</b> and pass <b>NULL</b> as the <i>plResult</i> parameter.
 
 
-<div class="alert"><b>Note</b>  
-        If <a href="https://msdn.microsoft.com/c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c">IContextMenu3</a> is not implemented, there is no guarantee that <a href="https://msdn.microsoft.com/4e3331ad-4adc-4ea9-8a22-6aad15f618c8">IContextMenu2</a> will be called in its place. In some cases, the absence of <b>IContextMenu3</b> is determined and then the process is halted.
+<div class="alert"><b>Note</b>  If <a href="https://msdn.microsoft.com/c08e1b98-2b8b-41f6-93c5-3a5937bd3b2c">IContextMenu3</a> is not implemented, there is no guarantee that <a href="https://msdn.microsoft.com/4e3331ad-4adc-4ea9-8a22-6aad15f618c8">IContextMenu2</a> will be called in its place. In some cases, the absence of <b>IContextMenu3</b> is determined and then the process is halted.
       </div>
 <div> </div>
 

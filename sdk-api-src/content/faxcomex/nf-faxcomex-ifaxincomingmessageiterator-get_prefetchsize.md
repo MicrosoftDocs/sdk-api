@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64th.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxIncomingMessageIterator object [Fax Service],PrefetchSize property, FaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.get_PrefetchSize, IFaxIncomingMessageIterator.put_PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],FaxIncomingMessageIterator object, _mfax_faxincomingmessageiterator.prefetchsize, fax._mfax_faxincomingmessageiterator_prefetchsize, get_PrefetchSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ This property is read/write.
 
 The prefetch buffer contains messages and makes the iteration process more efficient because you iterate through the buffer rather than through a folder. 
 
-Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a> is a local object.
+Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a> is a local object.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right.
 
 
 
@@ -79,15 +79,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686518(v=VS.85).aspx">PrefetchSize</a>
+<a href="https://msdn.microsoft.com/0b9280dc-5895-4c11-9298-459b7792ad39">PrefetchSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
  
 
  

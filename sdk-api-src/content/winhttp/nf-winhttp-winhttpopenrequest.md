@@ -4,10 +4,10 @@ title: WinHttpOpenRequest function
 author: windows-sdk-content
 description: The WinHttpOpenRequest function creates an HTTP request handle.
 old-location: http\winhttpopenrequest.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 9ecd035d-1abf-48ca-baf2-d9754f912c60
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WINHTTP_FLAG_BYPASS_PROXY_CACHE, WINHTTP_FLAG_ESCAPE_DISABLE, WINHTTP_FLAG_ESCAPE_DISABLE_QUERY, WINHTTP_FLAG_ESCAPE_PERCENT, WINHTTP_FLAG_NULL_CODEPAGE, WINHTTP_FLAG_REFRESH, WINHTTP_FLAG_SECURE, WinHttpOpenRequest, WinHttpOpenRequest function [WinHTTP], http.winhttpopenrequest, winhttp.winhttpopenrequest_function, winhttp/WinHttpOpenRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The <b>WinHttpOpenRequest</b> function creates an HTTP request handle.
 
 ### -param pwszVerb [in]
 
-Pointer to a string that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">HTTP verb</a> to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the <i>HTTP verb</i>. <b>Note</b>  This string should be all uppercase. Many servers treat HTTP verbs as case-sensitive, and the Internet Engineering Task Force (IETF)  Requests for Comments (RFCs) spell these verbs using uppercase characters only.
+Pointer to a string that contains the <a href="glossary.htm">HTTP verb</a> to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the <i>HTTP verb</i>. <b>Note</b>  This string should be all uppercase. Many servers treat HTTP verbs as case-sensitive, and the Internet Engineering Task Force (IETF)  Requests for Comments (RFCs) spell these verbs using uppercase characters only.
 
 
 
@@ -184,16 +184,16 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
  
 
 
-#### - ppwszAcceptTypes [in]
-
-Pointer to a <b>null</b>-terminated array of string pointers that specifies media types accepted by the client. If this parameter is set to <b>WINHTTP_DEFAULT_ACCEPT_TYPES</b>, no types are accepted by the client. Typically, servers handle a lack of accepted types as indication that the client accepts only documents of type "text/*"; that is, only text documents—no pictures or other binary files. For a list of valid media types, see 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=84521">Media Types</a> defined by IANA at http://www.iana.org/assignments/media-types/.
-
-
 #### - pwszReferrer [in]
 
 Pointer to a string that specifies the URL of the document from which the URL in the request 
 <i>pwszObjectName</i> was obtained. If this parameter is set to <b>WINHTTP_NO_REFERER</b>, no referring document is specified. 
+
+
+#### - ppwszAcceptTypes [in]
+
+Pointer to a <b>null</b>-terminated array of string pointers that specifies media types accepted by the client. If this parameter is set to <b>WINHTTP_DEFAULT_ACCEPT_TYPES</b>, no types are accepted by the client. Typically, servers handle a lack of accepted types as indication that the client accepts only documents of type "text/*"; that is, only text documents—no pictures or other binary files. For a list of valid media types, see 
+<a href="Http://go.microsoft.com/fwlink/p/?linkid=84521">Media Types</a> defined by IANA at http://www.iana.org/assignments/media-types/.
 
 
 ## -returns

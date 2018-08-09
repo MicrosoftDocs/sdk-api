@@ -7,7 +7,7 @@ old-location: security\icertproperty_propertyid_property.htm
 old-project: seccertenroll
 ms.assetid: 2829dab5-253d-4ade-bba5-d399afe87a28
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICertProperty interface [Security],PropertyId property, ICertProperty.PropertyId, ICertProperty.put_PropertyId, ICertProperty::PropertyId, ICertProperty::get_PropertyId, ICertProperty::put_PropertyId, PropertyId property [Security], PropertyId property [Security],ICertProperty interface, certenroll/ICertProperty::PropertyId, certenroll/ICertProperty::get_PropertyId, certenroll/ICertProperty::put_PropertyId, put_PropertyId, security.icertproperty_propertyid_property
 ms.prod: windows
 ms.technology: windows-sdk

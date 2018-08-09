@@ -7,7 +7,7 @@ old-location: base\waitnamedpipe.htm
 old-project: ipc
 ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,7 +141,7 @@ If no instances of the specified named pipe exist, the
 
 If the time-out interval expires, the <b>WaitNamedPipe</b> function will fail with the error <b>ERROR_SEM_TIMEOUT</b>.
 
-If the function succeeds, the process should use the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function to open a handle to the named pipe. A return value of <b>TRUE</b> indicates that there is at least one instance of the pipe available. A subsequent <b>CreateFile</b> call to the pipe can fail, because the instance was closed by the server or opened by another client.
+If the function succeeds, the process should use the <a href="base.createfile">CreateFile</a> function to open a handle to the named pipe. A return value of <b>TRUE</b> indicates that there is at least one instance of the pipe available. A subsequent <b>CreateFile</b> call to the pipe can fail, because the instance was closed by the server or opened by another client.
 
 <b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
 
@@ -168,7 +168,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient3_getcurrentsharedmodeengineperiod.htm
 old-project: CoreAudio
 ms.assetid: F91E46F5-5D12-4D53-842B-4495CAA3E09E
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod method [Core Audio], GetCurrentSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetCurrentSharedModeEnginePeriod method, IAudioClient3.GetCurrentSharedModeEnginePeriod, IAudioClient3::GetCurrentSharedModeEnginePeriod, audioclient/IAudioClient3::GetCurrentSharedModeEnginePeriod, coreaudio.iaudioclient3_getcurrentsharedmodeengineperiod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The current period of the audio engine, in audio frames.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
 

@@ -7,7 +7,7 @@ old-location: shell\ILRemoveLastID.htm
 old-project: shell
 ms.assetid: 144df03b-1adc-40c2-a864-3e16bdaf4915
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ILRemoveLastID, ILRemoveLastID function [Windows Shell], _win32_ILRemoveLastID, shell.ILRemoveLastID, shlobj_core/ILRemoveLastID
 ms.prod: windows
 ms.technology: windows-sdk

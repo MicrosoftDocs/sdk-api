@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_descriptor_table1.htm
 old-project: direct3d12
 ms.assetid: 1D9D1846-2BE2-4B88-8D23-5A27173918DD
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE1, D3D12_ROOT_DESCRIPTOR_TABLE1 structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1, direct3d12.d3d12_root_descriptor_table1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Samplers are not allowed in the same descriptor table as constant-buffer views (
         <b>DescriptorTable</b>member of
         <a href="https://msdn.microsoft.com/615B8ABF-FD80-4254-976B-9E587CE9F12E">D3D12_ROOT_PARAMETER1</a>.
         Use a
-        <b>D3D12_ROOT_DESCRIPTOR_TABLE1</b> when you set <b>D3D12_ROOT_PARAMETER1</b>'s <b>SlotType</b> member to <a href="https://msdn.microsoft.com/library/Dn879478(v=VS.85).aspx">D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE</a>.
+        <b>D3D12_ROOT_DESCRIPTOR_TABLE1</b> when you set <b>D3D12_ROOT_PARAMETER1</b>'s <b>SlotType</b> member to <a href="d3d12_root_parameter_type.htm">D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE</a>.
       
 
 Refer to the helper structure <a href="https://msdn.microsoft.com/82AC1948-92AA-4A4D-B443-717E9BF3046D">CD3DX12_ROOT_DESCRIPTOR_TABLE1</a>.

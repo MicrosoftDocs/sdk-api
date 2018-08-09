@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetRowCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getrowcount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_GetRowCount, TabCtrl_GetRowCount macro [Windows Controls], _win32_TabCtrl_GetRowCount, _win32_TabCtrl_GetRowCount_cpp, commctrl/TabCtrl_GetRowCount, controls.TabCtrl_GetRowCount, controls._win32_TabCtrl_GetRowCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760596(v=VS.85).aspx">TCM_GETROWCOUNT</a> message explicitly. 
+Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/ef104374-1030-46c3-876e-083df73854ab">TCM_GETROWCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to the tab control.
 
 
 
-Only tab controls that have the <a href="https://msdn.microsoft.com/library/Bb760549(v=VS.85).aspx">TCS_MULTILINE</a> style can have multiple rows of tabs. 
+Only tab controls that have the <a href="Tab_Control_Styles.htm">TCS_MULTILINE</a> style can have multiple rows of tabs. 
 
 
 

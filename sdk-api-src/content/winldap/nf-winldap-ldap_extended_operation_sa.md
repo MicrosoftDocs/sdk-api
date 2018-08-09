@@ -4,10 +4,10 @@ title: ldap_extended_operation_sA function
 author: windows-sdk-content
 description: Used to pass extended LDAP operations to the server.
 old-location: ldap\ldap_extended_operation_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ldap.ldap_extended_operation_s, ldap_extended_operation_s, ldap_extended_operation_s function [LDAP], ldap_extended_operation_sA, ldap_extended_operation_sW, winldap/ldap_extended_operation_s, winldap/ldap_extended_operation_sA, winldap/ldap_extended_operation_sW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>ldap_extended_operation_s</b> function is used to pass extended LDAP oper
 
 
 
-### -param ExternalHandle
+### -param ExternalHandle [in]
 
-TBD
+The session handle.
 
 
 ### -param Oid [in]
@@ -94,11 +94,6 @@ Optional. A pointer to a null-terminated string that contains the dotted OID tex
 ### -param ReturnedData [out]
 
 Optional. The arbitrary data returned by the extended operation. If <b>NULL</b>, no data is returned by the server. Set this parameter to <b>NULL</b> if not used.
-
-
-#### - ld [in]
-
-The session handle.
 
 
 ## -returns

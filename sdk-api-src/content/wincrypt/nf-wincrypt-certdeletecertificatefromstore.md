@@ -4,10 +4,10 @@ title: CertDeleteCertificateFromStore function
 author: windows-sdk-content
 description: The CertDeleteCertificateFromStore function deletes the specified certificate context from the certificate store.
 old-location: security\certdeletecertificatefromstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,7 +128,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

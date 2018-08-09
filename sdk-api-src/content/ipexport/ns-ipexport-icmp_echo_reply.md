@@ -7,7 +7,7 @@ old-location: iphlp\icmp_echo_reply.htm
 old-project: iphlp
 ms.assetid: e6d43c35-1009-4df1-bc39-aec97178cae6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PICMP_ECHO_REPLY, ICMP_ECHO_REPLY, ICMP_ECHO_REPLY structure [IP Helper], IP_BAD_DESTINATION, IP_BAD_OPTION, IP_BAD_REQ, IP_BAD_ROUTE, IP_BUF_TOO_SMALL, IP_DEST_HOST_UNREACHABLE, IP_DEST_NET_UNREACHABLE, IP_DEST_PORT_UNREACHABLE, IP_DEST_PROT_UNREACHABLE, IP_GENERAL_FAILURE, IP_HW_ERROR, IP_NO_RESOURCES, IP_OPTION_TOO_BIG, IP_PACKET_TOO_BIG, IP_PARAM_PROBLEM, IP_REQ_TIMED_OUT, IP_SOURCE_QUENCH, IP_SUCCESS, IP_TTL_EXPIRED_REASSEM, IP_TTL_EXPIRED_TRANSIT, PICMP_ECHO_REPLY, PICMP_ECHO_REPLY structure pointer [IP Helper], _iphlp_icmp_echo_reply, icmp_echo_reply, ipexport/ICMP_ECHO_REPLY, ipexport/PICMP_ECHO_REPLY, iphlp.icmp_echo_reply"
 ms.prod: windows
 ms.technology: windows-sdk

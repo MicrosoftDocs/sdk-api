@@ -7,7 +7,7 @@ old-location: directcomp\dcomposition_border_mode.htm
 old-project: directcomp
 ms.assetid: 26CDDC8A-27F5-4BE4-B345-70FF66ED5C9A
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: DCOMPOSITION_BORDER_MODE, DCOMPOSITION_BORDER_MODE enumeration [DirectComposition], DCOMPOSITION_BORDER_MODE_HARD, DCOMPOSITION_BORDER_MODE_INHERIT, DCOMPOSITION_BORDER_MODE_SOFT, dcomptypes/DCOMPOSITION_BORDER_MODE, dcomptypes/DCOMPOSITION_BORDER_MODE_HARD, dcomptypes/DCOMPOSITION_BORDER_MODE_INHERIT, dcomptypes/DCOMPOSITION_BORDER_MODE_SOFT, directcomp.dcomposition_border_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ to <b>DCOMPOSITION_BORDER_MODE_HARD</b>.
 </code></li>
 <li><code>SetBitmapInterpolationMode(DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR)</code></li>
 </ul>
-If you want a visual to be drawn with antialiasing, use <a href="https://msdn.microsoft.com/library/Hh437364(v=VS.85).aspx">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <b>DCOMPOSITION_BORDER_MODE_SOFT</b> for the edges.
+If you want a visual to be drawn with antialiasing, use <a href="dcomposition_bitmap_interpolation_mode.htm">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <b>DCOMPOSITION_BORDER_MODE_SOFT</b> for the edges.
 
 
 

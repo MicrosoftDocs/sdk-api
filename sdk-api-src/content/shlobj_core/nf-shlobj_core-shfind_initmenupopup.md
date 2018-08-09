@@ -7,7 +7,7 @@ old-location: shell\SHFind_InitMenuPopup.htm
 old-project: shell
 ms.assetid: ca44bd57-6af0-45b3-9331-914e93360743
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHFind_InitMenuPopup, SHFind_InitMenuPopup function [Windows Shell], _win32_SHFind_InitMenuPopup, shell.SHFind_InitMenuPopup, shlobj_core/SHFind_InitMenuPopup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,11 @@ Type: <b>HMENU</b>
 The handle of the popup menu.
 
 
-### -param hwndOwner
+### -param hwndOwner [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+The handle of the popup menu's owner window. This value can be <b>NULL</b>.
 
 
 ### -param idCmdFirst
@@ -85,13 +87,6 @@ The ID of the first menu item.
 Type: <b>UINT</b>
 
 The ID of the last menu item.
-
-
-#### - hwnd [in, optional]
-
-Type: <b>HWND</b>
-
-The handle of the popup menu's owner window. This value can be <b>NULL</b>.
 
 
 ## -returns

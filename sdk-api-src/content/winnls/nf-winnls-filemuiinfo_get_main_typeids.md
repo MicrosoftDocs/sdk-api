@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo_get_main_typeids.htm
 old-project: Intl
 ms.assetid: ccdbf7c8-23a0-4b52-bf8c-8ae9f1a74281
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEIDS, FILEMUIINFO_GET_MAIN_TYPEIDS macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEIDS, intl.filemuiinfo_get_main_typeids, winnls/FILEMUIINFO_GET_MAIN_TYPEIDS
 ms.prod: windows
 ms.technology: windows-sdk

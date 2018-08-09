@@ -7,7 +7,7 @@ old-location: mf\imfgetservice.htm
 old-project: medfound
 ms.assetid: 102a1dff-8419-4f86-a145-53ce3d0123f5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 102a1dff-8419-4f86-a145-53ce3d0123f5, IMFGetService, IMFGetService interface [Media Foundation], IMFGetService interface [Media Foundation],described, mf.imfgetservice, mfidl/IMFGetService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Queries an object for a specified service interface.
+Queries an object for a specified service interface.
         
 
 

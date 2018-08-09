@@ -7,7 +7,7 @@ old-location: base\enumdirtree.htm
 old-project: debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,25 +83,13 @@ A pointer to a buffer that receives the full path of the file. If the function f
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param cb
-
-TBD
-
-
-### -param data
-
-TBD
-
-
-
-
-#### - Callback [in, optional]
+### -param cb [in, optional]
 
 An application-defined callback function, or <b>NULL</b>. For more information, see 
 <a href="https://msdn.microsoft.com/eae41b83-bba5-4656-9a5c-b6ef56845954">EnumDirTreeProc</a>.
 
 
-#### - CallbackData [in, optional]
+### -param data [in, optional]
 
 The user-defined data or <b>NULL</b>. This value is passed to the callback function.
 

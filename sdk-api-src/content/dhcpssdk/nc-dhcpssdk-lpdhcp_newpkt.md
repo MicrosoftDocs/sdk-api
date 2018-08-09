@@ -7,7 +7,7 @@ old-location: dhcp\dhcpnewpkthook.htm
 old-project: dhcp
 ms.assetid: 2bff8750-aeb2-4164-9a6e-4239a6736beb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, LPDHCP_NEWPKT callback, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
 ms.prod: windows
 ms.technology: windows-sdk

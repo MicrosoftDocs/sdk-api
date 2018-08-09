@@ -4,10 +4,10 @@ title: ListBox_GetSel macro
 author: windows-sdk-content
 description: Gets the selection state of an item. You can use this macro or send the LB_GETSEL message explicitly.
 old-location: controls\ListBox_GetSel.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getsel.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ListBox_GetSel, ListBox_GetSel macro [Windows Controls], _win32_ListBox_GetSel, _win32_ListBox_GetSel_cpp, controls.ListBox_GetSel, controls._win32_ListBox_GetSel, windowsx/ListBox_GetSel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the selection state of an item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775212(v=VS.85).aspx">LB_GETSEL</a> message explicitly.
+Gets the selection state of an item. You can use this macro or send the <a href="https://msdn.microsoft.com/f92c02e7-3c6d-4649-8798-42eb4a0c51b6">LB_GETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The zero-based index of the item.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775212(v=VS.85).aspx">LB_GETSEL</a>
+For more information, see <a href="https://msdn.microsoft.com/f92c02e7-3c6d-4649-8798-42eb4a0c51b6">LB_GETSEL</a>
 
 
 

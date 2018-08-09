@@ -7,7 +7,7 @@ old-location: ad\adspropsenderrormessage.htm
 old-project: ad
 ms.assetid: a1ca8440-0b18-4439-9143-bd8119f4f6ae
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ADsPropSendErrorMessage, ADsPropSendErrorMessage function [Active Directory], ad.adspropsenderrormessage, adsprop/ADsPropSendErrorMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ the <a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">AD
 
 
 
-### -param hNotifyObj
+### -param hNotifyObj [in]
 
-TBD
+The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
 
 
 ### -param pError [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/584cb3e7-3b26-4346-9162-b3e3064ded1a">ADSPROPERROR</a> structure which contains data about the error message.
-
-
-#### - hNotifyObject [in]
-
-The handle of the notification object. To obtain this handle, call <a href="https://msdn.microsoft.com/bfca3801-0d24-4177-8173-b6bf4b854fae">ADsPropCreateNotifyObj</a>.
 
 
 ## -returns

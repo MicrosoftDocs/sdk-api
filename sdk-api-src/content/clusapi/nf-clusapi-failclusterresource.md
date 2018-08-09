@@ -7,7 +7,7 @@ old-location: mscs\failclusterresource.htm
 old-project: mscs
 ms.assetid: fcf0226e-4dd0-4c13-86eb-bc87e461234c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: FailClusterResource, FailClusterResource function [Failover Cluster], PCLUSAPI_FAIL_CLUSTER_RESOURCE, PCLUSAPI_FAIL_CLUSTER_RESOURCE function [Failover Cluster], _wolf_failclusterresource, clusapi/FailClusterResource, clusapi/PCLUSAPI_FAIL_CLUSTER_RESOURCE, mscs.failclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

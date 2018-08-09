@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapisharingsession2.htm
 old-project: rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
 ms.prod: windows
 ms.technology: windows-sdk

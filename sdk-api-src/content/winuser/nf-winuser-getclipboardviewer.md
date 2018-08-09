@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboardviewer.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardviewer.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetClipboardViewer, GetClipboardViewer function [Data Exchange], _win32_GetClipboardViewer, _win32_getclipboardviewer_cpp, dataxchg.getclipboardviewer, winui._win32_getclipboardviewer, winuser/GetClipboardViewer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -88,7 +88,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649041(v=VS.85).aspx">GetClipboardOwner</a>
+<a href="https://msdn.microsoft.com/96c06602-05ec-4f38-a53b-1729f2c1ce4f">GetClipboardOwner</a>
 
 
 
@@ -96,7 +96,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649052(v=VS.85).aspx">SetClipboardViewer</a>
+<a href="https://msdn.microsoft.com/b1c9c0eb-388f-4fa1-9744-8ebd324cec4f">SetClipboardViewer</a>
  
 
  

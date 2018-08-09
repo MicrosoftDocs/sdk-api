@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: 6ddd7a5f-659d-45e1-aff8-dee799efd8ac
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcRelationshipEnumerator.GetCurrent, IOpcRelationshipEnumerator::GetCurrent, msopc/IOpcRelationshipEnumerator::GetCurrent, opc.iopcrelationshipenumerator_getcurrent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,7 @@ The enumerator cannot perform this operation from its current position.
 
 
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/d0733a11-0ba6-445f-8e3c-b62ad7b6b4bf">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/d0733a11-0ba6-445f-8e3c-b62ad7b6b4bf">MoveNext</a>method after creating the enumerator.
 
 
 #### Thread Safety

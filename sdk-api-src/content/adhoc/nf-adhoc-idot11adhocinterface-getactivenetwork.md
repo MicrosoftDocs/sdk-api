@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface_getactivenetwork.htm
 old-project: nativewifi
 ms.assetid: aefe605a-720d-40da-8d0f-b1d5dd5b306e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetActiveNetwork method, IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
 ms.prod: windows
 ms.technology: windows-sdk

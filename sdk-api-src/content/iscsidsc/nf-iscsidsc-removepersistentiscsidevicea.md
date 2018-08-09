@@ -7,7 +7,7 @@ old-location: iscsidisc\removepersistentiscsidevice.htm
 old-project: iSCSIDisc
 ms.assetid: 4016d8e4-de67-4c49-b54f-31c1b7bd64a8
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RemovePersistentIScsiDeviceA, RemovePersistentIscsiDevice, RemovePersistentIscsiDevice function [iSCSI Discovery Library API], RemovePersistentIscsiDeviceA, RemovePersistentIscsiDeviceW, iscsidisc.removepersistentiscsidevice, iscsidsc/RemovePersistentIscsiDevice, iscsidsc/RemovePersistentIscsiDeviceA, iscsidsc/RemovePersistentIscsiDeviceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>RemovePersistentIscsiDevice</b> function removes a device or volume from 
 
 
 
-### -param DevicePath
-
-TBD
-
-
-
-
-#### - VolumePath [in]
+### -param DevicePath [in]
 
 A drive letter, mount point, or device path for the volume or device.
 

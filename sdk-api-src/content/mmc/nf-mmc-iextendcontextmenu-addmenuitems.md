@@ -7,7 +7,7 @@ old-location: mmc\iextendcontextmenu_addmenuitems.htm
 old-project: MMC
 ms.assetid: d4fc7bfd-b017-466e-81f2-74f13aec4b52
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: AddMenuItems, AddMenuItems method [MMC], AddMenuItems method [MMC],IExtendContextMenu interface, CCM_INSERTIONALLOWED_NEW, CCM_INSERTIONALLOWED_TASK, CCM_INSERTIONALLOWED_TOP, CCM_INSERTIONALLOWED_VIEW, IExtendContextMenu interface [MMC],AddMenuItems method, IExtendContextMenu.AddMenuItems, IExtendContextMenu::AddMenuItems, _slate_iextendcontextmenu_addmenuitems, mmc.iextendcontextmenu_addmenuitems, mmc/IExtendContextMenu::AddMenuItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>IExtendContextMenu::AddMenuItems</b> method enables a snap-in to add item
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object of the menu to which items are added.
+<a href="_ole_idataobject">IDataObject</a> interface on the data object of the menu to which items are added.
 
 
 ### -param piCallback [in]
@@ -159,7 +159,7 @@ AddMenuItems method should not call AddRef on either the piDataObject pointer or
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

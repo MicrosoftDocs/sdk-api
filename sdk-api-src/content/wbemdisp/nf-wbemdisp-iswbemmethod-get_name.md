@@ -7,7 +7,7 @@ old-location: wmi\swbemmethod_name.htm
 old-project: WmiSdk
 ms.assetid: 207fb17c-cc64-415e-8ce4-590ad78a911e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemMethod interface [Windows Management Instrumentation],Name property, ISWbemMethod.get_Name, ISWbemMethod::get_Name, Name property [Windows Management Instrumentation], Name property [Windows Management Instrumentation],ISWbemMethod interface, Name property [Windows Management Instrumentation],SWbemMethod object, SWbemMethod object [Windows Management Instrumentation],Name property, SWbemMethod.Name, _hmm_swbemmethod.name, get_Name, wmi.swbemmethod_name
 ms.prod: windows
 ms.technology: windows-sdk

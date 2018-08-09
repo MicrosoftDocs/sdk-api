@@ -7,7 +7,7 @@ old-location: mscs\openclusterresource.htm
 old-project: mscs
 ms.assetid: c699cb00-b999-45b8-b9db-570150e1a65e
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: OpenClusterResource, OpenClusterResource function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster], _wolf_openclusterresource, clusapi/OpenClusterResource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

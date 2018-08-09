@@ -7,7 +7,7 @@ old-location: iphlp\getudpstatisticsex2.htm
 old-project: iphlp
 ms.assetid: 8DE392C5-90EF-490D-B53A-58D75A854138
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx2, GetUdpStatisticsEx2 function [IP Helper], iphlp.getudpstatisticsex2, iphlpapi/GetUdpStatisticsEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: GDI+ 1.1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-
-			The 
+The 
 <b>GetUdpStatisticsEx2</b> function retrieves the User Datagram Protocol (UDP) statistics for the current computer. The 
 <b>GetUdpStatisticsEx2</b> function differs from the 
 <a href="https://msdn.microsoft.com/9de7fa95-6bda-4fcc-b563-aed2e61fc1c7">GetUdpStatisticsEx</a> function in that 
@@ -69,7 +68,7 @@ req.product: GDI+ 1.1
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/Mt804346(v=VS.85).aspx">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
+<a href="https://msdn.microsoft.com/A225E0E7-54FB-4655-9A45-F3EF6DA1FF4E">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
 
 
 ### -param Family [in]

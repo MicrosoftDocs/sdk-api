@@ -7,7 +7,7 @@ old-location: fwp\ikeextsaenum2.htm
 old-project: fwp
 ms.assetid: 890e6521-69c1-4cb6-ba64-4fe14cb0dffe
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IkeextSaEnum2, IkeextSaEnum2 function [Filtering], fwp.ikeextsaenum2, fwpmu/IkeextSaEnum2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IkeextSaEnum2</b> function returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
+The <b>IkeextSaEnum2</b> function returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 <div class="alert"><b>Note</b>  <b>IkeextSaEnum2</b> is the specific implementation of IkeextSaEnum used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/245448b0-f7bb-4890-80c0-04ddc90c96f2">IkeextSaEnum1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/a38e266d-2155-4dd4-b12e-5f1a40ca776e">IkeextSaEnum0</a> is available.</div><div> </div>
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: http\http_less_equal_version.htm
 old-project: http
 ms.assetid: c543c8cf-9574-49a8-a123-bfdaa8c6f041
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_LESS_EQUAL_VERSION, HTTP_LESS_EQUAL_VERSION macro [HTTP], _http_http_less_equal_version, http.http_less_equal_version, http/HTTP_LESS_EQUAL_VERSION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\variant_usersize64.htm
 old-project: automat
 ms.assetid: a6ae00a6-f126-4550-ae46-96c5ba1aee35
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VARIANT_UserSize64, VARIANT_UserSize64 function [Automation], automat.variant_usersize64, oaidl/VARIANT_UserSize64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ TBD
 
 
 
+#### - [in]
+
+The data used by RPC.
+
+
 #### - Offset [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the object to be properly aligned when it will be marshaled to the buffer.
-
-
-#### - pFlags [in]
-
-The data used by RPC.
 
 
 #### - pVariant [in]

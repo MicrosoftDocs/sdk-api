@@ -7,7 +7,7 @@ old-location: base\symnext.htm
 old-project: debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ TBD
 
 
 
-#### - Symbol [in, out]
+#### - siw [in, out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/785a9702-8b77-4ce1-99df-143ce78490ab">SYMBOL_INFO</a> structure that provides information about the current symbol. Upon return, the structure contains information about the next symbol.
@@ -83,8 +83,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

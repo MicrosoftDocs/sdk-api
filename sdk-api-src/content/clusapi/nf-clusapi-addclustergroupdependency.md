@@ -7,7 +7,7 @@ old-location: mscs\addclustergroupdependency.htm
 old-project: mscs
 ms.assetid: 595921d5-cca0-49fc-b1f5-55af2c73ed74
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddClusterGroupDependency, AddClusterGroupDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, mscs.addclustergroupdependency
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\floodfill.htm
 old-project: gdi
 ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,36 +66,19 @@ The <b>FloodFill</b> function fills an area of the display surface with the curr
 A handle to a device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param color
-
-TBD
-
-
-
-
-#### - crFill [in]
-
-The color of the boundary or the area to be filled. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
-
-
-#### - nXStart [in]
+### -param x [in]
 
 The x-coordinate, in logical units, of the point where filling is to start.
 
 
-#### - nYStart [in]
+### -param y [in]
 
 The y-coordinate, in logical units, of the point where filling is to start.
+
+
+### -param color [in]
+
+The color of the boundary or the area to be filled. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 
 
 ## -returns

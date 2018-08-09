@@ -7,7 +7,7 @@ old-location: mscs\addclustergrouptogroupcollectiondependency.htm
 old-project: mscs
 ms.assetid: ceb30c1f-39eb-4020-84c6-e6749f0b18a2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddClusterGroupToGroupSetDependency, AddClusterGroupToGroupSetDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupToGroupSetDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergrouptogroupcollectiondependency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-Adds a dependency between a cluster group and a cluster groupset.
-    A group can only be dependent on one groupset.
+Adds a dependency between a cluster group and a cluster groupset.A group can only be dependent on one groupset.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: automat\varbstrfrombool.htm
 old-project: automat
 ms.assetid: 6dc363bc-366c-4d9f-8aed-b1aed752c04f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\buildexplicitaccesswithname.htm
 old-project: secauthz
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: BuildExplicitAccessWithName, BuildExplicitAccessWithName function [Security], BuildExplicitAccessWithNameA, BuildExplicitAccessWithNameW, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, MultipleTrusteeOperation, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, TrusteeForm, TrusteeType, _win32_buildexplicitaccesswithname, aclapi/BuildExplicitAccessWithName, aclapi/BuildExplicitAccessWithNameA, aclapi/BuildExplicitAccessWithNameW, pMultipleTrustee, security.buildexplicitaccesswithname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>BuildExplicitAccessWithName</b> function initializes an 
+The <b>BuildExplicitAccessWithName</b> function initializes an 
 <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure with data specified by the caller. The trustee is identified by a name string.
 
 
@@ -230,8 +229,7 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 
 
-
-						This function does not return a value.
+This function does not return a value.
 
 
 
@@ -253,7 +251,7 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

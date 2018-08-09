@@ -4,10 +4,10 @@ title: IVssBackupComponents::AbortBackup
 author: windows-sdk-content
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm
-old-project: VSS
+old-project: vss
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,7 +138,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-<b>AbortBackup</b> generates an <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">Abort</a> event, which is handled by each instance of each writer through the 
+<b>AbortBackup</b> generates an <a href="vssgloss_a.htm">Abort</a> event, which is handled by each instance of each writer through the 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> method.
 
 

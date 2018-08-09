@@ -4,10 +4,10 @@ title: AcquireCredentialsHandleA function
 author: windows-sdk-content
 description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 old-location: security\acquirecredentialshandle__credssp_.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # AcquireCredentialsHandleA function
@@ -63,19 +64,14 @@ The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to pree
 
 
 
-### -param pszPrincipal [in, optional]
+### -param pszPrincipal
 
-A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
+TBD
 
-<div class="alert"><b>Note</b>  If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> it is executing.</div>
-<div> </div>
 
-### -param pszPackage [in]
+### -param pszPackage
 
-A pointer to a null-terminated string that specifies the name of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> with which these credentials will be used. This is a security package name returned in the <b>Name</b> member of a 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure returned by the 
-<a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function. After a context is established, 
-<a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
+TBD
 
 
 ### -param fCredentialUse [in]
@@ -113,9 +109,9 @@ Allow a local client credential to prepare an outgoing token.
  
 
 
-### -param pvLogonId
+### -param pvLogonId [in, optional]
 
-TBD
+A pointer to a  <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">locally unique identifier</a> (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be <b>NULL</b>.
 
 
 ### -param pAuthData [in, optional]
@@ -143,9 +139,19 @@ A pointer to the <a href="https://msdn.microsoft.com/94b622d0-7c04-4513-841f-0df
 A pointer to a <a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
 
 
-#### - pvLogonID [in, optional]
+#### - pPrincipal [in, optional]
 
-A pointer to a  <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">locally unique identifier</a> (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be <b>NULL</b>.
+A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
+
+<div class="alert"><b>Note</b>  If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> it is executing.</div>
+<div> </div>
+
+#### - pPackage [in]
+
+A pointer to a null-terminated string that specifies the name of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> with which these credentials will be used. This is a security package name returned in the <b>Name</b> member of a 
+<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure returned by the 
+<a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function. After a context is established, 
+<a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
 
 
 ## -returns
@@ -274,7 +280,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

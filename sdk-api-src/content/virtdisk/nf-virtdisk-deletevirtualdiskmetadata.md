@@ -7,7 +7,7 @@ old-location: vstor\deletevirtualdiskmetadata.htm
 old-project: VStor
 ms.assetid: 16fbb793-84a9-4dac-a85e-0f4f50ae8e35
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virtual Storage], virtdisk/DeleteVirtualDiskMetadata, vstor.deletevirtualdiskmetadata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\GetProfilesDirectory.htm
 old-project: shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell], GetProfilesDirectoryA, GetProfilesDirectoryW, _shell_GetProfilesDirectory, shell.GetProfilesDirectory, userenv/GetProfilesDirectory, userenv/GetProfilesDirectoryA, userenv/GetProfilesDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Retrieves the path to the root directory where user profiles are stored.
 
 
 
-### -param lpProfileDir
+### -param lpProfileDir [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to a buffer that, when this function returns successfully, receives the path to the profiles directory. Set this value to <b>NULL</b> to determine the required size of the buffer.
 
 
 ### -param lpcchSize [in, out]
@@ -75,13 +77,6 @@ Specifies the size of the <i>lpProfilesDir</i> buffer, in <b>TCHARs</b>.
                         
 
 If the buffer specified by <i>lpProfilesDir</i> is not large enough or <i>lpProfilesDir</i> is <b>NULL</b>, the function fails and this parameter receives the necessary buffer size, including the terminating null character.
-
-
-#### - lpProfilesDir [out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to a buffer that, when this function returns successfully, receives the path to the profiles directory. Set this value to <b>NULL</b> to determine the required size of the buffer.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mib\mib_unicastipaddress_table.htm
 old-project: mib
 ms.assetid: b064494c-d0d5-4570-b255-4cc95412fd3a
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, _MIB_UNICASTIPADDRESS_TABLE, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedClassName.htm
 old-project: WinAuto
 ms.assetid: 7b5e9c75-5190-4cdd-9774-0c883747018c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedClassName property [Windows Accessibility], CachedClassName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedClassName property, IUIAutomationElement.CachedClassName, IUIAutomationElement.get_CachedClassName, IUIAutomationElement::CachedClassName, IUIAutomationElement::get_CachedClassName, get_CachedClassName, uiauto.uiauto_IUIAutomationElement_CachedClassName, uiauto_IUIAutomationElement_CachedClassName, uiautomationclient/IUIAutomationElement::CachedClassName, uiautomationclient/IUIAutomationElement::get_CachedClassName, winauto.uiauto_IUIAutomationElement_CachedClassName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

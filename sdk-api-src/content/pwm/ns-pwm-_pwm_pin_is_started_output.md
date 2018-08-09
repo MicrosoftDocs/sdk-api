@@ -7,7 +7,7 @@ old-location: base\pwm_pin_is_started_output.htm
 old-project: devio
 ms.assetid: 07D76F8D-C5B5-4500-BFA2-452989868027
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: PWM_PIN_IS_STARTED_OUTPUT, PWM_PIN_IS_STARTED_OUTPUT structure, _PWM_PIN_IS_STARTED_OUTPUT, base.pwm_pin_is_started_output, pwm/PWM_PIN_IS_STARTED_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The pin current signal generation state. A value of true means that the pin is s
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a>
+<a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>
  
 
  

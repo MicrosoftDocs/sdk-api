@@ -7,7 +7,7 @@ old-location: controls\COLORMAP.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\colormap.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _COLORMAP, _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used by the <a href="https://msdn.microsoft.com/library/Bb787467(v=VS.85).aspx">CreateMappedBitmap</a> function to map the colors of the bitmap. 
+Contains information used by the <a href="https://msdn.microsoft.com/dc22a03b-e453-4d18-aa3d-af45e8e620e5">CreateMappedBitmap</a> function to map the colors of the bitmap. 
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: mstv\ibda_dridrmservice_getpairingstatus.htm
 old-project: mstv
 ms.assetid: 01918e99-17e6-4c24-bb85-ba71cf68cf09
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ""Green", "Orange", "Red", GetPairingStatus, GetPairingStatus method [DirectShow], GetPairingStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetPairingStatus method, IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>GetPairingStatus</b> method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA). This status indicates whether a secure pairing exists between the MTD and a Media Sink Device (MSD) so that controlled-access (CA) content can be released.
+The <b>GetPairingStatus</b> method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA). This status indicates whether a secure pairing exists between the MTD and a Media Sink Device (MSD) so that controlled-access (CA) content can be released.
 
 
 ## -parameters
@@ -61,8 +60,7 @@ req.irql:
 
 ### -param penumPairingStatus [in, out]
 
-
-            Address of a variable that gets the pairing device status. The caller passes in a pointer to this variable, and this method returns the correct status value in this parameter. The pairing status that is passed back  can be any of the following values:
+Address of a variable that gets the pairing device status. The caller passes in a pointer to this variable, and this method returns the correct status value in this parameter. The pairing status that is passed back  can be any of the following values:
           
 
 <table>

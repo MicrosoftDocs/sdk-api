@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstallclass.htm
 old-project: devinst
 ms.assetid: 6709936b-cd44-444a-a0c0-14b5ebce5226
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiInstallClass, SetupDiInstallClass function [Device and Driver Installation], SetupDiInstallClassA, SetupDiInstallClassW, devinst.setupdiinstallclass, di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml, setupapi/SetupDiInstallClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,9 +106,9 @@ Set this flag to suppress the user interface unless absolutely necessary. For ex
 If the DI_NOVCP flag is set, this parameter supplies a handle to a file queue where file operations should be queued but not committed.
 
 
-##### - Flags.DI_FORCECOPY
+##### - Flags.DI_NOVCP
 
-Set this flag to always copy files, even if they are already present on the user's computer. If the caller supplies a file queue, this flag is ignored.
+Set this flag if <i>FileQueue</i> is supplied. DI_NOVCP instructs the <b>SetupInstallFromInfSection</b> function (described in Microsoft Windows SDK documentation) not to create a queue of its own and to use the caller-supplied queue instead. If this flag is set, files are not copied just queued. 
 
 
 ##### - Flags.DI_NOBROWSE
@@ -116,9 +116,9 @@ Set this flag to always copy files, even if they are already present on the user
 Set this flag to disable browsing if a copy operation cannot find a specified file. If the caller supplies a file queue, this flag is ignored.
 
 
-##### - Flags.DI_NOVCP
+##### - Flags.DI_FORCECOPY
 
-Set this flag if <i>FileQueue</i> is supplied. DI_NOVCP instructs the <b>SetupInstallFromInfSection</b> function (described in Microsoft Windows SDK documentation) not to create a queue of its own and to use the caller-supplied queue instead. If this flag is set, files are not copied just queued. 
+Set this flag to always copy files, even if they are already present on the user's computer. If the caller supplies a file queue, this flag is ignored.
 
 
 ##### - Flags.DI_QUIETINSTALL

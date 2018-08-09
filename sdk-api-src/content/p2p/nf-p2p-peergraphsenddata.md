@@ -7,7 +7,7 @@ old-location: p2p\peergraphsenddata.htm
 old-project: p2psdk
 ms.assetid: 8ccb6f37-cb1b-41fd-a852-5a84cb5506f5
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphSendData, PeerGraphSendData function [Peer Networking], p2p.peergraphsenddata, p2p/PeerGraphSendData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphSendData</b> function sends data to a  neighbor node  or a directly  connected node.
+The <b>PeerGraphSendData</b> function sends data to a  neighbor node  or a directly  connected node.
 
 
 ## -parameters
@@ -150,8 +149,7 @@ The graph must be  initialized with a call to <a href="https://msdn.microsoft.co
 
 
 
-
-        The <b>PeerGraphSendData</b> function returns as soon as data has been sent to the network layer; the peer graphing layer does not wait for an acknowledgement from the other side of the connection.
+The <b>PeerGraphSendData</b> function returns as soon as data has been sent to the network layer; the peer graphing layer does not wait for an acknowledgement from the other side of the connection.
 
 <div class="alert"><b>Note</b>  In order to be able to receive data with a direct connection, an application must register for a peer event of type <b>PEER_GRAPH_EVENT_INCOMING_DATA</b>. See <a href="https://msdn.microsoft.com/3ed963ba-0b9d-4de8-a610-b07cf49ed27f">PeerGraphRegisterEvent</a>.</div>
 <div> </div>

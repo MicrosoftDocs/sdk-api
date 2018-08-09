@@ -7,7 +7,7 @@ old-location: cos\imultiinterfaceeventcontrol.htm
 old-project: cossdk
 ms.assetid: e603f68a-881c-468d-a3d3-738f43400e01
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], IMultiInterfaceEventControl interface [COM+],described, _cos_IMultiInterfaceEventControl, cos.imultiinterfaceeventcontrol, eventsys/IMultiInterfaceEventControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,6 @@ Retrieves the collection of subscription objects associated with an event method
 <a href="https://msdn.microsoft.com/31d544d4-8cac-46ae-9db7-c5b366ac6b2f">SetDefaultQuery</a>
 </td>
 <td align="left" width="63%">
-
 Establishes a default query to be used when a publisher filter is not associated with an event method.
 
 
@@ -95,7 +94,6 @@ Establishes a default query to be used when a publisher filter is not associated
 <a href="https://msdn.microsoft.com/0eb52937-3bd8-45ab-b4ba-c0264c47c909">SetMultiInterfacePublisherFilter</a>
 </td>
 <td align="left" width="63%">
-
 Assigns a publisher filter to an event method at run time.
 
 </td>

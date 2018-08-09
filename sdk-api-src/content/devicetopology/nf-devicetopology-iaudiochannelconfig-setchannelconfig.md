@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiochannelconfig_setchannelconfig.htm
 old-project: CoreAudio
 ms.assetid: a63b92ab-8abf-4582-b408-6c3e94a6bd3c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioChannelConfig interface [Core Audio],SetChannelConfig method, IAudioChannelConfig.SetChannelConfig, IAudioChannelConfig::SetChannelConfig, IAudioChannelConfigSetChannelConfig, SetChannelConfig, SetChannelConfig method [Core Audio], SetChannelConfig method [Core Audio],IAudioChannelConfig interface, coreaudio.iaudiochannelconfig_setchannelconfig, devicetopology/IAudioChannelConfig::SetChannelConfig
 ms.prod: windows
 ms.technology: windows-sdk

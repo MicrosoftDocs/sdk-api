@@ -7,7 +7,7 @@ old-location: gdi\createpatternbrush.htm
 old-project: gdi
 ms.assetid: a3cf347e-9803-4bb0-bdb3-98929ef859ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreatePatternBrush, CreatePatternBrush function [Windows GDI], _win32_CreatePatternBrush, gdi.createpatternbrush, wingdi/CreatePatternBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ The <b>CreatePatternBrush</b> function creates a logical brush with the specifie
 
 
 
-### -param hbm
-
-TBD
-
-
-
-
-#### - hbmp [in]
+### -param hbm [in]
 
 A handle to the bitmap to be used to create the logical brush.
 

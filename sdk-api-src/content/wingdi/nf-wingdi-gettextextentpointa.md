@@ -7,7 +7,7 @@ old-location: gdi\gettextextentpoint.htm
 old-project: gdi
 ms.assetid: 731085ce-009d-42e1-885f-2f5151e0f6d3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExtentPoint, GetTextExtentPoint function [Windows GDI], GetTextExtentPointA, GetTextExtentPointW, _win32_GetTextExtentPoint, gdi.gettextextentpoint, wingdi/GetTextExtentPoint, wingdi/GetTextExtentPointA, wingdi/GetTextExtentPointW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,24 +80,12 @@ A handle to the device context.
 A pointer to the string that specifies the text. The string does not need to be zero-terminated, since <i>cbString</i> specifies the length of the string.
 
 
-### -param c
-
-TBD
-
-
-### -param lpsz
-
-TBD
-
-
-
-
-#### - cbString [in]
+### -param c [in]
 
 The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
 
 
-#### - lpSize [out]
+### -param lpsz [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the dimensions of the string, in logical units.
 

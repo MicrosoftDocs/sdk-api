@@ -7,7 +7,7 @@ old-location: ad\dsunquoterdnvalue.htm
 old-project: ad
 ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,14 +95,14 @@ This is returned if the number of characters do not match the string used in <i>
 The converted, unquoted RDN value.
 
 
-##### - pcUnquotedRdnValueLength.ERROR_BUFFER_OVERFLOW
-
-This is returned if the number of characters do not match the string used in <i>psQuotedRdnValue</i>.
-
-
 ##### - pcUnquotedRdnValueLength.ERROR_SUCCESS
 
 This is returned if the number of characters match the string used in <i>psQuotedRdnValue</i>.
+
+
+##### - pcUnquotedRdnValueLength.ERROR_BUFFER_OVERFLOW
+
+This is returned if the number of characters do not match the string used in <i>psQuotedRdnValue</i>.
 
 
 ## -returns

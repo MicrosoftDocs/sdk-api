@@ -7,7 +7,7 @@ old-location: ics\inetfwrules_item.htm
 old-project: ics
 ms.assetid: 91c5a93b-7408-4870-a2c0-167648d849cd
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Reference to the returned <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e
 
 
 <h3>C++</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 
@@ -150,8 +149,7 @@ The requested item does not exist.
  
 
 <h3>VB</h3>
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

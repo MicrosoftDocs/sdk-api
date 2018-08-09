@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetItemRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_GetItemRect, TabCtrl_GetItemRect macro [Windows Controls], _win32_TabCtrl_GetItemRect, _win32_TabCtrl_GetItemRect_cpp, commctrl/TabCtrl_GetItemRect, controls.TabCtrl_GetItemRect, controls._win32_TabCtrl_GetItemRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760594(v=VS.85).aspx">TCM_GETITEMRECT</a> message explicitly. 
+Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/6abd8cdf-5f19-4b7e-800e-970097bc891b">TCM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -67,7 +67,9 @@ Handle to the tab control.
 
 ### -param i
 
-TBD
+Type: <b>int</b>
+
+Index of the tab. 
 
 
 ### -param prc
@@ -75,11 +77,4 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
 
 Pointer to a structure that receives the bounding rectangle of the tab, in viewport coordinates. 
-
-
-#### - iItem
-
-Type: <b>int</b>
-
-Index of the tab. 
 

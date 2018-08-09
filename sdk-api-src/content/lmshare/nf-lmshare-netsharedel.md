@@ -4,10 +4,10 @@ title: NetShareDel function
 author: windows-sdk-content
 description: Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 old-location: fs\netsharedel.htm
-old-project: NetShare
+old-project: netshare
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 
-The extended function <a href="https://msdn.microsoft.com/2461c533-351b-48f4-b660-cb17ac3398fa">NetShareDelEx</a> allows the caller  to specify a <a href="https://msdn.microsoft.com/47a74c71-1fcb-4c49-93b5-ea7cf3a0e567">SHARE_INFO_0</a>, <a href="https://msdn.microsoft.com/9bc69340-4ea5-4180-ae5c-667c0a245b66">SHARE_INFO_1</a>, <a href="https://msdn.microsoft.com/cd152ccd-cd60-455f-b25c-c4939c65e0ab">SHARE_INFO_2</a>, <a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>, or <a href="https://msdn.microsoft.com/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure.
+The extended function <a href="https://msdn.microsoft.com/2461c533-351b-48f4-b660-cb17ac3398fa">NetShareDelEx</a> allows the caller  to specify a <a href="https://msdn.microsoft.com/47a74c71-1fcb-4c49-93b5-ea7cf3a0e567">SHARE_INFO_0</a>, <a href="https://msdn.microsoft.com/9bc69340-4ea5-4180-ae5c-667c0a245b66">SHARE_INFO_1</a>, <a href="https://msdn.microsoft.com/cd152ccd-cd60-455f-b25c-c4939c65e0ab">SHARE_INFO_2</a>, <a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>, or <a href="fs.share_info_503">SHARE_INFO_503</a> structure.
 
 
 ## -parameters

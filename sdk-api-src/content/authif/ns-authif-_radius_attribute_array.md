@@ -7,7 +7,7 @@ old-location: nps\IAS_radius_attribute_array.htm
 old-project: nps
 ms.assetid: 2eec8b05-c74d-4876-a475-0be7f60014d0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: "*PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY structure pointer [Network Policy Server], RADIUS_ATTRIBUTE_ARRAY, RADIUS_ATTRIBUTE_ARRAY structure [Network Policy Server], _RADIUS_ATTRIBUTE_ARRAY, _ias_radius_attribute_array, authif/PRADIUS_ATTRIBUTE_ARRAY, authif/RADIUS_ATTRIBUTE_ARRAY, ias.radius_attribute_array, nps.IAS_radius_attribute_array"
 ms.prod: windows
 ms.technology: windows-sdk

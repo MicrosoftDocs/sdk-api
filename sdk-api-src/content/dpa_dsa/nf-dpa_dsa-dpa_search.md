@@ -7,7 +7,7 @@ old-location: controls\DPA_Search.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_search.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPAS_SORTED, DPA_Search, DPA_Search function [Windows Controls], _win32_DPA_Search, _win32_DPA_Search_cpp, controls.DPA_Search, controls._win32_DPA_Search, dpa_dsa/DPA_Search
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,9 @@ Finds an item in a dynamic pointer array (DPA).
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param pFind
@@ -81,7 +83,9 @@ The index at which to start search.
 
 ### -param pfnCompare
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
+
+A comparison function pointer. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> for the comparison function prototype.
 
 
 ### -param lParam
@@ -134,20 +138,6 @@ This value is only valid in conjunction with DPAS_SORTED. If the item is not fou
 </tr>
 </table>
  
-
-
-#### - pdpa
-
-Type: <b>HDPA</b>
-
-A handle to a DPA.
-
-
-#### - pfnCmp
-
-Type: <b><a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a></b>
-
-A comparison function pointer. See <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a> for the comparison function prototype.
 
 
 ## -returns

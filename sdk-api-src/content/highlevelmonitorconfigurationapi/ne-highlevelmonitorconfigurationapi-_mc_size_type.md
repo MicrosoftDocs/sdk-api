@@ -7,7 +7,7 @@ old-location: monitor\mc_size_type.htm
 old-project: Monitor
 ms.assetid: 6a917b7d-b91d-478a-b84e-7586d743522a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [Monitor Configuration], MC_WIDTH, _MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_HEIGHT, highlevelmonitorconfigurationapi/MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_WIDTH, monitor.mc_size_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Specifies whether to get or set the width or height of a monitor's display area.
+Specifies whether to get or set the width or height of a monitor's display area.
 
 
 ## -enum-fields
@@ -62,15 +61,13 @@ req.product: GDI+ 1.1
 
 ### -field MC_WIDTH
 
-
-            Width.
+Width.
           
 
 
 ### -field MC_HEIGHT
 
-
-            Height.
+Height.
           
 
 

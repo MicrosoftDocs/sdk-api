@@ -7,7 +7,7 @@ old-location: gdi\createdibpatternbrush.htm
 old-project: gdi
 ms.assetid: d123ef44-e047-4188-a2bc-20e479869dc3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateDIBPatternBrush, CreateDIBPatternBrush function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrush, gdi.createdibpatternbrush, wingdi/CreateDIBPatternBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,12 @@ The <b>CreateDIBPatternBrush</b> function creates a logical brush that has the p
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param iUsage
-
-TBD
+A handle to a global memory object containing a packed DIB, which consists of a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure immediately followed by an array of bytes defining the pixels of the bitmap.
 
 
-
-
-#### - fuColorSpec [in]
+### -param iUsage [in]
 
 Specifies whether the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure is initialized and, if so, whether this member contains explicit red, green, blue (RGB) values or indexes into a logical palette. The <i>fuColorSpec</i> parameter must be one of the following values.
 
@@ -109,11 +102,6 @@ A color table is provided and contains literal RGB values.
 </tr>
 </table>
  
-
-
-#### - hglbDIBPacked [in]
-
-A handle to a global memory object containing a packed DIB, which consists of a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure immediately followed by an array of bytes defining the pixels of the bitmap.
 
 
 ## -returns

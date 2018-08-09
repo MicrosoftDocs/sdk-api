@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatawriter.htm
 old-project: CoreAudio
 ms.assetid: F8CD8B79-9442-46D0-ABF5-5F6734474B01
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], ISpatialAudioMetadataWriter interface [Core Audio],described, coreaudio.ispatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataWriter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataWriter interface

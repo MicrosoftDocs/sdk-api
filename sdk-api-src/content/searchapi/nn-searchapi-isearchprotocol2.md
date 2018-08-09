@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol2.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol2\isearchprotocol2.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchProtocol2, ISearchProtocol2 interface [search], ISearchProtocol2 interface [search],described, _search_ISearchProtocol2, search._search_ISearchProtocol2, searchapi/ISearchProtocol2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
+Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
       
 
  
@@ -61,7 +61,7 @@ Provides methods for invoking, initializing, and managing <a href="https://msdn.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="https://msdn.microsoft.com/f11ff5a5-d03c-4cb8-970c-78345d204492">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,11 +76,11 @@ The <b>ISearchProtocol2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231433(v=VS.85).aspx">CreateAccessorEx</a>
+<a href="https://msdn.microsoft.com/31ad2c0d-5e2e-4154-ab19-d7c67533b1f2">CreateAccessorEx</a>
 </td>
 <td align="left" width="63%">
  
-        Creates and initializes an <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="https://msdn.microsoft.com/library/Bb231438(v=VS.85).aspx">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
+        Creates and initializes an <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="https://msdn.microsoft.com/6fa8bf02-155d-48e9-8f94-c54680ae33e2">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
         
 
 </td>
@@ -93,11 +93,11 @@ The <b>ISearchProtocol2</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>
+<a href="https://msdn.microsoft.com/f11ff5a5-d03c-4cb8-970c-78345d204492">ISearchProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
  
 
  

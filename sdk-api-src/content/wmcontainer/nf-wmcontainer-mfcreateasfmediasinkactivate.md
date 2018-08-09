@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfmediasinkactivate.htm
 old-project: medfound
 ms.assetid: 513d0a33-1504-4b88-9629-9e3e0dde3617
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: 513d0a33-1504-4b88-9629-9e3e0dde3617, MFCreateASFMediaSinkActivate, MFCreateASFMediaSinkActivate function [Media Foundation], mf.mfcreateasfmediasinkactivate, wmcontainer/MFCreateASFMediaSinkActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax
@@ -69,7 +69,7 @@ Null-terminated wide-character string that contains the output file name.
 
 ### -param pContentInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of an initialized <a href="https://msdn.microsoft.com/en-us/library/Ee663575(v=VS.85).aspx">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
+A pointer to the <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of an initialized <a href="asf_file_structure.htm">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
 
 
 ### -param ppIActivate

@@ -7,7 +7,7 @@ old-location: security\getwindowsaccountdomainsid.htm
 old-project: secauthz
 ms.assetid: ee2ba1b4-1bef-4d79-bb18-512705e2c378
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetWindowsAccountDomainSid, GetWindowsAccountDomainSid function [Security], _win32_getwindowsaccountdomainsid, security.getwindowsaccountdomainsid, securitybaseapi/GetWindowsAccountDomainSid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,26 +70,14 @@ The <b>GetWindowsAccountDomainSid</b> function receives a <a href="https://msdn.
 A pointer to the SID to examine.
 
 
-### -param pDomainSid
-
-TBD
-
-
-### -param cbDomainSid
-
-TBD
-
-
-
-
-#### - cbSid [in, out]
-
-A pointer to a <b>DWORD</b> that <b>GetWindowsAccountDomainSid</b> fills with the size of the domain SID, in bytes.
-
-
-#### - ppDomainSid [out, optional]
+### -param pDomainSid [out, optional]
 
 Pointer that <b>GetWindowsAccountDomainSid</b> fills with a pointer to a SID representing the domain.
+
+
+### -param cbDomainSid [in, out]
+
+A pointer to a <b>DWORD</b> that <b>GetWindowsAccountDomainSid</b> fills with the size of the domain SID, in bytes.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: security\auditsetsystempolicy_func.htm
 old-project: secauthz
 ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/3fafeec9-a028-4a65-
 The <b>AuditCategoryGuid</b> member of these structures is ignored.
 
 
-### -param dwPolicyCount
-
-TBD
-
-
-
-
-#### - PolicyCount [in]
+### -param dwPolicyCount [in]
 
 The number of elements in the <i>pAuditPolicy</i> array.
 
@@ -85,8 +78,7 @@ The number of elements in the <i>pAuditPolicy</i> array.
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.

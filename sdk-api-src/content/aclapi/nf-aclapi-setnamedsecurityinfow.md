@@ -7,7 +7,7 @@ old-location: security\setnamedsecurityinfo.htm
 old-project: secauthz
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>SetNamedSecurityInfo</b> function sets specified security information in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of a specified object. The caller identifies the object by name.
+The <b>SetNamedSecurityInfo</b> function sets specified security information in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of a specified object. The caller identifies the object by name.
 
 
 ## -parameters
@@ -116,8 +115,7 @@ If setting SACL_SECURITY_INFORMATION or SCOPE_SECURITY_INFORMATION, the caller m
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
@@ -171,7 +169,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: automat\vari1fromi8.htm
 old-project: automat
 ms.assetid: be96da1e-e392-4b1f-8951-aa9be644c787
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarI1FromI8, VarI1FromI8 function [Automation], _oa96_VarI1FromI8, automat.vari1fromi8, oleauto/VarI1FromI8
 ms.prod: windows
 ms.technology: windows-sdk

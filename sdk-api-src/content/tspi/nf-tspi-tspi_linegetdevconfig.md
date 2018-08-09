@@ -4,10 +4,10 @@ title: TSPI_lineGetDevConfig function
 author: windows-sdk-content
 description: The TSPI_lineGetDevConfig function returns a data structure object, the contents of which are specific to the line (service provider) and device class, giving the current configuration of a device associated one-to-one with the line device.
 old-location: tspi\tspi_linegetdevconfig.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 87307bc6-0c0e-41d0-bc88-2d806214c13e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_lineGetDevConfig, TSPI_lineGetDevConfig function [TAPI 2.2], _tspi_tspi_linegetdevconfig, tspi.tspi_linegetdevconfig, tspi/TSPI_lineGetDevConfig
 ms.prod: windows
 ms.technology: windows-sdk

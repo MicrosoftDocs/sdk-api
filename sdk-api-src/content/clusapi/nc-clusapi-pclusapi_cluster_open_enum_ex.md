@@ -7,7 +7,7 @@ old-location: mscs\clusteropenenumex.htm
 old-project: mscs
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterOpenEnumEx, ClusterOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX, mscs.clusteropenenumex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ A bitmask that describes the type of objects to be enumerated. This must be one 
        <a href="https://msdn.microsoft.com/e3d5a207-d30e-4935-be95-0957e68d4fe6">CLUSTER_ENUM</a> enumeration values.
 
 
-### -param pOptions [in, optional]
+### -param pOptions [in, optional] [in, optional]
 
 TBD
 

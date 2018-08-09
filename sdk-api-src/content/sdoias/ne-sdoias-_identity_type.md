@@ -7,7 +7,7 @@ old-location: nps\SDO_identity_type.htm
 old-project: nps
 ms.assetid: b5b5a8a3-790a-4103-a8a1-718bd77eeb7f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: IAS_IDENTITY_NO_DEFAULT, IDENTITY_TYPE, IDENTITY_TYPE enumeration [Network Policy Server], _IDENTITY_TYPE, nps.SDO_identity_type, sdo.identity_type, sdoias/IAS_IDENTITY_NO_DEFAULT, sdoias/IDENTITY_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

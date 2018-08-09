@@ -2,12 +2,12 @@
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.MoveNext
 title: IOpcRelationshipSelectorEnumerator::MoveNext
 author: windows-sdk-content
-description: Moves the current position of the enumerator to the next IOpcRelationshipSelector interface pointer.
+description: Moves the current position of the enumerator to the next IOpcRelationshipSelectorinterface pointer.
 old-location: opc\iopcrelationshipselectorenumerator_movenext.htm
 old-project: OPC
 ms.assetid: a958f62d-3e9a-47d9-8ac2-a92a21a74ed1
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcRelationshipSelectorEnumerator.MoveNext, IOpcRelationshipSelectorEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MoveNext, opc.iopcrelationshipselectorenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>
-    interface pointer.
+Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/077f37c3-76af-4b96-9e3a-9fd9b865d941">IOpcRelationshipSelector</a>interface pointer.
 
 
 ## -parameters

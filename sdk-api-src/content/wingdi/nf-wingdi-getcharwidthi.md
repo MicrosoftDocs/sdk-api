@@ -7,7 +7,7 @@ old-location: gdi\getcharwidthi.htm
 old-project: gdi
 ms.assetid: 5f532149-7c2f-4972-9900-68c2f185d255
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCharWidthI, GetCharWidthI function [Windows GDI], _win32_GetCharWidthI, gdi.getcharwidthi, wingdi/GetCharWidthI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,7 @@ The number of glyph indices.
 A pointer to an array of glyph indices. If this parameter is not <b>NULL</b>, it is used instead of the <i>giFirst</i> parameter.
 
 
-### -param piWidths
-
-TBD
-
-
-
-
-#### - lpBuffer [out]
+### -param piWidths [out]
 
 A pointer to a buffer that receives the widths, in logical coordinates.
 

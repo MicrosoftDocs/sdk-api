@@ -7,7 +7,7 @@ old-location: etw\tdhenumerateproviderfilters.htm
 old-project: ETW
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ The <b>TdhEnumerateProviderFilters</b> function enumerates the filters that the 
 
 
 
-### -param Guid
+### -param Guid [in]
 
-TBD
+GUID that identifies the provider whose filters you want to retrieve.
 
 
 ### -param TdhContextCount [in]
@@ -70,9 +70,9 @@ TBD
 Not used.
 
 
-### -param TdhContext
+### -param TdhContext [in, optional]
 
-TBD
+Not used.
 
 
 ### -param FilterCount [in]
@@ -80,36 +80,14 @@ TBD
 The number of filter structures that the <i>pBuffer</i> buffer contains. Is zero if the <i>pBuffer</i> buffer is insufficient.
 
 
-### -param Buffer
-
-TBD
-
-
-### -param BufferSize
-
-TBD
-
-
-
-
-#### - pBuffer [out, optional]
+### -param Buffer [out, optional]
 
 User-allocated buffer to receive the filter information. For details, see the <a href="https://msdn.microsoft.com/0541b24a-8531-4828-8c3b-d889e58b0b38">PROVIDER_FILTER_INFO</a> structure.
 
 
-#### - pBufferSize [in, out]
+### -param BufferSize [in, out]
 
 Size, in bytes, of the <i>pBuffer</i> buffer. If the function succeeds, this parameter receives the size of the buffer used. If the buffer is too small, the function returns ERROR_INSUFFICIENT_BUFFER and sets this parameter to the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and this parameter receives the required buffer size.
-
-
-#### - pGuid [in]
-
-GUID that identifies the provider whose filters you want to retrieve.
-
-
-#### - pTdhContext [in, optional]
-
-Not used.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: adsi\iadscollection_getobject.htm
 old-project: ADSI
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],GetObject method, IADsCollection.GetObject, IADsCollection::GetObject, _ds_iadscollection_getobject, adsi.iadscollection__getobject, adsi.iadscollection_getobject, iads/IADsCollection::GetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The null-terminated Unicode string that specifies the name of the item. This is 
 
 #### - pvarItem [in]
 
-Current value of the item. For an object, this corresponds to the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
+Current value of the item. For an object, this corresponds to the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer on the object.
 
 
 ## -returns
@@ -184,11 +184,11 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_complete.htm
 old-project: wintouch
 ms.assetid: ff41789c-afc5-419b-9767-e99572b9b41e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: Complete, Complete method [Windows Touch], Complete method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],Complete method, IInertiaProcessor.Complete, IInertiaProcessor::Complete, manipulations/IInertiaProcessor::Complete, wintouch.iinertiaprocessor_complete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-
-    The <b>Complete</b> method raises the <a href="https://msdn.microsoft.com/1284df32-f4e8-43b3-b825-9172ad39f0e6">ManipulationCompleted</a> event	on an <a href="https://msdn.microsoft.com/be392a13-3165-44ff-bcd6-ed0075c669c4">_IManipulationEvents</a> interface implementation.
+The <b>Complete</b> method raises the <a href="https://msdn.microsoft.com/1284df32-f4e8-43b3-b825-9172ad39f0e6">ManipulationCompleted</a> event	on an <a href="https://msdn.microsoft.com/be392a13-3165-44ff-bcd6-ed0075c669c4">_IManipulationEvents</a> interface implementation.
 	 
 
 

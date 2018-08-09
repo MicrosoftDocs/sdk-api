@@ -4,10 +4,10 @@ title: ITargetInfo::GetEnumerator
 author: windows-sdk-content
 description: Gets the enumerator used to access the collection of offline properties.
 old-location: smi\itargetinfo_getenumerator.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 2e7854dd-93eb-4626-a67d-4bd3dd79a75b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetEnumerator, GetEnumerator method [SMI], GetEnumerator method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetEnumerator method, ITargetInfo.GetEnumerator, ITargetInfo::GetEnumerator, smi.itargetinfo_getenumerator, wcmconfig/ITargetInfo::GetEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

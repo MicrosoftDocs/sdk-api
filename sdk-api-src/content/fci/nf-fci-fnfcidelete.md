@@ -7,7 +7,7 @@ old-location: winprog\fnfcidelete.htm
 old-project: devnotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,23 +59,14 @@ The <b>FNFCIDELETE</b> macro provides the declaration for the application-define
 
 
 
-### -param fn
+### -param fn [in]
 
-TBD
-
-
-
-
+The name of the file to be deleted.
 
 
 #### - err
 
 Pointer to the error code value. This value will be used to provide extended error information in the ERF structure used to create the FCI context.
-
-
-#### - pszFile [in]
-
-The name of the file to be deleted.
 
 
 #### - pv

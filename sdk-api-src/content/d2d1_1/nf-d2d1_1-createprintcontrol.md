@@ -4,10 +4,10 @@ title: CreatePrintControl function
 author: windows-sdk-content
 description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 old-location: direct2d\id2d1device_createprintcontrol.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: C8860AEE-807A-435E-9F44-B50545320EDA
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CreatePrintControl, CreatePrintControl methods [Direct2D], ID2D1Device::CreatePrintControl, d2d1_1/CreatePrintControl, direct2d.id2d1device_createprintcontrol
 ms.prod: windows
 ms.technology: windows-sdk

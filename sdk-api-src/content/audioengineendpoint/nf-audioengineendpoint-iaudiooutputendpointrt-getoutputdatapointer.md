@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm
 old-project: termserv
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetOutputDataPointer, GetOutputDataPointer method [Remote Desktop Services], GetOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, IAudioOutputEndpointRT interface [Remote Desktop Services],GetOutputDataPointer method, IAudioOutputEndpointRT.GetOutputDataPointer, IAudioOutputEndpointRT::GetOutputDataPointer, audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer, termserv.iaudiooutputendpointrt_getoutputdatapointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        The <b>GetOutputDataPointer</b> method returns a pointer to the output buffer in which data will be written by the audio engine.
+The <b>GetOutputDataPointer</b> method returns a pointer to the output buffer in which data will be written by the audio engine.
 
 
 ## -parameters

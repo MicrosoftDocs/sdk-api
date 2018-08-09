@@ -4,10 +4,10 @@ title: WSManRunShellCommandEx function
 author: windows-sdk-content
 description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.
 old-location: winrm\wsmanrunshellcommandex.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ Specifies the shell handle returned by the <a href="https://msdn.microsoft.com/9
 Reserved for future use. Must be 0.
 
 
-### -param commandId
+### -param commandId [in]
 
-TBD
+The client specified command Id.
 
 
 ### -param commandLine [in]
@@ -97,11 +97,6 @@ Defines an asynchronous structure. The asynchronous structure contains an option
 ### -param command [out]
 
 Defines the command object associated with a command within a shell. This handle is returned on a successful call and is used to send and receive data and to signal the command. This handle should be closed by calling the <a href="https://msdn.microsoft.com/41ef2a6d-af1a-4a51-b01d-262380f01187">WSManCloseCommand</a> method. This parameter cannot be <b>NULL</b>.
-
-
-#### - commandID [in]
-
-The client specified command Id.
 
 
 ## -returns

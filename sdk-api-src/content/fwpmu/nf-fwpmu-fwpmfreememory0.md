@@ -7,7 +7,7 @@ old-location: fwp\fwpmfreememory0_func.htm
 old-project: fwp
 ms.assetid: ba9f8c1e-f75c-4bf0-b68b-e21a358575fc
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmFreeMemory0, FwpmFreeMemory0 function [Filtering], fwp.fwpmfreememory0_func, fwpmu/FwpmFreeMemory0
 ms.prod: windows
 ms.technology: windows-sdk

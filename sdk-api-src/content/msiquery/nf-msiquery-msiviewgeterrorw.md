@@ -4,10 +4,10 @@ title: MsiViewGetErrorW function
 author: windows-sdk-content
 description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function.
 old-location: setup\msiviewgeterror.htm
-old-project: Msi
+old-project: msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiViewGetError</b> function returns the error that occurred in the 
 <a href="https://msdn.microsoft.com/312c3e62-4c08-447b-951f-d8d944daff3e">MsiViewModify</a> function.
 
@@ -83,8 +82,7 @@ Pointer to the variable that specifies the size, in TCHARs, of the buffer pointe
 
 
 
-
-						This function returns one of the following values.
+This function returns one of the following values.
 
 <table>
 <tr>
@@ -489,7 +487,7 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
 
 
 

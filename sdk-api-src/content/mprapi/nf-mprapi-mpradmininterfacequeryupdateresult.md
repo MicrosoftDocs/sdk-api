@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacequeryupdateresult.htm
 old-project: rras
 ms.assetid: df06d847-2448-4a64-bb1b-d60a3eb4f7a8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminInterfaceQueryUpdateResult, MprAdminInterfaceQueryUpdateResult function [RAS], _mpr_mpradmininterfacequeryupdateresult, mprapi/MprAdminInterfaceQueryUpdateResult, rras.mpradmininterfacequeryupdateresult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectiongetinfo.htm
 old-project: rras
 ms.assetid: 1fef5fbf-de3f-43c6-8b94-808f6ed209d8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminConnectionGetInfo, MprAdminConnectionGetInfo function [RAS], _mpr_mpradminconnectiongetinfo, mprapi/MprAdminConnectionGetInfo, rras.mpradminconnectiongetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,9 +101,9 @@ A DWORD value that describes the format in which the information is returned in 
  
 
 
-### -param hRasConnection
+### -param hRasConnection [in]
 
-TBD
+A handle to the connection to retrieve data about. To obtain this handle, call <a href="https://msdn.microsoft.com/27be536e-0437-4e30-aef7-ed92f50baeaa">MprAdminConnectionEnum</a>.
 
 
 ### -param lplpbBuffer [out]
@@ -111,11 +111,6 @@ TBD
 On successful completion, a pointer to an array of structures that describe the connection. These structures are of type <a href="https://msdn.microsoft.com/e2561365-be3f-44cd-bb3c-18b001fc4d5d">RAS_CONNECTION_0</a>, <a href="https://msdn.microsoft.com/5f6c6895-4baf-46d7-865a-b95342b70abb">RAS_CONNECTION_1</a>, <a href="https://msdn.microsoft.com/5dcc20f0-7447-4256-9dde-18a4a3c95816">RAS_CONNECTION_2</a>, or <a href="https://msdn.microsoft.com/f474563e-01c5-4f2a-aec4-477e0ffc7ab2">RAS_CONNECTION_3</a>, depending on the value of the <i>dwLevel</i> parameter. 
 
 To free this memory, call <a href="https://msdn.microsoft.com/60cae055-841a-4435-bf0e-4198b1ccdd4e">MprAdminBufferFree</a>.
-
-
-#### - hConnection [in]
-
-A handle to the connection to retrieve data about. To obtain this handle, call <a href="https://msdn.microsoft.com/27be536e-0437-4e30-aef7-ed92f50baeaa">MprAdminConnectionEnum</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\imfmediastream_requestsample.htm
 old-project: medfound
 ms.assetid: 3838167b-5774-47f5-9b8d-2882eaa97167
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Media Foundation],RequestSample method, IMFMediaStream.RequestSample, IMFMediaStream::RequestSample, RequestSample, RequestSample method [Media Foundation], RequestSample method [Media Foundation],IMFMediaStream interface, mf.imfmediastream_requestsample, mfidl/IMFMediaStream::RequestSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Requests a sample from the media source.
+Requests a sample from the media source.
         
 
 
@@ -96,8 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The end of the stream was reached.
+The end of the stream was reached.
               
 
 </td>
@@ -109,8 +107,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The media source is stopped.
+The media source is stopped.
 
 </td>
 </tr>
@@ -121,8 +118,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The source's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
+The source's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
               
 
 </td>
@@ -142,17 +138,13 @@ If <i>pToken</i> is not <b>NULL</b>, the media stream calls <b>AddRef</b> on <i>
 When the next sample is available, the media stream stream does the following:
 
 <ol>
-<li>
-            Pulls the first token from the queue.
+<li>Pulls the first token from the queue.
           </li>
-<li>
-            Sets the <a href="https://msdn.microsoft.com/9403bb15-e912-4aa3-9af1-fef4a4f9b242">MFSampleExtension_Token</a> attribute on the media sample. The attribute data is a pointer to the token object.
+<li>Sets the <a href="https://msdn.microsoft.com/9403bb15-e912-4aa3-9af1-fef4a4f9b242">MFSampleExtension_Token</a> attribute on the media sample. The attribute data is a pointer to the token object.
           </li>
-<li>
-            Sends an <a href="https://msdn.microsoft.com/01610053-786f-44b5-90d6-2cb2668cd632">MEMediaSample</a> event. The event data is a pointer to the media sample's <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface.
+<li>Sends an <a href="https://msdn.microsoft.com/01610053-786f-44b5-90d6-2cb2668cd632">MEMediaSample</a> event. The event data is a pointer to the media sample's <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface.
           </li>
-<li>
-            Calls <b>Release</b> on the token.
+<li>Calls <b>Release</b> on the token.
           </li>
 </ol>
 If the media stream cannot fulfill the caller's request for a sample, it simply releases the token object and skips steps 2 and 3.

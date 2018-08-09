@@ -7,7 +7,7 @@ old-location: shell\PathAddBackslash.htm
 old-project: shell
 ms.assetid: 27d8aec7-8b00-412a-9a42-8ce27e262781
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PathAddBackslash, PathAddBackslash function [Windows Shell], PathAddBackslashA, PathAddBackslashW, _win32_PathAddBackslash, shell.PathAddBackslash, shlwapi/PathAddBackslash, shlwapi/PathAddBackslashA, shlwapi/PathAddBackslashW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ Adds a backslash to the end of a string to create the correct syntax for a path.
 
 
 
-### -param pszPath
-
-TBD
-
-
-
-
-#### - lpszPath [in, out]
+### -param pszPath [in, out]
 
 Type: <b>LPTSTR</b>
 

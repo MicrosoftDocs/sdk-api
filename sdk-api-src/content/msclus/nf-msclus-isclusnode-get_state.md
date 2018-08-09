@@ -7,7 +7,7 @@ old-location: mscs\clusnode_state.htm
 old-project: mscs
 ms.assetid: c1887055-518a-4177-a618-418c75883d69
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNode object [Failover Cluster],State property, ClusNode.State, ClusterNodeDown, ClusterNodeJoining, ClusterNodePaused, ClusterNodeStateUnknown, ClusterNodeUp, ISClusNode.get_State, ISClusNode::get_State, State property [Failover Cluster], State property [Failover Cluster],ClusNode object, _wolf_clusnode.state, get_State, mscs.clusnode_state
 ms.prod: windows
 ms.technology: windows-sdk

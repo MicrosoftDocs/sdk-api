@@ -7,7 +7,7 @@ old-location: mscs\clusterregqueryinfokey.htm
 old-project: mscs
 ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Handle to a cluster database key. All subsequent parameters describe the content
 If not <b>NULL</b>, pointer to the number of subkeys in the specified key.
 
 
-### -param lpcchMaxSubKeyLen
+### -param lpcchMaxSubKeyLen [in]
 
-TBD
+If not <b>NULL</b>, pointer to the number of characters in the longest subkey name in the specified key. The number does not include the terminating <b>NULL</b>.
 
 
 ### -param lpcValues [in]
@@ -96,11 +96,6 @@ If not <b>NULL</b>, pointer to the byte size of the specified key's security des
 ### -param lpftLastWriteTime [in]
 
 If not <b>NULL</b>, pointer to the time of the most recent modification to the specified key or any of its contents.
-
-
-#### - lpcchMaxSubKeylen [in]
-
-If not <b>NULL</b>, pointer to the number of characters in the longest subkey name in the specified key. The number does not include the terminating <b>NULL</b>.
 
 
 ## -returns

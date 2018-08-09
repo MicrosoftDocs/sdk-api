@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002"
 author: windows-sdk-content
 description: Specifies which protocols the WDS transport server supports.
 old-location: wds\wdstransport_protocol_flags.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 4de9168b-a0c1-4f92-b573-5072bfc22c0d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS enumeration [Windows Deployment Services], WdsTptProtocolMulticast, WdsTptProtocolUnicast, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002, wds.wdstransport_protocol_flags, wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS, wdstptmgmt/WdsTptProtocolMulticast, wdstptmgmt/WdsTptProtocolUnicast"
 ms.prod: windows
 ms.technology: windows-sdk

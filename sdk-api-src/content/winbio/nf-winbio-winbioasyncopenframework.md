@@ -101,7 +101,7 @@ Handle  of the window that will receive the completion notices. This value is ig
 
 ### -param MessageCode [in, optional]
 
-Window message code the framework must send to signify completion notices. This value is ignored unless the <i>NotificationMethod</i> parameter is set to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>. The value must be within the range <a href="https://msdn.microsoft.com/en-us/library/ms644930(v=VS.85).aspx">WM_APP</a> (0x8000) to 0xBFFF.
+Window message code the framework must send to signify completion notices. This value is ignored unless the <i>NotificationMethod</i> parameter is set to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>. The value must be within the range <a href="https://msdn.microsoft.com/fdb549df-426f-4af5-9c17-6e8730e4abc0">WM_APP</a> (0x8000) to 0xBFFF.
 
 The Windows Biometric Framework sets the <b>LPARAM</b> value of the message to the address of the <a href="https://msdn.microsoft.com/1C8A4557-3851-4AB2-BB9B-AE199EB9D024">WINBIO_ASYNC_RESULT</a> structure that contains the results of the operation. You must call <a href="https://msdn.microsoft.com/b570fc6c-a08e-4485-a621-20f59bd63d40">WinBioFree</a> to release the structure after you have finished using it.
 

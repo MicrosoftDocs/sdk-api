@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getbandwidthstepcount.htm
 old-project: medfound
 ms.assetid: 6b7105c1-7395-462f-ad52-daf621258714
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: 6b7105c1-7395-462f-ad52-daf621258714, GetBandwidthStepCount, GetBandwidthStepCount method [Media Foundation], GetBandwidthStepCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStepCount method, IMFASFStreamSelector.GetBandwidthStepCount, IMFASFStreamSelector::GetBandwidthStepCount, mf.imfasfstreamselector_getbandwidthstepcount, wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: MsiGetPatchFileListA function
 author: windows-sdk-content
 description: The MsiGetPatchFileList function is provided a list of .msp files, delimited by semicolons, and retrieves the list of files that can be updated by the patches.
 old-location: setup\msigetpatchfilelist.htm
-old-project: Msi
+old-project: msi
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ The <b>MsiGetPatchFileList</b> function is provided a list of .msp files, delimi
 A null-terminated string value containing the <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> (GUID) of the product which is the target of the patches.  This parameter cannot be <b>NULL</b>.
 
 
-### -param szPatchPackages
+### -param szPatchPackages [in]
 
-TBD
+A null-terminated string value that contains the list of Windows Installer patches (.msp files).  Each patch can be specified by the full path to the patch package. The patches in the list are delimited by semicolons. At least one patch must be specified.
 
 
 ### -param pcFiles [in, out]
@@ -81,17 +81,11 @@ A pointer to a location that receives the number of files that will be updated o
 A pointer to a location that receives a pointer to an array of records. The first field (0-index) of each record  contains the full file path of a file that can be updated when the list of patches in <i>szPatchList</i> are applied on this computer. This parameter is required.
 
 
-#### - szPatchList [in]
-
-A null-terminated string value that contains the list of Windows Installer patches (.msp files).  Each patch can be specified by the full path to the patch package. The patches in the list are delimited by semicolons. At least one patch must be specified.
-
-
 ## -returns
 
 
 
-
-					The <b>MsiGetPatchFileList</b> function returns the following values.
+The <b>MsiGetPatchFileList</b> function returns the following values.
 
 <table>
 <tr>

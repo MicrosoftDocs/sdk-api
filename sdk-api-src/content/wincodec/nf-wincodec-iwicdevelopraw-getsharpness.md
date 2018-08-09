@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getsharpness.htm
 old-project: wic
 ms.assetid: a3cb0749-5ec6-4c29-824f-ae44f554d494
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSharpness, GetSharpness method [Windows Imaging Component], GetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetSharpness method, IWICDevelopRaw.GetSharpness, IWICDevelopRaw::GetSharpness, _wic_codec_iwicdevelopraw_getsharpness, wic._wic_codec_iwicdevelopraw_getsharpness, wincodec/IWICDevelopRaw::GetSharpness
 ms.prod: windows
 ms.technology: windows-sdk

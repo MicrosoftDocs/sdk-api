@@ -7,7 +7,7 @@ old-location: base\symsrvstoresupplement.htm
 old-project: debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ A handle to a process. This handle must have been previously passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param SrvPath
+### -param SrvPath [in, optional]
 
-TBD
+The path to the symbol store.
 
 
 ### -param Node [in]
@@ -86,17 +86,11 @@ The name of the file.
 If this parameter is <b>SYMSTOREOPT_COMPRESS</b>, the file is compressed in the symbol store. Currently, there are no other supported values.
 
 
-#### - SymPath [in, optional]
-
-The path to the symbol store.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, the return value is the fully qualified path for the supplemental file.
+If the function succeeds, the return value is the fully qualified path for the supplemental file.
 						
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 

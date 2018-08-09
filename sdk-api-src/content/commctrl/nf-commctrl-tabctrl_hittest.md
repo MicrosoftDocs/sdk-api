@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_HitTest.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_hittest.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_HitTest, TabCtrl_HitTest macro [Windows Controls], _win32_TabCtrl_HitTest, _win32_TabCtrl_HitTest_cpp, commctrl/TabCtrl_HitTest, controls.TabCtrl_HitTest, controls._win32_TabCtrl_HitTest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760604(v=VS.85).aspx">TCM_HITTEST</a> message explicitly. 
+Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://msdn.microsoft.com/0334f616-8d39-4460-a7f8-692a9ffab012">TCM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -60,19 +60,14 @@ Determines which tab, if any, is at a specified screen position. You can use thi
 
 ### -param hwndTC
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tab control. 
 
 
 ### -param pinfo
 
 Type: <b>LPTCHITTESTINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb760553(v=VS.85).aspx">TCHITTESTINFO</a> structure that specifies the screen position to test. 
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tab control. 
+Pointer to a <a href="https://msdn.microsoft.com/7d3de7be-bf10-474e-a596-8de7a4c2a179">TCHITTESTINFO</a> structure that specifies the screen position to test. 
 

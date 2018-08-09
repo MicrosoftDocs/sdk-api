@@ -7,7 +7,7 @@ old-location: fwp\ipseckeymanagersetsecurityinfobykey0.htm
 old-project: fwp
 ms.assetid: 15C8BB3B-0345-42A6-8C99-4D92FC0AEDE4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecKeyManagerSetSecurityInfoByKey0, IPsecKeyManagerSetSecurityInfoByKey0 function [Filtering], fwp.ipseckeymanagersetsecurityinfobykey0, fwpmu/IPsecKeyManagerSetSecurityInfoByKey0
 ms.prod: windows
 ms.technology: windows-sdk

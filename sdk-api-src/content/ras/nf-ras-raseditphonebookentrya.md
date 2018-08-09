@@ -7,7 +7,7 @@ old-location: rras\raseditphonebookentry.htm
 old-project: rras
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasEditPhonebookEntry, RasEditPhonebookEntry function [RAS], RasEditPhonebookEntryA, RasEditPhonebookEntryW, _ras_raseditphonebookentry, ras/RasEditPhonebookEntry, ras/RasEditPhonebookEntryA, ras/RasEditPhonebookEntryW, rras.raseditphonebookentry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,14 +71,9 @@ TBD
 
 
 
-#### - hwnd [in]
+#### - [in]
 
 Handle to the parent window of the dialog box.
-
-
-#### - lpszEntryName [in]
-
-Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
 
 
 #### - lpszPhonebook [in]
@@ -88,6 +83,11 @@ Pointer to a null-terminated string that specifies the full path and file name o
 
 
 					
+
+
+#### - lpszEntryName [in]
+
+Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
 
 
 ## -returns

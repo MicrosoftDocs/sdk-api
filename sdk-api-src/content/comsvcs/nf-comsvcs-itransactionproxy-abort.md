@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_abort.htm
 old-project: cossdk
 ms.assetid: 15ad94ac-311f-486d-988b-9071396f6e34
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Abort method, ITransactionProxy.Abort, ITransactionProxy::Abort, comsvcs/ITransactionProxy::Abort, cos.itransactionproxy_abort
 ms.prod: windows
 ms.technology: windows-sdk

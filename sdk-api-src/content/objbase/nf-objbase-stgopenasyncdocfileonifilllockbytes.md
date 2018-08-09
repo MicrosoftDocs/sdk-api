@@ -7,7 +7,7 @@ old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
 old-project: stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ The <b>StgOpenAsyncDocfileOnIFillLockBytes</b>opens an existing root asynchronou
 
 
 
-### -param pflb
+### -param pflb [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/033b3db4-3ff0-4cb4-916f-2490e92f5e6a">IFillLockBytes</a> pointer to the byte-array wrapper object that contains the storage object to be opened.
 
 
-### -param grfMode
+### -param grfMode [in]
 
-TBD
+A value that specifies the access mode to use to open the storage object. The most common access mode, taken from <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>, is STGM_READ.
 
 
 ### -param asyncFlags [in]
@@ -82,23 +82,11 @@ A pointer to
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>* pointer variable that receives the interface pointer to the root asynchronous storage object.
 
 
-#### - grfmode [in]
-
-A value that specifies the access mode to use to open the storage object. The most common access mode, taken from <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>, is STGM_READ.
-
-
-#### - ppflb [in]
-
-
-						A <a href="https://msdn.microsoft.com/033b3db4-3ff0-4cb4-916f-2490e92f5e6a">IFillLockBytes</a> pointer to the byte-array wrapper object that contains the storage object to be opened.
-
-
 ## -returns
 
 
 
-
-						This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
 
 
 
@@ -117,7 +105,7 @@ The byte array wrapper object must have been previously instantiated through a c
 <a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> function.
 
 The returned storage object has a connection point for 
-<a href="https://msdn.microsoft.com/library/ms680740(v=VS.85).aspx">IProgressNotify</a>.
+<a href="_com_iprogressnotify">IProgressNotify</a>.
 
 
 

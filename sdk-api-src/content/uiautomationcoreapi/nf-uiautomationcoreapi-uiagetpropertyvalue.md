@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetPropertyValueAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 17d5450c-0894-412f-a8d1-44ea0364a606
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UiaGetPropertyValue, UiaGetPropertyValue function [Windows Accessibility], uiauto.uiauto_UiaGetPropertyValueAutoMeth, uiauto_UiaGetPropertyValueAutoMeth, uiautomationcoreapi/UiaGetPropertyValue, winauto.uiauto_UiaGetPropertyValueAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ Type: <b>PROPERTYID</b>
 The property identifier. For a list of property IDs, see <a href="https://msdn.microsoft.com/c05163ea-ba06-4005-9b80-661015b9d2ef">Property Identifiers</a>.
 
 
-### -param pValue
-
-TBD
-
-
-
-
-#### - pvalue [out]
+### -param pValue [out]
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
 

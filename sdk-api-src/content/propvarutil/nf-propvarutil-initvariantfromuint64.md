@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt64.htm
 old-project: properties
 ms.assetid: 8fa8bfe9-b9a6-4292-b303-621ef9d8aa4d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromUInt64, InitVariantFromUInt64 function [Windows Properties], _shell_InitVariantFromUInt64, properties.InitVariantFromUInt64, propvarutil/InitVariantFromUInt64, shell.InitVariantFromUInt64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt64">InitVariantFromUInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762313(v=VS.85).aspx">InitPropVariantFromUInt64</a>
+<a href="shell.InitPropVariantFromUInt64">InitPropVariantFromUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776631(v=VS.85).aspx">VariantToUInt64</a>
+<a href="shell.VariantToUInt64">VariantToUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776634(v=VS.85).aspx">VariantToUInt64WithDefault</a>
+<a href="shell.VariantToUInt64WithDefault">VariantToUInt64WithDefault</a>
  
 
  

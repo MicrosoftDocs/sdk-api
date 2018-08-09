@@ -7,7 +7,7 @@ old-location: gdi\ptconvertprinttickettodevmode.htm
 old-project: printdocs
 ms.assetid: 5eec91b9-d554-4440-bc9e-6a26af34994b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: PTConvertPrintTicketToDevMode, PTConvertPrintTicketToDevMode function [Windows GDI], _win32_PTConvertPrintTicketToDevMode, gdi.ptconvertprinttickettodevmode, prntvpt/PTConvertPrintTicketToDevMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,8 +115,7 @@ Otherwise, some other error code is returned in the <b>HRESULT</b>. For more inf
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-
-        The <i>hProvider</i> parameter must be a handle that was opened in the same thread as the thread in which it is used for this function. 
+The <i>hProvider</i> parameter must be a handle that was opened in the same thread as the thread in which it is used for this function. 
       
 
 If <i>baseDevmodeType</i> is kUserDefaultDevmode, but the user's default is not available, then the device's default will be used.
@@ -127,7 +126,7 @@ The buffer in the returned <i>ppDevmode</i> should be released with <a href="htt
 
 Values of <i>pPrintTicket</i> that are outside of the <i>scope</i> are ignored. For example, if the scope is only a single page, then job-wide settings and document-wide settings are ignored. Job scope includes document scope and page scope. Document scope includes page scope.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 

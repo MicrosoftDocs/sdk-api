@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent_writefailure.htm
 old-project: mstv
 ms.assetid: 6aec07e1-57b9-4350-a48f-762fcf370d6a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],WriteFailure method, IMSVidStreamBufferSinkEvent.WriteFailure, IMSVidStreamBufferSinkEvent::WriteFailure, IMSVidStreamBufferSinkEventWriteFailure, WriteFailure, WriteFailure method [Microsoft TV Technologies], WriteFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, mstv.imsvidstreambuffersinkevent_writefailure, segment/IMSVidStreamBufferSinkEvent::WriteFailure
 ms.prod: windows
 ms.technology: windows-sdk

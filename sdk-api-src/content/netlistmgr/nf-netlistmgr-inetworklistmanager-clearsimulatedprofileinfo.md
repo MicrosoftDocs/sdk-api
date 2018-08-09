@@ -7,7 +7,7 @@ old-location: nla\inetworklistmanager_clearsimulatedprofileinfo.htm
 old-project: nla
 ms.assetid: DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: ClearSimulatedProfileInfo, ClearSimulatedProfileInfo method [Network Awareness], ClearSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],ClearSimulatedProfileInfo method, INetworkListManager.ClearSimulatedProfileInfo, INetworkListManager::ClearSimulatedProfileInfo, netlistmgr/INetworkListManager::ClearSimulatedProfileInfo, nla.inetworklistmanager_clearsimulatedprofileinfo
 ms.prod: windows
 ms.technology: windows-sdk

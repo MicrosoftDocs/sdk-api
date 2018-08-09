@@ -7,7 +7,7 @@ old-location: rras\rasenumautodialaddresses.htm
 old-project: rras
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,29 +62,20 @@ The
 
 
 
-### -param lppRasAutodialAddresses
+### -param lppRasAutodialAddresses [in, out]
 
-TBD
-
-
-### -param lpdwcbRasAutodialAddresses
-
-TBD
-
-
-### -param lpdwcRasAutodialAddresses
-
-TBD
+Pointer to an array of string pointers, with additional space for the storage of the strings themselves at the end of the buffer. 
 
 
 
 
-#### - lpdwcAddresses [out]
+On output, each string receives the name of an address in the AutoDial mapping database.
 
-Pointer to a variable that receives the number of address strings returned in the <i>lppAddresses</i> buffer.
+If <i>lppAddresses</i> is <b>NULL</b> on input, 
+<b>RasEnumAutodialAddresses</b> sets the <i>lpdwcbAddresses</i> and <i>lpdwcAddresses</i> parameters to indicate the required size, in bytes, and the number of address entries in the database.
 
 
-#### - lpdwcbAddresses [in, out]
+### -param lpdwcbRasAutodialAddresses [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by the <i>lpRasEnumAutodialAddressespAddresses</i> parameter. 
 
@@ -97,17 +88,9 @@ Pointer to a variable that, on input, contains the size, in bytes, of the buffer
 </div>
 <div> </div>
 
-#### - lppAddresses [in, out]
+### -param lpdwcRasAutodialAddresses [out]
 
-Pointer to an array of string pointers, with additional space for the storage of the strings themselves at the end of the buffer. 
-
-
-
-
-On output, each string receives the name of an address in the AutoDial mapping database.
-
-If <i>lppAddresses</i> is <b>NULL</b> on input, 
-<b>RasEnumAutodialAddresses</b> sets the <i>lpdwcbAddresses</i> and <i>lpdwcAddresses</i> parameters to indicate the required size, in bytes, and the number of address entries in the database.
+Pointer to a variable that receives the number of address strings returned in the <i>lppAddresses</i> buffer.
 
 
 ## -returns

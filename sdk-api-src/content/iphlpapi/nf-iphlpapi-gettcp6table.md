@@ -7,7 +7,7 @@ old-location: iphlp\gettcp6table.htm
 old-project: iphlp
 ms.assetid: 77150609-d06d-4492-bbd7-21eecd825bde
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetTcp6Table, GetTcp6Table function [IP Helper], iphlp.gettcp6table, iphlpapi/GetTcp6Table
 ms.prod: windows
 ms.technology: windows-sdk

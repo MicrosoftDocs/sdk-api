@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhbitmap.htm
 old-project: wic
 ms.assetid: 8483f352-c31b-4afe-a011-ebef3430c576
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateBitmapFromHBITMAP, CreateBitmapFromHBITMAP method [Windows Imaging Component], CreateBitmapFromHBITMAP method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromHBITMAP method, IWICImagingFactory.CreateBitmapFromHBITMAP, IWICImagingFactory::CreateBitmapFromHBITMAP, _wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wic._wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wincodec/IWICImagingFactory::CreateBitmapFromHBITMAP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,11 +112,11 @@ For a non-palletized bitmap, set NULL for the <i>hPalette</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">GDI+ Bitmap class</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">GDI+ Bitmap class</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536295(v=VS.85).aspx">GDI+ Bitmap.GetHBITMAP method</a>
+<a href="https://msdn.microsoft.com/9728a458-fd25-4edf-bf9e-c38766934dd4">GDI+ Bitmap.GetHBITMAP method</a>
 
 
 

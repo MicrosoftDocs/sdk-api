@@ -7,7 +7,7 @@ old-location: rras\mpradminmibgettrapinfo.htm
 old-project: rras
 ms.assetid: 626c66c8-db7b-4be3-b5b0-c10a41ca46cc
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminMIBGetTrapInfo, MprAdminMIBGetTrapInfo function [RAS], _mpr_mpradminmibgettrapinfo, mprapi/MprAdminMIBGetTrapInfo, rras.mpradminmibgettrapinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ Handle to the router on which to execute this call. Obtain this handle by callin
 <a href="https://msdn.microsoft.com/8d8cba34-e5d3-42ae-9724-361802f21410">MprAdminMIBServerConnect</a>.
 
 
-### -param dwProtocolId
+### -param dwProtocolId [in]
 
-TBD
+Specifies a <b>DWORD</b> variable that contains the protocol family identifier.
 
 
 ### -param dwRoutingPid [in]
@@ -91,19 +91,7 @@ Specifies a <b>DWORD</b> variable that contains the size, in, bytes of the data 
 Receives, the address of a pointer to the output data.
 
 
-### -param lpOutDataSize
-
-TBD
-
-
-
-
-#### - dwTransportId [in]
-
-Specifies a <b>DWORD</b> variable that contains the protocol family identifier.
-
-
-#### - lpdwOutDataSize [in, out]
+### -param lpOutDataSize [in, out]
 
 On input, pointer to a <b>DWORD</b> variable. 
 

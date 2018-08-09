@@ -7,7 +7,7 @@ old-location: dataxchg\ddecmpstringhandles.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecmpstringhandles.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: DdeCmpStringHandles, DdeCmpStringHandles function [Data Exchange], _win32_DdeCmpStringHandles, _win32_ddecmpstringhandles_cpp, dataxchg.ddecmpstringhandles, ddeml/DdeCmpStringHandles, winui._win32_ddecmpstringhandles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,19 +144,19 @@ An application that must do a case-sensitive comparison of two string handles sh
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
+<a href="https://msdn.microsoft.com/7695d435-3bb4-4041-8992-9155efa8911e">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a>
+<a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648753(v=VS.85).aspx">DdeFreeStringHandle</a>
+<a href="https://msdn.microsoft.com/93228467-345b-4ff1-942e-2d75a53bce65">DdeFreeStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

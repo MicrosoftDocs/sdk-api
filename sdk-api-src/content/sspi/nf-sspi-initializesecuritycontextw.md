@@ -4,10 +4,10 @@ title: InitializeSecurityContextW function
 author: windows-sdk-content
 description: Initiates the client side, outbound security context from a credential handle.
 old-location: security\initializesecuritycontext__credssp_.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (CredSSP), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, security.initializesecuritycontext__credssp_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # InitializeSecurityContextW function
@@ -76,10 +77,17 @@ A pointer to a <a href="https://msdn.microsoft.com/94b622d0-7c04-4513-841f-0df9b
 On the first call to <b>InitializeSecurityContext (CredSSP)</b>, specify <b>NULL</b>. On future calls, specify the token received in the <i>phNewContext</i> parameter after the first call to this function.
 
 
-### -param pTargetName
+#### - pTargetName [in, optional]
 
-TBD
+A pointer to a null-terminated string that uniquely identifies the target server. Schannel uses this value to verify the server certificate. Schannel also uses this value to locate the session in the session cache when reestablishing a connection. The cached session is used only if all of the following conditions are met:
 
+<ul>
+<li>The target name is the same.</li>
+<li>The cache entry has not expired.</li>
+<li>The application process that calls the function is the same.</li>
+<li>The logon session is the same.</li>
+<li>The credential handle is the same.</li>
+</ul>
 
 ### -param fContextReq [in]
 
@@ -266,18 +274,6 @@ Do not check for security-related attributes until the final function call retur
 
 A pointer to a <a href="https://msdn.microsoft.com/0a609b32-dbd7-4905-8990-65ebabcd0668">TimeStamp</a> structure that receives the expiration time of the context. It is recommended that the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> always return this value in local time. This parameter is optional and <b>NULL</b> should be passed for short-lived clients.
 
-
-#### - pszTargetName [in, optional]
-
-A pointer to a null-terminated string that uniquely identifies the target server. Schannel uses this value to verify the server certificate. Schannel also uses this value to locate the session in the session cache when reestablishing a connection. The cached session is used only if all of the following conditions are met:
-
-<ul>
-<li>The target name is the same.</li>
-<li>The cache entry has not expired.</li>
-<li>The application process that calls the function is the same.</li>
-<li>The logon session is the same.</li>
-<li>The credential handle is the same.</li>
-</ul>
 
 ## -returns
 
@@ -596,7 +592,7 @@ After  receiving an authentication certificate from a certification authority th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

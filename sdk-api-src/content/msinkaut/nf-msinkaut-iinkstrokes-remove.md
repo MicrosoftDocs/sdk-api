@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_remove.htm
 old-project: tablet
 ms.assetid: ce7a7842-c7c8-4f73-8f68-05b22c2199de
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Remove method, IInkStrokes.Remove, IInkStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkStrokes interface, ce7a7842-c7c8-4f73-8f68-05b22c2199de, msinkaut/IInkStrokes::Remove, tablet.inkstrokes_remove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,7 +190,7 @@ After calling the <b>Remove</b> method, the strokes in the collection are reorde
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

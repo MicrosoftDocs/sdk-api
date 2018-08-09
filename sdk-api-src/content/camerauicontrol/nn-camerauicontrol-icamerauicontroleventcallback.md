@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontroleventcallback.htm
 old-project: devnotes
 ms.assetid: f870557e-0e01-4f5c-81be-c709e397e5fd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], ICameraUIControlEventCallback interface [Windows API],described, camerauicontrol/ICameraUIControlEventCallback, winprog.icamerauicontroleventcallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>ICameraUIControlEventCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh802719(v=VS.85).aspx">OnClosed</a>
+<a href="https://msdn.microsoft.com/5d9237bc-38bb-4c14-8485-edec7c739150">OnClosed</a>
 </td>
 <td align="left" width="63%">
 Occurs when the camera UI control is closed.
@@ -88,7 +88,7 @@ Occurs when an item is captured.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh802721(v=VS.85).aspx">OnItemDeleted</a>
+<a href="https://msdn.microsoft.com/008bac9d-4daa-4729-b414-b9551eb636f1">OnItemDeleted</a>
 </td>
 <td align="left" width="63%">
 Occurs when an item is deleted.

@@ -7,7 +7,7 @@ old-location: gdi\dptolp.htm
 old-project: gdi
 ms.assetid: 0106867c-e8c5-4826-8cba-60c29e1d021a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DPtoLP, DPtoLP function [Windows GDI], _win32_DPtoLP, gdi.dptolp, wingdi/DPtoLP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,24 +68,12 @@ The <b>DPtoLP</b> function converts device coordinates into logical coordinates.
 A handle to the device context.
 
 
-### -param lppt
-
-TBD
-
-
-### -param c
-
-TBD
-
-
-
-
-#### - lpPoints [in, out]
+### -param lppt [in, out]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
 
 
-#### - nCount [in]
+### -param c [in]
 
 The number of points in the array.
 

@@ -4,10 +4,10 @@ title: MsiSetMode function
 author: windows-sdk-content
 description: The MsiSetMode function sets an internal engine Boolean state.
 old-location: setup\msisetmode.htm
-old-project: Msi
+old-project: msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,17 +65,7 @@ The
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
 
 
-### -param eRunMode
-
-TBD
-
-
-### -param fState [in]
-
-Specifies the state to set to <b>TRUE</b> or <b>FALSE</b>.
-
-
-#### - iRunMode [in]
+### -param eRunMode [in]
 
 Specifies the run mode. This parameter must be one of the following values. While there are many values for this parameter, as described in 
 <a href="https://msdn.microsoft.com/45827df5-3f3f-4fb9-bdfe-38dc78a45321">MsiGetMode</a>, only one of the following values can be set. 
@@ -111,6 +101,11 @@ A reboot is necessary to continue installation.
  
 
 
+### -param fState [in]
+
+Specifies the state to set to <b>TRUE</b> or <b>FALSE</b>.
+
+
 ## -returns
 
 
@@ -125,7 +120,7 @@ This function returns UINT.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

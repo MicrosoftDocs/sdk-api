@@ -4,10 +4,10 @@ title: ITDigitDetectionEvent
 author: windows-sdk-content
 description: The ITDigitDetectionEvent interface contains methods that retrieve the description of DTMF digit events.
 old-location: tapi3\itdigitdetectionevent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitDetectionEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITDigitDetectionEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitDetectionEvent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITDigitDetectionEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -134,7 +134,7 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

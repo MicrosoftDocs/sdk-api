@@ -7,7 +7,7 @@ old-location: security\equalprefixsid.htm
 old-project: secauthz
 ms.assetid: ef41de63-4ab5-40c6-8b16-b960e1308b5b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: EqualPrefixSid, EqualPrefixSid function [Security], _win32_equalprefixsid, security.equalprefixsid, securitybaseapi/EqualPrefixSid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ It is advisable to modify the SID for a domain before comparing it with a group 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_postuninstall.htm
 old-project: seccrypto
 ms.assetid: e5ec32ec-616c-4460-bd1c-6e70c61b5234
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICertSrvSetup interface [Security],PostUnInstall method, ICertSrvSetup.PostUnInstall, ICertSrvSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall
 ms.prod: windows
 ms.technology: windows-sdk

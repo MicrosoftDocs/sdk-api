@@ -7,7 +7,7 @@ old-location: wsl\wslisdistributionregistered.htm
 old-project: wsl
 ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,13 +60,6 @@ Determines if a distribution is registered with the Windows Subsystem for Linux 
 
 
 ### -param distributionName
-
-TBD
-
-
-
-
-#### - distroName
 
 Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 

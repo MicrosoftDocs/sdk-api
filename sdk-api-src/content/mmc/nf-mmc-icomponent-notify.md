@@ -7,7 +7,7 @@ old-location: mmc\icomponent_notify.htm
 old-project: MMC
 ms.assetid: 38c3b31f-356c-46cf-904a-98241c0f199f
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IComponent interface [MMC],Notify method, IComponent.Notify, IComponent::Notify, Notify, Notify method [MMC], Notify method [MMC],IComponent interface, _slate_icomponent_notify, mmc.icomponent_notify, mmc/IComponent::Notify
 ms.prod: windows
 ms.technology: windows-sdk

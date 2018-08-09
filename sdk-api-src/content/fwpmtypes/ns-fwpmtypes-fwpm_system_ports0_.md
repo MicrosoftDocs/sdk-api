@@ -7,7 +7,7 @@ old-location: fwp\fwpm_system_ports0.htm
 old-project: fwp
 ms.assetid: cf6fbd43-f603-417d-925d-418d9aec5a03
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_SYSTEM_PORTS0, FWPM_SYSTEM_PORTS0 structure [Filtering], FWPM_SYSTEM_PORTS0_, fwp.fwpm_system_ports0, fwpmtypes/FWPM_SYSTEM_PORTS0
 ms.prod: windows
 ms.technology: windows-sdk

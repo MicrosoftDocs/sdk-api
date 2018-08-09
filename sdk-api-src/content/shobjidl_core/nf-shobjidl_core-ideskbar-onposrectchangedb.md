@@ -7,7 +7,7 @@ old-location: shell\IDeskBar_OnPosRectChangeDB.htm
 old-project: shell
 ms.assetid: a66093e1-4b91-4edd-abee-0043b437a5f6
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IDeskBar interface [Windows Shell],OnPosRectChangeDB method, IDeskBar.OnPosRectChangeDB, IDeskBar::OnPosRectChangeDB, OnPosRectChangeDB, OnPosRectChangeDB method [Windows Shell], OnPosRectChangeDB method [Windows Shell],IDeskBar interface, _win32_IDeskBar_OnPosRectChangeDB, shell.IDeskBar_OnPosRectChangeDB, shobjidl_core/IDeskBar::OnPosRectChangeDB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Notifies the object that the rectangle has changed.
 
 Type: <b>LPRECT</b>
 
-
-          A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the child bar's desired size.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the child bar's desired size.
         
 
 

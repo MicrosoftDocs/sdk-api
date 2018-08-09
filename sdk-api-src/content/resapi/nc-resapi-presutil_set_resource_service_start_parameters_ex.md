@@ -7,7 +7,7 @@ old-location: mscs\resutilsetresourceservicestartparametersex.htm
 old-project: mscs
 ms.assetid: 12F1AD70-4B6C-4920-855C-C55C8F423C69
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX function [Failover Cluster], ResUtilSetResourceServiceStartParameters, ResUtilSetResourceServiceStartParameters function [Failover Cluster], ResUtilSetResourceServiceStartParametersEx, mscs.resutilsetresourceservicestartparametersex, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, resapi/ResUtilSetResourceServiceStartParameters
 ms.prod: windows
 ms.technology: windows-sdk

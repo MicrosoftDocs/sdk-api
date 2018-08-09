@@ -7,7 +7,7 @@ old-location: winsock\napi_provider_type.htm
 old-project: winsock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, napi_provider_type_tag, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The namespace provider is expected to be hosted by a service. This hosting model
 
 
 
-This enumeration is supported on Windows Vista
-  and later.
+This enumeration is supported on Windows Vistaand later.
 
 On  Windows Vista and Windows Server 2008, the <b>NAPI_PROVIDER_TYPE</b> enumeration applies only to NS_EMAIL namespace providers. Windows Vista and Windows Server 2008 currently support only namespace providers of type <b>ProviderType_Application</b> providers. On  Windows Vista and Windows Server 2008, this value should always be set to <b>ProviderType_Application</b>.
 

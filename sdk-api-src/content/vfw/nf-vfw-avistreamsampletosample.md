@@ -7,7 +7,7 @@ old-location: multimedia\avistreamsampletosample.htm
 old-project: Multimedia
 ms.assetid: ed726651-d8f3-4dba-b81d-e283733cabe2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamSampleToSample, AVIStreamSampleToSample macro [Windows Multimedia], _win32_AVIStreamSampleToSample, multimedia.avistreamsampletosample, vfw/AVIStreamSampleToSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,15 +73,6 @@ Handle to a second stream that contains the reference sample.
 
 
 ### -param l
-
-TBD
-
-
-
-
-
-
-#### - lSample
 
 Position information of the sample in the stream referenced by pavi2. 
 

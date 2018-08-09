@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_chstringarray.htm
 old-project: WmiSdk
 ms.assetid: b20e3476-7caa-4fcf-98cc-44ffafafe94a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: "??0CHStringArray@@QAE@XZ, ??0CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation],CHStringArray method, CHStringArray method [Windows Management Instrumentation], CHStringArray method [Windows Management Instrumentation],CHStringArray interface, CHStringArray.CHStringArray, CHStringArray::CHStringArray, _hmm_chstringarray_chstringarray, chstrarr/CHStringArray::CHStringArray, wmi.chstringarray_chstringarray"
 ms.prod: windows
 ms.technology: windows-sdk

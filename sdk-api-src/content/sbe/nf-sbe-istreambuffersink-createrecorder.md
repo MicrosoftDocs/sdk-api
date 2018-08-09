@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink_createrecorder.htm
 old-project: mstv
 ms.assetid: a9f3b7e1-4f54-4802-af24-4b791ee646fc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: CreateRecorder, CreateRecorder method [Microsoft TV Technologies], CreateRecorder method [Microsoft TV Technologies],IStreamBufferSink interface, IStreamBufferSink interface [Microsoft TV Technologies],CreateRecorder method, IStreamBufferSink.CreateRecorder, IStreamBufferSink::CreateRecorder, IStreamBufferSinkCreateRecorder, mstv.istreambuffersink_createrecorder, sbe/IStreamBufferSink::CreateRecorder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,11 +86,9 @@ Indicates the type of recording to create, either a reference recording or a con
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

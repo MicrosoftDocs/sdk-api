@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_GetDate.htm
 old-project: wincontacts
 ms.assetid: 0ee9a870-ad51-4528-b830-bee72586b936
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetDate, GetDate method [Windows Contacts], GetDate method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetDate method, IContactProperties.GetDate, IContactProperties::GetDate, _wincontacts_IContactProperties_GetDate, icontact/IContactProperties::GetDate, wincontacts._wincontacts_IContactProperties_GetDate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 Retrieves the date and time value at a specified property into a caller's 
-    <a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a> structure. All times are stored 
+    <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure. All times are stored 
     and returned as Coordinated Universal Time (UTC).
 
 
@@ -77,9 +77,9 @@ Must be CGD_DEFAULT.
 
 ### -param pftDateTime [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>*</b>
 
-Specifies caller-allocated <a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a> structure. 
+Specifies caller-allocated <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure. 
 
 
 ## -returns
@@ -102,7 +102,7 @@ Returns one of the following values:
 </dl>
 </td>
 <td width="60%">
-<i>pftDateTime</i> contains a valid <a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a>. 
+<i>pftDateTime</i> contains a valid <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>. 
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Returns one of the following values:
 </td>
 <td width="60%">
 The property has been present in the past but its value has been removed. 
-					The <a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a> has been zero'ed. 
+					The <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> has been zero'ed. 
 
 </td>
 </tr>

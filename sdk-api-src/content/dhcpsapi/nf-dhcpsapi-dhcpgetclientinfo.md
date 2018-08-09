@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientinfo.htm
 old-project: dhcp
 ms.assetid: 67095868-7e02-4d82-b2f0-70c413fa8ed6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetClientInfo, DhcpGetClientInfo function [DHCP], dhcp.dhcpgetclientinfo, dhcpsapi/DhcpGetClientInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetClientInfo</b> function returns information about  a specific DHCP client.
+The <b>DhcpGetClientInfo</b> function returns information about  a specific DHCP client.
 
 
 ## -parameters
@@ -102,8 +101,7 @@ This function requires host byte ordering for all <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868-95c41731fe45">
-		  DHCP_CLIENT_INFO</a>
+<a href="https://msdn.microsoft.com/cc841dac-85d4-4250-a868-95c41731fe45">DHCP_CLIENT_INFO</a>
 
 
 

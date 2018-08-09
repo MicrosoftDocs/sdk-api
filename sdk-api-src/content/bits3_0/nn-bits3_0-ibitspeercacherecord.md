@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacherecord.htm
 old-project: bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
 ms.prod: windows
 ms.technology: windows-sdk

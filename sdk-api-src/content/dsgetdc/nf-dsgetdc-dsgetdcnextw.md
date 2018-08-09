@@ -7,7 +7,7 @@ old-location: ad\dsgetdcnext.htm
 old-project: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,12 +72,6 @@ TBD
 
 
 
-#### - DnsHostName [out, optional]
-
-Pointer to a string pointer that receives the DNS name of the domain controller.
-        This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
-
-
 #### - SockAddressCount [out, optional]
 
 Pointer to a <b>ULONG</b> value that receives the number of elements in the <i>SockAddresses</i> array.
@@ -95,6 +89,12 @@ All returned addresses will be of type <b>AF_INET</b> or <b>AF_INET6</b>.
 The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
 
 This parameter is ignored if <i>SockAddressCount</i> is <b>NULL</b>.
+
+
+#### - DnsHostName [out, optional]
+
+Pointer to a string pointer that receives the DNS name of the domain controller.
+        This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
 
 
 ## -returns

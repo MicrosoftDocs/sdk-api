@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_variable_class.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_variable_class.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 4b5cfc29-21a8-7a79-2f99-3915047892cb, D3D10_SHADER_VARIABLE_CLASS, D3D10_SHADER_VARIABLE_CLASS enumeration [Direct3D 10], D3D10_SVC_FORCE_DWORD, D3D10_SVC_MATRIX_COLUMNS, D3D10_SVC_MATRIX_ROWS, D3D10_SVC_OBJECT, D3D10_SVC_SCALAR, D3D10_SVC_STRUCT, D3D10_SVC_VECTOR, D3D11_SVC_INTERFACE_CLASS, D3D11_SVC_INTERFACE_POINTER, D3D_SHADER_VARIABLE_CLASS, LPD3D10_SHADER_VARIABLE_CLASS, LPD3D10_SHADER_VARIABLE_CLASS enumeration pointer [Direct3D 10], _D3D_SHADER_VARIABLE_CLASS, d3d10shader/D3D10_SHADER_VARIABLE_CLASS, d3d10shader/D3D10_SVC_FORCE_DWORD, d3d10shader/D3D10_SVC_MATRIX_COLUMNS, d3d10shader/D3D10_SVC_MATRIX_ROWS, d3d10shader/D3D10_SVC_OBJECT, d3d10shader/D3D10_SVC_SCALAR, d3d10shader/D3D10_SVC_STRUCT, d3d10shader/D3D10_SVC_VECTOR, d3d10shader/D3D11_SVC_INTERFACE_CLASS, d3d10shader/D3D11_SVC_INTERFACE_POINTER, d3d10shader/LPD3D10_SHADER_VARIABLE_CLASS, d3dcommon/D3D10_SHADER_VARIABLE_CLASS, d3dcommon/D3D10_SVC_FORCE_DWORD, d3dcommon/D3D10_SVC_MATRIX_COLUMNS, d3dcommon/D3D10_SVC_MATRIX_ROWS, d3dcommon/D3D10_SVC_OBJECT, d3dcommon/D3D10_SVC_SCALAR, d3dcommon/D3D10_SVC_STRUCT, d3dcommon/D3D10_SVC_VECTOR, d3dcommon/D3D11_SVC_INTERFACE_CLASS, d3dcommon/D3D11_SVC_INTERFACE_POINTER, d3dcommon/LPD3D10_SHADER_VARIABLE_CLASS, direct3d10.d3d10_shader_variable_class
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-These flags describe the class of a shader variable. This is not a programming class; the class identifies the variable class such as scalar, vector, object, and so on. The shader-variable class is used in a shader-variable-type description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172439(v=VS.85).aspx">D3D10_SHADER_TYPE_DESC</a>).
+These flags describe the class of a shader variable. This is not a programming class; the class identifies the variable class such as scalar, vector, object, and so on. The shader-variable class is used in a shader-variable-type description (see <a href="https://msdn.microsoft.com/bb52dbcd-d735-4ddf-a99b-670d21e17acf">D3D10_SHADER_TYPE_DESC</a>).
 
 The <b>D3D10_SHADER_VARIABLE_CLASS</b>     enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/d367ba01-e357-468d-9417-7d5a282d5565">D3D_SHADER_VARIABLE_CLASS</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
@@ -160,7 +160,7 @@ typedef D3D_SHADER_VARIABLE_CLASS D3D10_SHADER_VARIABLE_CLASS;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

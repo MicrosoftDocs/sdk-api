@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderFilter.htm
 old-project: shell
 ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], ICredentialProviderFilter interface [Windows Shell],described, _shell_ICredentialProviderFilter, credentialprovider/ICredentialProviderFilter, shell.ICredentialProviderFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>ICredentialProviderFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Hh707480(v=VS.85).aspx">Filter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932766">Filter</a>
 </td>
 <td align="left" width="63%">
 Evaluates whether a list of credential providers should be allowed to provide credential tiles.

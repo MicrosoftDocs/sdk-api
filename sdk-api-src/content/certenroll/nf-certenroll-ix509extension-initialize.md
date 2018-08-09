@@ -7,7 +7,7 @@ old-location: security\ix509extension_initialize_method.htm
 old-project: seccertenroll
 ms.assetid: a01a371b-7dc2-4204-8029-269ac4a9c0d5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509Extension interface [Security],Initialize method, IX509Extension.Initialize, IX509Extension::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Extension interface, certenroll/IX509Extension::Initialize, security.ix509extension_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

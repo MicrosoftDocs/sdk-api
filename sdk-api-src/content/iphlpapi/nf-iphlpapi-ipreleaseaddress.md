@@ -7,7 +7,7 @@ old-location: iphlp\ipreleaseaddress.htm
 old-project: iphlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
 ms.prod: windows
 ms.technology: windows-sdk

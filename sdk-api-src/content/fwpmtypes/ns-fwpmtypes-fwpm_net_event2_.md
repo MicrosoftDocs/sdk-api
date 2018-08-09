@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event2.htm
 old-project: fwp
 ms.assetid: fbcacfb1-b471-474e-bdee-12a481fadc63
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_NET_EVENT2, FWPM_NET_EVENT2 structure [Filtering], FWPM_NET_EVENT2_, fwp.fwpm_net_event2, fwpmtypes/FWPM_NET_EVENT2
 ms.prod: windows
 ms.technology: windows-sdk

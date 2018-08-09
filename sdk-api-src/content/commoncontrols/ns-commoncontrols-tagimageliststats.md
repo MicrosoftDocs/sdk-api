@@ -7,7 +7,7 @@ old-location: controls\IMAGELISTSTATS.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS, tagIMAGELISTSTATS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains image list statistics. Used by <a href="https://msdn.microsoft.com/library/Bb761417(v=VS.85).aspx">GetStatistics</a>.
+Contains image list statistics. Used by <a href="https://msdn.microsoft.com/D6402FCB-8E84-4F46-9B88-C0AFCEA66A9A">GetStatistics</a>.
 
 
 ## -struct-fields

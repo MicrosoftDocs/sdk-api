@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_setobjectattributes.htm
 old-project: WMDM
 ms.assetid: 0ee2eabe-c20d-48fe-96f4-cb4143869462
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectAttributes method, IWMDMOperation.SetObjectAttributes, IWMDMOperation::SetObjectAttributes, IWMDMOperationSetObjectAttributes, SetObjectAttributes, SetObjectAttributes method [windows Media Device Manager], SetObjectAttributes method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectAttributes, wmdm.iwmdmoperation_setobjectattributes
 ms.prod: windows
 ms.technology: windows-sdk

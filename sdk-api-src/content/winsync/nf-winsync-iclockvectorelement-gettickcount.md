@@ -7,7 +7,7 @@ old-location: winsync\iclockvectorelement_gettickcount.htm
 old-project: winsync
 ms.assetid: 927d769b-c100-4f5f-a243-c5ca53b4d528
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetTickCount, GetTickCount method [Windows Sync], GetTickCount method [Windows Sync],IClockVectorElement interface, IClockVectorElement interface [Windows Sync],GetTickCount method, IClockVectorElement.GetTickCount, IClockVectorElement::GetTickCount, winsync.iclockvectorelement_gettickcount, winsync/IClockVectorElement::GetTickCount
 ms.prod: windows
 ms.technology: windows-sdk

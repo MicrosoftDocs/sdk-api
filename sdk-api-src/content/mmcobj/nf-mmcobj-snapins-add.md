@@ -7,7 +7,7 @@ old-location: mmc\snapins_add.htm
 old-project: MMC
 ms.assetid: 0bc52408-21d2-40d9-9050-56398572df28
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Add, Add method [MMC], Add method [MMC],SnapIns interface, Add method [MMC],SnapIns object, SnapIns interface [MMC],Add method, SnapIns object [MMC],Add method, SnapIns.Add, SnapIns::Add, _slate_snapins.add_method, mmc.snapins_add
 ms.prod: windows
 ms.technology: windows-sdk

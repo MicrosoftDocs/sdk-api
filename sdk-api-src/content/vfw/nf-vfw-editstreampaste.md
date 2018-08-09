@@ -7,7 +7,7 @@ old-location: multimedia\editstreampaste.htm
 old-project: Multimedia
 ms.assetid: c3c77ec1-0aa4-47ab-afc1-ed69d6aca201
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EditStreamPaste, EditStreamPaste function [Windows Multimedia], _win32_EditStreamPaste, multimedia.editstreampaste, vfw/EditStreamPaste
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,13 +88,6 @@ Starting position of the data to copy within the source stream.
 
 
 ### -param lEnd
-
-TBD
-
-
-
-
-#### - lLength
 
 Amount of data to copy from the source stream. If <i>lLength</i> is -1, the entire stream referenced by <i>pstream</i> is pasted in the other stream.
 

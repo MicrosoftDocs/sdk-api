@@ -7,7 +7,7 @@ old-location: display\engallocmem.htm
 old-project: display
 ms.assetid: 61bef5a1-bf68-4d37-ae5d-13ff045a2344
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngAllocMem, EngAllocMem function [Display Devices], display.engallocmem, gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml, winddi/EngAllocMem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,26 +59,7 @@ The <b>EngAllocMem</b> function allocates a block of memory and inserts a caller
 
 
 
-### -param flags
-
-TBD
-
-
-### -param cj
-
-TBD
-
-
-### -param tag
-
-TBD
-
-
-
-
-
-
-#### - Flags [in]
+### -param flags [in]
 
 Specifies how to allocate memory. This parameter can be a combination of the following values.
 
@@ -111,12 +92,12 @@ Zero-initialize the allocated memory. If this flag is not set, the memory is ret
  
 
 
-#### - MemSize [in]
+### -param cj [in]
 
 Specifies the number of bytes to allocate.
 
 
-#### - Tag [in]
+### -param tag [in]
 
 Specifies a 4-byte <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 

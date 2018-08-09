@@ -7,7 +7,7 @@ old-location: mscs\cluster_property_type.htm
 old-project: mscs
 ms.assetid: 4a10d4f1-2a50-42e7-a143-e9a93d9fcc42
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: CLUSPROP_TYPE_CSV_PARTITION_INFO_EX, CLUSPROP_TYPE_DISKID, CLUSPROP_TYPE_DISK_GUID, CLUSPROP_TYPE_DISK_HEADER_IDS, CLUSPROP_TYPE_DISK_NUMBER, CLUSPROP_TYPE_DISK_PRIV_PROPERTIES, CLUSPROP_TYPE_DISK_SERIALNUMBER, CLUSPROP_TYPE_DISK_SIZE, CLUSPROP_TYPE_DISK_SP_ID, CLUSPROP_TYPE_DISK_VALUES, CLUSPROP_TYPE_ENDMARK, CLUSPROP_TYPE_FTSET_INFO, CLUSPROP_TYPE_LIST_VALUE, CLUSPROP_TYPE_NAME, CLUSPROP_TYPE_NODE_BITMASK, CLUSPROP_TYPE_NODE_INDEX, CLUSPROP_TYPE_NODE_NAME, CLUSPROP_TYPE_PARTITION_INFO, CLUSPROP_TYPE_PARTITION_INFO_EX, CLUSPROP_TYPE_PARTITION_INFO_EX2, CLUSPROP_TYPE_POOL_INFO, CLUSPROP_TYPE_POOL_PRIV_PROPERTIES, CLUSPROP_TYPE_RESCLASS, CLUSPROP_TYPE_RESERVED1, CLUSPROP_TYPE_RESOURCE_ID, CLUSPROP_TYPE_SCSI_ADDRESS, CLUSPROP_TYPE_SIGNATURE, CLUSPROP_TYPE_STORAGE_DEVICE_ID_DESCRIPTOR, CLUSPROP_TYPE_UNKNOWN, CLUSPROP_TYPE_USER, CLUSPROP_TYPE_VOLUME_INFO, CLUSTER_PROPERTY_TYPE, CLUSTER_PROPERTY_TYPE enumeration [Failover Cluster], _CLUSTER_PROPERTY_TYPE, _CLUSTER_PROPERTY_TYPE enumeration [Failover Cluster], clusapi/CLUSPROP_TYPE_CSV_PARTITION_INFO_EX, clusapi/CLUSPROP_TYPE_DISKID, clusapi/CLUSPROP_TYPE_DISK_GUID, clusapi/CLUSPROP_TYPE_DISK_HEADER_IDS, clusapi/CLUSPROP_TYPE_DISK_NUMBER, clusapi/CLUSPROP_TYPE_DISK_PRIV_PROPERTIES, clusapi/CLUSPROP_TYPE_DISK_SERIALNUMBER, clusapi/CLUSPROP_TYPE_DISK_SIZE, clusapi/CLUSPROP_TYPE_DISK_SP_ID, clusapi/CLUSPROP_TYPE_DISK_VALUES, clusapi/CLUSPROP_TYPE_ENDMARK, clusapi/CLUSPROP_TYPE_FTSET_INFO, clusapi/CLUSPROP_TYPE_LIST_VALUE, clusapi/CLUSPROP_TYPE_NAME, clusapi/CLUSPROP_TYPE_NODE_BITMASK, clusapi/CLUSPROP_TYPE_NODE_INDEX, clusapi/CLUSPROP_TYPE_NODE_NAME, clusapi/CLUSPROP_TYPE_PARTITION_INFO, clusapi/CLUSPROP_TYPE_PARTITION_INFO_EX, clusapi/CLUSPROP_TYPE_PARTITION_INFO_EX2, clusapi/CLUSPROP_TYPE_POOL_INFO, clusapi/CLUSPROP_TYPE_POOL_PRIV_PROPERTIES, clusapi/CLUSPROP_TYPE_RESCLASS, clusapi/CLUSPROP_TYPE_RESERVED1, clusapi/CLUSPROP_TYPE_RESOURCE_ID, clusapi/CLUSPROP_TYPE_SCSI_ADDRESS, clusapi/CLUSPROP_TYPE_SIGNATURE, clusapi/CLUSPROP_TYPE_STORAGE_DEVICE_ID_DESCRIPTOR, clusapi/CLUSPROP_TYPE_UNKNOWN, clusapi/CLUSPROP_TYPE_USER, clusapi/CLUSPROP_TYPE_VOLUME_INFO, clusapi/CLUSTER_PROPERTY_TYPE, clusapi/_CLUSTER_PROPERTY_TYPE, msclus/CLUSPROP_TYPE_CSV_PARTITION_INFO_EX, msclus/CLUSPROP_TYPE_DISKID, msclus/CLUSPROP_TYPE_DISK_GUID, msclus/CLUSPROP_TYPE_DISK_HEADER_IDS, msclus/CLUSPROP_TYPE_DISK_NUMBER, msclus/CLUSPROP_TYPE_DISK_PRIV_PROPERTIES, msclus/CLUSPROP_TYPE_DISK_SERIALNUMBER, msclus/CLUSPROP_TYPE_DISK_SIZE, msclus/CLUSPROP_TYPE_DISK_SP_ID, msclus/CLUSPROP_TYPE_DISK_VALUES, msclus/CLUSPROP_TYPE_ENDMARK, msclus/CLUSPROP_TYPE_FTSET_INFO, msclus/CLUSPROP_TYPE_LIST_VALUE, msclus/CLUSPROP_TYPE_NAME, msclus/CLUSPROP_TYPE_NODE_BITMASK, msclus/CLUSPROP_TYPE_NODE_INDEX, msclus/CLUSPROP_TYPE_NODE_NAME, msclus/CLUSPROP_TYPE_PARTITION_INFO, msclus/CLUSPROP_TYPE_PARTITION_INFO_EX, msclus/CLUSPROP_TYPE_PARTITION_INFO_EX2, msclus/CLUSPROP_TYPE_POOL_INFO, msclus/CLUSPROP_TYPE_POOL_PRIV_PROPERTIES, msclus/CLUSPROP_TYPE_RESCLASS, msclus/CLUSPROP_TYPE_RESERVED1, msclus/CLUSPROP_TYPE_RESOURCE_ID, msclus/CLUSPROP_TYPE_SCSI_ADDRESS, msclus/CLUSPROP_TYPE_SIGNATURE, msclus/CLUSPROP_TYPE_STORAGE_DEVICE_ID_DESCRIPTOR, msclus/CLUSPROP_TYPE_UNKNOWN, msclus/CLUSPROP_TYPE_USER, msclus/CLUSPROP_TYPE_VOLUME_INFO, msclus/CLUSTER_PROPERTY_TYPE, msclus/_CLUSTER_PROPERTY_TYPE, mscs.cluster_property_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,16 +196,16 @@ Describes the beginning of the range for users to define their own types. Associ
       user-defined private properties.
 
 
-#### - CLUSPROP_TYPE_CSV_PARTITION_INFO_EX
+#### - CLUSPROP_TYPE_NODE_BITMASK
 
-Describes partition information for a cluster shared volume (CSV).
+Describes a bitmask for a node.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_DISKID
+#### - CLUSPROP_TYPE_NODE_NAME
 
-Describes the identifier of a disk resource.
+Describes the name of a node.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
@@ -217,20 +217,6 @@ Describes the header identifiers of a disk resource.
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_DISK_PRIV_PROPERTIES
-
-Describes the private properties of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_SP_ID
-
-Describes the storage pool identifier of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
 #### - CLUSPROP_TYPE_DISK_VALUES
 
 Describes the values of a disk resource.
@@ -238,9 +224,16 @@ Describes the values of a disk resource.
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_NODE_BITMASK
+#### - CLUSPROP_TYPE_DISK_PRIV_PROPERTIES
 
-Describes a bitmask for a node.
+Describes the private properties of a disk resource.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_CSV_PARTITION_INFO_EX
+
+Describes partition information for a cluster shared volume (CSV).
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
@@ -252,9 +245,16 @@ Describes a node index.
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_NODE_NAME
+#### - CLUSPROP_TYPE_DISKID
 
-Describes the name of a node.
+Describes the identifier of a disk resource.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_VOLUME_INFO
+
+Describes volume information.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
@@ -280,9 +280,9 @@ Describes the identifier of a resource.
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_VOLUME_INFO
+#### - CLUSPROP_TYPE_DISK_SP_ID
 
-Describes volume information.
+Describes the storage pool identifier of a disk resource.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 

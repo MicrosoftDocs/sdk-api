@@ -7,7 +7,7 @@ old-location: shell\SizeTSub.htm
 old-project: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,38 +59,21 @@ Subtracts one value of type <b>size_t</b> from another.
 
 
 
-### -param Minuend
-
-TBD
-
-
-### -param Subtrahend
-
-TBD
-
-
-### -param pResult
-
-TBD
-
-
-
-
-#### - cbMinuend [in]
+### -param Minuend [in]
 
 Type: <b>size_t</b>
 
 The value from which <i>cbSubtrahend</i> is subtracted.
 
 
-#### - cbSubtrahend [in]
+### -param Subtrahend [in]
 
 Type: <b>size_t</b>
 
 The value to subtract from <i>cbMinuend</i>.
 
 
-#### - pcbResult [out]
+### -param pResult [out]
 
 Type: <b>size_t*</b>
 

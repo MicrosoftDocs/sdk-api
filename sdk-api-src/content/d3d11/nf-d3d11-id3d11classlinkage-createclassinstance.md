@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classlinkage_createclassinstance.htm
 old-project: direct3d11
 ms.assetid: 26e5b1c7-d7b7-413b-a072-33f8f5dd5d3f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9738cc0b-0925-52a9-bcc7-e3e76bec3278, CreateClassInstance, CreateClassInstance method [Direct3D 11], CreateClassInstance method [Direct3D 11],ID3D11ClassLinkage interface, ID3D11ClassLinkage interface [Direct3D 11],CreateClassInstance method, ID3D11ClassLinkage.CreateClassInstance, ID3D11ClassLinkage::CreateClassInstance, d3d11/ID3D11ClassLinkage::CreateClassInstance, direct3d11.id3d11classlinkage_createclassinstance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/70d006d2-5c47
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           

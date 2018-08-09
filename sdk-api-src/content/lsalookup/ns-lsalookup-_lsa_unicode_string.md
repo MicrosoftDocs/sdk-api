@@ -7,7 +7,7 @@ old-location: security\lsa_unicode_string.htm
 old-project: secmgmt
 ms.assetid: 9e1cf20f-01f9-4813-bf95-e47c5d57dcdc
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLSA_UNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING structure [Security], PLSA_UNICODE_STRING, PLSA_UNICODE_STRING structure pointer [Security], UNICODE_STRING, _LSA_UNICODE_STRING, _lsa_lsa_unicode_string, lsalookup/LSA_UNICODE_STRING, lsalookup/PLSA_UNICODE_STRING, security.lsa_unicode_string"
 ms.prod: windows
 ms.technology: windows-sdk

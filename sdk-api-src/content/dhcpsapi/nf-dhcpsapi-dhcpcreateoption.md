@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateoption.htm
 old-project: dhcp
 ms.assetid: 2a77467e-12e8-4a8e-a6ab-e3783a7492da
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreateoption, dhcpsapi/DhcpCreateOption
 ms.prod: windows
 ms.technology: windows-sdk

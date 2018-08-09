@@ -7,7 +7,7 @@ old-location: nwifi\onex_result_update_data.htm
 old-project: nativewifi
 ms.assetid: 140386c8-2e35-4e83-812f-119bf8828d0b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PONEX_RESULT_UPDATE_DATA, ONEX_RESULT_UPDATE_DATA, ONEX_RESULT_UPDATE_DATA structure [NativeWIFI], PONEX_RESULT_UPDATE_DATA, PONEX_RESULT_UPDATE_DATA structure pointer [NativeWIFI], _ONEX_RESULT_UPDATE_DATA, dot1x/ONEX_RESULT_UPDATE_DATA, dot1x/PONEX_RESULT_UPDATE_DATA, nwifi.onex_result_update_data"
 ms.prod: windows
 ms.technology: windows-sdk

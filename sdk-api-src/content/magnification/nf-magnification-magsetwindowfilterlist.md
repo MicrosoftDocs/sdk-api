@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagSetWindowFilterList.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowfilterlist.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagSetWindowFilterList, MagSetWindowFilterList function [Magnification API], magapi.magapi_MagSetWindowFilterList, magapi_MagSetWindowFilterList, magnification/MagSetWindowFilterList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ The magnification window itself is automatically excluded.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692389(v=VS.85).aspx">MagGetWindowFilterList</a>
+<a href="https://msdn.microsoft.com/a2f7beaa-12fd-4363-a9a2-4d564158dda1">MagGetWindowFilterList</a>
  
 
  

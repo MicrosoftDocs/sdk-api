@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getminfeaturelevel.htm
 old-project: direct3d11
 ms.assetid: b10eb64b-18ff-4248-be6e-a9c45bce3e99
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method [Direct3D 11], GetMinFeatureLevel method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMinFeatureLevel method, ID3D11ShaderReflection.GetMinFeatureLevel, ID3D11ShaderReflection::GetMinFeatureLevel, b8d12499-79aa-f3e6-bdd4-5ce99f2fe7d3, d3d11shader/ID3D11ShaderReflection::GetMinFeatureLevel, direct3d11.id3d11shaderreflection_getminfeaturelevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A pointer to one of the enumerated values in <a href="https://msdn.microsoft.com
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           

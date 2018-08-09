@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getdevicetype.htm
 old-project: medfound
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceType method, IMFSensorDevice.GetDeviceType, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ A value that specifies the type of sensor device represented by the object.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ A value that specifies the type of sensor device represented by the object.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ A value that specifies the type of sensor device represented by the object.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pType</i> parameter is null.
+The <i>pType</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ A value that specifies the type of sensor device represented by the object.
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

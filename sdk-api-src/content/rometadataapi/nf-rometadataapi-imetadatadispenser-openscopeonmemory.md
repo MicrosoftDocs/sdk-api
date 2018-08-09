@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenser_openscopeonmemory.htm
 old-project: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScopeOnMemory method, IMetaDataDispenser.OpenScopeOnMemory, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,8 +104,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The in-memory copy of the metadata can be queried using methods from one of the "import" interfaces, or added to using methods from the one of the "emit" interfaces.
 
 The <b>OpenScopeOnMemory</b>  method is similar to the <a href="https://msdn.microsoft.com/77ba5ee6-082c-478f-83fc-7f6c31ee3c74">OpenScope</a> method, except that the metadata of interest already exists in memory, rather than in a file on disk.
-
-
 
 If the target area of memory does not contain common language runtime (CLR) metadata, the <b>OpenScopeOnMemory</b> method will fail.
 

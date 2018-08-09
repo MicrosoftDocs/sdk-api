@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor_getlistrecordserviceid.htm
 old-project: mstv
 ms.assetid: ebd81791-558d-4380-af4c-d8380f404771
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetListRecordServiceId, GetListRecordServiceId method [Microsoft TV Technologies], GetListRecordServiceId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordServiceId method, IDvbLogicalChannel2Descriptor.GetListRecordServiceId, IDvbLogicalChannel2Descriptor::GetListRecordServiceId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordServiceId, mstv.idvblogicalchannel2descriptor_getlistrecordserviceid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ Gets the service identifier from a Digital Video Broadcast (DVB) logical channel
 ### -param bListIndex [in]
 
 Specifies the channel list record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/13a439d1-c6b6-49ab-a41e-caa27e320f37">IDvbLogicalChannel2Descriptor::GetCountOfLists</a>
-  method to get the number of channel list records in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/13a439d1-c6b6-49ab-a41e-caa27e320f37">IDvbLogicalChannel2Descriptor::GetCountOfLists</a>method to get the number of channel list records in the logical channel descriptor.
 
 
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a>
-  method to get the number of service records in the logical channel descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/ca9cac1c-1e4a-4ea2-b44f-d037e9e8197e">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a>method to get the number of service records in the logical channel descriptor.
 
 
 

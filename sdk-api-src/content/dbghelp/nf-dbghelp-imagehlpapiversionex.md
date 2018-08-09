@@ -7,7 +7,7 @@ old-location: base\imagehlpapiversionex.htm
 old-project: debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehlpapiversionex, base.imagehlpapiversionex, dbghelp/ImagehlpApiVersionEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ A pointer to an
 
 
 
-
-						The return value is a pointer to an 
+The return value is a pointer to an 
 <a href="https://msdn.microsoft.com/f983f639-6a94-4b83-a443-0d98b85d3950">API_VERSION</a> structure.
 					
 

@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_get_stereo.htm
 old-project: DirectShow
 ms.assetid: fb2b4b26-7588-42fd-a915-c09d512cb152
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_Stereo method, IMpegAudioDecoder.get_Stereo, IMpegAudioDecoder::get_Stereo, IMpegAudioDecodergetStereo, dshow.impegaudiodecoder_get_stereo, get_Stereo, get_Stereo method [DirectShow], get_Stereo method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_Stereo
 ms.prod: windows
 ms.technology: windows-sdk

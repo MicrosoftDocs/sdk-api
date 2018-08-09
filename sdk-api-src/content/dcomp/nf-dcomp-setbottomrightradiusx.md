@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setbottomrightradiusx.htm
 old-project: directcomp
 ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionRectangleClip::SetBottomRightRadiusX, SetBottomRightRadiusX, SetBottomRightRadiusX methods [DirectComposition], dcomp/SetBottomRightRadiusX, directcomp.idcompositionrectangleclip_setbottomrightradiusx
 ms.prod: windows
 ms.technology: windows-sdk

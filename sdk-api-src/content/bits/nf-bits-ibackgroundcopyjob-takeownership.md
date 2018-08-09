@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_takeownership.htm
 old-project: bits
 ms.assetid: 12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],TakeOwnership method, IBackgroundCopyJob.TakeOwnership, IBackgroundCopyJob::TakeOwnership, TakeOwnership, TakeOwnership method [BITS], TakeOwnership method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_takeownership, bits.ibackgroundcopyjob_takeownership, bits/IBackgroundCopyJob::TakeOwnership
 ms.prod: windows
 ms.technology: windows-sdk

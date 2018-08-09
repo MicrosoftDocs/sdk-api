@@ -7,7 +7,7 @@ old-location: automat\varpow.htm
 old-project: automat
 ms.assetid: 80e19d25-94cf-49f8-b49f-9cda14d0ee4b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarPow, VarPow function [Automation], _oa96_VarPow, automat.varpow, oleauto/VarPow
 ms.prod: windows
 ms.technology: windows-sdk

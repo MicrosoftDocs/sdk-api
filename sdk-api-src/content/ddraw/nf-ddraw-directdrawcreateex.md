@@ -7,7 +7,7 @@ old-location: directdraw\directdrawcreateex.htm
 old-project: directdraw
 ms.assetid: 67fa1cd0-e47f-4dc4-b92c-b3401b4cbb57
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreateEx, DirectDrawCreateEx function [DirectDraw], ddraw/DirectDrawCreateEx, directdraw.directdrawcreateex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,21 @@ Creates an instance of a DirectDraw object that supports the set of Direct3D int
 
 
 
-### -param lpGuid
+### -param lpGuid [in]
 
-TBD
+A pointer to the globally unique identifier (GUID) that represents the driver to be created. This can be NULL to indicate the active display driver, or you can pass one of the following flags to restrict the active display driver's behavior for debugging purposes:
+
+
+
+#### DDCREATE_EMULATIONONLY
+
+The DirectDraw object uses emulation for all features; it does not take advantage of any hardware-supported features.
+
+
+
+#### DDCREATE_HARDWAREONLY
+
+The DirectDraw object never emulates features not supported by the hardware. Attempts to call methods that require unsupported features fail, returning DDERR_UNSUPPORTED.
 
 
 ### -param lplpDD [out]
@@ -77,23 +89,6 @@ This parameter must be set to IID_IDirectDraw7. This function fails and returns 
 ### -param pUnkOuter [in]
 
 Allows for future compatibility with COM aggregation features. Currently, this function returns an error if this parameter is not NULL.
-
-
-#### - lpGUID [in]
-
-A pointer to the globally unique identifier (GUID) that represents the driver to be created. This can be NULL to indicate the active display driver, or you can pass one of the following flags to restrict the active display driver's behavior for debugging purposes:
-
-
-
-#### DDCREATE_EMULATIONONLY
-
-The DirectDraw object uses emulation for all features; it does not take advantage of any hardware-supported features.
-
-
-
-#### DDCREATE_HARDWAREONLY
-
-The DirectDraw object never emulates features not supported by the hardware. Attempts to call methods that require unsupported features fail, returning DDERR_UNSUPPORTED.
 
 
 ## -returns

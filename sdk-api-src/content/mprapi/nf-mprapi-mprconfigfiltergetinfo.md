@@ -7,7 +7,7 @@ old-location: rras\mprconfigfiltergetinfo.htm
 old-project: rras
 ms.assetid: d3c35418-57f4-4000-93c2-c04b5b0140ff
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprConfigFilterGetInfo, MprConfigFilterGetInfo function [RAS], mprapi/MprConfigFilterGetInfo, rras.mprconfigfiltergetinfo
 ms.prod: windows
 ms.technology: windows-sdk

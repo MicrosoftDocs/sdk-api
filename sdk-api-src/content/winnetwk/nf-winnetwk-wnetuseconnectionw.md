@@ -4,10 +4,10 @@ title: WNetUseConnectionW function
 author: windows-sdk-content
 description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource.
 old-location: wnet\wnetuseconnection.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_LOCALDRIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetUseConnection, WNetUseConnection function [Windows Networking (WNet)], WNetUseConnectionA, WNetUseConnectionW, _win32_wnetuseconnection, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetUseConnection, winnetwk/WNetUseConnectionA, winnetwk/WNetUseConnectionW, wnet.wnetuseconnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,9 +174,19 @@ If <i>lpPassword</i> points to an empty string, the function does not use a pass
 If the connection fails because of an invalid password and the CONNECT_INTERACTIVE value is set in the <i>dwFlags</i> parameter, the function displays a dialog box asking the user to type the password.
 
 
-### -param lpUserId
+### -param lpUserId [in]
 
-TBD
+Pointer to a constant <b>null</b>-terminated string that specifies a user name for making the connection. 
+
+
+
+
+If <i>lpUserID</i> is <b>NULL</b>, the function uses the default user name. (The user context for the process provides the default user name.)
+
+The <i>lpUserID</i> parameter is specified when users want to connect to a network resource for which they have been assigned a user name or account other than the default user name or account.
+
+The user-name string represents a 
+<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. It may be specific to a network provider.
 
 
 ### -param dwFlags [in]
@@ -316,21 +326,6 @@ If this flag is set, the connection was made using a local device redirection. I
 </tr>
 </table>
  
-
-
-#### - lpUserID [in]
-
-Pointer to a constant <b>null</b>-terminated string that specifies a user name for making the connection. 
-
-
-
-
-If <i>lpUserID</i> is <b>NULL</b>, the function uses the default user name. (The user context for the process provides the default user name.)
-
-The <i>lpUserID</i> parameter is specified when users want to connect to a network resource for which they have been assigned a user name or account other than the default user name or account.
-
-The user-name string represents a 
-<a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. It may be specific to a network provider.
 
 
 ## -returns

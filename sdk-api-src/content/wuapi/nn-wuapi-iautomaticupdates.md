@@ -4,10 +4,10 @@ title: IAutomaticUpdates
 author: windows-sdk-content
 description: Contains the functionality of Automatic Updates.
 old-location: wua\iautomaticupdates.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: b5f05e2a-ad60-4d4c-8bdd-1c03df3d508d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], IAutomaticUpdates interface [Windows Update Agent],described, wua.iautomaticupdates, wuapi/IAutomaticUpdates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Contains the functionality of Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -7,7 +7,7 @@ old-location: security\lsaregisterpolicychangenotification.htm
 old-project: secmgmt
 ms.assetid: 0c713d2b-e13a-44e0-8b48-68b233d1c562
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: LsaRegisterPolicyChangeNotification, LsaRegisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaregisterpolicychangenotification, ntsecapi/LsaRegisterPolicyChangeNotification, security.lsaregisterpolicychangenotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,7 +151,7 @@ A handle to an event obtained by calling the
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 You can use the 
 <a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.

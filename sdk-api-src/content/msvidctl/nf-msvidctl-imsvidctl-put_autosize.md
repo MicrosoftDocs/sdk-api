@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_autosize.htm
 old-project: mstv
 ms.assetid: eb5863e2-380b-4bee-ac18-e5f28551a6ab
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_AutoSize method, IMSVidCtl.put_AutoSize, IMSVidCtl::put_AutoSize, IMSVidCtlput_AutoSize, mstv.imsvidctl_put_autosize, msvidctl/IMSVidCtl::put_AutoSize, put_AutoSize, put_AutoSize method [Microsoft TV Technologies], put_AutoSize method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,9 @@ Specifies whether the Video Control automatically resizes. Use one of the follow
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: ad\dsop_uplevel_filter_flags.htm
 old-project: ad
 ms.assetid: 54a0046a-7a20-4306-a32f-93e449280574
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DSOP_FILTER_BUILTIN_GROUPS, DSOP_FILTER_COMPUTERS, DSOP_FILTER_CONTACTS, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_DL, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_SE, DSOP_FILTER_GLOBAL_GROUPS_DL, DSOP_FILTER_GLOBAL_GROUPS_SE, DSOP_FILTER_INCLUDE_ADVANCED_VIEW, DSOP_FILTER_PASSWORDSETTINGS_OBJECTS, DSOP_FILTER_SERVICE_ACCOUNTS, DSOP_FILTER_UNIVERSAL_GROUPS_DL, DSOP_FILTER_UNIVERSAL_GROUPS_SE, DSOP_FILTER_USERS, DSOP_FILTER_WELL_KNOWN_PRINCIPALS, DSOP_UPLEVEL_FILTER_FLAGS, DSOP_UPLEVEL_FILTER_FLAGS structure [Active Directory], _DSOP_UPLEVEL_FILTER_FLAGS, _glines_dsop_uplevel_filter_flags, ad.dsop__uplevel__filter__flags, ad.dsop_uplevel_filter_flags, objsel/DSOP_UPLEVEL_FILTER_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Includes <a href="https://msdn.microsoft.com/library/windows/hardware/mt270121">
 
 #### DSOP_FILTER_BUILTIN_GROUPS (4 (0x4))
 
-Includes built-in <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> objects. Built-in groups are group objects with a <a href="https://msdn.microsoft.com/library/JJ151955(v=VS.85).aspx">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
+Includes built-in <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> objects. Built-in groups are group objects with a <a href="ad.win2k_a_grouptype">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
 
 
 
@@ -128,7 +128,7 @@ Includes security <a href="https://msdn.microsoft.com/library/windows/hardware/d
 
 #### DSOP_FILTER_CONTACTS (1024 (0x400))
 
-Includes <a href="https://msdn.microsoft.com/library/Ff800911(v=VS.85).aspx">contact</a> objects.
+Includes <a href="ad.win2k_c_contact">contact</a> objects.
 
 
 

@@ -4,10 +4,10 @@ title: "_WSMAN_OPTION_SET"
 author: windows-sdk-content
 description: Represents a set of options.
 old-location: winrm\wsman_option_set.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 16a1447c-d764-44bf-9c62-064769ead0f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSMAN_OPTION_SET, WSMAN_OPTION_SET structure [Windows Remote Management], _WSMAN_OPTION_SET, winrm.wsman_option_set, wsman/WSMAN_OPTION_SET
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetProperties.htm
 old-project: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Not used, set to 0.
 
 Type: <b><a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>**</b>
 
-
-          The address of a pointer to the <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
+The address of a pointer to the <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
         
 
 
@@ -106,8 +105,7 @@ The image has not been decoded or the decoding process failed.
 </dl>
 </td>
 <td width="60%">
-
-            The <i>ppPropSet</i> pointer is not valid.
+The <i>ppPropSet</i> pointer is not valid.
           
 
 </td>

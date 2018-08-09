@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorenderer.htm
 old-project: mstv
 ms.assetid: f822b5a6-c88e-48c9-91f4-611a3f147fe0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], IMSVidAudioRenderer interface [Microsoft TV Technologies],described, IMSVidAudioRendererInterface, mstv.imsvidaudiorenderer, segment/IMSVidAudioRenderer
 ms.prod: windows
 ms.technology: windows-sdk

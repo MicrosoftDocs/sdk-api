@@ -7,7 +7,7 @@ old-location: mf\imftranscodeprofile_setvideoattributes.htm
 old-project: medfound
 ms.assetid: e68653c5-5663-4839-a482-2244e147f4b9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetVideoAttributes method, IMFTranscodeProfile.SetVideoAttributes, IMFTranscodeProfile::SetVideoAttributes, SetVideoAttributes, SetVideoAttributes method [Media Foundation], SetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setvideoattributes, mfidl/IMFTranscodeProfile::SetVideoAttributes
 ms.prod: windows
 ms.technology: windows-sdk

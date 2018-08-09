@@ -7,7 +7,7 @@ old-location: display\dxgetcurrentautoflip.htm
 old-project: display
 ms.assetid: 25010ffb-893f-401f-8883-f5a08e7014bf
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxGetCurrentAutoflip, DxGetCurrentAutoflip callback function [Display Devices], PDX_GETCURRENTAUTOFLIP, PDX_GETCURRENTAUTOFLIP callback, VideoMiniPort_DxApiFunctions_1e8f1780-efe2-4f65-955b-887dc9a11358.xml, display.dxgetcurrentautoflip, dxmini/DxGetCurrentAutoflip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,6 +74,11 @@ The<i> DxGetCurrentAutoflip</i> callback function is called when the device is h
 
 
 
+#### - HwDeviceExtension
+
+Points to the miniport driver's device extension.
+
+
 #### - GetCurrentAutoflipInInfo
 
 Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549393">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
@@ -82,11 +87,6 @@ Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549
 #### - GetCurrentAutoflipOutInfo
 
 Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549396">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
-
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
 
 
 ## -returns

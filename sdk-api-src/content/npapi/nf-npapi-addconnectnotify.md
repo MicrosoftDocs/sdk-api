@@ -7,7 +7,7 @@ old-location: security\addconnectnotify.htm
 old-project: secauthn
 ms.assetid: a061b088-81ca-4276-a0d6-9f1d1282a039
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: AddConnectNotify, AddConnectNotify function [Security], _mnp_addconnectnotify, npapi/AddConnectNotify, security.addconnectnotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the function should return WN_SUCCESS.
+If the function succeeds, the function should return WN_SUCCESS.
 
 If the function fails, it should return an error code. This can be any of the error codes specified in 
 <a href="https://msdn.microsoft.com/f8e6692f-4824-40fe-a5b3-9843689ea02e">Network Security Return Values</a>.

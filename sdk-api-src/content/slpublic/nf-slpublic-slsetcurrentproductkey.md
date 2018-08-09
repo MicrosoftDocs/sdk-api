@@ -4,10 +4,10 @@ title: SLSetCurrentProductKey function
 author: windows-sdk-content
 description: Sets the current product key to the previously installed product key.
 old-location: security\slsetcurrentproductkey.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLSetCurrentProductKey, SLSetCurrentProductKey function [Security], security.slsetcurrentproductkey, slpublic/SLSetCurrentProductKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLSetCurrentProductKey function

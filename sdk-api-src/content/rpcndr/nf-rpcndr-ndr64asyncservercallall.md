@@ -7,7 +7,7 @@ old-location: rpc\ndr64asyncservercallall.htm
 old-project: rpc
 ms.assetid: 0B8203F2-2EE0-4DBD-B1B8-FD9E7E073E6F
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: Ndr64AsyncServerCallAll, Ndr64AsyncServerCallAll function [RPC], rpc.ndr64asyncservercallall, rpcndr/Ndr64AsyncServerCallAll
 ms.prod: windows
 ms.technology: windows-sdk

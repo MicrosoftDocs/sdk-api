@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler_HandleEvent.htm
 old-project: shell
 ms.assetid: 575ca84c-8cf9-4ed6-a997-844cf0533986
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: HandleEvent, HandleEvent method [Windows Shell], HandleEvent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEvent method, IHWEventHandler.HandleEvent, IHWEventHandler::HandleEvent, inet_IHWEventHandler_HandleEvent, shell.IHWEventHandler_HandleEvent, shobjidl/IHWEventHandler::HandleEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\loadbitmap.htm
 old-project: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-<p class="CCE_Message">[<b>LoadBitmap</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> and <a href="https://msdn.microsoft.com/3102007e-e9f7-46d8-ae10-cf156d2131f6">DrawFrameControl</a>.]
+<p class="CCE_Message">[<b>LoadBitmap</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="_win32_loadimage_cpp">LoadImage</a> and <a href="https://msdn.microsoft.com/3102007e-e9f7-46d8-ae10-cf156d2131f6">DrawFrameControl</a>.]
 
 The <b>LoadBitmap</b> function loads the specified bitmap resource from a module's executable file.
 
@@ -72,7 +72,7 @@ A handle to the instance of the module whose executable file contains the bitmap
 
 ### -param lpBitmapName [in]
 
-A pointer to a null-terminated string that contains the name of the bitmap resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. The <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro can be used to create this value.
+A pointer to a null-terminated string that contains the name of the bitmap resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. The <a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro can be used to create this value.
 
 
 ## -returns
@@ -92,7 +92,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 If the bitmap pointed to by the <i>lpBitmapName</i> parameter does not exist or there is insufficient memory to load the bitmap, the function fails.
 
-<b>LoadBitmap</b> creates a compatible bitmap of the display, which cannot be selected to a printer. To load a bitmap that you can select to a printer, call <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> and specify LR_CREATEDIBSECTION to create a DIB section. A DIB section can be selected to any device.
+<b>LoadBitmap</b> creates a compatible bitmap of the display, which cannot be selected to a printer. To load a bitmap that you can select to a printer, call <a href="_win32_loadimage_cpp">LoadImage</a> and specify LR_CREATEDIBSECTION to create a DIB section. A DIB section can be selected to any device.
 
 An application can use the <b>LoadBitmap</b> function to access predefined bitmaps. To do so, the application must set the <i>hInstance</i> parameter to <b>NULL</b> and the <i>lpBitmapName</i> parameter to one of the following values.
 
@@ -181,7 +181,7 @@ The application must call the <a href="https://msdn.microsoft.com/cc679af0-6839-
 
 #### Examples
 
-For an example, see Example of Menu-Item Bitmaps in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see Example of Menu-Item Bitmaps in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -212,19 +212,19 @@ For an example, see Example of Menu-Item Bitmaps in <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="_win32_loadcursor_cpp">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="_win32_loadicon_cpp">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="_win32_loadimage_cpp">LoadImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a>
  
 
  

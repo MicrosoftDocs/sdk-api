@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 old-project: ADSI
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>IADsAccessControlList::CopyAccessList</b> method copies every access cont
 
 ### -param ppAccessControlList [out]
 
-Address of an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
+Address of an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
 
 
 ## -returns
@@ -79,7 +79,7 @@ For more information about  other return values, see  <a href="https://msdn.micr
 
 
 
-The caller must call <b>Release</b> on the copy of ACEs through their <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> pointers.
+The caller must call <b>Release</b> on the copy of ACEs through their <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointers.
 
 
 #### Examples

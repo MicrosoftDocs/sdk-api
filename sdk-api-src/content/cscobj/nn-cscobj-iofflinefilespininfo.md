@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo.htm
 old-project: offlinefiles
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IOfflineFilesPinInfo interface [Offline Files],described, cscobj/IOfflineFilesPinInfo, of.iofflinefilespininfo
 ms.prod: windows
 ms.technology: windows-sdk

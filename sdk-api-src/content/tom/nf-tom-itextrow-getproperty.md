@@ -4,10 +4,10 @@ title: ITextRow::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextrow_getproperty.htm
-old-project: Controls
+old-project: controls
 ms.assetid: ed47033f-14b2-4ca1-89be-f2eab3d148ef
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetProperty method, ITextRow.GetProperty, ITextRow::GetProperty, controls.itextrow_getproperty, tom/ITextRow::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk

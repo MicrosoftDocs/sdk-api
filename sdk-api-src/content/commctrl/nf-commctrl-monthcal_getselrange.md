@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetSelRange.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getselrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_GetSelRange, MonthCal_GetSelRange macro [Windows Controls], _win32_MonthCal_GetSelRange, _win32_MonthCal_GetSelRange_cpp, commctrl/MonthCal_GetSelRange, controls.MonthCal_GetSelRange, controls._win32_MonthCal_GetSelRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760985(v=VS.85).aspx">MCM_GETSELRANGE</a> message explicitly. 
+Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/a0d0a0d5-a519-4495-a87a-2438c4590e4c">MCM_GETSELRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Retrieves date information that represents the upper and lower limits of the dat
 
 ### -param hmc
 
-TBD
-
-
-### -param rgst
-
-TBD
-
-
-
-
-
-
-#### - hwndMC
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
-#### - lprgSysTimeArray
+### -param rgst
 
 Type: <b>LPSYSTEMTIME</b>
 

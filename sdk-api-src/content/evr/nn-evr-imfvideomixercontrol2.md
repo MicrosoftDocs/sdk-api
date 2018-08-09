@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol2.htm
 old-project: medfound
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,6 @@ req.product: Windows Media Format 9 Series or later
 
 
 Controls preferences for video deinterlacing.
-
-
 
 The default video mixer for the <a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a> (EVR) implements this interface.
 

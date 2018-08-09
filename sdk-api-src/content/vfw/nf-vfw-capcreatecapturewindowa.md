@@ -7,7 +7,7 @@ old-location: multimedia\capcreatecapturewindow.htm
 old-project: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ Null-terminated string containing the name used for the capture window.
 
 ### -param dwStyle
 
-Window styles used for the capture window. Window styles are described with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
+Window styles used for the capture window. Window styles are described with the <a href="winui._win32_CreateWindowEx">CreateWindowEx</a> function.
           
 
 
@@ -102,18 +102,13 @@ Height of the capture window.
 
 ### -param hwndParent
 
-TBD
+Handle to the parent window.
+          
 
 
 ### -param nID
 
 Window identifier.
-          
-
-
-#### - hWnd
-
-Handle to the parent window.
           
 
 

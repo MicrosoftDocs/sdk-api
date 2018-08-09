@@ -7,7 +7,7 @@ old-location: gdi\combinergn.htm
 old-project: gdi
 ms.assetid: ef9fc4f3-737e-4c10-a80b-8ae2097c17d1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_CombineRgn, gdi.combinergn, wingdi/CombineRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ The <b>CombineRgn</b> function combines two regions and stores the result in a t
 
 
 
-### -param hrgnDst
+### -param hrgnDst [in]
 
-TBD
+A handle to a new region with dimensions defined by combining two other regions. (This region must exist before <b>CombineRgn</b> is called.)
 
 
 ### -param hrgnSrc1 [in]
@@ -78,14 +78,7 @@ A handle to the first of two regions to be combined.
 A handle to the second of two regions to be combined.
 
 
-### -param iMode
-
-TBD
-
-
-
-
-#### - fnCombineMode [in]
+### -param iMode [in]
 
 A mode indicating how the two regions will be combined. This parameter can be one of the following values.
 
@@ -146,11 +139,6 @@ Creates the union of two combined regions except for any overlapping areas.
 </tr>
 </table>
  
-
-
-#### - hrgnDest [in]
-
-A handle to a new region with dimensions defined by combining two other regions. (This region must exist before <b>CombineRgn</b> is called.)
 
 
 ## -returns

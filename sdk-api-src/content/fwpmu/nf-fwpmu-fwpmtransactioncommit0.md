@@ -7,7 +7,7 @@ old-location: fwp\fwpmtransactioncommit0_func.htm
 old-project: fwp
 ms.assetid: 3bde803c-f416-4096-98c5-1c56e4a86b94
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmTransactionCommit0, FwpmTransactionCommit0 function [Filtering], fwp.fwpmtransactioncommit0_func, fwpmu/FwpmTransactionCommit0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SspiZeroAuthIdentity function
 author: windows-sdk-content
 description: Fills the block of memory associated with the specified identity structure with zeros.
 old-location: security\sspizeroauthidentity.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], security.sspizeroauthidentity, sspi/SspiZeroAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SspiZeroAuthIdentity function

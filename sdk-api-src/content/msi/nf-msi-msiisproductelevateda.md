@@ -4,10 +4,10 @@ title: MsiIsProductElevatedA function
 author: windows-sdk-content
 description: The MsiIsProductElevated function returns whether or not the product is managed.
 old-location: setup\msiisproductelevated.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ An application that is installed  per-user is only considered managed if it is a
 
 
 
-### -param szProduct
+### -param szProduct [in]
 
-TBD
+The full product code GUID of the product. 
+
+This parameter is required and cannot be <b>NULL</b> or empty.
 
 
 ### -param pfElevated [out]
@@ -76,13 +78,6 @@ TBD
 A pointer to a BOOL for the result. 
 
 This parameter cannot be <b>NULL</b>.
-
-
-#### - szProductCode [in]
-
-The full product code GUID of the product. 
-
-This parameter is required and cannot be <b>NULL</b> or empty.
 
 
 ## -returns

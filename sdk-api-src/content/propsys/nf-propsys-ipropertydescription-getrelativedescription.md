@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetRelativeDescription.htm
 old-project: properties
 ms.assetid: d98cc2de-8f1c-4827-99b9-2b770d1270e3
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetRelativeDescription, GetRelativeDescription method [Windows Properties], GetRelativeDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescription method, IPropertyDescription.GetRelativeDescription, IPropertyDescription::GetRelativeDescription, properties.IPropertyDescription_GetRelativeDescription, propsys/IPropertyDescription::GetRelativeDescription, shell.IPropertyDescription_GetRelativeDescription, shell_IPropertyDescription_GetRelativeDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is influenced by the <i>relativeDescriptionType</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+This method is influenced by the <i>relativeDescriptionType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 It is the responsibility of the calling application to release <i>ppszDesc1</i> and <i>ppszDesc2</i> through <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when they are no longer needed.
 
@@ -114,7 +114,7 @@ It is the responsibility of the calling application to release <i>ppszDesc1</i> 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

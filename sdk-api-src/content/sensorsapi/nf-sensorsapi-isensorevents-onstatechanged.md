@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorevents_onstatechanged.htm
 old-project: SensorsAPI
 ms.assetid: fb995dba-23aa-4a09-b411-7e95019535ce
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensorEvents interface,OnStateChanged method, ISensorEvents.OnStateChanged, ISensorEvents::OnStateChanged, OnStateChanged, OnStateChanged method, OnStateChanged method,ISensorEvents interface, sensorsapi/ISensorEvents::OnStateChanged, winsensors_com_ref.isensorevents_onstatechanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Provides a notification that a sensor state has changed.
 
 ### -param pSensor [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that raised the event.
+Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that raised the event.
 
 
 ### -param state [in]

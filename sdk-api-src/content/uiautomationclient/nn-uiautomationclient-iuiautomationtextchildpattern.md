@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextChildPattern.htm
 old-project: WinAuto
 ms.assetid: 0669C1F6-8C82-474E-B697-B3C4EA2D60CB
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IUIAutomationTextChildPattern, IUIAutomationTextChildPattern interface [Windows Accessibility], IUIAutomationTextChildPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextChildPattern, winauto.uiauto_IUIAutomationTextChildPattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

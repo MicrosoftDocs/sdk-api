@@ -4,10 +4,10 @@ title: IFsrmCollection::WaitForCompletion
 author: windows-sdk-content
 description: Limits the time that an asynchronous collection can take to collect the objects.
 old-location: fsrm\ifsrmcollection_waitforcompletion.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 83b9feb5-5f10-4c27-be3e-b267a0356aa2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],WaitForCompletion method, IFsrmCollection.WaitForCompletion, IFsrmCollection::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_waitforcompletion, fsrm.ifsrmcollection_waitforcompletion, fsrm/IFsrmCollection::WaitForCompletion
 ms.prod: windows
 ms.technology: windows-sdk

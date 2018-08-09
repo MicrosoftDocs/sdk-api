@@ -7,7 +7,7 @@ old-location: gdi\movetoex.htm
 old-project: gdi
 ms.assetid: af11eeb7-4036-4a90-8685-9b5719f79e01
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MoveToEx, MoveToEx function [Windows GDI], _win32_MoveToEx, gdi.movetoex, wingdi/MoveToEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,34 +69,17 @@ The <b>MoveToEx</b> function updates the current position to the specified point
 Handle to a device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lppt
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 Specifies the x-coordinate, in logical units, of the new position, in logical units.
 
 
-#### - Y [in]
+### -param y [in]
 
 Specifies the y-coordinate, in logical units, of the new position, in logical units.
 
 
-#### - lpPoint [out]
+### -param lppt [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the previous current position. If this parameter is a <b>NULL</b> pointer, the previous position is not returned.
 

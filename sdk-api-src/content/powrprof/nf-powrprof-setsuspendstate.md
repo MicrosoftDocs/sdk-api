@@ -7,7 +7,7 @@ old-location: base\setsuspendstate.htm
 old-project: power
 ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, base.setsuspendstate, powrprof/SetSuspendState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,39 +60,22 @@ Suspends the system by shutting power down. Depending on the <i>Hibernate</i>
 
 
 
-### -param bHibernate
+### -param bHibernate [in]
 
-TBD
-
-
-### -param bForce
-
-TBD
+If this parameter is <b>TRUE</b>, the system hibernates. If the parameter is 
+      <b>FALSE</b>, the system is suspended.
 
 
-### -param bWakeupEventsDisabled
-
-TBD
-
-
-
-
-#### - DisableWakeEvent [in]
-
-If this parameter is <b>TRUE</b>, the system disables all wake events. If the parameter 
-      is <b>FALSE</b>, any system wake events remain enabled.
-
-
-#### - ForceCritical [in]
+### -param bForce [in]
 
 This parameter has no effect.
       
 
 
-#### - Hibernate [in]
+### -param bWakeupEventsDisabled [in]
 
-If this parameter is <b>TRUE</b>, the system hibernates. If the parameter is 
-      <b>FALSE</b>, the system is suspended.
+If this parameter is <b>TRUE</b>, the system disables all wake events. If the parameter 
+      is <b>FALSE</b>, any system wake events remain enabled.
 
 
 ## -returns

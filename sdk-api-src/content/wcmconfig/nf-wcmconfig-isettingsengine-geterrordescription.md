@@ -4,10 +4,10 @@ title: ISettingsEngine::GetErrorDescription
 author: windows-sdk-content
 description: Retrieves a text message for a returned HRESULT code.
 old-location: smi\isettingsengine_geterrordescription.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDescription method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetErrorDescription method, ISettingsEngine.GetErrorDescription, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
 ms.prod: windows
 ms.technology: windows-sdk

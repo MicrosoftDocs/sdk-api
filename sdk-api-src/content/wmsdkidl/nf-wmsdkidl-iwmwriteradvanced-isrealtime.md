@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_isrealtime.htm
 old-project: wmformat
 ms.assetid: 3d00eb78-d90e-41a0-9bba-305ac65057f3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],IsRealTime method, IWMWriterAdvanced.IsRealTime, IWMWriterAdvanced::IsRealTime, IWMWriterAdvancedIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_isrealtime, wmsdkidl/IWMWriterAdvanced::IsRealTime
 ms.prod: windows
 ms.technology: windows-sdk

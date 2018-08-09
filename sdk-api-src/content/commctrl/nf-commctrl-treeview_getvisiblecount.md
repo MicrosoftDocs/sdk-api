@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetVisibleCount.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getvisiblecount.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetVisibleCount, TreeView_GetVisibleCount macro [Windows Controls], _win32_TreeView_GetVisibleCount, _win32_TreeView_GetVisibleCount_cpp, commctrl/TreeView_GetVisibleCount, controls.TreeView_GetVisibleCount, controls._win32_TreeView_GetVisibleCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773731(v=VS.85).aspx">TVM_GETVISIBLECOUNT</a> message explicitly. 
+Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/c3519543-3fb2-4ecf-ac01-905d0946cb1b">TVM_GETVISIBLECOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Obtains the number of items that can be fully visible in the client window of a 
 
 
 ### -param hwnd
-
-TBD
-
-
-
-
-
-
-#### - hwndTV
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 

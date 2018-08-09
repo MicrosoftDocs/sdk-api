@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
 old-location: wmlss\IWindowsMediaLibrarySharingServicesInterface.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: bbec5687-3c77-4385-a9be-74c6d84db962
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingServicesInterface, wmlss/IWindowsMediaLibrarySharingServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IWindowsMediaLibrarySharingServices</b> interface defines methods that co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingServices</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingServices</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -255,7 +255,7 @@ Displays the media sharing page in the Control Panel and highlights a specified 
 
 
 
-To obtain an <b>IWindowsMediaLibrarySharingServices</b> interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> to create a <b>WindowsMediaLibrarySharingServices</b> object.
+To obtain an <b>IWindowsMediaLibrarySharingServices</b> interface, call <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> to create a <b>WindowsMediaLibrarySharingServices</b> object.
 
 
 
@@ -265,7 +265,7 @@ To obtain an <b>IWindowsMediaLibrarySharingServices</b> interface, call <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

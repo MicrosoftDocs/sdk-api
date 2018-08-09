@@ -7,7 +7,7 @@ old-location: winrt\hstring_usersize64.htm
 old-project: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize64, winrt.hstring_usersize64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,14 @@ TBD
 
 
 
+#### - [in]
+
+The data used by RPC.
+
+
 #### - StartingSize [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
-
-
-#### - pFlags [in]
-
-The data used by RPC.
 
 
 #### - ppidl [in]

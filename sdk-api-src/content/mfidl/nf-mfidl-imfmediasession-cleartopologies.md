@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_cleartopologies.htm
 old-project: medfound
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -96,8 +95,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The operation cannot be performed in the Media Session's current state.
+The operation cannot be performed in the Media Session's current state.
               
 
 </td>
@@ -109,8 +107,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The Media Session has been shut down.
+The Media Session has been shut down.
               
 
 </td>

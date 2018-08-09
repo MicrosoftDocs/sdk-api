@@ -7,7 +7,7 @@ old-location: shell\PtrdiffTMult.htm
 old-project: shell
 ms.assetid: 79b4d5e3-3f10-46fb-a7c8-316629a2a9dd
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: PtrdiffTMult, PtrdiffTMult function [Windows Shell], intsafe/PtrdiffTMult, shell.PtrdiffTMult
 ms.prod: windows
 ms.technology: windows-sdk

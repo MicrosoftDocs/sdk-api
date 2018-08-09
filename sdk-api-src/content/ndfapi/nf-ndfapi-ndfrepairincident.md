@@ -7,7 +7,7 @@ old-location: ndf\ndfrepairincident.htm
 old-project: ndf
 ms.assetid: 570e7824-463f-4fc1-bc1a-16a1da31e8a3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairincident, ndfapi/NdfRepairIncident
 ms.prod: windows
 ms.technology: windows-sdk

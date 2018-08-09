@@ -7,7 +7,7 @@ old-location: intl\immgetcompositionstring.htm
 old-project: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,14 @@ Retrieves information about the composition string.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
-### -param DWORD
+### -param DWORD [in]
 
-TBD
+Index of the information to retrieve, which is one of the values specified in <a href="https://msdn.microsoft.com/14087598-8041-4e02-a168-f5538a437be0">IME Composition String Values</a>. For each value except GCS_CURSORPOS and GCS_DELTASTART, the function copies the requested information to the output buffer. The function returns the cursor and delta position values in the low 16 bits of the return value.
 
 
 ### -param lpBuf [out, optional]
@@ -81,16 +81,6 @@ Pointer to a buffer in which the function retrieves the composition string infor
 ### -param dwBufLen [in]
 
 Size, in bytes, of the output buffer, even if the output is a Unicode string. The application sets this parameter to 0 if the function is to return the size of the required output buffer.
-
-
-#### - dwIndex [in]
-
-Index of the information to retrieve, which is one of the values specified in <a href="https://msdn.microsoft.com/14087598-8041-4e02-a168-f5538a437be0">IME Composition String Values</a>. For each value except GCS_CURSORPOS and GCS_DELTASTART, the function copies the requested information to the output buffer. The function returns the cursor and delta position values in the low 16 bits of the return value.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

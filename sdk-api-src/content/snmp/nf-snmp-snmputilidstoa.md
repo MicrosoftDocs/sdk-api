@@ -4,10 +4,10 @@ title: SnmpUtilIdsToA function
 author: windows-sdk-content
 description: The SnmpUtilIdsToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilidstoa.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilIdsToA function

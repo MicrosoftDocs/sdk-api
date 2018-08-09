@@ -4,10 +4,10 @@ title: GetTapePosition function
 author: windows-sdk-content
 description: Retrieves the current address of the tape, in logical or absolute blocks.
 old-location: backup\gettapeposition.htm
-old-project: Backup
+old-project: backup
 ms.assetid: f4ce1436-ee16-4e05-b7a0-30ea79688e79
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetTapePosition, GetTapePosition function [Backup], TAPE_ABSOLUTE_POSITION, TAPE_LOGICAL_POSITION, _win32_gettapeposition, backup.gettapeposition, base.gettapeposition, winbase/GetTapePosition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to get the tape position. This handle is created by using 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>.
+<a href="base.createfile">CreateFile</a>.
 
 
 ### -param dwPositionType [in]
@@ -334,7 +334,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

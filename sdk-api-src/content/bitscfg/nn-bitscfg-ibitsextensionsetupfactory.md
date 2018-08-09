@@ -7,7 +7,7 @@ old-location: bits\ibitsextensionsetupfactory.htm
 old-project: bits
 ms.assetid: 0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], IBITSExtensionSetupFactory interface [BITS],described, _drz_ibitsextensionsetupfactory, bits.ibitsextensionsetupfactory, bitscfg/IBITSExtensionSetupFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Use the
 
 To get a pointer to the 
 <b>IBITSExtensionSetupFactory</b> interface, call the 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function as shown in Example Code.
+<a href="_com_cocreateinstance">CoCreateInstance</a> function as shown in Example Code.
 
 
 ## -inheritance

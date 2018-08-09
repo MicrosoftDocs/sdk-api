@@ -7,7 +7,7 @@ old-location: gdi\offsetrgn.htm
 old-project: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,12 @@ The <b>OffsetRgn</b> function moves a region by the specified offsets.
 Handle to the region to be moved.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-#### - nXOffset [in]
+### -param x [in]
 
 Specifies the number of logical units to move left or right.
 
 
-#### - nYOffset [in]
+### -param y [in]
 
 Specifies the number of logical units to move up or down.
 

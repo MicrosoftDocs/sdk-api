@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectmatrixvariable_setmatrixarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrixarray.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrixArray method, ID3D10EffectMatrixVariable.SetMatrixArray, ID3D10EffectMatrixVariable::SetMatrixArray, SetMatrixArray, SetMatrixArray method [Direct3D 10], SetMatrixArray method [Direct3D 10],ID3D10EffectMatrixVariable interface, ba745b53-173b-3f99-1c4a-10c74d10a02b, d3d10effect/ID3D10EffectMatrixVariable::SetMatrixArray, direct3d10.id3d10effectmatrixvariable_setmatrixarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,9 @@ The number of elements to set.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173647(v=VS.85).aspx">ID3D10EffectMatrixVariable Interface</a>
+<a href="https://msdn.microsoft.com/82ffcc6e-9a92-4d72-a397-0a66600ad508">ID3D10EffectMatrixVariable Interface</a>
  
 
  

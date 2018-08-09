@@ -7,7 +7,7 @@ old-location: fs\satisfyntmsoperatorrequest.htm
 old-project: Rsm
 ms.assetid: 37f9c9c4-7fb2-4559-94a4-e508b277e69e
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,7 +147,7 @@ For a list of the existing operator requests to cancel with the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
+<a href="removable_storage_manager_functions.htm">Operator Request Functions</a>
 
 
 

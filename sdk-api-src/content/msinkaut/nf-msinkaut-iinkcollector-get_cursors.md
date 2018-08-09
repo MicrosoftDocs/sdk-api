@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_cursors.htm
 old-project: tablet
 ms.assetid: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4, Cursors property [Tablet PC], Cursors property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],Cursors property, IInkCollector.Cursors, IInkCollector.get_Cursors, IInkCollector::Cursors, IInkCollector::get_Cursors, InkCollector.get_Cursors, get_Cursors, msinkaut/IInkCollector::Cursors, msinkaut/IInkCollector::get_Cursors, put_Cursors, tablet.inkcollector_cursors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ The <a href="https://msdn.microsoft.com/3ae7dbc4-e5a2-4916-a1cc-651659a008fc">II
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="tablet.iinkcollector">IInkCollector</a>
 
 
 

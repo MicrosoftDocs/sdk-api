@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_invoke.htm
 old-project: rpc
 ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdAsyncStubBuffer_Invoke is not supported and may be altered or unavailable in the future.]
 
-Implements the  <a href="https://msdn.microsoft.com/library/ms686653(v=VS.85).aspx">IRpcStubBuffer::Invoke</a> method. 
+Implements the  <a href="_com_irpcstubbuffer_invoke">IRpcStubBuffer::Invoke</a> method. 
 
 
 ## -parameters
@@ -65,17 +65,17 @@ Implements the  <a href="https://msdn.microsoft.com/library/ms686653(v=VS.85).as
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param _prpcmsg [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms691405(v=VS.85).aspx">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
+Pointer to the <a href="_com_rpcolemessage">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
 
 
 ### -param _pRpcChannelBuffer [in]
 
-Interface pointer to an <a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
+Interface pointer to an <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
 
 
 ## -returns

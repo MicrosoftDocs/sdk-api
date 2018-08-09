@@ -7,7 +7,7 @@ old-location: adsi\iadsou.htm
 old-project: ADSI
 ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsOU, IADsOU interface [ADSI], IADsOU interface [ADSI],described, _ds_iadsou, adsi.iadsou, iads/IADsOU
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

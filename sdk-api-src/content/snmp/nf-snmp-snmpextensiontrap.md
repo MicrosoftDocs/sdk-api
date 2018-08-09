@@ -4,10 +4,10 @@ title: SnmpExtensionTrap function
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionTrap function to retrieve information the service needs to generate traps for the SNMP extension agent.
 old-location: snmp\snmpextensiontrap.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 5c768bf5-aa25-4ead-8ee9-fc1f30de4354
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpExtensionTrap, SnmpExtensionTrap callback, SnmpExtensionTrap callback function [SNMP], _snmp_snmpextensiontrap, snmp.snmpextensiontrap, snmp/SnmpExtensionTrap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpExtensionTrap function

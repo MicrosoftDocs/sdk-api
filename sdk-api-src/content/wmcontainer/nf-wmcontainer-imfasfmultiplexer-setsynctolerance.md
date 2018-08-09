@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_setsynctolerance.htm
 old-project: medfound
 ms.assetid: 54aea995-2beb-4c38-a79f-43a539031d95
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: 54aea995-2beb-4c38-a79f-43a539031d95, IMFASFMultiplexer interface [Media Foundation],SetSyncTolerance method, IMFASFMultiplexer.SetSyncTolerance, IMFASFMultiplexer::SetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [Media Foundation], SetSyncTolerance method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_setsynctolerance, wmcontainer/IMFASFMultiplexer::SetSyncTolerance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MFASF_STREAMSELECTOR_FLAGS
+req.typenames: MFSINK_WMDRMACTION
 topic_type:
  - APIRef
  - kbSyntax

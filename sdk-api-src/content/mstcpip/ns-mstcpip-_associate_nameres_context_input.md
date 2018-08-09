@@ -7,7 +7,7 @@ old-location: winsock\associate_nameres_context_input.htm
 old-project: winsock
 ms.assetid: 8B6EB9A4-47B9-40C3-B647-BB05B657B7CE
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*PASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock], PASSOCIATE_NAMERES_CONTEXT_INPUT, PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock], _ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT, winsock.associate_nameres_context_input"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\varbstrfromui8.htm
 old-project: automat
 ms.assetid: 78693a96-30e5-4031-8913-a131ec7558ad
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarBstrFromUI8, VarBstrFromUI8 function [Automation], _oa96_VarBstrFromUI8, automat.varbstrfromui8, oleauto/VarBstrFromUI8
 ms.prod: windows
 ms.technology: windows-sdk

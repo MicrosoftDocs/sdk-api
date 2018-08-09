@@ -7,7 +7,7 @@ old-location: search\_search_CASE_REQUIREMENT.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\case_requirement.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CASE_REQUIREMENT, CASE_REQUIREMENT enumeration [search], CASE_REQUIREMENT_ANY, CASE_REQUIREMENT_UPPER_IF_AQS, _search_CASE_REQUIREMENT, search._search_CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT_ANY, structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Keywords include Boolean operators such as AND, NOT, and OR.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797951(v=VS.85).aspx">STRUCTURED_QUERY_RESOLVE_OPTION</a>
+<a href="https://msdn.microsoft.com/84a052ae-4d05-438f-ab90-e1a248239aca">STRUCTURED_QUERY_RESOLVE_OPTION</a>
  
 
  

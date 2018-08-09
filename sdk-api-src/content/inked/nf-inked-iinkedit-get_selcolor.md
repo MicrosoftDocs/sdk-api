@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selcolor.htm
 old-project: tablet
 ms.assetid: 06a4ed72-e2c2-4422-8796-39a65b19415e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelColor property, IInkEdit.SelColor, IInkEdit.get_SelColor, IInkEdit::SelColor, IInkEdit::get_SelColor, IInkEdit::put_SelColor, InkEdit.get_SelColor, InkEdit.put_SelColor, SelColor property [Tablet PC], SelColor property [Tablet PC],IInkEdit interface, get_SelColor, inked/IInkEdit::SelColor, inked/IInkEdit::get_SelColor, inked/IInkEdit::put_SelColor, put_SelColor, tablet.inkedit_selcolor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

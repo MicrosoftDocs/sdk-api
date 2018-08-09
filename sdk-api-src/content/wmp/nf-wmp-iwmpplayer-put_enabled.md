@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_put_enabled.htm
 old-project: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWMPPlayer.put_enabled, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
 ms.prod: windows
 ms.technology: windows-sdk

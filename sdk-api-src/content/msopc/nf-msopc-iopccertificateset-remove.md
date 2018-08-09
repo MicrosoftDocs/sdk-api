@@ -7,7 +7,7 @@ old-location: opc\iopccertificateset_remove.htm
 old-project: OPC
 ms.assetid: 15046223-f8a0-4810-b6e0-e75aca44d5a9
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcCertificateSet interface [Open Packaging Conventions],Remove method, IOpcCertificateSet.Remove, IOpcCertificateSet::Remove, Remove, Remove method [Open Packaging Conventions], Remove method [Open Packaging Conventions],IOpcCertificateSet interface, msopc/IOpcCertificateSet::Remove, opc.iopccertificateset_remove
 ms.prod: windows
 ms.technology: windows-sdk

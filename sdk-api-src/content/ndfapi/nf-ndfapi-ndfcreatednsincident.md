@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatednsincident.htm
 old-project: ndf
 ms.assetid: e852b3e5-c5b8-45e2-af72-f7e89fb2c310
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfCreateDNSIncident, NdfCreateDNSIncident function [NDF], ndf.ndfcreatednsincident, ndfapi/NdfCreateDNSIncident
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,11 @@ The host name  with which there is a name resolution issue.
 
 ### -param queryType
 
-TBD
+Type: <b>WORD</b>
+
+The numeric representation of the type of record that was queried when the issue occurred.  For more information and a complete listing of record set types and their numeric representations, see the windns.h header file.
+
+This parameter should be set to  <b>DNS_TYPE_ZERO</b> for generic DNS resolution diagnosis.
 
 
 ### -param handle [out]
@@ -76,15 +80,6 @@ TBD
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
-
-
-#### - querytype
-
-Type: <b>WORD</b>
-
-The numeric representation of the type of record that was queried when the issue occurred.  For more information and a complete listing of record set types and their numeric representations, see the windns.h header file.
-
-This parameter should be set to  <b>DNS_TYPE_ZERO</b> for generic DNS resolution diagnosis.
 
 
 ## -returns

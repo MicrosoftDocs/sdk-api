@@ -7,7 +7,7 @@ old-location: rras\rtmcreateroutelistenum.htm
 old-project: rras
 ms.assetid: 107fc253-58b3-479c-9cda-2c3b322e76f8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RtmCreateRouteListEnum, RtmCreateRouteListEnum function [RAS], _rtmv2ref_rtmcreateroutelistenum, rras.rtmcreateroutelistenum, rtmv2/RtmCreateRouteListEnum
 ms.prod: windows
 ms.technology: windows-sdk

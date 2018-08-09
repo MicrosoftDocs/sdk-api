@@ -7,7 +7,7 @@ old-location: setup\setupgetinfinformation.htm
 old-project: SetupApi
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,9 +128,9 @@ If <i>ReturnBuffer</i> is specified and the size needed is larger than <i>Return
 
 
 
-##### - SearchControl.INFINFO_DEFAULT_SEARCH
+##### - SearchControl.INFINFO_INF_SPEC_IS_HINF
 
-Search the default locations for the INF file specified for <i>InfSpec</i>, which is assumed to be a filename only. The default locations are <i>%windir%</i>\<i>inf</i>, followed by <i>%windir%</i>\<i>system32</i>.
+<i>InfSpec</i> is an INF handle. A single INF handle may reference multiple INF files if they have been append-loaded together. If it does, the structure returned by this function contains multiple sets of information.
 
 
 ##### - SearchControl.INFINFO_INF_NAME_IS_ABSOLUTE
@@ -138,19 +138,19 @@ Search the default locations for the INF file specified for <i>InfSpec</i>, whic
 The string specified for <i>InfSpec</i> is a full path. No further processing is performed on <i>InfSpec</i>.
 
 
-##### - SearchControl.INFINFO_INF_PATH_LIST_SEARCH
+##### - SearchControl.INFINFO_DEFAULT_SEARCH
 
-Search for the INF in each of the directories listed in the <i>DevicePath</i> value entry under the following:<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</b>
-
-
-##### - SearchControl.INFINFO_INF_SPEC_IS_HINF
-
-<i>InfSpec</i> is an INF handle. A single INF handle may reference multiple INF files if they have been append-loaded together. If it does, the structure returned by this function contains multiple sets of information.
+Search the default locations for the INF file specified for <i>InfSpec</i>, which is assumed to be a filename only. The default locations are <i>%windir%</i>\<i>inf</i>, followed by <i>%windir%</i>\<i>system32</i>.
 
 
 ##### - SearchControl.INFINFO_REVERSE_DEFAULT_SEARCH
 
 Same as INFINFO_DEFAULT_SEARCH, except the default locations are searched in reverse order.
+
+
+##### - SearchControl.INFINFO_INF_PATH_LIST_SEARCH
+
+Search for the INF in each of the directories listed in the <i>DevicePath</i> value entry under the following:<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</b>
 
 
 ## -returns

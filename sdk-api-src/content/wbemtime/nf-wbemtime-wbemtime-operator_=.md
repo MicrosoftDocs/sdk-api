@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_greaterthanorequal.htm
 old-project: WmiSdk
 ms.assetid: e483efa0-e0d9-4ebf-bac5-831960de0146
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator>= method, WBEMTime.operator>=, WBEMTime::operator>=, operator>=, operator>= method [Windows Management Instrumentation], operator>= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator>=, wmi.wbemtime_comparison_operators_greaterthanorequal
 ms.prod: windows
 ms.technology: windows-sdk

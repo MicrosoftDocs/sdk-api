@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumTypeList_GetConditionAt.htm
 old-project: properties
 ms.assetid: 0754ac31-09e9-429b-8ae2-58346fb50944
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: GetConditionAt, GetConditionAt method [Windows Properties], GetConditionAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetConditionAt method, IPropertyEnumTypeList.GetConditionAt, IPropertyEnumTypeList::GetConditionAt, _shell_IPropertyEnumTypeList_GetConditionAt, properties.IPropertyEnumTypeList_GetConditionAt, propsys/IPropertyEnumTypeList::GetConditionAt, shell.IPropertyEnumTypeList_GetConditionAt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ A reference to the IID of the interface to retrieve.
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> interface pointer.
+When this method returns, contains the address of an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> interface pointer.
 
 
 ## -returns

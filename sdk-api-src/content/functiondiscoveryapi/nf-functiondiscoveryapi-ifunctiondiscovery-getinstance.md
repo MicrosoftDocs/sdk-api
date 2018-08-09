@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscovery_getinstance_method.htm
 old-project: fundisc
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstance method, IFunctionDiscovery.GetInstance, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,8 +119,7 @@ The method is unable to allocate the memory required to perform this operation.
 <td width="40%">
 <dl>
 <dt><b>HRESULT_FROM_WIN32(ERROR_OBJECT_NOT_FOUND)</b></dt>
-<dt>
-0x800710d8</dt>
+<dt>0x800710d8</dt>
 </dl>
 </td>
 <td width="60%">

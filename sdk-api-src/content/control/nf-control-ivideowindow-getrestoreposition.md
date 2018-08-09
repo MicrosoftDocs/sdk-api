@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getrestoreposition.htm
 old-project: DirectShow
 ms.assetid: e2c8880a-e140-4bb1-8f0d-2d665c98728c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetRestorePosition, GetRestorePosition method [DirectShow], GetRestorePosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetRestorePosition method, IVideoWindow.GetRestorePosition, IVideoWindow::GetRestorePosition, IVideoWindowGetRestorePosition, control/IVideoWindow::GetRestorePosition, dshow.ivideowindow_getrestoreposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>GetRestorePosition</code> method retrieves the restored window positio
 
 ### -param pLeft [out]
 
-
-            Receives the x-coordinate, in pixels.
+Receives the x-coordinate, in pixels.
           
 
 

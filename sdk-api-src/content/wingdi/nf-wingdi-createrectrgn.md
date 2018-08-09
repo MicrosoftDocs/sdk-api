@@ -7,7 +7,7 @@ old-location: gdi\createrectrgn.htm
 old-project: gdi
 ms.assetid: 17456440-c655-48ab-8d1e-ee770330f164
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateRectRgn, CreateRectRgn function [Windows GDI], _win32_CreateRectRgn, gdi.createrectrgn, wingdi/CreateRectRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,46 +65,24 @@ The <b>CreateRectRgn</b> function creates a rectangular region.
 
 
 
-### -param x1
-
-TBD
-
-
-### -param y1
-
-TBD
-
-
-### -param x2
-
-TBD
-
-
-### -param y2
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-Specifies the y-coordinate of the lower-right corner of the region in logical units.
-
-
-#### - nLeftRect [in]
+### -param x1 [in]
 
 Specifies the x-coordinate of the upper-left corner of the region in logical units.
 
 
-#### - nRightRect [in]
+### -param y1 [in]
+
+Specifies the y-coordinate of the upper-left corner of the region in logical units.
+
+
+### -param x2 [in]
 
 Specifies the x-coordinate of the lower-right corner of the region in logical units.
 
 
-#### - nTopRect [in]
+### -param y2 [in]
 
-Specifies the y-coordinate of the upper-left corner of the region in logical units.
+Specifies the y-coordinate of the lower-right corner of the region in logical units.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetstatusex.htm
 old-project: p2psdk
 ms.assetid: 7D8D3B84-F353-4820-B035-5F289085BE7E
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerDistGetStatusEx, PeerDistGetStatusEx function [Peer Networking], p2p.peerdistgetstatusex, peerdist/PeerDistGetStatusEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ The <b>PeerDistGetStatusEx</b> function returns the current status and capabilit
 A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
 
 
-### -param pPeerDistStatus
-
-TBD
-
-
-
-
-#### - pPeerDistStatusInfo [in, out]
+### -param pPeerDistStatus [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/6EE58EA9-BA0A-4A96-9F9C-EFAF2ABA37C6">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
 

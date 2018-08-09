@@ -7,7 +7,7 @@ old-location: mf\imfmetadata.htm
 old-project: medfound
 ms.assetid: 411658ca-dc5e-445b-8d61-0c0429fcfbb1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 411658ca-dc5e-445b-8d61-0c0429fcfbb1, IMFMetadata, IMFMetadata interface [Media Foundation], IMFMetadata interface [Media Foundation],described, mf.imfmetadata, mfidl/IMFMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/7c9a406d-6144-4e9c-b62c-1d9c691391f0">DeleteProperty</a>
 </td>
 <td align="left" width="63%">
-
-          Deletes a metadata property.
+Deletes a metadata property.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/69296ec5-5811-4f0f-ae9c-cabca3e66158">GetAllLanguages</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves a list of all the languages in which metadata is available.
+Retrieves a list of all the languages in which metadata is available.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e0944d42-d6e6-420d-9980-ca6c62736b3d">GetAllPropertyNames</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves a list of all the metadata property names on this object.
+Retrieves a list of all the metadata property names on this object.
         
 
 </td>
@@ -110,8 +107,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/75295c93-a389-42c4-aa56-debc36a5f532">GetLanguage</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the current language setting.
+Retrieves the current language setting.
         
 
 </td>
@@ -121,8 +117,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/177c8612-5c9f-4a71-9ee1-a4c67737af2d">GetProperty</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the value of a metadata property.
+Retrieves the value of a metadata property.
         
 
 </td>
@@ -132,8 +127,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/da615053-ddd5-448e-905c-b060cdaefa95">SetLanguage</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the language for setting and retrieving metadata.
+Sets the language for setting and retrieving metadata.
         
 
 </td>
@@ -143,8 +137,7 @@ The <b>IMFMetadata</b> interface has these methods.
 <a href="https://msdn.microsoft.com/416a7fba-506c-405d-a230-7e8a1c801209">SetProperty</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the value of a metadata property.
+Sets the value of a metadata property.
         
 
 </td>

@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_top.htm
 old-project: tablet
 ms.assetid: f97145cf-9de9-427a-9701-36c6f4286910
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkRectangle interface [Tablet PC],Top property, IInkRectangle.Top, IInkRectangle.put_Top, IInkRectangle::Top, IInkRectangle::get_Top, IInkRectangle::put_Top, InkRectangle.get_Top, InkRectangle.put_Top, Top property [Tablet PC], Top property [Tablet PC],IInkRectangle interface, f97145cf-9de9-427a-9701-36c6f4286910, get_Top, msinkaut/IInkRectangle::Top, msinkaut/IInkRectangle::get_Top, msinkaut/IInkRectangle::put_Top, put_Top, tablet.inkrectangle_top
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="tablet.iinkrectangle">IInkRectangle</a>
 
 
 

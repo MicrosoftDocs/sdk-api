@@ -7,7 +7,7 @@ old-location: multimedia\acmformatchoose.htm
 old-project: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,13 +66,6 @@ The <b>acmFormatChoose</b> function creates an ACM-defined dialog box that enabl
 
 
 ### -param pafmtc
-
-TBD
-
-
-
-
-#### - pfmtc
 
 Pointer to an <a href="https://msdn.microsoft.com/b5e36dbd-9eaf-479a-af4c-ce07e4b6f042">ACMFORMATCHOOSE</a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
 

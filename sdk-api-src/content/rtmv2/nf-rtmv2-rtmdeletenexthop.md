@@ -7,7 +7,7 @@ old-location: rras\rtmdeletenexthop.htm
 old-project: rras
 ms.assetid: 708a890e-4dc6-49c7-b857-cdb8504e7f7f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITSubStreamControl::EnumerateSubStreams
 author: windows-sdk-content
 description: The EnumerateSubStreams method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_SubStreams method.
 old-location: tapi3\itsubstreamcontrol_enumeratesubstreams.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: EnumerateSubStreams, EnumerateSubStreams method [TAPI 2.2], EnumerateSubStreams method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],EnumerateSubStreams method, ITSubStreamControl.EnumerateSubStreams, ITSubStreamControl::EnumerateSubStreams, _tapi3_itsubstreamcontrol_enumeratesubstreams, tapi3.itsubstreamcontrol_enumeratesubstreams, tapi3if/ITSubStreamControl::EnumerateSubStreams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,8 +121,8 @@ The <i>ppEnumSubStream</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/d9076a32-983e-48d4-b025-5fc770156df6">IEnumSubStream</a> interface returned by <b>ITSubStreamControl::EnumerateSubStreams</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/d9076a32-983e-48d4-b025-5fc770156df6">IEnumSubStream</a> interface returned by <b>ITSubStreamControl::EnumerateSubStreams</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumSubStream</b> interface to free resources associated with it.
 
 

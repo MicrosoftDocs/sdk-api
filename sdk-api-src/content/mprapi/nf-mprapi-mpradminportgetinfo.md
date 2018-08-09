@@ -7,7 +7,7 @@ old-location: rras\mpradminportgetinfo.htm
 old-project: rras
 ms.assetid: b990b2bf-6c08-4cfd-8b17-1b3fe39277d7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminPortGetInfo, MprAdminPortGetInfo function [RAS], _mpr_mpradminportgetinfo, mprapi/MprAdminPortGetInfo, rras.mpradminportgetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -199,8 +199,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
 <b>RasAdminPortGetInfo</b> rather than 
 <b>MprAdminPortGetInfo</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

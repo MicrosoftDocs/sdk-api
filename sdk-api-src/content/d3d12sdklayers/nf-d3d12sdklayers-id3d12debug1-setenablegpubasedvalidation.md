@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1_setenablegpubasedvalidation.htm
 old-project: direct3d12
 ms.assetid: 0B7ACDC1-D7F6-4565-8E33-F2F14A96E4A8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12Debug1 interface,SetEnableGPUBasedValidation method, ID3D12Debug1.SetEnableGPUBasedValidation, ID3D12Debug1::SetEnableGPUBasedValidation, SetEnableGPUBasedValidation, SetEnableGPUBasedValidation method, SetEnableGPUBasedValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableGPUBasedValidation, direct3d12.id3d12debugdevice1_setenablegpubasedvalidation
 ms.prod: windows
 ms.technology: windows-sdk

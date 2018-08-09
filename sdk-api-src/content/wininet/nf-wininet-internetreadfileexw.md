@@ -4,10 +4,10 @@ title: InternetReadFileExW function
 author: windows-sdk-content
 description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.
 old-location: wininet\internetreadfileex.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Identical to  <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_ASYNC</a>.
+Identical to  <a href="api_flags.htm">WININET_API_FLAG_ASYNC</a>.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Identical to  <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_SYNC</a>.
+Identical to <a href="api_flags.htm">WININET_API_FLAG_SYNC</a>.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85)
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_USE_CONTEXT</a>.
+Identical to <a href="api_flags.htm">WININET_API_FLAG_USE_CONTEXT</a>.
 
 </td>
 </tr>

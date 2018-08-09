@@ -7,7 +7,7 @@ old-location: mf\mftopology_hardware_mode.htm
 old-project: medfound
 ms.assetid: fdaa13a5-9b23-440e-be04-ae926e1b0ff5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFTOPOLOGY_HARDWARE_MODE, MFTOPOLOGY_HARDWARE_MODE enumeration [Media Foundation], MFTOPOLOGY_HWMODE_SOFTWARE_ONLY, MFTOPOLOGY_HWMODE_USE_HARDWARE, MFTOPOLOGY_HWMODE_USE_ONLY_HARDWARE, mf.mftopology_hardware_mode, mfidl/ MFTOPOLOGY_HWMODE_USE_ONLY_HARDWARE, mfidl/MFTOPOLOGY_HARDWARE_MODE, mfidl/MFTOPOLOGY_HWMODE_SOFTWARE_ONLY, mfidl/MFTOPOLOGY_HWMODE_USE_HARDWARE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Supported in Windows 8.1 and later.
 
 
 
-
-        This enumeration is used with the <a href="https://msdn.microsoft.com/f7ac3c9b-c163-412f-84c0-27bf551091d8">MF_TOPOLOGY_HARDWARE_MODE</a> topology attribute.
+This enumeration is used with the <a href="https://msdn.microsoft.com/f7ac3c9b-c163-412f-84c0-27bf551091d8">MF_TOPOLOGY_HARDWARE_MODE</a> topology attribute.
       
 
 

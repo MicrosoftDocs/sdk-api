@@ -4,10 +4,10 @@ title: PxeDhcpGetVendorOptionValue function
 author: windows-sdk-content
 description: Retrieves an option value from the Vendor Specific Information field (43) of a DHCP packet.
 old-location: wds\pxedhcpgetvendoroptionvalue.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 0cf14db2-b2e6-4e5e-a715-429bc0af7714
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PxeDhcpGetVendorOptionValue, PxeDhcpGetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpgetvendoroptionvalue, wdspxe/PxeDhcpGetVendorOptionValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf.htm
 old-project: CoreAudio
 ms.assetid: E69F1D09-B937-4BCC-A040-18EF8A838289
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], ISpatialAudioObjectForHrtf interface [Core Audio],described, coreaudio.ispatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectForHrtf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectForHrtf interface
@@ -57,7 +58,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForHrtf</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpatialAudioObjectForHrtf</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForHrtf</b> interface inherits from <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForHrtf</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,33 +70,6 @@ The <b>ISpatialAudioObjectForHrtf</b> interface has these methods.
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6B4FCDC6-C010-4293-A407-DD8137260B50">GetAudioObjectType</a>
-</td>
-<td align="left" width="63%">
-Gets a value specifying the type of audio object that is represented by the <b>ISpatialAudioObjectForHrtf</b>. This value indicates if the object is dynamic or static. If the object is static, one and only one of the static audio channel values to which the object is assigned is returned.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-Gets a buffer that is used to supply the audio data for the <b>ISpatialAudioObjectForHrtf</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25465859-017E-48AC-84B4-702794C6CE43">IsActive</a>
-</td>
-<td align="left" width="63%">
-Gets a value indicating whether the <b>ISpatialAudioObjectForHrtf</b> is valid. 
-
-</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
@@ -112,15 +86,6 @@ Sets the spatial audio directivity model for the <b>ISpatialAudioObjectForHrtf</
 </td>
 <td align="left" width="63%">
 Sets the decay model that is applied over distance from the position of an <b>ISpatialAudioObjectForHrtf</b> to the position of the listener.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82AA5202-C12C-4DFB-B4C5-745D4756C1FA">SetEndOfStream</a>
-</td>
-<td align="left" width="63%">
-Instructs the system that the final block of audio data has been  submitted for the <b>ISpatialAudioObjectForHrtf</b> so that the object can be deactivated and it's resources reused. 
 
 </td>
 </tr>
@@ -161,4 +126,24 @@ Sets the position in 3D space, relative to the listener, from which the <b>ISpat
 </td>
 </tr>
 </table> 
+
+
+## -remarks
+
+
+
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div> </div>
+
+
+
+## -see-also
+
+
+
+
+<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+ 
+
+ 
 

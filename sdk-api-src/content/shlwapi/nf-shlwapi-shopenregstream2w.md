@@ -7,7 +7,7 @@ old-location: shell\SHOpenRegStream2.htm
 old-project: shell
 ms.assetid: 2450dde0-cd02-4d48-be40-467b4b8be240
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHOpenRegStream2, SHOpenRegStream2 function [Windows Shell], SHOpenRegStream2A, SHOpenRegStream2W, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream2, shell.SHOpenRegStream2, shlwapi/SHOpenRegStream2, shlwapi/SHOpenRegStream2A, shlwapi/SHOpenRegStream2W
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,14 +116,14 @@ Open the stream for reading and writing.
 Open the stream for reading.
 
 
-##### - grfMode.STGM_READWRITE
-
-Open the stream for reading and writing.
-
-
 ##### - grfMode.STGM_WRITE
 
 Open the stream for writing.
+
+
+##### - grfMode.STGM_READWRITE
+
+Open the stream for reading and writing.
 
 
 ## -returns

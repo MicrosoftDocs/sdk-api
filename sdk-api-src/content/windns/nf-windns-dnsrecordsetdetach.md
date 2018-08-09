@@ -4,10 +4,10 @@ title: DnsRecordSetDetach function
 author: windows-sdk-content
 description: The DnsRecordSetDetach function detaches the first record set from a specified list of DNS records.
 old-location: dns\dnsrecordsetdetach.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 434dc11f-19a9-434f-a024-9cdbb560f24c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DnsRecordSetDetach, DnsRecordSetDetach function [DNS], _dns_dnsrecordsetdetach, dns.dnsrecordsetdetach, windns/DnsRecordSetDetach
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>DnsRecordSetDetach</b> function detaches the first record set from a spec
 
 
 
-### -param pRecordList
-
-TBD
-
-
-
-
-#### - pRR [in, out]
+### -param pRecordList [in, out]
 
 A pointer, on input, to a <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the list prior to the detachment of the first DNS record in the list of DNS records.  A pointer, on output to a <b>DNS_RECORD</b> structure that contains the list subsequent to the detachment of the DNS record.
 

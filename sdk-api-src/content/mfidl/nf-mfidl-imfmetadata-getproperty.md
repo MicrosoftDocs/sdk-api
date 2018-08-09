@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_getproperty.htm
 old-project: medfound
 ms.assetid: 177c8612-5c9f-4a71-9ee1-a4c67737af2d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 177c8612-5c9f-4a71-9ee1-a4c67737af2d, GetProperty, GetProperty method [Media Foundation], GetProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetProperty method, IMFMetadata.GetProperty, IMFMetadata::GetProperty, mf.imfmetadata_getproperty, mfidl/IMFMetadata::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the value of a metadata property.
+Gets the value of a metadata property.
 
 
 ## -parameters
@@ -63,15 +62,13 @@ req.product: GDI+ 1.1
 
 ### -param pwszName [in]
 
-
-            A pointer to a null-terminated string that containings the name of the property.
+A pointer to a null-terminated string that containings the name of the property.
           To get the list of property names, call <a href="https://msdn.microsoft.com/e0944d42-d6e6-420d-9980-ca6c62736b3d">IMFMetadata::GetAllPropertyNames</a>.
 
 
 ### -param ppvValue [out]
 
-
-            Pointer to a <b>PROPVARIANT</b> that receives the value of the property. The <b>PROPVARIANT</b> type depends on the property. For multivalued properties, the <b>PROPVARIANT</b> is a <b>VT_VECTOR</b> type. The caller must free the <b>PROPVARIANT</b> by calling <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>.
+Pointer to a <b>PROPVARIANT</b> that receives the value of the property. The <b>PROPVARIANT</b> type depends on the property. For multivalued properties, the <b>PROPVARIANT</b> is a <b>VT_VECTOR</b> type. The caller must free the <b>PROPVARIANT</b> by calling <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>.
           
 
 
@@ -93,8 +90,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -106,8 +102,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The requested property was not found.
+The requested property was not found.
               
 
 </td>

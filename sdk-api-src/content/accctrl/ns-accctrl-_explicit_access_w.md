@@ -7,7 +7,7 @@ old-location: security\explicit_access.htm
 old-project: secauthz
 ms.assetid: 6fe09542-10dd-439c-adf8-a4e06943ddb2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*PEXPLICIT_ACCESSW, *PEXPLICIT_ACCESS_W, CONTAINER_INHERIT_ACE, EXPLICIT_ACCESS, EXPLICIT_ACCESS structure [Security], EXPLICIT_ACCESSW, EXPLICIT_ACCESS_, EXPLICIT_ACCESS_A, EXPLICIT_ACCESS_W, INHERIT_NO_PROPAGATE, INHERIT_ONLY, INHERIT_ONLY_ACE, NO_INHERITANCE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PEXPLICIT_ACCESS, PEXPLICIT_ACCESS structure pointer [Security], SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, _EXPLICIT_ACCESS_A, _EXPLICIT_ACCESS_W, _win32_explicit_access_str, accctrl/EXPLICIT_ACCESS, accctrl/EXPLICIT_ACCESS_A, accctrl/EXPLICIT_ACCESS_W, accctrl/PEXPLICIT_ACCESS, security.explicit_access"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.dll:
 
 The <b>EXPLICIT_ACCESS</b> structure defines access control information for a specified trustee. Access control functions, such as 
 <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>, use this structure to describe the information in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a>
-				(ACE) of an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
+<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>, use this structure to describe the information in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a>(ACE) of an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
 
 
 ## -struct-fields

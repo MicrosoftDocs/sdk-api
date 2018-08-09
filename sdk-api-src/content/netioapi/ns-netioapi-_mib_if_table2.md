@@ -7,7 +7,7 @@ old-location: mib\mib_if_table2.htm
 old-project: mib
 ms.assetid: 334078c6-afd0-4c53-838c-28bc3e1e8484
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IF_TABLE2, MIB_IF_TABLE2, MIB_IF_TABLE2 structure [MIB], PMIB_IF_TABLE2, PMIB_IF_TABLE2 structure pointer [MIB], _MIB_IF_TABLE2, mib.mib_if_table2, netioapi/MIB_IF_TABLE2, netioapi/PMIB_IF_TABLE2"
 ms.prod: windows
 ms.technology: windows-sdk

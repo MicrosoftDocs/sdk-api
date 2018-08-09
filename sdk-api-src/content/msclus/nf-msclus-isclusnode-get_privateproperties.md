@@ -7,7 +7,7 @@ old-location: mscs\clusnode_privateproperties.htm
 old-project: mscs
 ms.assetid: 33520afe-ec3e-41dc-ad16-aaee4f5394aa
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNode object [Failover Cluster],PrivateProperties property, ClusNode.PrivateProperties, ISClusNode.get_PrivateProperties, ISClusNode::get_PrivateProperties, PrivateProperties property [Failover Cluster], PrivateProperties property [Failover Cluster],ClusNode object, _wolf_clusnode.privateproperties, get_PrivateProperties, mscs.clusnode_privateproperties
 ms.prod: windows
 ms.technology: windows-sdk

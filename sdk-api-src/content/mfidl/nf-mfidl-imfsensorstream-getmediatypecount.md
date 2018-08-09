@@ -7,7 +7,7 @@ old-location: mf\imfsensorstream_getmediatypecount.htm
 old-project: medfound
 ms.assetid: DCC5645E-2E0C-4AA7-8790-3552AD343F90
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaTypeCount method, IMFSensorStream.GetMediaTypeCount, IMFSensorStream::GetMediaTypeCount, mf.imfsensorstream_getmediatypecount, mfidl/IMFSensorStream::GetMediaTypeCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ If the call completes successfully, receives the count of media types supported 
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ If the call completes successfully, receives the count of media types supported 
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ If the call completes successfully, receives the count of media types supported 
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pdwCount</i> parameter is null.
+The <i>pdwCount</i> parameter is null.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: IVssComponent::GetDifferencedFile
 author: windows-sdk-content
 description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file&#8212;that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
 old-location: base\ivsscomponent_getdifferencedfile.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 285b2ac7-d09e-4ac5-bf5c-62c510544353
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDifferencedFile, GetDifferencedFile method [VSS], GetDifferencedFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFile method, IVssComponent.GetDifferencedFile, IVssComponent::GetDifferencedFile, _win32_ivsscomponent_getdifferencedfile, base.ivsscomponent_getdifferencedfile, vswriter/IVssComponent::GetDifferencedFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -189,12 +189,12 @@ The XML document is not valid. Check the event log for details. For more
 <b>GetDifferencedFile</b> can be called by 
     a requester or a writer during backup or restore operations.
 
-If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 As writers can indicate differenced files with calls to 
     <a href="https://msdn.microsoft.com/33372d10-c947-45de-9ea2-03ba6378179d">IVssComponent::AddDifferencedFilesByLastModifyTime</a> 
     at any time prior to the actual backing up of files, typically while handling a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event 
+    <a href="vssgloss_p.htm">PostSnapshot</a> event 
     (<a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>), during backups 
     <b>GetDifferencedFile</b> is not usefully 
     called prior to the return of 

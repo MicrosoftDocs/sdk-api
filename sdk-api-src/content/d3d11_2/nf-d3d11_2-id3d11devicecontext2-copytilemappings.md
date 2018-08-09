@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_copytilemappings.htm
 old-project: direct3d11
 ms.assetid: 03EBF4F5-CEC3-485D-8124-AAB90DA4D6E1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CopyTileMappings, CopyTileMappings method [Direct3D 11], CopyTileMappings method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],CopyTileMappings method, ID3D11DeviceContext2.CopyTileMappings, ID3D11DeviceContext2::CopyTileMappings, d3d11_2/ID3D11DeviceContext2::CopyTileMappings, direct3d11.id3d11devicecontext2_copytilemappings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ A combination of <a href="https://msdn.microsoft.com/13B4665C-F8A2-45A7-BBE9-FEB
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
          

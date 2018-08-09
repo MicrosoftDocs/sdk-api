@@ -7,7 +7,7 @@ old-location: gdi\getwinmetafilebits.htm
 old-project: gdi
 ms.assetid: db61ea3a-44d0-4769-acb4-05a982d3f06f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWinMetaFileBits, GetWinMetaFileBits function [Windows GDI], _win32_GetWinMetaFileBits, gdi.getwinmetafilebits, wingdi/GetWinMetaFileBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,39 +67,24 @@ The <b>GetWinMetaFileBits</b> function converts the enhanced-format records from
 A handle to the enhanced metafile.
 
 
-### -param cbData16
+### -param cbData16 [in]
 
-TBD
-
-
-### -param pData16
-
-TBD
+The size, in bytes, of the buffer into which the converted records are to be copied.
 
 
-### -param iMapMode
+### -param pData16 [out]
 
-TBD
+A pointer to the buffer that receives the converted records. If <i>lpbBuffer</i> is <b>NULL</b>, <b>GetWinMetaFileBits</b> returns the number of bytes required to store the converted metafile records.
+
+
+### -param iMapMode [in]
+
+The mapping mode to use in the converted metafile.
 
 
 ### -param hdcRef [in]
 
 A handle to the reference device context.
-
-
-#### - cbBuffer [in]
-
-The size, in bytes, of the buffer into which the converted records are to be copied.
-
-
-#### - fnMapMode [in]
-
-The mapping mode to use in the converted metafile.
-
-
-#### - lpbBuffer [out]
-
-A pointer to the buffer that receives the converted records. If <i>lpbBuffer</i> is <b>NULL</b>, <b>GetWinMetaFileBits</b> returns the number of bytes required to store the converted metafile records.
 
 
 ## -returns

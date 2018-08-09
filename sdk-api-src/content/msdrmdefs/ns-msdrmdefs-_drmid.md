@@ -7,7 +7,7 @@ old-location: rm\drmid.htm
 old-project: adrms_sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], _DRMID, msdrmdefs/DRMID, rm.drmid
 ms.prod: windows
 ms.technology: windows-sdk

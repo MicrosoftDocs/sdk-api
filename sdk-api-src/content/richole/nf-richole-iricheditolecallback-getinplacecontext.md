@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_GetInPlaceContext.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetinplacecontext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetInPlaceContext, GetInPlaceContext method [Windows Controls], GetInPlaceContext method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetInPlaceContext method, IRichEditOleCallback.GetInPlaceContext, IRichEditOleCallback::GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext_cpp, controls.IRichEditOleCallback_GetInPlaceContext, controls._win32_IRichEditOleCallback_GetInPlaceContext, richole/IRichEditOleCallback::GetInPlaceContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The address of the <a href="https://msdn.microsoft.com/c530aff7-fd83-413d-8945-0
 
 Type: <b>LPOLEINPLACEUIWINDOW*</b>
 
-The address of the <a href="https://msdn.microsoft.com/3cfb31aa-9746-438c-af64-8236c170fe88">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>
-					 method to increment the reference count. The rich edit control releases the interface when it is no longer needed. 
+The address of the <a href="https://msdn.microsoft.com/3cfb31aa-9746-438c-af64-8236c170fe88">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>method to increment the reference count. The rich edit control releases the interface when it is no longer needed. 
 
 
 ### -param lpFrameInfo
@@ -116,7 +115,7 @@ There was an invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/2c3ba341-f62f-4c95-9547-6d50fcf3d6b4">IRichEditOleCallback</a>
  
 
  

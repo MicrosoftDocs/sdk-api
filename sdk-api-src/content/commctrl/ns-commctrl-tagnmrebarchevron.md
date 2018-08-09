@@ -7,7 +7,7 @@ old-location: controls\NMREBARCHEVRON.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchevron.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMREBARCHEVRON, LPNMREBARCHEVRON, LPNMREBARCHEVRON structure pointer [Windows Controls], NMREBARCHEVRON, NMREBARCHEVRON structure [Windows Controls], _win32_NMREBARCHEVRON, _win32_NMREBARCHEVRON_cpp, commctrl/LPNMREBARCHEVRON, commctrl/NMREBARCHEVRON, controls.NMREBARCHEVRON, controls._win32_NMREBARCHEVRON, tagNMREBARCHEVRON"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification code. 
+Contains information used in handling the <a href="https://msdn.microsoft.com/58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84">RBN_CHEVRONPUSHED</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/li
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field uBand
@@ -99,6 +99,6 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-An application-defined value. If the <a href="https://msdn.microsoft.com/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://msdn.microsoft.com/library/Bb774506(v=VS.85).aspx">RB_PUSHCHEVRON</a> message, this member contains the message's 
+An application-defined value. If the <a href="https://msdn.microsoft.com/58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://msdn.microsoft.com/00a8ce10-1fb2-488a-a6f9-1814f73f82bd">RB_PUSHCHEVRON</a> message, this member contains the message's 
 					<i>lAppValue</i> value. Otherwise, it is set to zero. 
 

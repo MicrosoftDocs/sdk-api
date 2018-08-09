@@ -4,10 +4,10 @@ title: IFsrmPropertyCondition
 author: windows-sdk-content
 description: Defines a property condition that the file management job uses to determine if the file is expired.
 old-location: fsrm\ifsrmpropertycondition.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], IFsrmPropertyCondition interface [File Server Resource Manager],described, fs.ifsrmpropertycondition, fsrm.ifsrmpropertycondition, fsrm/IFsrmPropertyCondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <a href="https://msdn.microsoft.com/49435c4b-211e-4aae-a6b3-ad40de811526">IF
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

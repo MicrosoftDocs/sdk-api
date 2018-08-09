@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetNextSelected.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextselected.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TreeView_GetNextSelected, TreeView_GetNextSelected macro [Windows Controls], _shell_TreeView_GetNextSelected, _shell_TreeView_GetNextSelected_cpp, commctrl/TreeView_GetNextSelected, controls.TreeView_GetNextSelected, controls._shell_TreeView_GetNextSelected
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Used to find the next selected item when there are multiple items selected.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a>
+<a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a>
  
 
  

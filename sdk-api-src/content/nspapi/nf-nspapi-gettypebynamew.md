@@ -7,7 +7,7 @@ old-location: winsock\gettypebyname_2.htm
 old-project: winsock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, GetTypeByNameW, _win32_gettypebyname_2, nspapi/GetTypeByName, nspapi/GetTypeByNameA, nspapi/GetTypeByNameW, winsock.gettypebyname_2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>GetTypeByName</b> function retrieves a service type <b>GUID</b> for a network service specified by name.
 
 
@@ -86,8 +85,7 @@ The <i>Svcguid.h</i> header file is not automatically included by the <i>Winsock
 
 
 
-
-						If the function succeeds, the return value is zero.
+If the function succeeds, the return value is zero.
 
 If the function fails, the return value is SOCKET_ERROR( – 1). To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which returns the following extended error value.

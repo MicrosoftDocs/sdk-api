@@ -7,7 +7,7 @@ old-location: http\httpapi_less_version.htm
 old-project: http
 ms.assetid: e53d1866-7e5a-43aa-a1b3-287e7cfe3ad8
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTPAPI_LESS_VERSION, HTTPAPI_LESS_VERSION macro [HTTP], http.httpapi_less_version, http/HTTPAPI_LESS_VERSION
 ms.prod: windows
 ms.technology: windows-sdk

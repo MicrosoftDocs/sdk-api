@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
 old-project: medfound
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -102,8 +101,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 </dl>
 </td>
 <td width="60%">
-
-                Successfully started the asynchronous operation.
+Successfully started the asynchronous operation.
 
 </td>
 </tr>

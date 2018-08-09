@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererdevices_remove.htm
 old-project: mstv
 ms.assetid: 0a1d8f8b-1e62-470d-8f94-afc238755cad
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidVideoRendererDevices.Remove, IMSVidVideoRendererDevices::Remove, IMSVidVideoRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_remove, segment/IMSVidVideoRendererDevices::Remove
 ms.prod: windows
 ms.technology: windows-sdk

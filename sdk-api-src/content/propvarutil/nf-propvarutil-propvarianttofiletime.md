@@ -7,7 +7,7 @@ old-location: properties\PropVariantToFileTime.htm
 old-project: properties
 ms.assetid: fc835395-8c2c-4f6a-88be-f438625442b9
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, PropVariantToFileTime, PropVariantToFileTime function [Windows Properties], _shell_PropVariantToFileTime, properties.PropVariantToFileTime, propvarutil/PropVariantToFileTime, shell.PropVariantToFileTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ The source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToFileTime">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -156,19 +156,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
+<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a>
+<a href="shell.PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
+<a href="shell.VariantToFileTime">VariantToFileTime</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\avrtwaitonthreadorderinggroup.htm
 old-project: procthread
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup function, avrt/AvRtWaitOnThreadOrderingGroup, base.avrtwaitonthreadorderinggroup
 ms.prod: windows
 ms.technology: windows-sdk

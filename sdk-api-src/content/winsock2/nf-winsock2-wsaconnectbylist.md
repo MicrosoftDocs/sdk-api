@@ -4,10 +4,10 @@ title: WSAConnectByList function
 author: windows-sdk-content
 description: Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports).
 old-location: winsock\wsaconnectbylist.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,13 @@ A descriptor that identifies an unbound and unconnected socket. Note that unlike
       unbound socket.
 
 
-### -param SocketAddress
+### -param SocketAddress [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570826">SOCKET_ADDRESS_LIST</a> 
+      structure that represents the possible destination address and port pairs to connect to a peer. It is the 
+      application's responsibility to fill in the port number in the each 
+      <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structure in the 
+      <b>SOCKET_ADDRESS_LIST</b>.
 
 
 ### -param LocalAddressLength [in, out]
@@ -125,15 +129,6 @@ The time, in milliseconds, to wait for a response from the remote application be
 ### -param Reserved [in]
 
 Reserved for future implementation. This parameter must be set to <b>NULL</b>.
-
-
-#### - SocketAddressList [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570826">SOCKET_ADDRESS_LIST</a> 
-      structure that represents the possible destination address and port pairs to connect to a peer. It is the 
-      application's responsibility to fill in the port number in the each 
-      <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structure in the 
-      <b>SOCKET_ADDRESS_LIST</b>.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: GetCommProperties function
 author: windows-sdk-content
 description: Retrieves information about the communications properties for a specified communications device.
 old-location: base\getcommproperties.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: dbbf55d6-d369-4b28-bdc7-1fd9a736e658
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetCommProperties, GetCommProperties function, _win32_getcommproperties, base.getcommproperties, winbase/GetCommProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Retrieves information about the communications properties for a specified commun
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpCommProp [out]
@@ -117,7 +117,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

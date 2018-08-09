@@ -7,7 +7,7 @@ old-location: ics\inetfwproducts_item.htm
 old-project: ics
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ Reference to the returned <a href="https://msdn.microsoft.com/e4cadbfd-d48d-4b38
 
 
 
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

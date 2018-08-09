@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_putcontext.htm
 old-project: termserv
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
 ms.prod: windows
 ms.technology: windows-sdk

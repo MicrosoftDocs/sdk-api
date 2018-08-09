@@ -7,7 +7,7 @@ old-location: adsi\iadsclass_qualifiers.htm
 old-project: ADSI
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
 ms.prod: windows
 ms.technology: windows-sdk

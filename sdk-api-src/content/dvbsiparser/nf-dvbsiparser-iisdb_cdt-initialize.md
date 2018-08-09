@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_initialize.htm
 old-project: mstv
 ms.assetid: 0430d839-4b7f-4d1c-9e5b-bd794d67f065
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_CDT interface [Microsoft TV Technologies],Initialize method, IISDB_CDT.Initialize, IISDB_CDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_CDT interface, dvbsiparser/IISDB_CDT::Initialize, mstv.iisdb_cdt_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Initializes the object by using captured table section data
+Initializes the object by using captured table section data
   from an Integrated Services Digital Broadcasting System
   (ISDB) common data table (CDT). 
 
@@ -64,8 +63,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pSectionList [in]
 
-
-  Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface
+Pointer to the <a href="https://msdn.microsoft.com/eb6d31b4-ee4a-468f-9e58-115159095858">ISectionList</a> interface
   of the object that contains the section data.
 
 

@@ -7,7 +7,7 @@ old-location: setup\setupopenfilequeue.htm
 old-project: SetupApi
 ms.assetid: 36950f18-80ae-46b7-9f9f-bd5307d72a3b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupOpenFileQueue, SetupOpenFileQueue function [Setup API], _setupapi_setupopenfilequeue, setup.setupopenfilequeue, setupapi/SetupOpenFileQueue
 ms.prod: windows
 ms.technology: windows-sdk

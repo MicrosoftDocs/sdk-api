@@ -7,7 +7,7 @@ old-location: mf\mfcreateaggregatesource.htm
 old-project: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pSourceCollection</i> collection does not contain any elements.
+The <i>pSourceCollection</i> collection does not contain any elements.
 
 </td>
 </tr>

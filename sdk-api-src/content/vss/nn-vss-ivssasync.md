@@ -4,10 +4,10 @@ title: IVssAsync
 author: windows-sdk-content
 description: The IVssAsync interface is returned to calling applications by methods that initiate asynchronous operations, which run in the background and typically require a long time to complete.
 old-location: base\ivssasync.htm
-old-project: VSS
+old-project: vss
 ms.assetid: d2cff547-b4ff-454d-8e0e-cd29b91cbb07
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssAsync, IVssAsync interface [VSS], IVssAsync interface [VSS],described, _win32_ivssasync, base.ivssasync, vss/IVssAsync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IVssAsync</b> interface is returned to calling applications
 The <b>IVssAsync</b> interface permits an application to monitor and 
     control an asynchronous operation by waiting on its completion, querying its status, or canceling it.
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the 
     resources held by the returned <b>IVssAsync</b> interface when it is 
     no longer needed.
 

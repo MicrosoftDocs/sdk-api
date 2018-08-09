@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_error.htm
 old-project: WMP
 ms.assetid: db00797b-989f-4f92-8fac-aaa147e37383
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_error method, IWMPCore.get_error, IWMPCore::get_error, IWMPCoreget_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_error, wmp/IWMPCore::get_error
 ms.prod: windows
 ms.technology: windows-sdk

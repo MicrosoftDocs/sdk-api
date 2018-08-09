@@ -7,7 +7,7 @@ old-location: display\getdisplayconfigbuffersizes.htm
 old-project: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,24 +62,7 @@ The <b>GetDisplayConfigBufferSizes</b> function retrieves the size of the buffer
 
 
 
-### -param flags
-
-TBD
-
-
-### -param numPathArrayElements
-
-TBD
-
-
-### -param numModeInfoArrayElements
-
-TBD
-
-
-
-
-#### - Flags [in]
+### -param flags [in]
 
 The type of information to retrieve. The value for the <i>Flags</i> parameter must be one of the following values.
 
@@ -104,14 +87,14 @@ The caller requests the table sizes to hold only active paths.
 The caller requests the table sizes to hold the active paths as defined in the persistence database for the currently connected monitors.
 
 
-#### - pNumModeInfoArrayElements [out]
-
-Pointer to a variable that receives the number of elements in the mode information table. The <i>pNumModeInfoArrayElements</i> parameter value is then used by a subsequent call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a> function. This parameter cannot be <b>NULL</b>.
-
-
-#### - pNumPathArrayElements [out]
+### -param numPathArrayElements [out]
 
 Pointer to a variable that receives the number of elements in the path information table. The <i>pNumPathArrayElements</i> parameter value is then used by a subsequent call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a> function. This parameter cannot be <b>NULL</b>.
+
+
+### -param numModeInfoArrayElements [out]
+
+Pointer to a variable that receives the number of elements in the mode information table. The <i>pNumModeInfoArrayElements</i> parameter value is then used by a subsequent call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a> function. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

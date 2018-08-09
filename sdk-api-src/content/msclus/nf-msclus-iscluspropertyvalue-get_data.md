@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalue_data.htm
 old-project: mscs
 ms.assetid: 5305541c-ad28-4bdc-92e6-519ba5ab21d5
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusPropertyValue object [Failover Cluster],Data property, ClusPropertyValue.Data, Data property [Failover Cluster], Data property [Failover Cluster],ClusPropertyValue object, ISClusPropertyValue.get_Data, ISClusPropertyValue::get_Data, _wolf_cluspropertyvalue.data, get_Data, mscs.cluspropertyvalue_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,8 +58,8 @@ req.product: GDI+ 1.1
 
 Retrieves a 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
-    collection containing all of the <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">data values</a> associated 
-    with a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a>.
+    collection containing all of the <a href="d_gly.htm">data values</a> associated 
+    with a <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

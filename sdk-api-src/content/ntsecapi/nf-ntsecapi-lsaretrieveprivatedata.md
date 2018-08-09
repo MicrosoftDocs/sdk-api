@@ -7,7 +7,7 @@ old-location: security\lsaretrieveprivatedata.htm
 old-project: secmgmt
 ms.assetid: 005460db-0919-46eb-b057-37c5b6042243
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: G$, L$, LsaRetrievePrivateData, LsaRetrievePrivateData function [Security], M$, _lsa_lsaretrieveprivatedata, ntsecapi/LsaRetrievePrivateData, security.lsaretrieveprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,7 +135,7 @@ When you no longer need the information, pass the returned pointer to
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> value, which can be the following value or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

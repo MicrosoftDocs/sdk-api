@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_enable.htm
 old-project: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
 ms.prod: windows
 ms.technology: windows-sdk

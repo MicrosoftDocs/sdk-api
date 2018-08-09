@@ -7,7 +7,7 @@ old-location: devinst\cm_get_sibling_ex.htm
 old-project: devinst
 ms.assetid: 6be82983-7ac7-4956-a409-77a371e4d6b4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: CM_Get_Sibling_Ex, CM_Get_Sibling_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling_Ex, cfgmgrfn_f3586db6-4f64-4552-bf60-6e3d440b9138.xml, devinst.cm_get_sibling_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ The <b>CM_Get_Sibling_Ex</b> function obtains a device instance handle to the ne
 Caller-supplied pointer to the device instance handle to the sibling node that this function retrieves. The retrieved handle is bound to the machine handle specified by <i>hMachine</i>.
 
 
-### -param dnDevInst
+### -param dnDevInst [in]
 
-TBD
+Caller-supplied device instance handle that is bound to the machine handle specified by <i>hMachine</i>.
 
 
 ### -param ulFlags [in]
@@ -81,11 +81,6 @@ Caller-supplied machine handle to which the caller-supplied device instance hand
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
-
-#### - DevInst [in]
-
-Caller-supplied device instance handle that is bound to the machine handle specified by <i>hMachine</i>.
-
 
 ## -returns
 

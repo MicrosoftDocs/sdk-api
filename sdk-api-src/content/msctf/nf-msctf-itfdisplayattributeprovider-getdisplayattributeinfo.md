@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeprovider_getdisplayattributeinfo.htm
 old-project: TSF
 ms.assetid: 2081f1b4-45b4-43bd-ba20-392a5ad0a30e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetDisplayAttributeInfo, GetDisplayAttributeInfo method [Text Services Framework], GetDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeProvider interface, ITfDisplayAttributeProvider interface [Text Services Framework],GetDisplayAttributeInfo method, ITfDisplayAttributeProvider.GetDisplayAttributeInfo, ITfDisplayAttributeProvider::GetDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_getdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::GetDisplayAttributeInfo, tsf.itfdisplayattributeprovider_getdisplayattributeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,8 +134,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">
-        ITfCategoryMgr::RegisterCategory
+<a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory
       </a>
 
 

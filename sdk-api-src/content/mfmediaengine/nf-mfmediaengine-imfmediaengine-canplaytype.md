@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_canplaytype.htm
 old-project: medfound
 ms.assetid: 313F631F-7584-4F95-9208-B087CC12010E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],CanPlayType method, IMFMediaEngine.CanPlayType, IMFMediaEngine::CanPlayType, mf.imfmediaengine_canplaytype, mfmediaengine/IMFMediaEngine::CanPlayType
 ms.prod: windows
 ms.technology: windows-sdk

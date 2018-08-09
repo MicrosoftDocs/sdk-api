@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainer_getprice.htm
 old-project: WMP
 ms.assetid: 2ed27b14-9567-4943-81c3-282316ce1605
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/30/2018
 ms.keywords: GetPrice, GetPrice method [Windows Media Player], GetPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetPrice method, IWMPContentContainer.GetPrice, IWMPContentContainer::GetPrice, IWMPContentContainerGetPrice, contentpartner/IWMPContentContainer::GetPrice, wmp.iwmpcontentcontainer_getprice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Pointer to a <b>BSTR</b> that receives the price or one of the following constan
 
 <table>
 <tr>
-<th>
-                  String
+<th>String
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

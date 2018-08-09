@@ -7,7 +7,7 @@ old-location: wsw\wsremoveheader.htm
 old-project: wsw
 ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsRemoveHeader, WsRemoveHeader function [Web Services for Windows], webservices/WsRemoveHeader, wsw.wsremoveheader
 ms.prod: windows
 ms.technology: windows-sdk

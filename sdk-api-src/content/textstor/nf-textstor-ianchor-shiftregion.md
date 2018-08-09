@@ -7,7 +7,7 @@ old-location: tsf\ianchor_shiftregion.htm
 old-project: TSF
 ms.assetid: f24f0155-fab6-46fb-9bff-598cd25e17ea
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: FALSE, IAnchor interface [Text Services Framework],ShiftRegion method, IAnchor.ShiftRegion, IAnchor::ShiftRegion, ShiftRegion, ShiftRegion method [Text Services Framework], ShiftRegion method [Text Services Framework],IAnchor interface, TRUE, TS_SD_BACKWARD, TS_SD_FORWARD, TS_SHIFT_COUNT_HIDDEN, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::ShiftRegion, tsf.ianchor_shiftregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -216,14 +216,12 @@ An input parameter value is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">
-        IAnchor::Shift
+<a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">IAnchor::Shift
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/93329238-f6e8-432e-9167-550a02b33b46">
-        TS_SHIFT_* Constants
+<a href="https://msdn.microsoft.com/93329238-f6e8-432e-9167-550a02b33b46">TS_SHIFT_* Constants
       </a>
 
 

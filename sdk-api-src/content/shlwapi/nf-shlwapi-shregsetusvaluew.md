@@ -7,7 +7,7 @@ old-location: shell\SHRegSetUSValue.htm
 old-project: shell
 ms.assetid: 96559f8c-8527-4924-928e-f27049069407
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegSetUSValue, SHRegSetUSValue function [Windows Shell], SHRegSetUSValueA, SHRegSetUSValueW, _win32_SHRegSetUSValue, shell.SHRegSetUSValue, shlwapi/SHRegSetUSValue, shlwapi/SHRegSetUSValueA, shlwapi/SHRegSetUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,18 @@ Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HK
 
 
 
-### -param pwzSubKey
+#### - pwzSubKey [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string with the name of the subkey.
 
 
-### -param pwzValue
+#### - pwzValue [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that specifies the name of the value.
 
 
 ### -param dwType [in]
@@ -133,9 +137,9 @@ Write to <b>HKEY_LOCAL_MACHINE</b>.
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_DEFAULT
+##### - dwFlags.SHREGSET_HKCU
 
-Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
+Write to <b>HKEY_CURRENT_USER</b> if empty.
 
 
 ##### - dwFlags.SHREGSET_FORCE_HKCU
@@ -143,33 +147,19 @@ Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 Write to <b>HKEY_CURRENT_USER</b>.
 
 
-##### - dwFlags.SHREGSET_FORCE_HKLM
-
-Write to <b>HKEY_LOCAL_MACHINE</b>.
-
-
-##### - dwFlags.SHREGSET_HKCU
-
-Write to <b>HKEY_CURRENT_USER</b> if empty.
-
-
 ##### - dwFlags.SHREGSET_HKLM
 
 Write to <b>HKEY_LOCAL_MACHINE</b> if empty.
 
 
-#### - pszSubKey [in]
+##### - dwFlags.SHREGSET_FORCE_HKLM
 
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string with the name of the subkey.
+Write to <b>HKEY_LOCAL_MACHINE</b>.
 
 
-#### - pszValue [in]
+##### - dwFlags.SHREGSET_DEFAULT
 
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string that specifies the name of the value.
+Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
 ## -returns

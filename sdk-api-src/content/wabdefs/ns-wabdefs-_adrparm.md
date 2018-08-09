@@ -71,7 +71,7 @@ Variable of type <b>ULONG</b> that specifies the list of entries that can be add
 
 Type: <b>LPENTRYID</b>
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms629445(v=VS.85).aspx">ENTRYID</a> that specifies the container that will supply the list of <a href="https://docs.microsoft.com/">one-off</a> entries that can be added to the recipient wells of the address book's common dialog box. The address book container that <b>lpABContEntryID</b> points to determines what is listed in the edit box within the dialog box that holds possible recipient names. Usually, <b>lpABContEntryID</b> is <b>NULL</b>, indicating the use of a custom recipient provider.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/5d00a02c-c6d1-4ee7-80ce-bfedbaa0cf84">ENTRYID</a> that specifies the container that will supply the list of <a href="https://docs.microsoft.com/">one-off</a> entries that can be added to the recipient wells of the address book's common dialog box. The address book container that <b>lpABContEntryID</b> points to determines what is listed in the edit box within the dialog box that holds possible recipient names. Usually, <b>lpABContEntryID</b> is <b>NULL</b>, indicating the use of a custom recipient provider.
 
 
 ### -field ulFlags
@@ -108,7 +108,7 @@ Causes a modal dialog box to be displayed. The client must set either this flag 
 
 #### DIALOG_SDI
 
-Causes a modeless dialog box to be displayed. This call returns immediately and thus does not modify the <a href="https://msdn.microsoft.com/en-us/library/ms629442(v=VS.85).aspx">ADRLIST</a> structure passed in. The caller must set either this flag or <b>DIALOG_MODAL</b>, but not both.
+Causes a modeless dialog box to be displayed. This call returns immediately and thus does not modify the <a href="https://msdn.microsoft.com/4c9cc1a8-3379-4f01-9125-16ac6bbdd54b">ADRLIST</a> structure passed in. The caller must set either this flag or <b>DIALOG_MODAL</b>, but not both.
 
 
 ### -field lpReserved

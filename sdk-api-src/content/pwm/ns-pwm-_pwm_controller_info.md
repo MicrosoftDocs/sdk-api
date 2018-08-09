@@ -7,7 +7,7 @@ old-location: base\pwm_controller_info.htm
 old-project: devio
 ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/07/2018
 ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER_INFO structure, _PWM_CONTROLLER_INFO, base.pwm_controller_info, pwm/PWM_CONTROLLER_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ The maximum supported output signal period, in picoseconds, for the controller. 
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
 old-project: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ The attribute to query.
 
 ### -param pAttributeValue [out]
 
-
-            The value of <i>attribute</i>.
+The value of <i>attribute</i>.
           
 
 
@@ -99,8 +98,7 @@ CO_MARSHALING_SOURCE_IS_APP_CONTAINER
 
 </td>
 <td>
-
-                This attribute is a boolean value, with 0 representing <b>TRUE</b> and nonzero representing <b>FALSE</b>. You can safely cast the value of the result to <b>BOOL</b>, but it isn't safe for the caller to cast a <b>BOOL*</b> to <b>ULONG_PTR*</b> for the <i>pAttributeValue</i> parameter, or for the implementation to cast <i>pAttributeValue</i> to <b>BOOL*</b> when setting it.
+This attribute is a boolean value, with 0 representing <b>TRUE</b> and nonzero representing <b>FALSE</b>. You can safely cast the value of the result to <b>BOOL</b>, but it isn't safe for the caller to cast a <b>BOOL*</b> to <b>ULONG_PTR*</b> for the <i>pAttributeValue</i> parameter, or for the implementation to cast <i>pAttributeValue</i> to <b>BOOL*</b> when setting it.
               
 
 </td>

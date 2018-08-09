@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_put_QuerySelectColumns.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_queryselectcolumns.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySelectColumns method, ISearchQueryHelper.put_QuerySelectColumns, ISearchQueryHelper::put_QuerySelectColumns, _search_ISearchQueryHelper_put_QuerySelectColumns, put_QuerySelectColumns, put_QuerySelectColumns method [search], put_QuerySelectColumns method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySelectColumns, searchapi/ISearchQueryHelper::put_QuerySelectColumns
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 No defined and fixed set of properties applies to all documents. For this reason, the SQL asterisk is not permitted in the &lt;columns&gt; setting. For a list of valis Shell system properties, refer to <a href="http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx">System Properties</a>.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
 
 
 
@@ -93,19 +93,19 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231308(v=VS.85).aspx">ISearchQueryHelper::get_QuerySelectColumns</a>
+<a href="https://msdn.microsoft.com/1496e880-9dd0-40a5-97e7-2a9367bf9127">ISearchQueryHelper::get_QuerySelectColumns</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
 
 
 

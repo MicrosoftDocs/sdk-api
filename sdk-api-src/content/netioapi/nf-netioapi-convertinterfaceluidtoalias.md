@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtoalias.htm
 old-project: iphlp
 ms.assetid: 86a821c1-e04b-4bc3-846d-767c55008aed
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceLuidToAlias, ConvertInterfaceLuidToAlias function [IP Helper], iphlp.convertinterfaceluidtoalias, netioapi/ConvertInterfaceLuidToAlias
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,9 +120,7 @@ Not enough storage is available to process this command. This error is returned 
 
 
 
-The <b>ConvertInterfaceLuidToAlias</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceLuidToAlias</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceLuidToAlias</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

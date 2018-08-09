@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_defaultdrawingattributes.htm
 old-project: tablet
 ms.assetid: 8fdcb920-ed52-4a1b-be47-bfe9e57d93f4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],DefaultDrawingAttributes property, IInkOverlay.DefaultDrawingAttributes, IInkOverlay.get_DefaultDrawingAttributes, IInkOverlay::DefaultDrawingAttributes, IInkOverlay::get_DefaultDrawingAttributes, IInkOverlay::put_DefaultDrawingAttributes, InkOverlay.get_DefaultDrawingAttributes, InkOverlay.put_DefaultDrawingAttributes, get_DefaultDrawingAttributes, msinkaut/IInkOverlay::DefaultDrawingAttributes, msinkaut/IInkOverlay::get_DefaultDrawingAttributes, msinkaut/IInkOverlay::put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkoverlay_defaultdrawingattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ To change the drawing attributes of a single stroke, use the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

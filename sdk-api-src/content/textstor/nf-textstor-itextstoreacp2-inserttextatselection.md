@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_inserttextatselection.htm
 old-project: TSF
 ms.assetid: 5e1e0893-53be-4753-ba49-32e69597a130
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP2.InsertTextAtSelection, ITextStoreACP2::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertTextAtSelection, tsf.itextstoreacp2_inserttextatselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,8 +114,7 @@ Applications should not call the <a href="https://msdn.microsoft.com/ed11ebb8-31
 
 
 
-<a href="https://msdn.microsoft.com/adc5c539-fdb1-4829-ad17-2f54ec179c47">
-        TF_IAS_* Constants
+<a href="https://msdn.microsoft.com/adc5c539-fdb1-4829-ad17-2f54ec179c47">TF_IAS_* Constants
       </a>
 
 

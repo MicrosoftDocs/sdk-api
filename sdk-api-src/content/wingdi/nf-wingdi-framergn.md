@@ -7,7 +7,7 @@ old-location: gdi\framergn.htm
 old-project: gdi
 ms.assetid: d2c95392-7950-4963-8f10-2387daf23e93
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FrameRgn, FrameRgn function [Windows GDI], _win32_FrameRgn, gdi.framergn, wingdi/FrameRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,26 +76,14 @@ Handle to the region to be enclosed in a border. The region's coordinates are pr
 Handle to the brush to be used to draw the border.
 
 
-### -param w
-
-TBD
-
-
-### -param h
-
-TBD
-
-
-
-
-#### - nHeight [in]
-
-Specifies the height, in logical units, of horizontal brush strokes.
-
-
-#### - nWidth [in]
+### -param w [in]
 
 Specifies the width, in logical units, of vertical brush strokes.
+
+
+### -param h [in]
+
+Specifies the height, in logical units, of horizontal brush strokes.
 
 
 ## -returns

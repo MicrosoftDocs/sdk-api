@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_get_BypassList.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_bypasslist.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager interface [search],get_BypassList method, ISearchManager.get_BypassList, ISearchManager::get_BypassList, _search_ISearchManager_get_BypassList, get_BypassList, get_BypassList method [search], get_BypassList method [search],ISearchManager interface, search._search_ISearchManager_get_BypassList, searchapi/ISearchManager::get_BypassList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a>.
+Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/93fc8bb8-9cec-4c3a-8a7f-a988e931f803">ISearchManager::SetProxy</a>.
         
 
 
@@ -64,8 +64,7 @@ Gets a proxy bypass list from the indexer. This list is used to determine which 
 
 Type: <b>LPWSTR*</b>
 
-
-                    Receives a pointer to the proxy bypass list that is stored in the indexer.
+Receives a pointer to the proxy bypass list that is stored in the indexer.
                 
 
 

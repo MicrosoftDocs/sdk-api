@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getstreamcount.htm
 old-project: medfound
 ms.assetid: EEEF5D71-22C4-4050-9088-8BAC554EB66E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamMediaTypeManager.GetStreamCount, IMFMuxStreamMediaTypeManager::GetStreamCount, mf.imfmuxstreammediatypemanager_getstreamcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The count of substreams managed by the multiplexed media source.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ The count of substreams managed by the multiplexed media source.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ The count of substreams managed by the multiplexed media source.
 </dl>
 </td>
 <td width="60%">
-
-                Invalid argument.
+Invalid argument.
               
 
 </td>

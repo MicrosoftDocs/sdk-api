@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_authentication_requirements.htm
 old-project: bluetooth
 ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: AUTHENTICATION_REQUIREMENTS, AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], BLUETOOTH_AUTHENTICATION_REQUIREMENTS, BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], MITMProtectionNotDefined, MITMProtectionNotRequired, MITMProtectionNotRequiredBonding, MITMProtectionNotRequiredGeneralBonding, MITMProtectionRequired, MITMProtectionRequiredBonding, MITMProtectionRequiredGeneralBonding, _AUTHENTICATION_REQUIREMENTS, _BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetooth.bluetooth_authentication_requirements, bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetoothapis/MITMProtectionNotDefined, bluetoothapis/MITMProtectionNotRequired, bluetoothapis/MITMProtectionNotRequiredBonding, bluetoothapis/MITMProtectionNotRequiredGeneralBonding, bluetoothapis/MITMProtectionRequired, bluetoothapis/MITMProtectionRequiredBonding, bluetoothapis/MITMProtectionRequiredGeneralBonding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,24 +81,9 @@ The <b>BLUETOOTH_AUTHENTICATION_REQUIREMENTS</b> enumeration specifies the 'Man 
 
 
 
-#### - MITMProtectionNotDefined
-
-Protection against "Man in the Middle" attack is not defined.
-
-
 #### - MITMProtectionNotRequired
 
 Protection against a "Man in the Middle" attack is not required for authentication.
-
-
-#### - MITMProtectionNotRequiredBonding
-
-Protection against a "Man in the Middle" attack is not required for bonding.
-
-
-#### - MITMProtectionNotRequiredGeneralBonding
-
-Protection against a "Man in the Middle" attack is not required for General Bonding.
 
 
 #### - MITMProtectionRequired
@@ -106,14 +91,29 @@ Protection against a "Man in the Middle" attack is not required for General Bond
 Protection against a "Man in the Middle" attack is required for authentication.
 
 
+#### - MITMProtectionNotRequiredBonding
+
+Protection against a "Man in the Middle" attack is not required for bonding.
+
+
 #### - MITMProtectionRequiredBonding
 
 Protection against a "Man in the Middle" attack is required for bonding.
 
 
+#### - MITMProtectionNotRequiredGeneralBonding
+
+Protection against a "Man in the Middle" attack is not required for General Bonding.
+
+
 #### - MITMProtectionRequiredGeneralBonding
 
 Protection against a "Man in the Middle" attack is required for General Bonding.
+
+
+#### - MITMProtectionNotDefined
+
+Protection against "Man in the Middle" attack is not defined.
 
 
 ## -remarks

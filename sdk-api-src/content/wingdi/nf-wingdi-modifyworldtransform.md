@@ -7,7 +7,7 @@ old-location: gdi\modifyworldtransform.htm
 old-project: gdi
 ms.assetid: 2ce070e8-dd6d-4f28-8214-37e825b44273
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MWT_IDENTITY, MWT_LEFTMULTIPLY, MWT_RIGHTMULTIPLY, ModifyWorldTransform, ModifyWorldTransform function [Windows GDI], _win32_ModifyWorldTransform, gdi.modifyworldtransform, wingdi/ModifyWorldTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,19 +66,12 @@ The <b>ModifyWorldTransform</b> function changes the world transformation for a 
 A handle to the device context.
 
 
-### -param lpxf
+### -param lpxf [in]
 
-TBD
-
-
-### -param mode
-
-TBD
+A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure used to modify the world transformation for the given device context.
 
 
-
-
-#### - iMode [in]
+### -param mode [in]
 
 Specifies how the transformation data modifies the current world transformation. This parameter must be one of the following values.
 
@@ -119,11 +112,6 @@ Multiplies the current transformation by the data in the <a href="https://msdn.m
 </tr>
 </table>
  
-
-
-#### - lpXform [in]
-
-A pointer to an <a href="https://msdn.microsoft.com/49f0d7ee-77fa-415e-af00-b8930253a3a9">XFORM</a> structure used to modify the world transformation for the given device context.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediabufferfrommediatype.htm
 old-project: medfound
 ms.assetid: 1EBDB616-6FA9-4E4E-9BC6-CA1E382A08D9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType function [Media Foundation], mf.mfcreatemediabufferfrommediatype, mfapi/MFCreateMediaBufferFromMediaType
 ms.prod: windows
 ms.technology: windows-sdk

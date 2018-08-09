@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_releaseaddress.htm
 old-project: tapi
 ms.assetid: 6b5fd18b-1b13-4e2a-9ff9-4a66212213a7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],ReleaseAddress method, IMcastAddressAllocation.ReleaseAddress, IMcastAddressAllocation::ReleaseAddress, ReleaseAddress, ReleaseAddress method [TAPI 2.2], ReleaseAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_releaseaddress, mdhcp/IMcastAddressAllocation::ReleaseAddress, tapi3.imcastaddressallocation_releaseaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

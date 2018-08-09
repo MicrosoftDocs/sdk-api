@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_SetPixel_x_y_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\setpixel.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],SetPixel method, Bitmap.SetPixel, Bitmap::SetPixel, SetPixel, SetPixel method [GDI+], SetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_SetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_SetPixel_x_y_color_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-Depending on the format of the bitmap, <a href="https://msdn.microsoft.com/library/ms536297(v=VS.85).aspx">Bitmap::GetPixel</a> might not return the same value as was set by <b>Bitmap::SetPixel</b>. For example, if you call <b>Bitmap::SetPixel</b> on a 
+Depending on the format of the bitmap, <a href="https://msdn.microsoft.com/5c680bec-389d-435f-b281-844ffd9ca076">Bitmap::GetPixel</a> might not return the same value as was set by <b>Bitmap::SetPixel</b>. For example, if you call <b>Bitmap::SetPixel</b> on a 
 				<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object whose pixel format is 32bppPARGB, the RGB components are premultiplied. A subsequent call to <b>Bitmap::GetPixel</b> might return a different value because of rounding. Also, if you call <b>Bitmap::SetPixel</b> on a 
 				<b>Bitmap</b> whose color depth is 16 bits per pixel, information could be lost in the conversion from 32 to 16 bits, and a subsequent call to <b>Bitmap::GetPixel</b> might return a different value.
 
@@ -156,7 +156,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536297(v=VS.85).aspx">Bitmap::GetPixel</a>
+<a href="https://msdn.microsoft.com/5c680bec-389d-435f-b281-844ffd9ca076">Bitmap::GetPixel</a>
 
 
 
@@ -164,15 +164,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/ddde257c-41a6-4f6e-8d81-10d66c60085c">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/57e3bf33-5490-4f4a-addf-356ef8f1aeed">Using Images, Bitmaps, and Metafiles</a>
  
 
  

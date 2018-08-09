@@ -4,10 +4,10 @@ title: WinHttpWriteData function
 author: windows-sdk-content
 description: The WinHttpWriteData function writes request data to an HTTP server.
 old-location: http\winhttpwritedata.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
 ms.prod: windows
 ms.technology: windows-sdk

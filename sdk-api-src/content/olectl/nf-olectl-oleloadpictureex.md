@@ -7,7 +7,7 @@ old-location: com\oleloadpictureex.htm
 old-project: com
 ms.assetid: c903096f-f15f-4a36-8efc-20cf7102e77d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleLoadPictureEx, OleLoadPictureEx function [COM], _ole_OleLoadPictureEx, com.oleloadpictureex, olectl/OleLoadPictureEx
 ms.prod: windows
 ms.technology: windows-sdk

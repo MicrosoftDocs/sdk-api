@@ -7,7 +7,7 @@ old-location: http\httpremoveurlfromurlgroup.htm
 old-project: http
 ms.assetid: 9c5c1fec-f3b4-414f-a841-e360f5f4e4db
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlFromUrlGroup function [HTTP], http.httpremoveurlfromurlgroup, http/HttpRemoveUrlFromUrlGroup
 ms.prod: windows
 ms.technology: windows-sdk

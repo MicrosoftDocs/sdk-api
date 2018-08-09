@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_Condition.htm
 old-project: WinAuto
 ms.assetid: e62989ac-6fcf-4648-9b81-40b508ceae71
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Condition property [Windows Accessibility], Condition property [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],Condition property, IUIAutomationTreeWalker.Condition, IUIAutomationTreeWalker.get_Condition, IUIAutomationTreeWalker::Condition, IUIAutomationTreeWalker::get_Condition, get_Condition, uiauto.uiauto_IUIAutomationTreeWalker_Condition, uiauto_IUIAutomationTreeWalker_Condition, uiautomationclient/IUIAutomationTreeWalker::Condition, uiautomationclient/IUIAutomationTreeWalker::get_Condition, winauto.uiauto_IUIAutomationTreeWalker_Condition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

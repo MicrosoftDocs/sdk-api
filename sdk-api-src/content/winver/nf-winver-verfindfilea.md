@@ -7,7 +7,7 @@ old-location: menurc\verfindfile.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Other Resources], VerFindFileA, VerFindFileW, _win32_VerFindFile, _win32_verfindfile_cpp, menurc.verfindfile, winui._win32_verfindfile, winver/VerFindFile, winver/VerFindFileA, winver/VerFindFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a> function. 
+Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> function. 
 
 
 ## -parameters
@@ -67,9 +67,30 @@ Determines where to install a file based on whether it locates another version o
 
 
 
-### -param uFlags
+### -param uFlags [in]
 
-TBD
+Type: <b>DWORD</b>
+
+This parameter can be the following value. All other bits are reserved. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="VFFF_ISSHAREDFILE"></a><a id="vfff_issharedfile"></a><dl>
+<dt><b>VFFF_ISSHAREDFILE</b></dt>
+<dt>0x0001</dt>
+</dl>
+</td>
+<td width="60%">
+The source file can be shared by multiple applications. An application can use this information to determine where the file should be copied.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param szFileName [in]
@@ -100,52 +121,7 @@ Type: <b>LPWSTR</b>
 A buffer that receives the path to a current version of the file being installed. The path is a zero-terminated string. If a current version is not installed, the buffer will contain a zero-length string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required. 
 
 
-### -param puCurDirLen
-
-TBD
-
-
-### -param szDestDir [out]
-
-Type: <b>LPTSTR</b>
-
-A buffer that receives the path to the installation location recommended by <b>VerFindFile</b>. The path is a zero-terminated string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required. 
-
-
-### -param puDestDirLen
-
-TBD
-
-
-
-
-#### - dwFlags [in]
-
-Type: <b>DWORD</b>
-
-This parameter can be the following value. All other bits are reserved. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VFFF_ISSHAREDFILE"></a><a id="vfff_issharedfile"></a><dl>
-<dt><b>VFFF_ISSHAREDFILE</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-The source file can be shared by multiple applications. An application can use this information to determine where the file should be copied.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - lpuCurDirLen [in, out]
+### -param puCurDirLen [in, out]
 
 Type: <b>PUINT</b>
 
@@ -158,7 +134,14 @@ When the function returns,
 					<i>lpuCurDirLen</i> will be the size of the buffer required to hold the path.
 
 
-#### - lpuDestDirLen [in, out]
+### -param szDestDir [out]
+
+Type: <b>LPTSTR</b>
+
+A buffer that receives the path to the installation location recommended by <b>VerFindFile</b>. The path is a zero-terminated string. The buffer should be at least <b>_MAX_PATH</b> characters long, although this is not required. 
+
+
+### -param puDestDirLen [in, out]
 
 Type: <b>PUINT</b>
 
@@ -265,11 +248,11 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647462(v=VS.85).aspx">VerInstallFile</a>
+<a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
  
 
  

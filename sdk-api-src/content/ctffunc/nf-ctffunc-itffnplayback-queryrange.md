@@ -7,7 +7,7 @@ old-location: tsf\itffnplayback_queryrange.htm
 old-project: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method, ITfFnPlayBack.QueryRange, ITfFnPlayBack::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
 ms.prod: windows
 ms.technology: windows-sdk

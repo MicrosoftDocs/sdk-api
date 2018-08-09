@@ -7,7 +7,7 @@ old-location: base\ver_set_condition.htm
 old-project: SysInfo
 ms.assetid: c93be952-41a8-48c4-b24f-996bf9237727
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: VER_AND, VER_BUILDNUMBER, VER_EQUAL, VER_GREATER, VER_GREATER_EQUAL, VER_LESS, VER_LESS_EQUAL, VER_MAJORVERSION, VER_MINORVERSION, VER_OR, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SET_CONDITION, VER_SET_CONDITION macro, VER_SUITENAME, _win32_ver_set_condition, base.ver_set_condition, winnt/VER_SET_CONDITION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,24 +62,121 @@ Sets the bits of a 64-bit value to indicate the comparison operator to use for a
 
 ### -param _m_
 
-TBD
+A variable to be passed as the <i>dwlConditionMask</i> parameter of the 
+<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function. The macro stores the comparison information in the bits of this variable. 
+
+
+
+
+Before the first call to 
+<b>VER_SET_CONDITION</b>, initialize this variable to zero. For subsequent calls to 
+<b>VER_SET_CONDITION</b>, pass in the variable used in the previous call.
 
 
 ### -param _t_
 
-TBD
+A mask that indicates the member of the 
+<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure whose comparison type is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
+<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="VER_BUILDNUMBER"></a><a id="ver_buildnumber"></a><dl>
+<dt><b>VER_BUILDNUMBER</b></dt>
+<dt>0x0000004</dt>
+</dl>
+</td>
+<td width="60%">
+dwBuildNumber
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_MAJORVERSION"></a><a id="ver_majorversion"></a><dl>
+<dt><b>VER_MAJORVERSION</b></dt>
+<dt>0x0000002</dt>
+</dl>
+</td>
+<td width="60%">
+dwMajorVersion
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_MINORVERSION"></a><a id="ver_minorversion"></a><dl>
+<dt><b>VER_MINORVERSION</b></dt>
+<dt>0x0000001</dt>
+</dl>
+</td>
+<td width="60%">
+dwMinorVersion
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_PLATFORMID"></a><a id="ver_platformid"></a><dl>
+<dt><b>VER_PLATFORMID</b></dt>
+<dt>0x0000008</dt>
+</dl>
+</td>
+<td width="60%">
+dwPlatformId
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_PRODUCT_TYPE"></a><a id="ver_product_type"></a><dl>
+<dt><b>VER_PRODUCT_TYPE</b></dt>
+<dt>0x0000080</dt>
+</dl>
+</td>
+<td width="60%">
+wProductType
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_SERVICEPACKMAJOR"></a><a id="ver_servicepackmajor"></a><dl>
+<dt><b>VER_SERVICEPACKMAJOR</b></dt>
+<dt>0x0000020</dt>
+</dl>
+</td>
+<td width="60%">
+wServicePackMajor
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_SERVICEPACKMINOR"></a><a id="ver_servicepackminor"></a><dl>
+<dt><b>VER_SERVICEPACKMINOR</b></dt>
+<dt>0x0000010</dt>
+</dl>
+</td>
+<td width="60%">
+wServicePackMinor
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="VER_SUITENAME"></a><a id="ver_suitename"></a><dl>
+<dt><b>VER_SUITENAME</b></dt>
+<dt>0x0000040</dt>
+</dl>
+</td>
+<td width="60%">
+wSuiteMask
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param _c_
-
-TBD
-
-
-
-
-
-
-#### - dwConditionMask
 
 The operator to use for the comparison. The 
 <a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
@@ -183,122 +280,6 @@ At least one of the specified product suites must be present in the current syst
 </tr>
 </table>
  
-
-
-#### - dwTypeBitMask
-
-A mask that indicates the member of the 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure whose comparison type is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function. This parameter can be one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VER_BUILDNUMBER"></a><a id="ver_buildnumber"></a><dl>
-<dt><b>VER_BUILDNUMBER</b></dt>
-<dt>0x0000004</dt>
-</dl>
-</td>
-<td width="60%">
-dwBuildNumber
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_MAJORVERSION"></a><a id="ver_majorversion"></a><dl>
-<dt><b>VER_MAJORVERSION</b></dt>
-<dt>0x0000002</dt>
-</dl>
-</td>
-<td width="60%">
-dwMajorVersion
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_MINORVERSION"></a><a id="ver_minorversion"></a><dl>
-<dt><b>VER_MINORVERSION</b></dt>
-<dt>0x0000001</dt>
-</dl>
-</td>
-<td width="60%">
-dwMinorVersion
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_PLATFORMID"></a><a id="ver_platformid"></a><dl>
-<dt><b>VER_PLATFORMID</b></dt>
-<dt>0x0000008</dt>
-</dl>
-</td>
-<td width="60%">
-dwPlatformId
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_PRODUCT_TYPE"></a><a id="ver_product_type"></a><dl>
-<dt><b>VER_PRODUCT_TYPE</b></dt>
-<dt>0x0000080</dt>
-</dl>
-</td>
-<td width="60%">
-wProductType
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_SERVICEPACKMAJOR"></a><a id="ver_servicepackmajor"></a><dl>
-<dt><b>VER_SERVICEPACKMAJOR</b></dt>
-<dt>0x0000020</dt>
-</dl>
-</td>
-<td width="60%">
-wServicePackMajor
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_SERVICEPACKMINOR"></a><a id="ver_servicepackminor"></a><dl>
-<dt><b>VER_SERVICEPACKMINOR</b></dt>
-<dt>0x0000010</dt>
-</dl>
-</td>
-<td width="60%">
-wServicePackMinor
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VER_SUITENAME"></a><a id="ver_suitename"></a><dl>
-<dt><b>VER_SUITENAME</b></dt>
-<dt>0x0000040</dt>
-</dl>
-</td>
-<td width="60%">
-wSuiteMask
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - dwlConditionMask
-
-A variable to be passed as the <i>dwlConditionMask</i> parameter of the 
-<a href="https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2">VerifyVersionInfo</a> function. The macro stores the comparison information in the bits of this variable. 
-
-
-
-
-Before the first call to 
-<b>VER_SET_CONDITION</b>, initialize this variable to zero. For subsequent calls to 
-<b>VER_SET_CONDITION</b>, pass in the variable used in the previous call.
 
 
 ## -remarks

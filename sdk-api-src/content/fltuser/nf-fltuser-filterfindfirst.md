@@ -7,7 +7,7 @@ old-location: ifsk\filterfindfirst.htm
 old-project: ifsk
 ms.assetid: e6a7c5a2-838d-47b1-ab16-aa1d27806f53
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterFindFirst, FilterFindFirst function [Installable File System Drivers], FltWin32ApiRef_1e28a34d-5d84-42cb-b530-24cac8c7b4dc.xml, fltuser/FilterFindFirst, ifsk.filterfindfirst
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,8 +151,7 @@ The buffer pointed to by <i>lpBuffer</i> is not large enough to contain the requ
 </dl>
 </td>
 <td width="60%">
-
-        An invalid value was specified for the <i>dwInformationClass</i> parameter.  For example, if <i>FilterAggregateStandardInformation</i> is specified for an operating system prior to Windows Vista, <b>FilterFindFirst</b> returns this HRESULT value.
+An invalid value was specified for the <i>dwInformationClass</i> parameter.  For example, if <i>FilterAggregateStandardInformation</i> is specified for an operating system prior to Windows Vista, <b>FilterFindFirst</b> returns this HRESULT value.
        
 
 </td>

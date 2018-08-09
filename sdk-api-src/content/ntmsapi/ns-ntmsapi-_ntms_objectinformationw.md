@@ -7,7 +7,7 @@ old-location: fs\ntms_objectinformation.htm
 old-project: Rsm
 ms.assetid: 56e3380b-47c7-4861-bb2b-31d67ac10fe1
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: "*LPNTMS_OBJECTINFORMATIONW, LPNTMS_OBJECTINFORMATION, LPNTMS_OBJECTINFORMATION structure pointer [Files], NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_NEEDS_SERVICE, NTMS_NOT_PRESENT, NTMS_OBJECTINFORMATION, NTMS_OBJECTINFORMATION structure [Files], NTMS_OBJECTINFORMATIONW, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_READY, NTMS_STORAGESLOT, _NTMS_OBJECTINFORMATIONA, _NTMS_OBJECTINFORMATIONW, _zaw_ntms_objectinformation, base.ntms_objectinformation, fs.ntms_objectinformation, ntmsapi/LPNTMS_OBJECTINFORMATION, ntmsapi/NTMS_OBJECTINFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ The
 Type: <b>DWORD</b>
 
 Size of the information structure, in bytes. This member must be set to the correct size of the structure prior to using either the 
-<a href="https://msdn.microsoft.com/e5c1b165-2c55-40c3-94d8-c996c5db4250">GetNtmsObjectInformation</a>
-			function or the 
+<a href="https://msdn.microsoft.com/e5c1b165-2c55-40c3-94d8-c996c5db4250">GetNtmsObjectInformation</a>function or the 
 <a href="https://msdn.microsoft.com/1cdb9c72-1b34-4800-a07d-b648baec8582">SetNtmsObjectInformation</a> function.
 
 

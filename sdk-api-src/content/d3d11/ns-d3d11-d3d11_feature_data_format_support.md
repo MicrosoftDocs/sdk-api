@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_format_support.htm
 old-project: direct3d11
 ms.assetid: 153e246e-9e2f-4557-94c4-a9f1a3b926bd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D11_FEATURE_DATA_FORMAT_SUPPORT, D3D11_FEATURE_DATA_FORMAT_SUPPORT structure [Direct3D 11], a30c19a0-2294-7e25-009e-e49d1560486d, d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT, direct3d11.d3d11_feature_data_format_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,10 +60,10 @@ Describes which resources are supported by the current graphics driver for a giv
 
 ### -field InFormat
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> to return information on.
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> to return information on.
 
 
 ### -field OutFormatSupport

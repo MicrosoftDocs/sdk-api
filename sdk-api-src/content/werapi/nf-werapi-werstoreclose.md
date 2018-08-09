@@ -7,7 +7,7 @@ old-location: wer\werstoreclose.htm
 old-project: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,13 +62,6 @@ Closes the collection of stored reports.
 
 
 ### -param hReportStore
-
-TBD
-
-
-
-
-#### - store
 
 The error report store to close (previously retrieved with <a href="https://msdn.microsoft.com/FA7E0EC6-00F1-45E2-BE34-D732965FBA15">WerStoreOpen</a>).
 

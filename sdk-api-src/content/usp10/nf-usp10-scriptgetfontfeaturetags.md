@@ -7,7 +7,7 @@ old-location: intl\scriptgetfontfeaturetags.htm
 old-project: Intl
 ms.assetid: af3eb1e6-f402-4b99-b749-3ce8cef865b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScriptGetFontFeatureTags, ScriptGetFontFeatureTags function [Internationalization for Windows Applications], _win32_ScriptGetFontFeatureTags, intl.scriptgetfontfeaturetags, usp10/ScriptGetFontFeatureTags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iqualprop_get_avgsyncoffset.htm
 old-project: DirectShow
 ms.assetid: 4bed68f0-d080-46d4-b582-e561ddca33f0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgSyncOffset method, IQualProp.get_AvgSyncOffset, IQualProp::get_AvgSyncOffset, IQualPropget_AvgSyncOffset, amvideo/IQualProp::get_AvgSyncOffset, dshow.iqualprop_get_avgsyncoffset, get_AvgSyncOffset, get_AvgSyncOffset method [DirectShow], get_AvgSyncOffset method [DirectShow],IQualProp interface
 ms.prod: windows
 ms.technology: windows-sdk

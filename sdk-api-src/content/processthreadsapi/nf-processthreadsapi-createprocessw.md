@@ -7,7 +7,7 @@ old-location: base\createprocess.htm
 old-project: procthread
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ If <i>lpApplicationName</i> is NULL, the first white space–delimited token of 
 <li> The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched. The name of this directory is System.</li>
 <li>The Windows directory. Use the 
 <a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://msdn.microsoft.com/library/Hh449546(v=VS.85).aspx">ShellExecute</a> function.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="_win32_ShellExecute_cpp">ShellExecute</a> function.</li>
 </ol>
 The system adds a terminating null character to the command-line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 

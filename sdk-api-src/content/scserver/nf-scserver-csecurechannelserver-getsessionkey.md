@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_getsessionkey.htm
 old-project: WMDM
 ms.assetid: 1be09669-434e-4774-92bf-4ea470d6c4b9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],GetSessionKey method, CSecureChannelServer.GetSessionKey, CSecureChannelServer::GetSessionKey, CSecureChannelServerGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::GetSessionKey, wmdm.csecurechannelserver_getsessionkey
 ms.prod: windows
 ms.technology: windows-sdk

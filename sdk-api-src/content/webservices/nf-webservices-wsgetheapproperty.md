@@ -7,7 +7,7 @@ old-location: wsw\wsgetheapproperty.htm
 old-project: wsw
 ms.assetid: c463924a-1491-4d65-86ed-827327e560b9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
 ms.prod: windows
 ms.technology: windows-sdk

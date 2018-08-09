@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorgetinfo.htm
 old-project: eaphost
 ms.assetid: 83a643bb-5d2e-4227-b82e-e63035860f46
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorGetInfo, EapMethodAuthenticatorGetInfo function [EAPHost], eaphost.eapmethodauthenticatorgetinfo, eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
 ms.prod: windows
 ms.technology: windows-sdk

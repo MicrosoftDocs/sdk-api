@@ -7,7 +7,7 @@ old-location: multimedia\acmformattagdetails.htm
 old-project: Multimedia
 ms.assetid: 294d9e8b-de47-4ebe-8989-558469ba1356
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetails function [Windows Multimedia], acmFormatTagDetailsA, acmFormatTagDetailsW, msacm/acmFormatTagDetails, msacm/acmFormatTagDetailsA, msacm/acmFormatTagDetailsW, multimedia.acmformattagdetails"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,11 +81,9 @@ Flags for getting the details. The following values are defined.
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>

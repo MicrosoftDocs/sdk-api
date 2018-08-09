@@ -2,12 +2,12 @@
 UID: NF:searchapi.ISearchManager.SetParameter
 title: ISearchManager::SetParameter
 author: windows-sdk-content
-description: Not supported. This method returns E_INVALIDARG when called.
+description: Not supported.This method returns E_INVALIDARG when called.
 old-location: search\_search_ISearchManager_SetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\setparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchManager interface [search],SetParameter method, ISearchManager.SetParameter, ISearchManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchManager interface, _search_ISearchManager_SetParameter, search._search_ISearchManager_SetParameter, searchapi/ISearchManager::SetParameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 
 Not supported.
 
-
-            This method returns E_INVALIDARG when called.
+This method returns E_INVALIDARG when called.
 
 
 ## -parameters
@@ -66,16 +65,14 @@ Not supported.
 
 Type: <b>LPCWSTR</b>
 
-
-                There are currently no valid parameters to pass or retrieve.
+There are currently no valid parameters to pass or retrieve.
 
 
 ### -param pValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-
-                As there are no valid parameters currently configured, there are no valid parameters to pass to this method.
+As there are no valid parameters currently configured, there are no valid parameters to pass to this method.
 
 
 ## -returns

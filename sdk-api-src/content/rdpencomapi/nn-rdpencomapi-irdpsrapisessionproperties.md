@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapisessionproperties.htm
 old-project: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ To get this interface, access one of the following properties:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

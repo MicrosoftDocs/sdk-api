@@ -7,7 +7,7 @@ old-location: gdi\enumobjects.htm
 old-project: gdi
 ms.assetid: 2a7b60b2-9a68-4c56-9376-c1b780488535
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumObjects, EnumObjects function [Windows GDI], _win32_EnumObjects, gdi.enumobjects, wingdi/EnumObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,29 +66,19 @@ The <b>EnumObjects</b> function enumerates the pens or brushes available for the
 A handle to the DC.
 
 
-### -param nType
+### -param nType [in]
 
-TBD
+The object type. This parameter can be OBJ_BRUSH or OBJ_PEN.
 
 
-### -param lpFunc
+### -param lpFunc [in]
 
-TBD
+A pointer to the application-defined callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/05a0f329-add9-4e92-9a9a-e2cf0ba5a1c3">EnumObjectsProc</a> function.
 
 
 ### -param lParam [in]
 
 A pointer to the application-defined data. The data is passed to the callback function along with the object information.
-
-
-#### - lpObjectFunc [in]
-
-A pointer to the application-defined callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/05a0f329-add9-4e92-9a9a-e2cf0ba5a1c3">EnumObjectsProc</a> function.
-
-
-#### - nObjectType [in]
-
-The object type. This parameter can be OBJ_BRUSH or OBJ_PEN.
 
 
 ## -returns

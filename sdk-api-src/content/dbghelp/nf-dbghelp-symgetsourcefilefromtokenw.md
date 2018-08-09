@@ -7,7 +7,7 @@ old-location: base\symgetsourcefilefromtoken.htm
 old-project: debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ The size of the <i>FilePath</i> buffer, in characters.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 

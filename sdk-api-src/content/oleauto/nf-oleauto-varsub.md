@@ -7,7 +7,7 @@ old-location: automat\varsub.htm
 old-project: automat
 ms.assetid: 395cc5fe-8694-47a9-8e92-1768c300ba7e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarSub, VarSub function [Automation], _oa96_VarSub, automat.varsub, oleauto/VarSub
 ms.prod: windows
 ms.technology: windows-sdk

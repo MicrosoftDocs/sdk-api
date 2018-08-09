@@ -4,10 +4,10 @@ title: SnmpUtilPrintAsnAny function
 author: windows-sdk-content
 description: The SnmpUtilPrintAsnAny function prints the value of the Any parameter to the standard output. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilprintasnany.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 2dd52131-defb-4613-a889-a115d60a969a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpUtilPrintAsnAny, SnmpUtilPrintAsnAny function [SNMP], _snmp_snmputilprintasnany, snmp.snmputilprintasnany, snmp/SnmpUtilPrintAsnAny
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilPrintAsnAny function

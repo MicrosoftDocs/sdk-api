@@ -7,7 +7,7 @@ old-location: ics\inetfwproducts_register.htm
 old-project: ics
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Register method, INetFwProducts.Register, INetFwProducts::Register, Register, Register method [ICS/ICF], Register method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_register, netfw/INetFwProducts::Register
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The registration handle. The registration will be removed when this object is re
 
 
 
-
-						If the method succeeds the return value is S_OK.
+If the method succeeds the return value is S_OK.
 
 If the method fails, the return value is one of the following error codes.
 

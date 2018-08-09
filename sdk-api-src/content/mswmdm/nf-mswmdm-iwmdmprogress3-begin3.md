@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3_begin3.htm
 old-project: WMDM
 ms.assetid: 8c794aff-9800-405e-853a-56dd5bd84665
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: Begin3, Begin3 method [windows Media Device Manager], Begin3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],Begin3 method, IWMDMProgress3.Begin3, IWMDMProgress3::Begin3, IWMDMProgress3Begin3, mswmdm/IWMDMProgress3::Begin3, wmdm.iwmdmprogress3_begin3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ A <b>GUID</b> identifying the operation that will begin. Possible values are sho
 
 <table>
 <tr>
-<th>
-                  Event
+<th>Event
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

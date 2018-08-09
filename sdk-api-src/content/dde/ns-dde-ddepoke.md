@@ -7,7 +7,7 @@ old-location: dataxchg\ddepoke.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddepoke.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEPOKE, DDEPOKE structure [Data Exchange], _win32_DDEPOKE_str, _win32_ddepoke_str_cpp, dataxchg.ddepoke, dde/DDEPOKE, winui._win32_ddepoke_str
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message. 
+Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a> message. 
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Unused.
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
+Indicates whether the application receiving the <a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
 
 
 ### -field fReserved
@@ -161,7 +161,7 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
 
 
 
@@ -173,7 +173,7 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
+<a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a>
  
 
  

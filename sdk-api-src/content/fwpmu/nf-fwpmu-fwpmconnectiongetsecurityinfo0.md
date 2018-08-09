@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectiongetsecurityinfo0.htm
 old-project: fwp
 ms.assetid: 872f0ab0-0cac-43e6-b4d6-ad62bde707ea
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmConnectionGetSecurityInfo0, FwpmConnectionGetSecurityInfo0 function [Filtering], fwp.fwpmconnectiongetsecurityinfo0, fwpmu/FwpmConnectionGetSecurityInfo0
 ms.prod: windows
 ms.technology: windows-sdk

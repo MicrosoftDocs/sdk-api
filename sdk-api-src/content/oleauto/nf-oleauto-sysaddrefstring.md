@@ -7,7 +7,7 @@ old-location: automat\sysaddrefstring.htm
 old-project: automat
 ms.assetid: 9AE274F1-1517-4D55-B9AE-D75169404880
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SysAddRefString, SysAddRefString function [Automation], automat.sysaddrefstring, oleauto/SysAddRefString
 ms.prod: windows
 ms.technology: windows-sdk

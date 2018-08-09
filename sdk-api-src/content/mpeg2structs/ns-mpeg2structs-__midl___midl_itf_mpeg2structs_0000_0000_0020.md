@@ -7,7 +7,7 @@ old-location: mstv\mpeg2_filter2.htm
 old-project: mstv
 ms.assetid: 3828f80f-23dc-4028-95d6-d85c007a44ec
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMPEG2_FILTER2, MPEG2_FILTER2, MPEG2_FILTER2 structure [Microsoft TV Technologies], PMPEG2_FILTER2, PMPEG2_FILTER2 structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0020, mpeg2structs/MPEG2_FILTER, mpeg2structs/PMPEG2_FILTER2, mstv.mpeg2_filter2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The version number of the structure. This value must be 2 or higher.
 
 ### -field wFilterSize
 
-
-            The size of the structure data, excluding any padding bytes. Set this field equal to the constant <b>MPEG2_FILTER_VERSION_2_SIZE</b>.
+The size of the structure data, excluding any padding bytes. Set this field equal to the constant <b>MPEG2_FILTER_VERSION_2_SIZE</b>.
           
 
 
@@ -97,22 +96,19 @@ If <b>TRUE</b>, the <b>table_ID_extension</b> field in the header must match the
 
 ### -field TableIdExtension
 
-
-            A value for the <b>table_ID_extension</b> field.
+A value for the <b>table_ID_extension</b> field.
           
 
 
 ### -field fSpecifyVersion
 
-
-            If <b>TRUE</b>, the version_number field in the header must match the value of the <b>Version</b>  member. Otherwise, the <b>version_number</b> field is ignored.
+If <b>TRUE</b>, the version_number field in the header must match the value of the <b>Version</b>  member. Otherwise, the <b>version_number</b> field is ignored.
           
 
 
 ### -field Version
 
-
-            A value for the <b>version_number</b> field.
+A value for the <b>version_number</b> field.
           
 
 
@@ -124,8 +120,7 @@ If <b>TRUE</b>, the <b>section_number</b> field in the header must match the val
 
 ### -field SectionNumber
 
-
-            A value for the <b>section_number</b> field.
+A value for the <b>section_number</b> field.
           
 
 
@@ -147,8 +142,7 @@ If <b>TRUE</b>, the <b>Dsmcc</b> member contains additional filtering criteria f
 
 ### -field Dsmcc
 
-
-            A <a href="https://msdn.microsoft.com/a8be6d69-1b41-49f0-8588-624b8de98678">DSMCC_FILTER_OPTIONS</a> structure that contains additional filtering criteria for the DSM-CC portions of the section header.
+A <a href="https://msdn.microsoft.com/a8be6d69-1b41-49f0-8588-624b8de98678">DSMCC_FILTER_OPTIONS</a> structure that contains additional filtering criteria for the DSM-CC portions of the section header.
           
 
 
@@ -183,8 +177,7 @@ If <b>TRUE</b>, the <b>Dvb_Eit</b> member contains additional filtering criteria
 
 #### - Dvb_Eit
 
-
-            An <a href="https://msdn.microsoft.com/7bdbb67b-ff20-4f2a-ad8a-8bb8dba3da65">DVB_EIT_FILTER_OPTIONS</a> structure that contains additional filtering criteria. 
+An <a href="https://msdn.microsoft.com/7bdbb67b-ff20-4f2a-ad8a-8bb8dba3da65">DVB_EIT_FILTER_OPTIONS</a> structure that contains additional filtering criteria. 
           
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>

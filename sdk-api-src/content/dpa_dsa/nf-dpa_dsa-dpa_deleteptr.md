@@ -7,7 +7,7 @@ old-location: controls\DPA_DeletePtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,28 +62,16 @@ Removes an item from a dynamic pointer array (DPA). The DPA shrinks if necessary
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param i
 
-TBD
-
-
-
-
-#### - index
-
 Type: <b>int</b>
 
 An index of item to be removed from DPA.
-
-
-#### - pdpa
-
-Type: <b>HDPA</b>
-
-A handle to a DPA.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mib\mib_ipforwardtable.htm
 old-project: mib
 ms.assetid: bdecf944-fe19-4033-8778-362523984b03
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPFORWARDTABLE, MIB_IPFORWARDTABLE, MIB_IPFORWARDTABLE structure [MIB], PMIB_IPFORWARDTABLE, PMIB_IPFORWARDTABLE structure pointer [MIB], _MIB_IPFORWARDTABLE, _mpr_mib_ipforwardtable, ipmib/MIB_IPFORWARDTABLE, ipmib/PMIB_IPFORWARDTABLE, iprtrmib/MIB_IPFORWARDTABLE, iprtrmib/PMIB_IPFORWARDTABLE, mib.mib_ipforwardtable, rras.mib_ipforwardtable"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ The <b>MIB_IPFORWARDTABLE</b> structure may contain padding for alignment betwee
 
 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista
-   and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 #### Examples

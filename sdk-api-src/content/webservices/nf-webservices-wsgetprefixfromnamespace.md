@@ -7,7 +7,7 @@ old-location: wsw\wsgetprefixfromnamespace.htm
 old-project: wsw
 ms.assetid: 69f4138b-4831-41c9-b1ed-31143edcc402
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsGetPrefixFromNamespace, WsGetPrefixFromNamespace function [Web Services for Windows], webservices/WsGetPrefixFromNamespace, wsw.wsgetprefixfromnamespace
 ms.prod: windows
 ms.technology: windows-sdk

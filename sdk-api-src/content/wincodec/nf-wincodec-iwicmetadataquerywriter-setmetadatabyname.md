@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm
 old-project: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The name of the metadata item.
 
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 The metadata to set.
 
@@ -126,7 +126,7 @@ If the value set is a nested metadata block then use variant type <code>VT_UNKNO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>
+<a href="_stg_propvariant">PROPVARIANT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdi\createdc.htm
 old-project: gdi
 ms.assetid: 6fc443c8-da97-4196-a9ed-179a4e583849
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateDC, CreateDC function [Windows GDI], CreateDCA, CreateDCW, _win32_CreateDC, gdi.createdc, wingdi/CreateDC, wingdi/CreateDCA, wingdi/CreateDCW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,34 +67,10 @@ The <b>CreateDC</b> function creates a device context (DC) for a device using th
 
 ### -param pwszDriver
 
-TBD
+A pointer to a null-terminated character string that specifies either DISPLAY or the name of a specific display device. For printing, we recommend that you pass <b>NULL</b> to <i>lpszDriver</i> because GDI ignores <i>lpszDriver</i> for printer devices.
 
 
-### -param pwszDevice
-
-TBD
-
-
-### -param pszPort
-
-TBD
-
-
-### -param pdm
-
-TBD
-
-
-
-
-#### - lpInitData [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpInitData</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
-
-If <i>lpszDriver</i> is DISPLAY, <i>lpInitData</i> must be <b>NULL</b>; GDI then uses the display device's current <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a>.
-
-
-#### - lpszDevice [in]
+### -param pwszDevice [in]
 
 A pointer to a null-terminated character string that specifies the name of the specific output device being used, as shown by the Print Manager (for example, Epson FX-80). It is not the printer model name. The <i>lpszDevice</i> parameter must be used.
 
@@ -105,14 +81,16 @@ If <i>lpszDriver</i> is DISPLAY or the device name of a specific display device,
 If there are multiple monitors on the system, calling <code>CreateDC(TEXT("DISPLAY"),NULL,NULL,NULL)</code> will create a DC covering all the monitors.
 
 
-#### - lpszDriver
-
-A pointer to a null-terminated character string that specifies either DISPLAY or the name of a specific display device. For printing, we recommend that you pass <b>NULL</b> to <i>lpszDriver</i> because GDI ignores <i>lpszDriver</i> for printer devices.
-
-
-#### - lpszOutput
+### -param pszPort
 
 This parameter is ignored and should be set to <b>NULL</b>. It is provided only for compatibility with 16-bit Windows.
+
+
+### -param pdm [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://msdn.microsoft.com/e89a2f6f-2bac-4369-b526-f8e15028698b">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpInitData</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
+
+If <i>lpszDriver</i> is DISPLAY, <i>lpInitData</i> must be <b>NULL</b>; GDI then uses the display device's current <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a>.
 
 
 ## -returns

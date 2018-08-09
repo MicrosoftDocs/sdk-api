@@ -7,7 +7,7 @@ old-location: controls\ListView_EnsureVisible.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_ensurevisible.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_EnsureVisible, ListView_EnsureVisible macro [Windows Controls], _win32_ListView_EnsureVisible, _win32_ListView_EnsureVisible_cpp, commctrl/ListView_EnsureVisible, controls.ListView_EnsureVisible, controls._win32_ListView_EnsureVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774902(v=VS.85).aspx">LVM_ENSUREVISIBLE</a> message explicitly. 
+Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/3564b6e6-b8b6-401b-85bc-8bd6261fc054">LVM_ENSUREVISIBLE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Ensures that a list-view item is either entirely or partially visible, scrolling
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param i
@@ -75,11 +77,4 @@ The index of the list-view item.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 A value specifying whether the item must be entirely visible. If this parameter is <b>TRUE</b>, no scrolling occurs if the item is at least partially visible. 
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
 

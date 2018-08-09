@@ -7,7 +7,7 @@ old-location: dataxchg\metafilepict.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardstructures\metafilepict.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPMETAFILEPICT, LPMETAFILEPICT, LPMETAFILEPICT structure pointer [Data Exchange], METAFILEPICT, METAFILEPICT structure [Data Exchange], _win32_METAFILEPICT_str, _win32_metafilepict_str_cpp, dataxchg.metafilepict, tagMETAFILEPICT, wingdi/LPMETAFILEPICT, wingdi/METAFILEPICT, winui._win32_metafilepict_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ A handle to a memory metafile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -104,7 +104,7 @@ A handle to a memory metafile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
+<a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a>
  
 
  

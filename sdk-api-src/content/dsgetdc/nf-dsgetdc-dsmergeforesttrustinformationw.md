@@ -7,7 +7,7 @@ old-location: ad\dsmergeforesttrustinformationw.htm
 old-project: ad
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ Pointer to an <b>LSA_FOREST_TRUST_INFORMATION</b> structure that contains the ne
 TBD
 
 
-### -param MergedForestTrustInfo
-
-TBD
-
-
-
-
-#### - ForestTrustInfo [out]
+### -param MergedForestTrustInfo [out]
 
 Pointer to an <b>LSA_FOREST_TRUST_INFORMATION</b> structure pointer that receives the merged forest trust data.
 

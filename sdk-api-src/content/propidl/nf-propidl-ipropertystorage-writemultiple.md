@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_writemultiple.htm
 old-project: stg
 ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyStorage [Strctd Stg],WriteMultiple, IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,11 +86,10 @@ The minimum value for the property IDs that the method must assign if the <i>rgp
 
 
 
-
-						This method supports the standard return value E_UNEXPECTED, in addition to the following:
+This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a>.
 
 
 

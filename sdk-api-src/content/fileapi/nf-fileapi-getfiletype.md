@@ -7,7 +7,7 @@ old-location: fs\getfiletype.htm
 old-project: fileio
 ms.assetid: 11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: GetFileType, GetFileType function [Files], _win32_getfiletype, base.getfiletype, fileapi/GetFileType, fs.getfiletype, winbase/GetFileType
 ms.prod: windows
 ms.technology: windows-sdk

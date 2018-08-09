@@ -7,7 +7,7 @@ old-location: winsync\id_parameter_pair.htm
 old-project: winsync
 ms.assetid: f2b47196-8112-4f04-9944-a4a686d3c25c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ID_PARAMETER_PAIR, ID_PARAMETER_PAIR structure [Windows Sync], _ID_PARAMETER_PAIR, winsync.id_parameter_pair, winsync/ID_PARAMETER_PAIR
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TSPI_lineGetCallInfo function
 author: windows-sdk-content
 description: The TSPI_lineGetCallInfo function returns detailed information about the specified call.
 old-location: tspi\tspi_linegetcallinfo.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 9ef43928-05aa-4ec6-bc44-f07a63d8ecdf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_lineGetCallInfo, TSPI_lineGetCallInfo function [TAPI 2.2], _tspi_tspi_linegetcallinfo, tspi.tspi_linegetcallinfo, tspi/TSPI_lineGetCallInfo
 ms.prod: windows
 ms.technology: windows-sdk

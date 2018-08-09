@@ -7,7 +7,7 @@ old-location: security\allocatelocallyuniqueid.htm
 old-project: secauthz
 ms.assetid: 5d730034-802b-4d37-bd28-68992779b93e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AllocateLocallyUniqueId, AllocateLocallyUniqueId function [Security], _win32_allocatelocallyuniqueid, security.allocatelocallyuniqueid, securitybaseapi/AllocateLocallyUniqueId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ The allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff557
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

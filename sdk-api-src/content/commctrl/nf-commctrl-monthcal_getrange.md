@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetRange.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getrange.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_GetRange, MonthCal_GetRange macro [Windows Controls], _win32_MonthCal_GetRange, _win32_MonthCal_GetRange_cpp, commctrl/MonthCal_GetRange, controls.MonthCal_GetRange, controls._win32_MonthCal_GetRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the minimum and maximum allowable dates set for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760983(v=VS.85).aspx">MCM_GETRANGE</a> message explicitly. 
+Retrieves the minimum and maximum allowable dates set for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/5000053a-2975-4781-b3c9-83f9763f679a">MCM_GETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Retrieves the minimum and maximum allowable dates set for a month calendar contr
 
 ### -param hmc
 
-TBD
-
-
-### -param rgst
-
-TBD
-
-
-
-
-
-
-#### - hwndMC
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
-#### - lprgSysTimeArray
+### -param rgst
 
 Type: <b>LPSYSTEMTIME</b>
 

@@ -4,10 +4,10 @@ title: IInvalidProductLicenseException::get_Product
 author: windows-sdk-content
 description: Gets the language-invariant name of the product.
 old-location: wua\iinvalidproductlicenseexception_product.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: acbff9e4-59d7-4af9-8633-75edbf83d3ce
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IInvalidProductLicenseException interface [Windows Update Agent],Product property, IInvalidProductLicenseException.Product, IInvalidProductLicenseException.get_Product, IInvalidProductLicenseException::Product, IInvalidProductLicenseException::get_Product, Product property [Windows Update Agent], Product property [Windows Update Agent],IInvalidProductLicenseException interface, get_Product, wua.iinvalidproductlicenseexception_product, wuapi/IInvalidProductLicenseException::Product, wuapi/IInvalidProductLicenseException::get_Product
 ms.prod: windows
 ms.technology: windows-sdk

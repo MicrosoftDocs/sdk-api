@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getangularvelocity.htm
 old-project: wintouch
 ms.assetid: 3253837f-c5ea-47f7-ba0a-86e0ed4e228e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetAngularVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetAngularVelocity method, IManipulationProcessor.GetAngularVelocity, IManipulationProcessor::GetAngularVelocity, manipulations/IManipulationProcessor::GetAngularVelocity, wintouch.imanipulationprocessor_getangularvelocity
 ms.prod: windows
 ms.technology: windows-sdk

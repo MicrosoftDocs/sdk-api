@@ -4,10 +4,10 @@ title: "_VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP"
 author: windows-sdk-content
 description: Provides information about file systems that are supported for formatting volumes.
 old-location: base\vds_file_system_format_support_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 0a0863d3-a97f-4be5-bba4-15d6bbbf03a5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure pointer, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure, _VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, base.vds_file_system_format_support_prop, vds/PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

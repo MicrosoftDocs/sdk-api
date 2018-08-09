@@ -7,7 +7,7 @@ old-location: wsw\wsreadbody.htm
 old-project: wsw
 ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,11 @@ A pointer to the object encapsulating the metadata that describes the mapping of
                 
 
 
-### -param readOption
+### -param readOption [in]
 
-TBD
+Determines whether the value is required and how to allocate the value.
+                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                
 
 
 ### -param heap [in, optional]
@@ -103,13 +105,6 @@ The interpretation of the value of this parameter depends on the <b>WS_READ_OPTI
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
-
-#### - option [in]
-
-Determines whether the value is required and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
                 
 
 

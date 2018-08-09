@@ -7,7 +7,7 @@ old-location: display\dxbobnextfield.htm
 old-project: display
 ms.assetid: 5daafc0c-2a6d-45e2-8403-d54cb383b3b7
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxBobNextField, DxBobNextField callback function [Display Devices], PDX_BOBNEXTFIELD, PDX_BOBNEXTFIELD callback, VideoMiniPort_DxApiFunctions_d95db457-005d-4eee-a110-19159f64008b.xml, display.dxbobnextfield, dxmini/DxBobNextField
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +74,14 @@ The <i>DxBobNextField</i> callback function bobs the next field of interleaved d
 
 
 
-#### - BobNextFieldInfo
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549209">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
-
-
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
+
+
+#### - BobNextFieldInfo
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549209">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
 
 
 #### - lpOutput

@@ -7,7 +7,7 @@ old-location: mstv\ifrequencymap.htm
 old-project: mstv
 ms.assetid: 0f7f1b2c-a191-45f5-a645-367e898b6ee2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], IFrequencyMap interface [Microsoft TV Technologies],described, IFrequencyMapInterface, bdaiface/IFrequencyMap, mstv.ifrequencymap
 ms.prod: windows
 ms.technology: windows-sdk

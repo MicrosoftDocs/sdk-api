@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accselection.htm
 old-project: WinAuto
 ms.assetid: 80df32de-a99f-4a5a-b354-f3e133f3e620
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accSelection method, IAccessible.get_accSelection, IAccessible::get_accSelection, VT_DISPATCH, VT_EMPTY, VT_I4, VT_UNKNOWN, _msaa_IAccessible_get_accSelection, get_accSelection, get_accSelection method [Windows Accessibility], get_accSelection method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accselection, oleacc/IAccessible::get_accSelection, winauto.iaccessible_iaccessible__get_accselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,8 +156,7 @@ This method returns either an <a href="https://msdn.microsoft.com/5a95f002-4fd5-
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
-<b>Note:  </b>
-              This method retrieves a selected item, not selected text.
+<b>Note:  </b>This method retrieves a selected item, not selected text.
             
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>

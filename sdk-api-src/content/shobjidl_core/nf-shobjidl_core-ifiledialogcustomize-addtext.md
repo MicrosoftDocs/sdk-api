@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddText.htm
 old-project: shell
 ms.assetid: efea2fdb-4006-4567-b53c-faa891d18c7e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddText method, IFileDialogCustomize.AddText, IFileDialogCustomize::AddText, shell.IFileDialogCustomize_AddText, shell_IFileDialogCustomize_AddText, shobjidl_core/IFileDialogCustomize::AddText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Adds text content to the dialog.
 
 Type: <b>DWORD</b>
 
-
-                  The ID of the text to add.
+The ID of the text to add.
                 
 
 
@@ -79,8 +78,7 @@ Type: <b>DWORD</b>
 
 Type: <b>LPCWSTR</b>
 
-
-                  A pointer to a buffer that contains the text as a null-terminated Unicode string.
+A pointer to a buffer that contains the text as a null-terminated Unicode string.
                 
 
 

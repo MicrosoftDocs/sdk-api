@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmap_drawbitmap.htm
 old-project: TSF
 ms.assetid: ac8c384e-1d92-4092-940d-17a88a316a4d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework],ITfLangBarItemBitmap interface, ITfLangBarItemBitmap interface [Text Services Framework],DrawBitmap method, ITfLangBarItemBitmap.DrawBitmap, ITfLangBarItemBitmap::DrawBitmap, _tsf_itflangbaritembitmap_drawbitmap_ref, ctfutb/ITfLangBarItemBitmap::DrawBitmap, tsf.itflangbaritembitmap_drawbitmap
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcetypecontrol.htm
 old-project: mscs
 ms.assetid: 79f4949d-e5ef-4d2e-ac11-0e30b6c566fd
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterResourceTypeControl, ClusterResourceTypeControl function [Failover Cluster], _wolf_clusterresourcetypecontrol, clusapi/ClusterResourceTypeControl, mscs.clusterresourcetypecontrol
 ms.prod: windows
 ms.technology: windows-sdk

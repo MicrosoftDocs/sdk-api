@@ -4,10 +4,10 @@ title: IVssComponentEx::GetRollForward
 author: windows-sdk-content
 description: Obtains the roll-forward operation type for a component and obtains the restore point for a partial roll-forward operation.
 old-location: base\ivsscomponentex_getrollforward.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 4ba52c80-2229-4653-bd5b-85d9f11cd127
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetRollForward, GetRollForward method, GetRollForward method,IVssComponentEx interface, IVssComponentEx interface,GetRollForward method, IVssComponentEx.GetRollForward, IVssComponentEx::GetRollForward, base.ivsscomponentex_getrollforward, vswriter/IVssComponentEx::GetRollForward
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ The caller is out of memory or other system resources.
 
 The <b>GetRollForward</b> method can be called only during a restore operation.
 
-If the call to <b>GetRollForward</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pRollType</i> parameter by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetRollForward</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pRollType</i> parameter by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 A writer indicates that it supports this method by setting the <b>VSS_BS_ROLLFORWARD_RESTORE</b> flag in its backup schema mask.
 

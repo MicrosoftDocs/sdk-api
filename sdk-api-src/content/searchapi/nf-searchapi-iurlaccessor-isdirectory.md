@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_IsDirectory.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\isdirectory.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.IsDirectory, IUrlAccessor::IsDirectory, IsDirectory, IsDirectory method [search], IsDirectory method [search],IUrlAccessor interface, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        Ascertains whether the item URL points to a directory.
+Ascertains whether the item URL points to a directory.
         
 
 
@@ -69,8 +68,7 @@ req.product: ADAM
 
 Type: <b>HRESULT</b>
 
-
-            Returns S_OK if the URL is a directory, otherwise S_FALSE. 
+Returns S_OK if the URL is a directory, otherwise S_FALSE. 
             
 
 

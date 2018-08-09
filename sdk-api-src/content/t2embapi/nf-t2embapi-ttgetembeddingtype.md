@@ -7,7 +7,7 @@ old-location: gdi\ttgetembeddingtype.htm
 old-project: gdi
 ms.assetid: c442447f-221d-4bce-9749-fb9fbe333808
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTGetEmbeddingType, TTGetEmbeddingType function [Windows GDI], _win32_TTGetEmbeddingType, gdi.ttgetembeddingtype, t2embapi/TTGetEmbeddingType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,7 @@ Obtains the embedding privileges of a font.
 Device context handle.
 
 
-### -param pulEmbedType
-
-TBD
-
-
-
-
-#### - pulPrivStatus [in]
+### -param pulEmbedType [in]
 
 Pointer to flag indicating embedding privileges of the font. This flag can have one of the following values. This function returns the least restrictive license granted.
 

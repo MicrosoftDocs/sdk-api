@@ -7,7 +7,7 @@ old-location: devinst\diinstalldriver.htm
 old-project: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="devinst
 A handle to the top-level window that <b>DiInstallDriver</b> uses to display any user interface component that is associated with installing the device. This parameter is optional and can be set to <b>NULL</b>. 
 
 
-### -param InfPath
+### -param InfPath [in]
 
-TBD
+A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a>.
 
 
 ### -param Flags [in]
@@ -84,11 +84,6 @@ For information about how Windows selects a driver for a device, see <a href="ht
 ### -param NeedReboot [out, optional]
 
 A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system is restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section. 
-
-
-#### - FullInfPath [in]
-
-A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a>.
 
 
 ## -returns

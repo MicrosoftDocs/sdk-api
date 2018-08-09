@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getrecordlangid.htm
 old-project: mstv
 ms.assetid: cce0fd15-5098-4871-baab-e40b6cae39b1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbTeletextDescriptor.GetRecordLangId, IDvbTeletextDescriptor::GetRecordLangId, dvbsiparser/IDvbTeletextDescriptor::GetRecordLangId, mstv.idvbteletextdescriptor_getrecordlangid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB)
+Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB)
   teletext descriptor. 
 
 
@@ -63,10 +62,8 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param bRecordIndex [in]
 
-
-  Zero-based index of the descriptor to return. To get the number of descriptors, 
-  call <a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">
-  IDvbTeletextDescriptor::GetCountOfRecords</a>.
+Zero-based index of the descriptor to return. To get the number of descriptors, 
+  call <a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">IDvbTeletextDescriptor::GetCountOfRecords</a>.
 
 
 
@@ -93,8 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">
-  IDvbTeletextDescriptor::GetCountOfRecords</a>
+<a href="https://msdn.microsoft.com/a802c685-9d7a-446a-a29c-4fc3e9ad3dc4">IDvbTeletextDescriptor::GetCountOfRecords</a>
  
 
  

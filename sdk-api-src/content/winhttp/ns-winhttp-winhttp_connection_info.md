@@ -4,10 +4,10 @@ title: WINHTTP_CONNECTION_INFO
 author: windows-sdk-content
 description: The WINHTTP_CONNECTION_INFO structure contains the source and destination IP address of the request that generated the response.
 old-location: http\winhttp_connection_info.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: cb6e10f8-a480-41ac-b4d3-f09cfc663780
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WINHTTP_CONNECTION_INFO, WINHTTP_CONNECTION_INFO structure [HTTP], http.winhttp_connection_info, winhttp/WINHTTP_CONNECTION_INFO
 ms.prod: windows
 ms.technology: windows-sdk

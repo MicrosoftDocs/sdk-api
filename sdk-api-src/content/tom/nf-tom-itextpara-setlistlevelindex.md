@@ -4,10 +4,10 @@ title: ITextPara::SetListLevelIndex
 author: windows-sdk-content
 description: Sets the list level index used for paragraphs.
 old-location: controls\ITextPara_SetListLevelIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistlevelindex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListLevelIndex method, ITextPara.SetListLevelIndex, ITextPara::SetListLevelIndex, SetListLevelIndex, SetListLevelIndex method [Windows Controls], SetListLevelIndex method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListLevelIndex, _win32_ITextPara_SetListLevelIndex_cpp, controls.ITextPara_SetListLevelIndex, controls._win32_ITextPara_SetListLevelIndex, tom/ITextPara::SetListLevelIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets the list level index used for paragraphs.
 
 Type: <b>long</b>
 
-New list level index value. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773985(v=VS.85).aspx">ITextPara::GetListLevelIndex</a>. 
+New list level index value. For possible values, see <a href="https://msdn.microsoft.com/37ea25ee-a41b-42d4-99c4-d316f596c040">ITextPara::GetListLevelIndex</a>. 
 
 
 ## -returns
@@ -158,11 +158,11 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773985(v=VS.85).aspx">GetListLevelIndex</a>
+<a href="https://msdn.microsoft.com/37ea25ee-a41b-42d4-99c4-d316f596c040">GetListLevelIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -170,7 +170,7 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

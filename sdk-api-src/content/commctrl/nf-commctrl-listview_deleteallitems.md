@@ -7,7 +7,7 @@ old-location: controls\ListView_DeleteAllItems.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteallitems.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_DeleteAllItems, ListView_DeleteAllItems macro [Windows Controls], _win32_ListView_DeleteAllItems, _win32_ListView_DeleteAllItems_cpp, commctrl/ListView_DeleteAllItems, controls.ListView_DeleteAllItems, controls._win32_ListView_DeleteAllItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes all items from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774891(v=VS.85).aspx">LVM_DELETEALLITEMS</a> message explicitly. 
+Removes all items from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/816bf565-79e9-4f5d-b5b4-5cdecce8a61c">LVM_DELETEALLITEMS</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-When a list-view control receives the <a href="https://msdn.microsoft.com/library/Bb774891(v=VS.85).aspx">LVM_DELETEALLITEMS</a> message, it sends the <a href="https://msdn.microsoft.com/library/Bb774810(v=VS.85).aspx">LVN_DELETEALLITEMS</a> notification code to its parent window. 
+When a list-view control receives the <a href="https://msdn.microsoft.com/816bf565-79e9-4f5d-b5b4-5cdecce8a61c">LVM_DELETEALLITEMS</a> message, it sends the <a href="https://msdn.microsoft.com/e4a219cf-4af9-4d02-8810-f576ba658177">LVN_DELETEALLITEMS</a> notification code to its parent window. 
 
 
 

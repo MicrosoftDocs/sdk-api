@@ -7,7 +7,7 @@ old-location: cos\icominstanceevents_onobjectdestroy.htm
 old-project: cossdk
 ms.assetid: 3eea4171-a177-4adc-bd9a-856a558ba3d8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IComInstanceEvents interface [COM+],OnObjectDestroy method, IComInstanceEvents.OnObjectDestroy, IComInstanceEvents::OnObjectDestroy, OnObjectDestroy, OnObjectDestroy method [COM+], OnObjectDestroy method [COM+],IComInstanceEvents interface, _dtc_IComInstanceEvents_OnObjectDestroy, comsvcs/IComInstanceEvents::OnObjectDestroy, cos.icominstanceevents_onobjectdestroy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\iazscope2.htm
 old-project: secauthz
 ms.assetid: 536c563e-7a6b-480d-9e83-1d7cc90a795d
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IAzScope2, IAzScope2 interface [Security], IAzScope2 interface [Security],described, azroles/IAzScope2, security.iazscope2
 ms.prod: windows
 ms.technology: windows-sdk

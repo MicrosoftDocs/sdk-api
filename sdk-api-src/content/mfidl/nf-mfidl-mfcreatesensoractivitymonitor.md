@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensoractivitymonitor.htm
 old-project: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ A pointer to the new <a href="https://msdn.microsoft.com/1D0F8C4E-CB64-4787-A25F
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -89,8 +88,7 @@ A pointer to the new <a href="https://msdn.microsoft.com/1D0F8C4E-CB64-4787-A25F
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

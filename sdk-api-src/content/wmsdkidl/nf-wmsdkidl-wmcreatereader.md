@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatereader.htm
 old-project: wmformat
 ms.assetid: f40d4b43-529d-4a78-80ec-4c339a91b28c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WMCreateReader, WMCreateReader function [windows Media Format], wmformat.wmcreatereader, wmsdkidl/WMCreateReader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ The <b>WMCreateReader</b> function creates a reader object.
 
 
 
-### -param pUnkCert
+### -param pUnkCert [in]
 
-TBD
+This value must be set to <b>NULL</b>.
 
 
 ### -param dwRights [in]
@@ -75,11 +75,6 @@ TBD
 ### -param ppReader [out]
 
 Pointer to a pointer to the <a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader</a> interface of the newly created reader object.
-
-
-#### - pUnkReserved [in]
-
-This value must be set to <b>NULL</b>.
 
 
 ## -returns

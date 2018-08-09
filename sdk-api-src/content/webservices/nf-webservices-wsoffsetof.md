@@ -7,7 +7,7 @@ old-location: wsw\wsoffsetof.htm
 old-project: wsw
 ms.assetid: a3965e97-c818-4dd3-95e7-60a844181b96
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsOffsetOf, WsOffsetOf macro [Web Services for Windows], webservices/WsOffsetOf, wsw.wsoffsetof
 ms.prod: windows
 ms.technology: windows-sdk

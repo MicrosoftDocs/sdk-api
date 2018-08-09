@@ -4,10 +4,10 @@ title: GetWindowTheme function
 author: windows-sdk-content
 description: Retrieves a theme handle to a window that has visual styles applied.
 old-location: controls\GetWindowTheme.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWindowTheme, GetWindowTheme function [Windows Controls], controls.GetWindowTheme, controls.inet_GetWindowTheme, inet_GetWindowTheme, inet_GetWindowTheme_cpp, uxtheme/GetWindowTheme
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Retrieves a theme handle to a window that has visual styles applied.
 
 
 
-### -param hwnd
-
-TBD
-
-
-
-
-#### - hWnd [in]
+### -param hwnd [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
@@ -81,7 +74,7 @@ Handle of the window.
 
 Type: <b>HTHEME</b>
 
-The most recent theme handle from <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a>.
+The most recent theme handle from <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a>.
 
 
 
@@ -90,7 +83,7 @@ The most recent theme handle from <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-If a window has a visual style applied, the <b>GetWindowTheme</b> function returns the most recent theme handle from <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a>. If no visual style is applied, <b>GetWindowTheme</b> returns <b>NULL</b>.
+If a window has a visual style applied, the <b>GetWindowTheme</b> function returns the most recent theme handle from <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a>. If no visual style is applied, <b>GetWindowTheme</b> returns <b>NULL</b>.
 
 
 

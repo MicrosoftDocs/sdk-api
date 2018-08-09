@@ -7,7 +7,7 @@ old-location: gdi\ptvisible.htm
 old-project: gdi
 ms.assetid: 72ccbd0f-f85b-434d-b0fc-dbe26348a74d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PtVisible, PtVisible function [Windows GDI], _win32_PtVisible, gdi.ptvisible, wingdi/PtVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,12 @@ The <b>PtVisible</b> function determines whether the specified point is within t
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 The x-coordinate, in logical units, of the point.
 
 
-#### - Y [in]
+### -param y [in]
 
 The y-coordinate, in logical units, of the point.
 

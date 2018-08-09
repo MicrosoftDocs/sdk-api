@@ -7,7 +7,7 @@ old-location: wsl\wsllaunchinteractive.htm
 old-project: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ Launches an interactive Windows Subsystem for Linux (WSL) process in the context
 
 
 
-### -param distributionName
+### -param distributionName [in]
 
-TBD
+Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
 ### -param command [in, optional]
@@ -74,21 +74,9 @@ Command to execute. If no command is supplied, launches the default shell.
 Governs whether or not the launched process should inherit the calling process's working directory. If FALSE, the process is started in the WSL default user's home directory ("~").
 
 
-### -param exitCode
-
-TBD
-
-
-
-
-#### - *pExitCode [out]
+### -param exitCode [out]
 
 Receives the exit code of the process after it exits.
-
-
-#### - distroName [in]
-
-Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
 
 ## -returns

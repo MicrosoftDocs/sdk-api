@@ -7,7 +7,7 @@ old-location: security\secpkg_extended_information.htm
 old-project: secauthn
 ms.assetid: 3d80dfc0-c35b-4d14-8196-02944c3db8d2
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION structure pointer [Security], SECPKG_EXTENDED_INFORMATION, SECPKG_EXTENDED_INFORMATION structure [Security], _SECPKG_EXTENDED_INFORMATION, _ssp_secpkg_extended_information, ntsecpkg/PSECPKG_EXTENDED_INFORMATION, ntsecpkg/SECPKG_EXTENDED_INFORMATION, security.secpkg_extended_information"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>SECPKG_EXTENDED_INFORMATION</b> structure is used to hold information about optional package capabilities.
+The <b>SECPKG_EXTENDED_INFORMATION</b> structure is used to hold information about optional package capabilities.
 
 This structure is used by the 
 <a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a> and 

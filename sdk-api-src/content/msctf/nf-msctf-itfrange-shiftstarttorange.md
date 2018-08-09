@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftstarttorange.htm
 old-project: TSF
 ms.assetid: 8e3e40a0-71ba-4abf-ac99-99d66856746c
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartToRange method, ITfRange.ShiftStartToRange, ITfRange::ShiftStartToRange, ShiftStartToRange, ShiftStartToRange method [Text Services Framework], ShiftStartToRange method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstarttorange_ref, msctf/ITfRange::ShiftStartToRange, tsf.itfrange_shiftstarttorange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,20 +157,17 @@ This method is more efficient than <a href="https://msdn.microsoft.com/f9f983b1-
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/27595909-025b-46c9-bd6f-2e64a720c97c">
-        ITfRange::ShiftEndToRange
+<a href="https://msdn.microsoft.com/27595909-025b-46c9-bd6f-2e64a720c97c">ITfRange::ShiftEndToRange
       </a>
 
 
@@ -179,8 +176,7 @@ ITfRange::ShiftStart
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
       </a>
  
 

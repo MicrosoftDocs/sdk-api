@@ -7,7 +7,7 @@ old-location: com\ispecifypropertypages_getpages.htm
 old-project: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
 ms.prod: windows
 ms.technology: windows-sdk

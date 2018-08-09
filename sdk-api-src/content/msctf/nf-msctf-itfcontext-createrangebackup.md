@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_createrangebackup.htm
 old-project: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],CreateRangeBackup method, ITfContext.CreateRangeBackup, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,25 +179,22 @@ This method creates a copy of the range that it can use to restore the data in <
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f98cd8d0-7033-4bd2-94a1-1a75913c2647">
-        ITfRangeBackup
+<a href="https://msdn.microsoft.com/f98cd8d0-7033-4bd2-94a1-1a75913c2647">ITfRangeBackup
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bb168504-34c0-4d30-826e-61926fd10a2a">
-        ITfRangeBackup::Restore
+<a href="https://msdn.microsoft.com/bb168504-34c0-4d30-826e-61926fd10a2a">ITfRangeBackup::Restore
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="ranges.htm">Ranges: Clones and Backups</a>
  
 
  

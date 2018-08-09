@@ -7,7 +7,7 @@ old-location: vhd\mergevirtualdisk.htm
 old-project: VStor
 ms.assetid: 9a9068d1-2f81-42a2-a3b2-6030a24a4445
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MergeVirtualDisk, MergeVirtualDisk function [VHD], vdssys/MergeVirtualDisk, vhd.mergevirtualdisk, virtdisk/MergeVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk

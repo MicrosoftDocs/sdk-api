@@ -4,10 +4,10 @@ title: PerfEnumerateCounterSet function
 author: windows-sdk-content
 description: Gets the counter set identifiers of the counter sets that are registered on the specified system. Counter set identifiers are globally unique identifiers (GUIDs).
 old-location: perf\perfenumeratecounterset.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,9 +155,7 @@ The function successfully stored all of the content set identifiers in the buffe
 </table>
  
 
-
-						
-						For other types of failures, the return value is a 
+For other types of failures, the return value is a 
 <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
 					
 

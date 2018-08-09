@@ -7,7 +7,7 @@ old-location: rras\rasentrydlg.htm
 old-project: rras
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW, _ras_rasentrydlg, rasdlg/RasEntryDlg, rasdlg/RasEntryDlgA, rasdlg/RasEntryDlgW, rras.rasentrydlg
 ms.prod: windows
 ms.technology: windows-sdk

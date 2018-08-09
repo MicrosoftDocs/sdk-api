@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_DaysSinceFileLastAccessed
 author: windows-sdk-content
 description: The number of days that have elapsed since the file was last accessed.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastaccessed.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 0892f31d-e2e4-4aeb-9496-f0ff10c2c0af
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: DaysSinceFileLastAccessed property [File Server Resource Manager], DaysSinceFileLastAccessed property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastAccessed property, IFsrmFileManagementJob.DaysSinceFileLastAccessed, IFsrmFileManagementJob.get_DaysSinceFileLastAccessed, IFsrmFileManagementJob::DaysSinceFileLastAccessed, IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, fs.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrm.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, get_DaysSinceFileLastAccessed
 ms.prod: windows
 ms.technology: windows-sdk

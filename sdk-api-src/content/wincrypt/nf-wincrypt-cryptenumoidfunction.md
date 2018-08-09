@@ -4,10 +4,10 @@ title: CryptEnumOIDFunction function
 author: windows-sdk-content
 description: The CryptEnumOIDFunction function enumerates the registered object identifier (OID) functions.
 old-location: security\cryptenumoidfunction.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: aa2fba03-183b-4b74-b306-8f4592995897
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptEnumOIDFunction, CryptEnumOIDFunction function [Security], _crypto2_cryptenumoidfunction, security.cryptenumoidfunction, wincrypt/CryptEnumOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

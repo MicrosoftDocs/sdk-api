@@ -7,7 +7,7 @@ old-location: fs\alignreservedlog.htm
 old-project: Clfs
 ms.assetid: 1ac8ecc7-a937-40cb-8a8b-8b168d9fce61
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: AlignReservedLog, AlignReservedLog function [Files], clfsw32/AlignReservedLog, fs.alignreservedlog
 ms.prod: windows
 ms.technology: windows-sdk

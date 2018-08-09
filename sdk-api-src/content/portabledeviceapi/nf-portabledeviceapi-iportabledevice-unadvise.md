@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_unadvise.htm
 old-project: wpd_sdk
 ms.assetid: 6720e92b-35cd-4e3f-bd21-36337cf80140
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise method, IPortableDevice.Unadvise, IPortableDevice::Unadvise, IPortableDeviceUnadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Unadvise, wpdsdk.iportabledevice_unadvise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Unadvise</b> method unregisters a client from receiving callback notifications. You must call this method if you called <a href="https://msdn.microsoft.com/bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca">Advise</a> previously.
+The <b>Unadvise</b> method unregisters a client from receiving callback notifications. You must call this method if you called <a href="https://msdn.microsoft.com/bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca">Advise</a> previously.
       
 
 
@@ -64,8 +63,7 @@ req.product: ADAM
 
 ### -param pszCookie [in]
 
-
-            Pointer to a null-terminated string that is a unique context ID. This was retrieved in the initial call to <a href="https://msdn.microsoft.com/bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca">IPortableDevice::Advise</a>.
+Pointer to a null-terminated string that is a unique context ID. This was retrieved in the initial call to <a href="https://msdn.microsoft.com/bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca">IPortableDevice::Advise</a>.
           
 
 
@@ -73,8 +71,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getsigningcertificates.htm
 old-project: seccrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Each signing certificate has the following properties:
 
 <ul>
 <li>Signed by the CA specified by the <i>pCACertVar</i> parameter</li>
-<li>
-Includes the Online Certificate Status Protocol (OCSP) signing (<b>XCN_OID_PKIX_KP_OCSP_SIGNING</b>) extension</li>
+<li>Includes the Online Certificate Status Protocol (OCSP) signing (<b>XCN_OID_PKIX_KP_OCSP_SIGNING</b>) extension</li>
 <li>Has not expired</li>
 <li>Responder server can access the certificate private key</li>
 </ul>

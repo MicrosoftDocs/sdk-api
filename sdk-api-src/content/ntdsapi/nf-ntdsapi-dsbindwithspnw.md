@@ -7,7 +7,7 @@ old-location: ad\dsbindwithspn.htm
 old-project: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Pointer to a null-terminated string that contains the fully qualified DNS name o
 
 Contains an <a href="https://msdn.microsoft.com/06e45348-a392-45be-9f8a-e77ef887f26c">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
     
-<a href="https://msdn.microsoft.com/51aba58b-07c5-4e6d-8568-fa6f1a963d8e">DsMakePasswordCredentials</a>
-    function is used to obtain this value. If this parameter is <b>NULL</b>,
+<a href="https://msdn.microsoft.com/51aba58b-07c5-4e6d-8568-fa6f1a963d8e">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
     the credentials of the calling thread are used.
 
 

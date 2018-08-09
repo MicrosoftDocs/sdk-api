@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata_compareobjects.htm
 old-project: MMC
 ms.assetid: d6ca3957-3d0c-492d-9e47-fc898981720b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: CompareObjects, CompareObjects method [MMC], CompareObjects method [MMC],IComponentData interface, IComponentData interface [MMC],CompareObjects method, IComponentData.CompareObjects, IComponentData::CompareObjects, _slate_icomponentdata_compareobjects, mmc.icomponentdata_compareobjects, mmc/IComponentData::CompareObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,12 +64,12 @@ The <b>IComponentData::CompareObjects</b> method enables a snap-in to compare tw
 ### -param lpDataObjectA [in]
 
 A pointer to the first data object exposing an 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that is to be compared.
+<a href="_ole_idataobject">IDataObject</a> interface that is to be compared.
 
 
 ### -param lpDataObjectB [in]
 
-A pointer to the second data object exposing an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that is to be compared.
+A pointer to the second data object exposing an <a href="_ole_idataobject">IDataObject</a> interface that is to be compared.
 
 
 ## -returns

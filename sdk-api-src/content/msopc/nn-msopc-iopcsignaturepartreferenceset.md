@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreferenceset.htm
 old-project: OPC
 ms.assetid: c6f453e4-e0f5-4ecc-b622-6b30778ff719
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcSignaturePartReferenceSet, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions], IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceSet, opc.iopcsignaturepartreferenceset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcSignaturePartReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/63162b37-0262-4d92-a14f-726fe4c87cc1">Create</a>
 </td>
 <td align="left" width="63%">
-
-              Creates an <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.
+Creates an <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointer that represents a reference to a part to be signed, and adds the new interface to the set.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcSignaturePartReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/22f69c35-d85c-46cc-bd1b-5ca4eada3a2f">Delete</a>
 </td>
 <td align="left" width="63%">
-
-              Deletes a specified <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointer from the set.
+Deletes a specified <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointer from the set.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcSignaturePartReferenceSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5b345fe9-55b3-447c-9b5b-64ab292ab734">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an enumerator of <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointers  in the set.
+Gets an enumerator of <a href="https://msdn.microsoft.com/b4bbf854-96b4-412b-a22d-c810423a3752">IOpcSignaturePartReference</a> interface pointers  in the set.
             
 
 </td>

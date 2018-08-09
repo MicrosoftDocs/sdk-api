@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectblendvariable_getblendstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getblendstate.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 23f9d59f-d37d-7bdf-874c-f23d35773bb5, GetBlendState, GetBlendState method [Direct3D 10], GetBlendState method [Direct3D 10],ID3D10EffectBlendVariable interface, ID3D10EffectBlendVariable interface [Direct3D 10],GetBlendState method, ID3D10EffectBlendVariable.GetBlendState, ID3D10EffectBlendVariable::GetBlendState, d3d10effect/ID3D10EffectBlendVariable::GetBlendState, direct3d10.id3d10effectblendvariable_getblendstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,18 +67,18 @@ Index into an array of blend-state interfaces. If there is only one blend-state 
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>**</b>
 
-The address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/library/Bb173505(v=VS.85).aspx">ID3D10BlendState Interface</a>).
+The address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState Interface</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -88,7 +88,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173631(v=VS.85).aspx">ID3D10EffectBlendVariable Interface</a>
+<a href="https://msdn.microsoft.com/0a41f4a6-e58f-4cdb-a043-eb2b4cfd2dab">ID3D10EffectBlendVariable Interface</a>
  
 
  

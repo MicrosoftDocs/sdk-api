@@ -7,7 +7,7 @@ old-location: controls\ListView_GetItemState.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemstate.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_GetItemState, ListView_GetItemState macro [Windows Controls], _win32_ListView_GetItemState, _win32_ListView_GetItemState_cpp, commctrl/ListView_GetItemState, controls.ListView_GetItemState, controls._win32_ListView_GetItemState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the state of a list-view item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761053(v=VS.85).aspx">LVM_GETITEMSTATE</a> message explicitly. 
+Gets the state of a list-view item. You can use this macro or send the <a href="https://msdn.microsoft.com/862960ed-a64a-4d66-b384-9228932eae6f">LVM_GETITEMSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Gets the state of a list-view item. You can use this macro or send the <a href="
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param i
@@ -145,13 +147,6 @@ Use this mask to retrieve the item's state image index.
  
 
 
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
-
-
 ## -remarks
 
 
@@ -166,7 +161,7 @@ An item's state information includes a set of bit flags as well as image list in
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a>
+<a href="https://msdn.microsoft.com/b90900f1-833b-418c-8ddc-76c0743b77f9">ListView_SetItemState</a>
  
 
  

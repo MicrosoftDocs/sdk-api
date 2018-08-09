@@ -7,7 +7,7 @@ old-location: devinst\sp_devinfo_data.htm
 old-project: devinst
 ms.assetid: 9ad0ef4f-4a67-4f16-8bb1-2242dad0d041
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSP_DEVINFO_DATA, PSP_DEVINFO_DATA, PSP_DEVINFO_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_DATA, SP_DEVINFO_DATA structure [Device and Driver Installation], _SP_DEVINFO_DATA, devinst.sp_devinfo_data, di-struct_1d8e747e-8359-405d-8819-29c516a99cbe.xml, setupapi/PSP_DEVINFO_DATA, setupapi/SP_DEVINFO_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

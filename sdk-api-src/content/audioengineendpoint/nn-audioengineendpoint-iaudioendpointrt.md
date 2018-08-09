@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointrt.htm
 old-project: termserv
 ms.assetid: 3fb05ce4-a3be-4c84-8e03-71213f453f74
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioEndpointRT, IAudioEndpointRT interface [Remote Desktop Services], IAudioEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointRT, termserv.iaudioendpointrt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>IAudioEndpointRT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f61497c8-35da-4fbf-af83-1f15d5fe94f7">
-        GetCurrentPadding</a>
+<a href="https://msdn.microsoft.com/f61497c8-35da-4fbf-af83-1f15d5fe94f7">GetCurrentPadding</a>
 </td>
 <td align="left" width="63%">
 Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.

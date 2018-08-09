@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder.htm
 old-project: DirectShow
 ms.assetid: fb2927cf-c979-411f-a896-d010b684acf2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], IAMAnalogVideoEncoder interface [DirectShow],described, IAMAnalogVideoEncoderInterface, dshow.iamanalogvideoencoder, strmif/IAMAnalogVideoEncoder
 ms.prod: windows
 ms.technology: windows-sdk

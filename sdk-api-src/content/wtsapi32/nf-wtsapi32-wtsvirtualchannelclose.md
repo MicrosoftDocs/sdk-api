@@ -4,10 +4,10 @@ title: WTSVirtualChannelClose function
 author: windows-sdk-content
 description: Closes an open virtual channel handle.
 old-location: termserv\wtsvirtualchannelclose.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d82cb1cd-a9bd-45e8-8a86-2c7dd860b987
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSVirtualChannelClose, WTSVirtualChannelClose function [Remote Desktop Services], _win32_wtsvirtualchannelclose, termserv.wtsvirtualchannelclose, wtsapi32/WTSVirtualChannelClose
 ms.prod: windows
 ms.technology: windows-sdk

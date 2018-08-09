@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getvideoposition.htm
 old-project: medfound
 ms.assetid: 59c2e914-cc15-4534-976c-a760ff97f6ae
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPosition method [Media Foundation], GetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoPosition method, IMFVideoDisplayControl.GetVideoPosition, IMFVideoDisplayControl::GetVideoPosition, evr/IMFVideoDisplayControl::GetVideoPosition, mf.imfvideodisplaycontrol_getvideoposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Gets the source and destination rectangles for the video.
+Gets the source and destination rectangles for the video.
         
 
 

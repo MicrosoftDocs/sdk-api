@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_setsourcerect.htm
 old-project: direct3ddxgi
 ms.assetid: E614D9C2-9AAC-4ADC-9B7B-99C47975DA07
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetSourceRect method, IDXGIDecodeSwapChain.SetSourceRect, IDXGIDecodeSwapChain::SetSourceRect, SetSourceRect, SetSourceRect method [DXGI], SetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setsourcerect, dxgi1_3/IDXGIDecodeSwapChain::SetSourceRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+This method returns S_OK on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

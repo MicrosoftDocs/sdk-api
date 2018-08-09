@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_SolidBrush_GetColor_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrushmethods\getcolor_82color.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],GetColor method, SolidBrush.GetColor, SolidBrush::GetColor, _gdiplus_CLASS_SolidBrush_GetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_GetColor_color_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
@@ -95,15 +95,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533859(v=VS.85).aspx">Filling a Shape with a Solid Color</a>
+<a href="https://msdn.microsoft.com/cedef138-5047-4a72-8b89-5a95062a351c">Filling a Shape with a Solid Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534508(v=VS.85).aspx">SolidBrush</a>
+<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534737(v=VS.85).aspx">SolidBrush::SetColor</a>
+<a href="https://msdn.microsoft.com/5cbdb8d9-c9c9-4273-8d22-67547b598495">SolidBrush::SetColor</a>
  
 
  

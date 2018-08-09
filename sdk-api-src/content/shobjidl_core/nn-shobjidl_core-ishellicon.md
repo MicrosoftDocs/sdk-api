@@ -7,7 +7,7 @@ old-location: shell\IShellIcon.htm
 old-project: shell
 ms.assetid: 64711453-bc70-4acb-bff7-8b5534cceff5
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellIcon, IShellIcon interface [Windows Shell], IShellIcon interface [Windows Shell],described, _win32_IShellIcon, shell.IShellIcon, shobjidl_core/IShellIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-      Exposes a method that obtains an icon index for an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object.
+Exposes a method that obtains an icon index for an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object.
 
 
 ## -inheritance
@@ -86,16 +85,13 @@ Gets an icon for an object inside a specific folder.
 
 
 
-
-        Implement <b>IShellIcon</b> when creating an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation to provide a quick way to obtain the icon for an object in the folder.
+Implement <b>IShellIcon</b> when creating an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation to provide a quick way to obtain the icon for an object in the folder.
       
 
-
-        If <b>IShellIcon</b> is not implemented by an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object, <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a> is used to retrieve an icon for all objects.
+If <b>IShellIcon</b> is not implemented by an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object, <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a> is used to retrieve an icon for all objects.
       
 
-
-        Use <b>IShellIcon</b> when retrieving the icon index for an item in a Shell folder.
+Use <b>IShellIcon</b> when retrieving the icon index for an item in a Shell folder.
       
 
 <b>IShellIcon</b> allows an application to obtain the icon for any object within a folder by using only one instance of the interface. <a href="https://msdn.microsoft.com/f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f">IExtractIcon</a>, on the other hand, requires that a separate instance of the interface be created for each object.

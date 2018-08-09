@@ -4,10 +4,10 @@ title: IWSDServiceProxy::SetEventingStatusCallback
 author: windows-sdk-content
 description: Sets or clears the eventing status callback.
 old-location: ncd\iwsdserviceproxy_seteventingstatuscallback.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 0a924df4-93a7-4443-a384-0a89d5d90509
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWSDServiceProxy interface,SetEventingStatusCallback method, IWSDServiceProxy.SetEventingStatusCallback, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
 ms.prod: windows
 ms.technology: windows-sdk

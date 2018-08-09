@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler.htm
 old-project: taskschd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskScheduler interface [Task Scheduler],described, _msb_itaskscheduler, mstask/ITaskScheduler, taskschd.itaskscheduler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 
 Provides the methods for scheduling tasks.
 
-It is the primary interface of the <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
+It is the primary interface of the <a href="t.htm">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
 
 
 ## -inheritance

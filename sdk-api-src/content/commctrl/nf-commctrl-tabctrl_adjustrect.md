@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_AdjustRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_adjustrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_AdjustRect, TabCtrl_AdjustRect macro [Windows Controls], _win32_TabCtrl_AdjustRect, _win32_TabCtrl_AdjustRect_cpp, commctrl/TabCtrl_AdjustRect, controls.TabCtrl_AdjustRect, controls._win32_TabCtrl_AdjustRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760573(v=VS.85).aspx">TCM_ADJUSTRECT</a> message explicitly. 
+Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://msdn.microsoft.com/2f14201a-e4a3-4ae5-b9cf-4a674c52f24a">TCM_ADJUSTRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -67,7 +67,11 @@ Handle to the tab control.
 
 ### -param bLarger
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+Operation to perform. If this parameter is <b>TRUE</b>, 
+					<i>prc</i> specifies a display rectangle and receives the corresponding window rectangle. If this parameter is <b>FALSE</b>, 
+					<i>prc</i> specifies a window rectangle and receives the corresponding display area. 
 
 
 ### -param prc
@@ -75,15 +79,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the given rectangle and receives the calculated rectangle. 
-
-
-#### - fLarger
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
-
-Operation to perform. If this parameter is <b>TRUE</b>, 
-					<i>prc</i> specifies a display rectangle and receives the corresponding window rectangle. If this parameter is <b>FALSE</b>, 
-					<i>prc</i> specifies a window rectangle and receives the corresponding display area. 
 
 
 ## -remarks

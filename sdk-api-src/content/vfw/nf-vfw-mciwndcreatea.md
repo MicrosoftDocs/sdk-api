@@ -7,7 +7,7 @@ old-location: multimedia\mciwndcreate.htm
 old-project: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MCIWndCreate, MCIWndCreate function [Windows Multimedia], MCIWndCreateA, MCIWndCreateW, _win32_MCIWndCreate, multimedia.mciwndcreate, vfw/MCIWndCreate, vfw/MCIWndCreateA, vfw/MCIWndCreateW
 ms.prod: windows
 ms.technology: windows-sdk

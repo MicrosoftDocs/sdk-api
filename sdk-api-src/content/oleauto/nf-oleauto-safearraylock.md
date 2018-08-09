@@ -7,7 +7,7 @@ old-location: automat\safearraylock.htm
 old-project: automat
 ms.assetid: cb29d862-c7c5-4852-b017-c29e88d5f1c4
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SafeArrayLock, SafeArrayLock function [Automation], _oa96_SafeArrayLock, automat.safearraylock, oleauto/SafeArrayLock
 ms.prod: windows
 ms.technology: windows-sdk

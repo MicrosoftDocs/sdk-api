@@ -7,7 +7,7 @@ old-location: stg\locktype.htm
 old-project: stg
 ms.assetid: 5d84fb08-aa4f-4918-a0de-550b02cb5287
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: LOCKTYPE, LOCKTYPE enumeration [Structured Storage], LOCK_EXCLUSIVE, LOCK_ONLYONCE, LOCK_WRITE, _stg_locktype, objidl/LOCKTYPE, objidl/LOCK_EXCLUSIVE, objidl/LOCK_ONLYONCE, objidl/LOCK_WRITE, stg.locktype, tagLOCKTYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>LOCKTYPE</b> enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the 
 <a href="https://msdn.microsoft.com/cea59e2a-99d8-472d-8e4f-2e2474789c20">ILockBytes::LockRegion</a> and 
 <a href="https://msdn.microsoft.com/f2606833-05ed-4bd0-a762-7b8172fb14c8">IStream::LockRegion</a> methods.

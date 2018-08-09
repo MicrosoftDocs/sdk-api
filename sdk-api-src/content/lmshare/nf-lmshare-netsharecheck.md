@@ -4,10 +4,10 @@ title: NetShareCheck function
 author: windows-sdk-content
 description: Checks whether or not a server is sharing a device.
 old-location: fs\netsharecheck.htm
-old-project: NetShare
+old-project: netshare
 ms.assetid: 8453dcd2-5c58-4fe4-9426-0fd51647394d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: NetShareCheck, NetShareCheck function [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_netsharecheck, fs.netsharecheck, lmshare/NetShareCheck, netmgmt.netsharecheck
 ms.prod: windows
 ms.technology: windows-sdk

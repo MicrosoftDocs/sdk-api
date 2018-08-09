@@ -7,7 +7,7 @@ old-location: adsi\ads_escape_mode_enum.htm
 old-project: ADSI
 ms.assetid: f69934bc-69ac-4822-b92d-89c94f55e036
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ADS_ESCAPEDMODE_DEFAULT, ADS_ESCAPEDMODE_OFF, ADS_ESCAPEDMODE_OFF_EX, ADS_ESCAPEDMODE_ON, ADS_ESCAPE_MODE_ENUM, ADS_ESCAPE_MODE_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0001_0078_0004, _ds_ads_escape_mode_enum, adsi.ads__escape__mode__enum, adsi.ads_escape_mode_enum, iads/ADS_ESCAPEDMODE_DEFAULT, iads/ADS_ESCAPEDMODE_OFF, iads/ADS_ESCAPEDMODE_OFF_EX, iads/ADS_ESCAPEDMODE_ON, iads/ADS_ESCAPE_MODE_ENUM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ Special characters must be escaped when used for any unintended purposes. For ex
 
 Similarly, the ADSI special character, slash mark (/), separates ADSI-specific elements, "LDAP://server/CN=Jeff Smith,CN=Users,DC=Fabrikam,DC=com". Although it must be escaped when used for any other purposes, for example, "LDAP://server/CN=Jeff Smith\/California,CN=Users,DC=Fabrikam,DC=com". You can choose an <b>ADS_ESCAPE_MODE_ENUM</b> option to display this escaped string in a human-readable form: "LDAP://server/CN=Jeff Smith/California,CN=Users,DC=Fabrikam,DC=com".
 
-Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="https://msdn.microsoft.com/library/Aa746384(v=VS.85).aspx">LDAP Special Characters</a>.
+Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="ldap_adspath.htm">LDAP Special Characters</a>.
 
 To show unescaped path string, use 
 the <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> interface and its methods. All other ADSI APIs return the escaped path string.

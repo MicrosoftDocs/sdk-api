@@ -7,7 +7,7 @@ old-location: automat\isupporterrorinfo.htm
 old-project: automat
 ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation],described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\stringcbgets.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgets.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StringCbGets, StringCbGets function [Menus and Other Resources], StringCbGetsA, StringCbGetsW, _shell_StringCbGets, _shell_stringcbgets_cpp, menurc.stringcbgets, strsafe/StringCbGets, strsafe/StringCbGetsA, strsafe/StringCbGetsW, winui._shell_stringcbgets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 <b>StringCbGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGets</b>always null-terminates a nonzero-length destination buffer.
 
-The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a> if you require the handling of null string pointer values.
+The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbGets</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -190,11 +190,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a>
+<a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647536(v=VS.85).aspx">StringCchGets</a>
+<a href="https://msdn.microsoft.com/eec6e646-83a1-403a-8b40-fd6ab2e6fdb6">StringCchGets</a>
  
 
  

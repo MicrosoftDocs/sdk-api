@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_jobid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xwk.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: FaxJob object [Fax Service],JobId property, FaxJob.JobId, IFaxJob.get_JobId, IFaxJob::get_JobId, JobId property [Fax Service], JobId property [Fax Service],FaxJob object, _mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid_vb, get_JobId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,23 +77,23 @@ You can use the <b>JobId</b> property to uniquely identify a fax job because it 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690298(v=VS.85).aspx">FaxJob</a>
+<a href="https://msdn.microsoft.com/c6e95bae-c1f8-4636-9847-7c66187cfc8d">FaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a>
+<a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
+<a href="https://msdn.microsoft.com/c9e548c4-9381-4b7d-9a9d-55fbc59f198f">IFaxJobs</a>
  
 
  

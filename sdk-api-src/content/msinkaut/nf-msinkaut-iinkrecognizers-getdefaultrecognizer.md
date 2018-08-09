@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizers_getdefaultrecognizer.htm
 old-project: tablet
 ms.assetid: 499a257d-72de-4121-a98f-c827a3fef611
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefaultRecognizer method [Tablet PC], GetDefaultRecognizer method [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],GetDefaultRecognizer method, IInkRecognizers.GetDefaultRecognizer, IInkRecognizers::GetDefaultRecognizer, msinkaut/IInkRecognizers::GetDefaultRecognizer, tablet.inkrecognizers_getdefaultrecognizer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -171,7 +171,7 @@ For more information about NLS, see <a href="https://msdn.microsoft.com/daf929b2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
+<a href="tablet.iinkrecognizers">IInkRecognizers</a>
 
 
 

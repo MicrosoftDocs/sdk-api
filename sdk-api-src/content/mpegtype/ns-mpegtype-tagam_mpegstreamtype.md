@@ -7,7 +7,7 @@ old-location: dshow\am_mpegstreamtype.htm
 old-project: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE, tagAM_MPEGSTREAMTYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          
-          The <b>AM_MPEGSTREAMTYPE</b> structure defines the media type for an MPEG-1 program stream.
+The <b>AM_MPEGSTREAMTYPE</b> structure defines the media type for an MPEG-1 program stream.
         
 
 

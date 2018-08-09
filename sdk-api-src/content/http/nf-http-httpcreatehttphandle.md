@@ -7,7 +7,7 @@ old-location: http\httpcreatehttphandle.htm
 old-project: http
 ms.assetid: c3741092-c23a-465f-9a65-5bcbf977fad3
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_httpcreatehttphandle, http.httpcreatehttphandle, http/HttpCreateHttpHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,19 +62,14 @@ Starting with HTTP Server API Version 2.0,  applications should call <a href="ht
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [out]
 
-TBD
+A pointer to a variable that receives a handle to the request queue.
 
 
 ### -param Reserved [in]
 
 Reserved. This parameter must be zero.
-
-
-#### - pReqQueueHandle [out]
-
-A pointer to a variable that receives a handle to the request queue.
 
 
 ## -returns

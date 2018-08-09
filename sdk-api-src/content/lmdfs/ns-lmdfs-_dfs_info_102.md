@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_102_str.htm
 old-project: dfs
 ms.assetid: ca4da0a2-d5b3-4ad6-bc00-6629b9bf13e7
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDFS_INFO_102, *PDFS_INFO_102, DFS_INFO_102, DFS_INFO_102 structure [Distributed File System], LPDFS_INFO_102, LPDFS_INFO_102 structure pointer [Distributed File System], PDFS_INFO_102, PDFS_INFO_102 structure pointer [Distributed File System], _DFS_INFO_102, _win32_dfs_info_102_str, dfs.dfs_info_102_str, fs.dfs_info_102_str, lmdfs/DFS_INFO_102, lmdfs/LPDFS_INFO_102, lmdfs/PDFS_INFO_102, netmgmt.dfs_info_102_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfsensorstream_getmediatype.htm
 old-project: medfound
 ms.assetid: 510AD624-F212-4FD7-BF30-A5C90CFA23C5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaType method, IMFSensorStream.GetMediaType, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The retrieved media type.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ The retrieved media type.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -105,8 +103,7 @@ The retrieved media type.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppMediaType</i> parameter is null.
+The <i>ppMediaType</i> parameter is null.
 
 </td>
 </tr>
@@ -117,8 +114,7 @@ The retrieved media type.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>dwIndex</i> is not in the allowed range.
+The <i>dwIndex</i> is not in the allowed range.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: controls\ListView_GetColumnOrderArray.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnorderarray.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetColumnOrderArray, ListView_GetColumnOrderArray macro [Windows Controls], _win32_ListView_GetColumnOrderArray, _win32_ListView_GetColumnOrderArray_cpp, commctrl/ListView_GetColumnOrderArray, controls.ListView_GetColumnOrderArray, controls._win32_ListView_GetColumnOrderArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774913(v=VS.85).aspx">LVM_GETCOLUMNORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/d4636aa8-c61e-4467-abc7-eea897bf370e">LVM_GETCOLUMNORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Gets the current left-to-right order of columns in a list-view control. You can 
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a list-view control. 
 
 
 ### -param iCount
@@ -71,22 +73,6 @@ The number of columns in the list-view control.
 
 
 ### -param pi
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to a list-view control. 
-
-
-#### - lpiArray
 
 Type: <b>int*</b>
 

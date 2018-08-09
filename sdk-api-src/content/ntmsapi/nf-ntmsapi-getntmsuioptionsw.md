@@ -7,7 +7,7 @@ old-location: fs\getntmsuioptions.htm
 old-project: Rsm
 ms.assetid: 69267981-1d68-4af9-ae4b-5d4cb3a18c57
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: GetNtmsUIOptions, GetNtmsUIOptions function [Files], GetNtmsUIOptionsA, GetNtmsUIOptionsW, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, _zaw_getntmsuioptions, base.getntmsuioptions, fs.getntmsuioptions, ntmsapi/GetNtmsUIOptions, ntmsapi/GetNtmsUIOptionsA, ntmsapi/GetNtmsUIOptionsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,14 +133,7 @@ UI messages that give error information. These include operator requests that ar
 Multi-string that returns the names of the machines to which the UI is being redirected. This parameter cannot be <b>NULL</b>.
 
 
-### -param lpdwBufSize
-
-TBD
-
-
-
-
-#### - lpdwSize [in, out]
+### -param lpdwBufSize [in, out]
 
 Size of the destination string, in <b>TCHARs</b>.
 
@@ -282,7 +275,7 @@ A call to
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
 
 
 

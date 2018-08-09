@@ -7,7 +7,7 @@ old-location: gdi\polybezier.htm
 old-project: gdi
 ms.assetid: d1622574-c65e-4265-9a17-22bb4d2cae0e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PolyBezier, PolyBezier function [Windows GDI], _win32_PolyBezier, gdi.polybezier, wingdi/PolyBezier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,26 +66,14 @@ The <b>PolyBezier</b> function draws one or more Bézier curves.
 A handle to a device context.
 
 
-### -param apt
-
-TBD
-
-
-### -param cpt
-
-TBD
-
-
-
-
-#### - cPoints [in]
-
-The number of points in the <i>lppt</i> array. This value must be one more than three times the number of curves to be drawn, because each Bézier curve requires two control points and an endpoint, and the initial curve requires an additional starting point.
-
-
-#### - lppt [in]
+### -param apt [in]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures that contain the endpoints and control points of the curve(s), in logical units.
+
+
+### -param cpt [in]
+
+The number of points in the <i>lppt</i> array. This value must be one more than three times the number of curves to be drawn, because each Bézier curve requires two control points and an endpoint, and the initial curve requires an additional starting point.
 
 
 ## -returns

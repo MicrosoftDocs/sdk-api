@@ -4,10 +4,10 @@ title: AddDllDirectory function
 author: windows-sdk-content
 description: Adds a directory to the process DLL search path.
 old-location: base\adddlldirectory.htm
-old-project: Dlls
+old-project: dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
 ms.prod: windows
 ms.technology: windows-sdk

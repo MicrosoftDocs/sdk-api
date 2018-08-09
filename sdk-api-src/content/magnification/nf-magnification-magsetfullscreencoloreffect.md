@@ -7,7 +7,7 @@ old-location: magapi\magapi_magsetfullscreencoloreffect.htm
 old-project: magapi
 ms.assetid: F6CE5453-E427-46E4-81E8-6E96BA28C05C
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagSetFullscreenColorEffect, MagSetFullscreenColorEffect function [Magnification API], magapi.magapi_magsetfullscreencoloreffect, magnification/MagSetFullscreenColorEffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Changes the color transformation matrix  associated with the full-screen magnifi
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
 
 The new color transformation matrix. This parameter must not be NULL.
 

@@ -4,10 +4,10 @@ title: ITDispatchMapper
 author: windows-sdk-content
 description: The ITDispatchMapper interface allows an application to retrieve the dispatch pointer of another interface on an object, given the dispatch pointer of one interface and the GUID of another.
 old-location: tapi3\itdispatchmapper.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 65286ea6-b9a6-423b-9833-2d41ef2fd8de
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITDispatchMapper, ITDispatchMapper interface [TAPI 2.2], ITDispatchMapper interface [TAPI 2.2],described, _tapi3_itdispatchmapper, tapi3.itdispatchmapper, tapi3if/ITDispatchMapper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDispatchMapper</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITDispatchMapper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDispatchMapper</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITDispatchMapper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -96,7 +96,7 @@ Returns a dispatch pointer to a different interface on an object given its GUID 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

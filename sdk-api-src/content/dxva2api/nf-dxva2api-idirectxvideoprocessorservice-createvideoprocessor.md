@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm
 old-project: medfound
 ms.assetid: 18178a10-f902-4d25-992e-a27145204321
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],CreateVideoProcessor method, IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Creates a video processor device.
+Creates a video processor device.
         
 
 
@@ -68,8 +67,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param pVideoDesc [in]
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/0e500a08-a3b5-475c-8bbc-e4b30cce247d">DXVA2_VideoDesc</a> structure that describes the video content.
+A pointer to a <a href="https://msdn.microsoft.com/0e500a08-a3b5-475c-8bbc-e4b30cce247d">DXVA2_VideoDesc</a> structure that describes the video content.
           
 
 
@@ -80,15 +78,13 @@ The format of the render target surface, specified as a <b>D3DFORMAT</b> value. 
 
 ### -param MaxNumSubStreams [in]
 
-
-            The maximum number of substreams that will be used with this device.
+The maximum number of substreams that will be used with this device.
           
 
 
 ### -param ppVidProcess [out]
 
-
-            Receives a pointer to the video processor's <a href="https://msdn.microsoft.com/a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5">IDirectXVideoProcessor</a> interface. The caller must release the interface.
+Receives a pointer to the video processor's <a href="https://msdn.microsoft.com/a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5">IDirectXVideoProcessor</a> interface. The caller must release the interface.
           
 
 

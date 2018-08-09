@@ -7,7 +7,7 @@ old-location: wcs\blackinformation.htm
 old-project: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _BlackInformation, _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
 ms.prod: windows
 ms.technology: windows-sdk

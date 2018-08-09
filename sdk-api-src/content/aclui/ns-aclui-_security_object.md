@@ -7,7 +7,7 @@ old-location: security\security_object.htm
 old-project: secauthz
 ms.assetid: C3E61527-76AB-49E9-8BBD-486F437CC677
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSECURITY_OBJECT, PSECURITY_OBJECT, PSECURITY_OBJECT structure pointer [Security], SECURITY_OBJECT, SECURITY_OBJECT structure [Security], SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE (4), SECURITY_OBJECT_ID_CENTRAL_POLICY (3), SECURITY_OBJECT_ID_OBJECT_SD (1), SECURITY_OBJECT_ID_SHARE (2), _SECURITY_OBJECT, aclui/PSECURITY_OBJECT, aclui/SECURITY_OBJECT, security.security_object"
 ms.prod: windows
 ms.technology: windows-sdk

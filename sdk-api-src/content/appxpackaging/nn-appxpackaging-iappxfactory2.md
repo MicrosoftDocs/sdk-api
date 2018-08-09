@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory2.htm
 old-project: appxpkg
 ms.assetid: 01B11591-F854-4A39-8EDD-A5140235CA0B
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxFactory2, IAppxFactory2 interface [App packaging and management], IAppxFactory2 interface [App packaging and management],described, appxpackaging/IAppxFactory2, appxpkg.iappxfactory2
 ms.prod: windows
 ms.technology: windows-sdk

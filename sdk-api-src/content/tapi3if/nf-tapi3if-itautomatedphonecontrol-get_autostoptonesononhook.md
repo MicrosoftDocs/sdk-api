@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook
 author: windows-sdk-content
 description: The get_AutoStopTonesOnOnHook method retrieves the current value of the AutoStopTonesOnOnHook property.
 old-location: tapi3\itautomatedphonecontrol_get_autostoptonesononhook.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2ece8d7a-b280-42b6-9f51-d88650488699
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoStopTonesOnOnHook method, ITAutomatedPhoneControl.get_AutoStopTonesOnOnHook, ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook, _tapi3_itautomatedphonecontrol_get_autostoptonesononhook, get_AutoStopTonesOnOnHook, get_AutoStopTonesOnOnHook method [TAPI 2.2], get_AutoStopTonesOnOnHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autostoptonesononhook, tapi3if/ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook
 ms.prod: windows
 ms.technology: windows-sdk

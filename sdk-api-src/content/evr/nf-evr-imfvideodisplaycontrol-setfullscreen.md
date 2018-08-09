@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_setfullscreen.htm
 old-project: medfound
 ms.assetid: 95c85fb2-9267-477f-aa47-1c050ccc1bdd
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,10 +54,9 @@ req.product: Windows Media Format 9 Series or later
 
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. ]
 
+Sets or unsets full-screen rendering mode.
 
-          Sets or unsets full-screen rendering mode.
-
-To implement full-screen playback, an application should simply resize the video window to cover the entire area of the monitor. Also set the window to be a topmost window, so that the application receives all mouse-click messages. For more information about topmost windows, see the documentation for the <a href="https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx">SetWindowPos</a> function.
+To implement full-screen playback, an application should simply resize the video window to cover the entire area of the monitor. Also set the window to be a topmost window, so that the application receives all mouse-click messages. For more information about topmost windows, see the documentation for the <a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a> function.
 
 
 ## -parameters
@@ -67,8 +66,7 @@ To implement full-screen playback, an application should simply resize the video
 
 ### -param fFullscreen [in]
 
-
-            If <b>TRUE</b>, the enhanced video renderer (EVR) uses full-screen mode. If <b>FALSE</b>, the EVR draws the video in the application-provided clipping window.
+If <b>TRUE</b>, the enhanced video renderer (EVR) uses full-screen mode. If <b>FALSE</b>, the EVR draws the video in the application-provided clipping window.
           
 
 
@@ -90,8 +88,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -103,8 +100,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The video renderer has been shut down.
+The video renderer has been shut down.
               
 
 </td>
@@ -119,16 +115,13 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        The default EVR presenter implements full-screen mode using Direct3D exclusive mode.
+The default EVR presenter implements full-screen mode using Direct3D exclusive mode.
       
 
-
-        If you use this  method  to switch to full-screen mode, set the application window to be a topmost window and resize the window to cover the entire monitor. This ensures that the application window receives all mouse-click messages. Also set the keyboard focus to the application window. When you switch out of full-screen mode, restore the window's original size and position.
+If you use this  method  to switch to full-screen mode, set the application window to be a topmost window and resize the window to cover the entire monitor. This ensures that the application window receives all mouse-click messages. Also set the keyboard focus to the application window. When you switch out of full-screen mode, restore the window's original size and position.
       
 
-
-        By default, the cursor is still visible in full-screen mode. To hide the cursor, call <b>ShowCursor</b>.
+By default, the cursor is still visible in full-screen mode. To hide the cursor, call <b>ShowCursor</b>.
       
 
 The transition to and from full-screen mode occurs asynchronously. To get the current mode, call <a href="https://msdn.microsoft.com/ee564655-be8a-46f7-9682-acf3b38d056a">IMFVideoDisplayControl::GetFullscreen</a>.

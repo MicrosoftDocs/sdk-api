@@ -7,7 +7,7 @@ old-location: base\symsrvdeltaname.htm
 old-project: debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ The path of the second version of the symbol or image file.
 
 
 
-
-						If the function succeeds, the return value is the resulting file name.
+If the function succeeds, the return value is the resulting file name.
 						
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 

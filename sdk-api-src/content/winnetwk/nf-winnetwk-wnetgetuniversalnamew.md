@@ -4,10 +4,10 @@ title: WNetGetUniversalNameW function
 author: windows-sdk-content
 description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
 old-location: wnet\wnetgetuniversalname.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
 ms.prod: windows
 ms.technology: windows-sdk

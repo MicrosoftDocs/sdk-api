@@ -7,7 +7,7 @@ old-location: intl\enumlanguagegrouplocalesproc.htm
 old-project: Intl
 ms.assetid: e422c61f-7a97-4f95-8592-22a1eb5f616b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LANGGROUPLOCALE_ENUMPROC, LANGGROUPLOCALE_ENUMPROC callback, LANGGROUPLOCALE_ENUMPROC callback function [Internationalization for Windows Applications], LANGGROUPLOCALE_ENUMPROCA, LANGGROUPLOCALE_ENUMPROCW, _win32_EnumLanguageGroupLocalesProc, intl.enumlanguagegrouplocalesproc, winnls/LANGGROUPLOCALE_ENUMPROC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,14 +133,14 @@ Identifier of the language group. This parameter can have one of the following v
 </li>
 </ul>
 
-#### - lParam [in]
-
-Application-defined value passed to the <a href="https://msdn.microsoft.com/5a85c6bd-0362-46ff-80be-a198b1259482">EnumLanguageGroupLocales</a> function. This parameter can be used for error checking.
-
-
 #### - lpLocaleString [in]
 
 Pointer to a buffer containing a null-terminated locale identifier string.
+
+
+#### - lParam [in]
+
+Application-defined value passed to the <a href="https://msdn.microsoft.com/5a85c6bd-0362-46ff-80be-a198b1259482">EnumLanguageGroupLocales</a> function. This parameter can be used for error checking.
 
 
 ## -returns

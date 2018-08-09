@@ -7,7 +7,7 @@ old-location: gdi\lineto.htm
 old-project: gdi
 ms.assetid: a31b3a9a-110f-4cdf-89d9-19937a2e40b4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LineTo, LineTo function [Windows GDI], _win32_LineTo, gdi.lineto, wingdi/LineTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,12 @@ The <b>LineTo</b> function draws a line from the current position up to, but not
 Handle to a device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-
-
-#### - nXEnd [in]
+### -param x [in]
 
 Specifies the x-coordinate, in logical units, of the line's ending point.
 
 
-#### - nYEnd [in]
+### -param y [in]
 
 Specifies the y-coordinate, in logical units, of the line's ending point.
 

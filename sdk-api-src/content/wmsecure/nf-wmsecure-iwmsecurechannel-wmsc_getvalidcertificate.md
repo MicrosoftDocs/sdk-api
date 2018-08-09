@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_getvalidcertificate.htm
 old-project: wmformat
 ms.assetid: 0ecc25c5-238e-4415-952e-7d830ba1c317
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_GetValidCertificate method, IWMSecureChannel.WMSC_GetValidCertificate, IWMSecureChannel::WMSC_GetValidCertificate, WMSC_GetValidCertificate, WMSC_GetValidCertificate method [windows Media Format], WMSC_GetValidCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_getvalidcertificate, wmsecure/IWMSecureChannel::WMSC_GetValidCertificate
 ms.prod: windows
 ms.technology: windows-sdk

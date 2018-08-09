@@ -7,7 +7,7 @@ old-location: rpc\mesencodefixedbufferhandlecreate.htm
 old-project: rpc
 ms.assetid: 7700e0f6-0f30-415c-9873-983ec6c249b2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: MesEncodeFixedBufferHandleCreate, MesEncodeFixedBufferHandleCreate function [RPC], _rpc_mesencodefixedbufferhandlecreate, midles/MesEncodeFixedBufferHandleCreate, rpc.mesencodefixedbufferhandlecreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ### -param pBuffer
 
-TBD
+Pointer to the user-supplied buffer.
 
 
 ### -param BufferSize
@@ -78,11 +78,6 @@ Pointer to the size of the completed encoding. The size will be written to the p
 ### -param pHandle
 
 Pointer to the newly created handle.
-
-
-#### - Buffer
-
-Pointer to the user-supplied buffer.
 
 
 ## -returns

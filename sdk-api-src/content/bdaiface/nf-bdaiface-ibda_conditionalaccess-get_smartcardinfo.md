@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_get_smartcardinfo.htm
 old-project: mstv
 ms.assetid: 0c9143e7-1e59-4f64-84b8-2bbac18cf787
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardInfo method, IBDA_ConditionalAccess.get_SmartCardInfo, IBDA_ConditionalAccess::get_SmartCardInfo, IBDA_ConditionalAccessget_SmartCardInfo, bdaiface/IBDA_ConditionalAccess::get_SmartCardInfo, get_SmartCardInfo, get_SmartCardInfo method [Microsoft TV Technologies], get_SmartCardInfo method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ Receives a value indicating whether daylight savings is in effect. If the value 
 
 ### -param pbyRatingRegion [out]
 
-
-            Receives a value indicating the rating region.
+Receives a value indicating the rating region.
           
 
 
@@ -88,8 +87,7 @@ Receives the time zone offset in minutes.
 
 ### -param pbstrLanguage [out]
 
-
-            Receives a string indicating the language. When the string is no longer required, call the <b>SysFreeString</b> function to free it.
+Receives a string indicating the language. When the string is no longer required, call the <b>SysFreeString</b> function to free it.
           
 
 

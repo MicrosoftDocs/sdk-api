@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstance_openpropertystore_method.htm
 old-project: fundisc
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ The method is unable to allocate the memory required to perform this operation.
 
 Only one property store per function instance can be open at a time. If <b>OpenPropertyStore</b> is called twice on the same function instance, both <i>ppIPropertyStore</i> pointers would point to the same property store. Furthermore, the access mode (as specified by the  <i>dwStgAccess</i> parameter) would be determined by the most recent <b>OpenPropertyStore</b> call. Applications should call <b>Release</b> to close a property store before opening another.
 
-It is possible that <b>OpenPropertyStore</b> will return a property store for a device that has been removed. In this case, the property keys in the store will be empty. This situation may occur if the device's <a href="https://msdn.microsoft.com/library/Aa364290(v=VS.85).aspx">devnode</a> was deleted but the property store associated with the device's function instance is still accessible. This situation occurs rarely. 
+It is possible that <b>OpenPropertyStore</b> will return a property store for a device that has been removed. In this case, the property keys in the store will be empty. This situation may occur if the device's <a href="function_discovery_glossary.htm">devnode</a> was deleted but the property store associated with the device's function instance is still accessible. This situation occurs rarely. 
 
 
 

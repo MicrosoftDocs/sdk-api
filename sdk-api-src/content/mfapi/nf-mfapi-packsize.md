@@ -7,7 +7,7 @@ old-location: mf\packsize.htm
 old-project: medfound
 ms.assetid: F3DCEEA5-2D88-49FC-87DB-DEB0AE48E984
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize
 ms.prod: windows
 ms.technology: windows-sdk

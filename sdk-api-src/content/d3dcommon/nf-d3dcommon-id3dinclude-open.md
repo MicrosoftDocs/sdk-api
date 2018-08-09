@@ -7,7 +7,7 @@ old-location: direct3d11\id3dinclude_open.htm
 old-project: direct3d11
 ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, ID3DInclude::Open, Open, Open method [Direct3D 11], Open method [Direct3D 11],ID3DInclude interface, d3dcommon/ID3DInclude::Open, direct3d11.id3dinclude_open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ Pointer to the number of bytes that <b>Open</b> returns in <i>ppData</i>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 The user-implemented method must return S_OK. If <b>Open</b> fails when it reads the #include file, the application programming interface (API) that caused <b>Open</b> to be called fails. This failure can occur in one of the following situations:
               

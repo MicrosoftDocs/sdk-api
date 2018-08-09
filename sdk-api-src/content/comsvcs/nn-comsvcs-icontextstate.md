@@ -7,7 +7,7 @@ old-location: cos\icontextstate.htm
 old-project: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
 ms.prod: windows
 ms.technology: windows-sdk

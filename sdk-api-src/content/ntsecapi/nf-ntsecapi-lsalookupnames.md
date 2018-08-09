@@ -7,7 +7,7 @@ old-location: security\lsalookupnames.htm
 old-project: secmgmt
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ All of the names were found and successfully translated.
  
 
 If the function fails, the return value is the following <b>NTSTATUS</b> value or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

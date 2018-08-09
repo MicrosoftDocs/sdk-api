@@ -4,10 +4,10 @@ title: "_SecPkgInfoW"
 author: windows-sdk-content
 description: The SecPkgInfo structure provides general information about a security package, such as its name and capabilities.
 old-location: security\secpkginfo.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d0bff3d8-63f1-4a4e-851f-177040af6bd2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecPkgInfoW, PSecPkgInfo, PSecPkgInfo structure pointer [Security], SECPKG_CALLFLAGS_APPCONTAINER, SECPKG_CALLFLAGS_AUTHCAPABLE, SECPKG_CALLFLAGS_FORCE_SUPPLIED, SECPKG_FLAG_ACCEPT_WIN32_NAME, SECPKG_FLAG_APPCONTAINER_CHECKS, SECPKG_FLAG_APPCONTAINER_PASSTHROUGH, SECPKG_FLAG_ASCII_BUFFERS, SECPKG_FLAG_CLIENT_ONLY, SECPKG_FLAG_CONNECTION, SECPKG_FLAG_DATAGRAM, SECPKG_FLAG_DELEGATION, SECPKG_FLAG_EXTENDED_ERROR, SECPKG_FLAG_FRAGMENT, SECPKG_FLAG_GSS_COMPATIBLE, SECPKG_FLAG_IMPERSONATION, SECPKG_FLAG_INTEGRITY, SECPKG_FLAG_LOGON, SECPKG_FLAG_MULTI_REQUIRED, SECPKG_FLAG_MUTUAL_AUTH, SECPKG_FLAG_NEGOTIABLE, SECPKG_FLAG_NEGOTIABLE2, SECPKG_FLAG_NEGO_EXTENDER, SECPKG_FLAG_PRIVACY, SECPKG_FLAG_READONLY_WITH_CHECKSUM, SECPKG_FLAG_RESTRICTED_TOKENS, SECPKG_FLAG_STREAM, SECPKG_FLAG_TOKEN_ONLY, SecPkgInfo, SecPkgInfo structure [Security], SecPkgInfoA, SecPkgInfoW, _SecPkgInfoW, _ssp_secpkginfo, security.secpkginfo, sspi/PSecPkgInfo, sspi/SecPkgInfo, sspi/SecPkgInfoA, sspi/SecPkgInfoW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgInfoW structure

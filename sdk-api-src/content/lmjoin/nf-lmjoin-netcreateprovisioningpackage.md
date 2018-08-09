@@ -7,7 +7,7 @@ old-location: netmgmt\netcreateprovisioningpackage.htm
 old-project: netmgmt
 ms.assetid: 6E2A5578-8308-41E2-B5E9-5E34E9E76C0B
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetCreateProvisioningPackage, NetCreateProvisioningPackage function [Network Management], aCertTemplateNames, aMachinePolicyNames, aMachinePolicyPaths, cCertTemplateNames, cMachinePolicyNames, cMachinePolicyPaths, dwProvisionOptions, dwVersion, lmjoin/NetCreateProvisioningPackage, lpDcName, lpDomain, lpMachineAccountOU, lpMachineName, netmgmt.netcreateprovisioningpackage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,9 +97,8 @@ A pointer to a constant null-terminated character string that specifies the name
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_____lpMachineName"></a><a id="_____lpmachinename"></a><a id="_____LPMACHINENAME"></a><dl>
-<dt><b>
-    lpMachineName</b></dt>
+<td width="40%"><a id="lpMachineName"></a><a id="lpmachinename"></a><a id="LPMACHINENAME"></a><dl>
+<dt><b>lpMachineName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -211,9 +210,11 @@ When <b>aMachinePolicyPaths</b> is not <b>NULL</b>, this member provides an expl
  
 
 
-### -param ppPackageBinData
+### -param ppPackageBinData [out, optional]
 
-TBD
+An optional pointer that will receive the package required by <a href="https://msdn.microsoft.com/f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <a href="https://msdn.microsoft.com/4c854258-b84d-4ef3-a6da-ce0a9540ffd5">NetProvisionComputerAccount</a> function completes successfully.  The data is returned as an opaque binary buffer which may be passed to <b>NetRequestOfflineDomainJoin</b> function.  
+
+If this parameter is <b>NULL</b>, then <i>pPackageTextData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  <i>pPackageTextData</i> parameter must be <b>NULL</b>.
 
 
 ### -param pdwPackageBinDataSize [out, optional]
@@ -223,21 +224,7 @@ A pointer to a value that receives the size, in bytes, of the buffer returned in
 This parameter must not be <b>NULL</b> if the <i>pPackageBinData</i> parameter is not <b>NULL</b>. This parameter must be <b>NULL</b> when the <i>pPackageBinData</i> parameter is <b>NULL</b>. 
 
 
-### -param ppPackageTextData
-
-TBD
-
-
-
-
-#### - pPackageBinData [out, optional]
-
-An optional pointer that will receive the package required by <a href="https://msdn.microsoft.com/f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <a href="https://msdn.microsoft.com/4c854258-b84d-4ef3-a6da-ce0a9540ffd5">NetProvisionComputerAccount</a> function completes successfully.  The data is returned as an opaque binary buffer which may be passed to <b>NetRequestOfflineDomainJoin</b> function.  
-
-If this parameter is <b>NULL</b>, then <i>pPackageTextData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  <i>pPackageTextData</i> parameter must be <b>NULL</b>.
-
-
-#### - pPackageTextData [out, optional]
+### -param ppPackageTextData [out, optional]
 
 An optional pointer that will receive the package required by <a href="https://msdn.microsoft.com/f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <a href="https://msdn.microsoft.com/4c854258-b84d-4ef3-a6da-ce0a9540ffd5">NetProvisionComputerAccount</a> function completes successfully.  The data is returned in string form for embedding in an unattended setup answer file.  
 

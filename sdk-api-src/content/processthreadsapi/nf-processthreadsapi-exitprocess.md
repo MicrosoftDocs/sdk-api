@@ -7,7 +7,7 @@ old-location: base\exitprocess.htm
 old-project: procthread
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ Exiting a process causes the following:
 <li>The termination status of the process changes from STILL_ACTIVE to the exit value of the process.</li>
 <li>The state of the process object becomes signaled, satisfying any threads that had been waiting for the process to terminate.</li>
 </ol>
-
-				If one of the terminated threads in the process holds a lock and the DLL detach code in one of the loaded DLLs attempts to acquire the same lock, then calling <b>ExitProcess</b> results in a deadlock. In contrast, if a process terminates by calling 
+If one of the terminated threads in the process holds a lock and the DLL detach code in one of the loaded DLLs attempts to acquire the same lock, then calling <b>ExitProcess</b> results in a deadlock. In contrast, if a process terminates by calling 
 <a href="https://msdn.microsoft.com/0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a">TerminateProcess</a>, the DLLs that the process is attached to are not notified of the process termination. Therefore, if you do not know the state of all threads in your process, it is better to call <b>TerminateProcess</b> than  <b>ExitProcess</b>. Note that returning from the <b>main</b> function of an application results in a call to <b>ExitProcess</b>.
 
 Calling 

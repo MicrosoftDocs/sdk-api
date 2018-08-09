@@ -4,10 +4,10 @@ title: CertGetEnhancedKeyUsage function
 author: windows-sdk-content
 description: Returns information from the enhanced key usage (EKU) extension or the EKU extended property of a certificate.
 old-location: security\certgetenhancedkeyusage.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG, CertGetEnhancedKeyUsage, CertGetEnhancedKeyUsage function [Security], _crypto2_certgetenhancedkeyusage, security.certgetenhancedkeyusage, wincrypt/CertGetEnhancedKeyUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,7 +157,7 @@ If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid fo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
  
 
  

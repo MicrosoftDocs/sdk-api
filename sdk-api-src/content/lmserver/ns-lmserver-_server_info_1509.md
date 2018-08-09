@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1509_str.htm
 old-project: netmgmt
 ms.assetid: a5f8de1f-36f0-4d8f-9a88-53336f6bee48
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSERVER_INFO_1509, *PSERVER_INFO_1509, LPSERVER_INFO_1509, LPSERVER_INFO_1509 structure pointer [Network Management], PSERVER_INFO_1509, PSERVER_INFO_1509 structure pointer [Network Management], SERVER_INFO_1509, SERVER_INFO_1509 structure [Network Management], _SERVER_INFO_1509, _win32_server_info_1509_str, lmserver/LPSERVER_INFO_1509, lmserver/PSERVER_INFO_1509, lmserver/SERVER_INFO_1509, netmgmt.server_info_1509_str"
 ms.prod: windows
 ms.technology: windows-sdk

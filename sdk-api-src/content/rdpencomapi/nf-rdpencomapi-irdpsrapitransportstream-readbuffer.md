@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapitransportstream_readbuffer.htm
 old-project: rdp
 ms.assetid: 0a6d9a76-48b8-4755-985e-efbef01a6382
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],ReadBuffer method, IRDPSRAPITransportStream.ReadBuffer, IRDPSRAPITransportStream::ReadBuffer, ReadBuffer, ReadBuffer method [RDP], ReadBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_readbuffer, rdpencomapi/IRDPSRAPITransportStream::ReadBuffer
 ms.prod: windows
 ms.technology: windows-sdk

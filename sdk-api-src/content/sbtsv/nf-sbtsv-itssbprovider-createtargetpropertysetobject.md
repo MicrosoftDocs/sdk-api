@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createtargetpropertysetobject.htm
 old-project: termserv
 ms.assetid: 82e9d414-2137-44f3-a984-dc12aba3ecd9
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: CreateTargetPropertySetObject, CreateTargetPropertySetObject method [Remote Desktop Services], CreateTargetPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetPropertySetObject method, ITsSbProvider.CreateTargetPropertySetObject, ITsSbProvider::CreateTargetPropertySetObject, sbtsv/ITsSbProvider::CreateTargetPropertySetObject, termserv.itssbprovider_createtargetpropertysetobject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netusedel.htm
 old-project: netmgmt
 ms.assetid: 200b0640-71e9-4f60-bf4c-c8df10bfe095
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetUseDel, NetUseDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netusedel, lmuse/NetUseDel, netmgmt.netusedel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,14 +75,7 @@ A pointer to a string that specifies the path of the connection to delete.
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 
-### -param ForceLevelFlags
-
-TBD
-
-
-
-
-#### - ForceCond [in]
+### -param ForceLevelFlags [in]
 
 The level of force to use in deleting the connection.
 

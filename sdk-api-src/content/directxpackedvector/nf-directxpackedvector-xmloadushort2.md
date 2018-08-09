@@ -7,7 +7,7 @@ old-location: dxmath\xmloadushort2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUShort2(const XMUSHORT2)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: Use DirectX..XMLoadUShort2, XMLoadUShort2, XMLoadUShort2 method [DirectX Math Support APIs], dxmath.xmloadushort2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a> structure to load. This parameter must point to cached
+Address of the <a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a> structure to load. This parameter must point to cached
         memory.
 
 

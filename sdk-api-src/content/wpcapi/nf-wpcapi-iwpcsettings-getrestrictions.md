@@ -7,7 +7,7 @@ old-location: parcon\iwpcsettings_getrestrictions.htm
 old-project: parcon
 ms.assetid: 22350ef3-3068-4d33-a023-74644e5fbb83
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IWPCSettings interface, IWPCSettings interface,GetRestrictions method, IWPCSettings.GetRestrictions, IWPCSettings::GetRestrictions, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcsettings_getrestrictions, wpcapi/IWPCSettings::GetRestrictions
 ms.prod: windows
 ms.technology: windows-sdk

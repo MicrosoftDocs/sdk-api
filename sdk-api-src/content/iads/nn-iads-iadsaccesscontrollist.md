@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist.htm
 old-project: ADSI
 ms.assetid: de92d9cc-bc9d-4dc5-aa79-01f4d3050c35
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList interface [ADSI], IADsAccessControlList interface [ADSI],described, _ds_iadsaccesscontrollist, adsi.iadsaccesscontrollist, iads/IADsAccessControlList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <b>IADsAccessControlList</b> interface is a dual interface that manages indi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAccessControlList</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsAccessControlList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAccessControlList</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsAccessControlList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -363,7 +363,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

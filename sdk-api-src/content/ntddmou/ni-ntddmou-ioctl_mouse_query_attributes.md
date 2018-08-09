@@ -7,7 +7,7 @@ old-location: hid\ioctl_mouse_query_attributes.htm
 old-project: hid
 ms.assetid: f5b82702-610a-41d3-96c9-2c4eae2244e3
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IOCTL_MOUSE_QUERY_ATTRIBUTES, IOCTL_MOUSE_QUERY_ATTRIBUTES control, IOCTL_MOUSE_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_mouse_query_attributes, mref_078cb198-31ca-4b11-bc5b-33553bcb71a0.xml, ntddmou/IOCTL_MOUSE_QUERY_ATTRIBUTES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The <b>Parameters.DeviceIoControl.InputBufferLength </b>value is greater than zero but less than the size, in bytes, of a MOUSE_UNIT_ID_PARAMETER structure.
+The request completed successfully.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -124,14 +124,14 @@ The <b>Parameters.DeviceIoControl.InputBufferLength </b>value is greater than ze
 The <b>UnitId </b>value is invalid.
 
 
+#### -STATUS_BUFFER_TOO_SMALL
+
+The <b>Parameters.DeviceIoControl.InputBufferLength </b>value is greater than zero but less than the size, in bytes, of a MOUSE_UNIT_ID_PARAMETER structure.
+
+
 #### -STATUS_NOT_SUPPORTED
 
 The target device is associated with a subordinate class device.
-
-
-#### -STATUS_SUCCESS
-
-The request completed successfully.
 
 
 ## -see-also

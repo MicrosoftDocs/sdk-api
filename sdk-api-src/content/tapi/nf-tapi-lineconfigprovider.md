@@ -4,10 +4,10 @@ title: lineConfigProvider function
 author: windows-sdk-content
 description: The lineConfigProvider function causes a service provider to display its configuration dialog box.
 old-location: tapi2\lineconfigprovider.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 3149b353-6380-4fa9-a6ef-cf4566aaff58
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_lineconfigprovider, lineConfigProvider, lineConfigProvider function [TAPI 2.2], tapi/lineConfigProvider, tapi2.lineconfigprovider"
 ms.prod: windows
 ms.technology: windows-sdk

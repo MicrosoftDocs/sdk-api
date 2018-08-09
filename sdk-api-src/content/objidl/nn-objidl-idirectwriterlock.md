@@ -7,7 +7,7 @@ old-location: stg\idirectwriterlock.htm
 old-project: stg
 ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage],described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>IDirectWriterLock</b> interface enables a single writer to obtain exclusive write access to a root storage object opened in direct mode while allowing concurrent access by multiple readers. This single-writer, multiple-reader mode does not require the overhead of making a snapshot copy of the storage for the readers.
 
 

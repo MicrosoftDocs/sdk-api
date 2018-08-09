@@ -7,7 +7,7 @@ old-location: shell\SHRegDeleteUSValue.htm
 old-project: shell
 ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,9 +76,11 @@ A handle to a currently open registry subkey. The subkey must have been opened w
 This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
 
 
-### -param pwzValue
+#### - pwzValue [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to the null-terminated string that names the value to remove.
 
 
 ### -param delRegFlags [in]
@@ -86,13 +88,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a></b>
 
 One of the <a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a> that specifies from which base key the value will be deleted.
-
-
-#### - pszValue [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to the null-terminated string that names the value to remove.
 
 
 ## -returns

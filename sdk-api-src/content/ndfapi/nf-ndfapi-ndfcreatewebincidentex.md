@@ -7,7 +7,7 @@ old-location: ndf\ndfcreatewebincidentex.htm
 old-project: ndf
 ms.assetid: ba378672-7ec4-4a5c-a900-fb8486a15ba3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NdfCreateWebIncidentEx, NdfCreateWebIncidentEx function [NDF], ndf.ndfcreatewebincidentex, ndfapi/NdfCreateWebIncidentEx
 ms.prod: windows
 ms.technology: windows-sdk

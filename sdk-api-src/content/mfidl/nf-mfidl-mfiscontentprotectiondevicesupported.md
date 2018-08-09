@@ -7,7 +7,7 @@ old-location: mf\mfiscontentprotectiondevicesupported.htm
 old-project: medfound
 ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
 ms.prod: windows
 ms.technology: windows-sdk

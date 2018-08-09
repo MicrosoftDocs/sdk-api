@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ContentViewCondition.htm
 old-project: WinAuto
 ms.assetid: d674a8c5-cb09-49a6-b457-5e7486b0e178
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ContentViewCondition property [Windows Accessibility], ContentViewCondition property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ContentViewCondition property, IUIAutomation.ContentViewCondition, IUIAutomation.get_ContentViewCondition, IUIAutomation::ContentViewCondition, IUIAutomation::get_ContentViewCondition, get_ContentViewCondition, uiauto.uiauto_IUIAutomation_ContentViewCondition, uiauto_IUIAutomation_ContentViewCondition, uiautomationclient/IUIAutomation::ContentViewCondition, uiautomationclient/IUIAutomation::get_ContentViewCondition, winauto.uiauto_IUIAutomation_ContentViewCondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

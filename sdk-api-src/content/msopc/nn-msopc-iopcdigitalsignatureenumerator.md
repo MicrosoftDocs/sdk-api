@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignatureenumerator.htm
 old-project: OPC
 ms.assetid: 73fd0e47-7503-470d-b649-e4b2ba492bf1
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureEnumerator, opc.iopcdigitalsignatureenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IOpcDigitalSignatureEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-              Creates a copy of the current <b>IOpcDigitalSignatureEnumerator</b> interface pointer and all its descendants.
+Creates a copy of the current <b>IOpcDigitalSignatureEnumerator</b> interface pointer and all its descendants.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IOpcDigitalSignatureEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2e211822-9fd8-424c-bd0c-c5c81f9abc0b">GetCurrent</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer at the current position of the enumerator.
+Gets the <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer at the current position of the enumerator.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IOpcDigitalSignatureEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1dd6321c-b9dc-4c09-8874-31f891c37146">MoveNext</a>
 </td>
 <td align="left" width="63%">
-
-              Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer.
+Moves the current position of the enumerator to the next <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IOpcDigitalSignatureEnumerator</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a3972c08-82a1-44e8-b6c6-782294eacfa3">MovePrevious</a>
 </td>
 <td align="left" width="63%">
-
-              Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer.
+Moves the current position of the enumerator to the previous <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer.
             
 
 </td>
@@ -120,9 +116,7 @@ The <b>IOpcDigitalSignatureEnumerator</b> interface has these methods.
 
 
 
-
-  		When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/1dd6321c-b9dc-4c09-8874-31f891c37146">MoveNext</a>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="https://msdn.microsoft.com/1dd6321c-b9dc-4c09-8874-31f891c37146">MoveNext</a>method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator and all subsequent calls to it will fail.
 

@@ -4,10 +4,10 @@ title: MsiProvideQualifiedComponentExW function
 author: windows-sdk-content
 description: The MsiProvideQualifiedComponentEx function returns the full component path for a qualified component that is published by a product and performs any necessary installation.
 old-location: setup\msiprovidequalifiedcomponentex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: b8b567de-c21a-4e8f-840c-e71f41c11447
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponentEx, MsiProvideQualifiedComponentEx function, MsiProvideQualifiedComponentExA, MsiProvideQualifiedComponentExW, _msi_msiprovidequalifiedcomponentex, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponentEx, msi/MsiProvideQualifiedComponentExA, msi/MsiProvideQualifiedComponentExW, setup.msiprovidequalifiedcomponentex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,10 @@ The
 
 
 
-### -param szCategory
+### -param szCategory [in]
 
-TBD
+Specifies the component ID that for the requested component. This may not be the GUID for the component itself but rather a server that provides the correct functionality, as in the ComponentId column of the 
+<a href="https://msdn.microsoft.com/4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4">PublishComponent table</a>.
 
 
 ### -param szQualifier [in]
@@ -188,12 +189,6 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
-
-
-#### - szComponent [in]
-
-Specifies the component ID that for the requested component. This may not be the GUID for the component itself but rather a server that provides the correct functionality, as in the ComponentId column of the 
-<a href="https://msdn.microsoft.com/4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4">PublishComponent table</a>.
 
 
 ## -returns

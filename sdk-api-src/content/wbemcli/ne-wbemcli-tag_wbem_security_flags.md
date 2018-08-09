@@ -7,7 +7,7 @@ old-location: wmi\wbem_security_flags.htm
 old-project: WmiSdk
 ms.assetid: 28415184-B699-42D0-BC5C-0D3E055ABA16
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: WBEM_ENABLE, WBEM_FULL_WRITE_REP, WBEM_METHOD_EXECUTE, WBEM_PARTIAL_WRITE_REP, WBEM_REMOTE_ACCESS, WBEM_RIGHT_PUBLISH, WBEM_RIGHT_SUBSCRIBE, WBEM_SECURITY_FLAGS, WBEM_SECURITY_FLAGS enumeration [Windows Management Instrumentation], WBEM_WRITE_PROVIDER, tag_WBEM_SECURITY_FLAGS, wbemcli/WBEM_ENABLE, wbemcli/WBEM_FULL_WRITE_REP, wbemcli/WBEM_METHOD_EXECUTE, wbemcli/WBEM_PARTIAL_WRITE_REP, wbemcli/WBEM_REMOTE_ACCESS, wbemcli/WBEM_RIGHT_PUBLISH, wbemcli/WBEM_RIGHT_SUBSCRIBE, wbemcli/WBEM_SECURITY_FLAGS, wbemcli/WBEM_WRITE_PROVIDER, wmi.wbem_security_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Contains flags used for setting security access levels.
 
 ### -field WBEM_ENABLE
 
-Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
+Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="gloss_w.htm">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
 
 
 ### -field WBEM_METHOD_EXECUTE
@@ -79,7 +79,7 @@ Allows a user account to write to classes in the WMI repository as well as insta
 
 ### -field WBEM_PARTIAL_WRITE_REP
 
-Allows you to write data to instances only, not classes. A user cannot write classes to the <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. Only members of the Administrators group have this right. <b>WBEM_PARTIAL_WRITE_REP</b> corresponds to the Partial Write permission on the Security tab of the WMI Control.
+Allows you to write data to instances only, not classes. A user cannot write classes to the <a href="gloss_w.htm">WMI repository</a>. Only members of the Administrators group have this right. <b>WBEM_PARTIAL_WRITE_REP</b> corresponds to the Partial Write permission on the Security tab of the WMI Control.
 
 
 ### -field WBEM_WRITE_PROVIDER

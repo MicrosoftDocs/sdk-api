@@ -7,7 +7,7 @@ old-location: adsi\iadspathname_getescapedelement.htm
 old-project: ADSI
 ms.assetid: a61702bd-26a8-4bd9-96c1-82a59dad7ead
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetEscapedElement method, IADsPathname.GetEscapedElement, IADsPathname::GetEscapedElement, _ds_iadspathname_getescapedelement, adsi.iadspathname__getescapedelement, adsi.iadspathname_getescapedelement, iads/IADsPathname::GetEscapedElement
 ms.prod: windows
 ms.technology: windows-sdk

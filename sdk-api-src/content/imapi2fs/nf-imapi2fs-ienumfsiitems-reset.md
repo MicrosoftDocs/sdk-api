@@ -7,7 +7,7 @@ old-location: imapi\ienumfsiitems_reset.htm
 old-project: imapi
 ms.assetid: 85b3ce47-411f-4824-acea-9ea974206672
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Reset method, IEnumFsiItems.Reset, IEnumFsiItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_reset, imapi2fs/IEnumFsiItems::Reset
 ms.prod: windows
 ms.technology: windows-sdk

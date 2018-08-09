@@ -7,7 +7,7 @@ old-location: mf\imftopology_getnode.htm
 old-project: medfound
 ms.assetid: 97053d10-5ac7-40c0-b46b-77d401284d58
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode, GetNode method [Media Foundation], GetNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNode method, IMFTopology.GetNode, IMFTopology::GetNode, mf.imftopology_getnode, mfidl/IMFTopology::GetNode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets a node in the topology, specified by index.
+Gets a node in the topology, specified by index.
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param wIndex [in]
 
-
-            The zero-based index of the node. To get the number of nodes in the topology, call <a href="https://msdn.microsoft.com/87378088-1d7a-4ad7-942f-69b6cfc4e573">IMFTopology::GetNodeCount</a>.
+The zero-based index of the node. To get the number of nodes in the topology, call <a href="https://msdn.microsoft.com/87378088-1d7a-4ad7-942f-69b6cfc4e573">IMFTopology::GetNodeCount</a>.
           
 
 
 ### -param ppNode [out]
 
-
-            Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the pointer.
+Receives a pointer to the node's <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface. The caller must release the pointer.
           
 
 
@@ -80,8 +77,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -96,8 +92,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -109,8 +104,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The index is less than zero.
+The index is less than zero.
               
 
 </td>
@@ -122,8 +116,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                No node can be found at the index <i>wIndex</i>.
+No node can be found at the index <i>wIndex</i>.
               
 
 </td>

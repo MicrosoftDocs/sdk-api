@@ -7,7 +7,7 @@ old-location: menurc\copyimage.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\copyimage.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CopyImage, CopyImage function [Menus and Other Resources], IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_COPYDELETEORG, LR_COPYFROMRESOURCE, LR_COPYRETURNORG, LR_CREATEDIBSECTION, LR_DEFAULTSIZE, LR_MONOCHROME, _win32_CopyImage, _win32_copyimage_cpp, menurc.copyimage, winui._win32_copyimage, winuser/CopyImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,48 +61,76 @@ Creates a new image (icon, cursor, or bitmap) and copies the attributes of the s
 
 
 
-### -param h
+### -param h [in]
 
-TBD
+Type: <b>HANDLE</b>
 
-
-### -param type
-
-TBD
+A handle to the image to be copied. 
 
 
-### -param cx
+### -param type [in]
 
-TBD
+Type: <b>UINT</b>
+
+The type of image to be copied. This parameter can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
+<dt><b>IMAGE_BITMAP</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Copies a bitmap.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
+<dt><b>IMAGE_CURSOR</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Copies a cursor.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
+<dt><b>IMAGE_ICON</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Copies an icon.
+
+</td>
+</tr>
+</table>
+ 
 
 
-### -param cy
-
-TBD
-
-
-### -param flags
-
-TBD
-
-
-
-
-#### - cxDesired [in]
+### -param cx [in]
 
 Type: <b>int</b>
 
 The desired width, in pixels, of the image. If this is zero, then the returned image will have the same width as the original <i>hImage</i>. 
 
 
-#### - cyDesired [in]
+### -param cy [in]
 
 Type: <b>int</b>
 
 The desired height, in pixels, of the image. If this is zero, then the returned image will have the same height as the original <i>hImage</i>. 
 
 
-#### - fuFlags [in]
+### -param flags [in]
 
 Type: <b>UINT</b>
 
@@ -131,7 +159,7 @@ Deletes the original image after creating the copy.
 </dl>
 </td>
 <td width="60%">
-Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> or <a href="https://msdn.microsoft.com/en-us/library/ms648391(v=VS.85).aspx">LoadCursor</a>, or by <a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a> with the LR_SHARED flag.
+Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> or <a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>, or by <a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a> with the LR_SHARED flag.
 
 </td>
 </tr>
@@ -183,61 +211,6 @@ Creates a new monochrome image.
  
 
 
-#### - hImage [in]
-
-Type: <b>HANDLE</b>
-
-A handle to the image to be copied. 
-
-
-#### - uType [in]
-
-Type: <b>UINT</b>
-
-The type of image to be copied. This parameter can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_BITMAP"></a><a id="image_bitmap"></a><dl>
-<dt><b>IMAGE_BITMAP</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Copies a bitmap.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_CURSOR"></a><a id="image_cursor"></a><dl>
-<dt><b>IMAGE_CURSOR</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Copies a cursor.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_ICON"></a><a id="image_icon"></a><dl>
-<dt><b>IMAGE_ICON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Copies an icon.
-
-</td>
-</tr>
-</table>
- 
-
-
 ## -returns
 
 
@@ -271,13 +244,13 @@ When you are finished using the resource, you can release its associated memory 
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
 </td>
 </tr>
 </table>
@@ -297,7 +270,7 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a>
 
 
 
@@ -305,7 +278,7 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
  
 
  

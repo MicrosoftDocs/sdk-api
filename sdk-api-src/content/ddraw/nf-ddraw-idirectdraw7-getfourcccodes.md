@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getfourcccodes.htm
 old-project: directdraw
 ms.assetid: 980b1cfe-d466-42f4-865f-6ddc7a41ea94
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetFourCCCodes method, IDirectDraw7.GetFourCCCodes, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ Retrieves the four-character codes (FOURCC) that are supported by the DirectDraw
 
 
 
-#### - lpCodes [in, out]
-
-An array of variables to be filled with FOURCCs that are supported by this DirectDraw object. If you specify NULL, <i>lpNumCodes</i> is set to the number of supported FOURCCs, and the method returns.
-
-
 #### - lpNumCodes [in, out]
 
 A pointer to a variable that contains the number of entries that the array specified by <i>lpCodes</i> can hold. If the number of entries is too small to accommodate all the codes, <i>lpNumCodes</i> is set to the required number, and the array specified by <i>lpCodes</i> is filled with all that fits.
+
+
+#### - lpCodes [in, out]
+
+An array of variables to be filled with FOURCCs that are supported by this DirectDraw object. If you specify NULL, <i>lpNumCodes</i> is set to the number of supported FOURCCs, and the method returns.
 
 
 ## -returns

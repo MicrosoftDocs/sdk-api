@@ -7,7 +7,7 @@ old-location: security\cryptprotectmemory.htm
 old-project: seccrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,14 +58,14 @@ The <b>CryptProtectMemory</b> function <a href="https://msdn.microsoft.com/f1cac
 
 
 
-### -param pDataIn
+### -param pDataIn [in, out]
 
-TBD
+A pointer to the block of memory to encrypt. The <i>cbData</i> parameter specifies the number of bytes that will be encrypted. If the data contained in the memory space is smaller than the number of bytes specified, data outside of the intended block will be encrypted. If it is larger than <i>cbData</i> bytes, then only the first <i>cbData</i> bytes will be encrypted.
 
 
-### -param cbDataIn
+### -param cbDataIn [in]
 
-TBD
+Number of bytes of memory pointed to by the <i>pData</i> parameter to encrypt. The number of bytes must be a multiple of the <b>CRYPTPROTECTMEMORY_BLOCK_SIZE</b> constant defined in Wincrypt.h.
 
 
 ### -param dwFlags [in]
@@ -111,16 +111,6 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
  
 
 
-#### - cbData [in]
-
-Number of bytes of memory pointed to by the <i>pData</i> parameter to encrypt. The number of bytes must be a multiple of the <b>CRYPTPROTECTMEMORY_BLOCK_SIZE</b> constant defined in Wincrypt.h.
-
-
-#### - pData [in, out]
-
-A pointer to the block of memory to encrypt. The <i>cbData</i> parameter specifies the number of bytes that will be encrypted. If the data contained in the memory space is smaller than the number of bytes specified, data outside of the intended block will be encrypted. If it is larger than <i>cbData</i> bytes, then only the first <i>cbData</i> bytes will be encrypted.
-
-
 ## -returns
 
 
@@ -136,7 +126,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-Using  <a href="https://msdn.microsoft.com/library/Aa380262(v=VS.85).aspx">CryptProtectMemory</a> and <a href="https://msdn.microsoft.com/library/Aa380890(v=VS.85).aspx">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
+Using  <a href="seccpki.cryptprotectmemory">CryptProtectMemory</a> and <a href="seccpki.cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
 Typically, you use the <b>CryptProtectMemory</b> function to encrypt sensitive information that you are going to decrypt while your process is running.  Do not use this function to save data that you want to decrypt later; you will not be able to decrypt the data if the computer is restarted. To save encrypted data to a file to decrypt later, use the <a href="https://msdn.microsoft.com/765a68fd-f105-49fc-a738-4a8129eb0770">CryptProtectData</a> function.  
 

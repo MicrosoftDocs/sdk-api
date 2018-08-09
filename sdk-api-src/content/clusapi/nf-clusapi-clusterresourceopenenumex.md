@@ -7,7 +7,7 @@ old-location: mscs\clusterresourceopenenumex.htm
 old-project: mscs
 ms.assetid: B43460F1-4BFE-48E0-889A-56370320E4E6
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterResourceOpenEnumEx, ClusterResourceOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, mscs.clusterresourceopenenumex
 ms.prod: windows
 ms.technology: windows-sdk

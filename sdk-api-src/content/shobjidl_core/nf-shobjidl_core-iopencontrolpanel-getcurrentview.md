@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel_GetCurrentView.htm
 old-project: shell
 ms.assetid: ed539638-7953-471f-ac90-ebd4c3929e8e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CPVIEW_ALLITEMS, CPVIEW_CATEGORY, CPVIEW_CLASSIC, CPVIEW_HOME, GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetCurrentView method, IOpenControlPanel.GetCurrentView, IOpenControlPanel::GetCurrentView, _shell_IOpenControlPanel_GetCurrentView, shell.IOpenControlPanel_GetCurrentView, shobjidl_core/IOpenControlPanel::GetCurrentView
 ms.prod: windows
 ms.technology: windows-sdk

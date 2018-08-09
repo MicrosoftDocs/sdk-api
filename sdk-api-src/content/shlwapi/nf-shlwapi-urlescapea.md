@@ -7,7 +7,7 @@ old-location: shell\UrlEscape.htm
 old-project: shell
 ms.assetid: 52ee1501-2cd4-4193-8363-0af91673ec88
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_COMPONENT, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SEGMENT_ONLY, URL_ESCAPE_SPACES_ONLY, UrlEscape, UrlEscape function [Windows Shell], UrlEscapeA, UrlEscapeW, _win32_UrlEscape, shell.UrlEscape, shlwapi/UrlEscape, shlwapi/UrlEscapeA, shlwapi/UrlEscapeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,11 @@ Converts characters or surrogate pairs in a URL that might be altered during tra
 
 
 
-### -param pszUrl
+### -param pszUrl [in]
 
-TBD
+Type: <b>PCTSTR</b>
+
+A null-terminated string of maximum length <b>INTERNET_MAX_URL_LENGTH</b> that contains a full or partial URL, as appropriate for the value in <i>dwFlags</i>.
 
 
 ### -param pszEscaped [out]
@@ -153,13 +155,6 @@ This flag cannot be combined with <b>URL_ESCAPE_SPACES_ONLY</b> or <b>URL_DONT_E
 #### URL_ESCAPE_ASCII_URI_COMPONENT (0x00080000)
 
 <b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
-
-
-#### - pszURL [in]
-
-Type: <b>PCTSTR</b>
-
-A null-terminated string of maximum length <b>INTERNET_MAX_URL_LENGTH</b> that contains a full or partial URL, as appropriate for the value in <i>dwFlags</i>.
 
 
 ## -returns
@@ -303,7 +298,7 @@ Result   = test%2Ft%e%3Cs%20t.asp</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
  
 
  

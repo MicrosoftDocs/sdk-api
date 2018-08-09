@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getembedded.htm
 old-project: TSF
 ms.assetid: 212286e1-aafa-4368-8dd3-45a0d4c6ecb9
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEmbedded method, ITextStoreAnchor.GetEmbedded, ITextStoreAnchor::GetEmbedded, textstor/ITextStoreAnchor::GetEmbedded, tsf.itextstoreanchor_getembedded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> data object.
+The object should be obtained as an <a href="_ole_idataobject">IDataObject</a> data object.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/li
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible object</a>.
+The object should be obtained as an <a href="_msaa_accessible_objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -252,11 +252,11 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317981(v=VS.85).aspx">Accessible Objects</a>
+<a href="_msaa_accessible_objects">Accessible Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

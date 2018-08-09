@@ -7,7 +7,7 @@ old-location: gdi\extfloodfill.htm
 old-project: gdi
 ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,34 +66,22 @@ The <b>ExtFloodFill</b> function fills an area of the display surface with the c
 A handle to a device context.
 
 
-### -param x
+### -param x [in]
 
-TBD
-
-
-### -param y
-
-TBD
+The x-coordinate, in logical units, of the point where filling is to start.
 
 
-### -param color
+### -param y [in]
 
-TBD
-
-
-### -param type
-
-TBD
+The y-coordinate, in logical units, of the point where filling is to start.
 
 
-
-
-#### - crColor [in]
+### -param color [in]
 
 The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 
 
-#### - fuFillType [in]
+### -param type [in]
 
 The type of fill operation to be performed. This parameter must be one of the following values.
 
@@ -124,16 +112,6 @@ The fill area is defined by the color that is specified by <i>crColor</i>. Filli
 </tr>
 </table>
  
-
-
-#### - nXStart [in]
-
-The x-coordinate, in logical units, of the point where filling is to start.
-
-
-#### - nYStart [in]
-
-The y-coordinate, in logical units, of the point where filling is to start.
 
 
 ## -returns
@@ -168,7 +146,7 @@ Only memory device contexts and devices that support raster-display operations s
 
 #### Examples
 
-For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Adding Lines and Graphs to a Menu" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

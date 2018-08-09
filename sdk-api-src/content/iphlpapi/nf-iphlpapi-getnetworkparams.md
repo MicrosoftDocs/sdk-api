@@ -7,7 +7,7 @@ old-location: iphlp\getnetworkparams.htm
 old-project: iphlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,9 +153,7 @@ If the function fails, use
 
 
 
-The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a>
-		structure. The  memory for the <b>FIXED_INFO</b>
-		structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
+The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
 
 In the Microsoft Windows Software Development Kit (SDK), the <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 
@@ -165,8 +163,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <a href="https://ms
      <b>FIXED_INFO</b> structure is undefined.
 
 The <b>GetNetworkParams</b> function and the 
-     <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure are supported on  Windows 98
-  and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
+     <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
 #### Examples

@@ -7,7 +7,7 @@ old-location: mscs\startupex.htm
 old-project: mscs
 ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,12 +76,12 @@ The minimum version of the <a href="https://msdn.microsoft.com/764a35dd-a681-4af
 The maximum version of the Resource API supported by the Cluster service.
 
 
-### -param MonitorCallbackFunctions [in]
+### -param MonitorCallbackFunctions [in] [in]
 
 TBD
 
 
-### -param *ResourceDllInterfaceFunctions [out]
+### -param *ResourceDllInterfaceFunctions [out] [out]
 
 TBD
 

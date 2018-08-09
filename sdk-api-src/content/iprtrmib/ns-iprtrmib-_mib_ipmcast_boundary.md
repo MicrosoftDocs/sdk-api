@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_boundary.htm
 old-project: mib
 ms.assetid: a3d900be-14c9-4ad9-bc2e-382849a6d1c6
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/30/2018
 ms.keywords: "*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY structure [MIB], PMIB_IPMCAST_BOUNDARY, PMIB_IPMCAST_BOUNDARY structure pointer [MIB], _MIB_IPMCAST_BOUNDARY, iprtrmib/MIB_IPMCAST_BOUNDARY, iprtrmib/PMIB_IPMCAST_BOUNDARY, mib.mib_ipmcast_boundary"
 ms.prod: windows
 ms.technology: windows-sdk

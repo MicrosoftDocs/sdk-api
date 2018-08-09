@@ -7,7 +7,7 @@ old-location: netmgmt\netusersetinfo.htm
 old-project: netmgmt
 ms.assetid: ffe49d4b-e7e8-4982-8087-59bb7534b257
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, 1003, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1014, 1017, 1020, 1024, 1051, 1052, 1053, 2, 21, 22, 3, 4, NetUserSetInfo, NetUserSetInfo function [Network Management], _win32_netusersetinfo, lmaccess/NetUserSetInfo, netmgmt.netusersetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -347,11 +347,6 @@ A pointer to the buffer that specifies the data. The format of this data depends
 <a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
 
 
-#### - parm_err [out]
-
-A pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
-
-
 #### - servername [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
@@ -359,6 +354,11 @@ A pointer to a constant string that specifies the DNS or NetBIOS name of the rem
 
 
 					
+
+
+#### - parm_err [out]
+
+A pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
 
 
 ## -returns

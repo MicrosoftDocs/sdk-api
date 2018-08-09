@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getlocationcount.htm
 old-project: mstv
 ms.assetid: f498ead0-246d-4741-a995-45a5cf63847e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetLocationCount, GetLocationCount method [Microsoft TV Technologies], GetLocationCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCount method, ISCTE_EAS.GetLocationCount, ISCTE_EAS::GetLocationCount, ISCTE_EASGetLocationCount, atscpsipparser/ISCTE_EAS::GetLocationCount, mstv.iscte_eas_getlocationcount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ The <b>GetLocationCount</b> method returns the number of locations in the EAS ta
 
 ### -param pbVal [out]
 
-
-            Receives the location_code_count field.
+Receives the location_code_count field.
           
 
 
@@ -69,8 +68,7 @@ The <b>GetLocationCount</b> method returns the number of locations in the EAS ta
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

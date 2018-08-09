@@ -7,7 +7,7 @@ old-location: shell\IKnownFolder.htm
 old-project: shell
 ms.assetid: dbade93d-73f6-401b-9986-4e6fd439c874
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IKnownFolder, IKnownFolder interface [Windows Shell], IKnownFolder interface [Windows Shell],described, _shell_IKnownFolder, shell.IKnownFolder, shobjidl_core/IKnownFolder
 ms.prod: windows
 ms.technology: windows-sdk

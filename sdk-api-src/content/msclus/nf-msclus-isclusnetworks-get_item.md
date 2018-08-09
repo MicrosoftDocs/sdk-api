@@ -7,7 +7,7 @@ old-location: mscs\clusnetworks_item.htm
 old-project: mscs
 ms.assetid: da8248ab-70a2-4ca9-abf0-8aa3afe87298
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusNetworks collection [Failover Cluster],Item property, ClusNetworks.Item, ISClusNetworks.get_Item, ISClusNetworks::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusNetworks collection, _wolf_clusnetworks.item, get_Item, mscs.clusnetworks_item
 ms.prod: windows
 ms.technology: windows-sdk

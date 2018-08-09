@@ -7,7 +7,7 @@ old-location: security\gettrusteename.htm
 old-project: secauthz
 ms.assetid: 9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetTrusteeName, GetTrusteeName function [Security], GetTrusteeNameA, GetTrusteeNameW, _win32_gettrusteename, aclapi/GetTrusteeName, aclapi/GetTrusteeNameA, aclapi/GetTrusteeNameW, security.gettrusteename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

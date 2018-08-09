@@ -7,7 +7,7 @@ old-location: security\getexplicitentriesfromacl.htm
 old-project: secauthz
 ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Security], GetExplicitEntriesFromAclA, GetExplicitEntriesFromAclW, _win32_getexplicitentriesfromacl, aclapi/GetExplicitEntriesFromAcl, aclapi/GetExplicitEntriesFromAclA, aclapi/GetExplicitEntriesFromAclW, security.getexplicitentriesfromacl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>GetExplicitEntriesFromAcl</b> function retrieves an array of structures that describe the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
+The <b>GetExplicitEntriesFromAcl</b> function retrieves an array of structures that describe the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL).
 
 
 ## -parameters
@@ -88,8 +87,7 @@ A pointer to a variable that receives a pointer to an array of <a href="https://
 
 
 
-
-						If the function succeeds, the function returns ERROR_SUCCESS.
+If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
@@ -142,7 +140,7 @@ For a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

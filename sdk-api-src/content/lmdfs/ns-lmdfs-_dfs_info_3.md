@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_3_str.htm
 old-project: dfs
 ms.assetid: fd60cb52-fa17-4cac-a7e8-9803303336dc
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDFS_INFO_3, *PDFS_INFO_3, DFS_INFO_3, DFS_INFO_3 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_3, LPDFS_INFO_3 structure pointer [Distributed File System], PDFS_INFO_3, PDFS_INFO_3 structure pointer [Distributed File System], _DFS_INFO_3, _win32_dfs_info_3_str, dfs.dfs_info_3_str, fs.dfs_info_3_str, lmdfs/DFS_INFO_3, lmdfs/LPDFS_INFO_3, lmdfs/PDFS_INFO_3, netmgmt.dfs_info_3_str"
 ms.prod: windows
 ms.technology: windows-sdk

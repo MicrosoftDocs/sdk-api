@@ -7,7 +7,7 @@ old-location: iphlp\getiftable2.htm
 old-project: iphlp
 ms.assetid: 0153c41c-b02b-4832-87b3-88dc3a9f4ff1
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIfTable2, GetIfTable2 function [IP Helper], iphlp.getiftable2, netioapi/GetIfTable2
 ms.prod: windows
 ms.technology: windows-sdk

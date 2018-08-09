@@ -7,7 +7,7 @@ old-location: security\iazrole_members.htm
 old-project: secauthz
 ms.assetid: 03391842-fc8a-4dc2-878e-4fe1c41cc4dd
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzRole object [Security],Members property, IAzRole interface [Security],Members property, IAzRole.Members, IAzRole.get_Members, IAzRole::Members, IAzRole::get_Members, Members property [Security], Members property [Security],AzRole object, Members property [Security],IAzRole interface, azroles/IAzRole::Members, azroles/IAzRole::get_Members, get_Members, security.iazrole_members
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-In  JScript, the returned <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
+In  JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

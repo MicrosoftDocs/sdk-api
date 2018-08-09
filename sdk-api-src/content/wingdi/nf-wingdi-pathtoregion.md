@@ -7,7 +7,7 @@ old-location: gdi\pathtoregion.htm
 old-project: gdi
 ms.assetid: 9fe31925-3d5d-42e5-aa9b-405610f13de4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PathToRegion, PathToRegion function [Windows GDI], _win32_PathToRegion, gdi.pathtoregion, wingdi/PathToRegion
 ms.prod: windows
 ms.technology: windows-sdk

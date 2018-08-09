@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformationcollection__newenum.htm
 old-project: seccrypto
 ms.assetid: 80a34341-176d-4040-bc60-79ce81b917b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],_NewEnum property, ICertSrvSetupKeyInformationCollection._NewEnum, ICertSrvSetupKeyInformationCollection.get__NewEnum, ICertSrvSetupKeyInformationCollection::_NewEnum, ICertSrvSetupKeyInformationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::_NewEnum, casetup/ICertSrvSetupKeyInformationCollection::get__NewEnum, get__NewEnum, security.icertsrvsetupkeyinformationcollection__newenum
 ms.prod: windows
 ms.technology: windows-sdk

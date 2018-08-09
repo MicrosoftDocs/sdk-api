@@ -4,10 +4,10 @@ title: lineHold function
 author: windows-sdk-content
 description: The lineHold function places the specified call on hold.
 old-location: tapi2\linehold.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d2fd450c-402c-4122-a785-a6b5216acfe9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/lineHold, tapi2.linehold"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ncd\iproviderpublishing_createinstance_method.htm
 old-project: fundisc
 ms.assetid: 1c8988d0-552a-434b-b33c-31017a191896
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IProviderPublishing interface, IProviderPublishing interface,CreateInstance method, IProviderPublishing.CreateInstance, IProviderPublishing::CreateInstance, functiondiscoveryprovider/IProviderPublishing::CreateInstance, ncd.iproviderpublishing_createinstance_method, ncd.iproviderpublishing_oncreateinstance_method
 ms.prod: windows
 ms.technology: windows-sdk

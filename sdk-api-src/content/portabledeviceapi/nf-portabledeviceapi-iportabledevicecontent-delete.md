@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_delete.htm
 old-project: wpd_sdk
 ms.assetid: 7315c869-d2b6-4ccf-9315-ec1fc1d827ac
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Delete method, IPortableDeviceContent.Delete, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Delete</b> method deletes one or more objects from the device.
+The <b>Delete</b> method deletes one or more objects from the device.
       
 
 
@@ -64,22 +63,19 @@ req.product: ADAM
 
 ### -param dwOptions [in]
 
-
-            One of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597560">DELETE_OBJECT_OPTIONS</a> enumerators.
+One of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597560">DELETE_OBJECT_OPTIONS</a> enumerators.
           
 
 
 ### -param pObjectIDs [in]
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
           
 
 
 ### -param ppResults [in, out]
 
-
-            Optional. On return, this parameter contains a collection of VT_ERROR values indicating the success or failure of the operation. The first element returned in <i>ppResults</i> corresponds to the first object in the <i>pObjectIDs</i> collection, the second element returned in <i>ppResults</i> corresponds to the second object in the <i>pObjectIDs</i> collection, and so on. This parameter can be <b>NULL</b> if the application is not concerned with the results.
+Optional. On return, this parameter contains a collection of VT_ERROR values indicating the success or failure of the operation. The first element returned in <i>ppResults</i> corresponds to the first object in the <i>pObjectIDs</i> collection, the second element returned in <i>ppResults</i> corresponds to the second object in the <i>pObjectIDs</i> collection, and so on. This parameter can be <b>NULL</b> if the application is not concerned with the results.
           
 
 
@@ -87,8 +83,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. If any error value is returned, no objects were deleted on the device.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. If any error value is returned, no objects were deleted on the device.
           
 
 <table>
@@ -194,12 +189,10 @@ The object could not be deleted because it does not exist on the device.
 
 
 
-
-        To see if recursive deletion is supported, call <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
+To see if recursive deletion is supported, call <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
       
 
-
-        The following table lists the possible return codes that may appear in the collection at which <i>ppResults</i> points.
+The following table lists the possible return codes that may appear in the collection at which <i>ppResults</i> points.
       
 
 
@@ -220,7 +213,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
  
 
  

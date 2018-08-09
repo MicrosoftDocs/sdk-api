@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog.htm
 old-project: cossdk
 ms.assetid: 2c3c49df-9ca5-40ea-b45c-f4eca1004602
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Initiates a session to do programmatic COM+ administration, access collections i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMAdminCatalog</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICOMAdminCatalog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMAdminCatalog</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICOMAdminCatalog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

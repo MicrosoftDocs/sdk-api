@@ -4,10 +4,10 @@ title: WTSVirtualChannelQuery function
 author: windows-sdk-content
 description: Returns information about a specified virtual channel.
 old-location: termserv\wtsvirtualchannelquery.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 68ae8174-d72b-4b1c-b8e9-ae5fed51d385
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSVirtualChannelQuery, WTSVirtualChannelQuery function [Remote Desktop Services], _win32_wtsvirtualchannelquery, termserv.wtsvirtualchannelquery, wtsapi32/WTSVirtualChannelQuery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,11 @@ Handle to a virtual channel opened by the
       <a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a> function.
 
 
-### -param WTS_VIRTUAL_CLASS
+### -param WTS_VIRTUAL_CLASS [in]
 
-TBD
+Specifies the type of information returned in the <i>ppBuffer</i> parameter. This parameter 
+      can be a value from the <a href="https://msdn.microsoft.com/ca7bb0ff-f5af-477f-a610-563071554234">WTS_VIRTUAL_CLASS</a> 
+      enumeration type.
 
 
 ### -param ppBuffer [out]
@@ -81,13 +83,6 @@ Pointer to a buffer that receives the requested information.
 
 Pointer to a variable that receives the number of bytes returned in the <i>ppBuffer</i> 
       parameter.
-
-
-#### - WtsVirtualClass [in]
-
-Specifies the type of information returned in the <i>ppBuffer</i> parameter. This parameter 
-      can be a value from the <a href="https://msdn.microsoft.com/ca7bb0ff-f5af-477f-a610-563071554234">WTS_VIRTUAL_CLASS</a> 
-      enumeration type.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: SLUninstallProofOfPurchase function
 author: windows-sdk-content
 description: Unregisters the product key information.
 old-location: security\sluninstallproofofpurchase.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLUninstallProofOfPurchase function

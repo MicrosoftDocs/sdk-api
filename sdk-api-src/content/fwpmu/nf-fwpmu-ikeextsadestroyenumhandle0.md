@@ -7,7 +7,7 @@ old-location: fwp\ikeextsadestroyenumhandle0.htm
 old-project: fwp
 ms.assetid: b9351d74-bc0b-4423-9f21-5f3be8608b8a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IkeextSaDestroyEnumHandle0, IkeextSaDestroyEnumHandle0 function [Filtering], fwp.ikeextsadestroyenumhandle0, fwpmu/IkeextSaDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IkeextSaDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/c72ec488-0721-406e-8ca0-6a34873e2683">IkeextSaCreateEnumHandle0</a>.
+The <b>IkeextSaDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/c72ec488-0721-406e-8ca0-6a34873e2683">IkeextSaCreateEnumHandle0</a>.
 
 
 ## -parameters

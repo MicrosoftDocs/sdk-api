@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_serialize.htm
 old-project: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize method, ITextStoreACPServices.Serialize, ITextStoreACPServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_serialize_ref, msctf/ITextStoreACPServices::Serialize, tsf.itextstoreacpservices_serialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,14 +157,12 @@ When calling this method, the application must be able to grant a synchronous re
 
 
 
-<a href="https://msdn.microsoft.com/4eb2f2b9-51fb-4970-a195-c05e1d19ff99">
-        ITextStoreACPServices::Unserialize
+<a href="https://msdn.microsoft.com/4eb2f2b9-51fb-4970-a195-c05e1d19ff99">ITextStoreACPServices::Unserialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b57c9fdc-320b-4d97-8af4-c75756326437">
-        ITfContext::EnumProperties
+<a href="https://msdn.microsoft.com/b57c9fdc-320b-4d97-8af4-c75756326437">ITfContext::EnumProperties
       </a>
 
 
@@ -174,20 +172,17 @@ When calling this method, the application must be able to grant a synchronous re
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">
-        ITfRange
+<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/201c518b-f06f-4c4f-aa56-f8d21f477814">
-        ITfReadOnlyProperty::EnumRanges
+<a href="https://msdn.microsoft.com/201c518b-f06f-4c4f-aa56-f8d21f477814">ITfReadOnlyProperty::EnumRanges
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">
-        TF_PERSISTENT_PROPERTY_HEADER_ACP
+<a href="https://msdn.microsoft.com/9c5cb193-d18e-4d91-b9be-b8a61a56d3a3">TF_PERSISTENT_PROPERTY_HEADER_ACP
       </a>
  
 

@@ -7,7 +7,7 @@ old-location: mstv\iisdbcadescriptor_gettag.htm
 old-project: mstv
 ms.assetid: e8ed1538-3540-42c2-a465-ab6d580b0b31
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCADescriptor.GetTag, IIsdbCADescriptor::GetTag, dvbsiparser/IIsdbCADescriptor::GetTag, mstv.iisdbcadescriptor_gettag
 ms.prod: windows
 ms.technology: windows-sdk

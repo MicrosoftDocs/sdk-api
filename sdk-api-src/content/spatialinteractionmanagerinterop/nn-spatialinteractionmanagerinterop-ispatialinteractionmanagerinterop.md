@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialInteractionManagerInterop interface
@@ -74,7 +75,7 @@ The <b>ISpatialInteractionManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt844797(v=WIN.10).aspx">GetForWindow</a>
+<a href="https://msdn.microsoft.com/5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE">GetForWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object bound to the active application.

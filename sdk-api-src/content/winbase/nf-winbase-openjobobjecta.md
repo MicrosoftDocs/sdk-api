@@ -4,10 +4,10 @@ title: OpenJobObjectA function
 author: windows-sdk-content
 description: Opens an existing job object.
 old-location: base\openjobobject.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: cb6ebc6f-5c61-408d-a781-ba029c83ddeb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, winbase/OpenJobObject, winbase/OpenJobObjectA, winbase/OpenJobObjectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ The access to the job object. This parameter can be one or more of the
 <a href="https://msdn.microsoft.com/8d212292-f087-41e4-884e-cec4423dac49">job object access rights</a>. This access right is checked against any security descriptor for the object.
 
 
-### -param bInheritHandle
+### -param bInheritHandle [in]
 
-TBD
+If this value is TRUE, processes created by this process will inherit the handle. Otherwise, the processes do not inherit this handle.
 
 
 ### -param lpName [in]
@@ -84,11 +84,6 @@ This function can open objects in a private namespace. For more information, see
 
 <b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
 <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>.
-
-
-#### - bInheritHandles [in]
-
-If this value is TRUE, processes created by this process will inherit the handle. Otherwise, the processes do not inherit this handle.
 
 
 ## -returns

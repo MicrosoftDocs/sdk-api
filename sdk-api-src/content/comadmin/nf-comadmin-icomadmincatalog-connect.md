@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_connect.htm
 old-project: cossdk
 ms.assetid: 0fc65ec0-79a7-4544-934d-543f2946c70a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Connect, Connect method [COM+], Connect method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],Connect method, ICOMAdminCatalog.Connect, ICOMAdminCatalog::Connect, _cos_ICOMAdminCatalog_Connect, comadmin/ICOMAdminCatalog::Connect, cos.icomadmincatalog_connect
 ms.prod: windows
 ms.technology: windows-sdk

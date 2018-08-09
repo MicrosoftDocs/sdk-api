@@ -7,7 +7,7 @@ old-location: mf\imfsample_converttocontiguousbuffer.htm
 old-project: medfound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],ConvertToContiguousBuffer method, IMFSample.ConvertToContiguousBuffer, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Converts a sample with multiple buffers into a sample with a single buffer.
+Converts a sample with multiple buffers into a sample with a single buffer.
         
 
 
@@ -71,8 +70,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +85,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +113,7 @@ The sample does not contain any buffers.
 
 If the sample contains more than one buffer, this method copies the data from the original buffers into a new buffer, and replaces the original buffer list with the new buffer. The new buffer is returned in the <i>ppBuffer</i> parameter.
 
-
-        If the sample contains a single buffer, this method returns a pointer to the original buffer. In typical use, most samples do not contain multiple buffers.
+If the sample contains a single buffer, this method returns a pointer to the original buffer. In typical use, most samples do not contain multiple buffers.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

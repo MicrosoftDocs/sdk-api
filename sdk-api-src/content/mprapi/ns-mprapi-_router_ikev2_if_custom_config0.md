@@ -7,7 +7,7 @@ old-location: rras\router_ikev2_if_custom_config0.htm
 old-project: rras
 ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], _ROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
 ms.prod: windows
 ms.technology: windows-sdk

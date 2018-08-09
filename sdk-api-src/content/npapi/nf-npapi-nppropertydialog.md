@@ -7,7 +7,7 @@ old-location: security\nppropertydialog.htm
 old-project: secauthn
 ms.assetid: 856057f3-2746-4c1e-89a6-6d4e06d0e353
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPPropertyDialog, NPPropertyDialog function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_nppropertydialog, npapi/NPPropertyDialog, security.nppropertydialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,8 +137,7 @@ Specifies the item type, which must be WNTYPE_FILE.
 
 
 
-
-						If the function succeeds, it returns WN_SUCCESS. If the function fails, it returns an error code. Call 
+If the function succeeds, it returns WN_SUCCESS. If the function fails, it returns an error code. Call 
 <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to set this extended error code, which may include the following return codes.
 					
 

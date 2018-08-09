@@ -7,7 +7,7 @@ old-location: security\icertrequest2.htm
 old-project: seccrypto
 ms.assetid: 8587a682-27a5-4f26-b4bb-7088e4e5d8d3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICertRequest2, ICertRequest2 interface [Security], ICertRequest2 interface [Security],described, _certsrv_icertrequest2, certcli/ICertRequest2, security.icertrequest2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest2</b> interface inherits from <a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a> and <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>. <b>ICertRequest2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest2</b> interface inherits from <a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a> and <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. <b>ICertRequest2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

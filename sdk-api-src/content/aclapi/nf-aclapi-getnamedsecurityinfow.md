@@ -7,7 +7,7 @@ old-location: security\getnamedsecurityinfo.htm
 old-project: secauthz
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>GetNamedSecurityInfo</b> function retrieves a copy of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for an object specified by name.
+The <b>GetNamedSecurityInfo</b> function retrieves a copy of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for an object specified by name.
 
 
 ## -parameters
@@ -116,8 +115,7 @@ This parameter is required if any one of the <i>ppsidOwner</i>, <i>ppsidGroup</i
 
 
 
-
-						If the function succeeds, the return value is ERROR_SUCCESS.
+If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in WinError.h.
 
@@ -174,7 +172,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -186,7 +184,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375728(v=VS.85).aspx">Privilege Constants</a>
+<a href="authorization_constants.htm">Privilege Constants</a>
 
 
 

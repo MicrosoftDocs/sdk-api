@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithobjectsandsid.htm
 old-project: secauthz
 ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>BuildTrusteeWithObjectsAndSid</b> function initializes a 
+The <b>BuildTrusteeWithObjectsAndSid</b> function initializes a 
 <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure with the object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that represents the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> of the trustee.
 
@@ -127,7 +126,7 @@ For more information about object-specific ACEs, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

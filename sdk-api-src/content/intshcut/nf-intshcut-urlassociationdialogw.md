@@ -7,7 +7,7 @@ old-location: shell\URLAssociationDialog.htm
 old-project: shell
 ms.assetid: 3158e819-f131-4f57-8516-998955100377
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URLAssociationDialog, URLAssociationDialog function [Windows Shell], URLAssociationDialogA, URLAssociationDialogW, _win32_URLAssociationDialog, intshcut/URLAssociationDialog, intshcut/URLAssociationDialogA, intshcut/URLAssociationDialogW, shell.URLAssociationDialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,14 +115,14 @@ Type: <b>UINT</b>
 The size of <i>pszAppBuf</i>, in characters.
 
 
-##### - dwInFlags.URLASSOCDLG_FL_REGISTER_ASSOC
-
-Register the selected application as the handler for the protocol specified in <i>pcszURL</i>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.
-
-
 ##### - dwInFlags.URLASSOCDLG_FL_USE_DEFAULT_NAME
 
 Use the default file name (that is, "Internet Shortcut").
+
+
+##### - dwInFlags.URLASSOCDLG_FL_REGISTER_ASSOC
+
+Register the selected application as the handler for the protocol specified in <i>pcszURL</i>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.
 
 
 ## -returns

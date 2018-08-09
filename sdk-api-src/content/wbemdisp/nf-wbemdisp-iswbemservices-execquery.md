@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execquery.htm
 old-project: WmiSdk
 ms.assetid: 06b9d4c9-cd72-49b2-92b0-d18d94dfbd9f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],ISWbemServices interface, ExecQuery method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecQuery method, ISWbemServices.ExecQuery, ISWbemServices::ExecQuery, SWbemServices object [Windows Management Instrumentation],ExecQuery method, SWbemServices.ExecQuery, _hmm_swbemservices.execquery, wbemFlagBidirectional, wbemFlagForwardOnly, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wbemQueryFlagPrototype, wmi.swbemservices_execquery
 ms.prod: windows
 ms.technology: windows-sdk

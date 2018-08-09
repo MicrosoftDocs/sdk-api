@@ -7,7 +7,7 @@ old-location: wmformat\iwmclientconnections_getclientcount.htm
 old-project: wmformat
 ms.assetid: 208b40cd-c138-4311-8702-18a61713b71a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetClientCount, GetClientCount method [windows Media Format], GetClientCount method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientCount method, IWMClientConnections.GetClientCount, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount
 ms.prod: windows
 ms.technology: windows-sdk

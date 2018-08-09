@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackageeditor.htm
 old-project: appxpkg
 ms.assetid: 37D9494A-A5C0-4ABA-99BC-7F9B10E8D06C
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
 ms.prod: windows
 ms.technology: windows-sdk

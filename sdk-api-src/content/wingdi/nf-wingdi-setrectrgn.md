@@ -7,7 +7,7 @@ old-location: gdi\setrectrgn.htm
 old-project: gdi
 ms.assetid: 9a024d61-f397-43d8-a48e-edb8102a6f55
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, gdi.setrectrgn, wingdi/SetRectRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,46 +68,24 @@ The <b>SetRectRgn</b> function converts a region into a rectangular region with 
 Handle to the region.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-Specifies the y-coordinate of the lower-right corner of the rectangular region in logical units.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 Specifies the x-coordinate of the upper-left corner of the rectangular region in logical units.
 
 
-#### - nRightRect [in]
+### -param top [in]
+
+Specifies the y-coordinate of the upper-left corner of the rectangular region in logical units.
+
+
+### -param right [in]
 
 Specifies the x-coordinate of the lower-right corner of the rectangular region in logical units.
 
 
-#### - nTopRect [in]
+### -param bottom [in]
 
-Specifies the y-coordinate of the upper-left corner of the rectangular region in logical units.
+Specifies the y-coordinate of the lower-right corner of the rectangular region in logical units.
 
 
 ## -returns

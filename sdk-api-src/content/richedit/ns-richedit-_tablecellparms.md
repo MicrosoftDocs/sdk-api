@@ -7,7 +7,7 @@ old-location: controls\tablecellparms.htm
 old-project: controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], _tableCellParms, controls.tablecellparms, richedit/TABLECELLPARMS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -175,41 +175,6 @@ Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa5
 Foreground color (\clcfpat).
 
 
-#### - fMergeCont:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Merge with the previous cell (\clmrg).
-
-
-#### - fMergePrev:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Merge with the cell above (\clvmrg).
-
-
-#### - fMergeStart:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Start set of horizontally merged cells (\clmgf).
-
-
-#### - fMergeTop:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Top cell for vertical merge (\clvmgf).
-
-
-#### - fVertical:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Display text top to bottom, right to left (\cltxtbrlv).
-
-
 #### - nVertAlign:2
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
@@ -259,6 +224,41 @@ The content appears at the bottom of a cell.
 </tr>
 </table>
  
+
+
+#### - fMergeTop:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Top cell for vertical merge (\clvmgf).
+
+
+#### - fMergePrev:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Merge with the cell above (\clvmrg).
+
+
+#### - fVertical:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Display text top to bottom, right to left (\cltxtbrlv).
+
+
+#### - fMergeStart:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Start set of horizontally merged cells (\clmgf).
+
+
+#### - fMergeCont:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Merge with the previous cell (\clmrg).
 
 
 ## -see-also

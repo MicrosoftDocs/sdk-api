@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_NumberOfItemsToIndex.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitemstoindex.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],NumberOfItemsToIndex method, ISearchCatalogManager.NumberOfItemsToIndex, ISearchCatalogManager::NumberOfItemsToIndex, NumberOfItemsToIndex, NumberOfItemsToIndex method [search], NumberOfItemsToIndex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItemsToIndex, search._search_ISearchCatalogManager_NumberOfItemsToIndex, searchapi/ISearchCatalogManager::NumberOfItemsToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-        
-        Gets the number of items to be indexed within the catalog.
+Gets the number of items to be indexed within the catalog.
         
 
 
@@ -66,8 +64,7 @@ req.product: ADAM
 
 Type: <b>LONG*</b>
 
-
-                    Receives a pointer to the number of items to be indexed in the next incremental index.
+Receives a pointer to the number of items to be indexed in the next incremental index.
                 
 
 
@@ -75,8 +72,7 @@ Type: <b>LONG*</b>
 
 Type: <b>LONG*</b>
 
-
-                    Receives a pointer to the number of items in the notification queue.
+Receives a pointer to the number of items in the notification queue.
                 
 
 
@@ -84,8 +80,7 @@ Type: <b>LONG*</b>
 
 Type: <b>LONG*</b>
 
-
-                    Receives a pointer to the number of items in the high-priority queue. Items in the <i>plHighPriorityQueue</i> are indexed first.
+Receives a pointer to the number of items in the high-priority queue. Items in the <i>plHighPriorityQueue</i> are indexed first.
                 
 
 

@@ -4,10 +4,10 @@ title: PdhEnumObjectItemsHW function
 author: windows-sdk-content
 description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. This function is identical to the PdhEnumObjectItems function, except that it supports the use of handles to data sources.
 old-location: perf\pdhenumobjectitemsh.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 2cea7d0a-cea2-4fee-a087-37663de254e9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectItemsH, PdhEnumObjectItemsH function [Perf], PdhEnumObjectItemsHA, PdhEnumObjectItemsHW, _win32_pdhenumobjectitemsh, base.pdhenumobjectitemsh, pdh/PdhEnumObjectItemsH, pdh/PdhEnumObjectItemsHA, pdh/PdhEnumObjectItemsHW, perf.pdhenumobjectitemsh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,8 +174,7 @@ This parameter must be zero.
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

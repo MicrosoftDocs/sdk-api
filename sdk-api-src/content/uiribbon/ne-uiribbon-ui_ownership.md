@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_ownership.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_ownership.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: UI_OWNERSHIP, UI_OWNERSHIP enumeration [Windows Ribbon], UI_OWNERSHIP_COPY, UI_OWNERSHIP_TRANSFER, scenicintent_UI_OWNERSHIP, uiribbon/UI_OWNERSHIP, uiribbon/UI_OWNERSHIP_COPY, uiribbon/UI_OWNERSHIP_TRANSFER, windowsribbon.windowsribbon_ui_ownership
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Specifies values that identify the ownership conditions under which an image is 
 ### -field UI_OWNERSHIP_TRANSFER
 
 The handle to the bitmap (HBITMAP) is owned by the Ribbon framework 
-			through the <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object.
+			through the <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object.
 			
 
 
 ### -field UI_OWNERSHIP_COPY
 
 A copy of the HBITMAP is created by the Ribbon framework through 
-			the <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object. The host application still owns the HBITMAP.
+			the <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object. The host application still owns the HBITMAP.
 			
 
 
@@ -78,11 +78,11 @@ A copy of the HBITMAP is created by the Ribbon framework through
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371364(v=VS.85).aspx">IUIImageFromBitmap::CreateImage</a>
+<a href="https://msdn.microsoft.com/09eea6ad-c756-4044-b98f-6d6ba87437db">IUIImageFromBitmap::CreateImage</a>
  
 
  

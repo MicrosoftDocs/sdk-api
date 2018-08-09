@@ -4,10 +4,10 @@ title: WSManGetSessionOptionAsDword function
 author: windows-sdk-content
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasdword.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 73ff4a3a-89f7-4362-99fb-7423e3fd853f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function [Windows Remote Management], winrm.wsmangetsessionoptionasdword, wsman/WSManGetSessionOptionAsDword
 ms.prod: windows
 ms.technology: windows-sdk

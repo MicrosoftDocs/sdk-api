@@ -4,10 +4,10 @@ title: SCardLocateCardsA function
 author: windows-sdk-content
 description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result.
 old-location: security\scardlocatecards.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCardLocateCards, SCardLocateCards function [Security], SCardLocateCardsA, SCardLocateCardsW, _smart_scardlocatecards, security.scardlocatecards, winscard/SCardLocateCards, winscard/SCardLocateCardsA, winscard/SCardLocateCardsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

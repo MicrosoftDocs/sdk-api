@@ -7,7 +7,7 @@ old-location: rras\mprinfodelete.htm
 old-project: rras
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ The <i>lpHeader</i> parameter is <b>NULL</b>.
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The call failed. Use
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

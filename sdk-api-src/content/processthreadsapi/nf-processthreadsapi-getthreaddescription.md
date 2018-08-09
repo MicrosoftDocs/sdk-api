@@ -7,7 +7,7 @@ old-location: base\getthreaddescription.htm
 old-project: procthread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ Retrieves the description that was assigned to a thread by calling <a href="http
 A handle to the thread for which to retrieve the description. The handle must have THREAD_QUERY_LIMITED_INFORMATION access.
 
 
-### -param ppszThreadDescription
-
-TBD
-
-
-
-
-#### - threadDescription [out]
+### -param ppszThreadDescription [out]
 
 A Unicode string that contains the description of the thread.
 

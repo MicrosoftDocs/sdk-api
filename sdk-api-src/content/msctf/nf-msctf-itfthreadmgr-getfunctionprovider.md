@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_getfunctionprovider.htm
 old-project: TSF
 ms.assetid: b320790a-4b54-4475-97e6-e59f083cfc09
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr.GetFunctionProvider, ITfThreadMgr::GetFunctionProvider, _tsf_itfthreadmgr_getfunctionprovider_ref, msctf/ITfThreadMgr::GetFunctionProvider, tsf.itfthreadmgr_getfunctionprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -165,8 +165,7 @@ A function provider registers by calling the TSF manager <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">
-        ITfSourceSingle::AdviseSingleSink
+<a href="https://msdn.microsoft.com/d9231f36-24c4-4d46-97e7-518f5fcc1ce2">ITfSourceSingle::AdviseSingleSink
       </a>
 
 
@@ -175,8 +174,7 @@ A function provider registers by calling the TSF manager <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/6581cd4d-75ad-4a2c-a919-8e2eed6b3939">
-        ITfThreadMgr::EnumFunctionProviders
+<a href="https://msdn.microsoft.com/6581cd4d-75ad-4a2c-a919-8e2eed6b3939">ITfThreadMgr::EnumFunctionProviders
       </a>
  
 

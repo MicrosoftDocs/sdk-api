@@ -4,10 +4,10 @@ title: PdhGetFormattedCounterArrayW function
 author: windows-sdk-content
 description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
 old-location: perf\pdhgetformattedcounterarray.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
+Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
 		
 
 
@@ -113,9 +112,7 @@ Return data as a long integer.
 </table>
  
 
-
-						
-						You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
+You can use the bitwise inclusive OR operator (|) to combine the data type with one of the following scaling factors.
 
 <table>
 <tr>
@@ -161,9 +158,9 @@ Multiply the actual value by 1,000.
 Size of the <i>ItemBuffer</i> buffer, in bytes. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
 
-### -param lpdwItemCount
+### -param lpdwItemCount [out]
 
-TBD
+Number of counter values in the <i>ItemBuffer</i> buffer.
 
 
 ### -param ItemBuffer [out]
@@ -172,17 +169,11 @@ Caller-allocated buffer that receives an array of
 <a href="https://msdn.microsoft.com/d3bc6ad3-0cab-4843-ae1d-5f384948a1ea">PDH_FMT_COUNTERVALUE_ITEM</a> structures; the structures contain the counter values. Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
 
 
-#### - lpdwBufferCount [out]
-
-Number of counter values in the <i>ItemBuffer</i> buffer.
-
-
 ## -returns
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

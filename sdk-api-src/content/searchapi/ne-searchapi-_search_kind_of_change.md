@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_KIND_OF_CHANGE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_kind_of_change.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, SEARCH_CHANGE_MODIFY, SEARCH_CHANGE_MOVE_RENAME, SEARCH_CHANGE_SEMANTICS_DIRECTORY, SEARCH_CHANGE_SEMANTICS_SHALLOW, SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY, SEARCH_KIND_OF_CHANGE, SEARCH_KIND_OF_CHANGE enumeration [search], _SEARCH_KIND_OF_CHANGE, _search_SEARCH_KIND_OF_CHANGE, search._search_SEARCH_KIND_OF_CHANGE, searchapi/SEARCH_CHANGE_ADD, searchapi/SEARCH_CHANGE_DELETE, searchapi/SEARCH_CHANGE_MODIFY, searchapi/SEARCH_CHANGE_MOVE_RENAME, searchapi/SEARCH_CHANGE_SEMANTICS_DIRECTORY, searchapi/SEARCH_CHANGE_SEMANTICS_SHALLOW, searchapi/SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY, searchapi/SEARCH_KIND_OF_CHANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ An item was modified.
 
 ### -field SEARCH_CHANGE_MOVE_RENAME
 
-An item was moved or renamed. Not currently supported for use with <a href="https://msdn.microsoft.com/library/Bb231455(v=VS.85).aspx">ISearchPersistentItemsChangedSink::OnItemsChanged</a>. 
+An item was moved or renamed. Not currently supported for use with <a href="https://msdn.microsoft.com/975f687f-65c7-4086-b99c-c1b1419a701b">ISearchPersistentItemsChangedSink::OnItemsChanged</a>. 
 
 
 ### -field SEARCH_CHANGE_SEMANTICS_DIRECTORY
@@ -109,7 +109,7 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965367(v=VS.85).aspx">INLINE_NOTIFY_DATA_CHANGE_ENTRY</a>
+<a href="https://msdn.microsoft.com/95ab0424-e21a-4a5f-b1ce-f40423790125">INLINE_NOTIFY_DATA_CHANGE_ENTRY</a>
 
 
 
@@ -117,7 +117,7 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a>
+<a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a>
  
 
  

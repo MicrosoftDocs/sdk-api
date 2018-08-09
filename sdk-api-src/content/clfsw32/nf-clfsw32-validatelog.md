@@ -7,7 +7,7 @@ old-location: fs\validatelogrestore.htm
 old-project: Clfs
 ms.assetid: dee4224e-bc94-42aa-95b9-226f13fd51ae
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,16 +85,16 @@ A pointer to a variable that, on input, specifies the size of the <i>pinfoBuffer
 On output, it receives the amount of information that is copied to the buffer, in bytes.
 
 
-#### - pinfoBuffer [out, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a> structure that receives log metadata. 
-
-
 #### - psaLogFile [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
 
 This parameter can be <b>NULL</b>.
+
+
+#### - pinfoBuffer [out, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a> structure that receives log metadata. 
 
 
 ## -returns
@@ -117,8 +117,7 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">
-        CLFS_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
 
 
 

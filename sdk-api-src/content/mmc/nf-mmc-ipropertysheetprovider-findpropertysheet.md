@@ -7,7 +7,7 @@ old-location: mmc\ipropertysheetprovider_findpropertysheet.htm
 old-project: MMC
 ms.assetid: 14f3a2b7-9e14-4068-a85a-20c41d7e4a4d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],FindPropertySheet method, IPropertySheetProvider.FindPropertySheet, IPropertySheetProvider::FindPropertySheet, _slate_ipropertysheetprovider_findpropertysheet, mmc.ipropertysheetprovider_findpropertysheet, mmc/IPropertySheetProvider::FindPropertySheet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ A pointer to the
 ### -param lpDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object.
+<a href="_ole_idataobject">IDataObject</a> interface on the data object.
 
 
 #### - HSCOPEITEM

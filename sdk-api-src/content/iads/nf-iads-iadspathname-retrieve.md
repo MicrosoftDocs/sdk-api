@@ -7,7 +7,7 @@ old-location: adsi\iadspathname_retrieve.htm
 old-project: ADSI
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retrieve, IADsPathname::Retrieve, Retrieve, Retrieve method [ADSI], Retrieve method [ADSI],IADsPathname interface, _ds_iadspathname_retrieve, adsi.iadspathname__retrieve, adsi.iadspathname_retrieve, iads/IADsPathname::Retrieve
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Specifies the format that the path should be retrieved in. This can be one of th
 
 ### -param pbstrADsPath [out]
 
-Contains a pointer to a <b>BSTR</b> value the receives the object path. The caller must free this memory with the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function when it is no longer required.
+Contains a pointer to a <b>BSTR</b> value the receives the object path. The caller must free this memory with the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function when it is no longer required.
 
 
 ## -returns
@@ -97,7 +97,7 @@ For more information and other return values, see  <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

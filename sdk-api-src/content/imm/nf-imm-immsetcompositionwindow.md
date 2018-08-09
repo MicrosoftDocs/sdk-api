@@ -7,7 +7,7 @@ old-location: intl\immsetcompositionwindow.htm
 old-project: Intl
 ms.assetid: 01204f4c-4cf1-4bff-99db-fa0c66c2a8e9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,14 @@ Sets the position of the composition window.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lpCompForm [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/9b76474a-1ea9-4fcf-9fa8-deee5009a7ba">COMPOSITIONFORM</a> structure that contains the new position and other related information about the composition window.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

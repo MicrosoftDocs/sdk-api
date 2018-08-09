@@ -4,10 +4,10 @@ title: SCardListCardsW function
 author: windows-sdk-content
 description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.
 old-location: security\scardlistcards.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,9 @@ If this parameter is set to <b>NULL</b>, the search for cards is not limited to 
 Address of an ATR string to compare to known cards, or <b>NULL</b> if no ATR matching is to be performed.
 
 
-### -param rgquidInterfaces
+### -param rgquidInterfaces [in]
 
-TBD
+Array of identifiers (GUIDs), or <b>NULL</b> if no interface matching is to be performed. When an array is supplied, a card name will be returned only if all the specified identifiers are supported by the card.
 
 
 ### -param cguidInterfaceCount [in]
@@ -96,11 +96,6 @@ Multi-string that lists the <a href="https://msdn.microsoft.com/3e9d7672-2314-45
 
 Length of the <i>mszCards</i> buffer in characters. Receives the actual length of the multi-string structure, including all trailing <b>null</b> characters. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>mszCards</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory containing the multi-string structure. This block of memory must be deallocated with 
 <a href="https://msdn.microsoft.com/d41d3891-671b-4129-8034-b251af983830">SCardFreeMemory</a>.
-
-
-#### - rgguidInterfaces [in]
-
-Array of identifiers (GUIDs), or <b>NULL</b> if no interface matching is to be performed. When an array is supplied, a card name will be returned only if all the specified identifiers are supported by the card.
 
 
 ## -returns
@@ -133,7 +128,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

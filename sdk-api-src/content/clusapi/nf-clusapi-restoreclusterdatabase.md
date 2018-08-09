@@ -7,7 +7,7 @@ old-location: mscs\restoreclusterdatabase.htm
 old-project: mscs
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ If the restore operation is successful, the restoring node forms a
      restored cluster database. As other nodes join the cluster, they update their cluster databases from the database 
      on the restoring node.
 
-Note that <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster disks</a> other than the quorum 
+Note that <a href="c_gly.htm">cluster disks</a> other than the quorum 
      resource that have added or changed since the backup was made will not be recognized by the restored cluster 
      database and will remain <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a> even if the restore 
      operation is successful. New <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> must be created for these 

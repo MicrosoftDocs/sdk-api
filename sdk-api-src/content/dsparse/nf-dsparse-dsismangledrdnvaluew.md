@@ -7,7 +7,7 @@ old-location: ad\dsismangledrdnvalue.htm
 old-project: ad
 ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
 ms.prod: windows
 ms.technology: windows-sdk

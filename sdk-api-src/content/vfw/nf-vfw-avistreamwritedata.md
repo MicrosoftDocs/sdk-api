@@ -7,7 +7,7 @@ old-location: multimedia\avistreamwritedata.htm
 old-project: Multimedia
 ms.assetid: 2ca91df6-4721-4282-8b88-81e76d2ab94f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamWriteData, AVIStreamWriteData function [Windows Multimedia], _win32_AVIStreamWriteData, multimedia.avistreamwritedata, vfw/AVIStreamWriteData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,34 +69,17 @@ Handle to an open stream.
 
 ### -param fcc
 
-TBD
+Four-character code identifying the data.
 
 
 ### -param lp
 
-TBD
+Pointer to a buffer containing the data to write.
 
 
 ### -param cb
 
-TBD
-
-
-
-
-#### - cbData
-
 Number of bytes of data to write into the stream.
-
-
-#### - ckid
-
-Four-character code identifying the data.
-
-
-#### - lpData
-
-Pointer to a buffer containing the data to write.
 
 
 ## -returns

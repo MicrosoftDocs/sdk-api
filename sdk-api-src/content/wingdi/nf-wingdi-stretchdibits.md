@@ -7,7 +7,7 @@ old-location: gdi\stretchdibits.htm
 old-project: gdi
 ms.assetid: 3d57a79a-338d-48ab-8161-3ce17739bf20
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, StretchDIBits, StretchDIBits function [Windows GDI], _win32_StretchDIBits, gdi.stretchdibits, wingdi/StretchDIBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,44 +69,44 @@ The <b>StretchDIBits</b> function copies the color data for a rectangle of pixel
 A handle to the destination device context.
 
 
-### -param xDest
+### -param xDest [in]
 
-TBD
-
-
-### -param yDest
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param DestWidth
+### -param yDest [in]
 
-TBD
-
-
-### -param DestHeight
-
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param xSrc
+### -param DestWidth [in]
 
-TBD
-
-
-### -param ySrc
-
-TBD
+The width, in logical units, of the destination rectangle.
 
 
-### -param SrcWidth
+### -param DestHeight [in]
 
-TBD
+The height, in logical units, of the destination rectangle.
 
 
-### -param SrcHeight
+### -param xSrc [in]
 
-TBD
+The x-coordinate, in pixels, of the source rectangle in the image.
+
+
+### -param ySrc [in]
+
+The y-coordinate, in pixels, of the source rectangle in the image.
+
+
+### -param SrcWidth [in]
+
+The width, in pixels, of the source rectangle in the image.
+
+
+### -param SrcHeight [in]
+
+The height, in pixels, of the source rectangle in the image.
 
 
 ### -param lpBits [in]
@@ -114,9 +114,9 @@ TBD
 A pointer to the image bits, which are stored as an array of bytes. For more information, see the Remarks section.
 
 
-### -param lpbmi
+### -param lpbmi [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that contains information about the DIB.
 
 
 ### -param iUsage [in]
@@ -154,61 +154,9 @@ The color table contains literal RGB values.
 For more information, see the Remarks section.
 
 
-### -param rop
-
-TBD
-
-
-
-
-#### - XDest [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - XSrc [in]
-
-The x-coordinate, in pixels, of the source rectangle in the image.
-
-
-#### - YDest [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - YSrc [in]
-
-The y-coordinate, in pixels, of the source rectangle in the image.
-
-
-#### - dwRop [in]
+### -param rop [in]
 
 A raster-operation code that specifies how the source pixels, the destination device context's current brush, and the destination pixels are to be combined to form the new image. For a list of some common raster operation codes, see <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a>.
-
-
-#### - lpBitsInfo [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that contains information about the DIB.
-
-
-#### - nDestHeight [in]
-
-The height, in logical units, of the destination rectangle.
-
-
-#### - nDestWidth [in]
-
-The width, in logical units, of the destination rectangle.
-
-
-#### - nSrcHeight [in]
-
-The height, in pixels, of the source rectangle in the image.
-
-
-#### - nSrcWidth [in]
-
-The width, in pixels, of the source rectangle in the image.
 
 
 ## -returns

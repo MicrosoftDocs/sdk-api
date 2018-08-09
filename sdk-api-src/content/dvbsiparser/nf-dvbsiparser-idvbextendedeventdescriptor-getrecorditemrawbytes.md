@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getrecorditemrawbytes.htm
 old-project: mstv
 ms.assetid: ed3046ad-b987-479a-a2ba-d761b2d83c86
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordItemRawBytes, GetRecordItemRawBytes method [Microsoft TV Technologies], GetRecordItemRawBytes method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemRawBytes method, IDvbExtendedEventDescriptor.GetRecordItemRawBytes, IDvbExtendedEventDescriptor::GetRecordItemRawBytes, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemRawBytes, mstv.idvbextendedeventdescriptor_getrecorditemrawbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ current item in a Digital Video Broadcast (DVB) extended event descriptor.
 ### -param bRecordIndex [in]
 
 Specifies the item record number,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/db065f1a-8354-4207-b7f7-d67adf094c70">IDvbExtendedEventDescriptor::GetCountOfRecords</a>
-  method to get the number of records in the extended event descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/db065f1a-8354-4207-b7f7-d67adf094c70">IDvbExtendedEventDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
 
 
 ### -param ppbRawItem [out]

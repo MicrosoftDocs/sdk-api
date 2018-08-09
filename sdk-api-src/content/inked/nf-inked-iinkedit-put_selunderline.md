@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selunderline.htm
 old-project: tablet
 ms.assetid: 1df7d95c-9f54-4ceb-a4c8-a1c9fbebf714
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelUnderline property, IInkEdit.SelUnderline, IInkEdit.put_SelUnderline, IInkEdit::SelUnderline, IInkEdit::get_SelUnderline, IInkEdit::put_SelUnderline, InkEdit.get_SelUnderline, InkEdit.put_SelUnderline, NULL, SelUnderline property [Tablet PC], SelUnderline property [Tablet PC],IInkEdit interface, TRUE, get_SelUnderline, inked/IInkEdit::SelUnderline, inked/IInkEdit::get_SelUnderline, inked/IInkEdit::put_SelUnderline, put_SelUnderline, tablet.inkedit_selunderline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

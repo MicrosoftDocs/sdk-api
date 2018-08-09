@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollectionchangedevent.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\iuicollectionchangedevent.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Windows Ribbon], IUICollectionChangedEvent interface [Windows Ribbon],described, scenicintent_IUICollectionChangedEvent, uiribbon/IUICollectionChangedEvent, windowsribbon.windowsribbon_iuicollectionchangedevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The <b>IUICollectionChangedEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265394">OnChanged</a>
 </td>
 <td align="left" width="63%">
-Called when an <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> changes.
+Called when an <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a> changes.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ In addition to defining the incoming and outgoing interfaces, the Ribbon must al
 
 <div class="alert"><b>Note</b>  The client must query the connectable object for <a href="http://go.microsoft.com/fwlink/p/?linkid=144035">IConnectionPointContainer</a> to determine whether the object is connectable before the client attempts to create a sink object.</div>
 <div> </div>
-In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing interface defined by the framework and implemented by the application. The Ribbon triggers the <a href="https://msdn.microsoft.com/en-us/library/Dd371502(v=VS.85).aspx">IUICollectionChangedEvent::OnChanged</a> event in the client by sending an outgoing notification when a collection changes, for example, adding a Command to the Quick Access Toolbar (QAT).
+In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing interface defined by the framework and implemented by the application. The Ribbon triggers the <a href="https://msdn.microsoft.com/5a524071-2679-44c7-85db-a40cfcb4a321">IUICollectionChangedEvent::OnChanged</a> event in the client by sending an outgoing notification when a collection changes, for example, adding a Command to the Quick Access Toolbar (QAT).
 
 
 
@@ -109,11 +109,11 @@ In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing int
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/1a462f4e-e75a-40cf-9c52-0bad0a645d57">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>
  
 
  

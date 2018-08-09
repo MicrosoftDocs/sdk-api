@@ -7,7 +7,7 @@ old-location: mapi\mapisendmail.htm
 old-project: windowsmapi
 ms.assetid: 1d7da0f2-b736-401e-86bd-fc4375ccc0d1
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/07/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail
 ms.prod: windows
 ms.technology: windows-sdk

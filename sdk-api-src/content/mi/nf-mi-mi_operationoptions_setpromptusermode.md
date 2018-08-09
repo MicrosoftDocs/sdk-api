@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setpromptusermode.htm
 old-project: wmi_v2
 ms.assetid: c0bf739d-4da1-4f68-9af8-18874d16e701
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetPromptUserMode, MI_OperationOptions_SetPromptUserMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetPromptUserMode, wmi_v2.mi_operationoptions_setpromptusermode
 ms.prod: windows
 ms.technology: windows-sdk

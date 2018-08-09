@@ -7,7 +7,7 @@ old-location: http\httpaddfragmenttocache.htm
 old-project: http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,34 +60,7 @@ The
 
 
 
-### -param RequestQueueHandle
-
-TBD
-
-
-### -param UrlPrefix
-
-TBD
-
-
-### -param DataChunk
-
-TBD
-
-
-### -param CachePolicy
-
-TBD
-
-
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReqQueueHandle [in]
+### -param RequestQueueHandle [in]
 
 Handle to the request queue with which this cache is associated. A request queue is created and its handle returned by a call to the 
 <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
@@ -95,16 +68,31 @@ Handle to the request queue with which this cache is associated. A request queue
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
-#### - pCachePolicy [in]
+### -param UrlPrefix [in]
+
+Pointer to a  <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix string</a> that the application uses in subsequent calls to 
+<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a> to identify this cache entry. The application must have called <b>HttpAddUrl</b> previously with the same handle as in the <i>ReqQueueHandle</i> parameter, and with  either  this identical UrlPrefix string or a valid prefix of it.
+
+Like any UrlPrefix, this string must take the form "scheme://host:port/relativeURI"; for example, http://www.mysite.com:80/image1.gif.
+
+
+### -param DataChunk [in]
+
+Pointer to an 
+<a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a> structure that specifies an entity body data block to cache under the name pointed to by <i>pUrlPrefix</i>.
+
+
+### -param CachePolicy [in]
 
 Pointer to an 
 <a href="https://msdn.microsoft.com/91fcbf35-ef8b-4f70-9c31-3f741c0e2f6e">HTTP_CACHE_POLICY</a> structure that specifies how this data fragment should be cached.
 
 
-#### - pDataChunk [in]
+### -param OPTIONAL
 
-Pointer to an 
-<a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a> structure that specifies an entity body data block to cache under the name pointed to by <i>pUrlPrefix</i>.
+TBD
+
+
 
 
 #### - pOverlapped [in, optional]
@@ -118,14 +106,6 @@ For asynchronous calls, set <i>pOverlapped</i> to point to an
 A synchronous call blocks the calling thread until the cache operation is complete, whereas an asynchronous call immediately returns ERROR_IO_PENDING and the calling application then uses 
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
-
-
-#### - pUrlPrefix [in]
-
-Pointer to a  <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix string</a> that the application uses in subsequent calls to 
-<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a> to identify this cache entry. The application must have called <b>HttpAddUrl</b> previously with the same handle as in the <i>ReqQueueHandle</i> parameter, and with  either  this identical UrlPrefix string or a valid prefix of it.
-
-Like any UrlPrefix, this string must take the form "scheme://host:port/relativeURI"; for example, http://www.mysite.com:80/image1.gif.
 
 
 ## -returns

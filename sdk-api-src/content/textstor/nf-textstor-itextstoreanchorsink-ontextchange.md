@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_ontextchange.htm
 old-project: TSF
 ms.assetid: 4bdf12bc-c15e-4bdb-8bc0-53172e9c943e
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: 0, ITextStoreAnchorSink interface [Text Services Framework],OnTextChange method, ITextStoreAnchorSink.OnTextChange, ITextStoreAnchorSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreAnchorSink interface, TS_TC_CORRECTION, _tsf_itextstoreanchorsink_ontextchange_ref, textstor/ITextStoreAnchorSink::OnTextChange, tsf.itextstoreanchorsink_ontextchange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,14 +198,12 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/f5cb512a-d9f5-451f-b6cb-2020ba32e855">
-        ITextStoreAnchor::InsertTextAtSelection
+<a href="https://msdn.microsoft.com/f5cb512a-d9f5-451f-b6cb-2020ba32e855">ITextStoreAnchor::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/03beac03-cd09-4e03-b700-d96741e4932b">
-        ITextStoreAnchor::SetText
+<a href="https://msdn.microsoft.com/03beac03-cd09-4e03-b700-d96741e4932b">ITextStoreAnchor::SetText
       </a>
 
 
@@ -214,8 +212,7 @@ When calling this method, the application must be able to grant a <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">
-        Miscellaneous Text Store Constants
+<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">Miscellaneous Text Store Constants
       </a>
  
 

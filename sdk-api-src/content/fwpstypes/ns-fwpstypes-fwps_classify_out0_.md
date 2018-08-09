@@ -7,7 +7,7 @@ old-location: netvista\fwps_classify_out0.htm
 old-project: netvista
 ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/30/2018
 ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista], FWPS_CLASSIFY_OUT0_, fwpstypes/FWPS_CLASSIFY_OUT0, netvista.fwps_classify_out0, wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -199,8 +199,7 @@ The filter engine sets this flag when the filter engine's data buffer for stream
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function repeatedly
        requests more data by setting the 
        <b>streamAction</b> member of the 
-       <a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
-       FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to <b>FWPS_STREAM_ACTION_NEED_MORE_DATA</b> until the buffer
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552417">FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to <b>FWPS_STREAM_ACTION_NEED_MORE_DATA</b> until the buffer
        limit is reached. If this flag is set, the callout driver's 
        <i>classifyFn</i> callout function must either
        permit or block all of the stream data.
@@ -236,8 +235,7 @@ The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to 
 
 
 
-<a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
-   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552417">FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 

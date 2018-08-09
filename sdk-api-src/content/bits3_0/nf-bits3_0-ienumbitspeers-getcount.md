@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeers_getcount.htm
 old-project: bits
 ms.assetid: b4e52429-cd41-483a-b168-b5d7a1f77d74
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],GetCount method, IEnumBitsPeers.GetCount, IEnumBitsPeers::GetCount, bits.ienumbitspeers_getcount, bits3_0/IEnumBitsPeers::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

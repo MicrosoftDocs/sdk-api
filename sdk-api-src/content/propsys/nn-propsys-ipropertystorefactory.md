@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreFactory.htm
 old-project: properties
 ms.assetid: 78ea822d-da8e-4883-b0eb-4277e7eb87a2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], IPropertyStoreFactory interface [Windows Properties],described, _shell_IPropertyStoreFactory, properties.IPropertyStoreFactory, propsys/IPropertyStoreFactory, shell.IPropertyStoreFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761449(v=VS.85).aspx">GetPropertyStoreForKeys</a>
+<a href="shell.IPropertyStoreFactory_GetPropertyStoreForKeys">GetPropertyStoreForKeys</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
@@ -94,8 +94,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 
 
-
-              This interface is typically obtained through <a href="https://msdn.microsoft.com/5e699494-1974-4b9b-8324-9394f7b96fe4">IShellFolder::BindToObject</a> or <a href="https://msdn.microsoft.com/fadd70cd-5018-4b71-af7b-d9c780ebddc5">IShellItem::BindToHandler</a>. It is useful for data source implementers who want to avoid the additional overhead of creating a property store through <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>. However, <b>IShellItem2::GetPropertyStore</b> is the recommended method to obtain a property store unless you are implementing a data source through a Shell folder extension.
+This interface is typically obtained through <a href="https://msdn.microsoft.com/5e699494-1974-4b9b-8324-9394f7b96fe4">IShellFolder::BindToObject</a> or <a href="https://msdn.microsoft.com/fadd70cd-5018-4b71-af7b-d9c780ebddc5">IShellItem::BindToHandler</a>. It is useful for data source implementers who want to avoid the additional overhead of creating a property store through <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a>. However, <b>IShellItem2::GetPropertyStore</b> is the recommended method to obtain a property store unless you are implementing a data source through a Shell folder extension.
             
 
 
@@ -106,7 +105,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776492(v=VS.85).aspx">PSCreatePropertyStoreFromObject</a>
+<a href="shell.PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
  
 
  

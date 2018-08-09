@@ -4,10 +4,10 @@ title: ILatLongReport::GetLongitude
 author: windows-sdk-content
 description: Retrieves the longitude, in degrees.
 old-location: winlocation_com_ref\ilatlongreport_getlongitude.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 77fa407b-109c-45aa-bbdb-0b8a40d222e5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: GetLongitude, GetLongitude method [WinLocation], GetLongitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetLongitude method, ILatLongReport.GetLongitude, ILatLongReport::GetLongitude, WinLocation_COM_Ref.ilatlongreport_getlongitude, locationapi/ILatLongReport::GetLongitude
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves the longitude, in degrees. The longitude is between -180 and 180, where East is positive.

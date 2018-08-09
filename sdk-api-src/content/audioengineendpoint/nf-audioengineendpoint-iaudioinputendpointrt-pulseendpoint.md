@@ -7,7 +7,7 @@ old-location: termserv\iaudioinputendpointrt_pulseendpoint.htm
 old-project: termserv
 ms.assetid: 2b23eac3-48e2-4d58-be6c-878967e7fa5c
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioInputEndpointRT.PulseEndpoint, IAudioInputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::PulseEndpoint, termserv.iaudioinputendpointrt_pulseendpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        The <b>PulseEndpoint</b> method  is reserved.
+The <b>PulseEndpoint</b> method  is reserved.
 
 
 ## -parameters

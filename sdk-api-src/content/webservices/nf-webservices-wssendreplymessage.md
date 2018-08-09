@@ -7,7 +7,7 @@ old-location: wsw\wssendreplymessage.htm
 old-project: wsw
 ms.assetid: cabfd07b-294c-4e3a-9d50-84d9b4d98f62
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsSendReplyMessage, WsSendReplyMessage function [Web Services for Windows], webservices/WsSendReplyMessage, wsw.wssendreplymessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,9 +107,10 @@ A void pointer to the value to serialize in the reply message.
                 
 
 
-### -param replyBodyValueSize
+### -param replyBodyValueSize [in]
 
-TBD
+The size  in bytes of the reply value being serialized.
+                
 
 
 ### -param requestMessage [in]
@@ -133,12 +134,6 @@ A pointer to a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
-
-#### - requestBodyValueSize [in]
-
-The size  in bytes of the reply value being serialized.
                 
 
 

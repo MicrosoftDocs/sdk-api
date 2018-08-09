@@ -7,7 +7,7 @@ old-location: tablet\inktablets_item.htm
 old-project: tablet
 ms.assetid: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6, IInkTablets interface [Tablet PC],Item method, IInkTablets.Item, IInkTablets::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::Item, tablet.inktablets_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -234,7 +234,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
+<a href="tablet.iinktablets">IInkTablets</a>
 
 
 

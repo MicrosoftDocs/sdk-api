@@ -7,7 +7,7 @@ old-location: etw\tdhdeletepayloadfilter.htm
 old-project: ETW
 ms.assetid: 50EB6A11-54AE-4D90-ABA4-13D8EADA1955
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TdhDeletePayloadFilter, TdhDeletePayloadFilter function [ETW], etw.tdhdeletepayloadfilter, tdh/TdhDeletePayloadFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,7 @@ The <b>TdhDeletePayloadFilter</b> function frees the memory allocated for  a sin
 
 
 
-### -param PayloadFilter
-
-TBD
-
-
-
-
-#### - PayloadFilterDescriptor [in, out]
+### -param PayloadFilter [in, out]
 
 A pointer to a single payload filter allocated by the <a href="https://msdn.microsoft.com/B5132FF2-9DE3-40F3-82F0-90FE0640F646">TdhCreatePayloadFilter</a> function. 
 

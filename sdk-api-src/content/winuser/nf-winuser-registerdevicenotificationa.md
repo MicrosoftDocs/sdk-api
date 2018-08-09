@@ -4,10 +4,10 @@ title: RegisterDeviceNotificationA function
 author: windows-sdk-content
 description: Registers the device or type of device for which a window will receive notifications.
 old-location: base\registerdevicenotification.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 82094d95-9af3-4222-9c5e-ce2df9bab5e3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: DEVICE_NOTIFY_ALL_INTERFACE_CLASSES, DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterDeviceNotification, RegisterDeviceNotification function, RegisterDeviceNotificationA, RegisterDeviceNotificationW, _win32_registerdevicenotification, base.registerdevicenotification, winuser/RegisterDeviceNotification, winuser/RegisterDeviceNotificationA, winuser/RegisterDeviceNotificationW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 Applications send event notifications using the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a> function. Any 
+    <a href="_win32_BroadcastSystemMessage">BroadcastSystemMessage</a> function. Any 
     application with a top-level window can receive basic notifications by processing the 
     <a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message. Applications can use the 
     <b>RegisterDeviceNotification</b> function to 
@@ -214,7 +214,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a>
+<a href="_win32_BroadcastSystemMessage">BroadcastSystemMessage</a>
 
 
 

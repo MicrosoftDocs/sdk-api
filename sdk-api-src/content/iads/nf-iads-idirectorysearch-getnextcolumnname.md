@@ -7,7 +7,7 @@ old-location: adsi\idirectorysearch_getnextcolumnname.htm
 old-project: ADSI
 ms.assetid: e3d95cc6-02f0-4a51-8dc5-4007cc8c63c8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetNextColumnName, GetNextColumnName method [ADSI], GetNextColumnName method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextColumnName method, IDirectorySearch.GetNextColumnName, IDirectorySearch::GetNextColumnName, _ds_idirectorysearch_getnextcolumnname, adsi.idirectorysearch__getnextcolumnname, adsi.idirectorysearch_getnextcolumnname, iads/IDirectorySearch::GetNextColumnName
 ms.prod: windows
 ms.technology: windows-sdk

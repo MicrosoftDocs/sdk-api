@@ -7,7 +7,7 @@ old-location: webdav\davgetthelockownerofthefile.htm
 old-project: webdav
 ms.assetid: 94a4607c-2770-4656-8710-987d6b951e0e
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: DavGetTheLockOwnerOfTheFile, DavGetTheLockOwnerOfTheFile function [WebDAV], davclnt/DavGetTheLockOwnerOfTheFile, webdav.davgetthelockownerofthefile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ One or more parameter values were not valid. For example, this error code is ret
 
 
 
-If a call to a function such as <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> for a file on a WebDAV server fails with ERROR_LOCK_VIOLATION, you can use the <b>DavGetTheLockOwnerOfTheFile</b> function to determine the owner of the file lock.
+If a call to a function such as <a href="base.createfile">CreateFile</a> for a file on a WebDAV server fails with ERROR_LOCK_VIOLATION, you can use the <b>DavGetTheLockOwnerOfTheFile</b> function to determine the owner of the file lock.
 
 To obtain the required buffer length for the <i>LockOwnerName</i> buffer, call <b>DavGetTheLockOwnerOfTheFile</b> with <i>LockOwnerName</i> set to <b>NULL</b> and <i>LockOwnerNameLengthInBytes</i> set to zero. The return value is ERROR_INSUFFICIENT_BUFFER, and on output the <i>LockOwnerNameLengthInBytes</i> parameter receives the required buffer length.
 

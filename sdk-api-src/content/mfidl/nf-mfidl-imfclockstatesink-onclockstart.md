@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclockstart.htm
 old-project: medfound
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink interface [Media Foundation],OnClockStart method, IMFClockStateSink.OnClockStart, IMFClockStateSink::OnClockStart, OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Called when the presentation clock starts.
+Called when the presentation clock starts.
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param hnsSystemTime [in]
 
-
-            The system time when the clock started, in 100-nanosecond units.
+The system time when the clock started, in 100-nanosecond units.
           
 
 
 ### -param llClockStartOffset [in]
 
-
-            The new starting time for the clock, in 100-nanosecond units. This parameter can also equal <b>PRESENTATION_CURRENT_POSITION</b>, indicating the clock has started or restarted from its current position.
+The new starting time for the clock, in 100-nanosecond units. This parameter can also equal <b>PRESENTATION_CURRENT_POSITION</b>, indicating the clock has started or restarted from its current position.
           
 
 

@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiapplicationfilter.htm
 old-project: rdp
 ms.assetid: 6a08c948-1b25-4a36-93c8-23e7e3f4fb08
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], IRDPSRAPIApplicationFilter interface [RDP],described, rdp.irdpsrapiapplicationfilter, rdpencomapi/IRDPSRAPIApplicationFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ If a shared application creates a new window that is sharable, it will be shared
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

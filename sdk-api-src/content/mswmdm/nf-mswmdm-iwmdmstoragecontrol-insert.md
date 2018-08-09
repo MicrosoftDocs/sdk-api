@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_insert.htm
 old-project: WMDM
 ms.assetid: 909b94fd-99de-4e26-87d6-d074a6eb5da3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Insert method, IWMDMStorageControl.Insert, IWMDMStorageControl::Insert, IWMDMStorageControlInsert, Insert, Insert method [windows Media Device Manager], Insert method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Insert, wmdm.iwmdmstoragecontrol_insert
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,11 @@ A bitwise <b>OR</b> of the following values. The following table lists the proce
 
 <table>
 <tr>
-<th>
-                  Combinations
+<th>Combinations
                 </th>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

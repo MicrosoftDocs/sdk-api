@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcloseenum.htm
 old-project: mscs
 ms.assetid: 9bdab6b9-a54d-4166-988c-effdeb2ab254
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterGroupCloseEnum, ClusterGroupCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM function [Failover Cluster], _wolf_clustergroupcloseenum, clusapi/ClusterGroupCloseEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, mscs.clustergroupcloseenum
 ms.prod: windows
 ms.technology: windows-sdk

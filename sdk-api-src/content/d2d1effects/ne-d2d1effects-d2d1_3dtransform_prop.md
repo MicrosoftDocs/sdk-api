@@ -4,10 +4,10 @@ title: D2D1_3DTRANSFORM_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the 3D transform effect.
 old-location: direct2d\d2d1_3dtransform_prop.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 56004ED1-66E2-44ED-B274-E7FF8C641954
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1_3DTRANSFORM_PROP, D2D1_3DTRANSFORM_PROP enumeration [Direct2D], D2D1_3DTRANSFORM_PROP_BORDER_MODE, D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE, D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX, d2d1effects/D2D1_3DTRANSFORM_PROP, d2d1effects/D2D1_3DTRANSFORM_PROP_BORDER_MODE, d2d1effects/D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX, direct2d.d2d1_3dtransform_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ A 4x4 transform matrix applied to the projection plane. The following matrix cal
               to the transformed 2D coordinate system.
             
 
-<img alt="3D Depth Matrix" src="./images/3d_transform_matrix1.png"/>
+<img alt="3D Depth Matrix" src="images/3d_transform_matrix1.png"/>
 Where:<dl>
 <dd>X, Y, Z = Input projection plane coordinates</dd>
 <dd>M<sub>x,y</sub> = Transform Matrix elements

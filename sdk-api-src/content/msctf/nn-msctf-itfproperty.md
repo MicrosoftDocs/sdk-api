@@ -7,7 +7,7 @@ old-location: tsf\itfproperty.htm
 old-project: TSF
 ms.assetid: 72bd92f9-d82e-4994-82ad-0989e987903b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework],described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,19 +127,17 @@ An instance of this interface is obtained in various ways, such as <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">
-        ITfContext::GetProperty
+<a href="https://msdn.microsoft.com/e5d76443-f767-47fb-be3a-8cbac224d299">ITfContext::GetProperty
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">
-        ITfReadOnlyProperty
+<a href="https://msdn.microsoft.com/f4021a3d-6b86-469f-8943-770e7ef0cf99">ITfReadOnlyProperty
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

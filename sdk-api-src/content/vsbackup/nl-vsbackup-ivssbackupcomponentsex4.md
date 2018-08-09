@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx4
 author: windows-sdk-content
 description: Defines additional methods to support the processing of UNC file share paths in a requester.
 old-location: base\ivssbackupcomponentsex4.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 Defines additional methods to support the processing of UNC file share paths in a requester.
 
 To obtain an instance of the <b>IVssBackupComponentsEx4</b> 
-   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx4</b> constant as the interface identifier (IID) parameter.
 

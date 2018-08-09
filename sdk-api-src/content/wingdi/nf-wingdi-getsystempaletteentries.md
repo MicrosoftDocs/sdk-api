@@ -7,7 +7,7 @@ old-location: gdi\getsystempaletteentries.htm
 old-project: gdi
 ms.assetid: 67bb0adf-ae7f-48d5-bc62-82ece45aeee6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSystemPaletteEntries, GetSystemPaletteEntries function [Windows GDI], _win32_GetSystemPaletteEntries, gdi.getsystempaletteentries, wingdi/GetSystemPaletteEntries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,36 +68,19 @@ The <b>GetSystemPaletteEntries</b> function retrieves a range of palette entries
 A handle to the device context.
 
 
-### -param iStart
-
-TBD
-
-
-### -param cEntries
-
-TBD
-
-
-### -param pPalEntries
-
-TBD
-
-
-
-
-#### - iStartIndex [in]
+### -param iStart [in]
 
 The first entry to be retrieved from the system palette.
 
 
-#### - lppe [out]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures to receive the palette entries. The array must contain at least as many structures as specified by the <i>nEntries</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of entries in the palette.
-
-
-#### - nEntries [in]
+### -param cEntries [in]
 
 The number of entries to be retrieved from the system palette.
+
+
+### -param pPalEntries [out]
+
+A pointer to an array of <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structures to receive the palette entries. The array must contain at least as many structures as specified by the <i>nEntries</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of entries in the palette.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\imfasynccallback_getparameters.htm
 old-project: medfound
 ms.assetid: 374dd139-d3e7-45d0-a7d3-1187b928ef57
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 374dd139-d3e7-45d0-a7d3-1187b928ef57, GetParameters, GetParameters method [Media Foundation], GetParameters method [Media Foundation],IMFAsyncCallback interface, IMFAsyncCallback interface [Media Foundation],GetParameters method, IMFAsyncCallback.GetParameters, IMFAsyncCallback::GetParameters, MFASYNC_BLOCKING_CALLBACK, MFASYNC_FAST_IO_PROCESSING_CALLBACK, MFASYNC_REPLY_CALLBACK, MFASYNC_SIGNAL_CALLBACK, Zero, mf.imfasynccallback_getparameters, mfobjects/IMFAsyncCallback::GetParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,8 +140,7 @@ Reply callback.
 
 ### -param pdwQueue [out]
 
-
-            Receives the identifier of the work queue on which the callback is dispatched. 
+Receives the identifier of the work queue on which the callback is dispatched. 
           
 
 This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a>. The default value is <b>MFASYNC_CALLBACK_QUEUE_STANDARD</b>.
@@ -167,8 +166,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -180,8 +178,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                Not implemented. Assume the default behavior.
+Not implemented. Assume the default behavior.
               
 
 </td>
@@ -196,15 +193,12 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        The <b>GetParameters</b> method returns information about the callback so that the dispatching thread can optimize the process that it uses to invoke the callback.
+The <b>GetParameters</b> method returns information about the callback so that the dispatching thread can optimize the process that it uses to invoke the callback.
       
 
+If the method returns a value other than zero in the <i>pdwFlags</i> parameter, your <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method must meet the requirements described here. Otherwise, the callback might delay the pipeline.
 
-        If the method returns a value other than zero in the <i>pdwFlags</i> parameter, your <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method must meet the requirements described here. Otherwise, the callback might delay the pipeline.
-
-
-        If you want default values for both parameters, return <b>E_NOTIMPL</b>. The default values are given in the parameter descriptions on this page.
+If you want default values for both parameters, return <b>E_NOTIMPL</b>. The default values are given in the parameter descriptions on this page.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

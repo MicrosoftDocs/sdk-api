@@ -7,7 +7,7 @@ old-location: rpc\i_rpcbindinginqlocalclientpid.htm
 old-project: rpc
 ms.assetid: af31dc1e-51b9-4789-a97f-d51ae34850cf
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID function [RPC], rpc.i_rpcbindinginqlocalclientpid, rpcdcep/I_RpcBindingInqLocalClientPID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,12 @@ The <b>I_RpcBindingInqLocalClientPID</b> function obtains a client process ID.
 
 
 
-### -param Binding
-
-TBD
-
-
-### -param Pid
-
-TBD
-
-
-
-
-#### - ClientBinding [in, optional]
+### -param Binding [in, optional]
 
 <b>RPC_BINDING_HANDLE</b> that specifies the binding handle for an explicit RPC binding from the client to a server application. 
 
 
-#### - ClientPID [out]
+### -param Pid [out]
 
 Contains the process ID of the client that issued the call upon return.
 

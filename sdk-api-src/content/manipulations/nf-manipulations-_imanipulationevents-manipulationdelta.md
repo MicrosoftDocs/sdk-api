@@ -7,7 +7,7 @@ old-location: wintouch\_imanipulationevents_manipulationdelta.htm
 old-project: wintouch
 ms.assetid: bebac896-c48d-4e6e-98ce-4b7d1dec101c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], ManipulationDelta method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationDelta method, _IManipulationEvents.ManipulationDelta, _IManipulationEvents::ManipulationDelta, manipulations/_IManipulationEvents::ManipulationDelta, wintouch._imanipulationevents_manipulationdelta
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,14 +132,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 
 
 
-
-    Manipulation events are generated for both the <a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a> and <a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a> interfaces.
+Manipulation events are generated for both the <a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a> and <a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a> interfaces.
     If you are using the values from the <a href="https://msdn.microsoft.com/fc382759-3a1e-401e-a6a7-1bf209a5434b">TOUCHINPUT</a> structure in calls to <a href="https://msdn.microsoft.com/e2c0e975-3edd-43d5-8a58-2d8166413c76">ProcessMove</a>, the coordinates will be in 
     hundredths of a pixel.
 
-<div class="alert"><b>Note</b>  
-    When using inertia, calls to <a href="https://msdn.microsoft.com/ff41789c-afc5-419b-9767-e99572b9b41e">IInertiaProcessor::Complete</a>
-	 can force the current manipulation to be extrapolated resulting in large deltas being passed to the ManipulationCompleted event.
+<div class="alert"><b>Note</b>  When using inertia, calls to <a href="https://msdn.microsoft.com/ff41789c-afc5-419b-9767-e99572b9b41e">IInertiaProcessor::Complete</a>can force the current manipulation to be extrapolated resulting in large deltas being passed to the ManipulationCompleted event.
 	 To address this issue, perform updates on the completed event in addition to the delta event.
 	 </div>
 <div> </div>

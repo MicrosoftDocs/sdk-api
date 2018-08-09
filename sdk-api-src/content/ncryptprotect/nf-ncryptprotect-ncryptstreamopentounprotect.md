@@ -7,7 +7,7 @@ old-location: security\ncryptstreamopentounprotect.htm
 old-project: seccng
 ms.assetid: 9848082E-EDDA-4DA1-9896-42EAF2ADFAB4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToUnprotect, NCryptStreamOpenToUnprotect function [Security], ncryptprotect/NCryptStreamOpenToUnprotect, security.ncryptstreamopentounprotect
 ms.prod: windows
 ms.technology: windows-sdk

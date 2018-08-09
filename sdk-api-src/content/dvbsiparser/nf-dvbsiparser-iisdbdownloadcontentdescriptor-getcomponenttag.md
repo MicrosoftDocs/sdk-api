@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getcomponenttag.htm
 old-project: mstv
 ms.assetid: d4ba2fbd-4349-48e3-81dd-622442409060
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbDownloadContentDescriptor.GetComponentTag, IIsdbDownloadContentDescriptor::GetComponentTag, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag, mstv.iisdbdownloadcontentdescriptor_getcomponenttag
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfrangebackup.htm
 old-project: TSF
 ms.assetid: f98cd8d0-7033-4bd2-94a1-1a75913c2647
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], ITfRangeBackup interface [Text Services Framework],described, _tsf_itfrangebackup_ref, msctf/ITfRangeBackup, tsf.itfrangebackup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,11 +96,11 @@ Restores a specified range object into the TSF context.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="ranges.htm">Ranges: Clones and Backups</a>
  
 
  

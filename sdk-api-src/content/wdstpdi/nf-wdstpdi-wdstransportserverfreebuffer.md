@@ -4,10 +4,10 @@ title: WdsTransportServerFreeBuffer function
 author: windows-sdk-content
 description: Releases memory used by a buffer.
 old-location: wds\wdstransportserverfreebuffer.htm
-old-project: Wds
+old-project: wds
 ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
 ms.prod: windows
 ms.technology: windows-sdk

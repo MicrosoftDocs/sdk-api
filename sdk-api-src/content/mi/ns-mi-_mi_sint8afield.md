@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sint8afield.htm
 old-project: wmi_v2
 ms.assetid: 42475234-e8e4-4fc5-9d5b-bf0dbd881b6e
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint8AField, MI_Sint8AField structure [Windows Management Infrastructure (MI)], _MI_Sint8AField, mi/MI_Sint8AField, wmi._mi_sint8afield, wmi_v2.mi_sint8afield
 ms.prod: windows
 ms.technology: windows-sdk

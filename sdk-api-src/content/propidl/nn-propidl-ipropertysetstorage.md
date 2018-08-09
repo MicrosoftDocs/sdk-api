@@ -7,7 +7,7 @@ old-location: stg\ipropertysetstorage.htm
 old-project: stg
 ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage [Strctd Stg], IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage],described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			
-			The 
+The 
 <b>IPropertySetStorage</b> interface creates, opens, deletes, and enumerates property set storages that support instances of the 
 <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface. The 
 <b>IPropertyStorage</b> interface manages a single property set in a property storage subobject; and the 

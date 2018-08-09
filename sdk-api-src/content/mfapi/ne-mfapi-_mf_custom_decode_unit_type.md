@@ -7,7 +7,7 @@ old-location: mf\mf_custom_decode_unit_type_enum.htm
 old-project: medfound
 ms.assetid: B74890ED-9586-475B-8C77-457ECB893980
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MF_CUSTOM_DECODE_UNIT_TYPE, MF_CUSTOM_DECODE_UNIT_TYPE enumeration [Media Foundation], MF_DECODE_UNIT_NAL, MF_DECODE_UNIT_SEI, _MF_CUSTOM_DECODE_UNIT_TYPE, mf.mf_custom_decode_unit_type_enum, mfapi/MF_CUSTOM_DECODE_UNIT_TYPE, mfapi/MF_DECODE_UNIT_NAL, mfapi/MF_DECODE_UNIT_SEI
 ms.prod: windows
 ms.technology: windows-sdk

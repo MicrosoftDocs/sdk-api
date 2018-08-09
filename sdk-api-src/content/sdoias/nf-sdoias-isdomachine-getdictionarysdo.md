@@ -7,7 +7,7 @@ old-location: nps\SDO_isdomachine_getdictionarysdo.htm
 old-project: nps
 ms.assetid: 172444be-b2a2-4060-af92-b0c63f0ffe6b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: GetDictionarySDO, GetDictionarySDO method [Network Policy Server], GetDictionarySDO method [Network Policy Server],ISdoMachine interface, GetDictionarySDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetDictionarySDO method, ISdoMachine.GetDictionarySDO, ISdoMachine::GetDictionarySDO, SdoMachine object [Network Policy Server],GetDictionarySDO method, _sdo_isdomachine_getdictionarysdo, nps.SDO_isdomachine_getdictionarysdo, sdo.isdomachine_getdictionarysdo, sdoias/ISdoMachine::GetDictionarySDO
 ms.prod: windows
 ms.technology: windows-sdk

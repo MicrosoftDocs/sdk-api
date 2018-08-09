@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_getremoteinfo.htm
 old-project: offlinefiles
 ms.assetid: 8b036680-b74c-485f-adae-88e59fc5e84c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetRemoteInfo, GetRemoteInfo method [Offline Files], GetRemoteInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetRemoteInfo method, IOfflineFilesSyncErrorInfo.GetRemoteInfo, IOfflineFilesSyncErrorInfo::GetRemoteInfo, cscobj/IOfflineFilesSyncErrorInfo::GetRemoteInfo, of.iofflinefilessyncerrorinfo_getremoteinfo
 ms.prod: windows
 ms.technology: windows-sdk

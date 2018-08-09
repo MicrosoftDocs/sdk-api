@@ -7,7 +7,7 @@ old-location: tapi3\itmspaddress_initialize.htm
 old-project: tapi
 ms.assetid: 5df2c486-0133-4705-8d37-10b56b40c85d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.Initialize, ITMSPAddress::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
 ms.prod: windows
 ms.technology: windows-sdk

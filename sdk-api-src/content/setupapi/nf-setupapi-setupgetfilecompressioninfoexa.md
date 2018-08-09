@@ -7,7 +7,7 @@ old-location: setup\setupgetfilecompressioninfoex.htm
 old-project: SetupApi
 ms.assetid: e6f01e02-ea39-4b25-bcc0-2aee941c7834
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupGetFileCompressionInfoEx, SetupGetFileCompressionInfoEx function [Setup API], SetupGetFileCompressionInfoExA, SetupGetFileCompressionInfoExW, _setupapi_setupgetfilecompressioninfoex, setup.setupgetfilecompressioninfoex, setupapi/SetupGetFileCompressionInfoEx, setupapi/SetupGetFileCompressionInfoExA, setupapi/SetupGetFileCompressionInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,9 @@ File name of the potentially compressed file to be examined. If the file is not 
 Pointer to a  buffer that receives the actual file name and path if this parameter is not <b>NULL</b>. This is valid only if the function returns NO_ERROR.
 
 
-### -param ActualSourceFileNameBufferLen
+### -param ActualSourceFileNameBufferLen [in, out]
 
-TBD
+Size of the buffer specified by <i>ActualSourceFileNameBuffer</i>, in characters. You would typically use a buffer size of MAX_PATH. If <i>ActualSourceFileNameLen</i> is too small, the function fails with ERROR_INSUFFICIENT_BUFFER. <i>ActualSourceFileNameLen</i> must contain zero if <i>ActualSourceFileNameBuffer</i> is <b>NULL</b>.
 
 
 ### -param RequiredBufferLen [out]
@@ -122,11 +122,6 @@ The source file is compressed with LZ compression.
 #### FILE_COMPRESSION_MSZIP
 
 The source file is compressed with MSZIP compression.
-
-
-#### - ActualSourceFileNameLen [in, out]
-
-Size of the buffer specified by <i>ActualSourceFileNameBuffer</i>, in characters. You would typically use a buffer size of MAX_PATH. If <i>ActualSourceFileNameLen</i> is too small, the function fails with ERROR_INSUFFICIENT_BUFFER. <i>ActualSourceFileNameLen</i> must contain zero if <i>ActualSourceFileNameBuffer</i> is <b>NULL</b>.
 
 
 ## -returns

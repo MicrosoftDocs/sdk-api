@@ -7,7 +7,7 @@ old-location: adsi\iadspostaladdress.htm
 old-project: ADSI
 ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

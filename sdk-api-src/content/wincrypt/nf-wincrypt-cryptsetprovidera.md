@@ -4,10 +4,10 @@ title: CryptSetProviderA function
 author: windows-sdk-content
 description: Specifies the current user's default cryptographic service provider (CSP).
 old-location: security\cryptsetprovider.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

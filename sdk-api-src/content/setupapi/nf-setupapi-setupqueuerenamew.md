@@ -7,7 +7,7 @@ old-location: setup\setupqueuerename.htm
 old-project: SetupApi
 ms.assetid: 0b80eba9-9e71-4255-8c1b-039878682ec4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Handle to a setup file queue, as returned by
 Pointer to a null-terminated string that specifies the source path of the file to be renamed. If <i>SourceFileName</i> is not specified, <i>SourcePath</i> is assumed to be the full path.
 
 
-### -param SourceFilename
+### -param SourceFilename [in]
 
-TBD
+Pointer to a null-terminated string that specifies the file name part of the file to be renamed. If not specified, <i>SourcePath</i> is the full path.
 
 
 ### -param TargetPath [in]
@@ -85,19 +85,7 @@ TBD
 Pointer to a null-terminated string that specifies the target directory. When this parameter is specified, the rename operation is actually a move operation. If <i>TargetPath</i> is not specified, the file is renamed but remains in its current location.
 
 
-### -param TargetFilename
-
-TBD
-
-
-
-
-#### - SourceFileName [in]
-
-Pointer to a null-terminated string that specifies the file name part of the file to be renamed. If not specified, <i>SourcePath</i> is the full path.
-
-
-#### - TargetFileName [in]
+### -param TargetFilename [in]
 
 Pointer to a null-terminated string that specifies the new name for the source file.
 

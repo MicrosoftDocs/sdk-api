@@ -7,7 +7,7 @@ old-location: rras\mpradmingetpdcserver.htm
 old-project: rras
 ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminGetPDCServer, MprAdminGetPDCServer function [RAS], _mpr_mpradmingetpdcserver, mprapi/MprAdminGetPDCServer, rras.mpradmingetpdcserver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,36 +60,19 @@ The
 
 
 
-### -param lpszDomain
-
-TBD
-
-
-### -param lpszServer
-
-TBD
-
-
-### -param lpszPDCServer
-
-TBD
-
-
-
-
-#### - lpwsDomainName [in]
+### -param lpszDomain [in]
 
 Pointer to a null-terminated Unicode string that specifies the name of the domain to which the RAS server belongs. This parameter can be <b>NULL</b> if you are running your RAS administration application on a Windows NT/Windows 2000 server that is not participating in a domain. If this parameter is <b>NULL</b>, the <i>lpwsServerName</i> parameter must not be <b>NULL</b>.
 
 
-#### - lpwsPDCName [out]
-
-Pointer to a buffer that receives a null-terminated Unicode string that contains the name of a domain controller that has the user account database. The buffer should be big enough to hold the server name (UNCLEN +1). The function prefixes the returned server name with leading "\\" characters, in the form: <b>\\servername</b>.
-
-
-#### - lpwsServerName [in]
+### -param lpszServer [in]
 
 Pointer to a null-terminated Unicode string that specifies the name of the Windows NT/Windows 2000 RAS server. Specify the name with leading "\\" characters, in the form: <b>\\servername</b>. This parameter can be <b>NULL</b> if the <i>lpwsDomain</i> parameter is not <b>NULL</b>.
+
+
+### -param lpszPDCServer [out]
+
+Pointer to a buffer that receives a null-terminated Unicode string that contains the name of a domain controller that has the user account database. The buffer should be big enough to hold the server name (UNCLEN +1). The function prefixes the returned server name with leading "\\" characters, in the form: <b>\\servername</b>.
 
 
 ## -returns
@@ -143,7 +126,7 @@ The <i>lpwsDomainName</i> parameter is <b>NULL</b>, and <i>lpwsServerName</i> pa
 
 The 
 <b>MprAdminGetPDCServer</b> function can obtain the name of the server with the user accounts database given the name of the RAS server, or the name of the domain in which the RAS server resides. To get the server name, call the 
-<a href="https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx">GetComputerName</a> function
+<a href="_win32_getcomputername">GetComputerName</a> function
 
 If the server name specified by <i>lpszServer</i> is part of a domain, The server returned by 
 <b>MprAdminGetPDCServer</b> will be either the primary domain controller or a backup domain controller.
@@ -151,7 +134,7 @@ If the server name specified by <i>lpszServer</i> is part of a domain, The serve
 If the server name specified by <i>lpszServer</i> is a stand-alone Windows NT/Windows 2000 server (that is, the server or workstation does not participate in a domain), then the server name itself is returned in the <i>lpszUserAccountServer</i> buffer.
 
 You can then use the name of the user account server in a call to the 
-<a href="https://msdn.microsoft.com/library/Aa370610(v=VS.85).aspx">NetQueryDisplayInformation</a> function to enumerate the users in the user account database. You can also use the server name in calls to the 
+<a href="_win32_netquerydisplayinformation">NetQueryDisplayInformation</a> function to enumerate the users in the user account database. You can also use the server name in calls to the 
 <a href="https://msdn.microsoft.com/d04f6925-ac38-4adf-ac2e-701db5435c90">MprAdminUserGetInfo</a> and 
 <a href="https://msdn.microsoft.com/7f4d5213-56b4-43d2-93c8-ee5ca50b2a19">MprAdminUserSetInfo</a> functions to get and set RAS privileges for a specified user account.
 
@@ -163,7 +146,7 @@ You can then use the name of the user account server in a call to the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx">GetComputerName</a>
+<a href="_win32_getcomputername">GetComputerName</a>
 
 
 
@@ -175,7 +158,7 @@ You can then use the name of the user account server in a call to the
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa370610(v=VS.85).aspx">NetQueryDisplayInformation</a>
+<a href="_win32_netquerydisplayinformation">NetQueryDisplayInformation</a>
 
 
 

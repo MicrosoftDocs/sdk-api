@@ -4,10 +4,10 @@ title: IWdsTransportNamespace::Refresh
 author: windows-sdk-content
 description: Resets the property values of the namespace with values from the server.
 old-location: wds\iwdstransportnamespace_refresh.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 9d5742e0-4197-4a15-82c6-5623940c0c7f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Refresh method, IWdsTransportNamespace.Refresh, IWdsTransportNamespace::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_refresh, wdstptmgmt/IWdsTransportNamespace::Refresh
 ms.prod: windows
 ms.technology: windows-sdk

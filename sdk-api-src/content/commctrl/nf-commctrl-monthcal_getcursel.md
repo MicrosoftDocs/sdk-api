@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCurSel.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_GetCurSel, MonthCal_GetCurSel macro [Windows Controls], _win32_MonthCal_GetCurSel, _win32_MonthCal_GetCurSel_cpp, commctrl/MonthCal_GetCurSel, controls.MonthCal_GetCurSel, controls._win32_MonthCal_GetCurSel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the currently selected date. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760957(v=VS.85).aspx">MCM_GETCURSEL</a> message explicitly. 
+Retrieves the currently selected date. You can use this macro or send the <a href="https://msdn.microsoft.com/d4edc9ed-7c92-4ec8-bfa1-8ae597826b3f">MCM_GETCURSEL</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Retrieves the currently selected date. You can use this macro or send the <a hre
 
 ### -param hmc
 
-TBD
-
-
-### -param pst
-
-TBD
-
-
-
-
-
-
-#### - hwndMC
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
-#### - lpSysTime
+### -param pst
 
 Type: <b>LPSYSTEMTIME</b>
 

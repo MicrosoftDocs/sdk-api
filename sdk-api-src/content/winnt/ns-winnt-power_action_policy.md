@@ -4,10 +4,10 @@ title: POWER_ACTION_POLICY
 author: windows-sdk-content
 description: Contains information used to set the system power state.
 old-location: base\power_action_policy_str.htm
-old-project: Power
+old-project: power
 ms.assetid: 70739f46-54be-4748-8993-ffee3b2a8b6c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE_WAKES, POWER_ACTION_LIGHTEST_FIRST, POWER_ACTION_LOCK_CONSOLE, POWER_ACTION_OVERRIDE_APPS, POWER_ACTION_POLICY, POWER_ACTION_POLICY structure, POWER_ACTION_QUERY_ALLOWED, POWER_ACTION_UI_ALLOWED, POWER_FORCE_TRIGGER_RESET, POWER_LEVEL_USER_NOTIFY_EXEC, POWER_LEVEL_USER_NOTIFY_SOUND, POWER_LEVEL_USER_NOTIFY_TEXT, POWER_USER_NOTIFY_BUTTON, POWER_USER_NOTIFY_SHUTDOWN, PPOWER_ACTION_POLICY, PPOWER_ACTION_POLICY structure pointer, _win32_power_action_policy_str, base.power_action_policy_str, winnt/POWER_ACTION_POLICY, winnt/PPOWER_ACTION_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Contains information used to set the system power state.
 ### -field Action
 
 The requested system power state. This member must be one of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa373145(v=VS.85).aspx">POWER_ACTION</a> enumeration type values.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff560459">POWER_ACTION</a> enumeration type values.
 
 
 ### -field Flags

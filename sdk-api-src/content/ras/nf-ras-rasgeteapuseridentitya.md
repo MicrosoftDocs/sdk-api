@@ -7,7 +7,7 @@ old-location: rras\rasgeteapuseridentity.htm
 old-project: rras
 ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RASEAPF_Logon, RASEAPF_NonInteractive, RASEAPF_Preview, RasGetEapUserIdentity, RasGetEapUserIdentity function [RAS], RasGetEapUserIdentityA, RasGetEapUserIdentityW, _ras_rasgeteapuseridentity, ras/RasGetEapUserIdentity, ras/RasGetEapUserIdentityA, ras/RasGetEapUserIdentityW, rras.rasgeteapuseridentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,7 +196,7 @@ The Remote Access Service failed to initialize properly.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Use
 
 <b>RasGetEapUserIdentity</b> calls the RAS function 
 <a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a> and the EAP function 
-<a href="https://msdn.microsoft.com/library/Aa363524(v=VS.85).aspx">RasEapGetIdentity</a>. <b>RasEapGetIdentity</b> is implemented by the authentication protocol.
+<a href="_eap_raseapgetidentity">RasEapGetIdentity</a>. <b>RasEapGetIdentity</b> is implemented by the authentication protocol.
 
 If the function succeeds, that is the return value is NO_ERROR, the caller should copy the EAP identity information from the <a href="https://msdn.microsoft.com/6e27d6cf-65bd-459f-ab4a-2177a2a39ff3">RASEAPUSERIDENTITY</a> structure pointed to by 
 the <i>ppRasEapUserIdentity</i> parameter to the 
@@ -239,7 +239,7 @@ If the remote access application being developed has a graphical user interface,
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa363524(v=VS.85).aspx">RasEapGetIdentity</a>
+<a href="_eap_raseapgetidentity">RasEapGetIdentity</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\SHGetSpecialFolderLocation.htm
 old-project: shell
 ms.assetid: 10b00497-fc3b-4e34-acd8-bc0721c0dc05
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGetSpecialFolderLocation, SHGetSpecialFolderLocation function [Windows Shell], _win32_SHGetSpecialFolderLocation, _win32_SHGetSpecialFolderLocation_cpp, shell.SHGetSpecialFolderLocation, shlobj_core/SHGetSpecialFolderLocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,18 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+Reserved.
 
 
-### -param csidl
+### -param csidl [in]
 
-TBD
+Type: <b>int</b>
+
+A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder of interest.
 
 
 ### -param ppidl [out]
@@ -80,20 +84,6 @@ TBD
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
 A PIDL specifying the folder's location relative to the root of the namespace (the desktop). It is the responsibility of the calling application to free the returned IDList by using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - hwndOwner [in]
-
-Type: <b>HWND</b>
-
-Reserved.
-
-
-#### - nFolder [in]
-
-Type: <b>int</b>
-
-A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder of interest.
 
 
 ## -returns

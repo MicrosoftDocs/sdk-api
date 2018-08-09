@@ -7,7 +7,7 @@ old-location: battery\battery_miniport_info_v1_1.htm
 old-project: battery
 ms.assetid: 3266126A-AEFC-445C-89D3-736545101522
 ms.author: windowssdkdev
-ms.date: 02/16/2018
+ms.date: 07/30/2018
 ms.keywords: "*PBATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1 structure [Battery Devices], PBATTERY_MINIPORT_INFO_V1_1, PBATTERY_MINIPORT_INFO_V1_1 structure pointer [Battery Devices], batclass/BATTERY_MINIPORT_INFO_V1_1, batclass/PBATTERY_MINIPORT_INFO_V1_1, battery.battery_miniport_info_v1_1"
 ms.prod: windows
 ms.technology: windows-sdk

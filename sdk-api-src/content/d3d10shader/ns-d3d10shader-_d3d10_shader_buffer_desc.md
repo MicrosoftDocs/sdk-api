@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_buffer_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_buffer_desc.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 149ee7ef-e8fe-d33d-b3e6-f8e1b0c4a83a, D3D10_SHADER_BUFFER_DESC, D3D10_SHADER_BUFFER_DESC structure [Direct3D 10], _D3D10_SHADER_BUFFER_DESC, d3d10shader/D3D10_SHADER_BUFFER_DESC, direct3d10.d3d10_shader_buffer_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ The name of the buffer.
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204899(v=VS.85).aspx">D3D10_CBUFFER_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/1aba3e72-8ebe-48e7-9af6-04bf0469e879">D3D10_CBUFFER_TYPE</a></b>
 
-The intended use of the constant data. See <a href="https://msdn.microsoft.com/library/Bb204899(v=VS.85).aspx">D3D10_CBUFFER_TYPE</a>.
+The intended use of the constant data. See <a href="https://msdn.microsoft.com/1aba3e72-8ebe-48e7-9af6-04bf0469e879">D3D10_CBUFFER_TYPE</a>.
 
 
 ### -field Variables
@@ -90,14 +90,14 @@ Buffer size (in bytes).
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Shader buffer properties. See <a href="https://msdn.microsoft.com/library/Bb172418(v=VS.85).aspx">D3D10_SHADER_CBUFFER_FLAGS</a>.
+Shader buffer properties. See <a href="https://msdn.microsoft.com/7dde4388-6f65-4533-86d0-0b6f5619ccd8">D3D10_SHADER_CBUFFER_FLAGS</a>.
 
 
 ## -remarks
 
 
 
-Constants are supplied to shaders in a shader-constant buffer. Get the description of a shader-constant-buffer by calling <a href="https://msdn.microsoft.com/library/Bb173837(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer::GetDesc</a>.
+Constants are supplied to shaders in a shader-constant buffer. Get the description of a shader-constant-buffer by calling <a href="https://msdn.microsoft.com/30380e1d-4f89-4008-9e3d-112de4a61fb2">ID3D10ShaderReflectionConstantBuffer::GetDesc</a>.
 
 
 
@@ -107,7 +107,7 @@ Constants are supplied to shaders in a shader-constant buffer. Get the descripti
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wcs\checkcolorsingamut.htm
 old-project: WCS
 ms.assetid: 87bee1a6-e3dd-4d0b-ad8a-9584833d9463
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: CheckColorsInGamut, CheckColorsInGamut function [Windows Color System], _color_CheckColorsInGamut, wcs.checkcolorsingamut, wingdi/CheckColorsInGamut
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
+The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="g.htm">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
 
 
 ## -parameters
@@ -63,37 +63,22 @@ The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB
 
 ### -param hdc
 
-TBD
+Handle to the device context whose output gamut to be checked.
 
 
 ### -param lpRGBTriple
 
-TBD
+Pointer to an array of RGB triples to check.
 
 
 ### -param dlpBuffer
 
-TBD
+Pointer to the buffer in which the results are to be placed. This buffer must be at least as large as <i>nCount</i> bytes.
 
 
 ### -param nCount
 
 The number of elements in the array of triples.
-
-
-#### - hDC
-
-Handle to the device context whose output gamut to be checked.
-
-
-#### - lpBuffer
-
-Pointer to the buffer in which the results are to be placed. This buffer must be at least as large as <i>nCount</i> bytes.
-
-
-#### - lpRGBTriples
-
-Pointer to an array of RGB triples to check.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: tablet\inktransform_shear.htm
 old-project: tablet
 ms.assetid: 4a3d828e-33cc-435f-9276-7c3304cca71d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 4a3d828e-33cc-435f-9276-7c3304cca71d, IInkTransform interface [Tablet PC],Shear method, IInkTransform.Shear, IInkTransform::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Shear, tablet.inktransform_shear
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,7 +128,7 @@ The transformation applied in this method is a pure shear only if one of the par
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="tablet.iinktransform">IInkTransform</a>
 
 
 

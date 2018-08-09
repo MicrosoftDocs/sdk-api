@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_initialize.htm
 old-project: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient.Initialize, IAudioClient::Initialize, IAudioClientInitialize, Initialize, Initialize method [Core Audio], Initialize method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -386,8 +386,7 @@ The AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag indicates that processing of the audi
 
 The initial release of Windows Vista supports event-driven buffering (that is, the use of the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag) for rendering streams only.
 
-
-          In the initial  release of Windows Vista, for capture streams, the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag is supported only in shared mode. Setting this flag    has no effect for exclusive-mode capture streams. That is, although the application specifies this flag in exclusive mode through the <b>Initialize</b> call, the application will not receive any events that are  usually required to capture the  audio stream. In the Windows Vista Service Pack 1 release, this flag is functional in shared-mode and exclusive mode; an application can set this  flag to enable event-buffering for capture streams. For more information about capturing an audio stream, see <a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>.
+In the initial  release of Windows Vista, for capture streams, the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag is supported only in shared mode. Setting this flag    has no effect for exclusive-mode capture streams. That is, although the application specifies this flag in exclusive mode through the <b>Initialize</b> call, the application will not receive any events that are  usually required to capture the  audio stream. In the Windows Vista Service Pack 1 release, this flag is functional in shared-mode and exclusive mode; an application can set this  flag to enable event-buffering for capture streams. For more information about capturing an audio stream, see <a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>.
 
 To enable event-driven buffering, the client must provide an event handle to the system. Following the <b>Initialize</b> call and before calling the <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">IAudioClient::Start</a> method to start the stream, the client must call the <a href="https://msdn.microsoft.com/7bca0c00-5157-43bf-98bd-3bfb23abe860">IAudioClient::SetEventHandle</a> method to set the event handle. While the stream is running, the system periodically signals the event to indicate to the client that audio data is available for processing. Between processing passes, the client thread waits on the event handle by calling a synchronization function such as <b>WaitForSingleObject</b>. For more information about synchronization functions, see the Windows SDK documentation.
 

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource2.htm
 old-project: mstv
 ms.assetid: 47012868-4c9e-4974-8549-11331836bed0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSource2Interface, mstv.imsvidstreambuffersource2, segment/IMSVidStreamBufferSource2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\ienumvariant.htm
 old-project: automat
 ms.assetid: 139e3c93-faef-4003-9079-e0e94494db3e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT interface [Automation],described, _oa96_IEnumVARIANT_Interface, automat.ienumvariant, oaidl/IEnumVARIANT
 ms.prod: windows
 ms.technology: windows-sdk

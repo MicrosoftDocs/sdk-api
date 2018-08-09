@@ -7,7 +7,7 @@ old-location: winrt\registrationscope.htm
 old-project: WinRT
 ms.assetid: B4C14F6B-90BE-43AC-955B-229CDA025224
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: InboxApp, PerMachine, PerUser, RegistrationScope, RegistrationScope enumeration [Windows Runtime], activationregistration/InboxApp, activationregistration/PerMachine, activationregistration/PerUser, activationregistration/RegistrationScope, winrt.registrationscope
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,11 +72,6 @@ Represents the deployment scope of an activatable class.
 
 
 
-#### - InboxApp
-
-Activation is per-machine, for a built-in app store.
-
-
 #### - PerMachine
 
 Activation is per-machine, for a Windows Store app.
@@ -85,6 +80,11 @@ Activation is per-machine, for a Windows Store app.
 #### - PerUser
 
 Activation is per user, from a 3rd-party app store.
+
+
+#### - InboxApp
+
+Activation is per-machine, for a built-in app store.
 
 
 ## -see-also

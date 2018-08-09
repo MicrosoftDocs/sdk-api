@@ -7,7 +7,7 @@ old-location: security\iobjectids_itembyindex_property.htm
 old-project: seccertenroll
 ms.assetid: 388c3ac4-9b3b-46a5-9b8f-d446de92f6c2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IObjectIds interface [Security],ItemByIndex property, IObjectIds.ItemByIndex, IObjectIds.get_ItemByIndex, IObjectIds::ItemByIndex, IObjectIds::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IObjectIds interface, certenroll/IObjectIds::ItemByIndex, certenroll/IObjectIds::get_ItemByIndex, get_ItemByIndex, security.iobjectids_itembyindex_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\rectinregion.htm
 old-project: gdi
 ms.assetid: 198a02f1-120c-4f65-aa7c-a41f2e5e81a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RectInRegion, RectInRegion function [Windows GDI], _win32_RectInRegion, gdi.rectinregion, wingdi/RectInRegion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ The <b>RectInRegion</b> function determines whether any part of the specified re
 Handle to the region.
 
 
-### -param lprect
-
-TBD
-
-
-
-
-#### - lprc [in]
+### -param lprect [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the coordinates of the rectangle in logical units. The lower and right edges of the rectangle are not included.
 

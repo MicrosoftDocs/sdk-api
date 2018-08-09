@@ -7,7 +7,7 @@ old-location: controls\ListView_CreateDragImage.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_createdragimage.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_CreateDragImage, ListView_CreateDragImage macro [Windows Controls], _win32_ListView_CreateDragImage, _win32_ListView_CreateDragImage_cpp, commctrl/ListView_CreateDragImage, controls.ListView_CreateDragImage, controls._win32_ListView_CreateDragImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Creates a drag image list for the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774890(v=VS.85).aspx">LVM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a drag image list for the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/face4c8f-01ff-4f5a-a468-e306a50dae35">LVM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -67,7 +67,9 @@ A handle to the list-view control.
 
 ### -param i
 
-TBD
+Type: <b>int</b>
+
+The index of the item. 
 
 
 ### -param lpptUpLeft
@@ -75,13 +77,6 @@ TBD
 Type: <b>LPPOINT</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates. 
-
-
-#### - iItem
-
-Type: <b>int</b>
-
-The index of the item. 
 
 
 ## -remarks

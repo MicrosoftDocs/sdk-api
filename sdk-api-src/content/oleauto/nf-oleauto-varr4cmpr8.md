@@ -7,7 +7,7 @@ old-location: automat\varr4cmpr8.htm
 old-project: automat
 ms.assetid: 0c871779-cfe2-4857-a391-ee28aca6c950
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR4CmpR8, VarR4CmpR8 function [Automation], _oa96_VarR4CmpR8, automat.varr4cmpr8, oleauto/VarR4CmpR8
 ms.prod: windows
 ms.technology: windows-sdk

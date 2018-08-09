@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsubnetinfovq.htm
 old-project: dhcp
 ms.assetid: 7ee3ba38-a90c-4409-a40f-80e1cd1fc3c3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetSubnetInfoVQ, DhcpGetSubnetInfoVQ function [DHCP], dhcp.dhcpgetsubnetinfovq, dhcpsapi/DhcpGetSubnetInfoVQ
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpGetSubnetInfoVQ</b> function retrieves the information about a specific IPv4 subnet defined on the DHCP server.
+The <b>DhcpGetSubnetInfoVQ</b> function retrieves the information about a specific IPv4 subnet defined on the DHCP server.
 
 
 ## -parameters
@@ -144,8 +143,7 @@ One of the parameters provides an invalid value.
 
 
 
-<a href="https://msdn.microsoft.com/8440378e-c1dc-4e22-8c56-2cf4412c2483">
-        DHCP_SUBNET_INFO_VQ</a>
+<a href="https://msdn.microsoft.com/8440378e-c1dc-4e22-8c56-2cf4412c2483">DHCP_SUBNET_INFO_VQ</a>
  
 
  

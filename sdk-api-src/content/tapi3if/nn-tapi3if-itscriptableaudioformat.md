@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat
 author: windows-sdk-content
 description: The ITScriptableAudioFormat interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 6b5d069a-044f-4bd4-b661-6100a2607107
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITScriptableAudioFormat, ITScriptableAudioFormat interface [TAPI 2.2], ITScriptableAudioFormat interface [TAPI 2.2],described, _tapi3_itscriptableaudioformat, tapi3.itscriptableaudioformat, tapi3if/ITScriptableAudioFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITScriptableAudioFormat</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITScriptableAudioFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITScriptableAudioFormat</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITScriptableAudioFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

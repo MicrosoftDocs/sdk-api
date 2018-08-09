@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
 old-project: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataItems::GetMaxItemCount

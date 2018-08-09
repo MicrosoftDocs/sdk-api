@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentpackagepath.htm
 old-project: appxpkg
 ms.assetid: 46CE81DF-A9D5-492E-AB5E-4F043DC326E2
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetCurrentPackagePath, GetCurrentPackagePath function [App packaging and management], appmodel/GetCurrentPackagePath, appxpkg.getcurrentpackagepath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
 old-project: TSF
 ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushContext method, ITfThreadMgrEventSink.OnPushContext, ITfThreadMgrEventSink::OnPushContext, OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
 ms.prod: windows
 ms.technology: windows-sdk

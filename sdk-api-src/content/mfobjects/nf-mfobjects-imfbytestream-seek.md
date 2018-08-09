@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_seek.htm
 old-project: medfound
 ms.assetid: 512c67a5-e87d-4a81-8577-e64dac868c40
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Media Foundation],Seek method, IMFByteStream.Seek, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek, Seek method [Media Foundation], Seek method [Media Foundation],IMFByteStream interface, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Moves the current position in the stream by a specified offset.
 
 ### -param SeekOrigin [in]
 
-
-            Specifies the origin of the seek as a member of the <a href="https://msdn.microsoft.com/ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51">MFBYTESTREAM_SEEK_ORIGIN</a> enumeration. The offset is calculated relative to this position.
+Specifies the origin of the seek as a member of the <a href="https://msdn.microsoft.com/ad7ad61a-0c02-4a8f-96c3-33f7d1f0ce51">MFBYTESTREAM_SEEK_ORIGIN</a> enumeration. The offset is calculated relative to this position.
           
 
 
@@ -77,8 +76,7 @@ Moves the current position in the stream by a specified offset.
 
 ### -param dwSeekFlags [in]
 
-
-            Specifies zero or more flags. The following flags are defined.
+Specifies zero or more flags. The following flags are defined.
           
 
 <table>
@@ -92,8 +90,7 @@ Moves the current position in the stream by a specified offset.
 </dl>
 </td>
 <td width="60%">
-
-                All pending I/O requests are canceled after the seek request completes successfully.
+All pending I/O requests are canceled after the seek request completes successfully.
               
 
 </td>
@@ -104,15 +101,13 @@ Moves the current position in the stream by a specified offset.
 
 ### -param pqwCurrentPosition [out]
 
-
-            Receives the new position after the seek.
+Receives the new position after the seek.
           
 
 
 #### - qwSeekOffset [in]
 
-
-            Specifies the new position, as a byte offset from the seek origin.
+Specifies the new position, as a byte offset from the seek origin.
           
 
 

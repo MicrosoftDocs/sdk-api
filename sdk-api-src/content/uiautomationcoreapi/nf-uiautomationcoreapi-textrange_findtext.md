@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_FindTextConPat.htm
 old-project: WinAuto
 ms.assetid: 24303a97-e8ad-4261-bff8-575980cf3c3d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TextRange_FindText, TextRange_FindText function [Windows Accessibility], uiauto.uiauto_TextRange_FindTextConPat, uiauto_TextRange_FindTextConPat, uiautomationcoreapi/TextRange_FindText, winauto.uiauto_TextRange_FindTextConPat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getservername.htm
 old-project: wmi_v2
 ms.assetid: 773b2cb9-9296-4da9-8c13-288524bfccd5
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_Instance_GetServerName, MI_Instance_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetServerName, wmi_v2.mi_instance_getservername
 ms.prod: windows
 ms.technology: windows-sdk

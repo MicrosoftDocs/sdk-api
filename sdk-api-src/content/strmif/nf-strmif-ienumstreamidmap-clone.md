@@ -7,7 +7,7 @@ old-location: dshow\ienumstreamidmap_clone.htm
 old-project: DirectShow
 ms.assetid: 2c6ef2a8-a5d7-434f-8de2-221502b7c5cf
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumStreamIdMap interface, IEnumStreamIdMap interface [DirectShow],Clone method, IEnumStreamIdMap.Clone, IEnumStreamIdMap::Clone, IEnumStreamIdMapClone, dshow.ienumstreamidmap_clone, strmif/IEnumStreamIdMap::Clone
 ms.prod: windows
 ms.technology: windows-sdk

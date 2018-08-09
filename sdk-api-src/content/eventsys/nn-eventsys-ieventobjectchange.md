@@ -7,7 +7,7 @@ old-location: cos\ieventobjectchange.htm
 old-project: cossdk
 ms.assetid: 2e916601-e03d-4c5f-a8fb-38317cfb66ad
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEventObjectChange, IEventObjectChange interface [COM+], IEventObjectChange interface [COM+],described, _cos_IEventObjectChange, cos.ieventobjectchange, eventsys/IEventObjectChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,6 @@ The <b>IEventObjectChange</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8db711c8-7c01-4fb0-975c-a66c83063124">ChangedEventClass</a>
 </td>
 <td align="left" width="63%">
-
 Indicates that an event class object has been added, modified, or deleted.
 
 </td>
@@ -84,7 +83,6 @@ Indicates that an event class object has been added, modified, or deleted.
 <a href="https://msdn.microsoft.com/13bd95e6-5fc2-41e2-9002-67a87f727528">ChangedPublisher</a>
 </td>
 <td align="left" width="63%">
-
 Indicates a publisher object has been added, modified, or deleted.
 
 </td>

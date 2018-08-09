@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject_skip.htm
 old-project: tapi
 ms.assetid: e14e71f1-5151-4562-bfbf-1370f65cb23a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Skip method, IEnumDirectoryObject.Skip, IEnumDirectoryObject::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_skip, rend/IEnumDirectoryObject::Skip, tapi3.ienumdirectoryobject_skip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 

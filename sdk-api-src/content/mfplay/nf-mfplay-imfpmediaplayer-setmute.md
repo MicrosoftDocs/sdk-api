@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setmute.htm
 old-project: medfound
 ms.assetid: 81e2fb76-a125-4665-9aa5-8971410ee554
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMediaPlayer.SetMute, IMFPMediaPlayer::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 If you call this method before playback starts, the setting is applied after playback starts.
-
 
 This method does not mute the entire audio session to which the player belongs. It mutes only the streams from the current media item. Other streams in the audio session are not affected. For more information, see <a href="https://msdn.microsoft.com/4cf3dd0f-4c8a-4720-9eb3-d23352f3a85e">Managing the Audio Session</a>. 
 

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemfilter.htm
 old-project: offlinefiles
 ms.assetid: e77b4f90-7a08-47f8-b297-8c1360167e1f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], IOfflineFilesItemFilter interface [Offline Files],described, cscobj/IOfflineFilesItemFilter, of.iofflinefilesitemfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Represents an instance of a filter to be applied to an enumeration. For a complete description of filtering behavior, see the section titled "Item Filtering."
+Represents an instance of a filter to be applied to an enumeration. For a complete description of filtering behavior, see the section titled "Item Filtering."
 
 
 ## -inheritance

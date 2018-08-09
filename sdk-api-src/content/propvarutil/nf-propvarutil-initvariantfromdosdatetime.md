@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromDosDateTime.htm
 old-project: properties
 ms.assetid: deb1b3e6-4e7b-49c2-a4dc-e3dfaa2727a0
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromDosDateTime, InitVariantFromDosDateTime function [Windows Properties], _shell_InitVariantFromDosDateTime, properties.InitVariantFromDosDateTime, propvarutil/InitVariantFromDosDateTime, shell.InitVariantFromDosDateTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,14 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 Type: <b>WORD</b>
 
-<b>WORD</b> value that represents an MS-DOS date. See <a href="https://msdn.microsoft.com/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about this format.
+<b>WORD</b> value that represents an MS-DOS date. See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about this format.
 
 
 ### -param wTime [in]
 
 Type: <b>WORD</b>
 
-<b>WORD</b> value that represents an MS-DOS time. See <a href="https://msdn.microsoft.com/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about this format.
+<b>WORD</b> value that represents an MS-DOS time. See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about this format.
 
 
 ### -param pvar [out]
@@ -97,14 +97,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Creates a <b>VT_DATE</b> variant.
 
-See <a href="https://msdn.microsoft.com/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about the formats of <i>wDate</i>, <i>wTime</i>, and of the resulting variant date.
+See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about the formats of <i>wDate</i>, <i>wTime</i>, and of the resulting variant date.
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762320(v=VS.85).aspx">InitVariantFromDosDateTime</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDosDateTime">InitVariantFromDosDateTime</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,19 +134,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
+<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762323(v=VS.85).aspx">InitVariantFromFileTime</a>
+<a href="shell.InitVariantFromFileTime">InitVariantFromFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776597(v=VS.85).aspx">VariantToDosDateTime</a>
+<a href="shell.VariantToDosDateTime">VariantToDosDateTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
+<a href="shell.VariantToFileTime">VariantToFileTime</a>
  
 
  

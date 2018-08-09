@@ -4,10 +4,10 @@ title: OpenResourceManager function
 author: windows-sdk-content
 description: Opens an existing resource manager (RM).
 old-location: fs\openresourcemanager.htm
-old-project: Ktm
+old-project: ktm
 ms.assetid: 396b586f-c594-4481-b095-862e9058519c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openresourcemanager, ktmw32/OpenResourceManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The access requested for the RM. See <a href="https://msdn.microsoft.com/6b901b7
 A handle to the transaction manager.
 
 
-### -param ResourceManagerId
-
-TBD
-
-
-
-
-#### - RmGuid [in]
+### -param ResourceManagerId [in]
 
 The identifier  for this resource manager.
 

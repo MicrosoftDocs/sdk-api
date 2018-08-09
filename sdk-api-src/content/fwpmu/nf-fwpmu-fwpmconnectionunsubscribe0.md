@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectionunsubscribe0.htm
 old-project: fwp
 ms.assetid: b9fc4c7f-5cbd-4c85-9317-2aa027d3bcde
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmConnectionUnsubscribe0, FwpmConnectionUnsubscribe0 function [Filtering], fwp.fwpmconnectionunsubscribe0, fwpmu/FwpmConnectionUnsubscribe0
 ms.prod: windows
 ms.technology: windows-sdk

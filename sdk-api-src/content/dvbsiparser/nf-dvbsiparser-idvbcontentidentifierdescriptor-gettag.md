@@ -7,7 +7,7 @@ old-location: mstv\idvbcontentidentifierdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 0ab8dbe8-ddb8-4c24-a830-c770eab2b23f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbContentIdentifierDescriptor.GetTag, IDvbContentIdentifierDescriptor::GetTag, dvbsiparser/IDvbContentIdentifierDescriptor::GetTag, mstv.idvbcontentidentifierdescriptor_gettag
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\lsalookupsids.htm
 old-project: secmgmt
 ms.assetid: 69051bad-91e7-469d-9010-48ac3d20f8af
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: LsaLookupSids, LsaLookupSids function [Security], _lsa_lsalookupsids, ntsecapi/LsaLookupSids, security.lsalookupsids
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[<b>LsaLookupSids</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6B30D1FF-35DC-44E8-A765-36A5761EC0CE">LsaLookupSids2</a>.]
 
-
-			The <b>LsaLookupSids</b> function looks up the names that correspond to an array of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs). If <b>LsaLookupSids</b> cannot find a name that corresponds to a SID, the function returns the SID in character form.
+The <b>LsaLookupSids</b> function looks up the names that correspond to an array of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs). If <b>LsaLookupSids</b> cannot find a name that corresponds to a SID, the function returns the SID in character form.
 
 
 ## -parameters
@@ -143,7 +142,7 @@ All of the SIDs were found and successfully translated.
  
 
 If the function fails, the return value is an <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

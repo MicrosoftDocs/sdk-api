@@ -7,7 +7,7 @@ old-location: mf\imfsample_getbufferbyindex.htm
 old-project: medfound
 ms.assetid: 48d3b861-96e8-4767-a8b1-65614fd48254
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferByIndex method [Media Foundation], GetBufferByIndex method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferByIndex method, IMFSample.GetBufferByIndex, IMFSample::GetBufferByIndex, mf.imfsample_getbufferbyindex, mfobjects/IMFSample::GetBufferByIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets a buffer from the sample, by index.
+Gets a buffer from the sample, by index.
 
 
 <div class="alert"><b>Note</b>  In most cases, it is safer to use the <a href="https://msdn.microsoft.com/6ea950eb-7f2e-4549-93dc-fa62f95b7b66">IMFSample::ConvertToContiguousBuffer</a> method.  If the sample contains more than one buffer, the <b>ConvertToContiguousBuffer</b> method replaces them with a single buffer, copies the original data into that buffer, and returns the new buffer to the caller. The copy operation occurs at most once. On subsequent calls, no data is copied.</div>
@@ -68,15 +67,13 @@ req.product: GDI+ 1.1
 
 ### -param dwIndex [in]
 
-
-            Index of the buffer. To find the number of buffers in the sample, call <a href="https://msdn.microsoft.com/fe05e870-298b-44bf-90b7-70be40d045ab">IMFSample::GetBufferCount</a>. Buffers are indexed from zero.
+Index of the buffer. To find the number of buffers in the sample, call <a href="https://msdn.microsoft.com/fe05e870-298b-44bf-90b7-70be40d045ab">IMFSample::GetBufferCount</a>. Buffers are indexed from zero.
           
 
 
 ### -param ppBuffer [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface. The caller must release the interface.
           
 
 
@@ -84,8 +81,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -100,8 +96,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

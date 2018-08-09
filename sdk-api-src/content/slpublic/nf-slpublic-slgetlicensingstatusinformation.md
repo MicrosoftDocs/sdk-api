@@ -4,10 +4,10 @@ title: SLGetLicensingStatusInformation function
 author: windows-sdk-content
 description: Gets the licensing status of the specified application or SKU.
 old-location: security\slgetlicensingstatusinformation.htm
-old-project: SecSLApi
+old-project: secslapi
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SLGetLicensingStatusInformation function

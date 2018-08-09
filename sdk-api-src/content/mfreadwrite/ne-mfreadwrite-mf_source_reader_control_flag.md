@@ -7,7 +7,7 @@ old-location: mf\mf_source_reader_control_flag.htm
 old-project: medfound
 ms.assetid: a6367fea-ceba-4ce4-9a1b-88a40afc3055
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation], mf.mf_source_reader_control_flag, mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN, mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
 ms.prod: windows
 ms.technology: windows-sdk

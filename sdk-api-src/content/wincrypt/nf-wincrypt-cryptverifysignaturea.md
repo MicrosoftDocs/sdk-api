@@ -4,10 +4,10 @@ title: CryptVerifySignatureA function
 author: windows-sdk-content
 description: Verifies the signature of a hash object.
 old-location: security\cryptverifysignature.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,9 @@ The number of bytes in the <i>pbSignature</i> signature data.
 A handle to the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> to use to authenticate the signature. This public key must belong to the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key pair</a> that was originally used to create the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">digital signature</a>.
 
 
-### -param szDescription
+### -param szDescription [in]
 
-TBD
+This parameter should no longer be used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
 
 
 ### -param dwFlags [in]
@@ -149,11 +149,6 @@ Use X.931 support for the FIPS 186-2–compliant version of RSA (rDSA).
 </tr>
 </table>
  
-
-
-#### - sDescription [in]
-
-This parameter should no longer be used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
 
 
 ## -returns
@@ -315,7 +310,7 @@ For an example that uses the <b>CryptVerifySignature</b> function, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

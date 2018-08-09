@@ -7,7 +7,7 @@ old-location: controls\DPA_CreateEx.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_createex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_CreateEx, DPA_CreateEx function [Windows Controls], _shell_DPA_CreateEx, _shell_DPA_CreateEx_cpp, controls.DPA_CreateEx, controls._shell_DPA_CreateEx, dpa_dsa/DPA_CreateEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775603(v=VS.85).aspx">DPA_Create</a>
+<a href="https://msdn.microsoft.com/03bbfe08-69df-41da-85c8-41a96d9dac09">DPA_Create</a>
  
 
  

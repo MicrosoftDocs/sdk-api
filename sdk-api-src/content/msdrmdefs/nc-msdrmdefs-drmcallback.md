@@ -7,7 +7,7 @@ old-location: rm\callback_prototype.htm
 old-project: adrms_sdk
 ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,24 +82,24 @@ Some of the functions included in the AD RMS SDK provide status information and 
 
 
 
-#### - hr
-
-The status of the current action.
-
-
 #### - msg
 
 Specifies the action being performed. This can be one of the <a href="https://msdn.microsoft.com/9420c415-09ef-43a0-b458-bfaae9857314">DRM_STATUS_MSG</a> enumeration values.
 
 
-#### - pvContext
+#### - hr
 
-An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
+The status of the current action.
 
 
 #### - pvParam
 
 This parameter depends on the action being processed. For more information, see the specific message value in the <a href="https://msdn.microsoft.com/9420c415-09ef-43a0-b458-bfaae9857314">DRM_STATUS_MSG</a> enumeration.
+
+
+#### - pvContext
+
+An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
 
 
 ## -returns

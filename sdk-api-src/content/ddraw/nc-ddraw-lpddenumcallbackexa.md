@@ -7,7 +7,7 @@ old-location: directdraw\ddenumcallbackex.htm
 old-project: directdraw
 ms.assetid: D3D31978-D450-40B3-8C61-1F2662C1BA50
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DDEnumCallbackEx, DDEnumCallbackEx callback function [DirectDraw], LPDDENUMCALLBACKEX, LPDDENUMCALLBACKEX callback, LPDDENUMCALLBACKEXA, LPDDENUMCALLBACKEXW, ddraw/DDEnumCallbackEx, directdraw.ddenumcallbackex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,14 +81,9 @@ The <i>DDEnumCallbackEx</i> function is an application-defined callback function
 
 
 
-#### - hm [in]
+#### - lpGUID [in]
 
-Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
-
-
-#### - lpContext [in]
-
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+A pointer to the unique identifier of the DirectDraw object.
 
 
 #### - lpDriverDescription [in]
@@ -101,9 +96,14 @@ Address of a string that contains the driver description.
 Address of a string that contains the driver name.
 
 
-#### - lpGUID [in]
+#### - lpContext [in]
 
-A pointer to the unique identifier of the DirectDraw object.
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+
+
+#### - hm [in]
+
+Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
 
 
 ## -returns

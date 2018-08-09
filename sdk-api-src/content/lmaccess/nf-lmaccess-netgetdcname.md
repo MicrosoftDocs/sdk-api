@@ -7,7 +7,7 @@ old-location: netmgmt\netgetdcname.htm
 old-project: netmgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,16 +77,16 @@ A pointer to an allocated buffer that receives a string that specifies the serve
 <a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
 
 
-#### - domainname [in]
-
-A pointer to a constant string that specifies the name of the domain. The domain name must be a NetBIOS domain name (for example, microsoft). 
-<b>NetGetDCName</b> does not support DNS-style names (for example, microsoft.com). If this parameter is <b>NULL</b>, the function returns the name of the domain controller for the primary domain.
-
-
 #### - servername [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 					
+
+
+#### - domainname [in]
+
+A pointer to a constant string that specifies the name of the domain. The domain name must be a NetBIOS domain name (for example, microsoft). 
+<b>NetGetDCName</b> does not support DNS-style names (for example, microsoft.com). If this parameter is <b>NULL</b>, the function returns the name of the domain controller for the primary domain.
 
 
 ## -returns

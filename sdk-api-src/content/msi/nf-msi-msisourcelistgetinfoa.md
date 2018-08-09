@@ -4,10 +4,10 @@ title: MsiSourceListGetInfoA function
 author: windows-sdk-content
 description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context.
 old-location: setup\msisourcelistgetinfo.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 24188c7f-d9b5-4907-861a-9555c34cbd2d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: INSTALLPROPERTY_DISKPROMPT, INSTALLPROPERTY_LASTUSEDSOURCE, INSTALLPROPERTY_LASTUSEDTYPE, INSTALLPROPERTY_MEDIAPACKAGEPATH, INSTALLPROPERTY_PACKAGENAME, MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListGetInfo, MsiSourceListGetInfo function, MsiSourceListGetInfoA, MsiSourceListGetInfoW, NULL, User SID, msi/MsiSourceListGetInfo, msi/MsiSourceListGetInfoA, msi/MsiSourceListGetInfoW, setup.msisourcelistgetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The <b>MsiSourceListGetInfo</b> function retrieves information about the source list for a product or patch in a specific context.
+The <b>MsiSourceListGetInfo</b> function retrieves information about the source list for a product or patch in a specific context.
 			
 		
 

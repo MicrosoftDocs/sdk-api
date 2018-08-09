@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous.htm
 old-project: tapi
 ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,18 +51,17 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[
-						Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
+<p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>ITRendezvous</b> interface is the main interface for the Rendezvous control. An application calls the COM 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function on this interface to create the Rendezvous object.
+<a href="_com_cocreateinstance">CoCreateInstance</a> function on this interface to create the Rendezvous object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRendezvous</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITRendezvous</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRendezvous</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITRendezvous</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

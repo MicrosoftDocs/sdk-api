@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion_gettype.htm
 old-project: wmformat
 ms.assetid: 546bb0d1-a11e-4bf7-92fc-cef938d792bb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMutualExclusion interface, IWMMutualExclusion interface [windows Media Format],GetType method, IWMMutualExclusion.GetType, IWMMutualExclusion::GetType, IWMMutualExclusionGetType, wmformat.iwmmutualexclusion_gettype, wmsdkidl/IWMMutualExclusion::GetType
 ms.prod: windows
 ms.technology: windows-sdk

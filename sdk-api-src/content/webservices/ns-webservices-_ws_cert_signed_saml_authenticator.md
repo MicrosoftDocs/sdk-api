@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_signed_saml_authenticator.htm
 old-project: wsw
 ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR, WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows], _WS_CERT_SIGNED_SAML_AUTHENTICATOR, webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR, wsw.ws_cert_signed_saml_authenticator
 ms.prod: windows
 ms.technology: windows-sdk

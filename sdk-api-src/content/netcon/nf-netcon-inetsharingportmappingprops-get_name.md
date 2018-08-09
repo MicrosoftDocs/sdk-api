@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_name.htm
 old-project: ics
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Name method, INetSharingPortMappingProps.get_Name, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 ### -param pbstrName [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that receives the name of the port mapping.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that receives the name of the port mapping.
 
 
 ## -returns

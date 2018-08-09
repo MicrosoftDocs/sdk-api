@@ -7,7 +7,7 @@ old-location: rm\drmcreateboundlicense.htm
 old-project: adrms_sdk
 ms.assetid: 102fa347-47be-4dc7-ba17-3f1ad3735b00
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMCreateBoundLicense, DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateBoundLicense, rm.drmcreateboundlicense
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/25820f49-ffa8-40c4-87fc-ce490
 
 ### -param wszLicenseChain [in]
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://msdn.microsoft.com/library/Aa368574(v=VS.85).aspx">end-user license</a> (or license chain).
+A pointer to a null-terminated Unicode string that contains the <a href="e_gly.htm">end-user license</a> (or license chain).
 
 
 ### -param phBoundLicense [out]
@@ -111,7 +111,7 @@ Calling this function binds a license to the right or rights specified in the  <
 
 If the function succeeds, it returns a handle to the bound license that can be examined, and also allows an application to exercise the bound right. This function does not decrement metered rights. Decrementing metered rights upon use is the responsibility of the application.
 
-When license binding fails because of a missing or out of date revocation list, the return value does not indicate which license or certificate is causing the error. It could be the end-user license, the user's <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a>, a <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">client licensor certificate</a>, or another license or certificate. You must call <a href="https://msdn.microsoft.com/42c58096-429c-4278-b9ab-8c5a91361af8">DRMAcquireAdvisories</a> (and <a href="https://msdn.microsoft.com/819a8471-e447-4a4d-ae52-5929350df2c8">DRMRegisterRevocationList</a>) for each certificate until the error does not occur.
+When license binding fails because of a missing or out of date revocation list, the return value does not indicate which license or certificate is causing the error. It could be the end-user license, the user's <a href="r_gly.htm">rights account certificate</a>, a <a href="c_gly.htm">client licensor certificate</a>, or another license or certificate. You must call <a href="https://msdn.microsoft.com/42c58096-429c-4278-b9ab-8c5a91361af8">DRMAcquireAdvisories</a> (and <a href="https://msdn.microsoft.com/819a8471-e447-4a4d-ae52-5929350df2c8">DRMRegisterRevocationList</a>) for each certificate until the error does not occur.
 
 Principal authenticators required for a license must be loaded before calling this function. However, the authenticator can continue to function after the license is created.
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientoptions.htm
 old-project: dhcp
 ms.assetid: 60f4db5f-0359-4738-980e-2a56adbf551e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dhcpgetclientoptions, dhcpsapi/DhcpGetClientOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,8 +117,7 @@ This function is not implemented and is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/ffe9ed82-1aec-4e09-8258-399099c87b5a">
-        DHCP_OPTION_LIST</a>
+<a href="https://msdn.microsoft.com/ffe9ed82-1aec-4e09-8258-399099c87b5a">DHCP_OPTION_LIST</a>
  
 
  

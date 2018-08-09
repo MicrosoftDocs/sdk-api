@@ -7,7 +7,7 @@ old-location: gdi\getcharwidthfloat.htm
 old-project: gdi
 ms.assetid: 7a90b701-63f9-41e5-9069-10d344edfe02
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCharWidthFloat, GetCharWidthFloat function [Windows GDI], GetCharWidthFloatA, GetCharWidthFloatW, _win32_GetCharWidthFloat, gdi.getcharwidthfloat, wingdi/GetCharWidthFloat, wingdi/GetCharWidthFloatA, wingdi/GetCharWidthFloatW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,34 +68,17 @@ The <b>GetCharWidthFloat</b> function retrieves the fractional widths of consecu
 A handle to the device context.
 
 
-### -param iFirst
-
-TBD
-
-
-### -param iLast
-
-TBD
-
-
-### -param lpBuffer
-
-TBD
-
-
-
-
-#### - iFirstChar [in]
+### -param iFirst [in]
 
 The code point of the first character in the group of consecutive characters.
 
 
-#### - iLastChar [in]
+### -param iLast [in]
 
 The code point of the last character in the group of consecutive characters.
 
 
-#### - pxBuffer [out]
+### -param lpBuffer [out]
 
 A pointer to a buffer that receives the character widths, in logical units.
 

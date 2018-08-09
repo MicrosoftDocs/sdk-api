@@ -4,10 +4,10 @@ title: CryptInstallOIDFunctionAddress function
 author: windows-sdk-content
 description: The CryptInstallOIDFunctionAddress function installs a set of callable object identifier (OID) function addresses.
 old-location: security\cryptinstalloidfunctionaddress.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 934e8278-0e0b-4402-a2b6-ff1e913d54c9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptInstallOIDFunctionAddress, CryptInstallOIDFunctionAddress function [Security], _crypto2_cryptinstalloidfunctionaddress, security.cryptinstalloidfunctionaddress, wincrypt/CryptInstallOIDFunctionAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

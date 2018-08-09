@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_variable_desc.htm
 old-project: direct3d11
 ms.assetid: b5620fea-c7d1-4db1-9bd1-991a2efa3b4c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D3D11_SHADER_VARIABLE_DESC, D3D11_SHADER_VARIABLE_DESC structure [Direct3D 11], _D3D11_SHADER_VARIABLE_DESC, cfce73ab-af25-fa7f-0d0a-e49af39dc5d8, d3d11shader/D3D11_SHADER_VARIABLE_DESC, direct3d11.d3d11_shader_variable_desc
 ms.prod: windows
 ms.technology: windows-sdk

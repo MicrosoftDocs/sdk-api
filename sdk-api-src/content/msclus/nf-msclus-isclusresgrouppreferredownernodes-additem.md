@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_additem.htm
 old-project: mscs
 ms.assetid: 001e2766-d489-4406-b11e-c19c6426dfd4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, ClusResGroupPreferredOwnerNodes class [Failover Cluster],AddItem method, ClusResGroupPreferredOwnerNodes.AddItem, ISClusResGroupPreferredOwnerNodes.AddItem, ISClusResGroupPreferredOwnerNodes::AddItem, _wolf_clusresgrouppreferredownernodes.additem, mscs.clusresgrouppreferredownernodes_additem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ This method does not return a value.
 Adding a node to a group's 
     <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection means that the node is listed as a 
-    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">preferred owner</a> node for the group.
+    <a href="p_gly.htm">preferred owner</a> node for the group.
 
 The <b>AddItem</b> method always 
     adds a node at the end of the list, giving it the lowest priority. To add a node and specify its priority in the 

@@ -7,7 +7,7 @@ old-location: controls\Button_GetIdealSize.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getidealsize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Button_GetIdealSize, Button_GetIdealSize macro [Windows Controls], _win32_Button_GetIdealSize, _win32_Button_GetIdealSize_cpp, commctrl/Button_GetIdealSize, controls.Button_GetIdealSize, controls._win32_Button_GetIdealSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a> message explicitly. 
+Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/c1bc2043-bf1a-4129-a005-f04048c4c1db">BCM_GETIDEALSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -67,15 +67,6 @@ A handle to the button control.
 
 ### -param psize
 
-TBD
-
-
-
-
-
-
-#### - pSize
-
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>*</b>
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
@@ -89,7 +80,7 @@ This macro is most applicable to PushButtons. When sent to a PushButton, the mac
 
 When sent to a button of any other type, the size of the control's window rectangle is retrieved.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -99,7 +90,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a>
+<a href="https://msdn.microsoft.com/c1bc2043-bf1a-4129-a005-f04048c4c1db">BCM_GETIDEALSIZE</a>
 
 
 

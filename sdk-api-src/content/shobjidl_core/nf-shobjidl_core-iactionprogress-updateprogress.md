@@ -7,7 +7,7 @@ old-location: shell\IActionProgress_UpdateProgress.htm
 old-project: shell
 ms.assetid: d9c6fd82-96a2-4021-a6c4-ab61e20eb0d0
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateProgress method, IActionProgress.UpdateProgress, IActionProgress::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateProgress, shell_IActionProgress_UpdateProgress, shobjidl_core/IActionProgress::UpdateProgress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-      Updates the progress of an action to the UI.
+Updates the progress of an action to the UI.
 
 
 ## -parameters
@@ -89,8 +88,7 @@ Return S_OK if successful, or an error value otherwise.
 
 
 
-
-			This method should be called periodically to update the progress of the action. The implementing class may interpret these values in any way desired, although the values of <i>ulCompleted</i> and <i>ulTotal</i> should be interpreted relative to one another to determine a meaningful progress amount. Often, a percentage is desired, in which case the value of <i>ulCompleted</i> should be divided by <i>ulTotal</i>, and the result multiplied by a value of 100.
+This method should be called periodically to update the progress of the action. The implementing class may interpret these values in any way desired, although the values of <i>ulCompleted</i> and <i>ulTotal</i> should be interpreted relative to one another to determine a meaningful progress amount. Often, a percentage is desired, in which case the value of <i>ulCompleted</i> should be divided by <i>ulTotal</i>, and the result multiplied by a value of 100.
 			
 
 

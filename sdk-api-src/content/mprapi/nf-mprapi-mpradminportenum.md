@@ -7,7 +7,7 @@ old-location: rras\mpradminportenum.htm
 old-project: rras
 ms.assetid: b6caa1f0-f4c7-48a9-b1e8-b484e7d7a3a3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminportenum, mprapi/MprAdminPortEnum, rras.mpradminportenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,10 @@ A handle to the RAS server whose ports are to be enumerated. To obtain this hand
 A DWORD value that describes the format in which the information is returned in the <i>lplpbBuffer</i> parameter. Must be zero.
 
 
-### -param hRasConnection
+### -param hRasConnection [in]
 
-TBD
+A handle to a connection for which the active ports are enumerated. If this parameter is <b>INVALID_HANDLE_VALUE</b>, all the ports in use or available for use by RRAS are enumerated. To obtain this handle, call 
+<a href="https://msdn.microsoft.com/27be536e-0437-4e30-aef7-ed92f50baeaa">MprAdminConnectionEnum</a>.
 
 
 ### -param lplpbBuffer [out]
@@ -99,12 +100,6 @@ A pointer to a <b>DWORD</b> variable. This variable receives the total number of
 ### -param lpdwResumeHandle [in]
 
 A pointer to a <b>DWORD</b> variable. On successful execution, this parameter specifies a handle that can be used to resume the enumeration. This parameter should be zero on the first call and left unchanged on subsequent calls. If the return code is <b>ERROR_MORE_DATA</b>, the call can be reissued with the handle to retrieve more data. If the handle is <b>NULL</b> on return, the enumeration cannot be continued. This handle is invalid for other types of error returns.
-
-
-#### - hConnection [in]
-
-A handle to a connection for which the active ports are enumerated. If this parameter is <b>INVALID_HANDLE_VALUE</b>, all the ports in use or available for use by RRAS are enumerated. To obtain this handle, call 
-<a href="https://msdn.microsoft.com/27be536e-0437-4e30-aef7-ed92f50baeaa">MprAdminConnectionEnum</a>.
 
 
 ## -returns
@@ -210,8 +205,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 If the RRAS redistributable is installed, this function is available on Windows NT 4.0. However, the version of Mprapi.dll that is provided with the RRAS redistributable exports the function as 
 <b>RasAdminPortEnum</b> rather than 
 <b>MprAdminPortEnum</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

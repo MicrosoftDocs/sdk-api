@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensorevents_ondataupdated.htm
 old-project: SensorsAPI
 ms.assetid: dda03a66-ffdb-4f1f-a6e4-17075eab7e00
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: ISensorEvents interface,OnDataUpdated method, ISensorEvents.OnDataUpdated, ISensorEvents::OnDataUpdated, OnDataUpdated, OnDataUpdated method, OnDataUpdated method,ISensorEvents interface, sensorsapi/ISensorEvents::OnDataUpdated, winsensors_com_ref.isensorevents_ondataupdated
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Provides sensor event data.
 
 ### -param pSensor [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that raised the event.
+Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a> interface of the sensor that raised the event.
 
 
 ### -param pNewData [in]

@@ -7,7 +7,7 @@ old-location: security\getfriendlynameofcert.htm
 old-project: seccrypto
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,14 @@ TBD
 
 
 
-#### - cchBuffer [in]
-
-Number of characters allocated for <i>pchBuffer</i>, including the terminating <b>NULL</b> character.
-
-
-#### - pchBuffer [out]
+#### - pwch [out]
 
 A pointer to a character string that receives the display name for the certificate.
+
+
+#### - cwch [in]
+
+Number of characters allocated for <i>pchBuffer</i>, including the terminating <b>NULL</b> character.
 
 
 ## -returns

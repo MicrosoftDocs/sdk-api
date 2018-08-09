@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafiledescription.htm
 old-project: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,7 @@ A handle to the enhanced metafile.
 The size, in characters, of the buffer to receive the data. Only this many characters will be copied.
 
 
-### -param lpDescription
-
-TBD
-
-
-
-
-#### - lpszDescription [out]
+### -param lpDescription [out]
 
 A pointer to a buffer that receives the optional text description.
 

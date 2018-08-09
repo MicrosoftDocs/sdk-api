@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinstanceid.htm
 old-project: devinst
 ms.assetid: 43ad298d-2ff4-445a-aa23-1319d5f990c8
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiGetDeviceInstanceId, SetupDiGetDeviceInstanceId function [Device and Driver Installation], SetupDiGetDeviceInstanceIdA, SetupDiGetDeviceInstanceIdW, devinst.setupdigetdeviceinstanceid, di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml, setupapi/SetupDiGetDeviceInstanceId
 ms.prod: windows
 ms.technology: windows-sdk

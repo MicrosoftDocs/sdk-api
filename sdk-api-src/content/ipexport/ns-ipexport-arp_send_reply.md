@@ -7,7 +7,7 @@ old-location: iphlp\arp_send_reply.htm
 old-project: iphlp
 ms.assetid: 6495d289-b9b8-42cb-b00b-cde53d3dc91c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: "*PARP_SEND_REPLY, *PARP_SEND_REPLY structure [IP Helper], ARP_SEND_REPLY, ARP_SEND_REPLY structure [IP Helper], arp_send_reply, ipexport/*PARP_SEND_REPLY, ipexport/ARP_SEND_REPLY, iphlp.arp_send_reply"
 ms.prod: windows
 ms.technology: windows-sdk

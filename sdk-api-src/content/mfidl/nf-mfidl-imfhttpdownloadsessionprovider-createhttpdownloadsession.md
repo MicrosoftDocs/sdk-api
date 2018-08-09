@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsessionprovider_createhttpdownloadsession.htm
 old-project: medfound
 ms.assetid: D9DAE789-1C0E-42B4-87B6-593D3B67FE1F
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: CreateHttpDownloadSession, CreateHttpDownloadSession method [Media Foundation], CreateHttpDownloadSession method [Media Foundation],IMFHttpDownloadSessionProvider interface, IMFHttpDownloadSessionProvider interface [Media Foundation],CreateHttpDownloadSession method, IMFHttpDownloadSessionProvider.CreateHttpDownloadSession, IMFHttpDownloadSessionProvider::CreateHttpDownloadSession, mf.imfhttpdownloadsessionprovider_createhttpdownloadsession, mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ On successful execution, the parameter is set to a pointer to an <a href="https:
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ On successful execution, the parameter is set to a pointer to an <a href="https:
 </dl>
 </td>
 <td width="60%">
-
-                Successfully created the <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> object.
+Successfully created the <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> object.
 
 </td>
 </tr>
@@ -104,8 +102,7 @@ On successful execution, the parameter is set to a pointer to an <a href="https:
 </dl>
 </td>
 <td width="60%">
-
-                The value specified for the <i>wszScheme</i> parameter is incorrect.
+The value specified for the <i>wszScheme</i> parameter is incorrect.
 
 </td>
 </tr>
@@ -116,8 +113,7 @@ On successful execution, the parameter is set to a pointer to an <a href="https:
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppDownloadSession</i> parameter is an invalid pointer.
+The <i>ppDownloadSession</i> parameter is an invalid pointer.
 
 </td>
 </tr>
@@ -128,8 +124,7 @@ On successful execution, the parameter is set to a pointer to an <a href="https:
 </dl>
 </td>
 <td width="60%">
-
-                There is insufficient memory to complete the operation.
+There is insufficient memory to complete the operation.
 
 </td>
 </tr>

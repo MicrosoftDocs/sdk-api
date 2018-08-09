@@ -7,7 +7,7 @@ old-location: security\icspalgorithms__newenum_property.htm
 old-project: seccertenroll
 ms.assetid: 23c23cbe-0d92-4a78-a505-5b2010ce2aca
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICspAlgorithms interface [Security],_NewEnum property, ICspAlgorithms._NewEnum, ICspAlgorithms.get__NewEnum, ICspAlgorithms::_NewEnum, ICspAlgorithms::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::_NewEnum, certenroll/ICspAlgorithms::get__NewEnum, get__NewEnum, security.icspalgorithms__newenum_property
 ms.prod: windows
 ms.technology: windows-sdk

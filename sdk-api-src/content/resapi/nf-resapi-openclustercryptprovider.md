@@ -7,7 +7,7 @@ old-location: mscs\openclustercryptprovider.htm
 old-project: mscs
 ms.assetid: DFD5C0F1-07BF-4339-8B35-2918B32F66B3
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: OpenClusterCryptProvider, OpenClusterCryptProvider function [Failover Cluster], POPEN_CLUSTER_CRYPT_PROVIDER, POPEN_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], PROV_DH_SCHANNEL, PROV_DSS, PROV_DSS_DH, PROV_EC_ECDSA_FULL, PROV_EC_ECDSA_SIG, PROV_EC_ECNRA_FULL, PROV_EC_ECNRA_SIG, PROV_FORTEZZA, PROV_INTEL_SEC, PROV_MS_EXCHANGE, PROV_REPLACE_OWF, PROV_RNG, PROV_RSA_AES, PROV_RSA_FULL, PROV_RSA_SCHANNEL, PROV_RSA_SIG, PROV_SPYRUS_LYNKS, PROV_SSL, mscs.openclustercryptprovider, resapi/OpenClusterCryptProvider, resapi/POPEN_CLUSTER_CRYPT_PROVIDER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,58 +156,58 @@ This parameter can be set to one of the following values:
 The flags that specify the settings for the operation. This parameter can be set to the default value "0", or <b>CLUS_CREATE_CRYPT_CONTAINER_NOT_FOUND</b> (0x0001).
 
 
-##### - dwType.PROV_DH_SCHANNEL (18)
-
-
-##### - dwType.PROV_DSS (3)
-
-
-##### - dwType.PROV_DSS_DH (13)
-
-
-##### - dwType.PROV_EC_ECDSA_FULL (16)
-
-
-##### - dwType.PROV_EC_ECDSA_SIG (14)
-
-
-##### - dwType.PROV_EC_ECNRA_FULL (17)
-
-
-##### - dwType.PROV_EC_ECNRA_SIG (15)
-
-
-##### - dwType.PROV_FORTEZZA (4)
-
-
-##### - dwType.PROV_INTEL_SEC (22)
-
-
-##### - dwType.PROV_MS_EXCHANGE (5)
-
-
-##### - dwType.PROV_REPLACE_OWF (23)
-
-
-##### - dwType.PROV_RNG (21)
-
-
-##### - dwType.PROV_RSA_AES (24)
-
-
 ##### - dwType.PROV_RSA_FULL (1)
-
-
-##### - dwType.PROV_RSA_SCHANNEL (12)
 
 
 ##### - dwType.PROV_RSA_SIG (2)
 
 
-##### - dwType.PROV_SPYRUS_LYNKS (20)
+##### - dwType.PROV_DSS (3)
+
+
+##### - dwType.PROV_FORTEZZA (4)
+
+
+##### - dwType.PROV_MS_EXCHANGE (5)
 
 
 ##### - dwType.PROV_SSL (6)
+
+
+##### - dwType.PROV_RSA_SCHANNEL (12)
+
+
+##### - dwType.PROV_DSS_DH (13)
+
+
+##### - dwType.PROV_EC_ECDSA_SIG (14)
+
+
+##### - dwType.PROV_EC_ECNRA_SIG (15)
+
+
+##### - dwType.PROV_EC_ECDSA_FULL (16)
+
+
+##### - dwType.PROV_EC_ECNRA_FULL (17)
+
+
+##### - dwType.PROV_DH_SCHANNEL (18)
+
+
+##### - dwType.PROV_SPYRUS_LYNKS (20)
+
+
+##### - dwType.PROV_RNG (21)
+
+
+##### - dwType.PROV_INTEL_SEC (22)
+
+
+##### - dwType.PROV_REPLACE_OWF (23)
+
+
+##### - dwType.PROV_RSA_AES (24)
 
 
 ## -returns

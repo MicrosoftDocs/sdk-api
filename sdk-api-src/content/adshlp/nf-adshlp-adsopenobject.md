@@ -7,7 +7,7 @@ old-location: adsi\adsopenobject.htm
 old-project: ADSI
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
 ms.prod: windows
 ms.technology: windows-sdk

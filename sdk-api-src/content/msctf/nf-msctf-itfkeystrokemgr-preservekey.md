@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_preservekey.htm
 old-project: TSF
 ms.assetid: ad5cd485-9231-4c29-8977-754dbf25c979
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],PreserveKey method, ITfKeystrokeMgr.PreserveKey, ITfKeystrokeMgr::PreserveKey, PreserveKey, PreserveKey method [Text Services Framework], PreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_preservekey_ref, msctf/ITfKeystrokeMgr::PreserveKey, tsf.itfkeystrokemgr_preservekey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -178,20 +178,17 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 
 
-<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">
-        ITfKeystrokeMgr::UnpreserveKey
+<a href="https://msdn.microsoft.com/05975fce-04c3-4316-a9b2-ed015e7aa8fe">ITfKeystrokeMgr::UnpreserveKey
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">
-        ITfTextInputProcessor::Activate
+<a href="https://msdn.microsoft.com/c5fd6b5c-0a78-4b5b-aad5-0c398798cf30">ITfTextInputProcessor::Activate
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/95d37e94-3991-49c9-bddf-4183a69d49b9">
-        TF_PRESERVEDKEY
+<a href="https://msdn.microsoft.com/95d37e94-3991-49c9-bddf-4183a69d49b9">TF_PRESERVEDKEY
       </a>
  
 

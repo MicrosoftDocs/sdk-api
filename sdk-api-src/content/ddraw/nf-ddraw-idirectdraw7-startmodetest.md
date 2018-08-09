@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_startmodetest.htm
 old-project: directdraw
 ms.assetid: b669e3c7-b34b-4919-9a3e-0349288360ba
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDraw7.StartModeTest, IDirectDraw7::StartModeTest, StartModeTest, StartModeTest method [DirectDraw], StartModeTest method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::StartModeTest, directdraw.idirectdraw7_startmodetest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ Initiates a test to update the system registry with refresh rate information for
 
 
 
-#### - dwFlags [in]
+#### - lpModesToTest [in]
 
-Flags that specify options for starting a test. The only flag value that is currently valid is DDSMT_ISTESTREQUIRED. When this flag is specified, <b>StartModeTest</b> does not initiate a test, but instead returns a value that indicates whether it is possible or necessary to test the resolutions that the <i>lpModesToTest</i> and <i>dwNumEntries</i> parameters identify.
+An array of SIZE elements that describe, in terms of screen resolutions, the modes that should be tested.
 
 
 #### - dwNumEntries [in]
@@ -76,9 +76,9 @@ Flags that specify options for starting a test. The only flag value that is curr
 The number of elements in the array that the  <i>lpModesToTest</i> parameter specifies.
 
 
-#### - lpModesToTest [in]
+#### - dwFlags [in]
 
-An array of SIZE elements that describe, in terms of screen resolutions, the modes that should be tested.
+Flags that specify options for starting a test. The only flag value that is currently valid is DDSMT_ISTESTREQUIRED. When this flag is specified, <b>StartModeTest</b> does not initiate a test, but instead returns a value that indicates whether it is possible or necessary to test the resolutions that the <i>lpModesToTest</i> and <i>dwNumEntries</i> parameters identify.
 
 
 ## -returns

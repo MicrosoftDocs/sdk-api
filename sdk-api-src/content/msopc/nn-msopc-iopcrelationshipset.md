@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipset.htm
 old-project: OPC
 ms.assetid: 6259906d-820d-4b6e-bbeb-d9d044f2b35a
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], IOpcRelationshipSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSet, opc.iopcrelationshipset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,6 @@ The <b>IOpcRelationshipSet</b> interface has these methods.
 <a href="https://msdn.microsoft.com/fa452e8d-10dd-4cc4-a56b-a09d841dc46a">DeleteRelationship</a>
 </td>
 <td align="left" width="63%">
-
 Deletes a specified <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a> interface pointer from the set.
 
 </td>
@@ -103,8 +102,7 @@ Gets an enumerator of <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a23
 <a href="https://msdn.microsoft.com/5b389660-f74d-48ae-a16b-5822661f0015">GetEnumeratorForType</a>
 </td>
 <td align="left" width="63%">
-
-            Gets an enumerator of the <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a> interface pointers in the set that point to representations of relationships  that have a specified relationship type.
+Gets an enumerator of the <a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a> interface pointers in the set that point to representations of relationships  that have a specified relationship type.
 
 </td>
 </tr>

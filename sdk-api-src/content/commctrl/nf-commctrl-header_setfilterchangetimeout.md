@@ -7,7 +7,7 @@ old-location: controls\Header_SetFilterChangeTimeout.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfilterchangetimeout.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_SetFilterChangeTimeout, Header_SetFilterChangeTimeout macro [Windows Controls], _win32_Header_SetFilterChangeTimeout, _win32_Header_SetFilterChangeTimeout_cpp, commctrl/Header_SetFilterChangeTimeout, controls.Header_SetFilterChangeTimeout, controls._win32_Header_SetFilterChangeTimeout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an <a href="https://msdn.microsoft.com/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775359(v=VS.85).aspx">HDM_SETFILTERCHANGETIMEOUT</a> message explicitly. 
+Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an <a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a> notification. You can use this macro or send the <a href="https://msdn.microsoft.com/9bc8e0e7-d7c1-4dd6-9d39-6ae937f19d60">HDM_SETFILTERCHANGETIMEOUT</a> message explicitly. 
 
 
 ## -parameters
@@ -77,11 +77,11 @@ The timeout value, in milliseconds.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775359(v=VS.85).aspx">HDM_SETFILTERCHANGETIMEOUT</a>
+<a href="https://msdn.microsoft.com/9bc8e0e7-d7c1-4dd6-9d39-6ae937f19d60">HDM_SETFILTERCHANGETIMEOUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a>
+<a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a>
 
 
 

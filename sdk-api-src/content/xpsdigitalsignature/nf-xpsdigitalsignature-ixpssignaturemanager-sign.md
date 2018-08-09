@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_sign.htm
 old-project: printdocs
 ms.assetid: 82a57ca8-edc7-4248-92d1-8092f6dce4f8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign method, IXpsSignatureManager.Sign, IXpsSignatureManager::Sign, Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A pointer to the <a href="https://msdn.microsoft.com/71b9b348-1078-4f55-a071-e5e
 
 ### -param x509Certificate [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains the X.509 certificate to be used for signing.
+A pointer to the <a href="_crypto2_cert_context">CERT_CONTEXT</a> structure that contains the X.509 certificate to be used for signing.
 
 
 ### -param signature [out, retval]
@@ -163,7 +163,7 @@ This method will succeed  even if the new signature breaks existing signatures.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a>
+<a href="_crypto2_cert_context">CERT_CONTEXT</a>
 
 
 

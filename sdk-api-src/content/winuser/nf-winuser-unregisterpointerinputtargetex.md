@@ -7,7 +7,7 @@ old-location: winauto\unregisterpointerinputtargetex.htm
 old-project: WinAuto
 ms.assetid: 5C62E73A-65D1-4B4D-9165-08B6C844FF3D
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UnregisterPointerInputTargetEx, UnregisterPointerInputTargetEx function [Windows Accessibility], winauto.unregisterpointerinputtargetex, winuser/UnregisterPointerInputTargetEx
 ms.prod: windows
 ms.technology: windows-sdk

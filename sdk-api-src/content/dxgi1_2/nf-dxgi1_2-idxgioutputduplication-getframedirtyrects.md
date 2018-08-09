@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_getframedirtyrects.htm
 old-project: direct3ddxgi
 ms.assetid: F242E7C8-6A39-4B39-A811-243E17408577
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/30/2018
 ms.keywords: GetFrameDirtyRects, GetFrameDirtyRects method [DXGI], GetFrameDirtyRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameDirtyRects method, IDXGIOutputDuplication.GetFrameDirtyRects, IDXGIOutputDuplication::GetFrameDirtyRects, direct3ddxgi.idxgioutputduplication_getframedirtyrects, dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>E_INVALIDARG if one of the parameters to 
           <b>GetFrameDirtyRects</b> 
           is incorrect; for example, if <i>pDirtyRectsBuffer</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

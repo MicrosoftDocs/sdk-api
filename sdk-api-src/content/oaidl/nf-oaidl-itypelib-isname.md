@@ -7,7 +7,7 @@ old-location: automat\itypelib_isname.htm
 old-project: automat
 ms.assetid: c9cd5cc8-f65f-43de-9dd4-c617b56ecadf
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: ITypeLib interface [Automation],IsName method, ITypeLib.IsName, ITypeLib::IsName, IsName, IsName method [Automation], IsName method [Automation],ITypeLib interface, _oa96_ITypeLib_IsName, automat.itypelib_isname, oaidl/ITypeLib::IsName
 ms.prod: windows
 ms.technology: windows-sdk

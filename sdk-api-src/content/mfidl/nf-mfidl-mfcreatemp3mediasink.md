@@ -7,7 +7,7 @@ old-location: mf\mfcreatemp3mediasink.htm
 old-project: medfound
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The MP3  media sink takes compressed MP3
+The MP3  media sink takes compressed MP3
 audio samples as input, and writes an MP3 file with ID3 headers as output. The MP3 media sink does not perform MP3 audio encoding.
       
 

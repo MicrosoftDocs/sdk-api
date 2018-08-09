@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase.htm
 old-project: WmiSdk
 ms.assetid: 0511cd5b-f791-4821-8d75-23b0635e2266
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ Provides thread safety by indicating the end of a data write operation when the 
 <a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>

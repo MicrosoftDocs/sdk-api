@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue.htm
 old-project: WinAuto
 ms.assetid: c5891bb3-e727-430c-a4d4-5c59750b01ce
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],SetValue method, IUIAutomationLegacyIAccessiblePattern.SetValue, IUIAutomationLegacyIAccessiblePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::SetValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

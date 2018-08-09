@@ -4,10 +4,10 @@ title: ComboBox_SetItemData macro
 author: windows-sdk-content
 description: Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_SETITEMDATA message explicitly.
 old-location: controls\ComboBox_SetItemData.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemdata.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ComboBox_SetItemData, ComboBox_SetItemData macro [Windows Controls], _win32_ComboBox_SetItemData, _win32_ComboBox_SetItemData_cpp, controls.ComboBox_SetItemData, controls._win32_ComboBox_SetItemData, windowsx/ComboBox_SetItemData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a> message explicitly.
+Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The item data to set.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a>.
+For more information, see <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a>.
 	
 
 

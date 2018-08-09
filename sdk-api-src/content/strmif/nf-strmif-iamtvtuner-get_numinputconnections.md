@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_get_numinputconnections.htm
 old-project: DirectShow
 ms.assetid: 06841331-3b85-4532-8c0c-96022885f92c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_NumInputConnections method, IAMTVTuner.get_NumInputConnections, IAMTVTuner::get_NumInputConnections, IAMTVTunerget_NumInputConnections, dshow.iamtvtuner_get_numinputconnections, get_NumInputConnections, get_NumInputConnections method [DirectShow], get_NumInputConnections method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_NumInputConnections
 ms.prod: windows
 ms.technology: windows-sdk

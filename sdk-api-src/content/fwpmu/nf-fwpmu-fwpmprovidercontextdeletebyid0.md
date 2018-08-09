@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextdeletebyid0_func.htm
 old-project: fwp
 ms.assetid: 073ecbc9-339d-4afa-a8da-6dac0c65e755
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmProviderContextDeleteById0, FwpmProviderContextDeleteById0 function [Filtering], fwp.fwpmprovidercontextdeletebyid0_func, fwpmu/FwpmProviderContextDeleteById0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FwpmProviderContextDeleteById0</b> function removes a provider context from the system .
+The <b>FwpmProviderContextDeleteById0</b> function removes a provider context from the system .
 
 
 ## -parameters

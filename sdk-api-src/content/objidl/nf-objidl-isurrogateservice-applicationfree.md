@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_applicationfree.htm
 old-project: com
 ms.assetid: 703de030-ac99-4673-8399-695116bf07d5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: ApplicationFree, ApplicationFree method [COM], ApplicationFree method [COM],ISurrogateService interface, ISurrogateService interface [COM],ApplicationFree method, ISurrogateService.ApplicationFree, ISurrogateService::ApplicationFree, _com_isurrogateservice_applicationfree, com.isurrogateservice_applicationfree, objidl/ISurrogateService::ApplicationFree
 ms.prod: windows
 ms.technology: windows-sdk

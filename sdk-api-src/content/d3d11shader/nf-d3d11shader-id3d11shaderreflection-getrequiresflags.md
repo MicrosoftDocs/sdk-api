@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getrequiresflags.htm
 old-project: direct3d11
 ms.assetid: BC70E68A-8909-42F9-9AEE-017BA682D635
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method [Direct3D 11], GetRequiresFlags method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetRequiresFlags method, ID3D11ShaderReflection.GetRequiresFlags, ID3D11ShaderReflection::GetRequiresFlags, d3d11shader/ID3D11ShaderReflection::GetRequiresFlags, direct3d11.id3d11shaderreflection_getrequiresflags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netapibufferallocate.htm
 old-project: netmgmt
 ms.assetid: 9ff1e3eb-9417-469f-a8c0-cdcda3cd9583
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetApiBufferAllocate, NetApiBufferAllocate function [Network Management], _win32_netapibufferallocate, lmapibuf/NetApiBufferAllocate, netmgmt.netapibufferallocate
 ms.prod: windows
 ms.technology: windows-sdk

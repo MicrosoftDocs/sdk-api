@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroup_getinteriorinputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\getinteriorinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: GetInteriorInputConnector, GetInteriorInputConnector method [WPF Bitmap Effects], GetInteriorInputConnector method [WPF Bitmap Effects],IMILBitmapEffectGroup interface, IMILBitmapEffectGroup interface [WPF Bitmap Effects],GetInteriorInputConnector method, IMILBitmapEffectGroup.GetInteriorInputConnector, IMILBitmapEffectGroup::GetInteriorInputConnector, _wibe_imilbitmapeffectgroup_getinteriorinputconnector, mileffects/IMILBitmapEffectGroup::GetInteriorInputConnector, wibe._wibe_imilbitmapeffectgroup_getinteriorinputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The index of the effect to retrieve the connector.
 
 ### -param ppConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>**</b>
 
 A pointer that receives a pointer to the desired effects input connector.
 

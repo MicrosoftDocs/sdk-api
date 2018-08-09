@@ -7,7 +7,7 @@ old-location: rras\geteventmessage.htm
 old-project: rras
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: GetEventMessage, GetEventMessage callback function [RAS], PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/GetEventMessage, rras.geteventmessage
 ms.prod: windows
 ms.technology: windows-sdk

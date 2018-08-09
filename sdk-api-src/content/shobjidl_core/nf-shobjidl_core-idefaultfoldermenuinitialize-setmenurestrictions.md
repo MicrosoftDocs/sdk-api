@@ -7,7 +7,7 @@ old-location: shell\IDefaultFolderMenuInitialize_SetMenuRestrictions.htm
 old-project: shell
 ms.assetid: 7D907B01-E0C4-428b-A8A4-FA383B0970BF
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetMenuRestrictions method, IDefaultFolderMenuInitialize.SetMenuRestrictions, IDefaultFolderMenuInitialize::SetMenuRestrictions, SetMenuRestrictions, SetMenuRestrictions method [Windows Shell], SetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::SetMenuRestrictions
 ms.prod: windows
 ms.technology: windows-sdk

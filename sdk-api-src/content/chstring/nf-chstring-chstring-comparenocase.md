@@ -7,7 +7,7 @@ old-location: wmi\chstring_comparenocase.htm
 old-project: WmiSdk
 ms.assetid: 72ad2532-ece8-43e2-b768-7dec6a378c98
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: "?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],CompareNoCase method, CHString.CompareNoCase, CHString::CompareNoCase, CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation],CHString interface, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase"
 ms.prod: windows
 ms.technology: windows-sdk

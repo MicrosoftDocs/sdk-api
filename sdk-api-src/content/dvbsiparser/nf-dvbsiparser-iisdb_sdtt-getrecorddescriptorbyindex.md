@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: c8aab681-4858-4ad2-84a7-15a9b8310d6f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_SDTT.GetRecordDescriptorByIndex, IISDB_SDTT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_SDTT::GetRecordDescriptorByIndex, mstv.iisdb_sdtt_getrecorddescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns a descriptor for a specified record
+Returns a descriptor for a specified record
   in an Integrated Services Digital Broadcasting (ISDB) software download
   trigger table
   (SDTT).
@@ -65,8 +64,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">IISDB_SDTT::GetCountOfRecords</a> method to get the number
   of records in the SDTT.
 
@@ -74,8 +72,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwIndex [in]
 
-
-  Specifies which descriptor to retrieve, indexed from zero.
+Specifies which descriptor to retrieve, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/04f32111-4c4b-4f5b-81d1-fa7c19841cd8">IISDB_SDTT::GetRecordCountOfDescriptors</a> method to get the number
   of descriptors for a particular record.
 
@@ -83,8 +80,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param ppDescriptor [out]
 
-
-  Pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface for the descriptor being retrieved. The caller is responsible for freeing this memory.
+Pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface for the descriptor being retrieved. The caller is responsible for freeing this memory.
 
 
 ## -returns

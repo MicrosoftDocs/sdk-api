@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_hittestselection.htm
 old-project: tablet
 ms.assetid: 8dc745d8-7e2a-4255-86c6-226bf82d3d64
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 8dc745d8-7e2a-4255-86c6-226bf82d3d64, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],HitTestSelection method, IInkPicture.HitTestSelection, IInkPicture::HitTestSelection, msinkaut/IInkPicture::HitTestSelection, tablet.inkpicture_hittestselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ For further details about this method, refer to the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

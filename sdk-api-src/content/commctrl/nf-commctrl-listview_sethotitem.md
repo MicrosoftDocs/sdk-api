@@ -7,7 +7,7 @@ old-location: controls\ListView_SetHotItem.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotitem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetHotItem, ListView_SetHotItem macro [Windows Controls], _win32_ListView_SetHotItem, _win32_ListView_SetHotItem_cpp, commctrl/ListView_SetHotItem, controls.ListView_SetHotItem, controls._win32_ListView_SetHotItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the hot item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761172(v=VS.85).aspx">LVM_SETHOTITEM</a> message explicitly. 
+Sets the hot item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/0aa2b15d-4983-4234-9863-f1fdee09f913">LVM_SETHOTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Sets the hot item in a list-view control. You can use this macro or send the <a 
 
 ### -param hwnd
 
-TBD
-
-
-### -param i
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
 
-#### - iIndex
+### -param i
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 

@@ -7,7 +7,7 @@ old-location: fs\cleanntmsdrive.htm
 old-project: Rsm
 ms.assetid: 55a8e7c0-85fd-40c5-b5b9-46ad321761c4
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdrive, base.cleanntmsdrive, fs.cleanntmsdrive, ntmsapi/CleanNtmsDrive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -218,7 +218,7 @@ Queued cleaning requests are deleted when the service is restarted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
 
 
 

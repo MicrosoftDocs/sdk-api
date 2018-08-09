@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_DeleteItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: DeleteItem, DeleteItem method [WIA], DeleteItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeleteItem method, IWiaItem.DeleteItem, IWiaItem::DeleteItem, _wia_IWiaItem_DeleteItem, wia._wia_IWiaItem_DeleteItem, wia_xp/IWiaItem::DeleteItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaItem::DeleteItem</b> method removes the current <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object from the object tree of the device.
+The <b>IWiaItem::DeleteItem</b> method removes the current <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> object from the object tree of the device.
 
 
 ## -parameters
@@ -81,9 +81,9 @@ This method returns S_OK regardless of how many items were deleted. If the metho
 
 
 
-The Windows Image Acquisition (WIA) run-time system represents each WIA hardware device connected to the user's computer as a hierarchical tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects. A given WIA device may or may not allow applications to delete <b>IWiaItem</b> objects from its tree. Use the <a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface to query the device for item deletion capability.
+The Windows Image Acquisition (WIA) run-time system represents each WIA hardware device connected to the user's computer as a hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects. A given WIA device may or may not allow applications to delete <b>IWiaItem</b> objects from its tree. Use the <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> interface to query the device for item deletion capability.
 
-If the device supports item deletion in its <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree, invoke the <b>IWiaItem::DeleteItem</b> method to remove the <b>IWiaItem</b> object. Note that this method will only delete an object after all references to the object have been released.
+If the device supports item deletion in its <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> tree, invoke the <b>IWiaItem::DeleteItem</b> method to remove the <b>IWiaItem</b> object. Note that this method will only delete an object after all references to the object have been released.
 
 
 

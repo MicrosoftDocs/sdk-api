@@ -7,7 +7,7 @@ old-location: gdi\exttextout.htm
 old-project: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN, ETO_NUMERICSLOCAL, ETO_OPAQUE, ETO_PDY, ETO_RTLREADING, ExtTextOut, ExtTextOut function [Windows GDI], ExtTextOutA, ExtTextOutW, _win32_ExtTextOut, gdi.exttextout, wingdi/ExtTextOut, wingdi/ExtTextOutA, wingdi/ExtTextOutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,59 +70,17 @@ The <b>ExtTextOut</b> function draws text using the currently selected font, bac
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param options
-
-TBD
-
-
-### -param lprect
-
-TBD
-
-
-### -param lpString [in]
-
-A pointer to a string that specifies the text to be drawn. The string does not need to be zero-terminated, since <i>cbCount</i> specifies the length of the string.
-
-
-### -param c
-
-TBD
-
-
-### -param lpDx [in]
-
-A pointer to an optional array of values that indicate the distance between origins of adjacent character cells. For example, lpDx[<i>i</i>] logical units separate the origins of character cell <i>i</i> and character cell <i>i</i> + 1.
-
-
-#### - X [in]
+### -param x [in]
 
 The x-coordinate, in logical coordinates, of the reference point used to position the string.
 
 
-#### - Y [in]
+### -param y [in]
 
 The y-coordinate, in logical coordinates, of the reference point used to position the string.
 
 
-#### - cbCount [in]
-
-The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
-
-This value may not exceed 8192.
-
-
-#### - fuOptions [in]
+### -param options [in]
 
 Specifies how to use the application-defined rectangle. This parameter can be one or more of the following values.
 
@@ -219,9 +177,26 @@ When this is set, the array pointed to by <i>lpDx</i> contains pairs of values. 
 The ETO_GLYPH_INDEX and ETO_RTLREADING values cannot be used together. Because ETO_GLYPH_INDEX implies that all language processing has been completed, the function ignores the ETO_RTLREADING flag if also specified.
 
 
-#### - lprc [in]
+### -param lprect [in]
 
 A pointer to an optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opaquing, or both.
+
+
+### -param lpString [in]
+
+A pointer to a string that specifies the text to be drawn. The string does not need to be zero-terminated, since <i>cbCount</i> specifies the length of the string.
+
+
+### -param c [in]
+
+The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
+
+This value may not exceed 8192.
+
+
+### -param lpDx [in]
+
+A pointer to an optional array of values that indicate the distance between origins of adjacent character cells. For example, lpDx[<i>i</i>] logical units separate the origins of character cell <i>i</i> and character cell <i>i</i> + 1.
 
 
 ## -returns
@@ -352,7 +327,7 @@ Note, the <i>alpDx</i> values from <a href="https://msdn.microsoft.com/b873a059-
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

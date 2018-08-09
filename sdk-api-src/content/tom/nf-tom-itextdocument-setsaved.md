@@ -4,10 +4,10 @@ title: ITextDocument::SetSaved
 author: windows-sdk-content
 description: Sets the document Saved property.
 old-location: controls\ITextDocument_SetSaved.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsaved.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ITextDocument interface [Windows Controls],SetSaved method, ITextDocument.SetSaved, ITextDocument::SetSaved, SetSaved, SetSaved method [Windows Controls], SetSaved method [Windows Controls],ITextDocument interface, _win32_ITextDocument_SetSaved, _win32_ITextDocument_SetSaved_cpp, controls.ITextDocument_SetSaved, controls._win32_ITextDocument_SetSaved, tom/ITextDocument::SetSaved, tomFalse, tomTrue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,11 +123,11 @@ The return value is <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774011(v=VS.85).aspx">GetSaved</a>
+<a href="https://msdn.microsoft.com/50f38968-c647-49cc-b8b9-7c5329891ab9">GetSaved</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
@@ -135,7 +135,7 @@ The return value is <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

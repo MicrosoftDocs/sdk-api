@@ -7,7 +7,7 @@ old-location: shell\IPublishedApp.htm
 old-project: shell
 ms.assetid: a5a44e74-494a-4c9b-8bf3-85c6093b2c0e
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IPublishedApp, IPublishedApp interface [Windows Shell], IPublishedApp interface [Windows Shell],described, inet_IPublishedApp, shappmgr/IPublishedApp, shell.IPublishedApp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>IPublishedApp</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4ffcc30a-cf07-45e7-b9a5-342fe2b553c8">GetPublishedAppInfo</a>
 </td>
 <td align="left" width="63%">
-
-		Gets publishing-related information about an application published by an application publisher.
+Gets publishing-related information about an application published by an application publisher.
 		
 
 </td>

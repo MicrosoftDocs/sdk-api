@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_InsertAt.htm
 old-project: properties
 ms.assetid: e50a0642-ff01-4cf7-940e-0241b3dc8604
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],InsertAt method, IPropertyChangeArray.InsertAt, IPropertyChangeArray::InsertAt, InsertAt, InsertAt method [Windows Properties], InsertAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_InsertAt, properties.IPropertyChangeArray_InsertAt, propsys/IPropertyChangeArray::InsertAt, shell.IPropertyChangeArray_InsertAt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The index at which the change is inserted.
 
 ### -param ppropChange [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>*</b>
+Type: <b><a href="shell.IPropertyChange">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change.
 

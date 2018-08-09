@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattgetservices.htm
 old-project: bltooth
 ms.assetid: 8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
 ms.prod: windows
 ms.technology: windows-sdk

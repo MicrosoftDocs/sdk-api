@@ -7,7 +7,7 @@ old-location: fs\log_unpinned_callback.htm
 old-project: Clfs
 ms.assetid: ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: LOG_UNPINNED_CALLBACK, LOG_UNPINNED_CALLBACK callback function [Files], PLOG_UNPINNED_CALLBACK, PLOG_UNPINNED_CALLBACK callback, clfsmgmtw32/LOG_UNPINNED_CALLBACK, fs.log_unpinned_callback
 ms.prod: windows
 ms.technology: windows-sdk

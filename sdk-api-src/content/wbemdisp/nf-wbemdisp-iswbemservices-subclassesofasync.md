@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_subclassesofasync.htm
 old-project: WmiSdk
 ms.assetid: a9d16ee9-992e-4ce5-9c03-0a2c9958588c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],SubclassesOfAsync method, ISWbemServices.SubclassesOfAsync, ISWbemServices::SubclassesOfAsync, SWbemServices object [Windows Management Instrumentation],SubclassesOfAsync method, SWbemServices.SubclassesOfAsync, SubclassesOfAsync, SubclassesOfAsync method [Windows Management Instrumentation], SubclassesOfAsync method [Windows Management Instrumentation],ISWbemServices interface, SubclassesOfAsync method [Windows Management Instrumentation],SWbemServices object, _hmm_swbemservices.subclassesofasync, asynchronous mode, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemservices_subclassesofasync
 ms.prod: windows
 ms.technology: windows-sdk

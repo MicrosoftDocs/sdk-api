@@ -4,10 +4,10 @@ title: PdhIsRealTimeQuery function
 author: windows-sdk-content
 description: Determines if the specified query is a real-time query.
 old-location: perf\pdhisrealtimequery.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 4f6b2d8d-3a0f-4346-8b8e-a7aea11fbc40
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhIsRealTimeQuery, PdhIsRealTimeQuery function [Perf], _win32_pdhisrealtimequery, base.pdhisrealtimequery, pdh/PdhIsRealTimeQuery, perf.pdhisrealtimequery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Determines if the specified query is a real-time query.
+Determines if the specified query is a real-time query.
 		
 
 
@@ -71,8 +70,7 @@ Handle to the query. The
 
 
 
-
-						If the query is a real-time query, the return value is <b>TRUE</b>.
+If the query is a real-time query, the return value is <b>TRUE</b>.
 						
 
 If the query is not a real-time query, the return value is <b>FALSE</b>.

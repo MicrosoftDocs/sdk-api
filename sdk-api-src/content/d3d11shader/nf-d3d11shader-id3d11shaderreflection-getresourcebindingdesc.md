@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getresourcebindingdesc.htm
 old-project: direct3d11
 ms.assetid: 2bd540f5-513d-4dd5-ab28-b0e8083231eb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 32c283b0-2e5b-b925-599a-d35d69593ee6, GetResourceBindingDesc, GetResourceBindingDesc method [Direct3D 11], GetResourceBindingDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetResourceBindingDesc method, ID3D11ShaderReflection.GetResourceBindingDesc, ID3D11ShaderReflection::GetResourceBindingDesc, d3d11shader/ID3D11ShaderReflection::GetResourceBindingDesc, direct3d11.id3d11shaderreflection_getresourcebindingdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ A pointer to an input-binding description. See <a href="https://msdn.microsoft.c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

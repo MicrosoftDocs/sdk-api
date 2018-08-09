@@ -7,7 +7,7 @@ old-location: controls\ListView_GetItemText.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetItemText, ListView_GetItemText macro [Windows Controls], _win32_ListView_GetItemText, _win32_ListView_GetItemText_cpp, commctrl/ListView_GetItemText, controls.ListView_GetItemText, controls._win32_ListView_GetItemText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761055(v=VS.85).aspx">LVM_GETITEMTEXT</a> message explicitly.
+Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/5711ed18-a766-4e7f-9e9d-b9203231b369">LVM_GETITEMTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -60,12 +60,16 @@ Gets the text of a list-view item or subitem. You can use this macro or send the
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param i
 
-TBD
+Type: <b>int</b>
+
+The index of the list-view item. 
 
 
 #### - iSubItem_
@@ -91,28 +95,6 @@ The number of characters in the
 					<i>pszText</i> buffer.
 
 
-#### - cchTextMax
-
-Type: <b>int</b>
-
-The number of characters in the 
-					<i>pszText</i> buffer.
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
-
-
-#### - iItem
-
-Type: <b>int</b>
-
-The index of the list-view item. 
-
-
 #### - iSubItem
 
 Type: <b>int</b>
@@ -128,12 +110,20 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 A pointer to a buffer that receives the item or subitem text. 
 
 
+#### - cchTextMax
+
+Type: <b>int</b>
+
+The number of characters in the 
+					<i>pszText</i> buffer.
+
+
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a>
+<a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsensordevicecount.htm
 old-project: medfound
 ms.assetid: 687A4275-5963-486E-8D59-B1858D7E388D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetSensorDeviceCount, GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDeviceCount method, IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The number of devices in the sensor group.
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ The number of devices in the sensor group.
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ The number of devices in the sensor group.
 </dl>
 </td>
 <td width="60%">
-
-                The <i>pdwCount</i> parameter is null.
+The <i>pdwCount</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ The number of devices in the sensor group.
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

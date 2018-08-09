@@ -7,7 +7,7 @@ old-location: mf\imfsimpleaudiovolume.htm
 old-project: medfound
 ms.assetid: 002d85a7-8bc3-422e-8ced-1907ac121d7b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], IMFSimpleAudioVolume interface [Media Foundation],described, mf.imfsimpleaudiovolume, mfidl/IMFSimpleAudioVolume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,8 +133,7 @@ For example, if the master volume is 0.8 and the channel volume is 0.5, the atte
 
 Use the following formula to convert the volume level to the decibel (dB) scale:
 
-
-          Attenuation (dB) = 20 * log10(<i>Level</i>)
+Attenuation (dB) = 20 * log10(<i>Level</i>)
         
 
 For example, a volume level of 0.50 represents 6.02 dB of attenuation.

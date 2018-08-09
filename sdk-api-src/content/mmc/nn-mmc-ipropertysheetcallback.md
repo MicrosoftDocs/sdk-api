@@ -7,7 +7,7 @@ old-location: mmc\ipropertysheetcallback.htm
 old-project: MMC
 ms.assetid: e2115929-692e-4e59-bcdb-f37b02c53224
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IPropertySheetCallback, IPropertySheetCallback interface [MMC], IPropertySheetCallback interface [MMC],described, _slate_ipropertysheetcallback, mmc.ipropertysheetcallback, mmc/IPropertySheetCallback
 ms.prod: windows
 ms.technology: windows-sdk

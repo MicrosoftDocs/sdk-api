@@ -4,10 +4,10 @@ title: TransmitCommChar function
 author: windows-sdk-content
 description: Transmits a specified character ahead of any pending data in the output buffer of the specified communications device.
 old-location: base\transmitcommchar.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 599c3d04-6cd3-41ac-88a8-752f4b83d46b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommchar, base.transmitcommchar, winbase/TransmitCommChar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Transmits a specified character ahead of any pending data in the output buffer o
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param cChar [in]
@@ -114,7 +114,7 @@ If the device is not transmitting,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gdi\getcharacterplacement.htm
 old-project: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GCP_CLASSIN, GCP_DIACRITIC, GCP_DISPLAYZWG, GCP_GLYPHSHAPE, GCP_JUSTIFY, GCP_KASHIDA, GCP_LIGATE, GCP_MAXEXTENT, GCP_NEUTRALOVERRIDE, GCP_NUMERICOVERRIDE, GCP_NUMERICSLATIN, GCP_NUMERICSLOCAL, GCP_REORDER, GCP_SYMSWAPOFF, GCP_USEKERNING, GetCharacterPlacement, GetCharacterPlacement function [Windows GDI], GetCharacterPlacementA, GetCharacterPlacementW, _win32_GetCharacterPlacement, gdi.getcharacterplacement, wingdi/GetCharacterPlacement, wingdi/GetCharacterPlacementA, wingdi/GetCharacterPlacementW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,9 @@ A pointer to the character string to process. The string does not need to be zer
 The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpString</i>.
 
 
-### -param nMexExtent
+### -param nMexExtent [in]
 
-TBD
+The maximum extent (in logical units) to which the string is processed. Characters that, if processed, would exceed this extent are ignored. Computations for any required ordering or glyph arrays apply only to the included characters. This parameter is used only if the GCP_MAXEXTENT value is specified in the <i>dwFlags</i> parameter. As the function processes the input string, each character and its extent is added to the output, extent, and other arrays only if the total extent has not yet exceeded the maximum. Once the limit is reached, processing will stop.
 
 
 ### -param lpResults [in, out]
@@ -221,7 +221,7 @@ Certain languages only. Override the normal handling of numerics and treat them 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="https://msdn.microsoft.com/en-us/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Arabic/Thai only. Use standard Latin glyphs for numbers and override the system 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="https://msdn.microsoft.com/en-us/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -279,11 +279,6 @@ Note that just because <a href="https://msdn.microsoft.com/c2f19423-4410-44dd-83
 It is recommended that an application use the <a href="https://msdn.microsoft.com/c2f19423-4410-44dd-83f1-5b858852051d">GetFontLanguageInfo</a> function to determine whether the GCP_DIACRITIC, GCP_DBCS, GCP_USEKERNING, GCP_LIGATE, GCP_REORDER, GCP_GLYPHSHAPE, and GCP_KASHIDA values are valid for the currently selected font. If not valid, <b>GetCharacterPlacement</b> ignores the value.
 
 The GCP_NODIACRITICS value is no longer defined and should not be used.
-
-
-#### - nMaxExtent [in]
-
-The maximum extent (in logical units) to which the string is processed. Characters that, if processed, would exceed this extent are ignored. Computations for any required ordering or glyph arrays apply only to the included characters. This parameter is used only if the GCP_MAXEXTENT value is specified in the <i>dwFlags</i> parameter. As the function processes the input string, each character and its extent is added to the output, extent, and other arrays only if the total extent has not yet exceeded the maximum. Once the limit is reached, processing will stop.
 
 
 ## -returns
@@ -352,7 +347,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a>
+<a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a>
 
 
 

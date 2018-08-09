@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_datalost.htm
 old-project: offlinefiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DataLost, DataLost method [Offline Files], DataLost method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],DataLost method, IOfflineFilesEvents.DataLost, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-    Reports that one or more events destined for this event sink have been lost and will not be delivered. The receipt of this event indicates that the service is attempting to deliver events to this event sink faster than the sink is consuming them.
+Reports that one or more events destined for this event sink have been lost and will not be delivered. The receipt of this event indicates that the service is attempting to deliver events to this event sink faster than the sink is consuming them.
 
 
 ## -parameters

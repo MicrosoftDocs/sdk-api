@@ -7,7 +7,7 @@ old-location: shell\SetWindowContextHelpId.htm
 old-project: shell
 ms.assetid: 7e0963d1-5807-4db5-9abf-cdb21a03b525
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWindowContextHelpId, SetWindowContextHelpId function [Windows Shell], _win32_SetWindowContextHelpId, shell.SetWindowContextHelpId, winuser/SetWindowContextHelpId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,18 +66,13 @@ TBD
 
 
 
+
+
 #### - dwContextHelpId
 
 Type: <b>DWORD</b>
 
 The Help context identifier.
-
-
-#### - hwnd
-
-Type: <b>HWND</b>
-
-A handle to the window with which to associate the Help context identifier.
 
 
 ## -returns

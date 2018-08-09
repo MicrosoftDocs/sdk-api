@@ -7,7 +7,7 @@ old-location: tsf\itfcompositionsink.htm
 old-project: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Called when a composition is terminated.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

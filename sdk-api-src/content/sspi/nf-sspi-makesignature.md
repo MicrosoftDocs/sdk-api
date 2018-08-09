@@ -4,10 +4,10 @@ title: MakeSignature function
 author: windows-sdk-content
 description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.
 old-location: security\makesignature.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # MakeSignature function
@@ -315,7 +316,7 @@ If the transport application created the security context to support sequence de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

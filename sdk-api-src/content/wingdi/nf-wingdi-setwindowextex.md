@@ -7,7 +7,7 @@ old-location: gdi\setwindowextex.htm
 old-project: gdi
 ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetWindowExtEx, SetWindowExtEx function [Windows GDI], _win32_SetWindowExtEx, gdi.setwindowextex, wingdi/SetWindowExtEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,36 +68,19 @@ The <b>SetWindowExtEx</b> function sets the horizontal and vertical extents of t
 A handle to the device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param lpsz
-
-TBD
-
-
-
-
-#### - lpSize [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
-
-
-#### - nXExtent [in]
+### -param x [in]
 
 The window's horizontal extent in logical units.
 
 
-#### - nYExtent [in]
+### -param y [in]
 
 The window's vertical extent in logical units.
+
+
+### -param lpsz [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getproperty.htm
 old-project: TSF
 ms.assetid: e5d76443-f767-47fb-be3a-8cbac224d299
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [Text Services Framework], GetProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetProperty method, ITfContext.GetProperty, ITfContext::GetProperty, _tsf_itfcontext_getproperty_ref, msctf/ITfContext::GetProperty, tsf.itfcontext_getproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,8 +158,7 @@ An application or text service can define unique properties identified by a GUID
 
 
 
-<a href="https://msdn.microsoft.com/72bd92f9-d82e-4994-82ad-0989e987903b">
-        ITfProperty
+<a href="https://msdn.microsoft.com/72bd92f9-d82e-4994-82ad-0989e987903b">ITfProperty
       </a>
 
 

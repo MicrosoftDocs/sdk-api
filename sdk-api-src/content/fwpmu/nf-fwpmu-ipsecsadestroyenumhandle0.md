@@ -7,7 +7,7 @@ old-location: fwp\ipsecsadestroyenumhandle0_func.htm
 old-project: fwp
 ms.assetid: acd02e35-0bcb-4882-9b85-b29a558d34b7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPsecSaDestroyEnumHandle0, IPsecSaDestroyEnumHandle0 function [Filtering], fwp.ipsecsadestroyenumhandle0_func, fwpmu/IPsecSaDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>IPsecSaDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/473935d9-362f-417c-a366-f683d97d9a18">IPsecSaCreateEnumHandle0</a>.
+The <b>IPsecSaDestroyEnumHandle0</b> function frees a handle returned by <a href="https://msdn.microsoft.com/473935d9-362f-417c-a366-f683d97d9a18">IPsecSaCreateEnumHandle0</a>.
 
 
 ## -parameters

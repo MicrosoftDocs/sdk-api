@@ -7,7 +7,7 @@ old-location: winsock\socket_security_settings_ipsec.htm
 old-project: winsock
 ms.assetid: 99af6ebd-6a7d-4753-8bc6-cfd42919843e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS_IPSEC, SOCKET_SECURITY_SETTINGS_IPSEC structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, SOCKET_SETTINGS_IPSEC_SKIP_FILTER_INSTANTIATION, _SOCKET_SECURITY_SETTINGS_IPSEC, mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC, winsock.socket_security_settings_ipsec
 ms.prod: windows
 ms.technology: windows-sdk
@@ -191,8 +191,7 @@ A string that contains the user name, the domain name, and the password concaten
 
 
 
-The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is supported on Windows Vista
-  and later.
+The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is supported on Windows Vistaand later.
 
 The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is meant to be used by an advanced application that requires more flexibility and wishes to customize IPSec policy for their traffic. The pointer to the <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure needs to cast to the <a href="https://msdn.microsoft.com/9c47efb4-dd3e-4db9-a659-003292e2c5e9">SOCKET_SECURITY_SETTINGS</a> structure  type when calling the <a href="https://msdn.microsoft.com/9efee804-9763-4456-97a3-6eb9a8e30f49">WSASetSocketSecurity</a> function to enable and apply security on  a socket. 
 

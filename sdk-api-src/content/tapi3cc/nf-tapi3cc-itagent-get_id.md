@@ -4,10 +4,10 @@ title: ITAgent::get_ID
 author: windows-sdk-content
 description: The get_ID method gets an agent's ID.
 old-location: tapi3\itagent_get_id.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: e5045dd7-5a12-415e-b68a-f483f77f4887
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_ID method, ITAgent.get_ID, ITAgent::get_ID, _tapi3_itagent_get_id, get_ID, get_ID method [TAPI 2.2], get_ID method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_id, tapi3cc/ITAgent::get_ID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,7 +135,7 @@ Insufficient memory exists to perform the operation.
 This method is provided for interfacing with legacy switch solutions.
 
 The application must free the memory allocated for the <i>ppID</i> parameter through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the variable is no longer needed.
 
 
 

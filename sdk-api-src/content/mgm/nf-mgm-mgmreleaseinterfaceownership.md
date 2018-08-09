@@ -7,7 +7,7 @@ old-location: rras\mgmreleaseinterfaceownership.htm
 old-project: rras
 ms.assetid: 501970f7-7728-4a83-8f4b-207579d65d01
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MgmReleaseInterfaceOwnership, MgmReleaseInterfaceOwnership function [RAS], _mpr_mgmreleaseinterfaceownership, mgm/MgmReleaseInterfaceOwnership, rras.mgmreleaseinterfaceownership
 ms.prod: windows
 ms.technology: windows-sdk

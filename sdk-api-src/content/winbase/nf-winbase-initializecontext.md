@@ -4,10 +4,10 @@ title: InitializeContext function
 author: windows-sdk-content
 description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment.
 old-location: base\initializecontext.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
 ms.prod: windows
 ms.technology: windows-sdk

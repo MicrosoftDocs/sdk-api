@@ -7,7 +7,7 @@ old-location: security\ncryptstreamclose.htm
 old-project: seccng
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
 ms.prod: windows
 ms.technology: windows-sdk

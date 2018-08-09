@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3_end3.htm
 old-project: WMDM
 ms.assetid: fb09cfa8-1a96-412f-a97a-6cc1638b0c77
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: End3, End3 method [windows Media Device Manager], End3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],End3 method, IWMDMProgress3.End3, IWMDMProgress3::End3, IWMDMProgress3End3, mswmdm/IWMDMProgress3::End3, wmdm.iwmdmprogress3_end3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ A <b>GUID</b> specifying the event that is ending. Possible values are shown in 
 
 <table>
 <tr>
-<th>
-                  Event
+<th>Event
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

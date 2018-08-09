@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_SetToolbarItems.htm
 old-project: shell
 ms.assetid: 4ff141d3-e175-464a-9869-317d547e7489
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: FCT_ADDTOEND, FCT_CONFIGABLE, FCT_MERGE, IShellBrowser interface [Windows Shell],SetToolbarItems method, IShellBrowser.SetToolbarItems, IShellBrowser::SetToolbarItems, SetToolbarItems, SetToolbarItems method [Windows Shell], SetToolbarItems method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetToolbarItems, shell.IShellBrowser_SetToolbarItems, shobjidl_core/IShellBrowser::SetToolbarItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ Adds toolbar items to Windows Explorer's toolbar.
 
 Type: <b>LPTBBUTTONSB</b>
 
-The address of an array of <a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structures.
+The address of an array of <a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structures.
 
 
 ### -param nButtons
 
 Type: <b>UINT</b>
 
-The number of <a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structures in the <i>lpButtons</i> array.
+The number of <a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structures in the <i>lpButtons</i> array.
 
 
 ### -param uFlags

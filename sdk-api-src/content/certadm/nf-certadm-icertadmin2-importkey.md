@@ -7,7 +7,7 @@ old-location: security\icertadmin2_importkey.htm
 old-project: seccrypto
 ms.assetid: d71f20d7-5b27-41e5-adc1-6f0ae4160210
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin2 interface [Security],ImportKey method, ICertAdmin2.ImportKey, ICertAdmin2::ImportKey, IKF_OVERWRITE, ImportKey, ImportKey method [Security], ImportKey method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportKey, security.icertadmin2_importkey
 ms.prod: windows
 ms.technology: windows-sdk

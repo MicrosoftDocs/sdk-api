@@ -4,10 +4,10 @@ title: WinHttpReceiveResponse function
 author: windows-sdk-content
 description: The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.
 old-location: http\winhttpreceiveresponse.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -280,7 +280,7 @@ Returned when an incoming response exceeds an internal WinHTTP size limit.
 </td>
 <td width="60%">
 One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server.  To determine what type of error was encountered, check for a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
+<a href="internet_status_callback_prototype.htm">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
 <a href="https://msdn.microsoft.com/4d828e41-9073-407a-aab5-531f1d6d6d02">WINHTTP_STATUS_CALLBACK</a>.
 
 </td>

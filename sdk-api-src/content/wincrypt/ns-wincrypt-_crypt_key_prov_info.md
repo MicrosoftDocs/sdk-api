@@ -4,10 +4,10 @@ title: "_CRYPT_KEY_PROV_INFO"
 author: windows-sdk-content
 description: The CRYPT_KEY_PROV_INFO structure contains information about a key container within a cryptographic service provider (CSP).
 old-location: security\crypt_key_prov_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 6aea2f47-9d4a-4069-ac6d-f28907df00be
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PCRYPT_KEY_PROV_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_SET_KEY_PROV_HANDLE_PROP_ID / CERT_SET_KEY_CONTEXT_PROP_ID, CRYPT_KEY_PROV_INFO, CRYPT_KEY_PROV_INFO structure [Security], CRYPT_MACHINE_KEYSET / NCRYPT_MACHINE_KEY_FLAG, CRYPT_SILENT / NCRYPT_SILENT_FLAG, PCRYPT_KEY_PROV_INFO, PCRYPT_KEY_PROV_INFO structure pointer [Security], _CRYPT_KEY_PROV_INFO, _crypto2_crypt_key_prov_info, security.crypt_key_prov_info, wincrypt/CRYPT_KEY_PROV_INFO, wincrypt/PCRYPT_KEY_PROV_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

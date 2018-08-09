@@ -7,7 +7,7 @@ old-location: tsf\itfrange_compareend.htm
 old-project: TSF
 ms.assetid: 23841f07-f2ea-4365-a8cb-128c4fb210ab
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: "+1, -1, 0, CompareEnd, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareEnd method, ITfRange.CompareEnd, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -227,8 +227,7 @@ This method is identical to <a href="https://msdn.microsoft.com/562c2821-9522-4f
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -237,14 +236,12 @@ This method is identical to <a href="https://msdn.microsoft.com/562c2821-9522-4f
 
 
 
-<a href="https://msdn.microsoft.com/b84375ec-e00a-4cb3-97b7-f10688814968">
-        ITfRange::CompareStart
+<a href="https://msdn.microsoft.com/b84375ec-e00a-4cb3-97b7-f10688814968">ITfRange::CompareStart
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/03b87230-457f-4483-a183-d8a8cc7cead4">
-        ITfRange::IsEqualEnd
+<a href="https://msdn.microsoft.com/03b87230-457f-4483-a183-d8a8cc7cead4">ITfRange::IsEqualEnd
       </a>
 
 
@@ -253,8 +250,7 @@ This method is identical to <a href="https://msdn.microsoft.com/562c2821-9522-4f
 
 
 
-<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">
-        TfAnchor
+<a href="https://msdn.microsoft.com/d670666f-2915-4a23-b825-b534a015e37f">TfAnchor
       </a>
  
 

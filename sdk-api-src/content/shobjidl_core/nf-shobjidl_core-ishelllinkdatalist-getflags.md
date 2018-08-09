@@ -7,7 +7,7 @@ old-location: shell\IShellLinkDataList_GetFlags.htm
 old-project: shell
 ms.assetid: d6ebfd84-6ef4-43be-af16-71fc395c4735
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],GetFlags method, IShellLinkDataList.GetFlags, IShellLinkDataList::GetFlags, _win32_IShellLinkDataList_GetFlags, shell.IShellLinkDataList_GetFlags, shobjidl_core/IShellLinkDataList::GetFlags
 ms.prod: windows
 ms.technology: windows-sdk

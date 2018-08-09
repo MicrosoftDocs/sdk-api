@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgetblobpart.htm
 old-project: direct3dhlsl
 ms.assetid: cf9cea53-e7a3-4473-bfdf-0cdeb8370974
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3DGetBlobPart, D3DGetBlobPart function [HLSL], d3dcompiler/D3DGetBlobPart, direct3dhlsl.d3dgetblobpart
 ms.prod: windows
 ms.technology: windows-sdk

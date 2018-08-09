@@ -7,7 +7,7 @@ old-location: stg\StgSerializePropVariant.htm
 old-project: stg
 ms.assetid: e1382c1e-3f9e-41a2-8e95-fc3702e516d3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Structured Storage], propvarutil/StgSerializePropVariant, stg.StgSerializePropVariant
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ The <b>StgSerializePropVariant</b> function converts a <b>PROPVARIANT</b> data t
 
 
 
-### -param ppropvar
+### -param ppropvar [in]
 
-TBD
+A pointer to <b>PROPVARIANT</b>.
 
 
 ### -param ppProp [out]
@@ -72,11 +72,6 @@ A pointer to the newly allocated  <b>SERIALIZEDPROPERTYVALUE</b>.
 ### -param pcb [out]
 
 A pointer to the size of the newly allocated  <b>SERIALIZEDPROPERTYVALUE</b>.
-
-
-#### - pVar [in]
-
-A pointer to <b>PROPVARIANT</b>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_isequal.htm
 old-project: medfound
 ms.assetid: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131, IMFMediaType interface [Media Foundation],IsEqual method, IMFMediaType.IsEqual, IMFMediaType::IsEqual, IsEqual, IsEqual method [Media Foundation], IsEqual method [Media Foundation],IMFMediaType interface, MF_MEDIATYPE_EQUAL_FORMAT_DATA, MF_MEDIATYPE_EQUAL_FORMAT_TYPES, MF_MEDIATYPE_EQUAL_FORMAT_USER_DATA, MF_MEDIATYPE_EQUAL_MAJOR_TYPES, mf.imfmediatype_isequal, mfobjects/IMFMediaType::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Compares two media types and determines whether they are identical. If they are not identical, the method indicates how the two formats differ.
+Compares two media types and determines whether they are identical. If they are not identical, the method indicates how the two formats differ.
         
 
 
@@ -146,8 +145,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The types are not equal. Examine the <i>pdwFlags</i> parameter to determine how the types differ.
+The types are not equal. Examine the <i>pdwFlags</i> parameter to determine how the types differ.
               
 
 </td>
@@ -159,8 +157,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The types are equal.
+The types are equal.
               
 
 </td>
@@ -172,8 +169,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                One or both media types are invalid.
+One or both media types are invalid.
               
 
 </td>
@@ -188,12 +184,10 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-
-        Both of the media types must have a major type, or the method returns <b>E_INVALIDARG</b>.
+Both of the media types must have a major type, or the method returns <b>E_INVALIDARG</b>.
       
 
-
-        If the method succeeds and all of the comparison flags are set in <i>pdwFlags</i>, the return value is <b>S_OK</b>. If the method succeeds but one or more comparison flags are not set, the method returns <b>S_FALSE</b>.
+If the method succeeds and all of the comparison flags are set in <i>pdwFlags</i>, the return value is <b>S_OK</b>. If the method succeeds but one or more comparison flags are not set, the method returns <b>S_FALSE</b>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

@@ -7,7 +7,7 @@ old-location: rpc\rpcnsmgmthandlesetexpage.htm
 old-project: rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
 ms.prod: windows
 ms.technology: windows-sdk

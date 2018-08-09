@@ -4,10 +4,10 @@ title: "_SecPkgContext_AuthorityW"
 author: windows-sdk-content
 description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available.
 old-location: security\secpkgcontext_authority.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 619bf16b-c439-48e7-b013-3622e2f3bbc4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecPkgContext_AuthorityW, PSecPkgContext_Authority, PSecPkgContext_Authority structure pointer [Security], SecPkgContext_Authority, SecPkgContext_Authority structure [Security], SecPkgContext_AuthorityA, SecPkgContext_AuthorityW, _SecPkgContext_AuthorityW, _ssp_secpkgcontext_authority, security.secpkgcontext_authority, sspi/PSecPkgContext_Authority, sspi/SecPkgContext_Authority, sspi/SecPkgContext_AuthorityA, sspi/SecPkgContext_AuthorityW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_AuthorityW structure

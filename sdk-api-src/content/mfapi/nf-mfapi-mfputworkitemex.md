@@ -7,7 +7,7 @@ old-location: mf\mfputworkitemex.htm
 old-project: medfound
 ms.assetid: 67b4f7c6-0d49-4ed0-9bc3-e583451884af
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 67b4f7c6-0d49-4ed0-9bc3-e583451884af, MFPutWorkItemEx, MFPutWorkItemEx function [Media Foundation], mf.mfputworkitemex, mfapi/MFPutWorkItemEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Puts an asynchronous operation on a work queue.
+Puts an asynchronous operation on a work queue.
         
 
 
@@ -77,8 +76,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-415
 
 
 
-
-            Returns an <b>HRESULT</b> value. Possible values include the following.
+Returns an <b>HRESULT</b> value. Possible values include the following.
 
 <table>
 <tr>
@@ -92,8 +90,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-415
 </dl>
 </td>
 <td width="60%">
-
-                Success.
+Success.
 
 </td>
 </tr>
@@ -129,8 +126,7 @@ The <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MF
 
 
 
-
-        To invoke the work-item, this function passes <i>pResult</i> to the <a href="https://msdn.microsoft.com/28832d50-9b15-4eb0-96f9-2032d4edcaf4">MFInvokeCallback</a> function. The callback is specified when you create the result object specified by <i>pResult</i>.
+To invoke the work-item, this function passes <i>pResult</i> to the <a href="https://msdn.microsoft.com/28832d50-9b15-4eb0-96f9-2032d4edcaf4">MFInvokeCallback</a> function. The callback is specified when you create the result object specified by <i>pResult</i>.
       
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:

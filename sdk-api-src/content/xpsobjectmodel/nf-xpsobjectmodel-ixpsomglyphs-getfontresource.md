@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getfontresource.htm
 old-project: printdocs
 ms.assetid: 6ecca6a0-eb47-4511-898d-cf097a78d6f0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetFontResource, GetFontResource method [XPS Documents and Packaging], GetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontResource method, IXpsOMGlyphs.GetFontResource, IXpsOMGlyphs::GetFontResource, xps.ixpsomglyphs_getfontresource, xpsobjectmodel/IXpsOMGlyphs::GetFontResource
 ms.prod: windows
 ms.technology: windows-sdk

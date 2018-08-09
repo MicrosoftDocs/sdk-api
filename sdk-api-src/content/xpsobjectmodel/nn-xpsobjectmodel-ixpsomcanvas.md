@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas.htm
 old-project: printdocs
 ms.assetid: 3cb0e1b3-88a8-4724-a3c5-0df416294e62
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], IXpsOMCanvas interface [XPS Documents and Packaging],described, xps.ixpsomcanvas, xpsobjectmodel/IXpsOMCanvas
 ms.prod: windows
 ms.technology: windows-sdk

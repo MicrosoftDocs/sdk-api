@@ -7,7 +7,7 @@ old-location: gdi\gettextextentpointi.htm
 old-project: gdi
 ms.assetid: d06a48dd-3f38-4c60-a4c6-954e43f718d1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExtentPointI, GetTextExtentPointI function [Windows GDI], _win32_GetTextExtentPointI, gdi.gettextextentpointi, wingdi/GetTextExtentPointI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,7 @@ Pointer to array of glyph indices.
 Specifies the number of glyph indices.
 
 
-### -param psize
-
-TBD
-
-
-
-
-#### - lpSize [out]
+### -param psize [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the dimensions of the string, in logical units.
 

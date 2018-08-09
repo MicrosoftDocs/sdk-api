@@ -7,7 +7,7 @@ old-location: gdi\createenhmetafile.htm
 old-project: gdi
 ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateEnhMetaFile, CreateEnhMetaFile function [Windows GDI], CreateEnhMetaFileA, CreateEnhMetaFileW, _win32_CreateEnhMetaFile, gdi.createenhmetafile, wingdi/CreateEnhMetaFile, wingdi/CreateEnhMetaFileA, wingdi/CreateEnhMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ The <b>CreateEnhMetaFile</b> function creates a device context for an enhanced-f
 
 
 
-### -param hdc
+### -param hdc [in]
 
-TBD
+A handle to a reference device for the enhanced metafile. This parameter can be <b>NULL</b>; for more information, see Remarks.
 
 
 ### -param lpFilename [in]
@@ -74,31 +74,14 @@ TBD
 A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="https://msdn.microsoft.com/d3b93b3b-fa0b-4480-8348-19919c9e904d">DeleteEnhMetaFile</a> function.
 
 
-### -param lprc
-
-TBD
-
-
-### -param lpDesc
-
-TBD
-
-
-
-
-#### - hdcRef [in]
-
-A handle to a reference device for the enhanced metafile. This parameter can be <b>NULL</b>; for more information, see Remarks.
-
-
-#### - lpDescription [in]
-
-A pointer to a string that specifies the name of the application that created the picture, as well as the picture's title. This parameter can be <b>NULL</b>; for more information, see Remarks.
-
-
-#### - lpRect [in]
+### -param lprc [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile.
+
+
+### -param lpDesc [in]
+
+A pointer to a string that specifies the name of the application that created the picture, as well as the picture's title. This parameter can be <b>NULL</b>; for more information, see Remarks.
 
 
 ## -returns

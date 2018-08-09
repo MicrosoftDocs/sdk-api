@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2dms_array_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_dsv.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 3417c32f-389c-6873-2cf6-1c938da9d235, D3D10_TEX2DMS_ARRAY_DSV, D3D10_TEX2DMS_ARRAY_DSV structure [Direct3D 10], d3d10/D3D10_TEX2DMS_ARRAY_DSV, direct3d10.d3d10_tex2dms_array_dsv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource(s)</a> from an array of multisampled <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">2D textures</a> for a depth-stencil view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource(s)</a> from an array of multisampled <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D textures</a> for a depth-stencil view.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">array slice</a>)
+The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">array slice</a>)
 
 
 ### -field ArraySize
@@ -76,7 +76,7 @@ Number of textures to use.
 
 
 
-This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
+This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/7e427a75-99d7-4a18-afee-077bee01683c">D3D10_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 
@@ -86,7 +86,7 @@ This structure is one member of a depth-stencil-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

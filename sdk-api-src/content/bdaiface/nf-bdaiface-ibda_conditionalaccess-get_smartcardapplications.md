@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess_get_smartcardapplications.htm
 old-project: mstv
 ms.assetid: 5667ca9c-c46d-43d6-a7da-1f0ff340e869
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardApplications method, IBDA_ConditionalAccess.get_SmartCardApplications, IBDA_ConditionalAccess::get_SmartCardApplications, IBDA_ConditionalAccessget_SmartCardApplications, bdaiface/IBDA_ConditionalAccess::get_SmartCardApplications, get_SmartCardApplications, get_SmartCardApplications method [Microsoft TV Technologies], get_SmartCardApplications method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardapplications
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,22 +60,19 @@ The <b>get_SmartCardApplications</b> method retrieves a list of the smart card a
 
 ### -param pulcApplications [in, out]
 
-
-            Receives a count of the number of smart card applications in the <i>rgApplications</i> array.
+Receives a count of the number of smart card applications in the <i>rgApplications</i> array.
           
 
 
 ### -param ulcApplicationsMax [in]
 
-
-            The maximum number of smart card applications that the <i>rgApplications</i> buffer can hold.
+The maximum number of smart card applications that the <i>rgApplications</i> buffer can hold.
           
 
 
 ### -param rgApplications [in, out]
 
-
-            Pointer to a buffer that receives an array of smart card applications. Each array element is a <a href="https://msdn.microsoft.com/14d9cfbd-46c4-4be2-8631-f0916820c129">SmartCardApplication</a> structure.
+Pointer to a buffer that receives an array of smart card applications. Each array element is a <a href="https://msdn.microsoft.com/14d9cfbd-46c4-4be2-8631-f0916820c129">SmartCardApplication</a> structure.
           
 
 

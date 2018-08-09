@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vsgetsamplers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 18b97598-9d43-0a9e-c706-15e272faba6b, ID3D10Device interface [Direct3D 10],VSGetSamplers method, ID3D10Device.VSGetSamplers, ID3D10Device::VSGetSamplers, VSGetSamplers, VSGetSamplers method [Direct3D 10], VSGetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetSamplers, direct3d10.id3d10device_vsgetsamplers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Number of samplers to get from the device. Each pipeline stage has a total of 16
 
 ### -param ppSamplers [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>**</b>
 
-Arry of sampler-state interface pointers (see <a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>) to be returned by the device.
+Arry of sampler-state interface pointers (see <a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>) to be returned by the device.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

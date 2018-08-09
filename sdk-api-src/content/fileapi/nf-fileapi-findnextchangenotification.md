@@ -7,7 +7,7 @@ old-location: fs\findnextchangenotification.htm
 old-project: fileio
 ms.assetid: 0f93cc96-6e3b-4c03-aa5a-7a74d054a7ff
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: FindNextChangeNotification, FindNextChangeNotification function [Files], _win32_findnextchangenotification, base.findnextchangenotification, fileapi/FindNextChangeNotification, fs.findnextchangenotification, winbase/FindNextChangeNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ After the
 <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>.
 
 If a change occurs after a call to 
-<a href="https://msdn.microsoft.com/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c">FindFirstChangeNotification</a>
-       but before a call to 
+<a href="https://msdn.microsoft.com/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c">FindFirstChangeNotification</a>but before a call to 
 <b>FindNextChangeNotification</b>, the operating system records the change. When 
 <b>FindNextChangeNotification</b> is executed, the recorded change immediately satisfies a wait for the change notification.
 

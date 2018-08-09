@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_MakeARGB_a_r_g_b_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\makeargb.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Color class [GDI+],MakeARGB method, Color.MakeARGB, Color::MakeARGB, MakeARGB, MakeARGB method [GDI+], MakeARGB method [GDI+],Color class, _gdiplus_CLASS_Color_MakeARGB_a_r_g_b_, gdiplus._gdiplus_CLASS_Color_MakeARGB_a_r_g_b_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,11 +108,11 @@ This method returns an <b>ARGB</b> value that holds the specified alpha, red, gr
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536255(v=VS.85).aspx">Color::SetFromCOLORREF</a>
+<a href="https://msdn.microsoft.com/5fb15f81-8bed-4895-bec8-b687028cc5a2">Color::SetFromCOLORREF</a>
  
 
  

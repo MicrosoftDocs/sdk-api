@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_setmaximumcontentage.htm
 old-project: bits
 ms.assetid: 815d9e48-f1f0-4c40-a277-d78db9d6ace1
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBitsPeerCacheAdministration interface [BITS],SetMaximumContentAge method, IBitsPeerCacheAdministration.SetMaximumContentAge, IBitsPeerCacheAdministration::SetMaximumContentAge, SetMaximumContentAge, SetMaximumContentAge method [BITS], SetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::SetMaximumContentAge
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_processmove.htm
 old-project: wintouch
 ms.assetid: e2c0e975-3edd-43d5-8a58-2d8166413c76
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMove method, IManipulationProcessor.ProcessMove, IManipulationProcessor::ProcessMove, ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-
-    This method takes a timestamp using system time rather than from the touch hardware. To improve the experience in 
+This method takes a timestamp using system time rather than from the touch hardware. To improve the experience in 
     cases where performance is degrading you should use the <a href="https://msdn.microsoft.com/0840ef85-9b18-4248-96fe-93653274a89a">ProcessMoveWithTime</a> method.    
 
 

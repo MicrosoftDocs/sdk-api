@@ -7,7 +7,7 @@ old-location: wmi\provider_putinstance.htm
 old-project: WmiSdk
 ms.assetid: c9921a00-b966-47d0-a2f3-982812ab249c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],PutInstance method, Provider.PutInstance, Provider.PutInstance(IWbemClassObject,long,MethodContext), Provider::PutInstance, Provider::PutInstance(IWbemClassObject,long,MethodContext), PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],Provider interface, _hmm_provider_putinstance, provider/Provider::PutInstance, wmi.provider_putinstance
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\rpcstringbindingparse.htm
 old-project: rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,47 +71,6 @@ Pointer to a <b>null</b>-terminated string representation of a binding.
 
 ### -param ObjUuid
 
-TBD
-
-
-### -param Protseq
-
-TBD
-
-
-### -param NetworkAddr
-
-Returns a pointer to a pointer to a <b>null</b>-terminated string representation of a network address. Specify a <b>NULL</b> value to prevent 
-<b>RpcStringBindingParse</b> from returning the <i>NetworkAddr</i> parameter. In this case, the application does not call 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
-
-
-### -param Endpoint
-
-TBD
-
-
-### -param NetworkOptions
-
-Returns a pointer to a pointer to a <b>null</b>-terminated string representation of network options. 
-
-
-
-
-Specify a <b>NULL</b> value to prevent 
-<b>RpcStringBindingParse</b> from returning the <i>NetworkOptions</i> parameter. In this case, the application does not call 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
-
-
-#### - EndPoint
-
-Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an endpoint. Specify a <b>NULL</b> value to prevent 
-<b>RpcStringBindingParse</b> from returning the <i>EndPoint</i> parameter. In this case, the application does not call 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
-
-
-#### - ObjectUuid
-
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an object 
 <a href="https://msdn.microsoft.com/">UUID</a>. 
 
@@ -123,7 +82,7 @@ Specify a <b>NULL</b> value to prevent
 <a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
 
 
-#### - ProtSeq
+### -param Protseq
 
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of a protocol sequence. For a list of Microsoft RPC supported protocol sequences, see 
 <a href="https://msdn.microsoft.com/5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305">String Binding</a>. 
@@ -133,6 +92,32 @@ Returns a pointer to a pointer to a <b>null</b>-terminated string representation
 
 Specify a <b>NULL</b> value to prevent 
 <b>RpcStringBindingParse</b> from returning the <i>ProtSeq</i> parameter. In this case, the application does not call 
+<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
+
+
+### -param NetworkAddr
+
+Returns a pointer to a pointer to a <b>null</b>-terminated string representation of a network address. Specify a <b>NULL</b> value to prevent 
+<b>RpcStringBindingParse</b> from returning the <i>NetworkAddr</i> parameter. In this case, the application does not call 
+<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
+
+
+### -param Endpoint
+
+Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an endpoint. Specify a <b>NULL</b> value to prevent 
+<b>RpcStringBindingParse</b> from returning the <i>EndPoint</i> parameter. In this case, the application does not call 
+<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
+
+
+### -param NetworkOptions
+
+Returns a pointer to a pointer to a <b>null</b>-terminated string representation of network options. 
+
+
+
+
+Specify a <b>NULL</b> value to prevent 
+<b>RpcStringBindingParse</b> from returning the <i>NetworkOptions</i> parameter. In this case, the application does not call 
 <a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>.
 
 

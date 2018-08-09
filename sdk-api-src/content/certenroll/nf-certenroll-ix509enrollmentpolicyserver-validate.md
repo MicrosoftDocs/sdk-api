@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_validate.htm
 old-project: seccertenroll
 ms.assetid: ab58622e-79a6-4a1b-a0e2-74efb81c7062
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],Validate method, IX509EnrollmentPolicyServer.Validate, IX509EnrollmentPolicyServer::Validate, Validate, Validate method [Security], Validate method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::Validate, security.ix509enrollmentpolicyserver_validate
 ms.prod: windows
 ms.technology: windows-sdk

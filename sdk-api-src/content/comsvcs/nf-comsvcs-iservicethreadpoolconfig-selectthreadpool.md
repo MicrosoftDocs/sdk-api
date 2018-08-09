@@ -7,7 +7,7 @@ old-location: cos\iservicethreadpoolconfig_selectthreadpool.htm
 old-project: cossdk
 ms.assetid: eba8b4fc-aee7-4ba5-8e0e-b74ce9d25a86
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IServiceThreadPoolConfig interface [COM+],SelectThreadPool method, IServiceThreadPoolConfig.SelectThreadPool, IServiceThreadPoolConfig::SelectThreadPool, SelectThreadPool, SelectThreadPool method [COM+], SelectThreadPool method [COM+],IServiceThreadPoolConfig interface, _cos_IServiceThreadPoolConfig_SelectThreadPool, comsvcs/IServiceThreadPoolConfig::SelectThreadPool, cos.iservicethreadpoolconfig_selectthreadpool
 ms.prod: windows
 ms.technology: windows-sdk

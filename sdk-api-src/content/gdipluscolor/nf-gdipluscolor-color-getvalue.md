@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetValue_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getvalue.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Color class [GDI+],GetValue method, Color.GetValue, Color::GetValue, GetValue, GetValue method [GDI+], GetValue method [GDI+],Color class, _gdiplus_CLASS_Color_GetValue_, gdiplus._gdiplus_CLASS_Color_GetValue_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ This method returns a 32-bit <b>ARGB</b> value that holds the alpha, red, green,
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
  
 
  

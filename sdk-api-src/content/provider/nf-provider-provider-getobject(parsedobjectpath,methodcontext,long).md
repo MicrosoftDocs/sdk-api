@@ -7,7 +7,7 @@ old-location: wmi\provider_getobject.htm
 old-project: WmiSdk
 ms.assetid: c8e2633a-cbea-422c-9598-1b1b1104bbc2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: "?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider.GetObject(ParsedObjectPath,MethodContext,long), Provider::GetObject, Provider::GetObject(ParsedObjectPath,MethodContext,long), _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,16 +90,16 @@ The following flags are handled by (and filtered out) by WMI:
 <li><b>WBEM_FLAG_RETURN_IMMEDIATELY</b></li>
 </ul>
 
+#### - pInstance
+
+Pointer to a <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object to be filled in by the framework provider.
+
+
 #### - Query [ref]
 
 Query object that indicates the set of properties to be populated, as requested by a call to <b>Provider::GetObject</b>.
 
 A provider can realize a significant performance gain by filling in only these requested property values. The provider determines which properties are requested by using <a href="https://msdn.microsoft.com/36f5a261-435c-494d-aae5-a420eee030f2">CFrameworkQuery::IsPropertyRequired</a>. Otherwise, the provider must fill in all property values.
-
-
-#### - pInstance
-
-Pointer to a <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object to be filled in by the framework provider.
 
 
 ## -returns

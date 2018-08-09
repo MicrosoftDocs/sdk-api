@@ -7,7 +7,7 @@ old-location: mmc\application_load.htm
 old-project: MMC
 ms.assetid: 73be7c9a-080d-49c9-9fe4-932583474ad0
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: Application object [MMC],Load method, Load, Load method [MMC], Load method [MMC],Application object, Load method [MMC],_Application interface, _Application interface [MMC],Load method, _Application.Load, _Application::Load, _slate_application.load_method, mmc.application_load
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\setupsetsourcelist.htm
 old-project: SetupApi
 ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupSetSourceList, SetupSetSourceList function [Setup API], SetupSetSourceListA, SetupSetSourceListW, _setupapi_setupsetsourcelist, setup.setupsetsourcelist, setupapi/SetupSetSourceList, setupapi/SetupSetSourceListA, setupapi/SetupSetSourceListW
 ms.prod: windows
 ms.technology: windows-sdk

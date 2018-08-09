@@ -7,7 +7,7 @@ old-location: security\isvalidsid.htm
 old-project: secauthz
 ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, security.isvalidsid, securitybaseapi/IsValidSid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ If <i>pSid</i> is <b>NULL</b>, the application will fail with an access violatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

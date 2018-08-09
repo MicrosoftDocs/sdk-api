@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_IsKeyInArray.htm
 old-project: properties
 ms.assetid: aa6fe869-6fb7-4d2e-8dd8-65da0cbcd7bc
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],IsKeyInArray method, IPropertyChangeArray.IsKeyInArray, IPropertyChangeArray::IsKeyInArray, IsKeyInArray, IsKeyInArray method [Windows Properties], IsKeyInArray method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_IsKeyInArray, properties.IPropertyChangeArray_IsKeyInArray, propsys/IPropertyChangeArray::IsKeyInArray, shell.IPropertyChangeArray_IsKeyInArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Specifies whether a particular property key exists in the change array.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure of interest.
+A reference to the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure of interest.
 
 
 ## -returns

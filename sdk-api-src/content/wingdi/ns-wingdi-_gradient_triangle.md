@@ -7,7 +7,7 @@ old-location: gdi\gradient_triangle.htm
 old-project: gdi
 ms.assetid: 71f3a4bd-5823-47ae-aa7a-f3058f18c591
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _GRADIENT_TRIANGLE, _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i
 
 The following image shows an example of a triangle with a gradient fill.
 
-<img alt="Illustration of a triangle that fills from orange at the top point to magenta on the bottom line " border="0" src="./images/GradientFillTriangle.png"/>
+<img alt="Illustration of a triangle that fills from orange at the top point to magenta on the bottom line " border="0" src="images/GradientFillTriangle.png"/>
 
 #### Examples
 

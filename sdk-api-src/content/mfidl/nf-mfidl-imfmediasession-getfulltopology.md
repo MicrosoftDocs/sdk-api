@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_getfulltopology.htm
 old-project: medfound
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets a topology from the Media Session.
+Gets a topology from the Media Session.
 
 This method can get the current topology or a queued topology.
 
@@ -65,8 +64,7 @@ This method can get the current topology or a queued topology.
 
 ### -param dwGetFullTopologyFlags [in]
 
-
-            Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/a635b9c8-f01f-4757-8dc2-f470c2270efa">MFSESSION_GETFULLTOPOLOGY_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/a635b9c8-f01f-4757-8dc2-f470c2270efa">MFSESSION_GETFULLTOPOLOGY_FLAGS</a> enumeration.
           
 
 
@@ -85,8 +83,7 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
 
 #### - ppFullTopo [out]
 
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the topology. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface of the topology. The caller must release the interface.
           
 
 
@@ -94,8 +91,7 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -110,8 +106,7 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -123,8 +118,7 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
 </dl>
 </td>
 <td width="60%">
-
-                The Media Session has been shut down.
+The Media Session has been shut down.
               
 
 </td>
@@ -139,16 +133,13 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
 
 
 
-
-        If the <b>MFSESSION_GETFULLTOPOLOGY_CURRENT</b> flag is specified in the <i>dwGetFullTopologyFlags</i> parameter, the method returns the topology for the current presentation. Otherwise, the method searches all of the queued topologies for one that matches the identifier given in the <i>TopoId</i> parameter.
+If the <b>MFSESSION_GETFULLTOPOLOGY_CURRENT</b> flag is specified in the <i>dwGetFullTopologyFlags</i> parameter, the method returns the topology for the current presentation. Otherwise, the method searches all of the queued topologies for one that matches the identifier given in the <i>TopoId</i> parameter.
       
 
-
-        This method can be used to retrieve the topology for the current presentation or any pending presentations. It cannot be used to retrieve a topology that has already ended.
+This method can be used to retrieve the topology for the current presentation or any pending presentations. It cannot be used to retrieve a topology that has already ended.
       
 
-
-        The topology returned in <i>ppFullTopo</i> is a full topology, not a partial topology.
+The topology returned in <i>ppFullTopo</i> is a full topology, not a partial topology.
       
 
 

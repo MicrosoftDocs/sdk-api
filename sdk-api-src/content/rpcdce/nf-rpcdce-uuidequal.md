@@ -7,7 +7,7 @@ old-location: rpc\uuidequal.htm
 old-project: rpc
 ms.assetid: ff83c66c-1f1f-4582-a93b-d7bb5181deec
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal, rpcdce/UuidEqual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			An application calls the  
+An application calls the  
 <b>UuidEqual</b> function to compare two <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s and determine whether they are equal.
 
 

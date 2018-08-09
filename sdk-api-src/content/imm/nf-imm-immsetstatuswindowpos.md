@@ -7,7 +7,7 @@ old-location: intl\immsetstatuswindowpos.htm
 old-project: Intl
 ms.assetid: 36a3251a-0d8b-404b-8839-e0724b251cd1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSetStatusWindowPos, ImmSetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmSetStatusWindowPos, imm/ImmSetStatusWindowPos, intl.immsetstatuswindowpos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,19 +59,14 @@ Sets the position of the status window.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param lpptPos [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure containing the new position of the status window, in screen coordinates relative to the upper left corner of the display screen.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

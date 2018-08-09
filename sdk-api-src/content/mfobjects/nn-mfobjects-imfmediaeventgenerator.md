@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventgenerator.htm
 old-project: medfound
 ms.assetid: a37d0840-c896-43a0-b3d1-c2a6aaff1b25
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Retrieves events from any Media Foundation object that generates events.
+Retrieves events from any Media Foundation object that generates events.
         
 
 

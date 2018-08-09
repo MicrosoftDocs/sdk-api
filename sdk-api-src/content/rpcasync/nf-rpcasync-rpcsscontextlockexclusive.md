@@ -7,7 +7,7 @@ old-location: rpc\rpcsscontextlockexclusive.htm
 old-project: rpc
 ms.assetid: 7ef2376b-da25-4e4b-8a25-0913d680945f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcSsContextLockExclusive, RpcSsContextLockExclusive function [RPC], _rpc_rpcsscontextlockexclusive, rpc.rpcsscontextlockexclusive, rpcasync/RpcSsContextLockExclusive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>RpcSsContextLockExclusive</b> function enables an application to begin using a context handle in exclusive mode. The 
 <b>RpcSsContextLockExclusive</b> function enables methods declared as nonserialized (shared) in the IDL or ACF file to be dynamically changed to access a context handle in serialized (exclusive) mode.
 
@@ -82,8 +81,7 @@ For out-only context handles, the
 
 
 
-
-						Returns RPC_S_OK upon successful execution, indicating the thread now has access to the context handle in exclusive mode. Returns ERROR_MORE_WRITES when multiple threads attempt an exclusive lock on the context handle. See Remarks.
+Returns RPC_S_OK upon successful execution, indicating the thread now has access to the context handle in exclusive mode. Returns ERROR_MORE_WRITES when multiple threads attempt an exclusive lock on the context handle. See Remarks.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
 <a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
@@ -149,7 +147,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ab1aee44-4add-4816-a7ef-38bbf7b38918">context_handle</a>
+<a href="https://msdn.microsoft.com/">context_handle</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfolength.htm
 old-project: mstv
 ms.assetid: 963f44be-e0f4-4cb7-8e71-8641af0cd700
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordModuleInfoLength, GetRecordModuleInfoLength method [Microsoft TV Technologies], GetRecordModuleInfoLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfoLength method, IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength, IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfolength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Gets the  value of the module_info_length field from an Integrated Services Digi
 ### -param wRecordIndex [in]
 
 Specifies the record number for the module containing the module_info_byte field,
-  indexed from zero. Call the <a href="https://msdn.microsoft.com/d5a0b8e1-bb88-4ef6-ab25-b35b3d39fef0">IIsdbDownloadContentDescriptor::GetCountOfRecords</a>
-  method    to get the number of records in the extended event descriptor.
+  indexed from zero. Call the <a href="https://msdn.microsoft.com/d5a0b8e1-bb88-4ef6-ab25-b35b3d39fef0">IIsdbDownloadContentDescriptor::GetCountOfRecords</a>method    to get the number of records in the extended event descriptor.
 
 
 ### -param pbVal [out]

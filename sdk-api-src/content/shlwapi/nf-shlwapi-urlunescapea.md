@@ -7,7 +7,7 @@ old-location: shell\UrlUnescape.htm
 old-project: shell
 ms.assetid: 5bff5161-3b57-4f12-b126-42eac3f60267
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, URL_UNESCAPE_AS_UTF8, URL_UNESCAPE_INPLACE, UrlUnescape, UrlUnescape function [Windows Shell], UrlUnescapeA, UrlUnescapeW, _win32_UrlUnescape, shell.UrlUnescape, shlwapi/UrlUnescape, shlwapi/UrlUnescapeA, shlwapi/UrlUnescapeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,11 @@ Converts escape sequences back into ordinary characters.
 
 
 
-### -param pszUrl
+### -param pszUrl [in, out]
 
-TBD
+Type: <b>PTSTR</b>
+
+A pointer to a null-terminated string with the URL. If <i>dwFlags</i> is set to <b>URL_UNESCAPE_INPLACE</b>, the converted string is returned through this parameter.
 
 
 ### -param pszUnescaped [out, optional]
@@ -107,13 +109,6 @@ Do not convert the # or ? character, or any characters following them in the str
 #### URL_UNESCAPE_INPLACE
 
 Use <i>pszURL</i> to return the converted string instead of <i>pszUnescaped</i>.
-
-
-#### - pszURL [in, out]
-
-Type: <b>PTSTR</b>
-
-A pointer to a null-terminated string with the URL. If <i>dwFlags</i> is set to <b>URL_UNESCAPE_INPLACE</b>, the converted string is returned through this parameter.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: iphlp\getipstatistics.htm
 old-project: iphlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,14 +60,7 @@ The
 
 
 
-### -param Statistics
-
-TBD
-
-
-
-
-#### - pStats [out]
+### -param Statistics [out]
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/920e71b6-247c-4442-9f66-704a6c878feb">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.

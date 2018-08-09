@@ -7,7 +7,7 @@ old-location: mf\mfinitvideoformat.htm
 old-project: medfound
 ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: GDI+ 1.1
 
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Applications should avoid using the <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure, and use media type attributes instead. For more information, see <a href="https://msdn.microsoft.com/b8cfe0d1-013d-4706-bb76-6d426836ab6a">Video Media Types</a>.]
 
-
-          Initializes an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure for a standard video format such as DVD, analog television, or ATSC digital television.
+Initializes an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure for a standard video format such as DVD, analog television, or ATSC digital television.
 
 
 ## -parameters
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param pVideoFormat [out]
 
-
-            A pointer to an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure. The function fills in the structure members based on the video format specified in the type parameter.
+A pointer to an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure. The function fills in the structure members based on the video format specified in the type parameter.
           
 
 
 ### -param type [in]
 
-
-            The video format, specified as a member of the <a href="https://msdn.microsoft.com/559ea2e9-308b-428a-ae24-bf3fdc27e24e">MFStandardVideoFormat</a> enumeration.
+The video format, specified as a member of the <a href="https://msdn.microsoft.com/559ea2e9-308b-428a-ae24-bf3fdc27e24e">MFStandardVideoFormat</a> enumeration.
           
 
 
@@ -89,7 +86,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 #### Examples

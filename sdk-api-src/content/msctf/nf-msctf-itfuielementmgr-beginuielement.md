@@ -7,7 +7,7 @@ old-location: tsf\itfuielementmgr_beginuielement.htm
 old-project: TSF
 ms.assetid: 7c522920-8bd7-4385-b77d-34df26967179
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],BeginUIElement method, ITfUIElementMgr.BeginUIElement, ITfUIElementMgr::BeginUIElement, msctf/ITfUIElementMgr::BeginUIElement, tsf.itfuielementmgr_beginuielement
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfconvertfromfp16array.htm
 old-project: medfound
 ms.assetid: 5cc11d32-8dcd-491d-b3df-c0b061233038
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 5cc11d32-8dcd-491d-b3df-c0b061233038, MFConvertFromFP16Array, MFConvertFromFP16Array function [Media Foundation], mf.mfconvertfromfp16array, mfapi/MFConvertFromFP16Array
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Converts an array of 16-bit floating-point numbers into an array of 32-bit floating-point numbers.
+Converts an array of 16-bit floating-point numbers into an array of 32-bit floating-point numbers.
         
 
 
@@ -63,22 +62,19 @@ req.product: GDI+ 1.1
 
 ### -param pDest [in]
 
-
-            Pointer to an array of <b>float</b> values. The array must contain at least <i>dwCount</i> elements.
+Pointer to an array of <b>float</b> values. The array must contain at least <i>dwCount</i> elements.
           
 
 
 ### -param pSrc [in]
 
-
-            Pointer to an array of 16-bit floating-point values, typed as <b>WORD</b> values. The array must contain at least <i>dwCount</i> elements.
+Pointer to an array of 16-bit floating-point values, typed as <b>WORD</b> values. The array must contain at least <i>dwCount</i> elements.
           
 
 
 ### -param dwCount [in]
 
-
-            Number of elements in the <i>pSrc</i> array to convert.
+Number of elements in the <i>pSrc</i> array to convert.
           
 
 
@@ -95,11 +91,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        The function converts <i>dwCount</i> values in the <i>pSrc</i> array and writes them into the <i>pDest</i> array.
+The function converts <i>dwCount</i> values in the <i>pSrc</i> array and writes them into the <i>pDest</i> array.
       
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

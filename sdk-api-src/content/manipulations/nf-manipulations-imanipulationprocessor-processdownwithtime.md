@@ -7,7 +7,7 @@ old-location: wintouch\imanpiulationprocessor_processdownwithtime.htm
 old-project: wintouch
 ms.assetid: a76c9150-49b8-4a74-8ef0-bfa5ce9ec28a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 08/06/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDownWithTime method, IManipulationProcessor.ProcessDownWithTime, IManipulationProcessor::ProcessDownWithTime, ProcessDownWithTime, ProcessDownWithTime method [Windows Touch], ProcessDownWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDownWithTime, wintouch.imanpiulationprocessor_processdownwithtime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 
 
 
-
-    It is possible to receive touch events out of the order they were produced.  To fix this, 
+It is possible to receive touch events out of the order they were produced.  To fix this, 
     you should extract the timestamp from the <a href="https://msdn.microsoft.com/fc382759-3a1e-401e-a6a7-1bf209a5434b">TOUCHINPUT</a> structure when you process events.
 
 

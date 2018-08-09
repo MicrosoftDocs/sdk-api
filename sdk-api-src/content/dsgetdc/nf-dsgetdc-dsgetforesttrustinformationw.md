@@ -7,7 +7,7 @@ old-location: ad\dsgetforesttrustinformationw.htm
 old-project: ad
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ Contains a set of flags that modify the behavior of this function. This can be z
 #### DS_GFTI_UPDATE_TDO
 
 If this flag is set, <b>DsGetForestTrustInformationW</b> will update
-            the forest trust data of the trusted domain identified  by the <i>TrustedDomainName</i>
-            parameter. In this case, the <i>TrustedDomainName</i> parameter cannot be <b>NULL</b>.
+            the forest trust data of the trusted domain identified  by the <i>TrustedDomainName</i>parameter. In this case, the <i>TrustedDomainName</i> parameter cannot be <b>NULL</b>.
             The caller must have access to modify the trust data or
             <b>ERROR_ACCESS_DENIED</b> is returned.
 
@@ -83,8 +82,7 @@ This flag is only valid if <i>ServerName</i> specifies the primary domain contro
 ### -param ForestTrustInfo [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/9e456462-59a9-4f18-ba47-92fc2350889b">LSA_FOREST_TRUST_INFORMATION</a> structure pointer that receives the forest trust data that describes the namespaces claimed by the
-        domain specified by <i>TrustedDomainName</i>. The <b>Time</b>
-        member of all returned records will be zero.
+        domain specified by <i>TrustedDomainName</i>. The <b>Time</b>member of all returned records will be zero.
 
 The caller must free this structure when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
 

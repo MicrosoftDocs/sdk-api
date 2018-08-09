@@ -7,7 +7,7 @@ old-location: base\powerwritedcdefaultindex.htm
 old-project: power
 ms.assetid: 7a323376-f092-4c42-b7ee-d8b81771a365
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteDCDefaultIndex, PowerWriteDCDefaultIndex function, base.powerwritedcdefaultindex, powrprof/PowerWriteDCDefaultIndex
 ms.prod: windows
 ms.technology: windows-sdk

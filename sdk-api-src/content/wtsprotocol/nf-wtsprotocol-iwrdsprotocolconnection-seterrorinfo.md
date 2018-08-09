@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::SetErrorInfo
 author: windows-sdk-content
 description: Sets error information in the protocol.
 old-location: termserv\iwrdsprotocolconnection_seterrorinfo.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 114abaf1-fe67-4d80-ad5d-f49aac9dd587
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWRdsProtocolConnection.SetErrorInfo, IWRdsProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_seterrorinfo, wtsprotocol/IWRdsProtocolConnection::SetErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mftenum.htm
 old-project: medfound
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFTEnum, MFTEnum function [Media Foundation], a3bd2b3c-0b0b-4d64-99cc-6093c773f71c, mf.mftenum, mfapi/MFTEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Enumerates Media Foundation transforms (MFTs) in the registry.
+Enumerates Media Foundation transforms (MFTs) in the registry.
         
 
 Starting in Windows 7, applications should use the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> function instead.
@@ -65,15 +64,13 @@ Starting in Windows 7, applications should use the <a href="https://msdn.micros
 
 ### -param guidCategory [in]
 
-
-            GUID that specifies the category of MFTs to enumerate. For a list of MFT categories, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
+GUID that specifies the category of MFTs to enumerate. For a list of MFT categories, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
           
 
 
 ### -param Flags [in]
 
-
-            Reserved. Must be zero.
+Reserved. Must be zero.
           
 
 
@@ -94,8 +91,7 @@ This parameter can be <b>NULL</b>.
 
 ### -param pAttributes [in]
 
-
-            Reserved. Set to <b>NULL</b>.
+Reserved. Set to <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  Windows Vista and Windows Server 2008: This parameter can specify a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface of an attribute store. The <b>MFTEnum</b> function matches the attributes in this object against the attributes stored in the registry. (Registry attributes are specified in the <i>pAttributes</i> parameter of the <a href="https://msdn.microsoft.com/fb3a2b67-d3e4-4d5f-960a-3979f4780904">MFTRegister</a> function.) Only MFTs with matching attributes are returned in the enumeration results.</div>
 <div> </div>
@@ -104,15 +100,13 @@ This parameter can be <b>NULL</b>.
 
 ### -param ppclsidMFT [out]
 
-
-            Receives a pointer to an array of CLSIDs. To create an MFT from this list, call <b>CoCreateInstance</b> with one of the CLSIDs. To get information about a particular MFT from its CLSID, call <a href="https://msdn.microsoft.com/d1bac1c7-3f9b-46b7-bdf7-c32983c648ee">MFTGetInfo</a>. The caller must free the memory for the array by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to an array of CLSIDs. To create an MFT from this list, call <b>CoCreateInstance</b> with one of the CLSIDs. To get information about a particular MFT from its CLSID, call <a href="https://msdn.microsoft.com/d1bac1c7-3f9b-46b7-bdf7-c32983c648ee">MFTGetInfo</a>. The caller must free the memory for the array by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
           
 
 
 ### -param pcMFTs [out]
 
-
-            Receives the number of elements in the <i>ppclsidMFT</i> array. The value can be zero.
+Receives the number of elements in the <i>ppclsidMFT</i> array. The value can be zero.
           
 
 
@@ -129,20 +123,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        This function returns a list of all the MFTs in the specified category that match the search criteria given by the <i>pInputType</i>, <i>pOutputType</i>, and <i>pAttributes</i> parameters. Any of those parameters can be <b>NULL</b>.
+This function returns a list of all the MFTs in the specified category that match the search criteria given by the <i>pInputType</i>, <i>pOutputType</i>, and <i>pAttributes</i> parameters. Any of those parameters can be <b>NULL</b>.
       
 
-
-        If no MFTs match the criteria, the method succeeds but returns the value zero in <i>pcMFTs</i>.
+If no MFTs match the criteria, the method succeeds but returns the value zero in <i>pcMFTs</i>.
       
 
 
 #### Examples
 
-To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>
-or <b>MFT_CATEGORY_VIDEO_DECODER</b>
- and specify the encoding format in <i>pInputType</i>.  You would typically set <i>pOutputType</i> to <b>NULL</b> in this case.
+To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>or <b>MFT_CATEGORY_VIDEO_DECODER</b>and specify the encoding format in <i>pInputType</i>.  You would typically set <i>pOutputType</i> to <b>NULL</b> in this case.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -196,9 +186,7 @@ or <b>MFT_CATEGORY_VIDEO_DECODER</b>
 </td>
 </tr>
 </table></span></div>
-To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>
-or <b>MFT_CATEGORY_VIDEO_ENCODER</b>
- and specify the encoding format in <i>pOutputType</i>.  You would typically set <i>pInputType</i> to <b>NULL</b> in this case.
+To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>or <b>MFT_CATEGORY_VIDEO_ENCODER</b>and specify the encoding format in <i>pOutputType</i>.  You would typically set <i>pInputType</i> to <b>NULL</b> in this case.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

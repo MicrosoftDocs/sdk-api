@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
 old-project: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,7 @@ An Microsoft Active Accessibility server can add support for UI Automation by us
 
 This property provides a textual equivalent of the object for the user. The description should be similar to the text supplied with the ALT attribute in HTML, which is the text that is displayed to describe images for people using text-only browsers. However, some controls use this property to store extra information about the control that is not related to a textual equivalent. For more information about this property, see <a href="https://msdn.microsoft.com/1fe3221f-e1dd-44b2-b749-d00bee1b6b89">Description Property</a>.
 
-<b>Note to server developers:  </b>
-              Localize the string returned from this property.
+<b>Note to server developers:  </b>Localize the string returned from this property.
             
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>

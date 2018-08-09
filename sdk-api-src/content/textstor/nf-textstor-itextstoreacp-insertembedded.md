@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_insertembedded.htm
 old-project: TSF
 ms.assetid: 3d1612ee-1eb2-44c1-921e-a84af56a0790
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],InsertEmbedded method, ITextStoreACP.InsertEmbedded, ITextStoreACP::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_insertembedded_ref, textstor/ITextStoreACP::InsertEmbedded, tsf.itextstoreacp_insertembedded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Contains the ending character position where the object is inserted.
 
 ### -param pDataObject [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that contains data about the object inserted.
+Pointer to an <a href="_ole_idataobject">IDataObject</a> interface that contains data about the object inserted.
 
 
 ### -param pChange [out]
@@ -172,7 +172,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
@@ -180,8 +180,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/a455d712-42d5-472e-862d-85ae3ba9149f">
-        TS_IE_* Constants
+<a href="https://msdn.microsoft.com/a455d712-42d5-472e-862d-85ae3ba9149f">TS_IE_* Constants
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_move.htm
 old-project: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Move</b> method moves one or more objects from one location on the device to another.
+The <b>Move</b> method moves one or more objects from one location on the device to another.
       
 
 
@@ -64,22 +63,19 @@ req.product: ADAM
 
 ### -param pObjectIDs [in]
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to be moved.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to be moved.
           
 
 
 ### -param pszDestinationFolderObjectID [in]
 
-
-            Pointer to a null-terminated string that specifies the ID of the destination.
+Pointer to a null-terminated string that specifies the ID of the destination.
           
 
 
 ### -param ppResults [in, out]
 
-
-            Optional. On return, this parameter contains a collection of VT_ERROR values indicating the success or failure of the operation. The first element returned in <i>ppResults</i> corresponds to the first object in the <i>pObjectIDs</i> collection, the second element returned in <i>ppResults</i> corresponds to the second object in the <i>pObjectIDs</i> collection, and so on. This parameter can be <b>NULL</b> if the application is not concerned with the results.
+Optional. On return, this parameter contains a collection of VT_ERROR values indicating the success or failure of the operation. The first element returned in <i>ppResults</i> corresponds to the first object in the <i>pObjectIDs</i> collection, the second element returned in <i>ppResults</i> corresponds to the second object in the <i>pObjectIDs</i> collection, and so on. This parameter can be <b>NULL</b> if the application is not concerned with the results.
           
 
 
@@ -87,8 +83,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. If any error value is returned, no objects were deleted on the device.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. If any error value is returned, no objects were deleted on the device.
           
 
 <table>
@@ -150,8 +145,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-
-        If the specified device supports move operations on a functional storage, the <i>pszDestinationFolderObjectID</i> parameter may specify the identifier for a functional storage.
+If the specified device supports move operations on a functional storage, the <i>pszDestinationFolderObjectID</i> parameter may specify the identifier for a functional storage.
       
 
 
@@ -168,7 +162,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

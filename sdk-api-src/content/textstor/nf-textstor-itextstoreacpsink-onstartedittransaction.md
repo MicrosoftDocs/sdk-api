@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onstartedittransaction.htm
 old-project: TSF
 ms.assetid: 1d5452a1-b2f3-42d6-a32d-95965c2af8d3
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreACPSink.OnStartEditTransaction, ITextStoreACPSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstartedittransaction_ref, textstor/ITextStoreACPSink::OnStartEditTransaction, tsf.itextstoreacpsink_onstartedittransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ An edit transaction is a group of text changes that should be processed at one t
 
 
 
-<a href="https://msdn.microsoft.com/4d2819a2-c780-47bb-b3e5-0836b8b4c5dd">
-        ITextStoreACPSink::OnEndEditTransaction
+<a href="https://msdn.microsoft.com/4d2819a2-c780-47bb-b3e5-0836b8b4c5dd">ITextStoreACPSink::OnEndEditTransaction
       </a>
 
 

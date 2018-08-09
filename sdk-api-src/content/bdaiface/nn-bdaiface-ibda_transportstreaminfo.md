@@ -7,7 +7,7 @@ old-location: mstv\ibda_transportstreaminfo.htm
 old-project: mstv
 ms.assetid: c5f37790-f276-41a5-b5bd-7d8c7a7f587f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_TransportStreamInfo, IBDA_TransportStreamInfo interface [Microsoft TV Technologies], IBDA_TransportStreamInfo interface [Microsoft TV Technologies],described, IBDA_TransportStreamInfoInterface, bdaiface/IBDA_TransportStreamInfo, mstv.ibda_transportstreaminfo
 ms.prod: windows
 ms.technology: windows-sdk

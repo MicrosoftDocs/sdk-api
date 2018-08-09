@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10Device1, ID3D10Device1 interface [Direct3D 10], ID3D10Device1 interface [Direct3D 10],described, a168edcd-989a-13da-7972-09b5d5e9210a, d3d10_1/ID3D10Device1, direct3d10.id3d10device1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The device interface represents a virtual adapter for Direct3D 10.1; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device1</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device1</b> interface inherits from <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10Device1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb694547(v=VS.85).aspx">CreateBlendState1</a>
+<a href="https://msdn.microsoft.com/b1f013f6-ab97-4b87-84df-7391482535bd">CreateBlendState1</a>
 </td>
 <td align="left" width="63%">
 Create a blend-state object that encapsules blend state for the output-merger stage.
@@ -80,7 +80,7 @@ Create a blend-state object that encapsules blend state for the output-merger st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb694548(v=VS.85).aspx">CreateShaderResourceView1</a>
+<a href="https://msdn.microsoft.com/10a2ffe7-fb5b-4ba9-8b61-5a37b901b514">CreateShaderResourceView1</a>
 </td>
 <td align="left" width="63%">
 Create a shader-resource <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a> for accessing data in a resource.
@@ -89,7 +89,7 @@ Create a shader-resource <a href="https://msdn.microsoft.com/library/windows/har
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb694549(v=VS.85).aspx">GetFeatureLevel</a>
+<a href="https://msdn.microsoft.com/ecf697eb-06d7-488b-a59c-dfd3c2431353">GetFeatureLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the feature level of the hardware device.
@@ -103,7 +103,7 @@ Gets the feature level of the hardware device.
 
 
 
-A device is created using <a href="https://msdn.microsoft.com/library/Bb694526(v=VS.85).aspx">D3D10CreateDevice1</a>.
+A device is created using <a href="https://msdn.microsoft.com/6eed32f7-985e-4456-815e-d289acba7ae7">D3D10CreateDevice1</a>.
 
 This method requires Windows Vista Service Pack 1.
 
@@ -115,11 +115,11 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>
  
 
  

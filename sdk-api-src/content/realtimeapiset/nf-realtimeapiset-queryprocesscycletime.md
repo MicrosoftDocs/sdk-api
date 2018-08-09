@@ -7,7 +7,7 @@ old-location: base\queryprocesscycletime.htm
 old-project: procthread
 ms.assetid: 1859bc0f-8065-4104-b421-1b4c020ad5ea
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: QueryProcessCycleTime, QueryProcessCycleTime function, base.queryprocesscycletime, realtimeapiset/QueryProcessCycleTime, winbase/QueryProcessCycleTime
 ms.prod: windows
 ms.technology: windows-sdk

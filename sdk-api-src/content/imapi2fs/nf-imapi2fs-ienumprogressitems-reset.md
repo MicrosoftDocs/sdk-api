@@ -7,7 +7,7 @@ old-location: imapi\ienumprogressitems_reset.htm
 old-project: imapi
 ms.assetid: 9cb652f6-1507-46e3-ab44-582ce060a775
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Reset method, IEnumProgressItems.Reset, IEnumProgressItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_reset, imapi2fs/IEnumProgressItems::Reset
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_settopology.htm
 old-project: medfound
 ms.assetid: ea5313f0-b0fd-4945-97a2-b3f17937294f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],SetTopology method, IMFMediaSession.SetTopology, IMFMediaSession::SetTopology, SetTopology, SetTopology method [Media Foundation], SetTopology method [Media Foundation],IMFMediaSession interface, ea5313f0-b0fd-4945-97a2-b3f17937294f, mf.imfmediasession_settopology, mfidl/IMFMediaSession::SetTopology
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Sets a topology on the Media Session.
+Sets a topology on the Media Session.
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param dwSetTopologyFlags [in]
 
-
-            Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/2993bdf9-cf28-4e20-9f38-f51fb0f6429e">MFSESSION_SETTOPOLOGY_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/2993bdf9-cf28-4e20-9f38-f51fb0f6429e">MFSESSION_SETTOPOLOGY_FLAGS</a> enumeration.
           
 
 
 ### -param pTopology [in]
 
-
-            Pointer to the topology object's <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface.
+Pointer to the topology object's <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface.
           
 
 
@@ -80,8 +77,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -96,8 +92,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -109,8 +104,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The operation cannot be performed in the Media Session's current state.
+The operation cannot be performed in the Media Session's current state.
               
 
 </td>
@@ -122,8 +116,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The Media Session has been shut down.
+The Media Session has been shut down.
               
 
 </td>
@@ -160,8 +153,7 @@ The topology has invalid values for one or more of the following attributes:
 </dl>
 </td>
 <td width="60%">
-
-                Protected content cannot be played while debugging.
+Protected content cannot be played while debugging.
               
 
 </td>
@@ -176,8 +168,7 @@ The topology has invalid values for one or more of the following attributes:
 
 
 
-
-        If <i>pTopology</i> is a full topology, set the <b>MFSESSION_SETTOPOLOGY_NORESOLUTION</b> flag in the <i>dwSetTopologyFlags</i> parameter. Otherwise, the topology is assumed to be a partial topology. The Media Session uses the topology loader to resolve a partial topology into a full topology.
+If <i>pTopology</i> is a full topology, set the <b>MFSESSION_SETTOPOLOGY_NORESOLUTION</b> flag in the <i>dwSetTopologyFlags</i> parameter. Otherwise, the topology is assumed to be a partial topology. The Media Session uses the topology loader to resolve a partial topology into a full topology.
 
 If the Media Session is currently paused or stopped, the <b>SetTopology</b> method does not take effect until the next call to <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">IMFMediaSession::Start</a>.
 
@@ -188,8 +179,7 @@ If the Media Session is currently running, or on the next call to <a href="https
 <li>Otherwise, the Media Session queues <i>pTopology</i> and starts the new presentation when the current presentation has completed. If there is no current presentation, the new presentation starts immediately.</li>
 <li>Starting in Windows 7, you can also specify the <b>MFSESSION_SETTOPOLOGY_CLEAR_CURRENT</b>  flag to clear the current topology but leave any other pending topologies on the queue.</li>
 </ul>
-
-        This method is asynchronous. If the method returns S_OK, the Media Session sends an <a href="https://msdn.microsoft.com/22a298b7-d32b-44ed-b0a1-4e0398ecfe04">MESessionTopologySet</a> event when the operation completes.
+This method is asynchronous. If the method returns S_OK, the Media Session sends an <a href="https://msdn.microsoft.com/22a298b7-d32b-44ed-b0a1-4e0398ecfe04">MESessionTopologySet</a> event when the operation completes.
       If the Media Session is currently paused to stopped, the Media Session does not send the MESessionTopologySet event until the next call to <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">IMFMediaSession::Start</a>
 
 

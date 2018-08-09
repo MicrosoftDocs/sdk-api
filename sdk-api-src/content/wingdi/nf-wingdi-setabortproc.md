@@ -7,7 +7,7 @@ old-location: gdi\setabortproc.htm
 old-project: printdocs
 ms.assetid: 5b6333fc-f1c3-4c76-906c-0fd13bb73953
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetAbortProc, SetAbortProc function [Windows GDI], _win32_SetAbortProc, gdi.setabortproc, wingdi/SetAbortProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>SetAbortProc</b> function sets the application-defined abort function tha
 Handle to the device context for the print job.
 
 
-### -param proc
-
-TBD
-
-
-
-
-#### - lpAbortProc [in]
+### -param proc [in]
 
 Pointer to the application-defined abort function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/3728a491-28ff-49ec-9131-ed6238b2be3d">AbortProc</a> callback function.
 

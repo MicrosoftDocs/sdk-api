@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerclearconnection.htm
 old-project: eaphost
 ms.assetid: 1d997e4e-6e7f-47db-9957-9658e54c0bdf
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerClearConnection, EapHostPeerClearConnection function [EAPHost], eaphost.eaphostpeerclearconnection, eappapis/EapHostPeerClearConnection
 ms.prod: windows
 ms.technology: windows-sdk

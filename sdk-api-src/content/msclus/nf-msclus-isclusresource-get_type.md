@@ -7,7 +7,7 @@ old-location: mscs\clusresource_type.htm
 old-project: mscs
 ms.assetid: 1393df7b-7ec7-4034-8018-d7f5b7cef3e8
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource class [Failover Cluster],Type property, ClusResource.Type, ISClusResource.get_Type, ISClusResource::get_Type, Type property [Failover Cluster], Type property [Failover Cluster],ClusResource class, _wolf_clusresource.type, get_Type, mscs.clusresource_type
 ms.prod: windows
 ms.technology: windows-sdk

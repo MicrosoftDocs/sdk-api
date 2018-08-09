@@ -7,7 +7,7 @@ old-location: qos\idpe_attr.htm
 old-project: qos
 ms.assetid: 9169cb84-be1c-46f6-b6f8-5babfb4310f3
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPIDPE_ATTR, *LPIDPE_ATTR structure [QOS], IDPE_ATTR, IDPE_ATTR structure [QOS], PE_ATTRIB_TYPE_POLICY_LOCATOR, POLICY_LOCATOR_SUB_TYPE_ASCII_DN, POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC, _IDPE_ATTR, qos.idpe_attr, qospol/*LPIDPE_ATTR, qospol/IDPE_ATTR"
 ms.prod: windows
 ms.technology: windows-sdk

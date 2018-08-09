@@ -7,7 +7,7 @@ old-location: automat\lhashvalofname.htm
 old-project: automat
 ms.assetid: 7cd401dc-95d0-4628-88f9-d00969228ea8
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: LHashValOfName, LHashValOfName function [Automation], _oa96_LHashValOfName, automat.lhashvalofname, oleauto/LHashValOfName
 ms.prod: windows
 ms.technology: windows-sdk

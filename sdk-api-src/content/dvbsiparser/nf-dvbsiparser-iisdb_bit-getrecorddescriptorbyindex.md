@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: f3833ab6-39f8-499e-bd3f-f0f524a8b1d4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_BIT.GetRecordDescriptorByIndex, IISDB_BIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_BIT::GetRecordDescriptorByIndex, mstv.iisdb_bit_getrecorddescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Returns a descriptor for a specified record
+Returns a descriptor for a specified record
   in an Integrated Services Digital Broadcasting (ISDB) broadcaster
   information table
   (BIT).
@@ -65,8 +64,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/3f36c03a-462e-479a-ad8c-5322377dbca0">IISDB_BIT::GetCountOfRecords</a> method to get the number
   of records in the BIT.
 
@@ -74,8 +72,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwIndex [in]
 
-
-  Specifies which descriptor to retrieve, indexed from zero.
+Specifies which descriptor to retrieve, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/08df6f74-dbeb-4d32-8b0f-4ec88d35ff36">IISDB_BIT::GetRecordCountOfDescriptors</a> method
   to get the number of descriptors for a particular record.
 

@@ -7,7 +7,7 @@ old-location: security\gettrusteeform.htm
 old-project: secauthz
 ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA, GetTrusteeFormW, _win32_gettrusteeform, aclapi/GetTrusteeForm, aclapi/GetTrusteeFormA, aclapi/GetTrusteeFormW, security.gettrusteeform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ A pointer to a
 
 
 
-
-						The return value is one of the constants from the 
+The return value is one of the constants from the 
 <a href="https://msdn.microsoft.com/991ac6cb-3fc9-4915-b5c9-ae73efb25d68">TRUSTEE_FORM</a> enumeration.
 					
 
@@ -87,7 +86,7 @@ A pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagGetWindowTransform.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowtransform.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: MagGetWindowTransform, MagGetWindowTransform function [Magnification API], magapi.magapi_MagGetWindowTransform, magapi_MagGetWindowTransform, magnification/MagGetWindowTransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The magnification window.
 
 ### -param pTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms692385(v=VS.85).aspx">PMAGTRANSFORM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f07e64de-2fc8-4010-a5f1-b1ed29d06997">PMAGTRANSFORM</a></b>
 
 The transformation matrix.
 
@@ -98,7 +98,7 @@ The transformation matrix specifies the magnification factor that the magnifier 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a>
+<a href="https://msdn.microsoft.com/2005f7de-5275-457e-a89f-794de5c66f5a">MagSetWindowTransform</a>
  
 
  

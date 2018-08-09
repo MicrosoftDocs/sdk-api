@@ -7,7 +7,7 @@ old-location: gdi\removefontresourceex.htm
 old-project: gdi
 ms.assetid: 18056fe7-1efe-428e-a828-3217c53371eb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: RemoveFontResourceEx, RemoveFontResourceEx function [Windows GDI], RemoveFontResourceExA, RemoveFontResourceExW, _win32_RemoveFontResourceEx, gdi.removefontresourceex, wingdi/RemoveFontResourceEx, wingdi/RemoveFontResourceExA, wingdi/RemoveFontResourceExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ The <b>RemoveFontResourceEx</b> function removes the fonts in the specified file
 
 
 
-### -param name
+### -param name [in]
 
-TBD
+A pointer to a null-terminated string that names a font resource file.
 
 
 ### -param fl [in]
@@ -76,11 +76,6 @@ The characteristics of the font to be removed from the system. In order for the 
 ### -param pdv [in]
 
 Reserved. Must be zero.
-
-
-#### - lpFileName [in]
-
-A pointer to a null-terminated string that names a font resource file.
 
 
 ## -returns

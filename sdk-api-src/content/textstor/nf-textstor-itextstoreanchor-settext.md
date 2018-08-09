@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_settext.htm
 old-project: TSF
 ms.assetid: 03beac03-cd09-4e03-b700-d96741e4932b
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetText method, ITextStoreAnchor.SetText, ITextStoreAnchor::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetText, tsf.itextstoreanchor_settext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -201,8 +201,7 @@ This method will fail if the range of text replaced covers any region boundary. 
 
 
 
-<a href="https://msdn.microsoft.com/414842cc-7c3e-4f5c-93ac-3bd0eda5293e">
-        ITextStoreAnchor::InsertEmbedded
+<a href="https://msdn.microsoft.com/414842cc-7c3e-4f5c-93ac-3bd0eda5293e">ITextStoreAnchor::InsertEmbedded
       </a>
 
 
@@ -212,14 +211,12 @@ This method will fail if the range of text replaced covers any region boundary. 
 
 
 
-<a href="https://msdn.microsoft.com/4bdf12bc-c15e-4bdb-8bc0-53172e9c943e">
-        ITextStoreAnchorSink::OnTextChange
+<a href="https://msdn.microsoft.com/4bdf12bc-c15e-4bdb-8bc0-53172e9c943e">ITextStoreAnchorSink::OnTextChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">
-        Miscellaneous Text Store Constants
+<a href="https://msdn.microsoft.com/6e05ed74-fff3-4bc4-a21e-9af9492af23b">Miscellaneous Text Store Constants
       </a>
  
 

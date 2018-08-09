@@ -4,10 +4,10 @@ title: "_EVT_VARIANT_TYPE"
 author: windows-sdk-content
 description: Defines the possible data types of a variant data item.
 old-location: wes\evt_variant_type.htm
-old-project: WES
+old-project: wes
 ms.assetid: 13cf5e71-07bb-45ac-89f9-b76a26539dcd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EVT_VARIANT_TYPE, EvtVarTypeAnsiString, EvtVarTypeBinary, EvtVarTypeBoolean, EvtVarTypeByte, EvtVarTypeDouble, EvtVarTypeEvtHandle, EvtVarTypeEvtXml, EvtVarTypeFileTime, EvtVarTypeGuid, EvtVarTypeHexInt32, EvtVarTypeHexInt64, EvtVarTypeInt16, EvtVarTypeInt32, EvtVarTypeInt64, EvtVarTypeNull, EvtVarTypeSByte, EvtVarTypeSid, EvtVarTypeSingle, EvtVarTypeSizeT, EvtVarTypeString, EvtVarTypeSysTime, EvtVarTypeUInt16, EvtVarTypeUInt32, EvtVarTypeUInt64, _EVT_VARIANT_TYPE, _EVT_VARIANT_TYPE enumeration [EventLog], wes.evt_variant_type, winevt/EvtVarTypeAnsiString, winevt/EvtVarTypeBinary, winevt/EvtVarTypeBoolean, winevt/EvtVarTypeByte, winevt/EvtVarTypeDouble, winevt/EvtVarTypeEvtHandle, winevt/EvtVarTypeEvtXml, winevt/EvtVarTypeFileTime, winevt/EvtVarTypeGuid, winevt/EvtVarTypeHexInt32, winevt/EvtVarTypeHexInt64, winevt/EvtVarTypeInt16, winevt/EvtVarTypeInt32, winevt/EvtVarTypeInt64, winevt/EvtVarTypeNull, winevt/EvtVarTypeSByte, winevt/EvtVarTypeSid, winevt/EvtVarTypeSingle, winevt/EvtVarTypeSizeT, winevt/EvtVarTypeString, winevt/EvtVarTypeSysTime, winevt/EvtVarTypeUInt16, winevt/EvtVarTypeUInt32, winevt/EvtVarTypeUInt64, winevt/_EVT_VARIANT_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

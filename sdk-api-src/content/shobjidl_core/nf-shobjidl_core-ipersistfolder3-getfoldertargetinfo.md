@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder3_GetFolderTargetInfo.htm
 old-project: shell
 ms.assetid: 97a343af-0998-4718-8293-1eb4d2ac0c8a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: GetFolderTargetInfo, GetFolderTargetInfo method [Windows Shell], GetFolderTargetInfo method [Windows Shell],IPersistFolder3 interface, IPersistFolder3 interface [Windows Shell],GetFolderTargetInfo method, IPersistFolder3.GetFolderTargetInfo, IPersistFolder3::GetFolderTargetInfo, _win32_IPersistFolder3_GetFolderTargetInfo, shell.IPersistFolder3_GetFolderTargetInfo, shobjidl_core/IPersistFolder3::GetFolderTargetInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Provides the location and attributes of a folder shortcut's target folder.
 
 Type: <b><a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a>*</b>
 
-
-          A pointer to a <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a> structure used to return the target folder's location and attributes.
+A pointer to a <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a> structure used to return the target folder's location and attributes.
         
 
 
@@ -83,8 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        The <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a> structure might not be initialized by the caller. <b>GetFolderTargetInfo</b> must assign values to all members of the structure before returning it to the caller.
+The <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a> structure might not be initialized by the caller. <b>GetFolderTargetInfo</b> must assign values to all members of the structure before returning it to the caller.
       
 
 

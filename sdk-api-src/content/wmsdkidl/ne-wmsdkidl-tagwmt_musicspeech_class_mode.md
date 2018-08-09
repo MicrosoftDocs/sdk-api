@@ -7,7 +7,7 @@ old-location: wmformat\wmt_musicspeech_class_mode.htm
 old-project: wmformat
 ms.assetid: 9ca744a1-1d85-4609-8f5f-d074e46cef45
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WMT_MS_CLASS_MIXED, WMT_MS_CLASS_MUSIC, WMT_MS_CLASS_SPEECH, WMT_MUSICSPEECH_CLASS_MODE, WMT_MUSICSPEECH_CLASS_MODE enumeration [windows Media Format], tagWMT_MUSICSPEECH_CLASS_MODE, wmformat.wmt_musicspeech_class_mode, wmsdkidl/WMT_MS_CLASS_MIXED, wmsdkidl/WMT_MS_CLASS_MUSIC, wmsdkidl/WMT_MS_CLASS_SPEECH, wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
 ms.prod: windows
 ms.technology: windows-sdk

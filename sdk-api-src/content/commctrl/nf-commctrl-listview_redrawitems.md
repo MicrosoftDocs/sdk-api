@@ -7,7 +7,7 @@ old-location: controls\ListView_RedrawItems.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_redrawitems.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_RedrawItems, ListView_RedrawItems macro [Windows Controls], _win32_ListView_RedrawItems, _win32_ListView_RedrawItems_cpp, commctrl/ListView_RedrawItems, controls.ListView_RedrawItems, controls._win32_ListView_RedrawItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Forces a list-view control to redraw a range of items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761145(v=VS.85).aspx">LVM_REDRAWITEMS</a> message explicitly. 
+Forces a list-view control to redraw a range of items. You can use this macro or send the <a href="https://msdn.microsoft.com/a717b17f-6e0a-4804-96f9-da93392a19ec">LVM_REDRAWITEMS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Forces a list-view control to redraw a range of items. You can use this macro or
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param iFirst
@@ -75,13 +77,6 @@ The index of the first item to redraw.
 Type: <b>int</b>
 
 The index of the last item to redraw. 
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
 
 
 ## -remarks

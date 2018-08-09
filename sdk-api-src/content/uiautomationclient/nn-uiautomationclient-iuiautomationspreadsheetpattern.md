@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern.htm
 old-project: WinAuto
 ms.assetid: 049DC33E-48C3-43AB-A5B0-401CDBAE4873
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IUIAutomationSpreadsheetPattern, IUIAutomationSpreadsheetPattern interface [Windows Accessibility], IUIAutomationSpreadsheetPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSpreadsheetPattern, winauto.uiauto_IUIAutomationSpreadsheetPattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

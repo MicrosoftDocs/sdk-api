@@ -7,7 +7,7 @@ old-location: tsf\tfanchor.htm
 old-project: TSF
 ms.assetid: d670666f-2915-4a23-b825-b534a015e37f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_ANCHOR_END, TF_ANCHOR_START, TfAnchor, TfAnchor enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0000_0001, _tsf_tfanchor_ref, msctf/TF_ANCHOR_END, msctf/TF_ANCHOR_START, msctf/TfAnchor, tsf.tfanchor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ A range refers to a span of text in a document. Each range is delimited by a sta
 
 
 
-<a href="https://msdn.microsoft.com/055f3228-1e3b-4e31-9035-e509a98016a8">
-        TF_HALTCOND
+<a href="https://msdn.microsoft.com/055f3228-1e3b-4e31-9035-e509a98016a8">TF_HALTCOND
       </a>
  
 

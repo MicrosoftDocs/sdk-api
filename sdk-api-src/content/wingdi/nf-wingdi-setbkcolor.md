@@ -7,7 +7,7 @@ old-location: gdi\setbkcolor.htm
 old-project: gdi
 ms.assetid: 9163370b-19c5-4c23-9197-793e4b8d50c4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetBkColor, SetBkColor function [Windows GDI], _win32_SetBkColor, gdi.setbkcolor, wingdi/SetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>SetBkColor</b> function sets the current background color to the specifie
 A handle to the device context.
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
+### -param color [in]
 
 The new background color. To make a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
 
@@ -103,7 +96,7 @@ If the background mode is OPAQUE, the background color is used to fill gaps betw
 
 #### Examples
 
-For an example, see "Example of Owner-Drawn Menu Items" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Owner-Drawn Menu Items" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

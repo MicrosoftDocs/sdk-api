@@ -7,7 +7,7 @@ old-location: wer\werreporthang.htm
 old-project: wer
 ms.assetid: db147395-4d60-4d74-9331-18137bcfff8e
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], errorrep/WerReportHang, wer.werreporthang
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,24 +59,12 @@ Initiates "no response" reporting on the specified window.
 
 
 
-### -param hwndHungApp
-
-TBD
-
-
-### -param pwzHungApplicationName
-
-TBD
-
-
-
-
-#### - hwndHungWindow [in]
+### -param hwndHungApp [in]
 
 Handle to the window that is not responding.
 
 
-#### - wszHungApplicationName [in, optional]
+### -param pwzHungApplicationName [in, optional]
 
 The name of the not-responding application to be shown in the Hang Reporting UI. The name is limited to 128 characters including the <b>NULL</b> terminator. If <b>NULL</b>, WER tries to get the name from the target image resources. If it cannot get the name from the image, the image name will be used.
 
@@ -106,7 +94,7 @@ If you use this function, it is important that you adhere to the following requi
 <li>Ensure that child windows are created by a separate process. After no-response reporting has completed, it will terminate the process that created the window.</li>
 <li>Provide visual clues in the child window that it is not responding; no-response reporting will not dim the child window, it will only show the reporting dialog box.</li>
 <li>Confirm that the user wants to terminate the child window that is not responding before calling this function.</li>
-<li>To have the no-response reporting UI appear in front of the window that is not responding, the application should call the <a href="https://msdn.microsoft.com/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a> (passing ASFW_ANY for the process identifier) function from the top-level window's process.</li>
+<li>To have the no-response reporting UI appear in front of the window that is not responding, the application should call the <a href="_win32_allowsetforegroundwindow_cpp">AllowSetForegroundWindow</a> (passing ASFW_ANY for the process identifier) function from the top-level window's process.</li>
 </ul>
 
 

@@ -7,7 +7,7 @@ old-location: mf\mfgetplanesize.htm
 old-project: medfound
 ms.assetid: 53ce83f3-b06e-4c91-a3e2-6369963e7810
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 53ce83f3-b06e-4c91-a3e2-6369963e7810, MFGetPlaneSize, MFGetPlaneSize function [Media Foundation], mf.mfgetplanesize, mfapi/MFGetPlaneSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -116,8 +115,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 
 
 
-
-        This function is equivalent to the <a href="https://msdn.microsoft.com/039ee3cd-2221-4405-ba7f-233a93a0271b">MFCalculateImageSize</a> function.
+This function is equivalent to the <a href="https://msdn.microsoft.com/039ee3cd-2221-4405-ba7f-233a93a0271b">MFCalculateImageSize</a> function.
       
 
 <div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll.</div>

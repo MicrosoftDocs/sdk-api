@@ -7,7 +7,7 @@ old-location: gdi\settextcolor.htm
 old-project: gdi
 ms.assetid: 3875a247-7c32-4917-bf6d-50b2a49848a6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetTextColor, SetTextColor function [Windows GDI], _win32_SetTextColor, gdi.settextcolor, wingdi/SetTextColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,7 @@ The <b>SetTextColor</b> function sets the text color for the specified device co
 A handle to the device context.
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - crColor [in]
+### -param color [in]
 
 The color of the text.
 
@@ -101,7 +94,7 @@ The text color is used to draw the face of each character written by the <a href
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

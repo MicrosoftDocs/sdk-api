@@ -7,7 +7,7 @@ old-location: rpc\rpcstringbindingcompose.htm
 old-project: rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Pointer to a <b>null</b>-terminated string representation of a network address. 
 
 ### -param Endpoint
 
-TBD
+Pointer to a <b>null</b>-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <b>ncacn_np</b> is a pipe name in the format \pipe\pipename. See Note.
 
 
 ### -param Options
@@ -102,11 +102,6 @@ Specify a <b>NULL</b> value to prevent
 <div class="alert"><b>Note</b>  For more information, see 
 <a href="https://msdn.microsoft.com/5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305">String Binding</a>.</div>
 <div> </div>
-
-#### - EndPoint
-
-Pointer to a <b>null</b>-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <b>ncacn_np</b> is a pipe name in the format \pipe\pipename. See Note.
-
 
 ## -returns
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_all_options.htm
 old-project: dhcp
 ms.assetid: b02e3582-c99b-4d5a-aaae-c2fefd7dfaf9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS structure [DHCP], LPDHCP_ALL_OPTIONS, LPDHCP_ALL_OPTIONS structure pointer [DHCP], _DHCP_ALL_OPTIONS, dhcp.dhcp_all_options, dhcpsapi/LPDHCP_ALL_OPTIONS, dhcpsapi/_DHCP_ALL_OPTIONS"
 ms.prod: windows
 ms.technology: windows-sdk

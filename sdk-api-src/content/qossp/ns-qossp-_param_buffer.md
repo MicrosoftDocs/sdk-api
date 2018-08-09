@@ -7,7 +7,7 @@ old-location: qos\param_buffer.htm
 old-project: qos
 ms.assetid: b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PARAM_BUFFER structure [QOS], _PARAM_BUFFER, qos.param_buffer, qossp/*LPPARAM_BUFFER, qossp/PARAM_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

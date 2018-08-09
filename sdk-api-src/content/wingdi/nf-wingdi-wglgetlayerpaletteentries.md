@@ -7,7 +7,7 @@ old-location: opengl\wglgetlayerpaletteentries.htm
 old-project: OpenGL
 ms.assetid: 9f2d6f59-f1c6-44a5-8741-1ea4d84f5b2c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, wglGetLayerPaletteEntries, wglGetLayerPaletteEntries function [OpenGL], wingdi/wglGetLayerPaletteEntries"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,18 +66,6 @@ TBD
 
 
 
-#### - cEntries
-
-Type: <b>int</b>
-
-The number of palette entries to be retrieved.
-
-
-#### - hdc
-
-Type: <b>HDC</b>
-
-The device context of a window whose layer planes are to be described.
 
 
 #### - iLayerPlane
@@ -92,6 +80,13 @@ The overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify ov
 Type: <b>int</b>
 
 The first palette entry to be retrieved.
+
+
+#### - cEntries
+
+Type: <b>int</b>
+
+The number of palette entries to be retrieved.
 
 
 #### - pcr

@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver_endcreateobjectfromurl.htm
 old-project: medfound
 ms.assetid: af50a76d-b083-4815-bbff-820b21ff8d1b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: EndCreateObjectFromURL, EndCreateObjectFromURL method [Media Foundation], EndCreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],EndCreateObjectFromURL method, IMFSourceResolver.EndCreateObjectFromURL, IMFSourceResolver::EndCreateObjectFromURL, af50a76d-b083-4815-bbff-820b21ff8d1b, mf.imfsourceresolver_endcreateobjectfromurl, mfidl/IMFSourceResolver::EndCreateObjectFromURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Completes an asynchronous request to create an object from a URL.
+Completes an asynchronous request to create an object from a URL.
         
 
 
@@ -64,22 +63,19 @@ req.product: GDI+ 1.1
 
 ### -param pResult [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method.
+Pointer to the <a href="https://msdn.microsoft.com/8c95b1de-8974-445c-8070-41552ea83e53">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method.
           
 
 
 ### -param pObjectType [out]
 
-
-            Receives a member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e7e4fe54a">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
+Receives a member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e7e4fe54a">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
           
 
 
 ### -param ppObject [out]
 
-
-            Receives a pointer to the media source's <b>IUnknown</b> interface. The caller must release the interface.
+Receives a pointer to the media source's <b>IUnknown</b> interface. The caller must release the interface.
           
 
 
@@ -87,8 +83,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -103,8 +98,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +110,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The operation was canceled.
+The operation was canceled.
               
 
 </td>

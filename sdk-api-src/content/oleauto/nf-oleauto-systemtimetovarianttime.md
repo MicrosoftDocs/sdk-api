@@ -7,7 +7,7 @@ old-location: automat\systemtimetovarianttime.htm
 old-project: automat
 ms.assetid: d9d69521-9b33-4fc5-8a1c-929f216db450
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SystemTimeToVariantTime, SystemTimeToVariantTime function [Automation], _oa96_SystemTimeToVariantTime, automat.systemtimetovarianttime, oleauto/SystemTimeToVariantTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusrespossibleownernodes_additem.htm
 old-project: mscs
 ms.assetid: 35d5eda5-09b6-4379-847a-dbb35f59f565
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusResPossibleOwnerNodes class, ClusResPossibleOwnerNodes class [Failover Cluster],AddItem method, ClusResPossibleOwnerNodes.AddItem, ISClusResPossibleOwnerNodes.AddItem, ISClusResPossibleOwnerNodes::AddItem, _wolf_clusrespossibleownernodes.additem, mscs.clusrespossibleownernodes_additem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,9 +56,8 @@ req.product: GDI+ 1.1
     method is available for use in the operating systems specified in the Requirements section. It may be altered or 
     unavailable in subsequent versions.]
 
-
-    Adds a node to a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a>
-<a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">possible owners</a> list.
+Adds a node to a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a>
+<a href="p_gly.htm">possible owners</a> list.
 
 
 ## -parameters

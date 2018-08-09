@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2masteringvoice_interface_getchannelmask.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice.GetChannelMask(DWORD@)
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: GetChannelMask, GetChannelMask method [XAudio2 Audio Mixing APIs], GetChannelMask method [XAudio2 Audio Mixing APIs],IXAudio2MasteringVoice interface, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],GetChannelMask method, IXAudio2MasteringVoice.GetChannelMask, IXAudio2MasteringVoice::GetChannelMask, xaudio2.ixaudio2masteringvoice_interface_getchannelmask, xaudio2/IXAudio2MasteringVoice::GetChannelMask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ This method does not return a value.
 
 
 
-The <i>pChannelMask</i> argument is a bit-mask of the various channels in the speaker geometry reported by the audio system. This information is needed for the <a href="https://msdn.microsoft.com/en-us/library/Ee419053(v=VS.85).aspx">X3DAudioInitialize</a> <i>SpeakerChannelMask</i> parameter.
+The <i>pChannelMask</i> argument is a bit-mask of the various channels in the speaker geometry reported by the audio system. This information is needed for the <a href="https://msdn.microsoft.com/20f3d374-60bd-4a8c-8bd2-32e3be729779">X3DAudioInitialize</a> <i>SpeakerChannelMask</i> parameter.
 
 
 
@@ -126,7 +126,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415912(v=VS.85).aspx">IXAudio2MasteringVoice</a>
+<a href="https://msdn.microsoft.com/96D8A15E-5090-4D67-982D-ACE99CEC4379">IXAudio2MasteringVoice</a>
  
 
  

@@ -4,10 +4,10 @@ title: WinHttpSetOption function
 author: windows-sdk-content
 description: The WinHttpSetOption function sets an Internet option.
 old-location: http\winhttpsetoption.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: bcf1da09-5787-4d2a-82ae-6965e27fa477
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption
 ms.prod: windows
 ms.technology: windows-sdk

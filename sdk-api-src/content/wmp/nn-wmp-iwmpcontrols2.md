@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols2.htm
 old-project: WMP
 ms.assetid: aadbd924-b583-4136-8d6c-e3c8c0b3872e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], IWMPControls2 interface [Windows Media Player],described, IWMPControls2Interface, wmp.iwmpcontrols2, wmp/IWMPControls2
 ms.prod: windows
 ms.technology: windows-sdk

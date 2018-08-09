@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify.htm
 old-project: DirectShow
 ms.assetid: c590c4cb-43ba-41c2-ab1f-28f7aeee0c87
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow],described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
 ms.prod: windows
 ms.technology: windows-sdk

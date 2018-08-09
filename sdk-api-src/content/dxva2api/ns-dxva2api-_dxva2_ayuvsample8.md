@@ -7,7 +7,7 @@ old-location: mf\dxva2_ayuvsample8.htm
 old-project: medfound
 ms.assetid: 4d296764-a00a-407d-a963-62c138976ccc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 4d296764-a00a-407d-a963-62c138976ccc, DXVA2_AYUVSample8, DXVA2_AYUVSample8 structure [Media Foundation], _DXVA2_AYUVSample8, dxva2api/DXVA2_AYUVSample8, mf.dxva2_ayuvsample8
 ms.prod: windows
 ms.technology: windows-sdk

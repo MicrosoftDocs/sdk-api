@@ -7,7 +7,7 @@ old-location: setup\setupqueuecopysection.htm
 old-project: SetupApi
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupQueueCopySection, SetupQueueCopySection function [Setup API], SetupQueueCopySectionA, SetupQueueCopySectionW, _setupapi_setupqueuecopysection, setup.setupqueuecopysection, setupapi/SetupQueueCopySection, setupapi/SetupQueueCopySectionA, setupapi/SetupQueueCopySectionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
@@ -202,34 +202,9 @@ If the user tries to skip a file, warn them that skipping a file may affect the 
 Delete the source file upon successful copy. The caller is not notified if the delete fails.
 
 
-##### - CopyStyle.SP_COPY_FORCE_IN_USE
+##### - CopyStyle.SP_COPY_REPLACEONLY
 
-If the target exists, behave as if it is in use and queue the file for copying on the next system reboot.
-
-
-##### - CopyStyle.SP_COPY_FORCE_NEWER
-
-Examine each file being copied to see if its version resources (or time stamps for non-image files) indicate that it is not newer than an existing copy on the target. If the file being copied is not newer, the file is not copied. The caller is not notified.
-
-
-##### - CopyStyle.SP_COPY_FORCE_NOOVERWRITE
-
-Check whether the target file exists, and, if so, the file is not overwritten. The caller is not notified.
-
-
-##### - CopyStyle.SP_COPY_IN_USE_NEEDS_REBOOT
-
-If the file was in use during the copy operation, alert the user that the system needs to be rebooted.
-
-
-##### - CopyStyle.SP_COPY_LANGUAGEAWARE
-
-Examine each file being copied to see if its language differs from the language of any existing file already on the target. If so, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
-
-
-##### - CopyStyle.SP_COPY_NEWER_ONLY
-
-Examine each file being copied to see if its version resources indicate that it is not newer than an existing copy on the target. If the source file is newer but not equal in version to the existing target, the file is copied.
+Copy the file only if doing so would overwrite a file at the destination path.
 
 
 ##### - CopyStyle.SP_COPY_NEWER_OR_SAME
@@ -240,14 +215,14 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
 
-##### - CopyStyle.SP_COPY_NODECOMP
+##### - CopyStyle.SP_COPY_NEWER_ONLY
 
-Do not decompress the file. When this flag is set, the target file is not given the uncompressed form of the source name (if appropriate). For example, copying f:\x86s\cmd.ex_ to \\install\temp results in a target file of \\install\temp\cmd.ex_. If the SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called \\install\temp\cmd.exe. The filename part of <i>DestinationName</i>, if specified, is stripped and replaced with the filename of the source file. When SP_COPY_NODECOMP is specified, no language or version information can be checked.
+Examine each file being copied to see if its version resources indicate that it is not newer than an existing copy on the target. If the source file is newer but not equal in version to the existing target, the file is copied.
 
 
 ##### - CopyStyle.SP_COPY_NOOVERWRITE
@@ -255,14 +230,19 @@ Do not decompress the file. When this flag is set, the target file is not given 
 Check whether the target file exists, and, if so, notify the caller who may veto the copy. If <i>CopyMsgHandler</i> is not specified, the file is not overwritten.
 
 
-##### - CopyStyle.SP_COPY_NOSKIP
+##### - CopyStyle.SP_COPY_NODECOMP
 
-Do not give the user the option to skip a file.
+Do not decompress the file. When this flag is set, the target file is not given the uncompressed form of the source name (if appropriate). For example, copying f:\x86s\cmd.ex_ to \\install\temp results in a target file of \\install\temp\cmd.ex_. If the SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called \\install\temp\cmd.exe. The filename part of <i>DestinationName</i>, if specified, is stripped and replaced with the filename of the source file. When SP_COPY_NODECOMP is specified, no language or version information can be checked.
 
 
-##### - CopyStyle.SP_COPY_REPLACEONLY
+##### - CopyStyle.SP_COPY_LANGUAGEAWARE
 
-Copy the file only if doing so would overwrite a file at the destination path.
+Examine each file being copied to see if its language differs from the language of any existing file already on the target. If so, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
+
+
+##### - CopyStyle.SP_COPY_SOURCE_ABSOLUTE
+
+<i>SourceFile</i> is a full source path. Do not look it up in the <b>SourceDisksNames</b> section of the INF file.
 
 
 ##### - CopyStyle.SP_COPY_SOURCEPATH_ABSOLUTE
@@ -270,9 +250,29 @@ Copy the file only if doing so would overwrite a file at the destination path.
 <i>SourcePathRoot</i> is the full path part of the source file. Ignore the relative source specified in the <b>SourceDisksNames</b> section of the INF file for the source media where the file is located. This flag is ignored if SP_COPY_SOURCE_ABSOLUTE is specified.
 
 
-##### - CopyStyle.SP_COPY_SOURCE_ABSOLUTE
+##### - CopyStyle.SP_COPY_FORCE_IN_USE
 
-<i>SourceFile</i> is a full source path. Do not look it up in the <b>SourceDisksNames</b> section of the INF file.
+If the target exists, behave as if it is in use and queue the file for copying on the next system reboot.
+
+
+##### - CopyStyle.SP_COPY_IN_USE_NEEDS_REBOOT
+
+If the file was in use during the copy operation, alert the user that the system needs to be rebooted.
+
+
+##### - CopyStyle.SP_COPY_NOSKIP
+
+Do not give the user the option to skip a file.
+
+
+##### - CopyStyle.SP_COPY_FORCE_NOOVERWRITE
+
+Check whether the target file exists, and, if so, the file is not overwritten. The caller is not notified.
+
+
+##### - CopyStyle.SP_COPY_FORCE_NEWER
+
+Examine each file being copied to see if its version resources (or time stamps for non-image files) indicate that it is not newer than an existing copy on the target. If the file being copied is not newer, the file is not copied. The caller is not notified.
 
 
 ##### - CopyStyle.SP_COPY_WARNIFSKIP

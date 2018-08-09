@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.ht
 old-project: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordLogicalChannelNumber, GetRecordLogicalChannelNumber method [DirectShow], GetRecordLogicalChannelNumber method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordLogicalChannelNumber method, IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,15 +69,13 @@ The <b>GetRecordLogicalChannelNumber</b> method returns the logical channel numb
 
 ### -param bRecordIndex [in]
 
-
-            Zero-based index of the logical channel number to return. To get the number of logical channel numbers in the descriptor, call <a href="https://msdn.microsoft.com/97cadf6c-2549-4a7f-9ecb-c16298769a21">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
+Zero-based index of the logical channel number to return. To get the number of logical channel numbers in the descriptor, call <a href="https://msdn.microsoft.com/97cadf6c-2549-4a7f-9ecb-c16298769a21">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
           
 
 
 ### -param pwVal [out]
 
-
-            Receives the logical_channel_number field.
+Receives the logical_channel_number field.
           
 
 

@@ -4,10 +4,10 @@ title: "_WSMAN_DATA_BINARY"
 author: windows-sdk-content
 description: Holds binary data for use with various Windows Remote Management functions.
 old-location: winrm\wsman_data_binary.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 35beedc3-30c6-4e04-bc27-bb9eb21256fe
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], _WSMAN_DATA_BINARY, winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
 ms.prod: windows
 ms.technology: windows-sdk

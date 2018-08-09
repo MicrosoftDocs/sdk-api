@@ -7,7 +7,7 @@ old-location: intl\immgetconversionstatus.htm
 old-project: Intl
 ms.assetid: 64220427-e352-4445-9476-35e6246e59cd
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetConversionStatus, ImmGetConversionStatus function [Internationalization for Windows Applications], _win32_ImmGetConversionStatus, imm/ImmGetConversionStatus, intl.immgetconversionstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Retrieves the current conversion status.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context for which to retrieve status information.
 
 
 ### -param lpfdwConversion [out, optional]
@@ -74,11 +74,6 @@ Pointer to a variable in which the function retrieves a combination of conversio
 ### -param lpfdwSentence [out, optional]
 
 Pointer to a variable in which the function retrieves a sentence mode value. For more information, see <a href="https://msdn.microsoft.com/24b12936-7dfc-4c8d-970c-d8354ad46d1d">IME Sentence Mode Values</a>.
-
-
-#### - hIMC [in]
-
-Handle to the input context for which to retrieve status information.
 
 
 ## -returns

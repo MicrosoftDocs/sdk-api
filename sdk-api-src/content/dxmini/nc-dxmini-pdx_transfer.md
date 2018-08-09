@@ -7,7 +7,7 @@ old-location: display\dxtransfer.htm
 old-project: display
 ms.assetid: 62e1a5f6-9777-4acf-a531-b3554eaf89a6
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxTransfer, DxTransfer callback function [Display Devices], PDX_TRANSFER, PDX_TRANSFER callback, VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml, display.dxtransfer, dxmini/DxTransfer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax

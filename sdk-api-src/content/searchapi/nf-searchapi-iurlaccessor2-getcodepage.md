@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor2_GetCodePage.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getcodepage.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetCodePage, GetCodePage method [search], GetCodePage method [search],IUrlAccessor2 interface, GetCodePage method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetCodePage method, IUrlAccessor2.GetCodePage, IUrlAccessor2::GetCodePage, IUrlAccessor4 interface [search],GetCodePage method, IUrlAccessor4::GetCodePage, _search_IUrlAccessor2_GetCodePage, search._search_IUrlAccessor2_GetCodePage, searchapi/IUrlAccessor2::GetCodePage, searchapi/IUrlAccessor4::GetCodePage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Gets the code page for properties of the URL item.
+Gets the code page for properties of the URL item.
         
 
 
@@ -66,8 +65,7 @@ req.product: ADAM
 
 Type: <b>WCHAR[]</b>
 
-
-                    Receives the code page as a null-terminated Unicode string.
+Receives the code page as a null-terminated Unicode string.
                 
 
 
@@ -75,8 +73,7 @@ Type: <b>WCHAR[]</b>
 
 Type: <b>DWORD</b>
 
-
-                    Size of <i>wszCodePage</i> 
+Size of <i>wszCodePage</i> 
                     in <b>TCHAR</b><b>s</b>.             
                 
 
@@ -85,8 +82,7 @@ Type: <b>DWORD</b>
 
 Type: <b>DWORD*</b>
 
-
-                Receives a pointer to the number of
+Receives a pointer to the number of
                 <b>TCHAR</b><b>s</b> written to
                <i>wszCodePage</i>, not including the terminating <b>NULL</b> character. 
                 

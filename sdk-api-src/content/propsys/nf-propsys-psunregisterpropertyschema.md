@@ -7,7 +7,7 @@ old-location: properties\PSUnregisterPropertySchema.htm
 old-project: properties
 ms.assetid: 57df82a9-8954-4c2b-b794-82ac542149e2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSUnregisterPropertySchema, PSUnregisterPropertySchema function [Windows Properties], properties.PSUnregisterPropertySchema, propsys/PSUnregisterPropertySchema, shell.PSUnregisterPropertySchema, shell_PSUnregisterPropertySchema
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ This function fails with a code of E_ACCESSDENIED if the calling context does no
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762087(v=VS.85).aspx">PSRegisterPropertySchema</a>
+<a href="shell.PSRegisterPropertySchema">PSRegisterPropertySchema</a>
  
 
  

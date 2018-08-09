@@ -7,7 +7,7 @@ old-location: winprog\unsignedmulitplyhigh.htm
 old-project: winprog
 ms.assetid: 2275A6AC-E9F9-4469-884B-38D86B53E0DE
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: UnsignedMulitplyHigh, UnsignedMultiplyHigh, UnsignedMultiplyHigh function [Windows API], winnt/UnsignedMultiplyHigh, winprog.unsignedmulitplyhigh
 ms.prod: windows
 ms.technology: windows-sdk

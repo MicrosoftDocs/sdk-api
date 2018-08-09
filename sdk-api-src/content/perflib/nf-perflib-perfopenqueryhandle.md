@@ -4,10 +4,10 @@ title: PerfOpenQueryHandle function
 author: windows-sdk-content
 description: Creates a handle that references a query on the specified system. A query is a list of counter specifications.
 old-location: perf\perfopenqueryhandle.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 5105F617-9443-451D-B802-C6A241769E65
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perfopenqueryhandle, perflib/PerfOpenQueryHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,7 @@ list of counter specifications.
 The name of the machine for which you want to get the query handle.
 
 
-### -param phQuery
-
-TBD
-
-
-
-
-#### - hQuery [out]
+### -param phQuery [out]
 
 The handle to the query. Call <a href="https://msdn.microsoft.com/94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0">PerfCloseQueryHandle</a> to close ths handle when you no longer need it.
 
@@ -81,8 +74,7 @@ The handle to the query. Call <a href="https://msdn.microsoft.com/94D08CF1-D47C-
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

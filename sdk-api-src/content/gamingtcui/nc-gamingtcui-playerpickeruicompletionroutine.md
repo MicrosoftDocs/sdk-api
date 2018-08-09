@@ -7,7 +7,7 @@ old-location: tcui\playerpickeruicompletionroutine.htm
 old-project: tcui
 ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
 ms.author: windowssdkdev
-ms.date: 03/20/2018
+ms.date: 08/06/2018
 ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
 ms.prod: windows
 ms.technology: windows-sdk

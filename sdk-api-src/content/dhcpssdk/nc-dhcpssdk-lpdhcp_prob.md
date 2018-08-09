@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddressdelhook.htm
 old-project: dhcp
 ms.assetid: fd9ce5df-927d-4b34-9561-ff5a2ebad16e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpAddressDelHook, DhcpAddressDelHook callback function [DHCP], LPDHCP_PROB, LPDHCP_PROB callback, _dhcp_dhcpaddressdelhook, dhcp.dhcpaddressdelhook, dhcpssdk/DhcpAddressDelHook
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\setbitmapdimensionex.htm
 old-project: gdi
 ms.assetid: 23960533-de71-4bff-a43f-75e5fe38fbec
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetBitmapDimensionEx, SetBitmapDimensionEx function [Windows GDI], _win32_SetBitmapDimensionEx, gdi.setbitmapdimensionex, wingdi/SetBitmapDimensionEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,46 +61,24 @@ The <b>SetBitmapDimensionEx</b> function assigns preferred dimensions to a bitma
 
 
 
-### -param hbm
-
-TBD
-
-
-### -param w
-
-TBD
-
-
-### -param h
-
-TBD
-
-
-### -param lpsz
-
-TBD
-
-
-
-
-#### - hBitmap [in]
+### -param hbm [in]
 
 A handle to the bitmap. The bitmap cannot be a DIB-section bitmap.
 
 
-#### - lpSize [out]
+### -param w [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure to receive the previous dimensions of the bitmap. This pointer can be <b>NULL</b>.
+The width, in 0.1-millimeter units, of the bitmap.
 
 
-#### - nHeight [in]
+### -param h [in]
 
 The height, in 0.1-millimeter units, of the bitmap.
 
 
-#### - nWidth [in]
+### -param lpsz [out]
 
-The width, in 0.1-millimeter units, of the bitmap.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure to receive the previous dimensions of the bitmap. This pointer can be <b>NULL</b>.
 
 
 ## -returns

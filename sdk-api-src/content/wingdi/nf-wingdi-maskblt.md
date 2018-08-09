@@ -7,7 +7,7 @@ old-location: gdi\maskblt.htm
 old-project: gdi
 ms.assetid: 9fd6f0ce-a802-428d-9be5-a66afe39e9b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MaskBlt, MaskBlt function [Windows GDI], _win32_MaskBlt, gdi.maskblt, wingdi/MaskBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,24 +66,24 @@ The <b>MaskBlt</b> function combines the color data for the source and destinati
 A handle to the destination device context.
 
 
-### -param xDest
+### -param xDest [in]
 
-TBD
-
-
-### -param yDest
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param width
+### -param yDest [in]
 
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
 
-### -param height
+### -param width [in]
 
-TBD
+The width, in logical units, of the destination rectangle and source bitmap.
+
+
+### -param height [in]
+
+The height, in logical units, of the destination rectangle and source bitmap.
 
 
 ### -param hdcSrc [in]
@@ -91,14 +91,14 @@ TBD
 A handle to the device context from which the bitmap is to be copied. It must be zero if the <i>dwRop</i> parameter specifies a raster operation that does not include a source.
 
 
-### -param xSrc
+### -param xSrc [in]
 
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the source bitmap.
 
 
-### -param ySrc
+### -param ySrc [in]
 
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the source bitmap.
 
 
 ### -param hbmMask [in]
@@ -116,50 +116,13 @@ The horizontal pixel offset for the mask bitmap specified by the <i>hbmMask</i> 
 The vertical pixel offset for the mask bitmap specified by the <i>hbmMask</i> parameter.
 
 
-### -param rop
-
-TBD
-
-
-
-
-#### - dwRop [in]
+### -param rop [in]
 
 The foreground and background ternary raster operation codes (ROPs) that the function uses to control the combination of source and destination data. The background raster operation code is stored in the high-order byte of the high-order word of this value; the foreground raster operation code is stored in the low-order byte of the high-order word of this value; the low-order word of this value is ignored, and should be zero. The macro <a href="https://msdn.microsoft.com/9056df62-a636-49c7-9c86-aecc731e8c4f">MAKEROP4</a> creates such combinations of foreground and background raster operation codes.
 
 For a discussion of foreground and background in the context of this function, see the following Remarks section.
 
 For a list of common raster operation codes (ROPs), see the <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a> function. Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
-
-
-#### - nHeight [in]
-
-The height, in logical units, of the destination rectangle and source bitmap.
-
-
-#### - nWidth [in]
-
-The width, in logical units, of the destination rectangle and source bitmap.
-
-
-#### - nXDest [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - nXSrc [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the source bitmap.
-
-
-#### - nYDest [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
-
-#### - nYSrc [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the source bitmap.
 
 
 ## -returns

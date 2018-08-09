@@ -7,7 +7,7 @@ old-location: shell\UrlEscape.htm
 old-project: shell
 ms.assetid: 52ee1501-2cd4-4193-8363-0af91673ec88
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_COMPONENT, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SEGMENT_ONLY, URL_ESCAPE_SPACES_ONLY, UrlEscape, UrlEscape function [Windows Shell], UrlEscapeA, UrlEscapeW, _win32_UrlEscape, shell.UrlEscape, shlwapi/UrlEscape, shlwapi/UrlEscapeA, shlwapi/UrlEscapeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,11 @@ Converts characters or surrogate pairs in a URL that might be altered during tra
 
 
 
-### -param pszUrl
+### -param pszUrl [in]
 
-TBD
+Type: <b>PCTSTR</b>
+
+A null-terminated string of maximum length <b>INTERNET_MAX_URL_LENGTH</b> that contains a full or partial URL, as appropriate for the value in <i>dwFlags</i>.
 
 
 ### -param pszEscaped [out]
@@ -155,24 +157,25 @@ This flag cannot be combined with <b>URL_ESCAPE_SPACES_ONLY</b> or <b>URL_DONT_E
 <b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
 
 
-##### - dwFlags.URL_BROWSER_MODE
-
-Defined to be the same as <b>URL_DONT_ESCAPE_EXTRA_INFO</b>.
-
-
 ##### - dwFlags.URL_DONT_ESCAPE_EXTRA_INFO (0x02000000)
 
 Used only in conjunction with <b>URL_ESCAPE_SPACES_ONLY</b> to prevent the conversion of characters in the query (the portion of the URL following the first # or ? character encountered in the string). This flag should not be used alone, nor combined with <b>URL_ESCAPE_SEGMENT_ONLY</b>.
 
 
-##### - dwFlags.URL_ESCAPE_ASCII_URI_COMPONENT (0x00080000)
+##### - dwFlags.URL_BROWSER_MODE
 
-<b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
+Defined to be the same as <b>URL_DONT_ESCAPE_EXTRA_INFO</b>.
 
 
-##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
+##### - dwFlags.URL_ESCAPE_SPACES_ONLY (0x04000000)
 
-<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
+Convert only space characters to their escape sequences, including those space characters in the query portion of the URL. Other unsafe characters are not converted to their escape sequences. This flag assumes that <i>pszURL</i> does not contain a full URL. It expects only the portions following the server specification.
+        
+                                
+
+Combine this flag with <b>URL_DONT_ESCAPE_EXTRA_INFO</b> to prevent the conversion of space characters in the query portion of the URL.
+
+This flag cannot be combined with <b>URL_ESCAPE_PERCENT</b> or <b>URL_ESCAPE_SEGMENT_ONLY</b>.
 
 
 ##### - dwFlags.URL_ESCAPE_PERCENT (0x00001000)
@@ -197,22 +200,14 @@ Combine this flag with <b>URL_ESCAPE_PERCENT</b> to include that character in th
 This flag cannot be combined with <b>URL_ESCAPE_SPACES_ONLY</b> or <b>URL_DONT_ESCAPE_EXTRA_INFO</b>.
 
 
-##### - dwFlags.URL_ESCAPE_SPACES_ONLY (0x04000000)
+##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
 
-Convert only space characters to their escape sequences, including those space characters in the query portion of the URL. Other unsafe characters are not converted to their escape sequences. This flag assumes that <i>pszURL</i> does not contain a full URL. It expects only the portions following the server specification.
-        
-                                
-
-Combine this flag with <b>URL_DONT_ESCAPE_EXTRA_INFO</b> to prevent the conversion of space characters in the query portion of the URL.
-
-This flag cannot be combined with <b>URL_ESCAPE_PERCENT</b> or <b>URL_ESCAPE_SEGMENT_ONLY</b>.
+<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
 
-#### - pszURL [in]
+##### - dwFlags.URL_ESCAPE_ASCII_URI_COMPONENT (0x00080000)
 
-Type: <b>PCTSTR</b>
-
-A null-terminated string of maximum length <b>INTERNET_MAX_URL_LENGTH</b> that contains a full or partial URL, as appropriate for the value in <i>dwFlags</i>.
+<b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
 
 
 ## -returns
@@ -356,7 +351,7 @@ Result   = test%2Ft%e%3Cs%20t.asp</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
  
 
  

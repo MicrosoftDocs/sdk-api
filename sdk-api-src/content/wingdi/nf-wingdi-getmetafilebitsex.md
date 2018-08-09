@@ -7,7 +7,7 @@ old-location: gdi\getmetafilebitsex.htm
 old-project: gdi
 ms.assetid: 6ca6de2e-79cb-4503-a0d7-f616b8e383eb
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMetaFileBitsEx, GetMetaFileBitsEx function [Windows GDI], _win32_GetMetaFileBitsEx, gdi.getmetafilebitsex, wingdi/GetMetaFileBitsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,36 +63,19 @@ The <b>GetMetaFileBitsEx</b> function retrieves the contents of a Windows-format
 
 
 
-### -param hMF
-
-TBD
-
-
-### -param cbBuffer
-
-TBD
-
-
-### -param lpData
-
-TBD
-
-
-
-
-#### - hmf [in]
+### -param hMF [in]
 
 A handle to a Windows-format metafile.
 
 
-#### - lpvData [out]
-
-A pointer to a buffer that receives the metafile data. The buffer must be sufficiently large to contain the data. If <i>lpvData</i> is <b>NULL</b>, the function returns the number of bytes required to hold the data.
-
-
-#### - nSize [in]
+### -param cbBuffer [in]
 
 The size, in bytes, of the buffer to receive the data.
+
+
+### -param lpData [out]
+
+A pointer to a buffer that receives the metafile data. The buffer must be sufficiently large to contain the data. If <i>lpvData</i> is <b>NULL</b>, the function returns the number of bytes required to hold the data.
 
 
 ## -returns

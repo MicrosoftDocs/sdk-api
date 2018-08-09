@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_item.htm
 old-project: mscs
 ms.assetid: 12589177-e844-407f-a200-c2d7cf276bb1
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],Item property, ClusResGroupPreferredOwnerNodes.Item, ISClusResGroupPreferredOwnerNodes.get_Item, ISClusResGroupPreferredOwnerNodes::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.item, get_Item, mscs.clusresgrouppreferredownernodes_item
 ms.prod: windows
 ms.technology: windows-sdk

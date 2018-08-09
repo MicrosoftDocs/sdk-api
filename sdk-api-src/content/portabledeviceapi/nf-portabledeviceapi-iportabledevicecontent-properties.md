@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_properties.htm
 old-project: wpd_sdk
 ms.assetid: bc3ba717-1be3-4f29-ac27-6bdcbc5ed94f
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Properties method, IPortableDeviceContent.Properties, IPortableDeviceContent::Properties, IPortableDeviceContentProperties, Properties, Properties method [Windows Portable Devices SDK], Properties method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Properties, wpdsdk.iportabledevicecontent_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Properties</b> method retrieves the interface that is required to get or set properties on an object on the device.
+The <b>Properties</b> method retrieves the interface that is required to get or set properties on an object on the device.
       
 
 
@@ -64,8 +63,7 @@ req.product: ADAM
 
 ### -param ppProperties [out]
 
-
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/4555e85b-c667-466c-a527-cc29ca7a6aee">IPortableDeviceProperties</a> interface that is used to get or set object properties. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/4555e85b-c667-466c-a527-cc29ca7a6aee">IPortableDeviceProperties</a> interface that is used to get or set object properties. The caller must release this interface when it is done with it.
           
 
 
@@ -73,8 +71,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -114,8 +111,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-
-        The retrieved interface is not specific to a particular object on the device; it is specific only to the device. You must specify the ID of the object you want when requesting or setting properties.
+The retrieved interface is not specific to a particular object on the device; it is specific only to the device. You must specify the ID of the object you want when requesting or setting properties.
       
 
 
@@ -132,7 +128,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

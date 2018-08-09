@@ -7,7 +7,7 @@ old-location: p2p\peergroupstartup.htm
 old-project: p2psdk
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupStartup</b> function initiates a peer group by using a requested version of the Peer infrastructure.
+The <b>PeerGroupStartup</b> function initiates a peer group by using a requested version of the Peer infrastructure.
 
 
 ## -parameters
@@ -141,9 +140,7 @@ The   <a href="https://msdn.microsoft.com/6bf2cb09-c03a-4f6b-ba6c-670cf7219cc8">
 
 This function is called by the application before calling any other Peer Grouping function.
 
-For this release, applications should use <b>PEER_GROUP_VERSION</b>
-
-as the requested version.
+For this release, applications should use <b>PEER_GROUP_VERSION</b>as the requested version.
 
 A peer group started with this function is closed by calling <a href="https://msdn.microsoft.com/61678a50-71cd-4717-b490-2755c605c2d5">PeerGroupShutdown</a> when the application terminates.
 
@@ -159,8 +156,7 @@ A peer group started with this function is closed by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">
-		  PEER_VERSION_DATA</a>
+<a href="https://msdn.microsoft.com/b212101f-8c34-41d1-92b9-4daf3591200e">PEER_VERSION_DATA</a>
 
 
 

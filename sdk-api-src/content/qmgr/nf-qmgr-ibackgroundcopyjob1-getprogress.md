@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_getprogress.htm
 old-project: bits
 ms.assetid: 4d4444b6-e40a-4138-9462-49809ec84ccd
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetProgress method, IBackgroundCopyJob1.GetProgress, IBackgroundCopyJob1::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopyjob1_getprogress, qmgr/IBackgroundCopyJob1::GetProgress
 ms.prod: windows
 ms.technology: windows-sdk

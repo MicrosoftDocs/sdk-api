@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessgetuserperms.htm
 old-project: netmgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Management], _win32_netaccessgetuserperms, lmaccess/NetAccessGetUserPerms, netmgmt.netaccessgetuserperms
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,39 +71,22 @@ TBD
 
 ### -param UGname
 
-TBD
+Pointer to a string that specifies the name of the user or group to query.
 
 
 ### -param resource
 
-TBD
+Pointer to a string that contains the name of the network resource to query.
 
 
 ### -param Perms
 
-TBD
-
-
-
-
-#### - pszResource
-
-Pointer to a string that contains the name of the network resource to query.
+Pointer to an unsigned short integer that receives the user permissions for the specified resource.
 
 
 #### - pszServer
 
 Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
-#### - pszUgName
-
-Pointer to a string that specifies the name of the user or group to query.
-
-
-#### - pusPerms
-
-Pointer to an unsigned short integer that receives the user permissions for the specified resource.
 
 
 ## -returns

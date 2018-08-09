@@ -7,7 +7,7 @@ old-location: gdi\enumfontfamiliesex.htm
 old-project: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], EnumFontFamiliesExA, EnumFontFamiliesExW, _win32_EnumFontFamiliesEx, gdi.enumfontfamiliesex, wingdi/EnumFontFamiliesEx, wingdi/EnumFontFamiliesExA, wingdi/EnumFontFamiliesExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,9 +96,9 @@ A pointer to a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec
  
 
 
-### -param lpProc
+### -param lpProc [in]
 
-TBD
+A pointer to the application defined callback function. For more information, see the <a href="https://msdn.microsoft.com/a4adad4c-ab6a-4adb-a1d3-fea3cfdbaf73">EnumFontFamExProc</a> function.
 
 
 ### -param lParam [in]
@@ -109,11 +109,6 @@ An application defined value. The function passes this value to the callback fun
 ### -param dwFlags
 
 This parameter is not used and must be zero.
-
-
-#### - lpEnumFontFamExProc [in]
-
-A pointer to the application defined callback function. For more information, see the <a href="https://msdn.microsoft.com/a4adad4c-ab6a-4adb-a1d3-fea3cfdbaf73">EnumFontFamExProc</a> function.
 
 
 ## -returns

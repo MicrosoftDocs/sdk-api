@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UIAutomationMethodInfoStruct.htm
 old-project: WinAuto
 ms.assetid: 33a52126-8757-44d0-91e1-758f51e3d0f8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: UIAutomationMethodInfo, UIAutomationMethodInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationMethodInfoStruct, uiauto_UIAutomationMethodInfoStruct, uiautomationcore/UIAutomationMethodInfo, winauto.uiauto_UIAutomationMethodInfoStruct
 ms.prod: windows
 ms.technology: windows-sdk

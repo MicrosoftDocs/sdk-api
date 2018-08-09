@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_advise.htm
 old-project: wpd_sdk
 ms.assetid: bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Advise method, IPortableDevice.Advise, IPortableDevice::Advise, IPortableDeviceAdvise, portabledeviceapi/IPortableDevice::Advise, wpdsdk.iportabledevice_advise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: ADAM
 ## -description
 
 
-
-        The <b>Advise</b> method registers an application-defined callback that receives device events.
+The <b>Advise</b> method registers an application-defined callback that receives device events.
       
 
 
@@ -70,22 +69,19 @@ req.product: ADAM
 
 ### -param pCallback [in]
 
-
-            Pointer to a callback object.
+Pointer to a callback object.
           
 
 
 ### -param pParameters [in]
 
-
-            This parameter is ignored and should be set to <b>NULL</b>.
+This parameter is ignored and should be set to <b>NULL</b>.
           
 
 
 ### -param ppszCookie [out]
 
-
-            A string that represents a unique context ID. This is used to unregister for callbacks when calling <a href="https://msdn.microsoft.com/6720e92b-35cd-4e3f-bd21-36337cf80140">Unadvise</a>.
+A string that represents a unique context ID. This is used to unregister for callbacks when calling <a href="https://msdn.microsoft.com/6720e92b-35cd-4e3f-bd21-36337cf80140">Unadvise</a>.
           
 
 
@@ -93,8 +89,7 @@ req.product: ADAM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

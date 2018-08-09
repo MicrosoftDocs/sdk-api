@@ -7,7 +7,7 @@ old-location: rpc\uuidcreatenil.htm
 old-project: rpc
 ms.assetid: ee955482-e786-4478-bbaa-7c574ab1ecc5
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: UuidCreateNil, UuidCreateNil function [RPC], _rpc_uuidcreatenil, rpc.uuidcreatenil, rpcdce/UuidCreateNil
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>UuidCreateNil</b> function creates a nil-valued <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
 
 
@@ -63,13 +62,6 @@ req.product: ADAM
 
 ### -param NilUuid
 
-TBD
-
-
-
-
-#### - Nil_Uuid
-
 Returns a nil-valued 
 <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
 
@@ -78,8 +70,7 @@ Returns a nil-valued
 
 
 
-
-						Returns RPC_S_OK.
+Returns RPC_S_OK.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
 <a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>

@@ -7,7 +7,7 @@ old-location: nla\net_interface_context.htm
 old-project: nla
 ms.assetid: 71342454-5AEF-4C96-8914-ED8859BD9D81
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NET_INTERFACE_CONTEXT, NET_INTERFACE_CONTEXT structure [Network Awareness], PNET_INTERFACE_CONTEXT, PNET_INTERFACE_CONTEXT structure pointer [Network Awareness], _NET_INTERFACE_CONTEXT, nla.net_interface_context, ondemandconnroutehelper/NET_INTERFACE_CONTEXT, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_framestep.htm
 old-project: medfound
 ms.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],FrameStep method, IMFPMediaPlayer.FrameStep, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,8 +135,7 @@ The media source does not support frame stepping, or the current playback rate i
 
 
 
-
-        This method completes asynchronously.  When the operation completes, the application's <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method is invoked. The event type is <b>MFP_EVENT_TYPE_FRAME_STEP</b>.
+This method completes asynchronously.  When the operation completes, the application's <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method is invoked. The event type is <b>MFP_EVENT_TYPE_FRAME_STEP</b>.
 
 The player object does not support frame stepping during reverse playback (that is, while the playback rate is negative).
 

@@ -7,7 +7,7 @@ old-location: ad\idsobjectpicker.htm
 old-project: ad
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory],described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
+The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -122,7 +122,7 @@ calls to <a href="https://msdn.microsoft.com/76192a35-10e1-46e3-8724-7637d47d8ec
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 

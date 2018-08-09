@@ -7,7 +7,7 @@ old-location: security\certsrvbackupread.htm
 old-project: seccrypto
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-			The <b>CertSrvBackupRead</b> function reads bytes from a Certificate Services file.
+The <b>CertSrvBackupRead</b> function reads bytes from a Certificate Services file.
 
 
 ## -parameters
@@ -83,8 +82,7 @@ A pointer to a <b>DWORD</b> value which represents the actual number of bytes re
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 

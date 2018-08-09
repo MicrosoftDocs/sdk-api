@@ -7,7 +7,7 @@ old-location: automat\varr8fromdec.htm
 old-project: automat
 ms.assetid: be9d02c5-c6ce-421c-a4dd-1fd453d2be4b
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarR8FromDec, VarR8FromDec function [Automation], _oa96_VarR8FromDec, automat.varr8fromdec, oleauto/VarR8FromDec
 ms.prod: windows
 ms.technology: windows-sdk

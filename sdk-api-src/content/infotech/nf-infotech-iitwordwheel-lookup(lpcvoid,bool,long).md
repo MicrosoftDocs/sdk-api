@@ -78,13 +78,6 @@ Looks up an entry and returns contents in a buffer.
 
 
 
-#### - cbKeyBuf [in]
-
-Buffer size in number of bytes.
-
-
-
-
 #### - lEntry [in]
 
 Entry to look up.
@@ -95,6 +88,13 @@ Entry to look up.
 #### - lpvKeyBuf [out]
 
 Buffer to return entry.
+
+
+
+
+#### - cbKeyBuf [in]
+
+Buffer size in number of bytes.
 
 
 
@@ -147,7 +147,7 @@ Entry number is out of range.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms670057(v=VS.85).aspx">IITWordWheel</a>
+<a href="https://msdn.microsoft.com/9734c73e-9325-4a6d-bbf3-3f87f96a662e">IITWordWheel</a>
  
 
  

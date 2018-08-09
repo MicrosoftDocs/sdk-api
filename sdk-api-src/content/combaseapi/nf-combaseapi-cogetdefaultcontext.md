@@ -7,7 +7,7 @@ old-location: cos\cogetdefaultcontext.htm
 old-project: cossdk
 ms.assetid: 97a0e7da-e8bb-4bde-a8ba-35c90a1351d2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, CoGetDefaultContext, CoGetDefaultContext function [COM+], combaseapi/CoGetDefaultContext, cos.cogetdefaultcontext
 ms.prod: windows
 ms.technology: windows-sdk

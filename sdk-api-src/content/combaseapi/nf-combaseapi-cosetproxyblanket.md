@@ -7,7 +7,7 @@ old-location: com\cosetproxyblanket.htm
 old-project: com
 ms.assetid: c2e5e681-8fa5-4b02-b59d-ba796eb0dccf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: CoSetProxyBlanket, CoSetProxyBlanket function [COM], _com_CoSetProxyBlanket, com.cosetproxyblanket, combaseapi/CoSetProxyBlanket
 ms.prod: windows
 ms.technology: windows-sdk

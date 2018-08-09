@@ -7,7 +7,7 @@ old-location: nla\inetwork_get_isconnectedtointernet.htm
 old-project: nla
 ms.assetid: 12df15aa-64df-426f-aa41-12b96fc35e55
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: INetwork interface [Network Awareness],get_IsConnectedToInternet method, INetwork.get_IsConnectedToInternet, INetwork::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetwork interface, netlistmgr/INetwork::get_IsConnectedToInternet, nla.inetwork_get_isconnectedtointernet
 ms.prod: windows
 ms.technology: windows-sdk

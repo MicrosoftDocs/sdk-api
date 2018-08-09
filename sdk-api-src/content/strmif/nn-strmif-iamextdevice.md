@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice.htm
 old-project: DirectShow
 ms.assetid: 0423e888-39d1-45cb-9bcf-722240a31fbd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
 ms.prod: windows
 ms.technology: windows-sdk

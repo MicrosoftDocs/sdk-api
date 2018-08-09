@@ -7,7 +7,7 @@ old-location: tsf\itfcontextowner_getscreenext.htm
 old-project: TSF
 ms.assetid: 499a446d-1575-4636-b444-dd6078ed8736
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetScreenExt method, ITfContextOwner.GetScreenExt, ITfContextOwner::GetScreenExt, _tsf_itfcontextowner_getscreenext_ref, msctf/ITfContextOwner::GetScreenExt, tsf.itfcontextowner_getscreenext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,7 @@ If the text is not currently displayed, for example if the document window is mi
 
 
 
-<a href="https://msdn.microsoft.com/bd542dd1-79a5-47ec-a563-cd37a8c36b1a">
-        ITextStoreACP::GetScreenExt
+<a href="https://msdn.microsoft.com/bd542dd1-79a5-47ec-a563-cd37a8c36b1a">ITextStoreACP::GetScreenExt
       </a>
 
 
@@ -121,8 +120,7 @@ If the text is not currently displayed, for example if the document window is mi
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">
-        TsViewCookie
+<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
       </a>
  
 

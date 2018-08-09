@@ -7,7 +7,7 @@ old-location: tsf\itfedittransactionsink.htm
 old-project: TSF
 ms.assetid: d5393459-8bd6-4daf-830a-aa08d76c6347
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfEditTransactionSink, ITfEditTransactionSink interface [Text Services Framework], ITfEditTransactionSink interface [Text Services Framework],described, _tsf_itfedittransactionsink_ref, msctf/ITfEditTransactionSink, tsf.itfedittransactionsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,19 +109,17 @@ An edit transaction involves multiple document locks, and usually includes multi
 
 
 
-<a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">
-        ITfSource::AdviseSink
+<a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">
-        ITfTextEditSink::OnEndEdit
+<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinqcallattributes.htm
 old-project: rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
 ms.prod: windows
 ms.technology: windows-sdk

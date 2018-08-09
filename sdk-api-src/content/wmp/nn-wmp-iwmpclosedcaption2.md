@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption2.htm
 old-project: WMP
 ms.assetid: 21067ac1-d29e-4f1b-b123-34b24929369a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Player], IWMPClosedCaption2 interface [Windows Media Player],described, IWMPClosedCaption2Interface, wmp.iwmpclosedcaption2, wmp/IWMPClosedCaption2
 ms.prod: windows
 ms.technology: windows-sdk

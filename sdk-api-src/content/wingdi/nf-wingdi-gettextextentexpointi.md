@@ -7,7 +7,7 @@ old-location: gdi\gettextextentexpointi.htm
 old-project: gdi
 ms.assetid: d543ec43-f6f1-4463-b27d-a1abf1cf3961
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExtentExPointI, GetTextExtentExPointI function [Windows GDI], _win32_GetTextExtentExPointI, gdi.gettextextentexpointi, wingdi/GetTextExtentExPointI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,14 @@ The <b>GetTextExtentExPointI</b> function retrieves the number of characters in 
 A handle to the device context.
 
 
-### -param lpwszString
+### -param lpwszString [in]
 
-TBD
+A pointer to an array of glyph indices for which extents are to be retrieved.
 
 
-### -param cwchString
+### -param cwchString [in]
 
-TBD
+The number of glyphs in the array pointed to by the <i>pgiIn</i> parameter.
 
 
 ### -param nMaxExtent [in]
@@ -87,29 +87,14 @@ The maximum allowable width, in logical units, of the formatted string.
 A pointer to an integer that receives a count of the maximum number of characters that will fit in the space specified by the <i>nMaxExtent</i> parameter. When the <i>lpnFit</i> parameter is <b>NULL</b>, the <i>nMaxExtent</i> parameter is ignored.
 
 
-### -param lpnDx
+### -param lpnDx [out]
 
-TBD
+A pointer to an array of integers that receives partial glyph extents. Each element in the array gives the distance, in logical units, between the beginning of the glyph indices array and one of the glyphs that fits in the space specified by the <i>nMaxExtent</i> parameter. Although this array should have at least as many elements as glyph indices specified by the <i>cgi</i> parameter, the function fills the array with extents only for as many glyph indices as are specified by the <i>lpnFit</i> parameter. If <i>lpnFit</i> is <b>NULL</b>, the function does not compute partial string widths.
 
 
 ### -param lpSize [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the dimensions of the glyph indices array, in logical units. This value cannot be <b>NULL</b>.
-
-
-#### - alpDx [out]
-
-A pointer to an array of integers that receives partial glyph extents. Each element in the array gives the distance, in logical units, between the beginning of the glyph indices array and one of the glyphs that fits in the space specified by the <i>nMaxExtent</i> parameter. Although this array should have at least as many elements as glyph indices specified by the <i>cgi</i> parameter, the function fills the array with extents only for as many glyph indices as are specified by the <i>lpnFit</i> parameter. If <i>lpnFit</i> is <b>NULL</b>, the function does not compute partial string widths.
-
-
-#### - cgi [in]
-
-The number of glyphs in the array pointed to by the <i>pgiIn</i> parameter.
-
-
-#### - pgiIn [in]
-
-A pointer to an array of glyph indices for which extents are to be retrieved.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mstv\ibda_dridrmservice_getdrmstatus.htm
 old-project: mstv
 ms.assetid: 145e4716-05e1-41b8-98f3-72e719ca8b9f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDRMStatus, GetDRMStatus method [DirectShow], GetDRMStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetDRMStatus method, IBDA_DRIDRMService.GetDRMStatus, IBDA_DRIDRMService::GetDRMStatus, bdaiface/IBDA_DRIDRMService::GetDRMStatus, mstv.ibda_dridrmservice_getdrmstatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The GetDRMSTatus method returns the current status of the Digital Rights Management (DRM) system for a Media Transform Device (MTD) in a graph under the Protected Broadcast Device Architecture (PBDA). 
+The GetDRMSTatus method returns the current status of the Digital Rights Management (DRM) system for a Media Transform Device (MTD) in a graph under the Protected Broadcast Device Architecture (PBDA). 
 
 
 ## -parameters
@@ -67,8 +66,7 @@ Address of a variable that gets a comma-delimited string of UUID values that ide
 
 ### -param DrmUuid [out]
 
-
-            Address of a variable that gets a GUID identifying the active DRM system for the MTD.
+Address of a variable that gets a GUID identifying the active DRM system for the MTD.
           
 
 

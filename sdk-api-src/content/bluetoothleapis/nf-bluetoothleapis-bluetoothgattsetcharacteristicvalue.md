@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattsetcharacteristicvalue.htm
 old-project: bltooth
 ms.assetid: 114C1FCD-95F8-4358-8178-C9B283CA7323
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/30/2018
 ms.keywords: BluetoothGATTSetCharacteristicValue, BluetoothGATTSetCharacteristicValue function [Bluetooth Devices], bltooth.bluetoothgattsetcharacteristicvalue, bluetoothleapis/BluetoothGATTSetCharacteristicValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -442,8 +442,6 @@ An error that lies in the reserved range has been received.
 Calling <b>BluetoothGATTSetCharacteristicValue</b> after <a href="https://msdn.microsoft.com/library/windows/hardware/hh450792">BluetoothGATTBeginReliableWrite</a>, notifies the remote Bluetooth device to store this request into a prepare queue on the device.
 
 If signing is required, then the operation must not require a response, and must not occur over a secure channel.
-
-
 
 The parent characteristic is returned from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh450795">BluetoothGATTGetCharacteristics</a>, and must not be altered.  Behavior is undefined
     if the caller does this.

@@ -7,7 +7,7 @@ old-location: security\cryptsipgetsigneddatamsg.htm
 old-project: seccrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CryptSIPGetSignedDataMsg, CryptSIPGetSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPGetSignedDataMsg, security.cryptsipgetsigneddatamsg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -178,8 +178,7 @@ The <i>pSubjectInfo</i> parameter or the <b>pgSubjectType</b> member of the <a h
 </dl>
 </td>
 <td width="60%">
-The size of the message buffer was insufficient to hold the retrieved data, the <i>pcbSignedDataMsg</i>
-parameter has been set to indicate the required buffer size.
+The size of the message buffer was insufficient to hold the retrieved data, the <i>pcbSignedDataMsg</i>parameter has been set to indicate the required buffer size.
 
 </td>
 </tr>

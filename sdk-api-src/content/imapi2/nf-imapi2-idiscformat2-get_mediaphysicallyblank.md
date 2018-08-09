@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm
 old-project: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDiscFormat2.get_MediaPhysicallyBlank, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
 ms.prod: windows
 ms.technology: windows-sdk

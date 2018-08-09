@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_serialize.htm
 old-project: direct3d12
 ms.assetid: FD81B464-1E93-47CF-9D95-8F8F64C39CD6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: ID3D12PipelineLibrary interface,Serialize method, ID3D12PipelineLibrary.Serialize, ID3D12PipelineLibrary::Serialize, Serialize, Serialize method, Serialize method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::Serialize, direct3d12.id3d12pipelinelibrary_serialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The size provided must be at least the size returned from <a href="https://msdn.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the buffer provided isn’t big enough. 
 

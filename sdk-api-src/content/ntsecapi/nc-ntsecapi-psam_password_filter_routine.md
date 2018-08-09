@@ -7,7 +7,7 @@ old-location: security\passwordfilter.htm
 old-project: secmgmt
 ms.assetid: cb4fe40e-81ea-4040-b3ee-642a093e5fca
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 08/06/2018
 ms.keywords: PSAM_PASSWORD_FILTER_ROUTINE, PSAM_PASSWORD_FILTER_ROUTINE callback, PasswordFilter, PasswordFilter callback function [Security], _pswd_passwordfilter, ntsecapi/PasswordFilter, security.passwordfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The <b>PasswordFilter</b> function is implemented by a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">password filter</a> DLL. The value returned by this function determines whether the new password is accepted by the system. All of the password filters installed on a system must return <b>TRUE</b> for the password change to take effect.
+The <b>PasswordFilter</b> function is implemented by a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">password filter</a> DLL. The value returned by this function determines whether the new password is accepted by the system. All of the password filters installed on a system must return <b>TRUE</b> for the password change to take effect.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mmc\iconsole_setheader.htm
 old-project: MMC
 ms.assetid: B607F719-3D74-48EB-A1FD-A311B5C3F6A1
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IConsole interface [MMC],SetHeader method, IConsole.SetHeader, IConsole::SetHeader, SetHeader, SetHeader method [MMC], SetHeader method [MMC],IConsole interface, mmc.iconsole_setheader, mmc/IConsole::SetHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ The best time to release the
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadInt.htm
 old-project: properties
 ms.assetid: 9CEC97E6-C88F-4182-876C-D77EA14915DA
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadInt, PSPropertyBag_ReadInt function [Windows Properties], properties.PSPropertyBag_ReadInt, propsys/PSPropertyBag_ReadInt, shell.PSPropertyBag_ReadInt, shell_PSPropertyBag_ReadInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845071(v=VS.85).aspx">PSPropertyBag_WriteInt</a>
+<a href="shell.PSPropertyBag_WriteInt">PSPropertyBag_WriteInt</a>
  
 
  

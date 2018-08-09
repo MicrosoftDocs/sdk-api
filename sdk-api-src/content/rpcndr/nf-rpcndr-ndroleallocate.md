@@ -7,7 +7,7 @@ old-location: rpc\ndroleallocate.htm
 old-project: rpc
 ms.assetid: 87bfc8ae-62e6-477f-98a7-caf907589b89
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrOleAllocate, NdrOleAllocate function [RPC], rpc.ndroleallocate, rpcndr/NdrOleAllocate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an object interface. This function is a wrapper for the <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> function.
+The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an object interface. This function is a wrapper for the <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 
 ## -parameters
@@ -59,14 +59,7 @@ The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an obje
 
 
 
-### -param Size
-
-TBD
-
-
-
-
-#### - size [in]
+### -param Size [in]
 
 Memory to allocate, in bytes.
 
@@ -94,7 +87,7 @@ To return a pointer other than a void, use a type cast on the return value. The 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>
  
 
  

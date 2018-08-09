@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_setidlewait.htm
 old-project: taskschd
 ms.assetid: f7ad639a-4094-4621-9add-b89958c0bda4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetIdleWait method, IScheduledWorkItem.SetIdleWait, IScheduledWorkItem::SetIdleWait, SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the minutes that the system must be idle before the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a> can run.
+Sets the minutes that the system must be idle before the <a href="w.htm">work item</a> can run.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ The
 
 
 
-The idle time specified here is used in conjunction with <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">idle triggers</a> and <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">idle conditions</a>. For more information, see <a href="https://msdn.microsoft.com/1e480681-b77a-48fe-a732-dd1591eaa08d">Task Idle Conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions, in contrast, are associated with the scheduled start time for the task.
+The idle time specified here is used in conjunction with <a href="i.htm">idle triggers</a> and <a href="i.htm">idle conditions</a>. For more information, see <a href="https://msdn.microsoft.com/1e480681-b77a-48fe-a732-dd1591eaa08d">Task Idle Conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions, in contrast, are associated with the scheduled start time for the task.
 
 You specify idle triggers by setting the TASK_TRIGGER_TYPE member of the 
 <a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a> to TASK_EVENT_TRIGGER_ON_IDLE. The idle trigger is fired when the system becomes idle for the amount of time specified by <i>wIdleMinutes</i>.

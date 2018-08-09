@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothregisterforauthenticationex.htm
 old-project: bluetooth
 ms.assetid: c9838f27-3450-4d51-be58-ce515d06d5cb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: BluetoothRegisterForAuthenticationEx, BluetoothRegisterForAuthenticationEx function [Bluetooth], bluetooth.bluetoothregisterforauthenticationex, bluetoothapis/BluetoothRegisterForAuthenticationEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ The <b>BluetoothRegisterForAuthenticationEx</b> function registers an applicatio
 
 
 
-### -param pbtdiIn
+### -param pbtdiIn [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure that specifies the bluetooth address to be utilized for comparison.
 
 
 ### -param phRegHandleOut [out]
@@ -79,11 +79,6 @@ The function that will be called when the authentication event          occurs. 
 ### -param pvParam [in, optional]
 
 Optional parameter to be passed through to the callback function specified by <i>pfnCallbackIn</i>.          This parameter  can be anything the application is required to define.
-
-
-#### - pbtdiln [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure that specifies the bluetooth address to be utilized for comparison.
 
 
 ## -returns

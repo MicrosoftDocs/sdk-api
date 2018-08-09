@@ -4,10 +4,10 @@ title: WlanSetFilterList function
 author: windows-sdk-content
 description: Sets the permit/deny list.
 old-location: nwifi\wlansetfilterlist.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 697682c9-cb26-42d6-86b5-d7adebcedc68
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanSetFilterList, WlanSetFilterList function [NativeWIFI], nwifi.wlansetfilterlist, wlanapi/WlanSetFilterList
 ms.prod: windows
 ms.technology: windows-sdk

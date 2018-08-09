@@ -7,7 +7,7 @@ old-location: wsw\wssetinputtobuffer.htm
 old-project: wsw
 ms.assetid: 0b3ac6ab-8c16-4189-950d-84bdcdabcde0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsSetInputToBuffer, WsSetInputToBuffer function [Web Services for Windows], webservices/WsSetInputToBuffer, wsw.wssetinputtobuffer
 ms.prod: windows
 ms.technology: windows-sdk

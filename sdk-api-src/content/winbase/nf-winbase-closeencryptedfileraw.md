@@ -4,10 +4,10 @@ title: CloseEncryptedFileRaw function
 author: windows-sdk-content
 description: Closes an encrypted file after a backup or restore operation, and frees associated system resources.
 old-location: fs\closeencryptedfileraw.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 54bf7114-0ebb-4d9c-bc67-2ac351dbe55d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CloseEncryptedFileRaw, CloseEncryptedFileRaw function [Files], base.closeencryptedfileraw, fs.closeencryptedfileraw, winbase/CloseEncryptedFileRaw
 ms.prod: windows
 ms.technology: windows-sdk

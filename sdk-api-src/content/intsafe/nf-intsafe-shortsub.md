@@ -7,7 +7,7 @@ old-location: shell\ShortSub.htm
 old-project: shell
 ms.assetid: df438d87-5786-4c55-81f2-534fa9532f09
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ShortSub, ShortSub function [Windows Shell], intsafe/ShortSub, shell.ShortSub
 ms.prod: windows
 ms.technology: windows-sdk

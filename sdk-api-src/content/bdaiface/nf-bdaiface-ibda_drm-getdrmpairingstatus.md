@@ -7,7 +7,7 @@ old-location: mstv\ibda_drm_getdrmpairingstatus.htm
 old-project: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Technologies], GetDRMPairingStatus method [Microsoft TV Technologies],IBDA_DRM interface, IBDA_DRM interface [Microsoft TV Technologies],GetDRMPairingStatus method, IBDA_DRM.GetDRMPairingStatus, IBDA_DRM::GetDRMPairingStatus, IBDA_DRMGetDRMPairingStatus, bdaiface/IBDA_DRM::GetDRMPairingStatus, mstv.ibda_drm_getdrmpairingstatus
 ms.prod: windows
 ms.technology: windows-sdk

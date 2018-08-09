@@ -7,7 +7,7 @@ old-location: intl\immgetcandidatelist.htm
 old-project: Intl
 ms.assetid: 24163117-a283-4067-8ce6-118ca2de62c9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmGetCandidateList, ImmGetCandidateList function [Internationalization for Windows Applications], ImmGetCandidateListA, ImmGetCandidateListW, _win32_ImmGetCandidateList, imm/ImmGetCandidateList, imm/ImmGetCandidateListA, imm/ImmGetCandidateListW, intl.immgetcandidatelist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ Retrieves a candidate list.
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
-### -param deIndex
+### -param deIndex [in]
 
-TBD
+Zero-based index of the candidate list.
 
 
 ### -param lpCandList [out, optional]
@@ -79,16 +79,6 @@ Pointer to a <a href="https://msdn.microsoft.com/d60b28fb-0cdd-43b4-8d99-cb829be
 ### -param dwBufLen [in]
 
 Size, in bytes, of the buffer to receive the candidate list. The application can specify 0 for this parameter if the function is to return the required size of the output buffer only.
-
-
-#### - dwIndex [in]
-
-Zero-based index of the candidate list.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

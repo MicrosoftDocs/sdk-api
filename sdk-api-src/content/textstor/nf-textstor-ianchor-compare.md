@@ -7,7 +7,7 @@ old-location: tsf\ianchor_compare.htm
 old-project: TSF
 ms.assetid: 227ed0c0-0bdd-49af-b5dc-fdb69913b9c1
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: "+1, -1, 0, Compare, Compare method [Text Services Framework], Compare method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Compare method, IAnchor.Compare, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -171,7 +171,7 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
+<a href="ranges.htm">Anchors</a>
 
 
 

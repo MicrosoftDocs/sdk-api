@@ -4,10 +4,10 @@ title: CertGetStoreProperty function
 author: windows-sdk-content
 description: Retrieves a store property.
 old-location: security\certgetstoreproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -197,7 +197,7 @@ if (pvData)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

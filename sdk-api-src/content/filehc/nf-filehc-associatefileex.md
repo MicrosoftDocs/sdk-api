@@ -7,7 +7,7 @@ old-location: winprog\_associatefileex.htm
 old-project: devnotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ A file handle that should be in the context. It is created with the FILE_FLAG_OV
 
 
 
-### -param fStoreWithDots
+### -param fStoreWithDots [in]
 
-TBD
+If set to <b>TRUE</b>, this object was stored with dot stuffing.
 
 
 ### -param fStoredWithTerminatingDot [in]
@@ -75,11 +75,6 @@ TBD
 A flag that indicates whether the terminating dot is included in an object. If this parameter is set to <b>TRUE</b>, the object is stored with a terminating dot. 
 
 The terminating dot is used by the NNTP/SMTP protocol to identify the end of message.
-
-
-#### - fStoredWithDots [in]
-
-If set to <b>TRUE</b>, this object was stored with dot stuffing.
 
 
 ## -returns

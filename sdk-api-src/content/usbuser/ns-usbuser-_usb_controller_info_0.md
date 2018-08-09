@@ -7,7 +7,7 @@ old-location: buses\usb_controller_info_0.htm
 old-project: usbref
 ms.assetid: fcd88eb4-4fba-445a-b266-d89db8db1a55
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0, PUSB_CONTROLLER_INFO_0 structure pointer [Buses], USB_CONTROLLER_INFO_0, USB_CONTROLLER_INFO_0 structure [Buses], _USB_CONTROLLER_INFO_0, buses.usb_controller_info_0, usbstrct_2a3ac867-422b-46cf-b529-d1a9dde27970.xml, usbuser/PUSB_CONTROLLER_INFO_0, usbuser/USB_CONTROLLER_INFO_0"
 ms.prod: windows
 ms.technology: windows-sdk

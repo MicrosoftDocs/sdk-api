@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getcomponenttag.htm
 old-project: mstv
 ms.assetid: 4b06f566-b5e0-43c8-8694-24d913bbf971
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbAudioComponentDescriptor.GetComponentTag, IIsdbAudioComponentDescriptor::GetComponentTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentTag, mstv.iisdbaudiocomponentdescriptor_getcomponenttag
 ms.prod: windows
 ms.technology: windows-sdk

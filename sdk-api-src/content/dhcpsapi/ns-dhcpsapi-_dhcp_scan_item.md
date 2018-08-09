@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_scan_item.htm
 old-project: dhcp
 ms.assetid: 82e36660-fb56-4334-97d0-c34facad55a6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPDHCP_SCAN_ITEM, DHCP_SCAN_ITEM, DHCP_SCAN_ITEM structure [DHCP], LPDHCP_SCAN_ITEM, LPDHCP_SCAN_ITEM structure pointer [DHCP], _DHCP_SCAN_ITEM, dhcp.dhcp_scan_item, dhcpsapi/LPDHCP_SCAN_ITEM, dhcpsapi/_DHCP_SCAN_ITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ DHCP_IP_ADDRESS value that specifies the address whose lease status was changed 
 ### -field ScanFlag
 
 
-<a href="https://msdn.microsoft.com/825a0e64-b0c2-453e-8e00-52f84c40bef3">DHCP_SCAN_FLAG</a>
-         enumeration value that indicates whether the supplied client lease IP address will be fixed in the DHCPv4 server's  in-memory client lease cache or the client lease database proper.
+<a href="https://msdn.microsoft.com/825a0e64-b0c2-453e-8e00-52f84c40bef3">DHCP_SCAN_FLAG</a>enumeration value that indicates whether the supplied client lease IP address will be fixed in the DHCPv4 server's  in-memory client lease cache or the client lease database proper.
 
 
 ## -see-also

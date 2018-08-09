@@ -4,10 +4,10 @@ title: SnmpExtensionInit function
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionInit function to initialize the SNMP extension agent DLL. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensioninit.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 015f2be2-8e10-4abd-afd0-f76834856733
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SnmpExtensionInit, SnmpExtensionInit callback, SnmpExtensionInit callback function [SNMP], _snmp_snmpextensioninit, snmp.snmpextensioninit, snmp/SnmpExtensionInit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SnmpExtensionInit function

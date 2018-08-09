@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectioncontext_setprovisionedcontext.htm
 old-project: mbn
 ms.assetid: 738a3037-01a9-465a-a67d-979a29968b68
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnConnectionContext interface [Microsoft Broadband Networks],SetProvisionedContext method, IMbnConnectionContext.SetProvisionedContext, IMbnConnectionContext::SetProvisionedContext, SetProvisionedContext, SetProvisionedContext method [Microsoft Broadband Networks], SetProvisionedContext method [Microsoft Broadband Networks],IMbnConnectionContext interface, mbn.imbnconnectioncontext_setprovisionedcontext, mbnapi/IMbnConnectionContext::SetProvisionedContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ The Mobile Broadband service is not running on this system.
 
 
 
-The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="https://msdn.microsoft.com/library/Dd323216(v=VS.85).aspx">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
+The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="mbn_context_constants.htm">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
 
 This is an asynchronous operation and <b>SetProvisionedContext</b> will return immediately. When the operation is complete, the Mobile Broadband service will notify the application by calling the <a href="https://msdn.microsoft.com/06e1071d-c541-4824-9b56-f2d18f41e972">OnSetProvisionedContextComplete</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>.
 

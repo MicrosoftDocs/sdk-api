@@ -7,7 +7,7 @@ old-location: com\oleuiinsertobject_struct.htm
 old-project: com
 ms.assetid: b14df159-ed62-4745-8cac-c31364d0de7b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPOLEUIINSERTOBJECTA, *POLEUIINSERTOBJECTA, IOF_CHECKDISPLAYASICON, IOF_CHECKLINK, IOF_CREATEFILEOBJECT, IOF_CREATELINKOBJECT, IOF_CREATENEWOBJECT, IOF_DISABLEDISPLAYASICON, IOF_DISABLELINK, IOF_HIDECHANGEICON, IOF_SELECTCREATECONTROL, IOF_SELECTCREATEFROMFILE, IOF_SELECTCREATENEW, IOF_SHOWHELP, IOF_SHOWINSERTCONTROL, IOF_VERIFYSERVERSEXIST, LPOLEUIINSERTOBJECT, LPOLEUIINSERTOBJECT structure pointer [COM], OLEUIINSERTOBJECT, OLEUIINSERTOBJECT structure [COM], OLEUIINSERTOBJECTA, OLEUIINSERTOBJECTW, POLEUIINSERTOBJECT, POLEUIINSERTOBJECT structure pointer [COM], _ole_OLEUIINSERTOBJECT_str, com.oleuiinsertobject_struct, oledlg/LPOLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECTA, oledlg/OLEUIINSERTOBJECTW, oledlg/POLEUIINSERTOBJECT, tagOLEUIINSERTOBJECTA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,9 +193,8 @@ The <b>Display As Icon</b> check box will be disabled on initialization.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_IOF_HIDECHANGEICON"></a><a id="_iof_hidechangeicon"></a><dl>
-<dt><b>
-IOF_HIDECHANGEICON</b></dt>
+<td width="40%"><a id="IOF_HIDECHANGEICON"></a><a id="iof_hidechangeicon"></a><dl>
+<dt><b>IOF_HIDECHANGEICON</b></dt>
 </dl>
 </td>
 <td width="60%">

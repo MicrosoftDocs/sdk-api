@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clone.htm
 old-project: tablet
 ms.assetid: f3ec6b42-2b5d-459e-ba09-88c27b125c40
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Clone method, IInkDisp.Clone, IInkDisp::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDisp::Clone, tablet.inkdisp_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,7 +185,7 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

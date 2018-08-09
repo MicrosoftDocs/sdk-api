@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetDataSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdatasize.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetDataSize, GetDataSize method [GDI+], GetDataSize method [GDI+],Region class, Region class [GDI+],GetDataSize method, Region.GetDataSize, Region::GetDataSize, _gdiplus_CLASS_Region_GetDataSize_, gdiplus._gdiplus_CLASS_Region_GetDataSize_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ This method returns the number of bytes of region data.
 
 
 
-The <b>Region::GetDataSize</b> method can be used before the <a href="https://msdn.microsoft.com/library/ms534765(v=VS.85).aspx">Region::GetData</a> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data that is obtained by the <b>Region::GetData</b>.
+The <b>Region::GetDataSize</b> method can be used before the <a href="https://msdn.microsoft.com/36f30045-1307-4477-83e3-546c536a7f5e">Region::GetData</a> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data that is obtained by the <b>Region::GetData</b>.
 
 
 #### Examples
@@ -132,7 +132,7 @@ The following example creates a region from a path and then gets the data that d
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534765(v=VS.85).aspx">Region::GetData</a>
+<a href="https://msdn.microsoft.com/36f30045-1307-4477-83e3-546c536a7f5e">Region::GetData</a>
  
 
  

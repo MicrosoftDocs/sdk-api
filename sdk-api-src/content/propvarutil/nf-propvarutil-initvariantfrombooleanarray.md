@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromBooleanArray.htm
 old-project: properties
 ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_BOOL variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,11 +129,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
+<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
  
 
  

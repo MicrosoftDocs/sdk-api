@@ -4,10 +4,10 @@ title: lineCreateAgentSessionA function
 author: windows-sdk-content
 description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION.
 old-location: tapi2\linecreateagentsession.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 38b080d9-365f-49b6-a125-625602971bb8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: "_tapi2_linecreateagentsession, lineCreateAgentSession, lineCreateAgentSession function [TAPI 2.2], lineCreateAgentSessionA, lineCreateAgentSessionW, tapi/lineCreateAgentSession, tapi/lineCreateAgentSessionA, tapi/lineCreateAgentSessionW, tapi2.linecreateagentsession"
 ms.prod: windows
 ms.technology: windows-sdk

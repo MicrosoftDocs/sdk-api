@@ -7,7 +7,7 @@ old-location: ics\inetfwrule3_localuserauthorizedlist.htm
 old-project: ics
 ms.assetid: 5a44ce34-bf0b-4a8b-a8b3-bd5e4cc3bea8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalUserAuthorizedList property, INetFwRule3.LocalUserAuthorizedList, INetFwRule3.get_LocalUserAuthorizedList, INetFwRule3::LocalUserAuthorizedList, INetFwRule3::get_LocalUserAuthorizedList, INetFwRule3::put_LocalUserAuthorizedList, LocalUserAuthorizedList property [ICS/ICF], LocalUserAuthorizedList property [ICS/ICF],INetFwRule3 interface, get_LocalUserAuthorizedList, ics.inetfwrule3_localuserauthorizedlist, netfw/INetFwRule3::LocalUserAuthorizedList, netfw/INetFwRule3::get_LocalUserAuthorizedList, netfw/INetFwRule3::put_LocalUserAuthorizedList
 ms.prod: windows
 ms.technology: windows-sdk

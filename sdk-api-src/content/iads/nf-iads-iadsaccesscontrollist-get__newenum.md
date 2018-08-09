@@ -7,7 +7,7 @@ old-location: adsi\iadsaccesscontrollist_get__newenum.htm
 old-project: ADSI
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,8 @@ The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enume
 
 #### - ppEnumerator [out]
 
-Pointer to pointer to the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface used to retrieve
-      <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an enumerator object for the ACL.
+Pointer to pointer to the <a href="_com_iunknown">IUnknown</a> interface used to retrieve
+      <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an enumerator object for the ACL.
 
 
 ## -returns
@@ -209,7 +209,7 @@ The following code example shows how to enumerate ACEs using <b>IADsAccessContro
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

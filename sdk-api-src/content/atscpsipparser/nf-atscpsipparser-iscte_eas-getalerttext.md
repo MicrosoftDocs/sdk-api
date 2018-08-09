@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getalerttext.htm
 old-project: mstv
 ms.assetid: 4bef1a14-b0f6-40a0-bac0-1d6c00c120e5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlertText, GetAlertText method [Microsoft TV Technologies], GetAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertText method, ISCTE_EAS.GetAlertText, ISCTE_EAS::GetAlertText, ISCTE_EASGetAlertText, atscpsipparser/ISCTE_EAS::GetAlertText, mstv.iscte_eas_getalerttext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ Receives the alert text as a <b>BSTR</b>. The caller must free the string by cal
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>

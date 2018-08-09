@@ -7,7 +7,7 @@ old-location: tsf\itfsystemlangbaritem.htm
 old-project: TSF
 ms.assetid: 9b41e787-eb90-4858-8838-8c36c7dce0c1
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfSystemLangBarItem, ITfSystemLangBarItem interface [Text Services Framework], ITfSystemLangBarItem interface [Text Services Framework],described, _tsf_itfsystemlangbaritem_ref, ctfutb/ITfSystemLangBarItem, tsf.itfsystemlangbaritem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ A system language bar menu is an object on the language bar that supports menu i
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

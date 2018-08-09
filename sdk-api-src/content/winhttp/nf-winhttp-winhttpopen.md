@@ -4,10 +4,10 @@ title: WinHttpOpen function
 author: windows-sdk-content
 description: Initializes, for an application, the use of WinHTTP functions and returns a WinHTTP-session handle.
 old-location: http\winhttpopen.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_FLAG_ASYNC, WinHttpOpen, WinHttpOpen function [WinHTTP], http.winhttpopen, winhttp.winhttpopen_function, winhttp/WinHttpOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ The <b>WinHttpOpen</b> function initializes, for an application, the use of WinH
 
 
 
-### -param pszAgentW
+### -param pszAgentW [in, optional]
 
-TBD
+A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="glossary.htm">user agent</a> in the HTTP protocol.
 
 
 ### -param dwAccessType [in]
@@ -128,14 +128,23 @@ Uses system and per-user proxy settings (including the Internet Explorer proxy c
  
 
 
-### -param pszProxyW
+### -param pszProxyW [in]
 
-TBD
+A pointer to a string variable that contains the name of the proxy server to use when proxy access is specified by setting 
+<i>dwAccessType</i> to 
+<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>.  The WinHTTP functions recognize only CERN type proxies for HTTP. If 
+<i>dwAccessType</i> is not set to 
+<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_NAME</b>.
 
 
-### -param pszProxyBypassW
+### -param pszProxyBypassW [in]
 
-TBD
+A pointer to a string variable that contains an optional semicolon delimited list of host names or IP addresses, or both, that should not be routed through the proxy when 
+<i>dwAccessType</i> is set to 
+<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>. The list can contain wildcard characters. Do not use an empty string, because the 
+<b>WinHttpOpen</b> function  uses it as the proxy bypass list. If this parameter specifies the "&lt;local&gt;" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If 
+<i>dwAccessType</i> is not set to 
+<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_BYPASS</b>.
 
 
 ### -param dwFlags [in]
@@ -160,30 +169,6 @@ Use the WinHTTP functions asynchronously.  By default, all WinHTTP functions tha
 </tr>
 </table>
  
-
-
-#### - pwszProxyBypass [in]
-
-A pointer to a string variable that contains an optional semicolon delimited list of host names or IP addresses, or both, that should not be routed through the proxy when 
-<i>dwAccessType</i> is set to 
-<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>. The list can contain wildcard characters. Do not use an empty string, because the 
-<b>WinHttpOpen</b> function  uses it as the proxy bypass list. If this parameter specifies the "&lt;local&gt;" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If 
-<i>dwAccessType</i> is not set to 
-<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_BYPASS</b>.
-
-
-#### - pwszProxyName [in]
-
-A pointer to a string variable that contains the name of the proxy server to use when proxy access is specified by setting 
-<i>dwAccessType</i> to 
-<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>.  The WinHTTP functions recognize only CERN type proxies for HTTP. If 
-<i>dwAccessType</i> is not set to 
-<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_NAME</b>.
-
-
-#### - pwszUserAgent [in, optional]
-
-A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">user agent</a> in the HTTP protocol.
 
 
 ## -returns

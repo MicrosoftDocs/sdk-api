@@ -7,7 +7,7 @@ old-location: gdi\playmetafilerecord.htm
 old-project: gdi
 ms.assetid: bea22981-dc77-4de2-b6dc-d6a4f4b74bbd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PlayMetaFileRecord, PlayMetaFileRecord function [Windows GDI], _win32_PlayMetaFileRecord, gdi.playmetafilerecord, wingdi/PlayMetaFileRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,34 +66,17 @@ The <b>PlayMetaFileRecord</b> function plays a Windows-format metafile record by
 A handle to a device context.
 
 
-### -param lpHandleTable
-
-TBD
-
-
-### -param lpMR
-
-TBD
-
-
-### -param noObjs
-
-TBD
-
-
-
-
-#### - lpHandletable [in]
+### -param lpHandleTable [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/c0c03c7d-baac-4b59-ba2f-8f6330651b49">HANDLETABLE</a> structure representing the table of handles to GDI objects used when playing the metafile.
 
 
-#### - lpMetaRecord [in]
+### -param lpMR [in]
 
 A pointer to the Windows-format metafile record.
 
 
-#### - nHandles [in]
+### -param noObjs [in]
 
 The number of handles in the handle table.
 

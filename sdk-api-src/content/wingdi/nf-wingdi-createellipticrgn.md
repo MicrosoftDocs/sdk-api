@@ -7,7 +7,7 @@ old-location: gdi\createellipticrgn.htm
 old-project: gdi
 ms.assetid: b4e9b210-8e22-42db-bb6e-65f1fb870eff
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreateEllipticRgn, CreateEllipticRgn function [Windows GDI], _win32_CreateEllipticRgn, gdi.createellipticrgn, wingdi/CreateEllipticRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,46 +61,24 @@ The <b>CreateEllipticRgn</b> function creates an elliptical region.
 
 
 
-### -param x1
-
-TBD
-
-
-### -param y1
-
-TBD
-
-
-### -param x2
-
-TBD
-
-
-### -param y2
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-Specifies the y-coordinate in logical units, of the lower-right corner of the bounding rectangle of the ellipse.
-
-
-#### - nLeftRect [in]
+### -param x1 [in]
 
 Specifies the x-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse.
 
 
-#### - nRightRect [in]
+### -param y1 [in]
+
+Specifies the y-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse.
+
+
+### -param x2 [in]
 
 Specifies the x-coordinate in logical units, of the lower-right corner of the bounding rectangle of the ellipse.
 
 
-#### - nTopRect [in]
+### -param y2 [in]
 
-Specifies the y-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse.
+Specifies the y-coordinate in logical units, of the lower-right corner of the bounding rectangle of the ellipse.
 
 
 ## -returns

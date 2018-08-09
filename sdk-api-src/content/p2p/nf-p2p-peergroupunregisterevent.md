@@ -7,7 +7,7 @@ old-location: p2p\peergroupunregisterevent.htm
 old-project: p2psdk
 ms.assetid: ad13cbf6-0dc9-4de5-aae7-2ecf6af90ea6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupUnregisterEvent, PeerGroupUnregisterEvent function [Peer Networking], p2p.peergroupunregisterevent, p2p/PeerGroupUnregisterEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupUnregisterEvent</b> function unregisters a peer from notification of peer events associated with the supplied event handle.
+The <b>PeerGroupUnregisterEvent</b> function unregisters a peer from notification of peer events associated with the supplied event handle.
 
 
 ## -parameters

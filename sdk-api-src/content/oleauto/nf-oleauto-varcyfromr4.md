@@ -7,7 +7,7 @@ old-location: automat\varcyfromr4.htm
 old-project: automat
 ms.assetid: 6ee9eb83-5358-496e-ba4d-8ad529bc42ca
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarCyFromR4, VarCyFromR4 function [Automation], _oa96_VarCyFromR4, automat.varcyfromr4, oleauto/VarCyFromR4
 ms.prod: windows
 ms.technology: windows-sdk

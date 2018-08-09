@@ -7,7 +7,7 @@ old-location: display\xformobj_bapplyxform.htm
 old-project: display
 ms.assetid: a9267d2a-96ab-4518-8045-428ab74bd599
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,27 +64,7 @@ The <b>XFORMOBJ_bApplyXform</b> function applies the given transform or its inve
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
 
 
-### -param __out_validated
-
-TBD
-
-
-### -param cPoints
-
-Specifies the count of points in <i>pvIn</i> to be transformed.
-
-
-### -param pvIn
-
-Pointer to an array of input points. The format of the points is specified by the <i>iMode</i> parameter.
-
-
-### -param pvOut
-
-Pointer to the buffer that is to receive the transformed points. The <i>iMode</i> parameter specifies the format of the points.
-
-
-#### - iMode [in]
+### -param __out_validated [in]
 
 Identifies the transform and the input and output data types. This parameter can be one of the following:
 
@@ -135,6 +115,21 @@ Applies the transform to POINTL structures to get POINTL structures.
 </tr>
 </table>
  
+
+
+### -param cPoints
+
+Specifies the count of points in <i>pvIn</i> to be transformed.
+
+
+### -param pvIn
+
+Pointer to an array of input points. The format of the points is specified by the <i>iMode</i> parameter.
+
+
+### -param pvOut
+
+Pointer to the buffer that is to receive the transformed points. The <i>iMode</i> parameter specifies the format of the points.
 
 
 ## -returns

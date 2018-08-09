@@ -7,7 +7,7 @@ old-location: shell\IShellTaskScheduler_RemoveTasks.htm
 old-project: shell
 ms.assetid: a160cfcf-f989-4a7c-9da0-97d658c151b9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],RemoveTasks method, IShellTaskScheduler.RemoveTasks, IShellTaskScheduler::RemoveTasks, RemoveTasks, RemoveTasks method [Windows Shell], RemoveTasks method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_RemoveTasks, shell.IShellTaskScheduler_RemoveTasks, shobjidl_core/IShellTaskScheduler::RemoveTasks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ A GUID identifying the owner of the tasks to remove.
 
 Type: <b>DWORD_PTR</b>
 
-
-          A pointer to a user-defined <b>DWORD</b> value that allows the task to be identified within the tasks owned by <i>rtoid</i>. Set this value to 0 to remove all tasks for the owner specified by <i>rtoid</i>.
+A pointer to a user-defined <b>DWORD</b> value that allows the task to be identified within the tasks owned by <i>rtoid</i>. Set this value to 0 to remove all tasks for the owner specified by <i>rtoid</i>.
         
 
 

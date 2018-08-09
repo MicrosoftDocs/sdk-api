@@ -7,7 +7,7 @@ old-location: p2p\peergroupsenddata.htm
 old-project: p2psdk
 ms.assetid: 8dcc484d-2b96-4186-990d-c32b7b254d91
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupSendData, PeerGroupSendData function [Peer Networking], p2p.peergroupsenddata, p2p/PeerGroupSendData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupSendData</b> function sends data to a member over a neighbor or direct connection.
+The <b>PeerGroupSendData</b> function sends data to a member over a neighbor or direct connection.
 
 
 ## -parameters

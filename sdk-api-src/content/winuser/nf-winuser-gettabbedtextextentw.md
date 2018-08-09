@@ -7,7 +7,7 @@ old-location: gdi\gettabbedtextextent.htm
 old-project: gdi
 ms.assetid: 3444bb8d-4a30-47d4-b211-01f7cba39975
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTabbedTextExtent, GetTabbedTextExtent function [Windows GDI], GetTabbedTextExtentA, GetTabbedTextExtentW, _win32_GetTabbedTextExtent, gdi.gettabbedtextextent, winuser/GetTabbedTextExtent, winuser/GetTabbedTextExtentA, winuser/GetTabbedTextExtentW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>GetTabbedTextExtent</b> function computes the width and height of a chara
 
 
 
-### -param hdc
+### -param hdc [in]
 
-TBD
+A handle to the device context.
 
 
 ### -param lpString [in]
@@ -71,9 +71,9 @@ TBD
 A pointer to a character string.
 
 
-### -param chCount
+### -param chCount [in]
 
-TBD
+The length of the text string. For the ANSI function it is a BYTE count and for the Unicode function it is a WORD count. Note that for the ANSI function, characters in SBCS code pages take one byte each, while most characters in DBCS code pages take two bytes; for the Unicode function, most currently defined Unicode characters (those in the Basic Multilingual Plane (BMP)) are one WORD while Unicode surrogates are two WORDs.
 
 
 ### -param nTabPositions [in]
@@ -84,16 +84,6 @@ The number of tab-stop positions in the array pointed to by the <i>lpnTabStopPos
 ### -param lpnTabStopPositions [in]
 
 A pointer to an array containing the tab-stop positions, in device units. The tab stops must be sorted in increasing order; the smallest x-value should be the first item in the array.
-
-
-#### - hDC [in]
-
-A handle to the device context.
-
-
-#### - nCount [in]
-
-The length of the text string. For the ANSI function it is a BYTE count and for the Unicode function it is a WORD count. Note that for the ANSI function, characters in SBCS code pages take one byte each, while most characters in DBCS code pages take two bytes; for the Unicode function, most currently defined Unicode characters (those in the Basic Multilingual Plane (BMP)) are one WORD while Unicode surrogates are two WORDs.
 
 
 ## -returns

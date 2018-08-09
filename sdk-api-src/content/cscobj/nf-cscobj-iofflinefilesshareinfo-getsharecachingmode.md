@@ -7,7 +7,7 @@ old-location: of\iofflinefilesshareinfo_getsharecachingmode.htm
 old-project: offlinefiles
 ms.assetid: 0045497b-0f90-4e20-80c9-6b74e4b523b8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetShareCachingMode, GetShareCachingMode method [Offline Files], GetShareCachingMode method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareCachingMode method, IOfflineFilesShareInfo.GetShareCachingMode, IOfflineFilesShareInfo::GetShareCachingMode, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesShareInfo::GetShareCachingMode, of.iofflinefilesshareinfo_getsharecachingmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ The share is configured to allow manual caching. This value corresponds to a val
 
 #### OFFLINEFILES_CACHING_MODE_AUTO_DOC (3)
 
-The share is configured to allow automatic caching of documents. This value corresponds to a value of <b>CSC_CACHE_AUTO_REINT</b> returned by the <a href="https://msdn.microsoft.com/library/Bb525388(v=VS.85).aspx">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a> structure.
+The share is configured to allow automatic caching of documents. This value corresponds to a value of <b>CSC_CACHE_AUTO_REINT</b> returned by the <a href="netmgmt.netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a> structure.
 
 
 

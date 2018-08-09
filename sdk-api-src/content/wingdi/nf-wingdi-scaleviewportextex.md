@@ -7,7 +7,7 @@ old-location: gdi\scaleviewportextex.htm
 old-project: gdi
 ms.assetid: 8dde1322-82d7-4069-9655-a7bd3a324cb0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,54 +66,27 @@ The <b>ScaleViewportExtEx</b> function modifies the viewport for a device contex
 A handle to the device context.
 
 
-### -param xn
-
-TBD
-
-
-### -param dx
-
-TBD
-
-
-### -param yn
-
-TBD
-
-
-### -param yd
-
-TBD
-
-
-### -param lpsz
-
-TBD
-
-
-
-
-#### - Xdenom [in]
-
-The amount by which to divide the current horizontal extent.
-
-
-#### - Xnum [in]
+### -param xn [in]
 
 The amount by which to multiply the current horizontal extent.
 
 
-#### - Ydenom [in]
+### -param dx [in]
 
-The amount by which to divide the current vertical extent.
+The amount by which to divide the current horizontal extent.
 
 
-#### - Ynum [in]
+### -param yn [in]
 
 The amount by which to multiply the current vertical extent.
 
 
-#### - lpSize [out]
+### -param yd [in]
+
+The amount by which to divide the current vertical extent.
+
+
+### -param lpsz [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the previous viewport extents, in device units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 

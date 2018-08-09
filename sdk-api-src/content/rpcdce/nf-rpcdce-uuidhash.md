@@ -7,7 +7,7 @@ old-location: rpc\uuidhash.htm
 old-project: rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: UuidHash, UuidHash function [RPC], _rpc_uuidhash, rpc.uuidhash, rpcdce/UuidHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			An application calls the 
+An application calls the 
 <b>UuidHash</b> function to generate a hash value for a specified <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
 
 

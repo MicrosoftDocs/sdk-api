@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrygetnext.htm
 old-project: rras
 ms.assetid: 31e73dcb-db73-4415-8275-88f9ae010ab7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminMIBEntryGetNext, MprAdminMIBEntryGetNext function [RAS], _mpr_mpradminmibentrygetnext, mprapi/MprAdminMIBEntryGetNext, rras.mpradminmibentrygetnext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,10 @@ Handle to the router on which to execute this call. This handle is obtained from
 <a href="https://msdn.microsoft.com/8d8cba34-e5d3-42ae-9724-361802f21410">MprAdminMIBServerConnect</a>.
 
 
-### -param dwProtocolId
+### -param dwProtocolId [in]
 
-TBD
+Specifies the 
+<a href="https://msdn.microsoft.com/7720c34f-0558-49de-8f82-13a67e2c8c69">router manager</a> that exported the variable.
 
 
 ### -param dwRoutingPid [in]
@@ -95,20 +96,7 @@ Pointer to a pointer variable. On successful return, this pointer variable point
 <a href="https://msdn.microsoft.com/cee21427-42bc-45df-ad95-c8aa81041776">MprAdminMIBBufferFree</a>.
 
 
-### -param lpOutEntrySize
-
-TBD
-
-
-
-
-#### - dwTransportId [in]
-
-Specifies the 
-<a href="https://msdn.microsoft.com/7720c34f-0558-49de-8f82-13a67e2c8c69">router manager</a> that exported the variable.
-
-
-#### - lpdwOutEntrySize [out]
+### -param lpOutEntrySize [out]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the size in bytes of the data structure returned through the <i>lplpOutEntry</i> parameter.
 

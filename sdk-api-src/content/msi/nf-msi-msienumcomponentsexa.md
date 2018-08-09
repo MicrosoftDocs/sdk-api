@@ -4,10 +4,10 @@ title: MsiEnumComponentsExA function
 author: windows-sdk-content
 description: The MsiEnumComponentsEx function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language.
 old-location: setup\msienumcomponentsex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: c804cd64-7bb5-4dd1-aca2-94455cc99a15
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumComponentsEx, MsiEnumComponentsEx function [Setup API], MsiEnumComponentsExA, MsiEnumComponentsExW, NULL, User SID, msi/MsiEnumComponentsEx, msi/MsiEnumComponentsExA, msi/MsiEnumComponentsExW, s-1-1-0, setup.msienumcomponentsex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -276,8 +276,7 @@ This parameter can be set to <b>NULL</b> only if <i>szSid</i> is also <b>NULL</b
 
 
 
-
-					The <a href="https://msdn.microsoft.com/33daeadc-021f-403e-808b-81a9915ae854">MsiEnumProductsEx</a> function returns one of the following values.
+The <a href="https://msdn.microsoft.com/33daeadc-021f-403e-808b-81a9915ae854">MsiEnumProductsEx</a> function returns one of the following values.
 
 <table>
 <tr>

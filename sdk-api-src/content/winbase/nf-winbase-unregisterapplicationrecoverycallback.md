@@ -4,10 +4,10 @@ title: UnregisterApplicationRecoveryCallback function
 author: windows-sdk-content
 description: Removes the active instance of an application from the recovery list.
 old-location: recovery\unregisterapplicationrecoverycallback.htm
-old-project: Recovery
+old-project: recovery
 ms.assetid: 473e24d6-fddb-4935-b454-8cddfb53a02a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: UnregisterApplicationRecoveryCallback, UnregisterApplicationRecoveryCallback function [Recovery], recovery.unregisterapplicationrecoverycallback, winbase/UnregisterApplicationRecoveryCallback
 ms.prod: windows
 ms.technology: windows-sdk

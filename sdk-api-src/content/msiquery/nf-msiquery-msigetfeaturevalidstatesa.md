@@ -4,10 +4,10 @@ title: MsiGetFeatureValidStatesA function
 author: windows-sdk-content
 description: The MsiGetFeatureValidStates function returns a valid installation state.
 old-location: setup\msigetfeaturevalidstates.htm
-old-project: Msi
+old-project: msi
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The 
+The 
 <b>MsiGetFeatureValidStates</b> function returns a valid installation state.
 
 
@@ -73,14 +72,7 @@ Handle to the installation provided to a DLL custom action or obtained through <
 Specifies the feature name.
 
 
-### -param lpInstallStates
-
-TBD
-
-
-
-
-#### - pInstallState [out]
+### -param lpInstallStates [out]
 
 Receives the location to hold the valid installation states. For each valid installation state, the installer sets <i>pInstallState</i> to a combination of the following values. This parameter should not be null.
 
@@ -152,8 +144,7 @@ The feature can be configured to use the default location: local or source.
 
 
 
-
-			The 
+The 
 <b>MsiGetFeatureValidStates</b> function returns the following values:
 
 
@@ -171,8 +162,7 @@ The <b>MsiGetFeatureValidStates</b> function determines state validity by queryi
 The possible valid states for a feature are determined as follows:
 
 <ul>
-<li>
- If the feature does not contain components, both INSTALLSTATE_LOCAL and INSTALLSTATE_SOURCE are valid states for the feature.</li>
+<li>If the feature does not contain components, both INSTALLSTATE_LOCAL and INSTALLSTATE_SOURCE are valid states for the feature.</li>
 <li>If at least one component of the feature has an attribute of msidbComponentAttributesLocalOnly or msidbComponentAttributesOptional, INSTALLSTATE_LOCAL is a valid state for the feature.</li>
 <li>If at least one component of the feature has an attribute of msidbComponentAttributesSourceOnly or msidbComponentAttributesOptional, INSTALLSTATE_SOURCE is a valid state for the feature.</li>
 <li>If a file of a component that belongs to the feature is patched or from a compressed source, then INSTALLSTATE_SOURCE is not included as a valid state for the feature.</li>
@@ -199,7 +189,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

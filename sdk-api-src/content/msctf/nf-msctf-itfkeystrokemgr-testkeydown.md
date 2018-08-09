@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_testkeydown.htm
 old-project: TSF
 ms.assetid: e1f03aff-ce6e-4bb6-ad08-666e04cf6c13
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyDown method, ITfKeystrokeMgr.TestKeyDown, ITfKeystrokeMgr::TestKeyDown, TestKeyDown, TestKeyDown method [Text Services Framework], TestKeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_testkeydown_ref, msctf/ITfKeystrokeMgr::TestKeyDown, tsf.itfkeystrokemgr_testkeydown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,12 +60,12 @@ req.product: GDI+ 1.1
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
 
 
 ### -param pfEaten [out]
@@ -156,8 +156,7 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 
-<a href="https://msdn.microsoft.com/3d8056ef-c012-4989-91ce-65ae8cd39404">
-        ITfKeyEventSink::OnTestKeyDown</a>
+<a href="https://msdn.microsoft.com/3d8056ef-c012-4989-91ce-65ae8cd39404">ITfKeyEventSink::OnTestKeyDown</a>
 
 
 
@@ -165,17 +164,15 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 
-<a href="https://msdn.microsoft.com/6eb4ad91-9431-4dec-b6cb-e58707318095">
-        ITfKeystrokeMgr::KeyDown</a>
+<a href="https://msdn.microsoft.com/6eb4ad91-9431-4dec-b6cb-e58707318095">ITfKeystrokeMgr::KeyDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/34a2b34b-3c3d-4609-a9e1-9b01ab349ae7">
-        ITfKeystrokeMgr::TestKeyUp</a>
+<a href="https://msdn.microsoft.com/34a2b34b-3c3d-4609-a9e1-9b01ab349ae7">ITfKeystrokeMgr::TestKeyUp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>
+<a href="_win32_wm_keydown">WM_KEYDOWN</a>
  
 
  

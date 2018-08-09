@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_shear.htm
 old-project: tablet
 ms.assetid: 2ae8cf5a-b113-46e8-b8c2-6605f017f826
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokes interface [Tablet PC],Shear method, IInkStrokes.Shear, IInkStrokes::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Shear, tablet.inkstrokes_shear
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ This method throws an exception if the shear is non-invertible. The shear is non
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

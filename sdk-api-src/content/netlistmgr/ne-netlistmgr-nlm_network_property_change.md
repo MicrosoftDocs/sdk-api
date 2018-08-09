@@ -7,7 +7,7 @@ old-location: nla\nlm_network_property_change.htm
 old-project: nla
 ms.assetid: 04c96793-f6a8-418b-a8d4-65e8df77933c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: NLM_NETWORK_PROPERTY_CHANGE, NLM_NETWORK_PROPERTY_CHANGE enumeration [Network Awareness], NLM_NETWORK_PROPERTY_CHANGE_CATEGORY_VALUE, NLM_NETWORK_PROPERTY_CHANGE_CONNECTION, NLM_NETWORK_PROPERTY_CHANGE_DESCRIPTION, NLM_NETWORK_PROPERTY_CHANGE_NAME, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_CATEGORY_VALUE, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_CONNECTION, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_DESCRIPTION, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_NAME, nla.nlm_network_property_change
 ms.prod: windows
 ms.technology: windows-sdk

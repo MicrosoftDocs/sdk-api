@@ -7,7 +7,7 @@ old-location: opc\iopcpartenumerator_movenext.htm
 old-project: OPC
 ms.assetid: 4d52bb74-53f5-4c7c-a42e-5d67e330b48c
 ms.author: windowssdkdev
-ms.date: 03/15/2018
+ms.date: 07/30/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcPartEnumerator.MoveNext, IOpcPartEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MoveNext, opc.iopcpartenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,8 +163,7 @@ The enumerator is invalid because the underlying set has changed.
 
 
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <b>MoveNext</b>
-          method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <b>MoveNext</b>method after creating the enumerator.
 
 
 #### Thread Safety

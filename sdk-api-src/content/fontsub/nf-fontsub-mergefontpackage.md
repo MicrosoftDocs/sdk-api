@@ -7,7 +7,7 @@ old-location: gdi\mergefontpackage.htm
 old-project: gdi
 ms.assetid: c51110a0-286c-4d97-9da5-4186ebf8f9b8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_DELTA, TTFMFP_SUBSET, TTFMFP_SUBSET1, _win32_MergeFontPackage, fontsub/MergeFontPackage, gdi.mergefontpackage
 ms.prod: windows
 ms.technology: windows-sdk

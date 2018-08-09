@@ -7,7 +7,7 @@ old-location: shell\IntlStrEqN.htm
 old-project: shell
 ms.assetid: ed777144-398c-4f36-bcc3-f6ba123ebfa7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IntlStrEqN, IntlStrEqN function [Windows Shell], IntlStrEqNA, IntlStrEqNW, _win32_IntlStrEqN, shell.IntlStrEqN, shlwapi/IntlStrEqN, shlwapi/IntlStrEqNA, shlwapi/IntlStrEqNW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,18 @@ Performs a case-sensitive comparison of a specified number of characters from th
 
 
 
-### -param s1
+### -param s1 [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string.
 
 
-### -param s2
+### -param s2 [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string.
 
 
 ### -param nChar [in]
@@ -76,20 +80,6 @@ TBD
 Type: <b>int</b>
 
 The number of characters to be compared, starting from the beginning of the strings.
-
-
-#### - pszStr1 [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string.
-
-
-#### - pszStr2 [in]
-
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string.
 
 
 ## -remarks

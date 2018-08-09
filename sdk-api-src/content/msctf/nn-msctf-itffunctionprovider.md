@@ -7,7 +7,7 @@ old-location: tsf\itffunctionprovider.htm
 old-project: TSF
 ms.assetid: e63fd561-1157-49b1-a981-e578d9538876
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfFunctionProvider, ITfFunctionProvider interface [Text Services Framework], ITfFunctionProvider interface [Text Services Framework],described, _tsf_itffunctionprovider_ref, msctf/ITfFunctionProvider, tsf.itffunctionprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,13 +118,12 @@ A function provider is registered by calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/1689dedb-c168-4a05-b598-517c87d9afbd">
-        ITFSourceSingle::UnadviseSingleSink
+<a href="https://msdn.microsoft.com/1689dedb-c168-4a05-b598-517c87d9afbd">ITFSourceSingle::UnadviseSingleSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

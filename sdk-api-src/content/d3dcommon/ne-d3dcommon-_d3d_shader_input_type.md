@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_input_type.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_input_type.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 916808bd-9c2a-6f27-6001-74cdb922f16d, D3D10_SHADER_INPUT_TYPE, D3D10_SHADER_INPUT_TYPE enumeration [Direct3D 10], D3D10_SIT_CBUFFER, D3D10_SIT_SAMPLER, D3D10_SIT_TBUFFER, D3D10_SIT_TEXTURE, D3D11_SIT_BYTEADDRESS, D3D11_SIT_STRUCTURED, D3D11_SIT_UAV_APPEND_STRUCTURED, D3D11_SIT_UAV_CONSUME_STRUCTURED, D3D11_SIT_UAV_RWBYTEADDRESS, D3D11_SIT_UAV_RWSTRUCTURED, D3D11_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, D3D11_SIT_UAV_RWTYPED, D3D_SHADER_INPUT_TYPE, LPD3D10_SHADER_INPUT_TYPE, LPD3D10_SHADER_INPUT_TYPE enumeration pointer [Direct3D 10], _D3D_SHADER_INPUT_TYPE, d3d10shader/D3D10_SHADER_INPUT_TYPE, d3d10shader/D3D10_SIT_CBUFFER, d3d10shader/D3D10_SIT_SAMPLER, d3d10shader/D3D10_SIT_TBUFFER, d3d10shader/D3D10_SIT_TEXTURE, d3d10shader/D3D11_SIT_BYTEADDRESS, d3d10shader/D3D11_SIT_STRUCTURED, d3d10shader/D3D11_SIT_UAV_APPEND_STRUCTURED, d3d10shader/D3D11_SIT_UAV_CONSUME_STRUCTURED, d3d10shader/D3D11_SIT_UAV_RWBYTEADDRESS, d3d10shader/D3D11_SIT_UAV_RWSTRUCTURED, d3d10shader/D3D11_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, d3d10shader/D3D11_SIT_UAV_RWTYPED, d3d10shader/LPD3D10_SHADER_INPUT_TYPE, d3dcommon/D3D10_SHADER_INPUT_TYPE, d3dcommon/D3D10_SIT_CBUFFER, d3dcommon/D3D10_SIT_SAMPLER, d3dcommon/D3D10_SIT_TBUFFER, d3dcommon/D3D10_SIT_TEXTURE, d3dcommon/D3D11_SIT_BYTEADDRESS, d3dcommon/D3D11_SIT_STRUCTURED, d3dcommon/D3D11_SIT_UAV_APPEND_STRUCTURED, d3dcommon/D3D11_SIT_UAV_CONSUME_STRUCTURED, d3dcommon/D3D11_SIT_UAV_RWBYTEADDRESS, d3dcommon/D3D11_SIT_UAV_RWSTRUCTURED, d3dcommon/D3D11_SIT_UAV_RWSTRUCTURED_WITH_COUNTER, d3dcommon/D3D11_SIT_UAV_RWTYPED, d3dcommon/LPD3D10_SHADER_INPUT_TYPE, direct3d10.d3d10_shader_input_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,7 +161,7 @@ The shader resource is a read-and-write structured buffer that uses the built-in
 
 
 
-These flags describe a shader resource that is used as an input in a shader-input-signature description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172433(v=VS.85).aspx">D3D10_SHADER_INPUT_BIND_DESC</a>).
+These flags describe a shader resource that is used as an input in a shader-input-signature description (see <a href="https://msdn.microsoft.com/8929f7d4-6fd0-4b48-b1d8-0b089d4c730d">D3D10_SHADER_INPUT_BIND_DESC</a>).
 
 The types in a structured buffer describe the structure of the elements in the buffer. The layout of these types generally match their C++ struct counterparts, and are available through the type-reflection system. The following examples show structured buffers:
 
@@ -197,7 +197,7 @@ typedef D3D_SHADER_INPUT_TYPE D3D10_SHADER_INPUT_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

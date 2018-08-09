@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies.htm
 old-project: seccertenroll
 ms.assetid: 2503adcb-0b73-42ef-98cf-a2b906e34ef7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ICertificatePolicies interface [Security],described, certenroll/ICertificatePolicies, security.icertificatepolicies
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>ICertificatePolicies</b> interface contains methods and properties that e
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificatePolicies</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertificatePolicies</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificatePolicies</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertificatePolicies</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -155,7 +155,7 @@ Retrieves an object from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\mfnominalrange.htm
 old-project: medfound
 ms.assetid: fe7547f8-84cd-461a-8d33-dbc0b90add37
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFNominalRange, MFNominalRange enumeration [Media Foundation], MFNominalRange_0_255, MFNominalRange_16_235, MFNominalRange_48_208, MFNominalRange_64_127, MFNominalRange_Normal, MFNominalRange_Unknown, MFNominalRange_Wide, _MFNominalRange, fe7547f8-84cd-461a-8d33-dbc0b90add37, mf.mfnominalrange, mfobjects/MFNominalRange, mfobjects/MFNominalRange_0_255, mfobjects/MFNominalRange_16_235, mfobjects/MFNominalRange_48_208, mfobjects/MFNominalRange_64_127, mfobjects/MFNominalRange_Normal, mfobjects/MFNominalRange_Unknown, mfobjects/MFNominalRange_Wide
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,43 +63,37 @@ Specifies whether color data includes headroom and toeroom. Headroom allows for 
 
 ### -field MFNominalRange_Unknown
 
-
-            Unknown nominal range.
+Unknown nominal range.
           
 
 
 ### -field MFNominalRange_Normal
 
-
-            Equivalent to MFNominalRange_0_255.
+Equivalent to MFNominalRange_0_255.
           
 
 
 ### -field MFNominalRange_Wide
 
-
-            Equivalent to MFNominalRange_16_235.
+Equivalent to MFNominalRange_16_235.
           
 
 
 ### -field MFNominalRange_0_255
 
-
-            The normalized range [0...1] maps to [0...255] for 8-bit samples or [0...1023] for 10-bit samples.
+The normalized range [0...1] maps to [0...255] for 8-bit samples or [0...1023] for 10-bit samples.
           
 
 
 ### -field MFNominalRange_16_235
 
-
-            The normalized range [0...1] maps to [16...235] for 8-bit samples or [64...940] for 10-bit samples.
+The normalized range [0...1] maps to [16...235] for 8-bit samples or [64...940] for 10-bit samples.
           
 
 
 ### -field MFNominalRange_48_208
 
-
-            The normalized range [0..1] maps to [48...208] for 8-bit samples or [64...940] for 10-bit samples.
+The normalized range [0..1] maps to [48...208] for 8-bit samples or [64...940] for 10-bit samples.
           
 
 
@@ -122,12 +116,10 @@ The normalized range [0..1] maps to [64...127] for 8-bit samples or [256...508] 
 
 
 
-
-        This enumeration is used with the <a href="https://msdn.microsoft.com/7b2b809e-aae4-401c-816a-626fb88f5f87">MF_MT_VIDEO_NOMINAL_RANGE</a> attribute.
+This enumeration is used with the <a href="https://msdn.microsoft.com/7b2b809e-aae4-401c-816a-626fb88f5f87">MF_MT_VIDEO_NOMINAL_RANGE</a> attribute.
       
 
-
-        For more information about these values, see the remarks for the <a href="https://msdn.microsoft.com/ebc146e4-517f-4413-93dc-66cf4b3a04c3">DXVA2_NominalRange</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://msdn.microsoft.com/ebc146e4-517f-4413-93dc-66cf4b3a04c3">DXVA2_NominalRange</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
       
 
 

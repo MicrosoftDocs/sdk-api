@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromResource.htm
 old-project: properties
 ms.assetid: ae309a04-7b21-46ef-b481-2593dc162e19
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: InitVariantFromResource, InitVariantFromResource function [Windows Properties], _shell_InitVariantFromResource, properties.InitVariantFromResource, propvarutil/InitVariantFromResource, shell.InitVariantFromResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_BSTR variant. If the resource does not exist, this function initial
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762334(v=VS.85).aspx">InitVariantFromResource</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromResource">InitVariantFromResource</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,23 +131,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762304(v=VS.85).aspx">InitPropVariantFromResource</a>
+<a href="shell.InitPropVariantFromResource">InitPropVariantFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776617(v=VS.85).aspx">VariantToString</a>
+<a href="shell.VariantToString">VariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776621(v=VS.85).aspx">VariantToStringWithDefault</a>
+<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
  
 
  

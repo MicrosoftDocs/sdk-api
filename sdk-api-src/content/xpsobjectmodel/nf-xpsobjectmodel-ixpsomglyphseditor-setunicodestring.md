@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_setunicodestring.htm
 old-project: printdocs
 ms.assetid: 68d5ab7d-63e4-403d-a689-6fc0a10e007c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetUnicodeString method, IXpsOMGlyphsEditor.SetUnicodeString, IXpsOMGlyphsEditor::SetUnicodeString, SetUnicodeString, SetUnicodeString method [XPS Documents and Packaging], SetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::SetUnicodeString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rpc\ndr_user_marshal_info.htm
 old-project: rpc
 ms.assetid: 3c7b4cd4-fb72-40a6-9450-4edf82cade2c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NDR_USER_MARSHAL_INFO, NDR_USER_MARSHAL_INFO structure [RPC], _NDR_USER_MARSHAL_INFO, _rpc_ndr_user_marshal_info, rpc.ndr_user_marshal_info, rpcndr/NDR_USER_MARSHAL_INFO
 ms.prod: windows
 ms.technology: windows-sdk

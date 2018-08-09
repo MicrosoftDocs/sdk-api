@@ -7,7 +7,7 @@ old-location: tsf\itfpropertystore.htm
 old-project: TSF
 ms.assetid: 0678e622-3733-499b-b289-c8c181d4638c
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], ITfPropertyStore interface [Text Services Framework],described, _tsf_itfpropertystore_ref, msctf/ITfPropertyStore, tsf.itfpropertystore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ Called when the text that the property store applies to is truncated.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imfcollection_getelement.htm
 old-project: medfound
 ms.assetid: a45983a8-4061-40e1-a11a-67de0867e553
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetElement, GetElement method [Media Foundation], GetElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElement method, IMFCollection.GetElement, IMFCollection::GetElement, a45983a8-4061-40e1-a11a-67de0867e553, mf.imfcollection_getelement, mfobjects/IMFCollection::GetElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ Retrieves an object in the collection.
 
 ### -param dwElementIndex [in]
 
-
-            Zero-based index of the object to retrieve. Objects are indexed in the order in which they were added to the collection.
+Zero-based index of the object to retrieve. Objects are indexed in the order in which they were added to the collection.
           
 
 
 ### -param ppUnkElement [out]
 
-
-            Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface. The retrieved pointer value might be <b>NULL</b>.
+Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface. The retrieved pointer value might be <b>NULL</b>.
           
 
 
@@ -90,8 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        This method does not remove the object from the collection. To remove an object, call <a href="https://msdn.microsoft.com/47f33235-6bb5-4103-82b4-87210b0e695c">IMFCollection::RemoveElement</a>.
+This method does not remove the object from the collection. To remove an object, call <a href="https://msdn.microsoft.com/47f33235-6bb5-4103-82b4-87210b0e695c">IMFCollection::RemoveElement</a>.
       
 
 

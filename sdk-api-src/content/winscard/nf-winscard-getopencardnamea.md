@@ -4,10 +4,10 @@ title: GetOpenCardNameA function
 author: windows-sdk-content
 description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
 old-location: security\getopencardname.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNameA, GetOpenCardNameW, _smart_getopencardname, security.getopencardname, winscard/GetOpenCardName, winscard/GetOpenCardNameA, winscard/GetOpenCardNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,7 @@ The <b>GetOpenCardName</b> function displays the <a href="https://msdn.microsoft
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - pDlgStruc [in]
+### -param Arg1 [in]
 
 A pointer to the 
 <a href="https://msdn.microsoft.com/b409a6fc-2cfd-491e-8f4c-f8567df7b08f">OPENCARDNAME</a> structure for the "select card" dialog box.
@@ -109,7 +102,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceguidtoluid.htm
 old-project: iphlp
 ms.assetid: cae669dc-899b-4485-b70a-5f58207a07df
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: ConvertInterfaceGuidToLuid, ConvertInterfaceGuidToLuid function [IP Helper], iphlp.convertinterfaceguidtoluid, netioapi/ConvertInterfaceGuidToLuid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,9 +103,7 @@ One of the parameters was invalid. This error is returned if either the <i>Inter
 
 
 
-The <b>ConvertInterfaceGuidToLuid</b> function is available on Windows Vista
-  
-   and later.
+The <b>ConvertInterfaceGuidToLuid</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceGuidToLuid</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent2.htm
 old-project: DirectShow
 ms.assetid: cf8381f2-2ef0-4169-8029-bce36bf3d6a9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], IAMMediaContent2 interface [DirectShow],described, IAMMediaContent2Interface, dshow.iammediacontent2, qnetwork/IAMMediaContent2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <code>IAMMediaContent2</code> interface retrieves custom parameters and play
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -122,7 +122,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates.htm
 old-project: TSF
 ms.assetid: 4daef7e9-e5ab-4eb8-acb6-a475b84d4de6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework],described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,8 +112,7 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 
 
-<a href="https://msdn.microsoft.com/f63799a1-2284-4da8-933c-f3616c1cb295">
-        ITfCandidateList::EnumCandidates
+<a href="https://msdn.microsoft.com/f63799a1-2284-4da8-933c-f3616c1cb295">ITfCandidateList::EnumCandidates
       </a>
 
 
@@ -123,7 +122,7 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

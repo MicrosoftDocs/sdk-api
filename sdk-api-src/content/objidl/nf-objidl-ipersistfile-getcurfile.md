@@ -7,7 +7,7 @@ old-location: com\ipersistfile_getcurfile.htm
 old-project: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersistFile interface, IPersistFile interface [COM],GetCurFile method, IPersistFile.GetCurFile, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,8 +132,6 @@ The operation failed due to some reason other than insufficient memory.
 This method allocates memory for the string returned in the <i>ppszFileName</i> parameter using the <a href="https://msdn.microsoft.com/c9c9bdac-965f-4b18-9338-28a025930480">IMalloc::Alloc</a> method. The caller is responsible for calling the <a href="https://msdn.microsoft.com/d65411ea-13d5-4932-a757-d897311e9e28">IMalloc::Free</a> method to free the string. Both the caller and this method use the OLE task allocator provided by a call to <a href="https://msdn.microsoft.com/d1d09fbe-ca5c-4480-b807-3afcc043ccb9">CoGetMalloc</a>.
 
 The file name returned in <i>ppszFileName</i> is the name specified in a call to <a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> when the document was loaded; or in <a href="https://msdn.microsoft.com/eda29981-0c24-409a-8fb9-2dc2eb96d108">IPersistFile::SaveCompleted</a> if the document was saved to a different file.
-
-
 
 If the object does not have a current working file, it should provide the default prompt that it would display in a <b>Save As</b> dialog box. For example, the default save prompt for a word processor object could be
 

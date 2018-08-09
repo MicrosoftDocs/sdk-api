@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_extractstrokes.htm
 old-project: tablet
 ms.assetid: 1cb109e5-5193-4022-a3b1-ade9be1337e8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 1cb109e5-5193-4022-a3b1-ade9be1337e8, ExtractStrokes, ExtractStrokes method [Tablet PC], ExtractStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractStrokes method, IInkDisp.ExtractStrokes, IInkDisp::ExtractStrokes, msinkaut/IInkDisp::ExtractStrokes, tablet.inkdisp_extractstrokes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,12 @@ Specifies the strokes to extract from an <a href="https://msdn.microsoft.com/f94
 
 ### -param Strokes [in, optional]
 
-
-             Optional. Specifies the collection of strokes to extract. The default value is 0, which specifies that all strokes are extracted.
+Optional. Specifies the collection of strokes to extract. The default value is 0, which specifies that all strokes are extracted.
 
 
 ### -param ExtractFlags [in, optional]
 
-
-            
-            Optional. Specifies the <a href="https://msdn.microsoft.com/22dd44bb-2175-420f-b5fd-4648ebe489a5">InkExtractFlags Enumeration</a> type, which specifies whether the ink is cut or copied into the new Ink object. The default value is IEF_DEFAULT, which cuts the strokes.
+Optional. Specifies the <a href="https://msdn.microsoft.com/22dd44bb-2175-420f-b5fd-4648ebe489a5">InkExtractFlags Enumeration</a> type, which specifies whether the ink is cut or copied into the new Ink object. The default value is IEF_DEFAULT, which cuts the strokes.
           
 
 
@@ -111,8 +108,7 @@ Success
 </dl>
 </td>
 <td width="60%">
-
-                A parameter contained an invalid pointer.
+A parameter contained an invalid pointer.
               
 
 </td>
@@ -124,8 +120,7 @@ Success
 </dl>
 </td>
 <td width="60%">
-
-                The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a> object of the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a> collection must match the known <b>InkDisp Class</b>.
+The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a> object of the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a> collection must match the known <b>InkDisp Class</b>.
 
 
 </td>
@@ -137,8 +132,7 @@ Success
 </dl>
 </td>
 <td width="60%">
-
-                An exception occurred inside the method.
+An exception occurred inside the method.
               
 
 </td>
@@ -161,8 +155,7 @@ Not all strokes were extracted.
 </dl>
 </td>
 <td width="60%">
-
-                Cannot allocate memory that is used to perform the operation.
+Cannot allocate memory that is used to perform the operation.
               
 
 </td>
@@ -174,8 +167,7 @@ Not all strokes were extracted.
 </dl>
 </td>
 <td width="60%">
-
-                Invalid extraction flags.
+Invalid extraction flags.
 
 </td>
 </tr>
@@ -186,8 +178,7 @@ Not all strokes were extracted.
 </dl>
 </td>
 <td width="60%">
-
-                The 
+The 
               <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a> object class is not registered.
 
 </td>
@@ -207,7 +198,7 @@ Not all strokes were extracted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: automat\bstr_userunmarshal.htm
 old-project: automat
 ms.assetid: d0a6229e-7091-4859-b539-d1e29044171a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: BSTR_UserUnmarshal, BSTR_UserUnmarshal function [Automation], _oa96_BSTR_UserUnmarshal, automat.bstr_userunmarshal, oaidl/BSTR_UserUnmarshal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ TBD
 
 
 
-#### - pBstr [out]
+#### - [in]
 
-The object.
+The data used by RPC.
 
 
 #### - pBuffer [in]
@@ -76,9 +76,9 @@ The object.
 The current buffer. This pointer may or may not be aligned on entry.
 
 
-#### - pFlags [in]
+#### - pBstr [out]
 
-The data used by RPC.
+The object.
 
 
 ## -returns

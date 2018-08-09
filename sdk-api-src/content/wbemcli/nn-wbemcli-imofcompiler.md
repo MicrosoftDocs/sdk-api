@@ -7,7 +7,7 @@ old-location: wmi\imofcompiler.htm
 old-project: WmiSdk
 ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 The 
-<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa390816(v=VS.85).aspx">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
+<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="gloss_m.htm">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
 
 
 ## -inheritance

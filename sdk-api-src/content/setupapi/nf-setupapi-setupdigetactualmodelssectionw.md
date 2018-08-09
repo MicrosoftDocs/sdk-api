@@ -7,7 +7,7 @@ old-location: devinst\setupdigetactualmodelssection.htm
 old-project: devinst
 ms.assetid: 8338989a-ef99-479c-8163-ad8d65eba32b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetupDiGetActualModelsSection, SetupDiGetActualModelsSection function [Device and Driver Installation], SetupDiGetActualModelsSectionA, SetupDiGetActualModelsSectionW, devinst.setupdigetactualmodelssection, di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml, setupapi/SetupDiGetActualModelsSection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,14 @@ A pointer to an INF file context that specifies a <i>manufacturer-identifier</i>
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552338">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
 
 
-### -param InfSectionWithExt
+### -param InfSectionWithExt [out, optional]
 
-TBD
+A pointer to a buffer that receives a string that contains the decorated INF <i>Models</i> section name and a NULL terminator. If <i>AlternatePlatformInfo</i> is not supplied, the decorated INF <i>Models</i> section name applies to the current platform; otherwise the name applies to the specified alternative platform. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, the function returns <b>TRUE</b> and sets <i>RequiredSize</i> to the size, in characters, that is required to return the decorated <i>Models</i> section name and a terminating NULL character. 
 
 
-### -param InfSectionWithExtSize
+### -param InfSectionWithExtSize [in]
 
-TBD
+ The size, in characters, of the <i>DecoratedModelsSection </i>buffer. If <i>DecoratedModelsSection</i> is <b>NULL</b>, this parameter must be set to zero.
 
 
 ### -param RequiredSize [out, optional]
@@ -88,16 +88,6 @@ A pointer to a DWORD-type variable that receives the size, in characters, of the
 ### -param Reserved
 
 Reserved for internal system use. This parameter must be set to <b>NULL</b>.
-
-
-#### - DecoratedModelsSection [out, optional]
-
-A pointer to a buffer that receives a string that contains the decorated INF <i>Models</i> section name and a NULL terminator. If <i>AlternatePlatformInfo</i> is not supplied, the decorated INF <i>Models</i> section name applies to the current platform; otherwise the name applies to the specified alternative platform. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, the function returns <b>TRUE</b> and sets <i>RequiredSize</i> to the size, in characters, that is required to return the decorated <i>Models</i> section name and a terminating NULL character. 
-
-
-#### - DecoratedModelsSectionSize [in]
-
- The size, in characters, of the <i>DecoratedModelsSection </i>buffer. If <i>DecoratedModelsSection</i> is <b>NULL</b>, this parameter must be set to zero.
 
 
 ## -returns

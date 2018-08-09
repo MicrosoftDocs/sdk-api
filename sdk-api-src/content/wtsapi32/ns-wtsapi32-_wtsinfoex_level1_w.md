@@ -4,10 +4,10 @@ title: "_WTSINFOEX_LEVEL1_W"
 author: windows-sdk-content
 description: Contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex_level1.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: bad4f35a-04a9-42fa-b87e-0f51e9f0f30e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWTSINFOEX_LEVEL1_W, PWTSINFOEX_LEVEL1, PWTSINFOEX_LEVEL1 structure pointer [Remote Desktop Services], WTSINFOEX_LEVEL1, WTSINFOEX_LEVEL1 structure [Remote Desktop Services], WTSINFOEX_LEVEL1_A, WTSINFOEX_LEVEL1_W, WTS_SESSIONSTATE_LOCK, WTS_SESSIONSTATE_UNKNOWN, WTS_SESSIONSTATE_UNLOCK, _WTSINFOEX_LEVEL1_W, termserv.wtsinfoex_level1, wtsapi32/PWTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1_A, wtsapi32/WTSINFOEX_LEVEL1_W"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,14 +166,14 @@ The number of bytes of compressed RDP data sent from the client to the server si
 The number of bytes of compressed RDP data sent from the server to the client since the client connected.
 
 
-##### - SessionFlags.WTS_SESSIONSTATE_LOCK (0 (0x0))
-
-The session is locked.
-
-
 ##### - SessionFlags.WTS_SESSIONSTATE_UNKNOWN (4294967295 (0xFFFFFFFF))
 
 The session state is not known.
+
+
+##### - SessionFlags.WTS_SESSIONSTATE_LOCK (0 (0x0))
+
+The session is locked.
 
 
 ##### - SessionFlags.WTS_SESSIONSTATE_UNLOCK (1 (0x1))

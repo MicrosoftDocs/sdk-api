@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::SelectCall
 author: windows-sdk-content
 description: The SelectCall method selects the current phone object onto the Call object pointed to by the pCall parameter.
 old-location: tapi3\itautomatedphonecontrol_selectcall.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b9e721cb-8f62-420d-bfc1-f8e634f0f2d4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],SelectCall method, ITAutomatedPhoneControl.SelectCall, ITAutomatedPhoneControl::SelectCall, SelectCall, SelectCall method [TAPI 2.2], SelectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_selectcall, tapi3.itautomatedphonecontrol_selectcall, tapi3if/ITAutomatedPhoneControl::SelectCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ If the <i>fSelectDefaultTerminals</i> parameter is set to VARIANT_TRUE, this met
 <b>SelectCall</b> method will return failure, and the call will not be selected on the phone. If this is not the required behavior for an application, then the application should pass in VARIANT_FALSE for the <i>fSelectDefaultTerminals</i> parameter and handle terminal selection separately.
 
 On successful completion of this method, the phone object keeps a reference to the call object (that is, it calls the 
-<a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on 
+<a href="_com_iunknown_addref">AddRef</a> method on 
 <a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>).
 
 For Windows XP, only one call at a time can be selected on a phone. Future versions of TAPI may support simultaneous selection of multiple calls for use with phones that support multiple call appearances.

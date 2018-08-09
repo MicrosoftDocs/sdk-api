@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmap_setresolution.htm
 old-project: wic
 ms.assetid: d8b6c600-0ef0-4fa7-a70f-0299e640c196
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],SetResolution method, IWICBitmap.SetResolution, IWICBitmap::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setresolution, wic._wic_codec_iwicbitmap_setresolution, wincodec/IWICBitmap::SetResolution
 ms.prod: windows
 ms.technology: windows-sdk

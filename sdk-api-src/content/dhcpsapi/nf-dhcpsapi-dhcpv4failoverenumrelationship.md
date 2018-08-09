@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failoverenumrelationship.htm
 old-project: dhcp
 ms.assetid: 81ef2af8-c1a9-44e7-857c-1591947609ed
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship function [DHCP], dhcp.dhcpv4failoverenumrelationship, dhcpsapi/DhcpV4FailoverEnumRelationship
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ Pointer to a  <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e
 Initially, this value should be zero on input. If successful, the returned value should be used for subsequent enumeration requests. For example, if <i>PreferredMaximum</i> is set to 100, and 200 reservation elements are configured on the server, the resume handle can be used after the first 100 policies are retrieved to obtain the next 100 on a subsequent call.
 
 
-### -param PreferredMaximum
+### -param PreferredMaximum [in]
 
-TBD
+The maximum number of failover relationship elements to return in <i>pRelationship</i>. If <i>PreferredMaximum</i> is greater than the number of remaining non-enumerated policies on the server, the remaining number of  non-enumerated policies is returned.
 
 
 ### -param pRelationship [out]
@@ -80,29 +80,12 @@ TBD
 Pointer to a <a href="https://msdn.microsoft.com/A4C951F9-D5C6-4210-B77D-DBBD6FF2766C">DHCP_FAILOVER_RELATIONSHIP_ARRAY</a> structure that contains an array of the failover relationships available on the DHCP server. If no relationships are configured,<i></i> this value is <b>NULL</b>.
 
 
-### -param RelationshipRead
-
-TBD
-
-
-### -param RelationshipTotal
-
-TBD
-
-
-
-
-#### - preferredMaximum [in]
-
-The maximum number of failover relationship elements to return in <i>pRelationship</i>. If <i>PreferredMaximum</i> is greater than the number of remaining non-enumerated policies on the server, the remaining number of  non-enumerated policies is returned.
-
-
-#### - relationshipRead [out]
+### -param RelationshipRead [out]
 
 Pointer to a <b>DWORD</b> that specifies the number of failover relationship elements returned in <i>pRelationship</i>.
 
 
-#### - relationshipTotal [out]
+### -param RelationshipTotal [out]
 
 Pointer to a <b>DWORD</b>  that specifies the number of failover relationships configured on the DHCP server that have not yet been enumerated.
 

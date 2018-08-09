@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassInfo::get_Company
 author: windows-sdk-content
 description: The get_Company method gets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_company.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b5595b18-264f-437f-8533-b7c87e6e7d00
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Company method, ITPluggableTerminalClassInfo.get_Company, ITPluggableTerminalClassInfo::get_Company, _tapi3_itpluggableterminalclassinfo_get_company, get_Company, get_Company method [TAPI 2.2], get_Company method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_company, tapi3if/ITPluggableTerminalClassInfo::get_Company
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pCompany [out]
 
 The <b>BSTR</b> representation of the terminal's company name. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_getgesturestatus.htm
 old-project: tablet
 ms.assetid: fdf4ce5b-0a3f-441b-bead-6297ea6c8f5e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],GetGestureStatus method, IInkOverlay.GetGestureStatus, IInkOverlay::GetGestureStatus, msinkaut/IInkOverlay::GetGestureStatus, tablet.inkoverlay_getgesturestatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -180,7 +180,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/189f430e-9d00-4e2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

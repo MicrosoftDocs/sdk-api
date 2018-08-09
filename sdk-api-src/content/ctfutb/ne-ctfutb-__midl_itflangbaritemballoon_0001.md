@@ -7,7 +7,7 @@ old-location: tsf\tflbballoonstyle.htm
 old-project: TSF
 ms.assetid: c79eb490-b950-4d49-bdf9-821f3706446d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_LB_BALLOON_MISS, TF_LB_BALLOON_RECO, TF_LB_BALLOON_SHOW, TfLBBalloonStyle, TfLBBalloonStyle enumeration [Text Services Framework], __MIDL_ITfLangBarItemBalloon_0001, _tsf_tflbballoonstyle_ref, ctfutb/TF_LB_BALLOON_MISS, ctfutb/TF_LB_BALLOON_RECO, ctfutb/TF_LB_BALLOON_SHOW, ctfutb/TfLBBalloonStyle, tsf.tflbballoonstyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,13 +79,13 @@ This balloon style is used to indicate that a command was not recognized.
 
 The following image shows an example of a balloon with the TF_LB_BALLOON_RECO style. 
 
-<img alt="TF_LB_BALLOON_RECO balloon" border="border" src="./images/Balloon_RECO.gif"/>
+<img alt="TF_LB_BALLOON_RECO balloon" border="border" src="images/Balloon_RECO.gif"/>
 The following image shows an example of a balloon with the TF_LB_BALLOON_SHOW style. 
 
-<img alt="TF_LB_BALLOON_SHOW balloon" border="border" src="./images/Balloon_SHOW.gif"/>
+<img alt="TF_LB_BALLOON_SHOW balloon" border="border" src="images/Balloon_SHOW.gif"/>
 The following image shows an example of a balloon with the TF_LB_BALLOON_MISS style. 
 
-<img alt="TF_LB_BALLOON_MISS balloon" border="border" src="./images/Balloon_MISS.gif"/>
+<img alt="TF_LB_BALLOON_MISS balloon" border="border" src="images/Balloon_MISS.gif"/>
 
 
 
@@ -94,8 +94,7 @@ The following image shows an example of a balloon with the TF_LB_BALLOON_MISS st
 
 
 
-<a href="https://msdn.microsoft.com/b395d587-02a7-496e-8bfd-8fcaba2a3edc">
-        ITfFnBalloon::UpdateBalloon
+<a href="https://msdn.microsoft.com/b395d587-02a7-496e-8bfd-8fcaba2a3edc">ITfFnBalloon::UpdateBalloon
       </a>
 
 

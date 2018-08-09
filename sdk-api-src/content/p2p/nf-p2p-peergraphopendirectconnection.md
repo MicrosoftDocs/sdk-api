@@ -7,7 +7,7 @@ old-location: p2p\peergraphopendirectconnection.htm
 old-project: p2psdk
 ms.assetid: 0625a2f6-7e16-43c7-8c03-1f0ddeda426f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphOpenDirectConnection, PeerGraphOpenDirectConnection function [Peer Networking], p2p.peergraphopendirectconnection, p2p/PeerGraphOpenDirectConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphOpenDirectConnection</b> function allows an application to establish a direct connection with a node in a peer graph. The connection can only be made if the node to which  the application is connecting has subscribed to the <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event. The application can then   send data directly to another node.  A call to this function is asynchronous.
+The <b>PeerGraphOpenDirectConnection</b> function allows an application to establish a direct connection with a node in a peer graph. The connection can only be made if the node to which  the application is connecting has subscribed to the <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event. The application can then   send data directly to another node.  A call to this function is asynchronous.
 
 
 ## -parameters
@@ -133,8 +132,7 @@ A call to <b>PeerGraphOpenDirectConnection</b> is an asynchronous call.  A <b>PE
 
 
 
-<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">
-        PEER_ADDRESS</a>
+<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a>
 
 
 

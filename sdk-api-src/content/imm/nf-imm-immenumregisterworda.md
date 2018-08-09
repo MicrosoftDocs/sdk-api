@@ -7,7 +7,7 @@ old-location: intl\immenumregisterword.htm
 old-project: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Enumerates the register strings having the specified reading string, style, and 
 
 
 
-### -param HKL
+### -param HKL [in]
 
-TBD
+Input locale identifier.
 
 
 ### -param REGISTERWORDENUMPROCA
@@ -76,9 +76,9 @@ TBD
 Pointer to the reading string to enumerate. The application sets this parameter to <b>NULL</b> if the function is to enumerate all available reading strings that match the <i>dwStyle</i> and <i>lpszRegister</i> settings.
 
 
-### -param DWORD
+### -param DWORD [in]
 
-TBD
+Style to enumerate. The application specifies 0 if the function is to enumerate all available styles that match the <i>lpszReading</i> and <i>lpszRegister</i> settings.
 
 
 ### -param lpszRegister [in, optional]
@@ -86,29 +86,12 @@ TBD
 Pointer to the register string to enumerate. The application sets this parameter to <b>NULL</b> if the function is to enumerate all register strings that match the <i>lpszReading</i> and <i>dwStyle</i> settings.
 
 
-### -param LPVOID
-
-TBD
-
-
-
-
-#### - dwStyle [in]
-
-Style to enumerate. The application specifies 0 if the function is to enumerate all available styles that match the <i>lpszReading</i> and <i>lpszRegister</i> settings.
-
-
-#### - hKL [in]
-
-Input locale identifier.
-
-
-#### - lpData [in]
+### -param LPVOID [in]
 
 Pointer to application-supplied data. The function passes this data to the callback function.
 
 
-#### - lpfnEnumProc [in]
+#### - REGISTERWORDENUMPROCW [in]
 
 Pointer to the callback function. For more information, see <a href="https://msdn.microsoft.com/06038c87-3553-47de-ba9f-b9c65ea9920b">EnumRegisterWordProc</a>.
 

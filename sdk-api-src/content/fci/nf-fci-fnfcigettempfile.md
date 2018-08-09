@@ -7,7 +7,7 @@ old-location: winprog\fnfcigettempfile.htm
 old-project: devnotes
 ms.assetid: 8978f688-d8f1-437a-b298-eed1e7dac012
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGETTEMPFILE, winprog.fnfcigettempfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,23 +59,14 @@ The <b>FNFCIGETTEMPFILE</b> macro provides the declaration for the application-d
 
 
 
-### -param fn
+### -param fn [out]
 
-TBD
-
-
-
-
+Pointer to a buffer to receive the complete temporary file name.
 
 
 #### - cbTempName [in]
 
  Size, in bytes, of the <i>pszTempName</i> buffer.
-
-
-#### - pszTempName [out]
-
-Pointer to a buffer to receive the complete temporary file name.
 
 
 #### - pv

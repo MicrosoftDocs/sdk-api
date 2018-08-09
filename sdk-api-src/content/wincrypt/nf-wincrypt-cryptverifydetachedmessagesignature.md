@@ -4,10 +4,10 @@ title: CryptVerifyDetachedMessageSignature function
 author: windows-sdk-content
 description: The CryptVerifyDetachedMessageSignature function verifies a signed message containing a detached signature or signatures.
 old-location: security\cryptverifydetachedmessagesignature.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -199,7 +199,7 @@ The message's signature was not verified.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

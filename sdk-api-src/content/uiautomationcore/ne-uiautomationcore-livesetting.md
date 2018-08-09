@@ -7,7 +7,7 @@ old-location: winauto\uiauto_LiveSetting.htm
 old-project: WinAuto
 ms.assetid: 40DD1F00-A9BC-4C84-B2A3-940E37EE9C19
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: LiveSetting, LiveSetting enumeration [Windows Accessibility], LiveSetting_Assertive, LiveSetting_Off, LiveSetting_Polite, uiautomationcore/LiveSetting, uiautomationcore/LiveSetting_Assertive, uiautomationcore/LiveSetting_Off, uiautomationcore/LiveSetting_Polite, winauto.uiauto_LiveSetting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,11 +70,6 @@ Contains possible values for the LiveSetting property. This property is implemen
 
 
 
-#### - LiveSetting_Assertive
-
-The provider element sends change notifications when the content of the live region changes, and a client should immediately notify the user of each change.
-
-
 #### - LiveSetting_Off
 
 The provider element does not send change notifications when the content of the live region changes. A client application will be aware of changes to the live region only if the client handles other events related to the elements in the live region.
@@ -83,6 +78,11 @@ The provider element does not send change notifications when the content of the 
 #### - LiveSetting_Polite
 
 The provider element sends change notifications when the content of the live region changes, but a client should not interrupt the user to inform the user of changes. Instead, the client should wait until the user is not performing high-priority actions and wants to receive low-priority notifications.
+
+
+#### - LiveSetting_Assertive
+
+The provider element sends change notifications when the content of the live region changes, and a client should immediately notify the user of each change.
 
 
 ## -see-also

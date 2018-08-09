@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getsdt.htm
 old-project: mstv
 ms.assetid: d15d1b6a-5b53-4962-89a3-9bd06e00d366
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetSDT, GetSDT method [Microsoft TV Technologies], GetSDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDT method, IIsdbSiParser2.GetSDT, IIsdbSiParser2::GetSDT, dvbsiparser/IIsdbSiParser2::GetSDT, mstv.iisdbsiparser2_getsdt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ Pointer to the transport_stream_id field. This field value uniquely identifies t
 
 ### -param ppSDT [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/a9824eb9-ec12-4a09-ba42-243fe19c0670">IISDB_SDT</a>
-interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="https://msdn.microsoft.com/a9824eb9-ec12-4a09-ba42-243fe19c0670">IISDB_SDT</a>interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 

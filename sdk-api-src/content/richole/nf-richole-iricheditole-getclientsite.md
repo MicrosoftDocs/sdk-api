@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_GetClientSite.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclientsite.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetClientSite, GetClientSite method [Windows Controls], GetClientSite method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetClientSite method, IRichEditOle.GetClientSite, IRichEditOle::GetClientSite, _win32_IRichEditOle_GetClientSite, _win32_IRichEditOle_GetClientSite_cpp, controls.IRichEditOle_GetClientSite, controls._win32_IRichEditOle_GetClientSite, richole/IRichEditOle::GetClientSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Returns <b>S_OK</b> on success, or a failure code otherwise. <b>E_OUTOFMEMORY</b
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
  
 
  

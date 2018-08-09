@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionvalues.htm
 old-project: dhcp
 ms.assetid: 4054cab9-b5f9-4ffa-8151-3ea705bc0755
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -175,8 +175,7 @@ The specified DHCPv4 client is not an IPv4 reserved client.
 
 
 
-<a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">
-		  DHCP_OPTION_VALUE_ARRAY</a>
+<a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a>
 
 
 

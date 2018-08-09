@@ -7,7 +7,7 @@ old-location: rm\drmgetenvironmentinfo.htm
 old-project: adrms_sdk
 ms.assetid: 6b6dd54f-1835-42da-b151-9da9139efeb3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetEnvironmentInfo, DRMGetEnvironmentInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetEnvironmentInfo, rm.drmgetenvironmentinfo
 ms.prod: windows
 ms.technology: windows-sdk

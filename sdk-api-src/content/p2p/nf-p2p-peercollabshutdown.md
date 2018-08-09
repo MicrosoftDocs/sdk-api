@@ -7,7 +7,7 @@ old-location: p2p\peercollabshutdown.htm
 old-project: p2psdk
 ms.assetid: 4e328188-c8a1-4ba9-817b-3d130a64b985
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabShutdown, PeerCollabShutdown function [Peer Networking], p2p.peercollabshutdown, p2p/PeerCollabShutdown
 ms.prod: windows
 ms.technology: windows-sdk

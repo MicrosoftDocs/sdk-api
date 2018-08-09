@@ -7,7 +7,7 @@ old-location: tsf\itfsystemdevicetypelangbaritem.htm
 old-project: TSF
 ms.assetid: 0dc32f10-eecd-4203-992c-80eb0f991615
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfSystemDeviceTypeLangBarItem, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework], ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],described, _tsf_itfsystemdevicetypelangbaritem_ref, ctfutb/ITfSystemDeviceTypeLangBarItem, tsf.itfsystemdevicetypelangbaritem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ Support for this interface is optional and must not be assumed.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

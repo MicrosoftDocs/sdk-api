@@ -7,7 +7,7 @@ old-location: rpc\ndrgetusermarshalinfo.htm
 old-project: rpc
 ms.assetid: 772979eb-eb1c-4e41-91bf-f64766898c8a
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
 ms.prod: windows
 ms.technology: windows-sdk

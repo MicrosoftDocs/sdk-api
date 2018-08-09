@@ -7,7 +7,7 @@ old-location: fs\deletentmslibrary.htm
 old-project: Rsm
 ms.assetid: 2bbc1463-9fbb-49d9-84d0-7b8ea231b454
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: DeleteNtmsLibrary, DeleteNtmsLibrary function [Files], _zaw_deletentmslibrary, base.deletentmslibrary, fs.deletentmslibrary, ntmsapi/DeleteNtmsLibrary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,7 +196,7 @@ You can use
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

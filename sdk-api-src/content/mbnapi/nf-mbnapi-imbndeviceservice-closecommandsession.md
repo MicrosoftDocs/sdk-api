@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_closecommandsession.htm
 old-project: mbn
 ms.assetid: B0066062-0F10-49B8-85CC-0658757BF52B
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: CloseCommandSession, CloseCommandSession method [Microsoft Broadband Networks], CloseCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseCommandSession method, IMbnDeviceService.CloseCommandSession, IMbnDeviceService::CloseCommandSession, mbn.imbndeviceservice_closecommandsession, mbnapi/IMbnDeviceService::CloseCommandSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,6 @@ An error was encountered when executing this method.
 
 
 <b>CloseCommandSession</b> closes the command session to the mobile broadband device service.
-
 
 This is an asynchronous operation and <b>CloseCommandSession</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/DD313EF9-E45A-418E-91D5-0BD16C42972A">OnCloseCommandSessionComplete</a> method of the <a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a> interface.
 

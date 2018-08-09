@@ -4,10 +4,10 @@ title: MsiGetProductCodeA function
 author: windows-sdk-content
 description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
 old-location: setup\msigetproductcode.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ The
 This parameter specifies the component code of a component that has been installed by the application. This will be typically the component code of the component containing the executable file of the application.
 
 
-### -param lpBuf39
-
-TBD
-
-
-
-
-#### - lpProductBuf [out]
+### -param lpBuf39 [out]
 
 Pointer to a buffer that receives the product code. This buffer must be 39 characters long. The first 38 characters are for the GUID, and the last character is for the terminating null character.
 

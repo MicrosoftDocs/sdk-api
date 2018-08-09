@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_ControlPanelItem.htm
 old-project: shell
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: ControlPanelItem, ControlPanelItem method [Windows Shell], ControlPanelItem method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],ControlPanelItem method, IShellDispatch.ControlPanelItem, IShellDispatch::ControlPanelItem, shell.IShellDispatch_ControlPanelItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Runs the specified Control Panel application. If the application is already open
 
 ### -param bstrDir [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 The Control Panel application's file name.
 

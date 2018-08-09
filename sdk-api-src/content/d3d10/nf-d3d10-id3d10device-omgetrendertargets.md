@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetrendertargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetrendertargets.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetRenderTargets method, ID3D10Device.OMGetRenderTargets, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get pointers to the render targets and the depth-stencil buffer that are available to the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+Get pointers to the render targets and the depth-stencil buffer that are available to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
 
 
 ## -parameters
@@ -68,16 +68,16 @@ Number of render targets to retrieve.
 
 ### -param ppRenderTargetViews [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView</a>**</b>
 
-Pointer to an array of render targets views (see <a href="https://msdn.microsoft.com/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>) to be filled with the render targets from the device. Specify <b>NULL</b> for this parameter when retrieval of a render target is not needed. 
+Pointer to an array of render targets views (see <a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView</a>) to be filled with the render targets from the device. Specify <b>NULL</b> for this parameter when retrieval of a render target is not needed. 
 
 
 ### -param ppDepthStencilView [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b88f3b61-4549-4ef7-9dda-0c2ed247d2f1">ID3D10DepthStencilView</a>**</b>
 
-Pointer to a depth-stencil view (see <a href="https://msdn.microsoft.com/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView</a>) to be filled with the depth-stencil information from the device. Specify <b>NULL</b> for this parameter when retrieval of the depth-stencil view is not needed.
+Pointer to a depth-stencil view (see <a href="https://msdn.microsoft.com/b88f3b61-4549-4ef7-9dda-0c2ed247d2f1">ID3D10DepthStencilView</a>) to be filled with the depth-stencil information from the device. Specify <b>NULL</b> for this parameter when retrieval of the depth-stencil view is not needed.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

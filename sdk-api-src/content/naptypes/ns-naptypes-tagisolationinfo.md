@@ -4,10 +4,10 @@ title: tagIsolationInfo
 author: windows-sdk-content
 description: Defines the isolation status of the machine or the connection.
 old-location: nap\isolationinfo_struct.htm
-old-project: NAP
+old-project: nap
 ms.assetid: ab5e54ab-de5d-489d-bff7-3be4f3973e7a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: IsolationInfo, IsolationInfo structure [NAP], nap.isolationinfo_struct, naptypes/IsolationInfo, tagIsolationInfo
 ms.prod: windows
 ms.technology: windows-sdk

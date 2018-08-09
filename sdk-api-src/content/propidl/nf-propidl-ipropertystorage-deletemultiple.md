@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_deletemultiple.htm
 old-project: stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeleteMultiple, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ Properties to be deleted. A mixture of property identifiers and string-named pro
 
 
 
-
-						This method supports the standard return value E_UNEXPECTED, in addition to the following:
+This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 
 

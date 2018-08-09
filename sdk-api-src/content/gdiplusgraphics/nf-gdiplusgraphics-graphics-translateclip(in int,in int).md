@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicstranslateclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics.TranslateClip, Graphics.TranslateClip(IN INT,IN INT), Graphics::TranslateClip, Graphics::TranslateClip(IN INT,IN INT), TranslateClip, TranslateClip methods [GDI+], _gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplusgraphics/TranslateClip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,19 @@ TranslateClip methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535821(v=VS.85).aspx">TranslateClip(INT,INT)</a>
+<a href="https://msdn.microsoft.com/83e053cb-0bdf-46fb-a4b8-f9cf64fa30f0">TranslateClip(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535821(v=VS.85).aspx">Graphics::TranslateClip</a> method translates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+The <a href="https://msdn.microsoft.com/83e053cb-0bdf-46fb-a4b8-f9cf64fa30f0">Graphics::TranslateClip</a> method translates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535822(v=VS.85).aspx">TranslateClip(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/323bc752-60d5-44f5-88dd-6bf0c4c0c926">TranslateClip(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535822(v=VS.85).aspx">Graphics::TranslateClip</a> method translates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+The <a href="https://msdn.microsoft.com/323bc752-60d5-44f5-88dd-6bf0c4c0c926">Graphics::TranslateClip</a> method translates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 </td>
 </tr>

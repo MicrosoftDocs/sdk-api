@@ -4,10 +4,10 @@ title: SCardGetProviderIdA function
 author: windows-sdk-content
 description: Returns the identifier (GUID) of the primary service provider for a given card.
 old-location: security\scardgetproviderid.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

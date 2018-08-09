@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader6.htm
 old-project: appxpkg
 ms.assetid: A800DF1D-7957-49AA-B77C-D8019BE826D7
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxManifestReader6, IAppxManifestReader6 interface [App packaging and management], IAppxManifestReader6 interface [App packaging and management],described, appxpackaging/IAppxManifestReader6, appxpkg.iappxmanifestreader6
 ms.prod: windows
 ms.technology: windows-sdk

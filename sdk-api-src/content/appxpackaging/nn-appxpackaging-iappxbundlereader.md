@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader.htm
 old-project: appxpkg
 ms.assetid: 3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: IAppxBundleReader, IAppxBundleReader interface [App packaging and management], IAppxBundleReader interface [App packaging and management],described, appxpackaging/IAppxBundleReader, appxpkg.iappxbundlereader
 ms.prod: windows
 ms.technology: windows-sdk

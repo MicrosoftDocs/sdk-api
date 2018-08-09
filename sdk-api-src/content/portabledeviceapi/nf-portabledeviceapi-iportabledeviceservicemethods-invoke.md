@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemethods_invoke.htm
 old-project: wpd_sdk
 ms.assetid: 9c972815-c95a-4718-abac-dcc28a2198e1
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
 ms.prod: windows
 ms.technology: windows-sdk

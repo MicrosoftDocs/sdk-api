@@ -7,7 +7,7 @@ old-location: shell\SHFindFiles.htm
 old-project: shell
 ms.assetid: c54036c2-e6b9-4b21-b2b2-a6721c502ee5
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHFindFiles, SHFindFiles function [Windows Shell], _win32_SHFindFiles, shell.SHFindFiles, shlobj_core/SHFindFiles
 ms.prod: windows
 ms.technology: windows-sdk

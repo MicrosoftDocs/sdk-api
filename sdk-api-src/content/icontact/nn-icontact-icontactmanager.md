@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactManager.htm
 old-project: wincontacts
 ms.assetid: d0102659-488c-45db-931b-345013e21eed
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 07/29/2018
 ms.keywords: IContactManager, IContactManager interface [Windows Contacts], IContactManager interface [Windows Contacts],described, _wincontacts_IContactManager, icontact/IContactManager, wincontacts._wincontacts_IContactManager
 ms.prod: windows
 ms.technology: windows-sdk

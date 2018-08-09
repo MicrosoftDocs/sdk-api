@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_getencryptionbltkey.htm
 old-project: medfound
 ms.assetid: c06b42b7-dc8a-4004-b2c5-37accc76db40
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetEncryptionBltKey method, IDirect3DCryptoSession9.GetEncryptionBltKey, IDirect3DCryptoSession9::GetEncryptionBltKey, d3d9/IDirect3DCryptoSession9::GetEncryptionBltKey, mf.idirect3dcryptosession9_getencryptionbltkey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method applies only when the driver requires a separate content key for the <a href="https://msdn.microsoft.com/42aa21d3-7c38-4058-b766-454be8b1ae80">EncryptionBlt</a> method. If the driver requires a content key, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b>
- flag in the capabilities structure returned by the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method. Otherwise, the driver uses the session key to encrypt the data.
+This method applies only when the driver requires a separate content key for the <a href="https://msdn.microsoft.com/42aa21d3-7c38-4058-b766-454be8b1ae80">EncryptionBlt</a> method. If the driver requires a content key, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b>flag in the capabilities structure returned by the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method. Otherwise, the driver uses the session key to encrypt the data.
 
 Each time this method is called, the driver generates a new key.
 

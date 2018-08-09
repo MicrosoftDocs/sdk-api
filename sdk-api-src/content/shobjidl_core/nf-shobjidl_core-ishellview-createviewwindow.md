@@ -7,7 +7,7 @@ old-location: shell\IShellView_CreateViewWindow.htm
 old-project: shell
 ms.assetid: 62d71bca-d2cb-4668-b0bf-2e53756f2cd9
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],CreateViewWindow method, IShellView.CreateViewWindow, IShellView::CreateViewWindow, _win32_IShellView_CreateViewWindow, shell.IShellView_CreateViewWindow, shobjidl_core/IShellView::CreateViewWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ The address of the window handle being created.
 
 Type: <b>HRESULT</b>
 
-Returns a success code if successful, or a COM error code otherwise. Use the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros to determine whether the operation succeeded or failed.
+Returns a success code if successful, or a COM error code otherwise. Use the <a href="com.succeeded">SUCCEEDED</a> and <a href="com.failed">FAILED</a> macros to determine whether the operation succeeded or failed.
 
 
 

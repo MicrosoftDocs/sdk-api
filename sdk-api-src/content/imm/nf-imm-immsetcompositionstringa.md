@@ -7,7 +7,7 @@ old-location: intl\immsetcompositionstring.htm
 old-project: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: ImmSetCompositionString, ImmSetCompositionString function [Internationalization for Windows Applications], ImmSetCompositionStringA, ImmSetCompositionStringW, SCS_CHANGEATTR, SCS_CHANGECLAUSE, SCS_QUERYRECONVERTSTRING, SCS_SETRECONVERTSTRING, SCS_SETSTR, _win32_ImmSetCompositionString, imm/ImmSetCompositionString, imm/ImmSetCompositionStringA, imm/ImmSetCompositionStringW, intl.immsetcompositionstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ Sets the characters, attributes, and clauses of the composition and reading stri
 
 
 
-### -param HIMC
+### -param HIMC [in]
 
-TBD
+Handle to the input context.
 
 
 ### -param dwIndex [in]
@@ -149,11 +149,6 @@ Pointer to a buffer containing the information to set for the reading string, as
 ### -param dwReadLen [in]
 
 Size, in bytes, of the information buffer for the reading string, even if SCS_SETSTR is specified and the buffer contains a Unicode string.
-
-
-#### - hIMC [in]
-
-Handle to the input context.
 
 
 ## -returns

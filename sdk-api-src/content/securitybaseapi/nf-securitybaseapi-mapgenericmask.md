@@ -7,7 +7,7 @@ old-location: security\mapgenericmask.htm
 old-project: secauthz
 ms.assetid: 54b5cd73-4011-4dcf-a951-7350dbd6eeab
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: MapGenericMask, MapGenericMask function [Security], _win32_mapgenericmask, security.mapgenericmask, securitybaseapi/MapGenericMask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

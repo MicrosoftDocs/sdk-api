@@ -7,7 +7,7 @@ old-location: tsf\InitLocalMsCtfMonitor.htm
 old-project: TSF
 ms.assetid: d382afea-e30a-4aeb-a357-551fee6229ae
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ILMCM_CHECKLAYOUTANDTIPENABLED, ILMCM_LANGUAGEBAROFF, InitLocalMsCtfMonitor, InitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/InitLocalMsCtfMonitor, tsf.InitLocalMsCtfMonitor
 ms.prod: windows
 ms.technology: windows-sdk

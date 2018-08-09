@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_gettint.htm
 old-project: wic
 ms.assetid: 12b7ecbe-efa9-47f4-b3b5-5ae1e1a66c3b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetTint, GetTint method [Windows Imaging Component], GetTint method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetTint method, IWICDevelopRaw.GetTint, IWICDevelopRaw::GetTint, _wic_codec_iwicdevelopraw_gettint, wic._wic_codec_iwicdevelopraw_gettint, wincodec/IWICDevelopRaw::GetTint
 ms.prod: windows
 ms.technology: windows-sdk

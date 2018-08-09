@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_unordered_access_view_desc1.htm
 old-project: direct3d11
 ms.assetid: 833B4B8A-5702-4C17-AFD2-DFDF69354DDD
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_UNORDERED_ACCESS_VIEW_DESC1, direct3d11.d3d11_unordered_access_view_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,19 @@ Describes the subresources from a resource that are accessible using an unordere
 
 
 
+#### - Format
+
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the data format.
+
+
+#### - ViewDimension
+
+A <a href="https://msdn.microsoft.com/c9a2bcd1-9cfb-4cac-87eb-4747af745fdd">D3D11_UAV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _UAV to use in the union below.
+
+
 #### - Buffer
 
 A <a href="https://msdn.microsoft.com/8dcd2281-1875-474e-8c86-a6920ab2b515">D3D11_BUFFER_UAV</a> structure that specifies which buffer elements can be accessed.
-
-
-#### - Format
-
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the data format.
 
 
 #### - Texture1D
@@ -98,11 +103,6 @@ A <a href="https://msdn.microsoft.com/369301BB-2B3E-43B2-A379-BFA03712A529">D3D1
 #### - Texture3D
 
 A <a href="https://msdn.microsoft.com/5668c7be-73d1-4407-ace6-8970d723fc44">D3D11_TEX3D_UAV</a> structure that specifies subresources in a 3D texture that can be accessed.
-
-
-#### - ViewDimension
-
-A <a href="https://msdn.microsoft.com/c9a2bcd1-9cfb-4cac-87eb-4747af745fdd">D3D11_UAV_DIMENSION</a>-typed value that  specifies the resource type of the view. This type is the same as the resource type of the underlying resource. This member also determines which _UAV to use in the union below.
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getrecorddescriptionid.htm
 old-project: mstv
 ms.assetid: 0c101068-8a33-4c65-b553-fcd5989c4bd7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptionId, GetRecordDescriptionId method [Microsoft TV Technologies], GetRecordDescriptionId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptionId method, IISDB_LDT.GetRecordDescriptionId, IISDB_LDT::GetRecordDescriptionId, dvbsiparser/IISDB_LDT::GetRecordDescriptionId, mstv.iisdb_ldt_getrecorddescriptionid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the record description ID from an Integrated services Digital Broadcasting System
+Gets the record description ID from an Integrated services Digital Broadcasting System
   (IDBS) linked description table (LDT). The description ID field identifies a collected description in the LDT.
 
 
@@ -64,8 +63,7 @@ req.product: Windows Media Format 9 Series or later
 
 ### -param dwRecordIndex [in]
 
-
-  Specifies the record number, indexed from zero.
+Specifies the record number, indexed from zero.
   Call the <a href="https://msdn.microsoft.com/da91deea-527c-4458-9db5-ae500cee19bb">IISDB_LDT::GetCountOfRecords</a> method to get the number of records in the LDT.
 
 

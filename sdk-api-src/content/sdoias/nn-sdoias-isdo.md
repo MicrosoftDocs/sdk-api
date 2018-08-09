@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo.htm
 old-project: nps
 ms.assetid: f8f49bf2-d8cc-40ad-ac52-05d74bcd931c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: ISdo, ISdo interface [Network Policy Server], ISdo interface [Network Policy Server],described, _sdo_isdo, nps.SDO_isdo, sdo.isdo, sdoias/ISdo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdo</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISdo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISdo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -143,7 +143,7 @@ Restores the values of the object's properties from the datastore.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

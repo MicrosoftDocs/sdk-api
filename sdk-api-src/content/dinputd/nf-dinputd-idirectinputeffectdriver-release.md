@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_release.htm
 old-project: hid
 ms.assetid: 04f8c7ab-56d4-4173-be84-b24253a231ab
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],Release method, IDirectInputEffectDriver.Release, IDirectInputEffectDriver::Release, Release, Release method [Human Input Devices], Release method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_1363e951-bfbc-4918-9c35-3178d2670990.xml, dinputd/IDirectInputEffectDriver::Release, hid.idirectinputeffectdriver_release
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_checkcounter.htm
 old-project: direct3d11
 ms.assetid: b09feac6-79c8-4f40-bfa1-028d4490b039
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 6fe48914-c164-b2f3-ada5-6ebc529a69a9, CheckCounter, CheckCounter method [Direct3D 11], CheckCounter method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckCounter method, ID3D11Device.CheckCounter, ID3D11Device::CheckCounter, d3d11/ID3D11Device::CheckCounter, direct3d11.id3d11device_checkcounter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ Length of the string returned to szDescription. Can be <b>NULL</b>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           

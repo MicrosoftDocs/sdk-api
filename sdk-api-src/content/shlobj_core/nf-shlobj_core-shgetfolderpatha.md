@@ -7,7 +7,7 @@ old-location: shell\SHGetFolderPath.htm
 old-project: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,18 @@ Deprecated. Gets the path of a folder identified by a <a href="https://msdn.micr
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+Reserved.
 
 
-### -param csidl
+### -param csidl [in]
 
-TBD
+Type: <b>int</b>
+
+A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder whose path is to be retrieved. Only real folders are valid. If a virtual folder is specified, this function fails. You can force creation of a folder by combining the folder's <b>CSIDL</b> with <b>CSIDL_FLAG_CREATE</b>.
 
 
 ### -param hToken [in]
@@ -128,20 +132,6 @@ Retrieve the folder's default path.
 Type: <b>LPTSTR</b>
 
 A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
-
-
-#### - hwndOwner [in]
-
-Type: <b>HWND</b>
-
-Reserved.
-
-
-#### - nFolder [in]
-
-Type: <b>int</b>
-
-A <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value that identifies the folder whose path is to be retrieved. Only real folders are valid. If a virtual folder is specified, this function fails. You can force creation of a folder by combining the folder's <b>CSIDL</b> with <b>CSIDL_FLAG_CREATE</b>.
 
 
 ## -returns

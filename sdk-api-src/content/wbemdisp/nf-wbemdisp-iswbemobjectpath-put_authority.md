@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_authority.htm
 old-project: WmiSdk
 ms.assetid: f00e5759-03b4-4333-b89e-5f54db73c3b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: Authority property [Windows Management Instrumentation], Authority property [Windows Management Instrumentation],ISWbemObjectPath interface, Authority property [Windows Management Instrumentation],SWbemObjectPath object, ISWbemObjectPath interface [Windows Management Instrumentation],Authority property, ISWbemObjectPath.get_Authority, ISWbemObjectPath.put_Authority, ISWbemObjectPath::put_Authority, SWbemObjectPath object [Windows Management Instrumentation],Authority property, SWbemObjectPath.Authority, _hmm_swbemobjectpath.authority, put_Authority, wmi.swbemobjectpath_authority
 ms.prod: windows
 ms.technology: windows-sdk

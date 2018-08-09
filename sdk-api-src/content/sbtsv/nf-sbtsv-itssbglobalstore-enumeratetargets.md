@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_enumeratetargets.htm
 old-project: termserv
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbGlobalStore.EnumerateTargets, ITsSbGlobalStore::EnumerateTargets, sbtsv/ITsSbGlobalStore::EnumerateTargets, termserv.itssbglobalstore_enumeratetargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ The number of targets retrieved.
 
 ### -param pVal [out]
 
-Pointer to the retrieved <a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>
-     objects.
+Pointer to the retrieved <a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>objects.
 
 
 ## -returns

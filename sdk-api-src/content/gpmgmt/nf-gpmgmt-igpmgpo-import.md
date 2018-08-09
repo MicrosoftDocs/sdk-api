@@ -4,10 +4,10 @@ title: IGPMGPO::Import
 author: windows-sdk-content
 description: Imports the policy settings from the specified GPMBackup object.
 old-location: gpmc\igpmgpo_import.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,15 +109,15 @@ Address of a pointer to the
 <a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> interface.
 
 
-#### - MigrationTable [in, optional]
-
-Path of a file that contains the migration table to use for mapping.
-
-
 #### - gpmBackup [in]
 
 
 <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">GPMBackup</a> object from which settings should be imported.
+
+
+#### - MigrationTable [in, optional]
+
+Path of a file that contains the migration table to use for mapping.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_writeqword.htm
 old-project: WmiSdk
 ms.assetid: f0d098b7-06f4-4a0a-8db9-fa1ef9be4468
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WriteQWORD method, IWbemObjectAccess.WriteQWORD, IWbemObjectAccess::WriteQWORD, WriteQWORD, WriteQWORD method [Windows Management Instrumentation], WriteQWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writeqword, wbemcli/IWbemObjectAccess::WriteQWORD, wmi.iwbemobjectaccess_writeqword
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_geterrorcount.htm
 old-project: bits
 ms.assetid: 04ca4752-8c4d-4f54-9dfa-3c9f567d7980
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetErrorCount method, IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
 ms.prod: windows
 ms.technology: windows-sdk

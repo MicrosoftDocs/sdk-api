@@ -7,7 +7,7 @@ old-location: mf\_mft_output_data_buffer_flags.htm
 old-project: medfound
 ms.assetid: b975a1a9-2cd1-4187-9934-c6877f10cec6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, MFT_OUTPUT_DATA_BUFFER_INCOMPLETE, MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE, MFT_OUTPUT_DATA_BUFFER_STREAM_END, _MFT_OUTPUT_DATA_BUFFER_FLAGS, _MFT_OUTPUT_DATA_BUFFER_FLAGS enumeration [Media Foundation], b975a1a9-2cd1-4187-9934-c6877f10cec6, mf._mft_output_data_buffer_flags, mftransform/MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, mftransform/MFT_OUTPUT_DATA_BUFFER_INCOMPLETE, mftransform/MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE, mftransform/MFT_OUTPUT_DATA_BUFFER_STREAM_END, mftransform/_MFT_OUTPUT_DATA_BUFFER_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Defines flags for the <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> method.
+Defines flags for the <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> method.
         
 
 

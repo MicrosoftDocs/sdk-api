@@ -7,7 +7,7 @@ old-location: monitor\savecurrentsettings.htm
 old-project: Monitor
 ms.assetid: e5903e52-d04c-4ac3-9566-eb4f2559464b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: SaveCurrentSettings, SaveCurrentSettings function [Monitor Configuration], lowlevelmonitorconfigurationapi/SaveCurrentSettings, monitor.savecurrentsettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-        Saves the current monitor settings to the display's nonvolatile storage.
+Saves the current monitor settings to the display's nonvolatile storage.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: GDI+ 1.1
 
 ### -param hMonitor [in]
 
-
-            Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
@@ -71,8 +69,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
           
 
 
@@ -82,16 +79,13 @@ req.product: GDI+ 1.1
 
 
 
-
-        This function corresponds to the "Save Current Settings" function from the Display Data Channel Command Interface (DDC/CI) standard.
+This function corresponds to the "Save Current Settings" function from the Display Data Channel Command Interface (DDC/CI) standard.
       
 
-
-        This function takes about 200 milliseconds to return.
+This function takes about 200 milliseconds to return.
       
 
-
-        This low-level function is identical to the high-level function <a href="https://msdn.microsoft.com/933106f7-970e-466b-8f66-741e8ba39450">SaveCurrentMonitorSettings</a>.
+This low-level function is identical to the high-level function <a href="https://msdn.microsoft.com/933106f7-970e-466b-8f66-741e8ba39450">SaveCurrentMonitorSettings</a>.
       
 
 

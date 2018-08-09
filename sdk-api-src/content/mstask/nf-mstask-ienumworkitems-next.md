@@ -7,7 +7,7 @@ old-location: taskschd\ienumworkitems_next.htm
 old-project: taskschd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkItems.Next, IEnumWorkItems::Next, Next, Next method [Task Scheduler], Next method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The number of tasks to retrieve.
 
 ### -param rgpwszNames [out]
 
-A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated character strings containing the file names of the tasks returned from the enumeration sequence. These file names are taken from the <a href="https://msdn.microsoft.com/library/ms709421(v=VS.85).aspx">Scheduled Tasks folder</a> and have the ".job" extension.
+A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated character strings containing the file names of the tasks returned from the enumeration sequence. These file names are taken from the <a href="s.htm">Scheduled Tasks folder</a> and have the ".job" extension.
 
 After processing the names returned in <i>rgpwszNames</i>, you must first free each character string in the array and then the array itself using <b>CoTaskMemFree</b>.
 

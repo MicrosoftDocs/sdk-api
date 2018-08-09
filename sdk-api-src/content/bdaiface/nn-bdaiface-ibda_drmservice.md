@@ -7,7 +7,7 @@ old-location: mstv\ibda_drmservice.htm
 old-project: mstv
 ms.assetid: bd06118c-ea1b-46e4-b499-67039430a52e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], IBDA_DRMService interface [Microsoft TV Technologies],described, bdaiface/IBDA_DRMService, mstv.ibda_drmservice
 ms.prod: windows
 ms.technology: windows-sdk

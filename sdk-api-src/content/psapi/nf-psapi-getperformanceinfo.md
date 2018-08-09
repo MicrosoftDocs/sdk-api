@@ -7,7 +7,7 @@ old-location: psapi\getperformanceinfo.htm
 old-project: psapi
 ms.assetid: 21655278-49da-4e63-a4f9-0ee9f6179f4a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerformanceInfo, _win32_getperformanceinfo, base.getperformanceinfo, psapi.getperformanceinfo, psapi/GetPerformanceInfo, psapi/K32GetPerformanceInfo
 ms.prod: windows
 ms.technology: windows-sdk

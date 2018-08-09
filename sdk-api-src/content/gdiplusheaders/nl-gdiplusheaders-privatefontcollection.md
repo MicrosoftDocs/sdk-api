@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollection.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+], PrivateFontCollection class [GDI+],described, _gdiplus_CLASS_PrivateFontCollection_Class, gdiplus._gdiplus_CLASS_PrivateFontCollection_Class, gdiplusheaders/PrivateFontCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>PrivateFontCollection</b> is a collection class for fonts. This class kee
 
 
 <b>PrivateFontCollection</b> allows applications to install a private version of an existing font without the need to replace the system version of the font. For example, GDI+ can create a private version of the Arial font in addition to the Arial font that the system uses. <b>PrivateFontCollection</b> can also be used to install fonts that don't exist in the operating system. This is a temporary font install that doesn't affect the system-installed collection. To see the installed collection use the 
-				<a href="https://msdn.microsoft.com/library/ms534469(v=VS.85).aspx">InstalledFontCollection</a> class.
+				<a href="https://msdn.microsoft.com/6c71a3eb-4fbf-45b0-ab35-8756a100af31">InstalledFontCollection</a> class.
 
 <div class="alert"><b>Note</b>  When you use the GDI+ API, you must never allow your application to download arbitrary fonts from untrusted sources. 
 The operating system requires elevated privileges to assure that all installed fonts are trusted.</div>

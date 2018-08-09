@@ -7,7 +7,7 @@ old-location: gdi\clienttoscreen.htm
 old-project: gdi
 ms.assetid: 3b1e2699-7f5f-444d-9072-f2ca7c8fa511
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ClientToScreen, ClientToScreen function [Windows GDI], _win32_ClientToScreen, gdi.clienttoscreen, winuser/ClientToScreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ All coordinates are device coordinates.
 
 #### Examples
 
-For an example, see "Drawing Lines with the Mouse" in <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Using Mouse Input</a>.
+For an example, see "Drawing Lines with the Mouse" in <a href="_win32_Using_Mouse_Input_cpp">Using Mouse Input</a>.
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo.htm
 old-project: TSF
 ms.assetid: 7f590ecf-06e9-42da-ba40-4364296ae594
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfDisplayAttributeInfo, ITfDisplayAttributeInfo interface [Text Services Framework], ITfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_itfdisplayattributeinfo_ref, msctf/ITfDisplayAttributeInfo, tsf.itfdisplayattributeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,19 +138,17 @@ A text service supplies an instance of this interface in its <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/41bc183f-013f-4e68-bb72-d9a30d5ea48e">
-        ITfDisplayAttributeMgr::GetDisplayAttributeInfo
+<a href="https://msdn.microsoft.com/41bc183f-013f-4e68-bb72-d9a30d5ea48e">ITfDisplayAttributeMgr::GetDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2081f1b4-45b4-43bd-ba20-392a5ad0a30e">
-        ITfDisplayAttributeProvider::GetDisplayAttributeInfo
+<a href="https://msdn.microsoft.com/2081f1b4-45b4-43bd-ba20-392a5ad0a30e">ITfDisplayAttributeProvider::GetDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: p2p\peercollabrefreshendpointdata.htm
 old-project: p2psdk
 ms.assetid: ba841da4-de7f-4288-84b7-a06370b55e3c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabRefreshEndpointData, PeerCollabRefreshEndpointData function [Peer Networking], p2p.peercollabrefreshendpointdata, p2p/PeerCollabRefreshEndpointData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,8 +112,7 @@ One of the arguments is invalid.
 On success, the application can call functions like <a href="https://msdn.microsoft.com/596191a1-94cf-4497-aaf0-951e2c63b145">PeerCollabGetPresenceInfo</a>, <a href="https://msdn.microsoft.com/550cbd9d-5569-485e-897d-73d8bab8430a">PeerCollabEnumApplications</a>, <a href="https://msdn.microsoft.com/a9ac2603-b007-4d1c-ac11-c72aeb06e663">PeerCollabEnumObjects</a>, and <a href="https://msdn.microsoft.com/278c7622-988e-441d-a6b9-f62947f881e8">PeerCollabQueryContactData</a> to obtain additional data.
 When the data is no longer needed it can be deleted by calling <a href="https://msdn.microsoft.com/bafaef04-d7f6-4873-bd38-db156817b0c8">PeerCollabDeleteEndpointData</a>. 
 
-If a peer is subscribed to the endpoint, the subscribed data takes higher precedence than the data that was  cached by calling PeerCollabRefreshEndpointData
- and will return <b>PEER_EVENT_REQUEST_STATUS_CHANGED</b>.
+If a peer is subscribed to the endpoint, the subscribed data takes higher precedence than the data that was  cached by calling PeerCollabRefreshEndpointDataand will return <b>PEER_EVENT_REQUEST_STATUS_CHANGED</b>.
 
 The <b>PeerCollabRefreshEndpointData</b> API takes a snapshot of the data for the specified endpoint. If endpoint data changes  after this snapshot is taken, the caller will have a stale copy of the data. If PeerCollabRefreshEndpointData is called by an application multiple times for the same endpoint, the latest data received replaces the data stored from an earlier call to the API. However, in order to ensure that the caller is notified of any changes and always has the latest copy, <a href="https://msdn.microsoft.com/dfe17235-34dd-4694-9ee5-4268b4406731">PeerCollabSubscribeEndpointData</a> is recommended instead of <b>PeerCollabRefreshEndpointData</b>.
 

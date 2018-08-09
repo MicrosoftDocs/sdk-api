@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failoverdeletescopefromrelationship.htm
 old-project: dhcp
 ms.assetid: 52420cc6-0a7b-499b-b7fe-35852a03adea
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverDeleteScopeFromRelationship, DhcpV4FailoverDeleteScopeFromRelationship function [DHCP], dhcp.dhcpv4failoverdeletescopefromrelationship, dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
 ms.prod: windows
 ms.technology: windows-sdk

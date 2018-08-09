@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclientsv4.htm
 old-project: dhcp
 ms.assetid: 3451dc35-4cd1-4430-a19f-f0aa0533ea4b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetClientsV4, DhcpEnumSubnetClientsV4 function [DHCP], dhcp.dhcpenumsubnetclientsv4, dhcpsapi/DhcpEnumSubnetClientsV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,8 +173,7 @@ The caller of this function must free the memory for <i>ClientInfo</i> after the
 
 
 
-<a href="https://msdn.microsoft.com/cda4bf44-0a4c-4825-ae3f-379ceae5aadb">
-		  DHCP_CLIENT_INFO_ARRAY_V4</a>
+<a href="https://msdn.microsoft.com/cda4bf44-0a4c-4825-ae3f-379ceae5aadb">DHCP_CLIENT_INFO_ARRAY_V4</a>
 
 
 

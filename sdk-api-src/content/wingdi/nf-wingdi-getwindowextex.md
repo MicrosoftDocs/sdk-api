@@ -7,7 +7,7 @@ old-location: gdi\getwindowextex.htm
 old-project: gdi
 ms.assetid: 17f41fcb-c9a4-4b7e-acde-73450044413e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetWindowExtEx, GetWindowExtEx function [Windows GDI], _win32_GetWindowExtEx, gdi.getwindowextex, wingdi/GetWindowExtEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,14 +67,7 @@ This function retrieves the x-extent and y-extent of the window for the specifie
 A handle to the device context.
 
 
-### -param lpsize
-
-TBD
-
-
-
-
-#### - lpSize [out]
+### -param lpsize [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the x- and y-extents in page-space units, that is, logical units.
 

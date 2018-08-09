@@ -7,7 +7,7 @@ old-location: iphlp\getadapterindex.htm
 old-project: iphlp
 ms.assetid: e98ee6b3-30c2-4629-859e-e7440781cd86
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetAdapterIndex, GetAdapterIndex function [IP Helper], _iphlp_getadapterindex, iphlp.getadapterindex, iphlpapi/GetAdapterIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>GetAdapterIndex</b> function obtains the index of an adapter, given its name.
 
 
@@ -75,8 +74,7 @@ A pointer to a <b>ULONG</b> variable that points to the index of the adapter.
 
 
 
-
-						If the function succeeds, the return value is NO_ERROR.
+If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, use 
 <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
@@ -118,11 +116,11 @@ When one or more adapters are present on the system, <b>GetAdapterIndex</b>  ret
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375858(v=VS.85).aspx">MprConfigGetFriendlyName</a>
+<a href="_mpr_mprconfiggetfriendlyname">MprConfigGetFriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375859(v=VS.85).aspx">MprConfigGetGuidName</a>
+<a href="_mpr_mprconfiggetguidname">MprConfigGetGuidName</a>
 
 
 

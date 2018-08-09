@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_autoshow.htm
 old-project: DirectShow
 ms.assetid: 7481a7e8-4b57-43cc-8304-b70616bbd532
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_AutoShow method, IVideoWindow.put_AutoShow, IVideoWindow::put_AutoShow, IVideoWindowput_AutoShow, control/IVideoWindow::put_AutoShow, dshow.ivideowindow_put_autoshow, put_AutoShow, put_AutoShow method [DirectShow], put_AutoShow method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,22 +68,18 @@ Specifies whether the video renderer automatically shows the video window. Must 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
-<td>
-                  OATRUE
+<td>OATRUE
                 </td>
 <td>If the video renderer pauses or runs, it will automatically show the video window. (Default.)</td>
 </tr>
 <tr>
-<td>
-                  OAFALSE
+<td>OAFALSE
                 </td>
 <td>The video renderer will not automatically show the video window.</td>
 </tr>

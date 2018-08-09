@@ -4,10 +4,10 @@ title: IWTSProtocolLogonErrorRedirector::OnBeginPainting
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.
 old-location: termserv\iwtsprotocollogonerrorredirector_onbeginpainting.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 1356deeb-ac4a-4877-95be-9df09f4b0210
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWTSProtocolLogonErrorRedirector.OnBeginPainting, IWTSProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting
 ms.prod: windows
 ms.technology: windows-sdk

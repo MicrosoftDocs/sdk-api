@@ -7,7 +7,7 @@ old-location: fwp\fwpm_layer_enum_template0_struct.htm
 old-project: fwp
 ms.assetid: 1e08ee29-8ade-491d-be17-d724d83d86a3
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FWPM_LAYER_ENUM_TEMPLATE0, FWPM_LAYER_ENUM_TEMPLATE0 structure [Filtering], FWPM_LAYER_ENUM_TEMPLATE0_, fwp.fwpm_layer_enum_template0_struct, fwpmtypes/FWPM_LAYER_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-
-		The <b>FWPM_LAYER_ENUM_TEMPLATE0</b> structure is used for enumerating layers.
+The <b>FWPM_LAYER_ENUM_TEMPLATE0</b> structure is used for enumerating layers.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: iscsidisc\addiscsisendtargetportal.htm
 old-project: iSCSIDisc
 ms.assetid: 8ca378bd-400d-40f1-81d2-c8b4135a3d3c
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: AddIScsiSendTargetPortalA, AddIscsiSendTargetPortal, AddIscsiSendTargetPortal function [iSCSI Discovery Library API], AddIscsiSendTargetPortalA, AddIscsiSendTargetPortalW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsisendtargetportal, iscsidsc/AddIscsiSendTargetPortal, iscsidsc/AddIscsiSendTargetPortalA, iscsidsc/AddIscsiSendTargetPortalW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ The <b>AddIscsiSendTargetPortal</b> function adds a static target portal to the 
 
 
 
-### -param InitiatorInstance
+### -param InitiatorInstance [in, optional]
 
-TBD
+The initiator that the iSCSI initiator service utilizes to transmit <b>SendTargets</b> requests to the specified target portal. If <b>null</b>, the iSCSI initiator service will use any initiator that can reach the target portal.
 
 
 ### -param InitiatorPortNumber [in, optional]
@@ -174,11 +174,6 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 ### -param Portal
 
 A pointer to a structure of type <a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a> that indicates the portal to which SendTargets will be sent for target discovery.
-
-
-#### - InitiatorName [in, optional]
-
-The initiator that the iSCSI initiator service utilizes to transmit <b>SendTargets</b> requests to the specified target portal. If <b>null</b>, the iSCSI initiator service will use any initiator that can reach the target portal.
 
 
 ## -returns

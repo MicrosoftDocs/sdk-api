@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetendpointname.htm
 old-project: p2psdk
 ms.assetid: f6165772-be55-4b56-bc70-dfa2c4a40c61
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabGetEndpointName, PeerCollabGetEndpointName function [Peer Networking], p2p.peercollabgetendpointname, p2p/PeerCollabGetEndpointName
 ms.prod: windows
 ms.technology: windows-sdk

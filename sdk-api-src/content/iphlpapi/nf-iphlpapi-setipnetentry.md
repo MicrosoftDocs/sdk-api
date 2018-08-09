@@ -7,7 +7,7 @@ old-location: iphlp\setipnetentry.htm
 old-project: iphlp
 ms.assetid: d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnetentry, iphlp.setipnetentry, iphlpapi/SetIpNetEntry
 ms.prod: windows
 ms.technology: windows-sdk

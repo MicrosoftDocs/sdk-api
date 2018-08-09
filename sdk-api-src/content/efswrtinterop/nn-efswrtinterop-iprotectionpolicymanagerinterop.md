@@ -7,7 +7,7 @@ old-location: edp\iprotectionpolicymanagerinterop.htm
 old-project: EDP
 ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 08/06/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\opencluster.htm
 old-project: mscs
 ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: OpenCluster, OpenCluster function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER function [Failover Cluster], _wolf_opencluster, clusapi/OpenCluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
 ms.prod: windows
 ms.technology: windows-sdk

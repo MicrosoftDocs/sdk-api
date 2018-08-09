@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction.htm
 old-project: shell
 ms.assetid: 96eaac9c-7fab-4326-a737-4819794a34c6
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnGetDefaultAccessibilityAction, INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction, OnGetDefaultAccessibilityAction, OnGetDefaultAccessibilityAction method [Windows Shell], OnGetDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736
 
 ### -param pbstrDefaultAction [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
 
-When this method returns, contains a <a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> that specifies the default, accessibility action.
+When this method returns, contains a <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> that specifies the default, accessibility action.
 
 
 ## -returns

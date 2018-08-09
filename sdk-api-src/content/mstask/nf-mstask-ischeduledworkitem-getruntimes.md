@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getruntimes.htm
 old-project: taskschd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetRunTimes method, IScheduledWorkItem.GetRunTimes, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a> run times for a specified time period.
+Retrieves the <a href="w.htm">work item</a> run times for a specified time period.
 
 
 ## -parameters

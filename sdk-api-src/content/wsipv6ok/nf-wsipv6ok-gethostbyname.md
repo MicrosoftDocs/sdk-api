@@ -4,10 +4,10 @@ title: gethostbyname macro
 author: windows-sdk-content
 description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
 old-location: winsock\gethostbyname_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,16 +69,7 @@ The
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - name [in]
+#### - a [in]
 
 A pointer to the <b>null</b>-terminated name of the host to resolve.
 
@@ -97,7 +88,7 @@ If the host specified in the <i>name</i> parameter has both IPv4 and IPv6 addres
 If the <i>name</i> parameter points to an empty string or <i>name</i> is <b>NULL</b>, the returned string is the same as the string returned by a successful 
 <a href="https://msdn.microsoft.com/8fa40b60-0e93-493b-aee1-cea6cf595707">gethostname</a> function call (the standard host name for the local computer).
 
-If the <i>name</i> parameter contains a string representation of a legal IPv4 address, then the binary IPv4 address that represents the string is returned in the <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure. The <b>h_name</b> member of the <b>hostent</b> structure contains the string representation of the IPv4 address and the <b>h_addr_list</b>  contains the binary IPv4 address. If the <i>name</i> parameter contains a string representation of an IPv6 address or an illegal IPv4 address, then the  <b>gethostbyname</b> function will fail and return <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a>.  
+If the <i>name</i> parameter contains a string representation of a legal IPv4 address, then the binary IPv4 address that represents the string is returned in the <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure. The <b>h_name</b> member of the <b>hostent</b> structure contains the string representation of the IPv4 address and the <b>h_addr_list</b>  contains the binary IPv4 address. If the <i>name</i> parameter contains a string representation of an IPv6 address or an illegal IPv4 address, then the  <b>gethostbyname</b> function will fail and return <a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a>.  
 
 The memory for the <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> structure  returned by the <b>gethostbyname</b> function is allocated internally by the Winsock DLL from thread local storage. Only a single <b>hostent</b> structure is allocated and used, no matter how many times the <a href="https://msdn.microsoft.com/303023e1-a486-4457-80f6-8aa80f6b2c79">gethostbyaddr</a> 
 		 or <b>gethostbyname</b> functions are called on the thread. The returned  <b>hostent</b> structure  must be copied to an application buffer if additional calls are to be made to the <b>gethostbyname</b> or <b>gethostbyaddr</b> functions on the same thread. Otherwise, the return value will be overwritten by subsequent <b>gethostbyname</b> or <b>gethostbyaddr</b> 

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getoriginalserviceid.htm
 old-project: mstv
 ms.assetid: 030c01e3-6149-4a61-aeb2-01143642213b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetOriginalServiceId, GetOriginalServiceId method [Microsoft TV Technologies], GetOriginalServiceId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetOriginalServiceId method, IISDB_LDT.GetOriginalServiceId, IISDB_LDT::GetOriginalServiceId, dvbsiparser/IISDB_LDT::GetOriginalServiceId, mstv.iisdb_ldt_getoriginalserviceid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the original_service_id field from
+Gets the original_service_id field from
   an Integrated Services Digital Broadcasting (ISDB)
   linked description table (LDT). 
 

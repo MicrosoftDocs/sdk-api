@@ -7,7 +7,7 @@ old-location: mstv\ibda_dridrmservice.htm
 old-project: mstv
 ms.assetid: 9b04c960-a766-4322-bf18-e59176ee2ad1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], IBDA_DRIDRMService interface [DirectShow],described, bdaiface/IBDA_DRIDRMService, mstv.ibda_dridrmservice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>IBDA_DRIDRMService</b> interface implements a Digital Rights Management (DRM) service for Media Transform Devices (MTDs) under the Protected Broadcast Driver Architecture (PBDA). This service allows conditional-access (CA) content to move between an MTD and a Media Sink Device (MSD) under DRM protection in a PBDA graph.
+The <b>IBDA_DRIDRMService</b> interface implements a Digital Rights Management (DRM) service for Media Transform Devices (MTDs) under the Protected Broadcast Driver Architecture (PBDA). This service allows conditional-access (CA) content to move between an MTD and a Media Sink Device (MSD) under DRM protection in a PBDA graph.
 
 For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>
 
@@ -76,8 +75,7 @@ The <b>IBDA_DRIDRMService</b> interface has these methods.
 <a href="https://msdn.microsoft.com/145e4716-05e1-41b8-98f3-72e719ca8b9f">GetDRMStatus</a>
 </td>
 <td align="left" width="63%">
-
-            Gets status information about the supported DRM services  that are set for an MTD. 
+Gets status information about the supported DRM services  that are set for an MTD. 
           
 
 </td>
@@ -87,8 +85,7 @@ The <b>IBDA_DRIDRMService</b> interface has these methods.
 <a href="https://msdn.microsoft.com/01918e99-17e6-4c24-bb85-ba71cf68cf09">GetPairingStatus</a>
 </td>
 <td align="left" width="63%">
-
-            Gets status information about secure pairing between an MTD and an MSD in the graph.
+Gets status information about secure pairing between an MTD and an MSD in the graph.
           
 
 </td>
@@ -98,8 +95,7 @@ The <b>IBDA_DRIDRMService</b> interface has these methods.
 <a href="https://msdn.microsoft.com/95e59f33-0ff4-4618-b1e8-c43fe60b9434">SetDRM</a>
 </td>
 <td align="left" width="63%">
-
-            Sets the DRM service used by an MTD.
+Sets the DRM service used by an MTD.
           
 
 </td>

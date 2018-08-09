@@ -4,10 +4,10 @@ title: MsiSourceListEnumSourcesW function
 author: windows-sdk-content
 description: The MsiSourceListEnumSources function enumerates the sources in the source list of a specified patch or product.
 old-location: setup\msisourcelistenumsources.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 30a5efae-ebb5-4ff3-880a-4eed1bc8eed4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/06/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListEnumSources, MsiSourceListEnumSources function, MsiSourceListEnumSourcesA, MsiSourceListEnumSourcesW, NULL, User SID, msi/MsiSourceListEnumSources, msi/MsiSourceListEnumSourcesA, msi/MsiSourceListEnumSourcesW, s-1-1-0, setup.msisourcelistenumsources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-
-			The <b>MsiSourceListEnumSources</b> function enumerates the sources in the source list of a specified patch or product.
+The <b>MsiSourceListEnumSources</b> function enumerates the sources in the source list of a specified patch or product.
 			
 		
 
@@ -241,8 +240,7 @@ This parameter can be set to <b>NULL</b> only if <i>szSource</i> is also <b>NULL
 
 
 
-
-					The <b>MsiSourceListEnumSources</b> function returns the following values.
+The <b>MsiSourceListEnumSources</b> function returns the following values.
 
 <table>
 <tr>

@@ -4,10 +4,10 @@ title: IRSOPInformation
 author: windows-sdk-content
 description: The IRSOPInformation interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the main Resultant Set of Policy (RSoP) snap-in. For more information about MMC, see the Microsoft Management Console.
 old-location: policy\irsopinformation.htm
-old-project: policy
+old-project: Policy
 ms.assetid: e3662977-d7a7-47bc-989b-a820d4c05382
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 07/29/2018
 ms.keywords: IRSOPInformation, IRSOPInformation interface [Group Policy], IRSOPInformation interface [Group Policy],described, _win32_irsopinformation, gpedit/IRSOPInformation, policy.irsopinformation
 ms.prod: windows
 ms.technology: windows-sdk

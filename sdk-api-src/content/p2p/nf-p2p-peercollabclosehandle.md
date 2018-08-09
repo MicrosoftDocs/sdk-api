@@ -7,7 +7,7 @@ old-location: p2p\peercollabclosehandle.htm
 old-project: p2psdk
 ms.assetid: fbcf65c7-a133-44b9-b5bb-309b1c257a90
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerCollabCloseHandle, PeerCollabCloseHandle function [Peer Networking], p2p.peercollabclosehandle, p2p/PeerCollabCloseHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ The <b>PeerCollabCloseHandle</b> function closes the handle to a Peer Collaborat
 
 
 
-### -param hInvitation
-
-TBD
-
-
-
-
-#### - handle [in]
+### -param hInvitation [in]
 
 Handle obtained by a previous call to <a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a> or <a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a>.
 

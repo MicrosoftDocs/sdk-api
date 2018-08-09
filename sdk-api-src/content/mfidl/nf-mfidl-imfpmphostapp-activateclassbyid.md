@@ -7,7 +7,7 @@ old-location: mf\imfpmphostapp_activateclassbyid.htm
 old-project: medfound
 ms.assetid: e0e14171-fcc9-418a-a93d-3cdbae254a3f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: ActivateClassById, ActivateClassById method [Media Foundation], ActivateClassById method [Media Foundation],IMFPMPHostApp interface, IMFPMPHostApp interface [Media Foundation],ActivateClassById method, IMFPMPHostApp.ActivateClassById, IMFPMPHostApp::ActivateClassById, mf.imfpmphostapp_activateclassbyid, mfidl/IMFPMPHostApp::ActivateClassById
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Creates a Windows Runtime object in the protected media path (PMP) process.
+Creates a Windows Runtime object in the protected media path (PMP) process.
         
 
 
@@ -73,15 +72,13 @@ Data to be passed to the object by way of a <a href="https://msdn.microsoft.com/
 
 ### -param riid [in]
 
-
-            The interface identifier (IID) of the interface to retrieve.
+The interface identifier (IID) of the interface to retrieve.
           
 
 
 ### -param ppv [out]
 
-
-            Receives a pointer to the created object. 
+Receives a pointer to the created object. 
 
 
 ## -returns

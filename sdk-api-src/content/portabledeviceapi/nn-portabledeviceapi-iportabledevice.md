@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice.htm
 old-project: wpd_sdk
 ms.assetid: 98c48e56-56b8-4800-b52b-ac08f2abf27e
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], IPortableDevice interface [Windows Portable Devices SDK],described, IPortableDeviceInterface, portabledeviceapi/IPortableDevice, wpdsdk.iportabledevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,10 +52,9 @@ req.product: ADAM
 ## -description
 
 
+The <b>IPortableDevice</b> interface provides access to a portable device.
 
-        The <b>IPortableDevice</b> interface provides access to a portable device.
-
-To create and open this interface, first call <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to open a connection to the device.
+To create and open this interface, first call <a href="6f361b8b-490a-4ee9-88a9-129a0f0f91dd">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to open a connection to the device.
 
 
 ## -inheritance
@@ -161,8 +160,7 @@ Unregisters a client from receiving callback notifications.
 
 
 
-
-        The client interfaces are designed to be used for any WPD object; it is not necessary to create a new instance for each object referenced by the application. After an application opens an instance of the <b>IPortableDevice</b> interface, it should open and cache any other WPD client interfaces that it will require.
+The client interfaces are designed to be used for any WPD object; it is not necessary to create a new instance for each object referenced by the application. After an application opens an instance of the <b>IPortableDevice</b> interface, it should open and cache any other WPD client interfaces that it will require.
       
 
 For Windows 7, <a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDevice</a> supports two CLSIDs for <b>CoCreateInstance</b>. <b>CLSID_PortableDevice</b> returns an <b>IPortableDevice</b> pointer that does not aggregate the free-threaded marshaler; <b>CLSID_PortableDeviceFTM</b> is a new CLSID that returns an <b>IPortableDevice</b> pointer that aggregates the free-threaded marshaler.  Both pointers support the same functionality otherwise.

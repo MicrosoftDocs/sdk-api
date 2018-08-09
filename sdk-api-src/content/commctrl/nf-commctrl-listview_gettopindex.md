@@ -7,7 +7,7 @@ old-location: controls\ListView_GetTopIndex.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettopindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_GetTopIndex, ListView_GetTopIndex macro [Windows Controls], _win32_ListView_GetTopIndex, _win32_ListView_GetTopIndex_cpp, commctrl/ListView_GetTopIndex, controls.ListView_GetTopIndex, controls._win32_ListView_GetTopIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761087(v=VS.85).aspx">LVM_GETTOPINDEX</a> message explicitly. 
+Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/b5692de3-338b-422c-9dee-d3ba96f2b53d">LVM_GETTOPINDEX</a> message explicitly. 
 
 
 ## -parameters
@@ -59,15 +59,6 @@ Gets the index of the topmost visible item when in list or report view. You can 
 
 
 ### -param hwndLV
-
-TBD
-
-
-
-
-
-
-#### - hwnd
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 

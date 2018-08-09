@@ -7,7 +7,7 @@ old-location: ics\inetconnectionprops_get_guid.htm
 old-project: ics
 ms.assetid: df094bda-2e0f-4ff4-aff5-77d1703f8dee
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Guid method, INetConnectionProps.get_Guid, INetConnectionProps::get_Guid, _ics_inetconnectionprops_get_guid, get_Guid, get_Guid method [ICS/ICF], get_Guid method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_guid, netcon/INetConnectionProps::get_Guid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 ### -param pbstrGuid [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, on successful return, receives the GUID for the connection.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that, on successful return, receives the GUID for the connection.
 
 
 ## -returns

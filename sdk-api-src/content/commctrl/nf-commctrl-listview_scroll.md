@@ -7,7 +7,7 @@ old-location: controls\ListView_Scroll.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_scroll.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_Scroll, ListView_Scroll macro [Windows Controls], _win32_ListView_Scroll, _win32_ListView_Scroll_cpp, commctrl/ListView_Scroll, controls.ListView_Scroll, controls._win32_ListView_Scroll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Scrolls the content of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761151(v=VS.85).aspx">LVM_SCROLL</a> message explicitly. 
+Scrolls the content of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/4bf6b74e-8fea-48ca-a151-8fd649fc50f8">LVM_SCROLL</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Scrolls the content of a list-view control. You can use this macro or send the <
 
 ### -param hwndLV
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the list-view control. 
 
 
 ### -param dx
@@ -75,13 +77,6 @@ A value of type <b>int</b> that specifies the amount of horizontal scrolling,  i
 Type: <b>int</b>
 
 A value of type <b>int</b> that specifies the amount of vertical scrolling, in pixels, relative to the current position of the list view content.
-
-
-#### - hwnd
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to the list-view control. 
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_findclockvectorforchangeunit.htm
 old-project: winsync
 ms.assetid: b5114f66-419f-4fea-87ad-3c2cc43eb2fd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: FindClockVectorForChangeUnit, FindClockVectorForChangeUnit method [Windows Sync], FindClockVectorForChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindClockVectorForChangeUnit method, ISyncKnowledge.FindClockVectorForChangeUnit, ISyncKnowledge::FindClockVectorForChangeUnit, winsync.isyncknowledge_findclockvectorforchangeunit, winsync/ISyncKnowledge::FindClockVectorForChangeUnit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_populate.htm
 old-project: cossdk
 ms.assetid: 817f203c-ddc6-47bd-a946-2393067eca44
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ICatalogCollection interface [COM+],Populate method, ICatalogCollection.Populate, ICatalogCollection::Populate, Populate, Populate method [COM+], Populate method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Populate, comadmin/ICatalogCollection::Populate, cos.icatalogcollection_populate
 ms.prod: windows
 ms.technology: windows-sdk

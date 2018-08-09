@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsymboliclink.htm
 old-project: medfound
 ms.assetid: F71CFD47-6D44-4288-A70E-70040D19DB2D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSymbolicLink method, IMFSensorGroup.GetSymbolicLink, IMFSensorGroup::GetSymbolicLink, mf.imfsensorgroup_getsymboliclink, mfidl/IMFSensorGroup::GetSymbolicLink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Output parameter containing the number of characters written to <i>SymbolicLink<
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -97,8 +96,7 @@ Output parameter containing the number of characters written to <i>SymbolicLink<
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -110,8 +108,7 @@ Output parameter containing the number of characters written to <i>SymbolicLink<
 </dl>
 </td>
 <td width="60%">
-
-                The buffer provided in the <i>SymbolicLink</i> parameter is not large enough to contain the symbolic link name, including the null terminator.
+The buffer provided in the <i>SymbolicLink</i> parameter is not large enough to contain the symbolic link name, including the null terminator.
 
 </td>
 </tr>
@@ -122,8 +119,7 @@ Output parameter containing the number of characters written to <i>SymbolicLink<
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

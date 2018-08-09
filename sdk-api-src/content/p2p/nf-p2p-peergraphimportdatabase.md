@@ -7,7 +7,7 @@ old-location: p2p\peergraphimportdatabase.htm
 old-project: p2psdk
 ms.assetid: 85f7dc2b-c159-48e0-ac58-8a66eb0ec73b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGraphImportDatabase, PeerGraphImportDatabase function [Peer Networking], p2p.peergraphimportdatabase, p2p/PeerGraphImportDatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGraphImportDatabase</b> function imports a file that contains the information from a  peer graph database. This function can only be called  if the application has not yet called the <a href="https://msdn.microsoft.com/bac893d4-8f4d-4e1f-953b-1b289c5f18be">PeerGraphListen</a> or <a href="https://msdn.microsoft.com/76a2c54d-4424-4aa3-9b62-3ebe88b63c9f">PeerGraphConnect</a> function.
+The <b>PeerGraphImportDatabase</b> function imports a file that contains the information from a  peer graph database. This function can only be called  if the application has not yet called the <a href="https://msdn.microsoft.com/bac893d4-8f4d-4e1f-953b-1b289c5f18be">PeerGraphListen</a> or <a href="https://msdn.microsoft.com/76a2c54d-4424-4aa3-9b62-3ebe88b63c9f">PeerGraphConnect</a> function.
 
 
 ## -parameters

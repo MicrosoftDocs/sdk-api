@@ -7,7 +7,7 @@ old-location: mscs\clusresource_maintenancemode.htm
 old-project: mscs
 ms.assetid: aa39b401-bf18-48c5-83bb-e192efe1ef41
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusResource interface [Failover Cluster],MaintenanceMode property, ClusResource::MaintenanceMode, ISClusResource.get_MaintenanceMode, ISClusResource.put_MaintenanceMode, ISClusResource::put_MaintenanceMode, MaintenanceMode property [Failover Cluster], MaintenanceMode property [Failover Cluster],ClusResource interface, mscs.clusresource_maintenancemode, put_MaintenanceMode
 ms.prod: windows
 ms.technology: windows-sdk

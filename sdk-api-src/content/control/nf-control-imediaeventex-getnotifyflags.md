@@ -7,7 +7,7 @@ old-location: dshow\imediaeventex_getnotifyflags.htm
 old-project: DirectShow
 ms.assetid: 797c5ee2-5a3c-4e95-b4b8-e29b39460ee0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: GetNotifyFlags, GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow],IMediaEventEx interface, IMediaEventEx interface [DirectShow],GetNotifyFlags method, IMediaEventEx.GetNotifyFlags, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ Pointer to a variable that receives one of the following values:
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

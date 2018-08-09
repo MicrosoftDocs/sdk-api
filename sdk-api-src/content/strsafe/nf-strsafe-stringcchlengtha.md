@@ -7,7 +7,7 @@ old-location: menurc\stringcchlength.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, UnalignedStringCchLength, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,7 @@ Type: <b>size_t</b>
 The maximum number of characters allowed in <i>psz</i>, including the terminating null character. This value cannot exceed <b>STRSAFE_MAX_CCH</b>.
 
 
-### -param pcchLength
-
-TBD
-
-
-
-
-#### - pcch [out]
+### -param pcchLength [out]
 
 Type: <b>size_t*</b>
 
@@ -179,7 +172,7 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647509(v=VS.85).aspx">StringCbLength</a>
+<a href="https://msdn.microsoft.com/a1aa834c-53e7-4321-9db4-86f32ef31dc4">StringCbLength</a>
  
 
  

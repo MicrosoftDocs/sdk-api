@@ -4,10 +4,10 @@ title: IAssemblyName::Clone
 author: windows-sdk-content
 description: The Clone method copies the current side-by-side assembly name to a new instance of IAssemblyName.
 old-location: setup\iassemblyname_clone.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 5096b7de-e53d-49fa-bb43-16d768787b4e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Side-by-side Assemblies], Clone method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Clone method, IAssemblyName.Clone, IAssemblyName::Clone, setup.iassemblyname_clone, winsxs/IAssemblyName::Clone
 ms.prod: windows
 ms.technology: windows-sdk

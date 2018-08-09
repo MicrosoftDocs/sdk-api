@@ -7,7 +7,7 @@ old-location: netmgmt\alert_other_info.htm
 old-project: netmgmt
 ms.assetid: e7bcc306-4b44-4230-96aa-a4717bb1fb11
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: ALERT_OTHER_INFO, ALERT_OTHER_INFO macro [Network Management], _win32_alert_other_info, lmalert/ALERT_OTHER_INFO, netmgmt.alert_other_info
 ms.prod: windows
 ms.technology: windows-sdk

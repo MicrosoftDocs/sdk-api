@@ -4,10 +4,10 @@ title: PdhValidatePathExA function
 author: windows-sdk-content
 description: Validates that the specified counter is present on the computer or in the log file.
 old-location: perf\pdhvalidatepathex.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Validates that the specified counter is present on the computer or in the log file.
+Validates that the specified counter is present on the computer or in the log file.
 		
 
 
@@ -79,8 +78,7 @@ To validate that the counter is present on the local computer, specify <b>NULL</
 
 
 
-
-						If the function succeeds, it returns ERROR_SUCCESS.
+If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 

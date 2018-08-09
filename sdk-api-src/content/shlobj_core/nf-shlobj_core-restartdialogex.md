@@ -7,7 +7,7 @@ old-location: shell\RestartDialogEx.htm
 old-project: shell
 ms.assetid: 32bc232f-6cc4-4f19-9d33-ba7ad28dfd59
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialogEx, RestartDialogEx function [Windows Shell], _win32_RestartDialogEx, shell.RestartDialogEx, shlobj_core/RestartDialogEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,11 @@ Displays a dialog box that asks the user to restart Windows. When the user click
 
 
 
-### -param hwnd
+### -param hwnd [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the parent window.
 
 
 ### -param pszPrompt [in, optional]
@@ -74,22 +76,6 @@ A null-terminated string that contains the text that displays in the dialog box 
 
 
 ### -param dwReturn
-
-TBD
-
-
-### -param dwReasonCode
-
-Type: <b>DWORD</b>
-
-<b>Windows XP:</b>Specifies the reason for initiating the shutdown. For more information, see <a href="https://msdn.microsoft.com/db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf">System Shutdown Reason Codes</a>.
-    
-    					
-
-<b>Windows 2000:</b> This parameter is ignored.
-
-
-#### - dwFlags
 
 Type: <b>DWORD</b>
 
@@ -142,11 +128,15 @@ Forces processes to terminate. When this flag is set, the system does not send t
 Forces processes to terminate if they do not respond to the <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> or <a href="https://msdn.microsoft.com/9bf04f24-da1e-4680-a47b-28e9c500635e">WM_ENDSESSION</a> message. This flag is ignored if EWX_FORCE is used.
 
 
-#### - hParent [in, optional]
+### -param dwReasonCode
 
-Type: <b>HWND</b>
+Type: <b>DWORD</b>
 
-A handle to the parent window.
+<b>Windows XP:</b>Specifies the reason for initiating the shutdown. For more information, see <a href="https://msdn.microsoft.com/db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf">System Shutdown Reason Codes</a>.
+    
+    					
+
+<b>Windows 2000:</b> This parameter is ignored.
 
 
 ## -returns

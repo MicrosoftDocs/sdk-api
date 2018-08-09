@@ -7,7 +7,7 @@ old-location: tablet\inktransform_reset.htm
 old-project: tablet
 ms.assetid: ea593b1c-0986-4969-8f6f-726987b7c4a6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reset method, IInkTransform.Reset, IInkTransform::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IInkTransform interface, ea593b1c-0986-4969-8f6f-726987b7c4a6, msinkaut/IInkTransform::Reset, tablet.inktransform_reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="tablet.iinktransform">IInkTransform</a>
 
 
 

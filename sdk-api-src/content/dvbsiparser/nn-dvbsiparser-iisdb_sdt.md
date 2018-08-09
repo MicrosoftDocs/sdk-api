@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdt.htm
 old-project: mstv
 ms.assetid: a9824eb9-ec12-4a09-ba42-243fe19c0670
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,6 @@ Implements methods that get information from an Integrated Services Digital Broa
   (ISDB)
   service description table (SDT). An SDT
   lists the names and other parameters of the services in an MPEG-2 transport stream.
-
 
 
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an SDT. Then:

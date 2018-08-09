@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getresourceid.htm
 old-project: appxpkg
 ms.assetid: D17BD71A-6418-4229-8829-2C8EB9393285
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 08/07/2018
 ms.keywords: GetResourceId, GetResourceId method [App packaging and management], GetResourceId method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetResourceId method, IAppxManifestPackageId.GetResourceId, IAppxManifestPackageId::GetResourceId, appxpackaging/IAppxManifestPackageId::GetResourceId, appxpkg.iappxmanifestpackageid_getresourceid
 ms.prod: windows
 ms.technology: windows-sdk

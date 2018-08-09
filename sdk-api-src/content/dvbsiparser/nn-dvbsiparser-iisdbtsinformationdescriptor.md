@@ -7,7 +7,7 @@ old-location: mstv\iisdbtsinformationdescriptor.htm
 old-project: mstv
 ms.assetid: 3c8cd33c-5c2a-48a4-9e8a-f7dd03560848
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

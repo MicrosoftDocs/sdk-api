@@ -7,7 +7,7 @@ old-location: gdi\ixpsprintjobstream_close.htm
 old-project: printdocs
 ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
 ms.prod: windows
 ms.technology: windows-sdk

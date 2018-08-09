@@ -7,7 +7,7 @@ old-location: edp\srpgetenterprisepolicy.htm
 old-project: EDP
 ms.assetid: BF31E36C-756E-4B4A-959B-4BA7517427CB
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SrpGetEnterprisePolicy function

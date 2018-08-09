@@ -7,7 +7,7 @@ old-location: xps\ptgetprintdeviceresources.htm
 old-project: printdocs
 ms.assetid: 39F17562-B8EB-41AF-BA55-42FE35B4560F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceResources, xps.ptgetprintdeviceresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ It retrieves the print devices resources for a printer formatted in compliance w
 A handle to an open device provider whose print device resources are to be retrieved. This handle is returned by the <a href="https://msdn.microsoft.com/6821b1b0-74b0-4caf-b8e6-a9df4d7693d7">PTOpenProvider</a> or the <a href="https://msdn.microsoft.com/0e65170b-66f6-4238-bdde-0a0b7108a686">PTOpenProviderEx</a> function.
 
 
-### -param pszLocaleName
+### -param pszLocaleName [in]
 
-TBD
+Optional pointer to the locale name. This parameter can be <b>NULL</b>.
 
 
 ### -param pPrintTicket [in]
@@ -82,11 +82,6 @@ A pointer to the stream where the device print resources will be written, starti
 ### -param pbstrErrorMessage [out, optional]
 
 A pointer to a PDC file or string that specifies what, if anything, is invalid about <i>pPrintTicket</i>. If it is valid, this value is <b>NULL</b>.
-
-
-#### - pzLocaleName [in]
-
-Optional pointer to the locale name. This parameter can be <b>NULL</b>.
 
 
 ## -returns

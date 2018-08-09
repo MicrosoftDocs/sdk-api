@@ -4,10 +4,10 @@ title: PERF_MEM_FREE
 author: windows-sdk-content
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\freememory.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to free memory that it allocated using <a href="https://msdn.microsoft.com/09af7e56-2174-4a82-b45b-59f4180e4aab">AllocateMemory</a>. 
+Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to free memory that it allocated using <a href="https://msdn.microsoft.com/09af7e56-2174-4a82-b45b-59f4180e4aab">AllocateMemory</a>. 
 
 The <b>PERF_MEM_FREE</b> type defines a pointer to this callback function. The <b>FreeMemory</b> function is a placeholder for the application-defined function name.
 

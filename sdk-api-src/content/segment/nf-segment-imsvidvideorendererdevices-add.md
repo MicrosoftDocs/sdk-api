@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererdevices_add.htm
 old-project: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
 ms.prod: windows
 ms.technology: windows-sdk

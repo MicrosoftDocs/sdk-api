@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getflags.htm
 old-project: taskschd
 ms.assetid: 0fe3c184-2689-44de-b60f-92d31eaa5285
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 08/06/2018
 ms.keywords: GetFlags, GetFlags method [Task Scheduler], GetFlags method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetFlags method, IScheduledWorkItem.GetFlags, IScheduledWorkItem::GetFlags, _msb_ischeduledworkitem_getflags, mstask/IScheduledWorkItem::GetFlags, taskschd.ischeduledworkitem_getflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the flags that modify the behavior of any type of <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
+Retrieves the flags that modify the behavior of any type of <a href="w.htm">work item</a>.
 
 
 ## -parameters

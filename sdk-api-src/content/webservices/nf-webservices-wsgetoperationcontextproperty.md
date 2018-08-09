@@ -7,7 +7,7 @@ old-location: wsw\wsgetoperationcontextproperty.htm
 old-project: wsw
 ms.assetid: 9ab843ff-8f2c-424e-8bb9-ba71f9355728
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsGetOperationContextProperty, WsGetOperationContextProperty function [Web Services for Windows], webservices/WsGetOperationContextProperty, wsw.wsgetoperationcontextproperty
 ms.prod: windows
 ms.technology: windows-sdk

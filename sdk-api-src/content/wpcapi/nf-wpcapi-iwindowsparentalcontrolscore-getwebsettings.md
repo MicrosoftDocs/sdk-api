@@ -7,7 +7,7 @@ old-location: parcon\iwindowsparentalcontrols_getwebsettings.htm
 old-project: parcon
 ms.assetid: ed01e945-06e7-4d3d-8a23-066ef6e0b13c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetWebSettings, GetWebSettings method, GetWebSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebSettings method, IWindowsParentalControlsCore.GetWebSettings, IWindowsParentalControlsCore::GetWebSettings, parcon.iwindowsparentalcontrols_getwebsettings, wpcapi/IWindowsParentalControlsCore::GetWebSettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
+<a href="parcon.iwindowsparentalcontrolscore">IWindowsParentalControlsCore</a>
  
 
  

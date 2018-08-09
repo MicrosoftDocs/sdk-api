@@ -7,7 +7,7 @@ old-location: stg\stgopenstorageonilockbytes.htm
 old-project: stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,12 @@ The <b>StgOpenStorageOnILockBytes</b> function opens an existing storage object 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> pointer to the underlying byte array object that contains the storage object to be opened.
 
 
-### -param pstgPriority
+### -param pstgPriority [in]
 
-TBD
+A pointer to the 
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface that should be <b>NULL</b>. If not <b>NULL</b>, this parameter is used as described below in the Remarks section.
+
+After <b>StgOpenStorageOnILockBytes</b> returns, the storage object specified in <i>pStgPriority</i> may have been released and should no longer be used.
 
 
 ### -param grfMode [in]
@@ -97,23 +100,15 @@ Points to the location of an
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer to the opened storage on successful return.
 
 
-#### - pStgPriority [in]
-
-A pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface that should be <b>NULL</b>. If not <b>NULL</b>, this parameter is used as described below in the Remarks section.
-
-After <b>StgOpenStorageOnILockBytes</b> returns, the storage object specified in <i>pStgPriority</i> may have been released and should no longer be used.
-
-
 ## -returns
 
 
 
 The <b>StgOpenStorageOnILockBytes</b> function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface error return values. See 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> 
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> 
 and 
-<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

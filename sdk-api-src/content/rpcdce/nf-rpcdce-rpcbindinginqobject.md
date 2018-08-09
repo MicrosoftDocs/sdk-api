@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqobject.htm
 old-project: rpc
 ms.assetid: e2d489f9-d976-4dc3-8a91-dfc04f547165
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcBindingInqObject, RpcBindingInqObject function [RPC], _rpc_rpcbindinginqobject, rpc.rpcbindinginqobject, rpcdce/RpcBindingInqObject
 ms.prod: windows
 ms.technology: windows-sdk

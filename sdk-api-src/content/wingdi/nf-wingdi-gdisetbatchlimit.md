@@ -7,7 +7,7 @@ old-location: gdi\gdisetbatchlimit.htm
 old-project: gdi
 ms.assetid: 53bf0dfe-e93c-401d-ac5d-6717bad2625e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GdiSetBatchLimit, GdiSetBatchLimit function [Windows GDI], _win32_GdiSetBatchLimit, gdi.gdisetbatchlimit, wingdi/GdiSetBatchLimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>GdiSetBatchLimit</b> function sets the maximum number of function calls t
 
 
 
-### -param dw
-
-TBD
-
-
-
-
-#### - dwLimit [in]
+### -param dw [in]
 
 Specifies the batch limit to be set. A value of 0 sets the default limit. A value of 1 disables batching.
 

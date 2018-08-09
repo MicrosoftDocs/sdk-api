@@ -7,7 +7,7 @@ old-location: http\http_verb.htm
 old-project: http
 ms.assetid: 4aa36eab-eff2-4caa-9bad-15c534c5a5a0
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHTTP_VERB, HTTP_VERB, HTTP_VERB enumeration [HTTP], HttpVerbCONNECT, HttpVerbCOPY, HttpVerbDELETE, HttpVerbGET, HttpVerbHEAD, HttpVerbInvalid, HttpVerbLOCK, HttpVerbMKCOL, HttpVerbMOVE, HttpVerbMaximum, HttpVerbOPTIONS, HttpVerbPOST, HttpVerbPROPFIND, HttpVerbPROPPATCH, HttpVerbPUT, HttpVerbSEARCH, HttpVerbTRACE, HttpVerbTRACK, HttpVerbUNLOCK, HttpVerbUnknown, HttpVerbUnparsed, PHTTP_VERB, PHTTP_VERB enumeration pointer [HTTP], _HTTP_VERB, _http_http_verb, http.http_verb, http/HTTP_VERB, http/HttpVerbCONNECT, http/HttpVerbCOPY, http/HttpVerbDELETE, http/HttpVerbGET, http/HttpVerbHEAD, http/HttpVerbInvalid, http/HttpVerbLOCK, http/HttpVerbMKCOL, http/HttpVerbMOVE, http/HttpVerbMaximum, http/HttpVerbOPTIONS, http/HttpVerbPOST, http/HttpVerbPROPFIND, http/HttpVerbPROPPATCH, http/HttpVerbPUT, http/HttpVerbSEARCH, http/HttpVerbTRACE, http/HttpVerbTRACK, http/HttpVerbUNLOCK, http/HttpVerbUnknown, http/HttpVerbUnparsed, http/PHTTP_VERB"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>HTTP_VERB</b> enumeration type defines values that are used to specify known, standard HTTP verbs in the 
 <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure. The majority of these known verbs are  documented in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a> and 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>, as indicated below.
@@ -70,14 +69,12 @@ Not relevant for applications; used only in kernel mode.
 
 ### -field HttpVerbUnknown
 
-
-					Indicates that the application can examine the <b>UnknownVerbLength</b> and <b>pUnknownVerb</b> members of the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure to retrieve the HTTP verb for the request.  This is the case in an HTTP/1.1 request when a browser client specifies a custom verb.
+Indicates that the application can examine the <b>UnknownVerbLength</b> and <b>pUnknownVerb</b> members of the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure to retrieve the HTTP verb for the request.  This is the case in an HTTP/1.1 request when a browser client specifies a custom verb.
 
 
 ### -field HttpVerbInvalid
 
-
-					Not relevant for applications; used only in kernel mode.
+Not relevant for applications; used only in kernel mode.
 
 
 ### -field HttpVerbOPTIONS
@@ -117,8 +114,7 @@ The URI identifies an entity that  consumes the posted data in some fashion.
 
 ### -field HttpVerbPUT
 
-
-					The PUT method is used to replace an entity identified by a URI.
+The PUT method is used to replace an entity identified by a URI.
 
 
 					See page 55 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.
@@ -149,14 +145,12 @@ The CONNECT
 
 ### -field HttpVerbTRACK
 
-
-					The TRACK method is used by Microsoft Cluster Server to implement a non-logged trace.
+The TRACK method is used by Microsoft Cluster Server to implement a non-logged trace.
 
 
 ### -field HttpVerbMOVE
 
-
-					   The MOVE method requests a WebDAV operation
+The MOVE method requests a WebDAV operation
    equivalent to a copy (COPY), followed by consistency maintenance
    processing, followed by a delete of the source, where all three
    actions are performed atomically. When applied to a collection, "Depth" is assumed to be or must be specified as "infinity". See page 42 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>.
@@ -171,8 +165,7 @@ The COPY method requests a WebDAV operation that creates a duplicate of the sour
 
 ### -field HttpVerbPROPFIND
 
-
-					The PROPFIND method requests a WebDAV operation that retrieves properties defined on the resource
+The PROPFIND method requests a WebDAV operation that retrieves properties defined on the resource
    identified by the Request-URI. See page 24 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>.
 
 
@@ -191,15 +184,13 @@ The MKCOL method requests a WebDAV operation that creates a new collection
 
 ### -field HttpVerbLOCK
 
-
-					The LOCK method requests a  WebDAV operation that creates a lock as specified by the lockinfo
+The LOCK method requests a  WebDAV operation that creates a lock as specified by the lockinfo
    XML element on the Request-URI. See page 45 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>.
 
 
 ### -field HttpVerbUNLOCK
 
-
-					The UNLOCK method requests a WebDAV operation that removes a lock, identified by a lock token in
+The UNLOCK method requests a WebDAV operation that removes a lock, identified by a lock token in
    the Lock-Token request header, from the resource identified by the Request-URI, and from all other
    resources included in the lock. See page 51 of <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>.
 

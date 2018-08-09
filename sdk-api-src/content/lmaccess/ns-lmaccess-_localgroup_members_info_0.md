@@ -7,7 +7,7 @@ old-location: netmgmt\localgroup_members_info_0_str.htm
 old-project: netmgmt
 ms.assetid: e559cd90-942c-442a-b57f-7d2024523455
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_0, *PLOCALGROUP_MEMBERS_INFO_0, LOCALGROUP_MEMBERS_INFO_0, LOCALGROUP_MEMBERS_INFO_0 structure [Network Management], _LOCALGROUP_MEMBERS_INFO_0, _win32_localgroup_members_info_0_str, lmaccess/LOCALGROUP_MEMBERS_INFO_0, netmgmt.localgroup_members_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,13 +76,11 @@ Pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/f5cd6e84-1111-4558-bec4-26af13f21b61">
-LOCALGROUP_MEMBERS_INFO_2</a>
+<a href="https://msdn.microsoft.com/f5cd6e84-1111-4558-bec4-26af13f21b61">LOCALGROUP_MEMBERS_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8d1d884-c955-4706-bc3e-142469b02545">
-LOCALGROUP_MEMBERS_INFO_3</a>
+<a href="https://msdn.microsoft.com/e8d1d884-c955-4706-bc3e-142469b02545">LOCALGROUP_MEMBERS_INFO_3</a>
 
 
 

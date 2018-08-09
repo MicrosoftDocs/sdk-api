@@ -7,7 +7,7 @@ old-location: rras\mpradminserversetcredentials.htm
 old-project: rras
 ms.assetid: cc77007f-306f-467a-a52f-bf920da15e74
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function [RAS], _mpr_mpradminserversetcredentials, mprapi/MprAdminServerSetCredentials, rras.mpradminserversetcredentials
 ms.prod: windows
 ms.technology: windows-sdk

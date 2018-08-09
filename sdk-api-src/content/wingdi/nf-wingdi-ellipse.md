@@ -7,7 +7,7 @@ old-location: gdi\ellipse.htm
 old-project: gdi
 ms.assetid: 9bec59dd-6bcb-498e-9ed2-ac641ecd7fa5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Ellipse, Ellipse function [Windows GDI], _win32_Ellipse, gdi.ellipse, wingdi/Ellipse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,46 +66,24 @@ The <b>Ellipse</b> function draws an ellipse. The center of the ellipse is the c
 A handle to the device context.
 
 
-### -param left
-
-TBD
-
-
-### -param top
-
-TBD
-
-
-### -param right
-
-TBD
-
-
-### -param bottom
-
-TBD
-
-
-
-
-#### - nBottomRect [in]
-
-The y-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
-
-
-#### - nLeftRect [in]
+### -param left [in]
 
 The x-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
 
 
-#### - nRightRect [in]
+### -param top [in]
+
+The y-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
+
+
+### -param right [in]
 
 The x-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
 
 
-#### - nTopRect [in]
+### -param bottom [in]
 
-The y-coordinate, in logical coordinates, of the upper-left corner of the bounding rectangle.
+The y-coordinate, in logical coordinates, of the lower-right corner of the bounding rectangle.
 
 
 ## -returns

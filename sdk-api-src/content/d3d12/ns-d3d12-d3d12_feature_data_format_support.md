@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_format_support.htm
 old-project: direct3d12
 ms.assetid: 6E4EB08F-0B60-4B1E-AD27-8F0AE2BD0766
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_SUPPORT, D3D12_FEATURE_DATA_FORMAT_SUPPORT structure, d3d12/D3D12_FEATURE_DATA_FORMAT_SUPPORT, direct3d12.d3d12_feature_data_format_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Describes which resources are supported by the current graphics driver for a giv
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the format to return info about.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the format to return info about.
           
 
 

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_insertembeddedatselection.htm
 old-project: TSF
 ms.assetid: 22c804b9-e260-4a8a-bbb3-fcc81fa97c7a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreAnchor.InsertEmbeddedAtSelection, ITextStoreAnchor::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertEmbeddedAtSelection, tsf.itextstoreanchor_insertembeddedatselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
+The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="_ole_idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
 
 
 ## -parameters
@@ -197,7 +197,7 @@ Clients must use this method to insert an object into a text stream, since a <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
@@ -205,14 +205,12 @@ Clients must use this method to insert an object into a text stream, since a <a 
 
 
 
-<a href="https://msdn.microsoft.com/722506fa-db83-49d3-9434-a4ad7b797ce2">
-        ITextStoreAnchor::QueryInsertEmbedded
+<a href="https://msdn.microsoft.com/722506fa-db83-49d3-9434-a4ad7b797ce2">ITextStoreAnchor::QueryInsertEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/03beac03-cd09-4e03-b700-d96741e4932b">
-        ITextStoreAnchor::SetText
+<a href="https://msdn.microsoft.com/03beac03-cd09-4e03-b700-d96741e4932b">ITextStoreAnchor::SetText
       </a>
 
 
@@ -222,8 +220,7 @@ Clients must use this method to insert an object into a text stream, since a <a 
 
 
 
-<a href="https://msdn.microsoft.com/b40ca931-d45c-4101-9380-bb2b3ad25fba">
-        TS_CHAR_EMBEDDED
+<a href="https://msdn.microsoft.com/b40ca931-d45c-4101-9380-bb2b3ad25fba">TS_CHAR_EMBEDDED
       </a>
  
 

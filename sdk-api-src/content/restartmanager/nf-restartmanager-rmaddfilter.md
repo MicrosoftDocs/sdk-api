@@ -4,10 +4,10 @@ title: RmAddFilter function
 author: windows-sdk-content
 description: Modifies the shutdown or restart actions that are applied to an application or service.
 old-location: rstmgr\rmaddfilter.htm
-old-project: RstMgr
+old-project: rstmgr
 ms.assetid: 63d1d1d2-d7b7-4d6c-99f9-b849229e171f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmAddFilter, rstmgr.rmaddfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,46 +64,24 @@ Modifies the shutdown or restart actions that are applied to an application or s
 A handle to an existing Restart Manager session.
 
 
-### -param strModuleName
-
-TBD
-
-
-### -param pProcess
-
-TBD
-
-
-### -param strServiceShortName
-
-TBD
-
-
-### -param FilterAction
-
-TBD
-
-
-
-
-#### - ActionType [in]
-
-An <a href="https://msdn.microsoft.com/68f77dbc-14cb-4b87-9589-328b1cef38d9">RM_FILTER_ACTION</a> enumeration value that specifies the type of modification to be applied.
-
-
-#### - Application [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structure for the application.  Modifications to shutdown or restart actions are applied for the application that is referenced by the <b>RM_UNIQUE_PROCESS</b> structure. This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
-
-
-#### - strFilename [in, optional]
+### -param strModuleName [in, optional]
 
 A pointer to a <b>null</b>-terminated string value that contains the full path to the application's executable file. Modifications to shutdown or restart actions are applied for the application that is referenced by the full path.  This parameter must be <b>NULL</b> if the <i>Application</i> or <i>strServiceShortName</i> parameter is non-<b>NULL</b>.
 
 
-#### - strShortServiceName [in, optional]
+### -param pProcess [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structure for the application.  Modifications to shutdown or restart actions are applied for the application that is referenced by the <b>RM_UNIQUE_PROCESS</b> structure. This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
+
+
+### -param strServiceShortName [in, optional]
 
 A pointer to a <b>null</b>-terminated string value that contains the short service name. Modifications to shutdown or restart actions are applied for the service that is referenced by short service filename.  This parameter must be <b>NULL</b> if the <i>strFilename</i> or <i>Application</i> parameter is non-<b>NULL</b>.
+
+
+### -param FilterAction [in]
+
+An <a href="https://msdn.microsoft.com/68f77dbc-14cb-4b87-9589-328b1cef38d9">RM_FILTER_ACTION</a> enumeration value that specifies the type of modification to be applied.
 
 
 ## -returns

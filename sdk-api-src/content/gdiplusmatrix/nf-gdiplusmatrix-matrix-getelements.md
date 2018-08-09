@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_GetElements_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getelements.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetElements, GetElements method [GDI+], GetElements method [GDI+],Matrix class, Matrix class [GDI+],GetElements method, Matrix.GetElements, Matrix::GetElements, _gdiplus_CLASS_Matrix_GetElements_, gdiplus._gdiplus_CLASS_Matrix_GetElements_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,23 +89,23 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/9f744c2a-f1f3-4a7e-ab0c-37aa1df01623">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/62215ae0-b095-42b2-911c-aa7607a8b61a">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535315(v=VS.85).aspx">Matrix::SetElements</a>
+<a href="https://msdn.microsoft.com/8b1cc844-eea9-46e2-bfdc-9fb1387a5da4">Matrix::SetElements</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/4acf3d70-f119-4a5b-a20d-8adea453556f">Transformations</a>
  
 
  

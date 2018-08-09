@@ -7,7 +7,7 @@ old-location: security\auditquerysecurity.htm
 old-project: secauthz
 ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The address of a pointer to a well-formed <a href="https://msdn.microsoft.com/li
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.

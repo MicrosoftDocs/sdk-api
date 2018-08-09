@@ -7,7 +7,7 @@ old-location: gdi\unregisterforprintasyncnotifications.htm
 old-project: printdocs
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: UnRegisterForPrintAsyncNotifications, UnRegisterForPrintAsyncNotifications function [Windows GDI], _win32_UnRegisterForPrintAsyncNotifications, gdi.unregisterforprintasyncnotifications, prnasnot/UnRegisterForPrintAsyncNotifications
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,14 +59,7 @@ Enables an application that has registered to receive notifications from Print S
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - hRegistrationHandler [in]
+### -param Arg1 [in]
 
 The registration handle to be unregistered.
 

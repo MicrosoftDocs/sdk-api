@@ -4,10 +4,10 @@ title: TcModifyFlow function
 author: windows-sdk-content
 description: The TcModifyFlow function modifies an existing flow. When calling TcModifyFlow, new Flowspec parameters and any traffic control objects should be filled.
 old-location: qos\tcmodifyflow.htm
-old-project: QOS
+old-project: qos
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingcustom.htm
 old-project: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,14 +93,14 @@ A comma-separated list of byte values that contain the information needed to dec
 The number of byte values provided in <b>bSchema</b>. This value must be a compile-time constant.
 
 
-#### - description [in, optional]
-
-The description of the event field's value. If provided, the description parameter must be a string literal, and will be included in the PDB. 
-
-
 #### - name [in, optional]
 
 The name of the event field. If provided, the name parameter must be a string literal (not a variable) and must not  contain any '\0' characters.
+
+
+#### - description [in, optional]
+
+The description of the event field's value. If provided, the description parameter must be a string literal, and will be included in the PDB. 
 
 
 #### - tags [in, optional]

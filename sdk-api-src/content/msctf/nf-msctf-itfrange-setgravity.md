@@ -7,7 +7,7 @@ old-location: tsf\itfrange_setgravity.htm
 old-project: TSF
 ms.assetid: f8be0458-cd14-471d-a138-0730f87374e0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetGravity method, ITfRange.SetGravity, ITfRange::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],ITfRange interface, _tsf_itfrange_setgravity_ref, msctf/ITfRange::SetGravity, tsf.itfrange_setgravity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,7 +128,7 @@ The cookie in <i>ec</i> is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 
@@ -136,8 +136,7 @@ The cookie in <i>ec</i> is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession</a>
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>
 
 
 

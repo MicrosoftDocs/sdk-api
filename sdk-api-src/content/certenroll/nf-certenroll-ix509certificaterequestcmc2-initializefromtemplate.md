@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcmc2_initializefromtemplate.htm
 old-project: seccertenroll
 ms.assetid: 576e3349-1da7-4f1e-9410-a72c30e22063
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCmc2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCmc2.InitializeFromTemplate, IX509CertificateRequestCmc2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromTemplate, security.ix509certificaterequestcmc2_initializefromtemplate
 ms.prod: windows
 ms.technology: windows-sdk

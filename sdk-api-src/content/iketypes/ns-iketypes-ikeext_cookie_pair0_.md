@@ -7,7 +7,7 @@ old-location: fwp\ikeext_cookie_pair0.htm
 old-project: fwp
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], IKEEXT_COOKIE_PAIR0_, fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-		The <b>IKEEXT_COOKIE_PAIR0</b> structure used to store a pair of IKE/Authip cookies.
+The <b>IKEEXT_COOKIE_PAIR0</b> structure used to store a pair of IKE/Authip cookies.
 
 
 ## -struct-fields

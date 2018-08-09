@@ -7,7 +7,7 @@ old-location: automat\sysallocstringbytelen.htm
 old-project: automat
 ms.assetid: e7f49441-eff1-4c00-b61f-8522c4e250ef
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: SysAllocStringByteLen, SysAllocStringByteLen function [Automation], _oa96_SysAllocStringByteLen, automat.sysallocstringbytelen, oleauto/SysAllocStringByteLen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ This function is provided to create BSTRs that contain binary data. You can use 
 
 For example, do not use these BSTRs between a 16-bit and a 32-bit application running on a 32-bit Windows system. The OLE 16-bit to 32-bit (and 32-bit to 16-bit) interoperability layer will translate the BSTR and corrupt the binary data. The preferred method of passing binary data is to use a SAFEARRAY of VT_UI1, which will not be translated by OLE.
 
-If psz is Null, a string of the requested length is allocated, but not initialized. The string psz can contain embedded null characters, and does not need to end with a Null. Free the returned string later with <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If psz is Null, a string of the requested length is allocated, but not initialized. The string psz can contain embedded null characters, and does not need to end with a Null. Free the returned string later with <a href="8F230EE3-5F6E-4CB9-A910-9C90B754DCD3">SysFreeString</a>.
 
 
 

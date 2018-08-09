@@ -7,7 +7,7 @@ old-location: display\engquerypalette.htm
 old-project: display
 ms.assetid: be4d0547-b71a-49b4-9d2c-12fab67c9412
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: EngQueryPalette, EngQueryPalette function [Display Devices], display.engquerypalette, gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml, winddi/EngQueryPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>EngQueryPalette</b> function queries the specified palette for its attrib
 
 ### -param hpal
 
-TBD
+Handle to the palette to be queried.
 
 
 ### -param piMode
@@ -77,11 +77,6 @@ Specifies the number of entries in the buffer to which <i>pulColors</i> points. 
 ### -param pulColors
 
 Pointer to a buffer that receives the palette color information. If <i>cColors</i> is zero, <i>pulColors</i> can be <b>NULL</b>.
-
-
-#### - hPal
-
-Handle to the palette to be queried.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: ITextFont::GetSmallCaps
 author: windows-sdk-content
 description: Gets whether characters are in small capital letters.
 old-location: controls\ITextFont_GetSmallCaps.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsmallcaps.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetSmallCaps, GetSmallCaps method [Windows Controls], GetSmallCaps method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSmallCaps method, ITextFont.GetSmallCaps, ITextFont::GetSmallCaps, _win32_ITextFont_GetSmallCaps, _win32_ITextFont_GetSmallCaps_cpp, controls.ITextFont_GetSmallCaps, controls._win32_ITextFont_GetSmallCaps, tom/ITextFont::GetSmallCaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the <b>CFE_SMALLCAPS</b> effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_SMALLCAPS</b> effect described in the <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure.
 
 
 
@@ -141,7 +141,7 @@ This property corresponds to the <b>CFE_SMALLCAPS</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
 
 
 
@@ -149,7 +149,7 @@ This property corresponds to the <b>CFE_SMALLCAPS</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -157,11 +157,11 @@ This property corresponds to the <b>CFE_SMALLCAPS</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787815(v=VS.85).aspx">SetSmallCaps</a>
+<a href="https://msdn.microsoft.com/f6ff7f24-1fe2-4bf8-b92e-2bc2673402e0">SetSmallCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

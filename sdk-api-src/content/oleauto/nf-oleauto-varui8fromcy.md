@@ -7,7 +7,7 @@ old-location: automat\varui8fromcy.htm
 old-project: automat
 ms.assetid: 968c3f1c-6890-469c-b89f-6658ebbb93a5
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarUI8FromCy, VarUI8FromCy function [Automation], _oa96_VarUI8FromCy, automat.varui8fromcy, oleauto/VarUI8FromCy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediabuffer_setcurrentlength.htm
 old-project: medfound
 ms.assetid: ce48458f-eb0f-441a-a4bc-9d3fbee0cd74
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFMediaBuffer interface [Media Foundation],SetCurrentLength method, IMFMediaBuffer.SetCurrentLength, IMFMediaBuffer::SetCurrentLength, SetCurrentLength, SetCurrentLength method [Media Foundation], SetCurrentLength method [Media Foundation],IMFMediaBuffer interface, ce48458f-eb0f-441a-a4bc-9d3fbee0cd74, mf.imfmediabuffer_setcurrentlength, mfobjects/IMFMediaBuffer::SetCurrentLength
 ms.prod: windows
 ms.technology: windows-sdk

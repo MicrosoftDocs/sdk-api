@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommand_SetShowWindow.htm
 old-project: shell
 ms.assetid: 57ac201e-0680-4856-ab05-9f8b49aecd62
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetShowWindow method, IExecuteCommand.SetShowWindow, IExecuteCommand::SetShowWindow, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, SetShowWindow, SetShowWindow method [Windows Shell], SetShowWindow method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetShowWindow, shell.IExecuteCommand_SetShowWindow, shobjidl_core/IExecuteCommand::SetShowWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Activates the window and displays it in its current size and position.
 
 #### SW_SHOWDEFAULT
 
-Sets the show state based on the information specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function that started the application. An application should call <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial visual state of its main window.
+Sets the show state based on the information specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial visual state of its main window.
 
 
 

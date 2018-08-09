@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_inputactive.htm
 old-project: mstv
 ms.assetid: 3451002b-5339-4b43-aefd-d66c48f7ae57
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_InputActive method, IMSVidCtl.get_InputActive, IMSVidCtl::get_InputActive, IMSVidCtlget_InputActive, get_InputActive, get_InputActive method [Microsoft TV Technologies], get_InputActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_inputactive, msvidctl/IMSVidCtl::get_InputActive
 ms.prod: windows
 ms.technology: windows-sdk

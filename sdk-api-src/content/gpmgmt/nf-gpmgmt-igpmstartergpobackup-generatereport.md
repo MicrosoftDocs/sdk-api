@@ -4,10 +4,10 @@ title: IGPMStarterGPOBackup::GenerateReport
 author: windows-sdk-content
 description: The GenerateReport method gets the report for the backup GPO.
 old-location: gpmc\igpmstartergpobackup_generatereport.htm
-old-project: gpmc
+old-project: GPMC
 ms.assetid: ce0dd44f-dfd9-4e7c-9854-9decbc25ec54
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],GenerateReport method, IGPMStarterGPOBackup.GenerateReport, IGPMStarterGPOBackup::GenerateReport, gpmc.igpmstartergpobackup_generatereport, gpmgmt/IGPMStarterGPOBackup::GenerateReport
 ms.prod: windows
 ms.technology: windows-sdk

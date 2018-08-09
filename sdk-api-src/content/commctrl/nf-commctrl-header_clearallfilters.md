@@ -7,7 +7,7 @@ old-location: controls\Header_ClearAllFilters.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearallfilters.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_ClearAllFilters, Header_ClearAllFilters macro [Windows Controls], _win32_Header_ClearAllFilters, _win32_Header_ClearAllFilters_cpp, commctrl/Header_ClearAllFilters, controls.Header_ClearAllFilters, controls._win32_Header_ClearAllFilters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Clears all of the filters for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775306(v=VS.85).aspx">HDM_CLEARFILTER</a> message explicitly. 
+Clears all of the filters for a given header control. You can use this macro or send the <a href="https://msdn.microsoft.com/74c0265e-68d1-4414-8fd9-20f5f041d4b4">HDM_CLEARFILTER</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the header control.
 
 
 
-When all the filters are cleared, the <a href="https://msdn.microsoft.com/library/Bb775277(v=VS.85).aspx">HDN_FILTERCHANGE</a> notification will be sent only once. 
+When all the filters are cleared, the <a href="https://msdn.microsoft.com/0a46af14-569a-4119-881f-549a130f9b0d">HDN_FILTERCHANGE</a> notification will be sent only once. 
 
 
 
@@ -79,7 +79,7 @@ When all the filters are cleared, the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775377(v=VS.85).aspx">Header_ClearFilter</a>
+<a href="https://msdn.microsoft.com/d52e4636-9d08-42fc-8e64-e07245183c91">Header_ClearFilter</a>
  
 
  

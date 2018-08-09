@@ -4,10 +4,10 @@ title: EvtGetPublisherMetadataProperty function
 author: windows-sdk-content
 description: Gets the specified provider metadata property.
 old-location: wes\evtgetpublishermetadataproperty.htm
-old-project: WES
+old-project: wes
 ms.assetid: f85a46ef-873c-4dd9-8b5c-3763fd67fc06
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EvtGetPublisherMetadataProperty, EvtGetPublisherMetadataProperty function [EventLog], wes.evtgetpublishermetadataproperty, winevt/EvtGetPublisherMetadataProperty
 ms.prod: windows
 ms.technology: windows-sdk

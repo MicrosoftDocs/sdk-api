@@ -7,7 +7,7 @@ old-location: mf\opm_set_hdcp_srm_parameters.htm
 old-project: medfound
 ms.assetid: 0689e132-8def-43d1-965f-a6f652ad0fbe
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: OPM_SET_HDCP_SRM_PARAMETERS, OPM_SET_HDCP_SRM_PARAMETERS structure [Media Foundation], _OPM_SET_HDCP_SRM_PARAMETERS, mf.opm_set_hdcp_srm_parameters, opmapi/OPM_SET_HDCP_SRM_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk

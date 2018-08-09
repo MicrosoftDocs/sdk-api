@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_create.htm
 old-project: secauthn
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
 ms.prod: windows
 ms.technology: windows-sdk

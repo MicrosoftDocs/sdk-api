@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireoptionsdialog_create.htm
 old-project: acquisition
 ms.assetid: 22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],Create method, IPhotoAcquireOptionsDialog.Create, IPhotoAcquireOptionsDialog::Create, IPhotoAcquireOptionsDialogCreate, photoacquire/IPhotoAcquireOptionsDialog::Create, picacq.iphotoacquireoptionsdialog_create
 ms.prod: windows
 ms.technology: windows-sdk

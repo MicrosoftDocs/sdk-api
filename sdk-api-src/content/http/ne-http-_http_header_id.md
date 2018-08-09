@@ -7,7 +7,7 @@ old-location: http\http_header_id.htm
 old-project: http
 ms.assetid: 6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: "*PHTTP_HEADER_ID, HTTP_HEADER_ID, HTTP_HEADER_ID enumeration [HTTP], HttpHeaderAccept, HttpHeaderAcceptCharset, HttpHeaderAcceptEncoding, HttpHeaderAcceptLanguage, HttpHeaderAcceptRanges, HttpHeaderAge, HttpHeaderAllow, HttpHeaderAuthorization, HttpHeaderCacheControl, HttpHeaderConnection, HttpHeaderContentEncoding, HttpHeaderContentLanguage, HttpHeaderContentLength, HttpHeaderContentLocation, HttpHeaderContentMd5, HttpHeaderContentRange, HttpHeaderContentType, HttpHeaderCookie, HttpHeaderDate, HttpHeaderEtag, HttpHeaderExpect, HttpHeaderExpires, HttpHeaderFrom, HttpHeaderHost, HttpHeaderIfMatch, HttpHeaderIfModifiedSince, HttpHeaderIfNoneMatch, HttpHeaderIfRange, HttpHeaderIfUnmodifiedSince, HttpHeaderKeepAlive, HttpHeaderLastModified, HttpHeaderLocation, HttpHeaderMaxForwards, HttpHeaderMaximum, HttpHeaderPragma, HttpHeaderProxyAuthenticate, HttpHeaderProxyAuthorization, HttpHeaderRange, HttpHeaderReferer, HttpHeaderRequestMaximum, HttpHeaderResponseMaximum, HttpHeaderRetryAfter, HttpHeaderServer, HttpHeaderSetCookie, HttpHeaderTe, HttpHeaderTrailer, HttpHeaderTransferEncoding, HttpHeaderTranslate, HttpHeaderUpgrade, HttpHeaderUserAgent, HttpHeaderVary, HttpHeaderVia, HttpHeaderWarning, HttpHeaderWwwAuthenticate, PHTTP_HEADER_ID, PHTTP_HEADER_ID enumeration pointer [HTTP], _HTTP_HEADER_ID, _http_http_header_id, http.http_header_id, http/HTTP_HEADER_ID, http/HttpHeaderAccept, http/HttpHeaderAcceptCharset, http/HttpHeaderAcceptEncoding, http/HttpHeaderAcceptLanguage, http/HttpHeaderAcceptRanges, http/HttpHeaderAge, http/HttpHeaderAllow, http/HttpHeaderAuthorization, http/HttpHeaderCacheControl, http/HttpHeaderConnection, http/HttpHeaderContentEncoding, http/HttpHeaderContentLanguage, http/HttpHeaderContentLength, http/HttpHeaderContentLocation, http/HttpHeaderContentMd5, http/HttpHeaderContentRange, http/HttpHeaderContentType, http/HttpHeaderCookie, http/HttpHeaderDate, http/HttpHeaderEtag, http/HttpHeaderExpect, http/HttpHeaderExpires, http/HttpHeaderFrom, http/HttpHeaderHost, http/HttpHeaderIfMatch, http/HttpHeaderIfModifiedSince, http/HttpHeaderIfNoneMatch, http/HttpHeaderIfRange, http/HttpHeaderIfUnmodifiedSince, http/HttpHeaderKeepAlive, http/HttpHeaderLastModified, http/HttpHeaderLocation, http/HttpHeaderMaxForwards, http/HttpHeaderMaximum, http/HttpHeaderPragma, http/HttpHeaderProxyAuthenticate, http/HttpHeaderProxyAuthorization, http/HttpHeaderRange, http/HttpHeaderReferer, http/HttpHeaderRequestMaximum, http/HttpHeaderResponseMaximum, http/HttpHeaderRetryAfter, http/HttpHeaderServer, http/HttpHeaderSetCookie, http/HttpHeaderTe, http/HttpHeaderTrailer, http/HttpHeaderTransferEncoding, http/HttpHeaderTranslate, http/HttpHeaderUpgrade, http/HttpHeaderUserAgent, http/HttpHeaderVary, http/HttpHeaderVia, http/HttpHeaderWarning, http/HttpHeaderWwwAuthenticate, http/PHTTP_HEADER_ID"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,28 +79,24 @@ The Date is a general header field that indicates the time that the request or r
 
 ### -field HttpHeaderKeepAlive
 
-
-					Based on the keepalive XML element (see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>, section 12.12.1, page 66); a list of URIs included in the KeepAlive
+Based on the keepalive XML element (see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>, section 12.12.1, page 66); a list of URIs included in the KeepAlive
    header must be "live" after they are copied
    (moved) to the destination.
 
 
 ### -field HttpHeaderPragma
 
-
-					Used to include optional, implementation-specific directives that might apply to any recipient along the request/response chain.
+Used to include optional, implementation-specific directives that might apply to any recipient along the request/response chain.
 
 
 ### -field HttpHeaderTrailer
 
-
-					Indicates that specified header fields are present in the trailer of a message encoded with chunked transfer-coding.
+Indicates that specified header fields are present in the trailer of a message encoded with chunked transfer-coding.
 
 
 ### -field HttpHeaderTransferEncoding
 
-
-					Indicates what, if any, transformations have been applied to the message body in transit.
+Indicates what, if any, transformations have been applied to the message body in transit.
 
 
 ### -field HttpHeaderUpgrade
@@ -225,8 +221,7 @@ The If-Modified-Since request header field is used with a method to make it cond
 
 ### -field HttpHeaderIfNoneMatch
 
-
-					The If-None-Match request-header field is used with a method to make
+The If-None-Match request-header field is used with a method to make
    it conditional. When a client has obtained one or more entities from a resource, it can verify that none of those entities is
    current by including a list of their associated entity tags in the
    If-None-Match header field. The purpose of this feature is to allow
@@ -285,8 +280,7 @@ This header field contains the recipient of the SIP request or response message.
 
 ### -field HttpHeaderTranslate
 
-
-					Allows the client to specify whether it wants the source representation or programmatic interpretation of the requested content.
+Allows the client to specify whether it wants the source representation or programmatic interpretation of the requested content.
 
 
 ### -field HttpHeaderUserAgent
@@ -356,8 +350,7 @@ Not a value that actually designates a header; instead, it is used to count the 
 
 ### -field HttpHeaderMaximum
 
-
-					Not a value that actually designates a header; instead, it is used to count all the enumerated headers.
+Not a value that actually designates a header; instead, it is used to count all the enumerated headers.
 
 
 ## -see-also

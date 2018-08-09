@@ -7,7 +7,7 @@ old-location: winprog\iwscproductlist_item.htm
 old-project: devnotes
 ms.assetid: 041F45EF-BE1E-4C37-9BD7-ED9F45587ADA
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Item method, IWSCProductList.get_Item, IWSCProductList::get_Item, get_Item, get_Item method [Windows API], get_Item method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Item, winprog.iwscproductlist_item
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceresources_getresourceattributes.htm
 old-project: wpd_sdk
 ms.assetid: 6188d0cc-3161-400e-9abf-ef43a4dee690
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 07/30/2018
 ms.keywords: GetResourceAttributes, GetResourceAttributes method [Windows Portable Devices SDK], GetResourceAttributes method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetResourceAttributes method, IPortableDeviceResources.GetResourceAttributes, IPortableDeviceResources::GetResourceAttributes, IPortableDeviceResourcesGetResourceAttributes, portabledeviceapi/IPortableDeviceResources::GetResourceAttributes, wpdsdk.iportabledeviceresources_getresourceattributes
 ms.prod: windows
 ms.technology: windows-sdk

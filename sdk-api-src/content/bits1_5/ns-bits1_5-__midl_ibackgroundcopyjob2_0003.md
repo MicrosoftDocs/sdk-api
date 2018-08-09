@@ -7,7 +7,7 @@ old-location: bits\bg_basic_credentials.htm
 old-project: bits
 ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: "*PBG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS structure [BITS], __MIDL_IBackgroundCopyJob2_0003, _drz_bg_basic_credentials, bits.bg_basic_credentials, bits1_5/BG_BASIC_CREDENTIALS"
 ms.prod: windows
 ms.technology: windows-sdk

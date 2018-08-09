@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_setmutedebugoutput.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setmutedebugoutput.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],SetMuteDebugOutput method, ID3D10InfoQueue.SetMuteDebugOutput, ID3D10InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method [Direct3D 10], SetMuteDebugOutput method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::SetMuteDebugOutput, direct3d10.id3d10infoqueue_setmutedebugoutput, fc4951da-744c-9cda-d7ab-407692014dd0
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ This will stop messages that pass the storage filter from being printed out in t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

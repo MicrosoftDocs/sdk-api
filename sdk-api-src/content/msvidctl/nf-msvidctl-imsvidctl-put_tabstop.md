@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_tabstop.htm
 old-project: mstv
 ms.assetid: c0e3d216-ea3f-4db4-80fd-aaf4d520ba1a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method, IMSVidCtl.put_TabStop, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,9 @@ Specifies one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

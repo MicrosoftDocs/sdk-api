@@ -4,10 +4,10 @@ title: ITargetInfo::LoadModule
 author: windows-sdk-content
 description: Loads the module from the offline installation location.
 old-location: smi\itargetinfo_loadmodule.htm
-old-project: SMI
+old-project: smi
 ms.assetid: 863aefc6-d777-4af9-b310-adadef993bcd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ITargetInfo interface [SMI],LoadModule method, ITargetInfo.LoadModule, ITargetInfo::LoadModule, LoadModule, LoadModule method [SMI], LoadModule method [SMI],ITargetInfo interface, smi.itargetinfo_loadmodule, wcmconfig/ITargetInfo::LoadModule
 ms.prod: windows
 ms.technology: windows-sdk

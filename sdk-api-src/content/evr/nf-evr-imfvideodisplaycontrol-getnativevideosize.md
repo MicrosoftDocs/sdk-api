@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
 old-project: medfound
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
+Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
         
 
 

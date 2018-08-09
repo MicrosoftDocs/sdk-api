@@ -7,7 +7,7 @@ old-location: stg\storagelayout.htm
 old-project: stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout, tagStorageLayout
 ms.prod: windows
 ms.technology: windows-sdk

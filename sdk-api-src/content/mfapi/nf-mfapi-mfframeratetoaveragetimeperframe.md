@@ -7,7 +7,7 @@ old-location: mf\mfframeratetoaveragetimeperframe.htm
 old-project: medfound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Converts a video frame rate into a frame duration.
+Converts a video frame rate into a frame duration.
 
 
 ## -parameters
@@ -68,15 +67,13 @@ The numerator of the frame rate.
 
 ### -param unDenominator [in]
 
-
-            The denominator of the frame rate.
+The denominator of the frame rate.
           
 
 
 ### -param punAverageTimePerFrame [out]
 
-
-            Receives the average duration of a video frame, in 100-nanosecond units.
+Receives the average duration of a video frame, in 100-nanosecond units.
           
 
 
@@ -97,8 +94,7 @@ This function is useful for calculating time stamps on a sample, given the frame
 
 Also, average time per frame is used in the older <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> and <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
 
-
-        For certain common frame rates, the function gets the frame duration from a look-up table:
+For certain common frame rates, the function gets the frame duration from a look-up table:
 
 <table>
 <tr>
@@ -149,8 +145,7 @@ Also, average time per frame is used in the older <a href="https://msdn.microsof
 </table>
  
 
-
-        Most video content uses one of the frame rates listed here.
+Most video content uses one of the frame rates listed here.
       For other frame rates, the function calculates the duration.
 
 

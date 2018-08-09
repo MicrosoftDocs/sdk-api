@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_registerguiddescription.htm
 old-project: TSF
 ms.assetid: cb42e583-af5b-42ba-9637-889c7d4bdc82
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUIDDescription method, ITfCategoryMgr.RegisterGUIDDescription, ITfCategoryMgr::RegisterGUIDDescription, RegisterGUIDDescription, RegisterGUIDDescription method [Text Services Framework], RegisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguiddescription_ref, msctf/ITfCategoryMgr::RegisterGUIDDescription, tsf.itfcategorymgr_registerguiddescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,14 +138,12 @@ The method was unable to register the description string.
 
 
 
-<a href="https://msdn.microsoft.com/e0c4f64e-7e20-4dff-b597-acc280aebf32">
-        ITfCategoryMgr::GetGUIDDescription
+<a href="https://msdn.microsoft.com/e0c4f64e-7e20-4dff-b597-acc280aebf32">ITfCategoryMgr::GetGUIDDescription
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/42bc1ddc-9f11-40dc-849c-2effc6efe1c8">
-        ITfCategoryMgr::UnregisterGUIDDescription
+<a href="https://msdn.microsoft.com/42bc1ddc-9f11-40dc-849c-2effc6efe1c8">ITfCategoryMgr::UnregisterGUIDDescription
       </a>
  
 

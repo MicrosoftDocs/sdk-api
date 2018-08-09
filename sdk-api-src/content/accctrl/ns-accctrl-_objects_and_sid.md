@@ -7,7 +7,7 @@ old-location: security\objects_and_sid.htm
 old-project: secauthz
 ms.assetid: 77ba8a3c-01e5-4a3e-835f-c7b9ef60035a
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: "*POBJECTS_AND_SID, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_SID, OBJECTS_AND_SID structure [Security], POBJECTS_AND_SID, POBJECTS_AND_SID structure pointer [Security], _OBJECTS_AND_SID, _win32_objects_and_sid_str, accctrl/OBJECTS_AND_SID, accctrl/POBJECTS_AND_SID, security.objects_and_sid"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,8 +49,7 @@ req.dll:
 ## -description
 
 
-
-			The <b>OBJECTS_AND_SID</b> structure contains a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
+The <b>OBJECTS_AND_SID</b> structure contains a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
 
 
 
@@ -111,8 +110,7 @@ If the ACE_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> membe
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies the type of object that can inherit the ACE. This GUID must be a valid schema identifier in the Active Directory schema.
 
-If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeGuid</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
-							 structure as well as by any protection against inheritance placed on the child objects.
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeGuid</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
 
 
 ### -field pSid

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setheight.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetHeight method, AdjustableArrowCap.SetHeight, AdjustableArrowCap::SetHeight, SetHeight, SetHeight method [GDI+], SetHeight method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_
 ms.prod: windows
 ms.technology: windows-sdk

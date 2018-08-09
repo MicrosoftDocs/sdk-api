@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaLocalizerSupport_Localize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\localize.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ISchemaLocalizerSupport interface [search],Localize method, ISchemaLocalizerSupport.Localize, ISchemaLocalizerSupport::Localize, Localize, Localize method [search], Localize method [search],ISchemaLocalizerSupport interface, _search_ISchemaLocalizerSupport_Localize, search._search_ISchemaLocalizerSupport_Localize, structuredquery/ISchemaLocalizerSupport::Localize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Pointer to a null-terminated Unicode string to be localized. It may be in one of
 
 Type: <b>LPWSTR*</b>
 
-Returns a null-terminated Unicode string that is the localized string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>. If the method does not succeed, this parameter is set to <b>NULL</b>.
+Returns a null-terminated Unicode string that is the localized string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>. If the method does not succeed, this parameter is set to <b>NULL</b>.
         
 
 

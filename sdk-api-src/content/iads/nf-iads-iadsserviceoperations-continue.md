@@ -7,7 +7,7 @@ old-location: adsi\iadsserviceoperations_continue.htm
 old-project: ADSI
 ms.assetid: de7627b4-8873-4324-b833-ff4cf018a428
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: Continue, Continue method [ADSI], Continue method [ADSI],IADsServiceOperations interface, IADsServiceOperations interface [ADSI],Continue method, IADsServiceOperations.Continue, IADsServiceOperations::Continue, _ds_iadsserviceoperations_continue, adsi.iadsserviceoperations__continue, adsi.iadsserviceoperations_continue, iads/IADsServiceOperations::Continue
 ms.prod: windows
 ms.technology: windows-sdk

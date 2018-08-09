@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorfreeerrormemory.htm
 old-project: eaphost
 ms.assetid: 8fcf82d6-9809-4a28-a694-1f7494216f82
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ Releases error-specific memory allocated by the EAP authenticator method.
 
 
 
-### -param pEapError
-
-TBD
-
-
-
-
-#### - ppEapError [in]
+### -param pEapError [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains the error data to free.
 

@@ -7,7 +7,7 @@ old-location: fs\getdiskfreespaceex.htm
 old-project: fileio
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/06/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,9 +86,14 @@ The calling application must have <b>FILE_LIST_DIRECTORY</b> access rights for t
        directory.
 
 
-### -param lpFreeBytesAvailableToCaller
+### -param lpFreeBytesAvailableToCaller [out, optional]
 
-TBD
+A pointer to a variable that receives the total number of free bytes on a disk that are available to the user 
+       who is associated with the calling thread.
+
+This parameter can be <b>NULL</b>.
+
+If per-user quotas are being used, this value may be less than the total number of free bytes on a disk.
 
 
 ### -param lpTotalNumberOfBytes [out, optional]
@@ -109,16 +114,6 @@ To determine the total number of bytes on a disk or volume, use
 A pointer to a variable that receives the total number of free bytes on a disk.
 
 This parameter can be <b>NULL</b>.
-
-
-#### - lpFreeBytesAvailable [out, optional]
-
-A pointer to a variable that receives the total number of free bytes on a disk that are available to the user 
-       who is associated with the calling thread.
-
-This parameter can be <b>NULL</b>.
-
-If per-user quotas are being used, this value may be less than the total number of free bytes on a disk.
 
 
 ## -returns

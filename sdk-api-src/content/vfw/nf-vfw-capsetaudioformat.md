@@ -7,7 +7,7 @@ old-location: multimedia\capsetaudioformat.htm
 old-project: Multimedia
 ms.assetid: 9f14b76c-3b12-4dfb-937d-e8a173e077bd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat macro [Windows Multimedia], multimedia.capsetaudioformat, vfw/capSetAudioFormat"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a capture window.
 
 ### -param s
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c">PCMWAVEFORMAT</a> structure that defines the audio format. 
 
 
 ### -param wSize
 
 Size, in bytes, of the structure referenced by <i>psAudioFormat</i>. 
-
-
-#### - psAudioFormat
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c">PCMWAVEFORMAT</a> structure that defines the audio format. 
 
 
 ## -see-also

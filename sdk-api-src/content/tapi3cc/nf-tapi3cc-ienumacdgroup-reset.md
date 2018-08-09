@@ -4,10 +4,10 @@ title: IEnumACDGroup::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumacdgroup_reset.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 66c51bdd-c820-4670-a80d-27cfa080f08f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Reset method, IEnumACDGroup.Reset, IEnumACDGroup::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_reset, tapi3.ienumacdgroup_reset, tapi3cc/IEnumACDGroup::Reset
 ms.prod: windows
 ms.technology: windows-sdk

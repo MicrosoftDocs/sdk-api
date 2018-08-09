@@ -7,7 +7,7 @@ old-location: mstv\itsdt_getversionnumber.htm
 old-project: mstv
 ms.assetid: 4784b7d6-1a20-4018-9ad5-7e8bafb700f8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetVersionNumber method, ITSDT.GetVersionNumber, ITSDT::GetVersionNumber, ITSDTGetVersionNumber, mpeg2psiparser/ITSDT::GetVersionNumber, mstv.itsdt_getversionnumber
 ms.prod: windows
 ms.technology: windows-sdk

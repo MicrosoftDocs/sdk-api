@@ -4,10 +4,10 @@ title: ITMediaControl
 author: windows-sdk-content
 description: The ITMediaControl interface is a generic interface for media file terminals. The interface exposes methods that allow the application to start, stop, or pause current actions, such as a playback.
 old-location: tapi3\itmediacontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 016166a1-72ac-4ce8-9c86-43cf94b1bdbd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITMediaControl, ITMediaControl interface [TAPI 2.2], ITMediaControl interface [TAPI 2.2],described, _tapi3_itmediacontrol, tapi3.itmediacontrol, tapi3if/ITMediaControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

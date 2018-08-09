@@ -7,7 +7,7 @@ old-location: security\iazoperations_item.htm
 old-project: secauthz
 ms.assetid: 1b763828-8e83-4f9c-82ad-9e7bfe205de3
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AzOperations object [Security],Item property, IAzOperations interface [Security],Item property, IAzOperations.Item, IAzOperations.get_Item, IAzOperations::Item, IAzOperations::get_Item, Item property [Security], Item property [Security],AzOperations object, Item property [Security],IAzOperations interface, azroles/IAzOperations::Item, azroles/IAzOperations::get_Item, get_Item, security.iazoperations_item
 ms.prod: windows
 ms.technology: windows-sdk

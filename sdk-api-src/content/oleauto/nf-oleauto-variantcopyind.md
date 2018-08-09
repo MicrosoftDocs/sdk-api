@@ -7,7 +7,7 @@ old-location: automat\variantcopyind.htm
 old-project: automat
 ms.assetid: 5d9be6cd-92e5-485c-ba0d-8630d3e414b8
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VariantCopyInd, VariantCopyInd function [Automation], _oa96_VariantCopyInd, automat.variantcopyind, oleauto/VariantCopyInd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ Insufficient memory to complete the operation.
 
 
 
-This function is useful when a copy of a variant is needed, and to guarantee that it is not VT_BYREF, such as when handling arguments in an implementation of <a href="https://msdn.microsoft.com/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a>.
+This function is useful when a copy of a variant is needed, and to guarantee that it is not VT_BYREF, such as when handling arguments in an implementation of <a href="964ADE8E-9D8A-4D32-BD47-AA678912A54D">IDispatch::Invoke</a>.
 
 For example, if the source is a (VT_BYREF | VT_I2), the destination will be a BYVAL | VT_I2. The same is true for all legal VT_BYREF combinations, including VT_VARIANT.
 

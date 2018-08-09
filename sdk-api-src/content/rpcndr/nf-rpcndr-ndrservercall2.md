@@ -7,7 +7,7 @@ old-location: rpc\ndrservercall2.htm
 old-project: rpc
 ms.assetid: 82E79B9E-5022-498A-B22A-0BEC6BF7DD5A
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: NdrServerCall2, NdrServerCall2 function [RPC], rpc.ndrservercall2, rpcndr/NdrServerCall2
 ms.prod: windows
 ms.technology: windows-sdk

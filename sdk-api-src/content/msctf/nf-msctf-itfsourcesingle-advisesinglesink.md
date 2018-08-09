@@ -7,7 +7,7 @@ old-location: tsf\itfsourcesingle_advisesinglesink.htm
 old-project: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: AdviseSingleSink, AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework],ITfSourceSingle interface, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],AdviseSingleSink method, ITfSourceSingle.AdviseSingleSink, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,8 +198,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">
-        ITfFunctionProvider
+<a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider
       </a>
 
 

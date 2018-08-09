@@ -7,7 +7,7 @@ old-location: dshow\truecolorinfostructure.htm
 old-project: DirectShow
 ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure, tag_TRUECOLORINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>TRUECOLORINFO</b> structure contains color palette and bitmask information for a video image.
+The <b>TRUECOLORINFO</b> structure contains color palette and bitmask information for a video image.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field dwBitMasks
 
-
-            Array of color masks (one per color element).
+Array of color masks (one per color element).
           
 
 
 ### -field bmiColors
 
-
-            Array of palette colors.
+Array of palette colors.
           
 
 

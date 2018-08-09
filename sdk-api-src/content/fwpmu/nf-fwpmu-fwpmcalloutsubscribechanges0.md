@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutsubscribechanges0_func.htm
 old-project: fwp
 ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: FwpmCalloutSubscribeChanges0, FwpmCalloutSubscribeChanges0 function [Filtering], fwp.fwpmcalloutsubscribechanges0_func, fwpmu/FwpmCalloutSubscribeChanges0
 ms.prod: windows
 ms.technology: windows-sdk

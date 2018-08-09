@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_getchangeunitexceptions.htm
 old-project: winsync
 ms.assetid: f8d12e76-82f3-4291-8c95-757d4838639e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: GetChangeUnitExceptions, GetChangeUnitExceptions method [Windows Sync], GetChangeUnitExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetChangeUnitExceptions method, ISyncKnowledge.GetChangeUnitExceptions, ISyncKnowledge::GetChangeUnitExceptions, winsync.isyncknowledge_getchangeunitexceptions, winsync/ISyncKnowledge::GetChangeUnitExceptions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itftexteditsink_onendedit.htm
 old-project: TSF
 ms.assetid: 7763a879-a558-463d-837b-e38e6f84b9f7
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfTextEditSink interface [Text Services Framework],OnEndEdit method, ITfTextEditSink.OnEndEdit, ITfTextEditSink::OnEndEdit, OnEndEdit, OnEndEdit method [Text Services Framework], OnEndEdit method [Text Services Framework],ITfTextEditSink interface, _tsf_itftexteditsink_onendedit_ref, msctf/ITfTextEditSink::OnEndEdit, tsf.itftexteditsink_onendedit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,26 +103,22 @@ A text service can use the <i>ecReadOnly</i> parameter only to view the context.
 
 
 
-<a href="https://msdn.microsoft.com/88a8a2c1-bd5f-47d2-8612-c7e0cabfe254">
-        ITfContext::InWriteSession
+<a href="https://msdn.microsoft.com/88a8a2c1-bd5f-47d2-8612-c7e0cabfe254">ITfContext::InWriteSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/6c7b150c-0ca0-4aa5-8828-0c548dbfb215">
-        ITfContext::RequestEditSession
+<a href="https://msdn.microsoft.com/6c7b150c-0ca0-4aa5-8828-0c548dbfb215">ITfContext::RequestEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2106cd97-9e1f-4d7c-a7a4-55676cf8923b">
-        ITfEditRecord
+<a href="https://msdn.microsoft.com/2106cd97-9e1f-4d7c-a7a4-55676cf8923b">ITfEditRecord
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 
@@ -131,8 +127,7 @@ A text service can use the <i>ecReadOnly</i> parameter only to view the context.
 
 
 
-<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">
-        TfEditCookie
+<a href="https://msdn.microsoft.com/1de17286-5d56-4302-a144-5fe6ca7d5557">TfEditCookie
       </a>
  
 

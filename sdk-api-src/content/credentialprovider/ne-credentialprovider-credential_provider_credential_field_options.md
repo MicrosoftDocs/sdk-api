@@ -7,7 +7,7 @@ old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS.htm
 old-project: shell
 ms.assetid: 6E8623D0-7FC3-4ccb-B17A-CB12A0508F15
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, CPCFO_NUMBERS_ONLY, CPCFPO_ENABLE_PASSWORD_REVEAL, CPCFPO_IS_EMAIL_ADDRESS, CPCFPO_NONE, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration [Windows Shell], credentialprovider/CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, credentialprovider/CPCFO_NUMBERS_ONLY, credentialprovider/CPCFPO_ENABLE_PASSWORD_REVEAL, credentialprovider/CPCFPO_IS_EMAIL_ADDRESS, credentialprovider/CPCFPO_NONE, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_USER_ENUM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,23 +82,23 @@ The field will only allow numerals to be entered. The on-screen keyboard should 
 
 
 
+#### - CPCFPO_NONE
+
+Default. Do not show the "password reveal" glyph and use the standard on-screen keyboard layout.
+
+
 #### - CPCFPO_ENABLE_PASSWORD_REVEAL
 
 Display the "password reveal" glyph in a password entry box. When this glyph is held down by the user, the entry in the password box is shown in plain text. The glyph is shown here:
 
                         
 
-<img alt="Password reveal glyph" src="./images/PasswordReveal.png"/>
+<img alt="Password reveal glyph" src="images/PasswordReveal.png"/>
 
 
 #### - CPCFPO_IS_EMAIL_ADDRESS
 
 The field will contain an e-mail address. The on-screen keyboard should be optimized for that input (showing the .com and @ keys on the primary keyboard layout). This option is used with Microsoft account credentials.
-
-
-#### - CPCFPO_NONE
-
-Default. Do not show the "password reveal" glyph and use the standard on-screen keyboard layout.
 
 
 ## -see-also

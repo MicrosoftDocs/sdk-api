@@ -7,7 +7,7 @@ old-location: wmi\swbemsecurity_privileges.htm
 old-project: WmiSdk
 ms.assetid: 6e4cae22-23d6-4981-b38c-d298654e59ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/03/2018
 ms.keywords: ISWbemSecurity interface [Windows Management Instrumentation],Privileges property, ISWbemSecurity.get_Privileges, ISWbemSecurity::get_Privileges, Privileges property [Windows Management Instrumentation], Privileges property [Windows Management Instrumentation],ISWbemSecurity interface, Privileges property [Windows Management Instrumentation],SWbemSecurity object, SWbemSecurity object [Windows Management Instrumentation],Privileges property, SWbemSecurity.Privileges, _hmm_swbemsecurity.privileges, get_Privileges, wmi.swbemsecurity_privileges
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\drvgradientfill.htm
 old-project: display
 ms.assetid: c8a51b5f-5509-4801-8432-c4d895cefbda
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: DrvGradientFill, DrvGradientFill function [Display Devices], ddifncs_23385260-cc1d-4871-8aad-b6618e3d5f52.xml, display.drvgradientfill, winddi/DrvGradientFill
 ms.prod: windows
 ms.technology: windows-sdk

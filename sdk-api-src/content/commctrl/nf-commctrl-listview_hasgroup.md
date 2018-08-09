@@ -7,7 +7,7 @@ old-location: controls\ListView_HasGroup.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hasgroup.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_HasGroup, ListView_HasGroup macro [Windows Controls], _win32_ListView_HasGroup, _win32_ListView_HasGroup_cpp, commctrl/ListView_HasGroup, controls.ListView_HasGroup, controls._win32_ListView_HasGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761097(v=VS.85).aspx">LVM_HASGROUP</a> message explicitly. 
+Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://msdn.microsoft.com/0b8a9208-5221-4f66-8b26-7de55afe485f">LVM_HASGROUP</a> message explicitly. 
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Type: <b>int</b>
 
 
 
-To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

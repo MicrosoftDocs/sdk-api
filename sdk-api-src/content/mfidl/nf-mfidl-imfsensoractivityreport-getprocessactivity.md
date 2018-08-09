@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getprocessactivity.htm
 old-project: medfound
 ms.assetid: A9E18EC3-83E4-430B-B7A4-49FC9736A94E
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetProcessActivity, GetProcessActivity method [Media Foundation], GetProcessActivity method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessActivity method, IMFSensorActivityReport.GetProcessActivity, IMFSensorActivityReport::GetProcessActivity, mf.imfsensoractivityreport_getprocessactivity, mfidl/IMFSensorActivityReport::GetProcessActivity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The index of the <a href="https://msdn.microsoft.com/833A24EA-11E0-47CF-A710-06E
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -92,8 +91,7 @@ The index of the <a href="https://msdn.microsoft.com/833A24EA-11E0-47CF-A710-06E
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

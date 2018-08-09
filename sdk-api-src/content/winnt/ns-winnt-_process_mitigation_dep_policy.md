@@ -4,10 +4,10 @@ title: "_PROCESS_MITIGATION_DEP_POLICY"
 author: windows-sdk-content
 description: Contains process mitigation policy settings for data execution prevention (DEP).
 old-location: base\process_mitigation_dep_policy.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 49f257fe-82e2-41b3-b692-9c88d5896273
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY structure pointer, PROCESS_MITIGATION_DEP_POLICY, PROCESS_MITIGATION_DEP_POLICY structure, _PROCESS_MITIGATION_DEP_POLICY, base.process_mitigation_dep_policy, winnt/PPROCESS_MITIGATION_DEP_POLICY, winnt/PROCESS_MITIGATION_DEP_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,14 +94,14 @@ This member is reserved for system use.
 DEP is permanently enabled and cannot be disabled if this field is set to TRUE.
 
 
-#### - DisableAtlThunkEmulation : 1
-
-ATL thunk emulation is disabled for the process if this flag is set.
-
-
 #### - Enable : 1
 
 DEP is enabled for the process if this flag is set.
+
+
+#### - DisableAtlThunkEmulation : 1
+
+ATL thunk emulation is disabled for the process if this flag is set.
 
 
 #### - ReservedFlags : 30

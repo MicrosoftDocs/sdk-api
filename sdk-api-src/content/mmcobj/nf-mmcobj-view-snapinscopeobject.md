@@ -7,7 +7,7 @@ old-location: mmc\view_snapinscopeobject.htm
 old-project: MMC
 ms.assetid: 340ab6d0-e674-438a-9c84-87dcb274ae6a
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: SnapinScopeObject, SnapinScopeObject method [MMC], SnapinScopeObject method [MMC],View interface, SnapinScopeObject method [MMC],View object, View interface [MMC],SnapinScopeObject method, View object [MMC],SnapinScopeObject method, View.SnapinScopeObject, View::SnapinScopeObject, _slate_view.snapinscopeobject_method, mmc.view_snapinscopeobject
 ms.prod: windows
 ms.technology: windows-sdk

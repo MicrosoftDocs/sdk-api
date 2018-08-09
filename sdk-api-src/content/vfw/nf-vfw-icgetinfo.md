@@ -7,7 +7,7 @@ old-location: multimedia\icgetinfo.htm
 old-project: Multimedia
 ms.assetid: 763dc5ef-7578-44c8-ab14-0e49644213ef
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a compressor.
 
 ### -param picinfo
 
-TBD
+Pointer to the <a href="https://msdn.microsoft.com/5faf7022-6dc8-475c-8f5a-721bc5b6afee">ICINFO</a> structure to return information about the compressor.
 
 
 ### -param cb
 
 Size, in bytes, of the structure pointed to by <i>lpicinfo</i>.
-
-
-#### - lpicinfo
-
-Pointer to the <a href="https://msdn.microsoft.com/5faf7022-6dc8-475c-8f5a-721bc5b6afee">ICINFO</a> structure to return information about the compressor.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: stg\oleconvertistoragetoolestreamex.htm
 old-project: stg
 ms.assetid: a6026b71-4223-40ab-b209-44531480db57
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: OleConvertIStorageToOLESTREAMEx, OleConvertIStorageToOLESTREAMEx function [Structured Storage], _stg_oleconvertistoragetoolestreamex, ole2/OleConvertIStorageToOLESTREAMEx, stg.oleconvertistoragetoolestreamex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>OleConvertIStorageToOLESTREAMEx</b> function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model, including the presentation data. This is one of several functions included in Structured Storage to ensure compatibility between OLE1 and OLE2.
 
 
@@ -61,9 +60,10 @@ req.product: ADAM
 
 
 
-### -param pstg
+### -param pstg [in]
 
-TBD
+Pointer to the 
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
 
 
 ### -param cfFormat [in]
@@ -89,33 +89,19 @@ Size of the data, in bytes, to be converted.
 ### -param pmedium [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> structure for the serialized data to be converted.
+<a href="_ole_stgmedium">STGMEDIUM</a> structure for the serialized data to be converted.
 
 
-### -param polestm
-
-TBD
-
-
-
-
-#### - lpolestm [out]
+### -param polestm [out]
 
 Pointer to a stream where the persistent representation of the object is saved using the OLE 1 storage model.
-
-
-#### - pStg [in]
-
-Pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
 
 
 ## -returns
 
 
 
-
-						This function supports the standard return value E_INVALIDARG, in addition to the following:
+This function supports the standard return value E_INVALIDARG, in addition to the following:
 
 
 
@@ -134,8 +120,8 @@ Because
 <b>OleConvertIStorageToOLESTREAMEx</b> can specify which presentation data to convert, it can be used by applications that do not use OLE default caching resources but do use OLE's conversion resources.
 
 The value of the <b>tymed</b> member of 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
-<a href="https://msdn.microsoft.com/library/ms691227(v=VS.85).aspx">TYMED</a> enumeration for more information. The medium is not released by the 
+<a href="_ole_stgmedium">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
+<a href="_ole_tymed">TYMED</a> enumeration for more information. The medium is not released by the 
 <b>OleConvertIStorageToOLESTREAMEx</b> function.
 
 
@@ -146,7 +132,7 @@ The value of the <b>tymed</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680738(v=VS.85).aspx">CoIsOle1Class</a>
+<a href="_com_coisole1class">CoIsOle1Class</a>
 
 
 
@@ -162,11 +148,11 @@ The value of the <b>tymed</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683812(v=VS.85).aspx">STGMEDIUM</a>
+<a href="_ole_stgmedium">STGMEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691227(v=VS.85).aspx">TYMED</a>
+<a href="_ole_tymed">TYMED</a>
  
 
  

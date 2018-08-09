@@ -7,7 +7,7 @@ old-location: fs\getntmsobjectsecurity.htm
 old-project: Rsm
 ms.assetid: 1d2168a3-077e-48fc-8a06-91952213f2cb
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 08/03/2018
 ms.keywords: GetNtmsObjectSecurity, GetNtmsObjectSecurity function [Files], _zaw_getntmsobjectsecurity, base.getntmsobjectsecurity, fs.getntmsobjectsecurity, ntmsapi/GetNtmsObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,10 @@ A
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that specifies the requested security data.
 
 
-### -param lpSecurityDescriptor
+### -param lpSecurityDescriptor [out]
 
-TBD
+Pointer to a 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor.
 
 
 ### -param nLength [in]
@@ -98,12 +99,6 @@ Length of the descriptor.
 ### -param lpnLengthNeeded [out]
 
 Required length of the buffer if it is not large enough for the security descriptor, in bytes.
-
-
-#### - pSecurityDescriptor [out]
-
-Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor.
 
 
 ## -returns
@@ -222,7 +217,7 @@ RSM security uses the standard security descriptors and information members. Thi
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
 
 
 

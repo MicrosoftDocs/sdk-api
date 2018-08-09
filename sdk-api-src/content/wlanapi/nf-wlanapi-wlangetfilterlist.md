@@ -4,10 +4,10 @@ title: WlanGetFilterList function
 author: windows-sdk-content
 description: Retrieves a group policy or user permission list.
 old-location: nwifi\wlangetfilterlist.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 3ea88e52-34bb-47a6-b345-c789d1d8047d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WlanGetFilterList, WlanGetFilterList function [NativeWIFI], nwifi.wlangetfilterlist, wlanapi/WlanGetFilterList
 ms.prod: windows
 ms.technology: windows-sdk

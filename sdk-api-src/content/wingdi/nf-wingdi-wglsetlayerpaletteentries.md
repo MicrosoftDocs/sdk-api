@@ -7,7 +7,7 @@ old-location: opengl\wglsetlayerpaletteentries.htm
 old-project: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/06/2018
 ms.keywords: "_ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,31 +61,12 @@ Sets the palette entries in a given color-index layer plane for a specified devi
 
 ### -param param
 
-TBD
-
-
-### -param COLORREF
-
-TBD
-
-
-
-
-#### - cEntries
-
-Type: <b>int</b>
-
-The number of palette entries to be set.
-
-
-#### - hdc
-
 Type: <b>HDC</b>
 
 The device context of a window whose layer palette is to be set.
 
 
-#### - iLayerPlane
+### -param COLORREF
 
 Type: <b>int</b>
 
@@ -97,6 +78,13 @@ An overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify ove
 Type: <b>int</b>
 
 The first palette entry to be set.
+
+
+#### - cEntries
+
+Type: <b>int</b>
+
+The number of palette entries to be set.
 
 
 #### - pcr

@@ -7,7 +7,7 @@ old-location: controls\NMCBEENDEDIT.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbeendedit.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPNMCBEENDEDITW, *PNMCBEENDEDITW, CBENF_DROPDOWN, CBENF_ESCAPE, CBENF_KILLFOCUS, CBENF_RETURN, NMCBEENDEDIT, NMCBEENDEDIT structure [Windows Controls], NMCBEENDEDITA, NMCBEENDEDITW, PNMCBEENDEDIT, PNMCBEENDEDIT structure pointer [Windows Controls], _win32_NMCBEENDEDIT, _win32_NMCBEENDEDIT_cpp, commctrl/NMCBEENDEDIT, commctrl/NMCBEENDEDITA, commctrl/NMCBEENDEDITW, commctrl/PNMCBEENDEDIT, controls.NMCBEENDEDIT, controls._win32_NMCBEENDEDIT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb775760(v=VS.85).aspx">CBEN_ENDEDIT</a> notification code. 
+Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://msdn.microsoft.com/b6b50951-7304-4499-b57b-a5b592de2190">CBEN_ENDEDIT</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Contains information about the conclusion of an edit operation within a ComboBox
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field fChanged
@@ -92,7 +92,7 @@ A zero-terminated string that contains the text from within the control's edit b
 
 Type: <b>int</b>
 
-A value that specifies the action that generated the <a href="https://msdn.microsoft.com/library/Bb775760(v=VS.85).aspx">CBEN_ENDEDIT</a> notification code. This value can be one of the following: 
+A value that specifies the action that generated the <a href="https://msdn.microsoft.com/b6b50951-7304-4499-b57b-a5b592de2190">CBEN_ENDEDIT</a> notification code. This value can be one of the following: 
 
 <table>
 <tr>

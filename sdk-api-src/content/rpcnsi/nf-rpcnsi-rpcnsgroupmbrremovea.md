@@ -7,7 +7,7 @@ old-location: rpc\rpcnsgroupmbrremove.htm
 old-project: rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents_onobjpoolputobject.htm
 old-project: cossdk
 ms.assetid: 00b0b3b1-943d-4fba-bd5d-52d6de80fcf6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolPutObject method, IComObjectPoolEvents.OnObjPoolPutObject, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject
 ms.prod: windows
 ms.technology: windows-sdk

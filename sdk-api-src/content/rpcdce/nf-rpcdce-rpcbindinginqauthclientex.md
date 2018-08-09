@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqauthclientex.htm
 old-project: rpc
 ms.assetid: 4ee73a2b-8722-44f0-af0d-dedcb27ba224
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: RPC_C_FULL_CERT_CHAIN, RpcBindingInqAuthClientEx, RpcBindingInqAuthClientEx function [RPC], RpcBindingInqAuthClientExA, RpcBindingInqAuthClientExW, _rpc_rpcbindinginqauthclientex, rpc.rpcbindinginqauthclientex, rpcdce/RpcBindingInqAuthClientEx, rpcdce/RpcBindingInqAuthClientExA, rpcdce/RpcBindingInqAuthClientExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,13 +117,6 @@ Specify a null value to prevent
 
 
 ### -param Flags
-
-TBD
-
-
-
-
-#### - flags
 
 Controls the format of the principal name. This parameter can be set to the following value.
 

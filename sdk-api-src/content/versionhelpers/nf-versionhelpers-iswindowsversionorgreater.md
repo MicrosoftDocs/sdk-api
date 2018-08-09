@@ -7,7 +7,7 @@ old-location: base\iswindowsversionorgreater.htm
 old-project: SysInfo
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
 ms.prod: windows
 ms.technology: windows-sdk

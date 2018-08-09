@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\resourcetype.htm
 old-project: xaml_diagnostics
 ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
 ms.prod: windows
 ms.technology: windows-sdk

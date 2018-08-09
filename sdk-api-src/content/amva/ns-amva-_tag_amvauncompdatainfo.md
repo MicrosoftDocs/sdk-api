@@ -7,7 +7,7 @@ old-location: dshow\amvauncompdatainfo.htm
 old-project: DirectShow
 ms.assetid: 920f88bb-c671-4ab9-b482-b03505cca118
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: "*LPAMVAUncompDataInfo, AMVAUncompDataInfo, AMVAUncompDataInfo structure [DirectShow], AMVAUncompDataInfoStructure, LPAMVAUncompDataInfo, LPAMVAUncompDataInfo structure pointer [DirectShow], _tag_AMVAUncompDataInfo, amva/AMVAUncompDataInfo, amva/LPAMVAUncompDataInfo, dshow.amvauncompdatainfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          The <b>AMVAUncompDataInfo</b> structure specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
+The <b>AMVAUncompDataInfo</b> structure specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
 
 
 ## -struct-fields
@@ -61,22 +60,18 @@ req.irql:
 
 ### -field dwUncompWidth
 
-
-            Width of the decoded, uncompressed data, in pixels.
+Width of the decoded, uncompressed data, in pixels.
 
 
 ### -field dwUncompHeight
 
-
-            Height of the decoded, uncompressed data, in pixels.
+Height of the decoded, uncompressed data, in pixels.
           
 
 
 ### -field ddUncompPixelFormat
 
-
-            
-              A <b>DDPIXELFORMAT</b> structure that specifies the pixel format of the uncompressed data.
+A <b>DDPIXELFORMAT</b> structure that specifies the pixel format of the uncompressed data.
           
 
 

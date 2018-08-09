@@ -7,7 +7,7 @@ old-location: stg\statpropsetstg.htm
 old-project: stg
 ms.assetid: 8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: STATPROPSETSTG, STATPROPSETSTG structure [Structured Storage], _stg_statpropsetstg, propidlbase/STATPROPSETSTG, stg.statpropsetstg, tagSTATPROPSETSTG
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>STATPROPSETSTG</b> structure contains information about a property set. To get this information, call 
 <a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">IPropertyStorage::Stat</a>, which fills in a buffer containing the information describing the current property set. To enumerate the 
 <b>STATPROPSETSTG</b> structures for the property sets in the current property-set storage, call 

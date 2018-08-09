@@ -7,7 +7,7 @@ old-location: mscs\clusresource_changeresourcegroup.htm
 old-project: mscs
 ms.assetid: c272144f-f417-4ea5-8147-4f7bd02170b7
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ChangeResourceGroup, ChangeResourceGroup method [Failover Cluster], ChangeResourceGroup method [Failover Cluster],ClusResource class, ClusResource class [Failover Cluster],ChangeResourceGroup method, ClusResource.ChangeResourceGroup, ISClusResource.ChangeResourceGroup, ISClusResource::ChangeResourceGroup, _wolf_clusresource.changeresourcegroup, mscs.clusresource_changeresourcegroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,12 +95,12 @@ This method does not return a value.
 Both groups must be hosted by the same node at the time the resource is moved.
 
 If the resource is involved in a 
-     <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">dependency relationship</a> with one or more 
+     <a href="d_gly.htm">dependency relationship</a> with one or more 
      resources, all the resources in the dependency tree will change to the new group as well. For example, in the 
      situation shown in the following diagram, changing resource B to group 2 will move the entire dependency tree 
      (resources A, X, and Y) to group 2.
 
-<img alt="" border="0" src="./images/resmove.png"/>
+<img alt="" border="0" src="images/resmove.png"/>
 
 For more information, see 
      <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">Resource Dependencies</a>.

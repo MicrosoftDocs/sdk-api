@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiinvitation.htm
 old-project: rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ An attendee can join a session if the invitation list contains and invitation wi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

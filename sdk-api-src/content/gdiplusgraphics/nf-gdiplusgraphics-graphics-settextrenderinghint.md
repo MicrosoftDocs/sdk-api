@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\settextrenderinghint.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],SetTextRenderingHint method, Graphics.SetTextRenderingHint, Graphics::SetTextRenderingHint, SetTextRenderingHint, SetTextRenderingHint method [GDI+], SetTextRenderingHint method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_, gdiplus._gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ The <b>Graphics::SetTextRenderingHint</b> method sets the text rendering mode of
 
 ### -param newMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534404(v=VS.85).aspx">TextRenderingHint</a></b>
+Type: <b><a href="https://msdn.microsoft.com/7f0c88f2-106f-4045-a6eb-cd84cab150c4">TextRenderingHint</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534404(v=VS.85).aspx">TextRenderingHint</a> enumeration that specifies the process currently used by this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to render text. 
+Element of the <a href="https://msdn.microsoft.com/7f0c88f2-106f-4045-a6eb-cd84cab150c4">TextRenderingHint</a> enumeration that specifies the process currently used by this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to render text. 
 
 
 ## -returns
@@ -86,9 +86,9 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534404(v=VS.85).aspx">TextRenderingHintClearTypeGridFit</a> is supported only on Windows XP and Windows Server 2003.
+<a href="https://msdn.microsoft.com/7f0c88f2-106f-4045-a6eb-cd84cab150c4">TextRenderingHintClearTypeGridFit</a> is supported only on Windows XP and Windows Server 2003.
 
-You cannot use <a href="https://msdn.microsoft.com/library/ms534404(v=VS.85).aspx">TextRenderingHintClearTypeGridFit</a> along with CompositingModeSourceCopy.
+You cannot use <a href="https://msdn.microsoft.com/7f0c88f2-106f-4045-a6eb-cd84cab150c4">TextRenderingHintClearTypeGridFit</a> along with CompositingModeSourceCopy.
 
 
 #### Examples
@@ -143,11 +143,11 @@ The following example sets the text rendering hint to two different values and d
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533818(v=VS.85).aspx">Antialiasing with Text</a>
+<a href="https://msdn.microsoft.com/780d97ec-f446-4d19-837f-517a7d6dd27d">Antialiasing with Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534093(v=VS.85).aspx">CompositingMode</a>
+<a href="https://msdn.microsoft.com/5bc2691d-8d7d-4322-bdae-a3b8ceb2d963">CompositingMode</a>
 
 
 
@@ -155,15 +155,15 @@ The following example sets the text rendering hint to two different values and d
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a>
+<a href="https://msdn.microsoft.com/6525ac0e-bfd7-4471-bedb-df970b208222">Graphics::GetTextRenderingHint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/93367fac-4f61-4082-9f67-13028f1b8a94">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534404(v=VS.85).aspx">TextRenderingHint</a>
+<a href="https://msdn.microsoft.com/7f0c88f2-106f-4045-a6eb-cd84cab150c4">TextRenderingHint</a>
  
 
  

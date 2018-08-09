@@ -4,10 +4,10 @@ title: "_SYSTEM_CPU_SET_INFORMATION"
 author: windows-sdk-content
 description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
 old-location: base\system_cpu_set_information.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, _SYSTEM_CPU_SET_INFORMATION, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,6 +169,11 @@ Reserved.
 Specifies a tag used by Core Allocation to communicate a given allocated CPU Set between threads in different components.
 
 
+##### - CpuSet.Parked : 1
+
+If set, the home processor of this CPU Set is parked. If the CPU Set is on a parked processor, threads assigned to that set may be reassigned to other processors that are selected by the<b> Process Default</b> sets or the <b>Thread Selected</b> sets. If all such processors are parked, the threads are reassigned to other available processors on the system.
+
+
 ##### - CpuSet.Allocated : 1
 
 If set, the specified CPU Set is not available for general system use, but instead is allocated for exclusive use of some processes. If a non-NULL <b>Process</b> argument is specified in a call to <a href="https://msdn.microsoft.com/168B00AB-1B11-44A0-B548-903CA3F4BBDE">GetSystemCpuSetInformation</a>, it is possible to determine if the processor is allocated for use with that process.
@@ -177,11 +182,6 @@ If set, the specified CPU Set is not available for general system use, but inste
 ##### - CpuSet.AllocatedToTargetProcess : 1
 
 This is set if the CPU Set is allocated for the exclusive use of some subset of the system processes and if it is allocated for the use of the process passed into <a href="https://msdn.microsoft.com/168B00AB-1B11-44A0-B548-903CA3F4BBDE">GetSystemCpuSetInformation</a>.
-
-
-##### - CpuSet.Parked : 1
-
-If set, the home processor of this CPU Set is parked. If the CPU Set is on a parked processor, threads assigned to that set may be reassigned to other processors that are selected by the<b> Process Default</b> sets or the <b>Thread Selected</b> sets. If all such processors are parked, the threads are reassigned to other available processors on the system.
 
 
 ##### - CpuSet.RealTime : 1

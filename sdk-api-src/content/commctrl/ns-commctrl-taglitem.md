@@ -7,7 +7,7 @@ old-location: controls\LITEM.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp, tagLITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,7 +142,7 @@ Combination of one or more of the following flags, describing the state of the i
 </dl>
 </td>
 <td width="60%">
-The link can respond to user input. This is the default unless the entire control was created with <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">WS_DISABLED</a>. In this case, all links are disabled.
+The link can respond to user input. This is the default unless the entire control was created with <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_DISABLED</a>. In this case, all links are disabled.
 
 </td>
 </tr>

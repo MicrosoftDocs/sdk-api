@@ -7,7 +7,7 @@ old-location: mf\mfcomparefulltopartialmediatype.htm
 old-project: medfound
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,15 +90,12 @@ A pipeline component can return a partial media type to describe a range of poss
 This function returns <b>TRUE</b> if the following conditions are both true:
 
 <ul>
-<li>
-            The partial media type contains a major type GUID.
+<li>The partial media type contains a major type GUID.
           </li>
-<li>
-            All of the attributes in the partial type exist in the full type and are set to the same value.
+<li>All of the attributes in the partial type exist in the full type and are set to the same value.
           </li>
 </ul>
-
-        Otherwise, the function returns <b>FALSE</b>.
+Otherwise, the function returns <b>FALSE</b>.
       
 
 

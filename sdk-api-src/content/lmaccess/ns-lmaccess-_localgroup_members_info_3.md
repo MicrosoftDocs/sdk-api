@@ -7,7 +7,7 @@ old-location: netmgmt\localgroup_members_info_3_str.htm
 old-project: netmgmt
 ms.assetid: e8d1d884-c955-4706-bc3e-142469b02545
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_3, *PLOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3 structure [Network Management], _LOCALGROUP_MEMBERS_INFO_3, _win32_localgroup_members_info_3_str, lmaccess/LOCALGROUP_MEMBERS_INFO_3, netmgmt.localgroup_members_info_3_str"
 ms.prod: windows
 ms.technology: windows-sdk

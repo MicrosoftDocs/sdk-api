@@ -7,7 +7,7 @@ old-location: gdi\playenhmetafilerecord.htm
 old-project: gdi
 ms.assetid: 3eec8c8d-b99f-4500-9d18-b819c097f341
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PlayEnhMetaFileRecord, PlayEnhMetaFileRecord function [Windows GDI], _win32_PlayEnhMetaFileRecord, gdi.playenhmetafilerecord, wingdi/PlayEnhMetaFileRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,34 +66,17 @@ The <b>PlayEnhMetaFileRecord</b> function plays an enhanced-metafile record by e
 A handle to the device context passed to the <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a> function.
 
 
-### -param pht
-
-TBD
-
-
-### -param pmr
-
-TBD
-
-
-### -param cht
-
-TBD
-
-
-
-
-#### - lpEnhMetaRecord [in]
-
-A pointer to the enhanced-metafile record to be played.
-
-
-#### - lpHandletable [in]
+### -param pht [in]
 
 A pointer to a table of handles to GDI objects used when playing the metafile. The first entry in this table contains the enhanced-metafile handle.
 
 
-#### - nHandles [in]
+### -param pmr [in]
+
+A pointer to the enhanced-metafile record to be played.
+
+
+### -param cht [in]
 
 The number of handles in the handle table.
 

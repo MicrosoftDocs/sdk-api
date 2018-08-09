@@ -7,7 +7,7 @@ old-location: base\regquerymultiplevalues.htm
 old-project: SysInfo
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
 ms.prod: windows
 ms.technology: windows-sdk

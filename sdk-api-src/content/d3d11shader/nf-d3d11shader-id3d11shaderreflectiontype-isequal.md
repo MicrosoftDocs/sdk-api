@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_isequal.htm
 old-project: direct3d11
 ms.assetid: 99a70bf3-bbd1-49a1-a59f-c35f7236b16f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 5ed95f14-be4b-bff2-83ce-cbf5f239bf3b, ID3D11ShaderReflectionType interface [Direct3D 11],IsEqual method, ID3D11ShaderReflectionType.IsEqual, ID3D11ShaderReflectionType::IsEqual, IsEqual, IsEqual method [Direct3D 11], IsEqual method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::IsEqual, direct3d11.id3d11shaderreflectiontype_isequal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e2036
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if the pointers have the same underlying type; otherwise returns S_FALSE.
 

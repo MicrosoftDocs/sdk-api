@@ -7,7 +7,7 @@ old-location: fs\removelogcontainerset.htm
 old-project: Clfs
 ms.assetid: adc35813-7368-4d8c-ad2b-1bb0824ad019
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/03/2018
 ms.keywords: RemoveLogContainerSet, RemoveLogContainerSet function [Files], clfsw32/RemoveLogContainerSet, fs.removelogcontainerset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,11 @@ A handle to the log that is obtained from <a href="https://msdn.microsoft.com/ac
 The log handle must have administrative permission to add a log container, and can refer to either a dedicated or multiplexed log.
 
 
-### -param cContainer
+### -param cContainer [in]
 
-TBD
+The number of container path names in an array that is pointed to by <i>rgwszContainerPath</i>.  
+
+This value must be nonzero.
 
 
 ### -param rgwszContainerPath [in]
@@ -91,13 +93,6 @@ If <b>FALSE</b>, the container is deleted when the container is no longer a part
 ### -param pReserved [in, out, optional]
 
 Reserved.  Set <i>pReserved</i> to <b>NULL</b>.
-
-
-#### - cContainers [in]
-
-The number of container path names in an array that is pointed to by <i>rgwszContainerPath</i>.  
-
-This value must be nonzero.
 
 
 ## -returns

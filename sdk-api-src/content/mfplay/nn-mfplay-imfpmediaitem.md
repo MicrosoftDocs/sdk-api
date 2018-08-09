@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem.htm
 old-project: medfound
 ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: GDI+ 1.1
 <div> </div>
 
 
-
-        Represents a media item. A <i>media item</i> is an abstraction for a source of media data, such as a video file. Use this interface to get information about the source, or to change certain playback settings, such as the start and stop times. To get a pointer to this interface, call one of the following methods:
+Represents a media item. A <i>media item</i> is an abstraction for a source of media data, such as a video file. Use this interface to get information about the source, or to change certain playback settings, such as the start and stop times. To get a pointer to this interface, call one of the following methods:
 <ul>
 <li>
 <a href="https://msdn.microsoft.com/d647df89-b874-448e-ae41-ee3bcb55521f">IMFPMediaPlayer::CreateMediaItemFromObject</a>
@@ -240,8 +239,7 @@ Selects or deselects a stream.
 <a href="https://msdn.microsoft.com/97ed9cc0-5f69-4ecb-98c7-c58130b91d7c">SetStreamSink</a>
 </td>
 <td align="left" width="63%">
-
-        Sets a media sink for the media item.
+Sets a media sink for the media item.
 
 </td>
 </tr>

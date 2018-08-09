@@ -7,7 +7,7 @@ old-location: multimedia\capgetaudioformat.htm
 old-project: Multimedia
 ms.assetid: 11a91da3-dd22-4828-9845-dc29e73c4526
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capGetAudioFormat, capGetAudioFormat, capGetAudioFormat macro [Windows Multimedia], multimedia.capgetaudioformat, vfw/capGetAudioFormat"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,17 +69,12 @@ Handle to a capture window.
 
 ### -param s
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, or <b>NULL</b>. If the value is <b>NULL</b>, the size, in bytes, required to hold the <b>WAVEFORMATEX</b> structure is returned. 
 
 
 ### -param wSize
 
 Size, in bytes, of the structure referenced by <i>s</i>. 
-
-
-#### - psAudioFormat
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, or <b>NULL</b>. If the value is <b>NULL</b>, the size, in bytes, required to hold the <b>WAVEFORMATEX</b> structure is returned. 
 
 
 ## -remarks

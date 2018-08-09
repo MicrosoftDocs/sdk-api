@@ -4,10 +4,10 @@ title: "_WTS_TIME_ZONE_INFORMATION"
 author: windows-sdk-content
 description: Contains client time zone information.
 old-location: termserv\wts_time_zone_information.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 7d0e75b1-0a9b-47b1-8bf7-192966e3d19a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PWTS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], PWTS_TIME_ZONE_INFORMATION, PWTS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], WRDS_TIME_ZONE_INFORMATION, WRDS_TIME_ZONE_INFORMATION structure [Remote Desktop Services], WTS_TIME_ZONE_INFORMATION, WTS_TIME_ZONE_INFORMATION structure [Remote Desktop Services], _WTS_TIME_ZONE_INFORMATION, termserv.wts_time_zone_information, wtsdefs/PWRDS_TIME_ZONE_INFORMATION, wtsdefs/PWTS_TIME_ZONE_INFORMATION, wtsdefs/WRDS_TIME_ZONE_INFORMATION, wtsdefs/WTS_TIME_ZONE_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

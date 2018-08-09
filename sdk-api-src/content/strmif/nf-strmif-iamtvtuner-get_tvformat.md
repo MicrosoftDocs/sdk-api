@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_get_tvformat.htm
 old-project: DirectShow
 ms.assetid: 26e20511-04f6-4713-967f-5828e6f2a46d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_TVFormat method, IAMTVTuner.get_TVFormat, IAMTVTuner::get_TVFormat, IAMTVTunerget_TVFormat, dshow.iamtvtuner_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_TVFormat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ibpcsatellitetuner.htm
 old-project: DirectShow
 ms.assetid: 61b14331-851b-4579-8995-06c6c4e8c8b7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: IBPCSatelliteTuner, IBPCSatelliteTuner interface [DirectShow], IBPCSatelliteTuner interface [DirectShow],described, IBPCSatelliteTunerInterface, dshow.ibpcsatellitetuner, strmif/IBPCSatelliteTuner
 ms.prod: windows
 ms.technology: windows-sdk

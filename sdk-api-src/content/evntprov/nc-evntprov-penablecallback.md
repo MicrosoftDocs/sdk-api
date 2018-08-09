@@ -4,10 +4,10 @@ title: PENABLECALLBACK
 author: windows-sdk-content
 description: Providers implement this function to receive enable or disable notification requests. The PENABLECALLBACK type defines a pointer to this callback function. EnableCallback is a placeholder for the application-defined function name.
 old-location: etw\enablecallback.htm
-old-project: etw
+old-project: ETW
 ms.assetid: f339323e-9da9-495f-aac5-f44969a018eb
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/07/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, PENABLECALLBACK, PENABLECALLBACK callback, PENABLECALLBACK callback function [ETW], base.eanblecallback, etw.eanblecallback, etw.enablecallback, evntprov/PENABLECALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-			Providers implement this function to receive enable or disable notification requests. 
+Providers implement this function to receive enable or disable notification requests. 
 			
 
 The <b>PENABLECALLBACK</b> type defines a pointer to this callback function. <b>EnableCallback</b> is a placeholder for the application-defined function name.
@@ -170,7 +169,7 @@ This callback function does not return a value.
 
 To specify that you want to receive notification when a session enables or disables your provider, set the <i>EnableCallback</i> parameter when calling the <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> function.
 
-<a href="https://msdn.microsoft.com/library/Aa363668(v=VS.85).aspx">Classic</a> providers needed to specify and implement a callback because it used the information that was passed to the callback to determine the types of events to log and the level of verboseness to use when logging the events. However, with <a href="https://msdn.microsoft.com/library/Aa363668(v=VS.85).aspx">manifest-based</a> providers, the callback is optional and is used for informational purposes; you do not need to specify or implement the callback when registering the provider unless your provider supports filtering. Providers can now just write events and ETW will determine if the event is logged to the session. If you want to verify that the event should be written before writing the event, you can call either the <a href="https://msdn.microsoft.com/b332b6d4-6921-40bd-bebc-6646b5b9bcde">EventEnabled</a> or  <a href="https://msdn.microsoft.com/84c035b1-cdc7-47b7-b887-e5b508f17266">EventProviderEnabled</a> function.
+<a href="about_event_tracing.htm">Classic</a> providers needed to specify and implement a callback because it used the information that was passed to the callback to determine the types of events to log and the level of verboseness to use when logging the events. However, with <a href="about_event_tracing.htm">manifest-based</a> providers, the callback is optional and is used for informational purposes; you do not need to specify or implement the callback when registering the provider unless your provider supports filtering. Providers can now just write events and ETW will determine if the event is logged to the session. If you want to verify that the event should be written before writing the event, you can call either the <a href="https://msdn.microsoft.com/b332b6d4-6921-40bd-bebc-6646b5b9bcde">EventEnabled</a> or  <a href="https://msdn.microsoft.com/84c035b1-cdc7-47b7-b887-e5b508f17266">EventProviderEnabled</a> function.
 
 Each time a new session enables the provider or a current session updates the provider, ETW calls the provider's callback function, if implemented. The level value that ETW passes to the callback is the highest level value specified amongst all the sessions. For example, if session A enabled the provider for warning (3) events and then session B enabled the provider for critical (1) events, the level value for the second callback is also 3, not 1.
 

@@ -7,7 +7,7 @@ old-location: security\npgetresourceinformation.htm
 old-project: secauthn
 ms.assetid: c256dec0-6e5c-4a67-bc99-c322086a8fc7
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: NPGetResourceInformation, NPGetResourceInformation function [Security], _mnp_npgetresourceinformation, npapi/NPGetResourceInformation, security.npgetresourceinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,19 +85,14 @@ The <b>lpRemoteName</b> field should be returned in the same format as that retu
 The provider should not do purely syntactic checking to determine whether it owns the resource. This could produce incorrect results when two networks are running on the client and the provider doing syntactic checking is called first.
 
 
-### -param lpBufferSize
+### -param lpBufferSize [in, out]
 
-TBD
+Pointer to a location that specifies the size, in bytes, of the buffer pointed to by <i>lpBuffer</i>. If the buffer is too small for the result, the function places the required buffer size at this location and returns the error WN_MORE_DATA.
 
 
 ### -param lplpSystem [out]
 
 On a successful return, a pointer to a <b>null</b>-terminated string in the output buffer specifying that part of the resource that is accessed through system APIs specific to the resource type, rather than through the WNet API. If there is no such part, <i>lplpSystem</i> is set to <b>NULL</b>. For example, if the input remote resource name was "\\server\share\dir", <b>lpRemoteName</b> is returned pointing to "\\server\share" and <i>lplpSystem</i> points to "\dir", both strings being stored in the buffer pointed to by <i>lpBuffer</i>.
-
-
-#### - lpcbBuffer [in, out]
-
-Pointer to a location that specifies the size, in bytes, of the buffer pointed to by <i>lpBuffer</i>. If the buffer is too small for the result, the function places the required buffer size at this location and returns the error WN_MORE_DATA.
 
 
 ## -returns

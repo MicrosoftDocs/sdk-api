@@ -7,7 +7,7 @@ old-location: shell\SHELLEXECUTEINFO.htm
 old-project: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPSHELLEXECUTEINFOW, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOW, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -395,9 +395,7 @@ The address of a null-terminated string that specifies one of the following:
 <li>A file extension. For example, ".txt".</li>
 <li>A registry path under HKEY_CLASSES_ROOT that names a subkey that contains one or more Shell verbs. This key will have a subkey that conforms to the Shell verb registry schema, such as <b>shell</b>\<i>verb name</i></p>.</li>
 </ul>
-
-
-                        This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSNAME</b>.
+This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSNAME</b>.
                     
 
 
@@ -412,7 +410,7 @@ A handle to the registry key for the file type. The access rights for this regis
 
 Type: <b>DWORD</b>
 
-A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/library/ms646284(v=VS.85).aspx">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
+A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/b2c7e6ca-da71-440b-a05e-17f2da419d18">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
 
 
 ### -field DUMMYUNIONNAME
@@ -441,14 +439,9 @@ A handle to the newly started application. This member is set on return and is a
 <div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> does not always return an <b>hProcess</b>, even if a process is launched as the result of the call. For example, an <b>hProcess</b> does not return when you use <b>SEE_MASK_INVOKEIDLIST</b> to invoke <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a>.</div>
 <div> </div>
 
-##### - fMask.SEE_MASK_ASYNCOK (0x00100000)
+##### - fMask.SEE_MASK_DEFAULT (0x00000000)
 
-The execution can be performed on a background thread and the call should return immediately without waiting for the background thread to finish. Note that in certain cases <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> ignores this flag and waits for the process to finish before returning.
-
-
-##### - fMask.SEE_MASK_CLASSKEY (0x00000003)
-
-Use the class key given by the <b>hkeyClass</b> member. If both SEE_MASK_CLASSKEY and SEE_MASK_CLASSNAME are set, the class key is used.
+Use default values.
 
 
 ##### - fMask.SEE_MASK_CLASSNAME (0x00000001)
@@ -456,61 +449,10 @@ Use the class key given by the <b>hkeyClass</b> member. If both SEE_MASK_CLASSKE
 Use the class name given by the <b>lpClass</b> member. If both SEE_MASK_CLASSKEY and SEE_MASK_CLASSNAME are set, the class key is used.
 
 
-##### - fMask.SEE_MASK_CONNECTNETDRV (0x00000080)
+##### - fMask.SEE_MASK_CLASSKEY (0x00000003)
 
-Validate the share and connect to a drive letter. This enables reconnection of disconnected network drives. The <b>lpFile</b> member is a UNC path of a file on a network.
+Use the class key given by the <b>hkeyClass</b> member. If both SEE_MASK_CLASSKEY and SEE_MASK_CLASSNAME are set, the class key is used.
 
-
-##### - fMask.SEE_MASK_DEFAULT (0x00000000)
-
-Use default values.
-
-
-##### - fMask.SEE_MASK_DOENVSUBST (0x00000200)
-
-Expand any environment variables specified in the string given by the <b>lpDirectory</b> or <b>lpFile</b> member.
-
-
-##### - fMask.SEE_MASK_FLAG_DDEWAIT (0x00000100)
-
-Do not use; use SEE_MASK_NOASYNC instead.
-
-
-##### - fMask.SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)
-
-The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="_inet_iserviceprovider_interface">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
-
-To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
-
-
-##### - fMask.SEE_MASK_FLAG_LOG_USAGE (0x04000000)
-
-<b>Introduced in Windows XP</b>. Keep track of the number of times this application has been launched. Applications with sufficiently high counts appear in the Start Menu's list of most frequently used programs.
-
-
-##### - fMask.SEE_MASK_FLAG_NO_UI (0x00000400)
-
-Do not display an error message box if an error occurs.
-
-
-##### - fMask.SEE_MASK_HMONITOR (0x00200000)
-
-Use this flag when specifying a monitor on multi-monitor systems. The monitor is specified in the <b>hMonitor</b> member. This flag cannot be combined with SEE_MASK_ICON.
-
-
-##### - fMask.SEE_MASK_HOTKEY (0x00000020)
-
-Use the keyboard shortcut given by the <b>dwHotKey</b> member.
-
-
-##### - fMask.SEE_MASK_ICON (0x00000010)
-
-Use the icon given by the <b>hIcon</b> member. This flag cannot be combined with SEE_MASK_HMONITOR.
-                                
-                                
-
-<div class="alert"><b>Note</b>  This flag is used only in Windows XP and earlier. It is ignored as of Windows Vista.</div>
-<div> </div>
 
 ##### - fMask.SEE_MASK_IDLIST (0x00000004)
 
@@ -524,6 +466,30 @@ Use the <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee
 <div class="alert"><b>Note</b>  SEE_MASK_INVOKEIDLIST overrides and implies SEE_MASK_IDLIST.</div>
 <div> </div>
 
+##### - fMask.SEE_MASK_ICON (0x00000010)
+
+Use the icon given by the <b>hIcon</b> member. This flag cannot be combined with SEE_MASK_HMONITOR.
+                                
+                                
+
+<div class="alert"><b>Note</b>  This flag is used only in Windows XP and earlier. It is ignored as of Windows Vista.</div>
+<div> </div>
+
+##### - fMask.SEE_MASK_HOTKEY (0x00000020)
+
+Use the keyboard shortcut given by the <b>dwHotKey</b> member.
+
+
+##### - fMask.SEE_MASK_NOCLOSEPROCESS (0x00000040)
+
+Use to indicate that the <b>hProcess</b> member receives the process handle. This handle is typically used to allow an application to find out when a process created with <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed.
+
+
+##### - fMask.SEE_MASK_CONNECTNETDRV (0x00000080)
+
+Validate the share and connect to a drive letter. This enables reconnection of disconnected network drives. The <b>lpFile</b> member is a UNC path of a file on a network.
+
+
 ##### - fMask.SEE_MASK_NOASYNC (0x00000100)
 
 Wait for the execute operation to complete before returning. This flag should be used by callers that are using ShellExecute forms that might result in an async activation, for example DDE, and create a process that might be run on a background thread. (Note: <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> runs on a background thread by default if the caller's threading model is not Apartment.) Calls to <b>ShellExecuteEx</b> from processes already running on background threads should always pass this flag. Also, applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag.
@@ -533,24 +499,19 @@ If the execute operation is performed on a background thread and the caller did 
 For further discussion on when this flag is necessary, see the Remarks section.
 
 
-##### - fMask.SEE_MASK_NOCLOSEPROCESS (0x00000040)
+##### - fMask.SEE_MASK_FLAG_DDEWAIT (0x00000100)
 
-Use to indicate that the <b>hProcess</b> member receives the process handle. This handle is typically used to allow an application to find out when a process created with <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed.
-
-
-##### - fMask.SEE_MASK_NOQUERYCLASSSTORE (0x01000000)
-
-Not used.
+Do not use; use SEE_MASK_NOASYNC instead.
 
 
-##### - fMask.SEE_MASK_NOZONECHECKS (0x00800000)
+##### - fMask.SEE_MASK_DOENVSUBST (0x00000200)
 
-<b>Introduced in Windows XP</b>. Do not perform a zone check. This flag allows <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> to bypass zone checking put into place by <a href="https://msdn.microsoft.com/2ebc3197-aa28-446e-8452-8ff71764fa9d">IAttachmentExecute</a>.
+Expand any environment variables specified in the string given by the <b>lpDirectory</b> or <b>lpFile</b> member.
 
 
-##### - fMask.SEE_MASK_NO_CONSOLE (0x00008000)
+##### - fMask.SEE_MASK_FLAG_NO_UI (0x00000400)
 
-Use to inherit the parent's console for the new process instead of having it create a new console. It is the opposite of using a CREATE_NEW_CONSOLE flag with <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+Do not display an error message box if an error occurs.
 
 
 ##### - fMask.SEE_MASK_UNICODE (0x00004000)
@@ -558,64 +519,46 @@ Use to inherit the parent's console for the new process instead of having it cre
 Use this flag to indicate a Unicode application.
 
 
+##### - fMask.SEE_MASK_NO_CONSOLE (0x00008000)
+
+Use to inherit the parent's console for the new process instead of having it create a new console. It is the opposite of using a CREATE_NEW_CONSOLE flag with <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+
+
+##### - fMask.SEE_MASK_ASYNCOK (0x00100000)
+
+The execution can be performed on a background thread and the call should return immediately without waiting for the background thread to finish. Note that in certain cases <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> ignores this flag and waits for the process to finish before returning.
+
+
+##### - fMask.SEE_MASK_NOQUERYCLASSSTORE (0x01000000)
+
+Not used.
+
+
+##### - fMask.SEE_MASK_HMONITOR (0x00200000)
+
+Use this flag when specifying a monitor on multi-monitor systems. The monitor is specified in the <b>hMonitor</b> member. This flag cannot be combined with SEE_MASK_ICON.
+
+
+##### - fMask.SEE_MASK_NOZONECHECKS (0x00800000)
+
+<b>Introduced in Windows XP</b>. Do not perform a zone check. This flag allows <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> to bypass zone checking put into place by <a href="https://msdn.microsoft.com/2ebc3197-aa28-446e-8452-8ff71764fa9d">IAttachmentExecute</a>.
+
+
 ##### - fMask.SEE_MASK_WAITFORINPUTIDLE (0x02000000)
 
 After the new process is created, wait for the process to become idle before returning, with a one minute timeout. See <a href="https://msdn.microsoft.com/2a684921-36f1-438c-895c-5bebc242635a">WaitForInputIdle</a> for more details.
 
 
-##### - hInstApp.SE_ERR_ACCESSDENIED (5)
+##### - fMask.SEE_MASK_FLAG_LOG_USAGE (0x04000000)
 
-Access denied.
-
-
-##### - hInstApp.SE_ERR_ASSOCINCOMPLETE (27)
-
-File association information not complete.
+<b>Introduced in Windows XP</b>. Keep track of the number of times this application has been launched. Applications with sufficiently high counts appear in the Start Menu's list of most frequently used programs.
 
 
-##### - hInstApp.SE_ERR_DDEBUSY (30)
+##### - fMask.SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)
 
-DDE operation is busy.
+The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="_inet_iserviceprovider_interface">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
-
-##### - hInstApp.SE_ERR_DDEFAIL (29)
-
-DDE operation failed.
-
-
-##### - hInstApp.SE_ERR_DDETIMEOUT (28)
-
-DDE operation timed out.
-
-
-##### - hInstApp.SE_ERR_DLLNOTFOUND (32)
-
-Dynamic-link library not found.
-
-
-##### - hInstApp.SE_ERR_FNF (2)
-
-File not found.
-
-
-##### - hInstApp.SE_ERR_NOASSOC (31)
-
-File association not available.
-
-
-##### - hInstApp.SE_ERR_OOM (8)
-
-Out of memory.
-
-
-##### - hInstApp.SE_ERR_PNF (3)
-
-Path not found.
-
-
-##### - hInstApp.SE_ERR_SHARE (26)
-
-Cannot share an open file.
+To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 
 
 ##### - lpVerb.edit
@@ -648,6 +591,61 @@ Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a d
 Displays the file or folder's properties.
 
 
+##### - hInstApp.SE_ERR_FNF (2)
+
+File not found.
+
+
+##### - hInstApp.SE_ERR_PNF (3)
+
+Path not found.
+
+
+##### - hInstApp.SE_ERR_ACCESSDENIED (5)
+
+Access denied.
+
+
+##### - hInstApp.SE_ERR_OOM (8)
+
+Out of memory.
+
+
+##### - hInstApp.SE_ERR_DLLNOTFOUND (32)
+
+Dynamic-link library not found.
+
+
+##### - hInstApp.SE_ERR_SHARE (26)
+
+Cannot share an open file.
+
+
+##### - hInstApp.SE_ERR_ASSOCINCOMPLETE (27)
+
+File association information not complete.
+
+
+##### - hInstApp.SE_ERR_DDETIMEOUT (28)
+
+DDE operation timed out.
+
+
+##### - hInstApp.SE_ERR_DDEFAIL (29)
+
+DDE operation failed.
+
+
+##### - hInstApp.SE_ERR_DDEBUSY (30)
+
+DDE operation is busy.
+
+
+##### - hInstApp.SE_ERR_NOASSOC (31)
+
+File association not available.
+
+
 ## -remarks
 
 
@@ -663,9 +661,7 @@ To include double quotation marks in <b>lpParameters</b>, enclose each mark in a
                 
 
 <pre class="syntax" xml:space="preserve"><code>sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";</code></pre>
-
-
-                In this case, the application receives three parameters: <i>An</i>, <i>example:</i>, and <i>"quoted text"</i>.
+In this case, the application receives three parameters: <i>An</i>, <i>example:</i>, and <i>"quoted text"</i>.
 
 
 

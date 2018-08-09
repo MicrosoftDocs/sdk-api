@@ -7,7 +7,7 @@ old-location: wsw\ws_get_channel_property_callback.htm
 old-project: wsw
 ms.assetid: 8fd503a9-6f8d-46c3-9338-c900b9b1d747
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_GET_CHANNEL_PROPERTY_CALLBACK, WS_GET_CHANNEL_PROPERTY_CALLBACK callback, WS_GET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_get_channel_property_callback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__enumadaptermodes.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__enumadaptermodes.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: EnumAdapterModes, EnumAdapterModes method [Direct3D 9], EnumAdapterModes method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],EnumAdapterModes method, IDirect3D9.EnumAdapterModes, IDirect3D9::EnumAdapterModes, d3d9helper/IDirect3D9::EnumAdapterModes, dfe3f630-cfbd-1855-e8f0-abdadb49cfae, direct3d9.idirect3d9__enumadaptermodes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,12 +63,12 @@ Queries the device to determine whether the specified adapter supports the reque
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Ordinal number denoting the display adapter to enumerate. <a href="https://msdn.microsoft.com/library/Bb172504(v=VS.85).aspx">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
+Ordinal number denoting the display adapter to enumerate. <a href="https://msdn.microsoft.com/76f91917-394a-4588-9c83-c35bddb36b8e">D3DADAPTER_DEFAULT</a> is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
 
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
 
 Allowable pixel formats. See Remarks.
 
@@ -77,21 +77,21 @@ Allowable pixel formats. See Remarks.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Represents the display-mode index which is an unsigned integer between zero and the value returned by <a href="https://msdn.microsoft.com/library/Bb174318(v=VS.85).aspx">GetAdapterModeCount</a> minus one.
+Represents the display-mode index which is an unsigned integer between zero and the value returned by <a href="https://msdn.microsoft.com/7a6318be-eb68-45b0-b4bf-0ef4cac6a50b">GetAdapterModeCount</a> minus one.
 
 
 ### -param pMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172548(v=VS.85).aspx">D3DDISPLAYMODE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e83c03ee-2067-45c9-8fd8-8c4db5558df4">D3DDISPLAYMODE</a>*</b>
 
-A pointer to the available display mode of type <a href="https://msdn.microsoft.com/library/Bb172548(v=VS.85).aspx">D3DDISPLAYMODE</a>. See Remarks.
+A pointer to the available display mode of type <a href="https://msdn.microsoft.com/e83c03ee-2067-45c9-8fd8-8c4db5558df4">D3DDISPLAYMODE</a>. See Remarks.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 <ul>
 <li>If the device can be used on this adapter, D3D_OK is returned.</li>
@@ -107,7 +107,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 An application supplies a display mode and a format to <b>EnumAdapterModes</b> which returns a display mode. This method could be used in a loop to enumerate all available display modes.
 
-The application specifies a format and the enumeration is restricted to those display modes that exactly match the format (alpha is ignored). Allowed formats (which are members of <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>) are as follows:
+The application specifies a format and the enumeration is restricted to those display modes that exactly match the format (alpha is ignored). Allowed formats (which are members of <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>) are as follows:
 
 <ul>
 <li>D3DFMT_A1R5G5B5</li>
@@ -127,7 +127,7 @@ In addition, <b>EnumAdapterModes</b> treats pixel formats 565 and 555 as equival
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

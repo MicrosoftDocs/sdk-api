@@ -7,7 +7,7 @@ old-location: adsi\iadslocality.htm
 old-project: ADSI
 ms.assetid: fec0c8c2-b17f-49a0-9c97-260c98e71604
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsLocality, IADsLocality interface [ADSI], IADsLocality interface [ADSI],described, _ds_iadslocality, adsi.iadslocality, iads/IADsLocality
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ When a directory service provides hierarchical groupings of directory entries by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsLocality</b> interface inherits from <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsLocality</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsLocality</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsLocality</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -328,7 +328,7 @@ Gets and sets any other information relevant to this region.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

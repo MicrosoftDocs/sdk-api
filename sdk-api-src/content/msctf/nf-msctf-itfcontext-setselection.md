@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_setselection.htm
 old-project: TSF
 ms.assetid: 1cf50b5e-6ec2-4649-9acc-743a2e3d8096
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContext interface [Text Services Framework],SetSelection method, ITfContext.SetSelection, ITfContext::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfContext interface, _tsf_itfcontext_setselection_ref, msctf/ITfContext::SetSelection, tsf.itfcontext_setselection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,8 +150,7 @@ The caller can set the <b>fInterimChar</b> flag only if one selection is set. In
 
 
 
-<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">
-        TF_SELECTION
+<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">TF_SELECTION
       </a>
  
 

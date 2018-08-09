@@ -4,10 +4,10 @@ title: PFN_WdsTransportClientSessionComplete
 author: windows-sdk-content
 description: The PFN_WdsTransportClientSessionCompete callback is used by the client to indicate that no more callbacks will be sent to the consumer and that the session either completed successfully or encountered a non-recoverable error.
 old-location: wds\pfn_wdstransportclientsessioncomplete.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 1c7b8137-bf74-486c-a90e-6becfec5ddc8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PFN_WdsTransportClientSessionComplete, PFN_WdsTransportClientSessionComplete callback, PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessioncomplete, wdstci/PFN_WdsTransportClientSessionComplete
 ms.prod: windows
 ms.technology: windows-sdk

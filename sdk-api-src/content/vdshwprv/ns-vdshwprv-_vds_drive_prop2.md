@@ -4,10 +4,10 @@ title: "_VDS_DRIVE_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a drive object. This structure is identical to the VDS_DRIVE_PROP structure, except that it includes the enclosure number, bus type, and spindle speed as members.
 old-location: base\vds_drive_prop2.htm
-old-project: VDS
+old-project: vds
 ms.assetid: af932865-abb3-4dee-a7dc-3aa06fd167f6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: "*PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2 structure pointer, VDS_DRIVE_PROP2, VDS_DRIVE_PROP2 structure, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_DRIVE_PROP2, base.vds_drive_prop2, vds/PVDS_DRIVE_PROP2, vds/VDS_DRIVE_PROP2, vdshwprv/PVDS_DRIVE_PROP2, vdshwprv/VDS_DRIVE_PROP2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,19 +148,19 @@ A <a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_
 The spindle speed of the drive, in RPM. The default value for this member is zero. A value of zero means that the spindle speed is unknown. A value of 1 means that the drive does not have rotating media. (For example, it might be a solid-state drive.)
 
 
-##### - health.VDS_H_FAILED (8)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
-##### - health.VDS_H_PENDING_FAILURE (10)
+##### - health.VDS_H_FAILED (8)
 
 
 ##### - health.VDS_H_REPLACED (9)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_PENDING_FAILURE (10)
 
 
 ## -remarks

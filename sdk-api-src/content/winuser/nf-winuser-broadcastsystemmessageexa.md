@@ -7,7 +7,7 @@ old-location: winmsg\broadcastsystemmessageex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessageex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_LUID, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_RETURNHDESK, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessageEx, BroadcastSystemMessageEx function [Windows and Messages], BroadcastSystemMessageExA, BroadcastSystemMessageExW, _win32_BroadcastSystemMessageEx, _win32_broadcastsystemmessageex_cpp, winmsg.broadcastsystemmessageex, winui._win32_broadcastsystemmessageex, winuser/BroadcastSystemMessageEx, winuser/BroadcastSystemMessageExA, winuser/BroadcastSystemMessageExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Sends a message to the specified recipients. The recipients can be applications,
 			
             
 
-This function is similar to <a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a> except that this function can return more information from the recipients.
+This function is similar to <a href="https://msdn.microsoft.com/f7e28d41-9139-47dc-afe4-3ee711230605">BroadcastSystemMessage</a> except that this function can return more information from the recipients.
 
 
 ## -parameters
@@ -65,43 +65,7 @@ This function is similar to <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-### -param flags
-
-TBD
-
-
-### -param lpInfo
-
-TBD
-
-
-### -param Msg
-
-TBD
-
-
-### -param wParam [in]
-
-Type: <b>WPARAM</b>
-
-Additional message-specific information. 
-
-
-### -param lParam [in]
-
-Type: <b>LPARAM</b>
-
-Additional message-specific information. 
-
-
-### -param pbsmInfo
-
-TBD
-
-
-
-
-#### - dwFlags [in]
+### -param flags [in]
 
 Type: <b>DWORD</b>
 
@@ -163,7 +127,7 @@ Does not send the message to windows that belong to the current task. This preve
 </dl>
 </td>
 <td width="60%">
- If <b>BSF_LUID</b> is set, the message is sent to the window that has the same LUID as specified in the <b>luid</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx">BSMINFO</a> structure.
+ If <b>BSF_LUID</b> is set, the message is sent to the window that has the same LUID as specified in the <b>luid</b> member of the <a href="https://msdn.microsoft.com/14b2b9f5-21ed-4881-89a7-51ecef4b5f59">BSMINFO</a> structure.
 
 <b>Windows 2000:  </b>This flag is not supported.
 
@@ -209,7 +173,7 @@ Posts the message. Do not use in combination with <b>BSF_QUERY</b>.
 </dl>
 </td>
 <td width="60%">
- If access is denied and both this and <b>BSF_QUERY</b> are set, <a href="https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx">BSMINFO</a> returns both the desktop handle and the window handle. If access is denied and only <b>BSF_QUERY</b> is set, only the window handle is returned by <b>BSMINFO</b>.
+ If access is denied and both this and <b>BSF_QUERY</b> are set, <a href="https://msdn.microsoft.com/14b2b9f5-21ed-4881-89a7-51ecef4b5f59">BSMINFO</a> returns both the desktop handle and the window handle. If access is denied and only <b>BSF_QUERY</b> is set, only the window handle is returned by <b>BSMINFO</b>.
 
 <b>Windows 2000:  </b>This flag is not supported.
 
@@ -233,7 +197,7 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
 </dl>
 </td>
 <td width="60%">
-Sends the message using <a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
+Sends the message using <a href="https://msdn.microsoft.com/08767153-34f5-4d31-9705-5a1862b9dd10">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
 
 </td>
 </tr>
@@ -241,7 +205,7 @@ Sends the message using <a href="https://msdn.microsoft.com/en-us/library/ms6449
  
 
 
-#### - lpdwRecipients [in, out, optional]
+### -param lpInfo [in, out, optional]
 
 Type: <b>LPDWORD</b>
 
@@ -296,20 +260,34 @@ Broadcast to applications.
  
 
 
-#### - pBSMInfo [out, optional]
-
-Type: <b>PBSMINFO</b>
-
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx">BSMINFO</a> structure that contains additional information if the request is denied and <i>dwFlags</i> is set to <b>BSF_QUERY</b>. 
-
-
-#### - uiMessage [in]
+### -param Msg [in]
 
 Type: <b>UINT</b>
 
 The message to be sent. 
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="about_messages_and_message_queues.htm">System-Defined Messages</a>.
+
+
+### -param wParam [in]
+
+Type: <b>WPARAM</b>
+
+Additional message-specific information. 
+
+
+### -param lParam [in]
+
+Type: <b>LPARAM</b>
+
+Additional message-specific information. 
+
+
+### -param pbsmInfo [out, optional]
+
+Type: <b>PBSMINFO</b>
+
+A pointer to a <a href="https://msdn.microsoft.com/14b2b9f5-21ed-4881-89a7-51ecef4b5f59">BSMINFO</a> structure that contains additional information if the request is denied and <i>dwFlags</i> is set to <b>BSF_QUERY</b>. 
 
 
 ## -returns
@@ -336,7 +314,7 @@ If <b>BSF_QUERY</b> is not specified, the function sends the specified message t
 
 If the caller's thread is on a desktop other than that of the window that denied the request, the caller must call <a href="https://msdn.microsoft.com/619c591f-54b7-4b61-aa07-fc57e05ee37a">SetThreadDesktop</a><b>(hdesk)</b> to query anything on that window. Also, the caller must call <a href="https://msdn.microsoft.com/861e57b2-061c-4598-ad38-6aef7b79ca54">CloseDesktop</a> on the returned <b>hdesk</b> handle.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/4115c587-fcb4-4170-9948-fe33bcb8742a">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 
@@ -346,11 +324,11 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx">BSMINFO</a>
+<a href="https://msdn.microsoft.com/14b2b9f5-21ed-4881-89a7-51ecef4b5f59">BSMINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a>
+<a href="https://msdn.microsoft.com/f7e28d41-9139-47dc-afe4-3ee711230605">BroadcastSystemMessage</a>
 
 
 
@@ -358,7 +336,7 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
@@ -366,7 +344,7 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>
+<a href="https://msdn.microsoft.com/08767153-34f5-4d31-9705-5a1862b9dd10">SendNotifyMessage</a>
  
 
  

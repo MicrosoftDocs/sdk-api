@@ -7,7 +7,7 @@ old-location: fwp\ipsec_getspi0.htm
 old-project: fwp
 ms.assetid: a43c447c-83b4-4ca4-a7c5-7e10e6607692
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 08/06/2018
 ms.keywords: IPSEC_GETSPI0, IPSEC_GETSPI0 structure [Filtering], IPSEC_GETSPI0_, fwp.ipsec_getspi0, ipsectypes/IPSEC_GETSPI0
 ms.prod: windows
 ms.technology: windows-sdk

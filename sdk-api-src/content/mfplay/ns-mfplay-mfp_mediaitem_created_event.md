@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_created_event.htm
 old-project: medfound
 ms.assetid: 68e4076f-c03c-4780-9731-67eb6e78ec8b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_MEDIAITEM_CREATED_EVENT, MFP_MEDIAITEM_CREATED_EVENT structure [Media Foundation], mf.mfp_mediaitem_created_event, mfplay/MFP_MEDIAITEM_CREATED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Application-defined user data for the media item. This value is specified when t
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/16187a19-6ea9-461a-a785-d302056c41ef">MFP_GET_MEDIAITEM_CREATED_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/16187a19-6ea9-461a-a785-d302056c41ef">MFP_GET_MEDIAITEM_CREATED_EVENT</a> macro for this purpose.
 
 Media items are created asynchronously. If multiple items are created, the operations can complete in any order, not necessarily in the same order as the method calls. You can use  the <b>dwUserData</b> member to identify the items, if you have simultaneous requests pending. 
 

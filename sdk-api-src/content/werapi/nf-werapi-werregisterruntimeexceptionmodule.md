@@ -7,7 +7,7 @@ old-location: wer\werregisterruntimeexceptionmodule.htm
 old-project: wer
 ms.assetid: b0fb2c0d-cc98-43cc-a508-e80545377b7f
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 08/06/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
 ms.prod: windows
 ms.technology: windows-sdk

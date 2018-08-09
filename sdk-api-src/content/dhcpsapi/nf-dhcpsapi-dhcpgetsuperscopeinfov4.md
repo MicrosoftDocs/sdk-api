@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsuperscopeinfov4.htm
 old-project: dhcp
 ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DhcpGetSuperScopeInfoV4, DhcpGetSuperScopeInfoV4 function [DHCP], dhcp.dhcpgetsuperscopeinfov4, dhcpsapi/DhcpGetSuperScopeInfoV4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,8 +105,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 
 
 
-A superscope is the set of all subnets defined on a DHCP server, and hence all scopes along with the IP address ranges each serves. Taken altogether, a superscope provides a complete set of all IP addresses served by the DHCP server. The superscope table provides the IP addresses associated with each subnet. To obtain the IP ranges served by each, <a href="https://msdn.microsoft.com/0e511993-a9c3-445b-bafc-3d66182ee32d">DhcpGetSubnetInfo</a> should be called on the IP address provided in each <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec-518d2cb7e5b6">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>
-        structure of the table.
+A superscope is the set of all subnets defined on a DHCP server, and hence all scopes along with the IP address ranges each serves. Taken altogether, a superscope provides a complete set of all IP addresses served by the DHCP server. The superscope table provides the IP addresses associated with each subnet. To obtain the IP ranges served by each, <a href="https://msdn.microsoft.com/0e511993-a9c3-445b-bafc-3d66182ee32d">DhcpGetSubnetInfo</a> should be called on the IP address provided in each <a href="https://msdn.microsoft.com/affaa0b0-3bd1-4d17-adec-518d2cb7e5b6">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>structure of the table.
 
 
 
@@ -116,8 +115,7 @@ A superscope is the set of all subnets defined on a DHCP server, and hence all s
 
 
 
-<a href="https://msdn.microsoft.com/ed7ad090-b13a-464b-af03-04944f018b36">
-        DHCP_SUPER_SCOPE_TABLE</a>
+<a href="https://msdn.microsoft.com/ed7ad090-b13a-464b-af03-04944f018b36">DHCP_SUPER_SCOPE_TABLE</a>
 
 
 

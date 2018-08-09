@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_beginstroke.htm
 old-project: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
 ms.prod: windows
 ms.technology: windows-sdk

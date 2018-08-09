@@ -7,7 +7,7 @@ old-location: mscs\clusproperty_modified.htm
 old-project: mscs
 ms.assetid: 231e9e80-aa4c-4a83-83f6-4276fac4211b
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusProperty object [Failover Cluster],Modified property, ClusProperty.Modified, ISClusProperty.get_Modified, ISClusProperty::get_Modified, Modified property [Failover Cluster], Modified property [Failover Cluster],ClusProperty object, _wolf_clusproperty.modified, get_Modified, mscs.clusproperty_modified
 ms.prod: windows
 ms.technology: windows-sdk

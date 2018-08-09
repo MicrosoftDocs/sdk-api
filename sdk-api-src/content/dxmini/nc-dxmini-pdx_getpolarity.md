@@ -7,7 +7,7 @@ old-location: display\dxgetpolarity.htm
 old-project: display
 ms.assetid: 9bce3093-8dcd-4e91-8e20-5558f2dcce75
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DxGetPolarity, DxGetPolarity callback function [Display Devices], PDX_GETPOLARITY, PDX_GETPOLARITY callback, VideoMiniPort_DxApiFunctions_caf5417f-329e-4270-a067-8a9c9634327d.xml, display.dxgetpolarity, dxmini/DxGetPolarity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: DXGI_FORMAT
+req.typenames: D3DCOLORVALUE
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,6 +74,11 @@ The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of
 
 
 
+#### - HwDeviceExtension
+
+Points to the miniport driver's device extension.
+
+
 #### - GetPolarityInInfo
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549461">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
@@ -82,11 +87,6 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54946
 #### - GetPolarityOutInfo
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549481">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
-
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IFsrmQuotaObject::get_Path
 author: windows-sdk-content
 description: Retrieves the path to which the quota applies.
 old-location: fsrm\ifsrmquotaobject_path.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: de587430-5179-4c9e-9ad0-86bb57757d1c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],Path property, IFsrmQuotaObject.Path, IFsrmQuotaObject.get_Path, IFsrmQuotaObject::Path, IFsrmQuotaObject::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_path, fsrm.ifsrmquotaobject_path, fsrmquota/IFsrmQuotaObject::Path, fsrmquota/IFsrmQuotaObject::get_Path, get_Path
 ms.prod: windows
 ms.technology: windows-sdk

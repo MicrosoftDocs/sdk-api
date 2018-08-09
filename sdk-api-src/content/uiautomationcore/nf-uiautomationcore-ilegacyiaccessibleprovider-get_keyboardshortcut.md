@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_KeyboardShortcut.htm
 old-project: WinAuto
 ms.assetid: cedb3a14-026f-4d2a-857f-313f4b5efad7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],KeyboardShortcut property, ILegacyIAccessibleProvider.KeyboardShortcut, ILegacyIAccessibleProvider.get_KeyboardShortcut, ILegacyIAccessibleProvider::KeyboardShortcut, ILegacyIAccessibleProvider::get_KeyboardShortcut, KeyboardShortcut property [Windows Accessibility], KeyboardShortcut property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_KeyboardShortcut, uiauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::get_KeyboardShortcut, winauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut
 ms.prod: windows
 ms.technology: windows-sdk

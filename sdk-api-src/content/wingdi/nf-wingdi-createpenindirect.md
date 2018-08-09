@@ -7,7 +7,7 @@ old-location: gdi\createpenindirect.htm
 old-project: gdi
 ms.assetid: 638c0294-9a8f-44ed-a791-1be152cd92dd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,7 @@ The <b>CreatePenIndirect</b> function creates a logical cosmetic pen that has th
 
 
 
-### -param plpen
-
-TBD
-
-
-
-
-#### - lplgpn [in]
+### -param plpen [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/0e098b5a-e249-43ad-a6d8-2509b6562453">LOGPEN</a> structure that specifies the pen's style, width, and color.
 

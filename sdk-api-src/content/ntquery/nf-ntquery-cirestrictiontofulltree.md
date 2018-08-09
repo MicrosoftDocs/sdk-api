@@ -7,7 +7,7 @@ old-location: indexsrv\cirestrictiontofulltree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2c2t.htm
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 08/03/2018
 ms.keywords: CIRestrictionToFullTree, CIRestrictionToFullTree function [Indexing Service], _idxs_CIRestrictionToFullTree, indexsrv.cirestrictiontofulltree, ntquery/CIRestrictionToFullTree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,9 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Converts a query restriction tree with columns, sort columns, and grouping columns to a <a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure.
+Converts a query restriction tree with columns, sort columns, and grouping columns to a <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Converts a query restriction tree with columns, sort columns, and grouping colum
 
 ### -param pTree
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure that is the top node defining a <b>SELECT</b> tree for a query.
+A pointer to a <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure that is the top node defining a <b>SELECT</b> tree for a query.
 
 
 ### -param pwszColumns
@@ -91,7 +91,7 @@ Column names separated by a plus sign (+) are grouped in individual categories, 
 
 ### -param ppTree
 
-A pointer to an output variable that receives a pointer to a <a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure. This parameter cannot be <b>NULL</b>.
+A pointer to an output variable that receives a pointer to a <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure. This parameter cannot be <b>NULL</b>.
 
 
 ### -param cProperties
@@ -101,17 +101,12 @@ The number of properties in the <i>pProperties</i> array, or zero if <i>pPropert
 
 ### -param pReserved
 
-TBD
+A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, and <i>pwszGroupings</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/36476b0d-7c8e-45db-b7eb-5ae710495e46">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and if <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
 
 The locale identifier (LCID) used when converting properties.
-
-
-#### - pProperties
-
-A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, and <i>pwszGroupings</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://msdn.microsoft.com/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and if <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ## -returns
@@ -191,11 +186,11 @@ An unknown error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690848(v=VS.85).aspx">CIPROPERTYDEF</a>
+<a href="https://msdn.microsoft.com/36476b0d-7c8e-45db-b7eb-5ae710495e46">CIPROPERTYDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a>
  
 
  

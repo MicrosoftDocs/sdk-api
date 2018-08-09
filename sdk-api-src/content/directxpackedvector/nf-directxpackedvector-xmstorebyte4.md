@@ -7,7 +7,7 @@ old-location: dxmath\xmstorebyte4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreByte4(XMBYTE4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMStoreByte4, XMStoreByte4, XMStoreByte4 method [DirectX Math Support APIs], dxmath.xmstorebyte4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/library/Ee419276(v=VS.85).aspx">XMBYTE4</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/087c32f0-f43e-487a-9bdb-6c8739d5a04d">XMBYTE4</a>.
 
 
 ## -parameters

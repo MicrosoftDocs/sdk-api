@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetCueBannerText.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcuebannertext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ComboBox_GetCueBannerText, ComboBox_GetCueBannerText macro [Windows Controls], _shell_ComboBox_GetCueBannerText, _shell_ComboBox_GetCueBannerText_cpp, commctrl/ComboBox_GetCueBannerText, controls.ComboBox_GetCueBannerText, controls._shell_ComboBox_GetCueBannerText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775843(v=VS.85).aspx">CB_GETCUEBANNER</a> message explicitly.
+Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the <a href="https://msdn.microsoft.com/38959228-9f07-4636-a1ea-681efe77b9ec">CB_GETCUEBANNER</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ The size of the buffer pointed to by <i>lpwText</i> in <b>WCHAR</b><b>s</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
+<a href="https://msdn.microsoft.com/7102beff-7f67-4e4e-a32b-9ccae1522ebd">Combo Box Features</a>
  
 
  

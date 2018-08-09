@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionvaluesv5.htm
 old-project: dhcp
 ms.assetid: 4c63161d-7d61-402c-8a5e-2800bdc5e18f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionValuesV5, DhcpEnumOptionValuesV5 function [DHCP], dhcp.dhcpenumoptionvaluesv5, dhcpsapi/DhcpEnumOptionValuesV5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumOptionValuesV5</b> function returns an enumerated list of option values (just the option data and the associated ID number) for a specific scope within a given user or vendor class.
+The <b>DhcpEnumOptionValuesV5</b> function returns an enumerated list of option values (just the option data and the associated ID number) for a specific scope within a given user or vendor class.
 
 
 ## -parameters
@@ -205,13 +204,11 @@ The specified DHCP client is not a reserved client.
 
 
 
-<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">
-		  DHCP_OPTION_SCOPE_INFO</a>
+<a href="https://msdn.microsoft.com/91d4d678-f0c5-4081-9302-0d08c8994692">DHCP_OPTION_SCOPE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">
-		  DHCP_OPTION_VALUE_ARRAY</a>
+<a href="https://msdn.microsoft.com/c68b9543-0d7a-46ab-babd-3868c1338d67">DHCP_OPTION_VALUE_ARRAY</a>
  
 
  

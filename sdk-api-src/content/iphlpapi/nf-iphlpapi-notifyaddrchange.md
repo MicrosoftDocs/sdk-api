@@ -7,7 +7,7 @@ old-location: iphlp\notifyaddrchange.htm
 old-project: iphlp
 ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>NotifyAddrChange</b> function causes a notification to be sent to the caller whenever a change occurs in the table that maps IPv4 addresses to interfaces.
 
 
@@ -78,8 +77,7 @@ A pointer to an
 
 
 
-
-						If the function succeeds, the return value is NO_ERROR if the caller specifies <b>NULL</b> for the <i>Handle</i> and <i>overlapped</i> parameters. If the caller specifies non-<b>NULL</b> parameters, the return value for success is ERROR_IO_PENDING.
+If the function succeeds, the return value is NO_ERROR if the caller specifies <b>NULL</b> for the <i>Handle</i> and <i>overlapped</i> parameters. If the caller specifies non-<b>NULL</b> parameters, the return value for success is ERROR_IO_PENDING.
 
 If the function fails, use 
 <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.

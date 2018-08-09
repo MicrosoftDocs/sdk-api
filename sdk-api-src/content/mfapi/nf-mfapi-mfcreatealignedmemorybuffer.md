@@ -7,7 +7,7 @@ old-location: mf\mfcreatealignedmemorybuffer.htm
 old-project: medfound
 ms.assetid: cccc0dea-3f1e-41e4-97f4-de7760ceccb0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFCreateAlignedMemoryBuffer, MFCreateAlignedMemoryBuffer function [Media Foundation], MF_128_BYTE_ALIGNMENT, MF_16_BYTE_ALIGNMENT, MF_1_BYTE_ALIGNMENT, MF_256_BYTE_ALIGNMENT, MF_2_BYTE_ALIGNMENT, MF_32_BYTE_ALIGNMENT, MF_4_BYTE_ALIGNMENT, MF_512_BYTE_ALIGNMENT, MF_64_BYTE_ALIGNMENT, MF_8_BYTE_ALIGNMENT, cccc0dea-3f1e-41e4-97f4-de7760ceccb0, mf.mfcreatealignedmemorybuffer, mfapi/MFCreateAlignedMemoryBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
+Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
         
 
 
@@ -68,20 +67,7 @@ Size of the buffer, in bytes.
 
 ### -param cbAligment
 
-TBD
-
-
-### -param ppBuffer
-
-
-            Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
-          
-
-
-#### - fAlignmentFlags
-
-
-            Specifies the memory alignment for the buffer. Use one of the following constants.
+Specifies the memory alignment for the buffer. Use one of the following constants.
           
 
 <table>
@@ -96,8 +82,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 1 bytes.
+Align to 1 bytes.
               
 
 </td>
@@ -109,8 +94,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 2 bytes.
+Align to 2 bytes.
               
 
 </td>
@@ -122,8 +106,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 4 bytes.
+Align to 4 bytes.
               
 
 </td>
@@ -135,8 +118,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 8 bytes.
+Align to 8 bytes.
               
 
 </td>
@@ -148,8 +130,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 16 bytes.
+Align to 16 bytes.
               
 
 </td>
@@ -161,8 +142,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 32 bytes.
+Align to 32 bytes.
               
 
 </td>
@@ -174,8 +154,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 64 bytes.
+Align to 64 bytes.
               
 
 </td>
@@ -187,8 +166,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 128 bytes.
+Align to 128 bytes.
               
 
 </td>
@@ -200,8 +178,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 256 bytes.
+Align to 256 bytes.
               
 
 </td>
@@ -213,8 +190,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                Align to 512 bytes.
+Align to 512 bytes.
               
 
 </td>
@@ -223,12 +199,17 @@ TBD
  
 
 
+### -param ppBuffer
+
+Receives a pointer to the <a href="https://msdn.microsoft.com/3ccc7089-d0d0-4eb1-b763-0d4e348af685">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
+          
+
+
 ## -returns
 
 
 
-
-            The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -243,8 +224,7 @@ TBD
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>
@@ -259,8 +239,7 @@ TBD
 
 
 
-
-        When the media buffer object is destroyed, it releases the allocated memory.
+When the media buffer object is destroyed, it releases the allocated memory.
       
 
 

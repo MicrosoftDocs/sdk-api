@@ -7,7 +7,7 @@ old-location: gdi\getboundsrect.htm
 old-project: gdi
 ms.assetid: 139d4550-9adc-48b3-a15c-03ae1f1ef1ab
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DCB_RESET, GetBoundsRect, GetBoundsRect function [Windows GDI], _win32_GetBoundsRect, gdi.getboundsrect, wingdi/GetBoundsRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ The system maintains an accumulated bounding rectangle for each application. An 
 A handle to the device context whose bounding rectangle the function will return.
 
 
-### -param lprect
+### -param lprect [out]
 
-TBD
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that will receive the current bounding rectangle. The application's rectangle is returned in logical coordinates, and the bounding rectangle is returned in screen coordinates.
 
 
 ### -param flags [in]
@@ -94,11 +94,6 @@ Clears the bounding rectangle after returning it. If this flag is not set, the b
 </tr>
 </table>
  
-
-
-#### - lprcBounds [out]
-
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that will receive the current bounding rectangle. The application's rectangle is returned in logical coordinates, and the bounding rectangle is returned in screen coordinates.
 
 
 ## -returns

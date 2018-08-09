@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnextsample.htm
 old-project: Multimedia
 ms.assetid: 3ce1086f-4364-4d3c-a60e-7a82ecf8d708
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AVIStreamNextSample, AVIStreamNextSample macro [Windows Multimedia], _win32_AVIStreamNextSample, multimedia.avistreamnextsample, vfw/AVIStreamNextSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,15 +68,6 @@ Handle to an open stream.
 
 
 ### -param l
-
-TBD
-
-
-
-
-
-
-#### - lPos
 
 Starting position to search in the stream. 
 

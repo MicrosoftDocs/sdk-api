@@ -7,7 +7,7 @@ old-location: tsf\itfsource.htm
 old-project: TSF
 ms.assetid: 2ff77f09-1b4c-4115-9bb4-4040097d1f90
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfSource, ITfSource interface [Text Services Framework], ITfSource interface [Text Services Framework],described, _tsf_itfsource_ref, msctf/ITfSource, tsf.itfsource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,28 +98,23 @@ The TSF manager has different implementations of <b>ITfSource</b>, depending upo
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">
-              ITfThreadMgr
+<a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr
             </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">
-              ITfContext
+<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
             </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">
-              ITfCompartment
+<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment
             </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">
-              ITfInputProcessorProfiles
+<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">ITfInputProcessorProfiles
             </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">
-              ITfLangBarItem
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem
             </a>
 </li>
 </ul>

@@ -7,7 +7,7 @@ old-location: mf\imfasynccallback.htm
 old-project: medfound
 ms.assetid: 7edff985-da59-4cc0-96de-1a92e03a7d41
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 7edff985-da59-4cc0-96de-1a92e03a7d41, IMFAsyncCallback, IMFAsyncCallback interface [Media Foundation], IMFAsyncCallback interface [Media Foundation],described, mf.imfasynccallback, mfobjects/IMFAsyncCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ Called when an asynchronous operation is completed.
 
 
 
-
-        For more information about asynchronous methods in Microsoft Media Foundation, see <a href="https://msdn.microsoft.com/ea778eaa-6460-4a93-bd6a-1857ea8b6230">Asynchronous Callback Methods</a>.
+For more information about asynchronous methods in Microsoft Media Foundation, see <a href="https://msdn.microsoft.com/ea778eaa-6460-4a93-bd6a-1857ea8b6230">Asynchronous Callback Methods</a>.
       
 
 This interface is also used to perform  a work item in a Media Foundation work-queue. For more information, see <a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>. 

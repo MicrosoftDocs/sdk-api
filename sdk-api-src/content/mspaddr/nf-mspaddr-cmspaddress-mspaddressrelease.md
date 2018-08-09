@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_mspaddressrelease.htm
 old-project: tapi
 ms.assetid: 369d6daf-26fb-47f8-b503-6b0e73613bbe
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/31/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressRelease method, CMSPAddress.MSPAddressRelease, CMSPAddress::MSPAddressRelease, MSPAddressRelease, MSPAddressRelease method [TAPI 2.2], MSPAddressRelease method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressrelease, mspaddr/CMSPAddress::MSPAddressRelease, tapi3.cmspaddress_mspaddressrelease
 ms.prod: windows
 ms.technology: windows-sdk

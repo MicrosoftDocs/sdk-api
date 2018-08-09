@@ -7,7 +7,7 @@ old-location: adsi\iadspropertyentry.htm
 old-project: ADSI
 ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IADsPropertyEntry, IADsPropertyEntry interface [ADSI], IADsPropertyEntry interface [ADSI],described, PropertyEntry, _ds_iadspropertyentry, adsi.iadspropertyentry, iads/IADsPropertyEntry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Use the property methods of <b>IADsPropertyEntry</b> to examine and manipulate i
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

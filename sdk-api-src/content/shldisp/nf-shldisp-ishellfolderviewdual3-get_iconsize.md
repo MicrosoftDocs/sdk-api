@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3_get_IconSize.htm
 old-project: shell
 ms.assetid: 005c440f-2340-4965-b717-5aa0f4e5142f
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_IconSize method, IShellFolderViewDual3.get_IconSize, IShellFolderViewDual3::get_IconSize, _shell_IShellFolderViewDual3_get_IconSize, get_IconSize, get_IconSize method [Windows Shell], get_IconSize method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_IconSize, shldisp/IShellFolderViewDual3::get_IconSize
 ms.prod: windows
 ms.technology: windows-sdk

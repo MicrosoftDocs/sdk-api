@@ -4,10 +4,10 @@ title: ITDigitDetectionEvent::get_DigitMode
 author: windows-sdk-content
 description: The get_DigitMode method gets the indicator of the line digit mode, such as LINEDIGITMODE_DTMF.
 old-location: tapi3\itdigitdetectionevent_get_digitmode.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 7eeda641-9155-4628-b4b2-2d427a255d7c
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_DigitMode method, ITDigitDetectionEvent.get_DigitMode, ITDigitDetectionEvent::get_DigitMode, _tapi3_itdigitdetectionevent_get_digitmode, get_DigitMode, get_DigitMode method [TAPI 2.2], get_DigitMode method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_digitmode, tapi3if/ITDigitDetectionEvent::get_DigitMode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iphlp\getiftable2ex.htm
 old-project: iphlp
 ms.assetid: d8663894-50b1-4ca2-a1f4-6ca0970795a7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: GetIfTable2Ex, GetIfTable2Ex function [IP Helper], MibIfTableNormal, MibIfTableRaw, iphlp.getiftable2ex, netioapi/GetIfTable2Ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,8 +161,7 @@ A similar <a href="https://msdn.microsoft.com/library/windows/hardware/ff552524"
 
 Interfaces are returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_IF_TABLE2</b> structure contains an interface count and an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structures for each interface. Memory is allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a> function for the <b>MIB_IF_TABLE2</b> structure and the <b>MIB_IF_ROW2</b> entries in this structure. When these returned structures are no longer required, free the memory by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550045">FreeMibTable</a>.
 
-All interfaces including NDIS intermediate driver interfaces and NDIS filter driver interfaces are returned for either of the possible values for the <i>Level</i> parameter. The setting for the <i>Level</i> parameter affects how statistics and state members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a> structure pointed to by the <i>Table</i> parameter for the interface are returned. For example, a network interface card (NIC)  will have a NDIS miniport driver.  An NDIS intermediate driver can be installed to  interface between upper-level protocol drivers and NDIS miniport drivers. An NDIS filter driver (LWF) can be attached on top of the NDIS intermediate driver. Assume that the NIC reports the MediaConnectState member of the  <b>MIB_IF_ROW2</b> structure as <b>MediaConnectStateConnected</b>
- but NDIS filter driver modifies the state and reports the state as <b>MediaConnectStateDisconnected</b>.
+All interfaces including NDIS intermediate driver interfaces and NDIS filter driver interfaces are returned for either of the possible values for the <i>Level</i> parameter. The setting for the <i>Level</i> parameter affects how statistics and state members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a> structure pointed to by the <i>Table</i> parameter for the interface are returned. For example, a network interface card (NIC)  will have a NDIS miniport driver.  An NDIS intermediate driver can be installed to  interface between upper-level protocol drivers and NDIS miniport drivers. An NDIS filter driver (LWF) can be attached on top of the NDIS intermediate driver. Assume that the NIC reports the MediaConnectState member of the  <b>MIB_IF_ROW2</b> structure as <b>MediaConnectStateConnected</b>but NDIS filter driver modifies the state and reports the state as <b>MediaConnectStateDisconnected</b>.
 When the interface information is queried with <i>Level</i> parameter set to <b>MibIfTableNormal</b>, the state at the top of the filter stack, that is <b>MediaConnectStateDisconnected</b> is reported. When the interface is queried with the <i>Level</i> parameter set to <b>MibIfTableRaw</b>, the state at the interface level directly, that is <b>MediaConnectStateConnected</b> is returned.
 
 

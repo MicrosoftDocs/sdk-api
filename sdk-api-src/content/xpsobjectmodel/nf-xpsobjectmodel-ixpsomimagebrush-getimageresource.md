@@ -7,7 +7,7 @@ old-location: xps\ixpsomimagebrush_getimageresource.htm
 old-project: printdocs
 ms.assetid: 92b03d98-22ce-4856-afe1-d13fb74eb340
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetImageResource, GetImageResource method [XPS Documents and Packaging], GetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetImageResource method, IXpsOMImageBrush.GetImageResource, IXpsOMImageBrush::GetImageResource, xps.ixpsomimagebrush_getimageresource, xpsobjectmodel/IXpsOMImageBrush::GetImageResource
 ms.prod: windows
 ms.technology: windows-sdk

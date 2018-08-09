@@ -7,7 +7,7 @@ old-location: security\icspinformation_hashardwarerandomnumbergenerator_property
 old-project: seccertenroll
 ms.assetid: 49d79310-90d2-4874-beaf-284abefd950f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: HasHardwareRandomNumberGenerator property [Security], HasHardwareRandomNumberGenerator property [Security],ICspInformation interface, ICspInformation interface [Security],HasHardwareRandomNumberGenerator property, ICspInformation.HasHardwareRandomNumberGenerator, ICspInformation.get_HasHardwareRandomNumberGenerator, ICspInformation::HasHardwareRandomNumberGenerator, ICspInformation::get_HasHardwareRandomNumberGenerator, certenroll/ICspInformation::HasHardwareRandomNumberGenerator, certenroll/ICspInformation::get_HasHardwareRandomNumberGenerator, get_HasHardwareRandomNumberGenerator, security.icspinformation_hashardwarerandomnumbergenerator_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevices_add.htm
 old-project: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
 ms.prod: windows
 ms.technology: windows-sdk

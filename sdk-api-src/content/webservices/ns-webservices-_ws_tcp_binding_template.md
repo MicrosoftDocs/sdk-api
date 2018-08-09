@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_binding_template.htm
 old-project: wsw
 ms.assetid: 5003f405-38f9-439f-87d0-411a3b02218d
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WS_TCP_BINDING_TEMPLATE, WS_TCP_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_BINDING_TEMPLATE, webservices/WS_TCP_BINDING_TEMPLATE, wsw.ws_tcp_binding_template
 ms.prod: windows
 ms.technology: windows-sdk

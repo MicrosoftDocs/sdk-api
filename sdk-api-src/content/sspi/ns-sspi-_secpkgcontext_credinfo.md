@@ -4,10 +4,10 @@ title: "_SecPkgContext_CredInfo"
 author: windows-sdk-content
 description: Specifies the type of credentials used to create a client context.
 old-location: security\secpkgcontext_credinfo.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 5c2c6d01-5de3-4dd1-9fa2-cce9eadd6902
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*PSecPkgContext_CredInfo, PSecPkgContext_CredInfo, PSecPkgContext_CredInfo structure pointer [Security], SecPkgContext_CredInfo, SecPkgContext_CredInfo structure [Security], _SecPkgContext_CredInfo, security.secpkgcontext_credinfo, sspi/PSecPkgContext_CredInfo, sspi/SecPkgContext_CredInfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_CredInfo structure

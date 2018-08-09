@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_AddRoot.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addroot.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: AddRoot, AddRoot method [search], AddRoot method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddRoot method, ISearchCrawlScopeManager.AddRoot, ISearchCrawlScopeManager::AddRoot, _search_ISearchCrawlScopeManager_AddRoot, search._search_ISearchCrawlScopeManager_AddRoot, searchapi/ISearchCrawlScopeManager::AddRoot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Adds a new search root to the search engine.
+Adds a new search root to the search engine.
         
 
 
@@ -63,10 +62,9 @@ req.product: ADAM
 
 ### -param pSearchRoot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a>*</b>
 
-
-                    An <a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> describing the new search root to add.
+An <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> describing the new search root to add.
                 
 
 

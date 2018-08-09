@@ -7,7 +7,7 @@ old-location: rras\rasdialfunc.htm
 old-project: rras
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,6 +76,18 @@ The
 
 
 
+#### - unMsg [in]
+
+Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
+
+
+#### - rasconnstate [in]
+
+Specifies the 
+<a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCONNSTATE</a> enumerator value that indicates the state the 
+<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> remote access connection process is about to enter.
+
+
 #### - dwError [in]
 
 Specifies the error that has occurred, or zero if no error has occurred. 
@@ -87,18 +99,6 @@ Specifies the error that has occurred, or zero if no error has occurred.
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> calls 
 <b>RasDialFunc</b> with <i>dwError</i> set to zero upon entry to each connection state. If an error occurs within a state, 
 <b>RasDialFunc</b> is called again with a nonzero <i>dwError</i> value.
-
-
-#### - rasconnstate [in]
-
-Specifies the 
-<a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCONNSTATE</a> enumerator value that indicates the state the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> remote access connection process is about to enter.
-
-
-#### - unMsg [in]
-
-Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
 
 ## -returns

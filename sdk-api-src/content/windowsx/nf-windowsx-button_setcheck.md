@@ -4,10 +4,10 @@ title: Button_SetCheck macro
 author: windows-sdk-content
 description: Sets the check state of a radio button or check box. You can use this macro or send the BM_SETCHECK message explicitly.
 old-location: controls\Button_SetCheck.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setcheck.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, Button_SetCheck macro [Windows Controls], _win32_Button_SetCheck, _win32_Button_SetCheck_cpp, controls.Button_SetCheck, controls._win32_Button_SetCheck, windowsx/Button_SetCheck
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the check state of a radio button or check box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message explicitly. 
+Sets the check state of a radio button or check box. You can use this macro or send the <a href="https://msdn.microsoft.com/8294e6c4-caac-4c60-85ff-38698a1d2ae4">BM_SETCHECK</a> message explicitly. 
 
 
 

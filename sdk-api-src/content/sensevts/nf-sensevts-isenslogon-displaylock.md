@@ -4,10 +4,10 @@ title: ISensLogon::DisplayLock
 author: windows-sdk-content
 description: The DisplayLock method notifies an application that the screen display is locked.
 old-location: sens\isenslogon_displaylock.htm
-old-project: Sens
+old-project: sens
 ms.assetid: 1675ffc7-7031-492d-bf39-64281a16a074
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/30/2018
 ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],ISensLogon interface, ISensLogon interface [SENS],DisplayLock method, ISensLogon.DisplayLock, ISensLogon::DisplayLock, _zaw_isenslogon_displaylock, sens.isenslogon_displaylock, sensevts/ISensLogon::DisplayLock, syncmgr.isenslogon_displaylock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,11 +113,11 @@ SENS calls this method to notify an application that the screen display is locke
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

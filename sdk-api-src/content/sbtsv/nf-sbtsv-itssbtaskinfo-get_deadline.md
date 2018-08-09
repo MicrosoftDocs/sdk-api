@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo_deadline.htm
 old-project: termserv
 ms.assetid: 498e8dcd-108c-4fc4-8c62-5f68effbfaaa
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: Deadline property [Remote Desktop Services], Deadline property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Deadline property, ITsSbTaskInfo.Deadline, ITsSbTaskInfo.get_Deadline, ITsSbTaskInfo::Deadline, ITsSbTaskInfo::get_Deadline, get_Deadline, sbtsv/ITsSbTaskInfo::Deadline, sbtsv/ITsSbTaskInfo::get_Deadline, termserv.itssbtaskinfo_deadline
 ms.prod: windows
 ms.technology: windows-sdk

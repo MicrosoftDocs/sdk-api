@@ -7,7 +7,7 @@ old-location: mf\imfsensorstream.htm
 old-project: medfound
 ms.assetid: 9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFSensorStream, IMFSensorStream interface [Media Foundation], IMFSensorStream interface [Media Foundation],described, mf.imfsensorstream, mfidl/IMFSensorStream
 ms.prod: windows
 ms.technology: windows-sdk

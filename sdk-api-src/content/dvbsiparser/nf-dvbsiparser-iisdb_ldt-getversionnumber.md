@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getversionnumber.htm
 old-project: mstv
 ms.assetid: 7567ca34-2898-4066-a81c-348e3ac5c066
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_LDT.GetVersionNumber, IISDB_LDT::GetVersionNumber, dvbsiparser/IISDB_LDT::GetVersionNumber, mstv.iisdb_ldt_getversionnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-  Gets the version number for an Integrated Services Digital Broadcasting (ISDB)
+Gets the version number for an Integrated Services Digital Broadcasting (ISDB)
   linked description table (LDT). 
 
 

@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_login_options.htm
 old-project: iSCSIDisc
 ms.assetid: 7d45be86-3d85-4253-aef7-92e05379f1b2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: "*PISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING, ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED, ISCSI_LOGIN_FLAG_REQUIRE_IPSEC, ISCSI_LOGIN_FLAG_RESERVED1, ISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API], ISCSI_LOGIN_OPTIONS_AUTH_TYPE, ISCSI_LOGIN_OPTIONS_DATA_DIGEST, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT, ISCSI_LOGIN_OPTIONS_HEADER_DIGEST, ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS, ISCSI_LOGIN_OPTIONS_PASSWORD, ISCSI_LOGIN_OPTIONS_USERNAME, PISCSI_LOGIN_OPTIONS, PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_login_options, iscsidsc/ISCSI_LOGIN_OPTIONS, iscsidsc/PISCSI_LOGIN_OPTIONS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -212,18 +212,18 @@ Multipathing is allowed. When specified the iSCSI Initiator service will allow m
 
 ### -field AuthType
 
-An enumerator value of type <a href="https://msdn.microsoft.com/library/Bb870791(v=VS.85).aspx">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561486">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
 
 
 
 ### -field HeaderDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/library/Bb870799(v=VS.85).aspx">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
 
 
 ### -field DataDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/library/Bb870799(v=VS.85).aspx">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
 
 
 ### -field MaximumConnections

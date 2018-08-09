@@ -7,7 +7,7 @@ old-location: multimedia\capsetcallbackonwavestream.htm
 old-project: Multimedia
 ms.assetid: 282386af-506b-4be6-bb75-aa3c62f9778a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "_win32_capSetCallbackOnWaveStream, capSetCallbackOnWaveStream, capSetCallbackOnWaveStream macro [Windows Multimedia], multimedia.capsetcallbackonwavestream, vfw/capSetCallbackOnWaveStream"
 ms.prod: windows
 ms.technology: windows-sdk

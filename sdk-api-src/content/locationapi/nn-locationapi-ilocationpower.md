@@ -4,10 +4,10 @@ title: ILocationPower
 author: windows-sdk-content
 description: Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 old-location: winlocation\ilocationpower.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: bf0a0c13-a50f-4ed8-bc29-7d70561da306
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/30/2018
 ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>
-API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/fd40bf4a-c59a-43a4-ab01-c671a8a41731">Windows.Devices.Geolocation</a>API.
 ]
 
 Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
@@ -77,7 +76,7 @@ The <b>ILocationPower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687537(v=VS.85).aspx">Connect</a>
+<a href="winlocation.ilocationpower_connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has connected.
@@ -86,7 +85,7 @@ Notify the location platform that an app has connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms689589(v=VS.85).aspx">Disconnect</a>
+<a href="winlocation.ilocationpower_disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has disconnected.

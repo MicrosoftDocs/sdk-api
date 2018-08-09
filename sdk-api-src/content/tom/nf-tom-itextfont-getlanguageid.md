@@ -4,10 +4,10 @@ title: ITextFont::GetLanguageID
 author: windows-sdk-content
 description: Gets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_GetLanguageID.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlanguageid.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetLanguageID, GetLanguageID method [Windows Controls], GetLanguageID method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetLanguageID method, ITextFont.GetLanguageID, ITextFont::GetLanguageID, _win32_ITextFont_GetLanguageID, _win32_ITextFont_GetLanguageID_cpp, controls.ITextFont_GetLanguageID, controls._win32_ITextFont_GetLanguageID, tom/ITextFont::GetLanguageID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ To get the BCP-47 language tag, such as "en-US", call <code>ITextRange2::GetText
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -133,11 +133,11 @@ To get the BCP-47 language tag, such as "en-US", call <code>ITextRange2::GetText
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774167(v=VS.85).aspx">SetLanguageID</a>
+<a href="https://msdn.microsoft.com/5c45a2f7-d2c3-4a7a-b5bb-b06ba59d5adf">SetLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

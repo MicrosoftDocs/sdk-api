@@ -7,7 +7,7 @@ old-location: automat\varcyfix.htm
 old-project: automat
 ms.assetid: b688530b-e911-4f48-8dab-bb1ca1c6e718
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: VarCyFix, VarCyFix function [Automation], _oa96_VarCyFix, automat.varcyfix, oleauto/VarCyFix
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iphlp\icmpsendecho2.htm
 old-project: iphlp
 ms.assetid: 1f70b6cc-9085-4eb8-b2cc-3b3d98d0ea46
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: IcmpSendEcho2, IcmpSendEcho2 function [IP Helper], _iphlp_icmpsendecho2, icmpapi/IcmpSendEcho2, iphlp.icmpsendecho2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>IcmpSendEcho2</b> function sends an IPv4 ICMP echo request and returns either immediately (if <i>Event</i> or <i>ApcRoutine</i> is non-<b>NULL</b>) or returns after the specified time-out. The <i>ReplyBuffer</i> contains the ICMP echo responses, if any.
 
 
@@ -79,8 +78,7 @@ For more information on using events, see <a href="https://msdn.microsoft.com/li
 
 The routine that is called when the calling thread is in an alertable thread and  an ICMPv4 reply arrives. On Windows Vista and later, <b>PIO_APC_ROUTINE_DEFINED</b> must be defined to force the datatype for this parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>. 
 
-On Windows Server 2003, Windows XP
-  , and Windows 2000, 
+On Windows Server 2003, Windows XP, and Windows 2000, 
    <b>PIO_APC_ROUTINE_DEFINED</b> must not be defined to force the datatype for this parameter to <b>FARPROC</b>.
 
 
@@ -305,8 +303,7 @@ This parameter is reserved.
 
 
 
-On Windows Server 2003, Windows XP
-  , and  Windows 2000, any application that calls the <b>IcmpSendEcho2</b> function asynchronously using the <i>ApcRoutine</i> parameter must not define <b>PIO_APC_ROUTINE_DEFINED</b> to force the datatype for the <i>ApcRoutine</i> parameter to <b>FARPROC</b> rather than <b>PIO_APC_ROUTINE</b>. 
+On Windows Server 2003, Windows XP, and  Windows 2000, any application that calls the <b>IcmpSendEcho2</b> function asynchronously using the <i>ApcRoutine</i> parameter must not define <b>PIO_APC_ROUTINE_DEFINED</b> to force the datatype for the <i>ApcRoutine</i> parameter to <b>FARPROC</b> rather than <b>PIO_APC_ROUTINE</b>. 
 
 On Windows Server 2003 and Windows XP, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 

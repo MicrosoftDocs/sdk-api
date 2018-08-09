@@ -7,7 +7,7 @@ old-location: tsf\tfshiftdir.htm
 old-project: TSF
 ms.assetid: f6a9f9a2-9691-49c7-a481-47ad2cd67a4d
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [Text Services Framework], __MIDL_ITfRange_0002, _tsf_tfshiftdir_ref, msctf/TF_SD_BACKWARD, msctf/TF_SD_FORWARD, msctf/TfShiftDir, tsf.tfshiftdir
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Specifies that the anchor will be moved to the region immediately following the 
 
 
 
-<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">
-        ITfRange::ShiftEndRegion
+<a href="https://msdn.microsoft.com/cda2282f-3d3c-4763-9892-b889b29963a6">ITfRange::ShiftEndRegion
       </a>
 
 

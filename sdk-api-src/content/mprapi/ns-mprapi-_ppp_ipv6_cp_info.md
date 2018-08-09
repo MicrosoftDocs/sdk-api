@@ -7,7 +7,7 @@ old-location: rras\ppp_ipv6cp_info.htm
 old-project: rras
 ms.assetid: fb77a15d-a513-456d-9d55-258b93fe8db5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 08/06/2018
 ms.keywords: PPPP_IPV6_CP_INFO, PPPP_IPV6_CP_INFO structure pointer [RAS], PPP_IPV6_CP_INFO, PPP_IPV6_CP_INFO structure [RAS], _PPP_IPV6_CP_INFO, mprapi/PPPP_IPV6_CP_INFO, mprapi/PPP_IPV6_CP_INFO, rras.ppp_ipv6cp_info
 ms.prod: windows
 ms.technology: windows-sdk

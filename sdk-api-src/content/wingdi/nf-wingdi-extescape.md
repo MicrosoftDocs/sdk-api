@@ -7,7 +7,7 @@ old-location: gdi\extescape.htm
 old-project: printdocs
 ms.assetid: 5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CHECKJPEGFORMAT, CHECKPNGFORMAT, DRAWPATTERNRECT, ExtEscape, ExtEscape function [Windows GDI], GETTECHNOLOGY, GET_PS_FEATURESETTING, PASSTHROUGH, POSTSCRIPT_DATA, POSTSCRIPT_IDENTIFY, POSTSCRIPT_INJECTION, POSTSCRIPT_PASSTHROUGH, QUERYESCSUPPORT, SPCLPASSTHROUGH2, _win32_ExtEscape, gdi.extescape, wingdi/ExtEscape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,54 +66,7 @@ The <b>ExtEscape</b> function enables an application to access device capabiliti
 A handle to the device context.
 
 
-### -param iEscape
-
-TBD
-
-
-### -param cjInput
-
-TBD
-
-
-### -param lpInData
-
-TBD
-
-
-### -param cjOutput
-
-TBD
-
-
-### -param lpOutData
-
-TBD
-
-
-
-
-#### - cbInput [in]
-
-The number of bytes of data pointed to by the <i>lpszInData</i> parameter.
-
-
-#### - cbOutput [in]
-
-The number of bytes of data pointed to by the <i>lpszOutData</i> parameter.
-
-
-#### - lpszInData [in]
-
-A pointer to the input structure required for the specified escape. See also Remarks.
-
-
-#### - lpszOutData [out]
-
-A pointer to the structure that receives output from this escape. This parameter must not be <b>NULL</b> if <b>ExtEscape</b> is called as a query function. If no data is to be returned in this structure, set <i>cbOutput</i> to 0. See also Remarks.
-
-
-#### - nEscape [in]
+### -param iEscape [in]
 
 The escape function to be performed. It can be one of the following or it can be an application-defined escape function.
 
@@ -244,6 +197,26 @@ Enables applications to include private procedures and other resources at the do
 </tr>
 </table>
  
+
+
+### -param cjInput [in]
+
+The number of bytes of data pointed to by the <i>lpszInData</i> parameter.
+
+
+### -param lpInData [in]
+
+A pointer to the input structure required for the specified escape. See also Remarks.
+
+
+### -param cjOutput [in]
+
+The number of bytes of data pointed to by the <i>lpszOutData</i> parameter.
+
+
+### -param lpOutData [out]
+
+A pointer to the structure that receives output from this escape. This parameter must not be <b>NULL</b> if <b>ExtEscape</b> is called as a query function. If no data is to be returned in this structure, set <i>cbOutput</i> to 0. See also Remarks.
 
 
 ## -returns

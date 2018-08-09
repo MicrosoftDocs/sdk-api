@@ -4,10 +4,10 @@ title: ITextFont::GetAllCaps
 author: windows-sdk-content
 description: Gets whether the characters are all uppercase.
 old-location: controls\ITextFont_GetAllCaps.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getallcaps.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetAllCaps, GetAllCaps method [Windows Controls], GetAllCaps method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAllCaps method, ITextFont.GetAllCaps, ITextFont::GetAllCaps, _win32_ITextFont_GetAllCaps, _win32_ITextFont_GetAllCaps_cpp, controls.ITextFont_GetAllCaps, controls._win32_ITextFont_GetAllCaps, tom/ITextFont::GetAllCaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure.
 
 
 
@@ -141,7 +141,7 @@ This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
 
 
 
@@ -149,7 +149,7 @@ This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -157,11 +157,11 @@ This property corresponds to the <b>CFE_ALLCAPS</b> effect described in the <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774125(v=VS.85).aspx">SetAllCaps</a>
+<a href="https://msdn.microsoft.com/463aee02-5d5a-472f-b10d-63a9591cbfdc">SetAllCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

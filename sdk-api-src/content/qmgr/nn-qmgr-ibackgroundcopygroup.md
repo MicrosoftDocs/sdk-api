@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopygroup.htm
 old-project: bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS],described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
 ms.prod: windows
 ms.technology: windows-sdk

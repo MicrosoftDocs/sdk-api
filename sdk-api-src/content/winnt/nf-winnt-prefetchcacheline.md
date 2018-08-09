@@ -4,10 +4,10 @@ title: PreFetchCacheLine macro
 author: windows-sdk-content
 description: Indicates to the processor that a cache line will be needed in the near future.
 old-location: base\prefetchcacheline.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,25 +61,6 @@ Indicates to the processor that a cache line will be needed in the near future.
 
 ### -param l
 
-TBD
-
-
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - Address
-
-The address of the cache line to be loaded. This address is not required to be on a cache line boundary.
-
-
-#### - Level
-
 How often the cache line will be needed. This parameter can be one of the following values.
 
 <table>
@@ -109,6 +90,11 @@ The cache line is not likely to be needed again after the first reference.
 </tr>
 </table>
  
+
+
+### -param a
+
+The address of the cache line to be loaded. This address is not required to be on a cache line boundary.
 
 
 ## -remarks

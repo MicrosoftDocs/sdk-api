@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IsClipEmpty_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\isclipempty.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: Graphics class [GDI+],IsClipEmpty method, Graphics.IsClipEmpty, Graphics::IsClipEmpty, IsClipEmpty, IsClipEmpty method [GDI+], IsClipEmpty method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsClipEmpty_, gdiplus._gdiplus_CLASS_Graphics_IsClipEmpty_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,15 +113,15 @@ The following example determines whether the clipping region is empty and, if it
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536360(v=VS.85).aspx">Clipping</a>
+<a href="https://msdn.microsoft.com/58cc052d-31af-4410-81b9-defbad08a1dc">Clipping</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535780(v=VS.85).aspx">GetClipBounds Methods</a>
+<a href="https://msdn.microsoft.com/b46ce1d3-c2b5-4dbf-86b7-2e6f52ab2787">GetClipBounds Methods</a>
 
 
 
@@ -129,15 +129,15 @@ The following example determines whether the clipping region is empty and, if it
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535698(v=VS.85).aspx">Graphics::GetClip</a>
+<a href="https://msdn.microsoft.com/5a1f3e79-34c6-4974-a877-3cea75ecb9cc">Graphics::GetClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535794(v=VS.85).aspx">Graphics::IsVisibleClipEmpty</a>
+<a href="https://msdn.microsoft.com/73733baf-6cbf-4220-b89d-0cd6856acc46">Graphics::IsVisibleClipEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535802(v=VS.85).aspx">Graphics::ResetClip</a>
+<a href="https://msdn.microsoft.com/f3fcb50c-30c3-4a57-ab99-ebe7d05ede8f">Graphics::ResetClip</a>
 
 
 
@@ -145,7 +145,7 @@ The following example determines whether the clipping region is empty and, if it
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535789(v=VS.85).aspx">SetClip Methods</a>
+<a href="https://msdn.microsoft.com/e8348373-da79-4d33-8bea-d594985493d4">SetClip Methods</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetToday.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_gettoday.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MonthCal_GetToday, MonthCal_GetToday macro [Windows Controls], _win32_MonthCal_GetToday, _win32_MonthCal_GetToday_cpp, commctrl/MonthCal_GetToday, controls.MonthCal_GetToday, controls._win32_MonthCal_GetToday
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the date information for the date specified as "today" for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760987(v=VS.85).aspx">MCM_GETTODAY</a> message explicitly. 
+Retrieves the date information for the date specified as "today" for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/a79feb57-6aa3-4c96-95f3-7018b6b8327f">MCM_GETTODAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,26 +60,12 @@ Retrieves the date information for the date specified as "today" for a month cal
 
 ### -param hmc
 
-TBD
-
-
-### -param pst
-
-TBD
-
-
-
-
-
-
-#### - hwndMC
-
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
-#### - lpToday
+### -param pst
 
 Type: <b>LPSYSTEMTIME</b>
 

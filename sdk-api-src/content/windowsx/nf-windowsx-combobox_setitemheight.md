@@ -4,10 +4,10 @@ title: ComboBox_SetItemHeight macro
 author: windows-sdk-content
 description: Sets the height of list items or the selection field in a combo box. You can use this macro or send the CB_SETITEMHEIGHT message explicitly.
 old-location: controls\ComboBox_SetItemHeight.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemheight.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ComboBox_SetItemHeight, ComboBox_SetItemHeight macro [Windows Controls], _win32_ComboBox_SetItemHeight, _win32_ComboBox_SetItemHeight_cpp, controls.ComboBox_SetItemHeight, controls._win32_ComboBox_SetItemHeight, windowsx/ComboBox_SetItemHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the height of list items or the selection field in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775911(v=VS.85).aspx">CB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of list items or the selection field in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/25a01170-5ffc-4d86-b696-706f5375570b">CB_SETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The height in pixels.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775911(v=VS.85).aspx">CB_SETITEMHEIGHT</a>.
+For more information, see <a href="https://msdn.microsoft.com/25a01170-5ffc-4d86-b696-706f5375570b">CB_SETITEMHEIGHT</a>.
 	
 
 

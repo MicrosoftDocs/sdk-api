@@ -7,7 +7,7 @@ old-location: http\httpreceiveclientcertificate.htm
 old-project: http
 ms.assetid: f0cf7b77-2868-4142-a663-32d6ea7df9e9
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, HttpReceiveClientCertificate function [HTTP], _http_httpreceiveclientcertificate, http.httpreceiveclientcertificate, http/HttpReceiveClientCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,12 @@ The
 
 
 
-### -param RequestQueueHandle
+### -param RequestQueueHandle [in]
 
-TBD
+A handle to the request queue with which the specified SSL client or CBT is associated. A request queue is created and its handle returned by a call to the 
+<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
 ### -param ConnectionId [in]
@@ -98,9 +101,13 @@ This value is supported on Windows 7, Windows Server 2008 R2, and later.
  
 
 
-### -param SslClientCertInfo
+### -param SslClientCertInfo [out]
 
-TBD
+If the <i>Flags</i> parameter is 0, then this parameter points to an 
+<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a> structure into which the function writes the requested client certificate information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member of this structure.
+
+If the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, then this parameter points to an 
+<a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure into which the function writes the requested CBT information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  structure plus the value of the <b>ChannelTokenSize</b> member of this structure.
 
 
 ### -param SslClientCertInfoSize [in]
@@ -108,27 +115,7 @@ TBD
 The size, in bytes, of the buffer pointed to by the <i>pSslClientCertInfo</i> parameter.
 
 
-### -param BytesReceived
-
-TBD
-
-
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReqQueueHandle [in]
-
-A handle to the request queue with which the specified SSL client or CBT is associated. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
-
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
-
-
-#### - pBytesReceived [out, optional]
+### -param BytesReceived [out, optional]
 
 An optional pointer to a variable that receives  the number of bytes to be written to the structure pointed to by <i>pSslClientCertInfo</i>. If not used, set it to <b>NULL</b>. 
 
@@ -136,6 +123,13 @@ An optional pointer to a variable that receives  the number of bytes to be writt
 
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
+
+
+### -param OPTIONAL
+
+TBD
+
+
 
 
 #### - pOverlapped [in, optional]
@@ -150,15 +144,6 @@ A synchronous call blocks until the client certificate is retrieved, whereas an 
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see the section 
 <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
-
-
-#### - pSslClientCertInfo [out]
-
-If the <i>Flags</i> parameter is 0, then this parameter points to an 
-<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a> structure into which the function writes the requested client certificate information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member of this structure.
-
-If the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, then this parameter points to an 
-<a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a> structure into which the function writes the requested CBT information. The buffer pointed to by the <i>pSslClientCertInfo</i> should be sufficiently large enough to hold the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  structure plus the value of the <b>ChannelTokenSize</b> member of this structure.
 
 
 ## -returns
@@ -225,8 +210,7 @@ The buffer pointed to by the <i>pSslClientCertInfo</i> parameter is too small to
 <td width="60%">
 The buffer pointed to by the <i>pSslClientCertInfo</i> parameter is not large enough to receive all the data. Only the basic structure has been written and only partially populated.
 
-When the <i>Flags</i> parameter is 0, the <a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a>
-		 structure has been written with the <b>CertEncodedSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of  the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member.
+When the <i>Flags</i> parameter is 0, the <a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a>structure has been written with the <b>CertEncodedSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of  the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member.
 
 When the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, the <a href="https://msdn.microsoft.com/70f52486-2632-4e15-998b-4d87a86cb11f">HTTP_REQUEST_CHANNEL_BIND_STATUS</a>  structure has been written with the <b>ChannelTokenSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  plus  the value of the <b>ChannelTokenSize</b> member.
 

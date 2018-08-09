@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_username.htm
 old-project: termserv
 ms.assetid: 74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 08/06/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],UserName property, ITsSbClientConnection.UserName, ITsSbClientConnection.get_UserName, ITsSbClientConnection::UserName, ITsSbClientConnection::get_UserName, UserName property [Remote Desktop Services], UserName property [Remote Desktop Services],ITsSbClientConnection interface, get_UserName, sbtsv/ITsSbClientConnection::UserName, sbtsv/ITsSbClientConnection::get_UserName, termserv.itssbclientconnection_username
 ms.prod: windows
 ms.technology: windows-sdk

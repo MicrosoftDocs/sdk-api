@@ -7,7 +7,7 @@ old-location: adsi\adsfreeenumerator.htm
 old-project: ADSI
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>ADsFreeEnumerator</b> function frees an enumerator object created with th
 
 Type: <b>IEnumVARIANT*</b>
 
-Pointer to the  <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on the enumerator object to be freed.
+Pointer to the  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on the enumerator object to be freed.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The general process for enumerating objects in a container is as follows.
 
 First, create an enumerator object on that container.
 
-Second, retrieve the <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface pointer.
+Second, retrieve the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface pointer.
 
 Third, call the <a href="https://msdn.microsoft.com/9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e">ADsEnumerateNext</a> function to return an enumerated set of elements from the enumerator object.
 
@@ -116,7 +116,7 @@ For more information and a code example, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

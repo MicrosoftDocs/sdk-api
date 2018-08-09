@@ -7,7 +7,7 @@ old-location: inputmsg\enablemouseinpointer.htm
 old-project: InputMsg
 ms.assetid: 66D9BF17-164F-455F-803F-36CDF88C34FF
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: EnableMouseInPointer, EnableMouseInPointer function [Keyboard and Mouse Input], inputdev.enablemouseinpointer, inputmsg.enablemouseinpointer, winuser/EnableMouseInPointer
 ms.prod: windows
 ms.technology: windows-sdk

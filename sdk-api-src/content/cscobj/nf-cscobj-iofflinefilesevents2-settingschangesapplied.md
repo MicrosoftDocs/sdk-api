@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_settingschangesapplied.htm
 old-project: offlinefiles
 ms.assetid: af59c8ac-ecd4-48e7-9ebb-8802e7d6ffef
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],SettingsChangesApplied method, IOfflineFilesEvents2.SettingsChangesApplied, IOfflineFilesEvents2::SettingsChangesApplied, SettingsChangesApplied, SettingsChangesApplied method [Offline Files], SettingsChangesApplied method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::SettingsChangesApplied, of.iofflinefilesevents2_settingschangesapplied
 ms.prod: windows
 ms.technology: windows-sdk

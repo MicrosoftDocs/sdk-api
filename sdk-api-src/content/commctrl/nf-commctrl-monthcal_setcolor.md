@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetColor.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_SetColor, MonthCal_SetColor macro [Windows Controls], _win32_MonthCal_SetColor, _win32_MonthCal_SetColor_cpp, commctrl/MonthCal_SetColor, controls.MonthCal_SetColor, controls._win32_MonthCal_SetColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760997(v=VS.85).aspx">MCM_SETCOLOR</a> message explicitly. 
+Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/4ceb7b0e-82be-474a-a163-7e71356818c0">MCM_SETCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Sets the color for a given portion of a month calendar control. You can use this
 
 ### -param hmc
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to a month calendar control. 
 
 
 ### -param iColor
@@ -143,13 +145,6 @@ Set the color used to display header day and trailing day text. Header and trail
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 <b>COLORREF</b> value that represents the color that will be set for the specified area of the month calendar. 
-
-
-#### - hwndMC
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to a month calendar control. 
 
 
 ## -remarks

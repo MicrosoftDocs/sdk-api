@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_getavailablemodes.htm
 old-project: DirectShow
 ms.assetid: 74025309-2aab-4e0f-95bc-8e6a1e2a5bb4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/02/2018
 ms.keywords: GetAvailableModes, GetAvailableModes method [DirectShow], GetAvailableModes method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],GetAvailableModes method, IAMTuner.GetAvailableModes, IAMTuner::GetAvailableModes, IAMTunerGetAvailableModes, dshow.iamtuner_getavailablemodes, strmif/IAMTuner::GetAvailableModes
 ms.prod: windows
 ms.technology: windows-sdk

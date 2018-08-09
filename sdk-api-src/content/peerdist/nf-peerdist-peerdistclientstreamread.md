@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientstreamread.htm
 old-project: p2psdk
 ms.assetid: 7c73e9e2-c723-4472-84e5-b0d25eb3b283
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientStreamRead, PeerDistClientStreamRead function [Peer Networking], p2p.peerdistclientstreamread, peerdist/PeerDistClientStreamRead
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A content handle opened by the <a href="https://msdn.microsoft.com/bf9d4eb2-e939
 
 ### -param cbMaxNumberOfBytes
 
-TBD
+The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientStreamRead</b> function is  querying the length of available consecutive content byes in the local cache at the current stream read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
 
 
 ### -param pBuffer [in, out, optional]
@@ -115,11 +115,6 @@ Specifies the default timeout of 5 seconds.
 ### -param lpOverlapped [in]
 
 Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. Stream read does not allow the caller to specify the start <b>Offset</b> for the reading. The next stream read offset is implicitly maintained per <i>hContentHandle</i>. 
-
-
-#### - cbMaxNumberOfBytesToRead
-
-The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientStreamRead</b> function is  querying the length of available consecutive content byes in the local cache at the current stream read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
 
 
 ## -returns

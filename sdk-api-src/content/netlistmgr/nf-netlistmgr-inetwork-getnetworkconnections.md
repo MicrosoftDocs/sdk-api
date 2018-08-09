@@ -7,7 +7,7 @@ old-location: nla\inetwork_getnetworkconnections.htm
 old-project: nla
 ms.assetid: cc599537-3c31-4674-81d0-608cadae3e61
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 08/06/2018
 ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awareness], GetNetworkConnections method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkConnections method, INetwork.GetNetworkConnections, INetwork::GetNetworkConnections, netlistmgr/INetwork::GetNetworkConnections, nla.inetwork_getnetworkconnections
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleobject_getmoniker.htm
 old-project: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,6 @@ Determines how the moniker is assigned to the object. Depending on the value of 
 <li>Forces assignment of a moniker, if necessary, in order to satisfy the call.</li>
 <li>Obtains a temporary moniker.</li>
 </ul>
-
 Values for <i>dwAssign</i> are specified in the enumeration <a href="https://msdn.microsoft.com/b69e3213-08c4-45f8-b1b3-4ca78e966251">OLEGETMONIKER</a>.
 
 <div class="alert"><b>Note</b>   You cannot pass <a href="https://msdn.microsoft.com/b69e3213-08c4-45f8-b1b3-4ca78e966251">OLEGETMONIKER</a>_UNASSIGN when calling <b>IOleObject::GetMoniker</b>. This value is valid only when calling <b>IOleObject::GetMoniker</b>.</div>

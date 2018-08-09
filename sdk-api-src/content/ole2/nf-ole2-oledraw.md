@@ -7,7 +7,7 @@ old-location: com\oledraw.htm
 old-project: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/06/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Enables drawing objects more easily. You can use it instead of calling <a href="
 
 
 
-#### - pUnknown [in]
+### -param pUnknown
 
-Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the view object that is to be drawn.
+TBD
 
 
 #### - dwAspect [in]
@@ -79,6 +79,11 @@ Device context on which to draw. Cannot be a metafile device context.
 #### - lprcBounds [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure and passed to <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>.
+
+
+#### - [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the view object that is to be drawn.
 
 
 ## -returns

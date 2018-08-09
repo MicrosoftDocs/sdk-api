@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawindexed.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawindexed.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 9c08e40b-b454-48b6-c9b7-35fc68d81999, DrawIndexed, DrawIndexed method [Direct3D 10], DrawIndexed method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawIndexed method, ID3D10Device.DrawIndexed, ID3D10Device::DrawIndexed, d3d10/ID3D10Device::DrawIndexed, direct3d10.id3d10device_drawindexed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ Returns nothing.
 
 
 
-A <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
+A <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">draw API</a> submits work to the rendering pipeline.
 
 If the sum of both indices is negative, the result of the function call is undefined.
 
@@ -105,7 +105,7 @@ If the sum of both indices is negative, the result of the function call is undef
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

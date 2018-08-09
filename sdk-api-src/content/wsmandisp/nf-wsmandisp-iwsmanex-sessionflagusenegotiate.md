@@ -4,10 +4,10 @@ title: IWSManEx::SessionFlagUseNegotiate
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseNegotiate for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenegotiate.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
 ms.prod: windows
 ms.technology: windows-sdk

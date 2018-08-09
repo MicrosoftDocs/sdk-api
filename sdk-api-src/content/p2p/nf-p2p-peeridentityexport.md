@@ -7,7 +7,7 @@ old-location: p2p\peeridentityexport.htm
 old-project: p2psdk
 ms.assetid: 2b7cfc46-77f6-49cb-966c-0a96830c96fd
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerIdentityExport, PeerIdentityExport function [Peer Networking], p2p.peeridentityexport, p2p/PeerIdentityExport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerIdentityExport</b> function allows a user to export  one peer  identity. The user can then transfer the peer identity to a different computer.
+The <b>PeerIdentityExport</b> function allows a user to export  one peer  identity. The user can then transfer the peer identity to a different computer.
 
 
 ## -parameters
@@ -165,8 +164,7 @@ The XML fragment used by <b>PeerIdentityExport</b> is as follows:
 
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">
-        PEER_DATA</a>
+<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: tcui\CheckGamingPrivilegeSilently.htm
 old-project: tcui
 ms.assetid: 1C67C36E-E6E8-45C8-8B89-ED7740F5827C
 ms.author: windowssdkdev
-ms.date: 03/20/2018
+ms.date: 08/06/2018
 ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function, gamingtcui/CheckGamingPrivilegeSilently, tcui.CheckGamingPrivilegeSilently
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Type: <b>HSTRING</b>
 Do not use. This API is only supported for Xbox developers.
 
 
-### -param policy [in]
+### -param policy [in] [in]
 
 Type: <b>HSTRING</b>
 
@@ -92,7 +92,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

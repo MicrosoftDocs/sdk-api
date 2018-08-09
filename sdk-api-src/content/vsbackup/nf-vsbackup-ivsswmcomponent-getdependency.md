@@ -4,10 +4,10 @@ title: IVssWMComponent::GetDependency
 author: windows-sdk-content
 description: The GetDependency method returns an instance of the IVssWMDependency interface containing accessors for obtaining information about explicit writer-component dependencies of one of the current components.
 old-location: base\ivsswmcomponent_getdependency.htm
-old-project: VSS
+old-project: vss
 ms.assetid: ead9ff63-15dc-4fcc-b341-85ad9c3eabb7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetDependency, GetDependency method [VSS], GetDependency method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDependency method, IVssWMComponent.GetDependency, IVssWMComponent::GetDependency, _win32_ivsswmcomponent_getdependency, base.ivsswmcomponent_getdependency, vsbackup/IVssWMComponent::GetDependency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release system resources held by the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

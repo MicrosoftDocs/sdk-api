@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownercompositionservices_terminatecomposition.htm
 old-project: TSF
 ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContextOwnerCompositionServices interface [Text Services Framework],TerminateComposition method, ITfContextOwnerCompositionServices.TerminateComposition, ITfContextOwnerCompositionServices::TerminateComposition, TerminateComposition, TerminateComposition method [Text Services Framework], TerminateComposition method [Text Services Framework],ITfContextOwnerCompositionServices interface, _tsf_itfcontextownercompositionservices_terminatecomposition_ref, msctf/ITfContextOwnerCompositionServices::TerminateComposition, tsf.itfcontextownercompositionservices_terminatecomposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,14 +158,12 @@ This method also does the following:
 
 
 
-<a href="https://msdn.microsoft.com/b5717c03-2611-4199-b07d-b6f3b6f65d3a">
-        ITfComposition::EndComposition
+<a href="https://msdn.microsoft.com/b5717c03-2611-4199-b07d-b6f3b6f65d3a">ITfComposition::EndComposition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4b7c3993-6d01-492f-9bb5-241a1cbd4b63">
-        ITfCompositionSink::OnCompositionTerminated
+<a href="https://msdn.microsoft.com/4b7c3993-6d01-492f-9bb5-241a1cbd4b63">ITfCompositionSink::OnCompositionTerminated
       </a>
 
 
@@ -179,8 +177,7 @@ This method also does the following:
 
 
 
-<a href="https://msdn.microsoft.com/816aaa81-1b51-4e01-b49c-a9cbe2b87735">
-        ITfContextOwnerCompositionSink::OnEndComposition
+<a href="https://msdn.microsoft.com/816aaa81-1b51-4e01-b49c-a9cbe2b87735">ITfContextOwnerCompositionSink::OnEndComposition
       </a>
  
 

@@ -4,10 +4,10 @@ title: InternetLockRequestFile function
 author: windows-sdk-content
 description: Places a lock on the file that is being used.
 old-location: wininet\internetlockrequestfile.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 5924d117-1dcd-43d8-817e-02bda302bdd4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: InternetLockRequestFile, InternetLockRequestFile function [WinINet], _inet_internetlockrequestfile_function, wininet.internetlockrequestfile, wininet/InternetLockRequestFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,7 @@ the <a href="https://msdn.microsoft.com/fb44d7bd-7868-4c53-aa4b-608d79c5bc7c">Ft
 <a href="https://msdn.microsoft.com/73f969c3-3fa7-43f5-88c5-ba78e59a8d1c">InternetOpenUrl</a> function.
 
 
-### -param lphLockRequestInfo
-
-TBD
-
-
-
-
-#### - lphLockReqHandle [out]
+### -param lphLockRequestInfo [out]
 
 Pointer to a handle that receives the lock request handle.
 

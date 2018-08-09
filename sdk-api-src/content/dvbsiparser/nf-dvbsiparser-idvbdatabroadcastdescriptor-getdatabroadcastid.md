@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastdescriptor_getdatabroadcastid.htm
 old-project: mstv
 ms.assetid: 0124e197-85a0-47bf-afb6-100c344e9c9e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDataBroadcastID, GetDataBroadcastID method [Microsoft TV Technologies], GetDataBroadcastID method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetDataBroadcastID method, IDvbDataBroadcastDescriptor.GetDataBroadcastID, IDvbDataBroadcastDescriptor::GetDataBroadcastID, dvbsiparser/IDvbDataBroadcastDescriptor::GetDataBroadcastID, mstv.idvbdatabroadcastdescriptor_getdatabroadcastid
 ms.prod: windows
 ms.technology: windows-sdk

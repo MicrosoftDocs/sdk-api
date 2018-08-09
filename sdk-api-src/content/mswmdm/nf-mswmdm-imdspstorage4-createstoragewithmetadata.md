@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_createstoragewithmetadata.htm
 old-project: WMDM
 ms.assetid: 493eb6f1-fc06-4b37-803f-a81219e9f819
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: CreateStorageWithMetadata, CreateStorageWithMetadata method [windows Media Device Manager], CreateStorageWithMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],CreateStorageWithMetadata method, IMDSPStorage4.CreateStorageWithMetadata, IMDSPStorage4::CreateStorageWithMetadata, IMDSPStorage4CreateStorageWithMetadata, mswmdm/IMDSPStorage4::CreateStorageWithMetadata, wmdm.imdspstorage4_createstoragewithmetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ This method is useful if the device needs metadata at creation time. Depending u
 
 <table>
 <tr>
-<th>
-                  Attribute
+<th>Attribute
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

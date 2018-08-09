@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_getcomponentdata.htm
 old-project: mstv
 ms.assetid: 769d112e-4df7-451c-ac12-440b16c33e88
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetComponentData, GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetComponentData method, ITuneRequestInfo.GetComponentData, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
 ms.prod: windows
 ms.technology: windows-sdk

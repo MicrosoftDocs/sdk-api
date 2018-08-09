@@ -7,7 +7,7 @@ old-location: edp\srpdisablepermissivemodefileencryption_.htm
 old-project: EDP
 ms.assetid: CB75BAFE-EB2A-43F2-8689-34E798C3B9F5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveModeFileEncryption, SrpDisablePermissiveModeFileEncryption , SrpDisablePermissiveModeFileEncryption function, srpapi/SrpDisablePermissiveModeFileEncryption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # SrpDisablePermissiveModeFileEncryption function

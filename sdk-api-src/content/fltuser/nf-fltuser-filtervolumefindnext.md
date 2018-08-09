@@ -7,7 +7,7 @@ old-location: ifsk\filtervolumefindnext.htm
 old-project: ifsk
 ms.assetid: c18085e9-9781-420e-8070-c71982a2bb46
 ms.author: windowssdkdev
-ms.date: 04/17/2018
+ms.date: 08/06/2018
 ms.keywords: FilterVolumeFindNext, FilterVolumeFindNext function [Installable File System Drivers], FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml, fltuser/FilterVolumeFindNext, ifsk.filtervolumefindnext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,9 +59,9 @@ The <b>FilterVolumeFindNext</b> function continues a volume search started by a 
 
 
 
-### -param hVolumeFind
+### -param hVolumeFind [in]
 
-TBD
+Volume search handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>.
 
 
 ### -param dwInformationClass [in]
@@ -110,11 +110,6 @@ Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The 
 ### -param lpBytesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterVolumeFindNext</b> succeeds. This parameter is required and cannot be <b>NULL</b>. 
-
-
-#### - hFilterFind [in]
-
-Volume search handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>.
 
 
 ## -returns

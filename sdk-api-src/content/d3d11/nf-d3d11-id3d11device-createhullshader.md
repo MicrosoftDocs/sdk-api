@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createhullshader.htm
 old-project: direct3d11
 ms.assetid: 93ec9f46-69c5-4863-bd74-9c8c92fae586
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 3183fc89-b12c-d245-312b-a06f19ecd6de, CreateHullShader, CreateHullShader method [Direct3D 11], CreateHullShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateHullShader method, ID3D11Device.CreateHullShader, ID3D11Device::CreateHullShader, d3d11/ID3D11Device::CreateHullShader, direct3d11.id3d11device_createhullshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Address of a pointer to a <a href="https://msdn.microsoft.com/3459f533-e2ac-4b0e
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

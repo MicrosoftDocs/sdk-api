@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccess.htm
 old-project: mstv
 ms.assetid: 93bd3c38-2591-4d36-b296-5ad939487277
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], IBDA_ConditionalAccess interface [Microsoft TV Technologies],described, IBDA_ConditionalAccessInterface, bdaiface/IBDA_ConditionalAccess, mstv.ibda_conditionalaccess
 ms.prod: windows
 ms.technology: windows-sdk

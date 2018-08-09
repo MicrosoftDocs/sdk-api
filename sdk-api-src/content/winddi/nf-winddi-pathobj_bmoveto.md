@@ -7,7 +7,7 @@ old-location: display\pathobj_bmoveto.htm
 old-project: display
 ms.assetid: b734ce8f-7e7e-4c13-a614-cb6b0dc19ead
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: PATHOBJ_bMoveTo, PATHOBJ_bMoveTo function [Display Devices], display.pathobj_bmoveto, gdifncs_a6917397-5fcb-41fd-8f5a-f6af95ee7bb2.xml, winddi/PATHOBJ_bMoveTo
 ms.prod: windows
 ms.technology: windows-sdk

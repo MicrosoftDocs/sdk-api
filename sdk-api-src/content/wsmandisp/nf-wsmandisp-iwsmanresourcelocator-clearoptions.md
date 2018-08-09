@@ -4,10 +4,10 @@ title: IWSManResourceLocator::ClearOptions
 author: windows-sdk-content
 description: Removes any options from the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_clearoptions.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 4c71948d-2321-41b5-b961-c4a514830b26
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ClearOptions, ClearOptions method [Windows Remote Management], ClearOptions method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearOptions method, IWSManResourceLocator.ClearOptions, IWSManResourceLocator::ClearOptions, winrm.iwsmanresourcelocator_clearoptions, wsmandisp/IWSManResourceLocator::ClearOptions
 ms.prod: windows
 ms.technology: windows-sdk

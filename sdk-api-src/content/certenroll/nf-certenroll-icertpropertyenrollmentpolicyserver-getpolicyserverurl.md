@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverurl.ht
 old-project: seccertenroll
 ms.assetid: 9d7ba049-4566-423d-b750-ff091dce1e2a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
 ms.prod: windows
 ms.technology: windows-sdk

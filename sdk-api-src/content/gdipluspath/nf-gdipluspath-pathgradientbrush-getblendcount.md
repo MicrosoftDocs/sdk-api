@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetBlendCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getblendcount_26.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetBlendCount, GetBlendCount method [GDI+], GetBlendCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetBlendCount method, PathGradientBrush.GetBlendCount, PathGradientBrush::GetBlendCount, _gdiplus_CLASS_PathGradientBrush_GetBlendCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetBlendCount_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,12 +77,9 @@ This method returns the number of blend factors currently set for this path grad
 
 
 
-Before you call the <a href="https://msdn.microsoft.com/library/ms535063(v=VS.85).aspx">PathGradientBrush::GetBlend</a> method of a 
-				<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- object, you must allocate two buffers: one to receive an array of blend factors and one to receive an array of blend positions. To determine the size of the required buffers, call the <b>PathGradientBrush::GetBlendCount</b> method of the 
-				<b>PathGradientBrush</b>
- object. The size (in bytes) of each buffer should be the return value of <b>PathGradientBrush::GetBlendCount</b>
- multiplied by 
+Before you call the <a href="https://msdn.microsoft.com/8a4ff6de-615e-4128-9e88-337ed6f4af7f">PathGradientBrush::GetBlend</a> method of a 
+				<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>object, you must allocate two buffers: one to receive an array of blend factors and one to receive an array of blend positions. To determine the size of the required buffers, call the <b>PathGradientBrush::GetBlendCount</b> method of the 
+				<b>PathGradientBrush</b>object. The size (in bytes) of each buffer should be the return value of <b>PathGradientBrush::GetBlendCount</b>multiplied by 
 				<b>sizeof</b>(
 				<b>REAL</b>).
 
@@ -92,12 +89,8 @@ Before you call the <a href="https://msdn.microsoft.com/library/ms535063(v=VS.85
 
 
 The following example demonstrates several methods of the 
-						<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
- class, including <a href="https://msdn.microsoft.com/library/ms535084(v=VS.85).aspx">PathGradientBrush::SetBlend</a>, <b>PathGradientBrush::GetBlendCount</b>
-, and <a href="https://msdn.microsoft.com/library/ms535063(v=VS.85).aspx">PathGradientBrush::GetBlend</a>. The code creates a 
-						<b>PathGradientBrush</b>
- object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b>
- method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
+						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>class, including <a href="https://msdn.microsoft.com/3abf3b42-d72e-413e-9daf-ba0e8146695e">PathGradientBrush::SetBlend</a>, <b>PathGradientBrush::GetBlendCount</b>, and <a href="https://msdn.microsoft.com/8a4ff6de-615e-4128-9e88-337ed6f4af7f">PathGradientBrush::GetBlend</a>. The code creates a 
+						<b>PathGradientBrush</b>object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b>method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -169,27 +162,27 @@ The following example demonstrates several methods of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535063(v=VS.85).aspx">PathGradientBrush::GetBlend</a>
+<a href="https://msdn.microsoft.com/8a4ff6de-615e-4128-9e88-337ed6f4af7f">PathGradientBrush::GetBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535084(v=VS.85).aspx">PathGradientBrush::SetBlend</a>
+<a href="https://msdn.microsoft.com/3abf3b42-d72e-413e-9daf-ba0e8146695e">PathGradientBrush::SetBlend</a>
  
 
  

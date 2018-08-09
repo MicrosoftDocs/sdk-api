@@ -4,10 +4,10 @@ title: WSDGetConfigurationOption function
 author: windows-sdk-content
 description: Gets a WSDAPI configuration option.
 old-location: ncd\wsdgetconfigurationoption.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 33fc271e-4cc5-466c-8688-7b19f4399f8e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDGetConfigurationOption, WSDGetConfigurationOption function, ncd.wsdgetconfigurationoption, wsdutil/WSDGetConfigurationOption
 ms.prod: windows
 ms.technology: windows-sdk

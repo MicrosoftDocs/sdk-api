@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription.htm
 old-project: cossdk
 ms.assetid: ce3f9f7e-3d0a-445f-b3db-671ee595aedf
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ It is used by publisher filters.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSubscription</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventSubscription</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSubscription</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEventSubscription</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -85,7 +85,6 @@ Retrieves the value of a property stored in the property bag to define publisher
 <a href="https://msdn.microsoft.com/d59b46bc-cfc4-400b-8b91-6d0f68f8d9b3">GetPublisherPropertyCollection</a>
 </td>
 <td align="left" width="63%">
-
 Retrieves a collection of properties and values stored in the publisher property bag.
 
 </td>
@@ -95,7 +94,6 @@ Retrieves a collection of properties and values stored in the publisher property
 <a href="https://msdn.microsoft.com/6e16557a-e4ea-46ae-8285-0446189cea8e">GetSubscriberProperty</a>
 </td>
 <td align="left" width="63%">
-
 Retrieves the value of a property stored in the property bag to define subscriber context.
 
 </td>
@@ -105,7 +103,6 @@ Retrieves the value of a property stored in the property bag to define subscribe
 <a href="https://msdn.microsoft.com/33d00424-a285-4953-aa96-be30d3e7da17">GetSubscriberPropertyCollection</a>
 </td>
 <td align="left" width="63%">
-
 Retrieves a collection of properties and values stored in the subscriber property bag.
 
 </td>
@@ -124,7 +121,6 @@ Writes a property and its value to the property bag to define publisher context.
 <a href="https://msdn.microsoft.com/817ee07c-32ea-41a4-a871-370c06bfc8a8">PutSubscriberProperty</a>
 </td>
 <td align="left" width="63%">
-
 Writes a property and its value to the property bag to define subscriber context.
 
 </td>
@@ -134,7 +130,6 @@ Writes a property and its value to the property bag to define subscriber context
 <a href="https://msdn.microsoft.com/3893e605-dd01-47d3-bb7d-095964433ef9">RemovePublisherProperty</a>
 </td>
 <td align="left" width="63%">
-
 Removes a property and its value from the property bag that defines publisher context.
 
 </td>

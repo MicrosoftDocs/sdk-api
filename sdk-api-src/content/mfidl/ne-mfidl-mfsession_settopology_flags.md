@@ -7,7 +7,7 @@ old-location: mf\mfsession_settopology_flags.htm
 old-project: medfound
 ms.assetid: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e, MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, MFSESSION_SETTOPOLOGY_FLAGS, MFSESSION_SETTOPOLOGY_FLAGS enumeration [Media Foundation], MFSESSION_SETTOPOLOGY_IMMEDIATE, MFSESSION_SETTOPOLOGY_NORESOLUTION, mf.mfsession_settopology_flags, mfidl/MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, mfidl/MFSESSION_SETTOPOLOGY_FLAGS, mfidl/MFSESSION_SETTOPOLOGY_IMMEDIATE, mfidl/MFSESSION_SETTOPOLOGY_NORESOLUTION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ If the <i>pTopology</i>  parameter is <b>NULL</b>, this flag has no effect.
 
 ### -field MFSESSION_SETTOPOLOGY_NORESOLUTION
 
-
-            The topology does not need to be resolved. Use this flag if you are setting a full topology.
+The topology does not need to be resolved. Use this flag if you are setting a full topology.
           
 
 
@@ -95,8 +94,7 @@ To remove all of the pending topologies from the queue, call <a href="https://ms
 
 
 
-
-        These flags are optional, and are not mutually exclusive. If no flags are set, the Media Session resolves the topology and then adds it to the queue of pending presentations.
+These flags are optional, and are not mutually exclusive. If no flags are set, the Media Session resolves the topology and then adds it to the queue of pending presentations.
       
 
 

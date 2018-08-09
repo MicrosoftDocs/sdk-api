@@ -7,7 +7,7 @@ old-location: base\queryprocessaffinityupdatemode.htm
 old-project: procthread
 ms.assetid: e1c9fab2-45a0-4ea7-bafb-91fc0f22e658
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 08/06/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, QueryProcessAffinityUpdateMode, QueryProcessAffinityUpdateMode function, base.queryprocessaffinityupdatemode, processthreadsapi/QueryProcessAffinityUpdateMode, winbase/QueryProcessAffinityUpdateMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,10 @@ Retrieves the affinity update mode of the specified process.
 
 
 
-### -param hProcess
+### -param hProcess [in]
 
-TBD
+A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see 
+<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
 
 
 ### -param lpdwFlags [out, optional]
@@ -104,12 +105,6 @@ Dynamic update of the process affinity by the system is enabled.
 </tr>
 </table>
  
-
-
-#### - ProcessHandle [in]
-
-A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see 
-<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
 
 
 ## -returns

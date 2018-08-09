@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetSecurityProvider, GetSecurityProvider method [search], GetSecurityProvider method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityProvider method, IUrlAccessor.GetSecurityProvider, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-            Gets the security provider for the URL. 
+Gets the security provider for the URL. 
         
 
 
@@ -65,8 +64,7 @@ req.product: ADAM
 
 Type: <b>CLSID*</b>
 
-
-                Receives a pointer to a security provider's CLSID.
+Receives a pointer to a security provider's CLSID.
                 
 
 

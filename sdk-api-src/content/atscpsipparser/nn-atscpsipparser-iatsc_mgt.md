@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt.htm
 old-project: mstv
 ms.assetid: 2d6cc17f-7288-468c-a028-31e6e284d8ca
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies],described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
 ms.prod: windows
 ms.technology: windows-sdk

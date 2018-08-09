@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_setplayoffset.htm
 old-project: WMDM
 ms.assetid: b47cf5e8-1d5c-4a47-bb9a-0bec7203f497
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IWMDMObjectInfo.SetPlayOffset, IWMDMObjectInfo::SetPlayOffset, IWMDMObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayOffset, wmdm.iwmdmobjectinfo_setplayoffset
 ms.prod: windows
 ms.technology: windows-sdk

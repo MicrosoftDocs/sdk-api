@@ -4,10 +4,10 @@ title: WTSQueryListenerConfigA function
 author: windows-sdk-content
 description: Retrieves configuration information for a Remote Desktop Services listener.
 old-location: termserv\wtsquerylistenerconfig.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WTSQueryListenerConfig, WTSQueryListenerConfig function [Remote Desktop Services], WTSQueryListenerConfigA, WTSQueryListenerConfigW, termserv.wtsquerylistenerconfig, wtsapi32/WTSQueryListenerConfig, wtsapi32/WTSQueryListenerConfigA, wtsapi32/WTSQueryListenerConfigW
 ms.prod: windows
 ms.technology: windows-sdk

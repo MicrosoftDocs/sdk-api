@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindresource.htm
 old-project: direct3d11
 ms.assetid: 7EBF623B-1C04-43C5-A262-62EA125D6631
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: BindResource, BindResource method [Direct3D 11], BindResource method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResource method, ID3D11ModuleInstance.BindResource, ID3D11ModuleInstance::BindResource, d3d11shader/ID3D11ModuleInstance::BindResource, direct3d11.id3d11moduleinstance_bindresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The number of slots for rebinding.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns:
 

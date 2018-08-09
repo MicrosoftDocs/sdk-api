@@ -7,7 +7,7 @@ old-location: tsf\itfrange_gettext.htm
 old-project: TSF
 ms.assetid: b38a8de3-947f-469c-9f0d-f0482ea86884
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetText method, ITfRange.GetText, ITfRange::GetText, TF_TF_IGNOREEND, TF_TF_MOVESTART, _tsf_itfrange_gettext_ref, msctf/ITfRange::GetText, tsf.itfrange_gettext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,8 +183,7 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">
-        ITfEditSession::DoEditSession
+<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
       </a>
 
 

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcename.htm
 old-project: mscs
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME function [Failover Cluster], ResUtilGetResourceName, ResUtilGetResourceName function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME, resapi/ResUtilGetResourceName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,14 +72,7 @@ Resource handle (see
 Pointer to a buffer that receives the resource name.
 
 
-### -param pcchResourceNameInOut
-
-TBD
-
-
-
-
-#### - pcchResourceName [in, out]
+### -param pcchResourceNameInOut [in, out]
 
 On input, specifies the size of the buffer pointed to by <i>pszResourceName</i>, in wide 
       characters. On output, specifies the actual size of the resource name returned as a count of wide 

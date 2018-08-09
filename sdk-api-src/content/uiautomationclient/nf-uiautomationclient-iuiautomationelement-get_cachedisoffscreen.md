@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsOffscreen.htm
 old-project: WinAuto
 ms.assetid: 2c063a7a-8422-4ebd-b58b-944f93ba9e69
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: CachedIsOffscreen property [Windows Accessibility], CachedIsOffscreen property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsOffscreen property, IUIAutomationElement.CachedIsOffscreen, IUIAutomationElement.get_CachedIsOffscreen, IUIAutomationElement::CachedIsOffscreen, IUIAutomationElement::get_CachedIsOffscreen, get_CachedIsOffscreen, uiauto.uiauto_IUIAutomationElement_CachedIsOffscreen, uiauto_IUIAutomationElement_CachedIsOffscreen, uiautomationclient/IUIAutomationElement::CachedIsOffscreen, uiautomationclient/IUIAutomationElement::get_CachedIsOffscreen, winauto.uiauto_IUIAutomationElement_CachedIsOffscreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

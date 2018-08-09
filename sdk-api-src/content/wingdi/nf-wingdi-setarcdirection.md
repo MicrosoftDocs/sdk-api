@@ -7,7 +7,7 @@ old-location: gdi\setarcdirection.htm
 old-project: gdi
 ms.assetid: cec31eb2-cc9d-4384-b973-dd4339b96ed0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AD_CLOCKWISE, AD_COUNTERCLOCKWISE, SetArcDirection, SetArcDirection function [Windows GDI], _win32_SetArcDirection, gdi.setarcdirection, wingdi/SetArcDirection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,7 @@ The <b>SetArcDirection</b> sets the drawing direction to be used for arc and rec
 A handle to the device context.
 
 
-### -param dir
-
-TBD
-
-
-
-
-#### - ArcDirection [in]
+### -param dir [in]
 
 The new arc direction. This parameter can be one of the following values.
 

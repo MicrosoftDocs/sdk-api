@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_addnewhardware.htm
 old-project: hid
 ms.assetid: 25a00f6a-7971-4d35-a888-ad80159d0e05
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/30/2018
 ms.keywords: AddNewHardware, AddNewHardware method [Human Input Devices], AddNewHardware method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],AddNewHardware method, IDirectInputJoyConfig8.AddNewHardware, IDirectInputJoyConfig8::AddNewHardware, di_ref_88ea414c-9d33-4669-8f5b-b14c2d0089ef.xml, dinputd/IDirectInputJoyConfig8::AddNewHardware, hid.idirectinputjoyconfig8_addnewhardware
 ms.prod: windows
 ms.technology: windows-sdk

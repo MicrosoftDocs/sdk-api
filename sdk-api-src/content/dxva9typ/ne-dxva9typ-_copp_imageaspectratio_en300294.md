@@ -7,7 +7,7 @@ old-location: dshow\copp_imageaspectratio_en300294.htm
 old-project: DirectShow
 ms.assetid: 9beb172c-6255-482b-90cc-a32b2e5d3bec
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: COPP_AspectRatio_EN300294_Box14by9Center, COPP_AspectRatio_EN300294_Box14by9Top, COPP_AspectRatio_EN300294_Box16by9Center, COPP_AspectRatio_EN300294_Box16by9Top, COPP_AspectRatio_EN300294_BoxGT16by9Center, COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic, COPP_AspectRatio_EN300294_FullFormat4by3, COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter, COPP_ImageAspectRatio_EN300294, COPP_ImageAspectRatio_EN300294 , COPP_ImageAspectRatio_EN300294 enumeration [DirectShow], COPP_ImageAspectRatio_EN300294Enumeration, _COPP_ImageAspectRatio_EN300294, dshow.copp_imageaspectratio_en300294, dxva9typ/COPP_AspectRatio_EN300294_Box14by9Center, dxva9typ/COPP_AspectRatio_EN300294_Box14by9Top, dxva9typ/COPP_AspectRatio_EN300294_Box16by9Center, dxva9typ/COPP_AspectRatio_EN300294_Box16by9Top, dxva9typ/COPP_AspectRatio_EN300294_BoxGT16by9Center, dxva9typ/COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic, dxva9typ/COPP_AspectRatio_EN300294_FullFormat4by3, dxva9typ/COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter, dxva9typ/COPP_ImageAspectRatio_EN300294
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,9 +52,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-
-          
-        Specifies the aspect ratio for EN 300 294.
+Specifies the aspect ratio for EN 300 294.
 
 
 
@@ -66,57 +64,49 @@ req.product: Windows Media Format 9 Series or later
 
 ### -field COPP_AspectRatio_EN300294_FullFormat4by3
 
-
-            Full format 4:3.
+Full format 4:3.
           
 
 
 ### -field COPP_AspectRatio_EN300294_Box14by9Center
 
-
-            Box 14:9 center.
+Box 14:9 center.
           
 
 
 ### -field COPP_AspectRatio_EN300294_Box14by9Top
 
-
-            Box 14:9 top.
+Box 14:9 top.
           
 
 
 ### -field COPP_AspectRatio_EN300294_Box16by9Center
 
-
-            Box 16:9 center.
+Box 16:9 center.
           
 
 
 ### -field COPP_AspectRatio_EN300294_Box16by9Top
 
-
-            Box 16:9 top.
+Box 16:9 top.
           
 
 
 ### -field COPP_AspectRatio_EN300294_BoxGT16by9Center
 
-
-            Box &gt; 16:9 center.
+Box &gt; 16:9 center.
           
 
 
 ### -field COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter
 
-
-            Full format 4:3 (shoot and protect 14:9 center).
+Full format 4:3 (shoot and protect 14:9 center).
           
 
 
 ### -field COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic
 
-
-            Full format 16:9 (anamorphic)
+Full format 16:9 (anamorphic)
           
 
 

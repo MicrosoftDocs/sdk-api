@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_getpublisherproperty.htm
 old-project: cossdk
 ms.assetid: 7d0c2467-0ab8-4daf-b4ed-befe28d33757
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: GetPublisherProperty, GetPublisherProperty method [COM+], GetPublisherProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherProperty method, IEventSubscription.GetPublisherProperty, IEventSubscription::GetPublisherProperty, _cos_IEventSubscription_GetPublisherProperty, cos.ieventsubscription_getpublisherproperty, eventsys/IEventSubscription::GetPublisherProperty
 ms.prod: windows
 ms.technology: windows-sdk

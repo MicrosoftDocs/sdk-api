@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62r7_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: IFaxOutboundRoutingGroups, IFaxOutboundRoutingGroups interface [Fax Service], IFaxOutboundRoutingGroups interface [Fax Service],described, _mfax_faxoutboundroutinggroups_cpp, fax._mfax_faxoutboundroutinggroups_cpp, faxcomex/IFaxOutboundRoutingGroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,13 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroups</b> interface describes a configuration collection used by a fax client application to manage the fax outbound routing groups, represented by <a href="https://msdn.microsoft.com/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a> interfaces. The interface also includes methods to add and remove groups from the collection.
+The <b>IFaxOutboundRoutingGroups</b> interface describes a configuration collection used by a fax client application to manage the fax outbound routing groups, represented by <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interfaces. The interface also includes methods to add and remove groups from the collection.
 <div class="alert"><b>Note</b>  The outbound routing group <b>All Devices</b> is always the first object in this collection. You cannot remove the <b>All Devices</b> group from the collection. If you attempt to remove it, you will receive an error message.
 </div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingGroups</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutboundRoutingGroups</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingGroups</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxOutboundRoutingGroups</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,16 +76,16 @@ The <b>IFaxOutboundRoutingGroups</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms688586(v=VS.85).aspx">IFaxOutboundRoutingGroups::Add</a> method adds an outbound routing group to the collection represented by the <b>IFaxOutboundRoutingGroups</b> interface.
+The <a href="https://msdn.microsoft.com/82278aba-aa52-4a22-84f6-dadcd7e94376">IFaxOutboundRoutingGroups::Add</a> method adds an outbound routing group to the collection represented by the <b>IFaxOutboundRoutingGroups</b> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms687536(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/900641f5-bd73-438d-b156-947a97a64173">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687536(v=VS.85).aspx">IFaxOutboundRoutingGroups::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
+The <a href="https://msdn.microsoft.com/900641f5-bd73-438d-b156-947a97a64173">IFaxOutboundRoutingGroups::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The <a href="https://msdn.microsoft.com/library/ms687536(v=VS.85).aspx">IFaxOutb
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms690128(v=VS.85).aspx">IFaxOutboundRoutingGroups::get_Item</a> method returns a <a href="https://msdn.microsoft.com/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a> interface from the collection.
+The <a href="https://msdn.microsoft.com/1f6a2110-885b-46ef-9914-389463c45845">IFaxOutboundRoutingGroups::get_Item</a> method returns a <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface from the collection.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ The <a href="https://msdn.microsoft.com/library/ms690128(v=VS.85).aspx">IFaxOutb
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection. 
 
 <div class="alert"><b>Note</b>  You cannot remove the special <b>All Devices</b> routing group.</div>
 <div> </div>
@@ -129,7 +129,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. This is the total number of outbound routing groups associated with the fax server.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection. This is the total number of outbound routing groups associated with the fax server.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count
 
 
 
-A default implementation of <b>IFaxOutboundRoutingGroups</b> is provided as the <a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> object.
+A default implementation of <b>IFaxOutboundRoutingGroups</b> is provided as the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> object.
 
 
 

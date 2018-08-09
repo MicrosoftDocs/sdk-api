@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicontextualui_showatlocation.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\showatlocation.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUIContextualUI interface [Windows Ribbon],ShowAtLocation method, IUIContextualUI.ShowAtLocation, IUIContextualUI::ShowAtLocation, ShowAtLocation, ShowAtLocation method [Windows Ribbon], ShowAtLocation method [Windows Ribbon],IUIContextualUI interface, scenicintent_IUIContextualUI_ShowAtLocation, uiribbon/IUIContextualUI::ShowAtLocation, windowsribbon.windowsribbon_iuicontextualui_showatlocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Displays a <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
+Displays a <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>.
 		
 
 
@@ -64,7 +64,7 @@ Displays a <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).a
 
 Type: <b>INT32</b>
 
-The absolute x-coordinate, in screen coordinates, for the upper-left corner of the <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>. 				
+The absolute x-coordinate, in screen coordinates, for the upper-left corner of the <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>. 				
 				
 
 
@@ -72,7 +72,7 @@ The absolute x-coordinate, in screen coordinates, for the upper-left corner of t
 
 Type: <b>INT32</b>
 
-The absolute y-coordinate, in screen coordinates, for the upper-left corner of the <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>. 				
+The absolute y-coordinate, in screen coordinates, for the upper-left corner of the <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>. 				
 				
 
 
@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The location of the <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a> is not based on the screen coordinates of the application window or the mouse pointer.
+The location of the <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a> is not based on the screen coordinates of the application window or the mouse pointer.
 			
 
 
@@ -102,15 +102,15 @@ The location of the <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a>
+<a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742701(v=VS.85).aspx">ContextPopup Sample</a>
+<a href="https://msdn.microsoft.com/f334dbfc-710a-4652-b914-a668ae36aecd">ContextPopup Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>
+<a href="https://msdn.microsoft.com/dbefd3e0-bb47-41df-b164-b2f279380e36">IUIContextualUI</a>
  
 
  

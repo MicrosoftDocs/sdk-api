@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffs
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstops.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetTabStops, GetTabStops method [GDI+], GetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStops method, StringFormat.GetTabStops, StringFormat::GetTabStops, _gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::GetTabStops</b> method gets the offsets of the tab stops in this 
-			<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object.
+			<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object.
 
 
 ## -parameters
@@ -112,7 +112,7 @@ Each tab-stop offset in the
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object, sets tab stops, and uses the 
+						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object, sets tab stops, and uses the 
 						<b>StringFormat</b> object to draw a string that contains tab characters (\t). The code also draws the string's layout rectangle. Then, the code gets the tab stops and proceeds to use or inspect the tab stops in some way.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -169,7 +169,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://msdn.microsoft.com/4014a602-88f6-4fac-b4b2-3dafdcff8f33">Formatting Text</a>
 
 
 
@@ -177,7 +177,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
  
 
  

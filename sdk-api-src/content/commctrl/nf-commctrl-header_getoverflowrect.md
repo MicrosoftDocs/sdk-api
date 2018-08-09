@@ -7,7 +7,7 @@ old-location: controls\Header_GetOverflowRect.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getoverflowrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Header_GetOverflowRect, Header_GetOverflowRect macro [Windows Controls], _shell_Header_GetOverflowRect, _shell_Header_GetOverflowRect_cpp, commctrl/Header_GetOverflowRect, controls.Header_GetOverflowRect, controls._shell_Header_GetOverflowRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the coordinates of the drop-down overflow area for a specified header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775345(v=VS.85).aspx">HDM_GETOVERFLOWRECT</a> message explicitly.
+Gets the coordinates of the drop-down overflow area for a specified header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/52fb3dc3-ce22-40da-8222-20fd75c005ae">HDM_GETOVERFLOWRECT</a> message explicitly.
 
 
 ## -parameters
@@ -65,16 +65,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 A handle to the header control.
 
 
-### -param lprc
-
-TBD
-
-
-
-
-
-
-#### - lpItemRect [in, out]
+### -param lprc [in, out]
 
 Type: <b>LPRECT</b>
 

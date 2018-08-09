@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1_
 old-project: directcomp
 ms.assetid: 74b18201-5710-1213-51f8-2f97ba86c9a4
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect::setcoefficient1, SetCoefficient1, SetCoefficient1 methods [DirectComposition], dcomp/SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

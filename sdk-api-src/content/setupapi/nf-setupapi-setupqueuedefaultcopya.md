@@ -7,7 +7,7 @@ old-location: setup\setupqueuedefaultcopy.htm
 old-project: SetupApi
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ms.keywords: SetupQueueDefaultCopy, SetupQueueDefaultCopy function [Setup API], SetupQueueDefaultCopyA, SetupQueueDefaultCopyW, _setupapi_setupqueuedefaultcopy, setup.setupqueuedefaultcopy, setupapi/SetupQueueDefaultCopy, setupapi/SetupQueueDefaultCopyA, setupapi/SetupQueueDefaultCopyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,14 +80,14 @@ Handle to an open INF file that contains the <b>SourceDisksFiles</b> and <b>Sour
 Pointer to a null-terminated string that specifies the root directory of the source for this copy such as A:\.
 
 
-### -param SourceFilename
+### -param SourceFilename [in]
 
-TBD
+Pointer to a null-terminated string that specifies the file name of the file to be copied.
 
 
-### -param TargetFilename
+### -param TargetFilename [in]
 
-TBD
+Pointer to a null-terminated string that specifies the file name of the target file.
 
 
 ### -param CopyStyle [in]
@@ -120,7 +120,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
@@ -195,16 +195,6 @@ Examine each file being copied to see if its version resources (or time stamps f
 #### SP_COPY_WARNIFSKIP
 
 If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for system-critical files.)
-
-
-#### - SourceFileName [in]
-
-Pointer to a null-terminated string that specifies the file name of the file to be copied.
-
-
-#### - TargetFileName [in]
-
-Pointer to a null-terminated string that specifies the file name of the target file.
 
 
 ## -returns

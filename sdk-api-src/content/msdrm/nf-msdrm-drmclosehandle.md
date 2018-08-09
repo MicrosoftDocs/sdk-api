@@ -7,7 +7,7 @@ old-location: rm\drmclosehandle.htm
 old-project: adrms_sdk
 ms.assetid: 422f286c-edf6-488f-8776-359ab2695be3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMCloseHandle, DRMCloseHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseHandle, rm.drmclosehandle
 ms.prod: windows
 ms.technology: windows-sdk

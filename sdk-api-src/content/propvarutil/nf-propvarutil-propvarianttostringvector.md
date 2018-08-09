@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringVector.htm
 old-project: properties
 ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -201,23 +201,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
+<a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a>
+<a href="shell.PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
+<a href="shell.VariantToStringArray">VariantToStringArray</a>
  
 
  

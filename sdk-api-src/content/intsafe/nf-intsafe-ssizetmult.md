@@ -7,7 +7,7 @@ old-location: shell\SSIZETMult.htm
 old-project: shell
 ms.assetid: 9b698951-dd9d-427c-9f95-63392ef0f0d4
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: SSIZETMult, SSIZETMult function [Windows Shell], intsafe/SSIZETMult, shell.SSIZETMult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\httpaddurl.htm
 old-project: http
 ms.assetid: 76b228a0-6792-4184-bf0e-8638f3ab6b98
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 08/06/2018
 ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.httpaddurl, http/HttpAddUrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,24 +64,7 @@ Starting with HTTP Server API Version 2.0,  applications should call <a href="ht
 
 
 
-### -param RequestQueueHandle
-
-TBD
-
-
-### -param FullyQualifiedUrl
-
-TBD
-
-
-### -param Reserved
-
-TBD
-
-
-
-
-#### - ReqQueueHandle [in]
+### -param RequestQueueHandle [in]
 
 The handle to the request queue to which requests for the specified URL are to be routed. A request queue is created and its handle returned by a call to the 
 <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
@@ -89,13 +72,13 @@ The handle to the request queue to which requests for the specified URL are to b
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
 
 
-#### - pFullyQualifiedUrl [in]
+### -param FullyQualifiedUrl [in]
 
 A pointer to a Unicode string that contains a properly formed 
 <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix string</a> that identifies the URL to be registered.
 
 
-#### - pReserved
+### -param Reserved
 
 Reserved; must be <b>NULL</b>.
 

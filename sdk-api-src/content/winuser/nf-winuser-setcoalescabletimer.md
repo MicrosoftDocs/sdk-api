@@ -7,7 +7,7 @@ old-location: winmsg\setcoalescabletimer.htm
 old-project: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,11 @@ Creates a timer with the specified time-out value and coalescing tolerance delay
 
 
 
-### -param hWnd
+### -param hWnd [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the window to be associated with the timer. This window must be owned by the calling thread. If a <b>NULL</b> value for <i>hWnd</i> is passed in along with an <i>nIDEvent</i> of an existing timer, that timer will be replaced in the same way that an existing non-NULL <i>hWnd</i> timer will be.
 
 
 ### -param nIDEvent [in]
@@ -94,7 +96,7 @@ If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MA
 
 Type: <b>TIMERPROC</b>
 
-A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
+A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
 
 
 ### -param uToleranceDelay [in]
@@ -164,13 +166,6 @@ An invalid value. If <i>uToleranceDelay</i> is set to an invalid value, the func
  
 
 
-#### - hwnd [in, optional]
-
-Type: <b>HWND</b>
-
-A handle to the window to be associated with the timer. This window must be owned by the calling thread. If a <b>NULL</b> value for <i>hWnd</i> is passed in along with an <i>nIDEvent</i> of an existing timer, that timer will be replaced in the same way that an existing non-NULL <i>hWnd</i> timer will be.
-
-
 ## -returns
 
 
@@ -178,9 +173,9 @@ A handle to the window to be associated with the timer. This window must be owne
 Type: <strong>Type: <b>UINT_PTR</b>
 </strong>
 
-If the function succeeds and the <i>hWnd</i> parameter is <b>NULL</b>, the return value is an integer identifying the new timer. An application can pass this value to the <a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a> function to destroy the timer.
+If the function succeeds and the <i>hWnd</i> parameter is <b>NULL</b>, the return value is an integer identifying the new timer. An application can pass this value to the <a href="https://msdn.microsoft.com/d842abb3-e02d-41a2-b500-311fe04122e2">KillTimer</a> function to destroy the timer.
 
-If the function succeeds and the <i>hWnd</i> parameter is not <b>NULL</b>, then the return value is a nonzero integer. An application can pass the value of the <i>nIDEvent</i> parameter to the <a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a> function to destroy the timer.
+If the function succeeds and the <i>hWnd</i> parameter is not <b>NULL</b>, then the return value is a nonzero integer. An application can pass the value of the <i>nIDEvent</i> parameter to the <a href="https://msdn.microsoft.com/d842abb3-e02d-41a2-b500-311fe04122e2">KillTimer</a> function to destroy the timer.
 
 If the function fails to create a timer, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
@@ -191,17 +186,17 @@ If the function fails to create a timer, the return value is zero. To get extend
 
 
 
-An application can process <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
+An application can process <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
 
-The <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
+The <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
 
 The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Another window can have its own timer which has the same identifier as a timer owned by another window. The timers are distinct. 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
+<a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
 			
 
-When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>.
+When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a>.
 
 
 
@@ -227,11 +222,11 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a>
+<a href="https://msdn.microsoft.com/d842abb3-e02d-41a2-b500-311fe04122e2">KillTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>
 
 
 
@@ -243,11 +238,11 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
+<a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx">TimerProc</a>
+<a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a>
 
 
 
@@ -255,11 +250,11 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644901(v=VS.85).aspx">Using TimersCoalescing timers sample</a>
+<a href="https://msdn.microsoft.com/eee54078-759f-4fd4-9cf4-10a8bde888b7">Using TimersCoalescing timers sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a>
  
 
  

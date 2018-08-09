@@ -7,7 +7,7 @@ old-location: mstv\ibda_guidedatadeliveryservice.htm
 old-project: mstv
 ms.assetid: 5329f725-e77e-49c2-87f5-f7204d022adc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],described, bdaiface/IBDA_GuideDataDeliveryService, mstv.ibda_guidedatadeliveryservice
 ms.prod: windows
 ms.technology: windows-sdk

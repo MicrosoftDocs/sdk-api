@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_insertitem.htm
 old-project: WMP
 ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],insertItem method, IWMPPlaylist.insertItem, IWMPPlaylist::insertItem, IWMPPlaylistinsertItem, insertItem, insertItem method [Windows Media Player], insertItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_insertitem, wmp/IWMPPlaylist::insertItem
 ms.prod: windows
 ms.technology: windows-sdk

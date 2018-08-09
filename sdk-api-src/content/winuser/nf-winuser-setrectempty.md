@@ -7,7 +7,7 @@ old-location: gdi\setrectempty.htm
 old-project: gdi
 ms.assetid: d3c677ae-e45c-4d54-8521-75954a466a68
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SetRectEmpty, SetRectEmpty function [Windows GDI], _win32_SetRectEmpty, gdi.setrectempty, winuser/SetRectEmpty
 ms.prod: windows
 ms.technology: windows-sdk

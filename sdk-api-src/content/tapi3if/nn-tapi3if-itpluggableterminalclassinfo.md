@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassInfo
 author: windows-sdk-content
 description: The ITPluggableTerminalClassInfo interface exposes methods that allow the application to retrieve information concerning a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassinfo.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 0f7190c4-c696-4749-82f2-20fdbc8651f4
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalClassInfo, ITPluggableTerminalClassInfo interface [TAPI 2.2], ITPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassinfo, tapi3.itpluggableterminalclassinfo, tapi3if/ITPluggableTerminalClassInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPluggableTerminalClassInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassInfo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITPluggableTerminalClassInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

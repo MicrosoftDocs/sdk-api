@@ -7,7 +7,7 @@ old-location: base\symsrvgetsupplement.htm
 old-project: debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ The name of the file.
 
 
 
-
-						If the function succeeds, the return value is the fully qualified path for the supplemental file.
+If the function succeeds, the return value is the fully qualified path for the supplemental file.
 						
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 

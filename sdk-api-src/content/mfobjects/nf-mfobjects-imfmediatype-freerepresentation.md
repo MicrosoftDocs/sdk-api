@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_freerepresentation.htm
 old-project: medfound
 ms.assetid: d2007f16-543f-4f05-a44d-b4b4ae8019fb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: FreeRepresentation, FreeRepresentation method [Media Foundation], FreeRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],FreeRepresentation method, IMFMediaType.FreeRepresentation, IMFMediaType::FreeRepresentation, d2007f16-543f-4f05-a44d-b4b4ae8019fb, mf.imfmediatype_freerepresentation, mfobjects/IMFMediaType::FreeRepresentation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ Frees memory that was allocated by the <a href="https://msdn.microsoft.com/2135f
 
 ### -param guidRepresentation [in]
 
-
-            GUID that was passed to the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
+GUID that was passed to the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
           
 
 
 ### -param pvRepresentation [in]
 
-
-            Pointer to the buffer that was returned by the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
+Pointer to the buffer that was returned by the <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">GetRepresentation</a> method.
           
 
 

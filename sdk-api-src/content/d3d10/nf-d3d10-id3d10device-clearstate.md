@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_clearstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_clearstate.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 779d4054-49b3-9f94-f49a-3f3d097a65aa, ClearState, ClearState method [Direct3D 10], ClearState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearState method, ID3D10Device.ClearState, ID3D10Device::ClearState, d3d10/ID3D10Device::ClearState, direct3d10.id3d10device_clearstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

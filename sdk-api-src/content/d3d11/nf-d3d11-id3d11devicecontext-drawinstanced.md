@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_drawinstanced.htm
 old-project: direct3d11
 ms.assetid: 3cb608e7-d64d-42cc-9b34-5f6c30af2ada
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 50e4d16f-22d4-d308-dcc8-fadbcf3a5568, DrawInstanced, DrawInstanced method [Direct3D 11], DrawInstanced method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawInstanced method, ID3D11DeviceContext.DrawInstanced, ID3D11DeviceContext::DrawInstanced, d3d11/ID3D11DeviceContext::DrawInstanced, direct3d11.id3d11devicecontext_drawinstanced
 ms.prod: windows
 ms.technology: windows-sdk

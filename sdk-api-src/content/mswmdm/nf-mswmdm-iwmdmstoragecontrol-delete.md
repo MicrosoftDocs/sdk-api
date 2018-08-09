@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_delete.htm
 old-project: WMDM
 ms.assetid: f2b044d2-6386-4c2e-a437-5ebddf827fb4
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/30/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IWMDMStorageControl interface, IWMDMStorageControl interface [windows Media Device Manager],Delete method, IWMDMStorageControl.Delete, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ One or two of the following flags, combined with a bitwise <b>OR</b>. Specify ex
 
 <table>
 <tr>
-<th>
-                  Mode
+<th>Mode
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -91,8 +89,7 @@ One or two of the following flags, combined with a bitwise <b>OR</b>. Specify ex
 </table>
  
 
-
-          4
+4
 
 
 ### -param pProgress [in]

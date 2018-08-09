@@ -7,7 +7,7 @@ old-location: mf\imftransform_processinput.htm
 old-project: medfound
 ms.assetid: c94d406b-7cd9-42d4-ae9e-3d21dbb47209
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFTransform.ProcessInput, IMFTransform::ProcessInput, ProcessInput, ProcessInput method [Media Foundation], ProcessInput method [Media Foundation],IMFTransform interface, c94d406b-7cd9-42d4-ae9e-3d21dbb47209, mf.imftransform_processinput, mftransform/IMFTransform::ProcessInput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Delivers data to an input stream on this Media Foundation transform (MFT).
+Delivers data to an input stream on this Media Foundation transform (MFT).
         
 
 
@@ -64,22 +63,19 @@ req.product: GDI+ 1.1
 
 ### -param dwInputStreamID [in]
 
-
-            Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
+Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/0715c78e-de92-439d-a4f3-078e19f78a8e">IMFTransform::GetStreamIDs</a>.
           
 
 
 ### -param pSample [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the input sample. The sample must contain at least one media buffer that contains valid input data.
+Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the input sample. The sample must contain at least one media buffer that contains valid input data.
           
 
 
 ### -param dwFlags [in]
 
-
-            Reserved. Must be zero.
+Reserved. Must be zero.
           
 
 
@@ -87,8 +83,7 @@ req.product: GDI+ 1.1
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -103,8 +98,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +110,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid argument.
+Invalid argument.
               
 
 </td>
@@ -129,8 +122,7 @@ req.product: GDI+ 1.1
 </dl>
 </td>
 <td width="60%">
-
-                Invalid stream identifier.
+Invalid stream identifier.
               
 
 </td>
@@ -168,8 +160,7 @@ Some MFTs require that input samples have valid time stamps. Some MFTs do not re
 </dl>
 </td>
 <td width="60%">
-
-                The transform cannot process more input at this time.
+The transform cannot process more input at this time.
               
 
 </td>
@@ -181,8 +172,7 @@ Some MFTs require that input samples have valid time stamps. Some MFTs do not re
 </dl>
 </td>
 <td width="60%">
-
-                The media type is not set on one or more streams.
+The media type is not set on one or more streams.
               
 
 </td>
@@ -194,8 +184,7 @@ Some MFTs require that input samples have valid time stamps. Some MFTs do not re
 </dl>
 </td>
 <td width="60%">
-
-                The media type is not supported for DirectX Video Acceleration (DXVA). A DXVA-enabled decoder might return this error code.
+The media type is not supported for DirectX Video Acceleration (DXVA). A DXVA-enabled decoder might return this error code.
               
 
 </td>
@@ -212,42 +201,34 @@ Some MFTs require that input samples have valid time stamps. Some MFTs do not re
 
 
 
-
-        In most cases, if the method succeeds, the MFT stores the sample and holds a reference count on the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> pointer. Do not re-use the sample until the MFT releases the sample. Instead of storing the sample, however, an MFT might copy the sample data into a new buffer. In that case, the MFT should set the <b>MFT_INPUT_STREAM_DOES_NOT_ADDREF</b> flag in the <a href="https://msdn.microsoft.com/d57ffac7-1a92-4c6b-bd59-0acd7239c0a6">IMFTransform::GetInputStreamInfo</a> method.
+In most cases, if the method succeeds, the MFT stores the sample and holds a reference count on the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> pointer. Do not re-use the sample until the MFT releases the sample. Instead of storing the sample, however, an MFT might copy the sample data into a new buffer. In that case, the MFT should set the <b>MFT_INPUT_STREAM_DOES_NOT_ADDREF</b> flag in the <a href="https://msdn.microsoft.com/d57ffac7-1a92-4c6b-bd59-0acd7239c0a6">IMFTransform::GetInputStreamInfo</a> method.
       
 
-
-        If the MFT already has enough input data to produce an output sample, it does not accept new input data, and <b>ProcessInput</b> returns <b>MF_E_NOTACCEPTING</b>. At that point, the client should clear the pending input data by doing one of the following:
+If the MFT already has enough input data to produce an output sample, it does not accept new input data, and <b>ProcessInput</b> returns <b>MF_E_NOTACCEPTING</b>. At that point, the client should clear the pending input data by doing one of the following:
         
 
 <ul>
-<li>
-            Generate new output by calling <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a>.
+<li>Generate new output by calling <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a>.
           </li>
-<li>
-            Flush the input data by calling <a href="https://msdn.microsoft.com/a6dc67e5-8473-444a-8463-24f411e59565">IMFTransform::ProcessMessage</a> with the MFT_<b>MESSAGE_COMMAND_FLUSH</b> message.
+<li>Flush the input data by calling <a href="https://msdn.microsoft.com/a6dc67e5-8473-444a-8463-24f411e59565">IMFTransform::ProcessMessage</a> with the MFT_<b>MESSAGE_COMMAND_FLUSH</b> message.
           </li>
 </ul>
-
-        An exception to this rule is the <b>MFT_OUTPUT_STREAM_LAZY_READ</b> flag. When this flag is present, the transform will discard stored samples if you give it more input. For more information, see <a href="https://msdn.microsoft.com/06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5">IMFTransform::GetOutputStreamInfo</a>. A transform should never queue any more input data than is required to produce the correct output.
+An exception to this rule is the <b>MFT_OUTPUT_STREAM_LAZY_READ</b> flag. When this flag is present, the transform will discard stored samples if you give it more input. For more information, see <a href="https://msdn.microsoft.com/06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5">IMFTransform::GetOutputStreamInfo</a>. A transform should never queue any more input data than is required to produce the correct output.
       
 
-
-        An MFT can process the input data in the <b>ProcessInput</b> method. However, most MFTs wait until the client calls <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a>.
+An MFT can process the input data in the <b>ProcessInput</b> method. However, most MFTs wait until the client calls <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a>.
       
 
-
-        After the client has set valid media types on all of the streams, the MFT should always be in one of two states: Able to accept more input, or able to produce more output. It should never be in both states or neither state. An MFT should only accept as much input as it needs to generate at least one output sample, at which point <b>ProcessInput</b> returns <b>MF_E_NOTACCEPTING</b>. When <b>ProcessInput</b> returns <b>MF_E_NOTACCEPTING</b>, the client can assume that the MFT is ready to produce output.
+After the client has set valid media types on all of the streams, the MFT should always be in one of two states: Able to accept more input, or able to produce more output. It should never be in both states or neither state. An MFT should only accept as much input as it needs to generate at least one output sample, at which point <b>ProcessInput</b> returns <b>MF_E_NOTACCEPTING</b>. When <b>ProcessInput</b> returns <b>MF_E_NOTACCEPTING</b>, the client can assume that the MFT is ready to produce output.
       
 
-
-        If an MFT encounters a non-fatal error in the input data, it can simply drop the data and attempt to recover when it gets the more input data. To request more input data, the MFT returns <b>MF_E_TRANSFORM_NEED_MORE_INPUT</b> from the <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> method. If the MFT drops any data, it should set the <a href="https://msdn.microsoft.com/f9e1e700-9958-404d-8b83-08f846f5a1b0">MFSampleExtension_Discontinuity</a> attribute attribute on the next output sample, to notify the caller that there is a gap in the data stream.
+If an MFT encounters a non-fatal error in the input data, it can simply drop the data and attempt to recover when it gets the more input data. To request more input data, the MFT returns <b>MF_E_TRANSFORM_NEED_MORE_INPUT</b> from the <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> method. If the MFT drops any data, it should set the <a href="https://msdn.microsoft.com/f9e1e700-9958-404d-8b83-08f846f5a1b0">MFSampleExtension_Discontinuity</a> attribute attribute on the next output sample, to notify the caller that there is a gap in the data stream.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessInput</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessInput</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 <h3><a id="Asynchronous_Processing"></a><a id="asynchronous_processing"></a><a id="ASYNCHRONOUS_PROCESSING"></a>Asynchronous Processing</h3>
-The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="https://msdn.microsoft.com/library/Dd317909(v=VS.85).aspx">Asynchronous MFTs</a>.
+The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="asynchronous_mfts.htm">Asynchronous MFTs</a>.
 
 
 

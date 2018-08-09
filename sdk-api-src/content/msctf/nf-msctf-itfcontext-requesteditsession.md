@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_requesteditsession.htm
 old-project: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: ITfContext interface [Text Services Framework],RequestEditSession method, ITfContext.RequestEditSession, ITfContext::RequestEditSession, RequestEditSession, RequestEditSession method [Text Services Framework], RequestEditSession method [Text Services Framework],ITfContext interface, TF_ES_ASYNC, TF_ES_ASYNCDONTCARE, TF_ES_READ, TF_ES_READWRITE, TF_ES_SYNC, _tsf_itfcontext_requesteditsession_ref, msctf/ITfContext::RequestEditSession, tsf.itfcontext_requesteditsession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -226,18 +226,15 @@ A synchronous read/write request will fail if made when processing one of the fo
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">
-              ITfTextEditSink::OnEndEdit
+<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit
             </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a99313ab-98a7-4fc0-b3ae-78ff26a41d8e">
-              ITfTextLayoutSink::OnLayoutChange
+<a href="https://msdn.microsoft.com/a99313ab-98a7-4fc0-b3ae-78ff26a41d8e">ITfTextLayoutSink::OnLayoutChange
             </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6eabf08f-006b-43b4-aea7-1d803b3d09b2">
-              ITfStatusSink::OnStatusChange
+<a href="https://msdn.microsoft.com/6eabf08f-006b-43b4-aea7-1d803b3d09b2">ITfStatusSink::OnStatusChange
             </a>
 </li>
 </ul>
@@ -258,20 +255,17 @@ A synchronous read/write request will fail if made when processing one of the fo
 
 
 
-<a href="https://msdn.microsoft.com/6eabf08f-006b-43b4-aea7-1d803b3d09b2">
-        ITfStatusSink::OnStatusChange
+<a href="https://msdn.microsoft.com/6eabf08f-006b-43b4-aea7-1d803b3d09b2">ITfStatusSink::OnStatusChange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">
-        ITfTextEditSink::OnEndEdit
+<a href="https://msdn.microsoft.com/7763a879-a558-463d-837b-e38e6f84b9f7">ITfTextEditSink::OnEndEdit
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a99313ab-98a7-4fc0-b3ae-78ff26a41d8e">
-        ITfTextLayoutSink::OnLayoutChange
+<a href="https://msdn.microsoft.com/a99313ab-98a7-4fc0-b3ae-78ff26a41d8e">ITfTextLayoutSink::OnLayoutChange
       </a>
  
 

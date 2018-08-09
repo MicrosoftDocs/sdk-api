@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_setcustomsink.htm
 old-project: medfound
 ms.assetid: 98D6F026-408F-4C22-B4A3-68C1B0EFD1E9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetCustomSink method, IMFCapturePreviewSink.SetCustomSink, IMFCapturePreviewSink::SetCustomSink, SetCustomSink, SetCustomSink method [Media Foundation], SetCustomSink method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setcustomsink, mfcaptureengine/IMFCapturePreviewSink::SetCustomSink
 ms.prod: windows
 ms.technology: windows-sdk

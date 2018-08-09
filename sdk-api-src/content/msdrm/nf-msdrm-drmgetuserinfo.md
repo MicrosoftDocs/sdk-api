@@ -7,7 +7,7 @@ old-location: rm\drmgetuserinfo.htm
 old-project: adrms_sdk
 ms.assetid: 98c0640d-8ee1-4072-989d-16a2e8ba09b3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMGetUserInfo, DRMGetUserInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUserInfo, rm.drmgetuserinfo
 ms.prod: windows
 ms.technology: windows-sdk

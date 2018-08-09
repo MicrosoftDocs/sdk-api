@@ -7,7 +7,7 @@ old-location: security\icertpropertydescription_initialize_method.htm
 old-project: seccertenroll
 ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

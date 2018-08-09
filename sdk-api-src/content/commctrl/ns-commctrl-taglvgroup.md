@@ -7,7 +7,7 @@ old-location: controls\LVGROUP.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: "*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROUP, LVGROUP structure [Windows Controls], PLVGROUP, PLVGROUP structure pointer [Windows Controls], commctrl/LVGROUP, commctrl/PLVGROUP, controls.LVGROUP, controls.inet_LVGROUP, inet_LVGROUP, inet_LVGROUP_cpp, tagLVGROUP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,9 +79,8 @@ Mask that specifies which members of the structure are valid input. One or more 
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="_______________LVGF_NONE"></a><a id="_______________lvgf_none"></a><dl>
-<dt><b>
-              LVGF_NONE</b></dt>
+<td width="40%"><a id="LVGF_NONE"></a><a id="lvgf_none"></a><dl>
+<dt><b>LVGF_NONE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,9 +89,8 @@ No other items are valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_______________LVGF_HEADER"></a><a id="_______________lvgf_header"></a><dl>
-<dt><b>
-              LVGF_HEADER</b></dt>
+<td width="40%"><a id="LVGF_HEADER"></a><a id="lvgf_header"></a><dl>
+<dt><b>LVGF_HEADER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,9 +99,8 @@ No other items are valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_______________LVGF_FOOTER"></a><a id="_______________lvgf_footer"></a><dl>
-<dt><b>
-              LVGF_FOOTER</b></dt>
+<td width="40%"><a id="LVGF_FOOTER"></a><a id="lvgf_footer"></a><dl>
+<dt><b>LVGF_FOOTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,9 +109,8 @@ No other items are valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_______________LVGF_STATE"></a><a id="_______________lvgf_state"></a><dl>
-<dt><b>
-              LVGF_STATE</b></dt>
+<td width="40%"><a id="LVGF_STATE"></a><a id="lvgf_state"></a><dl>
+<dt><b>LVGF_STATE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -295,7 +291,7 @@ ID of the group.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Mask used with <a href="https://msdn.microsoft.com/library/Bb774932(v=VS.85).aspx">LVM_GETGROUPINFO</a>  and <a href="https://msdn.microsoft.com/library/Bb761167(v=VS.85).aspx">LVM_SETGROUPINFO</a> to specify which flags in the <b>state</b> value are being retrieved or set.
+Mask used with <a href="https://msdn.microsoft.com/72d84e0b-121e-473b-a34d-874234c598b6">LVM_GETGROUPINFO</a>  and <a href="https://msdn.microsoft.com/f79bd235-e2de-4055-be3e-76eb2744e1ee">LVM_SETGROUPINFO</a> to specify which flags in the <b>state</b> value are being retrieved or set.
 
 
 ### -field state
@@ -486,8 +482,7 @@ Footer text is aligned at the right of the window.
 </dl>
 </td>
 <td width="60%">
-
-                 Header text is aligned at the left of the window.
+Header text is aligned at the left of the window.
 
 </td>
 </tr>
@@ -510,96 +505,84 @@ Footer text is aligned at the right of the window.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
-
-             Pointer to a null-terminated string that contains the subtitle text when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the subtitle text. This element is drawn under the header text.
+Pointer to a null-terminated string that contains the subtitle text when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the subtitle text. This element is drawn under the header text.
 
 
 ### -field cchSubtitle
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-             Size, in <b>TCHAR</b>s, of the buffer pointed to by the <b>pszSubtitle</b> member. If the structure is not receiving information about a group, this member is ignored.
+Size, in <b>TCHAR</b>s, of the buffer pointed to by the <b>pszSubtitle</b> member. If the structure is not receiving information about a group, this member is ignored.
 
 
 ### -field pszTask
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
-
-             Pointer to a null-terminated string that contains the text for a task link when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the task text. This item is drawn right-aligned opposite the header text. When clicked by the user, the task link generates an <a href="https://msdn.microsoft.com/library/Bb774851(v=VS.85).aspx">LVN_LINKCLICK</a> notification.
+Pointer to a null-terminated string that contains the text for a task link when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the task text. This item is drawn right-aligned opposite the header text. When clicked by the user, the task link generates an <a href="https://msdn.microsoft.com/de8f40d6-b79e-4324-af67-9a3c0915609d">LVN_LINKCLICK</a> notification.
 
 
 ### -field cchTask
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-             Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszTask</b> member. If the structure is not receiving information about a group, this member is ignored.
+Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszTask</b> member. If the structure is not receiving information about a group, this member is ignored.
 
 
 ### -field pszDescriptionTop
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
-
-             Pointer to a null-terminated string that contains the top description text when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the top description text. This item is drawn opposite the title image when there is a title image, no extended image, and <b>uAlign</b>==<b>LVGA_HEADER_CENTER</b>.
+Pointer to a null-terminated string that contains the top description text when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the top description text. This item is drawn opposite the title image when there is a title image, no extended image, and <b>uAlign</b>==<b>LVGA_HEADER_CENTER</b>.
 
 
 ### -field cchDescriptionTop
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-             Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszDescriptionTop</b> member. If the structure is not receiving information about a group, this member is ignored.
+Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszDescriptionTop</b> member. If the structure is not receiving information about a group, this member is ignored.
 
 
 ### -field pszDescriptionBottom
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
-
-             Pointer to a null-terminated string that contains the bottom description text when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the bottom description text. This item is drawn under the top description text when there is a title image, no extended image, and <b>uAlign</b>==<b>LVGA_HEADER_CENTER</b>.
+Pointer to a null-terminated string that contains the bottom description text when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the bottom description text. This item is drawn under the top description text when there is a title image, no extended image, and <b>uAlign</b>==<b>LVGA_HEADER_CENTER</b>.
 
 
 ### -field cchDescriptionBottom
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-             Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszDescriptionBottom</b> member. If the structure is not receiving information about a group, this member is ignored.
+Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszDescriptionBottom</b> member. If the structure is not receiving information about a group, this member is ignored.
 
 
 ### -field iTitleImage
 
 Type: <b>int</b>
 
-
-             Index of the title image in the control imagelist.
+Index of the title image in the control imagelist.
 
 
 ### -field iExtendedImage
 
 Type: <b>int</b>
 
-
-             Index of the extended image in the control imagelist.
+Index of the extended image in the control imagelist.
 
 
 ### -field iFirstItem
 
 Type: <b>int</b>
 
-
-             Read-only.
+Read-only.
 
 
 ### -field cItems
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-             Read-only in non-owner data mode.
+Read-only in non-owner data mode.
 
 
 ### -field pszSubsetTitle
@@ -613,8 +596,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-             Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszSubsetTitle</b> member. If the structure is not receiving information about a group, this member is ignored.
+Size in <b>TCHAR</b>s of the buffer pointed to by the <b>pszSubsetTitle</b> member. If the structure is not receiving information about a group, this member is ignored.
 
 
 ## -remarks

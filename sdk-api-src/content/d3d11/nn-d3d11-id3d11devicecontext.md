@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext.htm
 old-project: direct3d11
 ms.assetid: afb32c09-77f2-4c33-bd93-8dce92a2e45e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 12a95af1-0ccb-3aa6-2a85-b8822bf74961, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ID3D11DeviceContext interface [Direct3D 11],described, d3d11/ID3D11DeviceContext, direct3d11.id3d11devicecontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -695,7 +695,7 @@ Bind information about the primitive type, and data order that describes input d
 <a href="https://msdn.microsoft.com/e9a9a69c-7df7-4784-98f5-9ad63f6cd407">IASetVertexBuffers</a>
 </td>
 <td align="left" width="63%">
-Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>.
 
 </td>
 </tr>
@@ -767,7 +767,7 @@ Sets the depth-stencil state of the output-merger stage.
 <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">OMSetRenderTargets</a>
 </td>
 <td align="left" width="63%">
-Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
 
 </td>
 </tr>

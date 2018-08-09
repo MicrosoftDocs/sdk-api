@@ -7,7 +7,7 @@ old-location: display\displaymode.htm
 old-project: display
 ms.assetid: dc189bb6-e2c4-422c-8350-4c1632439478
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: DisplayMode, DisplayMode structure [Display Devices], TMM_Ref_37fe6fb5-e095-4bc7-8d92-a4d305bbadcb.xml, cloneviewhelper/DisplayMode, display.displaymode, tagDisplayMode
 ms.prod: windows
 ms.technology: windows-sdk

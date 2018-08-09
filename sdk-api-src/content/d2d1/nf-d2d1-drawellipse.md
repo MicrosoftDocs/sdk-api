@@ -4,10 +4,10 @@ title: DrawEllipse function
 author: windows-sdk-content
 description: Draws the outline of an ellipse with the specified dimensions and stroke.
 old-location: direct2d\id2d1rendertarget_drawellipse.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [Direct2D], ID2D1RenderTarget::DrawEllipse, d2d1/DrawEllipse, direct2d.id2d1rendertarget_drawellipse
 ms.prod: windows
 ms.technology: windows-sdk

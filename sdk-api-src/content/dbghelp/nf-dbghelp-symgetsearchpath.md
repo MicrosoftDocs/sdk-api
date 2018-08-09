@@ -7,7 +7,7 @@ old-location: base\symgetsearchpath.htm
 old-project: debug
 ms.assetid: aa8c8450-ee67-4614-98a1-5feebdd3a788
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 08/06/2018
 ms.keywords: SymGetSearchPath, SymGetSearchPath function, SymGetSearchPathW, _win32_symgetsearchpath, base.symgetsearchpath, dbghelp/SymGetSearchPath, dbghelp/SymGetSearchPathW
 ms.prod: windows
 ms.technology: windows-sdk

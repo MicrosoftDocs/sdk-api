@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getcreated.htm
 old-project: printdocs
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ The <b>created</b> property contains the date and time the package was created.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx">SYSTEMTIME</a>
+<a href="_win32_systemtime_str">SYSTEMTIME</a>
 
 
 

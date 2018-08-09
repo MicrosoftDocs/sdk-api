@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities_clear.htm
 old-project: seccertenroll
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/30/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
 ms.prod: windows
 ms.technology: windows-sdk

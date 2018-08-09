@@ -7,7 +7,7 @@ old-location: intl\mappingrecognizetext.htm
 old-project: Intl
 ms.assetid: 49f30bdd-4612-423b-9913-9c35ad8a88d5
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: MappingRecognizeText, MappingRecognizeText function [Internationalization for Windows Applications], elscore/MappingRecognizeText, intl.mappingrecognizetext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,14 +85,7 @@ Index inside the specified text to be used by the service. This value should be 
 Pointer to a <a href="https://msdn.microsoft.com/228625b3-928c-451f-9a3f-7eb3130ac622">MAPPING_OPTIONS</a> structure containing options that affect the result and behavior of text recognition. The application does not have to specify values for all structure members. This parameter can be set to <b>NULL</b> to use the default mapping options.
 
 
-### -param pbag
-
-TBD
-
-
-
-
-#### - pBag [in, out]
+### -param pbag [in, out]
 
 Pointer to a <a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a> structure in which the service stores its results. On input, the application passes a structure with only the size provided, and the other members set to 0. On output, the structure is filled with information produced by the service during text recognition. This parameter cannot be set to <b>NULL</b>.
 

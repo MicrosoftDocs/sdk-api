@@ -4,10 +4,10 @@ title: IVssComponentEx::SetPrepareForBackupFailureMsg
 author: windows-sdk-content
 description: Sets a PrepareForBackup failure message string for a component.
 old-location: base\ivsscomponentex_setprepareforbackupfailuremsg.htm
-old-project: VSS
+old-project: vss
 ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IVssComponentEx interface,SetPrepareForBackupFailureMsg method, IVssComponentEx.SetPrepareForBackupFailureMsg, IVssComponentEx::SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg method, SetPrepareForBackupFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setprepareforbackupfailuremsg, vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message string for a component.
+Sets a <a href="vssgloss_p.htm">PrepareForBackup</a> failure message string for a component.
 
 This method can only be called by a writer's <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a> method.
 
@@ -65,7 +65,7 @@ This method can only be called by a writer's <a href="https://msdn.microsoft.com
 ### -param wszFailureMsg [in]
 
 The address of a caller-allocated <b>NULL</b>-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> 
+      while processing a <a href="vssgloss_p.htm">PrepareForBackup</a> 
       event.
 
 

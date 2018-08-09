@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accchild.htm
 old-project: WinAuto
 ms.assetid: 64b0c24d-778a-4f13-8c70-6be3436a98cd
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChild method, IAccessible.get_accChild, IAccessible::get_accChild, _msaa_IAccessible_get_accChild, get_accChild, get_accChild method [Windows Accessibility], get_accChild method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchild, oleacc/IAccessible::get_accChild, winauto.iaccessible_iaccessible__get_accchild
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,8 +127,7 @@ An argument is not valid.
 
 Servers expose elements as either elements (child IDs) or full objects (<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointers). If a child is an element, <b>get_accChild</b> returns S_FALSE, and the parent will provide information for that child. If the child is a full object, <b>get_accChild</b> will return the <b>IAccessible</b> interface pointer and the parent will not provide information about that child. If <b>get_accChild</b> fails because the server application cannot create an accessible object due to a temporary system error (such as an out-of-memory error), the server should return a suitable failure code.
 
-<b>Note to server developers:  </b>
-              If <i>varChildID</i> contains VT_EMPTY, you should return E_INVALIDARG.
+<b>Note to server developers:  </b>If <i>varChildID</i> contains VT_EMPTY, you should return E_INVALIDARG.
             
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>

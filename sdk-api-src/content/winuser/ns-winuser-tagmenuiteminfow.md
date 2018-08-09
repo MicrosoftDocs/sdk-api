@@ -7,7 +7,7 @@ old-location: menurc\menuiteminfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuiteminfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: "*LPMENUITEMINFOW, HBMMENU_CALLBACK, HBMMENU_MBAR_CLOSE, HBMMENU_MBAR_CLOSE_D, HBMMENU_MBAR_MINIMIZE, HBMMENU_MBAR_MINIMIZE_D, HBMMENU_MBAR_RESTORE, HBMMENU_POPUP_CLOSE, HBMMENU_POPUP_MAXIMIZE, HBMMENU_POPUP_MINIMIZE, HBMMENU_POPUP_RESTORE, HBMMENU_SYSTEM, LPMENUITEMINFO, LPMENUITEMINFO structure pointer [Menus and Other Resources], MENUITEMINFO, MENUITEMINFO structure [Menus and Other Resources], MENUITEMINFOA, MENUITEMINFOW, MFS_CHECKED, MFS_DEFAULT, MFS_DISABLED, MFS_ENABLED, MFS_GRAYED, MFS_HILITE, MFS_UNCHECKED, MFS_UNHILITE, MFT_BITMAP, MFT_MENUBARBREAK, MFT_MENUBREAK, MFT_OWNERDRAW, MFT_RADIOCHECK, MFT_RIGHTJUSTIFY, MFT_RIGHTORDER, MFT_SEPARATOR, MFT_STRING, MIIM_BITMAP, MIIM_CHECKMARKS, MIIM_DATA, MIIM_FTYPE, MIIM_ID, MIIM_STATE, MIIM_STRING, MIIM_SUBMENU, MIIM_TYPE, _win32_MENUITEMINFO_str, _win32_menuiteminfo_str_cpp, menurc.menuiteminfo, tagMENUITEMINFOW, winui._win32_menuiteminfo_str, winuser/LPMENUITEMINFO, winuser/MENUITEMINFO, winuser/MENUITEMINFOA, winuser/MENUITEMINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -490,13 +490,13 @@ The contents of the menu item. The meaning of this member depends on the value o
 					<b>fMask</b> member.
 
 To retrieve a menu item of type <b>MFT_STRING</b>, first find the size of the string by setting the 
-						<b>dwTypeData</b> member of <b>MENUITEMINFO</b>  to <b>NULL</b> and then calling <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>. The value of 
+						<b>dwTypeData</b> member of <b>MENUITEMINFO</b>  to <b>NULL</b> and then calling <a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>. The value of 
 						<b>cch</b>+1 is the size needed. Then allocate a buffer of this size, place the pointer to the buffer in 
 						<b>dwTypeData</b>, increment <b>cch</b>, and call <b>GetMenuItemInfo</b> once again to fill the buffer with the string. If the retrieved menu item is of some other type, then <b>GetMenuItemInfo</b> sets the 
 						<b>dwTypeData</b> member to a value whose type is specified by the 
 						<b>fType</b> member.
 
-When using with the <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a> function, this member should contain a value whose type is specified by the 
+When using with the <a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a> function, this member should contain a value whose type is specified by the 
 						<b>fType</b> member.
 
 <b>dwTypeData</b> is used only if the <b>MIIM_STRING</b> flag is set in the 
@@ -509,9 +509,9 @@ Type: <b>UINT</b>
 
 The length of the menu item text, in 
 					characters, when information is received about a menu item of the <b>MFT_STRING</b> type. However, <b>cch</b> is used only if the <b>MIIM_TYPE</b> flag is set in the 
-					<b>fMask</b> member and is zero otherwise. Also, <b>cch</b> is ignored when the content of a menu item is set by calling <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>.
+					<b>fMask</b> member and is zero otherwise. Also, <b>cch</b> is ignored when the content of a menu item is set by calling <a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a>.
 
-Note that, before calling <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>, the application must set <b>cch</b> to the length of the buffer pointed to by the 
+Note that, before calling <a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>, the application must set <b>cch</b> to the length of the buffer pointed to by the 
 						<b>dwTypeData</b> member. If the retrieved menu item is of type <b>MFT_STRING</b> (as indicated by the 
 						<b>fType</b> member), then <b>GetMenuItemInfo</b> changes 
 						<b>cch</b> to the length of the menu item text. If the retrieved menu item is of some other type, <b>GetMenuItemInfo</b> sets the 
@@ -665,7 +665,7 @@ Windows icon or the icon of the window specified in
 
 
 
-The <b>MENUITEMINFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a> functions.
+The <b>MENUITEMINFO</b> structure is used with the <a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>, <a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>, and <a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a> functions.
 
 The menu can display items using text, bitmaps, or both.
 
@@ -681,15 +681,15 @@ The menu can display items using text, bitmaps, or both.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -697,7 +697,7 @@ The menu can display items using text, bitmaps, or both.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a>
 
 
 

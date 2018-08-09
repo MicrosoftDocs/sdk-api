@@ -7,7 +7,7 @@ old-location: iphlp\sendarp.htm
 old-project: iphlp
 ms.assetid: 5cbaf45a-a64e-49fd-a920-01759b5c4f81
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.keywords: SendARP, SendARP function [IP Helper], _iphlp_sendarp, iphlp.sendarp, iphlpapi/SendARP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-			The 
+The 
 <b>SendARP</b> function sends an Address Resolution Protocol (ARP) request to obtain the physical address that corresponds to the specified destination IPv4 address.
 
 
@@ -89,8 +88,7 @@ On successful output, this parameter points to a value that specifies the number
 
 
 
-
-						If the function succeeds, the return value is NO_ERROR.
+If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is one of the following error codes.
 
@@ -172,8 +170,7 @@ Element not found. This error is returned on Windows Vista if the  the <i>SrcIp
 </dl>
 </td>
 <td width="60%">
-
-								The <a href="https://msdn.microsoft.com/5cbaf45a-a64e-49fd-a920-01759b5c4f81">SendARP</a> function is not supported by the operating system running on the local computer.
+The <a href="https://msdn.microsoft.com/5cbaf45a-a64e-49fd-a920-01759b5c4f81">SendARP</a> function is not supported by the operating system running on the local computer.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: tsf\tf_lmlattelement.htm
 old-project: TSF
 ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ Specifies the actual confidence for this element. This can be one of the followi
 
 ### -field bstrText
 
-Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -see-also
@@ -116,7 +116,7 @@ Contains the display text for the element. If the spoken word is "two", the disp
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

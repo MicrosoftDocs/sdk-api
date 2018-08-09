@@ -7,7 +7,7 @@ old-location: windowsribbon\onuievent.htm
 old-project: windowsribbon
 ms.assetid: 1BE6F914-C57D-4A8F-A286-C47BFD48B310
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: IUIEventLogger interface [Windows Ribbon],OnUIEvent method, IUIEventLogger.OnUIEvent, IUIEventLogger::OnUIEvent, OnUIEvent, OnUIEvent method [Windows Ribbon], OnUIEvent method [Windows Ribbon],IUIEventLogger interface, uiribbon/IUIEventLogger::OnUIEvent, windowsribbon.onuievent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mapi\mapilogon.htm
 old-project: windowsmapi
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/07/2018
 ms.keywords: MAPILogon, MAPILogon callback, MAPILogon callback function, MAPI_FORCE_DOWNLOAD, MAPI_LOGON_UI, MAPI_NEW_SESSION, MAPI_PASSWORD_UI, mapi.mapilogon, mapi/MAPILogon
 ms.prod: windows
 ms.technology: windows-sdk

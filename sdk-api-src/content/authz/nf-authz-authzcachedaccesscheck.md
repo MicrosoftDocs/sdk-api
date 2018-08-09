@@ -7,7 +7,7 @@ old-location: security\authzcachedaccesscheck.htm
 old-project: secauthz
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 08/06/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ The <b>AuthzCachedAccessCheck</b> function performs a fast access check based on
 Reserved for future use.
 
 
-### -param hAccessCheckResults
+### -param hAccessCheckResults [in]
 
-TBD
+A handle to the cached access check results.
 
 
 ### -param pRequest [in]
@@ -74,25 +74,15 @@ TBD
 Access request handle specifying the desired <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a>, principal self <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>, and the object type list structure (if any).
 
 
-### -param hAuditEvent
+### -param hAuditEvent [in]
 
-TBD
+A structure that contains object-specific audit information. When the value of this parameter is not null, an audit is automatically requested. Static audit information is read from the resource manager structure.
 
 
 ### -param pReply [out]
 
 A pointer to an 
 <a href="https://msdn.microsoft.com/7162bf80-3730-46d7-a603-2a55b969c9ba">AUTHZ_ACCESS_REPLY</a> handle that returns the results of access check as an array of GrantedAccessMask/ErrorValue pairs. The number of pairs returned is supplied by the caller in the <b>ResultListLength</b> member of the <b>AUTHZ_ACCESS_REPLY</b> structure.
-
-
-#### - AuditInfo [in]
-
-A structure that contains object-specific audit information. When the value of this parameter is not null, an audit is automatically requested. Static audit information is read from the resource manager structure.
-
-
-#### - AuthzHandle [in]
-
-A handle to the cached access check results.
 
 
 ## -returns
@@ -199,7 +189,7 @@ For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiviewer_requestcontrol.htm
 old-project: rdp
 ms.assetid: be913f3c-9a5b-46bd-be9a-1ba0b0c20211
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestControl method, IRDPSRAPIViewer.RequestControl, IRDPSRAPIViewer::RequestControl, RequestControl, RequestControl method [RDP], RequestControl method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcontrol, rdpencomapi/IRDPSRAPIViewer::RequestControl
 ms.prod: windows
 ms.technology: windows-sdk

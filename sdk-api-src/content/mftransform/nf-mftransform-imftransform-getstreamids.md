@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamids.htm
 old-project: medfound
 ms.assetid: 0715c78e-de92-439d-a4f3-078e19f78a8e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-
-          Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
+Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
         
 
 
@@ -64,15 +63,13 @@ req.product: GDI+ 1.1
 
 ### -param dwInputIDArraySize [in]
 
-
-            Number of elements in the <i>pdwInputIDs</i> array.
+Number of elements in the <i>pdwInputIDs</i> array.
           
 
 
 ### -param pdwInputIDs [out]
 
-
-            Pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://msdn.microsoft.com/491f7f44-fcac-4236-ba5c-e5705267c6c2">IMFTransform::GetStreamCount</a>.
+Pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://msdn.microsoft.com/491f7f44-fcac-4236-ba5c-e5705267c6c2">IMFTransform::GetStreamCount</a>.
           
 
 If the caller passes an array that is larger than the number of input streams, the MFT must not write values into the extra array entries.
@@ -80,15 +77,13 @@ If the caller passes an array that is larger than the number of input streams, t
 
 ### -param dwOutputIDArraySize [in]
 
-
-            Number of elements in the <i>pdwOutputIDs</i> array.
+Number of elements in the <i>pdwOutputIDs</i> array.
           
 
 
 ### -param pdwOutputIDs [out]
 
-
-            Pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="https://msdn.microsoft.com/491f7f44-fcac-4236-ba5c-e5705267c6c2">GetStreamCount</a>.
+Pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="https://msdn.microsoft.com/491f7f44-fcac-4236-ba5c-e5705267c6c2">GetStreamCount</a>.
           
 
 If the caller passes an array that is larger than the number of output streams, the MFT must not write values into the extra array entries.
@@ -98,8 +93,7 @@ If the caller passes an array that is larger than the number of output streams, 
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -114,8 +108,7 @@ If the caller passes an array that is larger than the number of output streams, 
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -127,8 +120,7 @@ If the caller passes an array that is larger than the number of output streams, 
 </dl>
 </td>
 <td width="60%">
-
-                Not implemented. See Remarks.
+Not implemented. See Remarks.
               
 
 </td>
@@ -140,8 +132,7 @@ If the caller passes an array that is larger than the number of output streams, 
 </dl>
 </td>
 <td width="60%">
-
-                One or both of the arrays is too small.
+One or both of the arrays is too small.
               
 
 </td>
@@ -156,46 +147,37 @@ If the caller passes an array that is larger than the number of output streams, 
 
 
 
-
-        Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> methods that operate on streams take stream identifiers.
+Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> methods that operate on streams take stream identifiers.
       
 
 This method can return <b>E_NOTIMPL</b> if both of the following conditions are true:
 
 <ul>
-<li>
-            The transform has a fixed number of streams.
+<li>The transform has a fixed number of streams.
           </li>
-<li>
-            The streams are numbered consecutively from 0 to n – 1, where n is the number of input streams or output streams. In other words, the first input stream is 0, the second is 1, and so on; and the first output stream is 0, the second is 1, and so on.
+<li>The streams are numbered consecutively from 0 to n – 1, where n is the number of input streams or output streams. In other words, the first input stream is 0, the second is 1, and so on; and the first output stream is 0, the second is 1, and so on.
           </li>
 </ul>
 This method must be implemented if any of the following conditions is true:
 
 <ul>
-<li>
-            The MFT can add or remove output streams.
+<li>The MFT can add or remove output streams.
           </li>
-<li>
-            The MFT allows the client to add or remove input streams.
+<li>The MFT allows the client to add or remove input streams.
           </li>
-<li>
-            The stream identifiers are not consecutive.
+<li>The stream identifiers are not consecutive.
           </li>
 </ul>
-
-        All input stream identifiers must be unique within an MFT, and all output stream identifiers must be unique. However, an input stream and an output stream can share the same identifier.
+All input stream identifiers must be unique within an MFT, and all output stream identifiers must be unique. However, an input stream and an output stream can share the same identifier.
       
 
-
-        If the client adds an input stream, the client assigns the identifier, so the MFT must allow arbitrary identifiers, as long as they are unique. If the MFT creates an output stream, the MFT assigns the identifier.
+If the client adds an input stream, the client assigns the identifier, so the MFT must allow arbitrary identifiers, as long as they are unique. If the MFT creates an output stream, the MFT assigns the identifier.
       
 
-
-        By convention, if an MFT has exactly one fixed input stream and one fixed output stream, it should assign the identifier 0 to both streams.
+By convention, if an MFT has exactly one fixed input stream and one fixed output stream, it should assign the identifier 0 to both streams.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

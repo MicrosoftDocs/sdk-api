@@ -7,7 +7,7 @@ old-location: rdp\irdpsrapiapplicationfilter_enabled.htm
 old-project: rdp
 ms.assetid: 91d8fdea-3fe0-4623-ab83-ce3927321bbc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: Enabled property [RDP], Enabled property [RDP],IRDPSRAPIApplicationFilter interface, Enabled property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Enabled property, IRDPSRAPIApplicationFilter.Enabled, IRDPSRAPIApplicationFilter.get_Enabled, IRDPSRAPIApplicationFilter::Enabled, IRDPSRAPIApplicationFilter::get_Enabled, IRDPSRAPIApplicationFilter::put_Enabled, RDPSRAPIApplicationFilter object [RDP],Enabled property, get_Enabled, rdp.irdpsrapiapplicationfilter_enabled, rdpencomapi/IRDPSRAPIApplicationFilter::Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::get_Enabled, rdpencomapi/IRDPSRAPIApplicationFilter::put_Enabled
 ms.prod: windows
 ms.technology: windows-sdk

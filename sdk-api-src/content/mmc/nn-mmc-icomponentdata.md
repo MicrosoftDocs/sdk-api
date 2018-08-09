@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata.htm
 old-project: MMC
 ms.assetid: 60900b8d-59cc-4c1d-86b7-b902ba89216d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: IComponentData, IComponentData interface [MMC], IComponentData interface [MMC],described, _slate_icomponentdata, mmc.icomponentdata, mmc/IComponentData
 ms.prod: windows
 ms.technology: windows-sdk

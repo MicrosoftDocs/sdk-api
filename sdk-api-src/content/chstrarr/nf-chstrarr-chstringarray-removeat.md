@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_removeat.htm
 old-project: WmiSdk
 ms.assetid: b7555074-4f9a-46be-b321-f16e00663c32
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/03/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],RemoveAt method, CHStringArray.RemoveAt, CHStringArray::RemoveAt, RemoveAt, RemoveAt method [Windows Management Instrumentation], RemoveAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_removeat, chstrarr/CHStringArray::RemoveAt, wmi.chstringarray_removeat
 ms.prod: windows
 ms.technology: windows-sdk

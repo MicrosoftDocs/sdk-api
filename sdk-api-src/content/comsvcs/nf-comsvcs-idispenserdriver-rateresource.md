@@ -7,7 +7,7 @@ old-location: cos\idispenserdriver_rateresource.htm
 old-project: cossdk
 ms.assetid: 5fe3ca39-e4cb-4dae-be96-ce1a2099486a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IDispenserDriver interface [COM+],RateResource method, IDispenserDriver.RateResource, IDispenserDriver::RateResource, RateResource, RateResource method [COM+], RateResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_RateResource, comsvcs/IDispenserDriver::RateResource, cos.idispenserdriver_rateresource
 ms.prod: windows
 ms.technology: windows-sdk

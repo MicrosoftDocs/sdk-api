@@ -7,7 +7,7 @@ old-location: gdi\patblt.htm
 old-project: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,34 +68,27 @@ The <b>PatBlt</b> function paints the specified rectangle using the brush that i
 A handle to the device context.
 
 
-### -param x
+### -param x [in]
 
-TBD
-
-
-### -param y
-
-TBD
+The x-coordinate, in logical units, of the upper-left corner of the rectangle to be filled.
 
 
-### -param w
+### -param y [in]
 
-TBD
-
-
-### -param h
-
-TBD
+The y-coordinate, in logical units, of the upper-left corner of the rectangle to be filled.
 
 
-### -param rop
+### -param w [in]
 
-TBD
-
-
+The width, in logical units, of the rectangle.
 
 
-#### - dwRop [in]
+### -param h [in]
+
+The height, in logical units, of the rectangle.
+
+
+### -param rop [in]
 
 The raster operation code. This code can be one of the following values.
 
@@ -158,26 +151,6 @@ Fills the destination rectangle using the color associated with index 1 in the p
  
 
 
-#### - nHeight [in]
-
-The height, in logical units, of the rectangle.
-
-
-#### - nWidth [in]
-
-The width, in logical units, of the rectangle.
-
-
-#### - nXLeft [in]
-
-The x-coordinate, in logical units, of the upper-left corner of the rectangle to be filled.
-
-
-#### - nYLeft [in]
-
-The y-coordinate, in logical units, of the upper-left corner of the rectangle to be filled.
-
-
 ## -returns
 
 
@@ -200,7 +173,7 @@ Not all devices support the <b>PatBlt</b> function. For more information, see th
 
 #### Examples
 
-For an example, see "Example of Menu-Item Bitmaps" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Menu-Item Bitmaps" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

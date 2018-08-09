@@ -4,10 +4,10 @@ title: D2D1_DRAW_TEXT_OPTIONS
 author: windows-sdk-content
 description: Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_DRAW_TEXT_OPTIONS.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 30f5be4a-83c2-4039-8e09-00e842fc5eb2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: D2D1_DRAW_TEXT_OPTIONS, D2D1_DRAW_TEXT_OPTIONS enumeration [Direct2D], D2D1_DRAW_TEXT_OPTIONS_CLIP, D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING, D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT, D2D1_DRAW_TEXT_OPTIONS_NONE, D2D1_DRAW_TEXT_OPTIONS_NO_SNAP, d2d1/D2D1_DRAW_TEXT_OPTIONS, d2d1/D2D1_DRAW_TEXT_OPTIONS_CLIP, d2d1/D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING, d2d1/D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT, d2d1/D2D1_DRAW_TEXT_OPTIONS_NONE, d2d1/D2D1_DRAW_TEXT_OPTIONS_NO_SNAP, direct2d.D2D1_DRAW_TEXT_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk

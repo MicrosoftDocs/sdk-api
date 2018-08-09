@@ -4,10 +4,10 @@ title: IAssemblyCache::CreateAssemblyCacheItem
 author: windows-sdk-content
 description: The CreateAssemblyCacheItem method creates an item in the assembly cache that corresponds to the side-by-side assembly being installed.
 old-location: setup\iassemblycache_createassemblycacheitem.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: f88b688c-b349-43e4-aec0-90e064dc2b87
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/30/2018
 ms.keywords: CreateAssemblyCacheItem, CreateAssemblyCacheItem method [Side-by-side Assemblies], CreateAssemblyCacheItem method [Side-by-side Assemblies],IAssemblyCache interface, IAssemblyCache interface [Side-by-side Assemblies],CreateAssemblyCacheItem method, IAssemblyCache.CreateAssemblyCacheItem, IAssemblyCache::CreateAssemblyCacheItem, setup.iassemblycache_createassemblycacheitem, winsxs/IAssemblyCache::CreateAssemblyCacheItem
 ms.prod: windows
 ms.technology: windows-sdk

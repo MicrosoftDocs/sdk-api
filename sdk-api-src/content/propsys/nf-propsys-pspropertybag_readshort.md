@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadSHORT.htm
 old-project: properties
 ms.assetid: F6E71602-86D0-41be-854F-83C5D5B64BF8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadSHORT, PSPropertyBag_ReadSHORT function [Windows Properties], properties.PSPropertyBag_ReadSHORT, propsys/PSPropertyBag_ReadSHORT, shell.PSPropertyBag_ReadSHORT, shell_PSPropertyBag_ReadSHORT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845077(v=VS.85).aspx">PSPropertyBag_WriteSHORT</a>
+<a href="shell.PSPropertyBag_WriteSHORT">PSPropertyBag_WriteSHORT</a>
  
 
  

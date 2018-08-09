@@ -7,7 +7,7 @@ old-location: rm\drmdecrypt.htm
 old-project: adrms_sdk
 ms.assetid: 8e0cb353-4670-4cf7-bcd8-81ebd0adfe32
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMDecrypt, DRMDecrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecrypt, rm.drmdecrypt
 ms.prod: windows
 ms.technology: windows-sdk

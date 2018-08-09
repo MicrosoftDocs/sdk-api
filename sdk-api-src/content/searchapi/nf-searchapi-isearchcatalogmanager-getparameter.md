@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_GetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/30/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetParameter method, ISearchCatalogManager.GetParameter, ISearchCatalogManager::GetParameter, _search_ISearchCatalogManager_GetParameter, search._search_ISearchCatalogManager_GetParameter, searchapi/ISearchCatalogManager::GetParameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,17 +63,15 @@ Not implemented.
 
 Type: <b>LPCWSTR</b>
 
-
-                    The name of the parameter to be retrieved.
+The name of the parameter to be retrieved.
                 
 
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>**</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>**</b>
 
-
-                    Receives a pointer to the value of the parameter. 
+Receives a pointer to the value of the parameter. 
                 
 
 

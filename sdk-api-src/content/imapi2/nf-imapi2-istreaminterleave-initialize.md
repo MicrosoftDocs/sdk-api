@@ -7,7 +7,7 @@ old-location: imapi\istreaminterleave_initialize.htm
 old-project: imapi
 ms.assetid: 889db097-3a16-4c35-9a79-e4a9d8060832
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IStreamInterleave interface [IMAPI],Initialize method, IStreamInterleave.Initialize, IStreamInterleave::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamInterleave interface, imapi.istreaminterleave_initialize, imapi2/IStreamInterleave::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetIdealSize.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getidealsize.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DateTime_GetIdealSize, DateTime_GetIdealSize macro [Windows Controls], _shell_DateTime_GetIdealSize, _shell_DateTime_GetIdealSize_cpp, commctrl/DateTime_GetIdealSize, controls.DateTime_GetIdealSize, controls._shell_DateTime_GetIdealSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761757(v=VS.85).aspx">DTM_GETIDEALSIZE</a> message explicitly.
+Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/15ec26a1-645b-4a96-af66-1031e1a46c6c">DTM_GETIDEALSIZE</a> message explicitly.
 
 
 ## -parameters

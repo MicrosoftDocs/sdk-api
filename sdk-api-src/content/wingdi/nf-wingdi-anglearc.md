@@ -7,7 +7,7 @@ old-location: gdi\anglearc.htm
 old-project: gdi
 ms.assetid: 65c38da1-ab7d-4e80-83e3-ba1db66f8fd9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: AngleArc, AngleArc function [Windows GDI], _win32_AngleArc, gdi.anglearc, wingdi/AngleArc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,54 +66,27 @@ The <b>AngleArc</b> function draws a line segment and an arc. The line segment i
 Handle to a device context.
 
 
-### -param x
-
-TBD
-
-
-### -param y
-
-TBD
-
-
-### -param r
-
-TBD
-
-
-### -param StartAngle
-
-TBD
-
-
-### -param SweepAngle
-
-TBD
-
-
-
-
-#### - X [in]
+### -param x [in]
 
 Specifies the x-coordinate, in logical units, of the center of the circle.
 
 
-#### - Y [in]
+### -param y [in]
 
 Specifies the y-coordinate, in logical units, of the center of the circle.
 
 
-#### - dwRadius [in]
+### -param r [in]
 
 Specifies the radius, in logical units, of the circle. This value must be positive.
 
 
-#### - eStartAngle [in]
+### -param StartAngle [in]
 
 Specifies the start angle, in degrees, relative to the x-axis.
 
 
-#### - eSweepAngle [in]
+### -param SweepAngle [in]
 
 Specifies the sweep angle, in degrees, relative to the starting angle.
 

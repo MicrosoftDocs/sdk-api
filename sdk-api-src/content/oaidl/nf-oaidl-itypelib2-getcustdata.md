@@ -7,7 +7,7 @@ old-location: automat\itypelib2_getcustdata.htm
 old-project: automat
 ms.assetid: e2f29070-6768-4734-a3e2-c9258375b33c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetCustData, GetCustData method [Automation], GetCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetCustData method, ITypeLib2.GetCustData, ITypeLib2::GetCustData, _oa96_ITypeLib2_GetCustData, automat.itypelib2_getcustdata, oaidl/ITypeLib2::GetCustData
 ms.prod: windows
 ms.technology: windows-sdk

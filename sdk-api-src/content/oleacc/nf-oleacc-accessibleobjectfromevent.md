@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromevent.htm
 old-project: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,18 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Specifies the window handle of the window that generated the event. This value must be the window handle that is sent to the event hook function.
 
 
-### -param dwId
+### -param dwId [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Specifies the object ID of the object that generated the event. This value must be the object ID that is sent to the event hook function.
 
 
-### -param dwChildId
+### -param dwChildId [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Specifies whether the event was triggered by an object or one of its child elements. If the object triggered the event, <i>dwChildID</i> is CHILDID_SELF. If a child element triggered the event, <i>dwChildID</i> is the element's child ID. This value must be the child ID that is sent to the event hook function.
 
 
 ### -param ppacc [out]
@@ -88,20 +92,6 @@ Address of a pointer variable that receives the address of an <a href="https://m
 Type: <b>VARIANT*</b>
 
 Address of a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT structure</a> that specifies the child ID that can be used to access information about the UI element.
-
-
-#### - dwChildID [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Specifies whether the event was triggered by an object or one of its child elements. If the object triggered the event, <i>dwChildID</i> is CHILDID_SELF. If a child element triggered the event, <i>dwChildID</i> is the element's child ID. This value must be the child ID that is sent to the event hook function.
-
-
-#### - dwObjectID [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Specifies the object ID of the object that generated the event. This value must be the object ID that is sent to the event hook function.
 
 
 ## -returns
@@ -146,7 +136,7 @@ This function retrieves the lowest-level accessible object in the object hierarc
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
-This function fails if called in response to <a href="https://msdn.microsoft.com/library/Dd318922(v=VS.85).aspx">EVENT_OBJECT_CREATE</a> because the object is not fully initialized. Similarly, clients should not call this in response to <a href="https://msdn.microsoft.com/library/Dd318922(v=VS.85).aspx">EVENT_OBJECT_DESTROY</a> because the object is no longer available and cannot respond. Clients watch for <a href="https://msdn.microsoft.com/library/Dd318922(v=VS.85).aspx">EVENT_OBJECT_SHOW</a> and <a href="https://msdn.microsoft.com/library/Dd318922(v=VS.85).aspx">EVENT_OBJECT_HIDE</a> events rather than for <b>EVENT_OBJECT_CREATE</b> and <b>EVENT_OBJECT_DESTROY</b>.
+This function fails if called in response to <a href="event_constants.htm">EVENT_OBJECT_CREATE</a> because the object is not fully initialized. Similarly, clients should not call this in response to <a href="event_constants.htm">EVENT_OBJECT_DESTROY</a> because the object is no longer available and cannot respond. Clients watch for <a href="event_constants.htm">EVENT_OBJECT_SHOW</a> and <a href="event_constants.htm">EVENT_OBJECT_HIDE</a> events rather than for <b>EVENT_OBJECT_CREATE</b> and <b>EVENT_OBJECT_DESTROY</b>.
 
 
 #### Examples

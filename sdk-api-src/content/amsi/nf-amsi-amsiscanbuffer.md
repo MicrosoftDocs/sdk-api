@@ -7,7 +7,7 @@ old-location: amsi\amsiscanbuffer.htm
 old-project: AMSI
 ms.assetid: D1F2EBE7-FD6B-4CD4-BE4F-F536F08EE339
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 08/06/2018
 ms.keywords: AmsiScanBuffer, AmsiScanBuffer function [Antimalware Scan Interface], amsi.amsiscanbuffer, amsi/AmsiScanBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,9 @@ The length, in bytes, of the data to be read from <i>buffer</i>.
 The filename, URL, unique script ID, or similar of the content being scanned.
 
 
-### -param amsiSession
+### -param amsiSession [in, optional]
 
-TBD
+If multiple scan requests are to be correlated within a session, set <i>session</i> to the handle of type HAMSISESSION that was initially received from <a href="https://msdn.microsoft.com/588C9003-8689-4D1C-BDFB-386E60BAECD5">AmsiOpenSession</a>. Otherwise, set <i>session</i> to <b>nullptr</b>.
 
 
 ### -param result [out]
@@ -88,11 +88,6 @@ TBD
 The result of the scan. See <a href="https://msdn.microsoft.com/3D7C74E3-BB09-4C53-930D-72D352374151">AMSI_RESULT</a>.
 
 An app should use <a href="https://msdn.microsoft.com/1C7B48D9-FD1C-48B5-AA7F-0ED7382E106A">AmsiResultIsMalware</a> to determine whether the content should be blocked.
-
-
-#### - session [in, optional]
-
-If multiple scan requests are to be correlated within a session, set <i>session</i> to the handle of type HAMSISESSION that was initially received from <a href="https://msdn.microsoft.com/588C9003-8689-4D1C-BDFB-386E60BAECD5">AmsiOpenSession</a>. Otherwise, set <i>session</i> to <b>nullptr</b>.
 
 
 ## -returns

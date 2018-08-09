@@ -4,10 +4,10 @@ title: IIdleSettings
 author: windows-sdk-content
 description: Specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
 old-location: taskschd\iidlesettings.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: a6bd9278-b9ac-4eb3-957a-5191cee12a6f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], IIdleSettings interface [Task Scheduler],described, taskschd.iidlesettings, taskschd/IIdleSettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

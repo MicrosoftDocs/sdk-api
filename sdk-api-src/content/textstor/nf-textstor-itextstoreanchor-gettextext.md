@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_gettextext.htm
 old-project: TSF
 ms.assetid: b8e21544-e5d2-4048-93aa-82a87562a70a
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetTextExt method, ITextStoreAnchor.GetTextExt, ITextStoreAnchor::GetTextExt, textstor/ITextStoreAnchor::GetTextExt, tsf.itextstoreanchor_gettextext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,8 +190,7 @@ If the document window is minimized, or if the specified text is not currently v
 
 
 
-<a href="https://msdn.microsoft.com/a4ef9180-5568-4e5b-8c37-f750263060d2">
-        ITfContextView::GetTextExt
+<a href="https://msdn.microsoft.com/a4ef9180-5568-4e5b-8c37-f750263060d2">ITfContextView::GetTextExt
       </a>
  
 

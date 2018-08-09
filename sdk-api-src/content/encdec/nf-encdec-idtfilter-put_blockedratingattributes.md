@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_put_blockedratingattributes.htm
 old-project: mstv
 ms.assetid: ae81e427-305e-43b8-ad4d-e23f0bbbdc4a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IDTFilter.put_BlockedRatingAttributes, IDTFilter::put_BlockedRatingAttributes, IDTFilterput_BlockedRatingAttributes, encdec/IDTFilter::put_BlockedRatingAttributes, mstv.idtfilter_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,14 @@ The <b>put_BlockedRatingAttributes</b> method specifies whether to block content
 
 
 
-#### - EnRating [in]
-
-Specifies the rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration type.
-
-
 #### - EnSystem [in]
 
 Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration type.
+
+
+#### - EnRating [in]
+
+Specifies the rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration type.
 
 
 #### - lbfEnAttr [in]

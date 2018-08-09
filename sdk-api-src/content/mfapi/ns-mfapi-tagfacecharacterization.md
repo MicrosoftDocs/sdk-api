@@ -7,7 +7,7 @@ old-location: stream\facecharacterization.htm
 old-project: stream
 ms.assetid: 8A8F6E06-DA09-4595-BF42-8B905453CCCA
 ms.author: windowssdkdev
-ms.date: 06/22/2018
+ms.date: 07/30/2018
 ms.keywords: FaceCharacterization, FaceCharacterization structure [Streaming Media Devices], mfapi/FaceCharacterization, stream.facecharacterization, tagFaceCharacterization
 ms.prod: windows
 ms.technology: windows-sdk

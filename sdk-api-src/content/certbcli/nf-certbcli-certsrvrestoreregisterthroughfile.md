@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregisterthroughfile.htm
 old-project: seccrypto
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,7 @@ The highest log number that was restored in this restore session.
 
 
 
-
-						The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
+The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 
 

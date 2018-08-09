@@ -7,7 +7,7 @@ old-location: p2p\peergroupgeteventdata.htm
 old-project: p2psdk
 ms.assetid: bc742c09-190d-412e-ae1a-f1350b3748f5
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerGroupGetEventData, PeerGroupGetEventData function [Peer Networking], p2p.peergroupgeteventdata, p2p/PeerGroupGetEventData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerGroupGetEventData</b> function allows an application to retrieve the data returned by a grouping event.
+The <b>PeerGroupGetEventData</b> function allows an application to retrieve the data returned by a grouping event.
 
 
 ## -parameters
@@ -115,8 +114,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-
-        When an event occurs for which a peer has requested notification, the corresponding peer event handle is signaled. The peer  calls this method until <b>PEER_S_NO_EVENT_DATA</b> is returned, when all of the associated <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a> structures are retrieved. Each data structure contains the following two key pieces of data: 
+When an event occurs for which a peer has requested notification, the corresponding peer event handle is signaled. The peer  calls this method until <b>PEER_S_NO_EVENT_DATA</b> is returned, when all of the associated <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a> structures are retrieved. Each data structure contains the following two key pieces of data: 
 
 <ul>
 <li>The registration associated with a peer event.</li>
@@ -130,8 +128,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">
-		  PEER_GROUP_EVENT_DATA</a>
+<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>
 
 
 

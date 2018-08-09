@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionsv6.htm
 old-project: dhcp
 ms.assetid: 23abdca3-2241-4766-81c2-a4e8841b89fb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV6, DhcpEnumOptionsV6 function [DHCP], dhcp.dhcpenumoptionsv6, dhcpsapi/DhcpEnumOptionsV6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      The <b>DhcpEnumOptionsV6</b> function returns an enumerated list of DHCP options for a given class and/or vendor.
+The <b>DhcpEnumOptionsV6</b> function returns an enumerated list of DHCP options for a given class and/or vendor.
 
 
 ## -parameters

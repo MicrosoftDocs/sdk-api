@@ -7,7 +7,7 @@ old-location: winmsg\windowfromphysicalpoint.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\windowfromphysicalpoint.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WindowFromPhysicalPoint, WindowFromPhysicalPoint function [Windows and Messages], _win32_WindowFromPhysicalPoint, _win32_windowfromphysicalpoint_cpp, winmsg.windowfromphysicalpoint, winui._win32_windowfromphysicalpoint, winuser/WindowFromPhysicalPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ The <b>WindowFromPhysicalPoint</b> function does not retrieve a handle to a hidd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a>
 
 
 
@@ -122,7 +122,7 @@ The <b>WindowFromPhysicalPoint</b> function does not retrieve a handle to a hidd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633558(v=VS.85).aspx">WindowFromPoint</a>
+<a href="https://msdn.microsoft.com/e4830394-f994-4d29-b843-3a618e331d52">WindowFromPoint</a>
 
 
 

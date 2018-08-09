@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_message.htm
 old-project: direct3d11
 ms.assetid: b00a7e61-5394-40bd-bdc1-94da45dfa264
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: 63ec230f-4005-c7e9-9187-f8c6f44e0780, D3D11_MESSAGE, D3D11_MESSAGE structure [Direct3D 11], d3d11sdklayers/D3D11_MESSAGE, direct3d11.d3d11_message
 ms.prod: windows
 ms.technology: windows-sdk

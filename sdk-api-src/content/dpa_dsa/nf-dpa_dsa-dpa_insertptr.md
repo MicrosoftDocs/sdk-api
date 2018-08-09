@@ -7,7 +7,7 @@ old-location: controls\DPA_InsertPtr.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_insertptr.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DPA_InsertPtr, DPA_InsertPtr function [Windows Controls], _win32_DPA_InsertPtr, _win32_DPA_InsertPtr_cpp, controls.DPA_InsertPtr, controls._win32_DPA_InsertPtr, dpa_dsa/DPA_InsertPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,12 +62,16 @@ Inserts a new item at a specified position in a dynamic pointer array (DPA). If 
 
 ### -param hdpa
 
-TBD
+Type: <b>HDPA</b>
+
+A handle to a DPA.
 
 
 ### -param i
 
-TBD
+Type: <b>int</b>
+
+Tbe position where new item is to be inserted.
 
 
 ### -param p
@@ -75,20 +79,6 @@ TBD
 Type: <b>void*</b>
 
 A pointer to the item that is to be inserted.
-
-
-#### - index
-
-Type: <b>int</b>
-
-Tbe position where new item is to be inserted.
-
-
-#### - pdpa
-
-Type: <b>HDPA</b>
-
-A handle to a DPA.
 
 
 ## -returns

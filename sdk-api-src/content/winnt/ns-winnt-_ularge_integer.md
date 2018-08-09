@@ -7,7 +7,7 @@ old-location: winprog\ularge_integer_str.htm
 old-project: winprog
 ms.assetid: 83a10c12-2cd1-449a-af3f-b2138fc50ee0
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 08/06/2018
 ms.keywords: "*PULARGE_INTEGER, PULARGE_INTEGER, PULARGE_INTEGER union pointer [Windows API], ULARGE_INTEGER, ULARGE_INTEGER union [Windows API], _ULARGE_INTEGER, _win32_ularge_integer_str, winnt/PULARGE_INTEGER, winnt/ULARGE_INTEGER, winprog.ularge_integer_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Represents a 64-bit unsigned integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://msdn.microsoft.com/52fafae2-003c-4eae-b6e1-a49f69db204e">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://msdn.microsoft.com/">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,14 +64,14 @@ Represents a 64-bit unsigned integer value.
 An unsigned 64-bit integer.
 
 
-#### - HighPart
-
-The high-order 32 bits.
-
-
 #### - LowPart
 
 The low-order 32 bits.
+
+
+#### - HighPart
+
+The high-order 32 bits.
 
 
 #### - u

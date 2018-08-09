@@ -7,7 +7,7 @@ old-location: mf\mfp_pause_event.htm
 old-project: medfound
 ms.assetid: 8475dca1-2ecd-49dc-97b6-bb2823286c04
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ Pointer to the <a href="https://msdn.microsoft.com/2839d256-bdaf-40cf-9f9d-46f9e
 
 
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>
-parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/492b8c37-eae0-42ea-9a62-3c2e3ee0233f">MFP_GET_PAUSE_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="https://msdn.microsoft.com/2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="https://msdn.microsoft.com/492b8c37-eae0-42ea-9a62-3c2e3ee0233f">MFP_GET_PAUSE_EVENT</a> macro for this purpose.
 
 
 

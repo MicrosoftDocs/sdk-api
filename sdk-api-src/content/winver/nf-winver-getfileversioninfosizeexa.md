@@ -7,7 +7,7 @@ old-location: menurc\getfileversioninfosizeex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosizeex.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, GetFileVersionInfoSizeEx, GetFileVersionInfoSizeEx function [Menus and Other Resources], GetFileVersionInfoSizeExA, GetFileVersionInfoSizeExW, _win32_GetFileVersionInfoSizeEx, _win32_getfileversioninfosizeex_cpp, menurc.getfileversioninfosizeex, winui._win32_getfileversioninfosizeex, winver/GetFileVersionInfoSizeEx, winver/GetFileVersionInfoSizeExA, winver/GetFileVersionInfoSizeExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,11 @@ Loads the version resource strings from the corresponding MUI file, if available
  
 
 
-### -param lpwstrFilename
+### -param lpwstrFilename [in]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+The name of the file of interest. The function uses the search sequence specified by the  <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
 
 
 ### -param lpdwHandle [out]
@@ -115,13 +117,6 @@ TBD
 Type: <b>LPDWORD</b>
 
 When this function returns, contains a pointer to a variable that is set to zero because this function sets it to zero. This parameter exists for historical reasons.
-
-
-#### - lptstrFilename [in]
-
-Type: <b>LPCTSTR</b>
-
-The name of the file of interest. The function uses the search sequence specified by the  <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.
 
 
 ## -returns
@@ -143,7 +138,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="https://msdn.microsoft.com/en-us/library/Aa969434(v=VS.85).aspx">GetFileVersionInfoEx</a> function. The size returned by <b>GetFileVersionInfoSizeEx</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfoEx</b>.
+Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="https://msdn.microsoft.com/beeab559-e093-443c-bca2-a81b2e396beb">GetFileVersionInfoEx</a> function. The size returned by <b>GetFileVersionInfoSizeEx</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfoEx</b>.
 
 
 
@@ -157,11 +152,11 @@ Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969434(v=VS.85).aspx">GetFileVersionInfoEx</a>
+<a href="https://msdn.microsoft.com/beeab559-e093-443c-bca2-a81b2e396beb">GetFileVersionInfoEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647005(v=VS.85).aspx">GetFileVersionInfoSize</a>
+<a href="https://msdn.microsoft.com/e2903940-a775-4bbc-bf52-6660f18a4d72">GetFileVersionInfoSize</a>
 
 
 
@@ -169,15 +164,15 @@ Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647001(v=VS.85).aspx">VS_VERSIONINFO</a>
+<a href="https://msdn.microsoft.com/7864510f-1894-4f17-bf7b-fd5bc1ba4aae">VS_VERSIONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a>
+<a href="https://msdn.microsoft.com/4fc3e2f0-0d9b-4974-b091-98908691bb14">VerQueryValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
  
 
  

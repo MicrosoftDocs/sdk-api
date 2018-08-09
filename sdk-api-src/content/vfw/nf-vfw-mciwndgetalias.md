@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetalias.htm
 old-project: Multimedia
 ms.assetid: 24756da8-9d80-408b-81c5-34e6d3388838
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: MCIWndGetAlias, MCIWndGetAlias macro [Windows Multimedia], _win32_MCIWndGetAlias, multimedia.mciwndgetalias, vfw/MCIWndGetAlias
 ms.prod: windows
 ms.technology: windows-sdk

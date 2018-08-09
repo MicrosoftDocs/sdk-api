@@ -7,7 +7,7 @@ old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithmessag
 old-project: EDP
 ms.assetid: D78D0095-826A-4E6F-9420-873382A76B87
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 08/06/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessForAppWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync method, RequestAccessForAppWithMessageForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DnsReplaceRecordSetW function
 author: windows-sdk-content
 description: Replaces an existing resource record (RR) set.
 old-location: dns\dnsreplacerecordset.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 7b99f440-72fa-4cf4-9267-98f436e99a50
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplaceRecordSetA, DnsReplaceRecordSetUTF8, DnsReplaceRecordSetW, _dns_dnsreplacerecordset, dns.dnsreplacerecordset, windns/DnsReplaceRecordSet, windns/DnsReplaceRecordSetA, windns/DnsReplaceRecordSetUTF8, windns/DnsReplaceRecordSetW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,9 +73,10 @@ Be aware of the lack of an underscore between the function type name and its suf
 
 
 
-### -param pReplaceSet
+### -param pReplaceSet [in]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the RR set that replaces the existing set. The specified RR set is replaced with the contents of <i>pNewSet</i>. To delete a RR set, specify the set in <i>pNewSet</i>, but set <i>RDATA</i> to <b>NULL</b>.
 
 
 ### -param Options [in]
@@ -96,12 +97,6 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 ### -param pReserved [in, out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
-
-#### - pNewSet [in]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure that contains the RR set that replaces the existing set. The specified RR set is replaced with the contents of <i>pNewSet</i>. To delete a RR set, specify the set in <i>pNewSet</i>, but set <i>RDATA</i> to <b>NULL</b>.
 
 
 ## -returns

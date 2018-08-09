@@ -7,7 +7,7 @@ old-location: of\iofflinefileseventsfilter_getpathfilter.htm
 old-project: offlinefiles
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Retrieves a UNC path string and a scope indicator describing which path-based ev
 
 ### -param ppszFilter [out]
 
-Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> function.
+Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 
 ### -param pMatch [out]

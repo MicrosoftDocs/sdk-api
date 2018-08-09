@@ -7,7 +7,7 @@ old-location: coreaudio\isimpleaudiovolume_setmute.htm
 old-project: CoreAudio
 ms.assetid: 64fc7146-8d4b-429c-bf35-c43e31a41af8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMute method, ISimpleAudioVolume.SetMute, ISimpleAudioVolume::SetMute, ISimpleAudioVolumeSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMute, coreaudio.isimpleaudiovolume_setmute
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\ListView_SetColumnOrderArray.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnorderarray.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetColumnOrderArray, ListView_SetColumnOrderArray macro [Windows Controls], _win32_ListView_SetColumnOrderArray, _win32_ListView_SetColumnOrderArray_cpp, commctrl/ListView_SetColumnOrderArray, controls.ListView_SetColumnOrderArray, controls._win32_ListView_SetColumnOrderArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761161(v=VS.85).aspx">LVM_SETCOLUMNORDERARRAY</a> message explicitly. 
+Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/9b491832-42cc-4262-8f6c-23cbc2c889bf">LVM_SETCOLUMNORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Sets the left-to-right order of columns in a list-view control. You can use this
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a list-view control. 
 
 
 ### -param iCount
@@ -71,22 +73,6 @@ The number of columns in the list-view control.
 
 
 ### -param pi
-
-TBD
-
-
-
-
-
-
-#### - hwndLV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to a list-view control. 
-
-
-#### - lpiArray
 
 Type: <b>int*</b>
 

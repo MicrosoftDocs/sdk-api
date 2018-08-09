@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsensorgroupattributes.htm
 old-project: medfound
 ms.assetid: 4EFC4615-AD97-4F58-9BEE-63F965DF8DDE
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.keywords: GetSensorGroupAttributes, GetSensorGroupAttributes method [Media Foundation], GetSensorGroupAttributes method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorGroupAttributes method, IMFSensorGroup.GetSensorGroupAttributes, IMFSensorGroup::GetSensorGroupAttributes, mf.imfsensorgroup_getsensorgroupattributes, mfidl/IMFSensorGroup::GetSensorGroupAttributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -87,8 +86,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -100,8 +98,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The <i>ppAttributes</i> parameter is null.
+The <i>ppAttributes</i> parameter is null.
 
 </td>
 </tr>
@@ -112,8 +109,7 @@ The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IM
 </dl>
 </td>
 <td width="60%">
-
-                The sensor group has not been initialized.
+The sensor group has not been initialized.
 
 </td>
 </tr>

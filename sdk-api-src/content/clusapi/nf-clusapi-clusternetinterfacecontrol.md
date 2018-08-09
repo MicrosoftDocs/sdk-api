@@ -7,7 +7,7 @@ old-location: mscs\clusternetinterfacecontrol.htm
 old-project: mscs
 ms.assetid: cfb56e61-3652-47a3-860b-706e6dba03d7
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: ClusterNetInterfaceControl, ClusterNetInterfaceControl function [Failover Cluster], _wolf_clusternetinterfacecontrol, clusapi/ClusterNetInterfaceControl, mscs.clusternetinterfacecontrol
 ms.prod: windows
 ms.technology: windows-sdk

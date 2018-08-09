@@ -7,7 +7,7 @@ old-location: netmgmt\netusermodalsset.htm
 old-project: netmgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -209,11 +209,6 @@ Pointer to the buffer that specifies the data. The format of this data depends o
 <a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
 
 
-#### - parm_err [out]
-
-Pointer to a value that receives the index of the first member of the information structure that causes ERROR_INVALID_PARAMETER. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
-
-
 #### - servername [in]
 
 Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
@@ -221,6 +216,11 @@ Pointer to a constant string that specifies the DNS or NetBIOS name of the remot
 
 
 					
+
+
+#### - parm_err [out]
+
+Pointer to a value that receives the index of the first member of the information structure that causes ERROR_INVALID_PARAMETER. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
 
 
 ## -returns

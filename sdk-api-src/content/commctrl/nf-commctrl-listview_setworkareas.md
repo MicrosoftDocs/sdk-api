@@ -7,7 +7,7 @@ old-location: controls\ListView_SetWorkAreas.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761223(v=VS.85).aspx">LVM_SETWORKAREAS</a> message explicitly. 
+Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/87ac192d-f481-43ac-b8a5-c754cf33e487">LVM_SETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Sets the working areas within a list-view control. You can use this macro or sen
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to a list-view control. 
 
 
 ### -param nWorkAreas
@@ -73,22 +75,6 @@ The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569
 
 ### -param prc
 
-TBD
-
-
-
-
-
-
-#### - hwndLV
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-A handle to a list-view control. 
-
-
-#### - lprc
-
 Type: <b>LPRECT</b>
 
 A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures that contain the new working areas of the list-view control. Values in these structures are in client coordinates. If this parameter is <b>NULL</b>, the working area will be set to the client area of the control. <i>nWorkAreas</i> specifies the number of structures in this array. 
@@ -99,7 +85,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
  
 
  

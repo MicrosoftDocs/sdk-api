@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_get__newenum.htm
 old-project: nps
 ms.assetid: 23033dc3-824c-429c-836d-65782ca3df92
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/06/2018
 ms.keywords: ISdo interface [Network Policy Server],get__NewEnum method, ISdo.get__NewEnum, ISdo::get__NewEnum, _sdo_isdo_get__newenum, get__NewEnum, get__NewEnum method [Network Policy Server], get__NewEnum method [Network Policy Server],ISdo interface, nps.SDO_isdo_get__newenum, sdo.isdo_get__newenum, sdoias/ISdo::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 
 The 
 <b>get__NewEnum</b> method retrieves an 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface for the Server Data Objects (SDO) properties.
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface for the Server Data Objects (SDO) properties.
 
 
 ## -parameters
@@ -64,9 +64,9 @@ The
 ### -param ppEnumVARIANT [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
-its <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method to obtain an 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface.
+<a href="_com_iunknown">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
+its <a href="_com_iunknown_queryinterface">QueryInterface</a> method to obtain an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface.
 
 
 ## -returns
@@ -94,7 +94,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 

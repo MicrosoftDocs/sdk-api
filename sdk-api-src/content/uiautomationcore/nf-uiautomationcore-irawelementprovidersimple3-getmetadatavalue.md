@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple3_GetMetadataValue.htm
 old-project: WinAuto
 ms.assetid: 832154F3-22D3-48E9-BC4E-CB495BB72485
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: GetMetadataValue, GetMetadataValue method [Windows Accessibility], GetMetadataValue method [Windows Accessibility],IRawElementProviderSimple3 interface, IRawElementProviderSimple3 interface [Windows Accessibility],GetMetadataValue method, IRawElementProviderSimple3.GetMetadataValue, IRawElementProviderSimple3::GetMetadataValue, uiautomationcore/IRawElementProviderSimple3::GetMetadataValue, winauto.uiauto_IRawElementProviderSimple3_GetMetadataValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ComboBox_SetExtendedUI macro
 author: windows-sdk-content
 description: Selects either the default user interface (UI) or the extended UI for a combo box that has the CBS_DROPDOWN or CBS_DROPDOWNLIST style. You can use this macro or send the CB_SETEXTENDEDUI message explicitly.
 old-location: controls\ComboBox_SetExtendedUI.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setextendedui.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: ComboBox_SetExtendedUI, ComboBox_SetExtendedUI macro [Windows Controls], _win32_ComboBox_SetExtendedUI, _win32_ComboBox_SetExtendedUI_cpp, controls.ComboBox_SetExtendedUI, controls._win32_ComboBox_SetExtendedUI, windowsx/ComboBox_SetExtendedUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="Combo_Box_Styles.htm">CBS_DROPDOWN</a> or <a href="Combo_Box_Styles.htm">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775905(v=VS.85).aspx">CB_SETEXTENDEDUI</a> message explicitly.
+Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="Combo_Box_Styles.htm">CBS_DROPDOWN</a> or <a href="Combo_Box_Styles.htm">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/c489e484-777e-4afa-996b-1ec3eb6552ab">CB_SETEXTENDEDUI</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Zero to use the default UI, or nonzero to use the extended UI.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775905(v=VS.85).aspx">CB_SETEXTENDEDUI</a>.
+For more information, see <a href="https://msdn.microsoft.com/c489e484-777e-4afa-996b-1ec3eb6552ab">CB_SETEXTENDEDUI</a>.
 	
 
 

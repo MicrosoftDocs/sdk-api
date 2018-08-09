@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink_lockprofile.htm
 old-project: mstv
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,8 +147,7 @@ After the first successful call to this method, further calls with the same valu
 The name of the stub file can be given to the Stream Buffer Source filter through that filter's <a href="https://msdn.microsoft.com/a44b8153-19d5-43ad-936c-214c694eeeb6">IFileSourceFilter::Load</a> method.
 
 <h3><a id="Windows_Vista_or_later"></a><a id="windows_vista_or_later"></a><a id="WINDOWS_VISTA_OR_LATER"></a>Windows Vista or later</h3>
-
-           This method requires administrator privileges, unless you first call <a href="https://msdn.microsoft.com/e009e078-99f5-4da1-88ce-c07e9588c5e8">IStreamBufferConfigure3::SetNamespace</a> with the value <b>NULL</b>.
+This method requires administrator privileges, unless you first call <a href="https://msdn.microsoft.com/e009e078-99f5-4da1-88ce-c07e9588c5e8">IStreamBufferConfigure3::SetNamespace</a> with the value <b>NULL</b>.
 
 
 

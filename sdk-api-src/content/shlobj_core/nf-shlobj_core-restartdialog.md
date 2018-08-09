@@ -7,7 +7,7 @@ old-location: shell\RestartDialog.htm
 old-project: shell
 ms.assetid: ec1e3c11-9960-482c-8461-72c4d41dff3c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialog, RestartDialog function [Windows Shell], _win32_RestartDialog, shell.RestartDialog, shlobj_core/RestartDialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,11 @@ Displays a dialog box that prompts the user to restart Windows. When the user cl
 
 
 
-### -param hwnd
+### -param hwnd [in, optional]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the parent window.
 
 
 ### -param pszPrompt [in, optional]
@@ -76,13 +78,6 @@ A null-terminated Unicode string that contains the text that displays in the dia
 
 
 ### -param dwReturn
-
-TBD
-
-
-
-
-#### - dwFlags
 
 Type: <b>DWORD</b>
 
@@ -133,13 +128,6 @@ Forces processes to terminate. When this flag is set, the system does not send t
 #### EWX_FORCEIFHUNG
 
 Forces processes to terminate if they do not respond to the <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> or <a href="https://msdn.microsoft.com/9bf04f24-da1e-4680-a47b-28e9c500635e">WM_ENDSESSION</a> message. This flag is ignored if <b>EWX_FORCE</b> is used.
-
-
-#### - hParent [in, optional]
-
-Type: <b>HWND</b>
-
-A handle to the parent window.
 
 
 ## -returns

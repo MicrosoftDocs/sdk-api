@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_addref.htm
 old-project: rpc
 ms.assetid: AE4BC50C-0AF1-4612-B4BF-27319351CA1E
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 08/06/2018
 ms.keywords: CStdAsyncStubBuffer_AddRef, CStdAsyncStubBuffer_AddRef function [RPC], rpc.cstdasyncstubbuffer_addref, rpcproxy/CStdAsyncStubBuffer_AddRef
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdAsyncStubBuffer_AddRef is not supported and may be altered or unavailable in the future.]
 
-Implements the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::AddRef</a> method.
+Implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::AddRef</a> method.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Implements the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).asp
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ## -returns

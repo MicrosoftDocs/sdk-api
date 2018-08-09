@@ -7,7 +7,7 @@ old-location: tsf\SetInputScope.htm
 old-project: TSF
 ms.assetid: 4098525c-8d29-419a-9484-9e70420416bc
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: SetInputScope, SetInputScope function [Text Services Framework], inputscope/SetInputScope, tsf.SetInputScope
 ms.prod: windows
 ms.technology: windows-sdk

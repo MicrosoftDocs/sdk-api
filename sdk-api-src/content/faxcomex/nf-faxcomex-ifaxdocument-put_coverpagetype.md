@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_coverpagetype_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3v8l.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/03/2018
 ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPageType property, FaxDocument.CoverPageType, IFaxDocument.put_CoverPageType, IFaxDocument::put_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_coverpagetype_vb, put_CoverPageType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 By default, <b>CoverPageType</b> is set to 0, indicating that no file is used.
 
-Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en-us/library/ms687493(v=VS.85).aspx">CoverPage</a> property.
+Provide the name of the cover page in the <a href="https://msdn.microsoft.com/ae883970-dfd4-4811-b5a6-c666e1289707">CoverPage</a> property.
 
 
 
@@ -75,15 +75,15 @@ Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicescontext.htm
 old-project: mbn
 ms.assetid: 0B97FCCD-0A90-4FA2-9122-B00BD3F1A033
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/30/2018
 ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], IMbnDeviceServicesContext interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicescontext, mbnapi/IMbnDeviceServicesContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Gets the list of supported device services by the Mobile Broadband device.
 <a href="https://msdn.microsoft.com/293E9BE5-AD7D-41B7-9A27-E964EE745183">GetDeviceService</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="IMbnDeviceService">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm
 old-project: CoreAudio
 ms.assetid: a0e98ed8-36e2-4abc-aa83-008cc89e3a56
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 08/07/2018
 ms.keywords: GetVolumeRange, GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeRange method, IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,14 @@ The <b>GetVolumeRange</b> method gets the volume range, in decibels, of the audi
 
 
 
-#### - pfLevelMaxDB [out]
-
-Pointer to the maximum volume level. This parameter points to a <b>float</b> variable into which the method writes the maximum volume level in decibels. This value remains constant for the lifetime of the <b>IAudioEndpointVolume</b> interface instance.
-
-
 #### - pfLevelMinDB [out]
 
 Pointer to the minimum volume level. This parameter points to a <b>float</b> variable into which the method writes the minimum volume level in decibels. This value remains constant for the lifetime of the <a href="https://msdn.microsoft.com/5e3e7ffc-8822-4b1b-b9af-206ec1e767e2">IAudioEndpointVolume</a> interface instance.
+
+
+#### - pfLevelMaxDB [out]
+
+Pointer to the maximum volume level. This parameter points to a <b>float</b> variable into which the method writes the maximum volume level in decibels. This value remains constant for the lifetime of the <b>IAudioEndpointVolume</b> interface instance.
 
 
 #### - pfVolumeIncrementDB [out]
@@ -128,11 +128,9 @@ Parameter <i>pfLevelMinDB</i>, <i>pfLevelMaxDB</i>, or <i>pfVolumeIncrementDB</i
 
 The volume range from vmin = <i>*pfLevelMinDB</i> to vmax = <i>*pfLevelMaxDB</i> is divided into <i>n</i> uniform intervals of size vinc = <i>*pfVolumeIncrementDB</i>, where
 
+n = (vmax – vmin) / vinc.
 
-          n = (vmax – vmin) / vinc.
-
-
-        The values vmin, vmax, and vinc are measured in decibels. The client can set the volume level to one of n + 1 discrete values in the range from vmin to vmax.
+The values vmin, vmax, and vinc are measured in decibels. The client can set the volume level to one of n + 1 discrete values in the range from vmin to vmax.
       
 
 The <a href="https://msdn.microsoft.com/51f3b4dd-be9d-4b83-8605-a9962c6709a3">IAudioEndpointVolume::SetChannelVolumeLevel</a> and <a href="https://msdn.microsoft.com/776d7667-f48b-44c0-9441-177b86b52da9">IAudioEndpointVolume::SetMasterVolumeLevel</a> methods accept only volume levels in the range from vmin to vmax. If the caller specifies a volume level outside of this range, the method fails and returns E_INVALIDARG. If the caller specifies a volume level that falls between two steps in the volume range, the method sets the endpoint volume level to the step that lies closest to the requested volume level and returns S_OK. However, a subsequent call to <a href="https://msdn.microsoft.com/3c5b594f-60b5-4172-8e4e-440b51cb13f4">IAudioEndpointVolume::GetChannelVolumeLevel</a> or <a href="https://msdn.microsoft.com/26e208e1-2291-4db6-857d-00b25d8fa343">IAudioEndpointVolume::GetMasterVolumeLevel</a> retrieves the volume level requested by the previous call to <b>SetChannelVolumeLevel</b> or <b>SetMasterVolumeLevel</b>, not the step value.

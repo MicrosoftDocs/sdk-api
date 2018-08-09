@@ -4,10 +4,10 @@ title: TSPI_lineSetDefaultMediaDetection function
 author: windows-sdk-content
 description: The TSPI_lineSetDefaultMediaDetection procedure tells the service provider the new set of media types to detect for the indicated line (replacing any previous set).
 old-location: tspi\tspi_linesetdefaultmediadetection.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 407fa545-6890-4a8c-b5a8-bddeacc46e18
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 07/31/2018
 ms.keywords: TSPI_lineSetDefaultMediaDetection, TSPI_lineSetDefaultMediaDetection function [TAPI 2.2], _tspi_tspi_linesetdefaultmediadetection, tspi.tspi_linesetdefaultmediadetection, tspi/TSPI_lineSetDefaultMediaDetection
 ms.prod: windows
 ms.technology: windows-sdk

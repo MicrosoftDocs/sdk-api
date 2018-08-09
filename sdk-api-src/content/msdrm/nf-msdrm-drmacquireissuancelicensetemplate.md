@@ -7,7 +7,7 @@ old-location: rm\drmacquireissuancelicensetemplate.htm
 old-project: adrms_sdk
 ms.assetid: 15f6d38a-d4f2-4af4-8bbc-bc44ac14db0c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 08/06/2018
 ms.keywords: DRMAcquireIssuanceLicenseTemplate, DRMAcquireIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], DRM_AILT_CANCEL, DRM_AILT_NONSILENT, DRM_AILT_OBTAIN_ALL, msdrm/DRMAcquireIssuanceLicenseTemplate, rm.drmacquireissuancelicensetemplate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,39 +108,24 @@ Cancels the previous request.
 Reserved for future use. This parameter must be <b>NULL</b>.
 
 
-### -param cTemplates
+### -param cTemplates [in]
 
-TBD
-
-
-### -param pwszTemplateIds
-
-TBD
+Reserved for future use. This value must be zero.
 
 
-### -param wszUrl
+### -param pwszTemplateIds [in, optional]
 
-TBD
+Reserved for future use. This parameter must be <b>NULL</b>.
+
+
+### -param wszUrl [in]
+
+A null-terminated Unicode string that contains the template acquisition URL. You can retrieve this value by calling <a href="https://msdn.microsoft.com/f7cbc3ba-009f-4a35-999e-139d41961fd9">DRMGetServiceLocation</a> and setting the <i>uServiceType</i> parameter to <b>DRM_SERVICE_TYPE_CLIENTLICENSOR</b>.
 
 
 ### -param pvContext [in]
 
 A 32-bit, application-defined value that is returned in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://msdn.microsoft.com/41c200df-afbc-43a5-8046-d131fec3261a">Callback Prototype</a>.
-
-
-#### - cReserved [in]
-
-Reserved for future use. This value must be zero.
-
-
-#### - pwszReserved [in, optional]
-
-Reserved for future use. This parameter must be <b>NULL</b>.
-
-
-#### - wszURL [in]
-
-A null-terminated Unicode string that contains the template acquisition URL. You can retrieve this value by calling <a href="https://msdn.microsoft.com/f7cbc3ba-009f-4a35-999e-139d41961fd9">DRMGetServiceLocation</a> and setting the <i>uServiceType</i> parameter to <b>DRM_SERVICE_TYPE_CLIENTLICENSOR</b>.
 
 
 ## -returns

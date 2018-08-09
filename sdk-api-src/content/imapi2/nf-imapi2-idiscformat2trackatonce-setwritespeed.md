@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_setwritespeed.htm
 old-project: imapi
 ms.assetid: 29c4487a-4247-45cf-af95-dc85fafb05c5
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],SetWriteSpeed method, IDiscFormat2TrackAtOnce.SetWriteSpeed, IDiscFormat2TrackAtOnce::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_setwritespeed, imapi2/IDiscFormat2TrackAtOnce::SetWriteSpeed
 ms.prod: windows
 ms.technology: windows-sdk

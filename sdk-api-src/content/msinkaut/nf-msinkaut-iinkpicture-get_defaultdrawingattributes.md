@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_defaultdrawingattributes.htm
 old-project: tablet
 ms.assetid: 9a4dff66-9789-4979-947e-73bbf85cece2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DefaultDrawingAttributes property, IInkPicture.DefaultDrawingAttributes, IInkPicture.get_DefaultDrawingAttributes, IInkPicture::DefaultDrawingAttributes, IInkPicture::get_DefaultDrawingAttributes, IInkPicture::put_DefaultDrawingAttributes, InkPicture.get_DefaultDrawingAttributes, InkPicture.put_DefaultDrawingAttributes, get_DefaultDrawingAttributes, msinkaut/IInkPicture::DefaultDrawingAttributes, msinkaut/IInkPicture::get_DefaultDrawingAttributes, msinkaut/IInkPicture::put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkpicture_defaultdrawingattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ To change the drawing attributes of a single stroke, use the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

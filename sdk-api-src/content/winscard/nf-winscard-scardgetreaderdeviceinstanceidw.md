@@ -4,10 +4,10 @@ title: SCardGetReaderDeviceInstanceIdW function
 author: windows-sdk-content
 description: Gets the device instance identifier of the card reader for the given reader name. This function does not affect the state of the reader.
 old-location: security\scardgetreaderdeviceinstanceid.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 306F1EAF-35A7-4449-802F-709667764737
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: SCardGetReaderDeviceInstanceId, SCardGetReaderDeviceInstanceId function [Security], SCardGetReaderDeviceInstanceIdA, SCardGetReaderDeviceInstanceIdW, security.scardgetreaderdeviceinstanceid, winscard/SCardGetReaderDeviceInstanceId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,14 +74,7 @@ Reader name. You can get this value by calling the <a href="https://msdn.microso
 Buffer that receives the device instance ID of the reader. If this value is <b>NULL</b>, the function ignores the buffer length supplied in <i>cchDeviceInstanceId</i> parameter, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>cchDeviceInstanceId</i>, and returns a success code.
 
 
-### -param pcchDeviceInstanceId
-
-TBD
-
-
-
-
-#### - cchDeviceInstanceId [in, out]
+### -param pcchDeviceInstanceId [in, out]
 
 Length, in characters, of the <i>szDeviceInstanceId</i> buffer, including the <b>NULL</b> terminator. If the buffer length is specified as SCARD_AUTOALLOCATE, then the <i>szDeviceInstanceId</i> parameter is converted to a pointer to a byte pointer, and receives the address of a block of memory containing the instance id. This block of memory must be deallocated with the <a href="https://msdn.microsoft.com/d41d3891-671b-4129-8034-b251af983830">SCardFreeMemory</a> function.
 
@@ -116,7 +109,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

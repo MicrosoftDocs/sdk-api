@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerbeginsession.htm
 old-project: eaphost
 ms.assetid: 9dc339bc-ef01-4432-83cb-b4b14a36f18e
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 08/06/2018
 ms.keywords: EapHostPeerBeginSession, EapHostPeerBeginSession function [EAPHost], eaphost.eaphostpeerbeginsession, eappapis/EapHostPeerBeginSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,9 @@ Pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c
 Handle to the user impersonation token to use in this session.
 
 
-### -param dwSizeofConnectionData
+### -param dwSizeofConnectionData [in]
 
-TBD
+The size, in bytes, of the connection data buffer provided in <i>pConnectionData</i>.
 
 
 ### -param pConnectionData [in]
@@ -95,9 +95,9 @@ Describes the configuration used for authentication. <b>NULL</b> connection data
  
 
 
-### -param dwSizeofUserData
+### -param dwSizeofUserData [in]
 
-TBD
+The size, in bytes, of the user data buffer provided in <i>pUserData</i>.
 
 
 ### -param pUserData [in]
@@ -144,16 +144,6 @@ A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle f
 ### -param ppEapError [out]
 
 A pointer to the address of an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure. The address should be set to <b>NULL</b> before calling this function. If error data is available, a pointer to the address of an <b>EAP_ERROR</b> structure that contains any errors raised during the execution of this function call is received. After using the error data, free this memory by calling <a href="https://msdn.microsoft.com/36f9b5dd-821d-4cc5-a1dd-587098635d17">EapHostPeerFreeEapError</a>. 
-
-
-#### - dwSizeOfConnectionData [in]
-
-The size, in bytes, of the connection data buffer provided in <i>pConnectionData</i>.
-
-
-#### - dwSizeOfUserData [in]
-
-The size, in bytes, of the user data buffer provided in <i>pUserData</i>.
 
 
 ## -remarks

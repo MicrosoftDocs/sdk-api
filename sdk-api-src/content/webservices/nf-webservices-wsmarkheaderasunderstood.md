@@ -7,7 +7,7 @@ old-location: wsw\wsmarkheaderasunderstood.htm
 old-project: wsw
 ms.assetid: f119f85a-f6a7-4472-8177-a2e23b6d12f9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
 ms.prod: windows
 ms.technology: windows-sdk

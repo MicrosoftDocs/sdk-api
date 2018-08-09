@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource_findproxyforurl.htm
 old-project: wmformat
 ms.assetid: 5c05ed2b-98ff-417c-bc48-4e8a3dd95460
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: FindProxyForURL, FindProxyForURL method [windows Media Format], FindProxyForURL method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],FindProxyForURL method, IWMSInternalAdminNetSource.FindProxyForURL, IWMSInternalAdminNetSource::FindProxyForURL, IWMSInternalAdminNetSourceFindProxyForURL, wmformat.iwmsinternaladminnetsource_findproxyforurl, wmsinternaladminnetsource/IWMSInternalAdminNetSource::FindProxyForURL
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetToolTips.htm
 old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_settooltips.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: TabCtrl_SetToolTips, TabCtrl_SetToolTips macro [Windows Controls], _win32_TabCtrl_SetToolTips, _win32_TabCtrl_SetToolTips_cpp, commctrl/TabCtrl_SetToolTips, controls.TabCtrl_SetToolTips, controls._win32_TabCtrl_SetToolTips
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Assigns a tooltip control to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message explicitly. 
+Assigns a tooltip control to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/c1b173b1-9da6-441a-a2b6-3875e2c343f8">TCM_SETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -60,7 +60,9 @@ Assigns a tooltip control to a tab control. You can use this macro or send the <
 
 ### -param hwnd
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+Handle to the tab control. 
 
 
 ### -param hwndTT
@@ -70,18 +72,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to the tooltip control. 
 
 
-#### - hwndTab
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
-
-Handle to the tab control. 
-
-
 ## -remarks
 
 
 
-You can retrieve the tooltip control associated with a tab control by using the <a href="https://msdn.microsoft.com/library/Bb760598(v=VS.85).aspx">TCM_GETTOOLTIPS</a> message. 
+You can retrieve the tooltip control associated with a tab control by using the <a href="https://msdn.microsoft.com/d7dcca4f-8629-4eeb-844f-b3171438f528">TCM_GETTOOLTIPS</a> message. 
 
 
 

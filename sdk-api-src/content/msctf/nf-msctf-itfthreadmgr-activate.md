@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_activate.htm
 old-project: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 08/06/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Activate method, ITfThreadMgr.Activate, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,8 +136,7 @@ This method can be called more than once from a thread, but each call must be ma
 
 
 
-<a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">
-        TfClientId
+<a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId
       </a>
  
 

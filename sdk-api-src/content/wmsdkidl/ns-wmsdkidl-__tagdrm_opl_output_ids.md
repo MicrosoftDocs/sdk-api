@@ -7,7 +7,7 @@ old-location: wmformat\drm_opl_output_ids.htm
 old-project: wmformat
 ms.assetid: a1f0e1ad-0ba4-4c42-aff5-c5fb4133e0fa
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DRM_OPL_OUTPUT_IDS, DRM_OPL_OUTPUT_IDS structure [windows Media Format], __tagDRM_OPL_OUTPUT_IDS, structure [windows Media Format], wmformat.drm_opl_output_ids, wmsdkidl/DRM_OPL_OUTPUT_IDS
 ms.prod: windows
 ms.technology: windows-sdk

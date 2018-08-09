@@ -4,10 +4,10 @@ title: IActionCollection::Create
 author: windows-sdk-content
 description: Creates and adds a new action to the collection.
 old-location: taskschd\iactioncollection_create.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 815a000b-ba02-470d-80e6-06ba3c8ea014
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Create method, IActionCollection.Create, IActionCollection::Create, TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, actions [Task Scheduler],creating, taskschd.iactioncollection_create, taskschd/IActionCollection::Create
 ms.prod: windows
 ms.technology: windows-sdk

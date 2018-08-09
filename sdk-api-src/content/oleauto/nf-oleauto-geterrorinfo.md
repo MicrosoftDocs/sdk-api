@@ -7,7 +7,7 @@ old-location: automat\geterrorinfo.htm
 old-project: automat
 ms.assetid: 03317526-8c4f-4173-bc10-110c8112676a
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 08/06/2018
 ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInfo, automat.geterrorinfo, oleauto/GetErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes.htm
 old-project: stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 08/06/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-			The 
+The 
 <b>IFillLockBytes</b> interface enables downloading code to write data asynchronously to a structured storage byte array. When the downloading code has new data available, it calls 
 <a href="https://msdn.microsoft.com/3f25c48f-85a4-4778-b262-ad0c52cb1ac9">IFillLockBytes::FillAppend</a> or <a href="https://msdn.microsoft.com/d378d87b-e081-4950-b87b-9b1ad6dfb29d">IFillLockBytes::FillAt</a> to write the data to the byte array. An application attempting to access this data, through calls to the 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface, can do so even as the downloader continues to make calls to 
@@ -124,11 +123,11 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms694318(v=VS.85).aspx">IConnectionPoint</a>
+<a href="_com_iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683857(v=VS.85).aspx">IConnectionPointContainer</a>
+<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
@@ -136,7 +135,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680740(v=VS.85).aspx">IProgressNotify</a>
+<a href="_com_iprogressnotify">IProgressNotify</a>
 
 
 

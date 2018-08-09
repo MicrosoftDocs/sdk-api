@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activate
 old-project: CoreAudio
 ms.assetid: 6EB7A7B7-6B52-4EB0-81CB-0F9626761CA8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/07/2018
 ms.keywords: ActivateSpatialAudioObjectForMetadataCommands, ActivateSpatialAudioObjectForMetadataCommands method [Core Audio], ActivateSpatialAudioObjectForMetadataCommands method [Core Audio],ISpatialAudioObjectRenderStreamForMetadata interface, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],ActivateSpatialAudioObjectForMetadataCommands method, ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands, ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands, coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadatacommands, coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,6 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands

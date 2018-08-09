@@ -7,7 +7,7 @@ old-location: mmc\irequiredextensions_getnextextension.htm
 old-project: MMC
 ms.assetid: 09372a73-e67d-4f1f-805d-b64ca1501976
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetNextExtension, GetNextExtension method [MMC], GetNextExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetNextExtension method, IRequiredExtensions.GetNextExtension, IRequiredExtensions::GetNextExtension, _slate_irequiredextensions_getnextextension, mmc.irequiredextensions_getnextextension, mmc/IRequiredExtensions::GetNextExtension
 ms.prod: windows
 ms.technology: windows-sdk

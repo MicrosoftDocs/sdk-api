@@ -7,7 +7,7 @@ old-location: display\ddflipvideoport.htm
 old-project: display
 ms.assetid: c30c100c-8c91-44e2-b75b-92ce73d44047
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.keywords: "*LPDDFLIPVIDEOPORT, DDFLIPVIDEOPORT, DDFLIPVIDEOPORT structure [Display Devices], LPDDFLIPVIDEOPORT, LPDDFLIPVIDEOPORT structure pointer [Display Devices], _DDFLIPVIDEOPORT, ddkmapi/DDFLIPVIDEOPORT, ddkmapi/LPDDFLIPVIDEOPORT, ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml, display.ddflipvideoport"
 ms.prod: windows
 ms.technology: windows-sdk

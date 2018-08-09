@@ -4,10 +4,10 @@ title: Edit_SetRectNoPaint macro
 author: windows-sdk-content
 description: Sets the formatting rectangle of a multiline edit control. This macro is equivalent to Edit_SetRect, except that it does not redraw the edit control window. You can use this macro or send the EM_SETRECTNP message explicitly.
 old-location: controls\Edit_SetRectNoPaint.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setrectnopaint.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: Edit_SetRectNoPaint, Edit_SetRectNoPaint macro [Windows Controls], _win32_Edit_SetRectNoPaint, _win32_Edit_SetRectNoPaint_cpp, controls.Edit_SetRectNoPaint, controls._win32_Edit_SetRectNoPaint, windowsx/Edit_SetRectNoPaint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://msdn.microsoft.com/en-us/library/Bb849156(v=VS.85).aspx">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761659(v=VS.85).aspx">EM_SETRECTNP</a> message explicitly.
+Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://msdn.microsoft.com/8778dcc9-51d0-4ab8-8fc1-2eebcdf12c35">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://msdn.microsoft.com/1ab497ca-023f-4c26-b92d-b441a0d7b90c">EM_SETRECTNP</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 <b>Rich Edit 3.0 and later.</b> This macro does not have full functionality, because it does not set the WPARAM of the message.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761659(v=VS.85).aspx">EM_SETRECTNP</a>.
+For more information, see <a href="https://msdn.microsoft.com/1ab497ca-023f-4c26-b92d-b441a0d7b90c">EM_SETRECTNP</a>.
 
 
 

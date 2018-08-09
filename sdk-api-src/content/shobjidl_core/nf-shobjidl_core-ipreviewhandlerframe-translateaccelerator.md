@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandlerFrame_TranslateAccelerator.htm
 old-project: shell
 ms.assetid: 4f33a0b1-28ad-4e2d-9e2a-e58f44ab6f00
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 08/06/2018
 ms.keywords: IPreviewHandlerFrame interface [Windows Shell],TranslateAccelerator method, IPreviewHandlerFrame.TranslateAccelerator, IPreviewHandlerFrame::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandlerFrame interface, _shell_IPreviewHandlerFrame_TranslateAccelerator, shell.IPreviewHandlerFrame_TranslateAccelerator, shobjidl_core/IPreviewHandlerFrame::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Directs the host to handle an keyboard shortcut passed from the preview handler.
 
 ### -param pmsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> or <a href="https://msdn.microsoft.com/library/ms646360(v=VS.85).aspx">WM_SYSCOMMAND</a> window message that corresponds to a keyboard shortcut.
+A pointer to a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> or <a href="https://msdn.microsoft.com/82c7cc95-82d5-4f0f-8c78-ab325561b04e">WM_SYSCOMMAND</a> window message that corresponds to a keyboard shortcut.
 
 
 ## -returns

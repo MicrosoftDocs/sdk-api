@@ -7,7 +7,7 @@ old-location: mstv\imsvidvmr9_setallocator.htm
 old-project: mstv
 ms.assetid: f654adac-12b6-47c7-99d4-0612b1532df4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],SetAllocator method, IMSVidVMR9.SetAllocator, IMSVidVMR9::SetAllocator, IMSVidVMR9SetAllocator, SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_setallocator, segment/IMSVidVMR9::SetAllocator
 ms.prod: windows
 ms.technology: windows-sdk

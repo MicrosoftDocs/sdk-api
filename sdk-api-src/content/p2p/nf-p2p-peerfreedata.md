@@ -7,7 +7,7 @@ old-location: p2p\peerfreedata.htm
 old-project: p2psdk
 ms.assetid: 54288829-c991-42d6-a7c4-874ed28dd106
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 08/06/2018
 ms.keywords: PeerFreeData, PeerFreeData function [Peer Networking], p2p.peerfreedata, p2p/PeerFreeData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: ADAM
 ## -description
 
 
-
-      The <b>PeerFreeData</b> function deallocates a block of data and returns it to the memory pool. Use the <b>PeerFreeData</b> function to free  data that the Peer Identity Manager, Peer Grouping, and Peer Collaboration APIs return. 
+The <b>PeerFreeData</b> function deallocates a block of data and returns it to the memory pool. Use the <b>PeerFreeData</b> function to free  data that the Peer Identity Manager, Peer Grouping, and Peer Collaboration APIs return. 
 
 
 ## -parameters

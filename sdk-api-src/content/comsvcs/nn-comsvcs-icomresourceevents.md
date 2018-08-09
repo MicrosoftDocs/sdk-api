@@ -7,7 +7,7 @@ old-location: cos\icomresourceevents.htm
 old-project: cossdk
 ms.assetid: fdc664b6-0459-4cbd-8e9e-0c3fe82e4321
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/06/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
 ms.prod: windows
 ms.technology: windows-sdk

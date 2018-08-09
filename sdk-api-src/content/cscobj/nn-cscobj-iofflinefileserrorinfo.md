@@ -7,7 +7,7 @@ old-location: of\iofflinefileserrorinfo.htm
 old-project: offlinefiles
 ms.assetid: 6c78d475-aa63-49e4-863f-1a197801f2f9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.keywords: IOfflineFilesErrorInfo, IOfflineFilesErrorInfo interface [Offline Files], IOfflineFilesErrorInfo interface [Offline Files],described, cscobj/IOfflineFilesErrorInfo, of.iofflinefileserrorinfo
 ms.prod: windows
 ms.technology: windows-sdk

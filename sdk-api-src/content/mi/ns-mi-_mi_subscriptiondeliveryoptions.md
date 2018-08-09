@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions.htm
 old-project: wmi_v2
 ms.assetid: aaed635c-ee53-4307-a5b4-e9d3bd2e7c21
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 08/03/2018
 ms.keywords: MI_SubscriptionDeliveryOptions, MI_SubscriptionDeliveryOptions structure [Windows Management Infrastructure (MI)], _MI_SubscriptionDeliveryOptions, mi/MI_SubscriptionDeliveryOptions, wmi_v2.mi_subscriptiondeliveryoptions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetlongproperty.htm
 old-project: mscs
 ms.assetid: 8f245708-287c-48eb-aec0-330b175042cf
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 08/06/2018
 ms.keywords: PRESUTIL_GET_LONG_PROPERTY, PRESUTIL_GET_LONG_PROPERTY function [Failover Cluster], ResUtilGetLongProperty, ResUtilGetLongProperty function [Failover Cluster], mscs.resutilgetlongproperty, resapi/PRESUTIL_GET_LONG_PROPERTY, resapi/ResUtilGetLongProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,37 +58,37 @@ TBD. The <b>PRESUTIL_GET_LONG_PROPERTY</b> type defines a pointer to this functi
 
 
 
-### -param plOutValue [out]
+### -param plOutValue [out] [out]
 
 TBD
 
 
-### -param pValueStruct [in]
+### -param pValueStruct [in] [in]
 
 TBD
 
 
-### -param lOldValue [in]
+### -param lOldValue [in] [in]
 
 TBD
 
 
-### -param lMinimum [in]
+### -param lMinimum [in] [in]
 
 TBD
 
 
-### -param lMaximum [in]
+### -param lMaximum [in] [in]
 
 TBD
 
 
-### -param ppPropertyList [out]
+### -param ppPropertyList [out] [out]
 
 TBD
 
 
-### -param pcbPropertyListSize [out]
+### -param pcbPropertyListSize [out] [out]
 
 TBD
 

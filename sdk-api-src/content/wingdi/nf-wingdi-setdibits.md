@@ -7,7 +7,7 @@ old-location: gdi\setdibits.htm
 old-project: gdi
 ms.assetid: 706f4532-4073-4d5c-ae2d-e33aea9163e9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBits, SetDIBits function [Windows GDI], _win32_SetDIBits, gdi.setdibits, wingdi/SetDIBits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,24 +69,24 @@ The <b>SetDIBits</b> function sets the pixels in a compatible bitmap (DDB) using
 A handle to a device context.
 
 
-### -param hbm
+### -param hbm [in]
 
-TBD
-
-
-### -param start
-
-TBD
+A handle to the compatible bitmap (DDB) that is to be altered using the color data from the specified DIB.
 
 
-### -param cLines
+### -param start [in]
 
-TBD
+The starting scan line for the device-independent color data in the array pointed to by the <i>lpvBits</i> parameter.
 
 
-### -param lpBits
+### -param cLines [in]
 
-TBD
+The number of scan lines found in the array containing device-independent color data.
+
+
+### -param lpBits [in]
+
+A pointer to the DIB color data, stored as an array of bytes. The format of the bitmap values depends on the <b>biBitCount</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure pointed to by the <i>lpbmi</i> parameter.
 
 
 ### -param lpbmi [in]
@@ -94,19 +94,7 @@ TBD
 A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that contains information about the DIB.
 
 
-### -param ColorUse
-
-TBD
-
-
-
-
-#### - cScanLines [in]
-
-The number of scan lines found in the array containing device-independent color data.
-
-
-#### - fuColorUse [in]
+### -param ColorUse [in]
 
 Indicates whether the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or palette indexes. The <i>fuColorUse</i> parameter must be one of the following values.
 
@@ -137,21 +125,6 @@ The color table is provided and contains literal RGB values.
 </tr>
 </table>
  
-
-
-#### - hbmp [in]
-
-A handle to the compatible bitmap (DDB) that is to be altered using the color data from the specified DIB.
-
-
-#### - lpvBits [in]
-
-A pointer to the DIB color data, stored as an array of bytes. The format of the bitmap values depends on the <b>biBitCount</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure pointed to by the <i>lpbmi</i> parameter.
-
-
-#### - uStartScan [in]
-
-The starting scan line for the device-independent color data in the array pointed to by the <i>lpvBits</i> parameter.
 
 
 ## -returns

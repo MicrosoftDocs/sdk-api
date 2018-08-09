@@ -7,7 +7,7 @@ old-location: dshow\amextendedseekingcapabilities.htm
 old-project: DirectShow
 ms.assetid: f5f21303-3b5b-45e8-a4dc-6c8bc7cd8ad3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 08/02/2018
 ms.keywords: AMExtendedSeekingCapabilities, AMExtendedSeekingCapabilities enumeration [DirectShow], AMExtendedSeekingCapabilitiesEnumeration, AM_EXSEEK_BUFFERING, AM_EXSEEK_CANSCAN, AM_EXSEEK_CANSEEK, AM_EXSEEK_MARKERSEEK, AM_EXSEEK_NOSTANDARDREPAINT, AM_EXSEEK_SCANWITHOUTCLOCK, AM_EXSEEK_SENDS_VIDEOFRAMEREADY, dshow.amextendedseekingcapabilities, qnetwork/AMExtendedSeekingCapabilities, qnetwork/AM_EXSEEK_BUFFERING, qnetwork/AM_EXSEEK_CANSCAN, qnetwork/AM_EXSEEK_CANSEEK, qnetwork/AM_EXSEEK_MARKERSEEK, qnetwork/AM_EXSEEK_NOSTANDARDREPAINT, qnetwork/AM_EXSEEK_SCANWITHOUTCLOCK, qnetwork/AM_EXSEEK_SENDS_VIDEOFRAMEREADY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,50 +64,43 @@ The <b>AMExtendedSeekingCapabilities</b> enumeration contains flags that describ
 
 ### -field AM_EXSEEK_CANSEEK
 
-
-            Indicates that the stream is seekable.
+Indicates that the stream is seekable.
           
 
 
 ### -field AM_EXSEEK_CANSCAN
 
-
-            Indicates that the filter supports rates other than 1.0.
+Indicates that the filter supports rates other than 1.0.
           
 
 
 ### -field AM_EXSEEK_MARKERSEEK
 
-
-            Indicates that the stream contains markers.
+Indicates that the stream contains markers.
           
 
 
 ### -field AM_EXSEEK_SCANWITHOUTCLOCK
 
-
-            Indicates that the filter can play back at rates other than 1.0.
+Indicates that the filter can play back at rates other than 1.0.
           
 
 
 ### -field AM_EXSEEK_NOSTANDARDREPAINT
 
-
-            Indicates that the filter can seek to a new frame without displaying the new frame when it finds it.
+Indicates that the filter can seek to a new frame without displaying the new frame when it finds it.
           
 
 
 ### -field AM_EXSEEK_BUFFERING
 
-
-            Indicates that the filter can seek while the stream is buffering.
+Indicates that the filter can seek while the stream is buffering.
           
 
 
 ### -field AM_EXSEEK_SENDS_VIDEOFRAMEREADY
 
-
-            Indicates that the filter's video pin has been created.
+Indicates that the filter's video pin has been created.
           
 
 
