@@ -2,7 +2,7 @@
 UID: NA:nspapi
 ms.assetid: c8390b02-2d59-3c7f-b3ae-dca267113937
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

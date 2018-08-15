@@ -2,7 +2,7 @@
 UID: TP:swdevice
 ms.assetid: f47ebb6d-949d-39df-8a1a-b01027d265cc
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

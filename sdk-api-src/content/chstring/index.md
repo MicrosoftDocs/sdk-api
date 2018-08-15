@@ -2,7 +2,7 @@
 UID: NA:chstring
 ms.assetid: 48e319cb-a1b9-369c-aa89-cae7d0981c2a
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

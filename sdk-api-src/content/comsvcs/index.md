@@ -2,7 +2,7 @@
 UID: NA:comsvcs
 ms.assetid: 03923598-8e51-32d0-ab59-a6cc44135a18
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
