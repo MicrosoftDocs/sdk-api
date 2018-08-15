@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: networkisolation.h
 req.include-header: Netfw.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -111,18 +112,18 @@ Friendly name of the app container.
 
 
 
-#### - capabilities
-
-Type: <b><a href="https://msdn.microsoft.com/37386225-0c64-49c0-a21c-cecd8bdb1f1f">INET_FIREWALL_AC_CAPABILITIES</a></b>
-
-Information about the capabilities of the changed app container.
-
-
 #### - binaries
 
 Type: <b><a href="https://msdn.microsoft.com/5403303e-e65c-47cf-af84-3d748db8661b">INET_FIREWALL_AC_BINARIES</a></b>
 
 Binary paths to the applications running in the changed app container.
+
+
+#### - capabilities
+
+Type: <b><a href="https://msdn.microsoft.com/37386225-0c64-49c0-a21c-cecd8bdb1f1f">INET_FIREWALL_AC_CAPABILITIES</a></b>
+
+Information about the capabilities of the changed app container.
 
 
 ## -see-also

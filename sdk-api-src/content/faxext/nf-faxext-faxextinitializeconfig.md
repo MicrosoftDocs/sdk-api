@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: faxext.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,11 +74,11 @@ Type: <b>PFAX_EXT_GET_DATA</b>
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> fax service callback function.
 
 
-#### - pFaxExtSetData [in]
+#### - pFaxExtFreeBuffer [in]
 
-Type: <b>PFAX_EXT_SET_DATA</b>
+Type: <b>PFAX_EXT_FREE_BUFFER</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> fax service callback function.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a> fax service callback function.
 
 
 #### - pFaxExtRegisterForEvents [in]
@@ -87,18 +88,18 @@ Type: <b>PFAX_EXT_REGISTER_FOR_EVENTS</b>
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a> fax service callback function.
 
 
+#### - pFaxExtSetData [in]
+
+Type: <b>PFAX_EXT_SET_DATA</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> fax service callback function.
+
+
 #### - pFaxExtUnregisterForEvents [in]
 
 Type: <b>PFAX_EXT_UNREGISTER_FOR_EVENTS</b>
 
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684531(v=VS.85).aspx">FaxExtUnregisterForEvents</a> fax service callback function.
-
-
-#### - pFaxExtFreeBuffer [in]
-
-Type: <b>PFAX_EXT_FREE_BUFFER</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684529(v=VS.85).aspx">FaxExtFreeBuffer</a> fax service callback function.
 
 
 ## -returns

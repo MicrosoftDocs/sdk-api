@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,14 +80,19 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
-
-
 #### - dwSubEntry [in]
 
 Specifies the one-based index of the subentry. If the index matches an existing subentry index, the function changes the properties of that subentry. If the index does not match an existing index, the function creates a new subentry.
+
+
+#### - dwcbDeviceConfig [in]
+
+Specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass zero for this parameter.
+
+
+#### - dwcbRasSubEntry [in]
+
+Specifies the size, in bytes, of the <i>lpRasSubEntry</i> buffer.
 
 
 #### - lpRasSubEntry [in]
@@ -101,20 +107,15 @@ The structure might be followed by an array of <b>null</b>-terminated alternate 
 <a href="https://msdn.microsoft.com/48c1b100-e490-41a0-8324-6be2297bd814">RASSUBENTRY</a> structure contains the offset to the first string.
 
 
-#### - dwcbRasSubEntry [in]
-
-Specifies the size, in bytes, of the <i>lpRasSubEntry</i> buffer.
-
-
 #### - lpbDeviceConfig [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
 <a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
 
 
-#### - dwcbDeviceConfig [in]
+#### - lpszEntry [in]
 
-Specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass zero for this parameter.
+Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
 
 
 ## -returns

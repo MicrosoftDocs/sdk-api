@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -82,7 +83,7 @@ A pointer to an <a href="https://msdn.microsoft.com/681bdb9c-69dd-4bf6-a4b3-c490
 
 ### -param restrictedFonts [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/05fe9700-19e6-4e63-9693-cfa4b019f643">IXpsOMPartUriCollection</a> interface that contains the  fonts that must have restricted font relationships written for them. The font data are not written until <a href="https://msdn.microsoft.com/eb81efb8-f3cd-448d-ab60-34acf13db4cd">AddResource</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> is called.
+A pointer to an <a href="https://msdn.microsoft.com/05fe9700-19e6-4e63-9693-cfa4b019f643">IXpsOMPartUriCollection</a> interface that contains the  fonts that must have restricted font relationships written for them. The font data are not written until <a href="https://msdn.microsoft.com/eb81efb8-f3cd-448d-ab60-34acf13db4cd">AddResource</a> or <a href="https://msdn.microsoft.com/916fbdaa-bef7-4a6f-9259-47347b47dc27">Close</a> is called.
 
 If the document does not contain any  restricted fonts, this parameter can be set to <b>NULL</b>.
 

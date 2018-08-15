@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_HAlpha</b> method retrieves the hierarchy alpha.
 
 #### - pAlpha [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559667">HierarchyAlpha</a> enumeration.
+Receives a member of the <a href="https://msdn.microsoft.com/e2804158-ffe3-4a9b-af6f-b3e4a3d5c1ea">HierarchyAlpha</a> enumeration.
 
 
 ## -returns

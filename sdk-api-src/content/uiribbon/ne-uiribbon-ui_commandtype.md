@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -67,14 +68,14 @@ The type of command is not known.
 ### -field UI_COMMANDTYPE_GROUP
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">Group</a>
+<a href="https://msdn.microsoft.com/5d098d3f-a4ee-4f76-8c81-832d0c49cb80">Group</a>
 
 
 
 ### -field UI_COMMANDTYPE_ACTION
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545233">Button</a>
+<a href="https://msdn.microsoft.com/6d4aa571-dbea-4139-a6b7-45a85595dd04">Button</a>
 
 
 

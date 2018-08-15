@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -92,7 +93,7 @@ Returns an interface pointer to the volume object for the volume where the virtu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/0ecfbd1f-2f67-4d79-b081-7df071b070a4">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns disk property information for the volume where the virtual disk resides.
@@ -101,7 +102,7 @@ Returns disk property information for the volume where the virtual disk resides.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/e633f934-8f2d-4614-b34c-87bb74ebf385">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a handle to the specified virtual disk file and returns an <a href="https://msdn.microsoft.com/3d5f080f-3e83-437e-8cbc-9730988f5dcc">IVdsOpenVDisk</a> interface pointer to the object that represents the opened handle.

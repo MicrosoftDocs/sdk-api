@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Formats a specified, contiguous set of tracks on a floppy disk. To provide additional parameters, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff559448">IOCTL_DISK_FORMAT_TRACKS_EX</a>instead.
+Formats a specified, contiguous set of tracks on a floppy disk. To provide additional parameters, use <a href="https://msdn.microsoft.com/50ca069e-efc5-46d8-bf8f-ff44e1593a76">IOCTL_DISK_FORMAT_TRACKS_EX</a>instead.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
@@ -159,11 +160,11 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553878">FORMAT_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/81fcfd8e-abb9-4c0b-b23d-302aa3645a6f">FORMAT_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559448">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+<a href="https://msdn.microsoft.com/50ca069e-efc5-46d8-bf8f-ff44e1593a76">IOCTL_DISK_FORMAT_TRACKS_EX</a>
  
 
  

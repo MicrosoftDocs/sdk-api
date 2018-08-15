@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -63,7 +64,7 @@ Sets the font attributes to be used for text within the preview handler.
 
 Type: <b>const LOGFONTW*</b>
 
-A pointer to a <a href="_inet_LOGFONTW_Structure">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
+A pointer to a <a href="https://msdn.microsoft.com/library/Aa741231(v=VS.85).aspx">LOGFONTW Structure</a> containing the necessary attributes for the font to use.
 
 
 ## -returns

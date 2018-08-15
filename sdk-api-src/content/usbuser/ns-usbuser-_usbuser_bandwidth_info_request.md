@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the allocated bandwidth.
+The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the allocated bandwidth.
 
 
 ## -struct-fields
@@ -61,19 +62,19 @@ The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the <a href="ht
 
 ### -field Header
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
+A <a href="https://msdn.microsoft.com/f5f1e136-f603-4f9a-8ebb-8f6ad847e04d">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
 
 
 ### -field BandwidthInformation
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539195">USB_BANDWIDTH_INFO</a> structure that reports bandwidth allocation information.
+A <a href="https://msdn.microsoft.com/33983bed-9794-4deb-8d30-1089eee9eb9c">USB_BANDWIDTH_INFO</a> structure that reports bandwidth allocation information.
 
 
 ## -remarks
 
 
 
-The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET_BANDWIDTH_INFORMATION user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>.
+The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET_BANDWIDTH_INFORMATION user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>.
 
 
 
@@ -83,19 +84,19 @@ The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>
+<a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a>
+<a href="https://msdn.microsoft.com/f5f1e136-f603-4f9a-8ebb-8f6ad847e04d">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539195">USB_BANDWIDTH_INFO</a>
+<a href="https://msdn.microsoft.com/33983bed-9794-4deb-8d30-1089eee9eb9c">USB_BANDWIDTH_INFO</a>
  
 
  

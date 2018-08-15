@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -121,7 +122,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-<b>COLORREF</b> that represents the face color that the control will use when drawing highlighted items. An item is highlighted if it has the <a href="Toolbar_Button_States.htm">TBSTATE_MARKED</a> style and is contained in a toolbar that has the <a href="Toolbar_Control_and_Button_Styles.htm">TBSTYLE_FLAT</a> style. 
+<b>COLORREF</b> that represents the face color that the control will use when drawing highlighted items. An item is highlighted if it has the <a href="https://msdn.microsoft.com/en-us/library/Bb760437(v=VS.85).aspx">TBSTATE_MARKED</a> style and is contained in a toolbar that has the <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">TBSTYLE_FLAT</a> style. 
 
 
 ### -field clrHighlightHotTrack
@@ -133,10 +134,10 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 ### -field rcText
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that, on entry, contains the rectangle of the item's text. The 
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that, on entry, contains the rectangle of the item's text. The 
 					<b>right</b> and 
 					<b>bottom</b> members of this structure can be modified to change the width and height, respectively, of the text rectangle of the item. 
 
@@ -160,7 +161,7 @@ Background mode that the control will use when drawing the text of a highlighted
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> Specifies the distance between the toolbar button image and the text, in logical pixels, for toolbars that have <a href="Toolbar_Control_and_Button_Styles.htm">TBSTYLE_LIST</a> style set.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> Specifies the distance between the toolbar button image and the text, in logical pixels, for toolbars that have <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">TBSTYLE_LIST</a> style set.
 
 Note that Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
 

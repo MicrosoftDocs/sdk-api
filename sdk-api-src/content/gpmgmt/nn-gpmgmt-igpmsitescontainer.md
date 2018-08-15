@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -101,7 +102,7 @@ Retrieves a collection of SOMs for the specified search criteria.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915322">Domain</a>
+<a href="https://msdn.microsoft.com/cc1cb43b-2e18-45a7-9fda-b43e5a674b62">Domain</a>
 
 
 </td>

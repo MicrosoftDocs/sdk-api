@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,7 +86,7 @@ The <b>IVssEnumMgmtObject</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f957052a-5511-4f00-b864-1f03ead2ba58">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the specified list of enumerated elements by creating a copy of the 
@@ -93,7 +94,7 @@ Creates a copy of the specified list of enumerated elements by creating a copy o
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/0ddcf25d-dc3e-4522-a98e-98d867230d42">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the specified number of objects from the specified list of enumerated 
@@ -101,7 +102,7 @@ Returns the specified number of objects from the specified list of enumerated
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/57f984da-6c20-405b-883b-6e54e4ac9546">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator so that 
@@ -110,7 +111,7 @@ Resets the enumerator so that
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/ec53ac62-deb3-46f3-947a-1f6a4add4db2">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of objects.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>

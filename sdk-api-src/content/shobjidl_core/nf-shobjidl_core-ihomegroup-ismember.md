@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -124,7 +125,7 @@ hr = spHomeGroup-&gt;IsMember(&amp;fIsHGMember);</pre>
 
 
 
-<a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a>
+<a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a>
 
 
 

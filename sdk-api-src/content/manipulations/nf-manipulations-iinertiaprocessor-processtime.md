@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -91,7 +92,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a>
+<a href="https://msdn.microsoft.com/f63cafa0-0da6-46ba-91d3-956dc804dd79">Process</a>
  
 
  

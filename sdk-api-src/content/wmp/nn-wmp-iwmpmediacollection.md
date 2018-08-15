@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -75,7 +76,7 @@ The <b>IWMPMediaCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">add</a>
+<a href="https://msdn.microsoft.com/f9dfefbc-c240-41c0-abb9-4bc5012c147c">add</a>
 </td>
 <td align="left" width="63%">
 Adds a new media item to the library.
@@ -163,7 +164,7 @@ No longer supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">remove</a>
+<a href="https://msdn.microsoft.com/646d2e3c-623b-4040-af82-1cefac6fc1ae">remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified media item from the media collection.
@@ -191,7 +192,7 @@ Moves the specified media item to the deleted items folder.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
  
 
  

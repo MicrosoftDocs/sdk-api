@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IMDSPStorageGlobals</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/83204c04-503d-4687-8a4d-3c95a6def8d1">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the storage medium that an instance of this interface is associated with.
@@ -83,7 +84,7 @@ Retrieves the capabilities of the storage medium that an instance of this interf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/5c35b426-f7fd-46f7-b92d-12a0c22b50e9">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the device with which this interface is associated.
@@ -110,7 +111,7 @@ Retrieves a serial number uniquely identifying the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/572b5de6-62d7-450f-851f-d09b1864a86c">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status of the storage medium.
@@ -146,7 +147,7 @@ Retrieves the total size of the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/661060dc-5a38-4110-80f6-c67e3be8c96b">Initialize</a>
 </td>
 <td align="left" width="63%">
 Formats the storage medium.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -68,7 +69,7 @@ The size of this structure, in bytes.
 
 The format of a partition.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>.
+For more information, see <a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a>.
 
 
 ### -field DUMMYUNIONNAME
@@ -110,11 +111,11 @@ If <b>PartitionStyle</b> is <b>PARTITION_STYLE_GPT</b> (1), the union
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a>
+<a href="https://msdn.microsoft.com/2b8b2021-8650-452d-a975-54249620d72f">DISK_GEOMETRY_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a>
  
 
  

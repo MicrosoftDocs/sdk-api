@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -67,7 +68,7 @@ Pointer to the <a href="https://msdn.microsoft.com/EA798D15-9458-4F66-8D0E-13DA3
 
 ### -field Close
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> entry point.
+Pointer to the <a href="https://msdn.microsoft.com/c7c74440-c98a-4440-8bf4-10ebd1a68608">Close</a> entry point.
 
 
 ### -field Online
@@ -119,7 +120,7 @@ Pointer to the <a href="https://msdn.microsoft.com/dc4a6e6e-f968-4502-88d0-dc692
 
 ### -field Cancel
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> entry point.
+Pointer to the <a href="https://msdn.microsoft.com/F2A22C00-5B25-48F7-BB25-9C351A47B770">Cancel</a> entry point.
 
 
 ## -see-also

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -60,7 +61,7 @@ The <b>Add</b> method of the
     name already exists in the collection, its contents are replaced with the new definition.
 <div class="alert"><b>Note</b>  The value of the added property is <b>NULL</b> (unassigned) after this operation. To set 
     or change the value of a WMI property, you must set the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> property of the returned 
+    <a href="https://msdn.microsoft.com/426a60d5-c364-406e-8346-049a13d59c7f">Value</a> property of the returned 
     <a href="https://msdn.microsoft.com/2ddcfffa-a7b4-4fd6-926d-411de27f6212">SWbemProperty</a> object.</div><div> </div>For an explanation of this syntax, see 
     <a href="https://msdn.microsoft.com/889e6322-96f6-4a24-a084-e3b7bfa94a40">Document Conventions for the Scripting API</a>.
 

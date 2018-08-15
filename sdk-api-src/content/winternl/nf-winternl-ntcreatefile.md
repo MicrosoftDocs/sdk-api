@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -308,7 +309,7 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 ### -param ObjectAttributes [in]
 
 A pointer to a structure already initialized with 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>. 
+      <a href="Http://go.microsoft.com/fwlink/p/?linkid=85316">InitializeObjectAttributes</a>. 
       Members of this structure for a file object include the following.
 
 <table>

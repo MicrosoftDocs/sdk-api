@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -78,7 +79,7 @@ The <b>IDiscRecorder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/39af9413-6068-4165-8a26-509389a6d1f2">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a recorder after exclusive access.
@@ -123,7 +124,7 @@ Retrieves a name suitable for GUI display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/bceb7302-e5e6-4ee5-9adb-1736ab62e819">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves a path to the device.

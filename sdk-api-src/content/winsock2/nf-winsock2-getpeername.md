@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,7 +69,7 @@ A descriptor identifying a connected socket.
 ### -param name [out]
 
 The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure that receives the address of the peer.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure that receives the address of the peer.
 
 
 ### -param namelen [in, out]
@@ -167,7 +168,7 @@ The descriptor is not a socket.
 
 
 The 
-<b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
+<b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
 <b>getpeername</b> function can be used only on a connected socket. 
 
 For datagram sockets, only the address of a peer specified in a previous 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -66,7 +67,7 @@ Index of the connection. To find the number of connections, call the <a href="ht
 
 ### -param pConnectionInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a> structure allocated by the caller. The method fills in this structure with the connection information.
+Pointer to a <a href="https://msdn.microsoft.com/8fca47b7-4c52-46db-809c-77a0e3414276">KSTOPOLOGY_CONNECTION</a> structure allocated by the caller. The method fills in this structure with the connection information.
 
 
 ## -returns

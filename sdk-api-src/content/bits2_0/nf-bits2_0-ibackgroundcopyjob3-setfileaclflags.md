@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -73,7 +74,7 @@ Flags that identify the owner and ACL information to maintain when transferring 
 </dl>
 </td>
 <td width="60%">
-If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a> method owns the file.
+If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> method owns the file.
 
 You must have SeRestorePrivilege to set this flag. The administrators group contains the SeRestorePrivilege privilege.
 
@@ -187,7 +188,7 @@ These flags apply to remote file names that specify the SMB protocol. BITS ignor
 
 BITS propagates the file time stamps and  attributes (not extended attributes) for SMB files. 
 
-BITS applies the owner and ACL information to the file at the time the file transfer is complete, not when it <a href="base.createfile">creates</a> the temporary transfer file. BITS does not specify a security descriptor when it creates the temporary transfer file (the file inherits the ACL information from the destination directory). If the transferred data is sensitive, the application should specify an appropriate ACL on the destination directory to prevent unauthorized access.
+BITS applies the owner and ACL information to the file at the time the file transfer is complete, not when it <a href="https://msdn.microsoft.com/library/Aa363858(v=VS.85).aspx">creates</a> the temporary transfer file. BITS does not specify a security descriptor when it creates the temporary transfer file (the file inherits the ACL information from the destination directory). If the transferred data is sensitive, the application should specify an appropriate ACL on the destination directory to prevent unauthorized access.
 
 To ensure the proper owner and ACL information is set on all files in the job, call this method after you create the job and before calling the <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> method. Otherwise, those files that transferred before the flags were set will not contain the appropriate owner and ACL information. 
 

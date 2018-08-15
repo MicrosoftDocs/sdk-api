@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -127,7 +128,7 @@ During a connection sequence, the following methods are called by the Remote Des
 <a href="https://msdn.microsoft.com/2399677b-0859-4e43-9dbc-0b08fa0647b0">DisconnectNotify</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/8d159e3f-b429-4522-b608-0068b1f7fa4e">Close</a>
 </li>
 </ol>The Remote Desktop Services service can call the following methods at any time after a connection has been established:
 <ul>
@@ -186,7 +187,7 @@ Specifies a session that the connection should be reconnected to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/8d159e3f-b429-4522-b608-0068b1f7fa4e">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a connection after the session is disconnected.

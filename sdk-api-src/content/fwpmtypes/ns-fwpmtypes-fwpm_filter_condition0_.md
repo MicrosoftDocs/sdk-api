@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,12 +67,12 @@ GUID of the field to be tested.
 
 ### -field matchType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552437">FWP_MATCH_TYPE</a> value that specifies the type of match to be performed.
+A <a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a> value that specifies the type of match to be performed.
 
 
 ### -field conditionValue
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a> structure that contains the value to match the field against.
+A <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a> structure that contains the value to match the field against.
 
 
 ## -remarks
@@ -83,7 +84,7 @@ Field GUIDs are
    field.
 
 The data type of 
-<b>conditionValue</b> must be compatible with the <b>matchType</b> value. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552437">FWP_MATCH_TYPE</a> for detailed  compatibility rules.
+<b>conditionValue</b> must be compatible with the <b>matchType</b> value. See <a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a> for detailed  compatibility rules.
 
 <b>FWPM_FILTER_CONDITION0</b> is a specific implementation of FWPM_FILTER_CONDITION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
@@ -164,11 +165,11 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a>
+<a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552437">FWP_MATCH_TYPE</a>
+<a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a>
 
 
 

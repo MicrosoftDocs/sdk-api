@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,16 +66,6 @@ Associates data with the surface that is intended for use by the application, no
 
 
 
-#### - guidTag [in]
-
-Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be set.
-
-
-#### - lpData [in]
-
-A pointer to a buffer that contains the data to be associated with the surface.
-
-
 #### - cbSize [in]
 
 The size value of the buffer at <i>lpData</i>, in bytes.
@@ -101,6 +92,16 @@ The data at <i>lpData</i> is a pointer to an <a href="https://msdn.microsoft.com
 #### DDSPD_VOLATILE
 
 The buffer at <i>lpData</i> is only valid while the surface remains unchanged. If the surface's contents change, subsequent calls to the <a href="https://msdn.microsoft.com/f8c0c882-329f-4cce-8cd0-ff71c18b1716">IDirectDrawSurface7::GetPrivateData</a> method return DDERR_EXPIRED.
+
+
+#### - guidTag [in]
+
+Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be set.
+
+
+#### - lpData [in]
+
+A pointer to a buffer that contains the data to be associated with the surface.
 
 
 ## -returns

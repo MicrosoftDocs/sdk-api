@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,12 +67,12 @@ A pointer to the client structure that should be copied.
 
 ### -param pps [in, out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> that will be seriallized into the ItemID.
+A pointer to an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> that will be seriallized into the ItemID.
 
 
 ### -param ppidl [out]
 
-When this method returns, contains a pointer to the ItemID containing the client data and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> data.
+When this method returns, contains a pointer to the ItemID containing the client data and <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> data.
 
 
 ## -returns
@@ -101,7 +102,7 @@ The size of the user supplied data must equal sizeof(T). Do not use structs with
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>
 
 
 

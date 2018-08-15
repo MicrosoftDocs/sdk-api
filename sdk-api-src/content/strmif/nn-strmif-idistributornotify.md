@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -90,7 +91,7 @@ Called when the set of filters in the filter graph change or their connections c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/d8fcb5c0-4530-4084-adba-170a647588b1">Pause</a>
 </td>
 <td align="left" width="63%">
 Called when the filter graph is entering a paused state.
@@ -99,7 +100,7 @@ Called when the filter graph is entering a paused state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/d6a6595b-b243-41bf-bba9-6e35fa81116c">Run</a>
 </td>
 <td align="left" width="63%">
 Called when the filter graph is entering a running state.
@@ -117,7 +118,7 @@ Called when a new clock is registered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/21312954-bc48-402b-a03c-954c01b53231">Stop</a>
 </td>
 <td align="left" width="63%">
 Called when the filter graph is entering a stopped state.

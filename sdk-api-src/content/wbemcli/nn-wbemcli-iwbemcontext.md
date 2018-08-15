@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -92,7 +93,7 @@ Begins an enumeration of all context values in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/a832f4b0-a450-4f74-a6ec-d205f57c1656">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a complete copy of the current 
@@ -126,7 +127,7 @@ Removes the specified context value.
 <td align="left" width="63%">
 Ends an enumeration begun with 
 <a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">BeginEnumeration</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>.
+<a href="https://msdn.microsoft.com/e316564c-a739-472b-b7a8-8acbf71e1c58">Next</a>.
 
 </td>
 </tr>
@@ -141,7 +142,7 @@ Retrieves the names of all of the context values available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/e11fff37-aeb7-41c5-8639-ca0a7a144263">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified context value by name.
@@ -150,7 +151,7 @@ Retrieves the specified context value by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/e316564c-a739-472b-b7a8-8acbf71e1c58">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next value in an enumeration of all context values beginning with 
@@ -160,7 +161,7 @@ Retrieves the next value in an enumeration of all context values beginning with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/074d5ac7-aa86-44d8-99f9-959ef99a8004">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a specific named context value.
@@ -206,7 +207,7 @@ The information contained in an
 <b>IWbemContext</b> object is entirely determined by the underlying provider. WMI does not use the information, but forwards it to the provider. Providers must publish the context information they require for these service requests.
 
 The client application calls <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> to create a single context object. Then, it calls 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> one or more times to set up context values for the provider. Finally, it submits the object to one of the 
+<a href="https://msdn.microsoft.com/074d5ac7-aa86-44d8-99f9-959ef99a8004">SetValue</a> one or more times to set up context values for the provider. Finally, it submits the object to one of the 
 <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods, which immediately calls <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the context object after the call has returned. The other methods are for use primarily by providers that receive the context object and have to extract information.
 
 

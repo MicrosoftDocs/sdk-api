@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,16 +78,16 @@ A pointer to an allocated buffer that receives a string that specifies the serve
 <a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
 
 
-#### - servername [in]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
-
-
 #### - domainname [in]
 
 A pointer to a constant string that specifies the name of the domain. The domain name must be a NetBIOS domain name (for example, microsoft). 
 <b>NetGetDCName</b> does not support DNS-style names (for example, microsoft.com). If this parameter is <b>NULL</b>, the function returns the name of the domain controller for the primary domain.
+
+
+#### - servername [in]
+
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+					
 
 
 ## -returns

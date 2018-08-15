@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -63,7 +64,7 @@ Handles a WinEvent.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-The identifier of the incoming <a href="https://msdn.microsoft.com/ba97b00b-4a4c-4889-ae9c-8e92eb742849">WinEvent</a>. For a list of WinEvent IDs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff597567">Event Constants</a>.
+The identifier of the incoming <a href="https://msdn.microsoft.com/ba97b00b-4a4c-4889-ae9c-8e92eb742849">WinEvent</a>. For a list of WinEvent IDs, see <a href="https://msdn.microsoft.com/e27b135d-4faf-401e-a6c1-64ed0e1b5de5">Event Constants</a>.
 
 
 ### -param hwnd [in]

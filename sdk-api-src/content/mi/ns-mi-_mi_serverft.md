@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -62,12 +63,12 @@ A support structure used in the <a href="https://msdn.microsoft.com/bbe367c4-196
 
 
 
-#### - GetVersion
-
-Gets the value of the <b>MI_VERSION</b> macro used when compiling the server.
-
-
 #### - GetSystemName
 
 Gets the system name for the server.
+
+
+#### - GetVersion
+
+Gets the value of the <b>MI_VERSION</b> macro used when compiling the server.
 

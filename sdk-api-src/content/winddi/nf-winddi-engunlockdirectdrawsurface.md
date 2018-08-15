@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngUnlockDirectDrawSurface</b> function releases the lock on the specifie
 
 ### -param pSurface [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
+Pointer to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
 
 
 ## -returns
@@ -77,7 +78,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 
 
-The surface must previously have been locked by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564966">EngLockDirectDrawSurface</a>.
+The surface must previously have been locked by <a href="https://msdn.microsoft.com/be43afe9-97c9-4ae4-b18c-3312ae757798">EngLockDirectDrawSurface</a>.
 
 
 
@@ -87,7 +88,7 @@ The surface must previously have been locked by <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564966">EngLockDirectDrawSurface</a>
+<a href="https://msdn.microsoft.com/be43afe9-97c9-4ae4-b18c-3312ae757798">EngLockDirectDrawSurface</a>
  
 
  

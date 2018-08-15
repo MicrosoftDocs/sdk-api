@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -593,7 +594,7 @@ The interface index for the IPv6 IP address. This member is zero if IPv6 is not 
 Type: <b>DWORD[16]</b>
 
 An array of scope IDs for each scope level used for composing 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structures. The 
+      <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structures. The 
       <a href="https://msdn.microsoft.com/714ab69e-b1fa-42a2-a92c-e4051b969a19">SCOPE_LEVEL</a> enumeration is used to index the array. On 
       IPv6, a single interface may be assigned multiple IPv6 multicast addresses based on a scope ID.
       
@@ -612,101 +613,6 @@ A pointer to the first <a href="https://msdn.microsoft.com/680b412d-2352-421d-ae
 <div class="alert"><b>Note</b>  This structure member is only available on Windows XP with SP1 and later.</div>
 <div> </div>
 
-#### - TransmitLinkSpeed
-
-Type: <b>ULONG64</b>
-
-The current speed in bits per second of the transmit link for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - ReceiveLinkSpeed
-
-Type: <b>ULONG64</b>
-
-The current speed in bits per second of the receive link for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - FirstWinsServerAddress
-
-Type: <b>PIP_ADAPTER_WINS_SERVER_ADDRESS_LH</b>
-
-A pointer to the first 
-      <a href="https://msdn.microsoft.com/AF9A40C4-63DB-4830-A689-1DFE4DC2CAB7">IP_ADAPTER_WINS_SERVER_ADDRESS</a> structure in a linked  list of Windows Internet Name Service  (WINS) server 
-      addresses for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - FirstGatewayAddress
-
-Type: <b>PIP_ADAPTER_GATEWAY_ADDRESS_LH</b>
-
-A pointer to the first <a href="https://msdn.microsoft.com/CA38504A-1CC9-4ABA-BD4E-1B2EAD6F588B">IP_ADAPTER_GATEWAY_ADDRESS</a> structure in a linked 
-      list of gateways for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Ipv4Metric
-
-Type: <b>ULONG</b>
-
-The IPv4 interface metric for the adapter address. This member is only applicable to an IPv4 adapter 
-      address.
-
-The actual route metric used to compute the route preferences for IPv4 is the summation of the route metric 
-       offset specified in the <b>Metric</b> member of the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> structure and the interface 
-       metric specified in this member for IPv4.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Ipv6Metric
-
-Type: <b>ULONG</b>
-
-The IPv6 interface metric for the adapter address. This member is only applicable to an IPv6 adapter 
-      address.
-      
-
-The actual route metric used to compute the route preferences for IPv6 is the summation of the route metric 
-       offset specified in the <b>Metric</b> member of the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> structure and the interface 
-       metric specified in this member for IPv4.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Luid
-
-Type: <b>IF_LUID</b>
-
-The interface LUID for the adapter address.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv4Server
-
-Type: <b><a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a></b>
-
-The IPv4 address of the DHCP server for the adapter address. This member is only applicable to an IPv4 
-      adapter address configured using DHCP.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
 #### - CompartmentId
 
 Type: <b>NET_IF_COMPARTMENT_ID</b>
@@ -716,19 +622,6 @@ The routing compartment ID for the adapter address.
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later. This member is not 
        currently supported and is reserved for future use.</div>
-<div> </div>
-
-#### - NetworkGuid
-
-Type: <b>NET_IF_NETWORK_GUID</b>
-
-The <b>GUID</b> that is associated with the network that the interface belongs to. 
-
-If 
-      the interface provider cannot provide the network GUID, this member can be a zero <b>GUID</b>.
-      In this case, the interface was registered by NDIS in the default network.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
 <div> </div>
 
 #### - ConnectionType
@@ -796,6 +689,166 @@ The maximum possible value for the <b>NET_IF_CONNECTION_TYPE</b> enumeration typ
 </tr>
 </table>
  
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Dhcpv4Server
+
+Type: <b><a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a></b>
+
+The IPv4 address of the DHCP server for the adapter address. This member is only applicable to an IPv4 
+      adapter address configured using DHCP.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Dhcpv6ClientDuid
+
+Type: <b>BYTE[MAX_DHCPV6_DUID_LENGTH]</b>
+
+The DHCP unique identifier (DUID) for the DHCPv6 client. This member is only applicable to an IPv6 adapter 
+      address configured using DHCPv6.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Dhcpv6ClientDuidLength
+
+Type: <b>ULONG</b>
+
+The length, in bytes, of the DHCP unique identifier (DUID) for the DHCPv6 client. This member is only 
+      applicable to an IPv6 adapter address configured using DHCPv6.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Dhcpv6Iaid
+
+Type: <b>ULONG</b>
+
+The identifier for an identity association chosen by the DHCPv6 client. This member is only applicable to 
+      an IPv6 adapter address configured using DHCPv6.
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Dhcpv6Server
+
+Type: <b><a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a></b>
+
+The IPv6 address of the DHCPv6 server for the adapter address. This member is only applicable to an IPv6 
+      adapter address configured using DHCPv6. This structure member is not currently supported and is reserved for future use.
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - FirstDnsSuffix
+
+Type: <b>PIP_ADAPTER_DNS_SUFFIX</b>
+
+A pointer to the first <a href="https://msdn.microsoft.com/3730a406-2995-48f7-b70e-1cf8258ee4a6">IP_ADAPTER_DNS_SUFFIX</a> structure in a linked list of 
+      DNS suffixes for the adapter.
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista with SP1and later and on Windows Server 2008  and later.</div>
+<div> </div>
+
+#### - FirstGatewayAddress
+
+Type: <b>PIP_ADAPTER_GATEWAY_ADDRESS_LH</b>
+
+A pointer to the first <a href="https://msdn.microsoft.com/CA38504A-1CC9-4ABA-BD4E-1B2EAD6F588B">IP_ADAPTER_GATEWAY_ADDRESS</a> structure in a linked 
+      list of gateways for the adapter.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - FirstWinsServerAddress
+
+Type: <b>PIP_ADAPTER_WINS_SERVER_ADDRESS_LH</b>
+
+A pointer to the first 
+      <a href="https://msdn.microsoft.com/AF9A40C4-63DB-4830-A689-1DFE4DC2CAB7">IP_ADAPTER_WINS_SERVER_ADDRESS</a> structure in a linked  list of Windows Internet Name Service  (WINS) server 
+      addresses for the adapter.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Ipv4Metric
+
+Type: <b>ULONG</b>
+
+The IPv4 interface metric for the adapter address. This member is only applicable to an IPv4 adapter 
+      address.
+
+The actual route metric used to compute the route preferences for IPv4 is the summation of the route metric 
+       offset specified in the <b>Metric</b> member of the 
+       <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure and the interface 
+       metric specified in this member for IPv4.
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Ipv6Metric
+
+Type: <b>ULONG</b>
+
+The IPv6 interface metric for the adapter address. This member is only applicable to an IPv6 adapter 
+      address.
+      
+
+The actual route metric used to compute the route preferences for IPv6 is the summation of the route metric 
+       offset specified in the <b>Metric</b> member of the 
+       <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure and the interface 
+       metric specified in this member for IPv4.
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - Luid
+
+Type: <b>IF_LUID</b>
+
+The interface LUID for the adapter address.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - NetworkGuid
+
+Type: <b>NET_IF_NETWORK_GUID</b>
+
+The <b>GUID</b> that is associated with the network that the interface belongs to. 
+
+If 
+      the interface provider cannot provide the network GUID, this member can be a zero <b>GUID</b>.
+      In this case, the interface was registered by NDIS in the default network.
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - ReceiveLinkSpeed
+
+Type: <b>ULONG64</b>
+
+The current speed in bits per second of the receive link for the adapter.
+      
+
+<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
+<div> </div>
+
+#### - TransmitLinkSpeed
+
+Type: <b>ULONG64</b>
+
+The current speed in bits per second of the transmit link for the adapter.
+      
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
 <div> </div>
@@ -904,58 +957,6 @@ IP over HTTPS encapsulation for IPv6 packets.
 </table>
  
 
-
-#### - Dhcpv6Server
-
-Type: <b><a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a></b>
-
-The IPv6 address of the DHCPv6 server for the adapter address. This member is only applicable to an IPv6 
-      adapter address configured using DHCPv6. This structure member is not currently supported and is reserved for future use.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6ClientDuid
-
-Type: <b>BYTE[MAX_DHCPV6_DUID_LENGTH]</b>
-
-The DHCP unique identifier (DUID) for the DHCPv6 client. This member is only applicable to an IPv6 adapter 
-      address configured using DHCPv6.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6ClientDuidLength
-
-Type: <b>ULONG</b>
-
-The length, in bytes, of the DHCP unique identifier (DUID) for the DHCPv6 client. This member is only 
-      applicable to an IPv6 adapter address configured using DHCPv6.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6Iaid
-
-Type: <b>ULONG</b>
-
-The identifier for an identity association chosen by the DHCPv6 client. This member is only applicable to 
-      an IPv6 adapter address configured using DHCPv6.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - FirstDnsSuffix
-
-Type: <b>PIP_ADAPTER_DNS_SUFFIX</b>
-
-A pointer to the first <a href="https://msdn.microsoft.com/3730a406-2995-48f7-b70e-1cf8258ee4a6">IP_ADAPTER_DNS_SUFFIX</a> structure in a linked list of 
-      DNS suffixes for the adapter.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista with SP1and later and on Windows Server 2008  and later.</div>
-<div> </div>
 
 ## -remarks
 
@@ -1256,7 +1257,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553790">IF_OPER_STATUS</a>
+<a href="https://msdn.microsoft.com/829df6fc-d5db-4efe-9c67-d0c5543dacb4">IF_OPER_STATUS</a>
 
 
 
@@ -1308,7 +1309,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

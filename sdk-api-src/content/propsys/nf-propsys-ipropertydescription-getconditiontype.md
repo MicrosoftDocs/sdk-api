@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,7 +62,7 @@ Gets the condition type and default condition operation to use when displaying t
 
 ### -param pcontype [out]
 
-Type: <b><a href="shell.PROPDESC_CONDITION_TYPE">PROPDESC_CONDITION_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762523(v=VS.85).aspx">PROPDESC_CONDITION_TYPE</a>*</b>
 
 A pointer to a value that indicates the condition type.
 
@@ -88,7 +89,7 @@ Always returns <b>S_OK</b>.
 
 
 
-For more information, see the <i>conditionType</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
+For more information, see the <i>conditionType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -98,7 +99,7 @@ For more information, see the <i>conditionType</i> attribute of the <a href="she
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

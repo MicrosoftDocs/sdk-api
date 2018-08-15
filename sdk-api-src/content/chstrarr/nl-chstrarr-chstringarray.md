@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: chstrarr.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -89,7 +90,7 @@ Constructs an empty array for <a href="https://msdn.microsoft.com/e2e4378f-d842-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/f5a0b8e6-b40a-4dc7-bf36-ec629e2899db">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an element to the end of the array; the array grows if necessary.
@@ -107,7 +108,7 @@ Appends another array to the array; the array grows if necessary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/9598340f-c315-4c93-bc8a-2b7c1eaf5a35">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies another array to the array; the array grows if necessary.
@@ -134,7 +135,7 @@ Frees all unused memory above the current upper bound.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/a950bc1e-1c13-4880-aee7-9a4606979993">GetAt</a>
 </td>
 <td align="left" width="63%">
 Returns the value at a given index.
@@ -143,7 +144,7 @@ Returns the value at a given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/b59a0c42-e753-43ff-bf39-279f0a8b9d2b">GetData</a>
 </td>
 <td align="left" width="63%">
 Allows access to elements in the array. The value can be <b>NULL</b>.
@@ -196,7 +197,7 @@ Removes all of the elements from this array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/b7555074-4f9a-46be-b321-f16e00663c32">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes an element at a specific index.
@@ -223,7 +224,7 @@ Sets the value for a given index; the array grows if necessary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/9320b6b6-5253-419e-a293-3b9d030f5963">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the number of elements to be contained in this array

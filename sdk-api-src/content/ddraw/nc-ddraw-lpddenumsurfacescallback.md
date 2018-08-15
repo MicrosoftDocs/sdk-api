@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -75,6 +76,11 @@ Do not use. This callback function is superseded by the <a href="https://msdn.mi
 
 
 
+#### - lpContext [in]
+
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+
+
 #### - lpDDSurface [in]
 
 A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
@@ -82,12 +88,7 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 
 #### - lpDDSurfaceDesc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure that describes the attached surface.
-
-
-#### - lpContext [in]
-
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+A pointer to a <a href="https://msdn.microsoft.com/a88f37bc-b5c0-4bc1-b6ee-30923362c1ca">DDSURFACEDESC</a> structure that describes the attached surface.
 
 
 ## -returns

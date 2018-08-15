@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,7 +62,7 @@ The <b>WLAN_BSS_ENTRY</b> structure contains information about a basic service s
 
 ### -field dot11Ssid
 
-The SSID of the access point (AP) or peer station associated with the BSS. The data type for this member is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548773">DOT11_SSID</a> structure.
+The SSID of the access point (AP) or peer station associated with the BSS. The data type for this member is a <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure.
 
 
 ### -field uPhyId
@@ -71,12 +72,12 @@ The identifier (ID) of the PHY that the wireless LAN interface used to detect th
 
 ### -field dot11Bssid
 
-The media access control (MAC) address of the access point for infrastructure BSS networks or the peer station for independent BSS networks (ad hoc networks) that sent the 802.11 Beacon or Probe Response frame received by the wireless LAN interface while scanning. The data type for this member is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548681">DOT11_MAC_ADDRESS</a> structure. 
+The media access control (MAC) address of the access point for infrastructure BSS networks or the peer station for independent BSS networks (ad hoc networks) that sent the 802.11 Beacon or Probe Response frame received by the wireless LAN interface while scanning. The data type for this member is a <a href="https://msdn.microsoft.com/c1335127-a2d2-4f44-a895-1abbc5eaf98d">DOT11_MAC_ADDRESS</a> structure. 
 
 
 ### -field dot11BssType
 
-The BSS network type. The data type for this member is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547669">DOT11_BSS_TYPE</a> enumeration value.   
+The BSS network type. The data type for this member is a <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> enumeration value.   
 
 This member can be one of the following values.
 
@@ -117,7 +118,7 @@ Specifies an independent BSS (IBSS) network (an ad hoc network).
 
 ### -field dot11BssPhyType
 
-The PHY type for this network. The data type for this member is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548741">DOT11_PHY_TYPE</a> enumeration value.  
+The PHY type for this network. The data type for this member is a <a href="https://msdn.microsoft.com/f3804e57-c633-4288-9749-2b267b1353ae">DOT11_PHY_TYPE</a> enumeration value.  
 
 
 ### -field lRssi

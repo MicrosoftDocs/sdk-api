@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.product: GDI+ 1.1
 The 
 <b>CreateSourceImage</b> method enables the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration. For more information, see the 
 <a href="https://msdn.microsoft.com/c3e3465a-d5a7-4fcc-b26a-5a8c763c23d9">CreateSourceImage</a> method of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a> object.
+<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.
 
 
 ## -parameters

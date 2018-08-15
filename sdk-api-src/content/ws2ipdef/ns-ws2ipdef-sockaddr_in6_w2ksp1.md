@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The SOCKADDR_IN6 structure specifies a transport address and port for the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a> address family.
+  <a href="netvista.af_inet6">AF_INET6</a> address family.
 
 
 ## -struct-fields
@@ -78,7 +79,7 @@ The IPv6 flow information.
 ### -field sin6_addr
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure that contains an IPv6 transport
+     <a href="https://msdn.microsoft.com/218b07e8-94cf-42f2-a762-13fc1f7c4473">IN6_ADDR</a> structure that contains an IPv6 transport
      address.
 
 
@@ -182,30 +183,6 @@ The transport address has global scope.
 A ULONG representation of the IPv6 scope identifier.
 
 
-##### - sin6_scope_struct.Zone
-
-The zone index that identifies the zone to which the transport address pertains. Zones of the
-        different scopes are instantiated as follows:
-        
-
-<ul>
-<li>Each interface on a node comprises a single zone of interface-local scope.</li>
-</ul>
-<ul>
-<li>Each link, and the interfaces attached to that link, comprise a single zone of link-local
-         scope.</li>
-</ul>
-<ul>
-<li>There is a single zone of global scope that comprises all of the links and interfaces in the
-         Internet.</li>
-</ul>
-<ul>
-<li>The boundaries of zones of scope other than interface-local, link-local, and global are
-         defined by network administrators.</li>
-</ul>
-A value of zero specifies the default zone.
-
-
 ##### - sin6_scope_struct.Level
 
 The scope of the IPv6 transport address. This scope must be the same as the IPv6 scope value
@@ -246,6 +223,30 @@ The transport address has global scope.
 A ULONG representation of the IPv6 scope identifier.
 
 
+##### - sin6_scope_struct.Zone
+
+The zone index that identifies the zone to which the transport address pertains. Zones of the
+        different scopes are instantiated as follows:
+        
+
+<ul>
+<li>Each interface on a node comprises a single zone of interface-local scope.</li>
+</ul>
+<ul>
+<li>Each link, and the interfaces attached to that link, comprise a single zone of link-local
+         scope.</li>
+</ul>
+<ul>
+<li>There is a single zone of global scope that comprises all of the links and interfaces in the
+         Internet.</li>
+</ul>
+<ul>
+<li>The boundaries of zones of scope other than interface-local, link-local, and global are
+         defined by network administrators.</li>
+</ul>
+A value of zero specifies the default zone.
+
+
 ## -remarks
 
 
@@ -254,9 +255,9 @@ All of the data in the SOCKADDR_IN6 structure, except for the address family, mu
     network-byte-order (big-endian).
 
 The size of the SOCKADDR_IN6 structure is too large to fit in the memory space that is provided by a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure. For a structure that is
+    <a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a> structure. For a structure that is
     guaranteed to be large enough to contain a transport address for all possible address families, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>.
+    <a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>.
 
 
 
@@ -266,19 +267,19 @@ The size of the SOCKADDR_IN6 structure is too large to fit in the memory space t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
+<a href="netvista.af_inet6">AF_INET6</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a>
+<a href="https://msdn.microsoft.com/218b07e8-94cf-42f2-a762-13fc1f7c4473">IN6_ADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>
  
 
  

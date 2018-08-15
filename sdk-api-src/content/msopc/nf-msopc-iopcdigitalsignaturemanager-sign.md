@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -199,7 +200,7 @@ The specified part does not exist.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/library/windows/hardware/mt595945">Cryptography</a> API.
+An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/0468cece-6449-4772-82c9-e3f410c34e46">Cryptography</a> API.
 
 </td>
 </tr>

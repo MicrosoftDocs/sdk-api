@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -78,6 +79,13 @@ Looks up an entry and returns contents in a buffer.
 
 
 
+#### - cbKeyBuf [in]
+
+Buffer size in number of bytes.
+
+
+
+
 #### - lEntry [in]
 
 Entry to look up.
@@ -88,13 +96,6 @@ Entry to look up.
 #### - lpvKeyBuf [out]
 
 Buffer to return entry.
-
-
-
-
-#### - cbKeyBuf [in]
-
-Buffer size in number of bytes.
 
 
 

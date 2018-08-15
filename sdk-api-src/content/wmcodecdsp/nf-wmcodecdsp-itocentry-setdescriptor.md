@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -97,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439771">GetDescriptor</a>
+<a href="https://msdn.microsoft.com/bb685d4c-c5ec-413f-b279-25216b2bcee8">GetDescriptor</a>
 
 
 

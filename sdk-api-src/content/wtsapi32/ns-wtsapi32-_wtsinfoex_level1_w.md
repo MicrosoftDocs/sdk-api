@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -166,14 +167,14 @@ The number of bytes of compressed RDP data sent from the client to the server si
 The number of bytes of compressed RDP data sent from the server to the client since the client connected.
 
 
-##### - SessionFlags.WTS_SESSIONSTATE_UNKNOWN (4294967295 (0xFFFFFFFF))
-
-The session state is not known.
-
-
 ##### - SessionFlags.WTS_SESSIONSTATE_LOCK (0 (0x0))
 
 The session is locked.
+
+
+##### - SessionFlags.WTS_SESSIONSTATE_UNKNOWN (4294967295 (0xFFFFFFFF))
+
+The session state is not known.
 
 
 ##### - SessionFlags.WTS_SESSIONSTATE_UNLOCK (1 (0x1))

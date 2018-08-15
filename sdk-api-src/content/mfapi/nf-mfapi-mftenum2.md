@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -305,7 +306,7 @@ Hardware codecs should also be registered under an <a href="https://msdn.microso
 
 #### Examples
 
-The following example retrieves the first available <a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a> and gets the adapters <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>, which is needed to identify the adapter for the subsequent examples.
+The following example retrieves the first available <a href="https://msdn.microsoft.com/003d5a10-e978-481f-8ca6-9e5ab69bfec0">IDXGIAdapter1</a> and gets the adapters <a href="https://msdn.microsoft.com/00601551-D6CE-4164-BDAF-DBCCF197990E">LUID</a>, which is needed to identify the adapter for the subsequent examples.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

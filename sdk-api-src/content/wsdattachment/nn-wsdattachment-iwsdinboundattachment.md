@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IWSDInboundAttachment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/1bd0295c-4c37-42ec-b5a5-dc7f467def05">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the current attachment MIME data stream.
@@ -80,7 +81,7 @@ Closes the current attachment MIME data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/66b8ce84-23b3-43f2-826d-c866b8bedab1">Read</a>
 </td>
 <td align="left" width="63%">
 Reads attachment data from a message sent by a remote host.

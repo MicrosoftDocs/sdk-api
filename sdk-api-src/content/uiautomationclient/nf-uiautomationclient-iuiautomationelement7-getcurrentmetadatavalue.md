@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -88,7 +89,7 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="winauto.iuiautomationelement7">IUIAutomationElement7</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt798241(v=VS.85).aspx">IUIAutomationElement7</a>
 
 
 

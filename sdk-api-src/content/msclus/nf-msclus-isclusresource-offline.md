@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Takes the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a>.
+<a href="o_gly.htm">offline</a>.
 
 
 ## -parameters
@@ -77,17 +78,17 @@ Takes the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
+#### - varPending
+
+A <b>Variant</b> set to <b>TRUE</b> if the request is still 
+      pending.
+
+
 #### - varTimeout
 
 A <b>Variant</b> that specifies how long (in seconds) the method should wait for the 
       resource to come offline before setting <i>varPending</i> to <b>TRUE</b> 
       and returning.
-
-
-#### - varPending
-
-A <b>Variant</b> set to <b>TRUE</b> if the request is still 
-      pending.
 
 
 ## -returns

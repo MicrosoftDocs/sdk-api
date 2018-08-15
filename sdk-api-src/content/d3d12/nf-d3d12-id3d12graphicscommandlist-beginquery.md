@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -129,7 +130,7 @@ The runtime will issue errors for the following calls:
 <li>Calling <a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a> on a query which is in the querying state.
             </li>
 </ul>
-Illegal API calls will result in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning an error or <a href="https://msdn.microsoft.com/653C15CD-0996-4B3B-A5F6-3E85CD0516AD">ExecuteCommandList</a> dropping the command list, and the device becoming removed.
+Illegal API calls will result in <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> returning an error or <a href="https://msdn.microsoft.com/653C15CD-0996-4B3B-A5F6-3E85CD0516AD">ExecuteCommandList</a> dropping the command list, and the device becoming removed.
             Note that predication state is not inherited by direct command lists.  All direct command lists begin with predication disabled.
           
 

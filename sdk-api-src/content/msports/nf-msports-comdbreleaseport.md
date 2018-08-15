@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546476">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>.
 
 
 ### -param ComNumber [in]
@@ -148,11 +149,11 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546469">ComDBClaimNextFreePort</a>
+<a href="https://msdn.microsoft.com/b32b42e8-d38c-4bb5-bf8a-96538a03cb5b">ComDBClaimNextFreePort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546472">ComDBClaimPort</a>
+<a href="https://msdn.microsoft.com/d0baa783-1039-41a4-8bb1-78c977ed62b6">ComDBClaimPort</a>
  
 
  

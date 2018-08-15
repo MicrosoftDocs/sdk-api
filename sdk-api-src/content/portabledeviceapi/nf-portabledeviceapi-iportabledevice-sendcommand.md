@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ Currently not used; specify zero.
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that specifies the command and parameters to call on the device. This interface must include the following two values to indicate the command. Additional parameters vary depending on the command. For a list of the parameters that are required for each command, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>.
+Pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that specifies the command and parameters to call on the device. This interface must include the following two values to indicate the command. Additional parameters vary depending on the command. For a list of the parameters that are required for each command, see <a href="https://msdn.microsoft.com/f579745a-5327-4c8b-bfa7-fe81d9657a3b">Commands</a>.
             
 
 <table>
@@ -91,7 +92,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597
 
 ### -param ppResults [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a> to learn what values are returned by each command call.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://msdn.microsoft.com/f579745a-5327-4c8b-bfa7-fe81d9657a3b">Commands</a> to learn what values are returned by each command call.
           
 
 
@@ -139,7 +140,7 @@ At least one of the arguments was a NULL pointer.
 
 
 
-This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">Commands</a>.
+This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://msdn.microsoft.com/f579745a-5327-4c8b-bfa7-fe81d9657a3b">Commands</a>.
       
 
 Most Windows Portable Devices methods actually work by sending one or more of the Windows Portable Devices commands for you and wrapping the parameters for you. Some commands have no corresponding Windows Portable Devices methods. The only way to call these commands is by using <b>SendCommand</b>. The following commands have no corresponding method:
@@ -147,19 +148,19 @@ Most Windows Portable Devices methods actually work by sending one or more of th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a>
+<a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597756">WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION</a>
+<a href="https://msdn.microsoft.com/85de64cc-44ee-4536-b658-49d5936351e4">WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597828">WPD_COMMAND_SMS_SEND</a>
+<a href="https://msdn.microsoft.com/507d3237-f2dd-499c-85e4-3c6857a15f6f">WPD_COMMAND_SMS_SEND</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597829">WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE</a>
+<a href="https://msdn.microsoft.com/2968b96e-c9d8-42a7-a32a-dea5fdf064b5">WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597830">WPD_COMMAND_STORAGE_EJECT</a>
+<a href="https://msdn.microsoft.com/38d4dd56-e898-4890-8328-eb2b03cdbd12">WPD_COMMAND_STORAGE_EJECT</a>
 </li>
 </ul>
 You also must call <b>SendCommand</b> to send any custom driver commands driver.

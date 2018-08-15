@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Decrements (decreases by one) the value of the specified 64-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a> function.
 
 
 ## -parameters
@@ -103,7 +104,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>
 
 
 
@@ -123,7 +124,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547875">InterlockedDecrementAcquire</a>
+<a href="https://msdn.microsoft.com/63af8047-1ccf-4cea-9940-584f34e73dcf">InterlockedDecrementAcquire</a>
 
 
 
@@ -139,7 +140,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547883">InterlockedDecrementRelease</a>
+<a href="https://msdn.microsoft.com/ee5ef016-3d64-4c2d-83f1-47f9ab612836">InterlockedDecrementRelease</a>
 
 
 

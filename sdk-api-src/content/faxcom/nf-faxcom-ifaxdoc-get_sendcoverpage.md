@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -98,7 +99,7 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a>
+<a href="https://msdn.microsoft.com/5b1cda1b-0313-4761-b8cb-c21eddd922d5">FileName</a>
 
 
 

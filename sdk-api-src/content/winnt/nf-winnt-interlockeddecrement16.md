@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a> function.
 
 To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/073b42ba-90dd-48a1-9661-9b1686c09561">InterlockedDecrement64</a> function.
 
@@ -87,7 +88,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 16-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="5268fce3-86b5-4b2b-b96c-2e531a3fb9b5">_InterlockedDecrement16</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/f24ya7ct(v=VS.85).aspx">_InterlockedDecrement16</a>.
 
 This function generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -105,7 +106,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>
 
 
 
@@ -125,7 +126,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547875">InterlockedDecrementAcquire</a>
+<a href="https://msdn.microsoft.com/63af8047-1ccf-4cea-9940-584f34e73dcf">InterlockedDecrementAcquire</a>
 
 
 
@@ -141,7 +142,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547883">InterlockedDecrementRelease</a>
+<a href="https://msdn.microsoft.com/ee5ef016-3d64-4c2d-83f1-47f9ab612836">InterlockedDecrementRelease</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,7 +92,7 @@ Gets the value of an attribute of the namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546831">GetIdentity</a>
+<a href="https://msdn.microsoft.com/a61c629f-4f7b-46f8-bdeb-543523bc2bea">GetIdentity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identity of the namespace.
@@ -118,7 +119,7 @@ Removes the setting object specified by a path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/368c1d0b-c8a2-47af-82f8-bcc1ccf8930b">Save</a>
 </td>
 <td align="left" width="63%">
 Updates the settings namespace to persistent and visible.
@@ -127,7 +128,7 @@ Updates the settings namespace to persistent and visible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt168438">Settings</a>
+<a href="https://msdn.microsoft.com/86ec9224-5704-4a7d-b554-f9baf3f14531">Settings</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the top-level settings for the namespace.

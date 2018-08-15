@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -59,7 +60,7 @@ req.product: ADAM
 
 
 The <b>GetSidIdentifierAuthority</b> function returns a pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a> structure in a specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure in a specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
 
 
 ## -parameters
@@ -70,20 +71,20 @@ The <b>GetSidIdentifierAuthority</b> function returns a pointer to the
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure for which a pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a> structure is returned.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure for which a pointer to the 
+<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure is returned.
 
-This function does not handle <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures that are not valid. Call the <a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a> function to verify that the <b>SID</b> structure is valid before you call this function.
+This function does not handle <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that are not valid. Call the <a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a> function to verify that the <b>SID</b> structure is valid before you call this function.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a> structure for the specified 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure.
+If the function succeeds, the return value is a pointer to the <a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure for the specified 
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure.
 
-If the function fails, the return value is undefined. The function fails if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure pointed to by the <i>pSid</i> parameter is not valid. To get extended error information, call 
+If the function fails, the return value is undefined. The function fails if the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure pointed to by the <i>pSid</i> parameter is not valid. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
 
 
@@ -136,11 +137,11 @@ This function uses a 32-bit RID value. For applications that require a larger RI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a>
+<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a>
  
 
  

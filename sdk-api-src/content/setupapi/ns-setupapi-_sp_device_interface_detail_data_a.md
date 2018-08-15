@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,7 +86,7 @@ An SP_DEVICE_INTERFACE_DETAIL_DATA structure identifies the path for a device in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551120">SetupDiGetDeviceInterfaceDetail</a>
+<a href="https://msdn.microsoft.com/fb4963f1-0ed4-483d-9f39-dcbac493bf1d">SetupDiGetDeviceInterfaceDetail</a>
  
 
  

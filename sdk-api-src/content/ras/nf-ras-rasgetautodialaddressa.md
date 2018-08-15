@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,11 +79,6 @@ Pointer to a <b>null</b>-terminated string that specifies the address for which 
 If this parameter is <b>NULL</b>, the function retrieves the default Internet connection. The function returns the per-user default Internet connection if one is configured. Otherwise, the function returns the global default Internet connection. If no default Internet connections are configured, the function returns zero for the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters.
 
 
-#### - lpdwReserved [in]
-
-Reserved; must be <b>NULL</b>.
-
-
 #### - lpAutoDialEntries [in, out]
 
 Pointer to a buffer that, on output, receives an array of 
@@ -98,6 +94,16 @@ If <i>lpAutoDialEntries</i> is <b>NULL</b>,
 <b>RasGetAutodialAddress</b> sets the <i>lpdwcbAutoDialEntries</i> and <i>lpdwcAutoDialEntries</i> parameters to indicate the required buffer size, in bytes, and the number of AutoDial entries.
 
 
+#### - lpdwReserved [in]
+
+Reserved; must be <b>NULL</b>.
+
+
+#### - lpdwcAutoDialEntries [out]
+
+Pointer to a variable that receives the number of structure elements returned in the <i>lpAutoDialEntries</i> buffer.
+
+
 #### - lpdwcbAutoDialEntries [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer. 
@@ -106,11 +112,6 @@ Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lp
 
 
 On output, this variable receives the number of bytes returned, or the number of bytes required if the buffer is too small.
-
-
-#### - lpdwcAutoDialEntries [out]
-
-Pointer to a variable that receives the number of structure elements returned in the <i>lpAutoDialEntries</i> buffer.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -62,12 +63,12 @@ The <b>SetupDiCreateDeviceInfo</b> function creates a new device information ele
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for the local computer.
+A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for the local computer.
 
 
 ### -param DeviceName [in]
 
-A pointer to a NULL-terminated string that supplies either a full <a href="devinst.device_instance_ids">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="devinst.device_ids">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
+A pointer to a NULL-terminated string that supplies either a full <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
 
 
 ### -param ClassGuid [in]
@@ -95,7 +96,7 @@ A variable of type DWORD that controls how the device information element is cre
 
 #### DICD_GENERATE_ID
 
-If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="devinst.device_ids">device ID</a> and the system uses that ID to generate a full <a href="devinst.device_instance_ids">device instance ID</a> for the new device information element.
+If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> and the system uses that ID to generate a full <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> for the new device information element.
 
 Call <b>SetupDiGetDeviceInstanceId</b> to retrieve the device instance ID that was generated for this device information element.
 
@@ -108,12 +109,12 @@ If this flag is specified, the resulting device information element inherits the
 
 ### -param DeviceInfoData [out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that receives the new device information element. This pointer is optional and can be <b>NULL</b>. If the structure is supplied, the caller must set the <b>cbSize</b> member of this structure to <b>sizeof(</b>SP_DEVINFO_DATA<b>)</b> before calling the function. For more information, see the following <b>Remarks</b> section. 
+A pointer to a <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that receives the new device information element. This pointer is optional and can be <b>NULL</b>. If the structure is supplied, the caller must set the <b>cbSize</b> member of this structure to <b>sizeof(</b>SP_DEVINFO_DATA<b>)</b> before calling the function. For more information, see the following <b>Remarks</b> section. 
 
 
 ##### - CreationFlags.DICD_GENERATE_ID
 
-If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="devinst.device_ids">device ID</a> and the system uses that ID to generate a full <a href="devinst.device_instance_ids">device instance ID</a> for the new device information element.
+If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> and the system uses that ID to generate a full <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> for the new device information element.
 
 Call <b>SetupDiGetDeviceInstanceId</b> to retrieve the device instance ID that was generated for this device information element.
 
@@ -154,19 +155,19 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550978">SetupDiDeleteDeviceInfo</a>
+<a href="https://msdn.microsoft.com/f510c42d-8488-4aad-a3a4-662fc8138d28">SetupDiDeleteDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a>
+<a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552071">SetupDiOpenDeviceInfo</a>
+<a href="https://msdn.microsoft.com/0c4a2d09-62b2-43ce-a202-aeb59248d9fc">SetupDiOpenDeviceInfo</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -114,7 +115,7 @@ This member is defined only if <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is d
 
 ### -field pCrlInfo
 
-This member is defined only if <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined.  This member contains a pointer to a PCERT_REVOCATION_CRL_INFO structure that contains CRL context information. The CRL information is only applicable to the last <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> checked. To access the information in this CRL, call the <a href="https://msdn.microsoft.com/2d6fb244-5273-4530-bec4-e5451fe26f2e">CertVerifyRevocation</a> function with <i>cContext</i> set to 1. If <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined, the member must be set to null if it is unused.
+This member is defined only if <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined.  This member contains a pointer to a PCERT_REVOCATION_CRL_INFO structure that contains CRL context information. The CRL information is only applicable to the last <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> checked. To access the information in this CRL, call the <a href="https://msdn.microsoft.com/2d6fb244-5273-4530-bec4-e5451fe26f2e">CertVerifyRevocation</a> function with <i>cContext</i> set to 1. If <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined, the member must be set to null if it is unused.
 
 
 ### -field pftCacheResync

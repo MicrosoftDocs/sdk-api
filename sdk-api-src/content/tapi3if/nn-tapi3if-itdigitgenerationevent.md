@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -58,7 +59,7 @@ The
 <b>ITDigitGenerationEvent</b> interface. The methods of this interface can be used to report on calls that require the generation of DTMF digits. This interface is implemented by the application and called by the TAPI 3 DLL.
 <div class="alert"><b>Note</b>  You must call the 
 <a href="https://msdn.microsoft.com/126ec551-aade-47d8-987f-1f735f10bd28">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_GENERATEEVENT</b> event to enable reception of digit generation events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">Events</a> overview.</div><div> </div>
+<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events</a> overview.</div><div> </div>
 
 ## -inheritance
 
@@ -120,7 +121,7 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">Events</a>
+<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events</a>
 
 
 

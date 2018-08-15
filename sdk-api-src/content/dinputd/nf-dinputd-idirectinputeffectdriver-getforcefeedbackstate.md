@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ Indicates the external joystick number being addressed.
 
 #### - pds
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538432">DIDEVICESTATE</a> structure that receives the device state. DirectInput sets the <b>dwSize</b> member of the DIDEVICESTATE structure to <b>sizeof</b>(DIDEVICESTATE) before calling this method. 
+Points to a <a href="https://msdn.microsoft.com/86885ca6-0b1f-42cb-8d6e-d5140e579905">DIDEVICESTATE</a> structure that receives the device state. DirectInput sets the <b>dwSize</b> member of the DIDEVICESTATE structure to <b>sizeof</b>(DIDEVICESTATE) before calling this method. 
 
 
 ## -returns

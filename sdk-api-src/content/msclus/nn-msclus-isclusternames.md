@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access 
-    to the names of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922622">clusters</a> in a domain.
+    to the names of the <a href="c_gly.htm">clusters</a> in a domain.
 
 
 ## -inheritance
@@ -95,7 +96,7 @@ Refreshes the data in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/e67f64d2-89e1-423d-94a1-fa5d734c7194">Count</a>
 
 
 </td>
@@ -107,7 +108,7 @@ Returns the number of clusters in the domain.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915304">DomainName</a>
+<a href="https://msdn.microsoft.com/2425b375-be4e-4e8f-8b76-68c6fcc7fa92">DomainName</a>
 
 
 </td>
@@ -119,7 +120,7 @@ Returns the name of the domain that is the source of the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/c54eceef-4814-4161-8ad6-9323fdb16503">Item</a>
 
 
 </td>

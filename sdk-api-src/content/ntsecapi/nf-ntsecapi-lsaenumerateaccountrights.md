@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>LsaEnumerateAccountRights</b> function enumerates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> assigned to an account.
+The <b>LsaEnumerateAccountRights</b> function enumerates the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> assigned to an account.
 
 
 ## -parameters

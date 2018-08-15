@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: msdrmdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,24 +83,24 @@ Some of the functions included in the AD RMS SDK provide status information and 
 
 
 
-#### - msg
-
-Specifies the action being performed. This can be one of the <a href="https://msdn.microsoft.com/9420c415-09ef-43a0-b458-bfaae9857314">DRM_STATUS_MSG</a> enumeration values.
-
-
 #### - hr
 
 The status of the current action.
 
 
-#### - pvParam
+#### - msg
 
-This parameter depends on the action being processed. For more information, see the specific message value in the <a href="https://msdn.microsoft.com/9420c415-09ef-43a0-b458-bfaae9857314">DRM_STATUS_MSG</a> enumeration.
+Specifies the action being performed. This can be one of the <a href="https://msdn.microsoft.com/9420c415-09ef-43a0-b458-bfaae9857314">DRM_STATUS_MSG</a> enumeration values.
 
 
 #### - pvContext
 
 An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
+
+
+#### - pvParam
+
+This parameter depends on the action being processed. For more information, see the specific message value in the <a href="https://msdn.microsoft.com/9420c415-09ef-43a0-b458-bfaae9857314">DRM_STATUS_MSG</a> enumeration.
 
 
 ## -returns

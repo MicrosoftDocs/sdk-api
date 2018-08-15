@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,7 +76,7 @@ Specifies QOS parameters for the receiving direction of a particular flow. Recei
 ### -field ProviderSpecific
 
 Pointer to a structure of type 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
 
 
 ## -remarks

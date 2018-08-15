@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -63,7 +64,7 @@ The
 ### -param pSockaddr [in]
 
 A pointer to a socket address structure that contains the address and port number of the socket. For IPv4, the <i>sa</i> parameter points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
 
 
 ### -param SockaddrLength [in]
@@ -166,7 +167,7 @@ In addition, the following error codes can be returned.
 </dl>
 </td>
 <td width="60%">
-This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>salen</i> parameter is less than the length required for the size of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure for IPv4 or the  <b>sockaddr_in6</b> structure for IPv6.
+This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>salen</i> parameter is less than the length required for the size of <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure for IPv4 or the  <b>sockaddr_in6</b> structure for IPv6.
 
 </td>
 </tr>
@@ -358,7 +359,7 @@ The <a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">Ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

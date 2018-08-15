@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,40 +64,40 @@ The <b>FwpmNetEventsSetSecurityInfo0</b> function sets specified security inform
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param securityInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a></b>
 
 The type of security information to set.
 
 
 ### -param sidOwner [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>*</b>
 
 The owner's security identifier (SID) to be set in the security descriptor.
 
 
 ### -param sidGroup [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>*</b>
 
 The group's SID to be set in the security descriptor.
 
 
 ### -param dacl [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>*</b>
 
 The discretionary access control list (DACL) to be set in the security descriptor.
 
 
 ### -param sacl [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>*</b>
 
 The system access control list (SACL) to be set in the security descriptor.
 

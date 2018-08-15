@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ Identifies a version of the configuration manager. The supported version of the 
 
 ### -param hMachine [in, optional]
 
-Supplies a machine handle that is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a>.
+Supplies a machine handle that is returned by <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -85,7 +86,7 @@ The function returns <b>TRUE</b> if the function can connect to the specified ma
 
 
 
-Use this function to determine whether a specified version of the configuration manager is supported by a local or a remote machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538736">CM_Is_Version_Available</a> to determine if the local machine supports a specific version of the configuration manager. 
+Use this function to determine whether a specified version of the configuration manager is supported by a local or a remote machine. If the specified version is supported, all versions earlier and including this version are supported by the machine. You can also use <a href="https://msdn.microsoft.com/a7a1e8d0-7645-423a-8123-a58ed7ae9827">CM_Is_Version_Available</a> to determine if the local machine supports a specific version of the configuration manager. 
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -97,19 +98,19 @@ Use this function to determine whether a specified version of the configuration 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a>
+<a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538686">CM_Get_Version</a>
+<a href="https://msdn.microsoft.com/998c6c57-b242-4aa0-8c9f-cfff61d2a642">CM_Get_Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538696">CM_Get_Version_Ex</a>
+<a href="https://msdn.microsoft.com/f189a417-48a4-436e-bb1c-6b0c9f066c04">CM_Get_Version_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538736">CM_Is_Version_Available</a>
+<a href="https://msdn.microsoft.com/a7a1e8d0-7645-423a-8123-a58ed7ae9827">CM_Is_Version_Available</a>
  
 
  

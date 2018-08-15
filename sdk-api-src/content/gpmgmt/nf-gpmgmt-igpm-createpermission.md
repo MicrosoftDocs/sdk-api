@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -68,7 +69,7 @@ Required. Trustee name. This parameter can be a string that specifies the securi
 ### -param perm [in]
 
 Required. Permission to use for the trustee. The following policy-related permissions are supported. Note that each permission value represents one or more 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540471">access rights</a> that apply to the GPO.
+<a href="https://msdn.microsoft.com/da67c486-d2e7-4632-ac7a-c18aabc3f21d">access rights</a> that apply to the GPO.
 
 The following GPO permissions are supported.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -64,7 +65,7 @@ Opens an enumerator for iterating through a <a href="https://msdn.microsoft.com/
 
 ### -param hCluster [in]
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a> handle.
+<a href="c_gly.htm">Cluster</a> handle.
 
 
 ### -param lpszResourceTypeName [in]

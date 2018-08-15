@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -236,7 +237,7 @@ The return value specifies the outcome of the function. It is greater than zero 
 <div> </div>
 Use this function to pass a driver-defined escape value to a device.
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/mt637428">Escape</a> function to pass one of the system-defined escape values to a device, unless the escape is one of the defined escapes in <i>nEscape</i>. <b>ExtEscape</b> might not work properly with the system-defined escapes. In particular, escapes in which <i>lpszInData</i> is a pointer to a structure that contains a member that is a pointer will fail.
+Use the <a href="https://msdn.microsoft.com/ba21b680-78a8-45a2-94e1-01b377b74787">Escape</a> function to pass one of the system-defined escape values to a device, unless the escape is one of the defined escapes in <i>nEscape</i>. <b>ExtEscape</b> might not work properly with the system-defined escapes. In particular, escapes in which <i>lpszInData</i> is a pointer to a structure that contains a member that is a pointer will fail.
 
 Note, that the behavior described in this article is the expected behavior, but it is up to the driver to comply with this model.
 
@@ -351,7 +352,7 @@ For an example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637428">Escape</a>
+<a href="https://msdn.microsoft.com/ba21b680-78a8-45a2-94e1-01b377b74787">Escape</a>
 
 
 
@@ -363,7 +364,7 @@ For an example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
  
 
  

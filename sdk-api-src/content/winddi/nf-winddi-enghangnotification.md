@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngHangNotification</b> function notifies the system that a specified dev
 
 ### -param hdev
 
-Handle to the physical device that has stopped. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> entry point.
+Handle to the physical device that has stopped. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a> entry point.
 
 
 ### -param Reserved
@@ -122,11 +123,11 @@ A driver should make this call any time it detects that the hardware is inoperab
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>
+<a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556275">DrvResetDevice</a>
+<a href="https://msdn.microsoft.com/2078cefe-3b66-455b-a4cc-144d643f74e7">DrvResetDevice</a>
  
 
  

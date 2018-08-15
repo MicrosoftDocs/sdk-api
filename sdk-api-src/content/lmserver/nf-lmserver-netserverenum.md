@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -507,11 +508,6 @@ All servers. This is a convenience that will return all possible servers.
  
 
 
-#### - servername [in, optional]
-
-Reserved; must be <b>NULL</b>.
-
-
 #### - domain [in, optional]
 
 A pointer to a constant string that specifies the name of the domain for which a list of servers is to be returned. The domain name must be a NetBIOS domain name (for example, microsoft). 
@@ -523,6 +519,11 @@ If this parameter is <b>NULL</b>, the primary domain is implied.
 #### - resume_handle [in, out, optional]
 
 Reserved; must be set to zero.
+
+
+#### - servername [in, optional]
+
+Reserved; must be <b>NULL</b>.
 
 
 ## -returns

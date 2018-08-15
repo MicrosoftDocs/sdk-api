@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -155,7 +156,7 @@ The right to delete all child objects of this object, regardless of the permissi
 
 ### -field ADS_RIGHT_DS_LIST_OBJECT
 
-The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="ad.win2k3_a_dsheuristics">dSHeuristics</a> property is '0' or not set. For more information, see <a href="https://msdn.microsoft.com/3a65ec79-7de0-4d14-b980-1ca6a972ac70">Controlling Object Visibility</a>.
+The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="https://msdn.microsoft.com/library/ms675656(v=VS.85).aspx">dSHeuristics</a> property is '0' or not set. For more information, see <a href="https://msdn.microsoft.com/3a65ec79-7de0-4d14-b980-1ca6a972ac70">Controlling Object Visibility</a>.
 
 
 ### -field ADS_RIGHT_DS_CONTROL_ACCESS

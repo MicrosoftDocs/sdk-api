@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,21 +81,6 @@ The
 
 
 
-#### - lpszPhonebook [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
-
-
-
-
-<b>Windows Me/98/95:  </b>This parameter is always <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
-
-
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the phone-book entry to use.
-
-
 #### - lpAutoDialParams [in]
 
 Pointer to a 
@@ -104,6 +90,21 @@ Pointer to a
 #### - lpdwRetCode [out]
 
 Pointer to a variable that receives a value if the function performs the dialing operation. If the dialing operation succeeds, set this variable to <b>ERROR_SUCCESS</b>. If the dialing operation fails, set it to a nonzero value.
+
+
+#### - lpszEntry [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the phone-book entry to use.
+
+
+#### - lpszPhonebook [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
+
+
+
+
+<b>Windows Me/98/95:  </b>This parameter is always <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
 ## -returns

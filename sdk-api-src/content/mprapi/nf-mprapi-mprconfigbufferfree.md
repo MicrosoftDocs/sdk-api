@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ MprConfigXGetInfo
 			
 
 where X stands for Server, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">Interface</a>, Transport, or InterfaceTransport.
+<a href="https://msdn.microsoft.com/761a033c-b95e-46f0-948b-d0a60337390f">Interface</a>, Transport, or InterfaceTransport.
 
 
 ## -parameters
@@ -83,7 +84,7 @@ MprConfigXGetInfo
 						
 
 where X stands for Server, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">Interface</a>, Transport, or InterfaceTransport.
+<a href="https://msdn.microsoft.com/761a033c-b95e-46f0-948b-d0a60337390f">Interface</a>, Transport, or InterfaceTransport.
 
 
 ## -returns

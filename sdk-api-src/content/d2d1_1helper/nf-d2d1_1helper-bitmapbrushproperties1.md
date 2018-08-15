@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -62,14 +63,14 @@ Creates a <a href="https://msdn.microsoft.com/0FECAD03-C35C-4729-9BBE-40DE11B340
 
 Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
 
-A value that specifies how the brush horizontally tiles those areas that extend past its bitmap. The default value is <a href="D2D1_EXTEND_MODE.htm">D2D1_EXTEND_MODE_CLAMP</a>. 
+A value that specifies how the brush horizontally tiles those areas that extend past its bitmap. The default value is <a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE_CLAMP</a>. 
 
 
 ### -param extendModeY
 
 Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
 
-A value that specifies how the brush vertically tiles those areas that extend past its bitmap. The default value is <a href="D2D1_EXTEND_MODE.htm">D2D1_EXTEND_MODE_CLAMP</a>.
+A value that specifies how the brush vertically tiles those areas that extend past its bitmap. The default value is <a href="https://msdn.microsoft.com/en-us/library/Dd368100(v=VS.85).aspx">D2D1_EXTEND_MODE_CLAMP</a>.
 
 
 ### -param interpolationMode

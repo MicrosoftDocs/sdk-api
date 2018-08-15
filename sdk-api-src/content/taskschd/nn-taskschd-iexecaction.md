@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -62,7 +63,7 @@ This action performs a command-line operation. For example, the action could run
 
 When reading or writing XML, an execution action is specified in the <a href="https://msdn.microsoft.com/84bdd1ec-4279-4282-b44a-4b5ad30503eb">Exec</a> element of the Task Scheduler schema.
 
-If environment variables are used in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>, <a href="https://msdn.microsoft.com/623b3ffb-ff0f-46bf-ae3d-146e38c8bbc8">Arguments</a>, or <a href="https://msdn.microsoft.com/7cebc827-2587-46e4-a963-ad0fccfbcec7">WorkingDirectory</a> properties, then the values of the environment variables are cached and used when the Taskeng.exe (the task engine) is launched. Changes to the environment variables that occur after the task engine is launched will not be used by the task engine.
+If environment variables are used in the <a href="https://msdn.microsoft.com/307e59e9-5460-40aa-bac7-fa8cb4755d35">Path</a>, <a href="https://msdn.microsoft.com/623b3ffb-ff0f-46bf-ae3d-146e38c8bbc8">Arguments</a>, or <a href="https://msdn.microsoft.com/7cebc827-2587-46e4-a963-ad0fccfbcec7">WorkingDirectory</a> properties, then the values of the environment variables are cached and used when the Taskeng.exe (the task engine) is launched. Changes to the environment variables that occur after the task engine is launched will not be used by the task engine.
 
 
 #### Examples
@@ -78,7 +79,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
+<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
 
 
 

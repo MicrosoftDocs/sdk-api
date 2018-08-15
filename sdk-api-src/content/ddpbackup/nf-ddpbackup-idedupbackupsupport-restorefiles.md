@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -54,7 +55,7 @@ Reconstructs a set of files from a backup store that contains the fully optimize
      (reparse points) and the Data Deduplication store.
 
 Applications that call the 
-    <a href="dedup.idedupbackupsupport_restorefile">RestoreFiles</a> method must also implement 
+    <a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">RestoreFiles</a> method must also implement 
     the <a href="https://msdn.microsoft.com/0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C">IDedupReadFileCallback</a> interface. Before 
     calling the <b>RestoreFiles</b> method, the 
     application must have previously restored the Data Deduplication reparse points for the files to the location 

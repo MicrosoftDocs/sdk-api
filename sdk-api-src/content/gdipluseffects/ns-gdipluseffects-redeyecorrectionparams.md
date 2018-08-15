@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -69,12 +70,12 @@ You can can correct red eyes in a bitmap by following these steps.
 
 Type: <b>UINT</b>
 
-Integer that specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures in the <b>areas</b> array.
+Integer that specifies the number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures in the <b>areas</b> array.
 
 
 ### -field areas
 
 Type: <b>RECT*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
+Pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
 

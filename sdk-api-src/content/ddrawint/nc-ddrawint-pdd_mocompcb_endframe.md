@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdMoCompEndFrame</b> callback function completes a decoded frame.
 
 #### - lpFrameData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551517">DD_ENDMOCOMPFRAMEDATA</a> structure that contains the information needed to complete the decoded frame.
+Points to a <a href="https://msdn.microsoft.com/4e604940-1c0f-43be-bac7-9936df0c4044">DD_ENDMOCOMPFRAMEDATA</a> structure that contains the information needed to complete the decoded frame.
 
 
 ## -returns
@@ -97,7 +98,7 @@ DirectDraw ensures that begin and end frames will be properly paired.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551517">DD_ENDMOCOMPFRAMEDATA</a>
+<a href="https://msdn.microsoft.com/4e604940-1c0f-43be-bac7-9936df0c4044">DD_ENDMOCOMPFRAMEDATA</a>
  
 
  

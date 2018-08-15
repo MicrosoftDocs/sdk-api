@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>ITCollection2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/96c26f76-3835-4140-8379-91171fc4ad37">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection at the specified index.
@@ -83,7 +84,7 @@ Adds an item to the collection at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/27e46c36-8704-4e33-ad2a-5888d701651c">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection at the specified index.

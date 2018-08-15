@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -82,7 +83,7 @@ If the function succeeds, the return value identifies the next window in the cli
 
 
 
-The windows that are part of the clipboard viewer chain, called clipboard viewer windows, must process the clipboard messages <a href="https://msdn.microsoft.com/en-us/library/ms649019(v=VS.85).aspx">WM_CHANGECBCHAIN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms649025(v=VS.85).aspx">WM_DRAWCLIPBOARD</a>. Each clipboard viewer window calls the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function to pass these messages to the next window in the clipboard viewer chain.
+The windows that are part of the clipboard viewer chain, called clipboard viewer windows, must process the clipboard messages <a href="https://msdn.microsoft.com/en-us/library/ms649019(v=VS.85).aspx">WM_CHANGECBCHAIN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms649025(v=VS.85).aspx">WM_DRAWCLIPBOARD</a>. Each clipboard viewer window calls the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function to pass these messages to the next window in the clipboard viewer chain.
 
 A clipboard viewer window must eventually remove itself from the clipboard viewer chain by calling the <a href="https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx">ChangeClipboardChain</a> function — for example, in response to the <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message.
 
@@ -122,7 +123,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
  
 
  

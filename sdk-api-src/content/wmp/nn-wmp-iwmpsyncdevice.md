@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -202,7 +203,7 @@ Displays the Windows Media Player synchronization settings dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">start</a>
+<a href="https://msdn.microsoft.com/f12e5abe-3d1b-48ab-8a03-420a40ae8b4f">start</a>
 </td>
 <td align="left" width="63%">
 Begins synchronization.
@@ -211,7 +212,7 @@ Begins synchronization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">stop</a>
+<a href="https://msdn.microsoft.com/30e6787e-851b-420c-934c-5f8e5e4d83df">stop</a>
 </td>
 <td align="left" width="63%">
 Ends synchronization.
@@ -230,7 +231,7 @@ Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
 
 
 

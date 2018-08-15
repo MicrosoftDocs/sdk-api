@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -78,9 +79,9 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.
 
 You cannot use <b>ListView_InsertItem</b> or <a href="https://msdn.microsoft.com/en-us/library/Bb761107(v=VS.85).aspx">LVM_INSERTITEM</a> to insert subitems. The <b>iSubItem</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure must be zero. See <a href="https://msdn.microsoft.com/en-us/library/Bb761186(v=VS.85).aspx">LVM_SETITEM</a> for information on setting subitems.
 
-If a list-view control has the <a href="Extended_list_view_styles.htm">LVS_EX_CHECKBOXES</a> style set, any value placed in bits 12 through 15 of the <b>state</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
+If a list-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_CHECKBOXES</a> style set, any value placed in bits 12 through 15 of the <b>state</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
 
-If a list-view control has either the <a href="List_view_window_styles.htm">LVS_SORTASCENDING</a> or <a href="List_view_window_styles.htm">LVS_SORTDESCENDING</a> window style, an <a href="https://msdn.microsoft.com/en-us/library/Bb761107(v=VS.85).aspx">LVM_INSERTITEM</a> message will fail if you try to insert an item that has LPSTR_TEXTCALLBACK as the <b>pszText</b> member of its <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
+If a list-view control has either the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_SORTASCENDING</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_SORTDESCENDING</a> window style, an <a href="https://msdn.microsoft.com/en-us/library/Bb761107(v=VS.85).aspx">LVM_INSERTITEM</a> message will fail if you try to insert an item that has LPSTR_TEXTCALLBACK as the <b>pszText</b> member of its <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
 
 The <b>ListView_InsertItem</b> macro will insert the new item in the proper position in the sort order if the following conditions hold: 
 

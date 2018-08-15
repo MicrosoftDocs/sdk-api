@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -130,7 +131,7 @@ If the mutex was protecting persistent state information, you should check it fo
 </td>
 <td width="60%">
 The wait was ended by one or more user-mode 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540625">asynchronous procedure calls</a> (APC) queued to the thread.
+<a href="https://msdn.microsoft.com/0197d78e-a4dc-414b-88ba-c5ec5f2ed614">asynchronous procedure calls</a> (APC) queued to the thread.
 
 </td>
 </tr>

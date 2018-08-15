@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -67,7 +68,7 @@ The number of IPv6 addresses associated with this adapter.
 
 ### -field RemoteAddress
 
-This member is for WAN interfaces. An <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">in6_addr</a> structure that contains the address of the machine at the other end of a dial-up link.
+This member is for WAN interfaces. An <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a> structure that contains the address of the machine at the other end of a dial-up link.
 
 
 ### -field Mtu

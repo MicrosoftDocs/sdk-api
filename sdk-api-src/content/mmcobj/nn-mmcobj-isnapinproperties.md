@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmcobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -57,7 +58,7 @@ The
 The 
 <b>ISnapinProperties</b> interface is implemented by the snap-in. The properties provided by the 
 <b>ISnapinProperties</b> interface correspond to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> property of the 
+<a href="https://msdn.microsoft.com/0895ff50-4c7e-4d77-9710-a9d0e76c62d0">Properties</a> property of the 
 <a href="https://msdn.microsoft.com/94a9c623-8778-4010-bb69-6ac0d7ae5ca9">SnapIn</a> object. The 
 <b>SnapIn</b> object is part of the 
 <a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 automation object model</a>.
@@ -80,11 +81,11 @@ The <b>ISnapinProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/b5140b15-d622-4abe-baef-061fe13a213f">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides the snap-in with the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> collection, which can be used for initialization.
+<a href="https://msdn.microsoft.com/40d3ebc4-5b91-4869-a6e2-6cc3b8d73b26">Properties</a> collection, which can be used for initialization.
 
 </td>
 </tr>

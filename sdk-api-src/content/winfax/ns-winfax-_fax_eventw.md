@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -248,34 +249,14 @@ Type: <b>DWORD</b>
 Specifies a unique number that identifies the fax job of interest. If this member is equal to the value 0xffffffff, it indicates an inactive fax job. Note that this number is not a print spooler identification number. 
 
 
-##### - EventId.FEI_DIALING
+##### - EventId.FEI_ABORTING
 
-The sending device is dialing a fax number. 
-
-
-##### - EventId.FEI_SENDING
-
-The sending device is transmitting a page of fax data. 
+The device is aborting a fax job. 
 
 
-##### - EventId.FEI_RECEIVING
+##### - EventId.FEI_ANSWERED
 
-The receiving device is receiving a page of fax data. 
-
-
-##### - EventId.FEI_COMPLETED
-
-The device has completed a fax transmission call. 
-
-
-##### - EventId.FEI_BUSY
-
-The sending device has encountered a busy signal. 
-
-
-##### - EventId.FEI_NO_ANSWER
-
-The receiving device does not answer. 
+The receiving device answered a new call. 
 
 
 ##### - EventId.FEI_BAD_ADDRESS
@@ -283,9 +264,34 @@ The receiving device does not answer.
 The sending device cannot complete the call because the fax number is invalid. 
 
 
-##### - EventId.FEI_NO_DIAL_TONE
+##### - EventId.FEI_BUSY
 
-The sending device cannot complete the call because it does not detect a dial tone. 
+The sending device has encountered a busy signal. 
+
+
+##### - EventId.FEI_CALL_BLACKLISTED
+
+The device cannot complete the call because the telephone number is blocked or reserved; numbers such as 911 are blocked. 
+
+
+##### - EventId.FEI_CALL_DELAYED
+
+The sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+
+
+##### - EventId.FEI_COMPLETED
+
+The device has completed a fax transmission call. 
+
+
+##### - EventId.FEI_DELETED
+
+The fax job has been processed. The job identifier for the job is no longer valid.
+
+
+##### - EventId.FEI_DIALING
+
+The sending device is dialing a fax number. 
 
 
 ##### - EventId.FEI_DISCONNECTED
@@ -298,59 +304,9 @@ The device cannot complete the call because a fax device was disconnected, or be
 The device encountered a fatal protocol error. 
 
 
-##### - EventId.FEI_NOT_FAX_CALL
-
-The modem device received a data call or a voice call. 
-
-
-##### - EventId.FEI_CALL_DELAYED
-
-The sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
-
-
-##### - EventId.FEI_CALL_BLACKLISTED
-
-The device cannot complete the call because the telephone number is blocked or reserved; numbers such as 911 are blocked. 
-
-
-##### - EventId.FEI_RINGING
-
-The receiving device is ringing. 
-
-
-##### - EventId.FEI_ABORTING
-
-The device is aborting a fax job. 
-
-
-##### - EventId.FEI_ROUTING
-
-The receiving device is routing a received fax document. 
-
-
-##### - EventId.FEI_MODEM_POWERED_ON
-
-The modem device was turned on. 
-
-
-##### - EventId.FEI_MODEM_POWERED_OFF
-
-The modem device was turned off. 
-
-
-##### - EventId.FEI_IDLE
-
-The device is idle. 
-
-
 ##### - EventId.FEI_FAXSVC_ENDED
 
 The fax service has terminated. For more information, see the following Remarks section.
-
-
-##### - EventId.FEI_ANSWERED
-
-The receiving device answered a new call. 
 
 
 ##### - EventId.FEI_FAXSVC_STARTED
@@ -358,19 +314,64 @@ The receiving device answered a new call.
 The fax service has started. For more information, see the following Remarks section.
 
 
+##### - EventId.FEI_IDLE
+
+The device is idle. 
+
+
 ##### - EventId.FEI_JOB_QUEUED
 
 The fax job has been queued. 
 
 
-##### - EventId.FEI_DELETED
+##### - EventId.FEI_MODEM_POWERED_OFF
 
-The fax job has been processed. The job identifier for the job is no longer valid.
+The modem device was turned off. 
+
+
+##### - EventId.FEI_MODEM_POWERED_ON
+
+The modem device was turned on. 
 
 
 ##### - EventId.FEI_NEVENTS
 
 The total number of fax events received. For more information, see the following Remarks section. 
+
+
+##### - EventId.FEI_NOT_FAX_CALL
+
+The modem device received a data call or a voice call. 
+
+
+##### - EventId.FEI_NO_ANSWER
+
+The receiving device does not answer. 
+
+
+##### - EventId.FEI_NO_DIAL_TONE
+
+The sending device cannot complete the call because it does not detect a dial tone. 
+
+
+##### - EventId.FEI_RECEIVING
+
+The receiving device is receiving a page of fax data. 
+
+
+##### - EventId.FEI_RINGING
+
+The receiving device is ringing. 
+
+
+##### - EventId.FEI_ROUTING
+
+The receiving device is routing a received fax document. 
+
+
+##### - EventId.FEI_SENDING
+
+The sending device is transmitting a page of fax data. 
 
 
 ## -remarks

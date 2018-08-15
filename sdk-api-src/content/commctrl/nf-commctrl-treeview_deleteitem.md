@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ The parent window receives a <a href="https://msdn.microsoft.com/en-us/library/B
 
 If the item label is being edited, the edit operation is canceled and the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a> notification code. 
 
-If you delete all items in a tree-view control that has the <a href="Tree_View_Control_Window_Styles.htm">TVS_NOSCROLL</a> style, items subsequently added may not display properly. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773790(v=VS.85).aspx">TreeView_DeleteAllItems</a>.
+If you delete all items in a tree-view control that has the <a href="https://msdn.microsoft.com/en-us/library/Bb760013(v=VS.85).aspx">TVS_NOSCROLL</a> style, items subsequently added may not display properly. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773790(v=VS.85).aspx">TreeView_DeleteAllItems</a>.
 
 
 

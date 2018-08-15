@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -125,13 +126,13 @@ The disk does not have an Int13 or an extended Int13 partition.
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Int13
 
 If <b>DetectionType</b> is DetectInt13, the union is a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a> structure.
+<a href="https://msdn.microsoft.com/a6991ad1-da8a-4df6-a055-ead3c30938df">DISK_INT13_INFO</a> structure.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ExInt13
 
 If <b>DetectionType</b> is DetectExInt13, the union is a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552610">DISK_EX_INT13_INFO</a> structure.
+<a href="https://msdn.microsoft.com/efde6ede-b921-4d1d-ab4a-b9f85ae6aea1">DISK_EX_INT13_INFO</a> structure.
 
 
 ## -see-also
@@ -139,15 +140,15 @@ If <b>DetectionType</b> is DetectExInt13, the union is a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552610">DISK_EX_INT13_INFO</a>
+<a href="https://msdn.microsoft.com/efde6ede-b921-4d1d-ab4a-b9f85ae6aea1">DISK_EX_INT13_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a>
+<a href="https://msdn.microsoft.com/2b8b2021-8650-452d-a975-54249620d72f">DISK_GEOMETRY_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a>
+<a href="https://msdn.microsoft.com/a6991ad1-da8a-4df6-a055-ead3c30938df">DISK_INT13_INFO</a>
  
 
  

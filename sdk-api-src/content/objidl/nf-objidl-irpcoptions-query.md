@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -87,7 +88,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-While the COMBND_RPCTIMEOUT property can also be set using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544503">Set</a> method, the COMBND_SERVER_LOCALITY property can only be queried.
+While the COMBND_RPCTIMEOUT property can also be set using the <a href="https://msdn.microsoft.com/b4412e45-adc7-47e4-a19c-9ada6407e6dc">Set</a> method, the COMBND_SERVER_LOCALITY property can only be queried.
 
 See <a href="https://msdn.microsoft.com/aa5db8ac-4c29-43cf-a7ed-a870df9dfb82">IRpcOptions</a> for a table of the possible values of the COMBND_RPCTIMEOUT property.
 

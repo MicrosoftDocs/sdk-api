@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,14 +75,14 @@ The <b>Add</b> method adds a new persistent tuning space to the system.
 
 
 
-#### - pTuningSpace [in]
-
-Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the new tuning space
-
-
 #### - pNewIndex [out]
 
 Pointer to a variable of type <b>VARIANT</b> that receives the ID of the new tuning space within the current collection.
+
+
+#### - pTuningSpace [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the new tuning space
 
 
 ## -returns

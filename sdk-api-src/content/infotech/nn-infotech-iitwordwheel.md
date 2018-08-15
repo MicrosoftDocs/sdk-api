@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IITWordWheel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/0fb211e7-2fd2-4ab1-b808-921399c85b7f">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a word wheel.
@@ -82,7 +83,7 @@ Closes a word wheel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/aea24a95-ca64-4918-b664-5a54407b5801">Count</a>
 </td>
 <td align="left" width="63%">
 Returns the number of entries in a word wheel.
@@ -126,7 +127,7 @@ Returns the word wheel entry that is closest to the specified prefix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/63b88fad-ebfe-42ed-8cf0-cb4a5f98294b">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a word wheel.

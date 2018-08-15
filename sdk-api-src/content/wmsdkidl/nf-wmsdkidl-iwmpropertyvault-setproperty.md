@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -92,7 +93,7 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 <td>g_wszOriginalWaveFormat</td>
 <td><b>WMT_TYPE_BINARY
                 </b></td>
-<td>When transcoding with smart recompression, set to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure used in the original encoding.</td>
+<td>When transcoding with smart recompression, set to the <a href="https://msdn.microsoft.com/a25fef3b-8d0c-42de-8008-245f9560da44">WAVEFORMATEX</a> structure used in the original encoding.</td>
 </tr>
 <tr>
 <td>g_wszEDL</td>

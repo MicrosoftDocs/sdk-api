@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a> I/O control request to pass a vendor-specific command to the host controller miniport driver.
+The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to pass a vendor-specific command to the host controller miniport driver.
 
 
 ## -struct-fields
@@ -78,7 +79,7 @@ A variable length array with the parameter data for the command.
 
 
 
-The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://msdn.microsoft.com/4b04ded7-6641-4390-a5e5-e26603efc757">USBUSER_PASS_THRU</a> user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://msdn.microsoft.com/4b04ded7-6641-4390-a5e5-e26603efc757">USBUSER_PASS_THRU</a> user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>.
 
 
 
@@ -88,11 +89,11 @@ The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>
+<a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
  
 
  

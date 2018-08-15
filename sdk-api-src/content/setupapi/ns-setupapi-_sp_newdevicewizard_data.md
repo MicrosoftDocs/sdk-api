@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ An SP_NEWDEVICEWIZARD_DATA structure is used by installers to extend the operati
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>.
+An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>.
 
 
 ### -field Flags
@@ -91,7 +92,7 @@ The handle to the top-level window of the hardware installation wizard .
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552337">SP_ADDPROPERTYPAGE_DATA</a> is an alias for this structure.
+<a href="https://msdn.microsoft.com/065c83b1-4b5d-4988-871a-48b0f8b14be7">SP_ADDPROPERTYPAGE_DATA</a> is an alias for this structure.
 
 
 
@@ -101,23 +102,23 @@ The handle to the top-level window of the hardware installation wizard .
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543702">DIF_NEWDEVICEWIZARD_FINISHINSTALL</a>
+<a href="https://msdn.microsoft.com/5d27316b-4e47-4e18-95fe-fd4a63a76626">DIF_NEWDEVICEWIZARD_FINISHINSTALL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543703">DIF_NEWDEVICEWIZARD_POSTANALYZE</a>
+<a href="https://msdn.microsoft.com/81d609e6-9562-4738-b3ba-c29b24612f91">DIF_NEWDEVICEWIZARD_POSTANALYZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543705">DIF_NEWDEVICEWIZARD_PREANALYZE</a>
+<a href="https://msdn.microsoft.com/6731a916-488a-4fb2-84d9-4b3cb9b8b160">DIF_NEWDEVICEWIZARD_PREANALYZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543706">DIF_NEWDEVICEWIZARD_PRESELECT</a>
+<a href="https://msdn.microsoft.com/51aec9bf-11c1-4df9-bb44-0cfde066f73d">DIF_NEWDEVICEWIZARD_PRESELECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543708">DIF_NEWDEVICEWIZARD_SELECT</a>
+<a href="https://msdn.microsoft.com/b6b2eaf7-c87f-45d6-8845-6d03bde9a802">DIF_NEWDEVICEWIZARD_SELECT</a>
  
 
  

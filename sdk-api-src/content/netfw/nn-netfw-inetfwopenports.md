@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -75,7 +76,7 @@ The <b>INetFwOpenPorts</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/fd97333d-9bd5-4ab2-9189-75a7f7f52622">Add</a>
 </td>
 <td align="left" width="63%">
 Opens a new port and adds it to  the collection.
@@ -102,7 +103,7 @@ Retrieves the contents of the Count property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/f0491047-d20d-49e4-9319-421b48feca48">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the specified port if present in the collection.
@@ -111,7 +112,7 @@ Returns the specified port if present in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/e3719087-f7b9-4780-a030-0c568248080d">Remove</a>
 </td>
 <td align="left" width="63%">
 Closes a port and removes it from the collection.
@@ -128,7 +129,7 @@ Closes a port and removes it from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/a7de2fef-7966-4742-a821-7fce0bf3bba2">_NewEnum</a>
 
 
 </td>
@@ -140,7 +141,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/83d95b38-0c0d-4325-904e-7953ccef24e7">Count</a>
 
 
 </td>

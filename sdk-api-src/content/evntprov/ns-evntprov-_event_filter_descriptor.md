@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -78,7 +79,7 @@ The type of filter data. The type is application-defined. An event controller  t
 
 
 
-You pass a pointer to the EVENT_FILTER_DESCRIPTOR structure when you create the optional driver-supplied <a href="https://msdn.microsoft.com/5953a3ae-b130-42fd-9dc8-974d15c6dfc5">EtwEnableCallback</a>function. When you register the driver with ETW, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545603">EtwRegister</a> function takes a pointer to the <b>EtwEnableCallback</b> function as a parameter.
+You pass a pointer to the EVENT_FILTER_DESCRIPTOR structure when you create the optional driver-supplied <a href="https://msdn.microsoft.com/5953a3ae-b130-42fd-9dc8-974d15c6dfc5">EtwEnableCallback</a>function. When you register the driver with ETW, the <a href="https://msdn.microsoft.com/89a37edb-0f58-45c2-9045-b31eec5a4281">EtwRegister</a> function takes a pointer to the <b>EtwEnableCallback</b> function as a parameter.
 
 
 
@@ -92,7 +93,7 @@ You pass a pointer to the EVENT_FILTER_DESCRIPTOR structure when you create the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545603">EtwRegister</a>
+<a href="https://msdn.microsoft.com/89a37edb-0f58-45c2-9045-b31eec5a4281">EtwRegister</a>
  
 
  

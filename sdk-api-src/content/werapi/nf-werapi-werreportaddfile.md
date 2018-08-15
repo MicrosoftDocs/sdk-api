@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -229,7 +230,7 @@ Although this function can also be used to add memory dumps (using specific flag
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj242491">Windows Error Reporting</a>
+<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Internet Explorer 5
 The <b>IFaxIncomingQueue</b> interface is used by a fax client application to manage the inbound fax jobs (<a href="https://msdn.microsoft.com/en-us/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
 
 The <b>IFaxIncomingQueue</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/ms684838(v=VS.85).aspx">IFaxFolders</a> interface.
-<div class="alert"><b>Note</b>  Changes made to the <b>FaxIncomingQueue</b> object will not be saved until you call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method.</div><div> </div>
+<div class="alert"><b>Note</b>  Changes made to the <b>FaxIncomingQueue</b> object will not be saved until you call the <a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">Save</a> method.</div><div> </div>
 
 ## -inheritance
 
@@ -95,16 +96,16 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686761(v=VS.85).aspx">Ge
 <a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684944(v=VS.85).aspx">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">Save</a> method call are lost.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object's data.
+The <a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object's data.
 
 </td>
 </tr>

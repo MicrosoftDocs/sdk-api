@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,9 +67,9 @@ Initiates a test to update the system registry with refresh rate information for
 
 
 
-#### - lpModesToTest [in]
+#### - dwFlags [in]
 
-An array of SIZE elements that describe, in terms of screen resolutions, the modes that should be tested.
+Flags that specify options for starting a test. The only flag value that is currently valid is DDSMT_ISTESTREQUIRED. When this flag is specified, <b>StartModeTest</b> does not initiate a test, but instead returns a value that indicates whether it is possible or necessary to test the resolutions that the <i>lpModesToTest</i> and <i>dwNumEntries</i> parameters identify.
 
 
 #### - dwNumEntries [in]
@@ -76,9 +77,9 @@ An array of SIZE elements that describe, in terms of screen resolutions, the mod
 The number of elements in the array that the  <i>lpModesToTest</i> parameter specifies.
 
 
-#### - dwFlags [in]
+#### - lpModesToTest [in]
 
-Flags that specify options for starting a test. The only flag value that is currently valid is DDSMT_ISTESTREQUIRED. When this flag is specified, <b>StartModeTest</b> does not initiate a test, but instead returns a value that indicates whether it is possible or necessary to test the resolutions that the <i>lpModesToTest</i> and <i>dwNumEntries</i> parameters identify.
+An array of SIZE elements that describe, in terms of screen resolutions, the modes that should be tested.
 
 
 ## -returns

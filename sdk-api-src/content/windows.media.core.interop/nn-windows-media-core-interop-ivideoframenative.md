@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.media.core.interop.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IVideoFrameNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/084F020F-A6F5-4982-BA4B-A8F8D6182868">GetData</a>
 </td>
 <td align="left" width="63%">
 This method returns an interface that provides access to the video data. 
@@ -80,7 +81,7 @@ This method returns an interface that provides access to the video data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/9A61159B-C383-4770-AD8F-9F69F720E3E2">GetDevice</a>
 </td>
 <td align="left" width="63%">
 This method returns a device associated with the video data. 

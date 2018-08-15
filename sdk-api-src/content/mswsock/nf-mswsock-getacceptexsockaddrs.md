@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -54,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 The 
 <b>GetAcceptExSockaddrs</b> function parses the data obtained from a call to the 
 <a href="https://msdn.microsoft.com/cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b">AcceptEx</a> function and passes the local and remote addresses to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.<div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.<div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
 <div> </div>
 
 
@@ -92,7 +93,7 @@ The number of bytes reserved for the remote address information. This value must
 ### -param LocalSockaddr [out]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure that receives the local address of the connection (the same information that would be returned by the 
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure that receives the local address of the connection (the same information that would be returned by the 
 <a href="https://msdn.microsoft.com/be20a731-cdfc-48ae-90b2-43f2cf9ecf6d">getsockname</a> function). This parameter must be specified.
 
 
@@ -103,7 +104,7 @@ The size, in bytes, of the local address. This parameter must be specified.
 
 ### -param RemoteSockaddr [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure that receives the remote address of the connection (the same information that would be returned by the 
+A pointer to the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure that receives the remote address of the connection (the same information that would be returned by the 
 <a href="https://msdn.microsoft.com/df2679a5-cdd9-468b-823a-f98044189f65">getpeername</a> function). This parameter must be specified.
 
 
@@ -128,7 +129,7 @@ This function does not return a value.
 The 
 <b>GetAcceptExSockaddrs</b> function is used exclusively with the 
 <a href="https://msdn.microsoft.com/cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b">AcceptEx</a> function to parse the first data that the socket receives into local and remote addresses. The 
-<b>AcceptEx</b> function returns local and remote address information in an internal format. Application developers need to use the <b>GetAcceptExSockaddrs</b> function if there is a need for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structures containing the local or remote addresses.
+<b>AcceptEx</b> function returns local and remote address information in an internal format. Application developers need to use the <b>GetAcceptExSockaddrs</b> function if there is a need for the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structures containing the local or remote addresses.
 
 
 <div class="alert"><b>Note</b>  The function pointer for the 
@@ -169,7 +170,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,15 +95,15 @@ Pointer to a Boolean value indicating whether a reboot will be required after th
 
 
 
+#### - piMappings [out]
+
+Pointer to the number of alternate mappings associated with the writer.
+
+
 #### - pwreWriterRestore [out]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> value specifying whether the writer will be involved in restoring its data.
-
-
-#### - piMappings [out]
-
-Pointer to the number of alternate mappings associated with the writer.
 
 
 ## -returns

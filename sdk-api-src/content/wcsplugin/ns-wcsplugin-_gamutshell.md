@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,14 +95,14 @@ The number of triangles in the shell.
 
 
 
-#### - *pVertices
-
-A pointer to the vertices data.
-
-
 #### - *pTriangles
 
 A pointer to the indexed triangles.
+
+
+#### - *pVertices
+
+A pointer to the vertices data.
 
 
 ## -see-also
@@ -113,7 +114,7 @@ A pointer to the indexed triangles.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/68d681e6-4798-449b-9afd-ab35f24d6e67">Structures</a>
 
 
 

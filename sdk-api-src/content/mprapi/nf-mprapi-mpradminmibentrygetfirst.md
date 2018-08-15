@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -178,7 +179,7 @@ Do not pass in <b>NULL</b> for the <i>lpInEntry</i> parameter because the result
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559298">MIB Structures</a>
+<a href="https://msdn.microsoft.com/811a1e41-efce-4e9c-8329-1c6929e12a8d">MIB Structures</a>
 
 
 

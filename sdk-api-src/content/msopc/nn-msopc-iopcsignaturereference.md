@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -91,7 +92,7 @@ Gets the digest value that is calculated for the referenced XML element when the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/741fd38e-910a-42c7-8bd2-006cf29843d9">GetId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the reference.
@@ -110,7 +111,7 @@ Gets the canonicalization method to use on the referenced XML element, when the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/7402f031-b06c-4fc6-bb54-ad9fc28600b3">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets a string that indicates the type of the referenced XML  element.

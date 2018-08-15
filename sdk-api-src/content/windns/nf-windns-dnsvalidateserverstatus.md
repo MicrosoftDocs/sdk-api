@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -62,7 +63,7 @@ The
 
 ### -param server [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> that contains the DNS server IPv4 or IPv6  address to be examined.
+A pointer to a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> that contains the DNS server IPv4 or IPv6  address to be examined.
 
 
 ### -param queryName [in]

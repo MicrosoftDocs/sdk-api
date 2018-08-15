@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -67,7 +68,7 @@ The handle to the window in which the frame will be extended into the client are
 
 ### -param pMarInset [in]
 
-A pointer to a <a href="inet_MARGINS">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773244(v=VS.85).aspx">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
 
 
 ## -returns

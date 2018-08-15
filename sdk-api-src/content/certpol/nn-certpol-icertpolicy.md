@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certpol.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,21 +86,21 @@ The <b>ICertPolicy</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/38b85fa8-f5e7-4ac8-9f38-1cad83417797">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns a human-readable description of the policy module and its function.</p> (Inherited from <b>ICertPolicy</b><a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">CCertPolicy</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/b0a0e9a6-79ca-4898-bddd-e736552aaf68">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called by the server engine to allow the policy module to perform initialization tasks.</p> (Inherited from <b>ICertPolicy</b><a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">CCertPolicy</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/2a796acb-b179-4b6f-8864-9e96f4049389">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Called by the server engine before the server is terminated.</p> (Inherited from <b>ICertPolicy</b><a href="https://msdn.microsoft.com/2e48b096-e23a-4106-bfaf-f089d2291fba">CCertPolicy</a>)</td>

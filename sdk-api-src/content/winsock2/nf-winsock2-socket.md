@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -139,7 +140,7 @@ The Windows Sockets provider for NetBIOS is not supported on 64-bit versions of 
 
 The Windows Sockets provider for NetBIOS  only supports sockets where the <i>type</i> parameter is set to <b>SOCK_DGRAM</b>.
 
-The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
+The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
 
 </td>
 </tr>
@@ -852,7 +853,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a>
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a>
  
 
  

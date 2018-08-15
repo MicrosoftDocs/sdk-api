@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ Retrieves a pointer to an <b>IWMPCdrom</b> interface associated with a particula
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">item</a>
+<a href="https://msdn.microsoft.com/4604e53d-914f-4888-99c7-64d0683ac2e0">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPCdrom</b> interface at the given index.
@@ -128,7 +129,7 @@ Retrieve a pointer to an <b>IWMPCdromCollection</b> interface with the following
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -80,7 +81,7 @@ Requests the creation of an <a href="https://msdn.microsoft.com/19d3176a-3f47-46
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/c63c794c-41a0-4f07-be93-ba24dc156ca2">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the protocol manager.
@@ -134,7 +135,7 @@ Notifies the protocol provider of changes in the settings within the Remote Desk
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597582">Uninitialize</a>
+<a href="https://msdn.microsoft.com/1d7bc6e3-798e-4dc8-8892-7be6992b67ab">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Uninitializes the protocol manager.

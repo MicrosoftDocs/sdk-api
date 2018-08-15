@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: austream.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.irql:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IMemoryData</code> interface contains methods that set and retrieve memory data on audio data objects. Audio data objects provide the underlying data which stream samples access. This interface provides a way to initialize memory buffers and to set actual amounts of audio data in the objects. Additionally, the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a> method can be used to retrieve audio memory data.
+The <code>IMemoryData</code> interface contains methods that set and retrieve memory data on audio data objects. Audio data objects provide the underlying data which stream samples access. This interface provides a way to initialize memory buffers and to set actual amounts of audio data in the objects. Additionally, the <a href="https://msdn.microsoft.com/9e9538c4-2f11-401e-a3c1-f8aa6c24f725">GetInfo</a> method can be used to retrieve audio memory data.
 
 Implement this interface on underlying audio data objects that audio stream sample objects will access.
 
@@ -81,7 +82,7 @@ The <b>IMemoryData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://msdn.microsoft.com/9e9538c4-2f11-401e-a3c1-f8aa6c24f725">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information describing an audio data object.
@@ -99,7 +100,7 @@ Sets the amount of audio data currently in the object, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+<a href="https://msdn.microsoft.com/d565b493-0ee6-4a10-9af3-ff9d9ba48ba8">SetBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a memory buffer with a pointer to memory and length.

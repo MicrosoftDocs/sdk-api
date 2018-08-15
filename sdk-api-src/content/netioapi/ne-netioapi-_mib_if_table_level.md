@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netioapi.h
 req.include-header: Netioapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -63,20 +64,20 @@ The MIB_IF_TABLE_LEVEL enumeration type defines the level of interface informati
 ### -field MibIfTableNormal
 
 The values of statistics and state that are returned in members of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structure in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a> structure that the 
+     <a href="https://msdn.microsoft.com/37d5fc98-7d56-4f34-9806-8c0de69835a1">MIB_IF_ROW2</a> structure in the 
+     <a href="https://msdn.microsoft.com/9df0cd0a-6d94-4a4b-8035-0f94b1cfa247">MIB_IF_TABLE2</a> structure that the 
      <i>Table</i> parameter points to in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a> function are returned from
+     <a href="https://msdn.microsoft.com/d7bcedc0-3bf2-48f7-9e6f-6a0224b0ce26">GetIfTable2Ex</a> function are returned from
      the top of the filter stack.
 
 
 ### -field MibIfTableRaw
 
 The values of statistics and state that are returned in members of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a> structure in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a> structure that the 
+     <a href="https://msdn.microsoft.com/37d5fc98-7d56-4f34-9806-8c0de69835a1">MIB_IF_ROW2</a> structure in the 
+     <a href="https://msdn.microsoft.com/9df0cd0a-6d94-4a4b-8035-0f94b1cfa247">MIB_IF_TABLE2</a> structure that the 
      <i>Table</i> parameter points to in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a> function are returned
+     <a href="https://msdn.microsoft.com/d7bcedc0-3bf2-48f7-9e6f-6a0224b0ce26">GetIfTable2Ex</a> function are returned
      directly for the interface that is being queried.
 
 
@@ -92,7 +93,7 @@ The values returned are the same as for the <b>MibIfTableNormal </b> value, but 
 
 
 The MIB_IF_TABLE_LEVEL enumeration type is used with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a> function to specify the level
+    <a href="https://msdn.microsoft.com/d7bcedc0-3bf2-48f7-9e6f-6a0224b0ce26">GetIfTable2Ex</a> function to specify the level
     of interface information to retrieve.
 
 
@@ -103,15 +104,15 @@ The MIB_IF_TABLE_LEVEL enumeration type is used with the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a>
+<a href="https://msdn.microsoft.com/d7bcedc0-3bf2-48f7-9e6f-6a0224b0ce26">GetIfTable2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a>
+<a href="https://msdn.microsoft.com/37d5fc98-7d56-4f34-9806-8c0de69835a1">MIB_IF_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a>
+<a href="https://msdn.microsoft.com/9df0cd0a-6d94-4a4b-8035-0f94b1cfa247">MIB_IF_TABLE2</a>
  
 
  

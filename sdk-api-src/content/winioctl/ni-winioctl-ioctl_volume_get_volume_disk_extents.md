@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -211,7 +212,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568017">VOLUME_DISK_EXTENTS</a>
+<a href="https://msdn.microsoft.com/3f38f03c-1b99-4072-904c-dca1b98a245c">VOLUME_DISK_EXTENTS</a>
 
 
 

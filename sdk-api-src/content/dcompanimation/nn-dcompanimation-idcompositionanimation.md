@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcompanimation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -106,7 +107,7 @@ Adds an end segment that marks the end of an animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/3745fff0-eefa-4262-9ce3-9ab812264c1d">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the animation function so that it contains no segments.

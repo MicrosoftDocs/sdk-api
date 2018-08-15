@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdUnLock</i> callback function releases the lock held on the specified su
 
 #### - lpUnlock
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551745">DD_UNLOCKDATA</a> structure that contains the information required to perform the lock release.
+Points to a <a href="https://msdn.microsoft.com/4642f596-376f-4f63-bf6e-916112ce1ec9">DD_UNLOCKDATA</a> structure that contains the information required to perform the lock release.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55174
 
 The driver does not need to verify that the memory was previously locked down by <a href="https://msdn.microsoft.com/b5256ed8-79be-4c7b-a079-ed3bca954e9e">DdLock</a>, because DirectDraw does parameter validation before calling this routine. 
 
-<i>DdUnLock</i> can be called with a disabled <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a> function. See <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> for more information. 
+<i>DdUnLock</i> can be called with a disabled <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a> function. See <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> for more information. 
 
 
 
@@ -97,7 +98,7 @@ The driver does not need to verify that the memory was previously locked down by
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551745">DD_UNLOCKDATA</a>
+<a href="https://msdn.microsoft.com/4642f596-376f-4f63-bf6e-916112ce1ec9">DD_UNLOCKDATA</a>
 
 
 

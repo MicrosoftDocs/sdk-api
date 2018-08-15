@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdMoCompQueryStatus</b> callback function queries the status of the most 
 
 #### - lpStatusData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551691">DD_QUERYMOCOMPSTATUSDATA</a> structure that contains the information needed to query the status.
+Points to a <a href="https://msdn.microsoft.com/53e2c8c7-dc6b-4c0b-9555-9aac07bd9186">DD_QUERYMOCOMPSTATUSDATA</a> structure that contains the information needed to query the status.
 
 
 ## -returns
@@ -95,7 +96,7 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompQu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551691">DD_QUERYMOCOMPSTATUSDATA</a>
+<a href="https://msdn.microsoft.com/53e2c8c7-dc6b-4c0b-9555-9aac07bd9186">DD_QUERYMOCOMPSTATUSDATA</a>
  
 
  

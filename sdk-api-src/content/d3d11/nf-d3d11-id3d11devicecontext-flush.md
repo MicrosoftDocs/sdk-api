@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ When Microsoft Direct3D state-setting, present, or draw commands are called by a
       they need to be sent, such as when the command buffer is full or when an application maps a resource. <b>Flush</b> sends the commands manually.
 
 We recommend that you use <b>Flush</b> when the CPU waits for an arbitrary amount of time (such as when 
-      you call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439324">Sleep</a> function).
+      you call the <a href="https://msdn.microsoft.com/934d37ea-402c-4118-bd7e-87b5fce80fca">Sleep</a> function).
 
 Because <b>Flush</b> operates asynchronously,  it can return either before or after the GPU finishes executing the queued graphics commands. However, the graphics commands eventually always complete. You can call the <a href="https://msdn.microsoft.com/ad09a309-862f-462d-8268-62e44397c298">ID3D11Device::CreateQuery</a> method with the <a href="https://msdn.microsoft.com/en-us/library/Ff476191(v=VS.85).aspx">D3D11_QUERY_EVENT</a> value to create an event query; you can then use that event query in a call to the <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a> method to determine when the GPU is finished processing the graphics commands.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536957">IPropertyStore::Commit</a>
+<a href="https://msdn.microsoft.com/a3cc6815-a16f-45e7-a2d5-8f354f712170">IPropertyStore::Commit</a>
 </td>
 <td align="left" width="63%">
 After a change has been made, this method saves the changes.
@@ -80,7 +81,7 @@ After a change has been made, this method saves the changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>
+<a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets a property key from the property array of an item.
@@ -89,7 +90,7 @@ Gets a property key from the property array of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536960">IPropertyStore::GetCount</a>
+<a href="https://msdn.microsoft.com/23f7b982-29db-4960-9a1d-2f9e033ebf61">IPropertyStore::GetCount</a>
 </td>
 <td align="left" width="63%">
 This method returns a count of the number of properties that are attached to the file.
@@ -98,7 +99,7 @@ This method returns a count of the number of properties that are attached to the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a>
+<a href="https://msdn.microsoft.com/11204335-0f00-4af8-8787-93e91248e5bd">IPropertyStore::GetValue</a>
 </td>
 <td align="left" width="63%">
 This method retrieves the data for a specific property.
@@ -107,7 +108,7 @@ This method retrieves the data for a specific property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a>
+<a href="https://msdn.microsoft.com/be21bcb2-6875-4559-abd7-a496f0fcddd6">IPropertyStore::SetValue</a>
 </td>
 <td align="left" width="63%">
 This method sets a property value or replaces or removes an existing value.
@@ -122,11 +123,11 @@ This method sets a property value or replaces or removes an existing value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151546">APOInitSystemEffects</a>
+<a href="https://msdn.microsoft.com/E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC">APOInitSystemEffects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151547">AudioFXExtensionParams</a>
+<a href="https://msdn.microsoft.com/832F1190-ED3E-4059-AB45-18C23D98663B">AudioFXExtensionParams</a>
  
 
  

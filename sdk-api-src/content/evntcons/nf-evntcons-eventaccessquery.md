@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: evntcons.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -118,7 +119,7 @@ The buffer is too small to receive the security descriptor. Reallocate the buffe
 
 If the GUID does not exist in the registry, ETW returns the default permissions for a provider or controller. For details on specifying the GUID in the registry, see <a href="https://msdn.microsoft.com/699bb165-680f-4d3b-8859-959f319ca4be">EventAccessControl</a>.
 
-For information on accessing the components of the security descriptor, see <a href="https://msdn.microsoft.com/a0839c49-09e9-4407-8702-051b88ef2231">Getting Information from an ACL</a>, the <a href="https://msdn.microsoft.com/8006c8bb-4976-463f-b074-a59c3bbab36b">GetSecurityDescriptorDacl</a>, <a href="https://msdn.microsoft.com/6bf59735-aaa3-4751-8c98-00cc197df4e5">GetSecurityDescriptorSacl</a>, and <a href="https://msdn.microsoft.com/5b5d8751-20d7-40a2-bd70-cfbe956aaa03">GetAce</a> functions, and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a> structure.
+For information on accessing the components of the security descriptor, see <a href="https://msdn.microsoft.com/a0839c49-09e9-4407-8702-051b88ef2231">Getting Information from an ACL</a>, the <a href="https://msdn.microsoft.com/8006c8bb-4976-463f-b074-a59c3bbab36b">GetSecurityDescriptorDacl</a>, <a href="https://msdn.microsoft.com/6bf59735-aaa3-4751-8c98-00cc197df4e5">GetSecurityDescriptorSacl</a>, and <a href="https://msdn.microsoft.com/5b5d8751-20d7-40a2-bd70-cfbe956aaa03">GetAce</a> functions, and the <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a> structure.
 
 
 

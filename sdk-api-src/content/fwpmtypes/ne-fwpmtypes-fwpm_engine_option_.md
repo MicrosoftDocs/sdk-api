@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -113,7 +114,7 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj124048">Logging</a>
+<a href="https://msdn.microsoft.com/607b7664-6be4-4ae6-991b-58ac9175405a">Logging</a>
 
 
 

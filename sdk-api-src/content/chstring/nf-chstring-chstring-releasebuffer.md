@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -59,7 +60,7 @@ req.irql:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>ReleaseBuffer</b> method ends the use of a buffer allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>.
+The <b>ReleaseBuffer</b> method ends the use of a buffer allocated by <a href="https://msdn.microsoft.com/07fa7cae-8af6-491b-a561-8947afde47ab">GetBuffer</a>.
 
 
 ## -parameters
@@ -87,7 +88,7 @@ This method does not return a value.
 
 
 
-If you know that the string in the buffer is <b>NULL</b>-terminated, you can omit the <i>nNewLength</i> parameter. If your string is not <b>NULL</b>-terminated, then use <i>nNewLength</i> to specify its length. The address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> is not valid after the call to <b>ReleaseBuffer</b> or any other <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> operation.
+If you know that the string in the buffer is <b>NULL</b>-terminated, you can omit the <i>nNewLength</i> parameter. If your string is not <b>NULL</b>-terminated, then use <i>nNewLength</i> to specify its length. The address returned by <a href="https://msdn.microsoft.com/07fa7cae-8af6-491b-a561-8947afde47ab">GetBuffer</a> is not valid after the call to <b>ReleaseBuffer</b> or any other <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> operation.
 
 
 

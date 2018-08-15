@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -180,7 +181,7 @@ The following is a list of the notifications that may be sent.
 <td>
 <a href="https://msdn.microsoft.com/en-us/library/Bb787987(v=VS.85).aspx">EN_SELCHANGE</a>
 </td>
-<td>Sent when the current selection has changed. A <a href="https://msdn.microsoft.com/en-us/library/Bb787952(v=VS.85).aspx">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_SELCHANGE</a> mask.</td>
+<td>Sent when the current selection has changed. A <a href="https://msdn.microsoft.com/en-us/library/Bb787952(v=VS.85).aspx">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_SELCHANGE</a> mask.</td>
 </tr>
 <tr>
 <td>
@@ -198,8 +199,8 @@ The following is a list of the notifications that may be sent.
 <td>
 <a href="https://msdn.microsoft.com/en-us/library/Bb761687(v=VS.85).aspx">EN_UPDATE</a>
 </td>
-<td>Sent before an edit control requests a redraw of altered data or text. No additional data is sent. This event is controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_UPDATE</a> mask. 
-							<b>Rich Edit 2.0 and later:</b> The <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_UPDATE</a> mask is ignored and the <a href="https://msdn.microsoft.com/en-us/library/Bb761687(v=VS.85).aspx">EN_UPDATE</a> notification code is always sent. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, the <b>ENM_UPDATE</b> mask controls this notification.
+<td>Sent before an edit control requests a redraw of altered data or text. No additional data is sent. This event is controlled through the <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_UPDATE</a> mask. 
+							<b>Rich Edit 2.0 and later:</b> The <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_UPDATE</a> mask is ignored and the <a href="https://msdn.microsoft.com/en-us/library/Bb761687(v=VS.85).aspx">EN_UPDATE</a> notification code is always sent. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, the <b>ENM_UPDATE</b> mask controls this notification.
 
 </td>
 </tr>
@@ -207,7 +208,7 @@ The following is a list of the notifications that may be sent.
 <td>
 <a href="https://msdn.microsoft.com/en-us/library/Bb761689(v=VS.85).aspx">EN_VSCROLL</a>
 </td>
-<td>Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control, before the screen is updated. This is controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_SCROLL</a> mask; no extra data is sent.</td>
+<td>Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control, before the screen is updated. This is controlled through the <a href="https://msdn.microsoft.com/en-us/library/Bb774366(v=VS.85).aspx">ENM_SCROLL</a> mask; no extra data is sent.</td>
 </tr>
 </table>
  

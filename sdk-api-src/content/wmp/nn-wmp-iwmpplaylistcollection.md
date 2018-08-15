@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -120,7 +121,7 @@ Creates a new, empty playlist in the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">remove</a>
+<a href="https://msdn.microsoft.com/ed678c2c-bfde-424b-9c71-21270a32a08e">remove</a>
 </td>
 <td align="left" width="63%">
 Removes a playlist from the library.
@@ -150,7 +151,7 @@ No longer supported.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
  
 
  

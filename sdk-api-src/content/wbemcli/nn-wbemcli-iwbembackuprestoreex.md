@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 The 
-<b>IWbemBackupRestoreEx</b> interface backs up and restores the contents of the repository. The affected content of the repository is static data, such as the class definitions that get compiled into the repository when a Managed Object Format (MOF) file is loaded. The dynamic data supplied through providers is not included. This interface adds the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a> and <a href="https://msdn.microsoft.com/fa31860b-36f5-4182-a58c-b8747af0e628">Resume</a> methods to the functionality of <a href="https://msdn.microsoft.com/27599145-417b-4ca8-8e25-5fffb2e7008c">IWbemBackupRestore</a>.
+<b>IWbemBackupRestoreEx</b> interface backs up and restores the contents of the repository. The affected content of the repository is static data, such as the class definitions that get compiled into the repository when a Managed Object Format (MOF) file is loaded. The dynamic data supplied through providers is not included. This interface adds the <a href="https://msdn.microsoft.com/ce4f2637-cf30-4087-bd49-b26554f434ca">Pause</a> and <a href="https://msdn.microsoft.com/fa31860b-36f5-4182-a58c-b8747af0e628">Resume</a> methods to the functionality of <a href="https://msdn.microsoft.com/27599145-417b-4ca8-8e25-5fffb2e7008c">IWbemBackupRestore</a>.
 
 
 ## -inheritance
@@ -81,7 +82,7 @@ Backs up and restores the contents of the repository to and from a specified fil
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/ce4f2637-cf30-4087-bd49-b26554f434ca">Pause</a>
 </td>
 <td align="left" width="63%">
 Locks out write operations from the WMI repository.

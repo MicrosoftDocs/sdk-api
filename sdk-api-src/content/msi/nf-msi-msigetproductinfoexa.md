@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -157,7 +158,7 @@ Retrieves the product property for the per-machine instance of the product.
 Property being queried.
 
 The property to be retrieved. The properties in the following table can only be retrieved from applications that are already installed. All required properties are guaranteed to be available, but other properties are available only if the property is set. For more information, see  
-<a href="https://msdn.microsoft.com/f63fc1e3-ac08-4c7b-8ce3-e02c59b716ab">Required Properties</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>.
+<a href="https://msdn.microsoft.com/f63fc1e3-ac08-4c7b-8ce3-e02c59b716ab">Required Properties</a> and <a href="https://msdn.microsoft.com/471526ab-dd98-4a58-bb3f-38990db5dc09">Properties</a>.
 
 <table>
 <tr>
@@ -268,7 +269,7 @@ The local cached package.
 </dl>
 </td>
 <td width="60%">
-The publisher. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965750">Manufacturer</a> property.
+The publisher. For more information, see the <a href="https://msdn.microsoft.com/99143330-0556-40a9-811e-5790f7a34a96">Manufacturer</a> property.
 
 </td>
 </tr>
@@ -592,7 +593,7 @@ The <a href="https://msdn.microsoft.com/336a68d6-5239-4313-b6c7-8091907a0e35">Ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965750">Manufacturer</a>
+<a href="https://msdn.microsoft.com/99143330-0556-40a9-811e-5790f7a34a96">Manufacturer</a>
 
 
 
@@ -632,7 +633,7 @@ The <a href="https://msdn.microsoft.com/336a68d6-5239-4313-b6c7-8091907a0e35">Ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>
+<a href="https://msdn.microsoft.com/471526ab-dd98-4a58-bb3f-38990db5dc09">Properties</a>
 
 
 

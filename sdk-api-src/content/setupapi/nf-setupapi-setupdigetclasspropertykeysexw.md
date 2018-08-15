@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Property_Keys_Ex
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ A pointer to a GUID that represents a device setup class or a device interface c
 
 ### -param PropertyKeyArray [out, optional]
 
-A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device setup class. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
+A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device setup class. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyKeyCount [in]
@@ -254,15 +255,15 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetClassPropertyKeysEx</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
+<b>SetupDiGetClassPropertyKeysEx</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
 
 A caller of <b>SetupDiGetClassPropertyKeysEx</b> must be a member of the Administrators group to retrieve device property keys for a device class. 
 
 If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetClassPropertyKeysEx</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetClassPropertyKeysEx</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
 
-To retrieve a device class property on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551090">SetupDiGetClassPropertyEx</a>, and to set a device class property on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552132">SetupDiSetClassPropertyEx</a>.
+To retrieve a device class property on a remote computer, call <a href="https://msdn.microsoft.com/74b6cd23-5741-4f0c-b5e1-6cdea2074c28">SetupDiGetClassPropertyEx</a>, and to set a device class property on a remote computer, call <a href="https://msdn.microsoft.com/99b58da2-0398-4dc1-8c9e-0eefaf03bf91">SetupDiSetClassPropertyEx</a>.
 
-To retrieve the property keys for a device setup class or device interface class on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551091">SetupDiGetClassPropertyKeys</a>.
+To retrieve the property keys for a device setup class or device interface class on a local computer, call <a href="https://msdn.microsoft.com/9b595fc5-f517-41f9-b7a8-a7811f658d57">SetupDiGetClassPropertyKeys</a>.
 
 
 
@@ -272,15 +273,15 @@ To retrieve the property keys for a device setup class or device interface class
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551090">SetupDiGetClassPropertyEx</a>
+<a href="https://msdn.microsoft.com/74b6cd23-5741-4f0c-b5e1-6cdea2074c28">SetupDiGetClassPropertyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551091">SetupDiGetClassPropertyKeys</a>
+<a href="https://msdn.microsoft.com/9b595fc5-f517-41f9-b7a8-a7811f658d57">SetupDiGetClassPropertyKeys</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552132">SetupDiSetClassPropertyEx</a>
+<a href="https://msdn.microsoft.com/99b58da2-0398-4dc1-8c9e-0eefaf03bf91">SetupDiSetClassPropertyEx</a>
  
 
  

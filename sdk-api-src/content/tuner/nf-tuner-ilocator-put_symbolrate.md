@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -85,7 +86,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_get_symbolrate">get_SymbolRate</a>
+<a href="https://msdn.microsoft.com/library/Dd693584(v=VS.85).aspx">get_SymbolRate</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ Retrieves the capabilities of this surface. These capabilities are not necessari
 
 #### - lpDDSCaps [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure that receives the hardware capabilities of this surface.
+A pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that receives the hardware capabilities of this surface.
 
 
 ## -returns
@@ -86,7 +87,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-The <b>IDirectDrawSurface7::GetCaps</b> method differs from its counterpart in the <b>IDirectDrawSurface3</b> interface in that it accepts a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure, rather than the legacy <a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a> structure.
+The <b>IDirectDrawSurface7::GetCaps</b> method differs from its counterpart in the <b>IDirectDrawSurface3</b> interface in that it accepts a pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure, rather than the legacy <a href="https://msdn.microsoft.com/d7c4025c-dbb6-4182-b730-c69abd97f2bb">DDSCAPS</a> structure.
 
 
 

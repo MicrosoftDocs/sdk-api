@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -74,7 +75,7 @@ Number of container paths in the <i>ContainerPaths</i> array.
 ### -param ContainerPaths [in]
 
 Array of paths to container files that must be read in order to restore the file specified in the 
-      <a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a> 
+      <a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">IDedupBackupSupport::RestoreFiles</a> 
       call. Each element is a full path from the root directory of the volume to a container file.
 
 

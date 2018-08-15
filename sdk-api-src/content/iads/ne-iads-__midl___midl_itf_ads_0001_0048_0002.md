@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -53,7 +54,7 @@ req.product: GDI+ 1.1
 
 The <b>ADS_ACETYPE_ENUM</b> enumeration is used to specify the type of an access-control entry for Active Directory objects. The <a href="https://msdn.microsoft.com/dce11723-0e30-4baa-8666-0a32f0968ebb">IADsAccessControlEntry.AceType</a> property contains one of these values for an Active Directory object.
 
-For more information and possible values for file, file share and registry objects, see the <b>AceType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a> structure.
+For more information and possible values for file, file share and registry objects, see the <b>AceType</b> member of the <a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure.
 
 
 ## -enum-fields

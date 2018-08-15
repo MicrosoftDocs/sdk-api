@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -84,7 +85,7 @@ The <b>ClusResDependencies</b> collection has these methods.
 <a href="https://msdn.microsoft.com/f8462df8-dece-423f-a585-5774411401c8">AddItem</a>
 </td>
 <td align="left" width="63%">
-Adds an existing <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> resource to the dependency 
+Adds an existing <a href="c_gly.htm">cluster</a> resource to the dependency 
      collection.
 
 </td>
@@ -136,7 +137,7 @@ Removes a dependency from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/c946eda8-e6f5-4e5b-9512-31d718820edc">Count</a>
 
 
 </td>
@@ -152,7 +153,7 @@ Returns the number of dependencies in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/5eba54e1-5c55-46b0-97b9-0104cfb4134c">Item</a>
 
 
 </td>

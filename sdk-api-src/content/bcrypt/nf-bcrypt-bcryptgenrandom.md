@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -105,7 +106,7 @@ This function will use the number in the <i>pbBuffer</i> buffer as additional en
 <td width="60%">
 Use the system-preferred random number generator algorithm. The <i>hAlgorithm</i> parameter must be <b>NULL</b>.
 
-BCRYPT_USE_SYSTEM_PREFERRED_RNG is only supported at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/library/windows/hardware/ff551779">IRQL</a>. For more information, see Remarks.
+BCRYPT_USE_SYSTEM_PREFERRED_RNG is only supported at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a>. For more information, see Remarks.
 
 <b>Windows Vista:  </b>This flag is not supported.
 
@@ -178,7 +179,7 @@ The default random number provider implements an algorithm for generating random
 
 <b>Windows Vista:  </b>Prior to Windows Vista with Service Pack 1 (SP1) the default random number provider implements an algorithm for generating random numbers that complies with the FIPS 186-2 standard. 
 
-Depending on what processor modes a provider supports, <b>BCryptGenRandom</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/library/windows/hardware/ff551779">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenRandom</b> function must refer to nonpaged (or locked) memory.<b>Windows Vista:  </b>The Microsoft provider does not support calling at <b>DISPATCH_LEVEL</b>.
+Depending on what processor modes a provider supports, <b>BCryptGenRandom</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenRandom</b> function must refer to nonpaged (or locked) memory.<b>Windows Vista:  </b>The Microsoft provider does not support calling at <b>DISPATCH_LEVEL</b>.
 
 
 

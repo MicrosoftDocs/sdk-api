@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-Contains HDCP status flags. This enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563896">DXVA_COPPStatusHDCPKeyData</a> structure.
+Contains HDCP status flags. This enumeration is used in the <a href="https://msdn.microsoft.com/fd49c50d-6caa-4d2a-83c6-41ff0130160f">DXVA_COPPStatusHDCPKeyData</a> structure.
 
 
 

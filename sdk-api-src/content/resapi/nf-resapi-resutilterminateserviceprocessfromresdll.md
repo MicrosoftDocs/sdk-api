@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -91,7 +92,7 @@ Pointer to the <a href="https://msdn.microsoft.com/91389083-e007-4d64-885f-e5188
 ### -param hResourceHandle [in]
 
 The Resource Monitor's handle to the resource. This handle is passed to your resource DLL in the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> entry point and must be saved as part of the resource's 
+       <a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a> entry point and must be saved as part of the resource's 
        <a href="https://msdn.microsoft.com/0580ec99-2bb7-440b-9a5b-a73430b5b0f1">instance data</a>.
 
 

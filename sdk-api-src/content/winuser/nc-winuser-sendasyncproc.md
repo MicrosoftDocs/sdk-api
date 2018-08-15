@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,6 +78,13 @@ An application-defined callback function used with the <a href="https://msdn.mic
 
 
 
+#### - dwData [in]
+
+Type: <b>ULONG_PTR</b>
+
+An application-defined value sent from the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function.
+
+
 #### - hwnd [in]
 
 Type: <b>HWND</b>
@@ -86,25 +94,18 @@ A handle to the window whose window procedure received the message.
 If the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
 
 
-#### - uMsg [in]
-
-Type: <b>UINT</b>
-
-The message.
-
-
-#### - dwData [in]
-
-Type: <b>ULONG_PTR</b>
-
-An application-defined value sent from the <a href="https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx">SendMessageCallback</a> function.
-
-
 #### - lResult [in]
 
 Type: <b>LRESULT</b>
 
 The result of the message processing. This value depends on the message.
+
+
+#### - uMsg [in]
+
+Type: <b>UINT</b>
+
+The message.
 
 
 ## -returns

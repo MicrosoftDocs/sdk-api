@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>WinUsb_GetPowerPolicy</b> function retrieves the power policy for a devic
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first interface on the device, which is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. 
+An opaque handle to the first interface on the device, which is returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
 
 
 ### -param PolicyType [in]
@@ -167,11 +168,11 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff728834">WinUSB Power Management</a>
+<a href="https://msdn.microsoft.com/4925064b-2676-436d-b455-a68f622c543e">WinUSB Power Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
  
 
  

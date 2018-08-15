@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method should be called prior to the <code>Create</code> method.
+The <a href="https://msdn.microsoft.com/6e3c7876-28a6-4d5f-afca-7c0421df8c02">Initialize</a> method should be called prior to the <code>Create</code> method.
 
 The parent window indicated by <i>hWndParent</i> provides <b>OK</b> and <b>Cancel</b> buttons to the new dialog box instance.
 

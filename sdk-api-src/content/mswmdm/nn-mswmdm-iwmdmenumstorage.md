@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IWMDMEnumStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/3b4bc213-8345-45ae-90bd-49e89684fd9a">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator with the same enumeration state as the current enumerator.
@@ -83,7 +84,7 @@ Creates another enumerator with the same enumeration state as the current enumer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/aec244c3-93e4-4093-b49c-9c74ec93ce0f">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the next sibling storage
@@ -92,7 +93,7 @@ Retrieves a pointer to the next sibling storage
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/1c582374-cbec-4b7c-b46b-9a0dd8b028d6">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the enumeration sequence back to the beginning.
@@ -101,7 +102,7 @@ Sets the enumeration sequence back to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/0073f279-95e4-41e3-9195-c4c93fd41fb6">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of storage devices or separate items of content in the enumeration sequence.

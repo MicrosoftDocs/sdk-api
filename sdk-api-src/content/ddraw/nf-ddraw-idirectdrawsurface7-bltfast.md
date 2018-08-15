@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,26 +66,6 @@ Performs a source copy bitblt or transparent bitblt by using a source color key 
 
 
 
-#### - dwX [in]
-
-The x-coordinate to bitblt to on the destination surface.
-
-
-#### - dwY [in]
-
-The y-coordinate to bitblt to on the destination surface.
-
-
-#### - lpDDSrcSurface [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
-
-
-#### - lpSrcRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface.
-
-
 #### - dwFlags [in]
 
 Type of transfer. The following transfers are defined:
@@ -114,9 +95,29 @@ A transparent bitblt that uses the source color key.
 Postpones the DDERR_WASSTILLDRAWING message if the bitbltter is busy, and returns as soon as the bitblt can be set up or another error occurs.
 
 
+#### - dwX [in]
+
+The x-coordinate to bitblt to on the destination surface.
+
+
+#### - dwY [in]
+
+The y-coordinate to bitblt to on the destination surface.
+
+
 #### - lpDDBltFx [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/a542434f-61d3-4c73-a087-ffb83a509c67">DDBLTFX</a> structure for the bitblt.
+
+
+#### - lpDDSrcSurface [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
+
+
+#### - lpSrcRect [in]
+
+A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface.
 
 
 ## -returns

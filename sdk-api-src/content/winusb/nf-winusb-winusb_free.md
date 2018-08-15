@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>WinUsb_Free</b> function releases all of the resources that <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a> allocated. This is a synchronous operation.
+The <b>WinUsb_Free</b> function releases all of the resources that <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a> allocated. This is a synchronous operation.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>WinUsb_Free</b> function releases all of the resources that <a href="http
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
+An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a> or <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
 
 
 ## -returns
@@ -86,7 +87,7 @@ An opaque handle to an interface in the selected configuration. That handle must
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
  
 
  

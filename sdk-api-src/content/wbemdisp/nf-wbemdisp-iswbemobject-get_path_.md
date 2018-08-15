@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -81,8 +82,8 @@ Because of this, you cannot modify the
 <a href="https://msdn.microsoft.com/7d1c3a28-d0d3-4108-9628-74ad483e328e">SWbemNamedValueSet</a> object that is the value of the 
 <a href="https://msdn.microsoft.com/1919403d-6dea-4d41-9bc7-a622a9c9c2c8">Keys</a> property of the returned 
 <a href="https://msdn.microsoft.com/f2cf489d-d2a9-4926-84cf-fb33fe3d726a">SWbemObjectPath</a> instance. If you try to call the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>, or 
+<a href="https://msdn.microsoft.com/471b23f5-6c53-40e2-a2a9-0798044c9dfb">Add</a>, 
+<a href="https://msdn.microsoft.com/8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4">Remove</a>, or 
 <a href="https://msdn.microsoft.com/db5d2e68-028e-4902-ad42-0b46e1a96bcb">DeleteAll</a> methods on this value, you will get a wbemErrReadOnly error. Furthermore, you cannot modify any 
 <a href="https://msdn.microsoft.com/3f72afcd-6e10-4200-804d-918e3eb2862f">SWbemNamedValue</a> obtained from this collection. Attempts to modify the 
 <b>Value</b> property return the same error code.

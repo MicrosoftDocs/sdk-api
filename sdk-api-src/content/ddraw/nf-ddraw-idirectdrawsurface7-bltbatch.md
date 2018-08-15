@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -67,11 +68,6 @@ The <b>IDirectDrawSurface7::BltBatch</b> method is not currently implemented.
 
 
 
-#### - lpDDBltBatch [in]
-
-A pointer to the first <a href="https://msdn.microsoft.com/d8c302aa-9c57-41f8-ad22-d8fdd1158c3c">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
-
-
 #### - dwCount [in]
 
 Number of bitblt operations to be performed.
@@ -80,6 +76,11 @@ Number of bitblt operations to be performed.
 #### - dwFlags [in]
 
 Currently not used and must be set to 0.
+
+
+#### - lpDDBltBatch [in]
+
+A pointer to the first <a href="https://msdn.microsoft.com/d8c302aa-9c57-41f8-ad22-d8fdd1158c3c">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
 
 
 ## -returns

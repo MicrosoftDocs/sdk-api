@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -69,10 +70,10 @@ Time the job was created. The time is specified as
 
 Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the 
 <a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob*</a> interfaces changes this value. In addition, changes to the state of the job and calling the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a>, 
+<a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">Suspend</a>, 
 <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">Resume</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>, and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a> methods change this value. The time is specified as 
+<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">Cancel</a>, and 
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> methods change this value. The time is specified as 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
 
 

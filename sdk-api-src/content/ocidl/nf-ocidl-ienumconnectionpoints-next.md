@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -76,16 +77,16 @@ The number of items to be retrieved. If there are fewer than the requested numbe
 
 
 
+#### - lpcFetched [out]
+
+The number of items that were retrieved. This parameter is always less than or equal to the number of items requested.
+
+
 #### - rgpcn [out]
 
 An array of enumerated items.
 
 The enumerator is responsible for calling <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>, and the caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> through each pointer enumerated. If <i>cConnections</i> is greater than 1, the caller must also pass a non-NULL pointer passed to <i>lpcFetched</i> to know how many pointers to release.
-
-
-#### - lpcFetched [out]
-
-The number of items that were retrieved. This parameter is always less than or equal to the number of items requested.
 
 
 ## -returns

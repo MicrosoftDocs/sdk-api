@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,8 +65,8 @@ The CURRENCY data type is useful for calculations involving money, or for any fi
 ### -field int64
 
 
-#### - Lo
-
-
 #### - Hi
+
+
+#### - Lo
 

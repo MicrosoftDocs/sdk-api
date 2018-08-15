@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -117,7 +118,7 @@ Determines whether the provider supports shadow copies on the specified volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/bb238acc-7af0-43cf-bc2e-70e255978fb1">Query</a>
 </td>
 <td align="left" width="63%">
 Queries the provider for information about the shadow copies that the provider has completed.
@@ -144,7 +145,7 @@ Reverts a volume to a previous shadow copy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>
+<a href="https://msdn.microsoft.com/5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the context for subsequent shadow copy-related operations.

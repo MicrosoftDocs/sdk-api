@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -75,7 +76,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 
 
@@ -85,7 +86,7 @@ An object implementing the <a href="https://msdn.microsoft.com/25f47c73-eb9f-4be
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 
 
@@ -99,7 +100,7 @@ An object implementing the <a href="https://msdn.microsoft.com/53ea9488-77e0-4eb
 
 An object implementing the <a href="https://msdn.microsoft.com/218875bf-be6b-4ca5-8904-81c81c7fbf70">ISyncMgrEventStore</a> interface that allows a handler to provide its own source of events. These events are shown in the Sync Results folder. The event store should include events for the handler as well as for all of its items. To include only events for a specific item, Sync Center calls <a href="https://msdn.microsoft.com/54336c43-348b-4767-94e4-fe7dc47c0876">GetObject</a>. The event store is asked to delete the handler's events the next time the handler is synchronized. The default event store purges its events when the user logs off.
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 A handler is not required to provide an event store. The default event store provided by Sync Center can be used if it meets the handler's requirements.
 
@@ -111,7 +112,7 @@ An icon extraction object that implements the <a href="https://msdn.microsoft.co
  
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 
 
@@ -121,7 +122,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a> and the <a href="https://msdn.microsoft.com/2baf39ea-2b28-4d38-8635-8f5efca54702">SYNCMGR_HPM_PREVENT_ACTIVATE</a> policy flag is not set in the mask retrieved by <a href="https://msdn.microsoft.com/ff30441a-43bb-4f30-af04-4d2056b8dfb0">GetPolicies</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a> and the <a href="https://msdn.microsoft.com/2baf39ea-2b28-4d38-8635-8f5efca54702">SYNCMGR_HPM_PREVENT_ACTIVATE</a> policy flag is not set in the mask retrieved by <a href="https://msdn.microsoft.com/ff30441a-43bb-4f30-af04-4d2056b8dfb0">GetPolicies</a>.
 
 
 
@@ -131,7 +132,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_DEACTIVATE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a> and the <a href="https://msdn.microsoft.com/2baf39ea-2b28-4d38-8635-8f5efca54702">SYNCMGR_HPM_PREVENT_DEACTIVATE</a> policy flag is not set in the mask retrieved by <a href="https://msdn.microsoft.com/ff30441a-43bb-4f30-af04-4d2056b8dfb0">GetPolicies</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_DEACTIVATE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a> and the <a href="https://msdn.microsoft.com/2baf39ea-2b28-4d38-8635-8f5efca54702">SYNCMGR_HPM_PREVENT_DEACTIVATE</a> policy flag is not set in the mask retrieved by <a href="https://msdn.microsoft.com/ff30441a-43bb-4f30-af04-4d2056b8dfb0">GetPolicies</a>.
 
 
 
@@ -141,7 +142,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_ENABLE</a> and <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_ENABLE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_ENABLE</a> and <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_ENABLE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 
 
@@ -151,7 +152,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_DISABLE</a> and <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_DISABLE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_DISABLE</a> and <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_QUERY_BEFORE_DISABLE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 
 
@@ -161,7 +162,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_SHOW_SCHEDULE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/99b0bebf-8131-49d0-bc9d-18fdf41c1371">SYNCMGR_HCM_CAN_SHOW_SCHEDULE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>.
 
 
 ### -param riid [in]

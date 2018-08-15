@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,12 +67,12 @@ Handle to the physical device's <a href="https://msdn.microsoft.com/139a10e9-203
 
 ### -param hColorTransform
 
-Handle to the color transform against which the bitmap is to be checked. This transform was created by the driver through a prior call to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a> routine.
+Handle to the color transform against which the bitmap is to be checked. This transform was created by the driver through a prior call to its <a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a> routine.
 
 
 ### -param pso
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> that contains the bitmap surface to be checked.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> that contains the bitmap surface to be checked.
 
 
 ### -param paResults
@@ -122,7 +123,7 @@ The color is outside of the gamut. A value of <i>n+1</i> indicates that the colo
 </table>
  
 
-<b>DrvIcmCheckBitmapBits</b> can be optionally implemented in drivers that support ICM. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a> structure.
+<b>DrvIcmCheckBitmapBits</b> can be optionally implemented in drivers that support ICM. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
 
 
 
@@ -132,7 +133,7 @@ The color is outside of the gamut. A value of <i>n+1</i> indicates that the colo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>
+<a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>
  
 
  

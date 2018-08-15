@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -63,7 +64,7 @@ Checks for the consistency of ACLs between the Directory Service and the system 
 ### -param pvbConsistent [out]
 
 Value that indicates whether the 
-<a href="security.access_control_lists_acls_">access control lists (ACLs)</a> on the different parts of the GPO are consistent. If <b>VARIANT_TRUE</b>, they are consistent.
+<a href="https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx">access control lists (ACLs)</a> on the different parts of the GPO are consistent. If <b>VARIANT_TRUE</b>, they are consistent.
 
 
 ## -returns

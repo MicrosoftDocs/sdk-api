@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -79,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The Microsoft UI Automation framework will ensure that the part of the interface that hosts this fragment is 
 			already focused before calling this method. Your implementation should update only its internal focus state; 
 			for example, by repainting a list item to show that it has the focus. If you prefer that UI Automation 
-			not focus the parent window, set <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ProviderOwnsSetFocus</a> in <a href="https://msdn.microsoft.com/fd41bb43-bbf1-4022-9472-0ad2816074c6">IRawElementProviderSimple::ProviderOptions</a> for the fragment root.
+			not focus the parent window, set <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ProviderOwnsSetFocus</a> in <a href="https://msdn.microsoft.com/fd41bb43-bbf1-4022-9472-0ad2816074c6">IRawElementProviderSimple::ProviderOptions</a> for the fragment root.
 
 
 

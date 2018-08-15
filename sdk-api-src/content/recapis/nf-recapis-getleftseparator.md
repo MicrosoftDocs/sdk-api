@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported

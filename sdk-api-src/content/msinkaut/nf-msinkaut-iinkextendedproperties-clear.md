@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -119,7 +120,7 @@ An unspecified error occurred.
 
 
 
-To clear only one extended property at a time, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> method of the <a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties</a> collection.
+To clear only one extended property at a time, call the <a href="https://msdn.microsoft.com/2211a462-df26-4168-b89c-9607683defdb">Remove</a> method of the <a href="https://msdn.microsoft.com/c7b7f40f-0c28-4848-83d6-d5db73eef998">IInkExtendedProperties</a> collection.
 
 
 

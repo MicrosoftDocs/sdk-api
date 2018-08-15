@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IFileSyncMergeHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a>
+<a href="https://msdn.microsoft.com/8B8410E1-0213-4647-966A-A6F9D231DCA2">Merge</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

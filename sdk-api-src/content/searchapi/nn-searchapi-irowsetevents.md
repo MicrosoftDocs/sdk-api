@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -125,7 +126,7 @@ Indexer eventing is a new feature for Windows 7 that allows providers to receiv
 
 The <b>IRowsetEvents</b> interface is registered by connection point with an open indexer rowset.
 
-<b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="1e2f5e85-459e-4588-a6fa-4209d5a667c4">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset eventing.
+<b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="https://msdn.microsoft.com/library/ms711497(v=VS.85).aspx">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset eventing.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -115,7 +116,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686176(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545226">Body</a>
+<a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">Body</a>
 
 
 </td>
@@ -163,7 +164,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541150">DocumentName</a>
+<a href="https://msdn.microsoft.com/f95352b8-6f19-47b2-907a-5835568799ac">DocumentName</a>
 
 
 </td>
@@ -275,7 +276,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687440(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915809">ScheduleTime</a>
+<a href="https://msdn.microsoft.com/1c8f5adf-9c94-4c4b-9a9a-e8377682f6f9">ScheduleTime</a>
 
 
 </td>

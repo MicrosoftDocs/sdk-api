@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -172,7 +173,7 @@ If <i>pTopology</i> is a full topology, set the <b>MFSESSION_SETTOPOLOGY_NORESOL
 
 If the Media Session is currently paused or stopped, the <b>SetTopology</b> method does not take effect until the next call to <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">IMFMediaSession::Start</a>.
 
-If the Media Session is currently running, or on the next call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>, the <b>SetTopology</b> method does the following:
+If the Media Session is currently running, or on the next call to <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">Start</a>, the <b>SetTopology</b> method does the following:
 
 <ul>
 <li>If the <b>MFSESSION_SETTOPOLOGY_IMMEDIATE</b> flag is set in <i>dwSetTopologyFlags</i>, the Media Session ends the current presentation immediately, clears all pending topologies, and uses <i>pTopology</i> to start a new presentation.</li>

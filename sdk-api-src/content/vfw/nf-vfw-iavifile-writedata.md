@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,9 +81,9 @@ The <b>WriteData</b> method writes file headers. Called when an application uses
 
 
 
-#### - ps
+#### - cbBuffer
 
-Pointer to the interface to a file.
+Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
 
 
 #### - fcc
@@ -95,9 +96,9 @@ Four-character code of the header to write.
 Pointer to the buffer for the data.
 
 
-#### - cbBuffer
+#### - ps
 
-Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
+Pointer to the interface to a file.
 
 
 ## -returns

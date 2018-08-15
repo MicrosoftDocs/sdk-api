@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -60,12 +61,12 @@ The <b>ONEX_STATUS</b> structure contains the current 802.1X authentication stat
 
 ### -field authStatus
 
-The current status of the 802.1X authentication process. Any error that may have occurred during authentication is indicated below by the value of the <b>dwReason</b> and <b>dwError</b> members of the <b>ONEX_STATUS</b> structure. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569845">ONEX_AUTH_STATUS</a> enumeration.
+The current status of the 802.1X authentication process. Any error that may have occurred during authentication is indicated below by the value of the <b>dwReason</b> and <b>dwError</b> members of the <b>ONEX_STATUS</b> structure. For more information, see the <a href="https://msdn.microsoft.com/9a5c7876-2c6b-450e-95e4-2766d63b6e19">ONEX_AUTH_STATUS</a> enumeration.
 
 
 ### -field dwReason
 
-If an error occurred during 802.1X authentication, this member contains the reason for the error specified as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569846">ONEX_REASON_CODE</a> enumeration. This member is normally <b>ONEX_REASON_CODE_SUCCESS</b> 
+If an error occurred during 802.1X authentication, this member contains the reason for the error specified as a value from the <a href="https://msdn.microsoft.com/9ce6ff56-946c-4058-b9a6-33dab4124c24">ONEX_REASON_CODE</a> enumeration. This member is normally <b>ONEX_REASON_CODE_SUCCESS</b> 
  when 802.1X authentication is successful and no error occurs. 
 
 
@@ -100,7 +101,7 @@ The <b>oneXStatus</b> member of the <a href="https://msdn.microsoft.com/140386c8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569846">ONEX_REASON_CODE</a>
+<a href="https://msdn.microsoft.com/9ce6ff56-946c-4058-b9a6-33dab4124c24">ONEX_REASON_CODE</a>
 
 
 

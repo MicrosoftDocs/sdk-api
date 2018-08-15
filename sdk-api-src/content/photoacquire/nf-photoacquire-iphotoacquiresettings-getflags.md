@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -116,7 +117,7 @@ A non-NULL value was expected.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/aebe06d8-c764-4d2d-9bd2-58fd9e3714bd">SetFlags</a>
  
 
  

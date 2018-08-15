@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>.
+The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>DrvDeleteDeviceBitmap</b> function deletes a device bitmap created by <a 
 
 ### -param dhsurf
 
-Handle to the bitmap to be deleted. This handle identifies the bitmap created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>.
+Handle to the bitmap to be deleted. This handle identifies the bitmap created by <a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>.
 
 
 ## -returns
@@ -77,7 +78,7 @@ None
 
 
 
-A driver must implement <b>DrvDeleteDeviceBitmap</b> if it supplies <a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>.
+A driver must implement <b>DrvDeleteDeviceBitmap</b> if it supplies <a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>.
 
 The driver should free any resources associated with the device bitmap.
 
@@ -89,7 +90,7 @@ The driver should free any resources associated with the device bitmap.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>
+<a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>
  
 
  

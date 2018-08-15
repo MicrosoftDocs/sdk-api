@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -79,7 +80,7 @@ By default, <a href="https://msdn.microsoft.com/320cc215-e4e5-4196-8e1b-ca0a30d0
 
 When <a href="https://msdn.microsoft.com/320cc215-e4e5-4196-8e1b-ca0a30d01d37">DesiredPacketDescription</a> is set to something that includes <a href="https://msdn.microsoft.com/3e8495f6-0860-4ea8-a258-784eaade85c7">STR_GUID_PAKETSTATUS</a>, the packet status is added in the third position. For example, if you set <b>DesiredPacketDescription</b> to (a, b, c, d, PacketStatus, e, f), when you get <b>DesiredPacketDescription</b> the result is (X, Y, PacketStatus, a, b, c, d, e, f).
 
-Changes to this property do not affect incoming packet data until the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property changes from <b>FALSE</b> to <b>TRUE</b>.
+Changes to this property do not affect incoming packet data until the <a href="https://msdn.microsoft.com/ab55a399-1990-4cfc-a4ab-834a5db8d7a9">Enabled</a> property changes from <b>FALSE</b> to <b>TRUE</b>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -247,7 +248,7 @@ The graphics mode for the current screen will be changed dynamically and the gra
 </dl>
 </td>
 <td width="60%">
-When set, the <i>lParam</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a> structure.
+When set, the <i>lParam</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">VIDEOPARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -283,7 +284,7 @@ If CDS_UPDATEREGISTRY is specified and the information could not be stored in th
 
 ### -param lParam [in]
 
-If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
+If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
 
 
 ## -returns
@@ -472,7 +473,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
+<a href="https://msdn.microsoft.com/ca5368ac-adf6-4f1d-abfd-4615dd0c6a68">VIDEOPARAMETERS</a>
 
 
 

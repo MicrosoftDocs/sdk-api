@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvResetDevice</b> function resets a device that is inoperable or unrespo
 
 ### -param dhpdev
 
-Handle to the physical device's PDEV that describes the physical device that has stopped. This is the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>.
+Handle to the physical device's PDEV that describes the physical device that has stopped. This is the value returned by <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
 
 
 ### -param Reserved
@@ -114,7 +115,7 @@ The device is currently in working order.
 
 This function is available in Windows XP and later.
 
-<b>DrvResetDevice</b> is usually called in response to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564958">EngHangNotification</a>. A driver should take any steps necessary to restore the device to working order, and should do so with no data loss or as little as possible.
+<b>DrvResetDevice</b> is usually called in response to <a href="https://msdn.microsoft.com/9013bf34-64bd-4621-af40-f979065c8cbd">EngHangNotification</a>. A driver should take any steps necessary to restore the device to working order, and should do so with no data loss or as little as possible.
 
 
 
@@ -124,11 +125,11 @@ This function is available in Windows XP and later.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564958">EngHangNotification</a>
+<a href="https://msdn.microsoft.com/9013bf34-64bd-4621-af40-f979065c8cbd">EngHangNotification</a>
  
 
  

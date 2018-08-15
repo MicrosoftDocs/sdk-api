@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -130,9 +131,9 @@ Adds a denied ACE.
 Deletes all the ACEs for for the SID.
 
 
-##### - dwAccess.CLUSAPI_READ_ACCESS (0x00000001L)
+##### - dwAccess.CLUSAPI_ALL_ACCESS ((CLUSAPI_READ_ACCESS | CLUSAPI_CHANGE_ACCESS))
 
-Read access.
+The account can be used to read and change the cluster.
 
 
 ##### - dwAccess.CLUSAPI_CHANGE_ACCESS (0x00000002L)
@@ -145,9 +146,14 @@ The account can be used to make changes to the cluster.
 No access.
 
 
-##### - dwAccess.CLUSAPI_ALL_ACCESS ((CLUSAPI_READ_ACCESS | CLUSAPI_CHANGE_ACCESS))
+##### - dwAccess.CLUSAPI_READ_ACCESS (0x00000001L)
 
-The account can be used to read and change the cluster.
+Read access.
+
+
+##### - dwControlType.CLUSTER_DELETE_ACCESS_CONTROL_ENTRY (2)
+
+Deletes all the ACEs for for the SID.
 
 
 ##### - dwControlType.CLUSTER_SET_ACCESS_TYPE_ALLOWED (0)
@@ -158,11 +164,6 @@ Adds an allowed ACE.
 ##### - dwControlType.CLUSTER_SET_ACCESS_TYPE_DENIED (1)
 
 Adds a denied ACE.
-
-
-##### - dwControlType.CLUSTER_DELETE_ACCESS_CONTROL_ENTRY (2)
-
-Deletes all the ACEs for for the SID.
 
 
 ## -returns

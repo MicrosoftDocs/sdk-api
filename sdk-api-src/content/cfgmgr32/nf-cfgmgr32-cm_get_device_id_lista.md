@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Device_ID_List</b> function retrieves a list of <a href="devinst.device_instance_ids">device instance IDs</a> for the local computer's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
+The <b>CM_Get_Device_ID_List</b> function retrieves a list of <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the local computer's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
 
 
 ## -parameters
@@ -69,7 +70,7 @@ Caller-supplied pointer to a character string that is either set to a subset of 
 
 ### -param Buffer [out]
 
-Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538427">CM_Get_Device_ID_List_Size</a>. 
+Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/3c650b21-56dc-4ef5-b986-417a247b3eb0">CM_Get_Device_ID_List_Size</a>. 
 
 
 ### -param BufferLen [in]
@@ -129,11 +130,11 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 #### CM_GETIDLIST_FILTER_ENUMERATOR
 
-If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="devinst.device_ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
+If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
 
-If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="devinst.device_instance_ids">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538026">CM_Enumerate_Enumerators</a>.
+If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/85fbca44-bd3b-4654-bba2-099135c42d23">CM_Enumerate_Enumerators</a>.
 
-If <i>pszFilter</i> supplies both an enumerator and a <a href="devinst.device_ids">device ID</a>, the function returns <a href="devinst.device_instance_ids">device instance IDs</a> only for the instances of the specified device that is associated with the enumerator.
+If <i>pszFilter</i> supplies both an enumerator and a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> only for the instances of the specified device that is associated with the enumerator.
 
 
 
@@ -197,7 +198,7 @@ For more information about device instance IDs, see <a href="https://docs.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538427">CM_Get_Device_ID_List_Size</a>
+<a href="https://msdn.microsoft.com/3c650b21-56dc-4ef5-b986-417a247b3eb0">CM_Get_Device_ID_List_Size</a>
  
 
  

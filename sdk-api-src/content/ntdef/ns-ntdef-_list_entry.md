@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,11 +78,11 @@ For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Blink</
 
 
 
-A <b>LIST_ENTRY</b> structure that describes the list head must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>.
+A <b>LIST_ENTRY</b> structure that describes the list head must have been initialized by calling <a href="https://msdn.microsoft.com/123434fd-4e83-4042-834b-1eb4cf13dd10">InitializeListHead</a>.
 
 A driver can access the <b>Flink</b> or <b>Blink</b> members of a <b>LIST_ENTRY</b>, but the members must only be updated by the system routines supplied for this purpose.
 
-For more information about how to use <b>LIST_ENTRY</b> structures to implement a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For more information about how to use <b>LIST_ENTRY</b> structures to implement a doubly linked list, see <a href="https://msdn.microsoft.com/3a305f54-7866-4163-a3e4-e078d1927adc">Singly and Doubly Linked Lists</a>.
 
 
 
@@ -91,43 +92,43 @@ For more information about how to use <b>LIST_ENTRY</b> structures to implement 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545397">ExInterlockedInsertHeadList</a>
+<a href="https://msdn.microsoft.com/91640a96-abad-424e-b9bd-301dad2b6aac">ExInterlockedInsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545402">ExInterlockedInsertTailList</a>
+<a href="https://msdn.microsoft.com/cd322d64-4005-426c-b3ce-0fe8f6ce868e">ExInterlockedInsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545427">ExInterlockedRemoveHeadList</a>
+<a href="https://msdn.microsoft.com/d024da2c-9629-4907-98b8-a29dc6022ac0">ExInterlockedRemoveHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+<a href="https://msdn.microsoft.com/123434fd-4e83-4042-834b-1eb4cf13dd10">InitializeListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547820">InsertHeadList</a>
+<a href="https://msdn.microsoft.com/c3ad9d93-93e1-406b-9a58-26dcbf428b50">InsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
+<a href="https://msdn.microsoft.com/9eb470c8-ee37-497e-982e-d32b4b9b7348">InsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
+<a href="https://msdn.microsoft.com/6e494112-a808-4914-8194-e68a2799c38e">IsListEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a>
+<a href="https://msdn.microsoft.com/84c3937f-8042-4b15-b5bb-884d14a97a8c">RemoveEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
+<a href="https://msdn.microsoft.com/8748451c-3e57-4acf-b1e6-b80fe7f461d8">RemoveHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
+<a href="https://msdn.microsoft.com/67942bf7-28f6-4b2d-a880-9439afaf0bb2">RemoveTailList</a>
  
 
  

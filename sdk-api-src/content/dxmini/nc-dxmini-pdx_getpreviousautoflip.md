@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,19 +75,19 @@ The<i> DxGetPreviousAutoflip</i> callback function is called when the device is 
 
 
 
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
-
-
 #### - GetPreviousAutoflipInInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549485">DDGETPREVIOUSAUTOFLIPININFO</a> structure that contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information.
+Points to a <a href="https://msdn.microsoft.com/44816bbe-9ec2-4f96-a18c-442359aa36ad">DDGETPREVIOUSAUTOFLIPININFO</a> structure that contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information.
 
 
 #### - GetPreviousAutoflipOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549489">DDGETPREVIOUSAUTOFLIPOUTINFO</a> structure that contains the index of the autoflip chain.
+Points to a <a href="https://msdn.microsoft.com/3009425c-00ba-4be5-be81-65905abf4a2a">DDGETPREVIOUSAUTOFLIPOUTINFO</a> structure that contains the index of the autoflip chain.
+
+
+#### - HwDeviceExtension
+
+Points to the miniport driver's device extension.
 
 
 ## -returns
@@ -114,11 +115,11 @@ If interleaving, the surface that received the previous field may be the same su
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549485">DDGETPREVIOUSAUTOFLIPININFO</a>
+<a href="https://msdn.microsoft.com/44816bbe-9ec2-4f96-a18c-442359aa36ad">DDGETPREVIOUSAUTOFLIPININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549489">DDGETPREVIOUSAUTOFLIPOUTINFO</a>
+<a href="https://msdn.microsoft.com/3009425c-00ba-4be5-be81-65905abf4a2a">DDGETPREVIOUSAUTOFLIPOUTINFO</a>
  
 
  

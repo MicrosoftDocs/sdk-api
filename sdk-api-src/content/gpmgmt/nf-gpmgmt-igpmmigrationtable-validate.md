@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -62,7 +63,7 @@ Validates the migration table.
 
 ### -param ppResult [out]
 
-Reference to an <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806ca35c649e">IGPMResult</a> interface. The <b>Result</b> property references whether the validation is successful. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property references the <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a> that contains the validation errors or warnings.
+Reference to an <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806ca35c649e">IGPMResult</a> interface. The <b>Result</b> property references whether the validation is successful. The <a href="https://msdn.microsoft.com/8570d40c-25c2-405c-b52a-dae6c0eb50e0">Status</a> property references the <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a> that contains the validation errors or warnings.
 
 
 ## -returns
@@ -73,10 +74,10 @@ Reference to an <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806c
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806ca35c649e">GPMResult</a> object. The <b>Result</b> property references whether the validation was successful. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property references the <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">GPMStatusMsgCollection</a> that contains the validation errors or warnings.
+Returns a <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806ca35c649e">GPMResult</a> object. The <b>Result</b> property references whether the validation was successful. The <a href="https://msdn.microsoft.com/8570d40c-25c2-405c-b52a-dae6c0eb50e0">Status</a> property references the <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">GPMStatusMsgCollection</a> that contains the validation errors or warnings.
 
 <h3>VB</h3>
-Returns a <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806ca35c649e">GPMResult</a> object. The <b>Result</b> property references whether the validation was successful. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property references the <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">GPMStatusMsgCollection</a> that contains the validation errors or warnings.
+Returns a <a href="https://msdn.microsoft.com/0228ed1a-3a8f-486a-9dd8-806ca35c649e">GPMResult</a> object. The <b>Result</b> property references whether the validation was successful. The <a href="https://msdn.microsoft.com/8570d40c-25c2-405c-b52a-dae6c0eb50e0">Status</a> property references the <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">GPMStatusMsgCollection</a> that contains the validation errors or warnings.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546476">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>.
 
 
 ### -param NewSize [in]
@@ -145,7 +146,7 @@ The routine could not access the database. To get extended error information, ca
 
 
 
-Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff546474">ComDBGetCurrentPortUsage</a> to obtain the current database size.
+Use <a href="https://msdn.microsoft.com/f1c5fdc5-b84b-4c7f-832a-44151df39721">ComDBGetCurrentPortUsage</a> to obtain the current database size.
 
 <b>ComDBResizeDatabase</b> runs in user mode.
 
@@ -159,7 +160,7 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546474">ComDBGetCurrentPortUsage</a>
+<a href="https://msdn.microsoft.com/f1c5fdc5-b84b-4c7f-832a-44151df39721">ComDBGetCurrentPortUsage</a>
  
 
  

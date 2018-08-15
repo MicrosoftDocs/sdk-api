@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -73,9 +74,9 @@ This property is read/write.
 
 For a complete list of pen tips available to use, see the <a href="https://msdn.microsoft.com/1e68f701-f012-40bb-8ee4-a47da80cb8d6">InkPenTip</a> enumeration.
 
-When this property is set to <a href="https://msdn.microsoft.com/1e68f701-f012-40bb-8ee4-a47da80cb8d6">InkPenTip.IPT_Ball</a>, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542686">Height</a> property is ignored.
+When this property is set to <a href="https://msdn.microsoft.com/1e68f701-f012-40bb-8ee4-a47da80cb8d6">InkPenTip.IPT_Ball</a>, the <a href="https://msdn.microsoft.com/2dc9eb94-649f-42f6-8180-abf570bdc757">Height</a> property is ignored.
 
-To create a square pen tip, set the <b>PenTip</b> property to <a href="https://msdn.microsoft.com/1e68f701-f012-40bb-8ee4-a47da80cb8d6">InkPenTip.IPT_Rectangle</a>. Then set the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542686">Height</a> property equal to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553316">Width</a> property.
+To create a square pen tip, set the <b>PenTip</b> property to <a href="https://msdn.microsoft.com/1e68f701-f012-40bb-8ee4-a47da80cb8d6">InkPenTip.IPT_Rectangle</a>. Then set the <a href="https://msdn.microsoft.com/2dc9eb94-649f-42f6-8180-abf570bdc757">Height</a> property equal to the <a href="https://msdn.microsoft.com/6069f9d3-061a-48ba-8161-86d6152d68f0">Width</a> property.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -121,7 +122,7 @@ Gets a text range object for the story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/8107910f-eb77-4313-97f5-1bd8126d6dec">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the text in a story according to the specified conversion flags. 
@@ -130,7 +131,7 @@ Gets the text in a story according to the specified conversion flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/43a75284-c461-4118-834c-9ce5ded55094">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets this story's type.
@@ -175,7 +176,7 @@ Replaces the text in a story with the specified text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
+<a href="https://msdn.microsoft.com/b1fda663-cbfa-4972-bc40-004b82631f92">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the story type.

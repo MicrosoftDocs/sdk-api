@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -84,7 +85,7 @@ The return value is the last error code set by <b>EngSetLastError</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565015">EngSetLastError</a>
+<a href="https://msdn.microsoft.com/8887eed8-c60d-4217-92bf-f770be071c49">EngSetLastError</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -191,14 +192,19 @@ The buffer size should be at least MAX_PATH characters, including the <b>null</b
 An optional pointer to a variable in which this function returns the required buffer size, in characters, including the <b>null</b> terminator. 
 
 
+##### - Style.IDF_NOBEEP
+
+Prevents the dialog box from beeping to get the user's attention when it first appears.
+
+
 ##### - Style.IDF_NOBROWSE
 
 Do not display the browse option.
 
 
-##### - Style.IDF_NOSKIP
+##### - Style.IDF_NOCOMPRESSED
 
-Do not display the skip file option.
+Do not check for compressed versions of the source file.
 
 
 ##### - Style.IDF_NODETAILS
@@ -208,24 +214,19 @@ Do not display the details option.
 If this flag is set, the <i>TargetPathFile</i> and <i>Win32ErrorCode</i> parameters can be omitted.
 
 
-##### - Style.IDF_NOCOMPRESSED
+##### - Style.IDF_NOFOREGROUND
 
-Do not check for compressed versions of the source file.
+Prevents the dialog box from becoming the foreground window.
+
+
+##### - Style.IDF_NOSKIP
+
+Do not display the skip file option.
 
 
 ##### - Style.IDF_OEMDISK
 
 The operation source is a disk that a hardware manufacturer provides.
-
-
-##### - Style.IDF_NOBEEP
-
-Prevents the dialog box from beeping to get the user's attention when it first appears.
-
-
-##### - Style.IDF_NOFOREGROUND
-
-Prevents the dialog box from becoming the foreground window.
 
 
 ##### - Style.IDF_WARNIFSKIP
@@ -263,7 +264,7 @@ To avoid insufficient buffer errors, <i>ReturnBuffer</i> should be at least MAX_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -67,7 +68,7 @@ Translates a device-definition string into appropriate device-control block code
 ### -param lpDef [in]
 
 The device-control information. The function takes this string, parses it, and then sets appropriate values 
-       in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure pointed to by 
+       in the <a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure pointed to by 
        <i>lpDCB</i>.
 
 The string must have the same form as the <b>mode</b> command's command-line arguments:
@@ -92,7 +93,7 @@ For example, the following string specifies a baud rate of 1200, no parity, 8 da
 
 ### -param lpDCB [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure that receives information 
+A pointer to a <a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure that receives information 
       from the device-control information string pointed to by <i>lpDef</i>. This 
       <b>DCB</b> structure defines the control settings for a 
       communications device.
@@ -162,7 +163,7 @@ For more information, see the Remarks for the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a>
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
 
 
 

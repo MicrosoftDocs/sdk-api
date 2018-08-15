@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -133,14 +134,14 @@ Identifier of the language group. This parameter can have one of the following v
 </li>
 </ul>
 
-#### - lpLocaleString [in]
-
-Pointer to a buffer containing a null-terminated locale identifier string.
-
-
 #### - lParam [in]
 
 Application-defined value passed to the <a href="https://msdn.microsoft.com/5a85c6bd-0362-46ff-80be-a198b1259482">EnumLanguageGroupLocales</a> function. This parameter can be used for error checking.
+
+
+#### - lpLocaleString [in]
+
+Pointer to a buffer containing a null-terminated locale identifier string.
 
 
 ## -returns

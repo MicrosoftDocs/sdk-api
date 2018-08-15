@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -57,7 +58,7 @@ req.product: Windows Address Book 5.0
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptAcquireContext</b> function is used to acquire a handle to a particular <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a> within a particular <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP). This returned handle is used in calls to <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CryptoAPI</a> functions that use the selected CSP.
 
-This function first attempts to find a CSP with the characteristics described in the <i>dwProvType</i> and <i>pszProvider</i> parameters. If the CSP is found, the function attempts to find a key container within the CSP that matches the name specified by the <i>pszContainer</i> parameter. To acquire the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> and the key container of a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> associated with the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of a certificate, use 
+This function first attempts to find a CSP with the characteristics described in the <i>dwProvType</i> and <i>pszProvider</i> parameters. If the CSP is found, the function attempts to find a key container within the CSP that matches the name specified by the <i>pszContainer</i> parameter. To acquire the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> and the key container of a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> associated with the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> of a certificate, use 
 <a href="https://msdn.microsoft.com/53c9aec9-701d-4c21-9814-d344a8dde0c1">CryptAcquireCertificatePrivateKey</a>.
 
 With the appropriate setting of <i>dwFlags</i>, this function can also create and destroy key containers and can provide access to a CSP with a temporary key container if access to a private key is not required.
@@ -153,7 +154,7 @@ By default, keys and key containers are stored as user keys. For Base Providers,
 
 A key container created without this flag by a user that is not an administrator can be accessed only by the user creating the key container and the local system account.
 
-The CRYPT_MACHINE_KEYSET flag can be combined with all of the other flags to indicate that the key container of interest is a computer key container and the CSP treats it as such. For Base Providers, this means that the keys are stored locally on the computer that created the key container. If a key container is to be a computer container, the CRYPT_MACHINE_KEYSET flag must be used with all calls to <b>CryptAcquireContext</b> that reference the computer container. The key container created with CRYPT_MACHINE_KEYSET by an administrator can be accessed only by its creator and by a user with administrator <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> unless access rights to the container are granted using 
+The CRYPT_MACHINE_KEYSET flag can be combined with all of the other flags to indicate that the key container of interest is a computer key container and the CSP treats it as such. For Base Providers, this means that the keys are stored locally on the computer that created the key container. If a key container is to be a computer container, the CRYPT_MACHINE_KEYSET flag must be used with all calls to <b>CryptAcquireContext</b> that reference the computer container. The key container created with CRYPT_MACHINE_KEYSET by an administrator can be accessed only by its creator and by a user with administrator <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> unless access rights to the container are granted using 
 <a href="https://msdn.microsoft.com/98306a7b-b218-4eb4-99f0-0b5bcc632a13">CryptSetProvParam</a>.
 
 
@@ -192,7 +193,7 @@ When this flag is set, the value returned in <i>phProv</i> is undefined, and thu
 </dl>
 </td>
 <td width="60%">
-The application requests that the CSP not display any user interface (UI) for this <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>. If the CSP must display the UI to operate, the call fails and the NTE_SILENT_CONTEXT error code is set as the last error. In addition, if calls are made to <a href="https://msdn.microsoft.com/b65dd856-2dfa-4cda-9b2f-b32f3c291470">CryptGenKey</a> with the CRYPT_USER_PROTECTED flag with a context that has been acquired with the CRYPT_SILENT flag, the calls fail and the CSP sets NTE_SILENT_CONTEXT.
+The application requests that the CSP not display any user interface (UI) for this <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>. If the CSP must display the UI to operate, the call fails and the NTE_SILENT_CONTEXT error code is set as the last error. In addition, if calls are made to <a href="https://msdn.microsoft.com/b65dd856-2dfa-4cda-9b2f-b32f3c291470">CryptGenKey</a> with the CRYPT_USER_PROTECTED flag with a context that has been acquired with the CRYPT_SILENT flag, the calls fail and the CSP sets NTE_SILENT_CONTEXT.
 
 CRYPT_SILENT is intended for use with applications for which the UI cannot be displayed by the CSP.
 
@@ -241,7 +242,7 @@ The error codes prefaced by NTE are generated by the particular CSP being used. 
 </dl>
 </td>
 <td width="60%">
-Some CSPs set this error if the CRYPT_DELETEKEYSET flag value is set and another thread or <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> is using this <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a>.
+Some CSPs set this error if the CRYPT_DELETEKEYSET flag value is set and another thread or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> is using this <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a>.
 
 </td>
 </tr>

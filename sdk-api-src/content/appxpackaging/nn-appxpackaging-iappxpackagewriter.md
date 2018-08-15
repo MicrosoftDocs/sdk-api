@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -79,7 +80,7 @@ Adds a new payload file to the app package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/294625B2-1141-44EE-A769-365C3B37EBD9">Close</a>
 </td>
 <td align="left" width="63%">
 Writes footprint files at the end of the app package, and closes the package writer object's output stream.

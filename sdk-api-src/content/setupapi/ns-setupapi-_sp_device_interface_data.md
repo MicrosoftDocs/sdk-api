@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -113,27 +114,27 @@ A SetupAPI function that takes an instance of the SP_DEVICE_INTERFACE_DATA struc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552343">SP_DEVICE_INTERFACE_DETAIL_DATA</a>
+<a href="https://msdn.microsoft.com/9dd44297-6e51-425d-a355-f2ea78757bf7">SP_DEVICE_INTERFACE_DETAIL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550965">SetupDiCreateDeviceInterface</a>
+<a href="https://msdn.microsoft.com/e5f78c34-b61c-4fcb-b021-fb8d07c2d841">SetupDiCreateDeviceInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551108">SetupDiGetDeviceInterfaceAlias</a>
+<a href="https://msdn.microsoft.com/eb36da2a-4ff1-4f2b-abc6-9bdaf491252f">SetupDiGetDeviceInterfaceAlias</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552074">SetupDiOpenDeviceInterface</a>
+<a href="https://msdn.microsoft.com/31ce43e5-08b4-4c1d-b31f-77ee4e278927">SetupDiOpenDeviceInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552149">SetupDiSetDeviceInterfaceDefault</a>
+<a href="https://msdn.microsoft.com/1be4dd1e-6bef-4ef6-9db3-6725c27ec16d">SetupDiSetDeviceInterfaceDefault</a>
  
 
  

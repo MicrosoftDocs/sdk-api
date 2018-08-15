@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -265,7 +266,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 </td>
 <td>BOOL</td>
 <td>Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function.</td>
@@ -282,7 +283,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a>
+<a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
 </td>
 <td>BOOL</td>
 <td>Keep-alives are being sent. Not supported on ATM sockets.</td>
@@ -556,7 +557,7 @@ The SO_ERROR option returns and resets the per socket–based error code, which 
 </dd>
 <dt><a id="SO_EXCLUSIVEADDRUSE"></a><a id="so_exclusiveaddruse"></a>SO_EXCLUSIVEADDRUSE</dt>
 <dd>
-Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a> reference for more information.
+Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function. See the <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a> reference for more information.
 
 </dd>
 <dt><a id="SO_GROUP_ID"></a><a id="so_group_id"></a>SO_GROUP_ID</dt>
@@ -572,12 +573,12 @@ This option is reserved. Group priority indicates the priority of the specified 
 The WSAENOPROTOOPT error code is indicated for nongroup sockets or for service providers that do not support group sockets.
 
 </dd>
-<dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a>
+<dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
 </dt>
 <dd>
 An application can request that a TCP/IP service provider enable the use of keep-alive packets on TCP  connections by turning on the SO_KEEPALIVE socket option. This option queries the current value of the keep-alive option on a socket. A Windows Sockets provider need not support the use of keep-alive: if it does, the precise semantics are implementation-specific but should conform to section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84405">IETF website</a>.  If a connection is dropped as the result of keep-alives the error code 
 <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a> is returned to any calls in progress on the socket, and any subsequent calls will fail with 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a>. <a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
+<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a>. <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
 
 </dd>
 <dt><a id="SO_LINGER"></a><a id="so_linger"></a>SO_LINGER</dt>

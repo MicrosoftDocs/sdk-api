@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ Size of the entire histogram blob in bytes.
 
 ### -field Histograms
 
-Number of histograms in the blob. Each histogram is identified by a <a href="https://msdn.microsoft.com/library/windows/hardware/dn927649">HistogramHeader</a>.
+Number of histograms in the blob. Each histogram is identified by a <a href="https://msdn.microsoft.com/C41EC25A-98EF-4C35-9E5A-954C80B29DA6">HistogramHeader</a>.
 
 
 ## -see-also
@@ -74,11 +75,11 @@ Number of histograms in the blob. Each histogram is identified by a <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927647">HistogramDataHeader</a>
+<a href="https://msdn.microsoft.com/42DD34AB-570B-4F71-90BE-7E3AFDB66A84">HistogramDataHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927648">HistogramGrid</a>
+<a href="https://msdn.microsoft.com/2B0BA5EC-3120-41A2-B06A-B63E57DC8766">HistogramGrid</a>
  
 
  

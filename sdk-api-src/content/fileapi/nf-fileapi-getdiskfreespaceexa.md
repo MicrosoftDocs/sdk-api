@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -106,7 +107,7 @@ This parameter can be <b>NULL</b>.
 If per-user quotas are being used, this value may be less than the total number of bytes on a disk.
 
 To determine the total number of bytes on a disk or volume, use 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff560370">IOCTL_DISK_GET_LENGTH_INFO</a>.
+       <a href="https://msdn.microsoft.com/8d4bd6e3-f0f3-40d6-b0ba-75155282f64a">IOCTL_DISK_GET_LENGTH_INFO</a>.
 
 
 ### -param lpTotalNumberOfFreeBytes [out, optional]

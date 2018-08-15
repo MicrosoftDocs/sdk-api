@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves the property coordinates stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure of a specified property bag.
+Retrieves the property coordinates stored in a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure of a specified property bag.
 
 
 ## -parameters
@@ -61,9 +62,9 @@ Retrieves the property coordinates stored in a <a href="https://msdn.microsoft.c
 
 ### -param propBag [in]
 
-Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
 
-A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -75,9 +76,9 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>*</b>
 
-When this function returns successfully, contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure that contains the property coordinates.
+When this function returns successfully, contains a pointer to a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure that contains the property coordinates.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="shell.PSPropertyBag_WritePOINTS">PSPropertyBag_WritePOINTS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee845074(v=VS.85).aspx">PSPropertyBag_WritePOINTS</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -89,7 +90,7 @@ Gets an enumerator of all metadata items at the current relative location within
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
+<a href="https://msdn.microsoft.com/e63fad36-e0b7-46b3-a854-d59cfcf20728">GetLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current path relative to the root metadata block.

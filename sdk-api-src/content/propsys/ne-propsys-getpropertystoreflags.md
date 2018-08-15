@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Indicates flags that modify the property store object retrieved by methods that create a property store, such as <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> or <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
+Indicates flags that modify the property store object retrieved by methods that create a property store, such as <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> or <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
 
 
 ## -enum-fields
@@ -139,7 +140,7 @@ Meaning to a calling process: Delay memory-intensive operations, such as file ac
 			    
                 
 
-Meaning to a file folder: Do not create the handler until needed; for example, either <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>/<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>, where the innate store does not satisfy the request. Note: <b>GetValue</b> might fail due to file access problems.
+Meaning to a file folder: Do not create the handler until needed; for example, either <a href="shell.IPropertyStore_GetCount">GetCount</a>/<a href="shell.IPropertyStore_GetAt">GetAt</a> or <a href="shell.IPropertyStore_GetValue">GetValue</a>, where the innate store does not satisfy the request. Note: <b>GetValue</b> might fail due to file access problems.
 
 Meaning to other folders: If the folder has memory-intensive properties, such as delegating to a file folder or network access, it can optimize performance by supporting <a href="https://msdn.microsoft.com/855c9f10-9f40-4c60-a669-551fa51133f5">IDelayedPropertyStoreFactory</a> and splitting up its properties into a fast and a slow store. It can then use delayed MUX to recombine them.
 
@@ -189,7 +190,7 @@ Include only properties from the file's secondary stream.
 
 ### -field GPS_MASK_VALID
 
-Mask for valid <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values.
+Mask for valid <a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values.
 
 
 ## -remarks

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -81,7 +82,7 @@ Establishes an advisory connection between a compound document object and the ca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/61ecd153-ed6b-4a2c-a862-54742c5769ee">Close</a>
 </td>
 <td align="left" width="63%">
 Changes an embedded object from the running to the loaded state.
@@ -255,7 +256,7 @@ Deletes a previously established advisory connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/1743f99b-4c3b-47be-b77b-1d3378a44903">Update</a>
 </td>
 <td align="left" width="63%">
 Updates an object handler's or link object's data or view caches.

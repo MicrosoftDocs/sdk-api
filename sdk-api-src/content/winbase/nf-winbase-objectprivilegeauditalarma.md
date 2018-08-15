@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -59,7 +60,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>ObjectPrivilegeAuditAlarm</b> function generates an audit message in the security event log. A protected server can use this function to log attempts by a client to use a specified set of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> with an open handle to a private object. Alarms are not currently supported.
+The <b>ObjectPrivilegeAuditAlarm</b> function generates an audit message in the security event log. A protected server can use this function to log attempts by a client to use a specified set of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> with an open handle to a private object. Alarms are not currently supported.
 
 
 ## -parameters
@@ -91,7 +92,7 @@ Specifies an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f
 ### -param Privileges [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a> structure containing the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> that the client attempted to use. The names of the privileges appear in the audit message.
+<a href="https://msdn.microsoft.com/2ee5615c-f684-4062-a6cb-e43e9de3a2fb">PRIVILEGE_SET</a> structure containing the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> that the client attempted to use. The names of the privileges appear in the audit message.
 
 
 ### -param AccessGranted [in]
@@ -119,7 +120,7 @@ The <b>ObjectPrivilegeAuditAlarm</b> function does not check the client's access
 <a href="https://msdn.microsoft.com/a73d934a-1abf-4e60-bf0a-6c4629f28f7a">PrivilegeCheck</a> function to determine whether the specified privileges are enabled in the access token, call the 
 <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a> function to check the client's access to the object, and then call <b>ObjectPrivilegeAuditAlarm</b> to log the results.
 
-The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> to have SE_AUDIT_NAME privilege enabled. The test for this privilege is always performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling process, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread. This allows the calling process to impersonate a client during the call.
+The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> to have SE_AUDIT_NAME privilege enabled. The test for this privilege is always performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling process, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread. This allows the calling process to impersonate a client during the call.
 
 
 
@@ -157,7 +158,7 @@ The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a>
+<a href="https://msdn.microsoft.com/2ee5615c-f684-4062-a6cb-e43e9de3a2fb">PRIVILEGE_SET</a>
 
 
 

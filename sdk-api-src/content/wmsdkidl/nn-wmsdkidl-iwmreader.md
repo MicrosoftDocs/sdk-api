@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IWMReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/3f320a0c-8586-4fc2-bd70-06ddda435cb5">Close</a>
 </td>
 <td align="left" width="63%">
 Deletes all outputs on the reader and releases the file resources.
@@ -121,7 +122,7 @@ Retrieves the current properties of an uncompressed output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an ASF file for reading.
@@ -130,7 +131,7 @@ Opens an ASF file for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/4c9d60df-fa9e-42ac-907a-1958a38e430e">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the current read operation.
@@ -157,7 +158,7 @@ Specifies the properties of an uncompressed output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">Start</a>
 </td>
 <td align="left" width="63%">
 Starts reading from the current time offset. Uncompressed data is passed to <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a>.
@@ -166,7 +167,7 @@ Starts reading from the current time offset. Uncompressed data is passed to <a h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/781d1882-4b48-4415-9b3a-788207b42151">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops reading, after which there is no current read position.
@@ -208,7 +209,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

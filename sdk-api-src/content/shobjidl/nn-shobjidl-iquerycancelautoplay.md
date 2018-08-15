@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IQueryCancelAutoPlay</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt346372">AllowAutoPlay</a>
+<a href="https://msdn.microsoft.com/ebc826a2-d7ea-413a-836b-c7e51f13692a">AllowAutoPlay</a>
 </td>
 <td align="left" width="63%">
 Determines whether to play media inserted by a user and if so using what restrictions.

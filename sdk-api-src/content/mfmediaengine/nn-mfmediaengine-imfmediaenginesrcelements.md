@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -98,7 +99,7 @@ Gets the intended media type of an element in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/7B788160-A342-48B4-A3F9-42F3BB83A24D">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the MIME type of an element in the list.
@@ -107,7 +108,7 @@ Gets the MIME type of an element in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432962">GetURL</a>
+<a href="https://msdn.microsoft.com/5935BE0D-0E5A-46A8-944C-096746C5FCA3">GetURL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of an element in the list.

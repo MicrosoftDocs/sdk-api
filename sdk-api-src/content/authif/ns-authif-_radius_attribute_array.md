@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -66,7 +67,7 @@ Specifies the size of the structure.
 
 ### -field Add
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://msdn.microsoft.com/5ee5b673-6cb5-4a3e-9e3d-2b0010466fda">Add</a> function provided by NPS. NPS sets the value of the member.
 
 
 
@@ -152,7 +153,7 @@ When the
 <a href="https://msdn.microsoft.com/d6591abd-e203-40ae-9790-06157ed8c20a">InsertAt</a> function inserts a new attribute into the array, it increments the index of the pre-existing attribute at this index. Similarly, it increments the index of any pre-existing attributes at higher indexes.
 
 To append an attribute to the end of the attribute array, use the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> function.
+<a href="https://msdn.microsoft.com/5ee5b673-6cb5-4a3e-9e3d-2b0010466fda">Add</a> function.
 
 
 
@@ -185,12 +186,12 @@ Pointer to a
 
 ### -field RemoveAt
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://msdn.microsoft.com/9302e224-d8b2-40fe-ba84-ddd0b108c021">RemoveAt</a> function provided by NPS. NPS sets the value of the member.
 
 The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a> function removes the attribute at the specified index in the array.
+<a href="https://msdn.microsoft.com/9302e224-d8b2-40fe-ba84-ddd0b108c021">RemoveAt</a> function removes the attribute at the specified index in the array.
 
-When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a> function removes an attribute from the array, it decrements the index of any pre-existing attributes at higher indexes.
+When the <a href="https://msdn.microsoft.com/9302e224-d8b2-40fe-ba84-ddd0b108c021">RemoveAt</a> function removes an attribute from the array, it decrements the index of any pre-existing attributes at higher indexes.
 
 
 
@@ -259,7 +260,7 @@ The Extension DLL must not modify this structure. Changes to the array of attrib
 This structure is used by Extension DLLs that export 
 <a href="https://msdn.microsoft.com/993b1ded-9fa9-4834-a37d-4da9e8ed9640">RadiusExtensionProcess2</a>. The functions that add attributes to the array:
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/5ee5b673-6cb5-4a3e-9e3d-2b0010466fda">Add</a>
 <a href="https://msdn.microsoft.com/d6591abd-e203-40ae-9790-06157ed8c20a">InsertAt</a>
 copy the contents of the caller-supplied 
 <a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a> structure. Therefore, Extension DLLs that export 

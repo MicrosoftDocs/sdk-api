@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -150,7 +151,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt64Vector">PropVariantToInt64Vector</a> to access an Int64 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776556(v=VS.85).aspx">PropVariantToInt64Vector</a> to access an Int64 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -185,23 +186,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762302(v=VS.85).aspx">InitPropVariantFromInt64Vector</a>
 
 
 
-<a href="shell.PropVariantGetInt64Elem">PropVariantGetInt64Elem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776526(v=VS.85).aspx">PropVariantGetInt64Elem</a>
 
 
 
-<a href="shell.PropVariantToInt64">PropVariantToInt64</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776554(v=VS.85).aspx">PropVariantToInt64</a>
 
 
 
-<a href="shell.PropVariantToInt64VectorAlloc">PropVariantToInt64VectorAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776557(v=VS.85).aspx">PropVariantToInt64VectorAlloc</a>
 
 
 
-<a href="shell.VariantToInt64Array">VariantToInt64Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776613(v=VS.85).aspx">VariantToInt64Array</a>
  
 
  

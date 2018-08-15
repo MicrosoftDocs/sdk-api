@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -101,7 +102,7 @@ This header is followed by the I/O statistics counters.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541794">CLFS_IO_STATISTICS</a>
+<a href="https://msdn.microsoft.com/99544331-0a7c-4efd-93a7-e94011375394">CLFS_IO_STATISTICS</a>
 
 
 

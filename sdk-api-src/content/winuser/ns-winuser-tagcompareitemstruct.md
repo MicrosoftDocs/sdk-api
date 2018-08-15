@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 
-Whenever an application adds a new item to an owner-drawn list box or combo box created with the <a href="Combo_Box_Styles.htm">CBS_SORT</a> or <a href="List_Box_Styles.htm">LBS_SORT</a> style, the system sends the owner a <a href="https://msdn.microsoft.com/en-us/library/Bb775921(v=VS.85).aspx">WM_COMPAREITEM</a> message. The <i>lParam</i> parameter of the message contains a long pointer to a <b>COMPAREITEMSTRUCT</b> structure. Upon receiving the message, the owner compares the two items and returns a value indicating which item sorts before the other. 
+Whenever an application adds a new item to an owner-drawn list box or combo box created with the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_SORT</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">LBS_SORT</a> style, the system sends the owner a <a href="https://msdn.microsoft.com/en-us/library/Bb775921(v=VS.85).aspx">WM_COMPAREITEM</a> message. The <i>lParam</i> parameter of the message contains a long pointer to a <b>COMPAREITEMSTRUCT</b> structure. Upon receiving the message, the owner compares the two items and returns a value indicating which item sorts before the other. 
 
 
 ## -struct-fields

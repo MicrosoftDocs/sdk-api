@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>XLATEOBJ_hGetColorTransform</b> function returns the color transform for 
 
 ### -param pxlo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>.
+Pointer to the <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>.
 
 
 ## -returns
@@ -79,7 +80,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff57
 
 <b>XLATEOBJ_hGetColorTransform</b> returns <b>NULL</b> when it is called in host ICM context or when ICM is disabled.
 
-The color transform for a brush is obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538262">BRUSHOBJ_hGetColorTransform</a>.
+The color transform for a brush is obtained by calling <a href="https://msdn.microsoft.com/a62544e5-f4b6-4544-8ec1-5a03f8bd3306">BRUSHOBJ_hGetColorTransform</a>.
 
 
 
@@ -89,15 +90,15 @@ The color transform for a brush is obtained by calling <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538262">BRUSHOBJ_hGetColorTransform</a>
+<a href="https://msdn.microsoft.com/a62544e5-f4b6-4544-8ec1-5a03f8bd3306">BRUSHOBJ_hGetColorTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>
+<a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a>
+<a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a>
  
 
  

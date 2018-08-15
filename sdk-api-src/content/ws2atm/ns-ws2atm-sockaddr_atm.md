@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,10 +70,10 @@ Identifies the address family, which is AF_ATM in this case.
 
 Identifies the ATM address that could be either in E.164 or NSAP-style ATM End Systems Address format.  This field will be mapped to the called party number information element (IE) if it is specified in 
 <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566268">WSPBind</a> for a listening socket, or in 
+<a href="https://msdn.microsoft.com/0fe5a66a-1126-494c-b4da-8041841685c6">WSPBind</a> for a listening socket, or in 
 <a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>, 
 <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a>, 
+<a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a>, 
 <a href="https://msdn.microsoft.com/ef9efa03-feed-4f0d-b874-c646cce745c9">WSAJoinLeaf</a>, or
 <a href="https://msdn.microsoft.com/3b0451e2-0e4c-4da7-b16c-37c242632bdd">WSPJoinLeaf</a> for a connecting socket. It will be mapped to the Calling Party Number IE if specified in 
 <b>bind</b> and 
@@ -105,9 +106,9 @@ Identifies the fields in the B-HLI information element that are used along with 
 
 
 For listening sockets, the <b>sockaddr_atm</b> structure is used in 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>/<a href="https://msdn.microsoft.com/library/windows/hardware/ff566268">WSPBind</a> to register a Service Access Point (SAP) to receive incoming connection requests destined to this SAP. SAP registration is used to match against the SAP specified in an incoming connection request  to determine which listening socket is to receive this request. In the current  specification, overlapping registration is not allowed. Overlapping registration is defined as having more than one registered SAP to potentially match the SAP specified in any incoming connection request. 
+<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>/<a href="https://msdn.microsoft.com/0fe5a66a-1126-494c-b4da-8041841685c6">WSPBind</a> to register a Service Access Point (SAP) to receive incoming connection requests destined to this SAP. SAP registration is used to match against the SAP specified in an incoming connection request  to determine which listening socket is to receive this request. In the current  specification, overlapping registration is not allowed. Overlapping registration is defined as having more than one registered SAP to potentially match the SAP specified in any incoming connection request. 
 <a href="https://msdn.microsoft.com/1233feeb-a8c1-49ac-ab34-82af224ecf00">Listen</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566297">WSPListen</a> will return the error code WSAEADDRINUSE if the SAP associated with the listening socket overlaps with any currently registered SAPs in the system.
+<a href="https://msdn.microsoft.com/43d588dd-7aa2-405b-8f9d-b167bbbc6574">WSPListen</a> will return the error code WSAEADDRINUSE if the SAP associated with the listening socket overlaps with any currently registered SAPs in the system.
 
 The fields in a SAP to be registered must contain either a valid value, or one of two special manifest constants: SAP_FIELD_ABSENT or SAP_FIELD_ANY.
 
@@ -118,17 +119,17 @@ Note that the requirement of nonoverlapping registration does not preclude using
 <div class="alert"><b>Note</b>  The called party ATM number is mandatory, thus the <b>satm_number</b> field cannot contain SAP_FIELD_ABSENT.</div>
 <div> </div>
 For connecting sockets, the <b>sockaddr_atm</b> structure is used to specify the destination SAP in 
-<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>/<a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a>/<a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a> for point-to-point connections, and 
+<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>/<a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a>/<a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a> for point-to-point connections, and 
 <a href="https://msdn.microsoft.com/ef9efa03-feed-4f0d-b874-c646cce745c9">WSAJoinLeaf</a>/<a href="https://msdn.microsoft.com/3b0451e2-0e4c-4da7-b16c-37c242632bdd">WSPJoinLeaf</a> for point-to-multipoint connections. The fields in the destination SAP of a connecting socket must contain either a valid value or SAP_FIELD_ABSENT, that is, SAP_FIELD_ANY is not allowed.
 
 Furthermore, SAP_FIELD_ABSENT is not allowed for the <b>satm_number</b> field. The destination SAP is used to match against all the registered SAPs in the destination computer to determine the forwarding destination for this connection request. If each and every field of the destination SAP of an incoming request either equals the corresponding field of a registered SAP, or the corresponding field contains the SAP_FIELD_ANY, the listening socket associated with this registered SAP will receive the incoming connection request.
 
 If 
 <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> and/or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566268">WSPBind</a> are used on a connecting socket to specify the calling party ATM address, the <b>satm_blli</b> and <b>satm_bhli</b> fields should be ignored and the ones specified in 
+<a href="https://msdn.microsoft.com/0fe5a66a-1126-494c-b4da-8041841685c6">WSPBind</a> are used on a connecting socket to specify the calling party ATM address, the <b>satm_blli</b> and <b>satm_bhli</b> fields should be ignored and the ones specified in 
 <a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>, 
 <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a>, or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a> will be used.
+<a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a> will be used.
 
 
 
@@ -138,7 +139,7 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544051">ATM_ADDRESS</a>
+<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
 
 
 
@@ -158,11 +159,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566268">WSPBind</a>
+<a href="https://msdn.microsoft.com/0fe5a66a-1126-494c-b4da-8041841685c6">WSPBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a>
+<a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a>
 
 
 
@@ -170,7 +171,7 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566297">WSPListen</a>
+<a href="https://msdn.microsoft.com/43d588dd-7aa2-405b-8f9d-b167bbbc6574">WSPListen</a>
 
 
 

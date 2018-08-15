@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -217,9 +218,9 @@ Before calling the <b>SetMask</b> method to mask a LUN,
 <div> </div>
 </li>
 <li>Dismount each volume by using the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff728857">FSCTL_DISMOUNT_VOLUME</a> control code.</li>
+       <a href="https://msdn.microsoft.com/84ca7f8d-6a0a-43d6-9970-9c01099eaad4">FSCTL_DISMOUNT_VOLUME</a> control code.</li>
 <li>If the volumes are on basic disks, take them offline by using the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561431">IOCTL_VOLUME_OFFLINE</a> control code.</li>
+       <a href="https://msdn.microsoft.com/7c9b97eb-c167-41cd-b235-7a9d7830915e">IOCTL_VOLUME_OFFLINE</a> control code.</li>
 <li>Uninstall each volume using the <b>SetupDiCallClassInstaller</b> function, 
        passing <b>DIF_REMOVE</b> for the <i>InstallFunction</i> parameter.</li>
 <li>Uninstall each disk using the <b>SetupDiCallClassInstaller</b> function, passing 

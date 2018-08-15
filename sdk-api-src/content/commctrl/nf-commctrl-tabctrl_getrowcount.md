@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,7 +70,7 @@ Handle to the tab control.
 
 
 
-Only tab controls that have the <a href="Tab_Control_Styles.htm">TCS_MULTILINE</a> style can have multiple rows of tabs. 
+Only tab controls that have the <a href="https://msdn.microsoft.com/en-us/library/Bb760549(v=VS.85).aspx">TCS_MULTILINE</a> style can have multiple rows of tabs. 
 
 
 

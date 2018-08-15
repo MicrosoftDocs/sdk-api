@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -107,7 +108,7 @@ The <b>SetDlgItemText</b> function sends a <a href="https://msdn.microsoft.com/e
 
 #### Examples
 
-For an example, see <a href="_win32_Using_List_Boxes">Using List Boxes</a>. 
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Using List Boxes</a>. 
 
 <div class="code"></div>
 

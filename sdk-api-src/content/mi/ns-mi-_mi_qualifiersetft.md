@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -63,10 +64,10 @@ A support structure used in the
 
 
 
-#### - GetQualifierCount
+#### - GetQualifier
 
-Gets the number of qualifiers in a qualifier set. See 
-       <a href="https://msdn.microsoft.com/0027b8fc-0528-4aa8-85bc-088429e1e045">MI_QualifierSet_GetQualifierCount</a>.
+Gets a named qualifier. See 
+       <a href="https://msdn.microsoft.com/16dde421-3746-4722-9f08-56835b7603fb">MI_QualifierSet_GetQualifier</a>.
 
 
 #### - GetQualifierAt
@@ -75,8 +76,8 @@ Gets a qualifier at the specified index. See
        <a href="https://msdn.microsoft.com/5dfcdd7a-7740-4d40-b412-89f6f090561c">MI_QualifierSet_GetQualifierAt</a>.
 
 
-#### - GetQualifier
+#### - GetQualifierCount
 
-Gets a named qualifier. See 
-       <a href="https://msdn.microsoft.com/16dde421-3746-4722-9f08-56835b7603fb">MI_QualifierSet_GetQualifier</a>.
+Gets the number of qualifiers in a qualifier set. See 
+       <a href="https://msdn.microsoft.com/0027b8fc-0528-4aa8-85bc-088429e1e045">MI_QualifierSet_GetQualifierCount</a>.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ Gets the specified function instance and its index from the collection.
 
 ### -param pszInstanceIdentity [in]
 
-The identifier of the function instance to be retrieved (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>).
+The identifier of the function instance to be retrieved (see <a href="https://msdn.microsoft.com/8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d">GetID</a>).
 
 
 ### -param pdwIndex [out]

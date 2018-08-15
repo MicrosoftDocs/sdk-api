@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -109,7 +110,7 @@ Specifies a <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-24972886
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593237">UnInstall</a>
+<a href="https://msdn.microsoft.com/3E53903A-B716-45E7-B0EB-0D1226291275">UnInstall</a>
 </td>
 <td align="left" width="63%">
 Removes the CEP web service.

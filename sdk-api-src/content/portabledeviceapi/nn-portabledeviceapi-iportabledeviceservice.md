@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -80,7 +81,7 @@ Registers an application-defined callback object that receives service events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/1fb07c56-4e7a-4c20-8e1e-65d8a2c719ab">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending service operation.
@@ -98,7 +99,7 @@ Retrieves the service capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/59cfe8d7-47ce-4d1a-a53a-30f398100aa7">Close</a>
 </td>
 <td align="left" width="63%">
 Releases the connection to the service.
@@ -143,7 +144,7 @@ Retrieves methods that can be called on the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a connection to the service.

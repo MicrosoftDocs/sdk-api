@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -1333,7 +1334,7 @@ Specifies an array of DD_ROP_SPACE DWORDs that together can hold flags to indica
 
 ### -field ddsCaps
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a> structure that describes the types of surfaces the driver supports.
+Specifies a <a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a> structure that describes the types of surfaces the driver supports.
 
 
 ### -field dwMinOverlayStretch
@@ -1464,7 +1465,7 @@ This section contains the DirectDraw driver structure whose name has the form DD
 
 This structure mirrors the first entries of the DDCAPS structure, but is of a fixed size and does not grow as DDCAPS does.
 
-The driver initializes DDCORECAPS when it is initializing the other members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
+The driver initializes DDCORECAPS when it is initializing the other members of the <a href="https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11">DD_HALINFO</a> structure in its <a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
 
 DirectDraw requests additional driver capabilities by calling the <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.
 

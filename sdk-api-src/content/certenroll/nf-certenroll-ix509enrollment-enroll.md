@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -99,7 +100,7 @@ The method may create a key pair if necessary. Depending on how you initialize t
 
 Before enrolling, you must initialize the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> object by calling one of the following methods.<ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/3bf4ce4a-6556-403c-8334-a6bf01f074a3">Initialize</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/04cb00af-f786-4548-bee3-2cc5083278c3">InitializeFromRequest</a>
@@ -110,7 +111,7 @@ Before enrolling, you must initialize the <a href="https://msdn.microsoft.com/37
 </ul>
 
 
-If the enrollment operation succeeds, the function  returns <b>S_OK</b>. However, this does not necessarily mean that the response from the CA was installed. Call  the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property to determine the enrollment status.
+If the enrollment operation succeeds, the function  returns <b>S_OK</b>. However, this does not necessarily mean that the response from the CA was installed. Call  the <a href="https://msdn.microsoft.com/9ebceb0b-bd78-48a8-ae57-c11fda0fe8a6">Status</a> property to determine the enrollment status.
 
 
 

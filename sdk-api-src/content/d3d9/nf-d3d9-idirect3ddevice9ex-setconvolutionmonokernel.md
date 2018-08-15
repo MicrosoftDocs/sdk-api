@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,11 +82,11 @@ Prepare the texture sampler for monochrome convolution filtering on a single-col
 
 
 
-#### - Width [in]
+#### - ColumnWeights [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b>float*</b>
 
-The width of the filter kernel; ranging from 1 - <a href="https://msdn.microsoft.com/en-us/library/Bb509548(v=VS.85).aspx">D3DCONVOLUTIONMONO_MAXWIDTH</a>. The default value is 1.
+An array of weights, one weight for each kernel sub-element in the height. This parameter must be <b>NULL</b>, which will set the weights equal to the default value.
 
 
 #### - Height [in]
@@ -102,11 +103,11 @@ Type: <b>float*</b>
 An array of weights, one weight for each kernel sub-element in the width. This parameter must be <b>NULL</b>, which will set the weights equal to the default value.
 
 
-#### - ColumnWeights [in]
+#### - Width [in]
 
-Type: <b>float*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-An array of weights, one weight for each kernel sub-element in the height. This parameter must be <b>NULL</b>, which will set the weights equal to the default value.
+The width of the filter kernel; ranging from 1 - <a href="https://msdn.microsoft.com/en-us/library/Bb509548(v=VS.85).aspx">D3DCONVOLUTIONMONO_MAXWIDTH</a>. The default value is 1.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -74,7 +75,7 @@ The <b>IMFSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
+<a href="https://msdn.microsoft.com/61c2a1dc-b9fe-4296-bf33-d54006cad32b">AddBuffer</a>
 </td>
 <td align="left" width="63%">
 Adds a buffer to the end of the list of buffers in the sample.

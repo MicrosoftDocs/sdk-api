@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sdoias.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -72,7 +73,7 @@ The <b>ISdoCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/a575b224-9827-47f3-a819-bd793200c901">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -108,7 +109,7 @@ Tests whether an item name is unique in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the collection.
@@ -117,7 +118,7 @@ Retrieves an item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554379">Reload</a>
+<a href="https://msdn.microsoft.com/9bf216a0-2d65-4242-97bc-f4b690e92d55">Reload</a>
 </td>
 <td align="left" width="63%">
 Reloads all items in the collection from the underlying datastore.
@@ -126,7 +127,7 @@ Reloads all items in the collection from the underlying datastore.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/f390377d-b78e-4548-9602-c0eb363765c7">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

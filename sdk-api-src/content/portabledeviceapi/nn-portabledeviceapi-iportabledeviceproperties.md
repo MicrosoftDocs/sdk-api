@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IPortableDeviceProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/6443e742-1296-4be4-b426-1f277406c01c">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending call on this interface.
@@ -110,7 +111,7 @@ Retrieves a list of properties that a specified object supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
+<a href="https://msdn.microsoft.com/5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c">GetValues</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of specified properties from a specified object on a device.
@@ -119,7 +120,7 @@ Retrieves a list of specified properties from a specified object on a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556883">SetValues</a>
+<a href="https://msdn.microsoft.com/3c631d31-5553-4ad0-8384-821c11c78254">SetValues</a>
 </td>
 <td align="left" width="63%">
 Adds or modifies one or more properties on a specified object on a device.

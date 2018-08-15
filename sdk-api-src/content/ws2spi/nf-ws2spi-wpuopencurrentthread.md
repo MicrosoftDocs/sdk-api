@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ The
 ### -param lpThreadId [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure that can then be passed to an overlapped function.
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that can then be passed to an overlapped function.
 
 
 ### -param lpErrno [out]
@@ -113,15 +114,15 @@ A successful
 
 The 
 <b>WPUOpenCurrentThread</b> function provides a pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a> or 
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
 <b>WPUOpenCurrentThread</b> to pass a 
 <b>WSATHREADID</b> pointer to the lower layer that is administering overlapped functions.
 
 Overlapped functions such as 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> can then be used in the same way as a regular service provider.
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a> and 
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a> can then be used in the same way as a regular service provider.
 
 Every call to 
 <b>WPUOpenCurrentThread</b> must have a corresponding call to 
@@ -139,11 +140,11 @@ Every call to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>
  
 
  

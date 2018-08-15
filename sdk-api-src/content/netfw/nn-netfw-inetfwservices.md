@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -94,7 +95,7 @@ Retrieves the contents of the Count property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/a13740cc-7d9a-4c1f-ae18-a31ca4d39b54">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the specified port if present in the collection.
@@ -111,7 +112,7 @@ Returns the specified port if present in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/2da6560f-2eca-4391-88c1-a86948d19d58">_NewEnum</a>
 
 
 </td>
@@ -123,7 +124,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/543d54d9-1dc8-4348-ab8d-369857a213ef">Count</a>
 
 
 </td>
@@ -140,7 +141,7 @@ Gets the count for the collection.
 
 
 An instance of this interface is retrieved through the
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a> property of the INetFwProfile interface. 
+<a href="https://msdn.microsoft.com/38b32f8e-9aeb-4f63-9880-f393cce185fb">Services</a> property of the INetFwProfile interface. 
 
 All configuration
 changes take effect immediately.

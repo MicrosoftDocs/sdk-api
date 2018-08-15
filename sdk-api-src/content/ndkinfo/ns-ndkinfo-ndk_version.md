@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndkinfo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
 req.target-min-winversvr: Windows Server 2012
@@ -87,19 +88,19 @@ To specify version 1.2 (for Windows Server 2012 R2), set the <b>Major</b> memb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451599">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/AC8D4FA1-59E0-4934-A6C5-EA2E645C53FA">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+<a href="https://msdn.microsoft.com/3F8EAA7F-20CE-4948-9F10-E23025B174E7">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="https://msdn.microsoft.com/439C990E-6978-4D0F-8453-6EB2FED1DB77">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/12E3ED4A-F078-4489-BC84-69EE735CAEF8">NDK_OBJECT_HEADER</a>
  
 
  

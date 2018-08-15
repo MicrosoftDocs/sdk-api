@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IFaxOutboundRoutingGroups</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/82278aba-aa52-4a22-84f6-dadcd7e94376">Add</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms688586(v=VS.85).aspx">IFaxOutboundRoutingGroups::Add</a> method adds an outbound routing group to the collection represented by the <b>IFaxOutboundRoutingGroups</b> interface.
@@ -91,7 +92,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687536(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/1f6a2110-885b-46ef-9914-389463c45845">Item</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms690128(v=VS.85).aspx">IFaxOutboundRoutingGroups::get_Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a> interface from the collection.
@@ -100,10 +101,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690128(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/94958169-332f-4d9f-ac16-d35d38fd5a27">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. 
+The <a href="https://msdn.microsoft.com/94958169-332f-4d9f-ac16-d35d38fd5a27">Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. 
 
 <div class="alert"><b>Note</b>  You cannot remove the special <b>All Devices</b> routing group.</div>
 <div> </div>
@@ -120,7 +121,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remov
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/7868b224-29e4-4306-847a-dcbda82fcde2">Count</a>
 
 
 </td>
@@ -129,7 +130,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. This is the total number of outbound routing groups associated with the fax server.
+The <a href="https://msdn.microsoft.com/7868b224-29e4-4306-847a-dcbda82fcde2">Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. This is the total number of outbound routing groups associated with the fax server.
 
 </td>
 </tr>

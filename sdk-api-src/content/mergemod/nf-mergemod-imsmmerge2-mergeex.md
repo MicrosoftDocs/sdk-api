@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: GDI+ 1.1
 
 The 
 <b>MergeEx</b> method executes a merge of the current database and current module. The merge attaches the components in the module to the feature identified by <i>Feature</i>. The root of the module's directory tree is redirected to the location given by <i>RedirectDir</i>. For more information, see the 
-<a href="https://msdn.microsoft.com/83b6d62b-d176-42ac-b513-d1c2e562965c">MergeEx</a> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a> object.  
+<a href="https://msdn.microsoft.com/83b6d62b-d176-42ac-b513-d1c2e562965c">MergeEx</a> method of the <a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
 			
 
 

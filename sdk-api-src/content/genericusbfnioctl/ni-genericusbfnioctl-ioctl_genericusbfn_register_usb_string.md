@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,12 +65,12 @@ This I/O control code (IOCTL) is sent by a user-mode service or application to r
 
 ### -input-buffer
 
-A pointer to a buffer that contains a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt188007">USBFN_USB_STRING</a> structure with the USB string descriptor.
+A pointer to a buffer that contains a  <a href="https://msdn.microsoft.com/1169A369-0E6D-4308-ABF6-0724FED73AF9">USBFN_USB_STRING</a> structure with the USB string descriptor.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188007">USBFN_USB_STRING</a> structure.
+The size of a <a href="https://msdn.microsoft.com/1169A369-0E6D-4308-ABF6-0724FED73AF9">USBFN_USB_STRING</a> structure.
 
 
 ### -output-buffer
@@ -109,7 +110,7 @@ None.
 
 
 
-This request must be sent after sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187868">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the <a href="https://msdn.microsoft.com/A8CE2698-B2EF-409A-8251-7419F76D47BC">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a> request.
 
 If this I/O control code (IOCTL) is being called synchronously, set the <i>lpOverlapped</i> parameter to NULL. If this IOCTL is called asynchronously, assign the <i>lpOverlapped</i> parameter to a pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that contains a handle to an event object. The event objects signal when the operation is completed.
 

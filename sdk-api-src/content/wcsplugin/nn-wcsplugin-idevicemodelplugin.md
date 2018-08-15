@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcsplugin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ Describes the methods that are defined for the <b>IDeviceModelPlugIn</b> Compone
 <a href="https://msdn.microsoft.com/46253246-e07c-4f55-92fa-91941abaefcd">GetPrimarySamples</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/ae47dcc5-f771-4586-9086-b4ab1600c1bc">Initialize</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/01d0815d-1a6b-48f3-9a81-65df0e185e8f">SetTransformDeviceModelInfo</a>

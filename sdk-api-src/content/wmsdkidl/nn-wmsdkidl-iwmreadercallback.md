@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ The <b>IWMReaderCallback</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">OnSample</a>
 </td>
 <td align="left" width="63%">
-Called during the reading of a file (due to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> call) indicating that new uncompressed data is available.
+Called during the reading of a file (due to a <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">Start</a> call) indicating that new uncompressed data is available.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ Called during the reading of a file (due to a <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

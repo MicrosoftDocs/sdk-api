@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -159,7 +160,7 @@ The total number of retransmitted synchronize control flags (SYNs).
 
 
 To get an instance of this structure,  call the 
-   <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a> function with the <a href="https://msdn.microsoft.com/AB5F25B6-D2D2-42D7-8189-06CAC4842C66">SIO_TCP_INFO</a> 
+   <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> or <a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a> function with the <a href="https://msdn.microsoft.com/AB5F25B6-D2D2-42D7-8189-06CAC4842C66">SIO_TCP_INFO</a> 
    control code.
 
 

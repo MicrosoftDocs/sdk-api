@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).asp
 
 ### -field DWMWA_CAPTION_BUTTON_BOUNDS
 
-Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the bounds of the caption button area in the window-relative space. The retrieved value is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>.
+Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the bounds of the caption button area in the window-relative space. The retrieved value is of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
 
 
 ### -field DWMWA_NONCLIENT_RTL_LAYOUT
@@ -101,7 +102,7 @@ Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).asp
 
 ### -field DWMWA_EXTENDED_FRAME_BOUNDS
 
-Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the extended frame bounds rectangle in screen space. The retrieved value is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>.
+Use with <a href="https://msdn.microsoft.com/en-us/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a>. Retrieves the extended frame bounds rectangle in screen space. The retrieved value is of type <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
 
 
 ### -field DWMWA_HAS_ICONIC_BITMAP

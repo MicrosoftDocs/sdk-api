@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Internet Explorer 5
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Provides a mechanism for the provider to persist properties without having to implement <a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>. This method is called whenever <a href="https://msdn.microsoft.com/library/windows/hardware/ff536957">IPropertyStore::Commit</a> is called by the client on the function instance property store.
+Provides a mechanism for the provider to persist properties without having to implement <a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>. This method is called whenever <a href="shell_IPropertyStoreshell_IPropertyStore_Commit_cpp">IPropertyStore::Commit</a> is called by the client on the function instance property store.
 
 
 ## -parameters
@@ -141,7 +142,7 @@ The method is unable to allocate the memory required to perform this operation.
 
 
 
-If the provider keeps the new values that are passed through <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> cached in memory, this method should implement the code to persist the updated values to the underlying API/store.
+If the provider keeps the new values that are passed through <a href="https://msdn.microsoft.com/5aa3e6a3-febc-4d2d-b58b-abfad28d325d">SetValue</a> cached in memory, this method should implement the code to persist the updated values to the underlying API/store.
 
 If you implement this method, you should call <a href="https://msdn.microsoft.com/3e03567b-7bac-4bef-ae62-a040f0c33cfb">OpenPropertyStore</a> to return the current property store before persisting the data.
 

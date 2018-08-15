@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,11 +80,6 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
-
-
 #### - dwSubEntry [in]
 
 Specifies the one-based index of the subentry.
@@ -104,6 +100,17 @@ On input, the <b>dwSize</b> member specifies the size of the structure. The size
 This parameter can be <b>NULL</b>.
 
 
+#### - lpbDeviceConfig [in]
+
+Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
+<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
+
+
+#### - lpcbDeviceConfig [in]
+
+Pointer to a <b>DWORD</b> that specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter.
+
+
 #### - lpdwcb [in, out]
 
 Pointer to a variable that specifies, on input, the size, in bytes, of the <i>lpRasSubEntry</i> buffer. 
@@ -116,15 +123,9 @@ On output, the variable receives the number of bytes returned, or the number of 
 This parameter can be <b>NULL</b> if <i>lpRasSubEntry</i> is <b>NULL</b>.
 
 
-#### - lpbDeviceConfig [in]
+#### - lpszEntry [in]
 
-Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
-
-
-#### - lpcbDeviceConfig [in]
-
-Pointer to a <b>DWORD</b> that specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter.
+Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
 
 
 ## -returns

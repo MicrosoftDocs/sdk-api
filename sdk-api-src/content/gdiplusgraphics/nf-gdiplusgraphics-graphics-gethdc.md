@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetHDC</b> method gets a handle to the device context associated with this 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Type: <strong>Type: <b>HDC</b>
 </strong>
 
 This method returns a handle to the device context associated with this 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 
@@ -80,7 +81,7 @@ This method returns a handle to the device context associated with this
 
 
 Each call to the <b>Graphics::GetHDC</b> method of a 
-				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object should be paired with a call 
+				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object should be paired with a call 
 to the <a href="https://msdn.microsoft.com/en-us/library/ms535801(v=VS.85).aspx">Graphics::ReleaseHDC</a> method of that same 
 				<b>Graphics</b> object. Do not call any methods of the 
 				<b>Graphics</b> object between the calls to <b>Graphics::GetHDC</b> and <b>Graphics::ReleaseHDC</b>. If you attempt to call a method of the 
@@ -94,7 +95,7 @@ Any state changes you make to the device context between <b>Graphics::GetHDC</b>
 
 
 The following function uses GDI+ to draw an ellipse, then uses GDI to draw a rectangle, and finally uses GDI+ to draw a line. The function's one parameter is a pointer to a GDI+ 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The code calls the
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The code calls the
 <a href="https://msdn.microsoft.com/en-us/library/ms536067(v=VS.85).aspx">Graphics::DrawEllipse</a> method of that 
 						<b>Graphics</b> object to draw an ellipse. Next, the code calls the <b>Graphics::GetHDC</b> method to obtain a handle to the device context associated with the 
 						<b>Graphics</b> object. The code draws a rectangle by passing the device context handle to the GDI<b>Rectangle</b> function. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535801(v=VS.85).aspx">Graphics::ReleaseHDC</a> method of the 
@@ -141,7 +142,7 @@ The following function uses GDI+ to draw an ellipse, then uses GDI to draw a rec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

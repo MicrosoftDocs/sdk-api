@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: Evntcons.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -89,7 +90,7 @@ The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/cabc1
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that contains the security identifier (SID) of the user that logged the event. ETW includes the SID if you set the <i>EnableProperty</i> parameter of <a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a> to EVENT_ENABLE_PROPERTY_SID.
+The <b>DataPtr</b> member points to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that contains the security identifier (SID) of the user that logged the event. ETW includes the SID if you set the <i>EnableProperty</i> parameter of <a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a> to EVENT_ENABLE_PROPERTY_SID.
 
 </td>
 </tr>

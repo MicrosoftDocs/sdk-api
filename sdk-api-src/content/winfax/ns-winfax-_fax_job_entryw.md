@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -451,24 +452,19 @@ Type: <b>LPCTSTR</b>
 Pointer to a constant null-terminated character string to associate with the fax document. This is the user-friendly name that appears in the print spooler.
 
 
-##### - JobType.JT_SEND
+##### - DeliveryReportType.DRT_EMAIL
 
-The job is an outgoing fax transmission.
-
-
-##### - JobType.JT_RECEIVE
-
-The job is an incoming fax transmission.
+Send the DR or NDR in an email message to the sender of the fax transmission (supported in Windows Server 2003 and later).
 
 
-##### - JobType.JT_UNKNOWN
+##### - DeliveryReportType.DRT_INBOX
 
-The job type is unknown. This value indicates that the fax server has not yet scheduled the job.
+Send the DR or NDR in email to the sender's local personal folder store (PST).
 
 
-##### - JobType.JT_ROUTING
+##### - DeliveryReportType.DRT_NONE
 
-The fax server tried to route the fax transmission, but routing failed. The fax server will attempt to route the job again.
+Do not send a DR or an NDR to the sender of the fax transmission.
 
 
 ##### - JobType.JT_FAIL_RECEIVE
@@ -476,14 +472,24 @@ The fax server tried to route the fax transmission, but routing failed. The fax 
 The fax server did not route the fax because it did not receive the entire transmission. The fax server saves the partial transmission in a temporary directory.
 
 
-##### - QueueStatus.JS_PENDING
+##### - JobType.JT_RECEIVE
 
-The fax job is in the queue and pending service.
+The job is an incoming fax transmission.
 
 
-##### - QueueStatus.JS_INPROGRESS
+##### - JobType.JT_ROUTING
 
-The fax job is in progress.
+The fax server tried to route the fax transmission, but routing failed. The fax server will attempt to route the job again.
+
+
+##### - JobType.JT_SEND
+
+The job is an outgoing fax transmission.
+
+
+##### - JobType.JT_UNKNOWN
+
+The job type is unknown. This value indicates that the fax server has not yet scheduled the job.
 
 
 ##### - QueueStatus.JS_DELETING
@@ -496,9 +502,9 @@ The fax server is deleting the fax job.
 The fax job failed.
 
 
-##### - QueueStatus.JS_PAUSED
+##### - QueueStatus.JS_INPROGRESS
 
-The fax server paused the fax job.
+The fax job is in progress.
 
 
 ##### - QueueStatus.JS_NOLINE
@@ -506,9 +512,14 @@ The fax server paused the fax job.
 There is no line available to send the fax. The fax server will send the transmission when a line is available.
 
 
-##### - QueueStatus.JS_RETRYING
+##### - QueueStatus.JS_PAUSED
 
-The fax job failed. The fax server will attempt to retransmit the fax after a specified interval. For more information about global configuration settings, such as retransmission intervals, see <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>.
+The fax server paused the fax job.
+
+
+##### - QueueStatus.JS_PENDING
+
+The fax job is in the queue and pending service.
 
 
 ##### - QueueStatus.JS_RETRIES_EXCEEDED
@@ -516,114 +527,14 @@ The fax job failed. The fax server will attempt to retransmit the fax after a sp
 The fax server exceeded the maximum number of retransmission attempts allowed. The fax will not be sent. For more information about global configuration settings, such as the maximum number of retransmission attempts, see <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>.
 
 
-##### - Status.FPS_DIALING
+##### - QueueStatus.JS_RETRYING
 
-The device is dialing a fax number.
+The fax job failed. The fax server will attempt to retransmit the fax after a specified interval. For more information about global configuration settings, such as retransmission intervals, see <a href="https://msdn.microsoft.com/en-us/library/ms690874(v=VS.85).aspx">FAX_CONFIGURATION</a>.
 
 
-##### - Status.FPS_SENDING
+##### - ScheduleAction.JSA_DISCOUNT_PERIOD
 
-The device is sending a fax document.
-
-
-##### - Status.FPS_RECEIVING
-
-The device is receiving a fax document.
-
-
-##### - Status.FPS_COMPLETED
-
-The device completed sending or receiving a fax transmission.
-
-
-##### - Status.FPS_UNAVAILABLE
-
-The device is not available because it is in use by another application.
-
-
-##### - Status.FPS_BUSY
-
-The device encountered a busy signal.
-
-
-##### - Status.FPS_NO_ANSWER
-
-The receiving device did not answer the call.
-
-
-##### - Status.FPS_BAD_ADDRESS
-
-The device dialed an invalid fax number.
-
-
-##### - Status.FPS_NO_DIAL_TONE
-
-The sending device cannot complete the call because it does not detect a dial tone.
-
-
-##### - Status.FPS_DISCONNECTED
-
-The fax call was disconnected by the sender or the caller.
-
-
-##### - Status.FPS_FATAL_ERROR
-
-The device has encountered a fatal protocol error.
-
-
-##### - Status.FPS_NOT_FAX_CALL
-
-The device received a call that was a data call or a voice call.
-
-
-##### - Status.FPS_CALL_DELAYED
-
-The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
-
-
-##### - Status.FPS_CALL_BLACKLISTED
-
-The device could not complete a call because the telephone number was blocked or reserved; emergency numbers such as 911 are blocked.
-
-
-##### - Status.FPS_INITIALIZING
-
-The device is initializing a call.
-
-
-##### - Status.FPS_OFFLINE
-
-The device is offline and unavailable.
-
-
-##### - Status.FPS_RINGING
-
-The device is ringing.
-
-
-##### - Status.FPS_AVAILABLE
-
-The device is available.
-
-
-##### - Status.FPS_ABORTING
-
-The device is aborting a fax job.
-
-
-##### - Status.FPS_ROUTING
-
-The device is routing a received fax document.
-
-
-##### - Status.FPS_ANSWERED
-
-The device answered a new call.
-
-
-##### - Status.FPS_HANDLED
-
-The fax service processed the outbound fax document; the fax service provider will transmit the document.
+Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server.
 
 
 ##### - ScheduleAction.JSA_NOW
@@ -636,24 +547,114 @@ Send the fax as soon as a device is available.
 Send the fax at the time specified by the <b>ScheduleTime</b> member.
 
 
-##### - ScheduleAction.JSA_DISCOUNT_PERIOD
+##### - Status.FPS_ABORTING
 
-Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server.
-
-
-##### - DeliveryReportType.DRT_NONE
-
-Do not send a DR or an NDR to the sender of the fax transmission.
+The device is aborting a fax job.
 
 
-##### - DeliveryReportType.DRT_EMAIL
+##### - Status.FPS_ANSWERED
 
-Send the DR or NDR in an email message to the sender of the fax transmission (supported in Windows Server 2003 and later).
+The device answered a new call.
 
 
-##### - DeliveryReportType.DRT_INBOX
+##### - Status.FPS_AVAILABLE
 
-Send the DR or NDR in email to the sender's local personal folder store (PST).
+The device is available.
+
+
+##### - Status.FPS_BAD_ADDRESS
+
+The device dialed an invalid fax number.
+
+
+##### - Status.FPS_BUSY
+
+The device encountered a busy signal.
+
+
+##### - Status.FPS_CALL_BLACKLISTED
+
+The device could not complete a call because the telephone number was blocked or reserved; emergency numbers such as 911 are blocked.
+
+
+##### - Status.FPS_CALL_DELAYED
+
+The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+
+
+##### - Status.FPS_COMPLETED
+
+The device completed sending or receiving a fax transmission.
+
+
+##### - Status.FPS_DIALING
+
+The device is dialing a fax number.
+
+
+##### - Status.FPS_DISCONNECTED
+
+The fax call was disconnected by the sender or the caller.
+
+
+##### - Status.FPS_FATAL_ERROR
+
+The device has encountered a fatal protocol error.
+
+
+##### - Status.FPS_HANDLED
+
+The fax service processed the outbound fax document; the fax service provider will transmit the document.
+
+
+##### - Status.FPS_INITIALIZING
+
+The device is initializing a call.
+
+
+##### - Status.FPS_NOT_FAX_CALL
+
+The device received a call that was a data call or a voice call.
+
+
+##### - Status.FPS_NO_ANSWER
+
+The receiving device did not answer the call.
+
+
+##### - Status.FPS_NO_DIAL_TONE
+
+The sending device cannot complete the call because it does not detect a dial tone.
+
+
+##### - Status.FPS_OFFLINE
+
+The device is offline and unavailable.
+
+
+##### - Status.FPS_RECEIVING
+
+The device is receiving a fax document.
+
+
+##### - Status.FPS_RINGING
+
+The device is ringing.
+
+
+##### - Status.FPS_ROUTING
+
+The device is routing a received fax document.
+
+
+##### - Status.FPS_SENDING
+
+The device is sending a fax document.
+
+
+##### - Status.FPS_UNAVAILABLE
+
+The device is not available because it is in use by another application.
 
 
 ## -remarks

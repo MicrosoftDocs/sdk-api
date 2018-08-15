@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>FaceRectInfoBlobHeader</b> structure describes the size and count informa
 
 ### -field Size
 
-Size of this header + all following <a href="https://msdn.microsoft.com/library/windows/hardware/dn927644">FaceRectInfo</a> structures.
+Size of this header + all following <a href="https://msdn.microsoft.com/63F31CDC-CB44-4ED8-BDA0-89F7DCF77965">FaceRectInfo</a> structures.
 
 
 ### -field Count

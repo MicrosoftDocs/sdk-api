@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cmdtree.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -94,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The provider discovered nonfatal errors in the command text previously set by <a href="0a077a8b-0673-4e81-ae2c-1f8d3191982c">ICommandText::SetCommandText</a> while building the command tree.
+The provider discovered nonfatal errors in the command text previously set by <a href="https://msdn.microsoft.com/library/ms709757(v=VS.85).aspx">ICommandText::SetCommandText</a> while building the command tree.
 
 </td>
 </tr>
@@ -138,7 +139,7 @@ The provider was unable to allocate sufficient memory in which to return the com
 </dl>
 </td>
 <td width="60%">
-The provider cannot represent the command text previously set by <a href="0a077a8b-0673-4e81-ae2c-1f8d3191982c">ICommandText::SetCommandText</a> as a tree.
+The provider cannot represent the command text previously set by <a href="https://msdn.microsoft.com/library/ms709757(v=VS.85).aspx">ICommandText::SetCommandText</a> as a tree.
 
 </td>
 </tr>
@@ -152,7 +153,7 @@ The provider cannot represent the command text previously set by <a href="0a077a
 
 
 
-The returned tree reflects exactly the command set by the last invocation of <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> or <a href="0a077a8b-0673-4e81-ae2c-1f8d3191982c">ICommandText::SetCommandText</a>, as modified by subsequent calls to <b>IQuery::AddPostProcessing</b>. If the command is stored as a tree, the returned tree is a copy of the one stored in the command object. If a tree node was passed with text, it is also echoed as text. If the command is stored as text, the provider should return a "navigable" command-tree representation of the text, which is not necessarily in optimized form. If the provider cannot create a full representation, the command tree can consist of a single text node. For example, if the tree can be represented as a DBOP_SQL_select node, and the provider supports that node, it must be returned in that format. However, if the tree cannot be represented as a DBOP_SQL_select node, but can be represented in a nontrivial command tree (that is, in a type other than DBOP_text_command), the provider must return it as that nontrivial tree. The provider may only return the tree as the trivial DBOP_text_command node, if that is the only command node it supports. Otherwise, it must return a valid, non-trivial navigable tree or return DB_E_CANTTRANSLATE if the text cannot be represented in such a tree. At this time, the provider should not make any unnecessary validation, such as binding, but if in the course of parsing the provider discovers nonfatal errors in building the tree, it should put the error information in the tree and return DB_S_ERRORSINTREE.
+The returned tree reflects exactly the command set by the last invocation of <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> or <a href="https://msdn.microsoft.com/library/ms709757(v=VS.85).aspx">ICommandText::SetCommandText</a>, as modified by subsequent calls to <b>IQuery::AddPostProcessing</b>. If the command is stored as a tree, the returned tree is a copy of the one stored in the command object. If a tree node was passed with text, it is also echoed as text. If the command is stored as text, the provider should return a "navigable" command-tree representation of the text, which is not necessarily in optimized form. If the provider cannot create a full representation, the command tree can consist of a single text node. For example, if the tree can be represented as a DBOP_SQL_select node, and the provider supports that node, it must be returned in that format. However, if the tree cannot be represented as a DBOP_SQL_select node, but can be represented in a nontrivial command tree (that is, in a type other than DBOP_text_command), the provider must return it as that nontrivial tree. The provider may only return the tree as the trivial DBOP_text_command node, if that is the only command node it supports. Otherwise, it must return a valid, non-trivial navigable tree or return DB_E_CANTTRANSLATE if the text cannot be represented in such a tree. At this time, the provider should not make any unnecessary validation, such as binding, but if in the course of parsing the provider discovers nonfatal errors in building the tree, it should put the error information in the tree and return DB_S_ERRORSINTREE.
 
 This method does not reveal a provider's internal, optimized translation (which may be different from a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure) of text to (non-text) tree operations.
 

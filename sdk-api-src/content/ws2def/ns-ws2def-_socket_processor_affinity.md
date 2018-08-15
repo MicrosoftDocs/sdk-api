@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -61,7 +62,7 @@ The <b>SOCKET_PROCESSOR_AFFINITY</b> structure contains the association between 
 
 ### -field Processor
 
-A structure to represent a system wide processor number. This <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure contains a
+A structure to represent a system wide processor number. This <a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a> structure contains a
 group number and relative processor number within the group.
 
 
@@ -92,7 +93,7 @@ The <a href="https://msdn.microsoft.com/DAF18C92-B479-474F-B438-0746CBA20653">SI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a>
+<a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumSyncProviderInfos</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/de53dade-82f3-418c-a44c-58d4b7502729">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -80,7 +81,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/b56cacfd-9cfe-4f5a-a945-dca299e43497">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next <b>ISyncProviderInfo</b> object.
@@ -89,7 +90,7 @@ Returns the next <b>ISyncProviderInfo</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/c2a7374b-fd57-4f50-b740-941625377b64">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the <b>ISyncProviderInfo</b> set.
@@ -98,7 +99,7 @@ Resets the enumerator to the beginning of the <b>ISyncProviderInfo</b> set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/da59a26a-8df3-4a19-b771-6fd11f69576e">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of <b>ISyncProviderInfo</b> objects.

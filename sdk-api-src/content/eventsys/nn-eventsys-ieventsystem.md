@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEventSystem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/47025361-4420-4c5d-aed7-d40ea0ba3e3b">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of subscription or event objects from the event data store.
@@ -90,7 +91,7 @@ Retrieves a collection of subscription or event objects from the event data stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/2774806b-ad50-4219-a196-da82c93b80ac">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes one or more subscription or event objects from the event data store.

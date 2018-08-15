@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -87,7 +88,7 @@ The <b>IFsrmReportJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/7a8680e4-e5b4-4174-8eae-aad65b1d4f22">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the running reports.
@@ -114,7 +115,7 @@ Enumerates all the reports configured for this report job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">Run</a>
 </td>
 <td align="left" width="63%">
 Runs all the reports in the job.
@@ -273,12 +274,12 @@ Retrieves or sets the name of the report job.
 
 
 
-To <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">commit</a> the job, you must specify at least one 
+To <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">commit</a> the job, you must specify at least one 
     <a href="https://msdn.microsoft.com/484941d1-726c-4765-8652-bcb378f277b4">report type</a>, at least one 
     <a href="https://msdn.microsoft.com/09c767ce-6a81-4c06-93cb-dd1a79d17d97">namespace root</a>, and the 
     <a href="https://msdn.microsoft.com/2c9ceaca-f696-4506-bc25-efd601522560">task name</a>.
 
-To <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">run</a> the job, you must specify at least one 
+To <a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">run</a> the job, you must specify at least one 
    <a href="https://msdn.microsoft.com/484941d1-726c-4765-8652-bcb378f277b4">report type</a> and 
    <a href="https://msdn.microsoft.com/09c767ce-6a81-4c06-93cb-dd1a79d17d97">namespace root</a>.
 

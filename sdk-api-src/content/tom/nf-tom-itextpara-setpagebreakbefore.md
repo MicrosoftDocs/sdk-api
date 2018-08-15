@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,7 +71,7 @@ Controls whether there is a page break before each paragraph in a range.
 
 Type: <b>long</b>
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that controls page breaks before paragraphs. It can be one of the following values. 
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that controls page breaks before paragraphs. It can be one of the following values. 
 
 <table>
 <tr>

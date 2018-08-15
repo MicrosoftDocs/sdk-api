@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -88,7 +89,7 @@ The number of sources in the <b>imsf_slist</b> member.
 
 ### -field imsf_slist
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a> structures that specify the IPv4 multicast source addresses to include or exclude.
+An array of <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a> structures that specify the IPv4 multicast source addresses to include or exclude.
 
 
 ## -remarks

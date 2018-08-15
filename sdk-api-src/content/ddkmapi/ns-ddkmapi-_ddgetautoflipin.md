@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,11 +74,11 @@ Specifies the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
+<a href="https://msdn.microsoft.com/96c48986-e4b0-4509-bf25-b4a141e31beb">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

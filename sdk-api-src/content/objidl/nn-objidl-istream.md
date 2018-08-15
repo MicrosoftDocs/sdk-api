@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -97,7 +98,7 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 
 For general information on this topic, see 
 <a href="https://msdn.microsoft.com/en-us/library/ms680058(v=VS.85).aspx">Asynchronous Monikers</a> and 
-<a href="_com_data_pull_model_versus_data_push_model">Data-Pull-Model versus Data Push-Model</a> for more specific information. Also, see 
+<a href="https://msdn.microsoft.com/library/ms691498(v=VS.85).aspx">Data-Pull-Model versus Data Push-Model</a> for more specific information. Also, see 
 <a href="https://msdn.microsoft.com/en-us/library/ms688453(v=VS.85).aspx">Managing Memory Allocation</a> for details on COM's rules for managing memory.
 
 
@@ -118,7 +119,7 @@ The <b>IStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/677c37fb-598f-4bb0-b5d6-600e0befc722">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new stream object that references the same bytes as the original stream but provides a separate seek pointer to those bytes.
@@ -127,7 +128,7 @@ Creates a new stream object that references the same bytes as the original strea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/335c3a53-ca6a-42f3-bbf9-684ed48591e6">Commit</a>
 </td>
 <td align="left" width="63%">
 Ensures that any changes made to a stream object open in transacted mode are reflected in the parent storage object.
@@ -154,7 +155,7 @@ Restricts access to a specified range of bytes in the stream. Supporting this fu
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">Read</a>
 </td>
 <td align="left" width="63%">
 Reads a specified number of bytes from the stream object into memory starting at the current seek pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/c1d33800-d2f1-4942-92fa-e115f524c23c">ISequentialStream</a>)</td>
@@ -171,7 +172,7 @@ Discards all changes that have been made to a transacted stream since the last c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">Seek</a>
 </td>
 <td align="left" width="63%">
 Changes the seek pointer to a new location relative to the beginning of the stream, the end of the stream, or the current seek pointer.
@@ -180,7 +181,7 @@ Changes the seek pointer to a new location relative to the beginning of the stre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/05627db5-067b-4a1a-a7ed-c83314f8bd8d">SetSize</a>
 </td>
 <td align="left" width="63%">
 Changes the size of the stream object.
@@ -209,7 +210,7 @@ Removes the access restriction on a range of bytes previously restricted with
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a>
 </td>
 <td align="left" width="63%">
 Writes a specified number of bytes into the stream object starting at the current seek pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/c1d33800-d2f1-4942-92fa-e115f524c23c">ISequentialStream</a>)</td>

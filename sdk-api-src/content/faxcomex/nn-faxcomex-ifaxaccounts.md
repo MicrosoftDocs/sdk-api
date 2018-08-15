@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,7 +92,7 @@ Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).as
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/af926d20-fd72-4b9a-ba70-e3bf64eda3a4">Count</a>
 
 
 </td>
@@ -107,7 +108,7 @@ Holds the number of items in the <b>IFaxAccounts</b> collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
+<a href="https://msdn.microsoft.com/90eebc3b-1113-4512-b08f-5d73df8b2d7f">NewEnum</a>
 
 
 </td>

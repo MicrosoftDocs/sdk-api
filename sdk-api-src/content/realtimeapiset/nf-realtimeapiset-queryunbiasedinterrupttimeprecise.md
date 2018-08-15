@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -86,7 +87,7 @@ This function does not return a value.
 
 To provide a system time value that is more precise than that of <a href="https://msdn.microsoft.com/f9cf5440-9be9-4ff9-b85c-2779b847954c">QueryUnbiasedInterruptTime</a>, <b>QueryUnbiasedInterruptTimePrecise</b> reads the timer hardware directly,  therefore a <b>QueryUnbiasedInterruptTimePrecise</b> call can be slower than a <b>QueryUnbiasedInterruptTime</b> call.
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a> routine to determine the duration of a system clock tick.
+Call the <a href="https://msdn.microsoft.com/f8291e2b-a7a1-4a19-9137-fcd93e62bbaf">KeQueryTimeIncrement</a> routine to determine the duration of a system clock tick.
 
 Also see Remarks in <a href="https://msdn.microsoft.com/f9cf5440-9be9-4ff9-b85c-2779b847954c">QueryUnbiasedInterruptTime</a>.
 
@@ -119,7 +120,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0601
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564571">System Power States</a>
+<a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">System Power States</a>
 
 
 

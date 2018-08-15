@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -92,22 +93,6 @@ Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
-#### - strResourceName
-
-<b>String</b> containing the name of the resource to create.
-
-
-#### - strResourceType
-
-<b>String</b> specifying the type of resource to create.
-
-
-#### - strGroupName
-
-<b>String</b> containing the name of the group to which the new resource will 
-      belong.
-
-
 #### - lFlag
 
 Value indicating how to create the resource. <i>lFlag</i> can be set to one of these 
@@ -129,6 +114,22 @@ The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cl
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
         resource.
+
+
+#### - strGroupName
+
+<b>String</b> containing the name of the group to which the new resource will 
+      belong.
+
+
+#### - strResourceName
+
+<b>String</b> containing the name of the resource to create.
+
+
+#### - strResourceType
+
+<b>String</b> specifying the type of resource to create.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -111,9 +112,9 @@ The device type defined in Winioctl.h, which includes the following types among 
 
 ### -field dwMediaType
 
-A media type enumerated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566992">STORAGE_MEDIA_TYPE</a>. 
+A media type enumerated by <a href="https://msdn.microsoft.com/f584d766-0d4d-49b8-b58a-09556c494270">STORAGE_MEDIA_TYPE</a>. 
       Basic and dynamic disks map to the <b>FixedMedia</b> enumerator. For more information, see 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566992">STORAGE_MEDIA_TYPE</a>.
+      <a href="https://msdn.microsoft.com/f584d766-0d4d-49b8-b58a-09556c494270">STORAGE_MEDIA_TYPE</a>.
 
 
 ### -field ullSize
@@ -205,7 +206,7 @@ The name of the adapter to which this disk is attached. The Plug and Play Manage
 
 The string returned by the Plug and Play Manager. The Plug and Play Manager uses the device path to 
       uniquely identify a device on a computer. For more information, see 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552343">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
+      <a href="http://go.microsoft.com/fwlink/p/?linkid=91287">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
 
 
 ## -remarks

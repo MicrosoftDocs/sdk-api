@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -94,14 +95,14 @@ This member is reserved for system use.
 DEP is permanently enabled and cannot be disabled if this field is set to TRUE.
 
 
-#### - Enable : 1
-
-DEP is enabled for the process if this flag is set.
-
-
 #### - DisableAtlThunkEmulation : 1
 
 ATL thunk emulation is disabled for the process if this flag is set.
+
+
+#### - Enable : 1
+
+DEP is enabled for the process if this flag is set.
 
 
 #### - ReservedFlags : 30

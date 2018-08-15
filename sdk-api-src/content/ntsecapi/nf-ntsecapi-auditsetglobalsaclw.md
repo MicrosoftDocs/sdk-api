@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -70,7 +71,7 @@ A pointer to a null-terminated string specifying the type of object being create
 
 ### -param Acl [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> structure. 
+A pointer to an <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure. 
 
 
 ## -returns

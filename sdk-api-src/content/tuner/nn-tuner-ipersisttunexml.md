@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -91,7 +92,7 @@ Deserializes a tuning model object from an XML node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/5813966a-6053-43ce-9b92-e9552d9acdec">Save</a>
 </td>
 <td align="left" width="63%">
 Serializes a tuning model object to an XML node.

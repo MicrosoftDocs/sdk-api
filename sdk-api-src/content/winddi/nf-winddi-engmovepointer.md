@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngMovePointer</b> function moves the engine-managed pointer on the devic
 
 ### -param pso [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that describes the display device surface on which the pointer is to be moved.
+Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that describes the display device surface on which the pointer is to be moved.
 
 
 ### -param x [in]
@@ -78,7 +79,7 @@ Specify the y-coordinate on the display where the hot spot of the pointer should
 
 ### -param prcl [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure defining an area that bounds all pixels affected by the pointer on the display. The driver should pass the <i>prcl</i> parameter received by its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556248">DrvMovePointer</a> function. GDI will not draw in this rectangle without first removing the pointer from the screen. This parameter can be <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure defining an area that bounds all pixels affected by the pointer on the display. The driver should pass the <i>prcl</i> parameter received by its <a href="https://msdn.microsoft.com/eb117f39-0823-4eb7-8628-fa4399a13ec6">DrvMovePointer</a> function. GDI will not draw in this rectangle without first removing the pointer from the screen. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -104,19 +105,19 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a>
+<a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556248">DrvMovePointer</a>
+<a href="https://msdn.microsoft.com/eb117f39-0823-4eb7-8628-fa4399a13ec6">DrvMovePointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565017">EngSetPointerShape</a>
+<a href="https://msdn.microsoft.com/9b3a1e44-f3c6-4160-8d5d-d114511ad201">EngSetPointerShape</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+<a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a>
  
 
  

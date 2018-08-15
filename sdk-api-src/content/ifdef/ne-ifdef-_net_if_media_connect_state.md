@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The NET_IF_MEDIA_CONNECT_STATE enumeration type specifies the 
-  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> connection
+  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> connection
   state.
 
 

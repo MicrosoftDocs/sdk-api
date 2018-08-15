@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps \| UWP apps]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure inside a buffer 
+Initializes a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure inside a buffer 
     with the necessary size and alignment.
 
 
@@ -65,7 +66,7 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439
 ### -param Buffer [out, optional]
 
 A pointer to a buffer within which to initialize a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure. This parameter can be 
+      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure. This parameter can be 
        <b>NULL</b> to determine the buffer size required to hold a context record with the 
        specified <i>ContextFlags</i>.
 
@@ -83,11 +84,11 @@ A value indicating which portions of the <i>Context</i> structure should be init
 ### -param Context [out, optional]
 
 A pointer to a variable which receives the address of the initialized 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure within the 
+      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure within the 
       <i>Buffer</i>.
       
 
-<div class="alert"><b>Note</b>  Due to alignment requirements of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structures, 
+<div class="alert"><b>Note</b>  Due to alignment requirements of <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structures, 
        the value returned in <i>Context</i> may not be at the beginning of the supplied 
        buffer.</div>
 <div> </div>
@@ -96,7 +97,7 @@ A pointer to a variable which receives the address of the initialized
 
 On input, specifies the length of the buffer pointed to by <i>Buffer</i>, in bytes. If 
       the buffer is not large enough to contain the specified portions of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>, the function fails, 
+      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>, the function fails, 
       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
       <b>ERROR_INSUFFICIENT_BUFFER</b>, and <i>ContextLength</i> is set to the 
       required size of the buffer.  If the function fails with an error other than 
@@ -120,7 +121,7 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 
 <i>InitializeContext</i> can be used to initialize a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure within a buffer with the required size and 
+    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure within a buffer with the required size and 
     alignment characteristics.  This routine is required if the <b>CONTEXT_XSTATE</b><i>ContextFlag</i> is specified since the required context size and alignment may change 
     depending on which processor features are enabled on the system.
 
@@ -136,7 +137,7 @@ First, call this function with the
     <i>Context</i>-&gt;<i>ContextFlags</i> if they are not supported by the 
     system. Applications may subsequently remove, but must never add, bits from the 
     <i>ContextFlags</i> member of 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>.
+    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>.
 
 
 <b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://msdn.microsoft.com/76357e08-a53c-4490-b08d-1c26900a3826">AVX API</a> is first implemented on 
@@ -159,7 +160,7 @@ First, call this function with the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 

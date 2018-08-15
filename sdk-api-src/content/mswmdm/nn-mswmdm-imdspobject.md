@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ The <b>IMDSPObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/453dbf9e-4b71-4ceb-80e2-eaa0cf4cd29d">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a file on a storage medium of a media device.
@@ -107,7 +108,7 @@ Moves an object on a media device. This object can be either a file or a folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/9e54bcbd-4f14-49e0-8211-2f79f024c80a">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the associated object and prepares it for other operations. This object must be a file.
@@ -116,7 +117,7 @@ Opens the associated object and prepares it for other operations. This object mu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">Read</a>
 </td>
 <td align="left" width="63%">
 Reads data from the object at the current position. This object must be a file.
@@ -134,7 +135,7 @@ Renames the associated object. This object can be either a file or a folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/89494180-9dd7-41f3-b510-a59c38415d75">Seek</a>
 </td>
 <td align="left" width="63%">
 Sets the current position within the object. This object must be a file.
@@ -143,7 +144,7 @@ Sets the current position within the object. This object must be a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/29f16be5-9304-4b09-86e8-3f9e0e591a41">Write</a>
 </td>
 <td align="left" width="63%">
 Writes data to the object at the current position within the object. This object must be a file.

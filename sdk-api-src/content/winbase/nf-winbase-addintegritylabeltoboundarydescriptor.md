@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -66,7 +67,7 @@ A handle to the boundary descriptor. The <a href="https://msdn.microsoft.com/c77
 
 ### -param IntegrityLabel [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
+A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
 
 <b>SECURITY_MANDATORY_UNTRUSTED_RID</b>
 <b>SECURITY_MANDATORY_LOW_RID</b>

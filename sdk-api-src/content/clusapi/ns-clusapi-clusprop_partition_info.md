@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -93,6 +94,36 @@ Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf9
       <b>CLUSPROP_PARTITION_INFO</b> structure.
 
 
+#### - dwFileSystemFlags
+
+Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+       that describes the file system. One or more of the following flags are valid.
+
+
+
+#### FS_CASE_IS_PRESERVED (0x00000002)
+
+The file system preserves the case of file names when it places a name on the storage class resource.
+
+
+
+#### FS_CASE_SENSITIVE (0x00000001)
+
+The file system supports case-sensitive file names.
+
+
+
+#### FS_UNICODE_STORED_ON_DISK (0x00000004)
+
+The file system supports Unicode in file names as they appear on storage class resource.
+
+
+
+#### FS_PERSISTENT_ACLS (0x00000008)
+
+The file system preserves and enforces access control lists (ACLs).
+
+
 #### - dwFlags
 
 Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
@@ -128,19 +159,6 @@ The partition should be used to store quorum files if no partition is specified 
          larger than 50MB automatically receives this flag.
 
 
-#### - szDeviceName
-
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
-       that describes the device name for the storage class resource, such as "C:". No backslashes 
-       are included.
-
-
-#### - szVolumeLabel
-
-Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
-       that describes the volume label for the storage class resource.
-
-
 #### - dwSerialNumber
 
 Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
@@ -154,40 +172,23 @@ Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72
        system. A file name component is that portion of a file name between backslashes.
 
 
-#### - dwFileSystemFlags
+#### - szDeviceName
 
 Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
-       that describes the file system. One or more of the following flags are valid.
-
-
-
-#### FS_CASE_IS_PRESERVED (0x00000002)
-
-The file system preserves the case of file names when it places a name on the storage class resource.
-
-
-
-#### FS_CASE_SENSITIVE (0x00000001)
-
-The file system supports case-sensitive file names.
-
-
-
-#### FS_UNICODE_STORED_ON_DISK (0x00000004)
-
-The file system supports Unicode in file names as they appear on storage class resource.
-
-
-
-#### FS_PERSISTENT_ACLS (0x00000008)
-
-The file system preserves and enforces access control lists (ACLs).
+       that describes the device name for the storage class resource, such as "C:". No backslashes 
+       are included.
 
 
 #### - szFileSystem
 
 Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
        that describes the name of the file system, such as "FAT" or "NTFS".
+
+
+#### - szVolumeLabel
+
+Member of the <a href="https://msdn.microsoft.com/656b230d-b4ba-45e4-b6b3-8bbe72f9428a">CLUS_PARTITION_INFO</a> structure 
+       that describes the volume label for the storage class resource.
 
 
 ## -see-also

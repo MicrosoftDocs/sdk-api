@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -53,7 +54,7 @@ req.product: GDI+ 1.1
 
 
 Enumerates the possible states of a 
-   <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>.
+   <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 
 ## -enum-fields
@@ -68,12 +69,12 @@ The state of the group is unknown.
 
 ### -field ClusterGroupOnline
 
-All of the resources in the group are <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">online</a>.
+All of the resources in the group are <a href="o_gly.htm">online</a>.
 
 
 ### -field ClusterGroupOffline
 
-All of the resources in the group are <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a> or 
+All of the resources in the group are <a href="o_gly.htm">offline</a> or 
       there are no resources in the group.
 
 

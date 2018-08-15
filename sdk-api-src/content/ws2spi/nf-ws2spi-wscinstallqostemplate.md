@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ The globally unique identifier (GUID) for the quality of service (QoS) provider.
 
 ### -param QosName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structure that contains the  QoS name of the template to install.
+A pointer to a <a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structure that contains the  QoS name of the template to install.
 
 
 ### -param Qos [in]
@@ -170,7 +171,7 @@ The <b>WSCInstallQOSTemplate</b> function is not supported on Windows Vista and
 The <b>WSCInstallQOSTemplate</b> function installs a QoS template, based on a QoS name. The caller of the <b>WSCInstallQOSTemplate</b> function must have appropriate administrative rights for the call to succeed.
  
 
-The <a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566290">WSPGetQOSByName</a> function and passing in the associated QoS name. 
+The <a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://msdn.microsoft.com/2e218a9b-6db5-4c5a-94e1-207886c401a5">WSPGetQOSByName</a> function and passing in the associated QoS name. 
 
 The 
 <b>WSCInstallQOSTemplate</b> function installs a named QoS template that contains the  
@@ -205,11 +206,11 @@ The <b>ProviderSpecific</b> member of the <b>QOS</b> structure can be set even i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a>
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566290">WSPGetQOSByName</a>
+<a href="https://msdn.microsoft.com/2e218a9b-6db5-4c5a-94e1-207886c401a5">WSPGetQOSByName</a>
  
 
  

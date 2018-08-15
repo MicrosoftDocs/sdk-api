@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -86,14 +87,14 @@ A pointer to the CLSID associated with the set. This parameter can be <b>NULL</b
 
 Type: <b>DWORD</b>
 
-One or more members of the <a href="stg.propsetflag">PROPSETFLAG</a> enumeration that determine how the property set is created and opened. All sets containing ANSI bytes should be created with PROPSETFLAG_ANSI, otherwise PROPSETFLAG_DEFAULT.
+One or more members of the <a href="https://msdn.microsoft.com/library/Aa380069(v=VS.85).aspx">PROPSETFLAG</a> enumeration that determine how the property set is created and opened. All sets containing ANSI bytes should be created with PROPSETFLAG_ANSI, otherwise PROPSETFLAG_DEFAULT.
 
 
 ### -param grfMode
 
 Type: <b>DWORD</b>
 
-The flags from the <a href="stg.stgm">STGM</a> enumeration that indicate conditions for creating and deleting the object and access modes for the object. Must contain STGM_DIRECT | STGM_SHARE_EXCLUSIVE.
+The flags from the <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> enumeration that indicate conditions for creating and deleting the object and access modes for the object. Must contain STGM_DIRECT | STGM_SHARE_EXCLUSIVE.
 
 
 ### -param dwDisposition

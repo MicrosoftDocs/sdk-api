@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_Guard</b> method sets the guard interval.
 
 ### -param GI [in]
 
-Variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559626">GuardInterval</a> that specifies the guard interval.
+Variable of type <a href="https://msdn.microsoft.com/a3ff1c61-f80d-40f2-a22f-069f0690fb1b">GuardInterval</a> that specifies the guard interval.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -134,7 +135,7 @@ Comment associated with the <b>GPMStarterGPOBackup</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/d12b7893-00d2-42cb-8fa4-b200a2d4b340">DisplayName</a>
 
 
 </td>
@@ -146,7 +147,7 @@ Friendly display name of the backed-up GPO. Note that it is possible to have mor
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915322">Domain</a>
+<a href="https://msdn.microsoft.com/d12b7893-00d2-42cb-8fa4-b200a2d4b340">Domain</a>
 
 
 </td>
@@ -158,7 +159,7 @@ Name of the domain in which the GPO existed when it was backed up. This is a ful
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a>
+<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">ID</a>
 
 
 </td>
@@ -194,7 +195,7 @@ Date and time when the <b>GPMStarterGPOBackup</b> object was created, in local t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">Type</a>
 
 
 </td>

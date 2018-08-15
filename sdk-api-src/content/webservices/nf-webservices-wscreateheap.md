@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 
-Creates a <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> object.
+Creates a <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a> object.
             
 
 

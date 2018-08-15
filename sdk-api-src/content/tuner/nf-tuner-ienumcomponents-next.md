@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -79,7 +80,7 @@ Receives the number of elements actually retrieved.
 
 #### - pprgelt [out]
 
-Address of an array of <a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a> interface pointers that will receive the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff546180">Component</a> objects.
+Address of an array of <a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a> interface pointers that will receive the retrieved <a href="https://msdn.microsoft.com/a164cebb-92e2-4d20-a5b9-878998977971">Component</a> objects.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -70,7 +71,7 @@ The <b>IAppxManifestProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597607">GetBoolValue</a>
+<a href="https://msdn.microsoft.com/228FD28A-E65E-484B-81EF-83CC993F05D6">GetBoolValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified Boolean element in the properties section.
@@ -79,7 +80,7 @@ Gets the value of the specified Boolean element in the properties section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597621">GetStringValue</a>
+<a href="https://msdn.microsoft.com/3EF2D8A2-37B2-4E57-9FD3-DA05FA90749C">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified string element in the properties section.
@@ -93,7 +94,7 @@ Gets the value of the specified string element in the properties section.
 
 
 
-The properties section of the manifest is defined using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> element.
+The properties section of the manifest is defined using the <a href="https://msdn.microsoft.com/0847bddc-08ad-4f0b-b1ef-9987916e9c98">Properties</a> element.
 
 This object can be retrieved using the <a href="https://msdn.microsoft.com/E507BA9D-D2CA-4B28-BD13-B820B666B4C6">IAppxManifestReader::GetProperties</a> method.
 

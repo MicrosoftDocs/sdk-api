@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -68,7 +69,7 @@ Client or server binding handle.
 ### -param ObjectUuid
 
 Returns a pointer to the object 
-<a href="https://msdn.microsoft.com/">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
 
 ## -returns
@@ -117,7 +118,7 @@ The binding handle was invalid.
 
 An application calls the 
 <b>RpcBindingInqObject</b> function to see the object 
-<a href="https://msdn.microsoft.com/">UUID</a> associated with a client or server binding handle.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> associated with a client or server binding handle.
 
 
 

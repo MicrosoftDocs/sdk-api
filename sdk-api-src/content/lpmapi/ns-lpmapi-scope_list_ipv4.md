@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -62,7 +63,7 @@ The
 
 ### -field scopl_ipaddr
 
-Variable-length list of IP sender addresses, expressed as an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structures.
+Variable-length list of IP sender addresses, expressed as an array of <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structures.
 
 
 ## -see-also
@@ -70,7 +71,7 @@ Variable-length list of IP sender addresses, expressed as an array of <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a>
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: filter.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -95,7 +96,7 @@ Positions filter at beginning of first or next chunk and returns a descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/d63639a6-6729-44cd-8105-198a268ff2d6">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves text from the current chunk.
@@ -104,7 +105,7 @@ Retrieves text from the current chunk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/91d53ef4-06bb-4756-acc2-723cf041959b">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves values from the current chunk.
@@ -113,7 +114,7 @@ Retrieves values from the current chunk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/5cb9b675-258e-46b0-905f-15a086f84f74">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a filtering session.

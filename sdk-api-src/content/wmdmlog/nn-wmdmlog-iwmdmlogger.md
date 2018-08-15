@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmdmlog.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -91,7 +92,7 @@ The <b>IWMDMLogger</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/6b0e48ff-ea34-4bcc-93e8-5ef0f5c39b06">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables logging.
@@ -118,7 +119,7 @@ Retrieves the current size parameters of the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450992">IsEnabled</a>
+<a href="https://msdn.microsoft.com/10bf20bd-7457-4d37-82b5-7d761b4371c5">IsEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether logging is enabled.
@@ -145,7 +146,7 @@ Logs a string to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/1b26aede-0db4-4597-8494-7fd5e5cba857">Reset</a>
 </td>
 <td align="left" width="63%">
 Deletes the contents of the current log file.

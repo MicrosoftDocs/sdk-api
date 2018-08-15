@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>FilterGetMessage</b> function gets a message from a kernel-mode minifilte
 
 ### -param hPort [in]
 
-Communication port handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>. This parameter is required and cannot be <b>NULL</b>. 
+Communication port handle returned by a previous call to <a href="https://msdn.microsoft.com/294783f2-2cbf-4eea-82ae-a396c62f911a">FilterConnectCommunicationPort</a>. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ### -param lpMessageBuffer [out]
 
-Pointer to a caller-allocated buffer that receives the message from the minifilter. The message must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541621">FILTER_MESSAGE_HEADER</a> structure, but otherwise its format is caller-defined. This parameter is required and cannot be <b>NULL</b>. 
+Pointer to a caller-allocated buffer that receives the message from the minifilter. The message must contain a <a href="https://msdn.microsoft.com/294e5475-3aca-4758-87ed-07892a910b4f">FILTER_MESSAGE_HEADER</a> structure, but otherwise its format is caller-defined. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ### -param dwMessageBufferSize [in]
@@ -98,9 +99,9 @@ When <i>lpOverlapped</i> is <b>NULL</b>, and a message is available, <b>FilterGe
 
 If <i>lpOverlapped</i> is not <b>NULL</b>, <b>FilterGetMessage</b> returns ERROR_IO_PENDING. In this situation, the event object in the <i>lpOverlapped</i> structure is set to the nonsignaled state before <b>FilterGetMessage</b> returns. When the message is delivered, this event is set to the signaled state.
 
-After receiving the message from the minifilter, the caller can send a reply by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>. 
+After receiving the message from the minifilter, the caller can send a reply by calling <a href="https://msdn.microsoft.com/e0a0033c-2ea8-4e5b-bcae-680247ea6157">FilterReplyMessage</a>. 
 
-A minifilter or instance sends a message to a user-mode application by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544378">FltSendMessage</a>.  
+A minifilter or instance sends a message to a user-mode application by calling <a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a>.  
 
 
 
@@ -114,23 +115,23 @@ A minifilter or instance sends a message to a user-mode application by calling <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541621">FILTER_MESSAGE_HEADER</a>
+<a href="https://msdn.microsoft.com/294e5475-3aca-4758-87ed-07892a910b4f">FILTER_MESSAGE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+<a href="https://msdn.microsoft.com/294783f2-2cbf-4eea-82ae-a396c62f911a">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+<a href="https://msdn.microsoft.com/e0a0033c-2ea8-4e5b-bcae-680247ea6157">FilterReplyMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
+<a href="https://msdn.microsoft.com/e0a5d790-280d-43ff-a170-14b28b3da02a">FilterSendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544378">FltSendMessage</a>
+<a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a>
 
 
 

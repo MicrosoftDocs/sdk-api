@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -107,7 +108,7 @@ The process state is not valid. For example, the process is in <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj242491">Windows Error Reporting</a>
+<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
  
 
  

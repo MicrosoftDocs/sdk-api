@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -70,7 +71,7 @@ The viewport was successfully enabled.
 
 ### -field DIRECTMANIPULATION_DISABLED
 
-The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>.
+The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="https://msdn.microsoft.com/47ebb502-26c6-4bff-8baf-bd825fc06755">Enable</a>.
 
 
 ### -field DIRECTMANIPULATION_RUNNING

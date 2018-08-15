@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -310,7 +311,7 @@ The function failed. No authority could be contacted for authentication. This co
 </dl>
 </td>
 <td width="60%">
-The function failed. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> handle specified in the <i>phCredential</i> parameter is not valid.
+The function failed. The <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> handle specified in the <i>phCredential</i> parameter is not valid.
 
 </td>
 </tr>

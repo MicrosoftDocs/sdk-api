@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -136,7 +137,7 @@ To enable the user portion and disable the computer portion, call the
 </tr>
 </table></span></div>
 To retrieve the options for a GPO, you can call the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a> method.
+<a href="https://msdn.microsoft.com/a4b86196-04c8-4ec1-bf26-2a33e44020d2">GetOptions</a> method.
 
 
 
@@ -146,7 +147,7 @@ To retrieve the options for a GPO, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/a4b86196-04c8-4ec1-bf26-2a33e44020d2">GetOptions</a>
 
 
 

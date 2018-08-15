@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The <b>LSA_TRANSLATED_NAME</b> structure is used with the 
-<a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a> function to return information about the account identified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>.
+<a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a> function to return information about the account identified by a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>.
 
 
 ## -struct-fields
@@ -63,7 +64,7 @@ The <b>LSA_TRANSLATED_NAME</b> structure is used with the
 ### -field Use
 
 A value from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a> enumeration that identifies the type of SID. 
+<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> enumeration that identifies the type of SID. 
 
 
 
@@ -154,7 +155,7 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
+<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a>
  
 
  

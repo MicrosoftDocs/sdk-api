@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: muiload.h
 req.include-header: 
+req.redist: Muiload.lib, included in theWindows SDKforWindows VistaonWindows 2000 Professional,Windows Me/98/95.  Not supported onWindows NT 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

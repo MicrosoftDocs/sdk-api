@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -71,22 +72,22 @@ Value(s) of bitmask from STORAGE_COMPONENT_ROLE_xxx
 
 ### -field HealthStatus
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt653957">STORAGE_COMPONENT_HEALTH_STATUS</a> enumeration.
+A <a href="https://msdn.microsoft.com/ECC5A745-EA8B-4FBE-840D-0D959C9ED5BA">STORAGE_COMPONENT_HEALTH_STATUS</a> enumeration.
 
 
 ### -field CommandProtocol
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn931818">STORAGE_PROTOCOL_TYPE</a> enumeration.
+A <a href="https://msdn.microsoft.com/8055B633-99EF-4AAE-AA80-FC09F357BEAB">STORAGE_PROTOCOL_TYPE</a> enumeration.
 
 
 ### -field SpecVersion
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt653963">STORAGE_SPEC_VERSION</a> structure that specifies the supported storage spec version. For example: SBC 3, SATA 3.2, NVMe 1.2
+A <a href="https://msdn.microsoft.com/470DBBC0-A7D7-42A6-97D0-44AEAC990576">STORAGE_SPEC_VERSION</a> structure that specifies the supported storage spec version. For example: SBC 3, SATA 3.2, NVMe 1.2
 
 
 ### -field FormFactor
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt653958">STORAGE_DEVICE_FORM_FACTOR</a> enumeration.
+A <a href="https://msdn.microsoft.com/B8FCDC58-D599-4EEE-8096-818345FCD75F">STORAGE_DEVICE_FORM_FACTOR</a> enumeration.
 
 
 ### -field Vendor

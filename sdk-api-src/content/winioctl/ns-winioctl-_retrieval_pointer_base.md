@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Contains the output for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff728859">FSCTL_GET_RETRIEVAL_POINTER_BASE</a> control code.
+Contains the output for the <a href="https://msdn.microsoft.com/17925fe8-ab5a-4bfb-8d9e-cd574c024107">FSCTL_GET_RETRIEVAL_POINTER_BASE</a> control code.
 
 
 ## -struct-fields
@@ -69,7 +70,7 @@ The volume-relative sector offset to the first allocatable unit on the file syst
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff728859">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
+<a href="https://msdn.microsoft.com/17925fe8-ab5a-4bfb-8d9e-cd574c024107">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
  
 
  

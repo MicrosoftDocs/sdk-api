@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -89,14 +90,14 @@ TBD
 
 
 
-#### - p [in]
-
-A pointer to a string that represents the DNS name to be examined.
-
-
 #### - f [in]
 
 A <a href="https://msdn.microsoft.com/f6f1cff3-4bff-4a07-bbc6-5255030b4164">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
+
+
+#### - p [in]
+
+A pointer to a string that represents the DNS name to be examined.
 
 
 ## -returns

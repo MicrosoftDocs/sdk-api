@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -97,7 +98,7 @@ The <b>IValueMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -115,7 +116,7 @@ Adds one or more items to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/41c80954-efc2-47ff-87e2-f33d7123cb40">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the collection.
@@ -133,7 +134,7 @@ Creates a value map item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/dc674243-ec0f-496f-bffb-faf4262a42c7">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -151,7 +152,7 @@ Removes an item from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/1d40104c-c0a4-41d2-8427-364c37b52e02">_NewEnum</a>
 
 
 </td>
@@ -167,7 +168,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/990b48d8-357f-4157-a3d2-1ea1c80e1887">Count</a>
 
 
 </td>
@@ -183,7 +184,7 @@ Retrieves the number of items in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/04936082-e377-46f3-b218-28a2403eee9d">Description</a>
 
 
 </td>
@@ -199,7 +200,7 @@ Retrieves or sets a description of the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/a01f134d-9700-4826-9040-d5d6340241de">Item</a>
 
 
 </td>
@@ -215,7 +216,7 @@ Retrieves the requested item from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/9f344845-956e-4254-82e2-e4e00f6a371b">Value</a>
 
 
 </td>

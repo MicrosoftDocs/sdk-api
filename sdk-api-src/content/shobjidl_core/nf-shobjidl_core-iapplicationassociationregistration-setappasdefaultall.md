@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Sets an application as the default for all of the registered associations of any <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">type</a> for that application. Not intended for use in Windows 8.
+Sets an application as the default for all of the registered associations of any <a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">type</a> for that application. Not intended for use in Windows 8.
 
 
 ## -parameters

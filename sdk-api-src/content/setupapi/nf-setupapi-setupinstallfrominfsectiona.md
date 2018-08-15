@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -326,7 +327,7 @@ If the user tries to skip a file, warn them that skipping a file may affect the 
 
 Pointer to the callback routine. The callback routine must be in the format of 
        <a href="https://msdn.microsoft.com/41eaa57a-e116-443c-93ee-397456a5c466">FileCallback</a>. See 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/mt244308">Notifications</a> for more information.
+       <a href="https://msdn.microsoft.com/93434558-ae83-4ea2-9324-659e5873a8c3">Notifications</a> for more information.
 
 This parameter is optional only if the <i>Flags</i> parameter does not include 
        SPINST_FILES, SPINST_REGISTERCALLBACKAWARE plus SPINST_REGSVR, or SPINST_UNREGSVR.
@@ -400,7 +401,7 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

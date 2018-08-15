@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The <b>EncoderParameterValueType</b> enumeration specifies data types for image codec (encoder/decoder) parameters. An element of this enumeration is assigned to the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> data member of an <b>EncoderParameter</b> object. 
+			<a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">Type</a> data member of an <b>EncoderParameter</b> object. 
 
 
 ## -enum-fields

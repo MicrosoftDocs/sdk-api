@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <i>name</i> attribute of the <a href="shell.propdesc_schema_propertyDescription">propertyDescription</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>name</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773880(v=VS.85).aspx">propertyDescription</a> element in the property's .propdesc file.
 
 It is the responsibility of the calling application to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string referred to by <i>ppszName</i> when it is no longer needed.
             
@@ -94,7 +95,7 @@ It is the responsibility of the calling application to use <a href="https://msdn
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

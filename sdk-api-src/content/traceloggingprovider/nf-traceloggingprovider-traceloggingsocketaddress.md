@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -69,14 +70,14 @@ A pointer to a sockaddr structure.
 The length, in bytes, of the value pointed to by the pSocketAddr parameter.
 
 
-#### - name [in, optional]
-
-The name of the socket address. This parameter must be a literal string and cannot contain any escape ('/0') characters. 
-
-
 #### - description [in, optional]
 
 Description of the socket address. This parameter must be a literal string and will be included in the PDB. 
+
+
+#### - name [in, optional]
+
+The name of the socket address. This parameter must be a literal string and cannot contain any escape ('/0') characters. 
 
 
 #### - tags [in, optional]

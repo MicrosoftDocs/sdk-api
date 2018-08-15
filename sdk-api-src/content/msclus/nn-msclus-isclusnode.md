@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -65,9 +66,9 @@ Enables operations on a
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a> Property</td>
-<td>Returns a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a> object providing access to the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> associated with the node.</td>
+<a href="https://msdn.microsoft.com/fd0e7191-0df5-465e-b867-2c395447ebc9">Cluster</a> Property</td>
+<td>Returns a <a href="https://msdn.microsoft.com/4a765dce-c823-4a79-8608-ff41feec8a39">Cluster</a> object providing access to the 
+      <a href="c_gly.htm">cluster</a> associated with the node.</td>
 </tr>
 <tr>
 <td>
@@ -102,7 +103,7 @@ Enables operations on a
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a> Method</td>
+<a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">Pause</a> Method</td>
 <td>Temporarily suspends the cluster activity of the node.</td>
 </tr>
 <tr>

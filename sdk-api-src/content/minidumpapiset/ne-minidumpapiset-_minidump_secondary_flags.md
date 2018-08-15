@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
+req.redist: DbgHelp.dll 6.6 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxStartApplication function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxStartApplication</b> function can be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function when the system needs an application to be started in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> of the user.
+The <b>WlxStartApplication</b> function can be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function when the system needs an application to be started in the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> of the user.
 
 There are two reasons that the  system might need an application to start in the context of the user:
 <ul>
@@ -76,7 +77,7 @@ A pointer to the GINA context associated with this window station. The GINA retu
 ### -param pszDesktopName [in]
 
 Specifies the name of the desktop on which to start the application. Pass this string to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> or 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> or 
 <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function through the <b>lpDesktop</b> member of the 
 <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure.
 

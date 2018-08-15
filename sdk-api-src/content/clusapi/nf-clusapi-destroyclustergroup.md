@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -53,8 +54,8 @@ req.irql:
 ## -description
 
 
-Deletes the specified <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> from a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>. Unlike 
+Deletes the specified <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> from a 
+    <a href="c_gly.htm">cluster</a>. Unlike 
     <a href="https://msdn.microsoft.com/a0a8461c-8919-4620-83a2-bb8e5d03b0c4">DeleteClusterGroup</a> the group can contain resources 
     and it can be online. The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this function.
 

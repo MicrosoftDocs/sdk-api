@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -99,7 +100,7 @@ Retrieves the current reference clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/0dbd79be-8f44-4bac-b117-03e6316693f8">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the filter.
@@ -108,7 +109,7 @@ Pauses the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/ec422312-bbc2-4b66-b2cd-1a9eebd1eee1">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the filter.
@@ -126,7 +127,7 @@ Sets the reference clock for the filter or the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/8c415b5c-1aee-4ea4-b182-fd95da4898aa">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the filter.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -339,7 +340,7 @@ Occurs when the size of the current selection is about to change, such as throug
 <a href="https://msdn.microsoft.com/a5fc6c82-f9c8-4104-8abe-082c47c56be9">SizeChanged</a>
 </td>
 <td align="left" width="63%">
-Occurs after the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has been resized, specifically, after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553316">Width</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542686">Height</a> property value changes.
+Occurs after the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has been resized, specifically, after the <a href="https://msdn.microsoft.com/6069f9d3-061a-48ba-8161-86d6152d68f0">Width</a> or <a href="https://msdn.microsoft.com/2dc9eb94-649f-42f6-8180-abf570bdc757">Height</a> property value changes.
 
 </td>
 </tr>
@@ -684,7 +685,7 @@ Gets or sets a value that specifies whether the <a href="https://msdn.microsoft.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/1c6e9fb4-be51-4d68-8241-17119deeba3f">Enabled</a>
 
 
 </td>
@@ -946,7 +947,7 @@ Gets or sets a value that specifies whether all selection user interface (select
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915113">Tablet</a>
+<a href="https://msdn.microsoft.com/b3fbfec6-dba8-43bd-b3b0-7c435a2cf407">Tablet</a>
 
 
 </td>

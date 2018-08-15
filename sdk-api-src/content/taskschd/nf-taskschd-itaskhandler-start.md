@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,7 +67,7 @@ An <b>IUnkown</b> interface that is used to communicate back with the Task Sched
 
 ### -param data [in]
 
-The arguments that are required by the handler.  These arguments are defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427307">Data</a> property of the COM handler action.
+The arguments that are required by the handler.  These arguments are defined in the <a href="https://msdn.microsoft.com/3ce35108-91ed-4df8-8eb3-5a9ebf781567">Data</a> property of the COM handler action.
 
 
 ## -returns
@@ -94,7 +95,7 @@ After  the handler starts its processing, it can call the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427307">Data</a>
+<a href="https://msdn.microsoft.com/3ce35108-91ed-4df8-8eb3-5a9ebf781567">Data</a>
 
 
 

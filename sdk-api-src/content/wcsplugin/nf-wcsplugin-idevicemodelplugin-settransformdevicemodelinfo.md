@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ A pointer to a <b>IDeviceModelPlugIn</b> interface that contains the other devic
 
 #### - uiOtherModelPosition [in]
 
-The one-based model position of the other device model in the workflow of <i>uiNumModels</i>, as provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> function.
+The one-based model position of the other device model in the workflow of <i>uiNumModels</i>, as provided in the <a href="https://msdn.microsoft.com/ae47dcc5-f771-4586-9086-b4ab1600c1bc">Initialize</a> function.
 
 
 ## -returns
@@ -105,7 +106,7 @@ This function will fail if the other device model is a baseline device model, be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
 
 
 

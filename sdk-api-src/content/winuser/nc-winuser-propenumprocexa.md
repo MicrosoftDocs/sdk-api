@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,6 +80,20 @@ Application-defined callback function used with the <a href="https://msdn.micros
 
 
 
+#### - dwData [in]
+
+Type: <b>ULONG_PTR</b>
+
+Application-defined data. This is the value that was specified as the <i>lParam</i> parameter of the call to <a href="https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> that initiated the enumeration. 
+
+
+#### - hData [in]
+
+Type: <b>HANDLE</b>
+
+A  handle to the data. This handle is the data component of a property list entry. 
+
+
 #### - hwnd [in]
 
 Type: <b>HWND</b>
@@ -91,20 +106,6 @@ A handle to the window whose property list is being enumerated.
 Type: <b>LPTSTR</b>
 
 The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a> function. 
-
-
-#### - hData [in]
-
-Type: <b>HANDLE</b>
-
-A  handle to the data. This handle is the data component of a property list entry. 
-
-
-#### - dwData [in]
-
-Type: <b>ULONG_PTR</b>
-
-Application-defined data. This is the value that was specified as the <i>lParam</i> parameter of the call to <a href="https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> that initiated the enumeration. 
 
 
 ## -returns

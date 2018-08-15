@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -66,7 +67,7 @@ The format whose properties are retrieved.
 
 ### -param ppKeys [out]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff597583">IPortableDeviceKeyCollection</a> interface that receives the list of properties.
+The <a href="https://msdn.microsoft.com/2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd">IPortableDeviceKeyCollection</a> interface that receives the list of properties.
 
 
 ## -returns
@@ -85,7 +86,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 The retrieved property collection is a superset of all properties supported by an object of the specified format.
 
-An application can also retrieve the properties for an object by calling the <a href="https://msdn.microsoft.com/c6c42347-145c-4be7-bea6-34b13c211cb1">IPortableDeviceService::SendCommand</a> method with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597796">WPD_COMMAND_OBJECT_PROPERTIES_GET_SUPPORTED</a> property passed as the command identifier. However, the <b>GetSupportedFormatProperties</b> method is typically faster than the <b>IPortableDeviceService::SendCommand</b> method.
+An application can also retrieve the properties for an object by calling the <a href="https://msdn.microsoft.com/c6c42347-145c-4be7-bea6-34b13c211cb1">IPortableDeviceService::SendCommand</a> method with the <a href="https://msdn.microsoft.com/842bd4d6-0824-4597-bb5d-9ef8769055fb">WPD_COMMAND_OBJECT_PROPERTIES_GET_SUPPORTED</a> property passed as the command identifier. However, the <b>GetSupportedFormatProperties</b> method is typically faster than the <b>IPortableDeviceService::SendCommand</b> method.
 
 
 

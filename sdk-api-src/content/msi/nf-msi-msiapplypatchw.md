@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -122,7 +123,7 @@ Patch the product specified by <i>szInstallPackage</i>. <i>szInstallPackage</i> 
 ### -param szCommandLine [in]
 
 A null-terminated string that specifies command line property settings. See About 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> and 
+<a href="https://msdn.microsoft.com/b7b715e7-e92c-4b84-b60d-a0ff8412749b">Properties</a> and 
 <a href="https://msdn.microsoft.com/ec2626fa-a3be-45e5-a566-658206d3d0bb">Setting Public Property Values on the Command Line</a>. See the Remarks section.
 
 
@@ -187,7 +188,7 @@ The patch package is unsupported.
 </td>
 <td width="60%">
 See 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
 
 </td>
 </tr>
@@ -226,7 +227,7 @@ Because the list delimiter for transforms, sources, and patches is a semicolon, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>
+<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>
 
 
 

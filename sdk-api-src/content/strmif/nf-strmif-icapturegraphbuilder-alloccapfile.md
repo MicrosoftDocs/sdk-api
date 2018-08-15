@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,14 +77,14 @@ Preallocates a capture file to a specified size.
 
 
 
-#### - lpwstr [in]
-
-Pointer to a wide-character string containing the name of the file to create or resize.
-
-
 #### - dwSize [in]
 
 Size, in bytes, of the file to be allocated.
+
+
+#### - lpwstr [in]
+
+Pointer to a wide-character string containing the name of the file to create or resize.
 
 
 ## -returns

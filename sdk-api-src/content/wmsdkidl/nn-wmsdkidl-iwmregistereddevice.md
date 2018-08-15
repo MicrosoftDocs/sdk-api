@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ Sets the device approval state, which controls whether a device is approved for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/5d30eb82-1d5c-4d40-9dc9-7360e64cd55e">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the device, if opened, and releases associated resources.
@@ -182,7 +183,7 @@ Returns whether the device supports Windows Media DRM 10 for Network Devices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/277f2724-5d82-4db7-96d9-af392b39fccf">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the device to receive media data.
@@ -210,7 +211,7 @@ Sets an attribute associated with the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -82,10 +83,41 @@ Specifies a collection of information about a physical disk resource, such as it
 
 
 
+#### - DeviceNumber
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that contains an unsigned 32-bit integer indicating the unique device number.
+
+
+#### - FreeSizeInBytes
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that identifies the amount of unallocated space, in bytes, of the specified storage class 
+       resource.
+
+
+#### - PartitionNumber
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that identifies the partition number of the specified storage class resource.
+
+
 #### - Syntax
 
 Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
        of <b>CLUSPROP_SYNTAX_PARTITION_INFO_EX</b> (0x000d0001).
+
+
+#### - TotalSizeInBytes
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that identifies the total size, in bytes, of the specified storage class resource.
+
+
+#### - VolumeGuid
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that takes a 128-bit value that contains the unique identifier associated with that volume.
 
 
 #### - cbLength
@@ -93,6 +125,37 @@ Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf9
 Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
        the count of bytes in the 
        <b>CLUSPROP_PARTITION_INFO_EX</b> structure.
+
+
+#### - dwFileSystemFlags
+
+Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
+       structure that describes the file system. One or more of the following flags are valid.
+
+
+
+#### FS_CASE_SENSITIVE (1)
+
+The file system supports case-sensitive file names.
+
+
+
+#### FS_CASE_IS_PRESERVED (2)
+
+The file system preserves the case of file names when it places a name on the storage class 
+         resource.
+
+
+
+#### FS_UNICODE_STORED_ON_DISK (4)
+
+The file system supports Unicode in file names as they appear on storage class resource.
+
+
+
+#### FS_PERSISTENT_ACLS (8)
+
+The file system preserves and enforces access control lists (ACLs).
 
 
 #### - dwFlags
@@ -130,19 +193,6 @@ The partition should be used to store quorum files if no partition is specified 
         larger than 50MB automatically receives this flag.
 
 
-#### - szDeviceName
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that describes the device name for the storage class resource, such as C:. No backslashes are 
-       included.
-
-
-#### - szVolumeLabel
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that describes the volume label for the storage class resource.
-
-
 #### - dwSerialNumber
 
 Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
@@ -156,35 +206,11 @@ Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7a
        file system. A file name component is that portion of a file name between backslashes.
 
 
-#### - dwFileSystemFlags
+#### - szDeviceName
 
 Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that describes the file system. One or more of the following flags are valid.
-
-
-
-#### FS_CASE_SENSITIVE (1)
-
-The file system supports case-sensitive file names.
-
-
-
-#### FS_CASE_IS_PRESERVED (2)
-
-The file system preserves the case of file names when it places a name on the storage class 
-         resource.
-
-
-
-#### FS_UNICODE_STORED_ON_DISK (4)
-
-The file system supports Unicode in file names as they appear on storage class resource.
-
-
-
-#### FS_PERSISTENT_ACLS (8)
-
-The file system preserves and enforces access control lists (ACLs).
+       structure that describes the device name for the storage class resource, such as C:. No backslashes are 
+       included.
 
 
 #### - szFileSystem
@@ -194,35 +220,10 @@ Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7a
        "NTFS".
 
 
-#### - TotalSizeInBytes
+#### - szVolumeLabel
 
 Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that identifies the total size, in bytes, of the specified storage class resource.
-
-
-#### - FreeSizeInBytes
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that identifies the amount of unallocated space, in bytes, of the specified storage class 
-       resource.
-
-
-#### - DeviceNumber
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that contains an unsigned 32-bit integer indicating the unique device number.
-
-
-#### - PartitionNumber
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that identifies the partition number of the specified storage class resource.
-
-
-#### - VolumeGuid
-
-Member of the <a href="https://msdn.microsoft.com/d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c">CLUS_PARTITION_INFO_EX</a> 
-       structure that takes a 128-bit value that contains the unique identifier associated with that volume.
+       structure that describes the volume label for the storage class resource.
 
 
 ## -see-also

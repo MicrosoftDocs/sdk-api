@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdVideoPortFlip</i> callback function performs a physical flip, causing t
 
 #### - lpFlipVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551523">DD_FLIPVPORTDATA</a> structure that contains the information required for the driver to perform the flip.
+Points to a <a href="https://msdn.microsoft.com/1bc6dc12-1213-47d7-9e6f-2396a41cc6d0">DD_FLIPVPORTDATA</a> structure that contains the information required for the driver to perform the flip.
 
 
 ## -returns
@@ -99,7 +100,7 @@ A call to <i>DdVideoPortFlip</i> typically accompanies a call to <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551523">DD_FLIPVPORTDATA</a>
+<a href="https://msdn.microsoft.com/1bc6dc12-1213-47d7-9e6f-2396a41cc6d0">DD_FLIPVPORTDATA</a>
 
 
 

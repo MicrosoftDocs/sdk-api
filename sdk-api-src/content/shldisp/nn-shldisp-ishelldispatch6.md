@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Internet Explorer 5.0
 Extends the <a href="https://msdn.microsoft.com/9170340a-0f11-4ec9-877d-fb7fef9888b2">IShellDispatch5</a> object. In addition to the properties and methods supported by <b>IShellDispatch5</b>, <b>IShellDispatch6</b> adds a method that displays the Apps Search pane.
 
             
-<div class="alert"><b>Note</b>  <b>IShellDispatch6</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/mt270130">Shell</a> object.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IShellDispatch6</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/75fc151e-5b9e-476b-b4e5-b848917357a8">Shell</a> object.</div><div> </div>
 
 ## -inheritance
 

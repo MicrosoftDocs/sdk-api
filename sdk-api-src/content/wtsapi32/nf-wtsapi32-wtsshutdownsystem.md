@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -54,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.
 
 To shut down or restart the system, the calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled. For more information about security privileges, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">Privileges</a> and 
+<a href="https://msdn.microsoft.com/fe6aae0f-93eb-4aba-a6ac-45e71c251c51">Privileges</a> and 
 <a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">Authorization Constants</a>.
 
 

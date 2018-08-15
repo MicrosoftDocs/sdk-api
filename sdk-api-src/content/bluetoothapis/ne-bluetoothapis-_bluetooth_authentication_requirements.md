@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -81,14 +82,14 @@ The <b>BLUETOOTH_AUTHENTICATION_REQUIREMENTS</b> enumeration specifies the 'Man 
 
 
 
+#### - MITMProtectionNotDefined
+
+Protection against "Man in the Middle" attack is not defined.
+
+
 #### - MITMProtectionNotRequired
 
 Protection against a "Man in the Middle" attack is not required for authentication.
-
-
-#### - MITMProtectionRequired
-
-Protection against a "Man in the Middle" attack is required for authentication.
 
 
 #### - MITMProtectionNotRequiredBonding
@@ -96,24 +97,24 @@ Protection against a "Man in the Middle" attack is required for authentication.
 Protection against a "Man in the Middle" attack is not required for bonding.
 
 
-#### - MITMProtectionRequiredBonding
-
-Protection against a "Man in the Middle" attack is required for bonding.
-
-
 #### - MITMProtectionNotRequiredGeneralBonding
 
 Protection against a "Man in the Middle" attack is not required for General Bonding.
 
 
+#### - MITMProtectionRequired
+
+Protection against a "Man in the Middle" attack is required for authentication.
+
+
+#### - MITMProtectionRequiredBonding
+
+Protection against a "Man in the Middle" attack is required for bonding.
+
+
 #### - MITMProtectionRequiredGeneralBonding
 
 Protection against a "Man in the Middle" attack is required for General Bonding.
-
-
-#### - MITMProtectionNotDefined
-
-Protection against "Man in the Middle" attack is not defined.
 
 
 ## -remarks

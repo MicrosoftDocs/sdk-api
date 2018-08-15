@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -281,7 +282,7 @@ Deprecated. Saves the state of browser toolbars.
 <a href="https://msdn.microsoft.com/159516ce-1731-478a-8d84-85d0001f9c63">_SendChildren</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function directly instead of relying on the base class.
+Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function directly instead of relying on the base class.
 
 </td>
 </tr>
@@ -371,7 +372,7 @@ Deprecated. Coordinates the updating of state when creating a new browser view w
 <a href="https://msdn.microsoft.com/8db9fbf9-9132-47a4-a788-93c303598ba0">ForwardViewMsg</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b>
+Deprecated. Calls the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b>
 <i>hWnd</i> parameter.
 
 </td>
@@ -442,7 +443,7 @@ Deprecated. Allows the derived class to specify a navigation record to be used i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/c1f4a4bd-2fd8-424f-b84a-d68b7e2e019c">Offline</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Checks for and updates the browser's offline status, synchronzing the state between the base class and any derived classes.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -86,7 +87,7 @@ The <b>IFsrmMutableCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/916f01de-c87c-450c-859a-c349a165f91d">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -95,7 +96,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/8d673a7c-c8c3-409c-881f-58b87bf0809f">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate <b>IFsrmMutableCollection</b> collection.
@@ -104,7 +105,7 @@ Creates a duplicate <b>IFsrmMutableCollection</b> collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/2d28bfc7-82d4-4c74-bac9-f9ef9111279f">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified object from the collection using an index value.

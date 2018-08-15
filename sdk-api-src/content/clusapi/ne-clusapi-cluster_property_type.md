@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -120,7 +121,7 @@ Describes a <a href="https://msdn.microsoft.com/7c8869f5-73ae-429f-8692-db8b518e
 
 ### -field CLUSPROP_TYPE_SCSI_ADDRESS
 
-Describes an <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> 
+Describes an <a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a> 
       property for an <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> resource. A SCSI 
       address value is represented by a 
       <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
@@ -195,51 +196,9 @@ Describes the beginning of the range for users to define their own types. Associ
       user-defined private properties.
 
 
-#### - CLUSPROP_TYPE_NODE_BITMASK
-
-Describes a bitmask for a node.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_NODE_NAME
-
-Describes the name of a node.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_HEADER_IDS
-
-Describes the header identifiers of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_VALUES
-
-Describes the values of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_DISK_PRIV_PROPERTIES
-
-Describes the private properties of a disk resource.
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
 #### - CLUSPROP_TYPE_CSV_PARTITION_INFO_EX
 
 Describes partition information for a cluster shared volume (CSV).
-
-<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
-
-
-#### - CLUSPROP_TYPE_NODE_INDEX
-
-Describes a node index.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
@@ -251,9 +210,51 @@ Describes the identifier of a disk resource.
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_VOLUME_INFO
+#### - CLUSPROP_TYPE_DISK_HEADER_IDS
 
-Describes volume information.
+Describes the header identifiers of a disk resource.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_DISK_PRIV_PROPERTIES
+
+Describes the private properties of a disk resource.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_DISK_SP_ID
+
+Describes the storage pool identifier of a disk resource.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_DISK_VALUES
+
+Describes the values of a disk resource.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_NODE_BITMASK
+
+Describes a bitmask for a node.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_NODE_INDEX
+
+Describes a node index.
+
+<b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
+
+
+#### - CLUSPROP_TYPE_NODE_NAME
+
+Describes the name of a node.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
@@ -279,9 +280,9 @@ Describes the identifier of a resource.
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 
 
-#### - CLUSPROP_TYPE_DISK_SP_ID
+#### - CLUSPROP_TYPE_VOLUME_INFO
 
-Describes the storage pool identifier of a disk resource.
+Describes volume information.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported in any version of Windows Server, and was removed in Windows Server 2012 R2.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdVideoPortCanCreate</i> callback function determines whether the driver 
 
 #### - lpCanCreateVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550509">DD_CANCREATEVPORTDATA</a> structure that contains the information necessary for the driver to determine whether the specified DirectDraw VPE object can be supported.
+Points to a <a href="https://msdn.microsoft.com/60116f1d-fca2-4282-95a9-2af8da113a20">DD_CANCREATEVPORTDATA</a> structure that contains the information necessary for the driver to determine whether the specified DirectDraw VPE object can be supported.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55050
 
 <i>DdVideoPortCanCreate</i> must be implemented in drivers that support VPE.
 
-The driver should check the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550402">DDVIDEOPORTDESC</a> structure to which the <b>lpDDVideoPortDesc</b> member of the DD_CANCREATEVPORTDATA structure at <i>lpCanCreateVideoPort</i> points to determine whether the hardware supports the specified type of VPE object.
+The driver should check the members of the <a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a> structure to which the <b>lpDDVideoPortDesc</b> member of the DD_CANCREATEVPORTDATA structure at <i>lpCanCreateVideoPort</i> points to determine whether the hardware supports the specified type of VPE object.
 
 
 
@@ -97,11 +98,11 @@ The driver should check the members of the <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550402">DDVIDEOPORTDESC</a>
+<a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550509">DD_CANCREATEVPORTDATA</a>
+<a href="https://msdn.microsoft.com/60116f1d-fca2-4282-95a9-2af8da113a20">DD_CANCREATEVPORTDATA</a>
 
 
 

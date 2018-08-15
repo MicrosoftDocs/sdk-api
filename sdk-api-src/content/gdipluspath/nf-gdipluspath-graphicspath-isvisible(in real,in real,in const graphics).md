@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ IsVisible methods of the
 <a href="https://msdn.microsoft.com/en-us/library/ms535576(v=VS.85).aspx">IsVisible(Point&,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535576(v=VS.85).aspx">GraphicsPath::IsVisible</a> method determines whether a specified point lies in the area that is filled when this path is filled by a specified <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535576(v=VS.85).aspx">GraphicsPath::IsVisible</a> method determines whether a specified point lies in the area that is filled when this path is filled by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 </td>
 </tr>
@@ -78,7 +79,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535576(v=VS.85).aspx">Gr
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms535575(v=VS.85).aspx">GraphicsPath::IsVisible</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object.
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object.
 
 </td>
 </tr>
@@ -88,7 +89,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535575(v=VS.85).aspx">Gr
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms535574(v=VS.85).aspx">GraphicsPath::IsVisible</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object.
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object.
 
 </td>
 </tr>
@@ -97,7 +98,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535574(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535573(v=VS.85).aspx">IsVisible(REAL,REAL,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535573(v=VS.85).aspx">GraphicsPath::IsVisible</a> method determines whether a specified point lies in the area that is filled when this path is filled by a specified <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535573(v=VS.85).aspx">GraphicsPath::IsVisible</a> method determines whether a specified point lies in the area that is filled when this path is filled by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 </td>
 </tr>

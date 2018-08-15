@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 
+req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -98,7 +99,7 @@ Gets a pointer to the license information for this implementation of the <b>IWor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/7685d85b-de66-4a1e-af54-2a6a42d5de8c">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IWordBreaker</b> implementation and indicates the mode in which the component operates.

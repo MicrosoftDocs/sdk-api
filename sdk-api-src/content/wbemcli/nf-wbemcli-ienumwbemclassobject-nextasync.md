@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -89,7 +90,7 @@ The
 A call to the COM function <a href=" http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a> provides more information about the error. COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
 This call returns immediately and delivery to the sink occurs in the background. If multiple calls are made to this method from one or more threads, they are logically queued and the order of calls and object delivery is preserved. Multiple calls made to this method from one or more threads block do not return until all the sink objects related to previous calls to this method have been serviced. A call to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> does not affect delivery of objects currently in progress as a result of previous calls. The 
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a> does not affect delivery of objects currently in progress as a result of previous calls. The 
 <b>Reset</b> method only causes new calls to start at the beginning of the object sequence.
 
 If the number of requested objects is immediately available, the function returns <b>WBEM_S_NO_ERROR</b>. If less than the number of requested objects are available, the available objects are returned and <b>WBEM_S_NO_ERROR</b> are returned. The remainder of the objects are delivered by the user-supplied sink.

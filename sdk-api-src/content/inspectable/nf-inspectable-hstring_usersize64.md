@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -68,14 +69,14 @@ TBD
 
 
 
-#### - [in]
-
-The data used by RPC.
-
-
 #### - StartingSize [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
+
+
+#### - [in]
+
+The data used by RPC.
 
 
 #### - ppidl [in]

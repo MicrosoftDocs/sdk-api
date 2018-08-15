@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -104,7 +105,7 @@ Ends an enumeration of qualifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/f4663cd1-0dc9-4021-918e-d5eda1648429">Get</a>
 </td>
 <td align="left" width="63%">
 Reads a particular named qualifier.
@@ -122,7 +123,7 @@ Gets the names of qualifiers subject to certain filters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/76afa293-1bd9-442b-bc9b-2247459bd49c">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next qualifier during an enumeration of all qualifiers.

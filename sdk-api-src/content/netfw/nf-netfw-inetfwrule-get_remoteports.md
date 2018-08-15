@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -69,7 +70,7 @@ This property is optional.
 
 Also see the restrictions on changing properties described in the Remarks section of the <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a> interface page.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn915742">Protocol</a> property must be set before the <b>RemotePorts</b> property or an error will be returned.
+The <a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">Protocol</a> property must be set before the <b>RemotePorts</b> property or an error will be returned.
 
 
 

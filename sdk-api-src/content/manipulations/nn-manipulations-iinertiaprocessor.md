@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: manipulations.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IInertiaProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a>
+<a href="https://msdn.microsoft.com/ff41789c-afc5-419b-9767-e99572b9b41e">Complete</a>
 </td>
 <td align="left" width="63%">
 Optionally processes the given tick and raises the Completed event.
@@ -90,7 +91,7 @@ Processes the given tick and raises the Completed event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a>
+<a href="https://msdn.microsoft.com/f63cafa0-0da6-46ba-91d3-956dc804dd79">Process</a>
 </td>
 <td align="left" width="63%">
 Performs calculations for the given tick and can raise the <b>Delta</b> or <b>Completed</b> event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
@@ -108,7 +109,7 @@ Performs calculations for the given tick and can raise the <b>Delta</b> or <b>Co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/69ce260d-0674-4ff0-8610-bc814976bd3d">Reset</a>
 </td>
 <td align="left" width="63%">
 Initializes the processor with initial time stamp.

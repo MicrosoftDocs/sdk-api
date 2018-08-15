@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>CryptProtectMemory</b> function <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> and viewable by others.
+The <b>CryptProtectMemory</b> function <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> and viewable by others.
 
 
 ## -parameters

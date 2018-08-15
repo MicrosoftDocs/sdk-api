@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdMoCompGetGuids</b> callback function retrieves the number of GUIDs the 
 
 #### - lpGetGuidData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551587">DD_GETMOCOMPGUIDSDATA</a> structure that contains the GUID information.
+Points to a <a href="https://msdn.microsoft.com/d1507771-c2bc-4d10-a49e-57a3b60ac604">DD_GETMOCOMPGUIDSDATA</a> structure that contains the GUID information.
 
 
 ## -returns
@@ -95,7 +96,7 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompGe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551587">DD_GETMOCOMPGUIDSDATA</a>
+<a href="https://msdn.microsoft.com/d1507771-c2bc-4d10-a49e-57a3b60ac604">DD_GETMOCOMPGUIDSDATA</a>
  
 
  

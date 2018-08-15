@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Gets a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
+Gets a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Gets a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">PO
 
 ### -param ppt [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
 
 A pointer to an existing structure to be filled with the current sizing dimensions of the items in the folder's view.
 

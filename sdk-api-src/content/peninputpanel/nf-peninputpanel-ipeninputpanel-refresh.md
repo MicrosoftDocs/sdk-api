@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -121,7 +122,7 @@ An unspecified error occurred.
 
 
 
-The <b>Refresh</b> method restores the default panel. For example, if the <a href="https://msdn.microsoft.com/2b0ff320-02ce-4b23-ae47-91504c93ac24">DefaultPanel</a> property is set to <a href="https://msdn.microsoft.com/library/windows/hardware/mt131456">Keyboard</a> and the <a href="https://msdn.microsoft.com/536ba874-b9f9-45c9-bf9a-a64679afc861">CurrentPanel</a> property is set to <b>Handwriting</b>, the <b>Refresh</b> method sets the pen input panel to <b>Keyboard</b>. If the <b>DefaultPanel</b> property is set to <b>Default</b>, the <b>Refresh</b> method does not change the pen input panel.
+The <b>Refresh</b> method restores the default panel. For example, if the <a href="https://msdn.microsoft.com/2b0ff320-02ce-4b23-ae47-91504c93ac24">DefaultPanel</a> property is set to <a href="https://msdn.microsoft.com/fbf0ecce-0286-4d1b-99ba-9d28fc25da30">Keyboard</a> and the <a href="https://msdn.microsoft.com/536ba874-b9f9-45c9-bf9a-a64679afc861">CurrentPanel</a> property is set to <b>Handwriting</b>, the <b>Refresh</b> method sets the pen input panel to <b>Keyboard</b>. If the <b>DefaultPanel</b> property is set to <b>Default</b>, the <b>Refresh</b> method does not change the pen input panel.
 
 The <b>Refresh</b> method automatically positions the pen input panel relative to the control to which it is attached.
 

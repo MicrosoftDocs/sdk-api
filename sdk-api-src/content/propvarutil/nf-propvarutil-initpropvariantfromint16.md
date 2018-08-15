@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -95,7 +96,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,19 +125,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
 
 
 
-<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
 
 
 
-<a href="shell.PropVariantToInt16WithDefault">PropVariantToInt16WithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776549(v=VS.85).aspx">PropVariantToInt16WithDefault</a>
  
 
  

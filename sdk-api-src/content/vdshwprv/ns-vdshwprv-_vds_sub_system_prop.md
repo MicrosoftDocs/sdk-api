@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -141,16 +142,16 @@ The maximum number of controllers that the subsystem can contain.
 The rebuild priority of the LUNs that belong to the subsystem. This value can range from 0 (lowest priority) through 15 (highest priority).
 
 
-##### - health.VDS_H_UNKNOWN (0)
-
-
-##### - health.VDS_H_HEALTHY (1)
+##### - health.VDS_H_DEGRADED (11)
 
 
 ##### - health.VDS_H_FAILED (8)
 
 
-##### - health.VDS_H_DEGRADED (11)
+##### - health.VDS_H_HEALTHY (1)
+
+
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ## -remarks

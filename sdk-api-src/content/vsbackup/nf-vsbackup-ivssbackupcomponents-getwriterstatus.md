@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,11 +95,6 @@ The address of a caller-allocated variable that receives a string containing the
 
 
 
-
-
-#### - pState [out]
-
-The address of a caller-allocated variable that receives a <a href="https://msdn.microsoft.com/97aa20a3-4d58-49e8-83c0-fc33c700c410">VSS_WRITER_STATE</a> enumeration value.
 
 
 #### - pHrResultFailure [out]
@@ -205,6 +201,11 @@ The writer status is not available for one or more writers. A writer may have re
 </tr>
 </table>
  
+
+
+#### - pState [out]
+
+The address of a caller-allocated variable that receives a <a href="https://msdn.microsoft.com/97aa20a3-4d58-49e8-83c0-fc33c700c410">VSS_WRITER_STATE</a> enumeration value.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -82,16 +83,6 @@ Specifies the method to invoke.
 
 
 
-#### - varInActionArgs [in]
-
-Specifies an array of input arguments to the method. If the action has no input arguments, this parameter must contain an empty array. 
-
-
-
-
-The contents of this array are service-specific.
-
-
 #### - pvarOutActionArgs [in, out]
 
 On input, contains a reference to an empty array. On output, receives a reference to the array of output arguments. If the action has no output arguments, this parameter contains an empty array. 
@@ -111,6 +102,16 @@ If the device returns an error after the action is invoked on it and this parame
 
 Free this parameter with <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
 						
+
+
+#### - varInActionArgs [in]
+
+Specifies an array of input arguments to the method. If the action has no input arguments, this parameter must contain an empty array. 
+
+
+
+
+The contents of this array are service-specific.
 
 
 ## -returns

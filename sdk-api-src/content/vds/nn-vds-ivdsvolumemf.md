@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -110,7 +111,7 @@ Dismounts a mounted volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922919">Format</a>
+<a href="https://msdn.microsoft.com/8203ac16-99af-4962-bafc-12c0d238d062">Format</a>
 </td>
 <td align="left" width="63%">
 Formats the file system on the current volume.

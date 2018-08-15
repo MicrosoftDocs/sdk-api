@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/2e5104e1-5276-4c5b-9a1a-404904432982">Add</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -107,7 +108,7 @@ Is not both read- and write-accessible.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564983">EngProbeForRead</a>
+<a href="https://msdn.microsoft.com/7c64c9a8-45e6-4afa-a358-457c04a333d7">EngProbeForRead</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -98,7 +99,7 @@ Specifies the size of the largest glyph in 32 bits/pixel. A nonzero value implie
 
 
 
-GDI writes and returns this structure through <a href="https://msdn.microsoft.com/library/windows/hardware/ff566013">FONTOBJ_vGetInfo</a>.
+GDI writes and returns this structure through <a href="https://msdn.microsoft.com/4b952bdc-a496-4ded-9390-9f4b470f3a6c">FONTOBJ_vGetInfo</a>.
 
 
 
@@ -108,7 +109,7 @@ GDI writes and returns this structure through <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566013">FONTOBJ_vGetInfo</a>
+<a href="https://msdn.microsoft.com/4b952bdc-a496-4ded-9390-9f4b470f3a6c">FONTOBJ_vGetInfo</a>
  
 
  

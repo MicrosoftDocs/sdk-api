@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEnumWIA_DEV_INFO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/420b4fcf-79da-4d31-a654-bec96837e60a">Clone</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629833(v=VS.85).aspx">IEnumWIA_DEV_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_INFO</b> interface and sends back a pointer to it.
@@ -82,7 +83,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629833(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/2d429a95-d0e6-466e-953d-063a2e983243">GetCount</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629835(v=VS.85).aspx">IEnumWIA_DEV_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
@@ -91,7 +92,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629835(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/a7f54b35-f3b4-46b9-af47-c96b5770144e">Next</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms630163(v=VS.85).aspx">IEnumWIA_DEV_INFO::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a> interfaces.
@@ -101,7 +102,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms630163(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/30b0d2b3-a048-47fc-b99f-ee439bb77499">Reset</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms630164(v=VS.85).aspx">IEnumWIA_DEV_INFO::Reset</a> method is used by applications to restart the enumeration of device information.
@@ -110,7 +111,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms630164(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/9b992d0c-99d9-468a-9d68-55605f7e846e">Skip</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms630165(v=VS.85).aspx">IEnumWIA_DEV_INFO::Skip</a> method skips the specified number of hardware devices during an enumeration of available devices.
@@ -124,7 +125,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms630165(v=VS.85).aspx">IE
 
 
 
-The <b>IEnumWIA_DEV_INFO</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="_com_ienumxxxx">IEnumXXXX</a>.
+The <b>IEnumWIA_DEV_INFO</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="https://msdn.microsoft.com/library/ms680089(v=VS.85).aspx">IEnumXXXX</a>.
 
 Applications obtain a pointer to the <b>IEnumWIA_DEV_INFO</b> interface by invoking the <a href="https://msdn.microsoft.com/en-us/library/ms630142(v=VS.85).aspx">IWiaDevMgr::EnumDeviceInfo</a> method.
 
@@ -176,7 +177,7 @@ The <b>IEnumWIA_DEV_INFO</b> interface, like all Component Object Model (COM) in
 
 
 
-<a href="_com_ienumxxxx">IEnumXXXX</a>
+<a href="https://msdn.microsoft.com/library/ms680089(v=VS.85).aspx">IEnumXXXX</a>
 
 
 

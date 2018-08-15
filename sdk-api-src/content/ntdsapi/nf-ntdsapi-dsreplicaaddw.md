@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -90,7 +91,7 @@ The null-terminated string that specifies the transport-specific address of the 
 
 ### -param pSchedule [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used.
+Pointer to a <a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used.
 
 
 ### -param Options [in]
@@ -248,7 +249,7 @@ If the function fails, the return value can be one of the following.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a>
+<a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a>
  
 
  

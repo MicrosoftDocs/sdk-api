@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -153,11 +154,11 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537973">CM_Delete_DevNode_Key</a>
+<a href="https://msdn.microsoft.com/a2b6faf3-bd24-416a-b7ea-1ef1b48f965b">CM_Delete_DevNode_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552079">SetupDiOpenDevRegKey</a>
+<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
  
 
  

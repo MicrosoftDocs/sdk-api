@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,8 +57,8 @@ The <b>Encode</b> method returns an ASN.1-encoded string of the <b>LONG</b> arra
 Use the <a href="https://msdn.microsoft.com/b0ff8e1a-c4b2-48ac-be95-228638d00e6d">Decode</a> method to decode the encoded string into an <b>CertEncodeLongArray</b> object.
 
 Before calling the <b>Encode</b> method, you must call the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> method to size the array and the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> method to set each <b>LONG</b> value in the array.
+<a href="https://msdn.microsoft.com/4b5821e0-c81a-47b7-98b0-2a293967d8f6">Reset</a> method to size the array and the 
+<a href="https://msdn.microsoft.com/021b2539-3226-4893-af76-9b7b1637e12e">SetValue</a> method to set each <b>LONG</b> value in the array.
 
 
 ## -parameters

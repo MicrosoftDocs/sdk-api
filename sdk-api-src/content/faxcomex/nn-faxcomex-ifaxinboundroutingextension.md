@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -105,7 +106,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686170(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895612">ImageName</a>
+<a href="https://msdn.microsoft.com/ace23017-9839-4c5c-a992-e038ae1c0635">ImageName</a>
 
 
 </td>
@@ -217,7 +218,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684813(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/496b2216-8ec6-4de9-8829-13b8ec404514">Status</a>
 
 
 </td>

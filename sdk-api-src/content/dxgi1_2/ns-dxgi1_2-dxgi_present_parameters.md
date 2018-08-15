@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -104,7 +105,7 @@ The dashed rectangle shows the scroll rectangle in the current frame. The scroll
 The arrow shows the scroll offset. The scroll offset is specified by the <b>pScrollOffset</b> member.
 Filled rectangles show dirty rectangles that the application updated with new content. The filled rectangles are specified by the <b>DirtyRectsCount</b> and <b>pDirtyRects</b> members.
 
-The scroll rectangle and offset are not supported for the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_SEQUENTIAL</a> present option. Dirty rectangles and scroll rectangle are not supported for multisampled swap chains.
+The scroll rectangle and offset are not supported for the <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_SEQUENTIAL</a> present option. Dirty rectangles and scroll rectangle are not supported for multisampled swap chains.
 
 The actual implementation of composition and necessary bitblts is different for the bitblt model and the flip model. For more info about these models, see <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">DXGI Flip Model</a>.
 

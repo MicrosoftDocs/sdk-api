@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 [UWP apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Represents a factory that can instantiate a WPD Automation <a href="wpdauto.device_object_script">Device</a> object in a Windows Store app.
+Represents a factory that can instantiate a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object in a Windows Store app.
 
 
 ## -inheritance
@@ -74,7 +75,7 @@ The <b>IPortableDeviceWebControl</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ba375082-3f4f-44d7-96d3-bf8151408b9e">GetDeviceFromId</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
 
 </td>
 </tr>
@@ -83,7 +84,7 @@ Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> 
 <a href="https://msdn.microsoft.com/a53e4a15-4f51-43e7-84c7-4c75be87e3d9">GetDeviceFromIdAsync</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object asynchronously for a given WPD device identifier.
+Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object asynchronously for a given WPD device identifier.
 
 </td>
 </tr>

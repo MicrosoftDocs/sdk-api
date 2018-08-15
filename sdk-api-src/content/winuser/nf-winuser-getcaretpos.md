@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Copies the caret's position to the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure. 
+Copies the caret's position to the specified <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure. 
 
 
 ## -parameters
@@ -66,7 +67,7 @@ Copies the caret's position to the specified <a href="https://msdn.microsoft.com
 
 Type: <b>LPPOINT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that is to receive the client coordinates of the caret. 
+A pointer to the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that is to receive the client coordinates of the caret. 
 
 
 ## -returns
@@ -112,7 +113,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 

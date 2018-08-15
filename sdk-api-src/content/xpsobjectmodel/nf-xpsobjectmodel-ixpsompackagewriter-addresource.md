@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -96,7 +97,7 @@ The method succeeded.
 <td width="60%">
 A resource with the same name as the resource that is referenced by <i>resource</i> has already been added to the stream or there is no  relationship that includes the resource that is referenced by <i>resource</i>.
 
-After <b>E_INVALIDARG</b> is returned, the stream or file is no longer valid and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> will return  <b>XPS_E_UNAVAILABLE_PACKAGE</b>.
+After <b>E_INVALIDARG</b> is returned, the stream or file is no longer valid and <a href="https://msdn.microsoft.com/916fbdaa-bef7-4a6f-9259-47347b47dc27">Close</a> will return  <b>XPS_E_UNAVAILABLE_PACKAGE</b>.
 
 </td>
 </tr>

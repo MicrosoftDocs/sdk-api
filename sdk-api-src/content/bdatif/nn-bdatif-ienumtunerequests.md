@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ The <b>IEnumTuneRequests</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/9910d646-c98e-479a-8abd-5d5427ef11b5">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the collection.
@@ -82,7 +83,7 @@ Creates a copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/fb846bdb-f0ce-44f7-8d15-608c21e095c1">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item or items in the collection.
@@ -91,7 +92,7 @@ Retrieves the next item or items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/bb06a6b3-83a6-4deb-8394-1c17cf97c1b2">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the enumerator to the first item in the collection.
@@ -100,7 +101,7 @@ Sets the enumerator to the first item in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/43ed5c7e-2d31-417e-9d87-c3100e5096d0">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of items.

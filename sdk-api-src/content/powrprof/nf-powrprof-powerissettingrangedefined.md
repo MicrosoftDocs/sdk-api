@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -66,14 +67,14 @@ TBD
 
 
 
-#### - SubKeyGuid [in, optional]
-
-The identifier of the subkey to search.
-
-
 #### - SettingGuid [in, optional]
 
 The identifier of the power setting to query.
+
+
+#### - SubKeyGuid [in, optional]
+
+The identifier of the subkey to search.
 
 
 ## -returns

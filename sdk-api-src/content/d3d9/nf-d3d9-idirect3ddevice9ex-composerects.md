@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -105,34 +106,6 @@ Specifies how to combine the source and destination surfaces. See <a href="https
 
 
 
-#### - pSource [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
-
-A pointer to a source surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that supplies the alphabet glyphs. This surface must be created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_TEXTAPI</a> flag.
-
-
-#### - pDestination [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
-
-A pointer to the destination surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that receives the glyph data. The surface must be part of a texture.
-
-
-#### - pSrcRectDescriptors [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
-
-A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509544(v=VS.85).aspx">D3DCOMPOSERECTDESC</a>) that enclose the desired glyphs in the source surface.
-
-
-#### - pDstRectDescriptors [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
-
-A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509545(v=VS.85).aspx">D3DCOMPOSERECTDESTINATION</a>) that describe the destination to which the indicated glyph from the source surface will be copied.
-
-
 #### - XOffset [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
@@ -145,6 +118,34 @@ A value added to the <i>x</i> coordinates of all destination rectangles. This va
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 A value added to the <i>y</i> coordinates of all destination rectangles. This value can be negative, which may cause the glyph to be rejected or clipped if the result is beyond the bounds of the surface.
+
+
+#### - pDestination [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+
+A pointer to the destination surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that receives the glyph data. The surface must be part of a texture.
+
+
+#### - pDstRectDescriptors [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
+
+A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509545(v=VS.85).aspx">D3DCOMPOSERECTDESTINATION</a>) that describe the destination to which the indicated glyph from the source surface will be copied.
+
+
+#### - pSource [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+
+A pointer to a source surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that supplies the alphabet glyphs. This surface must be created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_TEXTAPI</a> flag.
+
+
+#### - pSrcRectDescriptors [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
+
+A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509544(v=VS.85).aspx">D3DCOMPOSERECTDESC</a>) that enclose the desired glyphs in the source surface.
 
 
 ## -returns

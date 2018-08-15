@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IMFPluginControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451328">SetPolicy</a>
+<a href="https://msdn.microsoft.com/1B078EB2-D87E-46A4-B2E1-A850C4E543A8">SetPolicy</a>
 </td>
 <td align="left" width="63%">
 Sets the policy for which media sources and transforms are enumerated.

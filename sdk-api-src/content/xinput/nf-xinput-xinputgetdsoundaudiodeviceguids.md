@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: xinput.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -100,7 +101,7 @@ If the function fails, it returns a valid Win32 error code.
 
 
 
-Use of legacy <a href="994fb8d3-0ff2-195e-ddb5-bb582ca4ff03">DirectSound</a> is not recommended, and DirectSound is not available for Windows Store apps.
+Use of legacy <a href="https://msdn.microsoft.com/library/Ee416960(v=VS.85).aspx">DirectSound</a> is not recommended, and DirectSound is not available for Windows Store apps.
 
 <div class="alert"><b>Note</b>  <b>XInputGetDSoundAudioDeviceGuids</b> is deprecated because it isn't supported by Windows 8 (XInput 1.4).</div>
 <div> </div>

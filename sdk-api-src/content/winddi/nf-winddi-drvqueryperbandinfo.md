@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ A printer graphics DLL's <b>DrvQueryPerBandInfo</b> function is called by GDI be
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure describing the drawing surface.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure describing the drawing surface.
 
 
 ### -param pbi [in, out]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568868">PERBANDINFO</a> structure containing default information, which the function can overwrite.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/ec02542f-68d1-4d05-a4d1-e475725997ad">PERBANDINFO</a> structure containing default information, which the function can overwrite.
 
 
 ## -returns
@@ -125,7 +126,7 @@ GDI will not draw the band.
 
 If a <a href="https://msdn.microsoft.com/58e181ff-c792-41a5-967d-a69a8ff5a041">printer graphics DLL</a> uses GDI-managed surfaces, and if it supports surface banding, it can optionally provide a <b>DrvQueryPerBandInfo</b> function. GDI calls the function prior to rendering each band.
 
-The printer graphics DLL uses the function's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568868">PERBANDINFO</a> structure to indicate whether the previous band should be redrawn, and to specify that the band should be scaled. If a printer graphics DLL supports banding but does not provide a <b>DrvQueryPerBandInfo</b> function, GDI will not repeat or scale bands.
+The printer graphics DLL uses the function's <a href="https://msdn.microsoft.com/ec02542f-68d1-4d05-a4d1-e475725997ad">PERBANDINFO</a> structure to indicate whether the previous band should be redrawn, and to specify that the band should be scaled. If a printer graphics DLL supports banding but does not provide a <b>DrvQueryPerBandInfo</b> function, GDI will not repeat or scale bands.
 
 The <b>DrvQueryPerBandInfo</b> function is only called during playback of EMF files.
 
@@ -137,11 +138,11 @@ The <b>DrvQueryPerBandInfo</b> function is only called during playback of EMF fi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+<a href="https://msdn.microsoft.com/7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a">DrvNextBand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556292">DrvStartBanding</a>
+<a href="https://msdn.microsoft.com/c9006dd1-055b-4fb0-92e8-c7b6bc294941">DrvStartBanding</a>
  
 
  

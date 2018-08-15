@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -81,7 +82,7 @@ An <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXC
 
 ### -field context
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that contains the context information.
+A <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that contains the context information.
 
 
 ### -field pwszReportId

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -167,7 +168,7 @@ Note that the returned <a href="https://msdn.microsoft.com/1cac1c19-bc42-4aee-b9
 
 
 
- on Windows Vista and later, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552551">GetIpNetTable2</a> function can be used to retrieve the neighbor IP addresses for both IPv6 and IPv4. 
+ on Windows Vista and later, the <a href="https://msdn.microsoft.com/6c45d735-9a07-41ca-8d8a-919f32c98a3c">GetIpNetTable2</a> function can be used to retrieve the neighbor IP addresses for both IPv6 and IPv4. 
 
 
 
@@ -189,7 +190,7 @@ Note that the returned <a href="https://msdn.microsoft.com/1cac1c19-bc42-4aee-b9
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552551">GetIpNetTable2</a>
+<a href="https://msdn.microsoft.com/6c45d735-9a07-41ca-8d8a-919f32c98a3c">GetIpNetTable2</a>
 
 
 

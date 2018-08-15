@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -106,13 +107,13 @@ Sets the tape-specific information specified by the <i>lpTapeInformation</i> par
 ### -param lpTapeInformation [in]
 
 Pointer to a structure that contains the information to set. If the <i>dwOperation</i> parameter is SET_TAPE_MEDIA_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567973">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
+<a href="https://msdn.microsoft.com/20243a64-2644-4519-b746-ba33f0893e49">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
 
 
 
 
 If <i>dwOperation</i> is SET_TAPE_DRIVE_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a> structure.
+<a href="https://msdn.microsoft.com/5615e83a-99c0-4214-8621-7e0561512816">TAPE_SET_DRIVE_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -323,11 +324,11 @@ The media is write protected.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/5615e83a-99c0-4214-8621-7e0561512816">TAPE_SET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567973">TAPE_SET_MEDIA_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/20243a64-2644-4519-b746-ba33f0893e49">TAPE_SET_MEDIA_PARAMETERS</a>
  
 
  

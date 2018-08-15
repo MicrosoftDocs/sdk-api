@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdFlipToGDISurface</i> callback function notifies the driver when DirectD
 
 #### - lpFlipToGDISurface
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551522">DD_FLIPTOGDISURFACEDATA</a> structure that contains the notification information.
+Points to a <a href="https://msdn.microsoft.com/ac0fdaf7-0cb2-4474-b3dd-a039161513a4">DD_FLIPTOGDISURFACEDATA</a> structure that contains the notification information.
 
 
 ## -returns
@@ -95,7 +96,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55152
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551522">DD_FLIPTOGDISURFACEDATA</a>
+<a href="https://msdn.microsoft.com/ac0fdaf7-0cb2-4474-b3dd-a039161513a4">DD_FLIPTOGDISURFACEDATA</a>
  
 
  

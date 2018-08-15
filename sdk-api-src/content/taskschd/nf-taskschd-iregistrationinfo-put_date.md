@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, the registration date is specified using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406437">Date</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the registration date is specified using the <a href="https://msdn.microsoft.com/0b226786-152d-4231-afa6-db5a630525f3">Date</a> element of the Task Scheduler schema.
 
 
 

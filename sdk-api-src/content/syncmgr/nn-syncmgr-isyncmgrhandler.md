@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,16 +81,16 @@ Requests that the handler is activated or deactivated. An active handler can be 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/ea3efba1-9b7c-4f93-aca5-08475a6005a8">Enable</a>
 </td>
 <td align="left" width="63%">
-Requests that an <a href="https://msdn.microsoft.com/library/windows/hardware/dn953453">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
+Requests that an <a href="https://msdn.microsoft.com/0061387d-516d-44c5-b511-3236593382a9">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the handler's defined capabilities.

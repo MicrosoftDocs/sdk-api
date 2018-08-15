@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -119,9 +120,9 @@ The current source file is continued in another cabinet file.
 Do not offer the user the option to browse.
 
 
-##### - Flags.SP_COPY_WARNIFSKIP
+##### - Flags.SP_COPY_NOBROWSE
 
-Inform the user that skipping the file may affect the installation.
+Do not offer the user the option to browse.
 
 
 ##### - Flags.SP_COPY_NOSKIP
@@ -129,14 +130,14 @@ Inform the user that skipping the file may affect the installation.
 Do not offer the user the option to skip the file.
 
 
+##### - Flags.SP_COPY_WARNIFSKIP
+
+Inform the user that skipping the file may affect the installation.
+
+
 ##### - Flags.SP_FLAG_CABINETCONTINUATION
 
 The current source file is continued in another cabinet file.
-
-
-##### - Flags.SP_COPY_NOBROWSE
-
-Do not offer the user the option to browse.
 
 
 ## -see-also
@@ -152,7 +153,7 @@ Do not offer the user the option to browse.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Device_ID_List</b> function retrieves a list of <a href="devinst.device_instance_ids">device instance IDs</a> for the local computer's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
+The <b>CM_Get_Device_ID_List</b> function retrieves a list of <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the local computer's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
 
 
 ## -parameters
@@ -69,7 +70,7 @@ Caller-supplied pointer to a character string that is either set to a subset of 
 
 ### -param Buffer [out]
 
-Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538427">CM_Get_Device_ID_List_Size</a>. 
+Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/3c650b21-56dc-4ef5-b986-417a247b3eb0">CM_Get_Device_ID_List_Size</a>. 
 
 
 ### -param BufferLen [in]
@@ -129,11 +130,11 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 #### CM_GETIDLIST_FILTER_ENUMERATOR
 
-If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="devinst.device_ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
+If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
 
-If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="devinst.device_instance_ids">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538026">CM_Enumerate_Enumerators</a>.
+If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/85fbca44-bd3b-4654-bba2-099135c42d23">CM_Enumerate_Enumerators</a>.
 
-If <i>pszFilter</i> supplies both an enumerator and a <a href="devinst.device_ids">device ID</a>, the function returns <a href="devinst.device_instance_ids">device instance IDs</a> only for the instances of the specified device that is associated with the enumerator.
+If <i>pszFilter</i> supplies both an enumerator and a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> only for the instances of the specified device that is associated with the enumerator.
 
 
 
@@ -164,6 +165,11 @@ Note that if the device tree does not contain a <a href="https://msdn.microsoft.
 If no search filter flag is specified, the function returns all device instance IDs for all device instances.
 
 
+##### - ulFlags.CM_GETIDLIST_DONOTGENERATE
+
+Used only with CM_GETIDLIST_FILTER_SERVICE. If set, and if the device tree does not contain a devnode for the specified service, this flag prevents the function from creating a devnode for the service. 
+
+
 ##### - ulFlags.CM_GETIDLIST_FILTER_BUSRELATIONS
 
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the <a href="https://msdn.microsoft.com/32437c5a-ad92-433c-8255-83775751a44d">bus relations</a> of the specified device instance.
@@ -176,25 +182,6 @@ If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
 
 
-##### - ulFlags.CM_GETIDLIST_FILTER_PRESENT (Windows 7 and later versions of Windows)
-
-If this flag is set, the returned list contains only device instances that are currently present on the system. This value can be combined with other <i>ulFlags</i> values, such as CM_GETIDLIST_FILTER_CLASS.
-
-
-##### - ulFlags.CM_GETIDLIST_FILTER_TRANSPORTRELATIONS (Windows 7 and later versions of Windows)
-
-If this flag is set, <i>pszFilter</i> must specify the device instance identifier of a composite device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>).
-
-The function returns the device instance identifiers of the devnodes that represent the transport relations of the specified composite devnode. 
-
-For more information about composite devnodes and transport relations, see the following <b>Remarks</b> section.
-
-
-##### - ulFlags.CM_GETIDLIST_DONOTGENERATE
-
-Used only with CM_GETIDLIST_FILTER_SERVICE. If set, and if the device tree does not contain a devnode for the specified service, this flag prevents the function from creating a devnode for the service. 
-
-
 ##### - ulFlags.CM_GETIDLIST_FILTER_EJECTRELATIONS
 
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the <a href="https://msdn.microsoft.com/32437c5a-ad92-433c-8255-83775751a44d">ejection relations</a> of the specified device instance.
@@ -202,11 +189,11 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_ENUMERATOR
 
-If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="devinst.device_ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
+If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
 
-If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="devinst.device_instance_ids">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538026">CM_Enumerate_Enumerators</a>.
+If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/85fbca44-bd3b-4654-bba2-099135c42d23">CM_Enumerate_Enumerators</a>.
 
-If <i>pszFilter</i> supplies both an enumerator and a <a href="devinst.device_ids">device ID</a>, the function returns <a href="devinst.device_instance_ids">device instance IDs</a> only for the instances of the specified device that is associated with the enumerator.
+If <i>pszFilter</i> supplies both an enumerator and a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> only for the instances of the specified device that is associated with the enumerator.
 
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_NONE
@@ -219,6 +206,11 @@ If this flag is set, <i>pszFilter</i> is ignored, and a list of all devices on t
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the power relations of the specified device instance.
 
 
+##### - ulFlags.CM_GETIDLIST_FILTER_PRESENT (Windows 7 and later versions of Windows)
+
+If this flag is set, the returned list contains only device instances that are currently present on the system. This value can be combined with other <i>ulFlags</i> values, such as CM_GETIDLIST_FILTER_CLASS.
+
+
 ##### - ulFlags.CM_GETIDLIST_FILTER_REMOVALRELATIONS
 
 If this flag is set, <i>pszFilter</i> must specify a device instance identifier. The function returns device instance IDs for the <a href="https://msdn.microsoft.com/32437c5a-ad92-433c-8255-83775751a44d">removal relations</a> of the specified device instance.
@@ -229,6 +221,15 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 If this flag is set, <i>pszFilter</i> must specify the name of a Microsoft Windows service (typically a driver). The function returns device instance IDs for the device instances controlled by the specified service.
 
 Note that if the device tree does not contain a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a> for the specified service, this function creates one by default. To inhibit this behavior, also set CM_GETIDLIST_DONOTGENERATE.
+
+
+##### - ulFlags.CM_GETIDLIST_FILTER_TRANSPORTRELATIONS (Windows 7 and later versions of Windows)
+
+If this flag is set, <i>pszFilter</i> must specify the device instance identifier of a composite device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>).
+
+The function returns the device instance identifiers of the devnodes that represent the transport relations of the specified composite devnode. 
+
+For more information about composite devnodes and transport relations, see the following <b>Remarks</b> section.
 
 
 ## -returns
@@ -264,7 +265,7 @@ For more information about device instance IDs, see <a href="https://docs.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538427">CM_Get_Device_ID_List_Size</a>
+<a href="https://msdn.microsoft.com/3c650b21-56dc-4ef5-b986-417a247b3eb0">CM_Get_Device_ID_List_Size</a>
  
 
  

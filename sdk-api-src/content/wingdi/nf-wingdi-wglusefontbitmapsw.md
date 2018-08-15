@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,14 +73,14 @@ TBD
 
 
 
-#### - first
-
-Specifies the first glyph in the run of glyphs that will be used to form glyph bitmap display lists.
-
-
 #### - count
 
 Specifies the number of glyphs in the run of glyphs that will be used to form glyph bitmap display lists. The function creates <i>count</i> display lists, one for each glyph in the run.
+
+
+#### - first
+
+Specifies the first glyph in the run of glyphs that will be used to form glyph bitmap display lists.
 
 
 #### - listBase

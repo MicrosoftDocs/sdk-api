@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>SetupDiLoadDeviceIcon</b> function retrieves an icon for a specified devi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element that represents the device for which to retrieve an icon. 
+A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device information element that represents the device for which to retrieve an icon. 
 
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. 
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. 
 
 
 ### -param cxIcon [in]
@@ -106,9 +107,9 @@ A pointer to a handle to an icon that receives a handle to the icon that this fu
 
 <ul>
 <li>
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543520">DEVPKEY_DrvPkg_Icon</a> device property of the device includes a list of resource-identifier strings, the function attempts to retrieve the icon that is specified by the first resource-identifier string in the list. 
+If the <a href="https://msdn.microsoft.com/30aa817c-9dda-4504-b51a-78ef91d0cf01">DEVPKEY_DrvPkg_Icon</a> device property of the device includes a list of resource-identifier strings, the function attempts to retrieve the icon that is specified by the first resource-identifier string in the list. 
 
-The <a href="https://msdn.microsoft.com/eafe72c3-b9d8-44c4-a8a7-45a7e0d19b4e">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="https://msdn.microsoft.com/library/windows/hardware/ff543614">DEVPROP_TYPE_STRING_LIST</a>. 
+The <a href="https://msdn.microsoft.com/eafe72c3-b9d8-44c4-a8a7-45a7e0d19b4e">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="https://msdn.microsoft.com/91cfba02-cdd4-4918-8fc1-7e7793058074">DEVPROP_TYPE_STRING_LIST</a>. 
 
 The format of a resource-identifier string is
 
@@ -131,7 +132,7 @@ Where:
 </ul>
 </li>
 <li>
-If the function cannot retrieve a device-specific icon, it will then attempt to retrieve the class icon for the device. For information about class icons, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552053">SetupDiLoadClassIcon</a>.
+If the function cannot retrieve a device-specific icon, it will then attempt to retrieve the class icon for the device. For information about class icons, see <a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a>.
 
 </li>
 <li>
@@ -147,11 +148,11 @@ If the function cannot retrieve the class icon for the device, it will then atte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543614">DEVPROP_TYPE_STRING_LIST</a>
+<a href="https://msdn.microsoft.com/91cfba02-cdd4-4918-8fc1-7e7793058074">DEVPROP_TYPE_STRING_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552053">SetupDiLoadClassIcon</a>
+<a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -85,7 +86,7 @@ A rectangle is defined as empty if either the width or the height is zero or les
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
+						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -125,7 +126,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

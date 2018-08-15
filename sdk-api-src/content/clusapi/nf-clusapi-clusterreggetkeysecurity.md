@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -65,12 +66,12 @@ Handle to a cluster database key.
 
 ### -param RequestedInformation [in]
 
-A  <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> structure that indicates the requested security descriptor.
+A  <a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> structure that indicates the requested security descriptor.
 
 
 ### -param pSecurityDescriptor [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
+Pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
 
 
 ### -param lpcbSecurityDescriptor [in, out]

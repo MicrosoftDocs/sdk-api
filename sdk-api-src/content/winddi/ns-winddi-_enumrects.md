@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The ENUMRECTS structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539421">CLIPOBJ_cEnumStart</a> function to provide information about rectangles in a clip region for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539420">CLIPOBJ_bEnum</a> function.
+The ENUMRECTS structure is used by the <a href="https://msdn.microsoft.com/e719f856-04a9-480d-b79a-df2307a48162">CLIPOBJ_cEnumStart</a> function to provide information about rectangles in a clip region for the <a href="https://msdn.microsoft.com/d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77">CLIPOBJ_bEnum</a> function.
 
 
 ## -struct-fields
@@ -66,5 +67,5 @@ Specifies the number of RECTL structures in the <b>arcl</b> array.
 
 ### -field arcl
 
-Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structures that specify the coordinates of rectangles in the clip region.
+Is an array of <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structures that specify the coordinates of rectangles in the clip region.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -306,6 +307,16 @@ Pointer to a null-terminated string that specifies the name of the server to pro
       used.
 
 
+#### - DomainGuid [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the 
+    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
+  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
+  <i>ComputerName</i> cannot be found, 
+  <b>DsGetDcName</b> attempts to locate a domain controller in the 
+      domain having the GUID specified by <i>DomainGuid</i>.
+
+
 #### - DomainName [in]
 
 Pointer to a null-terminated string that specifies the name of the domain or application partition to 
@@ -327,16 +338,6 @@ If <i>DomainName</i> is <b>NULL</b> and the
        <i>Flags</i> parameter does not contain the <b>DS_GC_SERVER_REQUIRED</b> 
        flag, <i>ComputerName</i> is set to the default domain name of the primary domain of the 
        computer identified by <i>ComputerName</i>.
-
-
-#### - DomainGuid [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the 
-    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
-  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
-  <i>ComputerName</i> cannot be found, 
-  <b>DsGetDcName</b> attempts to locate a domain controller in the 
-      domain having the GUID specified by <i>DomainGuid</i>.
 
 
 #### - SiteName [in]
@@ -670,7 +671,7 @@ Run the following command to stop the trace session:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
 
 
 

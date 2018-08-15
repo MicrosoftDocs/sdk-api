@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
- Set additional flags that will be included in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+ Set additional flags that will be included in the call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ req.product: Outlook Express 6.0
 
 ### -param dwCreationFlags [in]
 
-The flags that will be included in the <i>dwCreationFlags</i> parameter passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+The flags that will be included in the <i>dwCreationFlags</i> parameter passed to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Any creation flags that were previously set will remain set. This method does no
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

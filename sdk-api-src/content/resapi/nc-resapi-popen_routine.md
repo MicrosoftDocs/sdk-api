@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -70,7 +71,7 @@ Name of the resource to open.
 
 
 <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">Cluster database</a> key for the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> that includes the resource represented by 
+       <a href="c_gly.htm">cluster</a> that includes the resource represented by 
        <i>ResourceName</i>.
 
 
@@ -114,7 +115,7 @@ For effective implementation strategies of the <i>Open</i>
 
 #### Examples
 
-See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

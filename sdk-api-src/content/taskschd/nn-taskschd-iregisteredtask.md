@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -99,7 +100,7 @@ Gets the security descriptor that is used as credentials for the registered task
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/6b237ddd-e4e8-47f7-97e7-360e79841acc">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the registered task immediately.
@@ -126,7 +127,7 @@ Sets the security descriptor that is used as credentials for the registered task
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/c58d7b15-1044-4d35-a501-b936503ee0fc">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the registered task immediately.
@@ -160,7 +161,7 @@ Gets the definition of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/33486621-3984-4a07-8182-c193847a9f76">Enabled</a>
 
 
 </td>
@@ -208,7 +209,7 @@ Gets the results that were returned the last time the registered task was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/17aff717-10dd-43ac-9d14-6c07831d4c18">Name</a>
 
 
 </td>
@@ -256,7 +257,7 @@ Gets the number of times the registered task has missed a scheduled run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/cf097dae-d92b-48c8-bc96-8169b94b0763">Path</a>
 
 
 </td>

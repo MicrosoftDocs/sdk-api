@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -138,7 +139,7 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 
  Typically, you call this method if you want to change the protocol used to transfer the file (for example, from SMB to HTTP) or if you want to change the file name or path.
 
-This method does not serialize when it returns. To serialize the change, <a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
+This method does not serialize when it returns. To serialize the change, <a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
 
 If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), BITS restarts the download. Otherwise, the transfer resumes from the same position on the new server. BITS does not restart already transferred files. 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -65,7 +66,7 @@ A string that contains the responder-server name.
 
 ### -param bstrCAId [in]
 
-A string that contains an <b>OCSPCAConfiguration</b> <a href="https://msdn.microsoft.com/library/windows/hardware/dn895590">Identifier</a>.
+A string that contains an <b>OCSPCAConfiguration</b> <a href="https://msdn.microsoft.com/a35aaaf1-8bad-4de1-a2e8-2e4947c30d72">Identifier</a>.
 
 
 ### -param pVal [out]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -87,7 +88,7 @@ Call has been disconnected. There are several causes for disconnection. See the 
 ### -field CS_OFFERING
 
 A new call has appeared, and is being offered to an application. If the application has owner privileges on the call, it can either call 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541235">Answer</a> or 
+<a href="https://msdn.microsoft.com/81928cf7-082e-44e1-a631-a50a1f01ecec">Answer</a> or 
 <a href="https://msdn.microsoft.com/b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95">Disconnect</a> while the call is in the offering state. Current call privilege can be determined by calling 
 <a href="https://msdn.microsoft.com/64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53">ITCallInfo::get_Privilege</a>.
 

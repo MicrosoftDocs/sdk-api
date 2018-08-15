@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Terminates the host and releases any attached services. If a notification sink was passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> method, then the notification sink is released.
+Terminates the host and releases any attached services. If a notification sink was passed to the <a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">Start</a> method, then the notification sink is released.
 
 
 ## -parameters

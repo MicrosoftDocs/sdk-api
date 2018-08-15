@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -317,7 +318,7 @@ Retrieves the widow and orphan control state for the paragraphs in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/7aeea001-9144-4199-91dc-22c1085d38de">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines if the current range has the same properties as a specified range.
@@ -326,7 +327,7 @@ Determines if the current range has the same properties as a specified range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/1952c4b7-9f78-49a9-ba4b-a9c666fa1010">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the paragraph formatting to a choice of default values. 

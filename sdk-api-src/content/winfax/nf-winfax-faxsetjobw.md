@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -124,14 +125,14 @@ Cancel the specified fax job. The job can be active or queued.
 Pause the specified queued fax job. If the fax job is active, the fax service pauses the job when it returns to the queued state.
 
 
-##### - Command.JC_RESUME
-
-Resume the paused fax job.
-
-
 ##### - Command.JC_RESTART
 
 Restart the specified fax job.
+
+
+##### - Command.JC_RESUME
+
+Resume the paused fax job.
 
 
 ## -returns

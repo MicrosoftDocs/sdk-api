@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -54,7 +55,7 @@ req.irql:
 
 
 Initiates an 
-    operation that affects a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>. The operation performed depends on 
+    operation that affects a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>. The operation performed depends on 
     the <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 

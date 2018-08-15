@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,9 +66,9 @@ Describes a query.
 
 
 
-#### - Query
+#### - ContextType
 
-A <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY</a>-typed value that specifies the type of query.
+A <a href="https://msdn.microsoft.com/5467F07C-E429-4324-B52E-FDC25B4DB9FE">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
 
 
 #### - MiscFlags
@@ -77,9 +78,9 @@ A combination of <a href="https://msdn.microsoft.com/a49a04f9-5804-43fb-b12d-f70
 
 
 
-#### - ContextType
+#### - Query
 
-A <a href="https://msdn.microsoft.com/5467F07C-E429-4324-B52E-FDC25B4DB9FE">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
+A <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY</a>-typed value that specifies the type of query.
 
 
 ## -see-also

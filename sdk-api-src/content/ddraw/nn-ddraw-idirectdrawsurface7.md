@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -320,7 +321,7 @@ Retrieves the current uniqueness value for this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/98b9a05f-ff61-4c58-9c09-625077eb64ad">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a DirectDrawSurface object.
@@ -507,7 +508,7 @@ The methods of the <b>IDirectDrawSurface7</b> interface can be organized into th
 <tr>
 <td>Allocating memory</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>,  
+<a href="https://msdn.microsoft.com/98b9a05f-ff61-4c58-9c09-625077eb64ad">Initialize</a>,  
   <a href="https://msdn.microsoft.com/f4654478-ca09-4856-8221-ef5454c23535">IsLost</a>,  
 and <a href="https://msdn.microsoft.com/9ca7abb2-5b9a-4323-9f0b-952e183e794b">Restore</a>
 </td>
@@ -639,7 +640,7 @@ and
 
 
 
-The <b>IDirectDrawSurface7</b> interface extends the features of previous versions of the interface by offering methods that offer better surface management and ease of use. Many methods in this interface accept slightly different parameters than their counterparts in former versions of the interface. Wherever an <b>IDirectDrawSurface3</b> interface method might accept a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure or an <b>IDirectDrawSurface3</b> interface, the methods in IDirectDrawSurface7 accept a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure or an <b>IDirectDrawSurface7</b> interface, instead.
+The <b>IDirectDrawSurface7</b> interface extends the features of previous versions of the interface by offering methods that offer better surface management and ease of use. Many methods in this interface accept slightly different parameters than their counterparts in former versions of the interface. Wherever an <b>IDirectDrawSurface3</b> interface method might accept a <a href="https://msdn.microsoft.com/a88f37bc-b5c0-4bc1-b6ee-30923362c1ca">DDSURFACEDESC</a> structure or an <b>IDirectDrawSurface3</b> interface, the methods in IDirectDrawSurface7 accept a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure or an <b>IDirectDrawSurface7</b> interface, instead.
 
 
 

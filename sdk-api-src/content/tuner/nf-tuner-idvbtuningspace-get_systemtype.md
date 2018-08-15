@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_SystemType</b> method retrieves the system type.
 
 #### - pSysType [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff558733">DVBSystemType</a> that receives the system type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/b547ace8-5c6d-43c1-bfa8-2dd162227730">DVBSystemType</a> that receives the system type.
 
 
 ## -returns

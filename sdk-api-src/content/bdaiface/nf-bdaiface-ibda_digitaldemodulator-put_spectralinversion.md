@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>put_SpectralInversion</b> method specifies the spectral inversion value f
 
 ### -param pSpectralInversion [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568154">SpectralInversion</a> variable.
+Pointer to a <a href="https://msdn.microsoft.com/d8781e01-37cc-4c8c-8ff9-61e9c9b95fbd">SpectralInversion</a> variable.
 
 
 ## -returns

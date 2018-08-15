@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Initiates 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn425147">failure</a> of the 
+    <a href="https://msdn.microsoft.com/f18644d1-63ec-4920-b703-a3f149684508">failure</a> of the 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
 
 
@@ -82,7 +83,7 @@ This method does not return a value.
 
 
 The <b>Fail</b> method causes the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> to initiate the same procedures that would result 
+    <a href="c_gly.htm">cluster</a> to initiate the same procedures that would result 
     if the resource had actually failed. Use the <b>Fail</b> 
     method to test <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> policies for resources and 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a>. For more information about resource failure policies, see 

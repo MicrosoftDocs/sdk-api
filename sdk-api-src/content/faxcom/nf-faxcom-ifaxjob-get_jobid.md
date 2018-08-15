@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-You can use the <b>JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
+You can use the <b>JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/f8dd3a5a-9f3d-4c3e-b023-ee9f9aef2930">DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
 
 
 
@@ -73,7 +74,7 @@ You can use the <b>JobId</b> property to uniquely identify a fax job because it 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/f8dd3a5a-9f3d-4c3e-b023-ee9f9aef2930">DisplayName</a>
 
 
 

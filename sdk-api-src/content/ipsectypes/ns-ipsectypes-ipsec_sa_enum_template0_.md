@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>IPSEC_SA_ENUM_TEMPLATE0</b> structure specifies a  template used for rest
 
 Direction of the SA.
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a> for more information.
+See <a href="https://msdn.microsoft.com/ae0eeb36-1a41-426a-9878-77558464a91b">FWP_DIRECTION</a> for more information.
 
 
 ## -remarks
@@ -80,7 +81,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
+<a href="https://msdn.microsoft.com/ae0eeb36-1a41-426a-9878-77558464a91b">FWP_DIRECTION</a>
 
 
 

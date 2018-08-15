@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -110,7 +111,7 @@ The exact set of firmware environment variables is determined by the boot firmwa
 
 Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFirmwareEnvironmentVariable</b> function will always fail on a legacy BIOS-based system, or if Windows was installed using legacy BIOS on a system that supports both legacy BIOS and UEFI.  To identify these conditions, call the function with a dummy firmware environment name such as an empty string ("") for the <i>lpName</i> parameter and a dummy GUID such as "{00000000-0000-0000-0000-000000000000}" for the <i>lpGuid</i> parameter. On a legacy BIOS-based system, or on a system that supports both legacy BIOS and UEFI where Windows was installed using legacy BIOS, the function will fail with  ERROR_INVALID_FUNCTION. On a UEFI-based system, the function will  fail with an error specific to the firmware, such as ERROR_NOACCESS, to indicate that the dummy GUID namespace does not exist.
 
-<b>SetFirmwareEnvironmentVariable</b> is the user-mode equivalent of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151554">ExSetFirmwareEnvironmentVariable</a> kernel-mode routine.
+<b>SetFirmwareEnvironmentVariable</b> is the user-mode equivalent of the <a href="https://msdn.microsoft.com/04447D92-EB9E-400B-A018-E70B186EA3DB">ExSetFirmwareEnvironmentVariable</a> kernel-mode routine.
 
 
 

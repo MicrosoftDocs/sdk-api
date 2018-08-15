@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: deviceaccess.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>ICreateDeviceAccessAsync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/06e5af2d-8bd8-44b1-9ead-caa362284530">Cancel</a>
 </td>
 <td align="left" width="63%">
 Attempts to cancel an asynchronous operation that  is in progress.
@@ -80,7 +81,7 @@ Attempts to cancel an asynchronous operation that  is in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/58887745-6a36-4600-9a1b-f9709a0e37e8">Close</a>
 </td>
 <td align="left" width="63%">
 Performs cleanup after completion of the asynchronous operation.

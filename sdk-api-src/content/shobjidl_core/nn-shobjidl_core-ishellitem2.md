@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IShellItem2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439647">GetBool</a>
+<a href="https://msdn.microsoft.com/754d0a7a-a6b4-41ef-8c8f-483539f7d53e">GetBool</a>
 </td>
 <td align="left" width="63%">
 Gets the boolean value of a specified property key.
@@ -98,7 +99,7 @@ Gets the date and time value of a specified property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439658">GetInt32</a>
+<a href="https://msdn.microsoft.com/7b56036e-316b-4300-979c-151422f74bd2">GetInt32</a>
 </td>
 <td align="left" width="63%">
 Gets the Int32 value of specified property key.
@@ -152,7 +153,7 @@ Uses the specified <a href="https://msdn.microsoft.com/90502b4a-dc0a-4077-83d7-e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/912b3653-340b-4186-b652-53d958534c1d">GetString</a>
 </td>
 <td align="left" width="63%">
 Gets the string value of a specified property key.
@@ -179,7 +180,7 @@ Gets the UInt64 value of a specified property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/42000a83-2ee0-49b9-b3fc-328685e25c0b">Update</a>
 </td>
 <td align="left" width="63%">
 Ensures that any cached information in this item is updated.

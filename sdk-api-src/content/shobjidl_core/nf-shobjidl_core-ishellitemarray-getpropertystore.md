@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -77,7 +78,7 @@ The IID of the object type to retrieve.
 
 Type: <b>void**</b>
 
-When this method returns, contains interface pointer requested in riid.  This is typically <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or <a href="https://msdn.microsoft.com/b4e51201-47af-449f-9050-aec3207320f5">IPropertyStoreCapabilities</a>.
+When this method returns, contains interface pointer requested in riid.  This is typically <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> or <a href="https://msdn.microsoft.com/b4e51201-47af-449f-9050-aec3207320f5">IPropertyStoreCapabilities</a>.
 
 
 ## -returns
@@ -97,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is used to obtain a read-only property store that aggregates properties gathered from all the items in the shell item array.
 
-If there is more than one item in the shell item array, then the resulting property store will aggregate the values from each item according to a set of rules determined by each property.   Values read from the property store will be coerced to a canonical form prior to aggregation as discussed at <a href="https://msdn.microsoft.com/bc51ec1b-c1ec-4162-a60d-b67d19d5b591">CoerceToCanonicalValue</a>.  The output from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> is computed as follows:
+If there is more than one item in the shell item array, then the resulting property store will aggregate the values from each item according to a set of rules determined by each property.   Values read from the property store will be coerced to a canonical form prior to aggregation as discussed at <a href="https://msdn.microsoft.com/bc51ec1b-c1ec-4162-a60d-b67d19d5b591">CoerceToCanonicalValue</a>.  The output from a call to <a href="https://msdn.microsoft.com/1768b087-1a80-4331-93b0-14eaab651913">IPropertyStore::GetValue</a> is computed as follows:
 
 <ul>
 <li>Single valued properties follow the rule specified by the <a href="https://msdn.microsoft.com/ae1f8835-ef6c-42bb-b44f-ad374337a012">aggregation type</a> string in the property description schema.</li>
@@ -116,7 +117,7 @@ If there is more than one item in the shell item array, then the resulting prope
 </ul>
 Calls to <a href="https://msdn.microsoft.com/ffd13c93-3011-4955-ad1e-2731afd83956">IsPropertyWritable</a> will return S_FALSE only if all the items have property handlers that implement <a href="https://msdn.microsoft.com/b4e51201-47af-449f-9050-aec3207320f5">IPropertyStoreCapabilities</a> and all the property stores indicate they do not support writing the property.
 
-Calling applications may achieve other aggregation behaviors by accessing the individual shell items and their property stores directly.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff536960">IPropertyStore::GetCount</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>, and <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">GetPropertyStore</a>.
+Calling applications may achieve other aggregation behaviors by accessing the individual shell items and their property stores directly.  See <a href="https://msdn.microsoft.com/d7e125ef-01f0-410b-a24b-6e86c1df25c5">IPropertyStore::GetCount</a>, <a href="https://msdn.microsoft.com/7bf18e8b-f84a-44a3-bfee-971fed425823">IPropertyStore::GetAt</a>, and <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">GetPropertyStore</a>.
 
 Writing to an array of shell items is supported via the <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> API.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ The handle to the device that <b>CreateFile</b> returned. WinUSB uses overlapped
 
 ### -param InterfaceHandle [out]
 
-Receives an opaque handle to the first (default) interface on the device. This handle is required by other WinUSB routines that perform operations on the default interface. To release the handle, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUSB_Free</a> function.
+Receives an opaque handle to the first (default) interface on the device. This handle is required by other WinUSB routines that perform operations on the default interface. To release the handle, call the <a href="https://msdn.microsoft.com/0f453364-fb2b-4b29-a96d-37c1d0d22608">WinUSB_Free</a> function.
 
 
 ## -returns
@@ -137,7 +138,7 @@ The <b>WinUsb_Initialize</b> call queries the underlying USB stack for various d
     <b>WinUsb_Initialize</b> parses the default interface descriptor for the endpoint descriptors and caches information such as the associated pipes or state specific data.
 The handle received in the <i>InterfaceHandle</i> parameter is a pointer to the memory block allocated for the first interface in the array. 
 
-If an application wants to use another interface on the device, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>,  specify the index of the interface, and retrieve a handle to the  memory block allocated for the specified interface.
+If an application wants to use another interface on the device, it must call <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>,  specify the index of the interface, and retrieve a handle to the  memory block allocated for the specified interface.
 
 
 
@@ -155,7 +156,7 @@ If an application wants to use another interface on the device, it must call <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUSB_Free</a>
+<a href="https://msdn.microsoft.com/0f453364-fb2b-4b29-a96d-37c1d0d22608">WinUSB_Free</a>
  
 
  

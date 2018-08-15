@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumShellItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/ccfe8ab0-8bc5-4270-9189-01bac38ce36a">Clone</a>
 </td>
 <td align="left" width="63%">
 Gets a copy of the current enumeration.
@@ -80,7 +81,7 @@ Gets a copy of the current enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/8074ecea-30b9-4d1e-9184-457d3dd70bb8">Next</a>
 </td>
 <td align="left" width="63%">
 Gets an array of one or more <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> interfaces from the enumeration.
@@ -89,7 +90,7 @@ Gets an array of one or more <a href="https://msdn.microsoft.com/599b9c0a-df04-4
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/e0208a68-0513-4fa9-88ae-2147cf61bcb5">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the internal count of retrieved <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> interfaces in the enumeration.
@@ -98,7 +99,7 @@ Resets the internal count of retrieved <a href="https://msdn.microsoft.com/599b9
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/5359c9d2-715a-4949-8f40-a35d04423dba">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a given number of <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> interfaces in the enumeration. Used when retrieving interfaces.

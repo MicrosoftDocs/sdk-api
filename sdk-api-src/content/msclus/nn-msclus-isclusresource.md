@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -110,7 +111,7 @@ Determines if the resource can be <a href="https://msdn.microsoft.com/en-us/libr
 <a href="https://msdn.microsoft.com/c272144f-f417-4ea5-8147-4f7bd02170b7">ChangeResourceGroup</a>
 </td>
 <td align="left" width="63%">
-Moves the resource from its current <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to a different 
+Moves the resource from its current <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to a different 
       group.
 
 </td>
@@ -129,13 +130,13 @@ Deletes the resource from the cluster.
 <a href="https://msdn.microsoft.com/c184a7f3-b09a-4349-a940-20d622f729a6">Fail</a>
 </td>
 <td align="left" width="63%">
-Initiates <a href="https://msdn.microsoft.com/library/windows/hardware/dn425147">failure</a> of the resource.
+Initiates <a href="https://msdn.microsoft.com/f18644d1-63ec-4920-b703-a3f149684508">failure</a> of the resource.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/5c3f0129-a859-4823-bd73-0c7e004507e5">Offline</a>
 </td>
 <td align="left" width="63%">
 Takes the resource offline.
@@ -144,7 +145,7 @@ Takes the resource offline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/64f63071-b07d-4391-9631-a7a1dae35dc5">Online</a>
 </td>
 <td align="left" width="63%">
 Brings the resource online.
@@ -187,7 +188,7 @@ Returns the resource class of a resource.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a>
+<a href="https://msdn.microsoft.com/b8658f84-a025-4f04-bf91-e6ca264c10fe">Cluster</a>
 
 
 </td>
@@ -196,7 +197,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> that includes the resource.
+Returns the <a href="c_gly.htm">cluster</a> that includes the resource.
 
 </td>
 </tr>
@@ -305,7 +306,7 @@ Returns a <a href="https://msdn.microsoft.com/4e1f47fa-e240-4fdb-b736-9b2e64828e
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915271">Disk</a>
+<a href="https://msdn.microsoft.com/4f85a491-3cb7-409a-a7fb-9fc0f896e787">Disk</a>
 
 
 </td>
@@ -323,7 +324,7 @@ For <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Ph
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">Group</a>
+<a href="https://msdn.microsoft.com/8fea7c20-57bc-4037-bd1e-4c0c2915a5ce">Group</a>
 
 
 </td>
@@ -355,7 +356,7 @@ Returns or sets maintenance mode for a disk resource.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/9ed3c032-3ad0-4001-9dcf-9d0d0fa0c79a">Name</a>
 
 
 </td>
@@ -474,7 +475,7 @@ Returns information about the current state of the resource.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/1393df7b-7ec7-4034-8018-d7f5b7cef3e8">Type</a>
 
 
 </td>

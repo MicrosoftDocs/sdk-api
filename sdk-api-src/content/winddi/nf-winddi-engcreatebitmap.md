@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngCreateBitmap</b> function requests that GDI create and manage a bitmap
 
 ### -param sizl
 
-Specifies a SIZEL structure whose members contain the width and height, in pixels, of the bitmap to be created. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure.
+Specifies a SIZEL structure whose members contain the width and height, in pixels, of the bitmap to be created. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/08d81096-069f-4554-9bb9-d4a37c0950ac">SIZE</a> structure.
 
 If <i>pvBits</i> is not <b>NULL</b>, this value should represent all pixels visible on the device, allowing the device to keep <a href="https://msdn.microsoft.com/3f78ce93-03cd-45aa-9861-cdf6d557e6a5">off-screen memory</a>.
 
@@ -199,7 +200,7 @@ BMF_USERMEM
 
 </td>
 <td>
-GDI will allocate the memory for the bitmap from user memory. By default, the memory is allocated from the kernel's address space. This flag should be specified only when the bitmap being created will not be used by other processes. User memory cannot be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565467">EngWritePrinter</a> by the printer driver.
+GDI will allocate the memory for the bitmap from user memory. By default, the memory is allocated from the kernel's address space. This flag should be specified only when the bitmap being created will not be used by other processes. User memory cannot be passed to <a href="https://msdn.microsoft.com/c65f09b2-5924-479a-8067-a1ba472348e2">EngWritePrinter</a> by the printer driver.
 
 </td>
 </tr>
@@ -227,9 +228,9 @@ If the function completes successfully, the return value is a handle that identi
 
 Storage for the bitmap can optionally be provided by the driver.
 
-The driver should associate the created bitmap as a surface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564183">EngAssociateSurface</a> before returning from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a>.
+The driver should associate the created bitmap as a surface by calling <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a> before returning from <a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">DrvEnableSurface</a>.
 
-The bitmap should be deleted by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff564827">EngDeleteSurface</a> when it is no longer needed.
+The bitmap should be deleted by using <a href="https://msdn.microsoft.com/9cde6fa3-26b6-49fd-9374-cbf91215aa39">EngDeleteSurface</a> when it is no longer needed.
 
 Frame buffer display drivers should use the <i>pvBits</i> parameter, allowing GDI to do most drawing directly to the display.
 
@@ -241,11 +242,11 @@ Frame buffer display drivers should use the <i>pvBits</i> parameter, allowing GD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556185">DrvCreateDeviceBitmap</a>
+<a href="https://msdn.microsoft.com/1f5f49ef-bf08-4311-9a1b-fdc37e6c2063">DrvCreateDeviceBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564178">EngAllocUserMem</a>
+<a href="https://msdn.microsoft.com/5864d8dc-e239-4ba8-bd22-4a4a8952c39e">EngAllocUserMem</a>
  
 
  

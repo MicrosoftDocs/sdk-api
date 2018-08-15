@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>LsaEnumerateTrustedDomains</b> function retrieves the names and SIDs of domains trusted to authenticate logon <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a>. <b>LsaEnumerateTrustedDomains</b> is intended for use on systems running Windows NT 4.0 or earlier versions of Windows NT. Use 
+The <b>LsaEnumerateTrustedDomains</b> function retrieves the names and SIDs of domains trusted to authenticate logon <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a>. <b>LsaEnumerateTrustedDomains</b> is intended for use on systems running Windows NT 4.0 or earlier versions of Windows NT. Use 
 <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> for any other trust enumeration purpose. Specifically, <b>LsaEnumerateTrustedDomains</b> can only be used if one or more of the following is true:
 <ul>
 <li>The calling system is running Windows NT 4.0 or an earlier version of Windows NT.</li>

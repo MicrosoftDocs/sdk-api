@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ A handle to the window whose client area will be used for the conversion.
 
 ### -param lpPoint
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that specifies the screen coordinates to be converted.
+A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that specifies the screen coordinates to be converted.
 
 
 ## -returns
@@ -94,7 +95,7 @@ If the function fails, the return value is zero.
 
 
 
-The function uses the window identified by the <i>hWnd</i> parameter and the screen coordinates given in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure to compute client coordinates. It then replaces the screen coordinates with the client coordinates. The new coordinates are relative to the upper-left corner of the specified window's client area.
+The function uses the window identified by the <i>hWnd</i> parameter and the screen coordinates given in the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure to compute client coordinates. It then replaces the screen coordinates with the client coordinates. The new coordinates are relative to the upper-left corner of the specified window's client area.
 
 The <b>ScreenToClient</b> function assumes the specified point is in screen coordinates.
 
@@ -126,7 +127,7 @@ Do not use <b>ScreenToClient</b> when in a mirroring situation, that is, when ch
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
  
 
  

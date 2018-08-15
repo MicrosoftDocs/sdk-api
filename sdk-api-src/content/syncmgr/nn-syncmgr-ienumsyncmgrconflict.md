@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumSyncMgrConflict</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7">Clone</a>
 </td>
 <td align="left" width="63%">
 Not used. Clones an <b>IEnumSyncMgrConflict</b> object.
@@ -80,7 +81,7 @@ Not used. Clones an <b>IEnumSyncMgrConflict</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/486fba93-cdd1-49fd-96a8-cf56d1775a7c">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next batch of conflicts from the conflicts store.
@@ -89,7 +90,7 @@ Gets the next batch of conflicts from the conflicts store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/58dece75-8fc3-42ae-89c8-407ebeaa7efb">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current position in the enumeration to zero.
@@ -98,7 +99,7 @@ Resets the current position in the enumeration to zero.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/d636dd60-835f-40a8-b2e6-7d7ebf87e897">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips forward the specified number of conflicts in the enumeration.

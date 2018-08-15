@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -72,7 +73,7 @@ Pointer to a Unicode string that specifies the name of the port on which the use
 
 ### -param lpdwIpv6Address [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure. This variable specifies the IPv6 address to be released.
+Pointer to an <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure. This variable specifies the IPv6 address to be released.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -98,7 +99,7 @@ The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS
 ### -field ClusterResourcePending
 
 The resource is in the process of coming online or going 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a>.
+       <a href="o_gly.htm">offline</a>.
 
 
 ### -field ClusterResourceOnlinePending

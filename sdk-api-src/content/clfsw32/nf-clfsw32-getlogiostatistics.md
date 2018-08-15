@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -67,7 +68,7 @@ A handle to an open log file that <a href="https://msdn.microsoft.com/ac104bf9-7
 
 A pointer to a buffer to receive the I/O statistics.  
 
-This buffer must be at least as large as an I/O statistics packet header. For more information, see  <a href="https://msdn.microsoft.com/library/windows/hardware/ff541798">CLFS_IO_STATISTICS_HEADER</a>.
+This buffer must be at least as large as an I/O statistics packet header. For more information, see  <a href="https://msdn.microsoft.com/ebf3f962-5c15-4caf-910a-13bf02137046">CLFS_IO_STATISTICS_HEADER</a>.
 
 
 ### -param cbStatsBuffer [in]
@@ -118,7 +119,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541798">CLFS_IO_STATISTICS_HEADER</a>
+<a href="https://msdn.microsoft.com/ebf3f962-5c15-4caf-910a-13bf02137046">CLFS_IO_STATISTICS_HEADER</a>
 
 
 

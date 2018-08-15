@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -79,7 +80,7 @@ The <b>ITsSbClientConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/dd4938b5-aa33-4eca-851c-fdef75ecc815">GetContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves context information that was stored by a plug-in by using the 
@@ -148,7 +149,7 @@ The error that occurred while a client connection was being processed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915322">Domain</a>
+<a href="https://msdn.microsoft.com/628f450d-10f4-4405-8d7c-ae58c72c2755">Domain</a>
 
 
 </td>
@@ -228,7 +229,7 @@ The domain name and user name of the user who initiated the connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997357">UserName</a>
+<a href="https://msdn.microsoft.com/74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54">UserName</a>
 
 
 </td>

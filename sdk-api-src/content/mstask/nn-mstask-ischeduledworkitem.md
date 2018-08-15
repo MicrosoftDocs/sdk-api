@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -145,7 +146,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546679">GetExitCode</a>
+<a href="https://msdn.microsoft.com/857d8b84-2ccf-4888-8aea-869ba70d3f64">GetExitCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the work item's last exit code.
@@ -154,7 +155,7 @@ Retrieves the work item's last exit code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/0fe3c184-2689-44de-b60f-92d31eaa5285">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags that modify the behavior of the work item.
@@ -199,7 +200,7 @@ Retrieves the work item run times for a specified time period.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/fb0bc52c-ae50-4c14-864d-099f2903adfb">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the work item.
@@ -244,7 +245,7 @@ Retrieves application-defined data associated with the work item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/f533fcf6-8ece-442f-b6d5-3702321db9e9">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the work item.
@@ -298,7 +299,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the flags that modify the behavior of the work item.

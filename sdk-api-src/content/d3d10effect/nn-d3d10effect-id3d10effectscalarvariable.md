@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>ID3D10EffectScalarVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439647">GetBool</a>
+<a href="https://msdn.microsoft.com/86f4952f-f6c5-4e81-b078-613123ae1fe1">GetBool</a>
 </td>
 <td align="left" width="63%">
 Get a boolean variable.
@@ -125,7 +126,7 @@ Get an array of integer variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439552">SetBool</a>
+<a href="https://msdn.microsoft.com/83a5056c-08cd-4199-a150-d5403bdbf4b1">SetBool</a>
 </td>
 <td align="left" width="63%">
 Set a boolean variable.

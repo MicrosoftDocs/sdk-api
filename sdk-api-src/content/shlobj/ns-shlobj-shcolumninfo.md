@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,7 +71,7 @@ A <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCO
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
 
-The native <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> type of the column's data.
+The native <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARIANT</a> type of the column's data.
 
 
 ### -field fmt

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: jobapi2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -80,7 +81,7 @@ The operating system allows the job to perform I/O operations at this rate, if p
 
 ### -field VolumeName
 
-The NT device name for the volume to which you want to apply the policy for the I/O rate. For information about NT device names, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557722">NT Device Names</a>.
+The NT device name for the volume to which you want to apply the policy for the I/O rate. For information about NT device names, see <a href="https://msdn.microsoft.com/dfcc7338-7c4d-4b4c-9a13-c76bfe82f5a9">NT Device Names</a>.
 
 If this member is <b>NULL</b>, the policy for the I/O rate applies to all of the volumes for the operating system. For example, if this member is <b>NULL</b> and the <b>MaxIops</b> member is 100, the maximum limit for the I/O rate for each volume is set to 100 IOPS, instead of setting an aggregate limit for the I/O rate across all volumes of 100 IOPS.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcndr.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -429,21 +430,6 @@ Reserved.
 Reserved.
 
 
-#### - Unused2
-
-Reserved.
-
-
-#### - fInOnlyParam
-
-Reserved.
-
-
-#### - fUnused
-
-Reserved.
-
-
 #### - BackingStoreLowMark
 
 Reserved.
@@ -455,6 +441,21 @@ Reserved.
 
 
 #### - Reserved51_2
+
+Reserved.
+
+
+#### - Unused2
+
+Reserved.
+
+
+#### - fInOnlyParam
+
+Reserved.
+
+
+#### - fUnused
 
 Reserved.
 

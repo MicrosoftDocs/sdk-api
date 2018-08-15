@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -91,7 +92,7 @@ Retrieves a <b>WM_MEDIA_TYPE</b> structure describing the media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/d878caf9-2cd2-4b1d-b204-a43fe947c4c2">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major type of the media (audio, video, or script).
@@ -122,7 +123,7 @@ For information about which interfaces can be obtained by using the <b>QueryInte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

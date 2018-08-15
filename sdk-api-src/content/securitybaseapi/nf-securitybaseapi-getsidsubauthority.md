@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,9 +70,9 @@ The <b>GetSidSubAuthority</b> function returns a pointer to a specified subautho
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure from which a pointer to a subauthority is to be returned.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure from which a pointer to a subauthority is to be returned.
 
-This function does not handle <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures that are not valid. Call the <a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a> function to verify that the <b>SID</b> structure is valid before you call this function.
+This function does not handle <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that are not valid. Call the <a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a> function to verify that the <b>SID</b> structure is valid before you call this function.
 
 
 ### -param nSubAuthority [in]
@@ -83,10 +84,10 @@ Specifies an index value identifying the subauthority array element whose addres
 
 
 
-If the function succeeds, the return value is a pointer to the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> subauthority. To get extended error information, call 
+If the function succeeds, the return value is a pointer to the specified <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> subauthority. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-If the function fails, the return value is undefined. The function fails if the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure is not valid or if the index value specified by the <i>nSubAuthority</i> parameter is out of bounds. 
+If the function fails, the return value is undefined. The function fails if the specified <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure is not valid or if the index value specified by the <i>nSubAuthority</i> parameter is out of bounds. 
 
 
 
@@ -95,7 +96,7 @@ If the function fails, the return value is undefined. The function fails if the 
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure specified in <i>pSid</i> uses a 32-bit RID value. For applications that require longer RID values, use 
+The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure specified in <i>pSid</i> uses a 32-bit RID value. For applications that require longer RID values, use 
 <a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a> and related functions.
 
 
@@ -138,7 +139,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

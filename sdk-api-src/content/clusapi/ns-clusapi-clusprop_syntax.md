@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -127,7 +128,7 @@ Data is an array of null-terminated Unicode strings.
 
 ##### wFormat.CLUSPROP_FORMAT_SECURITY_DESCRIPTOR (9)
 
-Data is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> in 
+Data is a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> in 
           <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> 
           format. For more information about self-relative security descriptors, see 
           <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
@@ -263,7 +264,7 @@ Describes resource class information. A resource class value is described with a
 
 ##### wType.CLUSPROP_TYPE_SCSI_ADDRESS (6)
 
-Describes an <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> 
+Describes an <a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a> 
           property for an <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> resource. A SCSI 
           address value is represented by a 
           <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
@@ -317,7 +318,7 @@ See <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Cr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a>
+<a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a>
 
 
 

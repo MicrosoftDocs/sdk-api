@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -75,13 +76,13 @@ A value that identifies the property to be set, which must be one of the followi
 
 #### SPCRP_CHARACTERISTICS
 
-The caller supplies flags  that specify the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>. Device characteristics should be set when the device class is installed and should not be changed after the device class is installed.
+The caller supplies flags  that specify the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>. Device characteristics should be set when the device class is installed and should not be changed after the device class is installed.
 
 
 
 #### SPCRP_DEVTYPE
 
-The caller supplies the device type for the class. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. Device type should be set when a device class is installed and should not be changed after the device class is installed.
+The caller supplies the device type for the class. For more information, see <a href="https://msdn.microsoft.com/32e179f9-ab11-4360-b2fd-4276c6b6b3a0">Specifying Device Types</a>. Device type should be set when a device class is installed and should not be changed after the device class is installed.
 
 
 
@@ -93,7 +94,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 #### SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. For more information about how to install a class filter driver, see <a href="devinst.installing_a_filter_driver">Installing a Filter Driver</a> and <a href="devinst.inf_classinstall32_section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://msdn.microsoft.com/library/Ff547595(v=VS.85).aspx">Installing a Filter Driver</a> and <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 Section</a>. 
 
 
 
@@ -111,7 +112,7 @@ The caller supplies the device's security descriptor as a text string. For infor
 
 #### SPCRP_UPPERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="devinst.installing_a_filter_driver">Installing a Filter Driver</a> and <a href="devinst.inf_classinstall32_section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="https://msdn.microsoft.com/library/Ff547595(v=VS.85).aspx">Installing a Filter Driver</a> and <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 Section</a>. 
 
 
 ### -param PropertyBuffer [in, optional]
@@ -136,12 +137,12 @@ Reserved, must be <b>NULL</b>.
 
 ##### - Property.SPCRP_CHARACTERISTICS
 
-The caller supplies flags  that specify the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>. Device characteristics should be set when the device class is installed and should not be changed after the device class is installed.
+The caller supplies flags  that specify the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>. Device characteristics should be set when the device class is installed and should not be changed after the device class is installed.
 
 
 ##### - Property.SPCRP_DEVTYPE
 
-The caller supplies the device type for the class. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. Device type should be set when a device class is installed and should not be changed after the device class is installed.
+The caller supplies the device type for the class. For more information, see <a href="https://msdn.microsoft.com/32e179f9-ab11-4360-b2fd-4276c6b6b3a0">Specifying Device Types</a>. Device type should be set when a device class is installed and should not be changed after the device class is installed.
 
 
 ##### - Property.SPCRP_EXCLUSIVE
@@ -151,7 +152,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 ##### - Property.SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. For more information about how to install a class filter driver, see <a href="devinst.installing_a_filter_driver">Installing a Filter Driver</a> and <a href="devinst.inf_classinstall32_section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://msdn.microsoft.com/library/Ff547595(v=VS.85).aspx">Installing a Filter Driver</a> and <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 Section</a>. 
 
 
 ##### - Property.SPCRP_SECURITY
@@ -166,7 +167,7 @@ The caller supplies the device's security descriptor as a text string. For infor
 
 ##### - Property.SPCRP_UPPERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="devinst.installing_a_filter_driver">Installing a Filter Driver</a> and <a href="devinst.inf_classinstall32_section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="https://msdn.microsoft.com/library/Ff547595(v=VS.85).aspx">Installing a Filter Driver</a> and <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 Section</a>. 
 
 
 ## -returns
@@ -184,7 +185,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The caller of this function must be a member of the Administrators group.
 
-To determine the data type for a device class property, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551097">SetupDiGetClassRegistryProperty</a>.
+To determine the data type for a device class property, call <a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>.
 
 
 
@@ -194,15 +195,15 @@ To determine the data type for a device class property, call <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551097">SetupDiGetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a>
+<a href="https://msdn.microsoft.com/d42269dc-57b5-4303-94d9-02f6ee16a96f">SetupDiGetDeviceRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552169">SetupDiSetDeviceRegistryProperty</a>
+<a href="https://msdn.microsoft.com/2686f416-3eb5-4e6b-87c8-ab10608ab406">SetupDiSetDeviceRegistryProperty</a>
  
 
  

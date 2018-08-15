@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>ICertPropertyDescription</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/17e8ee9c-c861-4437-a70d-ccad6a5a293d">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains descriptive information about the certificate.
@@ -92,7 +93,7 @@ Initializes the object from a string that contains descriptive information about
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/afc8c4f4-186b-4f00-b12b-54b50913865d">Description</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -123,7 +124,7 @@ Occurs when a client has received a complete response from the server.
 
 
 
-Methods on the <a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a> interface are asynchronous, so applications must pass an <b>IXMLHTTPRequest2Callback</b> object as a parameter in calls to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method on the <b>IXMLHTTPRequest2</b> interface to receive callback notifications. 
+Methods on the <a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a> interface are asynchronous, so applications must pass an <b>IXMLHTTPRequest2Callback</b> object as a parameter in calls to <a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">Open</a> method on the <b>IXMLHTTPRequest2</b> interface to receive callback notifications. 
 
 The <b>IXMLHTTPRequest2Callback</b> interface is extended by the <a href="https://msdn.microsoft.com/f745669a-a594-457d-ae6b-952a55576bae">IXMLHTTPRequest3Callback</a> interface.
 
@@ -147,7 +148,7 @@ The <b>IXMLHTTPRequest2Callback</b> interface is extended by the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">Open</a>
  
 
  

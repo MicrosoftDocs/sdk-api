@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ The <b>FolderItems</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/c03aceab-3437-46ae-be43-a54935bb24cb">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -81,7 +82,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/164f823d-12d9-4950-a881-63837c53760d">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf2-1b7becf16e66">FolderItem</a> object for a specified item in the collection.
@@ -99,7 +100,7 @@ Retrieves the <a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf2-1b7bec
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/2cd4243e-a5a6-4de4-b310-f74558ac0fbe">Application</a>
 
 
 </td>
@@ -108,14 +109,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a> object of the folder items collection.
+Contains the <a href="https://msdn.microsoft.com/2cd4243e-a5a6-4de4-b310-f74558ac0fbe">Application</a> object of the folder items collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/383382d5-7e3f-4b27-bebf-6b79dbe677b8">Count</a>
 
 
 </td>

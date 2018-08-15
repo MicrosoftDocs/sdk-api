@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ The decoder should adjust the time stamps on every queued sample to reflect the 
 
  
 
-In the case where <b>StartTime</b> is -1, but the new rate is incompatible and the decoder does not keep a queue of samples, the decoder should return VFW_E_DVD_WRONG_SPEED from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a> method. The source filter can then set a rate change with a specified (not -1) start time.
+In the case where <b>StartTime</b> is -1, but the new rate is incompatible and the decoder does not keep a queue of samples, the decoder should return VFW_E_DVD_WRONG_SPEED from the <a href="https://msdn.microsoft.com/78f506dc-7fb4-446d-863e-cffee9da5280">IKsPropertySet::Set</a> method. The source filter can then set a rate change with a specified (not -1) start time.
 
 The source filter can schedule a rate change whose start time is earlier than previously queued rate changes. This invalidates any rate changes further down the queue; the decoder should discard them. If <b>StartTime</b> is -1, the decoder should discard all pending rate changes before queuing the new rate change.
 

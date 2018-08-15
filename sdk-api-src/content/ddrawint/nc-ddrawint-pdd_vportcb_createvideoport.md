@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdVideoPortCreate</b> callback function notifies the driver that DirectDr
 
 #### - lpCreateVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550551">DD_CREATEVPORTDATA</a> structure that describes the created VPE object.
+Points to a <a href="https://msdn.microsoft.com/c4dea564-399a-46ee-ad71-7a374d6fbc0a">DD_CREATEVPORTDATA</a> structure that describes the created VPE object.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55055
 
 <b>DdVideoPortCreate</b> can be optionally implemented in DirectDraw drivers that support VPE.
 
-<b>DdVideoPortCreate</b> can allocate memory for and initialize any private, VPE object-specific data. The driver can use the <b>dwReserved1</b> and <b>dwReserved2</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a> structure to store this data. This DD_VIDEOPORT_LOCAL structure is at the <b>lpVideoPort</b> member of the DD_CREATEVPORTDATA structure at <i>lpCreateVideoPort</i>. The driver cannot use or change any other members of the DD_VIDEOPORT_LOCAL structure.
+<b>DdVideoPortCreate</b> can allocate memory for and initialize any private, VPE object-specific data. The driver can use the <b>dwReserved1</b> and <b>dwReserved2</b> members of the <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure to store this data. This DD_VIDEOPORT_LOCAL structure is at the <b>lpVideoPort</b> member of the DD_CREATEVPORTDATA structure at <i>lpCreateVideoPort</i>. The driver cannot use or change any other members of the DD_VIDEOPORT_LOCAL structure.
 
 If the hardware video port is implemented to use the feature connector, the driver might need to initialize the feature connector for hardware video port use.
 
@@ -101,11 +102,11 @@ If the hardware video port is implemented to use the feature connector, the driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550551">DD_CREATEVPORTDATA</a>
+<a href="https://msdn.microsoft.com/c4dea564-399a-46ee-ad71-7a374d6fbc0a">DD_CREATEVPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a>
+<a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a>
 
 
 

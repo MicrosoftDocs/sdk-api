@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -127,7 +128,7 @@ Last enumerated value. Not a valid change type.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545452">Enumeration Types</a>
+<a href="https://msdn.microsoft.com/90689fb7-656d-4c06-a0a9-02bbe0e5b5dd">Enumeration Types</a>
  
 
  

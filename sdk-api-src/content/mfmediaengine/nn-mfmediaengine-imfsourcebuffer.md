@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -137,13 +138,13 @@ Gets the timestamp offset for media segments appended to the <b>IMFSourceBuffer<
 <a href="https://msdn.microsoft.com/f1c810d1-05dd-4931-b063-fb86c6bedae3">GetUpdating</a>
 </td>
 <td align="left" width="63%">
-Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> is in process.
+Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a> is in process.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the media segments defined by the specified time range from the <b>IMFSourceBuffer</b>.

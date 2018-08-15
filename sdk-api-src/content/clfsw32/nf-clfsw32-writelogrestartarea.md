@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -117,11 +118,11 @@ Assigns no flags.
  
 
 
-#### - plsnBase [in, optional]
+#### - pOverlapped [in, out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the new base LSN of the log after successfully writing the restart area.  
+A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
 
-This value cannot be outside the range of the active log. It must be at least the value of the current base LSN, and not greater than the LSN that was returned in the <i>lastLSN</i> parameter from the latest call to <a href="https://msdn.microsoft.com/2036fc26-d040-4738-b66e-d5d3d0dbe385">ReserveAndAppendLog</a>.  If you omit this optional parameter, the base LSN  does not change.
+This parameter can be <b>NULL</b> if an asynchronous operation is not used.
 
 
 #### - pcbWritten [out, optional]
@@ -129,16 +130,16 @@ This value cannot be outside the range of the active log. It must be at least th
 A pointer to a variable that receives the number of bytes that are  written when an operation completes.
 
 
+#### - plsnBase [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the new base LSN of the log after successfully writing the restart area.  
+
+This value cannot be outside the range of the active log. It must be at least the value of the current base LSN, and not greater than the LSN that was returned in the <i>lastLSN</i> parameter from the latest call to <a href="https://msdn.microsoft.com/2036fc26-d040-4738-b66e-d5d3d0dbe385">ReserveAndAppendLog</a>.  If you omit this optional parameter, the base LSN  does not change.
+
+
 #### - plsnNext [out, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the LSN of the restart area that is written.
-
-
-#### - pOverlapped [in, out, optional]
-
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
-
-This parameter can be <b>NULL</b> if an asynchronous operation is not used.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the LSN of the restart area that is written.
 
 
 ## -returns
@@ -176,7 +177,7 @@ To complete the call, the client should synchronize its execution with deferred 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 

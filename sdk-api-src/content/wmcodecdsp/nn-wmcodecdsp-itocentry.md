@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Gets a description data block that was previously associated with the entry by a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439771">GetDescriptor</a>
+<a href="https://msdn.microsoft.com/bb685d4c-c5ec-413f-b279-25216b2bcee8">GetDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the descriptor, previously set by a call to <a href="https://msdn.microsoft.com/09a366a6-fcb4-4a0b-8df1-795360d147b9">SetDescriptor</a>, of the entry.

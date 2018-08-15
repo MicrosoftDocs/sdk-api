@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -90,7 +91,7 @@ Performs reflection on a transform in either horizontal or vertical directions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/ea593b1c-0986-4969-8f6f-726987b7c4a6">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the transform to its default state, the identity transform.
@@ -153,7 +154,7 @@ Applies a translation to a transform.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427307">Data</a>
+<a href="https://msdn.microsoft.com/f22c0ef8-8604-4719-bc93-a265a19defd0">Data</a>
 
 
 </td>

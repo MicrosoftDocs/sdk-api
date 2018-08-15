@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Enables operations on the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and provides access to all of the objects in the 
+    <a href="c_gly.htm">cluster</a> and provides access to all of the objects in the 
     cluster.
 
 
@@ -79,7 +80,7 @@ The <b>Cluster</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/1f5d9f49-1169-45f2-9f3d-11ce9d8db5ef">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a connection to a cluster.
@@ -121,7 +122,7 @@ Returns the read-only common properties of the cluster.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/8d42bb44-f4af-49f3-b6c9-055625739557">Name</a>
 
 
 </td>
@@ -275,7 +276,7 @@ Returns a <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn973197">Version</a>
+<a href="https://msdn.microsoft.com/77abfb85-48fe-4b18-b79e-5641711f33d7">Version</a>
 
 
 </td>

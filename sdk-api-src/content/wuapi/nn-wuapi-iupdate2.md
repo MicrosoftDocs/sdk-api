@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -106,7 +107,7 @@ Gets a collection of common vulnerabilities and exposures (CVE) IDs that are ass
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949436">IsPresent</a>
+<a href="https://msdn.microsoft.com/de378d24-aba9-44c2-9c49-fbd1b2fc2446">IsPresent</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: inked.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -73,7 +74,7 @@ This property is read/write.
 
 This property is run time only.
 
-This property should only be changed if the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property returns IES_Idle.
+This property should only be changed if the <a href="https://msdn.microsoft.com/47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d">Status</a> property returns IES_Idle.
 
 If a factoid is used for the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control, it must be reapplied after setting this property.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-The <b>FreeCredentialsHandle</b> function notifies the security system that the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> are no longer needed. An application calls this function to free the credential handle acquired in the call to the 
+The <b>FreeCredentialsHandle</b> function notifies the security system that the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> are no longer needed. An application calls this function to free the credential handle acquired in the call to the 
 <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle (General)</a> function after calling the <a href="https://msdn.microsoft.com/2a4dd697-ef90-4c37-ab74-0e5ab92794cd">DeleteSecurityContext</a> function to free any context handles associated with the credential. When all references to this credential set have been removed, the credentials themselves can be removed.
 
 Failure to free credentials handles will result in memory leaks.

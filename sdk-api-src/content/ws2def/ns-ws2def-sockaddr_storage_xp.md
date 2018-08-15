@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The SOCKADDR_STORAGE structure is a generic structure that specifies a transport
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
+     <a href="netvista.wsk_address_families">WSK Address Families</a>.
 
 
 ### -field __ss_pad1
@@ -100,7 +101,7 @@ A WSK application typically does not directly access any of the members of the S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
  
 
  

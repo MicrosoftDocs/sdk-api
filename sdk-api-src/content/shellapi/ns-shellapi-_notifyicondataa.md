@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -380,7 +381,7 @@ Use the current behavior. Use this value for applications designed for Windows 
 
 
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/mt244308">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
+See <a href="http://go.microsoft.com/fwlink/p/?linkid=200328">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
 
 If you set the <b>NIF_INFO</b> flag in the <b>uFlags</b> member, the balloon-style notification is used. For more discussion of these notifications, see <a href="https://msdn.microsoft.com/en-us/library/Bb760252(v=VS.85).aspx">Balloon tooltips</a>.
 
@@ -519,7 +520,7 @@ The binary file that contains the icon was moved. The path of the binary file is
 
 This also occurs in the case of a side-by-side installation. When dealing with a side-by-side installation, new versions of the application should update the GUID of the binary file.
 
-<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="_inet_Authenticode_node_entry">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
+<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="https://msdn.microsoft.com/library/ms537359(v=VS.85).aspx">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
 <div> </div>
 </li>
 </ol>

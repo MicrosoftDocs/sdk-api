@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -116,7 +117,7 @@ If the string is as long or longer than the buffer, the buffer contains the trun
 
 <b>DlgDirSelectComboBoxEx</b> sends <a href="https://msdn.microsoft.com/en-us/library/Bb775845(v=VS.85).aspx">CB_GETCURSEL</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a> messages to the combo box. 
 
-You can use this function with all three types of combo boxes (<a href="Combo_Box_Styles.htm">CBS_SIMPLE</a>, <a href="Combo_Box_Styles.htm">CBS_DROPDOWN</a>, and CBS_DROPDOWNLIST). 
+You can use this function with all three types of combo boxes (<a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_SIMPLE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWN</a>, and CBS_DROPDOWNLIST). 
 
 <b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="https://msdn.microsoft.com/en-us/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
 

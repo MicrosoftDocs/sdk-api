@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IActionProgressDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/e82f4686-75c6-4f06-8468-937352fe33d3">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides details about the action progress dialog.
@@ -80,7 +81,7 @@ Provides details about the action progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/700835c1-f6c0-40f9-8968-0924281dcfe0">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops a progress dialog.

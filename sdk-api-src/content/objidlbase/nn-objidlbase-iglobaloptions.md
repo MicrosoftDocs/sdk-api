@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -72,7 +73,7 @@ The <b>IGlobalOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/ee16e59d-c629-45c1-afe6-fb4e37eba5d1">Query</a>
 </td>
 <td align="left" width="63%">
 Queries the specified global property of the COM runtime.
@@ -81,7 +82,7 @@ Queries the specified global property of the COM runtime.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544503">Set</a>
+<a href="https://msdn.microsoft.com/5a59c862-64a4-45b5-8b6b-dacbfb4d170b">Set</a>
 </td>
 <td align="left" width="63%">
 Sets the specified global property of the COM runtime.
@@ -147,7 +148,7 @@ COMGLB_RPC_THREADPOOL_SETTING
 
 </td>
 <td>
-Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544503">Set</a> method are:
+Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://msdn.microsoft.com/5a59c862-64a4-45b5-8b6b-dacbfb4d170b">Set</a> method are:
 
 
 
@@ -155,7 +156,7 @@ Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="h
 <li>COMGLB_RPC_THREADPOOL_SETTING_PRIVATE_POOL: Instructs RPC to use a dedicated private thread pool.
 </li>
 </ul>
-Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a> method are:
+Possible values for the COMGLB_RPC_THREADPOOL_SETTING property in the <a href="https://msdn.microsoft.com/ee16e59d-c629-45c1-afe6-fb4e37eba5d1">Query</a> method are:
 
 
 
@@ -168,7 +169,7 @@ RPC uses the system thread pool by default in Windows 7. Since the system threa
 
 The COMGLB_RPC_THREADPOOL_SETTING property can be used to change the RPC thread pool behavior. Changing the default behavior will incur a performance penalty since this causes RPC to use an extra thread. Therefore, care should be exercised when changing this setting. It is recommended that this setting is changed only for application compatibility reasons.
 
-<div class="alert"><b>Note</b>  This property must be set immediately after COM is initialized in the process. If this property is set after performing any operations that cause COM to initialize the RPC channel (for example, marshaling or unmarshalling object references), the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544503">Set</a> method will fail.</div>
+<div class="alert"><b>Note</b>  This property must be set immediately after COM is initialized in the process. If this property is set after performing any operations that cause COM to initialize the RPC channel (for example, marshaling or unmarshalling object references), the <a href="https://msdn.microsoft.com/5a59c862-64a4-45b5-8b6b-dacbfb4d170b">Set</a> method will fail.</div>
 <div> </div>
 <b>Note</b>  This property is only supported in Windows 7 and later versions of Windows.
 

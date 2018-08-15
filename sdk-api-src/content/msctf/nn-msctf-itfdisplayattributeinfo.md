@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -80,7 +81,7 @@ Obtains the display attribute data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/e65aedac-284d-4e2a-b574-fc469f66e06e">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description string of the display attribute.
@@ -98,7 +99,7 @@ Obtains the GUID for the display attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/f7a95bb4-a2f1-4734-8a71-286591544984">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the display attribute data to its default value.

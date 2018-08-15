@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -115,11 +116,11 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538823">CM_Open_DevNode_Key</a>
+<a href="https://msdn.microsoft.com/bd69ec16-e8a3-4372-babf-65f8abb7a012">CM_Open_DevNode_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550991">SetupDiDeleteDevRegKey</a>
+<a href="https://msdn.microsoft.com/3b332291-0593-4750-9965-f6bf90ec8838">SetupDiDeleteDevRegKey</a>
  
 
  

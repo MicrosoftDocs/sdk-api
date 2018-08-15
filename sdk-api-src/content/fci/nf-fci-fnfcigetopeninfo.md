@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,6 +65,16 @@ The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-d
  The complete filename.
 
 
+#### - err
+
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+
+
+#### - pattribs
+
+The file attributes. For possible values and their descriptions, see File Attributes.
+
+
 #### - pdate
 
  The MS-DOS date. The date is a packed value with the following format:
@@ -112,16 +123,6 @@ The MS-DOS time. The time is a packed value with the following format:
 </tr>
 </table>
  
-
-
-#### - pattribs
-
-The file attributes. For possible values and their descriptions, see File Attributes.
-
-
-#### - err
-
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
 
 
 #### - pv

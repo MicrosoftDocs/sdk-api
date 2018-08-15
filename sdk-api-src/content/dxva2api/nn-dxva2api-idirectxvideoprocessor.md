@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -98,7 +99,7 @@ Retrieves the range of values for a video processor (ProcAmp) setting on this vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451674">GetVideoProcessorCaps</a>
+<a href="https://msdn.microsoft.com/f004d4fb-9fad-44f2-a284-3a612adbaf31">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the video processor device.

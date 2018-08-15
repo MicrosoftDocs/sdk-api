@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568154">SpectralInversion</a>
+<a href="https://msdn.microsoft.com/d8781e01-37cc-4c8c-8ff9-61e9c9b95fbd">SpectralInversion</a>
  
 
  

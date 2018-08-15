@@ -15,6 +15,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ The <b>IMediaObjectInPlace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/6660afa8-3502-4e88-925b-192e06346243">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the DMO in its current state.
@@ -99,7 +100,7 @@ Retrieves the latency introduced by this DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a>
+<a href="https://msdn.microsoft.com/567117cd-db7b-4764-9c88-ab898a64b56a">Process</a>
 </td>
 <td align="left" width="63%">
 Processes a block of data.

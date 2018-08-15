@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -146,9 +147,9 @@ The application stores the image list index of the current state image for each 
 
 The <i>callback mask</i> of a list-view control is a set of bit flags that specify the item states for which the application, rather than the control, stores the current data. The callback mask applies to all of the control's items, unlike the callback item designation, which applies to a specific item. The callback mask is zero by default, meaning that the list-view control stores all item state information. After creating a list-view control and initializing its items, you can use the <b>ListView_SetCallbackMask</b> macro or <a href="https://msdn.microsoft.com/en-us/library/Bb761157(v=VS.85).aspx">LVM_SETCALLBACKMASK</a> message to change the callback mask. To retrieve the current callback mask, send the <a href="https://msdn.microsoft.com/en-us/library/Bb774909(v=VS.85).aspx">LVM_GETCALLBACKMASK</a> message. 
 
-For more information about overlay images and state images, see <a href="List_View_Controls_Overview.htm">List-View Image Lists</a>. 
+For more information about overlay images and state images, see <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">List-View Image Lists</a>. 
 
-For more information on list-view callbacks, see <a href="List_View_Controls_Overview.htm">Callback Items and the Callback Mask</a>
+For more information on list-view callbacks, see <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">Callback Items and the Callback Mask</a>
 
 
 

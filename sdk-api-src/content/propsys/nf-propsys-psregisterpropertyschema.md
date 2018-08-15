@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -122,7 +123,7 @@ One or more property descriptions in the schema failed to register. The specific
 
 
 
-This function is a wrapper API for the schema subsystem's implementation of <a href="shell.IPropertySystem_RegisterPropertySchema">IPropertySystem::RegisterPropertySchema</a>. Call this function only when the file is first installed on the computer. Typically, a setup application calls this function after it installs the .propdesc file, which should be stored in the install directory of the application under Program Files. Multiple calls can be made to <b>IPropertySystem::RegisterPropertySchema</b> in order to register multiple schema files.
+This function is a wrapper API for the schema subsystem's implementation of <a href="https://msdn.microsoft.com/library/Bb761441(v=VS.85).aspx">IPropertySystem::RegisterPropertySchema</a>. Call this function only when the file is first installed on the computer. Typically, a setup application calls this function after it installs the .propdesc file, which should be stored in the install directory of the application under Program Files. Multiple calls can be made to <b>IPropertySystem::RegisterPropertySchema</b> in order to register multiple schema files.
 
 When registering property schema files, remember that they can be read by processes running as different users. Therefore, it is important to place a schema file in a location that grants read access to all users on the machine. Similarly, use the absolute path to the file in this function's <i>pszPath</i> parameter.
 

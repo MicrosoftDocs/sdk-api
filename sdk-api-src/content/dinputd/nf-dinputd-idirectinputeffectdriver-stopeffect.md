@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,14 +66,14 @@ The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an 
 
 
 
-#### - dwID
-
-Indicates the external joystick number being addressed. 
-
-
 #### - dwEffect
 
 Specifies the effect to be stopped. 
+
+
+#### - dwID
+
+Indicates the external joystick number being addressed. 
 
 
 ## -returns

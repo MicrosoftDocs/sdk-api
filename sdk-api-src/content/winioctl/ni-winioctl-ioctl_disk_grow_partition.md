@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -153,7 +154,7 @@ You can extend or shrink a live partition, and the partition can be open for sha
 
 You do not need to lock a partition that you are extending, nor do you need to shut down other applications or services during the extend operation.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552621">DISK_GROW_PARTITION</a>.
+For more information, see <a href="https://msdn.microsoft.com/17ff8bbb-45a6-4ddd-a871-8519500c03a9">DISK_GROW_PARTITION</a>.
 
 
 
@@ -163,7 +164,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552621">DISK_GROW_PARTITION</a>
+<a href="https://msdn.microsoft.com/17ff8bbb-45a6-4ddd-a871-8519500c03a9">DISK_GROW_PARTITION</a>
 
 
 

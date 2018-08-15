@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmcobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -64,7 +65,7 @@ The
 ### -param View
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a> object to compare to this view.
+<a href="https://msdn.microsoft.com/004043d1-c7c3-4385-a4f5-a7fbf616d05c">View</a> object to compare to this view.
 
 
 ### -param TheSame

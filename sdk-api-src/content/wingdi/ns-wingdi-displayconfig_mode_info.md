@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -81,17 +82,17 @@ The identifier of the adapter that this source or target mode information relate
 
 ### -field DUMMYUNIONNAME.targetMode
 
-A valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a> structure that describes the specified target only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_TARGET.
+A valid <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a> structure that describes the specified target only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_TARGET.
 
 
 ### -field DUMMYUNIONNAME.sourceMode
 
-A valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff553986">DISPLAYCONFIG_SOURCE_MODE</a> structure that describes the specified source only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE.
+A valid <a href="https://msdn.microsoft.com/413d63e5-da9d-4906-80a9-049da6e85275">DISPLAYCONFIG_SOURCE_MODE</a> structure that describes the specified source only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE.
 
 
 ### -field DUMMYUNIONNAME.desktopImageInfo
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt622102">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
+A <a href="https://msdn.microsoft.com/2DACA175-19BC-4192-A2FF-CB8AC7220B98">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
 
 Supported starting in Windows 10.
 
@@ -101,15 +102,15 @@ Supported starting in Windows 10.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553942">DISPLAYCONFIG_MODE_INFO_TYPE</a>
+<a href="https://msdn.microsoft.com/d5ddb1d5-6b74-471f-86f0-fee72f30b648">DISPLAYCONFIG_MODE_INFO_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553986">DISPLAYCONFIG_SOURCE_MODE</a>
+<a href="https://msdn.microsoft.com/413d63e5-da9d-4906-80a9-049da6e85275">DISPLAYCONFIG_SOURCE_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a>
+<a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a>
  
 
  

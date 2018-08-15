@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ Retrieves an <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DE
 
 ### -param Index [in]
 
-The index of the <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> to retrieve. This value must be less than the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>. 
+The index of the <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> to retrieve. This value must be less than the value returned by <a href="https://msdn.microsoft.com/459A0898-ED5F-479F-8DDC-EA67C04F7BF9">GetCount</a>. 
 
 
 ### -param sensorActivityReport [out]
@@ -114,7 +115,7 @@ The <i>sensorActivityReport</i> parameter is null.
 </dl>
 </td>
 <td width="60%">
-The <i>Index</i> parameter is not less than value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>. 
+The <i>Index</i> parameter is not less than value returned by <a href="https://msdn.microsoft.com/459A0898-ED5F-479F-8DDC-EA67C04F7BF9">GetCount</a>. 
 
 </td>
 </tr>

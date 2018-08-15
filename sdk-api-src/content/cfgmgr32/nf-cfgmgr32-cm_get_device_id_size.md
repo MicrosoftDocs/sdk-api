@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Device_ID_Size</b> function retrieves the buffer size required to hold a <a href="devinst.device_instance_ids">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on the local machine.
+The <b>CM_Get_Device_ID_Size</b> function retrieves the buffer size required to hold a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on the local machine.
 
 
 ## -parameters
@@ -88,13 +89,13 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The <b>CM_Get_Device_ID_Size</b> function should be called to determine the buffer size required by <a href="https://msdn.microsoft.com/library/windows/hardware/ff538405">CM_Get_Device_ID</a>.
+The <b>CM_Get_Device_ID_Size</b> function should be called to determine the buffer size required by <a href="https://msdn.microsoft.com/924906ca-1119-428f-a42d-cb9a784af011">CM_Get_Device_ID</a>.
 
 The size value supplied in the location pointed to by <i>pulLen</i> is less than MAX_DEVICE_ID_LEN, and does not include the identifier string's terminating <b>NULL</b>. If the specified device instance does not exist, the function supplies a size value of zero.
 
 For information about device instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538074">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
 
 
 
@@ -104,15 +105,15 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538074">CM_Get_Child</a>
+<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538405">CM_Get_Device_ID</a>
+<a href="https://msdn.microsoft.com/924906ca-1119-428f-a42d-cb9a784af011">CM_Get_Device_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538448">CM_Get_Device_ID_Size_Ex</a>
+<a href="https://msdn.microsoft.com/3b95f8e3-0059-4a2e-8c14-5938f5826faf">CM_Get_Device_ID_Size_Ex</a>
  
 
  

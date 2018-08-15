@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -80,8 +81,8 @@ Maximum version of the Resource API supported by the Cluster service.
 ### -param SetResourceStatus [in]
 
 Pointer to a callback function that the resource DLL should call to update its status after returning 
-       <b>ERROR_IO_PENDING</b> from <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> or 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>. For more information see 
+       <b>ERROR_IO_PENDING</b> from <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
+       <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>. For more information see 
        <a href="https://msdn.microsoft.com/8ddb4578-f8c4-462e-af04-8c537d585e8b">SetResourceStatus</a>.
 
 

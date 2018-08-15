@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -166,7 +167,7 @@ Retrieves the virtual channel table (VCT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the ATSC PSIP parser.
@@ -194,7 +195,7 @@ To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the follow
 </table></span></div>
 This CLSID is not is not published in an SDK header; define a new GUID constant in your application.
 
-You must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> before calling any other methods on the object.
+You must call <a href="https://msdn.microsoft.com/7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2">Initialize</a> before calling any other methods on the object.
 
 
 

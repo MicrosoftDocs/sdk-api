@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
@@ -91,9 +92,9 @@ The remote port portion of the enumeration template.
 
 This structure can be used to narrow the results when enumerating endpoints. If used, it is specified
     when the enumeration handle is created by calling 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550089">FwpsAleEndpointCreateEnumHandle0</a>. Any populated members are used to limit the enumeration results
+    <a href="https://msdn.microsoft.com/5daa3dd4-e499-4a72-b784-8a0e1ef3e92b">FwpsAleEndpointCreateEnumHandle0</a>. Any populated members are used to limit the enumeration results
     returned by 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>.
+    <a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a>.
 
 
 
@@ -103,11 +104,11 @@ This structure can be used to narrow the results when enumerating endpoints. If 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550089">FwpsAleEndpointCreateEnumHandle0</a>
+<a href="https://msdn.microsoft.com/5daa3dd4-e499-4a72-b784-8a0e1ef3e92b">FwpsAleEndpointCreateEnumHandle0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>
+<a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a>
  
 
  

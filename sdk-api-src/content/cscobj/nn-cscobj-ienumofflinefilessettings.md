@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -71,7 +72,7 @@ The <b>IEnumOfflineFilesSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/85c2e5a3-4b1c-4a21-8693-804c088a7a56">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of the enumerator with the same enumeration state as the current one.
@@ -80,7 +81,7 @@ Creates a new instance of the enumerator with the same enumeration state as the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/00230021-6069-4e0b-a3d6-95651aa6e44a">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item in the enumeration and advances the enumerator.
@@ -89,7 +90,7 @@ Retrieves the next item in the enumeration and advances the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/2814c63c-104a-4c19-b458-f7ce2ff51fa3">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration to the beginning.
@@ -98,7 +99,7 @@ Resets the enumeration to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/8b84fcef-f4e3-4e23-b254-dd21f145c1ba">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration.

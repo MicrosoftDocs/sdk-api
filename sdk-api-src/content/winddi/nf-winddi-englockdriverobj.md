@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngLockDriverObj</b> function creates an exclusive lock on this object fo
 
 ### -param hdo
 
-Handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556162">DRIVEROBJ</a> structure to be locked by GDI.
+Handle to the <a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a> structure to be locked by GDI.
 
 
 ## -returns
@@ -87,7 +88,7 @@ This function will fail if the handle is invalid, if the object is already locke
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556162">DRIVEROBJ</a>
+<a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a>
  
 
  

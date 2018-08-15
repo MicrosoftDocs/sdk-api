@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -85,12 +86,12 @@ The node is turned off or not operational.
 The node is running but not participating in cluster operations. This value is also used by the 
        <a href="https://msdn.microsoft.com/23b4ff74-f72f-4227-9b69-ff36fa6ed55b">PauseClusterNode</a> and 
        <a href="https://msdn.microsoft.com/4afadb62-2bea-46ef-b0d6-e327ac96d16f">SetClusterServiceAccountPassword</a> 
-       functions. This value is also used <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a> method.
+       functions. This value is also used <a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">Pause</a> method.
 
 
 ### -field ClusterNodeJoining
 
-The node is in the process of joining a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+The node is in the process of joining a <a href="c_gly.htm">cluster</a>.
 
 
 ## -see-also

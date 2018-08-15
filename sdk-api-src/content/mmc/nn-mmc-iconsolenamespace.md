@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -102,7 +103,7 @@ Enables the snap-in to get the attributes of a single scope pane item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e4ada78-4e95-4053-a1ce-05368e70dba7">GetNextItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761626(v=VS.85).aspx">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the next item.
@@ -111,7 +112,7 @@ Enables the snap-in to get the handle to the next item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b32d9669-b71d-4ff3-8cc5-c22503773644">GetParentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629987(v=VS.85).aspx">GetParentItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the parent item.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetTextRenderingHint</b> method returns the text rendering mode currently set for this 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. 
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms53440
 </strong>
 
 This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534404(v=VS.85).aspx">TextRenderingHint</a> enumeration that indicates the process currently used by this 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to render text.
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to render text.
 
 
 
@@ -80,7 +81,7 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

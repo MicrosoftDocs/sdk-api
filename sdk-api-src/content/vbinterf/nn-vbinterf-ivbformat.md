@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IVBFormat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922919">Format</a>
+<a href="https://msdn.microsoft.com/62200cb0-3704-4caf-9152-1b7b0c43856a">Format</a>
 </td>
 <td align="left" width="63%">
 Formats a string the way the Visual Basic <b>Format$</b> function would.

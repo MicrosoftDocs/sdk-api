@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -109,7 +110,7 @@ The display name must be set through the item's <a href="https://msdn.microsoft.
 
 Optionally, the description field (<a href="https://msdn.microsoft.com/4bec482e-04e6-4cde-ab8e-23c5a1463bdf">SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
 
-A task list can also include separators. These are created by including a blank <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> (this is the single exception to the argument list requirement), and setting its <a href="https://msdn.microsoft.com/6cee1c20-865c-4d53-98c5-5402855a0004">System.AppUserModel.IsDestListSeparator</a> property to <b>TRUE</b> through the <b>IShellLink</b> object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface. Any other values in the <b>IShellLink</b> will be ignored. Separators do not take up a full space in the list and are not counted in the number of items in the list. If two separators are provided with no items between them, one of the separators will not be shown. Separators at the beginning or end of the list are also ignored.
+A task list can also include separators. These are created by including a blank <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> (this is the single exception to the argument list requirement), and setting its <a href="https://msdn.microsoft.com/6cee1c20-865c-4d53-98c5-5402855a0004">System.AppUserModel.IsDestListSeparator</a> property to <b>TRUE</b> through the <b>IShellLink</b> object's <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> interface. Any other values in the <b>IShellLink</b> will be ignored. Separators do not take up a full space in the list and are not counted in the number of items in the list. If two separators are provided with no items between them, one of the separators will not be shown. Separators at the beginning or end of the list are also ignored.
 
 
 

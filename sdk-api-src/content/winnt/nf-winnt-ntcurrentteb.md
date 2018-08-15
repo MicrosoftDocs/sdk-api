@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ A pointer to the thread environment block of the current thread.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557720">NtXxx Routines</a>
+<a href="https://msdn.microsoft.com/71db6fa6-d1f8-4aed-9de1-bba1f6cee1ce">NtXxx Routines</a>
  
 
  

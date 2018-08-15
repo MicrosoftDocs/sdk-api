@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,7 +92,7 @@ The attribute key to update in the attribute list. This parameter can be one of 
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546539">GROUP_AFFINITY</a> structure that specifies the processor group affinity for the new thread.
+The <i>lpValue</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/76009431-9139-4c03-9c7b-0c4bb5f0cb83">GROUP_AFFINITY</a> structure that specifies the processor group affinity for the new thread.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
 
@@ -107,7 +108,7 @@ The <i>lpValue</i> parameter is a pointer to a list of handles to be inherited b
 
 These handles must be created as inheritable handles and must not include pseudo handles such as those returned by the <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> or <a href="https://msdn.microsoft.com/91a11552-66c1-42bd-b837-8a7685977bc9">GetCurrentThread</a> function.
 
-<div class="alert"><b>Note</b>  if you use this attribute, pass in a value of TRUE for the <i>bInheritHandles</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function.</div>
+<div class="alert"><b>Note</b>  if you use this attribute, pass in a value of TRUE for the <i>bInheritHandles</i> parameter of the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -117,7 +118,7 @@ These handles must be created as inheritable handles and must not include pseudo
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure that specifies the ideal processor for the new thread.
+The <i>lpValue</i> parameter is a pointer to a  <a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a> structure that specifies the ideal processor for the new thread.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
 

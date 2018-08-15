@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The SOCKADDR structure is a generic structure that specifies a transport address
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
+     <a href="netvista.wsk_address_families">WSK Address Families</a>.
 
 
 ### -field sa_data
@@ -78,7 +79,7 @@ An array of 14 bytes that contains the transport address data.
 The SOCKADDR structure is large enough to contain a transport address for most address families. For a
     structure that is guaranteed to be large enough to contain a transport address for all possible address
     families, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>.
+    <a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>.
 
 A WSK application typically does not access the 
     <b>sa_data</b> member directly. Instead, a pointer to a SOCKADDR structure is normally cast to a pointer
@@ -92,15 +93,15 @@ A WSK application typically does not access the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a>
+<a href="https://msdn.microsoft.com/061db3ca-80ed-419e-8cca-f49d1498b780">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
+<a href="https://msdn.microsoft.com/9fa8bb07-7ee5-400b-aaca-33db3911d79f">WskAccept</a>
 
 
 
@@ -108,19 +109,19 @@ A WSK application typically does not access the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a>
+<a href="https://msdn.microsoft.com/520b02d0-a078-4af9-93a3-4fee5bbfee99">WskBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a>
+<a href="https://msdn.microsoft.com/66942ba4-40f9-4fdc-97f3-859309cd870d">WskConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571133">WskGetLocalAddress</a>
+<a href="https://msdn.microsoft.com/13cd4199-63f8-49f3-a12f-86e1d367b4aa">WskGetLocalAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571135">WskGetRemoteAddress</a>
+<a href="https://msdn.microsoft.com/a2d65d55-744b-4851-b1fa-7087e0f06452">WskGetRemoteAddress</a>
 
 
 
@@ -128,15 +129,15 @@ A WSK application typically does not access the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a>
+<a href="https://msdn.microsoft.com/769fea0d-e35a-4385-8027-f1518c25b637">WskReceiveFrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
+<a href="https://msdn.microsoft.com/34257ef2-947a-463a-b234-04fbaffa9344">WskSendTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
+<a href="https://msdn.microsoft.com/b1482160-49db-4490-b347-ff9396abf2ff">WskSocketConnect</a>
  
 
  

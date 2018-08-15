@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -96,23 +97,23 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546204">CreateAnycastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/30393132-0fad-4687-b9e3-7b5cf47fbb96">CreateAnycastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546363">DeleteAnycastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305">DeleteAnycastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552504">GetAnycastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/d60828ed-e1fd-4e57-92be-08a189c27fe5">GetAnycastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552508">GetAnycastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/4eccae59-00be-4f9c-bb62-a507d7dad2e0">GetAnycastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559193">MIB_ANYCASTIPADDRESS_TABLE</a>
+<a href="https://msdn.microsoft.com/46b99759-eb9a-4f91-a6b6-40e6e9f55038">MIB_ANYCASTIPADDRESS_TABLE</a>
 
 
 

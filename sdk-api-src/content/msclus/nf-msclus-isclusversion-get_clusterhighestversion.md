@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -59,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns a value containing the highest version of the 
     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">Cluster service</a> with which the current 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> is compatible.
+    <a href="c_gly.htm">cluster</a> is compatible.
 
 This property is read-only.
 

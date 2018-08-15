@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,15 +72,15 @@ The <b>NetworkPropertyChanged</b> method is called when a network property chang
 
 
 
-#### - gdNetworkId [in]
-
-GUID that specifies the network on which this event occurred.
-
-
 #### - fFlags [in]
 
 
 <a href="https://msdn.microsoft.com/04c96793-f6a8-418b-a8d4-65e8df77933c">NLM_NETWORK_PROPERTY_CHANGE</a> enumeration value that specifies the network property that changed.
+
+
+#### - gdNetworkId [in]
+
+GUID that specifies the network on which this event occurred.
 
 
 ## -returns

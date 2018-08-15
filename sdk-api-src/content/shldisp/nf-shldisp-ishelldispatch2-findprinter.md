@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -76,13 +77,6 @@ Displays the <b>Find Printer</b> dialog box.
 
 
 
-#### - sName [in, optional]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
-
-A <b>String</b> that contains the printer name.
-
-
 #### - sLocation [in, optional]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
@@ -95,6 +89,13 @@ A <b>String</b> that contains the printer location.
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> that contains the printer model.
+
+
+#### - sName [in, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+
+A <b>String</b> that contains the printer name.
 
 
 ## -remarks

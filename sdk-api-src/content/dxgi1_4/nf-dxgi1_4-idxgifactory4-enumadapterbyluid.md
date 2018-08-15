@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,10 +64,10 @@ Outputs the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).
 
 ### -param AdapterLuid [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/564bcc9a-943b-4ad9-aeaa-0af4c3d3da0c">LUID</a></b>
 
 A unique value that identifies the adapter.
-            See <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for a definition of the structure.
+            See <a href="https://msdn.microsoft.com/564bcc9a-943b-4ad9-aeaa-0af4c3d3da0c">LUID</a> for a definition of the structure.
             <b>LUID</b> is defined in dxgi.h.
           
 

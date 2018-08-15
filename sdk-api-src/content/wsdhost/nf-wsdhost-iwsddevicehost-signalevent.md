@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -105,7 +106,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The host is not started. Call <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> to start the device host.
+The host is not started. Call <a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">Start</a> to start the device host.
 
 </td>
 </tr>

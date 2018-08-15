@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -62,7 +63,7 @@ The
 
 ### -field hop_ipaddr
 
-The next or previous hop IP address, in the form of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a> structure.
+The next or previous hop IP address, in the form of an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a> structure.
 
 
 ### -field hop_LIH
@@ -75,7 +76,7 @@ Logical Interface Handle.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a>
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a>
  
 
  

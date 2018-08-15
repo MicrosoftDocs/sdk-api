@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 
+req.redist: Windows Management Framework on Windows Server 2008 and Windows Vista
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certcli.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -90,7 +91,7 @@ Returns the CA certificate for the Certificate Services server.</p> (Inherited f
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451652">GetCertificate</a>
+<a href="https://msdn.microsoft.com/ba8fc725-c376-4e66-8417-777ce13f2954">GetCertificate</a>
 </td>
 <td align="left" width="63%">
 Returns the certificate issued for the request.</p> (Inherited from <a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">ICertRequest2</a><b>ICertRequest</b><a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">CCertRequest</a>)</td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -91,6 +92,16 @@ The directory can be a local directory on the VSS machine, or it can be a file s
 UNC paths are supported.
 
 
+#### - wszFilespec [in]
+
+Null-terminated wide character string containing the file specification of the files to be mapped. 
+
+
+
+
+A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
+
+
 #### - wszPath [in]
 
 Null-terminated wide character string containing the name of the directory or directory hierarchy containing the files to be mapped. 
@@ -103,16 +114,6 @@ The directory can be a local directory on the VSS machine, or it can be a file s
 The path can contain environment variables (for example, %SystemRoot%) but cannot contain wildcard characters.
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
-
-
-#### - wszFilespec [in]
-
-Null-terminated wide character string containing the file specification of the files to be mapped. 
-
-
-
-
-A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
 
 ## -returns

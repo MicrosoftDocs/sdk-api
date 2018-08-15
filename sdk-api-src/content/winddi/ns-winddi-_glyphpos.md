@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,12 +67,12 @@ Handle to the glyph.
 
 ### -field pgdf
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566822">GLYPHDEF</a> union.
+Pointer to a <a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a> union.
 
 
 ### -field ptl
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that contains the coordinates of the point in device space where the character origin of the glyph should be placed.
+Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that contains the coordinates of the point in device space where the character origin of the glyph should be placed.
 
 
 ## -remarks
@@ -88,23 +89,23 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56916
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566822">GLYPHDEF</a>
+<a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a>
+<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569739">STROBJ_bEnum</a>
+<a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569745">STROBJ_vEnumStart</a>
+<a href="https://msdn.microsoft.com/568af273-2b9d-4782-849f-6cb9c49952e0">STROBJ_vEnumStart</a>
  
 
  

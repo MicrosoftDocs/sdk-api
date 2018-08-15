@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -87,7 +88,7 @@ Pointer to the
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 If the function fails, the return value is one of the error codes defined in Raserror.h or Winerror.h. 
-<a href="_win32_getlasterror">GetLastError</a> does not provide extended error information.
+<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a> does not provide extended error information.
 
 
 

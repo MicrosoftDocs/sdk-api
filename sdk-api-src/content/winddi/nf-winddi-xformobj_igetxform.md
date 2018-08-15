@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>XFORMOBJ_iGetXform</b> function downloads a transform to the driver.
 
 ### -param pxo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a> structure that defines the transform to be downloaded to the driver.
+Pointer to the <a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a> structure that defines the transform to be downloaded to the driver.
 
 
 ### -param pxform
 
-Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570616">XFORML</a> structure. This parameter can be <b>NULL</b>.
+Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/5abfd19b-c946-45df-ae3b-b872ef706dd5">XFORML</a> structure. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -135,15 +136,15 @@ Off-diagonal matrix elements are zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570616">XFORML</a>
+<a href="https://msdn.microsoft.com/5abfd19b-c946-45df-ae3b-b872ef706dd5">XFORML</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a>
+<a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570623">XFORMOBJ_bApplyXform</a>
+<a href="https://msdn.microsoft.com/a9267d2a-96ab-4518-8045-428ab74bd599">XFORMOBJ_bApplyXform</a>
  
 
  

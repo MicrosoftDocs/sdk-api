@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -165,7 +166,7 @@ The value of <i>pszCategory</i> or <i>pszSubCategory</i> is unknown.
 
 If <i>pIFunctionDiscoveryNotification</i> is specified, it enables the Function Discovery change notification process. This parameter can be <b>NULL</b>. However, it is required for network providers since they do not return synchronous results. Function Discovery network providers only return instances through the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.
 
-This method only initializes the query call. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a> method of the <a href="https://msdn.microsoft.com/ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0">IFunctionInstanceCollectionQuery</a> interface returned in <i>ppIFunctionInstanceCollectionQuery</i> must be called to perform the query and return any data.
+This method only initializes the query call. The <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a> method of the <a href="https://msdn.microsoft.com/ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0">IFunctionInstanceCollectionQuery</a> interface returned in <i>ppIFunctionInstanceCollectionQuery</i> must be called to perform the query and return any data.
 
 
 

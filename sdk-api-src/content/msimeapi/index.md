@@ -2,7 +2,7 @@
 UID: NA:msimeapi
 ms.assetid: 8f3e9996-899e-3fbe-a5d9-3bd0d2e55869
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

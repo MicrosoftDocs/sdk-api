@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -130,6 +131,11 @@ The fax server logs most events. (This level does not include some informational
 The fax server logs all events.
 
 
+##### - Category.FAXLOG_CATEGORY_INBOUND
+
+An incoming fax transmission event such as receiving a fax or routing a fax.
+
+
 ##### - Category.FAXLOG_CATEGORY_INIT
 
 A fax service initialization or termination event.
@@ -140,24 +146,14 @@ A fax service initialization or termination event.
 An outgoing fax transmission event such as sending a fax.
 
 
-##### - Category.FAXLOG_CATEGORY_INBOUND
-
-An incoming fax transmission event such as receiving a fax or routing a fax.
-
-
 ##### - Category.FAXLOG_CATEGORY_UNKNOWN
 
 An unknown event.
 
 
-##### - Level.FAXLOG_LEVEL_NONE
+##### - Level.FAXLOG_LEVEL_MAX
 
-The fax server does not log events.
-
-
-##### - Level.FAXLOG_LEVEL_MIN
-
-The fax server logs only the most severe failure events.
+The fax server logs all events.
 
 
 ##### - Level.FAXLOG_LEVEL_MED
@@ -165,9 +161,14 @@ The fax server logs only the most severe failure events.
 The fax server logs most events. (This level does not include some informational and warning events.) 
 
 
-##### - Level.FAXLOG_LEVEL_MAX
+##### - Level.FAXLOG_LEVEL_MIN
 
-The fax server logs all events.
+The fax server logs only the most severe failure events.
+
+
+##### - Level.FAXLOG_LEVEL_NONE
+
+The fax server does not log events.
 
 
 ## -remarks

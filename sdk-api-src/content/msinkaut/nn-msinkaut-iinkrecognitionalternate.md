@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -85,7 +86,7 @@ Retrieves a collection of alternates, which are a division of the alternate on w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451321">GetPropertyValue</a>
+<a href="https://msdn.microsoft.com/b2ebf45a-b995-4fbc-b86d-b94d1f48f659">GetPropertyValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a specified property of the alternate. Use this to obtain property values for <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">recogition properties</a> that have no corresponding helper property, such as the <a href="https://msdn.microsoft.com/4a27163b-e55a-4ced-8943-9a8ac161794c">Confidence</a> and <a href="https://msdn.microsoft.com/dd5578e7-7361-4e42-a503-2914f90a801f">LineNumber</a> properties.

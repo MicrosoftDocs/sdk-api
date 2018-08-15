@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -88,12 +89,12 @@ A custom property must have one of the following data types specified by the <a 
 
 
 <ul>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Bool</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Double</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Element</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Int</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Point</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_String</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Bool</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Double</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Element</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Int</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_Point</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ee684080(v=VS.85).aspx">UIAutomationType_String</a></li>
 </ul>
 
 

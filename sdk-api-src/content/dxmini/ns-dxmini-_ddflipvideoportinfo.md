@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The DDFLIPVIDEOPORTINFO structure contains the <a href="https://msdn.microsoft.c
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550395">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
+Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
 
 
 ### -field lpCurrentSurface
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a> structure that contains information about the current surface. 
+Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that contains information about the current surface. 
 
 
 ### -field lpTargetSurface
@@ -112,11 +113,11 @@ Flip the normal video surface.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550395">DDVIDEOPORTDATA</a>
+<a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a>
 
 
 

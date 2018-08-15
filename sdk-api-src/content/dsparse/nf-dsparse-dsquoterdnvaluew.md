@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -95,14 +96,14 @@ Indicates that the number of characters in the string do not match <i>psQuotedRd
 The string that receives the converted, and perhaps quoted, RDN value.
 
 
-##### - pcQuotedRdnValueLength.ERROR_SUCCESS
-
-Indicates that the correct number of characters were found in <i>psQuotedRdnValue</i>.
-
-
 ##### - pcQuotedRdnValueLength.ERROR_BUFFER_OVERFLOW
 
 Indicates that the number of characters in the string do not match <i>psQuotedRdnValue</i>.
+
+
+##### - pcQuotedRdnValueLength.ERROR_SUCCESS
+
+Indicates that the correct number of characters were found in <i>psQuotedRdnValue</i>.
 
 
 ## -returns

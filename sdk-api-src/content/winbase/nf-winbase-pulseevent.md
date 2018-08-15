@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -127,7 +128,7 @@ Use extreme caution when using  <a href="https://msdn.microsoft.com/2b1ce22b-8ed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>
+<a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>
 
 
 

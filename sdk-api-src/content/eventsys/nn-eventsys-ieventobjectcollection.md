@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEventObjectCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/ca08e56a-2ade-4209-a61a-b9dae021e888">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an event object to the collection.
@@ -81,7 +82,7 @@ Adds an event object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/5092b1e1-bbf2-493c-92be-41196b43d4f2">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an event object from the collection.
@@ -99,7 +100,7 @@ Removes an event object from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/bdf2bcb0-42c2-4904-b36b-73ee27f4c188">_NewEnum</a>
 
 
 </td>
@@ -115,7 +116,7 @@ An enumerator for the objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/eb4558e3-60bb-4fcb-b998-b812e76bd8d0">Count</a>
 
 
 </td>
@@ -131,7 +132,7 @@ The number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/6d037759-3b13-4f4d-b27d-a3a20be0f0aa">Item</a>
 
 
 </td>
@@ -147,7 +148,7 @@ An item in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
+<a href="https://msdn.microsoft.com/5e4e0749-bf23-4174-af80-0b708dbaf432">NewEnum</a>
 
 
 </td>

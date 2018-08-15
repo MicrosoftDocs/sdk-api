@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -101,7 +102,7 @@ Retrieves a value indicating whether items are to be deleted from the device aft
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/9ed9183b-c1a2-4251-bb65-bd947c2034ad">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the photo acquire flags.
@@ -182,7 +183,7 @@ Sets a value indicating whether acquired items are to be deleted from the device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/aebe06d8-c764-4d2d-9bd2-58fd9e3714bd">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the photo acquire flags.

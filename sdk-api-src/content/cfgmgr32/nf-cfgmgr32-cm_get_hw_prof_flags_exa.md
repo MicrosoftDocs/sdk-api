@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -111,7 +112,7 @@ Reserved for internal use. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-A machine handle that is returned by call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a> or <b>NULL</b>. If this parameter is set to <b>NULL</b>, <b>CM_Get_HW_Prof_Flags_Ex</b> retrieves the configuration flags on the local machine.
+A machine handle that is returned by call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a> or <b>NULL</b>. If this parameter is set to <b>NULL</b>, <b>CM_Get_HW_Prof_Flags_Ex</b> retrieves the configuration flags on the local machine.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -129,7 +130,7 @@ If the operation succeeds, <b>CM_Get_HW_Prof_Flags</b> returns CR_SUCCESS. Other
 
 
 
-To retrieve a list of the hardware profile IDs that are currently defined on a remote machine, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552006">SetupDiGetHwProfileListEx</a>.
+To retrieve a list of the hardware profile IDs that are currently defined on a remote machine, call <a href="https://msdn.microsoft.com/add700ee-48aa-47dd-8b55-6338dea05bfb">SetupDiGetHwProfileListEx</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -141,15 +142,15 @@ To retrieve a list of the hardware profile IDs that are currently defined on a r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538569">CM_Get_HW_Prof_Flags</a>
+<a href="https://msdn.microsoft.com/672a0e4e-f025-4aeb-a865-2a6d6fc1162d">CM_Get_HW_Prof_Flags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551989">SetupDiGetHwProfileFriendlyNameEx</a>
+<a href="https://msdn.microsoft.com/839c1e4c-cfa6-4f59-979c-24623a040d5c">SetupDiGetHwProfileFriendlyNameEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552006">SetupDiGetHwProfileListEx</a>
+<a href="https://msdn.microsoft.com/add700ee-48aa-47dd-8b55-6338dea05bfb">SetupDiGetHwProfileListEx</a>
  
 
  

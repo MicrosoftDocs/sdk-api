@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -404,7 +405,7 @@ Sets the contents of the ServiceName property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt270124">Action</a>
+<a href="https://msdn.microsoft.com/95c30965-7394-42d8-9e9b-2adb4e5e2986">Action</a>
 
 
 </td>
@@ -428,7 +429,7 @@ Accesses the ApplicationName property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/47e5a5ff-d8a7-46e6-aa42-b9e7d544954b">Description</a>
 
 
 </td>
@@ -440,7 +441,7 @@ Accesses the Description property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547596">Direction</a>
+<a href="https://msdn.microsoft.com/4462c39a-27b8-497b-8393-ed63c7e4cc9b">Direction</a>
 
 
 </td>
@@ -464,7 +465,7 @@ Accesses the EdgeTraversal property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/42533aca-3273-46fa-a9a1-add7f9fde351">Enabled</a>
 
 
 </td>
@@ -500,7 +501,7 @@ Accesses the IcmpTypesAndCodes property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/f04ac143-bbb7-4676-936e-4282ebf58f56">Interfaces</a>
 
 
 </td>
@@ -548,7 +549,7 @@ Accesses the LocalPorts property of this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/669ea684-5b00-4b60-8259-fad02cca572b">Name</a>
 
 
 </td>
@@ -560,7 +561,7 @@ Accesses the Name property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764032">Profiles</a>
+<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">Profiles</a>
 
 
 </td>
@@ -572,7 +573,7 @@ Accesses the Profiles property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915742">Protocol</a>
+<a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">Protocol</a>
 
 
 </td>
@@ -608,7 +609,7 @@ Accesses the RemotePorts property for this rule.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn973169">ServiceName</a>
+<a href="https://msdn.microsoft.com/52bcc317-b900-44b6-8ab4-637ffbd74729">ServiceName</a>
 
 
 </td>
@@ -642,14 +643,14 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/669ea684-5b00-4b60-8259-fad02cca572b">Name</a>
 </td>
 <td>Clear text string.</td>
 <td>Required. The string must not contain a "|" and it must not be "all".</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/47e5a5ff-d8a7-46e6-aa42-b9e7d544954b">Description</a>
 </td>
 <td>Clear text string.</td>
 <td>Optional. The string must not contain a "|".</td>
@@ -663,7 +664,7 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/42533aca-3273-46fa-a9a1-add7f9fde351">Enabled</a>
 </td>
 <td>Boolean (<b>VARIANT_BOOLEAN</b>).</td>
 <td>Optional.  Defaults to false (<b>VARIANT_FALSE</b>) if nothing is specified.</td>
@@ -677,7 +678,7 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn973169">ServiceName</a>
+<a href="https://msdn.microsoft.com/52bcc317-b900-44b6-8ab4-637ffbd74729">ServiceName</a>
 </td>
 <td>Clear text string.</td>
 <td>Optional.</td>
@@ -712,7 +713,7 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915742">Protocol</a>
+<a href="https://msdn.microsoft.com/16f61a1d-770a-4be9-a43d-10ff9fe276fb">Protocol</a>
 </td>
 <td>Number.</td>
 <td>Optional.</td>
@@ -726,7 +727,7 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/f04ac143-bbb7-4676-936e-4282ebf58f56">Interfaces</a>
 </td>
 <td>Array of strings containing the friendly names of interfaces.</td>
 <td>Optional.</td>
@@ -740,14 +741,14 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547596">Direction</a>
+<a href="https://msdn.microsoft.com/4462c39a-27b8-497b-8393-ed63c7e4cc9b">Direction</a>
 </td>
 <td>Enumeration.</td>
 <td>Optional.  </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt270124">Action</a>
+<a href="https://msdn.microsoft.com/95c30965-7394-42d8-9e9b-2adb4e5e2986">Action</a>
 </td>
 <td>Enumeration.</td>
 <td>Optional.</td>
@@ -761,7 +762,7 @@ Properties are used to create firewall rules.  Many of the properties can be use
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764032">Profiles</a>
+<a href="https://msdn.microsoft.com/98e40140-1df2-439a-9c83-a50f82f65e24">Profiles</a>
 </td>
 <td>Enumeration.</td>
 <td>Optional.</td>

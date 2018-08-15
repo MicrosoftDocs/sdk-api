@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -89,7 +90,7 @@ Used to indicate that an error has occurred with the  source buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926909">OnUpdate</a>
+<a href="https://msdn.microsoft.com/3c41f50f-7f0b-4676-9522-3866aedab047">OnUpdate</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer is updating.

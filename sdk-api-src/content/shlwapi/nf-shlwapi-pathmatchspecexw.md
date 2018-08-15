@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -103,9 +104,9 @@ The <i>pszSpec</i> parameter points to a semicolon-delimited list of file name p
 If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
 
 
-##### - dwFlags.PMSF_NORMAL (0x00000000)
+##### - dwFlags.PMSF_DONT_STRIP_SPACES (0x00010000)
 
-The <i>pszSpec</i> parameter points to a single file name pattern to be matched.
+If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
 
 
 ##### - dwFlags.PMSF_MULTIPLE (0x00000001)
@@ -113,9 +114,9 @@ The <i>pszSpec</i> parameter points to a single file name pattern to be matched.
 The <i>pszSpec</i> parameter points to a semicolon-delimited list of file name patterns to be matched.
 
 
-##### - dwFlags.PMSF_DONT_STRIP_SPACES (0x00010000)
+##### - dwFlags.PMSF_NORMAL (0x00000000)
 
-If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
+The <i>pszSpec</i> parameter points to a single file name pattern to be matched.
 
 
 ## -returns

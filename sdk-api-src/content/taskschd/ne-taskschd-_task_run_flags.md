@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,7 +67,7 @@ The task is run with all flags ignored.
 
 ### -field TASK_RUN_AS_SELF
 
-The task is run as the user who is calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a> method.
+The task is run as the user who is calling the <a href="https://msdn.microsoft.com/6b237ddd-e4e8-47f7-97e7-360e79841acc">Run</a> method.
 
 
 ### -field TASK_RUN_IGNORE_CONSTRAINTS

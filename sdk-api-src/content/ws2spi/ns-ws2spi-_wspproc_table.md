@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -64,7 +65,7 @@ The
 
 Type: <b>LPWSPACCEPT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566266">WSPAccept</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/d73aa3a8-cef5-485d-b2ba-b2fe42ab6200">WSPAccept</a> function.
 
 
 ### -field lpWSPAddressToString
@@ -85,7 +86,7 @@ A pointer to the <a href="https://msdn.microsoft.com/a96e0c2f-8bd0-4fcf-b7bd-67b
 
 Type: <b>LPWSPBIND</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566268">WSPBind</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/0fe5a66a-1126-494c-b4da-8041841685c6">WSPBind</a> function. 
 
 
 ### -field lpWSPCancelBlockingCall
@@ -99,49 +100,49 @@ A pointer to the <a href="https://msdn.microsoft.com/9219c733-43af-414b-8a38-78d
 
 Type: <b>LPWSPCLEANUP</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/401a8c78-48f5-4f80-9708-6d75877fe738">WSPCleanup</a> function. 
 
 
 ### -field lpWSPCloseSocket
 
 Type: <b>LPWSPCLOSESOCKET</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566273">WSPCloseSocket</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/0190f561-68fa-45d8-9702-3caae58bf0cc">WSPCloseSocket</a> function. 
 
 
 ### -field lpWSPConnect
 
 Type: <b>LPWSPCONNECT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a> function. 
 
 
 ### -field lpWSPDuplicateSocket
 
 Type: <b>LPWSPDUPLICATESOCKET</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/6d9cf472-357e-4226-b53e-09083b42ed13">WSPDuplicateSocket</a> function. 
 
 
 ### -field lpWSPEnumNetworkEvents
 
 Type: <b>LPWSPENUMNETWORKEVENTS</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566284">WSPEnumNetworkEvents</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/65f7a93b-3596-4318-a90c-79889ffabdeb">WSPEnumNetworkEvents</a> function. 
 
 
 ### -field lpWSPEventSelect
 
 Type: <b>LPWSPEVENTSELECT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566287">WSPEventSelect</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/e23e0370-5776-4544-b845-c578c5a514bd">WSPEventSelect</a> function. 
 
 
 ### -field lpWSPGetOverlappedResult
 
 Type: <b>LPWSPGETOVERLAPPEDRESULT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566288">WSPGetOverlappedResult</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/8156b8ab-00f8-4325-9b81-3e43053f4f56">WSPGetOverlappedResult</a> function. 
 
 
 ### -field lpWSPGetPeerName
@@ -162,21 +163,21 @@ A pointer to the <a href="https://msdn.microsoft.com/8e5ff6dc-f24f-4418-8de8-356
 
 Type: <b>LPWSPGETSOCKOPT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566292">WSPGetSockOpt</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/ec63c7a5-2cee-4bdf-ab24-a91d2ea9eb5e">WSPGetSockOpt</a> function. 
 
 
 ### -field lpWSPGetQOSByName
 
 Type: <b>LPWSPGETQOSBYNAME</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566290">WSPGetQOSByName</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/2e218a9b-6db5-4c5a-94e1-207886c401a5">WSPGetQOSByName</a> function. 
 
 
 ### -field lpWSPIoctl
 
 Type: <b>LPWSPIOCTL</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a> function. 
 
 
 ### -field lpWSPJoinLeaf
@@ -190,14 +191,14 @@ A pointer to the <a href="https://msdn.microsoft.com/3b0451e2-0e4c-4da7-b16c-37c
 
 Type: <b>LPWSPLISTEN</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566297">WSPListen</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/43d588dd-7aa2-405b-8f9d-b167bbbc6574">WSPListen</a> function. 
 
 
 ### -field lpWSPRecv
 
 Type: <b>LPWSPRECV</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a> function. 
 
 
 ### -field lpWSPRecvDisconnect
@@ -225,7 +226,7 @@ A pointer to the <a href="https://msdn.microsoft.com/a8f2922d-2474-406d-b1c7-631
 
 Type: <b>LPWSPSEND</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a> function. 
 
 
 ### -field lpWSPSendDisconnect
@@ -246,7 +247,7 @@ A pointer to the <a href="https://msdn.microsoft.com/9e788289-6545-4e5e-9d00-f28
 
 Type: <b>LPWSPSETSOCKOPT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566318">WSPSetSockOpt</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/2b440208-ca10-424a-8f18-3241b4e0184c">WSPSetSockOpt</a> function. 
 
 
 ### -field lpWSPShutdown
@@ -260,7 +261,7 @@ A pointer to the <a href="https://msdn.microsoft.com/b2de40a5-6978-43a6-aa1c-35c
 
 Type: <b>LPWSPSOCKET</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a> function. 
+A pointer to the <a href="https://msdn.microsoft.com/16735fd1-289d-425a-8ad2-c20d73888b1b">WSPSocket</a> function. 
 
 
 ### -field lpWSPStringToAddress
@@ -285,7 +286,7 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566266">WSPAccept</a>
+<a href="https://msdn.microsoft.com/d73aa3a8-cef5-485d-b2ba-b2fe42ab6200">WSPAccept</a>
 
 
 
@@ -297,7 +298,7 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566268">WSPBind</a>
+<a href="https://msdn.microsoft.com/0fe5a66a-1126-494c-b4da-8041841685c6">WSPBind</a>
 
 
 
@@ -305,27 +306,27 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566270">WSPCleanup</a>
+<a href="https://msdn.microsoft.com/401a8c78-48f5-4f80-9708-6d75877fe738">WSPCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566273">WSPCloseSocket</a>
+<a href="https://msdn.microsoft.com/0190f561-68fa-45d8-9702-3caae58bf0cc">WSPCloseSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a>
+<a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a>
+<a href="https://msdn.microsoft.com/6d9cf472-357e-4226-b53e-09083b42ed13">WSPDuplicateSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566284">WSPEnumNetworkEvents</a>
+<a href="https://msdn.microsoft.com/65f7a93b-3596-4318-a90c-79889ffabdeb">WSPEnumNetworkEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566288">WSPGetOverlappedResult</a>
+<a href="https://msdn.microsoft.com/8156b8ab-00f8-4325-9b81-3e43053f4f56">WSPGetOverlappedResult</a>
 
 
 
@@ -333,7 +334,7 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566290">WSPGetQOSByName</a>
+<a href="https://msdn.microsoft.com/2e218a9b-6db5-4c5a-94e1-207886c401a5">WSPGetQOSByName</a>
 
 
 
@@ -341,11 +342,11 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566292">WSPGetSockOpt</a>
+<a href="https://msdn.microsoft.com/ec63c7a5-2cee-4bdf-ab24-a91d2ea9eb5e">WSPGetSockOpt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a>
+<a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a>
 
 
 
@@ -353,11 +354,11 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566297">WSPListen</a>
+<a href="https://msdn.microsoft.com/43d588dd-7aa2-405b-8f9d-b167bbbc6574">WSPListen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>
 
 
 
@@ -369,7 +370,7 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>
 
 
 
@@ -381,7 +382,7 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566318">WSPSetSockOpt</a>
+<a href="https://msdn.microsoft.com/2b440208-ca10-424a-8f18-3241b4e0184c">WSPSetSockOpt</a>
 
 
 
@@ -389,7 +390,7 @@ A pointer to the <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>
+<a href="https://msdn.microsoft.com/16735fd1-289d-425a-8ad2-c20d73888b1b">WSPSocket</a>
 
 
 

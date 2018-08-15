@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -127,7 +128,7 @@ The reader object calls the <b>AcquireCredentials</b> method on the application 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427474">Authentication</a>
+<a href="https://msdn.microsoft.com/9c181615-e864-4588-846f-d04d73824f5f">Authentication</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IMILBitmapEffects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/76a155a6-5c14-4e32-bd18-542124703f6f">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves a new enumeration.
@@ -80,7 +81,7 @@ Retrieves a new enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/f5af3c62-2cf0-4fcb-80b8-3d88ef0b9023">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the enumeration.
@@ -89,7 +90,7 @@ Retrieves the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/ed31dd61-2320-4fcb-83ba-c0ec3bf78f9a">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effect at the given index.

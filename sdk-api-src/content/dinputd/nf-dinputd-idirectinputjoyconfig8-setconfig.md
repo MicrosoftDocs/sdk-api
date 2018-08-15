@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,19 +66,9 @@ The <b>IDirectInputJoyConfig8::SetConfig </b>method creates or redefines configu
 
 
 
-#### - idJoy
-
-Indicates a zero-based joystick identification number. 
-
-
-#### - pcfg
-
-Contains information about the joystick. 
-
-
 #### - dwFlags
 
-Specifies the parts of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538504">DIJOYCONFIG</a> structure pointed to by <i>pcfg</i> that contain information to be set. There may be zero, one, or more of the following: 
+Specifies the parts of the <a href="https://msdn.microsoft.com/2b17432f-fa5e-4ce3-9814-c24a45a49343">DIJOYCONFIG</a> structure pointed to by <i>pcfg</i> that contain information to be set. There may be zero, one, or more of the following: 
 
 
 
@@ -100,6 +91,16 @@ Indicates that the force-feedback gain for the joystick is valid.
 Indicates that the joystick polling callout is valid. 
 
 
+#### - idJoy
+
+Indicates a zero-based joystick identification number. 
+
+
+#### - pcfg
+
+Contains information about the joystick. 
+
+
 ## -returns
 
 
@@ -118,7 +119,7 @@ Returns DI_OK if successful; otherwise, returns one of the following COM error v
 </dl>
 </td>
 <td width="60%">
-Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540978">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
+Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/1df2eb92-9c55-4371-84c7-a4fb879efb7e">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
 
 </td>
 </tr>

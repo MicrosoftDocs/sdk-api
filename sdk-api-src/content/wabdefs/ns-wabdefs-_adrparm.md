@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -134,23 +135,23 @@ Not supported. Must be set to <b>NULL</b>.
 
 Type: <b>LPFNABSDI</b>
 
-Pointer to a WAB function based on the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> prototype (see MAPI documentation), or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
+Pointer to a WAB function based on the <a href="https://msdn.microsoft.com/library/ms530449(v=EXCHG.10).aspx">ACCELERATEABSDI</a> prototype (see MAPI documentation), or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
 
-Clients building an <b>ADRPARM</b> structure to pass to <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> must always set the <b>lpfnABSDI</b> member to <b>NULL</b>. If the <b>DIALOG_SDI</b> flag is set, WAB then sets it to a valid function before returning. Clients call this function from within their message loop to ensure that accelerators in the address book dialog box work. When the dialog box is dismissed and WAB calls the function to which the <b>lpfnDismiss</b> member points, clients should unhook the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> function from their message loop.
+Clients building an <b>ADRPARM</b> structure to pass to <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> must always set the <b>lpfnABSDI</b> member to <b>NULL</b>. If the <b>DIALOG_SDI</b> flag is set, WAB then sets it to a valid function before returning. Clients call this function from within their message loop to ensure that accelerators in the address book dialog box work. When the dialog box is dismissed and WAB calls the function to which the <b>lpfnDismiss</b> member points, clients should unhook the <a href="https://msdn.microsoft.com/library/ms530449(v=EXCHG.10).aspx">ACCELERATEABSDI</a> function from their message loop.
 
 
 ### -field lpfnDismiss
 
 Type: <b>LPFNDISMISS</b>
 
-Pointer to a function based on the <a href="c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> (see MAPI documentation) prototype, or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set. WAB calls the DISMISSMODELESS function when the user dismisses the modeless address dialog box, informing a client calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> that the dialog box is no longer active.
+Pointer to a function based on the <a href="https://msdn.microsoft.com/library/ms530495(v=EXCHG.10).aspx">DISMISSMODELESS</a> (see MAPI documentation) prototype, or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set. WAB calls the DISMISSMODELESS function when the user dismisses the modeless address dialog box, informing a client calling <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> that the dialog box is no longer active.
 
 
 ### -field lpvDismissContext
 
 Type: <b>LPVOID</b>
 
-Pointer to the context information to be passed to the <a href="c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> function to which the <b>lpfnDismiss</b> member points. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
+Pointer to the context information to be passed to the <a href="https://msdn.microsoft.com/library/ms530495(v=EXCHG.10).aspx">DISMISSMODELESS</a> function to which the <b>lpfnDismiss</b> member points. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
 
 
 ### -field lpszCaption
@@ -192,14 +193,14 @@ Variable of type <b>ULONG</b> that specifies the field in the address book dialo
 
 Type: <b>LPTSTR*</b>
 
-Pointer to an array of variables of type <b>LPTSTR</b> that specify the text titles to be displayed in the recipient-name edit boxes of the address book dialog box. The size of the array is the value of <b>cDestFields</b>. If the <b>lppszDestTitles</b> member is <b>NULL</b>, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> method chooses default titles.
+Pointer to an array of variables of type <b>LPTSTR</b> that specify the text titles to be displayed in the recipient-name edit boxes of the address book dialog box. The size of the array is the value of <b>cDestFields</b>. If the <b>lppszDestTitles</b> member is <b>NULL</b>, the <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> method chooses default titles.
 
 
 ### -field lpulDestComps
 
 Type: <b>ULONG*</b>
 
-Pointer to an array of variables of type <b>ULONG</b> that specify the recipient types—such as MAPI_TO, MAPI_CC, and MAPI_BCC—associated with each recipient-name edit box. The size of the array is the value of <b>cDestFields</b>. If the <b>lpulDestComps</b> member is <b>NULL</b>, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> method chooses default recipient types.
+Pointer to an array of variables of type <b>ULONG</b> that specify the recipient types—such as MAPI_TO, MAPI_CC, and MAPI_BCC—associated with each recipient-name edit box. The size of the array is the value of <b>cDestFields</b>. If the <b>lpulDestComps</b> member is <b>NULL</b>, the <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> method chooses default recipient types.
 
 
 ### -field lpContRestriction

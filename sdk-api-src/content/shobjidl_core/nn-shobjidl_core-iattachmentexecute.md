@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -89,7 +90,7 @@ Removes any stored state that is based on the client's GUID. An example might be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://msdn.microsoft.com/80cbbb6c-c6f1-4937-9c1e-4de57aee748c">Execute</a>
 </td>
 <td align="left" width="63%">
 Executes an action on an attachment.
@@ -107,7 +108,7 @@ Presents a prompt UI to the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/25661942-f38b-42d6-981b-4a3f4d083f6c">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the attachment.

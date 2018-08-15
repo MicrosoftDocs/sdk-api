@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsgetdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -150,9 +151,9 @@ Contains the security identifier of the domain represented by this structure.
 Contains the GUID of the domain represented by this structure.
 
 
-##### - Flags.DS_DOMAIN_IN_FOREST (1 (0x1))
+##### - Flags.DS_DOMAIN_DIRECT_INBOUND (32 (0x20))
 
-The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
 
 
 ##### - Flags.DS_DOMAIN_DIRECT_OUTBOUND (2 (0x2))
@@ -160,14 +161,9 @@ The domain represented by this structure is a member of the same forest as the s
 The domain represented by this structure is directly trusted by the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
 
 
-##### - Flags.DS_DOMAIN_TREE_ROOT (4 (0x4))
+##### - Flags.DS_DOMAIN_IN_FOREST (1 (0x1))
 
-The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
-
-
-##### - Flags.DS_DOMAIN_PRIMARY (8 (0x8))
-
-The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+The domain represented by this structure is a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
 
 
 ##### - Flags.DS_DOMAIN_NATIVE_MODE (16 (0x10))
@@ -175,9 +171,14 @@ The domain represented by this structure is the primary domain of the server spe
 The domain represented by this structure is running in the Windows 2000 native mode.
 
 
-##### - Flags.DS_DOMAIN_DIRECT_INBOUND (32 (0x20))
+##### - Flags.DS_DOMAIN_PRIMARY (8 (0x8))
 
-The domain represented by this structure directly trusts the domain that the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function is a member of.
+The domain represented by this structure is the primary domain of the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
+
+
+##### - Flags.DS_DOMAIN_TREE_ROOT (4 (0x4))
+
+The domain represented by this structure is the root of a tree and a member of the same forest as the server specified in the <i>ServerName</i> parameter of the <a href="https://msdn.microsoft.com/6c3b788f-ee53-4637-acdb-04316e8464fe">DsEnumerateDomainTrusts</a> function.
 
 
 ## -see-also

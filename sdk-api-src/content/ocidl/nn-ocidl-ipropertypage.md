@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -109,7 +110,7 @@ Retrieves information about the property page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926862">Help</a>
+<a href="https://msdn.microsoft.com/ba715518-1aa0-42de-bad7-f2d0d0f00460">Help</a>
 </td>
 <td align="left" width="63%">
 Invokes the property page help in response to an end-user request.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
+Call the <a href="https://msdn.microsoft.com/898da01b-94e6-4a07-9c53-f93378fbda8c">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
 
 
 

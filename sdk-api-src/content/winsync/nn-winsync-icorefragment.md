@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -110,7 +111,7 @@ Returns the next range that is contained in this knowledge fragment, and the clo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/b39e9dee-7437-4480-9050-33bc68b41b00">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets both the column and range enumerators to the beginning of their respective sets.

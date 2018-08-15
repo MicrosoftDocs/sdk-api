@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,11 +65,6 @@ The <b>FNFCIREAD</b> macro provides the declaration for the application-defined 
 An application-defined value used to identify the open file.
 
 
-#### - memory
-
-Pointer to the buffer that receives the data read from a file.
-
-
 #### - cb
 
 The maximum number of bytes to read.
@@ -77,6 +73,11 @@ The maximum number of bytes to read.
 #### - err
 
 Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+
+
+#### - memory
+
+Pointer to the buffer that receives the data read from a file.
 
 
 #### - pv

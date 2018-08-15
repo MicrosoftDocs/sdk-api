@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>FWPS_DISCARD_METADATA0</b> structure describes the data that was discarde
 ### -field discardModule
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551236">FWPS_DISCARD_MODULE0</a> type that indicates
+     <a href="https://msdn.microsoft.com/d9237268-a5e1-4b1c-91f7-9e894876ca87">FWPS_DISCARD_MODULE0</a> type that indicates
      the type of module that discarded the data.
 
 
@@ -71,7 +72,7 @@ An
 
 A UINT32 value that specifies why the data was discarded. For a description of the discard reason
      identifiers for each type of module, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546441">Discard Reason Identifiers</a>.
+     <a href="netvista.discard_reason_identifiers">Discard Reason Identifiers</a>.
 
 
 ### -field filterId
@@ -87,8 +88,8 @@ A UINT64 value that specifies the run-time identifier for the filter in the filt
 The FWPS_DISCARD_METADATA0 structure contains valid data only if the
     FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
     <b>currentMetadataValues</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+    <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
+    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function.
 
 
 
@@ -98,15 +99,15 @@ The FWPS_DISCARD_METADATA0 structure contains valid data only if the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551236">FWPS_DISCARD_MODULE0</a>
+<a href="https://msdn.microsoft.com/d9237268-a5e1-4b1c-91f7-9e894876ca87">FWPS_DISCARD_MODULE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a>
  
 
  

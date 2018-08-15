@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdSetExclusiveMode</i> callback function notifies the driver when a Direc
 
 #### - lpSetExclusiveMode
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551702">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
+Points to a <a href="https://msdn.microsoft.com/b2f5af15-c773-4741-a8dc-71d2b89776a7">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
 
 
 ## -returns
@@ -97,7 +98,7 @@ DirectDraw applications can go full screen and take total control of the primary
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551702">DD_SETEXCLUSIVEMODEDATA</a>
+<a href="https://msdn.microsoft.com/b2f5af15-c773-4741-a8dc-71d2b89776a7">DD_SETEXCLUSIVEMODEDATA</a>
  
 
  

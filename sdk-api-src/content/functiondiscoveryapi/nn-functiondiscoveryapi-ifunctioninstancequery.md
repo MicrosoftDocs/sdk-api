@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IFunctionInstanceQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Execute</a>
 </td>
 <td align="left" width="63%">
 Performs the query defined by <a href="https://msdn.microsoft.com/80e70972-ced1-416e-aa4f-69c54b2cbf95">CreateInstanceQuery</a>.
@@ -87,7 +88,7 @@ Performs the query defined by <a href="https://msdn.microsoft.com/80e70972-ced1-
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a> method must be invoked by the client program before any data can be retrieved from the query object.
+The <a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Execute</a> method must be invoked by the client program before any data can be retrieved from the query object.
 
 
 

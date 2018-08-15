@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -89,11 +90,11 @@ Acquires the credentials of the user, to verify that the user has permission to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427474">Authentication</a>
+<a href="https://msdn.microsoft.com/9c181615-e864-4588-846f-d04d73824f5f">Authentication</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

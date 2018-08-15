@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmcobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -54,7 +55,7 @@ req.product: GDI+ 1.1
 
 The 
 <b>SaveAs</b> method is identical to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method, except a filename is specified.
+<a href="https://msdn.microsoft.com/571941f1-bfd0-4b26-83e7-f9ab897280e7">Save</a> method, except a filename is specified.
 
 
 ## -parameters

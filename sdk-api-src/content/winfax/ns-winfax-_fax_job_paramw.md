@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -204,26 +205,6 @@ Type: <b>DWORD_PTR[3]</b>
 This member is reserved for future use by Microsoft. It must be set to zero. 
 
 
-##### - ScheduleAction.JSA_NOW
-
-Send the fax as soon as a device is available. 
-
-
-##### - ScheduleAction.JSA_SPECIFIC_TIME
-
-Send the fax at the time specified by the <b>ScheduleTime</b> member. 
-
-
-##### - ScheduleAction.JSA_DISCOUNT_PERIOD
-
-Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
-
-
-##### - DeliveryReportType.DRT_NONE
-
-Do not send a DR or an NDR to the sender of the fax transmission. 
-
-
 ##### - DeliveryReportType.DRT_EMAIL
 
 Send the DR or NDR in an email message to the sender of the fax transmission (supported in Windows Server 2003 and later). 
@@ -232,6 +213,26 @@ Send the DR or NDR in an email message to the sender of the fax transmission (su
 ##### - DeliveryReportType.DRT_INBOX
 
 Send the DR or NDR in email to the sender's local personal information store. 
+
+
+##### - DeliveryReportType.DRT_NONE
+
+Do not send a DR or an NDR to the sender of the fax transmission. 
+
+
+##### - ScheduleAction.JSA_DISCOUNT_PERIOD
+
+Send the fax during the discount rate period. Call the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function to retrieve the discount period for the fax server. 
+
+
+##### - ScheduleAction.JSA_NOW
+
+Send the fax as soon as a device is available. 
+
+
+##### - ScheduleAction.JSA_SPECIFIC_TIME
+
+Send the fax at the time specified by the <b>ScheduleTime</b> member. 
 
 
 ## -remarks

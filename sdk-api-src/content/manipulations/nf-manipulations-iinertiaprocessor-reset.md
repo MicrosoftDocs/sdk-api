@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -74,7 +75,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-If you have changed properties on an object currently being manipulated by inertia, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a> before calling <b>Reset</b>.
+If you have changed properties on an object currently being manipulated by inertia, call <a href="https://msdn.microsoft.com/ff41789c-afc5-419b-9767-e99572b9b41e">Complete</a> before calling <b>Reset</b>.
 	 
 
 
@@ -111,7 +112,7 @@ If you have changed properties on an object currently being manipulated by inert
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a>
+<a href="https://msdn.microsoft.com/ff41789c-afc5-419b-9767-e99572b9b41e">Complete</a>
 
 
 

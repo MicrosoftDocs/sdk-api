@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -154,7 +155,7 @@ Gets model-specific metadata for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/d29212c8-2f29-41cc-ae35-8376ec5f0b7a">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.

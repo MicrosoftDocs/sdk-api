@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: baseaudioprocessingobject.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 

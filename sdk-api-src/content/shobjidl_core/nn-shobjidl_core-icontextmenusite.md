@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -89,7 +90,7 @@ Creates and displays a shortcut menu, tracks the selection of items on that menu
 
 The IID for this interface is <b>IID_IContextMenuSite</b>.
 
-To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
+To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

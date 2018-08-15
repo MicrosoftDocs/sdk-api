@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -60,7 +61,7 @@ The DMA_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field DMA_Header
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544758">DMA_DES</a> structure.
+A <a href="https://msdn.microsoft.com/e357132d-ba40-4c14-813c-505aadc94a26">DMA_DES</a> structure.
 
 
 ### -field DMA_Data
@@ -77,7 +78,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544762">DMA_RANGE</a> array.
+A <a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_RANGE</a> array.
 
 
 ## -see-also
@@ -85,11 +86,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544762">DMA_RAN
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544758">DMA_DES</a>
+<a href="https://msdn.microsoft.com/e357132d-ba40-4c14-813c-505aadc94a26">DMA_DES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544762">DMA_RANGE</a>
+<a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_RANGE</a>
  
 
  

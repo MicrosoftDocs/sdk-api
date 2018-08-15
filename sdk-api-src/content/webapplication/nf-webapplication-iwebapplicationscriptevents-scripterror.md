@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -61,14 +62,14 @@ Fired when an unhandled script error occurs.
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa741505(v=VS.85).aspx">IHTMLWindow2</a>*</b>
 
 The window or frame in which the script error occurred.
 
 
 ### -param scriptError [in]
 
-Type: <b><a href="c8e0288d-38ff-4145-a7e3-f8cdfb72eefe">IActiveScriptError</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/b17d71fw(v=VS.85).aspx">IActiveScriptError</a>*</b>
 
 The object that contains info about the script error that occurred.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -81,14 +82,14 @@ Contains a <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a
 
 
 
-#### - SignalStrength
-
-Contains the signal quality received by the device as defined by <a href="https://msdn.microsoft.com/9a580232-4cd2-42f4-a6c7-f777d78241b6">GetSignalStrength</a>.
-
-
 #### - SignalError
 
 Contains the signal error rate as defined by <a href="https://msdn.microsoft.com/028adb54-9c81-4a5b-85f7-5c12ce8d84e4">GetSignalError</a>.
+
+
+#### - SignalStrength
+
+Contains the signal quality received by the device as defined by <a href="https://msdn.microsoft.com/9a580232-4cd2-42f4-a6c7-f777d78241b6">GetSignalStrength</a>.
 
 
 ## -see-also

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ This property is read-only.
 
 A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
-The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
+The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="https://msdn.microsoft.com/2e08d581-cb6d-43fa-b84f-413406ad0faf">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
 
 The <b>get_RecipientNumber</b> method sets the <i>pVal</i> parameter to the fax number of the fax recipient, if it is available. If the information is not available, the method returns "Unavailable".
 
@@ -81,7 +82,7 @@ The <b>get_RecipientNumber</b> method allocates the memory required for the buff
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">Csid</a>
+<a href="https://msdn.microsoft.com/2e08d581-cb6d-43fa-b84f-413406ad0faf">Csid</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -100,7 +101,7 @@ The categories or tags assigned to the event. Each keyword categorizes the event
 
 The <b>Id</b> member is the event identifier. The structure members <b>Id</b> and <b>Version</b> can be used together to identify all events for a specific provider. When the <b>Id</b> and <b>Version</b> are used in conjunction with the manifest, you can precisely identify the structure and metadata of the event.
 
-The pointer to the EVENT_DESCRIPTOR is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545590">EtwEventEnabled</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545642">EtwWriteTransfer</a> functions. The most convenient method of populating the EVENT_DESCRIPTOR structure is to use the <b>EventDescCreate</b> macro. This macro is declared in Evntprov.h and its use is documented in the Microsoft Windows SDK. 
+The pointer to the EVENT_DESCRIPTOR is passed to the <a href="https://msdn.microsoft.com/19aa5905-f611-46e2-8d70-a6cc4649c911">EtwEventEnabled</a>, <a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a>, and <a href="https://msdn.microsoft.com/72a1c2f4-5f20-4c00-baf5-3d48fe27f48d">EtwWriteTransfer</a> functions. The most convenient method of populating the EVENT_DESCRIPTOR structure is to use the <b>EventDescCreate</b> macro. This macro is declared in Evntprov.h and its use is documented in the Microsoft Windows SDK. 
 
 The following is a list of the convenience macros that you can use to create the event descriptors and to extract and set fields in the structure. For information on these macros, see <a href="http://go.microsoft.com/fwlink/p/?linkid=70405">Event Tracing Macros</a>.
 
@@ -194,11 +195,11 @@ The following is a list of the convenience macros that you can use to create the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a>
+<a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545673">Event Data Descriptor</a>
+<a href="https://msdn.microsoft.com/eb2b7ab6-52da-4d16-b315-6adab3131a05">Event Data Descriptor</a>
 
 
 

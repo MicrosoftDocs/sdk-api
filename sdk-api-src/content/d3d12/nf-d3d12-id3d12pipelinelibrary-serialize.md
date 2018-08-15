@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ Specifies a pointer to the data. This memory must be readable and writeable up t
 
 Type: <b>SIZE_T</b>
 
-The size provided must be at least the size returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff597646">GetSerializedSize</a>. 
+The size provided must be at least the size returned from <a href="https://msdn.microsoft.com/45DA092B-AB9B-43BE-8F5C-AE05485EA3C1">GetSerializedSize</a>. 
 
 
 ## -returns

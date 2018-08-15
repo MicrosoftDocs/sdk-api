@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -116,14 +117,14 @@ A pointer to a <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c2
 0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
 
 
-##### - dwMessage.NIM_MODIFY (0x00000001)
-
-0x00000001. Modifies an icon in the status area. <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
-
-
 ##### - dwMessage.NIM_DELETE (0x00000002)
 
 0x00000002. Deletes an icon from the status area. <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
+
+
+##### - dwMessage.NIM_MODIFY (0x00000001)
+
+0x00000001. Modifies an icon in the status area. <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
 
 
 ##### - dwMessage.NIM_SETFOCUS (0x00000003)

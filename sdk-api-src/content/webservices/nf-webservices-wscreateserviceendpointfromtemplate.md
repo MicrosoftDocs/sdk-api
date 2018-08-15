@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -102,7 +103,7 @@ A <a href="https://msdn.microsoft.com/0fa127ea-a715-4f21-8b49-3c2705c2bf5d">WS_S
 
 ### -param heap [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> from which memory for the  service endpoint is allocated on successful return.
+The <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a> from which memory for the  service endpoint is allocated on successful return.
         
 
 

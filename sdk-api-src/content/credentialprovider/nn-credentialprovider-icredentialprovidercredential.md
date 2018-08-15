@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -142,7 +143,7 @@ Called in response to an attempt to submit this credential to the underlying aut
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597621">GetStringValue</a>
+<a href="https://msdn.microsoft.com/b891c735-9822-4bc1-a1cc-0c50b35c03c4">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Enables retrieval of text from a credential with a text field.
@@ -206,7 +207,7 @@ Called when a credential is selected. Enables the implementer to set logon chara
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597639">SetStringValue</a>
+<a href="https://msdn.microsoft.com/ea2007b9-fff1-4cd2-8656-61ec050a8e96">SetStringValue</a>
 </td>
 <td align="left" width="63%">
 Enables a Logon UI or Credential UI to update the text for a <b>CPFT_EDIT_TEXT</b> fields as the user types in them.

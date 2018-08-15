@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -64,14 +65,14 @@ A container for callback function pointers that handle logging and error message
 A client-specific context that is passed to all of the callbacks. This is used to correlate the callback to the associated operation.
 
 
-#### - writeMessage
-
-The CIM extension callback for receiving logging from the session creation. All parameters are valid only for the lifetime of the callback.
-
-
 #### - writeError
 
 The CIM extension callback for errors. The session version of this function is informative only. The session will fail to create and will  return an error. All parameters are valid only for the lifetime of the callback.
+
+
+#### - writeMessage
+
+The CIM extension callback for receiving logging from the session creation. All parameters are valid only for the lifetime of the callback.
 
 
 ## -remarks

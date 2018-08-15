@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DDSKIPNEXTFIELDINFO structure contains the skip information for the <a href=
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550395">DDVIDEOPORTDATA</a> structure that represents the VPE object. 
+Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a> structure that represents the VPE object. 
 
 
 ### -field dwSkipFlags
@@ -102,7 +103,7 @@ The next field should be skipped.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550395">DDVIDEOPORTDATA</a>
+<a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvNotify</b> function allows a display driver to be notified about certa
 
 ### -param pso
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
+Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
 
 
 ### -param iType
@@ -111,7 +112,7 @@ A display driver can optionally implement <b>DrvNotify</b>. GDI will call <b>Drv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564986">EngQueryDeviceAttribute</a>
+<a href="https://msdn.microsoft.com/767d0d78-c17f-461b-8ca6-04a00dc456de">EngQueryDeviceAttribute</a>
  
 
  

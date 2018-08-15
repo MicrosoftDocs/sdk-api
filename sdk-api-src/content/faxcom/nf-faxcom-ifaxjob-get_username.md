@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -96,7 +97,7 @@ You can use the <b>UserName</b> property to retrieve the name of the person who 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764038">SenderName</a>
+<a href="https://msdn.microsoft.com/c0fc5c5a-8451-4c5b-9b11-b3dcb45e5f80">SenderName</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows UI
 ## -description
 
 
-Takes an array of advance widths for a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">run</a> and generates an array of adjusted advance glyph widths.
+Takes an array of advance widths for a <a href="uniscribe_glossary.htm">run</a> and generates an array of adjusted advance glyph widths.
 
 
 ## -parameters

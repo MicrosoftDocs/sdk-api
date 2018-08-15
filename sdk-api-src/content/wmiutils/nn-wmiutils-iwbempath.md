@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmiutils.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -104,7 +105,7 @@ Retrieves the class name from the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://msdn.microsoft.com/64f91184-668c-49ec-b8f9-aeeb7227ea6b">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Returns details about a path that has been placed into a parser object.
@@ -141,7 +142,7 @@ Returns the number of namespaces in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+<a href="https://msdn.microsoft.com/9601fb2b-583d-4481-8237-32db72432c63">GetScope</a>
 </td>
 <td align="left" width="63%">
 Retrieves a scope based upon an index.
@@ -177,7 +178,7 @@ Returns the server portion of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/427ff33a-3b46-481e-bf46-57b13d19332e">GetText</a>
 </td>
 <td align="left" width="63%">
 Returns a textual representation of a path that has previously been placed into a parser object.
@@ -276,7 +277,7 @@ Sets a namespace's value in the path based upon an index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+<a href="https://msdn.microsoft.com/0b4597ec-0d08-4929-9591-21588ded66bb">SetScope</a>
 </td>
 <td align="left" width="63%">
 Sets a scope in the path based upon an index.

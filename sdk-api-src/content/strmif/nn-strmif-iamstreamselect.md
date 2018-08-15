@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,7 +76,7 @@ The <b>IAMStreamSelect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/5104ce98-5b13-409a-9226-0c089ee8bb1e">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available streams.
@@ -84,7 +85,7 @@ Retrieves the number of available streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a given stream.

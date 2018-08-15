@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>. 
+An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>. 
 
 
 ### -field Scope
@@ -79,19 +80,19 @@ The hardware profile ID for profile-specific changes. Zero specifies the current
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543728">DIF_UNREMOVE</a>
+<a href="https://msdn.microsoft.com/01e39f77-3ee8-44c4-ba1a-19d4356b26ce">DIF_UNREMOVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>
+<a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552193">SetupDiUnremoveDevice</a>
+<a href="https://msdn.microsoft.com/1bffe874-d4ba-4efa-ab71-098a3c96092f">SetupDiUnremoveDevice</a>
  
 
  

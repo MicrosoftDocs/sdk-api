@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -148,14 +149,9 @@ Type: <b>BOOL</b>
 <b>TRUE</b> to specify that <b>SHInvokePrinterCommand</b> should not return until the command is completed; <b>FALSE</b> if the function should return as soon as the command is initialized.
 
 
-##### - uAction.PRINTACTION_OPEN (0)
+##### - uAction.PRINTACTION_DOCUMENTDEFAULTS (6)
 
-0x0. Open the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored. 
-
-
-##### - uAction.PRINTACTION_PROPERTIES (1)
-
-0x1. Display the property pages for the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter can be <b>NULL</b> or can name a specific property sheet to display, either by name or number. If the high <b>WORD</b> of <i>lpBuf2</i> is nonzero, it is assumed that this parameter is a pointer to a buffer that contains the name of the sheet to open. Otherwise, <i>lpBuf2</i> is seen as the zero-based index of the property sheet to open.
+0x6. Display the default document properties for the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored. 
 
 
 ##### - uAction.PRINTACTION_NETINSTALL (2)
@@ -168,9 +164,9 @@ Type: <b>BOOL</b>
 0x3. Create a shortcut to the network printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter specifies the drive and path of the folder in which to create the shortcut. The network printer must already have been installed on the local computer.
 
 
-##### - uAction.PRINTACTION_TESTPAGE (4)
+##### - uAction.PRINTACTION_OPEN (0)
 
-0x4. Print a test page on the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored.
+0x0. Open the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored. 
 
 
 ##### - uAction.PRINTACTION_OPENNETPRN (5)
@@ -178,14 +174,19 @@ Type: <b>BOOL</b>
 0x5. Open the network printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored.
 
 
-##### - uAction.PRINTACTION_DOCUMENTDEFAULTS (6)
+##### - uAction.PRINTACTION_PROPERTIES (1)
 
-0x6. Display the default document properties for the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored. 
+0x1. Display the property pages for the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter can be <b>NULL</b> or can name a specific property sheet to display, either by name or number. If the high <b>WORD</b> of <i>lpBuf2</i> is nonzero, it is assumed that this parameter is a pointer to a buffer that contains the name of the sheet to open. Otherwise, <i>lpBuf2</i> is seen as the zero-based index of the property sheet to open.
 
 
 ##### - uAction.PRINTACTION_SERVERPROPERTIES (7)
 
 0x7. Display the properties for the printer server specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored.
+
+
+##### - uAction.PRINTACTION_TESTPAGE (4)
+
+0x4. Print a test page on the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -499,34 +500,14 @@ A null-terminated string that contains the path of the working directory of  the
 A null-terminated string that contains the name of  the program to start immediately after the user logs on to the server.
 
 
-##### - fEnableListener.0
+##### - BrokenTimeoutSettings.0
 
-The listener is disabled.
-
-
-##### - fEnableListener.1
-
-The listener is enabled.
+When a connection or idle timer expires, or when a connection is lost due to a connection error, the user is disconnected but the session remains on the server.
 
 
-##### - fPromptForPassword.0
+##### - BrokenTimeoutSettings.1
 
-Prompt the user for a password only when specified by the server.
-
-
-##### - fPromptForPassword.1
-
-Always prompt the user for a password.
-
-
-##### - fInheritColorDepth.0
-
-Use the color depth specified by the server.
-
-
-##### - fInheritColorDepth.1
-
-Use the color depth specified by the user.
+When a connection or idle timer expires, or when a connection is lost due to a connection error, the session is terminated.
 
 
 ##### - ColorDepth.1
@@ -554,114 +535,39 @@ Use the color depth specified by the user.
 32 bit
 
 
-##### - fInheritBrokenTimeoutSettings.0
+##### - MinEncryptionLevel.1
 
-Use the <b>BrokenTimeoutSettings</b> value specified by server.
+Data sent from  the client to  the server is encrypted by using 56-bit encryption. Data sent from  the server to the client is not encrypted.
 
 
-##### - fInheritBrokenTimeoutSettings.1
+##### - MinEncryptionLevel.2
 
-Use the <b>BrokenTimeoutSettings</b> value specified by the user.
+All data sent from the client to the server and from the server to the client is encrypted by using the maximum key strength supported by the client.
 
 
-##### - BrokenTimeoutSettings.0
+##### - MinEncryptionLevel.3
 
-When a connection or idle timer expires, or when a connection is lost due to a connection error, the user is disconnected but the session remains on the server.
+All data sent from the client to the server and from the server to the client is encrypted by using 128-bit encryption. Clients that do not support this level of encryption cannot connect.
 
 
-##### - BrokenTimeoutSettings.1
+##### - MinEncryptionLevel.4
 
-When a connection or idle timer expires, or when a connection is lost due to a connection error, the session is terminated.
+All data sent from the client to the server and from the server to the client is encrypted and decrypted by using the Federal Information Processing Standards (FIPS) encryption algorithms and Microsoft cryptographic modules.
 
 
-##### - fDisablePrinterRedirection.0
+##### - SecurityLayer.0
 
-The user can enable printer redirection.
+Remote Desktop Protocol (RDP) is used by the server and the client for authentication before a connection is established.
 
 
-##### - fDisablePrinterRedirection.1
+##### - SecurityLayer.1
 
-Printer redirection is disabled.
+The server and the client negotiate the method for authentication before a connection is established.
 
 
-##### - fDisableDriveRedirection.0
+##### - SecurityLayer.2
 
-The user can enable drive redirection.
-
-
-##### - fDisableDriveRedirection.1
-
-Drive redirection is disabled.
-
-
-##### - fDisableComPortRedirection.0
-
-The user can enable COM port redirection.
-
-
-##### - fDisableComPortRedirection.1
-
-COM port redirection is disabled.
-
-
-##### - fDisableLPTPortRedirection.0
-
-The user can enable LPT port redirection.
-
-
-##### - fDisableLPTPortRedirection.1
-
-LPT port redirection is disabled.
-
-
-##### - fDisableClipboardRedirection.0
-
-The user can enable clipboard redirection.
-
-
-##### - fDisableClipboardRedirection.1
-
-Clipboard redirection is disabled.
-
-
-##### - fDisableAudioRedirection.0
-
-The user can enable audio redirection.
-
-
-##### - fDisableAudioRedirection.1
-
-Audio redirection is disabled.
-
-
-##### - fDisablePNPRedirection.0
-
-The user can enable Plug and Play redirection.
-
-
-##### - fDisablePNPRedirection.1
-
-Plug and Play redirection is disabled.
-
-
-##### - fDisableDefaultMainClientPrinter.0
-
-The client printer is not the default printer.
-
-
-##### - fDisableDefaultMainClientPrinter.1
-
-The client printer is the default printer.
-
-
-##### - fInheritShadowSettings.0
-
-Use the setting specified by the server.
-
-
-##### - fInheritShadowSettings.1
-
-Use the setting specified by the user.
+Transport Layer Security (TLS) protocol is used by the server and the client for authentication before a connection is established.
 
 
 ##### - ShadowSettings.0
@@ -689,41 +595,6 @@ The user of remote control can view the session remotely, with the user's permis
 The user of remote control can view the session remotely but not actively control the session; the user's permission is not required.
 
 
-##### - SecurityLayer.0
-
-Remote Desktop Protocol (RDP) is used by the server and the client for authentication before a connection is established.
-
-
-##### - SecurityLayer.1
-
-The server and the client negotiate the method for authentication before a connection is established.
-
-
-##### - SecurityLayer.2
-
-Transport Layer Security (TLS) protocol is used by the server and the client for authentication before a connection is established.
-
-
-##### - MinEncryptionLevel.1
-
-Data sent from  the client to  the server is encrypted by using 56-bit encryption. Data sent from  the server to the client is not encrypted.
-
-
-##### - MinEncryptionLevel.2
-
-All data sent from the client to the server and from the server to the client is encrypted by using the maximum key strength supported by the client.
-
-
-##### - MinEncryptionLevel.3
-
-All data sent from the client to the server and from the server to the client is encrypted by using 128-bit encryption. Clients that do not support this level of encryption cannot connect.
-
-
-##### - MinEncryptionLevel.4
-
-All data sent from the client to the server and from the server to the client is encrypted and decrypted by using the Federal Information Processing Standards (FIPS) encryption algorithms and Microsoft cryptographic modules.
-
-
 ##### - UserAuthentication.0
 
 Network-level user authentication is not required.
@@ -732,6 +603,136 @@ Network-level user authentication is not required.
 ##### - UserAuthentication.1
 
 Network-level user authentication is required.
+
+
+##### - fDisableAudioRedirection.0
+
+The user can enable audio redirection.
+
+
+##### - fDisableAudioRedirection.1
+
+Audio redirection is disabled.
+
+
+##### - fDisableClipboardRedirection.0
+
+The user can enable clipboard redirection.
+
+
+##### - fDisableClipboardRedirection.1
+
+Clipboard redirection is disabled.
+
+
+##### - fDisableComPortRedirection.0
+
+The user can enable COM port redirection.
+
+
+##### - fDisableComPortRedirection.1
+
+COM port redirection is disabled.
+
+
+##### - fDisableDefaultMainClientPrinter.0
+
+The client printer is not the default printer.
+
+
+##### - fDisableDefaultMainClientPrinter.1
+
+The client printer is the default printer.
+
+
+##### - fDisableDriveRedirection.0
+
+The user can enable drive redirection.
+
+
+##### - fDisableDriveRedirection.1
+
+Drive redirection is disabled.
+
+
+##### - fDisableLPTPortRedirection.0
+
+The user can enable LPT port redirection.
+
+
+##### - fDisableLPTPortRedirection.1
+
+LPT port redirection is disabled.
+
+
+##### - fDisablePNPRedirection.0
+
+The user can enable Plug and Play redirection.
+
+
+##### - fDisablePNPRedirection.1
+
+Plug and Play redirection is disabled.
+
+
+##### - fDisablePrinterRedirection.0
+
+The user can enable printer redirection.
+
+
+##### - fDisablePrinterRedirection.1
+
+Printer redirection is disabled.
+
+
+##### - fEnableListener.0
+
+The listener is disabled.
+
+
+##### - fEnableListener.1
+
+The listener is enabled.
+
+
+##### - fInheritBrokenTimeoutSettings.0
+
+Use the <b>BrokenTimeoutSettings</b> value specified by server.
+
+
+##### - fInheritBrokenTimeoutSettings.1
+
+Use the <b>BrokenTimeoutSettings</b> value specified by the user.
+
+
+##### - fInheritColorDepth.0
+
+Use the color depth specified by the server.
+
+
+##### - fInheritColorDepth.1
+
+Use the color depth specified by the user.
+
+
+##### - fInheritShadowSettings.0
+
+Use the setting specified by the server.
+
+
+##### - fInheritShadowSettings.1
+
+Use the setting specified by the user.
+
+
+##### - fPromptForPassword.0
+
+Prompt the user for a password only when specified by the server.
+
+
+##### - fPromptForPassword.1
+
+Always prompt the user for a password.
 
 
 ## -see-also

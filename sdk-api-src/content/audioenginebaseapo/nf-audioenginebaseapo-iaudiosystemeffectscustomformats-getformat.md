@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql: All levels.
 ## -description
 
 
-The <code>GetFormat</code> method retrieves an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536496">IAudioMediaType</a> representation of a custom format.
+The <code>GetFormat</code> method retrieves an <a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a> representation of a custom format.
 
 
 ## -parameters
@@ -122,7 +123,7 @@ nFormat is out of range
 
 
 
-When the audio system calls the <code>GetFormat</code> method, the sAPO creates an audio media type object and returns an <b>IAudioMediaType</b> interface. The sAPO implementation can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536237">CreateAudioMediaType</a> utility function to create the audio media type object.
+When the audio system calls the <code>GetFormat</code> method, the sAPO creates an audio media type object and returns an <b>IAudioMediaType</b> interface. The sAPO implementation can use the <a href="https://msdn.microsoft.com/02f7b1e6-338a-4bea-9a22-21496a045be6">CreateAudioMediaType</a> utility function to create the audio media type object.
 
 
 
@@ -132,7 +133,7 @@ When the audio system calls the <code>GetFormat</code> method, the sAPO creates 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536237">CreateAudioMediaType</a>
+<a href="https://msdn.microsoft.com/02f7b1e6-338a-4bea-9a22-21496a045be6">CreateAudioMediaType</a>
 
 
 
@@ -140,7 +141,7 @@ When the audio system calls the <code>GetFormat</code> method, the sAPO creates 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536496">IAudioMediaType</a>
+<a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a>
  
 
  

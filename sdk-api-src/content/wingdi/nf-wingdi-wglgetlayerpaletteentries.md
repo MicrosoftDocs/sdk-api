@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -68,6 +69,13 @@ TBD
 
 
 
+#### - cEntries
+
+Type: <b>int</b>
+
+The number of palette entries to be retrieved.
+
+
 #### - iLayerPlane
 
 Type: <b>int</b>
@@ -80,13 +88,6 @@ The overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify ov
 Type: <b>int</b>
 
 The first palette entry to be retrieved.
-
-
-#### - cEntries
-
-Type: <b>int</b>
-
-The number of palette entries to be retrieved.
 
 
 #### - pcr

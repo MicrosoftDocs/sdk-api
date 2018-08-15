@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -61,7 +62,7 @@ Fired when the document being navigated to reaches ReadyState_Complete.
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa741505(v=VS.85).aspx">IHTMLWindow2</a>*</b>
 
 The window or frame in which the document is loaded.
 

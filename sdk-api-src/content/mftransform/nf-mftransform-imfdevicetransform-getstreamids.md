@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -86,16 +87,16 @@ The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and ou
 The number of elements in <i>pdwInputStreamIDs</i>
 
 
+#### - dwOutputStreamIDArraySize [out]
+
+The number of elements in <i>pdwOutputStreamIDs</i>.
+
+
 #### - pdwInputStreamIDs [out]
 
  A pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://msdn.microsoft.com/6FD4B393-05E6-4400-B1A3-D69B7F1B90F0">IMFDeviceTransform::GetStreamCount</a>. 
 
 If the caller passes an array that is larger than the number of input streams, the MFT must not write values into the extra array entries.
-
-
-#### - dwOutputStreamIDArraySize [out]
-
-The number of elements in <i>pdwOutputStreamIDs</i>.
 
 
 #### - pdwOutputStreamIDs

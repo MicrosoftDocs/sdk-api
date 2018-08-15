@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -426,7 +427,7 @@ Gets or sets the value that specifies whether ink is rendered as it is drawn.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/ab55a399-1990-4cfc-a4ab-834a5db8d7a9">Enabled</a>
 
 
 </td>
@@ -574,7 +575,7 @@ Gets or sets a value that specifies whether ink is rendered as just one color wh
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915113">Tablet</a>
+<a href="https://msdn.microsoft.com/170c3b43-6472-465b-bb09-22ba1a68c6e0">Tablet</a>
 
 
 </td>

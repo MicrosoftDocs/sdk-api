@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ The <b>IPortableDevicePropertiesBulkCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926906">OnEnd</a>
+<a href="https://msdn.microsoft.com/a3e56415-fe75-4d54-8448-6ca7793147fd">OnEnd</a>
 </td>
 <td align="left" width="63%">
 Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> is completed.

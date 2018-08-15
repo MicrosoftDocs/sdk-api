@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxcollision.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -113,14 +114,14 @@ Retrieves the corners of the BoundingBox.
 Tests the BoundingBox for intersection with another object.
 
 
-#### - op_Assignment
-
-Copies values from another BoundingBox.
-
-
 #### - Transform
 
 Transforms the BoundingBox.
+
+
+#### - op_Assignment
+
+Copies values from another BoundingBox.
 
 
 ## -remarks

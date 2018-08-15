@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ The
 ### -param lpThreadId [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure that identifies the thread context. A pointer to this structure is supplied to the service provider by the Ws2_32.dll as an input parameter to an overlapped operation. The provider should store the 
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that identifies the thread context. A pointer to this structure is supplied to the service provider by the Ws2_32.dll as an input parameter to an overlapped operation. The provider should store the 
 <b>WSATHREADID</b> structure locally and provide a pointer to this local store. The local copy of 
 <b>WSATHREADID</b> is no longer needed once 
 <b>WPUQueueApc</b> returns.
@@ -156,15 +157,15 @@ For service providers where a user-mode component implements overlapped I/O, a t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a>
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a>
+<a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>
 
 
 
@@ -172,7 +173,7 @@ For service providers where a user-mode component implements overlapped I/O, a t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>
 
 
 

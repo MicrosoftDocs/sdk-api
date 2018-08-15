@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumSearchRoots</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/8b978b1c-04eb-4df9-b522-c18ff5a216b4">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the <b>IEnumSearchRoots</b> object with the same contents and state as the current one.
@@ -80,7 +81,7 @@ Creates a copy of the <b>IEnumSearchRoots</b> object with the same contents and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
@@ -90,7 +91,7 @@ Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/libr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/7066e86e-4cdc-4285-b0b2-529e63237c08">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
@@ -100,7 +101,7 @@ Moves the internal counter to the beginning of the list so a subsequent call to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/d5ba2d2a-6ef3-4942-bdf1-2abf611e0fa2">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of elements.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -130,7 +131,7 @@ The string that is used for  the <i>criteria</i> parameter must match the custom
 
 Note that <b>QueryHistory</b> supports per-machine updates only.
 
-For a complete description of search criteria syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt219145">Search</a>. 
+For a complete description of search criteria syntax, see <a href="https://msdn.microsoft.com/0511cfd0-f4de-41ab-af35-32d757217386">Search</a>. 
 
 The following table identifies all the public support criteria, in the order of evaluation precedence. More criteria may be added to this list in the future.
 

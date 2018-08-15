@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -316,7 +317,7 @@ Gets the font weight for the characters in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/9c567d78-a915-4b44-bf52-61e72101c08b">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this text font object has the same properties as the specified text font object.
@@ -325,7 +326,7 @@ Determines whether this text font object has the same properties as the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the character formatting to the specified values.
@@ -487,7 +488,7 @@ Sets whether characters are displayed as shadowed characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/268900f8-d7a7-41e3-adb1-32bf2af5d5db">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the font size.
@@ -598,7 +599,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">Se
 
 The <b>ITextFont</b> attribute interface represents the traditional Microsoft Visual Basic for Applications (VBA) way of setting properties and it gives the desired VBA notation.
 
-<b>ITextFont</b> uses the "tomBool" type for rich-text attributes that have binary states. For more information, see <a href="About_Text_Object_Model.htm">The tomBool Type</a>.
+<b>ITextFont</b> uses the "tomBool" type for rich-text attributes that have binary states. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">The tomBool Type</a>.
 
 The rich edit control is able to accept and return all <b>ITextFont</b> properties intact, that is, without modification, both through TOM and through its Rich Text Format (RTF) converters. However, it cannot display the All Caps, Animation, Embossed, Imprint, Shadow, Small Caps, Hidden, Kerning, Outline, and Style font properties.
 

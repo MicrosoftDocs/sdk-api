@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ A handle to a window that specifies the parent window to be used for any user in
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="https://msdn.microsoft.com/en-us/library/Bb774829(v=VS.85).aspx">EnableModeless</a> method.
 
 
 ### -param pszPath [in]
@@ -131,9 +132,9 @@ Not currently implemented.
 <b>Windows XP or later.</b> Suppresses the "not accessible" error message box, which displays when a failure other than a user cancellation occurs, and <i>hwnd</i> is not <b>NULL</b>.
 
 
-##### - dwFlags.SHPPFW_NONE
+##### - dwFlags.SHPPFW_ASKDIRCREATE
 
-Do not create new directories.
+Prompt the user before creating directories. Do not pass with <b>SHPPFW_DIRCREATE</b>.
 
 
 ##### - dwFlags.SHPPFW_DEFAULT
@@ -146,24 +147,24 @@ Default. Do not prompt the user if a directory needs to be created. This is iden
 Create directories without prompting the user. Do not pass with <b>SHPPFW_ASKDIRCREATE</b>.
 
 
-##### - dwFlags.SHPPFW_ASKDIRCREATE
-
-Prompt the user before creating directories. Do not pass with <b>SHPPFW_DIRCREATE</b>.
-
-
 ##### - dwFlags.SHPPFW_IGNOREFILENAME
 
 Last item in <i>pszPath</i> is a file name, so ignore. For example, if <i>pszPath</i>="C:\MyDir\MyFile.doc", only use "C:\MyDir". If <i>pszPath</i>="C:\MyFirDir\MySecDir", only use "C:\MyFirDir".
 
 
-##### - dwFlags.SHPPFW_NOWRITECHECK
-
-Not currently implemented.
-
-
 ##### - dwFlags.SHPPFW_MEDIACHECKONLY
 
 <b>Windows XP or later.</b> Suppresses the "not accessible" error message box, which displays when a failure other than a user cancellation occurs, and <i>hwnd</i> is not <b>NULL</b>.
+
+
+##### - dwFlags.SHPPFW_NONE
+
+Do not create new directories.
+
+
+##### - dwFlags.SHPPFW_NOWRITECHECK
+
+Not currently implemented.
 
 
 ## -returns

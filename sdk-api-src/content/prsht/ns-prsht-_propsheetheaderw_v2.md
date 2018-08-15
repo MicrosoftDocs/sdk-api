@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -109,13 +110,6 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. Bitmap resource to use as the header. This member can specify either the identifier of the bitmap resource or the address of the string that specifies the name of the bitmap resource. If the <b>dwFlags</b> member includes PSH_USEHBMHEADER, this member is ignored.
-
-
-#### - dwSize
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Size, in bytes, of this structure. The property sheet manager uses this member to determine which version of the <b>PROPSHEETHEADER</b> structure you are using. For more information, see the Remarks.
 
 
 #### - dwFlags
@@ -456,18 +450,11 @@ Always displays the <b>Finish</b> button on the wizard. You must also set either
  
 
 
-#### - hwndParent
+#### - dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Handle to the property sheet's owner window.
-
-
-#### - hInstance
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
-
-Handle to the instance from which to load the icon or title string resource. If the <b>pszIcon</b> or <b>pszCaption</b> member identifies a resource to load, this member must be specified.
+Size, in bytes, of this structure. The property sheet manager uses this member to determine which version of the <b>PROPSHEETHEADER</b> structure you are using. For more information, see the Remarks.
 
 
 #### - hIcon
@@ -477,18 +464,18 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to the icon to use as the small icon in the title bar of the property sheet dialog box. If the <b>dwFlags</b>  member does not include PSH_USEHICON, this member is ignored. This member is declared as a union with <b>pszIcon</b>.
 
 
-#### - pszIcon
+#### - hInstance
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
-Icon resource to use as the small icon in the title bar of the property sheet dialog box. This member can specify either the identifier of the icon resource or the address of the string that specifies the name of the icon resource. If the <b>dwFlags</b> member does not include PSH_USEICONID, this member is ignored. This member is declared as a union with <b>hIcon</b>.
+Handle to the instance from which to load the icon or title string resource. If the <b>pszIcon</b> or <b>pszCaption</b> member identifies a resource to load, this member must be specified.
 
 
-#### - pszCaption
+#### - hwndParent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-Title of the property sheet dialog box. This member can specify either the identifier of a string resource or the address of a string that specifies the title. If the <b>dwFlags</b> member includes PSH_PROPTITLE, the string "Properties for" is inserted at the beginning of the title. This field is ignored for Wizard97 wizards. For Aero wizards, the string alone is used for the caption, regardless of whether the PSH_PROPTITLE flag is set.
+Handle to the property sheet's owner window.
 
 
 #### - nPages
@@ -512,11 +499,12 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Name of the initial page that appears when the property sheet dialog box is created. This member can specify either the identifier of a string resource or the address of a string that specifies the name. This member is declared as a union with <b>nStartPage</b>.
 
 
-#### - ppsp
+#### - pfnCallback
 
-Type: <b>LPCPROPSHEETPAGE</b>
+Type: <b>PFNPROPSHEETCALLBACK</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures that define the pages in the property sheet. If the <b>dwFlags</b> member does not include PSH_PROPSHEETPAGE, this member is ignored. Note that the <b>PROPSHEETPAGE</b> structure is variable in size. Applications that parse the array pointed to by <b>ppsp</b> must take the size of each page into account. This member is declared as a union with <b>phpage</b>.
+Pointer to an application-defined callback function that is called when the property sheet is initialized. For more information about the callback function, see the description of the <a href="https://msdn.microsoft.com/en-us/library/Bb760815(v=VS.85).aspx">PropSheetProc</a> function. If the 
+<b>dwFlags</b> member does not include PSH_USECALLBACK, this member is ignored.
 
 
 #### - phpage
@@ -526,12 +514,25 @@ Type: <b>HPROPSHEETPAGE*</b>
 Pointer to an array of handles to the property sheet pages. Each handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function. If the <b>dwFlags</b> member includes PSH_PROPSHEETPAGE, <b>phpage</b> is ignored and should be set to <b>NULL</b>. When the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function returns, any HPROPSHEETPAGE handles in the <b>phpage</b> array will have been destroyed. This member is declared as a union with <b>ppsp</b>.
 
 
-#### - pfnCallback
+#### - ppsp
 
-Type: <b>PFNPROPSHEETCALLBACK</b>
+Type: <b>LPCPROPSHEETPAGE</b>
 
-Pointer to an application-defined callback function that is called when the property sheet is initialized. For more information about the callback function, see the description of the <a href="https://msdn.microsoft.com/en-us/library/Bb760815(v=VS.85).aspx">PropSheetProc</a> function. If the 
-<b>dwFlags</b> member does not include PSH_USECALLBACK, this member is ignored.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures that define the pages in the property sheet. If the <b>dwFlags</b> member does not include PSH_PROPSHEETPAGE, this member is ignored. Note that the <b>PROPSHEETPAGE</b> structure is variable in size. Applications that parse the array pointed to by <b>ppsp</b> must take the size of each page into account. This member is declared as a union with <b>phpage</b>.
+
+
+#### - pszCaption
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+
+Title of the property sheet dialog box. This member can specify either the identifier of a string resource or the address of a string that specifies the title. If the <b>dwFlags</b> member includes PSH_PROPTITLE, the string "Properties for" is inserted at the beginning of the title. This field is ignored for Wizard97 wizards. For Aero wizards, the string alone is used for the caption, regardless of whether the PSH_PROPTITLE flag is set.
+
+
+#### - pszIcon
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+
+Icon resource to use as the small icon in the title bar of the property sheet dialog box. This member can specify either the identifier of the icon resource or the address of the string that specifies the name of the icon resource. If the <b>dwFlags</b> member does not include PSH_USEICONID, this member is ignored. This member is declared as a union with <b>hIcon</b>.
 
 
 ## -remarks

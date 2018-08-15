@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,7 +76,7 @@ Retrieves the <a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf2-1b7bec
 
 Type: <b>Variant</b>
 
-The zero-based index of the item to retrieve. This value must be less than the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property.
+The zero-based index of the item to retrieve. This value must be less than the value of the <a href="https://msdn.microsoft.com/383382d5-7e3f-4b27-bebf-6b79dbe677b8">Count</a> property.
 
 
 ## -returns

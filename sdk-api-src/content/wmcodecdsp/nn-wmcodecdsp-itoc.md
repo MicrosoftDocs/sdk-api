@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,16 +92,16 @@ Adds an entry list to the table of contents and associates a caller-supplied ind
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/b4c65f1b-7465-4229-8fac-92d6b1be50da">GetContext</a>
 </td>
 <td align="left" width="63%">
-Retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>.
+Retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://msdn.microsoft.com/45aadac5-6c65-4525-a1fc-b045337a6030">SetContext</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/660d4da9-ddbc-466c-ab1a-7e60ecf61473">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description, set by a previous call to <a href="https://msdn.microsoft.com/718eb8bd-fdf9-434d-b859-3a38cb8fabee">SetDescription</a>, of the table of contents.
@@ -109,7 +110,7 @@ Retrieves the description, set by a previous call to <a href="https://msdn.micro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439771">GetDescriptor</a>
+<a href="https://msdn.microsoft.com/4568b50f-a777-4c3d-8c71-66737d24b7cd">GetDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the descriptor, previously set by <a href="https://msdn.microsoft.com/55208226-fd2d-48e5-887b-34e95309a770">SetDescriptor</a>, of the table of contents.
@@ -145,7 +146,7 @@ Removes an entry list, specified by an index, from the table of contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>
+<a href="https://msdn.microsoft.com/45aadac5-6c65-4525-a1fc-b045337a6030">SetContext</a>
 </td>
 <td align="left" width="63%">
 Associates a caller-supplied context block with the table of contents.

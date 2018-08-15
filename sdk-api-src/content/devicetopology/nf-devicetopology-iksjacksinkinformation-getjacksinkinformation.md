@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -60,7 +61,7 @@ The <b>GetJackSinkInformation</b> method retrieves the sink information for the 
 
 ### -param pJackSinkInformation [out]
 
-Pointer to a caller-allocated buffer that receives the sink information of the jack in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537140">KSJACK_SINK_INFORMATION</a> structure. The buffer size must be at least <code>sizeof(KSJACK_SINK_INFORMATION)</code>.
+Pointer to a caller-allocated buffer that receives the sink information of the jack in a <a href="https://msdn.microsoft.com/ee7211d8-a34f-40c9-9925-7bb40792bae9">KSJACK_SINK_INFORMATION</a> structure. The buffer size must be at least <code>sizeof(KSJACK_SINK_INFORMATION)</code>.
 
 
 ## -returns

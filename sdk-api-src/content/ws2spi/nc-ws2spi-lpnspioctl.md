@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -128,7 +129,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5af4b4d1-6dcb-4fc8-a730-53a8c
 ### -param lpThreadId [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure to be used by the provider in a subsequent call to 
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure to be used by the provider in a subsequent call to 
 <a href="https://msdn.microsoft.com/4326547e-85e2-409c-9f36-aa013853dfd9">WPUQueueApc</a>. The provider should store the referenced 
 <b>WSATHREADID</b> structure (not the pointer) until after the 
 <b>WPUQueueApc</b> function returns.
@@ -342,7 +343,7 @@ To cancel an asynchronous notification request, end the original query with a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a>
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a>
  
 
  

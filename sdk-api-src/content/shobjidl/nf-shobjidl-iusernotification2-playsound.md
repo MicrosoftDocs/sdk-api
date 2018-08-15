@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -101,7 +102,7 @@ If the specified sound cannot be found, <b>IUserNotification2::PlaySound</b> use
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965711">PlaySound</a>
+<a href="https://msdn.microsoft.com/3d7533c8-3b52-42dd-bfaa-2305bf3b0b18">PlaySound</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ The class ID for this APO.
 
 ### -field Flags
 
-The flags for this APO. This parameter is an enumerated constant of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn425139">APO_FLAG</a>.
+The flags for this APO. This parameter is an enumerated constant of type <a href="https://msdn.microsoft.com/42134625-A351-4CB6-B83C-3F2E662D1938">APO_FLAG</a>.
 
 
 ### -field szFriendlyName

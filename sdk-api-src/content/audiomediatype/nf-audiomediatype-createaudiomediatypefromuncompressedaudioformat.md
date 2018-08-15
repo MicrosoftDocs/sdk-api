@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql: N/A
 ## -description
 
 
-The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538640">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
+The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://msdn.microsoft.com/b1d35067-7ef3-4c29-8b16-642300485695">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
 
 
 ## -parameters
@@ -65,7 +66,7 @@ Specifies a pointer to an UNCOMPRESSEDAUDIOFORMAT structure.
 
 ### -param ppIAudioMediaType
 
-Specifies a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536496">IAudioMediaType</a> interface.
+Specifies a pointer to an <a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a> interface.
 
 
 ## -returns
@@ -81,7 +82,7 @@ The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function return
 
 
 
-When you implement custom audio system effects, the <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function works with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536516">IAudioSystemEffectsCustomFormats::GetFormat</a> to represent a custom audio data format and to provide information about the custom format.
+When you implement custom audio system effects, the <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function works with <a href="https://msdn.microsoft.com/0eab885f-32f7-47d3-b9b1-684eb3d2cd37">IAudioSystemEffectsCustomFormats::GetFormat</a> to represent a custom audio data format and to provide information about the custom format.
 
 
 
@@ -91,15 +92,15 @@ When you implement custom audio system effects, the <code>CreateAudioMediaTypeFr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536496">IAudioMediaType</a>
+<a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536516">IAudioSystemEffectsCustomFormats::GetFormat</a>
+<a href="https://msdn.microsoft.com/0eab885f-32f7-47d3-b9b1-684eb3d2cd37">IAudioSystemEffectsCustomFormats::GetFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538640">UNCOMPRESSEDAUDIOFORMAT</a>
+<a href="https://msdn.microsoft.com/b1d35067-7ef3-4c29-8b16-642300485695">UNCOMPRESSEDAUDIOFORMAT</a>
  
 
  

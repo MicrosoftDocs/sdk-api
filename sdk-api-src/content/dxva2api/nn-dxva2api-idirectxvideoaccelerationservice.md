@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IDirectXVideoAccelerationService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh998978">CreateSurface</a>
+<a href="https://msdn.microsoft.com/34ed2029-7c79-45ce-962d-df4970babb23">CreateSurface</a>
 </td>
 <td align="left" width="63%">
 Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.

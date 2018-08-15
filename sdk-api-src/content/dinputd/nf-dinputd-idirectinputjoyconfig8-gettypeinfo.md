@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,16 +66,6 @@ The <b>IDirectInputJoyConfig8::GetTypeInfo </b>method obtains information about 
 
 
 
-#### - pwszTypeName
-
-Points to the name of the type, previously obtained from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540987">IDirectInputJoyConfig8::EnumTypes</a>. 
-
-
-#### - pjti
-
-Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538513">DIJOYTYPEINFO</a> structure before calling this method. 
-
-
 #### - dwFlags
 
 Specifies the parts of the DIJOYTYPEINFO structure pointed to by <i>pjti</i> that are to be filled. There may be zero, one, or more of the following: 
@@ -104,6 +95,16 @@ Indicates that the display name for the joystick type is being requested.
 #### DITC_CALLOUT
 
 Indicates that the callout for the joystick type is being requested. 
+
+
+#### - pjti
+
+Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/54f52839-59ed-4edd-8d28-e3504f9900d0">DIJOYTYPEINFO</a> structure before calling this method. 
+
+
+#### - pwszTypeName
+
+Points to the name of the type, previously obtained from a call to <a href="https://msdn.microsoft.com/bacca5a8-2323-46d7-b018-cce2f09bb06d">IDirectInputJoyConfig8::EnumTypes</a>. 
 
 
 ## -returns

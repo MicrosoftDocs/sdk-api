@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -79,7 +80,7 @@ Gets the application user model identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597621">GetStringValue</a>
+<a href="https://msdn.microsoft.com/968EE95D-D1FC-42D7-B533-99062C26B4C3">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a string element in the application metadata section of the manifest.

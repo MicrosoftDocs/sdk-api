@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -93,7 +94,7 @@ Pointer to a value that specifies the number of bytes copied into the buffer poi
 
 
 
-<b>EngGetForm</b> returns <b>TRUE</b> if the form structure is successfully copied into <i>pForm</i>. Otherwise, it logs an error message and returns <b>FALSE</b>. To get the error information, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564940">EngGetLastError</a>.
+<b>EngGetForm</b> returns <b>TRUE</b> if the form structure is successfully copied into <i>pForm</i>. Otherwise, it logs an error message and returns <b>FALSE</b>. To get the error information, call <a href="https://msdn.microsoft.com/47138077-125e-4da9-b0de-e437a9b1733d">EngGetLastError</a>.
 
 
 
@@ -104,7 +105,7 @@ Pointer to a value that specifies the number of bytes copied into the buffer poi
 
 <b>EngGetForm</b> returns a FORM_INFO_1 structure (described in the Microsoft Windows SDK documentation) containing the form data associated with <i>pFormName</i>. The written data and its size are returned to the caller via <i>pForm</i> and <i>pcbNeeded</i>, respectively. If the array pointed to by <i>pForm</i> is not large enough to hold the form data, the requisite array size is instead returned in <i>pcbNeeded</i>.
 
-To get a list of all supported forms, the printer driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564850">EngEnumForms</a>.
+To get a list of all supported forms, the printer driver should call <a href="https://msdn.microsoft.com/c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a">EngEnumForms</a>.
 
 
 
@@ -114,11 +115,11 @@ To get a list of all supported forms, the printer driver should call <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564850">EngEnumForms</a>
+<a href="https://msdn.microsoft.com/c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a">EngEnumForms</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564940">EngGetLastError</a>
+<a href="https://msdn.microsoft.com/47138077-125e-4da9-b0de-e437a9b1733d">EngGetLastError</a>
  
 
  

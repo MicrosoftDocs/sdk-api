@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -284,7 +285,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only.
 
 Writes to the partition will fail. 
-         <a href="https://msdn.microsoft.com/library/windows/hardware/ff560384">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
+         <a href="https://msdn.microsoft.com/0b56ea0d-95ae-4306-9866-b4b5e985ed43">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
          <b>ERROR_WRITE_PROTECT</b> Win32 error code, which causes the file system to mount as read 
          only, if a file system is present.
 
@@ -313,7 +314,7 @@ The GPT partition format is required for disks that are used to boot computers t
     architectures.
 
 For more information about EFI, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn614600">Firmware and Boot Environment</a>. Starting with 
+    <a href="Http://go.microsoft.com/fwlink/p/?linkid=84097">Firmware and Boot Environment</a>. Starting with 
     Windows Server 2003 with SP1, GPT is supported on all Windows platforms, not only platforms that use 
     EFI.
 
@@ -329,15 +330,15 @@ For more information about EFI, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560375">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
+<a href="https://msdn.microsoft.com/f84f8be6-2b01-4a20-8669-cb1a55c32907">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560417">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+<a href="https://msdn.microsoft.com/6feec7a9-5b57-406b-bbea-04cf9cdaf56b">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a>
  
 
  

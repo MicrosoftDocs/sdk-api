@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ A battery tag value previously returned by <i>BatteryMiniQueryTag</i>.
 
 ### -param BatteryStatus [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536290">BATTERY_STATUS</a> structure in which the miniclass driver returns information. 
+A pointer to a <a href="https://msdn.microsoft.com/48df787b-f9f6-45d1-872c-ceeda3087af6">BATTERY_STATUS</a> structure in which the miniclass driver returns information. 
 
 
 ## -returns
@@ -130,7 +131,7 @@ Before reporting a critically low, discharging battery (BATTERY_DISCHARGING and 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536269">BatteryClassStatusNotify</a>
+<a href="https://msdn.microsoft.com/b74466e0-d900-49c6-a92e-d10a994fa948">BatteryClassStatusNotify</a>
 
 
 

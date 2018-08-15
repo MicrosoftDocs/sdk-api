@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -64,7 +65,7 @@ Called to update the status of a <a href="https://msdn.microsoft.com/090d1c20-fa
 
 Handle identifying the resource to be updated. The <i>ResourceHandle</i> parameter should 
        contain the same handle used for the <i>ResourceHandle</i> parameter in the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> entry point for this resource.
+       <a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a> entry point for this resource.
 
 
 ### -param ResourceStatus [in]
@@ -91,8 +92,8 @@ Pointer to a <a href="https://msdn.microsoft.com/a5acd51f-714f-481b-85e2-ac82b76
 
 <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">Resource DLLs</a> call the 
      <i>SetResourceStatus</i> callback function to update the 
-     status of a resource after their <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> entry point function has returned 
+     status of a resource after their <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
+     <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> entry point function has returned 
      <b>ERROR_IO_PENDING</b>. It should not be called at any other time. A pointer to the 
      <i>SetResourceStatus</i> function is passed in the 
      <i>SetResourceStatus</i> parameter to the resource's implementation of 
@@ -122,8 +123,8 @@ Update the current state of a resource whenever necessary after you have returne
 There is no need to call 
      <i>SetResourceStatus</i> to set the state of a resource to 
      a pending state because the Resource Monitor automatically sets it to the appropriate pending state whenever 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> returns 
+     <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
+     <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> returns 
      <b>ERROR_IO_PENDING</b>.
 
 
@@ -138,15 +139,15 @@ There is no need to call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a>
 
 
 

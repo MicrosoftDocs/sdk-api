@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -118,7 +119,7 @@ Provides a potentially different but logically equivalent <a href="https://msdn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">GetData</a>
 </td>
 <td align="left" width="63%">
 Called by a data consumer to obtain data from a source data object.

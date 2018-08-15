@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: inked.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -73,7 +74,7 @@ This property is read/write.
 
 The value of this property is always Disabled if it is used on a system that has Microsoft Windows XP Tablet PC Edition installed but no recognizers are present. If used on a system with Windows Vista or Windows XP Tablet PC Edition installed, the value can be set to any of the values in the <a href="https://msdn.microsoft.com/81aac302-c89a-42ca-9c90-170611a8995a">InkMode</a> enumeration type.
 
-This property should be changed only if the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property returns IES_Idle.
+This property should be changed only if the <a href="https://msdn.microsoft.com/47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d">Status</a> property returns IES_Idle.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ Not used.
 
 A <i>medium</i> identifies a hardware path of communication that exists within a single hardware device or between two devices. Register mediums if your filter is built on kernel streaming pins and needs to connect to other such filters.
 
-This structure is equivalent to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a> structure, which is used by kernel streaming drivers.
+This structure is equivalent to the <a href="https://msdn.microsoft.com/25349836-0948-42ba-9388-82c0ad6d28da">KSPIN_MEDIUM</a> structure, which is used by kernel streaming drivers.
 
 
 
@@ -97,7 +98,7 @@ This structure is equivalent to the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a>
+<a href="https://msdn.microsoft.com/aedbf7bc-393d-4ab5-afcd-d8822b925f07">KSMULTIPLE_ITEM</a>
  
 
  

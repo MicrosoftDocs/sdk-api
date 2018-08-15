@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/67466c14-c9dd-49c8-a6ed-df7531fc63b8">Count</a> element of the Task Scheduler schema.
 
 
 

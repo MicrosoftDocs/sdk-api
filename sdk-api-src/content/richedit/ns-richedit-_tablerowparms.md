@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -160,6 +161,41 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The index of the cell to insert or delete (<a href="https://msdn.microsoft.com/6CE9B8D1-68C9-4692-8454-24BC81E9038F">EM_SETTABLEPARMS</a> only).
 
 
+#### - fIdentCells:1
+
+Type: <b>DWORD</b>
+
+ Indent cells.
+
+
+#### - fKeep:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Keep rows together (\trkeep).
+
+
+#### - fKeepFollow:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Keep the row on the same page as the following row (\trkeepfollow).
+
+
+#### - fRTL:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Display cells in right-to-left order (\rtlrow).
+
+
+#### - fWrap:1
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Wrap text to the right or left, depending on <b>bAlignment</b>(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
+
+
 #### - nAlignment:3
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
@@ -206,41 +242,6 @@ The rows are aligned with the right margin.
 </tr>
 </table>
  
-
-
-#### - fRTL:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Display cells in right-to-left order (\rtlrow).
-
-
-#### - fKeep:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Keep rows together (\trkeep).
-
-
-#### - fKeepFollow:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Keep the row on the same page as the following row (\trkeepfollow).
-
-
-#### - fWrap:1
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Wrap text to the right or left, depending on <b>bAlignment</b>(see \tdfrmtxtLeftN and \tdfrmtxtRightN).
-
-
-#### - fIdentCells:1
-
-Type: <b>DWORD</b>
-
- Indent cells.
 
 
 ## -see-also

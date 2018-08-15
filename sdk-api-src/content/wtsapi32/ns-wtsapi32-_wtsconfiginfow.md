@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -173,26 +174,6 @@ A null-terminated string that contains the name of  the program to start immedia
 This member is reserved.
 
 
-##### - fDisablePrinterRedirection.0
-
-Enable client printer redirection.
-
-
-##### - fDisablePrinterRedirection.1
-
-Disable client printer redirection.
-
-
-##### - fDisableDefaultMainClientPrinter.0
-
-The printer connected to the client is not the default printer for the user.
-
-
-##### - fDisableDefaultMainClientPrinter.1
-
-The printer connected to the client is the default printer for the user.
-
-
 ##### - ShadowSettings.0
 
 Remote control is disabled.
@@ -219,6 +200,26 @@ The user of remote control can view the session remotely, with the user's permis
 
 The user of remote control can view the session remotely but not actively control the session; the 
         user's permission is not required.
+
+
+##### - fDisableDefaultMainClientPrinter.0
+
+The printer connected to the client is not the default printer for the user.
+
+
+##### - fDisableDefaultMainClientPrinter.1
+
+The printer connected to the client is the default printer for the user.
+
+
+##### - fDisablePrinterRedirection.0
+
+Enable client printer redirection.
+
+
+##### - fDisablePrinterRedirection.1
+
+Disable client printer redirection.
 
 
 ## -see-also

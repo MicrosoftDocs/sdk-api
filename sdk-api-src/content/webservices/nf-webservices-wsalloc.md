@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 
-Allocates a segment of memory from the specified <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a>. 
+Allocates a segment of memory from the specified <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a>. 
 
 
 
@@ -76,7 +77,7 @@ The number of bytes to allocate.  This value can be zero.
 
 ### -param ptr
 
-On success, a pointer that receives the address of the allocated memory. This pointer is valid until <a href="https://msdn.microsoft.com/ec643915-8c4b-4916-b390-d6ca043350db">WsFreeHeap</a> or <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a> is called on the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a>. 
+On success, a pointer that receives the address of the allocated memory. This pointer is valid until <a href="https://msdn.microsoft.com/ec643915-8c4b-4916-b390-d6ca043350db">WsFreeHeap</a> or <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a> is called on the <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a>. 
 
 
 
@@ -113,7 +114,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-The requested bytes, in addition to already allocated bytes, exceed the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a>, as specified by the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_MAX_SIZE</a> property.  
+The requested bytes, in addition to already allocated bytes, exceed the size of the <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a>, as specified by the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_MAX_SIZE</a> property.  
                 
 
 </td>

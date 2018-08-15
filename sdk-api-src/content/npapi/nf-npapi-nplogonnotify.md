@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -264,7 +265,7 @@ The credential manager is still initializing and is not ready to be called.
 The  <b>NPLogonNotify</b> function is implemented by credential managers to receive notifications when authentication information changes.
 
 Each credential manager is allowed to return a single command-line string that can be used to execute a logon script (the implementation should not call <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> or load a user profile directly). The buffer of this string is allocated by the credential manager. MPR is responsible for freeing it. The string returned in <i>lpLogonScript</i> should contain all the information necessary to run the script as a command line passed to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 If the string requires the command processor to process the string, as in the case of commands or batch files, then the string should be prefixed with <b>cmd /C</b>.
 
@@ -278,7 +279,7 @@ Logon scripts will be run in the user context when the user profile is available
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

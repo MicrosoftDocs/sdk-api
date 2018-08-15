@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,11 +64,6 @@ Determines the top-level behavior of the application.
 
 
 
-
-
-#### - hWnd [in]
-
-Window handle used for the application. Set to the calling application's top-level window handle (not a handle for any child windows created by the top-level window). This parameter can be NULL when the DDSCL_NORMAL flag is specified in the <i>dwFlags</i> parameter.
 
 
 #### - dwFlags [in]
@@ -145,6 +141,11 @@ This flag is supported in Windows 98 and Windows 2000 only. Indicates that the <
 #### DDSCL_SETFOCUSWINDOW
 
 This flag is supported in Windows 98 and Windows 2000 only. Indicates that the <i>hWnd</i> parameter is the window handle of the focus window for this DirectDraw object. This flag cannot be used with the DDSCL_SETDEVICEWINDOW flag.
+
+
+#### - hWnd [in]
+
+Window handle used for the application. Set to the calling application's top-level window handle (not a handle for any child windows created by the top-level window). This parameter can be NULL when the DDSCL_NORMAL flag is specified in the <i>dwFlags</i> parameter.
 
 
 ## -returns

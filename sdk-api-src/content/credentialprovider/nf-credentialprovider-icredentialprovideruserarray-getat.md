@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -60,7 +61,7 @@ Retrieves a specified user from the array.
 
 ### -param userIndex [in]
 
-The 0-based array index of the user. The size of the array can be obtained through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a> method.
+The 0-based array index of the user. The size of the array can be obtained through the <a href="https://msdn.microsoft.com/524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA">GetCount</a> method.
 
 
 ### -param user [out]

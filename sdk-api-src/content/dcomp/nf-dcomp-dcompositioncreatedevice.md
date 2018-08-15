@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -182,7 +183,7 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/750FDFD5-ADD5-43B3-A596-ECDB82C2EF73">Functions</a>
  
 
  

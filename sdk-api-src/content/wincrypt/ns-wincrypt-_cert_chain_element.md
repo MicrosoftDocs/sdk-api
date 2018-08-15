@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -66,7 +67,7 @@ Size of this structure in bytes.
 
 ### -field pCertContext
 
-A pointer to a certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>.
+A pointer to a certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
 
 
 ### -field TrustStatus

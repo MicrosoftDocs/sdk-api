@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -141,7 +142,7 @@ The system is out of memory.
 </dl>
 </td>
 <td width="60%">
-The <i>Index</i> parameter is not less than value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>. 
+The <i>Index</i> parameter is not less than value returned by <a href="https://msdn.microsoft.com/459A0898-ED5F-479F-8DDC-EA67C04F7BF9">GetCount</a>. 
 
 </td>
 </tr>

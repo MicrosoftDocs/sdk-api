@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -213,21 +214,21 @@ If this member is <b>TRUE</b>, the system batteries are short-term. Short-term b
 
 ### -field BatteryScale
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff536289">BATTERY_REPORTING_SCALE</a> structure 
+A <a href="https://msdn.microsoft.com/91834159-e837-407b-8c9e-fbbcf9f208ef">BATTERY_REPORTING_SCALE</a> structure 
       that contains information about how system battery metrics are reported.
 
 
 ### -field AcOnLineWake
 
 The lowest <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">system sleep state</a> (Sx) that will generate a wake event when the system is on AC power. This 
-      member must be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> 
+      member must be one of the <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> 
       enumeration type values.
 
 
 ### -field SoftLidWake
 
 The lowest <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">system sleep state</a> (Sx) that will generate a wake event via the lid switch. This member must be 
-      one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration 
+      one of the <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration 
       type values.
 
 
@@ -235,7 +236,7 @@ The lowest <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b07
 
 The lowest <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">system sleep state</a> (Sx) supported by hardware that will generate a wake event via the Real Time Clock (RTC). This 
       member must be one of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type 
       values. 
 
 To wake the computer using the RTC, the operating system must also support waking from the sleep state the computer is in when the RTC generates the wake event. Therefore, the  effective lowest sleep state from which an RTC wake event can wake the computer is the lowest sleep state supported by the operating system that is  equal to or higher than  the  value  of <b>RtcWake</b>.  To determine  the sleep states that the operating system supports, check the   <b>SystemS1</b>, <b>SystemS2</b>, <b>SystemS3</b>, and <b>SystemS4</b> members. 
@@ -244,7 +245,7 @@ To wake the computer using the RTC, the operating system must also support wakin
 ### -field MinDeviceWakeState
 
 The minimum allowable <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">system power state</a> supporting wake events. This member must be one of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type 
       values. Note that this state may change as different device drivers are installed on the system.
 
 
@@ -253,7 +254,7 @@ The minimum allowable <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea
 The default <a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">system power state</a> used if an application calls 
       <a href="https://msdn.microsoft.com/f30fdfb6-dc7e-47fd-93ad-36655e65d0ae">RequestWakeupLatency</a> with 
       <b>LT_LOWEST_LATENCY</b>. This member must be one of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type 
       values.
 
 
@@ -271,7 +272,7 @@ If this member is set to <b>TRUE</b>, the system is currently capable of perform
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564571">System Power States</a>
+<a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">System Power States</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="devinst.overview_of_inf_files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
+The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://msdn.microsoft.com/library/Ff549520(v=VS.85).aspx">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
 
 
 ## -parameters
@@ -101,7 +102,7 @@ When device installation preinstalls a <a href="https://msdn.microsoft.com/en-us
 
 <b>SetupGetInfPublishedName</b> returns the fully qualified file name of the INF file in the system INF file directory that matches the INF file, if any, that is supplied by <i>DriverStoreLocation</i>. <i>DriverStoreLocation </i>must specify the fully qualified file name of an INF file in the driver store or must specify the file name, and optionally the directory path, of an INF file in the system INF directory. For example, assume that the INF file for a driver package is <i>myinf.inf</i>, and that for this driver package, device installation installs the INF file <i>OEM1.inf</i> in the system INF directory C:<i>\Windows\inf</i>. Further assume that device installation installs the corresponding INF file copy C:<i>\windows\system32\driverstore\filerepository\myinf_12345678\myinf.inf</i> in the driver store. In this case, the function returns C:<i>\Windows\inf\OEM1.inf</i> if <i>DriverStoreLocation</i> supplies one of the following strings: C:<i>\windows\system32\driverstore\filerepository\myinf_12345678\myinf.inf, OEM1.inf</i>, or C:<i>\Windows\inf\OEM1.inf.</i>
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552194">SetupGetInfDriverStoreLocation</a> function to retrieve the fully qualified file name of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
+Call the <a href="https://msdn.microsoft.com/34131e9e-2e0e-4098-a988-3dadbf1789af">SetupGetInfDriverStoreLocation</a> function to retrieve the fully qualified file name of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
 
 
 
@@ -111,7 +112,7 @@ Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552194">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552194">SetupGetInfDriverStoreLocation</a>
+<a href="https://msdn.microsoft.com/34131e9e-2e0e-4098-a988-3dadbf1789af">SetupGetInfDriverStoreLocation</a>
  
 
  

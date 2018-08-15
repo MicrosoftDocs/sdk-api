@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -58,7 +59,7 @@ Applications obtain access to this object using <a href="https://msdn.microsoft.
 An attendee can join a session if the invitation list contains and invitation with the following properties:
 <ul>
 <li>The ticket string in <a href="https://msdn.microsoft.com/46f44927-c29e-401c-b81e-d009c1ad3c97">ConnectionString</a> matches the one sent by the client.</li>
-<li>The password string in <a href="https://msdn.microsoft.com/library/windows/hardware/dn915695">Password</a> matches the one sent by the client.</li>
+<li>The password string in <a href="https://msdn.microsoft.com/53d55a81-73c3-4196-b23e-b4719a1ceced">Password</a> matches the one sent by the client.</li>
 <li>The number of attendees has not exceeded the maximum number in <a href="https://msdn.microsoft.com/ab16039f-210a-46ba-aaa8-0dcc840123b2">AttendeeLimit</a>.</li>
 <li>The invitation has not been revoked using <a href="https://msdn.microsoft.com/a5a2d1a4-a51b-4fd4-b79c-3381f296d072">Revoked</a>.</li>
 </ul>

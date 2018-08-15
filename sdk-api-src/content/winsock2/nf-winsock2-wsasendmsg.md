@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Mswsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -86,7 +87,7 @@ Use <b>NULL</b> for this parameter if the <i>lpOverlapped</i> parameter is not <
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure. Ignored for non-overlapped sockets.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure. Ignored for non-overlapped sockets.
 
 
 ### -param lpCompletionRoutine [in]
@@ -274,7 +275,7 @@ The socket operation is not supported. This error is returned if the <b>dwFlags<
 <td width="60%">
 The socket has been shut down; it is not possible to 
 call the <a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a> function on a socket after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> has been invoked with <i>how</i> set to SD_SEND or SD_BOTH.
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> has been invoked with <i>how</i> set to SD_SEND or SD_BOTH.
 
 </td>
 </tr>
@@ -361,7 +362,7 @@ Overlapped sockets are  created with a <a href="https://msdn.microsoft.com/dcf2e
 For nonoverlapped sockets, the <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters  are ignored and <b>WSASendMsg</b> adopts the same blocking semantics as the <a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a> function: data is copied from the buffer or buffers into the transport's buffer. If the socket is nonblocking and stream oriented, and there is insufficient space in the transport's buffer, <b>WSASendMsg</b> returns with only part of the application's buffers having been consumed. In contrast, this buffer situation on a blocking socket results in <b>WSASendMsg</b> blocking until all of the application's buffer contents have been consumed.
 
 
-If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture this <a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structure before returning from this call. This enables applications to build stack-based 
+If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture this <a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structure before returning from this call. This enables applications to build stack-based 
 <b>WSABUF</b> arrays pointed to by the <b>lpBuffers</b> member of the <a href="https://msdn.microsoft.com/105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30">WSAMSG</a>structure pointed to by the <i>lpMsg</i> parameter.
 
 For message-oriented sockets, care must be taken not to exceed the maximum message size of the underlying provider, which can be obtained by getting the value of socket option <b>SO_MAX_MSG_SIZE</b>. If the data is too long to pass atomically through the underlying protocol, the error <b>WSAEMSGSIZE</b> is returned and no data is transmitted.
@@ -423,7 +424,7 @@ The
 <a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> function. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 If the <i>lpCompletionRoutine</i> parameter is <b>NULL</b>, the <i>hEvent</i> parameter of <i>lpOverlapped</i> is signaled when the overlapped operation completes if it contains a valid event object handle. An application can use 
 <a href="https://msdn.microsoft.com/7a978ade-6323-455b-b655-f372f4bcadc8">WSAWaitForMultipleEvents</a> or 
@@ -482,7 +483,7 @@ Returning from this function allows invocation of another pending completion rou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a>
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
 
 
 
@@ -506,7 +507,7 @@ Returning from this function allows invocation of another pending completion rou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a>
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a>
 
 
 
@@ -554,7 +555,7 @@ Returning from this function allows invocation of another pending completion rou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a>
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a>
  
 
  

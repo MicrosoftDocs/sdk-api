@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmcobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -54,7 +55,7 @@ req.product: GDI+ 1.1
 
 The 
 <b>CreateProperties</b> method makes a new 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> collection for the document.
+<a href="https://msdn.microsoft.com/0895ff50-4c7e-4d77-9710-a9d0e76c62d0">Properties</a> collection for the document.
 
 
 ## -parameters

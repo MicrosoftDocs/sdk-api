@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumFullIDList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/23345978-6178-4f6d-8757-d5fd95199067">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new item enumeration object with the same contents and state as the current one.
@@ -80,7 +81,7 @@ Creates a new item enumeration object with the same contents and state as the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/023f8935-0382-404e-b1bf-737824cf0f34">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of IDLIST_ABSOLUTE items.
@@ -89,7 +90,7 @@ Retrieves a specified number of IDLIST_ABSOLUTE items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/9682cfc4-544b-43bd-bd57-edbce50dce75">Reset</a>
 </td>
 <td align="left" width="63%">
 Returns the enumerator to the beginning of the enumeration sequence.
@@ -98,7 +99,7 @@ Returns the enumerator to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/f47bdab1-57be-4f40-a142-ad5edcf6fbfd">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of IDLIST_ABSOLUTE  items.

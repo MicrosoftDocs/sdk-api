@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -62,7 +63,7 @@ Creates a write-only package object to which  files can be added.
 
 Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
 
-The output stream that receives the serialized package data. The stream must support at least the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> method.
+The output stream that receives the serialized package data. The stream must support at least the  <a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a> method.
 
 
 ### -param settings [in]
@@ -135,7 +136,7 @@ The hash value is <a href="http://www.w3.org/2000/09/xmldsig">SHA1</a>.
 
 
 
-The implementation of an <a href="https://msdn.microsoft.com/097B7451-9A54-4C39-8F83-16DB49691B42">IAppxPackageWriter</a> is not guaranteed to write data to the output stream before the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> method is called on the writer object. No other thread should access <i>outputStream</i> until the writer returns from its <b>Close</b> method.
+The implementation of an <a href="https://msdn.microsoft.com/097B7451-9A54-4C39-8F83-16DB49691B42">IAppxPackageWriter</a> is not guaranteed to write data to the output stream before the <a href="https://msdn.microsoft.com/294625B2-1141-44EE-A769-365C3B37EBD9">Close</a> method is called on the writer object. No other thread should access <i>outputStream</i> until the writer returns from its <b>Close</b> method.
 
 
 #### Examples

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -70,7 +71,7 @@ The <b>IAppxBundleManifestOptionalBundleInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926842">GetFileName</a>
+<a href="https://msdn.microsoft.com/6553DAC3-D938-4653-8DE4-A5CA02640D31">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.

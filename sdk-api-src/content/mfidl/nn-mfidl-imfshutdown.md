@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -76,14 +77,14 @@ The <b>IMFShutdown</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8cf5f5f3-a3ad-4745-87e8-764ed118477a">GetShutdownStatus</a>
 </td>
 <td align="left" width="63%">
-Queries the status of a prior call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method.
+Queries the status of a prior call to the <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> method.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down a Media Foundation object and releases all resources associated with the object.
@@ -111,15 +112,15 @@ The following types of object expose <b>IMFShutdown</b>:
 <a href="https://msdn.microsoft.com/d438ffae-fc50-454f-8ce4-2d6676500fff">Asynchronous MFTs</a>
 </li>
 </ul>
-Any component that creates one of these objects is responsible for calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> on the object before releasing the object. Typically, applications do not create any of these objects directly, so it is not usually necessary to use this interface in an application.
+Any component that creates one of these objects is responsible for calling <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> on the object before releasing the object. Typically, applications do not create any of these objects directly, so it is not usually necessary to use this interface in an application.
       
 
 To obtain a pointer to this interface, call <b>QueryInterface</b> on the object.
       
 
-If you are implementing a custom object, your object can expose this interface, but only if you can guarantee that your application will call <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>. 
+If you are implementing a custom object, your object can expose this interface, but only if you can guarantee that your application will call <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a>. 
 
-Media sources, media sinks, and <i>synchronous</i> MFTs should not implement this interface, because the Media Foundation pipeline will not call <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> on these objects.
+Media sources, media sinks, and <i>synchronous</i> MFTs should not implement this interface, because the Media Foundation pipeline will not call <a href="https://msdn.microsoft.com/9e7824d2-0f76-4c4c-98c5-ba51cd297de7">Shutdown</a> on these objects.
       Asynchronous MFTs must implement this interface.
 
 This interface is not related to the <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a> function, which shuts down the Media Foundation platform, as described in <a href="https://msdn.microsoft.com/e4db81d3-7a9e-47d7-8611-6dac8026259c">Initializing Media Foundation</a>.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -159,7 +160,7 @@ PT_STRING8
 
 #### bin
 
-<b>Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a></b>
 </b>
 PT_BINARY
 
@@ -247,7 +248,7 @@ PT_MV_SYSTIME
 
 #### MVbin
 
-<b>Type: <b><a href="31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/library/ms527367(v=EXCHG.10).aspx">SBinaryArray</a></b>
 </b>
 PT_MV_BINARY
 

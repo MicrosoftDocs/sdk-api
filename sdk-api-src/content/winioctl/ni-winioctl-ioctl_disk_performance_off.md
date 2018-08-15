@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -146,7 +147,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-To enable these performance counters, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560388">IOCTL_DISK_PERFORMANCE</a> control code.
+To enable these performance counters, use the <a href="https://msdn.microsoft.com/e182282c-17e9-442a-8742-437052cfed03">IOCTL_DISK_PERFORMANCE</a> control code.
 
 
 
@@ -165,7 +166,7 @@ To enable these performance counters, use the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560388">IOCTL_DISK_PERFORMANCE</a>
+<a href="https://msdn.microsoft.com/e182282c-17e9-442a-8742-437052cfed03">IOCTL_DISK_PERFORMANCE</a>
  
 
  

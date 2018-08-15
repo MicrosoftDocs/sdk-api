@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemtime.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -88,7 +89,7 @@ Constructor that creates a time span object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/8bd964ed-d815-489a-8ddf-c92970701b05">Clear</a>
 </td>
 <td align="left" width="63%">
 Sets the time span to INVALID_TIME.

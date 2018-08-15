@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -71,14 +72,14 @@ The <b>FlushInputStream</b> method flushes a Device MFT’s input stream.
 
 
 
-#### - dwStreamID [in]
-
-Stream ID of the input stream which needs to be flushed.
-
-
 #### - dwStatus [in]
 
 Contains the <b>HRESULT</b> of flushing the corresponding devproxy output stream.
+
+
+#### - dwStreamID [in]
+
+Stream ID of the input stream which needs to be flushed.
 
 
 ## -returns

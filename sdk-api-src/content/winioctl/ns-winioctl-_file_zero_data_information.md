@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code
+<a href="https://msdn.microsoft.com/ee32f836-682e-4c26-b7d6-82e3b7b234f9">FSCTL_SET_ZERO_DATA</a> control code
 
 
 ## -struct-fields
@@ -75,7 +76,7 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+<a href="https://msdn.microsoft.com/ee32f836-682e-4c26-b7d6-82e3b7b234f9">FSCTL_SET_ZERO_DATA</a>
 
 
 

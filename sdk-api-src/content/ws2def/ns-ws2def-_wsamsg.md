@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -83,7 +84,7 @@ The length, in bytes, of the
 Type: <b>LPWSABUF</b>
 
 An array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures used to receive the message data. The capability of the <b>lpBuffers</b> member to contain multiple buffers enables the use of scatter/gather I/O.
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures used to receive the message data. The capability of the <b>lpBuffers</b> member to contain multiple buffers enables the use of scatter/gather I/O.
 
 
 ### -field dwBufferCount
@@ -98,7 +99,7 @@ The number of buffers pointed to in the <b>lpBuffers</b> member.
 Type: <b>WSABUF</b>
 
 A structure of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> type used to specify optional control data. See Remarks.
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> type used to specify optional control data. See Remarks.
 
 
 ### -field dwFlags
@@ -454,7 +455,7 @@ Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignmen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a>
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
 
 
 

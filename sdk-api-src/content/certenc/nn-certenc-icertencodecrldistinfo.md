@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -131,7 +132,7 @@ Returns the number of names in a CRL distribution point structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/899de888-918f-4202-a324-0e603eba2324">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets an array of CRL distribution information structures to a specified number of structures and clears the structure elements.

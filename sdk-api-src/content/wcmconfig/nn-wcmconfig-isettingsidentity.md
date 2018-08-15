@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Gets the identity attribute for a setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/aec52cd2-90e2-492d-afcf-433a762133d1">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the identity flags for a setting.
@@ -98,7 +99,7 @@ Sets the identity attribute for a setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/f31f6ea1-e101-40c0-a431-ab3bdc9f02be">SetFlags</a>
 </td>
 <td align="left" width="63%">
  Sets the identity flags for a setting.

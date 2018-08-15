@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,19 +63,19 @@ The <b>LUID</b> structure is an opaque structure that specifies an identifier th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561790">RtlConvertLongToLuid</a>
+<a href="https://msdn.microsoft.com/bc03feaf-ee98-4b47-a659-809b5b8b9364">RtlConvertLongToLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561798">RtlConvertUlongToLuid</a>
+<a href="https://msdn.microsoft.com/f3c1e2d5-8bb8-486c-a78a-3ddde6ab64bd">RtlConvertUlongToLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+<a href="kernel.rtlequalluid">RtlEqualLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561958">RtlIsZeroLuid</a>
+<a href="kernel.rtliszeroluid">RtlIsZeroLuid</a>
  
 
  

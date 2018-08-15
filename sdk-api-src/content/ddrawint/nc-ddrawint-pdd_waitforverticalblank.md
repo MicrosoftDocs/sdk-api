@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdWaitForVerticalBlank</b> callback function returns the vertical blank s
 
 #### - lpWaitForVerticalBlank
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551765">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
+Points to a <a href="https://msdn.microsoft.com/27224fb2-3843-4843-b66f-0a3dd8325e1f">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
 
 
 ## -returns
@@ -117,7 +118,7 @@ When the driver successfully handles the action specified in <b>dwFlags</b>, it 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551765">DD_WAITFORVERTICALBLANKDATA</a>
+<a href="https://msdn.microsoft.com/27224fb2-3843-4843-b66f-0a3dd8325e1f">DD_WAITFORVERTICALBLANKDATA</a>
  
 
  

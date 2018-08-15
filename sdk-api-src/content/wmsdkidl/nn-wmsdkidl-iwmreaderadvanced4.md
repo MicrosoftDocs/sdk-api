@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -130,7 +131,7 @@ Retrieves the maximum playback rate that can be delivered by the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432962">GetURL</a>
+<a href="https://msdn.microsoft.com/1c17be57-da35-40f2-a216-97d6953c7311">GetURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL of the file being read.
@@ -190,7 +191,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

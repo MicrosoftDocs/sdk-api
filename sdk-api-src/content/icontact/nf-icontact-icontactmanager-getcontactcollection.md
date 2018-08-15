@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -100,7 +101,7 @@ Success. <i>ppContactCollection</i> contains the collection.
 
 
 
-The enumerator of the new collection is set before the first contact. You must first call <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> before querying the collection with <a href="https://msdn.microsoft.com/e5a5d27d-121a-4755-892e-53d148facd74">GetCurrent</a>.
+The enumerator of the new collection is set before the first contact. You must first call <a href="https://msdn.microsoft.com/f7d47643-4ef2-41fb-9f75-2fe79fec2385">Next</a> before querying the collection with <a href="https://msdn.microsoft.com/e5a5d27d-121a-4755-892e-53d148facd74">GetCurrent</a>.
 
 
 

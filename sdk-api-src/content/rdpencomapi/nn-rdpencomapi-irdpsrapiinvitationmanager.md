@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -95,7 +96,7 @@ Creates an invitation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/e1959226-04a0-4eae-9abb-b82cdd545975">_NewEnum</a>
 
 
 </td>
@@ -111,7 +112,7 @@ An enumerator interface for the invitation collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/5b421537-ce9f-42d3-83b8-f051631c78de">Count</a>
 
 
 </td>
@@ -127,7 +128,7 @@ The number of invitations in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/0a6acaec-0051-4753-8926-c708e75c3e07">Item</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -198,7 +199,7 @@ Searches for an item to the right of the specified item.
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="List_view_item_states.htm">LVIS_CUT</a> state flag set.
+The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_CUT</a> state flag set.
 
 </td>
 </tr>
@@ -209,7 +210,7 @@ The item has the <a href="List_view_item_states.htm">LVIS_CUT</a> state flag set
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="List_view_item_states.htm">LVIS_DROPHILITED</a> state flag set
+The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_DROPHILITED</a> state flag set
 
 </td>
 </tr>
@@ -220,7 +221,7 @@ The item has the <a href="List_view_item_states.htm">LVIS_DROPHILITED</a> state 
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="List_view_item_states.htm">LVIS_FOCUSED</a> state flag set.
+The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_FOCUSED</a> state flag set.
 
 </td>
 </tr>
@@ -231,7 +232,7 @@ The item has the <a href="List_view_item_states.htm">LVIS_FOCUSED</a> state flag
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="List_view_item_states.htm">LVIS_SELECTED</a> state flag set.
+The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_SELECTED</a> state flag set.
 
 </td>
 </tr>

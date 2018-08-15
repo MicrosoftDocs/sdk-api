@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -96,7 +97,7 @@ The method returns an <b>HRESULT</b> value. If the ranges have the same characte
 
 
 The 
-				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="About_Text_Object_Model.htm">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
+				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
 
 
 

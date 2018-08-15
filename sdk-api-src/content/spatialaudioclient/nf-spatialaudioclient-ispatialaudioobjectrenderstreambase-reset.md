@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The audio stream has not been stopped. Stop the stream by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>.
+The audio stream has not been stopped. Stop the stream by calling <a href="https://msdn.microsoft.com/d5824aa9-0b91-4bee-9c0c-26e12a6b96b5">Stop</a>.
 
 </td>
 </tr>
@@ -96,9 +97,9 @@ The audio stream has not been stopped. Stop the stream by calling <a href="https
 
 
 Resetting the audio stream flushes all pending data and resets the audio clock stream position to 0. Resetting the stream also causes all active <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> instances to be revoked.  
-    A subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> causes the stream to start from 0 position.  
+    A subsequent call to <a href="https://msdn.microsoft.com/25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4">Start</a> causes the stream to start from 0 position.  
 
-The stream must have been previously stopped with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a> or the method will fail and return SPTLAUDCLNT_E_STREAM_NOT_STOPPED.
+The stream must have been previously stopped with a call to <a href="https://msdn.microsoft.com/6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C">Stop</a> or the method will fail and return SPTLAUDCLNT_E_STREAM_NOT_STOPPED.
 
 
 

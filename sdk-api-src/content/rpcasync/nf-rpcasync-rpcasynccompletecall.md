@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -156,7 +157,7 @@ Server: <i>Reply</i> points to a buffer that contains the return value that need
 
 Any <a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[out]</a> parameters, including 
 				<a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">[comm_status]</a> and 
-				<a href="https://msdn.microsoft.com/">[fault_status]</a> parameters, are only valid if the return value of 
+				<a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">[fault_status]</a> parameters, are only valid if the return value of 
 <b>RpcAsyncCompleteCall</b> is RPC_S_OK.
 
 
@@ -171,7 +172,7 @@ Any <a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>
+<a href="https://msdn.microsoft.com/7dfc9f84-ce3c-49f3-8f72-b212095133fd">Error Handling</a>
 
 
 

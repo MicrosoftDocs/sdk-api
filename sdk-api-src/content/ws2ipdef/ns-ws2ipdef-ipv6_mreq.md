@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -86,7 +87,7 @@ The <b>ipv6_mreq</b> structure and the <b>IPPROTO_IPV6</b> level socket options 
 
 It is recommended that a local IPv6 interface index always be specified in the <b>ipv6mr_interface</b> member of the <b>ipv6_mreq</b> structure, rather than use the default interface.  This is particularly important on computers with multiple network interfaces and multiple public IPv6 addresses. 
 
-The default interface used for IPv6 multicast is  determined by the networking stack in Windows. On Windows Vista and later, an application can determine the default interface used for IPv6 multicast using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552536">GetIpForwardTable2</a> function to retrieve the IPv6 routing table. The network interface with the lowest value for the routing metric for a destination IPv6 multicast address (the FF00::/8 IPv6 address block) is the default interface for IPv6 multicast. The routing table can also be displayed from the command prompt with the following command:
+The default interface used for IPv6 multicast is  determined by the networking stack in Windows. On Windows Vista and later, an application can determine the default interface used for IPv6 multicast using the <a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a> function to retrieve the IPv6 routing table. The network interface with the lowest value for the routing metric for a destination IPv6 multicast address (the FF00::/8 IPv6 address block) is the default interface for IPv6 multicast. The routing table can also be displayed from the command prompt with the following command:
 
 <b>route print</b>
 
@@ -119,7 +120,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552536">GetIpForwardTable2</a>
+<a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a>
 
 
 

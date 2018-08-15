@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -76,7 +77,7 @@ The <b>IXMLHTTPRequest3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/fc3e2645-666c-42af-babd-1f476b6356b8">IXMLHTTPRequest3::SetClientCertificate</a>
 </td>
 <td align="left" width="63%">
-Sets a client certificate to be used to authenticate against the URL specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method.
+Sets a client certificate to be used to authenticate against the URL specified in the <a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">Open</a> method.
 
 </td>
 </tr>

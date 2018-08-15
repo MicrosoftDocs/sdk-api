@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Internet Explorer 5
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method is called to initialize the object.
+This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the <a href="https://msdn.microsoft.com/339f6d42-20ea-4fd3-b03c-0cf34330baa0">Initialize</a> method is called to initialize the object.
 
 
 ## -inheritance
@@ -73,7 +74,7 @@ The <b>IFunctionDiscoveryServiceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/339f6d42-20ea-4fd3-b03c-0cf34330baa0">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that provides a specific interface that has been bound to the resource represented by the function instance.

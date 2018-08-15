@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -113,7 +114,7 @@ Indicates that the sink is active.
 
 The <i>pDirectSound</i> parameter points to an <b>IDirectSound</b> instance that is received from <code>IDirectMusicPort::SetDirectSound</code> and is non-<b>NULL</b>.
 
-If <i>pDirectSoundBuffer</i> is <b>NULL</b>, the primary buffer for <b>IDirectSound</b> will be upgraded, if necessary, to support the sample rate and channel information for the sink (obtained from <a href="https://msdn.microsoft.com/library/windows/hardware/ff536535">IDirectMusicSynth::GetFormat</a>).
+If <i>pDirectSoundBuffer</i> is <b>NULL</b>, the primary buffer for <b>IDirectSound</b> will be upgraded, if necessary, to support the sample rate and channel information for the sink (obtained from <a href="https://msdn.microsoft.com/4fa55ff5-4f72-4f8b-bf11-64f07b054ff5">IDirectMusicSynth::GetFormat</a>).
 
 The <b>IDirectSoundBuffer</b> should be a secondary streaming buffer with a format that matches the format obtained from the synthesizer. If <i>pDirectSoundBuffer</i> is <b>NULL</b>, then an appropriate <b>IDirectSoundBuffer</b> instance will be created internally.
 
@@ -131,7 +132,7 @@ For more information, see the description of the <b>IDirectSound</b>, <b>IDirect
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536535">IDirectMusicSynth::GetFormat</a>
+<a href="https://msdn.microsoft.com/4fa55ff5-4f72-4f8b-bf11-64f07b054ff5">IDirectMusicSynth::GetFormat</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -109,6 +110,11 @@ Pointer to a variable in which this function returns a pointer to an array of so
 Pointer to a variable in which this function returns the number of sources in the list.
 
 
+##### - Flags.SRCLIST_NOSTRIPPLATFORM
+
+Normally, all paths are stripped of a platform-specific component if it is the final component. For example, a path stored in the registry as f:\x86 is returned as f:\. If this flag is specified, the platform-specific component is not stripped.
+
+
 ##### - Flags.SRCLIST_SYSTEM
 
 Query the system list.
@@ -117,11 +123,6 @@ Query the system list.
 ##### - Flags.SRCLIST_USER
 
 Query the per-user list.
-
-
-##### - Flags.SRCLIST_NOSTRIPPLATFORM
-
-Normally, all paths are stripped of a platform-specific component if it is the final component. For example, a path stored in the registry as f:\x86 is returned as f:\. If this flag is specified, the platform-specific component is not stripped.
 
 
 ## -returns
@@ -141,7 +142,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

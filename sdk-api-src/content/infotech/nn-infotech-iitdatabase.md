@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IITDatabase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/cdcc35f0-d629-4ca5-9342-945a88b49feb">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a database.
@@ -104,7 +105,7 @@ Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a37
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/39e38979-7680-418f-b4f5-9b6841953524">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a database.

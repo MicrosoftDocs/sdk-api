@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -144,7 +145,7 @@ Indicates whether the properties in the collection are
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/6988a8c6-b1ef-4dba-b95c-eab52f140fb3">Count</a>
 
 
 </td>
@@ -160,7 +161,7 @@ Returns the number of properties in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/df848e91-c89d-4985-9afc-1814f3180283">Item</a>
 
 
 </td>
@@ -238,7 +239,7 @@ A <b>ClusProperties</b> collection is similar
     <b>ClusProperties</b> collection is created, it 
     receives a snapshot of the stored data. Changes to the 
     <b>ClusProperties</b> collection do not take 
-    effect in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> until the 
+    effect in the <a href="c_gly.htm">cluster</a> until the 
     <a href="https://msdn.microsoft.com/2792025f-c434-47e0-a5e8-06a992e3a8d2">SaveChanges</a> method is invoked. Similarly, 
     changes to the cluster database are not reflected in the collection until the 
     <a href="https://msdn.microsoft.com/900c9401-e8f4-423a-80df-598f5edb2935">Refresh</a> method is called.

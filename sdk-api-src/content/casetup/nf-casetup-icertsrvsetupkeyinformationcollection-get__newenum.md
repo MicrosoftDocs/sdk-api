@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-This property is provided for internal use by the <code>For Each</code> statement in Visual Basic Scripting Edition (VBScript) and C#. To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> properties defined by the <a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a> interface.
+This property is provided for internal use by the <code>For Each</code> statement in Visual Basic Scripting Edition (VBScript) and C#. To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/58412a07-7e97-4379-b052-fb7458400be9">Count</a> and <a href="https://msdn.microsoft.com/2ae3d695-4dfe-4c72-8e66-64dce88c2bb2">Item</a> properties defined by the <a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a> interface.
 
 
 

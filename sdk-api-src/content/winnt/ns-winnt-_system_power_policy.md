@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,7 +86,7 @@ A
 ### -field LidOpenWake
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system. This member must be one of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field Reserved
@@ -123,19 +124,19 @@ Reserved.
 ### -field MinSleep
 
 The minimum system sleep state (lowest Sx value) currently supported. This member must be one of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field MaxSleep
 
 The maximum system sleep state (highest Sx value) currently supported. This member must be one of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field ReducedLatencySleep
 
 The system power state (Sx value) to enter on a system sleep action when there are outstanding latency requirements. This member must be one of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
+<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
 <a href="https://msdn.microsoft.com/f30fdfb6-dc7e-47fd-93ad-36655e65d0ae">RequestWakeupLatency</a> with LT_LOWEST_LATENCY, <b>ReducedLatencySleep</b> will be used in place of <b>MaxSleep</b>.
 
 

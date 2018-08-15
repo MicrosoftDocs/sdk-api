@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IOpcRelationship</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/8646d592-d568-4b82-80f3-2673cd0d2721">GetId</a>
 </td>
 <td align="left" width="63%">
 Gets the unique identifier of the relationship.
@@ -152,7 +153,7 @@ Valid identifiers for relationships conform to the restrictions for <b>xsd:ID</b
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/8646d592-d568-4b82-80f3-2673cd0d2721">GetId</a>
 </td>
 <td>Relationship identifier</td>
 <td>

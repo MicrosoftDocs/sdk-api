@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -75,9 +76,9 @@ A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a3
 
 
 
-#### - lCustData [in]
+#### - dwDisplayWell [in]
 
-The address of an array of byte values that holds custom data.  <i>lCustData</i> is passed to the <b>PFNCMFILTERPROC</b> function by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.
+ Reserved for future use.
 
 
 #### - dwFlags [in]
@@ -85,9 +86,9 @@ The address of an array of byte values that holds custom data.  <i>lCustData</i>
  Reserved for future use.
 
 
-#### - dwDisplayWell [in]
+#### - lCustData [in]
 
- Reserved for future use.
+The address of an array of byte values that holds custom data.  <i>lCustData</i> is passed to the <b>PFNCMFILTERPROC</b> function by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.
 
 
 ## -returns

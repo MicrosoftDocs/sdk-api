@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -86,7 +87,7 @@ Calling the
     deletes the actions associated with the threshold.
 
 Note that the actions are not  deleted from the object until you call the object's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a> method. For example, the actions are not deleted 
+    <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">Commit</a> method. For example, the actions are not deleted 
     from the quota until the <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">IFsrmQuota::Commit</a> 
     method is called, nor from the file screens until you call the 
     <b>IFsrmFileScreen::Commit</b> method.

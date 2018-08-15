@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -120,7 +121,7 @@ Retrieves the unique name for a GPO, usually a GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/22c90ec4-b4cc-4a95-becd-29c2ce6e3c29">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the options the user has selected for the Group Policy Object Editor.
@@ -138,7 +139,7 @@ Retrieves a handle to the root of the registry key for a section of the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/47769405-d32c-4f4f-86fc-970d89bba848">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves type information for the GPO being edited.

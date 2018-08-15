@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xblidpauthmanager.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -215,7 +216,7 @@ Reserved for Microsoft use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/3596B41E-C360-4B29-BE78-AD08D0290DA9">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Reserved for Microsoft use.

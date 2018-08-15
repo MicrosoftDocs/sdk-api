@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ Specifies the ACE type. This member can be one of the following values.
 </td>
 <td width="60%">
 Access-allowed ACE that uses the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a> structure.
+<a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a> structure.
 
 </td>
 </tr>
@@ -134,7 +135,7 @@ Object-specific access-allowed ACE that uses the
 </td>
 <td width="60%">
 Access-denied ACE that uses the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a> structure.
+<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a> structure.
 
 </td>
 </tr>
@@ -247,7 +248,7 @@ Same as ACCESS_ALLOWED_OBJECT_ACE_TYPE.
 </dl>
 </td>
 <td width="60%">
-Reserved for future use. System-alarm ACE that uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a> structure.
+Reserved for future use. System-alarm ACE that uses the <a href="https://msdn.microsoft.com/491cc5c7-abb6-4d03-b3b0-ba5eedb5e2ba">SYSTEM_ALARM_ACE</a> structure.
 
 </td>
 </tr>
@@ -288,7 +289,7 @@ Reserved for future use. Object-specific system-alarm ACE that uses the <a href=
 </td>
 <td width="60%">
 System-audit ACE that uses the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a> structure.
+<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a> structure.
 
 </td>
 </tr>
@@ -447,9 +448,9 @@ Specifies the size, in bytes, of the ACE.
 
 
 
-The <b>ACE_HEADER</b> structure is the first member of the various types of ACE structures, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>.
+The <b>ACE_HEADER</b> structure is the first member of the various types of ACE structures, such as <a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a>.
 
-System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE or SYSTEM_ALARM_OBJECT_ACE_TYPE values. Do not use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a> or <a href="https://msdn.microsoft.com/a55f6039-d1d2-4a7d-a6c9-e8f51b291582">SYSTEM_ALARM_OBJECT_ACE</a> structures.
+System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE or SYSTEM_ALARM_OBJECT_ACE_TYPE values. Do not use the <a href="https://msdn.microsoft.com/491cc5c7-abb6-4d03-b3b0-ba5eedb5e2ba">SYSTEM_ALARM_ACE</a> or <a href="https://msdn.microsoft.com/a55f6039-d1d2-4a7d-a6c9-e8f51b291582">SYSTEM_ALARM_OBJECT_ACE</a> structures.
 
 
 
@@ -459,7 +460,7 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
+<a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -467,7 +468,7 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a>
+<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a>
 
 
 
@@ -475,11 +476,11 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
+<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a>
 
 
 

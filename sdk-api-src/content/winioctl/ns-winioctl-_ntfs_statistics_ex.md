@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -420,7 +421,7 @@ The number of volume level trim operations issued.
 
 ### -field VolumeTrimTime
 
-The total time elapsed during all volume level trim operations.  This value, divided by the frequency value from <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>,  will give the time in seconds.
+The total time elapsed during all volume level trim operations.  This value, divided by the frequency value from <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/ee1dbd20-5502-4448-b39a-4629ddc73d01">KeQueryPerformanceCounter</a>,  will give the time in seconds.
 
 
 ### -field VolumeTrimByteCount
@@ -435,7 +436,7 @@ The number of file level trim operations issued.
 
 ### -field FileLevelTrimTime
 
-The total time elapsed during all file level trim operations. This value, divided by the frequency value from <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>, will give the time in seconds.
+The total time elapsed during all file level trim operations. This value, divided by the frequency value from <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> or <a href="https://msdn.microsoft.com/ee1dbd20-5502-4448-b39a-4629ddc73d01">KeQueryPerformanceCounter</a>, will give the time in seconds.
 
 
 ### -field FileLevelTrimByteCount
@@ -491,7 +492,7 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
+<a href="https://msdn.microsoft.com/ee1dbd20-5502-4448-b39a-4629ddc73d01">KeQueryPerformanceCounter</a>
 
 
 

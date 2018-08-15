@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode and/or us
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568528">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns

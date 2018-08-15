@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -69,7 +70,7 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  When using managed code, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
+<div class="alert"><b>Note</b>  When using managed code, use the <a href="P:Microsoft.Ink.ExtendedProperty.Id">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
 <div> </div>
 
 

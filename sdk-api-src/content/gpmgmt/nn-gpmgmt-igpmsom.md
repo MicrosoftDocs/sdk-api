@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -145,7 +146,7 @@ Value that specifies whether GPO inheritance is blocked for the SOM.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/733be6ee-47bd-4599-93f3-989aeac67ed5">Name</a>
 
 
 </td>
@@ -163,7 +164,7 @@ If IGPMSOM points to an OU, as in "Ou=testou,dc=example,dc=Microsoft,dc=com", th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/733be6ee-47bd-4599-93f3-989aeac67ed5">Path</a>
 
 
 </td>
@@ -179,7 +180,7 @@ Distinguished name of the SOM; for example, "ou=MyOU,dc=coname,dc=com".
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/733be6ee-47bd-4599-93f3-989aeac67ed5">Type</a>
 
 
 </td>

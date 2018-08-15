@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -143,7 +144,7 @@ Retrieves the current encryption state (encrypted or unencrypted) of the Offline
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
+<a href="https://msdn.microsoft.com/e608c662-23d2-4dcc-95fc-e949ba9f848f">GetLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current fully qualified directory path of the Offline Files cache.

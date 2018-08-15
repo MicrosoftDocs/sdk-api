@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -275,7 +276,7 @@ For example, a change sensitivity value of 2 for SENSOR_DATA_TYPE_TEMPERATURE_CE
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545701">SensorConnectionType</a> value that contains the current connection type.</td>
+<a href="https://msdn.microsoft.com/3d5cb6ff-0228-44fa-8216-dbffcb2ec834">SensorConnectionType</a> value that contains the current connection type.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL<b>VT_UI4</b>
@@ -384,7 +385,7 @@ Resolution values are expressed by using the same units as the data field, excep
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545708">SensorState</a> value that contains the current sensor state.</td>
+<a href="https://msdn.microsoft.com/4cf993ba-d767-4ef8-94a9-e819cc210360">SensorState</a> value that contains the current sensor state.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_TYPE<b>VT_CLSID</b>

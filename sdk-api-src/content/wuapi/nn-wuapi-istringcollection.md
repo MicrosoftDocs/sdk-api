@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IStringCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/f5412e0d-a8b7-43a6-b7a5-95d662459f78">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -81,7 +82,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/480b8a8a-ecf1-4f1c-b53d-98a0151c57b5">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all the elements from the collection.
@@ -90,7 +91,7 @@ Removes all the elements from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/e2f6d5c0-c92a-44e5-a322-f336a3ef64ce">Copy</a>
 </td>
 <td align="left" width="63%">
 Creates a deep read/write copy of the collection.
@@ -108,7 +109,7 @@ Inserts an item into the collection at the specified position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/a0b350b0-d5b4-49c6-acca-a50719d92262">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes the item at the specified index from the collection.
@@ -126,7 +127,7 @@ Removes the item at the specified index from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/b131b276-4254-4a08-8121-3a86e28d08cb">_NewEnum</a>
 
 
 </td>
@@ -142,7 +143,7 @@ Gets an <b>IEnumVARIANT</b> interface that can be used to enumerate the collecti
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/f735ee0b-56db-44f4-b8e6-38843098fe77">Count</a>
 
 
 </td>
@@ -158,7 +159,7 @@ Gets the number of elements in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/ae92e856-ed3c-4745-827b-a5bb8e2f5938">Item</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -89,7 +90,7 @@ Gets a pointer to the capture source object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/23EC8B49-2F67-4FB8-AFFA-409823ACCF59">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the capture engine.
@@ -107,7 +108,7 @@ Starts preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542695">StartRecord</a>
+<a href="https://msdn.microsoft.com/22084409-B2E6-47EF-A59B-A762E9A9191D">StartRecord</a>
 </td>
 <td align="left" width="63%">
 Starts recording audio and/or video to a file.
@@ -125,7 +126,7 @@ Stops preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542707">StopRecord</a>
+<a href="https://msdn.microsoft.com/737C23E0-D4EF-4630-A460-2AE56FE50A12">StopRecord</a>
 </td>
 <td align="left" width="63%">
 Stops recording.

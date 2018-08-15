@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Gets a property from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> within the IDList as a variant, using the key.
+Gets a property from the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> within the IDList as a variant, using the key.
 
 
 ## -parameters
@@ -62,7 +63,7 @@ Gets a property from the <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -param pidl [in]
 
-A PIDL identifying the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>.
+A PIDL identifying the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
 
 
 ### -param pszName
@@ -77,14 +78,14 @@ A PIDL identifying the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-#### - rkey [in]
-
-The key for the selected property.
-
-
 #### - pvar [out]
 
 When this method returns, contains a pointer to the property. If <i>rkey</i> is not found, <i>pvar</i> will be <b>VT_EMPTY</b>.
+
+
+#### - rkey [in]
+
+The key for the selected property.
 
 
 ## -returns
@@ -118,7 +119,7 @@ This method is useful when using <a href="https://msdn.microsoft.com/f006828c-98
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>
 
 
 

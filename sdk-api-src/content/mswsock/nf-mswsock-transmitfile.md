@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -331,7 +332,7 @@ An operation was attempted on something that is not a socket. This error is retu
 <td width="60%">
 A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call. This error is returned if the socket has been shut down for sending. It is not possible to 
 call <a href="https://msdn.microsoft.com/45db763e-735d-48ac-a0e4-6e63b5dda7a5">TransmitFile</a> on a socket after 
-the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> function has been called on the socket with the <i>how</i> parameter set to <b>SD_SEND</b> or <b>SD_BOTH</b>.
+the <a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> function has been called on the socket with the <i>how</i> parameter set to <b>SD_SEND</b> or <b>SD_BOTH</b>.
 
 </td>
 </tr>

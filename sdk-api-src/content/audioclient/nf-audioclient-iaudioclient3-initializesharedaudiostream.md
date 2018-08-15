@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -74,9 +75,9 @@ Periodicity requested by the client. This value must  be an integral multiple of
 
 ### -param pFormat [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>*</b>
 
-Pointer to a format descriptor. This parameter must point to a valid format descriptor of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> or <b></b><a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>. For more information, see the Remarks section for <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>.
+Pointer to a format descriptor. This parameter must point to a valid format descriptor of type <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> or <b></b><a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>. For more information, see the Remarks section for <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>.
 
 
 ### -param AudioSessionGuid [in, optional]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,7 +95,7 @@ Adds a stream number to a record in the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/32bd09d7-9d85-4692-8b2f-6afab3234fa9">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the ASF mutual exclusion object.
@@ -121,7 +122,7 @@ Retrieves the stream numbers contained in a record in the ASF mutual exclusion o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of mutual exclusion represented by the ASF mutual exclusion object.
@@ -148,7 +149,7 @@ Removes a stream number from a record in the ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
+<a href="https://msdn.microsoft.com/58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of mutual exclusion that is represented by the ASF mutual exclusion object.

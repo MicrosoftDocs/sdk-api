@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			Intersect methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> class. For a complete list of methods for the 
+			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> class. For a complete list of methods for the 
 			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -75,7 +76,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534981(v=VS.85).aspx">Re
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms534980(v=VS.85).aspx">Rect::Intersect</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> object.
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object.
 
 </td>
 </tr>

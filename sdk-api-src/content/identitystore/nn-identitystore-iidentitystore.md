@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: identitystore.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -99,7 +100,7 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/en-us/library/windows/d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/c62212bf-852b-43fb-9abf-b85f4d15b305">GetAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <a href="https://msdn.microsoft.com/0f23e369-1501-4e72-94d1-dadb9dac5be6">IIdentityProvider</a> interface pointer for the specified identity provider.
@@ -108,7 +109,7 @@ Retrieves an <a href="https://msdn.microsoft.com/0f23e369-1501-4e72-94d1-dadb9da
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/f7f30ab9-f55d-44fa-9098-c6bf865125f8">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of identity providers registered on the system.
@@ -117,7 +118,7 @@ Gets the number of identity providers registered on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/3a01fde0-0ef6-401a-8af4-ee3310da568a">Reset</a>
 </td>
 <td align="left" width="63%">
 Sets the current index of the identity enumeration to zero.

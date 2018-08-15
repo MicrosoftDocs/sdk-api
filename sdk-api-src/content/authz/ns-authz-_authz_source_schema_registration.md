@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,7 +86,7 @@ Allows registration of  multiple sources with the same name.  Use of this flag  
 </dl>
 </td>
 <td width="60%">
-The caller is a migrated publisher that has registered a manifest with WEvtUtil.exe. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> of the provider specified by the <b>pProviderGuid</b> member is stored in the registry.
+The caller is a migrated publisher that has registered a manifest with WEvtUtil.exe. The <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> of the provider specified by the <b>pProviderGuid</b> member is stored in the registry.
 
 </td>
 </tr>
@@ -130,7 +131,7 @@ This member is reserved and must be set to <b>NULL</b>.
 
 ### -field DUMMYUNIONNAME.pProviderGuid
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
+The <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
 
 
 ### -field dwObjectTypeNameCount

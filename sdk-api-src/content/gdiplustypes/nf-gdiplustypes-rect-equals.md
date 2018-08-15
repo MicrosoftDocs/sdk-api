@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -94,7 +95,7 @@ Two rectangles are the same if their
 
 
 The following example creates two 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> objects, moves the second 
+						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> objects, moves the second 
 						<b>Rect</b> object horizontally by a specified value, and then determines whether the two 
 						<b>Rect</b> objects are the same.
 
@@ -128,7 +129,7 @@ if(rect2.Equals(rect1))
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

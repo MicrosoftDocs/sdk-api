@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -87,7 +88,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-This method performs a "deep copy" of the object; in other words it copies all sub-objects as well, including <a href="https://msdn.microsoft.com/library/windows/hardware/dn922646">Components</a>, <a href="https://msdn.microsoft.com/d1601651-84a2-4fd8-9318-653aa569e747">LanguageComponentType</a> objects, and so on.
+This method performs a "deep copy" of the object; in other words it copies all sub-objects as well, including <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a>, <a href="https://msdn.microsoft.com/d1601651-84a2-4fd8-9318-653aa569e747">LanguageComponentType</a> objects, and so on.
 
 
 

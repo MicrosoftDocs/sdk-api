@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The GLYPHDATA structure contains information about an individual glyph.
 
 ### -field gdf
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566822">GLYPHDEF</a> union that contains a pointer to either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566818">GLYPHBITS</a> structure or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure, depending on whether, respectively, the glyph data is in the form of a bitmap or an outline.
+Specifies a <a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a> union that contains a pointer to either a <a href="https://msdn.microsoft.com/d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b">GLYPHBITS</a> structure or a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure, depending on whether, respectively, the glyph data is in the form of a bitmap or an outline.
 
 
 ### -field hg
@@ -96,7 +97,7 @@ Specifies a FIX value containing the distance between the baseline and the ink b
 
 ### -field rclInk
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that describes the ink box in which the glyph fits. The sides of the ink box are parallel to the x and y axes.
+Specifies a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that describes the ink box in which the glyph fits. The sides of the ink box are parallel to the x and y axes.
 
 
 ### -field ptqD
@@ -120,15 +121,15 @@ For a description of the FIX data type, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566818">GLYPHBITS</a>
+<a href="https://msdn.microsoft.com/d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b">GLYPHBITS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566822">GLYPHDEF</a>
+<a href="https://msdn.microsoft.com/d1a7a02c-acaf-46b5-9ffe-fddbb01408a5">GLYPHDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a>
+<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -212,7 +213,7 @@ The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0, indicating purely
 
 ### -field Config4GroupedCoefs
 
-If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
+If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/f7ffe847-58ae-42a9-86fd-50a757134b45">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="https://msdn.microsoft.com/665a9819-d319-414d-9a31-ee565b293197">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
           
 
 

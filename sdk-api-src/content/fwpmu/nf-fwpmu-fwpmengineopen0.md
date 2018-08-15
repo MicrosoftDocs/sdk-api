@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -82,7 +83,7 @@ The authentication and authorization credentials for accessing the filter engine
 
 ### -param session [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff550083">FWPM_SESSION0</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9f259ab7-cec9-44c1-8914-2850235470b3">FWPM_SESSION0</a>*</b>
 
 Session-specific parameters for the session being opened. This pointer is optional and can be <b>NULL</b>. 
 
@@ -165,7 +166,7 @@ Failure to communicate with the remote or local firewall engine.
 
 A user application must call <b>FwpmEngineOpen0</b> to obtain a handle for open session to the filter engine before adding or removing any filter objects. A handle for an open session to the filter engine is also required for most of the other Windows Filtering Platform management functions.
 
-The session is automatically closed when the program ends. To explicitly close a session, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550072">FwpmEngineClose0</a>.
+The session is automatically closed when the program ends. To explicitly close a session, call <a href="https://msdn.microsoft.com/e96165a8-95ad-4cb0-9f45-e8af22f83a52">FwpmEngineClose0</a>.
 
 If <i>session</i>.<b>flags</b> is set to <b>FWPM_SESSION_FLAG_DYNAMIC</b>, any WFP objects added during the session are
 automatically deleted when the session ends. If the session is not dynamic, the caller needs to explicitly delete all WFP objects added during the session.
@@ -222,11 +223,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550083">FWPM_SESSION0</a>
+<a href="https://msdn.microsoft.com/9f259ab7-cec9-44c1-8914-2850235470b3">FWPM_SESSION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550072">FwpmEngineClose0</a>
+<a href="https://msdn.microsoft.com/e96165a8-95ad-4cb0-9f45-e8af22f83a52">FwpmEngineClose0</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -85,7 +86,7 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
 
 ### -param lpszGroupName [out, optional]
 
-Pointer to a buffer that receives the name of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> that 
+Pointer to a buffer that receives the name of the <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> that 
        contains the specified resource. The name is returned as a <b>NULL</b>-terminated Unicode 
        string. Pass <b>NULL</b> if the group name is not required.
 
@@ -139,7 +140,7 @@ See <a href="https://msdn.microsoft.com/de1d4ad2-3531-467e-a2e6-24d22514ce6e">Ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 
 
 
@@ -147,7 +148,7 @@ See <a href="https://msdn.microsoft.com/de1d4ad2-3531-467e-a2e6-24d22514ce6e">Ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 
 
 

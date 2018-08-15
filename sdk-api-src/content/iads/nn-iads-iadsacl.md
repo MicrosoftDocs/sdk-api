@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -90,7 +91,7 @@ Creates a new copy of the ACL.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">Privileges</a>
+<a href="https://msdn.microsoft.com/eb4786d7-d366-4924-8255-dc28ea47a246">Privileges</a>
 
 
 </td>

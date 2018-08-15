@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ The <b>IEnumPortableDeviceObjectIDs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/ecf4644f-299c-46e0-922c-16de35674222">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending operation on the interface.
@@ -82,7 +83,7 @@ Cancels a pending operation on the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/70287534-501f-480d-85ee-64049a0938fb">Clone</a>
 </td>
 <td align="left" width="63%">
 Duplicates the current <b>IEnumPortableDeviceObjectIDs</b> interface.
@@ -93,7 +94,7 @@ Duplicates the current <b>IEnumPortableDeviceObjectIDs</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/0a850b86-aeba-44b7-a686-9f3652a4c4ba">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next one or more object IDs in the enumeration sequence.
@@ -102,7 +103,7 @@ Retrieves the next one or more object IDs in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/506c138e-6836-458f-823c-68978f224625">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -111,7 +112,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/a55b9ccc-8d6b-49e6-af3d-ad7915aa3abd">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of objects in the enumeration sequence.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IAutoComplete</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/dd22d855-6ade-4e30-9d39-a4a6434e7185">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables autocompletion.
@@ -80,7 +81,7 @@ Enables or disables autocompletion.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/e5ee36b7-11b4-4eca-ae8e-eefa6245f287">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the autocomplete object.

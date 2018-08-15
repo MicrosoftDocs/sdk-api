@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -142,7 +143,7 @@ Another operation is in progress; this operation cannot proceed until the previo
 If an application holds a reference to the <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> interface 
     and calls <b>IVdsLun::Delete</b>, implementers should return 
     <b>VDS_E_OBJECT_DELETED</b> on subsequent calls to methods such as 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a> on that interface. In this case, 
+    <a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">GetProperties</a> on that interface. In this case, 
     the interface has an  outstanding reference and is valid, but the underlying object no longer exists.
    
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <b>DeviceId</b> property to uniquely identify a fax port. You can call the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188594">DeviceName</a> property to retrieve the user-friendly name for a port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
+A fax client application can use the <b>DeviceId</b> property to uniquely identify a fax port. You can call the <a href="https://msdn.microsoft.com/0768dd6f-bb55-45b4-bb87-b79d5c250a18">DeviceName</a> property to retrieve the user-friendly name for a port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
 
 
 
@@ -73,7 +74,7 @@ A fax client application can use the <b>DeviceId</b> property to uniquely identi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188594">DeviceName</a>
+<a href="https://msdn.microsoft.com/0768dd6f-bb55-45b4-bb87-b79d5c250a18">DeviceName</a>
 
 
 

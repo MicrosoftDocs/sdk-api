@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -160,14 +161,14 @@ The function instance could not be returned because the key corresponding to the
 </table>
  
 
-A predefined query is a query of a layered <a href="https://msdn.microsoft.com/476df2f0-6ed0-4275-90e7-752d7279bf1b">category</a>. When a predefined query is executed, each provider that returns a function instance also returns an HRESULT value. The provider HRESULT values  are aggregated, and the value returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>  method reflects these aggregate results. Results are aggregated as follows:
+A predefined query is a query of a layered <a href="https://msdn.microsoft.com/476df2f0-6ed0-4275-90e7-752d7279bf1b">category</a>. When a predefined query is executed, each provider that returns a function instance also returns an HRESULT value. The provider HRESULT values  are aggregated, and the value returned by the <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>  method reflects these aggregate results. Results are aggregated as follows:
 
 <ul>
-<li>If all providers return S_OK, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>   returns S_OK.</li>
-<li>If at least one provider returns E_PENDING, and all other providers return either S_OK or E_PENDING, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>   returns E_PENDING.</li>
-<li>If all providers return an error value (that is, a value other than S_OK or E_PENDING), <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a> returns the error value returned by the network provider that was last queried. Also, if the client's  <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> callback routine was provided to <a href="https://msdn.microsoft.com/46f74e55-8060-4f02-85e3-dbd2fc8fce78">IFunctionDiscovery::CreateInstanceCollectionQuery</a>, an <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a>  notification is sent for each provider. Each   <b>OnError</b> notification contains the HRESULT returned by the provider.</li>
-<li>If at least one provider returns an error value, and all other providers return S_OK, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>   returns S_OK. <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a>  notification(s) are sent as described above.</li>
-<li>If at least one provider returns an error value, and at least one provider returns E_PENDING, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a> returns E_PENDING.  <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a> notification(s) are sent as described above.</li>
+<li>If all providers return S_OK, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>   returns S_OK.</li>
+<li>If at least one provider returns E_PENDING, and all other providers return either S_OK or E_PENDING, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>   returns E_PENDING.</li>
+<li>If all providers return an error value (that is, a value other than S_OK or E_PENDING), <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a> returns the error value returned by the network provider that was last queried. Also, if the client's  <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> callback routine was provided to <a href="https://msdn.microsoft.com/46f74e55-8060-4f02-85e3-dbd2fc8fce78">IFunctionDiscovery::CreateInstanceCollectionQuery</a>, an <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a>  notification is sent for each provider. Each   <b>OnError</b> notification contains the HRESULT returned by the provider.</li>
+<li>If at least one provider returns an error value, and all other providers return S_OK, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a>   returns S_OK. <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a>  notification(s) are sent as described above.</li>
+<li>If at least one provider returns an error value, and at least one provider returns E_PENDING, <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a> returns E_PENDING.  <a href="https://msdn.microsoft.com/c4dcc4e9-7acf-44d3-b337-1ac01afa19b0">OnError</a> notification(s) are sent as described above.</li>
 </ul>
 
 

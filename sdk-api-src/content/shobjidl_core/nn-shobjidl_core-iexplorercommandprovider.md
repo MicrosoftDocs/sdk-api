@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IExplorerCommandProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545677">GetCommand</a>
+<a href="https://msdn.microsoft.com/8ef1fb9d-03ed-4e1a-bc13-9f5caab2abb9">GetCommand</a>
 </td>
 <td align="left" width="63%">
 Gets a specified Explorer command instance.

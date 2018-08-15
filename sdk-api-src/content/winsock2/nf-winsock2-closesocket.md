@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -166,7 +167,7 @@ Any pending overlapped send and receive operations (
 <a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a> with an overlapped socket) issued by any thread in this process are also canceled. Any event, completion routine, or completion port action specified for these overlapped operations is performed. The pending overlapped operations fail with the error status 
 <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_OPERATION_ABORTED</a>.
 
-An application should not assume that any outstanding I/O operations on a socket will all be guaranteed to completed when <b>closesocket</b> returns. The <b>closesocket</b> function will initiate cancellation on the outstanding I/O operations, but that does not mean that an application will receive I/O completion for these I/O operations by the time the <b>closesocket</b> function returns. Thus, an application should not cleanup any resources (<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structures, for example) referenced by the outstanding I/O requests until the I/O requests are indeed completed.
+An application should not assume that any outstanding I/O operations on a socket will all be guaranteed to completed when <b>closesocket</b> returns. The <b>closesocket</b> function will initiate cancellation on the outstanding I/O operations, but that does not mean that an application will receive I/O completion for these I/O operations by the time the <b>closesocket</b> function returns. Thus, an application should not cleanup any resources (<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structures, for example) referenced by the outstanding I/O requests until the I/O requests are indeed completed.
 
  
 
@@ -264,7 +265,7 @@ The <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">ge
 
 
 <div class="alert"><b>Note</b>  To assure that all data is sent and received on a connection, an application should call 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> before calling 
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> before calling 
 <b>closesocket</b> (see 
 <a href="https://msdn.microsoft.com/383747c3-dd3d-4a18-b4e8-2815d5e5c0c7">Graceful shutdown, linger options, and socket closure</a> for more information). Also note, an FD_CLOSE network event is not posted after 
 <b>closesocket</b> is called.</div>
@@ -313,7 +314,7 @@ The following are important issues associated with connection teardown when usin
 <ul>
 <li>Using the 
 <b>closesocket</b> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> functions with SD_SEND or SD_BOTH results in a RELEASE signal being sent out on the control channel. Due to ATM's use of separate signal and data channels, it is possible that a RELEASE signal could reach the remote end before the last of the data reaches its destination, resulting in a loss of that data. One possible solutions is programming a sufficient delay between the last data sent and the <b>closesocket</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> function calls for an ATM socket.</li>
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> functions with SD_SEND or SD_BOTH results in a RELEASE signal being sent out on the control channel. Due to ATM's use of separate signal and data channels, it is possible that a RELEASE signal could reach the remote end before the last of the data reaches its destination, resulting in a loss of that data. One possible solutions is programming a sufficient delay between the last data sent and the <b>closesocket</b> or <a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> function calls for an ATM socket.</li>
 <li>Half close is not supported by ATM.</li>
 <li>Both abortive and graceful disconnects result in a RELEASE signal being sent out with the same cause field. In either case, received data at the remote end of the socket is still delivered to the application. See 
 <a href="https://msdn.microsoft.com/383747c3-dd3d-4a18-b4e8-2815d5e5c0c7">Graceful Shutdown, Linger Options, and Socket Closure</a> for more information.</li>
@@ -344,7 +345,7 @@ The following are important issues associated with connection teardown when usin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a>
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a>
 
 
 

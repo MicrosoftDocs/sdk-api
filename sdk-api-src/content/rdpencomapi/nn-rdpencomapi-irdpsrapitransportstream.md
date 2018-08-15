@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -80,7 +81,7 @@ Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/1c9ddc69-bc40-4c75-b4ff-3ff622dcf76c">Close</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to close the stream.
@@ -98,7 +99,7 @@ Called by the RDP stack to return a stream buffer to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/55d53ed6-8046-4605-b543-ab0e5ad8d8f7">Open</a>
 </td>
 <td align="left" width="63%">
 Called by the RDP stack to start the stream and indicate that the RDP stack is ready to receive notifications of events.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ The <b>ID3D11VideoProcessorEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451616">CheckVideoProcessorFormat</a>
+<a href="https://msdn.microsoft.com/75DE439B-6849-4413-BF7D-0EBADA96F097">CheckVideoProcessorFormat</a>
 </td>
 <td align="left" width="63%">
 Queries whether the video processor supports a specified video format.
@@ -79,7 +80,7 @@ Queries whether the video processor supports a specified video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451674">GetVideoProcessorCaps</a>
+<a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the video processor.
@@ -97,7 +98,7 @@ Gets the content description that was used to create this enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451676">GetVideoProcessorCustomRate</a>
+<a href="https://msdn.microsoft.com/0FA868E6-B0FB-433B-A183-72DDE39B207E">GetVideoProcessorCustomRate</a>
 </td>
 <td align="left" width="63%">
 Gets a list of custom frame rates that a video processor supports.
@@ -106,7 +107,7 @@ Gets a list of custom frame rates that a video processor supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451689">GetVideoProcessorFilterRange</a>
+<a href="https://msdn.microsoft.com/F43A01D7-A0FE-4509-B3B2-094B09A7F04A">GetVideoProcessorFilterRange</a>
 </td>
 <td align="left" width="63%">
 Gets the range of values for an image filter.
@@ -115,7 +116,7 @@ Gets the range of values for an image filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451690">GetVideoProcessorRateConversionCaps</a>
+<a href="https://msdn.microsoft.com/2DB74CB9-C6B3-477A-9EF9-6E2EC1DE37D6">GetVideoProcessorRateConversionCaps</a>
 </td>
 <td align="left" width="63%">
 Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.

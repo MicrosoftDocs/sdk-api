@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -110,7 +111,7 @@ Do not open the file for reading until BITS begins transferring the file; otherw
 
  The temporary file is available until the application calls the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> or <a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">IBackgroundCopyJob::Cancel</a> method, or the JobInactivityTimeout group policy expires. You must release your handle to the temporary file before calling the <b>Complete</b> or <b>Cancel</b> method.
 
-The ACL for the temporary file is the same as that of the final file when <a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a> is called (the ACL is inherited from the folder). 
+The ACL for the temporary file is the same as that of the final file when <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> is called (the ACL is inherited from the folder). 
 
 To determine if BITS finished transferring the file, you can:
 

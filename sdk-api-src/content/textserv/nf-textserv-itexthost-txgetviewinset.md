@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -64,7 +65,7 @@ Requests the dimensions of the white space inset around the text in the text hos
 Type: <b>LPRECT</b>
 
 The inset size, in client coordinates. The top, bottom, left, and right members of the 
-					<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure indicate how far in each direction the drawing should be inset. 
+					<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure indicate how far in each direction the drawing should be inset. 
 
 
 ## -returns
@@ -84,7 +85,7 @@ The return value is <b>S_OK</b>.
 
 The view inset is the amount of space on each side between the client rectangle and the view rectangle. The view rectangle (also called the Formatting rectangle) is the rectangle in which the text should be formatted .
 
-The view insets are passed in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure, but this is not really a rectangle. It should be treated as four independent values to subtract on each side of the client rectangle to figure the view rectangle.
+The view insets are passed in a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure, but this is not really a rectangle. It should be treated as four independent values to subtract on each side of the client rectangle to figure the view rectangle.
 
 The view insets are passed in HIMETRIC (each HIMETRIC unit corresponds to 0.01 millimeter) so that they do not depend on the client rectangle and the rendering device context.
 

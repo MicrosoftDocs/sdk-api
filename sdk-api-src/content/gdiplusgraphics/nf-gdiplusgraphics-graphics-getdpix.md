@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetDpiX</b> method gets the horizontal resolution, in dots per inch, of the display device associated with this 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 This method returns the horizontal resolution, in dots per inch, of the display device associated with this 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 
@@ -84,7 +85,7 @@ This method returns the horizontal resolution, in dots per inch, of the display 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

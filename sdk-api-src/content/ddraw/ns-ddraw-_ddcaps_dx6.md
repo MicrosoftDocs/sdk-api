@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://msdn.microsoft.com/4e93612c-9e28-4d51-a640-e8e9b5ed8e7a">IDirectDraw7::GetCaps</a> method.
+The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://msdn.microsoft.com/4e93612c-9e28-4d51-a640-e8e9b5ed8e7a">IDirectDraw7::GetCaps</a> method.
 
 
 
@@ -966,7 +967,7 @@ Raster operations supported.
 
 #### - ddsOldCaps
 
-Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure).
+Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure).
 
 
 ### -field dwMinOverlayStretch
@@ -1117,7 +1118,102 @@ Raster operations supported for bitblts from nonlocal to local video memory.
 
 ### -field ddsCaps
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure that contains general surface capabilities.
+A <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that contains general surface capabilities.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTBLT
+
+Supports transparent blitting with a color key that identifies the replaceable bits of the destination surface for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTBLTCLRSPACE
+
+Supports transparent blitting with a color space that identifies the replaceable bits of the destination surface for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTBLTCLRSPACEYUV
+
+Supports transparent blitting with a color space that identifies the replaceable bits of the destination surface for YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTBLTYUV
+
+Supports transparent blitting with a color key that identifies the replaceable bits of the destination surface for YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAY
+
+Supports overlaying with color keying of the replaceable bits of the destination surface to be overlaid for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYCLRSPACE
+
+Supports a color space as the color key for the destination of RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYCLRSPACEYUV
+
+Supports a color space as the color key for the destination of YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYONEACTIVE
+
+Supports only one active destination color key value for visible overlay surfaces.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYYUV
+
+Supports overlaying, using color keying of the replaceable bits of the destination surface to be overlaid for YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_NOCOSTOVERLAY
+
+Indicates that there are no bandwidth trade-offs for using the color key with an overlay.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCBLT
+
+Supports transparent blitting, using the color key for the source with this surface for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCBLTCLRSPACE
+
+Supports transparent blitting, using a color space for the source with this surface for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCBLTCLRSPACEYUV
+
+Supports transparent blitting, using a color space for the source with this surface for YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCBLTYUV
+
+Supports transparent blitting, using the color key for the source with this surface for YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAY
+
+Supports overlaying, using the color key for the source with this overlay surface for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYCLRSPACE
+
+Supports overlaying, using a color space as the source color key for the overlay surface for RGB colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYCLRSPACEYUV
+
+Supports overlaying, using a color space as the source color key for the overlay surface for YUV colors.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYONEACTIVE
+
+Supports only one active source color key value for visible overlay surfaces.
+
+
+##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYYUV
+
+Supports overlaying, using the color key for the source with this overlay surface for YUV colors.
 
 
 ##### - dwCaps.DDCAPS_3D
@@ -1325,14 +1421,14 @@ The driver is capable of rendering in windowed mode.
 Display hardware is certified.
 
 
-##### - dwCaps2.DDCAPS2_COLORCONTROLPRIMARY
-
-The primary surface contains color controls (for instance, gamma).
-
-
 ##### - dwCaps2.DDCAPS2_COLORCONTROLOVERLAY
 
 The overlay surface contains color controls (such as brightness and sharpness).
+
+
+##### - dwCaps2.DDCAPS2_COLORCONTROLPRIMARY
+
+The primary surface contains color controls (for instance, gamma).
 
 
 ##### - dwCaps2.DDCAPS2_COPYFOURCC
@@ -1396,99 +1492,54 @@ Display hardware supports live video.
 The display surface supports surfaces wider than the primary surface.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_DESTBLT
+##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHAEDGEBLEND
 
-Supports transparent blitting with a color key that identifies the replaceable bits of the destination surface for RGB colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_DESTBLTCLRSPACE
-
-Supports transparent blitting with a color space that identifies the replaceable bits of the destination surface for RGB colors.
+Supports alpha blending around the edge of a source color-keyed surface. Used for bitblt operations.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_DESTBLTCLRSPACEYUV
+##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHAPIXELS
 
-Supports transparent blitting with a color space that identifies the replaceable bits of the destination surface for YUV colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_DESTBLTYUV
-
-Supports transparent blitting with a color key that identifies the replaceable bits of the destination surface for YUV colors.
+Supports alpha information in pixel format. The bit depth of alpha information in the pixel format can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for bitblt operations.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAY
+##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHAPIXELSNEG
 
-Supports overlaying with color keying of the replaceable bits of the destination surface to be overlaid for RGB colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYCLRSPACE
-
-Supports a color space as the color key for the destination of RGB colors.
+Supports alpha information in pixel format. The bit depth of alpha information in the pixel format can be 1, 2, 4, or 8. The alpha value becomes more transparent as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA is set. Used for bitblt operations.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYCLRSPACEYUV
+##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHASURFACES
 
-Supports a color space as the color key for the destination of YUV colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYONEACTIVE
-
-Supports only one active destination color key value for visible overlay surfaces.
+Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for bitblt operations.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_DESTOVERLAYYUV
+##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHASURFACESNEG
 
-Supports overlaying, using color keying of the replaceable bits of the destination surface to be overlaid for YUV colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_NOCOSTOVERLAY
-
-Indicates that there are no bandwidth trade-offs for using the color key with an overlay.
+Indicates that the alpha channel becomes more transparent as the alpha value increases. The depth of the alpha channel-data can be 1, 2, 4, or 8. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be set only if DDCAPS_ALPHA has been set. Used for bitblt operations.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_SRCBLT
+##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHAEDGEBLEND
 
-Supports transparent blitting, using the color key for the source with this surface for RGB colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_SRCBLTCLRSPACE
-
-Supports transparent blitting, using a color space for the source with this surface for RGB colors.
+Supports alpha blending around the edge of a source color-keyed surface. Used for overlays.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_SRCBLTCLRSPACEYUV
+##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHAPIXELS
 
-Supports transparent blitting, using a color space for the source with this surface for YUV colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_SRCBLTYUV
-
-Supports transparent blitting, using the color key for the source with this surface for YUV colors.
+Supports alpha information in pixel format. The bit depth of alpha information in pixel format can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for overlays.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAY
+##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHAPIXELSNEG
 
-Supports overlaying, using the color key for the source with this overlay surface for RGB colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYCLRSPACE
-
-Supports overlaying, using a color space as the source color key for the overlay surface for RGB colors.
+Supports alpha information in pixel format. The bit depth of alpha information in pixel format can be 1, 2, 4, or 8. The alpha value becomes more transparent as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA has been set. Used for overlays.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYCLRSPACEYUV
+##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHASURFACES
 
-Supports overlaying, using a color space as the source color key for the overlay surface for YUV colors.
-
-
-##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYONEACTIVE
-
-Supports only one active source color key value for visible overlay surfaces.
+Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for overlays.
 
 
-##### - dwCKeyCaps.DDCKEYCAPS_SRCOVERLAYYUV
+##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHASURFACESNEG
 
-Supports overlaying, using the color key for the source with this overlay surface for YUV colors.
+Indicates that the alpha channel becomes more transparent as the alpha value increases. The depth of the alpha-channel data can be 1, 2, 4, or 8. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA has been set. Used for overlays.
 
 
 ##### - dwFXCaps.DDFXCAPS_BLTALPHA
@@ -1651,56 +1702,6 @@ Supports integer stretching (×1, ×2, and so on) of a surface along the y-axis 
 Supports geometric transformations (or warps) for overlay sprites. Transformations are not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="https://msdn.microsoft.com/8706c6ca-cd17-490a-8ff9-9470a7d7a150">IDirectDrawSurface7::UpdateOverlay</a>).
 
 
-##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHAEDGEBLEND
-
-Supports alpha blending around the edge of a source color-keyed surface. Used for bitblt operations.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHAPIXELS
-
-Supports alpha information in pixel format. The bit depth of alpha information in the pixel format can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for bitblt operations.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHAPIXELSNEG
-
-Supports alpha information in pixel format. The bit depth of alpha information in the pixel format can be 1, 2, 4, or 8. The alpha value becomes more transparent as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA is set. Used for bitblt operations.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHASURFACES
-
-Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for bitblt operations.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_BLTALPHASURFACESNEG
-
-Indicates that the alpha channel becomes more transparent as the alpha value increases. The depth of the alpha channel-data can be 1, 2, 4, or 8. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be set only if DDCAPS_ALPHA has been set. Used for bitblt operations.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHAEDGEBLEND
-
-Supports alpha blending around the edge of a source color-keyed surface. Used for overlays.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHAPIXELS
-
-Supports alpha information in pixel format. The bit depth of alpha information in pixel format can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for overlays.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHAPIXELSNEG
-
-Supports alpha information in pixel format. The bit depth of alpha information in pixel format can be 1, 2, 4, or 8. The alpha value becomes more transparent as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA has been set. Used for overlays.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHASURFACES
-
-Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for overlays.
-
-
-##### - dwFXAlphaCaps.DDFXALPHACAPS_OVERLAYALPHASURFACESNEG
-
-Indicates that the alpha channel becomes more transparent as the alpha value increases. The depth of the alpha-channel data can be 1, 2, 4, or 8. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA has been set. Used for overlays.
-
-
 ##### - dwPalCaps.DDPCAPS_1BIT
 
 Supports palettes that contain 1-bit color entries (two colors).
@@ -1726,14 +1727,14 @@ Supports palettes that contain 8-bit color entries (256 colors).
 Specifies an index to an 8-bit color index. This field is valid only when used with the DDPCAPS_1BIT, DDPCAPS_2BIT, or DDPCAPS_4BIT capability and when the target surface is 8 bits per pixel (bpp). Each color entry is 1 byte long and is an index to an 8-bpp palette on the destination surface.
 
 
-##### - dwPalCaps.DDPCAPS_ALPHA
-
-Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
-
-
 ##### - dwPalCaps.DDPCAPS_ALLOW256
 
 Supports palettes that can have all 256 entries defined.
+
+
+##### - dwPalCaps.DDPCAPS_ALPHA
+
+Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://msdn.microsoft.com/6430e7cf-c9f2-4376-8b17-28c10d9d0f00">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
 
 
 ##### - dwPalCaps.DDPCAPS_PRIMARYSURFACE

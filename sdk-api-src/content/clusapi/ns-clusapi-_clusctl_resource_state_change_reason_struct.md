@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -87,7 +88,7 @@ This reason code is never sent by the cluster.
          local 
          <b>CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</b> 
          structure and to reset the <b>eReason</b> member of this structure before returning from 
-         the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> 
+         the <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> 
          and <a href="https://msdn.microsoft.com/b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3">Terminate</a> entry point functions. For more 
          information, see 
          <a href="https://msdn.microsoft.com/3261c8eb-b88b-428a-8a2b-684e0967f9de">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a>.
@@ -97,8 +98,8 @@ This reason code is never sent by the cluster.
 #### eResourceStateChangeReasonMove (1)
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> is about to be called because the 
-         <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a> <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> is being moved.
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> is about to be called because the 
+         <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a> <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> is being moved.
 
 
 
@@ -113,7 +114,7 @@ This reason code is never sent by the cluster.
 #### eResourceStateChangeReasonFailedMove (3)
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> is about to be called because the resource's 
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Online</a> is about to be called because the resource's 
          group did not successfully complete a move operation.
 
 
@@ -121,7 +122,7 @@ This reason code is never sent by the cluster.
 #### eResourceStateChangeReasonShutdown (4)
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> is about to be called because the 
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> is about to be called because the 
          <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> is being shut down.
 
 

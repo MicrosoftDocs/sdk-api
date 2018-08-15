@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -80,7 +81,7 @@ Gets a 4-byte value that provides information about either a request or requeste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597612">GetGuidValue</a>
+<a href="https://msdn.microsoft.com/4cbfaa8c-80f1-49c6-91aa-17764559da8b">GetGuidValue</a>
 </td>
 <td align="left" width="63%">
 Currently not supported.
@@ -89,7 +90,7 @@ Currently not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597621">GetStringValue</a>
+<a href="https://msdn.microsoft.com/c3b0dcd2-2195-4e09-aac4-073a3d848fa9">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Gets a string that provides information about either a request or requester.

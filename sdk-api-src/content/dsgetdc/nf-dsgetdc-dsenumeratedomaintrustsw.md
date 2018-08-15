@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -116,13 +117,6 @@ Pointer to a <b>PDS_DOMAIN_TRUSTS</b> value that receives an array of <a href="h
 Pointer to a <b>ULONG</b> value that receives the number of elements returned in the <i>Domains</i> array.
 
 
-#### - ServerName [in, optional]
-
-Pointer to a null-terminated string that specifies the name of a computer in the domain to obtain the trust information for. If this parameter is <b>NULL</b>, the name of the local computer is used. The caller must be an authenticated user in this domain.
-
-If this computer is a domain controller, this function returns the trust data immediately. If this computer is not a domain controller, this function  obtains the trust data  from cached data if the cached data is not expired. If the cached data is expired, this function obtains the trust data from a domain controller in the domain that this computer is a member of and updates the cache. The cached data automatically expires after five minutes.
-
-
 ##### - Flags.DS_DOMAIN_DIRECT_INBOUND
 
 Enumerate domains that directly trust the domain which has <i>ServerName</i> as a member.
@@ -151,6 +145,13 @@ Enumerate domains that are the primary domain of the domain which has <i>ServerN
 ##### - Flags.DS_DOMAIN_TREE_ROOT
 
 Enumerate domains that are at the root of the forest which has <i>ServerName</i> as a member.
+
+
+#### - ServerName [in, optional]
+
+Pointer to a null-terminated string that specifies the name of a computer in the domain to obtain the trust information for. If this parameter is <b>NULL</b>, the name of the local computer is used. The caller must be an authenticated user in this domain.
+
+If this computer is a domain controller, this function returns the trust data immediately. If this computer is not a domain controller, this function  obtains the trust data  from cached data if the cached data is not expired. If the cached data is expired, this function obtains the trust data from a domain controller in the domain that this computer is a member of and updates the cache. The cached data automatically expires after five minutes.
 
 
 ## -returns

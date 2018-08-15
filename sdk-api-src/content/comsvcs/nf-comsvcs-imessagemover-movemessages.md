@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Messages are moved one at a time unless both the source and destination queue are transacted. In this case, <a href="https://msdn.microsoft.com/7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534">CommitBatchSize</a> specifies the number of messages that are moved before <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a> is invoked. There is no provision for moving fewer than all of the messages on the queue.
+Messages are moved one at a time unless both the source and destination queue are transacted. In this case, <a href="https://msdn.microsoft.com/7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534">CommitBatchSize</a> specifies the number of messages that are moved before <a href="https://msdn.microsoft.com/3945fdf1-6361-413e-9621-18871ded47a4">Commit</a> is invoked. There is no provision for moving fewer than all of the messages on the queue.
 
 
 

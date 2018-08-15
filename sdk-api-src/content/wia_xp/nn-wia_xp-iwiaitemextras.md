@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629970(v=VS.85).aspx">IW
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637428">Escape</a>
+<a href="https://msdn.microsoft.com/805921e8-a460-4087-93ad-8dfce5ea9dbd">Escape</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629973(v=VS.85).aspx">IWiaItemExtras::Escape</a> method sends a request for a vendor-specific I/O operation to a still image device.

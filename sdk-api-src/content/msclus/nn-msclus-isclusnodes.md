@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
 
 Provides 
     access to the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> in a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance
@@ -97,7 +98,7 @@ Refreshes the data in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/4447f636-f1be-4175-ac26-0c0beb4dac01">Count</a>
 
 
 </td>
@@ -113,7 +114,7 @@ Returns the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/5cb658c3-4eaa-482d-b467-04c1f65ed8a0">Item</a>
 
 
 </td>

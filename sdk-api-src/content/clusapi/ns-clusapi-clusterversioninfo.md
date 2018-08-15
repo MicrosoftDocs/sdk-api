@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -97,7 +98,7 @@ Contains the latest service pack installed on the node. If a Service Pack has no
 ### -field dwClusterHighestVersion
 
 Identifies the highest version of the Cluster service with which the Cluster service installed on the local 
-      node can join to form a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+      node can join to form a <a href="c_gly.htm">cluster</a>.
 
 
 ### -field dwClusterLowestVersion

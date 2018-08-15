@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdVideoPortGetInputFormats</b> callback function determines the input for
 
 #### - lpGetInputFormats
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551607">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
+Points to a <a href="https://msdn.microsoft.com/d8cdfb24-0914-4e1f-bbdd-7bba31976ba0">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
 
 
 ## -returns
@@ -91,7 +92,7 @@ DirectDraw calls <b>DdVideoPortGetInputFormats</b> to obtain the number of input
 
 <ul>
 <li>
-In the first call, the <b>lpddpfFormat</b> member of the DD_GETVPORTINPUTFORMATDATA structure at <i>lpGetInputFormats</i> is <b>NULL</b>. The driver should write the number of input formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTINPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetInputFormats</b>.
+In the first call, the <b>lpddpfFormat</b> member of the DD_GETVPORTINPUTFORMATDATA structure at <i>lpGetInputFormats</i> is <b>NULL</b>. The driver should write the number of input formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTINPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetInputFormats</b>.
 
 </li>
 <li>
@@ -109,11 +110,11 @@ If the <b>dwFlags</b> member of the DD_GETVPORTINPUTFORMATDATA structure is set 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a>
+<a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551607">DD_GETVPORTINPUTFORMATDATA</a>
+<a href="https://msdn.microsoft.com/d8cdfb24-0914-4e1f-bbdd-7bba31976ba0">DD_GETVPORTINPUTFORMATDATA</a>
  
 
  

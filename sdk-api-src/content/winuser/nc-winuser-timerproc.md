@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,18 +79,18 @@ An application-defined callback function that processes <a href="https://msdn.mi
 
 
 
+#### - dwTime [in]
+
+Type: <b>DWORD</b>
+
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
+
+
 #### - hwnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window associated with the timer. 
-
-
-#### - uMsg [in]
-
-Type: <b>UINT</b>
-
-The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
 
 
 #### - idEvent [in]
@@ -99,11 +100,11 @@ Type: <b>UINT_PTR</b>
 The timer's identifier. 
 
 
-#### - dwTime [in]
+#### - uMsg [in]
 
-Type: <b>DWORD</b>
+Type: <b>UINT</b>
 
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
 
 
 ## -returns
@@ -136,7 +137,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564648">Timers</a>
+<a href="https://msdn.microsoft.com/be335927-a78d-4023-bedb-94aaf3a561ae">Timers</a>
 
 
 

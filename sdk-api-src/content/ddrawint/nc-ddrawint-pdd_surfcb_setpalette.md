@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdSetPalette</b> callback function attaches a palette to the specified su
 
 #### - lpSetPalette
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551711">DD_SETPALETTEDATA</a> structure that contains the information required to set a palette to the specified surface.
+Points to a <a href="https://msdn.microsoft.com/943af430-19b2-481a-9cac-cd4cb767d96a">DD_SETPALETTEDATA</a> structure that contains the information required to set a palette to the specified surface.
 
 
 ## -returns
@@ -86,7 +87,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55171
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551711">DD_SETPALETTEDATA</a>
+<a href="https://msdn.microsoft.com/943af430-19b2-481a-9cac-cd4cb767d96a">DD_SETPALETTEDATA</a>
  
 
  

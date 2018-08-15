@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -219,7 +220,7 @@ It is possible for a file to be temporarily immovable. For this reason, an appli
 
 If the <i>ullDesiredNumberOfReclaimableBytes</i> and <i>ullMinNumberOfReclaimableBytes</i> parameters are both zero, the <b>Shrink</b> method will shrink the volume by as much as possible.
 
-Shrink and <a href="https://msdn.microsoft.com/library/windows/hardware/dn922720">extend</a> operations are supported only on NTFS and RAW volumes.
+Shrink and <a href="https://msdn.microsoft.com/8f31dd3e-0c06-49fe-8ff2-55cfabe5099e">extend</a> operations are supported only on NTFS and RAW volumes.
 
 Use this method to shrink the file system and volume. If VDS fails to shrink the volume, it stops the operation without shrinking the file system.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -106,7 +107,7 @@ Receives the percentage of the WDS client’s CPU utilization.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/3a19e711-ea4a-4b9d-b9ef-30dcd1c42d4e">Id</a>
 
 
 </td>
@@ -122,7 +123,7 @@ Receives a unique client ID that identifies this WDS client on the WDS server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895678">IpAddress</a>
+<a href="https://msdn.microsoft.com/1e2d0da1-9362-4187-9ccc-80522d109c83">IpAddress</a>
 
 
 </td>
@@ -186,7 +187,7 @@ Receives the percentage of the WDS client’s memory in use.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/e0517a4e-5312-4663-955d-1a2892492308">Name</a>
 
 
 </td>

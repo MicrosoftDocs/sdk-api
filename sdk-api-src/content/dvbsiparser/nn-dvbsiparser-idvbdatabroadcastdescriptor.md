@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -135,7 +136,7 @@ Gets the tag that identifies a DVB data broadcast descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/3b25a5fa-5829-4c7f-8858-59fdddccdc65">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the text description from a DVB data broadcast descriptor.

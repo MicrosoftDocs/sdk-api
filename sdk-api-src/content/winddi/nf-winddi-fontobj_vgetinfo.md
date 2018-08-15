@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>FONTOBJ_vGetInfo</b> function retrieves information about an associated f
 
 ### -param pfo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure to be queried.
+Pointer to the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure to be queried.
 
 
 ### -param cjSize [in]
@@ -71,7 +72,7 @@ Specifies the size in bytes of the buffer pointed to by <i>pfi</i>.
 
 ### -param pfi
 
-Pointer to a buffer previously allocated by the driver. GDI writes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565970">FONTINFO</a> structure to this buffer.
+Pointer to a buffer previously allocated by the driver. GDI writes a <a href="https://msdn.microsoft.com/fdb1539a-f8cb-41fd-bad2-d84c6663b1bb">FONTINFO</a> structure to this buffer.
 
 
 ## -returns
@@ -88,11 +89,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565970">FONTINFO</a>
+<a href="https://msdn.microsoft.com/fdb1539a-f8cb-41fd-bad2-d84c6663b1bb">FONTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
  
 
  

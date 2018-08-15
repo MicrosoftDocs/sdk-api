@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,9 +69,9 @@ Pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736
 
 ### -param pStore [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> that represents the property values to be applied to the file. This can be the property store returned by <a href="https://msdn.microsoft.com/734a1bf9-ff63-48a5-9508-3a576ea24ab7">IFileSaveDialog::GetProperties</a>.
+Pointer to the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> that represents the property values to be applied to the file. This can be the property store returned by <a href="https://msdn.microsoft.com/734a1bf9-ff63-48a5-9508-3a576ea24ab7">IFileSaveDialog::GetProperties</a>.
 
 
 ### -param hwnd [in]

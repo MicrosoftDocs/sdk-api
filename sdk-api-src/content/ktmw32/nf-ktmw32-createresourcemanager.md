@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -79,11 +80,6 @@ A handle to the TM that will manage the transactions for this RM.
 A description for this RM.
 
 
-#### - lpResourceManagerAttributes [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
-
-
 #### - CreateOptions [in, optional]
 
 Any optional attributes for the new RM.  
@@ -105,6 +101,11 @@ Indicates that the RM is volatile, and does not perform recovery.
 </tr>
 </table>
  
+
+
+#### - lpResourceManagerAttributes [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,19 +66,19 @@ The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This m
 
 
 
-#### - dwID
-
-Indicates the joystick ID number being used. 
-
-
 #### - dwEffect
 
 Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect. 
 
 
+#### - dwID
+
+Indicates the joystick ID number being used. 
+
+
 #### - pesc
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538462">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used. 
+Points to a <a href="https://msdn.microsoft.com/97d452b2-aa25-46a9-a755-dc835270c818">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used. 
 
 
 ## -returns

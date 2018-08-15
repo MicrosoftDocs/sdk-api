@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -99,7 +100,7 @@ Specifies the number of bytes to allocate.
 
 ### -param tag [in]
 
-Specifies a 4-byte <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
+Specifies a 4-byte <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="https://msdn.microsoft.com/a9951e7b-60a2-4bf2-913c-b7291d7c3173">ExAllocatePoolWithTag</a>.
 
 
 ## -remarks
@@ -116,7 +117,7 @@ When the memory is no longer needed, it should be freed by a call to the <b>EngF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564895">EngFreeMem</a>
+<a href="https://msdn.microsoft.com/04428d7e-4150-4e68-a660-0a9e246c82ae">EngFreeMem</a>
  
 
  

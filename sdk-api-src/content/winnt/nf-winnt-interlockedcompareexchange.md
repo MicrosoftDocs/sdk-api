@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -58,7 +59,7 @@ req.product: Windows Address Book 5.0
 Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 32-bit values and exchanges with another 32-bit value based on the outcome of the comparison.
 
 If you are exchanging pointer values, this function has been superseded by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547863">InterlockedCompareExchangePointer</a> function.
+<a href="https://msdn.microsoft.com/15c1fadd-9e0d-4254-ae14-82b0ce46909e">InterlockedCompareExchangePointer</a> function.
 
 To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/b0799de3-49f9-4eef-9c14-d145f42ce57b">InterlockedCompareExchange64</a> function.
 
@@ -112,7 +113,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547857">InterlockedCompareExchangeAcquire</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547867">InterlockedCompareExchangeRelease</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/6cb7d17b-dfda-431e-9c74-cc42d62202ba">InterlockedCompareExchangeAcquire</a> or <a href="https://msdn.microsoft.com/3e35f752-dc58-4a87-8284-bdbe5692aaa6">InterlockedCompareExchangeRelease</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -156,7 +157,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547857">InterlockedCompareExchangeAcquire</a>
+<a href="https://msdn.microsoft.com/6cb7d17b-dfda-431e-9c74-cc42d62202ba">InterlockedCompareExchangeAcquire</a>
 
 
 
@@ -172,7 +173,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547863">InterlockedCompareExchangePointer</a>
+<a href="https://msdn.microsoft.com/15c1fadd-9e0d-4254-ae14-82b0ce46909e">InterlockedCompareExchangePointer</a>
 
 
 
@@ -188,7 +189,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547867">InterlockedCompareExchangeRelease</a>
+<a href="https://msdn.microsoft.com/3e35f752-dc58-4a87-8284-bdbe5692aaa6">InterlockedCompareExchangeRelease</a>
 
 
 

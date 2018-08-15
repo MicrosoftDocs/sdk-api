@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -83,7 +84,7 @@ The <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VI
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> to apply to the virtual 
+     <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> to apply to the virtual 
      disk image file. If this parameter is <b>NULL</b>, the parent directory's security descriptor 
      will be used.
 

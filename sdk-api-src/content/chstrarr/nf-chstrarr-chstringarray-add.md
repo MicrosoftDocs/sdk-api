@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -87,7 +88,7 @@ If the <b>Add</b> method is successful, it returns the
 
 
 
-If <a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a> has been used with an nGrowBy value 
+If <a href="https://msdn.microsoft.com/9320b6b6-5253-419e-a293-3b9d030f5963">SetSize</a> has been used with an nGrowBy value 
     greater than 1, then extra memory can be allocated. However, the upper bound increases by only one.
 
 

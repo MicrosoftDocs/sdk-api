@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,14 +75,14 @@ The <b>get_BlockedRatingAttributes</b> method determines whether content is bloc
 Receives a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
 
 
-#### - EnSystem [in]
-
-Specifies the rating system as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration type.
-
-
 #### - EnRating [in]
 
 Specifies the rating level as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration type.
+
+
+#### - EnSystem [in]
+
+Specifies the rating system as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration type.
 
 
 ## -returns

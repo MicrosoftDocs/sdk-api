@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -83,14 +84,14 @@ Bitwise <b>OR</b> of one or more flags from the <a href="https://msdn.microsoft.
 Receives a pointer to an <a href="https://msdn.microsoft.com/85f9b208-ddc2-4d9c-a30b-b666c81a49d2">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/37e8f940-617d-43f6-92bd-aadccafe0059">Synchronizing DVD Commands</a>.
 
 
-#### - uiTitle [in]
-
-Value that specifies the number of the title to play; this value must be from 1 through 99.
-
-
 #### - pTime [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure that specifies where playback will begin.
+
+
+#### - uiTitle [in]
+
+Value that specifies the number of the title to play; this value must be from 1 through 99.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -141,7 +142,7 @@ Use the <b>IGetClusterResourceInfo</b> interface only
      <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterResourceInfo</b> interface. While 
      <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> will return a valid interface, 
-     the operation is not valid in the context of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, 
+     the operation is not valid in the context of the <a href="c_gly.htm">cluster</a>, 
      and the result is an interface that represents no real cluster object.
 
 

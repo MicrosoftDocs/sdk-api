@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -77,7 +78,7 @@ The <b>IInkExtendedProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/4fff6945-b46e-4e72-af45-ca066e73338e">Add</a>
 </td>
 <td align="left" width="63%">
 Specifies the extended property to add to the collection.
@@ -86,7 +87,7 @@ Specifies the extended property to add to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/b5270e5c-51fa-4d1f-b4e0-9129c61bac88">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all of the extended properties from the collection.
@@ -104,7 +105,7 @@ Specifies whether an extended property exists within a collection of extended pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/0355d9db-4456-4051-b611-dcb63657a0c7">Item</a>
 </td>
 <td align="left" width="63%">
 Specifies the extended property to return at the known index in the collection.
@@ -113,7 +114,7 @@ Specifies the extended property to return at the known index in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/2211a462-df26-4168-b89c-9607683defdb">Remove</a>
 </td>
 <td align="left" width="63%">
 Specifies the extended property to remove from the collection.
@@ -147,7 +148,7 @@ The <b>_NewEnum</b> property is marked restricted in the Interface Definition La
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/8b75ba1a-ab31-4d54-b997-86dd3445fd79">Count</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -212,18 +213,18 @@ Multipathing is allowed. When specified the iSCSI Initiator service will allow m
 
 ### -field AuthType
 
-An enumerator value of type <a href="https://msdn.microsoft.com/en-us/library/Bb870791(v=VS.85).aspx">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
+An enumerator value of type <a href="https://msdn.microsoft.com/432f1968-e2ca-4594-80cc-0f1a852ec81a">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
 
 
 
 ### -field HeaderDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/en-us/library/Bb870799(v=VS.85).aspx">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
+An enumerator value of type <a href="https://msdn.microsoft.com/7c89cc19-28ae-472f-9400-9bd8d0f10c63">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
 
 
 ### -field DataDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/en-us/library/Bb870799(v=VS.85).aspx">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
+An enumerator value of type <a href="https://msdn.microsoft.com/7c89cc19-28ae-472f-9400-9bd8d0f10c63">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
 
 
 ### -field MaximumConnections

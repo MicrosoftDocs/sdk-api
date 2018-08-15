@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,7 +95,7 @@ This function allows the selective context to be set based on the value of the
 This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and 
     set the last error code to <b>ERROR_INVALID_FUNCTION</b>. A 32-bit application can call this 
     function on a WOW64 thread; the result is the same as calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a> function.
+    <a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a> function.
 
 Do not try to set the context for a running thread; the results are unpredictable. Use the 
     <a href="https://msdn.microsoft.com/d976675a-5400-41ac-a11d-c39a1b2dd50d">Wow64SuspendThread</a> function to suspend the thread 
@@ -116,7 +117,7 @@ Do not try to set the context for a running thread; the results are unpredictabl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>
+<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
 
 
 

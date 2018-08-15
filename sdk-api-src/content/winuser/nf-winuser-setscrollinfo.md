@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -222,7 +223,7 @@ The <b>SetScrollInfo</b> function performs range checking on the values specifie
 
 If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a> message to the window to set scroll bar information (The system can optimize the message to <a href="https://msdn.microsoft.com/en-us/library/Bb787565(v=VS.85).aspx">SBM_SETPOS</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb787567(v=VS.85).aspx">SBM_SETRANGE</a> if the request is solely for the position or range).  This allows <b>SetScrollInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle <b>SBM_SETSCROLLINFO</b> (or the optimized <b>SBM_SETPOS</b> message or <b>SBM_SETRANGE</b> message), then the <b>SetScrollInfo</b> function fails.
 
-For an example, see <a href="Using_Scroll_Bars.htm">Scrolling Text with the WM_PAINT Message</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb787531(v=VS.85).aspx">Scrolling Text with the WM_PAINT Message</a>.
 
 
 

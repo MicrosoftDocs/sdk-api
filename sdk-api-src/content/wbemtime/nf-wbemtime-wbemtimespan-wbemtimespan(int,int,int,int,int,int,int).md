@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -109,13 +110,13 @@ Number of elapsed seconds.
 Number of elapsed  milliseconds.
 
 
+#### - iNSec=0
+
+Number of elapsed nanoseconds.
+
+
 #### - iUSec=0
 
 Number of elapsed 
      microseconds.
-
-
-#### - iNSec=0
-
-Number of elapsed nanoseconds.
 

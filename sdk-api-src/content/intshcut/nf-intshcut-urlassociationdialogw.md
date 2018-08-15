@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: intshcut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -115,14 +116,14 @@ Type: <b>UINT</b>
 The size of <i>pszAppBuf</i>, in characters.
 
 
-##### - dwInFlags.URLASSOCDLG_FL_USE_DEFAULT_NAME
-
-Use the default file name (that is, "Internet Shortcut").
-
-
 ##### - dwInFlags.URLASSOCDLG_FL_REGISTER_ASSOC
 
 Register the selected application as the handler for the protocol specified in <i>pcszURL</i>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.
+
+
+##### - dwInFlags.URLASSOCDLG_FL_USE_DEFAULT_NAME
+
+Use the default file name (that is, "Internet Shortcut").
 
 
 ## -returns

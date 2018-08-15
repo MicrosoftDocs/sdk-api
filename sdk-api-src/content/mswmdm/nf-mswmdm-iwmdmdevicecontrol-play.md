@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -130,9 +131,9 @@ An unspecified error occurred.
 
 
 
-This method is used to invoke both device playback (playing an audio track on a storage medium of the media device) and streaming audio playback (streaming audio data from the user's computer to the media device, where it is played). The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a> method determines the form of playback that occurs.
+This method is used to invoke both device playback (playing an audio track on a storage medium of the media device) and streaming audio playback (streaming audio data from the user's computer to the media device, where it is played). The <a href="https://msdn.microsoft.com/f416a520-197c-4607-979e-8f43951f2076">Seek</a> method determines the form of playback that occurs.
 
-Some devices do not support either device playback or streaming audio playback. Before attempting to start playback of a particular type, the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a> method must be called. If unsupported playback is attempted, this method returns WMDM_E_NOTSUPPORTED.
+Some devices do not support either device playback or streaming audio playback. Before attempting to start playback of a particular type, the <a href="https://msdn.microsoft.com/61d0e44c-f1be-4837-a773-48c6c5278fe0">GetCapabilities</a> method must be called. If unsupported playback is attempted, this method returns WMDM_E_NOTSUPPORTED.
 
 To determine before invoking the play operation whether an audio format can be played by the media device, you can call the <a href="https://msdn.microsoft.com/a917660d-300f-4ac4-befe-a3f78172411e">GetFormatSupport</a> method.
 

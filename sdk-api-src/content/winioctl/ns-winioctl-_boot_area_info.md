@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Contains the output for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff728858">FSCTL_GET_BOOT_AREA_INFO</a> control code.
+Contains the output for the <a href="https://msdn.microsoft.com/5739354b-5342-4be9-ac50-bb983d51587c">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
 
 ## -struct-fields
@@ -85,7 +86,7 @@ The location of a boot sector or a copy of a boot sector.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff728858">FSCTL_GET_BOOT_AREA_INFO</a>
+<a href="https://msdn.microsoft.com/5739354b-5342-4be9-ac50-bb983d51587c">FSCTL_GET_BOOT_AREA_INFO</a>
  
 
  

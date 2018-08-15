@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 A successful call to this method clears the contents of the currently staged image. In addition, it may change the list of supported disc recorders. This is because not all recorders support all formats. Changes to the recorder list are announced with 
 <a href="https://msdn.microsoft.com/d2b41e86-2f1b-46f1-955d-7fc42f8189a4">IDiscMasterProgressEvents::NotifyPnPActivity</a>. If the currently selected recorder is not a member of the new set of supported devices, then there will no longer be an active recorder (similar to the state after the first call to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>). In this case, the application must select a new active recorder before initiating a burn.
+<a href="https://msdn.microsoft.com/f9d64a07-67d9-4cc1-aeb5-64762a4e8153">Open</a>). In this case, the application must select a new active recorder before initiating a burn.
 
 <b>MSDiscMasterObj</b> supports only the following IIDs: IID_IRedbookDiscMaster (<a href="https://msdn.microsoft.com/ea531b22-869a-400e-801f-00bb85ebaac2">IRedbookDiscMaster</a>) and IID_IJolietDiscMaster (<a href="https://msdn.microsoft.com/e2269b68-1860-4afd-90f2-d61297f3fa9b">IJolietDiscMaster</a>). If there is no format set, the default is Joliet format. It is the responsibility of every application to select a format master through the use of 
 <a href="https://msdn.microsoft.com/7190dbf6-6458-4228-a892-428183ea2742">EnumDiscMasterFormats</a> and this method.

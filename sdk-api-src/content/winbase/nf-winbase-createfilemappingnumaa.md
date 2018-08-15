@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -261,7 +262,7 @@ Specifies that the file that the  <i>hFile</i> parameter specifies is an executa
          image file that will not be executed and the loaded image file will have no forced integrity checks run. 
          Additionally, mapping a view of a file mapping object created with the 
          <b>SEC_IMAGE_NO_EXECUTE</b> attribute will not invoke driver callbacks registered using 
-         the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a> 
+         the <a href="https://msdn.microsoft.com/e90bc043-1b92-474c-b6c7-7e510271118b">PsSetLoadImageNotifyRoutine</a> 
          kernel API.
 
 The <b>SEC_IMAGE_NO_EXECUTE</b> attribute must be combined with the 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> of the user.
+The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> of the user.
 
 
 ## -struct-fields

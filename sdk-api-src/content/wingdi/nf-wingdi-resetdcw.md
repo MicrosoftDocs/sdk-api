@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -120,7 +121,7 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637428">Escape</a>
+<a href="https://msdn.microsoft.com/ba21b680-78a8-45a2-94e1-01b377b74787">Escape</a>
  
 
  

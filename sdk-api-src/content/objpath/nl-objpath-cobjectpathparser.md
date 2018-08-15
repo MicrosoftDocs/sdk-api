@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: objpath.h
 req.include-header: ObjPath.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008

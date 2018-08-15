@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -76,14 +77,14 @@ The <b>IADsContainer::CopyHere</b> method creates a  copy of the specified direc
 
 
 
-#### - bstrSourceObject [in]
-
-The ADsPath of the object to copy.
-
-
 #### - bstrNewName [in]
 
 Optional name of the new object within the container. If a new name is not specified  for the object, set to <b>NULL</b>; the new object will have the same name as the source object.
+
+
+#### - bstrSourceObject [in]
+
+The ADsPath of the object to copy.
 
 
 #### - ppNewObject [out]

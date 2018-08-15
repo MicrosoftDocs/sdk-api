@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -70,11 +71,6 @@ TBD
 Pointer to the null-terminated string that specifies the DNS host name of the domain controller whose DNS records are being deleted.
 
 
-#### - ServerName [in, optional]
-
-The null-terminated string that specifies the name of the remote domain controller. Can be set to <b>NULL</b> if the calling application is running on the domain controller being updated.
-
-
 #### - DnsDomainName [in, optional]
 
 The null-terminated string that specifies the DNS domain name of the domain occupied by the domain controller. It is unnecessary for this to be a domain hosted by this domain controller. If <b>NULL</b>, the <i>DnsHostName</i> with the leftmost label removed is specified.
@@ -88,6 +84,11 @@ Pointer to the Domain GUID of the domain. If <b>NULL</b>, GUID specific names ar
 #### - DsaGuid [in, optional]
 
 Pointer to the GUID of the <b>NTDS-DSA</b> object to be deleted. If <b>NULL</b>, <b>NTDS-DSA</b> specific names are not removed.
+
+
+#### - ServerName [in, optional]
+
+The null-terminated string that specifies the name of the remote domain controller. Can be set to <b>NULL</b> if the calling application is running on the domain controller being updated.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -233,7 +234,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/b54efc12-42e9-4a90-a4d9-0e75bcdba0d6">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Declares a set of properties and values to be set on an item or items.
@@ -293,7 +294,7 @@ To accomplish a file operation using this interface, a sequence of calls must be
 <a href="https://msdn.microsoft.com/fd8b4b00-3f41-41c4-aee0-89239ab70075">SetProgressMessage</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/b54efc12-42e9-4a90-a4d9-0e75bcdba0d6">SetProperties</a>
 </li>
 </ul>
 </li>

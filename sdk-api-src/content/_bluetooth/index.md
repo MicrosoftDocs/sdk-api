@@ -2,7 +2,7 @@
 UID: TP:bluetooth
 ms.assetid: a6693fcc-8eb2-381e-9b6e-5b8f73bc7d2c
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

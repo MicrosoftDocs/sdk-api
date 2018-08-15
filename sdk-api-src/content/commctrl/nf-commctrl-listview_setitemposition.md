@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -90,9 +91,9 @@ The new y-position of the item's upper-left corner, in view coordinates.
 
 
 
-If the list-view control has the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style, the list-view control is arranged after the position of the item is set. 
+If the list-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_AUTOARRANGE</a> style, the list-view control is arranged after the position of the item is set. 
 
-On Windows Vista, calling this macro on a list-view control with the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style does nothing, and the return value is <b>FALSE</b>.
+On Windows Vista, calling this macro on a list-view control with the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_AUTOARRANGE</a> style does nothing, and the return value is <b>FALSE</b>.
 
 
 

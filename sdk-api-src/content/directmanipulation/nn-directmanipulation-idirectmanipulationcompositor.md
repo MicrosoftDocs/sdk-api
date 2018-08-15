@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -82,7 +83,7 @@ Associates content (owned by the caller) with the compositor, assigns a composit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/E6D1BD41-6D5A-4BC0-983E-CBE79613FCF8">Flush</a>
 </td>
 <td align="left" width="63%">
 Commits all pending updates in the compositor to the system for rendering.
@@ -114,7 +115,7 @@ Removes content from the compositor.
 
 
 
-The content of a <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> viewport must be manually updated during an input event for custom implementations of <b>IDirectManipulationCompositor</b>. Call <a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a> to redraw the content within the viewport. 
+The content of a <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> viewport must be manually updated during an input event for custom implementations of <b>IDirectManipulationCompositor</b>. Call <a href="https://msdn.microsoft.com/dffa747c-933a-4b61-9f15-e175d9338774">Update</a> to redraw the content within the viewport. 
 
 You specify manual mode on a viewport by calling either of these functions:
 

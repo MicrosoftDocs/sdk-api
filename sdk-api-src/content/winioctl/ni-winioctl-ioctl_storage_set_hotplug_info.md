@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -149,10 +150,10 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 Refer to the Remarks section in the reference page for 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> for more information about hotplug devices.
+<a href="https://msdn.microsoft.com/861e6067-9f37-427a-8d3b-8cb9d0f95c40">STORAGE_HOTPLUG_INFO</a> for more information about hotplug devices.
 
 This operation sets only the <b>DeviceHotplug</b> member of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> structure passed in.
+<a href="https://msdn.microsoft.com/861e6067-9f37-427a-8d3b-8cb9d0f95c40">STORAGE_HOTPLUG_INFO</a> structure passed in.
 
 
 
@@ -170,11 +171,11 @@ This operation sets only the <b>DeviceHotplug</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560554">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
+<a href="https://msdn.microsoft.com/4ecf6f84-17fc-4c48-a859-c043e8f9cd14">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a>
+<a href="https://msdn.microsoft.com/861e6067-9f37-427a-8d3b-8cb9d0f95c40">STORAGE_HOTPLUG_INFO</a>
  
 
  

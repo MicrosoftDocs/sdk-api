@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -99,9 +100,9 @@ The overlay icon that indicates a slow file.
 <b>Windows 7 and later</b>. The overlay icon that indicates that the item is the default in a set. One example is the default printer.
 
 
-##### - iIconIndex.IDO_SHGIOI_SHARE (0x0FFFFFFF)
+##### - iIconIndex.IDO_SHGIOI_DEFAULT (0x0FFFFFFC)
 
-The overlay icon that indicates a shared folder.
+<b>Windows 7 and later</b>. The overlay icon that indicates that the item is the default in a set. One example is the default printer.
 
 
 ##### - iIconIndex.IDO_SHGIOI_LINK (0x0FFFFFFE)
@@ -109,14 +110,14 @@ The overlay icon that indicates a shared folder.
 The overlay icon that indicates a linked folder or file.
 
 
+##### - iIconIndex.IDO_SHGIOI_SHARE (0x0FFFFFFF)
+
+The overlay icon that indicates a shared folder.
+
+
 ##### - iIconIndex.IDO_SHGIOI_SLOWFILE (0x0FFFFFFD)
 
 The overlay icon that indicates a slow file.
-
-
-##### - iIconIndex.IDO_SHGIOI_DEFAULT (0x0FFFFFFC)
-
-<b>Windows 7 and later</b>. The overlay icon that indicates that the item is the default in a set. One example is the default printer.
 
 
 ## -returns

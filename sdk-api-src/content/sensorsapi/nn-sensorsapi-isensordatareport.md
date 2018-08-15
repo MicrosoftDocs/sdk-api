@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -63,7 +64,7 @@ In addition to the methods inherited from <b>IUnknown</b>, the ISensorDataReport
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt725374">COM Interfaces</a>
+<a href="https://msdn.microsoft.com/872de1e9-20f9-409b-9917-24b13a8cc08a">COM Interfaces</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,7 +76,7 @@ The <b>IFaxDoc</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">IFaxDoc::Send</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">Send</a> method transmits the document specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">Send</a> method transmits the document specified by the <a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">FileName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property.
 
 </td>
 </tr>
@@ -195,7 +196,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>DisplayName</b> property is a null-terminated string that contains the name to associate with the fax document.
+Sets or retrieves the <a href="https://msdn.microsoft.com/27e983b9-0d24-42ec-a0f3-dd0723766c4c">DisplayName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>DisplayName</b> property is a null-terminated string that contains the name to associate with the fax document.
 
 </td>
 </tr>
@@ -211,7 +212,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/mt764010">EmailAddress</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>EmailAddress</b> property is a null-terminated string that contains the email address of the sender of the fax transmission.
+Sets or retrieves the <a href="https://msdn.microsoft.com/e921db9c-de5c-42f4-a17a-0ad50b5ab787">EmailAddress</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>EmailAddress</b> property is a null-terminated string that contains the email address of the sender of the fax transmission.
 
 </td>
 </tr>
@@ -243,7 +244,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>FileName</b> property is a null-terminated string that contains the name of the document file associated with the object.
+Sets or retrieves the <a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">FileName</a> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>FileName</b> property is a null-terminated string that contains the name of the document file associated with the object.
 
 </td>
 </tr>
@@ -547,7 +548,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/mt764038">SenderName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>SenderName</b> property is a null-terminated string that contains the name of the sender of the fax transmission.
+Sets or retrieves the <a href="https://msdn.microsoft.com/298b85b1-4af1-4fc5-9572-b8c1e88a5d6d">SenderName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>SenderName</b> property is a null-terminated string that contains the name of the sender of the fax transmission.
 
 </td>
 </tr>
@@ -627,7 +628,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">Tsid</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>Tsid</b> property is a null-terminated string that contains a user-defined TSID.
+Sets or retrieves the <a href="https://msdn.microsoft.com/26d33ea3-a30d-4a04-9760-f637196db23d">Tsid</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>Tsid</b> property is a null-terminated string that contains a user-defined TSID.
 
 </td>
 </tr>
@@ -663,7 +664,7 @@ A client application should not call the <a href="https://msdn.microsoft.com/en-
 </ol>
 The property methods of the <b>IFaxDoc</b> interface get or set the properties described following. If the property supports read access, the <b>IFaxDoc</b> interface includes a <i>get_PropertyName</i> method. If the property supports write access, the interface includes a <i>put_PropertyName</i> method.
 
-Values are not required for optional properties that appear only on the cover page. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">IFaxDoc::Send</a> method. The <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property is also required.
+Values are not required for optional properties that appear only on the cover page. The <a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">FileName</a> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">IFaxDoc::Send</a> method. The <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property is also required.
 
 The fax server can supply data from the registry for many properties that begin with <b>Sender</b>. The fax server supplies values if they have been entered under the <b>User Information</b> tab accessed through the Fax icon in Control Panel.
 

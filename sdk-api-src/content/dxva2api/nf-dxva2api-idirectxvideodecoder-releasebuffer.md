@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -62,7 +63,7 @@ Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.c
 
 ### -param BufferType [in]
 
-The type of buffer to release. Specify the same value that was used in the <i>BufferType</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> method.
+The type of buffer to release. Specify the same value that was used in the <i>BufferType</i> parameter of the <a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">GetBuffer</a> method.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -88,7 +89,7 @@ This class is required for creating a V2 credential provider. V2 credential prov
 
 In order to create an <b>ICredentialProviderCredential2</b> instance, a valid SID needs to be returned by the <a href="https://msdn.microsoft.com/8BCB9019-40C0-4026-B3C9-ECA02B9AC871">GetUserSid</a> function. Valid is defined by the returned SID being for one of the users currently enumerated by the Logon UI.
 
-A useful tool for getting the available users and determining which ones you want to associate with is the <a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a> object. This object contains a list of <a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a> objects that can be queried to gain information about the users that will be enumerated. For example you could gain the user's SID or username using <a href="https://msdn.microsoft.com/library/windows/hardware/ff597621">GetStringValue</a> with a passed in parameter of <b>PKEY_Identity_PrimarySid</b> or <b>PKEY_Identity_USerName</b> respectively. You can even filter the results using <a href="https://msdn.microsoft.com/86FC48BF-FEEA-40c4-91CA-21FFAC210CFA">SetProviderFilter</a> to only display a subset of available users.
+A useful tool for getting the available users and determining which ones you want to associate with is the <a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a> object. This object contains a list of <a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a> objects that can be queried to gain information about the users that will be enumerated. For example you could gain the user's SID or username using <a href="https://msdn.microsoft.com/97FFD00F-6141-472c-A60C-A9A282190C9D">GetStringValue</a> with a passed in parameter of <b>PKEY_Identity_PrimarySid</b> or <b>PKEY_Identity_USerName</b> respectively. You can even filter the results using <a href="https://msdn.microsoft.com/86FC48BF-FEEA-40c4-91CA-21FFAC210CFA">SetProviderFilter</a> to only display a subset of available users.
 
 Using the <a href="https://msdn.microsoft.com/50FC43C1-B148-4e42-AB38-3559BD056855">ICredentialProviderUserArray</a> is optional, but it is a convenient way to get the necessary information to make valid SID values. In order to get a list of users that will be enumerated by the Logon UI, implement the <a href="https://msdn.microsoft.com/85422EF5-8A8E-4e14-BD32-953C31A9D401">ICredentialProviderSetUserArray</a> interface to get the <b>ICredentialProviderUserArray</b> object from <a href="https://msdn.microsoft.com/14A9DFBD-7B44-4983-8B02-5880017B9B04">SetUserArray</a>. Logon UI calls <b>SetUserArray</b> before <a href="https://msdn.microsoft.com/7d940d46-d4c2-4ab5-8559-416d78d3579e">GetCredentialCount</a>, so the <b>ICredentialProviderUserArray</b> object is ready when a credential provider is about to return credentials.
 

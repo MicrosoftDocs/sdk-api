@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>FWPS_FILTER_CONDITION0</b> structure defines a run-time filtering conditi
 The data field identifier for the data field tested by this filtering condition. The meaning of
      the numeric value of this member is specific to the filtering layer specified by the 
      <b>layerId</b> member. For a description of the data field identifiers for each filtering layer, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546312">Data Field Identifiers</a>.
+     <a href="https://msdn.microsoft.com/6e617ef4-807b-4564-8b95-b289edfee8d2">Data Field Identifiers</a>.
 
 
 ### -field reserved
@@ -75,7 +76,7 @@ Reserved for system use. Callout drivers should ignore this member.
 ### -field matchType
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552437">FWP_MATCH_TYPE</a> value that specifies the type
+     <a href="https://msdn.microsoft.com/c0f95b3f-1b89-4d44-87b2-73032fa3524e">FWP_MATCH_TYPE</a> value that specifies the type
      of match that the filter engine is to test on the data field to check whether the filtering condition is
      true.
 
@@ -83,7 +84,7 @@ An
 ### -field conditionValue
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a> structure that
+     <a href="https://msdn.microsoft.com/8d0aad8c-b224-4066-a10a-7c11ca60a78c">FWP_CONDITION_VALUE0</a> structure that
      specifies the value against which the data field is tested.
 
 
@@ -93,7 +94,7 @@ An
 
 The 
     <b>filterCondition</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a> structure points to an array of
+    <a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a> structure points to an array of
     FWPS_FILTER_CONDITION0 structures that specify the run-time filtering conditions for a filter.
 
 
@@ -104,15 +105,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a>
+<a href="https://msdn.microsoft.com/8d0aad8c-b224-4066-a10a-7c11ca60a78c">FWP_CONDITION_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552437">FWP_MATCH_TYPE</a>
+<a href="https://msdn.microsoft.com/c0f95b3f-1b89-4d44-87b2-73032fa3524e">FWP_MATCH_TYPE</a>
  
 
  

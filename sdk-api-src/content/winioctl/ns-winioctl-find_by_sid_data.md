@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains data for the 
-   <a href="https://msdn.microsoft.com/library/windows/hardware/ff544833">FSCTL_FIND_FILES_BY_SID</a> control 
+   <a href="https://msdn.microsoft.com/10d46c2e-9403-4c8a-8847-f427fbc6c905">FSCTL_FIND_FILES_BY_SID</a> control 
    code.
 
 
@@ -70,7 +71,7 @@ Indicates whether to restart the search. This member should be 1 on first call, 
 
 ### -field Sid
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that specifies the desired creator 
+A <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that specifies the desired creator 
       owner.
 
 
@@ -79,7 +80,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544833">FSCTL_FIND_FILES_BY_SID</a>
+<a href="https://msdn.microsoft.com/10d46c2e-9403-4c8a-8847-f427fbc6c905">FSCTL_FIND_FILES_BY_SID</a>
  
 
  

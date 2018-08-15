@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxNegotiate function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxNegotiate</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. This is the first call made by <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> to the GINA DLL. <b>WlxNegotiate</b> allows the GINA to verify that it supports the installed version of Winlogon.
+The <b>WlxNegotiate</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. This is the first call made by <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> to the GINA DLL. <b>WlxNegotiate</b> allows the GINA to verify that it supports the installed version of Winlogon.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -87,7 +88,7 @@ If <i>dwWinLogonVersion</i> is less than <i>pdwDllVersion</i>, the function retu
 
 
 
-Before calling <b>WlxNegotiate</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
+Before calling <b>WlxNegotiate</b>, <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 
 

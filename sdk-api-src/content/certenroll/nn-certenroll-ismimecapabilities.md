@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ISmimeCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/8ad35758-0dc1-4887-aea7-b8ead537cab2">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an <a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a> object to the collection.
@@ -98,7 +99,7 @@ Adds objects to the collection by identifying the encryption algorithms supporte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/8df8eecd-c20f-40f0-a647-23d25ca76ae4">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -107,7 +108,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/516726cc-f7b9-4813-999f-036694322fe5">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection by index value.
@@ -124,7 +125,7 @@ Removes an object from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/f43b3aa4-81c5-411c-bd62-77513f9b7f68">_NewEnum</a>
 
 
 </td>
@@ -136,7 +137,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/5e0ee42f-10aa-45d8-b6c0-16ee0149dec6">Count</a>
 
 
 </td>

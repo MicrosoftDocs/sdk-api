@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -122,7 +123,7 @@ If the string is as long or longer than the buffer, the buffer will contain the 
 
 #### Examples
 
-For an example, see <a href="Using_List_Boxes.htm">Creating a Directory Listing in a Single-selection List Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Directory Listing in a Single-selection List Box</a>.
 
 <div class="code"></div>
 

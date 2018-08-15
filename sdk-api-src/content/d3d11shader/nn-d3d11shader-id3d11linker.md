@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11"
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915454">Link</a>
+<a href="https://msdn.microsoft.com/FCEAE5C2-38E4-4B8F-BA98-F46B187FC586">Link</a>
 </td>
 <td align="left" width="63%">
 Links the shader and produces a shader blob that the Direct3D runtime can use.

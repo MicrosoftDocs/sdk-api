@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,19 +75,19 @@ The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of
 
 
 
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
-
-
 #### - GetPolarityInInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549461">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
+Points to a <a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
 
 
 #### - GetPolarityOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549481">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
+Points to a <a href="https://msdn.microsoft.com/191d6c79-6f73-44f9-8016-912e4bb70453">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
+
+
+#### - HwDeviceExtension
+
+Points to the miniport driver's device extension.
 
 
 ## -returns
@@ -102,7 +103,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54948
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549461">DDGETPOLARITYININFO</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff549481">DDGETPOLARITYOUTINFO</a> structures contain VPE object information.
+The <a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DDGETPOLARITYININFO</a> and <a href="https://msdn.microsoft.com/191d6c79-6f73-44f9-8016-912e4bb70453">DDGETPOLARITYOUTINFO</a> structures contain VPE object information.
 
 
 
@@ -112,11 +113,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549461">DDGET
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549461">DDGETPOLARITYININFO</a>
+<a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DDGETPOLARITYININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549481">DDGETPOLARITYOUTINFO</a>
+<a href="https://msdn.microsoft.com/191d6c79-6f73-44f9-8016-912e4bb70453">DDGETPOLARITYOUTINFO</a>
  
 
  

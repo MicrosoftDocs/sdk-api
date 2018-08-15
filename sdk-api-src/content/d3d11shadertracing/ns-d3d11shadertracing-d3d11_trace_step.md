@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -125,7 +126,7 @@ If the <b>NumRegistersWritten</b> member is 0, examine this member although this
 
 ### -field OpcodeType
 
-A number that specifies the type of instruction (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">add</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb509628(v=VS.85).aspx">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
+A number that specifies the type of instruction (for example, <a href="https://msdn.microsoft.com/f66d3264-68be-4a4f-84fc-cc0f6c4245c9">add</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb509628(v=VS.85).aspx">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
 
 
 ### -field CurrentGlobalCycle

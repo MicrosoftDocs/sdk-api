@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -93,7 +94,7 @@ Retrieves the date and time when the report was generated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/a4bc1cc8-e246-4740-8290-afc8cd6def09">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property value from the location report.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,10 +72,10 @@ The <b>IInitializeWithPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/6890873f-d929-42a1-ab75-6f408581d74f">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes a handler with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>.
+Initializes a handler with an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
 
 </td>
 </tr>
@@ -100,7 +101,7 @@ Use this interface when initializing a handler for OpenSearch result sets, which
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>
  
 
  

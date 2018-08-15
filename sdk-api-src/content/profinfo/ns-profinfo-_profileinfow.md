@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: profinfo.h
 req.include-header: Userenv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -129,14 +130,14 @@ Type: <b>HANDLE</b>
 A handle to the <b>HKEY_CURRENT_USER</b> registry subtree. For more information, see Remarks.
 
 
-##### - dwFlags.PI_NOUI
-
-Prevents the display of profile error messages.
-
-
 ##### - dwFlags.PI_APPLYPOLICY
 
 Not supported.
+
+
+##### - dwFlags.PI_NOUI
+
+Prevents the display of profile error messages.
 
 
 ## -remarks

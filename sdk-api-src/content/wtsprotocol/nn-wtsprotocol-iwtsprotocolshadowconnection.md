@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -82,7 +83,7 @@ Requests that the protocol start the target side of a shadow connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/7bfe0c45-551f-47bb-a855-6965fed224dc">Start</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol that shadowing has started.
@@ -91,7 +92,7 @@ Notifies the protocol that shadowing has started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/629b82cb-7bf3-4a83-bc96-a1e6a757f974">Stop</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol that shadowing has stopped.

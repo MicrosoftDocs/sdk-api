@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: refptrco.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -72,7 +73,7 @@ The <b>TRefPointerCollection</b> class is a container
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/959cd8e7-ea0c-4b98-8e13-398e09c62668">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to a collection and calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> 
@@ -110,7 +111,7 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
+<a href="https://msdn.microsoft.com/c0dfb2c7-71f6-4870-8018-145e890d4928">GetNext</a>
 </td>
 <td align="left" width="63%">
 Gets next item from the list and calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> 

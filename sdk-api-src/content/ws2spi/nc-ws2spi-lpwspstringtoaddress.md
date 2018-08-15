@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The 
-<b>WSPStringToAddress</b> function converts a human-readable numeric string to a socket address structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>) suitable to passing to Windows Sockets routines that take such a structure. Any missing components of the address are defaulted to a reasonable value, if possible. For example, a missing port number  defaults to zero.
+<b>WSPStringToAddress</b> function converts a human-readable numeric string to a socket address structure (<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>) suitable to passing to Windows Sockets routines that take such a structure. Any missing components of the address are defaulted to a reasonable value, if possible. For example, a missing port number  defaults to zero.
 
 
 ## -parameters
@@ -79,12 +80,12 @@ Address family to which the string belongs, or AF_UNSPEC if it is unknown.
 ### -param lpAddress [out]
 
 Buffer that is filled with a single 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
 
 
 ### -param lpAddressLength [in, out]
 
-Length of the Address buffer, in bytes. Returns the size of the resultant <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. If the supplied buffer is not large enough, the function fails with a specific error of <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
+Length of the Address buffer, in bytes. Returns the size of the resultant <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. If the supplied buffer is not large enough, the function fails with a specific error of <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
 
 
 ### -param lpErrno [out]
@@ -123,7 +124,7 @@ The specified address buffer is too small, pass in a larger buffer.
 </td>
 <td width="60%">
 Unable to translate the string into a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>, or the provider was unable to support the indicated address family, or the specified <i>lpProtocolInfo</i> did not refer to a 
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>, or the provider was unable to support the indicated address family, or the specified <i>lpProtocolInfo</i> did not refer to a 
 <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure supported by the provider.
 
 </td>
@@ -156,9 +157,9 @@ One vital benefit of this policy is that base service providers do not have to b
 This same propagation policy applies when propagating a 
 <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
 <a href="https://msdn.microsoft.com/7a6d8f77-7235-4cd1-90e1-9b5260137246">WSPAddressToString</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a>, 
+<a href="https://msdn.microsoft.com/6d9cf472-357e-4226-b53e-09083b42ed13">WSPDuplicateSocket</a>, 
 <a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a>, or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>.
+<a href="https://msdn.microsoft.com/16735fd1-289d-425a-8ad2-c20d73888b1b">WSPSocket</a>.
 
 
 
@@ -172,11 +173,11 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a>
+<a href="https://msdn.microsoft.com/6d9cf472-357e-4226-b53e-09083b42ed13">WSPDuplicateSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>
+<a href="https://msdn.microsoft.com/16735fd1-289d-425a-8ad2-c20d73888b1b">WSPSocket</a>
 
 
 
@@ -184,7 +185,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

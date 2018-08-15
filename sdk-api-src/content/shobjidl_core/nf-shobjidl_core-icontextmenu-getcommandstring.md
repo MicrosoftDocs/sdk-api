@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -90,6 +91,13 @@ Type: <b>UINT</b>
 Size of the buffer, in characters, to receive the null-terminated string.
 
 
+#### - pwReserved
+
+Type: <b>UINT*</b>
+
+Reserved. Applications must specify <b>NULL</b> when calling this method and handlers must ignore this parameter when called.
+
+
 #### - uFlags
 
 Type: <b>UINT</b>
@@ -131,13 +139,6 @@ Sets <i>pszName</i> to an ANSI string containing the language-independent comman
 #### GCS_VERBW
 
 Sets <i>pszName</i> to a Unicode string containing the language-independent command name for the menu item.
-
-
-#### - pwReserved
-
-Type: <b>UINT*</b>
-
-Reserved. Applications must specify <b>NULL</b> when calling this method and handlers must ignore this parameter when called.
 
 
 ## -returns

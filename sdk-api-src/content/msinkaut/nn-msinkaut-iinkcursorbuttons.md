@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -77,7 +78,7 @@ The <b>IInkCursorButtons</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf">Item</a>
 </td>
 <td align="left" width="63%">
 Specifies the cursor button to return at the known index in the collection.
@@ -111,7 +112,7 @@ The <b>_NewEnum</b>property is marked restricted in the Interface Definition Lan
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8">Count</a>
 
 
 </td>

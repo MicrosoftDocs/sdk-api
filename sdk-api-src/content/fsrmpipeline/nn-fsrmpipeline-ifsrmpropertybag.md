@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -233,7 +234,7 @@ A list of the classification messages.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/b500b16f-402d-475f-9de3-a54da1afb203">Name</a>
 
 
 </td>
@@ -329,7 +330,7 @@ The relative path to the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a>
+<a href="https://msdn.microsoft.com/6dade17c-1252-4f11-81a2-7e278da290e8">Size</a>
 
 
 </td>

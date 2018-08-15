@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 Specifies the error code portion of the <b>HRESULT</b> returned after an asynchronous notification failure.
 
 An <b>HRESULT</b> value consists of a severity code, a facility code, and an error code. Use the <b>HRESULT_CODE</b> macro to compare just the error code of an <b>HRESULT</b>. For more information about COM error codes, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+    <a href="_com_error_handling">Error Handling</a>.
 
 
 ## -enum-fields

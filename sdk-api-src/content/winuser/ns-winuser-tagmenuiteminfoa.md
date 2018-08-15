@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -258,7 +259,7 @@ Places the menu item on a new line (for a menu bar) or in a new column (for a dr
 </dl>
 </td>
 <td width="60%">
-Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
+Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
 						<b>dwTypeData</b>   member contains an application-defined value.
 
 </td>
@@ -542,7 +543,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A bitmap that is drawn by the window that owns the menu. The application must process the <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> and <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> messages.
+A bitmap that is drawn by the window that owns the menu. The application must process the <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> messages.
 
 </td>
 </tr>
@@ -701,11 +702,11 @@ The menu can display items using text, bitmaps, or both.
 
 
 
-<a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a>
 
 
 
-<a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -143,7 +144,7 @@ You should make two calls to <b>SaveProfile</b>. On the first call, pass <b>NULL
 
 This string contains all the profile information. It must not be displayed to users, and should not be altered. To change the settings in a saved profile, load it using the profile manager and change the settings using the profile object and related objects.
 
-To save a custom profile for later use, you must save the content of the returned string in a .prx file. For more information on .prx files, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt764032">Profiles</a>.
+To save a custom profile for later use, you must save the content of the returned string in a .prx file. For more information on .prx files, see <a href="https://msdn.microsoft.com/6e70393f-3dab-4036-8d34-a672ef1795c6">Profiles</a>.
 
 To load a saved custom profile, copy the contents of the profile from the .prx file to a string and use <a href="https://msdn.microsoft.com/c645b6cc-e10d-4335-91c4-8bfd430ca76b">IWMProfileManager::LoadProfileByData</a>.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ Only the last error code to be set is retrievable; that is, consecutive calls to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564940">EngGetLastError</a>
+<a href="https://msdn.microsoft.com/47138077-125e-4da9-b0de-e437a9b1733d">EngGetLastError</a>
  
 
  

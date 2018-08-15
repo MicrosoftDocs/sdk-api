@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -68,18 +69,18 @@ Type: <b>REAL</b>
 Real number that specifies the length, in units, of the arrow from its base to its point. 
 
 
-#### - width [in]
-
-Type: <b>REAL</b>
-
-Real number that specifies the distance, in units, between the corners of the base of the arrow. 
-
-
 #### - isFilled [in]
 
 Type: <b>BOOL</b>
 
 Boolean value that specifies whether the arrow is filled. The default value is <b>TRUE</b>. 
+
+
+#### - width [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the distance, in units, between the corners of the base of the arrow. 
 
 
 ## -remarks

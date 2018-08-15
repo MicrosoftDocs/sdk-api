@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: Windows Server 2016
@@ -94,7 +95,7 @@ The frame buffer header information provided by this callback is read-only. You 
 
 
 
-<a href="stream.imfdevicetransformcallback">IMFDeviceTransformCallback</a>
+<a href="https://msdn.microsoft.com/library/Mt846762(v=VS.85).aspx">IMFDeviceTransformCallback</a>
  
 
  

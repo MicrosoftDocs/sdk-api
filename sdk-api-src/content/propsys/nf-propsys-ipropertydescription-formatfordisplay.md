@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,9 +69,9 @@ A reference to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8
 
 ### -param pdfFlags [in]
 
-Type: <b><a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a></b>
 
-One or more of the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> flags, which are either bitwise or multiple values, that indicate the property string format.
+One or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> flags, which are either bitwise or multiple values, that indicate the property string format.
 
 
 ### -param ppszDisplay
@@ -80,11 +81,18 @@ One or more of the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</
 
 
 
+#### - cchText [out]
+
+Type: <b>DWORD</b>
+
+The length of the buffer at <i>pszText</i> in WCHARS, including the terminating <b>NULL</b>. The maximum size is 0x8000 (32K).
+
+
 #### - key [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the requested property key, which identifies a property. See <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
+A reference to the requested property key, which identifies a property. See <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
 
 
 #### - pszText [out]
@@ -92,13 +100,6 @@ A reference to the requested property key, which identifies a property. See <a h
 Type: <b>LPWSTR*</b>
 
 When this method returns, contains the formatted value as a <b>null</b>-terminated, Unicode string. The calling application must allocate memory for the buffer, and use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string specified by <i>pszText</i> when it is no longer needed.
-
-
-#### - cchText [out]
-
-Type: <b>DWORD</b>
-
-The length of the buffer at <i>pszText</i> in WCHARS, including the terminating <b>NULL</b>. The maximum size is 0x8000 (32K).
 
 
 ## -returns
@@ -168,15 +169,15 @@ The copy operation failed due to insufficient space. The destination buffer is m
 
 
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before calling <a href="shell.IPropertyDescription_FormatForDisplay">IPropertyDescription::FormatForDisplay</a>.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before calling <a href="https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx">IPropertyDescription::FormatForDisplay</a>.
 
-On success, this method gets a formatted Unicode string representation of a property value for a specified <a href="shell.PROPERTYKEY">PROPERTYKEY</a>, and one or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>.
+On success, this method gets a formatted Unicode string representation of a property value for a specified <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>, and one or more <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>.
 
-The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="shell.propdesc_schema_displayInfo">displayInfo</a>, <a href="shell.propdesc_schema_stringFormat">stringFormat</a>, <a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>, <a href="shell.propdesc_schema_numberFormat">numberFormat</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>,  and <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>. Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
+The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">stringFormat</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb773862(v=VS.85).aspx">booleanFormat</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb773877(v=VS.85).aspx">numberFormat</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>,  and <a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>. Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
 
 The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left to right (LTR) language is drawn on an right to left (RTL) window, and vice versa. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
-The following properties use special formats and are unaffected by the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
+The following properties use special formats and are unaffected by the <a href="https://msdn.microsoft.com/en-us/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
 
 <table class="clsStd">
 <tr>
@@ -297,7 +298,7 @@ For example, "f/5.6".
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The FONTSIM structure contains offsets to one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff565967">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
+The FONTSIM structure contains offsets to one or more <a href="https://msdn.microsoft.com/c590359b-4652-4673-9e43-bf76a0a45d58">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
 
 
 ## -struct-fields
@@ -78,7 +79,7 @@ If nonzero, specifies the offset from the beginning of this structure to the FON
 
 
 
-If the <b>dpFontSim</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
+If the <b>dpFontSim</b> member of the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
 
 
 
@@ -88,11 +89,11 @@ If the <b>dpFontSim</b> member of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565967">FONTDIFF</a>
+<a href="https://msdn.microsoft.com/c590359b-4652-4673-9e43-bf76a0a45d58">FONTDIFF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
  
 
  

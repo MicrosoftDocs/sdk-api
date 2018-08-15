@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,17 +62,17 @@ initialization.
 
 ### -field APOInit
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/jj151545">APOInitBaseStruct</a> structure.
+An <a href="https://msdn.microsoft.com/15C973AE-B0E8-42FD-9F34-671A6A915B47">APOInitBaseStruct</a> structure.
 
 
 ### -field pAPOEndpointProperties
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object.
+A pointer to an <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a> object.
 
 
 ### -field pAPOSystemEffectsProperties
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object.
+A pointer to an <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a> object.
 
 
 ### -field pReserved
@@ -89,15 +90,15 @@ A pointer to an IMMDeviceCollection object.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151545">APOInitBaseStruct</a>
+<a href="https://msdn.microsoft.com/15C973AE-B0E8-42FD-9F34-671A6A915B47">APOInitBaseStruct</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn659347">APOInitSystemEffects2</a>
+<a href="https://msdn.microsoft.com/87E59FCE-1965-4B23-B1F5-F54FEDD5A83E">APOInitSystemEffects2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
  
 
  

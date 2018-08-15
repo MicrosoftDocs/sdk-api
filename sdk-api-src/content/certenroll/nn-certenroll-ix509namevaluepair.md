@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -112,7 +113,7 @@ The <b>IX509NameValuePair</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/3e935718-a59a-443e-bff2-a010a41e7756">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from strings that contain the  name and associated value.
@@ -129,7 +130,7 @@ Initializes the object from strings that contain the  name and associated value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c98b4187723">Name</a>
 
 
 </td>
@@ -141,7 +142,7 @@ Retrieves the name portion of the name-value pair.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/769eb16b-68c7-4540-bd1d-d04585ba0dfd">Value</a>
 
 
 </td>

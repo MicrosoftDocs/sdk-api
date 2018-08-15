@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -71,9 +72,9 @@ TBD
 The log file stream name.  If the stream does not exist in the log, it is created. To create a volatile TM, this parameter must be <b>NULL</b> and <i>CreateOptions</i> must specify TRANSACTION_MANAGER_VOLATILE, this transaction manager is considered volatile.
 
 
-#### - lpTransactionAttributes [in, optional]
+#### - CommitStrength [in, optional]
 
-The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
+Reserved; specify zero.
 
 
 #### - CreateOptions [in, optional]
@@ -99,9 +100,9 @@ Indicates that the TM is volatile, and does not perform recovery.
  
 
 
-#### - CommitStrength [in, optional]
+#### - lpTransactionAttributes [in, optional]
 
-Reserved; specify zero.
+The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
 
 
 ## -returns

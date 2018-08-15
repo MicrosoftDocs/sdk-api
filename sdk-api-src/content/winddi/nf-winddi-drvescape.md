@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvEscape</b> function is used for retrieving information from a device t
 
 ### -param pso [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that describes the surface to which the call is directed.
+Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that describes the surface to which the call is directed.
 
 
 ### -param iEsc [in]
@@ -102,7 +103,7 @@ The return value is dependent on the query specified by the <i>iEsc</i> paramete
 
 
 
-Drawing on the device is not allowed in this function. <a href="https://msdn.microsoft.com/library/windows/hardware/ff556203">DrvDrawEscape</a> is to be used for specialized drawing support.
+Drawing on the device is not allowed in this function. <a href="https://msdn.microsoft.com/698fb67e-4878-42ad-9c7a-899ddcbf1811">DrvDrawEscape</a> is to be used for specialized drawing support.
 
 GDI passes data directly from a (possibly malicious) client application to the driver, which means that the <b>DrvEscape</b> function must validate all input arguments. Specifically, this function must:
 
@@ -136,11 +137,11 @@ Microsoft reserves the range 0 to 0X10000 for its escape codes. Third-party vend
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556203">DrvDrawEscape</a>
+<a href="https://msdn.microsoft.com/698fb67e-4878-42ad-9c7a-899ddcbf1811">DrvDrawEscape</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+<a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a>
  
 
  

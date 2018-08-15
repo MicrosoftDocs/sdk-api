@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsdigitalsignature.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -110,7 +111,7 @@ Gets the current digest method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/02d07300-e8f2-44fa-a562-5cec03af9a8c">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
@@ -175,7 +176,7 @@ Sets the URI of the digest method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/59467fd5-c462-4827-a4f8-e152df981ace">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
@@ -185,7 +186,7 @@ Sets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb46
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451328">SetPolicy</a>
+<a href="https://msdn.microsoft.com/6e1738b3-f1ce-407e-bbaa-7f4c57e30028">SetPolicy</a>
 </td>
 <td align="left" width="63%">
 Sets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy.
@@ -249,7 +250,7 @@ When a new instance of this interface is returned by <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

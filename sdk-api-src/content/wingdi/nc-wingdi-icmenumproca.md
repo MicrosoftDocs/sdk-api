@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -73,14 +74,14 @@ The <b>EnumICMProfilesProcCallback</b> callback is an application-defined callba
 
 
 
-#### - lpszFilename
-
-Pointer to the file name of the color profile.
-
-
 #### - lParam
 
 Data supplied by the application that is passed to the callback function by the <a href="https://msdn.microsoft.com/a93e6239-b6c7-4e37-9f06-03790a3ed53f">EnumICMProfiles</a> function.
+
+
+#### - lpszFilename
+
+Pointer to the file name of the color profile.
 
 
 ## -returns
@@ -105,7 +106,7 @@ This function must return a positive value to continue enumeration, or zero to s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -112,9 +113,54 @@ Represents volume data.  This structure is passed to the
 
 
 
-#### - VolumeSerialNumber
+#### - BytesPerCluster
 
-The serial number of the volume. This is a unique number assigned to the volume media by the operating system.
+The number of bytes in a cluster on the specified volume. This value is also known as the cluster factor.
+
+
+#### - BytesPerFileRecordSegment
+
+The number of bytes in a file record segment.
+
+
+#### - BytesPerSector
+
+The number of bytes in a sector on the specified volume.
+
+
+#### - ClustersPerFileRecordSegment
+
+The number of clusters in a file record segment.
+
+
+#### - FreeClusters
+
+The number of free clusters in the specified volume.
+
+
+#### - Mft2StartLcn
+
+The starting logical cluster number of the master file table mirror.
+
+
+#### - MftStartLcn
+
+The starting logical cluster number of the master file table.
+
+
+#### - MftValidDataLength
+
+The length of the master file table, in bytes.
+
+
+#### - MftZoneEnd
+
+The ending logical cluster number of the master file table zone.
+
+
+#### - MftZoneStart
+
+The starting logical cluster number of the master file table zone.
 
 
 #### - NumberSectors
@@ -127,59 +173,14 @@ The number of sectors in the specified volume.
 The number of used and free clusters in the specified volume.
 
 
-#### - FreeClusters
-
-The number of free clusters in the specified volume.
-
-
 #### - TotalReserved
 
 The number of reserved clusters in the specified volume.
 
 
-#### - BytesPerSector
+#### - VolumeSerialNumber
 
-The number of bytes in a sector on the specified volume.
-
-
-#### - BytesPerCluster
-
-The number of bytes in a cluster on the specified volume. This value is also known as the cluster factor.
-
-
-#### - BytesPerFileRecordSegment
-
-The number of bytes in a file record segment.
-
-
-#### - ClustersPerFileRecordSegment
-
-The number of clusters in a file record segment.
-
-
-#### - MftValidDataLength
-
-The length of the master file table, in bytes.
-
-
-#### - MftStartLcn
-
-The starting logical cluster number of the master file table.
-
-
-#### - Mft2StartLcn
-
-The starting logical cluster number of the master file table mirror.
-
-
-#### - MftZoneStart
-
-The starting logical cluster number of the master file table zone.
-
-
-#### - MftZoneEnd
-
-The ending logical cluster number of the master file table zone.
+The serial number of the volume. This is a unique number assigned to the volume media by the operating system.
 
 
 ## -remarks

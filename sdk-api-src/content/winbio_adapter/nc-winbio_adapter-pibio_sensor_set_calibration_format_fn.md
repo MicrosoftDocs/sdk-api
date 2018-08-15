@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -66,7 +67,7 @@ Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae4
 
 ### -param Format [in]
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536480">WINBIO_UUID</a> identifying the calibration data format selected by the Engine Adapter. 
+Address of a <a href="https://msdn.microsoft.com/ee5cc6ee-c9d4-4295-b0ef-93b12ba8a824">WINBIO_UUID</a> identifying the calibration data format selected by the Engine Adapter. 
 
 
 ## -returns

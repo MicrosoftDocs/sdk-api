@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -119,7 +120,7 @@ Determines whether the given UNC path is supported by this provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/686d2104-f657-4c3b-967b-d6fb9137be17">Query</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration of <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structures for all file share snapshots  that are available to the application server.  
@@ -128,7 +129,7 @@ Gets an enumeration of <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>
+<a href="https://msdn.microsoft.com/28e53076-4d8e-4f24-83b0-d0aaf7260802">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the context for the subsequent shadow copy-related operations.  

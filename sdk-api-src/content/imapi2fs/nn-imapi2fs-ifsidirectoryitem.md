@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IFsiDirectoryItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/f4855907-89e5-4127-9307-35970046a236">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a file or directory described by the FsiItem object to the file system image.
@@ -145,7 +146,7 @@ Retrieves the specified directory or file item from file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/bbd45185-439a-4847-8481-7139e81b34fd">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified item from the file system image.

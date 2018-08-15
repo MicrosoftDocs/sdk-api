@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,7 +80,7 @@ Retrieves the activity ID of the CRM Worker for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/3603d898-1601-419b-b3f8-3ad49f2070a0">Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the CRM Compensator for the specified index.
@@ -106,7 +107,7 @@ Retrieves the count of CRM clerks in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/af25d159-95e6-4695-9350-9a3c1bc034e9">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance CLSID of the CRM clerk for the specified index.

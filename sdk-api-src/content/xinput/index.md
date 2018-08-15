@@ -2,7 +2,7 @@
 UID: NA:xinput
 ms.assetid: f35006d7-b766-3947-88e4-f589a0517f91
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

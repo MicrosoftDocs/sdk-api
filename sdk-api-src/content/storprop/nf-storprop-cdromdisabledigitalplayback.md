@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: storprop.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -61,12 +62,12 @@ Disables digital playback for the specified CD-ROM or DVD drive.
 
 ### -param DevInfo [in]
 
-A handle to a device information set listing the devices for which information is to be returned. This handle is typically returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551072">SetupDiGetClassDevsEx</a> function.
+A handle to a device information set listing the devices for which information is to be returned. This handle is typically returned by the <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> or <a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a> function.
 
 
 ### -param DevInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that defines the device instance.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that defines the device instance.
 
 
 ## -returns

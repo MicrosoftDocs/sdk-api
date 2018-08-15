@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -190,7 +191,7 @@ Gets the row at the specified row index, in the table at the specified table ind
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/35b79dac-39c7-4ca2-8608-e7ea64d4574c">GetString</a>
 </td>
 <td align="left" width="63%">
 Gets the string at the specified index from the table column in the current reference scope.

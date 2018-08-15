@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,9 +86,9 @@ Storage write error on the record.
 Maximum duration threshold has been reached on the record.
 
 
-#### - FTEC_STOP_ON_SILENCE_THRESHOLD_TRIGGERED
+#### - FTEC_PAUSE_ON_SILENCE_SIGNAL_DETECTED
 
-The stop-on-silence threshold has been reached.
+Woken up from the pause caused by triggering the pause-on-silence threshold because a signal was detected.
 
 
 #### - FTEC_PAUSE_ON_SILENCE_THRESHOLD_TRIGGERED
@@ -95,9 +96,9 @@ The stop-on-silence threshold has been reached.
 The pause-on-silence threshold has been reached.
 
 
-#### - FTEC_PAUSE_ON_SILENCE_SIGNAL_DETECTED
+#### - FTEC_STOP_ON_SILENCE_THRESHOLD_TRIGGERED
 
-Woken up from the pause caused by triggering the pause-on-silence threshold because a signal was detected.
+The stop-on-silence threshold has been reached.
 
 
 ## -see-also

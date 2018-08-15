@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -133,7 +134,7 @@ Out of memory.
 
 
 
-For occasional format changes, use the <b>ITextRange::SetFont</b> method. However, to make a number of character formatting changes, it is more efficient to use a font duplicate. This is because every time you execute a statement like <code>range.font.bold = tomTrue</code>, a font object is allocated and freed. However, a font duplicate can be allocated once and used many times. Furthermore, you can save the font duplicate, reset it to the default or undefined states with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> method, and give it values as needed for your rich-text processing. For sample code that shows how to use font duplicates, see <a href="Using_The_Text_Object_Model.htm">Using a Font Duplicate</a>.
+For occasional format changes, use the <b>ITextRange::SetFont</b> method. However, to make a number of character formatting changes, it is more efficient to use a font duplicate. This is because every time you execute a statement like <code>range.font.bold = tomTrue</code>, a font object is allocated and freed. However, a font duplicate can be allocated once and used many times. Furthermore, you can save the font duplicate, reset it to the default or undefined states with the <a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">Reset</a> method, and give it values as needed for your rich-text processing. For sample code that shows how to use font duplicates, see <a href="https://msdn.microsoft.com/en-us/library/Bb787726(v=VS.85).aspx">Using a Font Duplicate</a>.
 
 
 
@@ -155,7 +156,7 @@ For occasional format changes, use the <b>ITextRange::SetFont</b> method. Howeve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">Reset</a>
 
 
 

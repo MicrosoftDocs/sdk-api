@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -106,12 +107,12 @@ Deletes the resource type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a>
+<a href="https://msdn.microsoft.com/bc9808fb-e517-4d59-a506-07abb9cecd4e">Cluster</a>
 
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> associated with the resource 
+Returns the <a href="c_gly.htm">cluster</a> associated with the resource 
      type.
 
 </td>

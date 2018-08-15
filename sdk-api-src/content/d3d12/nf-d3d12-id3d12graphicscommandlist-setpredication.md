@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -107,7 +108,7 @@ Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct 
         It is legal for the same predicate to be bound multiple times.
       
 
-Illegal API calls will result in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning an error,
+Illegal API calls will result in <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> returning an error,
             or <a href="https://msdn.microsoft.com/653C15CD-0996-4B3B-A5F6-3E85CD0516AD">ID3D12CommandQueue::ExecuteCommandLists</a> dropping the command list and removing the device.
           
 

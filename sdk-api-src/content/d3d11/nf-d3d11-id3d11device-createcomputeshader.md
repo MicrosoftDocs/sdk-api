@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -104,7 +105,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-7d2d33153e79">How To: Create a Compute Shader</a> and <a href="d325cd30-56e1-d608-6ab6-2755caf2b1b1">HDRToneMappingCS11 Sample</a>.
+For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-7d2d33153e79">How To: Create a Compute Shader</a> and <a href="https://msdn.microsoft.com/library/Ee416569(v=VS.85).aspx">HDRToneMappingCS11 Sample</a>.
 
 
 

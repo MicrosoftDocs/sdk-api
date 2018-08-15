@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nldef.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -116,7 +117,7 @@ The network adapter for this network interface supports TCP Large Send Offload V
 
 
 
-#### - TlStreamFastPathCompatible
+#### - TlDatagramFastPathCompatible
 
 Type: <b>BOOLEAN</b>
 
@@ -125,7 +126,7 @@ Reserved for internal use.
 
 
 
-#### - TlDatagramFastPathCompatible
+#### - TlStreamFastPathCompatible
 
 Type: <b>BOOLEAN</b>
 
@@ -148,7 +149,7 @@ The <b>NL_INTERFACE_OFFLOAD_ROD</b> structure is defined on Windows Vista and l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559254">MIB_IPINTERFACE_ROW</a>
+<a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -75,11 +76,11 @@ In Windows 2000 and later, the <b>EngGetProcessHandle</b> function always return
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564919">EngGetCurrentProcessId</a>
+<a href="https://msdn.microsoft.com/63ed7f38-6874-4d33-80e4-fdd00175e039">EngGetCurrentProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564922">EngGetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/f1fdb223-b649-4467-a4c4-56cce4f4d975">EngGetCurrentThreadId</a>
  
 
  

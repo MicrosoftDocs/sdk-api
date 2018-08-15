@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -120,7 +121,7 @@ Index out of bounds.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method was not called.
+The <a href="https://msdn.microsoft.com/a0ffa39a-9e91-4229-8dee-b31f3973f384">Initialize</a> method was not called.
 
 </td>
 </tr>

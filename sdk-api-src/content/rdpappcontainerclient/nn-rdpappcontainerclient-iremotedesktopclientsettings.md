@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpappcontainerclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -54,7 +55,7 @@ req.product: ADAM
 Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 
 Use the <a href="https://msdn.microsoft.com/4b4c1080-3ea1-4557-92d6-45a80a788071">IRemoteDesktopClient</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt168438">Settings</a> property to obtain a pointer to this interface.
+<a href="https://msdn.microsoft.com/59999489-9ad0-4b85-9643-3b8355b817c2">Settings</a> property to obtain a pointer to this interface.
 
 
 ## -inheritance

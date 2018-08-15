@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -152,7 +153,7 @@ Copies the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f3ec6b42-2b5d-459e-ba09-88c27b125c40">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
@@ -271,7 +272,7 @@ Retrieves the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/31da19a7-207f-4f11-9b0f-7402e9727f59">Save</a>
 </td>
 <td align="left" width="63%">
 Converts the ink to the specified <a href="https://msdn.microsoft.com/ecbf48ce-0394-4da1-9f5c-d2626545982c">InkPersistenceFormat</a>, saves the ink by using the specified <a href="https://msdn.microsoft.com/dac49948-3977-4952-a6c0-f54c4a0a2e36">InkPersistenceCompressionMode</a>, and returns the binary data in an array of bytes.

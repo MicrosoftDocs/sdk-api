@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>Writable</b> property retrieves a value that indicates whether the object can be modified by the  user context that called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+The <b>Writable</b> property retrieves a value that indicates whether the object can be modified by the  user context that called the <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method.
 
 This property is read-only.
 

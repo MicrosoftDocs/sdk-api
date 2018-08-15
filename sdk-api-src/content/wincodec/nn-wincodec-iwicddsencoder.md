@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -80,7 +81,7 @@ Creates a new frame to encode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="https://msdn.microsoft.com/2172A086-D0F6-4CFE-849C-A2EF1E89C050">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets DDS-specific data.

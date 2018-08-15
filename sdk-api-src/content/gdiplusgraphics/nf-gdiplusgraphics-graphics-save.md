@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::Save</b> method saves the current state (transformations, clipping region, and quality settings) of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. You can restore the state later by calling the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method.
+The <b>Graphics::Save</b> method saves the current state (transformations, clipping region, and quality settings) of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. You can restore the state later by calling the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method.
 
 
 ## -parameters
@@ -77,9 +78,9 @@ This method returns a value that identifies the saved state. Pass this value to 
 
 
 
-When you call the <b>Graphics::Save</b> method of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object, an information block that holds the state of the <b>Graphics</b> object is put on a stack. The <b>Graphics::Save</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method, the information block is removed from the stack and is used to restore the <b>Graphics</b> object to the state it was in at the time of the <b>Graphics::Save</b> call. Note that the identifier returned by a given call to the <b>Graphics::Save</b> method can be passed only once to the <b>Graphics::Restore</b> method.
+When you call the <b>Graphics::Save</b> method of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, an information block that holds the state of the <b>Graphics</b> object is put on a stack. The <b>Graphics::Save</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method, the information block is removed from the stack and is used to restore the <b>Graphics</b> object to the state it was in at the time of the <b>Graphics::Save</b> call. Note that the identifier returned by a given call to the <b>Graphics::Save</b> method can be passed only once to the <b>Graphics::Restore</b> method.
 
-Calls to the <b>Graphics::Save</b> method can be nested; that is, you can call the <b>Graphics::Save</b> method several times before you call the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method. Each time you call the <b>Graphics::Save</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::Restore</b> method, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object is returned to the state it was in at the time of the <b>Graphics::Save</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::Save</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::Save</b> call are also removed.
+Calls to the <b>Graphics::Save</b> method can be nested; that is, you can call the <b>Graphics::Save</b> method several times before you call the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method. Each time you call the <b>Graphics::Save</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::Restore</b> method, the <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is returned to the state it was in at the time of the <b>Graphics::Save</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::Save</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::Save</b> call are also removed.
 
 Calls to the <b>BeginContainer</b> method place information blocks on the same stack as calls to the <b>Graphics::Save</b> method. Just as a <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call, an <b>EndContainer</b> call is paired with a <b>BeginContainer</b> call.
 
@@ -92,7 +93,7 @@ The following examples show two ways to use the <b>Graphics::Save</b> method. Th
 
 <b>Restoring Nested Saved States</b>
 
-The following example sets the world transformation of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a rotation and then saves the state of the <b>Graphics</b> object. Next, the code calls <b>TranslateTransform</b>, and saves the state again. Then the code calls <b>ScaleTransform</b>. At that point, the world transformation of the <b>Graphics</b> object is a composite transformation: first rotate, then translate, then scale. The code uses a red pen to draw an ellipse that is transformed by that composite transformation.
+The following example sets the world transformation of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a rotation and then saves the state of the <b>Graphics</b> object. Next, the code calls <b>TranslateTransform</b>, and saves the state again. Then the code calls <b>ScaleTransform</b>. At that point, the world transformation of the <b>Graphics</b> object is a composite transformation: first rotate, then translate, then scale. The code uses a red pen to draw an ellipse that is transformed by that composite transformation.
 
 The code passes <i>state2</i>, which was returned by the second call to <b>Save</b>, to the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method, and draws the ellipse again using a green pen. The green ellipse is rotated and translated but not scaled. Finally the code passes state1, which was returned by the first call to <b>Save</b>, to the <b>Graphics::Restore</b> method, and draws the ellipse again using a blue pen. The blue ellipse is rotated but not translated or scaled.
 
@@ -136,7 +137,7 @@ The code passes <i>state2</i>, which was returned by the second call to <b>Save<
 </table></span></div>
 <b>Restoring Only the First of Two Nested Saved States</b>
 
-The following example sets the world transformation of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a rotation and then saves the state of the <b>Graphics</b> object. Next, the code calls <b>TranslateTransform</b>, and saves the state again. Then the code calls <b>ScaleTransform</b>. At that point, the world transformation of the <b>Graphics</b> object is a composite transformation: first rotate, then translate, then scale. The code uses a red pen to draw an ellipse that is transformed by that composite transformation.
+The following example sets the world transformation of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a rotation and then saves the state of the <b>Graphics</b> object. Next, the code calls <b>TranslateTransform</b>, and saves the state again. Then the code calls <b>ScaleTransform</b>. At that point, the world transformation of the <b>Graphics</b> object is a composite transformation: first rotate, then translate, then scale. The code uses a red pen to draw an ellipse that is transformed by that composite transformation.
 
 The code passes <i>state1</i>, which was returned by the first call to <b>Save</b>, to the <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> method, and draws the ellipse again using a green pen. The green ellipse is rotated but not translated or scaled. 
 
@@ -194,7 +195,7 @@ Next the code attempts to restore the state identified by <i>state2</i>. The att
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

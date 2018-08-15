@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.
     
 
-Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
+Kbdclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/fb3d4534-9c6f-4956-b702-5752f9798600">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
 
 For more information about this request, see the description of this request in <a href="https://msdn.microsoft.com/5bbe69cb-361d-4d9a-b589-5ab7f59496a3">I8042prt Keyboard Internal Device Control Requests</a>.
 
@@ -66,11 +67,11 @@ For more information about this request, see the description of this request in 
 
 ### -input-buffer
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to zero or a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542352">KEYBOARD_UNIT_ID_PARAMETER</a>. A value of zero specifies a default unit ID of zero.
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to zero or a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/fd47b0ab-b66b-49a0-8302-2c45399d9963">KEYBOARD_UNIT_ID_PARAMETER</a>. A value of zero specifies a default unit ID of zero.
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated buffer that is used to input and output information. On input, <b>AssociatedIrp.SystemBuffer</b> points to a KEYBOARD_UNIT_ID_PARAMETER structure. The client sets the <b>UnitId</b> member of the input structure.
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of the output buffer, which must be greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542326">KEYBOARD_ATTRIBUTES</a> structure.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of the output buffer, which must be greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -input-buffer-length
@@ -80,12 +81,12 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the si
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that the lower-level drivers use to output a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542326">KEYBOARD_ATTRIBUTES</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that the lower-level drivers use to output a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542326">KEYBOARD_ATTRIBUTES</a> structure.
+The size of a <a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a> structure.
 
 
 ### -in-out-buffer
@@ -115,9 +116,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The request completed successfully.
+The value of <b>Parameters.DeviceIoControl.InputBufferLength </b>or <b>Parameters.DeviceIoControl.OutputBufferLength</b> is not valid.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -125,9 +126,9 @@ The request completed successfully.
 The <b>UnitId </b>value is not valid.
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The value of <b>Parameters.DeviceIoControl.InputBufferLength </b>or <b>Parameters.DeviceIoControl.OutputBufferLength</b> is not valid.
+The request completed successfully.
 
 
 ## -see-also
@@ -135,31 +136,31 @@ The value of <b>Parameters.DeviceIoControl.InputBufferLength </b>or <b>Parameter
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541337">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
+<a href="https://msdn.microsoft.com/3d70b34c-e201-40fc-99dd-cd05bdeec5f8">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541349">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
+<a href="https://msdn.microsoft.com/84006453-cf73-44f2-ac8b-ea03382e113d">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541362">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
+<a href="https://msdn.microsoft.com/0c19670b-0440-4a7a-ad87-a97d3da28e74">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542067">IOCTL_KEYBOARD_SET_INDICATORS</a>
+<a href="https://msdn.microsoft.com/25631717-8aee-4eac-8337-46b13aa714a4">IOCTL_KEYBOARD_SET_INDICATORS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
+<a href="https://msdn.microsoft.com/27c538dd-19e2-4b5a-9605-0efb0f78e008">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542326">KEYBOARD_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/060e93de-b84e-4755-a5f8-cbc52d900310">KEYBOARD_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542352">KEYBOARD_UNIT_ID_PARAMETER</a>
+<a href="https://msdn.microsoft.com/fd47b0ab-b66b-49a0-8302-2c45399d9963">KEYBOARD_UNIT_ID_PARAMETER</a>
  
 
  

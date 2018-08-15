@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -81,7 +82,7 @@ Changes the PIN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a>
+<a href="https://msdn.microsoft.com/612edeb9-3de4-48ac-a311-7238402e8658">Disable</a>
 </td>
 <td align="left" width="63%">
 Disables a PIN.
@@ -90,7 +91,7 @@ Disables a PIN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/bbdd767b-f08a-4e94-bccf-9ed0d1b4af29">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables a PIN.

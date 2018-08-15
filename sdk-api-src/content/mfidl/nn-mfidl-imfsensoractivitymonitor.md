@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IMFSensorActivityMonitor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/49300C9F-CA0B-4515-81C7-02F067B2BBD3">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the sensor activity monitor.
@@ -83,7 +84,7 @@ Starts the sensor activity monitor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/A40BD926-66BB-498C-B26B-BBDE0A122456">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the sensor activity monitor.

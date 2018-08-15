@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ Specifies the size of the memory range to be secured.
 
 
 
-The address range locked down by <b>EngSecureMem</b> will not be deallocated until it is unlocked by <a href="https://msdn.microsoft.com/library/windows/hardware/ff565454">EngUnsecureMem</a>.
+The address range locked down by <b>EngSecureMem</b> will not be deallocated until it is unlocked by <a href="https://msdn.microsoft.com/ceb011cf-7c4c-4f28-a805-9554c0597063">EngUnsecureMem</a>.
 
 
 

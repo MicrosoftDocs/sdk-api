@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -146,7 +147,7 @@ The method is unable to allocate enough memory to perform the operation.
 
 
 
-To change the value of a property key, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> method.
+To change the value of a property key, use the <a href="https://msdn.microsoft.com/5aa3e6a3-febc-4d2d-b58b-abfad28d325d">SetValue</a> method.
 
 If a value for <i>Key</i> could not be found, the return value will be <b>S_OK</b> and <i>ppropVar</i> will be set to <b>VT_NULL</b>.
 

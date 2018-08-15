@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmstream.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -118,7 +119,7 @@ Sets the current sample's start and end times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/5f56e3f9-443b-4d67-bfed-3210e691ad4b">Update</a>
 </td>
 <td align="left" width="63%">
 Performs a synchronous or an asynchronous update on the current sample.

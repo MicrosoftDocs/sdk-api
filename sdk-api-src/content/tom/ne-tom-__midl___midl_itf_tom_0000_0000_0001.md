@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -61,22 +62,22 @@ Defines values that are used with the Text Object Model (TOM) API.
 
 ### -field tomFalse
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates false.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates false.
 
 
 ### -field tomTrue
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates true.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates true.
 
 
 ### -field tomUndefined
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
 
 
 ### -field tomToggle
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that toggles the state of a property.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that toggles the state of a property.
 
 
 ### -field tomAutoColor
@@ -1773,12 +1774,12 @@ Alternative orientation.
 
 ### -field tomNoIME
 
-Disables the IME operation (see <a href="Rich_Edit_Control_Styles.htm">ES_NOIME</a>).
+Disables the IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a>).
 
 
 ### -field tomSelfIME
 
-Directs the rich edit control to allow the application to handle all IME operations (see <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>).
+Directs the rich edit control to allow the application to handle all IME operations (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>).
 
 
 ### -field tomNoUpScroll
@@ -3002,44 +3003,9 @@ Changes cell width(s) or cell count (for changing column widths and inserting/de
 The actual height of a table row.
 
 
-#### - tomTeX
+#### - tomChemicalFormula
 
-Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDefault</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScriptCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScript</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScript</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleTextCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleText</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplayCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplay</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecDecSize</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecSize</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncSize</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncIncSize</a></dd>
-</dl>
-
-
-
-#### - tomNeedTermOp
-
-A terminating operator is needed. Only used with a degenerate range for formula autobuildup.
-
-
-#### - tomMathAlphabetics
-
-Use math alphabetics for English/Greek letters except for math function names.
-
-
-#### - tomMathSingleChar
-
-Single character typed for build up.
-
-
-#### - tomPlain
-
-Build down for plain text.
+Use chemical formula conversions.
 
 
 #### - tomHaveDelimiter
@@ -3047,19 +3013,69 @@ Build down for plain text.
 A delimiter follows insertion points (formula automatic buildup).
 
 
-#### - tomUseOperandPrec
+#### - tomMathAlignBreakCenter
 
-Use operand precedence.
+Center text following a manual break.
 
 
-#### - tomMathCollapseSel
+#### - tomMathAlignBreakLeft
 
-Collapse the selection after build up or build down.
+Align text following a manual break to the left.
+
+
+#### - tomMathAlignBreakRight
+
+Align text following a manual break to the right.
+
+
+#### - tomMathAlphabetics
+
+Use math alphabetics for English/Greek letters except for math function names.
+
+
+#### - tomMathApplyTemplate
+
+Apply an object template to a range.
+
+
+#### - tomMathArabicAlphabetics
+
+Use Arabic math alphabetics for variables.
+
+
+#### - tomMathAutoComplete
+
+Show a tooltip with options for math autocompletions.
 
 
 #### - tomMathAutoCorrect
 
 Internal math autocorrect standard math \ keywords.
+
+
+#### - tomMathAutoCorrectExt
+
+Invoke external autocorrect in manual build up.
+
+
+#### - tomMathAutoCorrectOpPairs
+
+Autocorrect operator pairs.
+
+
+#### - tomMathBackspace
+
+Handle the Backspace key inside a math object.
+
+
+#### - tomMathBuildDown
+
+Build down instead of up.
+
+
+#### - tomMathBuildDownOutermost
+
+Build down only outermost objects.
 
 
 #### - tomMathBuildUpArgOrZone
@@ -3070,31 +3086,6 @@ Build up insertion points argument or zone.
 #### - tomMathBuildUpRecurse
 
 Enable recursive build up.
-
-
-#### - tomMathBuildDownOutermost
-
-Build down only outermost objects.
-
-
-#### - tomChemicalFormula
-
-Use chemical formula conversions.
-
-
-#### - tomMathBuildDown
-
-Build down instead of up.
-
-
-#### - tomMathApplyTemplate
-
-Apply an object template to a range.
-
-
-#### - tomMathRemoveOutermost
-
-Build down the outermost object without its characters.
 
 
 #### - tomMathChangeMask
@@ -3122,34 +3113,9 @@ Mask for specifying changes to make during math linearization (build down). It c
 <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathSubscript</a>
 <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathSuperscript</a>
 
-#### - tomMathInsRowBefore
+#### - tomMathCollapseSel
 
-Insert a row above the insertion point.
-
-
-#### - tomMathInsRowAfter
-
-Insert a row below the insertion point.
-
-
-#### - tomMathInsColBefore
-
-Insert a column or separator before the current argument.
-
-
-#### - tomMathInsColAfter
-
-Insert a column or separator after the current argument.
-
-
-#### - tomMathDeleteRow
-
-Delete a row.
-
-
-#### - tomMathDeleteCol
-
-Delete a column.
+Collapse the selection after build up or build down.
 
 
 #### - tomMathDeleteArg
@@ -3167,19 +3133,54 @@ Delete argument 1 (0-based count).
 Delete argument 2 (0-based count).
 
 
+#### - tomMathDeleteCol
+
+Delete a column.
+
+
+#### - tomMathDeleteRow
+
+Delete a row.
+
+
+#### - tomMathEnter
+
+Handle the Enter key inside a math object.
+
+
+#### - tomMathInsColAfter
+
+Insert a column or separator after the current argument.
+
+
+#### - tomMathInsColBefore
+
+Insert a column or separator before the current argument.
+
+
+#### - tomMathInsRowAfter
+
+Insert a row below the insertion point.
+
+
+#### - tomMathInsRowBefore
+
+Insert a row above the insertion point.
+
+
 #### - tomMathMakeFracLinear
 
 Change to a linear fraction.
 
 
-#### - tomMathMakeFracStacked
-
-Change to a stacked fraction.
-
-
 #### - tomMathMakeFracSlashed
 
 Change to a slashed fraction.
+
+
+#### - tomMathMakeFracStacked
+
+Change to a stacked fraction.
 
 
 #### - tomMathMakeLeftSubSup
@@ -3192,14 +3193,14 @@ Change from <b>tomSubSup</b> to <b>tomLeftSubSup</b>.
 Change <b>tomLeftSubSup</b> to <b>tomSubSup</b>.
 
 
-#### - tomMathBackspace
+#### - tomMathRemoveOutermost
 
-Handle the Backspace key inside a math object.
+Build down the outermost object without its characters.
 
 
-#### - tomMathEnter
+#### - tomMathRichEdit
 
-Handle the Enter key inside a math object.
+Handle minor differences between the rich edit control and Word.
 
 
 #### - tomMathShiftTab
@@ -3207,24 +3208,9 @@ Handle the Enter key inside a math object.
 Handle the Shift+Tab key combination inside a math object.
 
 
-#### - tomMathTab
+#### - tomMathSingleChar
 
-Handle the Tab key inside a math object.
-
-
-#### - tomMathAlignBreakLeft
-
-Align text following a manual break to the left.
-
-
-#### - tomMathAlignBreakCenter
-
-Center text following a manual break.
-
-
-#### - tomMathAlignBreakRight
-
-Align text following a manual break to the right.
+Single character typed for build up.
 
 
 #### - tomMathSubscript
@@ -3237,19 +3223,19 @@ Handle the Ctrl+= key combination in a math zone.
 Handle the Ctrl+Shift+= key combination in a math zone.
 
 
-#### - tomMathArabicAlphabetics
+#### - tomMathTab
 
-Use Arabic math alphabetics for variables.
-
-
-#### - tomMathAutoCorrectOpPairs
-
-Autocorrect operator pairs.
+Handle the Tab key inside a math object.
 
 
-#### - tomMathAutoCorrectExt
+#### - tomNeedTermOp
 
-Invoke external autocorrect in manual build up.
+A terminating operator is needed. Only used with a degenerate range for formula autobuildup.
+
+
+#### - tomPlain
+
+Build down for plain text.
 
 
 #### - tomShowEmptyArgPlaceholders
@@ -3257,17 +3243,32 @@ Invoke external autocorrect in manual build up.
 Don't hide empty argument  placeholders on build-up.
 
 
-#### - tomMathAutoComplete
-
-Show a tooltip with options for math autocompletions.
-
-
-#### - tomMathRichEdit
-
-Handle minor differences between the rich edit control and Word.
-
-
 #### - tomSpecialChar
 
 The character is treated as part of the current operand.
+
+
+#### - tomTeX
+
+Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDefault</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleTextCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleText</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplayCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplay</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncIncSize</a></dd>
+</dl>
+
+
+
+#### - tomUseOperandPrec
+
+Use operand precedence.
 

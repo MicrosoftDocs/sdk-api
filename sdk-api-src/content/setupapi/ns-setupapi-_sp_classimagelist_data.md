@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,15 +80,15 @@ Reserved. For internal use only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550995">SetupDiDestroyClassImageList</a>
+<a href="https://msdn.microsoft.com/47ccc16c-b061-489b-b534-5b5929c5d010">SetupDiDestroyClassImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551074">SetupDiGetClassImageIndex</a>
+<a href="https://msdn.microsoft.com/56c17b9a-d516-4903-90fc-efac22e1f50d">SetupDiGetClassImageIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551080">SetupDiGetClassImageList</a>
+<a href="https://msdn.microsoft.com/d6b84403-9284-4fba-a419-a013cf68ea1e">SetupDiGetClassImageList</a>
  
 
  

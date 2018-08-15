@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,7 +68,7 @@ The size of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 Point to be hit-tested. 
 
@@ -99,7 +100,7 @@ The given point was in the calendar's background.
 </dl>
 </td>
 <td width="60%">
-The given point is outside of any calendar but within the calendar controls <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>.
+The given point is outside of any calendar but within the calendar controls <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
 
 </td>
 </tr>
@@ -170,7 +171,7 @@ The given point was over a day abbreviation ("Fri", for example). The <a href="h
 </dl>
 </td>
 <td width="60%">
-The given point was over a week number (<a href="Month_calendar_control_styles.htm">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
+The given point was over a week number (<a href="https://msdn.microsoft.com/en-us/library/Bb760919(v=VS.85).aspx">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
 						<i>lpMCHitTest</i>&gt;st is set to the corresponding date in the leftmost column.
 
 </td>
@@ -248,7 +249,7 @@ Receives date and time information specific to the location that was hit-tested.
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 Hit-tested location.
 

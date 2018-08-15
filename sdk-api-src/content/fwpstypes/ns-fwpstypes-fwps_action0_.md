@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -64,8 +65,8 @@ The <b>FWPS_ACTION0</b> structure specifies the run-time action that the filter 
 
 An <b>FWP_ACTION_TYPE</b> value that represents the action that the filter engine takes if all of
      the filter's filtering conditions are true. For a filter that is passed to a callout's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function, this member will
+     <a href="https://msdn.microsoft.com/48b4965a-7284-4331-a900-0e3a2a1a0bc9">notifyFn</a> or 
+     <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function, this member will
      be one of the following values:
      
 
@@ -76,7 +77,7 @@ An <b>FWP_ACTION_TYPE</b> value that represents the action that the filter engin
 #### FWP_ACTION_CALLOUT_TERMINATING
 
 Specifies that the callout driver's 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function must return one
+       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function must return one
        of the following values for the action to be taken on the data:
        
 
@@ -95,7 +96,7 @@ Block the data from being transmitted or received.
 Permit the data to be transmitted or received.
 
 If the callout driver's 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function returns any
+       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function returns any
        other value for the action to be taken on the data, it is handled the same as if the callout driver's 
        classifyFn callout function returned
        <b>FWP_ACTION_BLOCK</b>.
@@ -105,7 +106,7 @@ If the callout driver's
 #### FWP_ACTION_CALLOUT_INSPECTION
 
 Specifies that the callout driver's 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function must return the
+       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function must return the
        following value for the action to be taken on the data.
        
 
@@ -118,7 +119,7 @@ Specifies that the callout driver's
 Continue on to the next filter.
 
 If the callout driver's 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function returns any
+       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function returns any
        other value for the action to be taken on the data, it is handled the same as if the callout driver's 
        classifyFn callout function returned
        <b>FWP_ACTION_CONTINUE</b>.
@@ -128,7 +129,7 @@ If the callout driver's
 #### FWP_ACTION_CALLOUT_UNKNOWN
 
 Specifies that the callout driver's 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function can return any
+       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function can return any
        of the following values for the action to be taken on the data:
        
 
@@ -158,7 +159,7 @@ Continue on to the next filter.
 The run-time identifier for the callout that the filter engine calls if all of the filter's
      filtering conditions are true. This is the same identifier that was returned when the callout driver
      called the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> function to
+     <a href="https://msdn.microsoft.com/1f003775-4b93-44cd-8c58-18e0e3fb5656">FwpsCalloutRegister0</a> function to
      register the callout with the filter engine.
 
 
@@ -167,7 +168,7 @@ The run-time identifier for the callout that the filter engine calls if all of t
 
 
 An FWPS_ACTION0 structure is contained within an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a> structure.
+    <a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a> structure.
 
 
 
@@ -177,23 +178,23 @@ An FWPS_ACTION0 structure is contained within an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
+<a href="https://msdn.microsoft.com/1f003775-4b93-44cd-8c58-18e0e3fb5656">FwpsCalloutRegister0</a>
 
 
 
-<a href="netvista.types_of_callouts">Types of Callouts</a>
+<a href="https://msdn.microsoft.com/library/Ff570963(v=VS.85).aspx">Types of Callouts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+<a href="https://msdn.microsoft.com/48b4965a-7284-4331-a900-0e3a2a1a0bc9">notifyFn</a>
  
 
  

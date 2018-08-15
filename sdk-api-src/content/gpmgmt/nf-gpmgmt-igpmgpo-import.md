@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -109,15 +110,15 @@ Address of a pointer to the
 <a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> interface.
 
 
+#### - MigrationTable [in, optional]
+
+Path of a file that contains the migration table to use for mapping.
+
+
 #### - gpmBackup [in]
 
 
 <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">GPMBackup</a> object from which settings should be imported.
-
-
-#### - MigrationTable [in, optional]
-
-Path of a file that contains the migration table to use for mapping.
 
 
 ## -returns

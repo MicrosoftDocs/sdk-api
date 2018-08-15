@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -137,9 +138,9 @@ Write to <b>HKEY_LOCAL_MACHINE</b>.
 Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
-##### - dwFlags.SHREGSET_HKCU
+##### - dwFlags.SHREGSET_DEFAULT
 
-Write to <b>HKEY_CURRENT_USER</b> if empty.
+Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
 
 
 ##### - dwFlags.SHREGSET_FORCE_HKCU
@@ -147,19 +148,19 @@ Write to <b>HKEY_CURRENT_USER</b> if empty.
 Write to <b>HKEY_CURRENT_USER</b>.
 
 
-##### - dwFlags.SHREGSET_HKLM
-
-Write to <b>HKEY_LOCAL_MACHINE</b> if empty.
-
-
 ##### - dwFlags.SHREGSET_FORCE_HKLM
 
 Write to <b>HKEY_LOCAL_MACHINE</b>.
 
 
-##### - dwFlags.SHREGSET_DEFAULT
+##### - dwFlags.SHREGSET_HKCU
 
-Equivalent to (<b>SHREGSET_FORCE_HKCU</b> | <b>SHREGSET_HKLM</b>).
+Write to <b>HKEY_CURRENT_USER</b> if empty.
+
+
+##### - dwFlags.SHREGSET_HKLM
+
+Write to <b>HKEY_LOCAL_MACHINE</b> if empty.
 
 
 ## -returns

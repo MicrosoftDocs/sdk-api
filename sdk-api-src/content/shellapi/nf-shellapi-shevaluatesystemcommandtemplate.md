@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Enforces strict validation of parameters used in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> or <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>.
+Enforces strict validation of parameters used in a call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> or <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>.
 
 
 ## -parameters
@@ -71,18 +72,18 @@ A command line, which may or may not include parameters. If the parameters are s
 
 Type: <b>PWSTR*</b>
 
-A pointer to the verified path to the application. This value should be passed as the <i>lpApplication</i> parameter in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> or as the <i>lpFile</i> parameter in a call to <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>. This resource is allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+A pointer to the verified path to the application. This value should be passed as the <i>lpApplication</i> parameter in a call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> or as the <i>lpFile</i> parameter in a call to <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>. This resource is allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
 
 
 ### -param ppszCommandLine [out, optional]
 
 Type: <b>PWSTR*</b>
 
-A pointer to a command-line string template to be used in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>. Command-line parameters should be specified based on this template, and then passed as the <i>lpCommandLine</i> parameter to <b>CreateProcess</b>. It is guaranteed to be of a form that <a href="https://msdn.microsoft.com/17dfb601-1306-41b6-a504-8bf69ff204c9">PathGetArgs</a> can always read correctly. This resource is allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
+A pointer to a command-line string template to be used in a call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>. Command-line parameters should be specified based on this template, and then passed as the <i>lpCommandLine</i> parameter to <b>CreateProcess</b>. It is guaranteed to be of a form that <a href="https://msdn.microsoft.com/17dfb601-1306-41b6-a504-8bf69ff204c9">PathGetArgs</a> can always read correctly. This resource is allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. 
 
                     
 
-This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 
 ### -param ppszParameters [out, optional]
@@ -93,7 +94,7 @@ A pointer to a command-line string template to be used in a call to <a href="htt
 
                     
 
-This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 
 ## -returns
@@ -115,7 +116,7 @@ This function is used when a calling process needs the deterministic behavior fr
 
 This function is used when the command is hard-coded.
 
-This function is used by <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> when handling file associations from HKEY_CLASSES_ROOT. The purpose of this function is to reduce <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> command-line exploits. It is not designed for processing user input and if used for that purpose can generate unexpected failures.
+This function is used by <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> when handling file associations from HKEY_CLASSES_ROOT. The purpose of this function is to reduce <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> command-line exploits. It is not designed for processing user input and if used for that purpose can generate unexpected failures.
 
 
 

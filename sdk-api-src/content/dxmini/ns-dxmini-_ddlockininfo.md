@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DDLOCKININFO structure contains the surface information.
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a> structure that contains the surface information. 
+Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that contains the surface information. 
 
 
 ## -see-also
@@ -69,7 +70,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55033
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
 
 
 

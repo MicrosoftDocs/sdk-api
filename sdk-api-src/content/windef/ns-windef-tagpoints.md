@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ Specifies the <i>x</i>-coordinate of the point.
 
 
 
-The POINTS structure is similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structures. The difference is that the members of the POINTS structure are of type SHORT, while those of the other two structures are of type LONG.
+The POINTS structure is similar to the <a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a> and <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structures. The difference is that the members of the POINTS structure are of type SHORT, while those of the other two structures are of type LONG.
 
 
 
@@ -83,11 +84,11 @@ The POINTS structure is similar to the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a>
+<a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -64,7 +65,7 @@ This property is read/write.
 
 
 
-If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method is called), the server with the lowest cost is contacted first. 
+If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> method is called), the server with the lowest cost is contacted first. 
 
 
 

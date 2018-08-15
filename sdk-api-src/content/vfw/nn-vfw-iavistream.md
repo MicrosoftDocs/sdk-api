@@ -15,6 +15,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -112,7 +113,7 @@ Fills and returns an <a href="https://msdn.microsoft.com/dca6d9ca-a825-4bd0-a19d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/95835ba2-5085-467f-ae2c-27dd4d2ea68c">Read</a>
 </td>
 <td align="left" width="63%">
 Reads data from a stream and copies it to an application-defined buffer.
@@ -148,7 +149,7 @@ Sets format information in a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/31252348-0830-4b1c-82a3-9f68818094da">Write</a>
 </td>
 <td align="left" width="63%">
 Writes data to a stream.

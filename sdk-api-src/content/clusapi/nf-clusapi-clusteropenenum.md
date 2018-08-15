@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -55,7 +56,7 @@ req.irql:
 
 Opens an enumerator for iterating through 
     <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> in a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>. The 
+    <a href="c_gly.htm">cluster</a>. The 
     <b>PCLUSAPI_CLUSTER_OPEN_ENUM</b> type defines a pointer to this function.
 
 

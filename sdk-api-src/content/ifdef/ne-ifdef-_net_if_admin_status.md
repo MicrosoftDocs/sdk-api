@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The NET_IF_ADMIN_STATUS enumeration type specifies the 
-  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> administrative
+  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> administrative
   status, as described in RFC 2863.
 
 
@@ -66,7 +67,7 @@ The NET_IF_ADMIN_STATUS enumeration type specifies the
 Specifies that the interface is initialized and enabled, but the interface is not necessarily
      ready to transmit and receive network data because that depends on the operational status of the
      interface. For more information about the operational status of an interface, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569619">OID_GEN_OPERATIONAL_STATUS</a>.
+     <a href="netvista.oid_gen_operational_status">OID_GEN_OPERATIONAL_STATUS</a>.
 
 
 ### -field NET_IF_ADMIN_STATUS_DOWN
@@ -96,7 +97,7 @@ For more information on RFC 2863, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569437">OID_GEN_ADMIN_STATUS</a>
+<a href="netvista.oid_gen_admin_status">OID_GEN_ADMIN_STATUS</a>
  
 
  

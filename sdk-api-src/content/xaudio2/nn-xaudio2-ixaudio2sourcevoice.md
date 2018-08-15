@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -136,7 +137,7 @@ Reconfigures the voice to consume source data at a different sample rate than th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/F712D277-6F9C-4473-B92B-5E23F9443562">Start</a>
 </td>
 <td align="left" width="63%">
 Starts consumption and processing of audio by the voice. Delivers the result to any connected submix or mastering voices, or to the output device.
@@ -145,7 +146,7 @@ Starts consumption and processing of audio by the voice. Delivers the result to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/A46CF7D1-5BBD-45F2-9C2A-90FE51A6FA75">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops consumption of audio by the current voice.

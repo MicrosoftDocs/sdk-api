@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The IFIMETRICS structure defines information for a given typeface that GDI can u
 
 ### -field cjThis
 
-Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff567416">IFIEXTRA</a> structure.
+Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://msdn.microsoft.com/acca1291-9f58-4520-a4ec-52dc9062630b">IFIEXTRA</a> structure.
 
 
 ### -field cjIfiExtra
@@ -91,11 +92,11 @@ Specifies the offset in bytes to a null-terminated Unicode string representing t
 
 ### -field dpFontSim
 
-Specifies the offset in bytes from the beginning of this IFIMETRICS structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566017">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
+Specifies the offset in bytes from the beginning of this IFIMETRICS structure to a <a href="https://msdn.microsoft.com/46d4170e-13d6-406f-991f-2024fadd8ddc">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
 
 Note that if a font is italic by design, the driver should not indicate font support for italic simulation although it can indicate font support for bold italic simulation. Similarly, the driver should not indicate font support for bold simulation if the font is bold by design, but can indicate font support for bold italic simulation. If the font is both bold and italic by design, it should not support any simulations.
 
-The offsets in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566017">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
+The offsets in the <a href="https://msdn.microsoft.com/46d4170e-13d6-406f-991f-2024fadd8ddc">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
 
 
 ### -field lEmbedId
@@ -606,7 +607,7 @@ Indicates that the font contains a valid digital signature.
 
 #### FM_INFO_RETURNS_OUTLINES
 
-Indicates that for any glyph supported by the driver, GDI can request a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
+Indicates that for any glyph supported by the driver, GDI can request a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
 
 
 
@@ -994,7 +995,7 @@ Specifies the code point of the space character or its equivalent.
 
 ### -field ptlBaseline
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
+Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
 
 
 ### -field ptlAspect
@@ -1009,7 +1010,7 @@ Specifies a POINTL structure that contains the direction of the ascender directi
 
 ### -field rclFontBox
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
+Specifies a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
 
 
 ### -field achVendId
@@ -1041,15 +1042,15 @@ Is an array of 10 bytes used to describe the visual characteristics of a given t
 
 
 
-Additional information for a typeface can optionally be specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567416">IFIEXTRA</a> structure.
+Additional information for a typeface can optionally be specified in the <a href="https://msdn.microsoft.com/acca1291-9f58-4520-a4ec-52dc9062630b">IFIEXTRA</a> structure.
 
-A driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556262">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
+A driver's <a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
 
 The IFIMETRICS structure defines all the information for a typeface that GDI understands. Most of the members are FWORD values, which are signed 16-bit quantities in design space. If the font is a raster font, design space and device space are the same and a font unit is equivalent to the distance between pixels.
 
 The coordinate system in the font/notional space is such that the y coordinate increases in an upward direction and the x coordinate increases to the right.
 
-The IFIMETRICS structure's <b>Align</b> member causes it to be larger for x64 machines than for x32 machines, which has ramifications for binary font format files formatted according to this structure. Starting with Windows Server 2003 SP1, an additional, fixed-size structure has been added to Prntfont.h: <a href="https://msdn.microsoft.com/library/windows/hardware/ff569182">PRINTIFI32</a>. The PRINTIFI32 structure is identical to the IFIMETRICS structure, except that it does not contain an <b>Align</b> member.
+The IFIMETRICS structure's <b>Align</b> member causes it to be larger for x64 machines than for x32 machines, which has ramifications for binary font format files formatted according to this structure. Starting with Windows Server 2003 SP1, an additional, fixed-size structure has been added to Prntfont.h: <a href="https://msdn.microsoft.com/f8e77eb1-3964-4ca0-8ae7-2e9617671990">PRINTIFI32</a>. The PRINTIFI32 structure is identical to the IFIMETRICS structure, except that it does not contain an <b>Align</b> member.
 
 
 
@@ -1059,15 +1060,15 @@ The IFIMETRICS structure's <b>Align</b> member causes it to be larger for x64 ma
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556262">DrvQueryFont</a>
+<a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567416">IFIEXTRA</a>
+<a href="https://msdn.microsoft.com/acca1291-9f58-4520-a4ec-52dc9062630b">IFIEXTRA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a>
+<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
  
 
  

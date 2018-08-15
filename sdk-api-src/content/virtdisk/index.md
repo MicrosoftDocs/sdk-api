@@ -2,7 +2,7 @@
 UID: NA:virtdisk
 ms.assetid: a48ab29b-70df-3605-aa11-a93da33433d8
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

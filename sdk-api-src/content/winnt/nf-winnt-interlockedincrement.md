@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -92,7 +93,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547916">InterlockedIncrementAcquire</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547919">InterlockedIncrementRelease</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/d6ae8212-ae47-47cf-8787-83780ecf1d61">InterlockedIncrementAcquire</a> or <a href="https://msdn.microsoft.com/6ea906b2-0c85-4f08-b53b-61d730fa4930">InterlockedIncrementRelease</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -108,7 +109,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>
 
 
 
@@ -132,7 +133,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547916">InterlockedIncrementAcquire</a>
+<a href="https://msdn.microsoft.com/d6ae8212-ae47-47cf-8787-83780ecf1d61">InterlockedIncrementAcquire</a>
 
 
 
@@ -148,7 +149,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547919">InterlockedIncrementRelease</a>
+<a href="https://msdn.microsoft.com/6ea906b2-0c85-4f08-b53b-61d730fa4930">InterlockedIncrementRelease</a>
 
 
 

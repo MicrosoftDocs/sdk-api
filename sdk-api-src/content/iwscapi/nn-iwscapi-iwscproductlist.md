@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iwscapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>IWSCProductList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/A28A6D3B-DC11-418B-987F-04711358B6EE">Count</a>
 </td>
 <td align="left" width="63%">
 Gathers the total number of all security product providers of the specified type on the computer.
@@ -80,7 +81,7 @@ Gathers the total number of all security product providers of the specified type
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/0D003510-BCFE-45E9-A34E-58036C382157">Initialize</a>
 </td>
 <td align="left" width="63%">
 Gathers information on all of the providers of the specified type on the computer.
@@ -89,7 +90,7 @@ Gathers information on all of the providers of the specified type on the compute
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/041F45EF-BE1E-4C37-9BD7-ED9F45587ADA">Item</a>
 </td>
 <td align="left" width="63%">
 Returns one of the  types of providers on the computer.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -94,7 +95,7 @@ Sets a value that specifies whether the plug-in requires the input format and ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/883b6e19-5d1a-4ad9-882b-953772e8e11a">GetID</a>
 </td>
 <td align="left" width="63%">
 Returns the Class ID of the plug-in.
@@ -103,7 +104,7 @@ Returns the Class ID of the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/812752d5-4d4b-4d8d-86a7-c7a9daa092e5">Init</a>
 </td>
 <td align="left" width="63%">
 Receives a playback context identifier.
@@ -112,7 +113,7 @@ Receives a playback context identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/80a8fe19-3660-49cb-8bbb-0267b3f11b63">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Executes when Windows Media Player shuts down the plug-in.

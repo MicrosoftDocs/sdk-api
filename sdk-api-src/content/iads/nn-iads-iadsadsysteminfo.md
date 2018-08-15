@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -155,7 +156,7 @@ Refreshes the ADSI Active Directory schema cache on the local computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188590">ComputerName</a>
+<a href="https://msdn.microsoft.com/1cdaa610-4341-4825-b2f9-dd495a9147ff">ComputerName</a>
 
 
 </td>
@@ -283,7 +284,7 @@ Retrieves the site name of the local computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997357">UserName</a>
+<a href="https://msdn.microsoft.com/1cdaa610-4341-4825-b2f9-dd495a9147ff">UserName</a>
 
 
 </td>

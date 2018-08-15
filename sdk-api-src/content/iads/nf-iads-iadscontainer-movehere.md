@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -76,16 +77,16 @@ The <b>IADsContainer::MoveHere</b>method moves a specified object to the contain
 
 
 
-#### - bstrSourceObject [in]
-
-The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
-
-
 #### - bstrNewName [in]
 
 The null-terminated Unicode string that specifies the relative name of the new object within the container. This can be
     <b>NULL</b>, in which case the object is moved. If it is not <b>NULL</b>, the object is
     renamed accordingly in the process.
+
+
+#### - bstrSourceObject [in]
+
+The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
 
 
 #### - ppbstrNewObject [out]

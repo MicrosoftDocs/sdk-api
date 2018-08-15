@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumSyncMgrEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/55be3dd4-993e-4f8f-a9d3-be5b7e4f6ddb">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones an <b>IEnumSyncMgrEvents</b> object.
@@ -80,7 +81,7 @@ Clones an <b>IEnumSyncMgrEvents</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/22151b04-f4b8-46af-b55a-1ac2054900d3">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next batch of events from the event store.
@@ -89,7 +90,7 @@ Gets the next batch of events from the event store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/68c99781-aedf-4676-bbd2-ab6cc14bba46">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current location in the enumeration to zero.
@@ -98,7 +99,7 @@ Resets the current location in the enumeration to zero.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/6e8257e8-fab3-407c-a6d0-26a7a9ca0961">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips forward the specified number of events in the enumeration.

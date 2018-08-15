@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957436">IOCTL_EMI_GET_METADATA</a> request.
+The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a> request.
 
 
 ## -struct-fields
@@ -61,14 +62,14 @@ The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Meterin
 
 ### -field MetadataSize
 
-The size of the  EMI metadata (an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957428">EMI_METADATA</a> structure) that can be obtained from the device.
+The size of the  EMI metadata (an <a href="https://msdn.microsoft.com/8992AA5D-7D71-4D00-9B18-FE070D29C26E">EMI_METADATA</a> structure) that can be obtained from the device.
 
 
 ## -remarks
 
 
 
-This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957438">IOCTL_EMI_GET_METADATA_SIZE</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/7A3E5BE5-F567-408A-B4AC-347E052957D9">IOCTL_EMI_GET_METADATA_SIZE</a> IOCTL request.
 
 
 
@@ -78,11 +79,11 @@ This structure is returned through a successful completion of an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957431">Energy Metering Interface</a>
+<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957438">IOCTL_EMI_GET_METADATA_SIZE</a>
+<a href="https://msdn.microsoft.com/7A3E5BE5-F567-408A-B4AC-347E052957D9">IOCTL_EMI_GET_METADATA_SIZE</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_Modulation</b> method gets the modulation type.
 
 #### - pModulation [out]
 
-Receives the modulation type, as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567735">ModulationType</a> enumeration.
+Receives the modulation type, as a member of the <a href="https://msdn.microsoft.com/fd8691d3-a862-4294-8b0b-9723a080d722">ModulationType</a> enumeration.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -109,6 +110,16 @@ Add the source to the end of the list. If this flag is not specified, the source
 Pointer to the source to be added to the list. You should use a null-terminated string. 
 
 
+##### - Flags.SRCLIST_APPEND
+
+Add the source to the end of the list. If this flag is not specified, the source is added to the beginning of the list.
+
+
+##### - Flags.SRCLIST_SYSIFADMIN
+
+If the caller is an administrator, the source is added to the per-system list; if the caller is not a member of the administrators local group, the source is added to the per-user list for the current user.
+
+
 ##### - Flags.SRCLIST_SYSTEM
 
 Add the source to the per-system list. The caller must be an administrator.
@@ -117,16 +128,6 @@ Add the source to the per-system list. The caller must be an administrator.
 ##### - Flags.SRCLIST_USER
 
 Add the source to the per-user list.
-
-
-##### - Flags.SRCLIST_SYSIFADMIN
-
-If the caller is an administrator, the source is added to the per-system list; if the caller is not a member of the administrators local group, the source is added to the per-user list for the current user.
-
-
-##### - Flags.SRCLIST_APPEND
-
-Add the source to the end of the list. If this flag is not specified, the source is added to the beginning of the list.
 
 
 ## -returns
@@ -146,7 +147,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

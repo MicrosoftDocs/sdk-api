@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ The <b>FolderItemVerbs</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/63cfc56c-4e6f-4e69-9fce-f625d550023b">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a new <b>FolderItemVerbs</b> object that is a copy of this FolderItemVerbs object.
@@ -81,7 +82,7 @@ Creates and returns a new <b>FolderItemVerbs</b> object that is a copy of this F
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/65871926-0920-4ad6-82da-7aba0a3c0fab">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <a href="https://msdn.microsoft.com/22f52e3f-875e-4dde-8875-3228639bc7f1">FolderItemVerb</a> object for a specified item in the collection.
@@ -99,7 +100,7 @@ Retrieves the <a href="https://msdn.microsoft.com/22f52e3f-875e-4dde-8875-322863
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/87e2c5a0-0162-493a-8924-d8c251e31c38">Application</a>
 
 
 </td>
@@ -115,7 +116,7 @@ Not implemented.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/a676593b-ea78-433d-a622-221028245c3a">Count</a>
 
 
 </td>

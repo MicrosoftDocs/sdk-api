@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -179,7 +180,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689597(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt168420">Email</a>
+<a href="https://msdn.microsoft.com/292562dd-9364-4e67-b0a6-7026867a34d0">Email</a>
 
 
 </td>
@@ -227,7 +228,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690265(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/ad01dcca-ad01-4aea-80fa-2655ad38015b">Name</a>
 
 
 </td>
@@ -307,7 +308,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690078(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923257">Title</a>
+<a href="https://msdn.microsoft.com/46303355-f186-4b5c-80fc-d106b7d7df34">Title</a>
 
 
 </td>
@@ -323,7 +324,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689144(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">TSID</a>
+<a href="https://msdn.microsoft.com/50d42e18-b79c-4356-9222-de506c6105d1">TSID</a>
 
 
 </td>

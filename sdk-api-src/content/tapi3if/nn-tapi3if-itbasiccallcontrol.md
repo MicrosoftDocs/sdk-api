@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -84,7 +85,7 @@ The <b>ITBasicCallControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541235">Answer</a>
+<a href="https://msdn.microsoft.com/81928cf7-082e-44e1-a631-a50a1f01ecec">Answer</a>
 </td>
 <td align="left" width="63%">
 Answers an incoming call.

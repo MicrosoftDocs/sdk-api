@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,16 +66,6 @@ The <b>IDirectInputJoyConfig8::GetConfig </b>method obtains information about a 
 
 
 
-#### - uiJoy
-
-Indicates a joystick identification number. This is a nonnegative integer. To enumerate joysticks, begin with joystick zero and increment the joystick number by one until the function returns DIERR_NOMOREITEMS. 
-
-
-#### - pjc
-
-Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538504">DIJOYCONFIG</a> structure before calling this method. 
-
-
 #### - dwFlags
 
 Specifies the members of the structure pointed to by <i>pjc</i> that are to be filled in.  This parameter can be zero, one, or more of the following: 
@@ -104,6 +95,16 @@ Indicates that the force-feedback gain for the joystick is being requested.
 #### DIJC_CALLOUT
 
 Indicates that the joystick polling callout is being requested. 
+
+
+#### - pjc
+
+Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="https://msdn.microsoft.com/2b17432f-fa5e-4ce3-9814-c24a45a49343">DIJOYCONFIG</a> structure before calling this method. 
+
+
+#### - uiJoy
+
+Indicates a joystick identification number. This is a nonnegative integer. To enumerate joysticks, begin with joystick zero and increment the joystick number by one until the function returns DIERR_NOMOREITEMS. 
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -52,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
 
 
 ## -parameters
@@ -67,7 +68,7 @@ A pointer to a <b>String</b> that is used by Plug-and-play to identify a current
 
 ### -param ppDeviceDispatch [out]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object.
 
 
 
@@ -117,7 +118,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597563">Device Object</a>
+<a href="https://msdn.microsoft.com/012e266d-e1b0-4d15-841f-04b6d21d27ae">Device Object</a>
 
 
 

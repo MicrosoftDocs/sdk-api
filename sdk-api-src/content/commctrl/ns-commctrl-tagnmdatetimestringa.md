@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -86,5 +87,5 @@ A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYST
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The return field. Set this member to GDT_VALID to indicate that the 
-					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> style only). 
+					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="https://msdn.microsoft.com/en-us/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style only). 
 

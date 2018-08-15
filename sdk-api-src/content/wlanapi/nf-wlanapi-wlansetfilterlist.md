@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -165,7 +166,7 @@ Denied networks cannot be connected by means of auto config and will not be incl
 
 To clear a filter list, set the <i>pNetworkList</i> parameter to <b>NULL</b>, or pass a pointer to a <a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a> structure that has the <b>dwNumberOfItems</b> member set to 0.
 
-To add all SSIDs to a filter list, pass a pointer to a  <a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a> structure with an associated <a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d52dad">DOT11_NETWORK</a> structure that has the  <b>uSSIDLength</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff548773">DOT11_SSID</a> structure set to 0.
+To add all SSIDs to a filter list, pass a pointer to a  <a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a> structure with an associated <a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d52dad">DOT11_NETWORK</a> structure that has the  <b>uSSIDLength</b> member of its <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure set to 0.
 
 To add all BSS types to a filter list, pass a pointer to a  <a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a> with an associated <a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d52dad">DOT11_NETWORK</a> structure that has its <b>dot11BssType</b> member set to <b>dot11_BSS_type_any</b>.
 

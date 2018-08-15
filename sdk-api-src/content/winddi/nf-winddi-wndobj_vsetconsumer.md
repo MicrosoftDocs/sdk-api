@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pvConsumer</b> field of the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff570599">WNDOBJ</a> structure.
+The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pvConsumer</b> field of the specified <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pv
 
 ### -param pwo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570599">WNDOBJ</a> structure created by a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564769">EngCreateWnd</a>.
+Pointer to a <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure created by a prior call to <a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>.
 
 
 ### -param pvConsumer
@@ -94,7 +95,7 @@ The callback provided to GDI by a driver's call to <b>EngCreateWnd</b>.
 
 </li>
 <li>
-The WNDOBJ_SETUP escape defined by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556217">DrvEscape</a> after a new WNDOBJ structure is created.
+The WNDOBJ_SETUP escape defined by <a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a> after a new WNDOBJ structure is created.
 
 </li>
 </ul>
@@ -106,15 +107,15 @@ The WNDOBJ_SETUP escape defined by <a href="https://msdn.microsoft.com/library/w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556217">DrvEscape</a>
+<a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564769">EngCreateWnd</a>
+<a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570599">WNDOBJ</a>
+<a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -80,7 +81,7 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-Properties are specified using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> element in the manifest.
+Properties are specified using the <a href="https://msdn.microsoft.com/0847bddc-08ad-4f0b-b1ef-9987916e9c98">Properties</a> element in the manifest.
 
 
 #### Examples

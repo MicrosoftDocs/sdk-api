@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -74,7 +75,7 @@ Specifies the total size of the data returned, in bytes. This may include data t
 ### -field Portdriver
 
 Type of port driver as enumerated by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/mt668773">STORAGE_PORT_CODE_SET</a> enumeration.
+     <a href="https://msdn.microsoft.com/1c1032e8-30b8-45ad-973a-c7616139b26e">STORAGE_PORT_CODE_SET</a> enumeration.
 
 <table>
 <tr>
@@ -159,7 +160,7 @@ Indicates whether a target reset is supported.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668773">STORAGE_PORT_CODE_SET</a>
+<a href="https://msdn.microsoft.com/1c1032e8-30b8-45ad-973a-c7616139b26e">STORAGE_PORT_CODE_SET</a>
  
 
  

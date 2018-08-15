@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -75,19 +76,19 @@ Specifies the version number of DirectInput that loaded the effect driver. For e
 Specifies the joystick ID number. The Microsoft Windows joystick subsystem allocates external IDs. 
 
 
-#### - fBegin
-
-Specifies the availability of the device. This value is nonzero if access to the device is beginning, and zero if access to the device is ending. 
-
-
 #### - dwInternalId
 
 Specifies the ID of the internal joystick. The device driver manages internal IDs. 
 
 
+#### - fBegin
+
+Specifies the availability of the device. This value is nonzero if access to the device is beginning, and zero if access to the device is ending. 
+
+
 #### - lpDIHIDInitInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538497">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
+Points to a <a href="https://msdn.microsoft.com/7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
 
 
 ## -returns

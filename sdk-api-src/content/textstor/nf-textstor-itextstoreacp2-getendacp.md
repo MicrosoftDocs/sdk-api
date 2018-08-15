@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -93,7 +94,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-The application has not implemented this method. This is usually an indication that calculating the end position requires excessive resources. If the end position is necessary, you can use <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> to calculate it, though this can also be a memory-intensive operation, paging in arbitrarily large amounts of memory from disk.
+The application has not implemented this method. This is usually an indication that calculating the end position requires excessive resources. If the end position is necessary, you can use <a href="https://msdn.microsoft.com/e1443c44-4787-448e-b5ff-a05d1396807d">GetText</a> to calculate it, though this can also be a memory-intensive operation, paging in arbitrarily large amounts of memory from disk.
 
 </td>
 </tr>
@@ -119,7 +120,7 @@ The caller does not have a read-only lock.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/e1443c44-4787-448e-b5ff-a05d1396807d">GetText</a>
 
 
 

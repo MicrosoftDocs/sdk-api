@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -88,7 +89,7 @@ Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369
         relates to a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.</li>
 <li>
 <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, if the property page 
-        relates to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>.</li>
+        relates to a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.</li>
 <li>
 <a href="https://msdn.microsoft.com/7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4">IGetClusterNetworkInfo</a>, if the property 
         page relates to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.</li>
@@ -139,7 +140,7 @@ Return one of the following values or any <b>HRESULT</b> that describes the resu
        you should expect to receive errors when you attempt to call the methods.</li>
 <li>
 To create the page, call the function 
-       <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>. To produce pages 
+       <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>. To produce pages 
        that look like the pages provided by Cluster Administrator, each new property page should be no larger than 252 
        dialog units wide and 218 dialog units high, and should contain two standard controls:
 

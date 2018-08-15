@@ -2,7 +2,7 @@
 UID: NA:msctfmonitorapi
 ms.assetid: 93c643f1-a8f9-3a96-ad1a-0fcebf61b28d
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

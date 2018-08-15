@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -76,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To finalize an image, both the frame <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a> and the encoder <b>Commit</b> must be called. However, only call the encoder  <b>Commit</b> method after all frames have been committed.
+To finalize an image, both the frame <a href="https://msdn.microsoft.com/6321fb9e-9ea8-423c-a332-9daa589af6f7">Commit</a> and the encoder <b>Commit</b> must be called. However, only call the encoder  <b>Commit</b> method after all frames have been committed.
 
 After the encoder has been committed, it can't be re-initialized or reused with another stream. A new encoder interface must be created, for example, with <a href="https://msdn.microsoft.com/7aae3ea6-2d8b-4764-9c78-a6cce49012a5">IWICImagingFactory::CreateEncoder</a>.
 
@@ -96,7 +97,7 @@ For the encoder <b>Commit</b> to succeed, you must at a minimum call  <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/6321fb9e-9ea8-423c-a332-9daa589af6f7">Commit</a>
 
 
 

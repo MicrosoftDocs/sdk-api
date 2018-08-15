@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -100,7 +101,7 @@ The method skipped the specified number of objects. The number of skipped object
 <td width="60%">
 The number of objects specified is greater than the number of objects remaining. If the number of objects 
         remaining is less than the number specified in <i>celt</i>, the 
-        <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a> method skips all remaining 
+        <a href="https://msdn.microsoft.com/8c0a856e-831e-489d-9e2a-bf2829bf59b6">Skip</a> method skips all remaining 
         objects.
 
 </td>

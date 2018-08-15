@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ Refreshes all of the local instance variables of the task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/2fdf325f-5652-42b0-99e3-3950dba1ef11">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops this instance of the task.
@@ -147,7 +148,7 @@ Gets the GUID identifier for this instance of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/26938b6c-9c83-4065-9714-6bd0d187c7f1">Name</a>
 
 
 </td>
@@ -163,7 +164,7 @@ Gets the name of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/8c364628-63dd-4018-9eeb-6acab265c144">Path</a>
 
 
 </td>

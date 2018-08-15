@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IWICMetadataWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597625">RemoveValue</a>
+<a href="https://msdn.microsoft.com/cc47b0d1-5772-4609-9696-816d39d04b34">RemoveValue</a>
 </td>
 <td align="left" width="63%">
 Removes the metadata item that matches the given parameters.
@@ -89,7 +90,7 @@ Removes the metadata item at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/bda3f959-40d1-45df-a82c-3eba2be33859">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the given metadata item.

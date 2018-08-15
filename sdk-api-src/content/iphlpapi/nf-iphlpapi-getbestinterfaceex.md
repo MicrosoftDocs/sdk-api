@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -62,7 +63,7 @@ The
 
 ### -param pDestAddr [in]
 
-The destination IPv6 or IPv4 address for which to retrieve the interface with the best route, in the form of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+The destination IPv6 or IPv4 address for which to retrieve the interface with the best route, in the form of a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
 
 
 ### -param pdwBestIfIndex [out]
@@ -168,7 +169,7 @@ On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated inte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

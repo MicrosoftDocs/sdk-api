@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -81,6 +82,48 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Handle to the property sheet dialog box.
 
+
+#### - lParam
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+
+Additional information about the message. The meaning of this value depends on the <i>uMsg</i> parameter. 
+
+If <i>uMsg</i> is  PSCB_INITIALIZED or PSCB_BUTTONPRESSED, the value of <i>lParam</i> is zero.
+
+If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either a  <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure describing the property sheet dialog box. Test the signature of the structure to determine the type. If signature is equal to 0xFFFF then the structure is an extended dialog template, otherwise the structure is a standard dialog template.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+   if (uMsg == PSCB_PRECREATE) 
+   {
+        if (lParam)
+        {
+             DLGTEMPLATE *pDlgTemplate;
+             DLGTEMPLATEEX *pDlgTemplateEx;
+            
+             pDlgTemplateEx = (DLGTEMPLATEEX *)lParam;
+             if (pDlgTemplateEx-&gt;signature == 0xFFFF)
+             {
+                    // pDlgTemplateEx points to an extended  
+                    // dialog template structure.
+             }
+             else
+             {
+                    // This is a standard dialog template
+                    //  structure.
+                    pDlgTemplate = (DLGTEMPLATE *)lParam;
+             }
+        }    
+   }</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### - uMsg
 
@@ -153,48 +196,6 @@ Indicates that the property sheet is about to be created. The <i>hwndDlg</i> par
 </table>
  
 
-
-#### - lParam
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
-
-Additional information about the message. The meaning of this value depends on the <i>uMsg</i> parameter. 
-
-If <i>uMsg</i> is  PSCB_INITIALIZED or PSCB_BUTTONPRESSED, the value of <i>lParam</i> is zero.
-
-If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either a  <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure describing the property sheet dialog box. Test the signature of the structure to determine the type. If signature is equal to 0xFFFF then the structure is an extended dialog template, otherwise the structure is a standard dialog template.
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-   if (uMsg == PSCB_PRECREATE) 
-   {
-        if (lParam)
-        {
-             DLGTEMPLATE *pDlgTemplate;
-             DLGTEMPLATEEX *pDlgTemplateEx;
-            
-             pDlgTemplateEx = (DLGTEMPLATEEX *)lParam;
-             if (pDlgTemplateEx-&gt;signature == 0xFFFF)
-             {
-                    // pDlgTemplateEx points to an extended  
-                    // dialog template structure.
-             }
-             else
-             {
-                    // This is a standard dialog template
-                    //  structure.
-                    pDlgTemplate = (DLGTEMPLATE *)lParam;
-             }
-        }    
-   }</pre>
-</td>
-</tr>
-</table></span></div>
 
 ## -returns
 

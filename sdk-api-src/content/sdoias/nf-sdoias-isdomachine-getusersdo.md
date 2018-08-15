@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -130,7 +131,7 @@ None of the parameters can be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973206">USERPROPERTIES</a>
+<a href="https://msdn.microsoft.com/ce16b0e4-3be1-42fc-a489-d3ddce2ebf3f">USERPROPERTIES</a>
  
 
  

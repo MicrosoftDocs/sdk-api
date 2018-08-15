@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cmdtree.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 
 <p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-The <b>ICommandTree::SetCommandTree</b> method sets a command object's command tree, replacing the existing one or replacing a text command specified with the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommandText</a> interface. The provided command tree is copied into or transferred to, depending on the <i>fCopy</i> parameter, the command object. Thus, the consumer may delete the original tree or text without affecting the command object. Most error checking is deferred until one of the validation methods, optimization (see <a href="38e49e0c-5c87-43b9-ac8f-e901b4be23ad">ICommandPrepare</a>), or the <a href="95b4c895-a55c-4f01-a641-68a7f9a5f106">ICommand::Execute</a> method is invoked. This method only verifies that the command tree can indeed be copied into the command object's space.
+The <b>ICommandTree::SetCommandTree</b> method sets a command object's command tree, replacing the existing one or replacing a text command specified with the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommandText</a> interface. The provided command tree is copied into or transferred to, depending on the <i>fCopy</i> parameter, the command object. Thus, the consumer may delete the original tree or text without affecting the command object. Most error checking is deferred until one of the validation methods, optimization (see <a href="https://msdn.microsoft.com/library/ms713621(v=VS.85).aspx">ICommandPrepare</a>), or the <a href="https://msdn.microsoft.com/library/ms718095(v=VS.85).aspx">ICommand::Execute</a> method is invoked. This method only verifies that the command tree can indeed be copied into the command object's space.
 
 
 ## -parameters
@@ -76,7 +77,7 @@ If <b>TRUE</b>, the command tree is copied, and the caller retains ownership of 
 
 
 
-If <i>fCopy</i> is <b>FALSE</b>, the consumer must not change the command tree without another call to the <b>SetCommandTree</b> method. The effect of any such change is undefined. In particular, the provider can assume that the command tree has not changed between the calls that use the tree, such as <b>SetCommandTree</b>, <a href="9c0302dd-0960-4f1b-8b74-4c3136b8e150">ICommandPrepare::Prepare</a>, and <a href="95b4c895-a55c-4f01-a641-68a7f9a5f106">ICommand::Execute</a>.
+If <i>fCopy</i> is <b>FALSE</b>, the consumer must not change the command tree without another call to the <b>SetCommandTree</b> method. The effect of any such change is undefined. In particular, the provider can assume that the command tree has not changed between the calls that use the tree, such as <b>SetCommandTree</b>, <a href="https://msdn.microsoft.com/library/ms718370(v=VS.85).aspx">ICommandPrepare::Prepare</a>, and <a href="https://msdn.microsoft.com/library/ms718095(v=VS.85).aspx">ICommand::Execute</a>.
 
 
 ## -returns

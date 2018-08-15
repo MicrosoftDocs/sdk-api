@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/0f41fecf-fd66-443f-bc4d-23c05a4d3824">Clone</a>
 </td>
 <td align="left" width="63%">
 Retrieves a new <b>IUIAutomationTextRange</b> identical to the original and inheriting all properties of the original.
@@ -89,7 +90,7 @@ Retrieves a new <b>IUIAutomationTextRange</b> identical to the original and inhe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
+<a href="https://msdn.microsoft.com/4ccf78af-19b0-4bc9-a519-92df8276804e">Compare</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies whether this text range has the same endpoints as another text range.
@@ -171,7 +172,7 @@ Returns the innermost UI Automation element that encloses the text range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/704e222d-1e1e-4953-bfa1-bbaa1c5ba833">GetText</a>
 </td>
 <td align="left" width="63%">
 Returns the plain text of the text range.

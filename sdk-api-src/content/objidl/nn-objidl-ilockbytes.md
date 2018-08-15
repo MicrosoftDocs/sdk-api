@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -72,7 +73,7 @@ The <b>ILockBytes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/9396c44f-ad76-49f4-9796-d29570466a27">Flush</a>
 </td>
 <td align="left" width="63%">
 Ensures that any internal buffers maintained by the byte array object are written out to the backing storage.
@@ -99,7 +100,7 @@ Reads a specified number of bytes starting at a specified offset from the beginn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/13b3237b-d113-4505-b397-b06916368fef">SetSize</a>
 </td>
 <td align="left" width="63%">
 Changes the size of the byte array.

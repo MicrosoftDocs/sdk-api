@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -121,7 +122,7 @@ The <i>ppFunctionInstance</i> parameter is <b>NULL</b> or <i>dwIndex</i> is out 
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a> and <b>Item</b> methods enables you to enumerate all of the function instances contained in a collection using a simple <b>for</b> or <b>while</b> loop.
+The <a href="https://msdn.microsoft.com/d74d10b1-dab1-4f7e-8dbc-434570bf9c79">GetCount</a> and <b>Item</b> methods enables you to enumerate all of the function instances contained in a collection using a simple <b>for</b> or <b>while</b> loop.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,12 +69,12 @@ A descriptor identifying an unconnected socket.
 ### -param name [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure to which the connection should be established.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure to which the connection should be established.
 
 
 ### -param namelen [in]
 
-The length, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure pointed to by the <i>name</i> parameter.
+The length, in bytes, of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure pointed to by the <i>name</i> parameter.
 
 
 ## -returns
@@ -241,7 +242,7 @@ The attempt to connect was forcefully rejected.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure pointed to by the <i>name</i> contains incorrect address format for the associated address family  or the <i>namelen</i> parameter is too small. This error is also returned if the <b>sockaddr</b> structure pointed to by the <i>name</i> parameter with a length  specified in the <i>namelen</i> parameter is not in a valid part of the user address space. 
+The <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure pointed to by the <i>name</i> contains incorrect address format for the associated address family  or the <i>namelen</i> parameter is too small. This error is also returned if the <b>sockaddr</b> structure pointed to by the <i>name</i> parameter with a length  specified in the <i>namelen</i> parameter is not in a valid part of the user address space. 
 
 </td>
 </tr>
@@ -360,7 +361,7 @@ The
 
 For connection-oriented sockets (for example, type SOCK_STREAM), an active connection is initiated to the foreign host using <i>name</i> (an address in the namespace of the socket; for a detailed description, see 
 <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>).<div class="alert"><b>Note</b>  If a socket is opened, a 
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>).<div class="alert"><b>Note</b>  If a socket is opened, a 
 <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> call is made, and then a 
 <a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a> call is made, Windows Sockets performs an implicit 
 <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function call.</div>
@@ -553,7 +554,7 @@ IrDA implements the connect function with addresses of the form sockaddr_irda. T
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
 
 
 

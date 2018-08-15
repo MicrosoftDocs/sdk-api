@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -84,20 +85,33 @@ White space after the content of the line. This is included in the height of the
 
 
 
+#### - baseline
+
+Type: <b>FLOAT</b>
+
+The distance from the top of the text line to its baseline.
+
+
+#### - height
+
+Type: <b>FLOAT</b>
+
+The height of the text line.
+
+
+#### - isTrimmed
+
+Type: <b>BOOL</b>
+
+The line is trimmed.
+
+
 #### - length
 
 Type: <b>UINT32</b>
 
 The number of text positions in the text line. 
 	  This includes any trailing whitespace and newline characters.
-
-
-#### - trailingWhitespaceLength
-
-Type: <b>UINT32</b>
-
-The number of whitespace positions at the end of the text line. 
-	  Newline sequences are considered whitespace.
 
 
 #### - newlineLength
@@ -108,23 +122,10 @@ The number of characters in the newline sequence at the end of the text line.
 	  If the count is zero, then the text line was either wrapped or it is the end of the text.
 
 
-#### - height
+#### - trailingWhitespaceLength
 
-Type: <b>FLOAT</b>
+Type: <b>UINT32</b>
 
-The height of the text line.
-
-
-#### - baseline
-
-Type: <b>FLOAT</b>
-
-The distance from the top of the text line to its baseline.
-
-
-#### - isTrimmed
-
-Type: <b>BOOL</b>
-
-The line is trimmed.
+The number of whitespace positions at the end of the text line. 
+	  Newline sequences are considered whitespace.
 

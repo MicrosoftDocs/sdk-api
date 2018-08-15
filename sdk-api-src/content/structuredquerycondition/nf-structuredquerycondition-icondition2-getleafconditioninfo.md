@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -62,7 +63,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 
 ### -param ppropkey [out, optional]
 
-Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
 
 Receives the name of the property of the leaf condition as a PROPERTYKEY.
                 

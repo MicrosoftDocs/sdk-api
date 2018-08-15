@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>ACL_SIZE_INFORMATION</b> structure contains information about the size of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> structure.
+The <b>ACL_SIZE_INFORMATION</b> structure contains information about the size of an <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure.
 
 
 ## -struct-fields
@@ -66,7 +67,7 @@ The number of <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6
 
 ### -field AclBytesInUse
 
-The number of bytes in the ACL actually used to store the ACEs and <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> structure. This may be less than the total number of bytes allocated to the ACL.
+The number of bytes in the ACL actually used to store the ACEs and <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure. This may be less than the total number of bytes allocated to the ACL.
 
 
 ### -field AclBytesFree
@@ -79,7 +80,7 @@ The number of unused bytes in the ACL.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
 
 
 

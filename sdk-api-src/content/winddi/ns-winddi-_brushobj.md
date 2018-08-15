@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -118,7 +119,7 @@ The driver need not perform image color management for the brush color because G
 
 Drivers can call <i>BRUSHOBJ_Xxx</i> service routines to realize brushes or to find previously realized brushes.
 
-If the <b>iSolidColor</b> member is 0xFFFFFFFF or the <b>pvRbrush</b> member is <b>NULL</b>, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538264">BRUSHOBJ_pvGetRbrush</a> function to realize the brush.
+If the <b>iSolidColor</b> member is 0xFFFFFFFF or the <b>pvRbrush</b> member is <b>NULL</b>, the driver must call the <a href="https://msdn.microsoft.com/3f3e5acb-f984-4571-9555-f6b383ddb6a7">BRUSHOBJ_pvGetRbrush</a> function to realize the brush.
 
 If neither BR_HOST_ICM or BR_DEVICE_ICM are set, ICM is not enabled in the graphics engine or in the driver.
 
@@ -132,7 +133,7 @@ For a description of the FLONG data type, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538262">BRUSHOBJ_hGetColorTransform</a>
+<a href="https://msdn.microsoft.com/a62544e5-f4b6-4544-8ec1-5a03f8bd3306">BRUSHOBJ_hGetColorTransform</a>
 
 
 
@@ -140,7 +141,7 @@ For a description of the FLONG data type, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538265">BRUSHOBJ_ulGetBrushColor</a>
+<a href="https://msdn.microsoft.com/815844d7-930f-46c3-9403-c61cb2c8a992">BRUSHOBJ_ulGetBrushColor</a>
  
 
  

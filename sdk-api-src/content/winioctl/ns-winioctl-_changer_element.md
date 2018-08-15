@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -62,7 +63,7 @@ Represents a changer element.
 ### -field ElementType
 
 The element type. This parameter can be one of the values from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553754">ELEMENT_TYPE</a> enumeration type.
+<a href="https://msdn.microsoft.com/b026d0f5-133d-4138-a727-80bf4480bb74">ELEMENT_TYPE</a> enumeration type.
 
 
 ### -field ElementAddress
@@ -75,15 +76,15 @@ The zero-based address of the element.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551459">CHANGER_ELEMENT_LIST</a>
+<a href="https://msdn.microsoft.com/cb1fcf78-b36a-4551-8eeb-da58edc80890">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553754">ELEMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/b026d0f5-133d-4138-a727-80bf4480bb74">ELEMENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559419">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
+<a href="https://msdn.microsoft.com/0745ee19-34f3-44c8-a52d-fb47448f0084">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
  
 
  

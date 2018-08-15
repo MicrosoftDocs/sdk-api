@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,11 +74,6 @@ TBD
 Handle to the window to associate with the input context.
 
 
-#### - hIMC [in]
-
-Handle to the input method context.
-
-
 #### - dwFlags [in]
 
 Flags specifying the type of association between the window and the input method context. This parameter can have one of the following values.
@@ -119,6 +115,11 @@ Do not associate the input method context with windows that are not associated w
 </tr>
 </table>
  
+
+
+#### - hIMC [in]
+
+Handle to the input method context.
 
 
 ## -returns

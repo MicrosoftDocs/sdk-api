@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ A driver should call this routine sparingly. Frequent calls to <b>EngQueryPerfor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564996">EngQueryPerformanceFrequency</a>
+<a href="https://msdn.microsoft.com/d4194278-eb49-43e4-b4bf-576e65d9e5ad">EngQueryPerformanceFrequency</a>
  
 
  

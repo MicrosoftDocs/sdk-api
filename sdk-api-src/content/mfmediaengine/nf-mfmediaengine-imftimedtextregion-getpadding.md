@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -86,20 +87,6 @@ Gets the padding that surrounds the region.
 
 
 
-#### - pBefore [out]
-
-Type: <b>double*</b>
-
-A pointer to a variable that receives the padding before the start of the region.
-
-
-#### - pStart [out]
-
-Type: <b>double*</b>
-
-A pointer to a variable that receives the start of the region.
-
-
 #### - pAfter [out]
 
 Type: <b>double*</b>
@@ -107,11 +94,25 @@ Type: <b>double*</b>
 A pointer to a variable that receives the padding after the end of the region.
 
 
+#### - pBefore [out]
+
+Type: <b>double*</b>
+
+A pointer to a variable that receives the padding before the start of the region.
+
+
 #### - pEnd [out]
 
 Type: <b>double*</b>
 
 A pointer to a variable that receives the end of the region.
+
+
+#### - pStart [out]
+
+Type: <b>double*</b>
+
+A pointer to a variable that receives the start of the region.
 
 
 #### - pUnitType [out]

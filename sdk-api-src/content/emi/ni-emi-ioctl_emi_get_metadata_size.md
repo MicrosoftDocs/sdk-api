@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: emi.h
 req.include-header: Emi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 The <b>IOCTL_EMI_GET_METADATA_SIZE</b> 
-   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957436">IOCTL_EMI_GET_METADATA</a> request.
+   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a> request.
 
 
 ## -ioctlparameters
@@ -132,7 +133,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957431">Energy Metering Interface</a>
+<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
  
 
  

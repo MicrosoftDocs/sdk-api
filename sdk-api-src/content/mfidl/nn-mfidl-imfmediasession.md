@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -84,7 +85,7 @@ Clears all of the presentations that are queued for playback in the Media Sessio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/6ed118ae-7538-4ef6-81fc-b762f709838f">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the Media Session and releases all of the resources it is using.
@@ -124,7 +125,7 @@ Gets the capabilities of the Media Session, based on the current presentation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/fcc576ba-f8be-4106-a270-756b2abf52d4">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the Media Session.
@@ -144,7 +145,7 @@ Sets a topology on the Media Session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/5b9663c2-e32e-4075-b397-59ae01558e15">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the Media Session and releases all the resources used by the Media Session.
@@ -154,7 +155,7 @@ Shuts down the Media Session and releases all the resources used by the Media Se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the Media Session.
@@ -164,7 +165,7 @@ Starts the Media Session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/9cc769cc-24ef-4790-a10e-4aec8fb4fc1f">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the Media Session.

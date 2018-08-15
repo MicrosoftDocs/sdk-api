@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: syncmgr.h
 req.include-header: Syncmgr.idl
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

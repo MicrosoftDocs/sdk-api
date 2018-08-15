@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Ordinal number denoting the display adapter from which to retrieve the LUID.
 
 ### -param pLUID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/564bcc9a-943b-4ad9-aeaa-0af4c3d3da0c">LUID</a>*</b>
 
 A unique identifier for the given adapter.
 

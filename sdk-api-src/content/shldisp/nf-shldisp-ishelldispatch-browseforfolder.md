@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -88,18 +89,18 @@ The handle to the parent window of the dialog box. This value can be zero.
 
 
 
-#### - sTitle [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
-
-A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
-
-
 #### - iOptions [in]
 
 Type: <b>Integer</b>
 
 An <b>Integer</b> value that contains the options for the method. This can be zero or a combination of the values listed under the <b>ulFlags</b> member of the <a href="https://msdn.microsoft.com/7c8df03a-93bb-42b2-b4a0-9c2ae917c0d1">BROWSEINFO</a> structure.
+
+
+#### - sTitle [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+
+A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
 
 
 #### - vRootFolder [in, optional]

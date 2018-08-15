@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -142,6 +143,11 @@ A flag that can be set to keep the URL scheme, in addition to the part that is s
 Keep the URL scheme.
 
 
+##### - dwFlags.URL_PARTFLAG_KEEPSCHEME
+
+Keep the URL scheme.
+
+
 ##### - dwPart.URL_PART_HOSTNAME
 
 The host name.
@@ -170,11 +176,6 @@ The URL scheme.
 ##### - dwPart.URL_PART_USERNAME
 
 The username.
-
-
-##### - dwFlags.URL_PARTFLAG_KEEPSCHEME
-
-Keep the URL scheme.
 
 
 ## -returns

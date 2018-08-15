@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -83,7 +84,7 @@ Returns the name of a cluster object.</p> (Inherited from <b>IGetClusterObjectIn
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926847">GetObjectType</a>
+<a href="https://msdn.microsoft.com/f01a1ada-bb4d-4042-ac56-3658262d1110">GetObjectType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of a cluster object.</p> (Inherited from <b>IGetClusterObjectInfo</b>)</td>
@@ -124,7 +125,7 @@ Do not obtain other information interfaces, such as
      <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterObjectInfo</b> interface. While 
      <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> will return a valid interface, 
-     the operation is not valid in the context of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, 
+     the operation is not valid in the context of the <a href="c_gly.htm">cluster</a>, 
      and the result is an interface that represents no real cluster object. For an illustration, see 
      <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a>.
 

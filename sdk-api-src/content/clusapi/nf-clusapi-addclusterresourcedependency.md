@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -92,7 +93,7 @@ If the operation fails,
 A dependency relationship created by the 
      <b>AddClusterResourceDependency</b> function 
      affects how resources are moved from one <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> to another after a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn425147">failure</a>. It determines the order in which resources are 
+     <a href="https://msdn.microsoft.com/f18644d1-63ec-4920-b703-a3f149684508">failure</a>. It determines the order in which resources are 
      taken offline and brought back online.
 
 Resources in a dependency relationship must be moved together. The dependent resource must be brought online 

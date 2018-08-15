@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -100,7 +101,7 @@ Checks whether a client-side extension can be called during the processing of us
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/41ce28c5-fdc4-4bec-b71f-07889048cdb5">DisplayName</a>
 
 
 </td>
@@ -112,7 +113,7 @@ Display name of the client-side extension.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a>
+<a href="https://msdn.microsoft.com/41ce28c5-fdc4-4bec-b71f-07889048cdb5">ID</a>
 
 
 </td>

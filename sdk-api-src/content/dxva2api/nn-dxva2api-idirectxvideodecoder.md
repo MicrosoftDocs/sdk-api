@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,7 +95,7 @@ Signals the end of the decoding operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://msdn.microsoft.com/3c957b2f-4bba-4c39-84de-719c08e1bf78">Execute</a>
 </td>
 <td align="left" width="63%">
 Executes a decoding operation on the current frame.
@@ -104,7 +105,7 @@ Executes a decoding operation on the current frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a DXVA decoder buffer.
@@ -137,7 +138,7 @@ Gets the DXVA decoder service that created this decoder device.
 <a href="https://msdn.microsoft.com/e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90">ReleaseBuffer</a>
 </td>
 <td align="left" width="63%">
-Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>.
+Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">GetBuffer</a>.
         
 
 </td>

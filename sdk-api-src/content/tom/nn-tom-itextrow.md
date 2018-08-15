@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -287,7 +288,7 @@ Inserts a row, or rows, at the location identified by the associated <a href="ht
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/2e516a4d-0f3b-475b-969d-661662bfaeef">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Compares two table rows to determine if they have the same properties.
@@ -296,7 +297,7 @@ Compares two table rows to determine if they have the same properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/49f057ba-6376-496b-b0b0-97c6a00111c4">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a row.

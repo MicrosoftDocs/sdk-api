@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-create an instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
+create an instance of the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
 
 
 ## -parameters
@@ -66,12 +67,12 @@ A PIDL containing the serialized property storage.
 
 ### -param riid [in]
 
-A reference to the IID of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> that is obtained by using __uuidof(IPropertyStore).
+A reference to the IID of the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> that is obtained by using __uuidof(IPropertyStore).
 
 
 ### -param ppv [out]
 
-When this method returns, contains the address of a pointer to a new <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>.
+When this method returns, contains the address of a pointer to a new <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
 
 
 ## -returns
@@ -92,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ A value that specifies the number of anycast IP address entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559190">MIB_ANYCASTIPADDRESS_ROW</a> structures containing anycast IP address entries.
+<a href="https://msdn.microsoft.com/bdbe43b8-88aa-48af-aa6b-c88c4e8e404e">MIB_ANYCASTIPADDRESS_ROW</a> structures containing anycast IP address entries.
 
 
 ## -remarks
@@ -77,11 +78,11 @@ An array of
 
 The <b>MIB_ANYCASTIPADDRESS_TABLE</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552508">GetAnycastIpAddressTable</a> function enumerates the anycast IP addresses on a local system and returns this information in a <b>MIB_ANYCASTIPADDRESS_TABLE</b> structure. 
+The <a href="https://msdn.microsoft.com/4eccae59-00be-4f9c-bb62-a507d7dad2e0">GetAnycastIpAddressTable</a> function enumerates the anycast IP addresses on a local system and returns this information in a <b>MIB_ANYCASTIPADDRESS_TABLE</b> structure. 
 
 
 
-The <b>MIB_ANYCASTIPADDRESS_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff559190">MIB_ANYCASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_ANYCASTIPADDRESS_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_ANYCASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
+The <b>MIB_ANYCASTIPADDRESS_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/bdbe43b8-88aa-48af-aa6b-c88c4e8e404e">MIB_ANYCASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_ANYCASTIPADDRESS_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_ANYCASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -95,11 +96,11 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552508">GetAnycastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/4eccae59-00be-4f9c-bb62-a507d7dad2e0">GetAnycastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559190">MIB_ANYCASTIPADDRESS_ROW</a>
+<a href="https://msdn.microsoft.com/bdbe43b8-88aa-48af-aa6b-c88c4e8e404e">MIB_ANYCASTIPADDRESS_ROW</a>
  
 
  

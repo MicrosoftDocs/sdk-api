@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objectarray.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IObjectArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/168d2f09-60c9-457a-b4dd-7678f97eda1b">GetAt</a>
 </td>
 <td align="left" width="63%">
 Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.
@@ -80,7 +81,7 @@ Provides a pointer to a specified object's interface. The object and interface a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/2803d8b1-7fc2-499b-a16b-b82b420cba66">GetCount</a>
 </td>
 <td align="left" width="63%">
 Provides a count of the objects in the collection.

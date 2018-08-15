@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -101,6 +102,11 @@ This member is reserved for system use.
 
 
 
+#### - DisallowStrippedImages : 1
+
+Images that have not been built with /DYNAMICBASE and do not have relocation information will fail to load if this flag and <b>EnableForceRelocateImages</b> are set.
+
+
 #### - EnableBottomUpRandomization : 1
 
 Thread stacks and other bottom-up allocations are subject to randomization by ASLR if this flag is set.  This flag is read-only and cannot be modified after a process has been created.
@@ -114,11 +120,6 @@ Images that have not been built with /DYNAMICBASE are forcibly relocated on load
 #### - EnableHighEntropy : 1
 
 Bottom-up allocations are subject to higher degrees of entropy when randomized by ASLR if this flag is set.  This flag only applies to 64-bit processes and is read-only.
-
-
-#### - DisallowStrippedImages : 1
-
-Images that have not been built with /DYNAMICBASE and do not have relocation information will fail to load if this flag and <b>EnableForceRelocateImages</b> are set.
 
 
 #### - ReservedFlags : 28

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Property_ExW
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,12 +68,12 @@ A pointer to a GUID that identifies the device setup class or device interface c
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that represents the device property key of the requested device class property.
+A pointer to a <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a> structure that represents the device property key of the requested device class property.
 
 
 ### -param PropertyType [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device class property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base data type is modified, a property-data-type modifier.
+A pointer to a <a href="https://msdn.microsoft.com/e0fdcc28-be70-4ae1-bd6d-89e2177eae62">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device class property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base data type is modified, a property-data-type modifier.
 
 
 ### -param PropertyBuffer [out, optional]
@@ -286,17 +287,17 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetClassPropertyEx</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
+<b>SetupDiGetClassPropertyEx</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetClassPropertyEx</b>. 
 
 A caller of <b>SetupDiGetClassPropertyEx</b> must be a member of the Administrators group to set a device interface property. 
 
-To obtain the device property keys that represent the device properties that are set for a device class on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551093">SetupDiGetClassPropertyKeysEx</a>.
+To obtain the device property keys that represent the device properties that are set for a device class on a remote computer, call <a href="https://msdn.microsoft.com/dde6fdbd-e189-4ec7-95c7-b655ea7083c1">SetupDiGetClassPropertyKeysEx</a>.
 
-To retrieve a device class property on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551086">SetupDiGetClassProperty</a>.
+To retrieve a device class property on a local computer, call <a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>.
 
-To set a device class property on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552128">SetupDiSetClassProperty</a><b>,</b> and to set a device class property on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552132">SetupDiSetClassPropertyEx</a>.
+To set a device class property on a local computer, call <a href="https://msdn.microsoft.com/12402336-9894-4d0d-b176-c6907e0cdcd4">SetupDiSetClassProperty</a><b>,</b> and to set a device class property on a remote computer, call <a href="https://msdn.microsoft.com/99b58da2-0398-4dc1-8c9e-0eefaf03bf91">SetupDiSetClassPropertyEx</a>.
 
 
 
@@ -306,19 +307,19 @@ To set a device class property on a local computer, call <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551086">SetupDiGetClassProperty</a>
+<a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551093">SetupDiGetClassPropertyKeysEx</a>
+<a href="https://msdn.microsoft.com/dde6fdbd-e189-4ec7-95c7-b655ea7083c1">SetupDiGetClassPropertyKeysEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552128">SetupDiSetClassProperty</a>
+<a href="https://msdn.microsoft.com/12402336-9894-4d0d-b176-c6907e0cdcd4">SetupDiSetClassProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552132">SetupDiSetClassPropertyEx</a>
+<a href="https://msdn.microsoft.com/99b58da2-0398-4dc1-8c9e-0eefaf03bf91">SetupDiSetClassPropertyEx</a>
  
 
  

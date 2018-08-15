@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ If the volume currently has files whose data is derived from the WIM file, the d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
+<a href="https://msdn.microsoft.com/5BC73E77-86A0-4A7D-BCBA-F3E8DA980701">FSCTL_SUSPEND_OVERLAY</a>
  
 
  

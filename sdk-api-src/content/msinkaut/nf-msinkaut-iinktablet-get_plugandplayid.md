@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -67,7 +68,7 @@ This property is read-only.
 
 
 
-The property value is based upon the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538868">HIDD_ATTRIBUTES</a><b>ProductID</b> member. The manufacturer of the tablet device is responsible for adding this string. The property value is empty if the tablet device does not have an identifier.
+The property value is based upon the <a href="https://msdn.microsoft.com/31bfa863-459f-4fb2-af41-2d40d0396dd7">HIDD_ATTRIBUTES</a><b>ProductID</b> member. The manufacturer of the tablet device is responsible for adding this string. The property value is empty if the tablet device does not have an identifier.
 
 <div class="alert"><b>Note</b>  Accessing this property within certain message handlers can result in the underlying function being re-entered, causing unexpected results. Take care to avoid a reentrant call when handling any of the following messages: WM_ACTIVATE, WM_ACTIVATEAPP, WMNCACTIVATE, WM_PAINT; WM_SYSCOMMAND if <b>wParam</b> is set to SC_HOTKEY or SC_TASKLIST; and WM_SYSKEYDOWN (when processing Alt-Tab or Alt-Esc key combinations). This is an issue with single-threaded apartment model applications. </div>
 <div> </div>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -93,7 +94,7 @@ Used with <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca74
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_MAX_SIZE
 
-Maximum <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> size for body deserialization.
+Maximum <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">heap</a> size for body deserialization.
                 
 
 This is the heap available setting used for deserializing the body. This heap is also 
@@ -107,7 +108,7 @@ Default is 65535 bytes.
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_TRIM_SIZE
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">Heap</a> trim size for body deserialization.
+<a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">Heap</a> trim size for body deserialization.
                 
 
 This is the heap available setting used for deserializing the body. This heap is also 

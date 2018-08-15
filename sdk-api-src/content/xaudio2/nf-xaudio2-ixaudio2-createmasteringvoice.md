@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,6 +72,11 @@ Creates and configures a mastering voice.
 
 
 
+#### - Flags [in]
+
+ Flags that specify the behavior of the mastering voice. Must be 0.
+
+
 #### - InputChannels [in]
 
 Number of channels the mastering voice expects in its input audio. 
@@ -104,14 +110,9 @@ Flags
 
 
 
-#### - Flags [in]
+#### - StreamCategory [in, optional]
 
- Flags that specify the behavior of the mastering voice. Must be 0.
-
-
-#### - szDeviceId [in]
-
-Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
+The audio stream category to use for this mastering voice.
 
 
 #### - pEffectChain [in, optional]
@@ -119,9 +120,9 @@ Identifier of the device to receive the output audio. Specifying the default val
 Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structure that describes an effect chain to use in the mastering voice, or NULL to use no effects.
 
 
-#### - StreamCategory [in, optional]
+#### - szDeviceId [in]
 
-The audio stream category to use for this mastering voice.
+Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
 
 
 ## -returns

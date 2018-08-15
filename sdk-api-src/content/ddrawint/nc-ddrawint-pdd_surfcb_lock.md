@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdLock</i> callback function locks a specified area of surface memory and
 
 #### - lpLock
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551637">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
+Points to a <a href="https://msdn.microsoft.com/46de3dbb-abdf-4518-b62d-891efa5a949b">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
 
 
 ## -returns
@@ -124,7 +125,7 @@ A driver running on an NT-based operating system
 <i>DdLock</i> can be called with a disabled 
 	 <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled 
 	 or enabled by calling the display driver's 
-	 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a> 
+	 <a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a> 
 	 function. See 
 	 <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> 
 	 for more information.
@@ -148,7 +149,7 @@ Consequently, a driver should not attempt to return system memory pointers from 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551637">DD_LOCKDATA</a>
+<a href="https://msdn.microsoft.com/46de3dbb-abdf-4518-b62d-891efa5a949b">DD_LOCKDATA</a>
 
 
 

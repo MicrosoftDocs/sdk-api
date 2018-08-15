@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxvahd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -91,7 +92,7 @@ Creates one or more Microsoft Direct3D video surfaces.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451674">GetVideoProcessorCaps</a>
+<a href="https://msdn.microsoft.com/d9423b3f-4a4b-49f0-8018-c19a7b663300">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of one or more DXVA-HD video processors.
@@ -118,7 +119,7 @@ Gets the capabilities of the DXVA-HD device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451689">GetVideoProcessorFilterRange</a>
+<a href="https://msdn.microsoft.com/cff587a5-04ed-4f3e-bd05-0cb8d83fffb7">GetVideoProcessorFilterRange</a>
 </td>
 <td align="left" width="63%">
 Gets the range of values for an image filter that the DXVA-HD device supports.

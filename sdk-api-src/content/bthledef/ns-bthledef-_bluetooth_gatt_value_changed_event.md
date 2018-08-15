@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -78,7 +79,7 @@ The characteristic value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450842">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
+<a href="https://msdn.microsoft.com/AF36BC9A-5EB7-4495-870A-40BF5E0A57A3">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
  
 
  

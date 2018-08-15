@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,14 +81,14 @@ The <b>GetOutputFormat</b> method retrieves the supported formats for a specifie
 Pointer to a pointer to an <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a> interface. This object is created by a successful call to this method.
 
 
-#### - dwOutputNumber [in]
-
-<b>DWORD</b> containing the output number.
-
-
 #### - dwFormatNumber [in]
 
 <b>DWORD</b> containing the format number.
+
+
+#### - dwOutputNumber [in]
+
+<b>DWORD</b> containing the output number.
 
 
 ## -returns

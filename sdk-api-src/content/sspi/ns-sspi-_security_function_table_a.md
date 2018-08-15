@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -228,29 +229,29 @@ Pointer to the   <a href="https://msdn.microsoft.com/ea271d0c-9167-41c5-8919-096
 
 
 
-#### - EnumerateSecurityPackages
-
-Pointer to the <a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function.
-
-
-#### - Reserved1
-
-Reserved for future use.
-
-
-#### - QueryCredentialsAttributes
-
-Pointer to the  <a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function.
-
-
 #### - AcquireCredentialsHandle
 
 Pointer to the <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a> function.
 
 
+#### - AddCredentials
+
+Pointer to the  <a href="https://msdn.microsoft.com/ea6ddd18-818e-43f5-9453-de2b3f994325">AddCredential</a> function.
+
+
+#### - EnumerateSecurityPackages
+
+Pointer to the <a href="https://msdn.microsoft.com/900790a6-111d-43f5-9316-e85aab03a3bc">EnumerateSecurityPackages</a> function.
+
+
 #### - FreeCredentialsHandle
 
 Pointer to the <a href="https://msdn.microsoft.com/e089618c-8233-475a-9725-39265c6427ab">FreeCredentialsHandle</a> function.
+
+
+#### - ImportSecurityContext
+
+Pointer to the <a href="https://msdn.microsoft.com/0f8e65d0-69cf-42ba-a903-1922d731e5ec">ImportSecurityContext</a> function.
 
 
 #### - InitializeSecurityContext
@@ -263,19 +264,19 @@ Pointer to the  <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538
 Pointer to the  <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function.
 
 
+#### - QueryCredentialsAttributes
+
+Pointer to the  <a href="https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533">QueryCredentialsAttributes</a> function.
+
+
 #### - QuerySecurityPackageInfo
 
 Pointer to the   <a href="https://msdn.microsoft.com/130ef0fe-bb13-4a65-b476-cd25ed234da1">QuerySecurityPackageInfo</a> function.
 
 
-#### - ImportSecurityContext
+#### - Reserved1
 
-Pointer to the <a href="https://msdn.microsoft.com/0f8e65d0-69cf-42ba-a903-1922d731e5ec">ImportSecurityContext</a> function.
-
-
-#### - AddCredentials
-
-Pointer to the  <a href="https://msdn.microsoft.com/ea6ddd18-818e-43f5-9453-de2b3f994325">AddCredential</a> function.
+Reserved for future use.
 
 
 #### - SetContextAttributes

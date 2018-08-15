@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -204,7 +205,7 @@ Microsoft currently does not provide a CSP of this type.
 Supports the following algorithms:
 
 <ul>
-<li>Encryption: RC2, RC4, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544012">AES</a></li>
+<li>Encryption: RC2, RC4, <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">AES</a></li>
 <li>Hashing: MD5, SHA</li>
 <li>Key Exchange: RSA</li>
 <li>Signatures: RSA</li>

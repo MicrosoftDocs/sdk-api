@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -93,7 +94,7 @@ Indicates whether the audio device is real-time (RT)-capable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+<a href="https://msdn.microsoft.com/345a172b-11af-4c98-9f9c-54bfa38c5077">SetBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the endpoint format and the size of the endpoint's buffer through which the audio data is streamed.
