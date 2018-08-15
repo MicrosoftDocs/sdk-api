@@ -99,7 +99,7 @@ This function draws a rectangle that cannot be scrolled. To scroll an area conta
 
 #### Examples
 
-For an example, see "Creating an Owner-Drawn List Box" in <a href="_win32_Using_List_Boxes_cpp">Using List Boxes</a>.
+For an example, see "Creating an Owner-Drawn List Box" in <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Using List Boxes</a>.
 
 <div class="code"></div>
 

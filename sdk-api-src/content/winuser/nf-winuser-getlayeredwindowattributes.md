@@ -68,7 +68,7 @@ Retrieves the opacity and transparency color key of a layered window.
 
 Type: <b>HWND</b>
 
-A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> using <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> after the window has been created. 
+A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> using <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created. 
 
 
 ### -param pcrKey [out, optional]
@@ -140,9 +140,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>GetLayeredWindowAttributes</b> can be called only if the application has previously called <a href="https://msdn.microsoft.com/5654fa0c-33cf-4014-9d75-0d512fdffacd">SetLayeredWindowAttributes</a> on the window. The function will fail if the layered window was setup with <a href="https://msdn.microsoft.com/3f4a3608-2383-46d5-b1b2-53a939bf736a">UpdateLayeredWindow</a>.
+<b>GetLayeredWindowAttributes</b> can be called only if the application has previously called <a href="https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a> on the window. The function will fail if the layered window was setup with <a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>.
 
-For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
 
 
 
@@ -156,7 +156,7 @@ For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
 
 
 
@@ -164,15 +164,15 @@ For more information, see <a href="using_windows.htm">Using Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/5654fa0c-33cf-4014-9d75-0d512fdffacd">SetLayeredWindowAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/7695fb64-3918-4d9a-8cd8-01d20edd9c55">Using Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Windows</a>
 
 
 

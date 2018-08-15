@@ -66,7 +66,7 @@ The <b>PointF</b> class encapsulates a point in a 2-D coordinate system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3e10636-81e8-48e4-b767-c325b3e8f4d8">PointF::PointF()</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535003(v=VS.85).aspx">PointF::PointF()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object and initializes the 
@@ -77,7 +77,7 @@ Creates a <b>PointF</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db4d7765-892e-4f41-94a8-c82aa5155c19">PointF::PointF(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535004(v=VS.85).aspx">PointF::PointF(PointF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b> object.
@@ -86,7 +86,7 @@ Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bb7bbb8-7d0c-41bb-a649-2ba4d62fb2c1">PointF::PointF(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535001(v=VS.85).aspx">PointF::PointF(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object using two real numbers to specify the 
@@ -97,11 +97,11 @@ Creates a <b>PointF</b> object using two real numbers to specify the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e571657e-e13c-4627-8a12-250358b20682">PointF::PointF(SizeF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535002(v=VS.85).aspx">PointF::PointF(SizeF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object using a 
-			<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object to specify the 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object to specify the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -116,10 +116,10 @@ Creates a <b>PointF</b> object using a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/690b3fa5-4543-45da-af37-a22333fc4db9">PointF::Equals</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534996(v=VS.85).aspx">PointF::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/690b3fa5-4543-45da-af37-a22333fc4db9">PointF::Equals</a> method determines whether two 
+The <a href="https://msdn.microsoft.com/en-us/library/ms534996(v=VS.85).aspx">PointF::Equals</a> method determines whether two 
 			<b>PointF</b> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
@@ -128,19 +128,19 @@ The <a href="https://msdn.microsoft.com/690b3fa5-4543-45da-af37-a22333fc4db9">Po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da1f7f42-09e7-4889-9fd7-6eeed3a0b59c">PointF::operator-(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534998(v=VS.85).aspx">PointF::operator-(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/da1f7f42-09e7-4889-9fd7-6eeed3a0b59c">PointF::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534998(v=VS.85).aspx">PointF::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38e628ec-b031-4e8a-be24-504bd56b2bd7">PointF::operator+(PointF&)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534997(v=VS.85).aspx">PointF::operator+(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/38e628ec-b031-4e8a-be24-504bd56b2bd7">PointF::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534997(v=VS.85).aspx">PointF::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
 
 </td>
 </tr>

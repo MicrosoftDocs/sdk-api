@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a transparent version of an item image within an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/1b9dc515-d327-4634-a424-cc15a32f0f7c">HDM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a transparent version of an item image within an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775308(v=VS.85).aspx">HDM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters

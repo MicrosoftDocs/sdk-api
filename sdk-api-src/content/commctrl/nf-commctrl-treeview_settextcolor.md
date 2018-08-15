@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/eb57dfd5-3e7b-4cda-a659-be9e03470a44">TVM_SETTEXTCOLOR</a> message explicitly. 
+Sets the text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773769(v=VS.85).aspx">TVM_SETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/a4c003eb-0e0e-496a-a048-ce733e8fcd45">TreeView_GetTextColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773893(v=VS.85).aspx">TreeView_GetTextColor</a>
  
 
  

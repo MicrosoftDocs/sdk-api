@@ -81,7 +81,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c728388b-9ced-4aec-8035-fc324d1de830">GetFunction</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205871(v=VS.85).aspx">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.

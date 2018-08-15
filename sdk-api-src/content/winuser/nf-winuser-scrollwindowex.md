@@ -134,7 +134,7 @@ Specifies flags that control scrolling. This parameter can be a combination of t
 </td>
 <td width="60%">
 Erases the newly invalidated region by sending a 
-						<a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8acbe1">WM_ERASEBKGND</a> message to the window when specified with the SW_INVALIDATE flag.
+						<a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message to the window when specified with the SW_INVALIDATE flag.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ Scrolls all child windows that intersect the rectangle pointed to by the
 						<i>prcScroll</i> parameter. The child windows are scrolled by the number of pixels specified by the 
 						<i>dx</i> and 
 						<i>dy</i> parameters. The system sends a 
-						<a href="https://msdn.microsoft.com/552ddc26-fe63-449b-8c82-bb927a2c1c41">WM_MOVE</a> message to all child windows that intersect the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms632631(v=VS.85).aspx">WM_MOVE</a> message to all child windows that intersect the 
 						<i>prcScroll</i> rectangle, even if they do not move.
 
 </td>
@@ -171,7 +171,7 @@ Scrolls all child windows that intersect the rectangle pointed to by the
 </td>
 <td width="60%">
 Scrolls using smooth scrolling. Use the 
-						<a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a> portion of the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> portion of the 
 						<i>flags</i> parameter to indicate how much time, in milliseconds, the smooth-scrolling operation should take.
 
 </td>
@@ -200,12 +200,12 @@ If the function fails, the return value is ERROR. To get extended error informat
 If the SW_INVALIDATE and SW_ERASE flags are not specified, <b>ScrollWindowEx</b> does not invalidate the area that is scrolled from. If either of these flags is set, <b>ScrollWindowEx</b> invalidates this area. The area is not updated until the application calls the <a href="https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766">UpdateWindow</a> function, calls the  <a href="https://msdn.microsoft.com/c6cb7f74-237e-4d3e-a852-894da36e990c">RedrawWindow</a> function (specifying the RDW_UPDATENOW or RDW_ERASENOW flag), or retrieves the 
 				<a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message from the application queue. 
 
-If the window has the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_CLIPCHILDREN</a> style, the returned areas specified by 
+If the window has the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CLIPCHILDREN</a> style, the returned areas specified by 
 				<i>hrgnUpdate</i> and 
 				<i>prcUpdate</i> represent the total area of the scrolled window that must be updated, including any areas in child windows that need updating. 
 
 If the SW_SCROLLCHILDREN flag is specified, the system does not properly update the screen if part of a child window is scrolled. The part of the scrolled child window that lies outside the source rectangle is not erased and is not properly redrawn in its new destination. To move child windows that do not lie completely within the rectangle specified by 
-				<i>prcScroll</i>, use the <a href="https://msdn.microsoft.com/2758de7b-c218-4a9b-b11b-b189301f7514">DeferWindowPos</a> function. The cursor is repositioned if the SW_SCROLLCHILDREN flag is set and the caret rectangle intersects the scroll rectangle. 
+				<i>prcScroll</i>, use the <a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a> function. The cursor is repositioned if the SW_SCROLLCHILDREN flag is set and the caret rectangle intersects the scroll rectangle. 
 
 All input and output coordinates (for 
 				<i>prcScroll</i>, 
@@ -218,7 +218,7 @@ All input and output coordinates (for
 
 #### Examples
 
-For an example, see <a href="Using_Scroll_Bars.htm">Scrolling Text with the WM_PAINT Message</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb787531(v=VS.85).aspx">Scrolling Text with the WM_PAINT Message</a>.
 
 <div class="code"></div>
 
@@ -233,7 +233,7 @@ For an example, see <a href="Using_Scroll_Bars.htm">Scrolling Text with the WM_P
 
 
 
-<a href="https://msdn.microsoft.com/2758de7b-c218-4a9b-b11b-b189301f7514">DeferWindowPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx">DeferWindowPos</a>
 
 
 

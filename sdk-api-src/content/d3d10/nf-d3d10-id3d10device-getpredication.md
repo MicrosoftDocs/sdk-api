@@ -62,9 +62,9 @@ Get the rendering predicate state.
 
 ### -param ppPredicate [out]
 
-Type: <b><a href="https://msdn.microsoft.com/baf387c4-dd7a-4a05-a118-839499caec24">ID3D10Predicate</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx">ID3D10Predicate</a>**</b>
 
-Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/baf387c4-dd7a-4a05-a118-839499caec24">ID3D10Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
+Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx">ID3D10Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
 
 
 ### -param pPredicateValue [out]
@@ -97,7 +97,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

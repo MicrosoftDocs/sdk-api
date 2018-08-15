@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the color of the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/dce2c266-672b-4682-ba23-51d9a8e1102b">LVM_SETINSERTMARKCOLOR</a> message explicitly. 
+Sets the color of the insertion point. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761184(v=VS.85).aspx">LVM_SETINSERTMARKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-To use <b>ListView_SetInsertMarkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ListView_SetInsertMarkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

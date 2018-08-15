@@ -96,7 +96,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt16">InitVariantFromUInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,15 +124,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>
 
 
 
-<a href="shell.VariantToUInt16">VariantToUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776623(v=VS.85).aspx">VariantToUInt16</a>
 
 
 
-<a href="shell.VariantToUInt16WithDefault">VariantToUInt16WithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776626(v=VS.85).aspx">VariantToUInt16WithDefault</a>
  
 
  

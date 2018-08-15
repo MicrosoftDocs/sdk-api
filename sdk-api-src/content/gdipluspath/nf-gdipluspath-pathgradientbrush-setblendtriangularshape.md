@@ -102,7 +102,7 @@ By default, as you move from the boundary of a path gradient to the center point
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendTriangularShape</b> method of the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendTriangularShape</b> method of the 
 						<b>PathGradientBrush</b>object, passing a focus of 0.2 and a scale of 0.7. Then the code uses the path gradient brush to paint a rectangle that contains the ellipse.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -149,7 +149,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -157,35 +157,35 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a4ff6de-615e-4128-9e88-337ed6f4af7f">PathGradientBrush::GetBlend</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535063(v=VS.85).aspx">PathGradientBrush::GetBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/c87dbdab-68ea-4fac-9d37-1a12dfcf5335">PathGradientBrush::GetBlendCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535062(v=VS.85).aspx">PathGradientBrush::GetBlendCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/3abf3b42-d72e-413e-9daf-ba0e8146695e">PathGradientBrush::SetBlend</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535084(v=VS.85).aspx">PathGradientBrush::SetBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/6029629a-c9e5-41e5-82ce-616a94977b4b">PathGradientBrush::SetBlendBellShape</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535082(v=VS.85).aspx">PathGradientBrush::SetBlendBellShape</a>
  
 
  

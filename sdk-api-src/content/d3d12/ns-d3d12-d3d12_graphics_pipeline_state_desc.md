@@ -152,19 +152,19 @@ The number of render target formats in the  <b>RTVFormats</b> member.
 
 ### -field RTVFormats
 
-An array of <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed values for the render target formats.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed values for the render target formats.
           
 
 
 ### -field DSVFormat
 
-A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the depth-stencil format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the depth-stencil format.
           
 
 
 ### -field SampleDesc
 
-A <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure that specifies multisampling parameters.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that specifies multisampling parameters.
           
 
 
@@ -199,7 +199,7 @@ The runtime validates:
 <ul>
 <li>Whether the linkage between the shader stages is correct.
           </li>
-<li>If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="d3d12_primitive_topology_type.htm">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
+<li>If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="https://msdn.microsoft.com/en-us/library/Dn770385(v=VS.85).aspx">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
           </li>
 <li>Whether sample frequency execution isn't allowed with the center multi-sample anti-aliasing (MSAA) pattern.
           </li>

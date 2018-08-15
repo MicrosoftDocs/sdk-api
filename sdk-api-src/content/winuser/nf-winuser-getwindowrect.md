@@ -107,7 +107,7 @@ In conformance with conventions for the <a href="https://msdn.microsoft.com/9439
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Initializing a Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -122,7 +122,7 @@ For an example, see <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-
 
 
 
-<a href="https://msdn.microsoft.com/3746920a-8333-411c-a0f2-4e44b9cce973">GetClientRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633503(v=VS.85).aspx">GetClientRect</a>
 
 
 
@@ -134,7 +134,7 @@ For an example, see <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-
 
 
 
-<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
 
 
 

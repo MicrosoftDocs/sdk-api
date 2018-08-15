@@ -91,7 +91,7 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
 
 After an application calls <b>EnqueueSetEvent</b>, it  can immediately call the <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a> function to put itself to sleep until rendering commands complete.
 
-You cannot use <b>EnqueueSetEvent</b> to determine work completion that is associated with presentation (<a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a>); instead, we recommend that you use <a href="https://msdn.microsoft.com/c02b9e3b-5d59-4ed2-b373-2097c0e46f70">IDXGISwapChain::GetFrameStatistics</a>.
+You cannot use <b>EnqueueSetEvent</b> to determine work completion that is associated with presentation (<a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>); instead, we recommend that you use <a href="https://msdn.microsoft.com/en-us/library/Bb174573(v=VS.85).aspx">IDXGISwapChain::GetFrameStatistics</a>.
 
 
 #### Examples

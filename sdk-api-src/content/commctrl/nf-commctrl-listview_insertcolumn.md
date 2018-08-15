@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Inserts a new column in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/1326e38e-bb45-4d0d-b5bc-ec684b3b92ef">LVM_INSERTCOLUMN</a> message explicitly. 
+Inserts a new column in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The index of the new column.
 
 Type: <b>const LPLVCOLUMN</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/6ffa287d-0284-43c9-80ff-b9c90a83e855">LVCOLUMN</a> structure that contains the attributes of the new column. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure that contains the attributes of the new column. 
 
 
 ## -remarks

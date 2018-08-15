@@ -152,7 +152,7 @@ For store apps, use the <a href="https://msdn.microsoft.com/7eda6937-7ee7-430a-b
 
 
 
-<a href="M:System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.GetActivationFactory(System.Type)">WindowsRuntimeMarshal.GetActivationFactory</a>
+<a href="https://msdn.microsoft.com/library/Hh551827(v=VS.105).aspx">WindowsRuntimeMarshal.GetActivationFactory</a>
  
 
  

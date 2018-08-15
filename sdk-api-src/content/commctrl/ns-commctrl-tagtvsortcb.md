@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used to sort child items in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/1669e576-5e57-49f6-8097-7d6547306014">TVM_SORTCHILDRENCB</a> message. This structure is identical to the 
+Contains information used to sort child items in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773785(v=VS.85).aspx">TVM_SORTCHILDRENCB</a> message. This structure is identical to the 
 			<b>TV_SORTCB</b> structure, but it has been renamed to follow current naming conventions. 
 
 
@@ -95,7 +95,7 @@ int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
 </code></pre>
 The callback function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent.
 
-The <i>lParam1</i> and <i>lParam2</i> parameters correspond to the lParam member of the <a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure for the two items being compared. The <i>lParamSort</i> parameter corresponds to the <b>lParam</b> member of this structure.
+The <i>lParam1</i> and <i>lParam2</i> parameters correspond to the lParam member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure for the two items being compared. The <i>lParamSort</i> parameter corresponds to the <b>lParam</b> member of this structure.
 
 
 

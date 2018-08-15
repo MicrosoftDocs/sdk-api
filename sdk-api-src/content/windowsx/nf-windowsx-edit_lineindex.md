@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the character index of the first character of a specified line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/a4c65012-d47f-4d87-bc7f-2002d07f5eea">EM_LINEINDEX</a> message explicitly.
+Gets the character index of the first character of a specified line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761611(v=VS.85).aspx">EM_LINEINDEX</a> message explicitly.
 
 
 ## -parameters

@@ -65,7 +65,7 @@ The
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that contains the 
-<a href="security.security_identifiers_sids_">security identifier (SID)</a> of the local group member.
+<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier (SID)</a> of the local group member.
 
 
 ## -see-also

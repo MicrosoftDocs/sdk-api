@@ -62,9 +62,9 @@ The <b>Graphics::SetPixelOffsetMode</b> method sets the pixel offset mode of thi
 
 ### -param pixelOffsetMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a> enumeration that specifies the pixel offset mode. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a> enumeration that specifies the pixel offset mode. 
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a>
  
 
  

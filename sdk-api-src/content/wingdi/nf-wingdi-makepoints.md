@@ -73,7 +73,7 @@ The coordinates of a point. The x-coordinate is in the low-order word, and the y
 
 
 
-<a href="_win32_getmessagepos_cpp">GetMessagePos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644938(v=VS.85).aspx">GetMessagePos</a>
 
 
 

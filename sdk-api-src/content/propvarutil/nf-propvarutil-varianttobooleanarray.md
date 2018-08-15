@@ -140,7 +140,7 @@ If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of t
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanArray">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -178,23 +178,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>
 
 
 
-<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
 
 
 
-<a href="shell.VariantGetBooleanElem">VariantGetBooleanElem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776581(v=VS.85).aspx">VariantGetBooleanElem</a>
 
 
 
-<a href="shell.VariantToBoolean">VariantToBoolean</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
 
 
 
-<a href="shell.VariantToBooleanArrayAlloc">VariantToBooleanArrayAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776594(v=VS.85).aspx">VariantToBooleanArrayAlloc</a>
  
 
  

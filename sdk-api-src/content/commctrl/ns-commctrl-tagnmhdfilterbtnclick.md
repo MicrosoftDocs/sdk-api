@@ -61,9 +61,9 @@ Specifies or receives the attributes of a filter button click.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-A handle of an <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information. 
+A handle of an <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information. 
 
 
 ### -field iItem
@@ -85,7 +85,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf1
 
 
 
-<a href="https://msdn.microsoft.com/36b85cdc-1022-4568-8891-0c919c850fd4">HDN_FILTERBTNCLICK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775275(v=VS.85).aspx">HDN_FILTERBTNCLICK</a>
  
 
  

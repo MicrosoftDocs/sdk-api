@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the handle to the child tooltip control used by a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/65e8189e-ae3e-4268-b1ed-bb0d88f2cbe3">TVM_GETTOOLTIPS</a> message explicitly. 
+Retrieves the handle to the child tooltip control used by a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773729(v=VS.85).aspx">TVM_GETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to a tree-view control.
 
 
 
-When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="Tree_View_Control_Window_Styles.htm">TVS_NOTOOLTIPS</a> style. 
+When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="https://msdn.microsoft.com/en-us/library/Bb760013(v=VS.85).aspx">TVS_NOTOOLTIPS</a> style. 
 
 
 
@@ -80,7 +80,7 @@ When created, tree-view controls automatically create a child tooltip control. T
 
 
 
-<a href="https://msdn.microsoft.com/2a0e3776-9a07-4a7f-a2cc-68a273efff26">TreeView_SetToolTips</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760133(v=VS.85).aspx">TreeView_SetToolTips</a>
  
 
  

@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 
-To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/6ddcf54b-9476-44cc-9471-ae070a6cc1b0">ToUnicodeEx</a> function.
+To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a> function.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ To specify a handle to the keyboard layout to use to translate the specified cod
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
 
 
 ### -param wScanCode [in]
@@ -196,7 +196,7 @@ Typically, <b>ToUnicode</b> performs the translation based on the virtual-key co
 
 
 
-<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
 
 
 
@@ -204,15 +204,15 @@ Typically, <b>ToUnicode</b> performs the translation based on the virtual-key co
 
 
 
-<a href="https://msdn.microsoft.com/15683b4b-15e3-4b76-92d2-6176c081392d">ToAscii</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646316(v=VS.85).aspx">ToAscii</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ddcf54b-9476-44cc-9471-ae070a6cc1b0">ToUnicodeEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646322(v=VS.85).aspx">ToUnicodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad94ff40-131a-4632-97f6-0e80e28a215f">VkKeyScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
  
 
  

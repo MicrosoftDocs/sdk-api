@@ -72,7 +72,7 @@ The <b>IDXGIOutput6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport">CheckHardwareCompositionSupport</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846755(v=VS.85).aspx">CheckHardwareCompositionSupport</a>
 </td>
 <td align="left" width="63%">
 Notifies applications that hardware stretching is supported.

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Scrolls the tree-view control vertically to ensure that the specified item is visible. If possible, the specified item becomes the first visible item at the top of the control's window. You can use this macro or the <a href="https://msdn.microsoft.com/e23ef98b-7db7-4e61-aace-05e6520f8b5c">TreeView_Select</a> macro, or you can send the <a href="https://msdn.microsoft.com/8b943958-7b93-4e54-99de-200121cf0752">TVM_SELECTITEM</a> message explicitly. 
+Scrolls the tree-view control vertically to ensure that the specified item is visible. If possible, the specified item becomes the first visible item at the top of the control's window. You can use this macro or the <a href="https://msdn.microsoft.com/en-us/library/Bb773901(v=VS.85).aspx">TreeView_Select</a> macro, or you can send the <a href="https://msdn.microsoft.com/en-us/library/Bb773736(v=VS.85).aspx">TVM_SELECTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -79,9 +79,9 @@ Handle to an item. If the <i>hitem</i> parameter is <b>NULL</b>, the control is 
 
 Tree-view controls display as many items as will fit in the window. If the specified item is near the bottom of the control's hierarchy of items, it might not become the first visible item, depending on how many items fit in the window. 
 
-If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/18d9d61d-6ec5-4d3b-9c02-36d0e61ed232">TVN_ITEMEXPANDED</a> notification codes. 
+If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes. 
 
-Using the <b>TreeView_SelectSetFirstVisible</b> macro is equivalent to sending the <a href="https://msdn.microsoft.com/8b943958-7b93-4e54-99de-200121cf0752">TVM_SELECTITEM</a> message with its <i>flag</i> parameter set to the TVGN_FIRSTVISIBLE value. 
+Using the <b>TreeView_SelectSetFirstVisible</b> macro is equivalent to sending the <a href="https://msdn.microsoft.com/en-us/library/Bb773736(v=VS.85).aspx">TVM_SELECTITEM</a> message with its <i>flag</i> parameter set to the TVGN_FIRSTVISIBLE value. 
 
 
 

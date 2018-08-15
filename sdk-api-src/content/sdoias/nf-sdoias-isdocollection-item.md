@@ -65,13 +65,13 @@ The
 
 Pointer to a 
 <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>. Store the name of the object in a 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> in this <b>VARIANT</b>.
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> in this <b>VARIANT</b>.
 
 
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface for the object.
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the object.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>
 
 
 

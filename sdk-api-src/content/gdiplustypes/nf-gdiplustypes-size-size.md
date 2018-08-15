@@ -71,7 +71,7 @@ Creates a new <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6
 
 
 
-<a href="https://msdn.microsoft.com/8e3f7ddd-cac4-4e81-9764-40167ef7d9ef">Size Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534747(v=VS.85).aspx">Size Constructors</a>
  
 
  

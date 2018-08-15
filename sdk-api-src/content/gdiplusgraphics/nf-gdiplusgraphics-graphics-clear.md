@@ -93,7 +93,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/9ebd7158-26bd-447e-8351-4245e1098361">DrawRectangle Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535755(v=VS.85).aspx">DrawRectangle Methods</a>
 
 
 

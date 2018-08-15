@@ -179,7 +179,7 @@ Express writers support only local resources—sets of files whose absolute path
 <b>AddExcludeFiles</b> to explicitly remove some files (for instance, temporary files) from a backup.
 
 For more information on excluding files, see 
-<a href="writer_metadata_document_contents.htm">Exclude File List Specification</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
 
 
 

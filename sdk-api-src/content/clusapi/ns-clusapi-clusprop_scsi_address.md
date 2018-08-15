@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Describes an address for a <a href="s_gly.htm">SCSI</a> 
+Describes an address for a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">SCSI</a> 
     device. It is used as an entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists 
     of:
 <ul>

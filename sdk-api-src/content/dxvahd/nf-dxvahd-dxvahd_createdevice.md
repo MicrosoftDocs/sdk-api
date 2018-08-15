@@ -62,7 +62,7 @@ Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 
 ### -param pD3DDevice [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a> interface of a Direct3D 9 device.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a> interface of a Direct3D 9 device.
 
 
 ### -param pContentDesc [in]

@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the <a href="https://msdn.microsoft.com/564b4b1b-913f-4040-bb28-eea50c0c3738">EM_GETWORDBREAKPROC</a> message explicitly.
+Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761602(v=VS.85).aspx">EM_GETWORDBREAKPROC</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/564b4b1b-913f-4040-bb28-eea50c0c3738">EM_GETWORDBREAKPROC</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761602(v=VS.85).aspx">EM_GETWORDBREAKPROC</a>.
 
 
 

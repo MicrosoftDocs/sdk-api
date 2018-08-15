@@ -142,7 +142,7 @@ If the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> contains more 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleArray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -180,23 +180,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762322(v=VS.85).aspx">InitVariantFromDoubleArray</a>
 
 
 
-<a href="shell.PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776539(v=VS.85).aspx">PropVariantToDoubleVector</a>
 
 
 
-<a href="shell.VariantGetDoubleElem">VariantGetDoubleElem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776582(v=VS.85).aspx">VariantGetDoubleElem</a>
 
 
 
-<a href="shell.VariantToDouble">VariantToDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
 
 
 
-<a href="shell.VariantToDoubleArrayAlloc">VariantToDoubleArrayAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776600(v=VS.85).aspx">VariantToDoubleArrayAlloc</a>
  
 
  

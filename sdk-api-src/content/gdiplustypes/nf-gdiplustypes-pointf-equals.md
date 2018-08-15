@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>PointF::Equals</b> method determines whether two 
-			<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects are equal. Two points are considered equal if they have the same 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
 
@@ -68,7 +68,7 @@ The <b>PointF::Equals</b> method determines whether two
 Type: <b>const PointF&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object that is compared to this 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object that is compared to this 
 					<b>PointF</b> object. 
 
 
@@ -80,7 +80,7 @@ Type: <strong>Type: <b>BOOL</b>
 </strong>
 
 If the 
-						<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -94,15 +94,15 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
 
 
 
-<a href="https://msdn.microsoft.com/38e628ec-b031-4e8a-be24-504bd56b2bd7">PointF::operator+</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534997(v=VS.85).aspx">PointF::operator+</a>
 
 
 
-<a href="https://msdn.microsoft.com/da1f7f42-09e7-4889-9fd7-6eeed3a0b59c">PointF::operator-</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534998(v=VS.85).aspx">PointF::operator-</a>
  
 
  

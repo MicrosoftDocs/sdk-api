@@ -255,7 +255,7 @@ To remove the CTL context link from the certificate store, use the  <a href="htt
 
 
 
-<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
  
 
  

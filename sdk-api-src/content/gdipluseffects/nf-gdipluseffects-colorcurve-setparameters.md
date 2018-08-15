@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorCurve::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/1ea62f08-f591-4da5-8fcc-74df7ddcebe4">ColorCurve</a> object.
+The <b>ColorCurve::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> object.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>ColorCurve::SetParameters</b> method sets the parameters of this <a href=
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/53204bea-b6b6-4a7c-a237-4754fbb92628">ColorCurveParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/53204bea-b6b6-4a7c-a237-4754fbb92628">ColorCurveParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -88,11 +88,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/1ea62f08-f591-4da5-8fcc-74df7ddcebe4">ColorCurve</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/796cba21-9606-47af-9db0-909ca1c2e0ff">ColorCurve::GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536240(v=VS.85).aspx">ColorCurve::GetParameters</a>
  
 
  

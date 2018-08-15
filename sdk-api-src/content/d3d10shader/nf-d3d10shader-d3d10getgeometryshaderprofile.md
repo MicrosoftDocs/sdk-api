@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get the geometry <a href="https://msdn.microsoft.com/6224f05e-20b1-42ea-96fb-63dd0edb720e">shader profile</a> best suited to a given device.
+Get the geometry <a href="https://msdn.microsoft.com/en-us/library/Bb509626(v=VS.85).aspx">shader profile</a> best suited to a given device.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Get the geometry <a href="https://msdn.microsoft.com/6224f05e-20b1-42ea-96fb-63d
 
 ### -param pDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>*</b>
 
-Pointer to the device (see <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>).
+Pointer to the device (see <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>).
 
 
 ## -returns
@@ -82,7 +82,7 @@ The shader profile.
 
 
 
-<a href="https://msdn.microsoft.com/c8b33c08-7b3f-4b33-9b3c-4aa2b45b8f32">Shader Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
  
 
  

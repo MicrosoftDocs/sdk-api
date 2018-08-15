@@ -139,7 +139,7 @@ The container should dispatch the message to the windowless object with the keyb
 </ul>
 For all other messages, the container should process the message on its own.
 
-The windowless object can return S_FALSE to this method to indicate that it did not process the message. Then, the container either performs the default behavior for the message by calling the <a href="_win32_DefWindowProc_cpp">DefWindowProc</a> function, or processes the message itself.
+The windowless object can return S_FALSE to this method to indicate that it did not process the message. Then, the container either performs the default behavior for the message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function, or processes the message itself.
 
 The container must pass the following window messages to the default window procedure:
 

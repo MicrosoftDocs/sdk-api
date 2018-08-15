@@ -73,7 +73,7 @@ Speed of sound, in user-defined world units per second. Use this value only for 
 
 ### -param Instance [out]
 
-3D audio instance handle. Use this handle when you call <a href="https://msdn.microsoft.com/d6b05917-9253-4c05-a318-ff13d9a329eb">X3DAudioCalculate</a>.
+3D audio instance handle. Use this handle when you call <a href="https://msdn.microsoft.com/en-us/library/Ee419052(v=VS.85).aspx">X3DAudioCalculate</a>.
 
 
 ## -returns

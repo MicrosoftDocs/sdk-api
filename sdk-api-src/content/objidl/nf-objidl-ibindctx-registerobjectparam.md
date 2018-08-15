@@ -62,7 +62,7 @@ Associates an object with a string key in the bind context's string-keyed table 
 
 ### -param pszKey [in]
 
-The <a href="_shell_STR_constants_cpp">bind context string key</a> under which the object is being registered. Key string comparison is case-sensitive.
+The <a href="https://msdn.microsoft.com/library/Bb762592(v=VS.85).aspx">bind context string key</a> under which the object is being registered. Key string comparison is case-sensitive.
 
 
 ### -param punk [in]

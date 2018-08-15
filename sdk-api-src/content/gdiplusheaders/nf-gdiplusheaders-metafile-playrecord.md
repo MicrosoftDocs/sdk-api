@@ -62,9 +62,9 @@ The <b>Metafile::PlayRecord</b> method plays a metafile record.
 
 ### -param recordType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/520852c1-961e-4deb-9e3a-49ad753fa861">EmfPlusRecordType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534110(v=VS.85).aspx">EmfPlusRecordType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/520852c1-961e-4deb-9e3a-49ad753fa861">EmfPlusRecordType</a> enumeration that specifies the type of metafile record to be played. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534110(v=VS.85).aspx">EmfPlusRecordType</a> enumeration that specifies the type of metafile record to be played. 
 
 
 ### -param flags [in]
@@ -110,7 +110,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-This method is used in conjunction with the <a href="https://msdn.microsoft.com/167a04d5-24f4-4885-b97c-b4536e41e125">EnumerateMetafile Methods</a> method of the 
+This method is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms535761(v=VS.85).aspx">EnumerateMetafile Methods</a> method of the 
 
 				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. The EnumerateMetafile Methods method calls an application-defined callback function for each record in a specified metafile. The callback function can display each record (or selected records) by calling the <b>Metafile::PlayRecord</b> method.
 
@@ -122,23 +122,23 @@ This method is used in conjunction with the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/520852c1-961e-4deb-9e3a-49ad753fa861">EmfPlusRecordType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534110(v=VS.85).aspx">EmfPlusRecordType</a>
 
 
 
-<a href="https://msdn.microsoft.com/167a04d5-24f4-4885-b97c-b4536e41e125">EnumerateMetafile Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535761(v=VS.85).aspx">EnumerateMetafile Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/79b8df1b-6fc5-455b-9d08-57d64bf6bffa">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077">Metafiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

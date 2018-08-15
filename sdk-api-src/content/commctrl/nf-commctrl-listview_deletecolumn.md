@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Removes a column from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/1748a70b-9a13-4753-ac23-55b5652164c2">LVM_DELETECOLUMN</a> message explicitly. 
+Removes a column from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774894(v=VS.85).aspx">LVM_DELETECOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ An index of the column to delete.
 
 
 
-Deleting column zero of a list-view control is supported only in ComCtl32.dll version 6 and later. Version 5 also supports deleting column zero, but only  after you use <a href="https://msdn.microsoft.com/f87b20bc-0139-4d0a-b38c-32c75743d6f6">CCM_SETVERSION</a> to set the version to 5 or later. In versions prior to version 5, if you must delete column zero, insert a zero length dummy column zero and delete column one and above. 
+Deleting column zero of a list-view control is supported only in ComCtl32.dll version 6 and later. Version 5 also supports deleting column zero, but only  after you use <a href="https://msdn.microsoft.com/en-us/library/Bb775581(v=VS.85).aspx">CCM_SETVERSION</a> to set the version to 5 or later. In versions prior to version 5, if you must delete column zero, insert a zero length dummy column zero and delete column one and above. 
 
 
 

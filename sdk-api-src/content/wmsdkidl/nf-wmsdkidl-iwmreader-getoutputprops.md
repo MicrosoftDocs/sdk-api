@@ -130,7 +130,7 @@ The method failed for an unspecified reason.
 
 
 
-The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="wmformat_glossary.htm">YUV</a> images with varying properties to suit your needs. When you load a file the output properties are set to the default for compressed media type in the stream associated with the output. You can examine the possible output formats by calling <a href="https://msdn.microsoft.com/282c5fb6-6b8a-4a13-8a20-4926c6f68800">IWMReader::GetOutputFormatCount</a> to get the total number of possible formats and then calling <a href="https://msdn.microsoft.com/e73d13b9-3fca-4de1-b89d-5cacc6311cd3">IWMReader::GetOutputFormat</a> for each.
+The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">YUV</a> images with varying properties to suit your needs. When you load a file the output properties are set to the default for compressed media type in the stream associated with the output. You can examine the possible output formats by calling <a href="https://msdn.microsoft.com/282c5fb6-6b8a-4a13-8a20-4926c6f68800">IWMReader::GetOutputFormatCount</a> to get the total number of possible formats and then calling <a href="https://msdn.microsoft.com/e73d13b9-3fca-4de1-b89d-5cacc6311cd3">IWMReader::GetOutputFormat</a> for each.
 
 This method is synchronous and does not result in any messages being sent to the status callback.
 

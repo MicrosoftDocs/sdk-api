@@ -229,7 +229,7 @@ Codecs written as TIFF container formats that are not register will decode as a 
 
 
 
-<a href="f6a44610-0d30-420e-aaf9-c7f436f3c195">AITCodec Sample CODEC</a>
+<a href="https://msdn.microsoft.com/library/ms771770(v=VS.85).aspx">AITCodec Sample CODEC</a>
 
 
 

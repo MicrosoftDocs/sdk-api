@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a> message explicitly.
+Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>.
 	
 
 

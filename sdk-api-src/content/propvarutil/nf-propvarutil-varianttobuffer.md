@@ -141,14 +141,14 @@ This function is used when the calling application expects a <a href="e305240e-9
 
 If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
 
-If the stored value has fewer than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> fails and the buffer is not modified.
+If the stored value has fewer than <i>cb</i> bytes, then <a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> fails and the buffer is not modified.
 
-If the value has more than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> succeeds and truncates the value.
+If the value has more than <i>cb</i> bytes, then <a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> succeeds and truncates the value.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> to access a structure that has been stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -186,11 +186,11 @@ if (VariantGetElementCount(var) == sizeof(WIN32_FIND_DATAW))
 
 
 
-<a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>
 
 
 
-<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
  
 
  

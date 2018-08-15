@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Packs four byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/52e72437-3558-4789-844f-5ab5b0b7967c">IPM_SETADDRESS</a> message. 
+Packs four byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb761380(v=VS.85).aspx">IPM_SETADDRESS</a> message. 
 
 
 ## -parameters

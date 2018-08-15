@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Bind an array of <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">vertex buffers</a> to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler</a> stage.
+Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">vertex buffers</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Bind an array of <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The first <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">input slot</a> for binding. The first vertex buffer is explicitly bound to the start slot; this causes each additional vertex buffer in the array to be implicitly bound to each subsequent input slot. A maximum of 16 or 32 input slots (ranges from 0 to either D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1 or D3D10_1_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1) are available; the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">maximum number of input slots depends on the feature level</a>.
+The first <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">input slot</a> for binding. The first vertex buffer is explicitly bound to the start slot; this causes each additional vertex buffer in the array to be implicitly bound to each subsequent input slot. A maximum of 16 or 32 input slots (ranges from 0 to either D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1 or D3D10_1_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1) are available; the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">maximum number of input slots depends on the feature level</a>.
 
 
 ### -param NumBuffers [in]
@@ -76,9 +76,9 @@ The number of vertex buffers in the array. The number of buffers (plus the start
 
 ### -param ppVertexBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>*</b>
 
-A pointer to an array of vertex buffers (see <a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>). The vertex buffers must have been created with the <a href="https://msdn.microsoft.com/3bbefc3b-ad05-499b-bbec-f370bf08a7f4">D3D10_BIND_VERTEX_BUFFER</a> flag.
+A pointer to an array of vertex buffers (see <a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>). The vertex buffers must have been created with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_VERTEX_BUFFER</a> flag.
 
 
 ### -param pStrides [in]
@@ -108,11 +108,11 @@ Returns nothing.
 
 
 
-For information about creating vertex buffers, see <a href="https://msdn.microsoft.com/9787b153-9301-4a0f-bd6f-21cc6f7fc650">Create a Vertex Buffer</a>.
+For information about creating vertex buffers, see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Create a Vertex Buffer</a>.
 
-Calling this method using a buffer that is currently bound for writing (i.e. bound to the <a href="https://msdn.microsoft.com/f902dc93-9612-481b-a6bd-073e924a4c79">stream output</a> pipeline stage) will effectively bind <b>NULL</b> instead because a buffer cannot be bound as both an input and an output at the same time.
+Calling this method using a buffer that is currently bound for writing (i.e. bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">stream output</a> pipeline stage) will effectively bind <b>NULL</b> instead because a buffer cannot be bound as both an input and an output at the same time.
 
-The <a href="https://msdn.microsoft.com/19c81383-6ac7-49ea-98a3-bf761a32ab40">Debug Layer</a> will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">Debug Layer</a> will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -124,7 +124,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

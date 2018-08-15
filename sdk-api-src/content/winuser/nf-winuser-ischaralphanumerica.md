@@ -97,7 +97,7 @@ If the character is not alphanumeric, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/747dd0e0-2d7c-427b-807f-9d0c2de20589">IsCharAlpha</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647482(v=VS.85).aspx">IsCharAlpha</a>
 
 
 

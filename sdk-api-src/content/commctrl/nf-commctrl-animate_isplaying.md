@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="https://msdn.microsoft.com/ebb0c92a-99d2-49c1-9de1-8bdbd032be3a">ACM_ISPLAYING</a> message.
+Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="https://msdn.microsoft.com/en-us/library/Bb761895(v=VS.85).aspx">ACM_ISPLAYING</a> message.
 
 
 ## -parameters

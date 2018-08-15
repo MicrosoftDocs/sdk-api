@@ -94,7 +94,7 @@ This method does not return a value.
 All viewports must be set atomically as one operation. Any viewports not defined by the call are disabled.
         
 
-Which viewport to use is determined by the <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
+Which viewport to use is determined by the <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
 <div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.

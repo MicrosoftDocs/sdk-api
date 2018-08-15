@@ -85,7 +85,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To destroy a window, an application must use the <a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a> function. 
+To destroy a window, an application must use the <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function. 
 
 
 
@@ -95,7 +95,7 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/61cd07de-399a-481c-81af-504f3dfbcaec">ArrangeIconicWindows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632671(v=VS.85).aspx">ArrangeIconicWindows</a>
 
 
 
@@ -103,15 +103,15 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2f0ff67-e625-4f42-9d8f-e81f52c597e8">IsIconic</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
 
 
 
-<a href="https://msdn.microsoft.com/b94d94c9-8584-4734-8b29-86b475688e9d">OpenIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633535(v=VS.85).aspx">OpenIcon</a>
 
 
 

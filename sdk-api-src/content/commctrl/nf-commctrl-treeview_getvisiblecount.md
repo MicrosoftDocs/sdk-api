@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/c3519543-3fb2-4ecf-ac01-905d0946cb1b">TVM_GETVISIBLECOUNT</a> message explicitly. 
+Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773731(v=VS.85).aspx">TVM_GETVISIBLECOUNT</a> message explicitly. 
 
 
 ## -parameters

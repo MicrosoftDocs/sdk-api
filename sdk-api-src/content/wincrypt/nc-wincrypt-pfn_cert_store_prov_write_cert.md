@@ -114,7 +114,7 @@ Returns <b>TRUE</b> if it is okay to update the store.
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
 
 
 

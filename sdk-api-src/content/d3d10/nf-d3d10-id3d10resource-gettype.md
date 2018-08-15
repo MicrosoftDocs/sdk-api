@@ -62,9 +62,9 @@ Get the type of the resource.
 
 ### -param rType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/cbb5fe8f-9694-46d3-bdb3-c1bb05a1f95a">D3D10_RESOURCE_DIMENSION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172411(v=VS.85).aspx">D3D10_RESOURCE_DIMENSION</a>*</b>
 
-Pointer to the resource type (see <a href="https://msdn.microsoft.com/cbb5fe8f-9694-46d3-bdb3-c1bb05a1f95a">D3D10_RESOURCE_DIMENSION</a>).
+Pointer to the resource type (see <a href="https://msdn.microsoft.com/en-us/library/Bb172411(v=VS.85).aspx">D3D10_RESOURCE_DIMENSION</a>).
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
  
 
  

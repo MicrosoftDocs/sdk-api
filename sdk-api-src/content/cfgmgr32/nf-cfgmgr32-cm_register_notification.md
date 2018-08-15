@@ -150,7 +150,7 @@ If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the P
 #### Examples
 
 For an example, see 
-     <a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a>.
+     <a href="https://msdn.microsoft.com/library/Dn858592(v=VS.85).aspx">Registering for Notification of Device Interface Arrival and Device Removal</a>.
 
 <div class="code"></div>
 
@@ -177,7 +177,7 @@ For an example, see
 
 
 
-<a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a>
+<a href="https://msdn.microsoft.com/library/Dn858592(v=VS.85).aspx">Registering for Notification of Device Interface Arrival and Device Removal</a>
 
 
 

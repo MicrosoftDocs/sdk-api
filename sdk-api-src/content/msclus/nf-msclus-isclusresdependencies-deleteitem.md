@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Removes 
     a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from the 
-    <a href="d_gly.htm">dependency</a> collection and deletes the resource from the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">dependency</a> collection and deletes the resource from the 
     <a href="c_gly.htm">cluster</a>.
 
 

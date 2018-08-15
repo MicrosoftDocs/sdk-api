@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Makes <a href="security.access_control_lists_acls_">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="https://msdn.microsoft.com/4a4f2d87-bfaa-453a-9dbe-de19ba1d1953">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
+Makes <a href="https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="https://msdn.microsoft.com/4a4f2d87-bfaa-453a-9dbe-de19ba1d1953">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
 
 
 ## -parameters

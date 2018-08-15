@@ -69,7 +69,7 @@ Filter flags to use for an up-level scope, regardless of whether it is a mixed o
 
 #### DSOP_FILTER_INCLUDE_ADVANCED_VIEW (1 (0x1))
 
-Includes objects that have the <a href="ad.win2k_a_showinadvancedviewonly">showInAdvancedViewOnly</a> attribute set to <b>TRUE</b>.
+Includes objects that have the <a href="https://msdn.microsoft.com/library/ms679827(v=VS.85).aspx">showInAdvancedViewOnly</a> attribute set to <b>TRUE</b>.
 
 
 
@@ -81,7 +81,7 @@ Includes <a href="ad.win2k_c_user">user</a> objects.
 
 #### DSOP_FILTER_BUILTIN_GROUPS (4 (0x4))
 
-Includes built-in <a href="ad.win2k_c_group">group</a> objects. Built-in groups are group objects with a <a href="ad.win2k_a_grouptype">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
+Includes built-in <a href="ad.win2k_c_group">group</a> objects. Built-in groups are group objects with a <a href="https://msdn.microsoft.com/en-us/library/JJ151955(v=VS.85).aspx">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
 
 
 
@@ -129,7 +129,7 @@ Includes security <a href="ad.win2k_c_group">group</a> objects with domain local
 
 #### DSOP_FILTER_CONTACTS (1024 (0x400))
 
-Includes <a href="ad.win2k_c_contact">contact</a> objects.
+Includes <a href="https://msdn.microsoft.com/en-us/library/Ff800911(v=VS.85).aspx">contact</a> objects.
 
 
 

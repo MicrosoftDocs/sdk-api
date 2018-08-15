@@ -66,8 +66,8 @@ Allows you to create context menu items for a cluster object and add the items t
 ### -param piData [in]
 
 
-<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information relating to the new menu 
-       item. By calling the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method with the 
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information relating to the new menu 
+       item. By calling the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -81,7 +81,7 @@ Allows you to create context menu items for a cluster object and add the items t
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="c_gly.htm">cluster object</a> for 
+Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a> for 
        which the context menu is being created, one of the following interfaces may also be available:
 
 <ul>
@@ -125,7 +125,7 @@ Return one of the following values or any <b>HRESULT</b> that describes the resu
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To implement AddContextMenuItems</b>
 
 <ol>
-<li>Call the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method pointed to by 
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method pointed to by 
       <i>piData</i> to retrieve a pointer to an interface that can provide information about the 
       object associated with the menu item.</li>
 <li>Call the 

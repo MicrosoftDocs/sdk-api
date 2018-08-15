@@ -67,7 +67,7 @@ Use this flag if your application will only call methods of Direct3D 11 interfa
 
 ### -field D3D11_CREATE_DEVICE_DEBUG
 
-Creates a device that supports the <a href="overviews_direct3d_11_devices_layers.htm">debug layer</a>. 
+Creates a device that supports the <a href="https://msdn.microsoft.com/en-us/library/Ff476881(v=VS.85).aspx">debug layer</a>. 
 
 To use this flag, you must have D3D11*SDKLayers.dll installed; otherwise, device creation fails. To get D3D11_1SDKLayers.dll, install the SDK for Windows 8.
 
@@ -85,7 +85,7 @@ Prevents multiple threads from being created. When this flag is used with a <a h
 
 ### -field D3D11_CREATE_DEVICE_BGRA_SUPPORT
 
-Creates a device that supports BGRA formats (<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_B8G8R8A8_UNORM</a> and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</a>). All 10level9 and higher hardware with WDDM 1.1+ drivers support BGRA formats. 
+Creates a device that supports BGRA formats (<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</a>). All 10level9 and higher hardware with WDDM 1.1+ drivers support BGRA formats. 
 
 <div class="alert"><b>Note</b>  Required for Direct2D interoperability with Direct3D resources.</div>
 <div> </div>
@@ -94,7 +94,7 @@ Creates a device that supports BGRA formats (<a href="https://msdn.microsoft.com
 
 Causes the device and driver to keep information that you can use for shader debugging.  The exact impact from this flag will vary from driver to driver.  
 
-To use this flag, you must have D3D11_1SDKLayers.dll installed; otherwise, device creation fails. The created device supports the <a href="overviews_direct3d_11_devices_layers.htm">debug layer</a>. To get D3D11_1SDKLayers.dll, install the SDK for Windows 8.
+To use this flag, you must have D3D11_1SDKLayers.dll installed; otherwise, device creation fails. The created device supports the <a href="https://msdn.microsoft.com/en-us/library/Ff476881(v=VS.85).aspx">debug layer</a>. To get D3D11_1SDKLayers.dll, install the SDK for Windows 8.
 
 If you use this flag and the current driver does not support shader debugging, device creation fails. Shader debugging requires a driver that is implemented to the WDDM for Windows 8 (WDDM 1.2).
 
@@ -103,7 +103,7 @@ If you use this flag and the current driver does not support shader debugging, d
 
 ### -field D3D11_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY
 
-Causes the Direct3D runtime to ignore registry settings that turn on the <a href="overviews_direct3d_11_devices_layers.htm">debug layer</a>. You can turn on the debug layer by using the <a href="http://msdn.microsoft.com/en-us/library/bb219725(VS.85).aspx">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="http://go.microsoft.com/fwlink/p/?linkid=226640">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="http://msdn.microsoft.com/en-us/library/bb219725(VS.85).aspx">DirectX Control Panel</a> to monitor how the app uses Direct3D.
+Causes the Direct3D runtime to ignore registry settings that turn on the <a href="https://msdn.microsoft.com/en-us/library/Ff476881(v=VS.85).aspx">debug layer</a>. You can turn on the debug layer by using the <a href="http://msdn.microsoft.com/en-us/library/bb219725(VS.85).aspx">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="http://go.microsoft.com/fwlink/p/?linkid=226640">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="http://msdn.microsoft.com/en-us/library/bb219725(VS.85).aspx">DirectX Control Panel</a> to monitor how the app uses Direct3D.
 
 <div class="alert"><b>Note</b>  You can also set this flag in your app to prevent Direct3D debugging tools, such as Visual Studio Ultimate 2012, from hooking your app.</div>
 <div> </div>
@@ -121,11 +121,11 @@ Use this flag if the device will produce GPU workloads that take more than two s
 
 ### -field D3D11_CREATE_DEVICE_VIDEO_SUPPORT
 
-Forces the creation of the Direct3D device to fail if the display driver is not implemented to the WDDM for Windows 8 (WDDM 1.2). When the display driver is not implemented to WDDM 1.2, only a Direct3D device that is created with <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, or 9.3 supports video; therefore, if this flag is set, the runtime creates the Direct3D device only for feature level 9.1, 9.2, or 9.3. We recommend not to specify this flag for applications that want to favor Direct3D capability over video. If feature level 10 and higher is available, the runtime will use that feature level regardless of video support.
+Forces the creation of the Direct3D device to fail if the display driver is not implemented to the WDDM for Windows 8 (WDDM 1.2). When the display driver is not implemented to WDDM 1.2, only a Direct3D device that is created with <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, or 9.3 supports video; therefore, if this flag is set, the runtime creates the Direct3D device only for feature level 9.1, 9.2, or 9.3. We recommend not to specify this flag for applications that want to favor Direct3D capability over video. If feature level 10 and higher is available, the runtime will use that feature level regardless of video support.
 
 If this flag is set, device creation on the Basic Render Device (BRD) will succeed regardless of the BRD's missing support for video decode. This is because the Media Foundation video stack operates in software mode on BRD. In this situation, if you force the video stack to create the Direct3D device twice (create the device once with this flag, next discover BRD, then again create the device without the flag), you actually degrade performance.
 
-If you attempt to create a Direct3D device with driver type <a href="d3d_driver_type.htm">D3D_DRIVER_TYPE_NULL</a>, <a href="d3d_driver_type.htm">D3D_DRIVER_TYPE_REFERENCE</a>, or <a href="d3d_driver_type.htm">D3D_DRIVER_TYPE_SOFTWARE</a>, device creation fails at any <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> because none of the associated drivers provide video capability. If you attempt to create a Direct3D device with driver type <a href="d3d_driver_type.htm">D3D_DRIVER_TYPE_WARP</a>, device creation succeeds to allow software fallback for video.
+If you attempt to create a Direct3D device with driver type <a href="https://msdn.microsoft.com/en-us/library/Ff476328(v=VS.85).aspx">D3D_DRIVER_TYPE_NULL</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476328(v=VS.85).aspx">D3D_DRIVER_TYPE_REFERENCE</a>, or <a href="https://msdn.microsoft.com/en-us/library/Ff476328(v=VS.85).aspx">D3D_DRIVER_TYPE_SOFTWARE</a>, device creation fails at any <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> because none of the associated drivers provide video capability. If you attempt to create a Direct3D device with driver type <a href="https://msdn.microsoft.com/en-us/library/Ff476328(v=VS.85).aspx">D3D_DRIVER_TYPE_WARP</a>, device creation succeeds to allow software fallback for video.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 

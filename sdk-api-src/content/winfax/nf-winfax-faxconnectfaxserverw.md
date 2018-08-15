@@ -140,11 +140,11 @@ The user under whose account the call was made does not have sufficient rights t
 
 
 
-This function can only be used only with a local server. Use of a remote server is enabled in the <a href="https://msdn.microsoft.com/df15bad0-8f68-4eea-9cb3-439078239398">Fax Service Extended COM API</a>. For more information see the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method.
+This function can only be used only with a local server. Use of a remote server is enabled in the <a href="https://msdn.microsoft.com/en-us/library/ms684513(v=VS.85).aspx">Fax Service Extended COM API</a>. For more information see the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method.
 
 A fax client application must call the <b>FaxConnectFaxServer</b> function successfully before it calls any other fax client function.
 
-The fax client application must call the <a href="https://msdn.microsoft.com/d2a59e30-24bd-4a65-ba9b-8187ed6f53f6">FaxClose</a> function to disconnect from the fax server and deallocate the handle that the <b>FaxConnectFaxServer</b> function returns. For more information, see <a href="https://msdn.microsoft.com/aa3cd5cf-fff5-453b-9574-7ef617239da6">Connecting to the Fax Server</a> and <a href="https://msdn.microsoft.com/02d276b7-bcbc-4bbe-8051-d9b35f12dc93">Disconnecting from a Fax Server</a>.
+The fax client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms691909(v=VS.85).aspx">FaxClose</a> function to disconnect from the fax server and deallocate the handle that the <b>FaxConnectFaxServer</b> function returns. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692919(v=VS.85).aspx">Connecting to the Fax Server</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690866(v=VS.85).aspx">Disconnecting from a Fax Server</a>.
 
 
 
@@ -154,15 +154,15 @@ The fax client application must call the <a href="https://msdn.microsoft.com/d2a
 
 
 
-<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2a59e30-24bd-4a65-ba9b-8187ed6f53f6">FaxClose</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691909(v=VS.85).aspx">FaxClose</a>
  
 
  

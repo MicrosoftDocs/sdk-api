@@ -60,7 +60,7 @@ req.irql:
 
 ### -param pbstr [out]
 
-Pointer to a <b>BSTR</b> value that receives the text of the candidate string object. The caller must release this memory using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
+Pointer to a <b>BSTR</b> value that receives the text of the candidate string object. The caller must release this memory using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
 
 
 ## -returns
@@ -122,7 +122,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

@@ -71,7 +71,7 @@ The <b>ICameraUIControlEventCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d9237bc-38bb-4c14-8485-edec7c739150">OnClosed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802719(v=VS.85).aspx">OnClosed</a>
 </td>
 <td align="left" width="63%">
 Occurs when the camera UI control is closed.
@@ -89,7 +89,7 @@ Occurs when an item is captured.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/008bac9d-4daa-4729-b414-b9551eb636f1">OnItemDeleted</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802721(v=VS.85).aspx">OnItemDeleted</a>
 </td>
 <td align="left" width="63%">
 Occurs when an item is deleted.

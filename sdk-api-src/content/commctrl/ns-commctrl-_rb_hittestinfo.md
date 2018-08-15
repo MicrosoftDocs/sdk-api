@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/8f27db21-50d8-438f-a44c-2e65dd93fa2a">RB_HITTEST</a> message. 
+Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774494(v=VS.85).aspx">RB_HITTEST</a> message. 
 
 
 ## -struct-fields

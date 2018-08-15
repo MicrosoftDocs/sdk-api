@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/cf12aaea-cfa7-4804-ae34-fd0992332288">EM_GETSEL</a> message explicitly.
+Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761598(v=VS.85).aspx">EM_GETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-This macro does not have the complete functionality of the <a href="https://msdn.microsoft.com/cf12aaea-cfa7-4804-ae34-fd0992332288">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>.
+This macro does not have the complete functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb761598(v=VS.85).aspx">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>.
 
 
 

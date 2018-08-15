@@ -116,7 +116,7 @@ The following diagram shows a 3D box, where the origin is the left, front, top c
 
 
 
-<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
  
 
  

@@ -168,7 +168,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a> structure. 
+This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a> structure. 
 
 
 
@@ -182,11 +182,11 @@ This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
-<a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a>
 
 
 
@@ -194,11 +194,11 @@ This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/b0d8c426-bc6d-4175-ba56-68a9bb31bd46">SetHyphenation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774153(v=VS.85).aspx">SetHyphenation</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

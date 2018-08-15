@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://msdn.microsoft.com/a15f4191-2f26-4139-bdaf-bab219449b78">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://msdn.microsoft.com/51b75ce8-2b41-4f1a-830e-b25e7d77dccb">PGM_RECALCSIZE</a> message explicitly. 
+Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://msdn.microsoft.com/en-us/library/Bb760864(v=VS.85).aspx">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760876(v=VS.85).aspx">PGM_RECALCSIZE</a> message explicitly. 
 
 
 ## -parameters

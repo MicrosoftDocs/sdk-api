@@ -52,12 +52,12 @@ req.irql:
 ## -description
 
 
-A resource interface provides common actions on all <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">resources</a>.
+A resource interface provides common actions on all <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">resources</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface inherits from <a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID3D10Resource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47ed836a-c16f-4888-82f1-69070d6d7f4d">GetEvictionPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173830(v=VS.85).aspx">GetEvictionPriority</a>
 </td>
 <td align="left" width="63%">
 Get the eviction priority of a resource.
@@ -90,7 +90,7 @@ Get the type of the resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1bc3354-4abe-4f7f-bf32-43025f34ed9e">SetEvictionPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173832(v=VS.85).aspx">SetEvictionPriority</a>
 </td>
 <td align="left" width="63%">
 Set the eviction priority of a resource.
@@ -104,7 +104,7 @@ Set the eviction priority of a resource.
 
 
 
-A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/9787b153-9301-4a0f-bd6f-21cc6f7fc650">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/4c716be8-044e-4ed4-aeca-4379440826bd">Creating Texture Resources</a>).
+A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>).
 
 
 
@@ -114,11 +114,11 @@ A resource interface cannot be created directly; instead, <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/e53ca7ab-6ca5-4774-8a52-825b10c1a2ce">Resource Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
  
 
  

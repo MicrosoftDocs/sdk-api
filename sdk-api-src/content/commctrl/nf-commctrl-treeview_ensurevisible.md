@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/7053438a-f9ca-4c4c-9da6-46b99fe1e4f8">TVM_ENSUREVISIBLE</a> message explicitly. 
+Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773566(v=VS.85).aspx">TVM_ENSUREVISIBLE</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Handle to the item.
 
 
 
-If the <b>TreeView_EnsureVisible</b> macro expands the parent item, the parent window receives the <a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/18d9d61d-6ec5-4d3b-9c02-36d0e61ed232">TVN_ITEMEXPANDED</a> notification codes. 
+If the <b>TreeView_EnsureVisible</b> macro expands the parent item, the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes. 
 
 
 

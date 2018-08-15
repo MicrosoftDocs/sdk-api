@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorBalance::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b80ab800">ColorBalance</a> object.
+The <b>ColorBalance::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a> object.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ The <b>ColorBalance::GetParameters</b> method gets the current values of the par
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/60e823da-d909-4e8c-ab2b-7f0d6d98620b">ColorBalanceParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/60e823da-d909-4e8c-ab2b-7f0d6d98620b">ColorBalanceParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/60e823da-d909-4e8c-ab2b-7f0d6d98620b">ColorBalanceParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,11 +94,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b80ab800">ColorBalance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534428(v=VS.85).aspx">ColorBalance</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e2cc043-c3da-428e-b7a0-f2ad8a1eefbe">ColorBalance::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a>
  
 
  

@@ -95,12 +95,12 @@ If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of t
 
 If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is not of type VT_R8, the function attempts to convert the value in the <b>VARIANT</b> into a <b>DOUBLE</b>.
 
-If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="https://msdn.microsoft.com/en-us/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -127,19 +127,19 @@ DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
 
 
-<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
 
 
 
-<a href="shell.VariantToDouble">VariantToDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
  
 
  

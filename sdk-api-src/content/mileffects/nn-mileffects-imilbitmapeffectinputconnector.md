@@ -72,7 +72,7 @@ The <b>IMILBitmapEffectInputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/821a0184-f1de-481d-bfcf-983b39919bb9">ConnectTo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735272(v=VS.85).aspx">ConnectTo</a>
 </td>
 <td align="left" width="63%">
 Connects the input connector to the given output connector.
@@ -81,10 +81,10 @@ Connects the input connector to the given output connector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b66aa3a5-4df0-4c26-8e25-35c22bfa3a6f">GetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735273(v=VS.85).aspx">GetConnection</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
 
 </td>
 </tr>

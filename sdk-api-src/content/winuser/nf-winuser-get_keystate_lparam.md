@@ -69,7 +69,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://msdn.microsoft.com/5b8a3da1-219d-470b-9033-0bad56d166e3">GET_FLAGS_LPARAM</a> macro.
+This macro is identical to the <a href="https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx">GET_FLAGS_LPARAM</a> macro.
 
 
 
@@ -83,11 +83,11 @@ This macro is identical to the <a href="https://msdn.microsoft.com/5b8a3da1-219d
 
 
 
-<a href="https://msdn.microsoft.com/5b8a3da1-219d-470b-9033-0bad56d166e3">GET_FLAGS_LPARAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx">GET_FLAGS_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 

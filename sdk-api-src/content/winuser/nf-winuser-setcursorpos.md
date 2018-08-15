@@ -61,7 +61,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent <a href="https://msdn.microsoft.com/bafaf206-cc53-4537-b7a5-2903fbfca893">ClipCursor</a> function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle. 
+Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent <a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a> function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle. 
 
 
 ## -parameters
@@ -107,7 +107,7 @@ The input desktop must be the current desktop when you call <b>SetCursorPos</b>.
 
 #### Examples
 
-For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648380(v=VS.85).aspx">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 
@@ -118,7 +118,7 @@ For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the C
 
 
 
-<a href="https://msdn.microsoft.com/bafaf206-cc53-4537-b7a5-2903fbfca893">ClipCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx">ClipCursor</a>
 
 
 
@@ -126,11 +126,11 @@ For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the C
 
 
 
-<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/c76370d3-741a-4192-97d4-d63d2885b36b">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
 
 
 
@@ -138,15 +138,15 @@ For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the C
 
 
 
-<a href="https://msdn.microsoft.com/0a8d4ca6-d409-4468-b29a-552adbea0918">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/69bb9f90-5366-4141-97b6-57e41b774614">SetCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648393(v=VS.85).aspx">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/6712b6b7-bdb0-4078-ba38-7ad744bbf765">ShowCursor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

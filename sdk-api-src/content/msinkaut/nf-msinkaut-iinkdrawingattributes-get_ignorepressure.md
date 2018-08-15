@@ -82,7 +82,7 @@ The greater the pressure on the pen tip, the more ink that is drawn. Set this pr
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

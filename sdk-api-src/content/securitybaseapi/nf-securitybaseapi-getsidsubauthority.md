@@ -111,7 +111,7 @@ The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SI
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

@@ -179,7 +179,7 @@ A value that specifies whether this trace is for a pixel shader that outputs the
 
 ### -field GSInputPrimitive
 
-A <a href="https://msdn.microsoft.com/9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9">D3D11_TRACE_GS_INPUT_PRIMITIVE</a>-typed value that identifies the type of geometry shader input primitive. That is, this value identifies:  {point, line, triangle, line_adj, triangle_adj} or the number of vertices: 1, 2, 3, 4, or 6 respectively. For example, for a line, input v[][#] is actually v[2][#]. For vertex shaders and pixel shaders, set this member to <a href="d3d11_trace_gs_input_primitive.htm">D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED</a>.
+A <a href="https://msdn.microsoft.com/9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9">D3D11_TRACE_GS_INPUT_PRIMITIVE</a>-typed value that identifies the type of geometry shader input primitive. That is, this value identifies:  {point, line, triangle, line_adj, triangle_adj} or the number of vertices: 1, 2, 3, 4, or 6 respectively. For example, for a line, input v[][#] is actually v[2][#]. For vertex shaders and pixel shaders, set this member to <a href="https://msdn.microsoft.com/en-us/library/Hh404529(v=VS.85).aspx">D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED</a>.
           
 
 
@@ -195,7 +195,7 @@ A value that specifies whether this trace is for a geometry shader that inputs t
 The component trace mask for the hull-shader output. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://msdn.microsoft.com/15AFA648-DCAC-42A1-9606-6E292E92C217">D3D11_TRACE_VALUE</a>.
             
 
-The <a href="d3d11_trace_register_type.htm">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a> value is available through a call to the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a> method.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a> value is available through a call to the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a> method.
             
 
 
@@ -210,8 +210,8 @@ The following values are available through a call to the <a href="https://msdn.m
             
 
 <ul>
-<li><a href="d3d11_trace_register_type.htm">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a></li>
-<li><a href="d3d11_trace_register_type.htm">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
 </ul>
 
 #### - PixelPosition[ 4 ][ 2 ]

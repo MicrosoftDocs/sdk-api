@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://msdn.microsoft.com/a0ca2152-673e-4920-ae78-1421fdec1a05">InitCommonControlsEx</a> function. 
+Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx">InitCommonControlsEx</a> function. 
 
 
 ## -struct-fields

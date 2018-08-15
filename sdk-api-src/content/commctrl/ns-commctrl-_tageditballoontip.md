@@ -174,15 +174,15 @@ Use the large error icon. This is assumed to be an HICON value.
 
 
 
-<a href="https://msdn.microsoft.com/1e6915b7-4b61-43b2-be13-b89c72378a1a">EM_SHOWBALLOONTIP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/18ee941e-6919-4451-a192-c7342c72617d">Edit_ShowBalloonTip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761707(v=VS.85).aspx">Edit_ShowBalloonTip</a>
 
 
 

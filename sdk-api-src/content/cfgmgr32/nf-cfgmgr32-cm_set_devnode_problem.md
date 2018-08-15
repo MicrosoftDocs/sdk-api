@@ -66,7 +66,7 @@ Caller-supplied device instance handle that is bound to the local machine.
 
 ### -param ulProblem [in]
 
-Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="devinst.device_manager_error_messages">Device Manager Error Messages</a>. A value of zero indicates that a problem is not set for the device. 
+Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="https://msdn.microsoft.com/library/Ff541422(v=VS.85).aspx">Device Manager Error Messages</a>. A value of zero indicates that a problem is not set for the device. 
 
 
 ### -param ulFlags [in]

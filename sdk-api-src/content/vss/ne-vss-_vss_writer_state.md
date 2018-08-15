@@ -89,7 +89,7 @@ The writer is waiting for the thaw state.
 ### -field VSS_WS_WAITING_FOR_POST_SNAPSHOT
 
 The writer is waiting for the 
-     <a href="vssgloss_p.htm">PostSnapshot</a> state.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> state.
 
 
 ### -field VSS_WS_WAITING_FOR_BACKUP_COMPLETE
@@ -109,7 +109,7 @@ The writer vetoed the shadow copy creation process during the backup preparation
 
 ### -field VSS_WS_FAILED_AT_PREPARE_SNAPSHOT
 
-The writer vetoed the shadow copy creation process during the <a href="vssgloss_p.htm">PrepareForSnapshot</a> state.
+The writer vetoed the shadow copy creation process during the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForSnapshot</a> state.
 
 
 ### -field VSS_WS_FAILED_AT_FREEZE
@@ -125,7 +125,7 @@ The writer vetoed the shadow copy creation process during the thaw state.
 ### -field VSS_WS_FAILED_AT_POST_SNAPSHOT
 
 The writer vetoed the shadow copy creation process during the 
-     <a href="vssgloss_p.htm">PostSnapshot</a> state.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> state.
 
 
 ### -field VSS_WS_FAILED_AT_BACKUP_COMPLETE

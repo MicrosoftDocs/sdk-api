@@ -78,7 +78,7 @@ Type of search to perform. This member can be set to one or more of the followin
 </dl>
 </td>
 <td width="60%">
-Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure.
+Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Address of a null-terminated string to compare with the item text. It is valid o
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
+Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
 
 
 ### -field pt

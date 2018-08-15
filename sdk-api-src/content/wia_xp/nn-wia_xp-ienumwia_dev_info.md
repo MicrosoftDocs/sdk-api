@@ -76,7 +76,7 @@ The <b>IEnumWIA_DEV_INFO</b> interface has these methods.
 <a href="https://msdn.microsoft.com/420b4fcf-79da-4d31-a654-bec96837e60a">Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/420b4fcf-79da-4d31-a654-bec96837e60a">IEnumWIA_DEV_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_INFO</b> interface and sends back a pointer to it.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629833(v=VS.85).aspx">IEnumWIA_DEV_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_INFO</b> interface and sends back a pointer to it.
 
 
 </td>
@@ -86,7 +86,7 @@ The <a href="https://msdn.microsoft.com/420b4fcf-79da-4d31-a654-bec96837e60a">IE
 <a href="https://msdn.microsoft.com/2d429a95-d0e6-466e-953d-063a2e983243">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2d429a95-d0e6-466e-953d-063a2e983243">IEnumWIA_DEV_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629835(v=VS.85).aspx">IEnumWIA_DEV_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ The <a href="https://msdn.microsoft.com/2d429a95-d0e6-466e-953d-063a2e983243">IE
 <a href="https://msdn.microsoft.com/a7f54b35-f3b4-46b9-af47-c96b5770144e">Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a7f54b35-f3b4-46b9-af47-c96b5770144e">IEnumWIA_DEV_INFO::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/b80d22d4-8e36-484a-9dd1-f228e2236eaf">IWiaPropertyStorage</a> interfaces.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630163(v=VS.85).aspx">IEnumWIA_DEV_INFO::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a> interfaces.
 
 
 </td>
@@ -105,7 +105,7 @@ The <a href="https://msdn.microsoft.com/a7f54b35-f3b4-46b9-af47-c96b5770144e">IE
 <a href="https://msdn.microsoft.com/30b0d2b3-a048-47fc-b99f-ee439bb77499">Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/30b0d2b3-a048-47fc-b99f-ee439bb77499">IEnumWIA_DEV_INFO::Reset</a> method is used by applications to restart the enumeration of device information.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630164(v=VS.85).aspx">IEnumWIA_DEV_INFO::Reset</a> method is used by applications to restart the enumeration of device information.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ The <a href="https://msdn.microsoft.com/30b0d2b3-a048-47fc-b99f-ee439bb77499">IE
 <a href="https://msdn.microsoft.com/9b992d0c-99d9-468a-9d68-55605f7e846e">Skip</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9b992d0c-99d9-468a-9d68-55605f7e846e">IEnumWIA_DEV_INFO::Skip</a> method skips the specified number of hardware devices during an enumeration of available devices.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630165(v=VS.85).aspx">IEnumWIA_DEV_INFO::Skip</a> method skips the specified number of hardware devices during an enumeration of available devices.
 
 </td>
 </tr>
@@ -125,9 +125,9 @@ The <a href="https://msdn.microsoft.com/9b992d0c-99d9-468a-9d68-55605f7e846e">IE
 
 
 
-The <b>IEnumWIA_DEV_INFO</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="_com_ienumxxxx">IEnumXXXX</a>.
+The <b>IEnumWIA_DEV_INFO</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="https://msdn.microsoft.com/library/ms680089(v=VS.85).aspx">IEnumXXXX</a>.
 
-Applications obtain a pointer to the <b>IEnumWIA_DEV_INFO</b> interface by invoking the <a href="https://msdn.microsoft.com/29a6b2c0-2424-411a-a3fb-4518b7d6de3b">IWiaDevMgr::EnumDeviceInfo</a> method.
+Applications obtain a pointer to the <b>IEnumWIA_DEV_INFO</b> interface by invoking the <a href="https://msdn.microsoft.com/en-us/library/ms630142(v=VS.85).aspx">IWiaDevMgr::EnumDeviceInfo</a> method.
 
 The <b>IEnumWIA_DEV_INFO</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods. 
 
@@ -169,15 +169,15 @@ The <b>IEnumWIA_DEV_INFO</b> interface, like all Component Object Model (COM) in
 
 
 
-<a href="https://msdn.microsoft.com/29a6b2c0-2424-411a-a3fb-4518b7d6de3b">EnumDeviceInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630142(v=VS.85).aspx">EnumDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/6465a33e-1b3b-4142-a58f-b27e9c95cd3e">Enumerating System Devices</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629852(v=VS.85).aspx">Enumerating System Devices</a>
 
 
 
-<a href="_com_ienumxxxx">IEnumXXXX</a>
+<a href="https://msdn.microsoft.com/library/ms680089(v=VS.85).aspx">IEnumXXXX</a>
 
 
 

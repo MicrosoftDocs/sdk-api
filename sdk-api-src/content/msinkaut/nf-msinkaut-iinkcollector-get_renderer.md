@@ -80,7 +80,7 @@ When handling certain window messages, changing the <a href="https://msdn.micros
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

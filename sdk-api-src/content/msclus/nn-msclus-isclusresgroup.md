@@ -224,7 +224,7 @@ Read-only
 Returns a 
      <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
      collection providing access to the nodes that belong in a group's 
-     <a href="p_gly.htm">preferred owner</a> list.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> list.
 
 </td>
 </tr>

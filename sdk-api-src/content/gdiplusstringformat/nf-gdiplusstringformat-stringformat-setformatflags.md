@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::SetFormatFlags</b> method sets the format flags for this 
-			<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object. The format flags determine most of the characteristics of a 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object. The format flags determine most of the characteristics of a 
 			<b>StringFormat</b> object.
 
 
@@ -67,9 +67,9 @@ The <b>StringFormat::SetFormatFlags</b> method sets the format flags for this
 Type: <b>INT</b>
 
 Thirty-two bit value that specifies the format flags that control most of the characteristics of the 
-					<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object. The flags are set by applying a bitwise 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object. The flags are set by applying a bitwise 
 					<b>OR</b> to elements of the 
-					<a href="https://msdn.microsoft.com/9bbddab0-46b1-49db-86c1-cf9086692958">StringFormatFlags</a> enumeration. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a> enumeration. 
 
 
 ## -returns
@@ -95,7 +95,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
  
 
  

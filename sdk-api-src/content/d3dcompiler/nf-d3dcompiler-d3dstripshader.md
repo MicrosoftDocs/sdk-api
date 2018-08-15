@@ -77,7 +77,7 @@ Length of <i>pSrcData</i>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Strip flag options, represented by <a href="https://msdn.microsoft.com/44e2af42-f5db-4206-aa00-37d070b2ca3b">D3DCOMPILER_STRIP_FLAGS</a>.
+Strip flag options, represented by <a href="https://msdn.microsoft.com/en-us/library/Dd607325(v=VS.85).aspx">D3DCOMPILER_STRIP_FLAGS</a>.
 
 
 ### -param ppStrippedBlob [out]

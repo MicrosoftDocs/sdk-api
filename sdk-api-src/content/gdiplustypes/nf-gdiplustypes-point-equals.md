@@ -94,15 +94,15 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/751eea61-b0c6-4112-bf0b-2936d12fb97e">Point::operator+</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535008(v=VS.85).aspx">Point::operator+</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcd6e8db-7584-4209-8c0a-6ce64c8724ce">Point::operator-</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535009(v=VS.85).aspx">Point::operator-</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
  
 
  

@@ -72,7 +72,7 @@ The <b>ISearchScopeRule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c0730fe-78e3-41bd-8923-13016db06643">get_FollowFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266453(v=VS.85).aspx">get_FollowFlags</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -81,7 +81,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed424c50-c4ca-475d-83b8-038895826548">get_IsDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266454(v=VS.85).aspx">get_IsDefault</a>
 </td>
 <td align="left" width="63%">
 Gets a value that identifies whether this is a default rule.
@@ -90,7 +90,7 @@ Gets a value that identifies whether this is a default rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77a2fc52-6cc8-4cb2-82ab-b21e4590b5a9">get_IsIncluded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266455(v=VS.85).aspx">get_IsIncluded</a>
 </td>
 <td align="left" width="63%">
 Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.
@@ -99,7 +99,7 @@ Gets a value identifying whether this rule is an inclusion rule. Inclusion rules
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/133d300f-7dbf-4ecd-abb5-50491322d1a0">get_PatternOrURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266456(v=VS.85).aspx">get_PatternOrURL</a>
 </td>
 <td align="left" width="63%">
 Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude. 
@@ -123,7 +123,7 @@ Gets the pattern or URL for the rule. The scope rules determine what URLs or pat
 
 
 
-<a href="https://msdn.microsoft.com/7d65d00a-7294-4718-b593-89394b2e416f">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
  
 
  

@@ -93,7 +93,7 @@ Returns a pointer to the attribute, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
  
 
  

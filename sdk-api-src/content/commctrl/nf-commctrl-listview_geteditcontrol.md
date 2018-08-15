@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the handle to the edit control being used to edit a list-view item's text. You can use this macro or send the <a href="https://msdn.microsoft.com/70450b24-9879-4be8-9bc9-f87008b66415">LVM_GETEDITCONTROL</a> message explicitly. 
+Gets the handle to the edit control being used to edit a list-view item's text. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774919(v=VS.85).aspx">LVM_GETEDITCONTROL</a> message explicitly. 
 
 
 ## -parameters
@@ -70,14 +70,14 @@ A handle to the list-view control.
 
 
 
-When label editing begins, an edit control is created, positioned, and initialized. Before it is displayed, the list-view control sends its parent window an <a href="https://msdn.microsoft.com/c13a9e95-22a9-476e-aeee-4928b8b096b0">LVN_BEGINLABELEDIT</a> notification code. 
+When label editing begins, an edit control is created, positioned, and initialized. Before it is displayed, the list-view control sends its parent window an <a href="https://msdn.microsoft.com/en-us/library/Bb774798(v=VS.85).aspx">LVN_BEGINLABELEDIT</a> notification code. 
 
-To customize label editing, implement a handler for <a href="https://msdn.microsoft.com/c13a9e95-22a9-476e-aeee-4928b8b096b0">LVN_BEGINLABELEDIT</a> and have it use <b>ListView_GetEditControl</b> to send an <a href="https://msdn.microsoft.com/70450b24-9879-4be8-9bc9-f87008b66415">LVM_GETEDITCONTROL</a> message to the list-view control. If a label is being edited, the return value will be a handle to the edit control. Use this handle to customize the edit control by sending the usual 
+To customize label editing, implement a handler for <a href="https://msdn.microsoft.com/en-us/library/Bb774798(v=VS.85).aspx">LVN_BEGINLABELEDIT</a> and have it use <b>ListView_GetEditControl</b> to send an <a href="https://msdn.microsoft.com/en-us/library/Bb774919(v=VS.85).aspx">LVM_GETEDITCONTROL</a> message to the list-view control. If a label is being edited, the return value will be a handle to the edit control. Use this handle to customize the edit control by sending the usual 
 				<b>EM_XXX</b> messages. 
 
-When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but you should not destroy it. To cancel editing, you can send the list-view control a <a href="https://msdn.microsoft.com/c801233a-c4d8-4fd9-aaf0-3d4503bbce26">WM_CANCELMODE</a> message.
+When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but you should not destroy it. To cancel editing, you can send the list-view control a <a href="https://msdn.microsoft.com/en-us/library/ms632615(v=VS.85).aspx">WM_CANCELMODE</a> message.
 
-The list-view item being edited is the currently focused item—that is, the item in the focused state. To find an item based on its state, use the <a href="https://msdn.microsoft.com/2d458f12-b9d3-4b9e-bcb4-927c14c16537">LVM_GETNEXTITEM</a> message.
+The list-view item being edited is the currently focused item—that is, the item in the focused state. To find an item based on its state, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761057(v=VS.85).aspx">LVM_GETNEXTITEM</a> message.
 
 
 
@@ -87,7 +87,7 @@ The list-view item being edited is the currently focused item—that is, the ite
 
 
 
-<a href="https://msdn.microsoft.com/70450b24-9879-4be8-9bc9-f87008b66415">LVM_GETEDITCONTROL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774919(v=VS.85).aspx">LVM_GETEDITCONTROL</a>
  
 
  

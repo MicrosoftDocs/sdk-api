@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 Installs performance counter strings, as defined in an input .ini file, into the system registry.
-<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="base.loadperfcountertextstrings">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
+<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
 
 ## -parameters
 
@@ -98,7 +98,7 @@ This function has no associated import library; you must call it using the <a hr
 
 
 
-<a href="base.loadperfcountertextstrings">LoadPerfCounterTextStrings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a>
  
 
  

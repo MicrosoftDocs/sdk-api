@@ -73,11 +73,11 @@ Creates a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286
 
 
 
-<a href="https://msdn.microsoft.com/27952618-cf2d-4a85-b271-b3950c293ece">Point Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535005(v=VS.85).aspx">Point Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
  
 
  

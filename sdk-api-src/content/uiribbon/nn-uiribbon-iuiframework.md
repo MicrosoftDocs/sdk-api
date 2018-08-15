@@ -72,7 +72,7 @@ The <b>IUIFramework</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f1b8caa-32be-4b1e-b298-094a6cd3fb46">Destroy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371368(v=VS.85).aspx">Destroy</a>
 </td>
 <td align="left" width="63%">
 Terminates and releases all objects, hooks, and references for an instance of the Ribbon framework. 
@@ -82,7 +82,7 @@ Terminates and releases all objects, hooks, and references for an instance of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f111a98-4e9a-4ff1-8518-6cce0126d955">FlushPendingInvalidations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371369(v=VS.85).aspx">FlushPendingInvalidations</a>
 </td>
 <td align="left" width="63%">
 Processes all pending Command updates.
@@ -92,7 +92,7 @@ Processes all pending Command updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb0289e0-2cf4-4504-85cc-7ee7c7570180">GetUICommandProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371370(v=VS.85).aspx">GetUICommandProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a command property, value, or state.
@@ -102,11 +102,11 @@ Retrieves a command property, value, or state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9015258-b4d3-4ad0-b330-2d7cba28f3a9">GetView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371371(v=VS.85).aspx">GetView</a>
 </td>
 <td align="left" width="63%">
-Retrieves the address of a pointer to an interface that represents a Ribbon framework View, such as <a href="https://msdn.microsoft.com/6a43f17b-dbf6-4c5b-818f-c0dde896de99">IUIRibbon</a> 
-			or <a href="https://msdn.microsoft.com/dbefd3e0-bb47-41df-b164-b2f279380e36">IUIContextualUI</a>.
+Retrieves the address of a pointer to an interface that represents a Ribbon framework View, such as <a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
+			or <a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
 		
 
 </td>
@@ -123,7 +123,7 @@ Connects the host application to the Ribbon framework.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f6f6815-5523-42d9-a6b2-a21dd26756c0">InvalidateUICommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>
 </td>
 <td align="left" width="63%">
 Invalidates a Ribbon framework Command property, value, or state. 
@@ -133,7 +133,7 @@ Invalidates a Ribbon framework Command property, value, or state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">LoadUI</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">LoadUI</a>
 </td>
 <td align="left" width="63%">
 Loads the Ribbon framework UI resource, or compiled markup, file.
@@ -143,7 +143,7 @@ Loads the Ribbon framework UI resource, or compiled markup, file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c55a1ac-b84b-4ccc-b4cc-ba5bebc2d78e">SetModes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a>
 </td>
 <td align="left" width="63%">
 Specifies the application modes to enable. 
@@ -153,7 +153,7 @@ Specifies the application modes to enable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d04071d1-f3f2-4327-bf4c-6348dec4e2f1">SetUICommandProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a command property, value, or state.
@@ -171,7 +171,7 @@ Sets a command property, value, or state.
 This interface is used to initialize and dismantle the Ribbon framework.
 
 Ribbon framework UI functionality is differentiated by Views, which are essentially 
-				built-in core controls, such as the <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> and <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>.
+				built-in core controls, such as the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
 
 To get an interface pointer to the implementation of IUIFramework, use <a href="http://go.microsoft.com/fwlink/p/?linkid=199586">CoCreateInstance</a>to 
 			create a COM object with the class identifier (CLSID) of CLSID_UIRibbonFramework.
@@ -185,7 +185,7 @@ To get an interface pointer to the implementation of IUIFramework, use <a href="
 
 
 
-<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
  
 
  

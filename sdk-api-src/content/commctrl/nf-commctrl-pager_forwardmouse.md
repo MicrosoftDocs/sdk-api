@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> messages to the contained window. You can use this macro or send the <a href="https://msdn.microsoft.com/269972fe-50b3-4c9f-b5ac-65e768b30684">PGM_FORWARDMOUSE</a> message explicitly. 
+Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages to the contained window. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760867(v=VS.85).aspx">PGM_FORWARDMOUSE</a> message explicitly. 
 
 
 ## -parameters

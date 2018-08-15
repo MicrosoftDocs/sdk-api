@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/913c8339-fbe4-43c8-a997-5a972920dc3b">LVM_GETORIGIN</a> message explicitly. 
+Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761063(v=VS.85).aspx">LVM_GETORIGIN</a> message explicitly. 
 
 
 ## -parameters

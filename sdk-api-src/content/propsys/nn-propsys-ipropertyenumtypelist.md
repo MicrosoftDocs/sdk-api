@@ -72,7 +72,7 @@ The <b>IPropertyEnumTypeList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumTypeList_FindMatchingIndex">FindMatchingIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761476(v=VS.85).aspx">FindMatchingIndex</a>
 </td>
 <td align="left" width="63%">
 Compares the specified property value against the enumerated values in a list and returns the matching index.
@@ -84,13 +84,13 @@ Compares the specified property value against the enumerated values in a list an
 <a href="shell.IPropertyEnumTypeList_GetAt">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="shell.IPropertyEnumType">IPropertyEnumType</a> object at the specified index in the list.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> object at the specified index in the list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumTypeList_GetConditionAt">GetConditionAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761479(v=VS.85).aspx">GetConditionAt</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.

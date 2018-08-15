@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 
 The <b>ITfDisplayAttributeProvider</b> interface is implemented by a text service and is used by the TSF manager to enumerate and obtain individual display attribute information objects.
 
-The TSF manager obtains an instance of this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory</a> with GUID_TFCAT_DISPLAYATTRIBUTEPROVIDER and IID_ITfDisplayAttributeProvider. For more information, see <a href="https://msdn.microsoft.com/5809f5b8-0396-4abd-b5fe-61ecc8cd0914">Providing Display Attributes</a>.
+The TSF manager obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/9e9a72a8-ea9b-4438-992c-5a7db64f7d82">ITfCategoryMgr::RegisterCategory</a> with GUID_TFCAT_DISPLAYATTRIBUTEPROVIDER and IID_ITfDisplayAttributeProvider. For more information, see <a href="https://msdn.microsoft.com/5809f5b8-0396-4abd-b5fe-61ecc8cd0914">Providing Display Attributes</a>.
 
 
 ## -inheritance
@@ -98,7 +98,7 @@ Obtains a display attribute provider object for a particular display attribute.
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 
@@ -107,7 +107,7 @@ Obtains a display attribute provider object for a particular display attribute.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 

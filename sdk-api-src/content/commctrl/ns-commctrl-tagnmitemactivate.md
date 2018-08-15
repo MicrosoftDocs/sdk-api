@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/475c8e6a-8e2e-4182-8ccc-a4bc6fc891a8">LVN_ITEMACTIVATE</a> notification code. 
+Contains information about an <a href="https://msdn.microsoft.com/en-us/library/Bb774843(v=VS.85).aspx">LVN_ITEMACTIVATE</a> notification code. 
 
 
 ## -struct-fields
@@ -61,10 +61,10 @@ Contains information about an <a href="https://msdn.microsoft.com/475c8e6a-8e2e-
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field iItem
@@ -100,7 +100,7 @@ Old item state. This member is zero for notification codes that do not use it.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Set of flags that indicate the item attributes that have changed. This member is zero for notifications that do not use it. Otherwise, it can have the same values as the 
-					<b>mask</b> member of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure. 
+					<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
 
 
 ### -field ptAction

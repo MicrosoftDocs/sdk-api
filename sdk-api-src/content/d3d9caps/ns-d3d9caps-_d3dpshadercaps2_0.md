@@ -63,7 +63,7 @@ Pixel shader driver caps.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Instruction predication is supported if this value is nonzero. See <a href="https://msdn.microsoft.com/bfead3f8-f7fe-4fc1-939f-8e5fbc3e0adf">setp_comp - vs</a>.
+Instruction predication is supported if this value is nonzero. See <a href="https://msdn.microsoft.com/en-us/library/Bb147357(v=VS.85).aspx">setp_comp - vs</a>.
 
 
 ### -field DynamicFlowControlDepth
@@ -84,7 +84,7 @@ The number of temporary registers supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
-The depth of nesting of the <a href="https://msdn.microsoft.com/1d587559-ef4b-40a5-bce5-49354d11ff91">loop - vs</a>/<a href="https://msdn.microsoft.com/0f795557-b5b0-45e6-8134-9558619f80fc">rep - vs</a> and <a href="https://msdn.microsoft.com/3c1ec529-1ee4-40d9-8ce5-f8e7a61fde9c">call - vs</a>/<a href="https://msdn.microsoft.com/9be030b9-fa21-459f-bd6c-f34ad6f177fc">callnz bool - vs</a> instructions. See <b>D3DPSHADERCAPS2_0</b>.
+The depth of nesting of the <a href="https://msdn.microsoft.com/en-us/library/Bb174716(v=VS.85).aspx">loop - vs</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb147331(v=VS.85).aspx">rep - vs</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172389(v=VS.85).aspx">call - vs</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb172385(v=VS.85).aspx">callnz bool - vs</a> instructions. See <b>D3DPSHADERCAPS2_0</b>.
 
 
 ### -field NumInstructionSlots
@@ -99,7 +99,7 @@ The number of instruction slots supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 
 
-<a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>
 
 
 

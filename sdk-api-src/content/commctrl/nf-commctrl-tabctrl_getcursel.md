@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Determines the currently selected tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/1caa7fad-da5a-4b26-8e78-12110c126691">TCM_GETCURSEL</a> message explicitly. 
+Determines the currently selected tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760583(v=VS.85).aspx">TCM_GETCURSEL</a> message explicitly. 
 
 
 ## -parameters

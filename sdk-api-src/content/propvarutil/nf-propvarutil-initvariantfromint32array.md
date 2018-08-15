@@ -101,7 +101,7 @@ Creates a VT_ARRAY | VT_I4 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt32Array">InitVariantFromInt32Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762330(v=VS.85).aspx">InitVariantFromInt32Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,15 +130,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762300(v=VS.85).aspx">InitPropVariantFromInt32Vector</a>
 
 
 
-<a href="shell.InitVariantFromInt32">InitVariantFromInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762329(v=VS.85).aspx">InitVariantFromInt32</a>
 
 
 
-<a href="shell.VariantToInt32Array">VariantToInt32Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776609(v=VS.85).aspx">VariantToInt32Array</a>
  
 
  

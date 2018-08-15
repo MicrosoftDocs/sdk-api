@@ -52,7 +52,7 @@ req.irql:
 
 
 Retrieves the tree-view item that bears the specified relationship to a specified item. You can use this macro, use one of the 
-			<b>TreeView_Get</b> macros described below, or send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message explicitly. 
+			<b>TreeView_Get</b> macros described below, or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -91,7 +91,7 @@ Flag specifying the item to retrieve. This parameter can be one of the following
 </dl>
 </td>
 <td width="60%">
-Retrieves the currently selected item. You can use the <a href="https://msdn.microsoft.com/938598b4-37ed-4197-bb0d-73c29f990f5d">TreeView_GetSelection</a> macro to send this message.
+Retrieves the currently selected item. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773891(v=VS.85).aspx">TreeView_GetSelection</a> macro to send this message.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Retrieves the currently selected item. You can use the <a href="https://msdn.mic
 </td>
 <td width="60%">
 Retrieves the first child item of the item specified by the 
-						<i>hitem</i> parameter. You can use the <a href="https://msdn.microsoft.com/49eb25c4-52b3-4b3a-ae2f-433af9adf0d4">TreeView_GetChild</a> macro to send this message.
+						<i>hitem</i> parameter. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773812(v=VS.85).aspx">TreeView_GetChild</a> macro to send this message.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Retrieves the first child item of the item specified by the
 </dl>
 </td>
 <td width="60%">
-Retrieves the item that is the target of a drag-and-drop operation. You can use the <a href="https://msdn.microsoft.com/e8c9cc6d-c840-47d9-8890-539bc674ec77">TreeView_GetDropHilight</a> macro to send this message.
+Retrieves the item that is the target of a drag-and-drop operation. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773818(v=VS.85).aspx">TreeView_GetDropHilight</a> macro to send this message.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Retrieves the item that is the target of a drag-and-drop operation. You can use 
 </dl>
 </td>
 <td width="60%">
-Retrieves the first visible item. You can use the <a href="https://msdn.microsoft.com/9da74062-e029-4c73-821f-829a0964afba">TreeView_GetFirstVisible</a> macro to send this message.
+Retrieves the first visible item. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773827(v=VS.85).aspx">TreeView_GetFirstVisible</a> macro to send this message.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Retrieves the first visible item. You can use the <a href="https://msdn.microsof
 </dl>
 </td>
 <td width="60%">
-Retrieves the next sibling item. You can use the <a href="https://msdn.microsoft.com/1fe480ea-dcb5-4d08-8eec-996f78757fda">TreeView_GetNextSibling</a> macro to send this message.
+Retrieves the next sibling item. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773867(v=VS.85).aspx">TreeView_GetNextSibling</a> macro to send this message.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Retrieves the next sibling item. You can use the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-<b>Windows Vista and later.</b> Retrieves the next selected item. You can use the <a href="https://msdn.microsoft.com/62db774a-5ac5-49d1-a05b-c7c53944270a">TreeView_GetNextSelected</a> macro to send this message.
+<b>Windows Vista and later.</b> Retrieves the next selected item. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773864(v=VS.85).aspx">TreeView_GetNextSelected</a> macro to send this message.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ Retrieves the next sibling item. You can use the <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-Retrieves the next visible item that follows the specified item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="https://msdn.microsoft.com/7e21cd1b-d05e-4c62-9ec8-244a096f90f3">TreeView_GetNextVisible</a> macro to send this message.
+Retrieves the next visible item that follows the specified item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773870(v=VS.85).aspx">TreeView_GetNextVisible</a> macro to send this message.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Retrieves the next visible item that follows the specified item. The specified i
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent of the specified item. You can use the <a href="https://msdn.microsoft.com/a286e32f-d152-4cd9-b7fc-75d946378c34">TreeView_GetParent</a> macro to send this message.
+Retrieves the parent of the specified item. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773872(v=VS.85).aspx">TreeView_GetParent</a> macro to send this message.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ Retrieves the parent of the specified item. You can use the <a href="https://msd
 </dl>
 </td>
 <td width="60%">
-Retrieves the previous sibling item. You can use the <a href="https://msdn.microsoft.com/2f013ffb-43dd-460f-824a-36fb67639834">TreeView_GetPrevSibling</a> macro to send this message.
+Retrieves the previous sibling item. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773875(v=VS.85).aspx">TreeView_GetPrevSibling</a> macro to send this message.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Retrieves the previous sibling item. You can use the <a href="https://msdn.micro
 </dl>
 </td>
 <td width="60%">
-Retrieves the first visible item that precedes the specified item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="https://msdn.microsoft.com/b9a4ad11-bd4a-48c6-9dbb-a92a3e410dc3">TreeView_GetPrevVisible</a> macro to send this message.
+Retrieves the first visible item that precedes the specified item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/en-us/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773878(v=VS.85).aspx">TreeView_GetPrevVisible</a> macro to send this message.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Retrieves the first visible item that precedes the specified item. The specified
 </dl>
 </td>
 <td width="60%">
-Retrieves the topmost or very first item of the tree-view control. You can use the <a href="https://msdn.microsoft.com/419dd3d8-06df-4d95-b589-00dfabc95f77">TreeView_GetRoot</a> macro to send this message. 
+Retrieves the topmost or very first item of the tree-view control. You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb773881(v=VS.85).aspx">TreeView_GetRoot</a> macro to send this message. 
 
 </td>
 </tr>

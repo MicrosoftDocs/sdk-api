@@ -104,7 +104,7 @@ A pointer to a variable that will receive an
     <a href="https://msdn.microsoft.com/cd8f74c0-c2dc-487c-b702-1e1355e99b7d">IWsbApplicationAsync</a> interface pointer that can be 
   used to retrieve the status of the consistency-check operation.  This pointer can be <b>NULL</b> 
   if a consistency check is not required. When the consistency-check operation is complete, the 
-  <a href="_com_iunknown_release">IUnknown::Release</a> method must be called to free all 
+  <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method must be called to free all 
       resources held by the <b>IWsbApplicationAsync</b> object.
 
 

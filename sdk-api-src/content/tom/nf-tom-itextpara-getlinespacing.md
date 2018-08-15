@@ -156,7 +156,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">ITextPara::GetLineSpacingRule</a> method.
+To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">ITextPara::GetLineSpacingRule</a> method.
 
 
 
@@ -170,11 +170,11 @@ To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">GetLineSpacingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">GetLineSpacingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -182,11 +182,11 @@ To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/36ef5af4-90dd-4185-92c9-5c4e88bf5ec2">SetLineSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774169(v=VS.85).aspx">SetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

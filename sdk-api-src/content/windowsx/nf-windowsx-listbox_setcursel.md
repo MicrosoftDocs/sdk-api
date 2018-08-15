@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/28d81f9d-a926-400c-8803-dcdb0e8f193d">LB_SETCURSEL</a> message explicitly.
+Sets the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761342(v=VS.85).aspx">LB_SETCURSEL</a> message explicitly.
 
 
 
@@ -80,7 +80,7 @@ The zero-based index of the item to select, or –1 to clear the selection.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/28d81f9d-a926-400c-8803-dcdb0e8f193d">LB_SETCURSEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761342(v=VS.85).aspx">LB_SETCURSEL</a>.
 
 
 

@@ -64,7 +64,7 @@ Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 
 Type: <b>long</b>
 
-Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">ITextPara::GetLineSpacingRule</a> method. 
+Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">ITextPara::GetLineSpacingRule</a> method. 
 
 
 ### -param Spacing [in]
@@ -166,11 +166,11 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 
-<a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">GetLineSpacingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">GetLineSpacingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -178,7 +178,7 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

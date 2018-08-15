@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Calculate a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> index for a texture.
+Calculate a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> index for a texture.
 
 
 ## -parameters
@@ -105,11 +105,11 @@ A buffer is an unstructured resource and is therefore defined as containing a si
 
 
 
-<a href="https://msdn.microsoft.com/012577cd-970e-43bc-996e-3be7c2283b60">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d6b1ba-303d-4c56-a875-30edc8c343ab">Resource Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb694532(v=VS.85).aspx">Resource Functions</a>
  
 
  

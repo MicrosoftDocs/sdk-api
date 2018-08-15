@@ -113,7 +113,7 @@ Skips over the next specified number of elements in the enumeration.
 
 
 
-To obtain an instance of this interface, first obtain an instance of <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> using <a href="_com_iunknown_queryinterface">QueryInterface</a> on an instance of one of the following interfaces:
+To obtain an instance of this interface, first obtain an instance of <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> using <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on an instance of one of the following interfaces:
 
 <ul>
 <li>
@@ -132,7 +132,7 @@ To obtain an instance of this interface, first obtain an instance of <a href="ht
 <a href="https://msdn.microsoft.com/aff6be4a-07bc-4a74-8fbf-92fe8985f5b6">IOfflineFilesShareItem</a>
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface is only valid for directory, server, and share items. If <a href="_com_iunknown_queryinterface">QueryInterface</a> is called for the <b>IOfflineFilesItemContainer</b> interface on a file item (an instance of the <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a> interface), it will fail with <b>E_NOINTERFACE</b>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface is only valid for directory, server, and share items. If <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> is called for the <b>IOfflineFilesItemContainer</b> interface on a file item (an instance of the <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a> interface), it will fail with <b>E_NOINTERFACE</b>.</div>
 <div> </div>
 For a code example that shows how to use the <b>IEnumOfflineFilesItems</b> interface, see <a href="https://msdn.microsoft.com/9960e8f8-4d15-4a53-aa77-d0105b6a59d1">IOfflineFilesItemContainer::EnumItems</a>.
 

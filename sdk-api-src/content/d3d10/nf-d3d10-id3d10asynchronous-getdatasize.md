@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Size of the data (in bytes) that is output when calling GetData.
 
 
 
-<a href="https://msdn.microsoft.com/71ed9ae8-d1a1-442c-ac0f-6b4ede613bfb">ID3D10Asynchronous Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
  
 
  

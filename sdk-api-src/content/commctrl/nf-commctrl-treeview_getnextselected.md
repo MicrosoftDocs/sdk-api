@@ -87,7 +87,7 @@ Used to find the next selected item when there are multiple items selected.
 
 
 
-<a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a>
  
 
  

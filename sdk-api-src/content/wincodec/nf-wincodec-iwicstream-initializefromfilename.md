@@ -118,7 +118,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The <a href="https://msdn.microsoft.com/bc398732-037d-4f48-940f-c70975447972">IWICStream</a> interface methods do not enable you to provide a file sharing option.
-            To create a shared file stream for an image, use the <a href="_shell_SHCreateStreamOnFileEx">SHCreateStreamOnFileEx</a> function.
+            To create a shared file stream for an image, use the <a href="https://msdn.microsoft.com/en-us/library/Bb759866(v=VS.85).aspx">SHCreateStreamOnFileEx</a> function.
             This stream can then be used to create an <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a> using the <a href="https://msdn.microsoft.com/b9328715-54a0-4c9a-9977-3252068b7e4b">CreateDecoderFromStream</a> method.
          
 

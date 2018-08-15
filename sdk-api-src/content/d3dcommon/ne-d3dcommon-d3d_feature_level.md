@@ -61,19 +61,19 @@ Describes the set of features targeted by a Direct3D device.
 
 ### -field D3D_FEATURE_LEVEL_9_1
 
-Targets features supported by <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1 including shader model 2.
+Targets features supported by <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1 including shader model 2.
           
 
 
 ### -field D3D_FEATURE_LEVEL_9_2
 
-Targets features supported by <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.2 including shader model 2.
+Targets features supported by <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.2 including shader model 2.
           
 
 
 ### -field D3D_FEATURE_LEVEL_9_3
 
-Targets features supported by <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.3 including shader model 2.0b.
+Targets features supported by <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.3 including shader model 2.0b.
           
 
 
@@ -118,7 +118,7 @@ Targets features supported by Direct3D 12.1 including shader model 5.
 
 
 For an overview of
-          the capabilities of each feature level, see <a href="overviews_direct3d_11_devices_downlevel_intro.htm">Overview For Each Feature Level</a>.
+          the capabilities of each feature level, see <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">Overview For Each Feature Level</a>.
         
 
 For information about limitations creating non-hardware-type devices on certain feature levels, see <a href="https://msdn.microsoft.com/7e022e5d-daa3-48fa-b9fe-4b569220e55e">Limitations Creating WARP and Reference Devices</a>.

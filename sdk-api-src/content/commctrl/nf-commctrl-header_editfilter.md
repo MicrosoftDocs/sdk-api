@@ -113,7 +113,7 @@ Accept the changes made by the user.
 
 
 
-<a href="https://msdn.microsoft.com/580f7872-4056-4d7d-8e69-274b4b4b5545">HDM_EDITFILTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775312(v=VS.85).aspx">HDM_EDITFILTER</a>
  
 
  

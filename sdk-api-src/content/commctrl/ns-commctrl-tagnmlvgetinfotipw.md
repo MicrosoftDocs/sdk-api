@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://msdn.microsoft.com/62be5087-7e49-4722-a63a-1768e030af48">LVN_GETINFOTIP</a> notification code. 
+Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774835(v=VS.85).aspx">LVN_GETINFOTIP</a> notification code. 
 
 
 ## -struct-fields
@@ -63,10 +63,10 @@ Contains and receives list-view item information needed to display a tooltip for
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information on this notification code. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information on this notification code. 
 
 
 ### -field dwFlags

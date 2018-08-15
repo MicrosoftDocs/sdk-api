@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-<a href="tablet.iinkrecognizers">IInkRecognizers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
 
 
 

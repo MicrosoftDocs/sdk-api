@@ -64,7 +64,7 @@ Renders the first frame of a buffered animation operation and starts the animati
 
 Type: <b>HANIMATIONBUFFER</b>
 
-The handle to the buffered animation context that was returned by <a href="https://msdn.microsoft.com/ca7204b3-3166-4911-96f9-16a0f59ecb09">BeginBufferedAnimation</a>.
+The handle to the buffered animation context that was returned by <a href="https://msdn.microsoft.com/en-us/library/Bb773252(v=VS.85).aspx">BeginBufferedAnimation</a>.
 
 
 ### -param fUpdateTarget

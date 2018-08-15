@@ -107,7 +107,7 @@ In conformance with conventions for the <a href="https://msdn.microsoft.com/9439
 
 #### Examples
 
-For example, see <a href="using_windows.htm">Creating, Enumerating, and Sizing Child Windows</a>.
+For example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -122,7 +122,7 @@ For example, see <a href="using_windows.htm">Creating, Enumerating, and Sizing C
 
 
 
-<a href="https://msdn.microsoft.com/9c8fe83e-0c9a-483a-a692-4d229d1bd559">GetWindowRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633519(v=VS.85).aspx">GetWindowRect</a>
 
 
 

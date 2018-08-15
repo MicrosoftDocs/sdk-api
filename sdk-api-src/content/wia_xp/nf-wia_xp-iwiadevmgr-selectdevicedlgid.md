@@ -141,9 +141,9 @@ This method returns the following values:
 
 
 
-This method works in a similar manner to <a href="https://msdn.microsoft.com/5c58b0f9-42a9-4d20-97a5-526b6937d495">IWiaDevMgr::SelectDeviceDlg</a>. The primary difference is that if it finds a matching device, it does not create the hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects for the device.
+This method works in a similar manner to <a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a>. The primary difference is that if it finds a matching device, it does not create the hierarchical tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects for the device.
 
-Like <a href="https://msdn.microsoft.com/5c58b0f9-42a9-4d20-97a5-526b6937d495">IWiaDevMgr::SelectDeviceDlg</a>, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method creates and displays the <b>Select Device</b> dialog box. This enables the user to select a WIA device for image acquisition. If a device is successfully selected, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method passes its identifier string to the application through its <i>pbstrDeviceID</i> parameter. 
+Like <a href="https://msdn.microsoft.com/en-us/library/ms630148(v=VS.85).aspx">IWiaDevMgr::SelectDeviceDlg</a>, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method creates and displays the <b>Select Device</b> dialog box. This enables the user to select a WIA device for image acquisition. If a device is successfully selected, the <b>IWiaDevMgr::SelectDeviceDlgID</b> method passes its identifier string to the application through its <i>pbstrDeviceID</i> parameter. 
 
 Particular types of devices may be displayed to the user by specifying the device types through the <i>lDeviceType</i> parameter. If only one device meets the specification, <b>IWiaDevMgr::SelectDeviceDlgID</b> does not display the <b>Select Device</b> dialog box. Instead it passes the device's identifier string to the application without displaying the dialog box. You can override this behavior and force <b>IWiaDevMgr::SelectDeviceDlgID</b> to display the <b>Select Device</b> dialog box by passing WIA_SELECT_DEVICE_NODEFAULT as the value for the <i>lFlags</i> parameter.
 

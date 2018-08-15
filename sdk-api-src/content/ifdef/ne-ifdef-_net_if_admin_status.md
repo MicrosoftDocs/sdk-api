@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The NET_IF_ADMIN_STATUS enumeration type specifies the 
-  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> administrative
+  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> administrative
   status, as described in RFC 2863.
 
 

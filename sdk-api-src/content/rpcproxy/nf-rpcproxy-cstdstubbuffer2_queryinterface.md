@@ -56,7 +56,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdStubBuffer2_QueryInterface is not supported and may be altered or unavailable in the future.]
 
-Implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
+Implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::QueryInterface</a> method.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> 
 
 ### -param This [in]
 
-Pointer to the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

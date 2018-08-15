@@ -100,12 +100,12 @@ The <b>RegisterWindowMessage</b> function is typically used to register messages
 
 If two different applications register the same message string, the applications return the same message value. The message remains registered until the session ends. 
 
-Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://msdn.microsoft.com/4115c587-fcb4-4170-9948-fe33bcb8742a">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
+Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/ba038bc1-fb5c-4576-be80-7eae7339ba05">Finding Text</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646829(v=VS.85).aspx">Finding Text</a>.
 
 <div class="code"></div>
 
@@ -120,11 +120,11 @@ For an example, see <a href="https://msdn.microsoft.com/ba038bc1-fb5c-4576-be80-
 
 
 
-<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/5357de37-1e44-4e4a-bdae-b5a386032dd4">PostMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>
 
 
 

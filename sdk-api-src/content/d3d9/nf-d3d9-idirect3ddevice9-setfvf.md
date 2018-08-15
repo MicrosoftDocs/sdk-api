@@ -64,14 +64,14 @@ Sets the current vertex stream declaration.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-DWORD containing the fixed function vertex type. For more information, see <a href="https://msdn.microsoft.com/85d9f5b2-8e4a-4f92-a587-eae5b293778c">D3DFVF</a>.
+DWORD containing the fixed function vertex type. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb172559(v=VS.85).aspx">D3DFVF</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
@@ -111,7 +111,7 @@ const DWORD VertexFVF = (D3DFVF_XYZ | D3DFVF_DIFFUSE |
 </tr>
 </table></span></div>
 </li>
-<li>Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/7b914bbd-d4bb-4d59-9820-f494a4cf0757">IDirect3DDevice9::CreateVertexBuffer</a>.
+<li>Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a>.
     
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -210,7 +210,7 @@ const DWORD VertexFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_TEX1 );
 </tr>
 </table></span></div>
 </li>
-<li>Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/7b914bbd-d4bb-4d59-9820-f494a4cf0757">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).</li>
+<li>Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).</li>
 <li>Set the values for each vertex.
     
     
@@ -257,11 +257,11 @@ pBigSquareVB-&gt;Unlock();
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/7295c1c3-1b09-4775-8ed6-8e84d545b6d0">IDirect3DDevice9::GetFVF</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174389(v=VS.85).aspx">IDirect3DDevice9::GetFVF</a>
  
 
  

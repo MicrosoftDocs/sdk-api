@@ -81,7 +81,7 @@ The previous value of <i>UseRef</i>.
 
 
 
-This API will fail if the device is not switchable; you must have created a device that is switchable by specifying the D3D10_CREATE_DEVICE_SWITCH_TO_REF flag during device creation (when calling <a href="https://msdn.microsoft.com/da48d6d4-f35b-4cd1-a358-8eec63dfa674">D3D10CreateDevice</a>).
+This API will fail if the device is not switchable; you must have created a device that is switchable by specifying the D3D10_CREATE_DEVICE_SWITCH_TO_REF flag during device creation (when calling <a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a>).
 
 Switching from a software device to a hardware device clears all cached objects from system memory. Switching from a hardware device to a software device causes resources to be downloaded to system memory.
 
@@ -93,11 +93,11 @@ Switching from a software device to a hardware device clears all cached objects 
 
 
 
-<a href="https://msdn.microsoft.com/da48d6d4-f35b-4cd1-a358-8eec63dfa674">D3D10CreateDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9865391-a75e-4bbe-907a-740ed5b3b29f">ID3D10SwitchToRef Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173860(v=VS.85).aspx">ID3D10SwitchToRef Interface</a>
  
 
  

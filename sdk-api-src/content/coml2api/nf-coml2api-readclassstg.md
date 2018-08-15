@@ -106,7 +106,7 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="_ole_oleload">OleLoad</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a>
 
 
 

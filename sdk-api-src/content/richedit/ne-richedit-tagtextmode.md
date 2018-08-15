@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Indicates the text mode of a rich edit control. The <a href="https://msdn.microsoft.com/d6741234-0ef3-4cd2-8817-6c852f1b500d">EM_SETTEXTMODE</a> and <a href="https://msdn.microsoft.com/5c976a82-9c51-4700-9db4-a6b0ed7bb852">EM_GETTEXTMODE</a> messages use this enumeration type. 
+Indicates the text mode of a rich edit control. The <a href="https://msdn.microsoft.com/en-us/library/Bb774286(v=VS.85).aspx">EM_SETTEXTMODE</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774197(v=VS.85).aspx">EM_GETTEXTMODE</a> messages use this enumeration type. 
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ Indicates the text mode of a rich edit control. The <a href="https://msdn.micros
 
 ### -field TM_PLAINTEXT
 
-Indicates plain-text mode, in which the control is similar to a standard edit control. For more information about plain-text mode, see the Remarks section of <a href="https://msdn.microsoft.com/d6741234-0ef3-4cd2-8817-6c852f1b500d">EM_SETTEXTMODE</a>. 
+Indicates plain-text mode, in which the control is similar to a standard edit control. For more information about plain-text mode, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Bb774286(v=VS.85).aspx">EM_SETTEXTMODE</a>. 
 
 
 ### -field TM_RICHTEXT
@@ -77,7 +77,7 @@ The control allows the user to undo only the last action in the undo queue.
 
 ### -field TM_MULTILEVELUNDO
 
-The control supports multiple undo actions. This is the default setting. Use the <a href="https://msdn.microsoft.com/485dbcda-89f4-40de-ad55-cd524958e910">EM_SETUNDOLIMIT</a> message to set the maximum number of undo actions. 
+The control supports multiple undo actions. This is the default setting. Use the <a href="https://msdn.microsoft.com/en-us/library/Bb774290(v=VS.85).aspx">EM_SETUNDOLIMIT</a> message to set the maximum number of undo actions. 
 
 
 ### -field TM_SINGLECODEPAGE
@@ -95,11 +95,11 @@ The control allows multiple code pages and Unicode text into the control. This i
 
 
 
-<a href="https://msdn.microsoft.com/5c976a82-9c51-4700-9db4-a6b0ed7bb852">EM_GETTEXTMODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774197(v=VS.85).aspx">EM_GETTEXTMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6741234-0ef3-4cd2-8817-6c852f1b500d">EM_SETTEXTMODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774286(v=VS.85).aspx">EM_SETTEXTMODE</a>
 
 
 

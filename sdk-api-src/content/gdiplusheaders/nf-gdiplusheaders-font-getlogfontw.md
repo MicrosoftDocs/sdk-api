@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 
 The <b>Font::GetLogFontW</b> method uses a 
 			<b>LOGFONTW</b> structure to get the attributes of this 
-			<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
@@ -106,7 +106,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

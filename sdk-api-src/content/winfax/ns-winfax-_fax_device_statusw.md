@@ -487,9 +487,9 @@ The device is not available because it is in use by another application.
 
 
 
-The fax client application can call the <a href="https://msdn.microsoft.com/ddfba445-fdad-4fd8-b305-76d18b04583f">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
+The fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
 
-For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> topic.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691489(v=VS.85).aspx">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> topic.
 
 
 
@@ -503,15 +503,15 @@ For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9
 
 
 
-<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddfba445-fdad-4fd8-b305-76d18b04583f">FaxGetDeviceStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a>
  
 
  

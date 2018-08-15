@@ -93,11 +93,11 @@ If the function succeeds, the return value is a handle to the child window at th
 
 
 
-<a href="https://msdn.microsoft.com/cfa156af-4dac-4225-bcdd-f4135ad315e2">GetNextWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633509(v=VS.85).aspx">GetNextWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
 
 
 

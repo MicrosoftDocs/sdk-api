@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the <a href="https://msdn.microsoft.com/2ffd2bb1-cddf-4a4a-a4a8-087c9dc3fec0">LVM_GETCOUNTPERPAGE</a> message explicitly. 
+Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774917(v=VS.85).aspx">LVM_GETCOUNTPERPAGE</a> message explicitly. 
 
 
 ## -parameters

@@ -72,7 +72,7 @@ The <b>IPropertyStoreFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyStoreFactory_GetPropertyStore">GetPropertyStore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761447(v=VS.85).aspx">GetPropertyStore</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object that corresponds to the supplied flags.
@@ -81,10 +81,10 @@ Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object that correspond
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyStoreFactory_GetPropertyStoreForKeys">GetPropertyStoreForKeys</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761449(v=VS.85).aspx">GetPropertyStoreForKeys</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="https://msdn.microsoft.com/en-us/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ This interface is typically obtained through <a href="https://msdn.microsoft.com
 
 
 
-<a href="shell.PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776492(v=VS.85).aspx">PSCreatePropertyStoreFromObject</a>
  
 
  

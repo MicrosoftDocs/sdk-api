@@ -59,7 +59,7 @@ The
 Users and providers should never implement this interface. The implementation provided by WMI is the only one that is supported.
 
 By providing a native implementation of this interface, WMI allows client code to easily configure refreshers. You can access the 
-<b>IWbemConfigureRefresher</b> interface by calling <a href="_com_iunknown_queryinterface">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="_com_cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
+<b>IWbemConfigureRefresher</b> interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
 
 
 ## -inheritance

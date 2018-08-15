@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiGetActualSectionToInstallEx</b> function retrieves the name of the <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> that installs a device for a specified operating system and processor architecture. 
+The <b>SetupDiGetActualSectionToInstallEx</b> function retrieves the name of the <a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall section</a> that installs a device for a specified operating system and processor architecture. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A handle to the INF file that contains the <i>DDInstall</i> section.
 
 ### -param InfSectionName [in]
 
-A pointer to the <i>DDInstall</i> section name (as specified in an <a href="devinst.inf_models_section">INF Models section</a>). The maximum length of the section name, in characters, is 254.
+A pointer to the <i>DDInstall</i> section name (as specified in an <a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models section</a>). The maximum length of the section name, in characters, is 254.
 
 
 ### -param AlternatePlatformInfo [in, optional]
@@ -258,7 +258,7 @@ If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>
 
 
 
-<b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="devinst.creating_inf_files_for_multiple_platforms_and_operating_systems">Creating INF Files for Multiple Platforms and Operating Systems</a>.
+<b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="https://msdn.microsoft.com/library/Ff540206(v=VS.85).aspx">Creating INF Files for Multiple Platforms and Operating Systems</a>.
 
 If you do not supply alternative platform information with a call to <b>SetupDiGetActualSectionToInstallEx</b>, the function performs the same operation as <b>SetupDiGetActualSectionToInstall</b>. The latter function searches for the specified install section name using the platform information for the local computer.
 
@@ -285,7 +285,7 @@ If the function finds a match for the name, operating system, and processor arch
 
 
 
-<a href="devinst.inf_ddinstall_section">INF DDInstall Section</a>
+<a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall Section</a>
 
 
 

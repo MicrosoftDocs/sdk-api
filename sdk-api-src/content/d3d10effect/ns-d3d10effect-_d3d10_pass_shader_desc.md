@@ -61,7 +61,7 @@ Describes an effect variable that contains a shader.
 
 ### -field pShaderVariable
 
-Type: <b><a href="https://msdn.microsoft.com/eeb1d34c-292a-4d35-9c3e-dc05b04f7913">ID3D10EffectShaderVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173698(v=VS.85).aspx">ID3D10EffectShaderVariable</a>*</b>
 
 A pointer to the variable that the shader came from. If it is an inline shader assignment, the returned interface will be an anonymous shader variable, which is not retrievable any other way.  Its name in the variable description will be "$Anonymous". If there is no assignment of this type in the pass block, this will point to a shader variable that returns false when IsValid is called.
 
@@ -77,7 +77,7 @@ A zero-based array index; otherwise 0.
 
 
 
-To get a shader description, call a method like <a href="https://msdn.microsoft.com/7a213647-66b8-4beb-8f08-cc45bc361116">ID3D10EffectPass::GetVertexShaderDesc</a>.
+To get a shader description, call a method like <a href="https://msdn.microsoft.com/en-us/library/Bb173664(v=VS.85).aspx">ID3D10EffectPass::GetVertexShaderDesc</a>.
 
 
 
@@ -87,7 +87,7 @@ To get a shader description, call a method like <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
  
 
  

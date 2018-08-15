@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/aab023ac-22ef-485b-be2f-2aa76dfcf57f">DTM_SETSYSTEMTIME</a> message explicitly. 
+Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761782(v=VS.85).aspx">DTM_SETSYSTEMTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -94,7 +94,7 @@ Set the DTP control according to the data within the <a href="https://msdn.micro
 </td>
 <td width="60%">
 Set the DTP control to "no date" and clear its check box. When this flag is specified, 
-						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> style. 
+						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="https://msdn.microsoft.com/en-us/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style. 
 
 </td>
 </tr>

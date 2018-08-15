@@ -67,7 +67,7 @@ Gets the language currently in use by the common controls for a particular proce
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LANGID</a></b>
 
-Returns the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> of the language an application has specified for the common controls by calling <a href="https://msdn.microsoft.com/67ad64fa-bb05-4c04-8b57-0dc4a0f87cdb">InitMUILanguage</a>. <b>GetMUILanguage</b> returns the value for the process from which it is called. If 
+Returns the <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> of the language an application has specified for the common controls by calling <a href="https://msdn.microsoft.com/en-us/library/Bb775699(v=VS.85).aspx">InitMUILanguage</a>. <b>GetMUILanguage</b> returns the value for the process from which it is called. If 
 						<b>InitMUILanguage</b> has not been called or was not called from the same process, <b>GetMUILanguage</b> returns the language-neutral LANGID, <a href="https://msdn.microsoft.com/cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3">MAKELANGID</a>(LANG_NEUTRAL, SUBLANG_NEUTRAL).
 
 

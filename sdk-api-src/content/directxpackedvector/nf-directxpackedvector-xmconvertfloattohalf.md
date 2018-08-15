@@ -92,11 +92,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/DC48CB71-5A8E-46AA-A653-4672A441FCBD">XMConvertFloatToHalfStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437913(v=VS.85).aspx">XMConvertFloatToHalfStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/40ba8255-6819-4137-b517-5fb04c18f46a">XMConvertHalfToFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419423(v=VS.85).aspx">XMConvertHalfToFloat</a>
  
 
  
