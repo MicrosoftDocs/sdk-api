@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,14 +80,14 @@ Retrieves the number of available subpicture streams, the currently selected sub
 Pointer to a value indicating whether the subpicture display is disabled.
 
 
-#### - pnStreamsAvailable [out]
-
-Pointer to the retrieved number of available subpicture streams.
-
-
 #### - pnCurrentStream [out]
 
 Pointer to the retrieved number of the currently selected subpicture stream.
+
+
+#### - pnStreamsAvailable [out]
+
+Pointer to the retrieved number of available subpicture streams.
 
 
 ## -returns

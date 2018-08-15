@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -91,7 +92,7 @@ Generates a special query expression for what would otherwise become a leaf quer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/f2cb2129-47ef-4fe5-bc40-19cffce4388d">Initialize</a>
 </td>
 <td align="left" width="63%">
 Resets all states of the interface to default values and retrieves any necessary information from the schema.

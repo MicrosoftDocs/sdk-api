@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ Specifies the number of bytes of the file to map.
 
 ### -param piFile [out]
 
-Pointer to a memory location that receives an identifier for the mapped file, provided that the mapping succeeded. If the mapping did not succeed, the memory location receives the value zero. When the mapped file needs to be released, this value should be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565437">EngUnmapFile</a>.
+Pointer to a memory location that receives an identifier for the mapped file, provided that the mapping succeeded. If the mapping did not succeed, the memory location receives the value zero. When the mapped file needs to be released, this value should be passed to <a href="https://msdn.microsoft.com/e98040c3-4817-470b-9f71-8ebf793fc9a8">EngUnmapFile</a>.
 
 
 ## -returns
@@ -115,11 +116,11 @@ A driver can read and write to the file through the returned pointer.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564803">EngDeleteFile</a>
+<a href="https://msdn.microsoft.com/2ed030cf-6d26-4bde-8d63-83fd6848ec0d">EngDeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565437">EngUnmapFile</a>
+<a href="https://msdn.microsoft.com/e98040c3-4817-470b-9f71-8ebf793fc9a8">EngUnmapFile</a>
  
 
  

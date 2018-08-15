@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -450,7 +451,7 @@ The number of elements in the <b>MediaInfo</b> array.
 ### -field MediaInfo
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552529">DEVICE_MEDIA_INFO</a> structure in the array. There is one structure for each media type supported by the device.
+<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a> structure in the array. There is one structure for each media type supported by the device.
 
 
 ## -see-also
@@ -458,11 +459,11 @@ A pointer to the first
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552529">DEVICE_MEDIA_INFO</a>
+<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560563">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
+<a href="https://msdn.microsoft.com/eb3676cb-9f50-4105-89b6-ee2174e197ec">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
  
 
  

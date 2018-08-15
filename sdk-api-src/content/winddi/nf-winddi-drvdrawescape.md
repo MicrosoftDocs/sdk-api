@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvDrawEscape</b> function is the entry point that serves more than one f
 
 ### -param pso [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the surface to which the call is directed.
+Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the surface to which the call is directed.
 
 
 ### -param iEsc [in]
@@ -89,12 +90,12 @@ Passes raw device data to the device driver. The number of bytes of raw data is 
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure that can be queried to find the area on the surface that the caller can overwrite.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that can be queried to find the area on the surface that the caller can overwrite.
 
 
 ### -param prcl [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines the window rectangle on the surface. The application does not know the position of the window on the surface. GDI supplies this rectangle and holds a lock that ensures the rectangle is stable for the duration of the call. Coordinates received from the application are relative to the upper left corner of the window rectangle.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the window rectangle on the surface. The application does not know the position of the window on the surface. GDI supplies this rectangle and holds a lock that ensures the rectangle is stable for the duration of the call. Coordinates received from the application are relative to the upper left corner of the window rectangle.
 
 
 ### -param cjIn [in]
@@ -120,7 +121,7 @@ The return value depends on the function specified by <i>iEsc</i>. The driver sh
 
 
 
-This entry point differs from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556217">DrvEscape</a> in that a CLIPOBJ structure is provided. This allows a driver to implement its own <a href="https://msdn.microsoft.com/7c1489c9-40de-4b44-95b7-af227c7d8205">drawing functions</a> in a windowed environment.
+This entry point differs from <a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a> in that a CLIPOBJ structure is provided. This allows a driver to implement its own <a href="https://msdn.microsoft.com/7c1489c9-40de-4b44-95b7-af227c7d8205">drawing functions</a> in a windowed environment.
 
 GDI passes data directly from a (possibly malicious) client application to the driver, which means that the <b>DrvDrawEscape</b> function must validate all input arguments. Specifically, this function must:
 
@@ -138,9 +139,9 @@ Verify that the contents of the buffer pointed to by the <i>pvIn</i> parameter a
 
 </li>
 </ul>
-The escapes that a device supports are determined by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556217">DrvEscape</a>.
+The escapes that a device supports are determined by a call to <a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a>.
 
-For more information about the escape codes that Microsoft reserves, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556217">DrvEscape</a>.
+For more information about the escape codes that Microsoft reserves, see <a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a>.
 
 <b>DrvDrawEscape</b> is optional for all drivers.
 
@@ -152,15 +153,15 @@ For more information about the escape codes that Microsoft reserves, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a>
+<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556210">DrvEnableDriver</a>
+<a href="https://msdn.microsoft.com/b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e">DrvEnableDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556217">DrvEscape</a>
+<a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a>
  
 
  

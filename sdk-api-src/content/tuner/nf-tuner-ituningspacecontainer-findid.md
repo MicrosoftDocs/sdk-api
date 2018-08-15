@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,14 +75,14 @@ The <b>FindID</b> method retrieves the ID of a specified tuning space within the
 
 
 
-#### - pTuningSpace [in]
-
-Pointer to the <b>ITuningSpace</b> interface of the tuning space.
-
-
 #### - pID [out]
 
 Pointer to a variable that receives the ID of the tuning space. The returned value is specific to this collection object (which represents the local system).
+
+
+#### - pTuningSpace [in]
+
+Pointer to the <b>ITuningSpace</b> interface of the tuning space.
 
 
 ## -returns

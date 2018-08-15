@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupGetInfDriverStoreLocation</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="devinst.overview_of_inf_files">INF file</a> in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
+The <b>SetupGetInfDriverStoreLocation</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://msdn.microsoft.com/library/Ff549520(v=VS.85).aspx">INF file</a> in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
 
 
 ## -parameters
@@ -119,7 +120,7 @@ For example, assume that the INF file for a driver package is <i>Myinf.inf</i>, 
 
 <ol>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551973">SetupDiGetDriverInfoDetail</a> to retrieve a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553289">SP_DRVINFO_DETAIL_DATA</a> structure for a driver. The <b>InfFileName</b> member of this structure contains the fully qualified file name of the driver INF file in the system INF directory.
+Call <a href="https://msdn.microsoft.com/42f3668c-8112-4cc0-bce8-b0b3886c45fb">SetupDiGetDriverInfoDetail</a> to retrieve a <a href="https://msdn.microsoft.com/6e16a90a-a876-471c-917b-a26229a9187a">SP_DRVINFO_DETAIL_DATA</a> structure for a driver. The <b>InfFileName</b> member of this structure contains the fully qualified file name of the driver INF file in the system INF directory.
 
 </li>
 <li>
@@ -129,7 +130,7 @@ Call <b>SetupGetInfDriverStoreLocation</b> and supply the fully qualified file n
 </ol>
 <div class="alert"><b>Note</b>  <b>SetupGetInfDriverStoreLocation</b> does not process the contents of the INF file that is specified in <i>FileName</i>. You cannot use this function to perform a content-specific search for an INF file in the driver store.</div>
 <div> </div>
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552200">SetupGetInfPublishedName</a> function to retrieve the fully qualified file name of an <a href="devinst.overview_of_inf_files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
+Call the <a href="https://msdn.microsoft.com/0379f8f4-9761-4216-b4d5-5752b6dc33a5">SetupGetInfPublishedName</a> function to retrieve the fully qualified file name of an <a href="https://msdn.microsoft.com/library/Ff549520(v=VS.85).aspx">INF file</a> in the system INF file directory that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
 
 
 
@@ -139,19 +140,19 @@ Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552200">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552338">SP_ALTPLATFORM_INFO</a>
+<a href="https://msdn.microsoft.com/d9aba6c9-1b23-4ce0-b796-904b39bec3ac">SP_ALTPLATFORM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553289">SP_DRVINFO_DETAIL_DATA</a>
+<a href="https://msdn.microsoft.com/6e16a90a-a876-471c-917b-a26229a9187a">SP_DRVINFO_DETAIL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551973">SetupDiGetDriverInfoDetail</a>
+<a href="https://msdn.microsoft.com/42f3668c-8112-4cc0-bce8-b0b3886c45fb">SetupDiGetDriverInfoDetail</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552200">SetupGetInfPublishedName</a>
+<a href="https://msdn.microsoft.com/0379f8f4-9761-4216-b4d5-5752b6dc33a5">SetupGetInfPublishedName</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wiavideo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -119,7 +120,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629893(v=VS.85).aspx">IW
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/ed4c5669-33e4-43f9-8e61-7cd2b01fdd44">Pause</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629898(v=VS.85).aspx">IWiaVideo::Pause</a> method pauses video playback.

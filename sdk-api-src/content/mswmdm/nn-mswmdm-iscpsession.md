@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,7 +86,7 @@ Indicates the beginning of a session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>
+<a href="https://msdn.microsoft.com/322794ae-f8cd-4e2d-a329-728d281755cd">EndSession</a>
 </td>
 <td align="left" width="63%">
 Indicates the end of a session.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fontsub.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -89,7 +90,7 @@ Returns a void pointer to the allocated space, or <b>NULL</b> if there is insuff
 
 
 
-<a href="144fcee2-be34-4a03-bb7e-ed6d4b99eea0">malloc</a> conforms to this type; the application can either use <b>malloc</b> or a more specialized function for memory allocation. Whatever function is chosen, there must also be appropriate functions to reallocate and to free this memory. 
+<a href="https://msdn.microsoft.com/library/6ewkz86d(v=VS.100).aspx">malloc</a> conforms to this type; the application can either use <b>malloc</b> or a more specialized function for memory allocation. Whatever function is chosen, there must also be appropriate functions to reallocate and to free this memory. 
 
 
 

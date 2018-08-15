@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -132,7 +133,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt16VectorAlloc">PropVariantToUInt16VectorAlloc</a> to access a <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776567(v=VS.85).aspx">PropVariantToUInt16VectorAlloc</a> to access a <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -161,23 +162,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt16Vector">InitPropVariantFromUInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762310(v=VS.85).aspx">InitPropVariantFromUInt16Vector</a>
 
 
 
-<a href="shell.PropVariantGetUInt16Elem">PropVariantGetUInt16Elem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776528(v=VS.85).aspx">PropVariantGetUInt16Elem</a>
 
 
 
-<a href="shell.PropVariantToUInt16">PropVariantToUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776565(v=VS.85).aspx">PropVariantToUInt16</a>
 
 
 
-<a href="shell.PropVariantToUInt16Vector">PropVariantToUInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776566(v=VS.85).aspx">PropVariantToUInt16Vector</a>
 
 
 
-<a href="shell.VariantToUInt16Array">VariantToUInt16Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776624(v=VS.85).aspx">VariantToUInt16Array</a>
  
 
  

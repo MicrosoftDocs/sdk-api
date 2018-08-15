@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: iwscapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -117,7 +118,7 @@ If the method  fails, returns a Win32 error code.
 
 
 
-Once the client gets an <a href="https://msdn.microsoft.com/81BC78F1-6F95-49D3-8EDD-EB7E13119A86">IWSCProductList</a> pointer, they must call <b>Initialize</b> with a provider type, which gathers information on all the providers of that type installed on the system. Only one type of provider can be specified when calling <b>Initialize</b>, and the <b>Initialize</b> method may only be called once for each instance of an <b>IWSCProductList</b> pointer.  After the list has been initialized, the user is free to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> to obtain the number of providers in the list and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> to retrieve an individual provider.
+Once the client gets an <a href="https://msdn.microsoft.com/81BC78F1-6F95-49D3-8EDD-EB7E13119A86">IWSCProductList</a> pointer, they must call <b>Initialize</b> with a provider type, which gathers information on all the providers of that type installed on the system. Only one type of provider can be specified when calling <b>Initialize</b>, and the <b>Initialize</b> method may only be called once for each instance of an <b>IWSCProductList</b> pointer.  After the list has been initialized, the user is free to call <a href="https://msdn.microsoft.com/A28A6D3B-DC11-418B-987F-04711358B6EE">Count</a> to obtain the number of providers in the list and <a href="https://msdn.microsoft.com/041F45EF-BE1E-4C37-9BD7-ED9F45587ADA">Item</a> to retrieve an individual provider.
 
 
 

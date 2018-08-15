@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wdstci.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -86,14 +87,14 @@ The size of the data in <i>pCallerData</i>.
 
 
 
-#### - pMetadata [in]
-
-Pointer to the buffer location  that has received the content. The size of this buffer in bytes is given by <i>ulSize</i>. 
-
-
 #### - pContentOffset [in]
 
 The offset in the data stream where this block of data starts.  
+
+
+#### - pMetadata [in]
+
+Pointer to the buffer location  that has received the content. The size of this buffer in bytes is given by <i>ulSize</i>. 
 
 
 ## -returns

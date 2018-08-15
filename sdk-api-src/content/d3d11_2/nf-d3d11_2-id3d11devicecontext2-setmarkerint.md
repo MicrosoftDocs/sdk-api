@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -60,7 +61,7 @@ Allows applications to annotate graphics commands.
 
 ### -param pLabel [in]
 
-An optional string that will be logged to <a href="ac99a063-e2d2-40cc-b659-d23c2f783f92">ETW</a> when ETW logging is active. If <b>‘#d’</b> appears in the string, it will be replaced by the value of the <i>Data</i> parameter similar to the way <b>printf</b> works.
+An optional string that will be logged to <a href="https://msdn.microsoft.com/library/ms751538(v=VS.85).aspx">ETW</a> when ETW logging is active. If <b>‘#d’</b> appears in the string, it will be replaced by the value of the <i>Data</i> parameter similar to the way <b>printf</b> works.
 
 
 ### -param Data

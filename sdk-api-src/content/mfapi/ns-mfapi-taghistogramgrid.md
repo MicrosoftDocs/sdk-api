@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,15 +80,15 @@ Absolute coordinates of the region on the sensor output that the histogram is co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927646">HistogramBlobHeader</a>
+<a href="https://msdn.microsoft.com/E72DEFAB-1176-47AA-B6FC-35346D63CBD9">HistogramBlobHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927647">HistogramDataHeader</a>
+<a href="https://msdn.microsoft.com/42DD34AB-570B-4F71-90BE-7E3AFDB66A84">HistogramDataHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927649">HistogramHeader</a>
+<a href="https://msdn.microsoft.com/C41EC25A-98EF-4C35-9E5A-954C80B29DA6">HistogramHeader</a>
  
 
  

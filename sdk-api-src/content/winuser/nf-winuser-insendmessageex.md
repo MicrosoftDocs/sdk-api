@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -131,7 +132,7 @@ The window procedure has processed the message. The thread that sent the message
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
+The message was sent using the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
 
 </td>
 </tr>
@@ -169,7 +170,7 @@ To determine if the sender is blocked, use the following test:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
 
 
 

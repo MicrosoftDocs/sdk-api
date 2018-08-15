@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 
 RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <a href="https://msdn.microsoft.com/0a53d84e-d9be-4d18-a619-7d92c17b76bb">MprAdminInitializeDll</a> in the order in which the DLLs are listed in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926940">registry</a>.
+<a href="https://msdn.microsoft.com/e83a5e37-a39d-4465-abc9-653cdd56893b">registry</a>.
 
 
 

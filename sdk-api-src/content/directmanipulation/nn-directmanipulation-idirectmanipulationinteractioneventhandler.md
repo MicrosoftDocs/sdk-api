@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.irql:
 
 
 Defines methods to handle interactions when they are detected.
-<div class="alert"><b>Note</b>  When implementing this interface, ensure that the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  When implementing this interface, ensure that the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a> and <a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>.</div><div> </div>
 
 ## -inheritance
 

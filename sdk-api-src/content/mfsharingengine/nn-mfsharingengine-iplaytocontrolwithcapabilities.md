@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IPlayToControlWithCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/04d35ac6-af8c-4e95-865b-54bbc7e36059">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities information for the content.

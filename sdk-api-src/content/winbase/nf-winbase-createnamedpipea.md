@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -222,7 +223,7 @@ The caller will have write access to the named pipe's owner.
 </td>
 <td width="60%">
 The caller will have write access to the named pipe's SACL. For more information, see 
-<a href="security.access_control_lists_acls_">Access-Control Lists (ACLs)</a> and 
+<a href="https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx">Access-Control Lists (ACLs)</a> and 
 <a href="https://msdn.microsoft.com/88198243-dae5-49ac-9d54-bfae7a3a0b1a">SACL Access Right</a>.
 
 </td>

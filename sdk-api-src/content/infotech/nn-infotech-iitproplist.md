@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IITPropList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/551c9f2c-0d5b-4d0c-85aa-4ac8d60aade0">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears memory associated with a property list and reinitializes the list.
@@ -82,7 +83,7 @@ Clears memory associated with a property list and reinitializes the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/490b1aae-2058-4faa-b5d4-865c9f3c1cf0">Get</a>
 </td>
 <td align="left" width="63%">
 Returns the property object associated with the given property ID.

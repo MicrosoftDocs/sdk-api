@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-The <b>USB_POWER_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
+The <b>USB_POWER_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
 
 
 ## -struct-fields
@@ -61,42 +62,42 @@ The <b>USB_POWER_INFO</b> structure is used with the <a href="https://msdn.micro
 
 ### -field SystemState
 
-On input, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the system power state.
+On input, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the system power state.
 
 
 ### -field HcDevicePowerState
 
-On output, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the host controller.
+On output, an <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the host controller.
 
 
 ### -field HcDeviceWake
 
-On output, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller is in a wake state.
+On output, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller is in a wake state.
 
 
 ### -field HcSystemWake
 
-On output, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller can wake the system.
+On output, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller can wake the system.
 
 
 ### -field RhDevicePowerState
 
-On output, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the root hub.
+On output, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the root hub.
 
 
 ### -field RhDeviceWake
 
-On output, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub is in a wake state.
+On output, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub is in a wake state.
 
 
 ### -field RhSystemWake
 
-On output, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub can wake the system.
+On output, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub can wake the system.
 
 
 ### -field LastSystemSleepState
 
-On output, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540187">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the last system sleep state.
+On output, a <a href="https://msdn.microsoft.com/2f64bd5b-507c-4824-b50c-dbc228e8671a">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the last system sleep state.
 
 
 ### -field CanWakeup
@@ -113,7 +114,7 @@ A Boolean value that indicates whether the host controller is powered when in th
 
 
 
-The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP user-mode request. For more information about this request, see <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>.
 
 
 
@@ -123,11 +124,11 @@ The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>
+<a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
  
 
  

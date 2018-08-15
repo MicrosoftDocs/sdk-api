@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -149,7 +150,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 To retrieve the cache information, use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a> control code.
+    <a href="https://msdn.microsoft.com/025a92e8-6169-4d7e-9029-f22acb2bdc9f">IOCTL_DISK_GET_CACHE_INFORMATION</a> control code.
 
 
 
@@ -159,7 +160,7 @@ To retrieve the cache information, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96">DISK_CACHE_INFORMATION</a>
 
 
 
@@ -172,7 +173,7 @@ To retrieve the cache information, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/025a92e8-6169-4d7e-9029-f22acb2bdc9f">IOCTL_DISK_GET_CACHE_INFORMATION</a>
  
 
  

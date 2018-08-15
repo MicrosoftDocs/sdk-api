@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The cookie that identifies the window.
 
 Type: <b>VARIANT*</b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the new location.
+A <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the new location.
 
 
 ## -returns

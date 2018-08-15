@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -260,7 +261,7 @@ Returns the <b>AzAuthorizationStore</b> object property  with the specified prop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the authorization manager.
@@ -355,7 +356,7 @@ Retrieves an <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159048">Applications</a>
+<a href="https://msdn.microsoft.com/7475fe41-b2fc-4a2c-a0db-c8c00bcc3ba4">Applications</a>
 
 
 </td>
@@ -419,7 +420,7 @@ Retrieves the account names of principals that act as delegated policy users.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/79ef0e2f-3178-4310-832c-b0eea06cf1b0">Description</a>
 
 
 </td>
@@ -588,7 +589,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the object can be modified by the user context that called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+Retrieves a value that indicates whether the object can be modified by the user context that called the <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method.
 
 </td>
 </tr>
@@ -599,9 +600,9 @@ Retrieves a value that indicates whether the object can be modified by the user 
 
 
 
-The <b>AzAuthorizationStore</b> object is named according to the URL passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method. The object has no name within  the policy store.
+The <b>AzAuthorizationStore</b> object is named according to the URL passed to the <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method. The object has no name within  the policy store.
 
-The application must ensure that the user context from which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method is called is used for all future access to the <b>AzAuthorizationStore</b> object, except for the <a href="https://msdn.microsoft.com/0002804d-0e97-4648-8aa1-14eba09a90fa">IAzApplication::InitializeClientContextFromToken</a> method.
+The application must ensure that the user context from which the <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method is called is used for all future access to the <b>AzAuthorizationStore</b> object, except for the <a href="https://msdn.microsoft.com/0002804d-0e97-4648-8aa1-14eba09a90fa">IAzApplication::InitializeClientContextFromToken</a> method.
 
 <div class="alert"><b>Note</b>  If an XML store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit.</div>
 <div> </div>

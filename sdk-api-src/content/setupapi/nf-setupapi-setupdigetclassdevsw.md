@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: SetupAPI.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -55,7 +56,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="devinst.device_information_sets">device information set</a> that contains requested device information elements for a local computer.
+The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains requested device information elements for a local computer.
 
 
 ## -parameters
@@ -78,7 +79,7 @@ An identifier (ID) of a Plug and Play (PnP) <a href="https://msdn.microsoft.com/
 
 </li>
 <li>
-A PnP <a href="devinst.device_instance_ids">device instance ID</a>. When specifying a PnP device instance ID, DIGCF_DEVICEINTERFACE must be set in the Flags parameter.
+A PnP <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. When specifying a PnP device instance ID, DIGCF_DEVICEINTERFACE must be set in the Flags parameter.
 
 </li>
 </ul>
@@ -108,7 +109,7 @@ Return a list of installed devices for all device setup classes or all device in
 
 #### DIGCF_DEVICEINTERFACE
 
-Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="devinst.device_instance_ids">device instance ID</a>.
+Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>.
 
 
 
@@ -133,7 +134,7 @@ Return only devices that are a part of the current hardware profile.
 
 
 
-If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="devinst.device_information_sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -142,9 +143,9 @@ If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a h
 
 
 
-The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>.
+The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>.
 
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551072">SetupDiGetClassDevsEx</a> to retrieve the devices for a class on a remote computer.
+Call <a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a> to retrieve the devices for a class on a remote computer.
 
 <h3><a id="device_setup_class_control_options"></a><a id="DEVICE_SETUP_CLASS_CONTROL_OPTIONS"></a>Device Setup Class Control Options</h3>
 Use the following filtering options to control whether <b>SetupDiGetClassDevs</b> returns devices for all device setup classes or only for a specified device setup class:
@@ -212,7 +213,7 @@ To return only devices that are part of the current hardware profile, set the DI
 
 </li>
 <li>
-To return only a specific device, set the DIGCF_DEVICEINTERFACE flag and use the <i>Enumerator</i> parameter to supply the <a href="devinst.device_instance_ids">device instance ID</a> of the device<i>. </i>To include all possible devices, set <i>Enumerator</i> to <b>NULL</b>.
+To return only a specific device, set the DIGCF_DEVICEINTERFACE flag and use the <i>Enumerator</i> parameter to supply the <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> of the device<i>. </i>To include all possible devices, set <i>Enumerator</i> to <b>NULL</b>.
 
 </li>
 </ul>
@@ -329,27 +330,27 @@ if (DeviceInfoSet) {
 
 
 
-<a href="devinst.device_information_sets">Device Information Set</a>
+<a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">Device Information Set</a>
 
 
 
-<a href="devinst.device_instance_ids">Device Instance IDs</a>
+<a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">Device Instance IDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550956">SetupDiCreateDeviceInfoList</a>
+<a href="https://msdn.microsoft.com/0596f422-39ff-41ea-8bbd-63381d418ec8">SetupDiCreateDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>
+<a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551072">SetupDiGetClassDevsEx</a>
+<a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a>
  
 
  

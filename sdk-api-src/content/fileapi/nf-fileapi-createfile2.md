@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -67,7 +68,7 @@ When called from a Windows Store app, <b>CreateFile2</b>
     <a href="https://msdn.microsoft.com/a1e5ac4f-d877-4127-afa9-f1c1e3871087">Package.InstalledLocation</a> 
     directories. You can't open named pipes or mailslots or create encrypted files 
     (<b>FILE_ATTRIBUTE_ENCRYPTED</b>).
-<div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="wc_ref.winjs_namespace">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
+<div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="https://msdn.microsoft.com/library/BR212652(v=Win.10).aspx">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
     I/O, use the <a href="https://msdn.microsoft.com/0cbc081d-8787-409b-84bc-a6a28d8f83a0">CreateFileTransacted</a> function.
 
 
@@ -99,7 +100,7 @@ The most commonly used values are <b>GENERIC_READ</b>,
        <a href="https://msdn.microsoft.com/e18cede9-9bf7-4866-850b-5d7fa43a5b0f">Generic Access Rights</a>, 
        <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>, 
        <a href="https://msdn.microsoft.com/c534e853-b61f-414d-befe-8d3c4bf08d22">File Access Rights Constants</a>, and 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
+       <a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>.
 
 If this parameter is zero, the application can query certain metadata such as file, directory, or device 
        attributes without accessing that file or device, even if <b>GENERIC_READ</b> access would 
@@ -580,7 +581,7 @@ When opening a physical drive <i>x</i>:, the
 
 To obtain the physical drive identifier for a volume, open a handle to the volume and call the 
       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff560644">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>. 
+      <a href="https://msdn.microsoft.com/8faff037-d815-48f8-8b59-d63f4ff4a746">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>. 
       This control code returns the disk number and offset for each of the volume's one or more extents; a volume can 
       span multiple physical disks.
 
@@ -670,7 +671,7 @@ The <b>CreateFile2</b> function can create a handle to console
       input (CONIN$). If the process has an open handle to it as a result of inheritance or 
       duplication, it can also create a handle to the active screen buffer (CONOUT$). The 
       calling process must be attached to an inherited console or one allocated by the 
-      <a href="base.allocconsole">AllocConsole</a> function. For console handles, set the 
+      <a href="https://msdn.microsoft.com/library/ms681944(v=VS.85).aspx">AllocConsole</a> function. For console handles, set the 
       <b>CreateFile2</b> parameters as follows.
 
 <table>
@@ -689,13 +690,13 @@ Use the CONIN$ value to specify console input.
 Use the CONOUT$ value to specify console output.
 
 CONIN$ gets a handle to the console input buffer, even if the 
-         <a href="base.setstdhandle">SetStdHandle</a> function redirects the standard input 
+         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="base.getstdhandle">GetStdHandle</a>function.
+         <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="base.setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
-         get the standard output handle, use <a href="base.getstdhandle">GetStdHandle</a>.
+         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a>redirects the standard output handle. To 
+         get the standard output handle, use <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>.
 
 </td>
 </tr>

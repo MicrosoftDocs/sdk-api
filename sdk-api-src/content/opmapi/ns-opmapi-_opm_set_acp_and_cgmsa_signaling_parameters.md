@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -118,7 +119,7 @@ Reserved for future use. Set to zero.
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563146">DXVA_COPPSetSignalingCmdData</a> structure used in Certified Output Protection Manager (COPP).
+The layout of this structure is identical to the <a href="https://msdn.microsoft.com/f104b0c6-2b2f-4e6a-97e6-d73008cb80ef">DXVA_COPPSetSignalingCmdData</a> structure used in Certified Output Protection Manager (COPP).
 
 
 

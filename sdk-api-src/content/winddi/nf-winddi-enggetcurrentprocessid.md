@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -84,11 +85,11 @@ Callers of <b>EngGetCurrentProcessId</b> should treat the returned ID as a read-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564922">EngGetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/f1fdb223-b649-4467-a4c4-56cce4f4d975">EngGetCurrentThreadId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564955">EngGetProcessHandle</a>
+<a href="https://msdn.microsoft.com/51e39335-8ad7-4cd9-b46b-6fdd7a4de0bf">EngGetProcessHandle</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -138,7 +139,7 @@ If a non-zero time-out value is specified, then <b>CMP_WaitNoPendingInstallEvent
 
 New installation events can occur at any time. This function just indicates that there are no pending installation activities at the moment it is called.
 
-This function is typically used by <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device installation applications</a>. For more information, see <a href="devinst.writing_a_device_installation_application">Writing a Device Installation Application</a>.
+This function is typically used by <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device installation applications</a>. For more information, see <a href="https://msdn.microsoft.com/library/Ff554015(v=VS.85).aspx">Writing a Device Installation Application</a>.
 
 Do not call this function while processing any events inside of a system-initiated callback function that is expected to return within a short amount of time.  This includes service startup (for example in the <b>ServiceMain</b> callback function) or while processing any control in the service handler (for example, the <b>Handler</b> callback function), or from installation components such as class-installers or co-installers.
 
@@ -152,7 +153,7 @@ For Windows XP (with no service pack installed), this function must be called fr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539899">CM_WaitNoPendingInstallEvents</a>
+<a href="https://msdn.microsoft.com/b9922576-9e7e-454f-88e0-948a1e16523f">CM_WaitNoPendingInstallEvents</a>
  
 
  

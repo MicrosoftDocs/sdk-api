@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -70,14 +71,14 @@ Value (previously returned by <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -87,12 +88,12 @@ If the method fails, it returns one of the other elements of the
 
 
 When you call the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method of a 
-				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object, an information block that holds the state of the 
+				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object, an information block that holds the state of the 
 				<b>Graphics</b>object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <b>Graphics::EndContainer</b> method, the information block is removed from the stack and is used to restore the 
 				<b>Graphics</b>object to the state it was in at the time of the <b>Graphics::BeginContainer</b> call.
 
 Containers can be nested; that is, you can call the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method several times before you call the <b>Graphics::EndContainer</b> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
-				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
+				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
 
 Calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a> method place information blocks on the same stack as calls to the <a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a> method. Just as an <b>Graphics::EndContainer</b> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
 
@@ -104,7 +105,7 @@ Calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85)
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object and sets its clipping region. The code begins a container and sets an additional clipping region for the container. The code fills a rectangle twice: once inside the container, and once outside the container (after the call to <b>Graphics::EndContainer</b>).
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object and sets its clipping region. The code begins a container and sets an additional clipping region for the container. The code fills a rectangle twice: once inside the container, and once outside the container (after the call to <b>Graphics::EndContainer</b>).
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -152,7 +153,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

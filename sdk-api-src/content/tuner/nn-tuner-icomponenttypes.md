@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IComponentTypes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/157f8d81-dbbf-44a7-9786-0758d3c89634">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> object to the collection.
@@ -83,7 +84,7 @@ Adds a new <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/4cc842fa-90bd-4618-8e67-36b15db50cd1">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the collection.
@@ -137,7 +138,7 @@ Replaces the <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/7344851a-51ba-41c0-b368-e5eecfb5fb08">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a> object at the specified index number.

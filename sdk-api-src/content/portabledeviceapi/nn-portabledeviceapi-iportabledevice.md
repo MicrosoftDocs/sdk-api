@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.product: ADAM
 
 The <b>IPortableDevice</b> interface provides access to a portable device.
 
-To create and open this interface, first call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to open a connection to the device.
+To create and open this interface, first call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/d505fc34-9b6d-417a-a53e-e74773dcc8a4">Open</a> to open a connection to the device.
 
 
 ## -inheritance
@@ -83,7 +84,7 @@ Registers an application-defined callback that receives device events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/dcda2e43-ee12-44a4-a7ab-a2a542082d07">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending operation on this interface.
@@ -101,7 +102,7 @@ Retrieves an interface used to query the capabilities of a portable device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/aa60a439-7589-465e-98e5-56b93d594f96">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the connection with the device.
@@ -128,7 +129,7 @@ Retrieves a Plug-and-Play (PnP) identifier used to open a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/d505fc34-9b6d-417a-a53e-e74773dcc8a4">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a connection between the application and the device.

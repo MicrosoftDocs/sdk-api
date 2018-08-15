@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: inputscope.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -617,12 +618,12 @@ Indicates a custom xml string.
 The scope contains the IEnumString interface pointer. The Text Input Processor (TIP) can call <a href="https://msdn.microsoft.com/89379dab-6f96-4a86-8433-b6b0a8e45516">ITfInputScope2::EnumWordList</a> to retrieve it.
 
 
-#### - IS_HANJA_HALFWIDTH
+#### - IS_HANJA_FULLWIDTH
 
 Indicates Hanja characters.
 
 
-#### - IS_HANJA_FULLWIDTH
+#### - IS_HANJA_HALFWIDTH
 
 Indicates Hanja characters.
 

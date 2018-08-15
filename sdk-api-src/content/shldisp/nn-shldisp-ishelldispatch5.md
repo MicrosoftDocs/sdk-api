@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Internet Explorer 5.0
 Extends the <a href="https://msdn.microsoft.com/4fe37e38-ee71-41f0-b620-35fdc18f9dbb">IShellDispatch4</a> object. In addition to the properties and methods supported by <b>IShellDispatch4</b>, <b>IShellDispatch5</b> adds a method that displays open windows in a 3D stack.
 
             
-<div class="alert"><b>Note</b>  <b>IShellDispatch5</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/mt270130">Shell</a> object.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IShellDispatch5</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/75fc151e-5b9e-476b-b4e5-b848917357a8">Shell</a> object.</div><div> </div>
 
 ## -inheritance
 

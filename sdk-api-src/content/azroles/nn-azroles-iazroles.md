@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -75,7 +76,7 @@ The <b>IAzRoles</b> interface has these methods.
 <a href="https://msdn.microsoft.com/46388cf1-6ad8-4320-a0cd-998216b0043c">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/46388cf1-6ad8-4320-a0cd-998216b0043c">_NewEnum</a> property.
 
 </td>
 </tr>
@@ -84,7 +85,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/h
 <a href="https://msdn.microsoft.com/4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8">Count</a> property.
 
 </td>
 </tr>
@@ -93,7 +94,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/h
 <a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">Item</a> property.
 
 </td>
 </tr>
@@ -108,7 +109,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/h
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/46388cf1-6ad8-4320-a0cd-998216b0043c">_NewEnum</a>
 
 
 </td>
@@ -124,7 +125,7 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85)
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8">Count</a>
 
 
 </td>
@@ -140,7 +141,7 @@ Retrieves the number of <a href="https://msdn.microsoft.com/2934d783-b379-486c-8
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/a1c8b474-aae9-401b-b6d7-de17cdf8fce9">Item</a>
 
 
 </td>

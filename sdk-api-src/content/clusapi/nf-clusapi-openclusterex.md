@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -51,7 +52,7 @@ req.irql:
 
 
 Opens a connection to a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and returns a handle to it.
+    <a href="c_gly.htm">cluster</a> and returns a handle to it.
 
 
 ## -parameters

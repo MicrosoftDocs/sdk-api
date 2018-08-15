@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>GetPolicyServerId</b> method retrieves a string that uniquely identifies the certificate enrollment policy (CEP) server. This value is set by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+The <b>GetPolicyServerId</b> method retrieves a string that uniquely identifies the certificate enrollment policy (CEP) server. This value is set by the <a href="https://msdn.microsoft.com/5d54ffb2-4a81-4d52-80db-b8526a52bb53">Initialize</a> method.
 
 
 ## -parameters

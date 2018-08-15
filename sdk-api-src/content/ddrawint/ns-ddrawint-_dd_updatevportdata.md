@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,17 +61,17 @@ The DD_UPDATEVPORTDATA structure contains the information required to start, sto
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
+Points to a <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
 
 
 ### -field lplpDDSurface
 
-Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551730">DD_SURFACE_INT</a> structures that represent regular video surfaces. This member can be <b>NULL</b>.
+Points to an array of <a href="https://msdn.microsoft.com/b06f204c-e59a-4f13-ac6d-ff0860378312">DD_SURFACE_INT</a> structures that represent regular video surfaces. This member can be <b>NULL</b>.
 
 
 ### -field lplpDDVBISurface
@@ -80,7 +81,7 @@ Points to an array of DD_SURFACE_INT structures that represent <a href="https://
 
 ### -field lpVideoInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550447">DDVIDEOPORTINFO</a> structure that describes how the VPE object should transfer video data to a surface. This member can be <b>NULL</b> when <b>dwFlags</b> is DDRAWI_VPORTSTOP.
+Points to a <a href="https://msdn.microsoft.com/65423d9e-d3b8-4545-8afe-09b3375dbac2">DDVIDEOPORTINFO</a> structure that describes how the VPE object should transfer video data to a surface. This member can be <b>NULL</b> when <b>dwFlags</b> is DDRAWI_VPORTSTOP.
 
 
 ### -field dwFlags
@@ -151,7 +152,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550447">DDVIDEOPORTINFO</a>
+<a href="https://msdn.microsoft.com/65423d9e-d3b8-4545-8afe-09b3375dbac2">DDVIDEOPORTINFO</a>
 
 
 

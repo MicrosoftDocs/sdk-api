@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -126,7 +127,7 @@ Starts a wizard that guides the local user through the steps to install the upda
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593237">Uninstall</a>
+<a href="https://msdn.microsoft.com/fd00fc89-077e-4897-a7ec-d2e06167b7b0">Uninstall</a>
 </td>
 <td align="left" width="63%">
 Starts a synchronous uninstallation of the updates.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmiutils.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -72,7 +73,7 @@ The <b>IWbemPathKeyList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/92e78bd2-24f6-4e48-ae21-575cd1887c06">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of keys in the path.
@@ -81,7 +82,7 @@ Retrieves the number of keys in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://msdn.microsoft.com/e5df2222-988c-4f61-9b1a-9bccb647826d">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status bits for the key.
@@ -108,7 +109,7 @@ Retrieves a key name or value returning the value as a VARIANT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/01c69709-be6e-4a58-849d-76f9d4e3c196">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the key list as text.

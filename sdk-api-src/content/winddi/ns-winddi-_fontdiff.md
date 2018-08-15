@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -175,7 +176,7 @@ Specifies the maximum character increment of all glyphs in the font.
 
 ### -field ptlCaret
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
+Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
 
 
 ## -remarks
@@ -194,7 +195,7 @@ For descriptions of the FSHORT and FWORD data types, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566017">FONTSIM</a>
+<a href="https://msdn.microsoft.com/46d4170e-13d6-406f-991f-2024fadd8ddc">FONTSIM</a>
  
 
  

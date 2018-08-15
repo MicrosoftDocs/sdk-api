@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>SetupDiGetDeviceInterfaceAlias</b> function returns an alias of a specifi
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to retrieve an alias. This handle is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>.
+A pointer to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface for which to retrieve an alias. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552342">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i> for which to retrieve an alias. This pointer is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>.
+A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i> for which to retrieve an alias. This pointer is typically returned by <a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>.
 
 
 ### -param AliasInterfaceClassGuid [in]
@@ -76,7 +77,7 @@ A pointer to a GUID that specifies the interface class of the alias to retrieve.
 
 ### -param AliasDeviceInterfaceData [out]
 
-A pointer to a caller-allocated buffer that contains, on successful return, a completed <a href="https://msdn.microsoft.com/library/windows/hardware/ff552342">SP_DEVICE_INTERFACE_DATA</a> structure that identifies the requested alias. The caller must set <i>AliasDeviceInterfaceData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DATA) before calling this function. 
+A pointer to a caller-allocated buffer that contains, on successful return, a completed <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that identifies the requested alias. The caller must set <i>AliasDeviceInterfaceData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DATA) before calling this function. 
 
 
 ## -returns
@@ -140,7 +141,7 @@ Device interfaces are considered aliases if they are of different interface clas
 
 <b>SetupDiGetDeviceInterfaceAlias</b> can be used to locate a device that exposes more than one interface. For example, consider a disk that can be part of a fault-tolerant volume and can contain encrypted data. The function driver for the disk device could register a fault-tolerant-volume interface and an encrypted-volume interface. These interfaces are device interface aliases if the function driver registers them with identical reference strings and they refer to the same device. (The reference strings will likely be <b>NULL</b> and therefore are equal.)
 
-To locate such a multi-interface device, first locate all available devices that expose one of the interfaces, such as the fault-tolerant-volume interface, using <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>. Then, pass a device with the first interface (fault-tolerant-volume) to <b>SetupDiGetDeviceInterfaceAlias</b> and request an alias of the other interface class (encrypted-volume). 
+To locate such a multi-interface device, first locate all available devices that expose one of the interfaces, such as the fault-tolerant-volume interface, using <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> and <a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>. Then, pass a device with the first interface (fault-tolerant-volume) to <b>SetupDiGetDeviceInterfaceAlias</b> and request an alias of the other interface class (encrypted-volume). 
 
 If the requested alias exists but the caller-supplied <i>AliasDeviceInterfaceData</i> buffer is invalid, this function successfully adds the device interface element to <i>DevInfoSet</i> but returns <b>FALSE</b> for the return value. In this case, <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_INVALID_USER_BUFFER.
 
@@ -152,11 +153,11 @@ If the requested alias exists but the caller-supplied <i>AliasDeviceInterfaceDat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>
+<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
  
 
  

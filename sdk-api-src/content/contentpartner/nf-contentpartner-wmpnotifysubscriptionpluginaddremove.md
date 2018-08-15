@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: contentpartner.h
 req.include-header: Subscriptionservices.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,7 +69,7 @@ Descriptor identifying a socket.
 ### -param name [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure that receives the address (name) of the socket.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure that receives the address (name) of the socket.
 
 
 ### -param namelen [in, out]
@@ -193,7 +194,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a>
 
 
 

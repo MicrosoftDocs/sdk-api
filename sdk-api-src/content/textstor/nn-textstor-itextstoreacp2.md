@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -154,7 +155,7 @@ Gets the character position of a text selection in a document. This method suppo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/6b767f85-0a92-467c-b358-3629582f0d43">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the document status. The document status is returned through the <a href="https://msdn.microsoft.com/d27d81f2-8599-4b65-866b-4e8fd2f589f5">TS_STATUS</a> structure.
@@ -163,7 +164,7 @@ Gets the document status. The document status is returned through the <a href="h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/e1443c44-4787-448e-b5ff-a05d1396807d">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets info about text at a specified character position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.

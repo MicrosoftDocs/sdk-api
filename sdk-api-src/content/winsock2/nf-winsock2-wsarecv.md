@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,14 +69,14 @@ A  descriptor identifying a connected socket.
 ### -param lpBuffers [in, out]
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures. Each 
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures. Each 
 <b>WSABUF</b> structure contains a pointer to a buffer and the length, in bytes, of the buffer.
 
 
 ### -param dwBufferCount [in]
 
 The number of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures in the <i>lpBuffers</i> array.
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 
 ### -param lpNumberOfBytesRecvd [out]
@@ -94,7 +95,7 @@ A pointer to flags used to modify the behavior of the
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
 
 
 ### -param lpCompletionRoutine [in]
@@ -269,7 +270,7 @@ The descriptor is not a socket.
 <td width="60%">
 The socket has been shut down; it is not possible to call 
 <a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a> on a socket after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> has been invoked with <i>how</i> set to <b>SD_RECEIVE</b> or <b>SD_BOTH</b>.
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> has been invoked with <i>how</i> set to <b>SD_RECEIVE</b> or <b>SD_BOTH</b>.
 
 </td>
 </tr>
@@ -421,7 +422,7 @@ Whether or not a protocol is acting as byte stream is determined by the setting 
 The buffers are filled in the order in which they appear in the array pointed to by <i>lpBuffers</i>, and the buffers are packed so that no holes are created.
 
 If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
 <b>WSABUF</b> arrays pointed to by the <i>lpBuffers</i> parameter.
 
 For byte stream-style sockets (for example, type <b>SOCK_STREAM</b>), incoming data is placed into the buffers until the buffers are filled, the connection is closed, or the internally buffered data is exhausted. Regardless of whether or not the incoming data fills all the buffers, the completion indication occurs for overlapped sockets.
@@ -523,7 +524,7 @@ The
 <a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> function. For a given socket, I/O completion routines will not be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 If the <i>lpCompletionRoutine</i> parameter is <b>NULL</b>, the <i>hEvent</i> parameter of <i>lpOverlapped</i> is signaled when the overlapped operation completes if it contains a valid event object handle. An application can use 
 <a href="https://msdn.microsoft.com/7a978ade-6323-455b-b655-f372f4bcadc8">WSAWaitForMultipleEvents</a> or 
@@ -734,7 +735,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a>
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
 
 
 
@@ -750,7 +751,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a>
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a>
 
 
 

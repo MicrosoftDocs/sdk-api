@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -1212,6 +1213,9 @@ See <a href="https://msdn.microsoft.com/C51FDDBC-5E32-4950-9A1E-64843F184172">CL
 ### -field CLCTL_SCALEOUT_GET_CLUSTERS
 
 
+### -field CLCTL_RELOAD_AUTOLOGGER_CONFIG
+
+
 ### -field CLCTL_DELETE
 
 See <a href="https://msdn.microsoft.com/00dfa8d6-2ba0-499e-b510-d4df4d2d748f">CLUSCTL_RESOURCE_DELETE</a>.
@@ -1394,26 +1398,6 @@ See <a href="https://msdn.microsoft.com/B325F379-FD23-4911-9831-E85C39F3057E">CL
 
 
 
-#### - CLCTL_NETNAME_CREDS_UPDATED
-
-Not supported.
-
-<b>Windows Server 2008 R2:  </b>See 
-       <a href="https://msdn.microsoft.com/0965ad65-9942-4672-8ecc-c8b8fe854a85">CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED</a>.
-
-
-
-
-#### - CLCTL_STORAGE_CLUSTER_DISK
-
-Not supported.
-
-<b>Windows Server 2008 R2:  </b>See 
-       <a href="https://msdn.microsoft.com/80a156ad-babb-4067-ade7-d4596a45c21b">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>.
-
-
-
-
 #### - CLCTL_GET_ROUTESTATUS_BASIC
 
 See 
@@ -1430,6 +1414,26 @@ See
        TBD.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+#### - CLCTL_NETNAME_CREDS_UPDATED
+
+Not supported.
+
+<b>Windows Server 2008 R2:  </b>See 
+       <a href="https://msdn.microsoft.com/0965ad65-9942-4672-8ecc-c8b8fe854a85">CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED</a>.
+
+
+
+
+#### - CLCTL_STORAGE_CLUSTER_DISK
+
+Not supported.
+
+<b>Windows Server 2008 R2:  </b>See 
+       <a href="https://msdn.microsoft.com/80a156ad-babb-4067-ade7-d4596a45c21b">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>.
 
 
 

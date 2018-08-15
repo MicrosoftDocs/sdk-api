@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ The jack index. If the connection consists of <i>n</i> jacks, the jacks are numb
 
 ### -param pDescription [out]
 
-Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a> that contains information about the jack. The buffer size must be at least sizeof(KSJACK_DESCRIPTION).
+Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/4ee9fedf-4241-4678-b621-549a06e8949a">KSJACK_DESCRIPTION</a> that contains information about the jack. The buffer size must be at least sizeof(KSJACK_DESCRIPTION).
 
 
 ## -returns
@@ -122,7 +123,7 @@ When a user needs to plug an audio endpoint device into a jack or unplug it from
 <li>The type of physical connector used for the jack.</li>
 <li>The mapping of channels to the jack.</li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a>.
+For more information, see <a href="https://msdn.microsoft.com/4ee9fedf-4241-4678-b621-549a06e8949a">KSJACK_DESCRIPTION</a>.
 
 
 
@@ -140,7 +141,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/4ee9fedf-4241-4678-b621-549a06e8949a">KSJACK_DESCRIPTION</a>
  
 
  

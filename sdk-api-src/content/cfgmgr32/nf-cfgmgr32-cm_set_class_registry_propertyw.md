@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ A pointer to the GUID that represents the device setup class for which to set a 
 
 ### -param ulProperty [in]
 
-A value of type ULONG that identifies the property to set. This value must be one of the CM_CRP_<i>Xxx</i> values that are described for the <i>ulProperty</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538098">CM_Get_Class_Registry_Property</a> function.
+A value of type ULONG that identifies the property to set. This value must be one of the CM_CRP_<i>Xxx</i> values that are described for the <i>ulProperty</i> parameter of the <a href="https://msdn.microsoft.com/2247771d-5edd-47c3-8635-586bf815544a">CM_Get_Class_Registry_Property</a> function.
 
 
 ### -param Buffer [in, optional]
@@ -90,7 +91,7 @@ Reserved for internal use only. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-A handle to a remote machine on which to set the specified <a href="devinst.accessing_device_setup_class_properties">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
+A handle to a remote machine on which to set the specified <a href="https://msdn.microsoft.com/library/Ff537744(v=VS.85).aspx">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
 
 
 ## -returns
@@ -120,15 +121,15 @@ If <i>Buffer</i> is not set to <b>NULL</b> and <i>ulLength</i> is not set to zer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538098">CM_Get_Class_Registry_Property</a>
+<a href="https://msdn.microsoft.com/2247771d-5edd-47c3-8635-586bf815544a">CM_Get_Class_Registry_Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551097">SetupDiGetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552135">SetupDiSetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/78457461-11ef-44ec-aa60-1adf4a48db8c">SetupDiSetClassRegistryProperty</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,14 +66,14 @@ The <b>IDirectInputEffectDriver::GetEffectStatus </b>method obtains information 
 
 
 
-#### - dwID
-
-Indicates the external joystick number being addressed. 
-
-
 #### - dwEffect
 
 Specifies the effect to be queried. 
+
+
+#### - dwID
+
+Indicates the external joystick number being addressed. 
 
 
 #### - pdwStatus

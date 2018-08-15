@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -229,12 +230,12 @@ Pointer to an array of internal network facing interface identifiers for which D
 
 ### -field publicV6AddrMask
 
-Optional public IPv6 address or subnet for this policy, as specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>.
+Optional public IPv6 address or subnet for this policy, as specified in <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>.
 
 
 ### -field internalV6AddrMask
 
-Optional internal IPv6 address or subnet for this policy, as specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>.
+Optional internal IPv6 address or subnet for this policy, as specified in <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>.
 
 
 ## -remarks
@@ -251,7 +252,7 @@ Optional internal IPv6 address or subnet for this policy, as specified in <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>
 
 
 

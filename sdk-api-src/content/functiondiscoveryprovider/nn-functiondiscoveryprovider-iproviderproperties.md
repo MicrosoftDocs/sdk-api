@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IProviderProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/f76d010b-f9dd-46d7-9b1f-eba3d11aaef1">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets the property key at the specified index.
@@ -82,7 +83,7 @@ Gets the property key at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/25ed5782-c19e-4c3d-81f1-74e0ea3e195e">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of properties in the property store.
@@ -91,7 +92,7 @@ Gets the number of properties in the property store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/c32a5367-ef39-4852-bf3b-203d27d0a2d0">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified property key.
@@ -100,7 +101,7 @@ Gets the value of the specified property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/5aa3e6a3-febc-4d2d-b58b-abfad28d325d">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified property key.
@@ -127,7 +128,7 @@ at the time the instance is created or when the client calls <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="shell_IPropertyStore_cpp">IPropertyStore</a>
  
 
  

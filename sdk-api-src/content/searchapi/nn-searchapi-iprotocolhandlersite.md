@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -87,7 +88,7 @@ Retrieves the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="search._search_IProtocolHandlerSite_GetFilter">IProtocolHandlerSite::GetFilter</a> method.
+When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="https://msdn.microsoft.com/library/Bb231442(v=VS.85).aspx">IProtocolHandlerSite::GetFilter</a> method.
 
 
 

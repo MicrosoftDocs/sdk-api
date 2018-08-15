@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -74,7 +75,7 @@ The <b>ICreateProcessInputs</b> interface has these methods.
 <a href="https://msdn.microsoft.com/07D9E07E-BDF8-46F7-AB75-A3041E96F1A1">AddCreateFlags</a>
 </td>
 <td align="left" width="63%">
- Set additional flags that will be included in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+ Set additional flags that will be included in the call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 </td>
 </tr>
@@ -83,7 +84,7 @@ The <b>ICreateProcessInputs</b> interface has these methods.
 <a href="https://msdn.microsoft.com/62270ED9-678B-4D39-BFF1-3F9E10AAF03A">AddStartupFlags</a>
 </td>
 <td align="left" width="63%">
- Additional flags that will be included in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+ Additional flags that will be included in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 </td>
 </tr>
@@ -92,7 +93,7 @@ The <b>ICreateProcessInputs</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6884E7A0-17E8-4F5F-B0A4-85BD3745ED12">GetCreateFlags</a>
 </td>
 <td align="left" width="63%">
-Gets the additional flags that will be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+Gets the additional flags that will be passed to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 </td>
 </tr>
@@ -101,7 +102,7 @@ Gets the additional flags that will be passed to <a href="https://msdn.microsoft
 <a href="https://msdn.microsoft.com/B929D77A-FEE4-40A1-8B40-34E2E73048F9">SetCreateFlags</a>
 </td>
 <td align="left" width="63%">
- Set the flags that will be included in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+ Set the flags that will be included in the call to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 </td>
 </tr>
@@ -128,7 +129,7 @@ Sets the hot key for the application.
 <a href="https://msdn.microsoft.com/BFCDC5B1-740E-4CE9-8E06-75F3ECA7B7E6">SetTitle</a>
 </td>
 <td align="left" width="63%">
- Sets the title that will be passed <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+ Sets the title that will be passed <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 </td>
 </tr>

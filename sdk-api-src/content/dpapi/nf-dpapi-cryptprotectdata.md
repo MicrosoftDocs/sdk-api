@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -62,7 +63,7 @@ The <b>CryptProtectData</b> function performs encryption on the data in a
 ### -param pDataIn [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">DATA_BLOB</a> structure that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> to be encrypted.
+<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">DATA_BLOB</a> structure that contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> to be encrypted.
 
 
 ### -param szDataDescr [in, optional]
@@ -154,7 +155,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-Typically, only a user with logon <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> that match those of the user who encrypted the data can decrypt the data. In addition, decryption usually can only be done on the computer where the data was encrypted. However, a user with a roaming profile can decrypt the data from another computer on the network.
+Typically, only a user with logon <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> that match those of the user who encrypted the data can decrypt the data. In addition, decryption usually can only be done on the computer where the data was encrypted. However, a user with a roaming profile can decrypt the data from another computer on the network.
 
 If the CRYPTPROTECT_LOCAL_MACHINE flag is set when the data is encrypted, any user on the computer where the encryption was done can decrypt the data.
 

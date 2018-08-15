@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -267,7 +268,7 @@ Specifies that the key exchange PIN is contained in <i>pbData</i>. The PIN is re
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for the key storage container. The <i>pbData</i> parameter is the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor for the key storage container. The security descriptor is returned in self-relative format.
+Retrieves the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for the key storage container. The <i>pbData</i> parameter is the address of a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor for the key storage container. The security descriptor is returned in self-relative format.
 
 </td>
 </tr>
@@ -744,7 +745,7 @@ The <i>dwParam</i> parameter specifies an unknown value number.
 </dl>
 </td>
 <td width="60%">
-The CSP <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> specified by <i>hProv</i> is not valid.
+The CSP <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> specified by <i>hProv</i> is not valid.
 
 </td>
 </tr>

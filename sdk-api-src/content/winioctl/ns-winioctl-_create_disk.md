@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
+<a href="https://msdn.microsoft.com/c8215a00-ea39-4268-bb66-68cf3d37baef">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
 
 
 ## -struct-fields
@@ -65,7 +66,7 @@ Contains information that the
 The format of a partition. 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>.
+<a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a>.
 
 
 ### -field DUMMYUNIONNAME
@@ -76,13 +77,13 @@ For more information, see
 ### -field DUMMYUNIONNAME.Mbr
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552490">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
+<a href="https://msdn.microsoft.com/6b475622-371d-4097-9de1-6ef31af76322">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
 
 
 ### -field DUMMYUNIONNAME.Gpt
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
+<a href="https://msdn.microsoft.com/526a265b-e15e-4cd2-adaf-c955a8cb92e5">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
 
 
 ## -see-also
@@ -90,19 +91,19 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a>
+<a href="https://msdn.microsoft.com/526a265b-e15e-4cd2-adaf-c955a8cb92e5">CREATE_DISK_GPT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552490">CREATE_DISK_MBR</a>
+<a href="https://msdn.microsoft.com/6b475622-371d-4097-9de1-6ef31af76322">CREATE_DISK_MBR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a>
+<a href="https://msdn.microsoft.com/c8215a00-ea39-4268-bb66-68cf3d37baef">IOCTL_DISK_CREATE_DISK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a>
  
 
  

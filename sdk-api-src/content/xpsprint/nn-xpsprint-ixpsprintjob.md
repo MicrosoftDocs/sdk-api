@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsprint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IXpsPrintJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/f9fab578-95f0-498b-85ad-fd6ee2c72c63">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the print job.
@@ -97,7 +98,7 @@ Gets the current status of the print job.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541159">Documents</a>
+<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ Indicates 32 BPP format.
 
 ### -field DISPLAYCONFIG_PIXELFORMAT_NONGDI
 
-Indicates that the current display is not an 8, 16, 24, or 32 BPP GDI desktop mode. For example, a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a> function returns DISPLAYCONFIG_PIXELFORMAT_NONGDI if a DirectX application previously set the desktop to A2R10G10B10 format. A call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569533">SetDisplayConfig</a> function fails if any pixel formats for active paths are set to DISPLAYCONFIG_PIXELFORMAT_NONGDI. 
+Indicates that the current display is not an 8, 16, 24, or 32 BPP GDI desktop mode. For example, a call to the <a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a> function returns DISPLAYCONFIG_PIXELFORMAT_NONGDI if a DirectX application previously set the desktop to A2R10G10B10 format. A call to the <a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">SetDisplayConfig</a> function fails if any pixel formats for active paths are set to DISPLAYCONFIG_PIXELFORMAT_NONGDI. 
 
 
 ### -field DISPLAYCONFIG_PIXELFORMAT_FORCE_UINT32
@@ -94,11 +95,11 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a>
+<a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569533">SetDisplayConfig</a>
+<a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">SetDisplayConfig</a>
  
 
  

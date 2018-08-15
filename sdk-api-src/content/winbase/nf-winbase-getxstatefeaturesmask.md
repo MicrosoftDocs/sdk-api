@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps \| UWP apps]
@@ -54,7 +55,7 @@ req.product: Windows Address Book 5.0
 
 
 Returns the mask of XState features set within a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure.
+    <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> structure.
 
 
 ## -parameters
@@ -64,7 +65,7 @@ Returns the mask of XState features set within a
 
 ### -param Context [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that has been 
+A pointer to a <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> structure that has been 
       initialized with <a href="https://msdn.microsoft.com/909BF5F7-0622-4B22-A2EC-27722389700A">InitializeContext</a>.
 
 
@@ -90,8 +91,8 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 The <b>GetXStateFeaturesMask</b> function returns 
      the mask of valid features in the specified context.  If a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> is to be passed to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a> or 
+     <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> is to be passed to 
+     <a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a> or 
      <a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a>, the application must 
      call <a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a> to set which 
      features are to be retrieved. 
@@ -109,7 +110,7 @@ The definition of XState features are processor vendor specific. Please refer to
 
 <div class="alert"><b>Note</b>  The value returned by 
       <b>GetXStateFeaturesMask</b> on a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> after a context operation will always be a subset 
+      <a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a> after a context operation will always be a subset 
       of the mask specified in a call to 
       <a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a> prior to the context 
       operation.</div>
@@ -137,11 +138,11 @@ The definition of XState features are processor vendor specific. Please refer to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/b27205a2-2c33-4f45-8948-9919bcd2355a">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>
 
 
 

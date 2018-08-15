@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>EngDeleteSemaphore</b> function deletes a semaphore object from the syste
 
 ### -param hsem [in]
 
-Handle to the semaphore to be deleted. The semaphore was created in <a href="https://msdn.microsoft.com/library/windows/hardware/ff564760">EngCreateSemaphore</a>.
+Handle to the semaphore to be deleted. The semaphore was created in <a href="https://msdn.microsoft.com/02b68914-5007-4bfb-ac8a-0269447ab26b">EngCreateSemaphore</a>.
 
 
 ## -returns
@@ -81,15 +82,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564174">EngAcquireSemaphore</a>
+<a href="https://msdn.microsoft.com/da13ff30-7817-4ed4-9791-2d205a260259">EngAcquireSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564760">EngCreateSemaphore</a>
+<a href="https://msdn.microsoft.com/02b68914-5007-4bfb-ac8a-0269447ab26b">EngCreateSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565004">EngReleaseSemaphore</a>
+<a href="https://msdn.microsoft.com/e89a556f-4071-425b-b138-bfb7b49a5e8c">EngReleaseSemaphore</a>
  
 
  

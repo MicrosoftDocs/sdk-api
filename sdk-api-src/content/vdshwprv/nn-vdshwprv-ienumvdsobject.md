@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -76,7 +77,7 @@ The <b>IEnumVdsObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/9d547011-2200-43fc-a8de-9b90ba94c39e">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumeration with the same state as the current enumeration.
@@ -85,7 +86,7 @@ Creates an enumeration with the same state as the current enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/372eff29-7481-45aa-ad66-73147f7a631f">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next object in the enumeration, beginning from the current point.
@@ -94,7 +95,7 @@ Returns the next object in the enumeration, beginning from the current point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/cdc13cd3-bd6f-422e-89fe-244e7a7540bd">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration.
@@ -103,7 +104,7 @@ Resets to the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/8c0a856e-831e-489d-9e2a-bf2829bf59b6">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of objects in the enumeration.

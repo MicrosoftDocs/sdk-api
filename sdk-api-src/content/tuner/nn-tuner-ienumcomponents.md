@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IEnumComponents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/ca15a67e-1788-4f57-bfe8-ec1a3014044f">Clone</a>
 </td>
 <td align="left" width="63%">
 Create a new copy of the entire collection.
@@ -83,7 +84,7 @@ Create a new copy of the entire collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/73cb45c7-1f74-46cf-a410-ec1d5fed4271">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> elements in the collection.
@@ -92,7 +93,7 @@ Retrieves the next <i>n</i> elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/753c9f74-3a97-4a8f-ba76-21e7b1d77a70">Reset</a>
 </td>
 <td align="left" width="63%">
 Reset the enumerator to the beginning of the collection.
@@ -101,7 +102,7 @@ Reset the enumerator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/f63eca00-c47c-4b9f-8f7a-7080c23653ce">Skip</a>
 </td>
 <td align="left" width="63%">
 Skip the specified element in the collection without retrieving it.

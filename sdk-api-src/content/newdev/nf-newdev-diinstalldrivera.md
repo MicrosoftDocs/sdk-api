@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="devinst.driver_store">driver store</a> and then installs the driver on devices present in the system that the driver supports.
+The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a> and then installs the driver on devices present in the system that the driver supports.
 
 
 ## -parameters
@@ -90,7 +91,7 @@ A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate w
 
 
 
-<b>DiInstallDriver</b> returns <b>TRUE</b> if the function successfully preinstalled the specified <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> in the <a href="devinst.driver_store">driver store</a>. <b>DiInstallDriver</b> also returns <b>TRUE</b> if the function successfully installed the driver on one or more devices in the system. If the driver package is not successfully installed in the driver store, <b>DiInstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
+<b>DiInstallDriver</b> returns <b>TRUE</b> if the function successfully preinstalled the specified <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> in the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a>. <b>DiInstallDriver</b> also returns <b>TRUE</b> if the function successfully installed the driver on one or more devices in the system. If the driver package is not successfully installed in the driver store, <b>DiInstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
 <table>
 <tr>
@@ -104,7 +105,7 @@ A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate w
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to preinstall a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> in the <a href="devinst.driver_store">driver store</a>. 
+The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to preinstall a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> in the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a>. 
 
 </td>
 </tr>
@@ -137,7 +138,7 @@ The value specified for <i>Flags</i> is not equal to zero or DIIRFLAG_FORCE_INF.
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="devinst.device_installations_on_64_bit_systems">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>
@@ -155,7 +156,7 @@ The calling application is a 32-bit application that is attempting to execute in
 
 <ol>
 <li>
-Preinstalls the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> in the <a href="devinst.driver_store">driver store</a>. If there is an instance of the same driver package already preinstalled in the driver store, <b>DiInstallDriver</b> first removes that instance and then adds the new instance of the driver package to the driver store. 
+Preinstalls the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> in the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a>. If there is an instance of the same driver package already preinstalled in the driver store, <b>DiInstallDriver</b> first removes that instance and then adds the new instance of the driver package to the driver store. 
 
 </li>
 <li>
@@ -187,7 +188,7 @@ The application is a class installer, in which case, the class installer should 
 
 </li>
 </ul>
-To install a selected driver on a selected device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a>. For more info, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>.
+To install a selected driver on a selected device, call <a href="https://msdn.microsoft.com/e107fc37-02cb-4d50-822c-1c6fd80d7532">DiInstallDevice</a>. For more info, see <a href="https://msdn.microsoft.com/library/Ff550867(v=VS.85).aspx">SetupAPI Functions that Simplify Driver Installation</a>.
 
 
 
@@ -197,7 +198,7 @@ To install a selected driver on a selected device, call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a>
+<a href="https://msdn.microsoft.com/e107fc37-02cb-4d50-822c-1c6fd80d7532">DiInstallDevice</a>
  
 
  

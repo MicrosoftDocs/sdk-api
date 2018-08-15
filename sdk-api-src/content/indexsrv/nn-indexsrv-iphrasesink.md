@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -100,7 +101,7 @@ Indexing Service creates and initializes instances of the PhraseSink object. The
 
 
 
-<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> implementations receive a pointer to the PhraseSink object in the <a href="https://msdn.microsoft.com/25d84f9a-502d-4187-9dbf-6aca7cb74562">BreakText</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementations receive a pointer to the PhraseSink object in the <a href="https://msdn.microsoft.com/en-us/library/Bb266429(v=VS.85).aspx">BreakText</a> method.
 
 
 
@@ -110,7 +111,7 @@ Indexing Service creates and initializes instances of the PhraseSink object. The
 
 
 
-<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
  
 
  

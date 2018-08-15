@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -121,7 +122,7 @@ This can be called multiple times, the first time to get the <i>Type</i> (in whi
 
 
 
-<a href="mf.id3dvideocontext2">ID3DVideoContext2</a>
+<a href="https://msdn.microsoft.com/library/Mt808594(v=VS.85).aspx">ID3DVideoContext2</a>
  
 
  

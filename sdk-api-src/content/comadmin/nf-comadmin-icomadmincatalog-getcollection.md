@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -81,7 +82,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-This method retrieves a top-level collection, such as the <a href="https://msdn.microsoft.com/library/windows/hardware/jj159048">Applications</a> collection, from the COM+ catalog. For related collections that are not top-level collections, such as <a href="https://msdn.microsoft.com/library/windows/hardware/dn922646">Components</a>, use the <a href="https://msdn.microsoft.com/4198f456-97fa-45b2-aa79-29ac506a8618">GetCollection</a> method available from the parent collection.
+This method retrieves a top-level collection, such as the <a href="https://msdn.microsoft.com/c0c46592-5282-412d-8f54-67637be8218a">Applications</a> collection, from the COM+ catalog. For related collections that are not top-level collections, such as <a href="https://msdn.microsoft.com/f502ba60-b2b1-4556-8f91-22a474e60e0d">Components</a>, use the <a href="https://msdn.microsoft.com/4198f456-97fa-45b2-aa79-29ac506a8618">GetCollection</a> method available from the parent collection.
 
 The catalog collection retrieved by <b>GetCollection</b> does not contain data from the catalog for items contained within the collection. Use the <a href="https://msdn.microsoft.com/817f203c-ddc6-47bd-a946-2393067eca44">Populate</a> method to read in data for items in the collection.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -88,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Get the identifier for a track by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>. 
+Get the identifier for a track by calling <a href="https://msdn.microsoft.com/0DDC7864-654E-416B-9EF5-4CD47244E8BE">GetId</a>. 
 
 When a track is removed, all buffered data from the track is also removed.
 

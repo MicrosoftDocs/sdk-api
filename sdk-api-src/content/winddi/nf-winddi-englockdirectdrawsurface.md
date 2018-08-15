@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Handle to the surface to be locked.
 
 
 
-<b>EngLockDirectDrawSurface</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that describes the surface information upon success. Otherwise, it returns a <b>NULL</b> pointer.
+<b>EngLockDirectDrawSurface</b> returns a pointer to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that describes the surface information upon success. Otherwise, it returns a <b>NULL</b> pointer.
 
 
 
@@ -81,7 +82,7 @@ Handle to the surface to be locked.
 
 Currently, the driver receives DirectDraw surface handles only from the Direct3D texturing interface. Consequently, only drivers that perform texturing need to lock texture surfaces.
 
-Upon completion of texturing, the driver must release the locked handle by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff565042">EngUnlockDirectDrawSurface</a>.
+Upon completion of texturing, the driver must release the locked handle by calling <a href="https://msdn.microsoft.com/61d1ff1a-d5e3-4542-953c-8b1771622a63">EngUnlockDirectDrawSurface</a>.
 
 
 
@@ -91,11 +92,11 @@ Upon completion of texturing, the driver must release the locked handle by calli
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565042">EngUnlockDirectDrawSurface</a>
+<a href="https://msdn.microsoft.com/61d1ff1a-d5e3-4542-953c-8b1771622a63">EngUnlockDirectDrawSurface</a>
  
 
  

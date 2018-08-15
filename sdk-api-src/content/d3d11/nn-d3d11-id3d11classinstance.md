@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -98,7 +99,7 @@ Gets the instance name of the current HLSL class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549408">GetTypeName</a>
+<a href="https://msdn.microsoft.com/a46699b5-2250-442a-85ab-37eeb419ac72">GetTypeName</a>
 </td>
 <td align="left" width="63%">
 Gets the type of the current HLSL class.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -82,18 +83,18 @@ Retrieves the current desktop region being shared.
 
 
 
+#### - bottom [out]
+
+Type: <b>long*</b>
+
+Y-coordinate of the lower-right corner of the shared rectangle.
+
+
 #### - left [out]
 
 Type: <b>long*</b>
 
 X-coordinate of the upper-left corner of the shared rectangle.
-
-
-#### - top [out]
-
-Type: <b>long*</b>
-
-Y-coordinate of the upper-left corner of the shared rectangle.
 
 
 #### - right [out]
@@ -103,11 +104,11 @@ Type: <b>long*</b>
 X-coordinate of the lower-right corner of the shared rectangle.
 
 
-#### - bottom [out]
+#### - top [out]
 
 Type: <b>long*</b>
 
-Y-coordinate of the lower-right corner of the shared rectangle.
+Y-coordinate of the upper-left corner of the shared rectangle.
 
 
 ## -returns

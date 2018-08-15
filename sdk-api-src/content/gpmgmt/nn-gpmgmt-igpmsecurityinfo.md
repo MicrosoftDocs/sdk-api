@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -78,7 +79,7 @@ The <b>IGPMSecurityInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/d180a4ed-7c7d-4df9-a2a4-7aab46446283">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a specified permission to the <b>GPMSecurityInfo</b> 
@@ -88,7 +89,7 @@ Adds a specified permission to the <b>GPMSecurityInfo</b>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/187ae17c-82c0-4439-8b98-52ba0571d222">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a permission level for a trustee from the 
@@ -117,7 +118,7 @@ Removes all permissions for the given trustee from the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/f8dc2ee1-d1cb-4e7a-abf4-1a388320b681">_NewEnum</a>
 
 
 </td>
@@ -134,7 +135,7 @@ Retrieves an interface on an enumerator object for the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/e3e3b906-9045-4697-80ae-509b22094790">Count</a>
 
 
 </td>
@@ -277,7 +278,7 @@ The <b>GPMSecurityInfo</b> collection represents a
     GPO, or WMI filter. Note however, that although the 
     <b>GPMSecurityInfo</b> object is a collection object, it is not 
     a typical collection object. This is because no action occurs if the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> method attempts to add a 
+    <a href="https://msdn.microsoft.com/d180a4ed-7c7d-4df9-a2a4-7aab46446283">Add</a> method attempts to add a 
     <b>GPMPermission</b> object for a trustee and the permission is 
     below the level of an existing permission for that trustee. For more information, see the 
     <b>Add</b> method.

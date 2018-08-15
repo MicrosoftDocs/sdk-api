@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -103,7 +104,7 @@ QuickInfo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426734">FSCTL_GET_WOF_VERSION</a>
+<a href="https://msdn.microsoft.com/0E3C3C7E-2A89-4CA8-8741-7C057E063155">FSCTL_GET_WOF_VERSION</a>
  
 
  

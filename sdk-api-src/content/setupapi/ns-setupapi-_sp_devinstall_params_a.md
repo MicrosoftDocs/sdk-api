@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,13 +77,13 @@ The flag values are listed in groups: writable by <a href="https://msdn.microsof
 
 #### DI_CLASSINSTALLPARAMS
 
-Set to use the Class Install parameters. <a href="https://msdn.microsoft.com/library/windows/hardware/ff552122">SetupDiSetClassInstallParams</a> sets this flag when the caller specifies parameters and clears the flag when the caller specifies a <b>NULL</b> parameters pointer. 
+Set to use the Class Install parameters. <a href="https://msdn.microsoft.com/a7f35e32-eaad-440b-8109-7320048ec7ba">SetupDiSetClassInstallParams</a> sets this flag when the caller specifies parameters and clears the flag when the caller specifies a <b>NULL</b> parameters pointer. 
 
 
 
 #### DI_COMPAT_FROM_CLASS
 
-Set to force <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> to build a device's list of compatible drivers from its class driver list instead of the INF file.
+Set to force <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> to build a device's list of compatible drivers from its class driver list instead of the INF file.
 
 
 
@@ -94,27 +95,27 @@ Set by a class installer or co-installer if the installer supplies a page that r
 
 #### DI_DONOTCALLCONFIGMG
 
-Set if the configuration manager should not be called to remove or reenumerate devices during the execution of certain device installation functions (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a>).
+Set if the configuration manager should not be called to remove or reenumerate devices during the execution of certain device installation functions (for example, <a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a>).
 
 If this flag is set, device installation applications, class installers, and co-installers must not call the following functions:
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539763">CM_Reenumerate_DevNode</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539766">CM_Reenumerate_DevNode_Ex</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539722">CM_Query_And_Remove_SubTree</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539727">CM_Query_And_Remove_SubTree_Ex</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539825">CM_Setup_DevNode</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539829">CM_Setup_DevNode_Ex</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539866">CM_Set_HW_Prof_Flags</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539867">CM_Set_HW_Prof_Flags_Ex</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538015">CM_Enable_DevNode</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538018">CM_Enable_DevNode_Ex</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537996">CM_Disable_DevNode</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538001">CM_Disable_DevNode_Ex</a>
+<a href="https://msdn.microsoft.com/dcba5021-7517-4922-9c50-ebfa7375e258">CM_Reenumerate_DevNode</a>
+<a href="https://msdn.microsoft.com/1d927aec-db3c-403f-9952-1bcc931984bf">CM_Reenumerate_DevNode_Ex</a>
+<a href="https://msdn.microsoft.com/0a80cddd-d5be-42cb-ba11-0a3292b973a3">CM_Query_And_Remove_SubTree</a>
+<a href="https://msdn.microsoft.com/c8a3af37-0886-4187-9cdb-49616bcb04a9">CM_Query_And_Remove_SubTree_Ex</a>
+<a href="https://msdn.microsoft.com/94d0023d-d93f-42da-b2fc-54b9d8831b9b">CM_Setup_DevNode</a>
+<a href="https://msdn.microsoft.com/831fdc18-1d5e-4358-8f64-59abb5e7c0e6">CM_Setup_DevNode_Ex</a>
+<a href="https://msdn.microsoft.com/52c3b9b8-6d0d-4b4d-9be4-5bd0d864d2fd">CM_Set_HW_Prof_Flags</a>
+<a href="https://msdn.microsoft.com/8e29d4d8-38a4-4656-b164-e214b0fc8b7d">CM_Set_HW_Prof_Flags_Ex</a>
+<a href="https://msdn.microsoft.com/ddc3a507-03ee-4f44-89e3-64ec4290d0ff">CM_Enable_DevNode</a>
+<a href="https://msdn.microsoft.com/582e7cdf-2302-4c9a-8834-5eada8f142d8">CM_Enable_DevNode_Ex</a>
+<a href="https://msdn.microsoft.com/6013fec3-1fb3-4956-982d-5841518f5d31">CM_Disable_DevNode</a>
+<a href="https://msdn.microsoft.com/d493399a-b9f7-44cc-9c0e-150137d468c8">CM_Disable_DevNode_Ex</a>
 
 
 #### DI_ENUMSINGLEINF
 
-Set if installers and other <a href="devinst.device_installation_components">device installation components</a> should only search the INF file specified by SP_DEVINSTALL_PARAMS.<b>DriverPath</b>. If this flag is set, <b>DriverPath</b> contains the path of a single INF file instead of a path of a directory.
+Set if installers and other <a href="https://msdn.microsoft.com/library/Ff728855(v=VS.85).aspx">device installation components</a> should only search the INF file specified by SP_DEVINSTALL_PARAMS.<b>DriverPath</b>. If this flag is set, <b>DriverPath</b> contains the path of a single INF file instead of a path of a directory.
 
 
 
@@ -126,7 +127,7 @@ Set to indicate that the Select Device page should list drivers in the order in 
 
 #### DI_INSTALLDISABLED
 
-Set if the device should be installed in a disabled state by default. To be recognized, this flag must be set before Windows calls the default handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a> request. 
+Set if the device should be installed in a disabled state by default. To be recognized, this flag must be set before Windows calls the default handler for the <a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a> request. 
 
 
 
@@ -150,13 +151,13 @@ Set to disable browsing when the user is selecting an OEM disk path. A device in
 
 #### DI_NODI_DEFAULTACTION
 
-Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a> should not perform any default action if the class installer returns ERR_DI_DO_DEFAULT or there is not a class installer.
+Set if <a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a> should not perform any default action if the class installer returns ERR_DI_DO_DEFAULT or there is not a class installer.
 
 
 
 #### DI_NOFILECOPY
 
-Set if device installation applications and components, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a>, should skip file copying.
+Set if device installation applications and components, such as <a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a>, should skip file copying.
 
 
 
@@ -168,7 +169,7 @@ Set to disable creation of a new copy queue. Use the caller-supplied copy queue 
 
 #### DI_NOWRITE_IDS
 
-Set to prevent <a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a> from writing the INF-specified <a href="devinst.hardware_ids">hardware IDs</a> and <a href="devinst.compatible_ids">compatible IDs</a> to the device properties for the device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>). This flag should only be set for root-enumerated devices. 
+Set to prevent <a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a> from writing the INF-specified <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware IDs</a> and <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a> to the device properties for the device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>). This flag should only be set for root-enumerated devices. 
 
 This flag overrides the DI_FLAGSEX_ALWAYSWRITEIDS flag.
 
@@ -200,7 +201,7 @@ Set to allow support for OEM disks. If this flag is set, the operating system pr
 
 #### DI_USECI_SELECTSTRINGS
 
-Set if a class installer or co-installer supplied strings that should be used during <a href="https://msdn.microsoft.com/library/windows/hardware/ff552115">SetupDiSelectDevice</a>.
+Set if a class installer or co-installer supplied strings that should be used during <a href="https://msdn.microsoft.com/c6a512ad-bcc6-4dc5-873e-33bdaab129e2">SetupDiSelectDevice</a>.
 
 The following flags are read-only (only set by the OS):
 
@@ -210,7 +211,7 @@ The following flags are read-only (only set by the OS):
 
 #### DI_DIDCLASS
 
-Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> has already built a list of the drivers for this class of device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551001">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a list of drivers for a class.
+Set if <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> has already built a list of the drivers for this class of device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/d8067609-1046-4641-9f57-b0ee2be5a3b2">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a list of drivers for a class.
 
 This flag is read-only. Only the operating system sets this flag.
 
@@ -218,7 +219,7 @@ This flag is read-only. Only the operating system sets this flag.
 
 #### DI_DIDCOMPAT
 
-Set if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> has already built a list of compatible drivers for this device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551001">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a compatible driver list.
+Set if <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> has already built a list of compatible drivers for this device. If this list has already been built, it contains all the driver information and this flag is always set. <a href="https://msdn.microsoft.com/d8067609-1046-4641-9f57-b0ee2be5a3b2">SetupDiDestroyDriverInfoList</a> clears this flag when it deletes a compatible driver list.
 
 This flag is only set in device installation parameters that are associated with a particular device information element, not in parameters for a device information set as a whole.
 
@@ -228,7 +229,7 @@ This flag is read-only. Only the operating system sets this flag.
 
 #### DI_MULTMFGS
 
-Set by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> contains drivers that are provided by multiple manufacturers.
+Set by <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> contains drivers that are provided by multiple manufacturers.
 
 This flag is read-only. Only the operating system sets this flag.
 
@@ -273,7 +274,7 @@ The first group lists flags that are writable:
 
 If set, include drivers that were marked "Exclude From Select." 
 
-For example, if this flag is set, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552115">SetupDiSelectDevice</a> displays drivers that have the Exclude From Select state and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> includes Exclude From Select drivers in the requested driver list. 
+For example, if this flag is set, <a href="https://msdn.microsoft.com/c6a512ad-bcc6-4dc5-873e-33bdaab129e2">SetupDiSelectDevice</a> displays drivers that have the Exclude From Select state and <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> includes Exclude From Select drivers in the requested driver list. 
 
 A driver is "Exclude From Select" if either it is marked <b>ExcludeFromSelect</b> in the INF file or it is a driver for a device whose whole setup class is marked <b>NoInstallClass</b> or <b>NoUseClass</b> in the class installer INF. Drivers for PnP devices are typically "Exclude From Select"; PnP devices should not be manually installed. To build a list of driver files for a PnP device a caller of <b>SetupDiBuildDriverInfoList</b> must set this flag. 
 
@@ -309,13 +310,13 @@ If set, do not include old Internet drivers when building a driver list. This fl
 
 #### DI_FLAGSEX_FILTERCLASSES
 
-If set, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550909">SetupDiBuildClassInfoList</a> will check for class inclusion filters. This means that a device will not be included in the class list if its class is marked as NoInstallClass.
+If set, <a href="https://msdn.microsoft.com/a01b1f8f-55af-4053-8c31-9329ef36f2ce">SetupDiBuildClassInfoList</a> will check for class inclusion filters. This means that a device will not be included in the class list if its class is marked as NoInstallClass.
 
 
 
 #### DI_FLAGSEX_FILTERSIMILARDRIVERS
 
-(Windows XP and later.) If set, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> includes "similar" drivers when building a class driver list. A "similar" driver is one for which one of the hardware IDs or compatible IDs in the INF file partially (or completely) matches one of the hardware IDs or compatible IDs of the hardware.
+(Windows XP and later.) If set, <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> includes "similar" drivers when building a class driver list. A "similar" driver is one for which one of the hardware IDs or compatible IDs in the INF file partially (or completely) matches one of the hardware IDs or compatible IDs of the hardware.
 
 
 
@@ -327,7 +328,7 @@ If set, the driver was obtained from the Internet. Windows will not use the devi
 
 #### DI_FLAGSEX_INSTALLEDDRIVER
 
-(Windows XP and later.) If set, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> includes only the currently installed driver when creating a list of class drivers or device-compatible drivers.
+(Windows XP and later.) If set, <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> includes only the currently installed driver when creating a list of class drivers or device-compatible drivers.
 
 
 
@@ -353,7 +354,7 @@ When the user closes the device property sheet, Device Manager checks the DI_FLA
 
 #### DI_FLAGSEX_SETFAILEDINSTALL
 
-Set if the installation failed. If this flag is set, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a> function just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value. If DI_FLAGSEX_SETFAILEDINSTALL is set, co-installers must return NO_ERROR in response to DIF_INSTALLDEVICE, while class installers must return NO_ERROR or ERROR_DI_DO_DEFAULT.
+Set if the installation failed. If this flag is set, the <a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a> function just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value. If DI_FLAGSEX_SETFAILEDINSTALL is set, co-installers must return NO_ERROR in response to DIF_INSTALLDEVICE, while class installers must return NO_ERROR or ERROR_DI_DO_DEFAULT.
 
 
 
@@ -427,7 +428,7 @@ Private data that is used by the <b>InstallMsgHandler</b> callback.
 
 A handle to a caller-supplied file queue where file operations should be queued but not committed.
 
-If you associate a file queue with a device information set (<a href="https://msdn.microsoft.com/library/windows/hardware/ff552141">SetupDiSetDeviceInstallParams</a>), you must disassociate the queue from the device information set before you delete the device information set. If you fail to disassociate the file queue, Windows cannot decrement its reference count on the device information set and cannot free the memory.
+If you associate a file queue with a device information set (<a href="https://msdn.microsoft.com/20384538-e124-41f7-94a6-c0fb9f5fe6a0">SetupDiSetDeviceInstallParams</a>), you must disassociate the queue from the device information set before you delete the device information set. If you fail to disassociate the file queue, Windows cannot decrement its reference count on the device information set and cannot free the memory.
 
 This queue is only used if the DI_NOVCP flag is set, indicating that file operations should be enqueued but not committed.
 
@@ -444,7 +445,7 @@ Reserved. For internal use only.
 
 ### -field DriverPath
 
-This path is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> function. 
+This path is used by the <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> function. 
 
 
 ## -see-also
@@ -452,31 +453,31 @@ This path is used by the <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550909">SetupDiBuildClassInfoList</a>
+<a href="https://msdn.microsoft.com/a01b1f8f-55af-4053-8c31-9329ef36f2ce">SetupDiBuildClassInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a>
+<a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551104">SetupDiGetDeviceInstallParams</a>
+<a href="https://msdn.microsoft.com/e5e8c203-cf71-4cb4-a7a8-5af3a2483eea">SetupDiGetDeviceInstallParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a>
+<a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552115">SetupDiSelectDevice</a>
+<a href="https://msdn.microsoft.com/c6a512ad-bcc6-4dc5-873e-33bdaab129e2">SetupDiSelectDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552141">SetupDiSetDeviceInstallParams</a>
+<a href="https://msdn.microsoft.com/20384538-e124-41f7-94a6-c0fb9f5fe6a0">SetupDiSetDeviceInstallParams</a>
  
 
  

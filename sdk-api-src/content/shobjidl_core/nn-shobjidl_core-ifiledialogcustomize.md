@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -143,7 +144,7 @@ Adds a separator to the dialog, allowing a visual separation of controls.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406616">AddText</a>
+<a href="https://msdn.microsoft.com/efea2fdb-4006-4567-b53c-faa891d18c7e">AddText</a>
 </td>
 <td align="left" width="63%">
 Adds text content to the dialog.

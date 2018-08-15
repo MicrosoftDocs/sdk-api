@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize master boot record (MBR) disks.
+<a href="https://msdn.microsoft.com/c8215a00-ea39-4268-bb66-68cf3d37baef">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize master boot record (MBR) disks.
 
 
 ## -struct-fields
@@ -72,7 +73,7 @@ The disk signature of the MBR disk to be initialized.
 
 The 
 <b>CREATE_DISK_MBR</b> structure is part of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a> structure.
+<a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure.
 
 
 
@@ -82,15 +83,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>
+<a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552486">CREATE_DISK_GPT</a>
+<a href="https://msdn.microsoft.com/526a265b-e15e-4cd2-adaf-c955a8cb92e5">CREATE_DISK_GPT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a>
+<a href="https://msdn.microsoft.com/c8215a00-ea39-4268-bb66-68cf3d37baef">IOCTL_DISK_CREATE_DISK</a>
  
 
  

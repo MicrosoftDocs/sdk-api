@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvTransparentBlt</b> function provides bit-block transfer capabilities w
 
 ### -param psoDst [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the target surface on which to draw.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the target surface on which to draw.
 
 
 ### -param psoSrc [in]
@@ -71,17 +72,17 @@ Pointer to the SURFOBJ structure that identifies the source surface of the bit-b
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved.
 
 
 ### -param pxlo [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure that tells how the source color indices should be translated for writing to the target surface. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
+Pointer to a <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure that tells how the source color indices should be translated for writing to the target surface. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
 
 
 ### -param prclDst [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered.
 
 <b>DrvTransparentBlt</b> is never called with an empty destination rectangle.
 
@@ -120,7 +121,7 @@ Reserved; this parameter must be set to zero.
 
 You can optionally implement the <b>DrvTransparentBlt</b> function in graphics drivers.
 
-Bit-block transfer with transparency is supported between two device-managed surfaces or between a device-managed surface and a GDI-managed standard format bitmap. Driver writers are encouraged to support the case of blting from off-screen device bitmaps in video memory to other surfaces in video memory; all other cases can be punted to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565037">EngTransparentBlt</a> with little performance penalty. The driver can punt calls involving device-managed surfaces to <b>EngTransparentBlt</b>.
+Bit-block transfer with transparency is supported between two device-managed surfaces or between a device-managed surface and a GDI-managed standard format bitmap. Driver writers are encouraged to support the case of blting from off-screen device bitmaps in video memory to other surfaces in video memory; all other cases can be punted to <a href="https://msdn.microsoft.com/db98b15f-6b4b-4efc-aa24-20c728b09358">EngTransparentBlt</a> with little performance penalty. The driver can punt calls involving device-managed surfaces to <b>EngTransparentBlt</b>.
 
 Any pixels on the source surface that match the transparent color specified by <i>iTransColor</i> are not copied. For a detailed explanation of transparent blts, see <a href="https://msdn.microsoft.com/76e07c66-7e57-42d7-b6da-c13c8e9a8dee">Copying Bitmaps</a>.
 
@@ -128,7 +129,7 @@ The driver will never be called with overlapping source and destination rectangl
 
 The driver should ignore any unused bits in the color key comparison, such as for the most significant bit when the bitmap format is 5:5:5 (five bits each of red, green, and blue).
 
-The driver hooks <b>DrvTransparentBlt</b> by setting the HOOK_TRANSPARENTBLT flag when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564183">EngAssociateSurface</a>. If the driver has hooked <b>DrvTransparentBlt</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by forwarding the data in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565037">EngTransparentBlt</a>.
+The driver hooks <b>DrvTransparentBlt</b> by setting the HOOK_TRANSPARENTBLT flag when it calls <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>. If the driver has hooked <b>DrvTransparentBlt</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by forwarding the data in a call to <a href="https://msdn.microsoft.com/db98b15f-6b4b-4efc-aa24-20c728b09358">EngTransparentBlt</a>.
 
 
 
@@ -138,43 +139,43 @@ The driver hooks <b>DrvTransparentBlt</b> by setting the HOOK_TRANSPARENTBLT fla
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+<a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556258">DrvPlgBlt</a>
+<a href="https://msdn.microsoft.com/5bd478f1-0c01-4d7f-9ed1-af84e5bbe773">DrvPlgBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556302">DrvStretchBlt</a>
+<a href="https://msdn.microsoft.com/3520533d-4e42-4abc-bc10-557c674caa33">DrvStretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556306">DrvStretchBltROP</a>
+<a href="https://msdn.microsoft.com/eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2">DrvStretchBltROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564183">EngAssociateSurface</a>
+<a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564185">EngBitBlt</a>
+<a href="https://msdn.microsoft.com/e99dbe54-485b-4a56-9956-2965f04020db">EngBitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564982">EngPlgBlt</a>
+<a href="https://msdn.microsoft.com/a25a0fcd-1a61-483a-ba22-1214a9806b70">EngPlgBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565025">EngStretchBlt</a>
+<a href="https://msdn.microsoft.com/e8f3084c-6216-497b-923a-adef3bfe8bf7">EngStretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565027">EngStretchBltROP</a>
+<a href="https://msdn.microsoft.com/d353fab2-ba5d-42a5-8ce7-04fdc731f6ee">EngStretchBltROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565037">EngTransparentBlt</a>
+<a href="https://msdn.microsoft.com/db98b15f-6b4b-4efc-aa24-20c728b09358">EngTransparentBlt</a>
  
 
  

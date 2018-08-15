@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -87,15 +88,15 @@ Pointer to a location in which a valid event object is returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564801">EngDeleteEvent</a>
+<a href="https://msdn.microsoft.com/b1db14ed-345f-428e-9338-74c7b230e661">EngDeleteEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565013">EngSetEvent</a>
+<a href="https://msdn.microsoft.com/04e5d5e0-02b1-4335-9830-ecf04fdc0db1">EngSetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565461">EngWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/a2a1c7ad-1e56-45f7-83de-49ebc0d831f9">EngWaitForSingleObject</a>
  
 
  

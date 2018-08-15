@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsgetdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -278,6 +279,11 @@ The address is a string IP address (for example, "\\157.55.94.74") of the domain
 The address is a NetBIOS name, for example, "\\phoenix", of the domain controller.
 
 
+##### - Flags.DS_CLOSEST_FLAG
+
+The domain controller is in the same site as the client.
+
+
 ##### - Flags.DS_DNS_CONTROLLER_FLAG
 
 The <b>DomainControllerName</b> member is in DNS format.
@@ -293,11 +299,6 @@ The <b>DomainName</b> member is in DNS format.
 The <b>DnsForestName</b> member is in DNS format.
 
 
-##### - Flags.DS_CLOSEST_FLAG
-
-The domain controller is in the same site as the client.
-
-
 ##### - Flags.DS_DS_FLAG
 
 The domain controller is a directory service server for the domain.
@@ -308,14 +309,14 @@ The domain controller is a directory service server for the domain.
 The domain controller is a Windows 2008 or later writable domain controller.
 
 
-##### - Flags.DS_GOOD_TIMESERV_FLAG
-
-The domain controller is running a reliable Windows Time Service for the domain.
-
-
 ##### - Flags.DS_GC_FLAG
 
 The domain controller is a global catalog server for the forest specified by <b>DnsForestName</b>.
+
+
+##### - Flags.DS_GOOD_TIMESERV_FLAG
+
+The domain controller is running a reliable Windows Time Service for the domain.
 
 
 ##### - Flags.DS_KDC_FLAG

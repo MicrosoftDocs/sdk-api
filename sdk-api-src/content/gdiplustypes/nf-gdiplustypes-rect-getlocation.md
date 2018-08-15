@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ The <b>Rect::GetLocation</b> method gets the coordinates of the upper-left corne
 
 Type: <b>Point*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">Point</a> object that receives the coordinates of the upper-left corner. 
+Pointer to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object that receives the coordinates of the upper-left corner. 
 
 
 ## -returns
@@ -84,11 +85,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

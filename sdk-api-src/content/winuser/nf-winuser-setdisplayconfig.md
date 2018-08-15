@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Number of elements in <i>pathArray</i>.
 
 ### -param pathArray [in, optional]
 
-Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553945">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://msdn.microsoft.com/93f8f932-fc7b-4420-8b3e-27194937bed5">Path Priority Order</a>. 
+Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://msdn.microsoft.com/93f8f932-fc7b-4420-8b3e-27194937bed5">Path Priority Order</a>. 
 
 
 ### -param numModeInfoArrayElements [in]
@@ -78,7 +79,7 @@ Number of elements in <i>modeInfoArray</i>.
 
 ### -param modeInfoArray [in, optional]
 
-Array of display source and target mode information (<a href="https://msdn.microsoft.com/library/windows/hardware/ff553933">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
+Array of display source and target mode information (<a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
 
 
 ### -param flags [in]
@@ -309,11 +310,11 @@ The function could not find a workable solution for the source and target modes 
 
 The <b>SetDisplayConfig</b> function takes the active display paths with any specified source and target mode information and uses best mode logic to generate any missing source and target mode information. This function then sets the complete display path.
 
-The <b>ModeInfoIdx</b> members in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553951">DISPLAYCONFIG_PATH_SOURCE_INFO</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553954">DISPLAYCONFIG_PATH_TARGET_INFO</a> structures are used to indicate whether source and target mode are supplied for a given active path. If the index value is DISPLAYCONFIG_PATH_MODE_IDX_INVALID for either, this indicates the mode information is not being specified. It is valid for the path plus source mode or the path plus source and target mode information to be specified for a given path. However, it is not valid for the path plus target mode to be specified without the source mode.
+The <b>ModeInfoIdx</b> members in the <a href="https://msdn.microsoft.com/df43d20b-a55a-4bec-89a2-9ede03b4d6c5">DISPLAYCONFIG_PATH_SOURCE_INFO</a> and <a href="https://msdn.microsoft.com/3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a">DISPLAYCONFIG_PATH_TARGET_INFO</a> structures are used to indicate whether source and target mode are supplied for a given active path. If the index value is DISPLAYCONFIG_PATH_MODE_IDX_INVALID for either, this indicates the mode information is not being specified. It is valid for the path plus source mode or the path plus source and target mode information to be specified for a given path. However, it is not valid for the path plus target mode to be specified without the source mode.
 
 The source and target modes for each source and target identifiers can only appear in the <i>modeInfoArray</i> array once. For example, a source mode for source identifier S1 can only appear in the table once; if multiple paths reference the same source, they have to use the same <b>ModeInfoIdx</b>.
 
-The expectation is that most callers use <a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a> to get the current configuration along with other valid possibilities and then use <b>SetDisplayConfig</b> to test and set the configuration.
+The expectation is that most callers use <a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a> to get the current configuration along with other valid possibilities and then use <b>SetDisplayConfig</b> to test and set the configuration.
 
 The order in which the active paths appear in the <i>PathArray</i> array determines the path priority.
 
@@ -428,23 +429,23 @@ This API does not participate in DPI virtualization. All sizes in the DEVMODE st
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553933">DISPLAYCONFIG_MODE_INFO</a>
+<a href="https://msdn.microsoft.com/39ffe49b-96d3-4d8b-94a7-01c388448b82">DISPLAYCONFIG_MODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553945">DISPLAYCONFIG_PATH_INFO</a>
+<a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553951">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
+<a href="https://msdn.microsoft.com/df43d20b-a55a-4bec-89a2-9ede03b4d6c5">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553954">DISPLAYCONFIG_PATH_TARGET_INFO</a>
+<a href="https://msdn.microsoft.com/3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a">DISPLAYCONFIG_PATH_TARGET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a>
+<a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a>
  
 
  

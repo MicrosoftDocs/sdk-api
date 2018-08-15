@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -59,7 +60,7 @@ The <b>IWbemQualifierSet::Put</b> method writes the named qualifier and value. T
 Sometimes it is not possible to write the value of a qualifier, for example, if the qualifier is  propagated from another object. Typically, propagated qualifiers are read-only, but they can be overridden. For more information, see 
 <a href="https://msdn.microsoft.com/6a0769ac-e16c-45e1-92b6-26e4969bf23d">Qualifier Flavors</a>.
 
-When using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a> qualifier, it is not necessary to specify any flavors or propagation rules.
+When using the <a href="https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e">Key</a> qualifier, it is not necessary to specify any flavors or propagation rules.
 
 The user may not create qualifiers with names that begin or end with an underscore (_). This is reserved for system classes and properties.
 

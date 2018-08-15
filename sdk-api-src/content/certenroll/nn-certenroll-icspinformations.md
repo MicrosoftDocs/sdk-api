@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ICspInformations</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/882d6b6c-df42-4495-8d03-fa325ccd9899">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object to the collection.
@@ -93,7 +94,7 @@ Adds the providers installed on the computer to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/54afd0aa-24b4-4987-bab3-bccbaef6e08f">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> objects from the collection.
@@ -142,7 +143,7 @@ Retrieves the collection of hash algorithms supported by a provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/cbf427d8-3f66-4a54-a226-2060c58924b6">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object from the collection by index number.
@@ -159,7 +160,7 @@ Removes an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/ea2bb37a-952c-4772-b44d-52429b5d0a86">_NewEnum</a>
 
 
 </td>
@@ -171,7 +172,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/7221e564-07c4-47ab-bb32-c1e94406eab9">Count</a>
 
 
 </td>

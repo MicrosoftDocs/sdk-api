@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -82,7 +83,7 @@ The size of <i>pCookie</i> data, in bytes.
 
 Type: <b>const BYTE*</b>
 
-A pointer to a private token that identifies an application. The token is passed in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+A pointer to a private token that identifies an application. The token is passed in the <a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">Initialize</a> method.
 
 
 #### - CLSID [in]
@@ -142,7 +143,7 @@ The errors occur during a synchronization update.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">Initialize</a>
 
 
 

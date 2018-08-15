@@ -2,7 +2,7 @@
 UID: NA:vbinterf
 ms.assetid: 81393bd3-e71f-31d0-b3b7-458661ff2647
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

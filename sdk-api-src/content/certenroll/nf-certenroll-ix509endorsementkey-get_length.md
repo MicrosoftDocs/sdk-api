@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.irql:
 ## -description
 
 
-The bit length of the endorsement key. You can only access this property after the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method has been called.
+The bit length of the endorsement key. You can only access this property after the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been called.
 
 This property is read-only.
 

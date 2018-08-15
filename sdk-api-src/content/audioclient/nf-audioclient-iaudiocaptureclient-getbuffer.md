@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -134,7 +135,7 @@ The call succeeded and <i>*pNumFramesToRead</i> is 0, indicating that no capture
 </dl>
 </td>
 <td width="60%">
-<b>Windows 7</b>: <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> failed to retrieve a data buffer and *<i>ppData</i> points to <b>NULL</b>. For more information, see Remarks.
+<b>Windows 7</b>: <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">GetBuffer</a> failed to retrieve a data buffer and *<i>ppData</i> points to <b>NULL</b>. For more information, see Remarks.
 
 </td>
 </tr>

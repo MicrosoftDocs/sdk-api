@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -85,7 +86,7 @@ Retrieves the status of the <b>Recording</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/e72ec34e-d3e3-4f5f-9336-d55135dc1e47">Start</a>
 </td>
 <td align="left" width="63%">
 Starts a recording at a specified time.
@@ -94,7 +95,7 @@ Starts a recording at a specified time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/1b6a3ac4-076a-4fca-909c-6063637248a8">Stop</a>
 </td>
 <td align="left" width="63%">
 Ends a recording at a specified time.

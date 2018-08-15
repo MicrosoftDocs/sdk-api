@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Retrieves the number of elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">item</a>
+<a href="https://msdn.microsoft.com/3851fe72-b826-4948-ba74-638229429345">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the child elements from a collection.

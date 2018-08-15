@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IOpcCertificateSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/d14e9a1e-dda3-4b57-9882-0fd473a19e8c">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a certificate to the set.
@@ -89,7 +90,7 @@ Gets an enumerator of certificates in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/15046223-f8a0-4810-b6e0-e75aca44d5a9">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a specified certificate from the set.
@@ -105,11 +106,11 @@ Removes a specified certificate from the set.
 
 Do not add the certificate that will be passed to the <a href="https://msdn.microsoft.com/5d40cae4-67d5-40a6-bd63-cf6243a703eb">IOpcDigitalSignature::Sign</a> method (the signer certificate) to this certificate set.
 
-Certificates that are in a certificate chain are added to the package by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> method.
+Certificates that are in a certificate chain are added to the package by calling the <a href="https://msdn.microsoft.com/d14e9a1e-dda3-4b57-9882-0fd473a19e8c">Add</a> method.
 
 To access an <b>IOpcCertificateSet</b> interface pointer, call the <a href="https://msdn.microsoft.com/df212397-7ec9-4a42-bebb-61799b7ca78e">IOpcSigningOptions::GetCertificateSet</a> method.
 
-When a signature is generated, certificates that were added to the package by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> are associated  with the signature.
+When a signature is generated, certificates that were added to the package by calling <a href="https://msdn.microsoft.com/d14e9a1e-dda3-4b57-9882-0fd473a19e8c">Add</a> are associated  with the signature.
 
 
 #### Thread Safety
@@ -130,7 +131,7 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">Certificates</a>
+<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
 
 
 

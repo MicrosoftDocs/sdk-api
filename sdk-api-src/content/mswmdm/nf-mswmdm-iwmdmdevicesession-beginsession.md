@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ The <b>BeginSession</b> method begins a device session.
 
 ### -param type [in]
 
-A <a href="https://msdn.microsoft.com/e4ed41c0-521f-4da0-8361-287b64d74d77">WMDM_SESSION_TYPE</a> describing the type of session to begin. This is a bitwise <b>OR</b> of any values except WMDM_SESSION_NONE. The same type (or combination of types) must be specified during <a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>.
+A <a href="https://msdn.microsoft.com/e4ed41c0-521f-4da0-8361-287b64d74d77">WMDM_SESSION_TYPE</a> describing the type of session to begin. This is a bitwise <b>OR</b> of any values except WMDM_SESSION_NONE. The same type (or combination of types) must be specified during <a href="https://msdn.microsoft.com/f587a20a-936f-49a4-8e56-2e05b3d295f6">EndSession</a>.
 
 
 ### -param pCtx [in]
@@ -89,7 +90,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
 
 
 

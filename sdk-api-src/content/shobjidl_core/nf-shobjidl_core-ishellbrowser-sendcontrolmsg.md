@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -92,7 +93,7 @@ The value depends on the message specified in the <i>uMsg</i> parameter.
 Type: <b>LRESULT*</b>
 
 The address of the return value of the 
-					<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
+					<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
 
 ## -returns

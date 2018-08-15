@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,9 +76,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb
 
 ### -field _phlf
 
-Type: <b><a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>*</b>
 
-A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
+A pointer to the browser's <a href="https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx">IHlinkFrame</a>.
     
                         
 

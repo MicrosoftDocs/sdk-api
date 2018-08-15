@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -69,7 +70,7 @@ Handle to the resource to query for dependencies.
 ### -param pszAddress [out]
 
 Output buffer for returning the value of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> private property.
+      <a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a> private property.
 
 
 ### -param pcchAddress [in, out]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -93,7 +94,7 @@ Returns the properties of the specified controller port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/37230ac4-45f5-46ba-9a1c-072409e9362c">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of the controller.
@@ -130,7 +131,7 @@ Returns an enumeration of the LUNs with which the controller is associated—in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/e3b08b80-b81d-444b-86f6-2d10607ad02e">Reset</a>
 </td>
 <td align="left" width="63%">
 Reinitializes the controller and invalidates its cache.

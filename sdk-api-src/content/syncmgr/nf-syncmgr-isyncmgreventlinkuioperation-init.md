@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -70,7 +71,7 @@ A reference to the event ID that is being stored. This parameter is the same as 
 
 Type: <b><a href="https://msdn.microsoft.com/fb9877fc-016c-472b-9af2-f2470c5c7e3b">ISyncMgrEvent</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/fb9877fc-016c-472b-9af2-f2470c5c7e3b">ISyncMgrEvent</a> object for <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a> to use. This is the event object that owns the link.
+A pointer to the <a href="https://msdn.microsoft.com/fb9877fc-016c-472b-9af2-f2470c5c7e3b">ISyncMgrEvent</a> object for <a href="https://msdn.microsoft.com/66dd853e-0fb0-4736-982a-e0183cb51842">Run</a> to use. This is the event object that owns the link.
 
 
 ## -returns

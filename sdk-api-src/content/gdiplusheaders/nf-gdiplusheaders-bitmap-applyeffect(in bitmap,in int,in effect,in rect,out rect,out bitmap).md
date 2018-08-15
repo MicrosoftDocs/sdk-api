@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			ApplyEffect methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> class. For a complete list of methods for the 
+			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> class. For a complete list of methods for the 
 			<b>Bitmap</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms536286(v=VS.85).aspx">Bitmap Methods</a>.
  
 </span><h3>Overload list</h3><table>
@@ -66,7 +67,7 @@ req.product: GDI+ 1.0
 <a href="https://msdn.microsoft.com/en-us/library/ms536321(v=VS.85).aspx">ApplyEffect(Effect*,RECT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536321(v=VS.85).aspx">Bitmap::ApplyEffect</a> method alters this <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object by applying a specified effect.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536321(v=VS.85).aspx">Bitmap::ApplyEffect</a> method alters this <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object by applying a specified effect.
 
 </td>
 </tr>
@@ -75,7 +76,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms536321(v=VS.85).aspx">Bi
 <a href="https://msdn.microsoft.com/en-us/library/ms536320(v=VS.85).aspx">ApplyEffect(Bitmap**,INT,Effect*,RECT*,RECT*,Bitmap**)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536320(v=VS.85).aspx">Bitmap::ApplyEffect</a> method  creates a new <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536320(v=VS.85).aspx">Bitmap::ApplyEffect</a> method  creates a new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
     versions.]
 
 Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and adds it to the 
+    <a href="c_gly.htm">cluster</a> and adds it to the 
     <a href="https://msdn.microsoft.com/9ea90beb-86ae-4026-94bb-175e593da8fa">ClusResGroupResources</a> 
     collection.
 
@@ -90,16 +91,6 @@ Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
-#### - ResourceName
-
-<b>String</b> containing the name of the resource to add.
-
-
-#### - ResourceType
-
-<b>String</b> containing the type the resource to add.
-
-
 #### - Flag
 
 <b>Long</b> indicating how to create the resource. <i>Flag</i> can 
@@ -121,6 +112,16 @@ The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cl
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
         resource.
+
+
+#### - ResourceName
+
+<b>String</b> containing the name of the resource to add.
+
+
+#### - ResourceType
+
+<b>String</b> containing the type the resource to add.
 
 
 ## -returns

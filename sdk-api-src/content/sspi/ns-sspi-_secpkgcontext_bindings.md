@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Specifies a structure that contains channel binding information for a security <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>.
+Specifies a structure that contains channel binding information for a security <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
 
 
 ## -struct-fields

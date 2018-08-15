@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Indicates whether the specified property can be read using <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>.
+Indicates whether the specified property can be read using <a href="https://msdn.microsoft.com/eb4203c5-b51c-411c-9c2d-405b3d70bc80">Value</a>.
 
 
 ## -parameters

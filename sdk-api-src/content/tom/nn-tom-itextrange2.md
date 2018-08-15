@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -143,7 +144,7 @@ Gets the column properties for the currently selected column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/a1744e60-74b0-44a0-b470-6e89d328fa11">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of subranges, including the  active subrange in the current range.
@@ -287,7 +288,7 @@ Gets the text in this range according to the specified conversion flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432962">GetURL</a>
+<a href="https://msdn.microsoft.com/0d23f261-0b44-4532-86da-0ca40561bfe0">GetURL</a>
 </td>
 <td align="left" width="63%">
 Returns the URL text associated with a range.

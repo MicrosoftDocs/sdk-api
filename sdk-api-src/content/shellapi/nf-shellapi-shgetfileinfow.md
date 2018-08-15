@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -225,14 +226,14 @@ Indicates that the function should not attempt to access the file specified by <
 <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Apply the appropriate overlays to the file's icon. The <b>SHGFI_ICON</b> flag must also be set.
 
 
-##### - uFlags.SHGFI_ATTR_SPECIFIED (0x000020000)
-
-Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
-
-
 ##### - uFlags.SHGFI_ATTRIBUTES (0x000000800)
 
 Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</b> member of the structure specified in the <i>psfi</i> parameter. These are the same attributes that are obtained from <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>.
+
+
+##### - uFlags.SHGFI_ATTR_SPECIFIED (0x000020000)
+
+Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
 
 
 ##### - uFlags.SHGFI_DISPLAYNAME (0x000000200)

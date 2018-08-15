@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -90,7 +91,7 @@ Retrieves the window handle that was previously associated with this DirectDrawC
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/b0b71af4-f806-4264-bd14-b556b31aab29">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a DirectDrawClipper object that was created by using the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> COM function.
@@ -140,7 +141,7 @@ The methods of the <b>IDirectDrawClipper</b> interface can be organized into the
 <tr>
 <td>Allocating memory</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/b0b71af4-f806-4264-bd14-b556b31aab29">Initialize</a>
 </td>
 </tr>
 <tr>

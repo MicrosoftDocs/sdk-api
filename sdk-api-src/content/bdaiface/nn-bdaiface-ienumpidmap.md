@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,7 +79,7 @@ The <b>IEnumPIDMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/4d965a71-ff5e-4d4a-8976-0de5b8bbae04">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the collection.
@@ -87,7 +88,7 @@ Creates a copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/e7e3a2a7-cc62-478d-b0b8-30d58f0b3372">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> elements in the collection.
@@ -96,7 +97,7 @@ Retrieves the next <i>n</i> elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/4f5cc44e-10c0-441f-b34c-80f94c5f6bca">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the iterator to the beginning of the collection.
@@ -105,7 +106,7 @@ Moves the iterator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/e611e5a0-beb1-4a31-974a-29b2b8349a17">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of elements in the collection.

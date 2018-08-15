@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -138,7 +139,7 @@ The clock time is returned in the <i>pllClockTime</i> parameter and is expressed
 The system time is returned in the <i>phnsSystemTime</i> parameter, and is always expressed in 100-nanosecond units.
       
 
-To find out how often the clock correlates its clock time with the system time, call <a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>. The correlation interval is given in the <b>qwCorrelationRate</b> member of the <a href="https://msdn.microsoft.com/1efc6602-9851-40e5-85aa-0335d4e899a2">MFCLOCK_PROPERTIES</a> structure. If <b>qwCorrelationRate</b> is zero, it means the clock performs the correlation whenever <b>GetCorrelatedTime</b> is called. Otherwise, you can calculate the current clock time by extrapolating from the last correlated time.
+To find out how often the clock correlates its clock time with the system time, call <a href="https://msdn.microsoft.com/9dfc0efc-d274-45a6-b1ab-30f6215fbed8">GetProperties</a>. The correlation interval is given in the <b>qwCorrelationRate</b> member of the <a href="https://msdn.microsoft.com/1efc6602-9851-40e5-85aa-0335d4e899a2">MFCLOCK_PROPERTIES</a> structure. If <b>qwCorrelationRate</b> is zero, it means the clock performs the correlation whenever <b>GetCorrelatedTime</b> is called. Otherwise, you can calculate the current clock time by extrapolating from the last correlated time.
       
 
 Some clocks support rate changes through the <a href="https://msdn.microsoft.com/54303c32-b260-4364-9130-a592694f2816">IMFRateControl</a> interface. If so, the clock time advances at a speed of frequency × current rate. If a clock does not expose the <b>IMFRateControl</b> interface, the rate is always 1.0.

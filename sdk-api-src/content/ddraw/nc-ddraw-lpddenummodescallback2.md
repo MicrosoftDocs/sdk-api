@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -72,15 +73,15 @@ The <i>EnumModesCallback2</i> function is an application-defined callback functi
 
 
 
-#### - lpDDSurfaceDesc [in]
-
-A pointer to a read-only <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created. 
-
-
-
 #### - lpContext [in]
 
 A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+
+
+#### - lpDDSurfaceDesc [in]
+
+A pointer to a read-only <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created. 
+
 
 
 ## -returns

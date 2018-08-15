@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -66,7 +67,7 @@ The incoming <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5d
 
 ### -param *context [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> within which this callback is being invoked. 
+The <a href="https://msdn.microsoft.com/5c9b5906-15f0-4339-a4ad-39977d28ce5b">context</a> within which this callback is being invoked. 
                 
 
 

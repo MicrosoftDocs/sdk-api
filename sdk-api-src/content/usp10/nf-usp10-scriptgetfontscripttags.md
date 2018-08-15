@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

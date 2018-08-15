@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngGetPrinterData </b>function retrieves configuration data for the speci
 
 ### -param hPrinter [in]
 
-Handle to the printer for which configuration data should be retrieved. This is the handle that is passed as the <i>hDriver</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>.
+Handle to the printer for which configuration data should be retrieved. This is the handle that is passed as the <i>hDriver</i> parameter of <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
 
 
 ### -param pValueName [in]
@@ -71,7 +72,7 @@ Pointer to a null-terminated string that identifies the data to be retrieved.
 
 ### -param pType [out, optional]
 
-Pointer to a variable that receives the data type stored by <a href="https://msdn.microsoft.com/library/windows/hardware/ff565020">EngSetPrinterData</a>. This parameter can be <b>NULL</b>.
+Pointer to a variable that receives the data type stored by <a href="https://msdn.microsoft.com/8e6ff116-8735-49b1-a67c-70f5d65efb0f">EngSetPrinterData</a>. This parameter can be <b>NULL</b>.
 
 
 ### -param pData [out, optional]
@@ -103,11 +104,11 @@ Pointer to a memory location that receives the number of bytes copied into <i>lp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565020">EngSetPrinterData</a>
+<a href="https://msdn.microsoft.com/8e6ff116-8735-49b1-a67c-70f5d65efb0f">EngSetPrinterData</a>
  
 
  

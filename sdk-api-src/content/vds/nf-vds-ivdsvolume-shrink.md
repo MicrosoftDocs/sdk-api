@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -183,7 +184,7 @@ The specified shrink size is too large and will cause the volume to be smaller t
 
 This method is a wrapper for the <a href="https://msdn.microsoft.com/a6d91cb0-b9a4-4a5f-94bc-824b1691bcd7">IVdsVolumeShrink::Shrink</a> method. If you call <b>IVdsVolume::Shrink</b>, the value of the <i>uNumberOfBytesToRemove</i> parameter is used for the <i>ullDesiredNumberOfReclaimableBytes</i> and <i>ullMinNumberOfReclaimableBytes</i> parameters of <b>IVdsVolumeShrink::Shrink</b>.
 
-Shrink and <a href="https://msdn.microsoft.com/library/windows/hardware/dn922720">extend</a> operations are supported only on NTFS and RAW volumes.
+Shrink and <a href="https://msdn.microsoft.com/8f31dd3e-0c06-49fe-8ff2-55cfabe5099e">extend</a> operations are supported only on NTFS and RAW volumes.
 
 Use this method to shrink the file system and volume. If VDS fails to shrink the volume, it stops the operation 
     without shrinking the file system.

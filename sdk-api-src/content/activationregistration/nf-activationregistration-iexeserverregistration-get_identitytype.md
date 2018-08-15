@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -85,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159059">IdentityType</a>
+<a href="https://msdn.microsoft.com/17EBFEE2-903A-4B64-A59F-D94E96E4457E">IdentityType</a>
  
 
  

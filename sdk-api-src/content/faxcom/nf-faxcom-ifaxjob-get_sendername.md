@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ This property is read-only.
 
 If the sender's name is not available, the <b>SenderName</b> property contains an empty string.
 
-You can call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997357">UserName</a> method to retrieve the name of the account that queued the fax job. 
+You can call the <a href="https://msdn.microsoft.com/725bef60-dfe8-443b-a8ee-268944bd6569">UserName</a> method to retrieve the name of the account that queued the fax job. 
 
 <b>SenderName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -97,7 +98,7 @@ You can call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997357">UserName</a>
+<a href="https://msdn.microsoft.com/725bef60-dfe8-443b-a8ee-268944bd6569">UserName</a>
  
 
  

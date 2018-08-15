@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -118,7 +119,7 @@ Removes a named property and its value from the property bag associated with the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/1fead633-e498-4dc2-8591-d1f9c0090adb">Description</a>
 
 
 </td>
@@ -182,7 +183,7 @@ The display name for the event publisher.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159091">PublisherType</a>
+<a href="https://msdn.microsoft.com/b92b9493-bfee-4898-9e58-0a1cf9b59ffa">PublisherType</a>
 
 
 </td>

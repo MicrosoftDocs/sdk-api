@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,9 +74,10 @@ Defines the reason for locking the System Monitor.
 
 
 
-#### - SysmonBatchNone
+#### - SysmonBatchAddCounters
 
-Use to free all locks. Typically, you call <a href="https://msdn.microsoft.com/6b9d683a-7a97-44a4-9eb6-6caaafe2abdd">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
+Prevents the System Monitor from sampling the counter immediately when you use <a href="https://msdn.microsoft.com/9daecfe6-c2a9-48af-8b59-4f81f0325535">ICounters.Add</a> to add a counter to the 
+collection.
 
 
 #### - SysmonBatchAddFiles
@@ -84,10 +86,9 @@ Prevents the System Monitor from sampling the file immediately when you use <a h
 collection.
 
 
-#### - SysmonBatchAddCounters
+#### - SysmonBatchNone
 
-Prevents the System Monitor from sampling the counter immediately when you use <a href="https://msdn.microsoft.com/9daecfe6-c2a9-48af-8b59-4f81f0325535">ICounters.Add</a> to add a counter to the 
-collection.
+Use to free all locks. Typically, you call <a href="https://msdn.microsoft.com/6b9d683a-7a97-44a4-9eb6-6caaafe2abdd">SystemMonitor.BatchingLock</a> with the same reason you used to gain the lock. For example, if you gained the lock using SysmonBatchAddFiles, you would use SysmonBatchAddFiles when releasing the lock.
 
 
 ## -see-also

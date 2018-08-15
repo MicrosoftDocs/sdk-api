@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -94,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
+The media source's <a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -110,7 +111,7 @@ The media source's <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 This method is asynchronous. When the operation completes, the media source sends and <a href="https://msdn.microsoft.com/0eda9aa1-3aad-43ac-9d87-ab96e4ac319d">MESourceStopped</a> event, and every active stream sends an <a href="https://msdn.microsoft.com/80280820-b618-43d9-881e-6119dfa36e22">MEStreamStopped</a> event. If the method returns a failure code, no events are raised.
 
-When a media source is stopped, its current position reverts to zero. After that, if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> method is called with VT_EMPTY for the starting position, playback starts from the beginning of the presentation.
+When a media source is stopped, its current position reverts to zero. After that, if the <a href="https://msdn.microsoft.com/0a5abafe-1525-4bda-946c-05a6145e57ee">Start</a> method is called with VT_EMPTY for the starting position, playback starts from the beginning of the presentation.
 
 While the source is stopped, no streams produce data.
 

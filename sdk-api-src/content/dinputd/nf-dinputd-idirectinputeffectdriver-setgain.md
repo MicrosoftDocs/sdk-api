@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,14 +66,14 @@ The <b>IDirectInputEffectDriver::SetGain </b>method sets the overall device gain
 
 
 
-#### - dwID
-
-Indicates the joystick ID number being used. 
-
-
 #### - dwGain
 
 Specifies the new gain value (1 to 10,000). 
+
+
+#### - dwID
+
+Indicates the joystick ID number being used. 
 
 
 ## -returns

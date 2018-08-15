@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ Type: <b>const void*</b>
 
 A pointer to the compiled geometry shader for a standard geometry shader plus stream output. For info on how to get this pointer, see <a href="https://msdn.microsoft.com/en-us/library/Bb509703(v=VS.85).aspx">Getting a Pointer to a Compiled Shader</a>.
 
-To create the stream output without using a geometry shader, pass a pointer to the output signature for the prior stage. To obtain this output signature, call the <a href="https://msdn.microsoft.com/en-us/library/Dd607331(v=VS.85).aspx">D3DGetOutputSignatureBlob</a> compiler function. You can also pass a pointer to the compiled <a href="direct3d11.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> that is used in the prior stage. This compiled shader provides the output signature for the data.
+To create the stream output without using a geometry shader, pass a pointer to the output signature for the prior stage. To obtain this output signature, call the <a href="https://msdn.microsoft.com/en-us/library/Dd607331(v=VS.85).aspx">D3DGetOutputSignatureBlob</a> compiler function. You can also pass a pointer to the compiled <a href="https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx">vertex shader</a> that is used in the prior stage. This compiled shader provides the output signature for the data.
 
 
 ### -param BytecodeLength [in]

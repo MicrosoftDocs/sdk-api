@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,11 +58,11 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Enables operations 
-    on a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>, its properties, and related objects. Use 
+    on a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>, its properties, and related objects. Use 
     <b>ClusResGroup</b> to move groups between 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>, bring groups 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">online</a> and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a>, access the 
+    <a href="o_gly.htm">online</a> and 
+    <a href="o_gly.htm">offline</a>, access the 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in the group, and perform other group-related tasks.
 
 
@@ -101,7 +102,7 @@ Moves a group to the most preferred possible node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/ca4b8bd9-26fb-40f6-86f7-bbd1514fc9ac">Offline</a>
 </td>
 <td align="left" width="63%">
 Takes a group offline.
@@ -110,7 +111,7 @@ Takes a group offline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/f4861817-a2f6-4b1a-b50c-f3e9119234cd">Online</a>
 </td>
 <td align="left" width="63%">
 Brings a group online.
@@ -128,7 +129,7 @@ Brings a group online.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a>
+<a href="https://msdn.microsoft.com/fb5f1ebd-8d30-4625-9cc1-ce7713e91da6">Cluster</a>
 
 
 </td>
@@ -137,7 +138,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> associated with a group.
+Returns the <a href="c_gly.htm">cluster</a> associated with a group.
 
 </td>
 </tr>
@@ -179,7 +180,7 @@ Returns a <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/000a3b5e-3b77-47aa-9703-df0d7de48ba2">Name</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ Retrieves the bandwidth and maximum buffer size of the streams in the bandwidth 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/acef383f-83cb-45be-80fa-1339b391f32b">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of sharing (exclusive or partial) for the bandwidth sharing object.
@@ -107,7 +108,7 @@ Sets the bandwidth and maximum buffer size for streams in the bandwidth sharing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
+<a href="https://msdn.microsoft.com/3f4fc06a-ffbe-4854-8e64-d369acfac271">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of sharing (exclusive or partial) for the bandwidth sharing object.

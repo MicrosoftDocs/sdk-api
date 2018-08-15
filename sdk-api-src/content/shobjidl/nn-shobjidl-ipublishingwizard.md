@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -84,7 +85,7 @@ Gets a transfer manifest for a file transfer operation performed by a publishing
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/8312bb2e-cc06-4440-a72c-cf153a5d61b6">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the <a href="https://msdn.microsoft.com/e96a2721-0d00-4b83-8f78-46f6356f77e2">Publishing Wizard</a> object with the files to transfer, the settings to use, and the type of wizard to create.

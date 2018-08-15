@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -56,7 +57,7 @@ req.irql:
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff538463">CM_Get_Device_Interface_List</a> 
+     <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a> 
      function.
 
 
@@ -81,7 +82,7 @@ Supplies a GUID that identifies a
 ### -param pDeviceID [in, optional]
 
 Caller-supplied pointer to a NULL-terminated string that represents a 
-           <a href="devinst.device_instance_ids">device instance ID</a>. If specified, the 
+           <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If specified, the 
            function retrieves the length of symbolic link names for the device interfaces that are supported by the 
            device, for the specified class. If this value is <b>NULL</b>, or if it points to a 
            zero-length string, the function retrieves the length of symbolic link names for all interfaces that belong 
@@ -139,7 +140,7 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538463">CM_Get_Device_Interface_List</a>
+<a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>
  
 
  

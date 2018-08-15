@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -112,7 +113,7 @@ To retrieve the number of classes that are installed on a local computer, call <
 
 <b>SetupDiBuildClassInfoList</b> does not return a class GUID for a class if the <b>NoUseClass</b> value entry exists in the registry key of the class.
 
-To retrieve the list of setup class GUIDs installed on a remote system use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550911">SetupDiBuildClassInfoListEx</a>. 
+To retrieve the list of setup class GUIDs installed on a remote system use <a href="https://msdn.microsoft.com/32c6c548-79f8-41be-ad9a-5456972a16eb">SetupDiBuildClassInfoListEx</a>. 
 
 
 
@@ -122,15 +123,15 @@ To retrieve the list of setup class GUIDs installed on a remote system use <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550911">SetupDiBuildClassInfoListEx</a>
+<a href="https://msdn.microsoft.com/32c6c548-79f8-41be-ad9a-5456972a16eb">SetupDiBuildClassInfoListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551053">SetupDiGetClassDescription</a>
+<a href="https://msdn.microsoft.com/a9757c77-f873-4f75-be80-c4bd1d327299">SetupDiGetClassDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552010">SetupDiGetINFClass</a>
+<a href="https://msdn.microsoft.com/03e66c5b-9b76-4a40-8bd4-f640b689ce27">SetupDiGetINFClass</a>
  
 
  

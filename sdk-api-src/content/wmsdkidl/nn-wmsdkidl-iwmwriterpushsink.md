@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ Disconnects the push sink from the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>
+<a href="https://msdn.microsoft.com/c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4">EndSession</a>
 </td>
 <td align="left" width="63%">
 Ends the push distribution session.
@@ -132,7 +133,7 @@ IWMRegisterCallback</td>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: identityprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -89,7 +90,7 @@ Disconnects an online identity from the current domain user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432962">GetUrl</a>
+<a href="https://msdn.microsoft.com/623A9AE8-D838-4F00-B81E-35031ADB67F5">GetUrl</a>
 </td>
 <td align="left" width="63%">
 Returns the URL string for the specified wizard or webpage.

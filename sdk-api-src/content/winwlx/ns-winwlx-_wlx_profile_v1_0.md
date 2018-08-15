@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,7 +74,7 @@ Pointer to the profile path (for example, "%SystemRoot%\system32\config\AprilM00
 
 
 
-The string pointed to by <b>pszProfile</b> must be separately allocated by your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. It will be deallocated by <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a>.
+The string pointed to by <b>pszProfile</b> must be separately allocated by your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. It will be deallocated by <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a>.
 
 
 ## -remarks

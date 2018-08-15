@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -91,7 +92,7 @@ Removes the GPO link from the SOM.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">Enabled</a>
 
 
 </td>

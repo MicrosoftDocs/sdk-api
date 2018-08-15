@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -88,23 +89,23 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552521">GetIfStackTable</a>
+<a href="https://msdn.microsoft.com/c1b0f091-2aef-447e-9866-a886838a6267">GetIfStackTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552531">GetInvertedIfStackTable</a>
+<a href="https://msdn.microsoft.com/d1808ded-2798-46cc-8021-fdbcd3da60ea">GetInvertedIfStackTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559210">MIB_IFSTACK_TABLE</a>
+<a href="https://msdn.microsoft.com/b2f6eea7-c3d4-493d-bf55-bc95b97601bd">MIB_IFSTACK_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559234">MIB_INVERTEDIFSTACK_ROW</a>
+<a href="https://msdn.microsoft.com/dedccd32-b922-4729-92f3-879e98a7dc7a">MIB_INVERTEDIFSTACK_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559240">MIB_INVERTEDIFSTACK_TABLE</a>
+<a href="https://msdn.microsoft.com/b3508bb5-4e36-4088-afcc-4a75a01d1fe6">MIB_INVERTEDIFSTACK_TABLE</a>
  
 
  

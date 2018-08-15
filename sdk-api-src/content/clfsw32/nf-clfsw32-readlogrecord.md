@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -65,7 +66,7 @@ A pointer to a  marshaling context that is allocated by using the <a href="https
 
 ### -param plsnFirst [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
 
 This value must be an LSN of a valid record in the active range of the log.
 
@@ -134,12 +135,12 @@ This parameter is one of the <a href="https://msdn.microsoft.com/63489b1b-75de-4
 
 ### -param plsnUndoNext [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
 
 
 ### -param plsnPrevious [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
 
 
 ### -param ppvReadContext [out]
@@ -210,11 +211,11 @@ To complete the requested read and obtain a valid pointer to the log record, the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541783">CLFS_CONTEXT_MODE</a>
+<a href="https://msdn.microsoft.com/d71c18c3-42d5-4606-9915-8ea491e8b78f">CLFS_CONTEXT_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 

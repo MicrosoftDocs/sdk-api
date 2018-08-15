@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmoguids.lib
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -84,7 +85,7 @@ The <b>IDMOQualityControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/5c45874f-5546-40cc-a113-bea92bd9784b">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Determines whether quality control is active.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -98,7 +99,7 @@ Occurs when one or more strokes are deleted from the <a href="https://msdn.micro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/5ea0932a-ba21-4c6a-a3bc-c122b5805e86">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object or <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection to an existing InkStrokes collection.
@@ -134,7 +135,7 @@ Gets the bounding box in ink space coordinates for either all of the strokes in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/ecffbdf0-4b1c-46de-bc4c-c44812dae27a">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object at the specified index within the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
@@ -161,7 +162,7 @@ Applies a translation to the ink of an <a href="https://msdn.microsoft.com/b1846
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/ce7a7842-c7c8-4f73-8f68-05b22c2199de">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object from a <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
@@ -252,7 +253,7 @@ Applies a linear transformation to an <a href="https://msdn.microsoft.com/b18464
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/e0148627-11fc-47ee-8b77-1aa5700343cb">Count</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -66,7 +67,7 @@ Returns a <a href="https://msdn.microsoft.com/A3D948E6-6FFE-4732-A8C7-A292FDA07D
 
 ### -field PSS_WALK_VA_SPACE
 
-Returns a <a href="https://msdn.microsoft.com/69B8F6A3-76DF-421B-B89B-73BA3254F897">PSS_VA_SPACE_ENTRY</a> structure, which contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957515">MEMORY_BASIC_INFORMATION</a> structure for every distinct VA region.
+Returns a <a href="https://msdn.microsoft.com/69B8F6A3-76DF-421B-B89B-73BA3254F897">PSS_VA_SPACE_ENTRY</a> structure, which contains the <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a> structure for every distinct VA region.
 
 
 ### -field PSS_WALK_HANDLES

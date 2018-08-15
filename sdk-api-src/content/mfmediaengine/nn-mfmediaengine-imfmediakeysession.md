@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IMFMediaKeySession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/97c6b4bd-a973-4475-a325-0373af9b54b1">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the media key session and must be called before the key session is released.
@@ -107,7 +108,7 @@ Gets the error state associated with the media key session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/29e66037-5f18-4724-b6f2-d85555e6af69">Update</a>
 </td>
 <td align="left" width="63%">
 Passes in a key value with any associated data required by the Content Decryption Module for the given key system.

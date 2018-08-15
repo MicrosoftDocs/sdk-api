@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,7 +74,7 @@ Returns S_OK if the handler is enabled; otherwise, S_FALSE.
 
 If the handler wants Sync Center to maintain the current state, it can return E_NOTIMPL. If any other value is returned, Sync Center sets the handler's enabled state to the last known value and enables or disables the associated tasks as appropriate.
 
-If either the SYNCMGR_HCM_QUERY_BEFORE_ENABLE or SYNCMGR_HCM_QUERY_BEFORE_DISABLE flag is set in the mask returned from <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>, the handler must manage its own enabled state and therefore must return either S_OK or S_FALSE. Any other return value will be considered an error.
+If either the SYNCMGR_HCM_QUERY_BEFORE_ENABLE or SYNCMGR_HCM_QUERY_BEFORE_DISABLE flag is set in the mask returned from <a href="https://msdn.microsoft.com/3eb43984-f284-4df9-934b-1dd2f0e62e26">GetCapabilities</a>, the handler must manage its own enabled state and therefore must return either S_OK or S_FALSE. Any other return value will be considered an error.
 
 
 
@@ -118,7 +119,7 @@ The following example shows an implementation of this method that calls a privat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/ea3efba1-9b7c-4f93-aca5-08475a6005a8">Enable</a>
 
 
 

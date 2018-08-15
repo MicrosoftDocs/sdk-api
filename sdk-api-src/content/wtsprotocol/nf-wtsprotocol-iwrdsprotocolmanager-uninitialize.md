@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -74,7 +75,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 
 
 
-You can implement this method to clean up resources used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method. For example, if the <b>Initialize</b> method added a reference to an <a href="https://msdn.microsoft.com/3680a001-e162-4930-985f-5c50c2e8a8b9">IWRdsProtocolSettings</a> object pointer, the <b>Uninitialize</b> method can release that reference.
+You can implement this method to clean up resources used by the <a href="https://msdn.microsoft.com/c63c794c-41a0-4f07-be93-ba24dc156ca2">Initialize</a> method. For example, if the <b>Initialize</b> method added a reference to an <a href="https://msdn.microsoft.com/3680a001-e162-4930-985f-5c50c2e8a8b9">IWRdsProtocolSettings</a> object pointer, the <b>Uninitialize</b> method can release that reference.
 
 
 
@@ -88,7 +89,7 @@ You can implement this method to clean up resources used by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/c63c794c-41a0-4f07-be93-ba24dc156ca2">Initialize</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -62,12 +63,12 @@ The <b>sockaddr_gen</b> union provides generic socket address information, and i
 
 ### -field Address
 
-IP address information expressed in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+IP address information expressed in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
 
 
 ### -field AddressIn
 
-IP address information expressed in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure.
+IP address information expressed in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure.
 
 
 ### -field AddressIn6
@@ -89,11 +90,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a>
 
 
 

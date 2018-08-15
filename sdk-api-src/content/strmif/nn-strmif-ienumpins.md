@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -81,7 +82,7 @@ The <b>IEnumPins</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/946bb08e-6866-46b3-b2d7-de2ab6c5e608">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator with the same enumeration state.
@@ -90,7 +91,7 @@ Makes a copy of the enumerator with the same enumeration state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/03a30eb6-b39f-4497-ad3f-8af2c3ecf2f0">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of pins.
@@ -99,7 +100,7 @@ Retrieves a specified number of pins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/c2147884-aec2-43ae-b85a-61383ad6ca15">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -108,7 +109,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/501d08ee-ebd1-48dc-8cc9-bf017034b4cd">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of pins.

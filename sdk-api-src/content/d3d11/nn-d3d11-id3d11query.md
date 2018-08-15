@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -119,7 +120,7 @@ while( S_OK != pDeviceContext-&gt;GetData(pQuery, &amp;queryData, sizeof(UINT64)
 </td>
 </tr>
 </table></span></div>
-When using a query that does not require a call to <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">Begin</a>, it still requires a call to <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">End</a>. The call to <b>End</b> causes the data returned by <a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a> to be accurate up until the last call to <b>End</b>.
+When using a query that does not require a call to <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">Begin</a>, it still requires a call to <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">End</a>. The call to <b>End</b> causes the data returned by <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">GetData</a> to be accurate up until the last call to <b>End</b>.
 
 
 

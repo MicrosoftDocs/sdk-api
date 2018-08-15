@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -93,7 +94,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632439">FSCTL_ENUM_EXTERNAL_BACKING</a>
+<a href="https://msdn.microsoft.com/86B07858-2F10-48EF-AEB5-7F4A23A55F7F">FSCTL_ENUM_EXTERNAL_BACKING</a>
  
 
  

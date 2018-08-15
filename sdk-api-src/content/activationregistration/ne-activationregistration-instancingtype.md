@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -69,14 +70,14 @@ Represents the kind of  instancing behavior for the out-of-process server.
 
 
 
-#### - SingleInstance
-
-Create a singleton instance of the out-of-process server.
-
-
 #### - MultipleInstances
 
 Create more than one instance of the out-of-process server.
+
+
+#### - SingleInstance
+
+Create a singleton instance of the out-of-process server.
 
 
 ## -see-also

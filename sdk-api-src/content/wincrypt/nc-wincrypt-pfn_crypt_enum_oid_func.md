@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -113,15 +114,15 @@ A pointer to arguments passed through to the callback function.
 Name of the OID function.
 
 
+#### - rgcbValueData [in]
+
+Array that specifies the size, in bytes, of corresponding elements of the <i>rgpbValueData</i> array.
+
+
 #### - rgdwValueType [in]
 
 Array of value types. Each entry in the array will be one of the value types 
 listed for <a href="https://msdn.microsoft.com/14eb7f10-f42a-4496-9699-62eeb9878ea2">CryptGetOIDFunctionValue</a> under <i>pdwValueType</i>.
-
-
-#### - rgpwszValueName [in]
-
-Array of null-terminated strings containing the names of the values.
 
 
 #### - rgpbValueData [in]
@@ -129,9 +130,9 @@ Array of null-terminated strings containing the names of the values.
 Array  containing the values corresponding to the names in the <i>rgpwszValueName</i> array.
 
 
-#### - rgcbValueData [in]
+#### - rgpwszValueName [in]
 
-Array that specifies the size, in bytes, of corresponding elements of the <i>rgpbValueData</i> array.
+Array of null-terminated strings containing the names of the values.
 
 
 ## -returns

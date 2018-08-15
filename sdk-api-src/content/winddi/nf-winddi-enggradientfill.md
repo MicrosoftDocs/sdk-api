@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,17 +62,17 @@ The <b>EngGradientFill</b> function shades the specified primitives.
 
 ### -param psoDest
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the surface on which to draw.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the surface on which to draw.
 
 
 ### -param pco
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure. The <b>CLIPOBJ_</b><i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure. The <b>CLIPOBJ_</b><i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved.
 
 
 ### -param pxlo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure. This structure indicates how color indices should be translated between 32 bpp RGB format and the destination. The driver is responsible for converting the input COLOR16 color values to RGB.
+Pointer to a <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure. This structure indicates how color indices should be translated between 32 bpp RGB format and the destination. The driver is responsible for converting the input COLOR16 color values to RGB.
 
 
 ### -param pVertex
@@ -100,12 +101,12 @@ Specifies the number of elements in the array to which <i>pMesh</i> points.
 
 ### -param prclExtents
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines the area in which the gradient drawing is to occur. The points are specified in the coordinate system of the destination surface. This parameter is useful in estimating the size of the drawing operations.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the area in which the gradient drawing is to occur. The points are specified in the coordinate system of the destination surface. This parameter is useful in estimating the size of the drawing operations.
 
 
 ### -param pptlDitherOrg
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that defines the origin on the surface for dithering. The upper-left pixel of the dither pattern is aligned with this point.
+Pointer to a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that defines the origin on the surface for dithering. The upper-left pixel of the dither pattern is aligned with this point.
 
 
 ### -param ulMode [in]
@@ -146,7 +147,7 @@ The <i>pMesh</i> parameter points to an array of GRADIENT_TRIANGLE structures.
 
 
 
-The driver should call <b>EngGradientFill</b> if it has hooked <a href="https://msdn.microsoft.com/library/windows/hardware/ff556236">DrvGradientFill</a> and it is called to do something that it does not support.
+The driver should call <b>EngGradientFill</b> if it has hooked <a href="https://msdn.microsoft.com/c8a51b5f-5509-4801-8432-c4d895cefbda">DrvGradientFill</a> and it is called to do something that it does not support.
 
 The formulas used to compute the color value at each pixel depend on the value of <i>ulMode</i> as follows:
 
@@ -162,7 +163,7 @@ GDI ignores the alpha value of the vertices, leaving the alpha channel unchanged
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556236">DrvGradientFill</a>
+<a href="https://msdn.microsoft.com/c8a51b5f-5509-4801-8432-c4d895cefbda">DrvGradientFill</a>
  
 
  

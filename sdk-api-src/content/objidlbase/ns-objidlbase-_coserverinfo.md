@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidlbase.h
 req.include-header: Objidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -100,7 +101,7 @@ If <b>pAuthInfo</b> is set to <b>NULL</b>, <a href="https://msdn.microsoft.com/2
 </ul>
 If <b>pAuthInfo</b> is not <b>NULL</b>, those values will be used to specify the authentication settings for the remote call. These settings will be passed to the <a href="https://msdn.microsoft.com/2438816c-995e-4398-999d-48a3538eec18">RpcBindingSetAuthInfoEx</a> function.
 
-If the <i>pAuthInfo</i> parameter is <b>NULL</b>, then <i>dwAuthnLevel</i> can be overridden by the authentication level set by the <a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a> function. If the <b>CoInitializeSecurity</b> function isn't called, then the authentication level specified under the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922446">AppID</a> registry key is used, if it exists.
+If the <i>pAuthInfo</i> parameter is <b>NULL</b>, then <i>dwAuthnLevel</i> can be overridden by the authentication level set by the <a href="https://msdn.microsoft.com/e0933741-6b75-4ce1-aa63-6240e4a7130f">CoInitializeSecurity</a> function. If the <b>CoInitializeSecurity</b> function isn't called, then the authentication level specified under the <a href="https://msdn.microsoft.com/4e3d8c87-e6d7-4b4d-8f72-7180be1e51cf">AppID</a> registry key is used, if it exists.
 
 Starting with Windows XP with Service Pack 2 (SP2), <i>dwAuthnLevel</i> is the maximum of RPC_C_AUTHN_LEVEL_CONNECT and the process-wide authentication level of the client process that is issuing the activation request. For earlier versions of the operating system, this is RPC_C_AUTHN_LEVEL_CONNECT.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ The <b>IBDA_NullTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/c3f86317-66b6-449e-9db8-4ec09fac8adc">Start</a>
 </td>
 <td align="left" width="63%">
 Restarts the transforms on data flowing through the control node.
@@ -82,7 +83,7 @@ Restarts the transforms on data flowing through the control node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/1881d54f-2e26-4cb5-8456-da24f569875b">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the transforms on data flowing through the control node.

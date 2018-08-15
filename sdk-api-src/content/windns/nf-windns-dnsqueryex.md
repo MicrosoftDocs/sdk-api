@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -171,7 +172,7 @@ The following conditions invoke a synchronous call to <b>DnsQueryEx</b> and do n
 
 <ul>
 <li>The <a href="https://msdn.microsoft.com/35D78208-FFC1-48B0-8267-EE583DE2D783">DNS_QUERY_COMPLETION_ROUTINE</a> callback is omitted from the <b>pQueryCompleteCallback</b> member of <i>pQueryRequest</i>.</li>
-<li>A query is for the local machine name and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537785">A</a> or <a href="https://msdn.microsoft.com/0bc48e86-368c-431c-b67a-b7689dca8d3c">AAAA</a> type Resource Records (RR).</li>
+<li>A query is for the local machine name and <a href="https://msdn.microsoft.com/0fd21930-1319-4ae7-b46f-2b744f4faae9">A</a> or <a href="https://msdn.microsoft.com/0bc48e86-368c-431c-b67a-b7689dca8d3c">AAAA</a> type Resource Records (RR).</li>
 <li>A call to <b>DnsQueryEx</b> queries an IPv4 or IPv6 address.</li>
 <li>A call to <b>DnsQueryEx</b> returns in error.</li>
 </ul>

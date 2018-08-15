@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The DDGETAUTOFLIPOUT structure contains the handle and polarity information returned from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a> function identifiers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a> function. 
+The DDGETAUTOFLIPOUT structure contains the handle and polarity information returned from the <a href="https://msdn.microsoft.com/96c48986-e4b0-4509-bf25-b4a141e31beb">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a> and <a href="https://msdn.microsoft.com/2f687b56-23d9-4cb7-a408-0ba3c3e262f1">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a> function identifiers of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function. 
 
 
 ## -struct-fields
@@ -60,7 +61,7 @@ The DDGETAUTOFLIPOUT structure contains the handle and polarity information retu
 
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a> function for operations that obtain autoflip surfaces. Contains DD_OK if the hardware video port is in autoflip mode.
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for operations that obtain autoflip surfaces. Contains DD_OK if the hardware video port is in autoflip mode.
 
 
 ### -field hVideoSurface
@@ -83,15 +84,15 @@ Specifies whether the field is an even or odd field of an interlaced video signa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
+<a href="https://msdn.microsoft.com/96c48986-e4b0-4509-bf25-b4a141e31beb">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
+<a href="https://msdn.microsoft.com/2f687b56-23d9-4cb7-a408-0ba3c3e262f1">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

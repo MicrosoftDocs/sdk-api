@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -220,9 +221,9 @@ The <a href="https://msdn.microsoft.com/cf4dea10-552d-4730-a452-9302ef3761ff">Fl
 
 
 
-On Windows Vista and later, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570686">ResolveIpNetEntry2</a> function can used to replace the <b>SendARP</b> function. An ARP request is sent if the <b>Address</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559263">MIB_IPNET_ROW2</a> structure passed to the <b>ResolveIpNetEntry2</b> function is an IPv4 address.  
+On Windows Vista and later, the <a href="https://msdn.microsoft.com/37f9dc58-362d-413e-a593-4dda52fb7d8b">ResolveIpNetEntry2</a> function can used to replace the <b>SendARP</b> function. An ARP request is sent if the <b>Address</b> member of the <a href="https://msdn.microsoft.com/164dbd93-4464-40f9-989a-17597102b1d8">MIB_IPNET_ROW2</a> structure passed to the <b>ResolveIpNetEntry2</b> function is an IPv4 address.  
 
-On Windows Vista, a new group of functions can be used to access, modify, and delete the ARP table entries when the <b>Address</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559263">MIB_IPNET_ROW2</a> structure passed to these functions is an IPv4 address.  The new functions include the following: <a href="https://msdn.microsoft.com/library/windows/hardware/ff552551">GetIpNetTable2</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff546217">CreateIpNetEntry2</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff546368">DeleteIpNetEntry2</a>,  <a href="https://msdn.microsoft.com/library/windows/hardware/ff550029">FlushIpNetTable2</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff570775">SetIpNetEntry2</a>.
+On Windows Vista, a new group of functions can be used to access, modify, and delete the ARP table entries when the <b>Address</b> member of the <a href="https://msdn.microsoft.com/164dbd93-4464-40f9-989a-17597102b1d8">MIB_IPNET_ROW2</a> structure passed to these functions is an IPv4 address.  The new functions include the following: <a href="https://msdn.microsoft.com/6c45d735-9a07-41ca-8d8a-919f32c98a3c">GetIpNetTable2</a>, <a href="https://msdn.microsoft.com/ca92b9f8-ec3c-4889-b649-f606c3920f92">CreateIpNetEntry2</a>, <a href="https://msdn.microsoft.com/85bace04-6c95-4cf2-a212-764de292aed6">DeleteIpNetEntry2</a>,  <a href="https://msdn.microsoft.com/6ebfca41-acc3-450c-a3c5-881b8c3fca5e">FlushIpNetTable2</a>, and <a href="https://msdn.microsoft.com/4f423700-f721-44a9-ade3-ea5b5b86e394">SetIpNetEntry2</a>.
 
 For information about the <b>IPAddr</b> data type, see 
 <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
@@ -367,7 +368,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546217">CreateIpNetEntry2</a>
+<a href="https://msdn.microsoft.com/ca92b9f8-ec3c-4889-b649-f606c3920f92">CreateIpNetEntry2</a>
 
 
 
@@ -379,7 +380,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546368">DeleteIpNetEntry2</a>
+<a href="https://msdn.microsoft.com/85bace04-6c95-4cf2-a212-764de292aed6">DeleteIpNetEntry2</a>
 
 
 
@@ -391,15 +392,15 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550029">FlushIpNetTable2</a>
+<a href="https://msdn.microsoft.com/6ebfca41-acc3-450c-a3c5-881b8c3fca5e">FlushIpNetTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552546">GetIpNetEntry2</a>
+<a href="https://msdn.microsoft.com/c77e01da-2d5a-4c74-b581-62fa6ee52c9e">GetIpNetEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552551">GetIpNetTable2</a>
+<a href="https://msdn.microsoft.com/6c45d735-9a07-41ca-8d8a-919f32c98a3c">GetIpNetTable2</a>
 
 
 
@@ -417,7 +418,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570686">ResolveIpNetEntry2</a>
+<a href="https://msdn.microsoft.com/37f9dc58-362d-413e-a593-4dda52fb7d8b">ResolveIpNetEntry2</a>
 
 
 
@@ -425,7 +426,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570775">SetIpNetEntry2</a>
+<a href="https://msdn.microsoft.com/4f423700-f721-44a9-ade3-ea5b5b86e394">SetIpNetEntry2</a>
  
 
  

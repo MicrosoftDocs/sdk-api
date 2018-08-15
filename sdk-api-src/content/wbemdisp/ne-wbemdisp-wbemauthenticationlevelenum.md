@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -134,6 +135,20 @@ The following WSH script sets the authentication level. To run the script, save 
 
 
 
+#### - WbemAuthenticationLevelCall
+
+Short name: Call
+
+Authenticates only at the beginning of each call when the server receives the request.
+
+
+#### - WbemAuthenticationLevelConnect
+
+Short name: Connect
+
+Authenticates the credentials of the client only when the client establishes a relationship with the server.
+
+
 #### - WbemAuthenticationLevelDefault
 
 Short name: Default
@@ -146,20 +161,6 @@ WMI uses the default Windows Authentication setting.
 Short name: None
 
 Uses no authentication.
-
-
-#### - WbemAuthenticationLevelConnect
-
-Short name: Connect
-
-Authenticates the credentials of the client only when the client establishes a relationship with the server.
-
-
-#### - WbemAuthenticationLevelCall
-
-Short name: Call
-
-Authenticates only at the beginning of each call when the server receives the request.
 
 
 #### - WbemAuthenticationLevelPkt

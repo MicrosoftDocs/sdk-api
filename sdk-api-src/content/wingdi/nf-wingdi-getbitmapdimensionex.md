@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -68,7 +69,7 @@ A handle to a compatible bitmap (DDB).
 
 ### -param lpsize [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
+A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
 
 
 ## -returns
@@ -104,7 +105,7 @@ The function returns a data structure that contains fields for the height and wi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>
+<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
 
 
 

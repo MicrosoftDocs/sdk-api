@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -80,7 +81,7 @@ Retrieves a collection of tuning spaces that match the specified CLSID. (For use
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/9c7faab5-48d4-47fa-be8a-7dafce8504a6">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new persistent tuning space to the system.
@@ -161,7 +162,7 @@ Sets the maximum number of tuning spaces allowed on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/72ead181-6c5a-49d1-a789-3ae4128417c6">Remove</a>
 </td>
 <td align="left" width="63%">
 Permanently removes a tuning space from the system.

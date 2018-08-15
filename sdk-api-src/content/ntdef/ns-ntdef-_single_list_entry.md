@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ If a <b>SINGLE_LIST_ENTRY</b> structure is used as a list head, initialize the <
 
 A driver can access the <b>Next</b> member of a <b>SINGLE_LIST_ENTRY</b>, but (other than initializing a list head) <b>Next</b> must only be updated by the system routines supplied for this purpose.
 
-For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="https://msdn.microsoft.com/3a305f54-7866-4163-a3e4-e078d1927adc">Singly and Doubly Linked Lists</a>.
 
 
 
@@ -82,19 +83,19 @@ For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to imp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545408">ExInterlockedPopEntryList</a>
+<a href="https://msdn.microsoft.com/339e688f-64ec-402f-bd28-9fa487acb984">ExInterlockedPopEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545418">ExInterlockedPushEntryList</a>
+<a href="https://msdn.microsoft.com/7a932f69-c5dd-4844-b461-b986c00a08c7">ExInterlockedPushEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559712">PopEntryList</a>
+<a href="https://msdn.microsoft.com/b24ec573-4164-4016-a19d-574ebd75ec8f">PopEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559964">PushEntryList</a>
+<a href="https://msdn.microsoft.com/19f387d3-6c00-4c71-8114-61c53654613c">PushEntryList</a>
  
 
  

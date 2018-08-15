@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -69,7 +70,7 @@ Retrieves the current requested accuracy setting.
 
 ### -param pDesiredAccuracy [out]
 
-The address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545668">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
+The address of a <a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
 
 
 ## -returns

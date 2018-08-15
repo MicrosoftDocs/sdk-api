@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,7 +70,7 @@ The open handle returned by <a href="https://msdn.microsoft.com/2ddb23d8-a4e6-47
 An event to be signaled whenever an ICMPv6 response arrives. If this parameter is specified, it requires a handle to a valid event object. Use the 
 <a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> or <a href="https://msdn.microsoft.com/402a721d-8338-4df1-ba0b-074f868a1731">CreateEventEx</a> function to create this event object. 
 
-For more information on using events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>.
+For more information on using events, see <a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>.
 
 
 ### -param ApcRoutine [in, optional]
@@ -87,12 +88,12 @@ An optional parameter passed to the callback routine specified in the  <i>ApcRou
 
 ### -param SourceAddress [in]
 
-The IPv6 source address on which to issue the echo request, in the form of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+The IPv6 source address on which to issue the echo request, in the form of a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
 
 
 ### -param DestinationAddress [in]
 
-The IPv6 destination address of the echo request, in the form of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+The IPv6 destination address of the echo request, in the form of a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
 
 
 ### -param RequestData [in]
@@ -380,7 +381,7 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>
+<a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>
 
 
 
@@ -432,7 +433,7 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

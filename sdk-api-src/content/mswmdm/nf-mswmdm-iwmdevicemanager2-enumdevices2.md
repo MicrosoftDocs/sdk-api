@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
 
 
 
@@ -92,7 +93,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 This method returns an enumerator that takes advantage of the Plug and Play (PnP) system for a faster enumeration and lower memory use. For PnP-complaint service providers, it loads in memory only those service providers that have a device currently connected to the computer, and requests only those service providers to create device objects.
 
-This method returns a snapshot of the devices connected when the underlying object was first created. To ensure that the device list is up to date, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561022">Reinitialize</a> before calling this method.
+This method returns a snapshot of the devices connected when the underlying object was first created. To ensure that the device list is up to date, call <a href="https://msdn.microsoft.com/9eabf5ff-96e1-426f-ae31-197a2165a743">Reinitialize</a> before calling this method.
 
 
 #### Examples

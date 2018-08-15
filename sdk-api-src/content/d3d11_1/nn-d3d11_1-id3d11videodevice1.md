@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -79,7 +80,7 @@ Indicates whether the video decoder supports downsampling with the specified inp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906349">GetCryptoSessionPrivateDataSize</a>
+<a href="https://msdn.microsoft.com/3F973DA0-F722-4EC2-A578-F01B6999F16B">GetCryptoSessionPrivateDataSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves optional sizes for private driver data. 

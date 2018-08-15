@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ Switches into a given application domain (which the calling object must be bound
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/c5cdff7f-6fb4-4f49-995a-63e4ecaef71a">Initialize</a>
 </td>
 <td align="left" width="63%">
 Binds the calling object to the current application domain and provides a callback function for shutdown that is executed when the application domain is unloaded.

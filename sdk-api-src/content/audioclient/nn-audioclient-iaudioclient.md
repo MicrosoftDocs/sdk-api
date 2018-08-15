@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -119,7 +120,7 @@ Retrieves the length of the periodic interval separating successive processing p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265084">GetMixFormat</a>
+<a href="https://msdn.microsoft.com/63f3e593-3904-44f9-a912-78c6c98e7597">GetMixFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
@@ -146,7 +147,7 @@ Retrieves the maximum latency for the current stream and can be called any time 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the audio stream.
@@ -164,7 +165,7 @@ Indicates whether the audio endpoint device supports a particular stream format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/c1a4f673-ecbf-4855-b8bb-c0f0807dedd4">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the audio stream.
@@ -182,7 +183,7 @@ Sets the event handle that the audio engine will signal each time a buffer becom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the audio stream.
@@ -191,7 +192,7 @@ Starts the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/d5824aa9-0b91-4bee-9c0c-26e12a6b96b5">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the audio stream.

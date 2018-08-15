@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ Collects data from the multiplexer and updates the ASF ContentInfo object to inc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/44a66374-ad9d-4c76-8c95-21a15e071c6d">Flush</a>
 </td>
 <td align="left" width="63%">
 Signals the multiplexer to process all queued samples. Call this method after passing the last sample to the multiplexer.
@@ -90,7 +91,7 @@ Signals the multiplexer to process all queued samples. Call this method after pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/b0aeefb5-6996-4abb-b869-855aaa7fcde2">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves flags indicating the configured multiplexer options.
@@ -117,7 +118,7 @@ Retrieves multiplexer statistics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/61c37bd5-3f6f-434b-ae5b-c25c5213d49f">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the multiplexer with the data from an ASF ContentInfo object.
@@ -135,7 +136,7 @@ Delivers input samples to the multiplexer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/dac4f9b0-e83a-4e99-9a4a-ec1154c929a7">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets multiplexer options.

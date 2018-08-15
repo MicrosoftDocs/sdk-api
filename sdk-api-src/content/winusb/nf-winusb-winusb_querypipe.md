@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>WinUsb_QueryPipe</b> function retrieves information about the specified e
 
 An opaque handle to an interface that contains the endpoint with which the pipe is associated.
 
-To query the pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
+To query the pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param AlternateInterfaceNumber [in]
@@ -78,7 +79,7 @@ A value that specifies the pipe to return information about. This value is not t
 
 ### -param PipeInformation [out]
 
-A pointer, on output, to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540285">WINUSB_PIPE_INFORMATION</a> structure that contains pipe information.
+A pointer, on output, to a caller-allocated <a href="https://msdn.microsoft.com/59e1d5e3-8c42-4f2f-b9a4-c637206d5494">WINUSB_PIPE_INFORMATION</a> structure that contains pipe information.
 
 
 ## -returns
@@ -142,7 +143,7 @@ The value passed in the <i>PipeIndex</i> parameter is greater than the  <b>bNumE
 
 The <b>WinUsb_QueryPipe</b> function does not retrieve information about the control pipe.
 
-Each interface on the USB device can have multiple endpoints. To communicate with each of these endpoints, the bus driver creates pipes for each endpoint on the interface. The pipe indices are zero-based. Therefore for <i>n</i> number of endpoints, the pipes' indices are set from <i>n</i>-1. <b>WinUsb_QueryPipe</b> parses the configuration descriptor to get the interface specified by the caller.  It searches the interface descriptor  for the endpoint descriptor associated with the caller-specified pipe. If the endpoint is found, the function populates the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540285">WINUSB_PIPE_INFORMATION</a> structure with information from the endpoint descriptor. 
+Each interface on the USB device can have multiple endpoints. To communicate with each of these endpoints, the bus driver creates pipes for each endpoint on the interface. The pipe indices are zero-based. Therefore for <i>n</i> number of endpoints, the pipes' indices are set from <i>n</i>-1. <b>WinUsb_QueryPipe</b> parses the configuration descriptor to get the interface specified by the caller.  It searches the interface descriptor  for the endpoint descriptor associated with the caller-specified pipe. If the endpoint is found, the function populates the caller-allocated <a href="https://msdn.microsoft.com/59e1d5e3-8c42-4f2f-b9a4-c637206d5494">WINUSB_PIPE_INFORMATION</a> structure with information from the endpoint descriptor. 
 
 
 
@@ -152,7 +153,7 @@ Each interface on the USB device can have multiple endpoints. To communicate wit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540285">WINUSB_PIPE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/59e1d5e3-8c42-4f2f-b9a4-c637206d5494">WINUSB_PIPE_INFORMATION</a>
 
 
 
@@ -164,7 +165,7 @@ Each interface on the USB device can have multiple endpoints. To communicate wit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
  
 
  

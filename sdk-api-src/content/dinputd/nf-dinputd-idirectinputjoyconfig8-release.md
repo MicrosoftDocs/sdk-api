@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ Returns the new reference count of the object.
 
 
 
-The DirectInputJoyConfig object deallocates itself when its reference count reaches 0. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540981">IDirectInputJoyConfig8::AddRef</a> method to increase the reference count of the object by 1.
+The DirectInputJoyConfig object deallocates itself when its reference count reaches 0. Use the <a href="https://msdn.microsoft.com/04e10558-367e-495c-aa1a-43344f803c8a">IDirectInputJoyConfig8::AddRef</a> method to increase the reference count of the object by 1.
 
 
 

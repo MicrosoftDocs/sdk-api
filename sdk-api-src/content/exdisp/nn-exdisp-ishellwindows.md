@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: exdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IShellWindows</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/e91b2be7-2be9-4460-9a2a-57090dcfc961">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection of Shell windows.
@@ -98,7 +99,7 @@ Gets the number of windows in the Shell windows collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the registered Shell window for a specified index.

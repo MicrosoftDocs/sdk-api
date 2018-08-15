@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,11 +79,14 @@ Handle to the remote access connection of interest. An application obtains a RAS
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function.
 
 
-#### - rasprojection [in]
+#### - lpcb [in, out]
 
-Specifies the 
-<a href="https://msdn.microsoft.com/589fc4b0-16f0-4728-ad8d-7a91d7b52fba">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
-					
+Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpprojection</i>. 
+
+
+
+
+On output, this variable receives the size, in bytes, of the <i>lpprojection</i> buffer.
 
 
 #### - lpprojection [out]
@@ -210,14 +214,11 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
  
 
 
-#### - lpcb [in, out]
+#### - rasprojection [in]
 
-Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpprojection</i>. 
-
-
-
-
-On output, this variable receives the size, in bytes, of the <i>lpprojection</i> buffer.
+Specifies the 
+<a href="https://msdn.microsoft.com/589fc4b0-16f0-4728-ad8d-7a91d7b52fba">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
+					
 
 
 ## -returns

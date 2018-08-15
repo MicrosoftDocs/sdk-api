@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumResources</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/660243ba-263d-4f4a-b26f-ab831f60d76b">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones a resource enumerator.
@@ -80,7 +81,7 @@ Clones a resource enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/b5d0d754-4252-476a-b3af-0ba257eab339">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next <a href="https://msdn.microsoft.com/92ca56a2-e2c3-4651-aa29-115eb07119e9">SHELL_ITEM_RESOURCE</a> structure.
@@ -89,7 +90,7 @@ Gets the next <a href="https://msdn.microsoft.com/92ca56a2-e2c3-4651-aa29-115eb0
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/0b3f38d2-80fe-4242-a99d-5d82f9dd50e9">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration index to 0.
@@ -98,7 +99,7 @@ Resets the enumeration index to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/d3dc94e7-5455-4afb-8743-05c993e1448b">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of resources.

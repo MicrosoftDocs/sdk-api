@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -78,7 +79,7 @@ The <b>IMMDeviceCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/236a611b-98ab-437c-9e36-8c8a7c32ffbc">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves a count of the devices in the device collection.
@@ -87,7 +88,7 @@ Retrieves a count of the devices in the device collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/98cb72fd-9422-44b4-a585-a1fed029a77f">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the specified item in the device collection.

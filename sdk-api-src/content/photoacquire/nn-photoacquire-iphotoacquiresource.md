@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ Retrieves the identifier (ID) of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406579">GetFriendlyName</a>
+<a href="https://msdn.microsoft.com/e6e1c5d7-b9d8-479a-a8e5-53124b55369d">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device, formatted for display.
@@ -143,7 +144,7 @@ Enumerates transferable items on the device and passes each item to the optional
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
  
 
  

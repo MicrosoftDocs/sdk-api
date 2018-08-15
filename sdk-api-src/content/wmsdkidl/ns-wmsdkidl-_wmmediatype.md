@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -118,7 +119,7 @@ Pointer to the format structure of the media type. The structure referenced is d
 <tr>
 <td>WMFORMAT_WaveFormatEx</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+<a href="https://msdn.microsoft.com/a25fef3b-8d0c-42de-8008-245f9560da44">WAVEFORMATEX</a>
 </td>
 </tr>
 <tr>
@@ -175,7 +176,7 @@ This is the same as the DirectShow structure <b>AM_MEDIA_TYPE</b> but is redefin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
  
 
  

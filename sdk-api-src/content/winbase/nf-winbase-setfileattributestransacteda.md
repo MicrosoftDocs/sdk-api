@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -214,7 +215,7 @@ The following table describes how to set the attributes that cannot be set using
 </td>
 <td>To associate a reparse point with a file or directory, use the 
        <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a> operation.</td>
+       <a href="https://msdn.microsoft.com/0bed6d69-269b-4921-8984-69c7829fb9ea">FSCTL_SET_REPARSE_POINT</a> operation.</td>
 </tr>
 <tr>
 <td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -126,7 +127,7 @@ This  method cannot be called from a remote computer.
 
 
 
-For a complete description of search criteria syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt219145">Search</a>.
+For a complete description of search criteria syntax, see <a href="https://msdn.microsoft.com/0511cfd0-f4de-41ab-af35-32d757217386">Search</a>.
 
   As an alternative to implementing the <a href="https://msdn.microsoft.com/f228808d-7f7e-4107-a4b6-4bac5b48d1b4">ISearchCompletedCallback</a> interface, you can use a script to   implement a callback routine of any identifier with DISPID 0 on an automation object. The type of the <i>onCompleted</i> parameter is <b>IUnknown*</b>.
 

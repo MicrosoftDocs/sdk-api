@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstask.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ Specifies the Task page for the task. This page provides the following UI elemen
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>: This field specifies the name of the application associated with the task.</li>
+<a href="https://msdn.microsoft.com/f533fcf6-8ece-442f-b6d5-3702321db9e9">Run</a>: This field specifies the name of the application associated with the task.</li>
 <li>This property can also be set programmatically by calling 
 <a href="https://msdn.microsoft.com/0bec25a9-e653-48b5-be41-8f513169fc8c">ITask::SetApplicationName</a>.</li>
 <li><b>Start in</b>: This field specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a> for the task.</li>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -81,12 +82,12 @@ Points to the miniport driver's device extension.
 
 #### - LockInInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549615">DDLOCKININFO</a> structure that contains the surface information for the lock.
+Points to a <a href="https://msdn.microsoft.com/4a4fb927-9037-4a42-9052-8b14ff899fe0">DDLOCKININFO</a> structure that contains the surface information for the lock.
 
 
 #### - LockOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549635">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
+Points to a <a href="https://msdn.microsoft.com/a29ec594-c5f9-46e4-a8c2-95e24e2ddb2d">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
 
 
 ## -returns
@@ -102,7 +103,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54963
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549615">DDLOCKININFO</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff549635">DDLOCKOUTINFO</a> structures contain surface information.
+The <a href="https://msdn.microsoft.com/4a4fb927-9037-4a42-9052-8b14ff899fe0">DDLOCKININFO</a> and <a href="https://msdn.microsoft.com/a29ec594-c5f9-46e4-a8c2-95e24e2ddb2d">DDLOCKOUTINFO</a> structures contain surface information.
 
 
 
@@ -112,11 +113,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549615">DDLOC
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549615">DDLOCKININFO</a>
+<a href="https://msdn.microsoft.com/4a4fb927-9037-4a42-9052-8b14ff899fe0">DDLOCKININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549635">DDLOCKOUTINFO</a>
+<a href="https://msdn.microsoft.com/a29ec594-c5f9-46e4-a8c2-95e24e2ddb2d">DDLOCKOUTINFO</a>
  
 
  

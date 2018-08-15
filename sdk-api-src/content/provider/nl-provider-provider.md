@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: provider.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -75,7 +76,7 @@ An instance of the <b>Provider</b> class is created for each WMI class that has 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/619adf78-26db-4a90-90ba-bdacb3e55975">Commit</a>
 </td>
 <td align="left" width="63%">
 Returns the current instance to WMI.
@@ -129,7 +130,7 @@ Processes a WMI Query Language (WQL) query. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/c8be35ec-cd2e-45ec-b47f-48acf5e6f51a">Flush</a>
 </td>
 <td align="left" width="63%">
 Called by the provider framework to delete all unnecessary memory in use by the provider.

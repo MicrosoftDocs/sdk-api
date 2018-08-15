@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -118,9 +119,9 @@ This action shows a message box.
 
 ### -param ppAction [out]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a> interface that represents the new action. 
+An <a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a> interface that represents the new action. 
 
-Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 
 ## -returns
@@ -146,7 +147,7 @@ You cannot add more than 32 actions to the collection.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
+<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
 
 
 

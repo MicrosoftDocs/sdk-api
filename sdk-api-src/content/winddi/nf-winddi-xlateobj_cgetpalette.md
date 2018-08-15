@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>XLATEOBJ_cGetPalette</b> function retrieves RGB colors or the bitfields f
 
 ### -param pxlo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure from which GDI retrieves the requested information.
+Pointer to the <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure from which GDI retrieves the requested information.
 
 
 ### -param iPal [in]
@@ -152,7 +153,7 @@ The driver must have information about the palette to perform some methods of co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a>
+<a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a>
  
 
  

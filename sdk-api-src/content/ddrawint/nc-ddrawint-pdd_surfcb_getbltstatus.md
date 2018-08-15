@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdGetBltStatus</b> callback function queries the blit status of the speci
 
 #### - lpGetBltStatus
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551534">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
+Points to a <a href="https://msdn.microsoft.com/16b0cac9-af8c-4106-b74e-6c9ada543851">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
 
 
 ## -returns
@@ -105,7 +106,7 @@ If the flag is DDGBS_ISBLTDONE, the driver should set <b>ddRVal</b> to DDERR_WAS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551534">DD_GETBLTSTATUSDATA</a>
+<a href="https://msdn.microsoft.com/16b0cac9-af8c-4106-b74e-6c9ada543851">DD_GETBLTSTATUSDATA</a>
 
 
 

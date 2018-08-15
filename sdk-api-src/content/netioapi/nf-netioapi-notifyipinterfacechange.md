@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -230,7 +231,7 @@ The <i>CallerContext</i> parameter passed to the <b>NotifyIpInterfaceChange</b> 
 
 </td>
 <td width="60%">
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559254">MIB_IPINTERFACE_ROW</a> entry for the  interface that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyIpInterfaceChange</b> was set to <b>TRUE</b> when registering for notifications.
+A pointer to the <a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a> entry for the  interface that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyIpInterfaceChange</b> was set to <b>TRUE</b> when registering for notifications.
 
 </td>
 </tr>
@@ -240,7 +241,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 </td>
 <td width="60%">
-The notification type. This member can be one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559286">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
+The notification type. This member can be one of the values from the <a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
 
 </td>
 </tr>
@@ -251,13 +252,13 @@ The notification type. This member can be one of the values from the <a href="ht
 
 The callback function specified in the <i>Callback</i> parameter must be implemented in the same process as the application calling the <b>NotifyIpInterfaceChange</b> function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the <b>NotifyIpInterfaceChange</b> function to register for change notifications. 
 
-When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559254">MIB_IPINTERFACE_ROW</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_IPINTERFACE_ROW</b> structure is only enough information that an application can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552540">GetIpInterfaceEntry</a> function to query complete information on the IP interface that changed. When the callback function is received, an application should allocate a <b>MIB_IPINTERFACE_ROW</b> structure and initialize it with the <b>Family</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_IPINTERFACE_ROW</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_IPINTERFACE_ROW</b> structure should be passed to the <b>GetIpInterfaceEntry</b> function to retrieve complete information on the IP interface that was changed. 
+When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_IPINTERFACE_ROW</b> structure is only enough information that an application can call the <a href="https://msdn.microsoft.com/604e33fd-ab12-4861-a083-544045f46ef4">GetIpInterfaceEntry</a> function to query complete information on the IP interface that changed. When the callback function is received, an application should allocate a <b>MIB_IPINTERFACE_ROW</b> structure and initialize it with the <b>Family</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_IPINTERFACE_ROW</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_IPINTERFACE_ROW</b> structure should be passed to the <b>GetIpInterfaceEntry</b> function to retrieve complete information on the IP interface that was changed. 
 
 The memory pointed to by the <i>Row</i> parameter used in the callback indications is managed by the operating system.  An application that receives a notification should never attempt to free the memory pointed to by the <i>Row</i> parameter. 
 
-To deregister for change notifications, call the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544864">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyIpInterfaceChange</b>. 
+To deregister for change notifications, call the  <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyIpInterfaceChange</b>. 
 
-An application cannot make a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544864">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
+An application cannot make a call to the <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
 Once the <b>NotifyIpInterfaceChange</b> function is called to register for change notifications, these notifications will continue to be sent until the application deregisters for change notifications or the application terminates. If the application terminates, the system will automatically deregister any registration for change notifications. It is still recommended that an application explicitly deregister for change notifications before it terminates.  
 
@@ -271,27 +272,27 @@ Any registration for change notifications does not persist across a system shut 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544864">CancelMibChangeNotify2</a>
+<a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552517">GetIfEntry2</a>
+<a href="https://msdn.microsoft.com/da787dae-5e89-4bf2-a9b6-90e727995414">GetIfEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552521">GetIfStackTable</a>
+<a href="https://msdn.microsoft.com/c1b0f091-2aef-447e-9866-a886838a6267">GetIfStackTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>
+<a href="https://msdn.microsoft.com/0153c41c-b02b-4832-87b3-88dc3a9f4ff1">GetIfTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552531">GetInvertedIfStackTable</a>
+<a href="https://msdn.microsoft.com/d1808ded-2798-46cc-8021-fdbcd3da60ea">GetInvertedIfStackTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552540">GetIpInterfaceEntry</a>
+<a href="https://msdn.microsoft.com/604e33fd-ab12-4861-a083-544045f46ef4">GetIpInterfaceEntry</a>
 
 
 
@@ -299,27 +300,27 @@ Any registration for change notifications does not persist across a system shut 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554883">InitializeIpInterfaceEntry</a>
+<a href="https://msdn.microsoft.com/5e7aed65-63e1-4e7b-bccf-9a2485212432">InitializeIpInterfaceEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a>
+<a href="https://msdn.microsoft.com/e8bb79f9-e7e9-470b-8883-36d08061661b">MIB_IF_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a>
+<a href="https://msdn.microsoft.com/334078c6-afd0-4c53-838c-28bc3e1e8484">MIB_IF_TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559254">MIB_IPINTERFACE_ROW</a>
+<a href="https://msdn.microsoft.com/28265037-f7a3-40a4-b386-20f43f32a8b3">MIB_IPINTERFACE_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559286">MIB_NOTIFICATION_TYPE</a>
+<a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570774">SetIpInterfaceEntry</a>
+<a href="https://msdn.microsoft.com/8e6d2c14-29c3-47a7-9eb8-0989df9da68c">SetIpInterfaceEntry</a>
  
 
  

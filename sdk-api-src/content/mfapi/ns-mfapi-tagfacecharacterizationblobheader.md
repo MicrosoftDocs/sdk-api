@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,10 +62,10 @@ The <b>FaceCharacterizationBlobHeader</b> structure  describes the size and coun
 
 ### -field Size
 
-Size of this header + all following <a href="https://msdn.microsoft.com/library/windows/hardware/dn927642">FaceCharacterization</a> structures.
+Size of this header + all following <a href="https://msdn.microsoft.com/8A8F6E06-DA09-4595-BF42-8B905453CCCA">FaceCharacterization</a> structures.
 
 
 ### -field Count
 
-Number of <b>FaceCharacterization</b> structures in the blob. Must match the number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn927644">FaceRectInfo</a> structures in <a href="https://msdn.microsoft.com/library/windows/hardware/dn927645">FaceRectInfoBlobHeader</a>.
+Number of <b>FaceCharacterization</b> structures in the blob. Must match the number of <a href="https://msdn.microsoft.com/63F31CDC-CB44-4ED8-BDA0-89F7DCF77965">FaceRectInfo</a> structures in <a href="https://msdn.microsoft.com/BDDC33C2-CD2D-4F97-AAD1-DF69250F60B3">FaceRectInfoBlobHeader</a>.
 

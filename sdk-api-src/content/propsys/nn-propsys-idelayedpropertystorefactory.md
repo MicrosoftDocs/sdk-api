@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Exposes a method to create a specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object in circumstances where property access is potentially slow.
+Exposes a method to create a specified <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> object in circumstances where property access is potentially slow.
 
 
 ## -inheritance
@@ -74,7 +75,7 @@ The <b>IDelayedPropertyStoreFactory</b> interface has these methods.
 <a href="https://msdn.microsoft.com/26df5fec-2a21-454e-9539-877c00a4f8fb">GetDelayedPropertyStore</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface object, as specified.
+Gets an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> interface object, as specified.
 
 </td>
 </tr>

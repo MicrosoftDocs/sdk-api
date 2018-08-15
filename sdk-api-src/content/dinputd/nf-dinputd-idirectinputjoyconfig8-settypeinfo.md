@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,19 +66,9 @@ The <b>IDirectInputJoyConfig8::SetTypeInfo </b>method creates a new joystick typ
 
 
 
-#### - pwszTypeName
-
-Points to the name of the type. The name of the type cannot exceed MAX_JOYSTRING characters, including the terminating null character. If the type name does not already exist, then it is created. You cannot change the type information for a predefined type. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
-
-
-#### - pjti
-
-Points to a structure that receives information about the joystick type. 
-
-
 #### - dwFlags
 
-Specifies the parts of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538513">DIJOYTYPEINFO</a> structure pointed to by <i>pjti</i> that contain values to be set. 
+Specifies the parts of the <a href="https://msdn.microsoft.com/54f52839-59ed-4edd-8d28-e3504f9900d0">DIJOYTYPEINFO</a> structure pointed to by <i>pjti</i> that contain values to be set. 
 
 
 
@@ -106,6 +97,16 @@ Indicates that the display name for the joystick type is valid.
 Indicates that the callout for the joystick type is valid. 
 
 
+#### - pjti
+
+Points to a structure that receives information about the joystick type. 
+
+
+#### - pwszTypeName
+
+Points to the name of the type. The name of the type cannot exceed MAX_JOYSTRING characters, including the terminating null character. If the type name does not already exist, then it is created. You cannot change the type information for a predefined type. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
+
+
 ## -returns
 
 
@@ -124,7 +125,7 @@ Returns DI_OK if successful; otherwise, returns one of the following COM error v
 </dl>
 </td>
 <td width="60%">
-Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540978">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
+Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/1df2eb92-9c55-4371-84c7-a4fb879efb7e">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
 
 </td>
 </tr>

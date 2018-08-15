@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>ISyncKnowledge</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/4f8dbe6f-e686-464a-98d0-b6e78bfd405a">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of this object, and copies the data from this object to the new object.

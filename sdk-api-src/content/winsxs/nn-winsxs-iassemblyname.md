@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsxs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IAssemblyName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/5096b7de-e53d-49fa-bb43-16d768787b4e">Clone</a>
 </td>
 <td align="left" width="63%">
 Copies the  current side-by-side assembly name to a new instance of <b>IAssemblyName</b>.
@@ -116,7 +117,7 @@ Gets the value of a name-value pair in the assembly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/798102ce-b696-4940-941d-c3fd3054c584">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Compares the current assembly name to another assembly name.

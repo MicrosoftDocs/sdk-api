@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -96,13 +97,13 @@ A <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">disc
 
 An object can also have system-level security information associated with it, in the form of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) controlled by a system administrator. A SACL  allows the system administrator to audit any attempts to gain access to an object.
 
-For a list of currently defined ACE structures, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>.
+For a list of currently defined ACE structures, see <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>.
 
-A fourth ACE structure, <a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a>, is not currently supported.
+A fourth ACE structure, <a href="https://msdn.microsoft.com/491cc5c7-abb6-4d03-b3b0-ba5eedb5e2ba">SYSTEM_ALARM_ACE</a>, is not currently supported.
 
 The <b>ACL</b> structure is to be treated as though it were opaque and applications are not to attempt to work with its members directly. To ensure that ACLs are semantically correct, applications can use the functions listed in the See Also section to create and manipulate ACLs.
 
-Each <b>ACL</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a> structure begins on a <b>DWORD</b> boundary.
+Each <b>ACL</b> and <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a> structure begins on a <b>DWORD</b> boundary.
 
 The maximum size for an ACL, including its ACEs, is 64 KB.
 

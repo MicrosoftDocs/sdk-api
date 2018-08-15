@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -111,7 +112,7 @@ Prohibits the modification or deletion of the description of the file type.
 
 ### -field FTA_NoEditIcon
 
-Prohibits the modification or deletion of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895583">icon</a> assigned to the file type.
+Prohibits the modification or deletion of the <a href="https://msdn.microsoft.com/1827239c-0588-45aa-b7be-f96fb7affa65">icon</a> assigned to the file type.
 
 
 ### -field FTA_NoEditDflt
@@ -121,7 +122,7 @@ Prohibits the modification of the <a href="https://msdn.microsoft.com/4f46b8c3-1
 
 ### -field FTA_NoEditVerbCmd
 
-Prohibits the modification of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597554">commands</a> associated with verbs.
+Prohibits the modification of the <a href="https://msdn.microsoft.com/4f46b8c3-1e12-447c-87f4-bbe2c305f77a">commands</a> associated with verbs.
 
 
 ### -field FTA_NoEditVerbExe

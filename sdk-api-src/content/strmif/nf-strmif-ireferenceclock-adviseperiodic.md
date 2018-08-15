@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -83,14 +84,14 @@ Handle to a semaphore, created by the caller.
 Pointer to a variable that receives an identifier for the advise request.
 
 
-#### - rtStartTime [in]
-
-Time of the first notification, in 100-nanosecond units. Must be greater than zero and less than MAX_TIME.
-
-
 #### - rtPeriodTime [in]
 
 Time between notifications, in 100-nanosecond units. Must be greater than zero.
+
+
+#### - rtStartTime [in]
+
+Time of the first notification, in 100-nanosecond units. Must be greater than zero and less than MAX_TIME.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -126,7 +127,7 @@ Reads encrypted data from a protected surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/2F602A5E-B5D1-4749-8696-9F0594770B4F">FinishSessionKeyRefresh</a>
 </td>
 <td align="left" width="63%">
 Switches to a new session key.
@@ -146,7 +147,7 @@ Gets a pointer to a decoder buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451660">GetEncryptionBltKey</a>
+<a href="https://msdn.microsoft.com/B62BE7CB-75FA-45E9-9AB7-83738DFE3B19">GetEncryptionBltKey</a>
 </td>
 <td align="left" width="63%">
 Gets the cryptographic key to decrypt the data returned by the <a href="https://msdn.microsoft.com/2BBD0BC2-53D9-435E-835C-20A992118329">ID3D11VideoContext::EncryptionBlt</a> method.
@@ -155,7 +156,7 @@ Gets the cryptographic key to decrypt the data returned by the <a href="https://
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451691">NegotiateAuthenticatedChannelKeyExchange</a>
+<a href="https://msdn.microsoft.com/FF546AE5-D062-41A9-B143-8B25466BF6E3">NegotiateAuthenticatedChannelKeyExchange</a>
 </td>
 <td align="left" width="63%">
 Establishes a session key for an authenticated channel.
@@ -197,7 +198,7 @@ Releases a buffer that was obtained by calling the <a href="https://msdn.microso
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451696">StartSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/63376BFE-BA84-4268-8AA8-128BEB83AE78">StartSessionKeyRefresh</a>
 </td>
 <td align="left" width="63%">
 Gets a random number that can be used to refresh the session key.
@@ -217,7 +218,7 @@ Submits one or more buffers for decoding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>
+<a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">VideoProcessorBlt</a>
 </td>
 <td align="left" width="63%">
 Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
@@ -262,7 +263,7 @@ Gets the current level of downsampling that is performed by the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451705">VideoProcessorGetOutputExtension</a>
+<a href="https://msdn.microsoft.com/3B979D5D-CB3D-4B67-9BE3-277005076604">VideoProcessorGetOutputExtension</a>
 </td>
 <td align="left" width="63%">
 Gets private state data from the video processor.
@@ -331,7 +332,7 @@ Gets the destination rectangle for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439773">VideoProcessorGetStreamExtension</a>
+<a href="https://msdn.microsoft.com/33A2DC3D-4B92-45B5-B67A-7F3AA55F061B">VideoProcessorGetStreamExtension</a>
 </td>
 <td align="left" width="63%">
 Gets a driver-specific state for a video processing stream.
@@ -431,7 +432,7 @@ Gets the stereo 3D format for an input stream on the video processor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439778">VideoProcessorSetOutputAlphaFillMode</a>
+<a href="https://msdn.microsoft.com/898604FA-B857-4D84-AA0D-3BC517F75A36">VideoProcessorSetOutputAlphaFillMode</a>
 </td>
 <td align="left" width="63%">
 Sets the alpha fill mode for data that the video processor writes to the render target.
@@ -440,7 +441,7 @@ Sets the alpha fill mode for data that the video processor writes to the render 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn459003">VideoProcessorSetOutputBackgroundColor</a>
+<a href="https://msdn.microsoft.com/6D6DAECC-8D20-4ABB-A20B-55EC4F68D8F1">VideoProcessorSetOutputBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color for the video processor.
@@ -449,7 +450,7 @@ Sets the background color for the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439782">VideoProcessorSetOutputColorSpace</a>
+<a href="https://msdn.microsoft.com/5B4B2C26-CFC8-43BD-A889-8838DEF3582A">VideoProcessorSetOutputColorSpace</a>
 </td>
 <td align="left" width="63%">
 Sets the output color space for the video processor.
@@ -458,7 +459,7 @@ Sets the output color space for the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439784">VideoProcessorSetOutputConstriction</a>
+<a href="https://msdn.microsoft.com/EA61A4B8-0853-4F17-B634-70A896DCF5F7">VideoProcessorSetOutputConstriction</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of downsampling to perform on the output.
@@ -467,7 +468,7 @@ Sets the amount of downsampling to perform on the output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439786">VideoProcessorSetOutputExtension</a>
+<a href="https://msdn.microsoft.com/38279599-09C8-4BB1-8946-0B066D96E22B">VideoProcessorSetOutputExtension</a>
 </td>
 <td align="left" width="63%">
 Sets a driver-specific video processing state.
@@ -476,7 +477,7 @@ Sets a driver-specific video processing state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439788">VideoProcessorSetOutputStereoMode</a>
+<a href="https://msdn.microsoft.com/86449010-6F46-460B-9972-4186FD84B407">VideoProcessorSetOutputStereoMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the video processor produces stereo video frames.
@@ -485,7 +486,7 @@ Specifies whether the video processor produces stereo video frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439790">VideoProcessorSetOutputTargetRect</a>
+<a href="https://msdn.microsoft.com/D49EED28-E26E-48B5-A050-8EB568A3D31A">VideoProcessorSetOutputTargetRect</a>
 </td>
 <td align="left" width="63%">
 Sets the target rectangle for the video processor.
@@ -494,7 +495,7 @@ Sets the target rectangle for the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439792">VideoProcessorSetStreamAlpha</a>
+<a href="https://msdn.microsoft.com/DA869E3F-25BB-4794-B7AE-A3C2DA968800">VideoProcessorSetStreamAlpha</a>
 </td>
 <td align="left" width="63%">
 Sets the planar alpha for an input stream on the video processor.
@@ -503,7 +504,7 @@ Sets the planar alpha for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439794">VideoProcessorSetStreamAutoProcessingMode</a>
+<a href="https://msdn.microsoft.com/92579A03-AA8A-4D9B-8150-F5FDDBAFC1C1">VideoProcessorSetStreamAutoProcessingMode</a>
 </td>
 <td align="left" width="63%">
 Enables or disables automatic processing features on the video processor.
@@ -512,7 +513,7 @@ Enables or disables automatic processing features on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439796">VideoProcessorSetStreamColorSpace</a>
+<a href="https://msdn.microsoft.com/EFF6BF9B-CC96-4D57-A97A-B3E8457346B5">VideoProcessorSetStreamColorSpace</a>
 </td>
 <td align="left" width="63%">
 Sets the color space for an input stream on the video processor.
@@ -521,7 +522,7 @@ Sets the color space for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn459004">VideoProcessorSetStreamDestRect</a>
+<a href="https://msdn.microsoft.com/F3C77812-9096-4D65-9D6C-082133C873A7">VideoProcessorSetStreamDestRect</a>
 </td>
 <td align="left" width="63%">
 Sets the destination rectangle for an input stream on the video processor.
@@ -530,7 +531,7 @@ Sets the destination rectangle for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439800">VideoProcessorSetStreamExtension</a>
+<a href="https://msdn.microsoft.com/E6E1CF26-6A9F-42E1-8DA7-2AC76CE05906">VideoProcessorSetStreamExtension</a>
 </td>
 <td align="left" width="63%">
 Sets a driver-specific state on a video processing stream.
@@ -539,7 +540,7 @@ Sets a driver-specific state on a video processing stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439802">VideoProcessorSetStreamFilter</a>
+<a href="https://msdn.microsoft.com/49258E8F-50BC-4F51-A492-78B44A73CC13">VideoProcessorSetStreamFilter</a>
 </td>
 <td align="left" width="63%">
 Enables or disables an image filter for an input stream on the video processor.
@@ -548,7 +549,7 @@ Enables or disables an image filter for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439804">VideoProcessorSetStreamFrameFormat</a>
+<a href="https://msdn.microsoft.com/248BE244-23A9-4F4E-95F7-D3DB678B2D9F">VideoProcessorSetStreamFrameFormat</a>
 </td>
 <td align="left" width="63%">
 Specifies whether an input stream on the video processor contains interlaced or progressive frames.
@@ -557,7 +558,7 @@ Specifies whether an input stream on the video processor contains interlaced or 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439805">VideoProcessorSetStreamLumaKey</a>
+<a href="https://msdn.microsoft.com/DAFDAF7C-BBE2-41AA-9E44-C1BD28CE03FE">VideoProcessorSetStreamLumaKey</a>
 </td>
 <td align="left" width="63%">
 Sets the luma key for an input stream on the video processor.
@@ -566,7 +567,7 @@ Sets the luma key for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439807">VideoProcessorSetStreamOutputRate</a>
+<a href="https://msdn.microsoft.com/D353F6E8-B465-46CB-AA47-8B097AB4AF2A">VideoProcessorSetStreamOutputRate</a>
 </td>
 <td align="left" width="63%">
 Sets the rate at which the video processor produces output frames for an input stream.
@@ -575,7 +576,7 @@ Sets the rate at which the video processor produces output frames for an input s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439809">VideoProcessorSetStreamPalette</a>
+<a href="https://msdn.microsoft.com/E2816D5F-0541-45B0-A90A-7C26530D064C">VideoProcessorSetStreamPalette</a>
 </td>
 <td align="left" width="63%">
 Sets the color-palette entries for an input stream on the video processor.
@@ -584,7 +585,7 @@ Sets the color-palette entries for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439811">VideoProcessorSetStreamPixelAspectRatio</a>
+<a href="https://msdn.microsoft.com/4205F6F0-4AF3-42B1-8636-64FCFC865856">VideoProcessorSetStreamPixelAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Sets the pixel aspect ratio for an input stream on the video processor.
@@ -593,7 +594,7 @@ Sets the pixel aspect ratio for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439813">VideoProcessorSetStreamRotation</a>
+<a href="https://msdn.microsoft.com/f94d283c-5eea-4248-8c06-46ef66e86b22">VideoProcessorSetStreamRotation</a>
 </td>
 <td align="left" width="63%">
 Sets the stream rotation for an input stream on the video processor.
@@ -602,7 +603,7 @@ Sets the stream rotation for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439815">VideoProcessorSetStreamSourceRect</a>
+<a href="https://msdn.microsoft.com/A2771C8A-13AB-4AFA-87A1-1390B582342A">VideoProcessorSetStreamSourceRect</a>
 </td>
 <td align="left" width="63%">
 Sets the source rectangle for an input stream on the video processor.
@@ -611,7 +612,7 @@ Sets the source rectangle for an input stream on the video processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439817">VideoProcessorSetStreamStereoFormat</a>
+<a href="https://msdn.microsoft.com/FAAE902A-622E-42D2-B332-CD4126A4182E">VideoProcessorSetStreamStereoFormat</a>
 </td>
 <td align="left" width="63%">
 Enables or disables stereo 3D video for an input stream on the video processor.

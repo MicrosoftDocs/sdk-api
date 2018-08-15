@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -109,7 +110,7 @@ Loads a document asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406413">RootDevice</a>
+<a href="https://msdn.microsoft.com/0caa4f1e-0c74-4654-be26-6178aefa3ee4">RootDevice</a>
 </td>
 <td align="left" width="63%">
 Returns the root device of the loaded document's device tree.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -72,7 +73,7 @@ A handle to the window whose transform is used for the conversion. Top level win
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that specifies the physical/screen coordinates to be converted. The new logical coordinates are copied into this structure if the function succeeds.
+A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that specifies the physical/screen coordinates to be converted. The new logical coordinates are copied into this structure if the function succeeds.
 
 
 ## -remarks
@@ -81,7 +82,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 Windows Vista introduces the concept of physical coordinates. Desktop Window Manager (DWM) scales non-dots per inch (dpi) aware windows when the display is high dpi. The window seen on the screen corresponds to the physical coordinates. The application continues to work in logical space. Therefore, the application's view of the window is different from that which appears on the screen. For scaled windows, logical and physical coordinates are different.
 
-The function uses the window identified by the <i>hWnd</i> parameter and the physical coordinates given in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure to compute the logical coordinates. The logical coordinates are the <i>unscaled</i> coordinates that appear to the application in a programmatic way. In other words, the logical coordinates are the coordinates the application recognizes, which can be different from the physical coordinates. The API then replaces the physical coordinates with the logical coordinates. The new coordinates are in the <i>world</i> coordinates whose origin is (0, 0) on the desktop. The coordinates passed to the API have to be on the <i>hWnd</i>.
+The function uses the window identified by the <i>hWnd</i> parameter and the physical coordinates given in the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure to compute the logical coordinates. The logical coordinates are the <i>unscaled</i> coordinates that appear to the application in a programmatic way. In other words, the logical coordinates are the coordinates the application recognizes, which can be different from the physical coordinates. The API then replaces the physical coordinates with the logical coordinates. The new coordinates are in the <i>world</i> coordinates whose origin is (0, 0) on the desktop. The coordinates passed to the API have to be on the <i>hWnd</i>.
 
 The source coordinates are in device units.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,20 +72,6 @@ Creates a <b>CustomLineCap::CustomLineCap</b> object.
 
 
 
-#### - fillPath [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
-
-Pointer to a path. 
-
-
-#### - strokePath [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
-
-Pointer to a path. 
-
-
 #### - baseCap [in]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534146(v=VS.85).aspx">LineCap</a></b>
@@ -98,6 +85,20 @@ Optional. Element of the
 Type: <b>REAL</b>
 
 Optional. The default value is 0. 
+
+
+#### - fillPath [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+
+Pointer to a path. 
+
+
+#### - strokePath [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+
+Pointer to a path. 
 
 
 ## -remarks

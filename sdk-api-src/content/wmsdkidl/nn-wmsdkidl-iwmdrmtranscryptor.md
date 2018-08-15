@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,7 +80,7 @@ The <b>IWMDRMTranscryptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/c277e3fa-069d-4eaf-947c-220730c5d61e">Close</a>
 </td>
 <td align="left" width="63%">
 Removes the file from the transcryptor and releases all associated resources.
@@ -88,7 +89,7 @@ Removes the file from the transcryptor and releases all associated resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/084423cc-d10c-4993-b9dd-ace51aa6b7f0">Initialize</a>
 </td>
 <td align="left" width="63%">
 Loads a file into the transcryptor.
@@ -97,7 +98,7 @@ Loads a file into the transcryptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/55b1c73a-5c00-4e16-b0fe-2352ce09bffc">Read</a>
 </td>
 <td align="left" width="63%">
 Generates encrypted data for streaming to devices that support Windows Media DRM 10 for Network Devices from the file loaded in the transcryptor.
@@ -106,7 +107,7 @@ Generates encrypted data for streaming to devices that support Windows Media DRM
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/4962741b-d1ca-4296-ad95-d171d165c5d9">Seek</a>
 </td>
 <td align="left" width="63%">
 Sets the transcryptor to a point in the data stream of the loaded ASF file. Subsequent reads will begin from this point in the file.
@@ -132,7 +133,7 @@ The methods of the <b>IWMDRMTranscryptor</b> interface use the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
  
 
  

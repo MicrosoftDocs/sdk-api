@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvStretchBlt</b> function provides stretching bit-block transfer capabil
 
 ### -param psoDest [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the surface on which to draw.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the surface on which to draw.
 
 
 ### -param psoSrc [in, out]
@@ -82,14 +83,14 @@ The mask will always be large enough to contain the relevant source; tiling is u
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure that limits the area to be modified in the destination. GDI services are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that limits the area to be modified in the destination. GDI services are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles.
 
-Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>, <b>DrvStretchBlt</b> can be called with a single clipping rectangle. This prevents rounding errors in clipping the output.
+Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>, <b>DrvStretchBlt</b> can be called with a single clipping rectangle. This prevents rounding errors in clipping the output.
 
 
 ### -param pxlo [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure that specifies how color indices are to be translated between the source and target surfaces. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
+Pointer to a <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure that specifies how color indices are to be translated between the source and target surfaces. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
 
 The XLATEOBJ structure can also be queried to find the RGB color for any source index. A high quality stretching bit-block transfer will need to interpolate colors in some cases.
 
@@ -101,12 +102,12 @@ Pointer to a COLORADJUSTMENT structure that defines the color adjustment values 
 
 ### -param pptlHTOrg [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that specifies the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
+Pointer to a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that specifies the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
 
 
 ### -param prclDest [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines the area to be modified in the coordinate system of the destination surface. This rectangle is defined by two points that are not necessarily well ordered, meaning the coordinates of the second point are not necessarily larger than those of the first point. The rectangle they describe does not include the lower and right edges. This function is never called with an empty destination rectangle.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the area to be modified in the coordinate system of the destination surface. This rectangle is defined by two points that are not necessarily well ordered, meaning the coordinates of the second point are not necessarily larger than those of the first point. The rectangle they describe does not include the lower and right edges. This function is never called with an empty destination rectangle.
 
 <b>DrvStretchBlt</b> should interchange the two <i>x</i> values and/or the two <i>y</i> values when the destination rectangle is not well ordered.
 
@@ -193,9 +194,9 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 <b>DrvStretchBlt</b> enables the device driver to write to GDI bitmaps, especially when the driver can perform halftoning. This function allows the same halftoning algorithm to be applied to GDI bitmaps and device surfaces.
 
-This function can be provided to handle only certain forms of stretching, such as by integer multiples. If the driver has hooked the call and is asked to perform an operation it does not support, the driver should forward the data to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565025">EngStretchBlt</a> for GDI to handle.
+This function can be provided to handle only certain forms of stretching, such as by integer multiples. If the driver has hooked the call and is asked to perform an operation it does not support, the driver should forward the data to <a href="https://msdn.microsoft.com/e8f3084c-6216-497b-923a-adef3bfe8bf7">EngStretchBlt</a> for GDI to handle.
 
-If the driver wants GDI to handle halftoning, and wants to ensure the proper <i>iMode</i> value, the driver can hook <b>DrvStretchBlt</b>, set <i>iMode</i> to HALFTONE, and call back to GDI with <a href="https://msdn.microsoft.com/library/windows/hardware/ff565025">EngStretchBlt</a> with the set <i>iMode</i> value.
+If the driver wants GDI to handle halftoning, and wants to ensure the proper <i>iMode</i> value, the driver can hook <b>DrvStretchBlt</b>, set <i>iMode</i> to HALFTONE, and call back to GDI with <a href="https://msdn.microsoft.com/e8f3084c-6216-497b-923a-adef3bfe8bf7">EngStretchBlt</a> with the set <i>iMode</i> value.
 
 <b>DrvStretchBlt</b> is optional for display drivers.
 
@@ -207,23 +208,23 @@ If the driver wants GDI to handle halftoning, and wants to ensure the proper <i>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a>
+<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+<a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565025">EngStretchBlt</a>
+<a href="https://msdn.microsoft.com/e8f3084c-6216-497b-923a-adef3bfe8bf7">EngStretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+<a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a>
+<a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a>
  
 
  

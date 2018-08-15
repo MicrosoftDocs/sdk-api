@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -103,7 +104,7 @@ If the function returns anything other than NO_ERROR, RAS will terminate the con
 
 RAS supports multiple Administration DLLs. However, RAS calls 
 <b>MprAdminGetIpAddressForUser</b> only in the first DLL that implements and export it. RAS ignores implementations of these functions in the other DLLs. RAS checks the DLLs for these functions in the order in which they are listed in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926940">registry</a>.
+<a href="https://msdn.microsoft.com/e83a5e37-a39d-4465-abc9-653cdd56893b">registry</a>.
 
 An administration DLL need not implement the 
 <b>MprAdminGetIpAddressForUser</b> function. However, if the DLL implements 

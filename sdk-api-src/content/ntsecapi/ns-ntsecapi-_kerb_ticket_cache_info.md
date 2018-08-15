@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -65,12 +66,12 @@ It can be used both for retrieving tickets and querying the ticket cache. The
 ### -field ServerName
 
 A
-						<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the server the ticket applies to. This name is combined with the <b>RealmName</b> value to create the full name <b>ServerName</b>@<b>RealmName</b>.
+						<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains the name of the server the ticket applies to. This name is combined with the <b>RealmName</b> value to create the full name <b>ServerName</b>@<b>RealmName</b>.
 
 
 ### -field RealmName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the realm the ticket applies to.
+A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains the name of the realm the ticket applies to.
 
 
 ### -field StartTime
@@ -179,7 +180,7 @@ Indicates to the ticket-granting server that a postdated ticket can be issued ba
 </dl>
 </td>
 <td width="60%">
-The target of the ticket is trusted by the directory service for delegation. Thus, clients may delegate their <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> to the server, which lets the server act as the client when talking to other services.
+The target of the ticket is trusted by the directory service for delegation. Thus, clients may delegate their <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> to the server, which lets the server act as the client when talking to other services.
 
 </td>
 </tr>

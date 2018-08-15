@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>DisplayConfigGetDeviceInfo</b> function retrieves display configuration i
 
 ### -param requestPacket [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type. 
+A pointer to a <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type. 
 
 
 ## -returns
@@ -166,19 +167,19 @@ The caller can call <b>DisplayConfigGetDeviceInfo</b>to obtain more friendly nam
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553989">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
+<a href="https://msdn.microsoft.com/85507b69-8ce0-4f39-a4d3-7d67f515b451">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553990">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
+<a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553909">DisplayConfigSetDeviceInfo</a>
+<a href="https://msdn.microsoft.com/4050b1f0-a588-427c-a0df-eefdc488fc20">DisplayConfigSetDeviceInfo</a>
  
 
  

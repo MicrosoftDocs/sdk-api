@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdUpdateOverlay</b> callback function repositions or modifies the visual 
 
 #### - lpUpdateOverlay
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551751">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
+Points to a <a href="https://msdn.microsoft.com/f9dd3fe3-1295-40c8-83d9-74861945921e">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
 
 
 ## -returns
@@ -101,7 +102,7 @@ Note that <a href="https://msdn.microsoft.com/4ce2e967-7b4a-4065-844d-d8852dec8a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551751">DD_UPDATEOVERLAYDATA</a>
+<a href="https://msdn.microsoft.com/f9dd3fe3-1295-40c8-83d9-74861945921e">DD_UPDATEOVERLAYDATA</a>
 
 
 

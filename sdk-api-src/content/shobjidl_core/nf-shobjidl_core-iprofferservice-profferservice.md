@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -66,9 +67,9 @@ Makes a service available to other objects on the same host.
 
 ### -param psp [in]
 
-Type: <b><a href="_inet_IServiceProvider_Interface">IServiceProvider</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>*</b>
 
-A pointer to an <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> interface.
+A pointer to an <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a> interface.
 
 
 ### -param pdwCookie [out]
@@ -109,7 +110,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="_inet_IServiceProvider_Interface">IServiceProvider</a>
+<a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>
  
 
  

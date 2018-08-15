@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -65,7 +66,7 @@ Returns the score of a rectangle as the probable touch target, compared to all o
 
 ### -param controlBoundingBox [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the bounding box of the UI element. 
+The <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that defines the bounding box of the UI element. 
 
 
 ### -param pHitTestingInput [in]
@@ -113,7 +114,7 @@ For consistency with Windows, frameworks that handle <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/C7275A12-4F76-485D-896F-3CCB8CE92F8E">Functions</a>
  
 
  

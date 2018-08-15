@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -76,7 +77,7 @@ The <b>IVdsDiskOnline</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/3f27dd46-2fa1-4522-9d35-db78255c6d11">Offline</a>
 </td>
 <td align="left" width="63%">
 Takes the disk offline.
@@ -85,7 +86,7 @@ Takes the disk offline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/b3366bc7-18ca-4a90-b4e7-e6213a7cc002">Online</a>
 </td>
 <td align="left" width="63%">
 Brings the disk online.

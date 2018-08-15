@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -139,7 +140,7 @@ The provided profiles adhere to version 2.10 of the ICC profile format. If the d
 
 The driver can safely access the entire memory map of each profile. The <i>pvSourceProfile</i>, <i>pvDestProfile</i>, and <i>pvTargetProfile</i> pointers are valid only during the scope of the call to <b>DrvIcmCreateTransform</b>.
 
-Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a> structure.
+Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
 
 
 
@@ -149,7 +150,7 @@ Drivers that report ICM support should implement this function. A driver indicat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556241">DrvIcmDeleteColorTransform</a>
+<a href="https://msdn.microsoft.com/aa1226d3-7b2a-4911-b785-eea9f72016f5">DrvIcmDeleteColorTransform</a>
  
 
  

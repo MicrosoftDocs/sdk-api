@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -153,7 +154,7 @@ Use
 
 The <b>NotifyTeredoPortChange</b> function is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552578">GetTeredoPort</a> function can be used to retrieve the initial UDP port number used by the Teredo client for the Teredo service port. 
+The <a href="https://msdn.microsoft.com/59d3764d-e560-4474-a73e-ab50bbddbf07">GetTeredoPort</a> function can be used to retrieve the initial UDP port number used by the Teredo client for the Teredo service port. 
 
 The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <b>NotifyTeredoPortChange</b> function. 
 
@@ -190,7 +191,7 @@ The UDP port number currently used by the Teredo client. This parameter is <b>ze
 
 </td>
 <td width="60%">
-The notification type. This member can be one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559286">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
+The notification type. This member can be one of the values from the <a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
 
 </td>
 </tr>
@@ -205,15 +206,15 @@ Once the <b>NotifyTeredoPortChange</b> function is called to register for change
 
 Any registration for change notifications does not persist across a system shut down or reboot.
 
-To deregister for change notifications, call the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544864">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyTeredoPortChange</b>. 
+To deregister for change notifications, call the  <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyTeredoPortChange</b>. 
 
-An application cannot make a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544864">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
+An application cannot make a call to the <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
 The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84066">http://www.ietf.org/rfc/rfc4380.txt</a>.
 
 The <b>NotifyTeredoPortChange</b> function is used primarily by firewall applications in order to configure the appropriate exceptions to allow incoming and outgoing Teredo traffic. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff568807">NotifyStableUnicastIpAddressTable</a> function is used primarily by applications that use the Teredo client.
+The <a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a> function is used primarily by applications that use the Teredo client.
 
 
 
@@ -223,15 +224,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff568807">Notif
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544864">CancelMibChangeNotify2</a>
+<a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552578">GetTeredoPort</a>
+<a href="https://msdn.microsoft.com/59d3764d-e560-4474-a73e-ab50bbddbf07">GetTeredoPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568807">NotifyStableUnicastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a>
  
 
  

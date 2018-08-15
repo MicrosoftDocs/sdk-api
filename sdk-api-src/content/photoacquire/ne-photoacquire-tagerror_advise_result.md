@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -115,7 +116,7 @@ The type of response allowed is of type <a href="https://msdn.microsoft.com/2fde
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545452">Enumeration Types</a>
+<a href="https://msdn.microsoft.com/767d20df-aeb4-4f86-a705-bfbb7dc254ff">Enumeration Types</a>
 
 
 

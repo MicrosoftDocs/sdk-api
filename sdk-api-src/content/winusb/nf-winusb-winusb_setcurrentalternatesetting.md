@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,12 +64,12 @@ The <b>WinUsb_SetCurrentAlternateSetting</b> function sets the alternate setting
 
 An opaque handle to an interface, which defines the alternate setting to set. 
 
-To set an alternate setting in the first interface on the device, use the interface handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
+To set an alternate setting in the first interface on the device, use the interface handle returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param SettingNumber [in]
 
-The value that is contained in the <b>bAlternateSetting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure. This structure is populated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540292">WinUsb_QueryInterfaceSettings</a> routine.
+The value that is contained in the <b>bAlternateSetting</b> member of the <a href="https://msdn.microsoft.com/12378915-fa3d-4054-bb06-6eb8b292559c">USB_INTERFACE_DESCRIPTOR</a> structure. This structure is populated by the <a href="https://msdn.microsoft.com/fe36e441-60eb-4df3-8100-6c441c599a60">WinUsb_QueryInterfaceSettings</a> routine.
 
 
 ## -returns
@@ -118,7 +119,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/12378915-fa3d-4054-bb06-6eb8b292559c">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
@@ -130,11 +131,11 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540292">WinUsb_QueryInterfaceSettings</a>
+<a href="https://msdn.microsoft.com/fe36e441-60eb-4df3-8100-6c441c599a60">WinUsb_QueryInterfaceSettings</a>
  
 
  

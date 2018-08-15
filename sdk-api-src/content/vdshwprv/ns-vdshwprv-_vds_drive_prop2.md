@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -148,19 +149,19 @@ A <a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_
 The spindle speed of the drive, in RPM. The default value for this member is zero. A value of zero means that the spindle speed is unknown. A value of 1 means that the drive does not have rotating media. (For example, it might be a solid-state drive.)
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_FAILED (8)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
-##### - health.VDS_H_FAILED (8)
+##### - health.VDS_H_PENDING_FAILURE (10)
 
 
 ##### - health.VDS_H_REPLACED (9)
 
 
-##### - health.VDS_H_PENDING_FAILURE (10)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ## -remarks

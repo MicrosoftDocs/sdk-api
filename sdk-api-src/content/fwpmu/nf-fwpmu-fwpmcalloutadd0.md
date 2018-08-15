@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,12 +64,12 @@ The <b>FwpmCalloutAdd0</b> function adds a new callout object to the system.
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call  <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call  <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param callout [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff550076">FWPM_CALLOUT0</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4f565de5-5bc9-4508-9e4b-28d14a82a9a5">FWPM_CALLOUT0</a>*</b>
 
 The callout object to be added.
 
@@ -157,7 +158,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-Some fields in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550076">FWPM_CALLOUT0</a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmCalloutAdd0</b>. If the caller supplies a null security descriptor, the system will assign a default security descriptor.
+Some fields in the <a href="https://msdn.microsoft.com/4f565de5-5bc9-4508-9e4b-28d14a82a9a5">FWPM_CALLOUT0</a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmCalloutAdd0</b>. If the caller supplies a null security descriptor, the system will assign a default security descriptor.
 
 This function cannot be called from within a read-only transaction. It will fail
 with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
@@ -186,7 +187,7 @@ By default filters that reference callouts that have been added but have not yet
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550076">FWPM_CALLOUT0</a>
+<a href="https://msdn.microsoft.com/4f565de5-5bc9-4508-9e4b-28d14a82a9a5">FWPM_CALLOUT0</a>
 
 
 

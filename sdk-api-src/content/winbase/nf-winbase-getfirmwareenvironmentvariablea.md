@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -113,7 +114,7 @@ Firmware variables are not supported on a legacy BIOS-based system. The <b>GetFi
 If you are creating a backup application, you can use this function to save all the boot settings for the system so they can be restored using the <a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a> 
 	 function if needed. 
 
-<b>GetFirmwareEnvironmentVariable</b> is the user-mode equivalent of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151553">ExGetFirmwareEnvironmentVariable</a> kernel-mode routine.
+<b>GetFirmwareEnvironmentVariable</b> is the user-mode equivalent of the <a href="https://msdn.microsoft.com/5AD76955-A44C-4231-9394-0B6595CFB33D">ExGetFirmwareEnvironmentVariable</a> kernel-mode routine.
 
 
 

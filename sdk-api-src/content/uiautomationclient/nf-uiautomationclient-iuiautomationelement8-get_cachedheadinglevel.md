@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ This property is read-only.
 
 
 
-<a href="winauto.iuiautomationelement8">IUIAutomationElement8</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829378(v=VS.85).aspx">IUIAutomationElement8</a>
  
 
  

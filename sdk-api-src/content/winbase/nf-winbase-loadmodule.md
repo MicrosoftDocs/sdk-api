@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Loads and executes an application or creates a new instance of an existing application.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function.</div><div> </div>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -185,7 +186,7 @@ The <b>LOADPARMS32</b> structure has the following form:
 <td><b>lpCmdShow</b></td>
 <td>Pointer to a structure containing two <b>WORD</b> values. The first value must always be set to two. The second value specifies how the application window is to be shown and is used to supply the <b>wShowWindow</b> member of the 
 <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
 <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function for a list of acceptable values.</td>
 </tr>
 <tr>
@@ -196,10 +197,10 @@ The <b>LOADPARMS32</b> structure has the following form:
  
 
 Applications should use the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function instead of 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function instead of 
 <b>LoadModule</b>. The 
 <b>LoadModule</b> function calls 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> by forming the parameters as follows.
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> by forming the parameters as follows.
 				
 
 <table>
@@ -262,7 +263,7 @@ Applications should use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

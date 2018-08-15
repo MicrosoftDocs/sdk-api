@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -58,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ]
 
 
-The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">key</a> pair that are used to sign the DRM header object.
+The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="wmformat_glossary.htm">key</a> pair that are used to sign the DRM header object.
 
 
 

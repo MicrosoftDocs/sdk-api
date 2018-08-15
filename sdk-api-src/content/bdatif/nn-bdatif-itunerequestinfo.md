@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -78,7 +79,7 @@ The <b>ITuneRequestInfo</b> interface has these methods.
 <a href="https://msdn.microsoft.com/cb4ec234-1e94-4c9f-8372-a5972df18948">CreateComponentList</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn922646">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
+Creates a new <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 
 </td>
 </tr>
@@ -87,7 +88,7 @@ Creates a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn922
 <a href="https://msdn.microsoft.com/769d112e-4df7-451c-ac12-440b16c33e88">GetComponentData</a>
 </td>
 <td align="left" width="63%">
-Fills in all network-specific component data for the existing <a href="https://msdn.microsoft.com/library/windows/hardware/dn922646">Components</a> collection on the specified tune request.
+Fills in all network-specific component data for the existing <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection on the specified tune request.
 
 </td>
 </tr>

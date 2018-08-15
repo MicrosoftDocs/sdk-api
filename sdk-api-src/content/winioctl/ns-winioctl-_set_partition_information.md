@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Contains information used to set a disk partition's type.
 <div class="alert"><b>Note</b>  <b>SET_PARTITION_INFORMATION</b> has been superseded by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
+<a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -71,15 +72,15 @@ The type of partition. For a list of values, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560373">IOCTL_DISK_GET_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/24053a1a-8cf8-4aa8-a611-15c9fae0a36d">IOCTL_DISK_GET_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560413">IOCTL_DISK_SET_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/868cad92-fa88-4a5a-98bb-92e73c115a22">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a>
  
 
  

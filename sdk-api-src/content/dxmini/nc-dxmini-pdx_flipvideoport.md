@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +75,14 @@ The<i> DxFlipVideoPort</i> callback function is called when a client of the vide
 
 
 
+#### - FlipVideoPortInfo
+
+Points to the <a href="https://msdn.microsoft.com/9cf87d19-2db6-48f8-96a6-2b6ac969c774">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
+
+
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
-
-
-#### - FlipVideoPortInfo
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549347">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
 
 
 #### - lpOutput
@@ -112,7 +113,7 @@ The <b>dwFlipVPFlags</b> member of the DDFLIPVIDEOPORTINFO structure at <i>FlipV
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549347">DDFLIPVIDEOPORTINFO</a>
+<a href="https://msdn.microsoft.com/9cf87d19-2db6-48f8-96a6-2b6ac969c774">DDFLIPVIDEOPORTINFO</a>
  
 
  

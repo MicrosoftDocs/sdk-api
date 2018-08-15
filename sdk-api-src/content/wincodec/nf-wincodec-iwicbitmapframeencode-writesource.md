@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -88,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If <a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a> is not called prior to calling <b>WriteSource</b>, the size given in <i>prc</i> is used if not <b>NULL</b>. Otherwise, the size of the <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> given in <i>pIBitmapSource</i> is used. 
+If <a href="https://msdn.microsoft.com/e21e1a66-b1fa-4700-a14e-dc382b5404f7">SetSize</a> is not called prior to calling <b>WriteSource</b>, the size given in <i>prc</i> is used if not <b>NULL</b>. Otherwise, the size of the <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> given in <i>pIBitmapSource</i> is used. 
 
 If <a href="https://msdn.microsoft.com/9327b5dd-18a3-40c6-8bb4-245fcc7fb582">SetPixelFormat</a> is not called prior to calling <b>WriteSource</b>, the pixel format of the <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> given in <i>pIBitmapSource</i> is used.
 
@@ -98,9 +99,9 @@ If <a href="https://msdn.microsoft.com/c463fc95-695d-4ba3-bf62-5b09d69c60c2">Set
 
 When encoding a GIF image, if the global palette is set and the frame level palette is not set directly by the user or by a custom independent software vendor (ISV) GIF codec, <b>WriteSource</b> will use the global palette to encode the frame even when <i>pIBitmapSource</i> has a frame level palette.
 
-Starting with  Windows Vista, repeated <b>WriteSource</b> calls can be made as long as the total accumulated source rect height is the same as set through <a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>.
+Starting with  Windows Vista, repeated <b>WriteSource</b> calls can be made as long as the total accumulated source rect height is the same as set through <a href="https://msdn.microsoft.com/e21e1a66-b1fa-4700-a14e-dc382b5404f7">SetSize</a>.
 
-Starting with Windows 8.1, the source rect must be at least the dimensions set through <a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>. If the source rect width exceeds the <b>SetSize</b> width, extra pixels on the right side are ignored. If the source rect height exceeds the remaining unfilled height, extra scan lines on the bottom are ignored.
+Starting with Windows 8.1, the source rect must be at least the dimensions set through <a href="https://msdn.microsoft.com/e21e1a66-b1fa-4700-a14e-dc382b5404f7">SetSize</a>. If the source rect width exceeds the <b>SetSize</b> width, extra pixels on the right side are ignored. If the source rect height exceeds the remaining unfilled height, extra scan lines on the bottom are ignored.
 
 
 

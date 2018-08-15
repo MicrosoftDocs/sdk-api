@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,7 +74,7 @@ The address of a caller-allocated variable that receives a <b>NULL</b>-terminate
 
 
 The path can be a long or short file name and can use the prefix "\\?\". For more information, see 
-<a href="base.naming_a_file">Naming a File</a>.
+<a href="https://msdn.microsoft.com/library/Aa365247(v=VS.85).aspx">Naming a File</a>.
 
 Users of this method need to check to determine whether this path ends with a backslash ("\").
 

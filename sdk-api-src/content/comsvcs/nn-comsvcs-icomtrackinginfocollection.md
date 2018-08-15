@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,7 +71,7 @@ The <b>IComTrackingInfoCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/72578a4e-bc23-4bc8-ab40-346ba9c5a6d7">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of objects in a tracking information collection.
@@ -79,7 +80,7 @@ Retrieves the number of objects in a tracking information collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/61da742b-d8cd-48db-a9b7-c754b8963907">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified interface from a specified member of a tracking information collection.
@@ -88,7 +89,7 @@ Retrieves the specified interface from a specified member of a tracking informat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1">Type</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of a tracking information collection.

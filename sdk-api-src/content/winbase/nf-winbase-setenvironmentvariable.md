@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -74,7 +75,7 @@ The name of the environment variable. The operating system creates the environme
 ### -param lpValue [in, optional]
 
 The contents of the environment variable. The maximum size of a user-defined environment variable is 32,767 characters. For more information, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543043">Environment Variables</a>.
+<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The total size of the environment block for a process may not exceed 32,767 characters.
 
@@ -114,7 +115,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543043">Environment Variables</a>
+<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>FwpmFilterAdd0</b> function adds a new filter object to the system.
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call  <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call  <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param filter [in]
@@ -75,7 +76,7 @@ The filter object to be added.
 
 ### -param sd [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a></b>
 
 Security information about the filter object.
 
@@ -207,7 +208,7 @@ To add a filter that references a callout, invoke the functions in the following
 
 <ul>
 <li>Call <a href="http://go.microsoft.com/fwlink/p/?linkid=199850">FwpsCalloutRegister0</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
-<li>Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a> to add the callout to the system.</li>
+<li>Call <a href="https://msdn.microsoft.com/e4f79262-6345-49e9-a50c-9f8a82f2df0e">FwpmCalloutAdd0</a> to add the callout to the system.</li>
 <li>Call <b>FwpmFilterAdd0</b> to add the filter that references the callout to the system.</li>
 </ul>
 By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as Block filters.

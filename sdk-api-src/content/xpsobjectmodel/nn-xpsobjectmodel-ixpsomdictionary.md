@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Appends an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f0e57247-73c2-466e-beba-b4dd09fb1f3c">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the interface.
@@ -90,7 +91,7 @@ Makes a deep copy of the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/818797dd-7255-453c-85b3-cf0c44fe5d0d">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets the <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface pointer and the key name string of the entry at a specified index in the dictionary.
@@ -110,7 +111,7 @@ Gets the <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d82096
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/66737d94-aa63-4f01-a446-1dffc18e8b82">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of entries in the dictionary.
@@ -148,7 +149,7 @@ Inserts an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/fd86046b-8d87-4093-bfbd-b91e5bacba49">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes and releases the entry from a specified location in the dictionary.
@@ -191,7 +192,7 @@ A dictionary cannot contain duplicate interface pointers.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -81,7 +82,7 @@ An <a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA
 ### -field DomainGuid
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that contains the GUID of the primary domain.
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that contains the GUID of the primary domain.
 
 
 ### -field Sid

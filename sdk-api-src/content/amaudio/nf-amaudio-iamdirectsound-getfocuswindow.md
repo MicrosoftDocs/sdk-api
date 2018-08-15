@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,11 +70,6 @@ The <code>GetFocusWindow</code> method retrieves the window that is handling sou
 
 
 
-#### - hWnd [out]
-
-Pointer to a variable that receives a handle to the window. If sound playback is not associated with a window, the returned value is <b>NULL</b>.
-
-
 #### - bMixingOnOrOff [out]
 
 Pointer to a variable that receives one of the following values.
@@ -95,6 +91,11 @@ Pointer to a variable that receives one of the following values.
 </tr>
 </table>
  
+
+
+#### - hWnd [out]
+
+Pointer to a variable that receives a handle to the window. If sound playback is not associated with a window, the returned value is <b>NULL</b>.
 
 
 ## -returns

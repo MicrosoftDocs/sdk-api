@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,12 +66,12 @@ The <b>ReleaseBuffer</b> method releases a buffer that was locked by a previous 
 
 ### -param dwTypeIndex [in]
 
-The surface type of the buffer. Use the same value that was passed to the <i>dwTypeIndex</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> method.
+The surface type of the buffer. Use the same value that was passed to the <i>dwTypeIndex</i> parameter of the <a href="https://msdn.microsoft.com/3385cad2-8885-4b17-83fa-f40f25b0c433">GetBuffer</a> method.
 
 
 ### -param dwBufferIndex [in]
 
-The zero-based index of the buffer. Use the same value that was passed to the <i>dwBufferIndex</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> method.
+The zero-based index of the buffer. Use the same value that was passed to the <i>dwBufferIndex</i> parameter of the <a href="https://msdn.microsoft.com/3385cad2-8885-4b17-83fa-f40f25b0c433">GetBuffer</a> method.
           
 
 
@@ -176,7 +177,7 @@ If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTE
 
 This method unlocks a single buffer. The video decoder calls this method when the buffer is no longer required, after any calls to <a href="https://msdn.microsoft.com/12794739-9120-4dc1-b95d-6d390d25726b">IAMVideoAccelerator::Execute</a> have been made using that buffer.
 
-The buffer pointer obtained from <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> is no longer valid after this call.
+The buffer pointer obtained from <a href="https://msdn.microsoft.com/3385cad2-8885-4b17-83fa-f40f25b0c433">GetBuffer</a> is no longer valid after this call.
       
 
 

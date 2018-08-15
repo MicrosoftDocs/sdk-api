@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -211,7 +212,7 @@ Initializes the object from an <a href="https://msdn.microsoft.com/2503adcb-0b73
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965797">Policies</a>
+<a href="https://msdn.microsoft.com/eefb515d-62dc-4ad7-b0c4-c65a4da5742e">Policies</a>
 
 
 </td>

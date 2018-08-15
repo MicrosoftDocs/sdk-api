@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -111,7 +112,7 @@ Embedded devices are differentiated by their UDNs.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/0c1ea343-f04b-414d-92cf-044cb117bc9c">Initialize</a>
  
 
  

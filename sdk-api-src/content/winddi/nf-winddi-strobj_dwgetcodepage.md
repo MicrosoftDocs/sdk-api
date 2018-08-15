@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>STROBJ_dwGetCodePage</b> function returns the code page associated with t
 
 ### -param pstro
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a> structure with which the code page is associated.
+Pointer to a <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure with which the code page is associated.
 
 
 ## -returns
@@ -78,7 +79,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5697
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a>
+<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
  
 
  

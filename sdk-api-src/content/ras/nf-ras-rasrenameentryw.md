@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,16 +78,16 @@ Pointer to a null-terminated string that specifies the full path and file name o
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpszOldEntry [in]
-
-Pointer to a null-terminated string that specifies an existing entry name.
-
-
 #### - lpszNewEntry [in]
 
 Pointer to a null-terminated string that specifies the new entry name. Before calling 
 <b>RasRenameEntry</b>, call the 
 <a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the new entry name.
+
+
+#### - lpszOldEntry [in]
+
+Pointer to a null-terminated string that specifies an existing entry name.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -86,7 +87,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 An application that performs I/O directly to a high-performance device typically caches a virtual-to-physical 
     memory mapping for the buffer it uses for the I/O. The device's driver typically secures this memory address range 
-    by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556374">MmSecureVirtualMemory</a> routine, 
+    by calling the <a href="https://msdn.microsoft.com/e5c2d5d5-550e-42e5-b86a-f17e361925dc">MmSecureVirtualMemory</a> routine, 
     which prevents the memory range from being freed or its protections  changed until the driver unsecures the 
     memory.
 

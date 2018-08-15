@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -56,7 +57,7 @@ The
 <a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> interface. The 
 <b>IComponentData2</b> interface contains the 
 <a href="https://msdn.microsoft.com/efff70f9-0226-4cf1-a6b3-475d90b379f9">IComponentData2::QueryDispatch</a> method, which provides an <b>IDispatch</b> interface to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a> object for use with the 
+<a href="https://msdn.microsoft.com/004043d1-c7c3-4385-a4f5-a7fbf616d05c">View</a> object for use with the 
 <a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a>.
 
 
@@ -108,7 +109,7 @@ Retrieves display information about an item in the scope pane.</p> (Inherited fr
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/7893b3d6-f576-41cc-bbe5-2fcef7c327d7">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides an entry point to the console.</p> (Inherited from <a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a>)</td>

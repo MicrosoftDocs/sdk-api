@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -116,7 +117,7 @@ Retrieves an <b>IUnknown</b> interface pointer to a device memory control object
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://msdn.microsoft.com/ee3070ed-98df-4f20-a91f-bb3c3492f3d8">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the memory capabilities.

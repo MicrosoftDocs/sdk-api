@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains the output for the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545421">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
+<a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
 
 
 ## -struct-fields
@@ -106,7 +107,7 @@ The LCN at which the current extent begins on the volume. This value is an input
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545421">FSCTL_GET_RETRIEVAL_POINTERS</a>
+<a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a>
 
 
 

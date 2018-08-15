@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -164,7 +165,7 @@ For more information, see <a href="https://msdn.microsoft.com/056fd245-a9d2-4a10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546956">PPORT_ADVANCED_DIALOG</a>
+<a href="https://msdn.microsoft.com/f459278b-334c-43f4-b696-b6a98c03da21">PPORT_ADVANCED_DIALOG</a>
  
 
  

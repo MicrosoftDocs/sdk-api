@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -83,7 +84,7 @@ Clears the contents of an unburned image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/c5ebeca1-baaa-49ac-87ac-134d4b37e8c9">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the interface.
@@ -128,7 +129,7 @@ Retrieves the active disc recorder format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/f9d64a07-67d9-4cc1-aeb5-64762a4e8153">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an IMAPI object.

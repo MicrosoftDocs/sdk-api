@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -94,7 +95,7 @@ Adds multiple files to the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the job and removes temporary files from the client.
@@ -103,7 +104,7 @@ Cancels the job and removes temporary files from the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a>
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a>
 </td>
 <td align="left" width="63%">
 Ends the job and saves the transferred files on the client.
@@ -121,7 +122,7 @@ Returns an interface pointer to an enumerator object that you use to enumerate t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/1a791390-2bd8-4732-98a2-74f740cfd822">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the job.
@@ -157,7 +158,7 @@ Retrieves the number of times the job was interrupted by network failure or serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/bc214b2e-fbf3-446e-abce-56e515dcfadf">GetId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the job in the queue.
@@ -257,7 +258,7 @@ Retrieves time stamps for activities related to the job, such as the time the jo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/b84c45c2-379a-40d0-91ab-0124f0ef6b00">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of transfer being performed, such as a file download.
@@ -348,7 +349,7 @@ Specifies which proxy to use to transfer the files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a>
+<a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">Suspend</a>
 </td>
 <td align="left" width="63%">
 Pauses the job.

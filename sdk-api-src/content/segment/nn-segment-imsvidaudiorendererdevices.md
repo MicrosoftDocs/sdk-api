@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IMSVidAudioRendererDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/663ca24a-9f27-4642-b8e1-901f93090bd7">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an audio renderer to the collection.
@@ -110,7 +111,7 @@ Retrieves the specified item from the collection
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/5a9cf752-e3f8-40bf-89e8-e223654e4080">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

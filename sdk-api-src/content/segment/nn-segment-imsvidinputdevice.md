@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -93,7 +94,7 @@ Determines whether this device can view the specified tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a>
+<a href="https://msdn.microsoft.com/f106e520-86e5-4b7e-8e16-1f82797f128f">View</a>
 </td>
 <td align="left" width="63%">
 Configures the input device to view the specified tune request.

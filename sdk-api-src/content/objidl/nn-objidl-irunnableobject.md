@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Enables a container to control the running of its embedded objects. In the case of an object implemented with a local server, calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a> method launches the server's .EXE file. In the case of an object implemented with an in-process server, calling <b>Run</b> causes the object .DLL file to transition into the running state.
+Enables a container to control the running of its embedded objects. In the case of an object implemented with a local server, calling the <a href="https://msdn.microsoft.com/fb79e81c-0655-48ea-afb5-dab3529676d0">Run</a> method launches the server's .EXE file. In the case of an object implemented with an in-process server, calling <b>Run</b> causes the object .DLL file to transition into the running state.
 
 
 ## -inheritance
@@ -98,7 +99,7 @@ Locks an already running object into its running state or unlocks it from its ru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/fb79e81c-0655-48ea-afb5-dab3529676d0">Run</a>
 </td>
 <td align="left" width="63%">
 Forces an object to run.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>STROBJ_bGetAdvanceWidths</b> function retrieves an array of vectors speci
 
 ### -param pso
 
-Is a caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a> structure describing a text string. This is typically the STROBJ structure received by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a> function.
+Is a caller-supplied pointer to a <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure describing a text string. This is typically the STROBJ structure received by the driver's <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> function.
 
 
 ### -param iFirst [in]
@@ -92,7 +93,7 @@ If the operation succeeds, the function returns <b>TRUE</b>; otherwise it return
 
 
 
-The <b>STROBJ_bGetAdvanceWidths</b> function is useful to printer drivers that call <a href="https://msdn.microsoft.com/library/windows/hardware/ff569740">STROBJ_bEnumPositionsOnly</a> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569739">STROBJ_bEnum</a>. The function fills in the <i>pptqD</i> array with the probable widths of a string's glyphs, and can be used to calculate the printer position after a string as been rendered by the printer, if the printer's glyph rendering hardware does not return exact character widths.
+The <b>STROBJ_bGetAdvanceWidths</b> function is useful to printer drivers that call <a href="https://msdn.microsoft.com/d5ffe766-843d-4e42-8cc8-bc405e78a2fd">STROBJ_bEnumPositionsOnly</a> instead of <a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a>. The function fills in the <i>pptqD</i> array with the probable widths of a string's glyphs, and can be used to calculate the printer position after a string as been rendered by the printer, if the printer's glyph rendering hardware does not return exact character widths.
 
 Note that glyph positions returned by <b>STROBJ_bEnumPositionsOnly</b> do not necessarily correspond exactly to the widths returned by <b>STROBJ_bGetAdvanceWidths.</b>
 
@@ -104,19 +105,19 @@ Note that glyph positions returned by <b>STROBJ_bEnumPositionsOnly</b> do not ne
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a>
+<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569739">STROBJ_bEnum</a>
+<a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569740">STROBJ_bEnumPositionsOnly</a>
+<a href="https://msdn.microsoft.com/d5ffe766-843d-4e42-8cc8-bc405e78a2fd">STROBJ_bEnumPositionsOnly</a>
  
 
  

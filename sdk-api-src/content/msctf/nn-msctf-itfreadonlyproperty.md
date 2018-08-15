@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -80,7 +81,7 @@ Obtains an enumeration of ranges that contain unique values of the property with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/2f6becd7-c4d0-45ed-8038-1f706d8e60c7">GetContext</a>
 </td>
 <td align="left" width="63%">
 Obtains the context object for the property.
@@ -89,7 +90,7 @@ Obtains the context object for the property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/a0c47d13-c290-4efe-ad73-6dcb654dc18f">GetType</a>
 </td>
 <td align="left" width="63%">
 Obtains the property identifier.
@@ -98,7 +99,7 @@ Obtains the property identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/c82ef360-e0b1-4e1a-b839-36b8e9c52347">GetValue</a>
 </td>
 <td align="left" width="63%">
 Obtains the value of the property for a range of text.

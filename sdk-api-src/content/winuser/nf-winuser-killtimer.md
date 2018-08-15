@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -134,7 +135,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644901(v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564648">Timers</a>
+<a href="https://msdn.microsoft.com/be335927-a78d-4023-bedb-94aaf3a561ae">Timers</a>
 
 
 

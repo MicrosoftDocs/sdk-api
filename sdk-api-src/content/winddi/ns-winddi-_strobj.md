@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -180,12 +181,12 @@ Specifies whether the font is a fixed-pitch (monospace) font. If it is, this mem
 
 ### -field rclBkGround
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that describes the bounding box for the string.
+Specifies a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that describes the bounding box for the string.
 
 
 ### -field pgp
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566824">GLYPHPOS</a> array for the whole string. Can be <b>NULL</b> (see the following <b>Remarks</b> section).
+Pointer to the <a href="https://msdn.microsoft.com/1eb80e7a-93f5-474c-bed9-5b19f6657788">GLYPHPOS</a> array for the whole string. Can be <b>NULL</b> (see the following <b>Remarks</b> section).
 
 
 ### -field pwszOrg
@@ -197,7 +198,7 @@ Pointer to the original Unicode string or <b>cGlyphs</b> characters. Contrary to
 
 
 
-A driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff569745">STROBJ_vEnumStart</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff569739">STROBJ_bEnum</a> to obtain identities and positions of glyphs in the string. If <i>pgp</i> is not <b>NULL</b>, it points to a GLYPHPOS array describing the whole string and only a single call to <b>STROBJ_bEnum</b> is required. If <i>pgp</i> is <b>NULL</b>, <b>STROBJ_bEnum</b> will have to be called repeatedly in a loop to obtain all the string's glyph positions.
+A driver can call <a href="https://msdn.microsoft.com/568af273-2b9d-4782-849f-6cb9c49952e0">STROBJ_vEnumStart</a> and <a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a> to obtain identities and positions of glyphs in the string. If <i>pgp</i> is not <b>NULL</b>, it points to a GLYPHPOS array describing the whole string and only a single call to <b>STROBJ_bEnum</b> is required. If <i>pgp</i> is <b>NULL</b>, <b>STROBJ_bEnum</b> will have to be called repeatedly in a loop to obtain all the string's glyph positions.
 
 
 
@@ -207,11 +208,11 @@ A driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556230">DrvGetGlyphMode</a>
+<a href="https://msdn.microsoft.com/8e11c4e7-0203-4445-8f33-3b928161c62a">DrvGetGlyphMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
  
 
  

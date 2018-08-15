@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -76,7 +77,7 @@ A descriptor that identifies an unbound and unconnected socket. Note that unlike
 
 ### -param SocketAddress [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570826">SOCKET_ADDRESS_LIST</a> 
+A pointer to a <a href="https://msdn.microsoft.com/da727dba-3814-4b6a-bc05-ab8fbd8fbe90">SOCKET_ADDRESS_LIST</a> 
       structure that represents the possible destination address and port pairs to connect to a peer. It is the 
       application's responsibility to fill in the port number in the each 
       <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structure in the 
@@ -406,7 +407,7 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a>
 
 
 
@@ -414,7 +415,7 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570826">SOCKET_ADDRESS_LIST</a>
+<a href="https://msdn.microsoft.com/da727dba-3814-4b6a-bc05-ab8fbd8fbe90">SOCKET_ADDRESS_LIST</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -108,7 +109,7 @@ When the iSCSI initiator service receives a request from the <b>AddRadiusServer<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRadiusServer</a>
+<a href="https://msdn.microsoft.com/e096a91b-84de-4b7d-a0d6-1364746ec488">RemoveRadiusServer</a>
  
 
  

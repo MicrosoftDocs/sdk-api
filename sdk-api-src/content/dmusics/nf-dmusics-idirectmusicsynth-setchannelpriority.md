@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -98,7 +99,7 @@ For more information, see the description of the <b>IDirectMusicPort::GetChannel
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536534">IDirectMusicSynth::GetChannelPriority</a>
+<a href="https://msdn.microsoft.com/be49f7eb-f0ab-48b3-9776-79811309fcee">IDirectMusicSynth::GetChannelPriority</a>
  
 
  

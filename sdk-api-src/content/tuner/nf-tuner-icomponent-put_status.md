@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_Status</b> method sets the requested or actual status of the componen
 
 ### -param Status [in]
 
-A variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557723">ComponentStatus</a> that specifies the status value.
+A variable of type <a href="https://msdn.microsoft.com/687ae778-0c25-47ca-bec9-9e6c28f22249">ComponentStatus</a> that specifies the status value.
 
 
 ## -returns

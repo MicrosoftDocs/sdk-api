@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,19 +75,19 @@ The<i> DxGetCurrentAutoflip</i> callback function is called when the device is h
 
 
 
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
-
-
 #### - GetCurrentAutoflipInInfo
 
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549393">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
+Points to the <a href="https://msdn.microsoft.com/17443cab-7dc6-4bc9-ae0c-463c6f76d768">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
 
 
 #### - GetCurrentAutoflipOutInfo
 
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549396">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
+Points to the <a href="https://msdn.microsoft.com/2dea32ab-9f4a-4184-9979-1103f1b26730">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
+
+
+#### - HwDeviceExtension
+
+Points to the miniport driver's device extension.
 
 
 ## -returns
@@ -112,11 +113,11 @@ The <i>DxGetCurrentAutoflip</i> function returns the current index in the autofl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549393">DDGETCURRENTAUTOFLIPININFO</a>
+<a href="https://msdn.microsoft.com/17443cab-7dc6-4bc9-ae0c-463c6f76d768">DDGETCURRENTAUTOFLIPININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549396">DDGETCURRENTAUTOFLIPOUTINFO</a>
+<a href="https://msdn.microsoft.com/2dea32ab-9f4a-4184-9979-1103f1b26730">DDGETCURRENTAUTOFLIPOUTINFO</a>
  
 
  

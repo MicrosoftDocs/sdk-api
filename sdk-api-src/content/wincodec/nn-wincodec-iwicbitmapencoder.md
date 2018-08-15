@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IWICBitmapEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/97e39e73-3494-4679-8962-eb48242f9b9f">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits all changes for the image and closes the stream.
@@ -116,7 +117,7 @@ Retrieves a metadata query writer for the encoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/344a9a9d-8557-4ae8-9604-4040c7d7095a">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the encoder with an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> which tells the encoder where to encode the bits.

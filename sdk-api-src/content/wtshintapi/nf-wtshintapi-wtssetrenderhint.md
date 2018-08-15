@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wtshintapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -93,7 +94,7 @@ The previous hint is cleared.
 
 Indicates the presence of moving video.
 
-<i>pHintData</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure 
+<i>pHintData</i> contains a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure 
           which specifies the coordinates and size of the rendering area. These per-monitor DPI-aware coordinates are 
           relative to the client coordinates of the window represented by the <i>hwndOwner</i> 
           parameter.
@@ -107,7 +108,7 @@ Indicates the presence of moving video.
 
 Indicates the presence of a window mapping.
 
-<i>pHintData</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure 
+<i>pHintData</i> contains a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure 
          which specifies the coordinates and size of the rendering area. These per-monitor DPI-aware coordinates are 
          relative to the client coordinates of the window represented by the <i>hwndOwner</i> 
          parameter.

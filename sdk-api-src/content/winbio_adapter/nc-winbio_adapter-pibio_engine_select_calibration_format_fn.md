@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -66,7 +67,7 @@ Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae4
 
 ### -param FormatArray [in]
 
-Address of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536480">WINBIO_UUID</a> items identifying the calibration data formats supported by the Sensor Adapter. The Engine Adapter is expected to choose one of these formats for its calibration data.
+Address of an array of <a href="https://msdn.microsoft.com/ee5cc6ee-c9d4-4295-b0ef-93b12ba8a824">WINBIO_UUID</a> items identifying the calibration data formats supported by the Sensor Adapter. The Engine Adapter is expected to choose one of these formats for its calibration data.
 
 
 ### -param FormatCount [in]
@@ -76,7 +77,7 @@ Value indicating the number of UUIDs in the <i>FormatArray</i> parameter.
 
 ### -param SelectedFormat [out]
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536480">WINBIO_UUID</a> item where the <b>EngineAdapterSelectCalibrationFormat</b> method will store the UUID of the selected calibration format. This must be one of the UUIDs in the <i>FormatArray</i> parameter.
+Address of a <a href="https://msdn.microsoft.com/ee5cc6ee-c9d4-4295-b0ef-93b12ba8a824">WINBIO_UUID</a> item where the <b>EngineAdapterSelectCalibrationFormat</b> method will store the UUID of the selected calibration format. This must be one of the UUIDs in the <i>FormatArray</i> parameter.
 
 
 ### -param MaxBufferSize [out]

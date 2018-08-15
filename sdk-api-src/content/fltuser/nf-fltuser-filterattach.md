@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -93,7 +94,7 @@ The <i>lpVolumeName</i> parameter is required and cannot be <b>NULL</b>.
 
 ### -param lpInstanceName [in, optional]
 
-Pointer to a null-terminated wide-character string containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the new instance receives the minifilter's default instance name as described in the Remarks section for <a href="https://msdn.microsoft.com/library/windows/hardware/ff541772">FltAttachVolume</a>. 
+Pointer to a null-terminated wide-character string containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the new instance receives the minifilter's default instance name as described in the Remarks section for <a href="https://msdn.microsoft.com/da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9">FltAttachVolume</a>. 
 
 
 ### -param dwCreatedInstanceNameLength [in, optional]
@@ -160,13 +161,13 @@ If <i>lpInstanceName</i> is non-<b>NULL</b>, <i>lpInstanceName</i> does not matc
 
 
 
-<b>FilterAttach</b> is the Win32 equivalent of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541772">FltAttachVolume</a>. 
+<b>FilterAttach</b> is the Win32 equivalent of <a href="https://msdn.microsoft.com/da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9">FltAttachVolume</a>. 
 
 The instance name specified in <i>lpInstanceName</i> is required to be unique across the system. 
 
-To attach a minifilter instance to a volume at a given altitude, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>. 
+To attach a minifilter instance to a volume at a given altitude, call <a href="https://msdn.microsoft.com/7ffbcea4-2047-40a2-9dab-4b91f77c6ce7">FilterAttachAtAltitude</a>. 
 
-To detach a minifilter instance from a volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>. 
+To detach a minifilter instance from a volume, call <a href="https://msdn.microsoft.com/798b1672-ea3a-418b-a52d-d57b15ed9426">FilterDetach</a>. 
 
 
 
@@ -176,15 +177,15 @@ To detach a minifilter instance from a volume, call <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+<a href="https://msdn.microsoft.com/7ffbcea4-2047-40a2-9dab-4b91f77c6ce7">FilterAttachAtAltitude</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+<a href="https://msdn.microsoft.com/798b1672-ea3a-418b-a52d-d57b15ed9426">FilterDetach</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541772">FltAttachVolume</a>
+<a href="https://msdn.microsoft.com/da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9">FltAttachVolume</a>
  
 
  

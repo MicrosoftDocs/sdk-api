@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -64,12 +65,12 @@ Specifies how to compare the attributes on two objects.
 
 ### -field MF_ATTRIBUTES_MATCH_OUR_ITEMS
 
-Check whether all the attributes in <i>pThis</i> exist in <i>pTheirs</i> and have the same data, where <i>pThis</i> is the object whose <a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a> method is being called and <i>pTheirs</i> is the object given in the <i>pTheirs</i> parameter.
+Check whether all the attributes in <i>pThis</i> exist in <i>pTheirs</i> and have the same data, where <i>pThis</i> is the object whose <a href="https://msdn.microsoft.com/1d0c9d1c-448d-4851-b183-94b04acb2ab5">Compare</a> method is being called and <i>pTheirs</i> is the object given in the <i>pTheirs</i> parameter.
 
 
 ### -field MF_ATTRIBUTES_MATCH_THEIR_ITEMS
 
-Check whether all the attributes in <i>pTheirs</i> exist in <i>pThis</i> and have the same data, where <i>pThis</i> is the object whose <a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a> method is being called and <i>pTheirs</i> is the object given in the <i>pTheirs</i> parameter.
+Check whether all the attributes in <i>pTheirs</i> exist in <i>pThis</i> and have the same data, where <i>pThis</i> is the object whose <a href="https://msdn.microsoft.com/1d0c9d1c-448d-4851-b183-94b04acb2ab5">Compare</a> method is being called and <i>pTheirs</i> is the object given in the <i>pTheirs</i> parameter.
 
 
 ### -field MF_ATTRIBUTES_MATCH_ALL_ITEMS

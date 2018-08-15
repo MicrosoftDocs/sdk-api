@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -152,7 +153,7 @@ Volume handles do not have access to the full volume. To read or write to the la
 
 
 This operation should be used instead of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560375">IOCTL_DISK_GET_PARTITION_INFO_EX</a> for volumes that do not have partition info—such as partition type or number of hidden sectors.
+<a href="https://msdn.microsoft.com/f84f8be6-2b01-4a20-8669-cb1a55c32907">IOCTL_DISK_GET_PARTITION_INFO_EX</a> for volumes that do not have partition info—such as partition type or number of hidden sectors.
 
 
 
@@ -170,7 +171,7 @@ This operation should be used instead of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554986">GET_LENGTH_INFORMATION</a>
+<a href="https://msdn.microsoft.com/a0d2a5bc-32e0-47d6-a4f0-84bd7f6bb746">GET_LENGTH_INFORMATION</a>
  
 
  

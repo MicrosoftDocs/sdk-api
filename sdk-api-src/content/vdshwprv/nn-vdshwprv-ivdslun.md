@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -103,7 +104,7 @@ Deletes the LUN and all of its plexes.</p> (Inherited from <b>IVdsLun</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922720">Extend</a>
+<a href="https://msdn.microsoft.com/65520b6a-206a-4b90-b8cc-b7964d0cf102">Extend</a>
 </td>
 <td align="left" width="63%">
 Extends a LUN by a specified number of bytes. The caller can specify a list of drives for the provider to 
@@ -119,7 +120,7 @@ Returns the LUN identification data, which comprises fields from the SCSI Inquir
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the LUN properties.</p> (Inherited from <b>IVdsLun</b>)</td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certexit.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ The <b>ICertExit</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/362d67c7-54ab-482e-9b2b-05ba1b6e2a70">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns a description of the exit module and its function.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
@@ -88,7 +89,7 @@ Returns a description of the exit module and its function.</p> (Inherited from <
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/61d27de8-f940-4f18-ba44-7e91378f035c">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called by the server engine when it initializes itself.</p> (Inherited from <b>ICertExit</b><a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>

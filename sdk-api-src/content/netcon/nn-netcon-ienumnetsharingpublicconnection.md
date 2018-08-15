@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IEnumNetSharingPublicConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/5343acd3-d148-442c-a1d7-226248556f17">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumeration interface from this enumeration.
@@ -83,7 +84,7 @@ Creates a new enumeration interface from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/36df4f20-785f-4335-ba75-094533068685">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of public connections from this enumeration.
@@ -92,7 +93,7 @@ Retrieves a specified number of public connections from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/f58a9efb-bb0d-477c-946f-5bef6c5635d8">Reset</a>
 </td>
 <td align="left" width="63%">
 Causes subsequent calls to operate from the beginning of the enumeration.
@@ -101,7 +102,7 @@ Causes subsequent calls to operate from the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/25466a29-368b-4970-9995-5272cbca3c0a">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of public connections in this enumeration.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,11 +70,6 @@ The <code>SetFocusWindow</code> method specifies a window to handle sound playba
 
 
 
-#### - hWnd [in]
-
-Specifies a handle to the window. If this value is <b>NULL</b>, the sound will not be associated with any window.
-
-
 #### - bMixingOnOrOff [in]
 
 Specifies whether to mix the sound when the window loses focus.
@@ -95,6 +91,11 @@ Specifies whether to mix the sound when the window loses focus.
 </tr>
 </table>
  
+
+
+#### - hWnd [in]
+
+Specifies a handle to the window. If this value is <b>NULL</b>, the sound will not be associated with any window.
 
 
 ## -returns

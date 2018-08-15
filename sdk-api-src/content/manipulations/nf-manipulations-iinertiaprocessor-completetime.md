@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -88,7 +89,7 @@ The <b>CompleteTime</b> method raises the <a href="https://msdn.microsoft.com/12
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a>
+<a href="https://msdn.microsoft.com/ff41789c-afc5-419b-9767-e99572b9b41e">Complete</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>ID3D10DepthStencilView</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/Bb173527(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
-Get the depth-stencil <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a>.
+Get the depth-stencil <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a>.
 
 </td>
 </tr>

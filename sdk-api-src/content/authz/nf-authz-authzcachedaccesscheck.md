@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ A handle to the cached access check results.
 
 ### -param pRequest [in]
 
-Access request handle specifying the desired <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a>, principal self <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>, and the object type list structure (if any).
+Access request handle specifying the desired <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access mask</a>, principal self <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">SID</a>, and the object type list structure (if any).
 
 
 ### -param hAuditEvent [in]

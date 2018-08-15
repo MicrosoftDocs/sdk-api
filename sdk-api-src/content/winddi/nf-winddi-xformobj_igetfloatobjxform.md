@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>XFORMOBJ_iGetFloatObjXform</b> function downloads a FLOATOBJ transform to
 
 ### -param pxo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a> structure that defines the transform to be downloaded.
+Pointer to the <a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a> structure that defines the transform to be downloaded.
 
 
 ### -param pfxo
 
-Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565950">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
+Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/0c58a0df-4a0a-46e2-90de-dc50b8077709">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -144,15 +145,15 @@ If <i>pxfo</i> is not <b>NULL</b>, <b>XFORMOBJ_iGetFloatObjXform</b> loads a FLO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565804">FLOATOBJ</a>
+<a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565950">FLOATOBJ_XFORM</a>
+<a href="https://msdn.microsoft.com/0c58a0df-4a0a-46e2-90de-dc50b8077709">FLOATOBJ_XFORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a>
+<a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a>
  
 
  

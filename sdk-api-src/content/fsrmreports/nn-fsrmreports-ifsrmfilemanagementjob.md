@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -104,7 +105,7 @@ Adds a new notification value to the file management job's list of notifications
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/3abb6673-fdd8-4828-ba7a-7666208dc8f0">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the job if it is running.
@@ -167,7 +168,7 @@ Modifies a notification in the file management job's list of notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/2db27e05-5c3b-4827-a616-36fd46281911">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the job.
@@ -261,7 +262,7 @@ The minimum number of days that must elapse from when a file was last modified t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b">Enabled</a>
 
 
 </td>
@@ -389,7 +390,7 @@ The last time the file management job was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj124048">Logging</a>
+<a href="https://msdn.microsoft.com/a1bed6bf-9c34-40ab-b5fc-ba870e1f084a">Logging</a>
 
 
 </td>
@@ -421,7 +422,7 @@ The email addresses to which to send the reports, if any.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/48f0b5ad-a986-4d56-a50f-4bb4dfa7a4b8">Name</a>
 
 
 </td>
@@ -453,7 +454,7 @@ An array of local directory paths that will be scanned when the file management 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt244308">Notifications</a>
+<a href="https://msdn.microsoft.com/f0aee951-12f3-40d0-bbf4-c72af117952f">Notifications</a>
 
 
 </td>
@@ -486,7 +487,7 @@ The type of file management job; the type determines the operation to perform on
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965807">Parameters</a>
+<a href="https://msdn.microsoft.com/87eb994c-3d15-4c6b-90c3-1ddb340f7458">Parameters</a>
 
 
 </td>

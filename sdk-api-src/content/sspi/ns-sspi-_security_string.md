@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure. This is used for 32-bit mode.
+The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure. This is used for 32-bit mode.
 
 
 ## -struct-fields

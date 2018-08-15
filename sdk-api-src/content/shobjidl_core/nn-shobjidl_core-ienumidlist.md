@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumIDList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f0118153-25ea-42d6-90bf-b85ffd99b74b">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new item enumeration object with the same contents and state as the current one.
@@ -80,7 +81,7 @@ Creates a new item enumeration object with the same contents and state as the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/4b2cd7a3-687c-4a51-b9af-a01576463f0b">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
@@ -89,7 +90,7 @@ Retrieves the specified number of item identifiers in the enumeration sequence a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/a2ce1947-ca8b-4f0c-a94a-d1aba42b105d">Reset</a>
 </td>
 <td align="left" width="63%">
 Returns to the beginning of the enumeration sequence.
@@ -98,7 +99,7 @@ Returns to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/ed9d5774-7b2f-4a25-88f9-70d72919ff60">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of elements in the enumeration sequence.

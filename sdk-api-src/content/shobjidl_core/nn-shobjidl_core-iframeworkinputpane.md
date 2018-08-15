@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -89,7 +90,7 @@ Registers the app's input pane handler object to receive notifications on behalf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556493">Location</a>
+<a href="https://msdn.microsoft.com/2633AD19-318E-419f-9B40-16E65803285E">Location</a>
 </td>
 <td align="left" width="63%">
 Gets the current location of the input pane.

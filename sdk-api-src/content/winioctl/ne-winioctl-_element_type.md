@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -62,8 +63,8 @@ Specifies the element type of a changer device.
 ### -field AllElements
 
 All elements of a changer, including its robotic transport, drives, slots, and insert/eject ports. This value is valid only with 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559396">IOCTL_CHANGER_GET_ELEMENT_STATUS</a> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559409">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>.
+<a href="https://msdn.microsoft.com/b5266a22-1f7b-423d-b3c1-7e455d87dd2b">IOCTL_CHANGER_GET_ELEMENT_STATUS</a> or 
+<a href="https://msdn.microsoft.com/be054a22-cde4-4efd-bd66-eb67b007fd19">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>.
 
 
 ### -field ChangerTransport
@@ -89,13 +90,13 @@ Data transfer element where data can be read from and written to media.
 ### -field ChangerDoor
 
 Mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer is an element of this type. This value is valid only with 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559422">IOCTL_CHANGER_SET_ACCESS</a>.
+<a href="https://msdn.microsoft.com/567817d5-60cd-494c-94d9-0899e1142242">IOCTL_CHANGER_SET_ACCESS</a>.
 
 
 ### -field ChangerKeypad
 
 Keypad or other input control on the front panel of a changer. This value is valid only with 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559422">IOCTL_CHANGER_SET_ACCESS</a>.
+<a href="https://msdn.microsoft.com/567817d5-60cd-494c-94d9-0899e1142242">IOCTL_CHANGER_SET_ACCESS</a>.
 
 
 ### -field ChangerMaxElement
@@ -108,7 +109,7 @@ Keypad or other input control on the front panel of a changer. This value is val
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a>
  
 
  

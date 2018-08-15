@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -61,7 +62,7 @@ The <b>WinUsb_StartTrackingForTimeSync</b> function starts the time synchronizat
 
 ### -param InterfaceHandle [in]
 
-An opaque handle retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. 
+An opaque handle retrieved in the previous call to <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
 
 
 ### -param StartTrackingInfo [in]
@@ -118,7 +119,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>StartTracking
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -116,7 +117,7 @@ Sets the current value of the specified report filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/b91a770d-8118-4a7e-adb5-36f6d59ea484">Description</a>
 
 
 </td>
@@ -148,7 +149,7 @@ Retrieves the report's generated file name for the last time the report was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/4fde46af-1d13-4ca8-b627-0285c694fb6e">Name</a>
 
 
 </td>
@@ -164,7 +165,7 @@ Retrieves or sets the name of the report.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/0f23c03a-5f9b-4a0e-b9cc-399ca931b6f7">Type</a>
 
 
 </td>

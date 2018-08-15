@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ This method is not real-time compliant and must not be called from a real-time p
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536501">IAudioProcessingObject</a>
+<a href="https://msdn.microsoft.com/71be0151-20dd-40e3-a478-d67e4d8d9c36">IAudioProcessingObject</a>
  
 
  

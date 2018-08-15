@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -132,22 +133,6 @@ The default value for this parameter is <b>NULL</b>. If the writer has multiple 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
 
 
-#### - WriterName [in]
-
-A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
-
-
-#### - UsageType [in]
-
-A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
-
-
-#### - SourceType [in]
-
-A
-      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
-
-
 #### - AppLevel [in]
 
 A
@@ -157,6 +142,22 @@ A
 
 
 The default value for this parameter is VSS_APP_FRONT_END.
+
+
+#### - SourceType [in]
+
+A
+      <a href="https://msdn.microsoft.com/cb89c3cc-5a8e-419e-839c-f72a1886eadf">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
+
+
+#### - UsageType [in]
+
+A <a href="https://msdn.microsoft.com/31997417-d993-4f28-b108-ce1dd8239650">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
+
+
+#### - WriterName [in]
+
+A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
 
 
 ## -returns

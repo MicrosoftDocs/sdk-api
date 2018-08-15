@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -102,7 +103,7 @@ When a device is created, <a href="https://msdn.microsoft.com/en-us/library/Bb17
 <li>Process vertices in software by setting D3DCREATE_SOFTWARE_VERTEXPROCESSING.</li>
 <li>Process vertices in either hardware or software by setting D3DCREATE_MIXED_VERTEXPROCESSING. To switch a mixed-mode device between software and hardware processing, use <a href="https://msdn.microsoft.com/en-us/library/Bb174458(v=VS.85).aspx">IDirect3DDevice9::SetSoftwareVertexProcessing</a>.</li>
 </ul>
-For an example using <a href="https://msdn.microsoft.com/en-us/library/Bb172731(v=VS.85).aspx">D3DXCompileShader</a>, see <a href="ac1492cf-d8aa-e22d-a7e0-dfd0a84d268d">HLSLwithoutEffects Sample</a>.
+For an example using <a href="https://msdn.microsoft.com/en-us/library/Bb172731(v=VS.85).aspx">D3DXCompileShader</a>, see <a href="https://msdn.microsoft.com/library/Ee417786(v=VS.85).aspx">HLSLwithoutEffects Sample</a>.
 
 
 

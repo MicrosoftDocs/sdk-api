@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -80,7 +81,7 @@ Returns the synchronization provider's instance ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/1f022a6b-8f8c-4def-9ca9-dc06ec80f020">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the synchronization provider before it is ready for a synchronization session.
@@ -89,7 +90,7 @@ Initializes the synchronization provider before it is ready for a synchronizatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/05fe5db8-9a21-4e09-a1fb-d50d1f08a540">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a synchronization provider so that it looks like a new replica
@@ -104,7 +105,7 @@ Resets a synchronization provider so that it looks like a new replica
 
 
 
-If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
+If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <a href="https://msdn.microsoft.com/1f022a6b-8f8c-4def-9ca9-dc06ec80f020">Init</a>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_OuterFECRate</b> method sets the outer FEC rate.
 
 ### -param FEC [in]
 
-Specifies the outer FEC rate. This parameter is a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556566">BinaryConvolutionCodeRate</a>.
+Specifies the outer FEC rate. This parameter is a value of type <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a>.
 
 
 ## -returns
@@ -85,15 +86,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_get_outerfecrate">get_OuterFECRate</a>
+<a href="https://msdn.microsoft.com/library/Dd693583(v=VS.85).aspx">get_OuterFECRate</a>
 
 
 
-<a href="mstv.idigitallocator_put_innerfecrate">put_InnerFECRate</a>
+<a href="https://msdn.microsoft.com/library/Dd693586(v=VS.85).aspx">put_InnerFECRate</a>
 
 
 
-<a href="mstv.idigitallocator_put_outerfec">put_OuterFEC</a>
+<a href="https://msdn.microsoft.com/library/Dd693587(v=VS.85).aspx">put_OuterFEC</a>
  
 
  

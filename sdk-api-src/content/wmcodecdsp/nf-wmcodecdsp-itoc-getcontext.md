@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>.
+The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://msdn.microsoft.com/45aadac5-6c65-4525-a1fc-b045337a6030">SetContext</a>.
 
 
 ## -parameters

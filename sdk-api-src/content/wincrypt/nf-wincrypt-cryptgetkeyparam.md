@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -551,7 +552,7 @@ The <i>dwParam</i> parameter specifies an unknown value number.
 </dl>
 </td>
 <td width="60%">
-The CSP <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> that was specified when the key was created cannot be found.
+The CSP <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> that was specified when the key was created cannot be found.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Rect::Union</b> method determines the union of two rectangles and stores the result in a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> object. 
+			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object. 
 
 
 ## -parameters
@@ -65,7 +66,7 @@ The <b>Rect::Union</b> method determines the union of two rectangles and stores 
 Type: <b>Rect&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> object that receives the union of the two rectangles. 
+					<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object that receives the union of the two rectangles. 
 
 
 ### -param a [in]
@@ -156,7 +157,7 @@ The following example creates three rectangles. The code forms the union of the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 

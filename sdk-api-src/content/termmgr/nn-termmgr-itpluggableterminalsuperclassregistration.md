@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: termmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ The <b>ITPluggableTerminalSuperclassRegistration</b> interface has these methods
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/ffef0255-c262-43d4-905f-5574c205c37e">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a pluggable terminal superclass.

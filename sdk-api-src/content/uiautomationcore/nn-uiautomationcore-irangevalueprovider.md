@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -73,7 +74,7 @@ The <b>IRangeValueProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/3ce214a0-e7ff-440a-a308-fea5608e13f0">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the control.
@@ -175,7 +176,7 @@ Specifies the value that is added to or subtracted from the <a href="https://msd
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">Value</a>
 
 
 </td>
@@ -195,7 +196,7 @@ Specifies the value of the control.
 
 
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546453">RangeValue</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/e5c1104c-4b20-4fdd-bd12-dfc27cb73ac5">RangeValue</a> control pattern.
             
 
 

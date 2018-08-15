@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -98,7 +99,7 @@ The message ID for the request.
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
-If the function fails, an error code is returned. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+If the function fails, an error code is returned. For more information, see <a href="functions.htm">Error Handling</a>.
 
 
 
@@ -135,7 +136,7 @@ Multithreaded: Calls to <b>ldap_add_ext</b> are thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>
+<a href="functions.htm">Error Handling</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Windows Server 2012, Windows 7  Windows Server 2008 R2
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -478,7 +479,7 @@ The canonical name for the host.
 Type: <b>struct sockaddr*</b>
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">ADDRINFOW</a> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>ADDRINFOW</b> structure is specified in the <b>ai_addrlen</b> member.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">ADDRINFOW</a> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>ADDRINFOW</b> structure is specified in the <b>ai_addrlen</b> member.
 
 
 ### -field ai_next
@@ -737,7 +738,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

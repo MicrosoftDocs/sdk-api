@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ Create a blend-state object that encapsules blend state for the output-merger st
 <a href="https://msdn.microsoft.com/en-us/library/Bb694548(v=VS.85).aspx">CreateShaderResourceView1</a>
 </td>
 <td align="left" width="63%">
-Create a shader-resource <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a> for accessing data in a resource.
+Create a shader-resource <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> for accessing data in a resource.
 
 </td>
 </tr>

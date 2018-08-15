@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -72,7 +73,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548722">MEM_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548724">MEM_RESOURCE</a> structure.
+The number of elements in the <a href="https://msdn.microsoft.com/a31ae199-8f4a-4d1f-891c-f1dc11a4edde">MEM_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/42ecd736-abd3-4ac8-82bb-6bb69af1d96d">MEM_RESOURCE</a> structure.
 
 
 ### -field MD_Type
@@ -378,11 +379,11 @@ Bitmask for the bit within <b>MD_Flags</b> that specifies the combine-write cach
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548722">MEM_RANGE</a>
+<a href="https://msdn.microsoft.com/a31ae199-8f4a-4d1f-891c-f1dc11a4edde">MEM_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548724">MEM_RESOURCE</a>
+<a href="https://msdn.microsoft.com/42ecd736-abd3-4ac8-82bb-6bb69af1d96d">MEM_RESOURCE</a>
  
 
  

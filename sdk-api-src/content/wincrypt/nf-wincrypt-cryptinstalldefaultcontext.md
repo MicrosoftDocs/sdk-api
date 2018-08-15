@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptInstallDefaultContext</b> function installs a specific provider to be the default <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> provider for the specified algorithm.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptInstallDefaultContext</b> function installs a specific provider to be the default <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> provider for the specified algorithm.
 
 
 ## -parameters
@@ -122,7 +123,7 @@ A set of flags that modify the behavior of this function. This can be zero or a 
 </dl>
 </td>
 <td width="60%">
-The provider handle specified by the <i>hCryptProv</i> parameter is released automatically when the <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> or thread ends. If this flag is not specified, it is the caller's responsibility to release the provider handle by using the <a href="https://msdn.microsoft.com/c1e3e708-b543-4e87-8638-a9946a83e614">CryptReleaseContext</a> function when the handle is no longer needed. The provider handle is not released if the <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> function is called before the process or thread exits.
+The provider handle specified by the <i>hCryptProv</i> parameter is released automatically when the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> or thread ends. If this flag is not specified, it is the caller's responsibility to release the provider handle by using the <a href="https://msdn.microsoft.com/c1e3e708-b543-4e87-8638-a9946a83e614">CryptReleaseContext</a> function when the handle is no longer needed. The provider handle is not released if the <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> function is called before the process or thread exits.
 
 </td>
 </tr>
@@ -166,7 +167,7 @@ If the function succeeds, the return value is nonzero (TRUE). If the function fa
 
 The installed default context providers are stack ordered, thus when searching for a default context provider, the system starts with the most recently installed provider. The per-thread list of providers is searched before the per-process list of providers. After a match is found, the system does not continue to search for other matches.
 
-The installed provider handle must remain available for use until <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> is called, or the thread or <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> exits.
+The installed provider handle must remain available for use until <a href="https://msdn.microsoft.com/ad7be5cf-f078-4a9f-81c4-959e4203dba8">CryptUninstallDefaultContext</a> is called, or the thread or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> exits.
 
 
 

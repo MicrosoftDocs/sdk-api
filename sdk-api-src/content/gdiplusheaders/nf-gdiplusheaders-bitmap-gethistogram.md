@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Bitmap::GetHistogram</b> method returns one or more histograms for specified color channels of this <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object.
+The <b>Bitmap::GetHistogram</b> method returns one or more histograms for specified color channels of this <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object.
 
 
 ## -parameters
@@ -105,14 +106,14 @@ Pointer to an array of <b>UINT</b>s that receives the fourth histogram if there 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -128,7 +129,7 @@ The number of histograms returned depends on the <a href="https://msdn.microsoft
 
 
 
-The following example constructs a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object from a BMP file. The code retrieves three histograms from the bitmap: one each for the red, green, and blue channels. Note the order of RGB in the name of the enumeration element <b>HistogramFormatRGB</b>. R is first, so it corresponds with <b>ch0</b>. Green is second, so it corresponds with <b>ch1</b>. Blue is third, so it corresponds with <b>ch2</b>. The final parameter passed to <b>Bitmap::GetHistogram</b> is <b>NULL</b> because there is no fourth histogram.
+The following example constructs a <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object from a BMP file. The code retrieves three histograms from the bitmap: one each for the red, green, and blue channels. Note the order of RGB in the name of the enumeration element <b>HistogramFormatRGB</b>. R is first, so it corresponds with <b>ch0</b>. Green is second, so it corresponds with <b>ch1</b>. Blue is third, so it corresponds with <b>ch2</b>. The final parameter passed to <b>Bitmap::GetHistogram</b> is <b>NULL</b> because there is no fourth histogram.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -167,7 +168,7 @@ delete ch2;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
  
 
  

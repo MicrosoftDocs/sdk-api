@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IEnumRegFilters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/ba4366fa-57ba-4057-b3b9-5380e0fca006">Clone</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.
@@ -85,7 +86,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/ec255b9b-33cf-42a3-9f02-f1f34eee2da1">Next</a>
 </td>
 <td align="left" width="63%">
 Fills an array with the next filters that meet the requirements.
@@ -94,16 +95,16 @@ Fills an array with the next filters that meet the requirements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/095d0102-c845-48ba-a1f5-e0262a924b50">Reset</a>
 </td>
 <td align="left" width="63%">
-Makes the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> method start again, beginning at the first filter.
+Makes the <a href="https://msdn.microsoft.com/ec255b9b-33cf-42a3-9f02-f1f34eee2da1">Next</a> method start again, beginning at the first filter.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/d774ea12-cc06-47c5-82ee-c1ec761e0097">Skip</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.

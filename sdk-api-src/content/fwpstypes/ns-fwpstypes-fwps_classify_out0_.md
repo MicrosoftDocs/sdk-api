@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Internet Explorer 5
 
 
 The <b>FWPS_CLASSIFY_OUT0</b> structure defines the data that is returned to the caller of a callout's 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+  <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function.
 <div class="alert"><b>Note</b>  <b>FWPS_CLASSIFY_OUT0</b> is a specific version of <b>FWPS_CLASSIFY_OUT</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
@@ -64,7 +65,7 @@ The <b>FWPS_CLASSIFY_OUT0</b> structure defines the data that is returned to the
 
 An <b>FWP_ACTION_TYPE</b> value that specifies the suggested action to be taken as determined by the
      callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. A callout driver
+     <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function. A callout driver
      sets this variable to one of the following values:
      
 
@@ -196,10 +197,10 @@ If this flag is not set, a blocking action will be subject to normal event loggi
 
 The filter engine sets this flag when the filter engine's data buffer for stream data is full.
        This can occur if a callout's 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function repeatedly
+       <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function repeatedly
        requests more data by setting the 
        <b>streamAction</b> member of the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552417">FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to <b>FWPS_STREAM_ACTION_NEED_MORE_DATA</b> until the buffer
+       <a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to <b>FWPS_STREAM_ACTION_NEED_MORE_DATA</b> until the buffer
        limit is reached. If this flag is set, the callout driver's 
        <i>classifyFn</i> callout function must either
        permit or block all of the stream data.
@@ -224,7 +225,7 @@ Reserved for system use. Callout drivers must not use this member.
 
 
 The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to a callout's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. A callout driver
+    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function. A callout driver
     uses this structure to return data to the caller.
 
 
@@ -235,7 +236,7 @@ The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552417">FWPS_STREAM_CALLOUT_IO_PACKET0</a>
+<a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
@@ -243,7 +244,7 @@ The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a>
  
 
  

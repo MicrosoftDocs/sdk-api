@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tvout.h
 req.include-header: Tvout.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the <b>InputBuffer</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a> when the IOCTL request is <a href="https://msdn.microsoft.com/library/windows/hardware/ff567805">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>. Depending on the <b>dwCommand</b> member of the VIDEOPARAMETERS structure, the miniport driver should get or set the television connector and copy protection capabilities of the device.
+The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the <b>InputBuffer</b> member of a <a href="https://msdn.microsoft.com/8ccc8c97-4c8c-4278-8eef-a612ce85439e">VIDEO_REQUEST_PACKET</a> when the IOCTL request is <a href="https://msdn.microsoft.com/5c48d2b7-3dcc-4025-ab3c-12085369cd7d">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>. Depending on the <b>dwCommand</b> member of the VIDEOPARAMETERS structure, the miniport driver should get or set the television connector and copy protection capabilities of the device.
 
 
 ## -struct-fields
@@ -526,11 +527,11 @@ OEM-specific copy protection data. This member is valid for both the VP_COMMAND_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567805">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>
+<a href="https://msdn.microsoft.com/5c48d2b7-3dcc-4025-ab3c-12085369cd7d">IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
+<a href="https://msdn.microsoft.com/8ccc8c97-4c8c-4278-8eef-a612ce85439e">VIDEO_REQUEST_PACKET</a>
  
 
  

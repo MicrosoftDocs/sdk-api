@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559410">IOCTL_CHANGER_MOVE_MEDIUM</a> control code uses to move a piece of media to a destination.
+<a href="https://msdn.microsoft.com/73fa826c-ef7f-4341-838e-73e025d8d1c1">IOCTL_CHANGER_MOVE_MEDIUM</a> control code uses to move a piece of media to a destination.
 
 
 ## -struct-fields
@@ -63,25 +64,25 @@ Contains information that the
 ### -field Transport
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> structure that indicates which transport element to use for the move operation.
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a> structure that indicates which transport element to use for the move operation.
 
 
 ### -field Source
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> structure that indicates the element that contains the media that is to be moved.
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a> structure that indicates the element that contains the media that is to be moved.
 
 
 ### -field Destination
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> structure that indicates the element that is the destination of the media originally at <b>Source</b>.
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a> structure that indicates the element that is the destination of the media originally at <b>Source</b>.
 
 
 ### -field Flip
 
 If this member is <b>TRUE</b>, the media should be flipped. Otherwise, it should not. This member is valid only if the <b>Features0</b> member of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a> structure is CHANGER_MEDIUM_FLIP.
+<a href="https://msdn.microsoft.com/ad5b6cc3-19f1-4196-9f03-791f342d0cf9">GET_CHANGER_PARAMETERS</a> structure is CHANGER_MEDIUM_FLIP.
 
 
 ## -see-also
@@ -89,11 +90,11 @@ If this member is <b>TRUE</b>, the media should be flipped. Otherwise, it should
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559410">IOCTL_CHANGER_MOVE_MEDIUM</a>
+<a href="https://msdn.microsoft.com/73fa826c-ef7f-4341-838e-73e025d8d1c1">IOCTL_CHANGER_MOVE_MEDIUM</a>
  
 
  

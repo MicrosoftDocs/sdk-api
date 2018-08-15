@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -141,11 +142,11 @@ A driver might report that it supports more than one format for a font. For exam
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556262">DrvQueryFont</a>
+<a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556266">DrvQueryFontTree</a>
+<a href="https://msdn.microsoft.com/29601ea6-9b68-4cdc-a7a1-b6a922524760">DrvQueryFontTree</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -88,7 +89,7 @@ Adds one or more table identifiers (TIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/feaa3d72-353f-45ed-b458-7345bbe07dd2">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the tuning status of the FDC stream.

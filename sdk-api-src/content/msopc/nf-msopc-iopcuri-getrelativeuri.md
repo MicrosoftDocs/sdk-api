@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -109,7 +110,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function. 
+An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function. 
 
 </td>
 </tr>
@@ -120,7 +121,7 @@ An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUr
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt147353">WinINet</a> API. 
+An <b>HRESULT</b> error code from a  <a href="https://msdn.microsoft.com/dd2f8246-ea82-49cb-973f-157fb77c8c08">WinINet</a> API. 
 
 </td>
 </tr>

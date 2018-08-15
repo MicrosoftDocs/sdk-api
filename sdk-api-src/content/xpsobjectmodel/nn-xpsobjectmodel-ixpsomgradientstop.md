@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IXpsOMGradientStop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
@@ -90,7 +91,7 @@ Gets the color value and color profile of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548008">GetOffset</a>
+<a href="https://msdn.microsoft.com/14048707-1a73-40a1-9094-da4885d9934d">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the offset value of the gradient stop.
@@ -118,7 +119,7 @@ Sets the color value and color profile of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556741">SetOffset</a>
+<a href="https://msdn.microsoft.com/8c1932b0-386b-4779-a4e4-e239e42e1d16">SetOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the offset location of the gradient stop.
@@ -215,7 +216,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

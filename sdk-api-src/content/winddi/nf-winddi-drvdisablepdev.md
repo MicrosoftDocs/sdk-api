@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvDisablePDEV</b> function is used by GDI to notify a driver that the sp
 
 ### -param dhpdev
 
-Handle to the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> of the physical device to be disabled. This value is the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>.
+Handle to the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> of the physical device to be disabled. This value is the handle returned by <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
 
 
 ## -returns
@@ -77,7 +78,7 @@ None
 
 
 
-If the physical device has an enabled surface, GDI calls <b>DrvDisablePDEV</b> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556200">DrvDisableSurface</a>. The driver should free any memory and resources used by the PDEV.
+If the physical device has an enabled surface, GDI calls <b>DrvDisablePDEV</b> after calling <a href="https://msdn.microsoft.com/18714107-7287-4d50-a2f9-b5d72f111f8b">DrvDisableSurface</a>. The driver should free any memory and resources used by the PDEV.
 
 <b>DrvDisablePDEV</b> is required for graphics drivers.
 
@@ -89,15 +90,15 @@ If the physical device has an enabled surface, GDI calls <b>DrvDisablePDEV</b> a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+<a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556200">DrvDisableSurface</a>
+<a href="https://msdn.microsoft.com/18714107-7287-4d50-a2f9-b5d72f111f8b">DrvDisableSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
  
 
  

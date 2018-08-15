@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_Category</b> method retrieves the component category.
 
 #### - pCategory [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557721">ComponentCategory</a> data type that will receive the category.
+Pointer to a <a href="https://msdn.microsoft.com/20fe32fa-c8a5-4073-bcf3-7dde171d7ad4">ComponentCategory</a> data type that will receive the category.
 
 
 ## -returns

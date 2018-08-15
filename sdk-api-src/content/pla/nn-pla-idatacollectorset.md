@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -79,7 +80,7 @@ The <b>IDataCollectorSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">Commit</a>
 </td>
 <td align="left" width="63%">
 Saves, updates, or validates the data collector set. You can also use this method to flush a trace 
@@ -98,7 +99,7 @@ Deletes the persisted copy of the data collector set if the set is not running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/0f82e154-7d3f-44c9-8bdd-cc1522499e85">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a user-defined value.
@@ -107,7 +108,7 @@ Retrieves a user-defined value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/ac07169e-710c-4267-ae08-ed18a15d866d">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified data collector set from the hard disk and overwrites this object with the contents 
@@ -126,7 +127,7 @@ Specifies the user account under which the data collector set runs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/d2143de9-f189-47e0-8b28-0422d9984459">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a user-defined value.
@@ -144,7 +145,7 @@ Sets the property values of those properties included in the XML.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/63f0c7b7-0dc6-4491-a2f5-eaae9d22da61">Start</a>
 </td>
 <td align="left" width="63%">
 Manually starts the data collector set.
@@ -153,7 +154,7 @@ Manually starts the data collector set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e">Stop</a>
 </td>
 <td align="left" width="63%">
 Manually stops the data collector set.
@@ -194,7 +195,7 @@ Retrieves the data manager associated with this data collector set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/d36deb28-09fa-4efd-bfe8-055757f4273a">Description</a>
 
 
 </td>
@@ -218,7 +219,7 @@ Retrieves the description of the data collector set in its original form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/4be6d1a1-54de-45fa-8d00-36f8b95e30a5">DisplayName</a>
 
 
 </td>
@@ -278,7 +279,7 @@ Retrieves or sets the fully decorated folder name that PLA used the last time lo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/69f6af39-b614-4957-a1e5-1f381c915f17">Name</a>
 
 
 </td>
@@ -413,7 +414,7 @@ Retrieves the name of the server where the data collector set is run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/d957d34d-5455-486a-bd54-28afd7e6f979">Status</a>
 
 
 </td>

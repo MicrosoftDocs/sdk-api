@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ Sets the color-control options for an overlay or a primary surface.
 
 #### - lpColorControl [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549237">DDCOLORCONTROL</a> structure that contains the new control settings to apply.
+A pointer to a <a href="https://msdn.microsoft.com/69408101-9f19-4b89-bfcf-2af185c62807">DDCOLORCONTROL</a> structure that contains the new control settings to apply.
 
 
 ## -returns

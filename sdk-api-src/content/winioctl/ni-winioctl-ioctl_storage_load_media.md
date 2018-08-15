@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -165,11 +166,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560542">IOCTL_STORAGE_EJECT_MEDIA</a>
+<a href="https://msdn.microsoft.com/e1eeb3b8-b52b-4570-a3bc-e245ae58464f">IOCTL_STORAGE_EJECT_MEDIA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560579">IOCTL_STORAGE_MEDIA_REMOVAL</a>
+<a href="https://msdn.microsoft.com/5971daa1-3bb7-4050-b252-2f5cabb1bf67">IOCTL_STORAGE_MEDIA_REMOVAL</a>
  
 
  

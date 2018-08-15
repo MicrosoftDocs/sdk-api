@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: shidfact.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,7 +92,7 @@ Gets a read only pointer to the client provided structure in the first ItemID in
 <td align="left" width="37%">
 <a href="https://msdn.microsoft.com/D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D">GetPropertyFromIDList</a>
 </td>
-<td align="left" width="63%">Overloaded. Returns a property from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> within the IDList.
+<td align="left" width="63%">Overloaded. Returns a property from the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> within the IDList.
 
 </td>
 </tr>
@@ -109,7 +110,7 @@ Gets  a read only pointer to the serialized property storage that is used for st
 <a href="https://msdn.microsoft.com/50E8F4F9-1E7B-4314-9AFB-1CA0795776FE">GetPropertyStorageFromIDList</a>
 </td>
 <td align="left" width="63%">
-create an instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
+create an instance of the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
 
 </td>
 </tr>

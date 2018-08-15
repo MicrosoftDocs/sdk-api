@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -118,7 +119,7 @@ Insufficient memory exists to perform the operation.
 
 One reason why 
 <b>Shutdown</b> might fail is if 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> was not previously called successfully.
+<a href="https://msdn.microsoft.com/822ca3fe-8deb-4fe3-8b83-060eae69840c">Initialize</a> was not previously called successfully.
 
 
 

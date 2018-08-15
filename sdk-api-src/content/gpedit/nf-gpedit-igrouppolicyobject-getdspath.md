@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -124,7 +125,7 @@ To retrieve the file system path to the root of a GPO section, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c">GetPath</a>
 
 
 

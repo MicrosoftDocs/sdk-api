@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IExecuteCommandApplicationHostEnvironment</b> interface has these methods
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/ba26f985-04f1-4a05-9363-a7be0585bcfc">GetValue</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current application host environment is in the desktop or immersive mode.

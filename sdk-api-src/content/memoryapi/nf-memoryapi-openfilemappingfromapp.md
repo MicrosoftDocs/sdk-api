@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -72,7 +73,7 @@ The access to the file mapping object. This access is checked against any securi
 ### -param InheritHandle [in]
 
 If this parameter is <b>TRUE</b>, a process created by the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function can inherit the handle; 
+      <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function can inherit the handle; 
       otherwise, the handle cannot be inherited.
 
 
@@ -106,7 +107,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-You can call <b>OpenFileMappingFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities. <b>OpenFileMappingFromApp</b> lets Windows Store apps use the <a href="T:System.IO.MemoryMappedFiles.MemoryMappedFile">MemoryMappedFile</a> class in the .NET Framework.
+You can call <b>OpenFileMappingFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities. <b>OpenFileMappingFromApp</b> lets Windows Store apps use the <a href="https://msdn.microsoft.com/library/Dd267535(v=VS.100).aspx">MemoryMappedFile</a> class in the .NET Framework.
 
 The handle that <b>OpenFileMappingFromApp</b> returns can be used 
      with any function that requires a handle to a file mapping object.

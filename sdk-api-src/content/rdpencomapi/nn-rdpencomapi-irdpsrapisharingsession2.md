@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -84,7 +85,7 @@ The <b>IRDPSRAPISharingSession2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/ab6e27d8-b6f2-42a6-a0f6-cfdfb5ec9a13">Close</a>
 </td>
 <td align="left" width="63%">
 Puts the session in an inactive state, closes all attendees, and stops listening to new incoming connections.
@@ -120,7 +121,7 @@ Retrieves the rectangle of the sharer's virtual desktop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">Open</a>
 </td>
 <td align="left" width="63%">
 Puts the session in an active state and starts listening to incoming connections.
@@ -129,7 +130,7 @@ Puts the session in an active state and starts listening to incoming connections
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/1ea0e8c4-39ef-4261-af7b-d27d6052c17d">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the encoding of the sharer's desktop  to pause sending graphics updates to all viewers.
@@ -206,7 +207,7 @@ An object implementing the <a href="https://msdn.microsoft.com/202b539c-b7a0-4cf
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997337">ColorDepth</a>
+<a href="https://msdn.microsoft.com/8835a79c-281a-4f50-ba41-c9d4a0a8d7bd">ColorDepth</a>
 
 
 </td>
@@ -254,7 +255,7 @@ An object implementing the <a href="https://msdn.microsoft.com/300940ef-e8a6-4dd
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>
+<a href="https://msdn.microsoft.com/d9eff86e-74ee-440b-9f89-7cf26ba1ac39">Properties</a>
 
 
 </td>

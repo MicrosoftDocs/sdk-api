@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -92,11 +93,11 @@ Do not call  <b>OfflineClusterResource</b> from a resource DLL. For more informa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 
 
 

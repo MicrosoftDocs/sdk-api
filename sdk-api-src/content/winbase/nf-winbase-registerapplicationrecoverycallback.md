@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -128,7 +129,7 @@ If the  application encounters an unhandled exception or becomes unresponsive, W
 
 WER will not call your recovery callback if an installer wants to  update a component of your application. To save data and state information in the update case, you should handle the <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> and <a href="https://msdn.microsoft.com/9bf04f24-da1e-4680-a47b-28e9c500635e">WM_ENDSESSION</a> messages. For details, see each message. The timeout for responding to these messages is five seconds. Most of the available recovery time is in the <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a> message for which you have 30 seconds.
 
-A console application that can be updated uses the CTRL_C_EVENT notification to initiate recovery (for details, see the <a href="base.handlerroutine">HandlerRoutine</a> callback function). The timeout for the handler to complete is 30 seconds.
+A console application that can be updated uses the CTRL_C_EVENT notification to initiate recovery (for details, see the <a href="https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx">HandlerRoutine</a> callback function). The timeout for the handler to complete is 30 seconds.
 
 Applications should consider saving data and state information on a periodic bases to shorten the amount of time required for recovery.
 

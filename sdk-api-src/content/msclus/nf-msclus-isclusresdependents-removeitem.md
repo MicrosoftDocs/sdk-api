@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -59,7 +60,7 @@ req.product: GDI+ 1.1
 Removes a 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from the 
     <a href="https://msdn.microsoft.com/4e1f47fa-e240-4fdb-b736-9b2e64828eb0">ClusResDependents</a> collection but does 
-    not delete it from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+    not delete it from the <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters

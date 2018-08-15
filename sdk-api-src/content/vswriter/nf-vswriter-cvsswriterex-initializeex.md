@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -53,12 +54,12 @@ req.product: Windows UI
 
 
 Initializes a 
-<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> object and allows a writer application to interact with VSS. Unlike the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method, the <b>InitializeEx</b> method allows the caller to specify writer version information.
+<a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> object and allows a writer application to interact with VSS. Unlike the <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">Initialize</a> method, the <b>InitializeEx</b> method allows the caller to specify writer version information.
 
 <b>InitializeEx</b> is a public method implemented by the 
 <a href="https://msdn.microsoft.com/29820c1d-2add-402d-a9ca-9e8674d85f7f">CVssWriterEx</a> base class.
 
-Writers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> or <b>InitializeEx</b>, but not both.
+Writers must call <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">Initialize</a> or <b>InitializeEx</b>, but not both.
 
 
 ## -parameters
@@ -239,7 +240,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The <b>InitializeEx</b> method is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method except for the <i>dwMajorVersion</i> and <i>dwMinorVersion</i> parameters. If the writer uses <b>Initialize</b> instead of <b>InitializeEx</b>, the writer version will be reported as 0.0 (major version = 0, minor version = 0) by the <a href="https://msdn.microsoft.com/d702263e-0ea5-428c-bbd6-1ab8a7334a92">IVssExamineWriterMetadataEx2::GetVersion</a> method.
+The <b>InitializeEx</b> method is identical to the <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">Initialize</a> method except for the <i>dwMajorVersion</i> and <i>dwMinorVersion</i> parameters. If the writer uses <b>Initialize</b> instead of <b>InitializeEx</b>, the writer version will be reported as 0.0 (major version = 0, minor version = 0) by the <a href="https://msdn.microsoft.com/d702263e-0ea5-428c-bbd6-1ab8a7334a92">IVssExamineWriterMetadataEx2::GetVersion</a> method.
 
 The <i>dwMajorVersion</i> and <i>dwMinorVersion</i> parameters are used to specify the writer major and minor version numbers according to the following VSS conventions:
 

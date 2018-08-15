@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -125,7 +126,7 @@ Directs the preview handler to handle a keystroke passed up from the message pum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="https://msdn.microsoft.com/cefa9888-66cf-48a1-a6cd-49e273076d39">Unload</a>
 </td>
 <td align="left" width="63%">
 Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.

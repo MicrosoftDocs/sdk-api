@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -78,11 +79,11 @@ An array of identifiers for the video present targets in the VidPN topology.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538207">Adapter</a>
+<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568176">IViewHelper::SetConfiguration</a>
+<a href="https://msdn.microsoft.com/8ec09950-afb6-43ff-8e05-4c801e49ba4b">IViewHelper::SetConfiguration</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -89,7 +90,7 @@ The element is filled using a pattern.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923322">VisualEffects</a>
+<a href="https://msdn.microsoft.com/961C2064-F896-4ECD-9529-71A1656EE0EE">VisualEffects</a>
  
 
  

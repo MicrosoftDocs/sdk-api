@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -73,7 +74,7 @@ Reader name. You can get this value by calling the <a href="https://msdn.microso
 
 ### -param pdwDeviceTypeId [in, out]
 
-The actual device type identifier. The list of reader types returned by this function are listed under <b>ReaderType</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548930">SCARD_READER_CAPABILITIES</a> structure.
+The actual device type identifier. The list of reader types returned by this function are listed under <b>ReaderType</b> member in the <a href="https://msdn.microsoft.com/f55b74d0-d545-419a-87fb-c320f789aaf4">SCARD_READER_CAPABILITIES</a> structure.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -75,7 +76,7 @@ The <b>IEnumTASK</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/8edfee71-2478-4292-82e0-678901ab67eb">Clone</a>
 </td>
 <td align="left" width="63%">
 Not used by MMC. Creates a new 
@@ -86,7 +87,7 @@ Not used by MMC. Creates a new
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">Next</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to retrieve the next task in the snap-in's list of tasks.
@@ -95,7 +96,7 @@ Enables MMC to retrieve the next task in the snap-in's list of tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/5368d1f5-4b97-46d2-ba7c-1caa783a603e">Reset</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to reset the enumeration to the beginning of the list.
@@ -104,7 +105,7 @@ Enables MMC to reset the enumeration to the beginning of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/6c002cbe-db0c-40f6-9d6f-fee0daeb9a43">Skip</a>
 </td>
 <td align="left" width="63%">
 Not used by MMC. Skips the specified number of tasks.

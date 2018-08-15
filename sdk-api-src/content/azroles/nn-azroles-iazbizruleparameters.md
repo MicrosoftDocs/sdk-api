@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -98,7 +99,7 @@ Gets the value type of the BizRule parameter with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/1874ac48-0a06-4387-89c2-c194b60bb8f2">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified parameter from the list of parameters available to BizRule scripts.
@@ -124,7 +125,7 @@ Removes all parameters from the list of parameters available to BizRule scripts.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/5ba6f289-2349-444b-8693-53aadb0ea4d1">Count</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdGetAvailDriverMemory</b> callback function queries the amount of free m
 
 #### - lpGetAvailDriverMemory
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551532">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
+Points to a <a href="https://msdn.microsoft.com/4e344c43-55ae-49fc-94ef-390c399d5d0b">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
 
 
 ## -returns
@@ -99,7 +100,7 @@ The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551532">DD_GETAVAILDRIVERMEMORYDATA</a>
+<a href="https://msdn.microsoft.com/4e344c43-55ae-49fc-94ef-390c399d5d0b">DD_GETAVAILDRIVERMEMORYDATA</a>
 
 
 

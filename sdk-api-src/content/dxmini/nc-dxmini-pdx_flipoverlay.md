@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +75,14 @@ The<i> DxFlipOverlay</i> callback function is called when a client of the video 
 
 
 
+#### - FlipOverlayInfo
+
+Points to the <a href="https://msdn.microsoft.com/04e4baba-4b6c-4f0a-8197-1fb2d83f53d6">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
+
+
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
-
-
-#### - FlipOverlayInfo
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549323">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
 
 
 #### - lpOutput
@@ -112,7 +113,7 @@ If a hardware video port is not used and the client still wants the overlay to b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549323">DDFLIPOVERLAYINFO</a>
+<a href="https://msdn.microsoft.com/04e4baba-4b6c-4f0a-8197-1fb2d83f53d6">DDFLIPOVERLAYINFO</a>
  
 
  

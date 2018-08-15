@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ The <b>IDeferredCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/56618860-3655-42a2-ad74-ef43da08d001">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a command that the application previously queued.
@@ -94,7 +95,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926843">GetHResult</a>
+<a href="https://msdn.microsoft.com/ce047464-d283-4ff4-a5eb-9e394d4ac3fd">GetHResult</a>
 </td>
 <td align="left" width="63%">
 Retrieves the return value from the invoked command.

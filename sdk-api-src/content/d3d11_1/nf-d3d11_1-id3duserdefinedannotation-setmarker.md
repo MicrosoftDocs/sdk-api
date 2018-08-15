@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -86,7 +87,7 @@ A user can visualize the marker when the calling application is running under an
 #### Examples
 
 The following code shows how to use <b>SetMarker</b>.
-          It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
+          It also uses the <a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a> smart pointer type.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -100,7 +101,7 @@ Do not create a thread while impersonating a security context. The call will suc
 #### Examples
 
 For an example, see 
-<a href="security.checking_client_access">Checking Client Access</a>.
+<a href="https://msdn.microsoft.com/library/Aa379648(v=VS.85).aspx">Checking Client Access</a>.
 
 <div class="code"></div>
 
@@ -123,7 +124,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546542">GetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>
 
 
 

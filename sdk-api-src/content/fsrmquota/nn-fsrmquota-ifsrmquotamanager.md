@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -163,7 +164,7 @@ Retrieves the most restrictive quota for the specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a>
+<a href="https://msdn.microsoft.com/1581f4c7-a912-4214-9ad9-181ad5ebba7e">Scan</a>
 </td>
 <td align="left" width="63%">
 Starts a quota scan on the specified path.

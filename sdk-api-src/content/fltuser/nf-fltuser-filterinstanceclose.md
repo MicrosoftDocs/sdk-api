@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>FilterInstanceClose</b> function closes a minifilter instance handle open
 
 ### -param hInstance [in]
 
-Minifilter instance handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540528">FilterInstanceCreate</a>. 
+Minifilter instance handle returned by a previous call to <a href="https://msdn.microsoft.com/eb29fefc-285a-4a77-b1f6-1d42d029b7b7">FilterInstanceCreate</a>. 
 
 
 ## -returns
@@ -79,7 +80,7 @@ Minifilter instance handle returned by a previous call to <a href="https://msdn.
 
 After the <b>FilterInstanceClose</b> function is called, the minifilter instance handle specified by the <i>hFilterInstanceFind</i> parameter is no longer valid and cannot safely be used. 
 
-Use <b>FilterInstanceClose</b> to close handles returned by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540528">FilterInstanceCreate</a>. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a> to close handles returned by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>. 
+Use <b>FilterInstanceClose</b> to close handles returned by calls to <a href="https://msdn.microsoft.com/eb29fefc-285a-4a77-b1f6-1d42d029b7b7">FilterInstanceCreate</a>. Use <a href="https://msdn.microsoft.com/f4b066ca-4154-425d-85f6-682dc7460117">FilterInstanceFindClose</a> to close handles returned by calls to <a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a>. 
 
 
 
@@ -89,15 +90,15 @@ Use <b>FilterInstanceClose</b> to close handles returned by calls to <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540528">FilterInstanceCreate</a>
+<a href="https://msdn.microsoft.com/eb29fefc-285a-4a77-b1f6-1d42d029b7b7">FilterInstanceCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
+<a href="https://msdn.microsoft.com/f4b066ca-4154-425d-85f6-682dc7460117">FilterInstanceFindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
+<a href="https://msdn.microsoft.com/4d397383-eb65-4646-80cd-203495513285">FilterInstanceFindFirst</a>
  
 
  

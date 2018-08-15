@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -82,24 +83,6 @@ A
 
 
 
-
-
-#### - hrasconn [in]
-
-Handle to the RAS connection, as returned by 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>.
-
-
-#### - unMsg [in]
-
-Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
-
-
-#### - rascs [in]
-
-Specifies the 
-<a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCONNSTATE</a> enumerator value that indicates the state the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> remote access connection process is about to enter.
 
 
 #### - dwError [in]
@@ -174,6 +157,24 @@ Specifies a routing error code, which is a RAS error.
 </tr>
 </table>
  
+
+
+#### - hrasconn [in]
+
+Handle to the RAS connection, as returned by 
+<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a>.
+
+
+#### - rascs [in]
+
+Specifies the 
+<a href="https://msdn.microsoft.com/42047265-1b0f-4449-842c-e860b8fb6728">RASCONNSTATE</a> enumerator value that indicates the state the 
+<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> remote access connection process is about to enter.
+
+
+#### - unMsg [in]
+
+Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
 
 ## -returns

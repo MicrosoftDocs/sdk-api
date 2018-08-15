@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -65,7 +66,7 @@ Sets the priority order for the set of <a href="https://msdn.microsoft.com/57d16
 
 ### -param hCluster [in]
 
-Handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> to be affected.
+Handle to the <a href="c_gly.htm">cluster</a> to be affected.
 
 
 ### -param NetworkCount [in]

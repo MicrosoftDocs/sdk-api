@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ A handle to the registry key. The handle must be opened with the <b>KEY_WRITE</b
 
 ### -param KeySetInformationClass [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff553399">KEY_SET_INFORMATION_CLASS</a> value that 
+A <a href="https://msdn.microsoft.com/95a8f683-642c-4f33-9536-08f497567f87">KEY_SET_INFORMATION_CLASS</a> value that 
       specifies the kind of information to be set.
 
 

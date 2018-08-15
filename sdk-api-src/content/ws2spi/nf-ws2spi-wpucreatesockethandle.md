@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -117,13 +118,13 @@ There are not enough buffers available to create the new socket handle.
 The 
 <b>WPUCreateSocketHandle</b> function creates a new socket handle for the specified provider. The handles created by 
 <b>WPUCreateSocketHandle</b> are indistinguishable from true file system handles. This is significant in two respects. First, the Windows Socket 2 architecture takes care of redirecting the file system functions <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> to this service provider's 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a> functions, respectively. Second, in operating systems that support completion ports, the Windows Sockets 2 architecture supports associating a completion port with the socket handle and using it to report overlapped I/O completion.
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a> and 
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a> functions, respectively. Second, in operating systems that support completion ports, the Windows Sockets 2 architecture supports associating a completion port with the socket handle and using it to report overlapped I/O completion.
 
 
 <div class="alert"><b>Note</b>  The mechanism for redirecting <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> necessarily involves a user-to-kernel transition to get to the redirector, followed by a kernel-to-user transition to get to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>. On return, these transitions are retraced in reverse. This can be a significant performance penalty. Any service provider that uses 
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a> or 
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>. On return, these transitions are retraced in reverse. This can be a significant performance penalty. Any service provider that uses 
 <b>WPUCreateSocketHandle</b> to create its socket handles should not set XP1_IFS_HANDLES in its 
 <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure. Clients should take the absence of XP1_IFS_HANDLES as guidance to avoid the use of <b>ReadFile</b> and <b>WriteFile</b>.</div>
 <div> </div>
@@ -171,11 +172,11 @@ The usual way a layered service provider takes care of this is to substitute a d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>
 
 
 

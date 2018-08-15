@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -88,7 +89,7 @@ Bundles inherit all state from the parent command list on which <b>ExecuteBundle
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 The runtime will validate that the "callee" is a bundle and that the "caller" is a direct command list.  The runtime will also validate that the bundle has been closed.  If the contract is violated, the runtime will silently drop the call.
-            Validation failure will result in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning E_INVALIDARG.
+            Validation failure will result in <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> returning E_INVALIDARG.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
@@ -97,7 +98,7 @@ The debug layer will issue a warning in the same cases where the runtime will fa
             Also, the debug layer will issue an error if it detects that any resource reference by the command list has been destroyed.
           
 
-The debug layer will also validate that the command allocator associated with the bundle has not been reset since <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> was called on the command list.  This validation occurs at <b>ExecuteBundle</b> time, and when the parent command list is executed on a command queue.
+The debug layer will also validate that the command allocator associated with the bundle has not been reset since <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> was called on the command list.  This validation occurs at <b>ExecuteBundle</b> time, and when the parent command list is executed on a command queue.
           
 
 

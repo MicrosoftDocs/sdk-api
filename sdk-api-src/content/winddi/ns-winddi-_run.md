@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The RUN structure is used to describe a linear set of pixels that is not clipped by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539416">CLIPLINE</a> structure.
+The RUN structure is used to describe a linear set of pixels that is not clipped by the <a href="https://msdn.microsoft.com/ec938519-3c0c-4664-9e9a-b7fb338920f5">CLIPLINE</a> structure.
 
 
 ## -struct-fields
@@ -83,7 +84,7 @@ If the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568852">PATHOBJ_bEnumClipLines</a>
+<a href="https://msdn.microsoft.com/edc64b1e-dd3f-4b6a-858c-91c49a819b0a">PATHOBJ_bEnumClipLines</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539837">CM_Set_DevNode_Problem</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/94bbedfc-aeef-46e7-bcf7-477e274f9d17">CM_Set_DevNode_Problem</a> instead.]
 
 The <b>CM_Set_DevNode_Problem_Ex</b> function sets a problem code for a device that is installed in a local or a remote machine.
 
@@ -67,7 +68,7 @@ Caller-supplied device instance handle that is bound to the machine handle suppl
 
 ### -param ulProblem [in]
 
-Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="devinst.device_manager_error_messages">Device Manager Error Messages</a>. A value of zero indicates that a problem code is not set for the device. 
+Supplies a problem code, which is zero or one of the CM_PROB_Xxx flags that are described in <a href="https://msdn.microsoft.com/library/Ff541422(v=VS.85).aspx">Device Manager Error Messages</a>. A value of zero indicates that a problem code is not set for the device. 
 
 
 ### -param ulFlags [in]
@@ -100,21 +101,21 @@ Use this function to set a problem code for a device that is installed in a loca
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Get_DevNode_Status</a> returns the problem code set for a device installed in a local machine.
+<a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a> returns the problem code set for a device installed in a local machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538517">CM_Get_DevNode_Status_Ex</a> returns the problem code set for a device installed in a local or a remote machine.
+<a href="https://msdn.microsoft.com/3e7dd781-7f99-4c49-bbe1-8d2e63cff553">CM_Get_DevNode_Status_Ex</a> returns the problem code set for a device installed in a local or a remote machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539837">CM_Set_DevNode_Problem</a> sets a problem code for a device installed in a local machine.
+<a href="https://msdn.microsoft.com/94bbedfc-aeef-46e7-bcf7-477e274f9d17">CM_Set_DevNode_Problem</a> sets a problem code for a device installed in a local machine.
 
 </li>
 </ul>
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -126,19 +127,19 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>
+<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Get_DevNode_Status</a>
+<a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538517">CM_Get_DevNode_Status_Ex</a>
+<a href="https://msdn.microsoft.com/3e7dd781-7f99-4c49-bbe1-8d2e63cff553">CM_Get_DevNode_Status_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539837">CM_Set_DevNode_Problem</a>
+<a href="https://msdn.microsoft.com/94bbedfc-aeef-46e7-bcf7-477e274f9d17">CM_Set_DevNode_Problem</a>
  
 
  

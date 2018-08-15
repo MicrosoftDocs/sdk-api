@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ The number of elements to retrieve.
 
 ### -param pPIDMap [in, out]
 
-Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567763">PID_MAP</a> structures that describe the PID mapping.
+Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://msdn.microsoft.com/c247ec75-483d-4587-a82f-07bbf6d277b4">PID_MAP</a> structures that describe the PID mapping.
 
 
 ### -param pcReceived [out]

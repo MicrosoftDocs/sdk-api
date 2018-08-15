@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -82,7 +83,7 @@ Gets the command-line arguments associated with a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/1f00a485-42b5-4f91-88e0-d2ce78273be1">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description string for a Shell link object.
@@ -118,7 +119,7 @@ Gets the list of item identifiers for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/7c60f5a2-dc21-4b13-a201-1fab04c53bb4">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path and file name of the target of a Shell link object.

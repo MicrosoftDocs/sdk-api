@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,7 +80,7 @@ The <b>IMediaSample2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/ef20deed-f906-459a-8c2a-f1c929ade9ac">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of a media sample.
@@ -88,7 +89,7 @@ Retrieves the properties of a media sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/f024fe3a-802d-4dc1-9f4d-ebeeed0b067a">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of a media sample.

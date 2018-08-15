@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -64,12 +65,12 @@ The <b>CopyRect</b> function copies the coordinates of one rectangle to another.
 
 ### -param lprcDst [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that receives the logical coordinates of the source rectangle.
+Pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the logical coordinates of the source rectangle.
 
 
 ### -param lprcSrc [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure whose coordinates are to be copied in logical units.
+Pointer to the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure whose coordinates are to be copied in logical units.
 
 
 ## -returns
@@ -103,7 +104,7 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -101,7 +102,7 @@ GUID that specifies the structure used for the format block. The <b>pbFormat</b>
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559517">DVINFO</a>
+<a href="https://msdn.microsoft.com/285a56fc-9c25-4c5a-ae6a-146c17b00e84">DVINFO</a>
 
 
 </td>
@@ -183,7 +184,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+<a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a>
 
 
 </td>

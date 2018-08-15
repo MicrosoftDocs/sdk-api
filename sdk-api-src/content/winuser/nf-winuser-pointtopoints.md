@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>POINTTOPOINTS</b> macro converts a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure.
+The <b>POINTTOPOINTS</b> macro converts a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure to a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure.
 
 
 
@@ -64,7 +65,7 @@ The <b>POINTTOPOINTS</b> macro converts a <a href="https://msdn.microsoft.com/li
 
 ### -param pt
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure to convert.
+The <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure to convert.
 
 
 ## -see-also
@@ -76,11 +77,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>
+<a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>
 
 
 

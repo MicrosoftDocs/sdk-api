@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -140,7 +141,7 @@ Pointer to a memory location in which GDI places the number of bytes copied into
 
 
 
-A printer driver DLL can work with multiple data files to support different printer models. The printer driver calls <b>EngGetPrinterDriver</b> to determine which data file to use. For example, the Unidrv renderer calls this function to determine the name of a <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file, and the postscript driver calls this function to determine the name of a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PPD</a> file. The DRIVER_INFO_2 and DRIVER_INFO_3 structures contain a full path and file name specifying the location of the data file. The printer driver can then use the returned path and file name to load the data file by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564964">EngLoadModule</a> with the path and file name as a single argument.
+A printer driver DLL can work with multiple data files to support different printer models. The printer driver calls <b>EngGetPrinterDriver</b> to determine which data file to use. For example, the Unidrv renderer calls this function to determine the name of a <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file, and the postscript driver calls this function to determine the name of a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PPD</a> file. The DRIVER_INFO_2 and DRIVER_INFO_3 structures contain a full path and file name specifying the location of the data file. The printer driver can then use the returned path and file name to load the data file by calling <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a> with the path and file name as a single argument.
 
 The DRIVER_INFO_<i>X</i> structures are described in the Microsoft Windows SDK documentation.
 
@@ -152,7 +153,7 @@ The DRIVER_INFO_<i>X</i> structures are described in the Microsoft Windows SDK d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564964">EngLoadModule</a>
+<a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>
  
 
  

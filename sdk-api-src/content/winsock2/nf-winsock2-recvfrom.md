@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -83,7 +84,7 @@ A set of options that modify the behavior of the function call beyond the option
 ### -param from [out]
 
 An optional pointer to a buffer in a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure that will hold the source address upon return.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure that will hold the source address upon return.
 
 
 ### -param fromlen [in, out, optional]
@@ -226,7 +227,7 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <td width="60%">
 The socket has been shut down; it is not possible to 
 <a href="https://msdn.microsoft.com/3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1">recvfrom</a> on a socket after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> has been invoked with <i>how</i> set to SD_RECEIVE or SD_BOTH.
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> has been invoked with <i>how</i> set to SD_RECEIVE or SD_BOTH.
 
 </td>
 </tr>
@@ -302,7 +303,7 @@ For message-oriented sockets, data is extracted from the first enqueued message,
 <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a>. For unreliable protocols (for example, UDP) the excess data is lost. For UDP if the packet received contains no data (empty), the return value from the <b>recvfrom</b> function function is zero.
 
 If the <i>from</i> parameter is nonzero and the socket is not connection oriented, (type SOCK_DGRAM for example), the network address of the peer that sent the data is copied to the corresponding 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The value pointed to by <i>fromlen</i> is initialized to the size of this structure and is modified, on return, to indicate the actual size of the address stored in the <b>sockaddr</b> structure.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. The value pointed to by <i>fromlen</i> is initialized to the size of this structure and is modified, on return, to indicate the actual size of the address stored in the <b>sockaddr</b> structure.
 
 If no incoming data is available at the socket, the 
 <b>recvfrom</b> function blocks and waits for data to arrive according to the blocking rules defined for 
@@ -468,7 +469,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
 
 
 

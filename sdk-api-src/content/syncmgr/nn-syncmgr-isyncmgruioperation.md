@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ISyncMgrUIOperation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/66dd853e-0fb0-4736-982a-e0183cb51842">Run</a>
 </td>
 <td align="left" width="63%">
 Performs the actual display of UI for a handler or sync item when requested to do so by Sync Center.
@@ -107,7 +108,7 @@ The following summarizes the steps Sync Center takes to instantiate and use this
 <a href="https://msdn.microsoft.com/54336c43-348b-4767-94e4-fe7dc47c0876">ISyncMgrSyncItem::GetObject</a> is called with the appropriate <b>SYNCMGR_OBJECTID</b> object ID to obtain a pointer to the <b>ISyncMgrUIOperation</b> that implements the UI object.</li>
 </ol>
 </li>
-<li>Sync Center calls the UI object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a> method to display the UI.</li>
+<li>Sync Center calls the UI object's <a href="https://msdn.microsoft.com/66dd853e-0fb0-4736-982a-e0183cb51842">Run</a> method to display the UI.</li>
 </ol>
 By implementing the UI as a separate interface, the display of the UI can be performed independently of synchronization. <b>ISyncMgrUIOperation</b> should be implemented on a different object than either <a href="https://msdn.microsoft.com/39579030-1cf5-4e82-a5e7-cb3415903d02">ISyncMgrHandler</a> or <a href="https://msdn.microsoft.com/322c2ebe-f1ab-4de4-b8d5-2fba1e69ddda">ISyncMgrSyncItem</a>.
 

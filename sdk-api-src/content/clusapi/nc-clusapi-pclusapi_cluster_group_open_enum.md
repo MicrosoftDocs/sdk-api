@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -63,7 +64,7 @@ Opens an enumerator for iterating through a
 
 ### -param hGroup [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to be enumerated.
+A handle to the <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to be enumerated.
 
 
 ### -param dwType [in]

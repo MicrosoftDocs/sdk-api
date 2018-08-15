@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -76,7 +77,7 @@ The <b>IDataCollectorSetCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/c551e373-77a4-4bac-848d-5aaec1e89cf1">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a data collector set to the collection.
@@ -94,7 +95,7 @@ Adds one or more data collector sets to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/a7a4754c-8c64-4add-89b1-c5bdbf4cb807">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all data collector sets from the collection.
@@ -112,7 +113,7 @@ Populates the data collector set collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/6200dac0-8817-4d59-9456-67921bcf15ae">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a data collector set from the collection.
@@ -129,7 +130,7 @@ Removes a data collector set from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/f875038d-8b66-44b2-b28e-211f08a691ec">_NewEnum</a>
 
 
 </td>
@@ -141,7 +142,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/b43f7cc5-9780-4ae7-b542-7ca887f09087">Count</a>
 
 
 </td>
@@ -153,7 +154,7 @@ Retrieves the number of data collector sets in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/ebb126d5-8582-4afa-833c-146cd4ad9efb">Item</a>
 
 
 </td>

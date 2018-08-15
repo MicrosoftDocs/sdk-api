@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -79,17 +80,17 @@ Adds a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32"
 
 
 
-#### - objNode
-
-A <a href="https://msdn.microsoft.com/b164f5a6-13f1-4eff-a2f9-805b60138dd1">ClusNode</a> object to be added to the 
-      collection.
-
-
 #### - lPosition
 
 Optional. <b>Long</b> that identifies the location within the collection to add the 
       new node. Highly preferred, high-priority nodes have low position values (that is, they occur first in the 
       list).
+
+
+#### - objNode
+
+A <a href="https://msdn.microsoft.com/b164f5a6-13f1-4eff-a2f9-805b60138dd1">ClusNode</a> object to be added to the 
+      collection.
 
 
 ## -returns

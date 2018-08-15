@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -128,7 +129,7 @@ Retrieves the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/430528b7-3b3a-4df9-8093-9b0f9262f106">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the playback device.
@@ -173,7 +174,7 @@ Sets the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/58374819-82dd-4ffe-8cd7-ad51ea0d7207">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the playback device.
@@ -191,7 +192,7 @@ Steps through the video stream by a specified number of frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/20262521-bb9c-4e37-b89c-8c439df50ed4">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the playback device.

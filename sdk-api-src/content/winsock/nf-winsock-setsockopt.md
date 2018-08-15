@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -162,7 +163,7 @@ The <i>level</i> parameter is not valid, or the information in the buffer pointe
 </dl>
 </td>
 <td width="60%">
-The connection has timed out when <a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a> is set.
+The connection has timed out when <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is set.
 
 </td>
 </tr>
@@ -184,7 +185,7 @@ The option is unknown or unsupported for the specified provider or socket (see S
 </dl>
 </td>
 <td width="60%">
-The connection has been reset when <a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a> is set.
+The connection has been reset when <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is set.
 
 </td>
 </tr>
@@ -269,7 +270,7 @@ The following tables list some of the common options supported by the <b>setsock
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a>
+<a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
 </td>
 <td>BOOL</td>
 <td>Enables sending keep-alive packets for a socket connection. Not supported on ATM sockets (results in an error).</td>
@@ -300,7 +301,7 @@ The following tables list some of the common options supported by the <b>setsock
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 </td>
 <td>BOOL</td>
 <td>Enables a socket to be bound for exclusive access. Does not require administrative privilege. </td>

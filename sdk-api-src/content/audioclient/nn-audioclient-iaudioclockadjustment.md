@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>IAudioClockAdjustment</b> interface is used to adjust the sample rate of 
 The client obtains a reference to the <b>IAudioClockAdjustment</b> interface of a stream object by calling the <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClockAdjustment. Adjusting the sample rate is not supported for exclusive mode streams. 
 
 The <b>IAudioClockAdjustment</b> interface must be obtained from an audio client that is initialized with both the AUDCLNT_STREAMFLAGS_RATEADJUST flag  and the share mode set to AUDCLNT_SHAREMODE_SHARED.
-			  If <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> is called in an exclusive mode with the AUDCLNT_STREAMFLAGS_RATEADJUST flag, <b>Initialize</b> fails with the  AUDCLNT_E_UNSUPPORTED_FORMAT error code.
+			  If <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">Initialize</a> is called in an exclusive mode with the AUDCLNT_STREAMFLAGS_RATEADJUST flag, <b>Initialize</b> fails with the  AUDCLNT_E_UNSUPPORTED_FORMAT error code.
 
 When releasing an <b>IAudioClockAdjustment</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">IAudioClient::GetService</a> that created the object.
 

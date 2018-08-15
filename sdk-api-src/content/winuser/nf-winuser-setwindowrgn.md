@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -100,7 +101,7 @@ When this function is called, the system sends the <a href="https://msdn.microso
 
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
-<div class="alert"><b>Note</b>  If the window layout is right-to-left (RTL), the coordinates are relative to the upper-right corner of the window. See <a href="_win32_Window_Features">Window Layout and Mirroring</a>.</div>
+<div class="alert"><b>Note</b>  If the window layout is right-to-left (RTL), the coordinates are relative to the upper-right corner of the window. See <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">Window Layout and Mirroring</a>.</div>
 <div> </div>
 After a successful call to <b>SetWindowRgn</b>, the system owns the region specified by the region handle <i>hRgn</i>. The system does not make a copy of the region. Thus, you should not make any further function calls with this region handle. In particular, do not delete this region handle. The system deletes the region handle when it no longer needed.
 

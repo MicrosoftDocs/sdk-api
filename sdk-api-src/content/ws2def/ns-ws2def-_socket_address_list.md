@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -104,7 +105,7 @@ The size, in bytes, of the SOCKADDR structure type that is pointed to by the
 
 
 A WSK application passes a buffer to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> function when the WSK
+    <a href="https://msdn.microsoft.com/d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a">WskControlSocket</a> function when the WSK
     application queries the current list of local transport addresses that match a socket's address family.
     If the call to the 
     <b>WskControlSocket</b> function succeeds, the buffer contains a SOCKET_ADDRESS_LIST structure followed by
@@ -117,7 +118,7 @@ A WSK application passes a buffer to the
     created the socket.
 
 For more information about querying the current list of local transport addresses, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570815">SIO_ADDRESS_LIST_QUERY</a>.
+    <a href="https://msdn.microsoft.com/6b23a019-812c-4623-941b-87928acabbd2">SIO_ADDRESS_LIST_QUERY</a>.
 
 
 
@@ -127,15 +128,15 @@ For more information about querying the current list of local transport addresse
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570815">SIO_ADDRESS_LIST_QUERY</a>
+<a href="https://msdn.microsoft.com/6b23a019-812c-4623-941b-87928acabbd2">SIO_ADDRESS_LIST_QUERY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+<a href="https://msdn.microsoft.com/d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a">WskControlSocket</a>
  
 
  

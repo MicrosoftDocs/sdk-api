@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -184,18 +185,18 @@ Bits 0 through 7 of this member contain the item state flags. For a list of poss
 
  
 
-The overlay image is superimposed over the item's icon image. Bits 8 through 11 of this member specify the one-based overlay image index. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="Tree_View_Control_Item_States.htm">TVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a> function. 
+The overlay image is superimposed over the item's icon image. Bits 8 through 11 of this member specify the one-based overlay image index. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="https://msdn.microsoft.com/en-us/library/Bb759985(v=VS.85).aspx">TVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a> function. 
 
  
 
-A state image is displayed next to an item's icon to indicate an application-defined state. Specify the state image list by sending a <a href="https://msdn.microsoft.com/en-us/library/Bb773747(v=VS.85).aspx">TVM_SETIMAGELIST</a> message. To set an item's state image, include the <a href="Tree_View_Control_Item_States.htm">TVIS_STATEIMAGEMASK</a> value in the 
+A state image is displayed next to an item's icon to indicate an application-defined state. Specify the state image list by sending a <a href="https://msdn.microsoft.com/en-us/library/Bb773747(v=VS.85).aspx">TVM_SETIMAGELIST</a> message. To set an item's state image, include the <a href="https://msdn.microsoft.com/en-us/library/Bb759985(v=VS.85).aspx">TVIS_STATEIMAGEMASK</a> value in the 
 						<b>stateMask</b> member of the <b>TVITEM</b> structure. Bits 12 through 15 of the structure's 
 						<b>state</b> member specify the index in the state image list of the image to be drawn.
 
  
 
 To set the state image index, use <a href="https://msdn.microsoft.com/en-us/library/Bb775597(v=VS.85).aspx">INDEXTOSTATEIMAGEMASK</a>. This macro takes an index and sets bits 12 through 15 appropriately. To indicate that the item has no state image, set the index to zero. This convention means that image zero in the state image list cannot be used as a state image. To isolate bits 12 through 15 of the 
-						<b>state</b> member, use the <a href="Tree_View_Control_Item_States.htm">TVIS_STATEIMAGEMASK</a> mask.
+						<b>state</b> member, use the <a href="https://msdn.microsoft.com/en-us/library/Bb759985(v=VS.85).aspx">TVIS_STATEIMAGEMASK</a> mask.
 
 
 ### -field stateMask
@@ -207,7 +208,7 @@ Bits of the
 					<b>stateMask</b> member to indicate the bits to be returned in the 
 					<b>state</b> member. If you are setting an item's state, set the bits of the 
 					<b>stateMask</b> member to indicate the bits of the 
-					<b>state</b> member that you want to set. To set or retrieve an item's overlay image index, set the <a href="Tree_View_Control_Item_States.htm">TVIS_OVERLAYMASK</a> bits. To set or retrieve an item's state image index, set the <a href="Tree_View_Control_Item_States.htm">TVIS_STATEIMAGEMASK</a> bits. 
+					<b>state</b> member that you want to set. To set or retrieve an item's overlay image index, set the <a href="https://msdn.microsoft.com/en-us/library/Bb759985(v=VS.85).aspx">TVIS_OVERLAYMASK</a> bits. To set or retrieve an item's state image index, set the <a href="https://msdn.microsoft.com/en-us/library/Bb759985(v=VS.85).aspx">TVIS_STATEIMAGEMASK</a> bits. 
 
 
 ### -field pszText
@@ -278,7 +279,7 @@ The item has one or more child items.
 <td width="60%">
 The parent window keeps track of whether the item has child items. In this case, when the tree-view control needs to display the item, the control sends the parent a <a href="https://msdn.microsoft.com/en-us/library/Bb773518(v=VS.85).aspx">TVN_GETDISPINFO</a> notification code to determine whether the item has child items. 
 
-If the tree-view control has the <a href="Tree_View_Control_Window_Styles.htm">TVS_HASBUTTONS</a> style, it uses this member to determine whether to display the button indicating the presence of child items. You can use this member to force the control to display the button even though the item does not have any child items inserted. This allows you to display the button while minimizing the control's memory usage by inserting child items only when the item is visible or expanded.
+If the tree-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb760013(v=VS.85).aspx">TVS_HASBUTTONS</a> style, it uses this member to determine whether to display the button indicating the presence of child items. You can use this member to force the control to display the button even though the item does not have any child items inserted. This allows you to display the button while minimizing the control's memory usage by inserting child items only when the item is visible or expanded.
 
 </td>
 </tr>

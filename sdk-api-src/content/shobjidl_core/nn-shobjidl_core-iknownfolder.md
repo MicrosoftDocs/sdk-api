@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -98,7 +99,7 @@ Retrieves the folder type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/c20fc32f-394d-4fbe-b7dd-072d84be2713">GetId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the selected folder.
@@ -116,7 +117,7 @@ Gets the location of the Shell namespace folder in the IDList (<a href="https://
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/c1786db0-9bcc-4fc8-ae18-8519da6edda9">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path of a known folder as a string.

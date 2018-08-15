@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -109,7 +110,7 @@ Retrieves a collection of the <a href="https://msdn.microsoft.com/d951f5cc-85da-
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915814">Scope</a>
+<a href="https://msdn.microsoft.com/f8b81fea-b4b8-4391-bc01-5c345f45ad56">Scope</a>
 
 
 </td>

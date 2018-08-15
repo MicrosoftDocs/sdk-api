@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -102,7 +103,7 @@ Currently, the only valid values for the <i>bstrValueName</i> parameter are "Rem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597612">GetGuidValue</a>
+<a href="https://msdn.microsoft.com/4cbfaa8c-80f1-49c6-91aa-17764559da8b">GetGuidValue</a>
 
 
 

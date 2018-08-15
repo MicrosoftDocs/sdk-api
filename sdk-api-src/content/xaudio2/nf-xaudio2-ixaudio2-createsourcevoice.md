@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,7 +86,7 @@ XAudio2 supports PCM and ADPCM voice types.
 <tr>
 <td>-or-</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+<a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a>
 </td>
 <td>18</td>
 </tr>
@@ -106,7 +107,7 @@ XAudio2 supports PCM and ADPCM voice types.
 <tr>
 <td>WAVE_FORMAT_EXTENSIBLE (0xFFFE)</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>
+<a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>
 </td>
 <td>40</td>
 </tr>
@@ -210,14 +211,14 @@ If <i>MaxFrequencyRatio</i> is less than 1.0, the voice will use that ratio imme
 Pointer to a client-provided callback interface, <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>.
 
 
-#### - pSendList [in, out]
-
-Pointer to a list of <a href="https://msdn.microsoft.com/en-us/library/Ee419246(v=VS.85).aspx">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the source voice. If pSendList is NULL, the send list defaults to a single output to the first mastering voice created.
-
-
 #### - pEffectChain [in, optional]
 
 Pointer to a list of <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the source voice.
+
+
+#### - pSendList [in, out]
+
+Pointer to a list of <a href="https://msdn.microsoft.com/en-us/library/Ee419246(v=VS.85).aspx">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the source voice. If pSendList is NULL, the send list defaults to a single output to the first mastering voice created.
 
 
 ## -returns

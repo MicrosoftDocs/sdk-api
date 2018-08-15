@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -109,7 +110,7 @@ Sets the list of permissions for the WMI filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/237f235f-f6b1-41b5-95cf-73f512484a68">Description</a>
 
 
 </td>
@@ -121,7 +122,7 @@ Description of the WMI filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/237f235f-f6b1-41b5-95cf-73f512484a68">Name</a>
 
 
 </td>
@@ -133,7 +134,7 @@ Name of the WMI filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/237f235f-f6b1-41b5-95cf-73f512484a68">Path</a>
 
 
 </td>

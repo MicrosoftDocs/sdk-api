@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.micro
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="mf.d3d11_video_processpr_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="https://msdn.microsoft.com/library/Hh447671(v=VS.85).aspx">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
 
 
 ### -field InputFormatCaps

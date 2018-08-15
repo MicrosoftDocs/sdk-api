@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdVideoPortDestroy</b> callback function notifies the driver that DirectD
 
 #### - lpDestroyVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550583">DD_DESTROYVPORTDATA</a> structure that contains the information required for the driver to clean up.
+Points to a <a href="https://msdn.microsoft.com/b9e29c23-bb1a-47e8-a605-2863c4cda2af">DD_DESTROYVPORTDATA</a> structure that contains the information required for the driver to clean up.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55058
 
 <b>DdVideoPortDestroy</b> can be optionally implemented in DirectDraw drivers that support VPE.
 
-The driver should free any memory that it allocated and associated with the specified VPE object. This includes freeing any driver-allocated memory accessed through the <b>dwReserved1</b> and <b>dwReserved2</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a> structure. This DD_VIDEOPORT_LOCAL structure is at the <b>lpVideoPort</b> member of the DD_DESTROYVPORTDATA structure at <i>lpDestroyVideoPort</i>. 
+The driver should free any memory that it allocated and associated with the specified VPE object. This includes freeing any driver-allocated memory accessed through the <b>dwReserved1</b> and <b>dwReserved2</b> members of the <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure. This DD_VIDEOPORT_LOCAL structure is at the <b>lpVideoPort</b> member of the DD_DESTROYVPORTDATA structure at <i>lpDestroyVideoPort</i>. 
 
 
 
@@ -97,11 +98,11 @@ The driver should free any memory that it allocated and associated with the spec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550583">DD_DESTROYVPORTDATA</a>
+<a href="https://msdn.microsoft.com/b9e29c23-bb1a-47e8-a605-2863c4cda2af">DD_DESTROYVPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a>
+<a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a>
 
 
 

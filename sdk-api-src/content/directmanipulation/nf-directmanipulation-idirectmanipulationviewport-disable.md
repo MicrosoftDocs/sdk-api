@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -77,7 +78,7 @@ When a viewport is disabled, it immediately stops all transforms and moves the c
 
 Call this method when you want to modify multiple attributes atomically. This method can be called at any time. 
 
-The viewport will not resume processing input until <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> is called. 
+The viewport will not resume processing input until <a href="https://msdn.microsoft.com/47ebb502-26c6-4bff-8baf-bd825fc06755">Enable</a> is called. 
 
 
 #### Examples

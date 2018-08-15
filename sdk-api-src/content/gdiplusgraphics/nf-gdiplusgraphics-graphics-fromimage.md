@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::FromImage</b> method creates a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object that is associated with a specified 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object that is associated with a specified 
 			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
@@ -67,18 +68,18 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).asp
 
 Pointer to an 
 					<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that will be associated with the new 
-					<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object. 
+					<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object.
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object.
 
 
 
@@ -110,7 +111,7 @@ This method also fails if the image has one of the following pixel formats:
 
 
 The following example calls the <b>Graphics::FromImage</b> method to create a 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object that is associated with an 
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object that is associated with an 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object. The call to 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535969(v=VS.85).aspx">Graphics::FillEllipse</a>	does not paint on the display device; instead, it alters the bitmap of the 
 						<b>Image</b> object. The call to 
@@ -160,7 +161,7 @@ The following example calls the <b>Graphics::FromImage</b> method to create a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 

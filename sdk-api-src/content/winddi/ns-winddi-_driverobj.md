@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -109,19 +110,19 @@ This structure provides a locking mechanism for exclusive access to the associat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564207">EngCreateDriverObj</a>
+<a href="https://msdn.microsoft.com/2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2">EngCreateDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564792">EngDeleteDriverObj</a>
+<a href="https://msdn.microsoft.com/5c4f7f6a-331e-4c5d-9663-6a84245a203f">EngDeleteDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564967">EngLockDriverObj</a>
+<a href="https://msdn.microsoft.com/9ed3142d-2b20-4453-9057-80e6f8f92ff2">EngLockDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565044">EngUnlockDriverObj</a>
+<a href="https://msdn.microsoft.com/027bf180-b226-4d88-803d-2839417f727f">EngUnlockDriverObj</a>
  
 
  

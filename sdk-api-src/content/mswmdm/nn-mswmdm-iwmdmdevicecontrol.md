@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IWMDMDeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/61d0e44c-f1be-4837-a773-48c6c5278fe0">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device capabilities to determine what operations the device can perform.
@@ -85,7 +86,7 @@ Retrieves the device capabilities to determine what operations the device can pe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/e39fb2ed-a3b4-4167-9404-6b7c706f0941">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the control status of the device.
@@ -94,7 +95,7 @@ Retrieves the control status of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/420963d1-11ea-4f1d-b5c0-749e99ee7725">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the current play or record operation.
@@ -130,7 +131,7 @@ Resumes the current play or record operation from the file position saved during
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/f416a520-197c-4607-979e-8f43951f2076">Seek</a>
 </td>
 <td align="left" width="63%">
 Seeks to a position that is used as the starting point by the <b>Play</b> or <b>Record</b> methods.
@@ -139,7 +140,7 @@ Seeks to a position that is used as the starting point by the <b>Play</b> or <b>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/842b7de7-dde2-40d1-8028-9ffebcaea90e">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the current record or play operation.

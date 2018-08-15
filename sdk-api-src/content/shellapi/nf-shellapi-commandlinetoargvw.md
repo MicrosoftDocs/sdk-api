@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -100,7 +101,7 @@ The address returned by <b>CommandLineToArgvW</b> is the address of the first el
 
 <b>CommandLineToArgvW</b> allocates a block of contiguous memory for pointers to the argument strings, and for the argument strings themselves; the calling application must free the memory used by the argument list when it is no longer needed. To free the memory, use a single call to the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
 
-For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="6148cbf3-ebe8-44f2-b277-de4b723991c7">Argument Definitions</a> and <a href="e634e733-ac2f-4298-abe2-7e9288c94951">Parsing C++ Command-Line Arguments</a>.
+For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="https://msdn.microsoft.com/library/88w63h9k(v=VS.85).aspx">Argument Definitions</a> and <a href="https://msdn.microsoft.com/library/17w5ykft(v=VS.85).aspx">Parsing C++ Command-Line Arguments</a>.
 
 The <a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -68,7 +69,7 @@ Specifies the ID of an existing property.
 ### -param pValue [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> that contains the value of the property.
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that contains the value of the property.
 
 
 ## -returns
@@ -99,7 +100,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
  
 
  

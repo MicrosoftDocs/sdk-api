@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The <code>IAudioMediaType::GetUncompressedAudioFormat</code> returns information
 
 ### -param pUncompressedAudioFormat [out]
 
-Specifies a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538640">UNCOMPRESSEDAUDIOFORMAT</a> structure.
+Specifies a pointer to an <a href="https://msdn.microsoft.com/b1d35067-7ef3-4c29-8b16-642300485695">UNCOMPRESSEDAUDIOFORMAT</a> structure.
 
 
 ## -returns
@@ -86,7 +87,7 @@ The information that is returned is useful for uncompressed formats. However, th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538640">UNCOMPRESSEDAUDIOFORMAT</a>
+<a href="https://msdn.microsoft.com/b1d35067-7ef3-4c29-8b16-642300485695">UNCOMPRESSEDAUDIOFORMAT</a>
  
 
  

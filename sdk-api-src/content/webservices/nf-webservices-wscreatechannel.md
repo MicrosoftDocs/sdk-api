@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The type of the channel. For channel types, see the <a href="https://msdn.micros
 
 ### -param channelBinding [in]
 
-The channel <a href="https://msdn.microsoft.com/library/windows/hardware/mt270133">binding</a>, indicating the protocol stack to use for the new channel.
+The channel <a href="https://msdn.microsoft.com/82d465c5-b23d-4403-b360-8c710fbc6e1c">binding</a>, indicating the protocol stack to use for the new channel.
                 For available channel bindings, see the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration.
 
 

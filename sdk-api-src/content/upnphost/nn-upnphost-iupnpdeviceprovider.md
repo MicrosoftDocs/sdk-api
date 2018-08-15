@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -72,7 +73,7 @@ The <b>IUPnPDeviceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/a76c7063-bad5-4f59-a5ca-8a8a4a79787e">Start</a>
 </td>
 <td align="left" width="63%">
 Method that is called by the device host when the device provider should start its processing.
@@ -81,7 +82,7 @@ Method that is called by the device host when the device provider should start i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/c8e4cd95-a6dc-4bf9-921e-63fbac743028">Stop</a>
 </td>
 <td align="left" width="63%">
 Method that is called by the device host when the device provider should stops its processing.

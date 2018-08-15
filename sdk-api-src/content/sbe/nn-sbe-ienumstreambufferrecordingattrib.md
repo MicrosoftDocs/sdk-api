@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -76,7 +77,7 @@ The <b>IEnumStreamBufferRecordingAttrib</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/542a8b5d-641a-4ffb-9c8b-7232b1723a07">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator object.
@@ -85,7 +86,7 @@ Makes a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/760b2e2c-799d-45e5-9dbd-2407e7431918">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of attributes in the enumeration sequence.
@@ -94,7 +95,7 @@ Retrieves a specified number of attributes in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/6fd3c56a-7804-4d7b-9d1f-6732cdadaf88">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -103,7 +104,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/83beb8e9-f268-4ae1-a90b-548f0e3f6c99">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of attributes.

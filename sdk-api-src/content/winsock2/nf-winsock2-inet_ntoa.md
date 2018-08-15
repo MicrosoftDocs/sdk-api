@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ TBD
 #### - a [in]
 
 An 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a> structure that represents an Internet host address.
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a> structure that represents an Internet host address.
 
 
 ## -returns
@@ -92,9 +93,9 @@ The
 <b>inet_ntoa</b> resides in memory that is allocated by Windows Sockets. The application should not make any assumptions about the way in which the memory is allocated. The string returned is guaranteed to be valid only until the next Windows Sockets function call is made within the same thread. Therefore, the data should be copied before another Windows Sockets call is made.
 
 The 
-<a href="https://msdn.microsoft.com/d72e55e6-79a9-4386-9e1a-24a322f13426">WSAAddressToString</a> function can be used to convert a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure containing an IPv4 address to a string representation of an IPv4 address in Internet standard dotted-decimal notation. The advantage of the <b>WSAAddressToString</b>  function is that it supports both IPv4 and IPv6 addresses. Another advantage of the  <b>WSAAddressToString</b>  function is that there are both ASCII and Unicode versions of this function.
+<a href="https://msdn.microsoft.com/d72e55e6-79a9-4386-9e1a-24a322f13426">WSAAddressToString</a> function can be used to convert a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure containing an IPv4 address to a string representation of an IPv4 address in Internet standard dotted-decimal notation. The advantage of the <b>WSAAddressToString</b>  function is that it supports both IPv4 and IPv6 addresses. Another advantage of the  <b>WSAAddressToString</b>  function is that there are both ASCII and Unicode versions of this function.
 
-On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-9429-4b51-9fb4-06cf9917bc21">RtlIpv4AddressToString</a> function can be used to convert an IPv4 address represented as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure to a string representation of an IPv4 address in Internet standard dotted-decimal notation. On Windows Vista and later, the <a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a> function can be used to convert an IPv6 address represented as an <b>IN6_ADDR</b> structure to a string representation of an IPv6 address. 
+On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-9429-4b51-9fb4-06cf9917bc21">RtlIpv4AddressToString</a> function can be used to convert an IPv4 address represented as an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure to a string representation of an IPv4 address in Internet standard dotted-decimal notation. On Windows Vista and later, the <a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a> function can be used to convert an IPv6 address represented as an <b>IN6_ADDR</b> structure to a string representation of an IPv6 address. 
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -148,7 +149,7 @@ On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-94
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a>
 
 
 
@@ -164,7 +165,7 @@ On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-94
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a>
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/d3dddd9c-a715-4697
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn973197">Version</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/4fa03e8c-e039-465c-aca2-4b68b894eb29">Version</a> property
 
 </td>
 </tr>
@@ -114,7 +115,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/722b0693-a11f-434a
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/32ccf51c-b820-4819-9e19-135ed3a0581d">Description</a> property
 
 </td>
 </tr>
@@ -134,7 +135,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/c35f612e-4a2c-46b6
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/f94a902a-9187-486c-9442-6defa9893532">Name</a> property
 
 </td>
 </tr>

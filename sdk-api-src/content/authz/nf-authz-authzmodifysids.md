@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -75,7 +76,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-
 
 ### -param pSids [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that specifies the groups to modify.
+A pointer to a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that specifies the groups to modify.
 
 
 ## -returns

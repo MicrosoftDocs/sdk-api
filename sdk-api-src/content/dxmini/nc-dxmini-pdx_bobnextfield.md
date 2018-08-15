@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,14 +75,14 @@ The <i>DxBobNextField</i> callback function bobs the next field of interleaved d
 
 
 
+#### - BobNextFieldInfo
+
+Points to a <a href="https://msdn.microsoft.com/fad2bf3d-798c-47d9-bd82-b6fc0deff0aa">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
+
+
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
-
-
-#### - BobNextFieldInfo
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549209">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
 
 
 #### - lpOutput
@@ -124,7 +125,7 @@ When data is interleaved, the driver's <a href="https://msdn.microsoft.com/4ce2e
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549209">DDBOBNEXTFIELDINFO</a>
+<a href="https://msdn.microsoft.com/fad2bf3d-798c-47d9-bd82-b6fc0deff0aa">DDBOBNEXTFIELDINFO</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplusgraphics.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,5 +52,5 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics</b> class provides methods for drawing lines, curves, figures, images, and text. A <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object stores attributes of the display device and attributes of the items to be drawn.
+The <b>Graphics</b> class provides methods for drawing lines, curves, figures, images, and text. A <a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics</a> object stores attributes of the display device and attributes of the items to be drawn.
 

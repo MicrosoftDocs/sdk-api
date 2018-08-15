@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -95,7 +96,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 #### - hActCtx
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> or later. An activation context handle. Set this member to the handle that is returned when you create the activation context with <a href="https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4">CreateActCtx</a>. The system will activate this context before creating the dialog box. You do not need to use this member if you use a global manifest. See the Remarks.
@@ -116,13 +117,6 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">
  
 
 
-
-
-#### - dwSize
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Size, in bytes, of this structure. 
 
 
 #### - dwFlags
@@ -285,25 +279,11 @@ Uses the <b>pszTitle</b> member as the title of the property sheet dialog box in
  
 
 
-#### - hInstance
+#### - dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Handle to the instance from which to load an icon or string resource. If the <b>pszIcon</b>, <b>pszTitle</b>, <b>pszHeaderTitle</b>, or <b>pszHeaderSubTitle</b> member identifies a resource to load, <b>hInstance</b> must be specified.
-
-
-#### - pszTemplate
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
-
-Dialog box template to use to create the page. This member can specify either the resource identifier of the template or the address of a string that specifies the name of the template. If the PSP_DLGINDIRECT flag in the <b>dwFlags</b> member is set, <b>pszTemplate</b> is ignored. This member is declared as a union with <b>pResource</b>.
-
-
-#### - pResource
-
-Type: <b>LPCDLGTEMPLATE</b>
-
-Pointer to a dialog box template in memory. The <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template is not write-protected. A read-only template will cause an exception in some versions of Windows. To use this member, you must set the PSP_DLGINDIRECT flag in the <b>dwFlags</b> member. This member is declared as a union with <b>pszTemplate</b>.
+Size, in bytes, of this structure. 
 
 
 #### - hIcon
@@ -313,25 +293,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to the icon to use as the icon in the tab of the page. If the <b>dwFlags</b> member does not include PSP_USEHICON, this member is ignored. This member is declared as a union with <b>pszIcon</b>.
 
 
-#### - pszIcon
+#### - hInstance
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
-Icon resource to use as the icon in the tab of the page. This member can specify either the identifier of the icon resource or the address of the string that specifies the name of the icon resource. To use this member, you must set the PSP_USEICONID flag in the <b>dwFlags</b> member. This member is declared as a union with <b>hIcon</b>.
-
-
-#### - pszTitle
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
-
-Title of the property sheet dialog box. This title overrides the title specified in the dialog box template. This member can specify either the identifier of a string resource or the address of a string that specifies the title. To use this member, you must set the PSP_USETITLE flag in the <b>dwFlags</b> member.
-
-
-#### - pfnDlgProc
-
-Type: <b>DLGPROC</b>
-
-Pointer to the dialog box procedure for the page. Because the pages are created as modeless dialog boxes, the dialog box procedure must not call the <a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function.
+Handle to the instance from which to load an icon or string resource. If the <b>pszIcon</b>, <b>pszTitle</b>, <b>pszHeaderTitle</b>, or <b>pszHeaderSubTitle</b> member identifies a resource to load, <b>hInstance</b> must be specified.
 
 
 #### - lParam
@@ -341,11 +307,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 When the page is created, a copy of the page's <b>PROPSHEETPAGE</b> structure is passed to the dialog box procedure with a <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message. The <b>lParam</b> member is provided to allow you to pass application-specific information to the dialog box procedure. It has no effect on the page itself. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb774538(v=VS.85).aspx">Property Sheet Creation</a>.
 
 
-#### - pfnCallback
+#### - pResource
 
-Type: <b>LPFNPSPCALLBACK</b>
+Type: <b>LPCDLGTEMPLATE</b>
 
-Pointer to an application-defined callback function that is called when the page is created and when it is about to be destroyed. For more information about the callback function, see <a href="https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a>. To use this member, you must set the PSP_USECALLBACK flag in the <b>dwFlags</b> member.
+Pointer to a dialog box template in memory. The <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template is not write-protected. A read-only template will cause an exception in some versions of Windows. To use this member, you must set the PSP_DLGINDIRECT flag in the <b>dwFlags</b> member. This member is declared as a union with <b>pszTemplate</b>.
 
 
 #### - pcRefParent
@@ -358,6 +324,41 @@ Pointer to the reference count value. To use this member, you must set the PSP_U
 
 <div class="alert"><b>Note</b>   When a property sheet page is created, the value pointed to by <b>pcRefParent</b> is incremented. You create a property sheet page implicitly by setting the PSH_PROPSHEETPAGE flag in the <b>dwFlags</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> and calling the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function. You can do it explicitly by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function. When a property sheet page is destroyed, the value pointed to by the <b>pcRefParent</b> member is decremented. This takes place automatically when the property sheet is destroyed. You can explicitly destroy a property sheet page by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760809(v=VS.85).aspx">DestroyPropertySheetPage</a> function.</div>
 <div> </div>
+
+#### - pfnCallback
+
+Type: <b>LPFNPSPCALLBACK</b>
+
+Pointer to an application-defined callback function that is called when the page is created and when it is about to be destroyed. For more information about the callback function, see <a href="https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a>. To use this member, you must set the PSP_USECALLBACK flag in the <b>dwFlags</b> member.
+
+
+#### - pfnDlgProc
+
+Type: <b>DLGPROC</b>
+
+Pointer to the dialog box procedure for the page. Because the pages are created as modeless dialog boxes, the dialog box procedure must not call the <a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function.
+
+
+#### - pszIcon
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+
+Icon resource to use as the icon in the tab of the page. This member can specify either the identifier of the icon resource or the address of the string that specifies the name of the icon resource. To use this member, you must set the PSP_USEICONID flag in the <b>dwFlags</b> member. This member is declared as a union with <b>hIcon</b>.
+
+
+#### - pszTemplate
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+
+Dialog box template to use to create the page. This member can specify either the resource identifier of the template or the address of a string that specifies the name of the template. If the PSP_DLGINDIRECT flag in the <b>dwFlags</b> member is set, <b>pszTemplate</b> is ignored. This member is declared as a union with <b>pResource</b>.
+
+
+#### - pszTitle
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+
+Title of the property sheet dialog box. This title overrides the title specified in the dialog box template. This member can specify either the identifier of a string resource or the address of a string that specifies the title. To use this member, you must set the PSP_USETITLE flag in the <b>dwFlags</b> member.
+
 
 ## -remarks
 

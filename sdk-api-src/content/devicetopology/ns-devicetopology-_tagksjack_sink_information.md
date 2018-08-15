@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -100,7 +101,7 @@ String containing the monitor sink name. The maximum length is defined by the co
 
 ### -field PortId
 
-Specifies the video port identifier in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> structure.
+Specifies the video port identifier in a <a href="https://msdn.microsoft.com/fce02fa7-ce96-417a-b389-cf19e1e3b91c">LUID</a> structure.
 
 
 ## -see-also

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -135,7 +136,7 @@ Creates and returns a <a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/1dba83eb-1af6-42d9-b2c9-ab7767888efe">Application</a>
 
 
 </td>
@@ -183,7 +184,7 @@ Contains the parent <b>Folder</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923257">Title</a>
+<a href="https://msdn.microsoft.com/95c064ff-4504-4e9c-80ac-47beca443ad4">Title</a>
 
 
 </td>

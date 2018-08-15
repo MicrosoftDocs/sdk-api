@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,9 +62,9 @@ Gets a value that describes how the property values are displayed when multiple 
 
 ### -param paggtype [out]
 
-Type: <b><a href="shell.PROPDESC_AGGREGATION_TYPE">PROPDESC_AGGREGATION_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762522(v=VS.85).aspx">PROPDESC_AGGREGATION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="shell.PROPDESC_AGGREGATION_TYPE">PROPDESC_AGGREGATION_TYPE</a>.
+When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="https://msdn.microsoft.com/en-us/library/Bb762522(v=VS.85).aspx">PROPDESC_AGGREGATION_TYPE</a>.
 
 
 ## -returns
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <i>aggregationType</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>aggregationType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -91,7 +92,7 @@ The information retrieved by this method comes from the <i>aggregationType</i> a
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -86,7 +87,7 @@ Pointer to the <a href="https://msdn.microsoft.com/5563311c-2bd1-4e96-ba0a-5a422
 
 ### -field pfnGetCentralAccessPolicy
 
-Pointer to the <a href="https://msdn.microsoft.com/1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0">AuthzGetCentralAccessPolicyCallback</a> callback function to be called by the resource manager to resolve any Central Access Policy ID ACE (<a href="https://msdn.microsoft.com/library/windows/hardware/hh406640">SYSTEM_SCOPED_POLICY_ID_ACE</a>) encountered by <a href="https://msdn.microsoft.com/633c2a73-169c-4e0c-abb6-96c360bd63cf">AuthzAccessCheck</a> or <a href="https://msdn.microsoft.com/8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4">AuthzCachedAccessCheck</a>. If this parameter is <b>NULL</b>, the <b>AuthzAccessCheck</b> function will fall back to LSA to resolve the Central Access Policy ID ACE.
+Pointer to the <a href="https://msdn.microsoft.com/1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0">AuthzGetCentralAccessPolicyCallback</a> callback function to be called by the resource manager to resolve any Central Access Policy ID ACE (<a href="https://msdn.microsoft.com/6B678A48-E024-4C67-A60C-5224868C04A5">SYSTEM_SCOPED_POLICY_ID_ACE</a>) encountered by <a href="https://msdn.microsoft.com/633c2a73-169c-4e0c-abb6-96c360bd63cf">AuthzAccessCheck</a> or <a href="https://msdn.microsoft.com/8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4">AuthzCachedAccessCheck</a>. If this parameter is <b>NULL</b>, the <b>AuthzAccessCheck</b> function will fall back to LSA to resolve the Central Access Policy ID ACE.
 
 
 ### -field pfnFreeCentralAccessPolicy

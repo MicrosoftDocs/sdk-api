@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -81,15 +82,15 @@ Pointer that receives a buffer that contains the data to be saved.
 
 
 
+#### - pbOverWriteAll [out]
+
+Pointer to a <b>BOOL</b> that receives a value indicating whether preexisting data should be overwritten.
+
+
 #### - sceHandle [in]
 
 Pointer that receives the 
 <a href="https://msdn.microsoft.com/478d7d4b-7983-4247-b8be-2e2cd3327533">SCESVC_HANDLE</a> the attachment snap-in extension is using to communicate with the Security Configuration snap-ins.
-
-
-#### - pbOverWriteAll [out]
-
-Pointer to a <b>BOOL</b> that receives a value indicating whether preexisting data should be overwritten.
 
 
 ## -returns

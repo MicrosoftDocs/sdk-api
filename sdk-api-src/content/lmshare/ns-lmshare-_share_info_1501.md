@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Contains the security descriptor associated with the specified share. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563698">Security Descriptors</a>.
+Contains the security descriptor associated with the specified share. For more information, see <a href="https://msdn.microsoft.com/4ab0e7b1-1b44-4368-b2bd-106c9d2c652c">Security Descriptors</a>.
 
 
 ## -struct-fields
@@ -67,7 +68,7 @@ Reserved; must be zero.
 ### -field shi1501_security_descriptor
 
 Specifies the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> associated with the share.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> associated with the share.
 
 
 ## -see-also

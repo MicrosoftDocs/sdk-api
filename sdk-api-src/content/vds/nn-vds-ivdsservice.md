@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -110,7 +111,7 @@ Returns an object pointer for the identified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/fb5fe743-4833-400a-a8aa-8de886203190">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves VDS property information.
@@ -200,7 +201,7 @@ Refreshes disk ownership and layout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/9c82746e-fbf0-4754-b246-82a174410cef">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the service object flags.

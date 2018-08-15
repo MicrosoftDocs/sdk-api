@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IUpdate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915028">AcceptEula</a>
+<a href="https://msdn.microsoft.com/b3a25994-eace-45ec-8e6b-40d69796f168">AcceptEula</a>
 </td>
 <td align="left" width="63%">
 Accepts the Microsoft Software License Terms that are associated with an update.
@@ -227,7 +228,7 @@ Gets the action for which the update is deployed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/2448c9aa-0e90-4454-b168-c31b36f569af">Description</a>
 
 
 </td>
@@ -675,7 +676,7 @@ Gets a collection of update identifiers. This collection of identifiers specifie
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923232">SupportUrl</a>
+<a href="https://msdn.microsoft.com/c4734e71-a64d-4231-80ed-1ee2bcc98ce1">SupportUrl</a>
 
 
 </td>
@@ -691,7 +692,7 @@ Gets a hyperlink to the language-specific support information for the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923257">Title</a>
+<a href="https://msdn.microsoft.com/83b1bcfc-d974-4804-8ed0-1ccde335b5ac">Title</a>
 
 
 </td>
@@ -707,7 +708,7 @@ Gets the localized title of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/2556ee19-b6ff-4e66-9e40-2c0a1d6a0176">Type</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: mswsock.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -71,12 +72,12 @@ A descriptor that identifies an unconnected, previously bound socket. See Remark
 ### -param *name [in]
 
 A pointer to  
-a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional IPv6 flow and scope-id information.
+a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional IPv6 flow and scope-id information.
 
 
 ### -param namelen [in]
 
-The length, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure pointed to by the <i>name</i> parameter.
+The length, in bytes, of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure pointed to by the <i>name</i> parameter.
 
 
 ### -param lpSendBuffer [in, optional]
@@ -438,7 +439,7 @@ else {
 
 
 If the address parameter of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure pointed to in the <i>name</i> parameter is all zeros, 
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure pointed to in the <i>name</i> parameter is all zeros, 
 <b>ConnectEx</b> returns the error <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEISCONN</a>.
 
 When a connected socket becomes closed for any reason, it is recommended that the socket be discarded and a new socket created. The reasoning for this is that it  is safest to assume that when things go awry on a connected socket for any reason, the application must discard teh socket and create the needed socket again in order to return to a stable point.
@@ -584,7 +585,7 @@ This registry setting can be set from 0 to 300 seconds.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

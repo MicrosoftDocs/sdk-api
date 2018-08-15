@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -60,9 +61,9 @@ Applications obtain an instance of the
     <a href="https://msdn.microsoft.com/5531e57a-49e0-42e9-abf0-e8a4849ccac6">CreateVssBackupComponents</a>.
 
 An <b>IVssBackupComponents</b> object can be used for 
-    only a single backup, restore, or <a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a> operation.
+    only a single backup, restore, or <a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">Query</a> operation.
 
-After the backup, restore, or <a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a> operation has either successfully finished or been explicitly terminated, a requester must 
+After the backup, restore, or <a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">Query</a> operation has either successfully finished or been explicitly terminated, a requester must 
     release the <b>IVssBackupComponents</b> object by calling 
     <b>IVssBackupComponents::Release</b>. An 
     <b>IVssBackupComponents</b> object must not be reused. For example, you cannot perform a backup or restore operation with the same <b>IVssBackupComponents</b> object that you have already used for a <b>Query</b> operation.
@@ -381,7 +382,7 @@ Signals the <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/3f79bf84-c7b9-4291-ae3b-7061fe3199e9">Query</a>
 </td>
 <td align="left" width="63%">
 Queries the list of providers or shadow copies in the system.
@@ -455,7 +456,7 @@ Indicates whether the backup of the specified component was successful.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>
+<a href="https://msdn.microsoft.com/0e466090-b551-44e8-a86d-75126352aa49">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the context for all subsequent shadow copy-related operations.

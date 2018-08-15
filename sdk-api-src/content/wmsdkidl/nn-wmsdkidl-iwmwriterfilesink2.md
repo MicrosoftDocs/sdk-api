@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IWMWriterFileSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/8d1bce07-a165-45cf-95cb-03b57f0cae03">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the sink.
@@ -121,7 +122,7 @@ Ascertains whether the file sink has stopped writing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/b4bfddbb-9156-42bf-b8d5-424fff9f4b64">Start</a>
 </td>
 <td align="left" width="63%">
 Starts recording at the specified time.
@@ -130,7 +131,7 @@ Starts recording at the specified time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/47377c77-f534-4bb0-be57-49bdb109c309">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops recording at the specified time.
@@ -177,7 +178,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

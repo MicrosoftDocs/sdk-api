@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -85,16 +86,16 @@ A pointer to a variable that, on input, specifies the size of the <i>pinfoBuffer
 On output, it receives the amount of information that is copied to the buffer, in bytes.
 
 
+#### - pinfoBuffer [out, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure that receives log metadata. 
+
+
 #### - psaLogFile [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
 
 This parameter can be <b>NULL</b>.
-
-
-#### - pinfoBuffer [out, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a> structure that receives log metadata. 
 
 
 ## -returns
@@ -117,7 +118,7 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
+<a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a>
 
 
 

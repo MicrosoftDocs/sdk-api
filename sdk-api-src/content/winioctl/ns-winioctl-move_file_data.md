@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ The count of clusters to be moved.
 
 To retrieve data to fill in this structure, use the 
     <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff545421">FSCTL_GET_RETRIEVAL_POINTERS</a> control 
+    <a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a> control 
     code.
 
 The first cluster of a directory on a FAT file system volume cannot be moved.
@@ -121,7 +122,7 @@ For more information about shadow copies, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545421">FSCTL_GET_RETRIEVAL_POINTERS</a>
+<a href="https://msdn.microsoft.com/002f6703-8db3-4034-a79f-3fa9c4159115">FSCTL_GET_RETRIEVAL_POINTERS</a>
 
 
 

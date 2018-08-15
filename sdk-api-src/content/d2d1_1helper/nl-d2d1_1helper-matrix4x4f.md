@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: d2d1_1helper.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

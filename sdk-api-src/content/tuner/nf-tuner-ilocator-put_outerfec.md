@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_OuterFEC</b> method sets the type of outer FEC to use.
 
 ### -param FEC [in]
 
-Specifies the outer FEC. This parameter is a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559594">FECMethod</a>.
+Specifies the outer FEC. This parameter is a value of type <a href="https://msdn.microsoft.com/6910c51d-4176-49a3-be6b-6b072ad03fc1">FECMethod</a>.
 
 
 ## -returns
@@ -85,15 +86,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_get_outerfec">get_OuterFEC</a>
+<a href="https://msdn.microsoft.com/library/Dd693582(v=VS.85).aspx">get_OuterFEC</a>
 
 
 
-<a href="mstv.idigitallocator_put_innerfec">put_InnerFEC</a>
+<a href="https://msdn.microsoft.com/library/Dd693585(v=VS.85).aspx">put_InnerFEC</a>
 
 
 
-<a href="mstv.idigitallocator_put_outerfecrate">put_OuterFECRate</a>
+<a href="https://msdn.microsoft.com/library/Dd693588(v=VS.85).aspx">put_OuterFECRate</a>
  
 
  

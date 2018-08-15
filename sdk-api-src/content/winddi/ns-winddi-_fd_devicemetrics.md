@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the <i>iMode</i> parameter of the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556264">DrvQueryFontData</a> function is QFD_MAXEXTENTS.
+The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the <i>iMode</i> parameter of the driver-supplied <a href="https://msdn.microsoft.com/3f6efd3c-3ddf-4ce6-9527-730e01c45e74">DrvQueryFontData</a> function is QFD_MAXEXTENTS.
 
 
 ## -struct-fields
@@ -131,7 +132,7 @@ Specifies the hinted maximum descender height for this font instance, measured a
 
 ### -field ptlUnderline1
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that contains the hinted underline position for this font instance, relative to the glyph's character origin.
+Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that contains the hinted underline position for this font instance, relative to the glyph's character origin.
 
 
 ### -field ptlStrikeOut
@@ -161,12 +162,12 @@ Specifies the hinted maximum glyph bitmap height, in pixels, for this font insta
 
 ### -field cjGlyphMax
 
-Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566818">GLYPHBITS</a> structure needed to store any of the font's glyphs.
+Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://msdn.microsoft.com/d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b">GLYPHBITS</a> structure needed to store any of the font's glyphs.
 
 
 ### -field fdxQuantized
 
-Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565636">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566008">FONTOBJ_pxoGetXform</a>.
+Specifies an <a href="https://msdn.microsoft.com/4d15a771-fbf2-46ed-9698-faa3840f5f76">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://msdn.microsoft.com/94d8ddf6-221f-47f0-8772-4364ad2ac1a2">FONTOBJ_pxoGetXform</a>.
 
 
 ### -field lNonLinearExtLeading
@@ -214,19 +215,19 @@ Is reserved and should be ignored by the font provider.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556264">DrvQueryFontData</a>
+<a href="https://msdn.microsoft.com/3f6efd3c-3ddf-4ce6-9527-730e01c45e74">DrvQueryFontData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565636">FD_XFORM</a>
+<a href="https://msdn.microsoft.com/4d15a771-fbf2-46ed-9698-faa3840f5f76">FD_XFORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566008">FONTOBJ_pxoGetXform</a>
+<a href="https://msdn.microsoft.com/94d8ddf6-221f-47f0-8772-4364ad2ac1a2">FONTOBJ_pxoGetXform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566818">GLYPHBITS</a>
+<a href="https://msdn.microsoft.com/d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b">GLYPHBITS</a>
  
 
  

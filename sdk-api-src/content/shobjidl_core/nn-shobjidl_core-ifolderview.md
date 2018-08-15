@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -143,7 +144,7 @@ Gets a POINT structure containing the width (x) and height (y) dimensions, inclu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/c130ef36-1255-4c57-be31-7fc2029d9f66">Item</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier of a specific item in the folder view, by index.

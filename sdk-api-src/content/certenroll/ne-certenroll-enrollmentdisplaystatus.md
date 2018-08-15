@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>EnrollmentDisplayStatus</b> enumeration type specifies whether to display enrollment status information in a user interface. This enumeration is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915285">Display</a> property in the <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> interface.
+The <b>EnrollmentDisplayStatus</b> enumeration type specifies whether to display enrollment status information in a user interface. This enumeration is used by the <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> property in the <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> interface.
 
 
 ## -enum-fields

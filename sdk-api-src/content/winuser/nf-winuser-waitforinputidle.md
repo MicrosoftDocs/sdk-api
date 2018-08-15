@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -137,7 +138,7 @@ The
 <b>WaitForInputIdle</b>  can be used at any time, not just during application startup. However, <b>WaitForInputIdle</b> waits only once for a process to become idle; subsequent <b>WaitForInputIdle</b> calls return immediately, whether the process is idle or busy. 
 
 <b>WaitForInputIdle</b> can be useful for synchronizing a parent process and a newly created child process. When a parent process creates a child process, the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function returns without waiting for the child process to finish its initialization. Before trying to communicate with the child process, the parent process can use 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function returns without waiting for the child process to finish its initialization. Before trying to communicate with the child process, the parent process can use 
 the <b>WaitForInputIdle</b> function to determine when the child's initialization has been completed. For example, the parent process should use 
 the <b>WaitForInputIdle</b> function before trying to find a window associated with the child process.
 
@@ -149,7 +150,7 @@ the <b>WaitForInputIdle</b> function before trying to find a window associated w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

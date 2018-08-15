@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -268,16 +269,6 @@ A null-terminated string that contains the path to the home folder of the user's
 A null-terminated string that contains the drive name (a drive letter followed by a colon) to which the path specified in the <b>TerminalServerHomeDir</b> member is mapped. This member is only valid when the <b>TerminalServerRemoteHomeDir</b> member is set to one.
 
 
-##### - InheritInitialProgram.0
-
-The client cannot specify the initial program. Instead, the program specified by the  <b>InitialProgram</b> member starts automatically when the user logs on to the server. The server logs the user off when the user exits that program.
-
-
-##### - InheritInitialProgram.1
-
-The client can specify the initial program.
-
-
 ##### - AllowLogonTerminalServer.0
 
 The user cannot log on.
@@ -288,14 +279,14 @@ The user cannot log on.
 The user can log on.
 
 
-##### - DeviceClientPrinters.0
+##### - BrokenTimeoutSettings.0
 
-The server does not automatically connect to previously mapped client printers.
+The session is disconnected, but it remains on the server.
 
 
-##### - DeviceClientPrinters.1
+##### - BrokenTimeoutSettings.1
 
-The server automatically connects to previously mapped client printers.
+The session is terminated.
 
 
 ##### - ClientDefaultPrinter.0
@@ -308,14 +299,24 @@ The client printer is not the default printer.
 The client printer is the default printer.
 
 
-##### - BrokenTimeoutSettings.0
+##### - DeviceClientPrinters.0
 
-The session is disconnected, but it remains on the server.
+The server does not automatically connect to previously mapped client printers.
 
 
-##### - BrokenTimeoutSettings.1
+##### - DeviceClientPrinters.1
 
-The session is terminated.
+The server automatically connects to previously mapped client printers.
+
+
+##### - InheritInitialProgram.0
+
+The client cannot specify the initial program. Instead, the program specified by the  <b>InitialProgram</b> member starts automatically when the user logs on to the server. The server logs the user off when the user exits that program.
+
+
+##### - InheritInitialProgram.1
+
+The client can specify the initial program.
 
 
 ##### - ReconnectSettings.0

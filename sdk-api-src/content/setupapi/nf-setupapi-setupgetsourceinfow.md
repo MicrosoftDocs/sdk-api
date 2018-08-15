@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -119,6 +120,11 @@ Optional pointer to a variable that receives the required size for the buffer sp
 
 
 
+##### - InfoDesired.SRCINFO_DESCRIPTION
+
+A description for the media.
+
+
 ##### - InfoDesired.SRCINFO_PATH
 
 The path specified for the source. This is not a full path, but the path relative to the installation root.
@@ -127,11 +133,6 @@ The path specified for the source. This is not a full path, but the path relativ
 ##### - InfoDesired.SRCINFO_TAGFILE
 
 The tag file that identifies the source media, or if cabinets are used, the name of the cabinet file.
-
-
-##### - InfoDesired.SRCINFO_DESCRIPTION
-
-A description for the media.
 
 
 ## -returns
@@ -161,7 +162,7 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

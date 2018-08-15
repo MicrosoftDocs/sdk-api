@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,7 +70,7 @@ Handle to the tab control.
 
 
 
-A tab control creates a tooltip control if it has the <a href="Tab_Control_Styles.htm">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message. 
+A tab control creates a tooltip control if it has the <a href="https://msdn.microsoft.com/en-us/library/Bb760549(v=VS.85).aspx">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message. 
 
 
 

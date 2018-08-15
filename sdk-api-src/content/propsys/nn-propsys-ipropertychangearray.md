@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IPropertyChangeArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_Append">Append</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms712591(v=VS.85).aspx">Append</a>
 </td>
 <td align="left" width="63%">
 Inserts a change operation at the end of an array.
@@ -80,7 +81,7 @@ Inserts a change operation at the end of an array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_AppendOrReplace">AppendOrReplace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775214(v=VS.85).aspx">AppendOrReplace</a>
 </td>
 <td align="left" width="63%">
 Replaces the first occurrence of a change that affects the same property key as the provided change.  If the property key is not already in the array, this method appends the change to the end of the array.
@@ -89,7 +90,7 @@ Replaces the first occurrence of a change that affects the same property key as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="shell.IPropertyChangeArray_GetAt">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets the change operation at a specified array index.
@@ -98,7 +99,7 @@ Gets the change operation at a specified array index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="shell.IPropertyChangeArray_GetCount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of change operations in the array.
@@ -116,7 +117,7 @@ Inserts a change operation into an array at the specified position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_IsKeyInArray">IsKeyInArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775225(v=VS.85).aspx">IsKeyInArray</a>
 </td>
 <td align="left" width="63%">
 Specifies whether a particular property key exists in the change array.
@@ -125,7 +126,7 @@ Specifies whether a particular property key exists in the change array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="shell.IPropertyChangeArray_RemoveAt">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes a specified change.

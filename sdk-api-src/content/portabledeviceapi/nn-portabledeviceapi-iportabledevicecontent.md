@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IPortableDeviceContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/adc63916-5d41-4772-9c78-72fdd8dcf1a8">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending call on this interface.
@@ -83,7 +84,7 @@ Cancels a pending call on this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/46d6abad-457c-47d7-a83a-b5ba2b84b064">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies objects from one location on a device to another.
@@ -150,7 +151,7 @@ Moves one or more objects from one location on the device to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>
+<a href="https://msdn.microsoft.com/bc3ba717-1be3-4f29-ac27-6bdcbc5ed94f">Properties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the interface that is required to get or set properties on an object on the device.

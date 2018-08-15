@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ IsOutlineVisible methods of the
 <a href="https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx">IsOutlineVisible(Point&,Pen*,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object and a specified pen.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object and a specified pen.
 
 </td>
 </tr>
@@ -77,7 +78,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535579(v=VS.85).aspx">IsOutlineVisible(INT,INT,Pen*,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535579(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object and a specified pen.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535579(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and a specified pen.
 
 </td>
 </tr>
@@ -87,7 +88,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535579(v=VS.85).aspx">Gr
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms535580(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>object and a specified pen.
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>object and a specified pen.
 
 </td>
 </tr>
@@ -96,7 +97,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535580(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535578(v=VS.85).aspx">IsOutlineVisible(REAL,REAL,Pen*,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535578(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object and a specified pen.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535578(v=VS.85).aspx">GraphicsPath::IsOutlineVisible</a> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and a specified pen.
 
 </td>
 </tr>

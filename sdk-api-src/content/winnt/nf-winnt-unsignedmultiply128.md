@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -88,7 +89,7 @@ The low 64 bits of the product.
 
 
 
-<a href="13684df3-3ac7-467c-b258-a0e93bc490b5">_umu128</a>
+<a href="https://msdn.microsoft.com/library/3dayytw9(v=VS.85).aspx">_umu128</a>
  
 
  

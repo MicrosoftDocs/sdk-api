@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tssbx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -75,7 +76,7 @@ The <b>IWTSSBPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/b9304f4a-49ed-4a5e-87a1-7a9bc1c01b3d">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.

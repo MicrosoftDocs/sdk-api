@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: usbuser.h
 req.include-header: Usbuser.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -119,7 +120,7 @@ The device was not connected.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/ec09faaa-d2d3-459c-9ff2-083f0fdbbadf">USB Constants and Enumerations</a>
  
 
  

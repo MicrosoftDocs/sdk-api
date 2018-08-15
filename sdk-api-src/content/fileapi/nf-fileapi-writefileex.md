@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -233,13 +234,13 @@ If you write directly to a volume that has a mounted file system, you must first
 <li>A write on a volume handle will succeed if the volume does not have a mounted file system, or if one of the following conditions is true:<ul>
 <li>The sectors to be written to are boot sectors.</li>
 <li>The sectors to be written to reside outside of file system space.</li>
-<li>You have explicitly locked or dismounted the volume by using <a href="https://msdn.microsoft.com/b59b5c5e-6719-47a8-8810-14b60204e5ed">FSCTL_LOCK_VOLUME</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff728857">FSCTL_DISMOUNT_VOLUME</a>.</li>
+<li>You have explicitly locked or dismounted the volume by using <a href="https://msdn.microsoft.com/b59b5c5e-6719-47a8-8810-14b60204e5ed">FSCTL_LOCK_VOLUME</a> or <a href="https://msdn.microsoft.com/8828760c-9635-4c69-9867-c2f5314841e6">FSCTL_DISMOUNT_VOLUME</a>.</li>
 <li>The volume has no actual file system. (In other words, it has a RAW file system mounted.)</li>
 </ul>
 </li>
 <li>A write on a disk handle will succeed if one of the following conditions is true:<ul>
 <li>The sectors to be written to do not fall within a volume's extents.</li>
-<li>The sectors to be written to fall within a mounted volume, but you have explicitly locked or dismounted the volume by using <a href="https://msdn.microsoft.com/b59b5c5e-6719-47a8-8810-14b60204e5ed">FSCTL_LOCK_VOLUME</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff728857">FSCTL_DISMOUNT_VOLUME</a>.</li>
+<li>The sectors to be written to fall within a mounted volume, but you have explicitly locked or dismounted the volume by using <a href="https://msdn.microsoft.com/b59b5c5e-6719-47a8-8810-14b60204e5ed">FSCTL_LOCK_VOLUME</a> or <a href="https://msdn.microsoft.com/8828760c-9635-4c69-9867-c2f5314841e6">FSCTL_DISMOUNT_VOLUME</a>.</li>
 <li>The sectors to be written to fall within a volume that has no mounted file system other than RAW.</li>
 </ul>
 </li>

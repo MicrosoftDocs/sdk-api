@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -73,7 +74,7 @@ The <b>IGPMAsyncCancel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/c2055e7d-daed-4c9c-a374-6cb378d04962">Cancel</a>
 </td>
 <td align="left" width="63%">
 A client application calls this function to cancel a GPMC operation.

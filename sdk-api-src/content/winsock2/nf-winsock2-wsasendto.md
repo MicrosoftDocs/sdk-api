@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,7 +69,7 @@ A descriptor identifying a (possibly connected) socket.
 ### -param lpBuffers [in]
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures. Each 
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures. Each 
 <b>WSABUF</b> structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the 
 <b>WSASendTo</b> function is called, the system owns these buffers and the application may not access them. This array must remain valid for the duration of the send operation.
 
@@ -76,7 +77,7 @@ A pointer to an array of
 ### -param dwBufferCount [in]
 
 The number of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures in the <i>lpBuffers</i> array.
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 
 ### -param lpNumberOfBytesSent [out]
@@ -95,7 +96,7 @@ The flags  used to modify the behavior of the
 ### -param lpTo [in]
 
 An optional pointer to the address of the target socket in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR</a> structure.
 
 
 ### -param iTolen [in]
@@ -106,7 +107,7 @@ The size, in bytes, of the address in the <i>lpTo</i> parameter.
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
 
 
 ### -param lpCompletionRoutine [in]
@@ -325,7 +326,7 @@ The descriptor is not a socket.
 <td width="60%">
 The socket has been shut down; it is not possible to 
 <a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> on a socket after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> has been invoked with <i>how</i> set to SD_SEND or SD_BOTH.
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> has been invoked with <i>how</i> set to SD_SEND or SD_BOTH.
 
 </td>
 </tr>
@@ -419,7 +420,7 @@ For nonoverlapped sockets, the last two parameters (<i>lpOverlapped</i>, <i>lpCo
 <b>WSASendTo</b> will block until all of the application's buffer contents have been consumed.
 
 If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
 <b>WSABUF</b> arrays pointed to by the <i>lpBuffers</i> parameter.
 
 For message-oriented sockets, care must be taken not to exceed the maximum message size of the underlying transport, which can be obtained by getting the value of socket option <b>SO_MAX_MSG_SIZE</b>. If the data is too long to pass atomically through the underlying protocol the error 
@@ -477,7 +478,7 @@ The
 <b>WSASendTo</b> function. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 If the <i>lpCompletionRoutine</i> parameter is <b>NULL</b>, the <i>hEvent</i> parameter of <i>lpOverlapped</i> is signaled when the overlapped operation completes if it contains a valid event object handle. An application can use 
 <a href="https://msdn.microsoft.com/7a978ade-6323-455b-b655-f372f4bcadc8">WSAWaitForMultipleEvents</a> or 

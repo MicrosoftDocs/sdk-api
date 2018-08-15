@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -149,7 +150,7 @@ You cannot search for updates if the following conditions are true:
 
 This method requires administrator permissions.
 
-Callers should call <b>Resume</b> after calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a> method as soon as they no longer need to pause automatic updating.
+Callers should call <b>Resume</b> after calling the <a href="https://msdn.microsoft.com/42985fdf-b3b3-43f0-addb-478298bd8ebd">Pause</a> method as soon as they no longer need to pause automatic updating.
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implementing the interface has been locked down.
 

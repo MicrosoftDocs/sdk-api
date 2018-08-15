@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -153,7 +154,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The wait was aborted to deliver a user <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Call (APC)</a> to the current thread.
+The wait was aborted to deliver a user <a href="https://msdn.microsoft.com/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Call (APC)</a> to the current thread.
 
 </td>
 </tr>

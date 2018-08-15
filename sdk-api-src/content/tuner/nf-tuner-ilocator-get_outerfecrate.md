@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>get_OuterFECRate</b> method gets the outer FEC rate.
 
 ### -param FEC [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556566">BinaryConvolutionCodeRate</a> that receives the outer FEC rate.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a> that receives the outer FEC rate.
 
 
 ## -returns
@@ -85,15 +86,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_get_innerfecrate">get_InnerFECRate</a>
+<a href="https://msdn.microsoft.com/library/Dd693581(v=VS.85).aspx">get_InnerFECRate</a>
 
 
 
-<a href="mstv.idigitallocator_get_outerfec">get_OuterFEC</a>
+<a href="https://msdn.microsoft.com/library/Dd693582(v=VS.85).aspx">get_OuterFEC</a>
 
 
 
-<a href="mstv.idigitallocator_put_outerfecrate">put_OuterFECRate</a>
+<a href="https://msdn.microsoft.com/library/Dd693588(v=VS.85).aspx">put_OuterFECRate</a>
  
 
  

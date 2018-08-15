@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -138,19 +139,7 @@ The stripe interleave size, in bytes. This member is valid only for plexes of ty
 The rebuild priority of the plex. This value must be greater than or equal to 0 (lowest priority) and less than or equal to 15 (highest priority).
 
 
-##### - health.VDS_H_UNKNOWN (0)
-
-
-##### - health.VDS_H_HEALTHY (1)
-
-
-##### - health.VDS_H_REBUILDING (2)
-
-
-##### - health.VDS_H_FAILING (4)
-
-
-##### - health.VDS_H_FAILING_REDUNDANCY (5)
+##### - health.VDS_H_FAILED (8)
 
 
 ##### - health.VDS_H_FAILED_REDUNDANCY (6)
@@ -159,7 +148,19 @@ The rebuild priority of the plex. This value must be greater than or equal to 0 
 ##### - health.VDS_H_FAILED_REDUNDANCY_FAILING (7)
 
 
-##### - health.VDS_H_FAILED (8)
+##### - health.VDS_H_FAILING (4)
+
+
+##### - health.VDS_H_FAILING_REDUNDANCY (5)
+
+
+##### - health.VDS_H_HEALTHY (1)
+
+
+##### - health.VDS_H_REBUILDING (2)
+
+
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ## -remarks

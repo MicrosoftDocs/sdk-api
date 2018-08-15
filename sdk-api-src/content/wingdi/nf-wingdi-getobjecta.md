@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -93,7 +94,7 @@ The following table shows the type of information the buffer receives for each t
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a>
+<a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>
 
 
 </td>
@@ -105,7 +106,7 @@ The following table shows the type of information the buffer receives for each t
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a>, if <i>cbBuffer</i> is set to<code> sizeof (DIBSECTION)</code>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a>, if <i>cbBuffer</i> is set to <code>sizeof (BITMAP)</code>.
+<a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a>, if <i>cbBuffer</i> is set to<code> sizeof (DIBSECTION)</code>, or <a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>, if <i>cbBuffer</i> is set to <code>sizeof (BITMAP)</code>.
 
 </td>
 </tr>
@@ -192,9 +193,9 @@ If the function fails, the return value is zero.
 
 
 
-The buffer pointed to by the <i>lpvObject</i> parameter must be sufficiently large to receive the information about the graphics object. Depending on the graphics object, the function uses a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a>, <a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a>, <a href="https://msdn.microsoft.com/34ffa71d-e94d-425e-9f9d-21e3df4990b7">EXTLOGPEN</a>, <a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a>, <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>, or <a href="https://msdn.microsoft.com/0e098b5a-e249-43ad-a6d8-2509b6562453">LOGPEN</a> structure, or a count of table entries (for a logical palette).
+The buffer pointed to by the <i>lpvObject</i> parameter must be sufficiently large to receive the information about the graphics object. Depending on the graphics object, the function uses a <a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>, <a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a>, <a href="https://msdn.microsoft.com/34ffa71d-e94d-425e-9f9d-21e3df4990b7">EXTLOGPEN</a>, <a href="https://msdn.microsoft.com/ded2c7a4-2248-4d01-95c6-ab4050719094">LOGBRUSH</a>, <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>, or <a href="https://msdn.microsoft.com/0e098b5a-e249-43ad-a6d8-2509b6562453">LOGPEN</a> structure, or a count of table entries (for a logical palette).
 
-If <i>hgdiobj</i> is a handle to a bitmap created by calling <a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a>, and the specified buffer is large enough, the <b>GetObject</b> function returns a <a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a> structure. In addition, the <b>bmBits</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a> structure contained within the <b>DIBSECTION</b> will contain a pointer to the bitmap's bit values.
+If <i>hgdiobj</i> is a handle to a bitmap created by calling <a href="https://msdn.microsoft.com/9276ec84-2860-42be-a9f8-d4efb8d25eec">CreateDIBSection</a>, and the specified buffer is large enough, the <b>GetObject</b> function returns a <a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a> structure. In addition, the <b>bmBits</b> member of the <a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a> structure contained within the <b>DIBSECTION</b> will contain a pointer to the bitmap's bit values.
 
 If <i>hgdiobj</i> is a handle to a bitmap created by any other means, <b>GetObject</b> returns only the width, height, and color format information of the bitmap. You can obtain the bitmap's bit values by calling the <a href="https://msdn.microsoft.com/be3ffa3f-b343-4e38-8b1e-aeccf35d92b8">GetDIBits</a> or <a href="https://msdn.microsoft.com/72e8cc6b-d282-451e-b6ec-0473d2daea7c">GetBitmapBits</a> function.
 
@@ -216,7 +217,7 @@ For an example, see <a href="https://msdn.microsoft.com/fc43ab78-c174-400b-a73a-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a>
+<a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>
 
 
 

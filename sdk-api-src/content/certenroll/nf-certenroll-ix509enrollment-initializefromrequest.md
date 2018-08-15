@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -104,7 +105,7 @@ The <b>InitializeFromRequest</b>  method:
 <li>Verifies that the request is a PKCS #10, PKCS #7, or CMC request object.</li>
 <li>Retrieves the template, if any, associated with the request.</li>
 <li>Validates the template.</li>
-<li>Sets the request object on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> property.</li>
+<li>Sets the request object on the <a href="https://msdn.microsoft.com/dc754240-9c52-459e-9612-caf19eeb351c">Request</a> property.</li>
 <li>Retrieves the signature count, issuance policies, and application policies from the template.</li>
 <li>Retrieves the renewal certificate if one exists.</li>
 </ul>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -92,10 +93,10 @@ A mode indicates the functionality required and, therefore, which elements shoul
 Modes are specified for elements in the Ribbon markup and bound to individual controls at run time.
 			
 
-Modes can be applied to a Ribbon <a href="https://msdn.microsoft.com/en-us/library/Dd316894(v=VS.85).aspx">Tab</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">Group</a>. 
+Modes can be applied to a Ribbon <a href="https://msdn.microsoft.com/en-us/library/Dd316894(v=VS.85).aspx">Tab</a> and <a href="https://msdn.microsoft.com/b0d3fcda-7165-40f4-9e57-c7ab88b31711">Group</a>. 
 				
 
-<div class="alert"><b>Note</b>  Modes can be applied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545233">Button</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd316859(v=VS.85).aspx">SplitButton</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd371662(v=VS.85).aspx">DropDownButton</a> controls when hosted in the left 
+<div class="alert"><b>Note</b>  Modes can be applied to <a href="https://msdn.microsoft.com/a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58">Button</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd316859(v=VS.85).aspx">SplitButton</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd371662(v=VS.85).aspx">DropDownButton</a> controls when hosted in the left 
 				column of the Application Menu. 
 				</div>
 <div> </div>

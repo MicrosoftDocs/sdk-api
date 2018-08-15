@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,7 +70,7 @@ The <b>IsValidAcl</b> function validates an <a href="https://msdn.microsoft.com/
 ### -param pAcl [in]
 
 A pointer to an
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> structure validated by this function. This value must not be <b>NULL</b>.
+      <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure validated by this function. This value must not be <b>NULL</b>.
 
 
 ## -returns
@@ -88,7 +89,7 @@ If the ACL is not valid, the function returns zero. There is no extended error i
 
 
 
-This function checks the revision level of the ACL and verifies that the number of <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) specified in the <b>AceCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> structure fits the space specified by the <b>AclSize</b> member of the <b>ACL</b> structure.
+This function checks the revision level of the ACL and verifies that the number of <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) specified in the <b>AceCount</b> member of the <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure fits the space specified by the <b>AclSize</b> member of the <b>ACL</b> structure.
 
 If <i>pAcl</i> is <b>NULL</b>, the application will fail with an access violation.
 
@@ -100,7 +101,7 @@ If <i>pAcl</i> is <b>NULL</b>, the application will fail with an access violatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -89,7 +90,7 @@ N/A
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/8ca3156a-f33f-4fa4-b043-3ecde3f55d5d">_NewEnum</a>
 
 
 </td>
@@ -101,7 +102,7 @@ Enumerator interface for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/33d90664-825a-4562-82ae-249b329743ac">Count</a>
 
 
 </td>
@@ -113,7 +114,7 @@ Number of services in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/e59e9b9c-986d-46de-9ce7-19eaad824953">Item</a>
 
 
 </td>

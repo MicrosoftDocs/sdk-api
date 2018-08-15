@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -123,7 +124,7 @@ The following <b>dwFlags</b> values for CERT_PHYSICAL_STORE_INFO are defined.
 </dl>
 </td>
 <td width="60%">
-Enables addition to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> to the store.
+Enables addition to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> to the store.
 
 </td>
 </tr>

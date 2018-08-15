@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Frees the specified private data associated with this resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/396921c6-acf4-4dc8-bfc7-e0d5340cb074">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with a resource.
@@ -107,7 +108,7 @@ Copies the private data associated with the resource to a provided buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/4126cd36-34e5-4224-8b62-54b090322ddc">GetType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of the resource.

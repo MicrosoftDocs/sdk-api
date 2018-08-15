@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescription">IPropertyDescription</a>, to obtain the property description for a given <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
+Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, to obtain the property description for a given <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
 
 
 ## -parameters
@@ -63,7 +64,7 @@ Gets an instance of the subsystem object that implements <a href="shell.IPropert
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the desired property key. See <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
+A reference to the desired property key. See <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
 
 
 ### -param riid [in]
@@ -77,7 +78,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="shell.IPropertyDescription">IPropertyDescription</a> interface pointer.
+The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface pointer.
 
 
 ## -returns
@@ -122,7 +123,7 @@ Indicates that <i>ppv</i> is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -146,7 +147,7 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 
 
-<a href="shell.IPropertySystem">IPropertySystem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
  
 
  

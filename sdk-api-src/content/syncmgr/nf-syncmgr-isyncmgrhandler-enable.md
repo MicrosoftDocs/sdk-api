@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Requests that an <a href="https://msdn.microsoft.com/library/windows/hardware/dn953453">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
+Requests that an <a href="https://msdn.microsoft.com/0061387d-516d-44c5-b511-3236593382a9">active</a> handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 
 
 ## -parameters
@@ -130,7 +131,7 @@ The following example shows a simple implementation of this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450992">IsEnabled</a>
+<a href="https://msdn.microsoft.com/1485ae25-20b8-4ee9-a30d-247f719047cd">IsEnabled</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -100,7 +101,7 @@ Begins an enumeration of methods for the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/4a708963-f677-4419-800d-02a01908e7cb">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the current object.
@@ -155,7 +156,7 @@ Ends the enumeration of methods for an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/e4f6c28b-42d7-4109-803e-d3aac4d8509e">Get</a>
 </td>
 <td align="left" width="63%">
 Gets a particular property value.
@@ -245,7 +246,7 @@ Reports whether the current object inherits from a particular class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/6d0e8aa3-ae64-4934-9000-2c526ceb7fb6">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the next property in an enumeration after an initial call to 
@@ -310,7 +311,7 @@ Users and providers should never implement this interface. The implementation pr
 
 From the WMI client perspective, this interface is always in-process. Write 
      (<a href="https://msdn.microsoft.com/7b67739f-5c67-447a-a1a5-fad9ce3e857a">Put</a>) operations only affect the local copy of the 
-     object, and read (<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>) operations always retrieve 
+     object, and read (<a href="https://msdn.microsoft.com/e4f6c28b-42d7-4109-803e-d3aac4d8509e">Get</a>) operations always retrieve 
      values from the local copy. You can perform updates to WMI only when entire objects are read or written using 
      methods on the <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> interface. Examples of such 
      updates are: <a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a> or 

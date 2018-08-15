@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The PERBANDINFO structure is used as input to a printer graphics DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556268">DrvQueryPerBandInfo</a> function.
+The PERBANDINFO structure is used as input to a printer graphics DLL's <a href="https://msdn.microsoft.com/2e2c1aa7-9ba4-4bf9-acfb-43212d3d4899">DrvQueryPerBandInfo</a> function.
 
 
 ## -struct-fields
@@ -66,7 +67,7 @@ If <b>TRUE</b>, GDI redraws the previous band. If <b>FALSE</b>, GDI draws the ne
 
 ### -field szlBand
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the rectangle in which GDI can draw the band. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the rectangle in which GDI can draw the band. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/08d81096-069f-4554-9bb9-d4a37c0950ac">SIZE</a> structure.
 
 
 ### -field ulHorzRes
@@ -83,7 +84,7 @@ Specifies the vertical resolution GDI should use when scaling the band.
 
 
 
-If the result of <b>ulHorzRes</b> divided by <b>ulVertRes</b> is smaller than the result obtained by dividing the same members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a> structure, the band is rendered smaller by the graphics engine. If the values are the same, no scaling is done. The resultant scale factor obtained from this structure cannot be larger than the one stored in GDIINFO.
+If the result of <b>ulHorzRes</b> divided by <b>ulVertRes</b> is smaller than the result obtained by dividing the same members of the <a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a> structure, the band is rendered smaller by the graphics engine. If the values are the same, no scaling is done. The resultant scale factor obtained from this structure cannot be larger than the one stored in GDIINFO.
 
 When the band is scaled, the graphics engine anchors the smaller band to the upper-left corner of the original band.
 
@@ -95,11 +96,11 @@ When the band is scaled, the graphics engine anchors the smaller band to the upp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556268">DrvQueryPerBandInfo</a>
+<a href="https://msdn.microsoft.com/2e2c1aa7-9ba4-4bf9-acfb-43212d3d4899">DrvQueryPerBandInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
+<a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a>
  
 
  

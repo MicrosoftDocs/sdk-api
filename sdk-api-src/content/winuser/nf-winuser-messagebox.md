@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -130,7 +131,7 @@ The message box contains three push buttons: <b>Abort</b>, <b>Retry</b>, and <b>
 </dl>
 </td>
 <td width="60%">
- Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="_win32_WM_HELP">WM_HELP</a> message to the owner.
+ Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx">WM_HELP</a> message to the owner.
 
 </td>
 </tr>

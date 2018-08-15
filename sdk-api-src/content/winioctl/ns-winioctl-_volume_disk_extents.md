@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Represents a physical location on a disk. It is the output buffer for the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560644">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> 
+    <a href="https://msdn.microsoft.com/8faff037-d815-48f8-8b59-d63f4ff4a746">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> 
     control code.
 
 
@@ -74,7 +75,7 @@ An extent is a contiguous run of sectors on one disk. When the number of extents
 
 ### -field Extents
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552606">DISK_EXTENT</a> structures.
+An array of <a href="https://msdn.microsoft.com/1b8dc6fa-e60b-4490-b439-44c93b6f4ce5">DISK_EXTENT</a> structures.
 
 
 ## -see-also
@@ -82,11 +83,11 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff55260
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552606">DISK_EXTENT</a>
+<a href="https://msdn.microsoft.com/1b8dc6fa-e60b-4490-b439-44c93b6f4ce5">DISK_EXTENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560644">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+<a href="https://msdn.microsoft.com/8faff037-d815-48f8-8b59-d63f4ff4a746">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
  
 
  

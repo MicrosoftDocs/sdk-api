@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEnumSyncChanges</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/d81282ed-ff18-4ca2-a240-e9e79aea275a">Clone</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -82,7 +83,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/23b5f46f-87f3-431e-a253-d349eed27082">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next item change.
@@ -92,7 +93,7 @@ Gets the next item change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/d13bee6b-ef8e-4245-89b6-d381618bdd09">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the list.
@@ -102,7 +103,7 @@ Resets the enumerator to the beginning of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/2b2828a1-f69c-465a-ad16-236d0709d763">Skip</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

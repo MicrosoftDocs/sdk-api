@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -159,7 +160,7 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
 The 
-<b>ExecQueryAsync</b> method returns an empty result set when there are no objects to match the criteria in the query. This method returns key properties whether or not the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a> property is requested in the <i>strQuery</i> parameter.
+<b>ExecQueryAsync</b> method returns an empty result set when there are no objects to match the criteria in the query. This method returns key properties whether or not the <a href="https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e">Key</a> property is requested in the <i>strQuery</i> parameter.
 
 There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be used in WQL queries.  Large numbers of WQL keywords used in a complex query can cause WMI to return the WBEM_E_QUOTA_VIOLATION error code as an <b>HRESULT</b> value.  The limit of WQL keywords depends on how complex the query is.
 

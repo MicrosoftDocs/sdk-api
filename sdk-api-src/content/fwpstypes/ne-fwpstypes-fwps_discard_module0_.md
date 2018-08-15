@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows Vista.
 req.target-min-winversvr: 
@@ -86,7 +87,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a> structure
+    <a href="https://msdn.microsoft.com/f17076d8-b669-4bb4-a871-10c7bdc6e370">FWPS_DISCARD_METADATA0</a> structure
     contains a member of type FWPS_DISCARD_MODULE0 that specifies the type of module that discarded the
     data.
 
@@ -98,7 +99,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
+<a href="https://msdn.microsoft.com/f17076d8-b669-4bb4-a871-10c7bdc6e370">FWPS_DISCARD_METADATA0</a>
  
 
  

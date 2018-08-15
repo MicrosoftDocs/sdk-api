@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,7 +62,7 @@ Retrieves the security information for the trace data provider.
 
 ### -param SecurityInfo [in]
 
-The object-related security information. For details, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> data type.
+The object-related security information. For details, see the <a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> data type.
 
 
 ### -param Sddl [out]

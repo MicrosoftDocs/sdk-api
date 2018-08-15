@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -83,7 +84,7 @@ Deletes the port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a>
+<a href="https://msdn.microsoft.com/110d9c9b-189c-4529-b960-2722d9037c7c">Disable</a>
 </td>
 <td align="left" width="63%">
 Disables the port mapping.
@@ -92,7 +93,7 @@ Disables the port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/55a639f3-9180-4d02-9d10-659a398fa32f">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables the port mapping.

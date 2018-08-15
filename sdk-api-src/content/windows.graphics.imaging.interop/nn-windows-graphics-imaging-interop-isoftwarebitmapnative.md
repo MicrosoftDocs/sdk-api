@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>ISoftwareBitmapNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/4BB9674A-A95A-4183-A1E1-428AB140D6EB">GetData</a>
 </td>
 <td align="left" width="63%">
 This method returns an interface that provides access to the software bitmap data. 

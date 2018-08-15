@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -99,7 +100,7 @@ Retrieves the completed index from the ASF indexer object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/97809620-57ad-48f1-94ba-a2e121cdfee6">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags that indicate the selected indexer options.
@@ -153,7 +154,7 @@ Given a desired seek time, retrieves the offset from which the client should sta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/c02931d3-7b43-43a9-9e4e-00945ba3c8d8">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the indexer with the <a href="https://msdn.microsoft.com/6b7f8b68-fe98-4aeb-9842-a80ac6235999">ContentInfo</a> object of the ASF file to be read or encoded.
@@ -162,7 +163,7 @@ Initializes the indexer with the <a href="https://msdn.microsoft.com/6b7f8b68-fe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/7df6aba2-d63f-4a1a-b6e8-6894f92993b1">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Specifies the read or the write mode.
@@ -195,16 +196,16 @@ Specifies the type of index entries that the indexer must generate for the ASF f
 
 
 
-You can use the indexer object to read an existing ASF index or write a new index. The index object has two mutually exclusive modes: read mode and write mode. To set the mode, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>. 
+You can use the indexer object to read an existing ASF index or write a new index. The index object has two mutually exclusive modes: read mode and write mode. To set the mode, call <a href="https://msdn.microsoft.com/7df6aba2-d63f-4a1a-b6e8-6894f92993b1">SetFlags</a>. 
 
 Use the following methods to configure the indexer object  (both modes):
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/c02931d3-7b43-43a9-9e4e-00945ba3c8d8">Initialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/7df6aba2-d63f-4a1a-b6e8-6894f92993b1">SetFlags</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/f116baaa-8d9b-4ac0-9263-3bb65d67ee63">SetIndexByteStreams</a>
@@ -214,7 +215,7 @@ Use the following methods to read an existing index:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/97809620-57ad-48f1-94ba-a2e121cdfee6">GetFlags</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/a433af8a-9e8a-4234-9694-c3a5420a1710">GetIndexByteStreamCount</a>

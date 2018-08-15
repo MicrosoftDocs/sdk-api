@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -100,7 +101,7 @@ Discards edits made to an image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/d2e95a44-2bf7-43e1-9a29-950acc34d2a4">DisplayName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the file if <b>IShellImageData</b> was initialized on a file path. Otherwise, gets the name of the data stream.
@@ -163,7 +164,7 @@ Gets the pixel format of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/0fb59627-a31f-4c23-955f-3032c5814a5a">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> through which the properties of the image can be accessed.

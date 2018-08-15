@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -99,7 +100,7 @@ The device's capabilities are described in terms of the required source overlay'
 
 ### -field dwOverlay
 
-Specifies the stretch factor or overlay source size at which the device can support an overlay, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551593">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://msdn.microsoft.com/4b9cfec1-a599-47a5-878e-2cde6b3b780a">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000, and an overlay source size of 750 indicates that the specified source overlay be shrunk to 75 percent of its original size. The driver must return a valid number in this member.
+Specifies the stretch factor or overlay source size at which the device can support an overlay, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://msdn.microsoft.com/5a24d819-1498-448a-9360-c14d382059cb">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://msdn.microsoft.com/4b9cfec1-a599-47a5-878e-2cde6b3b780a">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000, and an overlay source size of 750 indicates that the specified source overlay be shrunk to 75 percent of its original size. The driver must return a valid number in this member.
 
 
 ### -field dwColorkey
@@ -109,7 +110,7 @@ Specifies the stretch factor or overlay source size at which an overlay with col
 
 ### -field dwYInterpolate
 
-Specifies the stretch factor or overlay source size at which an overlay with y-axis interpolation is supported, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551593">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://msdn.microsoft.com/4b9cfec1-a599-47a5-878e-2cde6b3b780a">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000.
+Specifies the stretch factor or overlay source size at which an overlay with y-axis interpolation is supported, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://msdn.microsoft.com/5a24d819-1498-448a-9360-c14d382059cb">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://msdn.microsoft.com/4b9cfec1-a599-47a5-878e-2cde6b3b780a">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000.
 
 
 ### -field dwYInterpAndColorkey
@@ -132,7 +133,7 @@ Reserved for system use and should be ignored by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551593">DD_GETVPORTBANDWIDTHDATA</a>
+<a href="https://msdn.microsoft.com/5a24d819-1498-448a-9360-c14d382059cb">DD_GETVPORTBANDWIDTHDATA</a>
 
 
 

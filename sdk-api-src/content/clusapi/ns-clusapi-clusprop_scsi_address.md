@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -78,25 +79,12 @@ Describes an address for a <a href="https://msdn.microsoft.com/en-us/library/Aa3
 
 
 
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
-       of <b>CLUSPROP_SYNTAX_SCSI_ADDRESS</b> (0x00060002).
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
-       the count of bytes in the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> 
-       structure that follows the <b>CLUSPROP_VALUE</b> header. 
-       Padding bytes are not included in the count.
-
-
-#### - PortNumber
+#### - Lun
 
 Member of the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> structure that 
-         identifies port number of the SCSI controller. This corresponds to the 
-         <a href="https://msdn.microsoft.com/a05715d8-4eae-4a80-bba3-9b26e90ba6d4">PortNumber</a> property of the 
+         identifies the individual logical unit number (LUN) at the target device specified by the 
+         <b>TargetId</b> member. This corresponds to the 
+         <a href="https://msdn.microsoft.com/47ac3714-fe5c-4b3b-9271-57980981785d">Lun</a> property of the 
          <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object.
 
 
@@ -108,6 +96,20 @@ Member of the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1
          <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object.
 
 
+#### - PortNumber
+
+Member of the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> structure that 
+         identifies port number of the SCSI controller. This corresponds to the 
+         <a href="https://msdn.microsoft.com/a05715d8-4eae-4a80-bba3-9b26e90ba6d4">PortNumber</a> property of the 
+         <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object.
+
+
+#### - Syntax
+
+Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
+       of <b>CLUSPROP_SYNTAX_SCSI_ADDRESS</b> (0x00060002).
+
+
 #### - TargetId
 
 Member of the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> structure that 
@@ -116,13 +118,12 @@ Member of the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1
          <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object.
 
 
-#### - Lun
+#### - cbLength
 
-Member of the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> structure that 
-         identifies the individual logical unit number (LUN) at the target device specified by the 
-         <b>TargetId</b> member. This corresponds to the 
-         <a href="https://msdn.microsoft.com/47ac3714-fe5c-4b3b-9271-57980981785d">Lun</a> property of the 
-         <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object.
+Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
+       the count of bytes in the <a href="https://msdn.microsoft.com/05a640c7-16b4-4394-b22f-a78ab1dfab77">CLUS_SCSI_ADDRESS</a> 
+       structure that follows the <b>CLUSPROP_VALUE</b> header. 
+       Padding bytes are not included in the count.
 
 
 #### - dw

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -104,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Not all drivers support this method. To query the driver capabilities, call <a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK</b> 
 flag in the <b>Caps</b> member of the <a href="https://msdn.microsoft.com/15691779-DC30-4C0C-86D0-497F2BD60614">D3D11_VIDEO_CONTENT_PROTECTION_CAPS</a> structure.
 
-Some drivers might require a separate key to decrypt the data that is read back. To check for this requirement, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY</b> 
+Some drivers might require a separate key to decrypt the data that is read back. To check for this requirement, call <a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY</b> 
 flag. If this flag is present, call <a href="https://msdn.microsoft.com/B62BE7CB-75FA-45E9-9AB7-83738DFE3B19">ID3D11VideoContext::GetEncryptionBltKey</a> to get the decryption key.
 
 This method has the following limitations:

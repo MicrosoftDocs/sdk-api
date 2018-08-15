@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -60,7 +61,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>PrivilegedServiceAuditAlarm</b> function generates an audit message in the security event log. A protected server can use this function to log attempts by a client to use a specified set of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a>.
+The <b>PrivilegedServiceAuditAlarm</b> function generates an audit message in the security event log. A protected server can use this function to log attempts by a client to use a specified set of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a>.
 
 Alarms are not currently supported.
 
@@ -88,7 +89,7 @@ Identifies an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6
 ### -param Privileges [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a> structure containing the privileges that the client attempted to use. The names of the privileges appear in the security event log record.
+<a href="https://msdn.microsoft.com/2ee5615c-f684-4062-a6cb-e43e9de3a2fb">PRIVILEGE_SET</a> structure containing the privileges that the client attempted to use. The names of the privileges appear in the security event log record.
 
 
 ### -param AccessGranted [in]
@@ -137,7 +138,7 @@ The <b>PrivilegedServiceAuditAlarm</b> function requires the calling process to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a>
+<a href="https://msdn.microsoft.com/2ee5615c-f684-4062-a6cb-e43e9de3a2fb">PRIVILEGE_SET</a>
 
 
 

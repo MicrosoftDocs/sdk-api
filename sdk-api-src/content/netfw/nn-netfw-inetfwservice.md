@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -206,7 +207,7 @@ Accesses the flag showing whether at least one of the ports associated with the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/bf690427-ad2e-4a5b-9651-f6a9382ab341">Enabled</a>
 
 
 </td>
@@ -230,7 +231,7 @@ Accesses the collection of open ports associated with the service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/3b6179d0-c16d-43f7-8575-b173841cffe9">Name</a>
 
 
 </td>
@@ -254,7 +255,7 @@ Accesses the RemoteAddress property for this port.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915814">Scope</a>
+<a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">Scope</a>
 
 
 </td>
@@ -266,7 +267,7 @@ Accesses the   Scope property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/22f91e9a-e5b2-47a1-8ccb-b033c7d88286">Type</a>
 
 
 </td>

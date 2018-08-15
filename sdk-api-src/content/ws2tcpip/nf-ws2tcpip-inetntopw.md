@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -105,9 +106,9 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 
 A pointer to the IP address in network byte to convert to a string.
 
-When the <i>Family</i> parameter is <b>AF_INET</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure with the IPv4 address to convert.
+When the <i>Family</i> parameter is <b>AF_INET</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure with the IPv4 address to convert.
 
-When the <i>Family</i> parameter is <b>AF_INET6</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure with the IPv6 address to convert.
+When the <i>Family</i> parameter is <b>AF_INET6</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure with the IPv6 address to convert.
 
 
 ### -param pStringBuf [out]
@@ -185,9 +186,9 @@ The ANSI version of this function is <b>inet_ntop</b> as defined in RFC 2553. Fo
 The 
 <b>InetNtop</b> function does not require that the Windows Sockets DLL be loaded to perform IP address to string conversion.
 
-If the <i>Family</i> parameter specified is <b>AF_INET</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure with the IPv4 address to convert. The address string returned in the buffer pointed to by the <i>pStringBuf</i> parameter is  in dotted-decimal notation as in "192.168.16.0", an example of an IPv4 address in dotted-decimal notation.
+If the <i>Family</i> parameter specified is <b>AF_INET</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure with the IPv4 address to convert. The address string returned in the buffer pointed to by the <i>pStringBuf</i> parameter is  in dotted-decimal notation as in "192.168.16.0", an example of an IPv4 address in dotted-decimal notation.
 
-If the <i>Family</i> parameter specified is <b>AF_INET6</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure with the IPv6 address to convert. The address string returned in the buffer pointed to by the <i>pStringBuf</i> parameter is in Internet standard format. The basic string representation consists of 8 hexadecimal numbers separated by colons. A string of consecutive zero numbers is replaced with a double-colon. There can only be one double-colon in the string representation of the IPv6 address. The last 32 bits are represented in IPv4-style dotted-octet notation if the address is a IPv4-compatible address.
+If the <i>Family</i> parameter specified is <b>AF_INET6</b>, then the <i>pAddr</i> parameter must point to an <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure with the IPv6 address to convert. The address string returned in the buffer pointed to by the <i>pStringBuf</i> parameter is in Internet standard format. The basic string representation consists of 8 hexadecimal numbers separated by colons. A string of consecutive zero numbers is replaced with a double-colon. There can only be one double-colon in the string representation of the IPv6 address. The last 32 bits are represented in IPv4-style dotted-octet notation if the address is a IPv4-compatible address.
 
 If the length of the buffer pointed to by the <i>pStringBuf</i> parameter is not large enough to receive the string representation of the IP address, <b>InetNtop</b> returns ERROR_INVALID_PARAMETER.
 
@@ -195,11 +196,11 @@ When UNICODE or _UNICODE is defined, <b>InetNtop</b> is defined to <b>InetNtopW<
 
 When UNICODE or _UNICODE is not defined, <b>InetNtop</b> is defined to <b>InetNtopA</b>, the ANSI version of this function. The ANSI version of this function is always defined as <b>inet_ntop</b>. The <i>pStringBuf</i> parameter is defined to the <b>PWSTR</b> data type.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
+The <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure is defined in the <i>In6addr.h</i> header file.
+The <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure is defined in the <i>In6addr.h</i> header file.
 
-On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-9429-4b51-9fb4-06cf9917bc21">RtlIpv4AddressToString</a> and <a href="https://msdn.microsoft.com/4244eaaf-8522-4edb-abb8-dc2b063c9076">RtlIpv4AddressToStringEx</a> functions can be used to convert an IPv4 address represented as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure to a string representation of an IPv4 address in Internet standard dotted-decimal notation. On Windows Vista and later, the <a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a> and <a href="https://msdn.microsoft.com/a7de2da3-21ea-42fa-9474-f33252838632">RtlIpv6AddressToStringEx</a> functions can be used to convert an IPv6 address represented as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure to a string representation of an IPv6 address. The <b>RtlIpv6AddressToStringEx</b> function is more flexible since it also converts an IPv6 address, scope ID, and port to a IPv6 string in standard format.
+On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-9429-4b51-9fb4-06cf9917bc21">RtlIpv4AddressToString</a> and <a href="https://msdn.microsoft.com/4244eaaf-8522-4edb-abb8-dc2b063c9076">RtlIpv4AddressToStringEx</a> functions can be used to convert an IPv4 address represented as an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure to a string representation of an IPv4 address in Internet standard dotted-decimal notation. On Windows Vista and later, the <a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a> and <a href="https://msdn.microsoft.com/a7de2da3-21ea-42fa-9474-f33252838632">RtlIpv6AddressToStringEx</a> functions can be used to convert an IPv6 address represented as an <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure to a string representation of an IPv6 address. The <b>RtlIpv6AddressToStringEx</b> function is more flexible since it also converts an IPv6 address, scope ID, and port to a IPv6 string in standard format.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The  <b>InetNtopW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
@@ -211,11 +212,11 @@ On Windows Vista and later, the <a href="https://msdn.microsoft.com/f198b770-94
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a>
+<a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a>
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a>
 
 
 

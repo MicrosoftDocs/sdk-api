@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -126,7 +127,7 @@ Before calling the <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0
 
 A packet always consists of an integral number of audio frames.
 
-<b>GetNextPacketSize</b> must be called in the same thread as the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> and <a href="https://msdn.microsoft.com/38e1ea6c-d07d-4075-b6f2-d563c4bce007">IAudioCaptureClient::ReleaseBuffer</a> method calls that get and release the packets in the capture endpoint buffer.
+<b>GetNextPacketSize</b> must be called in the same thread as the <a href="https://msdn.microsoft.com/4298f584-39ce-4138-994a-0e551370429f">GetBuffer</a> and <a href="https://msdn.microsoft.com/38e1ea6c-d07d-4075-b6f2-d563c4bce007">IAudioCaptureClient::ReleaseBuffer</a> method calls that get and release the packets in the capture endpoint buffer.
 
 For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>.
 

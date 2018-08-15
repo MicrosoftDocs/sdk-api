@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -114,7 +115,7 @@ The enumeration interface object is returned successfully, but some items are mi
 
 
 The enumeration object that this method creates implements the 
-<a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a> methods.
+<a href="https://msdn.microsoft.com/d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="https://msdn.microsoft.com/bb4ab08a-aa12-46f0-8c7d-82742b0b1538">Next</a>, <a href="https://msdn.microsoft.com/91265648-1294-423d-8e09-6d14eb0b6d9e">Reset</a>, <a href="https://msdn.microsoft.com/33bf4956-3d16-412c-9551-4ae3366ddd78">Clone</a>, and <a href="https://msdn.microsoft.com/f317306b-5317-4c5e-a5e6-fd2d8728bc52">Skip</a> methods.
 
 
 

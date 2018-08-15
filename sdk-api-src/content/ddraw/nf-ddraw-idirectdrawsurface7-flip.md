@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,12 +63,6 @@ Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface 
 
 
 
-
-
-
-#### - lpDDSurfaceTargetOverride [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain. 
 
 
 
@@ -128,6 +123,12 @@ For use only when displaying video in an overlay surface. The new surface contai
 #### DDFLIP_WAIT
 
 Typically, if the flip cannot be set up because the state of the display hardware is not appropriate, the DDERR_WASSTILLDRAWING error returns immediately, and no flip occurs. Setting this flag causes <b>Flip</b> to continue trying to flip if it receives the DDERR_WASSTILLDRAWING error from the hardware abstraction layer (HAL). <b>Flip</b> does not return until the flipping operation has been successfully set up or another error, such as DDERR_SURFACEBUSY, is returned.
+
+
+#### - lpDDSurfaceTargetOverride [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain. 
+
 
 
 ## -returns

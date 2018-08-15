@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -61,12 +62,12 @@ The <b>IPSEC_DOSP_STATE_ENUM_TEMPLATE0</b> structure is used to enumerate IPsec 
 
 ### -field publicV6AddrMask
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a> structure that specifies the public IPv6 address.
+An <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a> structure that specifies the public IPv6 address.
 
 
 ### -field internalV6AddrMask
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a> structure that specifies the internal IPv6 address.
+An <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a> structure that specifies the internal IPv6 address.
 
 
 ## -remarks
@@ -83,7 +84,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>
 
 
 

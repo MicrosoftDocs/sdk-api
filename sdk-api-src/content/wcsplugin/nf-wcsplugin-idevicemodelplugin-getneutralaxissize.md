@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="access.IDeviceModelPlugIn::GetNeutralAxis">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
+The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd372135(v=VS.85).aspx">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::Get
 
 ### -param pcColors [out]
 
-The number of points that will be returned by a call to <a href="access.IDeviceModelPlugIn::GetNeutralAxis">GetNeutralAxis</a>. Minimum is 2 (black and white).
+The number of points that will be returned by a call to <a href="https://msdn.microsoft.com/en-us/library/Dd372135(v=VS.85).aspx">GetNeutralAxis</a>. Minimum is 2 (black and white).
 
 
 ## -returns
@@ -84,7 +85,7 @@ If this function fails, the return value is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
 
 
 

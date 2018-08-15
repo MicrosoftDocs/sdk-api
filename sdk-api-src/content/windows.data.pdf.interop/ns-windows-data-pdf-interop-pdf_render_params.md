@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windows.data.pdf.interop.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -86,14 +87,9 @@ Represents a set of properties for outputting a single page of a Portable Docume
 
 
 
-#### - SourceRect
+#### - BackgroundColor
 
-Outputs a rectangular portion of the original page, as defined by the <b>D2D_RECT_F</b> structure's upper-left and lower-right corner x- and y-coordinates. The default value is 0.f for all coordinates.
-
-
-#### - DestinationWidth
-
-Outputs the page at the specified width. The default is 0.f.
+Outputs the page with the specified background color. The default is {1.f, 1.f, 1.f, 1.f}, which represents the values 1.0 for red, green, blue, and alpha channel, respectively. These values, taken together, represent white at full opacity.
 
 
 #### - DestinationHeight
@@ -101,14 +97,19 @@ Outputs the page at the specified width. The default is 0.f.
 Outputs the page at the specified height. The default is 0.f.
 
 
-#### - BackgroundColor
+#### - DestinationWidth
 
-Outputs the page with the specified background color. The default is {1.f, 1.f, 1.f, 1.f}, which represents the values 1.0 for red, green, blue, and alpha channel, respectively. These values, taken together, represent white at full opacity.
+Outputs the page at the specified width. The default is 0.f.
 
 
 #### - IgnoreHighContrast
 
 False to use the system's high contrast display settings; otherwise true. The default is true.
+
+
+#### - SourceRect
+
+Outputs a rectangular portion of the original page, as defined by the <b>D2D_RECT_F</b> structure's upper-left and lower-right corner x- and y-coordinates. The default value is 0.f for all coordinates.
 
 
 ## -remarks

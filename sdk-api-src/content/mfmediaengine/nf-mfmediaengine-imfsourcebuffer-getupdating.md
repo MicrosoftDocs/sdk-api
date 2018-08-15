@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> is in process.
+Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a> is in process.
 
 
 ## -parameters
@@ -65,7 +66,7 @@ Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d
 
 
 
-<b>true</b> if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>; otherwise, <b>false</b>.
+<b>true</b> if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a>; otherwise, <b>false</b>.
 
 
 

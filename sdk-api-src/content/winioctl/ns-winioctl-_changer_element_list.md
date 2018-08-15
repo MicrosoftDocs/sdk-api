@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -62,7 +63,7 @@ Represents a range of elements of a single type, typically for an operation such
 ### -field Element
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> structure that represent the first element in the range.
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a> structure that represent the first element in the range.
 
 
 ### -field NumberOfElements
@@ -75,11 +76,11 @@ The number of elements in the range.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://msdn.microsoft.com/96e9803b-16c4-415c-940a-f5df3edff3b3">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559419">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
+<a href="https://msdn.microsoft.com/0745ee19-34f3-44c8-a52d-fb47448f0084">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
  
 
  

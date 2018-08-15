@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ The <b>IInkDrawingAttributes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/97facd95-af49-459e-82fc-12534d466786">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate <a href="https://msdn.microsoft.com/10ca7ae5-28dd-42a2-98d9-852d4de5869d">InkDrawingAttributes</a> object.
@@ -106,7 +107,7 @@ Gets or sets the value that indicates whether a stroke is antialiased.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a>
+<a href="https://msdn.microsoft.com/885ace6d-952e-4870-b92c-92e47daadfcf">Color</a>
 
 
 </td>
@@ -155,7 +156,7 @@ Gets or sets the value that specifies whether Bezier smoothing is used to render
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542686">Height</a>
+<a href="https://msdn.microsoft.com/2dc9eb94-649f-42f6-8180-abf570bdc757">Height</a>
 
 
 </td>
@@ -235,7 +236,7 @@ Gets or sets a value that indicates the transparency value of ink.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553316">Width</a>
+<a href="https://msdn.microsoft.com/6069f9d3-061a-48ba-8161-86d6152d68f0">Width</a>
 
 
 </td>

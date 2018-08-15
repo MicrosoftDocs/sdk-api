@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -93,14 +94,14 @@ Set this parameter to <b>NULL</b>. <i>NotifyType</i> is reserved for future use.
 Receives RTM_ROUTE_CHANGE_BEST if the best route was changed.
 
 
-#### - RouteListHandle [in]
-
-Handle to an optional route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
-
-
 #### - NotifyHandle [in]
 
 Set this parameter to <b>NULL</b>. <i>NotifyHandle</i> is reserved for future use.
+
+
+#### - RouteListHandle [in]
+
+Handle to an optional route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ## -returns

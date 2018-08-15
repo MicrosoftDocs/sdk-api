@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -156,11 +157,11 @@ The PATHDATA structure describes all or part of a subpath. For example, a <b>Mov
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568195">LINEATTRS</a>
+<a href="https://msdn.microsoft.com/40fcd6e2-7ed4-433f-ab8b-cc75a305adb9">LINEATTRS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568851">PATHOBJ_bEnum</a>
+<a href="https://msdn.microsoft.com/2e8bd76c-5ee6-4fe5-b1e5-64e84d09fc8f">PATHOBJ_bEnum</a>
  
 
  

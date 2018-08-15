@@ -2,7 +2,7 @@
 UID: NA:lpmapi
 ms.assetid: 54aff8d3-0546-33cb-ad37-052164689bac
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

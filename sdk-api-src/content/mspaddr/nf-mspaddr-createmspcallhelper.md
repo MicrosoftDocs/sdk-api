@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mspaddr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -55,7 +56,7 @@ The
 <b>CreateMSPCallHelper</b> helper template function is called in the derived class' implementation of 
 <a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>. It checks all of the arguments for validity, including the media type argument (via the address object method 
 <a href="https://msdn.microsoft.com/4dc47d60-184d-4601-8c58-08ae8b747223">IsValidSetOfMediaTypes</a>; see above). It sets up the aggregation between the MSP call object and the TAPI call object using the <b>CComAggObject</b> ATL class template. It then calls the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a> method on the MSP call object.
+<a href="https://msdn.microsoft.com/bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda">Init</a> method on the MSP call object.
 
 
 ## -parameters

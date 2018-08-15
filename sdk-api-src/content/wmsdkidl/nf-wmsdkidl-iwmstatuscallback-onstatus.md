@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ One member of the <a href="https://msdn.microsoft.com/ebf77e8a-65e8-4da9-bb21-a1
 
 ### -param hr [in]
 
-<b>HRESULT</b> error code. If this indicates failure, you should not process the status as normal, as some error has occurred. Use <code>if (FAILED(hr))</code> to check for a failed value. See the topic <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a> for a list of possible results.
+<b>HRESULT</b> error code. If this indicates failure, you should not process the status as normal, as some error has occurred. Use <code>if (FAILED(hr))</code> to check for a failed value. See the topic <a href="https://msdn.microsoft.com/ea1c129b-c0d7-4a1b-934c-c1c07364d4a8">Error Codes</a> for a list of possible results.
 
 
 ### -param dwType [in]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -74,19 +75,9 @@ TBD
 
 
 
-#### - first
-
-Specifies the first of the set of glyphs that form the font outline display lists.
-
-
 #### - count
 
 Specifies the number of glyphs in the set of glyphs used to form the font outline display lists. The <b>wglUseFontOutlines</b> function creates <i>count</i> display lists, one display list for each glyph in a set of glyphs.
-
-
-#### - listBase
-
-Specifies a starting display list.
 
 
 #### - deviation
@@ -99,9 +90,19 @@ Specifies the maximum chordal deviation from the original outlines. When deviati
 Specifies how much a font is extruded in the negative <i>z</i> direction. The value must be equal to or greater than 0. When <i>extrusion</i> is 0, the display lists are not extruded.
 
 
+#### - first
+
+Specifies the first of the set of glyphs that form the font outline display lists.
+
+
 #### - format
 
 Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the display lists. When <i>format</i> is WGL_FONT_LINES, the <b>wglUseFontOutlines</b> function creates fonts with line segments. When <i>format</i> is WGL_FONT_POLYGONS, <b>wglUseFontOutlines</b> creates fonts with polygons.
+
+
+#### - listBase
+
+Specifies a starting display list.
 
 
 #### - lpgmf

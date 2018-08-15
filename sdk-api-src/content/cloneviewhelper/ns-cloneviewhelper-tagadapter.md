@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The number of video present sources in the array that the <b>sources</b> member 
 
 ### -field sources
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569715">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
+An array of <a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
 
 
 ## -see-also
@@ -78,11 +79,11 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56971
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568176">IViewHelper::SetConfiguration</a>
+<a href="https://msdn.microsoft.com/8ec09950-afb6-43ff-8e05-4c801e49ba4b">IViewHelper::SetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569715">Sources</a>
+<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
  
 
  

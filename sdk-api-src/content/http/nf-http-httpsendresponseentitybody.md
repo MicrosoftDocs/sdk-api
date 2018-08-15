@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -191,6 +192,11 @@ A pointer to an array of
 A number of structures in the array pointed to by <i>pEntityChunks</i>. This count cannot exceed 9999.
 
 
+#### - Reserved2 [in]
+
+This parameter is reserved and must be zero.
+
+
 #### - pBytesSent [out]
 
 Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
@@ -198,14 +204,15 @@ Optional. A pointer to a variable that receives the number, in bytes, sent if th
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address, and not be set to <b>NULL</b>.
 
 
-#### - pReserved1 [in]
+#### - pLogData [in, optional]
 
-This parameter is reserved and must be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/31598e37-d487-4ef0-9443-e704cc60a6b2">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="https://msdn.microsoft.com/5d1b86fe-161d-4182-b3fe-9a03a843e62e">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
 
+Be aware that even when logging is enabled on a URL Group, or server session, the response will not be logged unless the application supplies the log fields data structure.
 
-#### - Reserved2 [in]
+<b>Windows Server 2003 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
 
-This parameter is reserved and must be zero.
+<b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
 
 
 #### - pOverlapped [in]
@@ -218,15 +225,9 @@ A synchronous call blocks until all response data specified in the <i>pEntityChu
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
 
 
-#### - pLogData [in, optional]
+#### - pReserved1 [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/31598e37-d487-4ef0-9443-e704cc60a6b2">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="https://msdn.microsoft.com/5d1b86fe-161d-4182-b3fe-9a03a843e62e">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
-
-Be aware that even when logging is enabled on a URL Group, or server session, the response will not be logged unless the application supplies the log fields data structure.
-
-<b>Windows Server 2003 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
-
-<b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
+This parameter is reserved and must be <b>NULL</b>.
 
 
 ## -returns

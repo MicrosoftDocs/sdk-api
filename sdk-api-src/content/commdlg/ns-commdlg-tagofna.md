@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -234,7 +235,7 @@ If the user specifies a file that does not exist, this flag causes the dialog bo
 </dl>
 </td>
 <td width="60%">
- Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. To retrieve the location of this directory, call the <a href="_win32_SHGetSpecialFolderLocation">SHGetSpecialFolderLocation</a> function with the <b>CSIDL_RECENT</b> flag.
+ Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. To retrieve the location of this directory, call the <a href="https://msdn.microsoft.com/en-us/library/Bb762203(v=VS.85).aspx">SHGetSpecialFolderLocation</a> function with the <b>CSIDL_RECENT</b> flag.
 
 </td>
 </tr>
@@ -636,7 +637,7 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 
-<a href="_win32_SHGetSpecialFolderLocation">SHGetSpecialFolderLocation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762203(v=VS.85).aspx">SHGetSpecialFolderLocation</a>
  
 
  

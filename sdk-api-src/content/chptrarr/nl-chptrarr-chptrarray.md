@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: chptrarr.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -89,7 +90,7 @@ Constructor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/7c2f029f-22a1-4433-971e-35ce48c004e0">GetAt</a>
 </td>
 <td align="left" width="63%">
 Accesses an element in a <b>CHPtrArray</b> array.
@@ -123,7 +124,7 @@ Removes all the <b>CHPtrArray</b> members from this array.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544338">operator[]</a>
+<a href="https://msdn.microsoft.com/7005130a-bc0d-4058-aba2-d12ed50255cd">operator[]</a>
 </td>
 <td align="left" width="63%">
 Gets the element at the specified index.

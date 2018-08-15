@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IComponents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/ec5d9d6c-4957-46f2-9798-6e30c934459e">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a Component object to the collection.
@@ -83,7 +84,7 @@ Adds a Component object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/5a98e265-8bef-4978-a257-1519006e9124">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the collection.
@@ -137,7 +138,7 @@ Replaces an existing item in the collection with a new Component object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/0d71b1f0-1a15-4206-b22f-624cc4b246a3">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a Component object from the collection.

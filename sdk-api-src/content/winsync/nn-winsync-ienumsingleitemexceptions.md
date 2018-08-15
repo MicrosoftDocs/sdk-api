@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEnumSingleItemExceptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/89a02939-e761-450e-9479-29e19a872da6">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -82,7 +83,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/a9605eaa-2b68-4bc6-9dcf-c2bebc4e6f1b">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next elements in the single-item exception set, if they are available.
@@ -92,7 +93,7 @@ Returns the next elements in the single-item exception set, if they are availabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/cbd65da9-d5bb-463e-aec6-763be41079ce">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the single-item exception set.
@@ -102,7 +103,7 @@ Resets the enumerator to the beginning of the single-item exception set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/80e3bb55-b467-4fa4-bb3e-70233e5b0265">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of single item exceptions.

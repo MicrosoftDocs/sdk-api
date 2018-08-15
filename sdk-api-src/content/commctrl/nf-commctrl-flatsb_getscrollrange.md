@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -100,18 +101,18 @@ Retrieves the scroll range of the vertical scroll bar.
  
 
 
-#### - lpMinPos
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPINT</a></b>
-
-A pointer to an INT value that receives the minimum scroll range value. 
-
-
 #### - lpMaxPos
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPINT</a></b>
 
 A pointer to an INT value that receives the maximum scroll range value. 
+
+
+#### - lpMinPos
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPINT</a></b>
+
+A pointer to an INT value that receives the minimum scroll range value. 
 
 
 ## -returns

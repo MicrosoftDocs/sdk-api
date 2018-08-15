@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -81,11 +82,6 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
 
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies an existing entry name. If an empty string is specified, the function returns default values in the buffers pointed to by the <i>lpRasEntry</i> and <i>lpbDeviceInfo</i> parameters.
-
-
 #### - lpRasEntry [in, out]
 
 Pointer to a 
@@ -103,21 +99,6 @@ This parameter can be <b>NULL</b>.
 <b>Windows Me/98 and Windows 95 OSR2:  </b>The 
 Microsoft Layer for Unicode does not support <b>dwAlternateOffset</b> in 
 <a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASENTRY</a>.
-
-
-#### - lpdwEntryInfoSize [in, out]
-
-Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpRasEntry</i> buffer. 
-
-
-
-
-On output, this variable receives the number of bytes required.
-
-This parameter can be <b>NULL</b> if the <i>lpRasEntry</i> parameter is <b>NULL</b>.
-
-To determine the required buffer size, call 
-<b>RasGetEntryProperties</b> with <i>lpRasEntry</i> set to <b>NULL</b> and <i>*lpdwEntryInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwEntryInfoSize</i>.
 
 
 #### - lpbDeviceInfo [out]
@@ -149,6 +130,26 @@ To determine the required buffer size, call
 <b>RasGetEntryProperties</b> with <i>lpbDeviceInfo</i> set to <b>NULL</b> and <i>*lpdwDeviceInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwDeviceInfoSize</i>.
 
 
+
+
+#### - lpdwEntryInfoSize [in, out]
+
+Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpRasEntry</i> buffer. 
+
+
+
+
+On output, this variable receives the number of bytes required.
+
+This parameter can be <b>NULL</b> if the <i>lpRasEntry</i> parameter is <b>NULL</b>.
+
+To determine the required buffer size, call 
+<b>RasGetEntryProperties</b> with <i>lpRasEntry</i> set to <b>NULL</b> and <i>*lpdwEntryInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwEntryInfoSize</i>.
+
+
+#### - lpszEntry [in]
+
+Pointer to a <b>null</b>-terminated string that specifies an existing entry name. If an empty string is specified, the function returns default values in the buffers pointed to by the <i>lpRasEntry</i> and <i>lpbDeviceInfo</i> parameters.
 
 
 ## -returns

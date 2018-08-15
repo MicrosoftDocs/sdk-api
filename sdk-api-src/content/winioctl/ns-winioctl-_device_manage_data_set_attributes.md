@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Input structure for the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 
@@ -70,7 +71,7 @@ Size of this data structure. Must be set to
 ### -field Action
 
 A valid value of type 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
+      <a href="https://msdn.microsoft.com/ff688c9a-8669-4699-aab9-1e2e3a5c7fca">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
 
 <table>
 <tr>
@@ -96,7 +97,7 @@ A trim action is performed. This value is not supported for user-mode applicatio
 </td>
 <td width="60%">
 A notification action is performed. The additional parameters are in a 
-        <a href="https://msdn.microsoft.com/library/windows/hardware/ff819207">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
+        <a href="https://msdn.microsoft.com/42f76bab-0260-4b43-a8cf-02faedb7e672">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
         structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
         indicate to the driver stack that this operation is non-destructive.
 
@@ -110,7 +111,7 @@ A notification action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload read action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/library/windows/hardware/hh439639">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
+         <a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -126,7 +127,7 @@ An offload read action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload write action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/library/windows/hardware/hh439644">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
+         <a href="https://msdn.microsoft.com/d0107cae-50c9-46d2-97cd-324030692903">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
          structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
@@ -156,7 +157,7 @@ An allocation bitmap is retrieved for the first data set range specified. The
 </td>
 <td width="60%">
 A repair action is performed. The additional parameters are in a 
-         <a href="https://msdn.microsoft.com/library/windows/hardware/jj602794">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
+         <a href="https://msdn.microsoft.com/95bc892c-9bb7-464c-8084-7cc6e643fa28">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -261,7 +262,7 @@ Length of the parameter block, in bytes. A value of zero indicates there is no p
 ### -field DataSetRangesOffset
 
 Byte offset to the start of the data set ranges block made up of an array of 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552523">DEVICE_DATA_SET_RANGE</a> structures stored in the 
+      <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures stored in the 
       buffer contiguous to this structure. Must be aligned to the 
       <b>DEVICE_DATA_SET_RANGE</b> structure alignment. A 
       value of zero indicates there is no data set ranges block and the 
@@ -289,7 +290,7 @@ The total length of the buffer that contains this structure must be at least
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552523">DEVICE_DATA_SET_RANGE</a>
+<a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a>
 
 
 
@@ -297,7 +298,7 @@ The total length of the buffer that contains this structure must be at least
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
  
 
  

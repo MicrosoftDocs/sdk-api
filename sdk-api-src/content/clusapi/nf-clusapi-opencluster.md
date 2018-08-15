@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -54,7 +55,7 @@ req.irql:
 
 
 Opens a connection to a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and returns a handle to 
+    <a href="c_gly.htm">cluster</a> and returns a handle to 
     it.
 
 
@@ -102,7 +103,7 @@ When finished with a cluster handle, it is important to call
 If the cluster is remote, the client must be running a compatible operating system. For example computers running 
      Windows Server 2008 cannot call <b>OpenCluster</b> against a 
      cluster running Windows Server 2016. To remotely manage these clusters, use 
-     <a href="mscs.the_server_cluster_wmi_provider">the Failover Cluster WMI Provider</a>.
+     <a href="https://msdn.microsoft.com/library/Cc296100(v=VS.85).aspx">the Failover Cluster WMI Provider</a>.
 
 
 #### Examples

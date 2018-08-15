@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -74,11 +75,11 @@ Units in milliwatts.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932064">IOCTL_STORAGE_DEVICE_POWER_CAP</a>
+<a href="https://msdn.microsoft.com/4BF06CA7-5219-4EE0-9A74-F43035914332">IOCTL_STORAGE_DEVICE_POWER_CAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931805">STORAGE_DEVICE_POWER_CAP</a>
+<a href="https://msdn.microsoft.com/B81C7D08-980E-4BA2-8CF8-7B6E58709102">STORAGE_DEVICE_POWER_CAP</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -73,7 +74,7 @@ The size of the CLFS node, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541856">CLFS_SCAN_CONTEXT</a>
+<a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a>
  
 
  

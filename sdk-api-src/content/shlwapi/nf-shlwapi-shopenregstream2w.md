@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -116,14 +117,14 @@ Open the stream for reading and writing.
 Open the stream for reading.
 
 
-##### - grfMode.STGM_WRITE
-
-Open the stream for writing.
-
-
 ##### - grfMode.STGM_READWRITE
 
 Open the stream for reading and writing.
+
+
+##### - grfMode.STGM_WRITE
+
+Open the stream for writing.
 
 
 ## -returns

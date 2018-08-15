@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -143,7 +144,7 @@ The text returned by the Text property is given in Unicode. The end-of-paragraph
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
 
 
 

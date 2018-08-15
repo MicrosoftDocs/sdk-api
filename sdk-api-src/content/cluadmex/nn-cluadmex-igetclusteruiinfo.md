@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -78,7 +79,7 @@ The <b>IGetClusterUIInfo</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2c892250-80b7-4bf8-9514-64833d0e3450">GetClusterName</a>
 </td>
 <td align="left" width="63%">
-Returns the name of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+Returns the name of the <a href="c_gly.htm">cluster</a>.
 
 </td>
 </tr>

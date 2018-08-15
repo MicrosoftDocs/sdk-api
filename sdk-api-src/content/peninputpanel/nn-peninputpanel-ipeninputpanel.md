@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: peninputpanel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -283,7 +284,7 @@ Gets or sets the string name of the factoid used by the <a href="https://msdn.mi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542686">Height</a>
+<a href="https://msdn.microsoft.com/5815f184-1ae4-4617-9aa6-acf727aff202">Height</a>
 
 
 </td>
@@ -391,7 +392,7 @@ Gets or sets a value that indicates whether the <a href="https://msdn.microsoft.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553316">Width</a>
+<a href="https://msdn.microsoft.com/81173c64-5d8b-48ae-866c-5292814a97c0">Width</a>
 
 
 </td>

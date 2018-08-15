@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -88,7 +89,7 @@ The <b>IConsoleNameSpace2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+<a href="https://msdn.microsoft.com/6057b8dd-d794-43a3-998b-689aafa28b9d">AddExtension</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to add a dynamic namespace extension to a selected item.

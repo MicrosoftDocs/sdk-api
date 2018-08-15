@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -117,7 +118,7 @@ Synchronously queries the computer for the history of update events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt219145">Search</a>
+<a href="https://msdn.microsoft.com/0511cfd0-f4de-41ab-af35-32d757217386">Search</a>
 </td>
 <td align="left" width="63%">
 Performs a synchronous search for updates. The search uses the search options that are currently configured.
@@ -144,7 +145,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets and sets a Boolean value that indicates whether future calls to the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">BeginSearch</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt219145">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA).
+Gets and sets a Boolean value that indicates whether future calls to the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">BeginSearch</a> and <a href="https://msdn.microsoft.com/0511cfd0-f4de-41ab-af35-32d757217386">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA).
 
 </td>
 </tr>
@@ -183,7 +184,7 @@ Gets and sets a Boolean value that indicates whether the search results  include
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/b395d19f-812c-441a-b0a7-7edb10dc3fcc">Online</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IWICBitmapFrameEncode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/6321fb9e-9ea8-423c-a332-9daa589af6f7">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits the frame to the image.
@@ -89,7 +90,7 @@ Gets the metadata query writer for the encoder frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/ec215e32-b4bd-469a-903d-f5b546185183">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the frame encoder using the given properties.
@@ -134,7 +135,7 @@ Sets the physical resolution of the output image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/e21e1a66-b1fa-4700-a14e-dc382b5404f7">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the output image dimensions for the frame.

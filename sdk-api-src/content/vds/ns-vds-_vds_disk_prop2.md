@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -115,9 +116,9 @@ The device type defined in Winioctl.h, which includes the following types among 
 
 ### -field dwMediaType
 
-A media type enumerated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566992">STORAGE_MEDIA_TYPE</a>. 
+A media type enumerated by <a href="https://msdn.microsoft.com/f584d766-0d4d-49b8-b58a-09556c494270">STORAGE_MEDIA_TYPE</a>. 
       Basic and dynamic disks map to the <b>FixedMedia</b> enumerator. For more information, see 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566992">STORAGE_MEDIA_TYPE</a>.
+      <a href="https://msdn.microsoft.com/f584d766-0d4d-49b8-b58a-09556c494270">STORAGE_MEDIA_TYPE</a>.
 
 
 ### -field ullSize
@@ -209,7 +210,7 @@ The name of the adapter to which this disk is attached. The PnP Manager returns 
 
 The string returned by the PnP Manager. The PnP Manager uses the device path to 
       uniquely identify a device on a computer. For more information, see 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552343">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
+      <a href="http://go.microsoft.com/fwlink/p/?linkid=91287">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
 
 
 ### -field pwszLocationPath
@@ -234,7 +235,7 @@ The following table lists the parts of the location path string used in the <b>p
 </tr>
 <tr>
 <td><i>AdapterPnpLocationPath</i></td>
-<td>The adapter's PnP location path. This is retrieved by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551963">SetupDiGetDeviceProperty</a> function, passing &amp;DEVPKEY_Device_LocationPaths for the <i>PropertyKey</i> parameter.</td>
+<td>The adapter's PnP location path. This is retrieved by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=135005">SetupDiGetDeviceProperty</a> function, passing &amp;DEVPKEY_Device_LocationPaths for the <i>PropertyKey</i> parameter.</td>
 </tr>
 <tr>
 <td><i>BusType</i></td>
@@ -244,15 +245,15 @@ The following table lists the parts of the location path string used in the <b>p
 </tr>
 <tr>
 <td><i>PathId</i></td>
-<td>The number of the bus. This is the value of the <b>PathId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a> structure that is returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560500">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
+<td>The number of the bus. This is the value of the <b>PathId</b> member of the <a href="http://go.microsoft.com/fwlink/p/?linkid=135007">SCSI_ADDRESS</a> structure that is returned by the <a href="http://go.microsoft.com/fwlink/p/?linkid=135006">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
 </tr>
 <tr>
 <td><i>TargetId</i></td>
-<td>The number of the target device. This is the value of the <b>TargetId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a> structure that is returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560500">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
+<td>The number of the target device. This is the value of the <b>TargetId</b> member of the <a href="http://go.microsoft.com/fwlink/p/?linkid=135007">SCSI_ADDRESS</a> structure that is returned by the <a href="http://go.microsoft.com/fwlink/p/?linkid=135006">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
 </tr>
 <tr>
 <td><i>LunId</i></td>
-<td>The number of the LUN. This is the value of the <b>Lun</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a> structure that is returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560500">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
+<td>The number of the LUN. This is the value of the <b>Lun</b> member of the <a href="http://go.microsoft.com/fwlink/p/?linkid=135007">SCSI_ADDRESS</a> structure that is returned by the <a href="http://go.microsoft.com/fwlink/p/?linkid=135006">IOCTL_SCSI_GET_ADDRESS</a> control code.</td>
 </tr>
 </table>
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -137,7 +138,7 @@ The AUDCLNT_STREAMFLAGS_LOOPBACK flag is set but the endpoint device is a captur
 <td width="60%">
 <div class="alert"><b>Note</b>  Applies to Windows 7 and later.</div>
 <div> </div>
-The requested buffer size is not aligned. This code can be returned for a render or a capture device  if the caller specified  AUDCLNT_SHAREMODE_EXCLUSIVE and the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flags. The caller must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> again with the aligned buffer size. For more information, see Remarks.
+The requested buffer size is not aligned. This code can be returned for a render or a capture device  if the caller specified  AUDCLNT_SHAREMODE_EXCLUSIVE and the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flags. The caller must call <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">Initialize</a> again with the aligned buffer size. For more information, see Remarks.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -112,7 +113,7 @@ The object is already initialized.
 
 
 
-The <b>InitializeFromType</b> method validates the specified type and saves it in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> property, retrieves the default provider, and sets the following property values on the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object:<ul>
+The <b>InitializeFromType</b> method validates the specified type and saves it in the <a href="https://msdn.microsoft.com/a52caea6-fbd5-4c06-8a25-e65f7b4a72f7">Type</a> property, retrieves the default provider, and sets the following property values on the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object:<ul>
 <li>
 <a href="https://msdn.microsoft.com/e74f1aa3-883b-40e4-8052-6651eaa4b63f">CspAlgorithms</a>
 </li>
@@ -141,13 +142,13 @@ The <b>InitializeFromType</b> method validates the specified type and saves it i
 <a href="https://msdn.microsoft.com/2508786f-0892-4ece-bbef-bd8ed9c81eee">MaxKeyContainerNameLength</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/86f6993d-c96e-4753-9670-fdcc30e8c019">Name</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/507896b0-598c-4a2d-854e-d4d266fdfaf7">Valid</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn973197">Version</a>
+<a href="https://msdn.microsoft.com/9b5010e3-d4c2-4194-ad8a-f8f4e0a41446">Version</a>
 </li>
 </ul>
 

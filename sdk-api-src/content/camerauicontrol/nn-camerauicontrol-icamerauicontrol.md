@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: camerauicontrol.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -70,7 +71,7 @@ The <b>ICameraUIControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/d1f73422-37e9-488e-92e6-8e8dd99af57f">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the user interface control.
@@ -133,7 +134,7 @@ Displays the user interface control for the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a>
+<a href="https://msdn.microsoft.com/864333e6-b17f-4225-9302-4335556d0164">Suspend</a>
 </td>
 <td align="left" width="63%">
 Simulates suspend of the user interface control.

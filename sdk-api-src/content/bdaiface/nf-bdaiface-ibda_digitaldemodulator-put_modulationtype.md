@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>put_ModulationType</b> method specifies the modulation type for the signa
 
 ### -param pModulationType [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567735">ModulationType</a> variable that specifies the modulation type.
+Pointer to a <a href="https://msdn.microsoft.com/fd8691d3-a862-4294-8b0b-9723a080d722">ModulationType</a> variable that specifies the modulation type.
 
 
 ## -returns

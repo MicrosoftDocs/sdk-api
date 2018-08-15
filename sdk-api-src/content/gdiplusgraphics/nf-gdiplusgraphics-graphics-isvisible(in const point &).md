@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 IsVisible methods of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -68,7 +69,7 @@ IsVisible methods of the
 <a href="https://msdn.microsoft.com/en-us/library/ms535936(v=VS.85).aspx">IsVisible(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535936(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535936(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -77,7 +78,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535936(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx">IsVisible(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -86,7 +87,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535938(v=VS.85).aspx">IsVisible(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535938(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535938(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -96,7 +97,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535938(v=VS.85).aspx">Gr
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms535940(v=VS.85).aspx">Graphics::IsVisible</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object and the clipping region of the window.
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -106,7 +107,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535940(v=VS.85).aspx">Gr
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms535941(v=VS.85).aspx">Graphics::IsVisible</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object and the clipping region of the window.
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -115,7 +116,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535941(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535937(v=VS.85).aspx">IsVisible(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535937(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535937(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified point is inside the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -124,7 +125,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535937(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535939(v=VS.85).aspx">IsVisible(INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535939(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535939(v=VS.85).aspx">Graphics::IsVisible</a> method determines whether the specified rectangle intersects the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>
@@ -134,7 +135,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535939(v=VS.85).aspx">Gr
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms535942(v=VS.85).aspx">Graphics::IsVisible</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object and the clipping region of the window.
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object and the clipping region of the window.
 
 </td>
 </tr>

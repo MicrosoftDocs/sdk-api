@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method or the <a href="https://msdn.microsoft.com/466e0767-d13a-4f5d-9715-47bb7b9d4142">InitializeFromLocalRequestOriginator</a> method to specify a value for the <b>RequestOriginator</b> property.
+Call the <a href="https://msdn.microsoft.com/3308dde9-ab97-40a1-9251-c207a3a66061">Initialize</a> method or the <a href="https://msdn.microsoft.com/466e0767-d13a-4f5d-9715-47bb7b9d4142">InitializeFromLocalRequestOriginator</a> method to specify a value for the <b>RequestOriginator</b> property.
 
 
 

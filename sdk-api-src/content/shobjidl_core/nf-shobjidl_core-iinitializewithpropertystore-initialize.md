@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Initializes a handler with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>.
+Initializes a handler with an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
 
 
 ## -parameters
@@ -61,9 +62,9 @@ Initializes a handler with an <a href="https://msdn.microsoft.com/library/window
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>.
+A pointer to an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
 
 
 ## -returns
@@ -95,7 +96,7 @@ This method supports initializing handlers for use with OpenSearch result sets, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>
  
 
  

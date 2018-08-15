@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FWPS_FILTER2</b> structure defines a run-time filter in the filter engine.<div class="alert"><b>Note</b>  <b>FWPS_FILTER2</b> is the specific version of <b>FWPS_FILTER</b> used in Windows 8 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a> is available.</div>
+The <b>FWPS_FILTER2</b> structure defines a run-time filter in the filter engine.<div class="alert"><b>Note</b>  <b>FWPS_FILTER2</b> is the specific version of <b>FWPS_FILTER</b> used in Windows 8 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/3a5f6f0a-0162-4e64-b3c1-60021ef2dd95">FWPS_FILTER1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a> is available.</div>
 <div> </div>
 
 
@@ -69,7 +70,7 @@ A run-time identifier that identifies the filter in the filter engine.
 ### -field weight
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure that contains a value that
+     <a href="https://msdn.microsoft.com/0d8557cd-bd11-4786-ba6e-fbbeb2e2b761">FWP_VALUE0</a> structure that contains a value that
      specifies the filter's importance in relation to other filters in the filter engine. Filters with a
      higher 
      <b>weight</b> value are invoked first. The data type specified in the 
@@ -134,7 +135,7 @@ This flag indicates to a callout's
 ### -field numFilterConditions
 
 The number of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552391">FWPS_FILTER_CONDITION0</a> structures in
+     <a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a> structures in
      the array pointed to by the 
      <b>filterCondition</b> member. This member can be zero.
 
@@ -142,7 +143,7 @@ The number of
 ### -field filterCondition
 
 A pointer to an array of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552391">FWPS_FILTER_CONDITION0</a> structures.
+     <a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a> structures.
      These structures define the run-time filtering conditions for the filter. If the 
      <b>numFilterConditions</b> member is zero, then this pointer will be NULL.
 
@@ -150,7 +151,7 @@ A pointer to an array of
 ### -field action
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551215">FWPS_ACTION0</a> structure that specifies the
+     <a href="https://msdn.microsoft.com/1b192efc-e685-48bf-bf61-1419ce03a77a">FWPS_ACTION0</a> structure that specifies the
      action that the filter should take if all of the filter's filtering conditions are true.
 
 
@@ -189,7 +190,7 @@ The
     without calling the base filtering engine (BFE).
 
 This structure is essentially identical to the previous version, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>. The only difference is the updated <a href="https://msdn.microsoft.com/aa397a4e-07cc-4eee-8d0f-798901a5bb29">FWPM_PROVIDER_CONTEXT2</a> structure at the <b>providerContext</b> member.
+    <a href="https://msdn.microsoft.com/3a5f6f0a-0162-4e64-b3c1-60021ef2dd95">FWPS_FILTER1</a>. The only difference is the updated <a href="https://msdn.microsoft.com/aa397a4e-07cc-4eee-8d0f-798901a5bb29">FWPM_PROVIDER_CONTEXT2</a> structure at the <b>providerContext</b> member.
 
 
 
@@ -207,23 +208,23 @@ This structure is essentially identical to the previous version,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551215">FWPS_ACTION0</a>
+<a href="https://msdn.microsoft.com/1b192efc-e685-48bf-bf61-1419ce03a77a">FWPS_ACTION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+<a href="https://msdn.microsoft.com/3a5f6f0a-0162-4e64-b3c1-60021ef2dd95">FWPS_FILTER1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552391">FWPS_FILTER_CONDITION0</a>
+<a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/0d8557cd-bd11-4786-ba6e-fbbeb2e2b761">FWP_VALUE0</a>
 
 
 

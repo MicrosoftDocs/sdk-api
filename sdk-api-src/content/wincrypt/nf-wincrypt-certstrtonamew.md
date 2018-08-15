@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -358,10 +359,8 @@ This parameter is updated for the following error codes returned from <a href="h
 #### CRYPT_E_INVALID_IA5_STRING
 
 
-##### - ppszError.CRYPT_E_INVALID_X500_STRING
+##### - ppszError.CRYPT_E_INVALID_IA5_STRING
 
-<a id="CRYPT_E_INVALID_NUMERIC_STRING"></a>
-<a id="crypt_e_invalid_numeric_string"></a>
 
 ##### - ppszError.CRYPT_E_INVALID_NUMERIC_STRING
 
@@ -373,8 +372,10 @@ This parameter is updated for the following error codes returned from <a href="h
 <a id="CRYPT_E_INVALID_IA5_STRING"></a>
 <a id="crypt_e_invalid_ia5_string"></a>
 
-##### - ppszError.CRYPT_E_INVALID_IA5_STRING
+##### - ppszError.CRYPT_E_INVALID_X500_STRING
 
+<a id="CRYPT_E_INVALID_NUMERIC_STRING"></a>
+<a id="crypt_e_invalid_numeric_string"></a>
 
 ## -returns
 

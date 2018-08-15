@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,13 +64,13 @@ The <b>Delete</b> method deletes one or more objects from the device.
 
 ### -param dwOptions [in]
 
-One of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597560">DELETE_OBJECT_OPTIONS</a> enumerators.
+One of the <a href="https://msdn.microsoft.com/d0e46e77-d333-498f-b2f5-26be1461a116">DELETE_OBJECT_OPTIONS</a> enumerators.
           
 
 
 ### -param pObjectIDs [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
+Pointer to an <a href="https://msdn.microsoft.com/41224958-a5a0-4e09-8733-d0ae036f68b9">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
           
 
 
@@ -189,7 +190,7 @@ The object could not be deleted because it does not exist on the device.
 
 
 
-To see if recursive deletion is supported, call <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
+To see if recursive deletion is supported, call <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
       
 
 The following table lists the possible return codes that may appear in the collection at which <i>ppResults</i> points.

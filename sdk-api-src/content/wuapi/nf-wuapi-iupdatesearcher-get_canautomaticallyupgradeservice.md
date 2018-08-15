@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Gets and sets a Boolean value that indicates whether future calls to the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">BeginSearch</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt219145">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA). Currently, this property's valid value corresponds to the option that does not automatically upgrade  WUA.
+Gets and sets a Boolean value that indicates whether future calls to the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">BeginSearch</a> and <a href="https://msdn.microsoft.com/0511cfd0-f4de-41ab-af35-32d757217386">Search</a> methods result in an automatic upgrade to Windows Update Agent (WUA). Currently, this property's valid value corresponds to the option that does not automatically upgrade  WUA.
 
 This property is read/write.
 

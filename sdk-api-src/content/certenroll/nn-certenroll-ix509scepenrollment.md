@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -107,7 +108,7 @@ Delete the any certificates or keys created for the request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/dcb887ab-c8b7-42e7-8b49-93755d24ba70">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initialize the instance in preparation for a new request.
@@ -207,7 +208,7 @@ Gets or sets an old certificate that a request is intended to replace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="https://msdn.microsoft.com/9446cd62-5a02-4701-8b13-9e46508fbfaa">Request</a>
 
 
 </td>
@@ -271,7 +272,7 @@ Gets or sets whether to display UI during the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/252d7767-fc48-4d7d-9fcd-6312b5b78611">Status</a>
 
 
 </td>

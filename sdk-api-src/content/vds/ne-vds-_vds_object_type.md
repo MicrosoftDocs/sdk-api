@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,7 +71,7 @@ This value is reserved.
 
 ### -field VDS_OT_PROVIDER
 
-The object is a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a>.
+The object is a <a href="https://msdn.microsoft.com/131e927d-d32a-44f6-8aae-28839cfa9e7d">provider</a>.
 
 
 ### -field VDS_OT_PACK
@@ -90,7 +91,7 @@ The object is a <a href="https://msdn.microsoft.com/9e770bfc-2bcb-45f0-a7fc-ba52
 
 ### -field VDS_OT_DISK
 
-The object is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915271">disk</a>.
+The object is a <a href="https://msdn.microsoft.com/65e14273-8127-4667-b5c8-362ad54b4782">disk</a>.
 
 
 ### -field VDS_OT_SUB_SYSTEM

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Retrieves a back buffer from the swap chain of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/753614d1-2c07-471c-870a-3fc163d9ca1c">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with the swap chain.
@@ -116,7 +117,7 @@ Retrieves the presentation parameters associated with a swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn940224">GetRasterStatus</a>
+<a href="https://msdn.microsoft.com/ce326f9a-56c3-4aac-80a5-02bbc5d1b1f2">GetRasterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information describing the raster of the monitor on which the swap chain is presented.

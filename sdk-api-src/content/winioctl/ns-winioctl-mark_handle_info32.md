@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 (64-bit only) [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -219,7 +220,7 @@ The volume handle to the volume where the file or directory resides. For more in
 This handle is required to check the privileges for this operation.
 
 The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more information, 
-        see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">Privileges</a>.
+        see <a href="https://msdn.microsoft.com/fe6aae0f-93eb-4aba-a6ac-45e71c251c51">Privileges</a>.
 
 
 ### -field HandleInfo

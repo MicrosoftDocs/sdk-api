@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -113,7 +114,7 @@ Retrieves the number of input and output pins on the crossbar filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915796">Route</a>
+<a href="https://msdn.microsoft.com/a3f6823d-e389-478a-b882-2556a3cbd821">Route</a>
 </td>
 <td align="left" width="63%">
 Routes an input pin to an output pin.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ Layer whose fields are to be enumerated.
 
 ### -field enumType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552434">FWP_FILTER_ENUM_TYPE</a> value that determines how the filter conditions are interpreted. 
+A <a href="https://msdn.microsoft.com/842ddac3-52d0-4c29-9db3-8534a0c84659">FWP_FILTER_ENUM_TYPE</a> value that determines how the filter conditions are interpreted. 
 
 
 ### -field flags
@@ -216,7 +217,7 @@ Uniquely identifies the callout.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552434">FWP_FILTER_ENUM_TYPE</a>
+<a href="https://msdn.microsoft.com/842ddac3-52d0-4c29-9db3-8534a0c84659">FWP_FILTER_ENUM_TYPE</a>
 
 
 

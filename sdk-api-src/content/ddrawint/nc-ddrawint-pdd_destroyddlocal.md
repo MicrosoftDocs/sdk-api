@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>D3dDestroyDDLocal</b> function destroys all the Microsoft Direct3D surfac
 
 #### - pcdddd
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549532">DDHAL_DESTROYDDLOCALDATA</a> structure that contains the information required for the driver to destroy the surfaces. 
+Points to a <a href="https://msdn.microsoft.com/9d1d14b8-ceaf-4845-a388-a084aa0472a7">DDHAL_DESTROYDDLOCALDATA</a> structure that contains the information required for the driver to destroy the surfaces. 
 
 
 ## -returns
@@ -91,9 +92,9 @@ Direct3D calls <b>D3dDestroyDDLocal</b> when the application indicates that the 
 
 The driver should not destroy the DirectDraw surfaces associated with these Direct3D surfaces. This is the application's responsibility.
 
-The pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544739">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a> was called is released by the operating system after <b>D3dDestroyDDLocal</b> returns. 
+The pointer to the <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="https://msdn.microsoft.com/9ad169a8-81a7-497c-849a-c36be66caa8e">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a> was called is released by the operating system after <b>D3dDestroyDDLocal</b> returns. 
 
-<b>D3dDestroyDDLocal</b> can be called with a disabled <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a> function. See <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> for more information. 
+<b>D3dDestroyDDLocal</b> can be called with a disabled <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a> function. See <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> for more information. 
 
 
 
@@ -103,7 +104,7 @@ The pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544739">D3DHAL_CONTEXTCREATEDATA</a>
+<a href="https://msdn.microsoft.com/9ad169a8-81a7-497c-849a-c36be66caa8e">D3DHAL_CONTEXTCREATEDATA</a>
 
 
 
@@ -115,11 +116,11 @@ The pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549532">DDHAL_DESTROYDDLOCALDATA</a>
+<a href="https://msdn.microsoft.com/9d1d14b8-ceaf-4845-a388-a084aa0472a7">DDHAL_DESTROYDDLOCALDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a>
+<a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a>
  
 
  

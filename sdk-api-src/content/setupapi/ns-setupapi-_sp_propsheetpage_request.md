@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (<i>lpv</i>) to the <b>ExtensionPropSheetPageProc</b> entry point in the <a href="devinst.setupapi">SetupAPI</a> DLL. <b>ExtensionPropSheetPageProc</b> is used to retrieve a handle to a specified property sheet page.
+An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (<i>lpv</i>) to the <b>ExtensionPropSheetPageProc</b> entry point in the <a href="https://msdn.microsoft.com/library/Ff550855(v=VS.85).aspx">SetupAPI</a> DLL. <b>ExtensionPropSheetPageProc</b> is used to retrieve a handle to a specified property sheet page.
 
 For information about <b>ExtensionPropSheetPageProc</b> and related functions, see the Microsoft Windows SDK documentation.
 
@@ -82,13 +83,13 @@ Specifies the Resource Selection page supplied by the SetupAPI DLL.
 
 #### SPPSR_ENUM_BASIC_DEVICE_PROPERTIES
 
-Specifies a page that is supplied by the device's BasicProperties32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543659">DIF_ADDPROPERTYPAGE_BASIC</a> installation request. 
+Specifies a page that is supplied by the device's BasicProperties32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="https://msdn.microsoft.com/e6c2c6c6-10e6-45a9-8b50-294bca18c18b">DIF_ADDPROPERTYPAGE_BASIC</a> installation request. 
 
 
 
 #### SPPSR_ENUM_ADV_DEVICE_PROPERTIES
 
-Specifies a page that is supplied by the class and/or the device's EnumPropPages32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543656">DIF_ADDPROPERTYPAGE_ADVANCED</a> installation request.
+Specifies a page that is supplied by the class and/or the device's EnumPropPages32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="https://msdn.microsoft.com/d2b05c45-3536-4997-ac6f-a5b5c95a97da">DIF_ADDPROPERTYPAGE_ADVANCED</a> installation request.
 
 
 ### -field DeviceInfoSet
@@ -98,7 +99,7 @@ The handle for the device information set that contains the device being install
 
 ### -field DeviceInfoData
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure for the device being installed.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the device being installed.
 
 
 ## -remarks
@@ -182,11 +183,11 @@ AddPropSheetPageProc(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543656">DIF_ADDPROPERTYPAGE_ADVANCED</a>
+<a href="https://msdn.microsoft.com/d2b05c45-3536-4997-ac6f-a5b5c95a97da">DIF_ADDPROPERTYPAGE_ADVANCED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543659">DIF_ADDPROPERTYPAGE_BASIC</a>
+<a href="https://msdn.microsoft.com/e6c2c6c6-10e6-45a9-8b50-294bca18c18b">DIF_ADDPROPERTYPAGE_BASIC</a>
  
 
  

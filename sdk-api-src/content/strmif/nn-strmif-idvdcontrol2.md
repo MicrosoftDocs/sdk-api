@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -102,7 +103,7 @@ Activates the selected menu button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/32ef572a-56f5-4aa4-b994-08f86a1f17ec">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses or resumes playback at the current location. (Deprecated.)
@@ -426,7 +427,7 @@ Resumes playback, canceling still mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/9c1ebe2b-c40a-410f-a4a5-ad79350a27dd">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.

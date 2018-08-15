@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -76,9 +77,9 @@ The number of items for which the list-view control should allocate memory.
 
 
 
-If the list-view control was created without the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style, this macro causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added. 
+If the list-view control was created without the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style, this macro causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added. 
 
-If the list-view control was created with the <a href="List_view_window_styles.htm">LVS_OWNERDATA</a> style (a <a href="List_View_Controls_Overview.htm">virtual list view</a>), the <a href="https://msdn.microsoft.com/en-us/library/Bb775095(v=VS.85).aspx">ListView_SetItemCountEx</a> macro should be used. 
+If the list-view control was created with the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_OWNERDATA</a> style (a <a href="https://msdn.microsoft.com/en-us/library/Bb774735(v=VS.85).aspx">virtual list view</a>), the <a href="https://msdn.microsoft.com/en-us/library/Bb775095(v=VS.85).aspx">ListView_SetItemCountEx</a> macro should be used. 
 
 
 

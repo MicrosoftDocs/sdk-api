@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propidlbase.h
 req.include-header: Propidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -53,8 +54,8 @@ req.product: ADAM
 
 The 
 <b>IEnumSTATPROPSETSTG</b> interface iterates through an array of 
-<a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structures. The <b>STATPROPSETSTG</b> structures contain statistical data about the property sets managed by the current <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> instance. <b>IEnumSTATPROPSETSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>.
+<a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structures. The <b>STATPROPSETSTG</b> structures contain statistical data about the property sets managed by the current <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> instance. <b>IEnumSTATPROPSETSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/3af3c518-3db4-4436-b1c1-86587ce8fbf3">Next</a>, <a href="https://msdn.microsoft.com/48275ca5-f9d1-42cb-b218-f51488a91bf8">Skip</a>, <a href="https://msdn.microsoft.com/41207be6-81ec-4dfc-a737-eb56792edb6d">Reset</a>, and 
+<a href="https://msdn.microsoft.com/f875d5e9-fac0-4961-9570-342f55cf307e">Clone</a>.
 
 The implementation defines the order in which the property sets are enumerated. Property sets that are present when the enumerator is created, and are not removed during the enumeration, will be enumerated only once. Property sets added or deleted while the enumeration is in progress may or may not be enumerated, but, if enumerated, will not be enumerated more than once.
 
@@ -79,7 +80,7 @@ The <b>IEnumSTATPROPSETSTG</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f875d5e9-fac0-4961-9570-342f55cf307e">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator that contains the same enumeration state as the current <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structure enumerator.
@@ -88,7 +89,7 @@ Creates an enumerator that contains the same enumeration state as the current <a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/3af3c518-3db4-4436-b1c1-86587ce8fbf3">Next</a>
 </td>
 <td align="left" width="63%">
 Gets a specified number of <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structures.
@@ -97,7 +98,7 @@ Gets a specified number of <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/41207be6-81ec-4dfc-a737-eb56792edb6d">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning of the <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structure array.
@@ -106,7 +107,7 @@ Resets the enumeration sequence to the beginning of the <a href="https://msdn.mi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/48275ca5-f9d1-42cb-b218-f51488a91bf8">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structures in the enumeration sequence.

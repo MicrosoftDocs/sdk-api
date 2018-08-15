@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,8 +57,8 @@ The <b>Encode</b> method returns an <a href="https://msdn.microsoft.com/0baaa937
 Use the <a href="https://msdn.microsoft.com/79937ef7-4b1a-4132-9ef4-23b2857c7fac">Decode</a> method to decode the encoded string into an <b>CertEncodeDateArray</b> object.
 
 Before using this method, you must call both the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> method to size the array and the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> method to set each array element.
+<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">Reset</a> method to size the array and the 
+<a href="https://msdn.microsoft.com/e05a7aa1-81ad-4564-a6a5-65b8ac816598">SetValue</a> method to set each array element.
 
 
 ## -parameters

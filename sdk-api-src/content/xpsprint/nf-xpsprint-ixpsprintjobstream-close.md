@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsprint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -86,7 +87,7 @@ After <b>Close</b> has been called, all subsequent attempts to write data to the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541159">Documents</a>
+<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
 
 
 

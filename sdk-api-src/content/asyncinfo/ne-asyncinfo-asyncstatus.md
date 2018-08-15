@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: asyncinfo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -76,14 +77,14 @@ The operation has completed without error.
 The operation has completed with an error. No results are available.
 
 
-#### - Created
-
-The operation has not started.
-
-
 #### - Cancelled
 
 The client has initiated a cancellation of the operation.
+
+
+#### - Created
+
+The operation has not started.
 
 
 ## -see-also

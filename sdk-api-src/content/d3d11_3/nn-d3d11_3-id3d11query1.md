@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -91,7 +92,7 @@ Query data is typically gathered by issuing an <a href="https://msdn.microsoft.c
 
 There are, however, some queries that do not require calls to <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">Begin</a>. For a list of possible queries see <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY</a>.
 
-When using a query that does not require a call to <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">Begin</a>, it still requires a call to <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">End</a>. The call to <b>End</b> causes the data returned by <a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a> to be accurate up until the last call to <b>End</b>.
+When using a query that does not require a call to <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">Begin</a>, it still requires a call to <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">End</a>. The call to <b>End</b> causes the data returned by <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">GetData</a> to be accurate up until the last call to <b>End</b>.
 
 
 

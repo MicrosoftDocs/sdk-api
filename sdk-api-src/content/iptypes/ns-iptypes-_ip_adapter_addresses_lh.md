@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -643,7 +644,7 @@ The interface index for the IPv6 IP address. This member is zero if IPv6 is not 
 Type: <b>DWORD[16]</b>
 
 An array of scope IDs for each scope level used for composing 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structures. The 
+      <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structures. The 
       <a href="https://msdn.microsoft.com/714ab69e-b1fa-42a2-a92c-e4051b969a19">SCOPE_LEVEL</a> enumeration is used to index the array. On 
       IPv6, a single interface may be assigned multiple IPv6 multicast addresses based on a scope ID.
       
@@ -714,7 +715,7 @@ The IPv4 interface metric for the adapter address. This member is only applicabl
 
 The actual route metric used to compute the route preferences for IPv4 is the summation of the route metric 
        offset specified in the <b>Metric</b> member of the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> structure and the interface 
+       <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure and the interface 
        metric specified in this member for IPv4.
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
@@ -730,7 +731,7 @@ The IPv6 interface metric for the adapter address. This member is only applicabl
 
 The actual route metric used to compute the route preferences for IPv6 is the summation of the route metric 
        offset specified in the <b>Metric</b> member of the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> structure and the interface 
+       <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure and the interface 
        metric specified in this member for IPv4.
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
@@ -1306,7 +1307,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553790">IF_OPER_STATUS</a>
+<a href="https://msdn.microsoft.com/829df6fc-d5db-4efe-9c67-d0c5543dacb4">IF_OPER_STATUS</a>
 
 
 
@@ -1358,7 +1359,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

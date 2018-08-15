@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -131,7 +132,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
+For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
 
 This function converts the source string to Unicode and calls the 
 corresponding <a href="https://msdn.microsoft.com/092541ea-e568-4aa3-b99e-ce0bac9c120b">GetStringTypeW</a> function. Thus the words in the output buffer correspond not to the original ANSI string but to its Unicode equivalent. The conversion from ANSI to Unicode can result in a change in string length, for example, a pair of ANSI characters can map to a single 

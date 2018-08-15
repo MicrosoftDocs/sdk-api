@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564755">EngCreatePath</a>.
+The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>EngDeletePath</b> function deletes a path previously allocated by <a href
 
 ### -param ppo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure to be deleted.
+Pointer to the <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure to be deleted.
 
 
 ## -returns
@@ -78,7 +79,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564755">EngCreatePath</a>
+<a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>
  
 
  

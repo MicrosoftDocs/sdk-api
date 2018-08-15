@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -103,7 +104,7 @@ The flags were cleared successfully.
 </dl>
 </td>
 <td width="60%">
-The flags to be cleared do not match the flags set previously with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a> method  and <i>bRevertOnClose</i> is set to <b>TRUE</b>.
+The flags to be cleared do not match the flags set previously with the <a href="https://msdn.microsoft.com/f426b089-6c5f-4ab4-aa92-127e24cb57b1">SetFlags</a> method  and <i>bRevertOnClose</i> is set to <b>TRUE</b>.
 
 </td>
 </tr>

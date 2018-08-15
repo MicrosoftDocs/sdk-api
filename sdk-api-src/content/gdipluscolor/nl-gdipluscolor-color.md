@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluscolor.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a> object stores a 32-bit value that represents a color. The color value contains four, 8-bit components: alpha, red, green, and blue. The first 8 bits (the most significant) contain the alpha component, the next 8 bits contain the red component, the next 8 bits contain the green component, and the next 8 bits (the least significant) contain the blue component. The 32-bit value is stored in a variable of type 
+A <a href="https://msdn.microsoft.com/ebd68c22-9b00-4a8e-9954-e8b0eda764f8">Color</a> object stores a 32-bit value that represents a color. The color value contains four, 8-bit components: alpha, red, green, and blue. The first 8 bits (the most significant) contain the alpha component, the next 8 bits contain the red component, the next 8 bits contain the green component, and the next 8 bits (the least significant) contain the blue component. The 32-bit value is stored in a variable of type 
 			<b>ARGB</b>.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">Color</b> has these types of members:

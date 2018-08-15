@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: immdev.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -89,7 +90,7 @@ Returns an operation-specific value if successful, or 0 otherwise.
 
 
 
-IME must use this function instead of sending the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message to the application in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>.
+IME must use this function instead of sending the <a href="https://msdn.microsoft.com/c5e9f256-eed2-46cb-bb33-0e640a975f1f">WM_IME_REQUEST</a> message to the application in a call to <a href="_win32_SendMessage_cpp">SendMessage</a>.
 
 
 

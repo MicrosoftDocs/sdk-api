@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mmddk.h
 req.include-header: Mmddk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Multimedia Functions
 req.target-min-winversvr: 

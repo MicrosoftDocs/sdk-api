@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -181,7 +182,7 @@ Retrieves an object path with an <a href="https://msdn.microsoft.com/d0c94f30-6b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544503">Set</a>
+<a href="https://msdn.microsoft.com/1672c1b0-1008-41e7-8ca4-eefb559f523d">Set</a>
 </td>
 <td align="left" width="63%">
 Sets an object path with an <a href="https://msdn.microsoft.com/fbf7de54-3ea7-4d66-ad56-21cae1e28c07">ADS_SETTYPE_ENUM</a> option.

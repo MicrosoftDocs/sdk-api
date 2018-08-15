@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IUICommandHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://msdn.microsoft.com/d4f3e260-2839-4f0b-892b-7e61f20238f3">Execute</a>
 </td>
 <td align="left" width="63%">
 Responds to execute events on Commands bound to the Command handler.  

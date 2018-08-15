@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows Address Book 5.0
 
 
 Sets the mask of XState features set within a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure.
+    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure.
 
 
 ## -parameters
@@ -64,14 +65,14 @@ Sets the mask of XState features set within a
 
 ### -param Context [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that has been 
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that has been 
       initialized with <a href="https://msdn.microsoft.com/909BF5F7-0622-4B22-A2EC-27722389700A">InitializeContext</a>.
 
 
 ### -param FeatureMask [in]
 
 A mask of XState features to set in the specified 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure.
+      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure.
 
 
 ## -returns
@@ -90,9 +91,9 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 The <b>SetXStateFeaturesMask</b> function sets the 
      mask of valid features in the specified context. Before calling 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>, 
+     <a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>, 
      <a href="https://msdn.microsoft.com/1bac28e1-3558-43c4-97e4-d8bb9514c38e">Wow64GetThreadContext</a>, 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>, or 
+     <a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>, or 
      <a href="https://msdn.microsoft.com/4119c945-b654-4634-a88b-e41bc762018a">Wow64SetThreadContext</a> the application must call 
      <b>SetXStateFeaturesMask</b> to specify which set of 
      features to retrieve or set.  The system silently ignores any feature specified in the 
@@ -119,11 +120,11 @@ The <b>SetXStateFeaturesMask</b> function sets the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>
 
 
 
@@ -131,7 +132,7 @@ The <b>SetXStateFeaturesMask</b> function sets the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>
+<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,17 +62,17 @@ The <b>DrvGradientFill</b> function shades the specified primitives.
 
 ### -param psoDest [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the surface on which to draw.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the surface on which to draw.
 
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved.
 
 
 ### -param pxlo [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure. This parameter should be ignored by the driver.
+Pointer to a <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure. This parameter should be ignored by the driver.
 
 
 ### -param pVertex [in]
@@ -100,12 +101,12 @@ Specifies the number of elements in the array to which <i>pMesh</i> points.
 
 ### -param prclExtents [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines the area in which the gradient drawing is to occur. The points are specified in the coordinate system of the destination surface. This parameter is useful in estimating the size of the drawing operations.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the area in which the gradient drawing is to occur. The points are specified in the coordinate system of the destination surface. This parameter is useful in estimating the size of the drawing operations.
 
 
 ### -param pptlDitherOrg [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that defines the origin on the surface for dithering. The upper left pixel of the dither pattern is aligned with this point.
+Pointer to a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that defines the origin on the surface for dithering. The upper left pixel of the dither pattern is aligned with this point.
 
 
 ### -param ulMode [in]
@@ -139,7 +140,7 @@ The <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">gr
 
 
 
-<b>DrvGradientFill</b> returns <b>TRUE</b> upon success. Otherwise, it returns <b>FALSE</b> and reports an error by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff565015">EngSetLastError</a>.
+<b>DrvGradientFill</b> returns <b>TRUE</b> upon success. Otherwise, it returns <b>FALSE</b> and reports an error by calling <a href="https://msdn.microsoft.com/8887eed8-c60d-4217-92bf-f770be071c49">EngSetLastError</a>.
 
 
 
@@ -150,7 +151,7 @@ The <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">gr
 
 <b>DrvGradientFill</b> can be optionally implemented in graphics drivers. GDI never calls this function for palletized surfaces.
 
-The driver hooks <b>DrvGradientFill</b> by setting the HOOK_GRADIENTFILL flag when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564183">EngAssociateSurface</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564976">EngModifySurface</a>. If the driver has hooked <b>DrvGradientFill</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564957">EngGradientFill</a>.
+The driver hooks <b>DrvGradientFill</b> by setting the HOOK_GRADIENTFILL flag when it calls <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a> or <a href="https://msdn.microsoft.com/176f51c0-0075-4afb-8b5c-5d0b6b64a3ad">EngModifySurface</a>. If the driver has hooked <b>DrvGradientFill</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://msdn.microsoft.com/1005f89f-65cf-49bb-8377-3581fdc9c654">EngGradientFill</a>.
 
 GDI will not call <b>DrvGradientFill</b> for 8bpp destination surfaces.
 
@@ -170,11 +171,11 @@ The driver should ignore the alpha value of the vertices, leaving the alpha chan
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564183">EngAssociateSurface</a>
+<a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564957">EngGradientFill</a>
+<a href="https://msdn.microsoft.com/1005f89f-65cf-49bb-8377-3581fdc9c654">EngGradientFill</a>
  
 
  

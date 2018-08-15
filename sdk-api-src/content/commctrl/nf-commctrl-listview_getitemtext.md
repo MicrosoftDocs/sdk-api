@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -95,6 +96,14 @@ The number of characters in the
 					<i>pszText</i> buffer.
 
 
+#### - cchTextMax
+
+Type: <b>int</b>
+
+The number of characters in the 
+					<i>pszText</i> buffer.
+
+
 #### - iSubItem
 
 Type: <b>int</b>
@@ -108,14 +117,6 @@ The index of the subitem. To retrieve the item text, set
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 A pointer to a buffer that receives the item or subitem text. 
-
-
-#### - cchTextMax
-
-Type: <b>int</b>
-
-The number of characters in the 
-					<i>pszText</i> buffer.
 
 
 ## -see-also

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmnetsourcecreator.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -110,7 +111,7 @@ The method could not allocate memory for an internal resource.
 
 
 
-When you are finished using the network source creator, you must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method to ensure that all resources are released properly.
+When you are finished using the network source creator, you must call the <a href="https://msdn.microsoft.com/746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e">Shutdown</a> method to ensure that all resources are released properly.
 
 
 

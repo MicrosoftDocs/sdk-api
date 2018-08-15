@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ Registers the provider.
 
 ### -param ProviderGuid [in]
 
-GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element specifies the GUID.
+GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element specifies the GUID.
 
 
 ### -param ControlCallback [in, optional]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplustypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -100,7 +101,7 @@ Creates a new <b>Point</b> object and copies the data members from another <b>Po
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object using a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a> object to initialize the 
+			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 

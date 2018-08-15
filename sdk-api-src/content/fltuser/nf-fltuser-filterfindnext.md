@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FilterFindNext</b> function continues a filter search started by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>. 
+The <b>FilterFindNext</b> function continues a filter search started by a call to <a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a>. 
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>FilterFindNext</b> function continues a filter search started by a call t
 
 ### -param hFilterFind [in]
 
-Filter search handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>.
+Filter search handle returned by a previous call to <a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a>.
 
 
 ### -param dwInformationClass [in]
@@ -79,7 +80,7 @@ Type of information requested. This parameter must be one of the following value
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541587">FILTER_FULL_INFORMATION</a> structure for each minifilter instance. Legacy filters are ignored.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/fb592350-76e2-4655-b6db-854fd48aa827">FILTER_FULL_INFORMATION</a> structure for each minifilter instance. Legacy filters are ignored.
 
 </td>
 </tr>
@@ -89,7 +90,7 @@ The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541559">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for each minifilter instance or legacy filter. This <i>dwInformationClass</i> value is available starting with Microsoft Windows Server 2003 with SP1 and Windows XP with SP2 with filter manager rollup.  For more information about the filter manager rollup package for Windows XP with SP2, see article 914882, " <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/c60ac4b8-3e55-42c8-a693-4fc6bbec0de8">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for each minifilter instance or legacy filter. This <i>dwInformationClass</i> value is available starting with Microsoft Windows Server 2003 with SP1 and Windows XP with SP2 with filter manager rollup.  For more information about the filter manager rollup package for Windows XP with SP2, see article 914882, " <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base.
 
 </td>
 </tr>
@@ -99,7 +100,7 @@ The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541567">FILTER_AGGREGATE_STANDARD_INFORMATION</a> structure for each minifilter instance or legacy filter. This <i>dwInformationClass</i> value is available starting with Windows Vista.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/76703a53-45c1-4dfa-b8aa-4f73d4d84538">FILTER_AGGREGATE_STANDARD_INFORMATION</a> structure for each minifilter instance or legacy filter. This <i>dwInformationClass</i> value is available starting with Windows Vista.
 
 </td>
 </tr>
@@ -177,14 +178,14 @@ No more filter drivers were found in the global list of registered filter driver
 
 
 
-After the filter search handle is established by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>, use the <b>FilterFindNext</b> function to search for additional filters in the global list of registered filters. 
+After the filter search handle is established by calling <a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a>, use the <b>FilterFindNext</b> function to search for additional filters in the global list of registered filters. 
 
 <b>FilterFindNext</b> finds one filter driver (minifilter driver instance or legacy filter driver) per call.
 
-Starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP with SP2 with filter manager rollup, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a> and <b>FilterFindNext</b> can provide legacy filter driver information and minifilter driver instance information. On earlier versions of Windows, <b>FilterFindFirst</b> and <b>FilterFindNext</b> can only provide information about minifilters (see the description for the <i>dwInformationClass</i> parameter above).
+Starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP with SP2 with filter manager rollup, <a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a> and <b>FilterFindNext</b> can provide legacy filter driver information and minifilter driver instance information. On earlier versions of Windows, <b>FilterFindFirst</b> and <b>FilterFindNext</b> can only provide information about minifilters (see the description for the <i>dwInformationClass</i> parameter above).
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a> and <b>FilterFindNext</b> return information about filter drivers in order of decreasing distance from the base file system. Information about the filter farthest from the base file system is returned first.  Information about the second-farthest filter is returned second.  Information about the filter closest to the base file system is returned last.
+<a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a> and <b>FilterFindNext</b> return information about filter drivers in order of decreasing distance from the base file system. Information about the filter farthest from the base file system is returned first.  Information about the second-farthest filter is returned second.  Information about the filter closest to the base file system is returned last.
 
 
 
@@ -194,23 +195,23 @@ Starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541559">FILTER_AGGREGATE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/c60ac4b8-3e55-42c8-a693-4fc6bbec0de8">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541567">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/76703a53-45c1-4dfa-b8aa-4f73d4d84538">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541587">FILTER_FULL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/fb592350-76e2-4655-b6db-854fd48aa827">FILTER_FULL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
+<a href="https://msdn.microsoft.com/053c06b0-3bfd-436c-ab98-14c55e66da53">FilterFindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>
+<a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a>
  
 
  

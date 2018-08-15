@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdVideoPortUpdate</b> callback function starts and stops the VPE object, 
 
 #### - lpUpdate
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551756">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
+Points to a <a href="https://msdn.microsoft.com/e1ba7851-570e-4ddc-8981-766294011409">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
 
 
 ## -returns
@@ -91,7 +92,7 @@ When the <b>dwFlags</b> member of the DD_UPDATEVPORTDATA structure at <i>lpUpdat
 
 <ul>
 <li>
-Check all flags in the <b>dwVPFlags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550447">DDVIDEOPORTINFO</a> structure to which the <i>lpVideoInfo</i> member of DD_UPDATEVPORTDATA points. These flags describe how the driver should transfer video data to a surface (or surfaces); for example, they indicate whether the driver should perform autoflipping, crop the video or <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> data, etc.
+Check all flags in the <b>dwVPFlags</b> member of the <a href="https://msdn.microsoft.com/65423d9e-d3b8-4545-8afe-09b3375dbac2">DDVIDEOPORTINFO</a> structure to which the <i>lpVideoInfo</i> member of DD_UPDATEVPORTDATA points. These flags describe how the driver should transfer video data to a surface (or surfaces); for example, they indicate whether the driver should perform autoflipping, crop the video or <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> data, etc.
 
 </li>
 <li>
@@ -99,7 +100,7 @@ Set up loops in the hardware to write video and/or VBI data to the surfaces in t
 
 </li>
 <li>
-If autoflipping has been requested, store the frame buffer offset for each surface in the driver's internal data structure. The surface offsets should be stored in the order in which the surfaces occur in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551730">DD_SURFACE_INT</a> arrays at the <b>lplpDDSurface</b> and <b>lplpDDVBISurface</b> members of DD_UPDATEVPORTDATA. In this way, when <a href="https://msdn.microsoft.com/e86b3b75-319a-4817-bcb1-59580c855ef9">DdUpdateOverlay</a> is called, the driver has a record of the flipping order of the surface chain.
+If autoflipping has been requested, store the frame buffer offset for each surface in the driver's internal data structure. The surface offsets should be stored in the order in which the surfaces occur in the <a href="https://msdn.microsoft.com/b06f204c-e59a-4f13-ac6d-ff0860378312">DD_SURFACE_INT</a> arrays at the <b>lplpDDSurface</b> and <b>lplpDDVBISurface</b> members of DD_UPDATEVPORTDATA. In this way, when <a href="https://msdn.microsoft.com/e86b3b75-319a-4817-bcb1-59580c855ef9">DdUpdateOverlay</a> is called, the driver has a record of the flipping order of the surface chain.
 
 </li>
 </ul>
@@ -119,15 +120,15 @@ When <b>dwFlags</b> is DDRAWI_VPORTSTOP, the driver should return immediately. T
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550447">DDVIDEOPORTINFO</a>
+<a href="https://msdn.microsoft.com/65423d9e-d3b8-4545-8afe-09b3375dbac2">DDVIDEOPORTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551730">DD_SURFACE_INT</a>
+<a href="https://msdn.microsoft.com/b06f204c-e59a-4f13-ac6d-ff0860378312">DD_SURFACE_INT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551756">DD_UPDATEVPORTDATA</a>
+<a href="https://msdn.microsoft.com/e1ba7851-570e-4ddc-8981-766294011409">DD_UPDATEVPORTDATA</a>
 
 
 

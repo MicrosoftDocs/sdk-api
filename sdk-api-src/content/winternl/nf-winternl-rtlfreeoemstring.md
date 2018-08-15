@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Frees the string buffer allocated by
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff553255">RtlUnicodeStringToOemString</a>.
+    <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a>.
 
 
 ## -parameters
@@ -63,7 +64,7 @@ Frees the string buffer allocated by
 ### -param OemString [in, out]
 
 Address of the OEM string whose buffer
-        was previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553255">RtlUnicodeStringToOemString</a>.
+        was previously allocated by <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a>.
 
 
 ## -returns
@@ -79,7 +80,7 @@ This function does not return a value.
 
 
 
-This routine releases the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
+This routine releases the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/4f69b710-2ab2-4439-938b-20509b697dc2">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
 		
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -121,7 +122,7 @@ Capture extended context for each thread (e.g. <b>CONTEXT_XSTATE</b>).
 
 ### -field PSS_CAPTURE_VA_SPACE
 
-Capture a snapshot of the virtual address space. The VA space is captured as an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn957515">MEMORY_BASIC_INFORMATION</a> structures. This flag does not capture the contents of the pages.
+Capture a snapshot of the virtual address space. The VA space is captured as an array of <a href="https://msdn.microsoft.com/dc3fa48e-0986-49cc-88a9-ff8179fbe5f0">MEMORY_BASIC_INFORMATION</a> structures. This flag does not capture the contents of the pages.
 
 
 ### -field PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION
@@ -161,7 +162,7 @@ The breakaway is optional. If the clone process fails to create as a breakaway, 
 
 ### -field PSS_CREATE_BREAKAWAY
 
-The clone is broken away from the parent process' job. This is equivalent to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> flag <b>CREATE_BREAKAWAY_FROM_JOB</b>.
+The clone is broken away from the parent process' job. This is equivalent to <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> flag <b>CREATE_BREAKAWAY_FROM_JOB</b>.
 
 
 ### -field PSS_CREATE_FORCE_BREAKAWAY

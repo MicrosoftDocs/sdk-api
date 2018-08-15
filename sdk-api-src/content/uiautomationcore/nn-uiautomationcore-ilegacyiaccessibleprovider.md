@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -108,7 +109,7 @@ Selects the element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/ca0901af-8d79-4aed-876f-0d719657ef12">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the string value of the control.
@@ -158,7 +159,7 @@ Contains a description of the default action for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/9a6ce358-66ad-40df-8642-759b7cb6208a">Description</a>
 
 
 </td>
@@ -174,7 +175,7 @@ Contains the description of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926862">Help</a>
+<a href="https://msdn.microsoft.com/7b92f95b-9a75-4f24-b6ed-34ababfbbaa9">Help</a>
 
 
 </td>
@@ -206,7 +207,7 @@ Specifies the keyboard shortcut for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/ec5c4ca5-e40c-4ea4-9765-25b09f7f16d8">Name</a>
 
 
 </td>
@@ -222,7 +223,7 @@ Specifies the name of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915787">Role</a>
+<a href="https://msdn.microsoft.com/de2c0101-61fd-4a2d-8bef-dc7e30d0d9f4">Role</a>
 
 
 </td>
@@ -254,7 +255,7 @@ Specifies the state of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/3d54b72d-c13b-4a4d-9517-e828ff8cadb3">Value</a>
 
 
 </td>

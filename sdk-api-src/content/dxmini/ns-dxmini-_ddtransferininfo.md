@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DDTRANSFERININFO structure contains the transfer information for the surface
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a> structure that represents the surface that contains the information to be transferred. The information in this structure is supplied by DirectDraw. 
+Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that represents the surface that contains the information to be transferred. The information in this structure is supplied by DirectDraw. 
 
 
 ### -field dwStartLine
@@ -76,7 +77,7 @@ Indicates the last line in the surface from which data is transferred, inclusive
 
 ### -field dwTransferID
 
-Specifies an identification for the transfer supplied by DirectDraw. This transfer ID is used by the driver in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549521">DDGETTRANSFERSTATUSOUTINFO</a> structure. 
+Specifies an identification for the transfer supplied by DirectDraw. This transfer ID is used by the driver in the <a href="https://msdn.microsoft.com/593a42be-e1e9-41e5-a006-1513c5aa5226">DDGETTRANSFERSTATUSOUTINFO</a> structure. 
 
 
 ### -field dwTransferFlags
@@ -152,11 +153,11 @@ Points to a destination <a href="https://msdn.microsoft.com/a1ec4764-4e11-4fb2-b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549521">DDGETTRANSFERSTATUSOUTINFO</a>
+<a href="https://msdn.microsoft.com/593a42be-e1e9-41e5-a006-1513c5aa5226">DDGETTRANSFERSTATUSOUTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
 
 
 

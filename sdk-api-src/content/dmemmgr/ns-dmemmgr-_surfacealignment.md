@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567267">HeapVidMemAllocAligned</a>.
+The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by <a href="https://msdn.microsoft.com/efd004d5-58fc-4721-9a74-d018cb3e5de9">HeapVidMemAllocAligned</a>.
 
 
 ## -struct-fields
@@ -113,7 +114,7 @@ Is reserved for system use and should be ignored by the display driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567267">HeapVidMemAllocAligned</a>
+<a href="https://msdn.microsoft.com/efd004d5-58fc-4721-9a74-d018cb3e5de9">HeapVidMemAllocAligned</a>
  
 
  

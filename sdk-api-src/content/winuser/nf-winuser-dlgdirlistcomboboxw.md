@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -192,7 +193,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the combo box. If this flag is not set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
+If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the combo box. If this flag is not set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
 </td>
 </tr>

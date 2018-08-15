@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,9 +64,9 @@ This property is read-only.
 
 
 
-The total page count is only available for faxes where <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> returns JT_SEND. If the page count is not available, <b>PageCount</b> returns zero.
+The total page count is only available for faxes where <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> returns JT_SEND. If the page count is not available, <b>PageCount</b> returns zero.
 
-The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> property equal to JT_SEND. If the page count is not available, the <b>PageCount</b> property is zero.
+The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> property equal to JT_SEND. If the page count is not available, the <b>PageCount</b> property is zero.
 
 
 
@@ -95,7 +96,7 @@ The total page count is only available for faxes that have a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a>
  
 
  

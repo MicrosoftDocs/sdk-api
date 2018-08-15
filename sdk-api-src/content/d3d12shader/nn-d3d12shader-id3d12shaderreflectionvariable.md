@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://msdn.microsoft.com/433FABE2-D0BB-4E97-84BB-D20566D32571">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Returns the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <b>ID3D12ShaderReflectionVariable</b>.
@@ -101,7 +102,7 @@ Gets the corresponding interface slot for a variable that represents an interfac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/DE2BBC9F-3519-4896-96E1-40C2E726D8A1">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets a shader-variable type.

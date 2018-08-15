@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -74,7 +75,7 @@ This property is read-only.
 
 A <a href="https://msdn.microsoft.com/8c285882-915c-45de-9840-cfc5becd55ee">ClusProperty</a> object operates on a local copy 
     of cluster property data. Changes made to the local copy of the data do not take effect in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> until the parent 
+    <a href="c_gly.htm">cluster</a> until the parent 
     <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e8f">ClusProperties</a> collection invokes the 
     <a href="https://msdn.microsoft.com/2792025f-c434-47e0-a5e8-06a992e3a8d2">ClusProperties.SaveChanges</a> 
     method. Any change to the local copy of the property value causes 

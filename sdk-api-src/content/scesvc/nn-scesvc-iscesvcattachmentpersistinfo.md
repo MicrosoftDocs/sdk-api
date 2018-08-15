@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: scesvc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,7 +86,7 @@ Indicates whether data stored in the attachment snap-in extension has changed si
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/bdec64b8-2a92-4165-95ff-0de981f2d878">Save</a>
 </td>
 <td align="left" width="63%">
 Gets the data that needs to be saved from the snap-in extension.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>

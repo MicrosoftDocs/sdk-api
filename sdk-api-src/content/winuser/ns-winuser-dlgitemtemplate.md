@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ Defines the dimensions and style of a control in a dialog box. One or more of th
 
 Type: <b>DWORD</b>
 
-The style of the control. This member can be a combination of <a href="winui._win32_Window_Styles">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb775498(v=VS.85).aspx">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
+The style of the control. This member can be a combination of <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb775498(v=VS.85).aspx">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
 
 
 ### -field dwExtendedStyle

@@ -2,7 +2,7 @@
 UID: TP:windowssetupandmigration
 ms.assetid: 53912da4-42c2-33af-8b53-5bbaa7bfd68c
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

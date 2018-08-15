@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -81,7 +82,7 @@ Method that returns an <b>IDispatch</b> pointer to the service object that was r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/0c1ea343-f04b-414d-92cf-044cb117bc9c">Initialize</a>
 </td>
 <td align="left" width="63%">
 Method that initializes the device control object with the device description and a device-specific initialization string.

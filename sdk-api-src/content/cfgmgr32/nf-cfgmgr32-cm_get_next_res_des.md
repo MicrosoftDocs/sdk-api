@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -100,11 +101,11 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate a logical configuration's resource descriptors, begin by calling <b>CM_Get_Next_Res_Des</b> with the logical configuration's handle as the argument for <i>rdResDes</i>. This obtains a handle to the first resource descriptor of the type specified by <i>ForResource</i>. Then for each subsequent call to <b>CM_Get_Next_Res_Des</b>, specify the most recently obtained descriptor handle as the argument for <i>rdResDes</i>. Repeat until the function returns CR_NO_MORE_RES_DES.
 
-To retrieve the information stored in a resource descriptor, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538641">CM_Get_Res_Des_Data</a>.
+To retrieve the information stored in a resource descriptor, call <a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a>.
 
-To modify the information stored in a resource descriptor, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538763">CM_Modify_Res_Des</a>.
+To modify the information stored in a resource descriptor, call <a href="https://msdn.microsoft.com/9320c396-4da8-4b35-a620-4bb7cbd80e9a">CM_Modify_Res_Des</a>.
 
-Callers of <b>CM_Get_Next_Res_Des</b> must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538067">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
+Callers of <b>CM_Get_Next_Res_Des</b> must call <a href="https://msdn.microsoft.com/4a585d64-fd00-47a8-8ada-7e343beb829d">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
 
 
 
@@ -114,7 +115,7 @@ Callers of <b>CM_Get_Next_Res_Des</b> must call <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538603">CM_Get_Next_Res_Des_Ex</a>
+<a href="https://msdn.microsoft.com/91e9a686-2465-4ae8-9cc2-391cd98c2138">CM_Get_Next_Res_Des_Ex</a>
  
 
  

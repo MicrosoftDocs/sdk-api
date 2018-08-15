@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Handle to the new hot item. If this value is <b>NULL</b>, the tree-view control 
 
 The <i>hot item</i> is the item that the mouse is hovering over. The <a href="https://msdn.microsoft.com/en-us/library/Ee663568(v=VS.85).aspx">TVM_SETHOT</a> message sent by this macro makes an item look like it is the hot item even if the mouse is not hovering over it.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee663568(v=VS.85).aspx">TVM_SETHOT</a> message has no visible effect if the <a href="Tree_View_Control_Window_Styles.htm">TVS_TRACKSELECT</a> style is not set.
+The <a href="https://msdn.microsoft.com/en-us/library/Ee663568(v=VS.85).aspx">TVM_SETHOT</a> message has no visible effect if the <a href="https://msdn.microsoft.com/en-us/library/Bb760013(v=VS.85).aspx">TVS_TRACKSELECT</a> style is not set.
 
 If it succeeds, the <a href="https://msdn.microsoft.com/en-us/library/Ee663568(v=VS.85).aspx">TVM_SETHOT</a> message causes the hot item to be redrawn.
 

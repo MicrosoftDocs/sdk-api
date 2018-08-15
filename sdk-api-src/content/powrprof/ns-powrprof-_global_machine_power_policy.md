@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,7 +75,7 @@ The current structure revision level. Set this value by calling
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system when running 
       on AC power. This member must be one of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type values. A value 
+      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values. A value 
       of <b>PowerSystemUnspecified</b> indicates that a lid-open event does not wake the 
       system.
 
@@ -83,7 +84,7 @@ The maximum power state (highest Sx value) from which a lid-open event should wa
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system when running 
       on battery. This member must be one of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration type values. A value 
+      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values. A value 
       of <b>PowerSystemUnspecified</b> indicates that a lid-open event does not wake the 
       system.
 

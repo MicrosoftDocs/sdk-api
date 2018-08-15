@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -125,7 +126,7 @@ Gets the number of records in an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/df104d6d-1436-4c7d-b250-b740e1f70c07">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the values of flags  from an ISDB download content descriptor.

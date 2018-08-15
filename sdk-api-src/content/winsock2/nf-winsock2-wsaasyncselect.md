@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -588,7 +589,7 @@ The error code in an <b>FD_CLOSE</b> message indicates whether the socket close 
 <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a>, then the socket's virtual circuit was reset. This only applies to connection-oriented sockets such as SOCK_STREAM.
 
 The <b>FD_CLOSE</b> message is posted when a close indication is received for the virtual circuit corresponding to the socket. In TCP terms, this means that the <b>FD_CLOSE</b> is posted when the connection goes into the TIME WAIT or CLOSE WAIT states. This results from the remote end performing a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> on the send side or a 
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> on the send side or a 
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a>. <b>FD_CLOSE</b> should only be posted after all data is read from a socket, but an application should check for remaining data upon receipt of <b>FD_CLOSE</b> to avoid any possibility of losing data.
 
 Be aware that the application will only receive an <b>FD_CLOSE</b> message to indicate closure of a virtual circuit, and only when all the received data has been read if this is a graceful close. It will not receive an <b>FD_READ</b> message to indicate this condition.
@@ -692,7 +693,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 <b>WSAAsyncSelect</b> called, if socket connection has been closed.</li>
 <li>After remote system initiated graceful close, when no data currently available to receive (Be aware that, if data has been received and is waiting to be read when the remote system initiates a graceful close, the <b>FD_CLOSE</b> is not delivered until all pending data has been read).</li>
 <li>After local system initiates graceful close with 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> and remote system has responded with "End of Data" notification (for example, TCP FIN), when no data currently available to receive.</li>
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> and remote system has responded with "End of Data" notification (for example, TCP FIN), when no data currently available to receive.</li>
 <li>When remote system terminates connection (for example, sent TCP RST), and <i>lParam</i> will contain 
 <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a> error value. 
 

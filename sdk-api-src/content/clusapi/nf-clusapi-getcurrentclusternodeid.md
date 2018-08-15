@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -73,18 +74,18 @@ On input, pointer to the count of characters in the buffer pointed to by the
        terminator.
 
 
-#### - lpszNodeId [out]
-
-This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
-       the terminating <b>NULL</b> character.
-
-
 #### - lpcchName [in, out]
 
 On input, pointer to the count of characters in the buffer pointed to by the 
        <i>lpszNodeId</i> parameter, including the <b>NULL</b> terminator. On 
        output, pointer to the count of characters stored in the buffer excluding the <b>NULL</b> 
        terminator.
+
+
+#### - lpszNodeId [out]
+
+This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
+       the terminating <b>NULL</b> character.
 
 
 ## -remarks

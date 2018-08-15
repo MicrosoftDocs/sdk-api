@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -64,7 +65,7 @@ This property is read/write.
 
 
 
-You can use this property to force the use of the default provider for a given provider type. For example, to use the <b>PROV_RSA_SCHANNEL</b> provider, set this property to the <b>XCN_PROV_RSA_SCHANNEL</b><a href="https://msdn.microsoft.com/636ccb3a-ea66-4993-ac62-29409ce63eba">X509ProviderType</a> enumeration value and do not specify a value for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property.
+You can use this property to force the use of the default provider for a given provider type. For example, to use the <b>PROV_RSA_SCHANNEL</b> provider, set this property to the <b>XCN_PROV_RSA_SCHANNEL</b><a href="https://msdn.microsoft.com/636ccb3a-ea66-4993-ac62-29409ce63eba">X509ProviderType</a> enumeration value and do not specify a value for the <a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a> property.
 
 Setting this property automatically sets the following properties to be consistent with the specified <b>ProviderType</b> value:
 
@@ -90,7 +91,7 @@ These properties are set in the following manner:
 </ul>
 </li>
 </ul>
-Because  a previously specified <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> is not affected by setting the <b>ProviderType</b> property, setting a <b>ProviderType</b> that is inconsistent with the <b>ProviderName</b> property will result in undefined behavior, likely a failure when creating or opening a private key. We recommend that you set the <b>ProviderType</b> property only when attempting to force the use of the default provider for the specified type as discussed above.
+Because  a previously specified <a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a> is not affected by setting the <b>ProviderType</b> property, setting a <b>ProviderType</b> that is inconsistent with the <b>ProviderName</b> property will result in undefined behavior, likely a failure when creating or opening a private key. We recommend that you set the <b>ProviderType</b> property only when attempting to force the use of the default provider for the specified type as discussed above.
 
 
 

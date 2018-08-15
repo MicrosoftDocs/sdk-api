@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -74,7 +75,7 @@ The <b>IFolderActionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/39597249-29d5-44a0-9954-01b9b6a62977">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a folder action to the collection.
@@ -92,7 +93,7 @@ Adds one or more folder actions to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/357934fa-9213-466e-8104-eb9b265a98d3">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all folder actions from the collection.
@@ -110,7 +111,7 @@ Creates a folder action object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/b0894d3f-13d1-4f71-9171-592640d70969">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a folder action from the collection based on the specified index.
@@ -127,7 +128,7 @@ Removes a folder action from the collection based on the specified index.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/92b13b4f-31bd-42c7-9aed-02cef9ca38f3">_NewEnum</a>
 
 
 </td>
@@ -139,7 +140,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/a6b0dbbd-aeb7-404a-8f7c-f9e52a772838">Count</a>
 
 
 </td>
@@ -151,7 +152,7 @@ Retrieves the number of folder actions in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/cf11f194-b518-41de-8f98-c4487c3d2fee">Item</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -95,7 +96,7 @@ Creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb2
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/f055f283-4b2f-4dcb-aed6-1e2ae24f2518">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a protocol handler. 
@@ -105,7 +106,7 @@ Initializes a protocol handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">ShutDown</a>
+<a href="https://msdn.microsoft.com/47f644a0-bd70-4af5-bf0b-5a6fe77cbefa">ShutDown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the protocol handler.

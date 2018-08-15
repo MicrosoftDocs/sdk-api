@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -92,7 +93,7 @@ Retrieves the index of the default device in the sensor group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/99143CFD-930A-405C-A8FB-8DBF52CD9BB5">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags set for the sensor group.

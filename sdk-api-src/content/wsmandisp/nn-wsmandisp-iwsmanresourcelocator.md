@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -93,7 +94,7 @@ Adds a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx"
 <a href="https://msdn.microsoft.com/4c71948d-2321-41b5-b961-c4a514830b26">ClearOptions</a>
 </td>
 <td align="left" width="63%">
-Removes any <a href="https://msdn.microsoft.com/library/windows/hardware/dn965779">options</a> from the <b>IWSManResourceLocator</b> object.
+Removes any <a href="windows_remote_management_glossary.htm">options</a> from the <b>IWSManResourceLocator</b> object.
 
 </td>
 </tr>
@@ -142,7 +143,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the language dialect for a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource</a> <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragment</a> <i>dialect</i> when <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object methods such as <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
+Gets or sets the language dialect for a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource</a> <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragment</a> <i>dialect</i> when <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object methods such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
 
 </td>
 </tr>
@@ -158,7 +159,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the path for a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource</a> <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragment</a> or property when an instance of <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> methods such as <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
+Gets or sets the path for a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource</a> <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragment</a> or property when an instance of <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> methods such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
 
 </td>
 </tr>

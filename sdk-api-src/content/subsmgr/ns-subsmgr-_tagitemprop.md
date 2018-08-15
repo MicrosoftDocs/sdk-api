@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: subsmgr.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,24 +74,14 @@ Stores information about properties in the <a href="https://msdn.microsoft.com/c
 
 
 
-#### - bstrName
-
-For internal use only.
-
-
 #### - bstrIndexProp
 
 The name of a property in the <a href="https://msdn.microsoft.com/c2094bbe-a4ca-4f30-b16e-14dced2912bc">Windows Property System</a>. For example, the <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> property.
 
 
-#### - dwUID
+#### - bstrName
 
 For internal use only.
-
-
-#### - vt
-
-The type of the property value. For example, the type of the string property <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> is <b>VT_BSTR</b>. 
 
 
 #### - ds
@@ -101,6 +92,16 @@ For internal use only.
 #### - dwHint
 
 For internal use only.
+
+
+#### - dwUID
+
+For internal use only.
+
+
+#### - vt
+
+The type of the property value. For example, the type of the string property <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> is <b>VT_BSTR</b>. 
 
 
 ## -remarks

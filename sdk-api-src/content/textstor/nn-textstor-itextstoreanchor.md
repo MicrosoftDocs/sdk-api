@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -165,7 +166,7 @@ Returns an anchor positioned at the start of the text stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/61192268-5a5f-4caa-bdb8-799ee4aea24e">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Obtains the document status.
@@ -174,7 +175,7 @@ Obtains the document status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/fd3f91df-b107-4284-8435-d859c843555f">GetText</a>
 </td>
 <td align="left" width="63%">
 Returns information about text at a specified anchor position.

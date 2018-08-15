@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-The following table lists the possible <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> pairs for OCSP service properties.
+The following table lists the possible <a href="https://msdn.microsoft.com/33980a7c-0ae5-470b-a55a-f3e19c8846a6">Name</a>-<a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> pairs for OCSP service properties.
 
 <table>
 <tr>
@@ -73,7 +74,7 @@ The following table lists the possible <a href="https://msdn.microsoft.com/libra
 <tr>
 <td><b>LogLevel</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> of <b>LogLevel</b> must be one of the following constants.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>LogLevel</b> must be one of the following constants.
 
 
 
@@ -114,7 +115,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value
 <tr>
 <td><b>AuditFilter</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
 
 
 
@@ -145,21 +146,21 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value
 <tr>
 <td><b>ArrayController</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>ArrayMembers</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>EnrollPollInterval</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
+The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
 
 </td>
 </tr>

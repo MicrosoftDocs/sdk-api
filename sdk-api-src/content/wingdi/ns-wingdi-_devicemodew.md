@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Wingdi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -177,7 +178,7 @@ This member is not used for displays.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For displays, specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
+For displays, specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
 
 This member is not used for printers.
 
@@ -360,7 +361,7 @@ This member is not used for displays.
 
 ### -field dmLogPixels
 
-For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a> structure.
+For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a> structure.
 
 This member is not used for printers.
 
@@ -532,19 +533,19 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548439">DOCUMENTPROPERTYHEADER</a>
+<a href="https://msdn.microsoft.com/5aaf1f90-fb75-4e5a-9316-9212a21b8fed">DOCUMENTPROPERTYHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548532">DrvConvertDevMode</a>
+<a href="https://msdn.microsoft.com/eb0402a8-22ce-417f-9b19-25b357451307">DrvConvertDevMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548539">DrvDeviceCapabilities</a>
+<a href="https://msdn.microsoft.com/a8ea236d-42f9-45c5-b2f6-035e0ba28f75">DrvDeviceCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556233">DrvGetModes</a>
+<a href="https://msdn.microsoft.com/55ca7733-184a-4bc0-8e91-b5899073bca7">DrvGetModes</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The ENG_TIME_FIELDS structure is used by the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff564990">EngQueryLocalTime</a> function to return the local time. 
+The ENG_TIME_FIELDS structure is used by the  <a href="https://msdn.microsoft.com/826993fc-7cf2-4747-a0d9-086e5d7310b6">EngQueryLocalTime</a> function to return the local time. 
 
 
 ## -struct-fields
@@ -113,7 +114,7 @@ The driver is responsible for allocating the ENG_TIME_FIELDS structure and passi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564990">EngQueryLocalTime</a>
+<a href="https://msdn.microsoft.com/826993fc-7cf2-4747-a0d9-086e5d7310b6">EngQueryLocalTime</a>
  
 
  

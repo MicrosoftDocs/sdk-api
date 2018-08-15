@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -99,7 +100,7 @@ Retrieves the clock's presentation time source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the presentation clock.
@@ -126,7 +127,7 @@ Sets the time source for the presentation clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/ba5986d1-9c94-4747-a221-43d0583f1fed">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the presentation clock.
@@ -135,7 +136,7 @@ Starts the presentation clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/54377d65-2af7-410d-b8cf-45f467527a45">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the presentation clock.
@@ -149,7 +150,7 @@ Stops the presentation clock.
 
 
 
-To create a new instance of the presentation clock, call the <a href="https://msdn.microsoft.com/b0ed3482-d127-45d3-a4de-271b1c0a199b">MFCreatePresentationClock</a> function. The presentation clock must have a time source, which is an object that provides the clock times. For example, the audio renderer is a time source that uses the sound card to drive the clock. Time sources expose the <a href="https://msdn.microsoft.com/e5fab6b7-0abc-4ad7-89a9-33c673e97ce2">IMFPresentationTimeSource</a> interface. To set the time source, call <a href="https://msdn.microsoft.com/170b7c8e-9d1a-4168-964a-5fd057d1e8f9">SetTimeSource</a>. The presentation clock does not begin running until the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> method is called.
+To create a new instance of the presentation clock, call the <a href="https://msdn.microsoft.com/b0ed3482-d127-45d3-a4de-271b1c0a199b">MFCreatePresentationClock</a> function. The presentation clock must have a time source, which is an object that provides the clock times. For example, the audio renderer is a time source that uses the sound card to drive the clock. Time sources expose the <a href="https://msdn.microsoft.com/e5fab6b7-0abc-4ad7-89a9-33c673e97ce2">IMFPresentationTimeSource</a> interface. To set the time source, call <a href="https://msdn.microsoft.com/170b7c8e-9d1a-4168-964a-5fd057d1e8f9">SetTimeSource</a>. The presentation clock does not begin running until the <a href="https://msdn.microsoft.com/ba5986d1-9c94-4747-a221-43d0583f1fed">Start</a> method is called.
 
 To get the presentation clock from the Media Session, call <a href="https://msdn.microsoft.com/16444da2-68f2-4d94-8c6f-9e512d51e5e9">IMFMediaSession::GetClock</a>.
 

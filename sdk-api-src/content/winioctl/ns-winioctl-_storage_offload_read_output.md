@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Output structure for the <b>DeviceDsmAction_OffloadRead</b> action of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      control code.
 
 
@@ -78,8 +79,8 @@ Output flags.
 </td>
 <td width="60%">
 The ranges represented by the token is smaller than the ranges specified in the 
-        <a href="https://msdn.microsoft.com/library/windows/hardware/ff552523">DEVICE_DATA_SET_RANGE</a> structures passed in the 
-        <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures passed in the 
+        <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         control code input buffer. In other words the <b>LengthProtected</b> member is less than 
         the sum of all of the <b>LengthInBytes</b> members of the 
         <b>DEVICE_DATA_SET_RANGE</b> structures passed.
@@ -107,7 +108,7 @@ Length of the token in bytes.
 
 ### -field Token
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451469">STORAGE_OFFLOAD_TOKEN</a> containing the 
+A <a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STORAGE_OFFLOAD_TOKEN</a> containing the 
       token created.
 
 
@@ -116,11 +117,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451469">STORAGE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439639">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439656">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
+<a href="https://msdn.microsoft.com/a3f03509-8be9-4cb4-b942-f5ab358bd70e">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
 
 
 
@@ -128,11 +129,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451469">STORAGE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451469">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>FLOATOBJ_MulFloat</b> function multiplies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565804">FLOATOBJ</a> by the value of type FLOATL, and returns with the result in the first parameter.
+The <b>FLOATOBJ_MulFloat</b> function multiplies the <a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a> by the value of type FLOATL, and returns with the result in the first parameter.
 
 
 ## -parameters
@@ -99,7 +100,7 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565804">FLOATOBJ</a>
+<a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>
  
 
  

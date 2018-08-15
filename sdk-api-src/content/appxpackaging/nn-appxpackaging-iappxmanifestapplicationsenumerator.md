@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -102,7 +103,7 @@ Advances the position of the enumerator to the next application.
 
 
 
-Applications are specified using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj159048">Applications</a> element in the package manifest.
+Applications are specified using the <a href="https://msdn.microsoft.com/ad9e07fc-ba58-4465-b3fa-b330ba149f92">Applications</a> element in the package manifest.
 
 This object can be retrieved using the <a href="https://msdn.microsoft.com/EC575692-93D6-43F1-857B-9A27DD50B8FC">IAppxManifestReader::GetApplications</a> method.
 

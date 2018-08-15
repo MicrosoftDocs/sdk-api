@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The
 Requesting this interface does not commit the tool to using the new functionality. The interface supports both the standard and the "Ex" versions of the appropriate interface calls.
 
 The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a> object provides access to other top-level objects. A 
+<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object provides access to other top-level objects. A 
 Merge object must be created before loading the automation support required by COM to access the functions in Mergemod.dll.
 
 
@@ -184,7 +185,7 @@ Returns a collection of all errors from the most recent merge operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406307">Log</a>
+<a href="https://msdn.microsoft.com/15c7450b-6887-4a54-8f4f-ac2cf5944f17">Log</a>
 </td>
 <td align="left" width="63%">
 Logs a string to the current log file.
@@ -193,7 +194,7 @@ Logs a string to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a>
+<a href="https://msdn.microsoft.com/3ff1a2a8-accb-43d7-ba38-a89a5d099dc5">Merge</a>
 </td>
 <td align="left" width="63%">
 Merges the current module into the current database.

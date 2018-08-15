@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IWICEnumMetadataItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/08477910-027e-497d-a3e7-16e92f1a53e9">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the current <b>IWICEnumMetadataItem</b>.
@@ -80,7 +81,7 @@ Creates a copy of the current <b>IWICEnumMetadataItem</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/e502f42e-573c-416b-9282-dd50827ef132">Next</a>
 </td>
 <td align="left" width="63%">
 Advanced the current position in the enumeration.
@@ -89,7 +90,7 @@ Advanced the current position in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/d462445a-efe7-4d79-a712-b8c7dd9ac7c1">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current position to the beginning of the enumeration.
@@ -98,7 +99,7 @@ Resets the current position to the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/05c1c69c-ad87-42ff-947d-1f39a70605f3">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips to given number of objects.

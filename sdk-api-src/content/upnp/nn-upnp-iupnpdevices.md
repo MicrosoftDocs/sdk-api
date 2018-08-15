@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -89,7 +90,7 @@ N/A
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/b4f2678d-8b3a-4208-b108-5474f3e54cb4">_NewEnum</a>
 
 
 </td>
@@ -101,7 +102,7 @@ Enumerator interface for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/1a3e3b65-b147-41e7-a5df-7424613b50f6">Count</a>
 
 
 </td>
@@ -113,7 +114,7 @@ Number of devices in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/38648c9c-6d5a-4215-9270-fd1f893fa360">Item</a>
 
 
 </td>

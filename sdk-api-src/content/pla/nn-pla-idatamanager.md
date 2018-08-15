@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -83,7 +84,7 @@ Extracts the specified CAB file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/a1016784-8841-485f-885e-3719bdb0ae05">Run</a>
 </td>
 <td align="left" width="63%">
 Manually runs the data manager.
@@ -112,7 +113,7 @@ Retrieves or sets a value that indicates whether the data manager should check i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/3048a4b6-3e18-4585-bf5e-d91a4c0adcfc">Enabled</a>
 
 
 </td>

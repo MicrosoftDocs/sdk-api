@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -109,7 +110,7 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="mstv.msvidwebdvd_constants">MSVidWebDVD Constants</a>
+<a href="https://msdn.microsoft.com/library/Dd695183(v=VS.85).aspx">MSVidWebDVD Constants</a>
 
 
 

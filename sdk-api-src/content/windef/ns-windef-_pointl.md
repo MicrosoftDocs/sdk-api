@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ Specifies the <i>y</i>-coordinate of the point.
 
 
 
-The POINTL structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure.
+The POINTL structure is identical to the <a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a> structure.
 
 
 
@@ -83,11 +84,11 @@ The POINTL structure is identical to the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>
+<a href="https://msdn.microsoft.com/56d642a0-5281-44aa-af1e-61e1e83186af">POINTS</a>
  
 
  

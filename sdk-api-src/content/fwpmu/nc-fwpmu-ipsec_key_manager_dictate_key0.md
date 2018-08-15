@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -74,6 +75,13 @@ The <b>IPSEC_KEY_MANAGER_DICTATE_KEY0</b> function is used by the Trusted Interm
 
 
 
+#### - generateRandomKey [out]
+
+Type: <b>BOOL*</b>
+
+True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
+
+
 #### - inboundSa [in, out]
 
 Type: <b><a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a>*</b>
@@ -86,13 +94,6 @@ Information about the inbound SA.
 Type: <b><a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the outbound SA.
-
-
-#### - generateRandomKey [out]
-
-Type: <b>BOOL*</b>
-
-True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
 
 
 ## -returns

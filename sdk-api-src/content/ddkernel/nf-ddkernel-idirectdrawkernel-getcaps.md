@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddkernel.h
 req.include-header: Ddraw.h, Ddkernel.h, Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ The <b>IDirectDrawKernel::GetCaps</b> method returns the capabilities of this ke
 
 #### - lpCaps
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549593">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/d02d26f5-34cf-4a3c-b67c-0f9191bb854b">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
 
 
 ## -returns

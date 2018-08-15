@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypesbase.h
 req.include-header: WTypes.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -128,7 +129,7 @@ The strings are Unicode strings.
 
 
 
-COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="https://msdn.microsoft.com/library/windows/hardware/mt595945">Cryptography</a> (CryptoAPI). 
+COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="https://msdn.microsoft.com/c53af815-ee3f-417a-8e62-3a3689715bc6">Cryptography</a> (CryptoAPI). 
 
 
 This structure is equivalenet to the <a href="https://msdn.microsoft.com/a9c9471b-2134-4173-af86-18b277627d2a">SEC_WINNT_AUTH_IDENTITY</a> structure.

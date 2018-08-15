@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ The <b>SetupDiGetClassImageListEx</b> function builds an image list of bitmaps f
 
 ### -param ClassImageListData [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552339">SP_CLASSIMAGELIST_DATA</a> structure to receive information regarding the class image list, including a handle to the image list. The <b>cbSize</b> field of this structure must be initialized with the size of the structure, in bytes, before calling this function or it will fail.
+A pointer to an <a href="https://msdn.microsoft.com/89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab">SP_CLASSIMAGELIST_DATA</a> structure to receive information regarding the class image list, including a handle to the image list. The <b>cbSize</b> field of this structure must be initialized with the size of the structure, in bytes, before calling this function or it will fail.
 
 
 ### -param MachineName [in, optional]
@@ -88,7 +89,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-The image list built by this function should be destroyed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550995">SetupDiDestroyClassImageList</a>.
+The image list built by this function should be destroyed by calling <a href="https://msdn.microsoft.com/47ccc16c-b061-489b-b534-5b5929c5d010">SetupDiDestroyClassImageList</a>.
 
 <div class="alert"><b>Note</b>    Class-specific icons on a remote computer can only be displayed if the class is also present on the local computer. Thus, if the remote computer has class <i>X</i>, but class <i>X</i> is not installed locally, then the generic (unknown) icon will be returned.</div>
 <div> </div>
@@ -100,11 +101,11 @@ The image list built by this function should be destroyed by calling <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550995">SetupDiDestroyClassImageList</a>
+<a href="https://msdn.microsoft.com/47ccc16c-b061-489b-b534-5b5929c5d010">SetupDiDestroyClassImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551080">SetupDiGetClassImageList</a>
+<a href="https://msdn.microsoft.com/d6b84403-9284-4fba-a419-a013cf68ea1e">SetupDiGetClassImageList</a>
  
 
  

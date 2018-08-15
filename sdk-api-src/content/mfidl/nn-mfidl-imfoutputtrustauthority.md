@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Retrieves the action that is performed by this OTA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451328">SetPolicy</a>
+<a href="https://msdn.microsoft.com/f5102ef3-472f-4a38-889c-e1c25dd46765">SetPolicy</a>
 </td>
 <td align="left" width="63%">
 Sets one or more policy objects on the OTA.

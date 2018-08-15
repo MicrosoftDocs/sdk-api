@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -125,11 +126,11 @@ The return value is a BOOL value that indicates success or failure of the operat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187879">IOCTL_GENERICUSBFN_TRANSFER_IN</a>
+<a href="https://msdn.microsoft.com/70F78F02-6413-445F-9B5A-F70ADA741889">IOCTL_GENERICUSBFN_TRANSFER_IN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187881">IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT</a>
+<a href="https://msdn.microsoft.com/9EA139CD-2B00-4B03-AB0D-AE8FB66B687B">IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT</a>
  
 
  

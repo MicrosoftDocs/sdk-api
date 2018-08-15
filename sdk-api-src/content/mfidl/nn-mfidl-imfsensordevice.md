@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -101,7 +102,7 @@ Gets a value that specifies the type of sensor device represented by the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/802649EE-7A24-429A-92DB-775A215BCD79">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags set for the sensor device. This method is reserved for future use.

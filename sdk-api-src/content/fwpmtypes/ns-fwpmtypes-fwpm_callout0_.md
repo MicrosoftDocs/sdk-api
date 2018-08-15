@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -64,12 +65,12 @@ The <b>FWPM_CALLOUT0</b> structure stores the state associated with a callout.
 Uniquely identifies the session. 
 
 If the GUID is initialized to zero in the
-   call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a>, the base filtering engine (BFE) will generate one.
+   call to <a href="https://msdn.microsoft.com/e4f79262-6345-49e9-a50c-9f8a82f2df0e">FwpmCalloutAdd0</a>, the base filtering engine (BFE) will generate one.
 
 
 ### -field displayData
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff550081">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
+A <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
 
 
 ### -field flags
@@ -121,12 +122,12 @@ Uniquely identifies the provider associated with the callout. If the member is n
 
 ### -field providerData
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
+A <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
 
 
 ### -field applicableLayer
 
-Specifies the layer in which the callout can be used. Only filters in this layer can invoke the callout. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549947">Filtering Layer Identifiers</a>.
+Specifies the layer in which the callout can be used. Only filters in this layer can invoke the callout. For more information, see <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">Filtering Layer Identifiers</a>.
 
 
 ### -field calloutId

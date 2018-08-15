@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -62,7 +63,7 @@ Snap-ins written for MMC 2.0 and later should implement
 
 Additionally, the 
 <a href="https://msdn.microsoft.com/42c43111-7d65-4cfc-bb14-6a5d06f694e7">IComponent2::QueryDispatch</a> method provides an IDispatch interface to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a> object for use with the 
+<a href="https://msdn.microsoft.com/004043d1-c7c3-4385-a4f5-a7fbf616d05c">View</a> object for use with the 
 <a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a>.
 
 
@@ -138,7 +139,7 @@ Informs MMC of the result view type and supports precise view restoration. Super
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides an entry point to the console.

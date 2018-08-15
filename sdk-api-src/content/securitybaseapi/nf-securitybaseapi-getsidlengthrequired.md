@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,14 +70,14 @@ The <b>GetSidLengthRequired</b> function returns the length, in bytes, of the bu
 ### -param nSubAuthorityCount [in]
 
 Specifies the number of subauthorities to be stored in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure.
 
 
 ## -returns
 
 
 
-The return value is the length, in bytes, of the buffer required to store the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure. This function cannot fail.
+The return value is the length, in bytes, of the buffer required to store the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure. This function cannot fail.
 
 
 
@@ -85,7 +86,7 @@ The return value is the length, in bytes, of the buffer required to store the <a
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure specified in <i>nSubAuthorityCount</i> uses a 32-bit RID value. For applications that require longer RID values, use 
+The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure specified in <i>nSubAuthorityCount</i> uses a 32-bit RID value. For applications that require longer RID values, use 
 <a href="https://msdn.microsoft.com/00e75bae-fbce-41a3-a0bc-c345c36f2c84">CreateWellKnownSid</a> and related functions.
 
 
@@ -136,7 +137,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

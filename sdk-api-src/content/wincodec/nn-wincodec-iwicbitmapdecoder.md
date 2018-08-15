@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -154,7 +155,7 @@ Retrieves a bitmap thumbnail of the image, if one exists
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/60a7e0b8-202c-4fed-b105-f8c4fa9817a9">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the decoder with the provided stream.
@@ -228,7 +229,7 @@ Codecs written as TIFF container formats that are not register will decode as a 
 
 
 
-<a href="f6a44610-0d30-420e-aaf9-c7f436f3c195">AITCodec Sample CODEC</a>
+<a href="https://msdn.microsoft.com/library/ms771770(v=VS.85).aspx">AITCodec Sample CODEC</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -74,7 +75,7 @@ Must be 0. Reserved for future use.
 
 ### -param DestinationAddressList [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570824">SOCKADDR_IN6</a> structures that contain a list of potential IPv6 destination addresses.
+A pointer to an array of <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN6</a> structures that contain a list of potential IPv6 destination addresses.
         Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. 
 
 
@@ -176,9 +177,9 @@ The <b>CreateSortedAddressPairs</b> function takes a list of source and destinat
 The list of source addresses pointed to by the <i>SourceAddressList</i> is currently reserved for future and must be a <b>NULL</b> pointer. The <i>SourceAddressCount</i> is currently reserved for future and must be zero. The <b>CreateSortedAddressPairs</b> function currently  uses all of the host machine's local addresses for the source address list.
 
 
-The list of destination addresses is pointed to by the <i>DestinationAddressList</i> parameter. The list of destination addresses is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570824">SOCKADDR_IN6</a> structures.  Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="https://msdn.microsoft.com/7ae49081-ffb5-4eee-b488-2541398e7acc">Dual-Stack Sockets</a>. The <i>DestinationAddressCount</i> parameter contains the number of destination addresses pointed to by the <i>DestinationAddressList</i> parameter. The <b>CreateSortedAddressPairs</b> function supports a maximum of 500 destination addresses.
+The list of destination addresses is pointed to by the <i>DestinationAddressList</i> parameter. The list of destination addresses is an array of <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN6</a> structures.  Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="https://msdn.microsoft.com/7ae49081-ffb5-4eee-b488-2541398e7acc">Dual-Stack Sockets</a>. The <i>DestinationAddressCount</i> parameter contains the number of destination addresses pointed to by the <i>DestinationAddressList</i> parameter. The <b>CreateSortedAddressPairs</b> function supports a maximum of 500 destination addresses.
 
-If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddressPairList</i> parameter points to an array of <a href="https://msdn.microsoft.com/0265f8e0-8b35-4d9d-bf22-e98e9ff36a17">SOCKADDR_IN6_PAIR</a> structures that contain the sorted address pairs. When this returned list is no longer required, free the memory used by the list by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550045">FreeMibTable</a> function.
+If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddressPairList</i> parameter points to an array of <a href="https://msdn.microsoft.com/0265f8e0-8b35-4d9d-bf22-e98e9ff36a17">SOCKADDR_IN6_PAIR</a> structures that contain the sorted address pairs. When this returned list is no longer required, free the memory used by the list by calling the <a href="https://msdn.microsoft.com/31c8cdc4-73c7-4e82-8226-c90320046199">FreeMibTable</a> function.
 
 
 
@@ -193,7 +194,7 @@ If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550045">FreeMibTable</a>
+<a href="https://msdn.microsoft.com/31c8cdc4-73c7-4e82-8226-c90320046199">FreeMibTable</a>
 
 
 
@@ -205,7 +206,7 @@ If the <b>CreateSortedAddressPairs</b> function is successful, the <i>SortedAddr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -90,7 +91,7 @@ Executes a verb on the <a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/f2cc671e-3368-4f7d-be94-56eb786ce952">Application</a>
 
 
 </td>
@@ -106,7 +107,7 @@ Not implemented.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/d18fddac-eb51-4031-a572-1bfef2f757a9">Name</a>
 
 
 </td>

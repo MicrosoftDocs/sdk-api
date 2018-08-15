@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -92,6 +93,12 @@ String that contains the object path of the object for which the method is execu
 
 
 
+#### - objWbemNamedvalueSet [optional]
+
+Typically, this is undefined. Otherwise, this is an 
+<a href="https://msdn.microsoft.com/7d1c3a28-d0d3-4108-9628-74ad483e328e">SWbemNamedValueSet</a> object whose elements represent the context information that can be used by the provider that  services the request. A provider that supports or requires such information must document the recognized value names, data type of the value, allowed values, and semantics.
+
+
 #### - objWbemService
 
 Required. An 
@@ -103,12 +110,6 @@ Required. An
 Required. String that contains the class that is being added to the refresher. This class is used as an enumerator of the instances of the class. The 
 <a href="https://msdn.microsoft.com/f076eb01-1e71-487d-a1af-687a052b4d67">Index</a> property of the returned 
 <a href="https://msdn.microsoft.com/6a12c8eb-3ef9-4292-810c-6954294fc8c7">SWbemRefreshableItem</a> represents the index of the enumerator in the refresher collection.
-
-
-#### - objWbemNamedvalueSet [optional]
-
-Typically, this is undefined. Otherwise, this is an 
-<a href="https://msdn.microsoft.com/7d1c3a28-d0d3-4108-9628-74ad483e328e">SWbemNamedValueSet</a> object whose elements represent the context information that can be used by the provider that  services the request. A provider that supports or requires such information must document the recognized value names, data type of the value, allowed values, and semantics.
 
 
 ## -returns

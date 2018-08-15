@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,10 +75,10 @@ The <b>IFaxIncomingJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/56c356cc-2630-40fc-b1fc-2571b2b16d7f">Cancel</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> method cancels the incoming fax job.
+The <a href="https://msdn.microsoft.com/56c356cc-2630-40fc-b1fc-2571b2b16d7f">Cancel</a> method cancels the incoming fax job.
 
 </td>
 </tr>
@@ -122,7 +123,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms687472(v=VS.85
 <a href="https://msdn.microsoft.com/en-us/library/ms684830(v=VS.85).aspx">get_Status</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <b>Status</b> property is a number that indicates the current status of an inbound fax job in the job queue.
+Retrieves the <a href="https://msdn.microsoft.com/fdcb2c7c-f2ca-402d-9a76-b6231142d7f1">Status</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <b>Status</b> property is a number that indicates the current status of an inbound fax job in the job queue.
 
 </td>
 </tr>
@@ -162,7 +163,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684572(v=VS.85).aspx">Ca
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">CSID</a>
+<a href="https://msdn.microsoft.com/b7671766-4abb-460a-9f81-153e7e2dc9c9">CSID</a>
 
 
 </td>
@@ -171,7 +172,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">CSID</a> property is a null-terminated string that contains the CSID for the job.
+The <a href="https://msdn.microsoft.com/b7671766-4abb-460a-9f81-153e7e2dc9c9">CSID</a> property is a null-terminated string that contains the CSID for the job.
 
 </td>
 </tr>
@@ -226,7 +227,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687052(v=VS.85).aspx">Ex
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/9746a21c-9187-4ba7-9124-24ca943798f5">Id</a>
 
 
 </td>
@@ -235,7 +236,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a> property is a null-terminated string that contains a unique ID for the inbound fax job.
+The <a href="https://msdn.microsoft.com/9746a21c-9187-4ba7-9124-24ca943798f5">Id</a> property is a null-terminated string that contains a unique ID for the inbound fax job.
 
 </td>
 </tr>
@@ -274,7 +275,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687436(v=VS.85).aspx">Ro
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a>
+<a href="https://msdn.microsoft.com/d460834f-b38f-43ee-8fa2-21455b08819b">Size</a>
 
 
 </td>
@@ -283,7 +284,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a> property is a value that indicates the size of the TIFF Class F file associated with the inbound fax job.
+The <a href="https://msdn.microsoft.com/d460834f-b38f-43ee-8fa2-21455b08819b">Size</a> property is a value that indicates the size of the TIFF Class F file associated with the inbound fax job.
 
 </td>
 </tr>
@@ -322,7 +323,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686505(v=VS.85).aspx">Tr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">TSID</a>
+<a href="https://msdn.microsoft.com/b7998949-5557-4df8-9fb4-f1170c13d201">TSID</a>
 
 
 </td>
@@ -331,7 +332,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">TSID</a> property is a null-terminated string that contains the TSID associated with the fax inbound job.
+The <a href="https://msdn.microsoft.com/b7998949-5557-4df8-9fb4-f1170c13d201">TSID</a> property is a null-terminated string that contains the TSID associated with the fax inbound job.
 
 </td>
 </tr>

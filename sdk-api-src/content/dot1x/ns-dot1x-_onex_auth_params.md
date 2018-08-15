@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -70,7 +71,7 @@ The 802.1X authentication connection profile. This member contains an embedded <
 
 ### -field authIdentity
 
-The identity used for 802.1X authentication status. This member is a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569844">ONEX_AUTH_IDENTITY</a> enumeration.
+The identity used for 802.1X authentication status. This member is a value from the <a href="https://msdn.microsoft.com/c51ab620-7e44-4798-8206-8ae9bbcd6614">ONEX_AUTH_IDENTITY</a> enumeration.
 
 
 ### -field dwQuarantineState
@@ -174,7 +175,7 @@ For security reasons, the <b>hUserToken</b> and <b>OneXUserProfile</b> members o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569844">ONEX_AUTH_IDENTITY</a>
+<a href="https://msdn.microsoft.com/c51ab620-7e44-4798-8206-8ae9bbcd6614">ONEX_AUTH_IDENTITY</a>
 
 
 

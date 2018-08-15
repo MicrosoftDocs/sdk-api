@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -262,7 +263,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/c1b081df-5cc6-45a2-860b-a214ef06f06a">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.
@@ -498,7 +499,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/c1b081df-5cc6-45a2-860b-a214ef06f06a">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.

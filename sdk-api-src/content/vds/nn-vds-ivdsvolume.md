@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -110,7 +111,7 @@ Deletes all plexes in the current volume, releasing the extents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922720">Extend</a>
+<a href="https://msdn.microsoft.com/8f31dd3e-0c06-49fe-8ff2-55cfabe5099e">Extend</a>
 </td>
 <td align="left" width="63%">
 Expands the size of the current volume by adding disk extents to the members of each plex.
@@ -128,7 +129,7 @@ Returns the pack to which the volume is a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/ba4a92c9-35f1-463a-8fa3-1a0d78720555">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property information of the current volume.
@@ -155,7 +156,7 @@ Removes one or more specified plexes from the current volume, releasing the exte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/f426b089-6c5f-4ab4-aa92-127e24cb57b1">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the volume flags.

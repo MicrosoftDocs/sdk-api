@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -53,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 Receives notifications about channel state changes or data received. This interface is implemented by the user. Each instance of this interface is associated with one instance of <a href="https://msdn.microsoft.com/8a5b093f-5756-400f-9442-b95d6010ee46">IWTSVirtualChannel</a>.
 
-Implementation of this interface should not block these calls, because this may suppress other callbacks. It is not guaranteed that these calls will always arrive on the same thread, even for in-process COM implementation of the plug-in. Calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> methods of <a href="https://msdn.microsoft.com/8a5b093f-5756-400f-9442-b95d6010ee46">IWTSVirtualChannel</a> are permitted within these callbacks.
+Implementation of this interface should not block these calls, because this may suppress other callbacks. It is not guaranteed that these calls will always arrive on the same thread, even for in-process COM implementation of the plug-in. Calls to the <a href="https://msdn.microsoft.com/fef7067c-6d81-42b7-8534-191bc98906d4">Write</a> and <a href="https://msdn.microsoft.com/b900789d-c7da-4974-8c46-72ea8ffd6892">Close</a> methods of <a href="https://msdn.microsoft.com/8a5b093f-5756-400f-9442-b95d6010ee46">IWTSVirtualChannel</a> are permitted within these callbacks.
 
 
 ## -inheritance

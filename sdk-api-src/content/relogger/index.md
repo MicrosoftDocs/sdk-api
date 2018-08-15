@@ -2,7 +2,7 @@
 UID: NA:relogger
 ms.assetid: 1eef453f-1303-3d70-840f-ee4f0039c030
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

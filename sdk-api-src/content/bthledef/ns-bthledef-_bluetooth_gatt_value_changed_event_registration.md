@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Array of characteristics to monitor for incoming events.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450840">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
  
 
  

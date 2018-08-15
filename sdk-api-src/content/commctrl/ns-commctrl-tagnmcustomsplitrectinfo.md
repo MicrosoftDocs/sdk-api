@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -67,30 +68,30 @@ An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMH
 
 ### -field rcClient
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the client area the button occupies.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the client area the button occupies.
 
 
 ### -field rcButton
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the rectangle that does not contain the drop-down arrow.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the rectangle that does not contain the drop-down arrow.
 
 
 ### -field rcSplit
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the rectangle that contains the drop-down arrow.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the rectangle that contains the drop-down arrow.
 
 
 ## -remarks
 
 
 
-This information is used to draw the button. The button must be of style <a href="Button_Styles.htm">BS_SPLITBUTTON</a> or <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a>
+This information is used to draw the button. The button must be of style <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_DEFSPLITBUTTON</a>
 
 
 

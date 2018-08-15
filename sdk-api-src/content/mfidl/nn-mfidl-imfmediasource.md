@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -92,7 +93,7 @@ Retrieves the characteristics of the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/113b3dc7-918e-427e-aa70-cf474b951c6d">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all active streams in the media source.
@@ -110,7 +111,7 @@ Remotable version of <a href="https://msdn.microsoft.com/b6ac50b7-3ef1-43cf-8126
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the media source and releases the resources it is using.
@@ -119,7 +120,7 @@ Shuts down the media source and releases the resources it is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/0a5abafe-1525-4bda-946c-05a6145e57ee">Start</a>
 </td>
 <td align="left" width="63%">
 Starts, seeks, or restarts the media source by specifying where to start playback.
@@ -128,7 +129,7 @@ Starts, seeks, or restarts the media source by specifying where to start playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/aa7af7a0-a6c2-4c9e-9f98-d36716679297">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops all active streams in the media source.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ Adds a media item to the end of the playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">clear</a>
+<a href="https://msdn.microsoft.com/3de2410d-e35a-4f27-bdcf-2a6d85eafe9d">clear</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -206,7 +207,7 @@ Specifies the value of an attribute of the current playlist.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
  
 
  

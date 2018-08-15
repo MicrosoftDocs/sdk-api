@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,14 +95,14 @@ Value of type <b>int</b> that specifies the state of the part that contains the 
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the content background rectangle, in logical coordinates. This rectangle is returned from <a href="https://msdn.microsoft.com/en-us/library/Bb773375(v=VS.85).aspx">GetThemeBackgroundContentRect</a>.
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the content background rectangle, in logical coordinates. This rectangle is returned from <a href="https://msdn.microsoft.com/en-us/library/Bb773375(v=VS.85).aspx">GetThemeBackgroundContentRect</a>.
 
 
 ### -param pExtentRect [out]
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that receives the background rectangle, in logical coordinates. This rectangle is based on the <i>pContentRect</i>.
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the background rectangle, in logical coordinates. This rectangle is based on the <i>pContentRect</i>.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -82,7 +83,7 @@ Returns the text for a specific entry in the event log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/10a518a3-9097-4efd-90cc-14ea66b70fa2">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the RSoP user interface session.

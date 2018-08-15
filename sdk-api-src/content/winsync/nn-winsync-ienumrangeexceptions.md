@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEnumRangeExceptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/b9ba5d49-754f-4eb0-972b-67e9a6a41994">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -82,7 +83,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/0ca472d7-4e97-4998-b883-05329dfdb27a">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next elements in the range exception set, if they are available.
@@ -92,7 +93,7 @@ Returns the next elements in the range exception set, if they are available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/d4056703-8218-4b0b-9ed6-4c1584f0b751">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the range exception set.
@@ -102,7 +103,7 @@ Resets the enumerator to the beginning of the range exception set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/61907858-4089-4c12-865c-623a43132be3">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of range exceptions.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,16 +81,16 @@ Entry to look up.
 
 
 
-#### - lpvKeyBuf [out]
-
-Buffer to return entry.
-
-
-
-
 #### - cbKeyBuf [in]
 
 Buffer size in number of bytes.
+
+
+
+
+#### - lpvKeyBuf [out]
+
+Buffer to return entry.
 
 
 

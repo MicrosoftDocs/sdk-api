@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -89,7 +90,7 @@ The high-order word of the <i>lParam </i> parameter for <b>uMsg</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a>
+<a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a>
 
 
 

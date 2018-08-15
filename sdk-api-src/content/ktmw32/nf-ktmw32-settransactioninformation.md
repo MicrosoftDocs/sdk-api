@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -74,14 +75,14 @@ TBD
 The user-defined description of this transaction.
 
 
-#### - IsolationLevel [in, optional]
-
-Reserved; specify zero.
-
-
 #### - IsolationFlags [in, optional]
 
 Reserved.
+
+
+#### - IsolationLevel [in, optional]
+
+Reserved; specify zero.
 
 
 #### - Timeout [in, optional]

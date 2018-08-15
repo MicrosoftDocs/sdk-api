@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://msdn.microsoft.com/4e93612c-9e28-4d51-a640-e8e9b5ed8e7a">IDirectDraw7::GetCaps</a> method.
+The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://msdn.microsoft.com/4e93612c-9e28-4d51-a640-e8e9b5ed8e7a">IDirectDraw7::GetCaps</a> method.
 
 
 
@@ -966,7 +967,7 @@ Raster operations supported.
 
 ### -field ddsCaps
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure that contains general surface capabilities.
+A <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that contains general surface capabilities.
 
 
 ### -field dwMinOverlayStretch
@@ -1094,12 +1095,7 @@ Raster operations supported for bitblts from system memory to system memory.
 
 #### - ddsOldCaps
 
-Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure).
-
-
-#### - dwMaxVideoPorts
-
-Maximum number of live video ports.
+Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure).
 
 
 #### - dwCurrVideoPorts
@@ -1107,9 +1103,14 @@ Maximum number of live video ports.
 Current number of live video ports.
 
 
-#### - dwSVBCaps2
+#### - dwMaxVideoPorts
 
-More driver-specific capabilities for bitblts from system memory to video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps2</b> member.
+Maximum number of live video ports.
+
+
+#### - dwNLVBCKeyCaps
+
+Driver color-key capabilities for bitblts form nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCKeyCaps</b> member.
 
 
 #### - dwNLVBCaps
@@ -1122,11 +1123,6 @@ Driver-specific capabilities for bitblts from nonlocal to local video memory. Va
 More driver-specific capabilities for bitblts from nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps2</b> member.
 
 
-#### - dwNLVBCKeyCaps
-
-Driver color-key capabilities for bitblts form nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCKeyCaps</b> member.
-
-
 #### - dwNLVBFXCaps
 
 Driver FX capabilities for bitblts from nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwFXCaps</b> member.
@@ -1135,6 +1131,11 @@ Driver FX capabilities for bitblts from nonlocal to local video memory. Valid fl
 #### - dwNLVBRops
 
 Raster operations supported for bitblts from nonlocal to local video memory.
+
+
+#### - dwSVBCaps2
+
+More driver-specific capabilities for bitblts from system memory to video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps2</b> member.
 
 
 ## -remarks

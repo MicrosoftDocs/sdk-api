@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cmnquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -90,7 +91,7 @@ Contains the identifier of the dialog resource in <b>hInstance</b>  used for the
 
 ### -field pDlgProc
 
-Pointer to the dialog box procedure. For more information, see <a href="_win32_dialogproc_cpp">DialogProc</a>.
+Pointer to the dialog box procedure. For more information, see <a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>.
 
 
 ### -field lParam
@@ -111,7 +112,7 @@ An extension-defined 32-bit value passed in the <b>lParam</b> member of the <b>C
 
 
 
-<a href="_win32_dialogproc_cpp">DialogProc</a>
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>
 
 
 

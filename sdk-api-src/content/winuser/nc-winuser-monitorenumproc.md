@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,6 +80,11 @@ A value of type <b>MONITORENUMPROC</b> is a pointer to a <b>MonitorEnumProc</b> 
 
 
 
+#### - dwData [in]
+
+Application-defined data that <a href="https://msdn.microsoft.com/a7668c28-77c9-4373-ae1a-eab3cb98f866">EnumDisplayMonitors</a> passes directly to the enumeration function.
+
+
 #### - hMonitor [in]
 
 A handle to the display monitor. This value will always be non-<b>NULL</b>.
@@ -95,16 +101,11 @@ This value is <b>NULL</b> if the <i>hdc</i> parameter of <a href="https://msdn.m
 
 #### - lprcMonitor [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure.
 
 If <i>hdcMonitor</i> is non-<b>NULL</b>, this rectangle is the intersection of the clipping area of the device context identified by <i>hdcMonitor</i> and the display monitor rectangle. The rectangle coordinates are device-context coordinates.
 
 If <i>hdcMonitor</i> is <b>NULL</b>, this rectangle is the display monitor rectangle. The rectangle coordinates are virtual-screen coordinates.
-
-
-#### - dwData [in]
-
-Application-defined data that <a href="https://msdn.microsoft.com/a7668c28-77c9-4373-ae1a-eab3cb98f866">EnumDisplayMonitors</a> passes directly to the enumeration function.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ Reference time, in 100-nanosecond units.
 ### -field timecode
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568520">TIMECODE</a> structure.
+<a href="https://msdn.microsoft.com/e3d06e0c-a595-4bc3-be62-168bd5122397">TIMECODE</a> structure.
 
 
 ### -field dwUser

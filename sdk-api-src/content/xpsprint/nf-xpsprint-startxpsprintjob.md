@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: xpsprint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -292,7 +293,7 @@ If a call to <b>StartXpsPrintJob</b> fails,  the job status will be updated, the
 
 <b>StartXpsPrintJob</b> calls <b>DuplicateHandle</b> on <i>completionEvent</i> and <i>progressEvent</i> to ensure that they remain valid for the lifetime of the job.  Because the print spooler is using a duplicate handle for the events,  it is possible for the caller to close these handles at any point without affecting job execution.  The recommended procedure, however,  is for the caller to close these handles only after the <i>completionEvent</i> event has been signaled and observed by the caller.
 
-The <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IXpsPrintJobStream</a> interfaces that are returned in <i>documentStream</i>  and <i>printTicketStream</i> are write-only streams that do not permit seeking but that can be closed. The caller writes the  XPS document and print ticket content into these streams, and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> after all data has been written.  Calls to the streams' <b>Write</b>   method    are thread-safe; however, if such calls  are made from different threads, they are not guaranteed to be committed to the stream in the expected order.
+The <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IXpsPrintJobStream</a> interfaces that are returned in <i>documentStream</i>  and <i>printTicketStream</i> are write-only streams that do not permit seeking but that can be closed. The caller writes the  XPS document and print ticket content into these streams, and then calls <a href="https://msdn.microsoft.com/259d0224-4e6e-43c8-905d-3529c781986a">Close</a> after all data has been written.  Calls to the streams' <b>Write</b>   method    are thread-safe; however, if such calls  are made from different threads, they are not guaranteed to be committed to the stream in the expected order.
 
 <div class="alert"><b>Note</b>   When printing to a file, the application is responsible for providing the value that will be passed in the <i>outputFileName</i> parameter for print-to-file operations.  To print to a printer which uses a  driver that outputs to the FILE: port, the caller must retrieve the file name from the user by displaying the common file dialog.
 </div>
@@ -305,7 +306,7 @@ The <a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IX
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541159">Documents</a>
+<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
 
 
 

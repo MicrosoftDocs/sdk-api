@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -104,7 +105,7 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552601">DISK_DETECTION_INFO</a>
+<a href="https://msdn.microsoft.com/57ca68f4-f748-4bc4-90c3-13d545716d87">DISK_DETECTION_INFO</a>
  
 
  

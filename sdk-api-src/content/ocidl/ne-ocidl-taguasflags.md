@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ Provides information about the parent undo unit.
 
 ### -field UAS_NORMAL
 
-The currently open parent undo unit is in a normal, unblocked state and can accept any new units added through calls to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> methods.
+The currently open parent undo unit is in a normal, unblocked state and can accept any new units added through calls to its <a href="https://msdn.microsoft.com/185eae3b-5323-45f1-9810-47bd21ce0d22">Open</a> or <a href="https://msdn.microsoft.com/86db3308-6f01-47f1-ba28-3ed5e70b7cb9">Add</a> methods.
 
 
 ### -field UAS_BLOCKED

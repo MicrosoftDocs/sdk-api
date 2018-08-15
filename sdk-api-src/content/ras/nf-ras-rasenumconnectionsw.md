@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -83,6 +84,12 @@ On input, an application must set the <b>dwSize</b> member of the first
 <a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
 
 
+#### - lpcConnections [out]
+
+Pointer to a variable that receives the number of 
+<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
+
+
 #### - lpcb [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasconn</i>. 
@@ -97,12 +104,6 @@ On output, the function sets this variable to the number of bytes required to en
 
 </div>
 <div> </div>
-
-#### - lpcConnections [out]
-
-Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/234834e2-f539-42de-add7-63e93086de17">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
-
 
 ## -returns
 

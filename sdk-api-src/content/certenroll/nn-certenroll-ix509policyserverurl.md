@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -80,7 +81,7 @@ Retrieves the CEP server ID or the display name of the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/693c3a29-0d12-4603-a06a-4277db3b8b8b">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509PolicyServerUrl</b> object for a computer or user context.
@@ -157,7 +158,7 @@ Specifies and retrieves an arbitrary  cost for contacting the CEP server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637446">Default</a>
+<a href="https://msdn.microsoft.com/957ccbbb-5bd1-4aa8-bf3e-09dd078f1593">Default</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -68,7 +69,7 @@ A handle  to the resource manager.
 ### -param TransactionNotification [out]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a> structure that 
+      <a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f20552b1d">TRANSACTION_NOTIFICATION</a> structure that 
       receives the first available notification.
 
 
@@ -115,7 +116,7 @@ All resource managers must register to receive <b>TRANSACTION_NOTIFY_PREPREPARE<
      read-only. Resource managers can support <b>TRANSACTION_NOTIFY_SINGLE_PHASE_COMMIT</b>, but 
      they must also support the multi-phase pre-prepare, prepare, and commit notifications. For the list of all 
      notifications that resource managers can receive, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>.
+     <a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f20552b1d">TRANSACTION_NOTIFICATION</a>.
 
 Resource managers (RM) may want to call this function more than once to provide multiple buffers for KTM to 
     use when delivering notifications. The number of calls to this function depends on how much load your RM is 
@@ -149,11 +150,11 @@ This function must be called after the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f20552b1d">TRANSACTION_NOTIFICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564820">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="https://msdn.microsoft.com/29a32b89-22d1-4d26-8927-a2051dd5d37a">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

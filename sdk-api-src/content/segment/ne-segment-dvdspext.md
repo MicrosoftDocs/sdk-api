@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -133,7 +134,7 @@ Director's comments for children.
 
 
 
-<a href="mstv.msvidwebdvd_defaultsubpicturelanguageext_property">DefaultSubpictureLanguageExt</a>
+<a href="https://msdn.microsoft.com/library/Dd695197(v=VS.85).aspx">DefaultSubpictureLanguageExt</a>
 
 
 

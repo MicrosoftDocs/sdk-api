@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -131,7 +132,7 @@ Miniclass drivers that supply a fully functional <i>BatteryMiniDisableStatusNoti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536269">BatteryClassStatusNotify</a>
+<a href="https://msdn.microsoft.com/b74466e0-d900-49c6-a92e-d10a994fa948">BatteryClassStatusNotify</a>
 
 
 

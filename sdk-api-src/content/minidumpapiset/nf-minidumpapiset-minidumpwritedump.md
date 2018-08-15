@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
+req.redist: DbgHelp.dll and Dbgcore.dll
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

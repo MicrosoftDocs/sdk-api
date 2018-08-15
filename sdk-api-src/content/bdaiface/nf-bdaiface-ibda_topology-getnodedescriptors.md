@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ Specifies the maximum number of node descriptors that the <i>rgNodeDescriptors</
 
 ### -param rgNodeDescriptors [in, out]
 
-Pointer to a buffer that receives an array of node descriptors. Each node descriptor is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556477">BDANODE_DESCRIPTOR</a>.
+Pointer to a buffer that receives an array of node descriptors. Each node descriptor is a structure of type <a href="https://msdn.microsoft.com/6ab03494-6564-4d4d-83bf-a9a6e588aac3">BDANODE_DESCRIPTOR</a>.
 
 
 ## -returns

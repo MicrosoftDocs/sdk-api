@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -86,7 +87,7 @@ The neighbor is no longer known to be reachable, and traffic has recently been s
      time to give upper layer protocols an opportunity to provide reachability confirmation. For IPv6, more
      time has elapsed than is specified in the 
      <b>ReachabilityTime.ReachableTime</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559263">MIB_IPNET_ROW2</a> structure since the last
+     <a href="https://msdn.microsoft.com/aea34060-051c-47dd-a81f-193aacdebad7">MIB_IPNET_ROW2</a> structure since the last
      positive confirmation was received that the forward path was functioning properly and a packet was sent.
      If no reachability confirmation is received within a period of time (used to delay the first probe) of
      entering the <b>NlnsDelay</b> state, a IPv6 Neighbor Solicitation (NS) message is sent, and the 
@@ -99,7 +100,7 @@ The neighbor is no longer known to be reachable, but until traffic is sent to th
      attempt should be made to verify its reachability. For IPv6, more time has elapsed than is specified in
      the 
      <b>ReachabilityTime.ReachableTime</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559263">MIB_IPNET_ROW2</a> structure since the last
+     <a href="https://msdn.microsoft.com/aea34060-051c-47dd-a81f-193aacdebad7">MIB_IPNET_ROW2</a> structure since the last
      positive confirmation was received that the forward path was functioning properly. While the 
      <b>State</b> member of MIB_IPNET_ROW2 is NlnsStale, no action occurs until a packet is sent. The
      <b>NlnsStale</b> state is entered upon receiving an unsolicited neighbor discovery message that updates the
@@ -113,7 +114,7 @@ The neighbor is no longer known to be reachable, but until traffic is sent to th
 The neighbor is known to have been reachable recently (within tens of seconds ago). For IPv6, a
      positive confirmation was received within the time that is specified in the 
      <b>ReachabilityTime.ReachableTime</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559263">MIB_IPNET_ROW2</a> structure that the forward
+     <a href="https://msdn.microsoft.com/aea34060-051c-47dd-a81f-193aacdebad7">MIB_IPNET_ROW2</a> structure that the forward
      path to the neighbor was functioning properly. While the 
      <b>State</b> member of MIB_IPNET_ROW2 is NlnsReachable, no special action occurs as packets are
      sent.
@@ -145,7 +146,7 @@ For more information about RFC 2461, section 7.3.2, see the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559263">MIB_IPNET_ROW2</a>
+<a href="https://msdn.microsoft.com/aea34060-051c-47dd-a81f-193aacdebad7">MIB_IPNET_ROW2</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -56,7 +57,7 @@ req.product: Windows Address Book 5.0
 
 
 Configures a communications device according to the specifications in a device-control block (a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.
 
 
 ## -parameters
@@ -73,7 +74,7 @@ A handle to the communications device. The
 ### -param lpDCB [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure that contains the configuration information for the specified communications device.
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure that contains the configuration information for the specified communications device.
 
 
 ## -returns
@@ -94,22 +95,22 @@ If the function fails, the return value is zero. To get extended error informati
 
 The 
 <b>SetCommState</b> function uses a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure to specify the desired configuration. The 
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure to specify the desired configuration. The 
 <a href="https://msdn.microsoft.com/974c2ddc-9f7f-445e-ac47-8cd86817ce9b">GetCommState</a> function returns the current configuration.
 
 To set only a few members of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure, you should modify a 
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure, you should modify a 
 <b>DCB</b> structure that has been filled in by a call to 
 <a href="https://msdn.microsoft.com/974c2ddc-9f7f-445e-ac47-8cd86817ce9b">GetCommState</a>. This ensures that the other members of the 
 <b>DCB</b> structure have appropriate values.
 
 The 
 <b>SetCommState</b> function fails if the <b>XonChar</b> member of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure is equal to the <b>XoffChar</b> member.
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure is equal to the <b>XoffChar</b> member.
 
 When 
 <b>SetCommState</b> is used to configure the 8250, the following restrictions apply to the values for the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure's <b>ByteSize</b> and <b>StopBits</b> members:
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure's <b>ByteSize</b> and <b>StopBits</b> members:
 
 The number of data bits must be 5 to 8 bits.
 
@@ -144,7 +145,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a>
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
 
 
 

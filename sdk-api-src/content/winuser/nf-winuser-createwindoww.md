@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -156,7 +157,7 @@ Before returning, <b>CreateWindow</b> sends a <a href="https://msdn.microsoft.co
 
 If the created window is a child window, its default position is at the bottom of the Z-order. If the created window is a top-level window, its default position is at the top of the Z-order (but beneath all topmost windows unless the created window is itself topmost).
 
-For information on controlling whether the Taskbar displays a button for the created window, see <a href="_win32_Taskbar">Managing Taskbar Buttons</a>. 
+For information on controlling whether the Taskbar displays a button for the created window, see <a href="https://msdn.microsoft.com/library/Cc144179(v=VS.85).aspx">Managing Taskbar Buttons</a>. 
 
 For information on removing a window, see the <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function.
 
@@ -172,10 +173,10 @@ The following predefined system classes can be specified in the <i>lpClassName</
 <tr>
 <td><b>BUTTON</b></td>
 <td>
-Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545234">Buttons</a>
+Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="_win32_Buttons">Buttons</a>
 
 
-For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Button_Styles">Button Styles</a>.
+For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>.
 
 </td>
 </tr>
@@ -184,16 +185,16 @@ For a table of the button styles you can specify in the <i>dwStyle</i> parameter
 <td>
 Designates a control consisting of a list box and a selection field similar to an edit control. When using this style, an application should either display the list box at all times or enable a drop-down list box. If the list box is visible, typing characters into the selection field highlights the first list box entry that matches the characters typed. Conversely, selecting an item in the list box displays the selected text in the selection field. 
 
-For more information, see <a href="_win32_Combo_Boxes">Combo Boxes</a>. For a table of the combo box styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Combo_Box_Styles">Combo Box Styles</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb775792(v=VS.85).aspx">Combo Boxes</a>. For a table of the combo box styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">Combo Box Styles</a>.
 
 </td>
 </tr>
 <tr>
 <td><b>EDIT</b></td>
 <td>
-Designates a rectangular child window into which the user can type text from the keyboard. The user selects the control and gives it the keyboard focus by clicking it or moving to it by pressing the TAB key. The user can type text when the edit control displays a flashing caret; use the mouse to move the cursor, select characters to be replaced, or position the cursor for inserting characters; or use the BACKSPACE key to delete characters. For more information, see <a href="_win32_Edit_Controls">Edit Controls</a>.
+Designates a rectangular child window into which the user can type text from the keyboard. The user selects the control and gives it the keyboard focus by clicking it or moving to it by pressing the TAB key. The user can type text when the edit control displays a flashing caret; use the mouse to move the cursor, select characters to be replaced, or position the cursor for inserting characters; or use the BACKSPACE key to delete characters. For more information, see <a href="https://msdn.microsoft.com/library/Bb775458(v=VS.85).aspx">Edit Controls</a>.
 
-For a table of the edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Edit_Control_Styles">Edit Control Styles</a>.
+For a table of the edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb775464(v=VS.85).aspx">Edit Control Styles</a>.
 
 </td>
 </tr>
@@ -202,7 +203,7 @@ For a table of the edit control styles you can specify in the <i>dwStyle</i> par
 <td>
 Designates a list of character strings. Specify this control whenever an application must present a list of names, such as file names, from which the user can choose. The user can select a string by clicking it. A selected string is highlighted, and a notification message is passed to the parent window. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn742407(v=VS.85).aspx">List Boxes</a>.
 
-For a table of the list box styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_List_Box_Styles">List Box Styles</a>.
+For a table of the list box styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb775149(v=VS.85).aspx">List Box Styles</a>.
 
 </td>
 </tr>
@@ -218,36 +219,36 @@ Designates an MDI client window. This window receives messages that control the 
 <tr>
 <td><b>RichEdit</b></td>
 <td>
-Designates a Microsoft Rich Edit 1.0 control. This window lets the user view and edit text with character and paragraph formatting, and can include embedded Component Object Model (COM) objects. For more information, see <a href="_win32_Rich_Edit_Controls">Rich Edit Controls</a>.
+Designates a Microsoft Rich Edit 1.0 control. This window lets the user view and edit text with character and paragraph formatting, and can include embedded Component Object Model (COM) objects. For more information, see <a href="https://msdn.microsoft.com/library/Bb787605(v=VS.85).aspx">Rich Edit Controls</a>.
 
-For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Rich_Edit_Control_Styles">Rich Edit Control Styles</a>.
+For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">Rich Edit Control Styles</a>.
 
 </td>
 </tr>
 <tr>
 <td><b>RICHEDIT_CLASS</b></td>
 <td>
-Designates a Microsoft Rich Edit 2.0 control. This controls let the user view and edit text with character and paragraph formatting, and can include embedded COM objects. For more information, see <a href="_win32_Rich_Edit_Controls">Rich Edit Controls</a>.
+Designates a Microsoft Rich Edit 2.0 control. This controls let the user view and edit text with character and paragraph formatting, and can include embedded COM objects. For more information, see <a href="https://msdn.microsoft.com/library/Bb787605(v=VS.85).aspx">Rich Edit Controls</a>.
 
-For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Rich_Edit_Control_Styles">Rich Edit Control Styles</a>.
+For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">Rich Edit Control Styles</a>.
 
 </td>
 </tr>
 <tr>
 <td><b>SCROLLBAR</b></td>
 <td>
-Designates a rectangle that contains a scroll box and has direction arrows at both ends. The scroll bar sends a notification message to its parent window whenever the user clicks the control. The parent window is responsible for updating the position of the scroll box, if necessary. For more information, see <a href="_win32_Scroll_Bars">Scroll Bars</a>.
+Designates a rectangle that contains a scroll box and has direction arrows at both ends. The scroll bar sends a notification message to its parent window whenever the user clicks the control. The parent window is responsible for updating the position of the scroll box, if necessary. For more information, see <a href="https://msdn.microsoft.com/library/Bb787529(v=VS.85).aspx">Scroll Bars</a>.
 
-For a table of the scroll bar control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Scroll_Bar_Control_Styles">Scroll Bar Control Styles</a>.
+For a table of the scroll bar control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb787533(v=VS.85).aspx">Scroll Bar Control Styles</a>.
 
 </td>
 </tr>
 <tr>
 <td><b>STATIC</b></td>
 <td>
-Designates a simple text field, box, or rectangle used to label, box, or separate other controls. Static controls take no input and provide no output. For more information, see <a href="_win32_Static_Controls">Static Controls</a>.
+Designates a simple text field, box, or rectangle used to label, box, or separate other controls. Static controls take no input and provide no output. For more information, see <a href="https://msdn.microsoft.com/library/Bb760769(v=VS.85).aspx">Static Controls</a>.
 
-For a table of the static control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Static_Control_Styles">Static Control Styles</a>.
+For a table of the static control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb760773(v=VS.85).aspx">Static Control Styles</a>.
 
 </td>
 </tr>
@@ -345,7 +346,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633575(v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

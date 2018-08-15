@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -107,7 +108,7 @@ Finishes all active storyboards within the specified time interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/838140c3-12ca-4909-a0f8-713b5472e5a9">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the animation manager.
@@ -134,7 +135,7 @@ Gets the animation variable with the specified tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/52b11e79-9930-4fd8-84b4-152917090519">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all animations.
@@ -224,7 +225,7 @@ Sets a priority comparison handler for trimming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/3bcce52c-d29a-423c-ae76-eb88cbe8c8df">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the animation manager and all its associated objects.
@@ -233,7 +234,7 @@ Shuts down the animation manager and all its associated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/6008fe44-8d86-4a56-a1e2-7bc144b224b2">Update</a>
 </td>
 <td align="left" width="63%">
 Updates the values of all animation variables.

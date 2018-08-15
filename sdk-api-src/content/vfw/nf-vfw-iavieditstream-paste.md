@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -90,14 +91,14 @@ Starting position of the copy operation within the source stream.
 
 
 
-#### - pavi
-
-Pointer to the interface to the stream to receive the pasted data.
-
-
 #### - lLength
 
 Length, in frames, of the copy operation within the source stream.
+
+
+#### - pavi
+
+Pointer to the interface to the stream to receive the pasted data.
 
 
 ## -returns

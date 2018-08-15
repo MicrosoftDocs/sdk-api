@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -88,7 +89,7 @@ Retrieves the user's SID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597621">GetStringValue</a>
+<a href="https://msdn.microsoft.com/97FFD00F-6141-472c-A60C-A9A282190C9D">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves string properties from the <b>ICredentialProviderUser</b> object based on the input value.
@@ -97,7 +98,7 @@ Retrieves string properties from the <b>ICredentialProviderUser</b> object based
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/CA8CD897-127E-4113-A5A5-08110E0E6C17">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified property value set for the user.

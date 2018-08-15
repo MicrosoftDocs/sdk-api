@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -60,9 +61,9 @@ Contains information about a hit test. This structure is used with the <a href="
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that contains the point to be hit test, in client coordinates. 
+A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the point to be hit test, in client coordinates. 
 
 
 ### -field flags
@@ -185,7 +186,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="Header_Control_Styles.htm">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
 
 </td>
 </tr>
@@ -207,7 +208,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="Header_Control_Styles.htm">HDS_OVERFLOW</a> must be set on the header control.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_OVERFLOW</a> must be set on the header control.
 
 </td>
 </tr>

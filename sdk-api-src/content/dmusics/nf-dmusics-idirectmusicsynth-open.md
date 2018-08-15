@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -121,11 +122,11 @@ The DirectMusic synthesizer "port" can be opened only once. A second attempt to 
 
 However, DirectMusic does support multiple instances of a synthesizer port. It does this by calling <b>CoCreateInstance</b> (described in the Windows SDK documentation) to create multiple <b>IDirectMusicSynth</b> objects.
 
-The port is valid until it is closed by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536531">IDirectMusicSynth::Close</a> method.
+The port is valid until it is closed by the <a href="https://msdn.microsoft.com/275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce">IDirectMusicSynth::Close</a> method.
 
 When opening the port, some of the parameters asked for in DMUS_PORTPARAMS might not be supported or the port might "upgrade" a parameter request (that is, return the maximum number of voices supported instead of just what was asked for). In either of these cases, the Microsoft Software Synthesizer will return S_FALSE and modify DMUS_PORTPARAMS accordingly, to show what is actually supported. Custom synths should emulate this behavior to ensure compatibility with existing code.
 
-Opening a port is not enough to enable the synthesizer. The synthesizer is enabled by opening the port and enabling audio output through <a href="https://msdn.microsoft.com/library/windows/hardware/ff536529">IDirectMusicSynth::Activate</a>.
+Opening a port is not enough to enable the synthesizer. The synthesizer is enabled by opening the port and enabling audio output through <a href="https://msdn.microsoft.com/9efdb079-ed24-43b4-844b-344571399de7">IDirectMusicSynth::Activate</a>.
 
 Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMusic port corresponds to a render or capture pin on a DirectMusic filter. For more information about DirectMusic ports, see the description of the <b>IDirectMusicPort</b> interface in the Windows SDK documentation.
 
@@ -137,27 +138,27 @@ Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMus
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536529">IDirectMusicSynth::Activate</a>
+<a href="https://msdn.microsoft.com/9efdb079-ed24-43b4-844b-344571399de7">IDirectMusicSynth::Activate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536531">IDirectMusicSynth::Close</a>
+<a href="https://msdn.microsoft.com/275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce">IDirectMusicSynth::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536532">IDirectMusicSynth::Download</a>
+<a href="https://msdn.microsoft.com/2f36654c-25bf-47c3-a4d6-990d427bd1fc">IDirectMusicSynth::Download</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536540">IDirectMusicSynth::PlayBuffer</a>
+<a href="https://msdn.microsoft.com/96d0a2ef-1265-4e04-bb70-920f4c82058c">IDirectMusicSynth::PlayBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536546">IDirectMusicSynth::Unload</a>
+<a href="https://msdn.microsoft.com/608ebffe-873a-40ed-a411-245e8b6ceabd">IDirectMusicSynth::Unload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536520">IDirectMusicSynthSink</a>
+<a href="https://msdn.microsoft.com/11944933-cd95-4979-82b2-2c3875b221b3">IDirectMusicSynthSink</a>
  
 
  

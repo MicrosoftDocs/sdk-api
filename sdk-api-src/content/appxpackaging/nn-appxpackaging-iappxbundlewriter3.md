@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -79,7 +80,7 @@ Adds a reference to an optional app package or a payload file within an app bund
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/7AD526CD-9FF2-4A2A-BD12-21A0A9E1BA6E">Close</a>
 </td>
 <td align="left" width="63%">
 Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.

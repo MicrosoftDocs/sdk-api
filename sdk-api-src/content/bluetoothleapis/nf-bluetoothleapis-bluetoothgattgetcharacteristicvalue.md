@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -487,8 +488,8 @@ Profile drivers should pre-allocate  a sufficiently large buffer for the array o
     characteristics to be returned in.  Callers can determine the necessary buffer size by passing a non-<b>NULL</b> value in <i>CharacteristicValueSizeRequired</i> and <b>NULL</b> in <i>CharacteristicValue</i>.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/library/windows/hardware/hh450802">BluetoothGATTGetServices</a> or
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh450800">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706">BluetoothGATTGetServices</a> or
+    <a href="https://msdn.microsoft.com/72F0E995-88B6-42E0-9B69-429566B5605C">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -561,11 +562,11 @@ The parent service must be present in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450840">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450842">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
+<a href="https://msdn.microsoft.com/AF36BC9A-5EB7-4495-870A-40BF5E0A57A3">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
  
 
  

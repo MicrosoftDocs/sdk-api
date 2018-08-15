@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,16 +70,16 @@ The <b>IsValidSid</b> function validates a <a href="https://msdn.microsoft.com/3
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to validate. This parameter cannot be <b>NULL</b>.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to validate. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns
 
 
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure is valid, the return value is nonzero.
+If the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure is valid, the return value is nonzero.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure is not valid, the return value is zero. There is no extended error information for this function; do not call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure is not valid, the return value is zero. There is no extended error information for this function; do not call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 
 
@@ -125,7 +126,7 @@ If <i>pSid</i> is <b>NULL</b>, the application will fail with an access violatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

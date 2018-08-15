@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -92,7 +93,7 @@ Gets the display name of the item that caused the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/df34b3ee-fc78-47ca-8916-ee4a81110628">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object by using the specified display name of the item that caused the error and a description of the error.

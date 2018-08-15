@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -81,7 +82,7 @@ Configures how partitions are used for the enclosed work.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915683">PartitionID</a>
+<a href="https://msdn.microsoft.com/40480925-dfb6-40ea-a8ea-72659e359b47">PartitionID</a>
 </td>
 <td align="left" width="63%">
 Sets the GUID for the partition that is used for the enclosed work.

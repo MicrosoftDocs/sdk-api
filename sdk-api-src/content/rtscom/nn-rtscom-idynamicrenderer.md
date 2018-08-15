@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -177,7 +178,7 @@ Gets or sets the <a href="https://msdn.microsoft.com/d67a85e7-6dfc-4444-bb69-a46
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/b226d146-af96-4a51-aa11-8b2fe057a4b2">Enabled</a>
 
 
 </td>

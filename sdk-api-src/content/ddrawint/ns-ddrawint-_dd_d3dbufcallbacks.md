@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -97,11 +98,11 @@ Points to the driver's <a href="https://msdn.microsoft.com/ab0476f5-64da-415e-a8
 
 
 
-Drivers that manage their own command and vertex buffers must fill out a DD_D3DBUFCALLBACKS structure and point the <b>lpD3DBufCallbacks</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> to it. 
+Drivers that manage their own command and vertex buffers must fill out a DD_D3DBUFCALLBACKS structure and point the <b>lpD3DBufCallbacks</b> member of <a href="https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11">DD_HALINFO</a> to it. 
 
 The driver must also support the callback functions reported in the DD_D3DBUFCALLBACKS structure. These <i>XxxD3DBuffer</i> callbacks are each analogous to the <i>DdXxxSurface</i> callback of similar name; they have the same prototypes and are called with the same input parameters. These new callbacks are called only when the surface in question has the DDSCAPS_EXECUTEBUFFER flag set in the surface caps. The buffer creation flags are DDSCAPS_WRITEONLY, DDSCAPS2_VERTEXBUFFER and DDSCAPS2_COMMANDBUFFER. 
 
-The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that is passed to <a href="https://msdn.microsoft.com/94aace9f-0927-4b33-a9ea-79c27d5edea9">CanCreateD3DBuffer</a> and <a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a> for the following flags:
+The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that is passed to <a href="https://msdn.microsoft.com/94aace9f-0927-4b33-a9ea-79c27d5edea9">CanCreateD3DBuffer</a> and <a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a> for the following flags:
 
 <ul>
 <li>
@@ -141,11 +142,11 @@ Implicit vertex buffers should not be placed in video memory because they are ex
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+<a href="https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11">DD_HALINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Gets the serialized property storage data from the property store instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/df7a817e-de81-4e27-ab37-192e668bf7fa">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Toggles the property store object between the read-only and read/write state.
@@ -103,7 +104,7 @@ Initializes the property store instance from the specified serialized property s
 
 
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface to read and write values from and to the property store.
+Use the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> interface to read and write values from and to the property store.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 The in-memory property store, created by calling <a href="https://msdn.microsoft.com/6e7a2ac0-2a4a-41ec-a2a8-ddbe8aa45bc9">PSCreateMemoryPropertyStore</a>, provides an implementation of this interface. Use this implementation when you want to persist or restore serialized property storage data.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>Encode</b> method returns an ASN.1-encoded string of the alternate name a
 Use the <a href="https://msdn.microsoft.com/0507d3a5-b8c3-4f2e-996f-e1e32957f475">Decode</a> method to decode the encoded string into an <b>CertEncodeAltName</b> object.
 
 Before using this method, you must call both the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> method to size the array and the 
+<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">Reset</a> method to size the array and the 
 <a href="https://msdn.microsoft.com/5da07c09-9213-4604-b058-5e69df646b09">SetNameEntry</a> method to set each array element.
 
 

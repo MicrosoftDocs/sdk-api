@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngMapFontFileFD</b> function maps a font file into system memory, if nec
 
 ### -param iFile [in]
 
-Caller-supplied pointer to a value that identifies the font file to be mapped. This pointer must have been received previously as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>.
+Caller-supplied pointer to a value that identifies the font file to be mapped. This pointer must have been received previously as input to <a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>.
 
 
 ### -param ppjBuf [out]
@@ -97,11 +98,11 @@ The <b>EngMapFontFileFD</b> function is provided so font drivers can map a font 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>
+<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565445">EngUnmapFontFileFD</a>
+<a href="https://msdn.microsoft.com/61c1acb6-c158-4ba4-ad5b-2f7b1a9bf106">EngUnmapFontFileFD</a>
  
 
  

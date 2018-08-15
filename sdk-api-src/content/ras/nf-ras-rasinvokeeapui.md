@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,17 +79,17 @@ Handle to the connection returned by
 Specifies the subentry returned in the callback.
 
 
+#### - hwnd [in]
+
+Handle to the parent window to use when displaying the EAP user interface.
+
+
 #### - lpExtensions [in]
 
 Pointer to the 
 <a href="https://msdn.microsoft.com/533c9ab4-69d0-492d-81c6-2c07ca219fc7">RASDIALEXTENSIONS</a> structure. This structure should be the same as that passed to 
 <a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> when restarting from a paused state. Ensure that the <b>dwSize</b> member of the 
 <b>RASDIALEXTENSIONS</b> structure specifies the size of the structure. Obtain the size using sizeof(<b>RASDIALEXTENSIONS</b>). This parameter cannot be <b>NULL</b>.
-
-
-#### - hwnd [in]
-
-Handle to the parent window to use when displaying the EAP user interface.
 
 
 ## -returns

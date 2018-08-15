@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -139,7 +140,7 @@ Gets and sets the discretionary ACL associated with the security descriptor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">Group</a>
+<a href="https://msdn.microsoft.com/e0c50740-de98-4913-b3df-6fd53263bcc8">Group</a>
 
 
 </td>
@@ -171,7 +172,7 @@ Gets and sets the flag that indicates if the group data is derived by a default 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965828">Owner</a>
+<a href="https://msdn.microsoft.com/e0c50740-de98-4913-b3df-6fd53263bcc8">Owner</a>
 
 
 </td>

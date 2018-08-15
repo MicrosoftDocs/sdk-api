@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: storprop.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003

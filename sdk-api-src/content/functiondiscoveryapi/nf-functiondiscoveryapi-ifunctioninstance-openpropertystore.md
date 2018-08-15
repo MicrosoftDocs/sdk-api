@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -86,7 +87,7 @@ The access mode to be assigned to the open stream.  For this method, the followi
 
 ### -param ppIPropertyStore [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface pointer.
+A pointer to an <a href="shell_IPropertyStore_cpp">IPropertyStore</a> interface pointer.
 
 
 ## -returns

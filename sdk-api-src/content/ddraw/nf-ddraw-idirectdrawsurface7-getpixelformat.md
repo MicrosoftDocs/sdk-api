@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ Retrieves the color and pixel format of this surface.
 
 #### - lpDDPixelFormat [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
+A pointer to a <a href="https://msdn.microsoft.com/17c531cb-7e65-482a-b3de-494874c1dd92">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
 
 
 ## -returns

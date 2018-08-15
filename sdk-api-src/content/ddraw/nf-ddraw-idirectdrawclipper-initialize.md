@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,15 +67,15 @@ Initializes a DirectDrawClipper object that was created by using the <a href="ht
 
 
 
+#### - dwFlags [in]
+
+Currently not used and must be set to 0.
+
+
 #### - lpDD [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawClipper object. If this parameter is set to NULL, an independent DirectDrawClipper object is initialized; a call of this type is equivalent to using the <a href="https://msdn.microsoft.com/12d499d2-dd4a-4831-9290-c225aec1a160">DirectDrawCreateClipper</a> function. 
 
-
-
-#### - dwFlags [in]
-
-Currently not used and must be set to 0.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -77,14 +78,9 @@ A handle to the window that becomes the owner of the elevation UI, if applicable
 The size of this structure, in bytes.
 
 
-#### - grfFlags
+#### - dwClassContext
 
-Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://msdn.microsoft.com/e8884e82-5de2-4a1f-b79c-d431afe9e87e">BIND_FLAGS</a> enumeration. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this member to zero.
-
-
-#### - grfMode
-
-Flags that should be used when opening the file that contains the object identified by the moniker. Possible values  are the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM constants</a>. The binding operation uses these flags in the call to <a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> when loading the file. If the object is already running, these flags are ignored by the binding operation. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this field to STGM_READWRITE. 
+The class context, taken from the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration, that is to be used for instantiating the object. Monikers typically pass this value to the <i>dwClsContext</i> parameter of <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>.
 
 
 #### - dwTickCountDeadline
@@ -100,14 +96,19 @@ The <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">Ge
 
 #### - dwTrackFlags
 
-A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>.
+A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>.
 
-COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>. 
+COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>. 
 
 
-#### - dwClassContext
+#### - grfFlags
 
-The class context, taken from the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration, that is to be used for instantiating the object. Monikers typically pass this value to the <i>dwClsContext</i> parameter of <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>.
+Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://msdn.microsoft.com/e8884e82-5de2-4a1f-b79c-d431afe9e87e">BIND_FLAGS</a> enumeration. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this member to zero.
+
+
+#### - grfMode
+
+Flags that should be used when opening the file that contains the object identified by the moniker. Possible values  are the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM constants</a>. The binding operation uses these flags in the call to <a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> when loading the file. If the object is already running, these flags are ignored by the binding operation. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this field to STGM_READWRITE. 
 
 
 #### - locale

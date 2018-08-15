@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.irql:
 ## -description
 
 
-A view interface specifies the parts of a resource the pipeline can access during rendering (see <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a>).
+A view interface specifies the parts of a resource the pipeline can access during rendering (see <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a>).
 
 
 ## -inheritance

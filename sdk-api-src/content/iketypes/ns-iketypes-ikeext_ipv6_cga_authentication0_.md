@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -82,7 +83,7 @@ Same semantics as the <b>dwProvType</b> member of the <a href="https://msdn.micr
 
 ### -field cgaModifier
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a> structure containing a modifier used during CGA generation.
+A <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a> structure containing a modifier used during CGA generation.
 
 See CGA RFC for more information.
 
@@ -112,7 +113,7 @@ See CGA RFC for more information.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a>
+<a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>
 
 
 

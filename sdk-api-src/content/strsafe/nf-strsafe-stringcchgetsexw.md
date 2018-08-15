@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -196,7 +197,7 @@ Characters were read from stdin, were copied to the buffer at <i>pszDest</i>, an
 </dl>
 </td>
 <td width="60%">
-Indicates an error or end-of-file condition. Use <a href="09081eee-7c4b-4189-861f-2fad95d3ec6d">feof</a> or <a href="528a34bc-f2aa-4c3f-b89a-5b148e6864f7">ferror</a> to determine which one has occurred.
+Indicates an error or end-of-file condition. Use <a href="https://msdn.microsoft.com/library/xssktc6e(v=VS.100).aspx">feof</a> or <a href="https://msdn.microsoft.com/library/y2wc3w90(v=VS.100).aspx">ferror</a> to determine which one has occurred.
 
 </td>
 </tr>

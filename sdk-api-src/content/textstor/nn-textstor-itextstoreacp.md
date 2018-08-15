@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -154,7 +155,7 @@ Returns the character position of a text selection in a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/6ed040ac-8584-4f09-9af8-218b5cd33765">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Used by the application to obtain the document status.
@@ -163,7 +164,7 @@ Used by the application to obtain the document status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88">GetText</a>
 </td>
 <td align="left" width="63%">
 Returns information about text at a specified character position.

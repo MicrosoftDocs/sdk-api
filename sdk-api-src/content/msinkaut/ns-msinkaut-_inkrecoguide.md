@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -89,22 +90,22 @@ Deprecated. Represents information about the <b>recognition guide</b>. Use the <
 
 
 
-#### - DISPID_IRGWritingBox
+#### - DISPID_IRGColumns
 
 
 #### - DISPID_IRGDrawnBox
 
 
-#### - DISPID_IRGRows
-
-
-#### - DISPID_IRGColumns
+#### - DISPID_IRGGuideData
 
 
 #### - DISPID_IRGMidline
 
 
-#### - DISPID_IRGGuideData
+#### - DISPID_IRGRows
+
+
+#### - DISPID_IRGWritingBox
 
 
 ## -see-also

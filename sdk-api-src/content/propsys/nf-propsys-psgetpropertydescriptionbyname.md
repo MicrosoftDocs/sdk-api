@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -77,7 +78,7 @@ Reference to the interface ID of the requested property.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>, <a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>, or  <a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>, or  <a href="https://msdn.microsoft.com/en-us/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>.
 
 
 
@@ -638,7 +639,7 @@ In addition to the new canonical names, callers can pass a legacy name for a pro
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -667,11 +668,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.IPropertySystem">IPropertySystem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
 
 
 
-<a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>
  
 
  

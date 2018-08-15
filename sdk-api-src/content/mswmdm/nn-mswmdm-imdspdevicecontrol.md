@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IMDSPDeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/5d4e433a-fb2a-43c4-ab7f-fb7168636455">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device capabilities to determine what operations the device can perform.
@@ -94,7 +95,7 @@ Retrieves the control status of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/d97edbd0-afac-4197-b9bc-e538c2b145b2">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the current playback or record operation and saves the current file position.
@@ -130,7 +131,7 @@ Resumes the current playback or record operation from the file position saved du
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/05fbaab8-e1fa-4960-9591-d22347bc04f2">Seek</a>
 </td>
 <td align="left" width="63%">
 Seeks to a position that is used as the starting point by the <b>Play</b> or <b>Record</b> methods.
@@ -139,7 +140,7 @@ Seeks to a position that is used as the starting point by the <b>Play</b> or <b>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/31dd1325-2a8d-4a61-a4a5-f585b320e841">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the current playback or record operation.

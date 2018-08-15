@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -361,24 +362,93 @@ Type: <b>HICON</b>
 <b>Windows Vista and later</b>. The handle of a customized notification icon provided by the application that should be used independently of the notification area icon. If this member is non-NULL and the NIIF_USER flag is set in the <b>dwInfoFlags</b> member, this icon is used as the notification icon. If this member is <b>NULL</b>, the legacy behavior is carried out.
 
 
-##### - uFlags.NIF_MESSAGE (0x00000001)
+##### - dwInfoFlags.NIIF_ERROR (0x00000003)
 
-0x00000001. The <b>uCallbackMessage</b> member is valid.
+0x00000003. An error icon.
 
+
+##### - dwInfoFlags.NIIF_ICON_MASK (0x0000000F)
+
+0x0000000F. <b>Windows XP and later</b>. Reserved.
+
+
+##### - dwInfoFlags.NIIF_INFO (0x00000001)
+
+0x00000001. An information icon.
+
+
+##### - dwInfoFlags.NIIF_LARGE_ICON (0x00000020)
+
+0x00000020. <b>Windows Vista and later</b>. The large version of the icon should be used as the notification icon. This corresponds to the icon with dimensions SM_CXICON x SM_CYICON. If this flag is not set, the icon with dimensions XM_CXSMICON x SM_CYSMICON is used. 
+        
+                                
+
+<ul>
+<li>This flag can be used with all <a href="https://msdn.microsoft.com/37da5555-3626-465e-b834-3a28b75495c4">stock icons</a>.</li>
+<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon (<b>hIcon</b>). These icons are scaled down when they are displayed in the System Tray or System Control Area (SCA).</li>
+<li>New customized icons (NIIF_USER with <b>hBalloonIcon</b>) must supply an SM_CXICON x SM_CYICON version in the supplied icon (<b>hBalloonIcon</b>).</li>
+</ul>
+
+##### - dwInfoFlags.NIIF_NONE (0x00000000)
+
+0x00000000. No icon.
+
+
+##### - dwInfoFlags.NIIF_NOSOUND (0x00000010)
+
+0x00000010. <b>Windows XP and later</b>. Do not play the associated sound. Applies only to notifications.
+
+
+##### - dwInfoFlags.NIIF_RESPECT_QUIET_TIME (0x00000080)
+
+0x00000080. <b>Windows 7 and later</b>. Do not display the balloon notification if the current user is in "quiet time", which is the first hour after a new user logs into his or her account for the first time. During this time, most notifications should not be sent or shown. This lets a user become accustomed to a new computer system without those distractions. Quiet time also occurs for each user after an operating system upgrade or clean installation. A notification sent with this flag during quiet time is not queued; it is simply dismissed unshown. The application can resend the notification later if it is still valid at that time.
+
+Because an application cannot predict when it might encounter quiet time, we recommended that this flag always be set on all appropriate notifications by any application that means to honor quiet time.
+
+During quiet time, certain notifications should still be sent because they are expected by the user as feedback in response to a user action, for instance when he or she plugs in a USB device or prints a document.
+
+If the current user is not in quiet time, this flag has no effect.
+
+
+##### - dwInfoFlags.NIIF_USER (0x00000004)
+
+0x00000004. <b>Windows XP SP2 and later</b>. 
+        
+                                
+
+<ul>
+<li><b>Windows XP</b>: Use the icon identified in <b>hIcon</b> as the notification balloon's title icon.</li>
+<li><b>Windows Vista and later</b>: Use the icon identified in <b>hBalloonIcon</b> as the notification balloon's title icon.</li>
+</ul>
+
+##### - dwInfoFlags.NIIF_WARNING (0x00000002)
+
+0x00000002. A warning icon.
+
+
+##### - dwState.NIS_HIDDEN (0x00000001)
+
+0x00000001. The icon is hidden.
+
+
+##### - dwState.NIS_SHAREDICON (0x00000002)
+
+0x00000002. The icon resource is shared between multiple icons.
+
+
+##### - uFlags.NIF_GUID (0x00000020)
+
+0x00000020. 
+                                
+
+<ul>
+<li><b>Windows 7 and later</b>: The <b>guidItem</b> is valid.</li>
+<li><b>Windows Vista and earlier</b>: Reserved.</li>
+</ul>
 
 ##### - uFlags.NIF_ICON (0x00000002)
 
 0x00000002. The <b>hIcon</b> member is valid.
-
-
-##### - uFlags.NIF_TIP (0x00000004)
-
-0x00000004. The <b>szTip</b> member is valid.
-
-
-##### - uFlags.NIF_STATE (0x00000008)
-
-0x00000008. The <b>dwState</b> and <b>dwStateMask</b> members are valid.
 
 
 ##### - uFlags.NIF_INFO (0x00000010)
@@ -393,15 +463,10 @@ Type: <b>HICON</b>
 <li>To add a notification area icon without displaying a notification, do not set the NIF_INFO flag.</li>
 </ul>
 
-##### - uFlags.NIF_GUID (0x00000020)
+##### - uFlags.NIF_MESSAGE (0x00000001)
 
-0x00000020. 
-                                
+0x00000001. The <b>uCallbackMessage</b> member is valid.
 
-<ul>
-<li><b>Windows 7 and later</b>: The <b>guidItem</b> is valid.</li>
-<li><b>Windows Vista and earlier</b>: Reserved.</li>
-</ul>
 
 ##### - uFlags.NIF_REALTIME (0x00000040)
 
@@ -413,14 +478,14 @@ Type: <b>HICON</b>
 0x00000080. <b>Windows Vista and later</b>. Use the standard tooltip. Normally, when <b>uVersion</b> is set to NOTIFYICON_VERSION_4, the standard tooltip is suppressed and can be replaced by the application-drawn, pop-up UI. If the application wants to show the standard tooltip with NOTIFYICON_VERSION_4, it can specify NIF_SHOWTIP to indicate the standard tooltip should still be shown.
 
 
-##### - dwState.NIS_HIDDEN (0x00000001)
+##### - uFlags.NIF_STATE (0x00000008)
 
-0x00000001. The icon is hidden.
+0x00000008. The <b>dwState</b> and <b>dwStateMask</b> members are valid.
 
 
-##### - dwState.NIS_SHAREDICON (0x00000002)
+##### - uFlags.NIF_TIP (0x00000004)
 
-0x00000002. The icon resource is shared between multiple icons.
+0x00000004. The <b>szTip</b> member is valid.
 
 
 ##### - uVersion.0
@@ -438,75 +503,11 @@ Use the Windows 2000 behavior. Use this value for applications designed for Win
 Use the current behavior. Use this value for applications designed for Windows Vista and later.
 
 
-##### - dwInfoFlags.NIIF_NONE (0x00000000)
-
-0x00000000. No icon.
-
-
-##### - dwInfoFlags.NIIF_INFO (0x00000001)
-
-0x00000001. An information icon.
-
-
-##### - dwInfoFlags.NIIF_WARNING (0x00000002)
-
-0x00000002. A warning icon.
-
-
-##### - dwInfoFlags.NIIF_ERROR (0x00000003)
-
-0x00000003. An error icon.
-
-
-##### - dwInfoFlags.NIIF_USER (0x00000004)
-
-0x00000004. <b>Windows XP SP2 and later</b>. 
-        
-                                
-
-<ul>
-<li><b>Windows XP</b>: Use the icon identified in <b>hIcon</b> as the notification balloon's title icon.</li>
-<li><b>Windows Vista and later</b>: Use the icon identified in <b>hBalloonIcon</b> as the notification balloon's title icon.</li>
-</ul>
-
-##### - dwInfoFlags.NIIF_NOSOUND (0x00000010)
-
-0x00000010. <b>Windows XP and later</b>. Do not play the associated sound. Applies only to notifications.
-
-
-##### - dwInfoFlags.NIIF_LARGE_ICON (0x00000020)
-
-0x00000020. <b>Windows Vista and later</b>. The large version of the icon should be used as the notification icon. This corresponds to the icon with dimensions SM_CXICON x SM_CYICON. If this flag is not set, the icon with dimensions XM_CXSMICON x SM_CYSMICON is used. 
-        
-                                
-
-<ul>
-<li>This flag can be used with all <a href="https://msdn.microsoft.com/37da5555-3626-465e-b834-3a28b75495c4">stock icons</a>.</li>
-<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon (<b>hIcon</b>). These icons are scaled down when they are displayed in the System Tray or System Control Area (SCA).</li>
-<li>New customized icons (NIIF_USER with <b>hBalloonIcon</b>) must supply an SM_CXICON x SM_CYICON version in the supplied icon (<b>hBalloonIcon</b>).</li>
-</ul>
-
-##### - dwInfoFlags.NIIF_RESPECT_QUIET_TIME (0x00000080)
-
-0x00000080. <b>Windows 7 and later</b>. Do not display the balloon notification if the current user is in "quiet time", which is the first hour after a new user logs into his or her account for the first time. During this time, most notifications should not be sent or shown. This lets a user become accustomed to a new computer system without those distractions. Quiet time also occurs for each user after an operating system upgrade or clean installation. A notification sent with this flag during quiet time is not queued; it is simply dismissed unshown. The application can resend the notification later if it is still valid at that time.
-
-Because an application cannot predict when it might encounter quiet time, we recommended that this flag always be set on all appropriate notifications by any application that means to honor quiet time.
-
-During quiet time, certain notifications should still be sent because they are expected by the user as feedback in response to a user action, for instance when he or she plugs in a USB device or prints a document.
-
-If the current user is not in quiet time, this flag has no effect.
-
-
-##### - dwInfoFlags.NIIF_ICON_MASK (0x0000000F)
-
-0x0000000F. <b>Windows XP and later</b>. Reserved.
-
-
 ## -remarks
 
 
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/mt244308">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
+See <a href="http://go.microsoft.com/fwlink/p/?linkid=200328">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
 
 If you set the <b>NIF_INFO</b> flag in the <b>uFlags</b> member, the balloon-style notification is used. For more discussion of these notifications, see <a href="https://msdn.microsoft.com/en-us/library/Bb760252(v=VS.85).aspx">Balloon tooltips</a>.
 
@@ -645,7 +646,7 @@ The binary file that contains the icon was moved. The path of the binary file is
 
 This also occurs in the case of a side-by-side installation. When dealing with a side-by-side installation, new versions of the application should update the GUID of the binary file.
 
-<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="_inet_Authenticode_node_entry">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
+<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="https://msdn.microsoft.com/library/ms537359(v=VS.85).aspx">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
 <div> </div>
 </li>
 </ol>

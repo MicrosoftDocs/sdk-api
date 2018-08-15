@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ To set the attributes of a list-view item, set the
 <b>state</b>, <b>pszText</b>, 
 <b>iImage</b>, and <b>lParam</b> members of the <b>LVITEM</b> structure to modify these item parameters. 
 
-To set the text of a subitem, set the <b>iItem</b> and <b>iSubItem</b> members to indicate the specific subitem, and use the <b>pszText</b> member to specify the text. Alternatively, you can use the <a href="https://msdn.microsoft.com/en-us/library/Bb775105(v=VS.85).aspx">ListView_SetItemText</a> macro to set the text of a subitem. You cannot set the <b>state</b> or <b>lParam</b> members for subitems because subitems do not have these attributes. In version 4.70 and later, you can set the <b>iImage</b> member for subitems. The subitem image will be displayed if the list-view control has the <a href="Extended_list_view_styles.htm">LVS_EX_SUBITEMIMAGES</a> extended style. Previous versions will ignore the subitem image. 
+To set the text of a subitem, set the <b>iItem</b> and <b>iSubItem</b> members to indicate the specific subitem, and use the <b>pszText</b> member to specify the text. Alternatively, you can use the <a href="https://msdn.microsoft.com/en-us/library/Bb775105(v=VS.85).aspx">ListView_SetItemText</a> macro to set the text of a subitem. You cannot set the <b>state</b> or <b>lParam</b> members for subitems because subitems do not have these attributes. In version 4.70 and later, you can set the <b>iImage</b> member for subitems. The subitem image will be displayed if the list-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_SUBITEMIMAGES</a> extended style. Previous versions will ignore the subitem image. 
 
 
 

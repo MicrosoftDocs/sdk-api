@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumExplorerCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/2ef3311a-6c88-463c-8c25-9ccb22f3e4e6">Clone</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.
@@ -80,7 +81,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/809e866d-128b-4a0e-9de0-c2123161134f">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of elements that directly follow the current element.
@@ -89,7 +90,7 @@ Retrieves a specified number of elements that directly follow the current elemen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/296ff94a-81ec-49ac-95a3-92c7ca76c9bf">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration to 0.
@@ -98,7 +99,7 @@ Resets the enumeration to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/823bf5d4-9017-4f78-8bef-124d403174c5">Skip</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.

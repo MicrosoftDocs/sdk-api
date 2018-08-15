@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552006">SetupDiGetHwProfileListEx</a> to retrieve the hardware profile IDs for a remote computer. 
+Call <a href="https://msdn.microsoft.com/add700ee-48aa-47dd-8b55-6338dea05bfb">SetupDiGetHwProfileListEx</a> to retrieve the hardware profile IDs for a remote computer. 
 
 
 
@@ -102,11 +103,11 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552006">Setu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550973">SetupDiCreateDevRegKey</a>
+<a href="https://msdn.microsoft.com/8c07db95-eb59-4e01-851d-f6a8da169625">SetupDiCreateDevRegKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552079">SetupDiOpenDevRegKey</a>
+<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -52,7 +53,7 @@ req.product: ADAM
 
 
 Enumerates all of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in a specified 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and initiates a user-defined operation for each 
+    <a href="c_gly.htm">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES_EX2</b> type defines a pointer to this function.
 
 
@@ -144,19 +145,19 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
           <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>.
 
 
+##### - pResCallBack.hEnum
+
+[in] A handle to the resource currently being enumerated. 
+          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> opens and closes 
+          this handle automatically.
+
+
 ##### - pResCallBack.hSelf
 
 [in] The hSelf parameter passed to 
           <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>. Note that the 
           callback function is never called when <i>hSelf</i> and <i>hEnum</i> 
           refer to the same resource.
-
-
-##### - pResCallBack.hEnum
-
-[in] A handle to the resource currently being enumerated. 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> opens and closes 
-          this handle automatically.
 
 
 ##### - pResCallBack.pParameter

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -179,7 +180,7 @@ The following types of in-band spanning events are defined.
 </tr>
 <tr>
 <td>EVENTID_StreamTypeSpanningEvent</td>
-<td>Specifies the stream type. The event data is a <b>DWORD</b> that contains a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567738">MPEG2StreamType</a> enumeration.</td>
+<td>Specifies the stream type. The event data is a <b>DWORD</b> that contains a value from the <a href="https://msdn.microsoft.com/10df5a9e-965c-4118-8ece-2d8ee353cd10">MPEG2StreamType</a> enumeration.</td>
 </tr>
 <tr>
 <td>EVENTID_SubtitleSpanningEvent</td>

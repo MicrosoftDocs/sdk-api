@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -95,18 +96,18 @@ Number of vertices used during this call. The first vertex is located at index: 
 
 
 
-#### - Type [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172589(v=VS.85).aspx">D3DPRIMITIVETYPE</a></b>
-
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172589(v=VS.85).aspx">D3DPRIMITIVETYPE</a> enumerated type, describing the type of primitive to render. D3DPT_POINTLIST is not supported with this method. See Remarks. 
-
-
 #### - MinIndex [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Minimum vertex index for vertices used during this call. This is a zero based index relative to BaseVertexIndex.
+
+
+#### - PrimitiveCount [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Number of primitives to render. The number of vertices used is a function of the primitive count and the primitive type. The maximum number of primitives allowed is determined by checking the MaxPrimitiveCount member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure. 
 
 
 #### - StartIndex [in]
@@ -116,11 +117,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Index of the first index to use when accesssing the vertex buffer. Beginning at StartIndex to index vertices from the vertex buffer.
 
 
-#### - PrimitiveCount [in]
+#### - Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172589(v=VS.85).aspx">D3DPRIMITIVETYPE</a></b>
 
-Number of primitives to render. The number of vertices used is a function of the primitive count and the primitive type. The maximum number of primitives allowed is determined by checking the MaxPrimitiveCount member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure. 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172589(v=VS.85).aspx">D3DPRIMITIVETYPE</a> enumerated type, describing the type of primitive to render. D3DPT_POINTLIST is not supported with this method. See Remarks. 
 
 
 ## -returns

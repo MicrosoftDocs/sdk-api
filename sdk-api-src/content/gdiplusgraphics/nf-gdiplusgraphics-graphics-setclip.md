@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 SetClip methods of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -68,7 +69,7 @@ SetClip methods of the
 <a href="https://msdn.microsoft.com/en-us/library/ms535827(v=VS.85).aspx">SetClip(HRGN,CombineMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535827(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this  <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a region that is the combination of itself and a GDI region.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535827(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this  <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and a GDI region.
 
 </td>
 </tr>
@@ -77,7 +78,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535827(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535826(v=VS.85).aspx">SetClip(Rect&,CombineMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535826(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this  <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a region that is the combination of itself and a rectangle.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535826(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this  <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and a rectangle.
 
 </td>
 </tr>
@@ -86,7 +87,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535826(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535828(v=VS.85).aspx">SetClip(RectF&,CombineMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535828(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a region that is the combination of itself and a rectangle.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535828(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and a rectangle.
 
 </td>
 </tr>
@@ -95,7 +96,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535828(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535825(v=VS.85).aspx">SetClip(Region*,CombineMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535825(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a region that is the combination of itself and the region specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535825(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and the region specified by a <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> object.
 
 </td>
 </tr>
@@ -104,7 +105,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535825(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535823(v=VS.85).aspx">SetClip(Graphics*,CombineMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535823(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a region that is the combination of itself and the clipping region of another <b>Graphics</b> object.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535823(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and the clipping region of another <b>Graphics</b> object.
 
 </td>
 </tr>
@@ -113,7 +114,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535823(v=VS.85).aspx">Gr
 <a href="https://msdn.microsoft.com/en-us/library/ms535824(v=VS.85).aspx">SetClip(GraphicsPath*,CombineMode)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535824(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object to a region that is the combination of itself and the region specified by a graphics path. If a figure in the path is not closed, this method treats the nonclosed figure as if it were closed by a straight line that connects the figure's starting and ending points.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535824(v=VS.85).aspx">Graphics::SetClip</a> method updates the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a region that is the combination of itself and the region specified by a graphics path. If a figure in the path is not closed, this method treats the nonclosed figure as if it were closed by a straight line that connects the figure's starting and ending points.
 
 </td>
 </tr>

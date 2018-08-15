@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The GAMMARAMP structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556243">DrvIcmSetDeviceGammaRamp</a> to set the hardware <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">gamma ramp</a> of a particular display device. 
+The GAMMARAMP structure is used by <a href="https://msdn.microsoft.com/0ea0c60c-fa12-4dd0-a6cc-45eacf4b73c0">DrvIcmSetDeviceGammaRamp</a> to set the hardware <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">gamma ramp</a> of a particular display device. 
 
 
 ## -struct-fields
@@ -79,7 +80,7 @@ Is the 256-entry ramp for the blue color channel.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556243">DrvIcmSetDeviceGammaRamp</a>
+<a href="https://msdn.microsoft.com/0ea0c60c-fa12-4dd0-a6cc-45eacf4b73c0">DrvIcmSetDeviceGammaRamp</a>
  
 
  

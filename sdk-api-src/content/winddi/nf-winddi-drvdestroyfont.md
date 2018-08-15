@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvDestroyFont</b> function notifies the driver that a font realization i
 
 ### -param pfo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure that identifies the font instance.
+Pointer to the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure that identifies the font instance.
 
 
 ## -returns
@@ -85,7 +86,7 @@ The driver must reset the <b>pvConsumer</b> and <b>pvProducer</b> members to <b>
 
 GDI calls <b>DrvDestroyFont</b> once for the font producer and once again for the font consumer.
 
-GDI guarantees that <b>DrvDestroyFont</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a> never overlap; consequently, the driver can rely on cached information while processing a <b>DrvTextOut</b> call.
+GDI guarantees that <b>DrvDestroyFont</b> and <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> never overlap; consequently, the driver can rely on cached information while processing a <b>DrvTextOut</b> call.
 
 This function must be implemented if the font driver or kernel-mode printer driver allocates resources when it realizes fonts.
 
@@ -97,11 +98,11 @@ This function must be implemented if the font driver or kernel-mode printer driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
  
 
  

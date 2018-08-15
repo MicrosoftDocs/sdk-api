@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 
 Use the 
 <b>PostShell</b> method when a user has logged on and Windows Explorer is running. This method is different from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187885">Logon</a> method because 
+<a href="https://msdn.microsoft.com/36caaccf-0cb3-47b8-b0bc-68f9bb21f235">Logon</a> method because 
 <b>Logon</b> is called after logon when the Shell may not yet be running.
 
 

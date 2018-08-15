@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -68,7 +69,7 @@ The client does not require notification of the completion of an asynchronous re
 ### -field RpcNotificationTypeEvent
 
 Notify the client program by signaling an event object. See 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>.
+<a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>.
 
 
 ### -field RpcNotificationTypeApc

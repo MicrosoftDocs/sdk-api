@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -101,7 +102,7 @@ Moves the storage to a new location on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/4b102666-b54b-4b60-b2e9-68def384268e">Read</a>
 </td>
 <td align="left" width="63%">
 Copies the current storage to the computer.

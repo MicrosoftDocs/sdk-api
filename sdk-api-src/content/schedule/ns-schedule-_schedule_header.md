@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schedule.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SCHEDULE_HEADER</b> structure is used to contain the replication schedule data for a replication source. The <a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a> structure contains an array of <b>SCHEDULE_HEADER</b> structures.
+The <b>SCHEDULE_HEADER</b> structure is used to contain the replication schedule data for a replication source. The <a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a> structure contains an array of <b>SCHEDULE_HEADER</b> structures.
 
 
 ## -struct-fields
@@ -138,7 +139,7 @@ Not supported.
 
 ### -field Offset
 
-Contains the offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a> structure to the data for this schedule. The size and form of this data depends on the schedule type defined by the <b>Type</b> member.
+Contains the offset, in bytes, from the beginning of the <a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a> structure to the data for this schedule. The size and form of this data depends on the schedule type defined by the <b>Type</b> member.
 
 
 ## -see-also
@@ -154,7 +155,7 @@ Contains the offset, in bytes, from the beginning of the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764013">SCHEDULE</a>
+<a href="https://msdn.microsoft.com/d86890db-b34a-415a-820a-6d4790914218">SCHEDULE</a>
  
 
  

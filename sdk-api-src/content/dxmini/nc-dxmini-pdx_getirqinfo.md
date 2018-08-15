@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,6 +75,11 @@ The<i> DxGetIRQInfo</i> callback function indicates that the driver manages the 
 
 
 
+#### - GetIrqInfo
+
+Points to a <a href="https://msdn.microsoft.com/fdc3b929-902b-4759-b603-1624e3fb01dc">DDGETIRQINFO</a> structure that contains the interrupt request information.
+
+
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
@@ -82,11 +88,6 @@ Points to the miniport driver's device extension.
 #### - lpInput
 
 Reserved for system use. 
-
-
-#### - GetIrqInfo
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549436">DDGETIRQINFO</a> structure that contains the interrupt request information.
 
 
 ## -returns
@@ -112,7 +113,7 @@ Because the miniport driver must always manage the IRQ, this function must alway
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549436">DDGETIRQINFO</a>
+<a href="https://msdn.microsoft.com/fdc3b929-902b-4759-b603-1624e3fb01dc">DDGETIRQINFO</a>
  
 
  

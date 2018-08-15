@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/fe55f57b-a803-4008-adfb-b1900550d4cb">Clone</a>
 </td>
 <td align="left" width="63%">
 Returns a new <b>ITextRangeProvider</b> identical to the original 
@@ -92,7 +93,7 @@ Returns a new <b>ITextRangeProvider</b> identical to the original
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
+<a href="https://msdn.microsoft.com/6ccdeeee-4c9b-439b-abb8-1fc71f3d209c">Compare</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies whether this text range has the same endpoints as another text range.
@@ -179,7 +180,7 @@ Returns the innermost element that encloses the text range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/f3c5f0cc-15a5-4a13-b3be-355de6633c66">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the plain text of the range.

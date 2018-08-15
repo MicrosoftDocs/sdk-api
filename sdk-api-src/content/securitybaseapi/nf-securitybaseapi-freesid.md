@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ The <b>FreeSid</b> function frees a <a href="https://msdn.microsoft.com/3e9d7672
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to free.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to free.
 
 
 ## -returns
@@ -79,7 +80,7 @@ A pointer to the
 
 If the function succeeds, the function returns <b>NULL</b>.
 
-If the function fails, it returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure represented by the <i>pSid</i> parameter.
+If the function fails, it returns a pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure represented by the <i>pSid</i> parameter.
 
 
 
@@ -101,7 +102,7 @@ If the function fails, it returns a pointer to the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

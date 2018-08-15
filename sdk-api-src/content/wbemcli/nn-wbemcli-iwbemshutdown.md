@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -73,7 +74,7 @@ The <b>  IWbemShutdown</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/b6eb56ae-5869-413f-a455-22616b04c18f">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Indicates to a provider that the services provided by the provider are no longer required.

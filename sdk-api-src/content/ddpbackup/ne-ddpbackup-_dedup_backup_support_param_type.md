@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ddpbackup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -73,7 +74,7 @@ Reserved for future use. Do not use.
 
 
 
-<a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a>
+<a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">IDedupBackupSupport::RestoreFiles</a>
  
 
  

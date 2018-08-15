@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ Gets a locally unique identifier for the current device (adapter).
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LUID</a></b>
 
 The locally unique identifier for the adapter.
           

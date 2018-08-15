@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,9 +68,9 @@ This property is read/write.
 
 Valid values for this property are 1 through <i>n</i>, where 1 is the highest priority.
 
-You should assign a unique priority value to each routing method. After you call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method, the fax service sorts the routing methods by priority. If two routing methods have the same priority, the fax service will choose which will have a higher priority.
+You should assign a unique priority value to each routing method. After you call the <a href="https://msdn.microsoft.com/1115bedd-8af0-4ed3-bc4f-5b447bad899c">Save</a> method, the fax service sorts the routing methods by priority. If two routing methods have the same priority, the fax service will choose which will have a higher priority.
 
-If you want a particular routing method to have the lowest possible priority, specify a very large value, such as 999999, and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method.
+If you want a particular routing method to have the lowest possible priority, specify a very large value, such as 999999, and then call the <a href="https://msdn.microsoft.com/1115bedd-8af0-4ed3-bc4f-5b447bad899c">Save</a> method.
 
 To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 

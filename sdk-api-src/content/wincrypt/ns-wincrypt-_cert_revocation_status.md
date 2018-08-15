@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,7 +75,7 @@ Upon input to
 ### -field dwIndex
 
 Specifies an index value for the <i>rgpvContext</i> array passed to 
-<a href="https://msdn.microsoft.com/2d6fb244-5273-4530-bec4-e5451fe26f2e">CertVerifyRevocation</a>. It is the index of the first <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> in that array that was revoked or that could not be checked for revocation. For information about the contexts that were not checked, <b>CertVerifyRevocation</b> is called again, specifying a <i>rgpvContext</i> array that contains the unchecked contexts from the original list.
+<a href="https://msdn.microsoft.com/2d6fb244-5273-4530-bec4-e5451fe26f2e">CertVerifyRevocation</a>. It is the index of the first <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> in that array that was revoked or that could not be checked for revocation. For information about the contexts that were not checked, <b>CertVerifyRevocation</b> is called again, specifying a <i>rgpvContext</i> array that contains the unchecked contexts from the original list.
 
 
 ### -field dwError
@@ -85,7 +86,7 @@ Specifies the returned error status. This value matches the return value of <a h
 
 ### -field dwReason
 
-Specifies the cause of the error. This member is set only if <b>dwError</b> is CRYPT_E_REVOKED. It contains a code that indicates why the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> was revoked. It can be one of the following values.
+Specifies the cause of the error. This member is set only if <b>dwError</b> is CRYPT_E_REVOKED. It contains a code that indicates why the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> was revoked. It can be one of the following values.
 
 <table>
 <tr>

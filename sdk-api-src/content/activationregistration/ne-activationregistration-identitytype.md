@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -86,14 +87,14 @@ Represents the kind of activation for an out-of-process server.
 Activate the out-of-process server as an activator.
 
 
-#### - RunAs
-
-Activate the out-of-process server as an executable.
-
-
 #### - ActivateAsPackage
 
 Activate the out-of-process server as a Windows Store app package.
+
+
+#### - RunAs
+
+Activate the out-of-process server as an executable.
 
 
 ## -see-also

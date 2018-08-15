@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>IWPCProviderState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a>
+<a href="https://msdn.microsoft.com/2aa1a236-b681-4226-a337-507d0854955d">Disable</a>
 </td>
 <td align="left" width="63%">
 Notifies the third-party application that it is not the current provider.
@@ -80,7 +81,7 @@ Notifies the third-party application that it is not the current provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/6714702d-e623-43f8-9a4e-dd1b3939d011">Enable</a>
 </td>
 <td align="left" width="63%">
 Notifies the third-party application that it has been selected as the new current provider.

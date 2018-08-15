@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,9 +66,14 @@ Sets the mode of the display-device hardware.
 
 
 
-#### - dwWidth [in]
+#### - dwBPP [in]
 
-Width of the new display mode.
+Bits per pixel (bpp) of the new display mode.
+
+
+#### - dwFlags [in]
+
+This value consists of flags that describe additional options. Currently, the only valid flag is DDSDM_STANDARDVGAMODE, which causes the method to set Mode 13, instead of Mode X 320x200x8 mode. If you are setting another resolution, bit depth, or a Mode X mode, do not use this flag; instead, set the parameter to 0.
 
 
 #### - dwHeight [in]
@@ -75,19 +81,14 @@ Width of the new display mode.
 Height of the new display mode.
 
 
-#### - dwBPP [in]
-
-Bits per pixel (bpp) of the new display mode.
-
-
 #### - dwRefreshRate [in]
 
 Refresh rate of the new display mode. Set this value to 0 to request the default refresh rate for the driver.
 
 
-#### - dwFlags [in]
+#### - dwWidth [in]
 
-This value consists of flags that describe additional options. Currently, the only valid flag is DDSDM_STANDARDVGAMODE, which causes the method to set Mode 13, instead of Mode X 320x200x8 mode. If you are setting another resolution, bit depth, or a Mode X mode, do not use this flag; instead, set the parameter to 0.
+Width of the new display mode.
 
 
 ## -returns

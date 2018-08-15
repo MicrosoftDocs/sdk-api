@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The DDOPENVIDEOPORTOUT structure contains a Microsoft DirectDraw return code and
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a> function for <a href="https://msdn.microsoft.com/library/windows/hardware/ff551498">DD_DXAPI_OPENVIDEOPORT</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for <a href="https://msdn.microsoft.com/a54335f1-fc08-447a-ba65-f1d99ba7924d">DD_DXAPI_OPENVIDEOPORT</a> operations. A return code of DD_OK indicates success.
 
 
 ### -field hVideoPort
@@ -73,11 +74,11 @@ Handle to the new VPE object.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551498">DD_DXAPI_OPENVIDEOPORT</a>
+<a href="https://msdn.microsoft.com/a54335f1-fc08-447a-ba65-f1d99ba7924d">DD_DXAPI_OPENVIDEOPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

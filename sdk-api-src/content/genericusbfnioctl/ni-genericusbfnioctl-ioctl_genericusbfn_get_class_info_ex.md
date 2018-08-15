@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,12 +75,12 @@ None.
 
 ### -output-buffer
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187989">USBFN_CLASS_INFORMATION_PACKET_EX</a> that provides information about the available pipes for a device.
+A <a href="https://msdn.microsoft.com/373D7CA9-AF1B-46E8-AE6A-F693A9214527">USBFN_CLASS_INFORMATION_PACKET_EX</a> that provides information about the available pipes for a device.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187989">USBFN_CLASS_INFORMATION_PACKET_EX</a> structure.
+The size of a <a href="https://msdn.microsoft.com/373D7CA9-AF1B-46E8-AE6A-F693A9214527">USBFN_CLASS_INFORMATION_PACKET_EX</a> structure.
 
 
 ### -in-out-buffer
@@ -125,7 +126,7 @@ The return value is a BOOL value that indicates success or failure of the operat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187873">IOCTL_GENERICUSBFN_GET_CLASS_INFO</a>
+<a href="https://msdn.microsoft.com/DF30E838-9C5A-45DD-8E51-5642CF726918">IOCTL_GENERICUSBFN_GET_CLASS_INFO</a>
  
 
  

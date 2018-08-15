@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The <b>CM_Free_Resource_Conflict_Handle</b> function invalidates a handle to a r
 
 ### -param clConflictList [in]
 
-Caller-supplied handle to be freed. This conflict list handle must have been previously obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539760">CM_Query_Resource_Conflict_List</a>.
+Caller-supplied handle to be freed. This conflict list handle must have been previously obtained by calling <a href="https://msdn.microsoft.com/d8b86549-3687-42e8-a82f-0f2dbd70cf66">CM_Query_Resource_Conflict_List</a>.
 
 
 ## -returns
@@ -76,7 +77,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-An application must call <b>CM_Free_Resource_Conflict_Handle</b> after it has finished using the handle that was obtained calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539760">CM_Query_Resource_Conflict_List</a>.
+An application must call <b>CM_Free_Resource_Conflict_Handle</b> after it has finished using the handle that was obtained calling <a href="https://msdn.microsoft.com/d8b86549-3687-42e8-a82f-0f2dbd70cf66">CM_Query_Resource_Conflict_List</a>.
 
 
 

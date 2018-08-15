@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -77,7 +78,7 @@ The length, in bytes, of the value pointed to by the <i>name</i> parameter.
 
 #### - addr [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure of the local address to assign to the bound socket .
+A pointer to a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ## -returns
@@ -139,7 +140,7 @@ the <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">se
 <td width="60%">
 Only one usage of each socket address (protocol/network address/port) is normally permitted.
 
-This error is returned if a process on the computer is already bound to the same fully qualified address and the socket has not been marked to allow address reuse with SO_REUSEADDR. For example, the IP address and port specified in the <i>name</i> parameter are already bound to another socket being used by another application. For more information, see the SO_REUSEADDR socket option in the <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET Socket Options</a> reference,  <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>.
+This error is returned if a process on the computer is already bound to the same fully qualified address and the socket has not been marked to allow address reuse with SO_REUSEADDR. For example, the IP address and port specified in the <i>name</i> parameter are already bound to another socket being used by another application. For more information, see the SO_REUSEADDR socket option in the <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET Socket Options</a> reference,  <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>, and <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>.
 
 </td>
 </tr>
@@ -251,7 +252,7 @@ A name consists of three parts when using the Internet address family:
 
 
 In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. It is cast this way for Windows Sockets 1.1 compatibility. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first 2 bytes in this block (corresponding to the <b>sa_family</b> member of the <b>sockaddr</b> structure, the <b>sin_family</b> member of the <b>sockaddr_in</b> structure, or the <b>sin6_family</b> member of the <b>sockaddr_in6</b> structure) must contain the address family that was used to create the socket. Otherwise, an error WSAEFAULT occurs.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. It is cast this way for Windows Sockets 1.1 compatibility. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first 2 bytes in this block (corresponding to the <b>sa_family</b> member of the <b>sockaddr</b> structure, the <b>sin_family</b> member of the <b>sockaddr_in</b> structure, or the <b>sin6_family</b> member of the <b>sockaddr_in6</b> structure) must contain the address family that was used to create the socket. Otherwise, an error WSAEFAULT occurs.
 
 If an application does not care what local address is assigned, specify the constant value <b>INADDR_ANY</b> for an IPv4 local address or the constant value <b>in6addr_any</b> for an IPv6 local address in the <b>sa_data</b> member of the <i>name</i> parameter. This allows the underlying service provider to use any appropriate network address, potentially simplifying application programming in the presence of <i>multihomed</i> hosts (that is, hosts that have more than one network interface and address).
 
@@ -266,7 +267,7 @@ On Windows Vista and later, the dynamic client port range can be viewed and cha
 The application can use 
 <a href="https://msdn.microsoft.com/be20a731-cdfc-48ae-90b2-43f2cf9ecf6d">getsockname</a> after calling 
 <b>bind</b> to learn the address and the port that has been assigned to the socket. If the Internet address is equal to <b>INADDR_ANY</b> or <b>in6addr_any</b>, 
-<b>getsockname</b> cannot necessarily supply the address until the socket is connected, since several addresses can be valid if the host is multihomed. Binding to a specific port number other than port 0 is discouraged for client applications, since there is a danger of conflicting with another socket already using that port number on the local computer.<div class="alert"><b>Note</b>  When using <b>bind</b> with the SO_EXCLUSIVEADDRUSE or SO_REUSEADDR socket option, the socket option must be set prior to executing <b>bind</b> to have any affect. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a> and <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>.</div>
+<b>getsockname</b> cannot necessarily supply the address until the socket is connected, since several addresses can be valid if the host is multihomed. Binding to a specific port number other than port 0 is discouraged for client applications, since there is a danger of conflicting with another socket already using that port number on the local computer.<div class="alert"><b>Note</b>  When using <b>bind</b> with the SO_EXCLUSIVEADDRUSE or SO_REUSEADDR socket option, the socket option must be set prior to executing <b>bind</b> to have any affect. For more information, see <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a> and <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>.</div>
 <div> </div>
 
 
@@ -390,7 +391,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 
 
 
@@ -430,7 +431,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
 
 
 

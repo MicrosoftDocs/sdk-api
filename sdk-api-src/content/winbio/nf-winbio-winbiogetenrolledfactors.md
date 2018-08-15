@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -78,7 +79,7 @@ identity.Type = WINBIO_ID_TYPE_WILDCARD;
 
 ### -param EnrolledFactors [out]
 
-A set of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536458">WINBIO_BIOMETRIC_TYPE</a> flags that indicate the biometric enrollments that the specified user has on the computer. A value of 0 indicates that the user has no biometric enrollments.
+A set of <a href="https://msdn.microsoft.com/DCBDB5F9-FF81-44C1-B439-2B8C02483212">WINBIO_BIOMETRIC_TYPE</a> flags that indicate the biometric enrollments that the specified user has on the computer. A value of 0 indicates that the user has no biometric enrollments.
 
 These enrollments represent system pool enrollments only, such as enrollments that you can use to authenticate a user for sign-in, unlock, and so on.          This value does not include private pool enrollments.
 
@@ -153,7 +154,7 @@ HRESULT hr = WinBioGetEnrolledFactors(&amp;identity, &amp;enrolledFactors);
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536458">WINBIO_BIOMETRIC_TYPE</a>
+<a href="https://msdn.microsoft.com/DCBDB5F9-FF81-44C1-B439-2B8C02483212">WINBIO_BIOMETRIC_TYPE</a>
 
 
 

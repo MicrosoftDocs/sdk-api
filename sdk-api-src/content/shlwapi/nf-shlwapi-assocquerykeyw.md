@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -121,24 +122,24 @@ Type: <b>HKEY*</b>
 A pointer to the key's HKEY value.
 
 
-##### - pszAssoc.File name extension
-
-A file name extension, such as .txt.
-
-
 ##### - pszAssoc.CLSID
 
 A CLSID GUID in the standard "{GUID}" format.
 
 
-##### - pszAssoc.ProgID
-
-An application's ProgID, such as <b>Word.Document.8</b>.
-
-
 ##### - pszAssoc.Executable name
 
 The name of an application's .exe file. The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+
+
+##### - pszAssoc.File name extension
+
+A file name extension, such as .txt.
+
+
+##### - pszAssoc.ProgID
+
+An application's ProgID, such as <b>Word.Document.8</b>.
 
 
 ## -returns

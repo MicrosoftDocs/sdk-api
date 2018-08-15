@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -91,14 +92,14 @@ Value of type <b>int</b> that specifies the state of the part. See <a href="http
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains, in logical coordinates, the specified rectangle used to compute the region. 
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains, in logical coordinates, the specified rectangle used to compute the region. 
 
 
 ### -param pRegion [out]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRGN</a>*</b>
 
-Pointer to the handle to the computed <a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">region</a>.
+Pointer to the handle to the computed <a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">region</a>.
 
 
 ## -returns
@@ -138,7 +139,7 @@ The region handle that is returned by this function should be released when it i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915768">Regions</a>
+<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions</a>
  
 
  

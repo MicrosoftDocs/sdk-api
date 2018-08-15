@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -135,11 +136,6 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
  
 
 
-#### - lpvValue [out]
-
-Pointer to a buffer that receives the value for the specified parameter.
-
-
 #### - lpdwcbValue [in, out]
 
 Pointer to a <b>DWORD</b> value. 
@@ -150,6 +146,11 @@ Pointer to a <b>DWORD</b> value.
 On input, set this value to indicate the size, in bytes, of the <i>lpvValue</i> buffer.
 
 On output, this value indicates the actual size of the value written to the buffer.
+
+
+#### - lpvValue [out]
+
+Pointer to a buffer that receives the value for the specified parameter.
 
 
 ## -returns

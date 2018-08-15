@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -115,7 +116,7 @@ An IPv4 address formatted as a <b>u_long</b>.
 
 The <b>in_addr</b> structure is used with IPv4 addresses. 
 
-The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">in6_addr</a> structure.  
+The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a> structure.  
 
 <div class="alert"><b>Note</b>  The <b>IN_ADDR</b>, <b>PIN_ADDR</b>, and  <b>LPIN_ADDR</b> derived structures are only defined on the Windows SDK released with Windows Vista and later. The <b>IN_ADDR</b>, <b>PIN_ADDR</b>, and  <b>LPIN_ADDR</b> derived structures are defined in the <i>Inaddr.h</i> header file. On earlier versions of the Windows SDK, variables of this type should be declared as <b>struct in_addr</b>. </div>
 <div> </div>
@@ -127,7 +128,7 @@ The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">in6_addr</a>
+<a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a>
 
 
 
@@ -139,7 +140,7 @@ The <b>in_addr</b> structure is the IPv4 equivalent of the IPv6-based <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

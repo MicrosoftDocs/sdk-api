@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -78,7 +79,7 @@ This method blocks file system access to a recorder through applications such as
 <a href="https://msdn.microsoft.com/40f9376d-5702-4dfb-a69b-0ca4fcfc8d8e">QueryMediaType</a>, 
 <a href="https://msdn.microsoft.com/29a40f49-1567-4198-b682-a0e314858baf">Eject</a>, 
 <a href="https://msdn.microsoft.com/61a9cada-a9f4-462d-ab73-a9319308ff01">Erase</a>, and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>.
+<a href="https://msdn.microsoft.com/39af9413-6068-4165-8a26-509389a6d1f2">Close</a>.
 
 It is important to close the recorder before calling 
 <a href="https://msdn.microsoft.com/2b234dc5-2409-49d8-83be-0ffea74f5bcf">IDiscMaster::RecordDisc</a>, or it will fail with IMAPI_E_DEVICE_NOTACCESSIBLE. The device is exclusively committed to access through either 
@@ -89,7 +90,7 @@ An exclusive lock should be held for as short a time as possible. Requests that 
 
 Any time that 
 <b>OpenExclusive</b> is called, it appears to the file system that the disc has been removed. When the corresponding 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> call is made, it appears to the file system that the media has reappeared. This may cause auto-run issues.
+<a href="https://msdn.microsoft.com/39af9413-6068-4165-8a26-509389a6d1f2">Close</a> call is made, it appears to the file system that the media has reappeared. This may cause auto-run issues.
 
 
 

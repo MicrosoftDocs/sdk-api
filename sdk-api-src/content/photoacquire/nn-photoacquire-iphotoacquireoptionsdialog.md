@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -101,7 +102,7 @@ Creates and displays the options dialog box as a modal dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/6e3c7876-28a6-4d5f-afca-7c0421df8c02">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the options dialog box and reads any saved options from the registry.
@@ -125,7 +126,7 @@ Saves the acquisition settings from the options dialog box to the registry, so t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
  
 
  

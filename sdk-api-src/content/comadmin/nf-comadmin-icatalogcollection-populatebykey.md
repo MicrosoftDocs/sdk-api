@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -60,7 +61,7 @@ Populates a selected list of items in the collection from the COM+ catalog, base
 
 ### -param psaKeys [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a> property value of the objects for which data is to be read.
+The <a href="https://msdn.microsoft.com/1937cd5a-742f-4248-a4c2-0b39a03eed20">Key</a> property value of the objects for which data is to be read.
 
 
 ## -returns

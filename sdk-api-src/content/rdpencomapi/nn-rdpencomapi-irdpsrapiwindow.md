@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -90,7 +91,7 @@ Brings the current window to the foreground.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/a9c30288-c471-459e-b0df-a3da1fc58032">Application</a>
 
 
 </td>
@@ -122,7 +123,7 @@ The flags on the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/4defca24-d9f0-4131-86c6-795d6b2e45de">Id</a>
 
 
 </td>
@@ -138,7 +139,7 @@ The ID of the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/14086504-2f67-4ca2-a56c-b5866426e7a4">Name</a>
 
 
 </td>

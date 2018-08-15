@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -131,7 +132,7 @@ Property handlers must ensure that property changes result in a valid destinatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winusbio.h
 req.include-header: Winusbio.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>WINUSB_PIPE_INFORMATION</b> structure contains pipe information that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540293">WinUsb_QueryPipe</a> routine retrieves.
+The <b>WINUSB_PIPE_INFORMATION</b> structure contains pipe information that the <a href="https://msdn.microsoft.com/cbc0a988-27ee-46f5-be03-fe79eedd128a">WinUsb_QueryPipe</a> routine retrieves.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ The <b>WINUSB_PIPE_INFORMATION</b> structure contains pipe information that the 
 
 ### -field PipeType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a>-type enumeration value that specifies the pipe type.
+A <a href="https://msdn.microsoft.com/4522a7d0-d297-4668-bb4e-e4ceae18f52a">USBD_PIPE_TYPE</a>-type enumeration value that specifies the pipe type.
 
 
 ### -field PipeId
@@ -84,15 +85,15 @@ The pipe interval.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a>
+<a href="https://msdn.microsoft.com/4522a7d0-d297-4668-bb4e-e4ceae18f52a">USBD_PIPE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540293">WinUsb_QueryPipe</a>
+<a href="https://msdn.microsoft.com/cbc0a988-27ee-46f5-be03-fe79eedd128a">WinUsb_QueryPipe</a>
  
 
  

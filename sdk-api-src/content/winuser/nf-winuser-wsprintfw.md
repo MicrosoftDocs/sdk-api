@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -68,6 +69,11 @@ TBD
 
 
 
+####### - ... [in]
+
+One or more optional arguments. The number and type of argument parameters depend on the corresponding format-control specifications in the <i>lpFmt</i> parameter.
+
+
 #### - [out]
 
 Type: <b>LPTSTR</b>
@@ -80,11 +86,6 @@ The buffer that is to receive the formatted output. The maximum size of the buff
 Type: <b>LPCTSTR</b>
 
 The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the Remarks section.
-
-
-####### - ... [in]
-
-One or more optional arguments. The number and type of argument parameters depend on the corresponding format-control specifications in the <i>lpFmt</i> parameter.
 
 
 ## -returns
@@ -324,7 +325,7 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Get the eviction priority of a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/78e91654-e3e7-4565-99be-8ccf480b954b">GetType</a>
 </td>
 <td align="left" width="63%">
 Get the type of the resource.
@@ -103,7 +104,7 @@ Set the eviction priority of a resource.
 
 
 
-A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/library/windows/hardware/dn938497">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>).
+A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>).
 
 
 

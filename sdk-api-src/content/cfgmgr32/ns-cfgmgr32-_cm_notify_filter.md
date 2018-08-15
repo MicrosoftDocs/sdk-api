@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -151,7 +152,7 @@ The device instance ID for the device for which to receive notifications.
 
 
 
-When the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a>function, it supplies a pointer to a <b>CM_NOTIFY_FILTER</b> structure in the <i>pFilter</i> parameter.
+When the driver calls the <a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a>function, it supplies a pointer to a <b>CM_NOTIFY_FILTER</b> structure in the <i>pFilter</i> parameter.
 
 
 
@@ -161,11 +162,11 @@ When the driver calls the <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt299054">CM_NOTIFY_ACTION</a>
+<a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a>
+<a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a>
  
 
  

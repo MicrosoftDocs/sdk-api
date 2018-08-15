@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,14 +77,14 @@ Retrieves the current parental level and country/region code settings for the DV
 
 
 
-#### - pParentalLevel [out]
-
-Pointer to a value indicating the current parental level.
-
-
 #### - pCountryCode [out]
 
 Pointer to a value indicating the current country/region code.
+
+
+#### - pParentalLevel [out]
+
+Pointer to a value indicating the current parental level.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <code>Unload</code> method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536532">IDirectMusicSynth::Download</a>.
+The <code>Unload</code> method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to <a href="https://msdn.microsoft.com/2f36654c-25bf-47c3-a4d6-990d427bd1fc">IDirectMusicSynth::Download</a>.
 
 
 ## -parameters
@@ -140,7 +141,7 @@ For more information, see the descriptions of the <b>IDirectMusic</b> and <b>IDi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536532">IDirectMusicSynth::Download</a>
+<a href="https://msdn.microsoft.com/2f36654c-25bf-47c3-a4d6-990d427bd1fc">IDirectMusicSynth::Download</a>
  
 
  

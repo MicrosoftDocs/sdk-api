@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -95,7 +96,7 @@ Indicates that the port was not open.
 
 
 
-This method closes a DirectMusic "port" that was previously opened by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536539">IDirectMusicSynth::Open</a>.
+This method closes a DirectMusic "port" that was previously opened by a call to <a href="https://msdn.microsoft.com/15a16b27-7693-4fc6-80ae-e8aedcf879d0">IDirectMusicSynth::Open</a>.
 
 When the DirectMusic "port" closes, it automatically releases all instruments and waves that were previously downloaded to the port. However, a good practice for applications is to explicitly free these objects before closing the port.
 
@@ -109,7 +110,7 @@ Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMus
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536539">IDirectMusicSynth::Open</a>
+<a href="https://msdn.microsoft.com/15a16b27-7693-4fc6-80ae-e8aedcf879d0">IDirectMusicSynth::Open</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -93,7 +94,7 @@ Clipboard format that is used. Zero represents the best format, which usually is
 
 Type: <b>long*</b>
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
+A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
 					<i>pVar</i> can be pasted, using the specified format, into the range. This parameter can null. 
 
 
@@ -147,7 +148,7 @@ The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
 
 
 

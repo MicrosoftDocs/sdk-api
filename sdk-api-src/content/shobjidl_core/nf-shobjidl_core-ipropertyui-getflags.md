@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
+Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
 
 
 ## -parameters
@@ -75,9 +76,9 @@ The PROPID of the property.
 
 ### -param pflags [out]
 
-Type: <b><a href="shell.PROPERTYUI_FLAGS">PROPERTYUI_FLAGS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx">PROPERTYUI_FLAGS</a>*</b>
 
-The <a href="shell.PROPERTYUI_FLAGS">PROPERTYUI_FLAGS</a> for the property.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb762529(v=VS.85).aspx">PROPERTYUI_FLAGS</a> for the property.
 
 
 ## -returns

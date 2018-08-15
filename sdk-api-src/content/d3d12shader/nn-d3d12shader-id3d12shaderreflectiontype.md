@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -161,7 +162,7 @@ Indicates whether a class type implements an interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/C1EAFAA2-6D35-4D4A-9153-98D927375EAD">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Indicates whether two <b>ID3D12ShaderReflectionType Interface</b> pointers have the same underlying type.

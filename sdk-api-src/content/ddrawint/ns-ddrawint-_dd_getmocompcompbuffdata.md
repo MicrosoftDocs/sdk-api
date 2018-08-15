@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer informatio
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpGuid
@@ -80,7 +81,7 @@ Indicates the height in pixels of the uncompressed output frame.
 
 ### -field ddPixelFormat
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure that contains the pixel format of the uncompressed output frame.
+Points to a <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure that contains the pixel format of the uncompressed output frame.
 
 
 ### -field dwNumTypesCompBuffs
@@ -90,7 +91,7 @@ Indicates how many different types of surfaces the driver requires to perform mo
 
 ### -field lpCompBuffInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549240">DDCOMPBUFFERINFO</a> structure that contains the driver-supplied information for each type of required surface. 
+Points to a <a href="https://msdn.microsoft.com/73dad759-499f-45b2-9345-4577deb01492">DDCOMPBUFFERINFO</a> structure that contains the driver-supplied information for each type of required surface. 
 
 
 ### -field ddRVal

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -99,7 +100,7 @@ Retrieves the item's <a href="https://msdn.microsoft.com/31badb4b-b89e-4294-9dd7
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/cd8d6dea-1d16-4d62-b56b-c915192f730b">Application</a>
 
 
 </td>
@@ -108,7 +109,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a> object of the folder item.
+Contains the <a href="https://msdn.microsoft.com/cd8d6dea-1d16-4d62-b56b-c915192f730b">Application</a> object of the folder item.
 
 </td>
 </tr>
@@ -227,7 +228,7 @@ Sets or gets the date and time that a file was last modified. <a href="https://m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/079efc8d-3d08-48b1-bdb1-83f4b89fd633">Name</a>
 
 
 </td>
@@ -259,7 +260,7 @@ Gets an object that represents the parent of the item.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/c94c7c1c-9dc9-4bb8-b7ec-01541baa2924">Path</a>
 
 
 </td>
@@ -275,7 +276,7 @@ Contains the item's full path and name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a>
+<a href="https://msdn.microsoft.com/0eda405e-d54f-48d2-a060-a1fdcdb23785">Size</a>
 
 
 </td>
@@ -291,7 +292,7 @@ Contains the item's size.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/e851d632-9562-4194-a24c-12e757227b5b">Type</a>
 
 
 </td>

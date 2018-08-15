@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -124,7 +125,7 @@ Returns the count of names in an alternate name array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets an alternate name array to a specified number of elements and clears the values.

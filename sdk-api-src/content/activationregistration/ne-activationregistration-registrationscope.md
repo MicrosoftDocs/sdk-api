@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -72,6 +73,11 @@ Represents the deployment scope of an activatable class.
 
 
 
+#### - InboxApp
+
+Activation is per-machine, for a built-in app store.
+
+
 #### - PerMachine
 
 Activation is per-machine, for a Windows Store app.
@@ -80,11 +86,6 @@ Activation is per-machine, for a Windows Store app.
 #### - PerUser
 
 Activation is per user, from a 3rd-party app store.
-
-
-#### - InboxApp
-
-Activation is per-machine, for a built-in app store.
 
 
 ## -see-also

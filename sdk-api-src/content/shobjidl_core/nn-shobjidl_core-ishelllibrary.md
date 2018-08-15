@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -80,7 +81,7 @@ Adds a folder to the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/a340964d-ea20-4a3b-be8b-f4f4dbf624ed">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits library updates to an existing Library Description file.
@@ -127,7 +128,7 @@ Gets the default icon for the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/1a144505-e977-4db6-8266-c39c1de8a8f9">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the library's options.
@@ -172,7 +173,7 @@ Resolves the target location of a library folder, even if the folder has been mo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/2a7de829-f0bc-4ace-aed4-83d0611ae292">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the library to a new Library Description (*.library-ms) file.

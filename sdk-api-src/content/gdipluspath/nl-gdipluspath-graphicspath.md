@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluspath.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: GDI+ 1.0
 
 A <a href="https://msdn.microsoft.com/en-us/library/ms535523(v=VS.85).aspx">GraphicsPath</a> object stores a sequence of lines, curves, and shapes. You can draw the entire sequence by calling the 
 			<b>DrawPath</b> method of a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. You can partition the sequence of lines, curves, and shapes into figures, and with the help of a 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. You can partition the sequence of lines, curves, and shapes into figures, and with the help of a 
 			<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> object, you can draw selected figures. You can also place markers in the sequence, so that you can draw selected portions of the path.
 
 

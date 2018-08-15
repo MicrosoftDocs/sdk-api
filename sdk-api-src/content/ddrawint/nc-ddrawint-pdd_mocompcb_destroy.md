@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdMoCompDestroy</b> callback function notifies the driver that this motio
 
 #### - lpDestroyData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550570">DD_DESTROYMOCOMPDATA</a> structure that contains the information needed to finish motion compensation.
+Points to a <a href="https://msdn.microsoft.com/0db32ded-2e32-471d-a752-1f5beffec684">DD_DESTROYMOCOMPDATA</a> structure that contains the information needed to finish motion compensation.
 
 
 ## -returns
@@ -95,7 +96,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55057
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550570">DD_DESTROYMOCOMPDATA</a>
+<a href="https://msdn.microsoft.com/0db32ded-2e32-471d-a752-1f5beffec684">DD_DESTROYMOCOMPDATA</a>
  
 
  

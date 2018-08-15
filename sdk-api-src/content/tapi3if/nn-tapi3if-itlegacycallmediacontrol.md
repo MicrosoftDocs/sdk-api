@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ The <b>ITLegacyCallMediaControl</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 Sets 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923108">mode</a> for digit detection.
+<a href="https://msdn.microsoft.com/69663f27-10e6-4dc1-bcab-728c83648912">mode</a> for digit detection.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ Sends digits to call destination.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/7516f929-d782-499b-a9fb-24c44a85aa9e">GetID</a>
 </td>
 <td align="left" width="63%">
 Gets identifier for device associated with the current call. This method is intended for Visual Basic and scripting applications.

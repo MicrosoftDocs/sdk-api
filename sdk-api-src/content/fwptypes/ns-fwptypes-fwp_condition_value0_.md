@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>FWP_CONDITION_VALUE0</b> structure contains values that are used in filte
 
 Specifies the data type of the condition value.
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a> for more information.
+See <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a> for more information.
 
 
 ### -field uint8
@@ -146,7 +147,7 @@ A pointer to a double-precision floating-point  value.
 
 Available when <b>type</b> is FWP_BYTE_ARRAY16_TYPE.
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a>  structure.
+A pointer to a <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>  structure.
 
 <div class="alert"><b>Note</b>  This value cannot be null.</div>
 <div> </div>
@@ -155,9 +156,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 Available when <b>type</b> is FWP_BYTE_BLOB_TYPE.
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+A pointer to a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure cannot be null.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure cannot be null.</div>
 <div> </div>
 
 ### -field sid
@@ -173,7 +174,7 @@ A pointer to a security identifier (SID) structure.
 
 Available when <b>type</b> is FWP_SECURITY_DESCRIPTOR_TYPE.
 
-A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
 
 <div class="alert"><b>Note</b>  Security descriptors cannot be null when used in filter conditions. Moreover, they need to be in self-relative format.</div>
 <div> </div>
@@ -182,16 +183,16 @@ A pointer to a security descriptor contained in a <a href="https://msdn.microsof
 
 Available when <b>type</b> is FWP_TOKEN_INFORMATION_TYPE.
 
-A pointer to token information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552440">FWP_TOKEN_INFORMATION</a>  structure.
+A pointer to token information contained in a <a href="https://msdn.microsoft.com/30bc6d4b-e3a8-4adf-82d5-adaf30f042ff">FWP_TOKEN_INFORMATION</a>  structure.
 
 
 ### -field tokenAccessInformation
 
 Available when <b>type</b> is FWP_TOKEN_ACCESS_INFORMATION_TYPE.
 
-A pointer to token access information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+A pointer to token access information contained in a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure cannot be null.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure cannot be null.</div>
 <div> </div>
 
 ### -field unicodeString
@@ -223,21 +224,21 @@ A pointer to a <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84
 
 Available when <b>type</b> is FWP_V4_ADDR_MASK.
 
-A pointer to an IPv4 address contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552441">FWP_V4_ADDR_AND_MASK</a>  structure.
+A pointer to an IPv4 address contained in  an <a href="https://msdn.microsoft.com/da6315af-264e-4dcb-b5eb-ac308128a511">FWP_V4_ADDR_AND_MASK</a>  structure.
 
 
 ### -field v6AddrMask
 
 Available when <b>type</b> is FWP_V6_ADDR_MASK.
 
-A pointer to an IPv6 address contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>  structure.
+A pointer to an IPv6 address contained in  an <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>  structure.
 
 
 ### -field rangeValue
 
 Available when <b>type</b> is FWP_RANGE_TYPE.
 
-A pointer to a range contained in  an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552438">FWP_RANGE0</a>  structure.
+A pointer to a range contained in  an <a href="https://msdn.microsoft.com/191ec0e4-2489-4f6f-80c5-8feec83d69c2">FWP_RANGE0</a>  structure.
 
 
 ## -remarks
@@ -246,9 +247,9 @@ A pointer to a range contained in  an <a href="https://msdn.microsoft.com/librar
 
 The data type of 
 <b>FWP_CONDITION_VALUE0</b> must be compatible with the data type of the
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> to which it is being compared. However, this does not mean the data types
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> to which it is being compared. However, this does not mean the data types
 necessarily need to be the same. For example, an FWP_V4_ADDR_MASK can be
-compared to an FWP_UINT32 containing an IPv4 address. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552437">FWP_MATCH_TYPE</a> for detailed information about <b>FWP_CONDITION_VALUE0</b> and <b>FWP_VALUE0</b> compatibility rules.
+compared to an FWP_UINT32 containing an IPv4 address. See <a href="https://msdn.microsoft.com/a49efb25-990c-459d-90bc-758337c351d5">FWP_MATCH_TYPE</a> for detailed information about <b>FWP_CONDITION_VALUE0</b> and <b>FWP_VALUE0</b> compatibility rules.
 
 <b>FWP_CONDITION_VALUE0</b> is a specific implementation of FWP_CONDITION_VALUE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
@@ -260,7 +261,7 @@ compared to an FWP_UINT32 containing an IPv4 address. See <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a>
+<a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>
 
 
 
@@ -268,23 +269,23 @@ compared to an FWP_UINT32 containing an IPv4 address. See <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552438">FWP_RANGE0</a>
+<a href="https://msdn.microsoft.com/191ec0e4-2489-4f6f-80c5-8feec83d69c2">FWP_RANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552441">FWP_V4_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/da6315af-264e-4dcb-b5eb-ac308128a511">FWP_V4_ADDR_AND_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
 
 
 

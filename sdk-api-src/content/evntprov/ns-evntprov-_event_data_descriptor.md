@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-The EVENT_DATA_DESCRIPTOR structure is used with the user mode <a href="http://go.microsoft.com/fwlink/p/?linkid=103400">EventWrite</a> and the kernel mode <a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a> functions to send events. The EVENT_DATA_DESCRIPTOR structure describes the event payload. 
+The EVENT_DATA_DESCRIPTOR structure is used with the user mode <a href="http://go.microsoft.com/fwlink/p/?linkid=103400">EventWrite</a> and the kernel mode <a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a> functions to send events. The EVENT_DATA_DESCRIPTOR structure describes the event payload. 
 
 
 ## -struct-fields
@@ -142,11 +143,11 @@ The most convenient method of populating the EVENT_DATA_DESCRIPTOR structure is 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a>
+<a href="https://msdn.microsoft.com/b9d4f6da-694d-4737-9cbe-3666e693c0a2">EtwWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545681">Event Descriptor</a>
+<a href="https://msdn.microsoft.com/cfe84b3d-fed2-4624-9899-8451e5b39de0">Event Descriptor</a>
 
 
 

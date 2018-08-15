@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -84,7 +85,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms691943(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/d55d5ca8-6dd7-43c9-aba3-b6ed9f9b7558">GetStatus</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms692788(v=VS.85).aspx">IFaxPort::GetStatus</a> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object for the parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The FaxStatus object contains the current status of a fax port.
@@ -118,7 +119,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692798(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">Csid</a>
+<a href="https://msdn.microsoft.com/f4625705-8bee-4c84-a643-60085fbf5102">Csid</a>
 
 
 </td>
@@ -150,7 +151,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/245641d0-1449-46df-a83a-283871612e0e">Name</a>
 
 
 </td>
@@ -199,7 +200,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692368(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915786">Rings</a>
+<a href="https://msdn.microsoft.com/4f701de2-3c8a-4dd8-96b3-6e33a1662de2">Rings</a>
 
 
 </td>
@@ -231,7 +232,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692839(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">Tsid</a>
+<a href="https://msdn.microsoft.com/3449c761-9d36-407f-8434-3957f2ab1dd1">Tsid</a>
 
 
 </td>

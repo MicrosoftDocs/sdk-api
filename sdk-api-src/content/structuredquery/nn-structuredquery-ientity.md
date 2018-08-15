@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -111,7 +112,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915567">MetaData</a>
+<a href="https://msdn.microsoft.com/fb375a52-ded1-432a-bfb9-451cd4161ff7">MetaData</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this entity.
@@ -121,7 +122,7 @@ Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/bfff36b8-0b3b-4673-b788-d612ff840989">Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of this entity.

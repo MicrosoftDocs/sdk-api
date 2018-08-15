@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dciman.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ Closes a device context of a display.
 
 ### -param hdc [in]
 
-The device context handle to be closed.  The handle was created with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549150">DCIOpenProvider</a>.
+The device context handle to be closed.  The handle was created with <a href="https://msdn.microsoft.com/9411c969-3434-400b-a285-33d5403b1a23">DCIOpenProvider</a>.
  
 
 

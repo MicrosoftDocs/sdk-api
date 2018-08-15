@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -82,7 +83,7 @@ Returns the next <b>ICoreFragment</b> objects in the knowledge, if they are avai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/57621ce0-c484-4687-9f2f-98d285b041ca">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the knowledge.

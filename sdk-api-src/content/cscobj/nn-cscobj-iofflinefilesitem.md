@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -89,7 +90,7 @@ Retrieves the <b>IOfflineFilesItem</b> interface for the parent of the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/d1453c9c-e0e7-4451-bb42-58a627fa1db5">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fully qualified UNC path string for an item in the Offline Files cache.

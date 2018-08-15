@@ -2,7 +2,7 @@
 UID: NA:vdslun
 ms.assetid: 93ea3e02-b5fe-3e48-8fce-5d0e253688fd
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

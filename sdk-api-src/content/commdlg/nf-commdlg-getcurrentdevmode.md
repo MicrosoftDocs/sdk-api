@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -82,7 +83,7 @@ Type: <b>HRESULT</b>
 
 If the method is successful, the return value is <b>S_OK</b>. If no printer is currently selected, the return value is <b>S_OK</b>, the value returned in <i>pcbSize</i> is zero, and the <i>lpDevMode</i> buffer is unchanged.
 
-If an error occurs, the return value is a COM error code. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+If an error occurs, the return value is a COM error code. For more information, see <a href="_com_error_handling">Error Handling</a>.
 
 
 

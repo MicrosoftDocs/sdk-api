@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msvidctl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -299,7 +300,7 @@ Retrieves the window handle associated with the Video Control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/fd7687d8-325f-4a51-ab57-ffcc45a9157b">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the filter graph.
@@ -425,7 +426,7 @@ Refreshes the graph configuration and the video display rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/37ed6d7b-2e44-4bce-b476-8e8b28635346">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the filter graph.
@@ -434,7 +435,7 @@ Runs the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/8ca43663-3726-4147-8774-2f1eecef9142">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the filter graph.
@@ -443,7 +444,7 @@ Stops the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a>
+<a href="https://msdn.microsoft.com/ec0e2a88-13c0-42f3-ba7d-8ebff1234b86">View</a>
 </td>
 <td align="left" width="63%">
 Selects an input device that is capable of handling a specified tune request.

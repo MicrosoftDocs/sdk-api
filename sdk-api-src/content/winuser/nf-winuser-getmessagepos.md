@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -89,7 +90,7 @@ The return value specifies the x- and y-coordinates of the cursor position. The 
 
 
 
-As noted above, the x-coordinate is in the low-order <b>short</b> of the return value; the y-coordinate is in the high-order <b>short</b> (both represent <i>signed</i> values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the <a href="https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be">MAKEPOINTS</a> macro to obtain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure from the return value. You can also use the <a href="https://msdn.microsoft.com/en-us/library/ms632654(v=VS.85).aspx">GET_X_LPARAM</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632655(v=VS.85).aspx">GET_Y_LPARAM</a> macro to extract the x- or y-coordinate. 
+As noted above, the x-coordinate is in the low-order <b>short</b> of the return value; the y-coordinate is in the high-order <b>short</b> (both represent <i>signed</i> values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the <a href="https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be">MAKEPOINTS</a> macro to obtain a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure from the return value. You can also use the <a href="https://msdn.microsoft.com/en-us/library/ms632654(v=VS.85).aspx">GET_X_LPARAM</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632655(v=VS.85).aspx">GET_Y_LPARAM</a> macro to extract the x- or y-coordinate. 
 
 <div class="alert"><b>Important</b>  Do not use the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and <b>LOWORD</b> and <b>HIWORD</b> treat the coordinates as unsigned quantities.</div>
 <div> </div>
@@ -137,7 +138,7 @@ As noted above, the x-coordinate is in the low-order <b>short</b> of the return 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>
+<a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>
 
 
 

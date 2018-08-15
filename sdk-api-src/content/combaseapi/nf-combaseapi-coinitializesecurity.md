@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -65,7 +66,7 @@ Registers security and sets the default security values for the process.
 
 ### -param pSecDesc [in, optional]
 
-The access permissions that a server will use to receive calls. This parameter is used by COM only when a server calls <b>CoInitializeSecurity</b>. Its value is a pointer to one of three types: an AppID, an <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a> object, or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>, in absolute format. See the Remarks section for more information.
+The access permissions that a server will use to receive calls. This parameter is used by COM only when a server calls <b>CoInitializeSecurity</b>. Its value is a pointer to one of three types: an AppID, an <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a> object, or a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>, in absolute format. See the Remarks section for more information.
 
 
 ### -param cAuthSvc [in]
@@ -180,7 +181,7 @@ The <b>CoInitializeSecurity</b> function initializes the security layer and sets
 
 
 
-This function is called exactly once per process, either explicitly or implicitly. It can be called by the client, server, or both. For legacy applications and other applications that do not explicitly call <b>CoInitializeSecurity</b>, COM calls this function implicitly with values from the registry. If you set processwide security using the registry and then call <b>CoInitializeSecurity</b>, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922446">AppID</a> registry values will be ignored and the <b>CoInitializeSecurity</b> values will be used.
+This function is called exactly once per process, either explicitly or implicitly. It can be called by the client, server, or both. For legacy applications and other applications that do not explicitly call <b>CoInitializeSecurity</b>, COM calls this function implicitly with values from the registry. If you set processwide security using the registry and then call <b>CoInitializeSecurity</b>, the <a href="https://msdn.microsoft.com/4e3d8c87-e6d7-4b4d-8f72-7180be1e51cf">AppID</a> registry values will be ignored and the <b>CoInitializeSecurity</b> values will be used.
 
 <b>CoInitializeSecurity</b> can be used to override both computer-wide access permissions and application-specific access permissions, but not to override the computer-wide restriction policy.
 
@@ -194,11 +195,11 @@ If <i>pSecDesc</i> is a pointer to an <a href="https://msdn.microsoft.com/f7f19a
 
 
 
-If <i>pSecDesc</i> is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>, neither the EOAC_APPID nor the EOAC_ACCESS_CONTROL flag can be set in <i>dwCapabilities</i>. The owner and group of the <b>SECURITY_DESCRIPTOR</b> must be set, and until DCOM supports auditing, the system ACL must be <b>NULL</b>. The access-control entries (ACEs) in the discretionary ACL (DACL) of the <b>SECURITY_DESCRIPTOR</b> are used to find out which callers are permitted to connect to the process's objects. A DACL with no ACEs allows no access, while a <b>NULL</b> DACL will allow calls from anyone. For more information on ACLs and ACEs, see <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>. Applications should call <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a> (not <a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a>) to ensure that their <b>SECURITY_DESCRIPTOR</b> is correctly formed prior to calling <b>CoInitializeSecurity</b>.
+If <i>pSecDesc</i> is a pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>, neither the EOAC_APPID nor the EOAC_ACCESS_CONTROL flag can be set in <i>dwCapabilities</i>. The owner and group of the <b>SECURITY_DESCRIPTOR</b> must be set, and until DCOM supports auditing, the system ACL must be <b>NULL</b>. The access-control entries (ACEs) in the discretionary ACL (DACL) of the <b>SECURITY_DESCRIPTOR</b> are used to find out which callers are permitted to connect to the process's objects. A DACL with no ACEs allows no access, while a <b>NULL</b> DACL will allow calls from anyone. For more information on ACLs and ACEs, see <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>. Applications should call <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a> (not <a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a>) to ensure that their <b>SECURITY_DESCRIPTOR</b> is correctly formed prior to calling <b>CoInitializeSecurity</b>.
 
 
 
-Passing <i>pSecDesc</i> as <b>NULL</b> is strongly discouraged. An appropriate alternative might be to use a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> that allows Everyone. If <i>pSecDesc</i> is <b>NULL</b>, the flags in <i>dwCapabilities</i> determine how <b>CoInitializeSecurity</b> defines the access permissions that a server will use, as follows: 
+Passing <i>pSecDesc</i> as <b>NULL</b> is strongly discouraged. An appropriate alternative might be to use a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> that allows Everyone. If <i>pSecDesc</i> is <b>NULL</b>, the flags in <i>dwCapabilities</i> determine how <b>CoInitializeSecurity</b> defines the access permissions that a server will use, as follows: 
 
 
 

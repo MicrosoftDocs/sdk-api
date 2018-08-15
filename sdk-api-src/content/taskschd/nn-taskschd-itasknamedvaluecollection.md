@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>ITaskNamedValueCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/ac6ac365-5315-49d4-b67a-9c840a2caf51">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the entire collection of name-value pairs.
@@ -90,7 +91,7 @@ Creates a name-value pair in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/7c73fb37-5551-497f-86d9-b7158109ca38">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a selected name-value pair from the collection.
@@ -108,7 +109,7 @@ Removes a selected name-value pair from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/53bcb237-939e-4e10-bc83-83a5dcdeab70">_NewEnum</a>
 
 
 </td>
@@ -124,7 +125,7 @@ Gets the collection enumerator for the name-value pair collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/aedb4d3d-0f72-4224-8488-4100d2416994">Count</a>
 
 
 </td>
@@ -140,7 +141,7 @@ Gets the number of name-value pairs in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/a243b814-7d83-466d-bd49-3414f3240780">Item</a>
 
 
 </td>

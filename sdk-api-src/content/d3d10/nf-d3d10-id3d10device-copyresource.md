@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -90,7 +91,7 @@ This method is unusual in that it causes the GPU to perform the copy operation (
 
 <ul>
 <li>Must be different resources.</li>
-<li>Must be the same <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">type</a>.</li>
+<li>Must be the same <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">type</a>.</li>
 <li>Must have identical dimensions (including width, height, depth, and size as appropriate).</li>
 <li>Must have compatible <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopyResource</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.</li>
 <li>May not be currently <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">mapped</a>.</li>

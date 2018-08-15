@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ If the function succeeds, it returns the major revision number in the high-order
 
 This function returns version 4.0 of the configuration manager to ensure compatibility with version 4.0 and all later versions of the configuration manager, and to ensure compatibility with all applications that require version 4.0 of the configuration manager.
 
-To determine if a specific version of the configuration manager is available on a machine, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538736">CM_Is_Version_Available</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff538739">CM_Is_Version_Available_Ex</a>.
+To determine if a specific version of the configuration manager is available on a machine, use <a href="https://msdn.microsoft.com/a7a1e8d0-7645-423a-8123-a58ed7ae9827">CM_Is_Version_Available</a> or <a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a>.
 
 
 
@@ -87,15 +88,15 @@ To determine if a specific version of the configuration manager is available on 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538696">CM_Get_Version_Ex</a>
+<a href="https://msdn.microsoft.com/f189a417-48a4-436e-bb1c-6b0c9f066c04">CM_Get_Version_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538736">CM_Is_Version_Available</a>
+<a href="https://msdn.microsoft.com/a7a1e8d0-7645-423a-8123-a58ed7ae9827">CM_Is_Version_Available</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538739">CM_Is_Version_Available_Ex</a>
+<a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a>
  
 
  

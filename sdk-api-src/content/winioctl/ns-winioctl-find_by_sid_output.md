@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ A pointer to a null-terminated string that specifies the file name.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544833">FSCTL_FIND_FILES_BY_SID</a>
+<a href="https://msdn.microsoft.com/10d46c2e-9403-4c8a-8847-f427fbc6c905">FSCTL_FIND_FILES_BY_SID</a>
  
 
  

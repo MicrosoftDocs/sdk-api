@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -197,7 +198,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
+If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
 </td>
 </tr>
@@ -240,7 +241,7 @@ The directory listing displays long filenames, if any.
 
 #### Examples
 
-For examples, see the following topics: <a href="Using_List_Boxes.htm">Creating a Directory Listing in a Single-selection List Box</a> and <a href="Using_List_Boxes.htm">Creating a Multiple-selection List Box</a>. 
+For examples, see the following topics: <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Directory Listing in a Single-selection List Box</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775148(v=VS.85).aspx">Creating a Multiple-selection List Box</a>. 
 
 <div class="code"></div>
 

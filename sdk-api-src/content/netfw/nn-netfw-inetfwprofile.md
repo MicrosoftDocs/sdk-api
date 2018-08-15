@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -293,7 +294,7 @@ Access to the RemoteAdminSettings object for this profile.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a>
+<a href="https://msdn.microsoft.com/38b32f8e-9aeb-4f63-9880-f393cce185fb">Services</a>
 
 
 </td>
@@ -305,7 +306,7 @@ Access to the  Services collection for this profile.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/aa3be066-e1f7-47a1-bdde-4bbd79067b1e">Type</a>
 
 
 </td>

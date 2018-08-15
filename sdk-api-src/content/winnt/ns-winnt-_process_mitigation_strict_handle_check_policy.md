@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -91,14 +92,14 @@ This member is reserved for system use.
 
 
 
-#### - RaiseExceptionOnInvalidHandleReference : 1
-
-When set to 1, an exception is raised if an invalid handle to a kernel object is used. Except as noted in the Remarks section, once exceptions for invalid handles are enabled for a process, they cannot be disabled.
-
-
 #### - HandleExceptionsPermanentlyEnabled : 1
 
 When set to 1, exceptions for invalid kernel handles are permanently enabled.
+
+
+#### - RaiseExceptionOnInvalidHandleReference : 1
+
+When set to 1, an exception is raised if an invalid handle to a kernel object is used. Except as noted in the Remarks section, once exceptions for invalid handles are enabled for a process, they cannot be disabled.
 
 
 #### - ReservedFlags : 30

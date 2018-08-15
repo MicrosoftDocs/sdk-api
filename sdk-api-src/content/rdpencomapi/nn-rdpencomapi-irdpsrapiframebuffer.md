@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -108,7 +109,7 @@ Bits per pixel.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542686">Height</a>
+<a href="https://msdn.microsoft.com/56042b85-6f2c-44ec-82ac-81ee9425c863">Height</a>
 
 
 </td>
@@ -124,7 +125,7 @@ The height of the frame in pixels.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553316">Width</a>
+<a href="https://msdn.microsoft.com/7f54d18a-29cf-402a-a672-2d0dae1f8ce4">Width</a>
 
 
 </td>

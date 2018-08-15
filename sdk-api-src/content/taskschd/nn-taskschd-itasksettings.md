@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -60,7 +61,7 @@ req.product: Windows XP with SP1 and later
 
 By default, a task will be stopped 72 hours after it starts to run.  You can change this by changing the <a href="https://msdn.microsoft.com/33e70133-9dfe-402a-9a1a-87f3fcc3eb96">ExecutionTimeLimit</a> setting.
 
-When reading or writing XML for a task, the task settings are defined in the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt168438">Settings</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the task settings are defined in the  <a href="https://msdn.microsoft.com/72d2929a-0dd2-44cd-be7b-72eca23a5e14">Settings</a> element of the Task Scheduler schema.
 
 When battery saver is on, Windows Task Scheduler tasks are triggered only if the task is:
 

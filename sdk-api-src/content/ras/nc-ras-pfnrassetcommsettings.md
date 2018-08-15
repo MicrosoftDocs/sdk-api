@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP2 [desktop apps only]

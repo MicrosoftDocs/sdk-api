@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -76,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A control cycles through its states in this order: <a href="uiauto_ToggleState.htm">ToggleState_On</a>, <a href="uiauto_ToggleState.htm">ToggleState_Off</a> and, if supported, <a href="uiauto_ToggleState.htm">ToggleState_Indeterminate</a>.
+A control cycles through its states in this order: <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_On</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_Off</a> and, if supported, <a href="https://msdn.microsoft.com/en-us/library/Ee671694(v=VS.85).aspx">ToggleState_Indeterminate</a>.
 
 
 

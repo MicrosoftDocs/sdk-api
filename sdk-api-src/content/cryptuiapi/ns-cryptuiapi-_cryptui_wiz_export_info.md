@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -127,7 +128,7 @@ Export the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2
 </dl>
 </td>
 <td width="60%">
-Export only the <a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">certificates</a> from the certificate store that is specified in the <b>hCertStore</b> member.
+Export only the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificates</a> from the certificate store that is specified in the <b>hCertStore</b> member.
 
 </td>
 </tr>

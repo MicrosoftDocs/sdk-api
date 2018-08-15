@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.dll:
 ## -description
 
 
- Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>.
+ Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>.
 
 
 
@@ -316,10 +317,15 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 
 
-##### - Access.ACTRL_SYSTEM_ACCESS
+##### - Access.ACTRL_CHANGE_ACCESS
 
-<a id="ACTRL_DELETE"></a>
-<a id="actrl_delete"></a>
+<a id="ACTRL_CHANGE_OWNER"></a>
+<a id="actrl_change_owner"></a>
+
+##### - Access.ACTRL_CHANGE_OWNER
+
+<a id="ACTRL_SYNCHRONIZE"></a>
+<a id="actrl_synchronize"></a>
 
 ##### - Access.ACTRL_DELETE
 
@@ -331,21 +337,6 @@ A pointer to a null-terminated string that identifies the object types that can 
 <a id="ACTRL_CHANGE_ACCESS"></a>
 <a id="actrl_change_access"></a>
 
-##### - Access.ACTRL_CHANGE_ACCESS
-
-<a id="ACTRL_CHANGE_OWNER"></a>
-<a id="actrl_change_owner"></a>
-
-##### - Access.ACTRL_CHANGE_OWNER
-
-<a id="ACTRL_SYNCHRONIZE"></a>
-<a id="actrl_synchronize"></a>
-
-##### - Access.ACTRL_SYNCHRONIZE
-
-<a id="ACTRL_STD_RIGHTS_ALL"></a>
-<a id="actrl_std_rights_all"></a>
-
 ##### - Access.ACTRL_STD_RIGHTS_ALL
 
 <a id="ACTRL_STD_RIGHT_REQUIRED"></a>
@@ -355,6 +346,24 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 <a id="COM_RIGHTS_EXECUTE"></a>
 <a id="com_rights_execute"></a>
+
+##### - Access.ACTRL_SYNCHRONIZE
+
+<a id="ACTRL_STD_RIGHTS_ALL"></a>
+<a id="actrl_std_rights_all"></a>
+
+##### - Access.ACTRL_SYSTEM_ACCESS
+
+<a id="ACTRL_DELETE"></a>
+<a id="actrl_delete"></a>
+
+##### - Access.COM_RIGHTS_ACTIVATE_LOCAL
+
+<a id="COM_RIGHTS_ACTIVATE_REMOTE"></a>
+<a id="com_rights_activate_remote"></a>
+
+##### - Access.COM_RIGHTS_ACTIVATE_REMOTE
+
 
 ##### - Access.COM_RIGHTS_EXECUTE
 
@@ -370,14 +379,6 @@ A pointer to a null-terminated string that identifies the object types that can 
 
 <a id="COM_RIGHTS_ACTIVATE_LOCAL"></a>
 <a id="com_rights_activate_local"></a>
-
-##### - Access.COM_RIGHTS_ACTIVATE_LOCAL
-
-<a id="COM_RIGHTS_ACTIVATE_REMOTE"></a>
-<a id="com_rights_activate_remote"></a>
-
-##### - Access.COM_RIGHTS_ACTIVATE_REMOTE
-
 
 ## -see-also
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -82,7 +83,7 @@ The type of change that occurred in the tree.
 Type: <b>int*</b>
 
 The runtime IDs for the child elements of the provider node 
-    where the tree change occurred. This parameter is used only when <i>structureChangeType</i> is <a href="uiauto_StructureChangeTypeEnum.htm">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events.
+    where the tree change occurred. This parameter is used only when <i>structureChangeType</i> is <a href="https://msdn.microsoft.com/en-us/library/Ee671618(v=VS.85).aspx">StructureChangeType_ChildRemoved</a>; it is <b>NULL</b> for all other structure-change events.
 
 <div class="alert"><b>Note</b>  For Windows 7, the array of integers pointed to by <i>pRuntimeId</i> can contain a partial set of 
     IDs that identify only those elements affected by the structure change.</div>

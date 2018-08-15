@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -82,7 +83,7 @@ Used for creation only. The call will fail if the class or instance already exis
 
 ### -field wbemChangeFlagUpdateCompatible
 
-Allows a class to be updated if there are no derived classes and there are no instances for that class. It also allows updates in all cases if the change is just to non-important qualifiers (for example, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a> qualifier). If the class has instances, the update fails. This flag is used for compatibility with previous versions of WMI.
+Allows a class to be updated if there are no derived classes and there are no instances for that class. It also allows updates in all cases if the change is just to non-important qualifiers (for example, the <a href="https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e">Description</a> qualifier). If the class has instances, the update fails. This flag is used for compatibility with previous versions of WMI.
 
 
 ### -field wbemChangeFlagUpdateSafeMode

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -69,7 +70,7 @@ This property is read-only.
 
 
 
-<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903677(v=VS.85).aspx">IUIAutomationElement4</a>
  
 
  

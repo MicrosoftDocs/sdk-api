@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -89,7 +90,7 @@ Gets the date and time when the handler was last synchronized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/466c5bd5-0166-4c0d-801d-a155f20140ce">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the handler type for Sync Center.
@@ -125,7 +126,7 @@ Gets a value that indicates whether the handler—typically some type of externa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450992">IsEnabled</a>
+<a href="https://msdn.microsoft.com/1485ae25-20b8-4ee9-a30d-247f719047cd">IsEnabled</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the handler is enabled.

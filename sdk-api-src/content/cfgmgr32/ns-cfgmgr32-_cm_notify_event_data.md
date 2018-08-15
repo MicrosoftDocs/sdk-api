@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ This is a device notification event data structure.
 
 ### -field FilterType
 
-The <b>CM_NOTIFY_FILTER_TYPE</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/mt299055">CM_NOTIFY_FILTER</a> structure that was used in the registration that generated this notification event data.
+The <b>CM_NOTIFY_FILTER_TYPE</b> from the <a href="https://msdn.microsoft.com/8B6CC440-7B41-4382-9917-6833031D5E1B">CM_NOTIFY_FILTER</a> structure that was used in the registration that generated this notification event data.
 
 
 ### -field Reserved
@@ -127,7 +128,7 @@ The device instance ID of the device to which the notification event data pertai
 
 
 
-The notification callback supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a> receives a pointer to a structure of type <b>CM_NOTIFY_EVENT_DATA</b> in the callback's <i>EventData</i> parameter.
+The notification callback supplied to <a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a> receives a pointer to a structure of type <b>CM_NOTIFY_EVENT_DATA</b> in the callback's <i>EventData</i> parameter.
 
 
 
@@ -137,7 +138,7 @@ The notification callback supplied to <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a>
+<a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a>
  
 
  

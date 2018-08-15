@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -100,7 +101,7 @@ Returns the state object specified by the caller in the asynchronous <b>Begin</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/ad99f3dd-4885-42e8-8f4e-060d522dde7b">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the status of the asynchronous operation.

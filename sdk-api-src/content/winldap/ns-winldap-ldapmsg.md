@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -80,7 +81,7 @@ There are no client-accessible fields in this structure.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">functions</a>
+<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">functions</a>
 
 
 

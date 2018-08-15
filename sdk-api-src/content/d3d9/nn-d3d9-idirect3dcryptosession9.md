@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -101,7 +102,7 @@ Writes encrypted data to a protected surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/b5e4522b-d5a5-4ece-9b78-2cebdf9f9364">FinishSessionKeyRefresh</a>
 </td>
 <td align="left" width="63%">
 Switches to a new session key.
@@ -110,7 +111,7 @@ Switches to a new session key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451654">GetCertificateSize</a>
+<a href="https://msdn.microsoft.com/f85f3453-5bf8-412c-9ed9-e39bff496df6">GetCertificateSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the driver's certificate chain.
@@ -119,7 +120,7 @@ Gets the size of the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451660">GetEncryptionBltKey</a>
+<a href="https://msdn.microsoft.com/c06b42b7-dc8a-4004-b2c5-37accc76db40">GetEncryptionBltKey</a>
 </td>
 <td align="left" width="63%">
 Gets the key that is used to decrypt the data returned by the <a href="https://msdn.microsoft.com/42aa21d3-7c38-4058-b766-454be8b1ae80">EncryptionBlt</a> method.
@@ -146,7 +147,7 @@ Establishes the session key for the cryptographic session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451696">StartSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/f25ad491-9ffb-40d1-94c3-af0cbae553bf">StartSessionKeyRefresh</a>
 </td>
 <td align="left" width="63%">
 Gets a random number that can be used to refresh the session key.

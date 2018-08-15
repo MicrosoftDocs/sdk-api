@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -148,7 +149,7 @@ Returns an <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7ad
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/ecab7290-9a35-4da3-a161-b8d52a031172">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string value at a specified property into a caller-allocated buffer. 
@@ -187,7 +188,7 @@ Appends the set of labels passed in to the specified property's label set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
+<a href="https://msdn.microsoft.com/6e8379cc-a5dd-4ffd-b478-a14e649f5f0b">SetString</a>
 </td>
 <td align="left" width="63%">
 Sets the string value of a specified property to that of a specified null-terminated string. 

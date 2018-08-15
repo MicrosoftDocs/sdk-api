@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>EngGetType1FontList</b> function retrieves a list of PostScript Type 1 fo
 
 ### -param hdev [in]
 
-Handle to the device. This is the GDI handle received by the driver as the <i>hdev</i> parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>.
+Handle to the device. This is the GDI handle received by the driver as the <i>hdev</i> parameter for <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>.
 
 
 ### -param pType1Buffer [out, optional]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570102">TYPE1_FONT</a> structures in which to store the Type 1 font list. This parameter can be <b>NULL</b>.
+Pointer to an array of <a href="https://msdn.microsoft.com/c852a814-3ebc-4688-aa42-c99b0ee63918">TYPE1_FONT</a> structures in which to store the Type 1 font list. This parameter can be <b>NULL</b>.
 
 
 ### -param cjType1Buffer [in]
@@ -114,7 +115,7 @@ If <i>pType1Buffer</i> is <b>NULL</b>, <b>EngGetType1FontList</b> returns only t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570102">TYPE1_FONT</a>
+<a href="https://msdn.microsoft.com/c852a814-3ebc-4688-aa42-c99b0ee63918">TYPE1_FONT</a>
  
 
  

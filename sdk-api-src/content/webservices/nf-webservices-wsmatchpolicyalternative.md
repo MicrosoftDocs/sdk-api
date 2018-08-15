@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -108,7 +109,7 @@ Indicates whether a match is required or not.
 
 ### -param heap [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">Heap</a> object used to store any data requiring allocation
+A pointer to a <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">Heap</a> object used to store any data requiring allocation
                    beyond the specified constraint. <div class="alert"><b>Note</b>  For example pointer types within the constraint "out" fields is allocated using this Heap.
                 </div>
 <div> </div>

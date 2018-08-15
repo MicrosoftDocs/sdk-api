@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -169,14 +170,14 @@ If the application receives a notification and requires notification for the nex
 
 The <a href="https://msdn.microsoft.com/10795401-003f-45ce-80f1-ccc31659298a">CancelIPChangeNotify</a> function cancels notification of IP address and route changes previously requested with successful calls to the <a href="https://msdn.microsoft.com/22ac3b5b-452c-454b-8fbd-47a873675c6c">NotifyAddrChange</a> or <b>NotifyRouteChange</b> functions.
 
-Once an application has been notified of a change, the application can then call the <a href="https://msdn.microsoft.com/5d645353-7c87-4f8a-b7fd-149675a94743">GetIpForwardTable</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552536">GetIpForwardTable2</a> function to retrieve the IPv4 routing table to determine what has changed. If the application is notified and requires notification for the next change, then the <b>NotifyRouteChange</b> function must be called again.
+Once an application has been notified of a change, the application can then call the <a href="https://msdn.microsoft.com/5d645353-7c87-4f8a-b7fd-149675a94743">GetIpForwardTable</a> or <a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a> function to retrieve the IPv4 routing table to determine what has changed. If the application is notified and requires notification for the next change, then the <b>NotifyRouteChange</b> function must be called again.
 
 If the <b>NotifyRouteChange</b> function is called asynchronously, a notification will be sent on the next IPv4 route change until either the application cancels the notification by calling the <a href="https://msdn.microsoft.com/10795401-003f-45ce-80f1-ccc31659298a">CancelIPChangeNotify</a> function or the application terminates. If the application terminates, the system will automatically cancel the registration for the notification. It is still recommended that an application explicitly cancel any notification before it terminates.  
 
 Any registration for a notification does not persist across a system shut down or reboot.
 
 On Windows Vista and later, the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568806">NotifyRouteChange2</a> function  can be used to  register to be notified for changes to the IPv6 routing table  on the local computer.
+<a href="https://msdn.microsoft.com/f104dc0c-b3e0-4f22-ac5f-5dbf967be31b">NotifyRouteChange2</a> function  can be used to  register to be notified for changes to the IPv6 routing table  on the local computer.
 
 
 #### Examples
@@ -239,7 +240,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552536">GetIpForwardTable2</a>
+<a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a>
 
 
 

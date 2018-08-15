@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,7 +80,7 @@ The <b>IEnumFilters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/ed8380af-8467-447a-a595-38fe29f9f9e6">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator object.
@@ -88,7 +89,7 @@ Makes a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/0e376a01-d353-434c-864a-8001c8022679">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of filters in the enumeration sequence.
@@ -97,7 +98,7 @@ Retrieves the specified number of filters in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/997a6e56-cd11-42bf-b12c-a4418a4dc644">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -106,7 +107,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/594e25b1-03a8-4b6c-965c-f34dae9f3d3b">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of filters.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,14 +69,14 @@ A descriptor identifying a socket.
 ### -param lpBuffers [in, out]
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures. Each 
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures. Each 
 <b>WSABUF</b> structure contains a pointer to a buffer and the length of the buffer.
 
 
 ### -param dwBufferCount [in]
 
 The number of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures in the <i>lpBuffers</i> array.
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 
 ### -param lpNumberOfBytesRecvd [out]
@@ -105,7 +106,7 @@ A pointer to the size, in bytes, of the "from" buffer required only if <i>lpFrom
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
 
 
 ### -param lpCompletionRoutine [in]
@@ -314,7 +315,7 @@ For nonoverlapped sockets, the blocking semantics are identical to that of the s
 The buffers are filled in the order in which they appear in the array indicated by <i>lpBuffers</i>, and the buffers are packed so that no holes are created.
 
 If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
 <b>WSABUF</b> arrays pointed to by the <i>lpBuffers</i> parameter.
 
 For connectionless socket types, the address from which the data originated is copied to the buffer indicated by <i>lpFrom</i>. The value pointed to by <i>lpFromlen</i> is initialized to the size of this buffer, and is modified on completion to indicate the actual size of the address stored there. As stated previously for overlapped sockets, the <i>lpFrom</i> and <i>lpFromlen</i> parameters are not updated until after the overlapped I/O has completed. The memory pointed to by these parameters must, therefore, remain available to the service provider and cannot be allocated on the application stack frame. The <i>lpFrom</i> and <i>lpFromlen</i> parameters are ignored for connection-oriented sockets.
@@ -378,7 +379,7 @@ The
 <a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> function. For a given socket, I/O completion routines will not be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 If the <i>lpCompletionRoutine</i> parameter is <b>NULL</b>, the <i>hEvent</i> parameter of <i>lpOverlapped</i> is signaled when the overlapped operation completes if it contains a valid event object handle. An application can use 
 <a href="https://msdn.microsoft.com/7a978ade-6323-455b-b655-f372f4bcadc8">WSAWaitForMultipleEvents</a> or 
@@ -578,7 +579,7 @@ int __cdecl main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a>
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
 
 
 
@@ -594,7 +595,7 @@ int __cdecl main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a>
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a>
 
 
 

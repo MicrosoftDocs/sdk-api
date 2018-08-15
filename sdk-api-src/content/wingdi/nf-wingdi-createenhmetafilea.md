@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ A pointer to the file name for the enhanced metafile to be created. If this para
 
 ### -param lprc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile.
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile.
 
 
 ### -param lpDesc [in]
@@ -103,7 +104,7 @@ Where text arguments must use Unicode characters, use the <b>CreateEnhMetaFile</
 
 The system uses the reference device identified by the <i>hdcRef</i> parameter to record the resolution and units of the device on which a picture originally appeared. If the <i>hdcRef</i> parameter is <b>NULL</b>, it uses the current display device for reference.
 
-The <b>left</b> and <b>top</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure pointed to by the <i>lpRect</i> parameter must be less than the <b>right</b> and <b>bottom</b> members, respectively. Points along the edges of the rectangle are included in the picture. If <i>lpRect</i> is <b>NULL</b>, the graphics device interface (GDI) computes the dimensions of the smallest rectangle that surrounds the picture drawn by the application. The <i>lpRect</i> parameter should be provided where possible.
+The <b>left</b> and <b>top</b> members of the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure pointed to by the <i>lpRect</i> parameter must be less than the <b>right</b> and <b>bottom</b> members, respectively. Points along the edges of the rectangle are included in the picture. If <i>lpRect</i> is <b>NULL</b>, the graphics device interface (GDI) computes the dimensions of the smallest rectangle that surrounds the picture drawn by the application. The <i>lpRect</i> parameter should be provided where possible.
 
 The string pointed to by the <i>lpDescription</i> parameter must contain a null character between the application name and the picture name and must terminate with two null charactersfor example, "XYZ Graphics Editor\0Bald Eagle\0\0", where \0 represents the null character. If <i>lpDescription</i> is <b>NULL</b>, there is no corresponding entry in the enhanced-metafile header.
 
@@ -163,7 +164,7 @@ For an example, see <a href="https://msdn.microsoft.com/084b2737-eb55-4587-b8e8-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
  
 
  

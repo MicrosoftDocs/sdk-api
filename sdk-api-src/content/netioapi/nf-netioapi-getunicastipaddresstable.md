@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -115,7 +116,7 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 ### -param Table [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559322">MIB_UNICASTIPADDRESS_TABLE</a> structure that contains a table of unicast IP address entries on the local computer. 
+<a href="https://msdn.microsoft.com/b064494c-d0d5-4570-b255-4cc95412fd3a">MIB_UNICASTIPADDRESS_TABLE</a> structure that contains a table of unicast IP address entries on the local computer. 
 
 
 ## -returns
@@ -200,20 +201,20 @@ Use
 The <b>GetUnicastIpAddressTable</b> function is defined on Windows Vista and later. 
 
 The  
-<b>GetUnicastIpAddressTable</b> function enumerates the unicast IP addresses on a local system and returns this information in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559322">MIB_UNICASTIPADDRESS_TABLE</a> structure. 
+<b>GetUnicastIpAddressTable</b> function enumerates the unicast IP addresses on a local system and returns this information in an <a href="https://msdn.microsoft.com/b064494c-d0d5-4570-b255-4cc95412fd3a">MIB_UNICASTIPADDRESS_TABLE</a> structure. 
 
-The unicast IP address entries are returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559322">MIB_UNICASTIPADDRESS_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure contains a unicast IP address entry count and an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a> structures for each unicast IP address entry. When these returned structures are no longer required, free the memory by calling the <b>FreeMibTable</b>.
+The unicast IP address entries are returned in a <a href="https://msdn.microsoft.com/b064494c-d0d5-4570-b255-4cc95412fd3a">MIB_UNICASTIPADDRESS_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure contains a unicast IP address entry count and an array of <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structures for each unicast IP address entry. When these returned structures are no longer required, free the memory by calling the <b>FreeMibTable</b>.
 
 The <i>Family</i> parameter must be initialized to either <b>AF_INET</b>,  <b>AF_INET6</b>, or <b>AF_UNSPEC</b>. 
 
-Note that the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff559322">MIB_UNICASTIPADDRESS_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_UNICASTIPADDRESS_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
+Note that the returned <a href="https://msdn.microsoft.com/b064494c-d0d5-4570-b255-4cc95412fd3a">MIB_UNICASTIPADDRESS_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_UNICASTIPADDRESS_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
 
 
 
 
 #### Examples
 
-The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a> structures.
+The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structures.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -442,11 +443,11 @@ int __cdecl wmain()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546227">CreateUnicastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0">CreateUnicastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546370">DeleteUnicastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/a630397a-ef4a-40c2-b2e7-3e85cd9e8029">DeleteUnicastIpAddressEntry</a>
 
 
 
@@ -454,7 +455,7 @@ int __cdecl wmain()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552589">GetUnicastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/d5475c09-05dd-41d7-80ff-63c52d78468c">GetUnicastIpAddressEntry</a>
 
 
 
@@ -462,27 +463,27 @@ int __cdecl wmain()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554886">InitializeUnicastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/8cbdd972-060a-4e18-9490-450df21936ea">InitializeUnicastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559322">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="https://msdn.microsoft.com/b064494c-d0d5-4570-b255-4cc95412fd3a">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568807">NotifyStableUnicastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568809">NotifyUnicastIpAddressChange</a>
+<a href="https://msdn.microsoft.com/56945aa2-ca1e-44b3-9765-d862978a9dbe">NotifyUnicastIpAddressChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570800">SetUnicastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/906a3895-2e42-4bed-90a3-7c10487d76cb">SetUnicastIpAddressEntry</a>
  
 
  

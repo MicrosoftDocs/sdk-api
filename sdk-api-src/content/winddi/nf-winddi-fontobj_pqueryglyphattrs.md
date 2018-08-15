@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>FONTOBJ_pQueryGlyphAttrs</b> function returns information about a font's 
 
 ### -param pfo
 
-Is a caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure identifying the font for which attributes are being requested.
+Is a caller-supplied pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure identifying the font for which attributes are being requested.
 
 
 ### -param iMode [in]
@@ -91,7 +92,7 @@ The function returns an array indicating which glyphs of a vertical font must be
 
 
 
-<b>FONTOBJ_pQueryGlyphAttrs</b> returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565623">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure is not a vertical font, the function returns <b>NULL</b>.
+<b>FONTOBJ_pQueryGlyphAttrs</b> returns a pointer to an <a href="https://msdn.microsoft.com/25a5c390-244c-4cff-a6a5-cc61fc5aa40b">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure is not a vertical font, the function returns <b>NULL</b>.
 
 
 
@@ -102,11 +103,11 @@ The function returns an array indicating which glyphs of a vertical font must be
 
 Currently, the only attribute flag defined is FO_ATTR_MODE_ROTATE. This flag is meant for use by printer drivers that support printers with built-in font rasterizers. The driver can call the <b>FONTOBJ_pQueryGlyphAttrs</b> function, specifying the FO_ATTR_MODE_ROTATE flag, to determine which glyphs within a vertical font must be rotated.
 
-Vertical fonts have a font name that starts with the "@" character. To determine if the current font is a vertical font, the driver can check for the FO_VERT_FACE flag in the <b>flFontType</b> member of the font's <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure.
+Vertical fonts have a font name that starts with the "@" character. To determine if the current font is a vertical font, the driver can check for the FO_VERT_FACE flag in the <b>flFontType</b> member of the font's <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure.
 
-Rotation information is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565623">FD_GLYPHATTR</a> structure that is used as the function's return value.
+Rotation information is returned in the <a href="https://msdn.microsoft.com/25a5c390-244c-4cff-a6a5-cc61fc5aa40b">FD_GLYPHATTR</a> structure that is used as the function's return value.
 
-The <b>FONTOBJ_pQueryGlyphAttrs</b> function is supplied by GDI. When a printer driver calls <b>FONTOBJ_pQueryGlyphAttrs</b>, GDI calls the appropriate font driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556267">DrvQueryGlyphAttrs</a> function to obtain the requested information.
+The <b>FONTOBJ_pQueryGlyphAttrs</b> function is supplied by GDI. When a printer driver calls <b>FONTOBJ_pQueryGlyphAttrs</b>, GDI calls the appropriate font driver's <a href="https://msdn.microsoft.com/cfc42384-581c-4358-84a9-91028c89bbd8">DrvQueryGlyphAttrs</a> function to obtain the requested information.
 
 
 
@@ -116,15 +117,15 @@ The <b>FONTOBJ_pQueryGlyphAttrs</b> function is supplied by GDI. When a printer 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556267">DrvQueryGlyphAttrs</a>
+<a href="https://msdn.microsoft.com/cfc42384-581c-4358-84a9-91028c89bbd8">DrvQueryGlyphAttrs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565623">FD_GLYPHATTR</a>
+<a href="https://msdn.microsoft.com/25a5c390-244c-4cff-a6a5-cc61fc5aa40b">FD_GLYPHATTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
  
 
  

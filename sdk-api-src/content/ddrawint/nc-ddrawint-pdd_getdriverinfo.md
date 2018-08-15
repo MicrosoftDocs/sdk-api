@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdGetDriverInfo</i> function queries the driver for additional DirectDraw
 
 #### - lpGetDriverInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
+Points to a <a href="https://msdn.microsoft.com/15a4e80d-2186-4683-a05f-405ca75044e5">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
 
 
 ## -returns
@@ -85,13 +86,13 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55155
 
 
 
-Drivers must implement <i>DdGetDriverInfo</i> to expose driver-supported DirectDraw functionality that is not returnable through <a href="https://msdn.microsoft.com/library/windows/hardware/ff556208">DrvEnableDirectDraw</a>.
+Drivers must implement <i>DdGetDriverInfo</i> to expose driver-supported DirectDraw functionality that is not returnable through <a href="https://msdn.microsoft.com/eb7e8775-d0ff-42af-8266-5171902eac22">DrvEnableDirectDraw</a>.
 
-The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function returns a pointer to <i>DdGetDriverInfo</i> in the <b>GetDriverInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure.
+The driver's <a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a> function returns a pointer to <i>DdGetDriverInfo</i> in the <b>GetDriverInfo</b> member of the <a href="https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11">DD_HALINFO</a> structure.
 
 To inform DirectDraw that the <b>GetDriverInfo</b> member has been set correctly, the driver must also set the DDHALINFO_GETDRIVERINFOSET bit of the <b>dwFlags</b> member in the DD_HALINFO structure. 
 
-<i>DdGetDriverInfo</i> should determine whether the driver and its hardware support the callbacks or capabilities requested by the specified GUID. For all GUIDs except GUID_D3DParseUnknownCommandCallback, if the driver does provide the requested support, it should set the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> structure:
+<i>DdGetDriverInfo</i> should determine whether the driver and its hardware support the callbacks or capabilities requested by the specified GUID. For all GUIDs except GUID_D3DParseUnknownCommandCallback, if the driver does provide the requested support, it should set the following members of the <a href="https://msdn.microsoft.com/15a4e80d-2186-4683-a05f-405ca75044e5">DD_GETDRIVERINFODATA</a> structure:
 
 <ul>
 <li>
@@ -111,7 +112,7 @@ Return DD_OK in <b>ddRVal</b>.
 </ul>
 If the driver does not support the feature, it should set <b>ddRVal</b> to DDERR_CURRENTLYNOTAVAIL and return.
 
-DirectDraw informs the driver of the expected amount of data in the <b>dwExpectedSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> structure. The driver must not fill in more data than <b>dwExpectedSize</b> bytes.
+DirectDraw informs the driver of the expected amount of data in the <b>dwExpectedSize</b> member of the <a href="https://msdn.microsoft.com/15a4e80d-2186-4683-a05f-405ca75044e5">DD_GETDRIVERINFODATA</a> structure. The driver must not fill in more data than <b>dwExpectedSize</b> bytes.
 
 To avoid problems using <i>DdGetDriverInfo</i>: 
 
@@ -137,15 +138,15 @@ Do not assume anything about the number of times DirectDraw will call the driver
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+<a href="https://msdn.microsoft.com/15a4e80d-2186-4683-a05f-405ca75044e5">DD_GETDRIVERINFODATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556208">DrvEnableDirectDraw</a>
+<a href="https://msdn.microsoft.com/eb7e8775-d0ff-42af-8266-5171902eac22">DrvEnableDirectDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a>
  
 
  

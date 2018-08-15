@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Mswsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -232,7 +233,7 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <td width="60%">
 The socket has been shut down; it is not possible to use 
 <a href="https://msdn.microsoft.com/0ed639f7-e7bd-49a2-a7c0-177699a2cf5e">WSARecvEx</a> on a socket after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> has been invoked with <i>how</i> set to SD_RECEIVE or SD_BOTH.
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> has been invoked with <i>how</i> set to SD_RECEIVE or SD_BOTH.
 
 </td>
 </tr>

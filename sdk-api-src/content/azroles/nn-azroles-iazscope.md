@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -342,7 +343,7 @@ Retrieves a value that indicates whether the scope can be delegated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/51a7daff-ecb9-4a66-a7f7-aee9aeff7d6a">Description</a>
 
 
 </td>
@@ -358,7 +359,7 @@ Sets or retrieves a comment that describes the scope.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/66c5722a-5217-4e77-b14f-f9cfa4e030c0">Name</a>
 
 
 </td>

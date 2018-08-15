@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a> method creates a copy of the extension-enumeration sequence.
+The <a href="https://msdn.microsoft.com/d5acff51-06f8-4a6f-aa9e-97ba052b1b34">Clone</a> method creates a copy of the extension-enumeration sequence.
 
 
 ## -parameters

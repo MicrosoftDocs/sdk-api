@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdMoCompCreate</i> callback function notifies the driver that a software 
 
 #### - lpCreateData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550529">DD_CREATEMOCOMPDATA</a> structure that contains the information required to begin using motion compensation.
+Points to a <a href="https://msdn.microsoft.com/53b2aa38-b007-4938-8fdb-c3482735ae36">DD_CREATEMOCOMPDATA</a> structure that contains the information required to begin using motion compensation.
 
 
 ## -returns
@@ -97,7 +98,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55052
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550529">DD_CREATEMOCOMPDATA</a>
+<a href="https://msdn.microsoft.com/53b2aa38-b007-4938-8fdb-c3482735ae36">DD_CREATEMOCOMPDATA</a>
  
 
  

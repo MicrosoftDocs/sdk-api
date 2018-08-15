@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ Retrieves palette values from a DirectDrawPalette object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/e0ad7ea1-759d-48e9-8d15-6601d9b15588">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the DirectDrawPalette object.
@@ -120,7 +121,7 @@ The methods of the <b>IDirectDrawPalette</b> interface can be organized into the
 <tr>
 <td>Allocating memory</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/e0ad7ea1-759d-48e9-8d15-6601d9b15588">Initialize</a>
 </td>
 </tr>
 <tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -566,7 +567,7 @@ Gets or sets a value that specifies whether the object/control is in ink mode, d
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/c376bf02-ddef-45e5-b041-b7f4b437bb27">Enabled</a>
 
 
 </td>
@@ -778,7 +779,7 @@ Gets or sets a value that specifies whether all selection user interface (UI) el
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915113">Tablet</a>
+<a href="https://msdn.microsoft.com/88da4f91-2baf-4152-adc2-a6f91bc2c9e3">Tablet</a>
 
 
 </td>

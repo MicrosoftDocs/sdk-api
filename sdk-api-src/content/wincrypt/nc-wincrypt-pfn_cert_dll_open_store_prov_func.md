@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -575,7 +576,7 @@ Lists of key identifiers exist within CurrentUser and LocalMachine. These key id
 </dl>
 </td>
 <td width="60%">
-Use the thread's SE_BACKUP_NAME and SE_RESTORE_NAME <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> to open registry or file-based system stores. If the thread does not have these privileges, this function must fail with an access denied error.
+Use the thread's SE_BACKUP_NAME and SE_RESTORE_NAME <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> to open registry or file-based system stores. If the thread does not have these privileges, this function must fail with an access denied error.
 
 </td>
 </tr>

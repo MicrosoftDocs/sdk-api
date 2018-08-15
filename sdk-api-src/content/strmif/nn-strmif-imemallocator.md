@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -88,7 +89,7 @@ The <b>IMemAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/34db4c1f-5642-4495-a572-9a78b1ee7b7e">Commit</a>
 </td>
 <td align="left" width="63%">
 Allocates the buffer memory.
@@ -106,7 +107,7 @@ Releases the buffer memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://msdn.microsoft.com/a5d015c8-ef15-4bac-906f-5d064fbff11f">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media sample that contains an empty buffer.
@@ -115,7 +116,7 @@ Retrieves a media sample that contains an empty buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/d7b7153c-24c4-4508-925b-b5cfbc26badc">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of buffers that the allocator will create, and the buffer properties.
@@ -133,7 +134,7 @@ Releases a media sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/c68f2e2f-c70f-447d-804b-dfdfe8ae8a52">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Specifies the number of buffers to allocate and the size of each buffer.

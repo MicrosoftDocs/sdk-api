@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -87,7 +88,7 @@ Currently, the only type of security protocol that is supported is IPsec. So spe
 
 The <b>SOCKET_SECURITY_PROTOCOL</b> enumeration is used in the <a href="https://msdn.microsoft.com/6e807cc3-f9de-4d15-b337-4a6b4be910c2">SOCKET_PEER_TARGET_NAME</a>, <a href="https://msdn.microsoft.com/90439ff6-e6a8-4124-b280-a65b9ca12787">SOCKET_SECURITY_QUERY_INFO</a>, <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a>, <a href="https://msdn.microsoft.com/9c47efb4-dd3e-4db9-a659-003292e2c5e9">SOCKET_SECURITY_SETTINGS</a>,  and <a href="https://msdn.microsoft.com/99af6ebd-6a7d-4753-8bc6-cfd42919843e">SOCKET_SECURITY_SETTINGS_IPSEC</a> structures to indicate the type of security protocol to be used on a socket in the <b>SecurityProtocol</b> member. These structures are used by the  <a href="https://msdn.microsoft.com/fda7738f-b7fc-49c3-aa40-9beea31d1009">WSAQuerySocketSecurity</a>, <a href="https://msdn.microsoft.com/c293658c-d7f9-411d-b6c1-a333592a741c">WSASetSocketPeerTargetName</a>, and <a href="https://msdn.microsoft.com/9efee804-9763-4456-97a3-6eb9a8e30f49">WSASetSocketSecurity</a> functions.
 
-In addition to identifying the security protocol, this type is also used to decide how to interpret a pointer passed to some of the secure socket functions. This is analogous to how the <b>sa_family</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> type is used to interpret a pointer as either <b>sockaddr_in</b> or <b>sockaddr_in6</b>.
+In addition to identifying the security protocol, this type is also used to decide how to interpret a pointer passed to some of the secure socket functions. This is analogous to how the <b>sa_family</b> member of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> type is used to interpret a pointer as either <b>sockaddr_in</b> or <b>sockaddr_in6</b>.
 
 
 
@@ -145,7 +146,7 @@ In addition to identifying the security protocol, this type is also used to deci
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -82,7 +83,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<div class="alert"><b>Important</b>  When the capture device is no longer needed, you must shut down the device by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> on the <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> object you obtained by calling <b>MFCreateDeviceSource</b>. Failure to call <b>Shutdown</b> can result in memory links because the system may keep a reference to <b>IMFMediaSource</b> resources until <b>Shutdown</b> is called.
+<div class="alert"><b>Important</b>  When the capture device is no longer needed, you must shut down the device by calling <a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a> on the <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> object you obtained by calling <b>MFCreateDeviceSource</b>. Failure to call <b>Shutdown</b> can result in memory links because the system may keep a reference to <b>IMFMediaSource</b> resources until <b>Shutdown</b> is called.
 
 </div>
 <div> </div>

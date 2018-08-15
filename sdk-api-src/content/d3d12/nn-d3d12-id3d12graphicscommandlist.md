@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -136,7 +137,7 @@ Sets all the elements in a unordered-access view to the specified integer values
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a>
 </td>
 <td align="left" width="63%">
 Indicates that recording to the command list has finished.
@@ -319,7 +320,7 @@ Sets the reference value for depth stencil tests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/36726FB6-09DE-4723-A60E-75FCE55F2E35">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a command list back to its initial state as if a new command list was just created.

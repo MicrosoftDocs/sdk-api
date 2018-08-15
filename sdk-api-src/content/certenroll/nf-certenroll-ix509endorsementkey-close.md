@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method has been successfully called.
+Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been successfully called.
 
 
 ## -parameters
@@ -74,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The <b>Close</b> method releases any resources held
-    by the object except for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a>.
+    by the object except for the <a href="https://msdn.microsoft.com/5031d14d-8a10-4821-aed4-b49e12027d91">ProviderName</a>.
     The <b>ProviderName</b> is released when it is re-assigned
     or when this object is destroyed.
 

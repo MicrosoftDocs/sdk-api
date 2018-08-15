@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -116,7 +117,7 @@ Associates a DLL entry point with the function that has the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556459">LayOut</a>
+<a href="https://msdn.microsoft.com/3880aad3-8a6f-43e6-8420-25c4d1b9a71a">LayOut</a>
 </td>
 <td align="left" width="63%">
 Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.

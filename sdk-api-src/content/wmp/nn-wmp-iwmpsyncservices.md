@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,7 +86,7 @@ Retrieves the number of available devices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">getDevice</a>
+<a href="https://msdn.microsoft.com/4c34b823-57ce-4053-9e98-308a5d4ffdef">getDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to a device interface.
@@ -108,7 +109,7 @@ Retrieve a pointer to <b>IWMPSyncServices</b> by calling <b>QueryInterface</b> t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ Output pointer for the reference time. This parameter points to a caller-allocat
 
 The <code>SampleToRefTime</code> method converts sample time to reference time. Sample time is expressed as the number of samples rendered, and reference time is measured in 100-nanosecond units.
 
-The synth sink manages the timing relationship between the master clock (set with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536528">IDirectMusicSynthSink::SetMasterClock</a>) and the audio stream.
+The synth sink manages the timing relationship between the master clock (set with a call to <a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>) and the audio stream.
 
 For more information, see the description of reference time and sample time in <a href="https://msdn.microsoft.com/38aca8b7-f895-4b16-aaac-5a13973cf976">Synthesizer Timing</a>.
 
@@ -95,15 +96,15 @@ For more information, see the description of reference time and sample time in <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536525">IDirectMusicSynthSink::RefTimeToSample</a>
+<a href="https://msdn.microsoft.com/11a6b670-93d6-4455-b279-a1fc5fca0d1d">IDirectMusicSynthSink::RefTimeToSample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536528">IDirectMusicSynthSink::SetMasterClock</a>
+<a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537018">ISynthSinkDMus::SampleToRefTime</a>
+<a href="https://msdn.microsoft.com/b2d54ee9-78aa-4799-a06d-6c79000d3e32">ISynthSinkDMus::SampleToRefTime</a>
  
 
  

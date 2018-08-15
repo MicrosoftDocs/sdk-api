@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IEnumTuningSpaces</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/3f9ad46e-38a7-4f07-b04b-999c912f9965">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the collection and all its sub-objects.
@@ -83,7 +84,7 @@ Creates a new copy of the collection and all its sub-objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/1220d006-10e9-4e64-8a18-8828b62d5da9">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> element in the collection.
@@ -92,7 +93,7 @@ Retrieves the next <i>n</i> element in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/c9ac5d70-11f8-4bb4-a873-94eb72ea2f42">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the iterator to the beginning of the collection.
@@ -101,7 +102,7 @@ Moves the iterator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/5449fca0-4b8d-402e-b444-e7bc314e47b3">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified element in the collection.

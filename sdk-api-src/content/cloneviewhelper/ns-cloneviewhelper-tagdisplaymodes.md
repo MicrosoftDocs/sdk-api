@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ The number of display modes in the array that the <b>displayMode</b> member spec
 
 ### -field displayMode
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554037">DisplayMode</a> structures that describe characteristics of display devices. 
+An array of <a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a> structures that describe characteristics of display devices. 
 
 
 ## -see-also
@@ -73,11 +74,11 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff55403
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554037">DisplayMode</a>
+<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568176">IViewHelper::SetConfiguration</a>
+<a href="https://msdn.microsoft.com/8ec09950-afb6-43ff-8e05-4c801e49ba4b">IViewHelper::SetConfiguration</a>
  
 
  

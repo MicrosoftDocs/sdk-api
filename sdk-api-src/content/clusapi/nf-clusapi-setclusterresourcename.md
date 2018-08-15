@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -90,7 +91,7 @@ If the operation fails, the function returns a
 
 
 <b>SetClusterResourceName</b> changes the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> common property of the resource identified by 
+    <a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a> common property of the resource identified by 
     <i>hResource</i>. This is the only way that 
     <b>Name</b>, a read-only property, can be changed.
 
@@ -106,7 +107,7 @@ Do not call <b>SetClusterResourceName</b> from a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a>
 
 
 

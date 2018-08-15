@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains information about a <a href="_win32_WM_NOTIFY">WM_NOTIFY</a> message sent to an <a href="https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx">OFNHookProc</a> hook procedure for an <b>Open</b> or <b>Save As</b> dialog box. The <i>lParam</i> parameter of the <b>WM_NOTIFY</b> message is a pointer to an <b>OFNOTIFY</b> structure. 
+Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message sent to an <a href="https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx">OFNHookProc</a> hook procedure for an <b>Open</b> or <b>Save As</b> dialog box. The <i>lParam</i> parameter of the <b>WM_NOTIFY</b> message is a pointer to an <b>OFNOTIFY</b> structure. 
 
 
 ## -struct-fields
@@ -62,7 +63,7 @@ Contains information about a <a href="_win32_WM_NOTIFY">WM_NOTIFY</a> message se
 
 ### -field hdr
 
-Type: <b><a href="controls._win32_NMHDR_str">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 The <b>code</b> member of this structure can be one of the following notification messages that identify the message being sent: <a href="https://msdn.microsoft.com/en-us/library/ms646857(v=VS.85).aspx">CDN_FILEOK</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646859(v=VS.85).aspx">CDN_FOLDERCHANGE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646860(v=VS.85).aspx">CDN_HELP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646863(v=VS.85).aspx">CDN_INITDONE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646865(v=VS.85).aspx">CDN_SELCHANGE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646866(v=VS.85).aspx">CDN_SHAREVIOLATION</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646868(v=VS.85).aspx">CDN_TYPECHANGE</a>. 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -73,7 +74,7 @@ To control whether the new ACE can be inherited by child objects, use the
 
 A pointer to an 
 ACL. This function adds a system-audit ACE to this ACL. The ACE is in the form of a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a> structure.
+<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -92,7 +93,7 @@ Specifies the mask of access rights to be audited for the specified SID.
 ### -param pSid [in]
 
 A pointer to the 
-SID representing the <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> whose access is being audited.
+SID representing the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> whose access is being audited.
 
 
 ### -param bAuditSuccess [in]
@@ -185,7 +186,7 @@ The ACE was successfully added.
 
 
 The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a> structure placed in the ACE by the <b>AddAuditAccessAce</b> function specifies a type and size, but provides no ACE flags.
+<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure placed in the ACE by the <b>AddAuditAccessAce</b> function specifies a type and size, but provides no ACE flags.
 
 
 
@@ -195,7 +196,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
+<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
 
 
 
@@ -231,7 +232,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
+<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a>
  
 
  

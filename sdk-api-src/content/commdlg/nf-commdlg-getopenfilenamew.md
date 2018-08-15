@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -91,7 +92,7 @@ The Explorer-style <b>Open</b> dialog box provides user-interface features that 
 
 Windows continues to support the old-style <b>Open</b> dialog box for applications that want to maintain a user-interface consistent with the old-style user-interface. To display the old-style <b>Open</b> dialog box, enable an <a href="https://msdn.microsoft.com/ee551824-51f9-422d-9741-96248e3fc8cc">OFNHookProcOldStyle</a> hook procedure and ensure that the <b>OFN_EXPLORER</b> flag is not set.
 
-To display a dialog box that allows the user to select a directory instead of a file, call the <a href="_win32_SHBrowseForFolder">SHBrowseForFolder</a> function.
+To display a dialog box that allows the user to select a directory instead of a file, call the <a href="https://msdn.microsoft.com/en-us/library/Bb762115(v=VS.85).aspx">SHBrowseForFolder</a> function.
 
 Note, when selecting multiple files, the total character limit for the file names depends on the version of the function.
 
@@ -149,7 +150,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646829(v
 
 
 
-<a href="_win32_SHBrowseForFolder">SHBrowseForFolder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762115(v=VS.85).aspx">SHBrowseForFolder</a>
  
 
  

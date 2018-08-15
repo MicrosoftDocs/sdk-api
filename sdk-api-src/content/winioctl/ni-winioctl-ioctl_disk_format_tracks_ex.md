@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -172,7 +173,7 @@ It is impossible to determine how many bad track numbers will be returned by thi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553875">FORMAT_EX_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/e508106c-a77a-476f-ba71-ea8f9a2d94d6">FORMAT_EX_PARAMETERS</a>
  
 
  

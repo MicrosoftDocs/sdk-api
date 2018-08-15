@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -75,7 +76,7 @@ The type of text-edit change that occurred.
 
 ### -param eventStrings [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee684093(v=VS.85).aspx">SAFEARRAY</a>*</b>
 
 Event data passed by the event.
 

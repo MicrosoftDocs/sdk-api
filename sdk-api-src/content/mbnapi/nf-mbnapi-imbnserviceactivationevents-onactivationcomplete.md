@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -66,7 +67,7 @@ Pointer to an <a href="https://msdn.microsoft.com/cf23be24-f7a8-41b9-81f1-c267a2
 
 ### -param vendorSpecificData [in]
 
-A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567858">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
+A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="http://go.microsoft.com/fwlink/p/?linkid=147740">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
 
 
 ### -param requestID [in]

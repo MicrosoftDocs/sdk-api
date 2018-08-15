@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -53,7 +54,7 @@ req.irql:
 
 The <b>_NewEnum</b> property gets an enumerator for a property set.
 
-To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> properties defined by the <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.
+To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/28cf1108-42a8-41d1-baf4-140b5789fb24">Count</a> and <a href="https://msdn.microsoft.com/33fce781-f65d-433a-b2ba-0f694cee1220">Item</a> properties defined by the <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.
 
 This property is read-only.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -214,11 +215,11 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553249">KeSetCoalescableTimer</a>
+<a href="https://msdn.microsoft.com/e053c120-8c43-4714-acf1-0648958eabb8">KeSetCoalescableTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
+<a href="https://msdn.microsoft.com/9a2a092d-f9b5-42a2-9be4-bc934a9304fb">KeSetTimer</a>
 
 
 
@@ -246,7 +247,7 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564648">Timers</a>
+<a href="https://msdn.microsoft.com/be335927-a78d-4023-bedb-94aaf3a561ae">Timers</a>
 
 
 

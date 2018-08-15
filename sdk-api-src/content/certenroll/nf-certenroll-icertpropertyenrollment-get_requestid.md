@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-Set the  <b>RequestId</b> property by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method. The request ID is created during the enrollment process. For more information, see the <a href="https://msdn.microsoft.com/64048d5d-36fd-4709-a924-7f84a2b2b97e">RequestId</a> property on the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> interface.
+Set the  <b>RequestId</b> property by calling the <a href="https://msdn.microsoft.com/47e9b11f-3f23-4e2f-817a-4b6311e3d710">Initialize</a> method. The request ID is created during the enrollment process. For more information, see the <a href="https://msdn.microsoft.com/64048d5d-36fd-4709-a924-7f84a2b2b97e">RequestId</a> property on the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> interface.
 
 The ID can be used during subsequent communication between the client and the CA. For example, if a CA marks a request as pending when initially submitted, the client can use the request ID and the configuration string when it again contacts the CA and attempts to retrieve the certificate response.
 

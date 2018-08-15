@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -81,24 +82,24 @@ This prototype is provided for compatibility with earlier versions of Windows. N
 
 
 
-#### - hwndOwner [in]
-
-Handle of the owner window.
-
-
-#### - lpszEntry [in]
-
-Pointer to a null-terminated string that specifies the phone-book entry to use.
-
-
 #### - dwFlags [in]
 
 Reserved; must be zero.
 
 
+#### - hwndOwner [in]
+
+Handle of the owner window.
+
+
 #### - lpdwRetCode [in]
 
 Pointer to a variable that the callback function fills in with the results of the dialing operation. If the dialing operation succeeds, set this variable to ERROR_SUCCESS. If the dialing operation fails, set it to a nonzero value.
+
+
+#### - lpszEntry [in]
+
+Pointer to a null-terminated string that specifies the phone-book entry to use.
 
 
 ## -returns

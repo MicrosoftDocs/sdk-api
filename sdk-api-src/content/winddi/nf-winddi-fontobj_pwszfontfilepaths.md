@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>FONTOBJ_pwszFontFilePaths</b> function retrieves the file path(s) associa
 
 ### -param pfo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure being queried.
+Pointer to the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure being queried.
 
 
 ### -param pcwc
@@ -82,7 +83,7 @@ Pointer to the location in which GDI returns the number of Unicode characters, i
 
 
 
-Printer drivers can call <b>FONTOBJ_pwszFontFilePaths</b> when they want to do their own file mapping. File mapping is performed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564971">EngMapFile</a>.
+Printer drivers can call <b>FONTOBJ_pwszFontFilePaths</b> when they want to do their own file mapping. File mapping is performed by calling <a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>.
 
 Typically, there is only one file per font. For example, a TrueType font has only one file, whereas Type 1 fonts might require two files (a <i>.</i><a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pfm</a> and <i>.pfb</i>).
 
@@ -94,11 +95,11 @@ Typically, there is only one file per font. For example, a TrueType font has onl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564971">EngMapFile</a>
+<a href="https://msdn.microsoft.com/6887f7e1-f94f-421c-be7a-14a41d621ce1">EngMapFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ Specifies a distinct realization of the font. This value can be used by the driv
 
 ### -field iFace
 
-Specifies the device index for a device font, which was registered by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556262">DrvQueryFont</a>. If the font is a GDI font, this member has meaning only to GDI, and the driver should ignore it.
+Specifies the device index for a device font, which was registered by a call to <a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>. If the font is a GDI font, this member has meaning only to GDI, and the driver should ignore it.
 
 
 ### -field cxMax
@@ -226,7 +227,7 @@ Vertical font.
 </table>
  
 
-If the FO_RASTER flag is set, the glyphs written to the specified STROBJ structure are bitmaps, otherwise they are pointers to PATHOBJ structures. If the glyph images are returned in the form of PATHOBJ structures, the driver must inspect the FM_INFO_TECH_STROKE flag of the <b>flInfo</b> member of the associated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a> structure. If that flag is set, the paths should be stroked, otherwise the paths must be filled using the alternating mode convention.
+If the FO_RASTER flag is set, the glyphs written to the specified STROBJ structure are bitmaps, otherwise they are pointers to PATHOBJ structures. If the glyph images are returned in the form of PATHOBJ structures, the driver must inspect the FM_INFO_TECH_STROKE flag of the <b>flInfo</b> member of the associated <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure. If that flag is set, the paths should be stroked, otherwise the paths must be filled using the alternating mode convention.
 
 If the FO_GRAY16 flag is set, then the font bitmaps are four bits-per-pixel blending (alpha) values. A value of zero means that the resulting pixel should have the same color as the background. If the alpha value is k, then the following table describes the attributes of the resulting pixel, using either linear alpha blending, or gamma-corrected alpha blending. In both methods, the foreground and background colors are, respectively, c<sub>f</sub> and c<sub>b</sub>.
 
@@ -303,7 +304,7 @@ Note: unlike linear alpha blending, these formulas must be applied to <i>each</i
 </table>
  
 
-GDI sets the FO_GRAY16 flag on entry to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556264">DrvQueryFontData</a> function when it requests that a font be grayscaled to one of 16 values. If the font driver cannot grayscale a particular font realization, then the font provider clears the FO_GRAY16 flag and sets the FO_NOGRAY16 flag to inform GDI that the grayscaling request will not be satisfied.
+GDI sets the FO_GRAY16 flag on entry to the <a href="https://msdn.microsoft.com/3f6efd3c-3ddf-4ce6-9527-730e01c45e74">DrvQueryFontData</a> function when it requests that a font be grayscaled to one of 16 values. If the font driver cannot grayscale a particular font realization, then the font provider clears the FO_GRAY16 flag and sets the FO_NOGRAY16 flag to inform GDI that the grayscaling request will not be satisfied.
 
 
 ### -field iTTUniq
@@ -342,7 +343,7 @@ Pointer to producer-allocated data associated with this font instance. A produce
 
 As an accelerator, the driver is allowed to access the public members of the FONTOBJ structure.
 
-A driver can be both a producer and a consumer. For example, a printer driver can act as a producer while processing a call to the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556264">DrvQueryFontData</a> function to provide glyph metrics, and later act a consumer while processing a call to the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a> function.
+A driver can be both a producer and a consumer. For example, a printer driver can act as a producer while processing a call to the driver-supplied <a href="https://msdn.microsoft.com/3f6efd3c-3ddf-4ce6-9527-730e01c45e74">DrvQueryFontData</a> function to provide glyph metrics, and later act a consumer while processing a call to the driver-supplied <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> function.
 
 
 
@@ -352,43 +353,43 @@ A driver can be both a producer and a consumer. For example, a printer driver ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556192">DrvDestroyFont</a>
+<a href="https://msdn.microsoft.com/aee3efbc-715d-42f2-a718-00057720175a">DrvDestroyFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556230">DrvGetGlyphMode</a>
+<a href="https://msdn.microsoft.com/8e11c4e7-0203-4445-8f33-3b928161c62a">DrvGetGlyphMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556262">DrvQueryFont</a>
+<a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556269">DrvQueryTrueTypeOutline</a>
+<a href="https://msdn.microsoft.com/49123a0c-5096-4a0f-9444-2018b49b2010">DrvQueryTrueTypeOutline</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565977">FONTOBJ_cGetAllGlyphHandles</a>
+<a href="https://msdn.microsoft.com/b3901f9e-14e6-42c2-851c-47c0f386f2d3">FONTOBJ_cGetAllGlyphHandles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565982">FONTOBJ_cGetGlyphs</a>
+<a href="https://msdn.microsoft.com/0174fc88-e665-427e-b22f-468ddbea5b47">FONTOBJ_cGetGlyphs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565990">FONTOBJ_pifi</a>
+<a href="https://msdn.microsoft.com/797341c8-7346-477a-9c7c-b6abbeaac4b2">FONTOBJ_pifi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566008">FONTOBJ_pxoGetXform</a>
+<a href="https://msdn.microsoft.com/94d8ddf6-221f-47f0-8772-4364ad2ac1a2">FONTOBJ_pxoGetXform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566013">FONTOBJ_vGetInfo</a>
+<a href="https://msdn.microsoft.com/4b952bdc-a496-4ded-9390-9f4b470f3a6c">FONTOBJ_vGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
  
 
  

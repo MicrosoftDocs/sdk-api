@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -107,7 +108,7 @@ The routine could not open the database. To get extended error information, call
 
 
 
-To close the COM port database, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546473">ComDBClose</a> and supply the handle that was returned by <b>ComDBOpen</b>.
+To close the COM port database, call <a href="https://msdn.microsoft.com/3ea720ba-6cc9-4862-83d2-4f87e5c13da4">ComDBClose</a> and supply the handle that was returned by <b>ComDBOpen</b>.
 
 <b>ComDBOpen</b> is called from user mode.
 
@@ -121,7 +122,7 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546473">ComDBClose</a>
+<a href="https://msdn.microsoft.com/3ea720ba-6cc9-4862-83d2-4f87e5c13da4">ComDBClose</a>
  
 
  

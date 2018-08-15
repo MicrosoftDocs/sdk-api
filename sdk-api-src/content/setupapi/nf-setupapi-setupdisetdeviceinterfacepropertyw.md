@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Set_Device_Interface_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -62,22 +63,22 @@ The <b>SetupDiSetDeviceInterfaceProperty</b> function sets a device property of 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to set a device interface property.
+A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface for which to set a device interface property.
 
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552342">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to set a device interface property.
+A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to set a device interface property.
 
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that represents the device property key of the device interface property to set.
+A pointer to a <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a> structure that represents the device property key of the device interface property to set.
 
 
 ### -param PropertyType [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier of the device interface property to set. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
+A <a href="https://msdn.microsoft.com/e0fdcc28-be70-4ae1-bd6d-89e2177eae62">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier of the device interface property to set. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyBuffer [in, optional]
@@ -240,7 +241,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
+<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetDeviceInterfaceProperty</b>. 
 
@@ -248,9 +249,9 @@ A caller of <b>SetupDiSetDeviceInterfaceProperty</b> must be a member of the Adm
 
 <b>SetupDiSetDeviceInterfaceProperty</b> enforces requirements on the property-data-type identifier and the property value. 
 
-To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551959">SetupDiGetDeviceInterfacePropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="https://msdn.microsoft.com/46eedc41-17ee-4306-ad34-22bfd98cb96b">SetupDiGetDeviceInterfacePropertyKeys</a>.
 
-To retrieve a device interface property, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551122">SetupDiGetDeviceInterfaceProperty</a>.
+To retrieve a device interface property, call <a href="https://msdn.microsoft.com/72a44060-cebc-4690-8776-68db76810732">SetupDiGetDeviceInterfaceProperty</a>.
 
 
 
@@ -260,11 +261,11 @@ To retrieve a device interface property, call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551122">SetupDiGetDeviceInterfaceProperty</a>
+<a href="https://msdn.microsoft.com/72a44060-cebc-4690-8776-68db76810732">SetupDiGetDeviceInterfaceProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551959">SetupDiGetDeviceInterfacePropertyKeys</a>
+<a href="https://msdn.microsoft.com/46eedc41-17ee-4306-ad34-22bfd98cb96b">SetupDiGetDeviceInterfacePropertyKeys</a>
  
 
  

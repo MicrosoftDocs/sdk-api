@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -96,7 +97,7 @@ The return values are COM error codes. Because this function might complete the 
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
@@ -155,7 +156,7 @@ If the listening application closes a bidirectional communication channel, it sh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>
+<a href="_com_error_handling">Error Handling</a>
 
 
 
@@ -163,7 +164,7 @@ If the listening application closes a bidirectional communication channel, it sh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
  
 
  

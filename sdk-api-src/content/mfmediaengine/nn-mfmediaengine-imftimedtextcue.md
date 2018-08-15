@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -80,7 +81,7 @@ Gets the kind of timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/18884B70-DE34-494E-A029-6DD48AB0BA13">GetData</a>
 </td>
 <td align="left" width="63%">
 Gets the data content of the timed-text cue.
@@ -98,7 +99,7 @@ Gets the duration time of the cue in the track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/D096B1FA-E92F-4B09-9177-13203FF1704D">GetId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier of a timed-text cue.

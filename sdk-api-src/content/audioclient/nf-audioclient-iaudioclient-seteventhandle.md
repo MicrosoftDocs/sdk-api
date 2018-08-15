@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -146,9 +147,9 @@ This method requires prior initialization of the <a href="https://msdn.microsoft
 
 During stream initialization, the client can, as an option, enable event-driven buffering. To do so, the client calls the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a> method with the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag set. After enabling event-driven buffering, and before calling the <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">IAudioClient::Start</a> method to start the stream, the client must call <b>SetEventHandle</b> to register the event handle that the system will signal each time a buffer becomes ready to be processed by the client.
 
-The event handle should be in the nonsignaled state at the time that the client calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> method.
+The event handle should be in the nonsignaled state at the time that the client calls the <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">Start</a> method.
 
-If the client has enabled event-driven buffering of a stream, but the client calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> method for that stream without first calling <b>SetEventHandle</b>, the <b>Start</b> call will fail and return an error code.
+If the client has enabled event-driven buffering of a stream, but the client calls the <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">Start</a> method for that stream without first calling <b>SetEventHandle</b>, the <b>Start</b> call will fail and return an error code.
 
 If the client does not enable event-driven buffering of a stream but attempts to set an event handle for the stream by calling <b>SetEventHandle</b>, the call will fail and return an error code.
 

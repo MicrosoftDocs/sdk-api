@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -66,7 +67,7 @@ Reserved.
 
 ### -field fmt
 
-Contains one of the list view column formatting values that indicates how the column is displayed. The possible values are defined for the <b>fmt</b> member of the <a href="_win32_lvcolumn_cpp">LVCOLUMN</a> structure.
+Contains one of the list view column formatting values that indicates how the column is displayed. The possible values are defined for the <b>fmt</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure.
 
 
 ### -field cx
@@ -120,7 +121,7 @@ Reserved.
 
 
 
-<a href="_win32_lvcolumn_cpp">LVCOLUMN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -125,7 +126,7 @@ The return value is a BOOL value that indicates success or failure of the operat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187870">IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN</a>
+<a href="https://msdn.microsoft.com/A01233F3-3C5F-4184-9AAA-7391BFD2EB02">IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN</a>
  
 
  

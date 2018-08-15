@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -67,7 +68,7 @@ The <b>IsWellKnownSid</b> function compares a SID to a well-known SID and return
 
 ### -param pSid [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> to test.
+A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> to test.
 
 
 ### -param WellKnownSidType [in]
@@ -96,7 +97,7 @@ Otherwise, returns <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
 
 
 

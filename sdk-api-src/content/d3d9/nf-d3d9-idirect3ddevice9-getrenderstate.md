@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,9 +62,9 @@ Retrieves a render-state value for a device.
 
 ### -param State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2fd56388-f3bd-409f-876c-ae893840b623">D3DRENDERSTATETYPE</a></b>
 
-Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a> enumerated type. 
+Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/2fd56388-f3bd-409f-876c-ae893840b623">D3DRENDERSTATETYPE</a> enumerated type. 
 
 
 ### -param pValue [out, retval]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -97,7 +98,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>.
 
 Type: <b>void**</b>
 
-When this function returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or <a href="shell.IPropertyStoreCapabilities">IPropertyStoreCapabilities</a>.
+When this function returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyStore">IPropertyStore</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761452(v=VS.85).aspx">IPropertyStoreCapabilities</a>.
 
 
 ## -returns
@@ -115,7 +116,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This function is supported in Windows XP as part of the Microsoft Windows Desktop Search (WDS) redistributable which includes <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> and supporting interfaces. For applications supported only on Windows Vista or later, we recommend that you use <a href="https://msdn.microsoft.com/6a90ea62-e4d7-4876-802a-9c1f6c296714">IShellItem2::GetPropertyStoreWithCreateObject</a> instead of <a href="shell.PSGetItemPropertyHandlerWithCreateObject">PSGetItemPropertyHandlerWithCreateObject</a> because <b>IShellItem2::GetPropertyStoreWithCreateObject</b> provides a richer set of properties in the property store that is returned.
+This function is supported in Windows XP as part of the Microsoft Windows Desktop Search (WDS) redistributable which includes <a href="shell.IPropertyStore">IPropertyStore</a> and supporting interfaces. For applications supported only on Windows Vista or later, we recommend that you use <a href="https://msdn.microsoft.com/6a90ea62-e4d7-4876-802a-9c1f6c296714">IShellItem2::GetPropertyStoreWithCreateObject</a> instead of <a href="https://msdn.microsoft.com/en-us/library/Bb776500(v=VS.85).aspx">PSGetItemPropertyHandlerWithCreateObject</a> because <b>IShellItem2::GetPropertyStoreWithCreateObject</b> provides a richer set of properties in the property store that is returned.
 
 This function is approximately equivalent to passing the GPS_HANDLERPROPERTIESONLY flag to <a href="https://msdn.microsoft.com/6a90ea62-e4d7-4876-802a-9c1f6c296714">IShellItem2::GetPropertyStoreWithCreateObject</a>.
 
@@ -124,12 +125,12 @@ The <i>punkCreateObject</i> parameter enables the creation of a property store i
                 
                    <b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows</b>\<b>CurrentVersion</b>\<b>PropertySystem</b>\<b>PropertyHandlers</b>
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSGetItemPropertyHandlerWithCreateObject">PSGetItemPropertyHandlerWithCreateObject</a>. COM must remain initialized for the lifetime of this object.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776500(v=VS.85).aspx">PSGetItemPropertyHandlerWithCreateObject</a>. COM must remain initialized for the lifetime of this object.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetItemPropertyHandlerWithCreateObject">PSGetItemPropertyHandlerWithCreateObject</a> to obtain a property handler for an item.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776500(v=VS.85).aspx">PSGetItemPropertyHandlerWithCreateObject</a> to obtain a property handler for an item.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

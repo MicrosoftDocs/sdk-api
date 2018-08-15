@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -90,7 +91,7 @@ The <b>IMSVidOutputDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/4f8386bb-5494-4534-adec-d37ac105a3a4">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an output device to the collection.
@@ -126,7 +127,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/40c4bc6b-091b-44b5-a313-5db20842adcf">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

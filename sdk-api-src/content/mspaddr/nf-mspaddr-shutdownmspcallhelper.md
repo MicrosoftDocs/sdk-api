@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mspaddr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 The 
 <b>ShutdownMSPCallHelper</b> helper template function is called in the derived class' implementation of 
 <a href="https://msdn.microsoft.com/6527db85-cad8-4b0d-977a-9ab8b047e44e">ShutdownMSPCall</a>. It manipulates the passed-in aggregated TAPI call object Unknown pointer via dynamic casts to obtain a pointer to the inner MSP call object, and then calls the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method on the MSP call object (see below).
+<a href="https://msdn.microsoft.com/877691cb-b12b-4389-b93c-4ff13a52f4d7">Shutdown</a> method on the MSP call object (see below).
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -116,7 +117,7 @@ The <a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CR
 </tr>
 <tr>
 <td><b>CPUS_LOGON</b>, <b>CPUS_UNLOCK_WORKSTATION</b></td>
-<td>The credential information should be packed into a binary stream and transmitted to <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> and eventually LSA.</td>
+<td>The credential information should be packed into a binary stream and transmitted to <a href="https://msdn.microsoft.com/232d1dcc-5388-480c-8d27-caf8ded4575d">Winlogon</a> and eventually LSA.</td>
 </tr>
 </table>
  

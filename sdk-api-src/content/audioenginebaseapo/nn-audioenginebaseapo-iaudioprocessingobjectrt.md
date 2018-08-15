@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,19 +57,19 @@ The <code>IAudioProcessingObjectRT</code> interface includes the following metho
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536506">IAudioProcessingObjectRT::APOProcess</a>
+<a href="https://msdn.microsoft.com/b32f3cc9-3ac0-47ff-a428-f0476bd1f39e">IAudioProcessingObjectRT::APOProcess</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536507">IAudioProcessingObjectRT::CalcInputFrames</a>
+<a href="https://msdn.microsoft.com/cadebe77-5c2e-4702-9bc9-5ed0ea255722">IAudioProcessingObjectRT::CalcInputFrames</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536508">IAudioProcessingObjectRT::CalcOutputFrames</a>
+<a href="https://msdn.microsoft.com/af558f8c-a38e-44d0-ad50-5e650f86cf2e">IAudioProcessingObjectRT::CalcOutputFrames</a>
 
 
 </dd>

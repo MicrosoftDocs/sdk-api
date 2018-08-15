@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ Use the public  function <a href="https://msdn.microsoft.com/5502f735-38f5-44a4-
 
 If this parameter is the <b>ThreadQuerySetWin32StartAddress</b> value of the <b>THREADINFOCLASS</b> enumeration, the function returns the start address of the thread. Note that on versions of Windows prior to Windows Vista, the returned start address is only reliable before the thread starts running.
 
-If this parameter is the <b>ThreadSubsystemInformation</b> value of the  <b>THREADINFOCLASS</b> enumeration, the function retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/mt805892">SUBSYSTEM_INFORMATION_TYPE</a> value indicating the subsystem type of the thread. The buffer pointed to by the <i>ThreadInformation</i> parameter should be large enough to hold a single <b>SUBSYSTEM_INFORMATION_TYPE</b> enumeration.
+If this parameter is the <b>ThreadSubsystemInformation</b> value of the  <b>THREADINFOCLASS</b> enumeration, the function retrieves a <a href="https://msdn.microsoft.com/B1E334BF-AAB3-410D-8D10-A750E8459E42">SUBSYSTEM_INFORMATION_TYPE</a> value indicating the subsystem type of the thread. The buffer pointed to by the <i>ThreadInformation</i> parameter should be large enough to hold a single <b>SUBSYSTEM_INFORMATION_TYPE</b> enumeration.
 
 
 ### -param ThreadInformation [in, out]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IWSDiscoveryProviderNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/4e36157f-444d-4e59-bc30-c6def9c51cea">Add</a>
 </td>
 <td align="left" width="63%">
 Called to provide information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
@@ -80,7 +81,7 @@ Called to provide information on either a newly announced discovery host (from a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/776fc1d5-9dfe-445f-9af6-36faf971bf37">Remove</a>
 </td>
 <td align="left" width="63%">
 Called to provide information on a recently departed discovery host (from a Bye message).

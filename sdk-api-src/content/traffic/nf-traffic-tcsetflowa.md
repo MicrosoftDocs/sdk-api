@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ Name of the flow being set. The value for this parameter is obtained by a previo
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>.
+<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>.
 
 
 ### -param BufferSize [in]

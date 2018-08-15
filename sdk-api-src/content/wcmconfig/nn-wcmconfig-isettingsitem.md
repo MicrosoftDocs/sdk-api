@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -134,7 +135,7 @@ Gets the data type of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597618">GetKeyValue</a>
+<a href="https://msdn.microsoft.com/a627d0aa-05ef-43b6-a8e8-bb0770dd8873">GetKeyValue</a>
 </td>
 <td align="left" width="63%">
 Extracts key values for any list that already exists in the image.
@@ -161,7 +162,7 @@ Gets the item name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/221b5929-7300-4d01-b93e-7c82c446f52b">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path information for an item. 
@@ -206,7 +207,7 @@ Gets the setting type of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/11b61570-d1ed-4dcf-b533-873096ae80b9">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the item value.
@@ -251,7 +252,7 @@ Removes a child setting or list element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/52b7e852-b389-47ec-a9d0-e4ce2e95f1f8">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the item value.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,7 +95,7 @@ Retrieves the security information for the trace data provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/b3d1720f-3a74-4040-803b-266bd0d50cfc">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves details about a registered provider.
@@ -130,7 +131,7 @@ Sets the security information for the trace data provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/1a162b71-d4e3-4259-9980-bf40766983b1">DisplayName</a>
 
 
 </td>
@@ -162,7 +163,7 @@ Retrieves or sets arbitrary data that is sent to the trace data provider for fil
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt346394">FilterEnabled</a>
+<a href="https://msdn.microsoft.com/fef5e6a4-3a97-4799-b46d-c0e82b1c0104">FilterEnabled</a>
 
 
 </td>
@@ -194,7 +195,7 @@ Retrieves or sets a provider-defined filter type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">Guid</a>
+<a href="https://msdn.microsoft.com/0d2166dc-24cf-4d5f-8b37-94c4f9990178">Guid</a>
 
 
 </td>
@@ -258,7 +259,7 @@ Retrieves the level of information used to enable the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>
+<a href="https://msdn.microsoft.com/1dc21423-fa55-4312-b86a-63d4f59e4cf1">Properties</a>
 
 
 </td>

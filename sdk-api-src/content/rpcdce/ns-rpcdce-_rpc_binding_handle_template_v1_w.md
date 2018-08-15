@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -131,7 +132,7 @@ Reserved. This member must be set to <b>NULL</b>.
 The UUID of the remote object. The semantics for this UUID are the same as those for a string binding. After the binding handle is created, call <a href="https://msdn.microsoft.com/5dcf341f-e392-4608-b741-8fa07cabd50b">RpcBindingSetObject</a> to change the UUID as needed.
 
 
-###### - ProtocolSequence.ncalrpc (Specifies local RPC.)
+###### - ProtocolSequence.ncacn_http (Specifies RPC over HTTP.)
 
 
 ###### - ProtocolSequence.ncacn_ip_tcp (Specifies RPC over TCP/IP.)
@@ -140,7 +141,7 @@ The UUID of the remote object. The semantics for this UUID are the same as those
 ###### - ProtocolSequence.ncacn_np (Specifies RPC over named pipes.)
 
 
-###### - ProtocolSequence.ncacn_http (Specifies RPC over HTTP.)
+###### - ProtocolSequence.ncalrpc (Specifies local RPC.)
 
 
 ## -remarks

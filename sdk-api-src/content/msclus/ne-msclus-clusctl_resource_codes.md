@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -703,16 +704,16 @@ See
        <a href="https://msdn.microsoft.com/1e2d3482-5e1f-45a3-9f80-c034582d6a75">CLUSCTL_RESOURCE_FILESERVER_SHARE_REPORT</a>.
 
 
-#### - CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK
-
-See 
-       <a href="https://msdn.microsoft.com/80a156ad-babb-4067-ade7-d4596a45c21b">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>.
-
-
 #### - CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED
 
 See 
        <a href="https://msdn.microsoft.com/0965ad65-9942-4672-8ecc-c8b8fe854a85">CLUSCTL_RESOURCE_NETNAME_CREDS_UPDATED</a>.
+
+
+#### - CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK
+
+See 
+       <a href="https://msdn.microsoft.com/80a156ad-babb-4067-ade7-d4596a45c21b">CLUSCTL_RESOURCE_STORAGE_CLUSTER_DISK</a>.
 
 
 ## -see-also

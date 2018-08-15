@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>BRUSHOBJ_pvGetRbrush</b> function retrieves a pointer to the driver's rea
 
 ### -param pbo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a> structure whose realization is requested.
+Pointer to the <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a> structure whose realization is requested.
 
 
 ## -returns
@@ -79,7 +80,7 @@ The return value is a pointer to the realized brush if the function is successfu
 
 <b>BRUSHOBJ_pvGetRbrush</b> is called when the brush is a pattern brush that has not yet been realized; that is, it is called when the <b>iSolidColor</b> member of the BRUSHOBJ structure is 0xFFFFFFFF and the <b>pvRbrush</b> member is null.
 
-If the brush has not been realized when <b>BRUSHOBJ_pvGetRbrush</b> is called, GDI calls the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a> function to obtain the driver's realization of the brush. As an acceleration, GDI caches this realization in the <b>pvRbrush</b> member of the BRUSHOBJ structure. Then, when an application reuses this brush for another drawing operation, the driver doesn't have to call <b>BRUSHOBJ_pvGetRbrush</b> again.
+If the brush has not been realized when <b>BRUSHOBJ_pvGetRbrush</b> is called, GDI calls the driver-supplied <a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a> function to obtain the driver's realization of the brush. As an acceleration, GDI caches this realization in the <b>pvRbrush</b> member of the BRUSHOBJ structure. Then, when an application reuses this brush for another drawing operation, the driver doesn't have to call <b>BRUSHOBJ_pvGetRbrush</b> again.
 
 
 
@@ -89,15 +90,15 @@ If the brush has not been realized when <b>BRUSHOBJ_pvGetRbrush</b> is called, G
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a>
+<a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538263">BRUSHOBJ_pvAllocRbrush</a>
+<a href="https://msdn.microsoft.com/10900536-6c48-4a96-92d2-025660ccff7e">BRUSHOBJ_pvAllocRbrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>
+<a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a>
  
 
  

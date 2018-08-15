@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -70,7 +71,7 @@ Pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736
 
 Type: <b>VARIANT*</b>
 
-When this method returns, contains a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> that specifies the role.
+When this method returns, contains a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that specifies the role.
 
 
 ## -returns

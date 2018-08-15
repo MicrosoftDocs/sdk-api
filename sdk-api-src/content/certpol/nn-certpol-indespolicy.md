@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certpol.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ Performs the policy decision whether to issue a challenge password to the SCEP c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/654b4e1d-f717-459a-bbf5-dcc733756608">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the NDES policy module.
@@ -97,7 +98,7 @@ Notifies the plug-in of the transaction status of the SCEP certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597582">Uninitialize</a>
+<a href="https://msdn.microsoft.com/47e9f422-a46a-486f-bbed-94dcd04b7f65">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Uninitializes the NDES policy module.

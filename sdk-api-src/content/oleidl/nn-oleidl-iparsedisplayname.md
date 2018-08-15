@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -105,7 +106,7 @@ Parses the specified display name and creates a corresponding moniker.
 
 
 
-<a href="_inet_MkParseDisplayNameEx_Function_cpp">MkParseDisplayNameEx</a>
+<a href="https://msdn.microsoft.com/library/ms775113(v=VS.85).aspx">MkParseDisplayNameEx</a>
  
 
  

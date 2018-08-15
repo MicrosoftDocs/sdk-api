@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -73,7 +74,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  The <b>CurrentPanel</b> property cannot be set to <a href="https://msdn.microsoft.com/library/windows/hardware/mt637446">Default</a> or <b>Inactive</b>, only <b>Handwriting</b> or <b>Keyboard</b>.</div>
+<div class="alert"><b>Note</b>  The <b>CurrentPanel</b> property cannot be set to <a href="https://msdn.microsoft.com/fbf0ecce-0286-4d1b-99ba-9d28fc25da30">Default</a> or <b>Inactive</b>, only <b>Handwriting</b> or <b>Keyboard</b>.</div>
 <div> </div>
 When you create a <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object, the <a href="https://msdn.microsoft.com/fbf0ecce-0286-4d1b-99ba-9d28fc25da30">Handwriting</a> panel - also known as the writing pad - is the default input UI.
 

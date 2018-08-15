@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wrdsgraphicschannels.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -71,7 +72,7 @@ The <b>IWRdsGraphicsChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2">Close</a>
 </td>
 <td align="left" width="63%">
 Called to close the channel.
@@ -80,7 +81,7 @@ Called to close the channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/3b32b37f-6b1f-4682-9e2e-4a64e5c36e04">Open</a>
 </td>
 <td align="left" width="63%">
 Called to open a channel.
@@ -89,7 +90,7 @@ Called to open a channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/6ce627d8-078d-427a-b732-473d4f44f719">Write</a>
 </td>
 <td align="left" width="63%">
 Called to send data to the virtual channel.

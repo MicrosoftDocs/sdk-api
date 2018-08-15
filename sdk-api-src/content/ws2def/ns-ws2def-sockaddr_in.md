@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The SOCKADDR_IN structure specifies a transport address and port for the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a> address family.
+  <a href="netvista.af_inet">AF_INET</a> address family.
 
 
 ## -struct-fields
@@ -73,7 +74,7 @@ A transport protocol port number.
 ### -field sin_addr
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure that contains an IPv4 transport
+     <a href="https://msdn.microsoft.com/574c43bc-1a14-41dc-bbf8-3cb0aeb92465">IN_ADDR</a> structure that contains an IPv4 transport
      address.
 
 
@@ -97,19 +98,19 @@ All of the data in the SOCKADDR_IN structure, except for the address family, mus
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
+<a href="netvista.af_inet">AF_INET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a>
+<a href="https://msdn.microsoft.com/574c43bc-1a14-41dc-bbf8-3cb0aeb92465">IN_ADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>
  
 
  

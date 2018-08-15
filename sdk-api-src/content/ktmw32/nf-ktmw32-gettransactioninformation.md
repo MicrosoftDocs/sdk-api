@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -79,9 +80,9 @@ The size of the <i>Description</i> parameter, in bytes. The buffer length value 
 A pointer to a buffer that receives the user-defined description of the transaction.
 
 
-#### - Outcome [out, optional]
+#### - IsolationFlags [out, optional]
 
-A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a> enumeration values.
+Reserved.
 
 
 #### - IsolationLevel [out, optional]
@@ -89,9 +90,9 @@ A pointer to a buffer that receives the current outcome of the transaction. If t
 Reserved.
 
 
-#### - IsolationFlags [out, optional]
+#### - Outcome [out, optional]
 
-Reserved.
+A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/d4315a62-b65f-4744-8084-2317ad39c32c">TRANSACTION_OUTCOME</a> enumeration values.
 
 
 #### - Timeout [out, optional]

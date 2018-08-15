@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -117,7 +118,7 @@ This method can return any one of the following values:
 </table>
  
 
-This method will return a value specified in <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified in the preceding table.
+This method will return a value specified in <a href="https://msdn.microsoft.com/3abbe92b-32b7-4820-b208-45c847243078">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified in the preceding table.
 
 
 
@@ -128,7 +129,7 @@ This method will return a value specified in <a href="https://msdn.microsoft.com
 
 In most respects, this method operates identically to the <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> method. The primary difference is that <b>IWiaDataTransfer::idtGetData</b> provides an additional parameter for a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface. Applications use this optional parameter to obtain status notifications during the data transfer. If no status notifications are needed, it should be set to zero.
 
-The format of the data transfer is determined by the values of the item's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551553">WIA_IPA_FORMAT</a> and <b>WIA_IPA_TYMED</b> properties. The application sets these properties with calls to the <a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">IWiaPropertyStorage::WriteMultiple</a> method.
+The format of the data transfer is determined by the values of the item's <a href="https://msdn.microsoft.com/ef48313e-4df4-4ccd-a085-f714100885a7">WIA_IPA_FORMAT</a> and <b>WIA_IPA_TYMED</b> properties. The application sets these properties with calls to the <a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">IWiaPropertyStorage::WriteMultiple</a> method.
 
 Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a> method, <b>IWiaDataTransfer::idtGetData</b> transfers a complete file from a WIA device to an application rather than just a single band of data. The <i>pMedium</i> parameter is a pointer to the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure which contains information on the storage medium to be used for the data transfer. Programs use the <i>pIWiaDataCallback</i> parameter to pass this method a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface. Periodically, this method will use the interface pointer to invoke the <a href="https://msdn.microsoft.com/en-us/library/ms630156(v=VS.85).aspx">BandedDataCallback</a> method and provide the application with status information about the data transfer in progress.
 

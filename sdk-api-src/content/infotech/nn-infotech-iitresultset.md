@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -113,7 +114,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/621d45e8-0f28-4c9c-bfc5-878ad3d2de1d">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the property in the specified row and column and fills the given property object.

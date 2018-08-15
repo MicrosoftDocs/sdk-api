@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -250,7 +251,7 @@ Pointer to a <b>null</b>-terminated string that specifies the optional caption t
 
 
 Each time the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> button is clicked, the <b>szReturnPathBuffer</b> buffer contains the selected counter and the <b>pCallBack</b> callback function is called. The callback function should call the 
+<a href="https://msdn.microsoft.com/9daecfe6-c2a9-48af-8b59-4f81f0325535">Add</a> button is clicked, the <b>szReturnPathBuffer</b> buffer contains the selected counter and the <b>pCallBack</b> callback function is called. The callback function should call the 
 <a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a> function for each counter in the buffer.
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -170,7 +171,7 @@ ID of the backed-up GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a>
+<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">ID</a>
 
 
 </td>

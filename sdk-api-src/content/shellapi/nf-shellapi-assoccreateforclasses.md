@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,9 +64,9 @@ Retrieves an object that implements an <a href="https://msdn.microsoft.com/8edb9
 
 ### -param rgClasses [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/dn934603">ASSOCIATIONELEMENT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4">ASSOCIATIONELEMENT</a>*</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn934603">ASSOCIATIONELEMENT</a> structures.
+A pointer to an array of <a href="https://msdn.microsoft.com/1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4">ASSOCIATIONELEMENT</a> structures.
 
 
 ### -param cClasses [in]

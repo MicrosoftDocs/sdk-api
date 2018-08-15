@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,12 +61,12 @@ The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the
 
 ### -field lpDD
 
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550586">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field DDSCaps
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a> structure that describes the type of surface for which memory availability is being queried.
+Points to a <a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a> structure that describes the type of surface for which memory availability is being queried.
 
 
 ### -field dwTotal

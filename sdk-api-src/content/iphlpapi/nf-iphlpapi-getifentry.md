@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ The
 ### -param pIfRow [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787">MIB_IFROW</a> structure that, on successful return, receives information for an interface on the local computer. On input, set the <b>dwIndex</b> member of <b>MIB_IFROW</b> to the index of the interface for which to retrieve information. The value for the <b>dwIndex</b> must be retrieved by a previous call to the <a href="https://msdn.microsoft.com/6a46c1df-b274-415e-b842-fc1adf6fa206">GetIfTable</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a> function.
+<a href="https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787">MIB_IFROW</a> structure that, on successful return, receives information for an interface on the local computer. On input, set the <b>dwIndex</b> member of <b>MIB_IFROW</b> to the index of the interface for which to retrieve information. The value for the <b>dwIndex</b> must be retrieved by a previous call to the <a href="https://msdn.microsoft.com/6a46c1df-b274-415e-b842-fc1adf6fa206">GetIfTable</a>, <a href="https://msdn.microsoft.com/0153c41c-b02b-4832-87b3-88dc3a9f4ff1">GetIfTable2</a>, or <a href="https://msdn.microsoft.com/d8663894-50b1-4ca2-a1f4-6ca0970795a7">GetIfTable2Ex</a> function.
 
 
 ## -returns
@@ -158,7 +159,7 @@ Use
 
 The <b>GetIfEntry</b> function retrieves information for an interface on a local computer. 
 
-The <b>dwIndex</b> member in the <a href="https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter must be initialized to a valid network interface index retrieved by a previous call to the <a href="https://msdn.microsoft.com/6a46c1df-b274-415e-b842-fc1adf6fa206">GetIfTable</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a> function.
+The <b>dwIndex</b> member in the <a href="https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter must be initialized to a valid network interface index retrieved by a previous call to the <a href="https://msdn.microsoft.com/6a46c1df-b274-415e-b842-fc1adf6fa206">GetIfTable</a>, <a href="https://msdn.microsoft.com/0153c41c-b02b-4832-87b3-88dc3a9f4ff1">GetIfTable2</a>, or <a href="https://msdn.microsoft.com/d8663894-50b1-4ca2-a1f4-6ca0970795a7">GetIfTable2Ex</a> function.
 
 The <b>GetIfEntry</b> function will fail if the  <b>dwIndex</b>  member of the <a href="https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter does not match an existing interface index on the local computer. 
 
@@ -360,7 +361,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552517">GetIfEntry2</a>
+<a href="https://msdn.microsoft.com/da787dae-5e89-4bf2-a9b6-90e727995414">GetIfEntry2</a>
 
 
 
@@ -368,11 +369,11 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>
+<a href="https://msdn.microsoft.com/0153c41c-b02b-4832-87b3-88dc3a9f4ff1">GetIfTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a>
+<a href="https://msdn.microsoft.com/d8663894-50b1-4ca2-a1f4-6ca0970795a7">GetIfTable2Ex</a>
 
 
 
@@ -392,11 +393,11 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559214">MIB_IF_ROW2</a>
+<a href="https://msdn.microsoft.com/e8bb79f9-e7e9-470b-8883-36d08061661b">MIB_IF_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559224">MIB_IF_TABLE2</a>
+<a href="https://msdn.microsoft.com/334078c6-afd0-4c53-838c-28bc3e1e8484">MIB_IF_TABLE2</a>
 
 
 

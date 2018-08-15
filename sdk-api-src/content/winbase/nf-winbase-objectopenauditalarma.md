@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -95,7 +96,7 @@ A pointer to a <b>null</b>-terminated string specifying the name of the object t
 ### -param pSecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure for the object being accessed.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure for the object being accessed.
 
 
 ### -param ClientToken [in]
@@ -116,7 +117,7 @@ Specifies an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f
 ### -param Privileges [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a> structure that specifies the set of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> required for the access attempt. This parameter can be <b>NULL</b>.
+<a href="https://msdn.microsoft.com/2ee5615c-f684-4062-a6cb-e43e9de3a2fb">PRIVILEGE_SET</a> structure that specifies the set of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> required for the access attempt. This parameter can be <b>NULL</b>.
 
 
 ### -param ObjectCreation [in]
@@ -151,7 +152,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>ObjectOpenAuditAlarm</b> function requires the calling application to have the SE_AUDIT_NAME privilege enabled. The test for this privilege is always performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a>, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread. This allows the calling process to impersonate a client during the call.
+The <b>ObjectOpenAuditAlarm</b> function requires the calling application to have the SE_AUDIT_NAME privilege enabled. The test for this privilege is always performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a>, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread. This allows the calling process to impersonate a client during the call.
 
 
 
@@ -201,7 +202,7 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a>
+<a href="https://msdn.microsoft.com/2ee5615c-f684-4062-a6cb-e43e9de3a2fb">PRIVILEGE_SET</a>
 
 
 
@@ -213,7 +214,7 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
  
 
  

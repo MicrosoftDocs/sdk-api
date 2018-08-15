@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -83,11 +84,11 @@ The <b>WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</b>  structure is an extension to n
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547655">DOT11_AUTH_ALGORITHM</a>
+<a href="https://msdn.microsoft.com/ac4097df-46dc-4c64-b72a-7cb9dce8b418">DOT11_AUTH_ALGORITHM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547672">DOT11_CIPHER_ALGORITHM</a>
+<a href="https://msdn.microsoft.com/6b634d76-a159-438e-8fc6-5f05b326ed68">DOT11_CIPHER_ALGORITHM</a>
 
 
 

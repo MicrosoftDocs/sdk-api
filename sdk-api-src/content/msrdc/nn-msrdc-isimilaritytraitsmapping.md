@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -102,7 +103,7 @@ Returns the size of a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548086">GetPageSize</a>
+<a href="https://msdn.microsoft.com/8189d346-9e8e-40c0-8080-75c36326c917">GetPageSize</a>
 </td>
 <td align="left" width="63%">
 Returns the page size (disk block size) for a similarity traits table file.

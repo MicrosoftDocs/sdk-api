@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -92,7 +93,7 @@ Retrieves an interface on an enumerator object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/ed4e98e5-053c-4d3b-bcd0-3add96bbe120">Count</a>
 
 
 </td>
@@ -108,7 +109,7 @@ Gets the number of members.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh707480(v=VS.85).aspx">Filter</a>
+<a href="https://msdn.microsoft.com/ed4e98e5-053c-4d3b-bcd0-3add96bbe120">Filter</a>
 
 
 </td>

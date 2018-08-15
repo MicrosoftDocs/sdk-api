@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> private property of the 
+Retrieves the <a href="https://msdn.microsoft.com/09903bd1-1049-462f-9a11-b680763e3c36">Name</a> private property of the 
     <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource on 
     which a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> is 
     <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependent</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME</b> type defines a pointer to this function.
@@ -69,7 +70,7 @@ Handle to the dependent resource.
 ### -param lpBuffer [out]
 
 Buffer containing a null-terminated Unicode string that contains the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> private property of the Network Name 
+      <a href="https://msdn.microsoft.com/09903bd1-1049-462f-9a11-b680763e3c36">Name</a> private property of the Network Name 
       resource on which the resource depends.
 
 

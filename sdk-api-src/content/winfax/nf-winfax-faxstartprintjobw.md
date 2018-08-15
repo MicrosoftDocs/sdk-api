@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -97,7 +98,7 @@ Pointer to a <b>DWORD</b> variable to receive the print spooler's unique ID for 
 
 Type: <b>PFAX_CONTEXT_INFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd183553(v=VS.85).aspx">Device Contexts</a> and the <a href="_win32_Printing_and_Print_Spooler_Reference">Printing and Print Spooler Reference</a>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd183553(v=VS.85).aspx">Device Contexts</a> and the <a href="https://msdn.microsoft.com/library/ms535790(v=VS.85).aspx">Printing and Print Spooler Reference</a>.
 
 
 ## -returns
@@ -181,11 +182,11 @@ An error occurred during memory allocation.
 
 
 
-The function returns a handle to a device context. The handle is used by the <a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function, and by the <a href="https://msdn.microsoft.com/en-us/library/Dd162456(v=VS.85).aspx">AbortDoc</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd162594(v=VS.85).aspx">EndDoc</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd183533(v=VS.85).aspx">DeleteDC</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd162596(v=VS.85).aspx">EndPage</a> and other Win32 Windows Graphics Device Interface (GDI) functions.
+The function returns a handle to a device context. The handle is used by the <a href="https://msdn.microsoft.com/en-us/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function, and by the <a href="https://msdn.microsoft.com/en-us/library/Dd162456(v=VS.85).aspx">AbortDoc</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd162594(v=VS.85).aspx">EndDoc</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd183533(v=VS.85).aspx">DeleteDC</a>, <a href="_win32_StartPage">StartPage</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd162596(v=VS.85).aspx">EndPage</a> and other Win32 Windows Graphics Device Interface (GDI) functions.
 
 <div class="alert"><b>Note</b>  The application must also call the <a href="https://msdn.microsoft.com/en-us/library/Dd162456(v=VS.85).aspx">AbortDoc</a> function or the <a href="https://msdn.microsoft.com/en-us/library/Dd162594(v=VS.85).aspx">EndDoc</a> function to complete the print job, and call the <a href="https://msdn.microsoft.com/en-us/library/Dd183533(v=VS.85).aspx">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690908(v=VS.85).aspx">Printing a Fax to a Device Context</a>.</div>
 <div> </div>
-A fax client application should not call the <a href="https://msdn.microsoft.com/en-us/library/Dd183490(v=VS.85).aspx">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="https://msdn.microsoft.com/en-us/library/Dd183565(v=VS.85).aspx">DEVMODE</a> structure specific to the fax printer of interest.
+A fax client application should not call the <a href="https://msdn.microsoft.com/en-us/library/Dd183490(v=VS.85).aspx">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="_win32_StartPage">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="https://msdn.microsoft.com/en-us/library/Dd183565(v=VS.85).aspx">DEVMODE</a> structure specific to the fax printer of interest.
 
 The change prevents the display of the Fax Send Wizard that collects information from the user. The fax server uses the data in the <a href="https://msdn.microsoft.com/en-us/library/ms691942(v=VS.85).aspx">FAX_PRINT_INFO</a> structure pointed to by the <i>PrintInfo</i> parameter to print the fax transmission. This structure contains data the Fax Send Wizard would have collected, had the wizard been displayed.
 

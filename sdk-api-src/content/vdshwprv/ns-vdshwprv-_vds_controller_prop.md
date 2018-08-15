@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -117,19 +118,19 @@ A
 The number of ports that the controller contains. Ports are numbered from zero. Hardware providers should set this member to zero for PCI RAID cards.
 
 
-##### - health.VDS_H_UNKNOWN (0)
-
-
-##### - health.VDS_H_HEALTHY (1)
+##### - health.VDS_H_DEGRADED (11)
 
 
 ##### - health.VDS_H_FAILED (8)
 
 
+##### - health.VDS_H_HEALTHY (1)
+
+
 ##### - health.VDS_H_REPLACED (9)
 
 
-##### - health.VDS_H_DEGRADED (11)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ## -remarks

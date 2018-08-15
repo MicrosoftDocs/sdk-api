@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -90,7 +91,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 The display names are typically combined into a string that is displayed in recorder selection list boxes or other GUI components.
 
 The combination of these three strings does not produce a unique identifier for this specific recorder. Combine these strings with the string returned from 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a> to create a unique value.
+<a href="https://msdn.microsoft.com/bceb7302-e5e6-4ee5-9adb-1736ab62e819">GetPath</a> to create a unique value.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -198,7 +199,7 @@ Specifies that the file that the  <i>hFile</i> parameter specifies is an executa
          image file that will not be executed and the loaded image file will have no forced integrity checks run. 
          Additionally, mapping a view of a file mapping object created with the 
          <b>SEC_IMAGE_NO_EXECUTE</b> attribute will not invoke driver callbacks registered using 
-         the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a> 
+         the <a href="https://msdn.microsoft.com/e90bc043-1b92-474c-b6c7-7e510271118b">PsSetLoadImageNotifyRoutine</a> 
          kernel API.
 
 The <b>SEC_IMAGE_NO_EXECUTE</b> attribute must be combined with the 
@@ -379,7 +380,7 @@ Multiple processes can share a view of the same file   by either using a single 
     creating separate file mapping objects backed by the same file. A single file mapping object can be shared by 
     multiple processes through inheriting the handle at process creation, duplicating the handle, or opening the file 
     mapping object by name. For more information, see the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>, 
+    <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, 
     <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> and 
     <a href="https://msdn.microsoft.com/4896144c-78fc-4d21-a302-d9ba66fb2f8a">OpenFileMapping</a> functions.
 

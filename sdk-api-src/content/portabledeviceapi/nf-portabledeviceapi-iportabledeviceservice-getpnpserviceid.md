@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ The <b>GetPnPServiceID</b> method retrieves a Plug and Play (PnP) identifier for
 
 ### -param ppszPnPServiceID [out]
 
-The retrieved PnP identifier, which is the same identifier that was passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method.
+The retrieved PnP identifier, which is the same identifier that was passed to the <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a> method.
 
 
 ## -returns
@@ -105,7 +106,7 @@ A <b>NULL</b> parameter was specified.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method has not yet been called for the service.
+The <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a> method has not yet been called for the service.
 
 </td>
 </tr>
@@ -119,7 +120,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open<
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method must be called on the service before a PnP identifier can be retrieved.
+The <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a> method must be called on the service before a PnP identifier can be retrieved.
 
 When an application no longer needs the PnP identifier, it should call the <b>CoTaskMemFree</b> function to free the identifier memory.
 

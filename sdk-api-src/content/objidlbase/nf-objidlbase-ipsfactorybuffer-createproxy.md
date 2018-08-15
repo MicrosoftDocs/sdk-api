@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -110,7 +111,7 @@ The <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IU
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764028">Proxy</a>
+<a href="https://msdn.microsoft.com/6c82f655-ac46-4ed9-992b-0387b324a8f9">Proxy</a>
  
 
  

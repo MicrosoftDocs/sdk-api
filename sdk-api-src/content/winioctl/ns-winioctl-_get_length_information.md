@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains disk, volume, or partition length information used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560370">IOCTL_DISK_GET_LENGTH_INFO</a> control code.
+<a href="https://msdn.microsoft.com/8d4bd6e3-f0f3-40d6-b0ba-75155282f64a">IOCTL_DISK_GET_LENGTH_INFO</a> control code.
 
 
 ## -struct-fields
@@ -71,7 +72,7 @@ The length of the disk, volume, or partition, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560370">IOCTL_DISK_GET_LENGTH_INFO</a>
+<a href="https://msdn.microsoft.com/8d4bd6e3-f0f3-40d6-b0ba-75155282f64a">IOCTL_DISK_GET_LENGTH_INFO</a>
  
 
  

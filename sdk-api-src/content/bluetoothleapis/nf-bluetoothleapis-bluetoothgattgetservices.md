@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The number of elements allocated for the <i>ServicesBuffer</i> parameter.
 
 ### -param ServicesBuffer [out, optional]
 
-Pointer to buffer containing a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450850">BTH_LE_GATT_SERVICE</a> structure into which to return services.
+Pointer to buffer containing a <a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a> structure into which to return services.
 
 
 ### -param ServicesBufferActual [out]
@@ -291,7 +292,7 @@ Do not modify the returned service structure,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450850">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
  
 
  

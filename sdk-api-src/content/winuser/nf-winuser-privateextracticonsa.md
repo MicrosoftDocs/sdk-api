@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -184,11 +185,11 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/323c5e09-4e22-4a67-b8aa-5e5f369fb585">ExtractIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx">ExtractIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef7a141f-9711-4345-8035-b7ad18a37caf">ExtractIconEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx">ExtractIconEx</a>
 
 
 

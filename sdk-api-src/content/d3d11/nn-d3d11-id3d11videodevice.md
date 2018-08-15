@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -79,7 +80,7 @@ Gets a cryptographic key-exchange mechanism that is supported by the driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451615">CheckVideoDecoderFormat</a>
+<a href="https://msdn.microsoft.com/E834DF38-2847-4864-9CFE-A25CAE51C78F">CheckVideoDecoderFormat</a>
 </td>
 <td align="left" width="63%">
 Given aprofile, checks whether the driver supports a specified output format.
@@ -97,7 +98,7 @@ Creates a channel to communicate with the Direct3D device or the graphics driver
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
+<a href="https://msdn.microsoft.com/384EE3E1-2B62-477B-8A3F-FDCD06959B74">CreateCryptoSession</a>
 </td>
 <td align="left" width="63%">
 Creates a cryptographic session to encrypt video content that is sent to the graphics driver.
@@ -162,7 +163,7 @@ Creates a resource view for a video processor, describing the output sample for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a>
+<a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">GetContentProtectionCaps</a>
 </td>
 <td align="left" width="63%">
 Queries the driver for its content protection capabilities.
@@ -173,7 +174,7 @@ Queries the driver for its content protection capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451665">GetVideoDecoderConfig</a>
+<a href="https://msdn.microsoft.com/EC3B23BE-0A28-41E6-A515-7801C9E0A4D9">GetVideoDecoderConfig</a>
 </td>
 <td align="left" width="63%">
 Gets a decoder configuration that is supported by the driver.
@@ -182,7 +183,7 @@ Gets a decoder configuration that is supported by the driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451668">GetVideoDecoderConfigCount</a>
+<a href="https://msdn.microsoft.com/C6650546-2F6D-4B91-888D-3A5A1AE86DCB">GetVideoDecoderConfigCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of decoder configurations that the driver supports for a specified video description.
@@ -191,7 +192,7 @@ Gets the number of decoder configurations that the driver supports for a specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451670">GetVideoDecoderProfile</a>
+<a href="https://msdn.microsoft.com/8D958469-7FC3-4B4F-82BF-271662CF0088">GetVideoDecoderProfile</a>
 </td>
 <td align="left" width="63%">
 Gets a profile that is supported by the driver.
@@ -200,7 +201,7 @@ Gets a profile that is supported by the driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451672">GetVideoDecoderProfileCount</a>
+<a href="https://msdn.microsoft.com/6DCAD69B-3C00-4B3A-97AA-69DF26EF5CD4">GetVideoDecoderProfileCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of profiles that are supported by the driver.

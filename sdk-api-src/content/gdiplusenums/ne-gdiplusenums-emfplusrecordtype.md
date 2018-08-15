@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -62,7 +63,7 @@ Elements that have the WmfRecordType prefix are analogous to constants (defined 
 
 Elements that have the EmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix EMR_. For example, the element <b><b>EmfRecordTypePolygon</b></b> is analogous to the constant EMR_POLYGON. For more information about EMR constants, see <a href="https://msdn.microsoft.com/06582047-b64b-44ec-ae27-1f8ed7c56b97">EMR</a>.
 
-Elements that have the EmfPlusRecordType prefix are specific to GDI+. Most of those elements correspond to methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class. The remaining elements identify the header, the end of the file, and other sections of the metafile. The Constants section of this topic shows the correspondence between the EMF+ record types and the methods of the <b>Graphics</b> class.
+Elements that have the EmfPlusRecordType prefix are specific to GDI+. Most of those elements correspond to methods of the <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. The remaining elements identify the header, the end of the file, and other sections of the metafile. The Constants section of this topic shows the correspondence between the EMF+ record types and the methods of the <b>Graphics</b> class.
 
 
 ## -enum-fields

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -96,7 +97,7 @@ If management software does not call <b>AddIsnsServer</b> to manually add the ne
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563978">RemoveIsnsServer</a>
+<a href="https://msdn.microsoft.com/702a86e3-eeac-40cd-9203-ee865e2b710a">RemoveIsnsServer</a>
 
 
 

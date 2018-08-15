@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Pointer to the block of memory being deallocated.
 
 
 
-This routine releases memory allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564176">EngAllocMem</a>. The memory block must not be accessed after it is freed.
+This routine releases memory allocated by <a href="https://msdn.microsoft.com/61bef5a1-bf68-4d37-ae5d-13ff045a2344">EngAllocMem</a>. The memory block must not be accessed after it is freed.
 
 
 
@@ -78,7 +79,7 @@ This routine releases memory allocated by <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564176">EngAllocMem</a>
+<a href="https://msdn.microsoft.com/61bef5a1-bf68-4d37-ae5d-13ff045a2344">EngAllocMem</a>
  
 
  

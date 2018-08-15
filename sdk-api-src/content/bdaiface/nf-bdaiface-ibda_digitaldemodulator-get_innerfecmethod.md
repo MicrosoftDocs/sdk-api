@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>get_InnerFECMethod</b> method retrieves the inner forward error correctio
 
 ### -param pFECMethod [out]
 
-Pointer that receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559594">FECMethod</a> variable.
+Pointer that receives an <a href="https://msdn.microsoft.com/6910c51d-4176-49a3-be6b-6b072ad03fc1">FECMethod</a> variable.
 
 
 ## -returns

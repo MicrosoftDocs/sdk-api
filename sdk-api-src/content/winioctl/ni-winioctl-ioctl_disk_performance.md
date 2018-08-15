@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -148,7 +149,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-To disable the  performance counters enabled by this control code, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560393">IOCTL_DISK_PERFORMANCE_OFF</a> control code.
+To disable the  performance counters enabled by this control code, use the <a href="https://msdn.microsoft.com/68f4f6fb-a4f3-4fa5-8187-b2287a4271e8">IOCTL_DISK_PERFORMANCE_OFF</a> control code.
 
 
 
@@ -158,7 +159,7 @@ To disable the  performance counters enabled by this control code, use the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552633">DISK_PERFORMANCE</a>
+<a href="https://msdn.microsoft.com/938ec37b-450e-4ebf-ad2b-9f1ac5f56112">DISK_PERFORMANCE</a>
 
 
 
@@ -170,7 +171,7 @@ To disable the  performance counters enabled by this control code, use the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560393">IOCTL_DISK_PERFORMANCE_OFF</a>
+<a href="https://msdn.microsoft.com/68f4f6fb-a4f3-4fa5-8187-b2287a4271e8">IOCTL_DISK_PERFORMANCE_OFF</a>
  
 
  

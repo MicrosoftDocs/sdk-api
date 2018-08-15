@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -76,7 +77,7 @@ A handle to the window whose transform is used for the conversion. Top level win
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that specifies the logical coordinates to be converted. The new physical coordinates are copied into this structure if the function succeeds.
+A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that specifies the logical coordinates to be converted. The new physical coordinates are copied into this structure if the function succeeds.
 
 
 ## -remarks
@@ -85,9 +86,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 Windows Vista introduces the concept of physical coordinates. Desktop Window Manager (DWM) scales non-dots per inch (dpi) aware windows when the display is high dpi. The window seen on the screen corresponds to the physical coordinates. The application continues to work in logical space. Therefore, the application's view of the window is different from that which appears on the screen. For scaled windows, logical and physical coordinates are different.
 
-<b>LogicalToPhysicalPoint</b> is a transformation API that can be called by a process that declares itself as dpi aware. The function uses the window identified by the <i>hWnd</i> parameter and the logical coordinates given in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure to compute the physical coordinates.
+<b>LogicalToPhysicalPoint</b> is a transformation API that can be called by a process that declares itself as dpi aware. The function uses the window identified by the <i>hWnd</i> parameter and the logical coordinates given in the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure to compute the physical coordinates.
 
-The <b>LogicalToPhysicalPoint</b> function replaces the logical coordinates in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure with the physical coordinates. The physical coordinates are relative to the upper-left corner of the screen. The coordinates have to be inside the client area of <i>hWnd</i>.
+The <b>LogicalToPhysicalPoint</b> function replaces the logical coordinates in the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure with the physical coordinates. The physical coordinates are relative to the upper-left corner of the screen. The coordinates have to be inside the client area of <i>hWnd</i>.
 
 On all platforms, <b>LogicalToPhysicalPoint</b> will fail on a window that has either 0 width or height; an application must first establish a non-0 width and height by calling, for example, <a href="https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx">MoveWindow</a>.  On some versions of Windows (including Windows 7), <b>LogicalToPhysicalPoint</b> will still fail if <b>MoveWindow</b> has been called after a call to <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with <b>SH_HIDE</b> has hidden the window.
 

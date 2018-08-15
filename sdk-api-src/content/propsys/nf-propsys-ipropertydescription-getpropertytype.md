@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -180,7 +181,7 @@ This method always returns <b>S_OK</b>.
 
 
 
-The information retrieved by this method comes from the <i>type</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>type</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -190,7 +191,7 @@ The information retrieved by this method comes from the <i>type</i> attribute of
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

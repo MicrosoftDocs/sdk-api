@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: errors.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -99,7 +100,7 @@ Returns the number of characters returned in the buffer, or zero if an error occ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/5bf62e2a-7d5f-4feb-872a-54d102759824">Functions</a>
  
 
  

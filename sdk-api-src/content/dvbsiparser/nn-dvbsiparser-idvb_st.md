@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ The <b>IDVB_ST</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/3afdafad-462c-4fad-a9c6-ec820bedf31a">GetData</a>
 </td>
 <td align="left" width="63%">
 Returns the data in the ST.
@@ -97,7 +98,7 @@ Returns the length of the data in the ST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/eda69656-9e66-4366-84fe-e8ffecc93fc3">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.

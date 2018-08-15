@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ Represents activation parameters for a spatial audio render stream. Pass this st
 
 ### -field ObjectFormat
 
- Format descriptor for a single spatial audio object. All objects used by the stream must have the same format and the format must be of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>. 
+ Format descriptor for a single spatial audio object. All objects used by the stream must have the same format and the format must be of type <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>. 
 
 
 ### -field StaticObjectTypeMask

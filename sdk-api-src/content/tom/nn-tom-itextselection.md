@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ Mimics the functionality of the End key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/e3100b62-a3f1-4d4b-85d2-df06c20ebd70">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the text selection flags.
@@ -89,7 +90,7 @@ Gets the text selection flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/85d4a3f0-855e-4d24-9686-3d4e62743356">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of text selection.
@@ -143,7 +144,7 @@ Mimics the functionality of the  Up Arrow and Page Up keys.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the text selection flags.

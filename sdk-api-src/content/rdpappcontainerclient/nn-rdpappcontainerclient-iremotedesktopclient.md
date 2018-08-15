@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpappcontainerclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -163,7 +164,7 @@ Retrieves the actions object for the Remote Desktop Protocol (RDP) app container
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt168438">Settings</a>
+<a href="https://msdn.microsoft.com/59999489-9ad0-4b85-9643-3b8355b817c2">Settings</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ A value that specifies the number of unicast IP address entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a> structures containing unicast IP address entries.
+<a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structures containing unicast IP address entries.
 
 
 ## -remarks
@@ -77,18 +78,18 @@ An array of
 
 The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552594">GetUnicastIpAddressTable</a> function enumerates the unicast IP addresses on a local system and returns this information in an <b>MIB_UNICASTIPADDRESS_TABLE</b> structure. 
+The <a href="https://msdn.microsoft.com/bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652">GetUnicastIpAddressTable</a> function enumerates the unicast IP addresses on a local system and returns this information in an <b>MIB_UNICASTIPADDRESS_TABLE</b> structure. 
 
 
 
-The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
+The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
 
 
 
 
 #### Examples
 
-The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a> structures.
+The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structures.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -317,11 +318,11 @@ int __cdecl wmain()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552594">GetUnicastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652">GetUnicastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559308">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a>
  
 
  

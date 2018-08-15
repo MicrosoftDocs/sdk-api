@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -83,7 +84,7 @@ Specifies the name of the client on the private network that uses this port mapp
 ### -param bEnabled [in]
 
 Specifies whether the port is 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">enabled</a>.
+<a href="https://msdn.microsoft.com/66aa27b4-83a5-4c20-b964-084dd0e48a54">enabled</a>.
 
 
 ### -param bstrDescription [in]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Internet Explorer 5.0
 Extends the <a href="https://msdn.microsoft.com/89d0aa4d-844d-497d-82bb-bcc2bcf9c78b">IShellDispatch3</a> object. In addition to the properties and methods supported by <b>IShellDispatch3</b>, <b>IShellDispatch4</b> supports four additional methods.
 
             
-<div class="alert"><b>Note</b>  <b>IShellDispatch4</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/mt270130">Shell</a> object.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IShellDispatch4</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/75fc151e-5b9e-476b-b4e5-b848917357a8">Shell</a> object.</div><div> </div>
 
 ## -inheritance
 
@@ -114,7 +115,7 @@ Displays the <b>Windows Security</b> dialog box.
 
 
 
-For a discussion of Windows services, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a> documentation.
+For a discussion of Windows services, see the <a href="https://msdn.microsoft.com/711391da-05c6-4d89-88d6-c68c2e5c2f86">Services</a> documentation.
 
 
 

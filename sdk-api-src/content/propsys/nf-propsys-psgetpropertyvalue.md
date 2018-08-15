@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -61,16 +62,16 @@ Gets a property value from a property store.
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-Pointer to an instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface, which represents the property store from which to get the value.
+Pointer to an instance of the <a href="shell.IPropertyStore">IPropertyStore</a> interface, which represents the property store from which to get the value.
 
 
 ### -param ppd [in]
 
-Type: <b><a href="shell.IPropertyDescription">IPropertyDescription</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>*</b>
 
-Pointer to an instance of the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface, which represents the property in the property store.
+Pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface, which represents the property in the property store.
 
 
 ### -param ppropvar [out]
@@ -95,12 +96,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to read a property value from a store. If the calling code already has a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> directly.
+This helper function is used to read a property value from a store. If the calling code already has a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> directly.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyValue">PSGetPropertyValue</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762083(v=VS.85).aspx">PSGetPropertyValue</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,7 +133,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.PSSetPropertyValue">PSSetPropertyValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762088(v=VS.85).aspx">PSSetPropertyValue</a>
  
 
  

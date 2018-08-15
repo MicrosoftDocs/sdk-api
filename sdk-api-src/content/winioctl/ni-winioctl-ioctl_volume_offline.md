@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -153,7 +154,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-Applications must first successfully dismount the file system - via <a href="https://msdn.microsoft.com/library/windows/hardware/ff728857">FSCTL_DISMOUNT_VOLUME</a> - before using <b>IOCTL_VOLUME_OFFLINE</b>.
+Applications must first successfully dismount the file system - via <a href="https://msdn.microsoft.com/8828760c-9635-4c69-9867-c2f5314841e6">FSCTL_DISMOUNT_VOLUME</a> - before using <b>IOCTL_VOLUME_OFFLINE</b>.
 
 When a volume that is online is dismounted, the next call to open the volume causes it to be mounted.  Taking the volume offline using the same volume handle as was used for the dismount prevents the dismounted volume from being mounted again.
 
@@ -164,7 +165,7 @@ When a volume that is online
     dismounted volume from being mounted again.
 
 To bring a volume online, use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561436">IOCTL_VOLUME_ONLINE</a> control code.
+    <a href="https://msdn.microsoft.com/fa857959-c10e-4c64-8249-4bbf44e15eb9">IOCTL_VOLUME_ONLINE</a> control code.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -228,7 +229,7 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561436">IOCTL_VOLUME_ONLINE</a>
+<a href="https://msdn.microsoft.com/fa857959-c10e-4c64-8249-4bbf44e15eb9">IOCTL_VOLUME_ONLINE</a>
 
 
 

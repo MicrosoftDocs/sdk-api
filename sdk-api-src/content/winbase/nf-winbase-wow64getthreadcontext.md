@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -103,7 +104,7 @@ If you call <b>Wow64GetThreadContext</b> for the
 This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and 
     set the last error code to <b>ERROR_INVALID_FUNCTION</b>. A 32-bit application can call this 
     function on a WOW64 thread; the result is the same as calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a> function.
+    <a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a> function.
 
 
 
@@ -117,7 +118,7 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>
 
 
 

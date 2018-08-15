@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,14 +64,14 @@ The <b>FWP_RANGE0</b> structure specifies a range of values.
 
 Low value of the range.
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> for more information.
+See <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> for more information.
 
 
 ### -field valueHigh
 
 High value of the range.
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> for more information.
+See <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> for more information.
 
 
 ## -remarks
@@ -93,7 +94,7 @@ Ranges are always inclusive. Thus, if a value equals
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
 
 
 

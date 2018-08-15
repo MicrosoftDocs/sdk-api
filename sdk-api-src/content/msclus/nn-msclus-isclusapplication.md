@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -59,7 +60,7 @@ req.product: GDI+ 1.1
 The <b>ClusApplication</b> object provides 
     access to the <a href="https://msdn.microsoft.com/e7f806a7-02e7-41be-b8b9-60351180e748">DomainNames</a> and 
     <a href="https://msdn.microsoft.com/c4e29498-c4e2-4351-8eed-05bc73437485">ClusterNames</a> collections and opens a 
-    connection to a specified <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+    connection to a specified <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance

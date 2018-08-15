@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: davclnt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
@@ -110,7 +111,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="http.passport">Passport authentication</a> is to be used.
+<a href="https://msdn.microsoft.com/library/Aa384067(v=VS.85).aspx">Passport authentication</a> is to be used.
 
 </td>
 </tr>

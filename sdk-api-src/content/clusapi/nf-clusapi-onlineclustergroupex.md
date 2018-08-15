@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Brings a  <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> online.
+Brings a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> online.
 
 
 ## -parameters

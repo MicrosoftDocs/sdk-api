@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,14 +65,14 @@ The <b>FNREAD</b> macro provides the declaration for the application-defined cal
 An application-defined value used to identify the open file.
 
 
-#### - pv [out]
-
-Pointer to the buffer that receives the data read from a file.
-
-
 #### - cb
 
 The maximum number of bytes to be read.
+
+
+#### - pv [out]
+
+Pointer to the buffer that receives the data read from a file.
 
 
 ## -remarks

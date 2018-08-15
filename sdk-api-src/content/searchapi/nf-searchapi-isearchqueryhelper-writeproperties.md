@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -75,10 +76,10 @@ The number of properties being written.
 
 ### -param pColumns [in]
 
-Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
 
  
-                Pointer to an array of <a href="_shell_PROPERTYKEY">PROPERTYKEY</a> structures that represent the properties.
+                Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structures that represent the properties.
 
 
 ### -param pValues [in]

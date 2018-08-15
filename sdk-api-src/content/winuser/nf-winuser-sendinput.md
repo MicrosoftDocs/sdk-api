@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,14 +77,14 @@ The number of structures in the <i>pInputs</i> array.
 
 Type: <b>LPINPUT</b>
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a> structures. Each structure represents an event to be inserted into the keyboard or mouse input stream.
+An array of <a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a> structures. Each structure represents an event to be inserted into the keyboard or mouse input stream.
 
 
 ### -param cbSize [in]
 
 Type: <b>int</b>
 
-The size, in bytes, of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a> structure. If <i>cbSize</i> is not the size of an <b>INPUT</b> structure, the function fails.
+The size, in bytes, of an <a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a> structure. If <i>cbSize</i> is not the size of an <b>INPUT</b> structure, the function fails.
 
 
 ## -returns
@@ -105,7 +106,7 @@ This function fails when it is blocked by UIPI. Note that neither <a href="https
 
 This function is subject to UIPI. Applications are permitted to inject input only into applications that are at an equal or lesser integrity level.
 
-The <b>SendInput</b> function inserts the events in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a> structures serially into the keyboard or mouse input stream. These events are not interspersed with other keyboard or mouse input events inserted either by the user (with the keyboard or mouse) or by calls to <a href="https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx">keybd_event</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx">mouse_event</a>, or other calls to <b>SendInput</b>.
+The <b>SendInput</b> function inserts the events in the <a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a> structures serially into the keyboard or mouse input stream. These events are not interspersed with other keyboard or mouse input events inserted either by the user (with the keyboard or mouse) or by calls to <a href="https://msdn.microsoft.com/en-us/library/ms646304(v=VS.85).aspx">keybd_event</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646260(v=VS.85).aspx">mouse_event</a>, or other calls to <b>SendInput</b>.
 
 This function does not reset the keyboard's current state. Any keys that are already pressed when the function is called might interfere with the events that this function generates. To avoid this problem, check the keyboard's state with the <a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a> function and correct as necessary.
 
@@ -129,7 +130,7 @@ An accessibility application can use <b>SendInput</b> to inject keystrokes corre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">INPUT</a>
+<a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a>
 
 
 

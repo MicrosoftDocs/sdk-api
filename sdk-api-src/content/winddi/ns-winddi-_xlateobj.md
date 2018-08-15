@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ XO_DEVICE_ICM
 
 </td>
 <td>
-ICM is enabled on the device. The driver should translate color according to the color transform created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>. The driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570639">XLATEOBJ_hGetColorTransform</a> to get the color transform handle. This bit is mutually exclusive from XO_HOST_ICM.
+ICM is enabled on the device. The driver should translate color according to the color transform created by <a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>. The driver should call <a href="https://msdn.microsoft.com/dd109ae8-c368-4e8a-bf25-405ed96484e3">XLATEOBJ_hGetColorTransform</a> to get the color transform handle. This bit is mutually exclusive from XO_HOST_ICM.
 
 </td>
 </tr>
@@ -139,12 +140,12 @@ Source indices are usable as target indices.
 
 ### -field iSrcType
 
-Is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570637">XLATEOBJ_cGetPalette</a> to query the source format.
+Is obsolete. Use <a href="https://msdn.microsoft.com/eec6a5ec-398a-484f-b70f-e6baaedc6abd">XLATEOBJ_cGetPalette</a> to query the source format.
 
 
 ### -field iDstType
 
-Is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570637">XLATEOBJ_cGetPalette</a> to query the destination format.
+Is obsolete. Use <a href="https://msdn.microsoft.com/eec6a5ec-398a-484f-b70f-e6baaedc6abd">XLATEOBJ_cGetPalette</a> to query the destination format.
 
 
 ### -field cEntries
@@ -173,19 +174,19 @@ The XLATEOBJ structure is used to translate color indices that refer to the sour
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>
+<a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570637">XLATEOBJ_cGetPalette</a>
+<a href="https://msdn.microsoft.com/eec6a5ec-398a-484f-b70f-e6baaedc6abd">XLATEOBJ_cGetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570639">XLATEOBJ_hGetColorTransform</a>
+<a href="https://msdn.microsoft.com/dd109ae8-c368-4e8a-bf25-405ed96484e3">XLATEOBJ_hGetColorTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570644">XLATEOBJ_piVector</a>
+<a href="https://msdn.microsoft.com/7dcfd280-26af-47ff-a5a6-50325e6471bc">XLATEOBJ_piVector</a>
  
 
  

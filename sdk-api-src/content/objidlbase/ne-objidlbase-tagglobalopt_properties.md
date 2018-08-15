@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -88,6 +89,9 @@ Defines the policy that's applied in the <a href="https://msdn.microsoft.com/d0e
 
 
 ### -field COMGLB_PROPERTIES_RESERVED2
+
+
+### -field COMGLB_PROPERTIES_RESERVED3
 
 
 

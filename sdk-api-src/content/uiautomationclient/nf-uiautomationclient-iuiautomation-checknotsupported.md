@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Checks a provided <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to see if it contains the Not Supported identifier.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Checks a provided <a href="https://msdn.microsoft.com/library/windows/hardware/m
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
 
 The value to check.
 
@@ -70,7 +71,7 @@ The value to check.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
 
-Receives <b>TRUE</b> if the provided <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
+Receives <b>TRUE</b> if the provided <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
 
 
 ## -returns

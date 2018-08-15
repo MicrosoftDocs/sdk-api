@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -119,7 +120,7 @@ Retrieves the total length of the stream, and the currently available length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="https://msdn.microsoft.com/d0eab370-bb17-48fa-9926-6a6eeaba5603">Request</a>
 </td>
 <td align="left" width="63%">
 Queues a request for data.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -144,11 +145,11 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537966">CM_Delete_Class_Key</a>
+<a href="https://msdn.microsoft.com/f315f5fa-eb67-4898-ac4e-acb92b8e9b3e">CM_Delete_Class_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552067">SetupDiOpenClassRegKeyEx</a>
+<a href="https://msdn.microsoft.com/c931f906-8237-4203-b9b6-4dd54a93ca8b">SetupDiOpenClassRegKeyEx</a>
  
 
  

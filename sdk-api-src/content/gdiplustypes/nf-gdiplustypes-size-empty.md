@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Size::Empty</b> method determines whether a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a> object is empty.
+			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object is empty.
 
 
 ## -parameters
@@ -81,7 +82,7 @@ If the
 
 
 A 
-				<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a> object is defined as empty if the 
+				<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object is defined as empty if the 
 				<b>Width</b> and 
 				<b>Height</b> data members are both equal to zero.
 
@@ -117,11 +118,11 @@ if(size.Empty())
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a>
+<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The ID for the audio endpoint.
 
 ### -field pFxProperties
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object.
+An <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a> object.
 
 
 ## -see-also
@@ -79,7 +80,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPrope
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
 
 
 

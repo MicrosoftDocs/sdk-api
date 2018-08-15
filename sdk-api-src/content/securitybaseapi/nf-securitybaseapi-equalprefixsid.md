@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,12 +70,12 @@ The <b>EqualPrefixSid</b> function tests two <a href="https://msdn.microsoft.com
 ### -param pSid1 [in]
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to compare. This structure is assumed to be valid.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to compare. This structure is assumed to be valid.
 
 
 ### -param pSid2 [in]
 
-A pointer to the second <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to compare. This structure is assumed to be valid.
+A pointer to the second <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to compare. This structure is assumed to be valid.
 
 
 ## -returns
@@ -127,7 +128,7 @@ It is advisable to modify the SID for a domain before comparing it with a group 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

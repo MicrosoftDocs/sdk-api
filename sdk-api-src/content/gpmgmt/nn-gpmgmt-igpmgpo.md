@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -291,7 +292,7 @@ Time when the GPO was created.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/1087a0b7-3b23-4bc1-aa4b-9cbd15a7b3f2">DisplayName</a>
 
 
 </td>
@@ -303,7 +304,7 @@ Friendly display name of the GPO. More than one GPO can have the same display na
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915304">DomainName</a>
+<a href="https://msdn.microsoft.com/1087a0b7-3b23-4bc1-aa4b-9cbd15a7b3f2">DomainName</a>
 
 
 </td>
@@ -315,7 +316,7 @@ Domain name for the GPO. This is the full Domain Name System (DNS) name, for exa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a>
+<a href="https://msdn.microsoft.com/1087a0b7-3b23-4bc1-aa4b-9cbd15a7b3f2">ID</a>
 
 
 </td>
@@ -339,7 +340,7 @@ Time when the GPO was last modified.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/1087a0b7-3b23-4bc1-aa4b-9cbd15a7b3f2">Path</a>
 
 
 </td>

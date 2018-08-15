@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -122,9 +123,9 @@ Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
 Apply the default scheme if <b>UrlApplyScheme</b> can't determine one. The default prefix is stored in the registry but is typically "http".
 
 
-##### - dwFlags.URL_APPLY_GUESSSCHEME
+##### - dwFlags.URL_APPLY_FORCEAPPLY
 
-Attempt to determine the scheme by examining <i>pszIn</i>.
+Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
 
 
 ##### - dwFlags.URL_APPLY_GUESSFILE
@@ -132,9 +133,9 @@ Attempt to determine the scheme by examining <i>pszIn</i>.
 Attempt to determine a file URL from <i>pszIn</i>.
 
 
-##### - dwFlags.URL_APPLY_FORCEAPPLY
+##### - dwFlags.URL_APPLY_GUESSSCHEME
 
-Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
+Attempt to determine the scheme by examining <i>pszIn</i>.
 
 
 ## -returns

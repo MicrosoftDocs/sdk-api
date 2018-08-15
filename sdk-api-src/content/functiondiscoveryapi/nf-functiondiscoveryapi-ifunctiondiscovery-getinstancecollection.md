@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -164,7 +165,7 @@ The call was executed for a provider that returns results asynchronously.
 
 Some function discovery providers return their query results with the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.  <b>GetInstanceCollection</b> does not find function instances that are returned in this way and will fail with E_PENDING.  It is recommended that clients use the <a href="https://msdn.microsoft.com/80e70972-ced1-416e-aa4f-69c54b2cbf95">CreateInstanceQuery</a> method of the <a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a> interface to find function instances for such providers.
 
-If the method succeeds but no function instances were found that matched the query parameters, then <b>S_OK</b> is returned and <i>ppFunctionInstanceCollection</i> points to an empty collection (the collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a> method returns 0).
+If the method succeeds but no function instances were found that matched the query parameters, then <b>S_OK</b> is returned and <i>ppFunctionInstanceCollection</i> points to an empty collection (the collection's <a href="https://msdn.microsoft.com/d74d10b1-dab1-4f7e-8dbc-434570bf9c79">GetCount</a> method returns 0).
 
 Subcategory queries are only supported for layered categories and some provider categories. The <a href="https://msdn.microsoft.com/335b11f1-99f3-42ab-ba22-681f572da246">Registry Provider</a>, the PnP-X association provider, and the publication provider support subcategory queries. Custom providers can be explicitly designed to support subcategory queries. For other providers, function instance collections can be filtered using query constraints. For a list of query constraints, see <a href="https://msdn.microsoft.com/13502fbd-bc88-4c28-939e-3e964ab6bb5d">Constraint Definitions</a>.
 

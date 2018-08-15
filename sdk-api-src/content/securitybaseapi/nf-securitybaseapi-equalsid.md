@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,12 +70,12 @@ The <b>EqualSid</b> function tests two <a href="https://msdn.microsoft.com/3e9d7
 ### -param pSid1 [in]
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to compare. This structure is assumed to be valid.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to compare. This structure is assumed to be valid.
 
 
 ### -param pSid2 [in]
 
-A pointer to the second <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to compare. This structure is assumed to be valid.
+A pointer to the second <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to compare. This structure is assumed to be valid.
 
 
 ## -returns
@@ -82,12 +83,12 @@ A pointer to the second <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 If the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures are equal, the return value is nonzero.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures are equal, the return value is nonzero.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures are not equal, the return value is zero. To get extended error information, call 
+If the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures are not equal, the return value is zero. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-If either <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure is not valid, the return value is undefined.
+If either <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure is not valid, the return value is undefined.
 
 
 
@@ -113,7 +114,7 @@ If either <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

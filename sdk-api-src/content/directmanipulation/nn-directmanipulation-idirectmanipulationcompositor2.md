@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -84,7 +85,7 @@ Associates content (owned by the component host) with the compositor, assigns a 
 
 
 
-The content of a <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> viewport must be manually updated during an input event for custom implementations of <b>IDirectManipulationCompositor2</b>. Call <a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a> to redraw the content within the viewport. 
+The content of a <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> viewport must be manually updated during an input event for custom implementations of <b>IDirectManipulationCompositor2</b>. Call <a href="https://msdn.microsoft.com/dffa747c-933a-4b61-9f15-e175d9338774">Update</a> to redraw the content within the viewport. 
 
 You specify manual mode on a viewport by calling either of these functions:
 

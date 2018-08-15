@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -81,12 +82,12 @@ Points to the miniport driver's device extension.
 
 #### - TransferInInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550356">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
+Points to a <a href="https://msdn.microsoft.com/9e5f938d-0db6-4df6-a9c2-49840fef8c03">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
 
 
 #### - TransferOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550361">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
+Points to a <a href="https://msdn.microsoft.com/0c029912-0540-438a-a255-aeb1a58ad275">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
 
 
 ## -returns
@@ -141,7 +142,7 @@ DxTransfer(
 </td>
 </tr>
 </table></span></div>
-See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540562">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554530">MmGetMdlByteCount</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
+See the <a href="kernel.address_and_size_to_span_pages">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>, <a href="kernel.mmgetmdlpfnarray">MmGetMdlPfnArray</a>, and <a href="kernel.mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
 
 <i>DxTransfer</i> is called at hardware interrupt time. This means the driver cannot wait for a previous bus master to complete and it cannot call any functions that are not safe to call at interrupt time (that is, most of them).
 
@@ -155,27 +156,27 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540562">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
+<a href="kernel.address_and_size_to_span_pages">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550356">DDTRANSFERININFO</a>
+<a href="https://msdn.microsoft.com/9e5f938d-0db6-4df6-a9c2-49840fef8c03">DDTRANSFERININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550361">DDTRANSFEROUTINFO</a>
+<a href="https://msdn.microsoft.com/0c029912-0540-438a-a255-aeb1a58ad275">DDTRANSFEROUTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554530">MmGetMdlByteCount</a>
+<a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
+<a href="kernel.mmgetmdlpfnarray">MmGetMdlPfnArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+<a href="kernel.mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a>
  
 
  

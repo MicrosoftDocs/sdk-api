@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -148,11 +149,11 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563962">REASSIGN_BLOCKS</a> structure that the 
+The <a href="https://msdn.microsoft.com/43d908fc-0e43-49ab-a96f-b6b0f491c99d">REASSIGN_BLOCKS</a> structure that the 
     <b>IOCTL_DISK_REASSIGN_BLOCKS</b> control code uses only 
     supports drives where the Logical Block Address (LBA) fits into a 4-byte value (typically up to 2 TB). For larger 
-    drives the <a href="https://msdn.microsoft.com/library/windows/hardware/jj602804">REASSIGN_BLOCKS_EX</a> structure that  the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/jj602797">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
+    drives the <a href="https://msdn.microsoft.com/48036bdc-3588-41a6-9dbb-4606bdfcb683">REASSIGN_BLOCKS_EX</a> structure that  the 
+    <a href="https://msdn.microsoft.com/126ffefa-165b-4ca1-a905-1aebc8e790c7">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
     uses supports 8-byte LBAs. For compatibility, the 
     <b>IOCTL_DISK_REASSIGN_BLOCKS</b> control code and 
     <b>REASSIGN_BLOCKS</b> structure should be used where 
@@ -174,15 +175,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563962">REASS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj602797">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
+<a href="https://msdn.microsoft.com/126ffefa-165b-4ca1-a905-1aebc8e790c7">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563962">REASSIGN_BLOCKS</a>
+<a href="https://msdn.microsoft.com/43d908fc-0e43-49ab-a96f-b6b0f491c99d">REASSIGN_BLOCKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj602804">REASSIGN_BLOCKS_EX</a>
+<a href="https://msdn.microsoft.com/48036bdc-3588-41a6-9dbb-4606bdfcb683">REASSIGN_BLOCKS_EX</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -60,7 +61,7 @@ Enumerates log containers. Call this function repeatedly to iterate over all log
 
 ### -param pcxScan [in, out]
 
-A pointer to a client-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff541856">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://msdn.microsoft.com/863e600c-3a7b-47b4-9cc3-dcee1bfcc66b">CreateLogContainerScanContext</a> function initializes. 
+A pointer to a client-allocated <a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://msdn.microsoft.com/863e600c-3a7b-47b4-9cc3-dcee1bfcc66b">CreateLogContainerScanContext</a> function initializes. 
 
 
 ### -param eScanMode [in]
@@ -173,7 +174,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541856">CLFS_SCAN_CONTEXT</a>
+<a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a>
 
 
 

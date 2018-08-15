@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,19 +86,19 @@ Indicates the total number of bytes used by each surface.
 
 ### -field ddCompCaps
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure that contains the capabilities to use when creating surfaces of this type. This allows the driver to specify the type of memory to use when creating these surfaces.
+Points to a <a href="https://msdn.microsoft.com/023b1a6d-3f08-43cc-b9c0-9d312b347a6b">DDSCAPS2</a> structure that contains the capabilities to use when creating surfaces of this type. This allows the driver to specify the type of memory to use when creating these surfaces.
 
 
 ### -field ddPixelFormat
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure that contains the pixel formats to use when creating surfaces of this type.
+Points to a <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure that contains the pixel formats to use when creating surfaces of this type.
 
 
 ## -remarks
 
 
 
-This structure passes this information to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551576">DD_GETMOCOMPCOMPBUFFDATA</a> structure.
+This structure passes this information to the <a href="https://msdn.microsoft.com/5510d430-834c-42ea-a113-c17b1b87ea52">DD_GETMOCOMPCOMPBUFFDATA</a> structure.
 
 
 

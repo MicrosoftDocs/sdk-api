@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -139,6 +140,11 @@ Returned by the routing table manager to indicate that the route that was added 
  
 
 
+#### - NotifyHandle [in]
+
+Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
+
+
 #### - RouteHandle [in, out]
 
 If the client has a handle (updating a route): On input, <i>RouteHandle</i> is a pointer to the route handle. On output, <i>RouteHandle</i> is unchanged. 
@@ -154,11 +160,6 @@ If a handle does not need to be returned (client is adding or updating a route):
 #### - RouteListHandle [in]
 
 Handle to a route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
-
-
-#### - NotifyHandle [in]
-
-Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -119,7 +120,7 @@ The provider does not support this operation.
 An application can call this method to stop a stream. The difference between pausing a stream and stopping a stream depends on the type of transport used for the call.
 
 This call generates events that the application can retrieve if it has registered. Please see the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">Events</a> overview for information on receiving events.
+<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events</a> overview for information on receiving events.
 
 If the stream stops successfully, the application receives a 
 <a href="https://msdn.microsoft.com/835759f4-652b-4d01-911a-e580bb29d292">CALL_MEDIA_EVENT</a> with a value of CME_STREAM_INACTIVE event and 

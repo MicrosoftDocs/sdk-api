@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -98,7 +99,7 @@ Pointer <i>pdwConfig</i> is <b>NULL</b>.
 
 
 
-For information about channel-configuration masks, see the discussion of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property in the Windows DDK documentation.
+For information about channel-configuration masks, see the discussion of the <a href="https://msdn.microsoft.com/5ce9bf4a-c84e-4d7e-8e75-896c88ec1a72">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property in the Windows DDK documentation.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ Specifies the logical value for the axis maximum position.
 
 
 
-If the "Calibration" value is absent, then the calibration information is taken from the joystick <a href="https://msdn.microsoft.com/library/windows/hardware/ff542256">JOYREGHWVALUES</a> configuration structure.
+If the "Calibration" value is absent, then the calibration information is taken from the joystick <a href="https://msdn.microsoft.com/cd59611f-7bf2-4bba-80dc-f54c815af3e6">JOYREGHWVALUES</a> configuration structure.
 
 Only HID joysticks have a "Calibration" value.
 

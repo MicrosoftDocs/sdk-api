@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -56,8 +57,8 @@ req.product: GDI+ 1.1
     available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in 
     subsequent versions.]
 
-Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a>.
+Takes a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>
+<a href="o_gly.htm">offline</a>.
 
 
 ## -parameters
@@ -103,7 +104,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
  
 
  

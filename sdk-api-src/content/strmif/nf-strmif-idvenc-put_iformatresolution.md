@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,7 +81,7 @@ Member of the <a href="https://msdn.microsoft.com/110a4510-3a5e-453b-9973-a6cf7e
 
 ### -param fDVInfo [in]
 
-Boolean value specifying whether the <i>sDVInfo</i> parameter contains a valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff559517">DVINFO</a> structure. To set the stream format, set this parameter to <b>TRUE</b> and specify the format chunk with the <i>sDVInfo</i> parameter.
+Boolean value specifying whether the <i>sDVInfo</i> parameter contains a valid <a href="https://msdn.microsoft.com/285a56fc-9c25-4c5a-ae6a-146c17b00e84">DVINFO</a> structure. To set the stream format, set this parameter to <b>TRUE</b> and specify the format chunk with the <i>sDVInfo</i> parameter.
 
 
 ### -param sDVInfo [in]

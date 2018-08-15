@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: D3D10.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ Capture the current value of states that are included in a stateblock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/08ac4a1f-b185-497f-88b2-e66268035dda">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Get the device.

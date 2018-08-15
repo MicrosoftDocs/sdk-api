@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -85,7 +86,7 @@ Returns an <b>LPWSTR</b> pointer to the object's (NULL-terminated) character buf
 
 The returned <b>LPWSTR</b> pointer, which is not <b>const</b>, allows direct modification of <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> contents.
 
-If you use the pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> to change the string contents, you must call <a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">ReleaseBuffer</a> before using any other <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> methods.
+If you use the pointer returned by <a href="https://msdn.microsoft.com/07fa7cae-8af6-491b-a561-8947afde47ab">GetBuffer</a> to change the string contents, you must call <a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">ReleaseBuffer</a> before using any other <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> methods.
 
 After a call to <a href="https://msdn.microsoft.com/55de2960-8a71-48cc-862b-7cf9a4edf8ea">ReleaseBuffer</a>, the address returned by <b>GetBufferSetLength</b> may not be valid because additional <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> operations can cause the <b>CHString</b> buffer to be reallocated. If you do not change the length of the <b>CHString</b> string, the buffer is not reassigned. The buffer memory is freed automatically when the <b>CHString</b> object is destroyed.
 

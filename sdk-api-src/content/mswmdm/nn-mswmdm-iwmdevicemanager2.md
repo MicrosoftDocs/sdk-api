@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ Retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561022">Reinitialize</a>
+<a href="https://msdn.microsoft.com/9eabf5ff-96e1-426f-ae31-197a2165a743">Reinitialize</a>
 </td>
 <td align="left" width="63%">
 Forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -136,7 +137,7 @@ Allows the application to send data directly to a printer.
 
 For information about printer escapes, see <a href="https://msdn.microsoft.com/5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f">ExtEscape</a>.
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a> function to prepare the printer driver to receive data.
+Use the <a href="https://msdn.microsoft.com/b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76">StartPage</a> function to prepare the printer driver to receive data.
 
 
 
@@ -178,7 +179,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
 
 
 
@@ -194,7 +195,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a>
+<a href="https://msdn.microsoft.com/b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76">StartPage</a>
  
 
  

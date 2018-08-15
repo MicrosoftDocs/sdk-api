@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imepad.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -91,7 +92,7 @@ Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B0
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/E76FF3FC-717F-42B8-AC5E-45D5527882A7">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> interface to initialize <b>IImePadApplet</b>.

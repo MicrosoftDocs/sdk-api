@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows XP and later Windows operating systems.
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ Specifies the handle that the client uses to reference the device. This handle i
 
 ### -field dwCallback
 
-Specifies either the address of a callback function, a window handle, or a task handle, depending on the flags that are specified in the dwParam2 parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537541">MODM_OPEN</a> message. If this field contains a handle, it is contained in the low-order word.
+Specifies either the address of a callback function, a window handle, or a task handle, depending on the flags that are specified in the dwParam2 parameter of the <a href="https://msdn.microsoft.com/9a0b4bb8-15fd-48d4-8840-c0c7b4a5a460">MODM_OPEN</a> message. If this field contains a handle, it is contained in the low-order word.
 
 
 ### -field dwInstance

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -83,7 +84,7 @@ The <b>WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</b> structure is an extension to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548773">DOT11_SSID</a>
+<a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a>
 
 
 

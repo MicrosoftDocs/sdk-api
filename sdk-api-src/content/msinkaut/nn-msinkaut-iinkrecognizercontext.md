@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -118,7 +119,7 @@ Causes the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f376e177-7714-4771-8aa4-13f91a26395a">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> object.

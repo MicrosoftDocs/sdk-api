@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,6 +86,13 @@ IID of the object type to retrieve.
 
 
 
+#### - ppvOut
+
+Type: <b>void**</b>
+
+When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
+
+
 #### - rbhid
 
 Type: <b>REFGUID</b>
@@ -143,7 +151,7 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 
 #### BHID_PropertyStore
 
-<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or <a href="https://msdn.microsoft.com/78ea822d-da8e-4883-b0eb-4277e7eb87a2">IPropertyStoreFactory</a>.
+<b>Introduced in Windows Vista</b>: Restricts usage to <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> or <a href="https://msdn.microsoft.com/78ea822d-da8e-4883-b0eb-4277e7eb87a2">IPropertyStoreFactory</a>.
 
 
 
@@ -192,13 +200,6 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 #### BHID_FilePlaceholder
 
 <b>Introduced in Windows 8.1</b>: Gets an object used to provide placeholder file functionality.
-
-
-#### - ppvOut
-
-Type: <b>void**</b>
-
-When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
 
 
 ## -returns

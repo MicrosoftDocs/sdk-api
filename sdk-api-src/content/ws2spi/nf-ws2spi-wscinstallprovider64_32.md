@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 x64 Edition [desktop apps only]

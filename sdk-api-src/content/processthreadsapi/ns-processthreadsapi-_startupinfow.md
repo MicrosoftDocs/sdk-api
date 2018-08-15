@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -167,7 +168,7 @@ A bitfield that determines whether certain
 </td>
 <td width="60%">
 Indicates that the cursor is in feedback mode for two seconds after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> is called. The Working in Background cursor is displayed (see the Pointers tab in the Mouse control panel utility). 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> is called. The Working in Background cursor is displayed (see the Pointers tab in the Mouse control panel utility). 
 
 
 
@@ -422,7 +423,7 @@ If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_F
 
 If a process is launched from the taskbar or jump list, the system sets <b>hStdOutput</b> to a handle to the monitor that contains the taskbar or jump list used to launch the process. To retrieve this handle, use <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is set in the in the <b>STARTUPINFO</b> structure returned by the <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is set in the in the <b>STARTUPINFO</b> structure returned by the <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 
@@ -441,7 +442,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

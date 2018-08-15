@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -101,9 +102,9 @@ The CTRL key
 The ALT key
 
 
-##### - HotkeyModifiers.REMOTECONTROL_KBDSHIFT_HOTKEY
+##### - HotkeyModifiers.REMOTECONTROL_KBDALT_HOTKEY
 
-The SHIFT key
+The ALT key
 
 
 ##### - HotkeyModifiers.REMOTECONTROL_KBDCTRL_HOTKEY
@@ -111,9 +112,9 @@ The SHIFT key
 The CTRL key
 
 
-##### - HotkeyModifiers.REMOTECONTROL_KBDALT_HOTKEY
+##### - HotkeyModifiers.REMOTECONTROL_KBDSHIFT_HOTKEY
 
-The ALT key
+The SHIFT key
 
 
 ## -returns

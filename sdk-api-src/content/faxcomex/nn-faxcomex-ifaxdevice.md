@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -99,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/16183ae9-0bfc-4717-867b-88dd3eb7c9ff">Save</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms686131(v=VS.85).aspx">IFaxDevice::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object's data.
@@ -135,7 +136,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms685094(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">CSID</a>
+<a href="https://msdn.microsoft.com/75df5662-3686-44d3-b210-2eb5a7180ba2">CSID</a>
 
 
 </td>
@@ -151,7 +152,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686490(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/79e538fc-4df5-4b7e-938e-ae9ce78a50a9">Description</a>
 
 
 </td>
@@ -167,7 +168,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687095(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188594">DeviceName</a>
+<a href="https://msdn.microsoft.com/e21635b8-89a7-401b-9e0a-fa99fe35f3e2">DeviceName</a>
 
 
 </td>
@@ -183,7 +184,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686186(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/84e54535-4b40-4572-b8e1-3ab5095dbd6a">Id</a>
 
 
 </td>
@@ -331,7 +332,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686017(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">TSID</a>
+<a href="https://msdn.microsoft.com/773960cf-22d6-4b0f-aaf5-704458463648">TSID</a>
 
 
 </td>

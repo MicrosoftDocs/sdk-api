@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ The <b>ID3D11VideoProcessorEnumerator1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906317">CheckVideoProcessorFormatConversion</a>
+<a href="https://msdn.microsoft.com/97DDE2C9-ABF2-47FB-B77C-BD1BC7AC5F2F">CheckVideoProcessorFormatConversion</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the driver supports the specified combination of format and colorspace conversions.

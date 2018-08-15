@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -116,11 +117,11 @@ A <b>MapiFileTagExt</b> structure defines the type of an attached file for purpo
 
 
 
-<a href="3b30cec6-da1e-4ef1-8c17-24b66f31cf0a">PidTagAttachEncoding Canonical Property</a>
+<a href="https://msdn.microsoft.com/library/Cc815513(v=office.12).aspx">PidTagAttachEncoding Canonical Property</a>
 
 
 
-<a href="3d223809-b697-47c6-bc3c-2206aff7ad33">PidTagAttachTag Canonical Property</a>
+<a href="https://msdn.microsoft.com/library/Cc765770(v=office.12).aspx">PidTagAttachTag Canonical Property</a>
  
 
  

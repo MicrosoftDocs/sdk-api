@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -82,7 +83,7 @@ Notifies the provider that it is joining a synchronization session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>
+<a href="https://msdn.microsoft.com/b726c902-6ccb-4c73-85f1-7256b92ef7e2">EndSession</a>
 </td>
 <td align="left" width="63%">
 Notifies the provider that a synchronization session to which it was enlisted has finished.
@@ -147,7 +148,7 @@ Processes a set of changes for a full enumeration by applying changes to the ite
 
 
 
-Typically, the first method that is called by a synchronization  session is <a href="https://msdn.microsoft.com/15aae98e-96c6-45f3-906f-1729fa79ebdb">BeginSession</a>. The last method is <a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>. All other <b>IKnowledgeSyncProvider</b> methods are called between these two methods.
+Typically, the first method that is called by a synchronization  session is <a href="https://msdn.microsoft.com/15aae98e-96c6-45f3-906f-1729fa79ebdb">BeginSession</a>. The last method is <a href="https://msdn.microsoft.com/b726c902-6ccb-4c73-85f1-7256b92ef7e2">EndSession</a>. All other <b>IKnowledgeSyncProvider</b> methods are called between these two methods.
 
 For an overview of what a synchronization session is see the topic <a href="https://msdn.microsoft.com/74793a7c-4abd-4210-a311-005deea9f705">Windows Sync Overview</a>.
 

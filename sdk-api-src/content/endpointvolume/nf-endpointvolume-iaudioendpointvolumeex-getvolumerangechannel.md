@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -81,9 +82,9 @@ The channel number for which to get the volume range. If the audio stream has <i
 
 
 
-#### - pflVolumeMinDB [out]
+#### - pflVolumeIncrementDB [out]
 
-Receives  the minimum volume level for the channel, in decibels.
+Receives the volume increment for the channel, in decibels.
 
 
 #### - pflVolumeMaxDB [out]
@@ -91,9 +92,9 @@ Receives  the minimum volume level for the channel, in decibels.
 Receives  the maximum volume level for the channel, in decibels.
 
 
-#### - pflVolumeIncrementDB [out]
+#### - pflVolumeMinDB [out]
 
-Receives the volume increment for the channel, in decibels.
+Receives  the minimum volume level for the channel, in decibels.
 
 
 ## -returns

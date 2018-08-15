@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,6 +66,11 @@ Changes entries in a DirectDrawPalette object immediately.
 
 
 
+#### - dwCount [in]
+
+Number of palette entries to be changed.
+
+
 #### - dwFlags [in]
 
 Currently not used and must be set to 0.
@@ -73,11 +79,6 @@ Currently not used and must be set to 0.
 #### - dwStartingEntry [in]
 
 First entry to be set.
-
-
-#### - dwCount [in]
-
-Number of palette entries to be changed.
 
 
 #### - lpEntries [in]

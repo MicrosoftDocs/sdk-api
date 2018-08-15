@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.irql:
 
 
 
-The <b>CreateComponentList</b> method creates a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn922646">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
+The <b>CreateComponentList</b> method creates a new <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 
 
 

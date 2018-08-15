@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -70,7 +71,7 @@ The <b>IDsAdminNewObjPrimarySite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/a7e56a9b-bd3c-4229-9735-32ec9549856d">Commit</a>
 </td>
 <td align="left" width="63%">
 Writes a temporary object to persistent memory.

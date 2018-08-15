@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -147,7 +148,7 @@ For components running within COM+ applications, the following interfaces are su
 
 
 
-<a href="_cos_Contexts">Contexts and Threading Models</a>
+<a href="https://msdn.microsoft.com/library/ms681289(v=VS.85).aspx">Contexts and Threading Models</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -269,6 +270,11 @@ See <a href="https://msdn.microsoft.com/76164E5D-93A9-4A44-9239-86B2EEBFC53A">CL
 
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
+
+
+
+
+### -field CLUSCTL_CLUSTER_RELOAD_AUTOLOGGER_CONFIG
 
 
 

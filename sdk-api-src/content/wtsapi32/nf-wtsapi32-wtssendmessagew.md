@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -209,6 +210,12 @@ If <b>FALSE</b>, the function returns immediately and the
 <b>Abort</b>
 
 
+##### - pResponse.IDASYNC (32001 (0x7D01))
+
+The <i>bWait</i> parameter was <b>FALSE</b>, so the function 
+        returned without waiting for a response.
+
+
 ##### - pResponse.IDCANCEL (2)
 
 <b>Cancel</b>
@@ -239,6 +246,12 @@ If <b>FALSE</b>, the function returns immediately and the
 <b>Retry</b>
 
 
+##### - pResponse.IDTIMEOUT (32000 (0x7D00))
+
+The <i>bWait</i> parameter was <b>TRUE</b> and the time-out 
+        interval elapsed.
+
+
 ##### - pResponse.IDTRYAGAIN (10)
 
 <b>Try Again</b>
@@ -247,18 +260,6 @@ If <b>FALSE</b>, the function returns immediately and the
 ##### - pResponse.IDYES (6)
 
 <b>Yes</b>
-
-
-##### - pResponse.IDASYNC (32001 (0x7D01))
-
-The <i>bWait</i> parameter was <b>FALSE</b>, so the function 
-        returned without waiting for a response.
-
-
-##### - pResponse.IDTIMEOUT (32000 (0x7D00))
-
-The <i>bWait</i> parameter was <b>TRUE</b> and the time-out 
-        interval elapsed.
 
 
 ## -returns

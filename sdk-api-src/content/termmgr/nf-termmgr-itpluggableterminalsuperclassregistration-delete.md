@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -106,7 +107,7 @@ Method failed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/ffef0255-c262-43d4-905f-5574c205c37e">Add</a>
 
 
 

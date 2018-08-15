@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -112,9 +113,9 @@ Pointer to a caller-allocated variable that receives an opaque handle for the mi
 
 
 
-A user-mode application calls <b>FilterInstanceCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter instance. The returned instance handle can be passed as a parameter to functions such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>. 
+A user-mode application calls <b>FilterInstanceCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter instance. The returned instance handle can be passed as a parameter to functions such as <a href="https://msdn.microsoft.com/222f5f68-6a1c-420e-a56f-de53b23f6ce6">FilterInstanceGetInformation</a>. 
 
-To close an instance handle returned by <b>FilterInstanceCreate</b>, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540524">FilterInstanceClose</a>. 
+To close an instance handle returned by <b>FilterInstanceCreate</b>, call <a href="https://msdn.microsoft.com/a0605b02-a5eb-4e7f-9659-0f0f538ea153">FilterInstanceClose</a>. 
 
 
 
@@ -124,11 +125,11 @@ To close an instance handle returned by <b>FilterInstanceCreate</b>, call <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540524">FilterInstanceClose</a>
+<a href="https://msdn.microsoft.com/a0605b02-a5eb-4e7f-9659-0f0f538ea153">FilterInstanceClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
+<a href="https://msdn.microsoft.com/222f5f68-6a1c-420e-a56f-de53b23f6ce6">FilterInstanceGetInformation</a>
  
 
  

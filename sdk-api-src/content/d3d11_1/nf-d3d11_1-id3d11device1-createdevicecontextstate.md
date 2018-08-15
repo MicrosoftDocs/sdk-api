@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -658,13 +659,13 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">Flush</a>
 
 
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/3f907d7d-4316-453f-a7ea-6b228a0df569">Flush</a>
 
 
 </td>
@@ -709,7 +710,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/fefe2cd7-26c1-4165-9c94-8843571f8824">GetType</a>
 
 
 </td>
@@ -1563,7 +1564,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">GetData</a>
 
 
 </td>

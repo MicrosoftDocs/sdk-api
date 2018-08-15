@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -124,7 +125,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/268900f8-d7a7-41e3-adb1-32bf2af5d5db">SetSize</a>
 
 
 

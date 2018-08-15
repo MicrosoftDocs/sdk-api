@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -93,6 +94,13 @@ Type: <b>DWORD*</b>
 Receives a pointer to the unique identifier for the added track.
 
 
+#### - fDefault [in]
+
+Type: <b>BOOL</b>
+
+Specifies whether to add the default data source. Specify <b>TRUE</b> to add the default data source or <b>FALSE</b> otherwise.
+
+
 #### - pByteStream [in]
 
 Type: <b><a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a>*</b>
@@ -112,13 +120,6 @@ Null-terminated wide-character string that contains the label of the data source
 Type: <b>LPCWSTR</b>
 
 Null-terminated wide-character string that contains the language of the data source.
-
-
-#### - fDefault [in]
-
-Type: <b>BOOL</b>
-
-Specifies whether to add the default data source. Specify <b>TRUE</b> to add the default data source or <b>FALSE</b> otherwise.
 
 
 ## -returns

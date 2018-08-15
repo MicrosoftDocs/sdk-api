@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Initializes the specified disk and disk partition table using the information in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a> structure.
+    <a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure.
 
 To perform this operation, call the 
     <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following 
@@ -149,10 +150,10 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 When specifying a GUID partition table (GPT) as the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a> structure, an application should wait for the 
+    <a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a> of the 
+    <a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure, an application should wait for the 
     MSR partition arrival before sending the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560411">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a> control code. 
+    <a href="https://msdn.microsoft.com/a600e841-c692-4aa4-bea2-a33931d9b007">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a> control code. 
     For more information about device notification, see 
     <a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>.
 
@@ -164,7 +165,7 @@ When specifying a GUID partition table (GPT) as the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>
+<a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a>
 
 
 

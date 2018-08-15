@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -84,7 +85,7 @@ Use a fully qualified string in the domain_name\user_name format to ensure that 
 ### -param Sid [out, optional]
 
 A pointer to a buffer that receives the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that corresponds to the account name pointed to by the <i>lpAccountName</i> parameter. If this parameter is <b>NULL</b>, <i>cbSid</i> must be zero.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that corresponds to the account name pointed to by the <i>lpAccountName</i> parameter. If this parameter is <b>NULL</b>, <i>cbSid</i> must be zero.
 
 
 ### -param cbSid [in, out]
@@ -105,7 +106,7 @@ A pointer to a variable. On input, this value specifies the size, in <b>TCHAR</b
 ### -param peUse [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a> enumerated type that indicates the type of the account when the function returns.
+<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> enumerated type that indicates the type of the account when the function returns.
 
 
 ## -returns
@@ -162,11 +163,11 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
+<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a>
  
 
  

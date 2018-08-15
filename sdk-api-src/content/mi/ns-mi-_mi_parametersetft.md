@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -66,9 +67,9 @@ A support structure used in the <a href="https://msdn.microsoft.com/14b5773c-474
 Gets the method return type and qualifier set for a specified parameter set. See <a href="https://msdn.microsoft.com/8d2e881a-72a8-4819-a407-b7381ab7a94a">MI_ParameterSet_GetMethodReturnType</a>.
 
 
-#### - GetParameterCount
+#### - GetParameter
 
-Gets the number of parameters in a parameter set. See <a href="https://msdn.microsoft.com/4b1ca06f-426c-483f-a571-b49eb06991e1">MI_ParameterSet_GetParameterCount</a>.
+Gets a method's parameter information based on a parameter name. See <a href="https://msdn.microsoft.com/ff895beb-8354-488d-9c97-2d0448da954a">MI_ParameterSet_GetParameter</a>.
 
 
 #### - GetParameterAt
@@ -76,7 +77,7 @@ Gets the number of parameters in a parameter set. See <a href="https://msdn.micr
 Gets a method's parameter information at the specified index. See <a href="https://msdn.microsoft.com/fcfd7104-dd63-4a48-9a20-dcec0dc33242">MI_ParameterSet_GetParameterAt</a>.
 
 
-#### - GetParameter
+#### - GetParameterCount
 
-Gets a method's parameter information based on a parameter name. See <a href="https://msdn.microsoft.com/ff895beb-8354-488d-9c97-2d0448da954a">MI_ParameterSet_GetParameter</a>.
+Gets the number of parameters in a parameter set. See <a href="https://msdn.microsoft.com/4b1ca06f-426c-483f-a571-b49eb06991e1">MI_ParameterSet_GetParameterCount</a>.
 

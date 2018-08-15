@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The <code>PlayBuffer</code> method downloads a stream of MIDI messages to the sy
 
 ### -param rt
 
-Specifies the start time of the buffer. This value is specified in REFERENCE_TIME units, relative to the master clock, which was previously set with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536543">IDirectMusicSynth::SetMasterClock</a>. Also, this value should be after the time returned by the clock in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536536">IDirectMusicSynth::GetLatencyClock</a>.
+Specifies the start time of the buffer. This value is specified in REFERENCE_TIME units, relative to the master clock, which was previously set with a call to <a href="https://msdn.microsoft.com/1585cfcc-2c83-4705-b465-52a621ccc163">IDirectMusicSynth::SetMasterClock</a>. Also, this value should be after the time returned by the clock in <a href="https://msdn.microsoft.com/36690d54-dc88-4e31-8f66-8a0b48be2712">IDirectMusicSynth::GetLatencyClock</a>.
 
 
 ### -param pbBuffer
@@ -151,7 +152,7 @@ Indicates that the method is unable to queue the messages.
 
 This is the software synthesizer's implementation of the <b>IDirectMusicPort::PlayBuffer</b> method. For details on the buffer format, see the description of <b>IDirectMusicPort::PlayBuffer</b> in the Microsoft Windows SDK documentation.
 
-In order to properly associate the time stamp of each MIDI message in the buffer, the synth needs to convert from the REFERENCE_TIME format to its internal sample-based time. Because the wave-output stream is actually managed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff536520">IDirectMusicSynthSink</a>, the synth calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff536525">IDirectMusicSynthSink::RefTimeToSample</a> for each MIDI message to convert its time stamp into sample time.
+In order to properly associate the time stamp of each MIDI message in the buffer, the synth needs to convert from the REFERENCE_TIME format to its internal sample-based time. Because the wave-output stream is actually managed by <a href="https://msdn.microsoft.com/11944933-cd95-4979-82b2-2c3875b221b3">IDirectMusicSynthSink</a>, the synth calls <a href="https://msdn.microsoft.com/11a6b670-93d6-4455-b279-a1fc5fca0d1d">IDirectMusicSynthSink::RefTimeToSample</a> for each MIDI message to convert its time stamp into sample time.
 
 Typically, the synthesizer pulls each MIDI message from the buffer, stamps it in sample time, and places it in its own internal queue. The queue is emptied later by the rendering process, which is managed by <b>IDirectMusicPort::Render</b> and called by the <b>IDirectMusicSynthSink</b> object.
 
@@ -165,23 +166,23 @@ For more information, see the descriptions of the <b>IDirectMusic</b>, <b>IDirec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536536">IDirectMusicSynth::GetLatencyClock</a>
+<a href="https://msdn.microsoft.com/36690d54-dc88-4e31-8f66-8a0b48be2712">IDirectMusicSynth::GetLatencyClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536541">IDirectMusicSynth::Render</a>
+<a href="https://msdn.microsoft.com/c0aea93c-df92-46e6-9cd7-38235f513924">IDirectMusicSynth::Render</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536543">IDirectMusicSynth::SetMasterClock</a>
+<a href="https://msdn.microsoft.com/1585cfcc-2c83-4705-b465-52a621ccc163">IDirectMusicSynth::SetMasterClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536520">IDirectMusicSynthSink</a>
+<a href="https://msdn.microsoft.com/11944933-cd95-4979-82b2-2c3875b221b3">IDirectMusicSynthSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536525">IDirectMusicSynthSink::RefTimeToSample</a>
+<a href="https://msdn.microsoft.com/11a6b670-93d6-4455-b279-a1fc5fca0d1d">IDirectMusicSynthSink::RefTimeToSample</a>
  
 
  

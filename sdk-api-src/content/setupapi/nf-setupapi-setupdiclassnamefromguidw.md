@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -105,11 +106,11 @@ Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a rem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550937">SetupDiClassGuidsFromName</a>
+<a href="https://msdn.microsoft.com/54516c6f-ec78-47ea-93f5-a4c7cde5a601">SetupDiClassGuidsFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550950">SetupDiClassNameFromGuidEx</a>
+<a href="https://msdn.microsoft.com/0d576df1-e259-4025-8ef0-a520f5680fa0">SetupDiClassNameFromGuidEx</a>
  
 
  

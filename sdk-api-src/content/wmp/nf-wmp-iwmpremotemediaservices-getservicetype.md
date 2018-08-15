@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later. Use of the RemoteNoDialogs value requires Windows Media Player 9 Series update 819756 or later. Use of the NoDialogs, NoDeviceSupport, or FindFolders values requires Windows Media Player 10.
 req.target-min-winversvr: 

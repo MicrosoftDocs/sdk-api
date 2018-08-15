@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -74,12 +75,12 @@ Specifies the length, in bytes, of the buffer receiving the copy of the SID.
 ### -param pDestinationSid [out]
 
 A pointer to a buffer that receives a copy of the source 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure.
 
 
 ### -param pSourceSid [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that the function copies to the buffer pointed to by the <i>pDestinationSid</i> parameter.
+A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that the function copies to the buffer pointed to by the <i>pDestinationSid</i> parameter.
 
 
 ## -returns
@@ -98,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-An application can use the <b>CopySid</b> function to make a copy of a SID in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> (for example, in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure) to use in an access control entry (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>).
+An application can use the <b>CopySid</b> function to make a copy of a SID in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> (for example, in a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure) to use in an access control entry (<a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ACE</a>).
 
 
 #### Examples
@@ -158,7 +159,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

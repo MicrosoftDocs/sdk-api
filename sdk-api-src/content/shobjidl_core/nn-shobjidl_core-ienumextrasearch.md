@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumExtraSearch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/9d766cf9-784b-4e89-ad58-bab6415630fe">Clone</a>
 </td>
 <td align="left" width="63%">
 Used to request a duplicate of the enumerator object to preserve its current state.
@@ -80,7 +81,7 @@ Used to request a duplicate of the enumerator object to preserve its current sta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/915f1cd5-5429-4080-8357-753dd1744d93">Next</a>
 </td>
 <td align="left" width="63%">
 Used to request information on one or more search objects.
@@ -89,7 +90,7 @@ Used to request information on one or more search objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/c5b74037-1188-4979-8acf-6994ceb15719">Reset</a>
 </td>
 <td align="left" width="63%">
 Used to reset the enumeration index to zero.
@@ -98,7 +99,7 @@ Used to reset the enumeration index to zero.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/f77983e2-bae4-4350-8950-b4e76fc46365">Skip</a>
 </td>
 <td align="left" width="63%">
 Skip a specified number of objects.

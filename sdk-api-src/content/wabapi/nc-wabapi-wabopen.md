@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wabapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5.5
 ## -description
 
 
-Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="2681e3cf-a251-4c9d-9474-fc320fedede8">IAddrBook</a>.
+Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>.
 
 
 ## -parameters

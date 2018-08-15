@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdGetScanLine</i> callback function returns the number of the current phy
 
 #### - pGetScanLine
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551591">DD_GETSCANLINEDATA</a> structure in which the driver returns the number of the current scan line.
+Points to a <a href="https://msdn.microsoft.com/92433daa-43da-40d3-a319-e0d70abd3cb0">DD_GETSCANLINEDATA</a> structure in which the driver returns the number of the current scan line.
 
 
 ## -returns
@@ -85,7 +86,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55159
 
 
 
-If the monitor is not in vertical blank, the driver should write the scan line value in the <b>dwScanLine</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551591">DD_GETSCANLINEDATA</a> structure at <i>pGetScanLine</i>. The number must be in the range [0, <i>n</i>], where scan line 0 is the first visible scan line and scan line <i>n</i> is the last visible scan line on the screen. The driver should then set DD_OK in the <b>ddRVal</b> member of <b>DD_GETSCANLINEDATA</b> and return DDHAL_DRIVER_HANDLED.
+If the monitor is not in vertical blank, the driver should write the scan line value in the <b>dwScanLine</b> member of the <a href="https://msdn.microsoft.com/92433daa-43da-40d3-a319-e0d70abd3cb0">DD_GETSCANLINEDATA</a> structure at <i>pGetScanLine</i>. The number must be in the range [0, <i>n</i>], where scan line 0 is the first visible scan line and scan line <i>n</i> is the last visible scan line on the screen. The driver should then set DD_OK in the <b>ddRVal</b> member of <b>DD_GETSCANLINEDATA</b> and return DDHAL_DRIVER_HANDLED.
 
 The scan line is indeterminate if a vertical blank is in progress. In this situation, the driver should set <b>ddRVal</b> to DDERR_VERTICALBLANKINPROGRESS and return DDHAL_DRIVER_HANDLED.
 
@@ -97,7 +98,7 @@ The scan line is indeterminate if a vertical blank is in progress. In this situa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551591">DD_GETSCANLINEDATA</a>
+<a href="https://msdn.microsoft.com/92433daa-43da-40d3-a319-e0d70abd3cb0">DD_GETSCANLINEDATA</a>
  
 
  

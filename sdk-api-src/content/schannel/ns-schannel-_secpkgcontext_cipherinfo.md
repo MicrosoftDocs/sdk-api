@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -136,6 +137,11 @@ The dw max exchange length.
 The dw key type.
 
 
+#### - szCertificate[SZ_ALG_MAX_SIZE]
+
+The sz certificate.
+
+
 #### - szCipherSuite[SZ_ALG_MAX_SIZE]
 
 The sz cipher suite.
@@ -146,17 +152,12 @@ The sz cipher suite.
 The sz cipher.
 
 
-#### - szHash[SZ_ALG_MAX_SIZE]
-
-The sz hash.
-
-
 #### - szExchange[SZ_ALG_MAX_SIZE]
 
 The sz exchange.
 
 
-#### - szCertificate[SZ_ALG_MAX_SIZE]
+#### - szHash[SZ_ALG_MAX_SIZE]
 
-The sz certificate.
+The sz hash.
 

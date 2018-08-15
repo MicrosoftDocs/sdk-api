@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <i>one</i> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <i>one</i> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -98,7 +99,7 @@ Contents of the 8-bit PCMCIA Configuration Option Register.
 
 ### -field PMF_IoResourceIndex
 
-Zero-based index indicating the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548201">IO_RESOURCE</a> structure that describes the I/O resources for the hardware function being described by this MFCARD_DES structure.
+Zero-based index indicating the <a href="https://msdn.microsoft.com/d18a1f92-b76c-4240-9a0e-7474c258436c">IO_RESOURCE</a> structure that describes the I/O resources for the hardware function being described by this MFCARD_DES structure.
 
 
 ### -field PMF_Reserved
@@ -116,7 +117,7 @@ Offset from the beginning of the card's attribute memory space to the base confi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548201">IO_RESOURCE</a>
+<a href="https://msdn.microsoft.com/d18a1f92-b76c-4240-9a0e-7474c258436c">IO_RESOURCE</a>
  
 
  

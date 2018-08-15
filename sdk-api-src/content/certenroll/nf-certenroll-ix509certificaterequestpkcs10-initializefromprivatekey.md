@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -162,7 +163,7 @@ If you specify a template, the <b>InitializeFromPrivateKey</b> method performs t
 
 Whether you specify a template or not, if the <a href="https://msdn.microsoft.com/7be532ab-0ab0-4c22-b274-c925fd5827d5">CSPInformations</a> property is not specified, the method creates an <a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a> collection from the providers installed on the computer.
 
-No private key is created at this point. If the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object passed to the method does not represent an existing key, a key is created when the <a href="https://msdn.microsoft.com/098788f4-539f-420b-a4e1-65625dd56ca1">Encode</a> method is called. The key will be created by using the default provider if no template was specified and the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property on the <b>IX509PrivateKey</b> is not set. When a private key exists, it is set on the <a href="https://msdn.microsoft.com/691e136f-1434-4b72-b571-e14ade4f2cf2">PrivateKey</a> property.
+No private key is created at this point. If the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object passed to the method does not represent an existing key, a key is created when the <a href="https://msdn.microsoft.com/098788f4-539f-420b-a4e1-65625dd56ca1">Encode</a> method is called. The key will be created by using the default provider if no template was specified and the <a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a> property on the <b>IX509PrivateKey</b> is not set. When a private key exists, it is set on the <a href="https://msdn.microsoft.com/691e136f-1434-4b72-b571-e14ade4f2cf2">PrivateKey</a> property.
 
 
 

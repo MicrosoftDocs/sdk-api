@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -147,11 +148,11 @@ For an example of how to retrieve properties from a sensor,  see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a>
+<a href="https://msdn.microsoft.com/2fb739a0-9af5-4784-94b2-f8d10b9e21ca">Sensor Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/f2bed074-fcee-4dbb-a4c1-d5922d65d3b9">SetProperties</a>
  
 
  

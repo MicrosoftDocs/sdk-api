@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -82,7 +83,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="_search_ICondition_Clone">ICondition::Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231388(v=VS.85).aspx">ICondition::Clone</a>
 
 
 

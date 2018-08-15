@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IUserNotification2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965711">PlaySound</a>
+<a href="https://msdn.microsoft.com/C1C0C408-B860-4aa6-8696-C95BF73AAB54">PlaySound</a>
 </td>
 <td align="left" width="63%">
 Plays a sound in conjunction with the notification.

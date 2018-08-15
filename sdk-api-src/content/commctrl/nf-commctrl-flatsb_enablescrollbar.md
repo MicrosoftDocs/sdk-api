@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -65,51 +66,6 @@ TBD
 
 
 
-
-
-#### - wSBflags
-
-Type: <b>int</b>
-
-A parameter that specifies the scroll bar type. It can be one of the following values: 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SB_BOTH"></a><a id="sb_both"></a><dl>
-<dt><b>SB_BOTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enables or disables the direction buttons on the horizontal and vertical scroll bars.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
-<dt><b>SB_HORZ</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enables or disables the direction buttons on the horizontal scroll bar.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
-<dt><b>SB_VERT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enables or disables the direction buttons on the vertical scroll bar. 
-
-</td>
-</tr>
-</table>
- 
 
 
 #### - wArrows
@@ -200,6 +156,51 @@ Disables the up direction button on the vertical scroll bar.
 </td>
 <td width="60%">
 Enables both direction buttons on the specified scroll bar. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - wSBflags
+
+Type: <b>int</b>
+
+A parameter that specifies the scroll bar type. It can be one of the following values: 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SB_BOTH"></a><a id="sb_both"></a><dl>
+<dt><b>SB_BOTH</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables or disables the direction buttons on the horizontal and vertical scroll bars.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_HORZ"></a><a id="sb_horz"></a><dl>
+<dt><b>SB_HORZ</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables or disables the direction buttons on the horizontal scroll bar.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SB_VERT"></a><a id="sb_vert"></a><dl>
+<dt><b>SB_VERT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enables or disables the direction buttons on the vertical scroll bar. 
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -74,7 +75,7 @@ The <b>IValueProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/af555ac6-5abd-4019-804b-68f9ed3be801">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of control.
@@ -108,7 +109,7 @@ Indicates whether the value of a control is read-only.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/83cd0b99-32e4-4a25-aebb-b769745df78f">Value</a>
 
 
 </td>
@@ -131,7 +132,7 @@ The value of the control.
 The value of the control may or may not be editable depending on the control and its settings.
         
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/6b11d281-aca7-4548-853c-e7322999825d">Value</a> control pattern.
             
 
 

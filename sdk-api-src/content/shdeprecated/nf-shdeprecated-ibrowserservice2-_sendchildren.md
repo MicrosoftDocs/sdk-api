@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function directly instead of relying on the base class.
+Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function directly instead of relying on the base class.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to the browser window whose window procedure receives the message.
 
 Type: <b>BOOL</b>
 
-The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
+The <b>BOOL</b> that indicates whether to allow the derived class to broadcast the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function. <b>TRUE</b> to allow broadcasting; <b>FALSE</b> otherwise.
         
 
 

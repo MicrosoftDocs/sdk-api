@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -143,7 +144,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406579">GetFriendlyName</a>
+<a href="https://msdn.microsoft.com/a2e3da49-19b8-44f6-af7c-ec5c13411f3f">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a display name for the CEP server.
@@ -215,7 +216,7 @@ Retrieves a value that specifies whether the <b>ClientId</b> attribute is set in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509EnrollmentPolicyServer</b> object.

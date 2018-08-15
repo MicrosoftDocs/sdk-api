@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -149,7 +150,7 @@ If the administrator
 
 The 
 <b>TakeOwnership</b> method removes 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">certificates</a>, <a href="https://msdn.microsoft.com/422a331d-5b6b-48ec-b040-43a88be43ac3">custom headers</a>, and 
+<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">credentials</a>, <a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">certificates</a>, <a href="https://msdn.microsoft.com/422a331d-5b6b-48ec-b040-43a88be43ac3">custom headers</a>, and 
 <a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">command line notification</a> from the job, if set.
 
 If the job specifies <a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">event notification</a>, the callback is executed in the context of the user who called the <b>IBackgroundCopyJob::SetNotifyInterface</b> method.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -79,7 +80,7 @@ The number of points.
 
 ### -field apts
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structures, representing the data points in logical units.
+An array of <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structures, representing the data points in logical units.
 
 
 ### -field abTypes
@@ -104,7 +105,7 @@ An array of values that specifies how each point in the <b>apts</b> array is use
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>
+<a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>
 
 
 
@@ -112,7 +113,7 @@ An array of values that specifies how each point in the <b>apts</b> array is use
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+<a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a>
  
 
  

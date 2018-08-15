@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -92,7 +93,7 @@ Notifies the text host that text services have been freed.
 <a href="https://msdn.microsoft.com/3D704159-795A-4BD6-B699-EC311D9B780C">TxGetEastAsianFlags</a>
 </td>
 <td align="left" width="63%">
-Gets whether IME input is allowed and whether the edit styles include <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>.
+Gets whether IME input is allowed and whether the edit styles include <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>.
 
 </td>
 </tr>

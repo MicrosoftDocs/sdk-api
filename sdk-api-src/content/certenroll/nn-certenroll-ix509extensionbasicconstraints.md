@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>IX509ExtensionBasicConstraints</b> interface enables you to specify whether the certificate subject is a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> and, if so, the depth of the subordinate certification authority chain that can exist beneath the certification authority for which this extension ID is defined. This extension must be marked <a href="https://msdn.microsoft.com/library/windows/hardware/mt158256">Critical</a> in any certification authority certificate that contains a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> used to validate a digital signature on a certificate.  The following syntax shows the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) and is included in the certificate request.
+The <b>IX509ExtensionBasicConstraints</b> interface enables you to specify whether the certificate subject is a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> and, if so, the depth of the subordinate certification authority chain that can exist beneath the certification authority for which this extension ID is defined. This extension must be marked <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> in any certification authority certificate that contains a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> used to validate a digital signature on a certificate.  The following syntax shows the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) and is included in the certificate request.
 <pre class="syntax" xml:space="preserve"><code>
 ----------------------------------------------------------------------
 -- Basic Constraints

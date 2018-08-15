@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -114,7 +115,7 @@ Wscript.Echo  colProcesses.ItemIndex(2).Name</pre>
 </td>
 </tr>
 </table></span></div>
-Only one instance of <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a> exists for each operating system installation.  Creating the  <a href="47dd01cb-9468-481e-be7e-55f69a744635">GetObject</a> path to obtain the single instance is awkward so scripts normally enumerate  <b>Win32_OperatingSystem</b>  even though only one instance is available. The following VBScript code example shows how to use the <b>ItemIndex</b> method to get to the one <b>Win32_OperatingSystem</b> without  using a <b>For Each</b> loop.
+Only one instance of <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a> exists for each operating system installation.  Creating the  <a href="https://msdn.microsoft.com/en-us/library/Bb774345(v=VS.85).aspx">GetObject</a> path to obtain the single instance is awkward so scripts normally enumerate  <b>Win32_OperatingSystem</b>  even though only one instance is available. The following VBScript code example shows how to use the <b>ItemIndex</b> method to get to the one <b>Win32_OperatingSystem</b> without  using a <b>For Each</b> loop.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>

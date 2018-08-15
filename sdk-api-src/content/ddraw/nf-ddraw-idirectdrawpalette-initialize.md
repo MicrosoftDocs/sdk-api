@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,14 +66,14 @@ Initializes the DirectDrawPalette object.
 
 
 
-#### - lpDD [in]
-
-A pointer to the DirectDraw object to associate with the DirectDrawPalette object.
-
-
 #### - dwFlags [in]
 
 Currently not used and must be set to 0.
+
+
+#### - lpDD [in]
+
+A pointer to the DirectDraw object to associate with the DirectDrawPalette object.
 
 
 #### - lpDDColorTable [out]

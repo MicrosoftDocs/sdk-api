@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -74,7 +75,7 @@ This method returns an <b>HRESULT</b> that indicates the status of a method call
 
 
 
-The <b>Resume</b> method should always be called when the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a> method is called. <b>Resume</b> must be called on the same instance of <a href="https://msdn.microsoft.com/5349359a-e15f-4799-abad-f4a5fc3e89ea">IWbemBackUpRestoreEx</a> that the <b>Pause</b> method is implemented. Releasing the object without calling <b>Resume</b> automatically causes the <b>Resume</b> method to be implemented.
+The <b>Resume</b> method should always be called when the <a href="https://msdn.microsoft.com/ce4f2637-cf30-4087-bd49-b26554f434ca">Pause</a> method is called. <b>Resume</b> must be called on the same instance of <a href="https://msdn.microsoft.com/5349359a-e15f-4799-abad-f4a5fc3e89ea">IWbemBackUpRestoreEx</a> that the <b>Pause</b> method is implemented. Releasing the object without calling <b>Resume</b> automatically causes the <b>Resume</b> method to be implemented.
 
 <div class="alert"><b>Note</b>  To implement the <b>Resume</b> method, the client user must have <b>SE_BACKUP_NAME</b> prior to calling the method.</div>
 <div> </div>

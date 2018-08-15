@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the 
 
 ### -field ddsCaps
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a> structure that contains the creation capabilities used to describe the surface. 
+Points to a <a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a> structure that contains the creation capabilities used to describe the surface. 
 
 
 ### -field dwSurfaceOffset
@@ -427,7 +428,7 @@ DDPF_BUMPLUMINANCE
 
 </td>
 <td>
-The luminance data in pixel format is valid. This flag is used when hanging luminance off bumpmap surfaces. The bitmask for the luminance portion of the pixel is then indicated by the <b>dwBumpLuminanceBitCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure.
+The luminance data in pixel format is valid. This flag is used when hanging luminance off bumpmap surfaces. The bitmask for the luminance portion of the pixel is then indicated by the <b>dwBumpLuminanceBitCount</b> member of the <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure.
 
 </td>
 </tr>
@@ -457,7 +458,7 @@ DDPF_LUMINANCE
 
 </td>
 <td>
-The luminance data in the pixel format is valid. This flag is used for luminance only or luminance plus alpha surfaces; the bit depth is then indicated by the <b>dwLuminanceBitCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure.
+The luminance data in the pixel format is valid. This flag is used for luminance only or luminance plus alpha surfaces; the bit depth is then indicated by the <b>dwLuminanceBitCount</b> member of the <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure.
 
 </td>
 </tr>
@@ -625,11 +626,11 @@ Are reserved for use by the miniport driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a>
+<a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550286">DDSCAPS</a>
+<a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a>
 
 
 

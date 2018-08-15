@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -94,7 +95,7 @@ Begins an asynchronous write operation to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/d5f704ab-fa3f-4a53-9b97-eb48a75e481b">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the stream and releases any resources associated with the stream.
@@ -124,7 +125,7 @@ Completes an asynchronous write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/16ea6c38-52f3-405e-8a8f-be5d0527099c">Flush</a>
 </td>
 <td align="left" width="63%">
 Clears any internal buffers used by the stream.
@@ -134,7 +135,7 @@ Clears any internal buffers used by the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/715e802b-4707-4c6d-9ae9-a4ddfa90f05e">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the characteristics of the byte stream.
@@ -174,7 +175,7 @@ Queries whether the current position has reached the end of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/6e0d5363-f2c2-4334-86ca-71fac61073d3">Read</a>
 </td>
 <td align="left" width="63%">
 Reads data from the stream.
@@ -184,7 +185,7 @@ Reads data from the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/512c67a5-e87d-4a81-8577-e64dac868c40">Seek</a>
 </td>
 <td align="left" width="63%">
 Moves the current position in the stream by a specified offset.
@@ -214,7 +215,7 @@ Sets the length of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/d1f1195a-b6ee-441c-af8b-fce3dc163e95">Write</a>
 </td>
 <td align="left" width="63%">
 Writes data to the stream.

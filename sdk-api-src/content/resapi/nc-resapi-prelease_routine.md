@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -90,7 +91,7 @@ The <i>Release</i> entry-point function is implemented for quorum
 
 <div class="alert"><b>Note</b>  All disk resources must explicitly call their own 
     <i>Release</i> in their  implementation of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> callback, since one is not made by the 
+    <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> callback, since one is not made by the 
     <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>
 <a href="https://msdn.microsoft.com/caebb47f-c2c5-463e-a957-d9eefc7fc33d">Resource Monitor</a>.</div>
 <div> </div>

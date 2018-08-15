@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -268,7 +269,7 @@ This member is reserved for system use.
 
 ### -field pSecurityDescriptor
 
-Pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> 
+Pointer to a  <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> 
       structure that specifies a self-relative security descriptor to be associated with the DFS link's reparse point. 
       This field is valid for DFS links only.
 

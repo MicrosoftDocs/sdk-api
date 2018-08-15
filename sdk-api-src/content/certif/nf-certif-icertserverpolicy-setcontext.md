@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>SetContext</b> method specifies the request  to be used as the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> for subsequent calls to Certificate Services.
+The <b>SetContext</b> method specifies the request  to be used as the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> for subsequent calls to Certificate Services.
 
 
 ## -parameters

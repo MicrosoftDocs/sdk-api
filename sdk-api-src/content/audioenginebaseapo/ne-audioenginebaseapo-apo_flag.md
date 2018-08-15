@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -52,7 +53,7 @@ req.irql:
 
 The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn425140">APO_REG_PROPERTIES</a> structure to help describe the registration properties of an APO.
+This enumeration is used by the <a href="https://msdn.microsoft.com/466215E5-5345-4570-A29B-086562882F5D">APO_REG_PROPERTIES</a> structure to help describe the registration properties of an APO.
 
 
 
@@ -102,7 +103,7 @@ APO_FLAG_DEFAULT = ( APO_FLAG_SAMPLESPERFRAME_MUST_MATCH | APO_FLAG_FRAMESPERSEC
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn425140">APO_REG_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/466215E5-5345-4570-A29B-086562882F5D">APO_REG_PROPERTIES</a>
  
 
  

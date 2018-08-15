@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -80,7 +81,7 @@ Switches the wallpaper on a specified monitor to the next image in the slideshow
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/8BC04B93-4BF4-4713-8EF8-C4BCF1C8090E">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the desktop background.
@@ -152,7 +153,7 @@ Gets the current desktop wallpaper slideshow settings for shuffle and timing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/19F2776E-0B5F-45c9-962A-08BFC0273066">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the current status of the slideshow.

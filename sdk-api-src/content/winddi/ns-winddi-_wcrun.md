@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -90,7 +91,7 @@ Pointer to an array of glyph handles that correspond to this run. If this member
 
 GDI relies on the runs being arranged in increasing order by code points. A binary search is made through the list of runs.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a> structure contains a WCRUN structure as one of its members.
+The <a href="https://msdn.microsoft.com/af56f2a0-92a6-4217-8121-944a0b4f26f6">FD_GLYPHSET</a> structure contains a WCRUN structure as one of its members.
 
 
 
@@ -100,11 +101,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556266">DrvQueryFontTree</a>
+<a href="https://msdn.microsoft.com/29601ea6-9b68-4cdc-a7a1-b6a922524760">DrvQueryFontTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a>
+<a href="https://msdn.microsoft.com/af56f2a0-92a6-4217-8121-944a0b4f26f6">FD_GLYPHSET</a>
  
 
  

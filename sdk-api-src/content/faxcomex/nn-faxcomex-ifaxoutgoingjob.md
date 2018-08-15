@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IFaxOutgoingJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/42f53e47-32bb-4888-bdcf-d05e12fc9859">Cancel</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms690052(v=VS.85).aspx">IFaxOutgoingJob::Cancel</a> method cancels the outbound fax job.
@@ -90,7 +91,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690130(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/d709fd69-d34b-4dca-aea0-7726698a7dca">Pause</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms689601(v=VS.85).aspx">IFaxOutgoingJob::Pause</a> method pauses the outbound fax job.
@@ -108,7 +109,7 @@ The Refresh method refreshes <a href="https://msdn.microsoft.com/en-us/library/m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915783">Restart</a>
+<a href="https://msdn.microsoft.com/524d5788-0e39-4501-9a52-2866c8887d80">Restart</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms690070(v=VS.85).aspx">IFaxOutgoingJob::Restart</a> method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, <b>IFaxOutgoingJob::Restart</b> will restart the fax job.
@@ -151,7 +152,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690257(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">CSID</a>
+<a href="https://msdn.microsoft.com/40c477a8-74dd-4e5a-8d1e-f17b77e77012">CSID</a>
 
 
 </td>
@@ -199,7 +200,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689123(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541150">DocumentName</a>
+<a href="https://msdn.microsoft.com/aec728cf-38b5-49f9-943c-aa907d05fe21">DocumentName</a>
 
 
 </td>
@@ -263,7 +264,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689107(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/f19ee5c6-7d6f-48ab-82e1-52a6e11486a3">Id</a>
 
 
 </td>
@@ -407,7 +408,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687547(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size</a>
+<a href="https://msdn.microsoft.com/17dc228a-8514-4ae4-af8e-f34177548748">Size</a>
 
 
 </td>
@@ -423,7 +424,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689187(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/90553615-ded2-4e4c-9411-a513fd682423">Status</a>
 
 
 </td>
@@ -471,7 +472,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690201(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265410">SubmissionTime</a>
+<a href="https://msdn.microsoft.com/6a401fdb-2cf7-45f9-b56b-d7e72f5ec42d">SubmissionTime</a>
 
 
 </td>
@@ -519,7 +520,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688396(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">TSID</a>
+<a href="https://msdn.microsoft.com/fa4f6947-5261-475e-9ec0-c31c2a3b644f">TSID</a>
 
 
 </td>

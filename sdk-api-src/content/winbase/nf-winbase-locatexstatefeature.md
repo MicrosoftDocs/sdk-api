@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps \| UWP apps]
@@ -54,7 +55,7 @@ req.product: Windows Address Book 5.0
 
 
 Retrieves a pointer to the processor state for an XState feature within a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure.
+    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure.
 
 The definition of XState feature bits are processor vendor specific. Please refer to the relevant processor 
     reference manuals for additional information on a particular feature.
@@ -67,7 +68,7 @@ The definition of XState feature bits are processor vendor specific. Please refe
 
 ### -param Context [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure containing the state 
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure containing the state 
       to retrieve or set. This <b>CONTEXT</b> should have been 
       initialized with <a href="https://msdn.microsoft.com/909BF5F7-0622-4B22-A2EC-27722389700A">InitializeContext</a> with the 
       <b>CONTEXT_XSTATE</b> flag set in the <i>ContextFlags</i> 
@@ -77,7 +78,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh43
 ### -param FeatureId [in]
 
 The number of the feature to locate within the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure.
+      <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure.
 
 
 ### -param Length [out, optional]
@@ -91,12 +92,12 @@ A pointer to a variable which receives the length of the feature area in bytes. 
 
 
 If the specified feature is supported by the system and the specified 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure has been initialized with the 
+       <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure has been initialized with the 
        <b>CONTEXT_XSTATE</b> flag, this function returns a pointer to the feature area for the 
        specified feature.  The contents and layout of this area is processor-specific.
 
 If the <b>CONTEXT_XSTATE</b> flag is not set in the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure or the 
+       <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure or the 
        <i>FeatureID</i> is not supported by the system, the return value is 
        <b>NULL</b>. No additional error information is available.
 
@@ -109,7 +110,7 @@ If the <b>CONTEXT_XSTATE</b> flag is not set in the
 
 The <b>LocateXStateFeature</b> function must be used 
     to find an individual XState feature within an extensible 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure. Features are not necessarily contiguous 
+    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure. Features are not necessarily contiguous 
     in memory and applications should not assume the offset between two consecutive features will remain constant in 
     the future.
 
@@ -120,11 +121,11 @@ The <i>FeatureID</i> parameter of the function corresponds to a bit within the f
     respectively.
 
 If you are setting XState on a thread via the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a> or 
+    <a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a> or 
     <a href="https://msdn.microsoft.com/4119c945-b654-4634-a88b-e41bc762018a">Wow64SetThreadContext</a> 
     APIs, you must also call 
     <a href="https://msdn.microsoft.com/64ADEA8A-DE78-437E-AE68-A68E7214C5FD">SetXStateFeaturesMask</a> on the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure with the mask value of the filled-in 
+    <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure with the mask value of the filled-in 
     feature to mark the feature as active.
 
 
@@ -148,7 +149,7 @@ If you are setting XState on a thread via the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 
@@ -156,7 +157,7 @@ If you are setting XState on a thread via the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>
+<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,7 +70,7 @@ This property is generally the Microsoft UI Automation provider for the window o
 			of the element is usually obtained from the host provider.
 
 A host provider must be returned in the following cases: when the element is a fragment root, 
-			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="uiauto_ServerSideProvider.htm">Provider Repositioning</a>). 
+			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="https://msdn.microsoft.com/en-us/library/Ee671615(v=VS.85).aspx">Provider Repositioning</a>). 
 			 In other cases, the property should be <b>NULL</b>.
 
 

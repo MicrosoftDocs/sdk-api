@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IActionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/59a1c49d-01e0-4331-997a-deb5d45d5766">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all the actions from the collection.
@@ -90,7 +91,7 @@ Creates and adds a new action to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/91332ec0-8225-421a-baae-1a106be157a9">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a specified action from the collection.
@@ -108,7 +109,7 @@ Removes a specified action from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/09d8924e-5153-4911-9662-93f71e39e583">_NewEnum</a>
 
 
 </td>
@@ -124,7 +125,7 @@ Gets the collection enumerator for the action collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">Context</a>
+<a href="https://msdn.microsoft.com/e365955e-1648-4e11-b602-016dcbeb129e">Context</a>
 
 
 </td>
@@ -140,7 +141,7 @@ Gets or sets the identifier of the principal for the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/c9d11aa9-c182-4633-9fc6-d9cf53adc25a">Count</a>
 
 
 </td>
@@ -156,7 +157,7 @@ Gets the number of actions in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/70d9cc9f-c539-4a5a-8b29-ca4d7464ab3f">Item</a>
 
 
 </td>
@@ -208,7 +209,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
+<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
 
 
 

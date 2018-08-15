@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -75,8 +76,8 @@ If the method succeeds, it returns S_OK. If the stream is not running when this 
 
 
  Stopping stream causes data to stop flowing between the endpoint buffer and the audio engine.  
-    You can consider this operation to pause the stream because it leaves the stream's audio clock at its current stream position and does not reset it to 0. A subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> causes the stream to resume running from the current position.  
-    Call <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> to  reset the clock position to 0 and cause all active <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> instances to be revoked.  
+    You can consider this operation to pause the stream because it leaves the stream's audio clock at its current stream position and does not reset it to 0. A subsequent call to <a href="https://msdn.microsoft.com/25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4">Start</a> causes the stream to resume running from the current position.  
+    Call <a href="https://msdn.microsoft.com/F6F096C0-3384-4463-B25F-99C6A7B3263B">Reset</a> to  reset the clock position to 0 and cause all active <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> instances to be revoked.  
 
 
 

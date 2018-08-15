@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -95,7 +96,7 @@ Indicates that the synth is not set.
 
 
 
-The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536527">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
+The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="https://msdn.microsoft.com/879292e1-b8e9-4f11-bb3d-f92c18e915e2">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
 
 For more information, see the description of the <b>IDirectMusicPort</b> interface in the Microsoft Windows SDK documentation.
 
@@ -107,7 +108,7 @@ For more information, see the description of the <b>IDirectMusicPort</b> interfa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536527">IDirectMusicSynthSink::SetDirectSound</a>
+<a href="https://msdn.microsoft.com/879292e1-b8e9-4f11-bb3d-f92c18e915e2">IDirectMusicSynthSink::SetDirectSound</a>
  
 
  

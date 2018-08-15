@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdSetEntries</i> callback function updates the palette entries in the spe
 
 #### - lpSetEntries
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551700">DD_SETENTRIESDATA</a> structure that contains the information required to set the palette's entries.
+Points to a <a href="https://msdn.microsoft.com/9420f41a-401b-4fc3-b9a4-f2bfe6cb2710">DD_SETENTRIESDATA</a> structure that contains the information required to set the palette's entries.
 
 
 ## -returns
@@ -86,7 +87,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55170
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551700">DD_SETENTRIESDATA</a>
+<a href="https://msdn.microsoft.com/9420f41a-401b-4fc3-b9a4-f2bfe6cb2710">DD_SETENTRIESDATA</a>
  
 
  

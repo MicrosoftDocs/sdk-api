@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -88,7 +89,7 @@ Obtains a string that contains a summary of the data gathered by the new object 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/38dd4f43-6f8f-460a-9c5d-0a506d993101">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object creation wizard extension.

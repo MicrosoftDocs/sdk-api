@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -80,7 +81,7 @@ Expands or contracts a range for text insertion.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/2b85012f-b090-4c91-b29c-b2470ff63ab6">Clone</a>
 </td>
 <td align="left" width="63%">
 Duplicates the range.
@@ -116,7 +117,7 @@ Compares the position of this range start anchor to an anchor in another range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/c3ba1424-f6c9-41f1-b815-4c315bfba868">GetContext</a>
 </td>
 <td align="left" width="63%">
 Obtains the context object to which the range belongs.
@@ -152,7 +153,7 @@ Obtains the gravity of the anchors in the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/b38a8de3-947f-469c-9f0d-f0482ea86884">GetText</a>
 </td>
 <td align="left" width="63%">
 Obtains content covered by this range of text.

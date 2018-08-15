@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -65,13 +66,13 @@ No special behaviors. This is the default value used to set or revert to default
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE
 
-At the end of an interaction, the viewport transitions to <a href="https://msdn.microsoft.com/6120702f-56f0-489d-a3b2-5f6ecac82b5e">DIRECTMANIPULATION_READY</a> and then immediately to <b>DIRECTMANIPULATION_DISABLED</b>. The viewport must be explicitly enabled through the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> method before the next interaction can be processed.
+At the end of an interaction, the viewport transitions to <a href="https://msdn.microsoft.com/6120702f-56f0-489d-a3b2-5f6ecac82b5e">DIRECTMANIPULATION_READY</a> and then immediately to <b>DIRECTMANIPULATION_DISABLED</b>. The viewport must be explicitly enabled through the <a href="https://msdn.microsoft.com/47ebb502-26c6-4bff-8baf-bd825fc06755">Enable</a> method before the next interaction can be processed.
 
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a> must be called to redraw the content within the viewport. The content is not updated automatically during an input event.
+<a href="https://msdn.microsoft.com/dffa747c-933a-4b61-9f15-e175d9338774">Update</a> must be called to redraw the content within the viewport. The content is not updated automatically during an input event.
 
 
 ### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT

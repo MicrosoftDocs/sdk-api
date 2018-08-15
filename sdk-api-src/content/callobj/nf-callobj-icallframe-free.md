@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 
 Frees the frame copy to avoid a memory leak.
 
-When a copy of a call frame is made with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a> method, the call frame does not clean up the copied data automatically. Therefore, after a copy of the call frame is returned, the user is responsible for calling the <b>Free</b> method to free the frame copy and avoid a memory leak.
+When a copy of a call frame is made with the <a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">Copy</a> method, the call frame does not clean up the copied data automatically. Therefore, after a copy of the call frame is returned, the user is responsible for calling the <b>Free</b> method to free the frame copy and avoid a memory leak.
 
 
 ## -parameters

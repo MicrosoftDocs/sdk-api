@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -107,7 +108,7 @@ Reports that one or more events destined for this event sink have been lost and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/47db9318-2418-4e6c-aac0-75b0b498c7e6">Enabled</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.

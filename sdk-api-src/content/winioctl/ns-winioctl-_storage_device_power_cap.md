@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-This structure is used as an input and output buffer for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn932064">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
+This structure is used as an input and output buffer for the <a href="https://msdn.microsoft.com/4BF06CA7-5219-4EE0-9A74-F43035914332">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
 
 
 ## -struct-fields
@@ -71,7 +72,7 @@ The size of this structure.
 
 ### -field Units
 
-The units of the <i>MaxPower</i> value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn931806">STORAGE_DEVICE_POWER_CAP_UNITS</a>.
+The units of the <i>MaxPower</i> value, of type <a href="https://msdn.microsoft.com/A6C48765-9A18-4F77-8B0F-9653CE6FDE23">STORAGE_DEVICE_POWER_CAP_UNITS</a>.
 
 
 ### -field MaxPower

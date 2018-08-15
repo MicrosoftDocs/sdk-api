@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -66,12 +67,12 @@ Not used.
 
 ### -param pParameters [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface specifying the command parameters.
+The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface specifying the command parameters.
 
 
 ### -param ppResults [out]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface specifying the command results.
+The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface specifying the command results.
 
 
 ## -returns
@@ -99,8 +100,8 @@ This method may fail even though it returns <b>S_OK</b> as its <b>HRESULT</b> va
 The object referenced by the <i>pParameters</i> parameter must specify at least these properties:
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff597754">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
 </ul>
 
 

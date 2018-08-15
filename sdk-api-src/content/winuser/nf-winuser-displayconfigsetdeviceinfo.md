@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>DisplayConfigSetDeviceInfo</b> function sets the properties of a target.
 
 ### -param setPacket [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that contains information to set for the device. The type and size of additional data that <b>DisplayConfigSetDeviceInfo</b> uses for the configuration comes after the header structure. This additional data depends on the packet type, as specified by the <b>type</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER. For example, if the caller wants to change the boot persistence, that caller allocates and fills a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553981">DISPLAYCONFIG_SET_TARGET_PERSISTENCE</a> structure and passes a pointer to this structure in <i>setPacket</i>. Note that the first member of the DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure is the DISPLAYCONFIG_DEVICE_INFO_HEADER.
+A pointer to a <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that contains information to set for the device. The type and size of additional data that <b>DisplayConfigSetDeviceInfo</b> uses for the configuration comes after the header structure. This additional data depends on the packet type, as specified by the <b>type</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER. For example, if the caller wants to change the boot persistence, that caller allocates and fills a <a href="https://msdn.microsoft.com/4798a1e1-8685-40c2-917a-0ee071bc780c">DISPLAYCONFIG_SET_TARGET_PERSISTENCE</a> structure and passes a pointer to this structure in <i>setPacket</i>. Note that the first member of the DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure is the DISPLAYCONFIG_DEVICE_INFO_HEADER.
 
 
 ## -returns
@@ -156,7 +157,7 @@ An unspecified error occurred.
 
 <b>DisplayConfigSetDeviceInfo</b> can currently only be used to start and stop boot persisted force projection on an analog target. For more information about boot persistence, see <a href="https://msdn.microsoft.com/690e585b-3c90-4373-844d-42afe033b59b">Forced Versus Connected Targets</a>.
 
-<b>DisplayConfigSetDeviceInfo</b> can only be used to set DISPLAYCONFIG_DEVICE_INFO_SET_XXX type of information. <b>DisplayConfigSetDeviceInfo</b> fails if the <b>type</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> is set to one of the DISPLAYCONFIG_DEVICE_INFO_GET_XXX values. 
+<b>DisplayConfigSetDeviceInfo</b> can only be used to set DISPLAYCONFIG_DEVICE_INFO_SET_XXX type of information. <b>DisplayConfigSetDeviceInfo</b> fails if the <b>type</b> member of <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> is set to one of the DISPLAYCONFIG_DEVICE_INFO_GET_XXX values. 
 
 
 
@@ -166,11 +167,11 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553903">DisplayConfigGetDeviceInfo</a>
+<a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a>
  
 
  

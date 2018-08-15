@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICAT
 
 ### -param NotifyContext [in]
 
-The HCMNOTIFICATION handle returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a> function.
+The HCMNOTIFICATION handle returned by the <a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a> function.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Instead, if you want to unregister from the notification callback, you must do s
 <ol>
 <li>Allocate a context structure to use with your notifications.      Include a pointer to a threadpool work structure (<b>PTP_WORK</b>) and any other information you would like to pass to the notification callback.</li>
 <li>Call <a href="https://msdn.microsoft.com/library/windows/desktop/ms682478">CreateThreadpoolWork</a>.   Provide a callback function that calls  <b>CM_Unregister_Notification</b>.      Add the returned work structure to the previously allocated context structure.</li>
-<li>Call <a href="https://msdn.microsoft.com/library/windows/hardware/hh780224">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
+<li>Call <a href="https://msdn.microsoft.com/15847F9C-9F2A-453F-9EF8-0AF63CFF93C9">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
 <li>Do work, get notifications, etc.</li>
 <li>Call <a href="https://msdn.microsoft.com/library/windows/desktop/ms686338">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
 <li>When the threadpool thread runs, the work item calls <b>CM_Unregister_Notification</b>.</li>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -103,7 +104,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms691876(v=VS.85).aspx">Re
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a>
+<a href="https://msdn.microsoft.com/23bbde90-c714-4e4b-9a6f-dc64b5ea244d">Address</a>
 
 
 </td>
@@ -112,7 +113,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Address</b> property is a null-terminated string that contains the destination of a fax job.
+Retrieves the <a href="https://msdn.microsoft.com/23bbde90-c714-4e4b-9a6f-dc64b5ea244d">Address</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Address</b> property is a null-terminated string that contains the destination of a fax job.
 
 </td>
 </tr>
@@ -135,7 +136,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691458(v=VS.85
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">Csid</a>
+<a href="https://msdn.microsoft.com/7b0a2e3a-7e0c-47fe-897a-5c4da41ff920">Csid</a>
 
 
 </td>
@@ -144,7 +145,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">Csid</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Csid</b> property is a string that contains CSID information, typically the fax number of the receiving device.
+Retrieves the <a href="https://msdn.microsoft.com/7b0a2e3a-7e0c-47fe-897a-5c4da41ff920">Csid</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Csid</b> property is a string that contains CSID information, typically the fax number of the receiving device.
 
 </td>
 </tr>
@@ -167,7 +168,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691465(v=VS.85
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/ddf08671-275c-4c89-9e99-98fc28a10f77">Description</a>
 
 
 </td>
@@ -176,7 +177,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Description</b> property is a null-terminated string that describes the current status of the specified port.
+Retrieves the <a href="https://msdn.microsoft.com/ddf08671-275c-4c89-9e99-98fc28a10f77">Description</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Description</b> property is a null-terminated string that describes the current status of the specified port.
 
 </td>
 </tr>
@@ -199,7 +200,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms690754(v=VS.85
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188594">DeviceName</a>
+<a href="https://msdn.microsoft.com/c7a2c3da-d5e5-4150-8ef0-053d7545bdd4">DeviceName</a>
 
 
 </td>
@@ -208,14 +209,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188594">DeviceName</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>DeviceName</b> property is a null-terminated string that contains the user-friendly display name for the fax port.
+Retrieves the <a href="https://msdn.microsoft.com/c7a2c3da-d5e5-4150-8ef0-053d7545bdd4">DeviceName</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>DeviceName</b> property is a null-terminated string that contains the user-friendly display name for the fax port.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541150">DocumentName</a>
+<a href="https://msdn.microsoft.com/fefbba54-e4c7-4d26-a75e-49d3f3dc4f78">DocumentName</a>
 
 
 </td>
@@ -224,7 +225,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541150">DocumentName</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>DocumentName</b> property is a null-terminated string that contains the user-friendly name associated with an active fax document.
+Retrieves the <a href="https://msdn.microsoft.com/fefbba54-e4c7-4d26-a75e-49d3f3dc4f78">DocumentName</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>DocumentName</b> property is a null-terminated string that contains the user-friendly name associated with an active fax document.
 
 </td>
 </tr>
@@ -343,7 +344,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764038">SenderName</a>
+<a href="https://msdn.microsoft.com/b35dde6f-eeaa-4e01-8b8e-c8f96d00dfe7">SenderName</a>
 
 
 </td>
@@ -352,7 +353,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/mt764038">SenderName</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>SenderName</b> property is a null-terminated string that contains the name of the user who sent the fax transmission.
+Retrieves the <a href="https://msdn.microsoft.com/b35dde6f-eeaa-4e01-8b8e-c8f96d00dfe7">SenderName</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>SenderName</b> property is a null-terminated string that contains the name of the user who sent the fax transmission.
 
 </td>
 </tr>
@@ -391,7 +392,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691823(v=VS.85
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">Tsid</a>
+<a href="https://msdn.microsoft.com/993795ec-0094-4125-9ab8-cee88a9ef77b">Tsid</a>
 
 
 </td>
@@ -400,7 +401,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997387">Tsid</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Tsid</b> property is a null-terminated string that contains the TSID associated with the fax port.
+Retrieves the <a href="https://msdn.microsoft.com/993795ec-0094-4125-9ab8-cee88a9ef77b">Tsid</a> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>Tsid</b> property is a null-terminated string that contains the TSID associated with the fax port.
 
 </td>
 </tr>

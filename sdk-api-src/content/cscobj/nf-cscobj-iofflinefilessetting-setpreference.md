@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -63,7 +64,7 @@ Sets a per-computer or per-user preference associated with an Offline Files sett
 
 Specifies the value associated with the preference.
 
-If multiple values are associated with the preference, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> type includes <b>VT_ARRAY</b> and the values are stored in a <b>SAFEARRAY</b>.
+If multiple values are associated with the preference, the <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> type includes <b>VT_ARRAY</b> and the values are stored in a <b>SAFEARRAY</b>.
 
 
 ### -param dwScope [in]

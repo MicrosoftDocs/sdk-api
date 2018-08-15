@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Called by a data consumer to obtain data from a source data object. This method differs from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a> method in that the caller must allocate and free the specified storage medium.
+Called by a data consumer to obtain data from a source data object. This method differs from the <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">GetData</a> method in that the caller must allocate and free the specified storage medium.
 
 
 ## -parameters
@@ -193,7 +194,7 @@ The <b>GetDataHere</b> method is similar to <a href="https://msdn.microsoft.com/
 
 Some media are not appropriate in a call to <b>GetDataHere</b>, including GDI types such as metafiles. The <b>GetDataHere</b> method cannot put data into a caller-provided metafile. In general, the only storage media it is necessary to support in this method are TYMED_ISTORAGE, TYMED_ISTREAM, and TYMED_FILE.
 
-When the transfer medium is a stream, OLE makes assumptions about where the data is being returned and the position of the stream's seek pointer. In a <a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a> call, the data returned is from stream position zero through just before the current seek pointer of the stream (that is, the position on exit). For <b>GetDataHere</b>, the data returned is from the stream position on entry through just before the position on exit.
+When the transfer medium is a stream, OLE makes assumptions about where the data is being returned and the position of the stream's seek pointer. In a <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">GetData</a> call, the data returned is from stream position zero through just before the current seek pointer of the stream (that is, the position on exit). For <b>GetDataHere</b>, the data returned is from the stream position on entry through just before the position on exit.
 
 
 
