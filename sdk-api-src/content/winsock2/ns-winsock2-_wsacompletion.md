@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -102,7 +103,7 @@ Context of the message or handle.
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 
 ### -field Parameters.Apc
@@ -112,7 +113,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 
 ### -field Parameters.Apc.lpfnCompletionProc
@@ -129,7 +130,7 @@ A pointer to an application-provided completion routine.
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.
 
 
 ### -field Parameters.Port.hPort

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -52,8 +53,8 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 
 Describes general characteristics of an XAPO. Used with 
-	 <a href="https://msdn.microsoft.com/en-us/library/Ee418451(v=VS.85).aspx">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/en-us/library/Ee416386(v=VS.85).aspx">CXAPOParametersBase::CXAPOParametersBase</a>, and 
-	 <a href="https://msdn.microsoft.com/en-us/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. 
+	 <a href="https://msdn.microsoft.com/F9922DF3-3E7D-4847-A6B1-C2AE99C6ADEC">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/08236DB5-8119-4F3F-BB18-D9DCD3713D45">CXAPOParametersBase::CXAPOParametersBase</a>, and 
+	 <a href="https://msdn.microsoft.com/119EA60F-BB59-4D9A-972F-A95D81EEF765">CXAPOBase::CXAPOBase</a>. 
 
 
 ## -struct-fields
@@ -190,7 +191,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
  
 
  

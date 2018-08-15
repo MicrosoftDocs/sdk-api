@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -85,7 +86,7 @@ Valid tokens:
 <li>Windows Vista: An IPv4 address range in the format "start address - end address."</li>
 <li>Windows Vista: An IPv6 address range in the format "start address - end address."</li>
 </ul>
-For a predefined address range, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915814">Scope</a> property.
+For a predefined address range, use the <a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">Scope</a> property.
 
 
 

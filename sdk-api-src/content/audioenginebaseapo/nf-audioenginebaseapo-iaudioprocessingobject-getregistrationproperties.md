@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows 7 and later Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ GetRegistrationProperties returns the registration properties of the audio proce
 
 ### -param ppRegProps [out]
 
-The registration properties of the APO. This parameter is of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn425140">APO_REG_PROPERTIES</a>.
+The registration properties of the APO. This parameter is of type <a href="https://msdn.microsoft.com/466215E5-5345-4570-A29B-086562882F5D">APO_REG_PROPERTIES</a>.
 
 
 ## -returns
@@ -93,7 +94,7 @@ The caller must free the memory returned by <code>GetRegistrationProperties</cod
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536501">IAudioProcessingObject</a>
+<a href="https://msdn.microsoft.com/71be0151-20dd-40e3-a478-d67e4d8d9c36">IAudioProcessingObject</a>
  
 
  

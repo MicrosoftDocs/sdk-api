@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a> structure.
+Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure.
 
 Data that is obtained  reflects the state of the log only at the time when the call is made. Typically, a client can continue to cache and use fields from this structure until the next time that it appends records or writes its restart area. At that time, some of the information becomes stale.
 
@@ -69,7 +70,7 @@ The log handle can refer to a dedicated or multiplexed log.
 
 ### -param pinfoBuffer [in, out]
 
-A pointer to a user-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a> structure that receives the log metadata.
+A pointer to a user-allocated <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure that receives the log metadata.
 
 
 ### -param cbBuffer [in, out]
@@ -99,7 +100,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
+<a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -93,7 +94,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647485(v=VS.85).aspx">IsCharUpper</a>
+<a href="https://msdn.microsoft.com/cc9ffea1-d14e-4cf8-b036-0b39cf0a7ae7">IsCharUpper</a>
 
 
 
@@ -101,7 +102,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

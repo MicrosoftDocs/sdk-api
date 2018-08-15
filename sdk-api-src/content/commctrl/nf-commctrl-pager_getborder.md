@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760869(v=VS.85).aspx">PGM_GETBORDER</a> message explicitly. 
+Retrieves the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/5d2f49ad-d940-4a0b-b5a0-05d742151b1c">PGM_GETBORDER</a> message explicitly. 
 
 
 ## -parameters

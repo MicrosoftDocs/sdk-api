@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -137,7 +138,7 @@ You cannot search for updates if the following conditions are true:
 
 
 A call to <b>ShowSettingsDialog</b>  fails if the calling user is not logged on or does not have a desktop.
-A caller can also programmatically modify Automatic Updates settings by using the <a href="https://msdn.microsoft.com/library/windows/hardware/mt168438">Settings</a> property.
+A caller can also programmatically modify Automatic Updates settings by using the <a href="https://msdn.microsoft.com/4b64d8bd-98bb-4d3a-9e90-2c6500c8614b">Settings</a> property.
 
 The settings in the dialog box are read-only if the caller has insufficient security permissions or if the settings are enforced by a domain administrator who is using Group Policy settings.
 

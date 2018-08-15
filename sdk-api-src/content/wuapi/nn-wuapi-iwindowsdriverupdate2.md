@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -106,7 +107,7 @@ Gets a collection of the Common Vulnerabilities and Exposures (CVE) identifiers 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949436">IsPresent</a>
+<a href="https://msdn.microsoft.com/4ed74cf9-bd97-4b6a-a8c2-d2d65d18f693">IsPresent</a>
 
 
 </td>
@@ -142,7 +143,7 @@ Gets a Boolean value that indicates whether the computer must be restarted after
 
 
 
-This interface can be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface only if the interface represents a Windows Driver update.
+This interface can be obtained by calling <a href="_com_iunknown_queryinterface">QueryInterface</a> method on an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface only if the interface represents a Windows Driver update.
 
 
 

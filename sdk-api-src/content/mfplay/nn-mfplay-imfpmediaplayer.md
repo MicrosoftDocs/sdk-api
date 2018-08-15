@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfplay.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -258,7 +259,7 @@ Applies an audio or video effect to playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/f6bf6896-6ed6-4135-a01d-f875bfdc72f4">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback.
@@ -375,7 +376,7 @@ Sets the audio volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/c56b07b5-f595-4933-9af6-868fc8938849">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the MFPlay player object and releases any resources that the object is using.
@@ -384,7 +385,7 @@ Shuts down the MFPlay player object and releases any resources that the object i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/1cfa41c7-209e-4c18-a204-563ede29c7c6">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback.

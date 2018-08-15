@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -124,7 +125,7 @@ The return value is a BOOL value that indicates success or failure of the operat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187868">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a>
+<a href="https://msdn.microsoft.com/A8CE2698-B2EF-409A-8251-7419F76D47BC">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a>
  
 
  

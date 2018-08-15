@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ Sends a control code to a service.
 A handle to the service. This handle is returned by the 
 <a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a> or 
 <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> function. The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540471">access rights</a> required for this handle depend on the <i>dwControl</i> code requested.
+<a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">access rights</a> required for this handle depend on the <i>dwControl</i> code requested.
 
 
 ### -param dwControl [in]

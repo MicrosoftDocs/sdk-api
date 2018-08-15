@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: rpcdce.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ The
 ### -param *ObjectUuid
 
 Pointer to the variable that specifies the object 
-<a href="https://msdn.microsoft.com/">UUID</a> that is to be mapped to a type UUID.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> that is to be mapped to a type UUID.
 
 
 ### -param *TypeUuid

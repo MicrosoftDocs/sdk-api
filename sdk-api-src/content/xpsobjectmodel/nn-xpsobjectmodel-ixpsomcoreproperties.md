@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -73,7 +74,7 @@ The <b>IXpsOMCoreProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/66c7af1d-5e48-4a51-ad16-e92ada87942c">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the interface.
@@ -132,7 +133,7 @@ Gets the <b>creator</b> property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/56a6367d-8ab7-40ac-989b-d5a60126eae5">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>description</b> property.
@@ -435,7 +436,7 @@ The meaning and use of these properties is determined by the user or context.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

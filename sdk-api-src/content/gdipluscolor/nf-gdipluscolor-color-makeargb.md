@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -104,15 +105,15 @@ This method returns an <b>ARGB</b> value that holds the specified alpha, red, gr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536255(v=VS.85).aspx">Color::SetFromCOLORREF</a>
+<a href="https://msdn.microsoft.com/5fb15f81-8bed-4895-bec8-b687028cc5a2">Color::SetFromCOLORREF</a>
  
 
  

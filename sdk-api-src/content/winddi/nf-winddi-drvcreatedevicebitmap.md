@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ Handle to the PDEV that describes the physical device that an application has de
 
 ### -param sizl
 
-Specifies a SIZEL structure that contains the width and height of the bitmap to be created. The <b>cx</b> and <b>cy</b> members of this structure contain respectively, the bitmap's width and height, in pixels. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height of the bitmap to be created. The <b>cx</b> and <b>cy</b> members of this structure contain respectively, the bitmap's width and height, in pixels. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/08d81096-069f-4554-9bb9-d4a37c0950ac">SIZE</a> structure.
 
 
 ### -param iFormat
@@ -139,7 +140,7 @@ If the driver creates the bitmap, it can store it anywhere and in any format. It
 
 The contents of the created bitmap are undefined.
 
-This function is optional. If this function is implemented, however, <a href="https://msdn.microsoft.com/library/windows/hardware/ff556187">DrvDeleteDeviceBitmap</a> must also be implemented.
+This function is optional. If this function is implemented, however, <a href="https://msdn.microsoft.com/cb52b133-95c6-4a3d-b8b6-e1628a301542">DrvDeleteDeviceBitmap</a> must also be implemented.
 
 
 
@@ -149,7 +150,7 @@ This function is optional. If this function is implemented, however, <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556187">DrvDeleteDeviceBitmap</a>
+<a href="https://msdn.microsoft.com/cb52b133-95c6-4a3d-b8b6-e1628a301542">DrvDeleteDeviceBitmap</a>
  
 
  

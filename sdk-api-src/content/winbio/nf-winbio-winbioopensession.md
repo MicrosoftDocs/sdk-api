@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -64,7 +65,7 @@ Connects to a biometric service provider and one or more biometric units.
 
 ### -param Factor [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536458">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
+A bitmask of <a href="https://msdn.microsoft.com/7a15969c-ea64-464e-bd16-1daf0f2ea26f">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
 
 
 ### -param PoolType [in]

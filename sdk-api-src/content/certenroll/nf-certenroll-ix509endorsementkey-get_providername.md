@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the <b>ProviderName</b> property before you call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> method. You cannot change the <b>ProviderName</b> property after you have called the <b>Open</b> method.
+The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the <b>ProviderName</b> property before you call the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method. You cannot change the <b>ProviderName</b> property after you have called the <b>Open</b> method.
 
 This property is read/write.
 

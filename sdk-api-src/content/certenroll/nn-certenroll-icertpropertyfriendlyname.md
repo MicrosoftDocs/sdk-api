@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -75,7 +76,7 @@ The <b>ICertPropertyFriendlyName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/fb9a8108-f3d1-4a5c-bf3f-00002c085012">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from the certificate display name.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -70,9 +71,9 @@ A handle to the window whose child is to be retrieved.
 
 ### -param ptParentClientCoords [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that defines the client coordinates of the point to be checked. 
+A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that defines the client coordinates of the point to be checked. 
 
 
 ## -returns
@@ -91,7 +92,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<b>RealChildWindowFromPoint</b> treats <b>HTTRANSPARENT</b> areas of a standard control differently from other areas of the control; it returns the child window behind a transparent part of a control. In contrast, <a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a> treats <b>HTTRANSPARENT</b> areas of a control the same as other areas. For example, if the point is in a transparent area of a groupbox, <b>RealChildWindowFromPoint</b> returns the child window behind a groupbox, whereas <b>ChildWindowFromPoint</b> returns the groupbox. However, both APIs return a static field, even though it, too, returns <b>HTTRANSPARENT</b>.
+<b>RealChildWindowFromPoint</b> treats <b>HTTRANSPARENT</b> areas of a standard control differently from other areas of the control; it returns the child window behind a transparent part of a control. In contrast, <a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a> treats <b>HTTRANSPARENT</b> areas of a control the same as other areas. For example, if the point is in a transparent area of a groupbox, <b>RealChildWindowFromPoint</b> returns the child window behind a groupbox, whereas <b>ChildWindowFromPoint</b> returns the groupbox. However, both APIs return a static field, even though it, too, returns <b>HTTRANSPARENT</b>.
 
 
 
@@ -101,7 +102,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a>
 
 
 
@@ -113,7 +114,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 
@@ -121,7 +122,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

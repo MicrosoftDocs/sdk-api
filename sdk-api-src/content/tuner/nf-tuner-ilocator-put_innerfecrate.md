@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_InnerFECRate</b> method sets the inner FEC rate.
 
 ### -param FEC [in]
 
-Specifies the inner FEC rate. This parameter is a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556566">BinaryConvolutionCodeRate</a>.
+Specifies the inner FEC rate. This parameter is a value of type <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a>.
 
 
 ## -returns

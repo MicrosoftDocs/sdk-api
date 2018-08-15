@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winusb.h
 req.include-header: Winusbio.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -88,7 +89,7 @@ The number of bytes to transfer.
 
 
 
-Callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540219">WinUsb_ControlTransfer</a> routine must pass in a <b>WINUSB_SETUP_PACKET</b> structure. 
+Callers of the <a href="https://msdn.microsoft.com/2ae80c97-3a09-4e90-ae73-92b5caa5cf99">WinUsb_ControlTransfer</a> routine must pass in a <b>WINUSB_SETUP_PACKET</b> structure. 
 
 
 
@@ -98,11 +99,11 @@ Callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540219">WinUsb_ControlTransfer</a>
+<a href="https://msdn.microsoft.com/2ae80c97-3a09-4e90-ae73-92b5caa5cf99">WinUsb_ControlTransfer</a>
  
 
  

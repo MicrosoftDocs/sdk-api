@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -113,7 +114,7 @@ Insufficient memory.
 
 Values with the <b>tomUndefined</b> attribute have no effect.
 
-For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">ITextRange::SetFont</a>.
+For an example of how to use font duplicates, see <a href="https://msdn.microsoft.com/15630fec-83b2-4169-b141-8ce253dd25fe">ITextRange::SetFont</a>.
 
 
 

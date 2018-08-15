@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -79,14 +80,14 @@ A value that specifies the index assigned to the first image in the strip. This 
 A value that specifies the color used to generate a mask.
 
 
-#### - BMapSm [in]
-
-Win32 HBITMAP handle to the small (16x16) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapSm.
-
-
 #### - BMapLg [in]
 
 Win32 HBITMAP handle to the large (32x32) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapLg.
+
+
+#### - BMapSm [in]
+
+Win32 HBITMAP handle to the small (16x16) icon image strip. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free BMapSm.
 
 
 ## -returns

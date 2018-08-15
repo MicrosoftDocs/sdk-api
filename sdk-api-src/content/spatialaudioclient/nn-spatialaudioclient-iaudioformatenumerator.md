@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IAudioFormatEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/A2523D52-6641-4876-A263-E0D02A815522">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of supported audio formats in the list

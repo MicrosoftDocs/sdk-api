@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -60,11 +61,11 @@ The
 
 The methods in this interface present your object's data as a contiguous sequence of bytes that you can read or write. There are also methods for committing and reverting changes on streams that are open in transacted mode and methods for restricting access to a range of bytes in the stream.
 
-Streams can remain open for long periods of time without consuming file-system resources. The <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
+Streams can remain open for long periods of time without consuming file-system resources. The <a href="_com_iunknown_release">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
 
 Clients of asynchronous monikers can choose between a data-pull or data-push model for driving an asynchronous 
-<a href="https://msdn.microsoft.com/en-us/library/ms688738(v=VS.85).aspx">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
-<a href="https://msdn.microsoft.com/en-us/library/ms688580(v=VS.85).aspx">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
+<a href="_com_imoniker_bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
+<a href="_com_url_monikers">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
 <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> and 
 <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> calls returned in <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> in these two download models:
 <table>
@@ -96,9 +97,9 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 </table> 
 
 For general information on this topic, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680058(v=VS.85).aspx">Asynchronous Monikers</a> and 
+<a href="_com_asynchronous_monikers">Asynchronous Monikers</a> and 
 <a href="_com_data_pull_model_versus_data_push_model">Data-Pull-Model versus Data Push-Model</a> for more specific information. Also, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms688453(v=VS.85).aspx">Managing Memory Allocation</a> for details on COM's rules for managing memory.
+<a href="_com_managing_memory_allocation">Managing Memory Allocation</a> for details on COM's rules for managing memory.
 
 
 ## -inheritance
@@ -118,7 +119,7 @@ The <b>IStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/677c37fb-598f-4bb0-b5d6-600e0befc722">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new stream object that references the same bytes as the original stream but provides a separate seek pointer to those bytes.
@@ -127,7 +128,7 @@ Creates a new stream object that references the same bytes as the original strea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/335c3a53-ca6a-42f3-bbf9-684ed48591e6">Commit</a>
 </td>
 <td align="left" width="63%">
 Ensures that any changes made to a stream object open in transacted mode are reflected in the parent storage object.
@@ -154,7 +155,7 @@ Restricts access to a specified range of bytes in the stream. Supporting this fu
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">Read</a>
 </td>
 <td align="left" width="63%">
 Reads a specified number of bytes from the stream object into memory starting at the current seek pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/c1d33800-d2f1-4942-92fa-e115f524c23c">ISequentialStream</a>)</td>
@@ -171,7 +172,7 @@ Discards all changes that have been made to a transacted stream since the last c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a>
+<a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">Seek</a>
 </td>
 <td align="left" width="63%">
 Changes the seek pointer to a new location relative to the beginning of the stream, the end of the stream, or the current seek pointer.
@@ -180,7 +181,7 @@ Changes the seek pointer to a new location relative to the beginning of the stre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439729">SetSize</a>
+<a href="https://msdn.microsoft.com/05627db5-067b-4a1a-a7ed-c83314f8bd8d">SetSize</a>
 </td>
 <td align="left" width="63%">
 Changes the size of the stream object.
@@ -209,7 +210,7 @@ Removes the access restriction on a range of bytes previously restricted with
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a>
 </td>
 <td align="left" width="63%">
 Writes a specified number of bytes into the stream object starting at the current seek pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/c1d33800-d2f1-4942-92fa-e115f524c23c">ISequentialStream</a>)</td>

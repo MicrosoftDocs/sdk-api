@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -109,7 +110,7 @@ Initializes an object from the stream where it was saved previously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/f88b61d0-dd85-4e8e-b445-dfced6521981">Save</a>
 </td>
 <td align="left" width="63%">
 Saves an object to the specified stream.

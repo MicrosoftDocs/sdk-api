@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775967(v=VS.85).aspx">BCM_GETNOTELENGTH</a> message explicitly.
+Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://msdn.microsoft.com/62385485-b553-47e9-9f15-696cc4694752">BCM_GETNOTELENGTH</a> message explicitly.
 
 
 ## -parameters
@@ -81,11 +82,11 @@ The <b>Button_GetNoteLength</b> macro works only with the <a href="Button_Styles
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://msdn.microsoft.com/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b">Button Types</a>
 
 
 

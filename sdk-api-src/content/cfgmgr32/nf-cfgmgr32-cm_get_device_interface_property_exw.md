@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 10 and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/hh780218">CM_Get_Device_Interface_Property</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/581286BF-F20E-4766-BF0C-5D6B34032358">CM_Get_Device_Interface_Property</a> instead.]
 
 The <b>CM_Get_Device_Interface_Property_ExW</b> function retrieves a device property that is set for a device interface.
 
@@ -69,12 +70,12 @@ Pointer to a string that identifies the device interface instance to retrieve th
 
 ### -param PropertyKey [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that represents the device interface property key of the device interface property to retrieve.
+Pointer to a <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a> structure that represents the device interface property key of the device interface property to retrieve.
 
 
 ### -param PropertyType [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+Pointer to a <a href="https://msdn.microsoft.com/e0fdcc28-be70-4ae1-bd6d-89e2177eae62">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 
 ### -param PropertyBuffer [out]
@@ -94,7 +95,7 @@ Reserved. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -122,11 +123,11 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a>
+<a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551122">SetupDiGetDeviceInterfaceProperty</a>
+<a href="https://msdn.microsoft.com/72a44060-cebc-4690-8776-68db76810732">SetupDiGetDeviceInterfaceProperty</a>
  
 
  

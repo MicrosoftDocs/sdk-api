@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761309(v=VS.85).aspx">LB_GETSELCOUNT</a> message explicitly.
+Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/1597f6d0-e8f2-4e10-8a0e-ef76192e6238">LB_GETSELCOUNT</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761309(v=VS.85).aspx">LB_GETSELCOUNT</a>.
+For more information, see <a href="https://msdn.microsoft.com/1597f6d0-e8f2-4e10-8a0e-ef76192e6238">LB_GETSELCOUNT</a>.
 	
 
 

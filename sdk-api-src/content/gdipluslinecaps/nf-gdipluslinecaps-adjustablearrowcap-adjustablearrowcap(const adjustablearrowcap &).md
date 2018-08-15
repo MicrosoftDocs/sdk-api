@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -68,18 +69,18 @@ Type: <b>REAL</b>
 Real number that specifies the length, in units, of the arrow from its base to its point. 
 
 
-#### - width [in]
-
-Type: <b>REAL</b>
-
-Real number that specifies the distance, in units, between the corners of the base of the arrow. 
-
-
 #### - isFilled [in]
 
 Type: <b>BOOL</b>
 
 Boolean value that specifies whether the arrow is filled. The default value is <b>TRUE</b>. 
+
+
+#### - width [in]
+
+Type: <b>REAL</b>
+
+Real number that specifies the distance, in units, between the corners of the base of the arrow. 
 
 
 ## -remarks
@@ -96,15 +97,15 @@ The middle inset is the number of units that the midpoint of the base shifts tow
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534419(v=VS.85).aspx">AdjustableArrowCap</a>
+<a href="https://msdn.microsoft.com/da4a0644-eedf-4a9c-935a-e9fa822b2673">AdjustableArrowCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536325(v=VS.85).aspx">AdjustableArrowCap::GetMiddleInset</a>
+<a href="https://msdn.microsoft.com/83bc6530-9d78-49ad-9dfc-ea9776945ae6">AdjustableArrowCap::GetMiddleInset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536330(v=VS.85).aspx">AdjustableArrowCap::SetMiddleInset</a>
+<a href="https://msdn.microsoft.com/67721251-b805-425f-9742-6afed25df831">AdjustableArrowCap::SetMiddleInset</a>
  
 
  

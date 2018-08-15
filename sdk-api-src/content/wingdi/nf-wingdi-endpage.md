@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -83,7 +84,7 @@ If the function fails, the return value is less than or equal to zero.
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-Use the <a href="https://msdn.microsoft.com/3f77db51-90d1-4a87-812b-1e129ae8fde9">ResetDC</a> function to change the device mode, if necessary, after calling the <b>EndPage</b> function. Note that a call to <b>ResetDC</b> resets all device context attributes back to default values. Neither <b>EndPage</b> nor <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a> resets the device context attributes. Device context attributes remain constant across subsequent pages. You do not need to re-select objects and set up the mapping mode again before printing the next page; however, doing so will produce the same results and reduce code differences between versions of Windows.
+Use the <a href="https://msdn.microsoft.com/3f77db51-90d1-4a87-812b-1e129ae8fde9">ResetDC</a> function to change the device mode, if necessary, after calling the <b>EndPage</b> function. Note that a call to <b>ResetDC</b> resets all device context attributes back to default values. Neither <b>EndPage</b> nor <a href="https://msdn.microsoft.com/b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76">StartPage</a> resets the device context attributes. Device context attributes remain constant across subsequent pages. You do not need to re-select objects and set up the mapping mode again before printing the next page; however, doing so will produce the same results and reduce code differences between versions of Windows.
 
 When a page in a spooled file exceeds approximately 350 MB, it may fail to print and not send an error message. For example, this can occur when printing large EMF files. The page size limit depends on many factors including the amount of virtual memory available, the amount of memory allocated by calling processes, and the amount of fragmentation in the process heap.
 
@@ -105,7 +106,7 @@ For a sample program that uses this function, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
 
 
 
@@ -113,7 +114,7 @@ For a sample program that uses this function, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a>
+<a href="https://msdn.microsoft.com/b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76">StartPage</a>
  
 
  

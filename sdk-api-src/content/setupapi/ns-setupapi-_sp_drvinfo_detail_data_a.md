@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -201,7 +202,7 @@ if (CompatIDsLength &gt; 0)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551973">SetupDiGetDriverInfoDetail</a>
+<a href="https://msdn.microsoft.com/42f3668c-8112-4cc0-bce8-b0b3886c45fb">SetupDiGetDriverInfoDetail</a>
  
 
  

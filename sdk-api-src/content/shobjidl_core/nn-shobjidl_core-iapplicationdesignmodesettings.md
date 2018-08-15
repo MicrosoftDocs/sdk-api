@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -139,7 +140,7 @@ Users will normally follow a usage pattern similar to the following:
 <ol>
 <li>Call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with CLSID_ApplicationDesignModeSettings to create the application design mode settings object on a thread in the Windows Store app process.</li>
 <li>Call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the application design mode settings object to obtain an <a href="https://msdn.microsoft.com/8421BFA0-0655-447c-99BB-3D4F049C572D">IInitializeWithWindow</a> object.</li>
-<li>Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method of the <a href="https://msdn.microsoft.com/8421BFA0-0655-447c-99BB-3D4F049C572D">IInitializeWithWindow</a> object, passing in the HWND for the proxy core window. This must be done before any "set" methods are called and will only succeed once per process.</li>
+<li>Call the <a href="https://msdn.microsoft.com/429E5D12-9ED9-4f4f-A0E6-F95953C9113A">Initialize</a> method of the <a href="https://msdn.microsoft.com/8421BFA0-0655-447c-99BB-3D4F049C572D">IInitializeWithWindow</a> object, passing in the HWND for the proxy core window. This must be done before any "set" methods are called and will only succeed once per process.</li>
 <li>Call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> for <b>IApplicationDesignModeSettings</b> and spoof the necessary test state by calling its appropriate methods (<a href="https://msdn.microsoft.com/fc301573-6550-4e21-b82b-7800bbf34ea6">SetNativeDisplaySize</a>, <a href="https://msdn.microsoft.com/55b80010-a71e-44c2-8105-e9f5b9a833f5">SetScaleFactor</a>, etc.). These methods will trigger the appropriate Windows Runtime events to fire for the Windows Store app.</li>
 <li>Call the <a href="https://msdn.microsoft.com/1ac42bb8-1c24-4369-8d0d-db3ad4062501">ComputeApplicationSize</a> method to determine the proper size for the app, based on the currently spoofed state. All layout "set" methods must have already been called or this call will fail. The developer tool application is responsible for positioning and sizing the app windows, when appropriate.</li>
 </ol>

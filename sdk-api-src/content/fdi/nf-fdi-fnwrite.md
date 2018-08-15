@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,14 +65,14 @@ The <b>FNWRITE</b> macro provides the declaration for the application-defined ca
 An application-defined value used to identify the open file.
 
 
-#### - pv [in]
-
-Pointer to the buffer containing the data to be written.
-
-
 #### - cb
 
 The maximum number of bytes to be written.
+
+
+#### - pv [in]
+
+Pointer to the buffer containing the data to be written.
 
 
 ## -remarks

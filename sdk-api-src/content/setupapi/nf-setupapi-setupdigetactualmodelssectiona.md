@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 with Service Pack 1 (SP1) and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ A pointer to an INF file context that specifies a <i>manufacturer-identifier</i>
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552338">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
+A pointer to an <a href="https://msdn.microsoft.com/d9aba6c9-1b23-4ce0-b796-904b39bec3ac">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ### -param InfSectionWithExt [out, optional]
@@ -105,7 +106,7 @@ Reserved for internal system use. This parameter must be set to <b>NULL</b>.
 
 <b>SetupDiGetActualModelsSection</b> determines which <i>TargetOSVersion</i> fields in the <i>manufacturer-identifier</i> entry (supplied by <i>Context</i>) apply to the current platform, if <i>AlternatePlatformInfo</i> is not supplied, or to an alternative platform, if alternative platform information is supplied. <b>SetupDiGetActualModelsSection</b> selects the most appropriate platform based on all the <i>TargetOSVersion</i> fields, appends the <i>TargetOSVersion</i> string to the INF <i>Models</i> section name, and returns the decorated INF <i>Models</i> section name to the caller. In a <i>manufacturer-identifier</i> entry, the operating system major version is specified by the <i>OSMajorVersion</i> field and the operating system minor version is specified by the <i>OSMinorVersion</i> field.
 
-For information about retrieving an <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> for a device, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551039">SetupDiGetActualSectionToInstall</a>.
+For information about retrieving an <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> for a device, see <a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>.
 
 
 
@@ -119,11 +120,11 @@ For information about retrieving an <a href="devinst.inf_ddinstall_section">INF 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552338">SP_ALTPLATFORM_INFO</a>
+<a href="https://msdn.microsoft.com/d9aba6c9-1b23-4ce0-b796-904b39bec3ac">SP_ALTPLATFORM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551039">SetupDiGetActualSectionToInstall</a>
+<a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>
  
 
  

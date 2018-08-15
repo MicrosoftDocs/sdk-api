@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Retrieves one key/value pair from the metadata of an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object.
+Retrieves one key/value pair from the metadata of an <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>, <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a>, or <a href="https://msdn.microsoft.com/c6cb1da0-5072-41b2-aa64-e39c8c97b2f8">ISchemaProvider</a> object.
 
         
 
@@ -65,7 +66,7 @@ Retrieves one key/value pair from the metadata of an <a href="https://msdn.micro
 
 Type: <b>LPCWSTR*</b>
 
-Receives the key of the metadata pair as a Unicode string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+Receives the key of the metadata pair as a Unicode string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
         
 
 
@@ -73,7 +74,7 @@ Receives the key of the metadata pair as a Unicode string. The calling applicati
 
 Type: <b>LPWSTR*</b>
 
-Receives the value of the metadata pair as a Unicode string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>. 
+Receives the value of the metadata pair as a Unicode string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>. 
 
         
 

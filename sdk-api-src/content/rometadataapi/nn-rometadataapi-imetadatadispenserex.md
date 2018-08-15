@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -98,7 +99,7 @@ Gets the directory that holds the current common language runtime (CLR). This me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451273">GetOption</a>
+<a href="https://msdn.microsoft.com/862948bd-6fce-4af9-9c68-1d3291e13053">GetOption</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified option for the current metadata scope. The option controls how calls to the current metadata scope are handled.

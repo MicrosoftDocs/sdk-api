@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,7 +79,7 @@ If the function returns any value other than <b>NO_ERROR</b>, RRAS will fail to 
 
 
 RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <b>MprAdminInitializeDll</b> in the order in which the DLLs are listed in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926940">registry</a>.
+<a href="https://msdn.microsoft.com/e83a5e37-a39d-4465-abc9-653cdd56893b">registry</a>.
 
 This function can return any of the error codes that are defined in the Winerror.h header file in the Platform Software Development Kit (SDK).
 

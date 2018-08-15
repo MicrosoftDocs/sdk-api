@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -74,7 +75,7 @@ An <a href="https://msdn.microsoft.com/e93539fe-3e4a-4b34-8d6a-b3f300a70ffc">MFO
 
 ### -field Area
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that contains the width and height of the rectangle.
+A <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that contains the width and height of the rectangle.
           
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -80,7 +81,7 @@ Adds pages to a property sheet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt300856(v=VS.85).aspx">QueryPagesFor</a>
+<a href="https://msdn.microsoft.com/00e90217-ebc3-4942-9cdc-c5e2c3c250c9">QueryPagesFor</a>
 </td>
 <td align="left" width="63%">
 Determines whether the object needs pages.

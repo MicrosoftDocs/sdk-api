@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: Windowsx.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,11 +76,11 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632655(v=VS.85).aspx">GET_Y_LPARAM</a>
+<a href="https://msdn.microsoft.com/eaf1b26d-14e7-45e9-bdd1-79258c5f9701">GET_Y_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>
+<a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a>
 
 
 

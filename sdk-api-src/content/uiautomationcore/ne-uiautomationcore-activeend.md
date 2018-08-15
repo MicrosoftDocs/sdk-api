@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Contains possible values for the <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
+Contains possible values for the <a href="uiauto_textattribute_ids.htm">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 
 
 ## -enum-fields

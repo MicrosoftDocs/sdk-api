@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Contains context menu information that is passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb774317(v=VS.85).aspx">IRichEditOleCallback::GetContextMenu</a> method.
+Contains context menu information that is passed to the <a href="https://msdn.microsoft.com/760e0c36-f125-470d-b2eb-c72ed27611e1">IRichEditOleCallback::GetContextMenu</a> method.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ Contains context menu information that is passed to the <a href="https://msdn.mi
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
 
 The character-position range in the active display. 
 
@@ -127,7 +128,7 @@ Get the context menu that is invoked by touch.
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 The screen coordinates for the content menu. 
 
@@ -144,7 +145,7 @@ Not used; must be zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774317(v=VS.85).aspx">IRichEditOleCallback::GetContextMenu</a>
+<a href="https://msdn.microsoft.com/760e0c36-f125-470d-b2eb-c72ed27611e1">IRichEditOleCallback::GetContextMenu</a>
  
 
  

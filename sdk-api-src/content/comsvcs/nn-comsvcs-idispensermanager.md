@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -70,7 +71,7 @@ The <b>IDispenserManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/cc3095a3-df4c-4112-a3cb-308e8962b51f">GetContext</a>
 </td>
 <td align="left" width="63%">
 Determines the current context.

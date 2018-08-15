@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Provides methods for a protocol handler's <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
+Provides methods for a protocol handler's <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
         
 
 
@@ -72,10 +73,10 @@ The <b>IProtocolHandlerSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231442(v=VS.85).aspx">GetFilter</a>
+<a href="https://msdn.microsoft.com/e033abd2-864f-406f-a933-fe80038f1943">GetFilter</a>
 </td>
 <td align="left" width="63%">
-Retrieves the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>according to the supplied parameters.     
+Retrieves the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>according to the supplied parameters.     
         
 
 </td>
@@ -97,7 +98,7 @@ When a protocol handler encounters items with embedded documents, the protocol h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
  
 
  

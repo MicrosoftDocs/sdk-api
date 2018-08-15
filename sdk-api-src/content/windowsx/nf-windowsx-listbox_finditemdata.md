@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Finds the first item in a list box that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775187(v=VS.85).aspx">LB_FINDSTRING</a> message explicitly.
+Finds the first item in a list box that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/1b7f25a7-0892-4d12-b3e3-21180d9ddfb1">LB_FINDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +85,7 @@ The data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775187(v=VS.85).aspx">LB_FINDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/1b7f25a7-0892-4d12-b3e3-21180d9ddfb1">LB_FINDSTRING</a>.
 	
 
 

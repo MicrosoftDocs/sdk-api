@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -68,7 +69,7 @@ The size in bytes of the buffer that the caller passed to the  <i>pDirtyRectsBuf
 
 ### -param pDirtyRectsBuffer [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures 
+A pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures 
         that identifies the dirty rectangle regions for the desktop frame.
 
 
@@ -109,7 +110,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>E_INVALIDARG if one of the parameters to 
           <b>GetFrameDirtyRects</b> 
           is incorrect; for example, if <i>pDirtyRectsBuffer</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -133,11 +134,11 @@ For more information about returning the required buffer size, see Remarks.
       <i>DirtyRectsBufferSize</i> parameter.</li>
 </ul>
 The caller can also use the value returned at <i>pDirtyRectsBufferSizeRequired</i> to 
-     determine the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>s returned in the <i>pDirtyRectsBuffer</i> array.
+     determine the number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>s returned in the <i>pDirtyRectsBuffer</i> array.
 
-The buffer contains the list of dirty <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>s for the current frame.
+The buffer contains the list of dirty <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>s for the current frame.
 
-<div class="alert"><b>Note</b>  To produce a visually accurate copy of the desktop, an application must first process all move <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>s before 
+<div class="alert"><b>Note</b>  To produce a visually accurate copy of the desktop, an application must first process all move <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>s before 
      it processes dirty <b>RECT</b>s.</div>
 <div> </div>
 

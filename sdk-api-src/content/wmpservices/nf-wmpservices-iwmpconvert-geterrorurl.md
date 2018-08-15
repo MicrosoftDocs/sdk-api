@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player, build 10.00.00.4521 or later
 req.target-min-winversvr: 

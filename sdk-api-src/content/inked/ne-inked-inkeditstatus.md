@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -90,7 +91,7 @@ The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">In
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn247298">Status Property</a>
+<a href="https://msdn.microsoft.com/47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d">Status Property</a>
  
 
  

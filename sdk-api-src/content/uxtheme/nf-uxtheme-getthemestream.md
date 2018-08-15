@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -70,7 +71,7 @@ Handle to the theme from which the stream will be retrieved.
 
 Type: <b>int</b>
 
-Specifies the part to retrieve a stream from. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Specifies the part to retrieve a stream from. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
@@ -136,7 +137,7 @@ The data stream retrieved by this function is not a copy; do not delete or close
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>
+<a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>
  
 
  

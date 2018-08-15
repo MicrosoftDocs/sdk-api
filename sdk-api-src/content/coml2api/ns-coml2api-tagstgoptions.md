@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: coml2api.h
 req.include-header: Objbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -107,7 +108,7 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380364(v=VS.85).aspx">Compound File Implementation Limits</a>
+<a href="structured_storage_interfaces.htm">Compound File Implementation Limits</a>
 
 
 

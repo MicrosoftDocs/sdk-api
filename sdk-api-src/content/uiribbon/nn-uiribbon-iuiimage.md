@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IUIImage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371366(v=VS.85).aspx">GetBitmap</a>
+<a href="https://msdn.microsoft.com/906b5469-d9a2-4998-b049-5ce45dc9318e">GetBitmap</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bitmap to display as an icon in the ribbon and context popup UI of the Ribbon framework.
@@ -87,11 +88,11 @@ Retrieves a bitmap to display as an icon in the ribbon and context popup UI of t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371365(v=VS.85).aspx">IUIImageFromBitmap</a>
+<a href="https://msdn.microsoft.com/f2b98d96-895e-40aa-9969-98bf1c0c8e5f">IUIImageFromBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

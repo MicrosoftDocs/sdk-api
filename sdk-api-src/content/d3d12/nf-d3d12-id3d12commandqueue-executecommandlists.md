@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -90,10 +91,10 @@ Applications are encouraged to batch together command list executions to reduce 
         
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call.  The runtime will also drop the call if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> has not been called on any of the command lists.
+Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call.  The runtime will also drop the call if the <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> has not been called on any of the command lists.
           
 
-The runtime will detect if the command allocators associated with the command lists have been reset after <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
+The runtime will detect if the command allocators associated with the command lists have been reset after <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
           
 
 The runtime will drop the call and remove the device if the command queue fence indicates that a previous execution of any of the command lists has not yet completed.

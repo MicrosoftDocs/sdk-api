@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ Passes a keystroke to the property frame for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure to be processed.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure to be processed.
 
 
 ## -returns

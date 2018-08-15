@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -90,7 +91,7 @@ The <a href="https://msdn.microsoft.com/95bce5f8-5230-4b69-b4e9-3cb766edce90">DR
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
  
 
  

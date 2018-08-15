@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
 
 ### -field targetVideoSignalInfo
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure that contains a detailed description of the current target mode.
+A <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure that contains a detailed description of the current target mode.
 
 
 ## -see-also
@@ -69,7 +70,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAY
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
+<a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -76,7 +77,7 @@ Returns the playback position, in seconds.
 
 This method corresponds to the <b>currentTime</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5. 
 
-Note that after you call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>, the time returned by <b>GetCurrentTime</b> may not be precisely accurate. Apps that need a frame-accurate position value, such as media editors, should call <a href="https://msdn.microsoft.com/090B5B6F-E4D1-43D7-AD09-BA3008B48104">FrameStep</a> immediately after calling **Pause** before calling <b>GetCurrentTime</b>.
+Note that after you call <a href="https://msdn.microsoft.com/5C1FEBDA-18B5-4BF4-9AF4-FF6DBCDD880D">Pause</a>, the time returned by <b>GetCurrentTime</b> may not be precisely accurate. Apps that need a frame-accurate position value, such as media editors, should call <a href="https://msdn.microsoft.com/090B5B6F-E4D1-43D7-AD09-BA3008B48104">FrameStep</a> immediately after calling **Pause** before calling <b>GetCurrentTime</b>.
 
 
 

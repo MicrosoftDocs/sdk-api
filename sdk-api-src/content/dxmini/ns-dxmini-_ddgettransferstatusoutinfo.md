@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DDGETTRANSFERSTATUSOUTINFO structure contains the transfer status informatio
 
 ### -field dwTransferID
 
-Contains the transfer ID of the bus master transfer that completed. The transfer ID was originally supplied to the driver in the <b>dwTransferID</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550356">DDTRANSFERININFO</a> structure. The driver receives a pointer to DDTRANSFERININFO in a call to its <a href="https://msdn.microsoft.com/62e1a5f6-9777-4acf-a531-b3554eaf89a6">DxTransfer</a> function. 
+Contains the transfer ID of the bus master transfer that completed. The transfer ID was originally supplied to the driver in the <b>dwTransferID</b> member of the <a href="https://msdn.microsoft.com/9e5f938d-0db6-4df6-a9c2-49840fef8c03">DDTRANSFERININFO</a> structure. The driver receives a pointer to DDTRANSFERININFO in a call to its <a href="https://msdn.microsoft.com/62e1a5f6-9777-4acf-a531-b3554eaf89a6">DxTransfer</a> function. 
 
 
 ## -see-also
@@ -69,7 +70,7 @@ Contains the transfer ID of the bus master transfer that completed. The transfer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550356">DDTRANSFERININFO</a>
+<a href="https://msdn.microsoft.com/9e5f938d-0db6-4df6-a9c2-49840fef8c03">DDTRANSFERININFO</a>
 
 
 

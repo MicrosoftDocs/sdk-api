@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -154,7 +155,7 @@ If the operation succeeds, <b>SetupDiGetClassDevsEx</b> returns a handle to a <a
 
 
 
-The caller of <b>SetupDiGetClassDevsEx</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>. 
+The caller of <b>SetupDiGetClassDevsEx</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>. 
 
 If <i>DeviceInfoSet</i> is <b>NULL</b>, <b>SetupDiGetClassDevsEx</b> creates a new device information set that contains the retrieved device information elements and returns a handle to the new device information set. If the caller requests that the function retrieve devices for a device setup class that is supplied by the <i>ClassGuid </i>parameter, the function sets the device setup class of the new device information set to the supplied class GUID.  
 
@@ -235,7 +236,7 @@ An installer can use <b>SetupDiGetClassDevsEx</b> to retrieve a list of devices 
 
 <ol>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550956">SetupDiCreateDeviceInfoList</a> to create an empty device information set for the "Volume" device setup class. Set <i>ClassGuid</i> to a pointer to the class GUID for the "Volume" device setup class and set <i>hwndParent </i>as appropriate. In response to such a call, the function will return a handle to type HDEVINFO to the device information set.
+Call <a href="https://msdn.microsoft.com/4dae7b07-2e24-4fd8-82f2-f947296ce3c4">SetupDiCreateDeviceInfoList</a> to create an empty device information set for the "Volume" device setup class. Set <i>ClassGuid</i> to a pointer to the class GUID for the "Volume" device setup class and set <i>hwndParent </i>as appropriate. In response to such a call, the function will return a handle to type HDEVINFO to the device information set.
 
 </li>
 <li>Call <b>SetupDiGetClassDevsEx</b> with the following settings:<ul>
@@ -264,19 +265,19 @@ In an operation of this type, <b>SetupDiGetClassDevsEx</b> returns a device if t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550958">SetupDiCreateDeviceInfoListEx</a>
+<a href="https://msdn.microsoft.com/4dae7b07-2e24-4fd8-82f2-f947296ce3c4">SetupDiCreateDeviceInfoListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>
+<a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>
+<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
  
 
  

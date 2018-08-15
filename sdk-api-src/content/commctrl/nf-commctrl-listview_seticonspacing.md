@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the spacing between icons in list-view controls set to the <a href="List_view_window_styles.htm">LVS_ICON</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761176(v=VS.85).aspx">LVM_SETICONSPACING</a> message explicitly. 
+Sets the spacing between icons in list-view controls set to the <a href="List_view_window_styles.htm">LVS_ICON</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/2dd3d9df-5b0d-445e-9201-d766fa218f90">LVM_SETICONSPACING</a> message explicitly. 
 
 
 ## -parameters

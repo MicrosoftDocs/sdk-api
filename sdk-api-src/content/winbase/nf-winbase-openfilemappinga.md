@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ The access to the file mapping object. This access is checked against any securi
 ### -param bInheritHandle [in]
 
 If this parameter is <b>TRUE</b>, a process created by the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function can inherit the handle; 
+      <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function can inherit the handle; 
       otherwise, the handle cannot be inherited.
 
 

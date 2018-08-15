@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdGetFlipStatus</b> callback function determines whether the most recentl
 
 #### - lpGetFlipStatus
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551564">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
+Points to a <a href="https://msdn.microsoft.com/da3b90e0-1a60-434b-966c-a7ebabff33ee">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
 
 
 ## -returns
@@ -105,7 +106,7 @@ If the flag is DDGFS_ISFLIPDONE, the driver should set <b>ddRVal</b> to DDERR_WA
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551564">DD_GETFLIPSTATUSDATA</a>
+<a href="https://msdn.microsoft.com/da3b90e0-1a60-434b-966c-a7ebabff33ee">DD_GETFLIPSTATUSDATA</a>
  
 
  

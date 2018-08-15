@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>DiUninstallDevice</b> function uninstalls a device and removes its device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>) from the system. This differs from using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a> with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543717">DIF_REMOVE</a> code because it attempts to uninstall the device node in addition to child devnodes that are present at the time of the call.
+The <b>DiUninstallDevice</b> function uninstalls a device and removes its device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>) from the system. This differs from using <a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a> with the <a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a> code because it attempts to uninstall the device node in addition to child devnodes that are present at the time of the call.
 
 Prior to Windows 8 any child devices that are not present at the time of the call will not be uninstalled. However, beginning with Windows 8, any child devices that are not present at the time of the call will be uninstalled.
 
@@ -75,7 +76,7 @@ A handle to the <a href="devinst.device_information_sets">device information set
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set for which the uninstallation request is performed.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set for which the uninstallation request is performed.
 
 
 ### -param Flags [in]
@@ -139,21 +140,21 @@ The value that is specified for the <i>Flags</i> parameter is not equal to zero.
 
 
 
-<b>DiUninstallDevice</b> performs the same function as <a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a> when used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543717">DIF_REMOVE</a> code. The key difference is that child devnodes for the top-level device are also deleted. <b>DiUninstallDevice</b> only returns failure if the top-level device node failed to be uninstalled, which is consistent with the behavior of <b>SetupDiCallClassInstaller</b> when used with the <b>DIF_REMOVE</b> code. Detailed information about whether child devnode uninstallation succeeded is available in the Setupapi.dev.log file.
+<b>DiUninstallDevice</b> performs the same function as <a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a> when used with the <a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a> code. The key difference is that child devnodes for the top-level device are also deleted. <b>DiUninstallDevice</b> only returns failure if the top-level device node failed to be uninstalled, which is consistent with the behavior of <b>SetupDiCallClassInstaller</b> when used with the <b>DIF_REMOVE</b> code. Detailed information about whether child devnode uninstallation succeeded is available in the Setupapi.dev.log file.
 
-The device to be uninstalled is specified by providing a <a href="devinst.device_information_sets">device information set</a> that includes the referenced device, and a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure for the specific device. These are provided in the <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> parameters.
+The device to be uninstalled is specified by providing a <a href="devinst.device_information_sets">device information set</a> that includes the referenced device, and a <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the specific device. These are provided in the <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> parameters.
 
-To create a device information set that contains the specified device and to obtain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure for the device, complete one of the following tasks:
+To create a device information set that contains the specified device and to obtain an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the device, complete one of the following tasks:
 
 <ul>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a> to retrieve a device information set that contains the device and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a> to enumerate the devices in the device information set. On each call, <b>SetupDiEnumDeviceInfo</b> returns an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the enumerated device in the device information set. 
+Call <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> to retrieve a device information set that contains the device and then call <a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a> to enumerate the devices in the device information set. On each call, <b>SetupDiEnumDeviceInfo</b> returns an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the enumerated device in the device information set. 
 
-To obtain specific information about the enumerated device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551963">SetupDiGetDeviceProperty</a> and supply the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a>.
+To obtain specific information about the enumerated device, call <a href="https://msdn.microsoft.com/eac31612-e80b-44ad-b4d4-a4aa014e833f">SetupDiGetDeviceProperty</a> and supply the <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that is returned by <a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a>.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a> to add a device with a known device instance ID to the device information set. <a href="https://msdn.microsoft.com/library/windows/hardware/ff552071">SetupDiOpenDeviceInfo</a> returns an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the device in the device information set. 
+Call <a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a> to add a device with a known device instance ID to the device information set. <a href="https://msdn.microsoft.com/0c4a2d09-62b2-43ce-a202-aeb59248d9fc">SetupDiOpenDeviceInfo</a> returns an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the device in the device information set. 
 
 </li>
 </ul>
@@ -173,7 +174,7 @@ The application requires some other operations to occur before the system can be
 
 </li>
 <li>
-The application is a class installer. In this case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure for a device. 
+The application is a class installer. In this case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure for a device. 
 
 </li>
 </ul>
@@ -185,7 +186,7 @@ The application is a class installer. In this case, the class installer should s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543717">DIF_REMOVE</a>
+<a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a>
 
 
 
@@ -193,27 +194,27 @@ The application is a class installer. In this case, the class installer should s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a>
+<a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a>
+<a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>
+<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551963">SetupDiGetDeviceProperty</a>
+<a href="https://msdn.microsoft.com/eac31612-e80b-44ad-b4d4-a4aa014e833f">SetupDiGetDeviceProperty</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -82,7 +83,7 @@ Returns the controller to which the controller port belongs.</p> (Inherited from
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/7540f2d3-c17c-4868-9e72-116219bab51c">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of a controller port.</p> (Inherited from <b>IVdsControllerPort</b>)</td>
@@ -99,7 +100,7 @@ Returns an enumeration of the LUNs with which the controller port is associated�
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/e298ef9d-8abb-450b-97d3-e97d64f0e734">Reset</a>
 </td>
 <td align="left" width="63%">
 Reinitializes the controller port.</p> (Inherited from <b>IVdsControllerPort</b>)</td>

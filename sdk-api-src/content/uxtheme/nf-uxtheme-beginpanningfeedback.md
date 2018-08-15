@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -81,7 +82,7 @@ TRUE, if successful.
 
 
 
-This function must be called before either the <a href="https://msdn.microsoft.com/en-us/library/Dd373385(v=VS.85).aspx">UpdatePanningFeedback</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd373384(v=VS.85).aspx">EndPanningFeedback</a> functions can be called.
+This function must be called before either the <a href="https://msdn.microsoft.com/227631b3-33e8-4ade-a7ff-51b70aed9ec6">UpdatePanningFeedback</a> or <a href="https://msdn.microsoft.com/38e72b4e-5614-44f5-bc68-b25c96396494">EndPanningFeedback</a> functions can be called.
 
 
 

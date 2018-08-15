@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -144,7 +145,7 @@ Sets the search folder icon size, as specified. The default settings are based o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+<a href="https://msdn.microsoft.com/0dd87a75-f172-4294-81cb-95207b04b3c5">SetScope</a>
 </td>
 <td align="left" width="63%">
 Sets search scope, as specified.

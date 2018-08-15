@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -212,7 +213,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
+If the  <a href="tomconstants.htm">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
 
 
 

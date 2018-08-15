@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The <b>ID3D12PipelineLibrary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597646">GetSerializedSize</a>
+<a href="https://msdn.microsoft.com/45DA092B-AB9B-43BE-8F5C-AE05485EA3C1">GetSerializedSize</a>
 </td>
 <td align="left" width="63%">
 Returns the amount of memory required to serialize the current contents of the database. 

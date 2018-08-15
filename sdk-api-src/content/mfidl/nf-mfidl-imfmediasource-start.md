@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -147,7 +148,7 @@ The start request is not valid. For example, the start position is past the end 
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method has been called.
+The media source's <a href="https://msdn.microsoft.com/c7f890a8-74bd-4418-bb02-a3fee62dec6d">Shutdown</a> method has been called.
               
 
 </td>

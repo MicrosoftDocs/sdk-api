@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -62,7 +63,7 @@ The <b>CERT_EXTENSION</b> structure contains the extension information for a <a 
 ### -field pszObjId
 
 <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">Object identifier</a> (OID) that specifies the structure of the extension data contained in the <b>Value</b> member. For specifics on extension OIDs and their related structures, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380258(v=VS.85).aspx">X.509 Certificate Extension Structures</a>.
+<a href="cryptography_structures.htm">X.509 Certificate Extension Structures</a>.
 
 
 ### -field fCritical

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: storageprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Gets the properties managed by the sync engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt149092(v=VS.85).aspx">SaveProperties</a>
+<a href="https://msdn.microsoft.com/983751BA-BF36-4018-A95A-4BEA1E9BA3BF">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Saves properties associated with a file or folder.

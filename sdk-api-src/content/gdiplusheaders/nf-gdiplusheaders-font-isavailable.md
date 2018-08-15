@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Font::IsAvailable</b> method determines whether this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a> object was created successfully.
+			<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object was created successfully.
 
 
 ## -parameters
@@ -79,15 +80,15 @@ If the font was constructed successfully, this method returns <b>TRUE</b>; other
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536194(v=VS.85).aspx">Font::GetLastStatus</a>
+<a href="https://msdn.microsoft.com/ed386e8d-0061-48b7-9409-893229978a46">Font::GetLastStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

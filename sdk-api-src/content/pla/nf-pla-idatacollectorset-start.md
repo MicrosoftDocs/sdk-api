@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -86,7 +87,7 @@ Returns <b>S_OK</b> if successful. The following table shows possible error valu
 </dl>
 </td>
 <td width="60%">
-The set must be persisted (see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a> method) prior to starting collection.
+The set must be persisted (see the <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">Commit</a> method) prior to starting collection.
 
 </td>
 </tr>

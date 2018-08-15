@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a> messages. 
+Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -1035,11 +1036,19 @@ Light gray
 
 
 
+#### - cTabCount
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
+
+Number of tab stops defined in the 
+					<b>rgxTabs</b> array.
+
+
 #### - cbSize
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
+Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
 
 
 #### - dwMask
@@ -1377,250 +1386,11 @@ The PFE_TABLEROWDELIMITER value is valid.
  
 
 
-#### - wNumbering
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Options used for bulleted or numbered paragraphs. To use this member, set the PFM_NUMBERING flag in the 
-					<b>dwMask</b> member.  
-
-
-This member can be one of the following values.
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="zero"></a><a id="ZERO"></a><dl>
-<dt><b>zero</b></dt>
-</dl>
-</td>
-<td width="60%">
-No paragraph numbering or bullets.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFN_BULLET"></a><a id="pfn_bullet"></a><dl>
-<dt><b>PFN_BULLET</b></dt>
-</dl>
-</td>
-<td width="60%">
-Insert a bullet at the beginning of each selected paragraph.
-
-</td>
-</tr>
-</table>
- 
-
-
-Rich Edit versions earlier than version 3.0 do not display paragraph numbers. However, for compatibility with Microsoft <a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a> (TOM) interfaces, 
-						<b>wNumbering</b> can specify one of the following values. (The rich edit control stores the value but does not use it to display the text.) 
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PFN_ARABIC"></a><a id="pfn_arabic"></a><dl>
-<dt><b>PFN_ARABIC</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use Arabic numbers (0, 1, 2, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFN_LCLETTER"></a><a id="pfn_lcletter"></a><dl>
-<dt><b>PFN_LCLETTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use lowercase letters (a, b, c, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFN_LCROMAN"></a><a id="pfn_lcroman"></a><dl>
-<dt><b>PFN_LCROMAN</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use lowercase Roman letters (i, ii, iii, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFN_UCLETTER"></a><a id="pfn_ucletter"></a><dl>
-<dt><b>PFN_UCLETTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use uppercase letters (A, B, C, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFN_UCROMAN"></a><a id="pfn_ucroman"></a><dl>
-<dt><b>PFN_UCROMAN</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use uppercase Roman letters (I, II, III, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="7"></a><dl>
-<dt><b>7</b></dt>
-</dl>
-</td>
-<td width="60%">
-Uses a sequence of characters beginning with the Unicode character specified by the 
-									<b>wNumberingStart</b> member. 
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - wEffects
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-This member is also known as <b>wReserved</b> for Microsoft Rich Edit 1.0 because it was reserved.
-
-
-<b>Rich Edit 1.0:</b> 
-						Reserved; the value must be zero. 
-
-<b>Rich Edit 2.0:</b> A set of bit flags that specify paragraph effects. These flags are included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text. 
-
-This member can be a combination of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_DONOTHYPHEN"></a><a id="pfe_donothyphen"></a><dl>
-<dt><b>PFE_DONOTHYPHEN</b></dt>
-</dl>
-</td>
-<td width="60%">
-Disables automatic hyphenation.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_KEEP"></a><a id="pfe_keep"></a><dl>
-<dt><b>PFE_KEEP</b></dt>
-</dl>
-</td>
-<td width="60%">
-No page break within the paragraph.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_KEEPNEXT"></a><a id="pfe_keepnext"></a><dl>
-<dt><b>PFE_KEEPNEXT</b></dt>
-</dl>
-</td>
-<td width="60%">
-No page break between this paragraph and the next.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_NOLINENUMBER"></a><a id="pfe_nolinenumber"></a><dl>
-<dt><b>PFE_NOLINENUMBER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Disables line numbering (not implemented).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_NOWIDOWCONTROL"></a><a id="pfe_nowidowcontrol"></a><dl>
-<dt><b>PFE_NOWIDOWCONTROL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Disables widow and orphan control for the selected paragraph.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_PAGEBREAKBEFORE"></a><a id="pfe_pagebreakbefore"></a><dl>
-<dt><b>PFE_PAGEBREAKBEFORE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Inserts a page break before the selected paragraph.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_RTLPARA"></a><a id="pfe_rtlpara"></a><dl>
-<dt><b>PFE_RTLPARA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Displays text using right-to-left reading order (in Rich Edit 2.1 and later).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_SIDEBYSIDE"></a><a id="pfe_sidebyside"></a><dl>
-<dt><b>PFE_SIDEBYSIDE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Displays paragraphs side by side (not implemented).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_TABLE"></a><a id="pfe_table"></a><dl>
-<dt><b>PFE_TABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The paragraph is a table row.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFE_TABLEROWDELIMITER"></a><a id="pfe_tablerowdelimiter"></a><dl>
-<dt><b>PFE_TABLEROWDELIMITER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+000D) of a row in a table.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - dxStartIndent
+#### - dxOffset
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Indentation of the paragraph's first line, in twips. The indentation of subsequent lines depends on the <b>dxOffset</b> member. To use the <b>dxStartIndent</b> member, set the PFM_STARTINDENT or PFM_OFFSETINDENT flag in the <b>dwMask</b> member. If you are setting the indentation, use the PFM_STARTINDENT flag to specify an absolute indentation from the left margin; or use the PFM_OFFSETINDENT flag to specify an indentation relative to the paragraph's current indentation. Use either flag to retrieve the current indentation. 
+Indentation of the second and subsequent lines, relative to the indentation of the first line, in twips. The first line is indented if this member is negative or outdented if this member is positive. To use this member, set the PFM_OFFSET flag in the <b>dwMask</b> member. 
 
 
 #### - dxRightIndent
@@ -1630,85 +1400,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Indentation of the right side of the paragraph, relative to the right margin, in twips. To use this member, set the PFM_RIGHTINDENT flag in the <b>dwMask</b> member. 
 
 
-#### - dxOffset
+#### - dxStartIndent
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Indentation of the second and subsequent lines, relative to the indentation of the first line, in twips. The first line is indented if this member is negative or outdented if this member is positive. To use this member, set the PFM_OFFSET flag in the <b>dwMask</b> member. 
-
-
-#### - wAlignment
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
-
-Paragraph alignment. To use this member, set the PFM_ALIGNMENT flag in the <b>dwMask</b> member. This member can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PFA_LEFT"></a><a id="pfa_left"></a><dl>
-<dt><b>PFA_LEFT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Paragraphs are aligned with the left margin.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFA_RIGHT"></a><a id="pfa_right"></a><dl>
-<dt><b>PFA_RIGHT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Paragraphs are aligned with the right margin.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFA_CENTER"></a><a id="pfa_center"></a><dl>
-<dt><b>PFA_CENTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Paragraphs are centered.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFA_JUSTIFY"></a><a id="pfa_justify"></a><dl>
-<dt><b>PFA_JUSTIFY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>RichEdit 2.0:</b>Paragraphs are justified. Rich edit controls earlier than RichEdit 3.0 display the text aligned with the left margin. 
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PFA_FULL_INTERWORD"></a><a id="pfa_full_interword"></a><dl>
-<dt><b>PFA_FULL_INTERWORD</b></dt>
-</dl>
-</td>
-<td width="60%">
-Paragraphs are justified by expanding the blanks alone. 
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - cTabCount
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SHORT</a></b>
-
-Number of tab stops defined in the 
-					<b>rgxTabs</b> array.
+Indentation of the paragraph's first line, in twips. The indentation of subsequent lines depends on the <b>dxOffset</b> member. To use the <b>dxStartIndent</b> member, set the PFM_STARTINDENT or PFM_OFFSETINDENT flag in the <b>dwMask</b> member. If you are setting the indentation, use the PFM_STARTINDENT flag to specify an absolute indentation from the left margin; or use the PFM_OFFSETINDENT flag to specify an indentation relative to the paragraph's current indentation. Use either flag to retrieve the current indentation. 
 
 
 #### - rgxTabs
@@ -1858,20 +1554,325 @@ Double line leader
  
 
 
+#### - wAlignment
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Paragraph alignment. To use this member, set the PFM_ALIGNMENT flag in the <b>dwMask</b> member. This member can be one of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PFA_LEFT"></a><a id="pfa_left"></a><dl>
+<dt><b>PFA_LEFT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Paragraphs are aligned with the left margin.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFA_RIGHT"></a><a id="pfa_right"></a><dl>
+<dt><b>PFA_RIGHT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Paragraphs are aligned with the right margin.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFA_CENTER"></a><a id="pfa_center"></a><dl>
+<dt><b>PFA_CENTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Paragraphs are centered.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFA_JUSTIFY"></a><a id="pfa_justify"></a><dl>
+<dt><b>PFA_JUSTIFY</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>RichEdit 2.0:</b>Paragraphs are justified. Rich edit controls earlier than RichEdit 3.0 display the text aligned with the left margin. 
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFA_FULL_INTERWORD"></a><a id="pfa_full_interword"></a><dl>
+<dt><b>PFA_FULL_INTERWORD</b></dt>
+</dl>
+</td>
+<td width="60%">
+Paragraphs are justified by expanding the blanks alone. 
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - wEffects
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+This member is also known as <b>wReserved</b> for Microsoft Rich Edit 1.0 because it was reserved.
+
+
+<b>Rich Edit 1.0:</b> 
+						Reserved; the value must be zero. 
+
+<b>Rich Edit 2.0:</b> A set of bit flags that specify paragraph effects. These flags are included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text. 
+
+This member can be a combination of the following values. 
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_DONOTHYPHEN"></a><a id="pfe_donothyphen"></a><dl>
+<dt><b>PFE_DONOTHYPHEN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables automatic hyphenation.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_KEEP"></a><a id="pfe_keep"></a><dl>
+<dt><b>PFE_KEEP</b></dt>
+</dl>
+</td>
+<td width="60%">
+No page break within the paragraph.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_KEEPNEXT"></a><a id="pfe_keepnext"></a><dl>
+<dt><b>PFE_KEEPNEXT</b></dt>
+</dl>
+</td>
+<td width="60%">
+No page break between this paragraph and the next.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_NOLINENUMBER"></a><a id="pfe_nolinenumber"></a><dl>
+<dt><b>PFE_NOLINENUMBER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables line numbering (not implemented).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_NOWIDOWCONTROL"></a><a id="pfe_nowidowcontrol"></a><dl>
+<dt><b>PFE_NOWIDOWCONTROL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Disables widow and orphan control for the selected paragraph.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_PAGEBREAKBEFORE"></a><a id="pfe_pagebreakbefore"></a><dl>
+<dt><b>PFE_PAGEBREAKBEFORE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Inserts a page break before the selected paragraph.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_RTLPARA"></a><a id="pfe_rtlpara"></a><dl>
+<dt><b>PFE_RTLPARA</b></dt>
+</dl>
+</td>
+<td width="60%">
+Displays text using right-to-left reading order (in Rich Edit 2.1 and later).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_SIDEBYSIDE"></a><a id="pfe_sidebyside"></a><dl>
+<dt><b>PFE_SIDEBYSIDE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Displays paragraphs side by side (not implemented).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_TABLE"></a><a id="pfe_table"></a><dl>
+<dt><b>PFE_TABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The paragraph is a table row.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFE_TABLEROWDELIMITER"></a><a id="pfe_tablerowdelimiter"></a><dl>
+<dt><b>PFE_TABLEROWDELIMITER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+000D) of a row in a table.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - wNumbering
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+
+Options used for bulleted or numbered paragraphs. To use this member, set the PFM_NUMBERING flag in the 
+					<b>dwMask</b> member.  
+
+
+This member can be one of the following values.
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="zero"></a><a id="ZERO"></a><dl>
+<dt><b>zero</b></dt>
+</dl>
+</td>
+<td width="60%">
+No paragraph numbering or bullets.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFN_BULLET"></a><a id="pfn_bullet"></a><dl>
+<dt><b>PFN_BULLET</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insert a bullet at the beginning of each selected paragraph.
+
+</td>
+</tr>
+</table>
+ 
+
+
+Rich Edit versions earlier than version 3.0 do not display paragraph numbers. However, for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces, 
+						<b>wNumbering</b> can specify one of the following values. (The rich edit control stores the value but does not use it to display the text.) 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PFN_ARABIC"></a><a id="pfn_arabic"></a><dl>
+<dt><b>PFN_ARABIC</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use Arabic numbers (0, 1, 2, and so on).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFN_LCLETTER"></a><a id="pfn_lcletter"></a><dl>
+<dt><b>PFN_LCLETTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use lowercase letters (a, b, c, and so on).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFN_LCROMAN"></a><a id="pfn_lcroman"></a><dl>
+<dt><b>PFN_LCROMAN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use lowercase Roman letters (i, ii, iii, and so on).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFN_UCLETTER"></a><a id="pfn_ucletter"></a><dl>
+<dt><b>PFN_UCLETTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use uppercase letters (A, B, C, and so on).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PFN_UCROMAN"></a><a id="pfn_ucroman"></a><dl>
+<dt><b>PFN_UCROMAN</b></dt>
+</dl>
+</td>
+<td width="60%">
+Use uppercase Roman letters (I, II, III, and so on).
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="7"></a><dl>
+<dt><b>7</b></dt>
+</dl>
+</td>
+<td width="60%">
+Uses a sequence of characters beginning with the Unicode character specified by the 
+									<b>wNumberingStart</b> member. 
+
+</td>
+</tr>
+</table>
+ 
+
+
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774182(v=VS.85).aspx">EM_GETPARAFORMAT</a>
+<a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774276(v=VS.85).aspx">EM_SETPARAFORMAT</a>
+<a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a>
+<a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a>
  
 
  

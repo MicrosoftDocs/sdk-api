@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761775(v=VS.85).aspx">DTM_SETMCFONT</a> message. 
+Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/5033e975-9b68-438a-99c3-80ca02cd59e7">DTM_SETMCFONT</a> message. 
 
 
 ## -parameters

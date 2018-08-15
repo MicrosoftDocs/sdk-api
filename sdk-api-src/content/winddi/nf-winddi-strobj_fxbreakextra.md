@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>STROBJ_fxBreakExtra</b> function retrieves the amount of extra space to b
 
 ### -param pstro
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a> structure of the string to be displayed.
+Pointer to the <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure of the string to be displayed.
 
 
 ## -returns
@@ -87,11 +88,11 @@ The extra space value is specified in pixel coordinates.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a>
+<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569744">STROBJ_fxCharacterExtra</a>
+<a href="https://msdn.microsoft.com/92989c16-5e82-4df2-9298-28b78757bd54">STROBJ_fxCharacterExtra</a>
  
 
  

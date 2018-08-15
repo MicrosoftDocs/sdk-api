@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IInitializeWithBindCtx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/5cb3117f-7e9f-463f-806c-4955cebc1c2d">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a handler with a bind context.

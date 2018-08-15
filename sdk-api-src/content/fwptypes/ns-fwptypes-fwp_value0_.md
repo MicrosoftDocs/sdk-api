@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>FWP_VALUE0</b> structure defines a data value that can be one of a number
 
 The type of data for this value. 
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a> for more information.
+See <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a> for more information.
 
 
 ### -field uint8
@@ -253,7 +254,7 @@ A pointer to a double-precision floating-point  value.
 
 case(FWP_BYTE_ARRAY16_TYPE)
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a>  structure.
+A pointer to a <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>  structure.
 
 
 
@@ -261,7 +262,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 case(FWP_BYTE_BLOB_TYPE)
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure.
+A pointer to a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure.
 
 
 
@@ -277,7 +278,7 @@ A pointer to a SID.
 
 case(FWP_SECURITY_DESCRIPTOR_TYPE)
 
-A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+A pointer to a security descriptor contained in a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
 
 
 
@@ -285,7 +286,7 @@ A pointer to a security descriptor contained in a <a href="https://msdn.microsof
 
 case(FWP_TOKEN_INFORMATION_TYPE)
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552440">FWP_TOKEN_INFORMATION</a>  structure.
+A pointer to an <a href="https://msdn.microsoft.com/30bc6d4b-e3a8-4adf-82d5-adaf30f042ff">FWP_TOKEN_INFORMATION</a>  structure.
 
 
 
@@ -293,7 +294,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 case(FWP_TOKEN_ACCESS_INFORMATION_TYPE)
 
-A pointer to token access information contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://msdn.microsoft.com/cb727b91-c88f-48f3-8329-020d3f727dc7">TOKEN_ACCESS_INFORMATION</a> structure.
+A pointer to token access information contained in a <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://msdn.microsoft.com/cb727b91-c88f-48f3-8329-020d3f727dc7">TOKEN_ACCESS_INFORMATION</a> structure.
 
 
 
@@ -331,15 +332,15 @@ When IP addresses are stored in FWP_UINT32 format or when IP port is stored in F
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a>
+<a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a>
+<a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a>
 
 
 

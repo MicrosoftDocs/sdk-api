@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -66,7 +67,7 @@ Waits for an event to occur for a specified communications device. The set of ev
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpEvtMask [out]
@@ -163,7 +164,7 @@ A character was received and placed in the input buffer.
 </td>
 <td width="60%">
 The event character was received and placed in the input buffer. The event character is specified in the device's 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a> structure, which is applied to a serial port by using the 
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure, which is applied to a serial port by using the 
 <a href="https://msdn.microsoft.com/a9296514-4789-4830-ba68-84a16ac7fc47">SetCommState</a> function.
 
 </td>
@@ -256,11 +257,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a>
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
 
 
 

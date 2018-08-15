@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdSyncVideoPortData</b> callback function sets and modifies VPE object da
 
 #### - lpSyncVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551740">DD_SYNCVIDEOPORTDATA</a> structure that contains the VPE object data. 
+Points to a <a href="https://msdn.microsoft.com/babe7d53-f278-44f7-9346-b4661b603123">DD_SYNCVIDEOPORTDATA</a> structure that contains the VPE object data. 
 
 
 ## -returns
@@ -86,7 +87,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55174
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551740">DD_SYNCVIDEOPORTDATA</a>
+<a href="https://msdn.microsoft.com/babe7d53-f278-44f7-9346-b4661b603123">DD_SYNCVIDEOPORTDATA</a>
  
 
  

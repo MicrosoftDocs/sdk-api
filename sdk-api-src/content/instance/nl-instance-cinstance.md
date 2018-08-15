@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: instance.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -73,7 +74,7 @@ It is not expected that provider writers will need to derive from this class. Us
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/699dadf9-18b5-4c6d-a5c4-59ea8a85f089">Commit</a>
 </td>
 <td align="left" width="63%">
 Returns the current instance to WMI.
@@ -82,7 +83,7 @@ Returns the current instance to WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439647">Getbool</a>
+<a href="https://msdn.microsoft.com/cc8d0c91-03fb-4dc1-86a6-c1117f198181">Getbool</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean property.
@@ -163,7 +164,7 @@ Returns a pointer to a <b>MethodContext</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/355386c5-7cd2-46de-8696-a83bd3f96cc5">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Determines whether a property exists and, if so, determines its type.
@@ -243,7 +244,7 @@ Determines if the value of a particular property is <b>NULL</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439552">Setbool</a>
+<a href="https://msdn.microsoft.com/d4ca045d-a018-48a0-a4ea-94d0c8f094a6">Setbool</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>Boolean</b> property.

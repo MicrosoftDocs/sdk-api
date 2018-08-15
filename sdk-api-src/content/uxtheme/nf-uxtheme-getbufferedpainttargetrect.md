@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,12 +64,12 @@ Retrieves the target rectangle specified by BeginBufferedPaint.
 
 Type: <b>HPAINTBUFFER</b>
 
-Handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ### -param prc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
 When this function returns, contains the requested rectangle.
 
@@ -88,7 +89,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If this function fails, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure at <i>prc</i> is set to empty.
+If this function fails, the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure at <i>prc</i> is set to empty.
 
 
 

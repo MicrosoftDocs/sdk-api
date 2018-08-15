@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ The window that owns the non-client area or non-client control.
 
 Type: <b>long</b>
 
-The object identifier of the non-client control, or <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_WINDOW</a> for the entire non-client area. For a list of possible values, see <b>Object Identifiers</b>.
+The object identifier of the non-client control, or <a href="object_identifiers.htm">OBJID_WINDOW</a> for the entire non-client area. For a list of possible values, see <b>Object Identifiers</b>.
 
 
 ### -param idChild [in]
@@ -108,7 +109,7 @@ This function is particularly useful when you use it with the <a href="uiauto_Pr
 
 
 
-The supported object IDs for controls in the non-client area include <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_WINDOW</a><a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">, OBJID_VSCROLL</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_HSCROLL</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_TITLEBAR</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_MENU</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_SIZEGRIP</a>.  For <b>OBJID_TITLEBAR</b>, use the child ID to distinguish between the entire title bar and the buttons that it contains.
+The supported object IDs for controls in the non-client area include <a href="object_identifiers.htm">OBJID_WINDOW</a><a href="object_identifiers.htm">, OBJID_VSCROLL</a>, <a href="object_identifiers.htm">OBJID_HSCROLL</a>, <a href="object_identifiers.htm">OBJID_TITLEBAR</a>, <a href="object_identifiers.htm">OBJID_MENU</a>, and <a href="object_identifiers.htm">OBJID_SIZEGRIP</a>.  For <b>OBJID_TITLEBAR</b>, use the child ID to distinguish between the entire title bar and the buttons that it contains.
 
 
 

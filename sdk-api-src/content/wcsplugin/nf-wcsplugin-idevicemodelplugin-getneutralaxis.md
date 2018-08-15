@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,7 +67,7 @@ The number of points that are returned.
 
 ### -param pXYZColors [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd372458(v=VS.85).aspx">XYZColorF</a> structures.
+A pointer to an array of <a href="wcs.gamut_map_model_color_structures">XYZColorF</a> structures.
 
 
 ## -returns
@@ -100,7 +101,7 @@ There is no requirement that the samples be uniformly spaced in any color space.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
 
 
 

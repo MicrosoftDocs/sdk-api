@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -139,7 +140,7 @@ The name could not be decoded.
 
 
 
-This method internally calls the CryptoAPI <a href="https://msdn.microsoft.com/b3d96de8-5cbc-4ccb-b759-6757520bbda3">CertNameToStr</a> function. Call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> property to retrieve the name as a null-terminated character string. Call the  <a href="https://msdn.microsoft.com/c3b2966c-5149-462d-908b-f6eca6a0409d">EncodedName</a> property to retrieve a string containing an encoded name.
+This method internally calls the CryptoAPI <a href="https://msdn.microsoft.com/b3d96de8-5cbc-4ccb-b759-6757520bbda3">CertNameToStr</a> function. Call the <a href="https://msdn.microsoft.com/1335c726-c16a-4a15-b231-8a3bd212f4ec">Name</a> property to retrieve the name as a null-terminated character string. Call the  <a href="https://msdn.microsoft.com/c3b2966c-5149-462d-908b-f6eca6a0409d">EncodedName</a> property to retrieve a string containing an encoded name.
 
 
 

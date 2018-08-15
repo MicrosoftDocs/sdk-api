@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -69,9 +70,9 @@ Size of the structure, in bytes.
 
 ### -field atAuthenticationType
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a></b>
 
-Flag to describe the type of authentication. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumerated type.
+Flag to describe the type of authentication. For a list of possible values, see the <a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a> enumerated type.
 
 
 ### -field pcwszUser

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -61,7 +62,7 @@ removes the specified profile based on the specified profile ID.
 
 ### -param ProfileId [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Mt845826(v=VS.85).aspx">SENSORPROFILEID</a> of the profile to remove.
+Pointer to the <a href="mf.sensorprofileid">SENSORPROFILEID</a> of the profile to remove.
 
 
 ## -returns
@@ -78,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
+<a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a>
  
 
  

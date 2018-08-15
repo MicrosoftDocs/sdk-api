@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -63,16 +64,10 @@ For details, see <b>MI_Session_&lt;method name&gt;</b> functions.
 
 
 
+#### - AssociatorInstances
+
+
 #### - Close
-
-
-#### - GetApplication
-
-
-#### - GetInstance
-
-
-#### - ModifyInstance
 
 
 #### - CreateInstance
@@ -81,28 +76,34 @@ For details, see <b>MI_Session_&lt;method name&gt;</b> functions.
 #### - DeleteInstance
 
 
-#### - Invoke
+#### - EnumerateClasses
 
 
 #### - EnumerateInstances
 
 
+#### - GetApplication
+
+
+#### - GetClass
+
+
+#### - GetInstance
+
+
+#### - Invoke
+
+
+#### - ModifyInstance
+
+
 #### - QueryInstances
-
-
-#### - AssociatorInstances
 
 
 #### - ReferenceInstances
 
 
 #### - Subscribe
-
-
-#### - GetClass
-
-
-#### - EnumerateClasses
 
 
 #### - TestConnection

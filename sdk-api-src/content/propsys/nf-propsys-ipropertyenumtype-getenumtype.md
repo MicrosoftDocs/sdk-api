@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -87,7 +88,7 @@ Use <a href="shell.IPropertyEnumType_GetDisplayText">GetDisplayText</a>.
 
 #### PET_ENDRANGE (3)
 
-Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a> or <a href="shell.IPropertyEnumType_GetRangeMinValue">GetRangeMinValue</a>.
+Use <a href="shell.IPropertyEnumType_GetValue">GetValue</a> or <a href="shell.IPropertyEnumType_GetRangeMinValue">GetRangeMinValue</a>.
 
 
 ## -returns

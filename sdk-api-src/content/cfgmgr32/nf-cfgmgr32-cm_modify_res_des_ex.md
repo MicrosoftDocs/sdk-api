@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538763">CM_Modify_Res_Des</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/9320c396-4da8-4b35-a620-4bb7cbd80e9a">CM_Modify_Res_Des</a> instead.]
 
 The <b>CM_Modify_Res_Des_Ex</b> function modifies a specified resource descriptor on a local or a remote machine.
 
@@ -70,23 +71,23 @@ Pointer to a location to receive a handle to the modified resource descriptor.
 Caller-supplied handle to the resource descriptor to be modified. This handle must have been previously obtained by calling one of the following functions:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537939">CM_Add_Res_Des</a>
+<a href="https://msdn.microsoft.com/0097b53a-c1c8-4e76-beef-812a953073b6">CM_Add_Res_Des</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537941">CM_Add_Res_Des_Ex</a>
+<a href="https://msdn.microsoft.com/f19996ae-f243-4e8c-b200-7d11c06490c9">CM_Add_Res_Des_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538600">CM_Get_Next_Res_Des</a>
+<a href="https://msdn.microsoft.com/2ce2a84c-a9fe-42ff-920f-47dd0f54a820">CM_Get_Next_Res_Des</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538603">CM_Get_Next_Res_Des_Ex</a>
+<a href="https://msdn.microsoft.com/91e9a686-2465-4ae8-9cc2-391cd98c2138">CM_Get_Next_Res_Des_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538763">CM_Modify_Res_Des</a>
+<a href="https://msdn.microsoft.com/9320c396-4da8-4b35-a620-4bb7cbd80e9a">CM_Modify_Res_Des</a>
 
 
 <b>CM_Modify_Res_Des_Ex</b>
@@ -99,7 +100,7 @@ Caller-supplied resource type identifier. This must be one of the <b>ResType_</b
 
 ### -param ResourceData [in]
 
-Caller-supplied pointer to a resource descriptor, which can be one of the structures listed under the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537941">CM_Add_Res_Des_Ex</a> function's description of <i>ResourceData</i>.
+Caller-supplied pointer to a resource descriptor, which can be one of the structures listed under the <a href="https://msdn.microsoft.com/f19996ae-f243-4e8c-b200-7d11c06490c9">CM_Add_Res_Des_Ex</a> function's description of <i>ResourceData</i>.
 
 
 ### -param ResourceLen [in]
@@ -114,7 +115,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -138,7 +139,7 @@ The caller-supplied resource descriptor data replaces the existing data. The val
 
 If the value specified for <i>ResourceID</i> is <b>ResType_ClassSpecific</b>, then the specified resource descriptor must be the last one associated with the logical configuration.
 
-Callers of <b>CM_Modify_Res_Des_Ex</b> must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538067">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
+Callers of <b>CM_Modify_Res_Des_Ex</b> must call <a href="https://msdn.microsoft.com/4a585d64-fd00-47a8-8ada-7e343beb829d">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
@@ -152,7 +153,7 @@ Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538763">CM_Modify_Res_Des</a>
+<a href="https://msdn.microsoft.com/9320c396-4da8-4b35-a620-4bb7cbd80e9a">CM_Modify_Res_Des</a>
  
 
  

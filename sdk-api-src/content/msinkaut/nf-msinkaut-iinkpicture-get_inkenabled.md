@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -81,13 +82,13 @@ If the window input rectangle of an enabled object (set in the constructor or wi
 <div> </div>
 While the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control is not enabled, you receive no events.
 
-When the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property of a container <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control is set to <b>VARIANT_FALSE</b>, all of its contained controls are disabled as well.
+When the <a href="https://msdn.microsoft.com/1c6e9fb4-be51-4d68-8241-17119deeba3f">Enabled</a> property of a container <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control is set to <b>VARIANT_FALSE</b>, all of its contained controls are disabled as well.
 
 You cannot set this property to <b>VARIANT_FALSE</b> while the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control is collecting ink (the <a href="https://msdn.microsoft.com/19fbe26e-02a4-4d05-a2e8-25d2f8ae1146">CollectingInk Property</a> property is <b>VARIANT_TRUE</b>).
 
-For best results, set the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property to <b>VARIANT_FALSE</b> when an application shuts down.
+For best results, set the <a href="https://msdn.microsoft.com/1c6e9fb4-be51-4d68-8241-17119deeba3f">Enabled</a> property to <b>VARIANT_FALSE</b> when an application shuts down.
 
-This property must be set to <b>VARIANT_FALSE</b> before setting or calling specific properties and methods of the control. If you try to change the specified properties or call the specified methods, an error occurs. The following properties and methods cannot be set or called unless the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property is first set to <b>VARIANT_FALSE</b>:
+This property must be set to <b>VARIANT_FALSE</b> before setting or calling specific properties and methods of the control. If you try to change the specified properties or call the specified methods, an error occurs. The following properties and methods cannot be set or called unless the <a href="https://msdn.microsoft.com/1c6e9fb4-be51-4d68-8241-17119deeba3f">Enabled</a> property is first set to <b>VARIANT_FALSE</b>:
 
 <ol>
 <li>Properties:<ul>
@@ -132,7 +133,7 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

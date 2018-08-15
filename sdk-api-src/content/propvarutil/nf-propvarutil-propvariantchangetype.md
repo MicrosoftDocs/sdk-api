@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -82,7 +83,7 @@ Reserved, must be 0.
 
 ### -param vt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
 Specifies the new type for the value. See the tables below for recognized type names.
 
@@ -399,7 +400,7 @@ Note that the source and destination <a href="https://msdn.microsoft.com/e86cc27
 <div> </div>
 Converting between vectors (<b>VT_VECTOR</b>) and arrays (<b>VT_ARRAY</b>) is supported in some cases. When it is supported, the count of elements must be the same in each. A single-valued vector can be converted to a non-vector value, but a multi-valued vector cannot be converted to a non-vector type.
 
-Coercion between types is performed without respect to property-specific information. Property-specific coercions should be performed using <a href="https://msdn.microsoft.com/en-us/library/Bb776486(v=VS.85).aspx">PSCoerceToCanonicalValue</a>. Additionally, if the string form of a value is needed for UI purposes, <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a> should be used to format the value according to locale- and property-specific information rather than using <a href="shell.PropVariantChangeType">PropVariantChangeType</a> to coerce the value to a string.
+Coercion between types is performed without respect to property-specific information. Property-specific coercions should be performed using <a href="shell.PSCoerceToCanonicalValue">PSCoerceToCanonicalValue</a>. Additionally, if the string form of a value is needed for UI purposes, <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a> should be used to format the value according to locale- and property-specific information rather than using <a href="shell.PropVariantChangeType">PropVariantChangeType</a> to coerce the value to a string.
 
 
 #### Examples

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -71,18 +72,18 @@ Retrieves the width and height, in pixels, of the locked rectangle.
 
 
 
-#### - pWidth [in, out]
-
-Type: <b>UINT*</b>
-
-A pointer that receives the width of the locked rectangle.
-
-
 #### - pHeight [in, out]
 
 Type: <b>UINT*</b>
 
 A pointer that receives the height of the locked rectangle.
+
+
+#### - pWidth [in, out]
+
+Type: <b>UINT*</b>
+
+A pointer that receives the width of the locked rectangle.
 
 
 ## -returns

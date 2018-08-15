@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -83,7 +84,7 @@ Specifies the <i>y</i>-coordinate of the lower-right corner of the rectangle.
 
 
 
-The RECTL structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+The RECTL structure is identical to the <a href="https://msdn.microsoft.com/a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943">RECT</a> structure.
 
 
 
@@ -93,7 +94,7 @@ The RECTL structure is identical to the <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943">RECT</a>
  
 
  

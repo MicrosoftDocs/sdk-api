@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -132,7 +133,7 @@ Streams start automatically as soon as a call is connected and ready to stream a
 <a href="https://msdn.microsoft.com/d7d70dd9-dcac-4b25-9954-10b4d6b436de">ITStream::PauseStream</a>.
 
 This call generates events that the application can retrieve if it has registered. Please see the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">Events</a> overview for information on receiving events.
+<a href="https://msdn.microsoft.com/db43f4e0-f2f5-49b1-a03d-3df3de0e5611">Events</a> overview for information on receiving events.
 
 If the stream starts successfully, the MSP fires a 
 <a href="https://msdn.microsoft.com/835759f4-652b-4d01-911a-e580bb29d292">CALL_MEDIA_EVENT</a> with a value of CME_STREAM_ACTIVE event and 

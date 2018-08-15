@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>SetupDiDeleteDeviceInterfaceData</b> function deletes a device interface 
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the interface to delete. This handle is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>.
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the interface to delete. This handle is typically returned by <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552342">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the interface in <i>DeviceInfoSet</i> to delete. This structure is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>.
+A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the interface in <i>DeviceInfoSet</i> to delete. This structure is typically returned by <a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>.
 
 
 ## -returns
@@ -92,19 +93,19 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>
+<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552074">SetupDiOpenDeviceInterface</a>
+<a href="https://msdn.microsoft.com/31ce43e5-08b4-4c1d-b31f-77ee4e278927">SetupDiOpenDeviceInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552102">SetupDiRemoveDeviceInterface</a>
+<a href="https://msdn.microsoft.com/5eb92c58-150a-4e52-897f-e2a2da36743d">SetupDiRemoveDeviceInterface</a>
  
 
  

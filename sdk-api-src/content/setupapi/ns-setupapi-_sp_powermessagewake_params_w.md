@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-An SP_POWERMESSAGEWAKE_PARAMS structure corresponds to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543709">DIF_POWERMESSAGEWAKE</a> installation request.
+An SP_POWERMESSAGEWAKE_PARAMS structure corresponds to a <a href="https://msdn.microsoft.com/73f6e763-0900-4297-ac88-20bbb3ac424d">DIF_POWERMESSAGEWAKE</a> installation request.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ An SP_POWERMESSAGEWAKE_PARAMS structure corresponds to a <a href="https://msdn.m
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>.
+An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>.
 
 
 ### -field PowerMessageWake
@@ -83,11 +84,11 @@ Windows only sends the DIF_POWERMESSAGEWAKE request if the drivers for the devic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543709">DIF_POWERMESSAGEWAKE</a>
+<a href="https://msdn.microsoft.com/73f6e763-0900-4297-ac88-20bbb3ac424d">DIF_POWERMESSAGEWAKE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>
+<a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>
  
 
  

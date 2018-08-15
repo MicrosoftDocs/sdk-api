@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ Slice pitch for volume textures.
 
 ### -field lpVidMemHeap
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a> structure from which the heap display memory was allocated. 
+Points to a <a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a> structure from which the heap display memory was allocated. 
 
 
 ### -field dwBlockSizeX
@@ -153,7 +154,7 @@ Reserved for use by the display driver.
 
 ### -field ddpfSurface
 
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure that describes the pixel format of the surface.
+Points to the <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure that describes the pixel format of the surface.
 
 
 ### -field fpHeapOffset
@@ -190,7 +191,7 @@ When a DirectX driver is working with a vertex buffer, it is important for it to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a>
+<a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a>
 
 
 
@@ -198,7 +199,7 @@ When a DirectX driver is working with a vertex buffer, it is important for it to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a>
+<a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a>
  
 
  

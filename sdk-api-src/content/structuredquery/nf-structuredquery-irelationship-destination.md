@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+Retrieves the destination <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
       
 
 
@@ -62,9 +63,9 @@ Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb23
 
 ### -param pDestinationEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-Receives the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb231340(v=VS.85).aspx">IRelationship::IsReal</a>.
+Receives the address of a pointer to an <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://msdn.microsoft.com/4a209437-a382-4a28-9e1c-9eea51669791">IRelationship::IsReal</a>.
         
 
 

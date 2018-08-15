@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ Specifies the size in bytes of the DD_STEREOMODE structure.
 
 ### -field dwHeight
 
-Specifies the height in scan lines of the display mode. Has the value D3DGDI2_MAGIC if this structure is, in fact, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> call.
+Specifies the height in scan lines of the display mode. Has the value D3DGDI2_MAGIC if this structure is, in fact, a <a href="https://msdn.microsoft.com/f1b3e432-6972-49ff-9fce-b642c1be17ea">DD_GETDRIVERINFO2DATA</a> call.
 
 
 ### -field dwWidth
@@ -92,7 +93,7 @@ Driver sets to <b>TRUE</b> if stereo is supported with the specified display mod
 
 
 
-To check each display mode to see if the driver supports stereo with that mode, the runtime calls the driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function. In this call, the runtime specifies GUID_DDStereoMode in the <b>guidInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> structure to which the <i>lpGetDriverInfo</i> parameter points. The runtime also provides a pointer to a DD_STEREOMODE structure in the <b>lpvData</b> member of DD_GETDRIVERINFODATA. The driver returns DD_OK if it supports GUID_DDStereoMode and sets the <b>bSupported</b> member of DD_STEREOMODE to <b>TRUE</b> if it supports stereo with the specified display mode.
+To check each display mode to see if the driver supports stereo with that mode, the runtime calls the driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function. In this call, the runtime specifies GUID_DDStereoMode in the <b>guidInfo</b> member of the <a href="https://msdn.microsoft.com/15a4e80d-2186-4683-a05f-405ca75044e5">DD_GETDRIVERINFODATA</a> structure to which the <i>lpGetDriverInfo</i> parameter points. The runtime also provides a pointer to a DD_STEREOMODE structure in the <b>lpvData</b> member of DD_GETDRIVERINFODATA. The driver returns DD_OK if it supports GUID_DDStereoMode and sets the <b>bSupported</b> member of DD_STEREOMODE to <b>TRUE</b> if it supports stereo with the specified display mode.
 
 GUID_DDStereoMode provides a way to turn OFF stereo per-mode, since it is expected that a driver that can do stereo can do stereo in any mode.
 
@@ -104,11 +105,11 @@ GUID_DDStereoMode provides a way to turn OFF stereo per-mode, since it is expect
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
+<a href="https://msdn.microsoft.com/f1b3e432-6972-49ff-9fce-b642c1be17ea">DD_GETDRIVERINFO2DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+<a href="https://msdn.microsoft.com/15a4e80d-2186-4683-a05f-405ca75044e5">DD_GETDRIVERINFODATA</a>
 
 
 

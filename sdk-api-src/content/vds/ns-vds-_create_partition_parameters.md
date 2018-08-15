@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -348,8 +349,8 @@ The data partition type that is created and recognized by Windows.
 
 Only partitions of this type can be assigned drive letters, 
            receive volume GUID paths,  host mounted folders (also called volume mount points) and be enumerated by calls to 
-           <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-           <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>.
+           <a href="base.findfirstvolume">FindFirstVolume</a> and 
+           <a href="base.findnextvolume">FindNextVolume</a>.
 
 This value can be set only for basic disks, with one exception. If both PARTITION_BASIC_DATA_GUID and GPT_ATTRIBUTE_PLATFORM_REQUIRED are set for a partition on a basic disk that is subsequently converted to a dynamic disk, the partition remains a basic partition, even though the rest of the disk is a dynamic disk. This is because the partition is considered to be an OEM partition on a GPT disk.
 
@@ -458,8 +459,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a 
           result, the partition does not receive a drive letter, does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by 
-          calls to  <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>. This ensures that applications 
+          calls to  <a href="base.findfirstvolume">FindFirstVolume</a> and 
+          <a href="base.findnextvolume">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
          
 
@@ -498,7 +499,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only. 
 
 All requests to write to the partition will fail.  
-          <a href="https://msdn.microsoft.com/library/windows/hardware/ff560384">IOCTL_DISK_IS_WRITABLE</a> will fail with the ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present. 
+          <a href="base.ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present. 
 
 VSS uses this attribute.
 

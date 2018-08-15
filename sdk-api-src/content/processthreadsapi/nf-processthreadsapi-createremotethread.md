@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -167,7 +168,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 Note that 
 <b>CreateRemoteThread</b> may succeed even if <i>lpStartAddress</i> points to data, code, or is not accessible. If the start address is invalid when the thread runs, an exception occurs, and the thread terminates. Thread termination due to a invalid start address is handled as an error exit for the thread's process. This behavior is similar to the asynchronous nature of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>, where the process is created even if it refers to invalid or missing dynamic-link libraries (DLL).
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, where the process is created even if it refers to invalid or missing dynamic-link libraries (DLL).
 
 
 
@@ -200,7 +201,7 @@ The
 <a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a>, 
 <a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>, 
 <b>CreateRemoteThread</b> functions, and a process that is starting (as the result of a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> call) are serialized between each other within a process. Only one of these events occurs in an address space at a time. This means the following restrictions hold:
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> call) are serialized between each other within a process. Only one of these events occurs in an address space at a time. This means the following restrictions hold:
 
 <ul>
 <li>During process startup and DLL initialization routines, new threads can be created, but they do not begin execution until DLL initialization is done for the process.</li>
@@ -229,7 +230,7 @@ Another common use of this function is to inject a thread into a process to quer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

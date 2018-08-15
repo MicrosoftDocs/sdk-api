@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngWaitForSingleObject</b> function puts the current thread of the displa
 
 ### -param pEvent [in]
 
-Pointer to an initialized event object. This event object handle was obtained in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564211">EngCreateEvent</a>.
+Pointer to an initialized event object. This event object handle was obtained in a previous call to <a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a>.
 
 
 ### -param pTimeOut [in]
@@ -84,13 +85,13 @@ Pointer to an initialized event object. This event object handle was obtained in
 
 <b>EngWaitForSingleObject</b> causes a display driver thread to be put into a wait state. The display driver thread stays in the wait state until either the event object is set to the signaled state or until the wait times out. If no time-out value is supplied, the display driver thread remains in the wait state until the event object is set to the signaled state.
 
-A synchronization event is automatically reset to the nonsignaled state when the wait is satisfied. Thus, only one wait will be satisfied per call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565013">EngSetEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff570364">VideoPortSetEvent</a>. In contrast, a notification event will not be automatically reset.
+A synchronization event is automatically reset to the nonsignaled state when the wait is satisfied. Thus, only one wait will be satisfied per call to <a href="https://msdn.microsoft.com/04e5d5e0-02b1-4335-9830-ecf04fdc0db1">EngSetEvent</a> or <a href="https://msdn.microsoft.com/93db9d51-3f80-47ff-a2c2-3c937b5dcf7b">VideoPortSetEvent</a>. In contrast, a notification event will not be automatically reset.
 
 A time-out value of zero allows the driver to test the wait condition and to conditionally perform any side effects provided that the wait can be immediately satisfied.
 
 The display driver can synchronize drawing operations between itself and the video miniport driver by calling <b>EngWaitForSingleObject</b> with an event object, and waiting until the miniport driver sets the event object to the signaled state.
 
-The driver cannot call <b>EngWaitForSingleObject</b> on events returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff564970">EngMapEvent</a>.
+The driver cannot call <b>EngWaitForSingleObject</b> on events returned from <a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>.
 
 
 
@@ -100,15 +101,15 @@ The driver cannot call <b>EngWaitForSingleObject</b> on events returned from <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564211">EngCreateEvent</a>
+<a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565013">EngSetEvent</a>
+<a href="https://msdn.microsoft.com/04e5d5e0-02b1-4335-9830-ecf04fdc0db1">EngSetEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570364">VideoPortSetEvent</a>
+<a href="https://msdn.microsoft.com/93db9d51-3f80-47ff-a2c2-3c937b5dcf7b">VideoPortSetEvent</a>
  
 
  

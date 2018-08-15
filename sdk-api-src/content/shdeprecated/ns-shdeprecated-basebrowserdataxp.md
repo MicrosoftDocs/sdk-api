@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -86,9 +87,9 @@ A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame
 
 ### -field _pautoWB2
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> object.
+A pointer to the browser's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> object.
 
 
 ### -field _pautoEDS
@@ -357,14 +358,19 @@ Type: <b>CLSID</b>
 Type: <b>HWND</b>
 
 
+##### - _eSecureLockIcon.SECURELOCK_FIRSTSUGGEST
+
+A security encryption setting should be suggested.
+
+
 ##### - _eSecureLockIcon.SECURELOCK_NOCHANGE (-1)
 
 No change in security encryption status.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_UNSECURE (0)
+##### - _eSecureLockIcon.SECURELOCK_SET_FORTEZZA
 
-Default. 0x0000. No security encryption present.
+There is Fortezza security encryption present.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SET_MIXED
@@ -372,9 +378,9 @@ Default. 0x0000. No security encryption present.
 There are multiple security encryption methods present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_SECUREUNKNOWNBIT
+##### - _eSecureLockIcon.SECURELOCK_SET_SECURE128BIT
 
-The security encryption level is not known.
+There is 128-bit security encryption present.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SET_SECURE40BIT
@@ -387,24 +393,19 @@ There is 40-bit security encryption present.
 There is 56-bit security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SET_FORTEZZA
+##### - _eSecureLockIcon.SECURELOCK_SET_SECUREUNKNOWNBIT
 
-There is Fortezza security encryption present.
-
-
-##### - _eSecureLockIcon.SECURELOCK_SET_SECURE128BIT
-
-There is 128-bit security encryption present.
+The security encryption level is not known.
 
 
-##### - _eSecureLockIcon.SECURELOCK_FIRSTSUGGEST
+##### - _eSecureLockIcon.SECURELOCK_SET_UNSECURE (0)
 
-A security encryption setting should be suggested.
+Default. 0x0000. No security encryption present.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_UNSECURE (SECURELOCK_FIRSTSUGGEST)
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_FORTEZZA
 
-No security encryption has been suggested.
+Fortezza security encryption has been suggested.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SUGGEST_MIXED
@@ -412,9 +413,9 @@ No security encryption has been suggested.
 Mixed security encryption methods have been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECUREUNKNOWNBIT
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE128BIT
 
-Unknown security encryption method has been suggested.
+128-bit security encryption has been suggested.
 
 
 ##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE40BIT
@@ -427,26 +428,14 @@ Unknown security encryption method has been suggested.
 56-bit security encryption has been suggested.
 
 
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_FORTEZZA
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECUREUNKNOWNBIT
 
-Fortezza security encryption has been suggested.
-
-
-##### - _eSecureLockIcon.SECURELOCK_SUGGEST_SECURE128BIT
-
-128-bit security encryption has been suggested.
+Unknown security encryption method has been suggested.
 
 
-#### - _pidlNewShellView
+##### - _eSecureLockIcon.SECURELOCK_SUGGEST_UNSECURE (SECURELOCK_FIRSTSUGGEST)
 
-Type: <b>PCIDLIST_ABSOLUTE</b>
-
-A temporary placeholder for <b>_pidlPending</b> on first navigation to the pending location.
-
-
-##### - _fIsViewMSHTML.TRUE
-
-The browser is hosting web content.
+No security encryption has been suggested.
 
 
 ##### - _fIsViewMSHTML.FALSE
@@ -454,9 +443,9 @@ The browser is hosting web content.
 The browser is hosting folder content.
 
 
-##### - _fPrivacyImpacted.TRUE
+##### - _fIsViewMSHTML.TRUE
 
-There is a privacy concern with the browser's content.
+The browser is hosting web content.
 
 
 ##### - _fPrivacyImpacted.FALSE
@@ -464,9 +453,21 @@ There is a privacy concern with the browser's content.
 There is not a privacy concern with the browser's content.
 
 
+##### - _fPrivacyImpacted.TRUE
+
+There is a privacy concern with the browser's content.
+
+
 #### - _lPhishingFilterStatus
 
 Type: <b>LONG</b>
 
 <b>Windows Vista with Service Pack 1 (SP1) and later or Windows Internet Explorer 7 and later only</b>. 0 if the phishing filter is off; 1 if it is on.
+
+
+#### - _pidlNewShellView
+
+Type: <b>PCIDLIST_ABSOLUTE</b>
+
+A temporary placeholder for <b>_pidlPending</b> on first navigation to the pending location.
 

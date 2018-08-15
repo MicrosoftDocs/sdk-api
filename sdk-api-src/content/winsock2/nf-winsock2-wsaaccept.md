@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -68,12 +69,12 @@ A descriptor that identifies a socket that is listening for connections after a 
 
 ### -param addr [out]
 
-An optional pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure that receives the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family established when the socket was created.
+An optional pointer to an <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure that receives the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family established when the socket was created.
 
 
 ### -param addrlen [in, out]
 
-An optional pointer to an integer that contains the length of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure pointed to by the <i>addr</i> parameter, in bytes.
+An optional pointer to an integer that contains the length of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure pointed to by the <i>addr</i> parameter, in bytes.
 
 
 ### -param lpfnCondition [in]
@@ -104,7 +105,7 @@ The integer referred to by <i>addrlen</i> initially contains the amount of space
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +116,7 @@ An attempt was made to access a socket in a way forbidden by its access permissi
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +127,7 @@ No connection could be made because the target machine actively refused it. This
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -137,7 +138,7 @@ An existing connection was forcibly closed by the remote host. This error is ret
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -148,7 +149,7 @@ The system detected an invalid pointer address in attempting to use a pointer ar
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +161,7 @@ A blocking operation was interrupted by a call to <a href="https://msdn.microsof
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -171,7 +172,7 @@ A blocking operation is currently executing. This error is returned if a blockin
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -184,7 +185,7 @@ An invalid argument was supplied.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMFILE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,7 +197,7 @@ Too many open sockets. This error is returned if the queue is nonempty upon entr
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -207,7 +208,7 @@ A socket operation encountered a dead network. This error is returned if the net
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -218,7 +219,7 @@ An operation on a socket could not be performed because the system lacked suffic
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -229,7 +230,7 @@ An operation was attempted on something that is not a socket. This error is retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -240,7 +241,7 @@ The protocol family has not been configured into the system or no implementation
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -251,7 +252,7 @@ A non-blocking socket operation could not be completed immediately. This error i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -263,7 +264,7 @@ call to the <b>WSAStartup</b> function dit not occur before using this function.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -293,7 +294,7 @@ A socket in default mode (blocking) will block until a connection is present whe
 <b>WSAAccept</b> and no connections are pending on the queue.
 
 A socket in nonblocking mode (blocking) fails with the error 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> when an application calls 
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> when an application calls 
 <b>WSAAccept</b> and no connections are pending on the queue. After 
 <b>WSAAccept</b> succeeds and returns a new socket handle, the accepted socket cannot be used to accept any more connections. The original socket remains open and listens for new connection requests.
 
@@ -325,8 +326,8 @@ int CALLBACK ConditionFunc(
 The <b>ConditionFunc</b> is a placeholder for the application-specified callback function. The actual condition function must reside in a DLL or application module. It is exported in the module definition file.
 
 The <i>lpCallerId</i> parameter points to a WSABUF structure that contains the address of the connecting entity, where its <i>len</i> parameter is the length of the buffer in bytes, and its <i>buf</i> parameter is a pointer to the buffer. The <i>lpCallerData</i> is a value parameter that contains any user data. The information in these parameters is sent along with the connection request. If no caller identification or caller data is available, the corresponding parameters will be <b>NULL</b>. Many network protocols do not support connect-time caller data. Most conventional network protocols can be expected to support caller identifier information at connection-request time. The buf portion of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565943">WSABUF</a> pointed to by <i>lpCallerId</i> points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).
+<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> pointed to by <i>lpCallerId</i> points to a 
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).
 
 The <i>lpSQOS</i> parameter references the 
 <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structures for socket <i>s</i> specified by the caller, one for each direction, followed by any additional provider-specific parameters. The sending or receiving flow specification values will be ignored as appropriate for any unidirectional sockets. A <b>NULL</b> value indicates that there is no caller-supplied quality of service and that no negotiation is possible. A non-<b>NULL</b> <i>lpSQOS</i> pointer indicates that a quality of service negotiation is to occur or that the provider is prepared to accept the quality of service request without negotiation.
@@ -335,7 +336,7 @@ The <i>lpGQOS</i> parameter is reserved, and should be <b>NULL</b>. (reserved fo
 <a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure for the socket group the caller is to create, one for each direction, followed by any additional provider-specific parameters. A <b>NULL</b> value for <i>lpGQOS</i> indicates no caller-specified group quality of service. Quality of service information can be returned if negotiation is to occur.
 
 The <i>lpCalleeId</i> is a parameter that contains the local address of the connected entity. The <i>buf</i> portion of the WSABUF pointed to by <i>lpCalleeId</i> points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family such as struct <b>sockaddr_in</b>).
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family such as struct <b>sockaddr_in</b>).
 
 The <i>lpCalleeData</i> is a result parameter used by the condition function to supply user data back to the connecting entity. The <i>lpCalleeData-&gt;len</i> initially contains the length of the buffer allocated by the service provider and pointed to by <i>lpCalleeData-&gt;buf</i>. A value of zero means passing user data back to the caller is not supported. The condition function should copy up to <i>lpCalleeData-&gt;len</i> bytes of data into <i>lpCalleeData-&gt;buf</i>, and then update <i>lpCalleeData-&gt;len</i> to indicate the actual number of bytes transferred. If no user data is to be passed back to the caller, the condition function should set <i>lpCalleeData-&gt;len</i> to zero. The format of all address and user data is specific to the address family to which the socket belongs.
 
@@ -536,7 +537,7 @@ int main() {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -134,7 +135,7 @@ Allocate the <i>lpCompiledHelpFile</i> string with the COM API function <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300864(v=VS.85).aspx">ISnapinHelp</a>
+<a href="https://msdn.microsoft.com/baf2dc0e-c53e-44d5-b79a-f77118e2f798">ISnapinHelp</a>
 
 
 

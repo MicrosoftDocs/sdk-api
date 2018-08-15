@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -53,7 +54,7 @@ req.irql:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns a handle to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>.
+Returns a handle to a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 
 ## -parameters

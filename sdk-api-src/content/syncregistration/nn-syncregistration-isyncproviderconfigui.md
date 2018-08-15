@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -89,7 +90,7 @@ Obtains configuration UI properties for reading and writing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/c4705bc9-c5ab-46f9-ace8-7e96c16dfb75">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the configuration UI for a synchronization provider.

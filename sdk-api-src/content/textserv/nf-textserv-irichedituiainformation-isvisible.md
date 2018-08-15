@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -77,7 +78,7 @@ Returns S_OK if the windowless rich edit control is visible, or S_FALSE otherwis
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://msdn.microsoft.com/89C4DF55-F889-4ED6-8812-E2244A9F7BB8">IRichEditUiaInformation</a>
  
 
  

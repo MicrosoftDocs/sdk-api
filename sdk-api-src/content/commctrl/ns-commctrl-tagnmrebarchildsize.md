@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/en-us/library/Bb774411(v=VS.85).aspx">RBN_CHILDSIZE</a> notification code. 
+Contains information used in handling the <a href="https://msdn.microsoft.com/ba64d21a-e568-4894-8007-be644ae4f54a">RBN_CHILDSIZE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +61,10 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/en
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field uBand
@@ -82,16 +83,16 @@ Application-defined identifier of the band.
 
 ### -field rcChild
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the new size of the child window. This member can be changed during the notification to modify the child window's position and size. 
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the new size of the child window. This member can be changed during the notification to modify the child window's position and size. 
 
 
 ### -field rcBand
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the new size of the band. 
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the new size of the band. 
 

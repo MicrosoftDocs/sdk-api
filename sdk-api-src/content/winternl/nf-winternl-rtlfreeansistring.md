@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Frees the string buffer allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>.
+Frees the string buffer allocated by <a href="https://msdn.microsoft.com/4899c8b9-1572-4045-9298-eb2f6a3ff48d">RtlUnicodeStringToAnsiString</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Frees the string buffer allocated by <a href="https://msdn.microsoft.com/library
 
 ### -param AnsiString [in]
 
-A pointer to an ANSI string whose buffer was previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>.
+A pointer to an ANSI string whose buffer was previously allocated by <a href="https://msdn.microsoft.com/4899c8b9-1572-4045-9298-eb2f6a3ff48d">RtlUnicodeStringToAnsiString</a>.
 
 
 ## -returns
@@ -77,7 +78,7 @@ This function does not return a value.
 
 
 
-This routine does not release the Unicode string buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>.
+This routine does not release the Unicode string buffer passed to <a href="https://msdn.microsoft.com/4899c8b9-1572-4045-9298-eb2f6a3ff48d">RtlUnicodeStringToAnsiString</a>.
 
 
 

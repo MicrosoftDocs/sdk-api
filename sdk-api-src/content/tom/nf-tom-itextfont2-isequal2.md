@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -90,7 +91,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
  For two text font objects to be equal, both must belong to the same Text Object Model (TOM) object. 
 
-The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUndefined</a> value.
+The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="tomconstants.htm">tomUndefined</a> value.
 
 
 
@@ -104,7 +105,7 @@ The <b>ITextFont::IsEqual2</b> method ignores entries for which either font obje
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787863(v=VS.85).aspx">ITextFont::IsEqual</a>
+<a href="https://msdn.microsoft.com/9c567d78-a915-4b44-bf52-61e72101c08b">ITextFont::IsEqual</a>
  
 
  

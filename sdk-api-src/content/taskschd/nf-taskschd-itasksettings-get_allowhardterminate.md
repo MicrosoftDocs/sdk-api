@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://msdn.microsoft.com/0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a">TerminateProcess</a>. The service will try to close the running task by sending the <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
+Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://msdn.microsoft.com/0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a">TerminateProcess</a>. The service will try to close the running task by sending the <a href="_win32_WM_CLOSE_cpp">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
 
 This property is read/write.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -69,9 +70,9 @@ The ID for the Command, which is specified in the Markup resource file.
 
 ### -param verb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371563(v=VS.85).aspx">UI_EXECUTIONVERB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/cce26367-9915-4e95-9362-1e32eb9ff034">UI_EXECUTIONVERB</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371563(v=VS.85).aspx">UI_EXECUTIONVERB</a> or action that is initiated by the user.
+The <a href="https://msdn.microsoft.com/cce26367-9915-4e95-9362-1e32eb9ff034">UI_EXECUTIONVERB</a> or action that is initiated by the user.
 				
 
 
@@ -79,7 +80,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd371563(v=VS.85).aspx">UI
 
 Type: <b>const PROPERTYKEY*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Key</a> that has changed value. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Key</a> that has changed value. This parameter can be <b>NULL</b>.
 				
 
 
@@ -93,9 +94,9 @@ A pointer to the current value for <i>key</i>. This parameter can be <b>NULL</b>
 
 ### -param commandExecutionProperties [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> object that contains 
+A pointer to an <a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a> object that contains 
 					Command state properties and property values, such as screen coordinates and list item indices. This parameter can be <b>NULL</b>.
 				
 
@@ -125,11 +126,11 @@ Each Command in a View must be bound to a new or existing Command handler in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>
+<a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

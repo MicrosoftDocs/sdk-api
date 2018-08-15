@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761192(v=VS.85).aspx">LVM_SETITEMPOSITION</a> message explicitly. 
+Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the <a href="https://msdn.microsoft.com/dfb35af4-e6c3-40fc-9d7c-cf0d68a3ea01">LVM_SETITEMPOSITION</a> message explicitly. 
 
 
 ## -parameters

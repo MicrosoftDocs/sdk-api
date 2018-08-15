@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ The <b>CreateBitmapIndirect</b> function creates a bitmap with the specified wid
 
 ### -param pbm [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a> structure that contains information about the bitmap. If an application sets the <b>bmWidth</b> or <b>bmHeight</b> members to zero, <b>CreateBitmapIndirect</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
+A pointer to a <a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a> structure that contains information about the bitmap. If an application sets the <b>bmWidth</b> or <b>bmHeight</b> members to zero, <b>CreateBitmapIndirect</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
 
 
 ## -returns
@@ -133,7 +134,7 @@ When you no longer need the bitmap, call the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a>
+<a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>
 
 
 

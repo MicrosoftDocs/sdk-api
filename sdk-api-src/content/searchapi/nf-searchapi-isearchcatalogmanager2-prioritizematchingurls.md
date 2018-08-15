@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Search (WS) 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -68,9 +69,9 @@ A string specifying the URL pattern that defines items that failed indexing and 
 
 ### -param dwPrioritizeFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/554d405e-c117-4597-9612-20cd6088ebef">PRIORITIZE_FLAGS</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a> enumeration that specifies how to process items that the indexer has failed to index.
+A value from the <a href="https://msdn.microsoft.com/554d405e-c117-4597-9612-20cd6088ebef">PRIORITIZE_FLAGS</a> enumeration that specifies how to process items that the indexer has failed to index.
 
 
 ## -returns

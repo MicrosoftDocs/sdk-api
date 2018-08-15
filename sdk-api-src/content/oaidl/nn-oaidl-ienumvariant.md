@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IEnumVARIANT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/44beac4a-784d-461e-8a4b-71bdcf512fbc">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the current state of enumeration.
@@ -82,7 +83,7 @@ Creates a copy of the current state of enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/691c1624-8d01-41e0-890e-a4782eba1f59">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified items in the enumeration sequence.
@@ -91,7 +92,7 @@ Retrieves the specified items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -102,7 +103,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/5fe6951f-1e21-4a3d-8694-96efb15e6d11">Skip</a>
 </td>
 <td align="left" width="63%">
 Attempts to skip over the next celt elements in the enumeration sequence.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -234,7 +235,7 @@ Pointer to a byte array that contains an initialization vector (IV) for encrypte
 
 
 
-This structure corresponds closely to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563122">DXVA_BufferDescription</a> structure in DXVA 1, but some of the fields are no longer used in DXVA 2.
+This structure corresponds closely to the <a href="https://msdn.microsoft.com/34b1585d-ceba-4e13-b5c1-70ce29a940c5">DXVA_BufferDescription</a> structure in DXVA 1, but some of the fields are no longer used in DXVA 2.
 
 
 

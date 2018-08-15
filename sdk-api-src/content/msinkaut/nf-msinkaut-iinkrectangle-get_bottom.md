@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -81,7 +82,7 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="tablet.iinkrectangle">IInkRectangle</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: inaddr.h
 req.include-header: Ipexport.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -53,7 +54,7 @@ req.product: GDI+ 1.1
 
 
 The <b>in_addr</b> structure represents an IPv4 address.
-<div class="alert"><b>Note</b>  The <b>IPaddr</b> type definition in IP Helper also represents an IPv4 address and can be cast to an interchangeable <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a> structure when needed. The <b>in_addr</b> structure in IP Helper has the same syntax and usage as the Windows Sockets <b>in_addr</b> structure, and is interchangeable with <b>in_addr</b> structure used in Windows sockets. Windows sockets also defines an <b>IN_ADDR</b> typedef for the <b>in_addr</b> structure.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>IPaddr</b> type definition in IP Helper also represents an IPv4 address and can be cast to an interchangeable <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a> structure when needed. The <b>in_addr</b> structure in IP Helper has the same syntax and usage as the Windows Sockets <b>in_addr</b> structure, and is interchangeable with <b>in_addr</b> structure used in Windows sockets. Windows sockets also defines an <b>IN_ADDR</b> typedef for the <b>in_addr</b> structure.</div><div> </div>
 
 ## -struct-fields
 

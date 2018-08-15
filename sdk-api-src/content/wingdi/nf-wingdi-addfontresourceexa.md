@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -250,7 +251,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
  
 
  

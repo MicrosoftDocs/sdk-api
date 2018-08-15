@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
+req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -85,17 +86,17 @@ TBD
 
 
 
+#### - Line64 [out]
+
+A pointer to an <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> 
+      structure.
+
+
 #### - qwAddr [in]
 
 The address for which a line should be located. It is not necessary for the address to be on a line 
       boundary. If the address appears after the beginning of a line and before the end of the line, the line is 
       found.
-
-
-#### - Line64 [out]
-
-A pointer to an <a href="https://msdn.microsoft.com/62124983-8381-4eb4-94f6-220b844aca45">IMAGEHLP_LINE64</a> 
-      structure.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,11 +81,11 @@ The index of the interface on which to act as a proxy for the address specified 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365868(v=VS.85).aspx">CreateProxyArpEntry</a>
+<a href="_iphlp_createproxyarpentry">CreateProxyArpEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365889(v=VS.85).aspx">DeleteProxyArpEntry</a>
+<a href="_iphlp_deleteproxyarpentry">DeleteProxyArpEntry</a>
  
 
  

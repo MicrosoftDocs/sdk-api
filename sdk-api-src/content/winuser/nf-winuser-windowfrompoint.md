@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -70,7 +71,7 @@ Retrieves a handle to the window that contains the specified point.
 
 ### -param Point [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 The point to be checked. 
 
@@ -91,7 +92,7 @@ The return value is a handle to the window that contains the point. If no window
 
 
 
-The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a> function for a nonrestrictive search. 
+The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a> function for a nonrestrictive search. 
 
 
 #### Examples
@@ -107,7 +108,7 @@ For an example, see "Interface from Running Object Table" in <a href="_win32_Abo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a>
 
 
 
@@ -119,7 +120,7 @@ For an example, see "Interface from Running Object Table" in <a href="_win32_Abo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 
@@ -131,7 +132,7 @@ For an example, see "Interface from Running Object Table" in <a href="_win32_Abo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

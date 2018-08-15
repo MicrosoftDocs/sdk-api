@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IXAPOParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="https://msdn.microsoft.com/FBF27BCD-6B20-4D8A-BD9D-8E0889889F8B">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the current values for any effect-specific parameters.
@@ -80,7 +81,7 @@ Gets the current values for any effect-specific parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">SetParameters</a>
+<a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3EEF32">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Sets effect-specific parameters.
@@ -105,7 +106,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">Interfaces</a>
  
 
  

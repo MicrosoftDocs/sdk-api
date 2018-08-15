@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -90,9 +91,9 @@ Resource priorities determine which resource to evict from video memory when the
 
 A resource that is set to the maximum priority, DXGI_RESOURCE_PRIORITY_MAXIMUM, is only evicted if there is no other way of resolving the incoming memory request. The Windows Display Driver Model (WDDM) tries to split an incoming memory request to its minimum size and evict lower-priority resources before evicting a resource with maximum priority.
 
-Changing the priorities of resources should be done carefully. The wrong eviction priorities could be a detriment to performance rather than an improvement. See <a href="https://msdn.microsoft.com/en-us/library/Bb174533(v=VS.85).aspx">QueryResourceResidency</a> for additional information.
+Changing the priorities of resources should be done carefully. The wrong eviction priorities could be a detriment to performance rather than an improvement. See <a href="https://msdn.microsoft.com/a03af142-657b-459d-abba-fdee72e77db9">QueryResourceResidency</a> for additional information.
 
-This method is a wrapper for <a href="https://msdn.microsoft.com/en-us/library/Bb174564(v=VS.85).aspx">SetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a> interface for convenience.
+This method is a wrapper for <a href="https://msdn.microsoft.com/ed9417ee-8074-4022-bce9-230fec1c7093">SetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a> interface for convenience.
 
 
 
@@ -102,7 +103,7 @@ This method is a wrapper for <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>
  
 
  

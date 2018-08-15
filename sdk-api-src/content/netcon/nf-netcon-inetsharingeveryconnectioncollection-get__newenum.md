@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
+Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="_com_iunknown">IUnknown</a> interface for the collection.
 
 
 ## -returns

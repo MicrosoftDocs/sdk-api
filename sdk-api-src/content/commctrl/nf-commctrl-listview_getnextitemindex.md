@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a> message explicitly.
+Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://msdn.microsoft.com/84cfeb24-83b5-4028-a4ca-97c39ae3c817">LVM_GETNEXTITEMINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -67,9 +68,9 @@ A handle to the list-view control.
 
 ### -param plvii [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/62d28e14-fa0d-42c8-9f8e-afc0cfdff3e3">LVITEMINDEX</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
+A pointer to the <a href="https://msdn.microsoft.com/62d28e14-fa0d-42c8-9f8e-afc0cfdff3e3">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
 
 
 ### -param flags
@@ -317,7 +318,7 @@ Note that the following flags, for use only with Windows Vista, are mutually ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761057(v=VS.85).aspx">LVM_GETNEXTITEM</a>
+<a href="https://msdn.microsoft.com/2d458f12-b9d3-4b9e-bcb4-927c14c16537">LVM_GETNEXTITEM</a>
  
 
  

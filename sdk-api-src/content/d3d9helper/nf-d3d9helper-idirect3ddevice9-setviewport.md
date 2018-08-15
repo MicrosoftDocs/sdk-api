@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,16 +62,16 @@ Sets the viewport parameters for the device.
 
 ### -param pViewport [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a> structure, specifying the viewport parameters to set. 
+Pointer to a <a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a> structure, specifying the viewport parameters to set. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, it will return D3DERR_INVALIDCALL. This will happen if pViewport is invalid, or if pViewport describes a region that cannot exist within the render target surface.
 
@@ -115,11 +116,11 @@ To draw multiple views within a scene, repeat the <b>IDirect3DDevice9::SetViewpo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174420(v=VS.85).aspx">IDirect3DDevice9::GetViewport</a>
+<a href="https://msdn.microsoft.com/026da206-b2e7-421c-92f8-344fef7ad245">IDirect3DDevice9::GetViewport</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -79,7 +80,7 @@ The <b>ISpatialAudioMetadataWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/2417E624-6535-49E2-9CF4-F927F731BE41">Close</a>
 </td>
 <td align="left" width="63%">
 Completes any needed operations on the metadata buffer and releases the specified <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a> object.
@@ -88,7 +89,7 @@ Completes any needed operations on the metadata buffer and releases the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/49B3401D-7B26-4057-81C0-6C5683B83665">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a> object for writing.

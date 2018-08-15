@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Checks if a <a href="https://msdn.microsoft.com/library/windows/hardware/mt269769">service</a> identified by a handle is starting or currently running. The <b>PRESUTIL_VERIFY_SERVICE</b> type defines a pointer to this function.
+Checks if a <a href="s_gly.htm">service</a> identified by a handle is starting or currently running. The <b>PRESUTIL_VERIFY_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

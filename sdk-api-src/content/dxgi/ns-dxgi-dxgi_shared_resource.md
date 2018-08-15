@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ Represents a handle to a shared resource.
 
 ### -field Handle
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
 
 A handle to a shared resource.
 
@@ -70,7 +71,7 @@ A handle to a shared resource.
 
 
 
-To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/en-us/library/Bb174530(v=VS.85).aspx">IDXGIDevice::CreateSurface</a> method.
+To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/d0effc0a-0ec9-4350-ac44-c64c29984a02">IDXGIDevice::CreateSurface</a> method.
 
 
 

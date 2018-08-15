@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the view for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760955(v=VS.85).aspx">MCM_GETCURRENTVIEW</a> message explicitly.
+Gets the view for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/9c42ebf6-611e-4e50-9dcc-cf7fd63b32eb">MCM_GETCURRENTVIEW</a> message explicitly.
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -140,7 +141,7 @@ Specifies a mask for all valid data or restart records.
 
 ### -param plsnStart [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>  that specifies the starting log sequence number (LSN) for the log dump sequence.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>  that specifies the starting log sequence number (LSN) for the log dump sequence.
 
 If this parameter is specified, the LSN must be the address of a valid log record in the active part of the log; otherwise, the call fails with status <b>ERROR_INVALID_PARAMETER</b>.
 
@@ -149,7 +150,7 @@ If this parameter is not specified, the start of the dump sequence is the beginn
 
 ### -param plsnEnd [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>  that specifies the LSN  where the dump sequence should end.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>  that specifies the LSN  where the dump sequence should end.
 
 If this LSN is past the end of the LSN range, the function returns <b>ERROR_HANDLE_EOF</b>.  
 
@@ -237,7 +238,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 

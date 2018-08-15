@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -142,7 +143,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
 
 The screen coordinates of the file object.
 
@@ -196,14 +197,9 @@ Type: <b>TCHAR[MAX_PATH]</b>
 The null-terminated string that contains the name of the file.
 
 
-##### - dwFlags.FD_CLSID (0x00000001)
+##### - dwFlags.FD_ACCESSTIME (0x00000010)
 
-0x00000001. The <b>clsid</b> member is valid.
-
-
-##### - dwFlags.FD_SIZEPOINT (0x00000002)
-
-0x00000002. The <b>sizel</b> and <b>pointl</b> members are valid.
+0x00000010. The <b>ftLastAccessTime</b> member is valid.
 
 
 ##### - dwFlags.FD_ATTRIBUTES (0x00000004)
@@ -211,19 +207,14 @@ The null-terminated string that contains the name of the file.
 0x00000004. The <b>dwFileAttributes</b> member is valid.
 
 
+##### - dwFlags.FD_CLSID (0x00000001)
+
+0x00000001. The <b>clsid</b> member is valid.
+
+
 ##### - dwFlags.FD_CREATETIME (0x00000008)
 
 0x00000008. The <b>ftCreationTime</b> member is valid.
-
-
-##### - dwFlags.FD_ACCESSTIME (0x00000010)
-
-0x00000010. The <b>ftLastAccessTime</b> member is valid.
-
-
-##### - dwFlags.FD_WRITESTIME (0x00000020)
-
-0x00000020. The <b>ftLastWriteTime</b> member is valid.
 
 
 ##### - dwFlags.FD_FILESIZE (0x00000040)
@@ -231,19 +222,29 @@ The null-terminated string that contains the name of the file.
 0x00000040. The <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> members are valid.
 
 
-##### - dwFlags.FD_PROGRESSUI (0x00004000)
-
-0x00004000. A progress indicator is shown with drag-and-drop operations.
-
-
 ##### - dwFlags.FD_LINKUI (0x00008000)
 
 0x00008000. Treat the operation as a shortcut.
 
 
+##### - dwFlags.FD_PROGRESSUI (0x00004000)
+
+0x00004000. A progress indicator is shown with drag-and-drop operations.
+
+
+##### - dwFlags.FD_SIZEPOINT (0x00000002)
+
+0x00000002. The <b>sizel</b> and <b>pointl</b> members are valid.
+
+
 ##### - dwFlags.FD_UNICODE ((int)0x80000000)
 
 (int)0x80000000. <b>Windows Vista and later</b>. The descriptor is Unicode.
+
+
+##### - dwFlags.FD_WRITESTIME (0x00000020)
+
+0x00000020. The <b>ftLastWriteTime</b> member is valid.
 
 
 ## -remarks

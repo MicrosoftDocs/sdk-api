@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -75,5 +76,5 @@ A pointer to an array of <a href="https://msdn.microsoft.com/c729ff1a-65f3-4f6f-
 
 ### -field pGrantedAccessList
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> values that specifies the access rights granted for each corresponding object type.
+A pointer to an array of <a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a> values that specifies the access rights granted for each corresponding object type.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -152,7 +153,7 @@ It might seem that the context data structure could then be freed immediately ra
 
 </li>
 </ul>
-An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://msdn.microsoft.com/en-us/library/Aa383880(v=VS.85).aspx">HINTERNET Handles in WinHTTP</a> for more information.
+An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="hinternet_handles_in_winhttp.htm">HINTERNET Handles in WinHTTP</a> for more information.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>

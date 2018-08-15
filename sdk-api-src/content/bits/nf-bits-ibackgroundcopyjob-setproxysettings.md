@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -76,16 +77,6 @@ Specifies whether to use the user's proxy settings, not to use a proxy, or to us
 
 
 
-#### - pProxyList [in]
-
-Null-terminated string that contains the proxies to use to transfer files. The list is space-delimited. For details on specifying a proxy, see Remarks.
-
- This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
-
-The length of the proxy list is limited to 4,000 characters, not including the null terminator.
-					
-
-
 #### - pProxyBypassList [in]
 
 Null-terminated string that contains an optional list of host names, IP addresses, or both, that can bypass the proxy. The list is space-delimited. For details on specifying a bypass proxy, see Remarks.
@@ -94,6 +85,16 @@ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JO
 						
 
 The length of the proxy bypass list is limited to 4,000 characters, not including the null terminator.
+					
+
+
+#### - pProxyList [in]
+
+Null-terminated string that contains the proxies to use to transfer files. The list is space-delimited. For details on specifying a proxy, see Remarks.
+
+ This parameter must be <b>NULL</b> if the value of <i>ProxyUsage</i> is <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>, <b>BG_JOB_PROXY_USAGE_NO_PROXY</b>, or <b>BG_JOB_PROXY_USAGE_AUTODETECT</b>.
+
+The length of the proxy list is limited to 4,000 characters, not including the null terminator.
 					
 
 

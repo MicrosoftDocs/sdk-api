@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ The property store object is read-only.
 
 #### FPSPS_TREAT_NEW_VALUES_AS_DIRTY (0x00000002)
 
-<b>Introduced in Windows 8</b>. New property values that are added to the property store through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a> method will cause the <a href="https://msdn.microsoft.com/fabafc37-18f2-4def-b6bf-f7daa2bb8f37">IPersistStream::IsDirty</a> method to return S_OK. If this flag is not set, the addition of new property values to the property store does not affect the value returned by <b>IPersistStream::IsDirty</b>.
+<b>Introduced in Windows 8</b>. New property values that are added to the property store through the <a href="https://msdn.microsoft.com/f5ede696-0cd4-41e2-9576-822e3f9909e7">IPropertyStore::SetValue</a> method will cause the <a href="https://msdn.microsoft.com/fabafc37-18f2-4def-b6bf-f7daa2bb8f37">IPersistStream::IsDirty</a> method to return S_OK. If this flag is not set, the addition of new property values to the property store does not affect the value returned by <b>IPersistStream::IsDirty</b>.
 
 
 ## -returns

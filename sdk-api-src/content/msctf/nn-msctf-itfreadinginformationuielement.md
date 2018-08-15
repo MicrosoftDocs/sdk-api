@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>ITfReadingInformationUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/018c10ca-698e-42e6-9439-09f183870f91">GetContext</a>
 </td>
 <td align="left" width="63%">
 Returns the target ITfContext of this reading information UI.
@@ -98,7 +99,7 @@ Returns the max string count of the reading information UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/d8e7dae5-ea73-4fad-a731-3ca1eaa60b03">GetString</a>
 </td>
 <td align="left" width="63%">
 Returns the string on the reading information UI.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -79,7 +80,7 @@ Adds a new app package to the bundle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/9826873D-87AF-4D6B-977B-1C24197C47F8">Close</a>
 </td>
 <td align="left" width="63%">
 Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.

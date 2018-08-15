@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -62,7 +63,7 @@ The <b>SI_ACCESS</b> structure contains information about an access right or def
 ### -field pguid
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies the type of object to which the access right or default access mask applies. The GUID can identify a property set or property on the object, or a type of child object that can be contained by the object. 
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object to which the access right or default access mask applies. The GUID can identify a property set or property on the object, or a type of child object that can be contained by the object. 
 
 
 
@@ -83,7 +84,7 @@ A pointer to a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
+<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro. Use the 
 <a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 
@@ -198,7 +199,7 @@ Noncontainer objects contained by the primary object inherit the entry.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
 
 
 

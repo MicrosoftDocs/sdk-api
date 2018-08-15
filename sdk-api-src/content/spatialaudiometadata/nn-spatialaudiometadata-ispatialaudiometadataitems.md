@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -82,7 +83,7 @@ Gets the total frame count of the <b>ISpatialAudioMetadataItems</b>, which defin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://msdn.microsoft.com/F54BF2B9-B9A4-47EF-8C18-DC58B24B617E">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the total frame count for the <b>ISpatialAudioMetadataItems</b>, which defines valid item offsets.

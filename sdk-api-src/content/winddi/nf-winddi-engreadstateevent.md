@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngReadStateEvent</b> function returns the current state of the specified
 
 ### -param pEvent [in]
 
-Pointer to the event object returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564211">EngCreateEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564970">EngMapEvent</a>.
+Pointer to the event object returned by a previous call to <a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a> or <a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>.
 
 
 ## -returns
@@ -78,11 +79,11 @@ Pointer to the event object returned by a previous call to <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564211">EngCreateEvent</a>
+<a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564970">EngMapEvent</a>
+<a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>
  
 
  

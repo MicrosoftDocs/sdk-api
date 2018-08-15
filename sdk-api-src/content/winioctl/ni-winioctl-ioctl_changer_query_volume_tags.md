@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -151,7 +152,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551479">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+<a href="https://msdn.microsoft.com/96148983-48be-466d-be7f-c1dbf6910c20">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 
@@ -163,7 +164,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563961">READ_ELEMENT_ADDRESS_INFO</a>
+<a href="https://msdn.microsoft.com/2b7e611b-7db6-4ba6-ae1f-4269a96dbb16">READ_ELEMENT_ADDRESS_INFO</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -143,7 +144,7 @@ This method must be must be invoked by the client program before any data can be
 <li>Initiates the update notification mechanism if the address of the client program's <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> callback routine is provided to <a href="https://msdn.microsoft.com/46f74e55-8060-4f02-85e3-dbd2fc8fce78">IFunctionDiscovery::CreateInstanceCollectionQuery</a>.</li>
 <li>Caches the collection data and returns.</li>
 </ol>
-Function Discovery network providers only return function instances through the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a> simply initiates an entirely asynchronous retrieval operation and returns <b>E_PENDING</b> to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
+Function Discovery network providers only return function instances through the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <a href="https://msdn.microsoft.com/42618944-6ae6-45f0-85f9-3c958d719ed2">Execute</a> simply initiates an entirely asynchronous retrieval operation and returns <b>E_PENDING</b> to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
 
 
 

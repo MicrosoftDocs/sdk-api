@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -128,10 +129,9 @@ Address of a pointer to the
 <a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a> interface.
 
 
-#### - gpmDomain [in]
+#### - MigrationTable [in, optional]
 
-
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">GPMDomain</a> object of the domain to which the GPO is copied.
+Path of a file that contains the migration table to use for mapping.
 
 
 #### - NewGpoName [in, optional]
@@ -139,9 +139,10 @@ Address of a pointer to the
 Display name to be put on the copied GPO.
 
 
-#### - MigrationTable [in, optional]
+#### - gpmDomain [in]
 
-Path of a file that contains the migration table to use for mapping.
+
+<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">GPMDomain</a> object of the domain to which the GPO is copied.
 
 
 ## -returns

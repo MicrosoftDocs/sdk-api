@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>CoordinateSpace</b> enumeration specifies coordinate spaces. This enumeration is used by the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a> method, which converts points from one coordinate space to another. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>. 
+			<a href="https://msdn.microsoft.com/d9c29b36-8f21-4d0b-99c7-5e7d635ee1a1">Graphics::TransformPoints</a> method, which converts points from one coordinate space to another. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/eb20f5e9-25f5-4f27-8ea5-83f6819425ed">Types of Coordinate Systems</a>. 
 
 
 ## -enum-fields
@@ -80,7 +81,7 @@ Specifies the device coordinate space.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
+<a href="https://msdn.microsoft.com/d9c29b36-8f21-4d0b-99c7-5e7d635ee1a1">Graphics::TransformPoints</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -63,7 +64,7 @@ Re-indexes all URLs from a specified root.
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated, Unicode buffer that contains the URL on which the search is rooted. This URL must be a search root previously registered with <a href="https://msdn.microsoft.com/en-us/library/Bb266483(v=VS.85).aspx">ISearchCrawlScopeManager::AddRoot</a>.
+Pointer to a null-terminated, Unicode buffer that contains the URL on which the search is rooted. This URL must be a search root previously registered with <a href="https://msdn.microsoft.com/6ce5e2c5-0c33-42a0-8807-eb64881b03af">ISearchCrawlScopeManager::AddRoot</a>.
 
 
 ## -returns

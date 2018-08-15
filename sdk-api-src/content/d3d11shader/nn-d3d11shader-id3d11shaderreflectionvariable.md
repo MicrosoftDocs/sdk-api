@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ The <b>ID3D11ShaderReflectionVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://msdn.microsoft.com/E3E15010-6096-4AA5-B014-AD3054223300">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 This method returns the buffer of the current <b>ID3D11ShaderReflectionVariable</b>.
@@ -97,7 +98,7 @@ Gets the corresponding interface slot for a variable that represents an interfac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/cfabd55c-0707-4221-b99e-64ef226c917e">GetType</a>
 </td>
 <td align="left" width="63%">
 Get a shader-variable type.

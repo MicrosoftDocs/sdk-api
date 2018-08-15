@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: 

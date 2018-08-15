@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -60,9 +61,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
+Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
-To obtain additional information about how the message was sent, use the <a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMessageEx</a> function.
+To obtain additional information about how the message was sent, use the <a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMessageEx</a> function.
 
 
 ## -parameters
@@ -79,9 +80,9 @@ To obtain additional information about how the message was sent, use the <a href
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If the window procedure is processing a message sent to it from another thread using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function, the return value is nonzero.
+If the window procedure is processing a message sent to it from another thread using the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function, the return value is nonzero.
 
-If the window procedure is not processing a message sent to it from another thread using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function, the return value is zero. 
+If the window procedure is not processing a message sent to it from another thread using the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function, the return value is zero. 
 
 
 
@@ -95,11 +96,11 @@ If the window procedure is not processing a message sent to it from another thre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMessageEx</a>
+<a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMessageEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
@@ -107,7 +108,7 @@ If the window procedure is not processing a message sent to it from another thre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
  
 
  

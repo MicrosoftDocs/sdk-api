@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -142,9 +143,9 @@ If the operation succeeds, <b>CM_Get_HW_Prof_Flags</b> returns CR_SUCCESS. Other
 
 
 
-To retrieve a list of hardware profile IDs that are currently defined on a local machine, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551997">SetupDiGetHwProfileList</a>.
+To retrieve a list of hardware profile IDs that are currently defined on a local machine, call <a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>.
 
-To retrieve configuration flags for a device instance on a remote machine, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538574">CM_Get_HW_Prof_Flags_Ex</a>.
+To retrieve configuration flags for a device instance on a remote machine, call <a href="https://msdn.microsoft.com/660d63b6-b70f-422f-9023-57923290ba47">CM_Get_HW_Prof_Flags_Ex</a>.
 
 
 
@@ -154,15 +155,15 @@ To retrieve configuration flags for a device instance on a remote machine, call 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538574">CM_Get_HW_Prof_Flags_Ex</a>
+<a href="https://msdn.microsoft.com/660d63b6-b70f-422f-9023-57923290ba47">CM_Get_HW_Prof_Flags_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551983">SetupDiGetHwProfileFriendlyName</a>
+<a href="https://msdn.microsoft.com/92f08c8a-b31a-4f88-8ff5-c60d985b79bf">SetupDiGetHwProfileFriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551997">SetupDiGetHwProfileList</a>
+<a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773734(v=VS.85).aspx">TVM_MAPACCIDTOHTREEITEM</a> message explicitly. 
+Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send the <a href="https://msdn.microsoft.com/f4feb7cb-2138-4930-b8ee-b9e2d4b19001">TVM_MAPACCIDTOHTREEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +77,7 @@ The accessibility ID to map to an <b>HTREEITEM</b>.
 
 
 
-To use <b>TreeView_MapAccIDToHTREEITEM</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>TreeView_MapAccIDToHTREEITEM</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 <div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="https://msdn.microsoft.com/bac49a2d-4357-4607-a89d-d2ed4abf89bb">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
 </div>

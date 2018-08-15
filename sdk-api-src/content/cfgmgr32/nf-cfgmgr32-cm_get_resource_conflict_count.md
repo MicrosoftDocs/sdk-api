@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The <b>CM_Get_Resource_Conflict_Count</b> function obtains the number of conflic
 
 ### -param clConflictList [in]
 
-Caller-supplied handle to a conflict list, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539760">CM_Query_Resource_Conflict_List</a>.
+Caller-supplied handle to a conflict list, obtained by a previous call to <a href="https://msdn.microsoft.com/d8b86549-3687-42e8-a82f-0f2dbd70cf66">CM_Query_Resource_Conflict_List</a>.
 
 
 ### -param pulCount [out]
@@ -81,7 +82,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The count value obtained by calling <b>CM_Get_Resource_Conflict_Count</b> can be used to determine the number of times to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538631">CM_Get_Resource_Conflict_Details</a>, which supplies information about each conflict.
+The count value obtained by calling <b>CM_Get_Resource_Conflict_Count</b> can be used to determine the number of times to call <a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a>, which supplies information about each conflict.
 
 If there are no entries in the conflict list, the location supplied by <i>pulCount</i> will receive zero.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-Specifies the location in the registry where the <a href="https://msdn.microsoft.com/en-us/library/Bb787394(v=VS.85).aspx">TB_SAVERESTORE</a> message stores and retrieves information about the state of a toolbar. 
+Specifies the location in the registry where the <a href="https://msdn.microsoft.com/59f51d07-cd08-4d6f-9d19-614064ba6f20">TB_SAVERESTORE</a> message stores and retrieves information about the state of a toolbar. 
 
 
 ## -struct-fields

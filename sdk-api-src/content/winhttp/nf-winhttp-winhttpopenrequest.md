@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -68,7 +69,7 @@ The <b>WinHttpOpenRequest</b> function creates an HTTP request handle.
 
 ### -param pwszVerb [in]
 
-Pointer to a string that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">HTTP verb</a> to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the <i>HTTP verb</i>. <b>Note</b>  This string should be all uppercase. Many servers treat HTTP verbs as case-sensitive, and the Internet Engineering Task Force (IETF)  Requests for Comments (RFCs) spell these verbs using uppercase characters only.
+Pointer to a string that contains the <a href="glossary.htm">HTTP verb</a> to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the <i>HTTP verb</i>. <b>Note</b>  This string should be all uppercase. Many servers treat HTTP verbs as case-sensitive, and the Internet Engineering Task Force (IETF)  Requests for Comments (RFCs) spell these verbs using uppercase characters only.
 
 
 
@@ -184,16 +185,16 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
  
 
 
-#### - pwszReferrer [in]
-
-Pointer to a string that specifies the URL of the document from which the URL in the request 
-<i>pwszObjectName</i> was obtained. If this parameter is set to <b>WINHTTP_NO_REFERER</b>, no referring document is specified. 
-
-
 #### - ppwszAcceptTypes [in]
 
 Pointer to a <b>null</b>-terminated array of string pointers that specifies media types accepted by the client. If this parameter is set to <b>WINHTTP_DEFAULT_ACCEPT_TYPES</b>, no types are accepted by the client. Typically, servers handle a lack of accepted types as indication that the client accepts only documents of type "text/*"; that is, only text documents—no pictures or other binary files. For a list of valid media types, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84521">Media Types</a> defined by IANA at http://www.iana.org/assignments/media-types/.
+
+
+#### - pwszReferrer [in]
+
+Pointer to a string that specifies the URL of the document from which the URL in the request 
+<i>pwszObjectName</i> was obtained. If this parameter is set to <b>WINHTTP_NO_REFERER</b>, no referring document is specified. 
 
 
 ## -returns

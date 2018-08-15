@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -94,7 +95,7 @@ Appends part of a recording to the target file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/d7355f5d-034c-404f-b6c7-02c04c87285d">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels an append operation, if one is in progress.
@@ -103,7 +104,7 @@ Cancels an append operation, if one is in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/0dd311ac-28c7-4cb2-bc65-fe2301c53cf2">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the target file.
@@ -121,7 +122,7 @@ Retrieves the length of the target file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/97a8519f-2377-43e9-b1ba-7d407caa44a9">Initialize</a>
 </td>
 <td align="left" width="63%">
 Sets the file name and the profile for the new recording.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>FONTOBJ_pifi</b> function retrieves the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a> structure associated with a specified font.
+The <b>FONTOBJ_pifi</b> function retrieves the pointer to the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure associated with a specified font.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>FONTOBJ_pifi</b> function retrieves the pointer to the <a href="https://m
 
 ### -param pfo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure for which the associated IFIMETRICS structure is to be retrieved.
+Pointer to the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure for which the associated IFIMETRICS structure is to be retrieved.
 
 
 ## -returns
@@ -78,11 +79,11 @@ The return value is a pointer to the IFIMETRICS structure associated with the sp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
  
 
  

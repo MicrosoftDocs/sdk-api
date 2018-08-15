@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775847(v=VS.85).aspx">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
+Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://msdn.microsoft.com/fd8d78c0-e1a8-49c8-9e35-a105d00b863c">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
 
 
 ## -parameters
@@ -68,7 +69,7 @@ A handle to the control.
 
 ### -param lprc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that receives the coordinates of the combo box in its dropped-down state.
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the coordinates of the combo box in its dropped-down state.
 

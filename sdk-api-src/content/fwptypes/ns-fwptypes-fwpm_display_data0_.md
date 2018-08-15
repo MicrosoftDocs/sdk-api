@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -75,7 +76,7 @@ Optional description.
 
 In order to
 support MUI, both strings may contain indirect strings. See
-<a href="https://msdn.microsoft.com/en-us/library/Bb759919(v=VS.85).aspx">SHLoadIndirectString</a> for details.
+<a href="_shell_SHLoadIndirectString">SHLoadIndirectString</a> for details.
 
 <b>FWPM_DISPLAY_DATA0</b> is a specific implementation of FWPM_DISPLAY_DATA. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
@@ -87,7 +88,7 @@ support MUI, both strings may contain indirect strings. See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759919(v=VS.85).aspx">SHLoadIndirectString</a>
+<a href="_shell_SHLoadIndirectString">SHLoadIndirectString</a>
 
 
 

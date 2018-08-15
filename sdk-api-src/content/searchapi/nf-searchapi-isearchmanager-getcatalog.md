@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object for that catalog.
+Retrieves a catalog by name and creates a new <a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a> object for that catalog.
 
 
 ## -parameters
@@ -69,9 +70,9 @@ The name of the catalog to be retrieved.
 
 ### -param ppCatalogManager [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a> object that is named in <i>pszCatalog</i>.
                 
 
 

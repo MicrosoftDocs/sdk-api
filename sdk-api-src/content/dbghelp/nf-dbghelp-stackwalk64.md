@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
+req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -132,7 +133,7 @@ A pointer to a <a href="https://msdn.microsoft.com/2809e3f1-c64a-4753-9fca-f78e8
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure. This parameter is 
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure. This parameter is 
        required only when the <i>MachineType</i> parameter is not 
        <b>IMAGE_FILE_MACHINE_I386</b>. However, it is recommended that this parameter contain a 
        valid context record. This allows <b>StackWalk64</b> to handle 
@@ -261,7 +262,7 @@ StackWalk(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 

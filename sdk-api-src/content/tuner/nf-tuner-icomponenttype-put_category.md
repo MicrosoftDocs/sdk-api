@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_Category</b> method sets the component category.
 
 ### -param Category [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557721">ComponentCategory</a> value that specifies the new category for this component type.
+A <a href="https://msdn.microsoft.com/20fe32fa-c8a5-4073-bcf3-7dde171d7ad4">ComponentCategory</a> value that specifies the new category for this component type.
 
 
 ## -returns

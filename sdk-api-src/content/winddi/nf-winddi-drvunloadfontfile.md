@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvUnloadFontFile</b> function informs a font driver that the specified f
 
 ### -param iFile
 
-Pointer to a driver-defined value that identifies the font file to be removed. The <i>iFile</i> parameter is the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>.
+Pointer to a driver-defined value that identifies the font file to be removed. The <i>iFile</i> parameter is the value returned by <a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>.
 
 
 ## -returns
@@ -89,7 +90,7 @@ This function is required for font drivers.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>
+<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
  
 
  

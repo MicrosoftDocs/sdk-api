@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,7 +75,7 @@ The <b>IVdsVolumePlex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property information of the current volume plex.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -72,7 +73,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544762">DMA_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544764">DMA_RESOURCE</a> structure.
+The number of elements in the <a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/226a5ca1-10e1-47a7-8bd9-b153a0784ccb">DMA_RESOURCE</a> structure.
 
 
 ### -field DD_Type
@@ -280,11 +281,11 @@ The DMA channel allocated to the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544762">DMA_RANGE</a>
+<a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544764">DMA_RESOURCE</a>
+<a href="https://msdn.microsoft.com/226a5ca1-10e1-47a7-8bd9-b153a0784ccb">DMA_RESOURCE</a>
  
 
  

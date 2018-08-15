@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -61,9 +62,9 @@ Gets a property value from a property store.
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-Pointer to an instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface, which represents the property store from which to get the value.
+Pointer to an instance of the <a href="shell.IPropertyStore">IPropertyStore</a> interface, which represents the property store from which to get the value.
 
 
 ### -param ppd [in]
@@ -95,7 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to read a property value from a store. If the calling code already has a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> directly.
+This helper function is used to read a property value from a store. If the calling code already has a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> directly.
 
 
 #### Examples

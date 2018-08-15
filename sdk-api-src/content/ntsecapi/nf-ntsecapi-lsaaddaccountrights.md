@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>LsaAddAccountRights</b> function assigns one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> to an account. If the account does not exist, <b>LsaAddAccountRights</b> creates it.
+The <b>LsaAddAccountRights</b> function assigns one or more <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> to an account. If the account does not exist, <b>LsaAddAccountRights</b> creates it.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to a <a href="https://msdn.microsoft.com/4253c7fb-85f5-441d-90bf-492e80
 
 ### -param AccountSid [in]
 
-Pointer to the SID of the account to which the function assigns <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a>.
+Pointer to the SID of the account to which the function assigns <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a>.
 
 
 ### -param UserRights [in]
@@ -92,7 +93,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

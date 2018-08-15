@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ following methods:
 <a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">IEnumCERTVIEWATTRIBUTE::GetValue</a>
 </li>
 </ul>
-The attribute-enumeration sequence maintains an internal  zero-based index. The call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a> method causes this index to increase or decrease by the number of attributes specified in the  <i>celt</i> parameter.
+The attribute-enumeration sequence maintains an internal  zero-based index. The call to the <a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">Skip</a> method causes this index to increase or decrease by the number of attributes specified in the  <i>celt</i> parameter.
 
 If a negative value of the <i>celt</i> parameter causes the index to be less than zero, the behavior of subsequent calls to <a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE::Next</a> is undefined.
 

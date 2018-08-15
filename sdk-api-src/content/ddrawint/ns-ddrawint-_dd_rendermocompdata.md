@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,12 +61,12 @@ The DD_RENDERMOCOMPDATA structure contains the information required to render a 
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpMoComp
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551663">DD_MOTIONCOMP_LOCAL</a> structure that contains a description of the motion compensation being requested.
+Points to a <a href="https://msdn.microsoft.com/41cde03a-f9da-4701-a0df-0dba0c17ba26">DD_MOTIONCOMP_LOCAL</a> structure that contains a description of the motion compensation being requested.
 
 
 ### -field dwNumBuffers
@@ -75,12 +76,12 @@ Indicates the number of entries in the <b>lpBufferInfo</b> member.
 
 ### -field lpBufferInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549652">DDMOCOMPBUFFERINFO</a> structure that contains the surfaces and the locations within the surfaces from which to get the macroblock data to render.
+Points to a <a href="https://msdn.microsoft.com/e039f85e-868f-4673-bbaa-9165bd760e9d">DDMOCOMPBUFFERINFO</a> structure that contains the surfaces and the locations within the surfaces from which to get the macroblock data to render.
 
 
 ### -field dwFunction
 
-Indicates a specific operation the decoder would like the driver to perform. The possible values for this member are defined by the GUID used during motion compensation. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff550529">DD_CREATEMOCOMPDATA</a> for more information.
+Indicates a specific operation the decoder would like the driver to perform. The possible values for this member are defined by the GUID used during motion compensation. See <a href="https://msdn.microsoft.com/53b2aa38-b007-4938-8fdb-c3482735ae36">DD_CREATEMOCOMPDATA</a> for more information.
 
 
 ### -field lpInputData
@@ -113,7 +114,7 @@ Specifies the location in which the driver writes the return value of the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550529">DD_CREATEMOCOMPDATA</a>
+<a href="https://msdn.microsoft.com/53b2aa38-b007-4938-8fdb-c3482735ae36">DD_CREATEMOCOMPDATA</a>
 
 
 

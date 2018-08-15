@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -94,15 +95,15 @@ The control information data that is associated with a datagram is made up of on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a>
+<a href="https://msdn.microsoft.com/061db3ca-80ed-419e-8cca-f49d1498b780">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a>
+<a href="https://msdn.microsoft.com/769fea0d-e35a-4385-8027-f1518c25b637">WskReceiveFrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
+<a href="https://msdn.microsoft.com/34257ef2-947a-463a-b234-04fbaffa9344">WskSendTo</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -147,7 +148,7 @@ Retrieves a <b>ULONG</b> value indicating whether the process is considered crit
 </dl>
 </td>
 <td width="60%">
-Retrieves a <b>SUBSYSTEM_INFORMATION_TYPE</b> value indicating the subsystem type of the process. The buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a single <a href="https://msdn.microsoft.com/library/windows/hardware/mt805892">SUBSYSTEM_INFORMATION_TYPE</a> enumeration.
+Retrieves a <b>SUBSYSTEM_INFORMATION_TYPE</b> value indicating the subsystem type of the process. The buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a single <a href="https://msdn.microsoft.com/B1E334BF-AAB3-410D-8D10-A750E8459E42">SUBSYSTEM_INFORMATION_TYPE</a> enumeration.
 
 </td>
 </tr>

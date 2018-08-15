@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about a trackbar change notification. This message is sent with the <a href="https://msdn.microsoft.com/en-us/library/Bb760172(v=VS.85).aspx">TRBN_THUMBPOSCHANGING</a> notification.
+Contains information about a trackbar change notification. This message is sent with the <a href="https://msdn.microsoft.com/0876e026-bc07-409d-b174-b97ed704fc11">TRBN_THUMBPOSCHANGING</a> notification.
 
 
 ## -struct-fields
@@ -60,9 +61,9 @@ Contains information about a trackbar change notification. This message is sent 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that describes the notification.
+A <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that describes the notification.
 
 
 ### -field dwPos

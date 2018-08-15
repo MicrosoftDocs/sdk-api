@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -71,7 +72,7 @@ This property is read-only.
 
 
 To retrieve information about all of the groups in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, use the 
+    <a href="c_gly.htm">cluster</a>, use the 
     <a href="https://msdn.microsoft.com/449e4432-571c-403c-81c7-da50f455224c">Cluster.ResourceGroups</a> property.
 
 

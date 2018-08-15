@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,16 +70,16 @@ The <b>GetSecurityDescriptorLength</b> function returns the length, in bytes, of
 ### -param pSecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure whose length the function returns. The pointer is assumed to be valid.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure whose length the function returns. The pointer is assumed to be valid.
 
 
 ## -returns
 
 
 
-If the function succeeds, the function returns the length, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+If the function succeeds, the function returns the length, in bytes, of the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure is not valid, the return value is undefined.
+If the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure is not valid, the return value is undefined.
 
 
 
@@ -127,11 +128,11 @@ The minimum length of a security descriptor is SECURITY_DESCRIPTOR_MIN_LENGTH. A
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
  
 
  

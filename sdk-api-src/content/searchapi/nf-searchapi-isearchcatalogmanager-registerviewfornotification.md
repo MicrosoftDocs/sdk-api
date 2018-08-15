@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -68,9 +69,9 @@ A pointer to the name of the view.
 
 ### -param pViewChangedSink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7dabc572-50ef-4a21-be77-2eb780610844">ISearchViewChangedSink</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a> object to receive notifications.
+Pointer to the <a href="https://msdn.microsoft.com/7dabc572-50ef-4a21-be77-2eb780610844">ISearchViewChangedSink</a> object to receive notifications.
 
 
 ### -param pdwCookie [out]

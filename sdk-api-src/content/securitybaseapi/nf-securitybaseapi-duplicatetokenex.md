@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -93,12 +94,12 @@ To set the owner in the security descriptor for the new token, the caller's proc
 ### -param ImpersonationLevel [in]
 
 Specifies a value from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration that indicates the impersonation level of the new token.
+<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> enumeration that indicates the impersonation level of the new token.
 
 
 ### -param TokenType [in]
 
-Specifies one of the following values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a> enumeration.
+Specifies one of the following values from the <a href="https://msdn.microsoft.com/51b6717e-3fda-4af4-8995-4ac571eae2fd">TOKEN_TYPE</a> enumeration.
 
 <table>
 <tr>
@@ -172,7 +173,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -184,7 +185,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a>
+<a href="_win32_ddeimpersonateclient_cpp">DdeImpersonateClient</a>
 
 
 
@@ -212,7 +213,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

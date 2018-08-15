@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -64,9 +65,9 @@ This property is read/write.
 
 
 
-If you want to specify a collection of providers, you must set this property before calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method. The collection that you specify must contain all providers currently installed on the computer. If you specify a subset or a superset, the behavior of this property is undefined.
+If you want to specify a collection of providers, you must set this property before calling the <a href="https://msdn.microsoft.com/be0e2cda-5481-49ab-9a12-6dc52981fd24">Initialize</a> method. The collection that you specify must contain all providers currently installed on the computer. If you specify a subset or a superset, the behavior of this property is undefined.
 
-If you do not specify a collection, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method sets the property value to a collection of all providers installed on the computer.
+If you do not specify a collection, the <a href="https://msdn.microsoft.com/be0e2cda-5481-49ab-9a12-6dc52981fd24">Initialize</a> method sets the property value to a collection of all providers installed on the computer.
 
 The <b>CspInformations</b> property exists so that the caller can avoid forcing the request object to fill the collection. This is useful when the caller is creating multiple requests in one session.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -85,11 +86,11 @@ Before the trim operation is passed to the underlying storage system the input r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406398">FILE_LEVEL_TRIM</a>
+<a href="https://msdn.microsoft.com/2d466a98-f7b2-4638-942c-1cf9016d0bf9">FILE_LEVEL_TRIM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406402">FILE_LEVEL_TRIM_OUTPUT</a>
+<a href="https://msdn.microsoft.com/3d293d09-8d41-495d-9095-f2f24bf6ac6b">FILE_LEVEL_TRIM_OUTPUT</a>
 
 
 

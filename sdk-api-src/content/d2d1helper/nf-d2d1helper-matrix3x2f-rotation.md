@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -96,7 +97,7 @@ The new rotation transformation.
 
 When calling this method, specify a <i>centerPoint</i> to rotate the object about, and the rotation <i>angle</i> in degrees. The following illustration shows a square rotated 45 degrees about its center point.
 
-<img alt="Illustration a square rotated clockwise 45 degrees about the center of the original square" src="./images/rotate_ovw.PNG"/>
+<img alt="Illustration a square rotated clockwise 45 degrees about the center of the original square" src="images/rotate_ovw.PNG"/>
 
 #### Examples
 
@@ -104,7 +105,7 @@ The following example uses the <b>D2D1::Matrix3x2F::Rotation</b>  method to crea
 
 The following illustration shows the effect of applying the  preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline. 
 
-<img alt="Illustration a square rotated 45 degrees about the center of the original square" src="./images/rotate_ovw.png"/>
+<img alt="Illustration a square rotated 45 degrees about the center of the original square" src="images/rotate_ovw.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

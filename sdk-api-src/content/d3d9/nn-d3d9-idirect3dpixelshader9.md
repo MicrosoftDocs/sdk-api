@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IDirect3DPixelShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/c0aeefb5-8314-4189-a9db-6ee0543ba26f">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.
@@ -80,7 +81,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205871(v=VS.85).aspx">GetFunction</a>
+<a href="https://msdn.microsoft.com/c728388b-9ced-4aec-8035-fc324d1de830">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.

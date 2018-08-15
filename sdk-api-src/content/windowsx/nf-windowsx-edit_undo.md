@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761670(v=VS.85).aspx">EM_UNDO</a> message explicitly.
+Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/c4bff128-0383-40c5-8f29-7738f7f26871">EM_UNDO</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761670(v=VS.85).aspx">EM_UNDO</a>.
+For more information, see <a href="https://msdn.microsoft.com/c4bff128-0383-40c5-8f29-7738f7f26871">EM_UNDO</a>.
 
 
 

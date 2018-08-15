@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -98,7 +99,7 @@ Instructs the dialog to clear all persisted state information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/064b035a-c554-4c81-93b9-ba4fb92da09d">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the dialog.
@@ -116,7 +117,7 @@ Gets the user's current selection in the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926842">GetFileName</a>
+<a href="https://msdn.microsoft.com/d27acb22-906a-4e5e-9239-6de3162fd263">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text currently entered in the dialog's <b>File name</b> edit box.
@@ -143,7 +144,7 @@ Gets either the folder currently selected in the dialog, or, if the dialog is no
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/8a01b64d-b58e-4470-a5ed-8cf821b26c6b">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current flags that are set to control dialog behavior.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +94,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +105,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +116,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +127,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +139,7 @@ The (blocking) Windows Socket 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -157,16 +158,16 @@ The socket is marked as nonblocking, but the
 
 
 
-The <b>closesocket</b> function closes a socket. Use it to release the socket descriptor passed in the <i>s</i> parameter. Note that the socket descriptor passed in the <i>s</i>  parameter may immediately be reused by the system as soon as <b>closesocket</b> function is issued. As a result, it is not reliable to expect further references to the socket descriptor passed in the <i>s</i> parameter to fail with the error <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a>. A Winsock client must never issue <b>closesocket</b> on <i>s</i> concurrently with another Winsock function call.
+The <b>closesocket</b> function closes a socket. Use it to release the socket descriptor passed in the <i>s</i> parameter. Note that the socket descriptor passed in the <i>s</i>  parameter may immediately be reused by the system as soon as <b>closesocket</b> function is issued. As a result, it is not reliable to expect further references to the socket descriptor passed in the <i>s</i> parameter to fail with the error <a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a>. A Winsock client must never issue <b>closesocket</b> on <i>s</i> concurrently with another Winsock function call.
 
 Any pending overlapped send and receive operations (
 <a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a>/
 <a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a>/
 <a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a>/
 <a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a> with an overlapped socket) issued by any thread in this process are also canceled. Any event, completion routine, or completion port action specified for these overlapped operations is performed. The pending overlapped operations fail with the error status 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_OPERATION_ABORTED</a>.
+<a href="windows_sockets_error_codes_2.htm">WSA_OPERATION_ABORTED</a>.
 
-An application should not assume that any outstanding I/O operations on a socket will all be guaranteed to completed when <b>closesocket</b> returns. The <b>closesocket</b> function will initiate cancellation on the outstanding I/O operations, but that does not mean that an application will receive I/O completion for these I/O operations by the time the <b>closesocket</b> function returns. Thus, an application should not cleanup any resources (<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structures, for example) referenced by the outstanding I/O requests until the I/O requests are indeed completed.
+An application should not assume that any outstanding I/O operations on a socket will all be guaranteed to completed when <b>closesocket</b> returns. The <b>closesocket</b> function will initiate cancellation on the outstanding I/O operations, but that does not mean that an application will receive I/O completion for these I/O operations by the time the <b>closesocket</b> function returns. Thus, an application should not cleanup any resources (<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structures, for example) referenced by the outstanding I/O requests until the I/O requests are indeed completed.
 
  
 
@@ -233,13 +234,13 @@ Hard if all data could not be sent within timeout value specified in the <b>l_li
 If the <b>l_onoff</b> member of the 
 <a href="https://msdn.microsoft.com/c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74">LINGER</a> structure is zero on a stream socket, the 
 <b>closesocket</b> call will return immediately and does not receive 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> whether the socket is blocking or nonblocking. However, any data queued for transmission will be sent, if possible, before the underlying socket is closed. This is also called a graceful disconnect or close. In this case, the Windows Sockets provider cannot release the socket and other resources for an arbitrary period, thus affecting applications that expect to use all available sockets. This is the default behavior for a socket.
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> whether the socket is blocking or nonblocking. However, any data queued for transmission will be sent, if possible, before the underlying socket is closed. This is also called a graceful disconnect or close. In this case, the Windows Sockets provider cannot release the socket and other resources for an arbitrary period, thus affecting applications that expect to use all available sockets. This is the default behavior for a socket.
 
 If the 
 <b>l_onoff</b> member of the <a href="https://msdn.microsoft.com/c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74">linger</a> structure is nonzero and <b>l_linger</b> member is zero, 
 <b>closesocket</b> is not blocked even if queued data has not yet been sent or acknowledged. This is called a hard or abortive close, because the socket's virtual circuit is reset immediately, and any unsent data is lost. On Windows, any 
 <b>recv</b> call on the remote side of the circuit will fail with 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a>.
+<a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a>.
 
 If the 
 <b>l_onoff</b> member of the <a href="https://msdn.microsoft.com/c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74">linger</a> structure is set to nonzero and <b>l_linger</b> member is set to a nonzero timeout on a blocking socket, the 
@@ -248,8 +249,8 @@ If the
 
 Setting the <b>l_onoff</b> member of the <a href="https://msdn.microsoft.com/c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74">linger</a> structure to nonzero and the <b>l_linger</b> member with a nonzero timeout interval on a nonblocking socket is not recommended. In this case, the call to 
 <b>closesocket</b> will fail with an error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> if the close operation cannot be completed immediately. If 
-<b>closesocket</b> fails with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> the socket handle is still valid, and a disconnect is not initiated. The application must call 
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> if the close operation cannot be completed immediately. If 
+<b>closesocket</b> fails with <a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> the socket handle is still valid, and a disconnect is not initiated. The application must call 
 <b>closesocket</b> again to close the socket. 
 
 If the <b>l_onoff</b> member of the <a href="https://msdn.microsoft.com/c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74">linger</a> structure is nonzero and the <b>l_linger</b> member is a nonzero timeout interval on a blocking socket, the result of the  <b>closesocket</b> function can't be used to determine whether all data has been sent to the peer. If the data is sent before the timeout specified in the <b>l_linger</b> member expires or if the connection was aborted, the <b>closesocket</b> function won't return an error code (the return value from the <b>closesocket</b> function is zero).  
@@ -264,7 +265,7 @@ The <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">ge
 
 
 <div class="alert"><b>Note</b>  To assure that all data is sent and received on a connection, an application should call 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> before calling 
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> before calling 
 <b>closesocket</b> (see 
 <a href="https://msdn.microsoft.com/383747c3-dd3d-4a18-b4e8-2815d5e5c0c7">Graceful shutdown, linger options, and socket closure</a> for more information). Also note, an FD_CLOSE network event is not posted after 
 <b>closesocket</b> is called.</div>
@@ -313,7 +314,7 @@ The following are important issues associated with connection teardown when usin
 <ul>
 <li>Using the 
 <b>closesocket</b> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> functions with SD_SEND or SD_BOTH results in a RELEASE signal being sent out on the control channel. Due to ATM's use of separate signal and data channels, it is possible that a RELEASE signal could reach the remote end before the last of the data reaches its destination, resulting in a loss of that data. One possible solutions is programming a sufficient delay between the last data sent and the <b>closesocket</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">shutdown</a> function calls for an ATM socket.</li>
+<a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> functions with SD_SEND or SD_BOTH results in a RELEASE signal being sent out on the control channel. Due to ATM's use of separate signal and data channels, it is possible that a RELEASE signal could reach the remote end before the last of the data reaches its destination, resulting in a loss of that data. One possible solutions is programming a sufficient delay between the last data sent and the <b>closesocket</b> or <a href="https://msdn.microsoft.com/6998f0c6-adc9-481f-b9fb-75f9c9f5caaf">shutdown</a> function calls for an ATM socket.</li>
 <li>Half close is not supported by ATM.</li>
 <li>Both abortive and graceful disconnects result in a RELEASE signal being sent out with the same cause field. In either case, received data at the remote end of the socket is still delivered to the application. See 
 <a href="https://msdn.microsoft.com/383747c3-dd3d-4a18-b4e8-2815d5e5c0c7">Graceful Shutdown, Linger Options, and Socket Closure</a> for more information.</li>
@@ -344,7 +345,7 @@ The following are important issues associated with connection teardown when usin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a>
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a>
 
 
 

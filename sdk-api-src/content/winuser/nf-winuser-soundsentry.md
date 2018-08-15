@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -126,11 +127,11 @@ Set the notification behavior by calling <a href="https://msdn.microsoft.com/9b9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373646(v=VS.85).aspx">SOUNDSENTRY</a>
+<a href="_win32_SOUNDSENTRY_str">SOUNDSENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx">SoundSentryProc</a>
+<a href="_win32_SoundSentryProc">SoundSentryProc</a>
  
 
  

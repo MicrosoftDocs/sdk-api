@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -71,7 +72,7 @@ The <b>IEnumOfflineFilesItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/cef0adaf-d342-4eab-b455-2b51b7d70066">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of the enumerator with the same enumeration state as the current one.
@@ -80,7 +81,7 @@ Creates a new instance of the enumerator with the same enumeration state as the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/509bb93a-0ab4-4e4a-935a-c30e6b1f03fd">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item in the enumeration and advances the enumerator.
@@ -89,7 +90,7 @@ Retrieves the next item in the enumeration and advances the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/fa4d1313-e05d-49be-80c3-cbb70463dfb1">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration to the beginning.
@@ -98,7 +99,7 @@ Resets the enumeration to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/e1f201c4-6ca8-49ca-af05-003a09ec86bd">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration.
@@ -112,7 +113,7 @@ Skips over the next specified number of elements in the enumeration.
 
 
 
-To obtain an instance of this interface, first obtain an instance of <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> using <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on an instance of one of the following interfaces:
+To obtain an instance of this interface, first obtain an instance of <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> using <a href="_com_iunknown_queryinterface">QueryInterface</a> on an instance of one of the following interfaces:
 
 <ul>
 <li>
@@ -131,7 +132,7 @@ To obtain an instance of this interface, first obtain an instance of <a href="ht
 <a href="https://msdn.microsoft.com/aff6be4a-07bc-4a74-8fbf-92fe8985f5b6">IOfflineFilesShareItem</a>
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface is only valid for directory, server, and share items. If <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> is called for the <b>IOfflineFilesItemContainer</b> interface on a file item (an instance of the <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a> interface), it will fail with <b>E_NOINTERFACE</b>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface is only valid for directory, server, and share items. If <a href="_com_iunknown_queryinterface">QueryInterface</a> is called for the <b>IOfflineFilesItemContainer</b> interface on a file item (an instance of the <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a> interface), it will fail with <b>E_NOINTERFACE</b>.</div>
 <div> </div>
 For a code example that shows how to use the <b>IEnumOfflineFilesItems</b> interface, see <a href="https://msdn.microsoft.com/9960e8f8-4d15-4a53-aa77-d0105b6a59d1">IOfflineFilesItemContainer::EnumItems</a>.
 

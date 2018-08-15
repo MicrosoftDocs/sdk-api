@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -75,9 +76,9 @@ The vertical (y) dimension. If this value is 0, the y dimension is set to a scal
 
 ### -param hints [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
+A member of the <a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,9 +68,9 @@ A handle to the list box to check.
 
 ### -param pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that contains the screen coordinates to check. 
+A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the screen coordinates to check. 
 
 
 ### -param bAutoScroll
@@ -94,7 +95,7 @@ Returns the item identifier if the point is over a list item, or -1 otherwise.
 
 
 
-The <b>LBItemFromPt</b> function only scrolls the list box if a minimum amount of time has passed since it last did so. Timing prevents the list box from scrolling too quickly if the function is called repeatedly in rapid succession—for example, when <a href="https://msdn.microsoft.com/en-us/library/Bb761721(v=VS.85).aspx">DL_DRAGGING</a> notification codes or <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages are processed. 
+The <b>LBItemFromPt</b> function only scrolls the list box if a minimum amount of time has passed since it last did so. Timing prevents the list box from scrolling too quickly if the function is called repeatedly in rapid succession—for example, when <a href="https://msdn.microsoft.com/87fc4c24-8e88-4e3c-8f54-ecc7f80de5d7">DL_DRAGGING</a> notification codes or <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> messages are processed. 
 
 If the specified point is outside the client area of the list box and 
 				<i>bAutoScroll</i> is <b>TRUE</b>, the function scrolls the list box instead of returning an item identifier. 

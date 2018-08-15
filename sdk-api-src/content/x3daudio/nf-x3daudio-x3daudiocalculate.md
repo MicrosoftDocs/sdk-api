@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: x3daudio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,17 +63,17 @@ Calculates DSP settings with respect to 3D parameters.
 
 ### -param Instance [in]
 
-3D audio instance handle. Call <a href="https://msdn.microsoft.com/en-us/library/Ee419053(v=VS.85).aspx">X3DAudioInitialize</a> to get this handle.
+3D audio instance handle. Call <a href="https://msdn.microsoft.com/20f3d374-60bd-4a8c-8bd2-32e3be729779">X3DAudioInitialize</a> to get this handle.
 
 
 ### -param pListener [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419059(v=VS.85).aspx">X3DAUDIO_LISTENER</a> representing the point of reception.
+Pointer to an <a href="https://msdn.microsoft.com/595578f8-9e1c-4905-b8a0-69182aac65b2">X3DAUDIO_LISTENER</a> representing the point of reception.
 
 
 ### -param pEmitter [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419058(v=VS.85).aspx">X3DAUDIO_EMITTER</a> representing the sound source.
+Pointer to an <a href="https://msdn.microsoft.com/13e6b0ae-79de-470e-93e2-fd3b96acd3ab">X3DAUDIO_EMITTER</a> representing the sound source.
 
 
 ### -param Flags [in]
@@ -130,7 +131,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419058(v=VS.85
 
 ### -param pDSPSettings [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419057(v=VS.85).aspx">X3DAUDIO_DSP_SETTINGS</a> structure that receives the calculation results.
+Pointer to an <a href="https://msdn.microsoft.com/aed6351c-d34c-483b-b60d-875ef5fe11b4">X3DAUDIO_DSP_SETTINGS</a> structure that receives the calculation results.
 
 
 ## -returns
@@ -163,7 +164,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">Functions</a>
  
 
  

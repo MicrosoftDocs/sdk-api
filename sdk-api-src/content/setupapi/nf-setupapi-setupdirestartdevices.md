@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ A handle to a <a href="devinst.device_classes">device information set</a> that c
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure for the device information member that represents the device to restart. This parameter is also an output parameter because <b>SetupDiRestartDevices</b> updates the device installation parameters for this device information member and the status and problem code of the corresponding device instance. For more information about these updates, see the following <b>Remarks</b> section. 
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the device information member that represents the device to restart. This parameter is also an output parameter because <b>SetupDiRestartDevices</b> updates the device installation parameters for this device information member and the status and problem code of the corresponding device instance. For more information about these updates, see the following <b>Remarks</b> section. 
 
 
 ## -returns
@@ -82,7 +83,7 @@ If the operation succeeds, <b>SetupDiRestartDevices</b> returns <b>TRUE</b>; oth
 
 
 
-<b>SetupDiRestartDevices</b> should be called only by a class installer when a class installer is handling a DIF_INSTALLDEVICE request and only in rare situations where the class installer must perform operations after all default installation operations, except for starting a device, have completed . For more information about calling <b>SetupDiRestartDevices</b> in these situations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a>.
+<b>SetupDiRestartDevices</b> should be called only by a class installer when a class installer is handling a DIF_INSTALLDEVICE request and only in rare situations where the class installer must perform operations after all default installation operations, except for starting a device, have completed . For more information about calling <b>SetupDiRestartDevices</b> in these situations, see <a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a>.
 
 <b>SetupDiRestartDevices</b> restarts only the specified device if the restart can be performed without affecting the installation of other devices that are operated by the same function driver or filter drivers that operate the device. Specifically, if the restart of the specified device does not copy new files or modify any files that were previously installed for the device, <b>SetupDiRestartDevices</b> restarts only the specified device. Otherwise, the function restarts all devices that are operated by the same function and filter drivers that operate the specified device. 
 
@@ -98,7 +99,7 @@ If a system restart is necessary to start a device, <b>SetupDiRestartDevices</b>
 
 </li>
 </ul>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Get_DevNode_Status</a> function retrieves the status and problem code for a device instance and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551104">SetupDiGetDeviceInstallParams</a> function retrieves the device installation parameters for the device information element that represents the device instance. 
+The <a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a> function retrieves the status and problem code for a device instance and the <a href="https://msdn.microsoft.com/e5e8c203-cf71-4cb4-a7a8-5af3a2483eea">SetupDiGetDeviceInstallParams</a> function retrieves the device installation parameters for the device information element that represents the device instance. 
 
 
 
@@ -108,19 +109,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Get_DevNode_Status</a>
+<a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a>
+<a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551104">SetupDiGetDeviceInstallParams</a>
+<a href="https://msdn.microsoft.com/e5e8c203-cf71-4cb4-a7a8-5af3a2483eea">SetupDiGetDeviceInstallParams</a>
  
 
  

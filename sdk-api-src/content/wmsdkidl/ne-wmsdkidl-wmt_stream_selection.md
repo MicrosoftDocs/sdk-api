@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ No samples will be delivered for the stream.
 
 ### -field WMT_CLEANPOINT_ONLY
 
-Only samples with <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">cleanpoints</a> will be delivered for the stream.
+Only samples with <a href="wmformat_glossary.htm">cleanpoints</a> will be delivered for the stream.
 
 
 ### -field WMT_ON
@@ -82,7 +83,7 @@ All samples will be delivered for the stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545452">Enumeration Types</a>
+<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
  
 
  

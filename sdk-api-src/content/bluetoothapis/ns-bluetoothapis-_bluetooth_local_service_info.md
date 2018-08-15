@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>BLUETOOTH_LOCAL_SERVICE_INFO</b> structure contains local service information for a Bluetooth device. This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536580">BluetoothSetLocalServiceInfo</a> function.
+The <b>BLUETOOTH_LOCAL_SERVICE_INFO</b> structure contains local service information for a Bluetooth device. This structure is used by the <a href="https://msdn.microsoft.com/836c7804-6747-4a0b-b97c-c8c4e00374ca">BluetoothSetLocalServiceInfo</a> function.
 
 
 ## -struct-fields
@@ -92,7 +93,7 @@ In the event  the service is not associated with a specific device, <b>btAddr</b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536580">BluetoothSetLocalServiceInfo</a>
+<a href="https://msdn.microsoft.com/836c7804-6747-4a0b-b97c-c8c4e00374ca">BluetoothSetLocalServiceInfo</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certserv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -59,7 +60,7 @@ In Visual Basic Scripting Edition, you create an instance of the <b>OCSPProperty
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPPropertyCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IOCSPPropertyCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPPropertyCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IOCSPPropertyCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -119,7 +120,7 @@ Creates a property set from the properties contained in an existing server confi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/09ed83ce-ebab-4d03-a508-304f54206921">_NewEnum</a>
 
 
 </td>
@@ -131,7 +132,7 @@ Gets an enumerator for a property set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/28cf1108-42a8-41d1-baf4-140b5789fb24">Count</a>
 
 
 </td>
@@ -143,7 +144,7 @@ Gets the number of properties in a property set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/33fce781-f65d-433a-b2ba-0f694cee1220">Item</a>
 
 
 </td>
@@ -195,7 +196,7 @@ OCSP attributes govern OCSP responder service behavior for all CA configurations
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

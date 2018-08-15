@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -87,7 +88,7 @@ A handle to the file from which to create a file mapping object.
 The file must be opened with access rights that are compatible with the protection flags that the 
        <i>flProtect</i> parameter specifies. It is not required, but it is recommended that files 
        you intend to map be opened for exclusive access. For more information, see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+       <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -285,7 +286,7 @@ Specifies that the file that the  <i>hFile</i> parameter specifies is an executa
          image file that will not be executed and the loaded image file will have no forced integrity checks run. 
          Additionally, mapping a view of a file mapping object created with the 
          <b>SEC_IMAGE_NO_EXECUTE</b> attribute will not invoke driver callbacks registered using 
-         the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a> 
+         the <a href="https://msdn.microsoft.com/e90bc043-1b92-474c-b6c7-7e510271118b">PsSetLoadImageNotifyRoutine</a> 
          kernel API.
 
 The <b>SEC_IMAGE_NO_EXECUTE</b> attribute must be combined with the 
@@ -482,7 +483,7 @@ Multiple processes can share a view of the same file   by either using a single 
     creating separate file mapping objects backed by the same file. A single file mapping object can be shared by 
     multiple processes through inheriting the handle at process creation, duplicating the handle, or opening the file 
     mapping object by name. For more information, see the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>, 
+    <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, 
     <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> and 
     <a href="https://msdn.microsoft.com/4896144c-78fc-4d21-a302-d9ba66fb2f8a">OpenFileMapping</a> functions.
 
@@ -501,8 +502,8 @@ The exception is related to remote files. Although
     each computer only sees its own writes to the page. When the data gets updated on the disk, it is not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>) are not necessarily coherent.
+    (<a href="base.readfile">ReadFile</a> and 
+    <a href="base.writefile">WriteFile</a>) are not necessarily coherent.
 
 Mapped views of a file mapping object maintain internal references to the object, and a file mapping object 
     does not close until all references to it are released. Therefore, to fully close a file mapping object, an 
@@ -648,7 +649,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -664,7 +665,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

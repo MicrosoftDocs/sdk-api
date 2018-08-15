@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngMapEvent</b> function maps a user-mode event object to kernel mode.
 
 ### -param hDev [in]
 
-Handle to the physical device associated with the event. This is the GDI handle passed as the <i>hdev</i> parameter to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> function.
+Handle to the physical device associated with the event. This is the GDI handle passed as the <i>hdev</i> parameter to the driver's <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a> function.
 
 
 ### -param hUserObject [in]
@@ -103,7 +104,7 @@ A mapped event provides a mechanism by which an application can wait for a kerne
 
 Display and miniport drivers cannot wait for mapped events, but can set or clear them.
 
-The driver can also perform its own cleanup by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a> on the event object returned by <b>EngMapEvent</b>.
+The driver can also perform its own cleanup by calling <a href="https://msdn.microsoft.com/3be72e38-e7ea-407b-87e4-c6293d6160f6">EngUnmapEvent</a> on the event object returned by <b>EngMapEvent</b>.
 
 
 
@@ -113,11 +114,11 @@ The driver can also perform its own cleanup by calling <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>
+<a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
+<a href="https://msdn.microsoft.com/3be72e38-e7ea-407b-87e4-c6293d6160f6">EngUnmapEvent</a>
  
 
  

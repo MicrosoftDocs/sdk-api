@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -99,14 +100,14 @@ The <i>pbBuffer</i> parameter points to an
 Pointer to the buffer that contains the access information structure.
 
 
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-
-
 #### - cbBuffer
 
 Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> parameter.
+
+
+#### - pszServer
+
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

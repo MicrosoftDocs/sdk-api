@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>CryptDecodeMessage</b> function decodes, decrypts, and verifies a cryptog
 This function can be used when the type of cryptographic message is unknown. The <i>dwMsgTypeFlags</i> constants can be combined with a bitwise-<b>OR</b> operation so that the function will try to find one of the types. When one of the types is found, the function reports the type found and returns the data appropriate to that type.
 
 In each pass, the function cracks only a single level of encryption or encoding. For additional cracking, this function, or one of the other 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>, must be called again.
+<a href="cryptography_functions.htm">Simplified Message Functions</a>, must be called again.
 
 
 ## -parameters
@@ -240,7 +241,7 @@ The <i>ppXchgCert</i> or <i>ppSignerCert</i> parameters can be set to <b>NULL</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

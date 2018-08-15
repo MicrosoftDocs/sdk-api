@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -84,7 +85,7 @@ The name and module type identify a unique module (a classifier module and stora
 
 When de-registering a module programmatically (calling 
     <a href="https://msdn.microsoft.com/ce8a17fe-377b-4a0e-9a95-7dc25a1411ce">Delete</a> followed by 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>), the developer should ensure that there are no 
+    <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">Commit</a>), the developer should ensure that there are no 
     active classification rules that use that module. If this is not properly performed, the rules will produce errors 
     during classification runs and the UI will reflect a module that is no longer available.
 

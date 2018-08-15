@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -70,7 +71,7 @@ Specifies the number of port mappings to retrieve.
 ### -param rgVar [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
 <a href="https://msdn.microsoft.com/236608c3-061e-4db0-96df-25d263b6463b">INetSharingPortMapping</a> interface.
 
 

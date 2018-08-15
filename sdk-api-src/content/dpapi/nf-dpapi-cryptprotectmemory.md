@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>CryptProtectMemory</b> function <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> and viewable by others.
+The <b>CryptProtectMemory</b> function <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> and viewable by others.
 
 
 ## -parameters
@@ -126,7 +127,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-Using  <a href="https://msdn.microsoft.com/en-us/library/Aa380262(v=VS.85).aspx">CryptProtectMemory</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa380890(v=VS.85).aspx">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
+Using  <a href="seccpki.cryptprotectmemory">CryptProtectMemory</a> and <a href="seccpki.cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
 Typically, you use the <b>CryptProtectMemory</b> function to encrypt sensitive information that you are going to decrypt while your process is running.  Do not use this function to save data that you want to decrypt later; you will not be able to decrypt the data if the computer is restarted. To save encrypted data to a file to decrypt later, use the <a href="https://msdn.microsoft.com/765a68fd-f105-49fc-a738-4a8129eb0770">CryptProtectData</a> function.  
 

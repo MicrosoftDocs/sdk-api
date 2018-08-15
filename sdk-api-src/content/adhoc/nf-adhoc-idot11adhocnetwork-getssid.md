@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -62,7 +63,7 @@ Gets the SSID of the network.
 
 The SSID of the network.
 
-You must free this string using <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 

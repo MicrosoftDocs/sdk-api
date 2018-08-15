@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Datacenter, Windows Server 2003 Enterprise

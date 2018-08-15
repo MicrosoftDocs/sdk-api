@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -163,7 +164,7 @@ You should not call this function to hide a scroll bar while processing a scroll
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a>
+<a href="https://msdn.microsoft.com/f00224d5-5f37-4b18-91e2-63c66797b243">EnableScrollBar</a>
  
 
  

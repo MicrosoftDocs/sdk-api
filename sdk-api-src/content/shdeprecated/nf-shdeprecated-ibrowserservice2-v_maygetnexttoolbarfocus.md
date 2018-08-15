@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ Deprecated. Used when translating accelerators through <a href="https://msdn.mic
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> that contains the keystroke message.
+A pointer to a <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> that contains the keystroke message.
 
 
 ### -param itbNext [in]

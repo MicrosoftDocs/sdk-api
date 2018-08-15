@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -55,7 +56,7 @@ Sets a 64-bit variable to the specified value as an atomic operation.
 
 To operate on a 16-bit variable, use the <a href="https://msdn.microsoft.com/06756ec6-9c1c-4aac-99de-c45186c89af1">InterlockedExchange16</a> function.
 
-To operate on a 32-bit variable, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547892">InterlockedExchange</a> function.
+To operate on a 32-bit variable, use the <a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a> function.
 
 
 ## -parameters
@@ -108,11 +109,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547853">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547892">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a>
 
 
 
@@ -140,7 +141,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547903">InterlockedExchangeAdd</a>
+<a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a>
 
 
 
@@ -152,7 +153,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547904">InterlockedExchangePointer</a>
+<a href="https://msdn.microsoft.com/479aede8-e9e3-42c2-9081-94c150c7f274">InterlockedExchangePointer</a>
 
 
 

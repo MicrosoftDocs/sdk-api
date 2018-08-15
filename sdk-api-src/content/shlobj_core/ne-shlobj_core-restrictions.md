@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -940,9 +941,10 @@ If nonzero, the system administrator has removed the option to choose the progra
               Windows XP SP2 and SP3 only. Not supported under Windows Vista or later.</b> Cache desktop.ini entries from network folders.
 
 
-#### - REST_NORECENTDOCSNETHOOD
+#### - REST_ALLOWLEGACYLMZBEHAVIOR
 
-Windows Vista. If nonzero, the system administrator has disabled the automatic addition of shortcuts in <b>Network Neighborhood</b> to recently-accessed network resources. Applications do not need to perform any special actions.
+<b>
+              Windows XP SP2 only. Not supported under Windows Vista or later.</b> Indicates allowable LMZ behavior for ActiveX objects changed in Windows XP SP2, this policy gets the pre-Windows XP SP2 behavior.
 
 
 #### - REST_NOCOMPUTERSNEARME
@@ -950,8 +952,7 @@ Windows Vista. If nonzero, the system administrator has disabled the automatic 
 <b>Not supported under Windows Vista and later</b>. If nonzero, the system administrator has hidden the <b>Computers Near Me</b> icon in the <b>My Network Places</b> folder. Applications should remove access to CSIDL_COMPUTERSNEARME.
 
 
-#### - REST_ALLOWLEGACYLMZBEHAVIOR
+#### - REST_NORECENTDOCSNETHOOD
 
-<b>
-              Windows XP SP2 only. Not supported under Windows Vista or later.</b> Indicates allowable LMZ behavior for ActiveX objects changed in Windows XP SP2, this policy gets the pre-Windows XP SP2 behavior.
+Windows Vista. If nonzero, the system administrator has disabled the automatic addition of shortcuts in <b>Network Neighborhood</b> to recently-accessed network resources. Applications do not need to perform any special actions.
 

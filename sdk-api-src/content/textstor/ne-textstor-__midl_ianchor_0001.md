@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,12 +62,12 @@ Elements of the <b>TsGravity</b> enumeration specify the gravity type associated
 
 ### -field TS_GR_BACKWARD
 
-The anchor has backward gravity. For more information about anchor gravity, see <a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges</a>.
+The anchor has backward gravity. For more information about anchor gravity, see <a href="ranges.htm">Ranges</a>.
 
 
 ### -field TS_GR_FORWARD
 
-The anchor has forward gravity. For more information about anchor gravity, see <a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges</a>.
+The anchor has forward gravity. For more information about anchor gravity, see <a href="ranges.htm">Ranges</a>.
 
 
 ## -see-also
@@ -74,7 +75,7 @@ The anchor has forward gravity. For more information about anchor gravity, see <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 

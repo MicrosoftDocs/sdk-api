@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -112,7 +113,7 @@ Deletes the value at a specified property. Property modification
 <a href="https://msdn.microsoft.com/1a62c5d3-7052-4c10-90e7-25f616ac36b8">GetBinary</a>
 </td>
 <td align="left" width="63%">
-Retrieves the binary data of a property using an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>. 
+Retrieves the binary data of a property using an <a href="_stg_istream">IStream interface [Structured Storage]</a>. 
 
 </td>
 </tr>
@@ -122,7 +123,7 @@ Retrieves the binary data of a property using an <a href="https://msdn.microsoft
 </td>
 <td align="left" width="63%">
 Retrieves the date and time value at a specified property into a caller's 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure. All times are stored 
+    <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure. All times are stored 
     and returned as UTC.
 
 </td>
@@ -148,7 +149,7 @@ Returns an <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7ad
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/ecab7290-9a35-4da3-a161-b8d52a031172">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string value at a specified property into a caller-allocated buffer. 
@@ -160,7 +161,7 @@ Retrieves the string value at a specified property into a caller-allocated buffe
 <a href="https://msdn.microsoft.com/432c2417-e762-47ff-b2ce-a244120f0545">SetBinary</a>
 </td>
 <td align="left" width="63%">
-Sets the binary data at a specified property to the contents of a specified <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>, 
+Sets the binary data at a specified property to the contents of a specified <a href="_stg_istream">IStream interface [Structured Storage]</a>, 
 		which contains a null-terminated string (as MIME type) data. 
 
 </td>
@@ -171,7 +172,7 @@ Sets the binary data at a specified property to the contents of a specified <a h
 </td>
 <td align="left" width="63%">
 Sets the date and time value at a specified property to a given 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>. All times are stored and returned as UTC.
+    <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>. All times are stored and returned as UTC.
 
 </td>
 </tr>
@@ -187,7 +188,7 @@ Appends the set of labels passed in to the specified property's label set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
+<a href="https://msdn.microsoft.com/6e8379cc-a5dd-4ffd-b478-a14e649f5f0b">SetString</a>
 </td>
 <td align="left" width="63%">
 Sets the string value of a specified property to that of a specified null-terminated string. 

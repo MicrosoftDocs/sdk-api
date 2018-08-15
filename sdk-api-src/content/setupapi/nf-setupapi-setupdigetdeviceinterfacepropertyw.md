@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Device_Interface_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,17 +68,17 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552342">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to retrieve a device interface property. 
+A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to retrieve a device interface property. 
 
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that represents the device interface property key of the device interface property to retrieve. 
+A pointer to a <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a> structure that represents the device interface property key of the device interface property to retrieve. 
 
 
 ### -param PropertyType [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+A pointer to a <a href="https://msdn.microsoft.com/e0fdcc28-be70-4ae1-bd6d-89e2177eae62">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 
 ### -param PropertyBuffer [out]
@@ -251,7 +252,7 @@ SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceInterfaceProperty
 
 A caller of <b>SetupDiGetDeviceInterfaceProperty</b> must be a member of the Administrators group to set a device interface property. 
 
-To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551959">SetupDiGetDeviceInterfacePropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="https://msdn.microsoft.com/46eedc41-17ee-4306-ad34-22bfd98cb96b">SetupDiGetDeviceInterfacePropertyKeys</a>.
 
 To set a device interface property, call <a href="https://msdn.microsoft.com/5c8da8a3-1c53-42c1-8adc-46743b63f731">SetupDiSetDeviceInterfaceProperty</a>.
 
@@ -263,7 +264,7 @@ To set a device interface property, call <a href="https://msdn.microsoft.com/5c8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551959">SetupDiGetDeviceInterfacePropertyKeys</a>
+<a href="https://msdn.microsoft.com/46eedc41-17ee-4306-ad34-22bfd98cb96b">SetupDiGetDeviceInterfacePropertyKeys</a>
 
 
 

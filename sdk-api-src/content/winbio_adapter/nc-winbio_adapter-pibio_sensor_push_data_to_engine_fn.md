@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -66,7 +67,7 @@ Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae4
 
 ### -param Purpose [in]
 
-A value that specifies the properties of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure that will be passed to the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
+A value that specifies the properties of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that will be passed to the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
 <ul>
@@ -181,7 +182,7 @@ No capture data exists.
 
 
 
-Your implementation of this function should convert raw data contained in the  sample buffer into a standard <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure and push this structure to the engine  by using the <a href="https://msdn.microsoft.com/fa6c5aa4-a9f4-421e-bc43-ced7fade4144">EngineAdapterAcceptSampleData</a> function. The correct way to do this is to call the <b>WbioEngineAcceptSampleData</b> helper function defined in Winbio_adapter.h header file.
+Your implementation of this function should convert raw data contained in the  sample buffer into a standard <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure and push this structure to the engine  by using the <a href="https://msdn.microsoft.com/fa6c5aa4-a9f4-421e-bc43-ced7fade4144">EngineAdapterAcceptSampleData</a> function. The correct way to do this is to call the <b>WbioEngineAcceptSampleData</b> helper function defined in Winbio_adapter.h header file.
 
 
 If the <a href="https://msdn.microsoft.com/fa6c5aa4-a9f4-421e-bc43-ced7fade4144">EngineAdapterAcceptSampleData</a> function returns WINBIO_E_BAD_CAPTURE, your implementation of <i>SensorAdapterPushDataToEngine</i> should return the <i>RejectDetail</i> value propagated by the engine adapter. 

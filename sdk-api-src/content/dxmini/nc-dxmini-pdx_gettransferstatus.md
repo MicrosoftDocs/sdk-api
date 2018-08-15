@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: D3DCOLORVALUE
+req.typenames: DXGI_FORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -74,6 +75,11 @@ The<i> DxGetTransferStatus</i> callback function is used by DirectDraw to determ
 
 
 
+#### - GetTransferOutInfo
+
+Points to a <a href="https://msdn.microsoft.com/593a42be-e1e9-41e5-a006-1513c5aa5226">DDGETTRANSFERSTATUSOUTINFO</a> structure that contains the transfer status information.
+
+
 #### - HwDeviceExtension
 
 Points to the miniport driver's device extension.
@@ -82,11 +88,6 @@ Points to the miniport driver's device extension.
 #### - lpInput
 
 Reserved for system use. 
-
-
-#### - GetTransferOutInfo
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549521">DDGETTRANSFERSTATUSOUTINFO</a> structure that contains the transfer status information.
 
 
 ## -returns
@@ -102,7 +103,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54952
 
 
 
-The driver identifies the bus master by supplying the transfer ID in the DDGETTRANSFERSTATUSOUTINFO structure. The transfer ID for each bus master is originally supplied by DirectDraw in the <b>dwTransferID</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550356">DDTRANSFERININFO</a> structure. DirectDraw passes a pointer to DDTRANSFERININFO in its call to the driver's <a href="https://msdn.microsoft.com/62e1a5f6-9777-4acf-a531-b3554eaf89a6">DxTransfer</a> function. 
+The driver identifies the bus master by supplying the transfer ID in the DDGETTRANSFERSTATUSOUTINFO structure. The transfer ID for each bus master is originally supplied by DirectDraw in the <b>dwTransferID</b> member of the <a href="https://msdn.microsoft.com/9e5f938d-0db6-4df6-a9c2-49840fef8c03">DDTRANSFERININFO</a> structure. DirectDraw passes a pointer to DDTRANSFERININFO in its call to the driver's <a href="https://msdn.microsoft.com/62e1a5f6-9777-4acf-a531-b3554eaf89a6">DxTransfer</a> function. 
 
 
 
@@ -112,11 +113,11 @@ The driver identifies the bus master by supplying the transfer ID in the DDGETTR
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549521">DDGETTRANSFERSTATUSOUTINFO</a>
+<a href="https://msdn.microsoft.com/593a42be-e1e9-41e5-a006-1513c5aa5226">DDGETTRANSFERSTATUSOUTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550356">DDTRANSFERININFO</a>
+<a href="https://msdn.microsoft.com/9e5f938d-0db6-4df6-a9c2-49840fef8c03">DDTRANSFERININFO</a>
 
 
 

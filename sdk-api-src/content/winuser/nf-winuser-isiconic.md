@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -94,7 +95,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633531(v=VS.85).aspx">IsZoomed</a>
+<a href="https://msdn.microsoft.com/7eece45d-5d18-4b1a-947e-1ed76a228bd9">IsZoomed</a>
 
 
 
@@ -102,7 +103,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

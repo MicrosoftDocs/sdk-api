@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -74,16 +75,16 @@ Application to retrieve.
 
 
 
+#### - String imageFileName [in]
+
+Application to retrieve.
+
+
 #### - application [out]
 
 Reference to the returned <a href="https://msdn.microsoft.com/1ddeeab8-b81b-4d34-9ca6-103147fb3426">INetFwAuthorizedApplication</a> object.
 
 Reference to the returned <a href="https://msdn.microsoft.com/1ddeeab8-b81b-4d34-9ca6-103147fb3426">INetFwAuthorizedApplication</a> object.
-
-
-#### - String imageFileName [in]
-
-Application to retrieve.
 
 
 ## -returns

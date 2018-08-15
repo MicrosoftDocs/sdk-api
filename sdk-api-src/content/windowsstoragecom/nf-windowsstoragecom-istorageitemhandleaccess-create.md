@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -98,7 +99,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt765063(v=VS.85).aspx">IStorageItemHandleAccess</a>
+<a href="com.istorageitemhandleaccess">IStorageItemHandleAccess</a>
  
 
  

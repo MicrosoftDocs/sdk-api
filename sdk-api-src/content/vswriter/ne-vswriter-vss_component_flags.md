@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows UI
 
 The <b>VSS_COMPONENT_FLAGS</b> enumeration is 
     used by writers to indicate support for 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recovery</a>. These 
+    <a href="vssgloss_a.htm">auto-recovery</a>. These 
     values are used in the <b>dwComponentFlags</b> member of 
     the <a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> structure and the 
     <i>dwComponentFlags</i> parameter of 

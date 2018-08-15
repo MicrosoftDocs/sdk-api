@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,7 +79,7 @@ Device context on which to draw. Cannot be a metafile device context.
 
 #### - lprcBounds [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure and passed to <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>.
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure and passed to <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a>.
 
 
 #### - [in]
@@ -184,7 +185,7 @@ The object doesn't support the <a href="https://msdn.microsoft.com/4310c987-3542
 
 
 
-The OleDraw helper function calls the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure, and calls <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> as follows:
+The OleDraw helper function calls the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure, and calls <a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">IViewObject::Draw</a> as follows:
 
 <pre class="syntax" xml:space="preserve"><code>lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);</code></pre>
 Do not use this function to draw into a metafile because it does not specify the parameter required for drawing into metafiles.

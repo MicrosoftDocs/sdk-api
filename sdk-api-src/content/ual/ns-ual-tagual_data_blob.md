@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ual.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -66,12 +67,12 @@ The size, in bytes, of this structure.
 
 ### -field RoleGuid
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that represents the role or minor product name associated with a UAL session.
+A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that represents the role or minor product name associated with a UAL session.
 
 
 ### -field TenantId
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies a tenant of a hosted environment. This can be used to differentiate client tenants when more than one tenant uses the same host service.
+A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies a tenant of a hosted environment. This can be used to differentiate client tenants when more than one tenant uses the same host service.
 
 
 ### -field Address

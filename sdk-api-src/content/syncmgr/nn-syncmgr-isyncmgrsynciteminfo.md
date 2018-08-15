@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -107,7 +108,7 @@ Generates a value that indicates whether the item—typically some type of exter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450992">IsEnabled</a>
+<a href="https://msdn.microsoft.com/47383322-3fb6-47aa-9c97-9d432845fd35">IsEnabled</a>
 </td>
 <td align="left" width="63%">
 Generates a value that indicates whether the item is enabled.

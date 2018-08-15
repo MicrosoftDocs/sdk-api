@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddRectangles methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,19 +66,19 @@ AddRectangles methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535589(v=VS.85).aspx">AddRectangles(Rect*,INT)</a>
+<a href="https://msdn.microsoft.com/0aa4a23b-3041-4c65-b81e-bbe47ec35007">AddRectangles(Rect*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535589(v=VS.85).aspx">GraphicsPath::AddRectangles</a> method adds a sequence of rectangles to this path
+The <a href="https://msdn.microsoft.com/0aa4a23b-3041-4c65-b81e-bbe47ec35007">GraphicsPath::AddRectangles</a> method adds a sequence of rectangles to this path
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535590(v=VS.85).aspx">AddRectangles(RectF*,INT)</a>
+<a href="https://msdn.microsoft.com/9f5e91b9-bf02-4f4b-bb33-7a2dae2e1306">AddRectangles(RectF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535590(v=VS.85).aspx">GraphicsPath::AddRectangles</a> method adds a sequence of rectangles to this path.
+The <a href="https://msdn.microsoft.com/9f5e91b9-bf02-4f4b-bb33-7a2dae2e1306">GraphicsPath::AddRectangles</a> method adds a sequence of rectangles to this path.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -82,14 +83,14 @@ Determines whether a specific user or type of user has permission to perform a s
 
 
 
-#### - AutomaticUpdatesUserType [in]
-
-An enumeration that indicates the type of user to verify permissions.
-
-
 #### - AutomaticUpdatesPermissionType [in]
 
 An enumeration that indicates the user's permission level.
+
+
+#### - AutomaticUpdatesUserType [in]
+
+An enumeration that indicates the type of user to verify permissions.
 
 
 ## -returns

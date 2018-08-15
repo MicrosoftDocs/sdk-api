@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760993(v=VS.85).aspx">MCM_SETCALENDARBORDER</a> message explicitly.
+Sets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/2a64a08f-a1fb-47a8-8f09-725807e87a03">MCM_SETCALENDARBORDER</a> message explicitly.
 
 
 ## -parameters

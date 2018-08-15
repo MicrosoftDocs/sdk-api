@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -302,7 +303,7 @@ The quality of protection negotiated between the client and server did not inclu
 
 
 
-The <b>MakeSignature</b> function generates a signature that is based on the message and the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>.
+The <b>MakeSignature</b> function generates a signature that is based on the message and the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
 
 The <a href="https://msdn.microsoft.com/bebeef92-1d6e-4879-846f-12d706db0653">VerifySignature</a> function verifies the messages signed by the <b>MakeSignature</b> function.
 
@@ -316,7 +317,7 @@ If the transport application created the security context to support sequence de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

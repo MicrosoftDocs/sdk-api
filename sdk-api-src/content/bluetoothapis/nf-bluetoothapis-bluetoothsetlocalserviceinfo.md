@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 

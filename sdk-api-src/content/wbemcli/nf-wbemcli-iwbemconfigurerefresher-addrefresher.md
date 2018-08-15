@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -92,7 +93,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 Users should not add recursively nested refreshers. The returned identifier can be used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> function to remove the refresher. Although it is not necessary for the client to explicitly remove added refreshers, the client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the refreshers when they are no longer required.
+<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the refresher. Although it is not necessary for the client to explicitly remove added refreshers, the client must call <a href="_com_iunknown_release">Release</a> on the refreshers when they are no longer required.
 
 
 

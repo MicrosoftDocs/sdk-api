@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: xinput.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ Gets the sound rendering and sound capture device GUIDs that are associated with
 
 ### -param dwUserIndex
 
-[in] Index of the user's controller. It can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/en-us/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>.
+[in] Index of the user's controller. It can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="getting_started_with_xinput.htm">Multiple Controllers</a>.
 
 
 ### -param pDSoundRenderGuid
@@ -119,7 +120,7 @@ DirectX SDK (XInput 1.3), Windows Vista (XInput 9.1.0)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a>
  
 
  

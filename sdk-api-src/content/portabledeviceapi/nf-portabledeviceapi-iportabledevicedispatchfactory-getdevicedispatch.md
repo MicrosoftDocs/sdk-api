@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -117,7 +118,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597563">Device Object</a>
+<a href="https://msdn.microsoft.com/012e266d-e1b0-4d15-841f-04b6d21d27ae">Device Object</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -104,7 +105,7 @@ Specifies the RGB color that is to be dithered.
 
 ### -param pul [in, out]
 
-Pointer to the memory location that receives the dithering information. Memory must have been allocated for a standard-format bitmap with dithered brush dimensions <b>cxDither</b> by <b>cyDither</b>. These dimensions are members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a> structure. The bitmap format is determined by the <b>iDitherFormat</b> member of the DEVINFO structure.
+Pointer to the memory location that receives the dithering information. Memory must have been allocated for a standard-format bitmap with dithered brush dimensions <b>cxDither</b> by <b>cyDither</b>. These dimensions are members of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure. The bitmap format is determined by the <b>iDitherFormat</b> member of the DEVINFO structure.
 
 
 ## -returns
@@ -132,11 +133,11 @@ The result of the dither is a set of device color indices stored in <i>pul</i>. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a>
+<a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
  
 
  

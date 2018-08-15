@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -92,7 +93,7 @@ You call the <a href="https://msdn.microsoft.com/DC1A054D-4092-4865-A6EF-B936891
 
 The following figure shows granularity of graphics rendering tasks.
 
-<img alt="Graphics Rendering Granularity" src="./images/Graphics_Preempt.png"/>
+<img alt="Graphics Rendering Granularity" src="images/Graphics_Preempt.png"/>
 
 
 

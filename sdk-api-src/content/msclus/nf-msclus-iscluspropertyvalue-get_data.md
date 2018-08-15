@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,8 +59,8 @@ req.product: GDI+ 1.1
 
 Retrieves a 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
-    collection containing all of the <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">data values</a> associated 
-    with a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property value</a>.
+    collection containing all of the <a href="d_gly.htm">data values</a> associated 
+    with a <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

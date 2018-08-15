@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The Item property returns a <a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
+The Item property returns a <a href="https://msdn.microsoft.com/894a58b7-3a5f-4723-abcb-764567e49e76">FaxOutboundRoutingGroup</a> object from the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection.
 
 This property is read-only.
 
@@ -64,7 +65,7 @@ This property is read-only.
 
 
 
-To return the group consisting of all of the devices, set <i>vIndex</i> equal to the constant <a href="https://msdn.microsoft.com/en-us/library/ms690064(v=VS.85).aspx">bstrGROUPNAME_ALLDEVICES</a>. 
+To return the group consisting of all of the devices, set <i>vIndex</i> equal to the constant <a href="https://msdn.microsoft.com/a8a89fcb-2cd6-4923-b26e-7191328c405f">bstrGROUPNAME_ALLDEVICES</a>. 
 		
 
 
@@ -75,15 +76,15 @@ To return the group consisting of all of the devices, set <i>vIndex</i> equal to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

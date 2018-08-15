@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,16 +69,16 @@ Pointer to the pixel shader function token array, specifying the blending operat
 
 ### -param ppShader [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205869(v=VS.85).aspx">IDirect3DPixelShader9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b199544d-4617-4fe2-8a4a-d54fabd4d449">IDirect3DPixelShader9</a>**</b>
 
-Pointer to the returned pixel shader interface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205869(v=VS.85).aspx">IDirect3DPixelShader9</a>.
+Pointer to the returned pixel shader interface. See <a href="https://msdn.microsoft.com/b199544d-4617-4fe2-8a4a-d54fabd4d449">IDirect3DPixelShader9</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, 
 E_OUTOFMEMORY.
@@ -90,15 +91,15 @@ E_OUTOFMEMORY.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172707(v=VS.85).aspx">D3DXAssembleShader</a>
+<a href="https://msdn.microsoft.com/24c3dcae-9397-4856-b072-0ae340157bf9">D3DXAssembleShader</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172708(v=VS.85).aspx">D3DXAssembleShaderFromFile</a>
+<a href="https://msdn.microsoft.com/2977b64a-b8cc-454b-8e28-291f6f2c6fc1">D3DXAssembleShaderFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

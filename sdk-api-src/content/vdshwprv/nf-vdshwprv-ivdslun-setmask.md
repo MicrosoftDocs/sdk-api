@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -99,7 +100,7 @@ This method can return standard <b>HRESULT</b> values, such as
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
       <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It 
       can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using 
-      the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate 
+      the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate 
       from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is 
       being used. Possible return values include the following.
 
@@ -200,7 +201,7 @@ Before calling the <b>SetMask</b> method to mask a LUN,
          <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a> structure for each volume. The 
          <b>id</b> member of this structure contains the volume <b>GUID</b>. 
          The <b>pwszName</b> member contains the volume name to be passed to 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> to obtain a volume handle.</li>
+         <a href="base.createfile">CreateFile</a> to obtain a volume handle.</li>
 <li>Use the volume GUIDs that were obtained by calling 
          <a href="https://msdn.microsoft.com/2e7de42f-da7a-41a7-b38e-849ab8d72ab2">IVdsDisk::QueryExtents</a> to determine which of 
          the volume names you will need from the list of enumerated volumes.</li>
@@ -217,9 +218,9 @@ Before calling the <b>SetMask</b> method to mask a LUN,
 <div> </div>
 </li>
 <li>Dismount each volume by using the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff728857">FSCTL_DISMOUNT_VOLUME</a> control code.</li>
+       <a href="https://msdn.microsoft.com/84ca7f8d-6a0a-43d6-9970-9c01099eaad4">FSCTL_DISMOUNT_VOLUME</a> control code.</li>
 <li>If the volumes are on basic disks, take them offline by using the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561431">IOCTL_VOLUME_OFFLINE</a> control code.</li>
+       <a href="https://msdn.microsoft.com/7c9b97eb-c167-41cd-b235-7a9d7830915e">IOCTL_VOLUME_OFFLINE</a> control code.</li>
 <li>Uninstall each volume using the <b>SetupDiCallClassInstaller</b> function, 
        passing <b>DIF_REMOVE</b> for the <i>InstallFunction</i> parameter.</li>
 <li>Uninstall each disk using the <b>SetupDiCallClassInstaller</b> function, passing 

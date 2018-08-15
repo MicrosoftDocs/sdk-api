@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -95,7 +96,7 @@ The user-friendly name for the GPO from which this application is deployed.
 
 ### -field ProductId
 
-If this application is installed by <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>, this member is the ProductId GUID.
+If this application is installed by <a href="setup.windows_installer_start_page">Windows Installer</a>, this member is the ProductId GUID.
 
 
 ### -field Language
@@ -136,7 +137,7 @@ Indicates the type of package used to install the application. This member can h
 
 #### MANAGED_APPTYPE_WINDOWSINSTALLER
 
-The application is installed using the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>.
+The application is installed using the <a href="setup.windows_installer_start_page">Windows Installer</a>.
 
 
 

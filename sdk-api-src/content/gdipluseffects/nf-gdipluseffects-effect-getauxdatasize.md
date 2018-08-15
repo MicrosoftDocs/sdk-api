@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Effect::GetAuxDataSize</b> method gets the size, in bytes, of the auxiliary data created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. 
+The <b>Effect::GetAuxDataSize</b> method gets the size, in bytes, of the auxiliary data created by a previous call to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method. 
 
 
 ## -parameters
@@ -78,11 +79,11 @@ This method returns the size, in bytes, of the auxiliary data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a>
+<a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536210(v=VS.85).aspx">Effect::GetAuxData</a>
+<a href="https://msdn.microsoft.com/b418496f-4304-4885-bcba-c8178b90a788">Effect::GetAuxData</a>
  
 
  

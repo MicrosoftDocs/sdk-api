@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -82,7 +83,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If a platform does not support <b>EndMenu</b>, send the owner of the active menu a <a href="https://msdn.microsoft.com/en-us/library/ms632615(v=VS.85).aspx">WM_CANCELMODE</a> message.
+If a platform does not support <b>EndMenu</b>, send the owner of the active menu a <a href="https://msdn.microsoft.com/c801233a-c4d8-4fd9-aaf0-3d4503bbce26">WM_CANCELMODE</a> message.
 
 
 
@@ -96,7 +97,7 @@ If a platform does not support <b>EndMenu</b>, send the owner of the active menu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -104,7 +105,7 @@ If a platform does not support <b>EndMenu</b>, send the owner of the active menu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632615(v=VS.85).aspx">WM_CANCELMODE</a>
+<a href="https://msdn.microsoft.com/c801233a-c4d8-4fd9-aaf0-3d4503bbce26">WM_CANCELMODE</a>
  
 
  

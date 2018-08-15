@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ This attribute should not be used explicitly by requesters when setting the cont
 
 ### -field VSS_VOLSNAP_ATTR_NO_AUTORECOVERY
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">Auto-recovery</a> is disabled for the shadow copy.
+<a href="vssgloss_a.htm">Auto-recovery</a> is disabled for the shadow copy.
 
 A requester can modify a shadow copy context with a bitwise OR of this attribute. By doing this, the requester instructs VSS to make the shadow copy read-only immediately after it is created, without allowing writers or other applications to update components in the shadow copy.
 
@@ -249,7 +250,7 @@ This attribute should not be used explicitly by requesters when setting the cont
 ### -field VSS_VOLSNAP_ATTR_AUTORECOVER
 
 Indicates that the writer will need to 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> the component in 
+      <a href="vssgloss_a.htm">auto-recover</a> the component in 
       <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>.
       
 
@@ -259,7 +260,7 @@ This attribute should not be used explicitly by requesters when setting the cont
 ### -field VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY
 
 Indicates that the writer will need to 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> the component in 
+      <a href="vssgloss_a.htm">auto-recover</a> the component in 
       <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a> if the shadow 
       copy is being used for rollback (for data mining, for example).
       

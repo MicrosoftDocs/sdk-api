@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,7 +57,7 @@ Gets access to an OLE control on a Visual Basic container.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetOleObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGetOleObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetOleObject</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IGetOleObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

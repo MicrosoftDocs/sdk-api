@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ The number of dynamic audio objects that are available to be rendered for the cu
 
 ### -param frameCountPerBuffer [out]
 
-The size, in audio frames, of the buffer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>.
+The size, in audio frames, of the buffer returned by <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C2D-A475-22BF770DD59D">GetBuffer</a>.
 
 
 ## -returns

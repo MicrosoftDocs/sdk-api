@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiRemoveDevice</b> function is the default handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543717">DIF_REMOVE</a> installation request. 
+The <b>SetupDiRemoveDevice</b> function is the default handler for the <a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a> installation request. 
 
 
 ## -parameters
@@ -66,7 +67,7 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoSet</i>.<b>DevInst</b> might be updated with a new handle value upon return. If this is a global removal or the last hardware profile-specific removal, all traces of the device instance are deleted from the registry and the handle will be <b>NULL</b>. 
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoSet</i>.<b>DevInst</b> might be updated with a new handle value upon return. If this is a global removal or the last hardware profile-specific removal, all traces of the device instance are deleted from the registry and the handle will be <b>NULL</b>. 
 
 
 ## -returns
@@ -84,7 +85,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 <b>SetupDiRemoveDevice</b> removes the device from the system. It deletes the device's hardware and software registry keys and any hardware-profile-specific registry keys (configuration-specific registry keys). This function dynamically stops the device if its <b>DevInst</b> is active and this is a global removal or the last configuration-specific removal. If the device cannot be dynamically stopped, flags are set in the Install Parameter block of the device information set that eventually cause the user to be prompted to restart the computer. 
 
-Device removal is either global to all hardware profiles or specific to one hardware profile as specified by the <b>Scope</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553323">SP_REMOVEDEVICE_PARAMS</a> structure that supplies the class installation parameters for the DIF_REMOVE request. Configuration-specific removal is only appropriate for root-enumerated devices and should only be requested by system code. 
+Device removal is either global to all hardware profiles or specific to one hardware profile as specified by the <b>Scope</b> member of the <a href="https://msdn.microsoft.com/08d3a5c7-9350-4fb3-8476-fb22e34d7054">SP_REMOVEDEVICE_PARAMS</a> structure that supplies the class installation parameters for the DIF_REMOVE request. Configuration-specific removal is only appropriate for root-enumerated devices and should only be requested by system code. 
 
 The caller of <b>SetupDiRemoveDevice</b> must be a member of the Administrators group.
 
@@ -98,11 +99,11 @@ The caller of <b>SetupDiRemoveDevice</b> must be a member of the Administrators 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553323">SP_REMOVEDEVICE_PARAMS</a>
+<a href="https://msdn.microsoft.com/08d3a5c7-9350-4fb3-8476-fb22e34d7054">SP_REMOVEDEVICE_PARAMS</a>
  
 
  

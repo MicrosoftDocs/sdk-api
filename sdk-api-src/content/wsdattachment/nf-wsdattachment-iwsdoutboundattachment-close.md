@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,7 +92,7 @@ Method completed successfully. All data in the attachment stream was successfull
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> was called before <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> was called. You must call <b>Write</b> before closing the attachment stream.
+<a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a> was called before <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> was called. You must call <b>Write</b> before closing the attachment stream.
 
 </td>
 </tr>
@@ -118,7 +119,7 @@ Internal buffers were not available. The data in the attachment stream was not s
 
 <b>Close</b> is used to indicate that the application has no more data to transmit in the current attachment stream. The return value can indicate an error in a previous Write operation or an issue closing the connection.
 
-<b>Close</b> may block while waiting for a previous <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> operation to complete.
+<b>Close</b> may block while waiting for a previous <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> operation to complete.
 <b>Close</b> may block for up to 30 seconds (per HTTP transmission timeouts) while waiting for a  previous <b>Write</b> operation to complete.
 
 

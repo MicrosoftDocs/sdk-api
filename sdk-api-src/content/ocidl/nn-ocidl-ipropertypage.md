@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -58,7 +59,7 @@ A property page manages a dialog box that contains only those controls that shou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPage</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPropertyPage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPage</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPropertyPage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,7 +110,7 @@ Retrieves information about the property page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926862">Help</a>
+<a href="https://msdn.microsoft.com/ba715518-1aa0-42de-bad7-f2d0d0f00460">Help</a>
 </td>
 <td align="left" width="63%">
 Invokes the property page help in response to an end-user request.

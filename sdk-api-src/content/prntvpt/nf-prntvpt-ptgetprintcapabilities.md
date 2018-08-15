@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ If the <i>pCapabilities</i> is not compliant with the <a href="https://msdn.micr
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 
 
@@ -112,7 +113,7 @@ The printer driver uses <i>pPrintTicket</i> values (when the value is not <b>NUL
 
 When the function returns, the seek position of <i>pPrintTicket</i> is at the end of the print ticket content and the seek position of <i>pCapabilities</i> is at the end of the stream. If the caller uses a memory stream for <i>pCapabilities</i>, such as a stream created by <a href="https://msdn.microsoft.com/413c107b-a943-4c02-9c00-aea708e876d7">CreateStreamOnHGlobal</a> , the caller is responsible for resetting the seek position before reading the data.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 
@@ -130,7 +131,7 @@ If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
  
 
  

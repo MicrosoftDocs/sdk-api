@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>LogonUserEx</b> function attempts to log a user on to the local computer. The local computer is the computer from which <b>LogonUserEx</b> was called. You cannot use <b>LogonUserEx</b> to log on to a remote computer. You specify the user with a user name and domain and <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authenticate</a> the user with a plaintext password. If the function succeeds, you receive a handle to a token that represents the logged-on user. You can then use this token handle to impersonate the specified user or, in most cases, to create a <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a>  that runs in the context of the specified user.
+The <b>LogonUserEx</b> function attempts to log a user on to the local computer. The local computer is the computer from which <b>LogonUserEx</b> was called. You cannot use <b>LogonUserEx</b> to log on to a remote computer. You specify the user with a user name and domain and <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authenticate</a> the user with a plaintext password. If the function succeeds, you receive a handle to a token that represents the logged-on user. You can then use this token handle to impersonate the specified user or, in most cases, to create a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a>  that runs in the context of the specified user.
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -101,7 +102,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/9ed9183b-c1a2-4251-bb65-bd947c2034ad">GetFlags</a>
 
 
 

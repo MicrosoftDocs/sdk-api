@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -177,7 +178,7 @@ The provider is using a WMI DLL that does not match the .lib fileused when the p
 The provider's DLL or any of the DLLs on which it depends is corrupt.
 
 The provider failed to export 
-      <a href="https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx">DllRegisterServer</a>.
+      <a href="_com_dllregisterserver">DllRegisterServer</a>.
 
 An in-process provider was not registered using /regsvr32.
 
@@ -301,7 +302,7 @@ Reserved for future use.
 ### -field wbemErrIllegalNull
 
 A value of Nothing was specified for a property that may not be Nothing, such as one that is marked by a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a>, <b>Indexed</b>, 
+     <a href="https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc">Key</a>, <b>Indexed</b>, 
      or <b>Not_Null</b> qualifier.
 
 
@@ -381,21 +382,21 @@ A parameter was missing from the method call.
 
 ### -field wbemErrInvalidParameterId
 
-A method parameter has an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a> 
+A method parameter has an <a href="https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e">ID</a> 
      qualifier that is not valid.
 
 
 ### -field wbemErrNonConsecutiveParameterIds
 
 One or more of the method parameters have 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a> qualifiers that are out of 
+     <a href="https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e">ID</a> qualifiers that are out of 
      sequence.
 
 
 ### -field wbemErrParameterIdOnRetval
 
 The return value for a method has an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a> qualifier.
+     <a href="https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e">ID</a> qualifier.
 
 
 ### -field wbemErrInvalidObjectPath

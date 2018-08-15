@@ -15,6 +15,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ The <b>IAVIEditStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/7112056e-5e25-4262-abe3-5cbb0675a475">Clone</a>
 </td>
 <td align="left" width="63%">
 Duplicates a stream.
@@ -85,7 +86,7 @@ Duplicates a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/d2012d04-4fe5-4a49-8160-d27b7bc1bfc8">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies a stream or a portion of it to a temporary stream.

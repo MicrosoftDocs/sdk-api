@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -91,7 +92,7 @@ Each process receives the <a href="https://msdn.microsoft.com/f641f451-964b-4a84
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a>
+<a href="https://msdn.microsoft.com/b1a62712-cd03-4728-b0f1-c1b543f2e056">Suspend</a>
  
 
  

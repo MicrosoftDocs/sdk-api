@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -63,6 +64,18 @@ A support structure used in the
 
 
 
+#### - Class_GetClassName
+
+Gets the class name from a serialized class buffer. See 
+       <a href="https://msdn.microsoft.com/a4dc8992-ccdf-4883-a37d-83cb6d8da53a">MI_Deserializer_Class_GetClassName</a>.
+
+
+#### - Class_GetParentClassName
+
+Gets the parent class name from a serialized class buffer. See 
+       <a href="https://msdn.microsoft.com/35e1d864-cc81-466e-bc5b-006c0aaf56fc">MI_Deserializer_Class_GetParentClassName</a>.
+
+
 #### - Close
 
 Deletes the deserializer object and its associated memory. See 
@@ -74,18 +87,6 @@ Deletes the deserializer object and its associated memory. See
 Deserializes a serialized buffer into an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> 
        object. See 
        <a href="https://msdn.microsoft.com/09ad196c-9940-4d10-8a4e-1e06acd5d677">MI_Deserializer_DeserializeClass</a>.
-
-
-#### - Class_GetClassName
-
-Gets the class name from a serialized class buffer. See 
-       <a href="https://msdn.microsoft.com/a4dc8992-ccdf-4883-a37d-83cb6d8da53a">MI_Deserializer_Class_GetClassName</a>.
-
-
-#### - Class_GetParentClassName
-
-Gets the parent class name from a serialized class buffer. See 
-       <a href="https://msdn.microsoft.com/35e1d864-cc81-466e-bc5b-006c0aaf56fc">MI_Deserializer_Class_GetParentClassName</a>.
 
 
 #### - DeserializeInstance

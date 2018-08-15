@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,9 +83,9 @@ Pointer to a caller-allocated variable that receives a handle for the minifilter
 
 
 
-A user-mode application calls <b>FilterCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter. The returned minifilter handle can be passed as a parameter to functions such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>. 
+A user-mode application calls <b>FilterCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter. The returned minifilter handle can be passed as a parameter to functions such as <a href="https://msdn.microsoft.com/d5124ac2-dd1e-46b2-b25c-e965768eaf9e">FilterGetInformation</a>. 
 
-To close a filter handle returned by <b>FilterCreate</b>, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540453">FilterClose</a>. 
+To close a filter handle returned by <b>FilterCreate</b>, call <a href="https://msdn.microsoft.com/c5d3774e-6f57-4a6b-97a8-623268884859">FilterClose</a>. 
 
 
 
@@ -94,11 +95,11 @@ To close a filter handle returned by <b>FilterCreate</b>, call <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540453">FilterClose</a>
+<a href="https://msdn.microsoft.com/c5d3774e-6f57-4a6b-97a8-623268884859">FilterClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>
+<a href="https://msdn.microsoft.com/d5124ac2-dd1e-46b2-b25c-e965768eaf9e">FilterGetInformation</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IEnumTfInputProcessorProfiles</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/485c27ac-20da-4974-832c-8305d18b2c4b">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -80,7 +81,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/b936c479-a5f1-47a3-bd5a-f1b83cd84dc0">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains, from the current position, the specified number of elements in the enumeration sequence.
@@ -89,7 +90,7 @@ Obtains, from the current position, the specified number of elements in the enum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/ffb78b29-8d05-4622-a026-69af0d86c9c2">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -98,7 +99,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.

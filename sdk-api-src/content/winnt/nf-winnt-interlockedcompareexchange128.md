@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -55,7 +56,7 @@ Performs an atomic compare-and-exchange operation on the specified values. The f
 
 To operate on 16-bit values, use the <a href="https://msdn.microsoft.com/5bf2e0d7-1b64-4622-8b6f-4ac903027064">InterlockedCompareExchange16</a> function.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547853">InterlockedCompareExchange</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a> function.
 
 To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/b0799de3-49f9-4eef-9c14-d145f42ce57b">InterlockedCompareExchange64</a> function.
 
@@ -131,7 +132,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547853">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a>
 
 
 
@@ -155,7 +156,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547857">InterlockedCompareExchangeAcquire</a>
+<a href="https://msdn.microsoft.com/6cb7d17b-dfda-431e-9c74-cc42d62202ba">InterlockedCompareExchangeAcquire</a>
 
 
 
@@ -171,7 +172,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547863">InterlockedCompareExchangePointer</a>
+<a href="https://msdn.microsoft.com/15c1fadd-9e0d-4254-ae14-82b0ce46909e">InterlockedCompareExchangePointer</a>
 
 
 
@@ -187,7 +188,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547867">InterlockedCompareExchangeRelease</a>
+<a href="https://msdn.microsoft.com/3e35f752-dc58-4a87-8284-bdbe5692aaa6">InterlockedCompareExchangeRelease</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -61,7 +62,7 @@ Retrieves a UNC path string and a scope indicator describing which path-based ev
 
 ### -param ppszFilter [out]
 
-Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> function.
+Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 
 ### -param pMatch [out]

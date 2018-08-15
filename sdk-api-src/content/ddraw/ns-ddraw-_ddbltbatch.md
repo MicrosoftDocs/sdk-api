@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the <a
 
 ### -field lprDest
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the destination for the bitblt.
+Address of a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that defines the destination for the bitblt.
 
 
 ### -field lpDDSSrc
@@ -72,7 +73,7 @@ Address of a DirectDrawSurface object to be the source of the bitblt.
 
 ### -field lprSrc
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the source rectangle of the bitblt.
+Address of a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that defines the source rectangle of the bitblt.
 
 
 ### -field dwFlags

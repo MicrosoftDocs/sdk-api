@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -63,13 +64,13 @@ The
 ### -param pSecurityDescriptor [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> against which access on the object is checked.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> against which access on the object is checked.
 
 
 ### -param pPrincipalSelfSid [in]
 
 Pointer to a SID. If the security descriptor is associated with an object that represents a principal (for example, a user object), this parameter should be the SID of the object. When evaluating access, this SID logically replaces the SID in any ACE containing the well-known <b>PRINCIPAL_SELF</b> SID ("S-1-5-10"). For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a> and 
+<a href="security.security_identifiers_sids_">Security Identifiers</a> and 
 <a href="https://msdn.microsoft.com/eb2f95c4-9465-409b-b76c-9ccae1d05eda">Well-Known SIDs</a>.
 
 This parameter should be <b>NULL</b> if the protected object does not represent a principal.
@@ -106,7 +107,7 @@ Specifies the number of elements in the <i>pObjectTypeList</i> array.
 ### -param pGenericMapping [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
+<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
 
 ### -param pPrivilegeSet [in]

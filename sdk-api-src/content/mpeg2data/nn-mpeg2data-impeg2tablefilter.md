@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2data.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IMpeg2TableFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+<a href="https://msdn.microsoft.com/20484b0e-c6c8-4741-9672-a991ba368e92">AddExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a table extension to the list of MPEG-2 table sections that the filter sends.
@@ -101,7 +102,7 @@ Adds a table identifier (TID) to the list of MPEG-2 table sections that the filt
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
+<a href="https://msdn.microsoft.com/1f29f29d-d411-44b7-bedb-6d10c49a0d4d">RemoveExtension</a>
 </td>
 <td align="left" width="63%">
 Removes a table extension from the list.

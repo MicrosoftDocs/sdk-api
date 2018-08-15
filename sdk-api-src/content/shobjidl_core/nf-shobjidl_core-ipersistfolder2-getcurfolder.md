@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ Gets the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04
 
 Type: <b>LPITEMIDLIST*</b>
 
-The address of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> pointer. This PIDL represents the absolute location of the folder and must be relative to the desktop. This is typically a copy of the PIDL passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>.
+The address of an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> pointer. This PIDL represents the absolute location of the folder and must be relative to the desktop. This is typically a copy of the PIDL passed to <a href="https://msdn.microsoft.com/179f13c9-7306-4ed5-935e-2620616b46c1">Initialize</a>.
 
 
 ## -returns

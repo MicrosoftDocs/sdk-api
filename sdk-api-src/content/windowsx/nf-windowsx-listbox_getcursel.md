@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775197(v=VS.85).aspx">LB_GETCURSEL</a> message explicitly.
+Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/39ab7f77-6c8e-45a4-aad4-47eba0a11a11">LB_GETCURSEL</a> message explicitly.
 
 
 
@@ -72,7 +73,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775197(v=VS.85).aspx">LB_GETCURSEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/39ab7f77-6c8e-45a4-aad4-47eba0a11a11">LB_GETCURSEL</a>.
 
 
 

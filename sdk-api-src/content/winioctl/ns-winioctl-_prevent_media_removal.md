@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Provides removable media locking data. It is used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560579">IOCTL_STORAGE_MEDIA_REMOVAL</a> control code.
+<a href="https://msdn.microsoft.com/5971daa1-3bb7-4050-b252-2f5cabb1bf67">IOCTL_STORAGE_MEDIA_REMOVAL</a> control code.
 
 
 ## -struct-fields
@@ -70,7 +71,7 @@ If this member is <b>TRUE</b>, the media is to be locked. Otherwise, it is not.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560579">IOCTL_STORAGE_MEDIA_REMOVAL</a>
+<a href="https://msdn.microsoft.com/5971daa1-3bb7-4050-b252-2f5cabb1bf67">IOCTL_STORAGE_MEDIA_REMOVAL</a>
  
 
  

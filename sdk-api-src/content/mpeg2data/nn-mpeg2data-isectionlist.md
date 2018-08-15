@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2data.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -119,7 +120,7 @@ Returns the table identifier (TID) of the packets that this object is receiving.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/196abb62-97f6-4961-b843-895ae35fedc4">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.

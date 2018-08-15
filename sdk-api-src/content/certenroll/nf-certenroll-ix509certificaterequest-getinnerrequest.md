@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ The <b>GetInnerRequest</b> method retrieves a nested request object.
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a> interface that contains the nested request. Call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> property to determine whether the inner request object is a PKCS #10 or a CMC request. Then call <b>QueryInterface</b> to retrieve the appropriate pointer.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a> interface that contains the nested request. Call the <a href="https://msdn.microsoft.com/04e7e4eb-8f65-45d3-bf1d-abcb83fcf1a0">Type</a> property to determine whether the inner request object is a PKCS #10 or a CMC request. Then call <b>QueryInterface</b> to retrieve the appropriate pointer.
 
 
 ## -returns

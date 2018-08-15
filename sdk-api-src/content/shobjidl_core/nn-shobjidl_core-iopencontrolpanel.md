@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Gets the most recent Control Panel view: Classic view or Category view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/2043a56a-cc03-4b05-a746-de4d11ac02e7">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path of a specified Control Panel item.
@@ -89,7 +90,7 @@ Gets the path of a specified Control Panel item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/9485540b-0c3a-46f7-8c79-55991f943809">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the specified Control Panel item, optionally to a specific page.

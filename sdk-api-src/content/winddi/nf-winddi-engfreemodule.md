@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ The <b>EngFreeModule</b> function unmaps a file from system memory.
 
 ### -param h [in]
 
-Handle to the memory-mapped file to be freed. This handle was obtained from <a href="https://msdn.microsoft.com/library/windows/hardware/ff564964">EngLoadModule</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564965">EngLoadModuleForWrite</a>.
+Handle to the memory-mapped file to be freed. This handle was obtained from <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a> or <a href="https://msdn.microsoft.com/e5509142-624e-4c57-93b0-2579c6fb7089">EngLoadModuleForWrite</a>.
 
 
 ## -returns
@@ -84,15 +85,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564964">EngLoadModule</a>
+<a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564965">EngLoadModuleForWrite</a>
+<a href="https://msdn.microsoft.com/e5509142-624e-4c57-93b0-2579c6fb7089">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564974">EngMapModule</a>
+<a href="https://msdn.microsoft.com/f8bd9b2c-11a3-454f-a4ce-cbda28115564">EngMapModule</a>
  
 
  

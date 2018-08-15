@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -77,7 +78,7 @@ Returns the color palette, or <b>NULL</b> if the control uses the system default
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774259(v=VS.85).aspx">EM_SETPALETTE</a>
+<a href="https://msdn.microsoft.com/c1dc0c24-eaf2-47a8-9bb1-59f37b206feb">EM_SETPALETTE</a>
 
 
 

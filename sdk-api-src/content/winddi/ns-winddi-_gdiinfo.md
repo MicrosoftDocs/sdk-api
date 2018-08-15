@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The GDIINFO structure describes the graphics capabilities of a given device.
 
 Specifies the driver version number. The byte ordering of <b>ulVersion</b> has the following form.
 
-<img alt="Figure showing the ulVersion member specifying the driver version number" src="./images/ver_nmbr.png"/>
+<img alt="Figure showing the ulVersion member specifying the driver version number" src="images/ver_nmbr.png"/>
 
 The high-order 16 bits must be set to zero. Bits 8 through 15 specify the version number of the Microsoft operating system for which the driver is designed. The high-order 4 bits of this range specify the major number of the version, the low-order 4 bits contain the minor number of the version. The low-order 8 bits of <b>ulVersion</b> specify the version number of the display driver; this value should be incremented for each release of the display driver binary file.
 
@@ -195,7 +196,7 @@ For displays, this member must be set to 96.
 
 ### -field flTextCaps
 
-Specifies a flag describing Windows 3.1 text capabilities. If the driver TC_SCROLLBLT flag is in this member, it indicates that the console should perform text scrolling by redrawing the entire screen, using the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a> function rather than the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff556182">DrvCopyBits</a> functions. The driver should set this flag if screen-to-screen bit-block transfers are slow. If this flag is not set, the driver is implicitly requesting that the console perform text scrolls through <i>DrvBitBlt</i><b>/</b><i>DrvCopyBits</i>.
+Specifies a flag describing Windows 3.1 text capabilities. If the driver TC_SCROLLBLT flag is in this member, it indicates that the console should perform text scrolling by redrawing the entire screen, using the driver-supplied <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> function rather than the <a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a> or <a href="https://msdn.microsoft.com/c2d42c7a-3d6e-416c-a194-2228cc1b0fd9">DrvCopyBits</a> functions. The driver should set this flag if screen-to-screen bit-block transfers are slow. If this flag is not set, the driver is implicitly requesting that the console perform text scrolls through <i>DrvBitBlt</i><b>/</b><i>DrvCopyBits</i>.
 
 
 ### -field ulDACRed
@@ -241,12 +242,12 @@ Specifies the denominator of style advance, D. For additional information, refer
 
 ### -field ptlPhysOffset
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
+Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
 
 
 ### -field szlPhysSize
 
-Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure.
+Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="https://msdn.microsoft.com/08d81096-069f-4554-9bb9-d4a37c0950ac">SIZE</a> structure.
 
 
 ### -field ulNumPalReg
@@ -256,7 +257,7 @@ Specifies the number of palette registers for an indexed device.
 
 ### -field ciDevice
 
-Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539441">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
+Is a <a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
 
 
 ### -field ulDevicePelsDPI
@@ -738,7 +739,7 @@ The device uses an sRGB gamma.
 
 
 
-GDI zero-initializes this structure before calling the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a> function.
+GDI zero-initializes this structure before calling the driver-supplied <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a> function.
 
 The <b>xStyleStep</b>, <b>yStyleStep</b>, and <b>denStyleStep</b> members define how a cosmetic line style should advance as it draws each pixel of a cosmetic line. The amount advanced along the style for each pixel is defined as a fraction that depends on whether the line is x-styled or y-styled. If the line is x-styled, the style advances by the fractional amount <b>dx/D</b> for each pixel moved in the x direction. Otherwise the style advances by <b>dy/D</b> for each pixel moved in the y direction.
 
@@ -776,27 +777,27 @@ Each byte threshold at a particular location in a halftone dither pattern determ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539399">CIECHROMA</a>
+<a href="https://msdn.microsoft.com/b8d1fd9b-c735-49f6-8d3b-12b5b1d92543">CIECHROMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539441">COLORINFO</a>
+<a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+<a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556182">DrvCopyBits</a>
+<a href="https://msdn.microsoft.com/c2d42c7a-3d6e-416c-a194-2228cc1b0fd9">DrvCopyBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -71,11 +72,11 @@ Contains a polarity value to return.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843932(v=VS.85).aspx">PWM_POLARITY</a>
+<a href="basel.pwm_polarity">PWM_POLARITY</a>
  
 
  

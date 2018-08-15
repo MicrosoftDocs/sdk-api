@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -76,7 +77,7 @@ Height, in pixels, of each image.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Bb775232(v=VS.85).aspx">Image List Creation Flags</a>. 
+A combination of <a href="https://msdn.microsoft.com/DFEB1934-DB7F-4151-97F9-DDB2BCCC782A">Image List Creation Flags</a>. 
 
 
 ### -param cInitial [in]

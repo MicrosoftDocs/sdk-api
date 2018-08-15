@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a>. This handle is required by the 
+The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a>. This handle is required by the 
 <a href="https://msdn.microsoft.com/f3d8c07b-db28-4f26-ba29-8733fc95bdb5">InitializeSecurityContext (CredSSP)</a> and 
 <a href="https://msdn.microsoft.com/a53f733e-b646-4431-b021-a2c446308849">AcceptSecurityContext (CredSSP)</a> functions. These can be either preexisting <i>credentials</i>, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 			
@@ -237,7 +238,7 @@ The <b>AcquireCredentialsHandle (CredSSP)</b> function returns a handle to the c
 <a href="https://msdn.microsoft.com/a53f733e-b646-4431-b021-a2c446308849">AcceptSecurityContext (CredSSP)</a> and 
 <a href="https://msdn.microsoft.com/f3d8c07b-db28-4f26-ba29-8733fc95bdb5">InitializeSecurityContext (CredSSP)</a> functions.
 
-In general, <b>AcquireCredentialsHandle (CredSSP)</b> does not provide  the credentials of other users logged on to the same computer. However, a caller with SE_TCB_NAME  <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privilege</a> can obtain the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> of an existing logon session by specifying the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon identifier</a> (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
+In general, <b>AcquireCredentialsHandle (CredSSP)</b> does not provide  the credentials of other users logged on to the same computer. However, a caller with SE_TCB_NAME  <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privilege</a> can obtain the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> of an existing logon session by specifying the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon identifier</a> (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 
 A package might call the function in <i>pGetKeyFn</i> provided by the RPC run-time transport. If the transport does not support the notion of callback to retrieve credentials, this parameter must be <b>NULL</b>.
 
@@ -270,7 +271,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

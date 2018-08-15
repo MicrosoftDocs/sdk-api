@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -59,7 +60,7 @@ The <b>IWbemQualifierSet::Put</b> method writes the named qualifier and value. T
 Sometimes it is not possible to write the value of a qualifier, for example, if the qualifier is  propagated from another object. Typically, propagated qualifiers are read-only, but they can be overridden. For more information, see 
 <a href="https://msdn.microsoft.com/6a0769ac-e16c-45e1-92b6-26e4969bf23d">Qualifier Flavors</a>.
 
-When using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a> qualifier, it is not necessary to specify any flavors or propagation rules.
+When using the <a href="https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e">Key</a> qualifier, it is not necessary to specify any flavors or propagation rules.
 
 The user may not create qualifiers with names that begin or end with an underscore (_). This is reserved for system classes and properties.
 
@@ -76,7 +77,7 @@ Name of the qualifier that is being written. The pointer is treated as read-only
 
 ### -param pVal [in]
 
-Cannot be <b>NULL</b>. This must point to a valid <b>VARIANT</b> that contains the qualifier value to be written. The pointer is treated as read-only. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> on this pointer after the value is not required.
+Cannot be <b>NULL</b>. This must point to a valid <b>VARIANT</b> that contains the qualifier value to be written. The pointer is treated as read-only. It is the caller's responsibility to call <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> on this pointer after the value is not required.
 
 Only variants and arrays of type <b>VT_I4</b>, <b>VT_R8</b>, <b>VT_BSTR</b>, <b>VT_BOOL</b> are supported.
 

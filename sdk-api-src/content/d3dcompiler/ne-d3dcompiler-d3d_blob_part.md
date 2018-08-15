@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcompiler.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ These values are passed to the <a href="https://msdn.microsoft.com/cf9cea53-e7a3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607341(v=VS.85).aspx">Enumerations</a>
+<a href="https://msdn.microsoft.com/684508d8-2289-4124-9910-93c6bf0a1f99">Enumerations</a>
  
 
  

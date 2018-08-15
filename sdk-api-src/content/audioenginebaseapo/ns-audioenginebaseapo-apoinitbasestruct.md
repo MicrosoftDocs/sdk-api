@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.irql: All levels.
 
 
 The APOInitBaseStruct structure is the base initialization header that must precede other  
-initialization data in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536510">IAudioProcessingObject::Initialize</a>. 
+initialization data in <a href="https://msdn.microsoft.com/b73c2e18-ab7b-4e34-9440-f38891f99bf7">IAudioProcessingObject::Initialize</a>. 
 
 
 ## -struct-fields
@@ -84,11 +85,11 @@ If the specified CLSID does not match, then the APOInitBaseStruct structure was 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151546">APOInitSystemEffects</a>
+<a href="https://msdn.microsoft.com/E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC">APOInitSystemEffects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536510">IAudioProcessingObject::Initialize</a>
+<a href="https://msdn.microsoft.com/b73c2e18-ab7b-4e34-9440-f38891f99bf7">IAudioProcessingObject::Initialize</a>
  
 
  

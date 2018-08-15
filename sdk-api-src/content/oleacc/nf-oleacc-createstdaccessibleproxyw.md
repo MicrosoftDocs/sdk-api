@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,7 +80,7 @@ Pointer to a null-terminated string of the class name of a system-provided user 
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Object ID. This value is usually <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
+Object ID. This value is usually <a href="object_identifiers.htm">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
 
 
 ### -param riid [in]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -62,7 +63,7 @@ Determines whether the object requires pages.
 ### -param lpDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object that contains context information about the scope or result item.
+<a href="_ole_idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
 
 ## -returns
@@ -93,11 +94,11 @@ The console calls this method to determine whether the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300854(v=VS.85).aspx">IExtendPropertySheet</a>
+<a href="https://msdn.microsoft.com/c3c75e69-e16c-425b-bd8c-3c6f2e5ce2db">IExtendPropertySheet</a>
 
 
 

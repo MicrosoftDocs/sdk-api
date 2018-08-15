@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WLX_CLIENT_CREDENTIALS_INFO_V1_0 structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WLX_CLIENT_CREDENTIALS_INFO_V1_0</b> structure contains the client <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> returned by a call to 
+The <b>WLX_CLIENT_CREDENTIALS_INFO_V1_0</b> structure contains the client <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> returned by a call to 
 <a href="https://msdn.microsoft.com/b563606d-f4d5-48d7-914d-a11ed5f536a1">WlxQueryClientCredentials</a> or 
 <a href="https://msdn.microsoft.com/dfa12961-1552-4531-8f79-d44fb2a46e74">WlxQueryInetConnectorCredentials</a>.
 
@@ -69,7 +70,7 @@ This allows a network client session to pass client credentials for automatic lo
 
 ### -field dwType
 
-Specifies the type of <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> structure allocated by the GINA DLL. Credential types are defined with the prefix WLX_CREDENTIAL_TYPE_xxx.
+Specifies the type of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> structure allocated by the GINA DLL. Credential types are defined with the prefix WLX_CREDENTIAL_TYPE_xxx.
 
 
 ### -field pszUserName

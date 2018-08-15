@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>ITextStrings</b> interface represents a collection of rich-text strings t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStrings</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITextStrings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStrings</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITextStrings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>ITextStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/59630068-e3c7-4c3b-bd89-f1127759f979">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a string to the end of the collection.
@@ -134,7 +135,7 @@ Gets the count of characters for a selected string index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/6bbe53ab-bd03-4445-8d36-0186a43da451">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of strings in a string collection.
@@ -152,7 +153,7 @@ Inserts a <b>NULL</b> string in the collection at a selected string index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/8eed4bc6-75a8-440e-a334-543e7b996df0">Item</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object for a selected index in a string collection.
@@ -179,7 +180,7 @@ Prefixes a string to the top  string in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/1909e8b6-ee18-4d17-87cf-29bb3553bb25">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a string from a string collection, starting at an index. 

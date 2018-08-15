@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ The number of subkeys under the key specified by the <i>MasterKeyHandle</i> para
 
 ### -param SubordinateObjects [in, optional]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structures, one for each subkey.   This array can contain one <b>OBJECT_ATTRIBUTES</b> structure.
+Pointer to an array of <a href="https://msdn.microsoft.com/08f5a141-abce-4890-867c-5fe8c4239905">OBJECT_ATTRIBUTES</a> structures, one for each subkey.   This array can contain one <b>OBJECT_ATTRIBUTES</b> structure.
 
 
 ### -param Event [in, optional]
@@ -93,7 +94,7 @@ A pointer to a context supplied by the caller for its APC function. This value i
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that contains the final status and information about the operation. For successful calls that return data, the number of bytes written to the <i>Buffer</i> parameter is supplied in the <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure.
+A pointer to an <a href="https://msdn.microsoft.com/1ce2b1d0-a8b2-4a05-8895-e13802690a7b">IO_STATUS_BLOCK</a> structure that contains the final status and information about the operation. For successful calls that return data, the number of bytes written to the <i>Buffer</i> parameter is supplied in the <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure.
 
 
 ### -param CompletionFilter [in]

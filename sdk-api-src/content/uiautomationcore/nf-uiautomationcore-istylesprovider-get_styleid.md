@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -64,7 +65,7 @@ This property is read-only.
 
 
 
-A provider should use this property to expose style identifiers that are useful to client applications. For example, a provider might expose the <a href="https://msdn.microsoft.com/en-us/library/Hh437309(v=VS.85).aspx">StyleId_Title</a> identifier for an element that represents the title of a presentation. A screen reader could then retrieve the <b>StyleId</b> property, discover that the element is a presentation title, and read the title to the user.
+A provider should use this property to expose style identifiers that are useful to client applications. For example, a provider might expose the <a href="uiauto_style_identifiers.htm">StyleId_Title</a> identifier for an element that represents the title of a presentation. A screen reader could then retrieve the <b>StyleId</b> property, discover that the element is a presentation title, and read the title to the user.
 
 <h3><a id="List_Styles"></a><a id="list_styles"></a><a id="LIST_STYLES"></a>List Styles</h3>
 IDs for list styles are supported starting with Windows 8.1. 

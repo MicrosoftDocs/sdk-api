@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -186,6 +187,6 @@ Specifies how to render the right edge of the mesh.
 
 The following image shows the numbering of control points on a tensor grid.
 
-<img alt="Number of control points on a tensor grid" src="./images/tensorpatch.png"/>
+<img alt="Number of control points on a tensor grid" src="images/tensorpatch.png"/>
 
 

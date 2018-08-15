@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Applies a set of properties to an item using the Shell's copy engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/05d34bca-97cf-4249-bd09-996532e182fb">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current flags that are set to control dialog behavior.
@@ -89,7 +90,7 @@ Gets the current flags that are set to control dialog behavior.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/734a1bf9-ff63-48a5-9508-3a576ea24ab7">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the set of property values for a saved item or an item in the process of being saved.
@@ -116,7 +117,7 @@ Sets flags to control the behavior of the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/418f2524-5e6d-4e79-894b-b5f706171836">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Provides a property store that defines the default values to be used for the item being saved.

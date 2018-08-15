@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: inkrenderer.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported

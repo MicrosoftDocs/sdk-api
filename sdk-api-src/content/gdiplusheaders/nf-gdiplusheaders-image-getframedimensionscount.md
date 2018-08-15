@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Image::GetFrameDimensionsCount</b> method gets the number of frame dimensions in this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Type: <strong>Type: <b>UINT</b>
 </strong>
 
 This method returns the number of frame dimensions in this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
 
 
 
@@ -93,12 +94,12 @@ Windows GDI+ can support an arbitrary number of pages (or images, or frames), as
 
 
 The following console application creates an 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a TIFF file. The code calls the <b>Image::GetFrameDimensionsCount</b> method to find out how many frame dimensions the 
+						<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object based on a TIFF file. The code calls the <b>Image::GetFrameDimensionsCount</b> method to find out how many frame dimensions the 
 						<b>Image</b> object has. Each of those frame dimensions is identified by a 
-						GUID, and the call to <a href="https://msdn.microsoft.com/en-us/library/ms535379(v=VS.85).aspx">Image::GetFrameDimensionsList</a> retrieves those 
+						GUID, and the call to <a href="https://msdn.microsoft.com/8199230e-85e9-4974-809a-32dc408d9b87">Image::GetFrameDimensionsList</a> retrieves those 
 						GUIDs. The first 
 						GUID is at index 0 in the 
-						<i>pDimensionIDs</i> array. The call to the <a href="https://msdn.microsoft.com/en-us/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
+						<i>pDimensionIDs</i> array. The call to the <a href="https://msdn.microsoft.com/11ea08ad-a425-4307-b86a-ab2532de4fff">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
 						GUID.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -171,31 +172,31 @@ You can look up the displayed GUID in Gdiplusimaging.h and see that it is the id
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533838(v=VS.85).aspx">Copying Individual Frames from a Multiple-Frame Image</a>
+<a href="https://msdn.microsoft.com/dfed0b61-2230-4911-a642-0a6e4beb08d6">Copying Individual Frames from a Multiple-Frame Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533839(v=VS.85).aspx">Creating and Saving a Multiple-Frame Image</a>
+<a href="https://msdn.microsoft.com/9b61e01d-0a98-4ac3-865e-7570ed0c3cde">Creating and Saving a Multiple-Frame Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
+<a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a>
+<a href="https://msdn.microsoft.com/11ea08ad-a425-4307-b86a-ab2532de4fff">Image::GetFrameCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535379(v=VS.85).aspx">Image::GetFrameDimensionsList</a>
+<a href="https://msdn.microsoft.com/8199230e-85e9-4974-809a-32dc408d9b87">Image::GetFrameDimensionsList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx">Image::SaveAdd Methods</a>
+<a href="https://msdn.microsoft.com/e597f6e6-6e07-4afb-8905-26e4af961685">Image::SaveAdd Methods</a>
  
 
  

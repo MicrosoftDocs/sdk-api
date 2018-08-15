@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -130,6 +131,12 @@ This parameter is optional and can be null.
 As input, the size of <i>lpHelpBuf</i>. As output, the number of characters returned in <i>lpHelpBuf</i>. On input, this is the full size of the buffer, and includes a space for a terminating null character. If the buffer passed in is too small, the count returned does not include the terminating null character.
 
 
+##### - lpAttributes.INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE (16)
+
+
+##### - lpAttributes.INSTALLFEATUREATTRIBUTE_FAVORADVERTISE (8)
+
+
 ##### - lpAttributes.INSTALLFEATUREATTRIBUTE_FAVORLOCAL (1)
 
 
@@ -137,12 +144,6 @@ As input, the size of <i>lpHelpBuf</i>. As output, the number of characters retu
 
 
 ##### - lpAttributes.INSTALLFEATUREATTRIBUTE_FOLLOWPARENT (4)
-
-
-##### - lpAttributes.INSTALLFEATUREATTRIBUTE_FAVORADVERTISE (8)
-
-
-##### - lpAttributes.INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE (16)
 
 
 ##### - lpAttributes.INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE (32)

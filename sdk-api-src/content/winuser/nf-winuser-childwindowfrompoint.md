@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ Determines which, if any,
 			The search is restricted to immediate child windows. Grandchildren, and deeper 
 			descendant windows are not searched.
 
-To skip certain child windows, use the <a href="https://msdn.microsoft.com/en-us/library/ms632677(v=VS.85).aspx">ChildWindowFromPointEx</a> function.
+To skip certain child windows, use the <a href="https://msdn.microsoft.com/ab146c04-5dd3-4807-a256-33822b2531c5">ChildWindowFromPointEx</a> function.
 
 
 ## -parameters
@@ -78,7 +79,7 @@ A handle to the parent window.
 
 ### -param Point [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 A structure that defines the client 
 				coordinates, relative to <i>hWndParent</i>, 
@@ -112,7 +113,7 @@ The system maintains an internal list, containing the handles of the child windo
 
 <b>ChildWindowFromPoint</b> treats an <b>HTTRANSPARENT</b> area of a standard 
 			control the same as other parts of the control. In contrast, 
-			<a href="https://msdn.microsoft.com/en-us/library/ms633537(v=VS.85).aspx">RealChildWindowFromPoint</a> treats an <b>HTTRANSPARENT</b> area differently; 
+			<a href="https://msdn.microsoft.com/4e386040-112b-4150-a045-c2bb51b536ad">RealChildWindowFromPoint</a> treats an <b>HTTRANSPARENT</b> area differently; 
 			it returns the child window behind a transparent area of a control. For example, if the 
 			point is in a transparent area of a groupbox, <b>ChildWindowFromPoint</b> 
 			returns the groupbox while <b>RealChildWindowFromPoint</b> returns the 
@@ -133,7 +134,7 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="_win32_Using_Comb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632677(v=VS.85).aspx">ChildWindowFromPointEx</a>
+<a href="https://msdn.microsoft.com/ab146c04-5dd3-4807-a256-33822b2531c5">ChildWindowFromPointEx</a>
 
 
 
@@ -145,11 +146,11 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="_win32_Using_Comb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633537(v=VS.85).aspx">RealChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/4e386040-112b-4150-a045-c2bb51b536ad">RealChildWindowFromPoint</a>
 
 
 
@@ -157,11 +158,11 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="_win32_Using_Comb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633558(v=VS.85).aspx">WindowFromPoint</a>
+<a href="https://msdn.microsoft.com/e4830394-f994-4d29-b843-3a618e331d52">WindowFromPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

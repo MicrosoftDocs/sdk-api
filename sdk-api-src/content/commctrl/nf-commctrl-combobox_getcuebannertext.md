@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775843(v=VS.85).aspx">CB_GETCUEBANNER</a> message explicitly.
+Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the <a href="https://msdn.microsoft.com/38959228-9f07-4636-a1ea-681efe77b9ec">CB_GETCUEBANNER</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +86,7 @@ The size of the buffer pointed to by <i>lpwText</i> in <b>WCHAR</b><b>s</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
+<a href="https://msdn.microsoft.com/7102beff-7f67-4e4e-a32b-9ccae1522ebd">Combo Box Features</a>
  
 
  

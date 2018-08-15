@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -147,11 +148,11 @@ The context is frozen and cannot be changed.
 The default context for VSS shadow copies is VSS_CTX_BACKUP.
 
 <b>Windows XP:  </b>The only supported context is the default context, VSS_CTX_BACKUP. Therefore, calling 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a> under Windows XP returns
+     <a href="https://msdn.microsoft.com/5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2">SetContext</a> under Windows XP returns
      E_NOTIMPL.
 
 For more information about how the context that is set by 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a> affects 
+    <a href="https://msdn.microsoft.com/5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2">SetContext</a> affects 
     how a shadow copy is created and managed, see 
     <a href="https://msdn.microsoft.com/de5f1a5b-6e90-4abc-a232-aea93636772f">Implementation Details for 
     Creating Shadow Copies</a>.

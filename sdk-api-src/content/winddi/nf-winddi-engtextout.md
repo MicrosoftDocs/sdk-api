@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,27 +62,27 @@ The <b>EngTextOut</b> function causes GDI to render a set of glyphs at specified
 
 ### -param pso
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that describes the surface on which to write.
+Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that describes the surface on which to write.
 
 
 ### -param pstro
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a> structure that defines the glyphs to be rendered and the positions where they are to be placed.
+Pointer to a <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure that defines the glyphs to be rendered and the positions where they are to be placed.
 
 
 ### -param pfo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure that is used to retrieve information about the font and its glyphs.
+Pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure that is used to retrieve information about the font and its glyphs.
 
 
 ### -param pco
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure that defines the clip region through which rendering must be done. No pixels can be affected outside this clip region.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that defines the clip region through which rendering must be done. No pixels can be affected outside this clip region.
 
 
 ### -param prclExtra
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure. This parameter should always be <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure. This parameter should always be <b>NULL</b>.
 
 
 ### -param prclOpaque
@@ -91,17 +92,17 @@ Pointer to a RECTL structure that identifies a single opaque rectangle that is l
 
 ### -param pboFore
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a> structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
+Pointer to a <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a> structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
 
 
 ### -param pboOpaque
 
-Pointer to a BRUSHOBJ structure that represents the brush object for the opaque pixels. Both the foreground and background mix modes for this brush are assumed to be R2_COPYPEN. Unless the driver sets the GCAPS_ARBRUSHOPAQUE capabilities bit in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a> structure, it will always be called with a solid color brush.
+Pointer to a BRUSHOBJ structure that represents the brush object for the opaque pixels. Both the foreground and background mix modes for this brush are assumed to be R2_COPYPEN. Unless the driver sets the GCAPS_ARBRUSHOPAQUE capabilities bit in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure, it will always be called with a solid color brush.
 
 
 ### -param pptlOrg
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that defines the brush origin for both brushes. If this parameter is set to 0 when <b>EngTextOut</b> is called, some printer drivers may print color images incorrectly. For more information, see <b>Remarks</b>.
+Pointer to a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that defines the brush origin for both brushes. If this parameter is set to 0 when <b>EngTextOut</b> is called, some printer drivers may print color images incorrectly. For more information, see <b>Remarks</b>.
 
 
 ### -param mix [in]
@@ -122,7 +123,7 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 
 
-The driver should call <b>EngTextOut</b> when it has hooked <a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a> and cannot render the glyphs.
+The driver should call <b>EngTextOut</b> when it has hooked <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a> and cannot render the glyphs.
 
 <div class="alert"><b>Note</b>    The driver cannot punt to <b>EngTextOut</b> if it has hooked <i>DrvTextOut</i> for a device managed surface.</div>
 <div> </div>
@@ -144,27 +145,27 @@ The mix mode defines how the incoming pattern should be mixed with the data alre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a>
+<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a>
+<a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557277">DrvTextOut</a>
+<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a>
+<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+<a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a>
  
 
  

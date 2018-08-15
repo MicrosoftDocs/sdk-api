@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsprint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -58,7 +59,7 @@ A write-only stream interface into which an application writes print job data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa380010(v=VS.85).aspx">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="_stg_isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +74,7 @@ The <b>IXpsPrintJobStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/259d0224-4e6e-43c8-905d-3529c781986a">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the stream and indicates that the entire document has been written.
@@ -87,7 +88,7 @@ Closes the stream and indicates that the entire document has been written.
 
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> method must be called before this interface is released.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/259d0224-4e6e-43c8-905d-3529c781986a">Close</a> method must be called before this interface is released.</div>
 <div> </div>
 
 
@@ -97,11 +98,11 @@ Closes the stream and indicates that the entire document has been written.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541159">Documents</a>
+<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380010(v=VS.85).aspx">ISequentialStream</a>
+<a href="_stg_isequentialstream">ISequentialStream</a>
 
 
 

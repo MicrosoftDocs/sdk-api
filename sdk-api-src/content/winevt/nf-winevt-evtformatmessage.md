@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -159,25 +160,25 @@ When the service attempts to find a message for an event, the service looks in t
 For event messages:
 
 <ol>
-<li>Search the file specified in <b>messageFileName</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.</li>
+<li>Search the file specified in <b>messageFileName</b> attribute of the <a href="https://msdn.microsoft.com/607f077f-5ad4-4a32-b58a-23ba030bdbf7">provider</a> element.</li>
 <li> If not found, search system messages.</li>
 </ol>
 For the Level, Opcode, and Keyword attributes of the <a href="https://msdn.microsoft.com/61b49e91-afcf-4312-9511-97bf9ceb84df">event</a> element:
 
 <ol>
 <li>Search the Winmeta provider resources.</li>
-<li>Search the file specified in <b>messageFileName</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.</li>
+<li>Search the file specified in <b>messageFileName</b> attribute of the <a href="https://msdn.microsoft.com/607f077f-5ad4-4a32-b58a-23ba030bdbf7">provider</a> element.</li>
 </ol>
 For the Task attribute of the <a href="https://msdn.microsoft.com/61b49e91-afcf-4312-9511-97bf9ceb84df">event</a> element:
 
 <ol>
-<li>Search the file specified in <b>messageFileName</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element.</li>
+<li>Search the file specified in <b>messageFileName</b> attribute of the <a href="https://msdn.microsoft.com/607f077f-5ad4-4a32-b58a-23ba030bdbf7">provider</a> element.</li>
 <li>If not found, search the Winmeta provider resources.</li>
 </ol>
 For localizable parameters referenced as %%<i>n</i> (where <i>n</i> is the message ID) in the event message:
 
 <ol>
-<li>Search files listed in <b>parameterFileName</b> attribute of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> element from left to right.</li>
+<li>Search files listed in <b>parameterFileName</b> attribute of the <a href="https://msdn.microsoft.com/607f077f-5ad4-4a32-b58a-23ba030bdbf7">provider</a> element from left to right.</li>
 <li>If not found, search system messages.
 </li>
 </ol>

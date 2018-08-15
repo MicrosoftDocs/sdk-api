@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -86,6 +87,11 @@ Pointer to the retrieved current disc side (<a href="https://msdn.microsoft.com/
 
 
 
+#### - pNumOfTitles [out]
+
+Pointer to the retrieved number of titles available in this volume.
+
+
 #### - pNumOfVol [out]
 
 Pointer to the retrieved number of volumes in the volume set.
@@ -94,11 +100,6 @@ Pointer to the retrieved number of volumes in the volume set.
 #### - pThisVolNum [out]
 
 Pointer to the retrieved volume number for this root directory.
-
-
-#### - pNumOfTitles [out]
-
-Pointer to the retrieved number of titles available in this volume.
 
 
 ## -returns

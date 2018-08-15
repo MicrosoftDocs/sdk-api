@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ICertSrvSetupKeyInformationCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/8f342787-13f7-4bca-8320-61bb5112ee34">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the collection.
@@ -89,7 +90,7 @@ Adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/80a34341-176d-4040-bc60-79ce81b917b2">_NewEnum</a>
 
 
 </td>
@@ -105,7 +106,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/58412a07-7e97-4379-b052-fb7458400be9">Count</a>
 
 
 </td>
@@ -121,7 +122,7 @@ Gets the number of <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/2ae3d695-4dfe-4c72-8e66-64dce88c2bb2">Item</a>
 
 
 </td>

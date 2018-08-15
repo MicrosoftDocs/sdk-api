@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -84,9 +85,9 @@ Pointer to the data to be stored with this device. If pData is <b>NULL</b>, Data
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +96,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-The data stored in the device with this method can be retrieved with <a href="https://msdn.microsoft.com/en-us/library/Bb173574(v=VS.85).aspx">ID3D10DeviceChild::GetPrivateData</a>.
+The data stored in the device with this method can be retrieved with <a href="https://msdn.microsoft.com/ba0be621-d063-425f-a87f-ded0135c6434">ID3D10DeviceChild::GetPrivateData</a>.
 
 The data and guid set with this method will typically be application-defined.
 
@@ -107,7 +108,7 @@ The data and guid set with this method will typically be application-defined.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

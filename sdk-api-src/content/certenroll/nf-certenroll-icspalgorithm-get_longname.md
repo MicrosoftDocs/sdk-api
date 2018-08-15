@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,9 +64,9 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> property retrieves a short algorithm name. Call the <b>LongName</b> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
+The <a href="https://msdn.microsoft.com/af7fa894-58e2-4607-9b6e-c32d4f412ddf">Name</a> property retrieves a short algorithm name. Call the <b>LongName</b> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
 
-<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <b>LongName</b> property and <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> property return an abbreviated name.</div>
+<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <b>LongName</b> property and <a href="https://msdn.microsoft.com/af7fa894-58e2-4607-9b6e-c32d4f412ddf">Name</a> property return an abbreviated name.</div>
 <div> </div>
 <table>
 <tr>

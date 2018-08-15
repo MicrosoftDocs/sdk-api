@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/51a7daff-ecb9-4a66-a7f7-aee9aeff7d6a">Description</a> property
 
 </td>
 </tr>
@@ -104,7 +105,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/library/windows/ha
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/66c5722a-5217-4e77-b14f-f9cfa4e030c0">Name</a> property
 
 </td>
 </tr>

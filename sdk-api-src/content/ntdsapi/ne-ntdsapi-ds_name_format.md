@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -88,7 +89,7 @@ Indicates a user-friendly display name, for example, Jeff Smith. The display nam
 
 ### -field DS_UNIQUE_ID_NAME
 
-Indicates a GUID string that the <a href="https://msdn.microsoft.com/en-us/library/ms687262(v=VS.85).aspx">IIDFromString</a> function returns. For example:
+Indicates a GUID string that the <a href="_com_iidfromstring">IIDFromString</a> function returns. For example:
 
 {4fa050f0-f561-11cf-bdd9-00aa003a77b6}
 

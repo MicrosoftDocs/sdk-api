@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -88,7 +89,7 @@ Retrieves the current data format for the hardware audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265083">GetGfxState</a>
+<a href="https://msdn.microsoft.com/519D3BF1-B5C3-469A-A188-7D741E288337">GetGfxState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the global effects  that are currently applied to the offloaded audio stream.
@@ -106,7 +107,7 @@ Sets the data format for the hardware audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265089">SetGfxState</a>
+<a href="https://msdn.microsoft.com/1B90A629-D41A-4339-918B-DAAF577EB699">SetGfxState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the global effects (GFX) that are applied to the offloaded audio stream.

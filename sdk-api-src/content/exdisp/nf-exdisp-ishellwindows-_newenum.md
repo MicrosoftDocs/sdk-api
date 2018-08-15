@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ Retrieves an enumerator for the collection of Shell windows.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
-When this method returns, contains an interface pointer to an object that implements the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface.
+When this method returns, contains an interface pointer to an object that implements the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface.
 
 
 ## -returns

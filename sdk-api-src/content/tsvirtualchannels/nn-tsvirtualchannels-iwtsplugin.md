@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -95,7 +96,7 @@ Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/9216a069-4fd0-4e88-9cfa-050460b49906">Initialize</a>
 </td>
 <td align="left" width="63%">
 Used for the first call that is made from the client to the plug-in.

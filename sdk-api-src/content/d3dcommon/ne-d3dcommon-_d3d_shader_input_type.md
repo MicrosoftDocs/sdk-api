@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -161,7 +162,7 @@ The shader resource is a read-and-write structured buffer that uses the built-in
 
 
 
-These flags describe a shader resource that is used as an input in a shader-input-signature description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172433(v=VS.85).aspx">D3D10_SHADER_INPUT_BIND_DESC</a>).
+These flags describe a shader resource that is used as an input in a shader-input-signature description (see <a href="https://msdn.microsoft.com/8929f7d4-6fd0-4b48-b1d8-0b089d4c730d">D3D10_SHADER_INPUT_BIND_DESC</a>).
 
 The types in a structured buffer describe the structure of the elements in the buffer. The layout of these types generally match their C++ struct counterparts, and are available through the type-reflection system. The following examples show structured buffers:
 
@@ -197,7 +198,7 @@ typedef D3D_SHADER_INPUT_TYPE D3D10_SHADER_INPUT_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

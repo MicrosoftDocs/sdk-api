@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -59,7 +60,7 @@ The <b>INetFwOpenPort</b> interface provides access to the properties of a port 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -230,7 +231,7 @@ Accesses the contents of the BuiltIn property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/f4fc7a4f-abc5-486a-89c8-dfea17770f3c">Enabled</a>
 
 
 </td>
@@ -254,7 +255,7 @@ Accesses the IpVersion property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/f81abb86-095c-4459-af71-a0c10f7b1acd">Name</a>
 
 
 </td>
@@ -266,7 +267,7 @@ Accesses the Name property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915719">Port</a>
+<a href="https://msdn.microsoft.com/6e179f11-76c3-4403-9b42-2faad56629ed">Port</a>
 
 
 </td>
@@ -278,7 +279,7 @@ Accesses the Port property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915742">Protocol</a>
+<a href="https://msdn.microsoft.com/775c3d29-89c7-4768-9476-2e56555fd82b">Protocol</a>
 
 
 </td>
@@ -302,7 +303,7 @@ Accesses the RemoteAddresses property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915814">Scope</a>
+<a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">Scope</a>
 
 
 </td>
@@ -336,7 +337,7 @@ All configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
@@ -344,7 +345,7 @@ All configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

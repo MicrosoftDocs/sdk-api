@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -110,7 +111,7 @@ If a character does not exist in the current font, it is assigned the width of t
 
 #### Examples
 
-For an example, see "Displaying Keyboard Input" in <a href="https://msdn.microsoft.com/en-us/library/ms646268(v=VS.85).aspx">Using Keyboard Input</a>.
+For an example, see "Displaying Keyboard Input" in <a href="_win32_Using_Keyboard_Input_cpp">Using Keyboard Input</a>.
 
 <div class="code"></div>
 

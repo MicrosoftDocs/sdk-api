@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -153,11 +154,11 @@ Coercion from the value's type to the property description's type was not possib
 
 This function is a wrapper around the system's implementation of <a href="shell.IPropertyDescription_CoerceToCanonicalValue">IPropertyDescription::CoerceToCanonicalValue</a>.
 
-Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="https://msdn.microsoft.com/en-us/library/Bb787584(v=VS.85).aspx">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
+Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="shell.props_System_Title">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
 
 It is important to note that if this function fails, it will have already called <a href="shell.PropVariantClear">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
-The coercion performed by this function is also performed by the property system during calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a>. Applications can either depend on the property system to perform the coercions or can use this function to perform the coercion at a time of the application's choosing.
+The coercion performed by this function is also performed by the property system during calls to <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> and <a href="shell.IPropertyStore_SetValue">IPropertyStore::SetValue</a>. Applications can either depend on the property system to perform the coercions or can use this function to perform the coercion at a time of the application's choosing.
 
 The coercion is performed in four steps, as follows:
         
@@ -276,7 +277,7 @@ The coercion is performed in four steps, as follows:
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776486(v=VS.85).aspx">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCoerceToCanonicalValue">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

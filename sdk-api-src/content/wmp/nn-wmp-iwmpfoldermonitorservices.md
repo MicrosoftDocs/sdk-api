@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -78,7 +79,7 @@ The <b>IWMPFolderMonitorServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">add</a>
+<a href="https://msdn.microsoft.com/f12bbc31-ce9d-4d0c-af1e-9078e7948eeb">add</a>
 </td>
 <td align="left" width="63%">
 Adds a folder to the list of monitored folders.
@@ -141,7 +142,7 @@ Retrieves the update progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">item</a>
+<a href="https://msdn.microsoft.com/d9c79b85-ac64-456c-95b2-fe28a8c99fac">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path of the folder corresponding to the specified index.
@@ -150,7 +151,7 @@ Retrieves the path of the folder corresponding to the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">remove</a>
+<a href="https://msdn.microsoft.com/4f075c31-dd09-4d35-88fa-b93a373ad2d0">remove</a>
 </td>
 <td align="left" width="63%">
 Removes a folder from the list of monitored folders.
@@ -190,7 +191,7 @@ Retrieve a pointer to <b>IWMPFolderMonitorServices</b> by calling <b>QueryInterf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
  
 
  

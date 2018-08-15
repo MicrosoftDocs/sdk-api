@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propidlbase.h
 req.include-header: Propidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -53,8 +54,8 @@ req.product: ADAM
 
 The 
 <b>IEnumSTATPROPSTG</b> interface iterates through an array of 
-<a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures. The <b>STATPROPSTG</b> structures contain statistical data about properties in a property set. <b>IEnumSTATPROPSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>.
+<a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures. The <b>STATPROPSTG</b> structures contain statistical data about properties in a property set. <b>IEnumSTATPROPSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/8e911da9-0056-4267-b9d0-c4ba929ddb94">Next</a>, <a href="https://msdn.microsoft.com/e70e4668-d52c-4135-948b-c8f5d141e6a2">Skip</a>, <a href="https://msdn.microsoft.com/e742e3ee-6261-4d6d-85ca-8df770aa58ad">Reset</a>, and 
+<a href="https://msdn.microsoft.com/e06e109a-3f9d-4b08-bde9-888cb795287c">Clone</a>.
 
 The implementation defines the order in which the properties in the set are enumerated. Properties that are present when the enumerator is created, and are not removed during the enumeration, will be enumerated only once. Properties added or deleted while the enumeration is in progress may or may not be enumerated, but will never be enumerated more than once.
 
@@ -81,7 +82,7 @@ The <b>IEnumSTATPROPSTG</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/e06e109a-3f9d-4b08-bde9-888cb795287c">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structure enumerator.
@@ -90,7 +91,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/8e911da9-0056-4267-b9d0-c4ba929ddb94">Next</a>
 </td>
 <td align="left" width="63%">
 Gets a specified number of <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures.
@@ -99,7 +100,7 @@ Gets a specified number of <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/e742e3ee-6261-4d6d-85ca-8df770aa58ad">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning of the <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structure array.
@@ -108,7 +109,7 @@ Resets the enumeration sequence to the beginning of the <a href="https://msdn.mi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/e70e4668-d52c-4135-948b-c8f5d141e6a2">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures in the enumeration sequence.

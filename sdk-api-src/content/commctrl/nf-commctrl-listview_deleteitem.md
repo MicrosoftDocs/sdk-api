@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774895(v=VS.85).aspx">LVM_DELETEITEM</a> message explicitly. 
+Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/0eddd4c1-7786-4a8c-a16d-9fd83cce98b3">LVM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters

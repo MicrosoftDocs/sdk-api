@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff537928">CM_Add_ID</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/0a2da246-7803-45cb-baee-351726dbcf15">CM_Add_ID</a> instead.]
 
 The <b>CM_Add_ID_Ex</b> function appends a <a href="devinst.device_ids">device ID</a> (if not already present) to a device instance's <a href="devinst.hardware_ids">hardware ID</a> list or <a href="devinst.compatible_ids">compatible ID</a> list, on either the local or a remote machine.
 
@@ -133,7 +134,7 @@ Each appended device ID is considered less compatible than IDs already existing 
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
 
 Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -145,11 +146,11 @@ Functionality to access remote machines has been removed in Windows 8 and Windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537928">CM_Add_ID</a>
+<a href="https://msdn.microsoft.com/0a2da246-7803-45cb-baee-351726dbcf15">CM_Add_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>
+<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
  
 
  

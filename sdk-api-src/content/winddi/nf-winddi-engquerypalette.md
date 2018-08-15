@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ Handle to the palette to be queried.
 
 ### -param piMode
 
-Pointer to a location that receives the palette mode, as originally specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff564212">EngCreatePalette</a>.
+Pointer to a location that receives the palette mode, as originally specified in <a href="https://msdn.microsoft.com/99b27e11-5a5f-4fa7-9cd0-422d24425fa1">EngCreatePalette</a>.
 
 
 ### -param cColors
@@ -98,7 +99,7 @@ If the palette mode is PAL_INDEXED and the buffer that <i>pulColors</i> points t
 
 A driver must test for the presence of the GCAPS_PALMANAGED flag to determine whether the colors represent a fixed or a changeable palette.
 
-<b>EngQueryPalette</b> is intended for use by mirroring drivers that need to know the color format of the primary display. A mirroring driver typically calls this function in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a> routine.
+<b>EngQueryPalette</b> is intended for use by mirroring drivers that need to know the color format of the primary display. A mirroring driver typically calls this function in its <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a> routine.
 
 
 
@@ -108,11 +109,11 @@ A driver must test for the presence of the GCAPS_PALMANAGED flag to determine wh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564212">EngCreatePalette</a>
+<a href="https://msdn.microsoft.com/99b27e11-5a5f-4fa7-9cd0-422d24425fa1">EngCreatePalette</a>
  
 
  

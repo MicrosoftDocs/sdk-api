@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -422,7 +423,7 @@ Create a command list and record graphics commands into it.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">Flush</a>
 </td>
 <td align="left" width="63%">
 Sends queued-up commands in the command buffer to the GPU.
@@ -449,7 +450,7 @@ Gets the initialization flags associated with the current deferred context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">GetData</a>
 </td>
 <td align="left" width="63%">
 Get data from the GPU asynchronously.
@@ -476,7 +477,7 @@ Gets the minimum level-of-detail (LOD).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/fefe2cd7-26c1-4165-9c94-8843571f8824">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7">device context</a>.
@@ -695,7 +696,7 @@ Bind information about the primitive type, and data order that describes input d
 <a href="https://msdn.microsoft.com/e9a9a69c-7df7-4784-98f5-9ad63f6cd407">IASetVertexBuffers</a>
 </td>
 <td align="left" width="63%">
-Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>.
 
 </td>
 </tr>
@@ -767,7 +768,7 @@ Sets the depth-stencil state of the output-merger stage.
 <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">OMSetRenderTargets</a>
 </td>
 <td align="left" width="63%">
-Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
 
 </td>
 </tr>

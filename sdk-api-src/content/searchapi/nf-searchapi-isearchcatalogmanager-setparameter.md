@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -70,7 +71,7 @@ The name of the parameter to change.
 
 ### -param pValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 A pointer to the new value for the parameter.
                 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,7 +75,7 @@ Pointer to an array of size <i>culPID</i>, allocated by the caller. Each element
 
 ### -param MediaSampleContent [in]
 
-Variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a> that specifies the contents of the stream.
+Variable of type <a href="https://msdn.microsoft.com/989ad56b-b5af-4811-889e-c79fcd3f7f01">MEDIA_SAMPLE_CONTENT</a> that specifies the contents of the stream.
 
 
 ## -returns

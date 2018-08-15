@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ Binds to a handler for an item as specified by the handler ID value (BHID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
+<a href="https://msdn.microsoft.com/737a93e0-2e27-466b-889c-04a25e52e883">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>IShellItem</b> objects.

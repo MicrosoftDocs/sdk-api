@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -69,7 +70,7 @@ GUID for the attribute type.
 
 ### -field dwOverlapId
 
-A unique identifier of this attribute when overlapped with other attributes. This is a feature in <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>. In TSF, this parameter value is zero (0). Any nonzero value is ignored.
+A unique identifier of this attribute when overlapped with other attributes. This is a feature in <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>. In TSF, this parameter value is zero (0). Any nonzero value is ignored.
 
 
 ### -field varValue
@@ -131,7 +132,7 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
 
 
 

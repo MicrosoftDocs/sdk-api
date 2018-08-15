@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -94,11 +95,11 @@ A pointer to the Bluetooth LE GATT characteristic value data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450796">BluetoothGATTGetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/8C89FCE9-8DCA-4A38-AF67-A46FDDCC9A60">BluetoothGATTGetCharacteristicValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450806">BluetoothGATTSetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/114C1FCD-95F8-4358-8178-C9B283CA7323">BluetoothGATTSetCharacteristicValue</a>
  
 
  

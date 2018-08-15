@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ This property is write-only.
 
 
 
-Call this property to specify a value before calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method. The <b>Pin</b> property internally sets the pin number on the  <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object. You can retrieve the private key object by calling <a href="https://msdn.microsoft.com/047a22ba-9817-45b7-aa9a-356245d2b824">PrivateKey</a>. You can call the following properties to retrieve additional information about the signing certificate object:
+Call this property to specify a value before calling the <a href="https://msdn.microsoft.com/2553f0bc-a177-49fc-932f-080cb4bd7a5c">Initialize</a> method. The <b>Pin</b> property internally sets the pin number on the  <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object. You can retrieve the private key object by calling <a href="https://msdn.microsoft.com/047a22ba-9817-45b7-aa9a-356245d2b824">PrivateKey</a>. You can call the following properties to retrieve additional information about the signing certificate object:
 
 <ul>
 <li>

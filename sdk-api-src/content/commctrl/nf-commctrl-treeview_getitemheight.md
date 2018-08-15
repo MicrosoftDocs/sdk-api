@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773599(v=VS.85).aspx">TVM_GETITEMHEIGHT</a> message explicitly. 
+Retrieves the current height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/017476a3-1929-4a31-97a7-0f66175d47ea">TVM_GETITEMHEIGHT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760104(v=VS.85).aspx">TreeView_SetItemHeight</a>
+<a href="https://msdn.microsoft.com/513d4866-5fb1-4411-b4c0-8b07fa0f78ad">TreeView_SetItemHeight</a>
  
 
  

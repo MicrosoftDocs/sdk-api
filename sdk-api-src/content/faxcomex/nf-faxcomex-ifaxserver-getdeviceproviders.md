@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms687073(v=VS.85).aspx">FaxDeviceProviders</a> object, a collection of fax service providers (FSPs) that are currently registered with the fax service. You can use the <b>FaxDeviceProviders</b> object to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a> objects for them.
+The <b>GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a> object, a collection of fax service providers (FSPs) that are currently registered with the fax service. You can use the <b>FaxDeviceProviders</b> object to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a> objects for them.
 
 
 ## -parameters
@@ -71,9 +72,9 @@ The <b>GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms687073(v=VS.85).aspx">FaxDeviceProviders</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a>**</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms687073(v=VS.85).aspx">FaxDeviceProviders</a> object.
+A <a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a> object.
 
 
 
@@ -82,7 +83,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms687073(v=VS.85).aspx">FaxD
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -92,15 +93,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693462(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/422003a1-7db2-4eff-97bd-8ca889a3e5f6">Visual Basic Example</a>
  
 
  

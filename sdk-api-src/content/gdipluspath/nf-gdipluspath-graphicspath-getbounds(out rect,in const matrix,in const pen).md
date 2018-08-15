@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 GetBounds methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,19 +66,19 @@ GetBounds methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535583(v=VS.85).aspx">GetBounds(Rect*,Matrix*,Pen*)</a>
+<a href="https://msdn.microsoft.com/dac19ad4-9a6f-49d0-a9f1-8b14802f64ee">GetBounds(Rect*,Matrix*,Pen*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535583(v=VS.85).aspx">GraphicsPath::GetBounds</a> method gets a bounding rectangle for this path.
+The <a href="https://msdn.microsoft.com/dac19ad4-9a6f-49d0-a9f1-8b14802f64ee">GraphicsPath::GetBounds</a> method gets a bounding rectangle for this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535584(v=VS.85).aspx">GetBounds(RectF*,Matrix*,Pen*)</a>
+<a href="https://msdn.microsoft.com/a6a44cf0-78a9-4a1c-95f8-06d2ac32339b">GetBounds(RectF*,Matrix*,Pen*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535584(v=VS.85).aspx">GraphicsPath::GetBounds</a> method gets a bounding rectangle for this path.
+The <a href="https://msdn.microsoft.com/a6a44cf0-78a9-4a1c-95f8-06d2ac32339b">GraphicsPath::GetBounds</a> method gets a bounding rectangle for this path.
 
 </td>
 </tr>

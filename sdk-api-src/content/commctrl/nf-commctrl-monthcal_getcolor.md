@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760953(v=VS.85).aspx">MCM_GETCOLOR</a> message explicitly. 
+Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/6c30ad0d-7584-402a-9c27-3c12c49c87f3">MCM_GETCOLOR</a> message explicitly. 
 
 
 ## -parameters

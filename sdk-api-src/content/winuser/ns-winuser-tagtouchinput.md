@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -284,7 +285,7 @@ The following example shows how to get the device information from the <b>hSourc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/591c7218-bd4f-40c2-98e1-6442ede28600">Structures</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ Creates an instance of the <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3
 
 ### -param SensorGroupSymbolicLink
 
-The symbolic link for the new <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>. This name can be obtained through device enumeration APIs such as This is the symbolic link name obtained through either the standard Win32 device enumeration, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a> or <a href="https://msdn.microsoft.com/da4d96ce-e22b-4e1c-aa2e-df46416a5f0b">MFEnumDeviceSources</a> or by getting the  <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">Id</a> property of the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">DeviceInformation</a> class.
+The symbolic link for the new <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>. This name can be obtained through device enumeration APIs such as This is the symbolic link name obtained through either the standard Win32 device enumeration, such as <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> or <a href="https://msdn.microsoft.com/da4d96ce-e22b-4e1c-aa2e-df46416a5f0b">MFEnumDeviceSources</a> or by getting the  <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">Id</a> property of the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Enumeration.DeviceInformation">DeviceInformation</a> class.
 
 
 ### -param ppSensorGroup [out]

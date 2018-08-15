@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Increments (increases by one) the value of the specified 16-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a> function.
 
 To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/f18b63fa-201f-436d-a152-41e458959a5c">InterlockedIncrement64</a> function.
 
@@ -104,11 +105,11 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a>
 
 
 
@@ -128,7 +129,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547916">InterlockedIncrementAcquire</a>
+<a href="https://msdn.microsoft.com/d6ae8212-ae47-47cf-8787-83780ecf1d61">InterlockedIncrementAcquire</a>
 
 
 
@@ -144,7 +145,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547919">InterlockedIncrementRelease</a>
+<a href="https://msdn.microsoft.com/6ea906b2-0c85-4f08-b53b-61d730fa4930">InterlockedIncrementRelease</a>
 
 
 

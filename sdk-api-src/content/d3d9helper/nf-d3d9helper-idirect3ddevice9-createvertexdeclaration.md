@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,23 +62,23 @@ Create a vertex shader declaration from the device and the vertex elements.
 
 ### -param pVertexElements [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/6f3c40a0-b28e-48d6-acad-ef80a919c5d7">D3DVERTEXELEMENT9</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Bb172630(v=VS.85).aspx">D3DVERTEXELEMENT9</a> vertex elements.
+An array of <a href="https://msdn.microsoft.com/6f3c40a0-b28e-48d6-acad-ef80a919c5d7">D3DVERTEXELEMENT9</a> vertex elements.
 
 
 ### -param ppDecl [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/3c4a18a5-5307-48d0-8a21-afb343d5d816">IDirect3DVertexDeclaration9</a>**</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a> pointer that returns the created vertex shader declaration.
+Pointer to an <a href="https://msdn.microsoft.com/3c4a18a5-5307-48d0-8a21-afb343d5d816">IDirect3DVertexDeclaration9</a> pointer that returns the created vertex shader declaration.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -89,7 +90,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-See the <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx">Vertex Declaration (Direct3D 9)</a> page for a detailed description of how to map vertex declarations between different versions of DirectX.
+See the <a href="https://msdn.microsoft.com/09dae498-3b33-4c33-bc7e-47f2bf784e4c">Vertex Declaration (Direct3D 9)</a> page for a detailed description of how to map vertex declarations between different versions of DirectX.
 
 
 
@@ -99,7 +100,7 @@ See the <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -95,11 +96,6 @@ The <b>DHCP_FAILOVER_STATISTICS</b> structure defines DHCP server scope statisti
 
 
 
-#### - numAddr
-
-Value that specifies the total number of addresses in a DHCPv4 scope that are part of a failover relationship.
-
-
 #### - addrFree
 
 Value that specifies the total number of free IPv4 addresses that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
@@ -110,19 +106,24 @@ Value that specifies the total number of free IPv4 addresses that can be leased 
 Value that specifies the total number of IPv4 addresses that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 
+#### - numAddr
+
+Value that specifies the total number of addresses in a DHCPv4 scope that are part of a failover relationship.
+
+
 #### - partnerAddrFree
 
 Value that specifies the number of free IPv4 addresses on the partner server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 
-#### - thisAddrFree
-
-Value that specifies the number of free IPv4 addresses on the local server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
-
-
 #### - partnerAddrInUse
 
 Value that specifies the number of IPv4 addresses on the partner server that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
+
+
+#### - thisAddrFree
+
+Value that specifies the number of free IPv4 addresses on the local server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 
 #### - thisAddrInUse

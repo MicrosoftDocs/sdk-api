@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -115,7 +116,7 @@ The length in characters of <i>pszServiceId</i> exceeds WSD_MAX_TEXT_LENGTH (819
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized. Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized. Call <a href="https://msdn.microsoft.com/a66f0600-0bac-4bef-af43-6db60b60605e">Init</a> to initialize a device host.
 
 </td>
 </tr>

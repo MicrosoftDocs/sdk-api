@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -91,7 +92,7 @@ A resource has a dependency on a storage device, such as a
 
 #### CLUS_RESCLASS_NETWORK (2)
 
-A resource has a dependency on a <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
+A resource has a dependency on a <a href="n_gly.htm">network</a> device.
 
 
 

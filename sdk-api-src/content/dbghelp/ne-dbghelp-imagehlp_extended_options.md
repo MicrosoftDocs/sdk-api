@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dbghelp.h
 req.include-header: 
+req.redist: DbgHelp.dll 10.0.16232.1000 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

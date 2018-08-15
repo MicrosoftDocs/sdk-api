@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -158,7 +159,7 @@ To swap two pieces of media, specify the source as the value for the second dest
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551464">CHANGER_EXCHANGE_MEDIUM</a>
+<a href="https://msdn.microsoft.com/a35c9da8-7632-4aa1-a1a7-030ffce727b7">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 

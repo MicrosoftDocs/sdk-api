@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Windows XP with SP1 and later
 
 
 The 
-<b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> on this interface to create the MSP object.
+<b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="_com_cocreateinstance">CoCreateInstance</a> on this interface to create the MSP object.
 
 
 ## -inheritance
@@ -91,7 +92,7 @@ Gets event information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/5df2c486-0133-4705-8d37-10b56b40c85d">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called when the MSP is loaded.
@@ -109,7 +110,7 @@ Called when the TSP sends asynchronous data to the MSP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/877691cb-b12b-4389-b93c-4ff13a52f4d7">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Called when the MSP is unloaded.

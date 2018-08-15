@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dde.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message. 
+Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a> message. 
 
 
 ## -struct-fields
@@ -69,7 +70,7 @@ Unused.
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
+Indicates whether the application receiving the <a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
 
 
 ### -field fReserved
@@ -161,7 +162,7 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
 
 
 
@@ -173,7 +174,7 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
+<a href="https://msdn.microsoft.com/848142b7-a7ef-4206-9bb3-b511388cfaaa">WM_DDE_POKE</a>
  
 
  

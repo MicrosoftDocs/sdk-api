@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Rights Management Services client 1.0 or later
 
 Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
 
-<b>ITaskTrigger</b> is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task_trigger object</a>. To create a trigger object, call 
+<b>ITaskTrigger</b> is the primary interface of the <a href="t.htm">task_trigger object</a>. To create a trigger object, call 
 <a href="https://msdn.microsoft.com/ff8c9c3b-697f-42f0-a5b5-6194e4c89096">CreateTrigger</a> or 
 <a href="https://msdn.microsoft.com/f99b342c-9233-43e3-93f1-88586e975608">GetTrigger</a>.
 

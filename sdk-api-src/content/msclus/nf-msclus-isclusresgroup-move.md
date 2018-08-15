@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Moves a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> and all of its 
+    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> and all of its 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> from one 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> to another.
 
@@ -114,7 +115,7 @@ Unless a node is specified, <b>Move</b> automatically
 <ul>
 <li>The set of currently active nodes.</li>
 <li>The group's prioritized list of 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> nodes (see 
+      <a href="p_gly.htm">preferred owner</a> nodes (see 
       <a href="https://msdn.microsoft.com/5e2872a4-72db-4cd8-9fce-34c1bd701706">ClusResGroup.PreferredOwnerNodes</a>).</li>
 <li>The set of nodes listed as possible owners by all resources in the group. To access the possible owners 
       list for a resource, use the 

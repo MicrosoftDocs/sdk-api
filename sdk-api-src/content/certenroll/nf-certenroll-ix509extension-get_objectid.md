@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-You can specify the OID when you call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method to create an extension value.
+You can specify the OID when you call the <a href="https://msdn.microsoft.com/a01a371b-7dc2-4204-8029-269ac4a9c0d5">Initialize</a> method to create an extension value.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IDirect3DVertexShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/7058fb2f-4c82-4314-b216-b15880a36d63">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.
@@ -80,7 +81,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205924(v=VS.85).aspx">GetFunction</a>
+<a href="https://msdn.microsoft.com/f549d70c-9a2f-4663-83e1-8d4e926f04c2">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.

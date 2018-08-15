@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedOtherElementEventId</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputDiscardedEventId</a> event.
+When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="uiauto_event_ids.htm">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="uiauto_event_ids.htm">UIA_InputReachedOtherElementEventId</a> or <a href="uiauto_event_ids.htm">UIA_InputDiscardedEventId</a> event.
 
 After receiving input of the specified type, the provider stops checking for input and continues as normal.
 

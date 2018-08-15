@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761637(v=VS.85).aspx">EM_SCROLLCARET</a> message explicitly.
+Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/7a33034d-9369-49f8-a881-0c1d2cedff6a">EM_SCROLLCARET</a> message explicitly.
 
 
 ## -parameters

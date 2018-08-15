@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Appends an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/8bd54fab-64e8-42a5-ac9d-fa19328b1acb">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer from a specified location in the collection.
@@ -91,7 +92,7 @@ Gets an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/5a89f2ab-47b3-4e82-94ac-d3aa8c02ff60">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointers in the collection.
@@ -111,7 +112,7 @@ Inserts an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/476c296e-a4f1-4c87-afff-c8231290c581">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes and releases an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer from a specified location in the collection.
@@ -150,7 +151,7 @@ For more information about the collection methods, see  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

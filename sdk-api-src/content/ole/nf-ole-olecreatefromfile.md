@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ole.h
 req.include-header: Ole2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -73,24 +74,14 @@ TBD
 This parameter is reserved and must be CLSID_NULL.
 
 
-#### - lpszFileName [in]
-
-Pointer to a string specifying the full path of the file from which the object should be initialized.
-
-
-#### - riid [in]
-
-Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface ID of <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>).
-
-
-#### - renderopt [in]
-
-Value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>lpFormatEtc</i> parameter.
-
-
 #### - lpFormatEtc [in]
 
  Depending on which of the <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> flags is used as the value of <i>renderopt</i>, pointer to one of the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumeration values. Refer also to the <b>OLERENDER</b> enumeration for restrictions.
+
+
+#### - lpszFileName [in]
+
+Pointer to a string specifying the full path of the file from which the object should be initialized.
 
 
 #### - pClientSite [in]
@@ -106,6 +97,16 @@ Pointer to the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317
 #### - ppvObj [out]
 
 Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the newly created object.
+
+
+#### - renderopt [in]
+
+Value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>lpFormatEtc</i> parameter.
+
+
+#### - riid [in]
+
+Reference to the identifier of the interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface ID of <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>).
 
 
 ## -returns

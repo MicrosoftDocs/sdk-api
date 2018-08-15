@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only],KB2533623     on Windows 7, Windows Server 2008 R2, Windows Vista, and     Windows Server 2008
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]

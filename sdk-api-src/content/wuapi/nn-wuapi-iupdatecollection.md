@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -56,7 +57,7 @@ Represents an ordered list of updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUpdateCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IUpdateCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +73,7 @@ The <b>IUpdateCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/32b25c99-d2a0-4365-a285-f66381cfc3e7">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -81,7 +82,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/53b30472-ae1b-4d29-a411-25f03e515996">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all the elements from the collection.
@@ -90,7 +91,7 @@ Removes all the elements from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/78a024a4-7aab-4bcb-bd3f-a79ef5580e1b">Copy</a>
 </td>
 <td align="left" width="63%">
 Creates a shallow read/write copy of the collection.
@@ -108,7 +109,7 @@ Inserts an item into the collection at the specified position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/b6d32db8-c935-41f8-a8f3-0730719cac7e">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes the item at the specified index from the collection.
@@ -126,7 +127,7 @@ Removes the item at the specified index from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/78c80163-e77a-42c1-8eb9-ec8eea5ce997">_NewEnum</a>
 
 
 </td>
@@ -135,14 +136,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/f0d8de56-c51e-4165-a6bb-ea7eec70c567">Count</a>
 
 
 </td>
@@ -158,7 +159,7 @@ Gets the number of elements in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/d36af17d-b4ac-48ef-8ca4-cc44d7f9a4ee">Item</a>
 
 
 </td>

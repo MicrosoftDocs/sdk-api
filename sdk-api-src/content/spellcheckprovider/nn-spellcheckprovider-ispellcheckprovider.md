@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheckprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -135,7 +136,7 @@ Retrieves spelling suggestions for the supplied text.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/4FB41CF0-1F08-42F8-86A7-F38FE740F436">Id</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Pointer to the <b>DDPIXELFORMAT</b> structure associated with the surface.
 
 ### -field szAspectRatio
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that specifies the aspect ratio of the new surface.
+A <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that specifies the aspect ratio of the new surface.
 
 
 ### -field dwMinBuffers

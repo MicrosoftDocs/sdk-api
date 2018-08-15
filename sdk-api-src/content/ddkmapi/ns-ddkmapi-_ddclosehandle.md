@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,11 +69,11 @@ Handle to be closed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550606">DD_DXAPI_CLOSEHANDLE</a>
+<a href="https://msdn.microsoft.com/658f5c93-7cf2-4527-a82a-b5ecb8ab44c4">DD_DXAPI_CLOSEHANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

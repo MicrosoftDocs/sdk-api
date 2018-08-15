@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ Enables view instance masking.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt844812(v=VS.85).aspx">D3D12_VIEW_INSTANCING_DESC</a>
+<a href="direct3d12.d3d12_view_instanceing_desc">D3D12_VIEW_INSTANCING_DESC</a>
  
 
  

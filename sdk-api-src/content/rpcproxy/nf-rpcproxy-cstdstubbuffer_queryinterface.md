@@ -15,6 +15,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -54,7 +55,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdStubBuffer_QueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::QueryInterface</a> method.
+The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
 
 
 ## -parameters
@@ -64,7 +65,7 @@ The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https:
 
 ### -param This [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
+Pointer to the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

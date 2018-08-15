@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,9 +68,9 @@ A handle to the image list. The provider retains ownership of the image list and
 
 ### -field margin
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> that specifies the margin around the icon.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> that specifies the margin around the icon.
 
 
 ### -field uAlign
@@ -142,23 +143,23 @@ Center the image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/79383758-53d4-4955-b472-befd338cbec6">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775975(v=VS.85).aspx">BCM_SETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/805d2d9b-3e8f-4323-abaf-0dd5765cd740">BCM_SETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761853(v=VS.85).aspx">Button_GetImageList</a>
+<a href="https://msdn.microsoft.com/e194640a-92b7-4ba5-b80c-51a1da9c32cf">Button_GetImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761867(v=VS.85).aspx">Button_SetImageList</a>
+<a href="https://msdn.microsoft.com/37d449aa-a503-4ca4-98dc-dae9a1838228">Button_SetImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545234">Buttons</a>
+<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons</a>
 
 
 

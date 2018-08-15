@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mapiunicodehelp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -137,7 +138,7 @@ A value of zero means that there are no recipients. Additionally, when this memb
 <div> </div>
 If either <b>MAPI_DIALOG</b> or <b>MAPI_DIALOG_MODELESS</b> is not set, the <b>nRecipCount</b> and <b>lpRecips</b> members of the structure must be valid for successful message delivery. Client applications can set the <b>flFlags</b> member to <b>MAPI_RECEIPT_REQUESTED</b> to request a read report.
 
-For more details about how the function handles recipient information, see <a href="https://msdn.microsoft.com/en-us/library/Hh707275(v=VS.85).aspx">Handling recipient information</a> in <b>MAPISendMailW</b>.
+For more details about how the function handles recipient information, see <a href="mapisendmailw.htm">Handling recipient information</a> in <b>MAPISendMailW</b>.
 
 
 ### -param flFlags [in]

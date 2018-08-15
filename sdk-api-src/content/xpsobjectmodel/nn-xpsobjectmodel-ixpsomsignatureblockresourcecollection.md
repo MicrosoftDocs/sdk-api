@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Appends an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a4
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/84269d8c-9d0f-4489-8e4e-369f5e53fa95">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from a specified location in the collection.
@@ -101,7 +102,7 @@ Gets an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/3ed0890a-9593-4004-b122-264d692913db">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointers in the collection.
@@ -121,7 +122,7 @@ Inserts an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a4
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/5f33e46a-0926-4802-8581-eca5f1cdea65">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes and releases an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from a specified location in the collection.
@@ -160,7 +161,7 @@ For more information about the collection methods, see  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

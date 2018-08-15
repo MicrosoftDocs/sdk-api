@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr9.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -138,7 +139,7 @@ Retrieves the current settings for one or more ProcAmp settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451674">GetVideoProcessorCaps</a>
+<a href="https://msdn.microsoft.com/9a02aed2-8225-4416-ae54-7ed51c67a149">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of a video processor mode.

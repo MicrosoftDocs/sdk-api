@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets tooltip text. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761180(v=VS.85).aspx">LVM_SETINFOTIP</a> message explicitly. 
+Sets tooltip text. You can use this macro or send the <a href="https://msdn.microsoft.com/3dbf6a9a-52ec-4619-9c70-041e75942e20">LVM_SETINFOTIP</a> message explicitly. 
 
 
 ## -parameters
@@ -69,13 +70,13 @@ A handle to the list-view control.
 
 Type: <b>PLVSETINFOTIP</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774764(v=VS.85).aspx">LVSETINFOTIP</a>
+<a href="https://msdn.microsoft.com/763d8231-3572-40d7-b120-0e88835a3d63">LVSETINFOTIP</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetInfoTip</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetInfoTip</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

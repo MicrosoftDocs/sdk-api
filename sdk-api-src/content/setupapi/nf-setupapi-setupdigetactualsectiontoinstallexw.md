@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ A pointer to the <i>DDInstall</i> section name (as specified in an <a href="devi
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer, if non-<b>NULL</b>, to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552338">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
+A pointer, if non-<b>NULL</b>, to an <a href="https://msdn.microsoft.com/d9aba6c9-1b23-4ce0-b796-904b39bec3ac">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
 
 
 
@@ -176,16 +177,6 @@ A pointer to a variable that receives a pointer to the '.' character that marks 
 Reserved for internal use only. Must be set to <b>NULL</b>.
 
 
-##### - AlternatePlatformInfo.cbSize
-
-Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
-
-
-##### - AlternatePlatformInfo.Platform
-
-Set to VER_PLATFORM_WIN32_NT for Windows XP and later versions of Windows.
-
-
 ##### - AlternatePlatformInfo.MajorVersion
 
 Not used.
@@ -194,6 +185,11 @@ Not used.
 ##### - AlternatePlatformInfo.MinorVersion
 
 Not Used.
+
+
+##### - AlternatePlatformInfo.Platform
+
+Set to VER_PLATFORM_WIN32_NT for Windows XP and later versions of Windows.
 
 
 ##### - AlternatePlatformInfo.ProcessorArchitecture
@@ -244,6 +240,11 @@ The alternative platform is an x64-based processor architecture.
 Set to zero.
 
 
+##### - AlternatePlatformInfo.cbSize
+
+Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
+
+
 ## -returns
 
 
@@ -257,7 +258,7 @@ If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>
 
 
 
-<b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551039">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="devinst.creating_inf_files_for_multiple_platforms_and_operating_systems">Creating INF Files for Multiple Platforms and Operating Systems</a>.
+<b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="devinst.creating_inf_files_for_multiple_platforms_and_operating_systems">Creating INF Files for Multiple Platforms and Operating Systems</a>.
 
 If you do not supply alternative platform information with a call to <b>SetupDiGetActualSectionToInstallEx</b>, the function performs the same operation as <b>SetupDiGetActualSectionToInstall</b>. The latter function searches for the specified install section name using the platform information for the local computer.
 
@@ -288,11 +289,11 @@ If the function finds a match for the name, operating system, and processor arch
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551045">SetupDiGetActualSectionToInstallEx</a>
+<a href="https://msdn.microsoft.com/0f05e3ec-09ea-4d9a-99c9-ddbc16753481">SetupDiGetActualSectionToInstallEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a>
+<a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/en-us/library/Bb787970(v=VS.85).aspx">EN_LINK</a> notification code from a rich edit control. 
+Contains information about an <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification code from a rich edit control. 
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ Contains information about an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 The code member of this structure identifies the notification code being sent. 
 
@@ -70,7 +71,7 @@ The code member of this structure identifies the notification code being sent.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Identifier of the message that caused the rich edit control to send the <a href="https://msdn.microsoft.com/en-us/library/Bb787970(v=VS.85).aspx">EN_LINK</a> notification code. 
+Identifier of the message that caused the rich edit control to send the <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification code. 
 
 
 ### -field wParam
@@ -89,7 +90,7 @@ The <b>lParam</b> parameter of the message received by the rich edit control.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
 
 The range of consecutive characters in the rich edit control that have the CFE_LINK effect. 
 
@@ -99,15 +100,15 @@ The range of consecutive characters in the rich edit control that have the CFE_L
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787970(v=VS.85).aspx">EN_LINK</a>
+<a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
 
 
 

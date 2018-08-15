@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -168,7 +169,7 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761270(v=VS.85).aspx">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/en-us/library/Bb774928(v=VS.85).aspx">LVM_GETFOOTERITEM</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/4993d464-445a-4f16-8100-f65458a5927f">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/92f55719-c265-433f-84fc-a673680c7ad9">LVM_GETFOOTERITEM</a> message.
 
 
 

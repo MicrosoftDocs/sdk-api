@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -93,7 +94,7 @@ Request the cache to evaluate the embedded security descriptor. If <i>hToken</i>
 
 ### -param accessMask [in]
 
-The security descriptor data. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
+The security descriptor data. For more information, see <a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>.
 
 
 ### -param ppContext [out]
@@ -117,7 +118,7 @@ Returns <b>TRUE</b> if the name is found in the cache; otherwise, it returns <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>
 
 
 

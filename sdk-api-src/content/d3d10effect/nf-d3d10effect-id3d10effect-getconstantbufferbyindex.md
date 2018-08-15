@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,9 +70,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer Interface</a>.
 
 
 
@@ -90,7 +91,7 @@ An effect that contains a variable that will be read/written by an application r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
  
 
  

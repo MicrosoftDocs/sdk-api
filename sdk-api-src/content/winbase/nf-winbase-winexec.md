@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Runs the specified application.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows. Applications should use the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function.</div><div> </div>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -80,7 +81,7 @@ The command line (file name plus optional parameters) for the application to be 
 ### -param uCmdShow [in]
 
 The display options. For a list of the acceptable values, see the description of the <i>nCmdShow</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function.
+<a href="_win32_showwindow_cpp">ShowWindow</a> function.
 
 
 ## -returns
@@ -151,7 +152,7 @@ The specified path was not found.
 
 
 The 
-<b>WinExec</b> function returns when the started process calls the <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
+<b>WinExec</b> function returns when the started process calls the <a href="_win32_getmessage_cpp">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
 <b>WinExec</b>.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
@@ -162,7 +163,7 @@ If a malicious user were to create an application called "Program.exe" on a syst
 <b>WinExec</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, use 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> rather than 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> rather than 
 <b>WinExec</b>. However, if you must use 
 <b>WinExec</b> for legacy reasons, make sure the application name is enclosed in quotation marks as shown in the example below.
 
@@ -175,7 +176,7 @@ To avoid this problem, use
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
  
 
  

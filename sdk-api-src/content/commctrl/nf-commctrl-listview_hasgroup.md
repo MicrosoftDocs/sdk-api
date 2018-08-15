@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761097(v=VS.85).aspx">LVM_HASGROUP</a> message explicitly. 
+Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://msdn.microsoft.com/0b8a9208-5221-4f66-8b26-7de55afe485f">LVM_HASGROUP</a> message explicitly. 
 
 
 ## -parameters
@@ -74,7 +75,7 @@ Type: <b>int</b>
 
 
 
-To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

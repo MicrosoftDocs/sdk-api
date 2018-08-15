@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -87,7 +88,7 @@ Returns the
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/194944c8-94a8-4f9b-9970-012392e069b1">Read</a>
 </td>
 <td align="left" width="63%">
 Reads the specified amount 

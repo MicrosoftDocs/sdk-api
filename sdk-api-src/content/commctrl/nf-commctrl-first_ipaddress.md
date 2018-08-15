@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Extracts the field 0 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/en-us/library/Bb761378(v=VS.85).aspx">IPM_GETADDRESS</a> message. 
+Extracts the field 0 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/4fe68d45-7d7f-46da-a110-65f899b3c393">IPM_GETADDRESS</a> message. 
 
 
 ## -parameters

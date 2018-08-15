@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Internet Explorer 5
 
 Verifies that the provider supports the  requested access. It is called when <a href="https://msdn.microsoft.com/3e03567b-7bac-4bef-ae62-a040f0c33cfb">OpenPropertyStore</a> is called on a function instance to verify that the provider supports the access mode passed by the <i>dwStgAccess</i> parameter.   
 
-This method is only called when a provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method returns  a <i>pdwStgAccessCapabilities</i> parameter value of -1. 
+This method is only called when a provider's <a href="https://msdn.microsoft.com/084d6d91-4637-4325-887b-e9f46ecaaee4">Initialize</a> method returns  a <i>pdwStgAccessCapabilities</i> parameter value of -1. 
 
 
 ## -parameters

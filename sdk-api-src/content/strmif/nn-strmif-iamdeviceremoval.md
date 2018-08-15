@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,7 +78,7 @@ The <b>IAMDeviceRemoval</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt138322">DeviceInfo</a>
+<a href="https://msdn.microsoft.com/ec3628cf-fcb4-46c4-9de1-79bf1259c3db">DeviceInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the device
@@ -110,7 +111,7 @@ Reassociates the KsProxy filter with the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774587(v=VS.85).aspx">PSM_INDEXTOID</a> message explicitly.
+Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the <a href="https://msdn.microsoft.com/c153675a-360f-4916-aa0b-500636dd9022">PSM_INDEXTOID</a> message explicitly.
 
 
 ## -parameters
@@ -78,7 +79,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774587(v=VS.85).aspx">PSM_INDEXTOID</a>
+<a href="https://msdn.microsoft.com/c153675a-360f-4916-aa0b-500636dd9022">PSM_INDEXTOID</a>
  
 
  

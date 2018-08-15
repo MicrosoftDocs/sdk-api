@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Draws an image list image based on an <a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure. 
+Draws an image list image based on an <a href="https://msdn.microsoft.com/c3579946-d690-4f32-9662-b4e1b3f06aba">IMAGELISTDRAWPARAMS</a> structure. 
 
 
 ## -parameters
@@ -60,9 +61,9 @@ Draws an image list image based on an <a href="https://msdn.microsoft.com/en-us/
 
 ### -param pimldp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c3579946-d690-4f32-9662-b4e1b3f06aba">IMAGELISTDRAWPARAMS</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761395(v=VS.85).aspx">IMAGELISTDRAWPARAMS</a> structure that contains information about the draw operation. 
+A pointer to an <a href="https://msdn.microsoft.com/c3579946-d690-4f32-9662-b4e1b3f06aba">IMAGELISTDRAWPARAMS</a> structure that contains information about the draw operation. 
 
 
 ## -returns

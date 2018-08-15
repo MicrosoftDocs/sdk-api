@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -55,7 +56,7 @@ The <b>IAzRole</b> interface defines the set of operations that can be performed
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRole</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzRole</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRole</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzRole</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -247,7 +248,7 @@ Retrieves the application groups that belong to the role.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/2909c2ea-8308-49c3-9456-d035c1c242f0">Description</a>
 
 
 </td>
@@ -295,7 +296,7 @@ Retrieves the account names of accounts that belong to the role.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/fecd1cb8-55b8-4c7c-ba49-a633f9c8710c">Name</a>
 
 
 </td>

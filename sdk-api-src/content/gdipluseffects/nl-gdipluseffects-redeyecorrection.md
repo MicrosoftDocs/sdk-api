@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluseffects.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,5 +52,5 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>RedEyeCorrection</b> class enables you to correct the red eyes that sometimes occur in flash photographs. Pass the address of a <b>RedEyeCorrection</b> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method. To specify areas of the bitmap that have red eyes, pass a <a href="https://msdn.microsoft.com/en-us/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a> method of a <b>RedEyeCorrection</b> object.
+The <b>RedEyeCorrection</b> class enables you to correct the red eyes that sometimes occur in flash photographs. Pass the address of a <b>RedEyeCorrection</b> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method. To specify areas of the bitmap that have red eyes, pass a <a href="https://msdn.microsoft.com/5c4832f7-de89-4596-915f-2cd23b8c1c2f">RedEyeCorrectionParams</a> structure to the <a href="https://msdn.microsoft.com/ed889acb-37c1-4fa6-9c46-1f41428b9b36">RedEyeCorrection::SetParameters</a> method of a <b>RedEyeCorrection</b> object.
 

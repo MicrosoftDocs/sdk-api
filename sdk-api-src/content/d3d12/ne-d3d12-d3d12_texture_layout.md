@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -194,7 +195,7 @@ The restrictions for this layout are that the following aren't supported:
 <li>
 <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAG</a>_ALLOW_DEPTH_STENCIL
               </li>
-<li>Formats within the <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>_R32G32B32_TYPELESS group
+<li>Formats within the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>_R32G32B32_TYPELESS group
               </li>
 </ul>
 
@@ -213,7 +214,7 @@ The standard swizzle formats applies within each page-sized chunk, and pages are
           A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.
         
 
-<img alt="Standard swizzle patterns" src="./images/d3d12_standardswizzle.png"/>
+<img alt="Standard swizzle patterns" src="images/d3d12_standardswizzle.png"/>
 To demonstrate, consider the 2D 32bpp swizzle format above.
           This is represented by the following interleave masks, where bits on the left are most-significant:
         

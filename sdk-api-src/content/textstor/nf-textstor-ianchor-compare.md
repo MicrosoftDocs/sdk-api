@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -171,7 +172,7 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
+<a href="ranges.htm">Anchors</a>
 
 
 
@@ -184,7 +185,7 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915768">Regions</a>
+<a href="https://msdn.microsoft.com/7488e29e-3409-4db3-98b4-f3438ad7c94e">Regions</a>
  
 
  

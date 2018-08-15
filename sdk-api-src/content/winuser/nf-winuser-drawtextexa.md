@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -86,7 +87,7 @@ The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">le
 
 ### -param lprc [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
 
 
 ### -param format [in]

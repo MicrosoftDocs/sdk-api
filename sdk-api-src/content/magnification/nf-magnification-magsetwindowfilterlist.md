@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -139,7 +140,7 @@ The magnification window itself is automatically excluded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692389(v=VS.85).aspx">MagGetWindowFilterList</a>
+<a href="https://msdn.microsoft.com/a2f7beaa-12fd-4363-a9a2-4d564158dda1">MagGetWindowFilterList</a>
  
 
  

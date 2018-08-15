@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -102,7 +103,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +115,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +126,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +137,7 @@ The buffer pointed to by the <i>optval</i> parameter is not in a valid part of t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -147,7 +148,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -158,18 +159,18 @@ The <i>level</i> parameter is not valid, or the information in the buffer pointe
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-The connection has timed out when <a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a> is set.
+The connection has timed out when <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is set.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOPROTOOPT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOPROTOOPT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -180,18 +181,18 @@ The option is unknown or unsupported for the specified provider or socket (see S
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-The connection has been reset when <a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a> is set.
+The connection has been reset when <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is set.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -269,7 +270,7 @@ The following tables list some of the common options supported by the <b>setsock
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a>
+<a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
 </td>
 <td>BOOL</td>
 <td>Enables sending keep-alive packets for a socket connection. Not supported on ATM sockets (results in an error).</td>
@@ -300,7 +301,7 @@ The following tables list some of the common options supported by the <b>setsock
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 </td>
 <td>BOOL</td>
 <td>Enables a socket to be bound for exclusive access. Does not require administrative privilege. </td>

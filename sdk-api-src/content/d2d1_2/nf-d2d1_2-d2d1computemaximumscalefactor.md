@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_2.h
 req.include-header: D2d1_1.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]

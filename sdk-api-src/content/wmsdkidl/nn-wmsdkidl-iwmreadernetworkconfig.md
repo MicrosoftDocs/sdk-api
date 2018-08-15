@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -133,7 +134,7 @@ Ascertains whether TCP is enabled.
 <a href="https://msdn.microsoft.com/81c6536c-303c-4eac-a75a-54e9df29e299">GetEnableUDP</a>
 </td>
 <td align="left" width="63%">
-Ascertains whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled.
+Ascertains whether <a href="wmformat_glossary.htm">UDP</a> is enabled.
 
 </td>
 </tr>
@@ -382,7 +383,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

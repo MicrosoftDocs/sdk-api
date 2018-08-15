@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> that are 
-    current members of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> and allows a resource to be added to or 
+    current members of a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> and allows a resource to be added to or 
     deleted from the group.
 
 
@@ -93,7 +94,7 @@ Creates a new cluster resource and adds it to the group.
 </td>
 <td align="left" width="63%">
 Removes a resource from the group and deletes it from the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+     <a href="c_gly.htm">cluster</a>.
 
 </td>
 </tr>
@@ -117,7 +118,7 @@ Refreshes the data in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/26d90188-e3b7-4546-9305-a2fc50c09c28">Count</a>
 
 
 </td>
@@ -133,7 +134,7 @@ Returns the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/5eba54e1-5c55-46b0-97b9-0104cfb4134c">Item</a>
 
 
 </td>

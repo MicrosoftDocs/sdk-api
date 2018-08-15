@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: SetupAPI.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -70,17 +71,17 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve a device instance property.
+A pointer to the <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve a device instance property.
 
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that represents the device property key of the requested device instance property.
+A pointer to a <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a> structure that represents the device property key of the requested device instance property.
 
 
 ### -param PropertyType [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device instance property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+A pointer to a <a href="https://msdn.microsoft.com/e0fdcc28-be70-4ae1-bd6d-89e2177eae62">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device instance property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 
 ### -param PropertyBuffer [out, optional]
@@ -251,9 +252,9 @@ The caller does not have Administrator privileges.
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceProperty</b>.
 
-To obtain the device property keys that represent the device properties that are set for a device instance, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551965">SetupDiGetDevicePropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device instance, call <a href="https://msdn.microsoft.com/d4decdab-e412-4719-ad65-74f34cf8df27">SetupDiGetDevicePropertyKeys</a>.
 
-To set a device instance property, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552163">SetupDiSetDeviceProperty</a>.
+To set a device instance property, call <a href="https://msdn.microsoft.com/c03c51ba-3027-4be9-8869-6d7dbeac2428">SetupDiSetDeviceProperty</a>.
 
 
 
@@ -263,11 +264,11 @@ To set a device instance property, call <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551965">SetupDiGetDevicePropertyKeys</a>
+<a href="https://msdn.microsoft.com/d4decdab-e412-4719-ad65-74f34cf8df27">SetupDiGetDevicePropertyKeys</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552163">SetupDiSetDeviceProperty</a>
+<a href="https://msdn.microsoft.com/c03c51ba-3027-4be9-8869-6d7dbeac2428">SetupDiSetDeviceProperty</a>
  
 
  

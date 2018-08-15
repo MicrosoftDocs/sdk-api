@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_6.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IDXGIOutput6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846755(v=VS.85).aspx">CheckHardwareCompositionSupport</a>
+<a href="direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport">CheckHardwareCompositionSupport</a>
 </td>
 <td align="left" width="63%">
 Notifies applications that hardware stretching is supported.

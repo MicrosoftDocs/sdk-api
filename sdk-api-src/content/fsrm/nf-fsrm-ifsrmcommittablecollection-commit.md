@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -101,7 +102,7 @@ Note that the state of the objects in the collection must be the same. For examp
 A collection of imported objects would be considered a collection of modified objects. If you marked one or 
     more of the imported objects for deletion (called the 
     <a href="https://msdn.microsoft.com/ce8a17fe-377b-4a0e-9a95-7dc25a1411ce">Delete</a> method on the object), you would first have to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">remove</a> those objects from the collection before 
+    <a href="https://msdn.microsoft.com/2d28bfc7-82d4-4c74-bac9-f9ef9111279f">remove</a> those objects from the collection before 
     committing the rest.
 
 

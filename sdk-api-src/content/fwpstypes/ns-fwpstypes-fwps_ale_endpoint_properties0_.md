@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ The unique identifier of the endpoint.
 ### -field ipVersion
 
 The internet protocol version of the endpoint expressed as a value from the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> enumeration.
+     <a href="https://msdn.microsoft.com/7b57b378-bdb3-4dbe-9174-1e19601d8ece">FWP_IP_VERSION</a> enumeration.
 
 
 ### -field localV4Address
@@ -143,7 +144,7 @@ The application identifier associated with the endpoint.
 
 
 Endpoints enumerated by calling 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a> are defined by
+    <a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a> are defined by
     FWPS_ALE_ENDPOINT_PROPERTIES0 structures.
 
 
@@ -154,11 +155,11 @@ Endpoints enumerated by calling
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a>
+<a href="https://msdn.microsoft.com/7b57b378-bdb3-4dbe-9174-1e19601d8ece">FWP_IP_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>
+<a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a>
  
 
  

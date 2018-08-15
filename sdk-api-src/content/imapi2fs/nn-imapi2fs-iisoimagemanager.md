@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ Use this interface to verify if an existing .iso file contains a valid file syst
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IIsoImageManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsoImageManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IIsoImageManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +93,7 @@ Retrieves the <b>IStream</b> object associated with the .iso image.
 <a href="https://msdn.microsoft.com/3e5ef908-795d-4617-8123-605855b9ddc8">SetPath</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a> property with a logical path to an .iso image.
+Sets the <a href="https://msdn.microsoft.com/56166789-8eeb-4468-a85e-b35e665170d6">Path</a> property with a logical path to an .iso image.
 
 </td>
 </tr>

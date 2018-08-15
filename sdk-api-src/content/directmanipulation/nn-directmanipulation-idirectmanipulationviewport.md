@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -116,7 +117,7 @@ Adds a new event handler to listen for viewport events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a>
+<a href="https://msdn.microsoft.com/ac4f3cbe-2769-468e-abe3-07b76ada5d7e">Disable</a>
 </td>
 <td align="left" width="63%">
 Stops input processing by the viewport.
@@ -125,7 +126,7 @@ Stops input processing by the viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/47ebb502-26c6-4bff-8baf-bd825fc06755">Enable</a>
 </td>
 <td align="left" width="63%">
 Starts or resumes input processing by the viewport.
@@ -143,7 +144,7 @@ Gets the primary content of a viewport that implements <a href="https://msdn.mic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/1c02b2b2-8291-4151-b9c9-d80bf71f5ef5">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the viewport.
@@ -296,7 +297,7 @@ Specifies the transform from the viewport coordinate system to the window client
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/e0b88429-0d75-4c4a-8468-1a5637455324">Stop</a>
 </td>
 <td align="left" width="63%">
     Stops the manipulation and returns the viewport to a ready state.  

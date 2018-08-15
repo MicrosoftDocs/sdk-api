@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IProviderConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/5bdb8b16-cda3-4f0d-b147-4dcfce81f592">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IProviderConverter</b> object with the <b>ISyncProvider</b> object to be converted.

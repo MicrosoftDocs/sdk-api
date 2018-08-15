@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761016(v=VS.85).aspx">MCM_SETTODAY</a> message explicitly. 
+Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/fcd4d33d-e661-4e02-8d19-666d80e1a070">MCM_SETTODAY</a> message explicitly. 
 
 
 ## -parameters

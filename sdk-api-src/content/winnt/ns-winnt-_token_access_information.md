@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,22 +74,22 @@ A pointer to a <a href="https://msdn.microsoft.com/ef6e32f5-b47e-463e-a447-bed14
 
 ### -field Privileges
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a> structure that specifies information about the token's privileges.
+A pointer to a <a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that specifies information about the token's privileges.
 
 
 ### -field AuthenticationId
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> structure that specifies the token's identity.
+A <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> structure that specifies the token's identity.
 
 
 ### -field TokenType
 
-A value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a> enumeration that specifies the token's type.
+A value of the <a href="https://msdn.microsoft.com/51b6717e-3fda-4af4-8995-4ac571eae2fd">TOKEN_TYPE</a> enumeration that specifies the token's type.
 
 
 ### -field ImpersonationLevel
 
-A value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration that specifies the token's impersonation level.
+A value of the <a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> enumeration that specifies the token's impersonation level.
 
 
 ### -field MandatoryPolicy
@@ -139,7 +140,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/cb606665-1266-4e71-a145-9b04bf157cdc">TOKEN_INFORMATION_CLASS</a>
  
 
  

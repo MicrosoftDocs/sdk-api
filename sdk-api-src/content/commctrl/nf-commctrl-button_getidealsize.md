@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a> message explicitly. 
+Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/c1bc2043-bf1a-4129-a005-f04048c4c1db">BCM_GETIDEALSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -67,9 +68,9 @@ A handle to the button control.
 
 ### -param psize
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
+A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
 
 
 ## -remarks
@@ -80,7 +81,7 @@ This macro is most applicable to PushButtons. When sent to a PushButton, the mac
 
 When sent to a button of any other type, the size of the control's window rectangle is retrieved.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -90,7 +91,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a>
+<a href="https://msdn.microsoft.com/c1bc2043-bf1a-4129-a005-f04048c4c1db">BCM_GETIDEALSIZE</a>
 
 
 
@@ -102,7 +103,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>
+<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
  
 
  

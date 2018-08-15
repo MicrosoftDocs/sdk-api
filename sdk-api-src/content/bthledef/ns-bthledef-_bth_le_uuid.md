@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -120,14 +121,14 @@ Indicates if the Low Energy (LE) UUID a 16-bit shortened value, or if it is the 
 
 
 
-#### - ShortUuid
-
-The short 16-bit value of the UUID. This member applies only if <b>IsShortUuid</b> is TRUE.
-
-
 #### - LongUuid
 
 The long 128-bit value of the UUID. This member applies only if <b>IsShortUuid</b> is FALSE.
+
+
+#### - ShortUuid
+
+The short 16-bit value of the UUID. This member applies only if <b>IsShortUuid</b> is TRUE.
 
 
 ## -see-also
@@ -135,7 +136,7 @@ The long 128-bit value of the UUID. This member applies only if <b>IsShortUuid</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450850">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
  
 
  

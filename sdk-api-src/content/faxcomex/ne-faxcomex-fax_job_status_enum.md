@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -119,15 +120,15 @@ The fax job is being routed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686168(v=VS.85).aspx">IFaxJobStatus::get_Status</a>
+<a href="https://msdn.microsoft.com/114ad232-1213-4af8-857f-5e32556c0330">IFaxJobStatus::get_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688565(v=VS.85).aspx">IFaxOutgoingJob::get_Status</a>
+<a href="https://msdn.microsoft.com/90553615-ded2-4e4c-9411-a513fd682423">IFaxOutgoingJob::get_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/fd84a3b4-a7ce-400c-a8a9-8134d7308bef">Status</a>
  
 
  

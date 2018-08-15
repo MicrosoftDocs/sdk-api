@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ Sets the demodulator's transmission mode.
 
 ### -param pTransmissionMode [in]
 
-Pointer to a variable that contains the transmission mode, specified as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568533">TransmissionMode</a> enumeration.
+Pointer to a variable that contains the transmission mode, specified as a member of the <a href="https://msdn.microsoft.com/b5722904-24a4-491f-8563-bfb2d5695d86">TransmissionMode</a> enumeration.
 
 
 ## -returns

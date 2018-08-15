@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,7 +68,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWEXTENSION</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEnumCERTVIEWEXTENSION</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWEXTENSION</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEnumCERTVIEWEXTENSION</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +83,7 @@ The <b>IEnumCERTVIEWEXTENSION</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/2b8e19e4-459f-45f0-abb6-e1e0e115e0f5">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the extension-enumeration sequence.
@@ -91,7 +92,7 @@ Creates a copy of the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the policy and origin flags of the current extension in the extension-enumeration sequence.
@@ -109,7 +110,7 @@ Retrieves the name of the current extension in the extension-enumeration sequenc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/7a81b096-36ba-416a-ad15-5bf1c4d512dd">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the current extension in the extension-enumeration sequence.
@@ -118,7 +119,7 @@ Retrieves the value of the current extension in the extension-enumeration sequen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next extension in the extension-enumeration sequence.
@@ -127,7 +128,7 @@ Moves to the next extension in the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the extension-enumeration sequence.
@@ -136,7 +137,7 @@ Moves to the beginning of the extension-enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of extensions in the extension-enumeration sequence.
@@ -151,7 +152,7 @@ Skips a specified number of extensions in the extension-enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

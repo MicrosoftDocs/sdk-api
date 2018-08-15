@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,5 +78,5 @@ Variable of type <b>ULONG</b> that specifies the count of property values to whi
 
 Type: <b>LPSPropValue</b>
 
-Pointer to an array of variables of type <a href="https://msdn.microsoft.com/en-us/library/ms629450(v=VS.85).aspx">SPropValue</a> that describe the property values for the columns in the row.
+Pointer to an array of variables of type <a href="https://msdn.microsoft.com/cff1b41d-fc53-4987-8823-04cbd51e811b">SPropValue</a> that describe the property values for the columns in the row.
 

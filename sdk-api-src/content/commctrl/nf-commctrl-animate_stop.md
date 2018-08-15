@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Stops playing an AVI clip in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761900(v=VS.85).aspx">ACM_STOP</a> message explicitly. 
+Stops playing an AVI clip in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/ba39a579-665e-4d45-8f1f-f190acd76db7">ACM_STOP</a> message explicitly. 
 
 
 ## -parameters

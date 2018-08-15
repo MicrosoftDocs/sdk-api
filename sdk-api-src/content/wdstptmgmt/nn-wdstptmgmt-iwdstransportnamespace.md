@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -56,7 +57,7 @@ Represents a namespace on a WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespace</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportNamespace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespace</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWdsTransportNamespace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +73,7 @@ The <b>IWdsTransportNamespace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/bc7eb27e-8bbb-414a-bfc2-25cc762b451d">Clone</a>
 </td>
 <td align="left" width="63%">
 Copies the information from this namespace object into a new, unregistered namespace object in memory.
@@ -126,7 +127,7 @@ Retrieves a collection of active transport content objects associated with the n
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539567">Configuration</a>
+<a href="https://msdn.microsoft.com/1934b5c2-2d78-4c94-9660-8c4e8b4aef77">Configuration</a>
 
 
 </td>
@@ -158,7 +159,7 @@ Receives the content provider for the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/1d3d2cd8-f2ed-495a-a7f9-659ef5e0f6e1">Description</a>
 
 
 </td>
@@ -190,7 +191,7 @@ Receives the user-friendly name of the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/cdbe5807-ba03-45ce-be05-34d352357e04">Id</a>
 
 
 </td>
@@ -206,7 +207,7 @@ Receives the unique namespace ID for a namespace that has been registered on the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/242f97de-1748-4d60-b945-3d38e1976879">Name</a>
 
 
 </td>
@@ -222,7 +223,7 @@ Receives the name of the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965826">Registered</a>
+<a href="https://msdn.microsoft.com/a04b578b-ad18-46b0-a60e-77647fa67aaf">Registered</a>
 
 
 </td>
@@ -286,7 +287,7 @@ Receives a value that indicates whether the server has started transmitting data
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/7c7f8d4b-917c-47e9-b82f-f3e601348201">Type</a>
 
 
 </td>

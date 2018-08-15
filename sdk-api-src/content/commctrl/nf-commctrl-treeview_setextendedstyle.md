@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773744(v=VS.85).aspx">TVM_SETEXTENDEDSTYLE</a> message explicitly.
+Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://msdn.microsoft.com/35cb6ac8-1c1e-4ecd-88b2-878d3f6ccaa5">TVM_SETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -69,7 +70,7 @@ Handle to the TreeView control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Value that indicates the extended style. For more information on styles, see <a href="https://msdn.microsoft.com/en-us/library/Bb759981(v=VS.85).aspx">Tree-View Control Extended Styles</a>.
+Value that indicates the extended style. For more information on styles, see <a href="https://msdn.microsoft.com/b45e7b7c-2c7b-49fa-8679-57c478b2f796">Tree-View Control Extended Styles</a>.
 
 
 ### -param mask

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -102,7 +103,7 @@ Retrieves the price of the media item at the specified index in the content cont
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/b2b4a5f8-ba53-4914-b8ef-ba9b7b87c52f">GetID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the album or list represented by the content container.
@@ -120,7 +121,7 @@ Retrieves the total price of the album or list represented by the content contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/34c8ab5a-1f9f-4a71-9bf8-3b762d065da9">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the content container.

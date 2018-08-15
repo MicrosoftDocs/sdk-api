@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IShellExtInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/1997a32e-562a-4d20-ad09-c40446a8feed">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a property sheet extension, shortcut menu extension, or drag-and-drop handler.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761354(v=VS.85).aspx">LB_SETTABSTOPS</a> message explicitly.
+Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/b96b974e-b1e6-4361-98bb-4dc21c752690">LB_SETTABSTOPS</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +85,7 @@ A pointer to an array of integers containing the tab stops. The integers represe
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761354(v=VS.85).aspx">LB_SETTABSTOPS</a>.
+For more information, see <a href="https://msdn.microsoft.com/b96b974e-b1e6-4361-98bb-4dc21c752690">LB_SETTABSTOPS</a>.
 	
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,15 +95,15 @@ Pointer to a Boolean value indicating whether a reboot will be required after th
 
 
 
+#### - piMappings [out]
+
+Pointer to the number of alternate mappings associated with the writer.
+
+
 #### - pwreWriterRestore [out]
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> value specifying whether the writer will be involved in restoring its data.
-
-
-#### - piMappings [out]
-
-Pointer to the number of alternate mappings associated with the writer.
 
 
 ## -returns
@@ -196,7 +197,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A file should always be restored to its alternate location mapping if either of the following is true:
 

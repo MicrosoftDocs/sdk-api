@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines paint operation parameters for <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+Defines paint operation parameters for <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -84,7 +85,7 @@ One or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
+Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
 
 
 
@@ -118,9 +119,9 @@ A non-client DC is being used.
 
 ### -field prcExclude
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-A pointer to exclusion <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. This rectangle is excluded from the clipping region.  May be <b>NULL</b> for no exclusion rectangle.
+A pointer to exclusion <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure. This rectangle is excluded from the clipping region.  May be <b>NULL</b> for no exclusion rectangle.
 
 
 

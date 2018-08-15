@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,14 +72,14 @@ TBD
 The data used by RPC.
 
 
-#### - pBuffer [in]
-
-The current buffer. This pointer may or may not be aligned on entry.
-
-
 #### - pBstr [out]
 
 The object.
+
+
+#### - pBuffer [in]
+
+The current buffer. This pointer may or may not be aligned on entry.
 
 
 ## -returns

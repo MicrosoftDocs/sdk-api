@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ Initializes a  program and system information protocol  (PSIP) parser for a Prot
 
 ### -param punk [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the new object. 
+Pointer to the <a href="iunknown">IUnknown</a> interface for the new object. 
 
 
 ## -returns

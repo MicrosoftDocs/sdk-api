@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -80,7 +81,7 @@ This method can return one of these values.
 The description should be limited to four lines of text to fit the description windows on the Snap-in Manager property pages.
 
 Memory for out parameters must be allocated using the COM API function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
 
 
 

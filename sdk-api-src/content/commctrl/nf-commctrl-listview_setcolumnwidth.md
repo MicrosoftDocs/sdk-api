@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761163(v=VS.85).aspx">LVM_SETCOLUMNWIDTH</a> message explicitly. 
+Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="https://msdn.microsoft.com/309aebfb-9fed-4c77-acbb-ea905b32b0e2">LVM_SETCOLUMNWIDTH</a> message explicitly. 
 
 
 ## -parameters

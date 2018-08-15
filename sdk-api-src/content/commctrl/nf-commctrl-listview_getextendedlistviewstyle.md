@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774923(v=VS.85).aspx">LVM_GETEXTENDEDLISTVIEWSTYLE</a> message explicitly. 
+Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/5cfccdb8-a81c-4fa9-a4fa-19cf49bd6ce0">LVM_GETEXTENDEDLISTVIEWSTYLE</a> message explicitly. 
 
 
 ## -parameters

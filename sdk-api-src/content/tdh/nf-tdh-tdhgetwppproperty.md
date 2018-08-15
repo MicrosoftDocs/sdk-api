@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -128,7 +129,7 @@ The specified property was not found.
 </dl>
 </td>
 <td width="60%">
-<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://msdn.microsoft.com/en-us/library/Hh447283(v=VS.85).aspx">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
+<i>BufferSize</i> is too small. To get the required buffer size, call <a href="TdhGetWppProperty">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
 
 </td>
 </tr>

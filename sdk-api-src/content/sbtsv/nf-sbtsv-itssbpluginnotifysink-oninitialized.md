@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>.
+Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="https://msdn.microsoft.com/1ff0b1a2-042d-4df2-9ae4-cfa4b7c644ab">Initialize</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-
 
 ### -param hr [in]
 
-Specifies the result of the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>.
+Specifies the result of the call to <a href="https://msdn.microsoft.com/1ff0b1a2-042d-4df2-9ae4-cfa4b7c644ab">Initialize</a>.
 
 
 ## -returns

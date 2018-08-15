@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -111,7 +112,7 @@ Reserved for system use; do not use after initialization to zero.
 
 A handle to the event that will be set to a signaled state by the system when the operation has completed. The user must initialize this member either to zero or a valid event handle using the <a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> function before passing this structure to any overlapped functions. This event can then be used to synchronize simultaneous I/O requests for a device. For additional information, see Remarks.
 
-Functions such as <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> set this handle to the nonsignaled state before they begin an I/O operation. When the operation has completed, the handle is set to the signaled state.
+Functions such as <a href="base.readfile">ReadFile</a> and <a href="base.writefile">WriteFile</a> set this handle to the nonsignaled state before they begin an I/O operation. When the operation has completed, the handle is set to the signaled state.
 
  
 
@@ -126,14 +127,14 @@ Functions such as <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2
 Any unused members of this structure should always be initialized to zero before the structure is used in a function call.  Otherwise, the function may fail and return <b>ERROR_INVALID_PARAMETER</b>.
 
 The <b>Offset</b> and <b>OffsetHigh</b> members together represent a 64-bit file position. It is a byte offset from the start of the file or file-like device, and it is specified by the user; the system will not modify these values. The calling process must set this member before passing the <b>OVERLAPPED</b> structure to functions that use an offset, such as the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> (and related) functions.  
+<a href="base.readfile">ReadFile</a> or 
+<a href="base.writefile">WriteFile</a> (and related) functions.  
 
 You can use the 
 <a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a> macro to check whether an asynchronous I/O operation has completed if <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> is too cumbersome for your application. 
 
 You can use the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363791(v=VS.85).aspx">CancelIo</a> function to cancel an asynchronous I/O operation.
+<a href="base.cancelio">CancelIo</a> function to cancel an asynchronous I/O operation.
 
 A common mistake is to reuse an <b>OVERLAPPED</b> structure before the previous asynchronous operation has been completed. You should use a separate structure for each request. You should also create an event object for each thread that processes data. If you store the event handles in an array, you could easily wait for all events to be signaled using the <a href="https://msdn.microsoft.com/51afb13c-ea7a-407a-9f21-345d84f3b96b">WaitForMultipleObjects</a> function.
 
@@ -157,7 +158,7 @@ For an example, see <a href="https://msdn.microsoft.com/c0ac70cc-4ab9-47e5-b0e6-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363791(v=VS.85).aspx">CancelIo</a>
+<a href="base.cancelio">CancelIo</a>
 
 
 
@@ -173,7 +174,7 @@ For an example, see <a href="https://msdn.microsoft.com/c0ac70cc-4ab9-47e5-b0e6-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -185,7 +186,7 @@ For an example, see <a href="https://msdn.microsoft.com/c0ac70cc-4ab9-47e5-b0e6-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Sets the size of the border for the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Ee663567(v=VS.85).aspx">TVM_SETBORDER</a> message explicitly.
+Sets the size of the border for the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/468b46ae-2ab2-4753-a0af-7c644f75ce62">TVM_SETBORDER</a> message explicitly.
 
 
 ## -parameters
@@ -130,7 +131,7 @@ The item border is set just for spacing purposes. A successful setting triggers 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee663567(v=VS.85).aspx">TVM_SETBORDER</a>
+<a href="https://msdn.microsoft.com/468b46ae-2ab2-4753-a0af-7c644f75ce62">TVM_SETBORDER</a>
  
 
  

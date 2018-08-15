@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -74,7 +75,7 @@ A number representing the zero-based index of the target object. This parameter 
 
 
 
-If <a href="https://msdn.microsoft.com/library/windows/hardware/dn926847">GetObjectType</a> is 
+If <a href="https://msdn.microsoft.com/f01a1ada-bb4d-4042-ac56-3658262d1110">GetObjectType</a> is 
         successful, it returns one of the following values enumerated by the 
         <b>CLUADMEX_OBJECT_TYPE</b> enumeration representing the object types:
 

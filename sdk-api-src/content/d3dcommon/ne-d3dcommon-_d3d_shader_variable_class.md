@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -137,7 +138,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-These flags describe the class of a shader variable. This is not a programming class; the class identifies the variable class such as scalar, vector, object, and so on. The shader-variable class is used in a shader-variable-type description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172439(v=VS.85).aspx">D3D10_SHADER_TYPE_DESC</a>).
+These flags describe the class of a shader variable. This is not a programming class; the class identifies the variable class such as scalar, vector, object, and so on. The shader-variable class is used in a shader-variable-type description (see <a href="https://msdn.microsoft.com/bb52dbcd-d735-4ddf-a99b-670d21e17acf">D3D10_SHADER_TYPE_DESC</a>).
 
 The <b>D3D10_SHADER_VARIABLE_CLASS</b>     enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/d367ba01-e357-468d-9417-7d5a282d5565">D3D_SHADER_VARIABLE_CLASS</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
@@ -160,7 +161,7 @@ typedef D3D_SHADER_VARIABLE_CLASS D3D10_SHADER_VARIABLE_CLASS;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

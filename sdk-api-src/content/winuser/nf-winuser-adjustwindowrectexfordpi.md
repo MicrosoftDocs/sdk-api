@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -56,7 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI. This window rectangle can then be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function to create a window with a client area of the desired size.
+Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI. This window rectangle can then be passed to the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function to create a window with a client area of the desired size.
 
 
 ## -parameters
@@ -71,7 +72,7 @@ A pointer to a <b>RECT</b> structure that contains the coordinates of the top-le
 
 ### -param dwStyle [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
+The <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">Window Style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
 
 
 ### -param bMenu [in]
@@ -104,7 +105,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-This function returns the same result as <a href="https://msdn.microsoft.com/en-us/library/ms632667(v=VS.85).aspx">AdjustWindowRectEx</a> but scales it according to an arbitrary DPI you provide if appropriate.
+This function returns the same result as <a href="https://msdn.microsoft.com/213b0892-7fb5-46fe-b873-24cb6c3ffca2">AdjustWindowRectEx</a> but scales it according to an arbitrary DPI you provide if appropriate.
 
 
 

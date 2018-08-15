@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -98,7 +99,7 @@ TRUE if the wait succeeded. If the operation fails, the function returns FALSE. 
 
 Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="http://go.microsoft.com/fwlink/p/?LinkID=258383">Windows Software Development Kit (SDK) for Windows 8</a>.
 
-The <b>WaitOnAddress</b> function can be used by a thread to wait for a particular value to change from some undesired value to any other value. <b>WaitOnAddress</b> is more efficient than using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439324">Sleep</a> function inside a <b>while</b> loop because <b>WaitOnAddress</b> does not interfere with the thread scheduler. <b>WaitOnAddress</b> is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. <b>WaitOnAddress</b> is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
+The <b>WaitOnAddress</b> function can be used by a thread to wait for a particular value to change from some undesired value to any other value. <b>WaitOnAddress</b> is more efficient than using the <a href="https://msdn.microsoft.com/934d37ea-402c-4118-bd7e-87b5fce80fca">Sleep</a> function inside a <b>while</b> loop because <b>WaitOnAddress</b> does not interfere with the thread scheduler. <b>WaitOnAddress</b> is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. <b>WaitOnAddress</b> is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
 
 Any thread within the same  process that changes the value at the address on which threads are waiting should call <a href="https://msdn.microsoft.com/4ca8f7b9-e78e-4324-9e72-84267746fe53">WakeByAddressSingle</a> to wake a single waiting thread or  <a href="https://msdn.microsoft.com/2d538cea-06cb-4973-8677-27ebcde0aa6f">WakeByAddressAll</a> to wake all waiting threads. If <b>WakeByAddressSingle</b> is called, other waiting threads continue to wait.
 

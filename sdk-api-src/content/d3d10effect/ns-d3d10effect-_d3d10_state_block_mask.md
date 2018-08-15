@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10effect.h
 req.include-header: D3D10.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -206,25 +207,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Boolean value indicating whether to save the predication state.
 
 
-#### - VSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
+#### - GSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Array of vertex-shader samplers.  The array is a multi-byte bitmask where each bit represents one sampler slot.
-
-
-#### - VSShaderResources[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
-
-Array of vertex-shader resources. The array is a multi-byte bitmask where each bit represents one resource slot.
-
-
-#### - VSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
-
-Array of vertex-shader constant buffers. The array is a multi-byte bitmask where each bit represents one constant buffer slot.
+Array of geometry-shader constant buffers. The array is a multi-byte bitmask where each bit represents one buffer slot.
 
 
 #### - GSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
@@ -241,11 +228,18 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Array of geometry-shader resources. The array is a multi-byte bitmask where each bit represents one resource slot.
 
 
-#### - GSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
+#### - IAVertexBuffers[D3D10_BYTES_FROM_BITS(D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT)]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Array of geometry-shader constant buffers. The array is a multi-byte bitmask where each bit represents one buffer slot.
+Array of vertex buffers. The array is a multi-byte bitmask where each bit represents one resource slot.
+
+
+#### - PSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+
+Array of pixel-shader constant buffers. The array is a multi-byte bitmask where each bit represents one constant buffer slot.
 
 
 #### - PSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
@@ -262,25 +256,32 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Array of pixel-shader resources. The array is a multi-byte bitmask where each bit represents one resource slot.
 
 
-#### - PSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
+#### - VSConstantBuffers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_CONSTANT_BUFFER_SLOT_COUNT)]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Array of pixel-shader constant buffers. The array is a multi-byte bitmask where each bit represents one constant buffer slot.
+Array of vertex-shader constant buffers. The array is a multi-byte bitmask where each bit represents one constant buffer slot.
 
 
-#### - IAVertexBuffers[D3D10_BYTES_FROM_BITS(D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT)]
+#### - VSSamplers[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_SAMPLER_SLOT_COUNT)]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Array of vertex buffers. The array is a multi-byte bitmask where each bit represents one resource slot.
+Array of vertex-shader samplers.  The array is a multi-byte bitmask where each bit represents one sampler slot.
+
+
+#### - VSShaderResources[D3D10_BYTES_FROM_BITS(D3D10_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT)]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+
+Array of vertex-shader resources. The array is a multi-byte bitmask where each bit represents one resource slot.
 
 
 ## -remarks
 
 
 
-A state-block mask indicates the device states that a pass or a technique changes.  The <a href="https://msdn.microsoft.com/en-us/library/Bb205106(v=VS.85).aspx">D3D10StateBlockMaskEnableCapture</a> function 
+A state-block mask indicates the device states that a pass or a technique changes.  The <a href="https://msdn.microsoft.com/85e4a56d-016b-42e3-9ec8-b279fd4bd95b">D3D10StateBlockMaskEnableCapture</a> function 
       provides a convenient way of setting a range of bitmasks for the array members of <b>D3D10_STATE_BLOCK_MASK</b>.
 
 
@@ -291,7 +292,7 @@ A state-block mask indicates the device states that a pass or a technique change
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -88,7 +89,7 @@ Terminates a query being executed by a provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/084d6d91-4637-4325-887b-e9f46ecaaee4">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the Function Discovery provider object.
@@ -142,7 +143,7 @@ Releases the specified function instance and frees the memory previously allocat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://msdn.microsoft.com/8c368ea7-c9db-4e80-a080-eef8068f7402">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of function instances that meet the specified constraints.

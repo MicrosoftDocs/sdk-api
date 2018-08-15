@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -158,7 +159,7 @@ A connection to the graph or group has failed, or a direct connection in a graph
 
 
 
-This function must be called after <a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a> or <a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a> is called and the event handle provided to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a> is signaled on the peer that sent the invitation.
+This function must be called after <a href="https://msdn.microsoft.com/2101e16e-ee05-417f-835b-c00cba7f6576">PeerCollabAsyncInviteContact</a> or <a href="https://msdn.microsoft.com/2606d2ef-26d3-4c52-b481-3ea38350295a">PeerCollabAsyncInviteEndpoint</a> is called and the event handle provided to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a> is signaled on the peer that sent the invitation.
 
 
 

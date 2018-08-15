@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,7 +62,7 @@ The <b>FWPM_FIELD0</b> structure specifies schema information for a field.
 
 ### -field fieldKey
 
-Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a href="https://msdn.microsoft.com/library/windows/hardware/ff549944">Filtering Condition Identifiers</a>.
+Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a href="https://msdn.microsoft.com/4f0b970a-e511-4107-8023-22a8775905b9">Filtering Condition Identifiers</a>.
 
 
 ### -field type
@@ -75,7 +76,7 @@ See <a href="https://msdn.microsoft.com/46983847-7c68-4ee7-946e-ea62f34d1a38">FW
 
 Data type passed to classify.
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a> for more information.
+See <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a> for more information.
 
 
 ## -remarks
@@ -96,7 +97,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552431">FWP_DATA_TYPE</a>
+<a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a>
 
 
 

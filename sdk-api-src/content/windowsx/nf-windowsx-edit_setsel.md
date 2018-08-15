@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Selects a range of characters in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761661(v=VS.85).aspx">EM_SETSEL</a> message explicitly.
+Selects a range of characters in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/5cb7ff1e-18e8-49c8-8072-872cf32b18b0">EM_SETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +85,7 @@ The ending character position of the selection.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761661(v=VS.85).aspx">EM_SETSEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/5cb7ff1e-18e8-49c8-8072-872cf32b18b0">EM_SETSEL</a>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -75,7 +76,7 @@ The <b>IVdsHbaPort</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/5472534f-66c8-4a78-a351-92f59e50ae32">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of an HBA port.</p> (Inherited from <b>IVdsHbaPort</b>)</td>

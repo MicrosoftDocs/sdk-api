@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -72,7 +73,7 @@ Specifies the handle of a window for which an object is to be retrieved. To retr
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Specifies the object ID. This value is one of the standard <a href="https://msdn.microsoft.com/dc1603f8-29e5-4acd-817a-c6957feaff6c">object identifier</a> constants or a custom object ID such as <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
+Specifies the object ID. This value is one of the standard <a href="https://msdn.microsoft.com/dc1603f8-29e5-4acd-817a-c6957feaff6c">object identifier</a> constants or a custom object ID such as <a href="object_identifiers.htm">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
 
 
 ### -param riid [in]
@@ -142,7 +143,7 @@ As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43
 
 Clients use this function to obtain access to the Microsoft Office 2000 native object model. The native object model provides clients with accessibility information about an Office application's document or client area that is not exposed by Microsoft Active Accessibility.
 
-To obtain an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to a class supported by the native object model, specify <a href="https://msdn.microsoft.com/en-us/library/Dd373606(v=VS.85).aspx">OBJID_NATIVEOM</a> in <i>dwObjectID</i>. When using this object identifier, the <i>hwnd</i> parameter must match the following window class types.
+To obtain an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to a class supported by the native object model, specify <a href="object_identifiers.htm">OBJID_NATIVEOM</a> in <i>dwObjectID</i>. When using this object identifier, the <i>hwnd</i> parameter must match the following window class types.
 
 <table>
 <tr>

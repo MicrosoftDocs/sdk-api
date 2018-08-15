@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -142,7 +143,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 
 <ul>
 <li>A child process created by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function can inherit a handle to a semaphore object if the <i>lpSemaphoreAttributes</i> parameter of 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function can inherit a handle to a semaphore object if the <i>lpSemaphoreAttributes</i> parameter of 
 <b>CreateSemaphore</b> enabled inheritance.</li>
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
@@ -172,7 +173,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 
@@ -184,7 +185,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557762">Object Names</a>
+<a href="https://msdn.microsoft.com/00a00227-45fc-49a1-8ff5-aeccb172d16a">Object Names</a>
 
 
 
@@ -200,7 +201,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563719">Semaphore Objects</a>
+<a href="https://msdn.microsoft.com/d9da1d98-a306-4e2d-a149-1eef6a724751">Semaphore Objects</a>
 
 
 

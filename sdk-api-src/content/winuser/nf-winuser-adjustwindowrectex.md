@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -56,7 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Calculates the required size of the window rectangle, based on the desired size of the client rectangle. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function to create a window whose client area is the desired size.
+Calculates the required size of the window rectangle, based on the desired size of the client rectangle. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function to create a window whose client area is the desired size.
 
 
 ## -parameters
@@ -68,14 +69,14 @@ Calculates the required size of the window rectangle, based on the desired size 
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the coordinates of the top-left and bottom-right corners of the desired client area. When the function returns, the structure contains the coordinates of the top-left and bottom-right corners of the window to accommodate the desired client area. 
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the coordinates of the top-left and bottom-right corners of the desired client area. When the function returns, the structure contains the coordinates of the top-left and bottom-right corners of the window to accommodate the desired client area. 
 
 
 ### -param dwStyle [in]
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
+The <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
 
 
 ### -param bMenu [in]
@@ -135,7 +136,7 @@ This API is not DPI aware, and should not be used if the calling thread is per-m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
 
 
 
@@ -143,7 +144,7 @@ This API is not DPI aware, and should not be used if the calling thread is per-m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 
@@ -151,7 +152,7 @@ This API is not DPI aware, and should not be used if the calling thread is per-m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

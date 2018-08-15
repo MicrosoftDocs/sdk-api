@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775330(v=VS.85).aspx">HDM_GETFOCUSEDITEM</a> message explicitly.
+Gets the item in a header control that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/9ad8e497-6f81-4226-b138-d1101f2fd8b3">HDM_GETFOCUSEDITEM</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to the header control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775238(v=VS.85).aspx">About Header Controls</a>
+<a href="https://msdn.microsoft.com/b464fb9a-e342-4209-ba6f-15b5388f3914">About Header Controls</a>
  
 
  

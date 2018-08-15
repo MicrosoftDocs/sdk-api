@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>DrvDisableSurface</b> function is used by GDI to notify a driver that the surface created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a> for the current device is no longer needed.
+The <b>DrvDisableSurface</b> function is used by GDI to notify a driver that the surface created by <a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">DrvEnableSurface</a> for the current device is no longer needed.
 
 
 ## -parameters
@@ -79,9 +80,9 @@ None
 
 The driver should free any memory and resources used by the surface associated with the PDEV as soon as the physical device is disabled.
 
-If the driver has been disabled by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>, the driver must not access the hardware during <b>DrvDisableSurface</b> because another active PDEV might be in use. Any necessary hardware changes should have been performed during the call to <b>DrvAssertMode</b>. A driver should keep track of whether it has been disabled by <b>DrvAssertMode</b> so that it can perform proper cleanup operations in <b>DrvDisableSurface</b>.
+If the driver has been disabled by a call to <a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a>, the driver must not access the hardware during <b>DrvDisableSurface</b> because another active PDEV might be in use. Any necessary hardware changes should have been performed during the call to <b>DrvAssertMode</b>. A driver should keep track of whether it has been disabled by <b>DrvAssertMode</b> so that it can perform proper cleanup operations in <b>DrvDisableSurface</b>.
 
-If the physical device has an enabled surface, GDI calls <b>DrvDisableSurface</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556198">DrvDisablePDEV</a>.
+If the physical device has an enabled surface, GDI calls <b>DrvDisableSurface</b> before calling <a href="https://msdn.microsoft.com/dff04000-e307-4a1c-80fe-d6666929df76">DrvDisablePDEV</a>.
 
 <b>DrvDisableSurface</b> is required for graphics drivers.
 
@@ -93,19 +94,19 @@ If the physical device has an enabled surface, GDI calls <b>DrvDisableSurface</b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+<a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556196">DrvDisableDriver</a>
+<a href="https://msdn.microsoft.com/8f12cc40-6cff-4e40-a264-58d16d3e55bd">DrvDisableDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556198">DrvDisablePDEV</a>
+<a href="https://msdn.microsoft.com/dff04000-e307-4a1c-80fe-d6666929df76">DrvDisablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a>
+<a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">DrvEnableSurface</a>
  
 
  

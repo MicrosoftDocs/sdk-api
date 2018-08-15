@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -70,7 +71,7 @@ The <b>ID3D11VideoContext1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906316">CheckCryptoSessionStatus</a>
+<a href="https://msdn.microsoft.com/07126C45-2771-432C-9644-FD4099B8D26D">CheckCryptoSessionStatus</a>
 </td>
 <td align="left" width="63%">
 Checks the status of a crypto session.
@@ -97,7 +98,7 @@ Updates the decoder downsampling parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906350">GetDataForNewHardwareKey</a>
+<a href="https://msdn.microsoft.com/4C02F80C-CF7A-4E66-9172-D55A31986ACD">GetDataForNewHardwareKey</a>
 </td>
 <td align="left" width="63%">
 Allows the driver to return IHV specific information used when initializing the new hardware key.
@@ -115,7 +116,7 @@ Submits one or more buffers for decoding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906379">VideoProcessorGetBehaviorHints</a>
+<a href="https://msdn.microsoft.com/DDA8B3DE-A9D2-48A5-ABEE-E3F7A0EEB965">VideoProcessorGetBehaviorHints</a>
 </td>
 <td align="left" width="63%">
 Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">ID3D11VideoContext::VideoProcessorBlt</a> method.
@@ -160,7 +161,7 @@ Gets values that indicate whether the video processor input stream is  being fli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906380">VideoProcessorSetOutputColorSpace1</a>
+<a href="https://msdn.microsoft.com/8DDD17AD-997F-406F-B337-E2256F67FC66">VideoProcessorSetOutputColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Sets the color space information for the video processor output surface.
@@ -169,7 +170,7 @@ Sets the color space information for the video processor output surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906381">VideoProcessorSetOutputShaderUsage</a>
+<a href="https://msdn.microsoft.com/84901282-D4FF-4084-B016-50A66910D0A2">VideoProcessorSetOutputShaderUsage</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether the output surface from a call to <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders.
@@ -178,7 +179,7 @@ Sets a value indicating whether the output surface from a call to <a href="https
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906382">VideoProcessorSetStreamColorSpace1</a>
+<a href="https://msdn.microsoft.com/5B1B6FFC-4BC7-4C6D-B3A8-A552D64448E4">VideoProcessorSetStreamColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Sets the color space information for the video processor input stream.
@@ -187,7 +188,7 @@ Sets the color space information for the video processor input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906383">VideoProcessorSetStreamMirror</a>
+<a href="https://msdn.microsoft.com/C8CCCC2B-B05A-4AF4-9274-1E205B9807DB">VideoProcessorSetStreamMirror</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the video processor input stream should be flipped vertically or horizontally.

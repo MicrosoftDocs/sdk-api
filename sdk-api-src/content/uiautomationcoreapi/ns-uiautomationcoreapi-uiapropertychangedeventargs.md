@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -82,16 +83,16 @@ The identifier of the property that has changed. For a list of property IDs, see
 
 ### -field OldValue
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> containing the old value of the property.
+A <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> containing the old value of the property.
 
 
 ### -field NewValue
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> containing the new value of the property.
+A <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> containing the new value of the property.
 
 
 ## -remarks

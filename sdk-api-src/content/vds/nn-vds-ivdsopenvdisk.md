@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -83,7 +84,7 @@ Attaches a virtual disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949267">Compact</a>
+<a href="https://msdn.microsoft.com/011adaae-3a17-4643-ae8d-400753019c83">Compact</a>
 </td>
 <td align="left" width="63%">
 Compacts the virtual disk to reduce the physical size of the backing file.
@@ -119,7 +120,7 @@ Increases the size of a virtual disk to the maximum size available on a fixed or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a>
+<a href="https://msdn.microsoft.com/b513e904-a6ff-494e-9f63-b5158467b245">Merge</a>
 </td>
 <td align="left" width="63%">
 Merges a child virtual disk with its parents in the differencing chain.

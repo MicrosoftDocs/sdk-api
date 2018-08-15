@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,11 +77,6 @@ The <b>MSVidSinkStreams</b> enumeration defines the stream types for a generic s
 
 
 
-#### - Video
-
-Indicates a video steam.
-
-
 #### - Audio
 
 Indicates an audio stream.
@@ -89,6 +85,11 @@ Indicates an audio stream.
 #### - Other
 
 Indicates a stream that is neither video nor audio.
+
+
+#### - Video
+
+Indicates a video steam.
 
 
 ## -see-also

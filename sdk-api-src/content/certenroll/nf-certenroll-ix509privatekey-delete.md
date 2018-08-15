@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -95,7 +96,7 @@ The CSP could not be found.
 
 
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> method if you only want to close the provider handles. The <b>Delete</b> method does not delete the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> instance.
+Call the <a href="https://msdn.microsoft.com/c4ed2375-0d50-4cb5-b0c4-c80962e22c9c">Close</a> method if you only want to close the provider handles. The <b>Delete</b> method does not delete the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> instance.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: SetupAPI.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -142,9 +143,9 @@ If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a h
 
 
 
-The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>.
+The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>.
 
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551072">SetupDiGetClassDevsEx</a> to retrieve the devices for a class on a remote computer.
+Call <a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a> to retrieve the devices for a class on a remote computer.
 
 <h3><a id="device_setup_class_control_options"></a><a id="DEVICE_SETUP_CLASS_CONTROL_OPTIONS"></a>Device Setup Class Control Options</h3>
 Use the following filtering options to control whether <b>SetupDiGetClassDevs</b> returns devices for all device setup classes or only for a specified device setup class:
@@ -337,19 +338,19 @@ if (DeviceInfoSet) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550956">SetupDiCreateDeviceInfoList</a>
+<a href="https://msdn.microsoft.com/0596f422-39ff-41ea-8bbd-63381d418ec8">SetupDiCreateDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>
+<a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551015">SetupDiEnumDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551072">SetupDiGetClassDevsEx</a>
+<a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a>
  
 
  

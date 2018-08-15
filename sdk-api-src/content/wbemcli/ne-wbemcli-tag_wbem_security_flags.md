@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -61,7 +62,7 @@ Contains flags used for setting security access levels.
 
 ### -field WBEM_ENABLE
 
-Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
+Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="gloss_w.htm">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
 
 
 ### -field WBEM_METHOD_EXECUTE
@@ -79,7 +80,7 @@ Allows a user account to write to classes in the WMI repository as well as insta
 
 ### -field WBEM_PARTIAL_WRITE_REP
 
-Allows you to write data to instances only, not classes. A user cannot write classes to the <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. Only members of the Administrators group have this right. <b>WBEM_PARTIAL_WRITE_REP</b> corresponds to the Partial Write permission on the Security tab of the WMI Control.
+Allows you to write data to instances only, not classes. A user cannot write classes to the <a href="gloss_w.htm">WMI repository</a>. Only members of the Administrators group have this right. <b>WBEM_PARTIAL_WRITE_REP</b> corresponds to the Partial Write permission on the Security tab of the WMI Control.
 
 
 ### -field WBEM_WRITE_PROVIDER

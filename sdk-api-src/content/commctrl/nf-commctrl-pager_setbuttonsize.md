@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the current button size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760882(v=VS.85).aspx">PGM_SETBUTTONSIZE</a> message explicitly. 
+Sets the current button size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/b31960f8-87c2-4209-8213-df75ac883e11">PGM_SETBUTTONSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -86,7 +87,7 @@ If the pager control has the <a href="Pager_Control_Styles.htm">PGS_HORZ</a> sty
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760894(v=VS.85).aspx">Pager_GetButtonSize</a>
+<a href="https://msdn.microsoft.com/836654ac-8bae-4f3d-967d-2ac10e97b86f">Pager_GetButtonSize</a>
  
 
  

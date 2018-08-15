@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -95,7 +96,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local machine's device enumerators, call <b>CM_Enumerate_Enumerators</b> repeatedly, starting with a <i>ulEnumIndex</i> index value of zero. and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE.
 
-After enumerator names have been obtained, the names can be used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff538415">CM_Get_Device_ID_List</a>.
+After enumerator names have been obtained, the names can be used as input to <a href="https://msdn.microsoft.com/aa0ab004-3813-4339-90bb-afd9acf200c8">CM_Get_Device_ID_List</a>.
 
 
 
@@ -105,7 +106,7 @@ After enumerator names have been obtained, the names can be used as input to <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538032">CM_Enumerate_Enumerators_Ex</a>
+<a href="https://msdn.microsoft.com/9d44b1be-96b1-493a-94b7-a6bd883fd570">CM_Enumerate_Enumerators_Ex</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -166,11 +167,11 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366574(v=VS.85).aspx">GlobalAlloc</a>
+<a href="_win32_globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="_win32_loadstring">LoadString</a>
 
 
 

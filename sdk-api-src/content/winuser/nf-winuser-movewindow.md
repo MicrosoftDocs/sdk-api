@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -131,12 +132,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the <i>bRepaint</i> parameter is <b>TRUE</b>, the system sends the <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message to the window procedure immediately after moving the window (that is, the <b>MoveWindow</b> function calls the <a href="https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766">UpdateWindow</a> function). If <i>bRepaint</i> is <b>FALSE</b>, the application must explicitly invalidate or redraw any parts of the window and parent window that need redrawing.
 
-<b>MoveWindow</b> sends the <a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632631(v=VS.85).aspx">WM_MOVE</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> messages to the window. 
+<b>MoveWindow</b> sends the <a href="https://msdn.microsoft.com/45ecd966-5222-4738-9e99-8a6edbdd435a">WM_WINDOWPOSCHANGING</a>, <a href="https://msdn.microsoft.com/1eabd0b1-1f92-4576-b7fb-8af50fb04526">WM_WINDOWPOSCHANGED</a>, <a href="https://msdn.microsoft.com/552ddc26-fe63-449b-8c82-bb927a2c1c41">WM_MOVE</a>, <a href="https://msdn.microsoft.com/e3e14dcd-9236-48bd-a692-6985d8146f81">WM_SIZE</a>, and <a href="https://msdn.microsoft.com/d2d5825e-02a5-44b8-8615-55b7259d24ba">WM_NCCALCSIZE</a> messages to the window. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating, Enumerating, and Sizing Child Windows</a>.
+For an example, see <a href="using_windows.htm">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -159,7 +160,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
 
 
 
@@ -167,7 +168,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a>
+<a href="https://msdn.microsoft.com/af2295e0-2d0b-4ac0-b689-16138022f4b7">WM_GETMINMAXINFO</a>
 
 
 
@@ -175,7 +176,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

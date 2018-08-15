@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>EngFindResource</b> function determines the location of a resource in a m
 
 ### -param h [in]
 
-Handle to the module that contains the resource. This handle is obtained from <a href="https://msdn.microsoft.com/library/windows/hardware/ff564964">EngLoadModule</a>.
+Handle to the module that contains the resource. This handle is obtained from <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>.
 
 
 ### -param iName [in]
@@ -105,11 +106,11 @@ The size of a successfully located resource is returned in <i>pulSize</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564964">EngLoadModule</a>
+<a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564974">EngMapModule</a>
+<a href="https://msdn.microsoft.com/f8bd9b2c-11a3-454f-a4ce-cbda28115564">EngMapModule</a>
  
 
  

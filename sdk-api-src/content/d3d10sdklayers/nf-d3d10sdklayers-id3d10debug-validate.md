@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,9 +65,9 @@ Check the validity of pipeline state.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -75,7 +76,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-When the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">debug layer</a> is turned on all draw functions will do this operation.
+When the <a href="https://msdn.microsoft.com/19c81383-6ac7-49ea-98a3-bf761a32ab40">debug layer</a> is turned on all draw functions will do this operation.
 
 
 
@@ -85,7 +86,7 @@ When the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/2971189b-5df2-4d0a-ad7b-28dbfd6d0af3">ID3D10Debug Interface</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceconnectapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>IPortableDeviceConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/4cc3ecd1-f2b0-4e8e-8654-6445782153f3">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending request to connect or disconnect an MTP Bluetooth device.

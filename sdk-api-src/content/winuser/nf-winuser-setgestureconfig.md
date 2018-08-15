@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -462,7 +463,7 @@ if (!bResult){
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/830031d1-eb8d-45d4-b66e-3f4fbb96ae13">Functions</a>
 
 
 

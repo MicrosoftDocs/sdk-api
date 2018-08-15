@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -135,7 +136,7 @@ There is insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-The method was invoked after <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> or before <a href="https://msdn.microsoft.com/408D4863-D95F-4BBD-9F0B-9796ED08A256">SetServer</a> was invoked.
+The method was invoked after <a href="https://msdn.microsoft.com/587D281D-0488-470B-9E20-AE6DE70F33DC">Close</a> or before <a href="https://msdn.microsoft.com/408D4863-D95F-4BBD-9F0B-9796ED08A256">SetServer</a> was invoked.
 
 </td>
 </tr>

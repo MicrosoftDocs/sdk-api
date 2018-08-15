@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -71,7 +72,7 @@ The pin current signal generation state. A value of true means that the pin is s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a>
+<a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>
  
 
  

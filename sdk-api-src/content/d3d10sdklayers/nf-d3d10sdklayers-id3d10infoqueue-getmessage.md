@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,14 +63,14 @@ Get a message from the message queue.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
-Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://msdn.microsoft.com/en-us/library/Bb173797(v=VS.85).aspx">ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
+Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://msdn.microsoft.com/e7f759b0-d5ee-4777-a16a-315baa09766c">ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
 
 
 ### -param pMessage [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205322(v=VS.85).aspx">D3D10_MESSAGE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/6d66ebbb-29e7-4bd0-92dd-6529fe1276ca">D3D10_MESSAGE</a>*</b>
 
-Returned message (see <a href="https://msdn.microsoft.com/en-us/library/Bb205322(v=VS.85).aspx">D3D10_MESSAGE</a>).
+Returned message (see <a href="https://msdn.microsoft.com/6d66ebbb-29e7-4bd0-92dd-6529fe1276ca">D3D10_MESSAGE</a>).
 
 
 ### -param pMessageByteLength [in, out]
@@ -83,9 +84,9 @@ Size of pMessage in bytes, including the size of the message string that the pMe
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -118,7 +119,7 @@ hr = pInfoQueue-&gt;GetMessage(0, pMessage, &amp;messageLength);
 </td>
 </tr>
 </table></span></div>
-For an overview see <a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">Information Queue Overview</a>.
+For an overview see <a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">Information Queue Overview</a>.
 
 
 
@@ -128,7 +129,7 @@ For an overview see <a href="https://msdn.microsoft.com/en-us/library/Bb173779(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

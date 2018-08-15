@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_3helper.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -217,7 +218,7 @@ Returns the created <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-
 
 The following image shows the numbering of control points in a Coons patch.
 
-<img alt="Numbering of control points in a Coons patch" src="./images/coonspatch.png"/>
+<img alt="Numbering of control points in a Coons patch" src="images/coonspatch.png"/>
 
 
 

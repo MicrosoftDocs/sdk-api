@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -126,7 +127,7 @@ For more information about object-specific ACEs, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

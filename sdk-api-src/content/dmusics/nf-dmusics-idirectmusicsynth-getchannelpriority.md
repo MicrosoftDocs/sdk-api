@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -86,7 +87,7 @@ Output pointer for the priority ranking. This parameter points to a caller-alloc
 
 
 
-This method is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536542">IDirectMusicSynth::SetChannelPriority</a> method to control the channel priorities and facilitate correct voice stealing.
+This method is used with the <a href="https://msdn.microsoft.com/6398f460-4c2e-4995-a606-e95e0488f1cd">IDirectMusicSynth::SetChannelPriority</a> method to control the channel priorities and facilitate correct voice stealing.
 
 For more information, see the descriptions of the <b>IDirectMusicPort::GetChannelPriority</b> and <b>IDirectMusicPort::SetChannelPriority</b> methods in the Windows SDK documentation.
 
@@ -98,7 +99,7 @@ For more information, see the descriptions of the <b>IDirectMusicPort::GetChanne
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536542">IDirectMusicSynth::SetChannelPriority</a>
+<a href="https://msdn.microsoft.com/6398f460-4c2e-4995-a606-e95e0488f1cd">IDirectMusicSynth::SetChannelPriority</a>
  
 
  

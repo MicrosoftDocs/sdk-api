@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -111,7 +112,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419423(v=VS.85).aspx">XMConvertHalfToFloat</a>
+<a href="https://msdn.microsoft.com/40ba8255-6819-4137-b517-5fb04c18f46a">XMConvertHalfToFloat</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ A handle to the window to be redrawn. If this parameter is <b>NULL</b>, the desk
 
 ### -param lprcUpdate [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the coordinates, in device units, of the update rectangle. This parameter is ignored if the <i>hrgnUpdate</i> parameter identifies a region.
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates, in device units, of the update rectangle. This parameter is ignored if the <i>hrgnUpdate</i> parameter identifies a region.
 
 
 ### -param hrgnUpdate [in]
@@ -97,7 +98,7 @@ The following flags are used to invalidate the window.
 </dl>
 </td>
 <td width="60%">
-Causes the window to receive a <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message when the window is repainted. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_ERASE has no effect.
+Causes the window to receive a <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> message when the window is repainted. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_ERASE has no effect.
 
 </td>
 </tr>
@@ -147,7 +148,7 @@ The following flags are used to validate the window.
 </dl>
 </td>
 <td width="60%">
-Suppresses any pending <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> messages.
+Suppresses any pending <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> messages.
 
 </td>
 </tr>
@@ -197,7 +198,7 @@ The following flags control when repainting occurs. <b>RedrawWindow</b> will not
 </dl>
 </td>
 <td width="60%">
-Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> messages, if necessary, before the function returns. <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages are received at the ordinary time.
+Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a> and <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> messages, if necessary, before the function returns. <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages are received at the ordinary time.
 
 </td>
 </tr>
@@ -207,7 +208,7 @@ Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILD
 </dl>
 </td>
 <td width="60%">
-Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a>, <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a>, and <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages, if necessary, before the function returns.
+Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://msdn.microsoft.com/d8a2a8b9-2c5d-484c-be09-67eb33de67c0">WM_NCPAINT</a>, <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a>, and <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages, if necessary, before the function returns.
 
 </td>
 </tr>
@@ -260,7 +261,7 @@ If the function fails, the return value is zero.
 
 
 
-When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the desktop window does not receive a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message. To repaint the desktop, an application uses the RDW_ERASE flag to generate a <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message.
+When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the desktop window does not receive a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message. To repaint the desktop, an application uses the RDW_ERASE flag to generate a <a href="_win32_wm_erasebkgnd_cpp">WM_ERASEBKGND</a> message.
 
 
 
@@ -294,7 +295,7 @@ When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 

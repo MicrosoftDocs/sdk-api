@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ The <b>FontFamily::GetCellAscent</b> method gets the cell ascent, in design unit
 
 Type: <b>INT</b>
 
-Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. For example, <code>FontStyleBold | FontStyleUnderline | FontStyleStrikeout</code> specifies a combination of the three styles. 
+Integer that specifies the style of the typeface. This value must be an element of the <a href="https://msdn.microsoft.com/de08c779-1f43-4740-b2b9-8d3906dc4432">FontStyle</a> enumeration or the result of a bitwise <b>OR</b> applied to two or more of these elements. For example, <code>FontStyleBold | FontStyleUnderline | FontStyleStrikeout</code> specifies a combination of the three styles. 
 
 
 ## -returns
@@ -83,27 +84,27 @@ This method returns the cell ascent, in design units, of this font family for th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536175(v=VS.85).aspx">FontFamily::GetCellDescent</a>
+<a href="https://msdn.microsoft.com/f1ddea8e-3964-4a58-955d-a879efe1a6b0">FontFamily::GetCellDescent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536176(v=VS.85).aspx">FontFamily::GetEmHeight</a>
+<a href="https://msdn.microsoft.com/be56c53d-6708-438d-a703-d0c3f57f170b">FontFamily::GetEmHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536179(v=VS.85).aspx">FontFamily::GetLineSpacing</a>
+<a href="https://msdn.microsoft.com/e583488a-00df-4d25-ab8a-0b31863b2364">FontFamily::GetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534124(v=VS.85).aspx">FontStyle</a>
+<a href="https://msdn.microsoft.com/de08c779-1f43-4740-b2b9-8d3906dc4432">FontStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533824(v=VS.85).aspx">Obtaining Font Metrics</a>
+<a href="https://msdn.microsoft.com/3be485d0-9e0d-43e0-813e-668102ebc010">Obtaining Font Metrics</a>
  
 
  

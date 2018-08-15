@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IEnumNetSharingPrivateConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/a82dbc70-783a-4061-9526-dd19f94d843b">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumeration interface from this enumeration.
@@ -83,7 +84,7 @@ Creates a new enumeration interface from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/3f9cc481-8967-4b1e-95b2-c6ddec20a1ea">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of private connections from this enumeration.
@@ -92,7 +93,7 @@ Retrieves a specified number of private connections from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/9d68eccf-eb96-47f9-8ca3-97b7918a52fe">Reset</a>
 </td>
 <td align="left" width="63%">
 Causes subsequent calls to operate from the beginning of the enumeration.
@@ -101,7 +102,7 @@ Causes subsequent calls to operate from the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/2157ab88-02ed-4c04-be07-7bebe3cd85b8">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of private connections in this enumeration.
@@ -116,7 +117,7 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 

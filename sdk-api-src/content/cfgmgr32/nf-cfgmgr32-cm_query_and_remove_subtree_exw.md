@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539722">CM_Query_And_Remove_SubTree</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/0a80cddd-d5be-42cb-ba11-0a3292b973a3">CM_Query_And_Remove_SubTree</a> instead.]
 
 The <b>CM_Query_And_Remove_SubTree_Ex</b> function checks whether a device instance and its children can be removed and, if so, it removes them.
 
@@ -69,12 +70,12 @@ Caller-supplied device instance handle to the device at the root of the subtree 
 
 ### -param pVetoType [out, optional]
 
-(<i>Optional</i>.) If not <b>NULL</b>, this points to a location that, if the removal request fails, receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549728">PNP_VETO_TYPE</a>-typed value indicating the reason for the failure.
+(<i>Optional</i>.) If not <b>NULL</b>, this points to a location that, if the removal request fails, receives a <a href="https://msdn.microsoft.com/aa999860-cabf-480e-9e17-574de169f464">PNP_VETO_TYPE</a>-typed value indicating the reason for the failure.
 
 
 ### -param pszVetoName [out, optional]
 
-(<i>Optional</i>.) If not <b>NULL</b>, this is a caller-supplied pointer to a string buffer that receives a text string. The type of information this string provides is dependent on the value received by <i>pVetoType</i>. For information about these strings, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549728">PNP_VETO_TYPE</a>.
+(<i>Optional</i>.) If not <b>NULL</b>, this is a caller-supplied pointer to a string buffer that receives a text string. The type of information this string provides is dependent on the value received by <i>pVetoType</i>. For information about these strings, see <a href="https://msdn.microsoft.com/aa999860-cabf-480e-9e17-574de169f464">PNP_VETO_TYPE</a>.
 
 
 ### -param ulNameLength [in]
@@ -107,7 +108,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The purpose of the <b>CM_Query_And_Remove_SubTree_Ex</b> function is to allow an application to prepare a device for safe removal from a remote machine. Use this function to remove devices only if a driver has not set the <b>SurpriseRemovalOK</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>. If a driver has set <b>SurpriseRemovalOK</b>, the application should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539807">CM_Request_Device_Eject_Ex</a> instead of <b>CM_Query_And_Remove_SubTree_Ex</b>.
+The purpose of the <b>CM_Query_And_Remove_SubTree_Ex</b> function is to allow an application to prepare a device for safe removal from a remote machine. Use this function to remove devices only if a driver has not set the <b>SurpriseRemovalOK</b> member of <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a>. If a driver has set <b>SurpriseRemovalOK</b>, the application should call <a href="https://msdn.microsoft.com/80285999-7bcb-4a11-8047-f64cd52cf95a">CM_Request_Device_Eject_Ex</a> instead of <b>CM_Query_And_Remove_SubTree_Ex</b>.
 
 <b>CM_Query_And_Remove_SubTree_Ex</b> supports setting the flags parameter <i>ulFlags</i> with one of the following two flags; these flags apply only if Windows or an installer vetoes the removal of a device: 
 
@@ -117,11 +118,11 @@ Beginning with Windows XP, <b>CM_Query_And_Remove_SubTree_Ex</b> also supports s
 
 
 
-<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">Device installation applications</a> that do not require the low-level operation of <b>CM_Query_And_Remove_SubTree_Ex</b> should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543712">DIF_PROPERTYCHANGE</a> request to disable a device instead of using <b>CM_Query_And_Remove_SubTree_Ex</b> to remove a device. The DIF_PROPERTYCHANGE request can be used to enable, disable, restart, stop, or change the properties of a device. 
+<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">Device installation applications</a> that do not require the low-level operation of <b>CM_Query_And_Remove_SubTree_Ex</b> should use the <a href="https://msdn.microsoft.com/62f3380d-8cd1-4f4c-a727-1285de081b9e">DIF_PROPERTYCHANGE</a> request to disable a device instead of using <b>CM_Query_And_Remove_SubTree_Ex</b> to remove a device. The DIF_PROPERTYCHANGE request can be used to enable, disable, restart, stop, or change the properties of a device. 
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -133,27 +134,27 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>
+<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539722">CM_Query_And_Remove_SubTree</a>
+<a href="https://msdn.microsoft.com/0a80cddd-d5be-42cb-ba11-0a3292b973a3">CM_Query_And_Remove_SubTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539763">CM_Reenumerate_DevNode</a>
+<a href="https://msdn.microsoft.com/dcba5021-7517-4922-9c50-ebfa7375e258">CM_Reenumerate_DevNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539807">CM_Request_Device_Eject_Ex</a>
+<a href="https://msdn.microsoft.com/80285999-7bcb-4a11-8047-f64cd52cf95a">CM_Request_Device_Eject_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539825">CM_Setup_DevNode</a>
+<a href="https://msdn.microsoft.com/94d0023d-d93f-42da-b2fc-54b9d8831b9b">CM_Setup_DevNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543712">DIF_PROPERTYCHANGE</a>
+<a href="https://msdn.microsoft.com/62f3380d-8cd1-4f4c-a727-1285de081b9e">DIF_PROPERTYCHANGE</a>
  
 
  

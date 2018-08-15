@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,7 +72,7 @@ Pointer to a string that contains the verb's name.
 
 ### -field fuFlags
 
-In Windows, a group of flags taken from the flag constants beginning with MF_ defined in <a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a>. Containers should use these flags in building an object's verb menu. All Flags defined in <b>AppendMenu</b> are supported except for MF_BITMAP, MF_OWNERDRAW, and MF_POPUP.
+In Windows, a group of flags taken from the flag constants beginning with MF_ defined in <a href="_win32_AppendMenu">AppendMenu</a>. Containers should use these flags in building an object's verb menu. All Flags defined in <b>AppendMenu</b> are supported except for MF_BITMAP, MF_OWNERDRAW, and MF_POPUP.
 
 
 ### -field grfAttribs

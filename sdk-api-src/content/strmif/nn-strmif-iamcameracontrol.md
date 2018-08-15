@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,7 +76,7 @@ The <b>IAMCameraControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/5a21f207-5fbb-44b2-82d2-89be29dbdf2c">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the current setting of a camera property.
@@ -93,7 +94,7 @@ Gets the range and default value of a specified camera property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544503">Set</a>
+<a href="https://msdn.microsoft.com/d896fb5e-a43b-4cb8-a5d1-4ce6e60831be">Set</a>
 </td>
 <td align="left" width="63%">
 Sets a specified property on the camera.
@@ -107,7 +108,7 @@ Sets a specified property on the camera.
 
 
 
-For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://msdn.microsoft.com/8899a474-fa6f-4d5c-bd68-2433428bb5c5">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
 
 
 

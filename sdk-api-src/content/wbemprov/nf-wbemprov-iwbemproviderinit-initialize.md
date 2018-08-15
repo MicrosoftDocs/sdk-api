@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -93,7 +94,7 @@ This parameter may be <b>NULL</b>.
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management. This pointer is can service any requests made by the provider. The provider should use the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IWbemProviderInit::AddRef</a> method on this pointer if it is going to call back into Windows Management during its execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management. This pointer is can service any requests made by the provider. The provider should use the <a href="_com_iunknown_addref">IWbemProviderInit::AddRef</a> method on this pointer if it is going to call back into Windows Management during its execution.
 
 
 ### -param pCtx [in]
@@ -101,7 +102,7 @@ An
 An 
 <a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> pointer associated with initialization. This parameter may be <b>NULL</b>.
 
-If the provider will perform requests back into Windows Management before completing initialization, it should use the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IWbemProviderInit::AddRef</a> method on this pointer. For more information, see 
+If the provider will perform requests back into Windows Management before completing initialization, it should use the <a href="_com_iunknown_addref">IWbemProviderInit::AddRef</a> method on this pointer. For more information, see 
 <a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 In the event that a provider must make a dependent request on another provider, you must pass this context string back to WMI to avoid potential lockups. However, in the case of an independent request, this is not necessary, and WMI generates a new context string for it.
@@ -132,7 +133,7 @@ Typically, the provider implements a COM object using multiple inheritance to su
 <a href="https://msdn.microsoft.com/4b92923a-659d-4340-8843-eb42aea69d47">IWbemEventProvider</a>.
 
 Initialization status is reported by calling 
-<a href="https://msdn.microsoft.com/909935ba-ae3a-477d-a466-1f2679764b10">IWbemProviderInitSink::SetStatus</a>. This method can be called repeatedly to report incremental status if necessary. The provider must increment the reference count on this pointer by calling its <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IWbemProviderInit::AddRef</a> method before using it to communicate status to Windows Management.
+<a href="https://msdn.microsoft.com/909935ba-ae3a-477d-a466-1f2679764b10">IWbemProviderInitSink::SetStatus</a>. This method can be called repeatedly to report incremental status if necessary. The provider must increment the reference count on this pointer by calling its <a href="_com_iunknown_addref">IWbemProviderInit::AddRef</a> method before using it to communicate status to Windows Management.
 
 The provider may use the 
 <a href="https://msdn.microsoft.com/abcee170-6a28-44d2-97d6-cb62c393b534">IWbemProviderInitSink</a> pointer synchronously, as in the following code example.
@@ -164,7 +165,7 @@ The provider may use the
 </td>
 </tr>
 </table></span></div>
-The provider may also use the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the pointer and create a separate thread to complete its initialization and immediately return from the call.
+The provider may also use the <a href="_com_iunknown_addref">AddRef</a> method on the pointer and create a separate thread to complete its initialization and immediately return from the call.
 
 The initialization process of some providers can involve calling back into WMI. A provider that calls back into WMI and must wait for that call to complete is called a dependent provider. Similarly, a call into WMI is called a dependent request. When implementing 
 <b>Initialize</b>, WMI requires that a dependent provider obey the following rules:
@@ -198,7 +199,7 @@ The danger in not carefully handling the threads delivered by WMI is that a prov
 </li>
 </ul>
 You may choose to implement your provider in-process. An in-process provider that must connect to WMI separately from the initialization process must use the <b>CLSID_WbemAdministrativeLocator</b> class identifier to access 
-<a href="https://msdn.microsoft.com/3e630987-82e3-4eb0-aec0-30562bc7c843">IWbemLocator</a> in a call to <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>.
+<a href="https://msdn.microsoft.com/3e630987-82e3-4eb0-aec0-30562bc7c843">IWbemLocator</a> in a call to <a href="_com_cocreateinstance">CoCreateInstance</a>.
 
 The following code example describes how to use the <b>CLSID_WbemAdministrativeLocator</b> identifier in such a call.
 

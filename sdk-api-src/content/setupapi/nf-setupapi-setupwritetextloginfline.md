@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>SetupWriteTextLogInfLine</b> function writes a log entry in a <a href="de
 
 ### -param LogToken [in]
 
-A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a>.
+A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
 
 
 ### -param Flags [in]
@@ -130,7 +131,7 @@ The <i>line-number</i> field contains the line number of the specified line in t
 
 </li>
 </ul>
-The log token and flags that a caller supplies affect the operation of <b>SetupWriteTextLogInfLine</b> in the same manner as that described for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552218">SetupWriteTextLog</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552232">SetupWriteTextLogError</a>. In addition, <b>SetupWriteTextLogInfLine</b> uses the <a href="devinst.enabling_event_categories_for_a_text_log">event category</a> TXTLOG_INF. 
+The log token and flags that a caller supplies affect the operation of <b>SetupWriteTextLogInfLine</b> in the same manner as that described for <a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a> and <a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>. In addition, <b>SetupWriteTextLogInfLine</b> uses the <a href="devinst.enabling_event_categories_for_a_text_log">event category</a> TXTLOG_INF. 
 
 For general information about writing log entries in the SetupAPI text logs, see <a href="devinst.setupapi_logging__windows_vista_and_later_">SetupAPI Logging (Windows Vista)</a>. 
 
@@ -148,15 +149,15 @@ For more information about using log tokens, see <a href="devinst.setting_and_ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a>
+<a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552218">SetupWriteTextLog</a>
+<a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552232">SetupWriteTextLogError</a>
+<a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>
  
 
  

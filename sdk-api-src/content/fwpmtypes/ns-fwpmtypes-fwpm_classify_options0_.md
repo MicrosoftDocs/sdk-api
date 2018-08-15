@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ Number of <b>FWPM_CLASSIFY_OPTION0</b> structures in the <b>options</b> member.
 
 [size_is(numCredentials)]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a> structures.
 
 
 ## -remarks
@@ -85,7 +86,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+<a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -116,7 +117,7 @@ A value that specifies an offset in the dash sequence.   A positive dash offset 
 
 The following illustration shows different <i>dashOffset</i> values for the same custom dash style.
 
-<img alt="Illustration of four dashes with the same style and different dashOffset values" src="./images/StrokeStyle_DashOffset.png"/>
+<img alt="Illustration of four dashes with the same style and different dashOffset values" src="images/StrokeStyle_DashOffset.png"/>
 
 
 

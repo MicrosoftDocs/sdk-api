@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -172,7 +173,7 @@ This method must return <b>S_OK</b>.
 
 
 
-The <b>OnEnableComplete</b> method is called by the Mobile Broadband service to report the completion status of a PIN enable operation initialized by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> method of <a href="https://msdn.microsoft.com/76764dbb-7de0-4b95-a210-60b8e6a4b24b">IMbnPin</a>.
+The <b>OnEnableComplete</b> method is called by the Mobile Broadband service to report the completion status of a PIN enable operation initialized by a call to the <a href="https://msdn.microsoft.com/bbdd767b-f08a-4e94-bccf-9ed0d1b4af29">Enable</a> method of <a href="https://msdn.microsoft.com/76764dbb-7de0-4b95-a210-60b8e6a4b24b">IMbnPin</a>.
 
 The contents of <i>pinInfo</i> are meaningful only when <i>status</i> is <b>E_MBN_FAILURE</b>.  The <b>pinState</b> member should be ignored and <b>pinType</b> field is set to the PIN type of the current <a href="https://msdn.microsoft.com/76764dbb-7de0-4b95-a210-60b8e6a4b24b">IMbnPin</a> interface. This structure contains the attempts remaining to enter a valid PIN. 
 

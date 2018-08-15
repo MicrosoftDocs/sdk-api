@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -74,7 +75,7 @@ Character offset in the composition string, in <b>TCHAR</b> values.
 
 ### -field pt
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure containing the coordinate of the top left point of requested character in screen coordinates. The top left point is based on the character baseline in any text flow.
+A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the coordinate of the top left point of requested character in screen coordinates. The top left point is based on the character baseline in any text flow.
 
 
 ### -field cLineHeight
@@ -84,7 +85,7 @@ Height of a line that contains the requested character, in pixels.
 
 ### -field rcDocument
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the editable area for text, in screen coordinates, for the application.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the editable area for text, in screen coordinates, for the application.
 
 
 ## -remarks

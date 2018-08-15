@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,7 +86,7 @@ A pointer to a variable that receives a pointer to the newly allocated <a href="
 ### -param ObjectType [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies the type of object associated with the <i>CurrentSecurityDescriptor</i> parameter. If the object does not have a GUID, this parameter must be <b>NULL</b>.
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object associated with the <i>CurrentSecurityDescriptor</i> parameter. If the object does not have a GUID, this parameter must be <b>NULL</b>.
 
 
 ### -param IsDirectoryObject [in]
@@ -96,7 +97,7 @@ If <b>TRUE</b>, the new object is a container and can contain other objects. If 
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
+<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
 
 
 ## -returns
@@ -131,7 +132,7 @@ The function does not change the ordering of access-allowed ACEs in relation to 
 
 The new security descriptor has the same owner and primary group as the original security descriptor.
 
-The new security descriptor is equivalent to the original security descriptor, so the caller needs no access rights or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> to update the security descriptor to the new format.
+The new security descriptor is equivalent to the original security descriptor, so the caller needs no access rights or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> to update the security descriptor to the new format.
 
 This function works with ACL_REVISION and ACL_REVISION_DS ACLs.
 
@@ -147,7 +148,7 @@ This function works with ACL_REVISION and ACL_REVISION_DS ACLs.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 
@@ -159,11 +160,11 @@ This function works with ACL_REVISION and ACL_REVISION_DS ACLs.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a>
+<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
  
 
  

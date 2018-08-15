@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -322,7 +323,7 @@ The file is being opened and an opportunistic lock (oplock) on the file is being
          the create with a last error code of <b>ERROR_CANNOT_BREAK_OPLOCK</b> if the result would 
          be to break an existing oplock.
 
-If you use this flag  and your call to the <a href="https://msdn.microsoft.com/cd7a81f3-60ee-443a-99f3-a4c8afd365e7">CreateFile2</a> function successfully returns, the first operation you should perform on the file handle is to request an oplock by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx">DeviceIOControl</a> function and then pass in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a> or one of the other <a href="https://msdn.microsoft.com/1595c03e-9f6d-456c-8164-fafba06bbd79">Opportunistic Lock Operations</a>.  If you perform other file system operations with the file handle before requesting an oplock, a deadlock might occur.<div class="alert"><b>Note</b>  You can safely call the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function on the file handle without first requesting an oplock.</div>
+If you use this flag  and your call to the <a href="https://msdn.microsoft.com/cd7a81f3-60ee-443a-99f3-a4c8afd365e7">CreateFile2</a> function successfully returns, the first operation you should perform on the file handle is to request an oplock by calling the <a href="devio.deviceiocontrol">DeviceIOControl</a> function and then pass in <a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a> or one of the other <a href="https://msdn.microsoft.com/1595c03e-9f6d-456c-8164-fafba06bbd79">Opportunistic Lock Operations</a>.  If you perform other file system operations with the file handle before requesting an oplock, a deadlock might occur.<div class="alert"><b>Note</b>  You can safely call the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function on the file handle without first requesting an oplock.</div>
 <div> </div>
 
 
@@ -532,7 +533,7 @@ If this parameter is <b>NULL</b>, the handle returned by
        descriptor.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> for a file or device. If 
+       <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> for a file or device. If 
        this member is <b>NULL</b>, the file or device associated with the returned handle is 
        assigned a default security descriptor.
 

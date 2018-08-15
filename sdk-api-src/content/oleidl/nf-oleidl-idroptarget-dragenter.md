@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,7 +72,7 @@ The current state of the keyboard modifier keys on the keyboard. Possible values
 
 ### -param pt [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
+A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 
 ### -param pdwEffect [in, out]

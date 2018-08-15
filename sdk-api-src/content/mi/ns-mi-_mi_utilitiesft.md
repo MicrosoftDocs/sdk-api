@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,   Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -63,10 +64,10 @@ A support structure used in the
 
 
 
-#### - MapErrorToMiErrorCategory
+#### - CimErrorFromErrorCode
 
-This function has been deprecated. See 
-   <a href="https://msdn.microsoft.com/58ac8e3e-ae87-40b1-bf27-1b32168a033e">MI_Utilities_MapErrorToMiErrorCategory</a>.
+Maps an operating-system specific error code to a CIM error instance. See 
+   <a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a>.
 
 
 #### - MapErrorToExtendedError
@@ -75,8 +76,8 @@ This function has been deprecated. See
    <a href="https://msdn.microsoft.com/cbd5bd18-897d-49ce-82b7-98f97c3c02d7">MI_Utilities_MapErrorToExtendedError</a>.
 
 
-#### - CimErrorFromErrorCode
+#### - MapErrorToMiErrorCategory
 
-Maps an operating-system specific error code to a CIM error instance. See 
-   <a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a>.
+This function has been deprecated. See 
+   <a href="https://msdn.microsoft.com/58ac8e3e-ae87-40b1-bf27-1b32168a033e">MI_Utilities_MapErrorToMiErrorCategory</a>.
 

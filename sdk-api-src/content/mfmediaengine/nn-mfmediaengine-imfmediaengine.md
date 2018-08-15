@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -316,7 +317,7 @@ Queries the Media Engine to find out whether a new video frame is ready.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/5C1FEBDA-18B5-4BF4-9AF4-FF6DBCDD880D">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback.
@@ -435,7 +436,7 @@ Sets the audio volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/8B7BCEAC-7A30-4B60-AD0E-E8DCE404DDE9">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the Media Engine and releases the resources it is using.

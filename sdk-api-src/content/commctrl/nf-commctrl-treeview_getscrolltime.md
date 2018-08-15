@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773625(v=VS.85).aspx">TVM_GETSCROLLTIME</a> message explicitly. 
+Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/992d1906-cda3-4ac7-ba90-c681c551ac2e">TVM_GETSCROLLTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -79,7 +80,7 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760129(v=VS.85).aspx">TreeView_SetScrollTime</a>
+<a href="https://msdn.microsoft.com/3f7705d6-22bb-4fe6-a001-da95b9b29197">TreeView_SetScrollTime</a>
  
 
  

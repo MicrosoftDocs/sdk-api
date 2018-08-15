@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IMFSensorActivityReport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406579">GetFriendlyName</a>
+<a href="https://msdn.microsoft.com/D31EBB3D-53BC-4D11-98ED-B68A04693C68">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Gets the friendly name for the sensor associated with the report.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>get_ModulationType</b> method retrieves the modulation type for the signa
 
 ### -param pModulationType [out]
 
-Pointer that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567735">ModulationType</a> variable indicating the modulation type.
+Pointer that receives a <a href="https://msdn.microsoft.com/fd8691d3-a862-4294-8b0b-9723a080d722">ModulationType</a> variable indicating the modulation type.
 
 
 ## -returns

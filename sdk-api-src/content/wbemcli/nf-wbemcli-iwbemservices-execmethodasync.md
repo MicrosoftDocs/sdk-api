@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -103,7 +104,7 @@ Typically <b>NULL</b>;  otherwise, this is a pointer to an
 ### -param pInParams [in]
 
 Can be <b>NULL</b> if no inbound parameters are required to execute the method. Otherwise, this points to an 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object that contains the properties acting as inbound parameters for the method execution. The contents of the object are method-specific, and are part of the specification for the provider in question. However, the most common object is an instance of the <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> system class. For each input parameter to the method to be called, there is one non-system property. Method providers ignore the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">ID</a> qualifiers attached to each parameter in the method, which are typically used only by browsers and similar applications.
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object that contains the properties acting as inbound parameters for the method execution. The contents of the object are method-specific, and are part of the specification for the provider in question. However, the most common object is an instance of the <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> system class. For each input parameter to the method to be called, there is one non-system property. Method providers ignore the <a href="https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e">ID</a> qualifiers attached to each parameter in the method, which are typically used only by browsers and similar applications.
 
 
 ### -param pResponseHandler [in]

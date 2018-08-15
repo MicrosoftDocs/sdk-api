@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c
 The input-primitive description.  See
             <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>,
             <a href="https://msdn.microsoft.com/ca0547b2-d0f8-4edc-a62c-3c903e1b33ea">D3D11_PRIMITIVE_TOPOLOGY</a>, or
-            <a href="https://msdn.microsoft.com/en-us/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a>.
+            <a href="https://msdn.microsoft.com/a33b5406-bead-4513-96ef-bb442a18564e">D3D10_PRIMITIVE_TOPOLOGY</a>.
           
 
 

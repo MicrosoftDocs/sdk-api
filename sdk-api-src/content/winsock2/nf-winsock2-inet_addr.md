@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -53,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 The 
 <b>inet_addr</b> function converts a string containing an IPv4 dotted-decimal address into a proper address for the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure.
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure.
 
 
 ## -parameters
@@ -103,7 +104,7 @@ The
 <b>inet_addr</b> function, 
 <b>inet_addr</b> returns zero.
 
-On Windows Vista and later, the <a href="https://msdn.microsoft.com/79896c13-a671-423e-975e-98a4ccfa1eb8">RtlIpv4StringToAddress</a> function can be used to convert a string representation of an IPv4 address to a binary IPv4 address represented as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure. On Windows Vista and later, the <a href="https://msdn.microsoft.com/3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3">RtlIpv6StringToAddress</a> function can be used to convert a string representation of an IPv6 address to a binary IPv6 address represented as an <b>IN6_ADDR</b> structure. 
+On Windows Vista and later, the <a href="https://msdn.microsoft.com/79896c13-a671-423e-975e-98a4ccfa1eb8">RtlIpv4StringToAddress</a> function can be used to convert a string representation of an IPv4 address to a binary IPv4 address represented as an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure. On Windows Vista and later, the <a href="https://msdn.microsoft.com/3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3">RtlIpv6StringToAddress</a> function can be used to convert a string representation of an IPv6 address to a binary IPv6 address represented as an <b>IN6_ADDR</b> structure. 
 
 <h3><a id="Internet_Addresses"></a><a id="internet_addresses"></a><a id="INTERNET_ADDRESSES"></a>Internet Addresses</h3>
 Values specified using the ".'' notation take one of the following forms:
@@ -240,7 +241,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a>
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a>
 
 
 

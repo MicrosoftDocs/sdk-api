@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The name of the function parameter.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
+The HLSL <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
 
 
 ### -field Type

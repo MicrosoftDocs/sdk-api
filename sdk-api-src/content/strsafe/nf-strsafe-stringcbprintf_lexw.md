@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -55,7 +56,7 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a> but includes a parameter for locale information.
+<b>StringCbPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/525e1fb5-9dfd-4ec2-a4af-9b9e198b6e17">StringCbPrintfEx</a> but includes a parameter for locale information.
 
 
 ## -parameters

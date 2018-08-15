@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -57,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +82,7 @@ Gets the current state of the file terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/ede287ff-2f13-4258-9afe-f6d0958e53b4">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the action, remaining at the current location in the file.
@@ -90,7 +91,7 @@ Pauses the action, remaining at the current location in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/b6fdf0da-9e22-4c77-9cd8-6ceccba81221">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the action at the current file location.
@@ -99,7 +100,7 @@ Starts the action at the current file location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/4c108838-ad31-407a-b9af-bfc8c1c4a577">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the current action, and sets the current location to the beginning of the file.

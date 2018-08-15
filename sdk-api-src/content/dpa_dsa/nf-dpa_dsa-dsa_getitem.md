@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -106,7 +107,7 @@ Using the element pointer that this function retrieves, you can modify the data 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775661(v=VS.85).aspx">DSA_GetItemPtr</a>
+<a href="https://msdn.microsoft.com/2e25edf8-9973-49ec-bc6c-b0dc48560832">DSA_GetItemPtr</a>
  
 
  

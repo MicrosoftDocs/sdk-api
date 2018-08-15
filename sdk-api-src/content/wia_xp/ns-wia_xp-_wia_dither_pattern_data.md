@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms630195(v=VS.85).aspx">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
+The <b>WIA_DITHER_PATTERN_DATA</b> structure specifies a dither pattern for scanners. It is used in conjunction with the <a href="https://msdn.microsoft.com/78caa3af-927b-4143-9e88-4b5c918d00a4">scanner device property constant</a> WIA_DPS_DITHER_PATTERN_DATA.
 
 
 ## -struct-fields

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -142,7 +143,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
 
 The screen coordinates of the file object.
 

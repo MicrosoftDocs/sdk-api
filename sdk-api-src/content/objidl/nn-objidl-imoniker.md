@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -155,7 +156,7 @@ Creates a moniker that is the inverse of this moniker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/0092e93e-d87d-4b3e-b8e1-40eeaf04c43b">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this moniker is identical to the specified moniker.

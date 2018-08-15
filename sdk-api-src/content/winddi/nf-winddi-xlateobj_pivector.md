@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>XLATEOBJ_piVector</b> function retrieves a translation vector that the dr
 
 ### -param pxlo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure that defines the indexed source object.
+Pointer to a <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure that defines the indexed source object.
 
 
 ## -returns
@@ -90,7 +91,7 @@ This function can be used only if the source palette is an indexed palette.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a>
+<a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IWMMetadataEditor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/7c10d0ea-8a19-4374-94f2-e12d7c1ba553">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the currently open file without writing any changes to the metadata back to the disk.
@@ -83,7 +84,7 @@ Closes the currently open file without writing any changes to the metadata back 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/b17992f7-ed93-4f62-bf50-8fb2fd41caee">Flush</a>
 </td>
 <td align="left" width="63%">
 Closes the currently open file, writing any changes to the metadata back to the disk.
@@ -92,7 +93,7 @@ Closes the currently open file, writing any changes to the metadata back to the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/01dd09ff-35d2-4e00-9eab-5110a426449f">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an ASF file.
@@ -146,7 +147,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

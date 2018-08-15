@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,9 +65,9 @@ Get a depth-stencil variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173639(v=VS.85).aspx">ID3D10EffectDepthStencilVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b8d8fa74-c4fb-4143-a725-741b7d60e0ba">ID3D10EffectDepthStencilVariable</a>*</b>
 
-A pointer to a depth-stencil variable. See <a href="https://msdn.microsoft.com/en-us/library/Bb173639(v=VS.85).aspx">ID3D10EffectDepthStencilVariable</a>.
+A pointer to a depth-stencil variable. See <a href="https://msdn.microsoft.com/b8d8fa74-c4fb-4143-a725-741b7d60e0ba">ID3D10EffectDepthStencilVariable</a>.
 
 
 
@@ -77,7 +78,7 @@ A pointer to a depth-stencil variable. See <a href="https://msdn.microsoft.com/e
 
 AsDepthStencil returns a version of the effect variable that has been specialized to a depth-stencil variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain depth-stencil data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>.
 
 
 
@@ -87,7 +88,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

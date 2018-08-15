@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ A zero based index value indicating the output pin through which to retrieve the
 
 ### -param pMatrix [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735227(v=VS.85).aspx">MIL_MATRIX3X2D</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab98ba80-da72-462c-b774-304b257b2a7d">MIL_MATRIX3X2D</a>*</b>
 
 When this method returns, contains a pointer to the affine matrix describing the effects transform.
 

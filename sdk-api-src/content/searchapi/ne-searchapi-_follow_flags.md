@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,8 +52,8 @@ req.product: ADAM
 ## -description
 
 
-Used to help define behavior when crawling or indexing.  These flags are used by the <a href="https://msdn.microsoft.com/en-us/library/Bb266481(v=VS.85).aspx">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and
-<a href="https://msdn.microsoft.com/en-us/library/Bb266484(v=VS.85).aspx">ISearchCrawlScopeManager::AddUserScopeRule</a> methods.
+Used to help define behavior when crawling or indexing.  These flags are used by the <a href="https://msdn.microsoft.com/948549da-7179-4f8d-956e-4daf20f8c65a">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and
+<a href="https://msdn.microsoft.com/100bf0b4-553c-4ecd-a40d-ee2948f2c4d5">ISearchCrawlScopeManager::AddUserScopeRule</a> methods.
 
 
 ## -enum-fields

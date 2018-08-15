@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -55,7 +56,7 @@ The <b>IX509NameValuePairs</b> interface defines the following methods and prope
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePairs</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509NameValuePairs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePairs</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509NameValuePairs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +72,7 @@ The <b>IX509NameValuePairs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/2b5592d4-4f3b-4cea-8c59-15529cc53efa">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a> object to the collection.
@@ -80,7 +81,7 @@ Adds an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/eded4dc2-ad3d-44eb-a20c-217756fad40f">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a> objects from the collection.
@@ -89,7 +90,7 @@ Removes all <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/f66dbfd1-331f-4e1b-a17e-f8071044d073">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a> object from the collection by index number.
@@ -106,7 +107,7 @@ Removes an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/e66b2278-5cfd-456e-8122-2e1fa8351b15">_NewEnum</a>
 
 
 </td>
@@ -118,7 +119,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/52bbd5af-4bd7-4520-b4cd-6a3d92485322">Count</a>
 
 
 </td>
@@ -151,7 +152,7 @@ Retrieves an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

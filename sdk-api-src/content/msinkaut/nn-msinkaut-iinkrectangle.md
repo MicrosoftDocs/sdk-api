@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -115,7 +116,7 @@ Gets or sets the bottom position of the <a href="https://msdn.microsoft.com/78e6
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427307">Data</a>
+<a href="https://msdn.microsoft.com/fd0d265e-c5d1-463a-bb4f-4dfa23cf6251">Data</a>
 
 
 </td>

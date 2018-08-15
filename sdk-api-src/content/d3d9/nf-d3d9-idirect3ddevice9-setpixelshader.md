@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ Sets the current pixel shader to a previously created pixel shader.
 
 ### -param pShader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205869(v=VS.85).aspx">IDirect3DPixelShader9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b199544d-4617-4fe2-8a4a-d54fabd4d449">IDirect3DPixelShader9</a>*</b>
 
 Pixel shader interface.
 
@@ -70,7 +71,7 @@ Pixel shader interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -82,11 +83,11 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174398(v=VS.85).aspx">IDirect3DDevice9::GetPixelShader</a>
+<a href="https://msdn.microsoft.com/64d62518-8fc8-4021-b98f-2176435d84cc">IDirect3DDevice9::GetPixelShader</a>
  
 
  

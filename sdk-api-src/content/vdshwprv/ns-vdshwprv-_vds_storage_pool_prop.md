@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -121,13 +122,13 @@ The space, in bytes, in this storage pool that can be allocated to create child 
 The maximum size that may be used to create new LUNs or child storage pools from this pool, or to expand existing LUNs or child storage pools. To calculate the amount of managed space that has already been allocated to existing LUNs or child storage pools, subtract the value of this member from the value of the <b>ullTotalManagedSpace</b> member.
 
 
-##### - health.VDS_H_UNKNOWN (0)
+##### - health.VDS_H_DEGRADED (11)
 
 
 ##### - health.VDS_H_HEALTHY (1)
 
 
-##### - health.VDS_H_DEGRADED (11)
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ## -remarks

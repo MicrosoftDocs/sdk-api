@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ Handle associated with the interface to be set. This handle is obtained by a pre
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>.
+<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>.
 
 
 ### -param BufferSize [in]
@@ -169,7 +170,7 @@ The device did not register for this GUID.
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcSetInterface</b> function requires administrative privilege. The list of GUIDs that can be set is explained in 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>.</div>
+<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>.</div>
 <div> </div>
 
 
@@ -179,7 +180,7 @@ The device did not register for this GUID.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>
 
 
 

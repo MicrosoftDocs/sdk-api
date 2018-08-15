@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about se
 
 ### -field header
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that contains information for setting the target persistence. The <b>type</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER is set to DISPLAYCONFIG_DEVICE_INFO_SET_TARGET_PERSISTENCE. DISPLAYCONFIG_DEVICE_INFO_HEADER also contains the adapter and target identifiers of the target to set the persistence for. The <b>size</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER is set to at least the size of the DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure.
+A <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that contains information for setting the target persistence. The <b>type</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER is set to DISPLAYCONFIG_DEVICE_INFO_SET_TARGET_PERSISTENCE. DISPLAYCONFIG_DEVICE_INFO_HEADER also contains the adapter and target identifiers of the target to set the persistence for. The <b>size</b> member of DISPLAYCONFIG_DEVICE_INFO_HEADER is set to at least the size of the DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure.
 
 
 ### -field DUMMYUNIONNAME
@@ -76,7 +77,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAY
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.bootPersistenceOn
 
-A UINT32 value that specifies whether the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569533">SetDisplayConfig</a> function should enable or disable boot persistence for the specified target. 
+A UINT32 value that specifies whether the <a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">SetDisplayConfig</a> function should enable or disable boot persistence for the specified target. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>value</b> member (0x00000001). 
 
@@ -96,11 +97,11 @@ A member in the union that DISPLAYCONFIG_SET_TARGET_PERSISTENCE contains that ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553920">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569533">SetDisplayConfig</a>
+<a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">SetDisplayConfig</a>
  
 
  

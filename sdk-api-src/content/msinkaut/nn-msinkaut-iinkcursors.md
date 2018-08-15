@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -77,7 +78,7 @@ The <b>IInkCursors</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/59174954-4994-4773-acee-a3db363cb8fe">Item</a>
 </td>
 <td align="left" width="63%">
 Specifies the cursor to return at the known index into the collection.
@@ -102,7 +103,7 @@ Specifies the cursor to return at the known index into the collection.
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
+Gets either the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
 
 The <b>_NewEnum</b>property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces. 
 
@@ -111,7 +112,7 @@ The <b>_NewEnum</b>property is marked restricted in the Interface Definition Lan
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/de036d87-32a2-4688-9926-d5f7ab965b9f">Count</a>
 
 
 </td>

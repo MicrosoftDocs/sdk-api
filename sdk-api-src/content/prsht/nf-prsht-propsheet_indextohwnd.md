@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774585(v=VS.85).aspx">PSM_INDEXTOHWND</a> message explicitly.
+Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/93b46b4c-47f9-4ce8-8797-f3d4bd5248e9">PSM_INDEXTOHWND</a> message explicitly.
 
 
 ## -parameters
@@ -78,7 +79,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
+<a href="https://msdn.microsoft.com/a90c1ccc-f25e-476a-bdc5-f4fb568a3cb5">PropSheet_HwndToIndex</a>
  
 
  

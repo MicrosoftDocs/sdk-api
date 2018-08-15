@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -118,7 +119,7 @@ Returns the icon's handle if successful, otherwise <b>NULL</b>.
 
 
 
-The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when it is no longer needed.
+The icon handle returned by this function must be released by calling <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when it is no longer needed.
 
 
 

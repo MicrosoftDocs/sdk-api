@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
@@ -54,7 +55,7 @@ req.product: GDI+ 1.1
 The 
 <b>get_ConfigurableItems</b> method retrieves the 
 <a href="https://msdn.microsoft.com/4d1a64f7-fbd0-4358-8911-112e43f1be4a">ConfigurableItems</a> property of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a> object. 
+<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
 
 
 ## -parameters

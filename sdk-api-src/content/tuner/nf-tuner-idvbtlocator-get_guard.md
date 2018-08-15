@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_Guard</b> method retrieves the guard interval.
 
 #### - pGI [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559626">GuardInterval</a> enumeration.
+Receives a member of the <a href="https://msdn.microsoft.com/a3ff1c61-f80d-40f2-a22f-069f0690fb1b">GuardInterval</a> enumeration.
 
 
 ## -returns

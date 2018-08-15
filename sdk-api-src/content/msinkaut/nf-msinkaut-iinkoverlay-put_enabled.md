@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -75,15 +76,15 @@ If an enabled object's window input rectangle (set in the constructor or with th
 
 While an object is not enabled, you receive no events.
 
-When a container control has its <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property set to <b>FALSE</b>, all of its contained controls are disabled as well.
+When a container control has its <a href="https://msdn.microsoft.com/ab55a399-1990-4cfc-a4ab-834a5db8d7a9">Enabled</a> property set to <b>FALSE</b>, all of its contained controls are disabled as well.
 
-You cannot set the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property to <b>FALSE</b> while the object is collecting ink (<a href="https://msdn.microsoft.com/c0ac36a8-e36e-45a7-b047-14d7f7c8ce14">CollectingInk</a> property is <b>TRUE</b>).
+You cannot set the <a href="https://msdn.microsoft.com/ab55a399-1990-4cfc-a4ab-834a5db8d7a9">Enabled</a> property to <b>FALSE</b> while the object is collecting ink (<a href="https://msdn.microsoft.com/c0ac36a8-e36e-45a7-b047-14d7f7c8ce14">CollectingInk</a> property is <b>TRUE</b>).
 
-We recommend that you set <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> set to <b>FALSE</b> when the application shuts down.
+We recommend that you set <a href="https://msdn.microsoft.com/ab55a399-1990-4cfc-a4ab-834a5db8d7a9">Enabled</a> set to <b>FALSE</b> when the application shuts down.
 
 <div class="alert"><b>Note</b>  Setting this property within certain message handlers can result in the underlying function being re-entered, causing unexpected results. Take care to avoid a reentrant call when handling any of the following messages: <b>WM_ACTIVATE</b>, <b>WM_ACTIVATEAPP</b>, <b>WM_NCACTIVATE</b>, <b>WM_PAINT</b>; <b>WM_SYSCOMMAND</b> if <i>wParam</i> is set to SC_HOTKEY or SC_TASKLIST; and <b>WM_SYSKEYDOWN</b> (when processing Alt-Tab or Alt-Esc key combinations). This is an issue with single-threaded apartment model applications.</div>
 <div> </div>
-This property must be set to <b>FALSE</b> before setting or calling specific properties and methods of the object. If you try to change the specified properties or methods, an error occurs. The following properties and methods cannot be set or called unless the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property is  first set to <b>FALSE</b>:
+This property must be set to <b>FALSE</b> before setting or calling specific properties and methods of the object. If you try to change the specified properties or methods, an error occurs. The following properties and methods cannot be set or called unless the <a href="https://msdn.microsoft.com/ab55a399-1990-4cfc-a4ab-834a5db8d7a9">Enabled</a> property is  first set to <b>FALSE</b>:
 
 Properties
 
@@ -138,7 +139,7 @@ Methods
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The cue identifier that is provided in the text-track data format.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method retrieves an identifier for the cue that is included in the source data, if one was specified. The system dynamically generates identifiers for cues that are guaranteed to be unique within a single time-text track. To obtain this system-generated ID, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>.
+This method retrieves an identifier for the cue that is included in the source data, if one was specified. The system dynamically generates identifiers for cues that are guaranteed to be unique within a single time-text track. To obtain this system-generated ID, call <a href="https://msdn.microsoft.com/D096B1FA-E92F-4B09-9177-13203FF1704D">GetId</a>.
 
 
 
@@ -91,7 +92,7 @@ This method retrieves an identifier for the cue that is included in the source d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetId</a>
+<a href="https://msdn.microsoft.com/D096B1FA-E92F-4B09-9177-13203FF1704D">GetId</a>
 
 
 

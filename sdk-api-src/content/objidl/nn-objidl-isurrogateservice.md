@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -58,7 +59,7 @@ Used to initialize, launch, and release a COM+ application. You can also refresh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ISurrogateService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ISurrogateService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -100,7 +101,7 @@ Refreshes the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/ed2e628c-5c86-48fd-aa55-f532602247ea">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the process server.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -129,13 +130,13 @@ If no character is matched, the range is unchanged.
 
 The motion described by <b>ITextRange::MoveUntil</b> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
 
-For more information, see the discussion in <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> and the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">ITextRange::Move</a>.
+For more information, see the discussion in <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> and the Remarks section of <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">ITextRange::Move</a>.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774080(v=VS.85).aspx">ITextRange::MoveStartUntil</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774070(v=VS.85).aspx">ITextRange::MoveEndUntil</a> methods move the start and end, respectively, until it finds the first character that is also in the set specified by the <i>Cset</i> parameter.
+The <a href="https://msdn.microsoft.com/cf80b598-e3ae-4e45-aef5-974a999d6507">ITextRange::MoveStartUntil</a> and <a href="https://msdn.microsoft.com/03373d1b-c4d9-45f5-b47c-f02990604ba7">ITextRange::MoveEndUntil</a> methods move the start and end, respectively, until it finds the first character that is also in the set specified by the <i>Cset</i> parameter.
 
-The <b>ITextRange::MoveUntil</b> method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">ITextRange::MoveWhile</a>, but there are two differences. First, <b>MoveUntil</b> moves an insertion point <i>until</i> it finds the first character that belongs to the character set specified by <i>Cset</i>. Second, in <b>MoveUntil</b> the character matched counts as an additional character in the value returned in <i>pDelta</i>. This lets you know that the character at one end of the range or the other belongs to the <i>Cset</i> even though the insertion point stays at one of the range ends. 
+The <b>ITextRange::MoveUntil</b> method is similar to <a href="https://msdn.microsoft.com/6cc1c3f9-d5b0-41b3-808e-0df78dc79f67">ITextRange::MoveWhile</a>, but there are two differences. First, <b>MoveUntil</b> moves an insertion point <i>until</i> it finds the first character that belongs to the character set specified by <i>Cset</i>. Second, in <b>MoveUntil</b> the character matched counts as an additional character in the value returned in <i>pDelta</i>. This lets you know that the character at one end of the range or the other belongs to the <i>Cset</i> even though the insertion point stays at one of the range ends. 
 
-For example, suppose the range, r, is an insertion point. To see if the character at r (that is, given by r.<a href="https://msdn.microsoft.com/en-us/library/Bb773937(v=VS.85).aspx">GetChar</a>()) is in <i>Cset</i>, call 
+For example, suppose the range, r, is an insertion point. To see if the character at r (that is, given by r.<a href="https://msdn.microsoft.com/e6de647e-c3db-4038-8d7e-4b36fdbf3577">GetChar</a>()) is in <i>Cset</i>, call 
 				
 
 <div class="code"><span codelanguage=""><table>
@@ -195,27 +196,27 @@ End Sub</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773937(v=VS.85).aspx">GetChar</a>
+<a href="https://msdn.microsoft.com/e6de647e-c3db-4038-8d7e-4b36fdbf3577">GetChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774070(v=VS.85).aspx">MoveEndUntil</a>
+<a href="https://msdn.microsoft.com/03373d1b-c4d9-45f5-b47c-f02990604ba7">MoveEndUntil</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774080(v=VS.85).aspx">MoveStartUntil</a>
+<a href="https://msdn.microsoft.com/cf80b598-e3ae-4e45-aef5-974a999d6507">MoveStartUntil</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">MoveWhile</a>
+<a href="https://msdn.microsoft.com/6cc1c3f9-d5b0-41b3-808e-0df78dc79f67">MoveWhile</a>
 
 
 
@@ -223,7 +224,7 @@ End Sub</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

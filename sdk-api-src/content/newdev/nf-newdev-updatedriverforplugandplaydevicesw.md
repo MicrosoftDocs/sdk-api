@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -122,17 +123,17 @@ If this flag is set and the function finds a device that matches the <i>Hardware
 <div class="alert"><b>Important</b>  Use this flag only with extreme caution. Setting this flag can cause an older driver to be installed over a newer driver, if a user runs the vendor's application after newer drivers are available.</div>
 <div> </div>
 
-##### - InstallFlags.INSTALLFLAG_READONLY
-
-If this flag is set, the function will not copy, rename, or delete any installation files. Use of this flag should be limited to environments in which file access is restricted or impossible, such as an "embedded" operating system.
-
-
 ##### - InstallFlags.INSTALLFLAG_NONINTERACTIVE
 
 If this flag is set, the function will return <b>FALSE</b> when any attempt to display UI is detected. Set this flag only if the function will be called from a component (such as a service) that cannot display UI. 
 
 <div class="alert"><b>Note</b>    If this flag is set and a UI display is attempted, the device can be left in an indeterminate state.</div>
 <div> </div>
+
+##### - InstallFlags.INSTALLFLAG_READONLY
+
+If this flag is set, the function will not copy, rename, or delete any installation files. Use of this flag should be limited to environments in which file access is restricted or impossible, such as an "embedded" operating system.
+
 
 ## -returns
 
@@ -219,7 +220,7 @@ The default behavior is to only install the specified drivers if they are better
 
 <b>UpdateDriverForPlugAndPlayDevices</b> can also be used to determine whether the device with the specified <i>HardwareId</i> value is plugged in. For more information, see <a href="devinst.writing_a_device_installation_application">Writing a Device Installation Application</a>.
 
-<b>UpdateDriverForPlugAndPlayDevices</b> sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a> request to the specified device, all the children of the device, and all other devices that are recursively part of the removal relations for the device. If any of these devices fail a query remove request, <b>UpdateDriverForPlugAndPlayDevices</b> sets the DI_NEEDREBOOT flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure for the device. For information about removal relations, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
+<b>UpdateDriverForPlugAndPlayDevices</b> sends an <a href="https://msdn.microsoft.com/95ec9ed8-014f-4d01-bed7-3aeb29cd9e73">IRP_MN_QUERY_REMOVE_DEVICE</a> request to the specified device, all the children of the device, and all other devices that are recursively part of the removal relations for the device. If any of these devices fail a query remove request, <b>UpdateDriverForPlugAndPlayDevices</b> sets the DI_NEEDREBOOT flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure for the device. For information about removal relations, see the <a href="https://msdn.microsoft.com/32437c5a-ad92-433c-8255-83775751a44d">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
 
 Generally, <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device installation applications</a> should supply <b>NULL</b> for <i>bRebootRequired</i>. So, the system will initiate a restart if necessary. An application should specify a pointer value <i>only</i> in the following cases:
 
@@ -233,7 +234,7 @@ The application must perform other operations before the restart (if required) o
 
 </li>
 <li>
-The application is a class installer, which should set DI_NEEDREBOOT in <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> if a restart is needed.
+The application is a class installer, which should set DI_NEEDREBOOT in <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> if a restart is needed.
 
 </li>
 </ul>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -62,9 +63,9 @@ Gets the time stamp identifying when the URL was last modified.
 
 ### -param pftLastModified [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="_com_FILETIME">FILETIME</a>*</b>
 
-Receives a pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> identifying the time stamp when the URL was last modified.
+Receives a pointer to a variable of type <a href="_com_FILETIME">FILETIME</a> identifying the time stamp when the URL was last modified.
                 
 
 

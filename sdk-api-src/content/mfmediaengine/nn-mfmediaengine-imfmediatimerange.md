@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -80,7 +81,7 @@ Adds a new range to the list of time ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/F7CDC73E-CF14-48E2-9C8A-E1944099861A">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the list of time ranges.

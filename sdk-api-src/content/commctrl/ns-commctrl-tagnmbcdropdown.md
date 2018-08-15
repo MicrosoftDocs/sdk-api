@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Bb775983(v=VS.85).aspx">BCN_DROPDOWN</a> notification.
+Contains information about a <a href="https://msdn.microsoft.com/61503b8d-193e-4855-b9eb-35c0dc636c02">BCN_DROPDOWN</a> notification.
 
 
 ## -struct-fields
@@ -60,14 +61,14 @@ Contains information about a <a href="https://msdn.microsoft.com/en-us/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure containing information about the notification.
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure containing information about the notification.
 
 
 ### -field rcButton
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the client area of the button.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the client area of the button.
 

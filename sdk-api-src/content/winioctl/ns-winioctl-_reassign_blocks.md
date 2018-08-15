@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows Address Book 5.0
 Contains 
     disk block reassignment data. This is a variable length structure where the last member is an array of block 
     numbers to be reassigned. It is used by the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a> control code.
+    <a href="https://msdn.microsoft.com/57343bc9-9dd4-47a3-8130-07ea330eb4d3">IOCTL_DISK_REASSIGN_BLOCKS</a> control code.
 
 
 ## -struct-fields
@@ -88,12 +89,12 @@ The <b>REASSIGN_BLOCKS</b> structure only supports
     drives where the Logical Block Address (LBA) is a 4-byte value (typically up to 2 TB). 
 
 For larger drives the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/jj602804">REASSIGN_BLOCKS_EX</a> structure that is  used with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/jj602797">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
+    <a href="https://msdn.microsoft.com/48036bdc-3588-41a6-9dbb-4606bdfcb683">REASSIGN_BLOCKS_EX</a> structure that is  used with the 
+    <a href="https://msdn.microsoft.com/126ffefa-165b-4ca1-a905-1aebc8e790c7">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
     supports 8-byte LBAs.
 
 For device compatibility, the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a> control code and 
+    <a href="https://msdn.microsoft.com/57343bc9-9dd4-47a3-8130-07ea330eb4d3">IOCTL_DISK_REASSIGN_BLOCKS</a> control code and 
     <b>REASSIGN_BLOCKS</b> structure should be used where 
     possible.
 
@@ -105,15 +106,15 @@ For device compatibility, the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a>
+<a href="https://msdn.microsoft.com/57343bc9-9dd4-47a3-8130-07ea330eb4d3">IOCTL_DISK_REASSIGN_BLOCKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj602797">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
+<a href="https://msdn.microsoft.com/126ffefa-165b-4ca1-a905-1aebc8e790c7">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj602804">REASSIGN_BLOCKS_EX</a>
+<a href="https://msdn.microsoft.com/48036bdc-3588-41a6-9dbb-4606bdfcb683">REASSIGN_BLOCKS_EX</a>
  
 
  

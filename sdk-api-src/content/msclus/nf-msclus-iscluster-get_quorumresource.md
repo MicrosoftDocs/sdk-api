@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -59,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     current <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> for a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> or allows a new quorum resource to be 
+    <a href="c_gly.htm">cluster</a> or allows a new quorum resource to be 
     designated.
 
 This property is read/write.
@@ -92,7 +93,7 @@ An alternate way to assign a quorum resource is to call that resource's
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a>
+<a href="https://msdn.microsoft.com/4a765dce-c823-4a79-8608-ff41feec8a39">Cluster</a>
  
 
  

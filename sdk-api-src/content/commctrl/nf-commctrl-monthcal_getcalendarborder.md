@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760945(v=VS.85).aspx">MCM_GETCALENDARBORDER</a> message explicitly.
+Gets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/68366ee1-7511-46a5-aab0-a42fb80c265f">MCM_GETCALENDARBORDER</a> message explicitly.
 
 
 ## -parameters

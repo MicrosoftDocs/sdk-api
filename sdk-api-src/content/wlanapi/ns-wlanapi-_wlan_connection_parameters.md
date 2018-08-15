@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
+req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -82,7 +83,7 @@ If  <b>wlanConnectionMode</b> is set to <b>wlan_connection_mode_profile</b>, the
 
 ### -field pDot11Ssid
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548773">DOT11_SSID</a> structure that specifies the SSID of the network to connect to.  This parameter is optional. When set to <b>NULL</b>, all SSIDs in the profile will be tried.  This parameter must not be <b>NULL</b> if <a href="https://msdn.microsoft.com/d62e863f-2aa8-49b1-9e27-8d9d053026f0">WLAN_CONNECTION_MODE</a> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>.
+Pointer to a <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure that specifies the SSID of the network to connect to.  This parameter is optional. When set to <b>NULL</b>, all SSIDs in the profile will be tried.  This parameter must not be <b>NULL</b> if <a href="https://msdn.microsoft.com/d62e863f-2aa8-49b1-9e27-8d9d053026f0">WLAN_CONNECTION_MODE</a> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>.
 
 
 ### -field pDesiredBssidList
@@ -94,7 +95,7 @@ Pointer to a <a href="https://msdn.microsoft.com/22907f94-1ae8-4938-a816-b406656
 
 ### -field dot11BssType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547669">DOT11_BSS_TYPE</a> value that indicates the BSS type of the network.  If a profile is provided, this BSS type must be the same as the one in the profile.
+A <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> value that indicates the BSS type of the network.  If a profile is provided, this BSS type must be the same as the one in the profile.
 
 
 ### -field dwFlags

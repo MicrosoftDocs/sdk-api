@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -76,9 +77,9 @@ The <b>MaxRatingsLevel</b> method specifies the maximum ratings level the object
 
 
 
-#### - pEnSystem [in]
+#### - pBfEnAttr [in]
 
-Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration value.
+Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
 
 
 #### - pEnRating [in]
@@ -86,9 +87,9 @@ Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-
 Specifies the maximum rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration value.
 
 
-#### - pBfEnAttr [in]
+#### - pEnSystem [in]
 
-Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies the rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration value.
 
 
 ## -returns

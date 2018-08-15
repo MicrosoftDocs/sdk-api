@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,7 +79,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="_win32_GetMessage_cpp">GetMessage</a>
 
 
 
@@ -86,7 +87,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="_win32_PeekMessage_cpp">PeekMessage</a>
  
 
  

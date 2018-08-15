@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -101,7 +102,7 @@ Uses a bitmap as the menu item. The <i>lpNewItem</i> parameter contains a handle
 </dl>
 </td>
 <td width="60%">
-Places a check mark next to the menu item. If the application provides check-mark bitmaps (see <a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>, this flag displays the check-mark bitmap next to the menu item. 
+Places a check mark next to the menu item. If the application provides check-mark bitmaps (see <a href="https://msdn.microsoft.com/7c0fb026-52ca-4ac6-bb94-1e72431b6056">SetMenuItemBitmaps</a>, this flag displays the check-mark bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -211,7 +212,7 @@ Specifies that the menu item is a text string; the <i>lpNewItem</i> parameter is
 </dl>
 </td>
 <td width="60%">
-Does not place a check mark next to the item (default). If the application supplies check-mark bitmaps (see <a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>), this flag displays the clear bitmap next to the menu item. 
+Does not place a check mark next to the item (default). If the application supplies check-mark bitmaps (see <a href="https://msdn.microsoft.com/7c0fb026-52ca-4ac6-bb94-1e72431b6056">SetMenuItemBitmaps</a>), this flag displays the clear bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -289,9 +290,9 @@ If the function succeeds, the return value is nonzero. If the function fails, th
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
+The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
-To get keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/en-us/library/ms646349(v=VS.85).aspx">WM_MENUCHAR</a> message. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Owner-Drawn Menus and the WM_MENUCHAR Message</a>.
+To get keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. For more information, see <a href="using_menus.htm">Owner-Drawn Menus and the WM_MENUCHAR Message</a>.
 
 The following groups of flags cannot be used together:
 
@@ -304,7 +305,7 @@ The following groups of flags cannot be used together:
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Adding Lines and Graphs to a Menu</a>. 
+For an example, see <a href="using_menus.htm">Adding Lines and Graphs to a Menu</a>. 
 
 <div class="code"></div>
 
@@ -319,35 +320,35 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647624(v=VS.85).aspx">CreateMenu</a>
+<a href="https://msdn.microsoft.com/dd7e59f6-7d31-46d3-9606-0f9346ff2979">CreateMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647629(v=VS.85).aspx">DeleteMenu</a>
+<a href="https://msdn.microsoft.com/0054bf62-cb70-4d6e-805d-58206fa2d297">DeleteMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647631(v=VS.85).aspx">DestroyMenu</a>
+<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a>
+<a href="https://msdn.microsoft.com/8ca7510a-e035-4ba2-98dd-57d777cae814">InsertMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647993(v=VS.85).aspx">ModifyMenu</a>
+<a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a>
 
 
 
@@ -355,11 +356,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647994(v=VS.85).aspx">RemoveMenu</a>
+<a href="https://msdn.microsoft.com/9557d6dd-44a2-4c26-b939-8ae88b48956a">RemoveMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>
+<a href="https://msdn.microsoft.com/7c0fb026-52ca-4ac6-bb94-1e72431b6056">SetMenuItemBitmaps</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -70,7 +71,7 @@ When reading or writing XML, a COM handler action is specified in the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
+<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
 
 
 
@@ -82,7 +83,7 @@ When reading or writing XML, a COM handler action is specified in the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

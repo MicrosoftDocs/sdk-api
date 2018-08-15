@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,16 +69,16 @@ Ordinal number that denotes the display adapter to query. D3DADAPTER_DEFAULT is 
 
 ### -param pMode [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172548(v=VS.85).aspx">D3DDISPLAYMODE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e83c03ee-2067-45c9-8fd8-8c4db5558df4">D3DDISPLAYMODE</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172548(v=VS.85).aspx">D3DDISPLAYMODE</a> structure, to be filled with information describing the current adapter's mode. 
+Pointer to a <a href="https://msdn.microsoft.com/e83c03ee-2067-45c9-8fd8-8c4db5558df4">D3DDISPLAYMODE</a> structure, to be filled with information describing the current adapter's mode. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. 
 
@@ -104,7 +105,7 @@ If Adapter is out of range or pMode is invalid, this method returns D3DERR_INVAL
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

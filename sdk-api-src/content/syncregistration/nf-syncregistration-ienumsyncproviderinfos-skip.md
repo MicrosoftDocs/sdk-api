@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -107,7 +108,7 @@ The end of the collection was reached before the specified number of items was s
 
 
 
-If the end of the collection is reached before the number of items to skip is reached, <b>S_FALSE</b> will be returned, and the enumerator will be placed at the end of the collection and subsequent calls to <b>Skip</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> with a count of 1 will return <b>S_FALSE</b>.
+If the end of the collection is reached before the number of items to skip is reached, <b>S_FALSE</b> will be returned, and the enumerator will be placed at the end of the collection and subsequent calls to <b>Skip</b> or <a href="https://msdn.microsoft.com/b56cacfd-9cfe-4f5a-a945-dca299e43497">Next</a> with a count of 1 will return <b>S_FALSE</b>.
 
 
 

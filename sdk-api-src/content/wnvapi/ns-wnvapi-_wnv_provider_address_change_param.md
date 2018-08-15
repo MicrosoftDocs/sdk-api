@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -75,9 +76,9 @@ The IP address object for the provider address, which is the matching IP address
 
 ### -field AddressState
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff568758">NL_DAD_STATE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/38d88074-efac-475c-b6f6-1c65f21ed4be">NL_DAD_STATE</a></b>
 
-A value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568758">NL_DAD_STATE</a> enumeration that represents the new DAD state. Duplicate address detection is applicable to both IPv4 and IPv6 addresses.
+A value of the <a href="https://msdn.microsoft.com/38d88074-efac-475c-b6f6-1c65f21ed4be">NL_DAD_STATE</a> enumeration that represents the new DAD state. Duplicate address detection is applicable to both IPv4 and IPv6 addresses.
 
 <table>
 <tr>

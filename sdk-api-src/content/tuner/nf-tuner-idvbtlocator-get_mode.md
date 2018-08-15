@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_Mode</b> method receives the transmission mode.
 
 #### - pmode [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568533">TransmissionMode</a> enumeration.
+Receives a member of the <a href="https://msdn.microsoft.com/590406e4-8c31-4a8e-b4e3-31160fa821ac">TransmissionMode</a> enumeration.
 
 
 ## -returns

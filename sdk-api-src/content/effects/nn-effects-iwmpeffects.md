@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: effects.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ Displays the property page of a visualization, if it exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/e2efb0cd-417f-4b96-a4d7-c02c41a6244d">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the visualization.

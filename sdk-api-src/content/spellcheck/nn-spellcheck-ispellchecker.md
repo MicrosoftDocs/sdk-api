@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -74,7 +75,7 @@ The <b>ISpellChecker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/d600a57e-7191-4a82-8004-026a04ef94ed">Add</a>
 </td>
 <td align="left" width="63%">
 Treats the provided word as though it were part of the original dictionary.
@@ -173,7 +174,7 @@ Retrieves spelling suggestions for the supplied text.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/ba3a520b-feea-4ea4-b285-f44a1e1fc518">Id</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ The <b>PeerCollabGetEventData</b> function obtains the data associated with a pe
 
 ### -param hPeerEvent [in]
 
-The peer collaboration network event handle obtained by a call to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
+The peer collaboration network event handle obtained by a call to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ### -param ppEventData [out]

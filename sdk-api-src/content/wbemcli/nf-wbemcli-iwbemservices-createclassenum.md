@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -67,7 +68,7 @@ req.product: Windows Address Book 5.0
 
 The 
 <b>IWbemServices::CreateClassEnum</b> method returns an enumerator for all classes that satisfy selection criteria. The caller must use the returned enumerator to retrieve the class definitions, calling 
-<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IEnumWbemClassObject::Release</a>.
+<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="_com_iunknown_release">IEnumWbemClassObject::Release</a>.
 <div class="alert"><b>Note</b>  It is not an error for the returned enumerator to have 0 (zero) elements.</div><div> </div>
 
 ## -parameters
@@ -114,8 +115,8 @@ This flag causes  a semisynchronous call. For more information, see
 #### WBEM_FLAG_FORWARD_ONLY
 
 This flag causes a forward-only enumerator to be returned. Typically, forward-only enumerators are  faster and use less memory than conventional enumerators, but they do not allow calls to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>.
+<a href="https://msdn.microsoft.com/4a708963-f677-4419-800d-02a01908e7cb">Clone</a> or 
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a>.
 
 
 
@@ -133,7 +134,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 ### -param ppEnum [out]
 
-Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the pointer when it is no longer required.
+Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="_com_iunknown_release">Release</a> on the pointer when it is no longer required.
 
 
 ## -returns

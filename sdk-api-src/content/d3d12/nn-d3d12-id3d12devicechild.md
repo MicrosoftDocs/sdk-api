@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The <b>ID3D12DeviceChild</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/FFF72E85-4382-420B-82C9-CE72B223F703">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the device that created this interface. 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -80,7 +81,7 @@ Retrieves the contents of the search box as an <a href="_search_ICondition">ICon
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/2bfb65d5-a27e-41f7-883e-2e1afe912586">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the contents of the search box as plain text.
@@ -98,7 +99,7 @@ The search box is shown here in an Windows Explorer window frame.
 
 
 
-<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="./images/searchbox.jpg"/>
+<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="images/searchbox.jpg"/>
 The frame that contains the search box might also be hosted in another window or in the common file dialog box.
 
 To access the search dialog, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.

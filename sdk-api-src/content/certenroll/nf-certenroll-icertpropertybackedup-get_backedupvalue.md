@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method or the <a href="https://msdn.microsoft.com/2033c947-661c-4a52-b24f-82fa71ba7868">InitializeFromCurrentTime</a> method to set the <b>BackedUpValue</b> property value.
+Call the <a href="https://msdn.microsoft.com/2ca941a6-898d-4955-b334-ffc15e10b330">Initialize</a> method or the <a href="https://msdn.microsoft.com/2033c947-661c-4a52-b24f-82fa71ba7868">InitializeFromCurrentTime</a> method to set the <b>BackedUpValue</b> property value.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -61,7 +62,7 @@ The <b>IKEEXT_CERTIFICATE_CRITERIA0</b> structure contains a set of criteria to 
 
 ### -field certData
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
 
 X509/ASN.1 encoded name of the root certificate. Should be empty when
    specifying Enterprise or trusted root store config.
@@ -69,7 +70,7 @@ X509/ASN.1 encoded name of the root certificate. Should be empty when
 
 ### -field certHash
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a></b>
 
   16-character hexadecimal string that represents the ID, thumbprint or HASH of the end certificate.
 
@@ -109,7 +110,7 @@ The <b>certData</b> member refers to the encoded name of the root certificate, w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
 
 
 

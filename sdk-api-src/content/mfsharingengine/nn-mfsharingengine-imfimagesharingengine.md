@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IMFImageSharingEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/27CAE784-2107-4380-97E4-AE0A7D69C64F">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets information about the image sharing device.
@@ -89,7 +90,7 @@ Sets the source stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/F394A740-8F86-4113-B6B8-57CC4127E9D0">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the image sharing engine.

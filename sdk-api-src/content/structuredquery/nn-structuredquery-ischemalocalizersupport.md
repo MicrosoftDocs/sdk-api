@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ISchemaLocalizerSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231334(v=VS.85).aspx">Localize</a>
+<a href="https://msdn.microsoft.com/670e69aa-f8ee-4c71-bc8b-b0f689601d62">Localize</a>
 </td>
 <td align="left" width="63%">
 Localizes keywords from an input string.

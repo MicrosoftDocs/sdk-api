@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>ITScriptableAudioFormat</b> interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 The 
 <a href="https://msdn.microsoft.com/3677b85c-15a4-4960-88ad-18855349fedd">ITFileTrack::get_AudioFormatForScripting</a> and 
@@ -63,7 +64,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITScriptableAudioFormat</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITScriptableAudioFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITScriptableAudioFormat</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITScriptableAudioFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,7 +110,7 @@ Gets the value for the <b>nBlockAlign</b> member in the <b>WAVEFORMATEX</b> stru
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 </td>
 </tr>

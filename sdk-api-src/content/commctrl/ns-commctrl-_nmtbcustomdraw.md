@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb760492(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code sent by a toolbar control. 
+Contains information specific to an <a href="https://msdn.microsoft.com/e83a85f4-7955-411d-9a08-29f5b30158c5">NM_CUSTOMDRAW</a> notification code sent by a toolbar control. 
 
 
 ## -struct-fields
@@ -60,10 +61,10 @@ Contains information specific to an <a href="https://msdn.microsoft.com/en-us/li
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> structure that contains general custom draw information. The 
+<a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a> structure that contains general custom draw information. The 
 					<b>uItemState</b> member of this structure can be modified so that a toolbar item will be drawn in the specified state without actually changing the item's state. 
 
 
@@ -71,7 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).asp
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBRUSH</a></b>
 
-HBRUSH that the control will use when drawing the background of marked or dithered items. This member is ignored if TBCDRF_NOMARK is returned from the <a href="https://msdn.microsoft.com/en-us/library/Bb760492(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code. 
+HBRUSH that the control will use when drawing the background of marked or dithered items. This member is ignored if TBCDRF_NOMARK is returned from the <a href="https://msdn.microsoft.com/e83a85f4-7955-411d-9a08-29f5b30158c5">NM_CUSTOMDRAW</a> notification code. 
 
 
 ### -field hbrLines
@@ -128,15 +129,15 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-<b>COLORREF</b> that represents the background color that the control will use when drawing text on hot tracked items. This member is ignored if TBCDRF_HILITEHOTTRACK is not returned from the <a href="https://msdn.microsoft.com/en-us/library/Bb760492(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code. 
+<b>COLORREF</b> that represents the background color that the control will use when drawing text on hot tracked items. This member is ignored if TBCDRF_HILITEHOTTRACK is not returned from the <a href="https://msdn.microsoft.com/e83a85f4-7955-411d-9a08-29f5b30158c5">NM_CUSTOMDRAW</a> notification code. 
 
 
 ### -field rcText
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that, on entry, contains the rectangle of the item's text. The 
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that, on entry, contains the rectangle of the item's text. The 
 					<b>right</b> and 
 					<b>bottom</b> members of this structure can be modified to change the width and height, respectively, of the text rectangle of the item. 
 
@@ -162,5 +163,5 @@ Type: <b>int</b>
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0</a> Specifies the distance between the toolbar button image and the text, in logical pixels, for toolbars that have <a href="Toolbar_Control_and_Button_Styles.htm">TBSTYLE_LIST</a> style set.
 
-Note that Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+Note that Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.
 

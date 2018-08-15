@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IEnumWiaItem::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface and sends back a pointer to it.
+The <b>IEnumWiaItem::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface and sends back a pointer to it.
 
 
 ## -parameters
@@ -62,9 +63,9 @@ The <b>IEnumWiaItem::Clone</b> method creates an additional instance of the <a h
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a>**</b>
 
-Pointer  to the <a href="https://msdn.microsoft.com/en-us/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface. Receives the address of the <b>IEnumWiaItem</b> interface instance that <b>IEnumWiaItem::Clone</b> creates.
+Pointer  to the <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface. Receives the address of the <b>IEnumWiaItem</b> interface instance that <b>IEnumWiaItem::Clone</b> creates.
 
 
 ## -returns

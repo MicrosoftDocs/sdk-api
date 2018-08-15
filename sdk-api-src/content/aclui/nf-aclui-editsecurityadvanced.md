@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: aclui.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -96,7 +97,7 @@ If the function fails, any other <b>HRESULT</b> value indicates an error. For a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="authorization_functions.htm">Access Control Editor Functions</a>
 
 
 

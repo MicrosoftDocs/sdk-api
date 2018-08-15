@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -101,8 +102,8 @@ After the callback function is registered, it is called after any attempt to fre
     <b>FALSE</b>.
 
 The application secures and unsecures a memory range by sending requests to a device driver, which uses the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556374">MmSecureVirtualMemory</a> and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a> 
+    <a href="http://go.microsoft.com/fwlink/p/?linkid=99148">MmSecureVirtualMemory</a> and 
+    <a href="http://go.microsoft.com/fwlink/p/?linkid=100741">MmUnsecureVirtualMemory</a> 
     functions to actually secure and unsecure the range. Operations on other types of secured or locked memory do not 
     trigger this callback.
 

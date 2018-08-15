@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773633(v=VS.85).aspx">TVM_GETTEXTCOLOR</a> message explicitly. 
+Retrieves the current text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/fe1aa2e8-fdf2-48d1-936b-6d6bc8e589f4">TVM_GETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760131(v=VS.85).aspx">TreeView_SetTextColor</a>
+<a href="https://msdn.microsoft.com/7aacaf9f-2bec-4f5e-84eb-0d51252f0247">TreeView_SetTextColor</a>
  
 
  

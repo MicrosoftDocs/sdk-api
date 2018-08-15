@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -89,7 +90,7 @@ An array of point counts for each poly.
 
 ### -field aptl
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structures, representing the points in logical units.
+An array of <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structures, representing the points in logical units.
 
 
 ## -see-also
@@ -109,11 +110,11 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56916
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a>
+<a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+<a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a>
  
 
  

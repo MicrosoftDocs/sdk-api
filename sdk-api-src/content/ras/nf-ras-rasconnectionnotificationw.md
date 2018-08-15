@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,12 +79,6 @@ A handle to the RAS connection that receives the notifications. This can be a ha
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a> function. If this parameter is <b>INVALID_HANDLE_VALUE</b>, notifications are received for all RAS connections on the local client.
 
 
-#### - hEvent [in]
-
-Specifies the handle of an event object. Use the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a> function to create an event object.
-
-
 #### - dwFlags [in]
 
 Specifies the RAS event that causes the system to signal the event object specified by the <i>hEvent</i> parameter. This parameter is a combination of the following values. 
@@ -139,6 +134,12 @@ If <i>hrasconn</i> is <b>INVALID_HANDLE_VALUE</b>, <i>hEvent</i> is signaled whe
  
 
 
+#### - hEvent [in]
+
+Specifies the handle of an event object. Use the 
+<a href="_win32_createevent">CreateEvent</a> function to create an event object.
+
+
 ## -returns
 
 
@@ -155,7 +156,7 @@ If the function fails, the return value is a non-zero error code from <a href="h
 
 
 To determine when the event object is signaled, use any of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">wait functions</a>.
+<a href="_win32_wait_functions">wait functions</a>.
 
 When the event is signaled, use other RAS functions, such as 
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>, to get more information about the RAS connection that was created or terminated.
@@ -168,7 +169,7 @@ When the event is signaled, use other RAS functions, such as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a>
+<a href="_win32_createevent">CreateEvent</a>
 
 
 

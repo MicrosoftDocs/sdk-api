@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 Retrieves the date and time value at a specified property into a caller's 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure. All times are stored 
+    <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure. All times are stored 
     and returned as Coordinated Universal Time (UTC).
 
 
@@ -77,9 +78,9 @@ Must be CGD_DEFAULT.
 
 ### -param pftDateTime [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
+Type: <b><a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>*</b>
 
-Specifies caller-allocated <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure. 
+Specifies caller-allocated <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure. 
 
 
 ## -returns
@@ -102,7 +103,7 @@ Returns one of the following values:
 </dl>
 </td>
 <td width="60%">
-<i>pftDateTime</i> contains a valid <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>. 
+<i>pftDateTime</i> contains a valid <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>. 
 
 </td>
 </tr>
@@ -114,7 +115,7 @@ Returns one of the following values:
 </td>
 <td width="60%">
 The property has been present in the past but its value has been removed. 
-					The <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> has been zero'ed. 
+					The <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> has been zero'ed. 
 
 </td>
 </tr>

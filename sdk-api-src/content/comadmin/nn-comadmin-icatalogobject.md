@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -57,7 +58,7 @@ The <a href="https://msdn.microsoft.com/47c9dcfd-81fc-495c-848a-8c2b655e8fce">IC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -100,7 +101,7 @@ Indicates whether the specified property can be read using <a href="https://msdn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a>
+<a href="https://msdn.microsoft.com/1937cd5a-742f-4248-a4c2-0b39a03eed20">Key</a>
 
 
 </td>
@@ -116,7 +117,7 @@ The key property of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/604b2d11-b204-4f78-8cf2-e13f594299b7">Name</a>
 
 
 </td>
@@ -148,7 +149,7 @@ Indicates whether all properties were successfully read from the catalog data st
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/eb4203c5-b51c-411c-9c2d-405b3d70bc80">Value</a>
 
 
 </td>

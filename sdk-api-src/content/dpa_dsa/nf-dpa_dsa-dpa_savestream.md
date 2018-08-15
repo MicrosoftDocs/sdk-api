@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,9 +70,9 @@ Receives a handle to a DPA.
 
 ### -param pfn [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b5910ac3-9066-49d8-8cb3-796de22428d3">PFNDPASTREAM</a></b>
 
-The callback function. See <a href="https://msdn.microsoft.com/en-us/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> for the callback function prototype. 
+The callback function. See <a href="https://msdn.microsoft.com/b5910ac3-9066-49d8-8cb3-796de22428d3">PFNDPASTREAM</a> for the callback function prototype. 
 
 
 ### -param pstream [in]

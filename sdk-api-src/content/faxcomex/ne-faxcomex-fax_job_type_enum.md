@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,7 +80,7 @@ The incoming job has been received, and is now in routing mode (modem is not use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687451(v=VS.85).aspx">IFaxJobStatus::get_JobType</a>
+<a href="https://msdn.microsoft.com/30e91faa-7682-411c-b57d-b4d2823f47b0">IFaxJobStatus::get_JobType</a>
  
 
  

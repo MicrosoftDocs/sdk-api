@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -61,7 +62,7 @@ The <b>WinHttpOpen</b> function initializes, for an application, the use of WinH
 
 ### -param pszAgentW [in, optional]
 
-A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">user agent</a> in the HTTP protocol.
+A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="glossary.htm">user agent</a> in the HTTP protocol.
 
 
 ### -param dwAccessType [in]

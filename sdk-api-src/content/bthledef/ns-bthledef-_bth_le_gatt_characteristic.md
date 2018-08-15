@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -105,12 +106,12 @@ The characteristic can be signed writable.
 
 ### -field IsNotifiable
 
-The characteristic can be updated by the device through Handle Value Notifications, and the new value will be returned through the callback function registered via <a href="https://msdn.microsoft.com/library/windows/hardware/hh450804">BluetoothGATTRegisterEvent</a>.
+The characteristic can be updated by the device through Handle Value Notifications, and the new value will be returned through the callback function registered via <a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>.
 
 
 ### -field IsIndicatable
 
-The characteristic can be updated by the device through Handle Value Indications, and the new value will be returned through the callback function registered via <a href="https://msdn.microsoft.com/library/windows/hardware/hh450804">BluetoothGATTRegisterEvent</a>.
+The characteristic can be updated by the device through Handle Value Indications, and the new value will be returned through the callback function registered via <a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>.
 
 
 ### -field HasExtendedProperties
@@ -123,19 +124,19 @@ The characteristic  has extended properties, which will be presented through a C
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450852">BTH_LE_UUID</a>
+<a href="https://msdn.microsoft.com/FA82A099-7924-44A1-A14C-7633B8656FB7">BTH_LE_UUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450796">BluetoothGATTGetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/8C89FCE9-8DCA-4A38-AF67-A46FDDCC9A60">BluetoothGATTGetCharacteristicValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450795">BluetoothGATTGetCharacteristics</a>
+<a href="https://msdn.microsoft.com/974270EE-6319-45E3-BAB8-3A57665591EA">BluetoothGATTGetCharacteristics</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450806">BluetoothGATTSetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/114C1FCD-95F8-4358-8178-C9B283CA7323">BluetoothGATTSetCharacteristicValue</a>
  
 
  

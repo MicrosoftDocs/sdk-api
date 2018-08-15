@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -61,7 +62,7 @@ Retrieves the color transformation matrix  associated with the  full-screen magn
 
 ### -param pEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or the identity matrix if no color effect has been set. 
 

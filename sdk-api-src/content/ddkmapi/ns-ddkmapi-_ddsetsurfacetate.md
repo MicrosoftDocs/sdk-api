@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -111,11 +112,11 @@ Indicates the field on which the state change should occur. A value of 0 indicat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551504">DD_DXAPI_SET_SURFACE_STATE</a>
+<a href="https://msdn.microsoft.com/8a792eee-d410-46c7-827e-62ad3360fead">DD_DXAPI_SET_SURFACE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

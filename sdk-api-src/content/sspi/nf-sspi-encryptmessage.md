@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-The <b>EncryptMessage (Digest)</b> function encrypts a message to provide <a href="https://msdn.microsoft.com/library/windows/hardware/mt627976">privacy</a>. <b>EncryptMessage (Digest)</b> allows the application to choose among <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithms</a> supported by the chosen mechanism. The <b>EncryptMessage (Digest)</b> function uses the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> that can be checked.
+The <b>EncryptMessage (Digest)</b> function encrypts a message to provide <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privacy</a>. <b>EncryptMessage (Digest)</b> allows the application to choose among <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithms</a> supported by the chosen mechanism. The <b>EncryptMessage (Digest)</b> function uses the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> that can be checked.
 
 This function is available as a SASL mechanism only.
 <div class="alert"><b>Note</b>  <b>EncryptMessage (Digest)</b> and <a href="https://msdn.microsoft.com/46d45f59-33fa-434a-b329-20b6257c9a19">DecryptMessage (Digest)</a> can be called at the same time from two different threads in a single <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security Support Provider Interface</a> (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.</div><div> </div>
@@ -64,7 +65,7 @@ This function is available as a SASL mechanism only.
 
 ### -param phContext [in]
 
-A handle to the security <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> to be used to encrypt the message.
+A handle to the security <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> to be used to encrypt the message.
 
 
 ### -param fQOP [in]
@@ -229,7 +230,7 @@ SECBUFFER_DATA
 
 </td>
 <td>
-Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> message to be encrypted.
+Contains the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> message to be encrypted.
 
 </td>
 </tr>
@@ -284,7 +285,7 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -58,7 +59,7 @@ The <b>IFaxFolders</b> interface defines a configuration object used by a fax cl
 
 
 
-A default implementation of <b>IFaxFolders</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684837(v=VS.85).aspx">FaxFolders</a> object.
+A default implementation of <b>IFaxFolders</b> is provided as the <a href="https://msdn.microsoft.com/283c75e3-e596-403c-b4ea-b62bf0c744f3">FaxFolders</a> object.
 
 
 

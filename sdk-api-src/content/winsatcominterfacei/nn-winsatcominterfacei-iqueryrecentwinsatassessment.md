@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -55,7 +56,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Retrieves details about the results of the most recent formal WinSAT assessment.
 
-To retrieve this interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function. Use __uuidof(CQueryWinSAT) as the class identifier and __uuidof(IQueryRecentWinSATAssessment) as the interface identifier.
+To retrieve this interface, call the <a href="_com_cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryWinSAT) as the class identifier and __uuidof(IQueryRecentWinSATAssessment) as the interface identifier.
 
 
 ## -see-also

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -56,7 +57,7 @@ Provides control of the presentation data that gets cached inside of an object. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>IOleCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922597">Cache</a>
+<a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">Cache</a>
 </td>
 <td align="left" width="63%">
 Specifies the format and other data to be cached inside an embedded object.

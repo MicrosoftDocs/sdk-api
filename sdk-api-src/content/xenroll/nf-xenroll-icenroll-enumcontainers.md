@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -58,7 +59,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>enumContainers</b> method retrieves the names of containers for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) specified by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property. This method was first defined in the <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a> interface.
+<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property. This method was first defined in the <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a> interface.
 
 
 ## -parameters
@@ -80,7 +81,7 @@ Specifies the ordinal position of the container whose name will be retrieved. Sp
 
 #### - pbstrContainerName [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> variable that receives the name of the container. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -101,7 +102,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The va
 
 
 If the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property value has not been set, the default value (usually Microsoft Base Cryptographic Provider) of <b>ProviderName</b> as set in the registry, is used.
+<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property value has not been set, the default value (usually Microsoft Base Cryptographic Provider) of <b>ProviderName</b> as set in the registry, is used.
 
 This method is disabled when  the Certificate Enrollment Control is executed as a scripted control.
 
@@ -159,7 +160,7 @@ while ( S_OK == pEnroll-&gt;enumContainers(nCon, &amp;bstrCon) )
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a>
+<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a>
  
 
  

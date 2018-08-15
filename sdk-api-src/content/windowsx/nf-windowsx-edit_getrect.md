@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761596(v=VS.85).aspx">EM_GETRECT</a> message explicitly.
+Gets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/eef0150d-9b7a-4247-acbf-6fea2efd1dc3">EM_GETRECT</a> message explicitly.
 
 
 ## -parameters
@@ -68,16 +69,16 @@ A handle to the control.
 
 ### -param lprc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that receives the formatting rectangle. 
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the formatting rectangle. 
 
 
 ## -remarks
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761596(v=VS.85).aspx">EM_GETRECT</a>.
+For more information, see <a href="https://msdn.microsoft.com/eef0150d-9b7a-4247-acbf-6fea2efd1dc3">EM_GETRECT</a>.
 
 
 

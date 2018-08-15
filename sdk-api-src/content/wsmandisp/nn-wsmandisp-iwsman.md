@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -57,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Provides methods and properties used to create a session, represented by a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object. Any Windows Remote Management operations require creation of a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> that connects to a remote computer, <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">base management controller</a> (BMC), or the local computer. Operations include getting, writing, or enumerating data, or invoking methods.
+Provides methods and properties used to create a session, represented by a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object. Any Windows Remote Management operations require creation of a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> that connects to a remote computer, <a href="windows_remote_management_glossary.htm">base management controller</a> (BMC), or the local computer. Operations include getting, writing, or enumerating data, or invoking methods.
 
 
 ## -inheritance

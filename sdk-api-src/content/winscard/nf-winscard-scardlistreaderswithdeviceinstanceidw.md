@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -66,7 +67,7 @@ Handle that identifies the resource manager context for the query. You can set t
 
 ### -param szDeviceInstanceId [in]
 
-Device instance ID of the reader. You can get this value by calling the <a href="https://msdn.microsoft.com/306F1EAF-35A7-4449-802F-709667764737">SCardGetReaderDeviceInstanceId</a> function with the reader name or by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551106">SetupDiGetDeviceInstanceId</a> function from the DDK.
+Device instance ID of the reader. You can get this value by calling the <a href="https://msdn.microsoft.com/306F1EAF-35A7-4449-802F-709667764737">SCardGetReaderDeviceInstanceId</a> function with the reader name or by calling the <a href="https://msdn.microsoft.com/43ad298d-2ff4-445a-aa23-1319d5f990c8">SetupDiGetDeviceInstanceId</a> function from the DDK.
 
 
 ### -param mszReaders [out, optional]
@@ -109,7 +110,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761317(v=VS.85).aspx">LB_GETTOPINDEX</a> message explicitly.
+Gets the index of the first visible item in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/c051cb34-c358-4696-80b0-28c627a0a862">LB_GETTOPINDEX</a> message explicitly.
 
 
 ## -parameters

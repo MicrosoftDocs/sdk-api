@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -87,7 +88,7 @@ This function returns UINT.
 
 The 
 <b>MsiDoAction</b> function executes the action that corresponds to the name supplied. If the name is not recognized by the installer as a built-in action or as a custom action in the 
-<a href="https://msdn.microsoft.com/0f47abc1-4e06-4ddc-9ea1-9afb9f27d499">CustomAction table</a>, the name is passed to the user-interface handler object, which can invoke a function or a dialog box. If a null action name is supplied, the installer uses the upper-case value of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt270124">ACTION</a> property as the action to perform. If no property value is defined, the default action is performed, defined as "INSTALL".
+<a href="https://msdn.microsoft.com/0f47abc1-4e06-4ddc-9ea1-9afb9f27d499">CustomAction table</a>, the name is passed to the user-interface handler object, which can invoke a function or a dialog box. If a null action name is supplied, the installer uses the upper-case value of the <a href="https://msdn.microsoft.com/f2c436b6-ebd9-4ac4-8609-f54129023ca7">ACTION</a> property as the action to perform. If no property value is defined, the default action is performed, defined as "INSTALL".
 
 Actions that update the system, such as the 
 <a href="https://msdn.microsoft.com/187ad82f-13f5-4ea3-913c-2ae7561a6ee6">InstallFiles</a> and 
@@ -108,7 +109,7 @@ Actions that update the system, such as the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
  
 
  

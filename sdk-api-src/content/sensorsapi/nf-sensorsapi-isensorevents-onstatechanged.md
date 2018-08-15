@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -67,7 +68,7 @@ Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0c
 ### -param state [in]
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545708">SensorState</a> containing the new state.
+<a href="https://msdn.microsoft.com/4cf993ba-d767-4ef8-94a9-e819cc210360">SensorState</a> containing the new state.
 
 
 ## -returns

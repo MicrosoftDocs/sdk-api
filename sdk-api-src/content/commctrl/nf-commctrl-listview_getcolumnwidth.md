@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774915(v=VS.85).aspx">LVM_GETCOLUMNWIDTH</a> message explicitly. 
+Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/06e8ec36-3bc5-4516-ac29-17c36fb6d962">LVM_GETCOLUMNWIDTH</a> message explicitly. 
 
 
 ## -parameters

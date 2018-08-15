@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -206,15 +207,15 @@ Reserved. Must be null.
 
 
 
-#### - (pTopCmds)
-
-An array of <a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64cc12">CMD_ENTRY</a> structures that contain helper commands.
-					
-
-
 #### - (pCmdGroups)
 
 An array of <a href="https://msdn.microsoft.com/dc0d6449-f635-417c-8363-51e61c417051">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
+					
+
+
+#### - (pTopCmds)
+
+An array of <a href="https://msdn.microsoft.com/299962c8-8f93-4b22-a232-8230eb64cc12">CMD_ENTRY</a> structures that contain helper commands.
 					
 
 

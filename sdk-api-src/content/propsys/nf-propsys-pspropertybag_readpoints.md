@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves the property coordinates stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure of a specified property bag.
+Retrieves the property coordinates stored in a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure of a specified property bag.
 
 
 ## -parameters
@@ -75,9 +76,9 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a>*</b>
 
-When this function returns successfully, contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure that contains the property coordinates.
+When this function returns successfully, contains a pointer to a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure that contains the property coordinates.
 
 
 ## -returns

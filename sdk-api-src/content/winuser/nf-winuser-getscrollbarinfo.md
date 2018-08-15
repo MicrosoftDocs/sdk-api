@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: Service Pack 6
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -72,7 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to a window associated with the scroll bar whose information is to be retrieved. If the 
 					<i>idObject</i> parameter is OBJID_CLIENT, 
 					<i>hwnd</i> is a handle to a scroll bar control. Otherwise, 
-					<i>hwnd</i> is a handle to a window created with <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VSCROLL</a> and/or <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_HSCROLL</a> style. 
+					<i>hwnd</i> is a handle to a window created with <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_VSCROLL</a> and/or <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_HSCROLL</a> style. 
 
 
 ### -param idObject [in]
@@ -127,7 +128,7 @@ The vertical scroll bar of the
 
 Type: <b>PSCROLLBARINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787535(v=VS.85).aspx">SCROLLBARINFO</a> structure to receive the information. Before calling <b>GetScrollBarInfo</b>, set the 
+Pointer to a <a href="https://msdn.microsoft.com/ae432826-2515-4cab-bb83-7d2894811ab2">SCROLLBARINFO</a> structure to receive the information. Before calling <b>GetScrollBarInfo</b>, set the 
 					<b>cbSize</b> member to 
 					<b>sizeof</b>(<b>SCROLLBARINFO</b>). 
 
@@ -149,7 +150,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787545(v=VS.85).aspx">SBM_GETSCROLLBARINFO</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollBarInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETSCROLLBARINFO</b> message, the <b>GetScrollBarInfo</b> function fails.
+If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/db6f704f-99ee-448c-ae7a-dd5a23399fb6">SBM_GETSCROLLBARINFO</a> message to the window to obtain scroll bar information.  This allows <b>GetScrollBarInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_GETSCROLLBARINFO</b> message, the <b>GetScrollBarInfo</b> function fails.
 
 
 
@@ -160,7 +161,7 @@ If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is no
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787535(v=VS.85).aspx">SCROLLBARINFO</a>
+<a href="https://msdn.microsoft.com/ae432826-2515-4cab-bb83-7d2894811ab2">SCROLLBARINFO</a>
  
 
  

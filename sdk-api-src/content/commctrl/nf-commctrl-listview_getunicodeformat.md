@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761089(v=VS.85).aspx">LVM_GETUNICODEFORMAT</a> message explicitly. 
+Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/b0598b60-4d0e-4c68-b63a-e614c6268129">LVM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775124(v=VS.85).aspx">ListView_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/4bf954c9-af69-41f8-beb7-0d28dabd4260">ListView_SetUnicodeFormat</a>
  
 
  

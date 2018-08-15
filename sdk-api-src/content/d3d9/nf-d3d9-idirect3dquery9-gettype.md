@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,9 +66,9 @@ Gets the query type.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172594(v=VS.85).aspx">D3DQUERYTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/575c4e71-3cab-4123-a2a5-d23b53e87111">D3DQUERYTYPE</a></b>
 
-Returns the query type. See <a href="https://msdn.microsoft.com/en-us/library/Bb172594(v=VS.85).aspx">D3DQUERYTYPE</a>.
+Returns the query type. See <a href="https://msdn.microsoft.com/575c4e71-3cab-4123-a2a5-d23b53e87111">D3DQUERYTYPE</a>.
 
 
 
@@ -77,7 +78,7 @@ Returns the query type. See <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205872(v=VS.85).aspx">IDirect3DQuery9</a>
+<a href="https://msdn.microsoft.com/7f25d64e-ece6-4544-ada0-5cc3d34b88e6">IDirect3DQuery9</a>
  
 
  

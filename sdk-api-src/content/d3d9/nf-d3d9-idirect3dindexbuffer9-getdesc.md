@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,16 +62,16 @@ Retrieves a description of the index buffer resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172563(v=VS.85).aspx">D3DINDEXBUFFER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5d45213e-b3c0-4eb7-a4f9-8d8730eb3899">D3DINDEXBUFFER_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172563(v=VS.85).aspx">D3DINDEXBUFFER_DESC</a> structure, describing the returned index buffer. 
+Pointer to a <a href="https://msdn.microsoft.com/5d45213e-b3c0-4eb7-a4f9-8d8730eb3899">D3DINDEXBUFFER_DESC</a> structure, describing the returned index buffer. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the argument is invalid.
 
@@ -82,11 +83,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>
+<a href="https://msdn.microsoft.com/df1b7898-6c6b-410b-8ff9-e56625584fdc">IDirect3DIndexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/baa60cd1-a1f0-4dbe-b934-aeb1a5c6b784">Index Buffers (Direct3D 9)</a>
  
 
  

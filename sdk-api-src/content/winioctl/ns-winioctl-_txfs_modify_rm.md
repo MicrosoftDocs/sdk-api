@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -278,8 +279,8 @@ This flag is only valid for default RMs, not secondary RMs. If this flag is set,
 </td>
 <td width="60%">
 Indicates that the RM is to prefer transaction 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a> over system 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a>. This flag is mutually exclusive with 
+        <a href="glossary.htm">consistency</a> over system 
+        <a href="glossary.htm">availability</a>. This flag is mutually exclusive with 
         <b>TXFS_RM_FLAG_PREFER_AVAILABILITY</b> and is not supported by the default RM on the 
         system volume.
 
@@ -293,8 +294,8 @@ Indicates that the RM is to prefer transaction
 </td>
 <td width="60%">
 Indicates that the RM is to prefer system 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">availability</a> over transaction 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365003(v=VS.85).aspx">consistency</a>. This flag is mutually exclusive with 
+        <a href="glossary.htm">availability</a> over transaction 
+        <a href="glossary.htm">consistency</a>. This flag is mutually exclusive with 
         <b>TXFS_RM_FLAG_PREFER_CONSISTENCY</b> and is forced by the default RM on the system 
         volume.
 

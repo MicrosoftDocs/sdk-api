@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Retrieves a pointer to an object that provides support for a control pattern on 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451321">GetPropertyValue</a>
+<a href="https://msdn.microsoft.com/029ea063-009d-4b54-978a-4183454b2d66">GetPropertyValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property supported by the UI Automation provider.

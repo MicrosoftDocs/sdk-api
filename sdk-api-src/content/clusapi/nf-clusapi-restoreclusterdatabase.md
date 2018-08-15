@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -120,13 +121,13 @@ If the operation fails, the function returns a
 
 
 If the restore operation is successful, the restoring node forms a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> according to the configuration data in the 
+     <a href="c_gly.htm">cluster</a> according to the configuration data in the 
      restored cluster database. As other nodes join the cluster, they update their cluster databases from the database 
      on the restoring node.
 
-Note that <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster disks</a> other than the quorum 
+Note that <a href="c_gly.htm">cluster disks</a> other than the quorum 
      resource that have added or changed since the backup was made will not be recognized by the restored cluster 
-     database and will remain <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a> even if the restore 
+     database and will remain <a href="o_gly.htm">offline</a> even if the restore 
      operation is successful. New <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> must be created for these 
      disks (see 
     <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Creating a Physical Disk Resource</a>).

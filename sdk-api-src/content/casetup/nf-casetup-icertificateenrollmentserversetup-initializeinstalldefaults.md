@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -163,7 +164,7 @@ Sets the ENUM_CESSETUPPROP_URL property is to "https://<i>computerDNSname</i>/<i
 
 </li>
 </ul>
-You must call the <b>InitializeInstallDefaults</b> method before calling any method other than <a href="https://msdn.microsoft.com/library/windows/hardware/mt593237">UnInstall</a>. Call the <a href="https://msdn.microsoft.com/35578035-1D09-48AD-B6F5-7314C989B519">Install</a> method to install the configured service. Call <b>UnInstall</b> on a new <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object to remove the service.
+You must call the <b>InitializeInstallDefaults</b> method before calling any method other than <a href="https://msdn.microsoft.com/5C979627-7544-4466-9F92-224D48904DD3">UnInstall</a>. Call the <a href="https://msdn.microsoft.com/35578035-1D09-48AD-B6F5-7314C989B519">Install</a> method to install the configured service. Call <b>UnInstall</b> on a new <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object to remove the service.
 
 
 

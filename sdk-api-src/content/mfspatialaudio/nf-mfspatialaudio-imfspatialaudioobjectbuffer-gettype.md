@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the type of the spatial audio object represented by the buffer. If <a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
+Gets the type of the spatial audio object represented by the buffer. If <a href="https://msdn.microsoft.com/3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
 
 
 ## -parameters

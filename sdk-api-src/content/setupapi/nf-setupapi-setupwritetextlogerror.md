@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ The <b>SetupWriteTextLogError</b> function writes information about a SetupAPI-s
 
 ### -param LogToken [in]
 
-A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a>.
+A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
 
 
 ### -param Category [in]
@@ -117,7 +118,7 @@ None
 
 
 
-If an installation application has a SetupAPI-specific error code or a Win32 error code that is associated with an installation error, the application can call <b>SetupWriteTextLogError</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552218">SetupWriteTextLog</a> to write two entries into a text log. The first entry will be the same as that written by <b>SetupWriteTextLog</b> and the second entry will log the error code and a user-friendly description of the error.
+If an installation application has a SetupAPI-specific error code or a Win32 error code that is associated with an installation error, the application can call <b>SetupWriteTextLogError</b> instead of <a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a> to write two entries into a text log. The first entry will be the same as that written by <b>SetupWriteTextLog</b> and the second entry will log the error code and a user-friendly description of the error.
 
 The log token, event category, and flags that a caller supplies affect the operation of <b>SetupWriteTextLogError</b> is the same manner as that described for <b>SetupWriteTextLog</b>.
 
@@ -163,11 +164,11 @@ For more information about using log tokens, see <a href="devinst.setting_and_ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a>
+<a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552218">SetupWriteTextLog</a>
+<a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -145,7 +146,7 @@ Cancel individual contacts by setting POINTER_FLAG_CANCELED with POINTER_FLAG_UP
 
 When POINTER_FLAG_UP is set, ptPixelLocation of <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a> should be the same as the value of the previous touch injection frame with POINTER_FLAG_UPDATE. Otherwise, the injection fails with ERROR_INVALID_PARAMETER and all active injection contacts are cancelled. The system modifies the ptPixelLocation of the <a href="https://msdn.microsoft.com/3bdc38da-227c-4be1-bf0b-99704b8a0111">WM_POINTERUP</a> event as it cancels the injection. 
 
-The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
+The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
 
 
 
@@ -168,7 +169,7 @@ When neither dwTime or PerformanceCount values are specified, the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/c1533555-9094-0030-f025-6f47e9002e1a">Functions</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -149,7 +150,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-The values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566974">STORAGE_DEVICE_NUMBER</a> structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts. 
+The values in the <a href="https://msdn.microsoft.com/e169f081-55de-4d6a-832b-bcc66c2b67e3">STORAGE_DEVICE_NUMBER</a> structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts. 
 
 
 
@@ -163,7 +164,7 @@ The values in the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566974">STORAGE_DEVICE_NUMBER</a>
+<a href="https://msdn.microsoft.com/e169f081-55de-4d6a-832b-bcc66c2b67e3">STORAGE_DEVICE_NUMBER</a>
  
 
  

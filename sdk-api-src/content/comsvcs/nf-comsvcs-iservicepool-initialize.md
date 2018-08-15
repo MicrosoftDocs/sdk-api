@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP4, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -93,7 +94,7 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> has already been called.
+<a href="https://msdn.microsoft.com/93e88990-1737-4db4-aa37-0fe19a7ca0f3">Initialize</a> has already been called.
 
 </td>
 </tr>

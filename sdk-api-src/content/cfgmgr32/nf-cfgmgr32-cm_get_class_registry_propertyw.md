@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -90,7 +91,7 @@ Represents a REG_MULTI_SZ-typed list of strings, where each string contains the 
 
 #### CM_CRP_SECURITY
 
-Represents a value of type REG_BINARY that contains a variable-length, self-relative, <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+Represents a value of type REG_BINARY that contains a variable-length, self-relative, <a href="https://msdn.microsoft.com/0af0685c-d3a3-4c76-8fca-fb38f60411bf">SECURITY_DESCRIPTOR</a> structure.
 
 
 
@@ -102,7 +103,7 @@ Represents a string of type REG_SZ that contains a security descriptor in the <a
 
 #### CM_CRP_DEVTYPE
 
-Represents a value of type REG_DWORD that indicates the device type for the class. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. 
+Represents a value of type REG_DWORD that indicates the device type for the class. For more information, see <a href="https://msdn.microsoft.com/32e179f9-ab11-4360-b2fd-4276c6b6b3a0">Specifying Device Types</a>. 
 
 
 
@@ -114,12 +115,12 @@ Represents a value of type REG_DWORD that indicates whether users can obtain exc
 
 #### CM_CRP_CHARACTERISTICS
 
-Represents a value of type DWORD that indicates the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> routine.
+Represents a value of type DWORD that indicates the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a> routine.
 
 
 ### -param pulRegDataType [out, optional]
 
-A pointer to a variable of type ULONG that receives the REG_<i>Xxx</i> constant that represents the data type of the requested property. The REG_<i>Xxx</i> constants are defined in <i>Winnt.h</i> and are described in the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a> structure. This parameter is optional and can be set to <b>NULL</b>. 
+A pointer to a variable of type ULONG that receives the REG_<i>Xxx</i> constant that represents the data type of the requested property. The REG_<i>Xxx</i> constants are defined in <i>Winnt.h</i> and are described in the <b>Type</b> member of the <a href="https://msdn.microsoft.com/b3b14c21-3613-4f84-9e7d-368c4cc3fa9d">KEY_VALUE_BASIC_INFORMATION</a> structure. This parameter is optional and can be set to <b>NULL</b>. 
 
 
 ### -param Buffer [out]
@@ -165,19 +166,19 @@ To determine the size, in bytes, of a property before attempting to retrieve the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539833">CM_Set_Class_Registry_Property</a>
+<a href="https://msdn.microsoft.com/65e19d09-4a53-439b-9678-f907caf0db5c">CM_Set_Class_Registry_Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/b3b14c21-3613-4f84-9e7d-368c4cc3fa9d">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551097">SetupDiGetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552135">SetupDiSetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/78457461-11ef-44ec-aa60-1adf4a48db8c">SetupDiSetClassRegistryProperty</a>
  
 
  

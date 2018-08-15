@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -64,15 +65,15 @@ Enumerates the possible exit states of a
 ### -field ResourceExitStateContinue
 
 The resource has not been terminated. Worker threads may continue 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> and 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> operations for the resource.
+       <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> and 
+       <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> operations for the resource.
 
 
 ### -field ResourceExitStateTerminate
 
 The resource has been terminated. Callers should end 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> or 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> operations and immediately terminate all worker 
+       <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> or 
+       <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> operations and immediately terminate all worker 
        threads assigned to the resource.
 
 

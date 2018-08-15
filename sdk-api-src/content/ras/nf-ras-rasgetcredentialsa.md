@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,11 +77,6 @@ TBD
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 
-#### - lpszEntry [in]
-
-Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
-
-
 #### - lpCredentials [in, out]
 
 Pointer to the 
@@ -90,6 +86,11 @@ Pointer to the
 
 
 On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a>), and set the <b>dwMask</b> member to indicate the credential information to retrieve. When the function returns, <b>dwMask</b> indicates the members that were successfully retrieved.
+
+
+#### - lpszEntry [in]
+
+Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
 
 
 ## -returns

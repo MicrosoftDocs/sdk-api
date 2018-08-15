@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -240,10 +241,10 @@ x
 
 The following illustration represents the recognition guide structure for five columns and three rows of boxes.
 
-<img alt="Illustrration of recognition guide structure" border="" src="./images/3551c7eb-7398-4724-9de7-191818f35443.gif"/>
+<img alt="Illustrration of recognition guide structure" border="" src="images/3551c7eb-7398-4724-9de7-191818f35443.gif"/>
 The following illustration represents a single box from the previous illustration.
 
-<img alt="Illustration of single recognition guide box" border="" src="./images/a7106d81-4314-44ec-905d-1bb3ba7711b7.gif"/>
+<img alt="Illustration of single recognition guide box" border="" src="images/a7106d81-4314-44ec-905d-1bb3ba7711b7.gif"/>
 
 
 

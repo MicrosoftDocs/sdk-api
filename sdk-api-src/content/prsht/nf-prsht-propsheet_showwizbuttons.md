@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774630(v=VS.85).aspx">PSM_SHOWWIZBUTTONS</a> message explicitly.
+Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/669c4e51-cac1-40e1-8f23-afae0e41fc9b">PSM_SHOWWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters

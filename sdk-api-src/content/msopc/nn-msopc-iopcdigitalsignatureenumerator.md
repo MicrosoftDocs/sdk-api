@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IOpcDigitalSignatureEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/f7a544b6-6c2d-40ce-9148-63780cbbf44f">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the current <b>IOpcDigitalSignatureEnumerator</b> interface pointer and all its descendants.

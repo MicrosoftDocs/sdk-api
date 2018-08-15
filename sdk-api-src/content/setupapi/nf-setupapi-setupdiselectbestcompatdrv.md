@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiSelectBestCompatDrv</b> function is the default handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543719">DIF_SELECTBESTCOMPATDRV</a> installation request.
+The <b>SetupDiSelectBestCompatDrv</b> function is the default handler for the <a href="https://msdn.microsoft.com/aa10f39f-718b-4160-9cfa-668fb0349156">DIF_SELECTBESTCOMPATDRV</a> installation request.
 
 
 ## -parameters
@@ -66,7 +67,7 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. <b>SetupDiSelectBestCompatDrv</b> selects the best driver for a device information element from the compatible driver list for the specified device. 
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. <b>SetupDiSelectBestCompatDrv</b> selects the best driver for a device information element from the compatible driver list for the specified device. 
 
 
 ## -returns
@@ -90,7 +91,7 @@ If the caller of <b>SetupDiSelectBestCompatDrv</b> is a member of the Administra
 
 For information about how the best driver is selected, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
-To get the selected driver for a device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552013">SetupDiGetSelectedDriver</a>. 
+To get the selected driver for a device, call <a href="https://msdn.microsoft.com/dd3d9736-755c-497c-a523-18ca66557ae7">SetupDiGetSelectedDriver</a>. 
 
 
 
@@ -100,11 +101,11 @@ To get the selected driver for a device, call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543719">DIF_SELECTBESTCOMPATDRV</a>
+<a href="https://msdn.microsoft.com/aa10f39f-718b-4160-9cfa-668fb0349156">DIF_SELECTBESTCOMPATDRV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -96,7 +97,7 @@ The callback function should return <b>TRUE</b> to continue the print job or <b>
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel the print job. If it does not cancel the job, it must yield to Print Manager by calling the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> function.
+If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel the print job. If it does not cancel the job, it must yield to Print Manager by calling the <a href="_win32_peekmessage_cpp">PeekMessage</a> or <a href="_win32_getmessage_cpp">GetMessage</a> function.
 
 
 
@@ -106,11 +107,11 @@ If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="_win32_getmessage_cpp">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="_win32_peekmessage_cpp">PeekMessage</a>
 
 
 
@@ -118,7 +119,7 @@ If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
 
 
 

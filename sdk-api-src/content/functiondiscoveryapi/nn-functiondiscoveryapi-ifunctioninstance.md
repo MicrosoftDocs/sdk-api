@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -82,7 +83,7 @@ Gets the category and subcategory strings for the function instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d">GetID</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier string for the function instance.

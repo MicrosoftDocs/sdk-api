@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: usbuser.h
 req.include-header: Usbuser.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,12 +67,12 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_GET_CONTROLLER_DRIVER_KEY"></a><a id="usbuser_get_controller_driver_key"></a>USBUSER_GET_CONTROLLER_DRIVER_KEY</dt>
 <dd>
-Reports the host controller driver key in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540168">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
+Reports the host controller driver key in a <a href="https://msdn.microsoft.com/d388332c-2f7c-410f-88f4-d0e56fed7a99">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_CONTROLLER_INFO_0"></a><a id="usbuser_get_controller_info_0"></a>USBUSER_GET_CONTROLLER_INFO_0</dt>
 <dd>
-Retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a> structure that describes the host controller. This request is always enabled.
+Retrieves a <a href="https://msdn.microsoft.com/fcd88eb4-4fba-445a-b266-d89db8db1a55">USB_CONTROLLER_INFO_0</a> structure that describes the host controller. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_ROOTPORT_STATUS"></a><a id="usbuser_get_rootport_status"></a>USBUSER_GET_ROOTPORT_STATUS</dt>
@@ -81,7 +82,7 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_GET_ROOTHUB_SYMBOLIC_NAME"></a><a id="usbuser_get_roothub_symbolic_name"></a>USBUSER_GET_ROOTHUB_SYMBOLIC_NAME</dt>
 <dd>
-Reports the root hub symbolic name in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540168">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
+Reports the root hub symbolic name in a <a href="https://msdn.microsoft.com/d388332c-2f7c-410f-88f4-d0e56fed7a99">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_INVALID_REQUEST"></a><a id="usbuser_invalid_request"></a>USBUSER_INVALID_REQUEST</dt>
@@ -131,22 +132,22 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_PASS_THRU"></a><a id="usbuser_pass_thru"></a>USBUSER_PASS_THRU</dt>
 <dd>
-Sends a vendor specific command that is defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540114">USB_PASS_THRU_PARAMETERS</a> structure to the host controller miniport driver. This request is always enabled.
+Sends a vendor specific command that is defined by the <a href="https://msdn.microsoft.com/04a29463-af7b-44a4-aac1-20f386c7dd20">USB_PASS_THRU_PARAMETERS</a> structure to the host controller miniport driver. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_BANDWIDTH_INFORMATION"></a><a id="usbuser_get_bandwidth_information"></a>USBUSER_GET_BANDWIDTH_INFORMATION</dt>
 <dd>
-Retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539195">USB_BANDWIDTH_INFO</a> structure that contains information about the allocated bandwidth. This request is always enabled.
+Retrieves a <a href="https://msdn.microsoft.com/33983bed-9794-4deb-8d30-1089eee9eb9c">USB_BANDWIDTH_INFO</a> structure that contains information about the allocated bandwidth. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_POWER_STATE_MAP"></a><a id="usbuser_get_power_state_map"></a>USBUSER_GET_POWER_STATE_MAP</dt>
 <dd>
-Retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540123">USB_POWER_INFO</a> structure that contains information about the power state of the host controller and root hubs. This request is always enabled.
+Retrieves a <a href="https://msdn.microsoft.com/b4f35d7e-b0e3-44d9-8e41-1752cb0af5ef">USB_POWER_INFO</a> structure that contains information about the power state of the host controller and root hubs. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_BUS_STATISTICS_0"></a><a id="usbuser_get_bus_statistics_0"></a>USBUSER_GET_BUS_STATISTICS_0</dt>
 <dd>
-Retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539230">USB_BUS_STATISTICS_0</a> structure that contains bus statistics. This request is always enabled.
+Retrieves a <a href="https://msdn.microsoft.com/d9673718-c39c-4f26-8d59-553366b8bd0a">USB_BUS_STATISTICS_0</a> structure that contains bus statistics. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_BUS_STATISTICS_0_AND_RESET"></a><a id="usbuser_get_bus_statistics_0_and_reset"></a>USBUSER_GET_BUS_STATISTICS_0_AND_RESET</dt>
@@ -156,7 +157,7 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_GET_USB_DRIVER_INFORMATION"></a><a id="usbuser_get_usb_driver_information"></a>USBUSER_GET_USB_DRIVER_INFORMATION</dt>
 <dd>
-Retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539315">USB_DRIVER_VERSION_PARAMETERS</a> structure that indicates the version of the driver, USB stack, and associated interfaces. This request is always enabled.
+Retrieves a <a href="https://msdn.microsoft.com/0d90e857-c3bb-484d-8895-1a29fdf656b1">USB_DRIVER_VERSION_PARAMETERS</a> structure that indicates the version of the driver, USB stack, and associated interfaces. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_USB2_HW_VERSION"></a><a id="usbuser_get_usb2_hw_version"></a>USBUSER_GET_USB2_HW_VERSION</dt>
@@ -173,17 +174,17 @@ Do not use this request.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user request header structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a>) that defines the request. Following the header structure is a structure that holds the parameters of the request. For more information about the parameter structures that correspond to each request, see the description of each request.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user request header structure (<a href="https://msdn.microsoft.com/f5f1e136-f603-4f9a-8ebb-8f6ad847e04d">USBUSER_REQUEST_HEADER</a>) that defines the request. Following the header structure is a structure that holds the parameters of the request. For more information about the parameter structures that correspond to each request, see the description of each request.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a> structure.
+The size of a <a href="https://msdn.microsoft.com/f5f1e136-f603-4f9a-8ebb-8f6ad847e04d">USBUSER_REQUEST_HEADER</a> structure.
 
 
 ### -output-buffer
 
-A parameter structure immediately follows the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a> structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For some user requests, the parameter structure will contain output data when the request completes.
+A parameter structure immediately follows the <a href="https://msdn.microsoft.com/f5f1e136-f603-4f9a-8ebb-8f6ad847e04d">USBUSER_REQUEST_HEADER</a> structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For some user requests, the parameter structure will contain output data when the request completes.
 
 
 ### -output-buffer-length
@@ -219,31 +220,31 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a>
+<a href="https://msdn.microsoft.com/f5f1e136-f603-4f9a-8ebb-8f6ad847e04d">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539195">USB_BANDWIDTH_INFO</a>
+<a href="https://msdn.microsoft.com/33983bed-9794-4deb-8d30-1089eee9eb9c">USB_BANDWIDTH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
+<a href="https://msdn.microsoft.com/fcd88eb4-4fba-445a-b266-d89db8db1a55">USB_CONTROLLER_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539315">USB_DRIVER_VERSION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/0d90e857-c3bb-484d-8895-1a29fdf656b1">USB_DRIVER_VERSION_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540114">USB_PASS_THRU_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/04a29463-af7b-44a4-aac1-20f386c7dd20">USB_PASS_THRU_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540123">USB_POWER_INFO</a>
+<a href="https://msdn.microsoft.com/b4f35d7e-b0e3-44d9-8e41-1752cb0af5ef">USB_POWER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540168">USB_UNICODE_NAME</a>
+<a href="https://msdn.microsoft.com/d388332c-2f7c-410f-88f4-d0e56fed7a99">USB_UNICODE_NAME</a>
  
 
  

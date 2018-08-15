@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -111,7 +112,7 @@ Raw input comes from the mouse.
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> plus possible extra input reports in the <a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a> variable length array. 
+The size, in bytes, of the entire input packet of data. This includes <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> plus possible extra input reports in the <a href="https://msdn.microsoft.com/021d4b1a-69a9-482f-a796-21d74a98fbff">RAWHID</a> variable length array. 
 
 
 ### -field hDevice
@@ -126,14 +127,14 @@ A handle to the device generating the raw input data.
 Type: <b>WPARAM</b>
 
 The value passed in the 
-					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a> message. 
+					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a> message. 
 
 
 ## -remarks
 
 
 
-To get more information on the device, use <b>hDevice</b> in a call to <a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>.
+To get more information on the device, use <b>hDevice</b> in a call to <a href="https://msdn.microsoft.com/1d8316d3-83ed-4f8b-bed4-09533d6f3591">GetRawInputDeviceInfo</a>.
 
 
 
@@ -147,19 +148,19 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>
+<a href="https://msdn.microsoft.com/1d8316d3-83ed-4f8b-bed4-09533d6f3591">GetRawInputDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a>
+<a href="https://msdn.microsoft.com/021d4b1a-69a9-482f-a796-21d74a98fbff">RAWHID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 
@@ -167,7 +168,7 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>
  
 
  

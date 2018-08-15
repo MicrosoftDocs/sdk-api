@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -83,11 +84,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694500(v=VS.85).aspx">CoCreateFreeThreadedMarshaler</a>
+<a href="_com_cocreatefreethreadedmarshaler">CoCreateFreeThreadedMarshaler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>
+<a href="_com_comarshalinterface">CoMarshalInterface</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,21 +62,21 @@ Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface wi
 
 ### -param pSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>*</b>
 
 Pointer to the surface to be filled.
 
 
 ### -param pRect [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
 Pointer to the source rectangle. Using <b>NULL</b> means that the entire surface will be filled.
 
 
 ### -param color [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172518(v=VS.85).aspx">D3DCOLOR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a4425774-fd4b-4f5c-9e10-7679bc2795f6">D3DCOLOR</a></b>
 
 Color used for filling.
 
@@ -84,7 +85,7 @@ Color used for filling.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -110,11 +111,11 @@ When using a DirectX 7 or DirectX 8.x driver, the only YUV formats supported are
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx">D3DPOOL</a>
+<a href="https://msdn.microsoft.com/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b">D3DPOOL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

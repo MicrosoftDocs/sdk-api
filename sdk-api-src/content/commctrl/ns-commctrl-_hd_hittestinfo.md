@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about a hit test. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775349(v=VS.85).aspx">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
+Contains information about a hit test. This structure is used with the <a href="https://msdn.microsoft.com/ff866bd1-9f2a-457c-921d-549610ab9088">HDM_HITTEST</a> message and it supersedes the <b>HD_HITTESTINFO</b> structure. 
 
 
 ## -struct-fields
@@ -60,9 +61,9 @@ Contains information about a hit test. This structure is used with the <a href="
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that contains the point to be hit test, in client coordinates. 
+A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the point to be hit test, in client coordinates. 
 
 
 ### -field flags

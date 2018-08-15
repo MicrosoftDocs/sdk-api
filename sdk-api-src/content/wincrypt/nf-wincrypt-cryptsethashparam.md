@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -149,7 +150,7 @@ One of the parameters specifies a handle that is not valid.
 </dl>
 </td>
 <td width="60%">
-The CSP context is currently being used by another <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a>.
+The CSP context is currently being used by another <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a>.
 
 </td>
 </tr>
@@ -272,7 +273,7 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

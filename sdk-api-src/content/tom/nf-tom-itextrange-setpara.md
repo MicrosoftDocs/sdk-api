@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Sets the paragraph attributes of this range to those of the specified <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> object.
+Sets the paragraph attributes of this range to those of the specified <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Sets the paragraph attributes of this range to those of the specified <a href="h
 
 ### -param pPara [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>*</b>
 
 The paragraph object with the desired paragraph format. 
 
@@ -127,11 +128,11 @@ Out of memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774001(v=VS.85).aspx">GetPara</a>
+<a href="https://msdn.microsoft.com/dcc601e9-dc93-47ba-8be9-667e52da916c">GetPara</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -139,7 +140,7 @@ Out of memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

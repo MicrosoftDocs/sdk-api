@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ The <b>FAX_PORT_INFO</b> structure describes one fax port. The data includes, am
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_PORT_INFO</b> structure. The calling application should ensure that this member is set to <b>sizeof(FAX_PORT_INFO)</b> before it calls the <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a> function.
+Specifies the size, in bytes, of the <b>FAX_PORT_INFO</b> structure. The calling application should ensure that this member is set to <b>sizeof(FAX_PORT_INFO)</b> before it calls the <a href="https://msdn.microsoft.com/32558e1f-c961-4fdc-806b-9544be4f95ee">FaxSetPort</a> function.
 
 
 ### -field DeviceId
@@ -236,7 +237,7 @@ The device can send faxes.
 
 #### FPF_VIRTUAL
 
-The device is a virtual fax device. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
+The device is a virtual fax device. For more information, see <a href="https://msdn.microsoft.com/873481e5-abf3-401d-9d45-5ee04eabe4ac">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://msdn.microsoft.com/1cf89b9c-525d-42df-b3fa-4dda6f560fd6">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://msdn.microsoft.com/32558e1f-c961-4fdc-806b-9544be4f95ee">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
 
 
 ### -field Rings
@@ -250,7 +251,7 @@ Specifies a <b>DWORD</b> variable that indicates the number of times an incoming
 
 Type: <b>DWORD</b>
 
-Specifies a <b>DWORD</b> variable that determines the relative order in which available fax devices send outgoing transmissions. Valid values for this member are 1 through <i>n</i>, where <i>n</i> is the value of the <i>PortsReturned</i> parameter returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a> function. 
+Specifies a <b>DWORD</b> variable that determines the relative order in which available fax devices send outgoing transmissions. Valid values for this member are 1 through <i>n</i>, where <i>n</i> is the value of the <i>PortsReturned</i> parameter returned by a call to the <a href="https://msdn.microsoft.com/7bd33e6f-09ff-449b-ac22-b79a14e5d928">FaxEnumPorts</a> function. 
 
                     
 
@@ -278,116 +279,6 @@ Type: <b>LPCTSTR</b>
 Pointer to a constant null-terminated character string that specifies the called station identifier (CSID). This identifier is usually a telephone number. Only printable characters such as English letters, numeric symbols, and punctuation marks (ASCII range 0x20 to 0x7F) can be used in a CSID.
 
 
-##### - State.FPS_DIALING
-
-The device is dialing a fax number.
-
-
-##### - State.FPS_SENDING
-
-The device is sending a fax document.
-
-
-##### - State.FPS_RECEIVING
-
-The device is receiving a fax document.
-
-
-##### - State.FPS_COMPLETED
-
-The device has completed sending or receiving a fax transmission.
-
-
-##### - State.FPS_UNAVAILABLE
-
-The device is not available because it is in use by another application.
-
-
-##### - State.FPS_BUSY
-
-The device has encountered a busy signal.
-
-
-##### - State.FPS_NO_ANSWER
-
-The receiving device did not answer the call.
-
-
-##### - State.FPS_BAD_ADDRESS
-
-The device dialed an invalid fax number.
-
-
-##### - State.FPS_NO_DIAL_TONE
-
-The sending device cannot complete the call because it does not detect a dial tone.
-
-
-##### - State.FPS_DISCONNECTED
-
-The fax call was disconnected by the sender or the caller.
-
-
-##### - State.FPS_FATAL_ERROR
-
-The device encountered a fatal protocol error.
-
-
-##### - State.FPS_NOT_FAX_CALL
-
-The device has received a data call or a voice call.
-
-
-##### - State.FPS_CALL_DELAYED
-
-The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
-
-
-##### - State.FPS_CALL_BLACKLISTED
-
-The device could not complete a call because the telephone number was blocked or reserved; emergency numbers such as 911 are blocked.
-
-
-##### - State.FPS_INITIALIZING
-
-The device is initializing a call.
-
-
-##### - State.FPS_OFFLINE
-
-The device is offline and unavailable.
-
-
-##### - State.FPS_RINGING
-
-The device is ringing.
-
-
-##### - State.FPS_AVAILABLE
-
-The device is available.
-
-
-##### - State.FPS_ABORTING
-
-The device is aborting a fax job.
-
-
-##### - State.FPS_ROUTING
-
-The device is routing a received fax document.
-
-
-##### - State.FPS_ANSWERED
-
-The device answered a new call.
-
-
-##### - State.FPS_HANDLED
-
-The fax service processed the outbound fax document; the fax service provider will transmit the document.
-
-
 ##### - Flags.FPF_RECEIVE
 
 The device can receive faxes.
@@ -400,16 +291,126 @@ The device can send faxes.
 
 ##### - Flags.FPF_VIRTUAL
 
-The device is a virtual fax device. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
+The device is a virtual fax device. For more information, see <a href="https://msdn.microsoft.com/873481e5-abf3-401d-9d45-5ee04eabe4ac">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://msdn.microsoft.com/1cf89b9c-525d-42df-b3fa-4dda6f560fd6">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://msdn.microsoft.com/32558e1f-c961-4fdc-806b-9544be4f95ee">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
+
+
+##### - State.FPS_ABORTING
+
+The device is aborting a fax job.
+
+
+##### - State.FPS_ANSWERED
+
+The device answered a new call.
+
+
+##### - State.FPS_AVAILABLE
+
+The device is available.
+
+
+##### - State.FPS_BAD_ADDRESS
+
+The device dialed an invalid fax number.
+
+
+##### - State.FPS_BUSY
+
+The device has encountered a busy signal.
+
+
+##### - State.FPS_CALL_BLACKLISTED
+
+The device could not complete a call because the telephone number was blocked or reserved; emergency numbers such as 911 are blocked.
+
+
+##### - State.FPS_CALL_DELAYED
+
+The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+
+
+##### - State.FPS_COMPLETED
+
+The device has completed sending or receiving a fax transmission.
+
+
+##### - State.FPS_DIALING
+
+The device is dialing a fax number.
+
+
+##### - State.FPS_DISCONNECTED
+
+The fax call was disconnected by the sender or the caller.
+
+
+##### - State.FPS_FATAL_ERROR
+
+The device encountered a fatal protocol error.
+
+
+##### - State.FPS_HANDLED
+
+The fax service processed the outbound fax document; the fax service provider will transmit the document.
+
+
+##### - State.FPS_INITIALIZING
+
+The device is initializing a call.
+
+
+##### - State.FPS_NOT_FAX_CALL
+
+The device has received a data call or a voice call.
+
+
+##### - State.FPS_NO_ANSWER
+
+The receiving device did not answer the call.
+
+
+##### - State.FPS_NO_DIAL_TONE
+
+The sending device cannot complete the call because it does not detect a dial tone.
+
+
+##### - State.FPS_OFFLINE
+
+The device is offline and unavailable.
+
+
+##### - State.FPS_RECEIVING
+
+The device is receiving a fax document.
+
+
+##### - State.FPS_RINGING
+
+The device is ringing.
+
+
+##### - State.FPS_ROUTING
+
+The device is routing a received fax document.
+
+
+##### - State.FPS_SENDING
+
+The device is sending a fax document.
+
+
+##### - State.FPS_UNAVAILABLE
+
+The device is not available because it is in use by another application.
 
 
 ## -remarks
 
 
 
-A fax client application passes the <b>FAX_PORT_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a> function to modify the configuration of the fax port of interest.
+A fax client application passes the <b>FAX_PORT_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/32558e1f-c961-4fdc-806b-9544be4f95ee">FaxSetPort</a> function to modify the configuration of the fax port of interest.
 
-If an application calls the <a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a> function to enumerate all the fax devices currently attached to a fax server, the function returns an array of <b>FAX_PORT_INFO</b> structures. Each structure describes one device in detail. If an application calls the <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a> function to query one device, that function returns information about the device in one <b>FAX_PORT_INFO</b> structure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691330(v=VS.85).aspx">Fax Ports</a> and <a href="https://msdn.microsoft.com/en-us/library/ms691489(v=VS.85).aspx">Fax Device Management</a>.
+If an application calls the <a href="https://msdn.microsoft.com/7bd33e6f-09ff-449b-ac22-b79a14e5d928">FaxEnumPorts</a> function to enumerate all the fax devices currently attached to a fax server, the function returns an array of <b>FAX_PORT_INFO</b> structures. Each structure describes one device in detail. If an application calls the <a href="https://msdn.microsoft.com/1cf89b9c-525d-42df-b3fa-4dda6f560fd6">FaxGetPort</a> function to query one device, that function returns information about the device in one <b>FAX_PORT_INFO</b> structure. For more information, see <a href="https://msdn.microsoft.com/fb00d78a-1aca-4be2-9b00-e322355c6b52">Fax Ports</a> and <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>.
 
 
 
@@ -419,27 +420,27 @@ If an application calls the <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a>
+<a href="https://msdn.microsoft.com/7bd33e6f-09ff-449b-ac22-b79a14e5d928">FaxEnumPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>
+<a href="https://msdn.microsoft.com/1cf89b9c-525d-42df-b3fa-4dda6f560fd6">FaxGetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a>
+<a href="https://msdn.microsoft.com/32558e1f-c961-4fdc-806b-9544be4f95ee">FaxSetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>
+<a href="https://msdn.microsoft.com/873481e5-abf3-401d-9d45-5ee04eabe4ac">Virtual Fax Devices</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -60,7 +61,7 @@ firewall.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwAuthorizedApplications</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwAuthorizedApplications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwAuthorizedApplications</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwAuthorizedApplications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +77,7 @@ The <b>INetFwAuthorizedApplications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/f69f906d-0d7b-4f45-9bf0-fd1b031e3492">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new application  to  the collection.
@@ -103,7 +104,7 @@ Retrieves the contents of the Count property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/3c9eac16-9ba5-43f6-b52e-4340598745d8">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the specified application if present in the collection.
@@ -112,7 +113,7 @@ Returns the specified application if present in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an application  from the collection.
@@ -129,7 +130,7 @@ Removes an application  from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/c0ac9311-64a4-44cb-a0d3-6986f4de6b94">_NewEnum</a>
 
 
 </td>
@@ -141,7 +142,7 @@ Gets an enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/6b0cc653-d5be-42af-ac8b-551b961550da">Count</a>
 
 
 </td>
@@ -171,7 +172,7 @@ configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
@@ -183,7 +184,7 @@ configuration changes take effect immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

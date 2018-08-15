@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -87,11 +88,11 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780223">CM_Open_Device_Interface_Key</a>
+<a href="https://msdn.microsoft.com/71802D33-9024-4D7F-9120-8EEFECA53A60">CM_Open_Device_Interface_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550986">SetupDiDeleteDeviceInterfaceRegKey</a>
+<a href="https://msdn.microsoft.com/470c96d4-b04f-4c9f-9ce3-9ba3d9ae49c1">SetupDiDeleteDeviceInterfaceRegKey</a>
  
 
  

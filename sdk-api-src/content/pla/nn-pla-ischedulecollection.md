@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -58,7 +59,7 @@ To get this interface, access the <a href="https://msdn.microsoft.com/6654c101-5
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScheduleCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IScheduleCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScheduleCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IScheduleCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +75,7 @@ The <b>IScheduleCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/92586c08-2f37-4462-b7cb-af58b6cfcecf">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a schedule to the collection.
@@ -92,7 +93,7 @@ Adds one or more schedules to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/e9a3afb8-0049-425b-a231-bbb5b56eced7">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all schedules from the collection.
@@ -110,7 +111,7 @@ Creates a schedule object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/bb419f7e-b5fd-47ea-88e5-f86788423edf">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a schedule from the collection.
@@ -127,7 +128,7 @@ Removes a schedule from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/4aae67ae-8b9d-4baa-b617-b6e44b7e7edf">_NewEnum</a>
 
 
 </td>
@@ -139,7 +140,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/ade49ca4-3cd6-4d42-bf2c-50bdc6301dbb">Count</a>
 
 
 </td>
@@ -151,7 +152,7 @@ Retrieves the number of schedules in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/ba889b2e-f822-41ca-a908-ade83ae7cf10">Item</a>
 
 
 </td>

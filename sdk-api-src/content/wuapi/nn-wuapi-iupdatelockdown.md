@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IUpdateLockdown</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764026">Lockdown</a>
+<a href="https://msdn.microsoft.com/3d3be6f8-acdc-4cef-a0bc-6572a5b315d8">Lockdown</a>
 </td>
 <td align="left" width="63%">
 Restricts access to the methods and properties of the object that implements this method.
@@ -85,7 +86,7 @@ Restricts access to the methods and properties of the object that implements thi
 
 
 
-The <b>IUpdateLockdown</b> interface is derived from <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>, not <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
+The <b>IUpdateLockdown</b> interface is derived from <a href="_com_iunknown">IUnknown</a>, not <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
 
 The following classes implement the <b>IUpdateLockdown</b> interface:
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -79,13 +80,13 @@ The following methods and properties return this collection:
 <li>
 <a href="https://msdn.microsoft.com/af66beb6-e82c-47e6-8658-da9702041053">IFsrmReportManager::EnumReportJobs</a>
 </li>
-</ul>The collection is empty if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property is 
+</ul>The collection is empty if the <a href="https://msdn.microsoft.com/47ea1193-0afe-4036-b8b5-511fa2e013be">Count</a> property is 
     zero.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -101,7 +102,7 @@ The <b>IFsrmCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/f51f1a8d-a857-4a17-96ca-1f3ed391b7d7">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the collection of objects when the objects are collected asynchronously.
@@ -137,7 +138,7 @@ Limits the time that the collection can take to collect the objects.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/0973b046-e350-44df-a02d-40b0ba272638">_NewEnum</a>
 
 
 </td>
@@ -146,7 +147,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer of a new 
+Retrieves the <a href="_com_IUnknown">IUnknown</a> pointer of a new 
      <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration for the items 
      in the collection.
 
@@ -155,7 +156,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/47ea1193-0afe-4036-b8b5-511fa2e013be">Count</a>
 
 
 </td>
@@ -171,7 +172,7 @@ Retrieves the number of items in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/95d35117-b9fb-46ae-b392-aa0c12717359">Item</a>
 
 
 </td>

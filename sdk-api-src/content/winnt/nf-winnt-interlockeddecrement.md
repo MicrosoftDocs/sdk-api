@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -93,7 +94,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547875">InterlockedDecrementAcquire</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547883">InterlockedDecrementRelease</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/63af8047-1ccf-4cea-9940-584f34e73dcf">InterlockedDecrementAcquire</a> or <a href="https://msdn.microsoft.com/ee5ef016-3d64-4c2d-83f1-47f9ab612836">InterlockedDecrementRelease</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -129,7 +130,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547875">InterlockedDecrementAcquire</a>
+<a href="https://msdn.microsoft.com/63af8047-1ccf-4cea-9940-584f34e73dcf">InterlockedDecrementAcquire</a>
 
 
 
@@ -145,7 +146,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547883">InterlockedDecrementRelease</a>
+<a href="https://msdn.microsoft.com/ee5ef016-3d64-4c2d-83f1-47f9ab612836">InterlockedDecrementRelease</a>
 
 
 
@@ -153,7 +154,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a>
 
 
 

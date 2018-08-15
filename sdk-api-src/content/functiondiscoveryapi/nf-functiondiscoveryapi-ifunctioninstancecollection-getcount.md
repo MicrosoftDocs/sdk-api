@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -109,7 +110,7 @@ The <i>pdwCount</i> parameter is <b>NULL</b>.
 
 
 
-The <b>GetCount</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> methods enables you to enumerate all of the function instances contained in a collection using a simple <b>for</b> or <b>while</b> loop.
+The <b>GetCount</b> and <a href="https://msdn.microsoft.com/b79b7cb2-c02a-4474-bd48-8907ebb118fa">Item</a> methods enables you to enumerate all of the function instances contained in a collection using a simple <b>for</b> or <b>while</b> loop.
 
 
 

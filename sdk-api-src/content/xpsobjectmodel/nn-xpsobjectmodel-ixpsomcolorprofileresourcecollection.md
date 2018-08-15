@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -81,7 +82,7 @@ Appends an <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/ecb8b3e7-182f-446a-bc12-28762da1f930">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface pointer from a specified location in the collection.
@@ -101,7 +102,7 @@ Gets an <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/798ac7ed-1221-4985-b325-d588133ad59c">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface pointers in the collection.
@@ -121,7 +122,7 @@ Inserts an <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
+<a href="https://msdn.microsoft.com/c1c112fc-5b9d-4db8-b7b9-94a75755801e">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes and releases an <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface pointer from a specified location in the collection.
@@ -160,7 +161,7 @@ For more information about the collection methods, see  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: asyncinfo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IAsyncInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/f011c6e3-dd8f-4f77-8f06-be2a3fb1e0f0">Cancel</a>
 </td>
 <td align="left" width="63%">
 Requests cancellation of the asynchronous operation already in progress.
@@ -80,7 +81,7 @@ Requests cancellation of the asynchronous operation already in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/1c357343-79cf-4808-8e41-f898dfdb99f6">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the asynchronous work object.
@@ -114,7 +115,7 @@ Retrieves the termination status of the asynchronous operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://msdn.microsoft.com/d940bff3-7b93-405a-a9a3-a15ffc45fc82">Id</a>
 
 
 </td>
@@ -130,7 +131,7 @@ Retrieves the identifier of the asynchronous operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/b34d9318-8a0f-4986-a678-76ba6c5bb051">Status</a>
 
 
 </td>

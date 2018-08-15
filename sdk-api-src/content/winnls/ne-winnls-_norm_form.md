@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnls.h
 req.include-header: Windows.h
+req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

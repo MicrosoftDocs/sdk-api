@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -60,7 +61,7 @@ The IRQ_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field IRQ_Header
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548208">IRQ_DES</a> structure.
+An <a href="https://msdn.microsoft.com/fa8b8d96-6642-4f5a-b65c-0c7470340251">IRQ_DES</a> structure.
 
 
 ### -field IRQ_Data
@@ -77,7 +78,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548220">IRQ_RANGE</a> array.
+An <a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a> array.
 
 
 ## -see-also
@@ -85,11 +86,11 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548220">IRQ_RA
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548208">IRQ_DES</a>
+<a href="https://msdn.microsoft.com/fa8b8d96-6642-4f5a-b65c-0c7470340251">IRQ_DES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548220">IRQ_RANGE</a>
+<a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a>
  
 
  

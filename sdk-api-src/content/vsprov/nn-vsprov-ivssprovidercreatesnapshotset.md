@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -133,7 +134,7 @@ Ensure the provider is ready to quickly commit the prepared LUNs.
 </td>
 <td align="left" width="63%">
 Called after the applications are unfrozen to allow the writers to 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> any components so 
+     <a href="vssgloss_a.htm">auto-recover</a> any components so 
      that they can be used when they are read-only.
 
 </td>

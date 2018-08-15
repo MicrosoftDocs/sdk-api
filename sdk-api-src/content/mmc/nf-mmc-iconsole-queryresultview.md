@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -53,7 +54,7 @@ req.product: GDI+ 1.1
 
 Queries 
 <a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a> for the result view object 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+<a href="_com_iunknown">IUnknown</a> interface pointer.
 
 
 ## -parameters
@@ -63,7 +64,7 @@ Queries
 
 ### -param pUnknown [out]
 
-A pointer to the location of the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer to the result view object.
+A pointer to the location of the <a href="_com_iunknown">IUnknown</a> interface pointer to the result view object.
 
 
 ## -returns

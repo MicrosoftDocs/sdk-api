@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -129,7 +130,7 @@ Gets an interface for the current view of the browser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/e2c7ee6a-fbd9-4b75-a9ed-734e7977088d">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current browser options.
@@ -138,7 +139,7 @@ Gets the current browser options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/4b86646a-a20c-4bb5-a4c8-5c2e11e18862">Initialize</a>
 </td>
 <td align="left" width="63%">
 Prepares the browser to be navigated.
@@ -217,7 +218,7 @@ Terminates an advisory connection.
 
 For example code that shows typical use of <b>IExplorerBrowser</b> and its methods, see the <a href="https://msdn.microsoft.com/1C8699DB-9415-4499-9A80-397AF4ECB606">Explorer Browser Custom Contents</a> and Explorer Browser Custom Contents samples.
 
-After calling this object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method, its <a href="https://msdn.microsoft.com/b6fc4aa6-f689-4b3e-a922-f8361d33b6dd">Destroy</a> method must be called to free any windowed resources that were generated in the call to <b>Initialize</b>.
+After calling this object's <a href="https://msdn.microsoft.com/4b86646a-a20c-4bb5-a4c8-5c2e11e18862">Initialize</a> method, its <a href="https://msdn.microsoft.com/b6fc4aa6-f689-4b3e-a922-f8361d33b6dd">Destroy</a> method must be called to free any windowed resources that were generated in the call to <b>Initialize</b>.
 
 The object that hosts the ExplorerBrowser object should derive from <a href="_inet_IServiceProvider_Interface">IServiceProvider</a> and implement <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> to respond to any queries for service. For example, the number of panes shown by the browser can be controlled by implementing <a href="https://msdn.microsoft.com/b940adc2-dfef-49c5-b86c-d0da83db0aad">IExplorerPaneVisibility</a> and responding to any SID_ExplorerPaneVisibility service requests.
 

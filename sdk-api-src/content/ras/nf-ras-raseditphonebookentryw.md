@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,6 +77,11 @@ TBD
 Handle to the parent window of the dialog box.
 
 
+#### - lpszEntryName [in]
+
+Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
+
+
 #### - lpszPhonebook [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the<b> Dial-Up Networking</b> dialog box. 
@@ -83,11 +89,6 @@ Pointer to a null-terminated string that specifies the full path and file name o
 
 
 					
-
-
-#### - lpszEntryName [in]
-
-Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
 
 
 ## -returns

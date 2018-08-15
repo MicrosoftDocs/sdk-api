@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,17 +61,17 @@ The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for an
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object.
+Points to a <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object.
 
 
 ### -field lpddpfFormat
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure that describes the output pixel format for which the driver should return bandwidth information.
+Points to a <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structure that describes the output pixel format for which the driver should return bandwidth information.
 
 
 ### -field dwWidth
@@ -126,7 +127,7 @@ The <b>dwWidth</b> and <b>dwHeight</b> members specify the prescale size of the 
 
 ### -field lpBandwidth
 
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550372">DDVIDEOPORTBANDWIDTH</a> structure in which the driver should write the bandwidth parameters.
+Points to the <a href="https://msdn.microsoft.com/3e13874d-294e-4161-8131-f78799b2e90e">DDVIDEOPORTBANDWIDTH</a> structure in which the driver should write the bandwidth parameters.
 
 
 ### -field ddRVal
@@ -144,7 +145,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550372">DDVIDEOPORTBANDWIDTH</a>
+<a href="https://msdn.microsoft.com/3e13874d-294e-4161-8131-f78799b2e90e">DDVIDEOPORTBANDWIDTH</a>
 
 
 

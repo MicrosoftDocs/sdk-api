@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -114,7 +115,7 @@ Provides access to the <a href="https://docs.microsoft.com/">stride</a> value fo
 
 The bitmap lock is simply an abstraction for a rectangular memory window into the bitmap. For the simplest case, a system memory bitmap, this is simply a pointer to the top left corner of the rectangle and a stride value.
 
-To release the exclusive lock set by <a href="https://msdn.microsoft.com/2ab25a00-c89c-4a2c-8e12-8ce81cc21bca">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
+To release the exclusive lock set by <a href="https://msdn.microsoft.com/2ab25a00-c89c-4a2c-8e12-8ce81cc21bca">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="_com_IUnknown_Release">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
 
 
 

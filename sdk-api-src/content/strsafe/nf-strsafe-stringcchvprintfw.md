@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -60,7 +61,7 @@ Writes formatted data to the specified string using a pointer to a list of argum
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192500">vsprintf, vswprintf, _vstprintf</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192508">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms647551(v=VS.85).aspx">wvsprintf</a>
+<a href="https://msdn.microsoft.com/42edd47f-4adf-42db-a1e0-c2192f5a0f65">wvsprintf</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/a2aaaa05-d61e-41e3-8e49-7c0da1a661f0">wvnsprintf</a>
@@ -164,7 +165,7 @@ For more information on va_lists, see the conventions defined in Stdarg.h.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 
-Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a> if you require the handling of null string pointer values.
+Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchVPrintf</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -204,15 +205,15 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a>
+<a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>
+<a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a>
+<a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a>
  
 
  

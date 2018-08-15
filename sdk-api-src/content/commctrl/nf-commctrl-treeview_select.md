@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the <a href="https://msdn.microsoft.com/en-us/library/Bb773912(v=VS.85).aspx">TreeView_SelectItem</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb773920(v=VS.85).aspx">TreeView_SelectSetFirstVisible</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb773906(v=VS.85).aspx">TreeView_SelectDropTarget</a> macros, or you can send the <a href="https://msdn.microsoft.com/en-us/library/Bb773736(v=VS.85).aspx">TVM_SELECTITEM</a> message explicitly. 
+Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the <a href="https://msdn.microsoft.com/86f2b653-fde0-4c6c-9021-63f366723147">TreeView_SelectItem</a>, <a href="https://msdn.microsoft.com/12b304e5-0708-4d0e-a391-e6dd07609cda">TreeView_SelectSetFirstVisible</a>, or <a href="https://msdn.microsoft.com/ec35eade-b09f-4a5c-9525-326bdc9f6371">TreeView_SelectDropTarget</a> macros, or you can send the <a href="https://msdn.microsoft.com/8b943958-7b93-4e54-99de-200121cf0752">TVM_SELECTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -89,7 +90,7 @@ Action flag. This parameter can be one of the following values:
 </dl>
 </td>
 <td width="60%">
-Sets the selection to the given item. The control's parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773547(v=VS.85).aspx">TVN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a> notification codes.
+Sets the selection to the given item. The control's parent window receives the <a href="https://msdn.microsoft.com/53f24ee0-433c-4680-9075-5e2b21117ed9">TVN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/682170d3-5843-4d92-afeb-c37f3502ed5d">TVN_SELCHANGED</a> notification codes.
 
 </td>
 </tr>
@@ -121,7 +122,7 @@ Ensures that the specified item is visible, and, if possible, displays it at the
 
 
 
-If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes. 
+If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/18d9d61d-6ec5-4d3b-9c02-36d0e61ed232">TVN_ITEMEXPANDED</a> notification codes. 
 
 
 

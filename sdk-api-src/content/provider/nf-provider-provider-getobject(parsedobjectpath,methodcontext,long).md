@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -54,7 +55,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -90,16 +91,16 @@ The following flags are handled by (and filtered out) by WMI:
 <li><b>WBEM_FLAG_RETURN_IMMEDIATELY</b></li>
 </ul>
 
-#### - pInstance
-
-Pointer to a <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object to be filled in by the framework provider.
-
-
 #### - Query [ref]
 
 Query object that indicates the set of properties to be populated, as requested by a call to <b>Provider::GetObject</b>.
 
 A provider can realize a significant performance gain by filling in only these requested property values. The provider determines which properties are requested by using <a href="https://msdn.microsoft.com/36f5a261-435c-494d-aae5-a420eee030f2">CFrameworkQuery::IsPropertyRequired</a>. Otherwise, the provider must fill in all property values.
+
+
+#### - pInstance
+
+Pointer to a <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object to be filled in by the framework provider.
 
 
 ## -returns

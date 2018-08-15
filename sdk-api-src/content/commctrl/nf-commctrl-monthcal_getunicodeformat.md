@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760989(v=VS.85).aspx">MCM_GETUNICODEFORMAT</a> message explicitly. 
+Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/28261e11-0fd0-407e-9f62-446536d62460">MCM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +71,7 @@ Handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774730(v=VS.85).aspx">MonthCal_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/314f8dac-c5e7-4bb1-9ccf-6c6e43aa0d40">MonthCal_SetUnicodeFormat</a>
  
 
  

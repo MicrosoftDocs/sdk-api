@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_HAlpha</b> method sets the hierarchy alpha.
 
 ### -param Alpha [in]
 
-Variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559667">HierarchyAlpha</a> that specifies the hierarchy alpha.
+Variable of type <a href="https://msdn.microsoft.com/e2804158-ffe3-4a9b-af6f-b3e4a3d5c1ea">HierarchyAlpha</a> that specifies the hierarchy alpha.
 
 
 ## -returns

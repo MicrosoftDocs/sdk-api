@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -90,7 +91,7 @@ Otherwise, <b>ReportIsnsServerList</b> returns the appropriate Win32 or iSCSI er
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550125">AddIsnsServer</a>
+<a href="https://msdn.microsoft.com/c01f00f9-2929-4745-a60b-89ab1143a084">AddIsnsServer</a>
 
 
 
@@ -98,7 +99,7 @@ Otherwise, <b>ReportIsnsServerList</b> returns the appropriate Win32 or iSCSI er
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563978">RemoveIsnsServer</a>
+<a href="https://msdn.microsoft.com/702a86e3-eeac-40cd-9203-ee865e2b710a">RemoveIsnsServer</a>
  
 
  

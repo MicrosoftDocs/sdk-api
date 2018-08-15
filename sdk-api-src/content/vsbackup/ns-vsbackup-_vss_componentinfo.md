@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -201,7 +202,7 @@ See <a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Wo
 Boolean that indicates (for component-mode operations) whether the component is selectable for restore. 
       <b>bSelectableForRestore</b> allows the requester to determine whether this component can be 
       individually selected for restore if it had earlier been 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa384659(v=VS.85).aspx">implicitly included</a> in the 
+      <a href="vssgloss_i.htm">implicitly included</a> in the 
       backup. The Boolean is <b>true</b> if the component is selectable for restore and 
       <b>false</b> if it is not.
       

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Enables the specified process to set the foreground window using the <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
+Enables the specified process to set the foreground window using the <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
 
 
 ## -parameters
@@ -102,7 +103,7 @@ The system restricts which processes can set the foreground window. A process ca
 <li>The process received the last input event. </li>
 <li>There is no foreground process. </li>
 <li>The foreground process is being debugged. </li>
-<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/en-us/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>). </li>
+<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a>). </li>
 <li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>). </li>
 <li>No menus are active. </li>
 </ul>
@@ -120,7 +121,7 @@ A process that can set the foreground window can enable another process to set t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a>
 
 
 
@@ -128,11 +129,11 @@ A process that can set the foreground window can enable another process to set t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

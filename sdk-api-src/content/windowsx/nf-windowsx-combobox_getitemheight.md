@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the height of list items in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a> message explicitly.
+Retrieves the height of list items in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/72fba6ca-0a51-4801-bd45-5f5a7d5ebee2">CB_GETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A handle to the control.
 
 
 
-This macro passes zero as the <i>wParam</i> member of <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a>.
+This macro passes zero as the <i>wParam</i> member of <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>. For more information, see <a href="https://msdn.microsoft.com/72fba6ca-0a51-4801-bd45-5f5a7d5ebee2">CB_GETITEMHEIGHT</a>.
 	
 
 

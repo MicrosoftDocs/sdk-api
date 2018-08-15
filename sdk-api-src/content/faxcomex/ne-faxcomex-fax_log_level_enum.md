@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,19 +85,19 @@ The fax server logs all events.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685053(v=VS.85).aspx">IFaxEventLogging::get_GeneralEventsLevel</a>
+<a href="https://msdn.microsoft.com/8ab80241-44ab-49e3-97b9-d4c0e8cfa096">IFaxEventLogging::get_GeneralEventsLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685116(v=VS.85).aspx">IFaxEventLogging::get_InboundEventsLevel</a>
+<a href="https://msdn.microsoft.com/aa223f94-cc2b-4704-9b57-22e1cb7d1a89">IFaxEventLogging::get_InboundEventsLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685042(v=VS.85).aspx">IFaxEventLogging::get_InitEventsLevel</a>
+<a href="https://msdn.microsoft.com/5a8f73d1-c612-4589-91bc-84a4659faefd">IFaxEventLogging::get_InitEventsLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687455(v=VS.85).aspx">IFaxEventLogging::get_OutboundEventsLevel</a>
+<a href="https://msdn.microsoft.com/115e661c-4f44-4ed3-a591-ffa89d55d72b">IFaxEventLogging::get_OutboundEventsLevel</a>
  
 
  

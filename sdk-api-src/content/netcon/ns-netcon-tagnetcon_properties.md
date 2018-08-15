@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -92,7 +93,7 @@ Name of the device associated with the connection.
 ### -field dwCharacter
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949900">Characteristics</a> for this connection.
+<a href="https://msdn.microsoft.com/fc64c840-7f88-4d81-910b-3cf21dce70fa">Characteristics</a> for this connection.
 
 
 ### -field clsidThisObject

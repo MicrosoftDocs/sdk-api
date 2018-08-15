@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -86,7 +87,7 @@ Formats a file system volume on a partition. This method is identical to the <a 
 <a href="https://msdn.microsoft.com/d7f699c6-6f1c-445d-80b4-3576102d5b5f">OfflineVolume</a>
 </td>
 <td align="left" width="63%">
-Takes the volume offline by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561431">IOCTL_VOLUME_OFFLINE</a> control code.
+Takes the volume offline by using the <a href="https://msdn.microsoft.com/7c9b97eb-c167-41cd-b235-7a9d7830915e">IOCTL_VOLUME_OFFLINE</a> control code.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information for the <a href="https://msdn.microsoft.com/en-us/library/Bb761376(v=VS.85).aspx">IPN_FIELDCHANGED</a> notification code. 
+Contains information for the <a href="https://msdn.microsoft.com/f9ca6435-1715-458e-8d0e-475920ed75bd">IPN_FIELDCHANGED</a> notification code. 
 
 
 ## -struct-fields
@@ -60,9 +61,9 @@ Contains information for the <a href="https://msdn.microsoft.com/en-us/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field iField
@@ -77,5 +78,5 @@ The zero-based number of the field that was changed.
 Type: <b>int</b>
 
 The new value of the field specified in the 
-					<b>iField</b> member. While processing the <a href="https://msdn.microsoft.com/en-us/library/Bb761376(v=VS.85).aspx">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field. 
+					<b>iField</b> member. While processing the <a href="https://msdn.microsoft.com/f9ca6435-1715-458e-8d0e-475920ed75bd">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field. 
 

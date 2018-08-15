@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ The identifier of the text attribute. For a list of text attribute IDs, see <a h
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>*</b>
 
 Receives the value of the specified attribute. 
 
@@ -89,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The type of value retrieved by this method depends on the <i>attr</i> parameter. 
-For example, calling <b>GetAttributeValue</b> with the <i>attr</i> parameter set to <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_FontNameAttributeId</a> returns a string that represents the font name of the text range,  while calling <b>GetAttributeValue</b> with <i>attr</i> set to <a href="https://msdn.microsoft.com/en-us/library/Ee671662(v=VS.85).aspx">UIA_IsItalicAttributeId</a> would return a boolean.
+For example, calling <b>GetAttributeValue</b> with the <i>attr</i> parameter set to <a href="uiauto_textattribute_ids.htm">UIA_FontNameAttributeId</a> returns a string that represents the font name of the text range,  while calling <b>GetAttributeValue</b> with <i>attr</i> set to <a href="uiauto_textattribute_ids.htm">UIA_IsItalicAttributeId</a> would return a boolean.
 
 
 

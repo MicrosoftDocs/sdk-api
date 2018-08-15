@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ Null-terminated string containing the name used for the capture window.
 
 ### -param dwStyle
 
-Window styles used for the capture window. Window styles are described with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
+Window styles used for the capture window. Window styles are described with the <a href="winui._win32_CreateWindowEx">CreateWindowEx</a> function.
           
 
 

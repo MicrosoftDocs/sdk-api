@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -89,7 +90,7 @@ A handle to the window to receive the menu notification messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -97,7 +98,7 @@ A handle to the window to receive the menu notification messages.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647612(v=VS.85).aspx">WM_NEXTMENU</a>
+<a href="https://msdn.microsoft.com/3fa50fd3-47a6-4dae-9ceb-2abb6626e0a6">WM_NEXTMENU</a>
  
 
  

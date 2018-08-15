@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -66,9 +67,9 @@ Allows you to create wizard pages and add them to
 ### -param piData [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information 
+<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard pages to be added. By calling 
-       <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> with the 
+       <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -82,7 +83,7 @@ Allows you to create wizard pages and add them to
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a> for 
+Depending on the type of <a href="c_gly.htm">cluster object</a> for 
        which the wizard page is being created, a pointer to one of the following interfaces is also available:
 
 <ul>
@@ -91,7 +92,7 @@ Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369
         relates to a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.</li>
 <li>
 <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, if the property page 
-        relates to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>.</li>
+        relates to a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.</li>
 <li>
 <a href="https://msdn.microsoft.com/7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4">IGetClusterNetworkInfo</a>, if the property 
         page relates to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.</li>
@@ -132,7 +133,7 @@ To add Wizard97 wizard pages, use the
 
 <ol>
 <li>Use <i>piData</i> to call 
-       <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an interface 
+       <a href="_com_IUnknown_QueryInterface">QueryInterface</a> and retrieve an interface 
        pointer for the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 

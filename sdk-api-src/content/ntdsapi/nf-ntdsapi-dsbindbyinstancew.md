@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -128,7 +129,7 @@ Causes the bind to use the delegate impersonation level. This enables operations
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="_com_impersonation_levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 
@@ -159,7 +160,7 @@ Causes the bind to use the delegate impersonation level. This enables operations
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="_com_impersonation_levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 

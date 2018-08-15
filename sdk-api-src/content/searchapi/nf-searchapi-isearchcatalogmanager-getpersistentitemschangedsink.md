@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -61,9 +62,9 @@ Gets the change notification event sink interface for a client. This method is u
 
 ### -param ppISearchPersistentItemsChangedSink [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231454(v=VS.85).aspx">ISearchPersistentItemsChangedSink</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/ce2a5b93-c8df-4acb-9b26-7ff1004124af">ISearchPersistentItemsChangedSink</a>**</b>
 
-Receives the address of a pointer to a new <a href="https://msdn.microsoft.com/en-us/library/Bb231454(v=VS.85).aspx">ISearchPersistentItemsChangedSink</a> interface for this catalog.
+Receives the address of a pointer to a new <a href="https://msdn.microsoft.com/ce2a5b93-c8df-4acb-9b26-7ff1004124af">ISearchPersistentItemsChangedSink</a> interface for this catalog.
                 
 
 

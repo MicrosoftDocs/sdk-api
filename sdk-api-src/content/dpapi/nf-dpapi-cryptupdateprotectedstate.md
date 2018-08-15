@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -60,7 +61,7 @@ The <b>CryptUpdateProtectedState</b> function migrates the current user's master
 
 ### -param pOldSid [in]
 
-The address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that contains the user's previous SID. This SID is used to locate the old master keys. If this parameter is <b>NULL</b>, the master keys for the current user SID are migrated.
+The address of a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that contains the user's previous SID. This SID is used to locate the old master keys. If this parameter is <b>NULL</b>, the master keys for the current user SID are migrated.
 
 Either this parameter or the <i>pwszOldPassword</i> parameter may be <b>NULL</b>, but not both.
 

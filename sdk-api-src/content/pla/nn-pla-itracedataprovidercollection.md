@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -62,7 +63,7 @@ To populate the collection with registered providers, call the <a href="https://
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProviderCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITraceDataProviderCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProviderCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITraceDataProviderCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -78,7 +79,7 @@ The <b>ITraceDataProviderCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/3214f25d-1991-439a-b237-61249a531a2b">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a trace provider to the collection.
@@ -96,7 +97,7 @@ Adds one or more trace providers to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/aee595c2-bffc-4c79-89b3-b83f75e58d89">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all trace providers from the collection.
@@ -132,7 +133,7 @@ Populates the collection with the list of providers that have been registered by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/553ec66e-d38a-46cc-9b01-f4d7947eda91">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a trace provider from the collection.
@@ -149,7 +150,7 @@ Removes a trace provider from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/cd80839a-0cf0-4553-819e-7a8be830b9fa">_NewEnum</a>
 
 
 </td>
@@ -161,7 +162,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/d5ecc815-86c1-4a08-b434-88479df3d70c">Count</a>
 
 
 </td>
@@ -173,7 +174,7 @@ Retrieves the number of trace providers in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/7668d9cc-c1b3-4b72-8e37-305c334905f3">Item</a>
 
 
 </td>

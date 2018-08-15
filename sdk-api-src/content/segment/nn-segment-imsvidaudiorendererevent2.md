@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -141,7 +142,7 @@ Indicates a change in the <a href="https://msdn.microsoft.com/8fddf8c3-268e-4706
 <a href="https://msdn.microsoft.com/ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae">AVDecCommonMeanBitRate</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://msdn.microsoft.com/en-us/library/Dd742710(v=VS.85).aspx">AVDecCommonMeanBitRate</a> property.
+Indicates a change in the <a href="dshow.avdeccommonmeanbitrate_property">AVDecCommonMeanBitRate</a> property.
           
 
 </td>

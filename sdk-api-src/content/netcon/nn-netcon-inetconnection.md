@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -110,7 +111,7 @@ Create a duplicate of the network connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/ab27a7fd-061f-4ea2-8ce8-23d59957a46f">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieve the properties for the network connection.

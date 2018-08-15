@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits5_0.h
 req.include-header: Bits.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -64,7 +65,7 @@ The <b>BITS_JOB_PROPERTY_VALUE</b> union provides the
 
 This value is returned when using the enum property ID 
       <b>BITS_JOB_PROPERTY_ID_COST_FLAGS</b> and is applied as the 
-      <a href="https://msdn.microsoft.com/en-us/library/Hh446785(v=VS.85).aspx">transfer policy</a> on the BITS job.
+      <a href="bits_job_transfer_policy.htm">transfer policy</a> on the BITS job.
 
 This value is also used when using the <b>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</b> to specify the minimum notification interval.
 

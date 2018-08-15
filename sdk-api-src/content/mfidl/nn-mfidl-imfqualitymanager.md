@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -118,7 +119,7 @@ Called when the Media Session is about to start playing a new topology.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/c71bec12-33aa-4156-a052-cf75c80df263">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Called when the Media Session is shutting down.

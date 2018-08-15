@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -57,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUPnPDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDevice</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IUPnPDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -102,7 +103,7 @@ Child devices of the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/99842f92-b57d-43fa-aa44-412f260b8af3">Description</a>
 
 
 </td>
@@ -174,7 +175,7 @@ URL for the manufacturer's Web site.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549311">ModelName</a>
+<a href="https://msdn.microsoft.com/c71868ab-e05d-4e6a-b157-4474afc8f61f">ModelName</a>
 
 
 </td>
@@ -186,7 +187,7 @@ Human-readable form of the model name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549321">ModelNumber</a>
+<a href="https://msdn.microsoft.com/7e9b92a6-efad-41f0-b083-a2fed0f70c8b">ModelNumber</a>
 
 
 </td>
@@ -234,7 +235,7 @@ Presentation URL for a Web page that can be used to control the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406413">RootDevice</a>
+<a href="https://msdn.microsoft.com/6c6d1782-693a-4b23-b9e0-7e379ba7f96c">RootDevice</a>
 
 
 </td>
@@ -258,7 +259,7 @@ Human-readable form of the serial number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a>
+<a href="https://msdn.microsoft.com/3b854a5a-a0a9-4236-83c1-98b3671bfc74">Services</a>
 
 
 </td>
@@ -270,7 +271,7 @@ List of services provided by the device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://msdn.microsoft.com/3db09e94-4211-44ff-850e-2e34719909d6">Type</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -71,18 +72,18 @@ Gets the data content of the timed-text object.
 
 
 
-#### - ppData [out]
-
-Type: <b>const BYTE**</b>
-
-A pointer to a memory block that receives a pointer to the data content of the timed-text object.
-
-
 #### - pcLength [out]
 
 Type: <b>DWORD*</b>
 
 A pointer to a variable that receives the length in bytes of the data content.
+
+
+#### - ppData [out]
+
+Type: <b>const BYTE**</b>
+
+A pointer to a memory block that receives a pointer to the data content of the timed-text object.
 
 
 ## -returns

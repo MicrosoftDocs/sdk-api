@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -136,7 +137,7 @@ Destination colors are inverted according to a source mask.
 
 The figure here shows an example of each of the modes with images that have an opacity of 1.0 or 0.5. 
 
-<img alt="An example image of each of the modes with opacity set to 1.0 or 0.5." src="./images/composite_types.png"/>
+<img alt="An example image of each of the modes with opacity set to 1.0 or 0.5." src="images/composite_types.png"/>
 
 There can be slightly different interpretations of these enumeration values depending on where the value is used.
 

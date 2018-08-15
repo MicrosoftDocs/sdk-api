@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.irql:
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> method is enabled for the collection.
+Indicates whether the <a href="https://msdn.microsoft.com/984f60b1-0963-482c-90a3-563e8699f73d">Remove</a> method is enabled for the collection.
 
 This property is read-only.
 

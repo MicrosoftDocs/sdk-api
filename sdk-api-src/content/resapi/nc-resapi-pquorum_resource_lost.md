@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -74,7 +75,7 @@ Called when control of the <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44b
 
 Handle identifying the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> to which this callback 
        applies. The value for <i>ResourceHandle</i> should be the handle passed in during the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> call for this resource.
+       <a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a> call for this resource.
 
 
 ## -returns
@@ -109,7 +110,7 @@ The <i>QuorumResourceLost</i> callback function is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a>
 
 
 

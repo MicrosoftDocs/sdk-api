@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -81,7 +82,7 @@ Encrypts a new payload package to the bundle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/0ED396CC-3CDA-440A-9FA7-3F3A85522778">Close</a>
 </td>
 <td align="left" width="63%">
 Writes the bundle manifest and blockmap footprint files to the bundle.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -59,7 +60,7 @@ req.irql:
 
 ### -param dwThreadId [in]
 
-Contains the current thread identifier. This is the same value returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff546542">GetCurrentThreadId</a>.
+Contains the current thread identifier. This is the same value returned from <a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>.
 
 
 ## -returns
@@ -76,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546542">GetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ A pointer to a table of ARP entries implemented as an array of
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa365956(v=VS.85).aspx">GetIpNetTable</a> function retrieves the IPv4-to-physical address mapping table.
+The <a href="_iphlp_getipnettable">GetIpNetTable</a> function retrieves the IPv4-to-physical address mapping table.
 
 
 on a local system and returns this information in a <b>MIB_IPNETTABLE</b> structure. 
@@ -99,7 +100,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365956(v=VS.85).aspx">GetIpNetTable</a>
+<a href="_iphlp_getipnettable">GetIpNetTable</a>
 
 
 

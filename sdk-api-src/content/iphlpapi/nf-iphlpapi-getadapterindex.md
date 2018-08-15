@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -116,11 +117,11 @@ When one or more adapters are present on the system, <b>GetAdapterIndex</b>  ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375858(v=VS.85).aspx">MprConfigGetFriendlyName</a>
+<a href="_mpr_mprconfiggetfriendlyname">MprConfigGetFriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375859(v=VS.85).aspx">MprConfigGetGuidName</a>
+<a href="_mpr_mprconfiggetguidname">MprConfigGetGuidName</a>
 
 
 

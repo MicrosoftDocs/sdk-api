@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -76,7 +77,7 @@ The size, in bytes, of the <i>SecuritySettings</i> parameter.
 
 ### -param Overlapped [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
+A pointer to a <a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
 
 
 ### -param CompletionRoutine [in, optional]
@@ -101,7 +102,7 @@ Some possible error codes are listed below.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +113,7 @@ The specified address family is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +124,7 @@ An invalid parameter was passed. This error is returned if the socket passed in 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEISCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +135,7 @@ The socket is connected. This function is not permitted with a connected socket,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +146,7 @@ A buffer passed was too small.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -175,7 +176,7 @@ For a server application using connection-oriented sockets (protocol of <b>IPPRO
 
 For connectionless sockets (protocol of <b>IPPROTO_UDP</b>), the application should call the <b>WSASetSocketSecurity</b> function immediately after <a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> or <a href="https://msdn.microsoft.com/dcf2e543-de54-43d9-9e45-4cb935da3548">WSASocket</a> call returns.
 
-Server applications should call the  <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> function to acquire exclusive access to the port used by the socket. This prevents other applications from using the same port. The <b>setsockopt</b> function would be called with the <i>level</i> parameter set to SOL_SOCKET,  the <i>optname</i> parameter set to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>, and the <i>value </i> parameter set to nonzero. The <b>WSASetSocketSecurity</b> function internally calls the <b>setsockopt</b> with SO_EXCLUSIVEADDRUSE to obtain exclusive access to the port. This is to ensure that the socket is not vulnerable to attacks by other applications running on the local computer.
+Server applications should call the  <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> function to acquire exclusive access to the port used by the socket. This prevents other applications from using the same port. The <b>setsockopt</b> function would be called with the <i>level</i> parameter set to SOL_SOCKET,  the <i>optname</i> parameter set to <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>, and the <i>value </i> parameter set to nonzero. The <b>WSASetSocketSecurity</b> function internally calls the <b>setsockopt</b> with SO_EXCLUSIVEADDRUSE to obtain exclusive access to the port. This is to ensure that the socket is not vulnerable to attacks by other applications running on the local computer.
 
 Security settings not set using the <b>WSASetSocketSecurity</b> are derived from the system default policy or the administratively configured policy. It is recommended that most applications specify a value of  <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> for the <a href="https://msdn.microsoft.com/ae77ac61-5035-401e-a4b6-345c1be7b2b7">SOCKET_SECURITY_PROTOCOL</a> enumeration in the <b>SecurityProtocol</b> member of the <b>SOCKET_SECURITY_PROTOCOL</b> pointed to by the <i>SecuritySettings</i> parameter.  This makes the application neutral to security protocols and allows easier deployments among different systems.
 
@@ -290,7 +291,7 @@ Authip QM policy =
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 
 
 
@@ -306,7 +307,7 @@ Authip QM policy =
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a>
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -98,7 +99,7 @@ Always returns <b>S_OK</b>.
 
 If the property description instance comes from <a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a> or <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>, these flags come from the .propdesc file that defines the property description.
 
-If the instance comes from <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>, the type flags come from the .propdesc file and may be influenced by the specific proplist. This means that flags obtained from one property description instance may be slightly different from another instance (both referring to the same property).
+If the instance comes from <a href="shell.IPropertyDescriptionList_GetAt">GetAt</a>, the type flags come from the .propdesc file and may be influenced by the specific proplist. This means that flags obtained from one property description instance may be slightly different from another instance (both referring to the same property).
 
 For additional information on type flags, see the <i>canGroupBy</i>, <i>canStackBy</i>, <i>isInnate</i>, <i>multipleValues</i>, <i>isGroup</i>, <i>isTreeProperty</i>, <i>isViewable</i>, <i>isQueryable</i>, and <i>includeInFullTextQuery</i> attributes of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
 

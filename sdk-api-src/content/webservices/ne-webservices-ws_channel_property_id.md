@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -572,7 +573,7 @@ This property is based on the source IP address that is received from
 
 ### -field WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>structure
+A <a href="https://msdn.microsoft.com/dfd84b91-0a94-4fe6-b8d2-18562afb9c24">SOCKADDR_STORAGE</a>structure
                     used with <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a> 
                     for the following types of channels to retrieve the IP address
                     of the remote party:
@@ -835,7 +836,7 @@ A <b>ULONG</b>used with <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8
                 
 
 This property specifies the maximum amount of memory the channel will keep 
-                    around after a message is <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">reset</a>.  If all the
+                    around after a message is <a href="https://msdn.microsoft.com/90a62cc8-a7e0-4451-8490-f6384bf3e7b6">reset</a>.  If all the
                     messages a channel sees are all smaller than this size, then allocations 
                     for purposes of buffering the messages will be minimized.
                 

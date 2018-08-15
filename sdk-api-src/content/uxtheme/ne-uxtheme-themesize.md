@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -78,7 +79,7 @@ Receives the size that the theme manager uses to draw a part.
 
 
 
-A value from the <b>THEMESIZE</b> enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb759759(v=VS.85).aspx">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part. 
+A value from the <b>THEMESIZE</b> enumeration is used with the <a href="https://msdn.microsoft.com/0da9bbbc-ff63-45a7-a20d-c51b5b3184e2">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part. 
 
 
 

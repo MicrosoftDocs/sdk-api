@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -77,14 +78,14 @@ Represents the apartment threading model to use for activating an in-process ser
 Apartment threading model is MTA and STA.
 
 
-#### - STA
-
-Apartment threading model is STA.
-
-
 #### - MTA
 
 Apartment threading model is MTA.
+
+
+#### - STA
+
+Apartment threading model is STA.
 
 
 ## -see-also

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761196(v=VS.85).aspx">LVM_SETITEMSTATE</a> message explicitly.
+Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/aecd14dd-cfd0-4c7c-bddc-f65022de68c9">LVM_SETITEMSTATE</a> message explicitly.
 
 
 ## -parameters
@@ -93,7 +94,7 @@ This macro should only be used for list-view controls with the <a href="Extended
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a>
+<a href="https://msdn.microsoft.com/b90900f1-833b-418c-8ddc-76c0743b77f9">ListView_SetItemState</a>
  
 
  

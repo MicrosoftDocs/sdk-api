@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: ADAM
 
 The <b>LSA_TRANSLATED_SID</b> structure is used with the 
 <a href="https://msdn.microsoft.com/867604aa-7a39-4da7-b189-a9183461e9a0">LsaLookupNames</a> function to return information about the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> that identifies an account.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> that identifies an account.
 
 
 ## -struct-fields
@@ -64,7 +65,7 @@ The <b>LSA_TRANSLATED_SID</b> structure is used with the
 ### -field Use
 
 A value from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a> enumeration type that identifies the type of SID. 
+<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> enumeration type that identifies the type of SID. 
 
 
 
@@ -139,7 +140,7 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
+<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a>
  
 
  

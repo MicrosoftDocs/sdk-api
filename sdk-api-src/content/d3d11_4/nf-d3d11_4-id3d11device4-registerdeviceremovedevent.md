@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ A pointer to information about the "device removed" event, which can be used in 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
@@ -91,7 +92,7 @@ See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Di
 
 
 
-Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>. The reason for device removal can be retrieved using <a href="https://msdn.microsoft.com/9e09c954-5c61-49fd-b25a-87dc0051a84d">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
+Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">Present</a>. The reason for device removal can be retrieved using <a href="https://msdn.microsoft.com/9e09c954-5c61-49fd-b25a-87dc0051a84d">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
 
 Applications register and un-register a Win32 event handle with a particular device.
           That event handle will be signaled when the device becomes removed.

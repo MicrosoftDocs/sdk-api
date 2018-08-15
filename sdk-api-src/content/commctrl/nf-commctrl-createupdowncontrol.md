@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -63,7 +64,7 @@ Creates an up-down control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Window styles for the control. This parameter should include the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CHILD</a>, <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_BORDER</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control. 
+Window styles for the control. This parameter should include the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_CHILD</a>, <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_BORDER</a>, and <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_VISIBLE</a> styles, and it may include any of the window styles specific to the up-down control. 
 
 
 ### -param x

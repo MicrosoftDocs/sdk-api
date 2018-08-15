@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration.
+The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a> enumeration.
 
 
 ## -parameters
@@ -61,9 +62,9 @@ The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video st
 
 ### -param pState [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a>*</b>
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration that specifies the current state of the video stream.
+A member of the <a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a> enumeration that specifies the current state of the video stream.
 
 
 ## -returns

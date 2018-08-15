@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: videoacc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -104,7 +105,7 @@ Ends frame processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://msdn.microsoft.com/12794739-9120-4dc1-b95d-6d390d25726b">Execute</a>
 </td>
 <td align="left" width="63%">
 Performs a decompression operation.
@@ -113,7 +114,7 @@ Performs a decompression operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://msdn.microsoft.com/3385cad2-8885-4b17-83fa-f40f25b0c433">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a compressed or uncompressed surface that was allocated for DXVA decoding.
@@ -182,7 +183,7 @@ Queries the read/write status of a DXVA decoding surface.
 <a href="https://msdn.microsoft.com/2170cf7e-85c8-4658-84fd-96ebc0d2704f">ReleaseBuffer</a>
 </td>
 <td align="left" width="63%">
-Releases a buffer that was locked by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>.
+Releases a buffer that was locked by a previous call to <a href="https://msdn.microsoft.com/3385cad2-8885-4b17-83fa-f40f25b0c433">GetBuffer</a>.
 
 </td>
 </tr>

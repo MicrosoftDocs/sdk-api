@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -230,7 +231,7 @@ Be careful when you set a file pointer in a multithreaded application. You must 
     resources. For example, an application with threads that share a file handle, update the file pointer, and read 
     from the file must protect this sequence by using a critical section object or mutex object. For more information, 
     see <a href="https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1">Critical Section Objects</a> and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>.
+    <a href="https://msdn.microsoft.com/eca0795a-1fd0-4034-9d61-9416670919cf">Mutex Objects</a>.
 
 If the <i>hFile</i> handle is opened with the 
     <b>FILE_FLAG_NO_BUFFERING</b> flag set, an application can move the file pointer only to 

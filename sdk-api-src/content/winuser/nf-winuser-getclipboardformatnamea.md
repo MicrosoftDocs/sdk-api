@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -118,7 +119,7 @@ Using this function incorrectly might compromise the security of your program. F
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>. 
+For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>. 
 
 <div class="code"></div>
 
@@ -129,7 +130,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -137,7 +138,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
+<a href="https://msdn.microsoft.com/eca6e3ca-46d1-4f1d-a13c-63542e8eb8bf">EnumClipboardFormats</a>
 
 
 
@@ -145,7 +146,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
+<a href="https://msdn.microsoft.com/892add91-a937-4602-86d2-5e5550a81872">RegisterClipboardFormat</a>
  
 
  

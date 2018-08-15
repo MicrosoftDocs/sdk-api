@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
+req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,7 +82,7 @@ Contains the number of supported auth-cipher pairs.
 
 ### -field pAuthCipherPairList
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547659">DOT11_AUTH_CIPHER_PAIR</a> structure containing a list of auth-cipher pairs.
+A <a href="https://msdn.microsoft.com/5fbe23f6-7902-46d4-a1f0-57f045d78662">DOT11_AUTH_CIPHER_PAIR</a> structure containing a list of auth-cipher pairs.
 
 
 ## -see-also

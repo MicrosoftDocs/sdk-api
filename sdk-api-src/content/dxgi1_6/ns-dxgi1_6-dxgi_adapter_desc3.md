@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_6.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -101,7 +102,7 @@ The number of bytes of shared system memory. This is the maximum value of system
 
 ### -field AdapterLuid
 
-A unique value that identifies the adapter. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for a definition of the structure. <b>LUID</b> is defined in dxgi.h.
+A unique value that identifies the adapter. See <a href="https://msdn.microsoft.com/564bcc9a-943b-4ad9-aeaa-0af4c3d3da0c">LUID</a> for a definition of the structure. <b>LUID</b> is defined in dxgi.h.
 
 
 ### -field Flags

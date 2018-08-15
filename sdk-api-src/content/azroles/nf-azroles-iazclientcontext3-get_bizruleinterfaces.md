@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
+The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
 
 This property is read-only.
 

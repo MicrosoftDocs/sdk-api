@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IWSDHttpMessageParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/e5cd5c07-3326-4508-89ac-939466381b12">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the HTTP headers used for SOAP-over-HTTP transmissions.
@@ -80,7 +81,7 @@ Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/af93f97f-a3de-4b5c-92c5-2d4ab91e7985">GetContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves the private transmission context for the current transaction.
@@ -89,7 +90,7 @@ Retrieves the private transmission context for the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/fbe7000f-271a-4939-814d-3696d29f7a41">GetID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transport ID for the current transaction.
@@ -116,7 +117,7 @@ Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmission
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>
+<a href="https://msdn.microsoft.com/8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the private transmission context for the current transaction.

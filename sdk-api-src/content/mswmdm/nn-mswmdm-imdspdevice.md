@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -137,7 +138,7 @@ Retrieves the serial number that uniquely identifies the device. This method is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/76c5ee43-4d21-436e-b193-8a8e034651f0">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device status information. This method is mandatory.
@@ -146,7 +147,7 @@ Retrieves the device status information. This method is mandatory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/15e598bb-bcc9-4254-aa1c-24d7dd6b97a8">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves device type information. This method is mandatory.

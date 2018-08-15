@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,19 +80,19 @@ Send the fax during the discount rate period.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686129(v=VS.85).aspx">IFaxDocument::get_ScheduleTime</a>
+<a href="https://msdn.microsoft.com/1c8f5adf-9c94-4c4b-9a9a-e8377682f6f9">IFaxDocument::get_ScheduleTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686190(v=VS.85).aspx">IFaxDocument::get_ScheduleType</a>
+<a href="https://msdn.microsoft.com/cbcfcdb1-de89-4e74-8f69-b25d4813f28d">IFaxDocument::get_ScheduleType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689070(v=VS.85).aspx">IFaxOutgoingQueue::get_DiscountRateEnd</a>
+<a href="https://msdn.microsoft.com/5bb282da-3226-4c9d-ab75-82a587b0a56f">IFaxOutgoingQueue::get_DiscountRateEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689570(v=VS.85).aspx">IFaxOutgoingQueue::get_DiscountRateStart</a>
+<a href="https://msdn.microsoft.com/8df89f09-8fba-4bad-a516-82ab471d189e">IFaxOutgoingQueue::get_DiscountRateStart</a>
  
 
  

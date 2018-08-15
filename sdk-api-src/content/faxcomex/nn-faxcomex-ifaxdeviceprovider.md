@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -58,7 +59,7 @@ The <b>IFaxDeviceProvider</b> interface defines a configuration object used by a
 
 
 
-A default implementation of <b>IFaxDeviceProvider</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a> object.
+A default implementation of <b>IFaxDeviceProvider</b> is provided as the <a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a> object.
 
 
 

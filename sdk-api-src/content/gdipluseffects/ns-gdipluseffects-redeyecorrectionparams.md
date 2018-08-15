@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -56,8 +57,8 @@ A <b>RedEyeCorrectionParams</b> structure contains members that specify the area
 You can can correct red eyes in a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>RedEyeCorrectionParams</b> structure.</li>
-<li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="https://msdn.microsoft.com/ed889acb-37c1-4fa6-9c46-1f41428b9b36">RedEyeCorrection::SetParameters</a> method of a <a href="https://msdn.microsoft.com/6eb81857-758d-4302-a5e7-4f8b40025b03">RedEyeCorrection</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/6eb81857-758d-4302-a5e7-4f8b40025b03">RedEyeCorrection</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -69,12 +70,12 @@ You can can correct red eyes in a bitmap by following these steps.
 
 Type: <b>UINT</b>
 
-Integer that specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures in the <b>areas</b> array.
+Integer that specifies the number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures in the <b>areas</b> array.
 
 
 ### -field areas
 
 Type: <b>RECT*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
+Pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
 

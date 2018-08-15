@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -81,12 +82,12 @@ A double-precision floating-point number.
 
 ### -field UIAutomationType_Point
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure containing the x- and y-coordinates of a point.
+A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the x- and y-coordinates of a point.
 
 
 ### -field UIAutomationType_Rect
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
 
 
 ### -field UIAutomationType_Element
@@ -126,12 +127,12 @@ An array of double-precision floating-point numbers. This type is not supported 
 
 ### -field UIAutomationType_PointArray
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
+An array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
 
 
 ### -field UIAutomationType_RectArray
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures, each containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
+An array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures, each containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
 
 
 ### -field UIAutomationType_ElementArray
@@ -161,12 +162,12 @@ The address of a variable that receives a double-precision floating-point number
 
 ### -field UIAutomationType_OutPoint
 
-The address of a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure.
+The address of a variable that receives a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure.
 
 
 ### -field UIAutomationType_OutRect
 
-The address of a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+The address of a variable that receives a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure.
 
 
 ### -field UIAutomationType_OutElement
@@ -196,12 +197,12 @@ The address of a variable that receives an array of double-precision floating-po
 
 ### -field UIAutomationType_OutPointArray
 
-The address of a variable that receives an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structures.
+The address of a variable that receives an array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures.
 
 
 ### -field UIAutomationType_OutRectArray
 
-The address of a variable that receives an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures.
+The address of a variable that receives an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures.
 
 
 ### -field UIAutomationType_OutElementArray

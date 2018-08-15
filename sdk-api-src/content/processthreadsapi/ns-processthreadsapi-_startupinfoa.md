@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the x offset of t
 
 
 
-The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create an overlapped window if the <i>x</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="_win32_createwindow_cpp">CreateWindow</a> to create an overlapped window if the <i>x</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 
 ### -field dwY
@@ -104,7 +105,7 @@ If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the y offset of t
 
 
 
-The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create an overlapped window if the <i>y</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="_win32_createwindow_cpp">CreateWindow</a> to create an overlapped window if the <i>y</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 
 ### -field dwXSize
@@ -114,7 +115,7 @@ If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the width of the wind
 
 
 
-For GUI processes, this is used only the first time the new process calls <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create an overlapped window if the <i>nWidth</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+For GUI processes, this is used only the first time the new process calls <a href="_win32_createwindow_cpp">CreateWindow</a> to create an overlapped window if the <i>nWidth</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 
 ### -field dwYSize
@@ -124,7 +125,7 @@ If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the height of the win
 
 
 
-For GUI processes, this is used only the first time the new process calls <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create an overlapped window if the <i>nHeight</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+For GUI processes, this is used only the first time the new process calls <a href="_win32_createwindow_cpp">CreateWindow</a> to create an overlapped window if the <i>nHeight</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 
 ### -field dwXCountChars
@@ -167,7 +168,7 @@ A bitfield that determines whether certain
 </td>
 <td width="60%">
 Indicates that the cursor is in feedback mode for two seconds after 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> is called. The Working in Background cursor is displayed (see the Pointers tab in the Mouse control panel utility). 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> is called. The Working in Background cursor is displayed (see the Pointers tab in the Mouse control panel utility). 
 
 
 
@@ -175,7 +176,7 @@ Indicates that the cursor is in feedback mode for two seconds after
 If during those two seconds the process makes the first GUI call, the system gives five more seconds to the process. If during those five seconds the process shows a window, the system gives five more seconds to the process to finish drawing the window.
 
 The system turns the feedback cursor off after the first call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>, regardless of whether the process is drawing.
+<a href="_win32_getmessage_cpp">GetMessage</a>, regardless of whether the process is drawing.
 
 </td>
 </tr>
@@ -226,7 +227,7 @@ This flag is only valid for console applications running on an x86 computer.
 </dl>
 </td>
 <td width="60%">
-The <b>lpTitle</b> member contains an AppUserModelID. This identifier controls how the taskbar and <b>Start</b> menu present the application, and enables it to be associated with the correct shortcuts and Jump Lists. Generally, applications will use the <a href="https://msdn.microsoft.com/en-us/library/Dd378419(v=VS.85).aspx">SetCurrentProcessExplicitAppUserModelID</a> and <b>GetCurrentProcessExplicitAppUserModelID</b> functions instead of setting this flag. For more information, see <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs</a>.
+The <b>lpTitle</b> member contains an AppUserModelID. This identifier controls how the taskbar and <b>Start</b> menu present the application, and enables it to be associated with the correct shortcuts and Jump Lists. Generally, applications will use the <a href="_shell_GetCurrentProcessExplicitAppUserModelID">SetCurrentProcessExplicitAppUserModelID</a> and <b>GetCurrentProcessExplicitAppUserModelID</b> functions instead of setting this flag. For more information, see <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs</a>.
 
 If STARTF_PREVENTPINNING is used, application windows cannot be pinned on the taskbar. The use of any AppUserModelID-related window properties by the application overrides this setting for that window only.
 
@@ -366,13 +367,13 @@ This flag cannot be used with <b>STARTF_USEHOTKEY</b>.
 
 ### -field wShowWindow
 
-If <b>dwFlags</b> specifies STARTF_USESHOWWINDOW, this member can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function, except for SW_SHOWDEFAULT. Otherwise, this member is ignored. 
+If <b>dwFlags</b> specifies STARTF_USESHOWWINDOW, this member can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="_win32_ShowWindow_cpp">ShowWindow</a> function, except for SW_SHOWDEFAULT. Otherwise, this member is ignored. 
 
 
 
 
 For GUI processes, the first time 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> is called, its <i>nCmdShow</i> parameter is ignored <b>wShowWindow</b> specifies the default value. In subsequent calls to <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>, the <b>wShowWindow</b> member is used if the <i>nCmdShow</i> parameter of <b>ShowWindow</b> is set to SW_SHOWDEFAULT.
+<a href="_win32_showwindow_cpp">ShowWindow</a> is called, its <i>nCmdShow</i> parameter is ignored <b>wShowWindow</b> specifies the default value. In subsequent calls to <a href="_win32_ShowWindow_cpp">ShowWindow</a>, the <b>wShowWindow</b> member is used if the <i>nCmdShow</i> parameter of <b>ShowWindow</b> is set to SW_SHOWDEFAULT.
 
 
 ### -field cbReserved2
@@ -413,8 +414,8 @@ If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard er
 
 
 For graphical user interface (GUI) processes, this information affects the first window created by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> function and shown by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. For console processes, this information affects the console window if a new console is created for the process. A process can use the 
+<a href="_win32_createwindow_cpp">CreateWindow</a> function and shown by the 
+<a href="_win32_showwindow_cpp">ShowWindow</a> function. For console processes, this information affects the console window if a new console is created for the process. A process can use the 
 <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> function to retrieve the 
 <b>STARTUPINFO</b> structure specified when the process was created.
 
@@ -422,7 +423,7 @@ If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_F
 
 If a process is launched from the taskbar or jump list, the system sets <b>hStdOutput</b> to a handle to the monitor that contains the taskbar or jump list used to launch the process. To retrieve this handle, use <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is set in the in the <b>STARTUPINFO</b> structure returned by the <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is set in the in the <b>STARTUPINFO</b> structure returned by the <a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 
@@ -441,7 +442,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

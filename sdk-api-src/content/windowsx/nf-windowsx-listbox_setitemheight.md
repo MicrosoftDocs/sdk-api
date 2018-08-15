@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the height of items in a list box. If the list box has the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761348(v=VS.85).aspx">LB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of items in a list box. If the list box has the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/3ac8e935-6de8-465f-a525-1f493b06ee7c">LB_SETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +85,7 @@ The height of the item or items, in pixels.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761348(v=VS.85).aspx">LB_SETITEMHEIGHT</a>.
+For more information, see <a href="https://msdn.microsoft.com/3ac8e935-6de8-465f-a525-1f493b06ee7c">LB_SETITEMHEIGHT</a>.
 	
 
 

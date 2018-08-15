@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761048(v=VS.85).aspx">LVM_GETITEMPOSITION</a> message. 
+Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/e5841089-c34e-498e-b94c-45c845bfc747">LVM_GETITEMPOSITION</a> message. 
 
 
 ## -parameters
@@ -74,7 +75,7 @@ The index of the list-view item.
 
 ### -param ppt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that receives the position of the item's upper-left corner, in view coordinates. 
+A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that receives the position of the item's upper-left corner, in view coordinates. 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -99,14 +100,14 @@ This function succeeds only when the window is layered and Desktop Windows Manag
 This function currently only supports one flag, <b>WDA_MONITOR</b> (0x01). This flag  enables  a window's contents to be displayed only on the monitor.
 		
 
-This function and <a href="https://msdn.microsoft.com/en-us/library/Dd375340(v=VS.85).aspx">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
+This function and <a href="https://msdn.microsoft.com/fb6c50e1-3051-4881-bd94-46c1206ff4ab">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
 		own onscreen window content from being captured or copied via a specific set of public operating system features 
 		and APIs. However, it works only when the Desktop Window Manager (DWM) is composing the desktop. 
 		
 
 It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that 
-		 using <a href="https://msdn.microsoft.com/en-us/library/Dd375340(v=VS.85).aspx">SetWindowDisplayAffinity</a> 
-		and <b>GetWindowDisplayAffinity</b>, and other necessary functions such as <a href="https://msdn.microsoft.com/en-us/library/Aa969518(v=VS.85).aspx">DwmIsCompositionEnabled</a>, will strictly protect windowed content, as in the case where someone takes a photograph of the screen.
+		 using <a href="https://msdn.microsoft.com/fb6c50e1-3051-4881-bd94-46c1206ff4ab">SetWindowDisplayAffinity</a> 
+		and <b>GetWindowDisplayAffinity</b>, and other necessary functions such as <a href="https://msdn.microsoft.com/31edec77-9869-4585-838d-93b2fcab31a5">DwmIsCompositionEnabled</a>, will strictly protect windowed content, as in the case where someone takes a photograph of the screen.
 		
 
 
@@ -121,7 +122,7 @@ It is important to note that unlike a security feature or an implementation of D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

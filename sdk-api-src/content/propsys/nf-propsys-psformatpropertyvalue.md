@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,9 +62,9 @@ Gets a formatted, Unicode string representation of a property value stored in a 
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>, which represents the property store from which the property value is taken.
+Pointer to an <a href="shell.IPropertyStore">IPropertyStore</a>, which represents the property store from which the property value is taken.
 
 
 ### -param ppd [in]
@@ -126,7 +127,7 @@ The purpose of this function is to convert data into a string suitable for displ
 <a href="shell.propdesc_schema_numberFormat">numberFormat</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>
+<a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>
 </li>
 <li>
 <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>

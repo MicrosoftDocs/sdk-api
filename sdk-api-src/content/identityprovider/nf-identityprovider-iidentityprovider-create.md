@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -66,7 +67,7 @@ The user name with which to associate the new identity.
 
 ### -param ppPropertyStore [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface that represents the property store associated with the new identity.
+A pointer to the <a href="shell_ipropertystore_cpp">IPropertyStore</a> interface that represents the property store associated with the new identity.
 
 
 ### -param pKeywordsToAdd [in, optional]

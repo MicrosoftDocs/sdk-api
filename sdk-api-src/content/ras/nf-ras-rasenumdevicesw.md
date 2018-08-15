@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,6 +77,12 @@ Pointer to a buffer that receives an array of
 <b>RASDEVINFO</b> structure in the buffer to sizeof(<b>RASDEVINFO</b>) to identify the version of the structure.
 
 
+#### - lpcDevices [out]
+
+Pointer to a variable that receives the number of 
+<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
+
+
 #### - lpcb [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the <i>lpRasDevInfo</i> buffer. 
@@ -90,12 +97,6 @@ On output, the function sets this variable to the number of bytes required to en
 
 </div>
 <div> </div>
-
-#### - lpcDevices [out]
-
-Pointer to a variable that receives the number of 
-<a href="https://msdn.microsoft.com/9e569177-ca71-440c-820c-c352616348e9">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
-
 
 ## -returns
 

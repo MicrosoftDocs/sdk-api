@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -77,11 +78,11 @@ Caller-supplied handle to the surface to mark as a banding surface.
 
 
 
-If a <a href="https://msdn.microsoft.com/58e181ff-c792-41a5-967d-a69a8ff5a041">printer graphics DLL</a> uses GDI-managed surfaces, it must call <b>EngMarkBandingSurface</b> if it cannot create a surface (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564199">EngCreateBitmap</a>) that is large enough to hold an entire physical page's bitmap. Both <b>EngCreateBitmap</b> and <b>EngMarkBandingSurface</b> should be called from within the printer graphics DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a> function.
+If a <a href="https://msdn.microsoft.com/58e181ff-c792-41a5-967d-a69a8ff5a041">printer graphics DLL</a> uses GDI-managed surfaces, it must call <b>EngMarkBandingSurface</b> if it cannot create a surface (by calling <a href="https://msdn.microsoft.com/51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c">EngCreateBitmap</a>) that is large enough to hold an entire physical page's bitmap. Both <b>EngCreateBitmap</b> and <b>EngMarkBandingSurface</b> should be called from within the printer graphics DLL's <a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">DrvEnableSurface</a> function.
 
 The handle supplied for <i>hsurf</i> must be a bitmap handle returned by <b>EngCreateBitmap</b>.
 
-If a printer graphics DLL calls <b>EngMarkBandingSurface</b>, it must define <a href="https://msdn.microsoft.com/library/windows/hardware/ff556292">DrvStartBanding</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a> functions.
+If a printer graphics DLL calls <b>EngMarkBandingSurface</b>, it must define <a href="https://msdn.microsoft.com/c9006dd1-055b-4fb0-92e8-c7b6bc294941">DrvStartBanding</a> and <a href="https://msdn.microsoft.com/7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a">DrvNextBand</a> functions.
 
 
 
@@ -91,19 +92,19 @@ If a printer graphics DLL calls <b>EngMarkBandingSurface</b>, it must define <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556214">DrvEnableSurface</a>
+<a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">DrvEnableSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+<a href="https://msdn.microsoft.com/7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a">DrvNextBand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556292">DrvStartBanding</a>
+<a href="https://msdn.microsoft.com/c9006dd1-055b-4fb0-92e8-c7b6bc294941">DrvStartBanding</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564199">EngCreateBitmap</a>
+<a href="https://msdn.microsoft.com/51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c">EngCreateBitmap</a>
  
 
  

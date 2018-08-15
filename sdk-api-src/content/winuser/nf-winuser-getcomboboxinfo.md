@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: Service Pack 6
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ A handle to the combo box.
 
 Type: <b>PCOMBOBOXINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/8b91ce94-cf26-44a4-b814-c0735ff7ff9b">COMBOBOXINFO</a> structure that receives the information. You must set <b>COMBOBOXINFO.cbSize</b> before calling this function. 
 
 
 ## -returns
@@ -91,7 +92,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
+The <a href="https://msdn.microsoft.com/3239dfa8-7301-48e3-ba8e-29c5d5f43b39">CB_GETCOMBOBOXINFO</a> message is equivalent to this function.
 
 
 #### Examples
@@ -118,15 +119,15 @@ GetComboBoxInfo(hwnd, &amp;info);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775839(v=VS.85).aspx">CB_GETCOMBOBOXINFO</a>
+<a href="https://msdn.microsoft.com/3239dfa8-7301-48e3-ba8e-29c5d5f43b39">CB_GETCOMBOBOXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775798(v=VS.85).aspx">COMBOBOXINFO</a>
+<a href="https://msdn.microsoft.com/8b91ce94-cf26-44a4-b814-c0735ff7ff9b">COMBOBOXINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761370(v=VS.85).aspx">GetListBoxInfo</a>
+<a href="https://msdn.microsoft.com/e54f216f-5b18-4203-a876-019048ba369f">GetListBoxInfo</a>
 
 
 

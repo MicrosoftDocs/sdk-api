@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,19 +95,9 @@ The number of neutral samples.
 
 
 
-#### - primaries
-
-The primary colors.
-
-
 #### - *pNeutralSamples
 
 A pointer to the neutral samples.
-
-
-#### - *pReferenceShell
-
-A pointer to the reference shell.
 
 
 #### - *pPlausibleShell
@@ -119,6 +110,16 @@ A pointer to the plausible shell.
 A pointer to the possible shell.
 
 
+#### - *pReferenceShell
+
+A pointer to the reference shell.
+
+
+#### - primaries
+
+The primary colors.
+
+
 ## -see-also
 
 
@@ -128,7 +129,7 @@ A pointer to the possible shell.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/68d681e6-4798-449b-9afd-ab35f24d6e67">Structures</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -81,6 +82,20 @@ Describes the width, height, and location of a rectangle.
 
 
 
+#### - Height
+
+Type: <b>DOUBLE</b>
+
+The height of the rectangle.
+
+
+#### - Width
+
+Type: <b>DOUBLE</b>
+
+The width of the rectangle.
+
+
 #### - X
 
 Type: <b>DOUBLE</b>
@@ -93,18 +108,4 @@ The location of the rectangle's left side.
 Type: <b>DOUBLE</b>
 
 The location of the rectangle's right side.
-
-
-#### - Width
-
-Type: <b>DOUBLE</b>
-
-The width of the rectangle.
-
-
-#### - Height
-
-Type: <b>DOUBLE</b>
-
-The height of the rectangle.
 

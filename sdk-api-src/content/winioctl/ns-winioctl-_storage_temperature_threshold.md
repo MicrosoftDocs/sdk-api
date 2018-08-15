@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-This structure is used to set the over or under temperature threshold of a storage device (via <a href="https://msdn.microsoft.com/library/windows/hardware/mt650982">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>).
+This structure is used to set the over or under temperature threshold of a storage device (via <a href="https://msdn.microsoft.com/6B4BF202-6CC9-4571-9078-019984805F00">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>).
 
 
 ## -struct-fields
@@ -111,23 +112,23 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt650982">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>
+<a href="https://msdn.microsoft.com/6B4BF202-6CC9-4571-9078-019984805F00">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+<a href="https://msdn.microsoft.com/9747be01-7c70-4697-97f7-e3830b54ba0a">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566997">STORAGE_PROPERTY_QUERY</a>
+<a href="https://msdn.microsoft.com/c97a14ab-628c-41f1-96c3-0f47654d0606">STORAGE_PROPERTY_QUERY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt651018">STORAGE_TEMPERATURE_INFO</a>
+<a href="https://msdn.microsoft.com/236B4AC7-AF5E-4556-9FFD-D64C450E6492">STORAGE_TEMPERATURE_INFO</a>
  
 
  

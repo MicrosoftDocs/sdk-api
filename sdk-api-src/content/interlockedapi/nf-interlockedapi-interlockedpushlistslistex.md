@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -70,13 +71,13 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param List [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563805">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
+<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
 
 
 ### -param ListEnd [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563805">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
+<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
 
 
 ### -param Count [in]
@@ -123,7 +124,7 @@ All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary;
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563805">SLIST_ENTRY</a>
+<a href="https://msdn.microsoft.com/6c467621-fa51-49f1-b962-2dd5ec0f7084">SLIST_ENTRY</a>
 
 
 

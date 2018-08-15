@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiRegisterCoDeviceInstallers</b> function is the default handler for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543715">DIF_REGISTER_COINSTALLERS</a>. 
+The <b>SetupDiRegisterCoDeviceInstallers</b> function is the default handler for <a href="https://msdn.microsoft.com/9b75470b-9f65-47ec-b738-9664f3e766d1">DIF_REGISTER_COINSTALLERS</a>. 
 
 
 ## -parameters
@@ -66,7 +67,7 @@ A handle to the <a href="devinst.device_information_sets">device information set
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 
 ## -returns
@@ -106,11 +107,11 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543715">DIF_REGISTER_COINSTALLERS</a>
+<a href="https://msdn.microsoft.com/9b75470b-9f65-47ec-b738-9664f3e766d1">DIF_REGISTER_COINSTALLERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
  
 
  

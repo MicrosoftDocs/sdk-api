@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -424,7 +425,7 @@ A unique identifier assigned by the WS2_32.DLL for each <a href="https://msdn.mi
 Type: <b>WSAPROTOCOLCHAIN</b>
 
 The 
-						<a href="https://msdn.microsoft.com/library/windows/hardware/ff565959">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
+						<a href="https://msdn.microsoft.com/c0676f45-e3e3-45f2-9b34-d7318fddc282">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
 
 
 ### -field iVersion
@@ -439,7 +440,7 @@ The protocol version identifier.
 Type: <b>int</b>
 
 A value to pass as the address family parameter to the 
-<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> or <a href="https://msdn.microsoft.com/dcf2e543-de54-43d9-9e45-4cb935da3548">WSASocket</a> function in order to open a socket for this protocol. This value also uniquely defines the structure of a protocol address for a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> used by the protocol.
+<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a> or <a href="https://msdn.microsoft.com/dcf2e543-de54-43d9-9e45-4cb935da3548">WSASocket</a> function in order to open a socket for this protocol. This value also uniquely defines the structure of a protocol address for a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> used by the protocol.
 
 On the Windows SDK released for Windows Vista and later, the possible values for the address family are defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
@@ -507,7 +508,7 @@ The Windows Sockets provider for NetBIOS is not supported on 64-bit versions of 
 
 The Windows Sockets provider for NetBIOS  only supports sockets where the <i>type</i> parameter is set to <b>SOCK_DGRAM</b>.
 
-The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
+The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
 
 </td>
 </tr>
@@ -841,7 +842,7 @@ An array of Unicode characters that contains a human-readable name identifying t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565959">WSAPROTOCOLCHAIN</a>
+<a href="https://msdn.microsoft.com/c0676f45-e3e3-45f2-9b34-d7318fddc282">WSAPROTOCOLCHAIN</a>
 
 
 

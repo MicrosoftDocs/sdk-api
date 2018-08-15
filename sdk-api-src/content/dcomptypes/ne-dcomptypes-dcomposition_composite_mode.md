@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -86,7 +87,7 @@ Bitmaps are blended according to the mode established by the parent visual.
 
 A single visual can have any combination of visual properties. However, if a 
 visual has the following combination of properties, the borders of the visual will default 
-to <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_HARD</a>.
+to <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_HARD</a>.
 
 
 
@@ -97,7 +98,7 @@ to <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCO
 </code></li>
 <li><code>SetBitmapInterpolationMode(DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR)</code></li>
 </ul>
-If you want a visual to be drawn with antialiasing, use <a href="https://msdn.microsoft.com/en-us/library/Hh437364(v=VS.85).aspx">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_SOFT</a> for the edges.
+If you want a visual to be drawn with antialiasing, use <a href="dcomposition_bitmap_interpolation_mode.htm">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_SOFT</a> for the edges.
 
 
 

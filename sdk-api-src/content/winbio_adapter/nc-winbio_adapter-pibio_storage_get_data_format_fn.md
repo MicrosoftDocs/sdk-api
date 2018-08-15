@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,7 +72,7 @@ Pointer to a variable that receives a  GUID that uniquely identifies the data fo
 
 ### -param Version [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536481">WINBIO_VERSION</a>  structure that receives the version number of the storage adapter component.
+Pointer to a <a href="https://msdn.microsoft.com/b9d08e10-00db-4f3f-9e27-6063aafa4151">WINBIO_VERSION</a>  structure that receives the version number of the storage adapter component.
 
 
 

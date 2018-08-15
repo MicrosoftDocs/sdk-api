@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>ID3DInclude</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/d4513e15-dfe7-4919-a278-d386f25e65e5">Close</a>
 </td>
 <td align="left" width="63%">
 A user-implemented method for closing a shader #include file.
@@ -80,7 +81,7 @@ A user-implemented method for closing a shader #include file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">Open</a>
 </td>
 <td align="left" width="63%">
 A user-implemented method for opening and reading the contents of a shader #include file.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -166,11 +167,11 @@ The estimated speed in bits per second of the receive link from the destination 
 
 The <b>MIB_IPPATH_ROW</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552559">GetIpPathTable</a> function enumerates the IP path entries on a local system and returns this information in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559273">MIB_IPPATH_TABLE</a> structure as an array of <b>MIB_IPPATH_ROW</b> entries. 
+The <a href="https://msdn.microsoft.com/e03816a4-0b86-4e0b-a45e-8148c8ba5472">GetIpPathTable</a> function enumerates the IP path entries on a local system and returns this information in a <a href="https://msdn.microsoft.com/f18aff3c-a7b5-40fa-9308-5bd8821c77e2">MIB_IPPATH_TABLE</a> structure as an array of <b>MIB_IPPATH_ROW</b> entries. 
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552556">GetIpPathEntry</a> function retrieves a single IP path entry and returns this information in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559273">MIB_IPPATH_TABLE</a> structure.
+The <a href="https://msdn.microsoft.com/8ad43a1d-428a-41cc-bba8-5eec7f87c11f">GetIpPathEntry</a> function retrieves a single IP path entry and returns this information in a <a href="https://msdn.microsoft.com/f18aff3c-a7b5-40fa-9308-5bd8821c77e2">MIB_IPPATH_TABLE</a> structure.
 
 
 
@@ -180,19 +181,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552556">GetIp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550031">FlushIpPathTable</a>
+<a href="https://msdn.microsoft.com/3b28e0cd-9cab-41ca-b58c-7632768318c2">FlushIpPathTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552556">GetIpPathEntry</a>
+<a href="https://msdn.microsoft.com/8ad43a1d-428a-41cc-bba8-5eec7f87c11f">GetIpPathEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552559">GetIpPathTable</a>
+<a href="https://msdn.microsoft.com/e03816a4-0b86-4e0b-a45e-8148c8ba5472">GetIpPathTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559273">MIB_IPPATH_TABLE</a>
+<a href="https://msdn.microsoft.com/f18aff3c-a7b5-40fa-9308-5bd8821c77e2">MIB_IPPATH_TABLE</a>
 
 
 

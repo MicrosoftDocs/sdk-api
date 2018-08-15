@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -69,7 +70,7 @@ Non-client area window attributes will be set.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759829(v=VS.85).aspx">SetWindowThemeAttribute</a>
+<a href="https://msdn.microsoft.com/be757193-4f77-456f-bdf5-1e873bf1fac4">SetWindowThemeAttribute</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -85,7 +86,7 @@ Typically, your implementation should call the
 <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method to acknowledge that BITS successfully transferred the files. Download files and the reply file are not available on the client until you call the 
 <b>Complete</b> method.
 
-If you do not call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a> method or the 
+If you do not call the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> method or the 
 <a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">IBackgroundCopyJob::Cancel</a> method within 90 days (default <a href="https://msdn.microsoft.com/32c7e2b1-bac2-4708-a30c-f6b2a816c1a4">JobInactivityTimeout</a> Group Policy), BITS cancels the job and deletes the downloaded files and reply file; job cancellation does not affect files that have been successfully uploaded.
 
 If you want to retrieve the reply data in your callback, query <i>pJob</i> for the 
@@ -93,7 +94,7 @@ If you want to retrieve the reply data in your callback, query <i>pJob</i> for t
 <a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">GetReplyData</a> method. To retrieve the name of the file that contains the reply data, call the 
 <a href="https://msdn.microsoft.com/57f9245c-c1ae-4027-8e84-4926fa4861c3">GetReplyFileName</a> method.
 
-BITS does not guarantee the integrity of the transferred files against third-party intrusions. Clients can implement integrity checks to validate transferred files before calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a>  method. To get notification when a file is transferred, implement the <a href="https://msdn.microsoft.com/c7e22911-9c14-48ef-8283-f0787b089432">IBackgroundCopyCallback2::FileTransferred</a> method. Inside the callback, call the <a href="https://msdn.microsoft.com/3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37">IBackgroundCopyFile3::GetTemporaryName</a> method to get the name of the temporary file that contains the downloaded content. Validate the contents and then call the <a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a> method to indicate if the content is valid. If the content is not valid and BITS downloaded the file from the origin server, the job goes in the error state. If the job was downloaded from a peer, BITS downloads the file from the origin server.
+BITS does not guarantee the integrity of the transferred files against third-party intrusions. Clients can implement integrity checks to validate transferred files before calling the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a>  method. To get notification when a file is transferred, implement the <a href="https://msdn.microsoft.com/c7e22911-9c14-48ef-8283-f0787b089432">IBackgroundCopyCallback2::FileTransferred</a> method. Inside the callback, call the <a href="https://msdn.microsoft.com/3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37">IBackgroundCopyFile3::GetTemporaryName</a> method to get the name of the temporary file that contains the downloaded content. Validate the contents and then call the <a href="https://msdn.microsoft.com/c032ce32-07a4-4ab2-ae57-f9d526d1371a">IBackgroundCopyFile3::SetValidationState</a> method to indicate if the content is valid. If the content is not valid and BITS downloaded the file from the origin server, the job goes in the error state. If the job was downloaded from a peer, BITS downloads the file from the origin server.
 
 <div class="alert"><b>Note</b>  BITS supports up to four simultaneous notifications per user. If one or more applications  block all four notifications for a user from returning, an application running as the same user will not receive  notifications until one or more of the blocking notifications return. To reduce the chance that your callback blocks other notifications, keep your implementation short.</div>
 <div> </div>

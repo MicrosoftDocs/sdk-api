@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IDragSourceHelper2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/1fe9b753-5ac1-4b6f-9538-5259870404ec">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the characteristics of a drag-and-drop operation over an <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a> object.

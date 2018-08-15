@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: batclass.h
 req.include-header: Batclass.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ req.irql:
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle that was previously returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff536266">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle that was previously returned by <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a>.
 
 
 ### -param Irp [in, out]
@@ -102,9 +103,9 @@ IOCTL_BATTERY_SET_INFORMATION
 
 </li>
 </ul>
-The standard battery IOCTLs correspond to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536286">battery miniclass driver routines</a> (BatteryMini<i>Xxx</i> routines). 
+The standard battery IOCTLs correspond to <a href="https://msdn.microsoft.com/de362d42-0185-4519-a5a6-b16e76d4dc4c">battery miniclass driver routines</a> (BatteryMini<i>Xxx</i> routines). 
 
-When the miniclass driver is called with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> request, it should determine whether the IRP contains any private IOCTL defined by the miniclass driver. If so, the miniclass driver should satisfy the request, complete the IRP, and return.
+When the miniclass driver is called with an <a href="https://msdn.microsoft.com/c6436b34-22bd-4e65-bfb0-b2c4d9962e29">IRP_MJ_DEVICE_CONTROL</a> request, it should determine whether the IRP contains any private IOCTL defined by the miniclass driver. If so, the miniclass driver should satisfy the request, complete the IRP, and return.
 
 If the IRP contains a public IOCTL, the driver should pass the IRP to the class driver's <b>BatteryClassIoctl</b> routine. This routine examines the IRP, determines whether it applies to the caller's battery device, and if so, calls the appropriate <a href="https://msdn.microsoft.com/de362d42-0185-4519-a5a6-b16e76d4dc4c">BatteryMiniXxx</a> routine to perform the requested operation. 
 

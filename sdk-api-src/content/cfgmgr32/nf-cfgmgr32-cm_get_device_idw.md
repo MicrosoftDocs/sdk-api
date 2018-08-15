@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ Caller-supplied device instance handle that is bound to the local machine.
 
 ### -param Buffer [out]
 
-Address of a buffer to receive a device instance ID string. The required buffer size can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538441">CM_Get_Device_ID_Size</a>, then incrementing the received value to allow room for the string's terminating <b>NULL</b>. 
+Address of a buffer to receive a device instance ID string. The required buffer size can be obtained by calling <a href="https://msdn.microsoft.com/3ae682d0-d9fa-4a29-8258-c6f72f1940b7">CM_Get_Device_ID_Size</a>, then incrementing the received value to allow room for the string's terminating <b>NULL</b>. 
 
 
 ### -param BufferLen [in]
@@ -100,7 +101,7 @@ The function appends a NULL terminator to the supplied device instance ID string
 
 For information about device instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538074">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
 
 
 
@@ -110,11 +111,11 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538074">CM_Get_Child</a>
+<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538411">CM_Get_Device_ID_Ex</a>
+<a href="https://msdn.microsoft.com/757b8185-c5f5-4623-a410-63fd2f74e34f">CM_Get_Device_ID_Ex</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -64,14 +65,14 @@ The <b>FWPM_SESSION0</b> structure stores the state associated with a client ses
 Uniquely identifies the session. 
 
 If this member is zero in the
-   call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>, Base Filtering Engine (BFE) will generate a GUID.
+   call to <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a>, Base Filtering Engine (BFE) will generate a GUID.
 
 
 ### -field displayData
 
 Allows sessions to be annotated in a human-readable form.
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff550081">FWPM_DISPLAY_DATA0</a> for more information.
+See <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> for more information.
 
 
 ### -field flags
@@ -140,7 +141,7 @@ TRUE if this is a kernel-mode client.
 
 
 
-This structure contains information supplied by the client when creating a session by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>, or information retrieved from the system when enumerating sessions by calling <a href="https://msdn.microsoft.com/fb67d74a-dd96-434c-b218-a34ca6043cb1">FwpmSessionEnum0</a>.
+This structure contains information supplied by the client when creating a session by calling <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a>, or information retrieved from the system when enumerating sessions by calling <a href="https://msdn.microsoft.com/fb67d74a-dd96-434c-b218-a34ca6043cb1">FwpmSessionEnum0</a>.
 
 The members <b>processId</b>, <b>sid</b>,  <b>username</b>, and <b>kernelMode</b> are not supplied by the client. They are supplied by BFE and can be retrieved when enumerating sessions.
 
@@ -154,11 +155,11 @@ The members <b>processId</b>, <b>sid</b>,  <b>username</b>, and <b>kernelMode</b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550081">FWPM_DISPLAY_DATA0</a>
+<a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
+<a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a>
 
 
 

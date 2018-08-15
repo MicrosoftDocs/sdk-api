@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -70,7 +71,7 @@ Specifies the accuracy to be used.
 ### -param desiredAccuracy [in]
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545668">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
+<a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
 
 
 ## -returns
@@ -113,7 +114,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value of <i>desiredAccuracy</i> is not supported in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545668">LOCATION_DESIRED_ACCURACY</a> enumerated type.
+The value of <i>desiredAccuracy</i> is not supported in the <a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> enumerated type.
 
 </td>
 </tr>

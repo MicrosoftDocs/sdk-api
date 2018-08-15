@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -133,9 +134,9 @@ An unspecified error occurred.
 
 
 
-This method is used to invoke both device recording (recording of an audio track to be stored on the media device) and streaming audio data from the media device to be recorded on the computer. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439723">Seek</a> method determines which form of recording occurs.
+This method is used to invoke both device recording (recording of an audio track to be stored on the media device) and streaming audio data from the media device to be recorded on the computer. The <a href="https://msdn.microsoft.com/f416a520-197c-4607-979e-8f43951f2076">Seek</a> method determines which form of recording occurs.
 
-Some devices do not support either type of recording. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a> method must be called before you start recording. If an unsupported type of recording is attempted, this method returns WMDM_E_NOTSUPPORTED.
+Some devices do not support either type of recording. The <a href="https://msdn.microsoft.com/61d0e44c-f1be-4837-a773-48c6c5278fe0">GetCapabilities</a> method must be called before you start recording. If an unsupported type of recording is attempted, this method returns WMDM_E_NOTSUPPORTED.
 
 An argument can be supplied for the <i>pFormat</i> parameter to specify an audio format for recording. To determine the formats supported by the device, see <a href="https://msdn.microsoft.com/a917660d-300f-4ac4-befe-a3f78172411e">GetFormatSupport</a>. If the <i>pFormat</i> parameter is set to <b>NULL</b>, the device records audio data in the default format.
 

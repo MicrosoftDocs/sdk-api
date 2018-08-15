@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -64,7 +65,7 @@ This property is read-only.
 
 
 
-The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="https://msdn.microsoft.com/en-us/library/Hh448743(v=VS.85).aspx">AnnotationType_Comment</a>), but it is not required to.
+The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="uiauto_annotation_type_identifiers.htm">AnnotationType_Comment</a>), but it is not required to.
 
 
 

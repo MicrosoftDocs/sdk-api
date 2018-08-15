@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -152,7 +153,7 @@ For Windows XP (with no service pack installed), this function must be called fr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539899">CM_WaitNoPendingInstallEvents</a>
+<a href="https://msdn.microsoft.com/b9922576-9e7e-454f-88e0-948a1e16523f">CM_WaitNoPendingInstallEvents</a>
  
 
  

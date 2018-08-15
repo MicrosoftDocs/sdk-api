@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -103,7 +104,7 @@ A <a href="https://msdn.microsoft.com/56f2d969-eb1c-44c2-8a12-077a02ae40dc">VDS_
 
 ### -field pwszName
 
-The name used to open a handle for the volume with the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
+The name used to open a handle for the volume with the <a href="base.createfile">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
 
 
 ## -remarks

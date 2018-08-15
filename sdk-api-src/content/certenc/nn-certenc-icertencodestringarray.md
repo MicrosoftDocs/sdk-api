@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -64,7 +65,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeStringArray</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeStringArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeStringArray</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeStringArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +98,7 @@ Performs ASN.1 encoding on a string array stored in the COM object and returns t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/c02a23ea-87c2-4458-8b1a-b010e8103a90">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of values in a string array.
@@ -115,7 +116,7 @@ Returns the type of values contained in a string array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/93f827c6-4dc6-462f-8865-eb631d7fe7bc">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns the value at a specified index of a string array.
@@ -124,7 +125,7 @@ Returns the value at a specified index of a string array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/125524ae-236d-4507-9c00-76a016bf6c62">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a string array to a specified type and number of elements, and clears the values.
@@ -133,7 +134,7 @@ Resets a string array to a specified type and number of elements, and clears the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a value at a specified index of a string array.

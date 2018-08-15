@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -128,7 +129,7 @@ Retrieves the unique name for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451244">GetOptions</a>
+<a href="https://msdn.microsoft.com/a4b86196-04c8-4ec1-bf26-2a33e44020d2">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the options for the GPO.
@@ -137,7 +138,7 @@ Retrieves the options for the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432961">GetPath</a>
+<a href="https://msdn.microsoft.com/ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path to the GPO.
@@ -164,7 +165,7 @@ Retrieves a handle to the root of the registry key for the specified GPO section
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/e64314aa-340f-496c-aa6b-4744573565f6">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves type information for the GPO being edited.
@@ -209,7 +210,7 @@ Opens the default GPO for the specified remote computer and optionally loads the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/e3713e5f-c710-48f7-8081-f2669c77449d">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the specified registry policy settings to disk and updates the revision number of the GPO.

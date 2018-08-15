@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -58,7 +59,7 @@ Provides access to the incoming and outgoing fax queues and fax archives.
 
 
 
-A default implementation is provided by <a href="https://msdn.microsoft.com/en-us/library/Aa358961(v=VS.85).aspx">FaxAccountFolders</a>.
+A default implementation is provided by <a href="https://msdn.microsoft.com/d8ac7e92-45eb-49f8-a885-0e7cb47a0e6d">FaxAccountFolders</a>.
 
 
 

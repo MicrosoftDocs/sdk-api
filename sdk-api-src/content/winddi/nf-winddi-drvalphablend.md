@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>DrvAlphaBlend</b> function provides bit-block transfer capabilities with <a href="https://msdn.microsoft.com/library/windows/hardware/ff538232">alpha blending</a>.
+The <b>DrvAlphaBlend</b> function provides bit-block transfer capabilities with <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">alpha blending</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>DrvAlphaBlend</b> function provides bit-block transfer capabilities with 
 
 ### -param psoDest [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the surface on which to draw.
+Pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the surface on which to draw.
 
 
 ### -param psoSrc [in]
@@ -71,21 +72,21 @@ Pointer to a SURFOBJ structure that identifies the source surface.
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>, <b>DrvAlphaBlend</b> might be called with a single rectangle in order to prevent round-off errors in clipping the output.
+Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure. The CLIPOBJ_<i>Xxx</i> service routines are provided to enumerate the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a> as a set of rectangles. This enumeration limits the area of the destination that is modified. Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>, <b>DrvAlphaBlend</b> might be called with a single rectangle in order to prevent round-off errors in clipping the output.
 
 
 ### -param pxlo [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure that specifies how color indices should be translated between the source and destination surfaces. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
+Pointer to an <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure that specifies how color indices should be translated between the source and destination surfaces. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
 
 If the source surface is palette-managed, its colors are represented by indices into a lookup table of RGB color values. In this case, the XLATEOBJ can be queried for a translate vector that allows the device driver to quickly translate any source index into a color index for the destination.
 
-The situation is more complicated when, for example, the source is RGB but the destination is palette-managed. In this case, the closest match to each source RGB value must be found in the destination palette. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570642">XLATEOBJ_iXlate</a> service routine to perform this matching operation.
+The situation is more complicated when, for example, the source is RGB but the destination is palette-managed. In this case, the closest match to each source RGB value must be found in the destination palette. The driver can call the <a href="https://msdn.microsoft.com/1506efcb-d4fa-4120-89ba-5aca0f3c7f97">XLATEOBJ_iXlate</a> service routine to perform this matching operation.
 
 
 ### -param prclDest [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the blend.
+Pointer to a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the blend.
 
 The driver should be careful to do proper clipping when writing the pixels because the specified rectangle might overhang the destination surface.
 
@@ -105,7 +106,7 @@ The mapping is defined by <i>prclSrc</i> and <i>prclDest</i>. The points specifi
 
 ### -param pBlendObj [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538249">BLENDOBJ</a> structure that describes the blending operation to perform between the source and destination surfaces. This structure is a wrapper for the BLENDFUNCTION structure, which includes necessary source and destination format information not available in the XLATEOBJ. The BLENDFUNCTION structure is defined in the Microsoft Windows SDK documentation. Its members are defined as follows:
+Pointer to a <a href="https://msdn.microsoft.com/1bbe5cb6-8722-45bb-ae43-01bc4460f08d">BLENDOBJ</a> structure that describes the blending operation to perform between the source and destination surfaces. This structure is a wrapper for the BLENDFUNCTION structure, which includes necessary source and destination format information not available in the XLATEOBJ. The BLENDFUNCTION structure is defined in the Microsoft Windows SDK documentation. Its members are defined as follows:
 
 <b>BlendOp</b> defines the blend operation to be performed. Currently this value must be AC_SRC_OVER, which means that the source bitmap is placed over the destination bitmap based on the alpha values of the source pixels. There are three possible cases that this blend operation should handle. These are described in the Remarks section.
 
@@ -153,7 +154,7 @@ From one device-managed surface to a GDI-managed surface, and vice versa.
 
 </li>
 </ul>
-The driver can punt calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564182">EngAlphaBlend</a>.
+The driver can punt calls to <a href="https://msdn.microsoft.com/c8839271-0a75-4657-875f-114545f44777">EngAlphaBlend</a>.
 
 The driver will never be called with overlapping source and destination rectangles on the same surface.
 
@@ -269,7 +270,7 @@ result = (temp + (temp &gt;&gt; 8)) &gt;&gt; 8;</pre>
 </td>
 </tr>
 </table></span></div>
-The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564183">EngAssociateSurface</a>. If the driver has hooked <b>DrvAlphaBlend</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564182">EngAlphaBlend</a>.
+The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when it calls <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>. If the driver has hooked <b>DrvAlphaBlend</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://msdn.microsoft.com/c8839271-0a75-4657-875f-114545f44777">EngAlphaBlend</a>.
 
 
 
@@ -279,47 +280,47 @@ The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+<a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556258">DrvPlgBlt</a>
+<a href="https://msdn.microsoft.com/5bd478f1-0c01-4d7f-9ed1-af84e5bbe773">DrvPlgBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556302">DrvStretchBlt</a>
+<a href="https://msdn.microsoft.com/3520533d-4e42-4abc-bc10-557c674caa33">DrvStretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556306">DrvStretchBltROP</a>
+<a href="https://msdn.microsoft.com/eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2">DrvStretchBltROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557283">DrvTransparentBlt</a>
+<a href="https://msdn.microsoft.com/67e61a43-b962-4905-8876-9a0380848ed0">DrvTransparentBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564182">EngAlphaBlend</a>
+<a href="https://msdn.microsoft.com/c8839271-0a75-4657-875f-114545f44777">EngAlphaBlend</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564185">EngBitBlt</a>
+<a href="https://msdn.microsoft.com/e99dbe54-485b-4a56-9956-2965f04020db">EngBitBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564982">EngPlgBlt</a>
+<a href="https://msdn.microsoft.com/a25a0fcd-1a61-483a-ba22-1214a9806b70">EngPlgBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565025">EngStretchBlt</a>
+<a href="https://msdn.microsoft.com/e8f3084c-6216-497b-923a-adef3bfe8bf7">EngStretchBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565027">EngStretchBltROP</a>
+<a href="https://msdn.microsoft.com/d353fab2-ba5d-42a5-8ce7-04fdc731f6ee">EngStretchBltROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565037">EngTransparentBlt</a>
+<a href="https://msdn.microsoft.com/db98b15f-6b4b-4efc-aa24-20c728b09358">EngTransparentBlt</a>
  
 
  

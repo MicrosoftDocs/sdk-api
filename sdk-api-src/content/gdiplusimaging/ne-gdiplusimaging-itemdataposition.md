@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -88,7 +89,7 @@ GDI+ supports custom metadata for JPEG, PNG, and GIF image files.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534468(v=VS.85).aspx">ImageItemData</a>
+<a href="https://msdn.microsoft.com/56316228-9cae-46d5-bfef-bbd523aabd2b">ImageItemData</a>
  
 
  

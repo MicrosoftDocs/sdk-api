@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -65,7 +66,7 @@ The <b>DS_SCHEMA_GUID_MAP</b> structure contains the results of a call to
 ### -field guid
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the object GUID.
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the object GUID.
 
 
 ### -field guidType
@@ -135,7 +136,7 @@ Pointer to a null-terminated string value that specifies the display name associ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
  
 
  

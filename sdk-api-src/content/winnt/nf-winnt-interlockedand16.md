@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -104,7 +105,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547844">InterlockedAnd</a>
+<a href="https://msdn.microsoft.com/463b579e-d1cd-4ad5-b2f2-bae599849401">InterlockedAnd</a>
 
 
 

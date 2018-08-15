@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -120,7 +121,7 @@ This function does not return a value.
 
 
 
-After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/library/ms632650(v=VS.85).aspx">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
+After you set the flags, send a <a href="https://msdn.microsoft.com/1a4051ac-cc6e-4520-ab66-d0a41a8a4c73">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
 
 
 
@@ -149,7 +150,7 @@ SetThemeAppProperties(dwFlags);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773369(v=VS.85).aspx">GetThemeAppProperties</a>
+<a href="https://msdn.microsoft.com/33d93013-fba8-4282-b2d8-50bae2468fb6">GetThemeAppProperties</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -83,7 +84,7 @@ Type: <b>BOOL</b>
 
 Type: <b>REFIID</b>
 
-Reference to the IID of the interface the handler object should return. This should be <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
+Reference to the IID of the interface the handler object should return. This should be <a href="shell.IPropertyStore">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
 
 
 ### -param ppv [out]

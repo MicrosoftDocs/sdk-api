@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,8 +52,8 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>InterpolationMode</b> enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535711(v=VS.85).aspx">Graphics::GetInterpolationMode</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a> methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
+The <b>InterpolationMode</b> enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the <a href="https://msdn.microsoft.com/a9f3b27c-cb16-4d52-9970-ea3708bd1e0c">Graphics::GetInterpolationMode</a> and <a href="https://msdn.microsoft.com/1624691c-fbf0-4d14-8d48-e7c69e0100aa">Graphics::SetInterpolationMode</a> methods of the 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class.
 
 
 ## -enum-fields
@@ -110,11 +111,11 @@ Specifies high-quality, bicubic interpolation. Prefiltering is performed to ensu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535711(v=VS.85).aspx">Graphics::GetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/a9f3b27c-cb16-4d52-9970-ea3708bd1e0c">Graphics::GetInterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/1624691c-fbf0-4d14-8d48-e7c69e0100aa">Graphics::SetInterpolationMode</a>
  
 
  

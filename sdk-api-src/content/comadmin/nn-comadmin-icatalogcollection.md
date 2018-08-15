@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comadmin.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ Represents any collection in the COM+ catalog. <b>ICatalogCollection</b> enables
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICatalogCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICatalogCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +72,7 @@ The <b>ICatalogCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/0826a2f0-d4a5-40e2-b951-291d67f0d201">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection, giving it the high index value.
@@ -125,7 +126,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/984f60b1-0963-482c-90a3-563e8699f73d">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection, given its index, and re-indexes the items with higher index values.
@@ -152,7 +153,7 @@ Saves all pending changes made to the collection and the items it contains to th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/82ba706c-4f66-448e-b6fa-33be496c56b2">_NewEnum</a>
 
 
 </td>
@@ -177,14 +178,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates whether the <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> method is enabled for the collection.
+Indicates whether the <a href="https://msdn.microsoft.com/0826a2f0-d4a5-40e2-b951-291d67f0d201">Add</a> method is enabled for the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/c1e02dd6-c0bc-45b0-ae1b-c30056a8e697">Count</a>
 
 
 </td>
@@ -232,7 +233,7 @@ The minor version number of the catalog data store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/47c9dcfd-81fc-495c-848a-8c2b655e8fce">Item</a>
 
 
 </td>
@@ -248,7 +249,7 @@ The item that correspond to the specified index.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/0a90538b-a562-40f7-b7d6-16e786db0e1e">Name</a>
 
 
 </td>
@@ -273,7 +274,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates whether the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> method is enabled for the collection.
+Indicates whether the <a href="https://msdn.microsoft.com/984f60b1-0963-482c-90a3-563e8699f73d">Remove</a> method is enabled for the collection.
 
 </td>
 </tr>

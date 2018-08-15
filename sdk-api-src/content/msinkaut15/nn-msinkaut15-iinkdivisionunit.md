@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -162,7 +163,7 @@ Gets the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c069
 
 
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> method to return a single element from a <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">DivisionUnits</a> collection.
+Use the <a href="https://msdn.microsoft.com/332a9365-526e-43df-841f-20eed07762e7">Item</a> method to return a single element from a <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">DivisionUnits</a> collection.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 

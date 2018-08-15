@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,9 +52,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Expands on the information described in the <a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
+Expands on the information described in the <a href="https://msdn.microsoft.com/85987d3a-6abb-4692-9e50-ce1f71d7be74">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
-This structure is sent with the <a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+This structure is sent with the <a href="https://msdn.microsoft.com/0760dbf1-5b20-471c-bfd9-b8d28b52074b">WM_GETTITLEBARINFOEX</a> message.
 
 
 ## -struct-fields
@@ -65,12 +66,12 @@ This structure is sent with the <a href="https://msdn.microsoft.com/en-us/librar
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/0760dbf1-5b20-471c-bfd9-b8d28b52074b">WM_GETTITLEBARINFOEX</a> message.
 
 
 ### -field rcTitleBar
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The bounding rectangle of the title bar. The rectangle is expressed in screen coordinates and includes all titlebar elements except the window menu.
 
@@ -181,7 +182,7 @@ The element is in the pressed state.
 
 ### -field rgrect
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>[CCHILDREN_TITLEBAR+1]</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>[CCHILDREN_TITLEBAR+1]</b>
 
 An array that receives a structure for each element of the title bar. The structures are expressed in screen coordinates. The following are the title bar elements represented by the array.
 
@@ -231,11 +232,11 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a>
+<a href="https://msdn.microsoft.com/0760dbf1-5b20-471c-bfd9-b8d28b52074b">WM_GETTITLEBARINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vss.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>IVssEnumObject</b> interface contains methods
     to iterate over and perform other operations on a list of enumerated objects.
 
 The calling application is responsible for calling 
-    <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the 
+    <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources held by the 
     returned <b>IVssEnumObject</b> when it is no longer needed. It 
     may also need to call <b>IUnknown::Release</b> to release 
     temporary objects (such as strings) returned during enumeration.
@@ -82,7 +83,7 @@ The <b>IVssEnumObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/71bf3789-247e-4e3f-8200-a4309a7c2d8c">Clone</a>
 </td>
 <td align="left" width="63%">
 Copies the specified list of enumerated objects.
@@ -91,7 +92,7 @@ Copies the specified list of enumerated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/9bfaba94-802f-47f5-9843-acc05b32f1b2">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next specified number of objects from the list of enumerated objects.
@@ -100,7 +101,7 @@ Returns the next specified number of objects from the list of enumerated objects
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/98fc07b0-3efe-4ec3-bb70-64a8b8828162">Reset</a>
 </td>
 <td align="left" width="63%">
 Clears the list of enumerated objects.
@@ -109,7 +110,7 @@ Clears the list of enumerated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/a655978e-49fa-445d-8576-ba82b523750c">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of objects in the list of enumerated objects.

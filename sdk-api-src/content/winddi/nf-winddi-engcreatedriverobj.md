@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>EngCreateDriverObj</b> function creates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556162">DRIVEROBJ</a> structure. 
+The <b>EngCreateDriverObj</b> function creates a <a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a> structure. 
 
 
 ## -parameters
@@ -81,7 +82,7 @@ Pointer to a driver-supplied callback function that frees the resource pointed t
 
 ### -param hdev
 
-Handle to the physical device associated with the object. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a> function.
+Handle to the physical device associated with the object. This parameter is the GDI handle received by the driver's <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a> function.
 
 
 ## -returns
@@ -99,7 +100,7 @@ The return value is a handle that identifies the newly-created DRIVEROBJ structu
 
 This structure is used to track a device-managed resource that must be released if the resource-allocating process terminates without first cleaning it up.
 
-The driver can explicitly delete the DRIVEROBJ structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564792">EngDeleteDriverObj</a>. Otherwise, the engine frees the resource by calling the function pointed to by <i>pFreeObjProc</i> when the process that created the DRIVEROBJ terminates.
+The driver can explicitly delete the DRIVEROBJ structure by calling <a href="https://msdn.microsoft.com/5c4f7f6a-331e-4c5d-9663-6a84245a203f">EngDeleteDriverObj</a>. Otherwise, the engine frees the resource by calling the function pointed to by <i>pFreeObjProc</i> when the process that created the DRIVEROBJ terminates.
 
 
 
@@ -109,11 +110,11 @@ The driver can explicitly delete the DRIVEROBJ structure by calling <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556162">DRIVEROBJ</a>
+<a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564792">EngDeleteDriverObj</a>
+<a href="https://msdn.microsoft.com/5c4f7f6a-331e-4c5d-9663-6a84245a203f">EngDeleteDriverObj</a>
  
 
  

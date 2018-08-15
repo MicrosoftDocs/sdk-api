@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -74,6 +75,11 @@ The <b>OutputProc</b> function is an application-defined callback function used 
 
 
 
+#### - cchData [in]
+
+The length, in characters, of the string.
+
+
 #### - hdc [in]
 
 A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="https://msdn.microsoft.com/b14b8c40-f97f-4e41-8d8d-687692acfda9">GrayString</a>.
@@ -82,11 +88,6 @@ A handle to a device context with a bitmap of at least the width and height spec
 #### - lpData [in]
 
 A pointer to the string to be drawn.
-
-
-#### - cchData [in]
-
-The length, in characters, of the string.
 
 
 ## -returns

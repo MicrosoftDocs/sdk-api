@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -78,19 +79,19 @@ TBD
 
 
 
-#### - OemName [in, out, optional]
-
-A pointer to a buffer that receives the OEM string that corresponds to <i>Name</i>.
-
-This parameter can be <b>NULL</b>.
-
-
 #### - NameContainsSpaces [out, optional]
 
 If the function returns <b>TRUE</b>, this parameter indicates whether or not the name 
        contains spaces.
 
 If the function returns <b>FALSE</b>, this parameter is undefined.
+
+
+#### - OemName [in, out, optional]
+
+A pointer to a buffer that receives the OEM string that corresponds to <i>Name</i>.
+
+This parameter can be <b>NULL</b>.
 
 
 ## -returns

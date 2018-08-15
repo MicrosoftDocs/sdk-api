@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -64,7 +65,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeLongArray</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeLongArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeLongArray</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeLongArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +98,7 @@ Performs ASN.1 encoding on a <b>Long</b> array stored in the COM object and retu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/f60cffb1-5202-4dc8-97dd-9eddd381602a">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of <b>Long</b> values in a <b>Long</b> array.
@@ -106,7 +107,7 @@ Returns the number of <b>Long</b> values in a <b>Long</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/0a7c1d6b-8fe7-4cc0-8cbd-2831dd3a178b">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>Long</b> value at a specified index of a <b>Long</b> array.
@@ -115,7 +116,7 @@ Returns the <b>Long</b> value at a specified index of a <b>Long</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/4b5821e0-c81a-47b7-98b0-2a293967d8f6">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a <b>Long</b> array to a specified number of elements.
@@ -124,7 +125,7 @@ Resets a <b>Long</b> array to a specified number of elements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/021b2539-3226-4893-af76-9b7b1637e12e">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>Long</b> value at a specified index of a <b>Long</b> array.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ Data type of a performance counter.
 
 
 
-These flags are an output parameter in <a href="https://msdn.microsoft.com/en-us/library/Bb173534(v=VS.85).aspx">ID3D10Device::CheckCounter</a>.
+These flags are an output parameter in <a href="https://msdn.microsoft.com/a36399af-088f-47b2-a580-d871f9e92038">ID3D10Device::CheckCounter</a>.
 
 
 
@@ -92,7 +93,7 @@ These flags are an output parameter in <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

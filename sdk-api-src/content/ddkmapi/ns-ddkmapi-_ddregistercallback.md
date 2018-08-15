@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551502">DD_DXAPI_REGISTER_CALLBACK</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551514">DD_DXAPI_UNREGISTER_CALLBACK</a> function identifiers of the <b>DxApi</b> function. 
+The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the <a href="https://msdn.microsoft.com/62132334-8989-48cb-919e-a236d2c53683">DD_DXAPI_REGISTER_CALLBACK</a> and <a href="https://msdn.microsoft.com/f6850d7d-3e46-4dc6-b8fd-ddb3dc7994d1">DD_DXAPI_UNREGISTER_CALLBACK</a> function identifiers of the <b>DxApi</b> function. 
 
 
 ## -struct-fields
@@ -235,15 +236,15 @@ Contains client data that is passed back to the client if the <b>pfnCallback</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551502">DD_DXAPI_REGISTER_CALLBACK</a>
+<a href="https://msdn.microsoft.com/62132334-8989-48cb-919e-a236d2c53683">DD_DXAPI_REGISTER_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551514">DD_DXAPI_UNREGISTER_CALLBACK</a>
+<a href="https://msdn.microsoft.com/f6850d7d-3e46-4dc6-b8fd-ddb3dc7994d1">DD_DXAPI_UNREGISTER_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

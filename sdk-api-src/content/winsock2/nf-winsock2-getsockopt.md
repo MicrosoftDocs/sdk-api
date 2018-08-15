@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -73,7 +74,7 @@ The level at which the option is defined. Example:  <a href="https://msdn.micros
 
 ### -param optname [in]
 
-The socket option for which the value is to be retrieved. Example: <a href="https://msdn.microsoft.com/en-us/library/ms740526(v=VS.85).aspx">SO_ACCEPTCONN</a>. The <i>optname</i> value must be a socket option defined within the specified <i>level</i>, or behavior is undefined.
+The socket option for which the value is to be retrieved. Example: <a href="socket_options_and_ioctls_2.htm">SO_ACCEPTCONN</a>. The <i>optname</i> value must be a socket option defined within the specified <i>level</i>, or behavior is undefined.
 
 
 ### -param optval [out]
@@ -102,7 +103,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +115,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +126,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +137,7 @@ One of the <i>optval</i> or the <i>optlen</i> parameters is not a valid part of 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -147,7 +148,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -158,7 +159,7 @@ The <i>level</i> parameter is unknown or invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOPROTOOPT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOPROTOOPT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -169,7 +170,7 @@ The option is unknown or unsupported by the indicated protocol family.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -256,7 +257,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>SO_DONTROUTE</td>
 <td>BOOL</td>
-<td>Routing is disabled. Setting this succeeds but is ignored on AF_INET sockets; fails on AF_INET6 sockets with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOPROTOOPT</a>. This option is not supported on ATM sockets.</td>
+<td>Routing is disabled. Setting this succeeds but is ignored on AF_INET sockets; fails on AF_INET6 sockets with <a href="windows_sockets_error_codes_2.htm">WSAENOPROTOOPT</a>. This option is not supported on ATM sockets.</td>
 </tr>
 <tr>
 <td>SO_ERROR</td>
@@ -265,7 +266,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 </td>
 <td>BOOL</td>
 <td>Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function.</td>
@@ -282,7 +283,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a>
+<a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
 </td>
 <td>BOOL</td>
 <td>Keep-alives are being sent. Not supported on ATM sockets.</td>
@@ -512,7 +513,7 @@ The following table lists value for the <i>optname</i> that represent BSD socket
 
 <div class="alert"><b>Note</b>  When using the 
 <a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a> function, if no data arrives during the period specified in SO_RCVTIMEO, the 
-<b>recv</b> function completes. In Windows versions prior to Windows 2000, any data received subsequently fails with <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a>. In Windows 2000 and later, if no data arrives within the period specified in SO_RCVTIMEO, the 
+<b>recv</b> function completes. In Windows versions prior to Windows 2000, any data received subsequently fails with <a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a>. In Windows 2000 and later, if no data arrives within the period specified in SO_RCVTIMEO, the 
 <b>recv</b> function returns WSAETIMEDOUT, and if data is received, 
 <b>recv</b> returns SUCCESS.</div>
 <div> </div>
@@ -520,7 +521,7 @@ The following table lists value for the <i>optname</i> that represent BSD socket
 
 Calling 
 <b>getsockopt</b> with an unsupported option will result in an error code of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOPROTOOPT</a> being returned from 
+<a href="windows_sockets_error_codes_2.htm">WSAENOPROTOOPT</a> being returned from 
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
 
 More detailed information  on some of the socket options for the <i>optname</i> parameter supported by the <b>getsockopt</b> function are listed below.
@@ -556,7 +557,7 @@ The SO_ERROR option returns and resets the per socket–based error code, which 
 </dd>
 <dt><a id="SO_EXCLUSIVEADDRUSE"></a><a id="so_exclusiveaddruse"></a>SO_EXCLUSIVEADDRUSE</dt>
 <dd>
-Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a> reference for more information.
+Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function. See the <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a> reference for more information.
 
 </dd>
 <dt><a id="SO_GROUP_ID"></a><a id="so_group_id"></a>SO_GROUP_ID</dt>
@@ -572,12 +573,12 @@ This option is reserved. Group priority indicates the priority of the specified 
 The WSAENOPROTOOPT error code is indicated for nongroup sockets or for service providers that do not support group sockets.
 
 </dd>
-<dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a>
+<dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
 </dt>
 <dd>
 An application can request that a TCP/IP service provider enable the use of keep-alive packets on TCP  connections by turning on the SO_KEEPALIVE socket option. This option queries the current value of the keep-alive option on a socket. A Windows Sockets provider need not support the use of keep-alive: if it does, the precise semantics are implementation-specific but should conform to section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the <a href="Http://go.microsoft.com/fwlink/p/?linkid=84405">IETF website</a>.  If a connection is dropped as the result of keep-alives the error code 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a> is returned to any calls in progress on the socket, and any subsequent calls will fail with 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a>. <a href="https://msdn.microsoft.com/library/windows/hardware/ff570831">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
+<a href="windows_sockets_error_codes_2.htm">WSAENETRESET</a> is returned to any calls in progress on the socket, and any subsequent calls will fail with 
+<a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a>. <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
 
 </dd>
 <dt><a id="SO_LINGER"></a><a id="so_linger"></a>SO_LINGER</dt>
@@ -736,7 +737,7 @@ void main() {
 <ul>
 <li>The Af_irda.h header file must be explicitly included.</li>
 <li>Windows returns 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a> to indicate the underlying transceiver driver failed to initialize with the IrDA protocol stack.</li>
+<a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a> to indicate the underlying transceiver driver failed to initialize with the IrDA protocol stack.</li>
 <li>IrDA supports several special socket options:<table>
 <tr>
 <th>Value</th>

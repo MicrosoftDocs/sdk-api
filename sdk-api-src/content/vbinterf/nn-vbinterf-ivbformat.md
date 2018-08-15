@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,7 +57,7 @@ Provides formatting support for controls on a Visual Basic container.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBFormat</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IVBFormat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBFormat</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IVBFormat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>IVBFormat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922919">Format</a>
+<a href="https://msdn.microsoft.com/62200cb0-3704-4caf-9152-1b7b0c43856a">Format</a>
 </td>
 <td align="left" width="63%">
 Formats a string the way the Visual Basic <b>Format$</b> function would.

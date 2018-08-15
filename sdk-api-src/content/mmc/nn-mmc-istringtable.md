@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -78,7 +79,7 @@ The <b>IStringTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406612">AddString</a>
+<a href="https://msdn.microsoft.com/fd4672fb-89d1-4542-b917-58c01290c928">AddString</a>
 </td>
 <td align="left" width="63%">
 Adds a string to the snap-in string table.
@@ -123,7 +124,7 @@ Finds a string in the snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/34dbf92a-b54d-4f60-87ff-493c9946a57d">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string from the snap-in string table.

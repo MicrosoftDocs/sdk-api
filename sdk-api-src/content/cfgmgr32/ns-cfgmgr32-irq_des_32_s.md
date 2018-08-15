@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -72,7 +73,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548220">IRQ_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548229">IRQ_RESOURCE</a> structure.
+The number of elements in the <a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a> structure.
 
 
 ### -field IRQD_Type
@@ -218,11 +219,11 @@ A bitmask representing the processor affinity of the IRQ line that is allocated 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548220">IRQ_RANGE</a>
+<a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548229">IRQ_RESOURCE</a>
+<a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a>
  
 
  

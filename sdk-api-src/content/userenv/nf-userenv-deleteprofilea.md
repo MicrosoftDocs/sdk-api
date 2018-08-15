@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -66,7 +67,7 @@ Deletes the user profile and all user-related settings from the specified comput
 Type: <b>LPCTSTR</b>
 
 Pointer to a string that specifies the user 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>.
+    <a href="https://msdn.microsoft.com/7cb07bcd-70f4-43dd-8382-320fcff151c7">SID</a>.
 
 
 ### -param lpProfilePath [in, optional]

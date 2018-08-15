@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -61,13 +62,13 @@ The <b>DXGI_OUTDUPL_FRAME_INFO</b> structure describes the current desktop image
 
 ### -field LastPresentTime
 
-The time stamp of the last update of the desktop image.  The operating system calls the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> 
+The time stamp of the last update of the desktop image.  The operating system calls the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> 
         function to obtain the value. A zero value indicates that the desktop image was not updated since an application last called the <a href="https://msdn.microsoft.com/C4F8C462-C8D8-4418-9543-7C8C32CE9498">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.
 
 
 ### -field LastMouseUpdateTime
 
-The time stamp of the last update to the mouse.  The operating system calls the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> 
+The time stamp of the last update to the mouse.  The operating system calls the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> 
         function to obtain the value. A zero value indicates that the position or shape of the mouse was not updated since an application last called the <a href="https://msdn.microsoft.com/C4F8C462-C8D8-4418-9543-7C8C32CE9498">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame of the desktop image.  The mouse position is always supplied for a mouse update. A new pointer shape is indicated by a non-zero value in the <b>PointerShapeBufferSize</b> member.
 
 

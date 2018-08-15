@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -119,7 +120,7 @@ The user can manage all fax messages in the outgoing archive.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">IFaxSecurity::get_GrantedRights</a>
+<a href="https://msdn.microsoft.com/329c4bd1-6b92-4dbf-aaf9-2e8c89192fd6">IFaxSecurity::get_GrantedRights</a>
  
 
  

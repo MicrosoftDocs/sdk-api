@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,7 +81,7 @@ Requests an image from an object, such as an item in a Shell folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
+<a href="https://msdn.microsoft.com/f1113429-ea89-4650-b345-db9e275232e6">GetLocation</a>
 </td>
 <td align="left" width="63%">
 Gets a path to the image that is to be extracted.
@@ -94,7 +95,7 @@ Gets a path to the image that is to be extracted.
 
 
 
-There are two steps in the process: First, use <a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a> to request the path description of an image and specify how the image should be rendered. Then, call <a href="https://msdn.microsoft.com/7c40e2cf-c706-4a4a-819f-a416d6846158">Extract</a> to extract the image.
+There are two steps in the process: First, use <a href="https://msdn.microsoft.com/f1113429-ea89-4650-b345-db9e275232e6">GetLocation</a> to request the path description of an image and specify how the image should be rendered. Then, call <a href="https://msdn.microsoft.com/7c40e2cf-c706-4a4a-819f-a416d6846158">Extract</a> to extract the image.
 
 If the object is free-threaded it must also expose an <a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a> interface so it can be stopped and started as needed. This feature can be particularly useful when extraction may be slow.
 

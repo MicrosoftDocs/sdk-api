@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -98,7 +99,7 @@ Retrieves the component's <a href="https://msdn.microsoft.com/eff6b77c-ea4b-4476
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406579">GetFriendlyName</a>
+<a href="https://msdn.microsoft.com/c67e7a30-8bd5-427b-8a67-c77e3cf86e78">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the component's friendly name.

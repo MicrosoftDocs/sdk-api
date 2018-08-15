@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -175,7 +176,7 @@ If the <b>NotifyAddrChange</b> function is called asynchronously, a notification
 Any registration for a notification does not persist across a system shut down or reboot.
 
 On Windows Vista and later, the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568805">NotifyIpInterfaceChange</a> function  can be used to  register to be notified for changes to IPv4 and IPv6 interfaces on  the local computer.
+<a href="https://msdn.microsoft.com/745128cf-7737-4f95-9712-26e0f6ae39b4">NotifyIpInterfaceChange</a> function  can be used to  register to be notified for changes to IPv4 and IPv6 interfaces on  the local computer.
 
 
 #### Examples
@@ -250,7 +251,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568805">NotifyIpInterfaceChange</a>
+<a href="https://msdn.microsoft.com/745128cf-7737-4f95-9712-26e0f6ae39b4">NotifyIpInterfaceChange</a>
 
 
 

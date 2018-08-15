@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ Retrieves data from the clipboard in a specified format. The clipboard must have
 
 Type: <b>UINT</b>
 
-A clipboard format. For a description of the standard clipboard formats, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Standard Clipboard Formats</a>.
+A clipboard format. For a description of the standard clipboard formats, see <a href="clipboard_formats.htm">Standard Clipboard Formats</a>.
 
 
 ## -returns
@@ -91,16 +92,16 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 <div class="alert"><b>Caution</b>  Clipboard data is not trusted. Parse the data carefully before using it in your application.</div>
 <div> </div>
-An application can enumerate the available formats in advance by using the <a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a> function. 
+An application can enumerate the available formats in advance by using the <a href="https://msdn.microsoft.com/eca6e3ca-46d1-4f1d-a13c-63542e8eb8bf">EnumClipboardFormats</a> function. 
 
-The clipboard controls the handle that the <b>GetClipboardData</b> function returns, not the application. The application should copy the data immediately. The application must not free the handle nor leave it locked. The application must not use the handle after the <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> or <a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a> function is called, or after the <a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a> function is called with the same clipboard format. 
+The clipboard controls the handle that the <b>GetClipboardData</b> function returns, not the application. The application should copy the data immediately. The application must not free the handle nor leave it locked. The application must not use the handle after the <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> or <a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a> function is called, or after the <a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a> function is called with the same clipboard format. 
 
-The system performs implicit data format conversions between certain clipboard formats when an application calls the <b>GetClipboardData</b> function. For example, if the <a href="https://msdn.microsoft.com/en-us/library/Ff729168(v=VS.85).aspx">CF_OEMTEXT</a> format is on the clipboard, a window can retrieve data in the <a href="https://msdn.microsoft.com/en-us/library/Ff729168(v=VS.85).aspx">CF_TEXT</a> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Synthesized Clipboard Formats</a>. 
+The system performs implicit data format conversions between certain clipboard formats when an application calls the <b>GetClipboardData</b> function. For example, if the <a href="standard_clipboard_formats.htm">CF_OEMTEXT</a> format is on the clipboard, a window can retrieve data in the <a href="standard_clipboard_formats.htm">CF_TEXT</a> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="clipboard_formats.htm">Synthesized Clipboard Formats</a>. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Copying Information to the Clipboard</a>.
+For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 
@@ -111,11 +112,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a>
+<a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a>
 
 
 
@@ -123,11 +124,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
+<a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
+<a href="https://msdn.microsoft.com/eca6e3ca-46d1-4f1d-a13c-63542e8eb8bf">EnumClipboardFormats</a>
 
 
 
@@ -135,7 +136,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
+<a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a>
  
 
  

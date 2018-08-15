@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,7 +80,7 @@ The key specifies the encryption algorithm used.
 
 ### -param hHash [in]
 
-A handle to a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash object</a>. If data is to be hashed and encrypted simultaneously, a handle to a hash object can be passed in the <i>hHash</i> parameter. The hash value is updated with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> passed in. This option is useful when generating signed and encrypted text.
+A handle to a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash object</a>. If data is to be hashed and encrypted simultaneously, a handle to a hash object can be passed in the <i>hHash</i> parameter. The hash value is updated with the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> passed in. This option is useful when generating signed and encrypted text.
 
 Before calling <b>CryptEncrypt</b>, the application must obtain a handle to the hash object by calling the 
 <a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a> function. After the encryption is complete, the hash value can be obtained by using the 
@@ -400,7 +401,7 @@ For examples that use this function, see  <a href="https://msdn.microsoft.com/a2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ The <b>IPortableDevicePropertiesBulk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/18a3458d-df93-4bdf-b5f2-f0197c35a1dd">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending properties request.
@@ -113,7 +114,7 @@ Queues a request to set one or more specified values on one or more specified ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/a69afdc9-622d-45fc-b71e-6058d9d528b0">Start</a>
 </td>
 <td align="left" width="63%">
 Starts a queued operation.

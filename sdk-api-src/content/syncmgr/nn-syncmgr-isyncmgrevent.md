@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ISyncMgrEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/849e2bfe-daf7-422a-909c-03608ef1e325">GetContext</a>
 </td>
 <td align="left" width="63%">
 Gets a context object that can be used by a handler to display properties or execute a context menu action.
@@ -80,7 +81,7 @@ Gets a context object that can be used by a handler to display properties or exe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/3ec45cf6-d282-4df9-bd4a-b5d75df69ff4">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the event description.
@@ -98,7 +99,7 @@ Gets the event ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/51651a03-da3d-4b75-97bf-3be1db56054e">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets event flags.

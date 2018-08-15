@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -70,6 +71,11 @@ Contains possible values for the LiveSetting property. This property is implemen
 
 
 
+#### - LiveSetting_Assertive
+
+The provider element sends change notifications when the content of the live region changes, and a client should immediately notify the user of each change.
+
+
 #### - LiveSetting_Off
 
 The provider element does not send change notifications when the content of the live region changes. A client application will be aware of changes to the live region only if the client handles other events related to the elements in the live region.
@@ -78,11 +84,6 @@ The provider element does not send change notifications when the content of the 
 #### - LiveSetting_Polite
 
 The provider element sends change notifications when the content of the live region changes, but a client should not interrupt the user to inform the user of changes. Instead, the client should wait until the user is not performing high-priority actions and wants to receive low-priority notifications.
-
-
-#### - LiveSetting_Assertive
-
-The provider element sends change notifications when the content of the live region changes, and a client should immediately notify the user of each change.
 
 
 ## -see-also

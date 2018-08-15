@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>FwpmSessionEnum0</b> function returns the next page of results from the s
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param enumHandle [in]
@@ -82,7 +83,7 @@ The number of session entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff550083">FWPM_SESSION0</a>***</b>
+Type: <b><a href="https://msdn.microsoft.com/9f259ab7-cec9-44c1-8914-2850235470b3">FWPM_SESSION0</a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -169,7 +170,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550083">FWPM_SESSION0</a>
+<a href="https://msdn.microsoft.com/9f259ab7-cec9-44c1-8914-2850235470b3">FWPM_SESSION0</a>
 
 
 

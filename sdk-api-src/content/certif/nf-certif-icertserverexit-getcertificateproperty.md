@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -165,7 +166,7 @@ Certificate serial number
 
 The certificate's DistinguishedName, RawName, and SerialNumber properties are accessible by <b>GetCertificateProperty</b> only after the policy module has finished processing the request and the certificate is issued.
 
-The following properties apply to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>. The context must be  zero to read any of these properties. The context is set to zero when the <a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a> object is initially created.  It can also be set to zero by invoking the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a> method.
+The following properties apply to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>. The context must be  zero to read any of these properties. The context is set to zero when the <a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a> object is initially created.  It can also be set to zero by invoking the <a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">SetContext</a> method.
 
 <table>
 <tr>
@@ -453,7 +454,7 @@ Binary data
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="https://msdn.microsoft.com/en-us/library/ms221097(v=VS.85).aspx">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> is stored as a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a>  encoded X.509 certificate.
+A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="2a150503-f474-41b8-90dd-fbbc955bea99">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> is stored as a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a>  encoded X.509 certificate.
 
 
 ## -returns

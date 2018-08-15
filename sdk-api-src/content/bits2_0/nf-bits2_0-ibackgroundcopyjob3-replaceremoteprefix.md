@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1

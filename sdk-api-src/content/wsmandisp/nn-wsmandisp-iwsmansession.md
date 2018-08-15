@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines operations and session settings.  Any Windows Remote Management operations require creation of an <b>IWSManSession</b> object that connects to a remote computer, <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">base management controller</a> (BMC), or the local computer. WinRM network operations include getting, writing, enumerating data, or invoking methods.  The methods of the <b>IWSManSession</b> object mirror the basic  operations defined in the WS-Management protocol.
+Defines operations and session settings.  Any Windows Remote Management operations require creation of an <b>IWSManSession</b> object that connects to a remote computer, <a href="windows_remote_management_glossary.htm">base management controller</a> (BMC), or the local computer. WinRM network operations include getting, writing, enumerating data, or invoking methods.  The methods of the <b>IWSManSession</b> object mirror the basic  operations defined in the WS-Management protocol.
 
 
 ## -inheritance
@@ -99,10 +100,10 @@ Enumerates a table, data collection, or  log resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>
 </td>
 <td align="left" width="63%">
-Retrieves the resource specified by the  <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">URI</a> and returns an XML representation of the current instance of the resource.
+Retrieves the resource specified by the  <a href="windows_remote_management_glossary.htm">URI</a> and returns an XML representation of the current instance of the resource.
 
 </td>
 </tr>
@@ -176,7 +177,7 @@ Gets additional error information in an XML stream for the preceding call to an 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923255">Timeout</a>
+<a href="https://msdn.microsoft.com/23cec29b-20aa-440e-9c4d-c65cf81da719">Timeout</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -88,7 +89,7 @@ Client applications such as screen readers use this method  to retrieve  the ful
 Despite its name, the <b>ITextRangeProvider::ExpandToEnclosingUnit</b> method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. If the range is already an exact quantity of the specified units, it remains unchanged. It is critical that the <b>ExpandToEnclosingUnit</b> method always normalizes text ranges in a consistent manner; otherwise, other aspects of text range manipulation by text unit would be unpredictable. The following diagram shows how <b>ExpandToEnclosingUnit</b> normalizes a text range by moving the endpoints of the range. 
             
 
-<img alt="Diagram showing endpoint positions before and after a call to ExpandToEnclosingUnit" src="./images/ExpandToEnclosingUnit.jpg"/>
+<img alt="Diagram showing endpoint positions before and after a call to ExpandToEnclosingUnit" src="images/ExpandToEnclosingUnit.jpg"/>
 <b>ExpandToEnclosingUnit</b> defaults to the next largest text unit 
         supported if the specified text unit is not supported by the control. 
         

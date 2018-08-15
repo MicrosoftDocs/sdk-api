@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -58,7 +59,7 @@ Your writer application should implement this interface only if you need to use 
 The <b>IVssExamineWriterMetadataEx2</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx2</b> 
-   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface, and pass  
    the <b>IID_IVssExamineWriterMetadataEx2</b> constant as the interface identifier (IID) parameter.
 
@@ -83,7 +84,7 @@ The <b>IVssExamineWriterMetadataEx2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/77f21feb-bd7c-4fd0-820b-9dabb1bcbc89">GetExcludeFromSnapshotCount</a>
 </td>
 <td align="left" width="63%">
-Obtains the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains the number of <a href="vssgloss_f.htm">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 </td>
 </tr>
@@ -92,7 +93,7 @@ Obtains the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656
 <a href="https://msdn.microsoft.com/3df57749-9a26-4187-b1fc-aeb68a4d1d06">GetExcludeFromSnapshotFile</a>
 </td>
 <td align="left" width="63%">
-Obtains information about <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains information about <a href="vssgloss_f.htm">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 </td>
 </tr>

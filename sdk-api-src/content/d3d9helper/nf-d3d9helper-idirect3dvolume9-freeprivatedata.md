@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ Reference to the globally unique identifier that identifies the private data to 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_NOTFOUND.
 
@@ -91,15 +92,15 @@ Direct3D calls this method automatically when a volume is released.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205932(v=VS.85).aspx">IDirect3DVolume9</a>
+<a href="https://msdn.microsoft.com/b157d2d1-5813-43a1-ac3a-000b13b1bb62">IDirect3DVolume9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205937(v=VS.85).aspx">IDirect3DVolume9::GetPrivateData</a>
+<a href="https://msdn.microsoft.com/73f37211-b6e6-4007-8767-6f68fa026cb5">IDirect3DVolume9::GetPrivateData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205939(v=VS.85).aspx">IDirect3DVolume9::SetPrivateData</a>
+<a href="https://msdn.microsoft.com/e6d49e44-2633-4a11-8361-f8ea3b2b7d37">IDirect3DVolume9::SetPrivateData</a>
  
 
  

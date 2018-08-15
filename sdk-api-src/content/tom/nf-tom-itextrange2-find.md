@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -77,7 +78,7 @@ The number of characters to search through.
 
 Type: <b>long</b>
 
-Flags that control the search as defined for <a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a>.
+Flags that control the search as defined for <a href="https://msdn.microsoft.com/e0c95f5b-e147-4c1f-ae1a-def36b0be5c1">ITextRange::FindText</a>.
 
 
 ### -param pDelta [out]

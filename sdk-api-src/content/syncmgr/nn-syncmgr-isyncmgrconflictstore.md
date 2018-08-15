@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -89,7 +90,7 @@ Enumerates conflicts scoped to the provided sync handler and sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/1a41bc9a-6f5d-47bf-9186-711292d8be07">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of conflicts in the store.

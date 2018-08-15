@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -200,7 +201,7 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_SETPOPUP_POS</td>
 <td>Sets the position of the subsequent pop-up window.</td>
-<td>Contains the position data. Use <a href="https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx">MAKELONG</a> to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.</td>
+<td>Contains the position data. Use <a href="https://msdn.microsoft.com/161979a1-296c-47ed-bf41-74a561b5ba05">MAKELONG</a> to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.</td>
 </tr>
 <tr>
 <td>HELP_SETWINPOS</td>

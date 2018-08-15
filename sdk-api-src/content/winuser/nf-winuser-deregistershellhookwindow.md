@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -73,7 +74,7 @@ Unregisters a specified Shell window that is registered to receive Shell
 Type: <b>HWND</b>
 
 A handle to the window to be unregistered. The window was registered with a call to the
-		<a href="https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a> function.
+		<a href="https://msdn.microsoft.com/122f2ddf-9156-4f75-a919-e8ab65a2745f">RegisterShellHookWindow</a> function.
 
 
 ## -returns
@@ -111,11 +112,11 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a>
+<a href="https://msdn.microsoft.com/122f2ddf-9156-4f75-a919-e8ab65a2745f">RegisterShellHookWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

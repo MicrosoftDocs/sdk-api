@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ A zero based index value indicating the output pin through which to transform th
 
 ### -param p [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735226(v=VS.85).aspx">MIL_2DPOINTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5898a130-c7d2-4880-9a2a-2dcd2d984605">MIL_2DPOINTD</a>*</b>
 
 A pointer to the point to transform.
 
@@ -82,7 +83,7 @@ A value indicating whether the point is being transformed from front to back in 
 
 ### -param pContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>*</b>
 
 The render context to use for the transformation.
 

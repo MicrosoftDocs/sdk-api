@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -186,7 +187,7 @@ Structure used for the
 ### -field cv.pVolumeUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the volume object. For more information, see 
+<a href="_com_iunknown">IUnknown</a> for the volume object. For more information, see 
         <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">Volume Object</a>.
 
 
@@ -199,7 +200,7 @@ Structure used for the <a href="https://msdn.microsoft.com/c7e42aa4-3233-40e9-b5
 ### -field bvp.pVolumeUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the volume object. For more information, see 
+<a href="_com_iunknown">IUnknown</a> for the volume object. For more information, see 
         <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">Volume Object</a>.
        
 
@@ -226,7 +227,7 @@ Structure used for the
 ### -field cl.pLunUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the LUN object. For more information, see 
+<a href="_com_iunknown">IUnknown</a> for the LUN object. For more information, see 
         <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN Object</a>.
 
 
@@ -239,7 +240,7 @@ Structure used for the
 ### -field ct.pTargetUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the target object. 
+<a href="_com_iunknown">IUnknown</a> for the target object. 
         For more information, see the <a href="https://msdn.microsoft.com/e88d65ad-9b56-4620-a0f5-573c5e245b3e">Target Object</a>.
        
 
@@ -253,7 +254,7 @@ Structure used for the
 ### -field cpg.pPortalGroupUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the portal group object. 
+<a href="_com_iunknown">IUnknown</a> for the portal group object. 
         For more information, see the <a href="https://msdn.microsoft.com/e5892e96-b6ad-447a-9627-b44fc6f1b27a">Portal Group Object</a>.
        
 
@@ -267,7 +268,7 @@ Structure used for the
 ### -field cvd.pVDiskUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the virtual disk object.
+<a href="_com_iunknown">IUnknown</a> for the virtual disk object.
 
 
 ## -remarks

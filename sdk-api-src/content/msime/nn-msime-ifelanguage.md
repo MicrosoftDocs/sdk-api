@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msime.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IFELanguage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/EF03C40A-62D1-4B8E-9960-3CD2D515B7CE">Close</a>
 </td>
 <td align="left" width="63%">
 Terminates the <b>IFELanguage</b> object.
@@ -107,7 +108,7 @@ Gets morphological analysis results.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/2E1CEC6B-B0EA-4DBE-A122-D44606B467CC">Open</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IFELanguage</b> object.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>IMbnInterfaceManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439398">GetInterface</a>
+<a href="https://msdn.microsoft.com/f44aa20d-7edd-4227-8eca-9aacb19619e8">GetInterface</a>
 </td>
 <td align="left" width="63%">
 Gets a specific interface.
@@ -80,7 +81,7 @@ Gets a specific interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439475">GetInterfaces</a>
+<a href="https://msdn.microsoft.com/1cd10189-8f36-4bcb-95e9-35064e70fdf8">GetInterfaces</a>
 </td>
 <td align="left" width="63%">
 Gets a list of all available interfaces.

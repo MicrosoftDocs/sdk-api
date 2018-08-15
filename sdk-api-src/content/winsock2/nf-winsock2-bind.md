@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -77,7 +78,7 @@ The length, in bytes, of the value pointed to by the <i>name</i> parameter.
 
 #### - addr [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure of the local address to assign to the bound socket .
+A pointer to a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ## -returns
@@ -96,7 +97,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +109,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +120,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,20 +134,20 @@ the <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">se
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRINUSE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 Only one usage of each socket address (protocol/network address/port) is normally permitted.
 
-This error is returned if a process on the computer is already bound to the same fully qualified address and the socket has not been marked to allow address reuse with SO_REUSEADDR. For example, the IP address and port specified in the <i>name</i> parameter are already bound to another socket being used by another application. For more information, see the SO_REUSEADDR socket option in the <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET Socket Options</a> reference,  <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>.
+This error is returned if a process on the computer is already bound to the same fully qualified address and the socket has not been marked to allow address reuse with SO_REUSEADDR. For example, the IP address and port specified in the <i>name</i> parameter are already bound to another socket being used by another application. For more information, see the SO_REUSEADDR socket option in the <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET Socket Options</a> reference,  <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>, and <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,7 +160,7 @@ This error is returned if the specified address pointed to by the <i>name</i> pa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +173,7 @@ This error is returned if the <i>name</i> parameter is NULL, the <i>name</i> or 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -183,7 +184,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,7 +197,7 @@ This error is returned of the socket <i>s</i> is already bound to an address.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -209,7 +210,7 @@ This error is returned of not enough buffers are available or there are too many
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -251,7 +252,7 @@ A name consists of three parts when using the Internet address family:
 
 
 In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. It is cast this way for Windows Sockets 1.1 compatibility. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first 2 bytes in this block (corresponding to the <b>sa_family</b> member of the <b>sockaddr</b> structure, the <b>sin_family</b> member of the <b>sockaddr_in</b> structure, or the <b>sin6_family</b> member of the <b>sockaddr_in6</b> structure) must contain the address family that was used to create the socket. Otherwise, an error WSAEFAULT occurs.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. It is cast this way for Windows Sockets 1.1 compatibility. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first 2 bytes in this block (corresponding to the <b>sa_family</b> member of the <b>sockaddr</b> structure, the <b>sin_family</b> member of the <b>sockaddr_in</b> structure, or the <b>sin6_family</b> member of the <b>sockaddr_in6</b> structure) must contain the address family that was used to create the socket. Otherwise, an error WSAEFAULT occurs.
 
 If an application does not care what local address is assigned, specify the constant value <b>INADDR_ANY</b> for an IPv4 local address or the constant value <b>in6addr_any</b> for an IPv6 local address in the <b>sa_data</b> member of the <i>name</i> parameter. This allows the underlying service provider to use any appropriate network address, potentially simplifying application programming in the presence of <i>multihomed</i> hosts (that is, hosts that have more than one network interface and address).
 
@@ -266,7 +267,7 @@ On Windows Vista and later, the dynamic client port range can be viewed and cha
 The application can use 
 <a href="https://msdn.microsoft.com/be20a731-cdfc-48ae-90b2-43f2cf9ecf6d">getsockname</a> after calling 
 <b>bind</b> to learn the address and the port that has been assigned to the socket. If the Internet address is equal to <b>INADDR_ANY</b> or <b>in6addr_any</b>, 
-<b>getsockname</b> cannot necessarily supply the address until the socket is connected, since several addresses can be valid if the host is multihomed. Binding to a specific port number other than port 0 is discouraged for client applications, since there is a danger of conflicting with another socket already using that port number on the local computer.<div class="alert"><b>Note</b>  When using <b>bind</b> with the SO_EXCLUSIVEADDRUSE or SO_REUSEADDR socket option, the socket option must be set prior to executing <b>bind</b> to have any affect. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a> and <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>.</div>
+<b>getsockname</b> cannot necessarily supply the address until the socket is connected, since several addresses can be valid if the host is multihomed. Binding to a specific port number other than port 0 is discouraged for client applications, since there is a danger of conflicting with another socket already using that port number on the local computer.<div class="alert"><b>Note</b>  When using <b>bind</b> with the SO_EXCLUSIVEADDRUSE or SO_REUSEADDR socket option, the socket option must be set prior to executing <b>bind</b> to have any affect. For more information, see <a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a> and <a href="https://msdn.microsoft.com/b37a3e33-65ee-43b1-bc8b-3280db7ebee4">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>.</div>
 <div> </div>
 
 
@@ -390,7 +391,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570830">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
 
 
 
@@ -430,7 +431,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
 
 
 

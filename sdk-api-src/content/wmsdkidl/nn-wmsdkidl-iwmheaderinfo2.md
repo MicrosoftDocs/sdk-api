@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>IWMHeaderInfo2</b> interface exposes information about the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">codecs</a> used to create the content in a file.
+The <b>IWMHeaderInfo2</b> interface exposes information about the <a href="wmformat_glossary.htm">codecs</a> used to create the content in a file.
 
 The <b>IWMHeaderInfo2</b> interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object. To obtain a pointer to an instance, call the <b>QueryInterface</b> method of any other interface in the desired object.
 
@@ -120,7 +121,7 @@ For information about using the writer for metadata editing, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IESEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/bef529c5-0a97-4eb0-83ca-669edc7a2452">GetData</a>
 </td>
 <td align="left" width="63%">
 Returns a byte array that contains the event data.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdVideoPortGetSignalStatus</i> callback function retrieves the status of 
 
 #### - lpGetSignalStatus
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551620">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
+Points to a <a href="https://msdn.microsoft.com/33db5ce5-534b-4e66-853b-5e60892f544b">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
 
 
 ## -returns
@@ -97,7 +98,7 @@ The driver should determine whether a valid signal is coming in to the hardware 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551620">DD_GETVPORTSIGNALDATA</a>
+<a href="https://msdn.microsoft.com/33db5ce5-534b-4e66-853b-5e60892f544b">DD_GETVPORTSIGNALDATA</a>
  
 
  

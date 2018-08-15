@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -138,7 +139,7 @@ InfSectionExt    : REG_SZ :    ".NTX86"</pre>
 </td>
 </tr>
 </table></span></div>
-If a driver is not selected for the specified device information element, a null driver is installed. Upon return, the flags in the device's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure indicate whether the system should be restarted or rebooted to cause the device to start.
+If a driver is not selected for the specified device information element, a null driver is installed. Upon return, the flags in the device's <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure indicate whether the system should be restarted or rebooted to cause the device to start.
 
 
 
@@ -152,11 +153,11 @@ If a driver is not selected for the specified device information element, a null
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551045">SetupDiGetActualSectionToInstallEx</a>
+<a href="https://msdn.microsoft.com/0f05e3ec-09ea-4d9a-99c9-ddbc16753481">SetupDiGetActualSectionToInstallEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a>
+<a href="https://msdn.microsoft.com/130a58a8-7964-40cb-87e8-4765178bd1ff">SetupDiInstallDevice</a>
  
 
  

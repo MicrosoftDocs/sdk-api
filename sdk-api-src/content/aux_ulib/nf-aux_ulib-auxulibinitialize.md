@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: aux_ulib.h
 req.include-header: 
+req.redist: Windows Auxiliary API library version 1.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

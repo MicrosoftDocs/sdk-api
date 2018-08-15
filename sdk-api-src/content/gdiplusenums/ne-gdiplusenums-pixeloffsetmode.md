@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>PixelOffsetMode</b> enumeration specifies the pixel offset mode of a 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535720(v=VS.85).aspx">Graphics::GetPixelOffsetMode</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535813(v=VS.85).aspx">Graphics::SetPixelOffsetMode</a> methods of the 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. This enumeration is used by the <a href="https://msdn.microsoft.com/9d379aad-8e0d-4e3f-bbff-a8b26d0efa15">Graphics::GetPixelOffsetMode</a> and <a href="https://msdn.microsoft.com/2e93a8b1-e44d-4bd9-86bc-4291719afe9c">Graphics::SetPixelOffsetMode</a> methods of the 
 			<b>Graphics</b> class.
 
 
@@ -106,11 +107,11 @@ Consider the pixel in the upper-left corner of an image with address (0, 0). Wit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535720(v=VS.85).aspx">Graphics::GetPixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/9d379aad-8e0d-4e3f-bbff-a8b26d0efa15">Graphics::GetPixelOffsetMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535813(v=VS.85).aspx">Graphics::SetPixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/2e93a8b1-e44d-4bd9-86bc-4291719afe9c">Graphics::SetPixelOffsetMode</a>
  
 
  

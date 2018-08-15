@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,16 +62,16 @@ Sets the scissor rectangle.
 
 ### -param pRect [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rendering area within the render target if scissor test is enabled. This parameter may not be <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that defines the rendering area within the render target if scissor test is enabled. This parameter may not be <b>NULL</b>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -84,7 +85,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 The scissor rectangle is used as a rectangular clipping region.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb147318(v=VS.85).aspx">Rectangles (Direct3D 9)</a> for further information on the use of rectangles in DirectX.
+See <a href="https://msdn.microsoft.com/9e271652-1673-42ea-b1f4-31ac63c397c5">Rectangles (Direct3D 9)</a> for further information on the use of rectangles in DirectX.
 
 
 
@@ -94,7 +95,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb147318(v=VS.85).aspx">Re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
  
 
  

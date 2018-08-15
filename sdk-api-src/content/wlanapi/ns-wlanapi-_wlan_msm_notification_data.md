@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,17 +72,17 @@ The name of the profile used for the connection. WLAN_MAX_NAME_LENGTH is 256. Pr
 
 ### -field dot11Ssid
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548773">DOT11_SSID</a> structure that contains the SSID of the association.
+A <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure that contains the SSID of the association.
 
 
 ### -field dot11BssType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547669">DOT11_BSS_TYPE</a> value that indicates the BSS network type.
+A <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> value that indicates the BSS network type.
 
 
 ### -field dot11MacAddr
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548681">DOT11_MAC_ADDRESS</a> that specifies the MAC address of the peer or access point.
+A <a href="https://msdn.microsoft.com/c1335127-a2d2-4f44-a895-1abbc5eaf98d">DOT11_MAC_ADDRESS</a> that specifies the MAC address of the peer or access point.
 
 
 ### -field bSecurityEnabled

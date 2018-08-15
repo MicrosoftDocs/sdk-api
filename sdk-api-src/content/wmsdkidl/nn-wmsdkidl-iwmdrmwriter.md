@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ]
 
 
-The <b>IWMDRMWriter</b> interface provides support for applying DRM protection to content in ASF files. You can use this interface to set various DRM file attributes and run-time properties, and to generate <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> keys for encrypting the content and the DRM header, without needing to call functions external to the Windows Media Format SDK. Prior to Windows Media 9 Series, it was necessary to use the Windows Media Rights Manager SDK to apply protection to files. The ability to protect files "on the fly" as you write them enables scenarios such as "Live DRM" in which live streaming content, such as a pay-per-view sports event or concert, can be delivered over the Internet.
+The <b>IWMDRMWriter</b> interface provides support for applying DRM protection to content in ASF files. You can use this interface to set various DRM file attributes and run-time properties, and to generate <a href="wmformat_glossary.htm">DRM</a> keys for encrypting the content and the DRM header, without needing to call functions external to the Windows Media Format SDK. Prior to Windows Media 9 Series, it was necessary to use the Windows Media Rights Manager SDK to apply protection to files. The ability to protect files "on the fly" as you write them enables scenarios such as "Live DRM" in which live streaming content, such as a pay-per-view sports event or concert, can be delivered over the Internet.
 
 An <b>IWMDRMWriter</b> interface exists for every writer object. You can obtain a pointer to an instance of this interface by calling the <b>QueryInterface</b> method of any interface in a writer object.
 
@@ -82,7 +83,7 @@ The <b>IWMDRMWriter</b> interface has these methods.
 <a href="https://msdn.microsoft.com/11eff02d-af0a-4047-80fd-d92be2f40d86">GenerateKeyID</a>
 </td>
 <td align="left" width="63%">
-Generates a DRM <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key ID</a> that will be used in conjunction with a key seed to encrypt and decrypt files.
+Generates a DRM <a href="wmformat_glossary.htm">key ID</a> that will be used in conjunction with a key seed to encrypt and decrypt files.
 
 </td>
 </tr>
@@ -136,7 +137,7 @@ For information on other interfaces that can be obtained by using the QueryInter
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

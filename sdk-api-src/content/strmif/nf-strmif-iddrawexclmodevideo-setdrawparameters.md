@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,14 +76,14 @@ The <code>SetDrawParameters</code> method specifies which part of the original v
 
 
 
-#### - pSrcRect [in]
-
-Pointer to the <b>RECT</b> structure of the original video.
-
-
 #### - pDestRect [in]
 
 Pointer to the <b>RECT</b> that indicates where the video will appear on the screen.
+
+
+#### - pSrcRect [in]
+
+Pointer to the <b>RECT</b> structure of the original video.
 
 
 ## -returns

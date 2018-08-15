@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the flags that modify the behavior of any type of <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Retrieves the flags that modify the behavior of any type of <a href="w.htm">work item</a>.
 
 
 ## -parameters
@@ -64,7 +65,7 @@ Retrieves the flags that modify the behavior of any type of <a href="https://msd
 ### -param pdwFlags [out]
 
 A pointer to a <b>DWORD</b> that contains the flags for the work item. For a list of these flags, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>.
+<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">SetFlags</a>.
 
 
 ## -returns

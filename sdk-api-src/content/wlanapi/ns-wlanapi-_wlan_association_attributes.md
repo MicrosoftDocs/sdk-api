@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
+req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,27 +62,27 @@ The <b>WLAN_ASSOCIATION_ATTRIBUTES</b> structure contains association attributes
 
 ### -field dot11Ssid
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548773">DOT11_SSID</a> structure that contains the SSID of the association.
+A <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure that contains the SSID of the association.
 
 
 ### -field dot11BssType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547669">DOT11_BSS_TYPE</a> value that specifies whether the network is infrastructure or ad hoc.
+A <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> value that specifies whether the network is infrastructure or ad hoc.
 
 
 ### -field dot11Bssid
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548681">DOT11_MAC_ADDRESS</a> that contains the BSSID of the association.
+A <a href="https://msdn.microsoft.com/c1335127-a2d2-4f44-a895-1abbc5eaf98d">DOT11_MAC_ADDRESS</a> that contains the BSSID of the association.
 
 
 ### -field dot11PhyType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548741">DOT11_PHY_TYPE</a> value that indicates the physical type of the association.
+A <a href="https://msdn.microsoft.com/f3804e57-c633-4288-9749-2b267b1353ae">DOT11_PHY_TYPE</a> value that indicates the physical type of the association.
 
 
 ### -field uDot11PhyIndex
 
-The position of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548741">DOT11_PHY_TYPE</a> value in the structure containing the list of PHY types.
+The position of the <a href="https://msdn.microsoft.com/f3804e57-c633-4288-9749-2b267b1353ae">DOT11_PHY_TYPE</a> value in the structure containing the list of PHY types.
 
 
 ### -field wlanSignalQuality

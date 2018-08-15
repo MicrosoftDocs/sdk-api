@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The <b>IBDA_NameValueService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/d240f991-8f15-4d37-a292-91c7e3dff27d">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a value by name.
@@ -88,7 +89,7 @@ Gets a name, specified by index, from the device's list of name/value pairs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/6017658a-b4ce-496a-bf30-b7473f5d43c1">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a name/value pair in device memory.

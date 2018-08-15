@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Creates a DirectDrawSurface object for this DirectDraw object.
 
 #### - lpDDSurfaceDesc2 [in]
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
+Address of a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure that describes the requested surface. Set any unused members of the <b>DDSURFACEDESC2</b> structure to 0 before calling this method. A <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure is a member of <b>DDSURFACEDESC2</b>.
 
 
 #### - lplpDDSurface [out]

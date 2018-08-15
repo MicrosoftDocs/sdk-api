@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -97,9 +98,9 @@ For more information, see <a href="devinst.using_setupapi_to_verify_driver_authe
 
 Do not use this driver. Installers can read and write this flag.
 
-If this flag is set, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552112">SetupDiSelectBestCompatDrv</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552115">SetupDiSelectDevice</a> ignore this driver.
+If this flag is set, <a href="https://msdn.microsoft.com/fef435a6-b6cd-47be-bf63-358478ec3cb6">SetupDiSelectBestCompatDrv</a> and <a href="https://msdn.microsoft.com/c6a512ad-bcc6-4dc5-873e-33bdaab129e2">SetupDiSelectDevice</a> ignore this driver.
 
-A class installer or co-installer can set this flag to prevent Windows from listing the driver in the Select Driver dialog box. An installer might set this flag when it handles a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543723">DIF_SELECTDEVICE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543719">DIF_SELECTBESTCOMPATDRV</a> request, for example. 
+A class installer or co-installer can set this flag to prevent Windows from listing the driver in the Select Driver dialog box. An installer might set this flag when it handles a <a href="https://msdn.microsoft.com/c1266182-b88f-406a-876c-e0f15050fdf3">DIF_SELECTDEVICE</a> or <a href="https://msdn.microsoft.com/aa10f39f-718b-4160-9cfa-668fb0349156">DIF_SELECTBESTCOMPATDRV</a> request, for example. 
 
 
 
@@ -263,11 +264,11 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551978">SetupDiGetDriverInstallParams</a>
+<a href="https://msdn.microsoft.com/7c5b0e3f-75cd-48e1-b84e-d81e4e4db7b2">SetupDiGetDriverInstallParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552172">SetupDiSetDriverInstallParams</a>
+<a href="https://msdn.microsoft.com/a6084bb4-f0c1-43f3-94e7-8fd0682f5ac0">SetupDiSetDriverInstallParams</a>
  
 
  

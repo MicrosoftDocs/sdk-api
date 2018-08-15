@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -77,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When removing items, note that the index for the first item in the collection is 1 and the index for the last item is the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property.
+When removing items, note that the index for the first item in the collection is 1 and the index for the last item is the value of the <a href="https://msdn.microsoft.com/ae4ff1b8-f030-420b-b96a-b5c1246c04ce">Count</a> property.
 
 This method will return <b>E_INVALIDARG</b> when the value passed to the <i>index</i> parameter is not valid.
 

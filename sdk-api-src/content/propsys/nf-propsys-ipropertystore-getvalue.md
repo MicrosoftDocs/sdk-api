@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ After the <code>IPropertyStore::GetValue</code> method returns successfully, thi
 
 #### - Key
 
-A reference to the PROPERTYKEY structure that is retrieved through <a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
+A reference to the PROPERTYKEY structure that is retrieved through <a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>. The PROPERTYKEY structure also contains a globally unique identifier (GUID) for the property.
 
 
 ## -returns
@@ -100,11 +101,11 @@ If the PROPERTYKEY referenced in key is not present in the property store, this 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536959">IPropertyStore::GetAt</a>
+<a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>
  
 
  

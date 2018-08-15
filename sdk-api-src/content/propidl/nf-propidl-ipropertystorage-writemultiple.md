@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -89,7 +90,7 @@ The minimum value for the property IDs that the method must assign if the <i>rgp
 This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a>.
 
 
 

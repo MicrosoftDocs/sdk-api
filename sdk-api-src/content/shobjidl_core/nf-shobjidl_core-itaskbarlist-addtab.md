@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Any type of window can be added to the taskbar, but it is recommended that the window at least have the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CAPTION</a> style.
+Any type of window can be added to the taskbar, but it is recommended that the window at least have the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_CAPTION</a> style.
 
 Any window added with this method must be removed with the <a href="https://msdn.microsoft.com/bf1b3d27-5cd3-44c8-81e6-d9418d30ffe3">DeleteTab</a> method when the added window is destroyed.
 

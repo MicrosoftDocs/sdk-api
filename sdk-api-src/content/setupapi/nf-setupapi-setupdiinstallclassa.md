@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -123,7 +124,7 @@ The caller of this function must be a member of the Administrators group.
 
 This function is called by a class installer when it installs a device of a new device class.
 
-To install an interface class or a device class, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552032">SetupDiInstallClassEx</a>.
+To install an interface class or a device class, use <a href="https://msdn.microsoft.com/72ab3fb4-dc4f-439a-87ed-4f4ad061d03a">SetupDiInstallClassEx</a>.
 
 
 
@@ -133,11 +134,11 @@ To install an interface class or a device class, use <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552032">SetupDiInstallClassEx</a>
+<a href="https://msdn.microsoft.com/72ab3fb4-dc4f-439a-87ed-4f4ad061d03a">SetupDiInstallClassEx</a>
  
 
  

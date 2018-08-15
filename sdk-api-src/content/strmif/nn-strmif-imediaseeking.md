@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -108,7 +109,7 @@ Gets the range of times in which seeking is efficient.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/84dd3c21-9c72-4433-bd03-29520dc138ca">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves all the seeking capabilities of the stream.

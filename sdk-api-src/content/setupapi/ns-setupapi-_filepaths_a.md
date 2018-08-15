@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 The 
 <b>FILEPATHS</b> structure stores source and target path information. The setup functions send the 
 <b>FILEPATHS</b> structure as a parameter in several of the notifications sent to callback routines. For more information, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt244308">Notifications</a>.
+<a href="https://msdn.microsoft.com/93434558-ae83-4ea2-9324-659e5873a8c3">Notifications</a>.
 
 
 ## -struct-fields
@@ -168,7 +169,7 @@ A file delete operation was delayed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
  
 
  

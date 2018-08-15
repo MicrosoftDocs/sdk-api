@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -70,9 +71,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
+A pointer to an <a href="_com_iunknown">IUnknown</a> interface that specifies the <a href="_ole_ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
 
 
 ### -param pszPath [in]

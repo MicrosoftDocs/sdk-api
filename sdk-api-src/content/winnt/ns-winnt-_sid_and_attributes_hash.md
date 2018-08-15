@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,12 +67,12 @@ The number of SIDs pointed to by the <i>SidAttr</i> parameter.
 
 ### -field SidAttr
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a> structures that represent SIDs and their attributes.
+A pointer to an array of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures that represent SIDs and their attributes.
 
 
 ### -field Hash
 
-An array of pointers to hash values. These values correspond to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a> structures pointed to by the <i>SidAttr</i> parameter.
+An array of pointers to hash values. These values correspond to the <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures pointed to by the <i>SidAttr</i> parameter.
 
 The <b>SID_HASH_ENTRY</b> data type is defined in Winnt.h as a <b>ULONG_PTR</b>.
 
@@ -87,7 +88,7 @@ The <b>SID_HASH_SIZE</b> array dimension is defined in Winnt.h as 32.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/cb606665-1266-4e71-a145-9b04bf157cdc">TOKEN_INFORMATION_CLASS</a>
  
 
  

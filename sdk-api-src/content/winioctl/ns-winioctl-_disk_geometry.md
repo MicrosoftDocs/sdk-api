@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,7 +68,7 @@ The number of cylinders. See <a href="https://msdn.microsoft.com/6a2985b6-5baf-4
 ### -field MediaType
 
 The type of media. For a list of values, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>.
+<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>.
 
 
 ### -field TracksPerCylinder
@@ -90,15 +91,15 @@ The number of bytes per sector.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560357">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
+<a href="https://msdn.microsoft.com/574efc29-112b-42fe-ad1b-72543f20e831">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560559">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
+<a href="https://msdn.microsoft.com/67f65549-f24b-4ef2-a98f-1fc618a3bb77">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/183cf8fc-c17b-4def-b590-0aa4b67488f6">MEDIA_TYPE</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -72,14 +73,14 @@ The path of the migration table to be loaded. Use a null-terminated string.
 
 
 
-#### - ppTable [out]
-
-The migration table interface that contains the entries from the migration table.
-
-
 #### - bstrFilePath [in]
 
 The path of the migration table to be loaded.
+
+
+#### - ppTable [out]
+
+The migration table interface that contains the entries from the migration table.
 
 
 ## -returns

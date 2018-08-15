@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IMFNetCrossOriginSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846741(v=VS.85).aspx">GetCrossOriginPolicy</a>
+<a href="mf.imfnetcrossoriginsupport_getcrossoriginpolicy">GetCrossOriginPolicy</a>
 </td>
 <td align="left" width="63%">
 Returns the client's current cross-origin policy to apply to the download session.
@@ -82,7 +83,7 @@ Returns the client's current cross-origin policy to apply to the download sessio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846742(v=VS.85).aspx">GetSourceOrigin</a>
+<a href="mf.imfnetcrossoriginsupport_getsourceorigin">GetSourceOrigin</a>
 </td>
 <td align="left" width="63%">
 Returns the W3C origin of the HTML5 media element.  
@@ -91,7 +92,7 @@ Returns the W3C origin of the HTML5 media element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt846743(v=VS.85).aspx">IsSameOrigin</a>
+<a href="mf.imfnetcrossoriginsupport_issameorigin">IsSameOrigin</a>
 </td>
 <td align="left" width="63%">
 Returns true when the specified URL has the same origin as the HTML5 media element.

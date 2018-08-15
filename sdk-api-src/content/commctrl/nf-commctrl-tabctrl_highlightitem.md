@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the highlight state of a tab item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760602(v=VS.85).aspx">TCM_HIGHLIGHTITEM</a> message explicitly. 
+Sets the highlight state of a tab item. You can use this macro or send the <a href="https://msdn.microsoft.com/b0d0850a-62d9-46a1-8846-81f67a886ea8">TCM_HIGHLIGHTITEM</a> message explicitly. 
 
 
 ## -parameters

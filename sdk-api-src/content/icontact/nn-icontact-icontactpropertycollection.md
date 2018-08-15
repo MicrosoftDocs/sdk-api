@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -119,7 +120,7 @@ Retrieves the version number for the current property in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/b6e8abad-796d-4ded-be23-45ca107915f1">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next property.
@@ -128,7 +129,7 @@ Moves to the next property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/cef73e3c-56be-44b8-b05b-3c2081b71591">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets enumeration of properties.

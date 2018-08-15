@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: thrdbase.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -137,7 +138,7 @@ Provides thread safety by indicating the end of a data write operation when the 
 <a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>

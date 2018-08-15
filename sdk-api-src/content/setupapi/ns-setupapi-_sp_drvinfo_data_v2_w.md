@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -153,23 +154,23 @@ SP_DRVINFO_DATA_V1 does not contain <b>DriverDate</b> and <b>DriverVersion</b> m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551018">SetupDiEnumDriverInfo</a>
+<a href="https://msdn.microsoft.com/c4a66d0c-e9a9-41f8-87df-576795667b5c">SetupDiEnumDriverInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551978">SetupDiGetDriverInstallParams</a>
+<a href="https://msdn.microsoft.com/7c5b0e3f-75cd-48e1-b84e-d81e4e4db7b2">SetupDiGetDriverInstallParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552013">SetupDiGetSelectedDriver</a>
+<a href="https://msdn.microsoft.com/dd3d9736-755c-497c-a523-18ca66557ae7">SetupDiGetSelectedDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552172">SetupDiSetDriverInstallParams</a>
+<a href="https://msdn.microsoft.com/a6084bb4-f0c1-43f3-94e7-8fd0682f5ac0">SetupDiSetDriverInstallParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552183">SetupDiSetSelectedDriver</a>
+<a href="https://msdn.microsoft.com/791df876-9037-405b-b899-eea2b577d923">SetupDiSetSelectedDriver</a>
  
 
  

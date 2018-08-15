@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -88,7 +89,7 @@ Specifies that an alternate font is used for characters that are not supported i
 ### -field StringFormatFlagsMeasureTrailingSpaces
 
 Specifies that the space at the end of each line is included in a string measurement. By default, the boundary rectangle returned by the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx">Graphics::MeasureString</a> method excludes the space at the end of each line. Set this flag to include that space in the measurement. 
+				<a href="https://msdn.microsoft.com/947c3080-1035-4dfe-aa7d-f73753a568cf">Graphics::MeasureString</a> method excludes the space at the end of each line. Set this flag to include that space in the measurement. 
 
 
 ### -field StringFormatFlagsNoWrap
@@ -132,31 +133,31 @@ The <b><b>StringFormatFlagsDirectionVertical</b></b> and <b><b>StringFormatFlags
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/b3568ed9-e359-4916-a83d-7553c021d197">DrawString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://msdn.microsoft.com/4014a602-88f6-4fac-b4b2-3dafdcff8f33">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx">MeasureString Methods</a>
+<a href="https://msdn.microsoft.com/947c3080-1035-4dfe-aa7d-f73753a568cf">MeasureString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534177(v=VS.85).aspx">StringAlignment</a>
+<a href="https://msdn.microsoft.com/d395f6b4-8d8a-41b1-9c49-6fc2f005ca5d">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
+<a href="https://msdn.microsoft.com/b61e9a88-2b00-43f5-bc8d-1d6b4d6ecb19">StringDigitSubstitute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534726(v=VS.85).aspx">StringFormat::SetFormatFlags</a>
+<a href="https://msdn.microsoft.com/e62bd318-8270-4b90-a377-9f651f6159fc">StringFormat::SetFormatFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a>
+<a href="https://msdn.microsoft.com/8ecaabac-dfc6-47ca-91e3-9f577be77b5f">StringTrimming</a>
  
 
  

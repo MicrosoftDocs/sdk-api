@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -73,14 +74,14 @@ An application-defined callback function that processes enumerated user interfac
 
 
 
-#### - lpUILanguageString [in]
-
-Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="https://msdn.microsoft.com/f97df853-fc40-4529-b8a5-27069863a9b9">EnumUILanguages</a>.
-
-
 #### - lParam [in]
 
 Application-defined value.
+
+
+#### - lpUILanguageString [in]
+
+Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="https://msdn.microsoft.com/f97df853-fc40-4529-b8a5-27069863a9b9">EnumUILanguages</a>.
 
 
 ## -returns

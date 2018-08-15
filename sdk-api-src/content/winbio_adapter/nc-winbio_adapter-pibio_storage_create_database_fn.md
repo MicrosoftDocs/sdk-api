@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -76,7 +77,7 @@ A WINBIO_BIOMETRIC_TYPE value that specifies the type of the biometric factor st
 
 ### -param Format [in]
 
-Pointer to a GUID that specifies the vendor-defined format of the data in the <b>VendorDataBlock</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> object.
+Pointer to a GUID that specifies the vendor-defined format of the data in the <b>VendorDataBlock</b> member of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> object.
 
 
 ### -param FilePath [in]

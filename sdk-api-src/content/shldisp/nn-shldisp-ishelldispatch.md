@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Internet Explorer 5.0
 Represents an object in the Shell. Methods are provided to control the Shell and to execute commands within the Shell. There are also methods to obtain other Shell-related objects.
             
             
-<div class="alert"><b>Note</b>  <b>IShellDispatch</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/mt270130">Shell</a> object.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IShellDispatch</b> is implemented and accessed through the <a href="https://msdn.microsoft.com/75fc151e-5b9e-476b-b4e5-b848917357a8">Shell</a> object.</div><div> </div>
 
 ## -inheritance
 
@@ -153,7 +154,7 @@ Displays the <b>Find: All Files</b> dialog box. This is the same as clicking the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926862">Help</a>
+<a href="https://msdn.microsoft.com/9460C87E-6703-4df6-A84C-8D394E0E6703">Help</a>
 </td>
 <td align="left" width="63%">
 Displays the Windows Help and Support window. This method has the same effect as clicking the <b>Start</b> menu and selecting <b>Help and Support</b>.
@@ -180,7 +181,7 @@ Creates and returns a <a href="https://msdn.microsoft.com/f1e82c61-205e-47c8-bc7
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/30FE669A-4AFD-4dfa-9F62-E62E744469C7">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the specified folder.
@@ -216,7 +217,7 @@ Displays the <b>Shut Down Windows</b> dialog box. This is the same as clicking t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a>
+<a href="https://msdn.microsoft.com/EC67DE5B-3A3B-486f-BDF2-D49195CFAFB3">Suspend</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -261,7 +262,7 @@ Restores all desktop windows to the state they were in before the last <a href="
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/788E2106-3534-4e22-801F-677FD02BDFE0">Windows</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be48-b664d3de2c60">ShellWindows</a> object. This object represents a collection of all of the open windows that belong to the Shell.
@@ -279,7 +280,7 @@ Creates and returns a <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be4
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159071">Application</a>
+<a href="https://msdn.microsoft.com/61B85691-399D-41c1-9901-825345A38E5A">Application</a>
 
 
 </td>
@@ -316,7 +317,7 @@ Retrieves an object that represents the parent of the current object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

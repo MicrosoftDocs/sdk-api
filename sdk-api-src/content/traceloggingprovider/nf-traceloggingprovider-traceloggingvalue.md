@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2
@@ -64,14 +65,14 @@ Wrapper macro for event fields. Automatically deduces value type.
 The event field value.
 
 
-#### - name [in, optional]
-
-The name of the event field. If provided, the name parameter must be a string literal (not a variable) and must not  contain any '\0' characters.
-
-
 #### - description [in, optional]
 
 The description of the event field's value. If provided, the description parameter must be a string literal, and will be included in the PDB. 
+
+
+#### - name [in, optional]
+
+The name of the event field. If provided, the name parameter must be a string literal (not a variable) and must not  contain any '\0' characters.
 
 
 #### - tags [in, optional]

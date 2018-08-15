@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -65,7 +66,7 @@ The index of the jack to get a description for. If the connection consists of <i
 
 ### -param pDescription2 [out]
 
-Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537138">KSJACK_DESCRIPTION2</a> that contains information about the jack. The buffer size must be at least <code>sizeof(KSJACK_DESCRIPTION2)</code>.
+Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/67714767-24b8-4838-953a-d6aca0c55bbb">KSJACK_DESCRIPTION2</a> that contains information about the jack. The buffer size must be at least <code>sizeof(KSJACK_DESCRIPTION2)</code>.
 
 
 ## -returns

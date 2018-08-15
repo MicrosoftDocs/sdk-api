@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -102,7 +103,7 @@ Minimum precision is any 10-bit value.
 
 
 
-For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">Scalar Types</a> and <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
+For more info, see <a href="https://msdn.microsoft.com/bf24d27f-2720-4268-bc74-fc46afedb9aa">Scalar Types</a> and <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
 
 
 

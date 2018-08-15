@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -64,7 +65,7 @@ The <b>DIBSECTION</b> structure contains information about a DIB created by call
 
 ### -field dsBm
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a> data structure that contains information about the DIB: its type, its dimensions, its color capacities, and a pointer to its bit values.
+A <a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a> data structure that contains information about the DIB: its type, its dimensions, its color capacities, and a pointer to its bit values.
 
 
 ### -field dsBmih
@@ -95,7 +96,7 @@ The offset to the bitmap's bit values within the file mapping object referenced 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">BITMAP</a>
+<a href="https://msdn.microsoft.com/6ee382da-dd63-442b-80c3-59472defb41f">BITMAP</a>
 
 
 

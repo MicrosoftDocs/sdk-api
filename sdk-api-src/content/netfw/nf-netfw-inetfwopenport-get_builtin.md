@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -67,7 +68,7 @@ This property is read-only.
 
 
 
-Ports  with their <b>BuiltIn</b> property set to true (<b>VARIANT_TRUE</b>) are system specified and cannot be removed, only the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>, <a href="https://msdn.microsoft.com/5c38a9fc-b7d9-436d-92e6-8b0aec5e8628">RemoteAddress</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/dn915814">Scope</a> properties can be modified.
+Ports  with their <b>BuiltIn</b> property set to true (<b>VARIANT_TRUE</b>) are system specified and cannot be removed, only the <a href="https://msdn.microsoft.com/f4fc7a4f-abc5-486a-89c8-dfea17770f3c">Enabled</a>, <a href="https://msdn.microsoft.com/5c38a9fc-b7d9-436d-92e6-8b0aec5e8628">RemoteAddress</a>, and <a href="https://msdn.microsoft.com/a5bd787f-e00c-4a57-adc7-a9618809198a">Scope</a> properties can be modified.
 
 
 

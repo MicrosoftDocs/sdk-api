@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>LsaRemoveAccountRights</b> function removes one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> from an account. You can specify the privileges to be removed, or you can set a flag to remove all privileges. When you remove all privileges, the function deletes the account. If you specify privileges not held by the account, the function ignores them.
+The <b>LsaRemoveAccountRights</b> function removes one or more <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> from an account. You can specify the privileges to be removed, or you can set a flag to remove all privileges. When you remove all privileges, the function deletes the account. If you specify privileges not held by the account, the function ignores them.
 
 
 ## -parameters
@@ -97,7 +98,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

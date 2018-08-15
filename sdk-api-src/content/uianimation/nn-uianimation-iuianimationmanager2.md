@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -125,7 +126,7 @@ Finishes all active storyboards within the specified time interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/E989CED1-C6B7-4086-944E-924836AA7ECB">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the animation manager.
@@ -152,7 +153,7 @@ Gets the animation variable with the specified tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/AA8EEFD5-A386-4DF1-BCBE-12A92D235E98">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all animations.
@@ -242,7 +243,7 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/F66A987C-E020-4CD6-BE3F-440C3F8B8CF2">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the animation manager and all its associated objects.
@@ -251,7 +252,7 @@ Shuts down the animation manager and all its associated objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/5735ABDB-E1AE-41C0-9F37-92084CEF6FAD">Update</a>
 </td>
 <td align="left" width="63%">
 Updates the values of all animation variables.
@@ -270,7 +271,7 @@ Updates the values of all animation variables.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/b54e319c-e140-4fd9-8045-5eb6f4a31326">Interfaces</a>
  
 
  

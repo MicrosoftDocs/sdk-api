@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -127,7 +128,7 @@ Device technology. It can be any one of the following values.
 </table>
  
 
-If the <i>hdc</i> parameter is a handle to the DC of an enhanced metafile, the device technology is that of the referenced device as specified to the <a href="https://msdn.microsoft.com/647f83ca-dca3-44af-a594-5f9ba2bd7607">CreateEnhMetaFile</a> function. To determine whether it is an enhanced metafile DC, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926847">GetObjectType</a> function.
+If the <i>hdc</i> parameter is a handle to the DC of an enhanced metafile, the device technology is that of the referenced device as specified to the <a href="https://msdn.microsoft.com/647f83ca-dca3-44af-a594-5f9ba2bd7607">CreateEnhMetaFile</a> function. To determine whether it is an enhanced metafile DC, use the <a href="https://msdn.microsoft.com/334a2c95-3bf4-44dc-abce-df3a3a2d37a8">GetObjectType</a> function.
 
 </td>
 </tr>
@@ -871,7 +872,7 @@ For an example, see <a href="https://msdn.microsoft.com/98ae97e2-25c1-455c-8283-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926847">GetObjectType</a>
+<a href="https://msdn.microsoft.com/334a2c95-3bf4-44dc-abce-df3a3a2d37a8">GetObjectType</a>
 
 
 

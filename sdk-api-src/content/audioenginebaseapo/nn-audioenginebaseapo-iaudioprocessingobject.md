@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ The <code>IAudioProcessingObject</code> interface supports the following methods
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536509">IAudioProcessingObject::GetLatency</a>
+<a href="https://msdn.microsoft.com/7ac982cd-7fb7-4427-ac17-508bcc72391d">IAudioProcessingObject::GetLatency</a>
 
 
 </dd>
@@ -74,25 +75,25 @@ The <code>IAudioProcessingObject</code> interface supports the following methods
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536510">IAudioProcessingObject::Initialize</a>
+<a href="https://msdn.microsoft.com/b73c2e18-ab7b-4e34-9440-f38891f99bf7">IAudioProcessingObject::Initialize</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536511">IAudioProcessingObject::IsInputFormatSupported</a>
+<a href="https://msdn.microsoft.com/11eebb5d-21fd-48f7-8929-cd2612a3f451">IAudioProcessingObject::IsInputFormatSupported</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536512">IAudioProcessingObject::IsOutputFormatSupported</a>
+<a href="https://msdn.microsoft.com/19609332-9fc2-4a21-b947-f103a1cf2675">IAudioProcessingObject::IsOutputFormatSupported</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536513">IAudioProcessingObject::Reset</a>
+<a href="https://msdn.microsoft.com/9d8c13cb-012e-4b5e-a1fd-1c2e5b9200b8">IAudioProcessingObject::Reset</a>
 
 
 </dd>

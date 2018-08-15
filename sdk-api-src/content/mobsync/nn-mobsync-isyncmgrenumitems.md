@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ISyncMgrEnumItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/33bf4956-3d16-412c-9551-4ae3366ddd78">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another items enumerator with the same state as the current enumerator to iterate over the same list. This method makes it possible to record a point in the enumeration sequence in order to return to that point at a later time.
@@ -80,7 +81,7 @@ Creates another items enumerator with the same state as the current enumerator t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/bb4ab08a-aa12-46f0-8c7d-82742b0b1538">Next</a>
 </td>
 <td align="left" width="63%">
 Enumerates the next <i>celt</i> elements in the enumerator's list, returning them in <i>rgelt</i> along with the actual number of enumerated elements in <i>pceltFetched</i>.
@@ -89,7 +90,7 @@ Enumerates the next <i>celt</i> elements in the enumerator's list, returning the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/91265648-1294-423d-8e09-6d14eb0b6d9e">Reset</a>
 </td>
 <td align="left" width="63%">
 Instructs the enumerator to position itself at the beginning of the list of elements.
@@ -98,7 +99,7 @@ Instructs the enumerator to position itself at the beginning of the list of elem
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/f317306b-5317-4c5e-a5e6-fd2d8728bc52">Skip</a>
 </td>
 <td align="left" width="63%">
 Instructs the enumerator to skip the next <i>celt</i> elements in the enumeration so that the next call to <a href="https://msdn.microsoft.com/bb4ab08a-aa12-46f0-8c7d-82742b0b1538">ISyncMgrEnumItems::Next</a> does not return those elements.

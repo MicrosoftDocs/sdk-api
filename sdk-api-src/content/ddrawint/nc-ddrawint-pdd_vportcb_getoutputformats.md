@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdVideoPortGetOutputFormats</b> callback function determines the output f
 
 #### - lpGetOutputFormats
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551612">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
+Points to a <a href="https://msdn.microsoft.com/3033a4e9-3f94-4702-9db8-098a358ab1c2">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
 
 
 ## -returns
@@ -91,7 +92,7 @@ DirectDraw calls <b>DdVideoPortGetOutputFormats</b> to obtain the number of outp
 
 <ul>
 <li>
-In the first call, the <b>lpddpfOutputFormats</b> member of the DD_GETVPORTOUTPUTFORMATDATA structure at <i>lpGetOutputFormats</i> is <b>NULL</b>. The driver should write the number of output formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTOUTPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetOutputFormats</b>.
+In the first call, the <b>lpddpfOutputFormats</b> member of the DD_GETVPORTOUTPUTFORMATDATA structure at <i>lpGetOutputFormats</i> is <b>NULL</b>. The driver should write the number of output formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTOUTPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetOutputFormats</b>.
 
 </li>
 <li>
@@ -109,11 +110,11 @@ If the <b>dwFlags</b> member of DD_GETVPORTOUTPUTFORMATDATA is set only to DDVPF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a>
+<a href="https://msdn.microsoft.com/bbc26c03-c154-4b1e-883e-2942b59ded02">DDPIXELFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551612">DD_GETVPORTOUTPUTFORMATDATA</a>
+<a href="https://msdn.microsoft.com/3033a4e9-3f94-4702-9db8-098a358ab1c2">DD_GETVPORTOUTPUTFORMATDATA</a>
  
 
  

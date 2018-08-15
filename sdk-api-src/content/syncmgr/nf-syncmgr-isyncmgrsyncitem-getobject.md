@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -75,7 +76,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>.
 
 
 
@@ -85,7 +86,7 @@ An object implementing the <a href="https://msdn.microsoft.com/25f47c73-eb9f-4be
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>.
 
 
 
@@ -93,7 +94,7 @@ Sync Center only requests this object if the <a href="https://msdn.microsoft.com
 
 An object implementing the <a href="https://msdn.microsoft.com/218875bf-be6b-4ca5-8904-81c81c7fbf70">ISyncMgrEventStore</a> interface that allows an item to provide its own source of events. These events are shown in the Sync Results folder. The event store should include only events for the item. To include events for all of a handler's items, Sync Center calls <a href="https://msdn.microsoft.com/91441b28-a2d8-4114-86dd-9a3e826deef4">GetObject</a>.
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>.
 
 An item is not required to provide an event store. The default event store provided by Sync Center can be used if it meets the item's requirements.
 
@@ -105,7 +106,7 @@ An icon extraction object that implements the <a href="https://msdn.microsoft.co
  
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>.
 
 
 
@@ -115,7 +116,7 @@ An object implementing the <a href="https://msdn.microsoft.com/6fa4b0ac-3c75-4cd
 
                         
 
-Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CAN_DELETE</a> and <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_CAN_DELETE</a> and <a href="https://msdn.microsoft.com/55f72e18-fba6-4a59-b553-06c6c7c3ee52">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flags are set in the mask retrieved by <a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>.
 
 
 

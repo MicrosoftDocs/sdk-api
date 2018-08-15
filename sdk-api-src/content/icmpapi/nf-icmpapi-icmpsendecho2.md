@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The open handle returned by the <a href="https://msdn.microsoft.com/b435b38b-df8
 An event to be signaled whenever an ICMP response arrives. If this parameter is specified, it requires a handle to a valid event object. Use the 
 <a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> or <a href="https://msdn.microsoft.com/402a721d-8338-4df1-ba0b-074f868a1731">CreateEventEx</a> function to create this event object. 
 
-For more information on using events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>.
+For more information on using events, see <a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>.
 
 
 ### -param ApcRoutine [in, optional]
@@ -475,7 +476,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>
+<a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>
 
 
 

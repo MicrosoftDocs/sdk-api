@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -113,7 +114,7 @@ The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vistaand la
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546202">ConvertLengthToIpv4Mask</a>
+<a href="https://msdn.microsoft.com/5d986301-368e-4984-9f90-e2af1f87cbea">ConvertLengthToIpv4Mask</a>
  
 
  

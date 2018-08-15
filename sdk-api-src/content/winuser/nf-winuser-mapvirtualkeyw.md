@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,7 +64,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.
 
-To specify a handle to the keyboard layout to use for translating the specified code, use the <a href="https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx">MapVirtualKeyEx</a> function.
+To specify a handle to the keyboard layout to use for translating the specified code, use the <a href="https://msdn.microsoft.com/86e09c0d-0067-4b41-b7cf-cf3c3f2e02f7">MapVirtualKeyEx</a> function.
 
 
 ## -parameters
@@ -75,7 +76,7 @@ To specify a handle to the keyboard layout to use for translating the specified 
 
 Type: <b>UINT</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">virtual key code</a> or scan code for a key. How this value is interpreted depends on the value of the <i>uMapType</i> parameter.
+The <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">virtual key code</a> or scan code for a key. How this value is interpreted depends on the value of the <i>uMapType</i> parameter.
 
 
 ### -param uMapType [in]
@@ -164,7 +165,7 @@ An application can get the scan code corresponding to the left or right instance
 <li><b>VK_LMENU</b></li>
 <li><b>VK_RMENU</b></li>
 </ul>
-These left- and right-distinguishing constants are available to an application only through the <a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>, and <b>MapVirtualKey</b> functions.
+These left- and right-distinguishing constants are available to an application only through the <a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>, <a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a>, <a href="https://msdn.microsoft.com/41c7bcc7-0a14-420c-b338-7ca13c95b7b8">GetKeyState</a>, and <b>MapVirtualKey</b> functions.
 
 
 
@@ -178,23 +179,23 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
+<a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
+<a href="https://msdn.microsoft.com/41c7bcc7-0a14-420c-b338-7ca13c95b7b8">GetKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx">MapVirtualKeyEx</a>
+<a href="https://msdn.microsoft.com/86e09c0d-0067-4b41-b7cf-cf3c3f2e02f7">MapVirtualKeyEx</a>
 
 
 
@@ -202,7 +203,7 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
+<a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>
  
 
  

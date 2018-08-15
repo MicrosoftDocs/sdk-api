@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>. 
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://msdn.microsoft.com/4fc1d81d-ee12-4ee4-b29c-2450b92b83b5">MouseProc</a>. 
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook proced
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 The x- and y-coordinates of the cursor, in screen coordinates. 
 
@@ -77,7 +78,7 @@ A handle to the window that will receive the mouse message corresponding to the 
 
 Type: <b>UINT</b>
 
-The hit-test value. For a list of hit-test values, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a> message. 
+The hit-test value. For a list of hit-test values, see the description of the <a href="https://msdn.microsoft.com/4c860466-a9f8-4af8-96b9-cee005481875">WM_NCHITTEST</a> message. 
 
 
 ### -field dwExtraInfo
@@ -96,11 +97,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx">MouseProc</a>
+<a href="https://msdn.microsoft.com/4fc1d81d-ee12-4ee4-b29c-2450b92b83b5">MouseProc</a>
 
 
 
@@ -108,11 +109,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a>
+<a href="https://msdn.microsoft.com/4c860466-a9f8-4af8-96b9-cee005481875">WM_NCHITTEST</a>
  
 
  

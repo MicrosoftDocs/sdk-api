@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -105,7 +106,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-These flags are returned by a <a href="https://msdn.microsoft.com/en-us/library/Bb172441(v=VS.85).aspx">shader-variable description</a> when using shader reflection (see <a href="https://msdn.microsoft.com/en-us/library/Bb173846(v=VS.85).aspx">ID3D10ShaderReflectionVariable::GetDesc</a>).
+These flags are returned by a <a href="https://msdn.microsoft.com/65f57c91-955f-4383-b11c-31386e48b724">shader-variable description</a> when using shader reflection (see <a href="https://msdn.microsoft.com/18e1d597-084b-4b20-95f5-dbfe77e32944">ID3D10ShaderReflectionVariable::GetDesc</a>).
 
 The <b>D3D10_SHADER_VARIABLE_FLAGS</b>     enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/b89dc001-c335-4994-a644-88bfbeb7d663">D3D_SHADER_VARIABLE_FLAGS</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
@@ -128,7 +129,7 @@ typedef D3D_SHADER_VARIABLE_FLAGS D3D10_SHADER_VARIABLE_FLAGS;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

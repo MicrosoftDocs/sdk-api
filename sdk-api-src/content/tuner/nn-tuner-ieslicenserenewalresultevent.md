@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -131,7 +132,7 @@ Gets the expiry date from the license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926842">GetFileName</a>
+<a href="https://msdn.microsoft.com/6ef49a38-c005-4731-a1cb-d5a63ea94e71">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Gets the file name for  the license to renew.

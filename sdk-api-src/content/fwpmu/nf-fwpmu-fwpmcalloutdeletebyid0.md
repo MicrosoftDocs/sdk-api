@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,14 +64,14 @@ The <b>FwpmCalloutDeleteById0</b> function removes a callout object from the sys
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param id [in]
 
 Type: <b>UINT32</b>
 
-The runtime identifier for the callout being removed from the system. This identifier was received from the system when the application called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a> for this object.
+The runtime identifier for the callout being removed from the system. This identifier was received from the system when the application called <a href="https://msdn.microsoft.com/e4f79262-6345-49e9-a50c-9f8a82f2df0e">FwpmCalloutAdd0</a> for this object.
 
 
 ## -returns
@@ -149,7 +150,7 @@ The caller needs <a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a>
+<a href="https://msdn.microsoft.com/e4f79262-6345-49e9-a50c-9f8a82f2df0e">FwpmCalloutAdd0</a>
 
 
 

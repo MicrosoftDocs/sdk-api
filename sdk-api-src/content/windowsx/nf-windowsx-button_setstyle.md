@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the style of a button. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761824(v=VS.85).aspx">BM_SETSTYLE</a> message explicitly. 
+Sets the style of a button. You can use this macro or send the <a href="https://msdn.microsoft.com/6439e68f-87fc-4a4a-8025-facc3c0e03e2">BM_SETSTYLE</a> message explicitly. 
 
 
 
@@ -71,7 +72,7 @@ A handle to the button control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>. 
+The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>. 
 
 
 ### -param fRedraw

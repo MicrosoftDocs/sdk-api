@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -76,11 +77,6 @@ The <b>IADsContainer::MoveHere</b>method moves a specified object to the contain
 
 
 
-#### - bstrSourceObject [in]
-
-The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
-
-
 #### - bstrNewName [in]
 
 The null-terminated Unicode string that specifies the relative name of the new object within the container. This can be
@@ -88,10 +84,15 @@ The null-terminated Unicode string that specifies the relative name of the new o
     renamed accordingly in the process.
 
 
+#### - bstrSourceObject [in]
+
+The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
+
+
 #### - ppbstrNewObject [out]
 
 Pointer to a pointer to the 
-     <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the moved
+     <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the moved
     object.
 
 
@@ -333,7 +334,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

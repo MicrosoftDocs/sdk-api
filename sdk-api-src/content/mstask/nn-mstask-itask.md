@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,7 +78,7 @@ The <b>ITask</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ff8c9c3b-697f-42f0-a5b5-6194e4c89096">CreateTrigger</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">trigger</a> using a work item object.
+Creates a <a href="t.htm">trigger</a> using a work item object.
 
 </td>
 </tr>
@@ -155,7 +156,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546679">GetExitCode</a>
+<a href="https://msdn.microsoft.com/857d8b84-2ccf-4888-8aea-869ba70d3f64">GetExitCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the work item's last exit code.
@@ -164,7 +165,7 @@ Retrieves the work item's last exit code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/0fe3c184-2689-44de-b60f-92d31eaa5285">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags that modify the behavior of the work item.
@@ -209,7 +210,7 @@ Retrieves the next time the work item will run.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="https://msdn.microsoft.com/f59118d6-b430-4fcd-9c78-e6b5a65c151a">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the command-line parameters of a task.
@@ -236,7 +237,7 @@ Retrieves the work item run times for a specified time period.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/fb0bc52c-ae50-4c14-864d-099f2903adfb">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the work item.
@@ -257,7 +258,7 @@ Returns the flags used to modify the behavior of the task.
 <a href="https://msdn.microsoft.com/f99b342c-9233-43e3-93f1-88586e975608">GetTrigger</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">trigger structure</a>.
+Retrieves a <a href="t.htm">trigger structure</a>.
 
 </td>
 </tr>
@@ -275,7 +276,7 @@ Retrieves the number of triggers associated with a work item.
 <a href="https://msdn.microsoft.com/5e342807-4796-449b-b490-815ce57f4d8f">GetTriggerString</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">trigger string</a>.
+Retrieves a <a href="t.htm">trigger string</a>.
 
 </td>
 </tr>
@@ -299,7 +300,7 @@ Retrieves application-defined data associated with the work item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">Run</a>
+<a href="https://msdn.microsoft.com/f533fcf6-8ece-442f-b6d5-3702321db9e9">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the work item.
@@ -362,7 +363,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the flags that modify the behavior of the work item.
@@ -374,7 +375,7 @@ Sets the flags that modify the behavior of the work item.
 <a href="https://msdn.microsoft.com/f7ad639a-4094-4621-9add-b89958c0bda4">SetIdleWait</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">idle wait time</a> for the work item.
+Sets the <a href="i.htm">idle wait time</a> for the work item.
 
 </td>
 </tr>
@@ -448,7 +449,7 @@ Ends the execution of the work item.
 
 
 
-<b>ITask</b> is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task trigger object</a>. To create a task object, call 
+<b>ITask</b> is the primary interface of the <a href="t.htm">task trigger object</a>. To create a task object, call 
 <a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a> for existing tasks or 
 <a href="https://msdn.microsoft.com/1fbd65ae-0b54-4175-bf26-4226b1aabdc1">ITaskScheduler::NewWorkItem</a> for new tasks.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
     use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Provides access to the <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a>
+Provides access to the <a href="p_gly.htm">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>.
 
@@ -98,7 +99,7 @@ Refreshes the data in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/3dd07ddc-e07d-483a-b26b-754cea1bd2f2">Count</a>
 
 
 </td>
@@ -110,7 +111,7 @@ Returns the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/0d698f44-7480-43da-871b-51e7be2f9eff">Item</a>
 
 
 </td>

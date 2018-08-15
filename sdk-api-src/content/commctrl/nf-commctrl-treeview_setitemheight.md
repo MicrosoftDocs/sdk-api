@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773761(v=VS.85).aspx">TVM_SETITEMHEIGHT</a> message explicitly. 
+Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/23f6f2a4-cdd9-441d-af24-ed40513d2721">TVM_SETITEMHEIGHT</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +77,7 @@ New height of every item in the tree view, in pixels. Heights less than 1 will b
 
 
 
-The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure. 
+The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure. 
 
 
 
@@ -86,7 +87,7 @@ The tree-view control uses this value for the height of all items. To modify the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773844(v=VS.85).aspx">TreeView_GetItemHeight</a>
+<a href="https://msdn.microsoft.com/ca9d9a48-702d-4ea5-b3e3-bb9b71ca9518">TreeView_GetItemHeight</a>
  
 
  

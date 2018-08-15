@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -60,7 +61,7 @@ Creates a new device object that can be used to create other Microsoft DirectCom
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>*</b>
 
 The DXGI device to use to create DirectComposition surface objects.
 
@@ -100,7 +101,7 @@ The DXGI device specified by <i>dxgiDevice</i> is used to create all DirectCompo
 
 
 
-When creating the DXGI device, developers must specify the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE BGRA_SUPPORT</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_BGRA_SUPPORT</a> flag for Direct2D interoperability with Microsoft Direct3D resources.
+When creating the DXGI device, developers must specify the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE BGRA_SUPPORT</a> or <a href="https://msdn.microsoft.com/4926d630-9748-4416-9af0-287cb06b86f0">D3D10_CREATE_DEVICE_BGRA_SUPPORT</a> flag for Direct2D interoperability with Microsoft Direct3D resources.
 
 The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and the <i>dcompositionDevice</i> parameter receives a pointer to an <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface.
 
@@ -182,7 +183,7 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/750FDFD5-ADD5-43B3-A596-ECDB82C2EF73">Functions</a>
  
 
  

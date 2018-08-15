@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -134,7 +135,7 @@ The application has not calculated a text layout.
 
 
 
-<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="./images/ACPFig01.gif"/>
+<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="images/ACPFig01.gif"/>
 Use the illustration to determine the character position returned based on the flags used in the <i>dwFlags</i> parameter.
 
 <b>Point 1

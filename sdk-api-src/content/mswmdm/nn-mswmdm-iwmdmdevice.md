@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -137,7 +138,7 @@ Retrieves a serial number that uniquely identifies the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/18445ba5-6c91-4b4c-8f9b-b9d94fd96155">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves device status information.
@@ -146,7 +147,7 @@ Retrieves device status information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the operations supported by the device.

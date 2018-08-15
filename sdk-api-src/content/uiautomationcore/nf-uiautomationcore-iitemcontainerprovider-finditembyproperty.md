@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -75,7 +76,7 @@ The property identifier. For a list of property IDs, see <a href="https://msdn.m
 
 ### -param value [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a></b>
 
 The value of the property.
 
@@ -104,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 For virtual lists, the element returned may be a placeholder. <a href="https://msdn.microsoft.com/ec69f0d2-a643-4f1b-892a-0d90f79afe72">IVirtualizedItemProvider::Realize</a> can then be used to make the item fully available.
 
-The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="https://msdn.microsoft.com/en-us/library/Ee684017(v=VS.85).aspx">UIA_NamePropertyId</a> and, if appropriate, <a href="https://msdn.microsoft.com/en-us/library/Ee684017(v=VS.85).aspx">UIA_AutomationIdPropertyId</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee671200(v=VS.85).aspx">UIA_SelectionItemIsSelectedPropertyId</a>.
+The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="uiauto_automation_element_propids.htm">UIA_NamePropertyId</a> and, if appropriate, <a href="uiauto_automation_element_propids.htm">UIA_AutomationIdPropertyId</a> and <a href="uiauto_control_pattern_propids.htm">UIA_SelectionItemIsSelectedPropertyId</a>.
 
 If <i>propertyId</i> is 0, all items are a match. This value can be  used
 with <i>pStartAfter</i> equalling <b>NULL</b> to get the first item, and then to get successive

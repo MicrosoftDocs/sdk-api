@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dinputd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The <b>IDirectInputEffectDriver</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540057">IDirectInputEffectDriver::AddRef</a>
+<a href="https://msdn.microsoft.com/6bdeb92c-09de-4d26-b2ed-9bacb7233886">IDirectInputEffectDriver::AddRef</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::AddRef </b>method increases the reference count of the DirectInputEffectDriver object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver. 
@@ -79,7 +80,7 @@ The <b>IDirectInputEffectDriver::AddRef </b>method increases the reference count
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540061">IDirectInputEffectDriver::DestroyEffect</a>
+<a href="https://msdn.microsoft.com/beb5847c-a30e-4ab4-b293-359aca851c6c">IDirectInputEffectDriver::DestroyEffect</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::DestroyEffect </b>method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it. 
@@ -88,7 +89,7 @@ The <b>IDirectInputEffectDriver::DestroyEffect </b>method removes an effect from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540072">IDirectInputEffectDriver::DeviceID</a>
+<a href="https://msdn.microsoft.com/80abcfef-edd9-48df-8e47-96731ae41f8a">IDirectInputEffectDriver::DeviceID</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::DeviceID </b>method sends the driver the identity of the device. 
@@ -97,7 +98,7 @@ The <b>IDirectInputEffectDriver::DeviceID </b>method sends the driver the identi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540078">IDirectInputEffectDriver::DownloadEffect</a>
+<a href="https://msdn.microsoft.com/c10ee6f6-ed9e-45f9-b98d-db62d250a420">IDirectInputEffectDriver::DownloadEffect</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::DownloadEffect</b> method sends an effect to the device. 
@@ -106,7 +107,7 @@ The <b>IDirectInputEffectDriver::DownloadEffect</b> method sends an effect to th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540081">IDirectInputEffectDriver::Escape</a>
+<a href="https://msdn.microsoft.com/23bef39d-0254-4b8e-9059-32665d35b5cf">IDirectInputEffectDriver::Escape</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This method is called in response to an application invoking the <b>IDirectInputEffect::Escape</b> or <b>IDirectInputDevice::Escape</b> methods. 
@@ -115,7 +116,7 @@ The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540091">IDirectInputEffectDriver::GetEffectStatus</a>
+<a href="https://msdn.microsoft.com/1332b89a-59ab-4baf-a729-2183b24ce70d">IDirectInputEffectDriver::GetEffectStatus</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::GetEffectStatus </b>method obtains information about the status of an effect. 
@@ -124,7 +125,7 @@ The <b>IDirectInputEffectDriver::GetEffectStatus </b>method obtains information 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540099">IDirectInputEffectDriver::GetForceFeedbackState</a>
+<a href="https://msdn.microsoft.com/0cf48162-2b43-4417-820b-5197993ac990">IDirectInputEffectDriver::GetForceFeedbackState</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::GetForceFeedbackState </b>method retrieves the force-feedback state for the device. 
@@ -133,7 +134,7 @@ The <b>IDirectInputEffectDriver::GetForceFeedbackState </b>method retrieves the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540104">IDirectInputEffectDriver::GetVersions</a>
+<a href="https://msdn.microsoft.com/eda284d2-3e9c-436f-ad28-6397ff75d8ca">IDirectInputEffectDriver::GetVersions</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::GetVersions </b>method obtains version information about the force-feedback hardware and driver. 
@@ -142,7 +143,7 @@ The <b>IDirectInputEffectDriver::GetVersions </b>method obtains version informat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540112">IDirectInputEffectDriver::QueryInterface</a>
+<a href="https://msdn.microsoft.com/8a9c1279-c25f-48a4-8bd2-65bffe40cd63">IDirectInputEffectDriver::QueryInterface</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::QueryInterface </b>method determines whether the DirectInputEffectDriver object supports a particular COM interface. If it does, the system increases the reference count for the object by 1, and the application can begin using that interface immediately. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver. 
@@ -151,7 +152,7 @@ The <b>IDirectInputEffectDriver::QueryInterface </b>method determines whether th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540960">IDirectInputEffectDriver::Release</a>
+<a href="https://msdn.microsoft.com/04f8c7ab-56d4-4173-be84-b24253a231ab">IDirectInputEffectDriver::Release</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::Release </b>method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver. 
@@ -160,7 +161,7 @@ The <b>IDirectInputEffectDriver::Release </b>method decreases the reference coun
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540961">IDirectInputEffectDriver::SendForceFeedbackCommand</a>
+<a href="https://msdn.microsoft.com/9a872712-32aa-40b6-9d0f-c51d841342cb">IDirectInputEffectDriver::SendForceFeedbackCommand</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the force-feedback state for the device. 
@@ -169,7 +170,7 @@ The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540964">IDirectInputEffectDriver::SetGain</a>
+<a href="https://msdn.microsoft.com/6d0089b2-6e77-4308-b29c-7cc38595de6e">IDirectInputEffectDriver::SetGain</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::SetGain </b>method sets the overall device gain. 
@@ -178,7 +179,7 @@ The <b>IDirectInputEffectDriver::SetGain </b>method sets the overall device gain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540966">IDirectInputEffectDriver::StartEffect</a>
+<a href="https://msdn.microsoft.com/2c1865c2-ded4-47ce-a743-8ac48986dc5f">IDirectInputEffectDriver::StartEffect</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::StartEffect</b> method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning. 
@@ -187,7 +188,7 @@ The <b>IDirectInputEffectDriver::StartEffect</b> method begins the playback of a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540970">IDirectInputEffectDriver::StopEffect</a>
+<a href="https://msdn.microsoft.com/613cb68f-1fa8-4122-a1c9-feabde2dfbc9">IDirectInputEffectDriver::StopEffect</a>
 </td>
 <td align="left" width="63%">
 The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an effect. 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -240,10 +241,10 @@ An application calling the <b>NetDfsGetInfo</b> function may
     happen even when root scalability mode is configured for that namespace. In order to avoid this side-effect, if 
     the intent is to only retrieve the physical UNC pathname used by a specific DFSN client machine corresponding a 
     given DFS namespace path, then one alternative is to use the WDK API 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>, passing 
+    <a href="https://msdn.microsoft.com/007df07e-685b-4224-b9d6-55e87cf0bd5c">ZwQueryInformationFile</a>, passing 
     <b>FileNetworkPhysicalNameInformation</b> as the 
     <i>FileInformationClass</i> parameter and passing the address of a caller-allocated 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn602488">FILE_NETWORK_PHYSICAL_NAME_INFORMATION</a> 
+    <a href="https://msdn.microsoft.com/04F6A7B1-1198-4E5F-B6A8-70EEABE7CE83">FILE_NETWORK_PHYSICAL_NAME_INFORMATION</a> 
     structure as the <i>FileInformation</i> parameter. Please see the WDK for more information on 
     calling WDK APIs.
 

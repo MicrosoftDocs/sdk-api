@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Retrieves the <b>ElapsedTime</b> property for the <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The <b>ElapsedTime</b> property is a number that represents the elapsed time for an active fax job.
+Retrieves the <b>ElapsedTime</b> property for the <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object of a parent <a href="https://msdn.microsoft.com/cc59452b-194e-4a68-955b-ac39cd5325ff">FaxPort</a> object. The <b>ElapsedTime</b> property is a number that represents the elapsed time for an active fax job.
 
 This property is read-only.
 
@@ -65,7 +66,7 @@ This property is read-only.
 
 The value of this property is provided in <b>Date</b> format, but represents elapsed time, not the date and time. The value of this property is undefined if there is no job being executed on the device.
 
-You can use the <b>ElapsedTime</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms692322(v=VS.85).aspx">StartTime</a> property of the object to inform users about the transmission length of a fax job.
+You can use the <b>ElapsedTime</b> property of a <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/c9611619-b7b4-486d-b8fa-a8de8a50fae4">StartTime</a> property of the object to inform users about the transmission length of a fax job.
 
 
 

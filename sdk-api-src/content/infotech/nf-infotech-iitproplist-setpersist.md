@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -134,7 +135,7 @@ By default, properties are created with a persistence state of TRUE.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670040(v=VS.85).aspx">IITPropList</a>
+<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
  
 
  

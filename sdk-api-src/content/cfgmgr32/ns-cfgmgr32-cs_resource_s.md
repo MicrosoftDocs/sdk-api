@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -60,7 +61,7 @@ The CS_RESOURCE structure is used for specifying a resource list that describes 
 
 ### -field CS_Header
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540226">CS_DES</a> structure.
+A <a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a> structure.
 
 
 ## -see-also
@@ -68,7 +69,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540226">CS_DES<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540226">CS_DES</a>
+<a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a>
  
 
  

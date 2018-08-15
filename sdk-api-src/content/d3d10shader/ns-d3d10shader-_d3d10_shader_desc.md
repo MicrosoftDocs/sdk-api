@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10shader.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -242,7 +243,7 @@ Number of emit instructions used.
 
 ### -field GSOutputTopology
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a33b5406-bead-4513-96ef-bb442a18564e">D3D10_PRIMITIVE_TOPOLOGY</a></b>
 
 Geometry shader output topology.
 
@@ -252,6 +253,20 @@ Geometry shader output topology.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Geometry shader maximum output vertex count.
+
+
+#### - BitwiseInstructionCount
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Number of bitwise operations.
+
+
+#### - ConversionInstructionCount
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Number of conversion operations.
 
 
 #### - MovInstructionCount
@@ -268,25 +283,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Number of movc instructions.
 
 
-#### - ConversionInstructionCount
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-Number of conversion operations.
-
-
-#### - BitwiseInstructionCount
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-Number of bitwise operations.
-
-
 ## -remarks
 
 
 
-A shader is written in HLSL and compiled into an intermediate language by the HLSL compiler. The shader description returns information about the compiled shader. Get a shader description by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173850(v=VS.85).aspx">ID3D10ShaderReflection::GetDesc</a>.
+A shader is written in HLSL and compiled into an intermediate language by the HLSL compiler. The shader description returns information about the compiled shader. Get a shader description by calling <a href="https://msdn.microsoft.com/950211fb-9ea3-47ec-a413-b852cccde860">ID3D10ShaderReflection::GetDesc</a>.
 
 
 
@@ -296,7 +297,7 @@ A shader is written in HLSL and compiled into an intermediate language by the HL
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

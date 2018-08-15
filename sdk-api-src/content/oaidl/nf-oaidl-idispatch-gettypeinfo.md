@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -125,7 +126,7 @@ The <i>iTInfo</i> parameter was not 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>
+<a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>
  
 
  

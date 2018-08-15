@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -66,7 +67,7 @@ The overall status of the method.
 
 ### -param pResults [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that contains the method-execution results.  This is empty if the method returns no results.
+An <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that contains the method-execution results.  This is empty if the method returns no results.
 
 
 ## -returns

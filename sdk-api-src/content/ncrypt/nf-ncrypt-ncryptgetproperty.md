@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -136,7 +137,7 @@ For the <b>NCRYPT_SECURITY_DESCR_PROPERTY</b> property, this parameter must also
 </dl>
 </td>
 <td width="60%">
-Retrieve the security identifier (SID) of the object's owner. Use the <a href="https://msdn.microsoft.com/58e810db-348e-430c-a61f-79f67826b60d">GetSecurityDescriptorOwner</a> function to obtain the owner SID from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the security identifier (SID) of the object's owner. Use the <a href="https://msdn.microsoft.com/58e810db-348e-430c-a61f-79f67826b60d">GetSecurityDescriptorOwner</a> function to obtain the owner SID from the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -146,7 +147,7 @@ Retrieve the security identifier (SID) of the object's owner. Use the <a href="h
 </dl>
 </td>
 <td width="60%">
-Retrieve the SID of the object's primary group. Use the <a href="https://msdn.microsoft.com/a920b49e-a4c2-4e49-b529-88c12205d995">GetSecurityDescriptorGroup</a> function to obtain the group SID from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the SID of the object's primary group. Use the <a href="https://msdn.microsoft.com/a920b49e-a4c2-4e49-b529-88c12205d995">GetSecurityDescriptorGroup</a> function to obtain the group SID from the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -156,7 +157,7 @@ Retrieve the SID of the object's primary group. Use the <a href="https://msdn.mi
 </dl>
 </td>
 <td width="60%">
-Retrieve the discretionary access control list (DACL). Use the <a href="https://msdn.microsoft.com/6bf59735-aaa3-4751-8c98-00cc197df4e5">GetSecurityDescriptorSacl</a> function to obtain the DACL from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the discretionary access control list (DACL). Use the <a href="https://msdn.microsoft.com/6bf59735-aaa3-4751-8c98-00cc197df4e5">GetSecurityDescriptorSacl</a> function to obtain the DACL from the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -166,7 +167,7 @@ Retrieve the discretionary access control list (DACL). Use the <a href="https://
 </dl>
 </td>
 <td width="60%">
-Retrieve the system access control list (SACL). Use the <a href="https://msdn.microsoft.com/8006c8bb-4976-463f-b074-a59c3bbab36b">GetSecurityDescriptorDacl</a> function to obtain the SACL from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the system access control list (SACL). Use the <a href="https://msdn.microsoft.com/8006c8bb-4976-463f-b074-a59c3bbab36b">GetSecurityDescriptorDacl</a> function to obtain the SACL from the <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>

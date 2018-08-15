@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,16 +69,16 @@ An ordinal value identifying the particular palette upon which the operation is 
 
 ### -param pEntries [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb147253(v=VS.85).aspx">PALETTEENTRY</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/8ee46b54-e076-4b85-a55e-a7974a4c58b6">PALETTEENTRY</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb147253(v=VS.85).aspx">PALETTEENTRY</a> structure, representing the palette entries to set. The number of <b>PALETTEENTRY</b> structures pointed to by pEntries is assumed to be 256. See Remarks. 
+Pointer to a <a href="https://msdn.microsoft.com/8ee46b54-e076-4b85-a55e-a7974a4c58b6">PALETTEENTRY</a> structure, representing the palette entries to set. The number of <b>PALETTEENTRY</b> structures pointed to by pEntries is assumed to be 256. See Remarks. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -88,7 +89,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-For Direct3D 9 applications, any palette sent to this method must conform to the D3DPTEXTURECAPS_ALPHAPALETTE capability bit of the <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure. If D3DPTEXTURECAPS_ALPHAPALETTE is not set, every entry in the palette must have alpha set to 1.0 or this method will fail with D3DERR_INVALIDCALL. If D3DPTEXTURECAPS_ALPHAPALETTE is set, then any set of alpha values are allowed. Note that the debug runtime will print a warning message if all palette entries have alpha set to 0. 
+For Direct3D 9 applications, any palette sent to this method must conform to the D3DPTEXTURECAPS_ALPHAPALETTE capability bit of the <a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a> structure. If D3DPTEXTURECAPS_ALPHAPALETTE is not set, every entry in the palette must have alpha set to 1.0 or this method will fail with D3DERR_INVALIDCALL. If D3DPTEXTURECAPS_ALPHAPALETTE is set, then any set of alpha values are allowed. Note that the debug runtime will print a warning message if all palette entries have alpha set to 0. 
 
 A single logical palette is associated with the device, and is shared by all texture stages.
 
@@ -100,23 +101,23 @@ A single logical palette is associated with the device, and is shared by all tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174383(v=VS.85).aspx">IDirect3DDevice9::GetCurrentTexturePalette</a>
+<a href="https://msdn.microsoft.com/e72ec7a1-9904-4a07-a662-24c6532cfdc8">IDirect3DDevice9::GetCurrentTexturePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174397(v=VS.85).aspx">IDirect3DDevice9::GetPaletteEntries</a>
+<a href="https://msdn.microsoft.com/f89396a5-57bf-4e3c-b5e8-044f58201156">IDirect3DDevice9::GetPaletteEntries</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174428(v=VS.85).aspx">IDirect3DDevice9::SetCurrentTexturePalette</a>
+<a href="https://msdn.microsoft.com/5d97ccf4-20cd-4773-905a-e12b279e4f0b">IDirect3DDevice9::SetCurrentTexturePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206252(v=VS.85).aspx">Texture Palettes (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/dea4b4bc-7eba-40fa-9c2c-0851fe7e231b">Texture Palettes (Direct3D 9)</a>
  
 
  

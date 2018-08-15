@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps only]
@@ -64,7 +65,7 @@ Copies a source context structure (including any XState) onto an initialized des
 
 ### -param Destination [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that receives the 
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that receives the 
       context copied from the <i>Source</i>. The 
       <b>CONTEXT</b> structure should be initialized by calling 
       <a href="https://msdn.microsoft.com/909BF5F7-0622-4B22-A2EC-27722389700A">InitializeContext</a> before calling this 
@@ -74,7 +75,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh43
 ### -param ContextFlags [in]
 
 Flags specifying the pieces of the <i>Source</i>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that will be copied into the 
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that will be copied into the 
       destination. This must be a subset of the <i>ContextFlags</i> specified when calling 
       <a href="https://msdn.microsoft.com/909BF5F7-0622-4B22-A2EC-27722389700A">InitializeContext</a> on the 
       <i>Destination</i> <b>CONTEXT</b>.
@@ -82,7 +83,7 @@ Flags specifying the pieces of the <i>Source</i>
 
 ### -param Source [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure from which to copy 
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure from which to copy 
       processor context data.
 
 
@@ -102,7 +103,7 @@ This function returns <b>TRUE</b> if the context was copied successfully, otherw
 
 
 The function copies data from the <i>Source</i>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> over the corresponding data in the 
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> over the corresponding data in the 
      <i>Destination</i> <b>CONTEXT</b>, including 
      extended context if any is present. The <i>Destination</i>
 <b>CONTEXT</b> must have been initialized with 
@@ -134,7 +135,7 @@ The function copies data from the <i>Source</i>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 

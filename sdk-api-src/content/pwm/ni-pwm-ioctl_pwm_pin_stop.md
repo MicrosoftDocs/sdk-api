@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: ADAM
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
-Stops generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use <a href="https://msdn.microsoft.com/en-us/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a>.
+Stops generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use <a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>.
 
 
 

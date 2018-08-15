@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -59,7 +60,7 @@ The <b>ICEnroll4</b> interface is one of several interfaces that represent the C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll4</b> interface inherits from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>, <a href="https://msdn.microsoft.com/12c51daf-a72f-43da-9fb7-20ec261b4917">ICEnroll2</a>, <a href="https://msdn.microsoft.com/4caa7e75-0116-4891-8bf2-ede09a05a440">ICEnroll3</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>. <b>ICEnroll4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll4</b> interface inherits from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>, <a href="https://msdn.microsoft.com/12c51daf-a72f-43da-9fb7-20ec261b4917">ICEnroll2</a>, <a href="https://msdn.microsoft.com/4caa7e75-0116-4891-8bf2-ede09a05a440">ICEnroll3</a>, and <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>. <b>ICEnroll4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -214,7 +215,7 @@ Retrieves the IDs of cryptographic algorithms in a given algorithm class that ar
 </td>
 <td align="left" width="63%">
 Retrieves the names of the containers for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) specified by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property.</p> (Inherited from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>)</td>
+<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property.</p> (Inherited from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
@@ -376,7 +377,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/ddf92921-368f-476
 <a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">get_ProviderName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property.</p> (Inherited from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>)</td>
+Retrieves the value of the <a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property.</p> (Inherited from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
@@ -685,7 +686,7 @@ Sets the value of the <a href="https://msdn.microsoft.com/ddf92921-368f-4769-b2c
 <a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">put_ProviderName</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a> property.</p> (Inherited from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>)</td>
+Sets the value of the <a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a> property.</p> (Inherited from <a href="https://msdn.microsoft.com/d5b746e0-91bd-45bd-9a67-ddc8868cee56">ICEnroll</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
@@ -801,7 +802,7 @@ Removes a pending request from the client's request store.</p> (Inherited from <
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/503062c3-8a73-4218-a826-c72f926f36db">Reset</a>
 </td>
 <td align="left" width="63%">
  Returns the certificate enrollment control  object to its initial <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>.</p> (Inherited from <a href="https://msdn.microsoft.com/4caa7e75-0116-4891-8bf2-ede09a05a440">ICEnroll3</a>)</td>
@@ -1120,7 +1121,7 @@ Read/write
 <tr data="inherited;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a>
+<a href="https://msdn.microsoft.com/092d5ed1-8d03-45d8-bc7a-3e27035f4b2f">ProviderName</a>
 
 
 </td>

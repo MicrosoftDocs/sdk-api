@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -157,25 +158,24 @@ This flag cannot be combined with <b>URL_ESCAPE_SPACES_ONLY</b> or <b>URL_DONT_E
 <b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
 
 
-##### - dwFlags.URL_DONT_ESCAPE_EXTRA_INFO (0x02000000)
-
-Used only in conjunction with <b>URL_ESCAPE_SPACES_ONLY</b> to prevent the conversion of characters in the query (the portion of the URL following the first # or ? character encountered in the string). This flag should not be used alone, nor combined with <b>URL_ESCAPE_SEGMENT_ONLY</b>.
-
-
 ##### - dwFlags.URL_BROWSER_MODE
 
 Defined to be the same as <b>URL_DONT_ESCAPE_EXTRA_INFO</b>.
 
 
-##### - dwFlags.URL_ESCAPE_SPACES_ONLY (0x04000000)
+##### - dwFlags.URL_DONT_ESCAPE_EXTRA_INFO (0x02000000)
 
-Convert only space characters to their escape sequences, including those space characters in the query portion of the URL. Other unsafe characters are not converted to their escape sequences. This flag assumes that <i>pszURL</i> does not contain a full URL. It expects only the portions following the server specification.
-        
-                                
+Used only in conjunction with <b>URL_ESCAPE_SPACES_ONLY</b> to prevent the conversion of characters in the query (the portion of the URL following the first # or ? character encountered in the string). This flag should not be used alone, nor combined with <b>URL_ESCAPE_SEGMENT_ONLY</b>.
 
-Combine this flag with <b>URL_DONT_ESCAPE_EXTRA_INFO</b> to prevent the conversion of space characters in the query portion of the URL.
 
-This flag cannot be combined with <b>URL_ESCAPE_PERCENT</b> or <b>URL_ESCAPE_SEGMENT_ONLY</b>.
+##### - dwFlags.URL_ESCAPE_ASCII_URI_COMPONENT (0x00080000)
+
+<b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
+
+
+##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
+
+<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
 
 ##### - dwFlags.URL_ESCAPE_PERCENT (0x00001000)
@@ -200,14 +200,15 @@ Combine this flag with <b>URL_ESCAPE_PERCENT</b> to include that character in th
 This flag cannot be combined with <b>URL_ESCAPE_SPACES_ONLY</b> or <b>URL_DONT_ESCAPE_EXTRA_INFO</b>.
 
 
-##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
+##### - dwFlags.URL_ESCAPE_SPACES_ONLY (0x04000000)
 
-<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
+Convert only space characters to their escape sequences, including those space characters in the query portion of the URL. Other unsafe characters are not converted to their escape sequences. This flag assumes that <i>pszURL</i> does not contain a full URL. It expects only the portions following the server specification.
+        
+                                
 
+Combine this flag with <b>URL_DONT_ESCAPE_EXTRA_INFO</b> to prevent the conversion of space characters in the query portion of the URL.
 
-##### - dwFlags.URL_ESCAPE_ASCII_URI_COMPONENT (0x00080000)
-
-<b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
+This flag cannot be combined with <b>URL_ESCAPE_PERCENT</b> or <b>URL_ESCAPE_SEGMENT_ONLY</b>.
 
 
 ## -returns
@@ -351,7 +352,7 @@ Result   = test%2Ft%e%3Cs%20t.asp</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
  
 
  

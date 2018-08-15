@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -86,11 +87,10 @@ If this parameter is <b>NULL</b>, the function sets the default Internet connect
 Reserved; must be zero.
 
 
-#### - lpAutoDialEntries [in]
+#### - dwcAutoDialEntries [in]
 
-Pointer to an array of one or more 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
-<b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database. 
+Specifies the number of 
+<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
 
 
 
@@ -102,10 +102,11 @@ Pointer to an array of one or more
 Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 
 
-#### - dwcAutoDialEntries [in]
+#### - lpAutoDialEntries [in]
 
-Specifies the number of 
-<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
+Pointer to an array of one or more 
+<a href="https://msdn.microsoft.com/a62a1e86-a433-44dd-8068-cb4d60b124c3">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
+<b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database. 
 
 
 

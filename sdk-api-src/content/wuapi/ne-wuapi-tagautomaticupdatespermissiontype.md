@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -66,7 +67,7 @@ The ability to set the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-af
 
 ### -field auptDisableAutomaticUpdates
 
-The ability to set the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="https://msdn.microsoft.com/en-us/library/Aa385806(v=VS.85).aspx">aunlDisabled</a>.
+The ability to set the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="automaticupdatesnotificationlevel.htm">aunlDisabled</a>.
 
 
 ### -field auptSetIncludeRecommendedUpdates

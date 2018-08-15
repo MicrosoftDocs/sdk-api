@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>DrvEndDoc</b> function is called by GDI when it has finished sending a do
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure.
 
 
 ### -param fl [in]
@@ -102,7 +103,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 A <a href="https://msdn.microsoft.com/58e181ff-c792-41a5-967d-a69a8ff5a041">printer graphics DLL</a> must provide a <b>DrvEndDoc</b> function. The function is called after the last physical page of a print job has been rendered.
 
-Typically the function is used for sending control sequences to printer hardware, after a document has been printed, by calling GDI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff565467">EngWritePrinter</a> function. The function can also perform internal, document-specific clean-up operations for the printer graphics DLL.
+Typically the function is used for sending control sequences to printer hardware, after a document has been printed, by calling GDI's <a href="https://msdn.microsoft.com/c65f09b2-5924-479a-8067-a1ba472348e2">EngWritePrinter</a> function. The function can also perform internal, document-specific clean-up operations for the printer graphics DLL.
 
 Because there is not a separate call into the printer graphics DLL when a print job is finished, the <b>DrvEndDoc</b> function must also send control sequences to the printer to end the job, if required by the printer. (In other words, there is one document per job.)
 
@@ -114,7 +115,7 @@ Because there is not a separate call into the printer graphics DLL when a print 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556296">DrvStartDoc</a>
+<a href="https://msdn.microsoft.com/f73adc24-2e61-4b62-9d38-12a23b62ed01">DrvStartDoc</a>
  
 
  

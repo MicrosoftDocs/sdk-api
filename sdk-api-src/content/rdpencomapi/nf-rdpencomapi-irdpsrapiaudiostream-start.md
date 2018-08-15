@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Starts the audio stream. The audio stream must be initialized by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method before it can be started.
+Starts the audio stream. The audio stream must be initialized by calling the <a href="https://msdn.microsoft.com/EF94E441-1331-4317-A104-05BDA6738C5A">Initialize</a> method before it can be started.
 
 
 
@@ -80,7 +81,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/EF94E441-1331-4317-A104-05BDA6738C5A">Initialize</a>
  
 
  

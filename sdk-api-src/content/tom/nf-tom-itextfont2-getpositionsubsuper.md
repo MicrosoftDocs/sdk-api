@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -83,7 +84,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 The subscript or superscript position is relative to the baseline as a percent of the font height.
 
-Subscripts and superscripts in math zones are handled using the <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubscript</a>, <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSuperscript</a>, <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubSup</a>, and <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomLeftSubSup</a> mathematical objects. See <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+Subscripts and superscripts in math zones are handled using the <a href="objecttype.htm">tomSubscript</a>, <a href="objecttype.htm">tomSuperscript</a>, <a href="objecttype.htm">tomSubSup</a>, and <a href="objecttype.htm">tomLeftSubSup</a> mathematical objects. See <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -121,7 +122,7 @@ No CRL was found. This happens if the store is empty or the end of the store's l
 The returned pointer is freed when it is passed as the <i>pPrevCrlContext</i> on a subsequent call to the function. Otherwise, the pointer must explicitly be freed by calling 
 <a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a>. A <i>pPrevCrlContext</i> that is not <b>NULL</b> is always freed when passed to this function through a call to <b>CertFreeCRLContext</b>, even if the function itself returns an error.
 
-A duplicate of the CRL <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> returned by this function can be made by calling 
+A duplicate of the CRL <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> returned by this function can be made by calling 
 <a href="https://msdn.microsoft.com/ea14c494-d1c7-46d0-9d56-fc89a4b4afa9">CertDuplicateCRLContext</a>.
 
 
@@ -152,7 +153,7 @@ A duplicate of the CRL <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
 
 
 

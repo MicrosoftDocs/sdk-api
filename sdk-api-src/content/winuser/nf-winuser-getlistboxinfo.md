@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: Service Pack 6
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -82,7 +83,7 @@ The return value is the number of items per column.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775939(v=VS.85).aspx">GetComboBoxInfo</a>
+<a href="https://msdn.microsoft.com/f7553df7-4309-49fc-9e4a-da9063e6b042">GetComboBoxInfo</a>
  
 
  

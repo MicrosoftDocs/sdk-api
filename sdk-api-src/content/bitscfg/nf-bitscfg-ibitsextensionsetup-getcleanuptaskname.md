@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bitscfg.h
 req.include-header: 
+req.redist: BITS 1.5 on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -78,7 +79,7 @@ This method returns <b>S_OK</b> for success. Otherwise, the method returns <b>S_
 
 
 When you create a virtual directory and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">enable</a> it for BITS uploads, BITS adds a work item in the 
+<a href="https://msdn.microsoft.com/5b68dea2-f9a7-4a99-93d3-62c4f24b769f">enable</a> it for BITS uploads, BITS adds a work item in the 
 <a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>. The work item cleans up the virtual directory once every 12 hours by deleting jobs that have not been modified within the time-out period. To specify the time-out period, set the 
 <a href="https://msdn.microsoft.com/08a40cc1-ec6d-4b65-971a-15c7b06df148">BITSSessionTimeout</a> IIS extension property.
 

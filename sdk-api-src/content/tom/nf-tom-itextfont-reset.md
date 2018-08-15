@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -242,7 +243,7 @@ The font object is attached to a range that has been deleted.
 
 Calling 
 				<b>ITextFont::Reset</b> with <b>tomUndefined</b> sets all properties to undefined values. Thus, applying the font object to a range changes nothing. This applies to a font object that is obtained by the 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">ITextFont::GetDuplicate</a> method.
+				<a href="https://msdn.microsoft.com/63911719-9ce2-482f-ba66-bc04eaa5d965">ITextFont::GetDuplicate</a> method.
 
 
 
@@ -256,11 +257,11 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/63911719-9ce2-482f-ba66-bc04eaa5d965">GetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -268,7 +269,7 @@ Calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

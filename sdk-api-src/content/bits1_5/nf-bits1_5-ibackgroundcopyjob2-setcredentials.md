@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
+req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -254,7 +255,7 @@ if (NO_ERROR == rc)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427474">Authentication</a>
+<a href="https://msdn.microsoft.com/cfd4aec3-79d0-4971-93f8-df797e5c0f75">Authentication</a>
 
 
 

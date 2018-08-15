@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>PATHOBJ_bMoveTo</b> function sets the current position in a given path.
 
 ### -param ppo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure created by the driver.
+Pointer to a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure created by the driver.
 
 
 ### -param ptfx
@@ -82,7 +83,7 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 
 
-This function should only be called with PATHOBJ structures created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564755">EngCreatePath</a>.
+This function should only be called with PATHOBJ structures created by <a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>.
 
 
 
@@ -92,11 +93,11 @@ This function should only be called with PATHOBJ structures created by <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564755">EngCreatePath</a>
+<a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a>
+<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
  
 
  

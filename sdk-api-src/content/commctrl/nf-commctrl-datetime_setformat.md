@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761771(v=VS.85).aspx">DTM_SETFORMAT</a> message explicitly. 
+Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the <a href="https://msdn.microsoft.com/a89fa3ad-9894-4c52-ab56-fb62208e39b3">DTM_SETFORMAT</a> message explicitly. 
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -144,7 +145,7 @@ This function returns an HRESULT indicating success or the reason for failure. I
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632441">FSCTL_GET_EXTERNAL_BACKING</a>
+<a href="https://msdn.microsoft.com/18A8E71E-CAED-4E0A-95D0-18E99F9733B2">FSCTL_GET_EXTERNAL_BACKING</a>
  
 
  

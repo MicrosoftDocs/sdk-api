@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761564(v=VS.85).aspx">ImageList_Remove</a> function to remove all of the images from an image list. 
+Calls the <a href="https://msdn.microsoft.com/b3817e62-f533-46a0-a437-2bd55f8b4ad8">ImageList_Remove</a> function to remove all of the images from an image list. 
 
 
 ## -parameters

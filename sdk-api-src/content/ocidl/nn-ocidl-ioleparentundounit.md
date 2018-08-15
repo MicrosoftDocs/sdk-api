@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -90,7 +91,7 @@ The <b>IOleParentUndoUnit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/86db3308-6f01-47f1-ba28-3ed5e70b7cb9">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a simple undo unit to the collection.
@@ -99,7 +100,7 @@ Adds a simple undo unit to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/dcfe1962-c40f-4d3f-ae6a-b70755adebe8">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the specified parent undo unit.
@@ -126,7 +127,7 @@ Retrieves state information about the innermost open parent undo unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/185eae3b-5323-45f1-9810-47bd21ce0d22">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a new parent undo unit, which becomes part of the containing unit's undo stack.

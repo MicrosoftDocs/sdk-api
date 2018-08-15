@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Converts the specified dialog box units to screen units (pixels). The function replaces the coordinates in the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure with the converted coordinates, which allows the structure to be used to create a dialog box or position a control within a dialog box. 
+Converts the specified dialog box units to screen units (pixels). The function replaces the coordinates in the specified <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure with the converted coordinates, which allows the structure to be used to create a dialog box or position a control within a dialog box. 
 
 
 ## -parameters
@@ -71,7 +72,7 @@ A handle to a dialog box. This function accepts only handles returned by one of 
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the dialog box coordinates to be converted. 
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that contains the dialog box coordinates to be converted. 
 
 
 ## -returns
@@ -91,7 +92,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>MapDialogRect</b> function assumes that the initial coordinates in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure represent dialog box units. To convert these coordinates from dialog box units to pixels, the function retrieves the current horizontal and vertical base units for the dialog box, then applies the following formulas:
+The <b>MapDialogRect</b> function assumes that the initial coordinates in the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure represent dialog box units. To convert these coordinates from dialog box units to pixels, the function retrieves the current horizontal and vertical base units for the dialog box, then applies the following formulas:
 				
 				
 
@@ -100,7 +101,7 @@ left   = MulDiv(left,   baseunitX, 4);
 right  = MulDiv(right,  baseunitX, 4);
 top    = MulDiv(top,    baseunitY, 8);
 bottom = MulDiv(bottom, baseunitY, 8);</code></pre>
-If the dialog box template has the <a href="https://msdn.microsoft.com/en-us/library/ms644994(v=VS.85).aspx">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template. 
+If the dialog box template has the <a href="about_dialog_boxes.htm">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template. 
 
 
 
@@ -114,11 +115,11 @@ If the dialog box template has the <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645475(v=VS.85).aspx">GetDialogBaseUnits</a>
+<a href="https://msdn.microsoft.com/3fe38fd1-8781-407b-8750-7112c94fb866">GetDialogBaseUnits</a>
 
 
 
@@ -126,7 +127,7 @@ If the dialog box template has the <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 

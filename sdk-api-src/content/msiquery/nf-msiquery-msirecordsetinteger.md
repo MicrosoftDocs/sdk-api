@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista.
 req.target-min-winversvr: 
@@ -120,7 +121,7 @@ To set a record integer field to <b>NULL_INTEGER</b>, set <i>iValue</i> to <b>MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

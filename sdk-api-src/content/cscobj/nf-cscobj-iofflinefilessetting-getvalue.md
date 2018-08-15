@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -63,7 +64,7 @@ Retrieves the value of a particular Offline Files setting.
 
 Receives the value associated with the setting.  This value is determined based on system policy, preferences and system defaults.
 
-The method initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> prior to storing the setting value in it.
+The method initializes the <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> prior to storing the setting value in it.
 
 
 ### -param pbSetByPolicy [out]

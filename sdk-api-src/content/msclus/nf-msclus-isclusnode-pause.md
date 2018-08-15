@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Suspends the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> activity of a 
+    <a href="c_gly.htm">cluster</a> activity of a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
 
 
@@ -86,7 +87,7 @@ Use the <a href="https://msdn.microsoft.com/74e465e2-1328-4e05-b287-3ce27359c67a
 
 While a node is paused, <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> cannot be moved to the node 
     either through the <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> process or administrator action. A 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">paused</a> node returns 
+    <a href="p_gly.htm">paused</a> node returns 
     <b>ClusterNodePaused</b> as the value for its 
     <a href="https://msdn.microsoft.com/c1887055-518a-4177-a618-418c75883d69">ClusNode.State</a> property.
 

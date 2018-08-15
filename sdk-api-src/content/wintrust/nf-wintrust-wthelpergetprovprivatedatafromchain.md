@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -68,7 +69,7 @@ A pointer to a <a href="https://msdn.microsoft.com/93ea2ad5-65da-4daa-bfd4-e3d13
 
 ### -param pgProviderID
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that identifies the provider.
+A pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the provider.
 
 
 ## -returns

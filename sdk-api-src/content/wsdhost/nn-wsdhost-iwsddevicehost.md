@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -84,7 +85,7 @@ Registers a service object for incoming requests, but does not add the service t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/a66f0600-0bac-4bef-af43-6db60b60605e">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes an instance of an <b>IWSDDeviceHost</b> object.
@@ -157,7 +158,7 @@ Notifies all subscribed clients that an event has occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the device host and publishes the device host using a WS-Discovery Hello message.
@@ -166,7 +167,7 @@ Starts the device host and publishes the device host using a WS-Discovery Hello 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/7a31e45a-7d38-44b7-84c7-7471bc14cc94">Stop</a>
 </td>
 <td align="left" width="63%">
 Sends a WS-Discovery Bye message and stops the host.
@@ -195,7 +196,7 @@ After retrieving this interface, the application would then:
 <ol>
 <li>Call the <a href="https://msdn.microsoft.com/d514babb-c502-4d9a-b6c8-f371465cb9e8">RegisterPortType</a> method to register all necessary port types.</li>
 <li>Call <a href="https://msdn.microsoft.com/dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424">SetMetadata</a> to describe the device and optionally call <a href="https://msdn.microsoft.com/8e125e72-4060-4be6-b370-b2f6b24d9da7">RegisterService</a> one or more times to register services described in the service host metadata.</li>
-<li>Call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> method to start the device host and to publish the device using WS-Discovery.After starting the device host, you can optionally:
+<li>Call the <a href="https://msdn.microsoft.com/06fea296-2551-46b1-9cd7-54187bca5fe8">Start</a> method to start the device host and to publish the device using WS-Discovery.After starting the device host, you can optionally:
 
 <ol>
 <li>Call <a href="https://msdn.microsoft.com/0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4">AddDynamicService</a> for services not described in the service host metadata (for example, an ad hoc print job).</li>
@@ -203,7 +204,7 @@ After retrieving this interface, the application would then:
 <li>Call the <a href="https://msdn.microsoft.com/c4cba7f0-6f08-43d7-b255-d3dfb1b5287d">SignalEvent</a> method to indicate that notifications should be sent for subscriptions relating to a particular event.</li>
 </ol>
 </li>
-<li>Call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a> method to terminate host execution and terminate publication of the device.</li>
+<li>Call the <a href="https://msdn.microsoft.com/7a31e45a-7d38-44b7-84c7-7471bc14cc94">Stop</a> method to terminate host execution and terminate publication of the device.</li>
 </ol>
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,8 +54,8 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>ITTAPIEventNotification</b> interface is an outgoing interface that allows an application to control the processing of event information. The application must implement this interface: it must create a COM object that supports this interface, and then register it using the COM standard 
-<a href="https://msdn.microsoft.com/en-us/library/ms683857(v=VS.85).aspx">IConnectionPointContainer</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms694318(v=VS.85).aspx">IConnectionPoint</a> interfaces.
+<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a> and 
+<a href="_com_iconnectionpoint">IConnectionPoint</a> interfaces.
 
 The 
 <a href="https://msdn.microsoft.com/8cd57c81-cd71-4fe5-a176-805c96c06c31">ITTAPIEventNotification::Event</a> method of this interface is called by TAPI in response to an event. Typically, the application implements a set of switch statements that use the value of a 

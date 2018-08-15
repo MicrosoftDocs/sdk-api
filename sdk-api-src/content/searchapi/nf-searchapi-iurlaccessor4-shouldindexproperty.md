@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Search (WS) 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -83,7 +84,7 @@ Returns S_FALSE if the property should not be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183431(v=VS.85).aspx">IUrlAccessor4</a>
+<a href="https://msdn.microsoft.com/e49bfd50-1743-41aa-b11b-c47b9355489f">IUrlAccessor4</a>
  
 
  

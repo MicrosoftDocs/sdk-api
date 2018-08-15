@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -87,7 +88,7 @@ The <b>hbm</b> member is valid.
 </dl>
 </td>
 <td width="60%">
-While handling the message <a href="https://msdn.microsoft.com/en-us/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a>, the header control may not have all the values needed to complete the request.  In this case, the control must call the application back for the values via the <a href="https://msdn.microsoft.com/en-us/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification.  If HDI_DI_SETITEM has been passed in the <b>HDM_GETITEM</b> message, the control will cache any values returned from HDN_GETDISPINFO (otherwise the values remain unset.)
+While handling the message <a href="https://msdn.microsoft.com/fb1330d3-fd28-490c-9caa-4b2b5ff86ba0">HDM_GETITEM</a>, the header control may not have all the values needed to complete the request.  In this case, the control must call the application back for the values via the <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification.  If HDI_DI_SETITEM has been passed in the <b>HDM_GETITEM</b> message, the control will cache any values returned from HDN_GETDISPINFO (otherwise the values remain unset.)
 
 </td>
 </tr>
@@ -198,7 +199,7 @@ The width or height of the item.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
-A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://msdn.microsoft.com/en-us/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
+A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
 
 
 ### -field hbm
@@ -338,7 +339,7 @@ The preceding value can be combined with:
 </dl>
 </td>
 <td width="60%">
-Display an image from an image list. Specify the image list by sending an <a href="https://msdn.microsoft.com/en-us/library/Bb775365(v=VS.85).aspx">HDM_SETIMAGELIST</a> message. Specify the index of the image in the <b>iImage</b> member of this structure.
+Display an image from an image list. Specify the image list by sending an <a href="https://msdn.microsoft.com/1d7f07fa-f6f4-422a-949c-97d0388343e3">HDM_SETIMAGELIST</a> message. Specify the index of the image in the <b>iImage</b> member of this structure.
 
 </td>
 </tr>
@@ -443,7 +444,7 @@ Application-defined item data.
 
 Type: <b>int</b>
 
-The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://msdn.microsoft.com/en-us/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
+The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
 
 
 ### -field iOrder
@@ -514,7 +515,7 @@ Ignore <b>pvFilter</b>.
 
 Type: <b>void*</b>
 
-The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775251(v=VS.85).aspx">HDTEXTFILTER</a> structure.
+The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://msdn.microsoft.com/4c43553e-e02e-42ad-9a1f-e8f608f66941">HDTEXTFILTER</a> structure.
 
 
 ### -field state
@@ -547,7 +548,7 @@ The item has keyboard focus.
 
 
 
-<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 

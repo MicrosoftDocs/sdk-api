@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -148,7 +149,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-To set the disk cache information, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560405">IOCTL_DISK_SET_CACHE_INFORMATION</a> control code.
+To set the disk cache information, use the <a href="https://msdn.microsoft.com/e921da48-9435-41f0-87dd-abb383fd5208">IOCTL_DISK_SET_CACHE_INFORMATION</a> control code.
 
 
 
@@ -158,7 +159,7 @@ To set the disk cache information, use the <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96">DISK_CACHE_INFORMATION</a>
 
 
 
@@ -170,7 +171,7 @@ To set the disk cache information, use the <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560405">IOCTL_DISK_SET_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/e921da48-9435-41f0-87dd-abb383fd5208">IOCTL_DISK_SET_CACHE_INFORMATION</a>
  
 
  

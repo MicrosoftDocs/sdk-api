@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Changes the state of an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761196(v=VS.85).aspx">LVM_SETITEMSTATE</a> message explicitly. 
+Changes the state of an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/aecd14dd-cfd0-4c7c-bddc-f65022de68c9">LVM_SETITEMSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -144,10 +145,10 @@ An item's state value includes a set of bit flags that indicate the item's state
 The 
 				<i>mask</i> parameter specifies the state bits you want to modify, and the <i>state</i> parameter specifies the new value for those bits. To set a bit in the item's internal state, set it in both the <i>mask</i> and <i>state</i> parameters. To clear a bit in the item's internal state, set it in the <i>mask</i> parameter and clear it in the <i>state</i> parameter. To leave a bit unchanged in the item's internal state, clear it in the <i>mask</i> parameter. 
 
-Bits 8 through 11 of the <i>state</i> parameter specify the one-based index of an overlay image in the control's image lists. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_OVERLAYMASK</a> mask. To specify an overlay index, use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro. 
+Bits 8 through 11 of the <i>state</i> parameter specify the one-based index of an overlay image in the control's image lists. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_OVERLAYMASK</a> mask. To specify an overlay index, use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro. 
 		
 
-Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of an image in the control's state image list. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_STATEIMAGEMASK</a> mask. To specify a state image index, use the <a href="https://msdn.microsoft.com/en-us/library/Bb775597(v=VS.85).aspx">INDEXTOSTATEIMAGEMASK</a> macro.
+Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of an image in the control's state image list. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_STATEIMAGEMASK</a> mask. To specify a state image index, use the <a href="https://msdn.microsoft.com/ee66268e-7815-4f63-a6dc-5819406d443c">INDEXTOSTATEIMAGEMASK</a> macro.
 
 
 
@@ -158,7 +159,7 @@ Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774980(v=VS.85).aspx">ListView_GetItemState</a>
+<a href="https://msdn.microsoft.com/82bef643-a0fe-4c87-984e-0ba528a383c4">ListView_GetItemState</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: rasdlg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -182,14 +183,14 @@ Received if the RASPBDFLAG_NoUser flag is set and the user changes the credentia
  
 
 
-#### - pszText [in]
-
-Pointer to an additional string argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
-
-
 #### - pData [in]
 
 Pointer to an additional buffer argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
+
+
+#### - pszText [in]
+
+Pointer to an additional string argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Used to sort groups. It is used with <a href="https://msdn.microsoft.com/en-us/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a>.
+Used to sort groups. It is used with <a href="https://msdn.microsoft.com/8ad1660b-8b64-4f02-ac1b-b7edeeea38ab">LVM_INSERTGROUPSORTED</a>.
 
 
 ## -struct-fields
@@ -62,7 +63,7 @@ Used to sort groups. It is used with <a href="https://msdn.microsoft.com/en-us/l
 
 Type: <b>PFNLVGROUPCOMPARE</b>
 
-Pointer to application-defined function <a href="https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx">LVGroupCompare</a> that is used to sort the groups.
+Pointer to application-defined function <a href="https://msdn.microsoft.com/18e93f11-d215-4c16-b873-5c7b1e725886">LVGroupCompare</a> that is used to sort the groups.
 
 
 ### -field pvData
@@ -74,7 +75,7 @@ Data to sort; this is application-defined.
 
 ### -field lvGroup
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a></b>
 
 Group to sort; this is application-defined.
 
@@ -84,11 +85,11 @@ Group to sort; this is application-defined.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx">LVGroupCompare</a>
+<a href="https://msdn.microsoft.com/18e93f11-d215-4c16-b873-5c7b1e725886">LVGroupCompare</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a>
+<a href="https://msdn.microsoft.com/8ad1660b-8b64-4f02-ac1b-b7edeeea38ab">LVM_INSERTGROUPSORTED</a>
 
 
 

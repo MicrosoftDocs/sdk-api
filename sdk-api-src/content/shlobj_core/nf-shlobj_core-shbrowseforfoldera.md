@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -321,7 +322,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646960(v=VS.85).aspx">Open and Save as Dialog Boxes</a>
+<a href="_win32_open_and_save_as_dialog_boxes">Open and Save as Dialog Boxes</a>
  
 
  

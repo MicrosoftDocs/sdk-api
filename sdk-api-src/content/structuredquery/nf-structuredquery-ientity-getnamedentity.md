@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a> object based on an entity name.
+Retrieves an <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> object based on an entity name.
 
 
 ## -parameters
@@ -68,9 +69,9 @@ The name of an entity to be found.
 
 ### -param ppNamedEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a>**</b>
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231364(v=VS.85).aspx">INamedEntity</a> object that was named in <i>pszValue</i>. <b>NULL</b> if no named entity was found.
+Receives a pointer to the <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> object that was named in <i>pszValue</i>. <b>NULL</b> if no named entity was found.
 
 
 ## -returns

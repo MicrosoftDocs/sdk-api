@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -350,7 +351,7 @@ A pointer to a structure determined by the value of <i>dwCtrlType</i>.
 </dl>
 </td>
 <td width="60%">
-Decoding will be done as if the streamed content were being decrypted. If any encrypted streamed content has accumulated prior to this call, some or all of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a>  that results from the decryption of the cipher text is passed back to the application through the callback function specified in the call to 
+Decoding will be done as if the streamed content were being decrypted. If any encrypted streamed content has accumulated prior to this call, some or all of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a>  that results from the decryption of the cipher text is passed back to the application through the callback function specified in the call to 
 the <a href="https://msdn.microsoft.com/b3df6312-c866-4faa-8b89-bda67c697631">CryptMsgOpenToDecode</a> function.
 
 <div class="alert"><b>Note</b>  When streaming an enveloped message, the <b>CryptMsgControl</b>  function is not called until the polling for the availability of the CMSG_ENVELOPE_ALGORITHM_PARAM succeeds. If the polling does not succeed, an error results. For a description of that polling, see 
@@ -637,11 +638,11 @@ Not enough memory was available to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

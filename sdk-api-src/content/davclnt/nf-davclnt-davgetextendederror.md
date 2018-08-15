@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -137,7 +138,7 @@ If you call  this function for a file handle whose previous I/O  operation was s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

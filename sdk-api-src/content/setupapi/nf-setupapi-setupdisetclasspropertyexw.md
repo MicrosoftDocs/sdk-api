@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,12 +68,12 @@ A pointer to a GUID that identifies the device setup class or device interface c
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
+A pointer to a <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
 
 
 ### -param PropertyType [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
+A <a href="https://msdn.microsoft.com/e0fdcc28-be70-4ae1-bd6d-89e2177eae62">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyBuffer [in, optional]
@@ -278,11 +279,11 @@ A caller of <b>SetupDiSetClassPropertyEx</b> must be a member of the Administrat
 
 <b>SetupDiSetClassPropertyEx</b> enforces requirements on the property-data-type identifier and the property value. 
 
-To obtain the device property keys that represent the device properties that are set for a device class on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551093">SetupDiGetClassPropertyKeysEx</a>.
+To obtain the device property keys that represent the device properties that are set for a device class on a remote computer, call <a href="https://msdn.microsoft.com/dde6fdbd-e189-4ec7-95c7-b655ea7083c1">SetupDiGetClassPropertyKeysEx</a>.
 
-To retrieve a device class property on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551086">SetupDiGetClassProperty</a><b>,</b> and to retrieve a device class property on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551090">SetupDiGetClassPropertyEx</a>.
+To retrieve a device class property on a local computer, call <a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a><b>,</b> and to retrieve a device class property on a remote computer, call <a href="https://msdn.microsoft.com/74b6cd23-5741-4f0c-b5e1-6cdea2074c28">SetupDiGetClassPropertyEx</a>.
 
-To set a device class property on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552128">SetupDiSetClassProperty</a>.
+To set a device class property on a local computer, call <a href="https://msdn.microsoft.com/12402336-9894-4d0d-b176-c6907e0cdcd4">SetupDiSetClassProperty</a>.
 
 
 
@@ -292,19 +293,19 @@ To set a device class property on a local computer, call <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551086">SetupDiGetClassProperty</a>
+<a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551090">SetupDiGetClassPropertyEx</a>
+<a href="https://msdn.microsoft.com/74b6cd23-5741-4f0c-b5e1-6cdea2074c28">SetupDiGetClassPropertyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551093">SetupDiGetClassPropertyKeysEx</a>
+<a href="https://msdn.microsoft.com/dde6fdbd-e189-4ec7-95c7-b655ea7083c1">SetupDiGetClassPropertyKeysEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552128">SetupDiSetClassProperty</a>
+<a href="https://msdn.microsoft.com/12402336-9894-4d0d-b176-c6907e0cdcd4">SetupDiSetClassProperty</a>
  
 
  

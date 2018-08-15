@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifdef.h
 req.include-header: Ndis.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NDIS 6.0 drivers in Windows Vista.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The NDIS_INTERFACE_INFORMATION structure provides information about a network interface for the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569589">OID_GEN_INTERFACE_INFO</a> OID.
+  <a href="netvista.oid_gen_interface_info">OID_GEN_INTERFACE_INFO</a> OID.
 
 
 ## -struct-fields
@@ -63,7 +64,7 @@ The NDIS_INTERFACE_INFORMATION structure provides information about a network in
 ### -field ifOperStatus
 
 The operational status of the interface. This status is the same as the value that the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569619">OID_GEN_OPERATIONAL_STATUS</a> OID
+     <a href="netvista.oid_gen_operational_status">OID_GEN_OPERATIONAL_STATUS</a> OID
      returns.
 
 
@@ -76,7 +77,7 @@ The operational status flags of the interface. This field is reserved for the ND
 ### -field MediaConnectState
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
+     <a href="https://msdn.microsoft.com/5af5e050-4b2b-45a9-8549-3a3818d7b06f">NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 
 ### -field MediaDuplexState
@@ -89,7 +90,7 @@ The media duplex state of the interface. This state is the same as the value tha
 ### -field ifMtu
 
 The maximum transmission unit (MTU) of the interface. This MTU is the same as the value that the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a> OID
+     <a href="netvista.oid_gen_maximum_frame_size">OID_GEN_MAXIMUM_FRAME_SIZE</a> OID
      returns.
 
 
@@ -97,7 +98,7 @@ The maximum transmission unit (MTU) of the interface. This MTU is the same as th
 
 A Boolean value that is <b>TRUE</b> if the interface is in promiscuous mode or <b>FALSE</b> if it is not. This
      value is the same as the value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569625">OID_GEN_PROMISCUOUS_MODE</a> OID query
+     <a href="netvista.oid_gen_promiscuous_mode">OID_GEN_PROMISCUOUS_MODE</a> OID query
      returns.
 
 
@@ -111,7 +112,7 @@ A Boolean value that is <b>TRUE</b> if the interface supports wake-on-LAN capabi
 
 The transmit link speed, in bytes per second, of the interface. This speed is the same as the
      value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569655">OID_GEN_XMIT_LINK_SPEED</a> OID query
+     <a href="netvista.oid_gen_xmit_link_speed">OID_GEN_XMIT_LINK_SPEED</a> OID query
      returns.
 
 
@@ -119,7 +120,7 @@ The transmit link speed, in bytes per second, of the interface. This speed is th
 
 The receive link speed, in bytes per second, of the interface. This speed is the same as the value
      that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569630">OID_GEN_RCV_LINK_SPEED</a> OID query
+     <a href="netvista.oid_gen_rcv_link_speed">OID_GEN_RCV_LINK_SPEED</a> OID query
      returns.
 
 
@@ -127,7 +128,7 @@ The receive link speed, in bytes per second, of the interface. This speed is the
 
 The time that the interface entered its current operational state. This time is the same as the
      value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569591">OID_GEN_LAST_CHANGE</a> OID query
+     <a href="netvista.oid_gen_last_change">OID_GEN_LAST_CHANGE</a> OID query
      returns.
 
 
@@ -135,7 +136,7 @@ The time that the interface entered its current operational state. This time is 
 
 The time of the last discontinuity of the interface's counters. This time is the same as the value
      that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569581">OID_GEN_DISCONTINUITY_TIME</a> OID
+     <a href="netvista.oid_gen_discontinuity_time">OID_GEN_DISCONTINUITY_TIME</a> OID
      query returns.
 
 
@@ -143,7 +144,7 @@ The time of the last discontinuity of the interface's counters. This time is the
 
 The number of packets that were received through the interface and that were discarded because of
      an unknown or unsupported protocol. This number is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569648">OID_GEN_UNKNOWN_PROTOS</a> OID query
+     <a href="netvista.oid_gen_unknown_protos">OID_GEN_UNKNOWN_PROTOS</a> OID query
      returns.
 
 
@@ -152,7 +153,7 @@ The number of packets that were received through the interface and that were dis
 The number of inbound packets that were discarded even though no errors had been detected to
      prevent them from being deliverable to a higher-layer protocol. This number is the same as the value
      that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569628">OID_GEN_RCV_DISCARDS</a> OID query
+     <a href="netvista.oid_gen_rcv_discards">OID_GEN_RCV_DISCARDS</a> OID query
      returns.
 
 
@@ -160,21 +161,21 @@ The number of inbound packets that were discarded even though no errors had been
 
 The number of inbound packets that contained errors that prevented them from being deliverable to
      a higher layer protocol. This number is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569629">OID_GEN_RCV_ERROR</a> OID query returns.
+     <a href="netvista.oid_gen_rcv_error">OID_GEN_RCV_ERROR</a> OID query returns.
 
 
 ### -field ifHCInOctets
 
 The total number of bytes that are received on this interface. This number is the same as the
      value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569443">OID_GEN_BYTES_RCV</a> OID returns.
+     <a href="netvista.oid_gen_bytes_rcv">OID_GEN_BYTES_RCV</a> OID returns.
 
 
 ### -field ifHCInUcastPkts
 
 The number of directed packets that are received without errors on the interface. This number is
      the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569579">OID_GEN_DIRECTED_FRAMES_RCV</a> OID
+     <a href="netvista.oid_gen_directed_frames_rcv">OID_GEN_DIRECTED_FRAMES_RCV</a> OID
      query returns.
 
 
@@ -182,7 +183,7 @@ The number of directed packets that are received without errors on the interface
 
 The number of multicast/functional packets that are received without errors on the interface. This
      number is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569613">OID_GEN_MULTICAST_FRAMES_RCV</a> OID
+     <a href="netvista.oid_gen_multicast_frames_rcv">OID_GEN_MULTICAST_FRAMES_RCV</a> OID
      query returns.
 
 
@@ -190,7 +191,7 @@ The number of multicast/functional packets that are received without errors on t
 
 The number of broadcast packets that are received without errors on the interface. This number is
      the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569441">OID_GEN_BROADCAST_FRAMES_RCV</a> OID
+     <a href="netvista.oid_gen_broadcast_frames_rcv">OID_GEN_BROADCAST_FRAMES_RCV</a> OID
      query returns.
 
 
@@ -198,7 +199,7 @@ The number of broadcast packets that are received without errors on the interfac
 
 The number of bytes that are transmitted without errors on the interface. This number is the same
      as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569445">OID_GEN_BYTES_XMIT</a> OID query
+     <a href="netvista.oid_gen_bytes_xmit">OID_GEN_BYTES_XMIT</a> OID query
      returns.
 
 
@@ -206,7 +207,7 @@ The number of bytes that are transmitted without errors on the interface. This n
 
 The number of directed packets that are transmitted without errors on the interface. This number
      is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569580">OID_GEN_DIRECTED_FRAMES_XMIT</a> OID
+     <a href="netvista.oid_gen_directed_frames_xmit">OID_GEN_DIRECTED_FRAMES_XMIT</a> OID
      query returns.
 
 
@@ -214,28 +215,28 @@ The number of directed packets that are transmitted without errors on the interf
 
 The number of multicast/functional packets that are transmitted without errors on the interface.
      This number is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569614">OID_GEN_MULTICAST_FRAMES_XMIT</a> OID query returns.
+     <a href="netvista.oid_gen_multicast_frames_xmit">OID_GEN_MULTICAST_FRAMES_XMIT</a> OID query returns.
 
 
 ### -field ifHCOutBroadcastPkts
 
 The number of broadcast packets that are transmitted without errors on the interface. This number
      is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569442">OID_GEN_BROADCAST_FRAMES_XMIT</a> OID query returns.
+     <a href="netvista.oid_gen_broadcast_frames_xmit">OID_GEN_BROADCAST_FRAMES_XMIT</a> OID query returns.
 
 
 ### -field ifOutErrors
 
 The number of packets that the interface fails to transmit. This number is the same as the value
      that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569654">OID_GEN_XMIT_ERROR</a> OID query
+     <a href="netvista.oid_gen_xmit_error">OID_GEN_XMIT_ERROR</a> OID query
      returns.
 
 
 ### -field ifOutDiscards
 
 The number of packets that the interface discards. This number is the same as the value that an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569653">OID_GEN_XMIT_DISCARDS</a> OID query
+     <a href="netvista.oid_gen_xmit_discards">OID_GEN_XMIT_DISCARDS</a> OID query
      returns.
 
 
@@ -243,42 +244,42 @@ The number of packets that the interface discards. This number is the same as th
 
 The number of bytes in directed packets that are received without errors. This count is the same
      value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569577">OID_GEN_DIRECTED_BYTES_RCV</a> returns.
+     <a href="netvista.oid_gen_directed_bytes_rcv">OID_GEN_DIRECTED_BYTES_RCV</a> returns.
 
 
 ### -field ifHCInMulticastOctets
 
 The number of bytes in multicast/functional packets that are received without errors. This count
      is the same value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569611">OID_GEN_MULTICAST_BYTES_RCV</a> returns.
+     <a href="netvista.oid_gen_multicast_bytes_rcv">OID_GEN_MULTICAST_BYTES_RCV</a> returns.
 
 
 ### -field ifHCInBroadcastOctets
 
 The number of bytes in broadcast packets that are received without errors. This count is the same
      value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569439">OID_GEN_BROADCAST_BYTES_RCV</a> returns.
+     <a href="netvista.oid_gen_broadcast_bytes_rcv">OID_GEN_BROADCAST_BYTES_RCV</a> returns.
 
 
 ### -field ifHCOutUcastOctets
 
 The number of bytes in directed packets that are transmitted without errors. This count is the
      same value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569578">OID_GEN_DIRECTED_BYTES_XMIT</a> returns.
+     <a href="netvista.oid_gen_directed_bytes_xmit">OID_GEN_DIRECTED_BYTES_XMIT</a> returns.
 
 
 ### -field ifHCOutMulticastOctets
 
 The number of bytes in multicast/functional packets that are transmitted without errors. This
      count is the same value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569612">OID_GEN_MULTICAST_BYTES_XMIT</a> returns.
+     <a href="netvista.oid_gen_multicast_bytes_xmit">OID_GEN_MULTICAST_BYTES_XMIT</a> returns.
 
 
 ### -field ifHCOutBroadcastOctets
 
 The number of bytes in broadcast packets that are transmitted without errors. This count is the
      same value that 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569440">OID_GEN_BROADCAST_BYTES_XMIT</a> returns.
+     <a href="netvista.oid_gen_broadcast_bytes_xmit">OID_GEN_BROADCAST_BYTES_XMIT</a> returns.
 
 
 ### -field CompartmentId
@@ -293,7 +294,7 @@ The compartment that the interface belongs to, if the interface provider can pro
 
 The supported statistics. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565923">NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
+     <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
 
 
 ## -remarks
@@ -302,11 +303,11 @@ The supported statistics. For more information, see the
 
 NDIS interface providers populate an NDIS_INTERFACE_INFORMATION structure in response to a query of
     the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569589">OID_GEN_INTERFACE_INFO</a> OID. This
+    <a href="netvista.oid_gen_interface_info">OID_GEN_INTERFACE_INFO</a> OID. This
     structure contains information that changes during the lifetime of the interface.
 
 To register as an interface provider, an NDIS driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562716">NdisIfRegisterProvider</a> function.
+    <a href="https://msdn.microsoft.com/1624426b-9e67-4aa2-83d8-f1e6fa484858">NdisIfRegisterProvider</a> function.
 
 
 
@@ -320,71 +321,71 @@ To register as an interface provider, an NDIS driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565923">NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a>
+<a href="https://msdn.microsoft.com/5af5e050-4b2b-45a9-8549-3a3818d7b06f">NET_IF_MEDIA_CONNECT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562716">NdisIfRegisterProvider</a>
+<a href="https://msdn.microsoft.com/1624426b-9e67-4aa2-83d8-f1e6fa484858">NdisIfRegisterProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569439">OID_GEN_BROADCAST_BYTES_RCV</a>
+<a href="netvista.oid_gen_broadcast_bytes_rcv">OID_GEN_BROADCAST_BYTES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569440">OID_GEN_BROADCAST_BYTES_XMIT</a>
+<a href="netvista.oid_gen_broadcast_bytes_xmit">OID_GEN_BROADCAST_BYTES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569441">OID_GEN_BROADCAST_FRAMES_RCV</a>
+<a href="netvista.oid_gen_broadcast_frames_rcv">OID_GEN_BROADCAST_FRAMES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569442">OID_GEN_BROADCAST_FRAMES_XMIT</a>
+<a href="netvista.oid_gen_broadcast_frames_xmit">OID_GEN_BROADCAST_FRAMES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569443">OID_GEN_BYTES_RCV</a>
+<a href="netvista.oid_gen_bytes_rcv">OID_GEN_BYTES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569445">OID_GEN_BYTES_XMIT</a>
+<a href="netvista.oid_gen_bytes_xmit">OID_GEN_BYTES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569577">OID_GEN_DIRECTED_BYTES_RCV</a>
+<a href="netvista.oid_gen_directed_bytes_rcv">OID_GEN_DIRECTED_BYTES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569578">OID_GEN_DIRECTED_BYTES_XMIT</a>
+<a href="netvista.oid_gen_directed_bytes_xmit">OID_GEN_DIRECTED_BYTES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569579">OID_GEN_DIRECTED_FRAMES_RCV</a>
+<a href="netvista.oid_gen_directed_frames_rcv">OID_GEN_DIRECTED_FRAMES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569580">OID_GEN_DIRECTED_FRAMES_XMIT</a>
+<a href="netvista.oid_gen_directed_frames_xmit">OID_GEN_DIRECTED_FRAMES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569581">OID_GEN_DISCONTINUITY_TIME</a>
+<a href="netvista.oid_gen_discontinuity_time">OID_GEN_DISCONTINUITY_TIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569589">OID_GEN_INTERFACE_INFO</a>
+<a href="netvista.oid_gen_interface_info">OID_GEN_INTERFACE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569591">OID_GEN_LAST_CHANGE</a>
+<a href="netvista.oid_gen_last_change">OID_GEN_LAST_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+<a href="netvista.oid_gen_maximum_frame_size">OID_GEN_MAXIMUM_FRAME_SIZE</a>
 
 
 
@@ -396,55 +397,55 @@ To register as an interface provider, an NDIS driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569611">OID_GEN_MULTICAST_BYTES_RCV</a>
+<a href="netvista.oid_gen_multicast_bytes_rcv">OID_GEN_MULTICAST_BYTES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569612">OID_GEN_MULTICAST_BYTES_XMIT</a>
+<a href="netvista.oid_gen_multicast_bytes_xmit">OID_GEN_MULTICAST_BYTES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569613">OID_GEN_MULTICAST_FRAMES_RCV</a>
+<a href="netvista.oid_gen_multicast_frames_rcv">OID_GEN_MULTICAST_FRAMES_RCV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569614">OID_GEN_MULTICAST_FRAMES_XMIT</a>
+<a href="netvista.oid_gen_multicast_frames_xmit">OID_GEN_MULTICAST_FRAMES_XMIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569619">OID_GEN_OPERATIONAL_STATUS</a>
+<a href="netvista.oid_gen_operational_status">OID_GEN_OPERATIONAL_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569625">OID_GEN_PROMISCUOUS_MODE</a>
+<a href="netvista.oid_gen_promiscuous_mode">OID_GEN_PROMISCUOUS_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569628">OID_GEN_RCV_DISCARDS</a>
+<a href="netvista.oid_gen_rcv_discards">OID_GEN_RCV_DISCARDS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569629">OID_GEN_RCV_ERROR</a>
+<a href="netvista.oid_gen_rcv_error">OID_GEN_RCV_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569630">OID_GEN_RCV_LINK_SPEED</a>
+<a href="netvista.oid_gen_rcv_link_speed">OID_GEN_RCV_LINK_SPEED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569648">OID_GEN_UNKNOWN_PROTOS</a>
+<a href="netvista.oid_gen_unknown_protos">OID_GEN_UNKNOWN_PROTOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569653">OID_GEN_XMIT_DISCARDS</a>
+<a href="netvista.oid_gen_xmit_discards">OID_GEN_XMIT_DISCARDS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569654">OID_GEN_XMIT_ERROR</a>
+<a href="netvista.oid_gen_xmit_error">OID_GEN_XMIT_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569655">OID_GEN_XMIT_LINK_SPEED</a>
+<a href="netvista.oid_gen_xmit_link_speed">OID_GEN_XMIT_LINK_SPEED</a>
  
 
  

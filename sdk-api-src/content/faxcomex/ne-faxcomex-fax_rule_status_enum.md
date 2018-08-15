@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ The routing rule cannot be applied because the rule uses a single device for its
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689593(v=VS.85).aspx">IFaxOutboundRoutingRule::get_Status</a>
+<a href="https://msdn.microsoft.com/5a880005-92a2-4809-b64c-b5af63382203">IFaxOutboundRoutingRule::get_Status</a>
  
 
  

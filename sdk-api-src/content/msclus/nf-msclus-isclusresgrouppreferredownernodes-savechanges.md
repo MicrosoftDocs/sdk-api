@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in 
     subsequent versions.]
 
-Saves the list of <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a>
+Saves the list of <a href="p_gly.htm">preferred owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> to the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
 

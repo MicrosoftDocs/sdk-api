@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -131,11 +132,11 @@ Capture from the video stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551500">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
+<a href="https://msdn.microsoft.com/3bd696a4-1a46-482b-9680-7cd1256904ae">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

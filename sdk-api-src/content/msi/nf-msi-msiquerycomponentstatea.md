@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -147,7 +148,7 @@ Retrieves the component's state for the per-machine instance of the product.
 
 ### -param szComponentCode [in]
 
-Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546180">Component</a> table.
+Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="https://msdn.microsoft.com/069d64e9-106a-42b7-8dea-a44fc0c6e0cd">Component</a> table.
 
 
 ### -param pdwState [out]
@@ -296,7 +297,7 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546180">Component</a>
+<a href="https://msdn.microsoft.com/069d64e9-106a-42b7-8dea-a44fc0c6e0cd">Component</a>
 
 
 
@@ -304,7 +305,7 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

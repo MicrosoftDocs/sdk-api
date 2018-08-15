@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -66,7 +67,7 @@ Pointer to the object type. Can be <b>NULL</b>.
 
 ### -param pFormatEtc [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682242(v=VS.85).aspx">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
+Pointer to the <a href="_com_the_formatetc_structure">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
 
 
 ### -param pfInsertable [out]
@@ -127,7 +128,7 @@ The clipboard formats supported by the document are dependent on the application
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682242(v=VS.85).aspx">FORMATETC</a>
+<a href="_com_the_formatetc_structure">FORMATETC</a>
 
 
 

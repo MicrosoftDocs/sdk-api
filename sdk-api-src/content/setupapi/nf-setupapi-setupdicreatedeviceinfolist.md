@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -86,7 +87,7 @@ The function returns a handle to an empty device information set if it is succes
 
 The caller of this function must delete the returned device information set when it is no longer needed by calling <b>SetupDiDestroyDeviceInfoList</b>. 
 
-To create a device information list for a remote computer use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550958">SetupDiCreateDeviceInfoListEx</a>.
+To create a device information list for a remote computer use <a href="https://msdn.microsoft.com/4dae7b07-2e24-4fd8-82f2-f947296ce3c4">SetupDiCreateDeviceInfoListEx</a>.
 
 
 
@@ -96,19 +97,19 @@ To create a device information list for a remote computer use <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550958">SetupDiCreateDeviceInfoListEx</a>
+<a href="https://msdn.microsoft.com/4dae7b07-2e24-4fd8-82f2-f947296ce3c4">SetupDiCreateDeviceInfoListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550996">SetupDiDestroyDeviceInfoList</a>
+<a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>
+<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551101">SetupDiGetDeviceInfoListClass</a>
+<a href="https://msdn.microsoft.com/332945dc-9edc-4fbf-a4fa-533a00352553">SetupDiGetDeviceInfoListClass</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,7 +64,7 @@ The <b>WinUsb_GetPipePolicy</b> function retrieves the policy for a specific pip
 
 An opaque handle to an interface that contains the endpoint with which the pipe is associated.
 
-To query the pipe associated with the endpoint in the first interface, use the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540245">WinUsb_GetAssociatedInterface</a>.
+To query the pipe associated with the endpoint in the first interface, use the handle returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param PipeID [in]
@@ -73,7 +74,7 @@ An 8-bit value that consists of a 7-bit address and a direction bit. This parame
 
 ### -param PolicyType [in]
 
-A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The current value for the policy parameter is retrieved the <i>Value</i> parameter. For information about the behavior of the pipe policies, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff728833">WinUSB Functions for Pipe Policy Modification</a>.
+A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The current value for the policy parameter is retrieved the <i>Value</i> parameter. For information about the behavior of the pipe policies, see <a href="https://msdn.microsoft.com/fc7d8916-63ab-45a2-a786-8da8e9f3fe56">WinUSB Functions for Pipe Policy Modification</a>.
 
 
 ### -param ValueLength [in, out]
@@ -132,19 +133,19 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff728833">WinUSB Functions for Pipe Policy Modification</a>
+<a href="https://msdn.microsoft.com/fc7d8916-63ab-45a2-a786-8da8e9f3fe56">WinUSB Functions for Pipe Policy Modification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540297">WinUsb_ReadPipe</a>
+<a href="https://msdn.microsoft.com/936e535b-9084-4e3d-908e-0e965f658827">WinUsb_ReadPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540322">WinUsb_WritePipe</a>
+<a href="https://msdn.microsoft.com/995b1d1b-8c08-4e67-8ba5-155231fe37f4">WinUsb_WritePipe</a>
  
 
  

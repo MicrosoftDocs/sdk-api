@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -98,7 +99,7 @@ Opens the specified file and initializes an object from the file contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/da9581e8-98c7-4592-8ee1-a1bc8232635b">Save</a>
 </td>
 <td align="left" width="63%">
 Saves a copy of the object to the specified file.

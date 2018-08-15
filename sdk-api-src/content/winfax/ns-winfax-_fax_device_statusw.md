@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -152,7 +153,7 @@ If the <b>JobType</b> member is equal to the <b>JT_RECEIVE</b> job type, <b>Rout
 
 <code>Canonical-Phone-Number[|Additional-Routing-Info]</code>
 
-where <code>Canonical-Phone-Number</code> is defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
+where <code>Canonical-Phone-Number</code> is defined in the <a href="_tapi3_address_ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
 
 
 ### -field SenderName
@@ -357,14 +358,14 @@ Type: <b>LPCTSTR</b>
 Pointer to a constant null-terminated character string that specifies the name of the user who submitted the active fax job.
 
 
-##### - JobType.JT_SEND
-
-The fax device is sending a fax document.
-
-
 ##### - JobType.JT_RECEIVE
 
 The fax device is receiving a fax document.
+
+
+##### - JobType.JT_SEND
+
+The fax device is sending a fax document.
 
 
 ##### - JobType.JT_UNKNOWN
@@ -372,39 +373,19 @@ The fax device is receiving a fax document.
 The fax device is in an unknown or idle state.
 
 
-##### - Status.FPS_DIALING
+##### - Status.FPS_ABORTING
 
-The device is dialing a fax number.
-
-
-##### - Status.FPS_SENDING
-
-The device is sending a fax document.
+The device is aborting a fax job.
 
 
-##### - Status.FPS_RECEIVING
+##### - Status.FPS_ANSWERED
 
-The device is receiving a fax document.
-
-
-##### - Status.FPS_COMPLETED
-
-The device has completed sending or receiving a fax transmission.
+The device answered a new call.
 
 
-##### - Status.FPS_UNAVAILABLE
+##### - Status.FPS_AVAILABLE
 
-The device is not available because it is in use by another application.
-
-
-##### - Status.FPS_BUSY
-
-The device has encountered a busy signal.
-
-
-##### - Status.FPS_NO_ANSWER
-
-The receiving device did not answer the call.
+The device is available.
 
 
 ##### - Status.FPS_BAD_ADDRESS
@@ -412,9 +393,29 @@ The receiving device did not answer the call.
 The device dialed an invalid fax number.
 
 
-##### - Status.FPS_NO_DIAL_TONE
+##### - Status.FPS_BUSY
 
-The sending device cannot complete the call because it does not detect a dial tone.
+The device has encountered a busy signal.
+
+
+##### - Status.FPS_CALL_BLACKLISTED
+
+The device could not complete a call because the telephone number was blocked or reserved; numbers such as 911 are blocked.
+
+
+##### - Status.FPS_CALL_DELAYED
+
+The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
+
+
+##### - Status.FPS_COMPLETED
+
+The device has completed sending or receiving a fax transmission.
+
+
+##### - Status.FPS_DIALING
+
+The device is dialing a fax number.
 
 
 ##### - Status.FPS_DISCONNECTED
@@ -427,19 +428,9 @@ The fax call was disconnected by the sender or the caller.
 The device encountered a fatal protocol error.
 
 
-##### - Status.FPS_NOT_FAX_CALL
+##### - Status.FPS_HANDLED
 
-The device has received a data call or a voice call.
-
-
-##### - Status.FPS_CALL_DELAYED
-
-The device delayed a fax call because the sending device received a busy signal multiple times. The device cannot retry the call because dialing restrictions exist. (Some countries/regions restrict the number of retry attempts when a number is busy.) 
-
-
-##### - Status.FPS_CALL_BLACKLISTED
-
-The device could not complete a call because the telephone number was blocked or reserved; numbers such as 911 are blocked.
+The fax service processed the outbound fax document; the fax service provider will transmit the document.
 
 
 ##### - Status.FPS_INITIALIZING
@@ -447,9 +438,29 @@ The device could not complete a call because the telephone number was blocked or
 The device is initializing a call.
 
 
+##### - Status.FPS_NOT_FAX_CALL
+
+The device has received a data call or a voice call.
+
+
+##### - Status.FPS_NO_ANSWER
+
+The receiving device did not answer the call.
+
+
+##### - Status.FPS_NO_DIAL_TONE
+
+The sending device cannot complete the call because it does not detect a dial tone.
+
+
 ##### - Status.FPS_OFFLINE
 
 The device is offline and unavailable.
+
+
+##### - Status.FPS_RECEIVING
+
+The device is receiving a fax document.
 
 
 ##### - Status.FPS_RINGING
@@ -457,38 +468,28 @@ The device is offline and unavailable.
 The device is ringing.
 
 
-##### - Status.FPS_AVAILABLE
-
-The device is available.
-
-
-##### - Status.FPS_ABORTING
-
-The device is aborting a fax job.
-
-
 ##### - Status.FPS_ROUTING
 
 The device is routing a received fax document.
 
 
-##### - Status.FPS_ANSWERED
+##### - Status.FPS_SENDING
 
-The device answered a new call.
+The device is sending a fax document.
 
 
-##### - Status.FPS_HANDLED
+##### - Status.FPS_UNAVAILABLE
 
-The fax service processed the outbound fax document; the fax service provider will transmit the document.
+The device is not available because it is in use by another application.
 
 
 ## -remarks
 
 
 
-The fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
+The fax client application can call the <a href="https://msdn.microsoft.com/ddfba445-fdad-4fd8-b305-76d18b04583f">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691489(v=VS.85).aspx">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> topic.
+For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> topic.
 
 
 
@@ -502,15 +503,15 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a>
+<a href="https://msdn.microsoft.com/ddfba445-fdad-4fd8-b305-76d18b04583f">FaxGetDeviceStatus</a>
  
 
  

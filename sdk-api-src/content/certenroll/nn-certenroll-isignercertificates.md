@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -55,7 +56,7 @@ The <b>ISignerCertificates</b> interface defines the following methods and prope
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +72,7 @@ The <b>ISignerCertificates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/985bda2c-caad-4910-9e9c-d673975953aa">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object to the collection.
@@ -80,7 +81,7 @@ Adds an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/8be3f0d4-db41-408d-bd4b-37c41b1b1c54">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> objects from the collection.
@@ -98,7 +99,7 @@ Retrieves the index number of an <a href="https://msdn.microsoft.com/146a1925-4d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/3f0a3d9b-590f-4fa2-904c-26593bf977c8">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object from the collection by index number.
@@ -115,7 +116,7 @@ Removes an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/9f5325b5-aa8d-443d-ac82-793cd9bfd28b">_NewEnum</a>
 
 
 </td>
@@ -127,7 +128,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/4cd4c71a-2fb3-4a47-bd86-e69a08890a09">Count</a>
 
 
 </td>
@@ -160,7 +161,7 @@ Retrieves an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

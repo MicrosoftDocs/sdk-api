@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,9 +62,9 @@ Gets the children of the effect group.
 
 ### -param pChildren [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/96ab3239-b739-4f05-a9ac-3da7ae059fcc">IMILBitmapEffects</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a> group.
+A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/96ab3239-b739-4f05-a9ac-3da7ae059fcc">IMILBitmapEffects</a> group.
 
 
 ## -returns

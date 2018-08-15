@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -104,9 +105,9 @@ Normal priority.
 
 ### -param prgSize [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure with the desired width and height of the image. Must not be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure with the desired width and height of the image. Must not be <b>NULL</b>.
 
 
 ### -param dwRecClrDepth [in]

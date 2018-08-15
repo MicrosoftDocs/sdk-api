@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,18 +70,18 @@ The <b>InitializeSid</b> function initializes a <a href="https://msdn.microsoft.
 ### -param Sid [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure to be initialized.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure to be initialized.
 
 
 ### -param pIdentifierAuthority [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a> structure to set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure.
+<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a> structure to set in the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure.
 
 
 ### -param nSubAuthorityCount [in]
 
-Specifies the number of subauthorities to set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>. Values of the subauthority must be set separately, as described in the following Remarks section.
+Specifies the number of subauthorities to set in the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>. Values of the subauthority must be set separately, as described in the following Remarks section.
 
 
 ## -returns
@@ -123,7 +124,7 @@ This function uses a 32-bit RID value. For applications that require a larger RI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -155,11 +156,11 @@ This function uses a 32-bit RID value. For applications that require a larger RI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a>
+<a href="https://msdn.microsoft.com/450a6d2d-d2e4-4098-90af-a8024ddcfcb5">SID_IDENTIFIER_AUTHORITY</a>
  
 
  

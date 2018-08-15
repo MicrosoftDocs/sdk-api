@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -81,14 +82,14 @@ For possible values, see <a href="https://msdn.microsoft.com/c03ee4e7-b8d4-46bb-
 A pointer to an <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b-4cfc40f5889e">IUpdateService</a> interface that contains service registration information.
 
 
-#### - bstrServiceName [in]
-
-A descriptive name for the scan package service.
-
-
 #### - bstrScanFileLocation [in]
 
 The path of the Microsoft signed scan file that has to be registered as a service.
+
+
+#### - bstrServiceName [in]
+
+A descriptive name for the scan package service.
 
 
 ## -returns
@@ -152,7 +153,7 @@ To free resources, remove the service after it is no longer needed. Use the  <a 
 
 Do not  call the <a href="https://msdn.microsoft.com/ea54d96a-9ffb-4abd-a032-4dfcc7ba6403">RegisterServiceWithAU</a> method for the service that  the <b>AddScanPackageService</b> method registers.
 
-The service that is returned by <b>AddScanPackageService</b> is in the collection of services that the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a> property of the IUpdateServiceManager interface returns. This service has the special <a href="https://msdn.microsoft.com/1fbd0bb7-23f9-4030-a61e-a85ddc177744">IsScanPackageService</a> property.
+The service that is returned by <b>AddScanPackageService</b> is in the collection of services that the <a href="https://msdn.microsoft.com/9810e56b-a884-454b-adc8-ad839269dae3">Services</a> property of the IUpdateServiceManager interface returns. This service has the special <a href="https://msdn.microsoft.com/1fbd0bb7-23f9-4030-a61e-a85ddc177744">IsScanPackageService</a> property.
 
 An error is returned by <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> if the Authorization Cab is not  signed.
 

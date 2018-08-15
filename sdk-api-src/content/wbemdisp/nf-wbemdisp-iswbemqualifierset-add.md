@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -104,9 +105,9 @@ Reserved. The default value is 0.
 
 
 
-#### - bPropagatesToSubclasses [in, optional]
+#### - bOverridable [in, optional]
 
-Boolean value that indicates if this new qualifier is propagated to subclasses. The default value is <b>TRUE</b>.
+Boolean value that indicates if this qualifier can be overridden when propagated. The default value is <b>TRUE</b>.
 
 
 #### - bPropagatesToInstances [in, optional]
@@ -114,9 +115,9 @@ Boolean value that indicates if this new qualifier is propagated to subclasses. 
 Boolean value that indicates if this new qualifier is propagated to instances. The default value is <b>TRUE</b>.
 
 
-#### - bOverridable [in, optional]
+#### - bPropagatesToSubclasses [in, optional]
 
-Boolean value that indicates if this qualifier can be overridden when propagated. The default value is <b>TRUE</b>.
+Boolean value that indicates if this new qualifier is propagated to subclasses. The default value is <b>TRUE</b>.
 
 
 ## -returns

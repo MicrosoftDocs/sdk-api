@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -171,7 +172,7 @@ Multiple processes can have handles of the same event object, enabling use of th
     synchronization. The following object-sharing mechanisms are available:
 
 <ul>
-<li>A child process created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function 
+<li>A child process created by the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function 
       can inherit a handle to an event object if the <i>lpEventAttributes</i> parameter of 
       <b>CreateEvent</b> enabled inheritance.</li>
 <li>A process can specify the event-object handle in a call to the 
@@ -207,7 +208,7 @@ For an example that uses <b>CreateEvent</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 
@@ -215,11 +216,11 @@ For an example that uses <b>CreateEvent</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>
+<a href="https://msdn.microsoft.com/63dc2991-e070-4981-9e2d-90b4fdaaee7a">Event Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557762">Object Names</a>
+<a href="https://msdn.microsoft.com/00a00227-45fc-49a1-8ff5-aeccb172d16a">Object Names</a>
 
 
 

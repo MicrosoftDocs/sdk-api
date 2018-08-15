@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -187,7 +188,7 @@ The application is a class installer, in which case, the class installer should 
 
 </li>
 </ul>
-To install a selected driver on a selected device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a>. For more info, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>.
+To install a selected driver on a selected device, call <a href="https://msdn.microsoft.com/e107fc37-02cb-4d50-822c-1c6fd80d7532">DiInstallDevice</a>. For more info, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>.
 
 
 
@@ -197,7 +198,7 @@ To install a selected driver on a selected device, call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a>
+<a href="https://msdn.microsoft.com/e107fc37-02cb-4d50-822c-1c6fd80d7532">DiInstallDevice</a>
  
 
  

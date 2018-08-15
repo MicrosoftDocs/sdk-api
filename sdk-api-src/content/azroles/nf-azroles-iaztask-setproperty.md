@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/0a3939ee-6449-4ee
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/095bf53b-0afa-44f3-87b8-9363dfffef1f">Description</a>  property
 
 </td>
 </tr>
@@ -94,7 +95,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/library/windows/h
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/135706b0-8ef9-430b-aff3-3783a62232d9">Name</a>  property
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>EngUnloadImage</b> function unloads an image loaded by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564963">EngLoadImage</a>.
+The <b>EngUnloadImage</b> function unloads an image loaded by <a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>.
 
 
 ## -parameters
@@ -69,7 +70,7 @@ Handle to the image to be unloaded from system memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564963">EngLoadImage</a>
+<a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -66,7 +67,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWCOLUMN</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEnumCERTVIEWCOLUMN</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWCOLUMN</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEnumCERTVIEWCOLUMN</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +82,7 @@ The <b>IEnumCERTVIEWCOLUMN</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/a0870155-3f16-4cfb-b180-7a8e617dfcd8">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
@@ -109,14 +110,14 @@ Retrieves the nonlocalized name of the current column in the column-enumeration 
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/53297e9e-6583-4edf-85f4-e2b2e4ba28b3">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data type of the current column in the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data value contained in the current column in the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
@@ -130,21 +131,21 @@ Reports whether the data in the column is indexed.</p> (Inherited from <b>IEnumC
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/4c77d1c7-af3a-4a7d-bf42-69be887c881e">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next column in the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/0be00eb0-1a22-4849-95ca-276099bbfa74">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of  the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/9a101e5b-a137-4e15-81b6-90e0fc14b887">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of columns in the column-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWCOLUMN</b><b>IEnumCERTVIEWCOLUMN</b>)</td>
@@ -161,7 +162,7 @@ Skips a specified number of columns in the column-enumeration sequence.</p> (Inh
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -86,11 +87,6 @@ The high 32 bits of the number.
 The low 64 bits of the number. This is an _int64.
 
 
-#### - signscale
-
-The sign and number of decimal places.
-
-
 #### - Lo32
 
 The low 32 bits of the number.
@@ -99,4 +95,9 @@ The low 32 bits of the number.
 #### - Mid32
 
 The middle 32 bits of the number.
+
+
+#### - signscale
+
+The sign and number of decimal places.
 

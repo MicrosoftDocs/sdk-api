@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -167,7 +168,7 @@ Right thumbstick y-axis value. The value is between -32768 and 32767.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee419272(v=VS.85).aspx">XINPUT_STATE</a> structure when polling for changes in the state of the controller.
+This structure is used by the <a href="https://msdn.microsoft.com/1EBFB5FF-3DAA-43D8-AADA-5FFEED56F79D">XINPUT_STATE</a> structure when polling for changes in the state of the controller.
 
 
 
@@ -186,7 +187,7 @@ The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419272(v=VS.85).aspx">XINPUT_STATE</a>
+<a href="https://msdn.microsoft.com/1EBFB5FF-3DAA-43D8-AADA-5FFEED56F79D">XINPUT_STATE</a>
 
 
 
@@ -194,7 +195,7 @@ The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetfState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetfState</a>
  
 
  

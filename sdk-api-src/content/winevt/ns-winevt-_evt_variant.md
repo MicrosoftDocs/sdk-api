@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winevt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -146,7 +147,7 @@ A pointer to a hexadecimal binary value.
 
 ### -field SidVal
 
-A 4-byte ASCII value. A security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>) structure that uniquely identifies a user or group.
+A 4-byte ASCII value. A security identifier (<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>) structure that uniquely identifies a user or group.
 
 
 ### -field SizeTVal

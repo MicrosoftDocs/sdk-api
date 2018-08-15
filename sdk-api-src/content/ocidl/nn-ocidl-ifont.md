@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -83,7 +84,7 @@ In addition, the font object supports <a href="https://msdn.microsoft.com/8a002d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFont</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IFont</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFont</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IFont</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -111,7 +112,7 @@ Notifies the font object that the previously realized font identified with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/de5da0d1-338a-455c-a04b-99dc025b95bb">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate font object with a state identical to the current font.
@@ -201,7 +202,7 @@ Gets the font's current Weight property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/becef75d-8342-4b4f-82e2-f1cca4eb619e">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Compares this font object to another for equality.

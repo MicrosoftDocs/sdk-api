@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: exdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,7 +57,7 @@ Provides access to the collection of open Shell windows.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellWindows</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IShellWindows</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellWindows</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IShellWindows</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>IShellWindows</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/e91b2be7-2be9-4460-9a2a-57090dcfc961">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection of Shell windows.
@@ -83,7 +84,7 @@ Retrieves an enumerator for the collection of Shell windows.
 <a href="https://msdn.microsoft.com/10eed153-cb0b-4ce0-8cc5-2e7ebf683fda">FindWindowSW</a>
 </td>
 <td align="left" width="63%">
-Finds a window in the Shell windows collection and returns the window's handle and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+Finds a window in the Shell windows collection and returns the window's handle and <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ Gets the number of windows in the Shell windows collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the registered Shell window for a specified index.
@@ -177,7 +178,7 @@ Revokes a Shell window's registration and removes the window from the Shell wind
 
 A <i>Shell window</i> is a window that has been registered by calling <a href="https://msdn.microsoft.com/4545cc34-2209-41a5-ab65-283f2985cce0">IShellWindows::Register</a> or <a href="https://msdn.microsoft.com/75e8b82c-a94e-4aad-a224-f12b22b8a4b2">IShellWindows::RegisterPending</a>. Upon registration, the specified window is added to the collection of Shell windows, and granted a cookie that uniquely identifies the window within the collection. A window can be un-registered by calling <a href="https://msdn.microsoft.com/66ca2569-b763-445b-b5b5-98ef32c64578">IShellWindows::Revoke</a>.
 
-The Shell windows collection includes file explorer windows and web browser windows Internet Explorer and 3rd-party web browsers). Normally each Shell window implements <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>; <a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">IShellWindows::Item</a> and <a href="https://msdn.microsoft.com/10eed153-cb0b-4ce0-8cc5-2e7ebf683fda">IShellWindows::FindWindowSW</a> provide ways to access a Shell window's <b>IDispatch</b> interface. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms221328(v=VS.85).aspx">Dispatch Interface and Automation Functions</a>.
+The Shell windows collection includes file explorer windows and web browser windows Internet Explorer and 3rd-party web browsers). Normally each Shell window implements <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>; <a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">IShellWindows::Item</a> and <a href="https://msdn.microsoft.com/10eed153-cb0b-4ce0-8cc5-2e7ebf683fda">IShellWindows::FindWindowSW</a> provide ways to access a Shell window's <b>IDispatch</b> interface. For more information, see <a href="75bff268-bd85-49c4-b761-b557f4b1c588">Dispatch Interface and Automation Functions</a>.
 
 
 <table class="clsStd">
@@ -250,7 +251,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -71,7 +72,7 @@ Used to compare all properties, qualifiers, and flavors.
 
 ### -field wbemComparisonFlagIgnoreQualifiers
 
-Ignores all qualifiers (including <a href="https://msdn.microsoft.com/library/windows/hardware/dn895751">Key</a> and <a href="https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e">Dynamic</a>) in comparison.
+Ignores all qualifiers (including <a href="https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc">Key</a> and <a href="https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e">Dynamic</a>) in comparison.
 
 
 ### -field wbemComparisonFlagIgnoreObjectSource

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -61,10 +62,10 @@ Provides information about a scrolling operation.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about a <a href="https://msdn.microsoft.com/en-us/library/Bb774816(v=VS.85).aspx">LVN_ENDSCROLL</a> or a <a href="https://msdn.microsoft.com/en-us/library/Bb774802(v=VS.85).aspx">LVN_BEGINSCROLL</a> notification code. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about a <a href="https://msdn.microsoft.com/2838dcd0-ac0f-48c7-94ba-dc36febedb94">LVN_ENDSCROLL</a> or a <a href="https://msdn.microsoft.com/67123db1-118c-43d7-8511-12a3c4413958">LVN_BEGINSCROLL</a> notification code. 
 
 
 ### -field dx

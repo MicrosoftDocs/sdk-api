@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -113,7 +114,7 @@ Used only if <b>eActionType</b> is <b>MMC_ACTION_ID</b>.
 
 A value that specifies the command ID returned to the snap-in when the user clicks the task.
 
-When MMC calls <a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a>, it passes in the <i>arg</i> parameter a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure that contains the command ID for the task that was clicked on the taskpad. The <b>vt</b> field is <b>VT_I4</b> and the <b>lVal</b> field contains the command ID.
+When MMC calls <a href="https://msdn.microsoft.com/c20d87f9-a5a0-41b9-b343-a11e8b41ed71">IExtendTaskPad::TaskNotify</a>, it passes in the <i>arg</i> parameter a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure that contains the command ID for the task that was clicked on the taskpad. The <b>vt</b> field is <b>VT_I4</b> and the <b>lVal</b> field contains the command ID.
 
 
 ### -field szActionURL

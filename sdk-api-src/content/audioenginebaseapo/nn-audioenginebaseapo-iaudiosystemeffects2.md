@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -55,7 +56,7 @@ The <b>IAudioSystemEffects2</b> interface was introduced with  Windows 8.1 for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSystemEffects2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff536514">IAudioSystemEffects</a>. <b>IAudioSystemEffects2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSystemEffects2</b> interface inherits from <a href="https://msdn.microsoft.com/86429c51-6831-4266-9774-1547dc04bcb0">IAudioSystemEffects</a>. <b>IAudioSystemEffects2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +71,7 @@ The <b>IAudioSystemEffects2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn659349">GetEffectsList</a>
+<a href="https://msdn.microsoft.com/FC337D99-E992-43DB-9565-3B46827A7960">GetEffectsList</a>
 </td>
 <td align="left" width="63%">
 The GetEffectsList method is used for retrieving the list of audio processing effects that are currently active, and stores an event to be signaled if the list changes.
@@ -85,7 +86,7 @@ The GetEffectsList method is used for retrieving the list of audio processing ef
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536514">IAudioSystemEffects</a>
+<a href="https://msdn.microsoft.com/86429c51-6831-4266-9774-1547dc04bcb0">IAudioSystemEffects</a>
  
 
  

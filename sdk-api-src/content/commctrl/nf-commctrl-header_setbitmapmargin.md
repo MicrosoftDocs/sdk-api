@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775357(v=VS.85).aspx">HDM_SETBITMAPMARGIN</a> message explicitly. 
+Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/5ac04701-18c8-42d4-9850-fe6eb813672c">HDM_SETBITMAPMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +78,7 @@ The width, specified in pixels, of the margin that surrounds a bitmap within an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775385(v=VS.85).aspx">Header_GetBitmapMargin</a>
+<a href="https://msdn.microsoft.com/3590cbdd-03fc-4654-8a8d-63d62d3f27a8">Header_GetBitmapMargin</a>
  
 
  

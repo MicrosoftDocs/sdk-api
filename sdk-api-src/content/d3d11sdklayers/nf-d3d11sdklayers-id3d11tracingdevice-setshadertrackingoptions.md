@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -82,7 +83,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760
 
 
 
-<div class="alert"><b>Note</b>  After a call to <b>SetShaderTrackingOptions</b>, the tracking options that the  <i>Options</i> parameter specifies are set for all calls by the shader that the  <i>pShader</i> parameter specifies, until the next call to <b>SetShaderTrackingOptions</b>. If you set a flag that is specific to unordered access views (UAV) (for example, <a href="https://msdn.microsoft.com/en-us/library/Hh404501(v=VS.85).aspx">D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS</a>) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
+<div class="alert"><b>Note</b>  After a call to <b>SetShaderTrackingOptions</b>, the tracking options that the  <i>Options</i> parameter specifies are set for all calls by the shader that the  <i>pShader</i> parameter specifies, until the next call to <b>SetShaderTrackingOptions</b>. If you set a flag that is specific to unordered access views (UAV) (for example, <a href="d3d11_shader_tracking_options.htm">D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS</a>) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>

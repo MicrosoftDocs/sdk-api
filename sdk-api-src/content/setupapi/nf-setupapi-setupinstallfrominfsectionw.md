@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -217,7 +218,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 The file version information used during version checks is that specified in the 
           <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-          <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled 
+          <a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled 
           in by the  version functions. If one of the files does not have version resources, or if they have 
           identical version information, the source file is considered newer.
 
@@ -326,7 +327,7 @@ If the user tries to skip a file, warn them that skipping a file may affect the 
 
 Pointer to the callback routine. The callback routine must be in the format of 
        <a href="https://msdn.microsoft.com/41eaa57a-e116-443c-93ee-397456a5c466">FileCallback</a>. See 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/mt244308">Notifications</a> for more information.
+       <a href="https://msdn.microsoft.com/93434558-ae83-4ea2-9324-659e5873a8c3">Notifications</a> for more information.
 
 This parameter is optional only if the <i>Flags</i> parameter does not include 
        SPINST_FILES, SPINST_REGISTERCALLBACKAWARE plus SPINST_REGSVR, or SPINST_UNREGSVR.
@@ -369,22 +370,137 @@ Optional pointer to a pointer to the <b>SP_DEVINFO_DATA</b>
       the DDK <i>Programmer's Guide</i>.
 
 
-##### - Flags.SPINST_INIFILES
+##### - CopyFlags.SP_COPY_DELETESOURCE
 
-Perform INI-file operations (<b>UpdateInis</b>, 
-         <b>UpdateIniFields</b> lines in the Install section being processed).
+Delete the source file upon successful copy. The caller is not notified if the delete fails.
 
 
-##### - Flags.SPINST_REGISTRY
+##### - CopyFlags.SP_COPY_FORCE_IN_USE
 
-Perform registry operations (<b>AddReg</b>, <b>DelReg</b> 
-        lines in the <b>Install</b> section being processed).
+If the target exists, behave as if it is in use and queue the file for copying on the next system 
+         reboot.
+
+
+##### - CopyFlags.SP_COPY_FORCE_NEWER
+
+Examine each file being copied to see if its version resources (or time stamps for non-image files) 
+         indicate that it is not newer than an existing copy on the target. If the file being copied is not newer, 
+         the file is not copied. The caller is not notified.
+
+
+##### - CopyFlags.SP_COPY_FORCE_NOOVERWRITE
+
+Check whether the target file exists, and, if so, the file is not overwritten. The caller is not 
+         notified.
+
+
+##### - CopyFlags.SP_COPY_IN_USE_NEEDS_REBOOT
+
+If the file was in use during the copy operation inform the user that the system needs to be rebooted. 
+         This flag is only used when later calling 
+         <a href="https://msdn.microsoft.com/14b34fd9-ae96-4552-b99d-488bae5c7644">SetupPromptReboot</a> or 
+         <a href="https://msdn.microsoft.com/4d59bb19-bb4a-4a24-814b-322e46e40fab">SetupScanFileQueue</a>.
+
+
+##### - CopyFlags.SP_COPY_LANGUAGEAWARE
+
+Examine each file being copied to see if its language differs from the language of any existing file 
+         already on the target. If so, and <i>CopyMsgHandler</i> is specified, the caller is 
+         notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is 
+         not copied.
+
+
+##### - CopyFlags.SP_COPY_NEWER_ONLY
+
+Examine each file being copied to see if its version resources indicate that it is not newer than an 
+         existing copy on the target. If the source file is newer but not equal in version to the existing target, 
+         the file is copied.
+
+
+##### - CopyFlags.SP_COPY_NEWER_OR_SAME
+
+Examine each file being copied to see if its version resources indicate that it is either the same 
+          version or not newer than an existing copy on the target.
+
+The file version information used during version checks is that specified in the 
+          <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
+          <a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled 
+          in by the  version functions. If one of the files does not have version resources, or if they have 
+          identical version information, the source file is considered newer.
+
+If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is 
+          specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is 
+          not specified, the file is not copied.
+
+
+##### - CopyFlags.SP_COPY_NODECOMP
+
+Do not decompress the file. When this flag is set, the target file is not given the uncompressed form 
+         of the source name (if appropriate). For example, copying f:/x86\cmd.ex_ to 
+         \\install\temp results in a target file of \\install\temp\cmd.ex_. If the 
+         SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called 
+         \\install\temp\cmd.exe. The filename part of <i>DestinationName</i>, if 
+         specified, is stripped and replaced with the filename of the source file. When SP_COPY_NODECOMP is 
+         specified, no language or version information can be checked.
+
+
+##### - CopyFlags.SP_COPY_NOOVERWRITE
+
+Check whether the target file exists, and, if so, notify the caller who may veto the copy. If 
+         <i>CopyMsgHandler</i> is not specified, the file is not overwritten.
+
+
+##### - CopyFlags.SP_COPY_NOSKIP
+
+Do not give the user the option to skip a file.
+
+
+##### - CopyFlags.SP_COPY_REPLACEONLY
+
+Copy the file only if doing so would overwrite a file at the destination path.
+
+
+##### - CopyFlags.SP_COPY_SOURCEPATH_ABSOLUTE
+
+<i>SourcePathRoot</i> is the full path part of the source file. Ignore the relative 
+          source specified in the <b>SourceDisksNames</b> section of the INF file for 
+          the source media where the file is located. This flag is ignored if SP_COPY_SOURCE_ABSOLUTE is 
+          specified.
+
+
+##### - CopyFlags.SP_COPY_SOURCE_ABSOLUTE
+
+<i>SourceFile</i> is a full source path. Do not look it up in the 
+          <b>SourceDisksNames</b> section of the INF file.
+
+
+##### - CopyFlags.SP_COPY_WARNIFSKIP
+
+If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for 
+         system-critical files.)
+
+
+##### - Flags.SPINST_ALL
+
+Perform all installation operations.
+
+
+##### - Flags.SPINST_FILES
+
+Perform file operations (<b>CopyFiles</b>, <b>DelFiles</b>, <b>RenFiles</b> lines in the 
+         <b>Install</b> section being processed).
 
 
 ##### - Flags.SPINST_INI2REG
 
 Perform INI-file to registry operations (<b>Ini2Reg</b> lines in the <b>Install</b> section being 
          processed).
+
+
+##### - Flags.SPINST_INIFILES
+
+Perform INI-file operations (<b>UpdateInis</b>, 
+         <b>UpdateIniFields</b> lines in the Install section being processed).
 
 
 ##### - Flags.SPINST_LOGCONFIG
@@ -400,17 +516,6 @@ For more information about installing device drivers, <b>LogConf</b>,
           DDK <i>Programmer's Guide</i>.
 
 
-##### - Flags.SPINST_FILES
-
-Perform file operations (<b>CopyFiles</b>, <b>DelFiles</b>, <b>RenFiles</b> lines in the 
-         <b>Install</b> section being processed).
-
-
-##### - Flags.SPINST_ALL
-
-Perform all installation operations.
-
-
 ##### - Flags.SPINST_REGISTERCALLBACKAWARE
 
 When using the <b>RegisterDlls</b> INF directive to self-register DLLs 
@@ -420,6 +525,12 @@ When using the <b>RegisterDlls</b> INF directive to self-register DLLs
          <a href="https://msdn.microsoft.com/6304f406-c9f8-41cc-a7b7-5ef606f62efb">SPFILENOTIFY_ENDREGISTRATION</a> 
          notification to the callback routine, include SPINST_REGISTERCALLBACKAWARE plus either SPINST_REGSVR or 
          SPINST_UNREGSVR. The caller must also set the <i>MsgHandler</i> parameter.
+
+
+##### - Flags.SPINST_REGISTRY
+
+Perform registry operations (<b>AddReg</b>, <b>DelReg</b> 
+        lines in the <b>Install</b> section being processed).
 
 
 ##### - Flags.SPINST_REGSVR
@@ -434,116 +545,6 @@ To send a notification to the callback routine when registering a file, include
 To send a notification to the callback routine when unregistering a file, include 
          SPINST_REGISTERCALLBACKAWARE plus SPINST_UNREGSVR in the <i>Flags</i>. The caller must 
          also specify the <i>MsgHandler</i> parameter.
-
-
-##### - CopyFlags.SP_COPY_DELETESOURCE
-
-Delete the source file upon successful copy. The caller is not notified if the delete fails.
-
-
-##### - CopyFlags.SP_COPY_REPLACEONLY
-
-Copy the file only if doing so would overwrite a file at the destination path.
-
-
-##### - CopyFlags.SP_COPY_NEWER_OR_SAME
-
-Examine each file being copied to see if its version resources indicate that it is either the same 
-          version or not newer than an existing copy on the target.
-
-The file version information used during version checks is that specified in the 
-          <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-          <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled 
-          in by the  version functions. If one of the files does not have version resources, or if they have 
-          identical version information, the source file is considered newer.
-
-If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is 
-          specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is 
-          not specified, the file is not copied.
-
-
-##### - CopyFlags.SP_COPY_NEWER_ONLY
-
-Examine each file being copied to see if its version resources indicate that it is not newer than an 
-         existing copy on the target. If the source file is newer but not equal in version to the existing target, 
-         the file is copied.
-
-
-##### - CopyFlags.SP_COPY_NOOVERWRITE
-
-Check whether the target file exists, and, if so, notify the caller who may veto the copy. If 
-         <i>CopyMsgHandler</i> is not specified, the file is not overwritten.
-
-
-##### - CopyFlags.SP_COPY_NODECOMP
-
-Do not decompress the file. When this flag is set, the target file is not given the uncompressed form 
-         of the source name (if appropriate). For example, copying f:/x86\cmd.ex_ to 
-         \\install\temp results in a target file of \\install\temp\cmd.ex_. If the 
-         SP_COPY_NODECOMP flag was not specified, the file would be decompressed and the target would be called 
-         \\install\temp\cmd.exe. The filename part of <i>DestinationName</i>, if 
-         specified, is stripped and replaced with the filename of the source file. When SP_COPY_NODECOMP is 
-         specified, no language or version information can be checked.
-
-
-##### - CopyFlags.SP_COPY_LANGUAGEAWARE
-
-Examine each file being copied to see if its language differs from the language of any existing file 
-         already on the target. If so, and <i>CopyMsgHandler</i> is specified, the caller is 
-         notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is 
-         not copied.
-
-
-##### - CopyFlags.SP_COPY_SOURCE_ABSOLUTE
-
-<i>SourceFile</i> is a full source path. Do not look it up in the 
-          <b>SourceDisksNames</b> section of the INF file.
-
-
-##### - CopyFlags.SP_COPY_SOURCEPATH_ABSOLUTE
-
-<i>SourcePathRoot</i> is the full path part of the source file. Ignore the relative 
-          source specified in the <b>SourceDisksNames</b> section of the INF file for 
-          the source media where the file is located. This flag is ignored if SP_COPY_SOURCE_ABSOLUTE is 
-          specified.
-
-
-##### - CopyFlags.SP_COPY_FORCE_IN_USE
-
-If the target exists, behave as if it is in use and queue the file for copying on the next system 
-         reboot.
-
-
-##### - CopyFlags.SP_COPY_IN_USE_NEEDS_REBOOT
-
-If the file was in use during the copy operation inform the user that the system needs to be rebooted. 
-         This flag is only used when later calling 
-         <a href="https://msdn.microsoft.com/14b34fd9-ae96-4552-b99d-488bae5c7644">SetupPromptReboot</a> or 
-         <a href="https://msdn.microsoft.com/4d59bb19-bb4a-4a24-814b-322e46e40fab">SetupScanFileQueue</a>.
-
-
-##### - CopyFlags.SP_COPY_NOSKIP
-
-Do not give the user the option to skip a file.
-
-
-##### - CopyFlags.SP_COPY_FORCE_NOOVERWRITE
-
-Check whether the target file exists, and, if so, the file is not overwritten. The caller is not 
-         notified.
-
-
-##### - CopyFlags.SP_COPY_FORCE_NEWER
-
-Examine each file being copied to see if its version resources (or time stamps for non-image files) 
-         indicate that it is not newer than an existing copy on the target. If the file being copied is not newer, 
-         the file is not copied. The caller is not notified.
-
-
-##### - CopyFlags.SP_COPY_WARNIFSKIP
-
-If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for 
-         system-critical files.)
 
 
 ## -returns
@@ -577,7 +578,7 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ The <b>FWPS_INCOMING_VALUE0</b> structure defines an individual data value.
 ### -field value
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure that contains the data value.
+     <a href="https://msdn.microsoft.com/0d8557cd-bd11-4786-ba6e-fbbeb2e2b761">FWP_VALUE0</a> structure that contains the data value.
 
 
 ## -remarks
@@ -70,10 +71,10 @@ An
 
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a> structure
+    <a href="https://msdn.microsoft.com/62cec782-3d55-4bf0-a3a1-4eb2f11d5813">FWPS_INCOMING_VALUES0</a> structure
     contains a pointer to an array of FWPS_INCOMING_VALUE0 structures that contain the incoming data values
     that are passed to a callout's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function.
 
 
 
@@ -83,15 +84,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
+<a href="https://msdn.microsoft.com/62cec782-3d55-4bf0-a3a1-4eb2f11d5813">FWPS_INCOMING_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/0d8557cd-bd11-4786-ba6e-fbbeb2e2b761">FWP_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a>
  
 
  

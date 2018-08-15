@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -62,7 +63,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>GetFileSecurity</b> function obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a>.
+The <b>GetFileSecurity</b> function obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a>.
 
 The <a href="https://msdn.microsoft.com/11f2119b-5314-4fa1-8016-9c01f79d037d">GetNamedSecurityInfo</a> function provides functionality similar to <b>GetFileSecurity</b> for files as well as other types of objects.
 
@@ -80,13 +81,13 @@ A pointer to a null-terminated string that specifies the file or directory for w
 ### -param RequestedInformation [in]
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that identifies the security information being requested.
+<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> value that identifies the security information being requested.
 
 
 ### -param pSecurityDescriptor [out, optional]
 
-A pointer to a buffer that receives a copy of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of the object specified by the <i>lpFileName</i> parameter. The calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> must have permission to view the specified aspects of the object's security status. The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure is returned in <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative security descriptor</a> format.
+A pointer to a buffer that receives a copy of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of the object specified by the <i>lpFileName</i> parameter. The calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> must have permission to view the specified aspects of the object's security status. The 
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure is returned in <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative security descriptor</a> format.
 
 
 ### -param nLength [in]
@@ -151,11 +152,11 @@ To read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a>
 
 
 

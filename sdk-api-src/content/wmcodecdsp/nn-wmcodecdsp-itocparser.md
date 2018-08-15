@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,7 +81,7 @@ Adds a table of contents to the TOC Parser object and assigns an index to the ad
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/549c170e-2e4d-4edb-b84e-178bfbb13fed">Commit</a>
 </td>
 <td align="left" width="63%">
 Stores the current state of the TOC Parser object in its associated media file.
@@ -116,7 +117,7 @@ Retrieves the number of tables of contents, of a specified <a href="https://msdn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/8d7a9bda-56e8-4b42-ace5-4d6cf5d52b59">Init</a>
 </td>
 <td align="left" width="63%">
  Initializes the TOC Parser object and associates it with a media file.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows UI
 ## -description
 
 
-Converts an array of run <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
+Converts an array of run <a href="uniscribe_glossary.htm">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
 
 
 ## -parameters

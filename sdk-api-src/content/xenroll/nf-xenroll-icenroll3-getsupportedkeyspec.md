@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -67,7 +68,7 @@ The values retrieved by this method are dependent upon the current CSP.
 
 ### -param pdwKeySpec [out]
 
-A pointer to a <b>LONG</b> that receives a bit flag that indicates whether the current CSP supports <a href="https://msdn.microsoft.com/library/windows/hardware/mt764003">exchange</a> and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">signature keys</a>.
+A pointer to a <b>LONG</b> that receives a bit flag that indicates whether the current CSP supports <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">exchange</a> and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">signature keys</a>.
 
 
 ## -returns

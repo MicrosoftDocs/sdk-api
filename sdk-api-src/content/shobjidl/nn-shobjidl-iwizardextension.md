@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,7 +75,7 @@ The <b>IWizardExtension</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2d9a5012-3b5e-4e55-984b-70a932bab569">AddPages</a>
 </td>
 <td align="left" width="63%">
-Adds extension pages to the wizard by filling an array with handles to <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures representing those pages.
+Adds extension pages to the wizard by filling an array with handles to <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structures representing those pages.
 
 </td>
 </tr>

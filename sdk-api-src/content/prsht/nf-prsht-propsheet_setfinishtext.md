@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774615(v=VS.85).aspx">PSM_SETFINISHTEXT</a> message explicitly.
+Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://msdn.microsoft.com/fa89c6d7-9ab7-4e7c-ba08-d665420492a3">PSM_SETFINISHTEXT</a> message explicitly.
 
 
 ## -parameters

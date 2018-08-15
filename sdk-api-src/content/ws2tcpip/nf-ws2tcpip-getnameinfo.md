@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -63,7 +64,7 @@ The
 ### -param pSockaddr [in]
 
 A pointer to a socket address structure that contains the address and port number of the socket. For IPv4, the <i>sa</i> parameter points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
 
 
 ### -param SockaddrLength [in]
@@ -115,32 +116,32 @@ Nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></td>
 <td>One or more invalid parameters was passed to the <b>getnameinfo</b> function. This error is returned if a host name was requested but the <i>hostlen</i> parameter was zero or if a service name was requested, but the <i>servlen</i> parameter was zero. </td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></td>
 <td>The <b>sa_family</b> member of socket address structure pointed to by the <i>sa</i> parameter is not supported. </td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></td>
 <td>A service name was requested, but no port number was found in the structure pointed to by the <i>sa</i> parameter or no service name matching the port number was found. NI_NAMEREQD is set and the host name cannot be located, or both the <i>host</i> and <i>serv</i> parameters were <b>NULL</b>. </td>
 </tr>
 </table>
@@ -162,11 +163,11 @@ In addition, the following error codes can be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>salen</i> parameter is less than the length required for the size of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure for IPv4 or the  <b>sockaddr_in6</b> structure for IPv6.
+This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>salen</i> parameter is less than the length required for the size of <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure for IPv4 or the  <b>sockaddr_in6</b> structure for IPv6.
 
 </td>
 </tr>
@@ -358,7 +359,7 @@ The <a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">Ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

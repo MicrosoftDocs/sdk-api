@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ Retrieves the time of the last input event.
 
 Type: <b>PLASTINPUTINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms646272(v=VS.85).aspx">LASTINPUTINFO</a> structure that receives the time of the last input event.
+A pointer to a <a href="https://msdn.microsoft.com/159f553f-5425-4201-ac83-8330ac28218c">LASTINPUTINFO</a> structure that receives the time of the last input event.
 
 
 ## -returns
@@ -91,7 +92,7 @@ If the function fails, the return value is zero.
 
 This function is useful for input idle detection. However, <b>GetLastInputInfo</b> does not provide system-wide user input information across all running sessions. Rather, <b>GetLastInputInfo</b> provides session-specific user input information for only the session that invoked the function.
 
-The tick count when the last input event was received (see <a href="https://msdn.microsoft.com/en-us/library/ms646272(v=VS.85).aspx">LASTINPUTINFO</a>) is not guaranteed to be incremental. In some cases, the value might be less than the tick count of a prior event. For example, this can be caused by a timing gap between the raw input thread and the desktop thread or an event raised by <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a>, which supplies its own tick count.
+The tick count when the last input event was received (see <a href="https://msdn.microsoft.com/159f553f-5425-4201-ac83-8330ac28218c">LASTINPUTINFO</a>) is not guaranteed to be incremental. In some cases, the value might be less than the tick count of a prior event. For example, this can be caused by a timing gap between the raw input thread and the desktop thread or an event raised by <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a>, which supplies its own tick count.
 
 
 
@@ -105,11 +106,11 @@ The tick count when the last input event was received (see <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646272(v=VS.85).aspx">LASTINPUTINFO</a>
+<a href="https://msdn.microsoft.com/159f553f-5425-4201-ac83-8330ac28218c">LASTINPUTINFO</a>
 
 
 

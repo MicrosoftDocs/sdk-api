@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -81,6 +82,13 @@ Gets the text outline for the timed-text style.
 
 
 
+#### - pBlurRadius [out]
+
+Type: <b>double*</b>
+
+A pointer to a variable that receives the blur radius.
+
+
 #### - pColor [out]
 
 Type: <b><a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a>*</b>
@@ -93,13 +101,6 @@ A pointer to a variable that receives a <a href="https://msdn.microsoft.com/ce7a
 Type: <b>double*</b>
 
 A pointer to a variable that receives the thickness.
-
-
-#### - pBlurRadius [out]
-
-Type: <b>double*</b>
-
-A pointer to a variable that receives the blur radius.
 
 
 #### - pUnitType [out]

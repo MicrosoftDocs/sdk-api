@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -119,6 +120,12 @@ Type: <b>int</b>
 Size of the buffer at <i>pv</i>, in bytes.
 
 
+##### - nFormat.SHGDFIL_DESCRIPTIONID
+
+
+<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.71</a>. Format used for network resources. The <i>pv</i> parameter is the address of an <a href="https://msdn.microsoft.com/dca32567-2049-4797-af87-d08a5d5d055d">SHDESCRIPTIONID</a> structure.
+
+
 ##### - nFormat.SHGDFIL_FINDDATA
 
 Format used for file system objects. The <i>pv</i> parameter is the address of a <a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a> structure.
@@ -127,12 +134,6 @@ Format used for file system objects. The <i>pv</i> parameter is the address of a
 ##### - nFormat.SHGDFIL_NETRESOURCE
 
 Format used for network resources. The <i>pv</i> parameter is the address of a <a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure.
-
-
-##### - nFormat.SHGDFIL_DESCRIPTIONID
-
-
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.71</a>. Format used for network resources. The <i>pv</i> parameter is the address of an <a href="https://msdn.microsoft.com/dca32567-2049-4797-af87-d08a5d5d055d">SHDESCRIPTIONID</a> structure.
 
 
 ## -returns

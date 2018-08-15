@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -80,17 +81,17 @@ A <a href="https://msdn.microsoft.com/8ed37546-6443-4010-a078-4359dd1c2861">KERB
 ### -field DomainName
 
 A
-						<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the domain that corresponds to the <b>ServiceName</b> member. This is the domain that issued the ticket.
+						<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains the name of the domain that corresponds to the <b>ServiceName</b> member. This is the domain that issued the ticket.
 
 
 ### -field TargetDomainName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the domain in which the ticket is valid. For an interdomain ticket, this is the destination domain.
+A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains the name of the domain in which the ticket is valid. For an interdomain ticket, this is the destination domain.
 
 
 ### -field AltTargetDomainName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains a synonym for the destination domain. Every domain has two names: a DNS name and a NetBIOS name. If the name returned in the ticket is different from the name used to request the ticket (the Kerberos <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Key Distribution Center</a> (KDC) may do name mapping), this string contains the original name.
+A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains a synonym for the destination domain. Every domain has two names: a DNS name and a NetBIOS name. If the name returned in the ticket is different from the name used to request the ticket (the Kerberos <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Key Distribution Center</a> (KDC) may do name mapping), this string contains the original name.
 
 
 ### -field SessionKey
@@ -184,7 +185,7 @@ Indicates to the ticket-granting server that a postdated ticket can be issued ba
 </dl>
 </td>
 <td width="60%">
-The target of the ticket is trusted by the directory service for delegation. Thus, the clients may delegate their <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> to the server, which lets the server act as the client when talking to other services.
+The target of the ticket is trusted by the directory service for delegation. Thus, the clients may delegate their <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> to the server, which lets the server act as the client when talking to other services.
 
 </td>
 </tr>

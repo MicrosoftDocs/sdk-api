@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ Length of <i>pSrcData</i>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Strip flag options, represented by <a href="https://msdn.microsoft.com/en-us/library/Dd607325(v=VS.85).aspx">D3DCOMPILER_STRIP_FLAGS</a>.
+Strip flag options, represented by <a href="https://msdn.microsoft.com/44e2af42-f5db-4206-aa00-37d070b2ca3b">D3DCOMPILER_STRIP_FLAGS</a>.
 
 
 ### -param ppStrippedBlob [out]
@@ -102,7 +103,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

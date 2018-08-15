@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
+The <b>CheckColorsInGamut</b> function determines whether a specified set of RGB triples lies in the output <a href="g.htm">gamut</a> of a specified device. The RGB triples are interpreted in the input logical color space.
 
 
 ## -parameters
@@ -112,7 +113,7 @@ Note that for this function to succeed, WCS must be enabled for the device conte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
 
 
 

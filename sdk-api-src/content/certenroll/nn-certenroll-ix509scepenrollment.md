@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -55,7 +56,7 @@ X.509 Simple Computer Enrollment Protocol Interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SCEPEnrollment</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509SCEPEnrollment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SCEPEnrollment</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509SCEPEnrollment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -107,7 +108,7 @@ Delete the any certificates or keys created for the request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/dcb887ab-c8b7-42e7-8b49-93755d24ba70">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initialize the instance in preparation for a new request.
@@ -207,7 +208,7 @@ Gets or sets an old certificate that a request is intended to replace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="https://msdn.microsoft.com/9446cd62-5a02-4701-8b13-9e46508fbfaa">Request</a>
 
 
 </td>
@@ -271,7 +272,7 @@ Gets or sets whether to display UI during the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/252d7767-fc48-4d7d-9fcd-6312b5b78611">Status</a>
 
 
 </td>

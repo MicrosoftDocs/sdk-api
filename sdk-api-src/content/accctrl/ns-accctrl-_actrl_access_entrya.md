@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.dll:
 ## -description
 
 
- Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>.
+ Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an <a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -126,7 +127,7 @@ Gets the list of commands IDs supported by the Mobile Broadband device service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556632">SetCommand</a>
+<a href="https://msdn.microsoft.com/DA45B319-4E6A-4999-85A7-7F5A4F9BED7B">SetCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a <b>SET</b> control command to the device service of a Mobile Broadband device.
@@ -222,7 +223,7 @@ Reports if the device service data session is open.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> objects are provided by a call to the <a href="https://msdn.microsoft.com/293E9BE5-AD7D-41B7-9A27-E964EE745183">GetDeviceService</a> method of the <a href="https://msdn.microsoft.com/0B97FCCD-0A90-4FA2-9122-B00BD3F1A033">IMbnDeviceServicesContext</a> interface.
+<a href="IMbnDeviceService">IMbnDeviceService</a> objects are provided by a call to the <a href="https://msdn.microsoft.com/293E9BE5-AD7D-41B7-9A27-E964EE745183">GetDeviceService</a> method of the <a href="https://msdn.microsoft.com/0B97FCCD-0A90-4FA2-9122-B00BD3F1A033">IMbnDeviceServicesContext</a> interface.
 
 
 

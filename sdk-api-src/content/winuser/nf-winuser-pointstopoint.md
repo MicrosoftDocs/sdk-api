@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure into a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure.
+The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure into a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure.
 
 
 
@@ -64,12 +65,12 @@ The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="https://msdn.mi
 
 ### -param pt
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure to receive the contents of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure.
+The <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure to receive the contents of the <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure.
 
 
 ### -param pts
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure to copy.
+The <a href="https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc">POINTS</a> structure to copy.
 
 
 ## -see-also

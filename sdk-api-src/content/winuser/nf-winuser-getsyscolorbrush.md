@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -83,7 +84,7 @@ The return value identifies a logical brush if the <i>nIndex</i> parameter is su
 
 A brush is a bitmap that the system uses to paint the interiors of filled shapes. An application can retrieve the current system colors by calling the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function. An application can set the current system colors by calling the <a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a> function.
 
-An application must not register a window class for a window using a system brush. To register a window class with a system color, see the documentation of the <b>hbrBackground</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structures.
+An application must not register a window class for a window using a system brush. To register a window class with a system color, see the documentation of the <b>hbrBackground</b> member of the <a href="_win32_WNDCLASS_str_cpp">WNDCLASS</a> or <a href="_win32_WNDCLASSEX_str_cpp">WNDCLASSEX</a> structures.
 
 System color brushes track changes in system colors. In other words, when the user changes a system color, the associated system color brush automatically changes to the new color.
 
@@ -119,11 +120,11 @@ System color brushes are owned by the system so you don't need to destroy them. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
+<a href="_win32_WNDCLASS_str_cpp">WNDCLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a>
+<a href="_win32_WNDCLASSEX_str_cpp">WNDCLASSEX</a>
  
 
  

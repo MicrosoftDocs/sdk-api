@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ The <b>FolderItems3</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh707480(v=VS.85).aspx">Filter</a>
+<a href="https://msdn.microsoft.com/19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9">Filter</a>
 </td>
 <td align="left" width="63%">
 Sets a wildcard filter to apply to the items returned.

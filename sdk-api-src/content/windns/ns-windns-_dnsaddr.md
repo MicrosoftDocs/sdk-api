@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -61,7 +62,7 @@ A <b>DNS_ADDR</b> structure stores an IPv4 or IPv6 address.
 
 ### -field MaxSa
 
-A value that contains the socket IP address. It is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">sockaddr_in</a> structure if the address is IPv4 and a sockaddr_in6 structure if the address is IPv6.
+A value that contains the socket IP address. It is a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure if the address is IPv4 and a sockaddr_in6 structure if the address is IPv6.
 
 
 ### -field DnsAddrUserDword

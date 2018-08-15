@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774621(v=VS.85).aspx">PSM_SETHEADERSUBTITLE</a> message explicitly.
+Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/6ef3017b-8a20-4d62-a604-135410d8bdf7">PSM_SETHEADERSUBTITLE</a> message explicitly.
 
 
 ## -parameters
@@ -86,7 +87,7 @@ New header subtitle.
 
 If you specify the current page, it will immediately be repainted to display the new subtitle.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 
@@ -96,15 +97,15 @@ If you specify the current page, it will immediately be repainted to display the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
+<a href="https://msdn.microsoft.com/a90c1ccc-f25e-476a-bdc5-f4fb568a3cb5">PropSheet_HwndToIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774653(v=VS.85).aspx">PropSheet_IdToIndex</a>
+<a href="https://msdn.microsoft.com/42baab9e-d713-4f67-87af-d2ea8a586142">PropSheet_IdToIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774664(v=VS.85).aspx">PropSheet_PageToIndex</a>
+<a href="https://msdn.microsoft.com/e93d4d3f-a046-4f2b-8eab-91bf33c7cd1d">PropSheet_PageToIndex</a>
 
 
 

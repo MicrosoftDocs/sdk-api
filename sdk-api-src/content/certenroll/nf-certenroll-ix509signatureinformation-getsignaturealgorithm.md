@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -136,7 +137,7 @@ This case retrieves  a discrete signature algorithm OID for a PKCS #7 request th
 <li>
 <i>Pkcs7Signature</i> = false, <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a> = false, <a href="https://msdn.microsoft.com/e62ecdf1-56d8-4707-8e5d-deef4d79a34c">AlternateSignatureAlgorithm</a> = true
 
-This case retrieves  a discrete signature algorithm OID for a PKCS #10 request and encodes the hash algorithm OID in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965807">Parameters</a> property. The <a href="https://msdn.microsoft.com/b5242975-50e5-49d6-be1f-3a09ada03593">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> properties must be set.
+This case retrieves  a discrete signature algorithm OID for a PKCS #10 request and encodes the hash algorithm OID in the <a href="https://msdn.microsoft.com/cb5675d5-cf06-4407-a7fd-b703a56cacba">Parameters</a> property. The <a href="https://msdn.microsoft.com/b5242975-50e5-49d6-be1f-3a09ada03593">HashAlgorithm</a> and <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> properties must be set.
 
 </li>
 <li>

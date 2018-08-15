@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rrascfg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -70,7 +71,7 @@ The <b>IEAPProviderConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/6d347387-7f8f-478b-a115-f6960e6f856e">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an EAP configuration session.
@@ -106,7 +107,7 @@ Invokes the EAP configuration user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597582">Uninitialize</a>
+<a href="https://msdn.microsoft.com/f96ffa3f-cd3c-4979-87b3-1a2afb7a3621">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Shuts down an EAP configuration session.

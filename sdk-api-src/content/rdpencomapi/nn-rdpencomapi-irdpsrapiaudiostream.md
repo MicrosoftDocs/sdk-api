@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -77,13 +78,13 @@ The <b>IRDPSRAPIAudioStream</b> class has these methods.
 </td>
 <td align="left" width="63%">
 Releases the hold on the buffer after the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> method is  called.
+     <a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a> method is  called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://msdn.microsoft.com/9A155107-1C43-49C2-BA92-4CBF37AEF4DB">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets audio data from the buffer.
@@ -92,7 +93,7 @@ Gets audio data from the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/EF94E441-1331-4317-A104-05BDA6738C5A">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the audio stream.
@@ -101,7 +102,7 @@ Initializes the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/23ADA8F5-9F44-45E6-88DC-852D8F62F03F">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the audio stream.
@@ -110,7 +111,7 @@ Starts the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/D2F6264D-3855-4AF8-B295-59D51B90FD94">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the audio stream.

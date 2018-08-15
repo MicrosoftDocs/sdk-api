@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information that defines a split button (<a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775969(v=VS.85).aspx">BCM_GETSPLITINFO</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775981(v=VS.85).aspx">BCM_SETSPLITINFO</a> messages.
+Contains information that defines a split button (<a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://msdn.microsoft.com/d608440d-b8d8-4e32-9128-08b7566b185c">BCM_GETSPLITINFO</a> and <a href="https://msdn.microsoft.com/609b8972-9616-4850-a72c-2f87ce19f563">BCM_SETSPLITINFO</a> messages.
 
 
 ## -struct-fields
@@ -177,9 +178,9 @@ Stretch glyph, but try to retain aspect ratio.
 
 ### -field size
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>. 
+A <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>. 
 
 
 ## -remarks
@@ -197,7 +198,7 @@ The glyph is the image that appears on the part of the button that activates the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775943(v=VS.85).aspx">Buttons Overview</a>
+<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons Overview</a>
  
 
  

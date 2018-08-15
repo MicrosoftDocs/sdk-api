@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547012">Hardware Resources</a>.
+The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -72,7 +73,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548192">IO_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548201">IO_RESOURCE</a> structure.
+The number of elements in the <a href="https://msdn.microsoft.com/1793684b-b4c4-4467-9ac9-8c6b1eea65e3">IO_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/d18a1f92-b76c-4240-9a0e-7474c258436c">IO_RESOURCE</a> structure.
 
 
 ### -field IOD_Type
@@ -235,11 +236,11 @@ Bitmask for the bits within <b>IOD_DesFlags</b> that specify the decode value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548192">IO_RANGE</a>
+<a href="https://msdn.microsoft.com/1793684b-b4c4-4467-9ac9-8c6b1eea65e3">IO_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548201">IO_RESOURCE</a>
+<a href="https://msdn.microsoft.com/d18a1f92-b76c-4240-9a0e-7474c258436c">IO_RESOURCE</a>
  
 
  

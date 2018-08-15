@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -79,7 +80,7 @@ Specifies whether the function disables all of the token's privileges. If this v
 ### -param NewState [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a> structure that specifies an array of privileges and their attributes. If the <i>DisableAllPrivileges</i> parameter is <b>FALSE</b>, the  <b>AdjustTokenPrivileges</b>  function enables, disables, or removes these privileges for the token. The following table describes the action taken by the <b>AdjustTokenPrivileges</b> function, based on the privilege attribute.
+<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that specifies an array of privileges and their attributes. If the <i>DisableAllPrivileges</i> parameter is <b>FALSE</b>, the  <b>AdjustTokenPrivileges</b>  function enables, disables, or removes these privileges for the token. The following table describes the action taken by the <b>AdjustTokenPrivileges</b> function, based on the privilege attribute.
 
 <table>
 <tr>
@@ -142,7 +143,7 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>PreviousState</
 
 ### -param PreviousState [out, optional]
 
-A pointer to a buffer that the function fills with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a> structure that contains the previous state of any privileges that the function modifies.  That is, if a privilege has been modified by this function, the privilege and its previous state are contained in the <b>TOKEN_PRIVILEGES</b> structure referenced by <i>PreviousState</i>. If the <b>PrivilegeCount</b> member of <b>TOKEN_PRIVILEGES</b> is zero, then no privileges have been changed by this function. This parameter can be <b>NULL</b>. 
+A pointer to a buffer that the function fills with a <a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that contains the previous state of any privileges that the function modifies.  That is, if a privilege has been modified by this function, the privilege and its previous state are contained in the <b>TOKEN_PRIVILEGES</b> structure referenced by <i>PreviousState</i>. If the <b>PrivilegeCount</b> member of <b>TOKEN_PRIVILEGES</b> is zero, then no privileges have been changed by this function. This parameter can be <b>NULL</b>. 
 
 
 
@@ -207,7 +208,7 @@ The <b>AdjustTokenPrivileges</b> function cannot add new privileges to the acces
 The <i>NewState</i> parameter can specify privileges that the token does not have, without causing the function to fail. In this case, the function adjusts the privileges that the token does have and ignores the other privileges so that the function succeeds. Call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to determine whether the function adjusted all of the specified privileges. The <i>PreviousState</i> parameter indicates the privileges that were adjusted.
 
 The <i>PreviousState</i> parameter retrieves a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a> structure that contains the original state of the adjusted privileges. To restore the original state, pass the <i>PreviousState</i> pointer as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenPrivileges</b> function.
+<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that contains the original state of the adjusted privileges. To restore the original state, pass the <i>PreviousState</i> pointer as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenPrivileges</b> function.
 
 
 #### Examples
@@ -231,7 +232,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -251,7 +252,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a>
+<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a>
  
 
  

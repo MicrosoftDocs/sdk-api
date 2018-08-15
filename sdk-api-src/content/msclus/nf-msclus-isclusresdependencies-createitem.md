@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,8 +58,8 @@ req.product: GDI+ 1.1
    unavailable in subsequent versions.]
 
 Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and adds it to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">dependency</a> collection.
+    <a href="c_gly.htm">cluster</a> and adds it to the 
+    <a href="d_gly.htm">dependency</a> collection.
 
 
 ## -parameters
@@ -88,22 +89,6 @@ Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f
 
 
 
-#### - ResourceName
-
-<b>String</b> containing the name of the resource to create.
-
-
-#### - ResourceType
-
-<b>String</b> specifying the type of the resource to create.
-
-
-#### - GroupName
-
-<b>String</b> containing the name of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to which the new resource will belong.
-
-
 #### - Flag
 
 Value indicating how to create the resource. <i>Flag</i> can be set to one of the 
@@ -125,6 +110,22 @@ The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cl
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
         resource.
+
+
+#### - GroupName
+
+<b>String</b> containing the name of the 
+      <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to which the new resource will belong.
+
+
+#### - ResourceName
+
+<b>String</b> containing the name of the resource to create.
+
+
+#### - ResourceType
+
+<b>String</b> specifying the type of the resource to create.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -90,7 +91,7 @@ Use <b>CoTaskMemFree</b> to free the string.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="mf.imfnetcrossoriginsupport">IMFNetCrossOriginSupport</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -78,13 +79,13 @@ Specifies the luminance. For more information, see the following Remarks section
 
 
 
-The CIECHROMA structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539441">COLORINFO</a> structure to define colors for <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>.
+The CIECHROMA structure is used by the <a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a> structure to define colors for <a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a>.
 
 The LDECI4 type is used to represent real numbers to four decimal places. For example, (LDECI4) 10000 represents the real number 1.0000, and (LDECI4) -12345 represents -1.2345.
 
 The values of the <b>x</b> and <b>y</b> members of CIECHROMA should be in the range from 0 through 10000--that is, the values should represent the numbers 0.0000 through 1.0000. 
 
-The value of the <b>Y</b> member of this structure should be in the range from 0 through 100. This member can also be 65534 (0xFFFE) under certain circumstances. For more information about these circumstances, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539441">COLORINFO</a>.
+The value of the <b>Y</b> member of this structure should be in the range from 0 through 100. This member can also be 65534 (0xFFFE) under certain circumstances. For more information about these circumstances, see <a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a>.
 
 
 
@@ -94,15 +95,15 @@ The value of the <b>Y</b> member of this structure should be in the range from 0
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539441">COLORINFO</a>
+<a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
+<a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a>
  
 
  

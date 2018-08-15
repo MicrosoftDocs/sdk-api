@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-An SP_SELECTDEVICE_PARAMS structure corresponds to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543723">DIF_SELECTDEVICE</a> installation request.
+An SP_SELECTDEVICE_PARAMS structure corresponds to a <a href="https://msdn.microsoft.com/c1266182-b88f-406a-876c-e0f15050fdf3">DIF_SELECTDEVICE</a> installation request.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ An SP_SELECTDEVICE_PARAMS structure corresponds to a <a href="https://msdn.micro
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>. 
+An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>. 
 
 
 ### -field Title
@@ -97,7 +98,7 @@ If an installer sets fields in this structure to be used during driver selection
 
 The following screen shot shows a sample Select Device dialog box and identifies the strings an installer can supply.
 
-<img alt="Screen shot of a Select a Device Driver dialog box" src="./images/select-dialog.png"/>
+<img alt="Screen shot of a Select a Device Driver dialog box" src="images/select-dialog.png"/>
 
 
 
@@ -106,19 +107,19 @@ The following screen shot shows a sample Select Device dialog box and identifies
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543723">DIF_SELECTDEVICE</a>
+<a href="https://msdn.microsoft.com/c1266182-b88f-406a-876c-e0f15050fdf3">DIF_SELECTDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>
+<a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552115">SetupDiSelectDevice</a>
+<a href="https://msdn.microsoft.com/c6a512ad-bcc6-4dc5-873e-33bdaab129e2">SetupDiSelectDevice</a>
  
 
  

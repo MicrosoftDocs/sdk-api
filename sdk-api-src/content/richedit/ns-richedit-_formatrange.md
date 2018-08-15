@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> message.
+Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> message.
 
 
 ## -struct-fields
@@ -70,26 +71,26 @@ An HDC for the target device to format for.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
 
-A HDC for the device to render to, if <a href="https://msdn.microsoft.com/en-us/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> is being used to send the output to a device.
+A HDC for the device to render to, if <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> is being used to send the output to a device.
 
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The area within the <i>rcPage</i> rectangle to render to. Units are measured in twips. 
 
 
 ### -field rcPage
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The entire area of a page on the rendering device. Units are measured in twips. 
 
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
 
 The range of characters to format.
 
@@ -111,7 +112,7 @@ The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a>
+<a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a>
  
 
  

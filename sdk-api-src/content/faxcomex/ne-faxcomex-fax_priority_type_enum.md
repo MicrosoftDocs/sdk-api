@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,15 +80,15 @@ The fax will be sent with a high priority.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">IFaxDocument::get_Priority</a>
+<a href="https://msdn.microsoft.com/4f7ebcad-ff7d-4c11-b4c4-c7325415231e">IFaxDocument::get_Priority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689543(v=VS.85).aspx">IFaxOutgoingJob::get_Priority</a>
+<a href="https://msdn.microsoft.com/0cf5d46f-0c26-4fa5-808e-13bdf1901964">IFaxOutgoingJob::get_Priority</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690170(v=VS.85).aspx">IFaxOutgoingMessage::get_Priority</a>
+<a href="https://msdn.microsoft.com/bd727334-0e7a-4f2b-a4bb-2308c9ecfc9a">IFaxOutgoingMessage::get_Priority</a>
  
 
  

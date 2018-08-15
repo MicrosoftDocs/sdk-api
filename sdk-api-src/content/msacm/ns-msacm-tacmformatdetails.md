@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -140,7 +141,7 @@ Driver supports hardware input and/or output of the specified format through a w
 
 ### -field pwfx
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that will receive the format details. This structure requires no initialization by the application unless the ACM_FORMATDETAILSF_FORMAT flag is specified in the <a href="https://msdn.microsoft.com/2a6a9b8f-758b-4443-b1c7-e277f22bac5b">acmFormatDetails</a> function. In this case, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure must be equal to the <b>dwFormatTag</b> of the <b>ACMFORMATDETAILS</b> structure.
+Pointer to a <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure that will receive the format details. This structure requires no initialization by the application unless the ACM_FORMATDETAILSF_FORMAT flag is specified in the <a href="https://msdn.microsoft.com/2a6a9b8f-758b-4443-b1c7-e277f22bac5b">acmFormatDetails</a> function. In this case, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure must be equal to the <b>dwFormatTag</b> of the <b>ACMFORMATDETAILS</b> structure.
 
 
 ### -field cbwfx
@@ -174,7 +175,7 @@ String that describes the format for the <b>dwFormatTag</b> type. If the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+<a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>
 
 
 

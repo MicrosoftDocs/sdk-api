@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ The <b>SetupGetThreadLogToken</b> function retrieves the <a href="devinst.log_to
 
 
 
-To set a log token for a thread, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552216">SetupSetThreadLogToken</a>. 
+To set a log token for a thread, call <a href="https://msdn.microsoft.com/c5295bb8-73c8-4516-91fe-ba11aa8a0657">SetupSetThreadLogToken</a>. 
 
 For more information about log tokens, see <a href="devinst.log_tokens">Log Tokens</a>.
 
@@ -99,7 +100,7 @@ For more information about using log tokens, see <a href="devinst.setting_and_ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552216">SetupSetThreadLogToken</a>
+<a href="https://msdn.microsoft.com/c5295bb8-73c8-4516-91fe-ba11aa8a0657">SetupSetThreadLogToken</a>
  
 
  

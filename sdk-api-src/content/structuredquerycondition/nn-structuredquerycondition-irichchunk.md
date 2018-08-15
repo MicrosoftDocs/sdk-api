@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquerycondition.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Represents a chunk of data as a string and a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> value.
+Represents a chunk of data as a string and a <a href="_stg_propvariant">PROPVARIANT</a> value.
         
 
 
@@ -72,10 +73,10 @@ The <b>IRichChunk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/09a1a0f5-2779-4aa3-ba56-605e846de16d">GetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -84,7 +85,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85
 <a href="https://msdn.microsoft.com/78846D1D-923F-4FEA-8BF2-B16BB1B21BB3">RemoteGetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231343(v=VS.85).aspx">GetErrors</a>
+<a href="https://msdn.microsoft.com/50eead1a-5eb9-4bc9-ba54-c6dc77284f4d">GetErrors</a>
 
 
 
@@ -113,7 +114,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965707(v=VS.85).aspx">STRUCTURED_QUERY_PARSE_ERROR</a>
+<a href="https://msdn.microsoft.com/abc76a8c-ee72-469a-85a0-75c12ee4e5d9">STRUCTURED_QUERY_PARSE_ERROR</a>
  
 
  

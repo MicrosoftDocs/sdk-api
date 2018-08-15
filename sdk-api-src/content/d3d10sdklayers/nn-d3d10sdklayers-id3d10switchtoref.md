@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10sdklayers.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,12 +52,12 @@ req.irql:
 ## -description
 
 
-A switch-to-reference interface (see the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">switch-to-reference</a> layer) enables an application to switch between a hardware and software device.
+A switch-to-reference interface (see the <a href="https://msdn.microsoft.com/19c81383-6ac7-49ea-98a3-bf761a32ab40">switch-to-reference</a> layer) enables an application to switch between a hardware and software device.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10SwitchToRef</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10SwitchToRef</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10SwitchToRef</b> interface inherits from <a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>. <b>ID3D10SwitchToRef</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>ID3D10SwitchToRef</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173861(v=VS.85).aspx">GetUseRef</a>
+<a href="https://msdn.microsoft.com/f40f7e84-29fe-468a-9a2b-1ccd8e1e8a38">GetUseRef</a>
 </td>
 <td align="left" width="63%">
 Get a boolean value that indicates the type of device being used.
@@ -80,7 +81,7 @@ Get a boolean value that indicates the type of device being used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173862(v=VS.85).aspx">SetUseRef</a>
+<a href="https://msdn.microsoft.com/3348531b-efe5-4c60-b5c2-25368f25c75d">SetUseRef</a>
 </td>
 <td align="left" width="63%">
 Switch between a hardware and a software device.
@@ -94,7 +95,7 @@ Switch between a hardware and a software device.
 
 
 
-This interface is obtained by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on a <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> created with the <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_SWITCH_TO_REF</a> flag.
+This interface is obtained by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on a <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a> created with the <a href="https://msdn.microsoft.com/4926d630-9748-4416-9af0-287cb06b86f0">D3D10_CREATE_DEVICE_SWITCH_TO_REF</a> flag.
 
 
 
@@ -104,11 +105,11 @@ This interface is obtained by calling <a href="https://msdn.microsoft.com/54d5ff
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
  
 
  

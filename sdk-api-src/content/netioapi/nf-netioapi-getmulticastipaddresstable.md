@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -115,7 +116,7 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 ### -param Table [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559281">MIB_MULTICASTIPADDRESS_TABLE</a> structure that contains a table of anycast IP address entries on the local computer. 
+<a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a> structure that contains a table of anycast IP address entries on the local computer. 
 
 
 ## -returns
@@ -200,13 +201,13 @@ Use
 The <b>GetMulticastIpAddressTable</b> function is defined on Windows Vista and later. 
 
 The  
-<b>GetMulticastIpAddressTable</b> function enumerates the multicast IP addresses on a local system and returns this information in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559281">MIB_MULTICASTIPADDRESS_TABLE</a> structure. 
+<b>GetMulticastIpAddressTable</b> function enumerates the multicast IP addresses on a local system and returns this information in a <a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a> structure. 
 
-The multicast IP address entries are returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559281">MIB_MULTICASTIPADDRESS_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_MULTICASTIPADDRESS_TABLE</b> structure contains a multicast IP address entry count and an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559277">MIB_MULTICASTIPADDRESS_ROW</a> structures for each multicast IP address entry. When these returned structures are no longer required, free the memory by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550045">FreeMibTable</a>.
+The multicast IP address entries are returned in a <a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_MULTICASTIPADDRESS_TABLE</b> structure contains a multicast IP address entry count and an array of <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> structures for each multicast IP address entry. When these returned structures are no longer required, free the memory by calling the <a href="https://msdn.microsoft.com/31c8cdc4-73c7-4e82-8226-c90320046199">FreeMibTable</a>.
 
 The <i>Family</i> parameter must be initialized to either <b>AF_INET</b>,  <b>AF_INET6</b>, or <b>AF_UNSPEC</b>. 
 
-Note that the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff559281">MIB_MULTICASTIPADDRESS_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff559277">MIB_MULTICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_MULTICASTIPADDRESS_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_MULTICASTIPADDRESS_ROW</b> array entries. Any access to a <b>MIB_MULTICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
+Note that the returned <a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_MULTICASTIPADDRESS_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_MULTICASTIPADDRESS_ROW</b> array entries. Any access to a <b>MIB_MULTICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -218,19 +219,19 @@ Note that the returned <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550045">FreeMibTable</a>
+<a href="https://msdn.microsoft.com/31c8cdc4-73c7-4e82-8226-c90320046199">FreeMibTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552565">GetMulticastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/dc6401b6-7692-44a5-b2f0-4e729b996765">GetMulticastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559277">MIB_MULTICASTIPADDRESS_ROW</a>
+<a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559281">MIB_MULTICASTIPADDRESS_TABLE</a>
+<a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a>
  
 
  

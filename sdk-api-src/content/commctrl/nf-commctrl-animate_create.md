@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates an animation control. <b>Animate_Create</b> calls the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> function to create the animation control. 
+Creates an animation control. <b>Animate_Create</b> calls the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> function to create the animation control. 
 
 
 ## -parameters
@@ -76,7 +77,7 @@ The child window identifier of the animation control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-The window styles. For a list of the animation control style values, see <a href="https://msdn.microsoft.com/en-us/library/Bb761886(v=VS.85).aspx">Animation Control Styles</a>. 
+The window styles. For a list of the animation control style values, see <a href="https://msdn.microsoft.com/ad4fc4fd-166d-4871-9f60-5133a48681aa">Animation Control Styles</a>. 
 
 
 ### -param hInstance

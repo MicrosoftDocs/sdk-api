@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-The <b>USB_CONTROLLER_INFO_0</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the USB host controller.
+The <b>USB_CONTROLLER_INFO_0</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the USB host controller.
 
 
 ## -struct-fields
@@ -83,7 +84,7 @@ The number of root hub ports that the host controller has.
 
 ### -field ControllerFlavor
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539250">USB_CONTROLLER_FLAVOR</a>-typed enumerator  that specifies the type of controller.
+A <a href="https://msdn.microsoft.com/c732fe90-50fb-4f6e-b42e-cb35c1ed0091">USB_CONTROLLER_FLAVOR</a>-typed enumerator  that specifies the type of controller.
 
 
 ### -field HcFeatureFlags
@@ -135,7 +136,7 @@ The host controller has a legacy BIOS.
 
 
 
-The <b>USB_CONTROLLER_INFO_0</b> structure is used with the USBUSER_GET_CONTROLLER_INFO_0 user-mode request. For a description of this request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_CONTROLLER_INFO_0</b> structure is used with the USBUSER_GET_CONTROLLER_INFO_0 user-mode request. For a description of this request, see <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>.
 
 
 
@@ -145,11 +146,11 @@ The <b>USB_CONTROLLER_INFO_0</b> structure is used with the USBUSER_GET_CONTROLL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>
+<a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539250">USB_CONTROLLER_FLAVOR</a>
+<a href="https://msdn.microsoft.com/c732fe90-50fb-4f6e-b42e-cb35c1ed0091">USB_CONTROLLER_FLAVOR</a>
  
 
  

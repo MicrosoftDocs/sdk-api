@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -145,7 +146,7 @@ Multiple processes can have handles of the same mutex object, enabling use of th
 
 <ul>
 <li>A child process created by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function can inherit a handle to a mutex object if the <i>lpMutexAttributes</i> parameter of 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function can inherit a handle to a mutex object if the <i>lpMutexAttributes</i> parameter of 
 <b>CreateMutex</b> enabled inheritance. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify the handle to a mutex object in a call to the <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function to create a duplicate handle that can be used by another process. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify a named mutex in a call to the 
@@ -178,7 +179,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 
@@ -186,11 +187,11 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>
+<a href="https://msdn.microsoft.com/eca0795a-1fd0-4034-9d61-9416670919cf">Mutex Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557762">Object Names</a>
+<a href="https://msdn.microsoft.com/00a00227-45fc-49a1-8ff5-aeccb172d16a">Object Names</a>
 
 
 

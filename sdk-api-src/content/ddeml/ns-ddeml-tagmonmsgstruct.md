@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddeml.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -109,7 +110,7 @@ The <b>lParam</b> parameter of the DDE message.
 
 ### -field dmhd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms648732(v=VS.85).aspx">DDEML_MSG_HOOK_DATA</a></b>
+Type: <b><a href="https://msdn.microsoft.com/d556c210-8a4a-4e43-a596-3350a89609fe">DDEML_MSG_HOOK_DATA</a></b>
 
 Additional information about the DDE message. 
 
@@ -123,31 +124,31 @@ Additional information about the DDE message.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648732(v=VS.85).aspx">DDEML_MSG_HOOK_DATA</a>
+<a href="https://msdn.microsoft.com/d556c210-8a4a-4e43-a596-3350a89609fe">DDEML_MSG_HOOK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648733(v=VS.85).aspx">MONCBSTRUCT</a>
+<a href="https://msdn.microsoft.com/65bea5e0-ab86-4e00-9dbf-9809aab18616">MONCBSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648734(v=VS.85).aspx">MONCONVSTRUCT</a>
+<a href="https://msdn.microsoft.com/24fe9042-7b9f-4139-a9b5-d8c72529d897">MONCONVSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
+<a href="https://msdn.microsoft.com/4e7647a0-c41e-4ec9-b441-01538e83aca3">MONERRSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
+<a href="https://msdn.microsoft.com/d5c6b5f8-e999-4f79-bf7c-b7d74a3e9b46">MONHSZSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
+<a href="https://msdn.microsoft.com/db02a191-677b-4fae-88ec-c2b500249837">MONLINKSTRUCT</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,9 +69,9 @@ A pointer to a null-terminated, Unicode string that specifies the extension.
 
 ### -param pPropStore [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> interface that defines the default properties to add.
+A pointer to the <a href="shell.IPropertyStore">IPropertyStore</a> interface that defines the default properties to add.
 
 
 ## -returns

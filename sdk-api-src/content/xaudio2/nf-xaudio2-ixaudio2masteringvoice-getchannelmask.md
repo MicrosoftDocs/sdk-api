@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Returns the channel mask for this voice.
 
 #### - pChannelMask [out]
 
-Returns the channel mask for this voice. This corresponds to the <b>dwChannelMask</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a> structure. 
+Returns the channel mask for this voice. This corresponds to the <b>dwChannelMask</b> member of the  <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a> structure. 
 
 
 
@@ -85,7 +86,7 @@ This method does not return a value.
 
 
 
-The <i>pChannelMask</i> argument is a bit-mask of the various channels in the speaker geometry reported by the audio system. This information is needed for the <a href="https://msdn.microsoft.com/en-us/library/Ee419053(v=VS.85).aspx">X3DAudioInitialize</a> <i>SpeakerChannelMask</i> parameter.
+The <i>pChannelMask</i> argument is a bit-mask of the various channels in the speaker geometry reported by the audio system. This information is needed for the <a href="https://msdn.microsoft.com/20f3d374-60bd-4a8c-8bd2-32e3be729779">X3DAudioInitialize</a> <i>SpeakerChannelMask</i> parameter.
 
 
 
@@ -126,7 +127,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415912(v=VS.85).aspx">IXAudio2MasteringVoice</a>
+<a href="https://msdn.microsoft.com/96D8A15E-5090-4D67-982D-ACE99CEC4379">IXAudio2MasteringVoice</a>
  
 
  

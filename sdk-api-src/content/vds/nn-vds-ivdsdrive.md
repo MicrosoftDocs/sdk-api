@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -83,7 +84,7 @@ Clears all flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/31556be6-ff03-492f-a7a6-dec37a63e88d">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of the drive.
@@ -110,7 +111,7 @@ Returns an array of extents on a drive, including both allocated and unallocated
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets flags on a drive object.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -128,7 +129,7 @@ Provides extended functionality each time a file is transferred from the image s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>
+<a href="https://msdn.microsoft.com/fb22709a-c1f8-4608-b984-46181e7c704e">EndSession</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when an acquisition session is completed.
@@ -251,7 +252,7 @@ Provides extended functionality when the percentage of items transferred changes
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
  
 
  

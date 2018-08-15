@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IEnumFeedClockVector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/ad2664d2-c36c-46bf-9f80-001c2e5d4251">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -82,7 +83,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/2303fac8-21ae-44df-8e47-9fe0fa88d90b">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next elements in the clock vector, if available.
@@ -92,7 +93,7 @@ Returns the next elements in the clock vector, if available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/dbd25148-b734-49a2-b8ad-9ded9d1a0bf2">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the clock vector.
@@ -102,7 +103,7 @@ Resets the enumerator to the beginning of the clock vector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/eabe3389-2c1f-4b0e-a062-24bbe3fa87f9">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of clock vector elements.

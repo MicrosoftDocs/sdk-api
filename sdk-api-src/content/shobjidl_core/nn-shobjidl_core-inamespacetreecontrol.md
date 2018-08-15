@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -110,7 +111,7 @@ Gets the state of the checkbox associated with a given Shell item.
 <a href="https://msdn.microsoft.com/57e7707c-0fe2-4cde-87d8-2d58e7c06bba">GetItemRect</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the size and position of a given item.
+Gets the <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the size and position of a given item.
 
 </td>
 </tr>
@@ -161,7 +162,7 @@ Retrieves the item that a given point is in, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/dfc602bd-6e4e-492d-8bf4-1499319adee7">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>INameSpaceTreeControl</b> object.

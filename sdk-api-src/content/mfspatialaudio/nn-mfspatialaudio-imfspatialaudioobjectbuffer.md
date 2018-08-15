@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IMFSpatialAudioObjectBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/5BB0DEB2-B3B9-4723-973D-A9296D94DDE6">GetID</a>
 </td>
 <td align="left" width="63%">
 Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
@@ -96,10 +97,10 @@ Retrieves a pointer to a buffer that may
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/CF0285D2-E56B-44A5-B7E0-3227213D9523">GetType</a>
 </td>
 <td align="left" width="63%">
-Gets the type of the spatial audio object represented by the buffer. If <a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
+Gets the type of the spatial audio object represented by the buffer. If <a href="https://msdn.microsoft.com/3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
 
 </td>
 </tr>
@@ -114,7 +115,7 @@ Sets the ID of the spatial audio object represented by the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
+<a href="https://msdn.microsoft.com/3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of the spatial audio object represented by the buffer.

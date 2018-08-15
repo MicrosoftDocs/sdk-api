@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -95,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Only use this method if the context type is <a href="https://msdn.microsoft.com/en-us/library/Ee719815(v=VS.85).aspx">WICColorContextProfile</a>.
+Only use this method if the context type is <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a>.
 
 
 Calling this method with <i>pbBuffer</i> set to <b>NULL</b> will cause it to return the required buffer size in <i>pcbActual</i>.

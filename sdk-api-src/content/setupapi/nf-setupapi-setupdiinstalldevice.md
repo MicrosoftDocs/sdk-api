@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiInstallDevice</b> function is the default handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a> installation request. 
+The <b>SetupDiInstallDevice</b> function is the default handler for the <a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a> installation request. 
 
 
 ## -parameters
@@ -66,7 +67,7 @@ A handle to the <a href="devinst.device_information_sets">device information set
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
 
 
 ## -returns
@@ -128,7 +129,7 @@ Possibly perform the other file operations, based on flag settings in the device
 
 If the DI_NOFILECOPY flag and the DI_NOVCP flag are <i>clear</i>, perform any file operations specified in the <i>DDInstall </i>section. If the DI_NOVCP flag is set, queue any file operations. 
 
-If the DI_NOFILECOPY flag is set, do not copy the files. This flag might be set if, for example, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543694">DIF_INSTALLDEVICEFILES</a> operation was already performed for this device installation. 
+If the DI_NOFILECOPY flag is set, do not copy the files. This flag might be set if, for example, a <a href="https://msdn.microsoft.com/544a9a88-156e-494d-9ef0-8070addfa86b">DIF_INSTALLDEVICEFILES</a> operation was already performed for this device installation. 
 
 </li>
 <li>
@@ -136,21 +137,21 @@ Load the drivers for the device. This includes the function driver and any upper
 
 </li>
 <li>
-Call the drivers' <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+Call the drivers' <a href="https://msdn.microsoft.com/e6552c34-9310-4e26-9bcb-7b78d9e24480">AddDevice</a> routines.
 
 </li>
 <li>
-Start the device by sending an  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> I/O request packet (IRP).
+Start the device by sending an  <a href="https://msdn.microsoft.com/0aac1346-b5c7-4dcc-ab86-03e8fd151505">IRP_MN_START_DEVICE</a> I/O request packet (IRP).
 
 </li>
 </ul>
-Windows does not start the device if the DI_NEEDRESTART, DI_NEEDREBOOT, or DI_DONOTCALLCONFIGMG flag is set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure.
+Windows does not start the device if the DI_NEEDRESTART, DI_NEEDREBOOT, or DI_DONOTCALLCONFIGMG flag is set in the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure.
 
-A class installer should return ERROR_DI_DO_DEFAULT or call this function when handling a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a> request. This function performs many tasks for device installation and that list of tasks might be expanded in future releases. If a class installer performs device installation without calling this function, the class installer might not work correctly on future versions of the operating system. 
+A class installer should return ERROR_DI_DO_DEFAULT or call this function when handling a <a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a> request. This function performs many tasks for device installation and that list of tasks might be expanded in future releases. If a class installer performs device installation without calling this function, the class installer might not work correctly on future versions of the operating system. 
 
-If Windows cannot locate an INF file for the device, it will send DIF_INSTALLDEVICE in an attempt to install a <a href="https://msdn.microsoft.com/50c44afb-5b6b-44cb-90dd-d7ae83b2d991">null driver</a>. <b>SetupDiInstallDevice</b> installs a null driver only if the device supports <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raw mode</a> or is a non-PnP device (reported by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549597">IoReportDetectedDevice</a>). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a>.
+If Windows cannot locate an INF file for the device, it will send DIF_INSTALLDEVICE in an attempt to install a <a href="https://msdn.microsoft.com/50c44afb-5b6b-44cb-90dd-d7ae83b2d991">null driver</a>. <b>SetupDiInstallDevice</b> installs a null driver only if the device supports <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raw mode</a> or is a non-PnP device (reported by <a href="https://msdn.microsoft.com/b7756f69-feab-4a28-88d5-0262f86db54b">IoReportDetectedDevice</a>). For more information, see <a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a>.
 
-If the DI_FLAGSEX_SETFAILEDINSTALL flag is set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure, <b>SetupDiInstallDevice</b> just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value.
+If the DI_FLAGSEX_SETFAILEDINSTALL flag is set in the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure, <b>SetupDiInstallDevice</b> just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value.
 
 <div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiInstallDevice</b> and only in those situations where the class installer must perform device installation operations after <b>SetupDiInstallDevice</b> completes the default device installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDevice</b> when the installer processes a DIF_INSTALLDEVICE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
@@ -164,15 +165,15 @@ The caller of <b>SetupDiInstallDevice</b> must be a member of the Administrators
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543692">DIF_INSTALLDEVICE</a>
+<a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552048">SetupDiInstallDriverFiles</a>
+<a href="https://msdn.microsoft.com/55abcdd1-a33e-4100-a3dd-4d3a31158004">SetupDiInstallDriverFiles</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows UI
 ## -description
 
 
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message string for a component.
+Sets a <a href="vssgloss_p.htm">PostSnapshot</a> failure message string for a component.
 
 This method can only be called by a writer's <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a> method.
 
@@ -65,7 +66,7 @@ This method can only be called by a writer's <a href="https://msdn.microsoft.com
 ### -param wszFailureMsg [in]
 
 The address of a caller-allocated <b>NULL</b>-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> 
+      while processing a <a href="vssgloss_p.htm">PostSnapshot</a> 
       event.
 
 

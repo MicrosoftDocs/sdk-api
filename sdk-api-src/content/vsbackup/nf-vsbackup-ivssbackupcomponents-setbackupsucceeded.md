@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -109,15 +110,15 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
 
 
 
+#### - bSucceeded [in]
+
+Set this parameter to <b>true</b> if the component was successfully backed up, or <b>false</b> otherwise.
+
+
 #### - componentType [in]
 
 Type of the component. See 
 <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
-
-
-#### - bSucceeded [in]
-
-Set this parameter to <b>true</b> if the component was successfully backed up, or <b>false</b> otherwise.
 
 
 ## -returns

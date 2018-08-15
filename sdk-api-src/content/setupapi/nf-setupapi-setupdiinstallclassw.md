@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -106,9 +107,9 @@ Set this flag to suppress the user interface unless absolutely necessary. For ex
 If the DI_NOVCP flag is set, this parameter supplies a handle to a file queue where file operations should be queued but not committed.
 
 
-##### - Flags.DI_NOVCP
+##### - Flags.DI_FORCECOPY
 
-Set this flag if <i>FileQueue</i> is supplied. DI_NOVCP instructs the <b>SetupInstallFromInfSection</b> function (described in Microsoft Windows SDK documentation) not to create a queue of its own and to use the caller-supplied queue instead. If this flag is set, files are not copied just queued. 
+Set this flag to always copy files, even if they are already present on the user's computer. If the caller supplies a file queue, this flag is ignored.
 
 
 ##### - Flags.DI_NOBROWSE
@@ -116,9 +117,9 @@ Set this flag if <i>FileQueue</i> is supplied. DI_NOVCP instructs the <b>SetupIn
 Set this flag to disable browsing if a copy operation cannot find a specified file. If the caller supplies a file queue, this flag is ignored.
 
 
-##### - Flags.DI_FORCECOPY
+##### - Flags.DI_NOVCP
 
-Set this flag to always copy files, even if they are already present on the user's computer. If the caller supplies a file queue, this flag is ignored.
+Set this flag if <i>FileQueue</i> is supplied. DI_NOVCP instructs the <b>SetupInstallFromInfSection</b> function (described in Microsoft Windows SDK documentation) not to create a queue of its own and to use the caller-supplied queue instead. If this flag is set, files are not copied just queued. 
 
 
 ##### - Flags.DI_QUIETINSTALL
@@ -143,7 +144,7 @@ The caller of this function must be a member of the Administrators group.
 
 This function is called by a class installer when it installs a device of a new device class.
 
-To install an interface class or a device class, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552032">SetupDiInstallClassEx</a>.
+To install an interface class or a device class, use <a href="https://msdn.microsoft.com/72ab3fb4-dc4f-439a-87ed-4f4ad061d03a">SetupDiInstallClassEx</a>.
 
 
 
@@ -153,11 +154,11 @@ To install an interface class or a device class, use <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552032">SetupDiInstallClassEx</a>
+<a href="https://msdn.microsoft.com/72ab3fb4-dc4f-439a-87ed-4f4ad061d03a">SetupDiInstallClassEx</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -134,9 +135,9 @@ The queue receives a notification when a new
 ### -field CLUSTER_CHANGE_RESOURCE_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a>, 
+       <a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">properties</a>, 
        <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a>, or 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a> nodes of a resource change.
+       <a href="p_gly.htm">possible owner</a> nodes of a resource change.
 
 
 ### -field CLUSTER_CHANGE_GROUP_STATE
@@ -152,14 +153,14 @@ The queue receives a notification when an existing group is deleted.
 
 ### -field CLUSTER_CHANGE_GROUP_ADDED
 
-The queue receives a notification when a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> is created 
+The queue receives a notification when a new <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> is created 
        in the cluster.
 
 
 ### -field CLUSTER_CHANGE_GROUP_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a> of a group change or when a 
+       <a href="https://msdn.microsoft.com/bc13356c-06d8-400e-9fe0-3afbda4f228a">properties</a> of a group change or when a 
        <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> is added or removed from a group.
 
 
@@ -177,7 +178,7 @@ The queue receives a notification when a new
 ### -field CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a> of a resource type 
+       <a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">properties</a> of a resource type 
        change.
 
 
@@ -206,7 +207,7 @@ The queue receives a notification when a new
 ### -field CLUSTER_CHANGE_NETWORK_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a> of an existing network change.
+       <a href="https://msdn.microsoft.com/9a59f372-0d09-4dba-adcf-38c7f2a8e006">properties</a> of an existing network change.
 
 
 ### -field CLUSTER_CHANGE_NETINTERFACE_STATE
@@ -231,7 +232,7 @@ The queue receives a notification when a new
 ### -field CLUSTER_CHANGE_NETINTERFACE_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a> of an existing network 
+       <a href="https://msdn.microsoft.com/4641238d-4b9e-40c7-9d5e-751d69be1912">properties</a> of an existing network 
        interface change.
 
 

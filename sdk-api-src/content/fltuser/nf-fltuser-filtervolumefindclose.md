@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FilterVolumeFindClose</b> function closes the specified volume search handle. <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a> use this search handle to locate volumes. 
+The <b>FilterVolumeFindClose</b> function closes the specified volume search handle. <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a> and <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> use this search handle to locate volumes. 
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>FilterVolumeFindClose</b> function closes the specified volume search han
 
 ### -param hVolumeFind [in]
 
-Volume search handle to close. This handle must have been previously opened by <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>. 
+Volume search handle to close. This handle must have been previously opened by <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>. 
 
 
 ## -returns
@@ -77,7 +78,7 @@ Volume search handle to close. This handle must have been previously opened by <
 
 
 
-After the <b>FilterVolumeFindClose</b> function is called, the handle specified by the <i>hVolumeFind</i> parameter cannot be used in subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a> or <b>FilterVolumeFindClose</b>. 
+After the <b>FilterVolumeFindClose</b> function is called, the handle specified by the <i>hVolumeFind</i> parameter cannot be used in subsequent calls to <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> or <b>FilterVolumeFindClose</b>. 
 
 
 
@@ -87,11 +88,11 @@ After the <b>FilterVolumeFindClose</b> function is called, the handle specified 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
+<a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
+<a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a>
  
 
  

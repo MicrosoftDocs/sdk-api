@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -76,7 +77,7 @@ Any optional constraints to be put on the profile.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to the <a href="https://msdn.microsoft.com/en-us/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a> containing the sensor profile.
+On success, returns a double pointer to the <a href="mf.imfsensorprofile">IMFSensorProfile</a> containing the sensor profile.
 
 
 ## -returns

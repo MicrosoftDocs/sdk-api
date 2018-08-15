@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -150,16 +151,16 @@ The rebuild priority of the LUNs that belong to the subsystem. This value can ra
 The number of enclosures in the subsystem. The default value for this member is zero. A value of zero indicates that this property is not available for this subsystem.
 
 
-##### - health.VDS_H_UNKNOWN (0)
-
-
-##### - health.VDS_H_HEALTHY (1)
+##### - health.VDS_H_DEGRADED (11)
 
 
 ##### - health.VDS_H_FAILED (8)
 
 
-##### - health.VDS_H_DEGRADED (11)
+##### - health.VDS_H_HEALTHY (1)
+
+
+##### - health.VDS_H_UNKNOWN (0)
 
 
 ## -remarks

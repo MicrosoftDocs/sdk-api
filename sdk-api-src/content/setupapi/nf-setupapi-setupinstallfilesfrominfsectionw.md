@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -133,7 +134,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
@@ -237,9 +238,40 @@ Deletes the source file when the copy task succeeds.
 The caller is not notified if a delete task fails.
 
 
-##### - CopyFlags.SP_COPY_REPLACEONLY
+##### - CopyFlags.SP_COPY_FORCE_IN_USE
 
-Copies a file only to overwrite a file at the destination path.
+Queues the file for copying on the next system reboot, if the target exists and is being used.
+
+
+##### - CopyFlags.SP_COPY_FORCE_NEWER
+
+Examines each file that is being copied to identify that its version resources (or time stamps for non-image files) indicate that it is not newer than an existing copy on the target. 
+
+If the file that is being copied is not newer, the file is not copied, and the caller is not notified.
+
+
+##### - CopyFlags.SP_COPY_FORCE_NOOVERWRITE
+
+Checks to determine whether or not the target file exists, and if the target exists, the file is not overwritten and the caller is not notified.
+
+
+##### - CopyFlags.SP_COPY_IN_USE_NEEDS_REBOOT
+
+Alerts the user that the system needs to be rebooted, if the file is being used during a copy operation.
+
+
+##### - CopyFlags.SP_COPY_LANGUAGEAWARE
+
+Examines each file that is being copied to determine whether or not the language is different from the language of any existing file already on the target. 
+
+If the language  is different, the function notifies the caller who can cancel the copy task. 
+
+
+##### - CopyFlags.SP_COPY_NEWER_ONLY
+
+Examines each file that is being copied to determine whether its version resources indicate that it is not newer than an existing copy on the target. 
+
+If the source file is newer but not equal in version to the existing target, the file is copied.
 
 
 ##### - CopyFlags.SP_COPY_NEWER_OR_SAME
@@ -252,23 +284,9 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
-
-
-##### - CopyFlags.SP_COPY_NEWER_ONLY
-
-Examines each file that is being copied to determine whether its version resources indicate that it is not newer than an existing copy on the target. 
-
-If the source file is newer but not equal in version to the existing target, the file is copied.
-
-
-##### - CopyFlags.SP_COPY_NOOVERWRITE
-
-Checks to determine whether or not the target file exists.  
-
-If the target file exists, the function notifies the caller who can cancel the copy.
 
 
 ##### - CopyFlags.SP_COPY_NODECOMP
@@ -282,18 +300,21 @@ When this flag is set, the target file is not given the uncompressed form of the
 The filename part of DestinationName, if specified, is deleted and replaced with the filename of the source file. When SP_COPY_NODECOMP is specified, language and version information cannot be checked.
 
 
-##### - CopyFlags.SP_COPY_LANGUAGEAWARE
+##### - CopyFlags.SP_COPY_NOOVERWRITE
 
-Examines each file that is being copied to determine whether or not the language is different from the language of any existing file already on the target. 
+Checks to determine whether or not the target file exists.  
 
-If the language  is different, the function notifies the caller who can cancel the copy task. 
+If the target file exists, the function notifies the caller who can cancel the copy.
 
 
-##### - CopyFlags.SP_COPY_SOURCE_ABSOLUTE
+##### - CopyFlags.SP_COPY_NOSKIP
 
-SourceFile is a full source path. 
+Does not give the user the option to skip a file.
 
-Do not look it up in the SourceDisksNames section of the INF file.
+
+##### - CopyFlags.SP_COPY_REPLACEONLY
+
+Copies a file only to overwrite a file at the destination path.
 
 
 ##### - CopyFlags.SP_COPY_SOURCEPATH_ABSOLUTE
@@ -303,31 +324,11 @@ SourcePathRoot is the full path part of the source file.
 Ignore the relative source that is specified in the SourceDisksNames section of the INF file for the source media where the file is located. This flag is ignored if SP_COPY_SOURCE_ABSOLUTE is specified.
 
 
-##### - CopyFlags.SP_COPY_FORCE_IN_USE
+##### - CopyFlags.SP_COPY_SOURCE_ABSOLUTE
 
-Queues the file for copying on the next system reboot, if the target exists and is being used.
+SourceFile is a full source path. 
 
-
-##### - CopyFlags.SP_COPY_IN_USE_NEEDS_REBOOT
-
-Alerts the user that the system needs to be rebooted, if the file is being used during a copy operation.
-
-
-##### - CopyFlags.SP_COPY_NOSKIP
-
-Does not give the user the option to skip a file.
-
-
-##### - CopyFlags.SP_COPY_FORCE_NOOVERWRITE
-
-Checks to determine whether or not the target file exists, and if the target exists, the file is not overwritten and the caller is not notified.
-
-
-##### - CopyFlags.SP_COPY_FORCE_NEWER
-
-Examines each file that is being copied to identify that its version resources (or time stamps for non-image files) indicate that it is not newer than an existing copy on the target. 
-
-If the file that is being copied is not newer, the file is not copied, and the caller is not notified.
+Do not look it up in the SourceDisksNames section of the INF file.
 
 
 ##### - CopyFlags.SP_COPY_WARNIFSKIP
@@ -367,7 +368,7 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

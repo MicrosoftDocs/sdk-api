@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -60,12 +61,12 @@ Returns the name of a cluster's  <a href="https://msdn.microsoft.com/4c2ee30e-4d
 
 ### -param hCluster [in]
 
-Handle to an existing <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+Handle to an existing <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszResourceName [out]
 
-Pointer to a null-terminated Unicode string containing the name of the cluster's quorum resource. The name is read from the quorum resource's  <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> common property. Do not pass <b>NULL</b> for this parameter.
+Pointer to a null-terminated Unicode string containing the name of the cluster's quorum resource. The name is read from the quorum resource's  <a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a> common property. Do not pass <b>NULL</b> for this parameter.
 
 
 ### -param lpcchResourceName [in, out]
@@ -114,7 +115,7 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a>
 
 
 

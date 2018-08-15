@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -128,9 +129,9 @@ If <i>ReturnBuffer</i> is specified and the size needed is larger than <i>Return
 
 
 
-##### - SearchControl.INFINFO_INF_SPEC_IS_HINF
+##### - SearchControl.INFINFO_DEFAULT_SEARCH
 
-<i>InfSpec</i> is an INF handle. A single INF handle may reference multiple INF files if they have been append-loaded together. If it does, the structure returned by this function contains multiple sets of information.
+Search the default locations for the INF file specified for <i>InfSpec</i>, which is assumed to be a filename only. The default locations are <i>%windir%</i>\<i>inf</i>, followed by <i>%windir%</i>\<i>system32</i>.
 
 
 ##### - SearchControl.INFINFO_INF_NAME_IS_ABSOLUTE
@@ -138,19 +139,19 @@ If <i>ReturnBuffer</i> is specified and the size needed is larger than <i>Return
 The string specified for <i>InfSpec</i> is a full path. No further processing is performed on <i>InfSpec</i>.
 
 
-##### - SearchControl.INFINFO_DEFAULT_SEARCH
+##### - SearchControl.INFINFO_INF_PATH_LIST_SEARCH
 
-Search the default locations for the INF file specified for <i>InfSpec</i>, which is assumed to be a filename only. The default locations are <i>%windir%</i>\<i>inf</i>, followed by <i>%windir%</i>\<i>system32</i>.
+Search for the INF in each of the directories listed in the <i>DevicePath</i> value entry under the following:<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</b>
+
+
+##### - SearchControl.INFINFO_INF_SPEC_IS_HINF
+
+<i>InfSpec</i> is an INF handle. A single INF handle may reference multiple INF files if they have been append-loaded together. If it does, the structure returned by this function contains multiple sets of information.
 
 
 ##### - SearchControl.INFINFO_REVERSE_DEFAULT_SEARCH
 
 Same as INFINFO_DEFAULT_SEARCH, except the default locations are searched in reverse order.
-
-
-##### - SearchControl.INFINFO_INF_PATH_LIST_SEARCH
-
-Search for the INF in each of the directories listed in the <i>DevicePath</i> value entry under the following:<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</b>
 
 
 ## -returns
@@ -182,7 +183,7 @@ If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBuffer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

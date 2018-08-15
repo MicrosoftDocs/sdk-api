@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -71,7 +72,7 @@ Reference to the requested interface ID.
 
 Type: <b>void**</b>
 
-When this function returns, contains a pointer to the desired interface, typically <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>.
+When this function returns, contains a pointer to the desired interface, typically <a href="shell.IPropertyStore">IPropertyStore</a> or <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>.
 
 
 ## -returns
@@ -89,9 +90,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function creates an in-memory property store object that implements <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>, <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="shell.IPropertyStoreCache">IPropertyStoreCache</a>, <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>, <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>, and <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>.
+This function creates an in-memory property store object that implements <a href="shell.IPropertyStore">IPropertyStore</a>, <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="shell.IPropertyStoreCache">IPropertyStoreCache</a>, <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>, <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>, and <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>.
 
-The memory property store does not correspond to a file and is designed for use as a cache. <a href="https://msdn.microsoft.com/library/windows/hardware/ff536957">IPropertyStore::Commit</a> is a no-op, and the data stored in the object persists only as long as the object does.
+The memory property store does not correspond to a file and is designed for use as a cache. <a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a> is a no-op, and the data stored in the object persists only as long as the object does.
 
 The memory property store is thread safe. It aggregates the free-threaded marshaller and uses critical sections to protect its data members.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -91,19 +92,19 @@ Length of the <i>InputBuffer</i> in bytes. If the buffer is not supplied, then t
 Length of the <i>OutputBuffer</i> in bytes. If the buffer is not supplied, then this value is ignored.
 
 
-#### - Event [in]
+#### - ApcContext [in]
 
-A handle to an event to be set to the <code>signaled</code> state when the operation completes. This parameter can be <b>NULL</b>.
+A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parameter is required if an <i>ApcRoutine</i> is specified.
 
 
 #### - ApcRoutine [in]
 
-Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540625">Asynchronous Procedure Calls</a>. 
+Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Calls</a>. 
 
 
-#### - ApcContext [in]
+#### - Event [in]
 
-A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parameter is required if an <i>ApcRoutine</i> is specified.
+A handle to an event to be set to the <code>signaled</code> state when the operation completes. This parameter can be <b>NULL</b>.
 
 
 #### - InputBuffer [in]
@@ -166,7 +167,7 @@ Because there is no import library for this function, you must use <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540625">Asynchronous Procedure Calls</a>
+<a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Calls</a>
  
 
  

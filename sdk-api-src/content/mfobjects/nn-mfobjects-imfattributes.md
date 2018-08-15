@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -76,7 +77,7 @@ The <b>IMFAttributes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
+<a href="https://msdn.microsoft.com/1d0c9d1c-448d-4851-b183-94b04acb2ab5">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares the attributes on this object with the attributes on another object.
@@ -157,7 +158,7 @@ Retrieves the length of a byte array associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/5f511d5c-249c-4311-8380-a932a755eaaf">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes that are set on this object.
@@ -211,7 +212,7 @@ Retrieves the data type of the value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/756d8fba-d372-46f9-8035-f657d7ff133f">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a wide-character string associated with a key.
@@ -301,7 +302,7 @@ Associates an attribute value with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
+<a href="https://msdn.microsoft.com/51d2a2a0-92cb-49e0-b4a9-7201e9d92322">SetString</a>
 </td>
 <td align="left" width="63%">
 Associates a wide-character string with a key.

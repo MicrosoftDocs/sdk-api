@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 Sets the date and time value at a specified property to a given 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
+    <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
 
 
 ## -parameters
@@ -76,10 +77,10 @@ CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param ftDateTime [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
+Type: <b><a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure to use for date. 
+<a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure to use for date. 
 
 
 ## -returns

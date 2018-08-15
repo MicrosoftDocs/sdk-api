@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -98,7 +99,7 @@ Uninstalls a set of disks.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597669">Service Object</a>
+<a href="startup_and_service_objects.htm">Service Object</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -3686,6 +3687,15 @@ Specifies debug message IDs for setting up an info-queue filter
 
 
 ### -field D3D12_MESSAGE_ID_RENDER_PASS_NO_SUBSEQUENT_RESUME_WITHIN_EXECUTECOMMANDLISTS
+
+
+### -field D3D12_MESSAGE_ID_TRACKED_WORKLOAD_COMMAND_QUEUE_MISMATCH
+
+
+### -field D3D12_MESSAGE_ID_TRACKED_WORKLOAD_NOT_SUPPORTED
+
+
+### -field D3D12_MESSAGE_ID_RENDER_PASS_MISMATCHING_NO_ACCESS
 
 
 ### -field D3D12_MESSAGE_ID_D3D12_MESSAGES_END

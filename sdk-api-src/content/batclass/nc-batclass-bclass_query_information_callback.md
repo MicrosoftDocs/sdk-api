@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -243,15 +244,15 @@ If <i>Level</i> specifies <b>BatteryUniqueId</b>, the miniclass driver must retu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536283">BATTERY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/e9326d96-bd96-4493-a0b2-abe6b8f2401a">BATTERY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536284">BATTERY_MANUFACTURE_DATE</a>
+<a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536289">BATTERY_REPORTING_SCALE</a>
+<a href="https://msdn.microsoft.com/aea1d82d-39b8-4535-a5c3-fb987be1e43c">BATTERY_REPORTING_SCALE</a>
  
 
  

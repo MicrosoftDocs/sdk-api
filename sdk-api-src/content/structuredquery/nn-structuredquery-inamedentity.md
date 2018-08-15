@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>INamedEntity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231362(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://msdn.microsoft.com/b502c6fd-6b17-4abf-9a88-0ba168ff41f3">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
 Retrieves a default phrase to use for this named entity in restatements.
@@ -80,7 +81,7 @@ Retrieves a default phrase to use for this named entity in restatements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/d12bd497-2fb9-41be-933d-ab97f3420522">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of this named entity as a string.

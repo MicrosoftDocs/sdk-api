@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -69,7 +70,7 @@ The
 <b>IWbemServices::CancelAsyncCall</b> method cancels any currently pending asynchronous calls based on the 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> pointer, which was  originally passed to the asynchronous method. The outstanding 
 <b>IWbemObjectSink</b> pointer can be released prior to the call or after the call returns. The 
-<b>CancelAsyncCall</b> method is not operational from within a sink and is not supported by method providers. This means only the client end of the call is canceled. The implementing provider is not notified that the call was canceled and runs to completion. You should consider this before canceling methods that take a long time to complete, such as the <a href="https://msdn.microsoft.com/f4782327-0cc6-447e-bc27-7b2042075fb0">Defrag</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn922919">Format</a> methods in the <a href="https://msdn.microsoft.com/71991c97-0e9a-4a0e-a6d6-ee8df263c23d">Win32_Volume</a> class.
+<b>CancelAsyncCall</b> method is not operational from within a sink and is not supported by method providers. This means only the client end of the call is canceled. The implementing provider is not notified that the call was canceled and runs to completion. You should consider this before canceling methods that take a long time to complete, such as the <a href="https://msdn.microsoft.com/f4782327-0cc6-447e-bc27-7b2042075fb0">Defrag</a> and <a href="https://msdn.microsoft.com/b8c325d7-3d78-4989-8209-2dad359ca9bb">Format</a> methods in the <a href="https://msdn.microsoft.com/71991c97-0e9a-4a0e-a6d6-ee8df263c23d">Win32_Volume</a> class.
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,9 +52,9 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>NCB</b> structure represents a network control block. It contains information about the command to perform, an optional post routine, an optional event handle, and a pointer to a buffer that is used for messages or other data. A pointer to this structure is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function. 
+The <b>NCB</b> structure represents a network control block. It contains information about the command to perform, an optional post routine, an optional event handle, and a pointer to a buffer that is used for messages or other data. A pointer to this structure is passed to the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function. 
 
 
 
@@ -435,7 +436,7 @@ Specifies the return code. This value is set to NRC_PENDING while an asynchronou
 <td>
 The NCB DDID was invalid.
 
-This return code is not part of the IBM NetBIOS 3.0 specification and is not returned in the <b>NCB</b> structure. Instead, it is returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function.
+This return code is not part of the IBM NetBIOS 3.0 specification and is not returned in the <b>NCB</b> structure. Instead, it is returned by the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function.
 
 </td>
 </tr>
@@ -461,14 +462,14 @@ This return code is not part of the IBM NetBIOS 3.0 specification and is not ret
 
 ### -field ncb_lsn
 
-Identifies the local session number. This number uniquely identifies a session within an environment. This number is returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function after a successful NCBCALL command. 
+Identifies the local session number. This number uniquely identifies a session within an environment. This number is returned by the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function after a successful NCBCALL command. 
 
 
 ### -field ncb_num
 
-Specifies the number for the local network name. This number is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> after a successful <b>NCBADDNAME</b> or <b>NCBADDGRNAME</b> command. This number, not the name, must be used with all datagram commands and for <b>NCBRECVANY</b> commands.
+Specifies the number for the local network name. This number is returned by <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> after a successful <b>NCBADDNAME</b> or <b>NCBADDGRNAME</b> command. This number, not the name, must be used with all datagram commands and for <b>NCBRECVANY</b> commands.
 
-The number for <b>NAME_NUMBER_1</b> is always 0x01. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function assigns values in the range 0x02 to 0xFE for the remaining names.
+The number for <b>NAME_NUMBER_1</b> is always 0x01. The <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function assigns values in the range 0x02 to 0xFE for the remaining names.
 
 
 ### -field ncb_buffer
@@ -498,9 +499,9 @@ Pointer to the message buffer. The buffer must have write access. Its uses are a
 
 ### -field ncb_length
 
-Specifies the size, in bytes, of the message buffer. For receive commands, this member is set by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function to indicate the number of bytes received.
+Specifies the size, in bytes, of the message buffer. For receive commands, this member is set by the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function to indicate the number of bytes received.
 
-If the buffer length is incorrect, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function returns the <b>NRC_BUFLEN</b> error code.
+If the buffer length is incorrect, the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function returns the <b>NRC_BUFLEN</b> error code.
 
 
 ### -field ncb_callname
@@ -557,9 +558,9 @@ The length, X,  of the <b>ncb_reserve</b>  array is dependent upon the system ar
 
 ### -field ncb_event
 
-Specifies a handle to an event object that is set to the nonsignaled state when an asynchronous command is accepted, and it is set to the signaled state when the asynchronous command is completed. The event is signaled if the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> function returns a nonzero value. Only manual reset events should be used for synchronization. A specified event should not be associated with more than one active asynchronous command.
+Specifies a handle to an event object that is set to the nonsignaled state when an asynchronous command is accepted, and it is set to the signaled state when the asynchronous command is completed. The event is signaled if the <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> function returns a nonzero value. Only manual reset events should be used for synchronization. A specified event should not be associated with more than one active asynchronous command.
 
-The <b>ncb_event</b> member must be zero if the <b>ncb_command</b> member does not have the <b>ASYNCH</b> flag set or if <b>ncb_post</b> is nonzero. Otherwise, <a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a> returns the <b>NRC_ILLCMD</b> error code.
+The <b>ncb_event</b> member must be zero if the <b>ncb_command</b> member does not have the <b>ASYNCH</b> flag set or if <b>ncb_post</b> is nonzero. Otherwise, <a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a> returns the <b>NRC_ILLCMD</b> error code.
 
 
 ## -remarks
@@ -608,7 +609,7 @@ Using <b>ncb_event</b> to issue asynchronous requests requires fewer system reso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965731">Netbios</a>
+<a href="https://msdn.microsoft.com/3eadbfa7-53de-4c62-b61b-da84b9da58f7">Netbios</a>
 
 
 

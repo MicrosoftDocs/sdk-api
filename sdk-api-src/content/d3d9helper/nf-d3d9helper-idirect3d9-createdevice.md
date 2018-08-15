@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,14 +64,14 @@ Creates a device to represent the display adapter.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Ordinal number that denotes the display adapter. <a href="https://msdn.microsoft.com/en-us/library/Bb172504(v=VS.85).aspx">D3DADAPTER_DEFAULT</a> is always the primary display adapter. 
+Ordinal number that denotes the display adapter. <a href="https://msdn.microsoft.com/76f91917-394a-4588-9c83-c35bddb36b8e">D3DADAPTER_DEFAULT</a> is always the primary display adapter. 
 
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2bcdc476-7c42-4152-b107-58366faf2abd">D3DDEVTYPE</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type that denotes the desired device type. If the desired device type is not available, the method will fail. 
+Member of the <a href="https://msdn.microsoft.com/2bcdc476-7c42-4152-b107-58366faf2abd">D3DDEVTYPE</a> enumerated type that denotes the desired device type. If the desired device type is not available, the method will fail. 
 
 
 ### -param hFocusWindow [in]
@@ -90,14 +91,14 @@ The focus window alerts Direct3D when an application switches from foreground mo
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Combination of one or more options that control device creation. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a>.
+Combination of one or more options that control device creation. For more information, see <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE</a>.
 
 
 ### -param pPresentationParameters [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a> structure, describing the presentation parameters for the device to be created. If BehaviorFlags specifies <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE_ADAPTERGROUP_DEVICE</a>, pPresentationParameters is an array. Regardless of the number of heads that exist, only one depth/stencil surface is automatically created.
+Pointer to a <a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a> structure, describing the presentation parameters for the device to be created. If BehaviorFlags specifies <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE_ADAPTERGROUP_DEVICE</a>, pPresentationParameters is an array. Regardless of the number of heads that exist, only one depth/stencil surface is automatically created.
 
 For Windows 2000 and Windows XP, the full-screen device display refresh rate is set in the following order: 
 
@@ -115,21 +116,21 @@ pPresentationParameters is both an input and an output parameter. Calling this m
 
 <ul>
 <li>If BackBufferCount, BackBufferWidth, and BackBufferHeight  are 0 before the method is called, they will be changed when the method returns.</li>
-<li>If BackBufferFormat equals <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFMT_UNKNOWN</a> before the method is called, it will be changed when the method returns.</li>
+<li>If BackBufferFormat equals <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFMT_UNKNOWN</a> before the method is called, it will be changed when the method returns.</li>
 </ul>
 
 ### -param ppReturnedDeviceInterface [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>**</b>
 
-Address of a pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface, which represents the created device. 
+Address of a pointer to the returned <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface, which represents the created device. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_DEVICELOST, D3DERR_INVALIDCALL, D3DERR_NOTAVAILABLE, D3DERR_OUTOFVIDEOMEMORY.
 
@@ -140,13 +141,13 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-This method returns a fully working device interface, set to the required display mode (or windowed), and allocated with the appropriate back buffers. To begin rendering, the application needs only to create and set a depth buffer (assuming EnableAutoDepthStencil is <b>FALSE</b> in <a href="https://msdn.microsoft.com/en-us/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a>).
+This method returns a fully working device interface, set to the required display mode (or windowed), and allocated with the appropriate back buffers. To begin rendering, the application needs only to create and set a depth buffer (assuming EnableAutoDepthStencil is <b>FALSE</b> in <a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a>).
 
-When you create a Direct3D device, you supply two different window parameters: a focus window (hFocusWindow) and a device window (the hDeviceWindow in <a href="https://msdn.microsoft.com/en-us/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a>). The purpose of each window is:
+When you create a Direct3D device, you supply two different window parameters: a focus window (hFocusWindow) and a device window (the hDeviceWindow in <a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a>). The purpose of each window is:
 
 <ul>
 <li>The focus window alerts Direct3D when an application switches from foreground mode to background mode (via Alt-Tab, a mouse click, or some other method). A single focus window is shared by each device created by an application.</li>
-<li>The device window determines the location and size of the back buffer on screen. This is used by Direct3D when the back buffer contents are copied to the front buffer during <a href="https://msdn.microsoft.com/en-us/library/Bb174423(v=VS.85).aspx">Present</a>.</li>
+<li>The device window determines the location and size of the back buffer on screen. This is used by Direct3D when the back buffer contents are copied to the front buffer during <a href="https://msdn.microsoft.com/47e67956-7ab4-4e05-bf05-685bdc094cf2">Present</a>.</li>
 </ul>
 This method should not be run during the handling of WM_CREATE. An application should never pass a window handle to Direct3D while handling WM_CREATE. 
     
@@ -156,9 +157,9 @@ Note that D3DCREATE_HARDWARE_VERTEXPROCESSING, D3DCREATE_MIXED_VERTEXPROCESSING,
 
 Back buffers created as part of the device are only lockable if D3DPRESENTFLAG_LOCKABLE_BACKBUFFER is specified in the presentation parameters. (Multisampled back buffers and depth surfaces are never lockable.)
 
-The methods <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb174472(v=VS.85).aspx">TestCooperativeLevel</a> must be called from the same thread that used this method to create a device.
+The methods <a href="https://msdn.microsoft.com/6d672f22-9843-4ff7-ae79-4903f56cd1e9">Reset</a>, <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, and <a href="https://msdn.microsoft.com/da2ac8dd-0df8-4661-995f-9c3e6ccb62d2">TestCooperativeLevel</a> must be called from the same thread that used this method to create a device.
 
-D3DFMT_UNKNOWN can be specified for the windowed mode back buffer format when calling <b>CreateDevice</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb174354(v=VS.85).aspx">CreateAdditionalSwapChain</a>. This means the application does not have to query the current desktop format before calling <b>CreateDevice</b> for windowed mode. For full-screen mode, the back buffer format must be specified.
+D3DFMT_UNKNOWN can be specified for the windowed mode back buffer format when calling <b>CreateDevice</b>, <a href="https://msdn.microsoft.com/6d672f22-9843-4ff7-ae79-4903f56cd1e9">Reset</a>, and <a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">CreateAdditionalSwapChain</a>. This means the application does not have to query the current desktop format before calling <b>CreateDevice</b> for windowed mode. For full-screen mode, the back buffer format must be specified.
 
 If you attempt to create a device on a 0x0 sized window, <b>CreateDevice</b> will fail.
 
@@ -170,23 +171,23 @@ If you attempt to create a device on a 0x0 sized window, <b>CreateDevice</b> wil
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172538(v=VS.85).aspx">D3DDEVICE_CREATION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/7db5ef2b-6894-4113-b726-8b238bb4fb2f">D3DDEVICE_CREATION_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb219685(v=VS.85).aspx">Direct3DCreate9</a>
+<a href="https://msdn.microsoft.com/33573d84-8bae-4cac-80d1-fe7387d9d7eb">Direct3DCreate9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb147217(v=VS.85).aspx">Multihead (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/f741cdb4-2eb6-42e9-81ea-a8c677e07582">Multihead (Direct3D 9)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/6d672f22-9843-4ff7-ae79-4903f56cd1e9">Reset</a>
  
 
  

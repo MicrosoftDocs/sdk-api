@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -103,7 +104,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt844796(v=WIN.10).aspx">ISpatialInteractionManagerInterop</a>
+<a href="https://msdn.microsoft.com/A6ED74DB-D56A-4133-877C-A98BCBE34F7D">ISpatialInteractionManagerInterop</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Returns an enumeration of all the scope rules of which this instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface is aware.
+Returns an enumeration of all the scope rules of which this instance of the <a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a> interface is aware.
         
 
 
@@ -62,9 +63,9 @@ Returns an enumeration of all the scope rules of which this instance of the <a h
 
 ### -param ppSearchScopeRules [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a>**</b>
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> interface.
+Returns a pointer to an <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a> interface.
         
 
 

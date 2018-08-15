@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -91,7 +92,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is typically used in conjunction with the handling of a <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Window_WindowOpenedEventId</a>.
+This method is typically used in conjunction with the handling of a <a href="uiauto_event_ids.htm">UIA_Window_WindowOpenedEventId</a>.
         The implementation is dependent on the underlying application framework; 
         therefore this method might return some time after the window is ready for user input. 
         The calling code should not rely on this method to ascertain exactly when the window has become idle. 

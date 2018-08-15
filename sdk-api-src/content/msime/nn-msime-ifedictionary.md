@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msime.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IFEDictionary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/424FE6C8-2903-429C-AAC9-F9808E94047A">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a dictionary file.
@@ -148,7 +149,7 @@ Gets the next word entry from a dictionary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/7170EED5-0D96-4314-8B9F-A019052B0F32">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a dictionary file.

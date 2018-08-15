@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -82,7 +83,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/d4c36d19-cf28-43d3-a60a-50970d66bc17">GetText</a>
 </td>
 <td align="left" width="63%">
 Creates a textual representation of a class or object instance.

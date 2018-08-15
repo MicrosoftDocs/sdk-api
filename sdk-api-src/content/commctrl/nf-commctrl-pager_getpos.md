@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760874(v=VS.85).aspx">PGM_GETPOS</a> message explicitly. 
+Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/1e0f967a-3290-43b7-b812-8cf56abf2d32">PGM_GETPOS</a> message explicitly. 
 
 
 ## -parameters

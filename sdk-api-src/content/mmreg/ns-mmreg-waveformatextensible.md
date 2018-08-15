@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 
-The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>. It can also be used to define any format that can be defined by <b>WAVEFORMATEX</b>.
+The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>. It can also be used to define any format that can be defined by <b>WAVEFORMATEX</b>.
 
 
 
@@ -65,7 +66,7 @@ The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio d
 ### -field Format
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that specifies the basic format. The <b>wFormatTag</b> member must be WAVE_FORMAT_EXTENSIBLE. The <b>cbSize</b> member must be at least 22.
+<a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure that specifies the basic format. The <b>wFormatTag</b> member must be WAVE_FORMAT_EXTENSIBLE. The <b>cbSize</b> member must be at least 22.
 
 
 ### -field Samples
@@ -93,14 +94,14 @@ Bitmask specifying the assignment of channels in the stream to speaker positions
 
 ### -field SubFormat
 
-Subformat of the data, such as KSDATAFORMAT_SUBTYPE_PCM. The subformat information is similar to that provided by the tag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
+Subformat of the data, such as KSDATAFORMAT_SUBTYPE_PCM. The subformat information is similar to that provided by the tag in the <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
 
 
 ## -remarks
 
 
 
-<b>WAVEFORMATEXTENSIBLE</b> can describe any format that can be described by <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>, but provides additional support for more than two channels, for greater precision in the number of bits per sample, and for new compression schemes.
+<b>WAVEFORMATEXTENSIBLE</b> can describe any format that can be described by <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>, but provides additional support for more than two channels, for greater precision in the number of bits per sample, and for new compression schemes.
 
 <b>WAVEFORMATEXTENSIBLE</b> can safely be cast to <b>WAVEFORMATEX</b>, because it simply configures the extra bytes specified by <b>WAVEFORMATEX.cbSize</b>.
 
@@ -190,7 +191,7 @@ The <b>dwChannelMask</b> member specifies which channels are present in the mult
 
 The channels specified in <b>dwChannelMask</b> must be present in the prescribed order (from least significant bit up). For example, if only SPEAKER_FRONT_LEFT and SPEAKER_FRONT_RIGHT are specified, then the samples for the front left speaker must come first in the interleaved stream. The number of bits set in <b>dwChannelMask</b> should be the same as the number of channels specified in <b>WAVEFORMATEX.nChannels</b>.
 
-For backward compatibility, any wave format that can be specified by a stand-alone <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure can also be defined by a <b>WAVEFORMATEXTENSIBLE</b> structure. Thus, every wave-format tag in mmreg.h has a corresponding <b>SubFormat</b> GUID. The following table shows some typical wave-format tags and their corresponding <b>SubFormat</b> GUIDs. These GUIDs are defined in Ksmedia.h.
+For backward compatibility, any wave format that can be specified by a stand-alone <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure can also be defined by a <b>WAVEFORMATEXTENSIBLE</b> structure. Thus, every wave-format tag in mmreg.h has a corresponding <b>SubFormat</b> GUID. The following table shows some typical wave-format tags and their corresponding <b>SubFormat</b> GUIDs. These GUIDs are defined in Ksmedia.h.
 
 <table>
 <tr>
@@ -226,7 +227,7 @@ For backward compatibility, any wave format that can be specified by a stand-alo
 </table>
  
 
-Because <b>WAVEFORMATEXTENSIBLE</b> is an extended version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>, it can describe additional formats that cannot be described by <b>WAVEFORMATEX</b> alone. Vendors are free to define their own <b>SubFormat</b> GUIDs to identify proprietary formats for which no wave-format tags exist.
+Because <b>WAVEFORMATEXTENSIBLE</b> is an extended version of <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>, it can describe additional formats that cannot be described by <b>WAVEFORMATEX</b> alone. Vendors are free to define their own <b>SubFormat</b> GUIDs to identify proprietary formats for which no wave-format tags exist.
 
 The following structures, for particular extended formats, are defined as <b>WAVEFORMATEXTENSIBLE</b>.
 

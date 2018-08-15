@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -86,7 +87,7 @@ The length, in bytes, of arbitrary data to associate with the name.
 
 ### -param pGenericMapping [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a> structure to associate with the name.
+A pointer to a <a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure to associate with the name.
 
 
 ### -param pSecurityDescriptor [in]
@@ -131,7 +132,7 @@ If the name is already present in the cache, this call fails and <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a>
+<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
  
 
  

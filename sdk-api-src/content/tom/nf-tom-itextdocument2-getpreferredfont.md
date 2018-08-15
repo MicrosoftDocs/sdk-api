@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -499,7 +500,7 @@ The preferred font options. The low-order word can be a combination of the follo
 
 #### tomMatchMathFont
 
-If the high-order word of <i>Options</i> is <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUseTwips</a>, the font heights are given in twips.
+If the high-order word of <i>Options</i> is <a href="tomconstants.htm">tomUseTwips</a>, the font heights are given in twips.
 
 
 ### -param curCharRep

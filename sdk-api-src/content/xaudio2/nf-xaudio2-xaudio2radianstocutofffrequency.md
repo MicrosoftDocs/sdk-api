@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Inline function that converts from the radian frequencies used in <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> back to absolute frequencies in hertz.
+Inline function that converts from the radian frequencies used in <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> back to absolute frequencies in hertz.
 
 
 ## -parameters
@@ -61,12 +62,12 @@ Inline function that converts from the radian frequencies used in <a href="https
 
 ### -param Radians [in]
 
-Value of the Frequency member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Value of the Frequency member of the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ### -param SampleRate [in]
 
-The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ## -returns

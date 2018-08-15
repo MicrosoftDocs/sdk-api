@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ A single wide-character string that contains the name of the display device.
 
 ### -field devMode
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that contains characteristics of the display device. 
+A <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODEW</a> structure that contains characteristics of the display device. 
 
 
 ## -see-also
@@ -73,15 +74,15 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+<a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODEW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554039">DisplayModes</a>
+<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568176">IViewHelper::SetConfiguration</a>
+<a href="https://msdn.microsoft.com/8ec09950-afb6-43ff-8e05-4c801e49ba4b">IViewHelper::SetConfiguration</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Exposes methods to get an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object.
+Exposes methods to get an <a href="shell.IPropertyStore">IPropertyStore</a> object.
 
 
 ## -inheritance
@@ -74,7 +75,7 @@ The <b>IPropertyStoreFactory</b> interface has these methods.
 <a href="shell.IPropertyStoreFactory_GetPropertyStore">GetPropertyStore</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object that corresponds to the supplied flags.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object that corresponds to the supplied flags.
 
 </td>
 </tr>
@@ -83,7 +84,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 <a href="shell.IPropertyStoreFactory_GetPropertyStoreForKeys">GetPropertyStoreForKeys</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 </td>
 </tr>

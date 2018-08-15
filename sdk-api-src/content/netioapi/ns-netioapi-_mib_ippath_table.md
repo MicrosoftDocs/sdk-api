@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -69,7 +70,7 @@ A value that specifies the number of IP path entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559270">MIB_IPPATH_ROW</a> structures containing IP path entries.
+<a href="https://msdn.microsoft.com/0cfef3cb-bb96-4250-864b-2468a46ba277">MIB_IPPATH_ROW</a> structures containing IP path entries.
 
 
 ## -remarks
@@ -78,15 +79,15 @@ An array of
 
 The <b>MIB_IPPATH_TABLE</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552559">GetIpPathTable</a> function enumerates the IP path entries on a local system and returns this information in a <b>MIB_IPPATH_TABLE</b> structure. 
+The <a href="https://msdn.microsoft.com/e03816a4-0b86-4e0b-a45e-8148c8ba5472">GetIpPathTable</a> function enumerates the IP path entries on a local system and returns this information in a <b>MIB_IPPATH_TABLE</b> structure. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550031">FlushIpPathTable</a> function flushes the IP path table entries on a local system. 
+The <a href="https://msdn.microsoft.com/3b28e0cd-9cab-41ca-b58c-7632768318c2">FlushIpPathTable</a> function flushes the IP path table entries on a local system. 
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552556">GetIpPathEntry</a> function retrieves a single IP path entry and returns this information in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559270">MIB_IPPATH_ROW</a> structure.
+The <a href="https://msdn.microsoft.com/8ad43a1d-428a-41cc-bba8-5eec7f87c11f">GetIpPathEntry</a> function retrieves a single IP path entry and returns this information in a <a href="https://msdn.microsoft.com/0cfef3cb-bb96-4250-864b-2468a46ba277">MIB_IPPATH_ROW</a> structure.
 
-The <b>MIB_IPPATH_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff559270">MIB_IPPATH_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPPATH_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPPATH_ROW</b> array entry should assume  padding may exist. 
+The <b>MIB_IPPATH_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://msdn.microsoft.com/0cfef3cb-bb96-4250-864b-2468a46ba277">MIB_IPPATH_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPPATH_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPPATH_ROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -98,19 +99,19 @@ The <b>MIB_IPPATH_TABLE</b> structure may contain padding for alignment between 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550031">FlushIpPathTable</a>
+<a href="https://msdn.microsoft.com/3b28e0cd-9cab-41ca-b58c-7632768318c2">FlushIpPathTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552556">GetIpPathEntry</a>
+<a href="https://msdn.microsoft.com/8ad43a1d-428a-41cc-bba8-5eec7f87c11f">GetIpPathEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552559">GetIpPathTable</a>
+<a href="https://msdn.microsoft.com/e03816a4-0b86-4e0b-a45e-8148c8ba5472">GetIpPathTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559270">MIB_IPPATH_ROW</a>
+<a href="https://msdn.microsoft.com/0cfef3cb-bb96-4250-864b-2468a46ba277">MIB_IPPATH_ROW</a>
  
 
  

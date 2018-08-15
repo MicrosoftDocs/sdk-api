@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -172,7 +173,7 @@ The document or the location of the range cannot be modified.
 
 
 
-Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> returned from OleGetClipboard.
+Use this method to insert objects into the text stream, because the <a href="https://msdn.microsoft.com/fa53c1f1-50eb-45eb-b2ea-f236a376d41a">TF_CHAR_EMBEDDED</a> object placeholder character cannot be passed into <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. This method is modeled after the OLE clipboard API, with applications using <i>pDataObject</i> as they would an <a href="_ole_idataobject">IDataObject</a> returned from OleGetClipboard.
 
 When a range covers multiple regions, the method should be called on each region separately. Otherwise, the method might fail.
 
@@ -188,7 +189,7 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

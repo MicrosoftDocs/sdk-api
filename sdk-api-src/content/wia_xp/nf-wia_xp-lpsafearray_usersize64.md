@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -66,14 +67,14 @@ TBD
 
 
 
-#### - [in]
-
-The data used by RPC.
-
-
 #### - Offset [in]
 
 Sets the buffer offset so that the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
+
+
+#### - [in]
+
+The data used by RPC.
 
 
 #### - ppSafeArray [in]

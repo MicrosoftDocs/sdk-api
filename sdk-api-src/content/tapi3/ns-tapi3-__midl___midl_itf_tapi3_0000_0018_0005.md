@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi3.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -156,7 +157,7 @@ MSP event.
 
 ##### pEvent.pEvent
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of private object on which event has occurred.
 
 
 ### -field MSP_PRIVATE_EVENT_INFO.lEventCode
@@ -243,7 +244,7 @@ Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).a
 
 ###### - MSP_PRIVATE_EVENT_INFO.pEvent.pEvent
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface of private object on which event has occurred.
 
 
 ## -see-also

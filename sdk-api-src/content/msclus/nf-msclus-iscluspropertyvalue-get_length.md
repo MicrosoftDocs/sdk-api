@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the byte 
-    size of a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property value</a>.
+    size of a <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

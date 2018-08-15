@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -83,9 +84,9 @@ Determines whether the <i>ResultMessage</i> parameter is freed. You can pass any
 <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a> to free the result later.
 
 
-#### - ReturnCode [out, optional]
+#### - ErrorMessage [out, optional]
 
-Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
+A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
 
 
 #### - MatchedDNs [out, optional]
@@ -93,14 +94,14 @@ Indicates the outcome of the server operation that generated the original result
 A pointer to a wide, null-terminated string. In the case of a return of <b>LDAP_NO_SUCH_OBJECT</b>, this result parameter is filled in with a distinguished name indicating how much of the name in the request was recognized. Pass <b>NULL</b> to ignore this field.
 
 
-#### - ErrorMessage [out, optional]
-
-A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
-
-
 #### - Referrals [out, optional]
 
 A pointer to a wide, null-terminated string that contains the contents of the referrals field from the <i>ResultMessage</i> parameter, indicating zero or more alternate LDAP servers where the request should be retried. Pass <b>NULL</b> to ignore this field.
+
+
+#### - ReturnCode [out, optional]
+
+Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
 
 
 #### - ServerControls [out, optional]
@@ -139,7 +140,7 @@ When they are no longer needed, free the <i>ErrorMessage</i> and <i>MatchedDNs</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
 
 
 

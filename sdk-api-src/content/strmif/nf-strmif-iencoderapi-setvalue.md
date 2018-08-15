@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ Pointer to a GUID that specifies the parameter.
 
 ### -param Value [out]
 
-Pointer that specifies the value of <i>Api</i>. If <i>Api</i> was specified as <b>ENCAPIPARAM_BITRATE_MODE</b>, then <i>Value</i> must be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568695">VIDEOENCODER_BITRATE_MODE</a> constants.
+Pointer that specifies the value of <i>Api</i>. If <i>Api</i> was specified as <b>ENCAPIPARAM_BITRATE_MODE</b>, then <i>Value</i> must be one of the <a href="https://msdn.microsoft.com/ccceae9a-6d1d-4453-bd84-88cefc20320e">VIDEOENCODER_BITRATE_MODE</a> constants.
             
           
 

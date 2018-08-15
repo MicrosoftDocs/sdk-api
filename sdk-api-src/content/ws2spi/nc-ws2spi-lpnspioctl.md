@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -128,7 +129,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5af4b4d1-6dcb-4fc8-a730-53a8c
 ### -param lpThreadId [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure to be used by the provider in a subsequent call to 
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure to be used by the provider in a subsequent call to 
 <a href="https://msdn.microsoft.com/4326547e-85e2-409c-9f36-aa013853dfd9">WPUQueueApc</a>. The provider should store the referenced 
 <b>WSATHREADID</b> structure (not the pointer) until after the 
 <b>WPUQueueApc</b> function returns.
@@ -155,7 +156,7 @@ The error code WSA_IO_PENDING indicates that an overlapped operation has been su
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -167,7 +168,7 @@ The <i>hLookup</i> parameter was not a valid query handle returned by
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -178,7 +179,7 @@ An overlapped operation was successfully initiated and completion will be indica
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -189,7 +190,7 @@ The <i>lpvInBuffer</i>, <i>cbInBuffer</i>, <i>lpvOutBuffer</i>, <i>cbOutBuffer</
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -200,7 +201,7 @@ A supplied parameter is not acceptable, or the operation inappropriately returns
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -211,7 +212,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +223,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -276,13 +277,13 @@ The Microsoft namespace providers that support this IOCTL include the following:
 Other non-Microsoft namespace providers may be installed that also support this IOCTL.
 
 When the <i>lpCompletion</i> parameter is <b>NULL</b>, this IOCTL implements a  special behavior. If the <i>lpCompletion</i> parameter is <b>NULL</b> for this IOCTL, this operation is a poll and returns immediately. If the query set remains valid, 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> is returned as notification that the query set remains valid. If the query set has changed and is invalid, <b>NO_ERROR</b> is returned indicating success in polling for invalidation of the query set. 
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> is returned as notification that the query set remains valid. If the query set has changed and is invalid, <b>NO_ERROR</b> is returned indicating success in polling for invalidation of the query set. 
 
-If the <i>lpCompletion</i> parameter is not <b>NULL</b> and points to an <a href="https://msdn.microsoft.com/5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4">WSACOMPLETION</a> structure, then the  <b>NSPIoctl</b> function returns <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a> if the  overlapped operation was successfully initiated and completion will be indicated at a later time. The method specified in the <b>WSACOMPLETION</b> structure is used to notify the application if the query set is still valid. 
+If the <i>lpCompletion</i> parameter is not <b>NULL</b> and points to an <a href="https://msdn.microsoft.com/5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4">WSACOMPLETION</a> structure, then the  <b>NSPIoctl</b> function returns <a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a> if the  overlapped operation was successfully initiated and completion will be indicated at a later time. The method specified in the <b>WSACOMPLETION</b> structure is used to notify the application if the query set is still valid. 
 
 Not all name resolution protocols are able to support this feature, and therefore, this function call may fail with 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>. A query containing data from multiple providers cannot call this IOCTL, and will return 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a>.
+<a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a>. A query containing data from multiple providers cannot call this IOCTL, and will return 
+<a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a>.
 
 The <i>lpvInBuffer</i>, <i>cbInBuffer</i>, <i>lpvOutBuffer</i>, and <i>cbOutBuffer</i> parameters are currently ignored by Microsoft namespace providers.
 
@@ -302,7 +303,7 @@ Immediate poll operations are usually much less resource intensive since they do
 
 To cancel an asynchronous notification request, end the original query with a 
 <a href="https://msdn.microsoft.com/ec72c89a-a74b-449c-996a-02057dff9137">NSPLookupServiceEnd</a> function call on the affected query handle. Canceling the asynchronous notification for LUP_NOTIFY_HWND will not post any message, however, an overlapped operation will be completed and notification will be delivered with the error 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_OPERATION_ABORTED</a>.
+<a href="windows_sockets_error_codes_2.htm">WSA_OPERATION_ABORTED</a>.
 
 <div class="alert"><b>Note</b>   All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a> for more information.</div>
 <div> </div>
@@ -342,7 +343,7 @@ To cancel an asynchronous notification request, end the original query with a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a>
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a>
  
 
  

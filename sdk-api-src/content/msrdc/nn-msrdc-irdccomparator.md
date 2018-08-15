@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -73,7 +74,7 @@ The <b>IRdcComparator</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a>
+<a href="https://msdn.microsoft.com/cc98a90c-ba82-4b92-a56c-07496a843089">Process</a>
 </td>
 <td align="left" width="63%">
 Compares two signature streams (seed and source) and produces a needs list, which describes the data chunks needed to create 

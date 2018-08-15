@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: D2d1.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -92,7 +93,7 @@ When this method fails, it does not return an error code. To determine whether a
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
-<img alt="Illustration of two rectangles on a grid background" src="./images/drawrectangleexample_small.png"/>
+<img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

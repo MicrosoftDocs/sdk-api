@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -61,7 +62,7 @@ The <b>CertCreateContext</b> function creates the specified context from the enc
 
 ### -param dwContextType [in]
 
-Specifies the contexts that can be created. For example, to create a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>, set <i>dwContextType</i> to CERT_STORE_CERTIFICATE_CONTEXT.
+Specifies the contexts that can be created. For example, to create a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>, set <i>dwContextType</i> to CERT_STORE_CERTIFICATE_CONTEXT.
 						
 
 Currently defined context type flags are shown in the following table.
@@ -225,7 +226,7 @@ If <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">Get
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="cryptography_functions.htm">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

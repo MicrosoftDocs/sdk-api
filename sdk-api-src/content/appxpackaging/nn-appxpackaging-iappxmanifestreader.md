@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -79,7 +80,7 @@ Gets an enumerator that iterates through the applications defined in the manifes
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/5FCBD9E9-9A5E-49E1-8B80-8F84EDA8B07C">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the list of capabilities requested by the package.
@@ -124,7 +125,7 @@ Gets the specified prerequisite as defined in the package manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/E507BA9D-D2CA-4B28-BD13-B820B666B4C6">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of the package as defined in the manifest. 
@@ -133,7 +134,7 @@ Gets the properties of the package as defined in the manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetResources</a>
+<a href="https://msdn.microsoft.com/2F0109C2-99F5-4AEE-9596-153764FA8FA3">GetResources</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator that iterates through the resources defined in the manifest.

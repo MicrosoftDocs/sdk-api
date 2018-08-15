@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -72,7 +73,7 @@ The count of farms retrieved.
 
 ### -param pVal [out]
 
-A pointer to an array of farm names. The number of elements in this array is specified by the <i>pdwCount</i> parameter. When you have finished using the array, free the allocated memory by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221702(v=VS.85).aspx">SafeArrayDestroy</a> function.
+A pointer to an array of farm names. The number of elements in this array is specified by the <i>pdwCount</i> parameter. When you have finished using the array, free the allocated memory by calling the <a href="fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a> function.
 
 
 ## -returns

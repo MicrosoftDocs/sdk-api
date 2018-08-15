@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -88,7 +89,7 @@ Value that modifies the media stream's behavior; it is a combination of one or m
 </tr>
 <tr>
 <td>AMMSF_NOSTALL</td>
-<td>Run the stream even if <a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a> is not called.</td>
+<td>Run the stream even if <a href="https://msdn.microsoft.com/5f56e3f9-443b-4d67-bfed-3210e691ad4b">Update</a> is not called.</td>
 </tr>
 <tr>
 <td>AMMSF_STOPIFNOSAMPLES</td>

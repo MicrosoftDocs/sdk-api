@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -135,7 +136,7 @@ Obtains file element information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546831">GetIdentity</a>
+<a href="https://msdn.microsoft.com/55240ef2-f480-4917-98f9-e88a2e23edea">GetIdentity</a>
 </td>
 <td align="left" width="63%">
 Obtains basic information about a specific writer instance.

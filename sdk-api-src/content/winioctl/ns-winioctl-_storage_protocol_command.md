@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="https://msdn.microsoft.com/library/windows/hardware/dn932068">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
+This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="https://msdn.microsoft.com/77027740-CDFD-422A-B458-C36B2E346EFD">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
 
 
 ## -struct-fields
@@ -71,7 +72,7 @@ The size of this structure. This should be set to sizeof(<b>STORAGE_PROTOCOL_COM
 
 ### -field ProtocolType
 
-The protocol type, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn931818">STORAGE_PROTOCOL_TYPE</a>.
+The protocol type, of type <a href="https://msdn.microsoft.com/8055B633-99EF-4AAE-AA80-FC09F357BEAB">STORAGE_PROTOCOL_TYPE</a>.
 
 
 ### -field Flags
@@ -222,7 +223,7 @@ The vendor-specific command that is to be passed-through to the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932068">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
+<a href="https://msdn.microsoft.com/77027740-CDFD-422A-B458-C36B2E346EFD">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
  
 
  

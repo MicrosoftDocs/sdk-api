@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -62,22 +63,22 @@ Contains pointers to all <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-
 
 ### -field Open
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> entry point.
+Pointer to the <a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a> entry point.
 
 
 ### -field Close
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> entry point.
+Pointer to the <a href="https://msdn.microsoft.com/c7c74440-c98a-4440-8bf4-10ebd1a68608">Close</a> entry point.
 
 
 ### -field Online
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a> entry point.
+Pointer to the <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> entry point.
 
 
 ### -field Offline
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a> entry point.
+Pointer to the <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> entry point.
 
 
 ### -field Terminate
@@ -164,7 +165,7 @@ To create a function table for version 1.0 of the Resource API, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/c7c74440-c98a-4440-8bf4-10ebd1a68608">Close</a>
 
 
 
@@ -176,15 +177,15 @@ To create a function table for version 1.0 of the Resource API, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">Offline</a>
+<a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">Online</a>
+<a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a>
 
 
 

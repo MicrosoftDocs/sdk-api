@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -124,7 +125,7 @@ Retrieves the number of bandwidth sharing objects that exist in the profile.
 <a href="https://msdn.microsoft.com/ddab3735-06a1-4e03-9abc-0fca635ef759">GetExpectedPacketCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the expected number of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packets</a> for a specified duration.
+Retrieves the expected number of <a href="wmformat_glossary.htm">packets</a> for a specified duration.
 
 </td>
 </tr>
@@ -215,7 +216,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
 
 
 

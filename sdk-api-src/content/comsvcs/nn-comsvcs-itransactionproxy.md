@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -80,7 +81,7 @@ Aborts the transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/00b8fe43-22d3-44fd-a1c4-cf3cd36873c6">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits the transaction.

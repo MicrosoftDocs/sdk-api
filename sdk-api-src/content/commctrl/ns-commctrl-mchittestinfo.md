@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760991(v=VS.85).aspx">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/en-us/library/Bb774710(v=VS.85).aspx">MonthCal_HitTest</a> macro. 
+Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/51e74b07-4ed7-488d-ad5d-116f046577fc">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/b328f8e7-4f9d-477f-bbb8-97f0acd5af0d">MonthCal_HitTest</a> macro. 
 
 
 ## -struct-fields
@@ -67,7 +68,7 @@ The size of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 Point to be hit-tested. 
 
@@ -99,7 +100,7 @@ The given point was in the calendar's background.
 </dl>
 </td>
 <td width="60%">
-The given point is outside of any calendar but within the calendar controls <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>.
+The given point is outside of any calendar but within the calendar controls <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>.
 
 </td>
 </tr>
@@ -248,7 +249,7 @@ Receives date and time information specific to the location that was hit-tested.
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 Hit-tested location.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]

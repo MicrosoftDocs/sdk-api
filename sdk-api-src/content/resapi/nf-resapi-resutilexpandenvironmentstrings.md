@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -61,7 +62,7 @@ Expands strings containing unexpanded references to environment variables. The <
 
 ### -param pszSrc [in]
 
-Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="https://msdn.microsoft.com/en-us/library/Aa369570(v=VS.85).aspx">expandable string</a>).
+Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="e_gly.htm">expandable string</a>).
 
 
 ## -returns

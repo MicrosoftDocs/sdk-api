@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -82,7 +83,7 @@ In the following table, the first column lists the interfaces that  implement th
 <td>
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/42985fdf-b3b3-43f0-addb-478298bd8ebd">Pause</a>
 </dd>
 <dd>
 <a href="https://msdn.microsoft.com/8aabfb89-89e2-450e-bfe6-62a48f93746f">Resume</a>
@@ -97,7 +98,7 @@ In the following table, the first column lists the interfaces that  implement th
 <td>
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/fb54b900-345a-4b36-b16d-52790c0266f6">Save</a>
 </dd>
 </dl>
 </td>
@@ -109,7 +110,7 @@ In the following table, the first column lists the interfaces that  implement th
 <td>
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915028">AcceptEula</a>
+<a href="https://msdn.microsoft.com/b3a25994-eace-45ec-8e6b-40d69796f168">AcceptEula</a>
 </dd>
 <dd>
 <a href="https://msdn.microsoft.com/43af8bb9-0e09-4541-bc2e-fd40be64a980">CopyFromCache</a>
@@ -164,7 +165,7 @@ In the following table, the first column lists the interfaces that  implement th
 <dd>
 <a href="https://msdn.microsoft.com/80a30a21-9369-44bb-984a-2fdf2c1810e4">IsForced</a> (cannot set)</dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593237">Uninstall</a>
+<a href="https://msdn.microsoft.com/fd00fc89-077e-4897-a7ec-d2e06167b7b0">Uninstall</a>
 </dd>
 </dl>
 </td>
@@ -194,7 +195,7 @@ In the following table, the first column lists the interfaces that  implement th
 <td>
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> (cannot set)</dd>
+<a href="https://msdn.microsoft.com/ed8c899f-5080-435a-8577-7e92a54738ad">Address</a> (cannot set)</dd>
 <dd>
 <a href="https://msdn.microsoft.com/cd222133-e44b-453a-9fbf-72f609cb2d4b">AutoDetect</a> (cannot set)</dd>
 <dd>
@@ -205,7 +206,7 @@ In the following table, the first column lists the interfaces that  implement th
 <a href="https://msdn.microsoft.com/59b500f1-2015-4f72-9be5-c2f57462dff0">SetPassword</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn997357">UserName</a> (cannot set)</dd>
+<a href="https://msdn.microsoft.com/cef38d9d-5706-4008-be61-5bbe7c29ca68">UserName</a> (cannot set)</dd>
 </dl>
 </td>
 </tr>

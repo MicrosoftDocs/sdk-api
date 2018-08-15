@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>.
+The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="https://msdn.microsoft.com/420963d1-11ea-4f1d-b5c0-749e99ee7725">Pause</a>.
 
 
 

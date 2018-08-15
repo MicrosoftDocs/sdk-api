@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760608(v=VS.85).aspx">TCM_REMOVEIMAGE</a> message explicitly. 
+Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf">TCM_REMOVEIMAGE</a> message explicitly. 
 
 
 ## -parameters

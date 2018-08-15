@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -179,7 +180,7 @@ To load a writer metadata document into an existing <a href="https://msdn.micros
 
 Users should not attempt to modify the contents of the Writer Metadata Document.
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the 
     resources held by 
     the <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> object when the object 
     is no longer needed.

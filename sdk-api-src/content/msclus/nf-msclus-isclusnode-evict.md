@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
 
 Removes a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> from the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -81,7 +82,7 @@ This method does not return a value.
 
 
 
-An evicted node is no longer a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>. 
+An evicted node is no longer a member of the <a href="c_gly.htm">cluster</a>. 
     The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> must be reinstalled on the node to 
     reestablish the node's cluster membership.
 

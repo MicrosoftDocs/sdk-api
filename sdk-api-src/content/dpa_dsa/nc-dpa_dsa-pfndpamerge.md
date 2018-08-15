@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775629(v=VS.85).aspx">DPA_Merge</a>.
+Defines the prototype for the merge function used by <a href="https://msdn.microsoft.com/c2d8ffab-1cd1-4328-9740-524c39b6821c">DPA_Merge</a>.
 
 
 ## -parameters
@@ -150,7 +151,7 @@ The callback function might not modify the dynamic pointer arrays (DPAs) involve
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775723(v=VS.85).aspx">PFNDPAMERGECONST</a>
+<a href="https://msdn.microsoft.com/2ae5f250-c79e-4ca5-98c4-b15ed7d5b90a">PFNDPAMERGECONST</a>
  
 
  

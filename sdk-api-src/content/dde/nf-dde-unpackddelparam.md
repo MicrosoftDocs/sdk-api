@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dde.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,7 +78,7 @@ Type: <b>LPARAM</b>
 
 The 
 					<i>lParam</i> parameter of the posted DDE message that was received. The application must free the memory object specified by the 
-					<i>lParam</i> parameter by calling the <a href="https://msdn.microsoft.com/en-us/library/ms649004(v=VS.85).aspx">FreeDDElParam</a> function. 
+					<i>lParam</i> parameter by calling the <a href="https://msdn.microsoft.com/166cd1ed-2885-4275-8d92-76ae5344dd92">FreeDDElParam</a> function. 
 
 
 ### -param puiLo [out]
@@ -114,7 +115,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649006(v=VS.85).aspx">PackDDElParam</a> eases the porting of 16-bit DDE applications to 32-bit DDE applications. 
+<a href="https://msdn.microsoft.com/9131229d-2515-40d2-a4a8-4c8f7987ac09">PackDDElParam</a> eases the porting of 16-bit DDE applications to 32-bit DDE applications. 
 
 
 
@@ -124,7 +125,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
 
 
 
@@ -132,11 +133,11 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649004(v=VS.85).aspx">FreeDDElParam</a>
+<a href="https://msdn.microsoft.com/166cd1ed-2885-4275-8d92-76ae5344dd92">FreeDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649006(v=VS.85).aspx">PackDDElParam</a>
+<a href="https://msdn.microsoft.com/9131229d-2515-40d2-a4a8-4c8f7987ac09">PackDDElParam</a>
 
 
 
@@ -144,7 +145,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://msdn.microsoft.com/069ac8ee-3d92-4969-8c6b-78a8a0c76721">ReuseDDElParam</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The DD_GETHEAPALIGNMENTDATA structure contains data on required alignments from 
 
 ### -field dwInstance
 
-Indicates the driver context as returned from the driver initialization routine and stored in the <b>dhpDev</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550586">DD_DIRECTDRAW_GLOBAL</a> structure. 
+Indicates the driver context as returned from the driver initialization routine and stored in the <b>dhpDev</b> member of the <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure. 
 
 
 ### -field dwHeap
@@ -80,14 +81,14 @@ Unused on Microsoft Windows 2000 and later versions of the operating system.
 
 ### -field Alignment
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567265">HEAPALIGNMENT</a> structure filled in by the driver.
+Points to a <a href="https://msdn.microsoft.com/546029c7-c92e-4940-841f-235c7dc50e8e">HEAPALIGNMENT</a> structure filled in by the driver.
 
 
 ## -remarks
 
 
 
-The <b>dwHeap</b> member is the ordinal number of the heap for which alignment data is being requested. In other words, it is the index into the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a> structures pointed to by the <i>pvmList</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> driver function. 
+The <b>dwHeap</b> member is the ordinal number of the heap for which alignment data is being requested. In other words, it is the index into the array of <a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a> structures pointed to by the <i>pvmList</i> parameter of the <a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a> driver function. 
 
 
 
@@ -97,7 +98,7 @@ The <b>dwHeap</b> member is the ordinal number of the heap for which alignment d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550586">DD_DIRECTDRAW_GLOBAL</a>
+<a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a>
 
 
 
@@ -105,15 +106,15 @@ The <b>dwHeap</b> member is the ordinal number of the heap for which alignment d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567265">HEAPALIGNMENT</a>
+<a href="https://msdn.microsoft.com/546029c7-c92e-4940-841f-235c7dc50e8e">HEAPALIGNMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a>
+<a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a>
  
 
  

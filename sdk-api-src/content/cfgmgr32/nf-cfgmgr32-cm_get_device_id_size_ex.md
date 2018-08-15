@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538441">CM_Get_Device_ID_Size</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/3ae682d0-d9fa-4a29-8258-c6f72f1940b7">CM_Get_Device_ID_Size</a> instead.]
 
 The <b>CM_Get_Device_ID_Size_Ex</b> function retrieves the buffer size required to hold a <a href="devinst.device_instance_ids">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on a local or a remote machine.
 
@@ -95,13 +96,13 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The <b>CM_Get_Device_ID_Size_Ex</b> function should be called to determine the buffer size required by <a href="https://msdn.microsoft.com/library/windows/hardware/ff538411">CM_Get_Device_ID_Ex</a>.
+The <b>CM_Get_Device_ID_Size_Ex</b> function should be called to determine the buffer size required by <a href="https://msdn.microsoft.com/757b8185-c5f5-4623-a410-63fd2f74e34f">CM_Get_Device_ID_Ex</a>.
 
 The size value supplied in the location pointed to by <i>pulLen</i> is less than MAX_DEVICE_ID_LEN, and does not include the identifier string's terminating <b>NULL</b>. If the specified device instance does not exist, the function supplies a size value of zero.
 
 For information about device instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -113,15 +114,15 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>
+<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538411">CM_Get_Device_ID_Ex</a>
+<a href="https://msdn.microsoft.com/757b8185-c5f5-4623-a410-63fd2f74e34f">CM_Get_Device_ID_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538441">CM_Get_Device_ID_Size</a>
+<a href="https://msdn.microsoft.com/3ae682d0-d9fa-4a29-8258-c6f72f1940b7">CM_Get_Device_ID_Size</a>
  
 
  

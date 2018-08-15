@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,7 +79,7 @@ A handle to the window whose client area is used for the conversion.
 
 ### -param lpPoint [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that contains the client coordinates to be converted. The new screen coordinates are copied into this structure if the function succeeds.
+A pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the client coordinates to be converted. The new screen coordinates are copied into this structure if the function succeeds.
 
 
 ## -returns
@@ -96,14 +97,14 @@ If the function fails, the return value is zero.
 
 
 
-The <b>ClientToScreen</b> function replaces the client-area coordinates in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure with the screen coordinates. The screen coordinates are relative to the upper-left corner of the screen. Note, a screen-coordinate point that is above the window's client area has a negative y-coordinate. Similarly, a screen coordinate to the left of a client area has a negative x-coordinate.
+The <b>ClientToScreen</b> function replaces the client-area coordinates in the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure with the screen coordinates. The screen coordinates are relative to the upper-left corner of the screen. Note, a screen-coordinate point that is above the window's client area has a negative y-coordinate. Similarly, a screen coordinate to the left of a client area has a negative x-coordinate.
 
 All coordinates are device coordinates.
 
 
 #### Examples
 
-For an example, see "Drawing Lines with the Mouse" in <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Using Mouse Input</a>.
+For an example, see "Drawing Lines with the Mouse" in <a href="_win32_Using_Mouse_Input_cpp">Using Mouse Input</a>.
 
 <div class="code"></div>
 
@@ -126,7 +127,7 @@ For an example, see "Drawing Lines with the Mouse" in <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 

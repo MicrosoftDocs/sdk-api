@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -88,7 +89,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-This method differs from <a href="https://msdn.microsoft.com/en-us/library/Bb773937(v=VS.85).aspx">ITextRange::GetChar</a> in the following ways:<ul>
+This method differs from <a href="https://msdn.microsoft.com/e6de647e-c3db-4038-8d7e-4b36fdbf3577">ITextRange::GetChar</a> in the following ways:<ul>
 <li>It returns the UTF-32 character for the surrogate pair instead of the pair's lead code.</li>
 <li>It gets the character code, or codes, at the specified offset from the end of the range instead of the character at the start of the range. </li>
 </ul>

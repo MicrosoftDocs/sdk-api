@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: austream.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ The <code>SetFormat</code> method sets the current data format.
 
 ### -param lpWaveFormat [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that will contain the current data format.
+Pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure that will contain the current data format.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures that represent Windows users or groups.
+The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that represent Windows users or groups.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https
 
 ### -field UsersCount
 
-The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures in the <b>UserSidArray</b> array.
+The number of <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures in the <b>UserSidArray</b> array.
 
 
 ### -field UserSidArray.size_is
@@ -76,7 +77,7 @@ The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556
 
 ### -field UserSidArray
 
-A pointer to an array of pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structures that specify Windows users or groups.
+A pointer to an array of pointers to <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures that specify Windows users or groups.
 
 
 ## -see-also
@@ -88,7 +89,7 @@ A pointer to an array of pointers to <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -150,7 +151,7 @@ The Mobile Broadband service is not running on this system.
 
 
 
-The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="https://msdn.microsoft.com/en-us/library/Dd323216(v=VS.85).aspx">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
+The <b>contextID</b> of <i>provisionedContexts</i> specifies the index in the device or SIM memory where the context is to be stored.  If it is set to <a href="mbn_context_constants.htm">MBN_CONTEXT_ID_APPEND</a>, then the device shall find the appropriate index to store the context.
 
 This is an asynchronous operation and <b>SetProvisionedContext</b> will return immediately. When the operation is complete, the Mobile Broadband service will notify the application by calling the <a href="https://msdn.microsoft.com/06e1071d-c541-4824-9b56-f2d18f41e972">OnSetProvisionedContextComplete</a> method of <a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>.
 

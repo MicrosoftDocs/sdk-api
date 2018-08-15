@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ Removes a container's menu elements from the composite menu.
 
 ### -param hmenuShared [in]
 
-A handle to the in-place composite menu that was constructed by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a> and the <a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a> function.
+A handle to the in-place composite menu that was constructed by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a> and the <a href="_win32_InsertMenu_cpp">InsertMenu</a> function.
 
 
 ## -returns
@@ -128,7 +129,7 @@ This method is called by the object application while it is being UI-deactivated
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a>
+<a href="_win32_InsertMenu_cpp">InsertMenu</a>
  
 
  

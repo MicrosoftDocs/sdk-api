@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -68,7 +69,7 @@ Marks the end of a value list.
 
 ### -field CLUSPROP_SYNTAX_NAME
 
-Describes a property name, such as the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> 
+Describes a property name, such as the <a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a> 
        property for resources and the <a href="https://msdn.microsoft.com/a16f245e-6191-428a-acfa-b70294633ecb">NodeName</a> property for 
        nodes. A property name is represented by a 
        <a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa0060">CLUSPROP_PROPERTY_NAME</a> structure.
@@ -119,7 +120,7 @@ Describes a null-terminated Unicode string value with expanded references to env
 
 ### -field CLUSPROP_SYNTAX_LIST_VALUE_SECURITY_DESCRIPTOR
 
-Describes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> in 
+Describes a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> in 
        <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> format 
        in a property list. For more information about self-relative security descriptors, see 
        <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
@@ -164,7 +165,7 @@ Describes a master boot record (MBR) disk signature value represented by a
 
 Describes the address for an <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> resource. IP 
        Address resources store this address in their 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> private property. A SCSI address value 
+       <a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a> private property. A SCSI address value 
        is represented by a <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
        structure.
 

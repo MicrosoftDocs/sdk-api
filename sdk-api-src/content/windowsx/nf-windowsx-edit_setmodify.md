@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761651(v=VS.85).aspx">EM_SETMODIFY</a> message explicitly.
+Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/9393f03e-0719-458b-8122-616df738c417">EM_SETMODIFY</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761651(v=VS.85).aspx">EM_SETMODIFY</a>.
+For more information, see <a href="https://msdn.microsoft.com/9393f03e-0719-458b-8122-616df738c417">EM_SETMODIFY</a>.
 
 
 

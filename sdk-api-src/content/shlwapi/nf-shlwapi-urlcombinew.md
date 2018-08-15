@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -153,6 +154,11 @@ Un-escape any escape sequences that the URLs contain, with two exceptions. The e
 Treat '/./' and '/../' in a URL string as literal characters, not as shorthand for navigation. See Remarks for further discussion.
 
 
+##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
+
+<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
+
+
 ##### - dwFlags.URL_ESCAPE_PERCENT (0x00001000)
 
 Convert any occurrence of '%' to its escape sequence.
@@ -181,11 +187,6 @@ Combine URLs with client-defined pluggable protocols, according to the W3C speci
 ##### - dwFlags.URL_UNESCAPE (0x10000000)
 
 Un-escape any escape sequences that the URLs contain, with two exceptions. The escape sequences for '?' and '#' are not un-escaped. If one of the URL_ESCAPE_XXX flags is also set, the two URLs are first un-escaped, then combined, then escaped.
-
-
-##### - dwFlags.URL_ESCAPE_AS_UTF8 (0x00040000)
-
-<b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
 
 ## -returns
@@ -279,7 +280,7 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
 
 
 

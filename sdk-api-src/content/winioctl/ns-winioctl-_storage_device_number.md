@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Contains information about a device. This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560551">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> control code.
+Contains information about a device. This structure is used by the <a href="https://msdn.microsoft.com/2cd9610b-aa83-4d0a-a7a9-1d4dab8be331">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> control code.
 
 
 ## -struct-fields
@@ -466,7 +467,7 @@ The values in the <b>STORAGE_DEVICE_NUMBER</b> structure are guaranteed to remai
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560551">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
+<a href="https://msdn.microsoft.com/2cd9610b-aa83-4d0a-a7a9-1d4dab8be331">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
  
 
  

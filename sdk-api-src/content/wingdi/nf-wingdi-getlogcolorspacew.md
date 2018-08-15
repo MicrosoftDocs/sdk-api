@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>GetLogColorSpace</b> function retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> definition identified by a specified handle.
+The <b>GetLogColorSpace</b> function retrieves the <a href="c.htm">color space</a> definition identified by a specified handle.
 
 
 ## -parameters
@@ -107,7 +108,7 @@ If this function fails, the return value is <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
  
 
  

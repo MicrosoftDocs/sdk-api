@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sensorsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -73,16 +74,6 @@ Specifies the accuracy of the magnetometer.
 
 
 
-#### - Unknown
-
-This value is not used. 
-
-
-#### - Unreliable
-
-The reported values have a high degree of inaccuracy. Apps will typically ask the user to calibrate the device whenever this value is returned.
-
-
 #### - Approximate
 
 The actual and reported values differ but may be accurate enough for some application. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration. 
@@ -91,6 +82,16 @@ The actual and reported values differ but may be accurate enough for some applic
 #### - High
 
 The actual and reported values are accurate. No additional calibration is needed. 
+
+
+#### - Unknown
+
+This value is not used. 
+
+
+#### - Unreliable
+
+The reported values have a high degree of inaccuracy. Apps will typically ask the user to calibrate the device whenever this value is returned.
 
 
 ## -remarks

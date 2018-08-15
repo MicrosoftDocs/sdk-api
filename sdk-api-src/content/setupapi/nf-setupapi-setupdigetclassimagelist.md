@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>SetupDiGetClassImageList</b> function builds an image list that contains 
 
 ### -param ClassImageListData [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552339">SP_CLASSIMAGELIST_DATA</a> structure to receive information regarding the class image list, including a handle to the image list. The <b>cbSize</b> field of this structure must be initialized with the size of the structure, in bytes, before calling this function or it will fail.
+A pointer to an <a href="https://msdn.microsoft.com/89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab">SP_CLASSIMAGELIST_DATA</a> structure to receive information regarding the class image list, including a handle to the image list. The <b>cbSize</b> field of this structure must be initialized with the size of the structure, in bytes, before calling this function or it will fail.
 
 
 ## -returns
@@ -77,9 +78,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-The image list built by this function should be destroyed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550995">SetupDiDestroyClassImageList</a>.
+The image list built by this function should be destroyed by calling <a href="https://msdn.microsoft.com/47ccc16c-b061-489b-b534-5b5929c5d010">SetupDiDestroyClassImageList</a>.
 
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551081">SetupDiGetClassImageListEx</a> to retrieve the image list for classes installed on a remote computer.
+Call <a href="https://msdn.microsoft.com/f9cf7904-3fda-4f7f-bb05-3634fd1c9af3">SetupDiGetClassImageListEx</a> to retrieve the image list for classes installed on a remote computer.
 
 
 
@@ -89,11 +90,11 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551081">Setu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550995">SetupDiDestroyClassImageList</a>
+<a href="https://msdn.microsoft.com/47ccc16c-b061-489b-b534-5b5929c5d010">SetupDiDestroyClassImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551081">SetupDiGetClassImageListEx</a>
+<a href="https://msdn.microsoft.com/f9cf7904-3fda-4f7f-bb05-3634fd1c9af3">SetupDiGetClassImageListEx</a>
  
 
  

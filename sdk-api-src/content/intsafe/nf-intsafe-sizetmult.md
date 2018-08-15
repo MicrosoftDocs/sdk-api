@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,6 +77,13 @@ TBD
 
 
 
+#### - pullResult [out]
+
+Type: <b>size_t*</b>
+
+A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+
+
 #### - ullMultiplicand [in]
 
 Type: <b>size_t</b>
@@ -88,13 +96,6 @@ The value to be multiplied by <i>cbMultiplier</i>.
 Type: <b>size_t</b>
 
 The value by which to multiply <i>cbMultiplicand</i>.
-
-
-#### - pullResult [out]
-
-Type: <b>size_t*</b>
-
-A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Property_Keys
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ A pointer to a GUID that represents a device setup class or a device interface c
 
 ### -param PropertyKeyArray [out, optional]
 
-A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device class. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
+A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device class. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyKeyCount [in]
@@ -238,9 +239,9 @@ A caller of <b>SetupDiGetClassPropertyKeys</b> must be a member of the Administr
 
 If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetClassPropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetClassPropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
 
-To retrieve a device class property on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551086">SetupDiGetClassProperty</a>. To set a device class property on a local computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552128">SetupDiSetClassProperty</a>.
+To retrieve a device class property on a local computer, call <a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>. To set a device class property on a local computer, call <a href="https://msdn.microsoft.com/12402336-9894-4d0d-b176-c6907e0cdcd4">SetupDiSetClassProperty</a>.
 
-To retrieve the property keys for a device setup class or device interface class on a remote computer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551093">SetupDiGetClassPropertyKeysEx</a>.
+To retrieve the property keys for a device setup class or device interface class on a remote computer, call <a href="https://msdn.microsoft.com/dde6fdbd-e189-4ec7-95c7-b655ea7083c1">SetupDiGetClassPropertyKeysEx</a>.
 
 
 
@@ -250,15 +251,15 @@ To retrieve the property keys for a device setup class or device interface class
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551086">SetupDiGetClassProperty</a>
+<a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551093">SetupDiGetClassPropertyKeysEx</a>
+<a href="https://msdn.microsoft.com/dde6fdbd-e189-4ec7-95c7-b655ea7083c1">SetupDiGetClassPropertyKeysEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552128">SetupDiSetClassProperty</a>
+<a href="https://msdn.microsoft.com/12402336-9894-4d0d-b176-c6907e0cdcd4">SetupDiSetClassProperty</a>
  
 
  

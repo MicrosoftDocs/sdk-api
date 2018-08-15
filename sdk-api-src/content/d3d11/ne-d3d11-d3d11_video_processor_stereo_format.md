@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -67,7 +68,7 @@ The sample does not contain stereo data.  If the stereo format is not specified,
 
 Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 
-<img alt="Side-by-side packing" src="./images/dxgistereo3d02.png"/>
+<img alt="Side-by-side packing" src="images/dxgistereo3d02.png"/>
 
 All drivers that support stereo video must support this format.
 
@@ -76,7 +77,7 @@ All drivers that support stereo video must support this format.
 
 Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 
-<img alt="Top-to-bottom packing" src="./images/dxgistereo3d01.png"/>
+<img alt="Top-to-bottom packing" src="images/dxgistereo3d01.png"/>
 
 All drivers that support stereo video must support this format.
 
@@ -101,7 +102,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed into interleaved rows, as shown in the following diagram.
 
-<img alt="Interleaved rows" src="./images/dxgistereo3d03.png"/>
+<img alt="Interleaved rows" src="images/dxgistereo3d03.png"/>
 
 Support for this stereo format is optional.
 
@@ -110,7 +111,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed into interleaved columns, as shown in the following diagram.
 
-<img alt="Interleaved columns" src="./images/dxgistereo3d04.png"/>
+<img alt="Interleaved columns" src="images/dxgistereo3d04.png"/>
 
 Support for this stereo format is optional.
 
@@ -119,7 +120,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed in a checkerboard format, as shown in the following diagram.
 
-<img alt="Checkerboard packing" src="./images/dxgistereo3d05.png"/>
+<img alt="Checkerboard packing" src="images/dxgistereo3d05.png"/>
 
 Support for this stereo format is optional.
 
@@ -128,7 +129,7 @@ Support for this stereo format is optional.
 
 
 
-This enumeration designates the two stereo views as "frame 0" and "frame 1". The <i>LeftViewFrame0</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439817">VideoProcessorSetStreamStereoFormat</a> method specifies which view is the left view, and which is the right view.
+This enumeration designates the two stereo views as "frame 0" and "frame 1". The <i>LeftViewFrame0</i> parameter of the <a href="https://msdn.microsoft.com/FAAE902A-622E-42D2-B332-CD4126A4182E">VideoProcessorSetStreamStereoFormat</a> method specifies which view is the left view, and which is the right view.
 
 For packed formats, if the source rectangle clips part of the surface, the driver interprets the rectangle in logical coordinates relative to the stereo view,  rather than absolute pixel coordinates. The result is that frame 0 and frame 1 are clipped proportionately.
 

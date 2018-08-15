@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -84,7 +85,7 @@ Returns the frequency divider value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -95,7 +96,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Vertex shaders can now be invoked more than once per vertex. See <a href="https://msdn.microsoft.com/en-us/library/Bb173349(v=VS.85).aspx">Drawing Non-Indexed Geometry</a>.
+Vertex shaders can now be invoked more than once per vertex. See <a href="https://msdn.microsoft.com/d8d9b0c8-b1c4-406d-bf2a-9716d725aec7">Drawing Non-Indexed Geometry</a>.
 
 
 
@@ -105,11 +106,11 @@ Vertex shaders can now be invoked more than once per vertex. See <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174460(v=VS.85).aspx">IDirect3DDevice9::SetStreamSourceFreq</a>
+<a href="https://msdn.microsoft.com/12fdf57b-25c6-4896-b0a2-931b1a546c35">IDirect3DDevice9::SetStreamSourceFreq</a>
  
 
  

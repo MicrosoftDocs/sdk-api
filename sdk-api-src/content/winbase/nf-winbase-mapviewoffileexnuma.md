@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -300,8 +301,8 @@ The exception is related to remote files. Although
     merged.
 
 A mapped view of a file is not guaranteed to be coherent with a file being accessed by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
+    <a href="base.readfile">ReadFile</a> or 
+    <a href="base.writefile">WriteFile</a> function.
 
 To guard against <b>EXCEPTION_IN_PAGE_ERROR</b> exceptions, use structured exception 
     handling to protect any code that writes to or reads from a memory mapped view of a file other than the page file. 
@@ -415,7 +416,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -431,7 +432,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

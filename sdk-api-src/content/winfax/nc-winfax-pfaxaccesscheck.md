@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ A fax client application calls the <b>FaxAccessCheck</b> function to query the f
 
 Type: <b>HANDLE</b>
 
-Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a> function.
+Specifies a fax server handle returned by a call to the <a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a> function.
 
 
 ### -param AccessMask [in]
@@ -88,7 +89,7 @@ Specifies a <b>DWORD</b> variable that contains a set of bit flags defining a us
 </ul>
 
 
-For a detailed description of these values, see <a href="https://msdn.microsoft.com/en-us/library/ms691834(v=VS.85).aspx">Generic Fax Access Rights</a> and <a href="https://msdn.microsoft.com/en-us/library/ms692302(v=VS.85).aspx">Specific Fax Access Rights</a>.
+For a detailed description of these values, see <a href="https://msdn.microsoft.com/e762ddce-237a-4b30-a52c-269fed36dcac">Generic Fax Access Rights</a> and <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">Specific Fax Access Rights</a>.
 
 
 ## -returns
@@ -110,7 +111,7 @@ If the function fails, the return value is also zero, but <a href="https://msdn.
 
 
 
-The fax service is a secure service. Users must have certain access privileges to successfully call fax service functions. Call the <b>FaxAccessCheck</b> function to programmatically check a user's fax access permissions. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692808(v=VS.85).aspx">Checking the Access Rights of Users</a> and <a href="https://msdn.microsoft.com/en-us/library/ms692351(v=VS.85).aspx">Fax Client User Access Rights</a>.
+The fax service is a secure service. Users must have certain access privileges to successfully call fax service functions. Call the <b>FaxAccessCheck</b> function to programmatically check a user's fax access permissions. For more information, see <a href="https://msdn.microsoft.com/a3ae7da1-e61d-469f-9158-339e1c12d9d7">Checking the Access Rights of Users</a> and <a href="https://msdn.microsoft.com/227d7c41-a37c-4c2c-a6be-eaced047ccbf">Fax Client User Access Rights</a>.
 
 The fax service administration application, a Microsoft Management Console (MMC) snap-in component, is also available for users to query and modify job access, port access, and global configuration data access privileges.
 
@@ -122,15 +123,15 @@ The fax service administration application, a Microsoft Management Console (MMC)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
  
 
  

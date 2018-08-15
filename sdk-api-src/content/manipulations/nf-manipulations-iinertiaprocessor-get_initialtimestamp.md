@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -78,7 +79,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a>
+<a href="https://msdn.microsoft.com/47fd1a49-8e14-4076-8ce6-f0c4917e8cf1">Properties</a>
  
 
  

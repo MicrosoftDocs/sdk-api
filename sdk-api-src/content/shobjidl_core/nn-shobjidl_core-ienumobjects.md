@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumObjects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/17dd1539-cf98-4cbf-8c06-4e21123f6f54">Clone</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -80,7 +81,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/5c79d3e2-c1c9-4529-9a60-457c2d2e6af5">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number and type of objects.
@@ -89,7 +90,7 @@ Gets the next specified number and type of objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/646ffef2-294e-461d-97e4-39cb68bb85df">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration index to 0.
@@ -98,7 +99,7 @@ Resets the enumeration index to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/227be42b-c821-40f4-8bcb-9990d1ceefeb">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of objects.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pwm.h
 req.include-header: Pwm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -76,11 +77,11 @@ Active Low.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843919(v=VS.85).aspx">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

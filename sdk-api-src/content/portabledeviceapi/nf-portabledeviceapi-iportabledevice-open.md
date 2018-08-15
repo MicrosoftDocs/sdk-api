@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,9 +70,9 @@ A pointer to a null-terminated string that contains the Plug and Play ID string 
 
 ### -param pClientInfo [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
+A pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
 
- See properties beginning with "WPD_CLIENT_" in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> section.
+ See properties beginning with "WPD_CLIENT_" in the <a href="https://msdn.microsoft.com/3bfbe8d0-6ad5-42de-afdd-d83328aaaa62">Properties</a> section.
           
 
 
@@ -130,7 +131,7 @@ At least one of the arguments was a NULL pointer.
 
 
 
-A device must be opened before you can call any methods on it. (Note that the <a href="https://msdn.microsoft.com/11cd5b2b-e8f8-4ba1-8527-f7a403f399d5">IPortableDeviceManager</a> methods do not require you to open a device before calling any methods.) However, usually you do not need to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>.
+A device must be opened before you can call any methods on it. (Note that the <a href="https://msdn.microsoft.com/11cd5b2b-e8f8-4ba1-8527-f7a403f399d5">IPortableDeviceManager</a> methods do not require you to open a device before calling any methods.) However, usually you do not need to call <a href="https://msdn.microsoft.com/aa60a439-7589-465e-98e5-56b93d594f96">Close</a>.
 
 Administrators can restrict the access of portable devices to computers running on a network. For example, an administrator may restrict all Guest users to read-only access, while Authenticated users are given read/write access.
       

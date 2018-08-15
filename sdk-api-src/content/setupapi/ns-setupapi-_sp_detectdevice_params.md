@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ An SP_DETECTDEVICE_PARAMS structure corresponds to a DIF_DETECT installation req
 
 ### -field ClassInstallHeader
 
-An install request header that contains the size of the header and the DIF code for the request. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>. 
+An install request header that contains the size of the header and the DIF code for the request. See <a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>. 
 
 
 ### -field DetectProgressNotify
 
-A callback routine that displays a progress bar for the device detection operation. The callback routine is supplied by the <a href="devinst.device_installation_components">device installation component</a> that sends the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543674">DIF_DETECT</a> request. The callback has the following prototype:
+A callback routine that displays a progress bar for the device detection operation. The callback routine is supplied by the <a href="devinst.device_installation_components">device installation component</a> that sends the <a href="https://msdn.microsoft.com/866a99fc-f48e-447d-b5eb-6339dc98d3f2">DIF_DETECT</a> request. The callback has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -96,15 +97,15 @@ The opaque <b>ProgressNotifyParam</b> "handle" that the class installer passes t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543674">DIF_DETECT</a>
+<a href="https://msdn.microsoft.com/866a99fc-f48e-447d-b5eb-6339dc98d3f2">DIF_DETECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>
+<a href="https://msdn.microsoft.com/9f76b741-d2a7-484d-94cb-b559b017399d">SP_CLASSINSTALL_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a>
+<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
  
 
  

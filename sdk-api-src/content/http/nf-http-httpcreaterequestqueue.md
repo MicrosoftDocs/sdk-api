@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -80,13 +81,6 @@ A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a3
 This parameter must be <b>NULL</b> when opening an existing request queue.
 
 
-#### - pName [in, optional]
-
-The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
-
-  The optional name parameter allows other processes to access the request queue by name.
-
-
 #### - Flags [in, optional]
 
 The flags parameter defines the scope of the request queue. This parameter can be one or more of the followng:
@@ -118,6 +112,13 @@ The handle to the request queue created using this flag cannot be used to perfor
 </tr>
 </table>
  
+
+
+#### - pName [in, optional]
+
+The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
+
+  The optional name parameter allows other processes to access the request queue by name.
 
 
 #### - pReqQueueHandle [out]

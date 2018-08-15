@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the text of the note associated with a specified command link button. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775977(v=VS.85).aspx">BCM_SETNOTE</a> message explicitly.
+Sets the text of the note associated with a specified command link button. You can use this macro or send the <a href="https://msdn.microsoft.com/c167072a-8207-4744-ac66-247141d726ab">BCM_SETNOTE</a> message explicitly.
 
 
 ## -parameters
@@ -88,11 +89,11 @@ This macro works only with the <a href="Button_Styles.htm">BS_COMMANDLINK</a> an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://msdn.microsoft.com/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b">Button Types</a>
 
 
 

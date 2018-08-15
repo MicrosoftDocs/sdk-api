@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -250,7 +251,7 @@ Data format of the object to be converted or activated.
 
 ### -field hMetaPict
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
+The <a href="_win32_METAFILEPICT_str">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
 
 
 

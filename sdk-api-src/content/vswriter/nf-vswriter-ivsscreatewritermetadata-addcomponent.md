@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -127,7 +128,7 @@ A Boolean that indicates whether the component can be optionally backed up (whic
 ### -param bSelectableForRestore [in]
 
 A Boolean that determines whether a component can be individually restored when it has not been 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa384655(v=VS.85).aspx">explicitly included</a> in 
+      <a href="vssgloss_e.htm">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       

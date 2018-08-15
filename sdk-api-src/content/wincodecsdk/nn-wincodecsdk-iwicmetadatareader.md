@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IWICMetadataReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/ce9b0267-112a-4aa9-8786-272ee4da4d8b">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of metadata items within the reader.
@@ -107,7 +108,7 @@ Gets the metadata handler info associated with the reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/7ae1328d-cda7-4522-9bcf-2c4b16fd6984">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata item value.

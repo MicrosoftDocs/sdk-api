@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ Obtains the attached surface that has the specified capabilities, and increments
 
 #### - lpDDSCaps [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a> structure that indicates the hardware capabilities of the attached surface.
+A pointer to a <a href="https://msdn.microsoft.com/a2fd448c-0ae1-43cd-8561-77d537b741e7">DDSCAPS2</a> structure that indicates the hardware capabilities of the attached surface.
 
 
 #### - lplpDDAttachedSurface [out]

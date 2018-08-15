@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -67,7 +68,7 @@ A pointer to an <b>ANSI_STRING</b> structure to hold the converted ANSI string. 
 
 ### -param SourceString [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
+The <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
 
 
 ### -param AllocateDestinationString [in]
@@ -78,7 +79,7 @@ Controls allocation of the buffer space for the <i>DestinationString</i>.
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/library/windows/hardware/ff561899">RtlFreeAnsiString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://msdn.microsoft.com/b0feaf20-cca7-4f3e-b2f0-7cd972c2df36">RtlFreeAnsiString</a>.
 
 
 

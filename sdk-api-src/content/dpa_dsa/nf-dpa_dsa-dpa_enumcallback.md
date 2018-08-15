@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -99,7 +100,7 @@ No return value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775713(v=VS.85).aspx">PFNDAENUMCALLBACKCONST</a>
+<a href="https://msdn.microsoft.com/2fe1546f-d517-4d63-a3a6-1d3ea0238b3d">PFNDAENUMCALLBACKCONST</a>
  
 
  

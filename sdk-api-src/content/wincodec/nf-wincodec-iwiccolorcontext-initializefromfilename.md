@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -92,7 +93,7 @@ Once a color context has been initialized, it can't be re-initialized.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316928(v=VS.85).aspx">GetColorDirectory</a>
+<a href="_color_GetColorDirectory">GetColorDirectory</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the number of items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761044(v=VS.85).aspx">LVM_GETITEMCOUNT</a> message explicitly. 
+Gets the number of items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/7c639d69-e42c-41b5-9fdd-4943166752a2">LVM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters

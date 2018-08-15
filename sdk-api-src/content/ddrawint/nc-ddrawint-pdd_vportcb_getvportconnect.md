@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdVideoPortGetConnectInfo</i> callback function returns the connections s
 
 #### - lpGetConnect
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551595">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
+Points to a <a href="https://msdn.microsoft.com/74cea50f-b8fd-4c32-815f-19f075b74838">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
 
 
 ## -returns
@@ -95,7 +96,7 @@ In the first call, the <b>lpConnect</b> member of the DD_GETVPORTCONNECTDATA str
 
 </li>
 <li>
-In the second call, <b>lpConnect</b> points to the array of allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff550388">DDVIDEOPORTCONNECT</a> structures. The driver should fill in each structure to describe each connection that the VPE object supports. The driver should also return the number of supported connections in <b>dwNumEntries</b>. Note that the driver is guaranteed that the buffer to which <b>lpConnect</b> points is large enough to hold the connection information being requested.
+In the second call, <b>lpConnect</b> points to the array of allocated <a href="https://msdn.microsoft.com/54c1bb05-37a8-4841-808b-2eb9d1ecd7a3">DDVIDEOPORTCONNECT</a> structures. The driver should fill in each structure to describe each connection that the VPE object supports. The driver should also return the number of supported connections in <b>dwNumEntries</b>. Note that the driver is guaranteed that the buffer to which <b>lpConnect</b> points is large enough to hold the connection information being requested.
 
 </li>
 </ul>
@@ -107,11 +108,11 @@ In the second call, <b>lpConnect</b> points to the array of allocated <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550388">DDVIDEOPORTCONNECT</a>
+<a href="https://msdn.microsoft.com/54c1bb05-37a8-4841-808b-2eb9d1ecd7a3">DDVIDEOPORTCONNECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551595">DD_GETVPORTCONNECTDATA</a>
+<a href="https://msdn.microsoft.com/74cea50f-b8fd-4c32-815f-19f075b74838">DD_GETVPORTCONNECTDATA</a>
  
 
  

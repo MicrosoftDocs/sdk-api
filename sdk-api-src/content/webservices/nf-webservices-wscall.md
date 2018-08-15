@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -86,7 +87,7 @@ The number of elements must correspond to the number of parameters specified as 
 
 ### -param heap [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> from which memory is allocated for the call.
+Pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a> from which memory is allocated for the call.
                 
 
 

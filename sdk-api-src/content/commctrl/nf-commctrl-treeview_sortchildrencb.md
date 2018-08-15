@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773785(v=VS.85).aspx">TVM_SORTCHILDRENCB</a> message explicitly. 
+Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the <a href="https://msdn.microsoft.com/1669e576-5e57-49f6-8097-7d6547306014">TVM_SORTCHILDRENCB</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +70,7 @@ Handle to the tree-view control.
 
 Type: <b>LPTVSORTCB</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773462(v=VS.85).aspx">TVSORTCB</a> structure. The <b>lpfnCompare</b> member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of <b>TVSORTCB</b>. 
+Pointer to a <a href="https://msdn.microsoft.com/e6334b6e-d892-46fb-a225-cd779680e65d">TVSORTCB</a> structure. The <b>lpfnCompare</b> member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of <b>TVSORTCB</b>. 
 
 
 ### -param recurse

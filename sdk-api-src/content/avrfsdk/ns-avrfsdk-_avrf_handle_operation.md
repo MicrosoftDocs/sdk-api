@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,7 +71,7 @@ A unique identifier associated with the process in which the application is runn
 
 ### -field ThreadId
 
-A unique identifier of the thread (returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546542">GetCurrentThreadId</a> function) that has performed an operation on the given handle.
+A unique identifier of the thread (returned by the <a href="https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2">GetCurrentThreadId</a> function) that has performed an operation on the given handle.
 
 
 ### -field OperationType

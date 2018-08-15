@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -813,7 +814,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For display devices only, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
+For display devices only, a <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
               
 
 
@@ -1263,17 +1264,20 @@ This member must be zero.
 <a id="DMBIN_TRACTOR"></a>
 <a id="dmbin_tractor"></a>
 
-##### - dmDefaultSource.DMBIN_TRACTOR
-
-<a id="DMBIN_SMALLFMT"></a>
-<a id="dmbin_smallfmt"></a>
-
 ##### - dmDefaultSource.DMBIN_SMALLFMT
 
 <a id="DMBIN_UPPER"></a>
 <a id="dmbin_upper"></a>
 
+##### - dmDefaultSource.DMBIN_TRACTOR
+
+<a id="DMBIN_SMALLFMT"></a>
+<a id="dmbin_smallfmt"></a>
+
 ##### - dmDefaultSource.DMBIN_UPPER
+
+
+##### - dmPrintQuality.DMRES_DRAFT
 
 
 ##### - dmPrintQuality.DMRES_HIGH
@@ -1281,18 +1285,15 @@ This member must be zero.
 <a id="DMRES_MEDIUM"></a>
 <a id="dmres_medium"></a>
 
-##### - dmPrintQuality.DMRES_MEDIUM
-
-<a id="DMRES_LOW"></a>
-<a id="dmres_low"></a>
-
 ##### - dmPrintQuality.DMRES_LOW
 
 <a id="DMRES_DRAFT"></a>
 <a id="dmres_draft"></a>
 
-##### - dmPrintQuality.DMRES_DRAFT
+##### - dmPrintQuality.DMRES_MEDIUM
 
+<a id="DMRES_LOW"></a>
+<a id="dmres_low"></a>
 
 ## -remarks
 
@@ -1345,7 +1346,7 @@ A device driver's private data follows the public portion of the <b>DEVMODE</b> 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn614611">Printing</a>
+<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
  
 
  

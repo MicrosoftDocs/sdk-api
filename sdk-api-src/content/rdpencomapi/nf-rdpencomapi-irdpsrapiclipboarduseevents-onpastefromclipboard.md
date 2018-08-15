@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -61,7 +62,7 @@ This callback is issued when an attempt to copy data from the sharer computer is
 
 ### -param clipboardFormat [in]
 
-A clipboard format identifier. For more information about clipboard formats, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="https://msdn.microsoft.com/f0af4e61-7ef1-4263-b2c5-e4114515124f">Standard Clipboard Formats</a>.
+A clipboard format identifier. For more information about clipboard formats, see <a href="https://msdn.microsoft.com/fe42baec-6b00-4816-b379-7f335da8a197">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="https://msdn.microsoft.com/f0af4e61-7ef1-4263-b2c5-e4114515124f">Standard Clipboard Formats</a>.
 
 
 ### -param pAttendee [in]

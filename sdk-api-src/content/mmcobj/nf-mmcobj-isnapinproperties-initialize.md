@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmcobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -63,7 +64,7 @@ The
 ### -param pProperties [in]
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">Properties</a> collection that can be used by the snap-in for initialization.
+<a href="https://msdn.microsoft.com/40d3ebc4-5b91-4869-a6e2-6cc3b8d73b26">Properties</a> collection that can be used by the snap-in for initialization.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IDirect3DVertexDeclaration9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205920(v=VS.85).aspx">GetDeclaration</a>
+<a href="https://msdn.microsoft.com/ff80439b-38fb-47f0-ad38-429decd0d573">GetDeclaration</a>
 </td>
 <td align="left" width="63%">
 Gets the vertex shader declaration.
@@ -80,7 +81,7 @@ Gets the vertex shader declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/c183de38-ab09-4a8b-951a-b12ab4e6de26">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the current device.

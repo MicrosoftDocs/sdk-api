@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>ITfCandidateListUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/9009203a-71d1-49b2-823d-d6f04bf3743b">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the count of the candidate strings.
@@ -116,7 +117,7 @@ Returns the current selection of the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/85cf60e3-f068-499f-b726-9ccea3cd8503">GetString</a>
 </td>
 <td align="left" width="63%">
 Returns the string of the index.

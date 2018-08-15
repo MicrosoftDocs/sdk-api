@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control. It carries the substring that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761741(v=VS.85).aspx">DTN_FORMAT</a> notification code. 
+Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control. It carries the substring that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field. This structure is used with the <a href="https://msdn.microsoft.com/ce0ee230-638e-425f-9f34-c379342cea93">DTN_FORMAT</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +63,9 @@ Contains information about a portion of the format string that defines a callbac
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field pszFormat
@@ -87,7 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 A pointer to a null-terminated string that contains the display text of the control. By default, this is the address of the 
 					<b>szDisplay</b> member of this structure. It is acceptable to have <b>pszDisplay</b> point to an existing string. In this case, you do not need to assign a value to <b>szDisplay</b>. However, the string that 
-<b>pszDisplay</b> points to must remain valid until another <a href="https://msdn.microsoft.com/en-us/library/Bb761741(v=VS.85).aspx">DTN_FORMAT</a> notification is sent, or until the control is destroyed. 
+<b>pszDisplay</b> points to must remain valid until another <a href="https://msdn.microsoft.com/ce0ee230-638e-425f-9f34-c379342cea93">DTN_FORMAT</a> notification is sent, or until the control is destroyed. 
 
 
 ### -field szDisplay

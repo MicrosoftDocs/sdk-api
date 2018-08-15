@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -56,7 +57,7 @@ req.irql:
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff538463">CM_Get_Device_Interface_List</a> 
+     <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a> 
      function.
 
 
@@ -139,7 +140,7 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538463">CM_Get_Device_Interface_List</a>
+<a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>
  
 
  

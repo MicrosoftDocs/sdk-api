@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -85,7 +86,7 @@ The identifier of the local process to be opened.
 
 If the specified process is the System Process (0x00000000), the function fails and the last error code is ERROR_INVALID_PARAMETER. If the specified process is the Idle process or one of the CSRSS processes, this function fails and the last error code is ERROR_ACCESS_DENIED because their access restrictions prevent user-level code from opening them.
 
-If you are using <a href="https://msdn.microsoft.com/library/windows/hardware/ff545836">GetCurrentProcessId</a> as an argument to this function, consider using <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> instead of OpenProcess, for improved performance.
+If you are using <a href="https://msdn.microsoft.com/a442e147-0db0-4911-94de-91728a4b277a">GetCurrentProcessId</a> as an argument to this function, consider using <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> instead of OpenProcess, for improved performance.
 
 
 
@@ -136,7 +137,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 
@@ -152,7 +153,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545836">GetCurrentProcessId</a>
+<a href="https://msdn.microsoft.com/a442e147-0db0-4911-94de-91728a4b277a">GetCurrentProcessId</a>
 
 
 

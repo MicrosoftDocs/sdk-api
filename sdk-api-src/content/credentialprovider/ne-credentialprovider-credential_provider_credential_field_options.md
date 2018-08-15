@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -82,23 +83,23 @@ The field will only allow numerals to be entered. The on-screen keyboard should 
 
 
 
-#### - CPCFPO_NONE
-
-Default. Do not show the "password reveal" glyph and use the standard on-screen keyboard layout.
-
-
 #### - CPCFPO_ENABLE_PASSWORD_REVEAL
 
 Display the "password reveal" glyph in a password entry box. When this glyph is held down by the user, the entry in the password box is shown in plain text. The glyph is shown here:
 
                         
 
-<img alt="Password reveal glyph" src="./images/PasswordReveal.png"/>
+<img alt="Password reveal glyph" src="images/PasswordReveal.png"/>
 
 
 #### - CPCFPO_IS_EMAIL_ADDRESS
 
 The field will contain an e-mail address. The on-screen keyboard should be optimized for that input (showing the .com and @ keys on the primary keyboard layout). This option is used with Microsoft account credentials.
+
+
+#### - CPCFPO_NONE
+
+Default. Do not show the "password reveal" glyph and use the standard on-screen keyboard layout.
 
 
 ## -see-also

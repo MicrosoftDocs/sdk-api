@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winml.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -100,7 +101,7 @@ Enumerates the WinML model outputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/57B05316-8E6B-4490-B181-EB1717B15E31">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the WinML model description.

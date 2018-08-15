@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3dcsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -80,7 +81,7 @@ Performs a multiscan of a sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a>
+<a href="https://msdn.microsoft.com/42b91efd-3d84-4c76-bb9f-da0f398da6c7">Scan</a>
 </td>
 <td align="left" width="63%">
 Performs an unsegmented scan of a sequence.

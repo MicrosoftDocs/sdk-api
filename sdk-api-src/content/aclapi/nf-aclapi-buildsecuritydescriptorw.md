@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -97,7 +98,7 @@ The number of
 ### -param pListOfAccessEntries [in, optional]
 
 A pointer to an array of <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structures that describe access control information for the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) of the new security descriptor. The function creates the new DACL by merging the information in the array with the DACL in <i>pOldSD</i>, if any. If <i>pOldSD</i> is <b>NULL</b>, or if the DACL in <i>pOldSD</i> is <b>NULL</b>, the function creates a new DACL based solely on the information in the array. For a description of the rules for creating an 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a> from an array of <b>EXPLICIT_ACCESS</b> structures, see the 
+<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> from an array of <b>EXPLICIT_ACCESS</b> structures, see the 
 <a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> function. 
 
 
@@ -126,7 +127,7 @@ If <i>pListOfAuditEntries</i> is <b>NULL</b>, the new security descriptor gets t
 ### -param pOldSD [in, optional]
 
 A pointer to an existing self-relative 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure and its associated security information. The function builds the new security descriptor by merging the specified owner, group, access control, and audit-control information with the information in this security descriptor. This parameter can be <b>NULL</b>.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure and its associated security information. The function builds the new security descriptor by merging the specified owner, group, access control, and audit-control information with the information in this security descriptor. This parameter can be <b>NULL</b>.
 
 
 ### -param pSizeNewSD [out]
@@ -166,11 +167,11 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 
@@ -186,11 +187,11 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
 
 
 

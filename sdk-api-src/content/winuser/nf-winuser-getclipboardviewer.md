@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,7 +81,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -88,7 +89,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649041(v=VS.85).aspx">GetClipboardOwner</a>
+<a href="https://msdn.microsoft.com/96c06602-05ec-4f38-a53b-1729f2c1ce4f">GetClipboardOwner</a>
 
 
 
@@ -96,7 +97,7 @@ If there is no clipboard viewer, the return value is <b>NULL</b>. To get extende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649052(v=VS.85).aspx">SetClipboardViewer</a>
+<a href="https://msdn.microsoft.com/b1c9c0eb-388f-4fa1-9744-8ebd324cec4f">SetClipboardViewer</a>
  
 
  

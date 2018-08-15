@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msapofxproxy.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -61,7 +62,7 @@ The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used
 
 ### -field KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
 
-Specifies the ID of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn457706">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
+Specifies the ID of the <a href="https://msdn.microsoft.com/53FDAFE2-8E5C-42C7-A8F3-13666BA90D98">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
 
 
 ## -see-also
@@ -69,11 +70,11 @@ Specifies the ID of the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn457706">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
+<a href="https://msdn.microsoft.com/53FDAFE2-8E5C-42C7-A8F3-13666BA90D98">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn457709">KSPROPSETID_AudioEffectsDiscovery</a>
+<a href="https://msdn.microsoft.com/68229885-1446-4BF0-B4E1-96A777006567">KSPROPSETID_AudioEffectsDiscovery</a>
  
 
  

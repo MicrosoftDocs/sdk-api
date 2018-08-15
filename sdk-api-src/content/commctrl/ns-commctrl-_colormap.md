@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used by the <a href="https://msdn.microsoft.com/en-us/library/Bb787467(v=VS.85).aspx">CreateMappedBitmap</a> function to map the colors of the bitmap. 
+Contains information used by the <a href="https://msdn.microsoft.com/dc22a03b-e453-4d18-aa3d-af45e8e620e5">CreateMappedBitmap</a> function to map the colors of the bitmap. 
 
 
 ## -struct-fields

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commoncontrols.h
 req.include-header: Commctrl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761482(v=VS.85).aspx">IImageList::GetImageInfo</a> function. 
+Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/a08fbc4d-96f0-403d-8062-0592ab32dc5c">IImageList::GetImageInfo</a> function. 
 
 
 ## -struct-fields
@@ -88,7 +89,7 @@ Not used. This member should always be zero.
 
 ### -field rcImage
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The bounding rectangle of the specified image within the bitmap specified by 
 					<b>hbmImage</b>. 

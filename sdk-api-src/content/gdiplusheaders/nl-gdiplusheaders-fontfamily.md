@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-This <a href="https://msdn.microsoft.com/en-us/library/ms536168(v=VS.85).aspx">FontFamily</a> class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
+This <a href="https://msdn.microsoft.com/9d8f73d7-d6ea-44d4-be5c-a003f6eba508">FontFamily</a> class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
 
 
 ## -remarks

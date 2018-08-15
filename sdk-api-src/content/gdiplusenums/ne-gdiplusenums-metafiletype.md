@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>MetafileType</b> enumeration specifies types of metafiles. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a> method returns an element of this enumeration.
+			<a href="https://msdn.microsoft.com/42acdd2c-b87d-455a-83c0-0630bd552c45">MetafileHeader::GetType</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -95,7 +96,7 @@ Specifies an EMF+ Dual file. Such a file contains GDI+ records along with altern
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a>
+<a href="https://msdn.microsoft.com/42acdd2c-b87d-455a-83c0-0630bd552c45">MetafileHeader::GetType</a>
  
 
  

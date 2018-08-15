@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845693(v=VS.85).aspx">CurrentAnnotationObjects</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects">CurrentAnnotationObjects</a>
 
 
 

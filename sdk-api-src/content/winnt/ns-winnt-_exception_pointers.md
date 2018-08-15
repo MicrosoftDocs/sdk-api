@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -68,7 +69,7 @@ A pointer to an
 ### -field ContextRecord
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
 
 
 ## -see-also
@@ -76,7 +77,7 @@ A pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 

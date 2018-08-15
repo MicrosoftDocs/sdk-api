@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -148,7 +149,7 @@ If the method is successful, an
 
 
 The 
-<b>Instances_</b> method only works for class objects. It is not an error for the returned collection to have zero elements. The default behavior for this method is <a href="https://msdn.microsoft.com/en-us/library/Aa390836(v=VS.85).aspx">semisynchronous</a> because of the default <i>IFlags</i> value <b>wbemFlagReturnImmediately</b>.
+<b>Instances_</b> method only works for class objects. It is not an error for the returned collection to have zero elements. The default behavior for this method is <a href="gloss_s.htm">semisynchronous</a> because of the default <i>IFlags</i> value <b>wbemFlagReturnImmediately</b>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -100,7 +101,7 @@ Specifies the size, in bytes, of extra format information appended to the end of
 
 
 
-The WAVEFORMATEX structure can describe only a subset of the formats that can be described by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a> structure. For example, WAVEFORMATEX can describe mono or (two-channel) stereo pulse-code modulated (PCM) streams with 8-bit or 16-bit integer sample values, or with 32-bit floating-point sample values. In addition, WAVEFORMATEX can describe popular non-PCM formats such as AC-3 and WMA Pro.
+The WAVEFORMATEX structure can describe only a subset of the formats that can be described by the <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a> structure. For example, WAVEFORMATEX can describe mono or (two-channel) stereo pulse-code modulated (PCM) streams with 8-bit or 16-bit integer sample values, or with 32-bit floating-point sample values. In addition, WAVEFORMATEX can describe popular non-PCM formats such as AC-3 and WMA Pro.
 
 WAVEFORMATEX can unambiguously describe mono or stereo PCM formats for which the number of valid bits per sample is the same as the sample container size. To describe a PCM format with more than two channels requires WAVEFORMATEXTENSIBLE, which has a channel mask to specify the speaker configuration (that is, the mapping of channels to physical speaker positions). To describe a PCM format for which the number of valid bits per sample is less than the sample container size (for example, a 20-bit sample stored in a three-byte container) requires WAVEFORMATEXTENSIBLE, which specifies both the number of valid sample bits and the sample container size.
 
@@ -151,7 +152,7 @@ WAVE_FORMAT_EXTENSIBLE
 
 </td>
 <td>
-Extensible WAVEFORMATEX structure (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>).
+Extensible WAVEFORMATEX structure (see <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>).
 
 </td>
 </tr>
@@ -234,7 +235,7 @@ If <b>wFormatTag</b> = WAVE_FORMAT_EXTENSIBLE, set <b>cbSize</b> to <code>sizeof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>
+<a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>
  
 
  

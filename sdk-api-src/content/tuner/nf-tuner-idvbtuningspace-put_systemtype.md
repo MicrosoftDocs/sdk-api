@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_SystemType</b> method sets the system type.
 
 ### -param SysType [in]
 
-Variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff558733">DVBSystemType</a> that specifies the system type.
+Variable of type <a href="https://msdn.microsoft.com/b547ace8-5c6d-43c1-bfa8-2dd162227730">DVBSystemType</a> that specifies the system type.
 
 
 ## -returns

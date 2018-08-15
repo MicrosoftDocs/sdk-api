@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -91,21 +92,21 @@ Use this function to set a problem code for a device that is installed in a loca
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Get_DevNode_Status</a> returns the problem code set for a device installed in a local machine.
+<a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a> returns the problem code set for a device installed in a local machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538517">CM_Get_DevNode_Status_Ex</a> returns the problem code set for a device installed in a local or a remote machine.
+<a href="https://msdn.microsoft.com/3e7dd781-7f99-4c49-bbe1-8d2e63cff553">CM_Get_DevNode_Status_Ex</a> returns the problem code set for a device installed in a local or a remote machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539842">CM_Set_DevNode_Problem_Ex</a> sets a problem code for a device installed in a local or a remote machine.
+<a href="https://msdn.microsoft.com/2e3e2c3a-c507-4cc8-bc2c-823d0b597704">CM_Set_DevNode_Problem_Ex</a> sets a problem code for a device installed in a local or a remote machine.
 
 </li>
 </ul>
-For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538074">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
 
 
 
@@ -115,19 +116,19 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538074">CM_Get_Child</a>
+<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538514">CM_Get_DevNode_Status</a>
+<a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538517">CM_Get_DevNode_Status_Ex</a>
+<a href="https://msdn.microsoft.com/3e7dd781-7f99-4c49-bbe1-8d2e63cff553">CM_Get_DevNode_Status_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539842">CM_Set_DevNode_Problem_Ex</a>
+<a href="https://msdn.microsoft.com/2e3e2c3a-c507-4cc8-bc2c-823d0b597704">CM_Set_DevNode_Problem_Ex</a>
  
 
  

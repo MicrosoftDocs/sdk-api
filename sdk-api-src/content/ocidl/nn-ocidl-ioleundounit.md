@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -62,7 +63,7 @@ The object should retain a pointer to the undo manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoUnit</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleUndoUnit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoUnit</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleUndoUnit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -86,7 +87,7 @@ Instructs the undo unit to carry out its action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a>
+<a href="https://msdn.microsoft.com/8fd9c49c-a8f3-4a4a-b501-211a107c1305">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the undo unit that can be used in the undo or redo user interface.

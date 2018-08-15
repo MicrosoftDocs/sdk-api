@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,7 +67,7 @@ Contains the  error code for the failure.
 
 ### -field direction
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a> value that specifies whether the dropped packet is inbound or outbound.
+An <a href="https://msdn.microsoft.com/ae0eeb36-1a41-426a-9878-77558464a91b">FWP_DIRECTION</a> value that specifies whether the dropped packet is inbound or outbound.
 
 
 ### -field spi

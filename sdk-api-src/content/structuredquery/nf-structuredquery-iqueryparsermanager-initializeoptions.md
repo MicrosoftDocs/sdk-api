@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -76,7 +77,7 @@ Type: <b>BOOL</b>
 
 ### -param pQueryParser [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a>*</b>
 
 Pointer to the query parser object.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +63,7 @@ Defines an explicit piecewise curve made up of linear segments, directly definin
 ### -field pPoints
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419056(v=VS.85).aspx">X3DAUDIO_DISTANCE_CURVE_POINT</a> array. The array must have no duplicates and be sorted in ascending order with respect to distance.
+<a href="https://msdn.microsoft.com/29f8d152-b254-4b42-a985-d8412ea35037">X3DAUDIO_DISTANCE_CURVE_POINT</a> array. The array must have no duplicates and be sorted in ascending order with respect to distance.
 
 
 ### -field PointCount
@@ -85,7 +86,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
  
 
  

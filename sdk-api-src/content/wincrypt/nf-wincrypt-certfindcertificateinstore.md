@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>CertFindCertificateInStore</b> function finds the first or next certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that matches a search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">certificates</a> in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that match the specified find criteria.
+The <b>CertFindCertificateInStore</b> function finds the first or next certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that matches a search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificates</a> in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that match the specified find criteria.
 
 
 ## -parameters
@@ -495,7 +496,7 @@ No certificate was found matching the search criteria. This can happen if the st
 </dl>
 </td>
 <td width="60%">
-The handle in the <i>hCertStore</i> parameter is not the same as that in the certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> pointed to by the <i>pPrevCertContext</i> parameter, or a value that is not valid was specified in the <i>dwFindType</i> parameter.
+The handle in the <i>hCertStore</i> parameter is not the same as that in the certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> pointed to by the <i>pPrevCertContext</i> parameter, or a value that is not valid was specified in the <i>dwFindType</i> parameter.
 
 </td>
 </tr>
@@ -656,7 +657,7 @@ if(hSystemStore)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

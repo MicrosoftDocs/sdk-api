@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the currently selected date. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760957(v=VS.85).aspx">MCM_GETCURSEL</a> message explicitly. 
+Retrieves the currently selected date. You can use this macro or send the <a href="https://msdn.microsoft.com/d4edc9ed-7c92-4ec8-bfa1-8ae597826b3f">MCM_GETCURSEL</a> message explicitly. 
 
 
 ## -parameters

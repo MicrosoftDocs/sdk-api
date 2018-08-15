@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -123,11 +124,11 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543249">FltGetVolumeName</a>
+<a href="https://msdn.microsoft.com/50815b33-d417-4499-9423-f65697396200">FltGetVolumeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548474">IoQueryFileDosDeviceName</a>
+<a href="https://msdn.microsoft.com/8574e5cf-5bbf-4606-931f-e27b2aa7b7fa">IoQueryFileDosDeviceName</a>
 
 
 

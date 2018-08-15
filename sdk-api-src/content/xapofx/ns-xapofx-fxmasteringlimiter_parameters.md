@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,13 +62,13 @@ Parameters for use with the <a href="https://msdn.microsoft.com/762062de-4e19-5e
 
 ### -field Release
 
-Speed, in milliseconds, at which the limiter stops affecting audio after the audio drops below the limiter's threshold, which is specified by the <b>Loudness</b> member. This value must be between <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MIN_RELEASE (1)</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MAX_RELEASE (20)</a> and defaults to <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_DEFAULT_RELEASE (6)</a>.
+Speed, in milliseconds, at which the limiter stops affecting audio after the audio drops below the limiter's threshold, which is specified by the <b>Loudness</b> member. This value must be between <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MIN_RELEASE (1)</a> and <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MAX_RELEASE (20)</a> and defaults to <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_DEFAULT_RELEASE (6)</a>.
 
 
 
 ### -field Loudness
 
-Loudness metric threshold of the limiter. This value must be between <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MIN_LOUDNESS (1)</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_MAX_LOUDNESS (1800)</a> and defaults to <a href="https://msdn.microsoft.com/en-us/library/Ee417672(v=VS.85).aspx">FXMASTERINGLIMITER_DEFAULT_LOUDNESS (1000)</a>.
+Loudness metric threshold of the limiter. This value must be between <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MIN_LOUDNESS (1)</a> and <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_MAX_LOUDNESS (1800)</a> and defaults to <a href="fxmasteringlimit_constants.htm">FXMASTERINGLIMITER_DEFAULT_LOUDNESS (1000)</a>.
 
 
 
@@ -87,7 +88,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
  
 
  

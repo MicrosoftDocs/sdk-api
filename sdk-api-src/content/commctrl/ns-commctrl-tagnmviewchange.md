@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Stores information required to process the <a href="https://msdn.microsoft.com/en-us/library/Bb760941(v=VS.85).aspx">MCN_VIEWCHANGE</a> notification code.
+Stores information required to process the <a href="https://msdn.microsoft.com/ee35ac1d-9aeb-4d75-9cef-016487f23602">MCN_VIEWCHANGE</a> notification code.
 
 
 ## -struct-fields
@@ -60,10 +61,10 @@ Stores information required to process the <a href="https://msdn.microsoft.com/e
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code.
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code.
 
 
 ### -field dwOldView

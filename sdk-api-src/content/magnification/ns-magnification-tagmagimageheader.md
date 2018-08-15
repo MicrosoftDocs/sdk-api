@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -107,7 +108,7 @@ The size of the data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/9452fe5d-d8e9-4953-b55b-7bf792cabe16">MagImageScalingCallback</a>
  
 
  

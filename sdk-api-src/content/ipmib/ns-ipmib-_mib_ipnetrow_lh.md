@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -171,11 +172,11 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365866(v=VS.85).aspx">CreateIpNetEntry</a>
+<a href="_iphlp_createipnetentry">CreateIpNetEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365882(v=VS.85).aspx">DeleteIpNetEntry</a>
+<a href="_iphlp_deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
@@ -183,7 +184,7 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366365(v=VS.85).aspx">SetIpNetEntry</a>
+<a href="_iphlp_setipnetentry">SetIpNetEntry</a>
  
 
  

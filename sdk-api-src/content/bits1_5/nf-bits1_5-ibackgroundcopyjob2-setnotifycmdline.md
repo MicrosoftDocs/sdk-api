@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
+req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -70,6 +71,11 @@ Specifies a program to execute if the job enters the <b>BG_JOB_STATE_ERROR</b> o
 
 
 
+#### - pParameters [in]
+
+Null-terminated string that contains the parameters of the program in <i>pProgram</i>. The first parameter must be the program in <i>pProgram</i> (use quotes if the path uses long file names). The <i>pParameters</i> parameter is limited to 4,000 characters, not including the null terminator. This parameter can be <b>NULL</b>.
+
+
 #### - pProgram [in]
 
 Null-terminated string that contains the program to execute. The <i>pProgram</i> parameter is limited to MAX_PATH characters, not including the null terminator. You should specify a full path to the program; the method will not use the search path to locate the program. 
@@ -78,11 +84,6 @@ Null-terminated string that contains the program to execute. The <i>pProgram</i>
 
 
 To remove command line notification, set <i>pProgram</i> and <i>pParameters</i> to <b>NULL</b>. The method fails if <i>pProgram</i> is <b>NULL</b> and <i>pParameters</i> is non-<b>NULL</b>.
-
-
-#### - pParameters [in]
-
-Null-terminated string that contains the parameters of the program in <i>pProgram</i>. The first parameter must be the program in <i>pProgram</i> (use quotes if the path uses long file names). The <i>pParameters</i> parameter is limited to 4,000 characters, not including the null terminator. This parameter can be <b>NULL</b>.
 
 
 ## -returns

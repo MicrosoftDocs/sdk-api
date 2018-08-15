@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
+req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -211,9 +212,9 @@ The image name. The name may or may not contain a full path.
 The full path and file name of the file from which symbols were loaded.
 
 
-#### - LoadedPdbName
+#### - CVData
 
-The full path and file name of the .pdb file.
+The contents of the CV record.
 
 
 #### - CVSig
@@ -221,9 +222,29 @@ The full path and file name of the .pdb file.
 The signature of the CV record in the debug directories.
 
 
-#### - CVData
+#### - DbgUnmatched
 
-The contents of the CV record.
+A value that indicates whether the loaded DBG is unmatched.
+
+
+#### - GlobalSymbols
+
+A value that indicates whether symbol information is available.
+
+
+#### - LineNumbers
+
+A value that indicates whether line number information is available.
+
+
+#### - LoadedPdbName
+
+The full path and file name of the .pdb file.
+
+
+#### - PdbAge
+
+The DBI age of PDB.
 
 
 #### - PdbSig
@@ -236,34 +257,16 @@ The PDB signature.
 The PDB signature (Visual C/C++ 7.0 and later)
 
 
-#### - PdbAge
-
-The DBI age of PDB.
-
-
 #### - PdbUnmatched
 
 A value that indicates whether the loaded PDB is unmatched.
 
 
-#### - DbgUnmatched
+#### - Publics
 
-A value that indicates whether the loaded DBG is unmatched.
+A value that indicates whether the module contains public symbols.
 
-
-#### - LineNumbers
-
-A value that indicates whether line number information is available.
-
-
-#### - GlobalSymbols
-
-A value that indicates whether symbol information is available.
-
-
-#### - TypeInfo
-
-A value that indicates whether type information is available.
+<b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
 
 
 #### - SourceIndexed
@@ -273,11 +276,9 @@ A value that indicates whether the .pdb supports the source server.
 <b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
 
 
-#### - Publics
+#### - TypeInfo
 
-A value that indicates whether the module contains public symbols.
-
-<b>DbgHelp 6.1 and earlier:  </b>This member is not supported.
+A value that indicates whether type information is available.
 
 
 ## -remarks

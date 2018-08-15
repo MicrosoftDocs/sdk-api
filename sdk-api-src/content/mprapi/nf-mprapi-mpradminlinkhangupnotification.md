@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -87,7 +88,7 @@ This function does not have a return value.
 
 RAS supports multiple Administration DLLs. RAS calls the multiple implementations of 
 <b>MprAdminLinkHangupNotification</b> in the order in which the DLLs are listed in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926940">registry</a>.
+<a href="https://msdn.microsoft.com/e83a5e37-a39d-4465-abc9-653cdd56893b">registry</a>.
 
 <b>Windows 2000 Server and earlier:  </b>If RAS does not accept the new link, RAS does not call the 
 <b>MprAdminLinkHangupNotification</b> function.

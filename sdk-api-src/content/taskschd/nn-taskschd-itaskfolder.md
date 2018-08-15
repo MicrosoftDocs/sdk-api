@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -180,7 +181,7 @@ Sets the security descriptor for the folder.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/092d1d40-e97a-44a3-aff0-41b2b6df8d6d">Name</a>
 
 
 </td>
@@ -196,7 +197,7 @@ Gets the name that is used to identify the folder that contains a task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915708">Path</a>
+<a href="https://msdn.microsoft.com/d65c5f69-21dc-49d0-9a42-581947a195df">Path</a>
 
 
 </td>
@@ -217,7 +218,7 @@ Gets the path to where the folder is stored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

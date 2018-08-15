@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: D2d1.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -93,7 +94,7 @@ The following illustrations show the effect of using an <a href="https://msdn.mi
 
 The illustration on the right shows the result of transforming the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 
-<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="./images/brushes_ovw_transform.png"/>
+<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="images/brushes_ovw_transform.png"/>
 
 
 #### Examples

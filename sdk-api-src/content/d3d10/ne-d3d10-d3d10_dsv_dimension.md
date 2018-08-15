@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies how to access a resource used in a depth-stencil <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a>.
+Specifies how to access a resource used in a depth-stencil <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a>.
 
 
 ## -enum-fields
@@ -65,7 +66,7 @@ The resource will be accessed according to its type as determined from the actua
 
 ### -field D3D10_DSV_DIMENSION_TEXTURE1D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D texture</a>.
+The resource will be accessed as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">1D texture</a>.
 
 
 ### -field D3D10_DSV_DIMENSION_TEXTURE1DARRAY
@@ -75,7 +76,7 @@ The resource will be accessed as an array of 1D textures.
 
 ### -field D3D10_DSV_DIMENSION_TEXTURE2D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a>.
+The resource will be accessed as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D texture</a>.
 
 
 ### -field D3D10_DSV_DIMENSION_TEXTURE2DARRAY
@@ -97,7 +98,7 @@ The resource will be accessed as an array of 2D textures with multisampling.
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb205037(v=VS.85).aspx">D3D10_DEPTH_STENCIL_VIEW_DESC</a> to create a depth-stencil view.
+This enumeration is used in <a href="https://msdn.microsoft.com/7e427a75-99d7-4a18-afee-077bee01683c">D3D10_DEPTH_STENCIL_VIEW_DESC</a> to create a depth-stencil view.
 
 
 
@@ -107,7 +108,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/c986b22c-2960-4571-98bc-028c9f41ec65">Resource Enumerations</a>
  
 
  

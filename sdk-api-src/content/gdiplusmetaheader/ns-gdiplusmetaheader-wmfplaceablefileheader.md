@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,7 +76,7 @@ Handle to the metafile in memory. When written to disk, this field is not used a
 
 ### -field BoundingBox
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534071(v=VS.85).aspx">PWMFRect16</a></b>
+Type: <b><a href="https://msdn.microsoft.com/43c3a37c-0703-4bb5-9091-c33f6a388995">PWMFRect16</a></b>
 
 Destination rectangle, measured in twips, for displaying the metafile. 
 
@@ -123,7 +124,7 @@ Although placeable metafiles are quite common, they are not directly supported b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534071(v=VS.85).aspx">PWMFRect16</a>
+<a href="https://msdn.microsoft.com/43c3a37c-0703-4bb5-9091-c33f6a388995">PWMFRect16</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -64,7 +65,7 @@ Returns the range of periodicities supported by the engine for the specified str
 
 ### -param pFormat [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>*</b>
 
 The stream format for which the supported periodicities are queried. 
 
@@ -108,7 +109,7 @@ The longest period, in audio frames,  with which the audio engine will wake the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
 

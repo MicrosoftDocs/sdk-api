@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -69,7 +70,7 @@ Variable of type <b>ULONG</b> that specifies the entry count in the array specif
 
 ### -field aEntries
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629441(v=VS.85).aspx">ADRENTRY</a>[MAPI_DIM]</b>
+Type: <b><a href="https://msdn.microsoft.com/3044ca5e-f802-4c7b-8521-7d8adc63dc1b">ADRENTRY</a>[MAPI_DIM]</b>
 
-Variable of type <a href="https://msdn.microsoft.com/en-us/library/ms629441(v=VS.85).aspx">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
+Variable of type <a href="https://msdn.microsoft.com/3044ca5e-f802-4c7b-8521-7d8adc63dc1b">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,9 +79,16 @@ A pointer to a null-terminated string that specifies the full path and file name
       <b>Dial-Up Networking</b> dialog box.
 
 
-#### - lpszEntry [in]
+#### - fClearCredentials [in]
 
-A pointer to a null-terminated string that specifies the name of a phone-book entry.
+A value that specifies whether 
+      <b>RasSetCredentials</b> clears existing credentials by 
+      setting them to the empty string, "". If this flag is <b>TRUE</b>, the 
+      <b>dwMask</b> member of the 
+      <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a> structure indicates which 
+      credentials that the function sets to the empty string. If this flag is <b>FALSE</b>, the 
+      function sets the indicated credentials according to the contents of their corresponding 
+      <b>RASCREDENTIALS</b> members.
 
 
 #### - lpCredentials [in]
@@ -93,16 +101,9 @@ A pointer to a <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d
       member to indicate the credential information to be set.
 
 
-#### - fClearCredentials [in]
+#### - lpszEntry [in]
 
-A value that specifies whether 
-      <b>RasSetCredentials</b> clears existing credentials by 
-      setting them to the empty string, "". If this flag is <b>TRUE</b>, the 
-      <b>dwMask</b> member of the 
-      <a href="https://msdn.microsoft.com/5283b35a-adcf-4573-8c6b-5996d4e9440c">RASCREDENTIALS</a> structure indicates which 
-      credentials that the function sets to the empty string. If this flag is <b>FALSE</b>, the 
-      function sets the indicated credentials according to the contents of their corresponding 
-      <b>RASCREDENTIALS</b> members.
+A pointer to a null-terminated string that specifies the name of a phone-book entry.
 
 
 ## -returns

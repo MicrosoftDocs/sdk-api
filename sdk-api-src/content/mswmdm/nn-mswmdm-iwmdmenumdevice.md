@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The <b>IWMDMEnumDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/c8118950-d96f-4720-ab3a-f5ea93065875">Clone</a>
 </td>
 <td align="left" width="63%">
 Returns a copy of the <b>IWMDMEnumDevice</b> interface.
@@ -83,7 +84,7 @@ Returns a copy of the <b>IWMDMEnumDevice</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/75a5961f-2c61-4e10-a570-7ebfabb97367">Next</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the next device.
@@ -92,7 +93,7 @@ Returns a pointer to the next device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/af06bc07-2043-4ef5-a1f2-381797fb750b">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration so that <b>Next</b> returns a pointer to the first device.
@@ -101,7 +102,7 @@ Resets the enumeration so that <b>Next</b> returns a pointer to the first device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/fd6d2066-5445-4e29-812f-7d52dc67d57a">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of devices in the enumeration sequence.

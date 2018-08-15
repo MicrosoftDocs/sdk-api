@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -65,7 +66,7 @@ You must call <a href="https://msdn.microsoft.com/429E5D12-9ED9-4f4f-A0E6-F95953
 
 ### -param nativeDisplaySizePixels [in]
 
-The native size of the display to spoof, as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="https://msdn.microsoft.com/37e1845c-a58a-4da3-b259-bbf5bbf5ff6d">SetApplicationViewState</a>.
+The native size of the display to spoof, as a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="https://msdn.microsoft.com/37e1845c-a58a-4da3-b259-bbf5bbf5ff6d">SetApplicationViewState</a>.
 
 
 ## -returns

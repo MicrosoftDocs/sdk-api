@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmiutils.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -56,7 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The 
-<b>IWbemQuery</b> interface provides an entry point through which a <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="https://msdn.microsoft.com/72a7ec04-9af3-41ae-9189-6e1d46803fa9">WQL (SQL for WMI</a>).
+<b>IWbemQuery</b> interface provides an entry point through which a <a href="gloss_w.htm">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="https://msdn.microsoft.com/72a7ec04-9af3-41ae-9189-6e1d46803fa9">WQL (SQL for WMI</a>).
 
 The following table lists the methods for 
 <b>IWbemQuery</b>.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DDMoCompGetBuffInfo</b> callback function allows the driver to specify ho
 
 #### - lpBufferData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551576">DD_GETMOCOMPCOMPBUFFDATA</a> structure that contains the compressed buffer information. 
+Points to a <a href="https://msdn.microsoft.com/5510d430-834c-42ea-a113-c17b1b87ea52">DD_GETMOCOMPCOMPBUFFDATA</a> structure that contains the compressed buffer information. 
 
 
 ## -returns
@@ -95,7 +96,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55157
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551576">DD_GETMOCOMPCOMPBUFFDATA</a>
+<a href="https://msdn.microsoft.com/5510d430-834c-42ea-a113-c17b1b87ea52">DD_GETMOCOMPCOMPBUFFDATA</a>
  
 
  

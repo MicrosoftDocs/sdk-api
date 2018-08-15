@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -87,7 +88,7 @@ The share is configured to allow manual caching. This value corresponds to a val
 
 #### OFFLINEFILES_CACHING_MODE_AUTO_DOC (3)
 
-The share is configured to allow automatic caching of documents. This value corresponds to a value of <b>CSC_CACHE_AUTO_REINT</b> returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb525388(v=VS.85).aspx">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a> structure.
+The share is configured to allow automatic caching of documents. This value corresponds to a value of <b>CSC_CACHE_AUTO_REINT</b> returned by the <a href="netmgmt.netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a> structure.
 
 
 

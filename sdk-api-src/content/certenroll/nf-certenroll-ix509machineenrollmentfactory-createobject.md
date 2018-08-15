@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -135,7 +136,7 @@ The <i>strProgID</i> parameter exceed 64,000 characters or contains embedded nul
 
 
 
-This method calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> on the <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> interface by using the <b>ContextAdministratorForceMachine</b> context value, thereby specifying that all certificates to be enrolled by the <a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a> object will be requested by an administrator acting on behalf of a computer. To enroll a user certificate, call <a href="https://msdn.microsoft.com/e865e499-1bfe-45c3-aeb3-3936f9173fd5">CreateObject</a> on the <a href="https://msdn.microsoft.com/f779c197-8467-481a-abf5-d3fd3ac90ba7">IX509EnrollmentWebClassFactory</a> interface.
+This method calls <a href="https://msdn.microsoft.com/83cb603b-9396-4983-8707-12d1c5b8b234">Initialize</a> on the <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> interface by using the <b>ContextAdministratorForceMachine</b> context value, thereby specifying that all certificates to be enrolled by the <a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a> object will be requested by an administrator acting on behalf of a computer. To enroll a user certificate, call <a href="https://msdn.microsoft.com/e865e499-1bfe-45c3-aeb3-3936f9173fd5">CreateObject</a> on the <a href="https://msdn.microsoft.com/f779c197-8467-481a-abf5-d3fd3ac90ba7">IX509EnrollmentWebClassFactory</a> interface.
 
 
 

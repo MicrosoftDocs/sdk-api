@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read/write.
 
 
 
-For details on writing WMI queries, see <a href="https://msdn.microsoft.com/en-us/library/Aa394606(v=VS.85).aspx">WQL (SQL for WMI)</a>.
+For details on writing WMI queries, see <a href="wmi.sql_for_wmi">WQL (SQL for WMI)</a>.
 
 
 

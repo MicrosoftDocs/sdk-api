@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,23 +64,23 @@ The
 ### -param s [in]
 
 Identifies the socket. This is the same socket that was specified when the overlapped operation was started by a call to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>, 
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>, 
 <a href="https://msdn.microsoft.com/f405cddf-b02e-41dd-bd65-fc73200c5fb3">WSPRecvFrom</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>, 
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>, 
 <a href="https://msdn.microsoft.com/9e788289-6545-4e5e-9d00-f284b2337fcd">WSPSendTo</a>, or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a>.
+<a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a>.
 
 
 ### -param lpOverlapped [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure that was specified when the overlapped operation was started.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 
 ### -param lpcbTransfer [out]
 
 Pointer to a 32-bit variable that receives the number of bytes that were actually transferred by a send or receive operation, or by 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a>.
+<a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a>.
 
 
 ### -param fWait [in]
@@ -90,7 +91,7 @@ Specifies whether the function should wait for the pending overlapped operation 
 ### -param lpdwFlags [out]
 
 Pointer to a 32-bit variable that will receive one or more flags that supplement the completion status. If the overlapped operation was initiated through 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> or 
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a> or 
 <a href="https://msdn.microsoft.com/f405cddf-b02e-41dd-bd65-fc73200c5fb3">WSPRecvFrom</a>, this parameter will contain the results value for <i>lpFlags</i> parameter.
 
 
@@ -117,7 +118,7 @@ If
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +129,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,19 +140,19 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <b>hEvent</b> member of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure does not contain a valid event object handle.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure does not contain a valid event object handle.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +163,7 @@ One of the parameters is unacceptable.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_IO_INCOMPLETE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_IO_INCOMPLETE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,12 +187,12 @@ The <i>fWait</i> parameter is <b>FALSE</b> and the I/O operation has not yet com
 
 The results reported by the 
 <b>WSPGetOverlappedResult</b> function are those of the specified socket's last overlapped operation to which the specified 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns SOCKET_ERROR, and the <i>lpErrno</i> is WSA_IO_PENDING. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the 
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns SOCKET_ERROR, and the <i>lpErrno</i> is WSA_IO_PENDING. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the 
 <b>WSAOVERLAPPED</b> structure to the nonsignaled state. Then, when the pending operation has been completed, the system sets the event object to the signaled state.
 
 If the <i>fWait</i> parameter is <b>TRUE</b>, 
 <b>WSPGetOverlappedResult</b> determines whether the pending operation has been completed by blocking and waiting for the event object to be in the signaled state. A client may set the <i>fWait</i> parameter to <b>TRUE</b> only if it selected event-based completion notification when the I/O operation was requested. If another form of notification was selected, the usage of the <b>hEvent</b> member of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
 
 <div class="alert"><b>Note</b>   All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a> for more information.</div>
 <div> </div>
@@ -199,7 +200,7 @@ If the <i>fWait</i> parameter is <b>TRUE</b>,
 The behavior of 
 <a href="https://msdn.microsoft.com/b0e5015f-d23f-46da-91b1-f646111f70f9">WPUCompleteOverlappedRequest</a> places some constraints on how a service provider implements 
 <b>WSPGetOverlappedResult</b> since only the <b>Offset</b> and <b>OffsetHigh</b> members of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure are exclusively controlled by the service provider even though three values (byte count, flags, and error) must be retrieved from the structure by 
+<a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure are exclusively controlled by the service provider even though three values (byte count, flags, and error) must be retrieved from the structure by 
 <b>WSPGetOverlappedResult</b>. A service provider may accomplish this any way it chooses as long as it interacts with the behavior of 
 <b>WPUCompleteOverlappedRequest</b> properly. The following description presents a typical implementation:
 
@@ -225,19 +226,19 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566266">WSPAccept</a>
+<a href="https://msdn.microsoft.com/d73aa3a8-cef5-485d-b2ba-b2fe42ab6200">WSPAccept</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566275">WSPConnect</a>
+<a href="https://msdn.microsoft.com/1daca98e-57d8-47f1-af5f-778a33b2c538">WSPConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566296">WSPIoctl</a>
+<a href="https://msdn.microsoft.com/098d85e3-8fe2-46c2-966d-deae4b12afd6">WSPIoctl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a>
+<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>
 
 
 
@@ -245,7 +246,7 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>
 
 
 

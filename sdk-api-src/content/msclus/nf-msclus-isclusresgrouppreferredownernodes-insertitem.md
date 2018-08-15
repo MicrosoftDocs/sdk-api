@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -79,17 +80,17 @@ Adds a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32"
 
 
 
-#### - objNode
-
-A <a href="https://msdn.microsoft.com/b164f5a6-13f1-4eff-a2f9-805b60138dd1">ClusNode</a> object to be added to the 
-      collection.
-
-
 #### - lPosition
 
 Optional. <b>Long</b> that identifies the location within the collection to add the 
       new node. Highly preferred, high-priority nodes have low position values (that is, they occur first in the 
       list).
+
+
+#### - objNode
+
+A <a href="https://msdn.microsoft.com/b164f5a6-13f1-4eff-a2f9-805b60138dd1">ClusNode</a> object to be added to the 
+      collection.
 
 
 ## -returns
@@ -108,7 +109,7 @@ This method does not return a value.
 Adding a node to a group's 
     <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection means that the node is listed as a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> node for the group. Use 
+    <a href="p_gly.htm">preferred owner</a> node for the group. Use 
     <i>lPosition</i> to specify an order of preference, with low values corresponding to highly 
     preferred, high-priority nodes.
 

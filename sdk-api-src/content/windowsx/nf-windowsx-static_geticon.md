@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Retrieves a handle to the icon associated with a static control that has the SS_ICON style. 
- You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760775(v=VS.85).aspx">STM_GETICON</a> message explicitly. 
+ You can use this macro or send the <a href="https://msdn.microsoft.com/e6b0a006-696b-401d-b894-b1db697c8939">STM_GETICON</a> message explicitly. 
 
 
 

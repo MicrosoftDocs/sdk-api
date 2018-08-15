@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -79,7 +80,7 @@ Boolean value that indicates whether the groups are to be set to their default e
 ### -param NewState [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that contains the groups to be enabled or disabled. If the <i>ResetToDefault</i> parameter is <b>FALSE</b>, the function sets each of the groups to the value of that group's SE_GROUP_ENABLED attribute in the <b>TOKEN_GROUPS</b> structure. If <i>ResetToDefault</i> is <b>TRUE</b>, this parameter is ignored.
+<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that contains the groups to be enabled or disabled. If the <i>ResetToDefault</i> parameter is <b>FALSE</b>, the function sets each of the groups to the value of that group's SE_GROUP_ENABLED attribute in the <b>TOKEN_GROUPS</b> structure. If <i>ResetToDefault</i> is <b>TRUE</b>, this parameter is ignored.
 
 
 ### -param BufferLength [in]
@@ -90,7 +91,7 @@ The size, in bytes, of the buffer pointed to by the <i>PreviousState</i> paramet
 ### -param PreviousState [out, optional]
 
 A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure containing the previous state of any groups the function modifies. That is, if a group has been modified by this function, the group and its previous state are contained in the <b>TOKEN_GROUPS</b> structure referenced by <i>PreviousState</i>. If the <b>GroupCount</b> member of <b>TOKEN_GROUPS</b> is zero, then no groups have been changed by this function. This parameter can be <b>NULL</b>. 
+<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure containing the previous state of any groups the function modifies. That is, if a group has been modified by this function, the group and its previous state are contained in the <b>TOKEN_GROUPS</b> structure referenced by <i>PreviousState</i>. If the <b>GroupCount</b> member of <b>TOKEN_GROUPS</b> is zero, then no groups have been changed by this function. This parameter can be <b>NULL</b>. 
 
 
 
@@ -119,11 +120,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The information retrieved in the <i>PreviousState</i> parameter is formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure. This means a pointer to the buffer can be passed as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenGroups</b> function, restoring the original state of the groups.
+The information retrieved in the <i>PreviousState</i> parameter is formatted as a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure. This means a pointer to the buffer can be passed as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenGroups</b> function, restoring the original state of the groups.
 
 The <i>NewState</i> parameter can list groups to be changed that are not present in the access token. This does not affect the successful modification of the groups in the token.
 
-The <b>AdjustTokenGroups</b> function cannot disable groups with the SE_GROUP_MANDATORY attribute in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure. Use 
+The <b>AdjustTokenGroups</b> function cannot disable groups with the SE_GROUP_MANDATORY attribute in the <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure. Use 
 <a href="https://msdn.microsoft.com/e087f360-5d1d-4846-b3d6-214a426e5222">CreateRestrictedToken</a> instead.
 
 You cannot enable a group that has the SE_GROUP_USE_FOR_DENY_ONLY attribute.
@@ -144,7 +145,7 @@ You cannot enable a group that has the SE_GROUP_USE_FOR_DENY_ONLY attribute.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -168,7 +169,7 @@ You cannot enable a group that has the SE_GROUP_USE_FOR_DENY_ONLY attribute.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a>
+<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a>
  
 
  

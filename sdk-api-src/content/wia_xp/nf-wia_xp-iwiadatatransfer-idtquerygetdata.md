@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -62,9 +63,9 @@ The <b>IWiaDataTransfer::idtQueryGetData</b> method is used by applications to q
 
 ### -param pfe [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1dcc138b-b8c0-4d3a-bd9d-f4f5522d91ea">WIA_FORMAT_INFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/1dcc138b-b8c0-4d3a-bd9d-f4f5522d91ea">WIA_FORMAT_INFO</a> structure.
 
 
 ## -returns
@@ -73,7 +74,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85)
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>, or a standard COM error.
+If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="https://msdn.microsoft.com/3abbe92b-32b7-4820-b208-45c847243078">Error Codes</a>, or a standard COM error.
 
 
 
@@ -83,7 +84,7 @@ If this method succeeds, it returns S_OK. Otherwise it returns a value specified
 
 
 
-This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.
+This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="https://msdn.microsoft.com/1dcc138b-b8c0-4d3a-bd9d-f4f5522d91ea">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.
 
 
 

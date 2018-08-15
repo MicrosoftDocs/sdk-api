@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.5 on Windows Vista, Windows XP, Windows Server 2003, and Windows Server 2008. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>MsiJoinTransaction</b> function requests that the Windows Installer make the current process the owner of the <a href="https://msdn.microsoft.com/en-us/library/Aa372093(v=VS.85).aspx">transaction</a> installing the multiple-package installation. 
+The <b>MsiJoinTransaction</b> function requests that the Windows Installer make the current process the owner of the <a href="t_gly.htm">transaction</a> installing the multiple-package installation. 
 
 <b><a href="https://msdn.microsoft.com/7256b759-3fb5-4195-b0e4-a1631327ebb7">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 

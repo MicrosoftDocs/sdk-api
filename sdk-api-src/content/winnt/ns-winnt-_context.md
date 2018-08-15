@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,7 +70,7 @@ Contains processor-specific register data. The system uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="https://msdn.microsoft.com/3b65283e-34d2-4374-87fe-fa8ae45fbbcf">GetThreadContext</a>
 
 
 
@@ -77,7 +78,7 @@ Contains processor-specific register data. The system uses
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>
+<a href="https://msdn.microsoft.com/be134953-b569-48ea-80ac-ab14dee24500">SetThreadContext</a>
 
 
 

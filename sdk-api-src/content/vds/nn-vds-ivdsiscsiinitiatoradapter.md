@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -74,21 +75,21 @@ The <b>IVdsIscsiInitiatorAdapter</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/9442e182-bc2e-47dd-9ddc-aa1a618a5563">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of an initiator adapter.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://msdn.microsoft.com/74d6ddd0-1b78-446a-9bce-6816eb34a2b9">LoginToTarget</a>
 </td>
 <td align="left" width="63%">
 Performs a manual login to an iSCSI target.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a>
+<a href="https://msdn.microsoft.com/b2f7598c-c532-4b68-b581-40b3f5eed1bf">LogoutFromTarget</a>
 </td>
 <td align="left" width="63%">
 Performs a manual logout from an iSCSI target on all iSCSI sessions to the specified target.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>

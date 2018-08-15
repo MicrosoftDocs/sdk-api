@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -56,7 +57,7 @@ The <b>IOleUndoManager</b> interface enables containers to implement multi-level
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleUndoManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoManager</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleUndoManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>IOleUndoManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/3288e0c6-e345-4c4d-a7bf-0c5f45c19732">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a simple undo unit to the collection.
@@ -80,7 +81,7 @@ Adds a simple undo unit to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/4546f270-5cef-42a3-b07a-f0a491e78849">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the specified parent undo unit.
@@ -98,7 +99,7 @@ Instructs the undo manager to discard the specified undo unit and all undo units
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
+<a href="https://msdn.microsoft.com/d4d8582e-a9d1-48df-87ef-e378f3a81fa2">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the undo manager.
@@ -152,7 +153,7 @@ Retrieves state information about the innermost open parent undo unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/b494d5b9-5def-4249-8b6d-37b26993cc24">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a new parent undo unit, which becomes part of its containing unit's undo stack.

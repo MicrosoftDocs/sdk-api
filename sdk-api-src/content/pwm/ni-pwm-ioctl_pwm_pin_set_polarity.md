@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -262,7 +263,7 @@ For overlapped operations, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc
 </table>
  
 
-Changing polarity is only allowed when the pin is stopped. You can tell whether the pin is stopped by using the <a href="https://msdn.microsoft.com/en-us/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a> control code.
+Changing polarity is only allowed when the pin is stopped. You can tell whether the pin is stopped by using the <a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a> control code.
 
 Changing polarity while a pin is started can lead to glitches on some Pulse Width Modulation (PWM) controllers. If you want to change polarity, stop the pin first, change the polarity, and then start the pin. 
 

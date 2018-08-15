@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -88,20 +89,20 @@ Type: <b>DWORD</b>
 The index of the subformat in the formatted timed-text object.
 
 
-#### - pnFirstChar [out]
-
-Type: <b>DWORD*</b>
-
-A pointer to a variable that receives the first character of the subformat.
-
-
-
-
 #### - pcchCharLength [out]
 
 Type: <b>DWORD*</b>
 
 A pointer to a variable that receives the length, in characters, of the subformat.
+
+
+
+
+#### - pnFirstChar [out]
+
+Type: <b>DWORD*</b>
+
+A pointer to a variable that receives the first character of the subformat.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 Contains the opportunistic lock (oplock) information returned by the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a> control code.
+    <a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a> control code.
 
 
 ## -struct-fields
@@ -165,7 +166,7 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a>
+<a href="https://msdn.microsoft.com/9df94089-137a-4540-9f46-119408b362ba">FSCTL_REQUEST_OPLOCK</a>
 
 
 

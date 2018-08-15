@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -91,7 +92,7 @@ Truncates a file to zero length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/be7f3f2c-017a-4ca5-9652-a9b091c168be">Write</a>
 </td>
 <td align="left" width="63%">
 Write bytes to a file starting at a given offset.

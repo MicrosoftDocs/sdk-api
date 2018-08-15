@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: thumbcache.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IThumbnailSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556644">SetContext</a>
+<a href="https://msdn.microsoft.com/AD333075-3358-4fee-BDEE-087B7012C93E">SetContext</a>
 </td>
 <td align="left" width="63%">
 Enables a thumbnail provider to return a thumbnail specific to the user's context.

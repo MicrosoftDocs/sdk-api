@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ Specifies the unit number of the mouse device. A mouse <a href="https://msdn.mic
 
 
 
-Although this structure is used with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff542080">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request, Mouclass does not use the <b>UnitId</b> value.
+Although this structure is used with an <a href="https://msdn.microsoft.com/f5b82702-610a-41d3-96c9-2c4eae2244e3">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request, Mouclass does not use the <b>UnitId</b> value.
 
 
 
@@ -78,7 +79,7 @@ Although this structure is used with an <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542080">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/f5b82702-610a-41d3-96c9-2c4eae2244e3">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
  
 
  

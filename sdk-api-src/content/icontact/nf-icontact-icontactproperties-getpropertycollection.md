@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -143,7 +144,7 @@ Always returns success.
 Caller can enumerate all child properties of a top-level property with 
 		an optional label filter applied. For example: all emailAddresses where label="work". On success, 
 		collection has been reset to the location before the first element (if any are present). 
-		Call <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> to begin querying data.
+		Call <a href="https://msdn.microsoft.com/b6e8abad-796d-4ded-be23-45ca107915f1">Next</a> to begin querying data.
 
 
 

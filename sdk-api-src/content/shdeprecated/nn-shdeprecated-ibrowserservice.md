@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -116,7 +117,7 @@ Deprecated. Retrieves the index of the browser in the window hierarchy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/9de972ce-09fa-4da1-ad24-781c4640b92f">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Retrieves the current set of browser flags.
@@ -269,7 +270,7 @@ Deprecated. Registers the browser in the list of browser windows.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/696d4350-95f9-4d69-bb4b-92f4c26b3f65">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Sets flags that indicate browser status.

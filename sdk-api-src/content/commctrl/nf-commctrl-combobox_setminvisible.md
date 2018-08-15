@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -84,7 +85,7 @@ is equivalent to the following call.
 
 <code>SendMessage((hwnd), CB_SETMINVISIBLE, (WPARAM) iMinVisible, 0);</code>
 
-To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll version 6 in the manifest. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll version 6 in the manifest. For more information, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 
@@ -94,7 +95,7 @@ To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775915(v=VS.85).aspx">CB_SETMINVISIBLE</a>
+<a href="https://msdn.microsoft.com/3cf9e488-50ce-4825-acf0-4e665d074f9e">CB_SETMINVISIBLE</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -79,7 +80,7 @@ Retrieves a value that indicates whether the "Other user" tile for local or Micr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://msdn.microsoft.com/E768CC54-4392-4d5f-BB90-4AA91E5D8B00">GetAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified user from the array.
@@ -88,7 +89,7 @@ Retrieves a specified user from the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of <a href="https://msdn.microsoft.com/8EE5FA54-E20E-4d24-AD73-2AE1F0090950">ICredentialProviderUser</a> objects in the user array.

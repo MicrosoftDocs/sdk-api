@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ Caller-supplied pointer to a character string specifying a subset of the machine
 
 ### -param ulFlags [in]
 
-One of the optional, caller-supplied bit flags that specify search filters. If no flags are specified, the function supplies the buffer size required to hold all instance identifiers for all device instances. For a list of bit flags, see the <i>ulFlags</i> description for <a href="https://msdn.microsoft.com/library/windows/hardware/ff538415">CM_Get_Device_ID_List</a>.
+One of the optional, caller-supplied bit flags that specify search filters. If no flags are specified, the function supplies the buffer size required to hold all instance identifiers for all device instances. For a list of bit flags, see the <i>ulFlags</i> description for <a href="https://msdn.microsoft.com/aa0ab004-3813-4339-90bb-afd9acf200c8">CM_Get_Device_ID_List</a>.
 
 
 ## -returns
@@ -90,9 +91,9 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The <b>CM_Get_Device_ID_List_Size</b> function should be called to determine the buffer size required by <a href="https://msdn.microsoft.com/library/windows/hardware/ff538415">CM_Get_Device_ID_List</a>.
+The <b>CM_Get_Device_ID_List_Size</b> function should be called to determine the buffer size required by <a href="https://msdn.microsoft.com/aa0ab004-3813-4339-90bb-afd9acf200c8">CM_Get_Device_ID_List</a>.
 
-The size value supplied in the location pointed to by <i>pulLen</i> is guaranteed to represent a buffer size large enough to hold all device instance identifier strings and terminating NULLs. The supplied value might actually represent a buffer size that is larger than necessary, so don't assume the value represents the true length of the character strings that <a href="https://msdn.microsoft.com/library/windows/hardware/ff538415">CM_Get_Device_ID_List</a> will provide.
+The size value supplied in the location pointed to by <i>pulLen</i> is guaranteed to represent a buffer size large enough to hold all device instance identifier strings and terminating NULLs. The supplied value might actually represent a buffer size that is larger than necessary, so don't assume the value represents the true length of the character strings that <a href="https://msdn.microsoft.com/aa0ab004-3813-4339-90bb-afd9acf200c8">CM_Get_Device_ID_List</a> will provide.
 
 For information about device instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
@@ -104,7 +105,7 @@ For information about device instance IDs, see <a href="https://docs.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538433">CM_Get_Device_ID_List_Size_Ex</a>
+<a href="https://msdn.microsoft.com/ed89ff61-c92b-4841-9038-3c26d8594aee">CM_Get_Device_ID_List_Size_Ex</a>
  
 
  

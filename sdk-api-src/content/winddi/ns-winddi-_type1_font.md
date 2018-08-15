@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,14 +72,14 @@ Handle to the PostScript Type1 .<i>pfb</i> file.
 
 ### -field ulIdentifier
 
-Is an identifier that is generated and used by GDI. The driver stores <b>ulIdentifier</b> in the <b>dpCharSets</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a> structure.
+Is an identifier that is generated and used by GDI. The driver stores <b>ulIdentifier</b> in the <b>dpCharSets</b> field of the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure.
 
 
 ## -remarks
 
 
 
-A PostScript driver can obtain a list of installed Type1 fonts by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564956">EngGetType1FontList</a>.
+A PostScript driver can obtain a list of installed Type1 fonts by calling <a href="https://msdn.microsoft.com/66f8ca3d-2080-4560-8e64-1dc26ceaaad4">EngGetType1FontList</a>.
 
 Each PostScript Type1 font comes with two separate files: a .<i>pfm</i> file and a .<i>pfb</i> file. The .<i>pfm</i> file contains font metrics information; the .<i>pfb</i> file contains the PostScript Type1 binary font data.
 
@@ -90,7 +91,7 @@ Each PostScript Type1 font comes with two separate files: a .<i>pfm</i> file and
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
  
 
  

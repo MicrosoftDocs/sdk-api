@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the insertion mark in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773753(v=VS.85).aspx">TVM_SETINSERTMARK</a> message explicitly. 
+Sets the insertion mark in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/35441807-406a-408c-ad89-6dd40c907e3c">TVM_SETINSERTMARK</a> message explicitly. 
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,11 +66,6 @@ The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the
 
 
 
-#### - dwID
-
-Indicates the external joystick number being addressed. 
-
-
 #### - dwCommand
 
 Indicates which of the following commands is being sent: 
@@ -111,6 +107,11 @@ Indicates that the device's force-feedback actuators should be enabled.
 #### DISFFC_SETACTUATORSOFF
 
 Indicates that the device's force-feedback actuators should be disabled. If successful, force feedback effects are "muted". Note that time continues to elapse while actuators are off. For example, suppose an effect of five seconds' duration is started. After one second, actuators are turned off. After two more seconds, actuators are turned back on. The effect should then play for two additional seconds. 
+
+
+#### - dwID
+
+Indicates the external joystick number being addressed. 
 
 
 ## -returns

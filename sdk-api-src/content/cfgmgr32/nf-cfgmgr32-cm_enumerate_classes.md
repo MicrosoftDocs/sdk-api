@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -104,7 +105,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local machine's device classes, call <b>CM_Enumerate_Classes</b> repeatedly, starting with a <i>ulClassIndex</i> value of zero and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE. Some index values might represent list entries containing invalid class data, in which case the function returns CR_INVALID_DATA. This return value can be ignored.
 
-The class GUIDs obtained from this function can be used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541299">device installation functions</a>.
+The class GUIDs obtained from this function can be used as input to the <a href="https://msdn.microsoft.com/e67fc124-6127-492b-b975-4243b742a0ce">device installation functions</a>.
 
 Beginning with Windows 8 and later operating systems, callers can use the <b>ulFlags</b> member to specify which device classes CM_Enumerate_Classes should return. Prior to Windows 8, CM_Enumerate_Classes returned only device setup classes.
 
@@ -116,7 +117,7 @@ Beginning with Windows 8 and later operating systems, callers can use the <b>ul
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538022">CM_Enumerate_Classes_Ex</a>
+<a href="https://msdn.microsoft.com/8dce071c-3f91-42c2-a334-ec1051b6436a">CM_Enumerate_Classes_Ex</a>
  
 
  

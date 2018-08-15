@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10 Client.
 req.target-min-winversvr: 
@@ -61,15 +62,15 @@ The DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure contains information about the im
 
 ### -field PathSourceSize
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that specifies the size of the VidPn source surface that is being displayed on the monitor.
+A <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that specifies the size of the VidPn source surface that is being displayed on the monitor.
 
 
 ### -field DesktopImageRegion
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines where the desktop image will be positioned within path source. 	Region must be completely inside the bounds of the path source size.
+A <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines where the desktop image will be positioned within path source. 	Region must be completely inside the bounds of the path source size.
 
 
 ### -field DesktopImageClip
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that defines which part of the desktop image for this clone group will be displayed on this path. This currently must be set to the desktop size.
+A <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines which part of the desktop image for this clone group will be displayed on this path. This currently must be set to the desktop size.
 

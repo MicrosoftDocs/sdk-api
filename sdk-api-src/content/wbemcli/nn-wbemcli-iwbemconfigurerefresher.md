@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -58,7 +59,7 @@ The
 Users and providers should never implement this interface. The implementation provided by WMI is the only one that is supported.
 
 By providing a native implementation of this interface, WMI allows client code to easily configure refreshers. You can access the 
-<b>IWbemConfigureRefresher</b> interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
+<b>IWbemConfigureRefresher</b> interface by calling <a href="_com_iunknown_queryinterface">QueryInterface</a> on <b>IID_IWbemConfigureRefresher</b> on the object returned by calling <a href="_com_cocreateinstance">CoCreateInstance</a> on <b>CLSID_WbemRefresher</b>.
 
 
 ## -inheritance
@@ -78,7 +79,7 @@ The <b>IWbemConfigureRefresher</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406603">AddEnum</a>
+<a href="https://msdn.microsoft.com/5b013267-78bc-4372-b55a-58e330acf927">AddEnum</a>
 </td>
 <td align="left" width="63%">
 Adds an enumerator to a refresher.
@@ -118,7 +119,7 @@ Use this method to create a single refresher that contains more than one refresh
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object, enumerator, or nested refresher from a refresher.

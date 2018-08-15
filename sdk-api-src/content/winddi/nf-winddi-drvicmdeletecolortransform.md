@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ Handle to the physical device's <a href="https://msdn.microsoft.com/139a10e9-203
 
 ### -param hcmXform [in]
 
-Handle to the color transform to be deleted. This color transform was created by the driver in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>.
+Handle to the color transform to be deleted. This color transform was created by the driver in a call to <a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>.
 
 
 ## -returns
@@ -82,7 +83,7 @@ Handle to the color transform to be deleted. This color transform was created by
 
 
 
-Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a> structure.
+Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
 
 
 
@@ -92,7 +93,7 @@ Drivers that report ICM support should implement this function. A driver indicat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556239">DrvIcmCreateColorTransform</a>
+<a href="https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd">DrvIcmCreateColorTransform</a>
  
 
  

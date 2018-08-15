@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -115,7 +116,7 @@ All status values can be passed to  <a href="https://msdn.microsoft.com/e1ccf0e3
 
 The following diagram illustrates the transitions between these states.
 
-<img alt="Diagram that shows how the animation manager schedules the storyboard and manages the animation." src="./images/StateDiagram.png"/>
+<img alt="Diagram that shows how the animation manager schedules the storyboard and manages the animation." src="images/StateDiagram.png"/>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpappcontainerclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -59,7 +60,7 @@ Provides the properties needed to control the touch pointer feature of the Remot
 The touch pointer feature allows the Remote Desktop Protocol (RDP) app container client control to translate touch screen actions on the 
     client into equivalent mouse actions in the remote session. This feature is useful when the remote session is 
     running an operating system or application that is not optimized for touch screen. When the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> property is set, the 
+    <a href="https://msdn.microsoft.com/f1e2f2f2-1b96-4c5a-b0dd-fd57627c5ec3">Enabled</a> property is set, the 
     RDP app container client control will interpret certain touch gestures and translate them into mouse events in the 
     remote session. These translations make it easier for the user to simulate certain mouse actions that do not 
     readily translate to touch screen gestures, such as right-click and drag.

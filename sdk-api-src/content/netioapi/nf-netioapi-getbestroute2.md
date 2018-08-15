@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -87,7 +88,7 @@ A set of options that affect how IP addresses are sorted. This parameter is not 
 
 ### -param BestRoute [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> for the best route from the source IP address to the destination IP address.
+A pointer to the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> for the best route from the source IP address to the destination IP address.
 
 
 ### -param BestSourceAddress [out]
@@ -165,14 +166,14 @@ Use
 
 The <b>GetBestRoute2</b> function is defined on Windows Vista and later. 
 
-The <b>GetBestRoute2</b> function is used to retrieve a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> structure entry for the best route from a source IP address to a destination IP address.  
+The <b>GetBestRoute2</b> function is used to retrieve a <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure entry for the best route from a source IP address to a destination IP address.  
 
 On input, the <i>DestinationAddress</i> parameter must be initialized to a valid IPv4 or IPv6 address and family. On input, the <i>SourceAddress</i> parameter may be initialized to the preferred IPv4 or IPv6 address and family. In addition, at least one of the following parameters must be initialized:
     the <i>InterfaceLuid</i> or <i>InterfaceIndex</i>.
 
     The parameters are used in the order listed above. So if the <i>InterfaceLuid</i> is specified, then this member is used to determine the interface. If no value was set for the  <i>InterfaceLuid</i> member (the values of this member was set to zero), then the <i>InterfaceIndex</i> member is next used to determine the interface. 
 
-On output when the call is successful, <b>GetBestRoute2</b> retrieves and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a> structure for the best route from the source IP address the destination IP address. 
+On output when the call is successful, <b>GetBestRoute2</b> retrieves and <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure for the best route from the source IP address the destination IP address. 
 
 
 
@@ -182,39 +183,39 @@ On output when the call is successful, <b>GetBestRoute2</b> retrieves and <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546209">CreateIpForwardEntry2</a>
+<a href="https://msdn.microsoft.com/d2d065d3-daad-4167-8b87-4229199ee76a">CreateIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546365">DeleteIpForwardEntry2</a>
+<a href="https://msdn.microsoft.com/68d5a5a5-21cf-4337-8a35-7f847f5e2138">DeleteIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552535">GetIpForwardEntry2</a>
+<a href="https://msdn.microsoft.com/53d5009a-d205-40ce-88e5-fe37e72b5a50">GetIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552536">GetIpForwardTable2</a>
+<a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554882">InitializeIpForwardEntry</a>
+<a href="https://msdn.microsoft.com/1968c4e5-4b28-4387-a918-3326bc80bb3e">InitializeIpForwardEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559245">MIB_IPFORWARD_ROW2</a>
+<a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559252">MIB_IPFORWARD_TABLE2</a>
+<a href="https://msdn.microsoft.com/9ba938e8-3395-4c9d-b1d2-b2c030783c16">MIB_IPFORWARD_TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568806">NotifyRouteChange2</a>
+<a href="https://msdn.microsoft.com/f104dc0c-b3e0-4f22-ac5f-5dbf967be31b">NotifyRouteChange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570773">SetIpForwardEntry2</a>
+<a href="https://msdn.microsoft.com/e11aab0b-6d6c-4e90-a60a-f7d68c09751b">SetIpForwardEntry2</a>
  
 
  

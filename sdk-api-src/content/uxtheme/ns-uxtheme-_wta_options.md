@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ Defines options that are used to set window visual style attributes.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A combination of flags that modify window visual style attributes. Can be a combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb759875(v=VS.85).aspx">WTNCA</a> constants.
+A combination of flags that modify window visual style attributes. Can be a combination of the <a href="https://msdn.microsoft.com/C71D1957-6572-4242-B715-C54BDFBBD6B7">WTNCA</a> constants.
 
 
 ### -field dwMask
@@ -78,7 +79,7 @@ A bitmask that describes how the values specified in <b>dwFlags</b> should be ap
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759829(v=VS.85).aspx">SetWindowThemeAttribute</a>
+<a href="https://msdn.microsoft.com/be757193-4f77-456f-bdf5-1e873bf1fac4">SetWindowThemeAttribute</a>
  
 
  

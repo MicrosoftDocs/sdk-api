@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -86,37 +87,37 @@ A valid index into the mode information table that contains the target mode info
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.desktopModeInfoIdx
 
-A valid index into the mode array of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt622102">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> entry that contains the desktop mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>desktopModeInfoIdx</b> is DISPLAYCONFIG_PATH_DESKTOP_IMAGE_IDX_INVALID. Supported starting in Windows 10.
+A valid index into the mode array of the <a href="https://msdn.microsoft.com/2DACA175-19BC-4192-A2FF-CB8AC7220B98">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> entry that contains the desktop mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>desktopModeInfoIdx</b> is DISPLAYCONFIG_PATH_DESKTOP_IMAGE_IDX_INVALID. Supported starting in Windows 10.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.targetModeInfoIdx
 
-A valid index into the mode array of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a> entry that contains the target mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>targetModeInfoIdx</b> is DISPLAYCONFIG_PATH_TARGET_MODE_IDX_INVALID. Supported starting in Windows 10.
+A valid index into the mode array of the <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a> entry that contains the target mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>targetModeInfoIdx</b> is DISPLAYCONFIG_PATH_TARGET_MODE_IDX_INVALID. Supported starting in Windows 10.
 
 
 ### -field outputTechnology
 
-The target's connector type. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554003">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumerated type.
+The target's connector type. For a list of possible values, see the <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumerated type.
 
 
 ### -field rotation
 
-A value that specifies the rotation of the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553970">DISPLAYCONFIG_ROTATION</a> enumerated type.
+A value that specifies the rotation of the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/82709d44-45e6-47ec-9caa-5a947a568c52">DISPLAYCONFIG_ROTATION</a> enumerated type.
 
 
 ### -field scaling
 
-A value that specifies how the source image is scaled to the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553974">DISPLAYCONFIG_SCALING</a> enumerated type. For more information about scaling, see <a href="https://msdn.microsoft.com/e27c7510-45b0-46e6-878f-b901cdd1cd57">Scaling the Desktop Image</a>. 
+A value that specifies how the source image is scaled to the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/6f073aa6-2647-4a51-9256-b2da488fd382">DISPLAYCONFIG_SCALING</a> enumerated type. For more information about scaling, see <a href="https://msdn.microsoft.com/e27c7510-45b0-46e6-878f-b901cdd1cd57">Scaling the Desktop Image</a>. 
 
 
 ### -field refreshRate
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff553968">DISPLAYCONFIG_RATIONAL</a> structure that specifies the refresh rate of the target. If the caller specifies target mode information, the operating system will instead use the refresh rate that is stored in the <b>vSyncFreq</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure. In this case, the caller specifies this value in the <b>targetVideoSignalInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a> structure. A refresh rate with both the numerator and denominator set to zero indicates that the caller does not specify a refresh rate and the operating system should use the most optimal refresh rate available. For this case, in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569533">SetDisplayConfig</a> function, the caller must set the <b>scanLineOrdering</b> member to the DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED value; otherwise, <b>SetDisplayConfig</b> fails. 
+A <a href="https://msdn.microsoft.com/1f2f25f7-5ea1-46f4-ad9f-c50c367bb600">DISPLAYCONFIG_RATIONAL</a> structure that specifies the refresh rate of the target. If the caller specifies target mode information, the operating system will instead use the refresh rate that is stored in the <b>vSyncFreq</b> member of the <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure. In this case, the caller specifies this value in the <b>targetVideoSignalInfo</b> member of the <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a> structure. A refresh rate with both the numerator and denominator set to zero indicates that the caller does not specify a refresh rate and the operating system should use the most optimal refresh rate available. For this case, in a call to the <a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">SetDisplayConfig</a> function, the caller must set the <b>scanLineOrdering</b> member to the DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED value; otherwise, <b>SetDisplayConfig</b> fails. 
 
 
 ### -field scanLineOrdering
 
-A value that specifies the scan-line ordering of the output on the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553977">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type. If the caller specifies target mode information, the operating system will instead use the scan-line ordering that is stored in the <b>scanLineOrdering</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure. In this case, the caller specifies this value in the <b>targetVideoSignalInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a> structure. 
+A value that specifies the scan-line ordering of the output on the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/5b8d6c83-e8fb-4529-8d61-557ed0e4da37">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type. If the caller specifies target mode information, the operating system will instead use the scan-line ordering that is stored in the <b>scanLineOrdering</b> member of the <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure. In this case, the caller specifies this value in the <b>targetVideoSignalInfo</b> member of the <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a> structure. 
 
 
 ### -field targetAvailable
@@ -167,11 +168,11 @@ Output is currently being forced in a nonpersistent manner.
 
 
 
-A DISPLAYCONFIG_PATH_TARGET_INFO structure is specified in the <b>targetInfo</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553945">DISPLAYCONFIG_PATH_INFO</a> structure.
+A DISPLAYCONFIG_PATH_TARGET_INFO structure is specified in the <b>targetInfo</b> member of a <a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a> structure.
 
 A target corresponds to the number of possible video outputs on a display adapter. This number, however, does not equate to the number of physical connectors on the display adapter. Each connector exposes a number of targets that includes backward compatibility with older connector technology. For example, a DVI connector exposes a DVI target, as well as a VGA target. A DisplayPort connector, which was introduced in 2006, exposes DisplayPort, HDMI, DVI, legacy TV, and VGA targets.
 
-The <b>statusFlags</b> member is set when you call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a> function. 
+The <b>statusFlags</b> member is set when you call the <a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a> function. 
 
 
 
@@ -181,39 +182,39 @@ The <b>statusFlags</b> member is set when you call the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553945">DISPLAYCONFIG_PATH_INFO</a>
+<a href="https://msdn.microsoft.com/e218c36d-60d5-42c8-9443-419a388a2b8d">DISPLAYCONFIG_PATH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553968">DISPLAYCONFIG_RATIONAL</a>
+<a href="https://msdn.microsoft.com/1f2f25f7-5ea1-46f4-ad9f-c50c367bb600">DISPLAYCONFIG_RATIONAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553970">DISPLAYCONFIG_ROTATION</a>
+<a href="https://msdn.microsoft.com/82709d44-45e6-47ec-9caa-5a947a568c52">DISPLAYCONFIG_ROTATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553974">DISPLAYCONFIG_SCALING</a>
+<a href="https://msdn.microsoft.com/6f073aa6-2647-4a51-9256-b2da488fd382">DISPLAYCONFIG_SCALING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553977">DISPLAYCONFIG_SCANLINE_ORDERING</a>
+<a href="https://msdn.microsoft.com/5b8d6c83-e8fb-4529-8d61-557ed0e4da37">DISPLAYCONFIG_SCANLINE_ORDERING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553993">DISPLAYCONFIG_TARGET_MODE</a>
+<a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554003">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
+<a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569215">QueryDisplayConfig</a>
+<a href="https://msdn.microsoft.com/b1792d7f-f216-4250-a6b6-a11b251a9cec">QueryDisplayConfig</a>
  
 
  

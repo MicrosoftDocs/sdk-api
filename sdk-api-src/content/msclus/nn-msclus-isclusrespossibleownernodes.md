@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to a resource's list of 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a>
+    <a href="p_gly.htm">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>.
 
 
@@ -116,7 +117,7 @@ Removes a node from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/09c2aa3a-f431-48da-81ee-3ce347491b45">Count</a>
 
 
 </td>
@@ -128,7 +129,7 @@ Returns the number of nodes in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/a8db9fab-822e-453f-ba5f-b5e75e6be7be">Item</a>
 
 
 </td>

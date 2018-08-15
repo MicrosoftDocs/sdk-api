@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,12 +62,12 @@ The <b>SOCKADDR_IN6_PAIR</b> structure contains pointers to a pair of IP address
 
 ### -field SourceAddress
 
-A pointer to an IP source address represented as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570824">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
+A pointer to an IP source address represented as a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
 
 
 ### -field DestinationAddress
 
-A pointer to an IP source address represented as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570824">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
+A pointer to an IP source address represented as a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
 
 
 ## -remarks
@@ -77,7 +78,7 @@ The <b>SOCKADDR_IN6_PAIR</b> structure is defined on Windows Vista and later.
 
 Any IPv4 addresses in the <b>SOCKADDR_IN6_PAIR</b> structure must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="https://msdn.microsoft.com/7ae49081-ffb5-4eee-b488-2541398e7acc">Dual-Stack Sockets</a>.
 
-The <b>SOCKADDR_IN6_PAIR</b> structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546219">CreateSortedAddressPairs</a> function.  
+The <b>SOCKADDR_IN6_PAIR</b> structure is used by the <a href="https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698">CreateSortedAddressPairs</a> function.  
 
 Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2tcpip.h</i> header file, and should never be used directly.
 
@@ -90,7 +91,7 @@ Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546219">CreateSortedAddressPairs</a>
+<a href="https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698">CreateSortedAddressPairs</a>
 
 
 
@@ -98,7 +99,7 @@ Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

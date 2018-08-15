@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -61,7 +62,7 @@ Sets a complex option, such as a specified condition generator, to use when pars
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a></b>
 
 The complex option to be set.
         
@@ -71,15 +72,15 @@ The complex option to be set.
 
 Type: <b>LPCWSTR</b>
 
-A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a>.
+A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 
 ### -param pOptionValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a>.
+Pointer to a <a href="_stg_propvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 

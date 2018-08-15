@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -56,7 +57,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Returns  the size of the largest committed free block in the specified heap.   If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541911">Disable heap coalesce on free</a> global flag is set, this function also coalesces adjacent free blocks of memory in the heap.
+Returns  the size of the largest committed free block in the specified heap.   If the <a href="http://go.microsoft.com/fwlink/p/?linkid=160678">Disable heap coalesce on free</a> global flag is set, this function also coalesces adjacent free blocks of memory in the heap.
 
 
 ## -parameters
@@ -122,7 +123,7 @@ In the unlikely case that there is absolutely no space available in the heap, th
 
 
 
-The <b>HeapCompact</b> function is primarily useful for debugging. Ordinarily, the system compacts the heap whenever the <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> function is called, and the <b>HeapCompact</b> function returns the size of the largest free block in the heap but does not compact the heap any further. If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541911">Disable heap coalesce on free</a> global flag is set during debugging, the system does not compact the heap and calling the <b>HeapCompact</b> function does compact the heap.  For more information about global flags, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549557">GFlags</a> documentation.
+The <b>HeapCompact</b> function is primarily useful for debugging. Ordinarily, the system compacts the heap whenever the <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> function is called, and the <b>HeapCompact</b> function returns the size of the largest free block in the heap but does not compact the heap any further. If the <a href="http://go.microsoft.com/fwlink/p/?linkid=160678">Disable heap coalesce on free</a> global flag is set during debugging, the system does not compact the heap and calling the <b>HeapCompact</b> function does compact the heap.  For more information about global flags, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=153601">GFlags</a> documentation.
 
 There is no guarantee that an application can successfully allocate a memory block of the size returned by 
 <b>HeapCompact</b>. Other threads or the commit threshold might prevent such an allocation.

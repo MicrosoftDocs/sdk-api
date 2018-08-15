@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ Creates a sensor profile collection.
 
 ### -param ppSensorProfile [out]
 
-On success, points to an <a href="https://msdn.microsoft.com/en-us/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a> containing the sensor profile collection.
+On success, points to an <a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a> containing the sensor profile collection.
 
 
 ## -returns

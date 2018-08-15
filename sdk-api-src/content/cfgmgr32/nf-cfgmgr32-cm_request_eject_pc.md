@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -78,17 +79,17 @@ Use this function to request that a portable PC, which is inserted in a local do
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538716">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
+<a href="https://msdn.microsoft.com/1c07dca9-5209-46d5-a0a3-87a615e3d40a">CM_Is_Dock_Station_Present</a> identifies whether a docking station is present in a local machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538724">CM_Is_Dock_Station_Present_Ex</a> identifies whether a docking station is present in a local or a remote machine.
+<a href="https://msdn.microsoft.com/d94411e6-a98d-4feb-adfb-6d94e3d33d46">CM_Is_Dock_Station_Present_Ex</a> identifies whether a docking station is present in a local or a remote machine.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539815">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
+<a href="https://msdn.microsoft.com/69bcbfa4-fb89-4b5f-bd0a-260569dfb466">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
 
 </li>
 </ul>
@@ -100,15 +101,15 @@ Use this function to request that a portable PC, which is inserted in a local do
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538716">CM_Is_Dock_Station_Present</a>
+<a href="https://msdn.microsoft.com/1c07dca9-5209-46d5-a0a3-87a615e3d40a">CM_Is_Dock_Station_Present</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538724">CM_Is_Dock_Station_Present_Ex</a>
+<a href="https://msdn.microsoft.com/d94411e6-a98d-4feb-adfb-6d94e3d33d46">CM_Is_Dock_Station_Present_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539815">CM_Request_Eject_PC_Ex</a>
+<a href="https://msdn.microsoft.com/69bcbfa4-fb89-4b5f-bd0a-260569dfb466">CM_Request_Eject_PC_Ex</a>
  
 
  

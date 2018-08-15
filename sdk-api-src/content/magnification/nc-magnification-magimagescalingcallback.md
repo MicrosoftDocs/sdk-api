@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -75,7 +76,7 @@ The input data.
 
 ### -param srcheader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a></b>
+Type: <b><a href="https://msdn.microsoft.com/875a0e1d-2513-4ed2-8215-f2d2d91dd234">MAGIMAGEHEADER</a></b>
 
 The description of the input format.
 
@@ -89,21 +90,21 @@ The output data.
 
 ### -param destheader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a></b>
+Type: <b><a href="https://msdn.microsoft.com/875a0e1d-2513-4ed2-8215-f2d2d91dd234">MAGIMAGEHEADER</a></b>
 
 The description of the output format.
 
 
 ### -param unclipped [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The coordinates of the scaled version of the source bitmap.
 
 
 ### -param clipped [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The coordinates of the window to which the scaled bitmap is clipped.
 
@@ -131,11 +132,11 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a>
+<a href="https://msdn.microsoft.com/875a0e1d-2513-4ed2-8215-f2d2d91dd234">MAGIMAGEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692388(v=VS.85).aspx">MagGetImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/492a1022-503f-45ed-89e2-e2fe0d01bed6">MagGetImageScalingCallback</a>
  
 
  

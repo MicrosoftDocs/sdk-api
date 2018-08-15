@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -68,8 +69,8 @@ Retrieves the raw input from the specified device.
 
 Type: <b>HRAWINPUT</b>
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure. This comes from the 
-					<i>lParam</i> in <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>. 
+A handle to the <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structure. This comes from the 
+					<i>lParam</i> in <a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>. 
 
 
 ### -param uiCommand [in]
@@ -90,7 +91,7 @@ The command flag. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Get the header information from the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure.
+Get the header information from the <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structure.
 
 </td>
 </tr>
@@ -101,7 +102,7 @@ Get the header information from the <a href="https://msdn.microsoft.com/en-us/li
 </dl>
 </td>
 <td width="60%">
-Get the raw data from the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure.
+Get the raw data from the <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structure.
 
 </td>
 </tr>
@@ -113,7 +114,7 @@ Get the raw data from the <a href="https://msdn.microsoft.com/en-us/library/ms64
 
 Type: <b>LPVOID</b>
 
-A pointer to the data that comes from the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure. This depends on the value of 
+A pointer to the data that comes from the <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structure. This depends on the value of 
 					<i>uiCommand</i>. If 
 					<i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>. 
 
@@ -130,7 +131,7 @@ The size, in bytes, of the data in
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a> structure. 
+The size, in bytes, of the <a href="https://msdn.microsoft.com/abc4226a-679a-4963-af8e-e87670e60126">RAWINPUTHEADER</a> structure. 
 
 
 ## -returns
@@ -152,7 +153,7 @@ If there is an error, the return value is (<b>UINT</b>)-1.
 
 
 
-<b>GetRawInputData</b> gets the raw input one <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure at a time. In contrast, <a href="https://msdn.microsoft.com/en-us/library/ms645595(v=VS.85).aspx">GetRawInputBuffer</a> gets an array of <b>RAWINPUT</b> structures.
+<b>GetRawInputData</b> gets the raw input one <a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a> structure at a time. In contrast, <a href="https://msdn.microsoft.com/a76d9b93-4faa-43c4-b72e-2ca9fc306703">GetRawInputBuffer</a> gets an array of <b>RAWINPUT</b> structures.
 
 
 
@@ -166,19 +167,19 @@ If there is an error, the return value is (<b>UINT</b>)-1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645595(v=VS.85).aspx">GetRawInputBuffer</a>
+<a href="https://msdn.microsoft.com/a76d9b93-4faa-43c4-b72e-2ca9fc306703">GetRawInputBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a>
+<a href="https://msdn.microsoft.com/abc4226a-679a-4963-af8e-e87670e60126">RAWINPUTHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 

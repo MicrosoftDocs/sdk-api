@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,11 +65,6 @@ The <b>FNFCIFILEPLACED</b> macro provides the declaration for the application-de
 Pointer to the <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure containing the parameters of the cabinet on which the file has been stored.
 
 
-#### - pszFile [in]
-
-The name of the file in the cabinet.
-
-
 #### - cbFile
 
 The length of the file in bytes.
@@ -77,6 +73,11 @@ The length of the file in bytes.
 #### - fContinuation
 
 A boolean value that is <b>TRUE</b> if the data added is a segment of a continued file.
+
+
+#### - pszFile [in]
+
+The name of the file in the cabinet.
 
 
 #### - pv

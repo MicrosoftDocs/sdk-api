@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Extracts the contents of a buffer stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure of type VT_ARRRAY | VT_UI1.
+Extracts the contents of a buffer stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure of type VT_ARRRAY | VT_UI1.
 
 
 ## -parameters
@@ -63,7 +64,7 @@ Extracts the contents of a buffer stored in a <a href="https://msdn.microsoft.co
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+Reference to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ### -param pv [out]
@@ -111,7 +112,7 @@ Data successfully extracted.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> was not of type VT_ARRRAY | VT_UI1.
+The <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> was not of type VT_ARRRAY | VT_UI1.
 
 </td>
 </tr>
@@ -122,7 +123,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIA
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> buffer value had fewer than <i>cb</i> bytes.
+The <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> buffer value had fewer than <i>cb</i> bytes.
 
 </td>
 </tr>
@@ -136,9 +137,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIA
 
 
 
-This function is used when the calling application expects a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before it calls this function.
+This function is used when the calling application expects a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before it calls this function.
 
-If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
+If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
 
 If the stored value has fewer than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> fails and the buffer is not modified.
 
@@ -147,7 +148,7 @@ If the value has more than <i>cb</i> bytes, then <a href="shell.VariantToBuffer"
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

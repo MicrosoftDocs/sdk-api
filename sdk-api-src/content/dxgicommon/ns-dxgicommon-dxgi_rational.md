@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgicommon.h
 req.include-header: DXGI.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,7 +78,7 @@ An unsigned integer value representing the bottom of the rational number.
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a> structure.
 
 The <b>DXGI_RATIONAL</b> structure operates under the following rules:
 

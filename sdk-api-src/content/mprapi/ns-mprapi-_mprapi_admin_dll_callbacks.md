@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -286,7 +287,7 @@ The following restrictions apply to the callback functions in the <b>MPRAPI_ADMI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a>
+<a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a>
 
 
 

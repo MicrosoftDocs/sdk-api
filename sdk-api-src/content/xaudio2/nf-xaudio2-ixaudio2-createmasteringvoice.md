@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ Creates and configures a mastering voice.
 
 ### -param ppMasteringVoice [out]
 
- If successful, returns a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/Ee415912(v=VS.85).aspx">IXAudio2MasteringVoice</a> object.
+ If successful, returns a pointer to the new <a href="https://msdn.microsoft.com/96D8A15E-5090-4D67-982D-ACE99CEC4379">IXAudio2MasteringVoice</a> object.
 
 
 ### -param X2DEFAULT
@@ -69,6 +70,11 @@ Creates and configures a mastering voice.
 
 
 
+
+
+#### - Flags [in]
+
+ Flags that specify the behavior of the mastering voice. Must be 0.
 
 
 #### - InputChannels [in]
@@ -104,24 +110,19 @@ Flags
 
 
 
-#### - Flags [in]
+#### - StreamCategory [in, optional]
 
- Flags that specify the behavior of the mastering voice. Must be 0.
+The audio stream category to use for this mastering voice.
+
+
+#### - pEffectChain [in, optional]
+
+Pointer to an <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> structure that describes an effect chain to use in the mastering voice, or NULL to use no effects.
 
 
 #### - szDeviceId [in]
 
 Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
-
-
-#### - pEffectChain [in, optional]
-
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structure that describes an effect chain to use in the mastering voice, or NULL to use no effects.
-
-
-#### - StreamCategory [in, optional]
-
-The audio stream category to use for this mastering voice.
 
 
 ## -returns
@@ -167,11 +168,11 @@ When first created, mastering voices are in the started state.
 
 
 
-It is invalid to call <b>CreateMasteringVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). If you call <b>CreateMasteringVoice</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
+It is invalid to call <b>CreateMasteringVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). If you call <b>CreateMasteringVoice</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the pEffectChain argument and any <a href="https://msdn.microsoft.com/en-us/library/Ee419236(v=VS.85).aspx">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>CreateMasteringVoice</b> successfully completes, and may be deleted immediately after <b>CreateMasteringVoice</b> is called.
+The <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the pEffectChain argument and any <a href="https://msdn.microsoft.com/d2c7c640-9f6a-4fc0-bc87-35570281cec5">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>CreateMasteringVoice</b> successfully completes, and may be deleted immediately after <b>CreateMasteringVoice</b> is called.
 
 
 
@@ -193,7 +194,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
 
 
 

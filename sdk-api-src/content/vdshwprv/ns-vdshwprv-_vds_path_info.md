@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -70,7 +71,7 @@ The unique ID of the path used by MPIO.
 
 ### -field type
 
-The type of interconnect that the hardware provider supports for this LUN path. <a href="https://msdn.microsoft.com/en-us/library/Aa383366(v=VS.85).aspx">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
+The type of interconnect that the hardware provider supports for this LUN path. <a href="vds_hwprovider_type.htm">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
 
 
 ### -field status

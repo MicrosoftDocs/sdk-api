@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -119,19 +120,19 @@ An <b>ICspStatus</b> object contains information about a  cryptographic provider
 
 Because cryptographic providers typically support more than one algorithm, multiple <b>ICspStatus</b> objects may be created and returned when you call any of the preceding properties or methods that return a collection. This is shown by the following  illustration:
 
-<img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="./images/ICSPStatuses.png"/>
+<img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="images/ICSPStatuses.png"/>
 
 You can use the <a href="https://msdn.microsoft.com/56798477-ec12-47b6-a226-d20258677033">EnrollmentStatus</a> property on an <b>ICspStatus</b> object to retrieve an <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> object that defines the following properties:<ul>
-<li>The <a href="https://msdn.microsoft.com/library/windows/hardware/dn915285">Display</a> property specifies whether the provider/algorithm pair can be displayed in a user interface.</li>
-<li>The <a href="https://msdn.microsoft.com/library/windows/hardware/hh973228">Selected</a> property specifies or retrieves a value that indicates whether the status of a specific item is monitored during the enrollment process.</li>
-<li>The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> property identifies the status of the enrollment process.</li>
+<li>The <a href="https://msdn.microsoft.com/91ac74af-8e59-42fc-bca8-d7ef96a1fed0">Display</a> property specifies whether the provider/algorithm pair can be displayed in a user interface.</li>
+<li>The <a href="https://msdn.microsoft.com/9050f394-ccad-4a6e-90bc-53af3a874f91">Selected</a> property specifies or retrieves a value that indicates whether the status of a specific item is monitored during the enrollment process.</li>
+<li>The <a href="https://msdn.microsoft.com/ca1105eb-a29a-458d-abbb-34c9b67d7c8a">Status</a> property identifies the status of the enrollment process.</li>
 </ul>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -147,7 +148,7 @@ The <b>ICspStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/dc5f92e8-29fe-474c-bf1d-c6d7716abce1">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a cryptographic provider and an associated algorithm.
@@ -194,7 +195,7 @@ Retrieves an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a>
+<a href="https://msdn.microsoft.com/7c778f78-1e94-4e84-a51a-3c0171f19db6">DisplayName</a>
 
 
 </td>
@@ -243,7 +244,7 @@ Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

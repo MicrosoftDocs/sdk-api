@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -103,7 +104,7 @@ If neither of these conditions are met, the function returns a <b>NULL</b> sessi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
 
 
 
@@ -127,7 +128,7 @@ If neither of these conditions are met, the function returns a <b>NULL</b> sessi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">structures</a>
+<a href="https://msdn.microsoft.com/1af7ea80-a65b-42bf-a1b2-ca54c173c9fb">structures</a>
  
 
  

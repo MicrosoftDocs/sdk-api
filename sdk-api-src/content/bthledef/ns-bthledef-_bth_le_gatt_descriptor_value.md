@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -230,19 +231,19 @@ A pointer to the descriptor value data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450845">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
+<a href="https://msdn.microsoft.com/323D649D-B381-4293-BE7C-64651862B9DB">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450852">BTH_LE_UUID</a>
+<a href="https://msdn.microsoft.com/FA82A099-7924-44A1-A14C-7633B8656FB7">BTH_LE_UUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450798">BluetoothGATTGetDescriptorValue</a>
+<a href="https://msdn.microsoft.com/06820384-7098-415A-A350-3A755162FAA3">BluetoothGATTGetDescriptorValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450807">BluetoothGATTSetDescriptorValue</a>
+<a href="https://msdn.microsoft.com/B4EDDC32-732D-422B-85A0-FD935DBFE4EB">BluetoothGATTSetDescriptorValue</a>
  
 
  

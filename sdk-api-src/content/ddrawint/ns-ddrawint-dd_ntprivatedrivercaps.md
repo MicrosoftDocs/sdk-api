@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -73,7 +74,7 @@ Indicates how DirectDraw should create the surface.
 
 #### DDHAL_PRIVATECAP_AUTOMICSURFACECREATION
 
-When this flag is set, it indicates that the driver requests <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a> to be called only once when the application creates a complex flipping chain using a single <b>CreateSurface</b> call. In this case, the <b>lplpSList</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550540">DD_CREATESURFACEDATA</a> structure points to a list of surfaces to create (rather than a single surface) and <b>dwSCnt</b> contains the number of surfaces in the list. 
+When this flag is set, it indicates that the driver requests <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a> to be called only once when the application creates a complex flipping chain using a single <b>CreateSurface</b> call. In this case, the <b>lplpSList</b> member of the <a href="https://msdn.microsoft.com/5a3b4267-43b4-44dc-abad-cb3f3d07f30e">DD_CREATESURFACEDATA</a> structure points to a list of surfaces to create (rather than a single surface) and <b>dwSCnt</b> contains the number of surfaces in the list. 
 
 
 
@@ -100,7 +101,7 @@ When the DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION flag is not set, DirectDraw perf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550540">DD_CREATESURFACEDATA</a>
+<a href="https://msdn.microsoft.com/5a3b4267-43b4-44dc-abad-cb3f3d07f30e">DD_CREATESURFACEDATA</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Selects a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760612(v=VS.85).aspx">TCM_SETCURSEL</a> message explicitly. 
+Selects a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/cf709d8c-c522-47c8-8ff3-463dc8e924b5">TCM_SETCURSEL</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +77,7 @@ Index of the tab to select.
 
 
 
-A tab control does not send a <a href="https://msdn.microsoft.com/en-us/library/Bb760571(v=VS.85).aspx">TCN_SELCHANGING</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb760569(v=VS.85).aspx">TCN_SELCHANGE</a> notification code when a tab is selected using the <a href="https://msdn.microsoft.com/en-us/library/Bb760612(v=VS.85).aspx">TCM_SETCURSEL</a> message. 
+A tab control does not send a <a href="https://msdn.microsoft.com/ec7b1bd3-8932-4418-9eed-ecb7c748e4dd">TCN_SELCHANGING</a> or <a href="https://msdn.microsoft.com/f40e30f6-169b-4381-a300-12c3befb5fc5">TCN_SELCHANGE</a> notification code when a tab is selected using the <a href="https://msdn.microsoft.com/cf709d8c-c522-47c8-8ff3-463dc8e924b5">TCM_SETCURSEL</a> message. 
 
 
 

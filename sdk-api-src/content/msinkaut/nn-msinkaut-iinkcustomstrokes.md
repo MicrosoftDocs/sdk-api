@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -77,7 +78,7 @@ The <b>IInkCustomStrokes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/482906b2-131e-4baa-8ed7-c11f79f05e4b">Add</a>
 </td>
 <td align="left" width="63%">
 Specifies the collection of strokes to add to the collection of custom strokes.
@@ -86,7 +87,7 @@ Specifies the collection of strokes to add to the collection of custom strokes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/63ab20ee-f8ab-41ee-b85a-03d9a29dabc0">Clear</a>
 </td>
 <td align="left" width="63%">
 Specifies that all custom strokes are cleared from the collection.
@@ -95,7 +96,7 @@ Specifies that all custom strokes are cleared from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/14cdc466-2acf-4af0-8fbc-74233edf3884">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a> at the location specified within the <b>IInkCustomStrokes</b>.
@@ -104,7 +105,7 @@ Retrieves the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb0
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/11cd07f2-0f02-42d6-8bab-b95456ed1926">Remove</a>
 </td>
 <td align="left" width="63%">
 Specifies the collection of strokes to remove from the known collection of custom strokes.
@@ -129,7 +130,7 @@ Specifies the collection of strokes to remove from the known collection of custo
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
+Gets either the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
 
 The <b>_NewEnum</b> property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces. 
 
@@ -138,7 +139,7 @@ The <b>_NewEnum</b> property is marked restricted in the Interface Definition La
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/f1b6772e-9b6a-41e2-b6c2-b1707f59768a">Count</a>
 
 
 </td>

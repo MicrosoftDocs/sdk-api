@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IWiaNotifyDevMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629951(v=VS.85).aspx">NewDeviceArrival</a>
+<a href="https://msdn.microsoft.com/0675634c-53de-4f70-b090-2138461d634b">NewDeviceArrival</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains data to be passed to another application by the <a href="https://msdn.microsoft.com/en-us/library/ms649011(v=VS.85).aspx">WM_COPYDATA</a> message. 
+Contains data to be passed to another application by the <a href="https://msdn.microsoft.com/d937a260-9fd2-4450-a762-20120f589ab1">WM_COPYDATA</a> message. 
 
 
 ## -struct-fields
@@ -85,7 +86,7 @@ The data to be passed to the receiving application. This member can be <b>NULL</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649011(v=VS.85).aspx">WM_COPYDATA</a>
+<a href="https://msdn.microsoft.com/d937a260-9fd2-4450-a762-20120f589ab1">WM_COPYDATA</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 
-The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
+The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="c.htm">color space</a>.
 
 
 

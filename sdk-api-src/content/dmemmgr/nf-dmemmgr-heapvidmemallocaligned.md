@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dmemmgr.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -60,7 +61,7 @@ The <b>HeapVidMemAllocAligned</b> function allocates <a href="https://msdn.micro
 
 ### -param lpVidMem [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a> structure that represents the DirectDraw heap from which to allocate the surface.
+Pointer to a <a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a> structure that represents the DirectDraw heap from which to allocate the surface.
 
 
 ### -param dwWidth [in]
@@ -75,7 +76,7 @@ Is the height in scan lines of the requested surface.
 
 ### -param lpAlignment [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569895">SURFACEALIGNMENT</a> structure that describes the alignment restrictions for the surface.
+Pointer to a <a href="https://msdn.microsoft.com/200f4e08-b5d3-484e-b87a-b3069dc3c99f">SURFACEALIGNMENT</a> structure that describes the alignment restrictions for the surface.
 
 
 ### -param lpNewPitch [out]
@@ -96,7 +97,7 @@ Is the location in which the resulting pitch value is written. This information 
 
 
 
-The driver should use the array of VIDEOMEMORY structures its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function receives to determine the value of <i>lpVidMem</i> with which to call <b>HeapVidMemAllocAligned</b>. The driver receives this array in the <i>pvmList</i> parameter during the second call to <b>DrvGetDirectDrawInfo</b>. It is possible that <b>DrvGetDirectDrawInfo</b> might not be called when low memory conditions exist on the system. Consequently, the driver should always check to ensure that it has a non-NULL pointer in <i>pvmList</i>.
+The driver should use the array of VIDEOMEMORY structures its <a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a> function receives to determine the value of <i>lpVidMem</i> with which to call <b>HeapVidMemAllocAligned</b>. The driver receives this array in the <i>pvmList</i> parameter during the second call to <b>DrvGetDirectDrawInfo</b>. It is possible that <b>DrvGetDirectDrawInfo</b> might not be called when low memory conditions exist on the system. Consequently, the driver should always check to ensure that it has a non-NULL pointer in <i>pvmList</i>.
 
 
 
@@ -106,19 +107,19 @@ The driver should use the array of VIDEOMEMORY structures its <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569895">SURFACEALIGNMENT</a>
+<a href="https://msdn.microsoft.com/200f4e08-b5d3-484e-b87a-b3069dc3c99f">SURFACEALIGNMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a>
+<a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570554">VidMemFree</a>
+<a href="https://msdn.microsoft.com/f1d3b5a0-f1e3-4977-8081-839b4e36971f">VidMemFree</a>
  
 
  

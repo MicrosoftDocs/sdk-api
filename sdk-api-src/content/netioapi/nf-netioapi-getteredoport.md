@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -135,7 +136,7 @@ Use
 
 The <b>GetTeredoPort</b> function is defined on Windows Vista and later. 
 
-The <b>GetTeredoPort</b> function retrieves the current UDP port number used by the Teredo client for the Teredo service port. The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568808">NotifyTeredoPortChange</a> function. 
+The <b>GetTeredoPort</b> function retrieves the current UDP port number used by the Teredo client for the Teredo service port. The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <a href="https://msdn.microsoft.com/c0c23531-7629-41c9-acf2-9d2f5e98e02c">NotifyTeredoPortChange</a> function. 
 
 The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84066">http://www.ietf.org/rfc/rfc4380.txt</a>.
 
@@ -149,11 +150,11 @@ The <b>GetTeredoPort</b> function is used primarily by firewall applications in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568807">NotifyStableUnicastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568808">NotifyTeredoPortChange</a>
+<a href="https://msdn.microsoft.com/c0c23531-7629-41c9-acf2-9d2f5e98e02c">NotifyTeredoPortChange</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -174,7 +175,7 @@ On Windows Vista and later, the <b>CreateProxyArpEnry</b> function can only be 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366886(v=VS.85).aspx">MIB_PROXYARP</a>
+<a href="_mpr_mib_proxyarp">MIB_PROXYARP</a>
  
 
  

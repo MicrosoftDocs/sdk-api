@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IExecuteCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://msdn.microsoft.com/388136bb-a5c0-48c0-adfc-f5154910fd72">Execute</a>
 </td>
 <td align="left" width="63%">
 Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.
@@ -145,7 +146,7 @@ Implement this interface when you choose it as your method to invoke the verb to
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Do not call the methods of <b>IExecuteCommand</b> directly. Windows Explorer calls your <b>IExecuteCommand</b> methods when the user wants to perform an action on the items.
 
-Note that, apart from <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>, the methods of this interface pass system information to the handler. The system itself calls these methods, setting the parameters appropriately based on system settings and conditions.
+Note that, apart from <a href="https://msdn.microsoft.com/388136bb-a5c0-48c0-adfc-f5154910fd72">Execute</a>, the methods of this interface pass system information to the handler. The system itself calls these methods, setting the parameters appropriately based on system settings and conditions.
 
 
 

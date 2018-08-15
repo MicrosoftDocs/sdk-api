@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify the type of connection. These values are used in  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537140">KSJACK_SINK_INFORMATION</a> structure that stores information about an audio jack sink.
+The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify the type of connection. These values are used in  the <a href="https://msdn.microsoft.com/ee7211d8-a34f-40c9-9925-7bb40792bae9">KSJACK_SINK_INFORMATION</a> structure that stores information about an audio jack sink.
 
 
 ## -enum-fields
@@ -81,7 +82,7 @@ Display port.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537140">KSJACK_SINK_INFORMATION</a>
+<a href="https://msdn.microsoft.com/ee7211d8-a34f-40c9-9925-7bb40792bae9">KSJACK_SINK_INFORMATION</a>
  
 
  

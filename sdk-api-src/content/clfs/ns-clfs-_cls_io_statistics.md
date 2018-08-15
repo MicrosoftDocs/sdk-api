@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -88,7 +89,7 @@ The cumulative number of bytes of metadata flushed in the logging session.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541798">CLFS_IO_STATISTICS_HEADER</a>
+<a href="https://msdn.microsoft.com/ebf3f962-5c15-4caf-910a-13bf02137046">CLFS_IO_STATISTICS_HEADER</a>
 
 
 

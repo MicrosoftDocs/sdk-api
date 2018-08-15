@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdVideoPortGetFlipStatus</i> callback function determines whether the mos
 
 #### - lpGetFlipStatus
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551604">DD_GETVPORTFLIPSTATUSDATA</a> structure that contains the information required for the driver to determine a surface's flip status.
+Points to a <a href="https://msdn.microsoft.com/64be9019-a75f-42db-a636-b767f87c1858">DD_GETVPORTFLIPSTATUSDATA</a> structure that contains the information required for the driver to determine a surface's flip status.
 
 
 ## -returns
@@ -87,7 +88,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55160
 
 DirectDraw drivers that support VPE must implement <i>DdVideoPortGetFlipStatus</i>.
 
-The driver should set the <b>ddRVal</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551604">DD_GETVPORTFLIPSTATUSDATA</a> structure at <i>lpGetFlipStatus</i> to DDERR_WASSTILLDRAWING and return DDHAL_DRIVER_HANDLED if a flip is currently in progress; otherwise the driver should set <b>ddRVal</b> to DD_OK and return DDHAL_DRIVER_HANDLED.
+The driver should set the <b>ddRVal</b> member of the <a href="https://msdn.microsoft.com/64be9019-a75f-42db-a636-b767f87c1858">DD_GETVPORTFLIPSTATUSDATA</a> structure at <i>lpGetFlipStatus</i> to DDERR_WASSTILLDRAWING and return DDHAL_DRIVER_HANDLED if a flip is currently in progress; otherwise the driver should set <b>ddRVal</b> to DD_OK and return DDHAL_DRIVER_HANDLED.
 
 If the driver sets <b>ddRVal</b> to DDERR_WASSTILLDRAWING, DirectDraw will fail locks and blits on that surface.
 
@@ -99,7 +100,7 @@ If the driver sets <b>ddRVal</b> to DDERR_WASSTILLDRAWING, DirectDraw will fail 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551604">DD_GETVPORTFLIPSTATUSDATA</a>
+<a href="https://msdn.microsoft.com/64be9019-a75f-42db-a636-b767f87c1858">DD_GETVPORTFLIPSTATUSDATA</a>
  
 
  

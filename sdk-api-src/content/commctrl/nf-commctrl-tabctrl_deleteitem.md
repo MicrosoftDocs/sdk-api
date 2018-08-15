@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760577(v=VS.85).aspx">TCM_DELETEITEM</a> message explicitly. 
+Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/54bfa446-580a-4ea7-b5e9-9429f4ee1c2b">TCM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters

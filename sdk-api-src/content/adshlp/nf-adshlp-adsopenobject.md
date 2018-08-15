@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -207,7 +208,7 @@ hr = ADsOpenObject(L"LDAP://CN=Jeff,DC=Fabrikam,DC=com",
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt270133">Binding</a>
+<a href="https://msdn.microsoft.com/82d465c5-b23d-4403-b360-8c710fbc6e1c">Binding</a>
 
 
 

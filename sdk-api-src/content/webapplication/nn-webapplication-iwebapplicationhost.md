@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -108,7 +109,7 @@ Removes a previously established connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541137">Document</a>
+<a href="https://msdn.microsoft.com/e2ba8ea7-0179-42d6-8d85-1617d14f85e4">Document</a>
 
 
 </td>

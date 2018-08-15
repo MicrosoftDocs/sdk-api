@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -124,7 +125,7 @@ The following diagram shows how HTTP headers are mapped into
                 the headers of a message.
             
 
-<img alt="" src="./images/MappedHeaders.png"/>
+<img alt="" src="images/MappedHeaders.png"/>
 
 When a message is received, the HTTP channel
                 will automatically copy the specified HTTP headers from the request

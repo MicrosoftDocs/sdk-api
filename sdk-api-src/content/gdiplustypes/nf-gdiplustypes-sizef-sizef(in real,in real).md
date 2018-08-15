@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object and initializes the members to zero. This is the default constructor.
+Creates a <a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object and initializes the members to zero. This is the default constructor.
 
 
 ## -parameters
@@ -76,11 +77,11 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
+<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534738(v=VS.85).aspx">SizeF Constructors</a>
+<a href="https://msdn.microsoft.com/4aeaaead-0abb-48c3-a152-54b589d59646">SizeF Constructors</a>
  
 
  

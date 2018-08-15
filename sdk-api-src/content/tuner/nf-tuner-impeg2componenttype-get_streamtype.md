@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_StreamType</b> method retrieves the stream type.
 
 #### - pMP2StreamType [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567738">MPEG2StreamType</a> that receives the stream type value.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/10df5a9e-965c-4118-8ece-2d8ee353cd10">MPEG2StreamType</a> that receives the stream type value.
 
 
 ## -returns

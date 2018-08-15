@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -93,7 +94,7 @@ A pointer to a null-terminated string specifying the name of the object being cr
 ### -param SecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure against which access is checked.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure against which access is checked.
 
 
 ### -param DesiredAccess [in]
@@ -110,7 +111,7 @@ If this parameter is MAXIMUM_ALLOWED, the function sets the <i>GrantedAccess</i>
 ### -param GenericMapping [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
+<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
 
 ### -param ObjectCreation [in]
@@ -152,7 +153,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-4d4a-a285-c0b7b5e2a478">How AccessCheck Works</a> overview.
 
-The <b>AccessCheckAndAuditAlarm</b> function requires the calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">process</a> to have the SE_AUDIT_NAME privilege enabled. The test for this privilege is performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling process, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread.
+The <b>AccessCheckAndAuditAlarm</b> function requires the calling <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> to have the SE_AUDIT_NAME privilege enabled. The test for this privilege is performed against the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> of the calling process, not the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> of the thread.
 
 The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not impersonating a client.
 
@@ -176,7 +177,7 @@ The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a>
+<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
 
 
 
@@ -212,7 +213,7 @@ The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
  
 
  

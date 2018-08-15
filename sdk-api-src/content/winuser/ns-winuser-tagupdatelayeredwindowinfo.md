@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
+Used by <a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
 
 
 ## -struct-fields
@@ -70,7 +71,7 @@ The size, in bytes, of this structure.
 
 Type: <b>HDC</b>
 
-A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> in this member when calling <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a>. The handle is used for palette color matching when the window contents are updated. If <b>hdcDst</b> is <b>NULL</b>, the default palette is used.
+A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> in this member when calling <a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a>. The handle is used for palette color matching when the window contents are updated. If <b>hdcDst</b> is <b>NULL</b>, the default palette is used.
 
                     
 
@@ -79,14 +80,14 @@ If <b>hdcSrc</b> is <b>NULL</b>, <b>hdcDst</b> must be <b>NULL</b>.
 
 ### -field pptDst
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
 
 The new screen position of the layered window. If the new position is unchanged from the current position, <b>pptDst</b> can be <b>NULL</b>.
 
 
 ### -field psize
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
 
 The new size of the layered window. If the size of the window will not change, this parameter can be <b>NULL</b>. If <b>hdcSrc</b> is <b>NULL</b>, <b>psize</b> must be <b>NULL</b>.
 
@@ -100,7 +101,7 @@ A handle to the DC for the surface that defines the layered window. This handle 
 
 ### -field pptSrc
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
 
 The location of the layer in the device context. If <b>hdcSrc</b> is <b>NULL</b>, <b>pptSrc</b> should be <b>NULL</b>. 
 
@@ -170,7 +171,7 @@ Draw an opaque layered window.
 </dl>
 </td>
 <td width="60%">
-Force the <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
+Force the <a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
 
 </td>
 </tr>
@@ -182,7 +183,7 @@ If <b>hdcSrc</b> is <b>NULL</b>, <b>dwFlags</b> should be zero.
 
 ### -field prcDirty
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
 The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, only the area in this rectangle is updated from the source DC.
 
@@ -200,11 +201,11 @@ The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, on
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>
+<a href="https://msdn.microsoft.com/3f4a3608-2383-46d5-b1b2-53a939bf736a">UpdateLayeredWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Window Features</a>
+<a href="https://msdn.microsoft.com/8318c22f-85a2-490e-8233-ee1e234890d9">Window Features</a>
  
 
  

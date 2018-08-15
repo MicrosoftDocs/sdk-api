@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: xapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ Size, in bytes, of the memory block to be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
+<a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
 
 <table>
 <tr>
@@ -77,7 +78,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
+<a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
 </tr>
 </table>
  
@@ -88,7 +89,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
+<a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
 </tr>
 </table>
  

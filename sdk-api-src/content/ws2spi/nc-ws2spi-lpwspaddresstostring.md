@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 The 
 <b>WSPAddressToString</b> function converts all components of a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
 
 
 ## -parameters
@@ -64,12 +65,12 @@ The
 ### -param lpsaAddress [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure to translate into a string.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure to translate into a string.
 
 
 ### -param dwAddressLength [in]
 
-Length of the address of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>, in bytes.
+Length of the address of <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>, in bytes.
 
 
 ### -param lpProtocolInfo [in]
@@ -86,7 +87,7 @@ Buffer that receives the human readableâ€“address string..
 ### -param lpdwAddressStringLength [in, out]
 
 Length of the <i>AddressString</i> buffer, in bytes. Returns the length of the string actually copied into the buffer. If the supplied buffer is not large enough, the function fails with a specific error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size, in bytes.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size, in bytes.
 
 
 ### -param lpErrno [out]
@@ -109,7 +110,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +121,7 @@ The specified AddressString buffer is too small. Pass in a larger buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -154,9 +155,9 @@ If the next layer in the protocol chain is another layer, then, when the next la
 
 This same propagation policy applies when propagating a 
 <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566282">WSPDuplicateSocket</a>, 
+<a href="https://msdn.microsoft.com/6d9cf472-357e-4226-b53e-09083b42ed13">WSPDuplicateSocket</a>, 
 <a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>, or 
+<a href="https://msdn.microsoft.com/16735fd1-289d-425a-8ad2-c20d73888b1b">WSPSocket</a>, or 
 <a href="https://msdn.microsoft.com/65cf8f7e-7ef0-472c-82d8-e8f7df9976a9">WSPStringToAddress</a>.
 
 
@@ -175,7 +176,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566319">WSPSocket</a>
+<a href="https://msdn.microsoft.com/16735fd1-289d-425a-8ad2-c20d73888b1b">WSPSocket</a>
 
 
 
@@ -183,7 +184,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a> function.
+Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://msdn.microsoft.com/02c40cda-b87c-44c5-bcc5-3d0e83b7b14b">DwmUpdateThumbnailProperties</a> function.
 
 
 ## -struct-fields
@@ -61,7 +62,7 @@ Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://msdn.microsoft.com/en-us/library/Aa969535(v=VS.85).aspx">DWM thumbnail constant</a> values that indicates which members of this structure are set.
+A bitwise combination of <a href="https://msdn.microsoft.com/8eee1baf-e24e-40af-92ab-a7acae267ecc">DWM thumbnail constant</a> values that indicates which members of this structure are set.
 
 
 ### -field rcDestination

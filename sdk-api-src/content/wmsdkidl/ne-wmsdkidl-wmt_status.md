@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -114,7 +115,7 @@ A reporting object is connecting to server.
 
 ### -field WMT_NO_RIGHTS
 
-There is no <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license</a> and the content is protected by version 1 digital rights management.
+There is no <a href="wmformat_glossary.htm">license</a> and the content is protected by version 1 digital rights management.
 
 
 ### -field WMT_MISSING_CODEC
@@ -176,7 +177,7 @@ The current file's header object contains metadata attributes that are different
 
 ### -field WMT_BACKUPRESTORE_BEGIN
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license</a> backup or restore has started.
+A <a href="wmformat_glossary.htm">license</a> backup or restore has started.
 
 
 ### -field WMT_SOURCE_SWITCH
@@ -186,7 +187,7 @@ The next source in the playlist was opened.
 
 ### -field WMT_ACQUIRE_LICENSE
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license acquisition</a> process has completed. The <i>pValue</i> parameter in <b>OnStatus</b> contains a <a href="https://msdn.microsoft.com/7e8053d5-f3f5-4519-97f5-6dbd89982f3a">WM_GET_LICENSE_DATA</a> structure. The <b>hr</b> member of this structure indicates whether the license was successfully acquired.
+The <a href="wmformat_glossary.htm">license acquisition</a> process has completed. The <i>pValue</i> parameter in <b>OnStatus</b> contains a <a href="https://msdn.microsoft.com/7e8053d5-f3f5-4519-97f5-6dbd89982f3a">WM_GET_LICENSE_DATA</a> structure. The <b>hr</b> member of this structure indicates whether the license was successfully acquired.
 
 
 ### -field WMT_INDIVIDUALIZE
@@ -201,12 +202,12 @@ The file loaded in the reader object cannot be played without a security update.
 
 ### -field WMT_NO_RIGHTS_EX
 
-There is no <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license</a> and the content is protected by version 7 digital rights management.
+There is no <a href="wmformat_glossary.htm">license</a> and the content is protected by version 7 digital rights management.
 
 
 ### -field WMT_BACKUPRESTORE_END
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license</a> backup or restore has finished.
+A <a href="wmformat_glossary.htm">license</a> backup or restore has finished.
 
 
 ### -field WMT_BACKUPRESTORE_CONNECTING
@@ -226,7 +227,7 @@ Error relating to the URL.
 
 ### -field WMT_RESTRICTED_LICENSE
 
-The backup restorer object cannot back up one or more <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">licenses</a> because the right has been disallowed by the content owner.
+The backup restorer object cannot back up one or more <a href="wmformat_glossary.htm">licenses</a> because the right has been disallowed by the content owner.
 
 
 ### -field WMT_CLIENT_CONNECT
@@ -286,7 +287,7 @@ Sent by a writer network sink when one or more properties of a connected client 
 
 ### -field WMT_LICENSEURL_SIGNATURE_STATE
 
-Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://msdn.microsoft.com/48c62532-1cb5-4073-8fa9-cab5a8355bc3">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license acquisition</a> URL is completely trusted.
+Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://msdn.microsoft.com/48c62532-1cb5-4073-8fa9-cab5a8355bc3">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="wmformat_glossary.htm">license acquisition</a> URL is completely trusted.
 
 
 ### -field WMT_INIT_PLAYLIST_BURN
@@ -344,7 +345,7 @@ For more information on how this enumeration type is used, see the Remarks secti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545452">Enumeration Types</a>
+<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
  
 
  

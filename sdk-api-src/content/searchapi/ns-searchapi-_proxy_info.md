@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>.
+Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/f11ff5a5-d03c-4cb8-970c-78345d204492">ISearchProtocol</a>.
 
 
 ## -struct-fields
@@ -75,7 +76,7 @@ A pointer to a Unicode string buffer containing the user agent string.
 
 ### -field paUseProxy
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a></b>
 
 The proxy type to use.
 

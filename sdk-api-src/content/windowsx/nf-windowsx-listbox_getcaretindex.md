@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775193(v=VS.85).aspx">LB_GETCARETINDEX</a> message explicitly.
+Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://msdn.microsoft.com/5e9e8a37-8aed-4cfd-9360-e0de6a9b2971">LB_GETCARETINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -72,7 +73,7 @@ A handle to the control.
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775193(v=VS.85).aspx">LB_GETCARETINDEX</a>.
+For more information, see <a href="https://msdn.microsoft.com/5e9e8a37-8aed-4cfd-9360-e0de6a9b2971">LB_GETCARETINDEX</a>.
 
 
 

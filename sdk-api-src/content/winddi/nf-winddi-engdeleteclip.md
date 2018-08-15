@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>EngDeleteClip</b> function deletes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564202">EngCreateClip</a>.
+The <b>EngDeleteClip</b> function deletes a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure allocated by <a href="https://msdn.microsoft.com/719b006f-1eb0-41c6-8b88-c8241a394abe">EngCreateClip</a>.
 
 
 ## -parameters

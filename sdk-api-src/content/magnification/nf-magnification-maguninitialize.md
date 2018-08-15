@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -77,7 +78,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692393(v=VS.85).aspx">MagInitialize</a>
+<a href="https://msdn.microsoft.com/5e29436b-0cb2-4aa7-bddf-aafa5b4c6f41">MagInitialize</a>
  
 
  

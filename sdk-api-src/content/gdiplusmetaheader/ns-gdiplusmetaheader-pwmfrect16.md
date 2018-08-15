@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -92,7 +93,7 @@ Bottom coordinate of the rectangle that bounds the metafile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a>
+<a href="https://msdn.microsoft.com/d8315d7d-b613-4175-b7cd-7a36cb411a12">WmfPlaceableFileHeader</a>
  
 
  

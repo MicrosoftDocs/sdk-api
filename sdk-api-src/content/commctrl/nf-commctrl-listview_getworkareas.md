@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761095(v=VS.85).aspx">LVM_GETWORKAREAS</a> message explicitly. 
+Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://msdn.microsoft.com/956368d9-bbb4-414a-ba17-0e8e4f0f1a45">LVM_GETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -69,14 +70,14 @@ A handle to the list-view control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
-The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures in the array at <i>lprc</i>. 
+The number of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures in the array at <i>lprc</i>. 
 
 
 ### -param prc
 
 Type: <b>LPRECT</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures that receive the working areas of the list-view control. Values in these structures are in client coordinates. <i>nWorkAreas</i>  specifies the number of structures in this array. 
+A pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structures that receive the working areas of the list-view control. Values in these structures are in client coordinates. <i>nWorkAreas</i>  specifies the number of structures in this array. 
 
 
 ## -see-also
@@ -84,7 +85,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
  
 
  

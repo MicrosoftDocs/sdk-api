@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Msvidctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -113,7 +114,7 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376389(v=VS.85).aspx">ShowMenu</a>
+<a href="mstv.msvidwebdvd_showmenu_method">ShowMenu</a>
  
 
  

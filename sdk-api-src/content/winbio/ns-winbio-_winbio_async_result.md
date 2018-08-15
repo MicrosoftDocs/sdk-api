@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -196,12 +197,12 @@ Contains the results of an asynchronous call to <a href="https://msdn.microsoft.
 
 ### -field Parameters.CaptureSample.Sample
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure that contains the sample. 
+Pointer to a <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that contains the sample. 
 
 
 ### -field Parameters.CaptureSample.SampleSize
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure returned in the <b>Sample</b> member.
+Size, in bytes, of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure returned in the <b>Sample</b> member.
 
 
 ### -field Parameters.CaptureSample.RejectDetail

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -117,14 +118,15 @@ Pointer to an array of strings to use as the source list, as specified by the <i
 Number of elements in the array pointed to by <i>SourceList</i>.
 
 
+##### - Flags.SRCLIST_NOBROWSE
+
+The user is not allowed to add or change sources when 
+<a href="https://msdn.microsoft.com/65ccd3d1-1846-48cb-9fe6-ab5c69845e01">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
+
+
 ##### - Flags.SRCLIST_SYSTEM
 
 The list is the per-system Most Recently Used (MRU) list stored in the registry. The caller must be a member of the administrators local group.
-
-
-##### - Flags.SRCLIST_USER
-
-The list is the per-user MRU list stored in the registry.
 
 
 ##### - Flags.SRCLIST_TEMPORARY
@@ -133,10 +135,9 @@ The specified list is temporary and will be the only list accessible to the curr
 <a href="https://msdn.microsoft.com/87ef9425-5dab-442b-a487-3a4789005411">SetupCancelTemporarySourceList</a> is called or <b>SetSourceList</b> is called again.
 
 
-##### - Flags.SRCLIST_NOBROWSE
+##### - Flags.SRCLIST_USER
 
-The user is not allowed to add or change sources when 
-<a href="https://msdn.microsoft.com/65ccd3d1-1846-48cb-9fe6-ab5c69845e01">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
+The list is the per-user MRU list stored in the registry.
 
 
 ## -returns
@@ -156,7 +157,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -75,9 +76,9 @@ Decrement the font size.
 
 When you highlight a run of heterogeneously sized text, the Ribbon framework sets the <b>Font size</b> control to blank.  When you click the <b>Font grow</b> button or the <b>Font shrink</b> button, the highlighted text is resized, and the relative size variations in the text run are maintained.
 
-The following screen shot shows the <b>Font grow</b> and <b>Font shrink</b> buttons on the <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a>.
+The following screen shot shows the <b>Font grow</b> and <b>Font shrink</b> buttons on the <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a>.
 
-<img alt="Screen shot of the Font grow and Font shrink buttons on the FontControl." src="./images/Markup/FontControl_IncDec.png"/>
+<img alt="Screen shot of the Font grow and Font shrink buttons on the FontControl." src="images/Markup/FontControl_IncDec.png"/>
 
 
 
@@ -87,11 +88,11 @@ The following screen shot shows the <b>Font grow</b> and <b>Font shrink</b> butt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371211(v=VS.85).aspx">UI_PKEY_FontProperties_DeltaSize</a>
+<a href="https://msdn.microsoft.com/021a6c79-1d3e-47d2-9601-cdaa2e66a50a">UI_PKEY_FontProperties_DeltaSize</a>
  
 
  

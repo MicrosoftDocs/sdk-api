@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -96,10 +97,10 @@ It is important to distinguish between the geometry being stroked and the shape 
 
 Here is an illustration of a stroke with dashing and a skew and stretch transform.
 
-<img alt="An illustration of a stroke with dashing and a skew and stretch transform." src="./images/skewedstroke.png"/>
+<img alt="An illustration of a stroke with dashing and a skew and stretch transform." src="images/skewedstroke.png"/>
 And here is an illustration of a fixed width stroke which does not get transformed.
 
-<img alt="An illustration of a fixed width stroke which does not get transformed." src="./images/fixedwidthstroke.png"/>
+<img alt="An illustration of a fixed width stroke which does not get transformed." src="images/fixedwidthstroke.png"/>
 
 
 

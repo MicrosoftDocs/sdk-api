@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -62,7 +63,7 @@ The <b>IExtendContextMenu::AddMenuItems</b> method enables a snap-in to add item
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object of the menu to which items are added.
+<a href="_ole_idataobject">IDataObject</a> interface on the data object of the menu to which items are added.
 
 
 ### -param piCallback [in]
@@ -159,7 +160,7 @@ AddMenuItems method should not call AddRef on either the piDataObject pointer or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

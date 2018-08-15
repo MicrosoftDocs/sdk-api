@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -80,7 +81,7 @@ The <b>IResultDataCompareEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
+<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares two result view items.

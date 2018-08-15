@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,17 +62,17 @@ The <b>EngDeleteDriverObj</b> function frees the handle used for tracking a devi
 
 ### -param hdo
 
-Handle to the driver object that is to be deleted. This GDI handle was obtained from <a href="https://msdn.microsoft.com/library/windows/hardware/ff564207">EngCreateDriverObj</a>.
+Handle to the driver object that is to be deleted. This GDI handle was obtained from <a href="https://msdn.microsoft.com/2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2">EngCreateDriverObj</a>.
 
 
 ### -param bCallBack
 
-Specifies whether the cleanup callback should be called. If <b>TRUE</b>, GDI invokes the cleanup callback before removing the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556162">DRIVEROBJ</a> from the handle manager. If <b>FALSE</b>, GDI does not do so. If the callback function returns failure, <b>EngDeleteDriverObj</b> will fail.
+Specifies whether the cleanup callback should be called. If <b>TRUE</b>, GDI invokes the cleanup callback before removing the <a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a> from the handle manager. If <b>FALSE</b>, GDI does not do so. If the callback function returns failure, <b>EngDeleteDriverObj</b> will fail.
 
 
 ### -param bLocked
 
-Specifies whether the object was locked by the driver (through a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564967">EngLockDriverObj</a>) before <b>EngDeleteDriverObj</b> was called. If <b>TRUE</b>, the object was locked; if <b>FALSE</b>, the object was not locked.
+Specifies whether the object was locked by the driver (through a call to <a href="https://msdn.microsoft.com/9ed3142d-2b20-4453-9057-80e6f8f92ff2">EngLockDriverObj</a>) before <b>EngDeleteDriverObj</b> was called. If <b>TRUE</b>, the object was locked; if <b>FALSE</b>, the object was not locked.
 
 
 ## -returns
@@ -103,11 +104,11 @@ The <i>bLocked</i> parameter indicates to GDI that the object has already been l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556162">DRIVEROBJ</a>
+<a href="https://msdn.microsoft.com/313ee1bf-ee0c-4283-b5e1-5bbabb944a4a">DRIVEROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564207">EngCreateDriverObj</a>
+<a href="https://msdn.microsoft.com/2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2">EngCreateDriverObj</a>
  
 
  

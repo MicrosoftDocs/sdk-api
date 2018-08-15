@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -123,11 +124,11 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694318(v=VS.85).aspx">IConnectionPoint</a>
+<a href="_com_iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683857(v=VS.85).aspx">IConnectionPointContainer</a>
+<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
@@ -135,7 +136,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx">IProgressNotify</a>
+<a href="_com_iprogressnotify">IProgressNotify</a>
 
 
 

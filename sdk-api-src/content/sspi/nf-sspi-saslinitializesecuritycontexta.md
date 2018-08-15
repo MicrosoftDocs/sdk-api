@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>SaslInitializeSecurityContext</b> function wraps a standard call to the <
 
 ### -param phCredential [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> returned by the  
+A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> returned by the  
 <a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle</a> function used to build the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. Using the <b>SaslInitializeSecurityContext</b> function requires at least OUTBOUND credentials.
 
 
@@ -211,7 +212,7 @@ Pointer to a
 
 ### -param pfContextAttr [out]
 
-Pointer to a variable to receive a set of bit flags that indicate the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> of the established <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>. For a description of the various attributes, see 
+Pointer to a variable to receive a set of bit flags that indicate the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> of the established <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>. For a description of the various attributes, see 
 <a href="https://msdn.microsoft.com/4a44b829-4202-46c0-b17e-04943fa067ab">Context Requirements</a>. 
 
 Flags used for this parameter are prefixed with ISC_RET_, such as ISC_RET_DELEGATE. 

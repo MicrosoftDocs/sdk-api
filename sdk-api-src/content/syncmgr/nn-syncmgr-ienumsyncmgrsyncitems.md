@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>IEnumSyncMgrSyncItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/bf320918-9f63-494f-88af-a5fab91ef0e3">Clone</a>
 </td>
 <td align="left" width="63%">
 Not used. Clones an <b>IEnumSyncMgrSyncItems</b> object.
@@ -80,7 +81,7 @@ Not used. Clones an <b>IEnumSyncMgrSyncItems</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/b886e3a8-a94b-45ed-893b-889bef70ae6a">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next batch of sync items from the handler.
@@ -89,7 +90,7 @@ Gets the next batch of sync items from the handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/8144b47e-0419-4bc8-a57d-dc5c2b743f62">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current position in the enumeration to 0.
@@ -98,7 +99,7 @@ Resets the current position in the enumeration to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/a07038de-84dc-4371-b72f-c835efd73ffc">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips forward in the enumeration the specified number of items.

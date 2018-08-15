@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -73,7 +74,7 @@ Cluster handle (see <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-
 
 Pointer to a resource handle to the core 
       <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource for the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, which stores the cluster name.
+      <a href="c_gly.htm">cluster</a>, which stores the cluster name.
 
 
 ### -param phClusterIPAddressResource [out]

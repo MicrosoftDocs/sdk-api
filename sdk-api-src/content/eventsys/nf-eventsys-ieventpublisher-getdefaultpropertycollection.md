@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -61,7 +62,7 @@ Creates a collection object that enumerates the properties contained in the prop
 
 ### -param collection [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms682833(v=VS.85).aspx">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
+A pointer to an <a href="_cos_IEventObjectCollection">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

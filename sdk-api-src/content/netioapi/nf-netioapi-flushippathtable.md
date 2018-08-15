@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -199,19 +200,19 @@ The <b>FlushIpPathTable</b> function can only be called by a user logged on as a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552556">GetIpPathEntry</a>
+<a href="https://msdn.microsoft.com/8ad43a1d-428a-41cc-bba8-5eec7f87c11f">GetIpPathEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552559">GetIpPathTable</a>
+<a href="https://msdn.microsoft.com/e03816a4-0b86-4e0b-a45e-8148c8ba5472">GetIpPathTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559270">MIB_IPPATH_ROW</a>
+<a href="https://msdn.microsoft.com/0cfef3cb-bb96-4250-864b-2468a46ba277">MIB_IPPATH_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559273">MIB_IPPATH_TABLE</a>
+<a href="https://msdn.microsoft.com/f18aff3c-a7b5-40fa-9308-5bd8821c77e2">MIB_IPPATH_TABLE</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -147,34 +148,31 @@ Reserved for system use. Do not use this value in your driver.
 
 
 
-#### - MIB_IPPROTO_OTHER
+#### - MIB_IPPROTO_BBN
 
-The routing mechanism was not specified.
-
-
-#### - MIB_IPPROTO_LOCAL
-
-A local interface.
+The Bolt, Beranek, and Newman (BBN) Interior Gateway Protocol (IGP) that used the Shortest Path
+     First (SPF) algorithm. This protocol was an early dynamic routing protocol.
 
 
-#### - MIB_IPPROTO_NETMGMT
+#### - MIB_IPPROTO_BGP
 
-A static route. This value is used to identify route information for IP routing set through
-     network management such as the Dynamic Host Configuration Protocol (DCHP) or the Simple Network
-     Management Protocol (SNMP), or by calls to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546209">CreateIpForwardEntry2</a>, 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546365">DeleteIpForwardEntry2</a>, or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570773">SetIpForwardEntry2</a> functions.
+The Border Gateway Protocol (BGP), a dynamic routing protocol.
 
 
-#### - MIB_IPPROTO_ICMP
+#### - MIB_IPPROTO_CISCO
 
-The result of an ICMP redirect.
+The Cisco Interior Gateway Routing Protocol (IGRP), a dynamic routing protocol.
 
 
 #### - MIB_IPPROTO_EGP
 
 The Exterior Gateway Protocol (EGP), a dynamic routing protocol.
+
+
+#### - MIB_IPPROTO_ES_IS
+
+The End System-to-Intermediate System (ES-IS) protocol, a dynamic routing protocol. The ES-IS
+     protocol was developed for use in the Open Systems Interconnection (OSI) protocol suite.
 
 
 #### - MIB_IPPROTO_GGP
@@ -190,9 +188,9 @@ The Hello protocol, a dynamic routing protocol. This value is a historical entry
      <a href="http://go.microsoft.com/fwlink/p/?linkid=84070">DCN Local-Network Protocols</a>.
 
 
-#### - MIB_IPPROTO_RIP
+#### - MIB_IPPROTO_ICMP
 
-The Berkeley Routing Information Protocol (RIP) or RIP-II, a dynamic routing protocol.
+The result of an ICMP redirect.
 
 
 #### - MIB_IPPROTO_IS_IS
@@ -201,31 +199,19 @@ The Intermediate System-to-Intermediate System (IS-IS) protocol, a dynamic routi
      IS-IS protocol was developed for use in the Open Systems Interconnection (OSI) protocol suite.
 
 
-#### - MIB_IPPROTO_ES_IS
+#### - MIB_IPPROTO_LOCAL
 
-The End System-to-Intermediate System (ES-IS) protocol, a dynamic routing protocol. The ES-IS
-     protocol was developed for use in the Open Systems Interconnection (OSI) protocol suite.
-
-
-#### - MIB_IPPROTO_CISCO
-
-The Cisco Interior Gateway Routing Protocol (IGRP), a dynamic routing protocol.
+A local interface.
 
 
-#### - MIB_IPPROTO_BBN
+#### - MIB_IPPROTO_NETMGMT
 
-The Bolt, Beranek, and Newman (BBN) Interior Gateway Protocol (IGP) that used the Shortest Path
-     First (SPF) algorithm. This protocol was an early dynamic routing protocol.
-
-
-#### - MIB_IPPROTO_OSPF
-
-The Open Shortest Path First (OSPF) protocol, a dynamic routing protocol.
-
-
-#### - MIB_IPPROTO_BGP
-
-The Border Gateway Protocol (BGP), a dynamic routing protocol.
+A static route. This value is used to identify route information for IP routing set through
+     network management such as the Dynamic Host Configuration Protocol (DCHP) or the Simple Network
+     Management Protocol (SNMP), or by calls to the 
+     <a href="https://msdn.microsoft.com/0afd5568-ef9d-44b6-8601-96f3e87dfe52">CreateIpForwardEntry2</a>, 
+     <a href="https://msdn.microsoft.com/8dce0f55-b017-4a3c-96fa-ce4b3d056831">DeleteIpForwardEntry2</a>, or 
+     <a href="https://msdn.microsoft.com/b1eacbbd-9754-4ee1-a458-3bcdfd69bba1">SetIpForwardEntry2</a> functions.
 
 
 #### - MIB_IPPROTO_NT_AUTOSTATIC
@@ -244,6 +230,21 @@ A Windows-specific entry that is added as a static route from the routing user i
 
 A Windows-specific entry that is added as a static route from the routing user interface or a
      routing command, except that these routes do not cause Dial On Demand (DOD).
+
+
+#### - MIB_IPPROTO_OSPF
+
+The Open Shortest Path First (OSPF) protocol, a dynamic routing protocol.
+
+
+#### - MIB_IPPROTO_OTHER
+
+The routing mechanism was not specified.
+
+
+#### - MIB_IPPROTO_RIP
+
+The Berkeley Routing Information Protocol (RIP) or RIP-II, a dynamic routing protocol.
 
 
 ## -remarks

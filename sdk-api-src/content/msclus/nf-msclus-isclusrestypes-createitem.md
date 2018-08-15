@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,7 +59,7 @@ req.product: GDI+ 1.1
 
 Creates a new 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and adds it to a 
+    <a href="c_gly.htm">cluster</a> and adds it to a 
     <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac87">ClusResTypes</a> collection.
 
 
@@ -99,9 +100,16 @@ Creates a new
 
 
 
-#### - strResTypeName
+#### - lIsAlivePollInterval
 
-String containing the name of the new resource type.
+Length of time in milliseconds that should occur between calls to the new resource type's 
+      <a href="https://msdn.microsoft.com/ff7661af-0a24-4a2e-bb31-c967845a4ff4">IsAlive</a> entry point function.
+
+
+#### - lLooksAlivePollInterval
+
+Length of time in milliseconds that should occur between calls to the new resource type's 
+      <a href="https://msdn.microsoft.com/cfc57325-847d-4f59-bee8-6a02b0a2ef32">LooksAlive</a> entry point function.
 
 
 #### - strDisplayName
@@ -114,16 +122,9 @@ String containing the display name of the new resource type.
 String containing the file name of the library containing the new resource type.
 
 
-#### - lLooksAlivePollInterval
+#### - strResTypeName
 
-Length of time in milliseconds that should occur between calls to the new resource type's 
-      <a href="https://msdn.microsoft.com/cfc57325-847d-4f59-bee8-6a02b0a2ef32">LooksAlive</a> entry point function.
-
-
-#### - lIsAlivePollInterval
-
-Length of time in milliseconds that should occur between calls to the new resource type's 
-      <a href="https://msdn.microsoft.com/ff7661af-0a24-4a2e-bb31-c967845a4ff4">IsAlive</a> entry point function.
+String containing the name of the new resource type.
 
 
 ## -returns

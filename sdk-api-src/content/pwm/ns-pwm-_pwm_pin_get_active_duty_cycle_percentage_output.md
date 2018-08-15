@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -71,7 +72,7 @@ The current PWM signal duty cycle, as a PWM_PERCENTAGE, which is a ULONGLONG val
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843915(v=VS.85).aspx">IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
+<a href="base.ioctl_ioctl_pwm_pin_get_active_duty_cycle_percentage">IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
  
 
  

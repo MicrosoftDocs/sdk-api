@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -108,12 +109,12 @@ The driver can rotate the input data either 90, 180, or 270 degrees clockwise as
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM
 
-The driver supports the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439792">VideoProcessorSetStreamAlpha</a> call.
+The driver supports the <a href="https://msdn.microsoft.com/DA869E3F-25BB-4794-B7AE-A3C2DA968800">VideoProcessorSetStreamAlpha</a> call.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO
 
-The driver supports the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439811">VideoProcessorSetStreamPixelAspectRatio</a> call.
+The driver supports the <a href="https://msdn.microsoft.com/4205F6F0-4AF3-42B1-8636-64FCFC865856">VideoProcessorSetStreamPixelAspectRatio</a> call.
 
 
 ### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: l2cmn.h
 req.include-header: Wlanihv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="netvista.wifi_universal_driver_model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
+<div class="alert"><b>Important</b>  The <a href="netvista.native_802_11_wireless_lan4">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="netvista.wifi_universal_driver_model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
   service or applications that has registered for the notification.
 
 
@@ -125,7 +126,7 @@ The application or service registers to receive notifications by calling the
     function, refer to the Microsoft Windows SDK documentation.
 
 The IHV Extensions DLL sends notifications to registered services or applications by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff547560">Dot11ExtSendNotification</a> function. The service or application must register to receive
+    <a href="https://msdn.microsoft.com/8191b375-537e-44df-920e-077c77ed2354">Dot11ExtSendNotification</a> function. The service or application must register to receive
     notifications from a source of L2_NOTIFICATION_SOURCE_WLAN_IHV.
 
 
@@ -140,7 +141,7 @@ The IHV Extensions DLL sends notifications to registered services or application
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547560">Dot11ExtSendNotification</a>
+<a href="https://msdn.microsoft.com/8191b375-537e-44df-920e-077c77ed2354">Dot11ExtSendNotification</a>
  
 
  

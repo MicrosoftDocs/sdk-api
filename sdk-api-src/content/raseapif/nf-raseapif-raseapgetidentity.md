@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -248,8 +249,8 @@ This function is called by the RAS function,
 
 If 
 <b>RasEapGetIdentity</b> displays a user interface, the user interface must support 
-<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="_win32_wm_command_cpp">WM_COMMAND</a> messages where 
+<a href="_win32_loword_cpp">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -92,7 +93,7 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://msdn.microsoft.com/en-us/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> using them.</div>
+<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://msdn.microsoft.com/6720c9e7-b35f-4acd-8fa7-9aa9f0991879">ImageList_Destroy</a> using them.</div>
 <div> </div>
 
 

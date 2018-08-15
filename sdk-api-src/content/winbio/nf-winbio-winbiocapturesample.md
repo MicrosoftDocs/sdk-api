@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -115,12 +116,12 @@ A pointer to a <b>WINBIO_UNIT_ID</b> value that contains the ID of  the biometri
 
 ### -param Sample
 
-Address of a variable that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure that contains the sample. When you have finished using the structure, you must pass the pointer to  <a href="https://msdn.microsoft.com/b570fc6c-a08e-4485-a621-20f59bd63d40">WinBioFree</a> to release the memory allocated for the sample.
+Address of a variable that receives a pointer to a <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that contains the sample. When you have finished using the structure, you must pass the pointer to  <a href="https://msdn.microsoft.com/b570fc6c-a08e-4485-a621-20f59bd63d40">WinBioFree</a> to release the memory allocated for the sample.
 
 
 ### -param SampleSize [out, optional]
 
-A pointer to a <b>SIZE_T</b> value that contains the size, in bytes,  of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure returned in the <i>Sample</i> parameter.
+A pointer to a <b>SIZE_T</b> value that contains the size, in bytes,  of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure returned in the <i>Sample</i> parameter.
 
 
 ### -param RejectDetail [out, optional]

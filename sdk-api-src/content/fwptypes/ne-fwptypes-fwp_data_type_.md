@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FWP_DATA_TYPE</b> enumerated type specifies data types that can be stored in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a>structure.
+The <b>FWP_DATA_TYPE</b> enumerated type specifies data types that can be stored in an <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> or an <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a>structure.
 
 
 ## -enum-fields
@@ -116,12 +117,12 @@ Indicates a pointer to a double-precision floating-point  value.
 
 ### -field FWP_BYTE_ARRAY16_TYPE
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a> structure.
+Indicates a pointer to an <a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a> structure.
 
 
 ### -field FWP_BYTE_BLOB_TYPE
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure.
+Indicates a pointer to an <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure.
 
 
 ### -field FWP_SID
@@ -131,17 +132,17 @@ Indicates a pointer to a SID.
 
 ### -field FWP_SECURITY_DESCRIPTOR_TYPE
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure that describes a security descriptor.
+Indicates a pointer to an <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that describes a security descriptor.
 
 
 ### -field FWP_TOKEN_INFORMATION_TYPE
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure that describes token information.
+Indicates a pointer to an <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that describes token information.
 
 
 ### -field FWP_TOKEN_ACCESS_INFORMATION_TYPE
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure that describes token access information.
+Indicates a pointer to an <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that describes token access information.
 
 
 ### -field FWP_UNICODE_STRING_TYPE
@@ -167,17 +168,17 @@ Reserved for future use.
 
 ### -field FWP_V4_ADDR_MASK
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552441">FWP_V4_ADDR_AND_MASK</a> structure. 
+Indicates a pointer to an <a href="https://msdn.microsoft.com/da6315af-264e-4dcb-b5eb-ac308128a511">FWP_V4_ADDR_AND_MASK</a> structure. 
 
 
 ### -field FWP_V6_ADDR_MASK
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a> structure. 
+Indicates a pointer to an <a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a> structure. 
 
 
 ### -field FWP_RANGE_TYPE
 
-Indicates a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552438">FWP_RANGE0</a> structure.
+Indicates a pointer to an <a href="https://msdn.microsoft.com/191ec0e4-2489-4f6f-80c5-8feec83d69c2">FWP_RANGE0</a> structure.
 
 
 ### -field FWP_DATA_TYPE_MAX
@@ -200,31 +201,31 @@ in each structure to determine which are allowed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552425">FWP_BYTE_ARRAY16</a>
+<a href="https://msdn.microsoft.com/254ee02f-747d-46e4-9851-141db57e1aa7">FWP_BYTE_ARRAY16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552430">FWP_CONDITION_VALUE0</a>
+<a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552438">FWP_RANGE0</a>
+<a href="https://msdn.microsoft.com/191ec0e4-2489-4f6f-80c5-8feec83d69c2">FWP_RANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552441">FWP_V4_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/da6315af-264e-4dcb-b5eb-ac308128a511">FWP_V4_ADDR_AND_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552446">FWP_V6_ADDR_AND_MASK</a>
+<a href="https://msdn.microsoft.com/d8566d41-677a-424f-89f3-e333a0520288">FWP_V6_ADDR_AND_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ GDI's logical handle to the PDEV associated with this device.
 
 ### -field sizlBitmap
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the surface. The SIZEL structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the surface. The SIZEL structure is identical to the <a href="https://msdn.microsoft.com/08d81096-069f-4554-9bb9-d4a37c0950ac">SIZE</a> structure.
 
 
 ### -field cjBits
@@ -302,7 +303,7 @@ BMF_NOTSYSMEM
 
 </td>
 <td>
-The bitmap is not in system memory. <a href="https://msdn.microsoft.com/library/windows/hardware/ff564976">EngModifySurface</a> sets this flag when it moves a bitmap into video memory.
+The bitmap is not in system memory. <a href="https://msdn.microsoft.com/176f51c0-0075-4afb-8b5c-5d0b6b64a3ad">EngModifySurface</a> sets this flag when it moves a bitmap into video memory.
 
 </td>
 </tr>
@@ -350,7 +351,7 @@ When a SURFOBJ structure represents a GDI bitmap, the driver must be able to det
 
 When a SURFOBJ structure represents a device surface, the driver must be able to locate the device handle for the surface.
 
-For more information about supporting JPEG and PNG compressed images, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552835">DEVINFO</a>.
+For more information about supporting JPEG and PNG compressed images, see <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a>.
 
 
 

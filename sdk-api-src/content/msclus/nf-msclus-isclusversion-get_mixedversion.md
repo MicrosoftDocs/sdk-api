@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -58,8 +59,8 @@ req.product: GDI+ 1.1
 
 Indicates whether 
     more than one version of the <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> is present in 
-    the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, a state described as 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371500(v=VS.85).aspx">mixed mode</a>.
+    the <a href="c_gly.htm">cluster</a>, a state described as 
+    <a href="m_gly.htm">mixed mode</a>.
 
 This property is read-only.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>EngQueryLocalTime</b> function queries the local time.
 
 ### -param Arg1 [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565470">ENG_TIME_FIELDS</a> structure that receives the local time.
+Pointer to an <a href="https://msdn.microsoft.com/482e1d15-d499-4ed2-87e7-760f03a454b5">ENG_TIME_FIELDS</a> structure that receives the local time.
 
 
 ## -returns
@@ -90,7 +91,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565470">ENG_TIME_FIELDS</a>
+<a href="https://msdn.microsoft.com/482e1d15-d499-4ed2-87e7-760f03a454b5">ENG_TIME_FIELDS</a>
  
 
  

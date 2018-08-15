@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -69,17 +70,17 @@ Handle to the tool or window with the specified tool.
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 Client coordinates of the point to test. 
 
 
 ### -field ti
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760256(v=VS.85).aspx">TOOLINFO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/82ca63f3-b99d-4371-877a-f96ed2ad8f34">TOOLINFO</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760256(v=VS.85).aspx">TOOLINFO</a> structure. If the point specified by 
+<a href="https://msdn.microsoft.com/82ca63f3-b99d-4371-877a-f96ed2ad8f34">TOOLINFO</a> structure. If the point specified by 
 					<b>pt</b> is in the tool specified by 
 					<b>hwnd</b>, this structure receives information about the tool. The 
 					<b>cbSize</b> member of this structure must be filled in before sending this message. 
@@ -89,7 +90,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760256(v=VS.85).asp
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760399(v=VS.85).aspx">TTM_HITTEST</a> message. 
+This structure is used with the <a href="https://msdn.microsoft.com/d4dcc29b-c64c-41b8-a153-300df68ecdf5">TTM_HITTEST</a> message. 
 
 
 

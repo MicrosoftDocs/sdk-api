@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>Initialize</b> method initializes TAPI. This method must be called before calling any other TAPI 3 method. The application must call the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> method when ending a TAPI session.
+<a href="https://msdn.microsoft.com/64abb427-d41a-4670-a01c-095c678de6ff">Shutdown</a> method when ending a TAPI session.
 
 
 ## -parameters

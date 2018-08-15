@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -72,12 +73,12 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set.
 
 
 ### -param DriverInfoData [in, optional]
 
-An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff553287">SP_DRVINFO_DATA</a> structure that specifies the driver to install on the specified device. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, <b>DiInstallDevice</b> searches the drivers preinstalled in the <a href="devinst.driver_store">driver store</a> for the driver that is the best match to the specified device, and, if one is found, installs the driver on the specified device.
+An pointer to an <a href="https://msdn.microsoft.com/13cdebad-6247-4651-a1d0-709e14af22f6">SP_DRVINFO_DATA</a> structure that specifies the driver to install on the specified device. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, <b>DiInstallDevice</b> searches the drivers preinstalled in the <a href="devinst.driver_store">driver store</a> for the driver that is the best match to the specified device, and, if one is found, installs the driver on the specified device.
 
 
 ### -param Flags [in]
@@ -170,25 +171,25 @@ The calling application is a 32-bit application that is attempting to execute in
 
 
 
-Only call <b>DiInstallDevice</b> if it is necessary to install a specific driver on a specific device. Otherwise, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553534">UpdateDriverForPlugAndPlayDevices</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544717">DiInstallDriver</a> to install a driver for a device. For more information about which of these functions to call to install a driver on a device, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>. 
+Only call <b>DiInstallDevice</b> if it is necessary to install a specific driver on a specific device. Otherwise, use <a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a> or <a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a> to install a driver for a device. For more information about which of these functions to call to install a driver on a device, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>. 
 
-Before calling <b>DiInstallDevice</b>, the caller must obtain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure to specify the device and, optionally, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff553287">SP_DRVINFO_DATA</a> structure to specify a driver for the device.
+Before calling <b>DiInstallDevice</b>, the caller must obtain an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure to specify the device and, optionally, an <a href="https://msdn.microsoft.com/13cdebad-6247-4651-a1d0-709e14af22f6">SP_DRVINFO_DATA</a> structure to specify a driver for the device.
 
-To create a device information set that contains the specified device and to obtain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure for the device, do one of the following:
+To create a device information set that contains the specified device and to obtain an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the device, do one of the following:
 
 <ul>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a> to retrieve a device information set that contains the device and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a> to enumerate the devices in the device information set. On each call, <b>SetupDiEnumDeviceInfo</b> returns an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the enumerated device in the device information set. To obtain specific information about the enumerated device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551963">SetupDiGetDeviceProperty</a> and supply the <b>SP_DEVINFO_DATA</b> structure that is returned by <b>SetupDiEnumDeviceInfo</b>. 
+Call <a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a> to retrieve a device information set that contains the device and then call <a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a> to enumerate the devices in the device information set. On each call, <b>SetupDiEnumDeviceInfo</b> returns an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the enumerated device in the device information set. To obtain specific information about the enumerated device, call <a href="https://msdn.microsoft.com/eac31612-e80b-44ad-b4d4-a4aa014e833f">SetupDiGetDeviceProperty</a> and supply the <b>SP_DEVINFO_DATA</b> structure that is returned by <b>SetupDiEnumDeviceInfo</b>. 
 
 - OR -
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552071">SetupDiOpenDeviceInfo</a> to add a device with a known device instance ID to the device information set. <b>SetupDiOpenDeviceInfo</b> returns an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the device in the device information set.
+Call <a href="https://msdn.microsoft.com/0c4a2d09-62b2-43ce-a202-aeb59248d9fc">SetupDiOpenDeviceInfo</a> to add a device with a known device instance ID to the device information set. <b>SetupDiOpenDeviceInfo</b> returns an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the device in the device information set.
 
 </li>
 </ul>
-To retrieve an <a href="https://msdn.microsoft.com/library/windows/hardware/ff553287">SP_DRVINFO_DATA</a> structure for a selected driver, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a> to build a list of drivers for the device and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551018">SetupDiEnumDriverInfo</a> to enumerate the elements of the driver list for the device. For each enumerated driver, <b>SetupDiEnumDriverInfo</b> retrieves an <b>SP_DRVINFO_DATA</b> structure that identifies the driver. <a href="https://msdn.microsoft.com/library/windows/hardware/ff551973">SetupDiGetDriverInfoDetail</a> can also be called to retrieve additional detail about an enumerated driver. 
+To retrieve an <a href="https://msdn.microsoft.com/13cdebad-6247-4651-a1d0-709e14af22f6">SP_DRVINFO_DATA</a> structure for a selected driver, call <a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a> to build a list of drivers for the device and then call <a href="https://msdn.microsoft.com/c4a66d0c-e9a9-41f8-87df-576795667b5c">SetupDiEnumDriverInfo</a> to enumerate the elements of the driver list for the device. For each enumerated driver, <b>SetupDiEnumDriverInfo</b> retrieves an <b>SP_DRVINFO_DATA</b> structure that identifies the driver. <a href="https://msdn.microsoft.com/42f3668c-8112-4cc0-bce8-b0b3886c45fb">SetupDiGetDriverInfoDetail</a> can also be called to retrieve additional detail about an enumerated driver. 
 
 In general, an installation application should set <i>NeedReboot</i> to <b>NULL</b>. This ensures that <b>DiInstallDevice</b> prompts the user to restart the system if a restart is required to complete the installation. An application should supply a <i>NeedReboot</i> pointer only in the following cases:
 
@@ -202,7 +203,7 @@ The application must perform required operations, other than calling <b>DiInstal
 
 </li>
 <li>
-The application is a class installer, in which case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure for a device.
+The application is a class installer, in which case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure for a device.
 
 </li>
 </ul>
@@ -214,39 +215,39 @@ The application is a class installer, in which case, the class installer should 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544717">DiInstallDriver</a>
+<a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550917">SetupDiBuildDriverInfoList</a>
+<a href="https://msdn.microsoft.com/9e377865-8029-41c1-85b9-fdb2cbc09346">SetupDiBuildDriverInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551010">SetupDiEnumDeviceInfo</a>
+<a href="https://msdn.microsoft.com/34df0557-eb86-4b00-bbd7-a4f0c1b82ff4">SetupDiEnumDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551018">SetupDiEnumDriverInfo</a>
+<a href="https://msdn.microsoft.com/c4a66d0c-e9a9-41f8-87df-576795667b5c">SetupDiEnumDriverInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>
+<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551963">SetupDiGetDeviceProperty</a>
+<a href="https://msdn.microsoft.com/eac31612-e80b-44ad-b4d4-a4aa014e833f">SetupDiGetDeviceProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551973">SetupDiGetDriverInfoDetail</a>
+<a href="https://msdn.microsoft.com/42f3668c-8112-4cc0-bce8-b0b3886c45fb">SetupDiGetDriverInfoDetail</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552071">SetupDiOpenDeviceInfo</a>
+<a href="https://msdn.microsoft.com/0c4a2d09-62b2-43ce-a202-aeb59248d9fc">SetupDiOpenDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553534">UpdateDriverForPlugAndPlayDevices</a>
+<a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -85,12 +86,12 @@ The following image shows the Math Input Control with extended buttons enabled.
 
 
 
-<img alt="Math input control with extended buttons enabled" src="./images/MIC.png"/>
+<img alt="Math input control with extended buttons enabled" src="images/MIC.png"/>
 The following image shows the Math Input Control with extended buttons disabled.
 
 
 
-<img alt="Math input control with extended buttons disabled" src="./images/MIC_no_extended.png"/>
+<img alt="Math input control with extended buttons disabled" src="images/MIC_no_extended.png"/>
 
 #### Examples
 

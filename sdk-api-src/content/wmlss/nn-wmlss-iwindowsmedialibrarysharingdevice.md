@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmlss.h
 req.include-header: Wmlss.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>IWindowsMediaLibrarySharingDevice</b> interface defines methods that prov
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingDevice</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -112,7 +113,7 @@ Authorizes or unauthorizes the device to have access to the current user's media
 
 
 
-To obtain an <b>IWindowsMediaLibrarySharingDevice</b> interface, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a> method or the <a href="https://msdn.microsoft.com/1ab420b7-ee40-405f-9125-0f9b3c074ef0">get_Item</a> method of the <a href="https://msdn.microsoft.com/62e1f4d6-5b33-45d7-85d5-bc2c333c63e4">IWindowsMediaLibrarySharingDevices</a> interface.
+To obtain an <b>IWindowsMediaLibrarySharingDevice</b> interface, call the <a href="https://msdn.microsoft.com/38a1f5d2-0347-4564-9403-2bf726198aa6">GetDevice</a> method or the <a href="https://msdn.microsoft.com/1ab420b7-ee40-405f-9125-0f9b3c074ef0">get_Item</a> method of the <a href="https://msdn.microsoft.com/62e1f4d6-5b33-45d7-85d5-bc2c333c63e4">IWindowsMediaLibrarySharingDevices</a> interface.
 
 
 
@@ -122,7 +123,7 @@ To obtain an <b>IWindowsMediaLibrarySharingDevice</b> interface, call the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

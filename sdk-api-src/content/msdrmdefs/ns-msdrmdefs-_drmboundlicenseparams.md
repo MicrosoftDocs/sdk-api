@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ Specifies the version of the structure. This member should be set to <b>DRMBOUND
 
 ### -field hEnablingPrincipal
 
-A handle to an enabling principal in the <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a> that should be bound. Create this handle by using the <a href="https://msdn.microsoft.com/92858a46-cef5-4d25-9f3c-cbb343743565">DRMCreateEnablingPrincipal</a> function. The default for this member is <b>NULL</b>. If <b>NULL</b> is used, the application will bind to the first principal in the license.
+A handle to an enabling principal in the <a href="e_gly.htm">end-user license</a> that should be bound. Create this handle by using the <a href="https://msdn.microsoft.com/92858a46-cef5-4d25-9f3c-cbb343743565">DRMCreateEnablingPrincipal</a> function. The default for this member is <b>NULL</b>. If <b>NULL</b> is used, the application will bind to the first principal in the license.
 
 
 ### -field hSecureStore
@@ -109,7 +110,7 @@ Reserved for future use. This member must be set to <b>NULL</b>.
 
 ### -field wszDefaultEnablingPrincipalCredentials
 
-A pointer to a null-terminated Unicode string that contains the certificate for the enabling principal (the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a>). This member can be set to <b>NULL</b> if it is not used.
+A pointer to a null-terminated Unicode string that contains the certificate for the enabling principal (the <a href="r_gly.htm">rights account certificate</a>). This member can be set to <b>NULL</b> if it is not used.
 
 
 ### -field dwFlags
@@ -120,7 +121,7 @@ Optional. Contains flags for additional settings. This member can be zero or the
 
 #### DRMBINDINGFLAGS_IGNORE_VALIDITY_INTERVALS
 
-Normally, a bind will fail if the <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a> has an expired certificate chain. However, if this flag is passed and the user's <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificate</a> are valid, and all other license requirements are valid, the bind will succeed. When this occurs, the application should alert the user that the content cannot be verified, and it will be opened at the user's risk.
+Normally, a bind will fail if the <a href="e_gly.htm">end-user license</a> has an expired certificate chain. However, if this flag is passed and the user's <a href="r_gly.htm">rights account certificate</a> and <a href="m_gly.htm">machine certificate</a> are valid, and all other license requirements are valid, the bind will succeed. When this occurs, the application should alert the user that the content cannot be verified, and it will be opened at the user's risk.
 
 
 ## -remarks
@@ -150,7 +151,7 @@ dwFlags = 0</pre>
 </td>
 </tr>
 </table></span></div>
-If there is more than one rights group in the <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a>, the <i>wszRightsGroup</i> parameter specifies the name of the rights group to use. By default, the first rights group found in the end-user license is chosen. If any one of the requested rights is not granted, the bind request (<a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>) will fail.
+If there is more than one rights group in the <a href="e_gly.htm">end-user license</a>, the <i>wszRightsGroup</i> parameter specifies the name of the rights group to use. By default, the first rights group found in the end-user license is chosen. If any one of the requested rights is not granted, the bind request (<a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>) will fail.
 
 
 

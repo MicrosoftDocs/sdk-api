@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,7 +71,7 @@ The <b>IDirectDraw7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949267">Compact</a>
+<a href="https://msdn.microsoft.com/ae417266-5c75-4f7f-b892-f99e5e25e5f4">Compact</a>
 </td>
 <td align="left" width="63%">
 This method is not currently implemented.
@@ -100,7 +101,7 @@ Creates a DirectDrawPalette object for this DirectDraw object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh998978">CreateSurface</a>
+<a href="https://msdn.microsoft.com/4f27e36f-d04f-43ce-9a3d-64c352c8f8d8">CreateSurface</a>
 </td>
 <td align="left" width="63%">
 Creates a DirectDrawSurface object for this DirectDraw object.
@@ -251,7 +252,7 @@ Retrieves the status of the vertical blank.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/e641d8e7-ce29-454a-80fc-d404a27e9b63">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a DirectDraw object that was created by using the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> COM function.
@@ -340,7 +341,7 @@ The methods of the <b>IDirectDraw7</b> interface can be organized into the follo
 <tr>
 <td>Allocating memory</td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949267">Compact</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/ae417266-5c75-4f7f-b892-f99e5e25e5f4">Compact</a> and <a href="https://msdn.microsoft.com/e641d8e7-ce29-454a-80fc-d404a27e9b63">Initialize</a>
 </td>
 </tr>
 <tr>
@@ -352,7 +353,7 @@ The methods of the <b>IDirectDraw7</b> interface can be organized into the follo
 <tr>
 <td>Creating objects</td>
 <td>
-<a href="https://msdn.microsoft.com/123a07c0-d371-4d10-bff8-b5640bd3b920">CreateClipper</a>, <a href="https://msdn.microsoft.com/3e9eec72-b9c7-4c9f-b9ea-177605fedf96">CreatePalette</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/hh998978">CreateSurface</a>
+<a href="https://msdn.microsoft.com/123a07c0-d371-4d10-bff8-b5640bd3b920">CreateClipper</a>, <a href="https://msdn.microsoft.com/3e9eec72-b9c7-4c9f-b9ea-177605fedf96">CreatePalette</a>, and <a href="https://msdn.microsoft.com/4f27e36f-d04f-43ce-9a3d-64c352c8f8d8">CreateSurface</a>
 </td>
 </tr>
 <tr>
@@ -403,7 +404,7 @@ and <a href="https://msdn.microsoft.com/ea52805d-201d-4fbe-a99f-5c04b7d620b5">Wa
 
 
 
-The <b>IDirectDraw7</b> interface extends the features of previous versions of the interface by offering methods that enable more flexible surface management than previous versions. All the surface-related methods in the <b>IDirectDraw7</b> interface accept slightly different parameters than their counterparts in the <b>IDirectDraw2</b> interface. Wherever an <b>IDirectDraw2</b> interface method might accept a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure and retrieve an <b>IDirectDrawSurface3</b> interface, the methods in <b>IDirectDraw7</b> accept a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure and retrieve an <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface, instead.
+The <b>IDirectDraw7</b> interface extends the features of previous versions of the interface by offering methods that enable more flexible surface management than previous versions. All the surface-related methods in the <b>IDirectDraw7</b> interface accept slightly different parameters than their counterparts in the <b>IDirectDraw2</b> interface. Wherever an <b>IDirectDraw2</b> interface method might accept a <a href="https://msdn.microsoft.com/a88f37bc-b5c0-4bc1-b6ee-30923362c1ca">DDSURFACEDESC</a> structure and retrieve an <b>IDirectDrawSurface3</b> interface, the methods in <b>IDirectDraw7</b> accept a <a href="https://msdn.microsoft.com/507c557f-eb3a-429c-a738-8d715e5d71d3">DDSURFACEDESC2</a> structure and retrieve an <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface, instead.
 
 <b>IDirectDraw7</b> introduces improved compliance with COM rules that dictate the lifetime of child objects.
 

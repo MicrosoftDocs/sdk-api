@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: thrdbase.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -60,7 +61,7 @@ req.product: Windows XP with SP1 and later
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>OnFinalRelease</b>  method  is a virtual function called by <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the reference count reaches zero. <a href="https://msdn.microsoft.com/0511cd5b-f791-4821-8d75-23b0635e2266">CThreadBase</a> is called internally.
+The <b>OnFinalRelease</b>  method  is a virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero. <a href="https://msdn.microsoft.com/0511cd5b-f791-4821-8d75-23b0635e2266">CThreadBase</a> is called internally.
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775979(v=VS.85).aspx">BCM_SETSHIELD</a> message explicitly. 
+Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the <a href="https://msdn.microsoft.com/2ce2a006-7136-415b-824b-46b282b100f4">BCM_SETSHIELD</a> message explicitly. 
 
 
 ## -parameters

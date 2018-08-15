@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,14 +77,14 @@ Retrieves the number of available audio streams and the number of the currently 
 
 
 
-#### - pnStreamsAvailable [out]
-
-Pointer to the retrieved number of available audio streams
-
-
 #### - pnCurrentStream [out]
 
 Pointer to the current stream number.
+
+
+#### - pnStreamsAvailable [out]
+
+Pointer to the retrieved number of available audio streams
 
 
 ## -returns

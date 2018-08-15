@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -79,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 After the frame <b>Commit</b> has been called, you can't use or reinitialize the <a href="https://msdn.microsoft.com/a8de774b-3783-46be-9a21-c9fec2f10ffd">IWICBitmapFrameEncode</a> object and any objects created from it.
 
 
-To finalize the image, both the frame <b>Commit</b> and the encoder <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a> must be called. However, only call the encoder  <b>Commit</b> method after all frames have been committed.
+To finalize the image, both the frame <b>Commit</b> and the encoder <a href="https://msdn.microsoft.com/97e39e73-3494-4679-8962-eb48242f9b9f">Commit</a> must be called. However, only call the encoder  <b>Commit</b> method after all frames have been committed.
 
 
 
@@ -89,7 +90,7 @@ To finalize the image, both the frame <b>Commit</b> and the encoder <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>
+<a href="https://msdn.microsoft.com/97e39e73-3494-4679-8962-eb48242f9b9f">Commit</a>
 
 
 

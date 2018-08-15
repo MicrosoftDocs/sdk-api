@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ITaskHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://msdn.microsoft.com/851e3f20-a996-4a4b-bf10-7ba5c79c3d82">Pause</a>
 </td>
 <td align="left" width="63%">
 Called to pause the COM handler.
@@ -89,7 +90,7 @@ Called to restart the COM handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/e0a51387-e638-40ee-a4e4-edd7f3115975">Start</a>
 </td>
 <td align="left" width="63%">
 Required. Called to start the COM handler.
@@ -98,7 +99,7 @@ Required. Called to start the COM handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/93a112e7-5e44-42a9-a5f5-d61e1ad1eabc">Stop</a>
 </td>
 <td align="left" width="63%">
 Required. Called to stop the COM handler.
@@ -117,7 +118,7 @@ Required. Called to stop the COM handler.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

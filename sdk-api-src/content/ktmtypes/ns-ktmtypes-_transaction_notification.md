@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ktmtypes.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -79,7 +80,7 @@ The latest virtual clock value that is associated with this transaction. See
 ### -field ArgumentLength
 
 Indicates the number of bytes for the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564820">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
+      <a href="https://msdn.microsoft.com/29a32b89-22d1-4d26-8927-a2051dd5d37a">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
       structure that follow this 
       <b>TRANSACTION_NOTIFICATION</b> structure.
 
@@ -109,7 +110,7 @@ Indicates the number of bytes for the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564820">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="https://msdn.microsoft.com/29a32b89-22d1-4d26-8927-a2051dd5d37a">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

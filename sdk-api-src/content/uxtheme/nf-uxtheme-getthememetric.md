@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -65,7 +66,7 @@ Retrieves the value of a metric property.
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -79,14 +80,14 @@ HDC. This parameter may be set to <b>NULL</b>.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the metric property. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the metric property. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iPropId [in]
@@ -106,7 +107,7 @@ Value of type <b>int</b> that specifies the property to retrieve. Can be one of 
 </dl>
 </td>
 <td width="60%">
-The alpha value (0-255) used for <a href="https://msdn.microsoft.com/en-us/library/Bb773301(v=VS.85).aspx">DrawThemeIcon</a>.
+The alpha value (0-255) used for <a href="https://msdn.microsoft.com/231b3867-a07b-4635-9b7e-75f80368ed49">DrawThemeIcon</a>.
 
 </td>
 </tr>
@@ -146,7 +147,7 @@ The character index into the selected font that will be used for the glyph, if t
 </dl>
 </td>
 <td width="60%">
-The amount of the first gradient color to use in drawing the part. This value can be from 0 to 255, but this value plus the values of each of the GRADIENTRATIO values must add up to 255. See the TMT_GRADIENTCOLOR1 value of <a href="https://msdn.microsoft.com/en-us/library/Bb773397(v=VS.85).aspx">GetThemeColor</a>.
+The amount of the first gradient color to use in drawing the part. This value can be from 0 to 255, but this value plus the values of each of the GRADIENTRATIO values must add up to 255. See the TMT_GRADIENTCOLOR1 value of <a href="https://msdn.microsoft.com/1cc234c4-e9c3-46c6-9e9a-1413837d9dc3">GetThemeColor</a>.
 
 </td>
 </tr>
@@ -216,7 +217,7 @@ The number of state images present in an image file.
 </dl>
 </td>
 <td width="60%">
-The minimum dpi that the first image file was designed for. See <a href="https://msdn.microsoft.com/en-us/library/Bb759743(v=VS.85).aspx">GetThemeFilename</a>.
+The minimum dpi that the first image file was designed for. See <a href="https://msdn.microsoft.com/ec9038fc-9a14-4965-9df3-07ae4a75a9d0">GetThemeFilename</a>.
 
 </td>
 </tr>
@@ -306,7 +307,7 @@ The roundness (0-100%) of the part's corners.
 </dl>
 </td>
 <td width="60%">
-The amount of saturation (0-255) to apply to an icon drawn using <a href="https://msdn.microsoft.com/en-us/library/Bb773301(v=VS.85).aspx">DrawThemeIcon</a>.
+The amount of saturation (0-255) to apply to an icon drawn using <a href="https://msdn.microsoft.com/231b3867-a07b-4635-9b7e-75f80368ed49">DrawThemeIcon</a>.
 
 </td>
 </tr>
@@ -367,7 +368,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -70,7 +71,7 @@ The <b>IAppxBundleManifestPackageInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926842">GetFileName</a>
+<a href="https://msdn.microsoft.com/D8E827D4-0256-4598-A99A-EDB5FA14EDC2">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file-name attribute of the package.
@@ -79,7 +80,7 @@ Retrieves the file-name attribute of the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548008">GetOffset</a>
+<a href="https://msdn.microsoft.com/A55DB4B6-2EA0-4392-B05A-FEE091913573">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the offset of the package relative to the beginning of the bundle.
@@ -106,7 +107,7 @@ Retrieves the type of package that is represented by the package info.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetResources</a>
+<a href="https://msdn.microsoft.com/07B1028B-4084-44E5-840D-14403E01F628">GetResources</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements that are defined in the app package's manifest.

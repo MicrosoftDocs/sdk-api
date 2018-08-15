@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winml.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -78,19 +79,9 @@ Specifies the different types of WinML features.
 
 
 
-#### - WINML_TENSOR_UNDEFINED
+#### - WINML_TENSOR_IMAGE
 
-Feature type undefined.
-
-
-#### - WINML_TENSOR_TENSOR
-
-Feature of type tensor.
-
-
-#### - WINML_TENSOR_SEQUENCE
-
-Feature of type sequence.
+Feature of type image.
 
 
 #### - WINML_TENSOR_MAP
@@ -98,7 +89,17 @@ Feature of type sequence.
 Feature of type map.
 
 
-#### - WINML_TENSOR_IMAGE
+#### - WINML_TENSOR_SEQUENCE
 
-Feature of type image.
+Feature of type sequence.
+
+
+#### - WINML_TENSOR_TENSOR
+
+Feature of type tensor.
+
+
+#### - WINML_TENSOR_UNDEFINED
+
+Feature type undefined.
 

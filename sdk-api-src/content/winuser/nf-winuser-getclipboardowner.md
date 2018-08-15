@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -86,12 +87,12 @@ If the clipboard is not owned, the return value is <b>NULL</b>. To get extended 
 
 The clipboard can still contain data even if the clipboard is not currently owned. 
 
-In general, the clipboard owner is the window that last placed data in clipboard. The <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> function assigns clipboard ownership. 
+In general, the clipboard owner is the window that last placed data in clipboard. The <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> function assigns clipboard ownership. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
+For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
@@ -102,7 +103,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -110,11 +111,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
+<a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
+<a href="https://msdn.microsoft.com/700bee1f-1bed-4fc8-a4ce-7a48bd05e90b">GetClipboardViewer</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,13 +72,13 @@ The <b>IMILBitmapEffectOutputConnectorImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735261(v=VS.85).aspx">AddBackLink</a>
+<a href="https://msdn.microsoft.com/a771bcea-399b-44d1-9dcf-a31eff87ea93">AddBackLink</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735264(v=VS.85).aspx">RemoveBackLink</a>
+<a href="https://msdn.microsoft.com/5f446328-49f4-4a57-ab47-c6e082e92e7d">RemoveBackLink</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
@@ -88,7 +89,7 @@ The <b>IMILBitmapEffectOutputConnectorImpl</b> interface has these methods.
 
 
 
-This interface must be implemented if an effect also implements <a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>.
+This interface must be implemented if an effect also implements <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>.
 
 
 

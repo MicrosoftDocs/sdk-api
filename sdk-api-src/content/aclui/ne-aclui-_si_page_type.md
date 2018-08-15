@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: aclui.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,7 +80,7 @@ The
 ### -field SI_PAGE_OWNER
 
 The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965828">Owner</a> tab for editing the object's owner.
+<a href="https://msdn.microsoft.com/b0c421db-450e-4030-98e9-e062202e482c">Owner</a> tab for editing the object's owner.
 
 
 ### -field SI_PAGE_EFFECTIVE

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -73,7 +74,7 @@ Flags that identify the owner and ACL information to maintain when transferring 
 </dl>
 </td>
 <td width="60%">
-If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a> method owns the file.
+If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> method owns the file.
 
 You must have SeRestorePrivilege to set this flag. The administrators group contains the SeRestorePrivilege privilege.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -77,20 +78,18 @@ Pointer to a null-terminated string that specifies the full path and file name o
       property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 
-#### - lpszEntry [in]
+#### - dwDeviceInfoSize [in]
 
-Pointer to a null-terminated string that specifies an entry name.
+Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
+      
 
-If the entry name matches an existing entry, 
-       <b>RasSetEntryProperties</b> modifies the properties 
-       of that entry.
+<b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to zero.
 
-If the entry name does not match an existing entry, 
-       <b>RasSetEntryProperties</b> creates a new 
-       phone-book entry. For new entries, call the 
-       <a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the 
-       entry name before calling 
-       <b>RasSetEntryProperties</b>.
+
+#### - dwEntryInfoSize [in]
+
+Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i> 
+      parameter.
 
 
 #### - lpRasEntry [in]
@@ -123,18 +122,12 @@ The structure might be followed by an array of null-terminated alternate phone n
        the first string.
 
 
-#### - dwEntryInfoSize [in]
-
-Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i> 
-      parameter.
-
-
 #### - lpbDeviceInfo [in]
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in 
-      <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interfaces (TAPI)</a> 
+      <a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in 
+      <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
 
@@ -142,12 +135,20 @@ Pointer to a buffer that specifies device-specific configuration information. Th
         <b>NULL</b>.
 
 
-#### - dwDeviceInfoSize [in]
+#### - lpszEntry [in]
 
-Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
-      
+Pointer to a null-terminated string that specifies an entry name.
 
-<b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to zero.
+If the entry name matches an existing entry, 
+       <b>RasSetEntryProperties</b> modifies the properties 
+       of that entry.
+
+If the entry name does not match an existing entry, 
+       <b>RasSetEntryProperties</b> creates a new 
+       phone-book entry. For new entries, call the 
+       <a href="https://msdn.microsoft.com/c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560">RasValidateEntryName</a> function to validate the 
+       entry name before calling 
+       <b>RasSetEntryProperties</b>.
 
 
 ## -returns

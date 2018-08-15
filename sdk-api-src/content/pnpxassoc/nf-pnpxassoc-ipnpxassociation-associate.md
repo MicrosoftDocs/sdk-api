@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -111,7 +112,7 @@ The method failed.
 
 This method modifies the association database entry corresponding to the function instance from which the <a href="https://msdn.microsoft.com/03c1c4cb-fffb-4b4a-963a-200670062f4a">IPNPXAssociation</a> interface was obtained. 
 
-Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="https://msdn.microsoft.com/en-us/library/Aa364290(v=VS.85).aspx">devnode</a>. The <b>Found New Hardware</b> wizard appears if user intervention is required to install a device driver after association.
+Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="function_discovery_glossary.htm">devnode</a>. The <b>Found New Hardware</b> wizard appears if user intervention is required to install a device driver after association.
 
 
 

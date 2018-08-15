@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains information the owner needs to find items requested by a <a href="List_View_Controls_Overview.htm">virtual list-view</a> control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774857(v=VS.85).aspx">LVN_ODFINDITEM</a> notification code. 
+Contains information the owner needs to find items requested by a <a href="List_View_Controls_Overview.htm">virtual list-view</a> control. This structure is used with the <a href="https://msdn.microsoft.com/5a3f9fed-0c57-46bf-b986-ea8b54290b5e">LVN_ODFINDITEM</a> notification code. 
 
 
 ## -struct-fields
@@ -62,10 +63,10 @@ Contains information the owner needs to find items requested by a <a href="List_
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information on this notification code. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information on this notification code. 
 
 
 ### -field iStart
@@ -77,8 +78,8 @@ Index of the item at which the search will start.
 
 ### -field lvfi
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774745(v=VS.85).aspx">LVFINDINFO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6d78c0ec-9735-407d-a20b-efb7dc3b0fba">LVFINDINFO</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774745(v=VS.85).aspx">LVFINDINFO</a> structure that contains information necessary to perform a search. 
+<a href="https://msdn.microsoft.com/6d78c0ec-9735-407d-a20b-efb7dc3b0fba">LVFINDINFO</a> structure that contains information necessary to perform a search. 
 

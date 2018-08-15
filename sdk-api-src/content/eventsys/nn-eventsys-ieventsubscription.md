@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -57,7 +58,7 @@ It is used by publisher filters.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSubscription</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventSubscription</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSubscription</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEventSubscription</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -154,7 +155,7 @@ Removes a property and its value from the property bag that defines subscriber c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/59648682-12c4-4c55-83f6-57c6ec5d6d02">Description</a>
 
 
 </td>
@@ -170,7 +171,7 @@ A displayable text description of the subscription.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a>
+<a href="https://msdn.microsoft.com/02481b3d-1064-448f-955b-0dd02d90db46">Enabled</a>
 
 
 </td>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Rights Management Services client 1.0 or later
 
 Provides the methods for scheduling tasks.
 
-It is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
+It is the primary interface of the <a href="t.htm">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
 
 
 ## -inheritance

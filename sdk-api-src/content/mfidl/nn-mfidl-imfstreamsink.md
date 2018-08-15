@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -72,7 +73,7 @@ The <b>IMFStreamSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/514d29bd-571d-46b1-9948-5d623c6703aa">Flush</a>
 </td>
 <td align="left" width="63%">
 Causes the stream sink to drop any samples that it has received and has not rendered yet.

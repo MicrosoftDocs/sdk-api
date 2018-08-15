@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: in6addr.h
 req.include-header: Ws2ipdef.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ All members of the IN6_ADDR structure must be specified in network-byte-order (b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570824">SOCKADDR_IN6</a>
+<a href="https://msdn.microsoft.com/ef2955d2-5dc1-420b-a9e0-32a584059d5a">SOCKADDR_IN6</a>
  
 
  

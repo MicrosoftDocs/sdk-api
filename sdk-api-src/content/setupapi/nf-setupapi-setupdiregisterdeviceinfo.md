@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -52,7 +53,7 @@ req.product: ADAM
 
 
 The 
-   <b>SetupDiRegisterDeviceInfo</b> function is the default handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543713">DIF_REGISTERDEVICE</a> request. 
+   <b>SetupDiRegisterDeviceInfo</b> function is the default handler for the <a href="https://msdn.microsoft.com/cb5f12f4-d429-4f02-b560-08807ffa3793">DIF_REGISTERDEVICE</a> request. 
 
 
 ## -parameters
@@ -67,7 +68,7 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
 
 
 ### -param Flags [in]
@@ -116,9 +117,9 @@ A pointer to a caller-supplied context buffer that is passed into the callback f
 
 ### -param DupDeviceInfoData [out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure to receive information about a duplicate device instance, if any, discovered as a result of attempting to register this device. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the caller must set <i>DupDeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). This will be filled in if the function returns <b>FALSE</b>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DUPLICATE_FOUND. This device information element is added as a member of the specified <i>DeviceInfoSet</i>, if not already a member. If <i>DupDeviceInfoData</i> is not specified, the duplicate is not added to the device information set.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure to receive information about a duplicate device instance, if any, discovered as a result of attempting to register this device. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the caller must set <i>DupDeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). This will be filled in if the function returns <b>FALSE</b>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DUPLICATE_FOUND. This device information element is added as a member of the specified <i>DeviceInfoSet</i>, if not already a member. If <i>DupDeviceInfoData</i> is not specified, the duplicate is not added to the device information set.
 
-If you call this function when handling a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543713">DIF_REGISTERDEVICE</a> request, the <i>DupDeviceInfoData</i> parameter must be <b>NULL</b>. 
+If you call this function when handling a <a href="https://msdn.microsoft.com/cb5f12f4-d429-4f02-b560-08807ffa3793">DIF_REGISTERDEVICE</a> request, the <i>DupDeviceInfoData</i> parameter must be <b>NULL</b>. 
 
 
 ## -returns
@@ -144,11 +145,11 @@ Do not directly call this function for PnP device instances. PnP device instance
 
 <ol>
 <li>
-If your installation application uses a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543674">DIF_DETECT</a> request to successfully detect a device, it should also use a DIF_REGISTERDEVICE request to register the device instance. The request should be handled in the default manner. (By default, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550922">SetupDiCallClassInstaller</a> first calls the class installer and class co-installers to do duplicate detection and register the device instance. If these installers do not register the device instance, <b>SetupDiCallClassInstaller</b> calls <b>SetupDiRegisterDeviceInfo</b> to do duplicate detection and register the device instance.)
+If your installation application uses a <a href="https://msdn.microsoft.com/866a99fc-f48e-447d-b5eb-6339dc98d3f2">DIF_DETECT</a> request to successfully detect a device, it should also use a DIF_REGISTERDEVICE request to register the device instance. The request should be handled in the default manner. (By default, <a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a> first calls the class installer and class co-installers to do duplicate detection and register the device instance. If these installers do not register the device instance, <b>SetupDiCallClassInstaller</b> calls <b>SetupDiRegisterDeviceInfo</b> to do duplicate detection and register the device instance.)
 
 </li>
 <li>
-If your installation application creates a device instance (for example, by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550952">SetupDiCreateDeviceInfo</a>) but does not do duplicate detection, your installation application should use a DIF_REGISTERDEVICE request to register the device instance. The request should be handled in the default manner as described earlier.
+If your installation application creates a device instance (for example, by calling <a href="https://msdn.microsoft.com/7d42167f-9af4-4aee-b641-a93ade1e3969">SetupDiCreateDeviceInfo</a>) but does not do duplicate detection, your installation application should use a DIF_REGISTERDEVICE request to register the device instance. The request should be handled in the default manner as described earlier.
 
 </li>
 <li>
@@ -174,15 +175,15 @@ The caller of <b>SetupDiRegisterDeviceInfo</b> must be a member of the Administr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543713">DIF_REGISTERDEVICE</a>
+<a href="https://msdn.microsoft.com/cb5f12f4-d429-4f02-b560-08807ffa3793">DIF_REGISTERDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a>
+<a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a>
+<a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a>
  
 
  

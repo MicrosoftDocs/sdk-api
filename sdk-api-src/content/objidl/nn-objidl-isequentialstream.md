@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -54,8 +55,8 @@ req.product: ADAM
 The 
 <b>ISequentialStream</b> interface supports simplified sequential access to stream objects. The 
 <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface inherits its 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> methods from 
+<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">Read</a> and 
+<a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a> methods from 
 <b>ISequentialStream</b>.
 
 
@@ -76,7 +77,7 @@ The <b>ISequentialStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">Read</a>
 </td>
 <td align="left" width="63%">
 Reads a specified number of bytes from the stream object into memory starting at the current seek pointer.
@@ -85,7 +86,7 @@ Reads a specified number of bytes from the stream object into memory starting at
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a>
 </td>
 <td align="left" width="63%">
 Writes a specified number of bytes to the stream object starting at the current seek pointer.

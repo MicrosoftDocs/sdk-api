@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -61,9 +62,9 @@ The <b>ConnectionOptions</b> object is passed to the <a href="https://msdn.micro
 
 The <b>ConnectionOptions</b> object corresponds to the  <a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a> interface.
 
-If a   Windows Remote Management client application  is running under impersonation, then a failure occurs if you set  the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915695">Password</a> property. A client application is a script or other program that sends a request to  WinRM on the local or a remote computer. The client application may be running under impersonation because it called a function like <a href="https://msdn.microsoft.com/ec814a85-4f93-4a25-82f0-ce83caf37e5d">ImpersonateClient</a>. An Active Server Page (ASP) or service cannot request a user name and password if the ASP process runs under an account that impersonates a client.
+If a   Windows Remote Management client application  is running under impersonation, then a failure occurs if you set  the <a href="https://msdn.microsoft.com/61ba54b6-7da0-423e-b5b2-c4dd8aacd042">Password</a> property. A client application is a script or other program that sends a request to  WinRM on the local or a remote computer. The client application may be running under impersonation because it called a function like <a href="https://msdn.microsoft.com/ec814a85-4f93-4a25-82f0-ce83caf37e5d">ImpersonateClient</a>. An Active Server Page (ASP) or service cannot request a user name and password if the ASP process runs under an account that impersonates a client.
 
-The <b>WSManFlagCredUserNamePassword</b> flag should be set on the <a href="https://msdn.microsoft.com/299d9a95-bd30-414c-996d-6633e8b7ce52">WSman.CreateSession</a> call when using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn997357">UserName</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn915695">Password</a> for authentication.
+The <b>WSManFlagCredUserNamePassword</b> flag should be set on the <a href="https://msdn.microsoft.com/299d9a95-bd30-414c-996d-6633e8b7ce52">WSman.CreateSession</a> call when using the <a href="https://msdn.microsoft.com/e8f70143-f002-4b39-97a3-006b9713262d">UserName</a> and <a href="https://msdn.microsoft.com/61ba54b6-7da0-423e-b5b2-c4dd8aacd042">Password</a> for authentication.
 
 
 #### Examples

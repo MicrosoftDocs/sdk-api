@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 The <b>CertVerifySubjectCertificateContext</b> function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a> are recommended instead of this function.
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 
 ## -parameters
@@ -179,7 +180,7 @@ is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

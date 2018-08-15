@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The rectangle in the specified device context handle to draw the mini-icon in.
 
 ### -param MiniIconIndex [in]
 
-The index of the mini-icon, as retrieved from <a href="https://msdn.microsoft.com/library/windows/hardware/ff552053">SetupDiLoadClassIcon</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551047">SetupDiGetClassBitmapIndex</a>. The following predefined indexes for devices can be used:
+The index of the mini-icon, as retrieved from <a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a> or <a href="https://msdn.microsoft.com/5e64d387-701c-42eb-87a8-ba2f51c8552d">SetupDiGetClassBitmapIndex</a>. The following predefined indexes for devices can be used:
 
 <table>
 <tr>
@@ -252,7 +253,7 @@ This function returns the offset from the left side of <i>rc</i> where the strin
 
 By default, the icon is centered vertically and forced against the left side of the specified rectangle.
 
-<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552053">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
+<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -279,11 +280,11 @@ For more information about <a href="http://go.microsoft.com/fwlink/p/?linkid=181
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551047">SetupDiGetClassBitmapIndex</a>
+<a href="https://msdn.microsoft.com/5e64d387-701c-42eb-87a8-ba2f51c8552d">SetupDiGetClassBitmapIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552053">SetupDiLoadClassIcon</a>
+<a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a>
  
 
  

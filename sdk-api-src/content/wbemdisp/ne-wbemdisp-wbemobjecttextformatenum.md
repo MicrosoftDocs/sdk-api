@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -74,7 +75,17 @@ XML format conforming to the DMTF (Distributed Management Task Force) CIM docume
 XML format as defined by the extended WMI version of DMTF CIM DTD version 2.0. Using this value enables WMI-specific extensions, such as embedded objects or scope.
 
 
+#### - WMI_OBJ_TEXT_LAST
+
+Not supported.
+
+
 #### - WMI_OBJ_TEXT_WMI_EXT1
+
+Not supported.
+
+
+#### - WMI_OBJ_TEXT_WMI_EXT10
 
 Not supported.
 
@@ -115,16 +126,6 @@ Not supported.
 
 
 #### - WMI_OBJ_TEXT_WMI_EXT9
-
-Not supported.
-
-
-#### - WMI_OBJ_TEXT_WMI_EXT10
-
-Not supported.
-
-
-#### - WMI_OBJ_TEXT_LAST
 
 Not supported.
 

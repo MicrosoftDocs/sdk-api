@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -97,7 +98,7 @@ The
 <b>IStorage</b> by itself, although subsequent calls to the 
 <b>IPropertySetStorage</b> interface might.
 
-<b>StgCreatePropSetStg</b> calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a>.
+<b>StgCreatePropSetStg</b> calls <a href="_com_iunknown_addref">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="_com_iunknown_release">Release</a>.
 
 
 #### Examples

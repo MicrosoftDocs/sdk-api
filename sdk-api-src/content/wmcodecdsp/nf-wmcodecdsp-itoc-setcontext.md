@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -111,7 +112,7 @@ You can use this method to associate any information with the table of contents.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545736">GetContext</a>
+<a href="https://msdn.microsoft.com/b4c65f1b-7465-4229-8fac-92d6b1be50da">GetContext</a>
 
 
 

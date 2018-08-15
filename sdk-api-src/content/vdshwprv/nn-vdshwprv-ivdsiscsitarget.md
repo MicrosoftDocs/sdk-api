@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
+req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -99,7 +100,7 @@ Returns the list of iSCSI names of the initiators currently logged into the
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/db48ec8e-aae1-4b88-9942-6a23de2cfe25">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of an iSCSI target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>

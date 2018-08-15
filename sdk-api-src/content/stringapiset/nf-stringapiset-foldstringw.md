@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -59,7 +60,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Maps one Unicode string to another, performing the specified transformation. For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
+Maps one Unicode string to another, performing the specified transformation. For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
 <div class="alert"><b>Caution</b>  Using <b>FoldString</b> incorrectly can compromise the security of your application. Strings that are not mapped correctly can produce invalid input. Test strings to make sure they are valid before using them and provide error handlers. For more information, see <a href="https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d">Security Considerations: International Features</a>.</div><div> </div>
 
 ## -parameters

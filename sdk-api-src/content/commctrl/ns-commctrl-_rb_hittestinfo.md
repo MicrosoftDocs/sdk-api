@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774494(v=VS.85).aspx">RB_HITTEST</a> message. 
+Contains information specific to a hit test operation. This structure is used with the <a href="https://msdn.microsoft.com/8f27db21-50d8-438f-a44c-2e65dd93fa2a">RB_HITTEST</a> message. 
 
 
 ## -struct-fields
@@ -60,10 +61,10 @@ Contains information specific to a hit test operation. This structure is used wi
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that describes the point to be hit tested, in client coordinates. 
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that describes the point to be hit tested, in client coordinates. 
 
 
 ### -field flags

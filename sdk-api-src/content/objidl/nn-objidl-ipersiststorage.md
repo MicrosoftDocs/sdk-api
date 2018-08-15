@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -108,7 +109,7 @@ Loads an object from its existing storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
+<a href="https://msdn.microsoft.com/3a200812-48d9-4202-987a-1400aa66191c">Save</a>
 </td>
 <td align="left" width="63%">
 Saves an object, and any nested objects that it contains, into the specified storage object. The object enters NoScribble mode.

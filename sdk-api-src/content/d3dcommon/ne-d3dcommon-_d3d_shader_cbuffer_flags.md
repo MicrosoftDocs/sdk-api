@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-These flags are used in a shader buffer description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172417(v=VS.85).aspx">D3D10_SHADER_BUFFER_DESC</a>).
+These flags are used in a shader buffer description (see <a href="https://msdn.microsoft.com/75036245-6ec6-4ca8-8e62-87be47aeee8a">D3D10_SHADER_BUFFER_DESC</a>).
 
 The    <b>D3D10_SHADER_CBUFFER_FLAGS</b> enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/f641b3ec-5492-4835-9cf6-e41447e4b6b6">D3D_SHADER_CBUFFER_FLAGS</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
@@ -104,7 +105,7 @@ typedef D3D_SHADER_CBUFFER_FLAGS D3D10_SHADER_CBUFFER_FLAGS;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

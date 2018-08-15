@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -70,14 +71,14 @@ Specifies a pointer to the data. This memory must be readable and writeable up t
 
 Type: <b>SIZE_T</b>
 
-The size provided must be at least the size returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff597646">GetSerializedSize</a>. 
+The size provided must be at least the size returned from <a href="https://msdn.microsoft.com/45DA092B-AB9B-43BE-8F5C-AE05485EA3C1">GetSerializedSize</a>. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the buffer provided isn’t big enough. 
 

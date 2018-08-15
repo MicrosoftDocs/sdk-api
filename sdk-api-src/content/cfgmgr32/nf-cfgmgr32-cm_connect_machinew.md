@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -89,9 +90,9 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Callers of <b>CM_Connect_Machine</b> must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538005">CM_Disconnect_Machine</a> to deallocate the machine handle, after it is no longer needed.
+Callers of <b>CM_Connect_Machine</b> must call <a href="https://msdn.microsoft.com/8318eb7e-f0fa-4b2a-b82d-e8f830665c9d">CM_Disconnect_Machine</a> to deallocate the machine handle, after it is no longer needed.
 
-Use machine handles obtained with this function only with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549713">PnP configuration manager functions</a>.
+Use machine handles obtained with this function only with the <a href="https://msdn.microsoft.com/07e4b970-3105-440a-811a-8863ff21f9b6">PnP configuration manager functions</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -103,7 +104,7 @@ Use machine handles obtained with this function only with the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538005">CM_Disconnect_Machine</a>
+<a href="https://msdn.microsoft.com/8318eb7e-f0fa-4b2a-b82d-e8f830665c9d">CM_Disconnect_Machine</a>
  
 
  

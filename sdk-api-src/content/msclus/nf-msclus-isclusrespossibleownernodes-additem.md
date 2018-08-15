@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Adds a node to a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owners</a> list.
+<a href="p_gly.htm">possible owners</a> list.
 
 
 ## -parameters

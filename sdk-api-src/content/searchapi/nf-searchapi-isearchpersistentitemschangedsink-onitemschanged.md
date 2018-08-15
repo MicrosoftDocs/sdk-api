@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,9 +71,9 @@ The number of changes being reported.
 
 ### -param DataChangeEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/33b131fb-3565-4625-a6a9-6c7b4aef6860">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
 
-An array of structures of type <a href="https://msdn.microsoft.com/en-us/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
+An array of structures of type <a href="https://msdn.microsoft.com/33b131fb-3565-4625-a6a9-6c7b4aef6860">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
                 
 
 

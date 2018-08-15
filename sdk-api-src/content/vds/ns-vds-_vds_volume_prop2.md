@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -108,7 +109,7 @@ The length of the byte array that the <b>pUniqueId</b> member points to.
 
 ### -field pwszName
 
-The name that was used to open a handle for the volume with the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
+The name that was used to open a handle for the volume with the <a href="base.createfile">CreateFile</a> function. For example, \\?\GLOBALROOT\Device\HarddiskVolume1.
 
 
 ### -field pUniqueId
@@ -146,7 +147,7 @@ Note that a unique identifier is not the same as a volume GUID path. To find the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562264">MOUNTDEV_UNIQUE_ID</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=158259">MOUNTDEV_UNIQUE_ID</a>
 
 
 

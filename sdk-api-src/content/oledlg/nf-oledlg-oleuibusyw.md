@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -383,7 +384,7 @@ A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e4
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> for the localized resources from the library.
+Unable to call <a href="_win32_LoadString_cpp">LoadString</a> for the localized resources from the library.
 
 </td>
 </tr>

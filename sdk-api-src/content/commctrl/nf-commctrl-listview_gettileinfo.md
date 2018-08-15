@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets information about a tile in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761081(v=VS.85).aspx">LVM_GETTILEINFO</a> message explicitly. 
+Gets information about a tile in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/e89a3eae-0970-488c-ba95-1072aa85bbf4">LVM_GETTILEINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -69,13 +70,13 @@ A handle to the list-view control.
 
 Type: <b>PLVTILEINFO</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774766(v=VS.85).aspx">LVTILEINFO</a>
+<a href="https://msdn.microsoft.com/bb8ab1e8-91bc-46e5-827c-c24665bf63d7">LVTILEINFO</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetTileInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetTileInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

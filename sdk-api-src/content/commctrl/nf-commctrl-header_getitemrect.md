@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775341(v=VS.85).aspx">HDM_GETITEMRECT</a> message explicitly. 
+Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/b483ef97-3700-425b-8160-81c673850f68">HDM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -76,5 +77,5 @@ The zero-based index of the header control item for which to retrieve the boundi
 
 Type: <b>LPRECT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that receives the bounding rectangle information. 
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the bounding rectangle information. 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemglue.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -58,7 +59,7 @@ req.product: Windows Address Book 5.0
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-<b>CWbemProviderGlue</b>  ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">Provider</a> class, and supplies methods for providers to use to query each other. It is not expected that provider writers ever derive from this class, or create instances of this class. Typically, the provider writer  uses the static methods listed here to retrieve information from WMI. The <b>CWbemProviderGlue</b> is a COM interface, and it relies on COM security for  interprocess communication. For more information, see <a href="https://msdn.microsoft.com/dd453e0e-aa1f-4ef1-ab21-613630b2758c">Setting the Security Levels on a WMI Connection</a> and <a href="https://msdn.microsoft.com/83c04a96-3829-4c07-91a7-06e5b75b2c12">Setting the Security on IWbemServices and Other Proxies</a>.
+<b>CWbemProviderGlue</b>  ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class, and supplies methods for providers to use to query each other. It is not expected that provider writers ever derive from this class, or create instances of this class. Typically, the provider writer  uses the static methods listed here to retrieve information from WMI. The <b>CWbemProviderGlue</b> is a COM interface, and it relies on COM security for  interprocess communication. For more information, see <a href="https://msdn.microsoft.com/dd453e0e-aa1f-4ef1-ab21-613630b2758c">Setting the Security Levels on a WMI Connection</a> and <a href="https://msdn.microsoft.com/83c04a96-3829-4c07-91a7-06e5b75b2c12">Setting the Security on IWbemServices and Other Proxies</a>.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CWbemProviderGlue</b> has these types of members:
 <ul>
@@ -83,7 +84,7 @@ Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.micros
 <a href="https://msdn.microsoft.com/5157d823-d3a1-46d2-8ae8-07e904001a14">FrameworkLogoffDLL</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
+Called by <a href="_com_dllcanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -148,7 +149,7 @@ Custom interpolators can be reused across applications, but it is recommended th
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd940513(v=VS.85).aspx">Custom Interpolator Sample</a>.
+For an example, see <a href="uianimation.how_to__create_custom_interpolators">Custom Interpolator Sample</a>.
 
 <div class="code"></div>
 

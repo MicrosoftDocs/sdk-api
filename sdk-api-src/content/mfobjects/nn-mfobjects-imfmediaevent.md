@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -83,7 +84,7 @@ Retrieves the extended type of the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/e2fc6c81-11c0-4947-b647-3e74a73ee5a2">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>HRESULT</b> that specifies the event status.
@@ -92,7 +93,7 @@ Retrieves an <b>HRESULT</b> that specifies the event status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/b62e0d9f-dada-4b75-a8d3-568ee2955888">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event type.
@@ -101,7 +102,7 @@ Retrieves the event type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/05e57b40-2565-4312-866e-50f0c7d62c4a">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value associated with the event.

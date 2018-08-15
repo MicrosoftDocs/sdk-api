@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,16 +72,16 @@ The <b>IDirect3DQuery9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/5363b5a4-6ac1-4f4e-8d64-949968d2a08a">GetData</a>
 </td>
 <td align="left" width="63%">
-Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/en-us/library/Bb147308(v=VS.85).aspx">Queries (Direct3D 9)</a>.
+Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205874(v=VS.85).aspx">GetDataSize</a>
+<a href="https://msdn.microsoft.com/3caddccc-3ed9-4dd7-94b7-ab41324a71e3">GetDataSize</a>
 </td>
 <td align="left" width="63%">
 Gets the number of bytes in the query data.
@@ -89,7 +90,7 @@ Gets the number of bytes in the query data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a>
+<a href="https://msdn.microsoft.com/a686b8b1-d2ec-41cd-ad28-caad46d20fc2">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device that is being queried.
@@ -98,7 +99,7 @@ Gets the device that is being queried.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/292431c4-33d6-477c-943c-fa90503b5f46">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the query type.
@@ -107,7 +108,7 @@ Gets the query type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205877(v=VS.85).aspx">Issue</a>
+<a href="https://msdn.microsoft.com/8b9a9b1d-bc00-4961-b8ed-edbbf4e64fda">Issue</a>
 </td>
 <td align="left" width="63%">
 Issue a query.

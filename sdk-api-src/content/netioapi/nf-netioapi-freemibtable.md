@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -52,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 The 
-<b>FreeMibTable</b> function  frees the buffer allocated by the functions that return tables of network interfaces, addresses, and routes (<a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552508">GetAnycastIpAddressTable</a>, for example).
+<b>FreeMibTable</b> function  frees the buffer allocated by the functions that return tables of network interfaces, addresses, and routes (<a href="https://msdn.microsoft.com/0153c41c-b02b-4832-87b3-88dc3a9f4ff1">GetIfTable2</a> and <a href="https://msdn.microsoft.com/4eccae59-00be-4f9c-bb62-a507d7dad2e0">GetAnycastIpAddressTable</a>, for example).
 
 
 ## -parameters
@@ -90,47 +91,47 @@ The <b>FreeMibTable</b> function is used to free the internal buffers used by va
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552508">GetAnycastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/4eccae59-00be-4f9c-bb62-a507d7dad2e0">GetAnycastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552521">GetIfStackTable</a>
+<a href="https://msdn.microsoft.com/c1b0f091-2aef-447e-9866-a886838a6267">GetIfStackTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552524">GetIfTable2</a>
+<a href="https://msdn.microsoft.com/0153c41c-b02b-4832-87b3-88dc3a9f4ff1">GetIfTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552528">GetIfTable2Ex</a>
+<a href="https://msdn.microsoft.com/d8663894-50b1-4ca2-a1f4-6ca0970795a7">GetIfTable2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552531">GetInvertedIfStackTable</a>
+<a href="https://msdn.microsoft.com/d1808ded-2798-46cc-8021-fdbcd3da60ea">GetInvertedIfStackTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552536">GetIpForwardTable2</a>
+<a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552543">GetIpInterfaceTable</a>
+<a href="https://msdn.microsoft.com/09f2bbff-3281-41ae-878f-61c5afa20ec5">GetIpInterfaceTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552551">GetIpNetTable2</a>
+<a href="https://msdn.microsoft.com/6c45d735-9a07-41ca-8d8a-919f32c98a3c">GetIpNetTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552559">GetIpPathTable</a>
+<a href="https://msdn.microsoft.com/e03816a4-0b86-4e0b-a45e-8148c8ba5472">GetIpPathTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552570">GetMulticastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/0958e92e-12ed-42e0-aa04-b8c4544f6642">GetMulticastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552594">GetUnicastIpAddressTable</a>
+<a href="https://msdn.microsoft.com/bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652">GetUnicastIpAddressTable</a>
  
 
  

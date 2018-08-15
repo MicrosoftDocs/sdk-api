@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -123,11 +124,11 @@ The device is a mouse.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645598(v=VS.85).aspx">GetRawInputDeviceList</a>
+<a href="https://msdn.microsoft.com/0283e578-8f6c-4239-b856-99d8812f588b">GetRawInputDeviceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 

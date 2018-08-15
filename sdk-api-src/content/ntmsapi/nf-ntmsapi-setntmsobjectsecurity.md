@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -82,13 +83,13 @@ RSM object type. For a list of object types, see the
 ### -param SecurityInformation [in]
 
 A 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that specifies the security information to write to the RSM object.
+<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> value that specifies the security information to write to the RSM object.
 
 
 ### -param lpSecurityDescriptor [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that specifies the security descriptor to write to the RSM object: NTMS_USE_ACCESS, NTMS_CONTROL_ACCESS, or NTMS_MODIFY_ACCESS.
+<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure that specifies the security descriptor to write to the RSM object: NTMS_USE_ACCESS, NTMS_CONTROL_ACCESS, or NTMS_MODIFY_ACCESS.
 
 
 ## -returns
@@ -223,7 +224,7 @@ If an application uses
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
  
 
  

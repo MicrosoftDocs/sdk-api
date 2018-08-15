@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>ISearchProtocolThreadContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231428(v=VS.85).aspx">ThreadIdle</a>
+<a href="https://msdn.microsoft.com/47e3c8e2-65aa-4e05-a8f6-5eace4cf35ea">ThreadIdle</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
@@ -80,7 +81,7 @@ Notifies the protocol handler that the filtering thread is idle, so that the pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231429(v=VS.85).aspx">ThreadInit</a>
+<a href="https://msdn.microsoft.com/0b68fa44-8fa1-401e-a089-af29bfa53e42">ThreadInit</a>
 </td>
 <td align="left" width="63%">
 Initializes communication between the protocol handler and the protocol host.
@@ -89,7 +90,7 @@ Initializes communication between the protocol handler and the protocol host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231430(v=VS.85).aspx">ThreadShutdown</a>
+<a href="https://msdn.microsoft.com/8fb169da-ef5f-4930-b22c-d1197e79ab6e">ThreadShutdown</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol handler that the thread is being shut down.

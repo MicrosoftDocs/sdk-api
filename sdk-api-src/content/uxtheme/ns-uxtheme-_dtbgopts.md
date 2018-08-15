@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a> function.
+Defines the options for the <a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a> function.
 
 
 ## -struct-fields
@@ -163,9 +164,9 @@ DTBG_CLIPRECT | DTBG_DRAWSOLID | DTBG_OMITBORDER | DTBG_OMITCONTENT | DTBG_COMPU
 
 ### -field rcClip
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> that specifies the bounding rectangle of the clip region.
+A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> that specifies the bounding rectangle of the clip region.
 
 
 ## -see-also
@@ -173,7 +174,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a>
+<a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a>
  
 
  

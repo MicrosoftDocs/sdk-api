@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,7 +57,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +72,7 @@ The <b>ID3D10Asynchronous</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">Begin</a>
+<a href="https://msdn.microsoft.com/53ae44d0-822b-4fc9-ac77-814ac73eb08a">Begin</a>
 </td>
 <td align="left" width="63%">
 Starts the collection of GPU data.
@@ -80,7 +81,7 @@ Starts the collection of GPU data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">End</a>
+<a href="https://msdn.microsoft.com/147a93b4-7151-4800-8aa5-286058f49ee8">End</a>
 </td>
 <td align="left" width="63%">
 Ends the collection of GPU data.
@@ -89,7 +90,7 @@ Ends the collection of GPU data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">GetData</a>
 </td>
 <td align="left" width="63%">
 Get data from the GPU asynchronously.
@@ -98,10 +99,10 @@ Get data from the GPU asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173504(v=VS.85).aspx">GetDataSize</a>
+<a href="https://msdn.microsoft.com/1572c6a8-4c77-4cda-95bd-bffdf81a71dd">GetDataSize</a>
 </td>
 <td align="left" width="63%">
-Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a>.
 
 </td>
 </tr>
@@ -116,11 +117,11 @@ There are three types of asynchronous interfaces, all of which inherit this inte
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb173823(v=VS.85).aspx">ID3D10Query Interface</a> - Queries information from the GPU.</li>
+<a href="https://msdn.microsoft.com/ffa69b76-ce8d-4386-b0be-fecada85d37c">ID3D10Query Interface</a> - Queries information from the GPU.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx">ID3D10Predicate Interface</a> - Determines whether a piece of geometry should be processed or not depending on the results of a previous draw call.</li>
+<a href="https://msdn.microsoft.com/baf387c4-dd7a-4a05-a118-839499caec24">ID3D10Predicate Interface</a> - Determines whether a piece of geometry should be processed or not depending on the results of a previous draw call.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a> - Measures GPU performance.</li>
+<a href="https://msdn.microsoft.com/1844b30a-27fb-415a-9ac8-93d159e9774e">ID3D10Counter Interface</a> - Measures GPU performance.</li>
 </ul>
 
 
@@ -130,11 +131,11 @@ There are three types of asynchronous interfaces, all of which inherit this inte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
  
 
  

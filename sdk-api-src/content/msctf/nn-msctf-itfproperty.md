@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>ITfProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/bbfbbe0d-bea7-4c46-8b9c-6b607a761f48">Clear</a>
 </td>
 <td align="left" width="63%">
 Empties the property value over the specified range.
@@ -89,7 +90,7 @@ Obtains a range that covers the text that contains a non-empty value for the pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/72064f9f-311e-4d7b-9ead-4fe2b7f528a8">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the property for a range.
@@ -137,7 +138,7 @@ An instance of this interface is obtained in various ways, such as <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

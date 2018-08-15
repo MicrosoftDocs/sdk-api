@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -138,7 +139,7 @@ Validate the share and connect to a drive letter. This enables reconnection of d
 
 Wait for the execute operation to complete before returning. This flag should be used by callers that are using ShellExecute forms that might result in an async activation, for example DDE, and create a process that might be run on a background thread. (Note: <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> runs on a background thread by default if the caller's threading model is not Apartment.) Calls to <b>ShellExecuteEx</b> from processes already running on background threads should always pass this flag. Also, applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag.
 
-If the execute operation is performed on a background thread and the caller did not specify the SEE_MASK_ASYNCOK flag, then the calling thread waits until the new process has started before returning. This typically means that either <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> has been called, the DDE communication has completed, or that the custom execution delegate has notified <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> that it is done. If the SEE_MASK_WAITFORINPUTIDLE flag is specified, then <b>ShellExecuteEx</b> calls <a href="https://msdn.microsoft.com/2a684921-36f1-438c-895c-5bebc242635a">WaitForInputIdle</a> and waits for the new process to idle before returning, with a maximum timeout of 1 minute.
+If the execute operation is performed on a background thread and the caller did not specify the SEE_MASK_ASYNCOK flag, then the calling thread waits until the new process has started before returning. This typically means that either <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> has been called, the DDE communication has completed, or that the custom execution delegate has notified <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> that it is done. If the SEE_MASK_WAITFORINPUTIDLE flag is specified, then <b>ShellExecuteEx</b> calls <a href="https://msdn.microsoft.com/2a684921-36f1-438c-895c-5bebc242635a">WaitForInputIdle</a> and waits for the new process to idle before returning, with a maximum timeout of 1 minute.
 
 For further discussion on when this flag is necessary, see the Remarks section.
 
@@ -170,7 +171,7 @@ Use this flag to indicate a Unicode application.
 
 #### SEE_MASK_NO_CONSOLE (0x00008000)
 
-Use to inherit the parent's console for the new process instead of having it create a new console. It is the opposite of using a CREATE_NEW_CONSOLE flag with <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>.
+Use to inherit the parent's console for the new process instead of having it create a new console. It is the opposite of using a CREATE_NEW_CONSOLE flag with <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>.
 
 
 
@@ -410,7 +411,7 @@ A handle to the registry key for the file type. The access rights for this regis
 
 Type: <b>DWORD</b>
 
-A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms646284(v=VS.85).aspx">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
+A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/b2c7e6ca-da71-440b-a05e-17f2da419d18">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
 
 
 ### -field DUMMYUNIONNAME

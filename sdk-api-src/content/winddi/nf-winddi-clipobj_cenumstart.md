@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>CLIPOBJ_cEnumStart</b> function sets parameters for enumerating rectangle
 
 ### -param pco [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure that defines the clip region to be enumerated.
+Pointer to the <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure that defines the clip region to be enumerated.
 
 
 ### -param bAll [in]
@@ -73,12 +74,12 @@ A driver that caches clip regions must enumerate the entire region.
 
 ### -param iType [in]
 
-Specifies the data structures that are to be written by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539420">CLIPOBJ_bEnum</a>. This parameter currently must be CT_RECTANGLES, indicating that the region is to be enumerated as a list of rectangles.
+Specifies the data structures that are to be written by <a href="https://msdn.microsoft.com/d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77">CLIPOBJ_bEnum</a>. This parameter currently must be CT_RECTANGLES, indicating that the region is to be enumerated as a list of rectangles.
 
 
 ### -param iDirection [in]
 
-Determines the order in which the rectangles are to be enumerated. This order can be essential if a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a> operation is executing concurrently on the same surface. If the order is not relevant to the device driver, CD_ANY should be specified for complex regions, allowing GDI to optimize the enumeration. This value can be one of the following:
+Determines the order in which the rectangles are to be enumerated. This order can be essential if a <a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a> operation is executing concurrently on the same surface. If the order is not relevant to the device driver, CD_ANY should be specified for complex regions, allowing GDI to optimize the enumeration. This value can be one of the following:
 
 <table>
 <tr>
@@ -169,15 +170,15 @@ The driver can restart enumeration by calling this function again.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a>
+<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539420">CLIPOBJ_bEnum</a>
+<a href="https://msdn.microsoft.com/d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77">CLIPOBJ_bEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556180">DrvBitBlt</a>
+<a href="https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4">DrvBitBlt</a>
  
 
  

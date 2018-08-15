@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,7 +77,7 @@ The <b>IWMDMStorageGlobals</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451391">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/0eea5448-f43d-4181-a497-476957fa7a08">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the storage medium.
@@ -94,7 +95,7 @@ Retrieves a serial number that uniquely identifies the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a>
+<a href="https://msdn.microsoft.com/cfb6d233-6fc0-4589-9324-f4242798afc5">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status of the storage medium.
@@ -130,7 +131,7 @@ Retrieves the total size of the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/9f5092f0-1c72-412b-af93-08bc78c750bc">Initialize</a>
 </td>
 <td align="left" width="63%">
 Formats the storage medium.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> that contains the coordinates of a rectangle.
+Creates a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that contains the coordinates of a rectangle.
 
 
 ## -parameters
@@ -61,14 +62,14 @@ Creates a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335"
 
 ### -param rc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
 A pointer to a structure that contains the coordinates of the rectangle.
 
 
 ### -param var [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>*</b>
 
 Receives the coordinates of the rectangle.
 
@@ -88,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The returned <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> has a data type of VT_ARRAY | VT_R8.
+The returned <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> has a data type of VT_ARRAY | VT_R8.
 			
 
 

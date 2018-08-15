@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The FD_GLYPHATTR structure is used to specify the return value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565996">FONTOBJ_pQueryGlyphAttrs</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556267">DrvQueryGlyphAttrs</a> functions.
+The FD_GLYPHATTR structure is used to specify the return value for the <a href="https://msdn.microsoft.com/6a619922-5ab6-4169-8b41-e645e9d7fe93">FONTOBJ_pQueryGlyphAttrs</a> and <a href="https://msdn.microsoft.com/cfc42384-581c-4358-84a9-91028c89bbd8">DrvQueryGlyphAttrs</a> functions.
 
 
 ## -struct-fields

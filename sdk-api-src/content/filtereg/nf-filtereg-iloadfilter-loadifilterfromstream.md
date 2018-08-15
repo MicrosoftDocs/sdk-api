@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: filtereg.h
 req.include-header: Filtereg.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

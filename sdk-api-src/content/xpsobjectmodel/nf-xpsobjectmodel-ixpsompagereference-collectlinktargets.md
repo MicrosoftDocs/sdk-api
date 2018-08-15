@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -125,7 +126,7 @@ If the page is originally loaded from a package but  is not currently loaded in 
 
 If the document does not have any link targets, the name collection returned in <i>linkTargets</i> will be empty.
 
-To get the number of elements in the collection that is returned in <i>linkTargets</i>, call the collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a> method.
+To get the number of elements in the collection that is returned in <i>linkTargets</i>, call the collection's <a href="https://msdn.microsoft.com/f449c2f6-fe7b-4115-9a05-fef90f2954b0">GetCount</a> method.
 
 This method returns the pointer to a new collection every time it is called. To prevent a memory leak, the pointer to a previous collection should be released when it is no longer needed or before the pointer variable is reused for another call to this method. The following code example shows how this can be done in a program.
 

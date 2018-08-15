@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,17 +62,17 @@ The <b>DrvRealizeBrush</b> function requests that the driver realize a specified
 
 ### -param pbo [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a> structure that is to be realized. All other parameters, except for <i>psoTarget</i>, can be queried from this object. Parameter specifications are provided as an optimization. This parameter is best used only as a parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/ff538263">BRUSHOBJ_pvAllocRbrush</a>, which allocates the memory for the realized brush.
+Pointer to the <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a> structure that is to be realized. All other parameters, except for <i>psoTarget</i>, can be queried from this object. Parameter specifications are provided as an optimization. This parameter is best used only as a parameter for <a href="https://msdn.microsoft.com/10900536-6c48-4a96-92d2-025660ccff7e">BRUSHOBJ_pvAllocRbrush</a>, which allocates the memory for the realized brush.
 
 
 ### -param psoTarget [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure for which the brush is to be realized. This surface can be the physical surface for the device, a device format bitmap, or a standard format bitmap.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure for which the brush is to be realized. This surface can be the physical surface for the device, a device format bitmap, or a standard format bitmap.
 
 
 ### -param psoPattern [in]
 
-Pointer to the SURFOBJ structure that describes the pattern for the brush. For a raster device, this is a bitmap. For a vector device, this is one of the pattern surfaces provided by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>.
+Pointer to the SURFOBJ structure that describes the pattern for the brush. For a raster device, this is a bitmap. For a vector device, this is one of the pattern surfaces provided by <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
 
 
 ### -param psoMask [in, optional]
@@ -81,12 +82,12 @@ Pointer to a SURFOBJ structure that describes a transparency mask for the brush.
 
 ### -param pxlo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a> structure that defines the interpretration of colors in the pattern. If <i>pxlo</i> is <b>NULL</b>, no translation is needed. A XLATEOBJ_<i>Xxx</i> service routine can be called to translate the colors to device color indices. Vector devices should translate color zero through the XLATEOBJ to get the foreground color for the brush.
+Pointer to a <a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a> structure that defines the interpretration of colors in the pattern. If <i>pxlo</i> is <b>NULL</b>, no translation is needed. A XLATEOBJ_<i>Xxx</i> service routine can be called to translate the colors to device color indices. Vector devices should translate color zero through the XLATEOBJ to get the foreground color for the brush.
 
 
 ### -param iHatch [in]
 
-Specifies whether <i>psoPattern</i> is one of the hatch brushes returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>. This is true if the value of this parameter is less than HS_DDI_MAX, which is defined in <i>winddi.h</i>.
+Specifies whether <i>psoPattern</i> is one of the hatch brushes returned by <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>. This is true if the value of this parameter is less than HS_DDI_MAX, which is defined in <i>winddi.h</i>.
 
 
 ## -returns
@@ -104,7 +105,7 @@ The return value is <b>TRUE</b> if the brush was successfully realized. Otherwis
 
 To realize a brush, the driver converts a GDI brush into a form that can be used internally. A realized brush contains device-specific information needed by the device to accelerate drawing using the brush.
 
-The driver's realization of a brush is written into the buffer allocated by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff538263">BRUSHOBJ_pvAllocRbrush</a>.
+The driver's realization of a brush is written into the buffer allocated by a call to <a href="https://msdn.microsoft.com/10900536-6c48-4a96-92d2-025660ccff7e">BRUSHOBJ_pvAllocRbrush</a>.
 
 <b>DrvRealizeBrush</b> is required for a driver that does any drawing to any surface.
 
@@ -116,19 +117,19 @@ The driver's realization of a brush is written into the buffer allocated by a ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a>
+<a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538263">BRUSHOBJ_pvAllocRbrush</a>
+<a href="https://msdn.microsoft.com/10900536-6c48-4a96-92d2-025660ccff7e">BRUSHOBJ_pvAllocRbrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570634">XLATEOBJ</a>
+<a href="https://msdn.microsoft.com/08bdead0-290a-4b23-8118-5f1f941e439f">XLATEOBJ</a>
  
 
  

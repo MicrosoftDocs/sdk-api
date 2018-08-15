@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the currently selected date for a month calendar control. If the specified date is not in view, the control updates the display to bring it into view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761002(v=VS.85).aspx">MCM_SETCURSEL</a> message explicitly. 
+Sets the currently selected date for a month calendar control. If the specified date is not in view, the control updates the display to bring it into view. You can use this macro or send the <a href="https://msdn.microsoft.com/2a9f82a1-66d9-44dd-b60f-b588b4688316">MCM_SETCURSEL</a> message explicitly. 
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains data about the state of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">provider</a> resource.
+Contains data about the state of a <a href="p_gly.htm">provider</a> resource.
 
 
 ## -struct-fields
@@ -89,7 +90,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
+The resource has <a href="f_gly.htm">failed</a>.
 
 
 

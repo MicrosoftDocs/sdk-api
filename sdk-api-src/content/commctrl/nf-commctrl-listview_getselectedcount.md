@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Determines the number of selected items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761069(v=VS.85).aspx">LVM_GETSELECTEDCOUNT</a> message explicitly. 
+Determines the number of selected items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/38916227-e6ca-4efa-9821-13f0fdb29834">LVM_GETSELECTEDCOUNT</a> message explicitly. 
 
 
 ## -parameters

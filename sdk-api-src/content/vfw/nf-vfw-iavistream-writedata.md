@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,9 +81,9 @@ Four-character code of the stream header to write.
 
 
 
-#### - ps
+#### - cbBuffer
 
-Pointer to the interface to a stream.
+Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
 
 
 #### - lpBuffer
@@ -90,9 +91,9 @@ Pointer to the interface to a stream.
 Pointer to the buffer that contains the header data to write.
 
 
-#### - cbBuffer
+#### - ps
 
-Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
+Pointer to the interface to a stream.
 
 
 ## -returns

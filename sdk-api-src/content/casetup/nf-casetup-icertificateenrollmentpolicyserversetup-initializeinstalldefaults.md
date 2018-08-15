@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -132,7 +133,7 @@ Checks to determine whether  the  CEP service is installed on a computer running
 
 </li>
 </ul>
-You must call the <b>InitializeInstallDefaults</b> method before calling any method other than <a href="https://msdn.microsoft.com/library/windows/hardware/mt593237">UnInstall</a>. Call the <a href="https://msdn.microsoft.com/66572F97-CE34-4C6B-9083-269A1AE2876D">Install</a> method to install the configured CEP service. Call the <b>UnInstall</b> method on a new <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object to remove the service.
+You must call the <b>InitializeInstallDefaults</b> method before calling any method other than <a href="https://msdn.microsoft.com/3E53903A-B716-45E7-B0EB-0D1226291275">UnInstall</a>. Call the <a href="https://msdn.microsoft.com/66572F97-CE34-4C6B-9083-269A1AE2876D">Install</a> method to install the configured CEP service. Call the <b>UnInstall</b> method on a new <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> object to remove the service.
 
 
 

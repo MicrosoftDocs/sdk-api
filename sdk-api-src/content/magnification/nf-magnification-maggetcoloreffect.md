@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ The magnification window.
 
 ### -param pEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or <b>NULL</b> if no color effect has been set.
 
@@ -132,7 +133,7 @@ BOOL GetMagnifierColorTransform(HWND hwndMag)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692394(v=VS.85).aspx">MagSetColorEffect</a>
+<a href="https://msdn.microsoft.com/53749109-5370-45e7-ba90-79ad1504c41e">MagSetColorEffect</a>
  
 
  

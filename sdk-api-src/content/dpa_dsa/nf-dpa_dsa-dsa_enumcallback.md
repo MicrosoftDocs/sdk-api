@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -67,7 +68,7 @@ A handle to an existing DSA.
 
 ### -param pfnCB [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775711(v=VS.85).aspx">PFNDAENUMCALLBACK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d5146b5b-1a1c-4584-ba2f-de7f8db654cb">PFNDAENUMCALLBACK</a>*</b>
 
 A callback function pointer. See <a href="https://msdn.microsoft.com/2309ab9f-bf2e-413a-bf4f-b2782cd5af9e">PFNDSAENUMCALLBACK</a> for the callback function prototype.
 
@@ -93,7 +94,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775713(v=VS.85).aspx">PFNDAENUMCALLBACKCONST</a>
+<a href="https://msdn.microsoft.com/2fe1546f-d517-4d63-a3a6-1d3ea0238b3d">PFNDAENUMCALLBACKCONST</a>
  
 
  

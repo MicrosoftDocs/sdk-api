@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -97,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-In Windows 7 and later, it is recommended that you retrieve argument strings though <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> (using the <a href="https://msdn.microsoft.com/e6786836-5e18-4b8c-9e7d-229abb7473e7">PKEY_Link_Arguments</a> value) rather than this method, which can silently truncate the string if the provided buffer is not large enough. <b>IPropertyStore</b> allocates a string of the correct size.
+In Windows 7 and later, it is recommended that you retrieve argument strings though <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> (using the <a href="https://msdn.microsoft.com/e6786836-5e18-4b8c-9e7d-229abb7473e7">PKEY_Link_Arguments</a> value) rather than this method, which can silently truncate the string if the provided buffer is not large enough. <b>IPropertyStore</b> allocates a string of the correct size.
 
 
 

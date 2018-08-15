@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774929(v=VS.85).aspx">LVM_GETFOOTERITEMRECT</a> message explicitly.
+Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/4a6055d3-1cc1-4c3d-a5f6-006617ff3bce">LVM_GETFOOTERITEMRECT</a> message explicitly.
 
 
 ## -parameters
@@ -74,7 +75,7 @@ The index of the item in the list-view control.
 
 ### -param prc [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure to receive the coordinates. The calling application is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure to receive the coordinates. The calling application is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -90,7 +91,7 @@ Obtains the preferred size, in pixels, of the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/ac37ea79-59bb-44c1-aace-b3c0dccfd377">GetText</a>
 </td>
 <td align="left" width="63%">
 Obtains the text to be displayed for the bitmap button in the language bar.
@@ -155,7 +156,7 @@ A language bar bitmap button functions as a button item on the language bar that
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -76,7 +77,7 @@ Contains the width, in pixels, of the column.
 
 ### -field idsName
 
-Contains the string table identifier for the column header string. To retrieve this string, call  <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> with the <b>hInstance</b> member of the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure and this member for the string identifier.
+Contains the string table identifier for the column header string. To retrieve this string, call  <a href="_win32_loadstring_cpp">LoadString</a> with the <b>hInstance</b> member of the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure and this member for the string identifier.
 
 
 ### -field offsetProperty
@@ -124,7 +125,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="_win32_loadstring_cpp">LoadString</a>
  
 
  

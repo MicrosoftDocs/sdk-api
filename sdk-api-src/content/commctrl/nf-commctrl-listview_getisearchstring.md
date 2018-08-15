@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774951(v=VS.85).aspx">LVM_GETISEARCHSTRING</a> message explicitly. 
+Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/e953c4a0-0556-4987-8abf-3276e787fe49">LVM_GETISEARCHSTRING</a> message explicitly. 
 
 
 ## -parameters

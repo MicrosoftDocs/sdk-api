@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -327,7 +328,7 @@ TBD
 
 The <b>PCLUSTER_SETUP_PROGRESS_CALLBACK</b> type defines a pointer to this function.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MSCluster_EventClusterCallback</a> 
+The <a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback</a> 
      MOF class is used in a similar manner.
 
 
@@ -366,7 +367,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc325746(v=VS.85).aspx">MSCluster_EventClusterCallback</a>
+<a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback</a>
  
 
  

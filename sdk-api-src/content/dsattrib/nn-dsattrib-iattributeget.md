@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dsattrib.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -94,7 +95,7 @@ Returns an attribute value, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/340a0a0d-26e9-4c63-8552-15f7c841c759">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of attributes on this object.

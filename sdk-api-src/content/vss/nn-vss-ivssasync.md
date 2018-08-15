@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vss.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -59,7 +60,7 @@ The <b>IVssAsync</b> interface is returned to calling applications
 The <b>IVssAsync</b> interface permits an application to monitor and 
     control an asynchronous operation by waiting on its completion, querying its status, or canceling it.
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the 
     resources held by the returned <b>IVssAsync</b> interface when it is 
     no longer needed.
 
@@ -108,7 +109,7 @@ The <b>IVssAsync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://msdn.microsoft.com/8ab44737-114b-4edc-a097-d0fa297f6276">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels an incomplete asynchronous operation.

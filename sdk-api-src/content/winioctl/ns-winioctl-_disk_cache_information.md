@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Provides information about the disk cache.This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560405">IOCTL_DISK_SET_CACHE_INFORMATION</a> control codes.
+Provides information about the disk cache.This structure is used by the <a href="https://msdn.microsoft.com/025a92e8-6169-4d7e-9029-f22acb2bdc9f">IOCTL_DISK_GET_CACHE_INFORMATION</a> and <a href="https://msdn.microsoft.com/e921da48-9435-41f0-87dd-abb383fd5208">IOCTL_DISK_SET_CACHE_INFORMATION</a> control codes.
 
 
 ## -struct-fields
@@ -180,11 +181,11 @@ The maximum amount of data  that can be prefetched into the cache on a disk oper
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/025a92e8-6169-4d7e-9029-f22acb2bdc9f">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560405">IOCTL_DISK_SET_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/e921da48-9435-41f0-87dd-abb383fd5208">IOCTL_DISK_SET_CACHE_INFORMATION</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Initializes the disk cleanup handler. It provides better support for localization than <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>.
+Initializes the disk cleanup handler. It provides better support for localization than <a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a>.
 
 
 ## -parameters
@@ -226,11 +227,11 @@ The cleanup operation failed.
 
 
 
-The Windows 2000 disk cleanup manager will first call <b>IEmptyVolumeCache2::InitializeEx</b> to initialize a disk cleanup handler. It will only call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> if the <a href="https://msdn.microsoft.com/a3e941ee-0477-48a8-96bd-c9d74c66ca41">IEmptyVolumeCache2</a> interface is not implemented. The Windows 98 disk cleanup manager only supports <b>Initialize</b>.
+The Windows 2000 disk cleanup manager will first call <b>IEmptyVolumeCache2::InitializeEx</b> to initialize a disk cleanup handler. It will only call <a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a> if the <a href="https://msdn.microsoft.com/a3e941ee-0477-48a8-96bd-c9d74c66ca41">IEmptyVolumeCache2</a> interface is not implemented. The Windows 98 disk cleanup manager only supports <b>Initialize</b>.
 
-<b>InitializeEx</b> is intended to provide better localization support than <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>. When <b>InitializeEx</b> is called, the handler application must assign appropriately localized values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If the <b>Settings</b> button is enabled, you must also assign a value to the <i>ppwszBtnText</i> parameter. Unlike <b>Initialize</b>, if you set these strings to <b>NULL</b> to notify the disk cleanup manager to retrieve the default values from the registry, <b>InitializeEx</b> will fail. 
+<b>InitializeEx</b> is intended to provide better localization support than <a href="https://msdn.microsoft.com/e0d66c58-6963-4694-984f-6f4a710d08c0">Initialize</a>. When <b>InitializeEx</b> is called, the handler application must assign appropriately localized values to the <i>ppwszDisplayName</i> and <i>ppwszDescription</i> parameters. If the <b>Settings</b> button is enabled, you must also assign a value to the <i>ppwszBtnText</i> parameter. Unlike <b>Initialize</b>, if you set these strings to <b>NULL</b> to notify the disk cleanup manager to retrieve the default values from the registry, <b>InitializeEx</b> will fail. 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i>, <i>ppwszDescription</i>, and <i>ppwszBtnText</i>. The disk cleanup manager will free the memory when it is no longer needed.
+Use <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i>, <i>ppwszDescription</i>, and <i>ppwszBtnText</i>. The disk cleanup manager will free the memory when it is no longer needed.
 
 
 

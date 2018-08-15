@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -524,7 +525,7 @@ System colors for monochrome displays are usually interpreted as shades of gray.
 To paint with a system color brush, an application should use <code>GetSysColorBrush(nIndex)</code>, instead of 
 <code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="https://msdn.microsoft.com/07a1d8e3-eae8-40ab-9d0f-4efa9fac0117">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
 
-Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt297756">Color</a>.
+Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="http://go.microsoft.com/fwlink/p/?linkid=112188">Color</a>.
 
 
 #### Examples

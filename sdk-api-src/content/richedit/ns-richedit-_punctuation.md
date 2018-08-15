@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -88,11 +89,11 @@ This structure is used only in Asian-language versions of the operating system.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774184(v=VS.85).aspx">EM_GETPUNCTUATION</a>
+<a href="https://msdn.microsoft.com/1c04967b-d75e-4f54-b35b-cd50bac9cdfa">EM_GETPUNCTUATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774278(v=VS.85).aspx">EM_SETPUNCTUATION</a>
+<a href="https://msdn.microsoft.com/c0c8ad14-63e2-4be8-8fc0-6b8ef9be4522">EM_SETPUNCTUATION</a>
 
 
 

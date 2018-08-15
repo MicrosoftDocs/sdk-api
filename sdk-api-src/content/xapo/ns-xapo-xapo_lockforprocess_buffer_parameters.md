@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,7 +67,7 @@ A WAVFORMATEX describing the format for the stream buffer.
 
 ### -field MaxFrameCount
 
-Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
+Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
 
 
 ## -remarks
@@ -88,7 +89,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
  
 
  

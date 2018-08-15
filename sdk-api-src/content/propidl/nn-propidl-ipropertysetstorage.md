@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propidl.h
 req.include-header: Objbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -116,7 +117,7 @@ Creates and retrieves a pointer to an object that can be used to enumerate prope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/a0e2239f-b908-460a-98e8-c805c1d84def">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a previously created property set.

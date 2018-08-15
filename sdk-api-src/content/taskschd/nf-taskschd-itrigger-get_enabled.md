@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, the enabled property is specified using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn966102">Enabled</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the enabled property is specified using the <a href="https://msdn.microsoft.com/14c98f40-0ec5-4dc1-978e-b02c08ee2384">Enabled</a> element of the Task Scheduler schema.
 
 
 

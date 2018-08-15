@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -62,7 +63,7 @@ Creates a write-only bundle object to which app packages can be added.
 
 Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
 
-The output stream that receives the serialized package data. The stream must support at least the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> method.
+The output stream that receives the serialized package data. The stream must support at least the  <a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">Write</a> method.
 
 
 ### -param bundleVersion [in]

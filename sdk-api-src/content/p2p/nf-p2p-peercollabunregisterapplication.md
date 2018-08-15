@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -147,7 +148,7 @@ To unregister the application for all users, the caller of this API must be elev
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
+<a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>
  
 
  

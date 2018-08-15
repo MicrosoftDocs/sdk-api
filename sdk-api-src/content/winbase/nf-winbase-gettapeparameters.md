@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,7 +72,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device about which information is sought. This handle is created by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -117,10 +118,10 @@ Pointer to a variable that receives the size, in bytes, of the buffer specified 
 ### -param lpTapeInformation [out]
 
 Pointer to a structure that contains the requested information. If the <i>dwOperation</i> parameter is <b>GET_TAPE_MEDIA_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567965">TAPE_GET_MEDIA_PARAMETERS</a> structure.
+<a href="https://msdn.microsoft.com/931355e5-30f5-4984-80c2-5d63772c4592">TAPE_GET_MEDIA_PARAMETERS</a> structure.
 
 If <i>dwOperation</i> is <b>GET_TAPE_DRIVE_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567964">TAPE_GET_DRIVE_PARAMETERS</a> structure.
+<a href="https://msdn.microsoft.com/02fc702b-3f34-47d0-b8ba-7a9f497659ad">TAPE_GET_DRIVE_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -338,7 +339,7 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
@@ -346,11 +347,11 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567964">TAPE_GET_DRIVE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/02fc702b-3f34-47d0-b8ba-7a9f497659ad">TAPE_GET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567965">TAPE_GET_MEDIA_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/931355e5-30f5-4984-80c2-5d63772c4592">TAPE_GET_MEDIA_PARAMETERS</a>
  
 
  

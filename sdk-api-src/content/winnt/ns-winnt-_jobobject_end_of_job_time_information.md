@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,7 +95,7 @@ This is the default termination action.
 </td>
 <td width="60%">
 Posts a completion packet to the completion port using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
 
 
 
@@ -133,7 +134,7 @@ To associate a completion port with a job, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a>
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 

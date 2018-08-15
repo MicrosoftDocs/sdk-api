@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP4, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -79,7 +80,7 @@ Retrieves an object from the object pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/93e88990-1737-4db4-aa37-0fe19a7ca0f3">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object pool.
@@ -89,7 +90,7 @@ Initializes an object pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a>
+<a href="https://msdn.microsoft.com/d06f4227-e85a-4779-b240-5a2e71d9756b">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down an object pool.

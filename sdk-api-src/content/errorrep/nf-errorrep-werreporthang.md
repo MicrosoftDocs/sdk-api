@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: errorrep.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -94,7 +95,7 @@ If you use this function, it is important that you adhere to the following requi
 <li>Ensure that child windows are created by a separate process. After no-response reporting has completed, it will terminate the process that created the window.</li>
 <li>Provide visual clues in the child window that it is not responding; no-response reporting will not dim the child window, it will only show the reporting dialog box.</li>
 <li>Confirm that the user wants to terminate the child window that is not responding before calling this function.</li>
-<li>To have the no-response reporting UI appear in front of the window that is not responding, the application should call the <a href="https://msdn.microsoft.com/en-us/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a> (passing ASFW_ANY for the process identifier) function from the top-level window's process.</li>
+<li>To have the no-response reporting UI appear in front of the window that is not responding, the application should call the <a href="_win32_allowsetforegroundwindow_cpp">AllowSetForegroundWindow</a> (passing ASFW_ANY for the process identifier) function from the top-level window's process.</li>
 </ul>
 
 

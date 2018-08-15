@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -109,7 +110,7 @@ The following are the manifest constants associated with the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544051">ATM_ADDRESS</a>
+<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
 
 
 

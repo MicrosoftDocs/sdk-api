@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,14 +67,14 @@ Number of voices to receive the output of the voice. An <b>OutputCount</b> value
 
 ### -field pSends
 
-Array of <a href="https://msdn.microsoft.com/en-us/library/Ee419244(v=VS.85).aspx">XAUDIO2_SEND_DESCRIPTOR</a> structures describing destination voices and the filters that should be used when sending to the voices. This array should contain <b>SendCount</b> elements. If <b>SendCount</b> is 0 <b>pSends</b> should be NULL. Note that <b>pSends</b> cannot contain the same voice more than once.
+Array of <a href="https://msdn.microsoft.com/c1c84e54-2cc7-4c05-aafd-e016b344d86d">XAUDIO2_SEND_DESCRIPTOR</a> structures describing destination voices and the filters that should be used when sending to the voices. This array should contain <b>SendCount</b> elements. If <b>SendCount</b> is 0 <b>pSends</b> should be NULL. Note that <b>pSends</b> cannot contain the same voice more than once.
 
 
 ## -remarks
 
 
 
-If <b>pSends</b> is not NULL all of its elements must be non-NULL. To send output to the default mastering voice call <a href="https://msdn.microsoft.com/en-us/library/Ee418599(v=VS.85).aspx">IXAudio2Voice::SetOutputVoices</a> with the pSendList argument set to NULL.
+If <b>pSends</b> is not NULL all of its elements must be non-NULL. To send output to the default mastering voice call <a href="https://msdn.microsoft.com/2AAF9A0D-2CDF-4A91-9620-3328494E0162">IXAudio2Voice::SetOutputVoices</a> with the pSendList argument set to NULL.
 
 
 
@@ -103,15 +104,15 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a>
+<a href="https://msdn.microsoft.com/5F37327B-A749-4D2D-A664-7DC45A13FF9A">IXAudio2::CreateSourceVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418608(v=VS.85).aspx">IXAudio2::CreateSubmixVoice</a>
+<a href="https://msdn.microsoft.com/4073041D-19F8-44D7-BCCC-A9E0654B05D8">IXAudio2::CreateSubmixVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418599(v=VS.85).aspx">IXAudio2Voice::SetOutputVoices</a>
+<a href="https://msdn.microsoft.com/2AAF9A0D-2CDF-4A91-9620-3328494E0162">IXAudio2Voice::SetOutputVoices</a>
 
 
 

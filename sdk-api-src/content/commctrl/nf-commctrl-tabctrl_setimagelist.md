@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Assigns an image list to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760629(v=VS.85).aspx">TCM_SETIMAGELIST</a> message explicitly. 
+Assigns an image list to a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/b457c73c-4c38-4bc5-af5d-12bbd24504a6">TCM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters

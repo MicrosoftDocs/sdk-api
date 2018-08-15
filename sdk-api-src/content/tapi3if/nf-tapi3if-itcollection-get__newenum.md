@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,14 +64,14 @@ The
 ### -param ppNewEnum [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on an enumerator object for the collection. 
+<a href="_com_iunknown">IUnknown</a> interface on an enumerator object for the collection. 
 
 
 
 
 Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
+<a href="_com_iunknown_queryinterface">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
 
 For more information, see the following Remarks section.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -89,7 +90,7 @@ This method does not return a value.
 Removing a node from a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group's</a>
 <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection removes the node from the group's 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owners</a> list.
+    <a href="p_gly.htm">preferred owners</a> list.
 
 
 

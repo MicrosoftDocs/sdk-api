@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -115,7 +116,7 @@ The <b>CreateCluster</b> function successfully completes
     seconds.
 
 Before calling the <b>CreateCluster</b> function, 
-    the <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> function must be called specifying 
+    the <a href="_com_coinitializeex">CoInitializeEx</a> function must be called specifying 
     both <b>COINIT_MULTITHREADED</b> and <b>COINIT_DISABLE_OLE1DDE</b> for 
     the <i>dwCoInit</i> parameter, as shown in the following code.
 

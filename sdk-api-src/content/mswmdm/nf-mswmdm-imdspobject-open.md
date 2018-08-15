@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-The <b>Open</b> method opens the associated object and prepares it for <a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> operations. This operation is valid only if the storage object represents a file.
+The <b>Open</b> method opens the associated object and prepares it for <a href="https://msdn.microsoft.com/1acf4112-0cb8-47e4-b8dc-3e820c0ef72f">Read</a> or <a href="https://msdn.microsoft.com/29f16be5-9304-4b09-86e8-3f9e0e591a41">Write</a> operations. This operation is valid only if the storage object represents a file.
 
 
 
@@ -97,7 +98,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
 
 
 

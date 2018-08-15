@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,11 +78,11 @@ Specifies the number of subdivision segments. If the number of segments is less 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174438(v=VS.85).aspx">IDirect3DDevice9::SetNPatchMode</a>
+<a href="https://msdn.microsoft.com/ab5a1cfd-0c37-471c-af27-4ae078b8f7cd">IDirect3DDevice9::SetNPatchMode</a>
  
 
  

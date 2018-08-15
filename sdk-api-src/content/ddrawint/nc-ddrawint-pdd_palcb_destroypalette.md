@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdDestroyPalette</b> callback function destroys the specified palette.
 
 #### - lpDestroyPalette
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550574">DD_DESTROYPALETTEDATA</a> structure that contains the information needed to destroy a palette.
+Points to a <a href="https://msdn.microsoft.com/e309f782-bd0b-4703-b58c-e202fd87b904">DD_DESTROYPALETTEDATA</a> structure that contains the information needed to destroy a palette.
 
 
 ## -returns
@@ -86,7 +87,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55057
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550574">DD_DESTROYPALETTEDATA</a>
+<a href="https://msdn.microsoft.com/e309f782-bd0b-4703-b58c-e202fd87b904">DD_DESTROYPALETTEDATA</a>
  
 
  

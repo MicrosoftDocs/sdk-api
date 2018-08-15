@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -54,7 +55,7 @@ req.product: GDI+ 1.1
 The <b>IExtendContextMenu::Command</b> method is called if one of the items you added to the context menu with 
 <a href="https://msdn.microsoft.com/d4fc7bfd-b017-466e-81f2-74f13aec4b52">IExtendContextMenu::AddMenuItems</a> is subsequently selected. MMC calls 
 Command with the command ID you specified and another pointer to the same 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface.
+<a href="_ole_idataobject">IDataObject</a> interface.
 
 
 ## -parameters
@@ -70,7 +71,7 @@ A value that specifies the command identifier of the menu item.
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object whose context menu was displayed.
+<a href="_ole_idataobject">IDataObject</a> interface on the object whose context menu was displayed.
 
 
 ## -returns
@@ -109,7 +110,7 @@ MMC sends the snap-in the MMCC_STANDARD_VIEW_SELECT command when the user clicks
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

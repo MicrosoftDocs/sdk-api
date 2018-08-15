@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -76,7 +77,7 @@ Contains the ending character position where the object is inserted.
 
 ### -param pDataObject [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that contains data about the object inserted.
+Pointer to an <a href="_ole_idataobject">IDataObject</a> interface that contains data about the object inserted.
 
 
 ### -param pChange [out]
@@ -172,7 +173,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

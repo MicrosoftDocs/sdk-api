@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761572(v=VS.85).aspx">EM_GETCUEBANNER</a> message explicitly. 
+Gets the text that is displayed as a textual cue, or tip, in an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/311b783a-cd78-440f-bfc2-f5108ae7d1f8">EM_GETCUEBANNER</a> message explicitly. 
 
 
 ## -parameters
@@ -83,7 +84,7 @@ A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string reference
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -97,11 +98,11 @@ A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string reference
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761572(v=VS.85).aspx">EM_GETCUEBANNER</a>
+<a href="https://msdn.microsoft.com/311b783a-cd78-440f-bfc2-f5108ae7d1f8">EM_GETCUEBANNER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>
 
 
 

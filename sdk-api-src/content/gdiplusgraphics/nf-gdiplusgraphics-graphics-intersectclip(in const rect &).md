@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 InterscetClip methods of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>. 
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,31 +66,31 @@ InterscetClip methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535943(v=VS.85).aspx">IntersectClip(Rect&)</a>
+<a href="https://msdn.microsoft.com/4b2604c9-ddaf-46ec-91b1-0146b9365fd7">IntersectClip(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535943(v=VS.85).aspx">Graphics::IntersectClip</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object.
+The <a href="https://msdn.microsoft.com/4b2604c9-ddaf-46ec-91b1-0146b9365fd7">Graphics::IntersectClip</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535945(v=VS.85).aspx">IntersectClip(RectF&)</a>
+<a href="https://msdn.microsoft.com/9aa49ff6-adce-4495-9af2-719ad029f751">IntersectClip(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535945(v=VS.85).aspx">Graphics::IntersectClip</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object.
+The <a href="https://msdn.microsoft.com/9aa49ff6-adce-4495-9af2-719ad029f751">Graphics::IntersectClip</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535944(v=VS.85).aspx">IntersectClip(Region*)</a>
+<a href="https://msdn.microsoft.com/4eab3ace-5bc0-442b-a88b-23160eebeee9">IntersectClip(Region*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535944(v=VS.85).aspx">Graphics::IntersectClip</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object.
+The <a href="https://msdn.microsoft.com/4eab3ace-5bc0-442b-a88b-23160eebeee9">Graphics::IntersectClip</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a><b>Graphics</b> object.
 
 </td>
 </tr>

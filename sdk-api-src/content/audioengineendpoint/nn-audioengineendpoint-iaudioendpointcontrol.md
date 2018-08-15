@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -70,7 +71,7 @@ The <b>IAudioEndpointControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/f21a245c-b47b-425d-8054-330e265f16f1">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the endpoint stream.
@@ -79,7 +80,7 @@ Resets the endpoint stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://msdn.microsoft.com/d9b54618-9750-49be-a966-1a2f02c81af6">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the endpoint stream.
@@ -88,7 +89,7 @@ Starts the endpoint stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://msdn.microsoft.com/803aec38-abc8-4f55-bb56-3dcc3eeb924a">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the endpoint stream.

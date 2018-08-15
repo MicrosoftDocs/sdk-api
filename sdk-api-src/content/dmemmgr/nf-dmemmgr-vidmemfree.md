@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dmemmgr.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>VidMemFree</b> function frees <a href="https://msdn.microsoft.com/3f78ce93-03cd-45aa-9861-cdf6d557e6a5">off-screen memory</a> allocated for a display driver by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567267">HeapVidMemAllocAligned</a>.
+The <b>VidMemFree</b> function frees <a href="https://msdn.microsoft.com/3f78ce93-03cd-45aa-9861-cdf6d557e6a5">off-screen memory</a> allocated for a display driver by <a href="https://msdn.microsoft.com/efd004d5-58fc-4721-9a74-d018cb3e5de9">HeapVidMemAllocAligned</a>.
 
 
 ## -parameters
@@ -60,7 +61,7 @@ The <b>VidMemFree</b> function frees <a href="https://msdn.microsoft.com/3f78ce9
 
 ### -param pvmh [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570561">VMEMHEAP</a> structure that represents the DirectDraw heap from which the surface was allocated. The driver obtains this value from the <b>lpHeap</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a> structure originally passed to <b>HeapVidMemAllocAligned</b>.
+Pointer to a <a href="https://msdn.microsoft.com/bcc5eb95-a438-427f-bb16-7489e9485cd5">VMEMHEAP</a> structure that represents the DirectDraw heap from which the surface was allocated. The driver obtains this value from the <b>lpHeap</b> member of the <a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a> structure originally passed to <b>HeapVidMemAllocAligned</b>.
 
 
 ### -param ptr [in]
@@ -82,15 +83,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567267">HeapVidMemAllocAligned</a>
+<a href="https://msdn.microsoft.com/efd004d5-58fc-4721-9a74-d018cb3e5de9">HeapVidMemAllocAligned</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570171">VIDEOMEMORY</a>
+<a href="https://msdn.microsoft.com/a472a9f6-d85e-429b-9b0d-efce576b6330">VIDEOMEMORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570561">VMEMHEAP</a>
+<a href="https://msdn.microsoft.com/bcc5eb95-a438-427f-bb16-7489e9485cd5">VMEMHEAP</a>
  
 
  

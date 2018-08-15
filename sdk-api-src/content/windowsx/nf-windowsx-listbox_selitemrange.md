@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761329(v=VS.85).aspx">LB_SELITEMRANGE</a> message explicitly.
+Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/817d62df-98a3-40b3-8d62-86bf07ad797f">LB_SELITEMRANGE</a> message explicitly.
 
 
 ## -parameters

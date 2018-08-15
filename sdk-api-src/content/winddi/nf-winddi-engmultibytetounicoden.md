@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -101,11 +102,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564980">EngMultiByteToWideChar</a>
+<a href="https://msdn.microsoft.com/7ed4f718-e28d-40d9-a3e0-c6961281a319">EngMultiByteToWideChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565038">EngUnicodeToMultiByteN</a>
+<a href="https://msdn.microsoft.com/5c36322f-7a88-4c24-9f98-aaf3d30f3be4">EngUnicodeToMultiByteN</a>
  
 
  

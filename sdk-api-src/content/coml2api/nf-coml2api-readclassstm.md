@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -91,7 +92,7 @@ This function also returns any of the error values returned by the
 
 Most applications do not call the 
 <b>ReadClassStm</b> function directly. COM calls it before making a call to an object's 
-<a href="https://msdn.microsoft.com/en-us/library/ms680568(v=VS.85).aspx">IPersistStream::Load</a> implementation.
+<a href="_com_ipersiststream_load">IPersistStream::Load</a> implementation.
 
 
 

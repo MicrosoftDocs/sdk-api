@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngUnmapFontFileFD</b> function unmaps the specified font file from syste
 
 ### -param iFile [in]
 
-Pointer to a driver-defined value that identifies the font file to be unmapped. This pointer is obtained from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>.
+Pointer to a driver-defined value that identifies the font file to be unmapped. This pointer is obtained from <a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>.
 
 
 ## -returns
@@ -77,7 +78,7 @@ None
 
 
 
-A font driver calls <b>EngUnmapFontFileFD</b> to unmap a font file that was previously mapped by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564973">EngMapFontFileFD</a>.
+A font driver calls <b>EngUnmapFontFileFD</b> to unmap a font file that was previously mapped by <a href="https://msdn.microsoft.com/582570b0-981f-4852-974f-cb6575c68717">EngMapFontFileFD</a>.
 
 
 
@@ -87,11 +88,11 @@ A font driver calls <b>EngUnmapFontFileFD</b> to unmap a font file that was prev
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>
+<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564973">EngMapFontFileFD</a>
+<a href="https://msdn.microsoft.com/582570b0-981f-4852-974f-cb6575c68717">EngMapFontFileFD</a>
  
 
  

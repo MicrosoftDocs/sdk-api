@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: ADAM
 
 
 The <i>HyphenateProc</i> function is an application–defined
-		callback function used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a> message. It determines how hyphenation is done in a Microsoft Rich Edit control.
+		callback function used with the <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> message. It determines how hyphenation is done in a Microsoft Rich Edit control.
 
 
 ## -parameters
@@ -83,9 +84,9 @@ Index of the character in the passed string that exceeds the line width.
 
 ### -param phyphresult [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787932(v=VS.85).aspx">HYPHRESULT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787932(v=VS.85).aspx">HYPHRESULT</a> structure that <i>HyphenateProc</i> fills in with the result of the hyphenation. 
+Pointer to a <a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a> structure that <i>HyphenateProc</i> fills in with the result of the hyphenation. 
 
 
 ## -returns
@@ -103,7 +104,7 @@ There is no return value.
 
 <i>HyphenateProc</i> is a placeholder for the application-defined function name.
 
-An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a> message. 
+An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> message. 
 
 
 
@@ -113,15 +114,15 @@ An application must install the callback function by specifying the address of t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774242(v=VS.85).aspx">EM_SETHYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787930(v=VS.85).aspx">HYPHENATEINFO</a>
+<a href="https://msdn.microsoft.com/2463189e-98cf-4545-a435-474df74e1a22">HYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787932(v=VS.85).aspx">HYPHRESULT</a>
+<a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/en-us/library/Bb773224(v=VS.85).aspx">BP_ANIMATIONPARAMS</a> structure to declare animation options.
+Used in the <a href="https://msdn.microsoft.com/9693b45e-c58c-404d-bcbf-6ea02092b0bb">BP_ANIMATIONPARAMS</a> structure to declare animation options.
 
 
 ## -enum-fields

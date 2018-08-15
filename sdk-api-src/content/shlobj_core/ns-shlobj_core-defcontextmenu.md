@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ Contains context menu information used by <a href="https://msdn.microsoft.com/05
 
 Type: <b>HWND</b>
 
-A handle to the context menu. Set this member to the handle returned from <a href="https://msdn.microsoft.com/en-us/library/ms647624(v=VS.85).aspx">CreateMenu</a>.
+A handle to the context menu. Set this member to the handle returned from <a href="https://msdn.microsoft.com/dd7e59f6-7d31-46d3-9606-0f9346ff2979">CreateMenu</a>.
 
 
 ### -field pcmcb

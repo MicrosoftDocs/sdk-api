@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>IAzApplicationGroups</b> interface represents a collection of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +76,7 @@ The <b>IAzApplicationGroups</b> interface has these methods.
 <a href="https://msdn.microsoft.com/412fe347-63cb-4f87-98e1-2d8665f39a6a">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/412fe347-63cb-4f87-98e1-2d8665f39a6a">_NewEnum</a> property.
 
 </td>
 </tr>
@@ -84,7 +85,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/h
 <a href="https://msdn.microsoft.com/d57e4428-3666-4eb0-8157-8b35acfc517b">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/d57e4428-3666-4eb0-8157-8b35acfc517b">Count</a> property.
 
 </td>
 </tr>
@@ -93,7 +94,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/h
 <a href="https://msdn.microsoft.com/9b895379-9b2f-45f5-997e-b589f08d7d6e">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/9b895379-9b2f-45f5-997e-b589f08d7d6e">Item</a> property.
 
 </td>
 </tr>
@@ -108,7 +109,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/library/windows/h
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/412fe347-63cb-4f87-98e1-2d8665f39a6a">_NewEnum</a>
 
 
 </td>
@@ -117,14 +118,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/d57e4428-3666-4eb0-8157-8b35acfc517b">Count</a>
 
 
 </td>
@@ -140,7 +141,7 @@ Retrieves the number of <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/9b895379-9b2f-45f5-997e-b589f08d7d6e">Item</a>
 
 
 </td>

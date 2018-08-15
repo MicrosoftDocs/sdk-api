@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773732(v=VS.85).aspx">TVM_HITTEST</a> message. The structure is identical to the 
+Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/18ea3737-f429-4c10-9133-3b5729aa36fa">TVM_HITTEST</a> message. The structure is identical to the 
 			<b>TV_HITTESTINFO</b> structure, but it has been renamed to follow current naming conventions. 
 
 
@@ -61,7 +62,7 @@ Contains information used to determine the location of a point relative to a tre
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 Client coordinates of the point to test. 
 

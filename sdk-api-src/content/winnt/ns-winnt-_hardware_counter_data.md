@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -61,7 +62,7 @@ Contains the hardware counter value.
 
 ### -field Type
 
-The type of hardware counter data collected. For possible values, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546991">HARDWARE_COUNTER_TYPE</a> enumeration.
+The type of hardware counter data collected. For possible values, see the <a href="https://msdn.microsoft.com/250dd9f1-b409-4b17-bb84-bf7eba14d36e">HARDWARE_COUNTER_TYPE</a> enumeration.
 
 
 ### -field Reserved

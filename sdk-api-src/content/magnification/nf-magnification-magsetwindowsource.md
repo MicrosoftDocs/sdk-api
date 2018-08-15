@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -68,7 +69,7 @@ The magnification window.
 
 ### -param rect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The rectangle to be magnified, in desktop coordinates.
 
@@ -89,7 +90,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692390(v=VS.85).aspx">MagGetWindowSource</a>
+<a href="https://msdn.microsoft.com/eff56c0a-ef87-41e0-a94a-79f1ac3ab270">MagGetWindowSource</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -75,9 +76,9 @@ The magnification window.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9452fe5d-d8e9-4953-b55b-7bf792cabe16">MagImageScalingCallback</a></b>
 
-Returns the registered <a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
+Returns the registered <a href="https://msdn.microsoft.com/9452fe5d-d8e9-4953-b55b-7bf792cabe16">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
 
 
 
@@ -88,7 +89,7 @@ Returns the registered <a href="https://msdn.microsoft.com/en-us/library/ms69239
 
 This function returns <b>NULL</b> if Windows Display Driver Model (WDDM) is not supported.
 
-This function works only when <a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager</a> (DWM) is off.
+This function works only when <a href="https://msdn.microsoft.com/fb1e0f1e-a6db-4961-bfa5-9c2218f8c950">Desktop Window Manager</a> (DWM) is off.
 
 
 
@@ -98,11 +99,11 @@ This function works only when <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/9452fe5d-d8e9-4953-b55b-7bf792cabe16">MagImageScalingCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692395(v=VS.85).aspx">MagSetImageScalingCallback</a>
+<a href="https://msdn.microsoft.com/6985f35d-89bf-46b1-b063-fd93492b66d5">MagSetImageScalingCallback</a>
  
 
  

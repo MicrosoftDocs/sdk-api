@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, the display name for a principal is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh965535">DisplayName</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the display name for a principal is specified in the <a href="https://msdn.microsoft.com/a8640cc9-fc16-4e73-9f0c-1ebff338fb84">DisplayName</a> element of the Task Scheduler schema.
 
 When setting this property value, the value can be text that is retrieved from a resource .dll file. A specialized string is used to reference the text from the resource file.  The format of the string is $(@ [Dll], [ResourceID]) where [Dll] is the path to the .dll file that contains the resource and [ResourceID] is the identifier for the resource text. For example, the setting this property value to $(@ %SystemRoot%\System32\ResourceName.dll, -101) will set the property to the value of the resource text  with an identifier equal to -101 in the  %SystemRoot%\System32\ResourceName.dll file.
 

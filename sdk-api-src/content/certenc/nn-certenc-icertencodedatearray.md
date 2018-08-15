@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -64,7 +65,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeDateArray</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeDateArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeDateArray</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeDateArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +98,7 @@ Performs ASN.1 encoding on a <b>Date</b> array stored in the COM object and retu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/25c61f42-b190-44c3-b2ba-57861bdfbce3">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of <b>Date</b> values in a <b>Date</b> array.
@@ -106,7 +107,7 @@ Returns the number of <b>Date</b> values in a <b>Date</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/db108b2a-c3ee-4ef8-be5c-74dc739dacee">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>Date</b> value at a specified index of a <b>Date</b> array.
@@ -115,7 +116,7 @@ Returns the <b>Date</b> value at a specified index of a <b>Date</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a <b>Date</b> array to a specified number of elements and clears the values.
@@ -124,7 +125,7 @@ Resets a <b>Date</b> array to a specified number of elements and clears the valu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/e05a7aa1-81ad-4564-a6a5-65b8ac816598">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>Date</b> value at a specified index of a <b>Date</b> array.

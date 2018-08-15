@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: Objbase.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -73,7 +74,7 @@ If set, the call to <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-
 
 ### -field COWAIT_INPUTAVAILABLE
 
-If set, the call to <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-167a71b52860">CoWaitForMultipleHandles</a> will return S_OK  if input exists for the queue, even if the input has been seen (but not removed) using a call to another function, such as <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>.
+If set, the call to <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-167a71b52860">CoWaitForMultipleHandles</a> will return S_OK  if input exists for the queue, even if the input has been seen (but not removed) using a call to another function, such as <a href="_win32_PeekMessage_cpp">PeekMessage</a>.
 
 
 ### -field COWAIT_DISPATCH_CALLS

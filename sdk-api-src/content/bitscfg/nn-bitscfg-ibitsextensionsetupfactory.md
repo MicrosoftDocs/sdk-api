@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bitscfg.h
 req.include-header: 
+req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -59,7 +60,7 @@ Use the
 
 To get a pointer to the 
 <b>IBITSExtensionSetupFactory</b> interface, call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function as shown in Example Code.
+<a href="_com_cocreateinstance">CoCreateInstance</a> function as shown in Example Code.
 
 
 ## -inheritance

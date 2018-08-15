@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -98,11 +99,11 @@ The <b>SetDoubleClickTime</b> function alters the double-click time for all wind
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646258(v=VS.85).aspx">GetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/8917bc74-d925-4f67-af5c-ab8fe6ad9607">GetDoubleClickTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

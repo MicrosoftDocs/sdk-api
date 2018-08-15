@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ Deprecated. Adds a new entry for a pending navigation to the travel log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/546581f1-648d-4817-b3d2-aca219b74911">Clone</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Duplicates the contents of the current travel log.

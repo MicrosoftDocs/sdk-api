@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -88,11 +89,6 @@ The version of the TBS context implementation. This must be set to 	TPM_VERSION_
 Used to access all of the  bits in one variable.
 
 
-#### - requestRaw:1
-
-Set to 1 to request raw content.
-
-
 #### - includeTpm12:1
 
 Set to 1 if the TBS commands are to work on TPM 1.2.
@@ -101,4 +97,9 @@ Set to 1 if the TBS commands are to work on TPM 1.2.
 #### - includeTpm20:1
 
 Set to 1 if the TBS commands are to work on TPM 2.0.
+
+
+#### - requestRaw:1
+
+Set to 1 to request raw content.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -85,7 +86,7 @@ Keywords include Boolean operators such as AND, NOT, and OR.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd797951(v=VS.85).aspx">STRUCTURED_QUERY_RESOLVE_OPTION</a>
+<a href="https://msdn.microsoft.com/84a052ae-4d05-438f-ab90-e1a248239aca">STRUCTURED_QUERY_RESOLVE_OPTION</a>
  
 
  

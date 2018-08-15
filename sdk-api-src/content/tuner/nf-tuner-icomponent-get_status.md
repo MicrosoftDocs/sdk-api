@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -71,7 +72,7 @@ The <b>get_Status</b> method retrieves the requested or actual status of the com
 
 #### - pStatus [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557723">ComponentStatus</a> enumeration that receives the status value.
+Pointer to a <a href="https://msdn.microsoft.com/687ae778-0c25-47ca-bec9-9e6c28f22249">ComponentStatus</a> enumeration that receives the status value.
 
 
 ## -returns

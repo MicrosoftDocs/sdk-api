@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode, userbit,
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568528">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns
@@ -88,7 +89,7 @@ The timecode contains undefined bits, called <i>userbits</i>. Applications can u
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
 The <a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MSDV</a> driver supports reading SMPTE timecode or absolute track numbers (ATN). The <a href="https://msdn.microsoft.com/aa59f322-09b1-4b0a-be6f-d865c20f76e5">MSTape</a> driver supports reading the relative time counter (RTC). To read time information on these devices, do the following:
 
-Set the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568528">TIMECODE_SAMPLE</a> structure to one of the following values.
+Set the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be">TIMECODE_SAMPLE</a> structure to one of the following values.
 
 <table>
 <tr>
@@ -110,7 +111,7 @@ Set the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/library
 </table>
  
 
-The <b>timecode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568528">TIMECODE_SAMPLE</a> structure is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568520">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
+The <b>timecode</b> member of the <a href="https://msdn.microsoft.com/7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be">TIMECODE_SAMPLE</a> structure is a <a href="https://msdn.microsoft.com/e3d06e0c-a595-4bc3-be62-168bd5122397">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
 
 All other structure members are ignored.
 

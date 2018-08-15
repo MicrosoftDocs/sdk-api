@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -181,7 +182,7 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 
 
 
-Because the link provides access to the original certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>, setting an extended property in the linked <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> changes that extended property in the certificate's original location and in any other links to that certificate.
+Because the link provides access to the original certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>, setting an extended property in the linked <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> changes that extended property in the certificate's original location and in any other links to that certificate.
 
 Links cannot be added to a store opened as a collection. Stores opened as collections include all stores opened with 
 <a href="https://msdn.microsoft.com/23699439-1a6c-4907-93fa-651024856be7">CertOpenSystemStore</a> or 
@@ -235,7 +236,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -164,7 +165,7 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -172,11 +173,11 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787834(v=VS.85).aspx">SetWidowControl</a>
+<a href="https://msdn.microsoft.com/87bc1ef8-2422-4a4a-af15-f28aace74f34">SetWidowControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ Gets the value from the current item as
 
 ### -param Data [out]
 
-An array of BYTE pointers, allocated with <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>, of length DataSize.
+An array of BYTE pointers, allocated with <a href="_com_CoTaskMemAlloc">CoTaskMemAlloc</a>, of length DataSize.
 
 
 ### -param DataSize [out]

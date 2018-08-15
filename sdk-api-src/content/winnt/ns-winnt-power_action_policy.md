@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -62,7 +63,7 @@ Contains information used to set the system power state.
 ### -field Action
 
 The requested system power state. This member must be one of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa373145(v=VS.85).aspx">POWER_ACTION</a> enumeration type values.
+      <a href="https://msdn.microsoft.com/815e1f2d-0fc9-446c-ae83-5d5cfea57ab7">POWER_ACTION</a> enumeration type values.
 
 
 ### -field Flags

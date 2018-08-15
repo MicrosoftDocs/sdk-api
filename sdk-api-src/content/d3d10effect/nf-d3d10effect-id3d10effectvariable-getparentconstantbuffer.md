@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,9 +65,9 @@ Get a constant buffer.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer Interface</a>.
 
 
 
@@ -85,7 +86,7 @@ Effect variables are read-from or written-to a constant buffer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

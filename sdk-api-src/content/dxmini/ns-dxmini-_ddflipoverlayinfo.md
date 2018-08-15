@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The DDFLIPOVERLAYINFO structure contains the flip information for the surface.
 
 ### -field lpCurrentSurface
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a> structure that contains information about the current surface. 
+Points to a <a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a> structure that contains information about the current surface. 
 
 
 ### -field lpTargetSurface
@@ -107,7 +108,7 @@ The target surface contains the odd field of video data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550335">DDSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/4057cfcf-675e-439f-8b51-23adede1d35a">DDSURFACEDATA</a>
 
 
 

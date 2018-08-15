@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -131,7 +132,7 @@ Returns the transport stream identifier (TSID) for a record in the RST.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/8efbb9c0-8b21-476c-88ad-1c8a5408b32f">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: bthledef.h
 req.include-header: 
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -65,13 +66,13 @@ The type of GATT event.
 
 ### -param EventOutParameter [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188598">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/EC6E5B85-495E-401B-ADE5-D51891A4BDFE">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
 
 
 ### -param Context [in, optional]
 
 The context specified by the profile driver in the <i>CallbackContext</i> parameter of 
-      the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450804">BluetoothGATTRegisterEvent</a> function 
+      the <a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a> function 
       when the profile driver registered the GATT callback function.
 
 
@@ -89,15 +90,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188598">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
+<a href="https://msdn.microsoft.com/EC6E5B85-495E-401B-ADE5-D51891A4BDFE">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450849">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/6AF30DEA-2018-4AA2-B13A-BD31BD641F9F">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450804">BluetoothGATTRegisterEvent</a>
+<a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>
  
 
  

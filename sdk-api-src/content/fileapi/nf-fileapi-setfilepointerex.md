@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -163,7 +164,7 @@ Use caution when setting the file pointer in a multithreaded application. You mu
     from the file must protect this sequence by using a critical section object or a mutex object. For more 
     information about these objects, see 
     <a href="https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1">Critical Section Objects</a> 
-    and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>.
+    and <a href="https://msdn.microsoft.com/eca0795a-1fd0-4034-9d61-9416670919cf">Mutex Objects</a>.
 
 If the <i>hFile</i> handle was opened with the 
     <b>FILE_FLAG_NO_BUFFERING</b> flag set, an application can move the file pointer only to 

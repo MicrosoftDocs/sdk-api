@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -91,7 +92,7 @@ Method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">Abort</a> was called before <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> was called. You must call <b>Write</b> before terminating the attachment stream.
+<a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">Abort</a> was called before <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> was called. You must call <b>Write</b> before terminating the attachment stream.
 
 </td>
 </tr>
@@ -105,10 +106,10 @@ Method completed successfully.
 
 
 
-The <b>Abort</b> method may be called when a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a> method call failed with the error <b>STG_S_BLOCK</b>.
+The <b>Abort</b> method may be called when a <a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a> or <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> method call failed with the error <b>STG_S_BLOCK</b>.
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> must not be called once <b>Abort</b> has been called on an attachment stream.
+<a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a> must not be called once <b>Abort</b> has been called on an attachment stream.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -69,7 +70,7 @@ Type: <b>void*</b>
 
 Type: <b>void*</b>
 
-The value that was passed in the <i>pData</i> parameter to function <a href="https://msdn.microsoft.com/en-us/library/Bb775657(v=VS.85).aspx">DSA_EnumCallback</a>.
+The value that was passed in the <i>pData</i> parameter to function <a href="https://msdn.microsoft.com/31abb9f9-52b5-45d3-81e3-f9ccb5977597">DSA_EnumCallback</a>.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -73,7 +74,7 @@ The <b>IMFAsyncCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="https://msdn.microsoft.com/374dd139-d3e7-45d0-a7d3-1187b928ef57">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Provides configuration information to the dispatching thread for a callback

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ If there is a min-icon for the specified device setup class, <b>SetupDiGetClassB
 
 
 
-For a list of the device setup class mini-icons and their corresponding indexes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551005">SetupDiDrawMiniIcon</a>.
+For a list of the device setup class mini-icons and their corresponding indexes, see <a href="https://msdn.microsoft.com/99670376-a338-4001-bede-a4fea57b73a7">SetupDiDrawMiniIcon</a>.
 
 
 
@@ -92,11 +93,11 @@ For a list of the device setup class mini-icons and their corresponding indexes,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551005">SetupDiDrawMiniIcon</a>
+<a href="https://msdn.microsoft.com/99670376-a338-4001-bede-a4fea57b73a7">SetupDiDrawMiniIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552053">SetupDiLoadClassIcon</a>
+<a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -52,7 +53,7 @@ req.irql:
 
 
 Enumerates the possible states of a 
-   <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>.
+   <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 
 ## -enum-fields
@@ -67,12 +68,12 @@ The state of the group is unknown.
 
 ### -field ClusterGroupOnline
 
-All of the resources in the group are <a href="https://msdn.microsoft.com/library/windows/hardware/dn997353">online</a>.
+All of the resources in the group are <a href="o_gly.htm">online</a>.
 
 
 ### -field ClusterGroupOffline
 
-All of the resources in the group are <a href="https://msdn.microsoft.com/library/windows/hardware/dn997350">offline</a> or 
+All of the resources in the group are <a href="o_gly.htm">offline</a> or 
       there are no resources in the group.
 
 
@@ -84,8 +85,8 @@ At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9b
 ### -field ClusterGroupPartialOnline
 
 At least one resource in the group is online. No resources are 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">pending</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
+      <a href="p_gly.htm">pending</a> or 
+      <a href="f_gly.htm">failed</a>.
 
 
 ### -field ClusterGroupPending

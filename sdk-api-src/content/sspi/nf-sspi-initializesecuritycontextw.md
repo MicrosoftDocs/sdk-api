@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -66,7 +67,7 @@ Typically, the <b>InitializeSecurityContext (CredSSP)</b> function is called in 
 
 ### -param phCredential [in, optional]
 
-A handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a> returned by 
+A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> returned by 
 <a href="https://msdn.microsoft.com/3b73decf-75d4-4bc4-b7ca-5f16aaadff29">AcquireCredentialsHandle (CredSSP)</a>. This handle is used to build the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The <b>InitializeSecurityContext (CredSSP)</b> function requires at least OUTBOUND credentials.
 
 
@@ -257,7 +258,7 @@ If the <b>ISC_REQ_ALLOCATE_MEMORY</b> flag is specified, CredSSP will allocate m
 
 ### -param pfContextAttr [out]
 
-A pointer to a set of bit flags that indicate the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> of the established <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>. For a description of the various attributes, see 
+A pointer to a set of bit flags that indicate the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> of the established <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>. For a description of the various attributes, see 
 <a href="https://msdn.microsoft.com/4a44b829-4202-46c0-b17e-04943fa067ab">Context Requirements</a>.
 
 Flags used for this parameter are prefixed with ISC_RET, such as <b>ISC_RET_DELEGATE</b>. 
@@ -592,7 +593,7 @@ After  receiving an authentication certificate from a certification authority th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -66,67 +67,67 @@ The <a href="https://msdn.microsoft.com/cdb8af74-540d-4059-ac64-6243f6aabaa6">Se
 ### -field TokenUser
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a> structure that contains the user account of the token.
+<a href="https://msdn.microsoft.com/5dd8172d-7b1a-4cc0-b667-5fe91d278393">TOKEN_USER</a> structure that contains the user account of the token.
 
 
 ### -field TokenGroups
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that contains the group accounts associated with the token.
+<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that contains the group accounts associated with the token.
 
 
 ### -field TokenPrivileges
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a> structure that contains the privileges of the token.
+<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a> structure that contains the privileges of the token.
 
 
 ### -field TokenOwner
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556842">TOKEN_OWNER</a> structure that contains the default owner <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for newly created objects.
+<a href="https://msdn.microsoft.com/85617d56-ad46-40a3-a335-121f3c8edcc3">TOKEN_OWNER</a> structure that contains the default owner <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for newly created objects.
 
 
 ### -field TokenPrimaryGroup
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556845">TOKEN_PRIMARY_GROUP</a> structure that contains the default primary group SID for newly created objects.
+<a href="https://msdn.microsoft.com/d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0">TOKEN_PRIMARY_GROUP</a> structure that contains the default primary group SID for newly created objects.
 
 
 ### -field TokenDefaultDacl
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556831">TOKEN_DEFAULT_DACL</a> structure that contains the default DACL for newly created objects.
+<a href="https://msdn.microsoft.com/29fb738f-1ecd-4b72-9aea-64698cd74c12">TOKEN_DEFAULT_DACL</a> structure that contains the default DACL for newly created objects.
 
 
 ### -field TokenSource
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556848">TOKEN_SOURCE</a> structure that contains the source of the token. <b>TOKEN_QUERY_SOURCE</b> access is needed to retrieve this information.
+<a href="https://msdn.microsoft.com/9c533327-e4a0-4852-828c-622d190b7d1e">TOKEN_SOURCE</a> structure that contains the source of the token. <b>TOKEN_QUERY_SOURCE</b> access is needed to retrieve this information.
 
 
 ### -field TokenType
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a> value that indicates whether the token is a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary</a> or <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>.
+<a href="https://msdn.microsoft.com/51b6717e-3fda-4af4-8995-4ac571eae2fd">TOKEN_TYPE</a> value that indicates whether the token is a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary</a> or <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>.
 
 
 ### -field TokenImpersonationLevel
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> value that indicates the impersonation level of the token. If the access token is not an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>, the function fails.
+<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> value that indicates the impersonation level of the token. If the access token is not an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>, the function fails.
 
 
 ### -field TokenStatistics
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556849">TOKEN_STATISTICS</a> structure that contains various token statistics.
+<a href="https://msdn.microsoft.com/7fcc4a46-1bac-49c1-a239-b466d3bf31d9">TOKEN_STATISTICS</a> structure that contains various token statistics.
 
 
 ### -field TokenRestrictedSids
 
 The buffer receives a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that contains the list of restricting SIDs in a 
+<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that contains the list of restricting SIDs in a 
 <a href="https://msdn.microsoft.com/06580ab9-ff58-4aa9-bf88-9536a2e1981d">restricted token</a>.
 
 
@@ -145,7 +146,7 @@ If <b>TokenSessionId</b> is set with <a href="https://msdn.microsoft.com/cdb8af7
 
 ### -field TokenGroupsAndPrivileges
 
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556836">TOKEN_GROUPS_AND_PRIVILEGES</a> structure that contains the user SID, the group accounts, the restricted SIDs, and the authentication ID associated with the token.
+The buffer receives a <a href="https://msdn.microsoft.com/085ccd0a-d6c2-48ca-ad2a-933f22831b14">TOKEN_GROUPS_AND_PRIVILEGES</a> structure that contains the user SID, the group accounts, the restricted SIDs, and the authentication ID associated with the token.
 
 
 ### -field TokenSessionReference
@@ -165,9 +166,9 @@ Reserved.
 
 ### -field TokenOrigin
 
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556839">TOKEN_ORIGIN</a> value. 
+The buffer receives a <a href="https://msdn.microsoft.com/b613f76a-7ad1-4066-90a1-244974f10219">TOKEN_ORIGIN</a> value. 
 
-If the token  resulted from a logon that used explicit credentials, such as passing a name, domain, and password to the  <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function, then the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556839">TOKEN_ORIGIN</a> structure will contain the ID of the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a> that created it.
+If the token  resulted from a logon that used explicit credentials, such as passing a name, domain, and password to the  <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function, then the <a href="https://msdn.microsoft.com/b613f76a-7ad1-4066-90a1-244974f10219">TOKEN_ORIGIN</a> structure will contain the ID of the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a> that created it.
 
 If the token resulted from  network authentication, such as a call to <a href="security.acceptsecuritycontext">AcceptSecurityContext</a>  or a call to <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> with <i>dwLogonType</i> set to <b>LOGON32_LOGON_NETWORK</b> or <b>LOGON32_LOGON_NETWORK_CLEARTEXT</b>, then this value will be zero.
 
@@ -199,12 +200,12 @@ The buffer receives a <a href="https://msdn.microsoft.com/cb727b91-c88f-48f3-832
 
 ### -field TokenVirtualizationAllowed
 
-The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://msdn.microsoft.com/library/windows/hardware/dn614617">virtualization</a> is allowed for the token.
+The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://msdn.microsoft.com/412796ce-2ad5-429b-a2a6-8d286b19ae30">virtualization</a> is allowed for the token.
 
 
 ### -field TokenVirtualizationEnabled
 
-The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://msdn.microsoft.com/library/windows/hardware/dn614617">virtualization</a> is enabled for the token.
+The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://msdn.microsoft.com/412796ce-2ad5-429b-a2a6-8d286b19ae30">virtualization</a> is enabled for the token.
 
 
 ### -field TokenIntegrityLevel
@@ -224,7 +225,7 @@ The buffer receives a <a href="https://msdn.microsoft.com/f5fc438b-c4f0-46f6-a18
 
 ### -field TokenLogonSid
 
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that specifies the token's logon SID.
+The buffer receives a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that specifies the token's logon SID.
 
 
 ### -field TokenIsAppContainer
@@ -234,7 +235,7 @@ The buffer receives a <b>DWORD</b> value that is nonzero if the token is an app 
 
 ### -field TokenCapabilities
 
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that contains the capabilities associated with the token.
+The buffer receives a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that contains the capabilities associated with the token.
 
 
 ### -field TokenAppContainerSid
@@ -269,12 +270,12 @@ This value is reserved.
 
 ### -field TokenDeviceGroups
 
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that contains the device groups that are associated with the token.
+The buffer receives a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that contains the device groups that are associated with the token.
 
 
 ### -field TokenRestrictedDeviceGroups
 
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure that contains the restricted device groups that are associated with the token.
+The buffer receives a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that contains the restricted device groups that are associated with the token.
 
 
 ### -field TokenSecurityAttributes
@@ -327,7 +328,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
@@ -335,11 +336,11 @@ The maximum value for this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556827">TOKEN_CONTROL</a>
+<a href="https://msdn.microsoft.com/b87c942b-8e58-471d-8cdf-e46cdac647c4">TOKEN_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556831">TOKEN_DEFAULT_DACL</a>
+<a href="https://msdn.microsoft.com/29fb738f-1ecd-4b72-9aea-64698cd74c12">TOKEN_DEFAULT_DACL</a>
 
 
 
@@ -347,43 +348,43 @@ The maximum value for this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a>
+<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556836">TOKEN_GROUPS_AND_PRIVILEGES</a>
+<a href="https://msdn.microsoft.com/085ccd0a-d6c2-48ca-ad2a-933f22831b14">TOKEN_GROUPS_AND_PRIVILEGES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556839">TOKEN_ORIGIN</a>
+<a href="https://msdn.microsoft.com/b613f76a-7ad1-4066-90a1-244974f10219">TOKEN_ORIGIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556842">TOKEN_OWNER</a>
+<a href="https://msdn.microsoft.com/85617d56-ad46-40a3-a335-121f3c8edcc3">TOKEN_OWNER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556845">TOKEN_PRIMARY_GROUP</a>
+<a href="https://msdn.microsoft.com/d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0">TOKEN_PRIMARY_GROUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a>
+<a href="https://msdn.microsoft.com/c9016511-740f-44f3-92ed-17cc518c6612">TOKEN_PRIVILEGES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556848">TOKEN_SOURCE</a>
+<a href="https://msdn.microsoft.com/9c533327-e4a0-4852-828c-622d190b7d1e">TOKEN_SOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556849">TOKEN_STATISTICS</a>
+<a href="https://msdn.microsoft.com/7fcc4a46-1bac-49c1-a239-b466d3bf31d9">TOKEN_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a>
+<a href="https://msdn.microsoft.com/51b6717e-3fda-4af4-8995-4ac571eae2fd">TOKEN_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a>
+<a href="https://msdn.microsoft.com/5dd8172d-7b1a-4cc0-b667-5fe91d278393">TOKEN_USER</a>
 
 
 

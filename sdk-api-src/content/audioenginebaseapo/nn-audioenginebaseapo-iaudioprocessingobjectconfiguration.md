@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,13 +57,13 @@ The <code>IAudioProcessingObjectConfiguration</code> interface supports the foll
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536503">IAudioProcessingObjectConfiguration::LockForProcess</a>
+<a href="https://msdn.microsoft.com/e76c9fc5-15ed-497e-a7da-42b8e3642903">IAudioProcessingObjectConfiguration::LockForProcess</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536504">IAudioProcessingObjectConfiguration::UnlockForProcess</a>
+<a href="https://msdn.microsoft.com/54221040-71b8-4b31-81df-46435f7b2b80">IAudioProcessingObjectConfiguration::UnlockForProcess</a>
 
 
 </dd>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -81,7 +82,7 @@ Creates a channel to communicate with the Direct3D device or the graphics driver
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
+<a href="https://msdn.microsoft.com/1c0e3aa4-94d5-4398-a6c0-5466a437162d">CreateCryptoSession</a>
 </td>
 <td align="left" width="63%">
 Creates a cryptographic session to encrypt video content that is sent to the display driver.
@@ -90,7 +91,7 @@ Creates a cryptographic session to encrypt video content that is sent to the dis
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a>
+<a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">GetContentProtectionCaps</a>
 </td>
 <td align="left" width="63%">
 Queries the display driver for its content protection capabilities.

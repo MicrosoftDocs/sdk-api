@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ Retrieves the default recognizer for a known language, specified by a national l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/65c169f0-fe61-4609-809c-52c53cfcba7f">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object at the specified index within the <a href="https://msdn.microsoft.com/b916e53f-9acd-40dc-961b-ebbecb15bd21">InkRecognizers</a> collection.
@@ -99,7 +100,7 @@ Retrieves the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/4217f70e-9995-4a6d-ad13-21d3db2aca60">Count</a>
 
 
 </td>

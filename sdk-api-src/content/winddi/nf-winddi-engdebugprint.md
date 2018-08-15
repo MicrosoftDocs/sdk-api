@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -128,7 +129,7 @@ MyDebugPrint("Bank: %lx; Width: %ld", bank, width);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564773">EngDebugBreak</a>
+<a href="https://msdn.microsoft.com/068529cc-f614-426b-9593-bd153f5d5541">EngDebugBreak</a>
  
 
  

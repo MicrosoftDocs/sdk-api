@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ A handle to the <a href="devinst.device_information_sets">device information set
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
 
 
 ### -param Flags [in]
@@ -163,9 +164,9 @@ The application must perform required operations, other than calling <b>DiShowUp
 
 </li>
 </ul>
-To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544721">DiRollbackDriver</a>.
+To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="https://msdn.microsoft.com/12296991-cbf9-421e-a16e-ca8a22fc29a1">DiRollbackDriver</a>.
 
-To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544717">DiInstallDriver</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553534">UpdateDriverForPlugAndPlayDevices</a>. 
+To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a> or <a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>. 
 
 
 
@@ -175,15 +176,15 @@ To install a new driver for a device instead of invoking the Hardware Update wiz
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544717">DiInstallDriver</a>
+<a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544721">DiRollbackDriver</a>
+<a href="https://msdn.microsoft.com/12296991-cbf9-421e-a16e-ca8a22fc29a1">DiRollbackDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553534">UpdateDriverForPlugAndPlayDevices</a>
+<a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -101,19 +102,19 @@ The <b>LoadSettingsFromStream </b> method is useful for persisting ribbon state,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a>
+<a href="https://msdn.microsoft.com/6a43f17b-dbf6-4c5b-818f-c0dde896de99">IUIRibbon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371362(v=VS.85).aspx">IUIRibbon::SaveSettingsToStream</a>
+<a href="https://msdn.microsoft.com/b5cd7cfd-95b7-49a1-8931-8befef7d4298">IUIRibbon::SaveSettingsToStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee264330(v=VS.85).aspx">Persisting Ribbon State</a>
+<a href="https://msdn.microsoft.com/f59e36be-8e3d-454a-b93c-9fc5fc5ecb47">Persisting Ribbon State</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

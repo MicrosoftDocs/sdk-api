@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -171,7 +172,7 @@ Changes the name of an item, returning the <a href="https://msdn.microsoft.com/5
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/c42497cc-5a19-41da-9356-1086796032a7">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Sets properties that should be applied to an item.

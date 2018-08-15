@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -57,7 +58,7 @@ A document object that supports multiple views of its data represents each view 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentView</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleDocumentView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentView</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleDocumentView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +82,7 @@ Initializes a view with view state previously saved in call to <a href="https://
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/d8acc469-26f6-4f1b-94a5-4839aa235a1d">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate view object.
@@ -126,7 +127,7 @@ Retrieves the rectangular coordinates of the viewport in which the view is or wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/46f801ae-ae03-4567-9442-cf3fbb6d06d7">Open</a>
 </td>
 <td align="left" width="63%">
 Displays a document view in a separate pop-up window.

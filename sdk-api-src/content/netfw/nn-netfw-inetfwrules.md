@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -56,7 +57,7 @@ The <b>INetFwRules</b> interface provides a collection of firewall rules.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRules</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwRules</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRules</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwRules</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +73,7 @@ The <b>INetFwRules</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/c81bdf56-df71-425a-93d2-1fbae5ab536e">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new rule to the collection.
@@ -99,7 +100,7 @@ Returns the number of rules in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/91c5a93b-7408-4870-a2c0-167648d849cd">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a rule from the collection.
@@ -108,7 +109,7 @@ Retrieves a rule from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a specified rule from the collection.
@@ -125,7 +126,7 @@ Removes a specified rule from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/c3d91864-c494-449e-ae6e-819e77ddfaaa">_NewEnum</a>
 
 
 </td>
@@ -137,7 +138,7 @@ Gives access to a new enumerator for the rules.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/0a5b1103-3280-4a0c-93a7-e5d805d5bf5e">Count</a>
 
 
 </td>
@@ -154,11 +155,11 @@ Access to the number of rules in the collection.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMOs</a>.
+The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="wmformat_glossary.htm">DMOs</a>.
 
 
 

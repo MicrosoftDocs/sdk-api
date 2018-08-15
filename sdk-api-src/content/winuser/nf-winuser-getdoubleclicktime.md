@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -84,7 +85,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 
@@ -92,7 +93,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/02d5d9ba-99eb-4853-94a1-7c203b5d3620">SetDoubleClickTime</a>
  
 
  

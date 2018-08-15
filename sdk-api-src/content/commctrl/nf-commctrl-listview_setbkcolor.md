@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761153(v=VS.85).aspx">LVM_SETBKCOLOR</a> message explicitly. 
+Sets the background color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/d579249d-421d-4e7e-8992-4c7fd7277593">LVM_SETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters

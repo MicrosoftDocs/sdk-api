@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -82,7 +83,7 @@ The values currently supported are <b>AF_INET</b> and <b>AF_INET6</b>.
 </dl>
 </td>
 <td width="60%">
-The Internet Protocol version 4 (IPv4) address family. When this parameter is specified,  the <i>pszAddrString</i> parameter must point to a text representation of an IPv4 address and the <i>pAddrBuf</i> parameter  returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure that represents the IPv4 address. 
+The Internet Protocol version 4 (IPv4) address family. When this parameter is specified,  the <i>pszAddrString</i> parameter must point to a text representation of an IPv4 address and the <i>pAddrBuf</i> parameter  returns a pointer to an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure that represents the IPv4 address. 
 
 </td>
 </tr>
@@ -93,7 +94,7 @@ The Internet Protocol version 4 (IPv4) address family. When this parameter is sp
 </dl>
 </td>
 <td width="60%">
-The Internet Protocol version 6 (IPv6) address family. When this parameter is specified,  the <i>pszAddrString</i> parameter must point to a text representation of an IPv6 address and the <i>pAddrBuf</i> parameter  returns a pointer to an  <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure that represents the IPv6 address.  
+The Internet Protocol version 6 (IPv6) address family. When this parameter is specified,  the <i>pszAddrString</i> parameter must point to a text representation of an IPv6 address and the <i>pAddrBuf</i> parameter  returns a pointer to an  <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure that represents the IPv6 address.  
 
 </td>
 </tr>
@@ -114,9 +115,9 @@ When the <i>Family</i> parameter is <b>AF_INET6</b>, then the <i>pszAddrString</
 
 A pointer to a buffer in which to store the numeric binary representation of the IP address. The IP address is returned in network byte order.
 
-When the <i>Family</i> parameter is <b>AF_INET</b>, this buffer should be large enough to hold an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure.
+When the <i>Family</i> parameter is <b>AF_INET</b>, this buffer should be large enough to hold an <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure.
 
-When the <i>Family</i> parameter is <b>AF_INET6</b>,  this buffer should be large enough to hold an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure.
+When the <i>Family</i> parameter is <b>AF_INET6</b>,  this buffer should be large enough to hold an <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure.
 
 
 ## -returns
@@ -139,7 +140,7 @@ If the function has an error, the extended error code returned by <a href="https
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -150,7 +151,7 @@ The address family specified in the <i>Family</i> parameter is not supported. Th
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -188,11 +189,11 @@ When UNICODE or _UNICODE is defined, <b>InetPton</b> is defined to <b>InetPtonW<
 
 When UNICODE or _UNICODE is not defined, <b>InetPton</b> is defined to <b>InetPtonA</b>, the ANSI version of this function. The ANSI version of this function is always defined as <a href="https://msdn.microsoft.com/1e26b88c-808f-4807-8641-e5c6b10853ad">inet_pton</a>. The <i>pszAddrString</i> parameter is defined to the <b>PCSTR</b> data type.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
+The <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure is defined in the <i>In6addr.h</i> header file.
+The <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure is defined in the <i>In6addr.h</i> header file.
 
-On Windows Vista and later, the <a href="https://msdn.microsoft.com/79896c13-a671-423e-975e-98a4ccfa1eb8">RtlIpv4StringToAddress</a> and <a href="https://msdn.microsoft.com/72d20cf0-38ff-4c00-93ec-949aaf6f96e2">RtlIpv4StringToAddressEx</a> functions can be used to convert a text representation of an IPv4 address in Internet standard dotted-decimal notation to a numeric binary address represented as an  <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a> structure. On Windows Vista and later, the <a href="https://msdn.microsoft.com/3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3">RtlIpv6StringToAddress</a> and <a href="https://msdn.microsoft.com/3a95c405-3f2c-4bd5-805e-3e879c4c20e2">RtlIpv6StringToAddressEx</a> functions can be used to convert a string representation of an IPv6 address to a numeric binary IPv6 address represented as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure. The <b>RtlIpv6StringToAddressEx</b> function is more flexible since it also converts a string representation of an IPv6 address that can include a scope ID and port in standard notation to a numeric binary form.
+On Windows Vista and later, the <a href="https://msdn.microsoft.com/79896c13-a671-423e-975e-98a4ccfa1eb8">RtlIpv4StringToAddress</a> and <a href="https://msdn.microsoft.com/72d20cf0-38ff-4c00-93ec-949aaf6f96e2">RtlIpv4StringToAddressEx</a> functions can be used to convert a text representation of an IPv4 address in Internet standard dotted-decimal notation to a numeric binary address represented as an  <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a> structure. On Windows Vista and later, the <a href="https://msdn.microsoft.com/3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3">RtlIpv6StringToAddress</a> and <a href="https://msdn.microsoft.com/3a95c405-3f2c-4bd5-805e-3e879c4c20e2">RtlIpv6StringToAddressEx</a> functions can be used to convert a string representation of an IPv6 address to a numeric binary IPv6 address represented as an <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure. The <b>RtlIpv6StringToAddressEx</b> function is more flexible since it also converts a string representation of an IPv6 address that can include a scope ID and port in standard notation to a numeric binary form.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The  <b>InetPtonW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
@@ -204,11 +205,11 @@ On Windows Vista and later, the <a href="https://msdn.microsoft.com/79896c13-a6
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a>
+<a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">IN_ADDR</a>
+<a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">IN_ADDR</a>
 
 
 

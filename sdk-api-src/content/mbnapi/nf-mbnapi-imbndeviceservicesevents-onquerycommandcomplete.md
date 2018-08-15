@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ Notification method indicating that a device service <b>QUERY</b> request has co
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the operation was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the operation was requested.
 
 
 ### -param responseID [in]

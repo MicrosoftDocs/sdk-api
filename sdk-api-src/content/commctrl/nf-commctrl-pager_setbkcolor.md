@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760878(v=VS.85).aspx">PGM_SETBKCOLOR</a> message explicitly. 
+Sets the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/720a25d7-3854-4f28-b227-bafab7b1e8c9">PGM_SETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters

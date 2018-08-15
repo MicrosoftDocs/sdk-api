@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,16 +70,16 @@ The <b>GetLengthSid</b> function returns the length, in bytes, of a valid <a hre
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure whose length is returned. The structure is assumed to be valid.
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure whose length is returned. The structure is assumed to be valid.
 
 
 ## -returns
 
 
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure is valid, the return value is the length, in bytes, of the <b>SID</b> structure.
+If the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure is valid, the return value is the length, in bytes, of the <b>SID</b> structure.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure is not valid, the return value is undefined. Before calling <b>GetLengthSid</b>, pass the SID to the 
+If the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure is not valid, the return value is undefined. Before calling <b>GetLengthSid</b>, pass the SID to the 
 <a href="https://msdn.microsoft.com/0fb08512-90a1-4a5c-9b4c-121bf7701bba">IsValidSid</a> function to verify that the SID is valid.
 
 
@@ -93,7 +94,7 @@ If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -109,7 +110,7 @@ If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
  
 
  

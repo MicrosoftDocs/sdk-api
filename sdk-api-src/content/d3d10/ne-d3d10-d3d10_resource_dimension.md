@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifies the type of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">resource</a> being used.
+Identifies the type of <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">resource</a> being used.
 
 
 ## -enum-fields
@@ -65,29 +66,29 @@ Resource is of unknown type.
 
 ### -field D3D10_RESOURCE_DIMENSION_BUFFER
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a>.
+Resource is a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffer</a>.
 
 
 ### -field D3D10_RESOURCE_DIMENSION_TEXTURE1D
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D texture</a>.
+Resource is a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">1D texture</a>.
 
 
 ### -field D3D10_RESOURCE_DIMENSION_TEXTURE2D
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a>.
+Resource is a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D texture</a>.
 
 
 ### -field D3D10_RESOURCE_DIMENSION_TEXTURE3D
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">3D texture</a>.
+Resource is a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">3D texture</a>.
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb173831(v=VS.85).aspx">ID3D10Resource::GetType</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb172695(v=VS.85).aspx">D3DX10_IMAGE_INFO</a>.
+This enumeration is used in <a href="https://msdn.microsoft.com/78e91654-e3e7-4565-99be-8ccf480b954b">ID3D10Resource::GetType</a>, and <a href="https://msdn.microsoft.com/40d89166-cc11-490d-867c-ae5db23a0784">D3DX10_IMAGE_INFO</a>.
 
 
 
@@ -97,7 +98,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/c986b22c-2960-4571-98bc-028c9f41ec65">Resource Enumerations</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -86,7 +87,7 @@ If the method fails, it returns <b>FALSE</b>.
 
 
 
-The <b>Add</b> method calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on this pointer.
+The <b>Add</b> method calls the <a href="_com_iunknown_addref">AddRef</a> method on this pointer.
 
 
 

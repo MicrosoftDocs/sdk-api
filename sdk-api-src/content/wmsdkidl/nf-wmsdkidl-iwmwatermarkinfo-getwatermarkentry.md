@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -112,7 +113,7 @@ The method succeeded.
 
 
 
-No watermarking <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMOs</a> are provided with the Windows Media Format SDK. You can install third-party DMOs to use with your application.
+No watermarking <a href="wmformat_glossary.htm">DMOs</a> are provided with the Windows Media Format SDK. You can install third-party DMOs to use with your application.
 
 
 

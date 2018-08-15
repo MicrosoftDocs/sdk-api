@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object and initializes the 
+Creates a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object and initializes the 
 			<b>X</b> and 
 			<b>Y</b> data members to zero. This is the default constructor.
 
@@ -73,15 +74,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534994(v=VS.85).aspx">PointF Constructors</a>
+<a href="https://msdn.microsoft.com/693ff9c6-d201-4f37-8797-f6dfb50feabe">PointF Constructors</a>
  
 
  

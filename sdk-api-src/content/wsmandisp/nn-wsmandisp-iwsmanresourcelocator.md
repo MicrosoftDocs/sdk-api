@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -51,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
- Supplies the path to a resource. You can use an <b>IWSManResourceLocator</b> object instead of a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">IWSManSession.Get</a>, <a href="https://msdn.microsoft.com/f121d9ce-6aa3-45e3-b0ba-67b19c2f5665">IWSManSession.Put</a>, or <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">IWSManSession.Enumerate</a>.
+ Supplies the path to a resource. You can use an <b>IWSManResourceLocator</b> object instead of a <a href="windows_remote_management_glossary.htm">resource URI</a> in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">IWSManSession.Get</a>, <a href="https://msdn.microsoft.com/f121d9ce-6aa3-45e3-b0ba-67b19c2f5665">IWSManSession.Put</a>, or <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">IWSManSession.Enumerate</a>.
 
 
 ## -inheritance
@@ -84,7 +85,7 @@ Adds additional data required to process the request. For example, some WMI prov
 <a href="https://msdn.microsoft.com/2f6c1169-8e2a-4919-9a1a-856dbe41a9ce">AddSelector</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">selector</a> to the <b>IWSManResourceLocator</b> object. The selector specifies a particular instance of a <i>resource</i>.
+Adds a <a href="windows_remote_management_glossary.htm">selector</a> to the <b>IWSManResourceLocator</b> object. The selector specifies a particular instance of a <i>resource</i>.
 
 </td>
 </tr>
@@ -93,7 +94,7 @@ Adds a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx"
 <a href="https://msdn.microsoft.com/4c71948d-2321-41b5-b961-c4a514830b26">ClearOptions</a>
 </td>
 <td align="left" width="63%">
-Removes any <a href="https://msdn.microsoft.com/library/windows/hardware/dn965779">options</a> from the <b>IWSManResourceLocator</b> object.
+Removes any <a href="windows_remote_management_glossary.htm">options</a> from the <b>IWSManResourceLocator</b> object.
 
 </td>
 </tr>
@@ -102,7 +103,7 @@ Removes any <a href="https://msdn.microsoft.com/library/windows/hardware/dn96577
 <a href="https://msdn.microsoft.com/fccd0cd4-465b-454c-a300-ab50c25d6afe">ClearSelectors</a>
 </td>
 <td align="left" width="63%">
-Removes all the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">selectors</a> from an <b>IWSManResourceLocator</b> object.
+Removes all the <a href="windows_remote_management_glossary.htm">selectors</a> from an <b>IWSManResourceLocator</b> object.
 
 </td>
 </tr>
@@ -142,7 +143,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the language dialect for a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource</a> <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragment</a> <i>dialect</i> when <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object methods such as <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
+Gets or sets the language dialect for a <a href="windows_remote_management_glossary.htm">resource</a> <a href="windows_remote_management_glossary.htm">fragment</a> <i>dialect</i> when <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object methods such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
 
 </td>
 </tr>
@@ -158,7 +159,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the path for a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource</a> <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">fragment</a> or property when an instance of <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> methods such as <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
+Gets or sets the path for a <a href="windows_remote_management_glossary.htm">resource</a> <a href="windows_remote_management_glossary.htm">fragment</a> or property when an instance of <b>IWSManResourceLocator</b> is used in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> methods such as <a href="https://msdn.microsoft.com/f6393cfb-0787-4d30-8d02-be0996885f22">Get</a>, <a href="https://msdn.microsoft.com/1224dab8-82d1-4416-8c21-e84fdda15deb">Put</a>, or <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">Enumerate</a>.
 
 </td>
 </tr>
@@ -190,7 +191,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
+The <a href="windows_remote_management_glossary.htm">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
 
 </td>
 </tr>

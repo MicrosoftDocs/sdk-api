@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -69,7 +70,7 @@ If the GUID is initialized to zero in the
 
 ### -field displayData
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff550081">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the filter.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
+A <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the filter.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
 
 
 ### -field flags
@@ -184,12 +185,12 @@ Optional GUID of the policy provider that manages this filter. See <a href="http
 
 ### -field providerData
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data used by providers to store additional context information with the object.
+A <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data used by providers to store additional context information with the object.
 
 
 ### -field layerKey
 
-GUID of the layer where the filter resides. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff549947">Filtering Layer Identifiers</a> for a list of possible values.
+GUID of the layer where the filter resides. See <a href="https://msdn.microsoft.com/3b2daef1-558b-4e3a-a98a-f4dfa80a29c0">Filtering Layer Identifiers</a> for a list of possible values.
 
 
 ### -field subLayerKey
@@ -202,7 +203,7 @@ If this is set to IID_NULL, the filter is added to the default sublayer.
 ### -field weight
 
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure that specifies the weight of the filter. Possible type values for <b>weight</b> are as follows.
+A <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> structure that specifies the weight of the filter. Possible type values for <b>weight</b> are as follows.
 
 
 
@@ -295,7 +296,7 @@ LUID identifying the filter. This is also the LUID of the corresponding
 
 ### -field effectiveWeight
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure that contains the weight assigned to <b>FWPS_FILTER0</b>, which is documented in the WDK. 
+An <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> structure that contains the weight assigned to <b>FWPS_FILTER0</b>, which is documented in the WDK. 
 
 
 ## -remarks
@@ -320,7 +321,7 @@ The last members, <b>filterId</b> and <b>effectiveWeight</b>, provides additiona
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550081">FWPM_DISPLAY_DATA0</a>
+<a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a>
 
 
 
@@ -328,7 +329,7 @@ The last members, <b>filterId</b> and <b>effectiveWeight</b>, provides additiona
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
 
 
 

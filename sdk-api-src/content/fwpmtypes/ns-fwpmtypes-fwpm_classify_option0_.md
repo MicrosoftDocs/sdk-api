@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,12 +62,12 @@ The <b>FWPM_CLASSIFY_OPTION0</b> structure is used to define unicast and multica
 
 ### -field type
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a> value.
+An <a href="https://msdn.microsoft.com/5c757bf6-a4ea-42f0-ad87-74855703a041">FWP_CLASSIFY_OPTION_TYPE</a> value.
 
 
 ### -field value
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure.
+An <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> structure.
 
 
 ## -remarks
@@ -138,15 +139,15 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
+<a href="https://msdn.microsoft.com/5d1f7807-4188-4a57-83fc-99683254e3a5">FWPM_CLASSIFY_OPTIONS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+<a href="https://msdn.microsoft.com/5c757bf6-a4ea-42f0-ad87-74855703a041">FWP_CLASSIFY_OPTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
 
 
 

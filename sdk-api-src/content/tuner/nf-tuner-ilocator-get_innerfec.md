@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>get_InnerFEC</b> method gets the type of inner FEC that is used.
 
 ### -param FEC [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559594">FECMethod</a> that receives the type of inner FEC.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/6910c51d-4176-49a3-be6b-6b072ad03fc1">FECMethod</a> that receives the type of inner FEC.
 
 
 ## -returns

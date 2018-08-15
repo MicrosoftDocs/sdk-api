@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -129,7 +130,7 @@ Retrieves the tuner's supported modes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187885">Logon</a>
+<a href="https://msdn.microsoft.com/b4a5a927-254c-44cd-b17d-e1f47b3f62a7">Logon</a>
 </td>
 <td align="left" width="63%">
 Logs a user onto the system.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -73,7 +74,7 @@ The <b>ITfCompartment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/31a9efbd-ebde-4877-a387-ebaccd97d732">GetValue</a>
 </td>
 <td align="left" width="63%">
 Obtains the data for a compartment.
@@ -82,7 +83,7 @@ Obtains the data for a compartment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/1a1a175f-a24e-4f83-92d3-ac6a24f5f486">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the data for a compartment.
@@ -101,7 +102,7 @@ Sets the data for a compartment.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

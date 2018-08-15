@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -61,10 +62,10 @@ Contains information about objects and text on the clipboard.
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> notification header. 
 
 
 ### -field cObjectCount
@@ -86,7 +87,7 @@ Number of characters on the clipboard.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787985(v=VS.85).aspx">EN_SAVECLIPBOARD</a>
+<a href="https://msdn.microsoft.com/e8b95e80-6494-4153-8e78-ede9ed17c66f">EN_SAVECLIPBOARD</a>
  
 
  

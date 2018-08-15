@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sensorsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7,Available in Windows 7.
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ Indicates that the sensor should deliver the highest-accuracy report possible. T
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
+<a href="https://msdn.microsoft.com/8c7f378c-b4e6-4074-8b6a-571068b5ab80">ISensorDriver::OnGetProperties</a>
  
 
  

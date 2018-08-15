@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows Address Book 5.0
 
 
 Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> and 
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> and 
 <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> functions.
 
 
@@ -87,7 +88,7 @@ Be sure to set the <b>cb</b> member of the <a href="https://msdn.microsoft.com/c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
 
 
 

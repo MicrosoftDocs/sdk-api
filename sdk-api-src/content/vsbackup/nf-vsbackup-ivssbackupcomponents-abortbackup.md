@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -138,7 +139,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-<b>AbortBackup</b> generates an <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">Abort</a> event, which is handled by each instance of each writer through the 
+<b>AbortBackup</b> generates an <a href="vssgloss_a.htm">Abort</a> event, which is handled by each instance of each writer through the 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> method.
 
 

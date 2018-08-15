@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the image list associated with a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760588(v=VS.85).aspx">TCM_GETIMAGELIST</a> message explicitly. 
+Retrieves the image list associated with a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/86a0d8c7-ff3d-4e16-994e-4c72d1e62e9f">TCM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters

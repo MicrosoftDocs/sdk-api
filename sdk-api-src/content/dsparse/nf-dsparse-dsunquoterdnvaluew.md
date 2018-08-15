@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -95,14 +96,14 @@ This is returned if the number of characters do not match the string used in <i>
 The converted, unquoted RDN value.
 
 
-##### - pcUnquotedRdnValueLength.ERROR_SUCCESS
-
-This is returned if the number of characters match the string used in <i>psQuotedRdnValue</i>.
-
-
 ##### - pcUnquotedRdnValueLength.ERROR_BUFFER_OVERFLOW
 
 This is returned if the number of characters do not match the string used in <i>psQuotedRdnValue</i>.
+
+
+##### - pcUnquotedRdnValueLength.ERROR_SUCCESS
+
+This is returned if the number of characters match the string used in <i>psQuotedRdnValue</i>.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,35 +64,35 @@ Describes an adapter (or video card) by using DXGI 1.0.
 
 Type: <b>WCHAR[128]</b>
 
-A string that contains the adapter description. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns “Software Adapter” for the description string.
+A string that contains the adapter description. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns “Software Adapter” for the description string.
 
 
 ### -field VendorId
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the hardware vendor. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the hardware vendor.
+The PCI ID of the hardware vendor. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the hardware vendor.
 
 
 ### -field DeviceId
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the hardware device. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the hardware device.
+The PCI ID of the hardware device. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the hardware device.
 
 
 ### -field SubSysId
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the sub system. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the sub system.
+The PCI ID of the sub system. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the sub system.
 
 
 ### -field Revision
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The PCI ID of the revision number of the adapter. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a> returns zeros for the PCI ID of the revision number of the adapter.
+The PCI ID of the revision number of the adapter. On <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9 graphics hardware, <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a> returns zeros for the PCI ID of the revision number of the adapter.
 
 
 ### -field DedicatedVideoMemory
@@ -117,16 +118,16 @@ The number of bytes of shared system memory. This is the maximum value of system
 
 ### -field AdapterLuid
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/564bcc9a-943b-4ad9-aeaa-0af4c3d3da0c">LUID</a></b>
 
-A unique value that identifies the adapter. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for a definition of the structure. <b>LUID</b> is defined in dxgi.h.
+A unique value that identifies the adapter. See <a href="https://msdn.microsoft.com/564bcc9a-943b-4ad9-aeaa-0af4c3d3da0c">LUID</a> for a definition of the structure. <b>LUID</b> is defined in dxgi.h.
 
 
 ## -remarks
 
 
 
-The <b>DXGI_ADAPTER_DESC</b> structure provides a description of an adapter.  This structure is initialized by using the <a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">IDXGIAdapter::GetDesc</a> method.
+The <b>DXGI_ADAPTER_DESC</b> structure provides a description of an adapter.  This structure is initialized by using the <a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">IDXGIAdapter::GetDesc</a> method.
 
 
 

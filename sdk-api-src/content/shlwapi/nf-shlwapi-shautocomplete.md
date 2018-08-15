@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -164,9 +165,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<b>SHAutoComplete</b> works on any system edit control, including the edit control and controls that contain edit controls such as <a href="_win32_ComboBoxEx_Controls">ComboBoxEx</a> controls. To retrieve a handle to an edit control embedded in a ComboBoxEx control, send the ComboBoxEx control a <a href="https://msdn.microsoft.com/en-us/library/Bb775772(v=VS.85).aspx">CBEM_GETEDITCONTROL</a> message.
+<b>SHAutoComplete</b> works on any system edit control, including the edit control and controls that contain edit controls such as <a href="_win32_ComboBoxEx_Controls">ComboBoxEx</a> controls. To retrieve a handle to an edit control embedded in a ComboBoxEx control, send the ComboBoxEx control a <a href="https://msdn.microsoft.com/def91949-cadc-4297-a504-0680d7d9b815">CBEM_GETEDITCONTROL</a> message.
 
-An application must have invoked either <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> prior to calling this function. <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> cannot be called until the edit box has finished processing the <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message for <i>hwndEdit</i>.
+An application must have invoked either <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> prior to calling this function. <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> cannot be called until the edit box has finished processing the <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message for <i>hwndEdit</i>.
 
 The maximum number of items that can be displayed in an autosuggest drop-down list box is 1000.
 

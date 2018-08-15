@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -92,7 +93,7 @@ The audio stream has not been successfully initialized.
 </dl>
 </td>
 <td width="60%">
-The audio stream was not stopped at the time of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> call.
+The audio stream was not stopped at the time of the <a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">Start</a> call.
 
 </td>
 </tr>

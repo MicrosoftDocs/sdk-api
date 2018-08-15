@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -117,7 +118,7 @@ The user logged on without using password encryption.
 </dl>
 </td>
 <td width="60%">
-The user logged on using cached <a href="https://msdn.microsoft.com/library/windows/hardware/dn922689">credentials</a>.
+The user logged on using cached <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a>.
 
 </td>
 </tr>
@@ -199,7 +200,7 @@ Contains a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0
 ### -field LogonDomainName
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> containing the name of the logon domain.
+<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the logon domain.
 
 
 ### -field LanmanSessionKey
@@ -210,13 +211,13 @@ Contains the Lanman session key. This string is MSV1_0_LANMAN_SESSION_KEY_LENGTH
 ### -field LogonServer
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> containing the name of the server that processed the logon request.
+<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the server that processed the logon request.
 
 
 ### -field UserParameters
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> containing user parameters. These parameters are primarily used by RAS to store RAS dial-in permissions for the user. In general, developers should not modify this member.
+<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing user parameters. These parameters are primarily used by RAS to store RAS dial-in permissions for the user. In general, developers should not modify this member.
 
 
 ## -see-also

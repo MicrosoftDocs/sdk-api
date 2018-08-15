@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -70,14 +71,14 @@ Specifies how ink is inserted onto the <a href="https://msdn.microsoft.com/52761
 
 
 
-#### - IEM_InsertAsText
-
-Default. Drawn ink is inserted as text.
-
-
 #### - IEM_InsertAsInk
 
 Drawn ink is inserted as ink.
+
+
+#### - IEM_InsertAsText
+
+Default. Drawn ink is inserted as text.
 
 
 ## -see-also

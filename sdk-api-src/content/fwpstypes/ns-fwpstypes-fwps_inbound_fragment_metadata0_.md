@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -83,8 +84,8 @@ A value that specifies the length, in bytes, of the packet fragment.
 The FWPS_INBOUND_FRAGMENT_METADATA0 structure contains valid data only if the
     FWPS_METADATA_FIELD_FRAGMENT_DATA flag is set in the 
     <b>currentMetadataValues</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+    <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
+    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function.
 
 
 
@@ -94,11 +95,11 @@ The FWPS_INBOUND_FRAGMENT_METADATA0 structure contains valid data only if the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a>
  
 
  

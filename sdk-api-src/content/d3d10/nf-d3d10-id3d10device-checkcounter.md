@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,16 +62,16 @@ Get the type, name, units of measure, and a description of an existing counter.
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>). Specifies which counter information is to be retrieved about.
+Pointer to a counter description (see <a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>). Specifies which counter information is to be retrieved about.
 
 
 ### -param pType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204907(v=VS.85).aspx">D3D10_COUNTER_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c3cd1aaf-e59b-4a75-b329-18fbd3d72eba">D3D10_COUNTER_TYPE</a>*</b>
 
-Pointer to the data type of a counter (see <a href="https://msdn.microsoft.com/en-us/library/Bb204907(v=VS.85).aspx">D3D10_COUNTER_TYPE</a>). Specifies the data type of the counter being retrieved.
+Pointer to the data type of a counter (see <a href="https://msdn.microsoft.com/c3cd1aaf-e59b-4a75-b329-18fbd3d72eba">D3D10_COUNTER_TYPE</a>). Specifies the data type of the counter being retrieved.
 
 
 ### -param pActiveCounters [out]
@@ -126,9 +127,9 @@ Length of the string returned to szDescription. Can be <b>NULL</b>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -147,7 +148,7 @@ Length parameters can be <b>NULL</b>, which indicates the application is not int
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

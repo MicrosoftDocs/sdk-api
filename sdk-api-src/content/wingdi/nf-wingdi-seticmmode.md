@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -166,7 +167,7 @@ Also, when printing to a printer's DC with WCS turned on, the <b>SetICMMode</b> 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
 
 
 
@@ -174,7 +175,7 @@ Also, when printing to a printer's DC with WCS turned on, the <b>SetICMMode</b> 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a>
+<a href="https://msdn.microsoft.com/b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76">StartPage</a>
 
 
 

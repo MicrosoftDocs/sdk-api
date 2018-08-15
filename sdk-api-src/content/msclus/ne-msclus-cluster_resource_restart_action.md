@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -71,9 +72,9 @@ Do not restart the resource after a failure.
 
 Restart the resource after a failure. If the resource exceeds its restart threshold within its restart 
        period, do not attempt to <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> to another 
+       <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to another 
        <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> in the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+       <a href="c_gly.htm">cluster</a>.
 
 
 ### -field ClusterResourceRestartNotify

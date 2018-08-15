@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ Specifies the size in bytes of this DD_HALINFO structure.
 
 ### -field vmiData
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570172">VIDEOMEMORYINFO</a> structure that describes the display's memory.
+Specifies a <a href="https://msdn.microsoft.com/c5df8f26-3eb1-4743-96d1-7b73d902be8d">VIDEOMEMORYINFO</a> structure that describes the display's memory.
 
 
 ### -field ddCaps
@@ -133,24 +134,24 @@ Driver supports <b>GetDriverInfo2</b> variant of <b>GetDriverInfo</b>.
 
 ### -field lpD3DGlobalDriverData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545963">D3DHAL_GLOBALDRIVERDATA</a> structure that describes the 3D capabilities of the driver and its device. 
+Points to a <a href="https://msdn.microsoft.com/4aba7417-8391-4ae7-a449-dbc307cab530">D3DHAL_GLOBALDRIVERDATA</a> structure that describes the 3D capabilities of the driver and its device. 
 
 
 ### -field lpD3DHALCallbacks
 
-Points to the driver's initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff544716">D3DHAL_CALLBACKS</a> structure.
+Points to the driver's initialized <a href="https://msdn.microsoft.com/3b045732-a41f-47e7-9835-41e3ef54f14c">D3DHAL_CALLBACKS</a> structure.
 
 
 ### -field lpD3DBufCallbacks
 
-Used only by drivers that want to implement driver level vertex and command buffer allocation. This is usually done for performance reasons. The <b>lpD3DBufCallbacks</b> member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550557">DD_D3DBUFCALLBACKS</a> structure that the driver fills out with the callbacks used to support driver managed vertex and command buffers. This member should normally be ignored by the driver. 
+Used only by drivers that want to implement driver level vertex and command buffer allocation. This is usually done for performance reasons. The <b>lpD3DBufCallbacks</b> member is a pointer to a <a href="https://msdn.microsoft.com/59fa4043-6238-49f7-b9d6-58c1f215865a">DD_D3DBUFCALLBACKS</a> structure that the driver fills out with the callbacks used to support driver managed vertex and command buffers. This member should normally be ignored by the driver. 
 
 
 ## -remarks
 
 
 
-GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> routine to be initialized with driver-specific data.
+GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the driver's <a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a> routine to be initialized with driver-specific data.
 
 
 
@@ -160,19 +161,19 @@ GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544716">D3DHAL_CALLBACKS</a>
+<a href="https://msdn.microsoft.com/3b045732-a41f-47e7-9835-41e3ef54f14c">D3DHAL_CALLBACKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545963">D3DHAL_GLOBALDRIVERDATA</a>
+<a href="https://msdn.microsoft.com/4aba7417-8391-4ae7-a449-dbc307cab530">D3DHAL_GLOBALDRIVERDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
+<a href="https://msdn.microsoft.com/529d60b5-658d-4d55-a599-fa35386c01a7">DDCORECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550557">DD_D3DBUFCALLBACKS</a>
+<a href="https://msdn.microsoft.com/59fa4043-6238-49f7-b9d6-58c1f215865a">DD_D3DBUFCALLBACKS</a>
 
 
 
@@ -180,11 +181,11 @@ GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="https://msdn.microsoft.com/c6068572-bd73-4faa-b085-9608ebc450ea">DrvGetDirectDrawInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570172">VIDEOMEMORYINFO</a>
+<a href="https://msdn.microsoft.com/c5df8f26-3eb1-4743-96d1-7b73d902be8d">VIDEOMEMORYINFO</a>
  
 
  

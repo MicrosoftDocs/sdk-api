@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ This enumeration controls the swizzle pattern of default textures and enable map
 
 The standard swizzle formats applies within each page-sized chunk, and pages are laid out in linear order with respect to one another.  A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.  
 
-<img alt="Standard swizzle patterns" src="./images/d3d11_standardswizzle.png"/>
+<img alt="Standard swizzle patterns" src="images/d3d11_standardswizzle.png"/>
 To demonstrate, consider the 32bpp swizzle format above.  This is represented by the following interleave masks, where bits on the left are most-significant.
 
 <pre class="syntax" xml:space="preserve"><code>UINT xBytesMask = 1010 1010 1000 1111

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,14 +67,14 @@ TBD
 
 
 
-#### - [in]
-
-The data used by RPC.
-
-
 #### - Offset [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://msdn.microsoft.com/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> object to be properly aligned when it will be marshaled to the buffer.
+
+
+#### - [in]
+
+The data used by RPC.
 
 
 #### - pBstr [in]

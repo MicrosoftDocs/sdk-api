@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Unmarshals a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> object from the RPC buffer.
+Unmarshals a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> object from the RPC buffer.
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -84,7 +85,7 @@ The different states that a listener can be in.
 The following are the state transitions for a Listener.
             
 
-<img alt="" src="./images/ListenerStates.png"/>
+<img alt="" src="images/ListenerStates.png"/>
 
 A listener will only move to <b>WS_LISTENER_STATE_FAULTED</b> 
                 state if <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40b03d">WsAbortListener</a> is called.

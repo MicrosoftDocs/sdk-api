@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ The index of the property key in the array of PROPERTYKEY structures. This is a 
 
 #### - pKey
 
-A pointer to a PROPERTYKEY structure and it can be used in subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a>.
+A pointer to a PROPERTYKEY structure and it can be used in subsequent calls to <a href="https://msdn.microsoft.com/11204335-0f00-4af8-8787-93e91248e5bd">IPropertyStore::GetValue</a> and <a href="https://msdn.microsoft.com/be21bcb2-6875-4559-abd7-a496f0fcddd6">IPropertyStore::SetValue</a>.
 
 
 ## -returns
@@ -100,15 +101,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a>
+<a href="https://msdn.microsoft.com/11204335-0f00-4af8-8787-93e91248e5bd">IPropertyStore::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a>
+<a href="https://msdn.microsoft.com/be21bcb2-6875-4559-abd7-a496f0fcddd6">IPropertyStore::SetValue</a>
  
 
  

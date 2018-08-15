@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 
-Contains an image that is stored as metadata for a media source. This structure is used as the data item for the <a href="https://msdn.microsoft.com/en-us/library/Dd757832(v=VS.85).aspx">WM/Picture</a> metadata attribute.
+Contains an image that is stored as metadata for a media source. This structure is used as the data item for the <a href="wmformat.wm_picture_attribute">WM/Picture</a> metadata attribute.
 
 
 
@@ -78,7 +79,7 @@ Size, in bytes, of the image data.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd757832(v=VS.85).aspx">WM/Picture</a> attribute is defined in the Windows Media Format SDK. The attribute contains a picture related to the content, such as album art.
+The <a href="wmformat.wm_picture_attribute">WM/Picture</a> attribute is defined in the Windows Media Format SDK. The attribute contains a picture related to the content, such as album art.
 
 To get this attribute from a media source, call <a href="https://msdn.microsoft.com/177c8612-5c9f-4a71-9ee1-a4c67737af2d">IMFMetadata::GetProperty</a>, passing in the constant g_wszWMPicture for the <i>pwszName</i> parameter. The method retrieves a <b>PROPVARIANT</b> that contains a binary array (VT_BLOB). The layout of the array is as follows:
 

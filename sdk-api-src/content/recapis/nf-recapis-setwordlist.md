@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -145,7 +146,7 @@ An invalid argument was received.
 </dl>
 </td>
 <td width="60%">
-The method was called after <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a> has been called.
+The method was called after <a href="https://msdn.microsoft.com/564a2734-1a90-4566-a39d-7e16eff870ff">Process</a> has been called.
 
 </td>
 </tr>

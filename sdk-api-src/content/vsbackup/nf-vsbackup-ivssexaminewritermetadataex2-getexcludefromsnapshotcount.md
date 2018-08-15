@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows UI
 ## -description
 
 
-Obtains the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains the number of <a href="vssgloss_f.htm">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 
 ## -parameters
@@ -62,7 +63,7 @@ Obtains the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656
 
 ### -param pcExcludedFromSnapshot [out]
 
-A pointer to the number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> explicitly excluded from the shadow copy.
+A pointer to the number of <a href="vssgloss_f.htm">file sets</a> explicitly excluded from the shadow copy.
 
 
 ## -returns
@@ -83,7 +84,7 @@ The following are the valid return codes for this method.
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> was successfully returned.
+The number of <a href="vssgloss_f.htm">file sets</a> was successfully returned.
 
 </td>
 </tr>

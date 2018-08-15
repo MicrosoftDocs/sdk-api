@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -74,7 +75,7 @@ The <b>IMFHttpDownloadSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/587D281D-0488-470B-9E20-AE6DE70F33DC">Close</a>
 </td>
 <td align="left" width="63%">
 Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows <b>IMFHttpDownloadSession</b> to free any internal resources.

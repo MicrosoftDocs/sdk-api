@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="https://msdn.microsoft.com/en-us/library/ms221451(v=VS.85).aspx">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
+Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="8F84D4F6-1852-4AD8-B174-F3FA37E5BBD6">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
 
 
 ## -parameters

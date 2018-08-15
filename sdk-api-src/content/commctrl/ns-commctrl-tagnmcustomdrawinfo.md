@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb775528(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code.
+Contains information specific to an <a href="https://msdn.microsoft.com/2ca51ee0-4431-45c0-880c-a8b74318d8a9">NM_CUSTOMDRAW</a> notification code.
 
 
 ## -struct-fields
@@ -60,9 +61,9 @@ Contains information specific to an <a href="https://msdn.microsoft.com/en-us/li
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field dwDrawStage
@@ -208,16 +209,16 @@ A handle to the control's device context. Use this HDC to perform any GDI functi
 
 ### -field rc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification. 
+The <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification. 
 
 
 ### -field dwItemSpec
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD_PTR</a></b>
 
-The item number. What is contained in this member will depend on the type of control that is sending the notification. See the <a href="https://msdn.microsoft.com/en-us/library/Bb775528(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification reference for the specific control to determine what, if anything, is contained in this member. 
+The item number. What is contained in this member will depend on the type of control that is sending the notification. See the <a href="https://msdn.microsoft.com/2ca51ee0-4431-45c0-880c-a8b74318d8a9">NM_CUSTOMDRAW</a> notification reference for the specific control to determine what, if anything, is contained in this member. 
 
 
 ### -field uItemState
@@ -320,7 +321,7 @@ The item is marked. The meaning of this is determined by the implementation.
 The item is selected.
                     
 
-<div class="alert"><b>Note</b>  This flag does not work correctly for owner-drawn list-view controls that have the <a href="List_view_window_styles.htm">LVS_SHOWSELALWAYS</a> style. For these controls, you can determine whether an item is selected by using <a href="https://msdn.microsoft.com/en-us/library/Bb761053(v=VS.85).aspx">LVM_GETITEMSTATE</a> (or <a href="https://msdn.microsoft.com/en-us/library/Bb774980(v=VS.85).aspx">ListView_GetItemState</a>) and checking for the <b>LVIS_SELECTED</b> flag.</div>
+<div class="alert"><b>Note</b>  This flag does not work correctly for owner-drawn list-view controls that have the <a href="List_view_window_styles.htm">LVS_SHOWSELALWAYS</a> style. For these controls, you can determine whether an item is selected by using <a href="https://msdn.microsoft.com/862960ed-a64a-4d66-b384-9228932eae6f">LVM_GETITEMSTATE</a> (or <a href="https://msdn.microsoft.com/82bef643-a0fe-4c87-984e-0ba528a383c4">ListView_GetItemState</a>) and checking for the <b>LVIS_SELECTED</b> flag.</div>
 <div> </div>
 </td>
 </tr>
@@ -335,7 +336,7 @@ The item is selected.
 
                         
 
-Note that Comctl32 version 6 is not redistributable. operating systems. To use Comctl32.dll version 6, specify it in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+Note that Comctl32 version 6 is not redistributable. operating systems. To use Comctl32.dll version 6, specify it in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.
 
 </td>
 </tr>
@@ -384,7 +385,7 @@ Application-defined item data.
 
 
 
-The value your application returns depends on the current drawing stage. The <b>dwDrawStage</b> member of the associated <b>NMCUSTOMDRAW</b> structure holds a value that specifies the drawing stage. When the <b>dwDrawStage</b> member equals CDDS_PREPAINT and CDDS_PREERASE, some controls send the CDDS_PREERASE message first and expect the return value to indicate which subsequent messages will be sent. For a code sample that illustrates states and drawing stages, see <a href="https://msdn.microsoft.com/en-us/library/Bb761817(v=VS.85).aspx">Customizing a Control's Appearance Using Custom Draw</a>.
+The value your application returns depends on the current drawing stage. The <b>dwDrawStage</b> member of the associated <b>NMCUSTOMDRAW</b> structure holds a value that specifies the drawing stage. When the <b>dwDrawStage</b> member equals CDDS_PREPAINT and CDDS_PREERASE, some controls send the CDDS_PREERASE message first and expect the return value to indicate which subsequent messages will be sent. For a code sample that illustrates states and drawing stages, see <a href="https://msdn.microsoft.com/5bec8e27-491c-4f37-8dff-0843e6f3b123">Customizing a Control's Appearance Using Custom Draw</a>.
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -208,7 +209,7 @@ Failure for some other reason.
 
 
 
-The <b>ITextRange::GetPoint</b> method gives <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> the ability to emulate UI-pointer commands; it is also handy for accessibility purposes. 
+The <b>ITextRange::GetPoint</b> method gives <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> the ability to emulate UI-pointer commands; it is also handy for accessibility purposes. 
 
 
 
@@ -222,7 +223,7 @@ The <b>ITextRange::GetPoint</b> method gives <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -234,7 +235,7 @@ The <b>ITextRange::GetPoint</b> method gives <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787799(v=VS.85).aspx">SetPoint</a>
+<a href="https://msdn.microsoft.com/93725489-37a3-4a69-b239-52ee10f5d344">SetPoint</a>
 
 
 
@@ -242,7 +243,7 @@ The <b>ITextRange::GetPoint</b> method gives <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

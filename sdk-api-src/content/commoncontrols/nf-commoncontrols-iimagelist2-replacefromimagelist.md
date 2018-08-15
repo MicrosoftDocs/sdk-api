@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -67,7 +68,7 @@ The index of the destination image in the image list. This is the image that is 
 
 ### -param pil [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a>*</b>
 
 A pointer to the source image list.
 

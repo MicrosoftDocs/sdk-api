@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -93,7 +94,7 @@ This function returns HRESULT.
 
 The 
 <b>WriteFmtUserTypeStg</b> function must be called in an object's implementation of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680680(v=VS.85).aspx">IPersistStorage::Save</a> method. It must also be called by document-level objects that use structured storage for their persistent representation in their save sequence.
+<a href="_com_ipersiststorage_save">IPersistStorage::Save</a> method. It must also be called by document-level objects that use structured storage for their persistent representation in their save sequence.
 
 To read the information saved, applications call the 
 <a href="https://msdn.microsoft.com/6f26550d-c094-4150-b8ef-2da1d052c1ff">ReadFmtUserTypeStg</a> function.
@@ -106,7 +107,7 @@ To read the information saved, applications call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680680(v=VS.85).aspx">IPersistStorage::Save</a>
+<a href="_com_ipersiststorage_save">IPersistStorage::Save</a>
 
 
 

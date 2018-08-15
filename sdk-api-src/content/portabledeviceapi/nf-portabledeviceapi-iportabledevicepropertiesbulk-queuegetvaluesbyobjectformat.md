@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -167,7 +168,7 @@ If the <i>pszParentObjectID</i> parameter is set to WPD_DEVICE_OBJECT_ID, the me
 </table>
  
 
-The queued request is not started until the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>. For more information on how to use this method, see <a href="https://msdn.microsoft.com/57cda40a-8573-4b6c-981e-770f35186038">IPortableDevicePropertiesBulk Interface</a>.
+The queued request is not started until the application calls <a href="https://msdn.microsoft.com/a69afdc9-622d-45fc-b71e-6058d9d528b0">Start</a>. For more information on how to use this method, see <a href="https://msdn.microsoft.com/57cda40a-8573-4b6c-981e-770f35186038">IPortableDevicePropertiesBulk Interface</a>.
 
 Due to performance issues, some devices may not return a comprehensive list of properties when the <i>pKeys</i> parameter is <b>NULL</b>.
 

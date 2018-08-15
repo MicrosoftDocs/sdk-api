@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP1 [desktop apps only]
@@ -84,12 +85,12 @@ Retrieves the number of keystroke sequences in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://msdn.microsoft.com/5a8cc79f-d348-4fe8-b005-aeabd6db43c5">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the keystroke sequence at the specified index. 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/5a8cc79f-d348-4fe8-b005-aeabd6db43c5">GetString</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
 <div> </div>
 </td>
 </tr>

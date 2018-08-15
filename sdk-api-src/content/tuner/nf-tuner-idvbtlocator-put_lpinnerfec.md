@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -64,7 +65,7 @@ The <b>put_LPInnerFEC</b> method sets the inner FEC type of the low-priority str
 
 ### -param FEC [in]
 
-Variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559594">FECMethod</a> that specifies the FEC type.
+Variable of type <a href="https://msdn.microsoft.com/6910c51d-4176-49a3-be6b-6b072ad03fc1">FECMethod</a> that specifies the FEC type.
 
 
 ## -returns

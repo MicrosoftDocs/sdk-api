@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -84,7 +85,7 @@ A transformation matrix that translates an object the specified horizontal and v
 
 When calling this method, specify the x and y displacements and create  a <a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a> structure for storing the displacements.   If you prefer to specify each displacement as a parameter, call the  other <a href="https://msdn.microsoft.com/ec1a15f1-e2d5-482e-b688-10461e736934">Translation</a> method. The following illustration shows a square moved 20 pixels to the right along the x-axis, and 10 pixels downward along the y-axis.
 
-<img alt="Illustration of a square moved to the right and down from its original position" src="./images/translation_ovw.png"/>
+<img alt="Illustration of a square moved to the right and down from its original position" src="images/translation_ovw.png"/>
  For an example, see <a href="https://msdn.microsoft.com/0fc48801-de14-4398-816d-6e7ddf4ffdd7">How to Translate an Object</a>.
 
 

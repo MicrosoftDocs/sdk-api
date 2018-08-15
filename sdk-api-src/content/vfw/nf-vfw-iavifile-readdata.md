@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -80,11 +81,6 @@ The <b>ReadData</b> method reads file headers. Called when an application uses t
 
 
 
-#### - ps
-
-Pointer to the interface to a file.
-
-
 #### - fcc
 
 Four-character code of the header to read.
@@ -98,6 +94,11 @@ Pointer to the buffer for the data.
 #### - lpcbBuffer
 
 Size, in bytes, of the buffer specified by <i>lpBuffer</i>. When this method returns control to the application, the contents of this parameter specifies the amount of data read.
+
+
+#### - ps
+
+Pointer to the interface to a file.
 
 
 ## -returns

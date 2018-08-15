@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -201,7 +202,7 @@ Invokes a context menu command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915474">Login</a>
+<a href="https://msdn.microsoft.com/7e43b200-1922-42ad-b785-6643e0215c61">Login</a>
 </td>
 <td align="left" width="63%">
 Logs the user in to the online store.
@@ -237,7 +238,7 @@ Initiates the update of a license for the specified media file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+<a href="https://msdn.microsoft.com/9e3c3293-db5d-4963-a9ca-db955c80a959">SendMessage</a>
 </td>
 <td align="left" width="63%">
 Enables discovery pages to send messages to the plug-in.

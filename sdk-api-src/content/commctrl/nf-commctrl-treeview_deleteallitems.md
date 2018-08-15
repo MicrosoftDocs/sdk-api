@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,11 +72,11 @@ Handle to the tree-view control.
 
 Once an item is deleted from a tree-view control, its <b>HTREEITEM</b> handle is invalid and cannot be used.
 
-The parent window receives a <a href="https://msdn.microsoft.com/en-us/library/Bb773512(v=VS.85).aspx">TVN_DELETEITEM</a> notification code when each item is removed.
+The parent window receives a <a href="https://msdn.microsoft.com/0d8801e0-02ae-40c9-8625-83d98b434d0a">TVN_DELETEITEM</a> notification code when each item is removed.
 
-If the item label is being edited, the edit operation is canceled and the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a> notification code. 
+If the item label is being edited, the edit operation is canceled and the parent window receives the <a href="https://msdn.microsoft.com/82eb9fcd-de10-4efb-8501-78c5af5e089e">TVN_ENDLABELEDIT</a> notification code. 
 
-You can also delete all items with the <a href="https://msdn.microsoft.com/en-us/library/Bb773793(v=VS.85).aspx">TreeView_DeleteItem</a> macro or the <a href="https://msdn.microsoft.com/en-us/library/Bb773560(v=VS.85).aspx">TVM_DELETEITEM</a> message by setting 
+You can also delete all items with the <a href="https://msdn.microsoft.com/302fcdcc-d5eb-4b0b-b17e-dfdea9eb72b3">TreeView_DeleteItem</a> macro or the <a href="https://msdn.microsoft.com/225420a5-6ded-4786-a080-2817aa5f66c9">TVM_DELETEITEM</a> message by setting 
 				<i>lParam</i> to TVI_ROOT.
 
 If the window style for a tree-view control contains TVS_NOSCROLL and all items are deleted, new items are not displayed until the window styles are reset. The following code shows one way to ensure that items are always displayed.

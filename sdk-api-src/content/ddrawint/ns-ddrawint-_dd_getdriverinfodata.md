@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -88,7 +89,7 @@ GUID_ColorControlCallbacks
 
 </td>
 <td>
-Queries whether the driver supports <a href="https://msdn.microsoft.com/626fdd37-bebb-47b7-9899-7cf0dc2bd1ba">DdControlColor</a>. If the driver does support it, the driver should initialize and return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550521">DD_COLORCONTROLCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports <a href="https://msdn.microsoft.com/626fdd37-bebb-47b7-9899-7cf0dc2bd1ba">DdControlColor</a>. If the driver does support it, the driver should initialize and return a <a href="https://msdn.microsoft.com/fcf0e136-a7cc-4bb3-8af4-2478d4a2c055">DD_COLORCONTROLCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ GUID_D3DCallbacks
 
 </td>
 <td>
-Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544716">D3DHAL_CALLBACKS</a> structure. If the driver does not provide any of this support, it should initialize and return a D3DHAL_CALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/3b045732-a41f-47e7-9835-41e3ef54f14c">D3DHAL_CALLBACKS</a> structure. If the driver does not provide any of this support, it should initialize and return a D3DHAL_CALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -118,7 +119,7 @@ GUID_D3DCallbacks3
 
 </td>
 <td>
-Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544723">D3DHAL_CALLBACKS3</a> structure. If the driver does provide any of this support, it should initialize and return a D3DHAL_CALLBACKS3 structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/09215332-4ee3-4f7b-be25-091b8d85fd6b">D3DHAL_CALLBACKS3</a> structure. If the driver does provide any of this support, it should initialize and return a D3DHAL_CALLBACKS3 structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -138,7 +139,7 @@ GUID_D3DExtendedCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the Microsoft Direct3D functionality specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544753">D3DHAL_D3DEXTENDEDCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a D3DHAL_D3DEXTENDEDCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the Microsoft Direct3D functionality specified through the <a href="https://msdn.microsoft.com/b1e63dce-6d51-438c-a4aa-cc17d9292576">D3DHAL_D3DEXTENDEDCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a D3DHAL_D3DEXTENDEDCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -158,7 +159,7 @@ GUID_GetHeapAlignment
 
 </td>
 <td>
-Queries whether the driver supports surface alignment requirements on a per-heap basis. If the driver does provide this support, it should initialize and return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551572">DD_GETHEAPALIGNMENTDATA</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports surface alignment requirements on a per-heap basis. If the driver does provide this support, it should initialize and return a <a href="https://msdn.microsoft.com/5bdc13e3-396d-45f6-8c90-a831bbb23628">DD_GETHEAPALIGNMENTDATA</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -168,7 +169,7 @@ GUID_KernelCallbacks
 
 </td>
 <td>
-Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551633">DD_KERNELCALLBACKS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_KERNELCALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/85dcb71b-ad1f-4b83-8ead-db502d9f294e">DD_KERNELCALLBACKS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_KERNELCALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -178,7 +179,7 @@ GUID_KernelCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the kernel-mode capabilities specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549593">DDKERNELCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDKERNELCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the kernel-mode capabilities specified through the <a href="https://msdn.microsoft.com/d02d26f5-34cf-4a3c-b67c-0f9191bb854b">DDKERNELCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDKERNELCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -188,7 +189,7 @@ GUID_MiscellaneousCallbacks
 
 </td>
 <td>
-Queries whether the driver supports <a href="https://msdn.microsoft.com/21a1988a-1bfd-47b8-b4b6-1bc137b2ba64">DdGetAvailDriverMemory</a>. If the driver does support it, the driver should initialize and return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551657">DD_MISCELLANEOUSCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports <a href="https://msdn.microsoft.com/21a1988a-1bfd-47b8-b4b6-1bc137b2ba64">DdGetAvailDriverMemory</a>. If the driver does support it, the driver should initialize and return a <a href="https://msdn.microsoft.com/9bf47408-cc7f-455d-bbb2-6f1f318eee5f">DD_MISCELLANEOUSCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -198,7 +199,7 @@ GUID_Miscellaneous2Callbacks
 
 </td>
 <td>
-Queries whether the driver supports the additional miscellaneous functionality specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551645">DD_MISCELLANEOUS2CALLBACKS</a> structure. If the driver does support any of this support, the driver should initialize and return a DD_MISCELLANEOUS2CALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports the additional miscellaneous functionality specified in the <a href="https://msdn.microsoft.com/bb3e91c0-5399-4760-a12e-0a47f0fbd2f9">DD_MISCELLANEOUS2CALLBACKS</a> structure. If the driver does support any of this support, the driver should initialize and return a DD_MISCELLANEOUS2CALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -208,7 +209,7 @@ GUID_MotionCompCallbacks
 
 </td>
 <td>
-Queries whether the driver supports the motion compensation functionality specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551660">DD_MOTIONCOMPCALLBACKS</a> structure. If the driver does provide any of this support, is should initialize and return a DD_MOTIONCOMPCALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports the motion compensation functionality specified through the <a href="https://msdn.microsoft.com/db707fd8-2190-4c4f-89fd-ab46d97f66a2">DD_MOTIONCOMPCALLBACKS</a> structure. If the driver does provide any of this support, is should initialize and return a DD_MOTIONCOMPCALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -218,7 +219,7 @@ GUID_NonLocalVidMemCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the nonlocal display memory capabilities specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551669">DD_NONLOCALVIDMEMCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NONLOCALVIDMEMCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the nonlocal display memory capabilities specified through the <a href="https://msdn.microsoft.com/1ccc7de7-e5a3-4dc0-9375-a54460d43936">DD_NONLOCALVIDMEMCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NONLOCALVIDMEMCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -228,7 +229,7 @@ GUID_NTCallbacks
 
 </td>
 <td>
-Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551673">DD_NTCALLBACKS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NTCALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the functionality specified through the <a href="https://msdn.microsoft.com/9d226b1c-6959-4cc8-9e60-b57a324d9a8a">DD_NTCALLBACKS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NTCALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -238,7 +239,7 @@ GUID_NTPrivateDriverCaps
 
 </td>
 <td>
-Queries whether the driver supports the Windows 98/Me-style surface creation techniques specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551676">DD_NTPRIVATEDRIVERCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NTPRIVATEDRIVERCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports the Windows 98/Me-style surface creation techniques specified through the <a href="https://msdn.microsoft.com/d802b080-cf94-400a-96c4-e765008dfc8a">DD_NTPRIVATEDRIVERCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NTPRIVATEDRIVERCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -248,7 +249,7 @@ GUID_UpdateNonLocalHeap
 
 </td>
 <td>
-Queries whether the driver supports retrieval of the base addresses of each nonlocal heap in turn. If the driver does provide this support, it should initialize and return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551748">DD_UPDATENONLOCALHEAPDATA</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports retrieval of the base addresses of each nonlocal heap in turn. If the driver does provide this support, it should initialize and return a <a href="https://msdn.microsoft.com/ef16df6f-dbc6-40ee-9c86-be9c3d132b28">DD_UPDATENONLOCALHEAPDATA</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -258,7 +259,7 @@ GUID_VideoPortCallbacks
 
 </td>
 <td>
-Queries whether the driver supports the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a>. If the driver does support VPE, it should initialize and return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551758">DD_VIDEOPORTCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a>. If the driver does support VPE, it should initialize and return a <a href="https://msdn.microsoft.com/5e03d240-f483-4ecf-8890-b9f0368e2b2f">DD_VIDEOPORTCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -268,7 +269,7 @@ GUID_VideoPortCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the VPE object capabilities specified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550376">DDVIDEOPORTCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDVIDEOPORTCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the VPE object capabilities specified through the <a href="https://msdn.microsoft.com/ea85f189-7308-48ad-b159-1809749f8183">DDVIDEOPORTCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDVIDEOPORTCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>

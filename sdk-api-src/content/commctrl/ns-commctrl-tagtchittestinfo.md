@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -61,7 +62,7 @@ Contains information about a hit test. This structure supersedes the
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 Position to hit test, in client coordinates. 
 
@@ -136,7 +137,7 @@ TCHT_ONITEM is a bitwise-OR operation on TCHT_ONITEMICON and TCHT_ONITEMLABEL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760604(v=VS.85).aspx">TCM_HITTEST</a>
+<a href="https://msdn.microsoft.com/0334f616-8d39-4460-a7f8-692a9ffab012">TCM_HITTEST</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -114,7 +115,7 @@ The transaction was aborted.
 
 
 
-Calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a> attempts to commit a transaction. However, the transaction aborts under the following conditions:
+Calling <a href="https://msdn.microsoft.com/3945fdf1-6361-413e-9621-18871ded47a4">Commit</a> attempts to commit a transaction. However, the transaction aborts under the following conditions:
 
 <ul>
 <li>If a participating object returns from a method after calling <a href="https://msdn.microsoft.com/c254305f-1fc5-417e-b93b-d5e2b36e9e39">SetAbort</a>.</li>

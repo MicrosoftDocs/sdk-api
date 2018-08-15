@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760585(v=VS.85).aspx">TCM_GETEXTENDEDSTYLE</a> message explicitly. 
+Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/983ffcbe-0d8d-4686-83de-fc564744390f">TCM_GETEXTENDEDSTYLE</a> message explicitly. 
 
 
 ## -parameters

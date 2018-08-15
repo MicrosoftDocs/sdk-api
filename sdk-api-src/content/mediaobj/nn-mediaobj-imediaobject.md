@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -93,7 +94,7 @@ Signals a discontinuity on the specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/c80001b8-5648-430a-b565-e90486c48ac5">Flush</a>
 </td>
 <td align="left" width="63%">
 Flushes all internally buffered data.

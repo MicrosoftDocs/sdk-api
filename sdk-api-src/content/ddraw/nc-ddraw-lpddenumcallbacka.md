@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -78,9 +79,9 @@ The <i>DDEnumCallback</i> function is an application-defined callback function f
 
 
 
-#### - lpGUID [in]
+#### - lpContext [in]
 
-A pointer to the unique identifier of the DirectDraw object.
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
 
 #### - lpDriverDescription [in]
@@ -93,9 +94,9 @@ Address of a string that contains the driver description.
 Address of a string that contains the driver name.
 
 
-#### - lpContext [in]
+#### - lpGUID [in]
 
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
+A pointer to the unique identifier of the DirectDraw object.
 
 
 ## -returns

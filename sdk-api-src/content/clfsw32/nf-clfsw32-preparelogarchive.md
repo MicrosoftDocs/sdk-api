@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -83,14 +84,14 @@ The size of the <i>pszBaseLogFileName</i> buffer, in wide characters.
 
 ### -param plsnLow [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the low end of the range of the  active log where the log client needs log archival information. 
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the low end of the range of the  active log where the log client needs log archival information. 
 
 If this parameter is omitted, the low end of the range defaults to the LSN of the log archive tail. 
 
 
 ### -param plsnHigh [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the LSN of the high end of the range of the  active log where the log client needs log archival information. 
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the LSN of the high end of the range of the  active log where the log client needs log archival information. 
 
 If this parameter is omitted, the high end of the range defaults to the next LSN to be written to the log.
 
@@ -116,17 +117,17 @@ A pointer to a variable  that specifies the exact length  of the base log, in by
 
 ### -param plsnBase [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure to receive the base log sequence number (LSN) of the active log.  
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure to receive the base log sequence number (LSN) of the active log.  
 
 
 ### -param plsnLast [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure to receive the highest valid LSN in the active log.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure to receive the highest valid LSN in the active log.
 
 
 ### -param plsnCurrentArchiveTail [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure to receive the current LSN of the archive tail of the log.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure to receive the current LSN of the archive tail of the log.
 
 
 ### -param ppvArchiveContext [out]
@@ -167,7 +168,7 @@ You can only perform one archive operation at a time per handle that  <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 

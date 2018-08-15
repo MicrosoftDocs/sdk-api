@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -86,19 +87,19 @@ Retrieves information about the currently mounted media, such as the total numbe
 
 
 
-#### - pbsessions [out]
-
-Number of sessions on the disc.
-
-
 #### - pblasttrack [out]
 
 Track number of the last track of the previous session.
 
 
-#### - ulstartaddress [out]
+#### - pbsessions [out]
 
-Start address of the last track of the previous session.
+Number of sessions on the disc.
+
+
+#### - ulfreeblocks [out]
+
+Number of blocks available for writing.
 
 
 #### - ulnextwritable [out]
@@ -106,9 +107,9 @@ Start address of the last track of the previous session.
 Address at which writing is to begin.
 
 
-#### - ulfreeblocks [out]
+#### - ulstartaddress [out]
 
-Number of blocks available for writing.
+Start address of the last track of the previous session.
 
 
 ## -returns

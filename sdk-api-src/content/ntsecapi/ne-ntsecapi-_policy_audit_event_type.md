@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -85,7 +86,7 @@ Determines whether the operating system must audit each instance of user attempt
 
 ### -field AuditCategoryPrivilegeUse
 
-Determines whether the operating system must audit each instance of user attempts to use  <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a>.
+Determines whether the operating system must audit each instance of user attempts to use  <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a>.
 
 
 ### -field AuditCategoryDetailedTracking

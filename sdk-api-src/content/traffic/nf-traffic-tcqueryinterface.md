@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>TcQueryInterface</b> function queries traffic control for related per-interface parameters. A traffic control parameter is queried by providing its globally unique identifier (GUID). Setting the <i>NotifyChange</i> parameter to <b>TRUE</b> enables event notification on the specified GUID, after which notification events are sent to a client whenever the queried parameter changes. GUIDs for which clients can request notification are found in the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> entry; the column titled "Notification" denotes which GUIDs are available for notification.
+<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a> entry; the column titled "Notification" denotes which GUIDs are available for notification.
 
 
 ## -parameters

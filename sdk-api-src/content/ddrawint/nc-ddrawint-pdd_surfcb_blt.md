@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <i>DdBlt</i> callback function performs a bit-block transfer.
 
 #### - lpBlt
 
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550474">DD_BLTDATA</a> structure that contains the information required for the driver to perform the blit.
+Points to the <a href="https://msdn.microsoft.com/e39bdfc4-89d0-4440-93d3-1b455cc9a8e5">DD_BLTDATA</a> structure that contains the information required for the driver to perform the blit.
 
 
 ## -returns
@@ -101,7 +102,7 @@ When performing transparent (color keyed) blts, drivers should ignore any unused
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550474">DD_BLTDATA</a>
+<a href="https://msdn.microsoft.com/e39bdfc4-89d0-4440-93d3-1b455cc9a8e5">DD_BLTDATA</a>
  
 
  

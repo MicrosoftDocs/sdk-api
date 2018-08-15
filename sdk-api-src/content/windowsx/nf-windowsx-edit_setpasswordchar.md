@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a> message explicitly.
+Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/9091892c-9f37-4e06-a084-9326c5f7f31e">EM_SETPASSWORDCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -78,7 +79,7 @@ The character to be displayed in place of the characters typed by the user. If t
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761653(v=VS.85).aspx">EM_SETPASSWORDCHAR</a>.
+For more information, see <a href="https://msdn.microsoft.com/9091892c-9f37-4e06-a084-9326c5f7f31e">EM_SETPASSWORDCHAR</a>.
 
 
 

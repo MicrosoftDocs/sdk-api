@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -141,7 +142,7 @@ In addition to the methods inherited from <a href="https://msdn.microsoft.com/61
 <a href="https://msdn.microsoft.com/5d9eb1c7-7022-4442-b67a-6a96fe5ce97f">Handling Events in C++</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
@@ -156,7 +157,7 @@ In addition to the methods inherited from <a href="https://msdn.microsoft.com/61
 </td>
 <td></td>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/ea1ded30-4fca-4208-9fc2-f93c169f33b6">Next</a>
 </td>
 </tr>
 </table> 

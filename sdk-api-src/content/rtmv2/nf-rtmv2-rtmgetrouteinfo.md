@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -78,16 +79,6 @@ TBD
 
 
 
-#### - RouteInfo [out]
-
-If a pointer must be returned: On input, <i>RouteInfo</i> is a pointer to <b>NULL</b>. On output, <i>RouteInfo</i> receives a pointer to the route; otherwise, <i>RouteInfo</i> remains unchanged. 
-
-
-
-
-If a pointer does not need to be returned: On input, <i>RouteInfo</i> is <b>NULL</b>.
-
-
 #### - DestAddress [out]
 
 If a pointer must be returned: On input, <i>DestAddress</i> is a pointer to <b>NULL</b>. On output, <i>DestAddress</i> receives a pointer to the destination's 
@@ -97,6 +88,16 @@ If a pointer must be returned: On input, <i>DestAddress</i> is a pointer to <b>N
 
 
 If a pointer does not need to be returned: On input, <i>DestAddress</i> is <b>NULL</b>.
+
+
+#### - RouteInfo [out]
+
+If a pointer must be returned: On input, <i>RouteInfo</i> is a pointer to <b>NULL</b>. On output, <i>RouteInfo</i> receives a pointer to the route; otherwise, <i>RouteInfo</i> remains unchanged. 
+
+
+
+
+If a pointer does not need to be returned: On input, <i>RouteInfo</i> is <b>NULL</b>.
 
 
 ## -returns

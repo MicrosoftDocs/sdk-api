@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -64,7 +65,7 @@ The <b>IWiaDataTransfer::idtGetExtendedTransferInfo</b> retrieves extended infor
 
 Type: <b>PWIA_EXTENDED_TRANSFER_INFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629876(v=VS.85).aspx">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
+Pointer to a <a href="https://msdn.microsoft.com/48b00b28-9e09-4493-80ba-38f41ba754e6">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
 
 
 ## -returns

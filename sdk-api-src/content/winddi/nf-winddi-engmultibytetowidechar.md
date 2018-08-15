@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -101,11 +102,11 @@ The <b>EngMultiByteToWideChar</b> function returns the number of bytes it conver
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565038">EngUnicodeToMultiByteN</a>
+<a href="https://msdn.microsoft.com/5c36322f-7a88-4c24-9f98-aaf3d30f3be4">EngUnicodeToMultiByteN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565466">EngWideCharToMultiByte</a>
+<a href="https://msdn.microsoft.com/db0ae856-f414-4ae9-9bc9-c719581873fd">EngWideCharToMultiByte</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,12 +61,12 @@ The DD_VPORTCOLORDATA structure contains the <a href="https://msdn.microsoft.com
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://msdn.microsoft.com/58e378b7-863a-46d4-91cb-904ed4e892a3">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551761">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
+Points to a <a href="https://msdn.microsoft.com/c497d1ef-0eb1-465f-978c-60cf5606de93">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
 
 
 ### -field dwFlags
@@ -103,7 +104,7 @@ The driver should set new values for the VPE object color controls based on the 
 
 ### -field lpColorData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549237">DDCOLORCONTROL</a> structure that defines the color control associated with the VPE object to which <b>lpVideoPort</b> points. The value of <b>dwFlags</b> determines whether the driver reads from or writes to this structure.
+Points to a <a href="https://msdn.microsoft.com/77c19de1-a046-4752-b9af-a9865861a493">DDCOLORCONTROL</a> structure that defines the color control associated with the VPE object to which <b>lpVideoPort</b> points. The value of <b>dwFlags</b> determines whether the driver reads from or writes to this structure.
 
 
 ### -field ddRVal
@@ -121,7 +122,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549237">DDCOLORCONTROL</a>
+<a href="https://msdn.microsoft.com/77c19de1-a046-4752-b9af-a9865861a493">DDCOLORCONTROL</a>
 
 
 

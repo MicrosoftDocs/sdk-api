@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -88,7 +89,7 @@ This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiInitiato
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/7bf00853-ca26-40b4-a09a-dcb5e7e08f49">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of an initiator portal.</p> (Inherited from <b>IVdsIscsiInitiatorPortal</b>)</td>

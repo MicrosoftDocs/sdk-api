@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -72,7 +73,7 @@ A handle to the thread for which to retrieve the ideal processor. This handle mu
 
 ### -param lpIdealProcessor [out]
 
-Points to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure to receive the number of the ideal processor.
+Points to <a href="https://msdn.microsoft.com/9005c6d4-07a9-4ce0-9ee2-54880d7244c3">PROCESSOR_NUMBER</a> structure to receive the number of the ideal processor.
 
 
 ## -returns

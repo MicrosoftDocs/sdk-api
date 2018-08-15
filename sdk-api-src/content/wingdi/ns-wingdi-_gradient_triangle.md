@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -85,7 +86,7 @@ The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i
 
 The following image shows an example of a triangle with a gradient fill.
 
-<img alt="Illustration of a triangle that fills from orange at the top point to magenta on the bottom line " border="0" src="./images/GradientFillTriangle.png"/>
+<img alt="Illustration of a triangle that fills from orange at the top point to magenta on the bottom line " border="0" src="images/GradientFillTriangle.png"/>
 
 #### Examples
 

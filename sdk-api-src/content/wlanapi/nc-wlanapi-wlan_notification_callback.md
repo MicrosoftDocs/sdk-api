@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wlanapi.h
 req.include-header: 
+req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,16 +72,16 @@ The <b>WLAN_NOTIFICATION_CALLBACK</b> callback function prototype defines the ty
 
 
 
+#### - context
+
+A pointer to the context information provided by the client when it registered for the notification.
+
+
 #### - data
 
 A pointer to a <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure that contains the notification information.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the wlan_notification_acm_connection_complete and wlan_notification_acm_disconnected notifications are available.
-
-
-#### - context
-
-A pointer to the context information provided by the client when it registered for the notification.
 
 
 ## -returns

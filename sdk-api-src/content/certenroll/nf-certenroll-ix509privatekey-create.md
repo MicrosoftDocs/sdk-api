@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -107,11 +108,11 @@ The key already exists.
 
 
 
-If you do not set the <a href="https://msdn.microsoft.com/8bf6e62d-9ecf-4eee-9652-f04d2010b4f7">CspStatus</a>, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a>, or <a href="https://msdn.microsoft.com/5f4d2e29-8c02-4d9c-a3a6-15c222650c3e">ProviderType</a> properties, this method uses the default provider, key size, and <a href="https://msdn.microsoft.com/163e0fb5-e5b1-48db-a90f-66984530f92f">KeySpec</a> values  when creating the key. On a new operating system installation, for example,  Microsoft Enhanced Cryptographic Provider v1.0 is the default provider.
+If you do not set the <a href="https://msdn.microsoft.com/8bf6e62d-9ecf-4eee-9652-f04d2010b4f7">CspStatus</a>, the <a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a>, or <a href="https://msdn.microsoft.com/5f4d2e29-8c02-4d9c-a3a6-15c222650c3e">ProviderType</a> properties, this method uses the default provider, key size, and <a href="https://msdn.microsoft.com/163e0fb5-e5b1-48db-a90f-66984530f92f">KeySpec</a> values  when creating the key. On a new operating system installation, for example,  Microsoft Enhanced Cryptographic Provider v1.0 is the default provider.
 
 If you do not set the <a href="https://msdn.microsoft.com/1d56fa7e-8113-461d-a4f0-ebc048fbcb49">ContainerName</a> property, this method automatically generates a name. The generated name includes a GUID and,  if the <a href="https://msdn.microsoft.com/af5a30dd-4707-4b38-bf6b-b971d854d5b0">ContainerNamePrefix</a> property is not set, a prefix of "lp-". If the provider is a smart card provider, the generated name will not exceed the <a href="https://msdn.microsoft.com/2508786f-0892-4ece-bbef-bd8ed9c81eee">MaxKeyContainerNameLength</a> value specified by the provider. If the generated name initially exceeds this value, it is truncated to forty characters.
 
-You cannot set the following properties after calling the <b>Create</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> methods. If you wish to specify them, you must do so before calling either of these methods.<ul>
+You cannot set the following properties after calling the <b>Create</b> or <a href="https://msdn.microsoft.com/965e3bf8-22b9-4015-8fb2-102c5f7b1cb5">Open</a> methods. If you wish to specify them, you must do so before calling either of these methods.<ul>
 <li>
 <a href="https://msdn.microsoft.com/40d2eae1-733a-4e5b-bb15-71301d73f438">Algorithm</a>
 </li>
@@ -128,7 +129,7 @@ You cannot set the following properties after calling the <b>Create</b> or <a hr
 <a href="https://msdn.microsoft.com/8bf6e62d-9ecf-4eee-9652-f04d2010b4f7">CspStatus</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915161">Description</a>
+<a href="https://msdn.microsoft.com/84889286-7740-4f4f-b095-1fb999702f9a">Description</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/0ef32207-1fb0-49a2-95cf-353f907f3fc6">Existing</a>
@@ -158,7 +159,7 @@ You cannot set the following properties after calling the <b>Create</b> or <a hr
 <a href="https://msdn.microsoft.com/bdc3278e-3b5a-4ad0-9e9b-9639a2db4040">MachineContext</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915743">ProviderName</a>
+<a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/5f4d2e29-8c02-4d9c-a3a6-15c222650c3e">ProviderType</a>

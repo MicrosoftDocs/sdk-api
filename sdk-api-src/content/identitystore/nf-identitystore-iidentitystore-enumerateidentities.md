@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: identitystore.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -61,7 +62,7 @@ The <b>EnumerateIdentities</b> method gets a pointer to an <a href="https://msdn
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401667(v=VS.85).aspx">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="security.identity_type">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
+req.redist: DbgHelp.dll 6.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -141,7 +142,7 @@ This member is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff797951(v=VS.85).aspx">SymbolServerCallback</a>
+<a href="base.symbolservercallback">SymbolServerCallback</a>
  
 
  

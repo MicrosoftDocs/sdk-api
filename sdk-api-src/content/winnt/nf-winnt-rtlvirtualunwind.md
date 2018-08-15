@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -145,7 +146,7 @@ The address of the function table entry for the specified function. To obtain th
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a> structure that represents the 
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that represents the 
       context of the previous frame.
 
 
@@ -202,7 +203,7 @@ The complete list of epilogue markers for x64 is as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">CONTEXT</a>
+<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
 
 
 

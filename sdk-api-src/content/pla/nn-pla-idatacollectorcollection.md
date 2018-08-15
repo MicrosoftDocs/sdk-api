@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -58,7 +59,7 @@ To get this interface, access the <a href="https://msdn.microsoft.com/1bcfc15e-b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataCollectorCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDataCollectorCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +75,7 @@ The <b>IDataCollectorCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/6302e144-74ef-4251-a857-d3e066c9763d">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a data collector to the collection.
@@ -92,7 +93,7 @@ Adds one or more data collectors to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://msdn.microsoft.com/be0840dc-e19a-454e-bbea-6968c7284cc8">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all data collectors from the collection.
@@ -119,7 +120,7 @@ Creates a data collector using the specified XML.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/7f5a6d20-d65a-477b-8886-8536315bc36e">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a data collector from the collection.
@@ -136,7 +137,7 @@ Removes a data collector from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://msdn.microsoft.com/05b97d37-9ccc-4856-a71a-77dd99eab8c2">_NewEnum</a>
 
 
 </td>
@@ -148,7 +149,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://msdn.microsoft.com/f18f5b40-35bb-472b-bd42-04b0a018dbf9">Count</a>
 
 
 </td>
@@ -160,7 +161,7 @@ Retrieves the number of data collectors in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/ab77b1ad-e09f-40fb-b285-d8a82b4b3528">Item</a>
 
 
 </td>

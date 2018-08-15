@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -97,7 +98,7 @@ When an image is removed, the indexes of the remaining images are adjusted so th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761405(v=VS.85).aspx">ImageList_RemoveAll</a>
+<a href="https://msdn.microsoft.com/ed52381a-d5a4-42b6-8782-dcfe41fef99f">ImageList_RemoveAll</a>
  
 
  

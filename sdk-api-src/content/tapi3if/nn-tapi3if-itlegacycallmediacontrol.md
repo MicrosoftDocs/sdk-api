@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyCallMediaControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITLegacyCallMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyCallMediaControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITLegacyCallMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +84,7 @@ The <b>ITLegacyCallMediaControl</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 Sets 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923108">mode</a> for digit detection.
+<a href="https://msdn.microsoft.com/69663f27-10e6-4dc1-bcab-728c83648912">mode</a> for digit detection.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ Sends digits to call destination.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a>
+<a href="https://msdn.microsoft.com/7516f929-d782-499b-a9fb-24c44a85aa9e">GetID</a>
 </td>
 <td align="left" width="63%">
 Gets identifier for device associated with the current call. This method is intended for Visual Basic and scripting applications.
@@ -135,7 +136,7 @@ Sets
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

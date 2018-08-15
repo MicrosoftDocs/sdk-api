@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
+The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
 
 The interface ID is IID_IAnchor.
 
@@ -82,7 +83,7 @@ Clears the change history flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/2c5e767a-5f66-4ecf-89f1-b27ed38e887b">Clone</a>
 </td>
 <td align="left" width="63%">
 Produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
@@ -91,7 +92,7 @@ Produces a new anchor object positioned at the same location, and with the same 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
+<a href="https://msdn.microsoft.com/227ed0c0-0bdd-49af-b5dc-fdb69913b9c1">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares the relative position of two anchors within a text stream.
@@ -118,7 +119,7 @@ Retrieves the gravity of the anchor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926880">IsEqual</a>
+<a href="https://msdn.microsoft.com/a2dedce7-f64d-406a-bebc-9a4b51a1ae38">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Specifies the equality or inequality of the positions of two anchors.
@@ -145,7 +146,7 @@ Sets the gravity of the anchor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593183">Shift</a>
+<a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">Shift</a>
 </td>
 <td align="left" width="63%">
 Shifts the anchor forward or backward.
@@ -178,11 +179,11 @@ Shifts the current anchor to the same position as another anchor.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
  
 
  

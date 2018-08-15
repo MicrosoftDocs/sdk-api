@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the check state of a radio button or check box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775986(v=VS.85).aspx">BM_GETCHECK</a> message explicitly. 
+Gets the check state of a radio button or check box. You can use this macro or send the <a href="https://msdn.microsoft.com/a25b2c8d-0b32-4807-bfb4-e277675924f1">BM_GETCHECK</a> message explicitly. 
 
 
 

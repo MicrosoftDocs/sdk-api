@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -68,7 +69,7 @@ The version of the Energy Metering Interface (EMI) that is supported by a device
 
 
 
-This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957440">IOCTL_EMI_GET_VERSION</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/6B27B70C-DB3C-4EF9-B8FF-8074B0285F87">IOCTL_EMI_GET_VERSION</a> IOCTL request.
 
 
 
@@ -78,11 +79,11 @@ This structure is returned through a successful completion of an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957431">Energy Metering Interface</a>
+<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957440">IOCTL_EMI_GET_VERSION</a>
+<a href="https://msdn.microsoft.com/6B27B70C-DB3C-4EF9-B8FF-8074B0285F87">IOCTL_EMI_GET_VERSION</a>
  
 
  

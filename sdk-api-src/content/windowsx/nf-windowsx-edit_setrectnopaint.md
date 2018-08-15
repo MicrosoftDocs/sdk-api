@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://msdn.microsoft.com/en-us/library/Bb849156(v=VS.85).aspx">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761659(v=VS.85).aspx">EM_SETRECTNP</a> message explicitly.
+Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://msdn.microsoft.com/8778dcc9-51d0-4ab8-8fc1-2eebcdf12c35">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://msdn.microsoft.com/1ab497ca-023f-4c26-b92d-b441a0d7b90c">EM_SETRECTNP</a> message explicitly.
 
 
 ## -parameters
@@ -68,9 +69,9 @@ A handle to the control.
 
 ### -param lprc
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the dimensions of the rectangle. If this parameter is <b>NULL</b>, the formatting rectangle is set to its default values. 
+A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that specifies the dimensions of the rectangle. If this parameter is <b>NULL</b>, the formatting rectangle is set to its default values. 
 
 
 ## -remarks
@@ -79,7 +80,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 <b>Rich Edit 3.0 and later.</b> This macro does not have full functionality, because it does not set the WPARAM of the message.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761659(v=VS.85).aspx">EM_SETRECTNP</a>.
+For more information, see <a href="https://msdn.microsoft.com/1ab497ca-023f-4c26-b92d-b441a0d7b90c">EM_SETRECTNP</a>.
 
 
 

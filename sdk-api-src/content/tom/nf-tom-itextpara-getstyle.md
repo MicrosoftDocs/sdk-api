@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -412,7 +413,7 @@ The Text Object Model (TOM) version 1.0 has no way to specify the meanings of us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -420,11 +421,11 @@ The Text Object Model (TOM) version 1.0 has no way to specify the meanings of us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787853(v=VS.85).aspx">SetStyle</a>
+<a href="https://msdn.microsoft.com/939e58d5-4bd8-4139-9e10-71b4850705f0">SetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-These values are returned by <a href="https://msdn.microsoft.com/en-us/library/Bb231367(v=VS.85).aspx">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
+These values are returned by <a href="https://msdn.microsoft.com/631f3ec2-cf8f-4c20-8933-c83bac4b3d58">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
 
 
 ## -enum-fields

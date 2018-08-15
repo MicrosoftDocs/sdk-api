@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -105,7 +106,7 @@ The denominator of the refresh rate of the current display mode.
 
 The refresh rate is expressed as a fraction. For example, if the refresh rate is 72 Hz, <b>FreqNumerator</b> = 72 and <b>FreqDenominator</b> = 1. For NTSC television, the values are <b>FreqNumerator</b> = 60000 and <b>FreqDenominator</b> = 1001 (59.94 fields per second). 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563157">DXVA_COPPStatusDisplayData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://msdn.microsoft.com/51a119a0-d5de-4df0-9c2b-c776e9af8c60">DXVA_COPPStatusDisplayData</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

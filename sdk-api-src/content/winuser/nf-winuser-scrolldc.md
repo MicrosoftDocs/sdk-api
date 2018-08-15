@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -86,19 +87,19 @@ Specifies the amount, in device units, of vertical scrolling. This parameter mus
 
 ### -param lprcScroll [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the coordinates of the bits to be scrolled. The only bits affected by the scroll operation are bits in the intersection of this rectangle and the rectangle specified by 
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates of the bits to be scrolled. The only bits affected by the scroll operation are bits in the intersection of this rectangle and the rectangle specified by 
 					<i>lprcClip</i>. If 
 					<i>lprcScroll</i> is <b>NULL</b>, the entire client area is used. 
 
 
 ### -param lprcClip [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the coordinates of the clipping rectangle. The only bits that will be painted are the bits that remain inside this rectangle after the scroll operation has been completed. If 
+					<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure containing the coordinates of the clipping rectangle. The only bits that will be painted are the bits that remain inside this rectangle after the scroll operation has been completed. If 
 					<i>lprcClip</i> is <b>NULL</b>, the entire client area is used. 
 
 
@@ -113,7 +114,7 @@ Handle to the region uncovered by the scrolling process. <b>ScrollDC</b> defines
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that receives the coordinates of the rectangle bounding the scrolling update region. This is the largest rectangular area that requires repainting. When the function returns, the values in the structure are in client coordinates, regardless of the mapping mode for the specified device context. This allows applications to use the update region in a call to the <a href="https://msdn.microsoft.com/b5b44efe-8045-4e54-89f9-1766689a053d">InvalidateRgn</a> function, if required. 
+Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that receives the coordinates of the rectangle bounding the scrolling update region. This is the largest rectangular area that requires repainting. When the function returns, the values in the structure are in client coordinates, regardless of the mapping mode for the specified device context. This allows applications to use the update region in a call to the <a href="https://msdn.microsoft.com/b5b44efe-8045-4e54-89f9-1766689a053d">InvalidateRgn</a> function, if required. 
 
 
 ## -returns
@@ -139,7 +140,7 @@ If the
 				<i>lprcUpdate</i> parameters are <b>NULL</b>, the system does not compute the update region. If 
 				<i>hrgnUpdate</i> is not <b>NULL</b>, the system proceeds as though it contains a valid handle to the region uncovered by the scrolling process (defined by <b>ScrollDC</b>). 
 
-When you must scroll the entire client area of a window, use the <a href="https://msdn.microsoft.com/en-us/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a> function. 
+When you must scroll the entire client area of a window, use the <a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a> function. 
 
 
 
@@ -157,7 +158,7 @@ When you must scroll the entire client area of a window, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 
@@ -165,7 +166,7 @@ When you must scroll the entire client area of a window, use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a>
+<a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a>
  
 
  

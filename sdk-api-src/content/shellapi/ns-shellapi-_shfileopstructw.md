@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -272,26 +273,6 @@ Type: <b>PCTSTR</b>
 A pointer to the title of a progress dialog box. This is a null-terminated string. This member is used only if <b>fFlags</b> includes the <b>FOF_SIMPLEPROGRESS</b> flag.
 
 
-##### - wFunc.FO_COPY
-
-Copy the files specified in the <b>pFrom</b> member to the location specified in the <b>pTo</b> member.
-
-
-##### - wFunc.FO_DELETE
-
-Delete the files specified in <b>pFrom</b>.
-
-
-##### - wFunc.FO_MOVE
-
-Move the files specified in <b>pFrom</b> to the location specified in <b>pTo</b>.
-
-
-##### - wFunc.FO_RENAME
-
-Rename the file specified in <b>pFrom</b>. You cannot use this flag to rename multiple files with a single function call. Use <b>FO_MOVE</b> instead.
-
-
 ##### - fFlags.FOF_ALLOWUNDO
 
 Preserve undo information, if possible. 
@@ -330,12 +311,6 @@ Respond with <b>Yes to All</b> for any dialog box that is displayed.
 Do not ask the user to confirm the creation of a new directory if the operation requires one to be created.
 
 
-##### - fFlags.FOF_NO_CONNECTED_ELEMENTS
-
-
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
-
-
 ##### - fFlags.FOF_NOCOPYSECURITYATTRIBS
 
 
@@ -355,6 +330,12 @@ Not used.
 ##### - fFlags.FOF_NORECURSION
 
 Only perform the operation in the local directory. Do not operate recursively into subdirectories, which is the default behavior.
+
+
+##### - fFlags.FOF_NO_CONNECTED_ELEMENTS
+
+
+<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
 
 
 ##### - fFlags.FOF_NO_UI
@@ -387,6 +368,26 @@ If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign 
 
 
 <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
+
+
+##### - wFunc.FO_COPY
+
+Copy the files specified in the <b>pFrom</b> member to the location specified in the <b>pTo</b> member.
+
+
+##### - wFunc.FO_DELETE
+
+Delete the files specified in <b>pFrom</b>.
+
+
+##### - wFunc.FO_MOVE
+
+Move the files specified in <b>pFrom</b> to the location specified in <b>pTo</b>.
+
+
+##### - wFunc.FO_RENAME
+
+Rename the file specified in <b>pFrom</b>. You cannot use this flag to rename multiple files with a single function call. Use <b>FO_MOVE</b> instead.
 
 
 ## -remarks

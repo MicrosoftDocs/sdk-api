@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves the specified number of <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> elements.
         
 
 
@@ -69,9 +70,9 @@ The number of elements to retrieve.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a>**</b>
 
-Retrieves a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
+Retrieves a pointer to an array of <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> elements.
 
 
 ### -param pceltFetched [in, out]

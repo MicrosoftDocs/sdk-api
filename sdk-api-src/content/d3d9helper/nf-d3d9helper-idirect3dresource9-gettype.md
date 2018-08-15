@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,9 +66,9 @@ Returns the type of the resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6b360fb1-4a5a-47a2-bef9-d8234770bf0c">D3DRESOURCETYPE</a></b>
 
-Returns a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
+Returns a member of the <a href="https://msdn.microsoft.com/6b360fb1-4a5a-47a2-bef9-d8234770bf0c">D3DRESOURCETYPE</a> enumerated type, identifying the type of the resource.
 
 
 
@@ -77,7 +78,7 @@ Returns a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb1726
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
  
 
  

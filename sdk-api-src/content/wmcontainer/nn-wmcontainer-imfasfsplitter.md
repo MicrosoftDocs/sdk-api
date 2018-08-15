@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -72,7 +73,7 @@ The <b>IMFASFSplitter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
+<a href="https://msdn.microsoft.com/be92c734-2bcb-4a7c-bd62-fb545c3c7762">Flush</a>
 </td>
 <td align="left" width="63%">
 Resets the ASF splitter and releases all pending samples.
@@ -81,7 +82,7 @@ Resets the ASF splitter and releases all pending samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
+<a href="https://msdn.microsoft.com/ba008e4a-98ad-4633-8b80-1d2ffce04b9c">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the option flags that are set on the ASF splitter.
@@ -117,7 +118,7 @@ Retrieves a list of currently selected streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/dd69c2f9-dabf-4bba-bb3b-75ec3208c189">Initialize</a>
 </td>
 <td align="left" width="63%">
 Resets the ASF splitter and configures it to receive ASF data.
@@ -144,7 +145,7 @@ Sets the streams to be parsed by the ASF splitter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/5c70e5a0-7dd5-49c5-af35-4d9568871b41">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets option flags on the ASF splitter.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>PATHOBJ_vGetBounds</b> function retrieves the bounding rectangle for the 
 
 ### -param ppo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure that describes the path for which a bounding rectangle is to be calculated.
+Pointer to a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure that describes the path for which a bounding rectangle is to be calculated.
 
 
 ### -param prectfx
@@ -83,7 +84,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a>
+<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
  
 
  

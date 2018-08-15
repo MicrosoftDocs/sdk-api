@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -76,7 +77,7 @@ Reserved; do not use.
 
 ### -field dcb
 
-The device-control block (<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a>) structure for RS-232 serial devices. A 
+The device-control block (<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>) structure for RS-232 serial devices. A 
 <b>DCB</b> structure is always present regardless of the port driver subtype specified in the device's 
 <a href="https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8">COMMPROP</a> structure.
 
@@ -122,7 +123,7 @@ If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541431">DCB</a>
+<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
 
 
 

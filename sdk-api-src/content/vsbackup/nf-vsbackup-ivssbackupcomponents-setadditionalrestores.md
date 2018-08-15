@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -104,15 +105,15 @@ The value of the string should not be <b>NULL</b>, and should contain the same c
 
 
 
+#### - bAdditionalResources [in]
+
+If the value of this parameter is <b>true</b>, additional restores of the component will follow this restore. If the value is <b>false</b>, additional restores of the component will not follow this restore.
+
+
 #### - componentType [in]
 
 Type of the component. See 
 <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
-
-
-#### - bAdditionalResources [in]
-
-If the value of this parameter is <b>true</b>, additional restores of the component will follow this restore. If the value is <b>false</b>, additional restores of the component will not follow this restore.
 
 
 ## -returns

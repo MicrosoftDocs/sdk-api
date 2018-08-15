@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -60,9 +61,9 @@ req.product: Windows Address Book 5.0
 
 The 
 <b>IWbemContext::GetNames</b> method returns a <b>SAFEARRAY</b> structure of all of the names of the named context values. After all the names are known, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a> can be called on each name to retrieve the value. This technique is a way of accessing the context values that is different from calling the 
+<a href="https://msdn.microsoft.com/e11fff37-aeb7-41c5-8639-ca0a7a144263">GetValue</a> can be called on each name to retrieve the value. This technique is a way of accessing the context values that is different from calling the 
 <a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">BeginEnumeration</a>, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>, and 
+<a href="https://msdn.microsoft.com/e316564c-a739-472b-b7a8-8acbf71e1c58">Next</a>, and 
 <a href="https://msdn.microsoft.com/bbd12aec-55ee-4cee-bf27-85f12467e06f">EndEnumeration</a> methods.
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -54,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The 
-<b>WSAStringToAddress</b> function converts a network address in its standard text   presentation form into its numeric binary form in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure, suitable for passing to Windows Sockets routines that take such a structure.
+<b>WSAStringToAddress</b> function converts a network address in its standard text   presentation form into its numeric binary form in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure, suitable for passing to Windows Sockets routines that take such a structure.
 
 
 ## -parameters
@@ -80,13 +81,13 @@ The
 
 ### -param lpAddress [out]
 
-A pointer to a buffer that is filled with a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure for the address string if the function succeeds.
+A pointer to a buffer that is filled with a  <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure for the address string if the function succeeds.
 
 
 ### -param lpAddressLength [in, out]
 
-A pointer to the length, in bytes, of the buffer pointed to by the <i>lpAddress</i> parameter. If the function call is successful, this parameter returns a pointer to the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure returned in the <i>lpAddress</i> parameter. If the specified buffer is not large enough, the function fails with a specific error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
+A pointer to the length, in bytes, of the buffer pointed to by the <i>lpAddress</i> parameter. If the function call is successful, this parameter returns a pointer to the size of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure returned in the <i>lpAddress</i> parameter. If the specified buffer is not large enough, the function fails with a specific error of 
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The return value for
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,19 +117,19 @@ The buffer pointed to by the <i>lpAddress</i> parameter is too small. Pass in a 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The functions was unable to translate the string into a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>. See the following Remarks section for more information.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>. See the following Remarks section for more information.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +141,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,13 +160,13 @@ There was insufficient memory to perform the operation.
 
 
 The 
-<b>WSAStringToAddress</b> function converts a network address in standard text   form into its numeric binary form in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure.
+<b>WSAStringToAddress</b> function converts a network address in standard text   form into its numeric binary form in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
 
 Any missing components of the address will be defaulted to a reasonable value, if possible. For example, a missing port number will default to zero. If the caller wants the translation to be done by a particular provider, it should supply the corresponding 
 <a href="https://msdn.microsoft.com/758c5553-056f-4ea5-a851-30ef641ffb14">WSAPROTOCOL_INFO</a> structure in the <i>lpProtocolInfo</i> parameter.
 
 The 
-<b>WSAStringToAddress</b> function fails (and returns WSAEINVAL) if the <b>sin_family</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570823">SOCKADDR_IN</a> structure, which is passed in the <i>lpAddress</i> parameter in the form of a 
+<b>WSAStringToAddress</b> function fails (and returns WSAEINVAL) if the <b>sin_family</b> member of the <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">SOCKADDR_IN</a> structure, which is passed in the <i>lpAddress</i> parameter in the form of a 
 <b>sockaddr</b> structure, is not set to AF_INET or AF_INET6. 
 
 Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was added on Windows XP with Service Pack 1 (SP1)and later. IPv6 must also be installed on the local computer for the <b>WSAStringToAddress</b> function to support IPv6 addresses. 
@@ -242,7 +243,7 @@ Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was adde
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

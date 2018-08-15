@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -84,7 +85,7 @@ If it fails, the method can return one of the following error values:
 
 You can call  <b>FlipToGDISurface</b> at the end of a page-flipping application to ensure that the display memory that the GDI writes to is visible.
 
-You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary surface so that normal windows, such as dialog boxes, can be displayed in full-screen mode. The hardware must have the <a href="https://msdn.microsoft.com/en-us/library/Gg426101(v=VS.85).aspx">DDCAPS2_CANRENDERWINDOWED</a> capability.
+You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary surface so that normal windows, such as dialog boxes, can be displayed in full-screen mode. The hardware must have the <a href="ddcaps.htm">DDCAPS2_CANRENDERWINDOWED</a> capability.
 
 <b>FlipToGDISurface</b> disables stereo autoflipping.
 

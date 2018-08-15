@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -65,7 +66,7 @@ The <b>SetQuality</b> method specifies the quality setting for the video stream.
 
 ### -param dwQuality [in]
 
-<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">frame rate</a>) to 100 (maximum image quality).
+<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="wmformat_glossary.htm">frame rate</a>) to 100 (maximum image quality).
 
 
 ## -returns

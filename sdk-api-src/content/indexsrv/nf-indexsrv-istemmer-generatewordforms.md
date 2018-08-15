@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 
+req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -133,7 +134,7 @@ Invalid argument. Either <i>pwcInBuf</i> or <i>pWordFormSink</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a>
+<a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a>
  
 
  

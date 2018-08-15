@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -66,7 +67,7 @@ Specifies the format that the path should be retrieved in. This can be one of th
 
 ### -param pbstrADsPath [out]
 
-Contains a pointer to a <b>BSTR</b> value the receives the object path. The caller must free this memory with the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function when it is no longer required.
+Contains a pointer to a <b>BSTR</b> value the receives the object path. The caller must free this memory with the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function when it is no longer required.
 
 
 ## -returns
@@ -97,7 +98,7 @@ For more information and other return values, see  <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

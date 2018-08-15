@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ Out-of-band enrollment
 <li>Call any initialization method implemented by the <b>IX509Enrollment</b> object.</li>
 <li>Call the <a href="https://msdn.microsoft.com/bc01a648-04c7-411e-8f7a-80f19433a200">CreateRequest</a> method.</li>
 <li>Store the request for a period of time such as days or weeks.</li>
-<li>Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method to create a request object when you are ready to enroll.</li>
+<li>Call the <a href="https://msdn.microsoft.com/3bf4ce4a-6556-403c-8334-a6bf01f074a3">Initialize</a> method to create a request object when you are ready to enroll.</li>
 <li>Populate the request object from your stored request.</li>
 <li>Call the <a href="https://msdn.microsoft.com/4ad33092-71c4-4ae1-a3a6-cef376d04c2d">InstallResponse</a> method.</li>
 </ol>
@@ -82,7 +83,7 @@ Out-of-band enrollment
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509Enrollment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509Enrollment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -127,7 +128,7 @@ Encodes a request, submits it to an appropriate certification authority (CA), an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/3bf4ce4a-6556-403c-8334-a6bf01f074a3">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the enrollment object and creates a default PKCS #10 request.
@@ -265,7 +266,7 @@ Specifies or retrieves  the ID of the window used to display the enrollment info
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="https://msdn.microsoft.com/dc754240-9c52-459e-9612-caf19eeb351c">Request</a>
 
 
 </td>
@@ -313,7 +314,7 @@ Specifies or retrieves a Boolean value that indicates whether a user interface i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/9ebceb0b-bd78-48a8-ae57-c11fda0fe8a6">Status</a>
 
 
 </td>
@@ -334,7 +335,7 @@ Retrieves an <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d787
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

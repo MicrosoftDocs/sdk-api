@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -71,17 +72,17 @@ The <b>IUIApplication</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a>
+<a href="https://msdn.microsoft.com/13e03acd-1a1e-48f9-b413-5a24d8b784d0">OnCreateUICommand</a>
 </td>
 <td align="left" width="63%">
-Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371534(v=VS.85).aspx">OnDestroyUICommand</a>
+<a href="https://msdn.microsoft.com/c25f2279-1227-4ce2-9787-c046479b3a33">OnDestroyUICommand</a>
 </td>
 <td align="left" width="63%">
 Called for each Command specified in the Ribbon framework markup when the application window is destroyed.
@@ -91,10 +92,10 @@ Called for each Command specified in the Ribbon framework markup when the applic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371537(v=VS.85).aspx">OnViewChanged</a>
+<a href="https://msdn.microsoft.com/9672131d-bc7a-4e7b-935e-cd38dff2bb5c">OnViewChanged</a>
 </td>
 <td align="left" width="63%">
-Called when the state of a  <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">View</a> changes.
+Called when the state of a  <a href="https://msdn.microsoft.com/e7549b8b-0f95-477a-9024-1a99ee1412c2">View</a> changes.
 
 </td>
 </tr>
@@ -106,7 +107,7 @@ Called when the state of a  <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -75,14 +76,14 @@ Retrieves the <a href="https://msdn.microsoft.com/22f52e3f-875e-4dde-8875-322863
 
 Type: <b>Variant</b>
 
-The zero-based index of the item to retrieve. This value must be less than the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a> property.
+The zero-based index of the item to retrieve. This value must be less than the value of the <a href="https://msdn.microsoft.com/a676593b-ea78-433d-a622-221028245c3a">Count</a> property.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 Object that receives the <a href="https://msdn.microsoft.com/22f52e3f-875e-4dde-8875-3228639bc7f1">FolderItemVerb</a> object.
 

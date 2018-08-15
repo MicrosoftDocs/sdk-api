@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -70,7 +71,7 @@ The magnification window.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 
-The filter mode, as set by <a href="https://msdn.microsoft.com/en-us/library/ms692396(v=VS.85).aspx">MagSetWindowFilterList</a>.
+The filter mode, as set by <a href="https://msdn.microsoft.com/7f640959-6d50-4742-aace-1b4f13ca472f">MagSetWindowFilterList</a>.
 
 
 ### -param count [in]
@@ -115,7 +116,7 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692396(v=VS.85).aspx">MagSetWindowFilterList</a>
+<a href="https://msdn.microsoft.com/7f640959-6d50-4742-aace-1b4f13ca472f">MagSetWindowFilterList</a>
  
 
  

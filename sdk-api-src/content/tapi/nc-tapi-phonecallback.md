@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: tapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -86,14 +87,14 @@ Parameter for the message.
 Parameter for the message.
 
 
-#### - dwMsg
-
-Line or call device message.
-
-
 #### - dwCallbackInstance
 
 Callback instance data passed back to the application in the callback. This <b>DWORD</b> is not interpreted by TAPI.
+
+
+#### - dwMsg
+
+Line or call device message.
 
 
 ## -returns

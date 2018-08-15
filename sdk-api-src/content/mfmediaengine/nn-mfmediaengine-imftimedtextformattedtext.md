@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -89,7 +90,7 @@ Gets the number of subformats in the formatted timed-text object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/0D734EF8-BE52-404D-BEEC-504ECB0F7107">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the text in the formatted timed-text object.

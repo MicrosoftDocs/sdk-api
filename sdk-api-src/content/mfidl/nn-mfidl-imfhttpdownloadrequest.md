@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -110,7 +111,7 @@ Invoked by Microsoft Media Foundation to send a HTTP or HTTPS request
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/BA560323-EE64-4423-B63A-F2B6FDE608DC">Close</a>
 </td>
 <td align="left" width="63%">
 Invoked by Microsoft Media Foundation to allow <b>IMFHttpDownloadRequest</b> to free any internal resources. It will also cancel the current request if it is still in progress.
@@ -191,7 +192,7 @@ Invoked by Microsoft Media Foundation to retrieve the total length of the resour
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt432962">GetURL</a>
+<a href="https://msdn.microsoft.com/38FAD6B8-8C50-492C-BC53-6F301D49083F">GetURL</a>
 </td>
 <td align="left" width="63%">
 Returns the URL that is used for sending the request. 

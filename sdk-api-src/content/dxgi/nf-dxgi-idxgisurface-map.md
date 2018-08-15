@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,9 +63,9 @@ Get a pointer to the data contained in the surface, and deny GPU access to the s
 
 ### -param pLockedRect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173063(v=VS.85).aspx">DXGI_MAPPED_RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9f5e33d9-3b82-4b5e-8ddc-aacd581b829b">DXGI_MAPPED_RECT</a>*</b>
 
-A pointer to the surface data (see <a href="https://msdn.microsoft.com/en-us/library/Bb173063(v=VS.85).aspx">DXGI_MAPPED_RECT</a>).
+A pointer to the surface data (see <a href="https://msdn.microsoft.com/9f5e33d9-3b82-4b5e-8ddc-aacd581b829b">DXGI_MAPPED_RECT</a>).
 
 
 ### -param MapFlags
@@ -85,9 +86,9 @@ CPU read-write flags. These flags can be combined with a logical OR.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 
@@ -96,7 +97,7 @@ Returns S_OK if successful; otherwise, returns one of the error codes that are d
 
 
 
-Use <b>IDXGISurface::Map</b> to access a surface from the CPU. To release a mapped surface (and allow GPU access) call <a href="https://msdn.microsoft.com/en-us/library/Bb174568(v=VS.85).aspx">IDXGISurface::Unmap</a>.
+Use <b>IDXGISurface::Map</b> to access a surface from the CPU. To release a mapped surface (and allow GPU access) call <a href="https://msdn.microsoft.com/cf685888-422d-4559-9b0c-7d1335d22906">IDXGISurface::Unmap</a>.
 
 
 
@@ -106,7 +107,7 @@ Use <b>IDXGISurface::Map</b> to access a surface from the CPU. To release a mapp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>
+<a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -64,7 +65,7 @@ The <b>SetupWriteTextLog</b> function writes a log entry in a <a href="devinst.s
 
 ### -param LogToken [in]
 
-A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a>.
+A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
 
 
 ### -param Category [in]
@@ -114,7 +115,7 @@ None
 
 
 
-If the value of <i>LogToken</i> was returned by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a> and the corresponding text log section can be found, <b>SetupWriteTextLog</b> writes the log entry in that text log section. If <b>SetupWriteTextLog</b> cannot locate the section, <b>SetupWriteTextLog</b> writes the log entry in the corresponding text log, but does not include the log entry in a section.
+If the value of <i>LogToken</i> was returned by a call to <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a> and the corresponding text log section can be found, <b>SetupWriteTextLog</b> writes the log entry in that text log section. If <b>SetupWriteTextLog</b> cannot locate the section, <b>SetupWriteTextLog</b> writes the log entry in the corresponding text log, but does not include the log entry in a section.
 
 If the value of <i>LogToken</i> is one of the system-defined log tokens listed in the following table, <b>SetupWriteTextLog</b> performs the write operation that is indicated for that log token.
 
@@ -182,7 +183,7 @@ The event category for the log entry is not enabled for the text log. For more i
 </ul>
 The maximum length, in characters, of a log entry is 336.
 
-To write information about a SetupAPI-specific error or a Win32 error in a text log, an application can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552232">SetupWriteTextLogError</a>.
+To write information about a SetupAPI-specific error or a Win32 error in a text log, an application can use <a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>.
 
 For general information about writing log entries in the SetupAPI text logs, see <a href="devinst.setupapi_logging__windows_vista_and_later_">SetupAPI Logging (Windows Vista and Later)</a>. 
 
@@ -200,11 +201,11 @@ For more information about using log tokens, see <a href="devinst.setting_and_ge
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552211">SetupGetThreadLogToken</a>
+<a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552232">SetupWriteTextLogError</a>
+<a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>
  
 
  

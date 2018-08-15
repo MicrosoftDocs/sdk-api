@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -88,7 +89,7 @@ This function enables an application to override the system language setting, an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775676(v=VS.85).aspx">GetMUILanguage</a>
+<a href="https://msdn.microsoft.com/e034cd63-ffe5-4b48-8e23-248fe22b884a">GetMUILanguage</a>
  
 
  

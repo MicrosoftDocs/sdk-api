@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -74,7 +75,7 @@ A null-terminated string that specifies the command line property settings. This
 <a href="https://msdn.microsoft.com/b7b715e7-e92c-4b84-b60d-a0ff8412749b">About Properties</a>.
 
 To perform an administrative installation, include ACTION=ADMIN in <i>szCommandLine</i>. For more information, see the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt270124">ACTION</a> property.
+<a href="https://msdn.microsoft.com/f2c436b6-ebd9-4ac4-8609-f54129023ca7">ACTION</a> property.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The function completes successfully.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>.
+<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
 
 </td>
 </tr>
@@ -145,7 +146,7 @@ The
 <li>You can completely remove a product by setting REMOVE=ALL in <i>szCommandLine</i>.</li>
 </ul>
 For more information, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">REMOVE</a> Property.
+<a href="https://msdn.microsoft.com/39f4609a-7bf8-42b3-b23e-0d6a40b69fd3">REMOVE</a> Property.
 
 
 
@@ -159,7 +160,7 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938542">Error Codes</a>
+<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>
 
 
 

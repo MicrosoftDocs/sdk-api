@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -140,7 +141,7 @@ The state of the type library is not valid for this operation.
 
 
 
-Valid <i>uLibFlags</i> values are listed in <a href="https://msdn.microsoft.com/en-us/library/ms221149(v=VS.85).aspx">LIBFLAGS</a>. 
+Valid <i>uLibFlags</i> values are listed in <a href="2C5ECBAF-CE6C-4BE1-A3FA-1066DD6E716D">LIBFLAGS</a>. 
 
 
 

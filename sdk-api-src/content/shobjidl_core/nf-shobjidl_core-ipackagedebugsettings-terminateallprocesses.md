@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -77,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method does not suspend the processes first. To test suspension followed by termination, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a> method before calling <a href="https://msdn.microsoft.com/54be6d31-c9b9-41c6-a90f-31f6b9caef70">TerminateAllProcesses</a>.
+This method does not suspend the processes first. To test suspension followed by termination, call the <a href="https://msdn.microsoft.com/83f44285-46ed-4968-b0af-7964dfacf602">Suspend</a> method before calling <a href="https://msdn.microsoft.com/54be6d31-c9b9-41c6-a90f-31f6b9caef70">TerminateAllProcesses</a>.
 
 
 

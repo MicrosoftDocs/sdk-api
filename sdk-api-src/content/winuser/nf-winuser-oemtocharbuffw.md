@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -104,7 +105,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
+Unlike the <a href="https://msdn.microsoft.com/2336b758-7b57-44d2-b3ce-34054128a26d">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
 				<i>lpszSrc</i>. The <b>OemToCharBuff</b> function converts all 
 				<i>cchDstLength</i> characters.
 
@@ -116,11 +117,11 @@ Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647473(v=VS.85).aspx">CharToOem</a>
+<a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a622e">CharToOem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319646(v=VS.85).aspx">CharToOemBuff</a>
+<a href="https://msdn.microsoft.com/5b9a968f-c325-48a1-bcc8-79aa5f286bdf">CharToOemBuff</a>
 
 
 
@@ -128,7 +129,7 @@ Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).aspx">OemToChar</a>
+<a href="https://msdn.microsoft.com/2336b758-7b57-44d2-b3ce-34054128a26d">OemToChar</a>
 
 
 
@@ -136,7 +137,7 @@ Unlike the <a href="https://msdn.microsoft.com/en-us/library/ms647493(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>
+<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
  
 
  

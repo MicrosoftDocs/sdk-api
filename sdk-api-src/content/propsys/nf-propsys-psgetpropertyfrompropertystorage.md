@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -102,7 +103,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store through <a href="shell.PSCreateMemoryPropertyStore">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="https://msdn.microsoft.com/5b6d14ba-3de3-493e-8551-0f3caa02f339">IPersistSerializedPropStorage::SetPropertyStorage</a>, and by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> to retrieve the properties.
+This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store through <a href="shell.PSCreateMemoryPropertyStore">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="https://msdn.microsoft.com/5b6d14ba-3de3-493e-8551-0f3caa02f339">IPersistSerializedPropStorage::SetPropertyStorage</a>, and by using <a href="shell.IPropertyStore">IPropertyStore</a> to retrieve the properties.
 
 Note that <a href="shell.PSGetPropertyFromPropertyStorage">PSGetPropertyFromPropertyStorage</a> works only on serialized buffers created by the system implementation of <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>. You must first obtain a memory property store by calling <a href="shell.PSCreateMemoryPropertyStore">PSCreateMemoryPropertyStore</a>. That store can then create a serialized buffer using the <b>IPersistSerializedPropStorage</b> interface.
 

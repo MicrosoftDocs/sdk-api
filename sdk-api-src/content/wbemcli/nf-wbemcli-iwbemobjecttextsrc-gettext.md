@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -218,7 +219,7 @@ If <b>TRUE</b>, the class origin attribute is set on <b>PROPERTY</b> and <b>METH
 
 ### -param strText
 
-Textual representation of the object. User must free the string using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when finished with <i>strText</i>.
+Textual representation of the object. User must free the string using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when finished with <i>strText</i>.
 
 
 ## -returns

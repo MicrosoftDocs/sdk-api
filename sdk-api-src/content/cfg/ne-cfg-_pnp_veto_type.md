@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfg.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -273,19 +274,19 @@ A Windows service name.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539722">CM_Query_And_Remove_SubTree</a>
+<a href="https://msdn.microsoft.com/0a80cddd-d5be-42cb-ba11-0a3292b973a3">CM_Query_And_Remove_SubTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539727">CM_Query_And_Remove_SubTree_Ex</a>
+<a href="https://msdn.microsoft.com/c8a3af37-0886-4187-9cdb-49616bcb04a9">CM_Query_And_Remove_SubTree_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539806">CM_Request_Device_Eject</a>
+<a href="https://msdn.microsoft.com/a73317c8-52e4-4f2c-855c-94259dc77846">CM_Request_Device_Eject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539807">CM_Request_Device_Eject_Ex</a>
+<a href="https://msdn.microsoft.com/80285999-7bcb-4a11-8047-f64cd52cf95a">CM_Request_Device_Eject_Ex</a>
  
 
  

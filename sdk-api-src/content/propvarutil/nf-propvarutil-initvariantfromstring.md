@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure with a string.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a string.
 
 
 ## -parameters
@@ -63,14 +64,14 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 Type: <b>PCWSTR</b>
 
-Pointer to a buffer that contains the source Unicode string. If this value is <b>NULL</b>, the function initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> with a <b>NULL</b> <b>BSTR</b>.
+Pointer to a buffer that contains the source Unicode string. If this value is <b>NULL</b>, the function initializes the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> with a <b>NULL</b> <b>BSTR</b>.
 
 
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns

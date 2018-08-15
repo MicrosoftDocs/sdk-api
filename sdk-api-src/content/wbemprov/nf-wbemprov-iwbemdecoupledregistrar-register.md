@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -108,9 +109,9 @@ Reserved for future use.
 Reserved for future use.
 
 
-#### - strUser [in]
+#### - pUnknown [in]
 
-String identifying the user for this registration.
+Pointer to an object for particular registration. This interface will be queried to determine the interface support that the object is capable of servicing.
 
 
 #### - strLocal [in]
@@ -118,19 +119,19 @@ String identifying the user for this registration.
 String identifying the locale for this registration.
 
 
-#### - strScope [in]
-
-Object path representing the binding to a WMI provider registration object in a specified namespace. The scope object path can be <b>NULL</b>, indicating that the provider will support all namespaces.
-
-
 #### - strRegistration [in]
 
 Name of the provider being registered.
 
 
-#### - pUnknown [in]
+#### - strScope [in]
 
-Pointer to an object for particular registration. This interface will be queried to determine the interface support that the object is capable of servicing.
+Object path representing the binding to a WMI provider registration object in a specified namespace. The scope object path can be <b>NULL</b>, indicating that the provider will support all namespaces.
+
+
+#### - strUser [in]
+
+String identifying the user for this registration.
 
 
 ## -returns

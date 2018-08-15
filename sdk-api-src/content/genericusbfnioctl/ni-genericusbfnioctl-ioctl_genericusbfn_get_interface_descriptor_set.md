@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -66,22 +67,22 @@ This I/O control code (IOCTL) is sent by a user-mode service or application to g
 
 ### -input-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187998">USBFN_INTERFACE_INFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/54647A9E-E0AB-4DE7-93FB-D0232D6AC646">USBFN_INTERFACE_INFO</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187998">USBFN_INTERFACE_INFO</a> structure.
+The size of a <a href="https://msdn.microsoft.com/54647A9E-E0AB-4DE7-93FB-D0232D6AC646">USBFN_INTERFACE_INFO</a> structure.
 
 
 ### -output-buffer
 
-A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187998">USBFN_INTERFACE_INFO</a> structure. The USB function class extension (UFX) populates the structure with the entire interface descriptor set including its endpoint descriptors.
+A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/54647A9E-E0AB-4DE7-93FB-D0232D6AC646">USBFN_INTERFACE_INFO</a> structure. The USB function class extension (UFX) populates the structure with the entire interface descriptor set including its endpoint descriptors.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187998">USBFN_INTERFACE_INFO</a>.
+The size of a <a href="https://msdn.microsoft.com/54647A9E-E0AB-4DE7-93FB-D0232D6AC646">USBFN_INTERFACE_INFO</a>.
 
 
 ### -in-out-buffer
@@ -111,11 +112,11 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 
 
-This request must be sent after sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187868">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the <a href="https://msdn.microsoft.com/A8CE2698-B2EF-409A-8251-7419F76D47BC">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a> request.
 
 The length of the entire interface descriptor is variable. The class driver might need to send this IOCTL request twice to get the entire descriptor set.
 
-If the length of the entire descriptor set is greater than the  specified output buffer length, UFX sets the <b>Size</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187998">USBFN_INTERFACE_INFO</a> to the actual buffer length and fails the request with STATUS_BUFFER_TOO_SMALL. The driver must then allocated an output buffer of length specified by <b>Size</b> and resend the request. 
+If the length of the entire descriptor set is greater than the  specified output buffer length, UFX sets the <b>Size</b> member of <a href="https://msdn.microsoft.com/54647A9E-E0AB-4DE7-93FB-D0232D6AC646">USBFN_INTERFACE_INFO</a> to the actual buffer length and fails the request with STATUS_BUFFER_TOO_SMALL. The driver must then allocated an output buffer of length specified by <b>Size</b> and resend the request. 
 
 If this I/O control code (IOCTL) is being called synchronously, set the <i>lpOverlapped</i> parameter to NULL. If this IOCTL is called asynchronously, assign the <i>lpOverlapped</i> parameter to a pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that contains a handle to an event object. The event objects signal when the operation is completed.
 

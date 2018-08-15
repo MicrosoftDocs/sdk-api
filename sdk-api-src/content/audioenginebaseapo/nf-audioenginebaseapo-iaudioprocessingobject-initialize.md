@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later Windows operating systems.
 req.target-min-winversvr: 
@@ -159,7 +160,7 @@ APOInitBaseStruct APOInit;
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151545">APOInitBaseStruct</a>
+<a href="https://msdn.microsoft.com/15C973AE-B0E8-42FD-9F34-671A6A915B47">APOInitBaseStruct</a>
  
 
  

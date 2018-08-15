@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -56,12 +57,12 @@ The <b>IADsPropertyList</b> interface is used to modify, read, and update a list
 
 Call the methods of the <b>IADsPropertyList</b> interface to examine and manipulate the property list on the client. Before calling the methods of this interface, you must call  <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs::GetInfo</a> or  <a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">IADs::GetInfoEx</a> explicitly to load the assigned property values of the object into the cache. After calling the methods of this interface, you must call  <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs::SetInfo</a> to save the changes in the persistent store of the underlying directory.
 
-To obtain the property list of an ADSI object, bind to its <b>IADsPropertyList</b> interface. You must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a> method before calling other methods of property list object, if the property cache has not been initialized.
+To obtain the property list of an ADSI object, bind to its <b>IADsPropertyList</b> interface. You must call the <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">GetInfo</a> method before calling other methods of property list object, if the property cache has not been initialized.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPropertyList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyList</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsPropertyList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -86,7 +87,7 @@ Gets the value of a named property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/6e103872-ea2e-4178-9c8a-b958ae3bcf85">Item</a>
 </td>
 <td align="left" width="63%">
 Gets a property that is specified by name or by index.
@@ -95,7 +96,7 @@ Gets a property that is specified by name or by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/2a12ba88-363b-41e3-bd05-8a71f5317097">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next item in the property list.
@@ -122,7 +123,7 @@ Puts the value of a named property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/ca9f92e5-d81f-40e5-8223-38fd8312ef7c">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves back to the start of the list.
@@ -140,7 +141,7 @@ Resets the value of a named property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/3bbdf1e8-444c-4d5e-83df-95a1f4fd7508">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the property list.
@@ -195,7 +196,7 @@ Gets the number of properties in the property list.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

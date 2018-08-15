@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -139,7 +140,7 @@ If you specify a "license state" constant, the returned data is a pointer to a <
 <tr>
 <td>g_wszWMDRM_LicenseState_CopyToSDMIDevice</td>
 <td>"LicenseStateData.Transfer.SDMI"</td>
-<td>License restrictions on copying the file to an <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
+<td>License restrictions on copying the file to an <a href="wmformat_glossary.htm">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
 
 </td>
 </tr>

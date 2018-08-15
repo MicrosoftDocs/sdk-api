@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>XFORMOBJ_bApplyXform</b> function applies the given transform or its inve
 
 ### -param pxo
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
+Pointer to a <a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
 
 
 ### -param __out_validated [in]
@@ -79,7 +80,7 @@ XF_INV_FXTOL
 
 </td>
 <td>
-Applies the inverse of the transform to POINTFIX structures to get <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structures.
+Applies the inverse of the transform to POINTFIX structures to get <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structures.
 
 </td>
 </tr>
@@ -146,7 +147,7 @@ The return value is <b>TRUE</b> if all points were transformed without overflow.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570618">XFORMOBJ</a>
+<a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a>
  
 
  

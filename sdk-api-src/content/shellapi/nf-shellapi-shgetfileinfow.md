@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -225,14 +226,14 @@ Indicates that the function should not attempt to access the file specified by <
 <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Apply the appropriate overlays to the file's icon. The <b>SHGFI_ICON</b> flag must also be set.
 
 
-##### - uFlags.SHGFI_ATTR_SPECIFIED (0x000020000)
-
-Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
-
-
 ##### - uFlags.SHGFI_ATTRIBUTES (0x000000800)
 
 Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</b> member of the structure specified in the <i>psfi</i> parameter. These are the same attributes that are obtained from <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>.
+
+
+##### - uFlags.SHGFI_ATTR_SPECIFIED (0x000020000)
+
+Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
 
 
 ##### - uFlags.SHGFI_DISPLAYNAME (0x000000200)
@@ -386,9 +387,9 @@ Console application or .bat file
 
 You should call this function from a background thread. Failure to do so could cause the UI to stop responding.
 
-If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
+If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when you no longer need it.
 
-<div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://msdn.microsoft.com/en-us/library/Bb761389(v=VS.85).aspx">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
+<div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://msdn.microsoft.com/01a96f65-51eb-489f-b6e4-234309f2077b">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
 <div> </div>
 You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> prior to calling <b>SHGetFileInfo</b>.
 

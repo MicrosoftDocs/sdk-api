@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -115,19 +116,19 @@ If there is a friendly name in the registry key for the class, this routine retu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550909">SetupDiBuildClassInfoList</a>
+<a href="https://msdn.microsoft.com/a01b1f8f-55af-4053-8c31-9329ef36f2ce">SetupDiBuildClassInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550911">SetupDiBuildClassInfoListEx</a>
+<a href="https://msdn.microsoft.com/32c6c548-79f8-41be-ad9a-5456972a16eb">SetupDiBuildClassInfoListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551103">SetupDiGetDeviceInfoListDetail</a>
+<a href="https://msdn.microsoft.com/3f624882-9ccc-4be1-92aa-8bba9f0022ea">SetupDiGetDeviceInfoListDetail</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552010">SetupDiGetINFClass</a>
+<a href="https://msdn.microsoft.com/03e66c5b-9b76-4a40-8bd4-f640b689ce27">SetupDiGetINFClass</a>
  
 
  

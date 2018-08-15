@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: x3daudio.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -72,7 +73,7 @@ Speed of sound, in user-defined world units per second. Use this value only for 
 
 ### -param Instance [out]
 
-3D audio instance handle. Use this handle when you call <a href="https://msdn.microsoft.com/en-us/library/Ee419052(v=VS.85).aspx">X3DAudioCalculate</a>.
+3D audio instance handle. Use this handle when you call <a href="https://msdn.microsoft.com/d6b05917-9253-4c05-a318-ff13d9a329eb">X3DAudioCalculate</a>.
 
 
 ## -returns
@@ -103,7 +104,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">Functions</a>
  
 
  

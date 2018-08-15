@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -74,17 +75,17 @@ If this member is set to <b>MsV1_0Lm20Logon</b>, the MSV1_0 package ignores the 
 
 ### -field LogonDomainName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain (or mixed domain) that is in the trusted domain list of this computer. If the logon domain name is not known (for example, for clients that do not supply this information), this member should be passed in as a zero-length string. This domain is the authenticating authority.
+A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain (or mixed domain) that is in the trusted domain list of this computer. If the logon domain name is not known (for example, for clients that do not supply this information), this member should be passed in as a zero-length string. This domain is the authenticating authority.
 
 
 ### -field UserName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that represents the account name of the user. The name can be up to 255 bytes long. The name is treated as case insensitive.
+A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that represents the account name of the user. The name can be up to 255 bytes long. The name is treated as case insensitive.
 
 
 ### -field Workstation
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> that contains the computer name of the client workstation from which the user logon request was initiated.
+A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that contains the computer name of the client workstation from which the user logon request was initiated.
 
 
 ### -field ChallengeToClient
@@ -101,7 +102,7 @@ Contains some function of the case-sensitive <a href="https://msdn.microsoft.com
 
 
 
-Some clients will simply supply the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> case-sensitive <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> password. In that case, this member points to that <i>plaintext</i> password. The 
+Some clients will simply supply the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> case-sensitive <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> password. In that case, this member points to that <i>plaintext</i> password. The 
 <a href="https://msdn.microsoft.com/8b85588d-0a79-43af-b526-7a5fc8248f99">MSV1_0 Authentication Package</a> may accept this nonencrypted form depending on a configuration option.
 
 Some clients do not support case-sensitive <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> passwords. In that case, this member should  contain a zero-length string.
@@ -114,7 +115,7 @@ Contains some function of the case-insensitive multiple-byte character set (MBCS
 
 
 
-Clients that  support only MBCS and not <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a>  supply a <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> case-insensitive MBCS password. In that case, this member points to that <i>plaintext</i> password. The MSV1_0 authentication package will accept this nonencrypted form depending on a configuration option.
+Clients that  support only MBCS and not <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a>  supply a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> case-insensitive MBCS password. In that case, this member points to that <i>plaintext</i> password. The MSV1_0 authentication package will accept this nonencrypted form depending on a configuration option.
 
 
 ### -field ParameterControl
@@ -133,7 +134,7 @@ Specifies attributes of the other parameters. This can be one or more of the fol
 </dl>
 </td>
 <td width="60%">
-LanMan2.0 or LanMan1.0 send a <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> password instead of a challenge response. To allow plaintext passwords to be used in the NetworkLogon message, an application must supply this flag.
+LanMan2.0 or LanMan1.0 send a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> password instead of a challenge response. To allow plaintext passwords to be used in the NetworkLogon message, an application must supply this flag.
 
 </td>
 </tr>

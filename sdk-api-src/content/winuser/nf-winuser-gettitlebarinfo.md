@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -72,7 +73,7 @@ A handle to the title bar whose information is to be retrieved.
 
 Type: <b>PTITLEBARINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(TITLEBARINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/85987d3a-6abb-4692-9e50-ce1f71d7be74">TITLEBARINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(TITLEBARINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -102,11 +103,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a>
+<a href="https://msdn.microsoft.com/85987d3a-6abb-4692-9e50-ce1f71d7be74">TITLEBARINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

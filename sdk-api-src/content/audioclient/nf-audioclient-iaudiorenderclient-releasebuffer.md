@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -164,11 +165,11 @@ Parameter <i>dwFlags</i> is not a valid value.
 
 The client must release the same number of frames that it requested in the preceding call to the <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">IAudioRenderClient::GetBuffer</a> method. The single exception to this rule is that the client can always call <b>ReleaseBuffer</b> to release 0 frames (unless the stream is exclusive mode and uses event-driven buffering).
 
-This behavior provides a convenient means for the client to "release" a previously requested packet of length 0. In this case, the call to <b>ReleaseBuffer</b> is optional. After calling <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> to obtain a packet of length 0, the client has the option of not calling <b>ReleaseBuffer</b> before calling <b>GetBuffer</b> again.
+This behavior provides a convenient means for the client to "release" a previously requested packet of length 0. In this case, the call to <b>ReleaseBuffer</b> is optional. After calling <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">GetBuffer</a> to obtain a packet of length 0, the client has the option of not calling <b>ReleaseBuffer</b> before calling <b>GetBuffer</b> again.
 
-In addition, if the preceding <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> call obtained a packet of nonzero size, calling <b>ReleaseBuffer</b> with <i>NumFramesRequested</i> set to 0 will succeed (unless the stream is exclusive mode and uses event-driven buffering). The meaning of the call is that the client wrote no data to the packet before releasing it. Thus, the method treats the portion of the buffer represented by the packet as unused and will make this portion of the buffer available again to the client in the next <b>GetBuffer</b> call.
+In addition, if the preceding <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">GetBuffer</a> call obtained a packet of nonzero size, calling <b>ReleaseBuffer</b> with <i>NumFramesRequested</i> set to 0 will succeed (unless the stream is exclusive mode and uses event-driven buffering). The meaning of the call is that the client wrote no data to the packet before releasing it. Thus, the method treats the portion of the buffer represented by the packet as unused and will make this portion of the buffer available again to the client in the next <b>GetBuffer</b> call.
 
-Clients should avoid excessive delays between the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> call that acquires a buffer and the <b>ReleaseBuffer</b> call that releases the buffer. The implementation of the audio engine assumes that the <b>GetBuffer</b> call and the corresponding <b>ReleaseBuffer</b> call occur within the same buffer-processing period. Clients that delay releasing a buffer for more than one period risk losing sample data.
+Clients should avoid excessive delays between the <a href="https://msdn.microsoft.com/c2a0d46b-e8d4-4c51-9810-5580504c9731">GetBuffer</a> call that acquires a buffer and the <b>ReleaseBuffer</b> call that releases the buffer. The implementation of the audio engine assumes that the <b>GetBuffer</b> call and the corresponding <b>ReleaseBuffer</b> call occur within the same buffer-processing period. Clients that delay releasing a buffer for more than one period risk losing sample data.
 
 For code examples that call the <b>ReleaseBuffer</b> method, see the following topics:
 

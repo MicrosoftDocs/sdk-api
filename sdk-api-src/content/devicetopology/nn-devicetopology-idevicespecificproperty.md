@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -86,7 +87,7 @@ Gets the 4-byte range of the device-specific property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/07d32eea-e80a-4f25-b963-3f667e56a811">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the data type of the device-specific property.
@@ -95,7 +96,7 @@ Gets the data type of the device-specific property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://msdn.microsoft.com/07608b42-972c-4d5a-9e1c-5d9060f16644">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the device-specific property.
@@ -104,7 +105,7 @@ Gets the value of the device-specific property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://msdn.microsoft.com/48e7a638-f602-455f-96d1-9d1eb049a6c0">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the device-specific property.

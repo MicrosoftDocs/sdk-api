@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -169,11 +170,6 @@ Reserved.
 Specifies a tag used by Core Allocation to communicate a given allocated CPU Set between threads in different components.
 
 
-##### - CpuSet.Parked : 1
-
-If set, the home processor of this CPU Set is parked. If the CPU Set is on a parked processor, threads assigned to that set may be reassigned to other processors that are selected by the<b> Process Default</b> sets or the <b>Thread Selected</b> sets. If all such processors are parked, the threads are reassigned to other available processors on the system.
-
-
 ##### - CpuSet.Allocated : 1
 
 If set, the specified CPU Set is not available for general system use, but instead is allocated for exclusive use of some processes. If a non-NULL <b>Process</b> argument is specified in a call to <a href="https://msdn.microsoft.com/168B00AB-1B11-44A0-B548-903CA3F4BBDE">GetSystemCpuSetInformation</a>, it is possible to determine if the processor is allocated for use with that process.
@@ -182,6 +178,11 @@ If set, the specified CPU Set is not available for general system use, but inste
 ##### - CpuSet.AllocatedToTargetProcess : 1
 
 This is set if the CPU Set is allocated for the exclusive use of some subset of the system processes and if it is allocated for the use of the process passed into <a href="https://msdn.microsoft.com/168B00AB-1B11-44A0-B548-903CA3F4BBDE">GetSystemCpuSetInformation</a>.
+
+
+##### - CpuSet.Parked : 1
+
+If set, the home processor of this CPU Set is parked. If the CPU Set is on a parked processor, threads assigned to that set may be reassigned to other processors that are selected by the<b> Process Default</b> sets or the <b>Thread Selected</b> sets. If all such processors are parked, the threads are reassigned to other available processors on the system.
 
 
 ##### - CpuSet.RealTime : 1

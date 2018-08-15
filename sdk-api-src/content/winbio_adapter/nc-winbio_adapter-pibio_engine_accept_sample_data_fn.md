@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -66,13 +67,13 @@ Pointer to a <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c
 
 ### -param SampleBuffer [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure that contains the biometric sample to be processed.
+Pointer to a <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that contains the biometric sample to be processed.
 
 
 
 ### -param SampleSize [in]
 
-A <b>SIZE_T</b> value that contains the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure returned in the <i>SampleBuffer</i> parameter.
+A <b>SIZE_T</b> value that contains the size of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure returned in the <i>SampleBuffer</i> parameter.
 
 
 ### -param Purpose [in]
@@ -189,9 +190,9 @@ __out PWINBIO_REJECT_DETAIL RejectDetail
 </td>
 </tr>
 </table></span></div>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure that is passed in  the <i>SampleBuffer</i> parameter  is the property of the sensor adapter. Because the sensor adapter controls the lifetime of the <b>WINBIO_BIR</b> object, the <i>EngineAdapterAcceptSampleData</i> function must not attempt to deallocate the structure or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the <b>WINBIO_BIR</b> structure after the <i>EngineAdapterAcceptSampleData</i> function returns.
+The <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that is passed in  the <i>SampleBuffer</i> parameter  is the property of the sensor adapter. Because the sensor adapter controls the lifetime of the <b>WINBIO_BIR</b> object, the <i>EngineAdapterAcceptSampleData</i> function must not attempt to deallocate the structure or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the <b>WINBIO_BIR</b> structure after the <i>EngineAdapterAcceptSampleData</i> function returns.
 
-If the <b>Offset</b> field of the <b>StandardDataBlock</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure is greater than zero (indicating that the BIR contains a biometric sample in the standard data format), the <b>BiometricDataFormat</b> field of the <b>HeaderBlock</b> member must be set as follows:
+If the <b>Offset</b> field of the <b>StandardDataBlock</b> member of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure is greater than zero (indicating that the BIR contains a biometric sample in the standard data format), the <b>BiometricDataFormat</b> field of the <b>HeaderBlock</b> member must be set as follows:
 
 <ul>
 <li>The <b>Owner</b> field must be <b>WINBIO_ ANSI_381_FORMAT_OWNER</b>.</li>
@@ -199,7 +200,7 @@ If the <b>Offset</b> field of the <b>StandardDataBlock</b> member of the <a href
 </ul>
 This is the only standard data format supported by the Windows Biometric Framework.
 
-The Windows Biometric Framework also assumes that the <b>HeaderBlock</b> member (a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536462">WINBIO_BIR_HEADER</a> structure) contains the <b>DataFlags</b> and <b>Purpose</b> values used by the sensor adapter to capture the sample.
+The Windows Biometric Framework also assumes that the <b>HeaderBlock</b> member (a <a href="https://msdn.microsoft.com/4b020720-42ef-4ac7-aaa3-7a0e45198890">WINBIO_BIR_HEADER</a> structure) contains the <b>DataFlags</b> and <b>Purpose</b> values used by the sensor adapter to capture the sample.
 
 Fingerprint sensors processing fingerprint samples and rejecting bad swipes in the Engine Adapter should also use valid values for <b>WINBIO_BIR_PURPOSE</b>.
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -68,7 +69,7 @@ A pointer to the Unicode character representation of the security identifier.
 
 ### -param Sid [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure that represents the security identifier.
+A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that represents the security identifier.
 
 
 ### -param AllocateDestinationString [in]

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -98,7 +99,7 @@ Uses the default port for HTTP servers (port 80).
 </td>
 <td width="60%">
 Uses the default port for HTTPS servers (port 443).  Selecting this port does not automatically establish a secure connection.  You must still specify the use of secure transaction semantics by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384099(v=VS.85).aspx">WINHTTP_FLAG_SECURE</a> flag with 
+<a href="winhttpopenrequest.htm">WINHTTP_FLAG_SECURE</a> flag with 
 <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
 
 </td>

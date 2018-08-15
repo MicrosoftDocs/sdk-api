@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: Service Pack 6
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -63,14 +64,14 @@ The <b>SCROLLBARINFO</b> structure contains scroll bar information.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Specifies the size, in bytes, of the structure. Before calling the <a href="https://msdn.microsoft.com/en-us/library/Bb787581(v=VS.85).aspx">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
+Specifies the size, in bytes, of the structure. Before calling the <a href="https://msdn.microsoft.com/949e9d33-35d6-4f27-a1c7-7b034ac52e6d">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
 
 
 ### -field rcScrollBar
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-Coordinates of the scroll bar as specified in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+Coordinates of the scroll bar as specified in a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure.
 
 
 ### -field dxyLineButton
@@ -200,7 +201,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787581(v=VS.85).aspx">GetScrollBarInfo</a>
+<a href="https://msdn.microsoft.com/949e9d33-35d6-4f27-a1c7-7b034ac52e6d">GetScrollBarInfo</a>
 
 
 
@@ -208,7 +209,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 
@@ -216,7 +217,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787529(v=VS.85).aspx">Scroll Bars</a>
+<a href="https://msdn.microsoft.com/23a21f01-b22c-4f4c-a6c0-43c9b2d80ebb">Scroll Bars</a>
  
 
  

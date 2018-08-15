@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -108,7 +109,7 @@ The destination buffer exists in system memory.
 
 ### -field pMDL
 
-Points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
+Points to an <a href="https://msdn.microsoft.com/a1ec4764-4e11-4fb2-b439-ad6b721eb504">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
 
 
 ### -field pKEvent
@@ -118,7 +119,7 @@ Points to a KEVENT that the kernel-mode video transport sets when the destinatio
 
 ### -field lpBuffInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549216">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
+Points to a <a href="https://msdn.microsoft.com/8286c433-2183-4751-be8a-30cb9cd9146d">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
 
 
 ## -see-also
@@ -126,15 +127,15 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54921
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549216">DDCAPBUFFINFO</a>
+<a href="https://msdn.microsoft.com/8286c433-2183-4751-be8a-30cb9cd9146d">DDCAPBUFFINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550599">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+<a href="https://msdn.microsoft.com/d7e6fd1c-8865-4f55-868c-856b2f875053">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

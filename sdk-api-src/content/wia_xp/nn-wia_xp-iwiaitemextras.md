@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -71,28 +72,28 @@ The <b>IWiaItemExtras</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629970(v=VS.85).aspx">CancelPendingIO</a>
+<a href="https://msdn.microsoft.com/76a0989d-85d1-49fd-baaf-fdcd5d8082e6">CancelPendingIO</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629970(v=VS.85).aspx">IWiaItemExtras::CancelPendingIO</a> method cancels all pending input/output operations on the driver.
+The <a href="https://msdn.microsoft.com/76a0989d-85d1-49fd-baaf-fdcd5d8082e6">IWiaItemExtras::CancelPendingIO</a> method cancels all pending input/output operations on the driver.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637428">Escape</a>
+<a href="https://msdn.microsoft.com/805921e8-a460-4087-93ad-8dfce5ea9dbd">Escape</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629973(v=VS.85).aspx">IWiaItemExtras::Escape</a> method sends a request for a vendor-specific I/O operation to a still image device.
+The <a href="https://msdn.microsoft.com/805921e8-a460-4087-93ad-8dfce5ea9dbd">IWiaItemExtras::Escape</a> method sends a request for a vendor-specific I/O operation to a still image device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629974(v=VS.85).aspx">GetExtendedErrorInfo</a>
+<a href="https://msdn.microsoft.com/7e7fbe78-cbf5-4330-ae19-498f3f2005d4">GetExtendedErrorInfo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629974(v=VS.85).aspx">IWiaItemExtras::GetExtendedErrorInfo</a> method gets a string from the device driver that contains information about the most recent error. Call this method after an error during an operation on a WIA item (such as data transfer).
+The <a href="https://msdn.microsoft.com/7e7fbe78-cbf5-4330-ae19-498f3f2005d4">IWiaItemExtras::GetExtendedErrorInfo</a> method gets a string from the device driver that contains information about the most recent error. Call this method after an error during an operation on a WIA item (such as data transfer).
 
 </td>
 </tr>

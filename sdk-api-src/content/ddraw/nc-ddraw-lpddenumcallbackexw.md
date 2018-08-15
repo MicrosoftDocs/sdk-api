@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -81,9 +82,14 @@ The <i>DDEnumCallbackEx</i> function is an application-defined callback function
 
 
 
-#### - lpGUID [in]
+#### - hm [in]
 
-A pointer to the unique identifier of the DirectDraw object.
+Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
+
+
+#### - lpContext [in]
+
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
 
 #### - lpDriverDescription [in]
@@ -96,14 +102,9 @@ Address of a string that contains the driver description.
 Address of a string that contains the driver name.
 
 
-#### - lpContext [in]
+#### - lpGUID [in]
 
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
-
-
-#### - hm [in]
-
-Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
+A pointer to the unique identifier of the DirectDraw object.
 
 
 ## -returns

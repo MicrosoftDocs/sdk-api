@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -130,16 +131,9 @@ A pointer to an <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c036
 
 
 
-#### - primaryServer
+#### - mclt
 
-
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
-
-
-#### - secondaryServer
-
-
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
+A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT is the maximum time that one server can extend a lease for a client beyond the lease time known by the partner server.
 
 
 #### - mode
@@ -148,16 +142,9 @@ A pointer to an <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c036
 <a href="https://msdn.microsoft.com/333f70a5-63bd-47f0-bb56-c5f6060e2a72">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
 
 
-#### - serverType
+#### - percentage
 
-
-<a href="https://msdn.microsoft.com/a75a1132-3c49-44f1-a1f6-c98991ebb8c4">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
-
-
-#### - state
-
-
-<a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
+Value that specifies the ratio of the client load shared by the primary server in the failover relationship.
 
 
 #### - prevState
@@ -166,19 +153,10 @@ A pointer to an <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c036
 <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
 
 
-#### - mclt
-
-A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT is the maximum time that one server can extend a lease for a client beyond the lease time known by the partner server.
+#### - primaryServer
 
 
-#### - safePeriod
-
-The time, in seconds, a server will wait before transitioning from the <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
-
-
-#### - relationshipName
-
-Pointer to a null-terminated Unicode string that represents the unique failover relationship name.
+<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
 
 
 #### - primaryServerName
@@ -186,19 +164,42 @@ Pointer to a null-terminated Unicode string that represents the unique failover 
 Pointer to a null-terminated Unicode string that represents the primary server hostname.
 
 
+#### - relationshipName
+
+Pointer to a null-terminated Unicode string that represents the unique failover relationship name.
+
+
+#### - safePeriod
+
+The time, in seconds, a server will wait before transitioning from the <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
+
+
+#### - secondaryServer
+
+
+<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
+
+
 #### - secondaryServerName
 
 Pointer to a null-terminated Unicode string that represents the secondary server hostname.
 
 
-#### - percentage
+#### - serverType
 
-Value that specifies the ratio of the client load shared by the primary server in the failover relationship.
+
+<a href="https://msdn.microsoft.com/a75a1132-3c49-44f1-a1f6-c98991ebb8c4">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
 
 
 #### - sharedSecret
 
 A pointer to a null-terminated Unicode string that represents the shared secret key associated with the failover relationship.
+
+
+#### - state
+
+
+<a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
 
 
 ## -see-also

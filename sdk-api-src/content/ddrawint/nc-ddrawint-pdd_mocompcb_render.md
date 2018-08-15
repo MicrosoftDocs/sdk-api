@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdMoCompRender</b> callback function tells the driver what macroblocks to
 
 #### - lpRenderData
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551693">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame. 
+Points to a <a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d47f8">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame. 
 
 
 ## -returns
@@ -99,7 +100,7 @@ If a previous render operation is not yet finished, the driver should fail the c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551693">DD_RENDERMOCOMPDATA</a>
+<a href="https://msdn.microsoft.com/a890707f-b773-4b66-8817-68efdb8d47f8">DD_RENDERMOCOMPDATA</a>
 
 
 

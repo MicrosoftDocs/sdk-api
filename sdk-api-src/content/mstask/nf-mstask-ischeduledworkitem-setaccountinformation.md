@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the account name and password used to run the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Sets the account name and password used to run the <a href="w.htm">work item</a>.
 
 
 ## -parameters
@@ -85,7 +86,7 @@ When you have finished using the password, clear the password information by cal
 
 
 The 
-<b>SetAccountInformation</b> method returns one of the following values. Note that errors from this call may also be returned by the subsequent call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>.
+<b>SetAccountInformation</b> method returns one of the following values. Note that errors from this call may also be returned by the subsequent call to <a href="_com_ipersistfile_save">IPersistFile::Save</a>.
 
 <table>
 <tr>
@@ -165,7 +166,7 @@ The <i>pwszPassword</i> parameter was set to <b>NULL</b>, but the TASK_FLAG_RUN_
 </dl>
 </td>
 <td width="60%">
-The <i>pwszPassword</i> parameter was incorrect.  In the Windows Server 2003, Task Scheduler validates the password at the time the job is created (during a call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>). Be aware that if this error occurs, the job file will still be created.
+The <i>pwszPassword</i> parameter was incorrect.  In the Windows Server 2003, Task Scheduler validates the password at the time the job is created (during a call to <a href="_com_ipersistfile_save">IPersistFile::Save</a>). Be aware that if this error occurs, the job file will still be created.
 
 </td>
 </tr>
@@ -183,14 +184,14 @@ This method is for the Windows Server 2003, Windows XP, and Windows 2000.
 
 If <i>pwszAccountName</i> specifies the local system account, the caller must be an administrator on the local computer or an application running in the local system account. If not, this method will fail.
 
-The password specified in <i>pwszPassword</i> is used to log on to the account when the work item is run. An incorrect password will result in an error when the work item is run. In the Windows Server 2003, however,  Task Scheduler validates the password at the time the job is created (during a call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>).
+The password specified in <i>pwszPassword</i> is used to log on to the account when the work item is run. An incorrect password will result in an error when the work item is run. In the Windows Server 2003, however,  Task Scheduler validates the password at the time the job is created (during a call to <a href="_com_ipersistfile_save">IPersistFile::Save</a>).
 
 Typically, passwords have an expiration date. If you schedule tasks that run indefinitely, you must update the task to reflect the new password.
 
  Note that errors can be returned by the initial call to 
-<b>SetAccountInformation</b> or the subsequent call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>.
+<b>SetAccountInformation</b> or the subsequent call to <a href="_com_ipersistfile_save">IPersistFile::Save</a>.
 
-The Task Scheduler service must be running for this call to succeed. (<b>SetAccountInformation</b> results in a remote procedure call (RPC) to the Task Scheduler service, but the RPC call is not made until <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> is called.)
+The Task Scheduler service must be running for this call to succeed. (<b>SetAccountInformation</b> results in a remote procedure call (RPC) to the Task Scheduler service, but the RPC call is not made until <a href="_com_ipersistfile_save">IPersistFile::Save</a> is called.)
 
 The E_ACCESSDENIED return code is returned under the following conditions:
 
@@ -200,7 +201,7 @@ The E_ACCESSDENIED return code is returned under the following conditions:
 <li>A <b>NULL</b> password was specified in <i>pwszPassword</i>, but the caller is neither an administrator on the local computer, nor is running in the local system account.</li>
 <li>The application is running under a different user name than the user named specified in the <i>pwszAccountName</i> parameter.</li>
 </ul>
-After setting the account information for a work item, be sure to call <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> to save the modified work item object to disk.
+After setting the account information for a work item, be sure to call <a href="_com_ipersistfile_save">IPersistFile::Save</a> to save the modified work item object to disk.
 
 
 #### Examples

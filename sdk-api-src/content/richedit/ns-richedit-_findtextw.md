@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information about a search operation in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788009(v=VS.85).aspx">EM_FINDTEXT</a> message.
+Contains information about a search operation in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/f19e19a0-d8dd-4d31-b76d-f1f09577dd2d">EM_FINDTEXT</a> message.
 
 
 ## -struct-fields
@@ -63,7 +64,7 @@ Contains information about a search operation in a rich edit control. This struc
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
 
 The range of characters to search. 
 
@@ -80,15 +81,15 @@ The null-terminated string used in the find operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788009(v=VS.85).aspx">EM_FINDTEXT</a>
+<a href="https://msdn.microsoft.com/f19e19a0-d8dd-4d31-b76d-f1f09577dd2d">EM_FINDTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788015(v=VS.85).aspx">EM_FINDTEXTW</a>
+<a href="https://msdn.microsoft.com/0c1579f5-3b37-4e28-86a2-f4e03e195f38">EM_FINDTEXTW</a>
 
 
 

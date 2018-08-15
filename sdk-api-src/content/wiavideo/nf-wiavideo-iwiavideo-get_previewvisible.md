@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaVideo::PreviewVisible</b> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> of the video.
+The <b>IWiaVideo::PreviewVisible</b> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a> of the video.
 
 This property is read/write.
 
@@ -66,11 +67,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629896(v=VS.85).aspx">IWiaVideo</a>
+<a href="https://msdn.microsoft.com/aed8bc1d-7b59-4276-a63f-8d9401faab1a">IWiaVideo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a>
+<a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a>
  
 
  

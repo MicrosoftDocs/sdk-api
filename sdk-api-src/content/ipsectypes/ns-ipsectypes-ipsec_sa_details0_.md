@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -61,12 +62,12 @@ The <b>IPSEC_SA_DETAILS0</b> structure is used to store information returned whe
 
 ### -field ipVersion
 
-Internet Protocol (IP) version as specified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a>. 
+Internet Protocol (IP) version as specified by <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>. 
 
 
 ### -field saDirection
 
-Indicates direction of the IPsec SA as specified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>.
+Indicates direction of the IPsec SA as specified by <a href="https://msdn.microsoft.com/ae0eeb36-1a41-426a-9878-77558464a91b">FWP_DIRECTION</a>.
 
 
 ### -field traffic

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -63,11 +64,11 @@ Contains information about the placement of a window on the screen.
 
 Type: <b>UINT</b>
 
-The length of the structure, in bytes. Before calling the <a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a> functions, set this member to <code>sizeof(WINDOWPLACEMENT)</code>. 
+The length of the structure, in bytes. Before calling the <a href="https://msdn.microsoft.com/3070e113-d38f-4f2f-bf52-ff4dd8ec13c5">GetWindowPlacement</a> or <a href="https://msdn.microsoft.com/1dac92d8-dab2-4df2-a9bc-a40da9511e0a">SetWindowPlacement</a> functions, set this member to <code>sizeof(WINDOWPLACEMENT)</code>. 
                     
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a> and <a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a> fail if this member is not set correctly.
+<a href="https://msdn.microsoft.com/3070e113-d38f-4f2f-bf52-ff4dd8ec13c5">GetWindowPlacement</a> and <a href="https://msdn.microsoft.com/1dac92d8-dab2-4df2-a9bc-a40da9511e0a">SetWindowPlacement</a> fail if this member is not set correctly.
 
 
 ### -field flags
@@ -271,21 +272,21 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 
 ### -field ptMinPosition
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is minimized. 
 
 
 ### -field ptMaxPosition
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is maximized. 
 
 
 ### -field rcNormalPosition
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 The window's coordinates when the window is in the restored position. 
 
@@ -305,7 +306,7 @@ If the window is a top-level window that does not have the <b>WS_EX_TOOLWINDOW</
 
 Workspace coordinates differ from screen coordinates in that they take the locations and sizes of application toolbars (including the taskbar) into account. Workspace coordinate (0,0) is the upper-left corner of the workspace area, the area of the screen not being used by application toolbars.
 
-The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only by the <a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a> and <a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a> functions. Passing workspace coordinates to functions which expect screen coordinates (such as <a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>) will result in the window appearing in the wrong location. For example, if the taskbar is at the top of the screen, saving window coordinates using <b>GetWindowPlacement</b> and restoring them using <b>SetWindowPos</b> causes the window to appear to "creep" up the screen. 
+The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only by the <a href="https://msdn.microsoft.com/3070e113-d38f-4f2f-bf52-ff4dd8ec13c5">GetWindowPlacement</a> and <a href="https://msdn.microsoft.com/1dac92d8-dab2-4df2-a9bc-a40da9511e0a">SetWindowPlacement</a> functions. Passing workspace coordinates to functions which expect screen coordinates (such as <a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>) will result in the window appearing in the wrong location. For example, if the taskbar is at the top of the screen, saving window coordinates using <b>GetWindowPlacement</b> and restoring them using <b>SetWindowPos</b> causes the window to appear to "creep" up the screen. 
 
 
 
@@ -319,15 +320,15 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a>
+<a href="https://msdn.microsoft.com/3070e113-d38f-4f2f-bf52-ff4dd8ec13c5">GetWindowPlacement</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a>
 
 
 
@@ -335,19 +336,19 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a>
+<a href="https://msdn.microsoft.com/1dac92d8-dab2-4df2-a9bc-a40da9511e0a">SetWindowPlacement</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

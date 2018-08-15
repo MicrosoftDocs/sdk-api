@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -88,7 +89,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-For information on how to register your handler, see <a href="https://msdn.microsoft.com/en-us/library/Cc144131(v=VS.85).aspx">Initializing Property Handlers</a>.
+For information on how to register your handler, see <a href="shell.Building_Property_Handlers_Property_Handlers">Initializing Property Handlers</a>.
 
 This function returns only those handlers registered under <b>HKEY_LOCAL_MACHINE</b>.
 

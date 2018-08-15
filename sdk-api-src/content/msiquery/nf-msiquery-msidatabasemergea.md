@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -155,7 +156,7 @@ Schema difference between the two databases.
 
 
 
-The <b>MsiDatabaseMerge</b> function and the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926900">Merge</a> method of the 
+The <b>MsiDatabaseMerge</b> function and the <a href="https://msdn.microsoft.com/777060cf-c672-49d5-a1a8-8674fdc4bde4">Merge</a> method of the 
 <a href="https://msdn.microsoft.com/97765884-3e1c-486a-932c-6430b113fac8">Database</a> object cannot be used to merge a module that is included in the installation package. They should not be used to merge 
 <a href="https://msdn.microsoft.com/673de3ff-e58c-4153-9c8d-c3baebba5eb1">Merge Modules</a> into a Windows Installer package.  To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the <a href="https://msdn.microsoft.com/2c14dfcc-6447-4c08-8e59-f3eaeb621de1">Applying Merge Modules</a> topic.
 
@@ -215,7 +216,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
  
 
  

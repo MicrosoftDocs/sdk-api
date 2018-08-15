@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -195,6 +196,14 @@ The algorithm for choosing the actual authentication scheme is as follows:
 <a id="RPC_C_HTTP_AUTHN_SCHEME_NTLM"></a>
 <a id="rpc_c_http_authn_scheme_ntlm"></a>
 
+##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_DIGEST
+
+<a id="RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE"></a>
+<a id="rpc_c_http_authn_scheme_negotiate"></a>
+
+##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE
+
+
 ##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_NTLM
 
 <a id="RPC_C_HTTP_AUTHN_SCHEME_PASSPORT"></a>
@@ -204,14 +213,6 @@ The algorithm for choosing the actual authentication scheme is as follows:
 
 <a id="RPC_C_HTTP_AUTHN_SCHEME_DIGEST"></a>
 <a id="rpc_c_http_authn_scheme_digest"></a>
-
-##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_DIGEST
-
-<a id="RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE"></a>
-<a id="rpc_c_http_authn_scheme_negotiate"></a>
-
-##### - AuthnScheme.RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE
-
 
 ## -remarks
 

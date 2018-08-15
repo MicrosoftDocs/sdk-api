@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -76,7 +77,7 @@ The <b>ILocationPower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687537(v=VS.85).aspx">Connect</a>
+<a href="winlocation.ilocationpower_connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has connected.
@@ -85,7 +86,7 @@ Notify the location platform that an app has connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms689589(v=VS.85).aspx">Disconnect</a>
+<a href="winlocation.ilocationpower_disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has disconnected.

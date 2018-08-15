@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -53,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>TranslateAddress</b> method creates the address translation information interface. The primary goal of the 
-<b>TranslateAddress</b> method is to obtain the <i>pDestAddress</i> string (<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">dialable address</a>) needed as a parameter for 
+<b>TranslateAddress</b> method is to obtain the <i>pDestAddress</i> string (<a href="address_ovr.htm">dialable address</a>) needed as a parameter for 
 <a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>. The 
 <b>TranslateAddress</b> method returns the dialable address indirectly, as one of the properties of an 
 <a href="https://msdn.microsoft.com/b59454a0-315f-4160-b969-d930c13bb4de">ITAddressTranslationInfo</a> object.
@@ -218,8 +219,8 @@ The card number is not valid.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for <i>pAddressToTranslate</i> and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for <i>pAddressToTranslate</i> and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The 
 <b>TranslateAddress</b> method is a COM wrapper for the TAPI 2.1 
@@ -241,7 +242,7 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
+<a href="address_ovr.htm">Dialable Addresses</a>
 
 
 

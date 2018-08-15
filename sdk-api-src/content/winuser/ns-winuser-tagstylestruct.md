@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -102,15 +103,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632648(v=VS.85).aspx">WM_STYLECHANGED</a>
+<a href="https://msdn.microsoft.com/37bc4e1a-f75d-4851-8dee-97fa2da90254">WM_STYLECHANGED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632649(v=VS.85).aspx">WM_STYLECHANGING</a>
+<a href="https://msdn.microsoft.com/71034362-3f67-49ae-bbbf-d38853ababb3">WM_STYLECHANGING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

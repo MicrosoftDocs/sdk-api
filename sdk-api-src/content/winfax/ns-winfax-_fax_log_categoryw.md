@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -130,6 +131,11 @@ The fax server logs most events. (This level does not include some informational
 The fax server logs all events.
 
 
+##### - Category.FAXLOG_CATEGORY_INBOUND
+
+An incoming fax transmission event such as receiving a fax or routing a fax.
+
+
 ##### - Category.FAXLOG_CATEGORY_INIT
 
 A fax service initialization or termination event.
@@ -140,29 +146,9 @@ A fax service initialization or termination event.
 An outgoing fax transmission event such as sending a fax.
 
 
-##### - Category.FAXLOG_CATEGORY_INBOUND
-
-An incoming fax transmission event such as receiving a fax or routing a fax.
-
-
 ##### - Category.FAXLOG_CATEGORY_UNKNOWN
 
 An unknown event.
-
-
-##### - Level.FAXLOG_LEVEL_NONE
-
-The fax server does not log events.
-
-
-##### - Level.FAXLOG_LEVEL_MIN
-
-The fax server logs only the most severe failure events.
-
-
-##### - Level.FAXLOG_LEVEL_MED
-
-The fax server logs most events. (This level does not include some informational and warning events.) 
 
 
 ##### - Level.FAXLOG_LEVEL_MAX
@@ -170,11 +156,26 @@ The fax server logs most events. (This level does not include some informational
 The fax server logs all events.
 
 
+##### - Level.FAXLOG_LEVEL_MED
+
+The fax server logs most events. (This level does not include some informational and warning events.) 
+
+
+##### - Level.FAXLOG_LEVEL_MIN
+
+The fax server logs only the most severe failure events.
+
+
+##### - Level.FAXLOG_LEVEL_NONE
+
+The fax server does not log events.
+
+
 ## -remarks
 
 
 
-The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a> function to modify the current logging categories for the fax server of interest. If the application calls the <a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a> function, it returns the current settings in a <b>FAX_LOG_CATEGORY</b> structure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690748(v=VS.85).aspx">Managing Logging Categories</a>.
+The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a call to the <a href="https://msdn.microsoft.com/4faddf91-a689-4247-86af-8d6dbc1b6af3">FaxSetLoggingCategories</a> function to modify the current logging categories for the fax server of interest. If the application calls the <a href="https://msdn.microsoft.com/bcd650b3-92f3-4b3b-b4c2-c3418f914711">FaxGetLoggingCategories</a> function, it returns the current settings in a <b>FAX_LOG_CATEGORY</b> structure. For more information, see <a href="https://msdn.microsoft.com/958fecf7-a787-4f86-bc67-53f7564ec43a">Managing Logging Categories</a>.
 
 
 
@@ -184,19 +185,19 @@ The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a cal
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691956(v=VS.85).aspx">FaxGetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/bcd650b3-92f3-4b3b-b4c2-c3418f914711">FaxGetLoggingCategories</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691374(v=VS.85).aspx">FaxSetLoggingCategories</a>
+<a href="https://msdn.microsoft.com/4faddf91-a689-4247-86af-8d6dbc1b6af3">FaxSetLoggingCategories</a>
  
 
  

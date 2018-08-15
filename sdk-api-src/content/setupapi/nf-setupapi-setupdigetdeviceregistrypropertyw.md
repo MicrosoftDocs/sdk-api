@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Registry_Property
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 
 ### -param Property [in]
@@ -98,7 +99,7 @@ The function retrieves the GUID for the device's bus type.
 
 #### SPDRP_CAPABILITIES
 
-The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i>flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
+The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i>flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
 
 <table>
 <tr>
@@ -212,7 +213,7 @@ CM_DEVCAP_NONDYNAMIC
 
 #### SPDRP_CHARACTERISTICS
 
-The function retrieves a bitwise OR of a device's characteristics flags in a DWORD. For a description of these flags, which are defined in <i>Wdm.h</i> and <i>Ntddk.h</i>, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> function.
+The function retrieves a bitwise OR of a device's characteristics flags in a DWORD. For a description of these flags, which are defined in <i>Wdm.h</i> and <i>Ntddk.h</i>, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a> function.
 
 
 
@@ -242,7 +243,7 @@ The function retrieves a bitwise OR of a device's configuration flags in a DWORD
 
 #### SPDRP_DEVICE_POWER_DATA
 
-(Windows XP and later) The function retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541989">CM_POWER_DATA</a> structure that contains the device's power management information.
+(Windows XP and later) The function retrieves a <a href="https://msdn.microsoft.com/38fea22b-4d9a-4b03-bbb7-c22578f60def">CM_POWER_DATA</a> structure that contains the device's power management information.
 
 
 
@@ -254,7 +255,7 @@ The function retrieves a REG_SZ string that contains the description of a device
 
 #### SPDRP_DEVTYPE
 
-The function retrieves a DWORD value that represents the device's type. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
+The function retrieves a DWORD value that represents the device's type. For more information, see <a href="https://msdn.microsoft.com/32e179f9-ab11-4360-b2fd-4276c6b6b3a0">Specifying Device Types</a>.
 
 
 
@@ -272,7 +273,7 @@ The function retrieves a REG_SZ string that contains the name of the device's <a
 
 #### SPDRP_EXCLUSIVE
 
-The function retrieves a DWORD value that indicates whether a user can obtain exclusive use of the device. The returned value is one if exclusive use is allowed, or zero otherwise. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>.
+The function retrieves a DWORD value that indicates whether a user can obtain exclusive use of the device. The returned value is one if exclusive use is allowed, or zero otherwise. For more information, see <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>.
 
 
 
@@ -290,7 +291,7 @@ The function retrieves a REG_MULTI_SZ string that contains the list of hardware 
 
 #### SPDRP_INSTALL_STATE
 
-(Windows XP and later) The function retrieves a DWORD value that indicates the installation state of a device. The installation state is represented by one of the CM_INSTALL_STATE_<i>Xxx</i> values that are defined in <i>Cfgmgr32.h</i>. The CM_INSTALL_STATE_<i>Xxx</i> values correspond to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543130">DEVICE_INSTALL_STATE</a> enumeration values. 
+(Windows XP and later) The function retrieves a DWORD value that indicates the installation state of a device. The installation state is represented by one of the CM_INSTALL_STATE_<i>Xxx</i> values that are defined in <i>Cfgmgr32.h</i>. The CM_INSTALL_STATE_<i>Xxx</i> values correspond to the <a href="https://msdn.microsoft.com/82b702ae-ea62-4bc1-ad92-467eba027e3d">DEVICE_INSTALL_STATE</a> enumeration values. 
 
 
 
@@ -326,7 +327,7 @@ The function retrieves a REG_SZ string that contains the name of the device manu
 
 #### SPDRP_PHYSICAL_DEVICE_OBJECT_NAME
 
-The function retrieves a REG_SZ string that contains the name that is associated with the device's PDO. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>.
+The function retrieves a REG_SZ string that contains the name that is associated with the device's PDO. For more information, see <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>.
 
 
 
@@ -350,7 +351,7 @@ The function retrieves a REG_SZ string that contains the name that is associated
 
 #### SPDRP_SECURITY
 
-The function retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure for a device.
+The function retrieves a <a href="https://msdn.microsoft.com/0af0685c-d3a3-4c76-8fca-fb38f60411bf">SECURITY_DESCRIPTOR</a> structure for a device.
 
 
 
@@ -368,7 +369,7 @@ The function retrieves a REG_SZ string that contains the service name for a devi
 
 #### SPDRP_UI_NUMBER
 
-The function retrieves a DWORD value set to the value of the <b>UINumber</b> member of the device's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure.
+The function retrieves a DWORD value set to the value of the <b>UINumber</b> member of the device's <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a> structure.
 
 
 
@@ -420,7 +421,7 @@ The function retrieves the GUID for the device's bus type.
 
 ##### - Property.SPDRP_CAPABILITIES
 
-The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i>flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
+The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i>flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
 
 <table>
 <tr>
@@ -533,7 +534,7 @@ CM_DEVCAP_NONDYNAMIC
 
 ##### - Property.SPDRP_CHARACTERISTICS
 
-The function retrieves a bitwise OR of a device's characteristics flags in a DWORD. For a description of these flags, which are defined in <i>Wdm.h</i> and <i>Ntddk.h</i>, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> function.
+The function retrieves a bitwise OR of a device's characteristics flags in a DWORD. For a description of these flags, which are defined in <i>Wdm.h</i> and <i>Ntddk.h</i>, see the <i>DeviceCharacteristics</i> parameter of the <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a> function.
 
 
 ##### - Property.SPDRP_CLASS
@@ -556,19 +557,19 @@ The function retrieves a REG_MULTI_SZ string that contains the list of compatibl
 The function retrieves a bitwise OR of a device's configuration flags in a DWORD value. The configuration flags are represented by the CONFIGFLAG_<i>Xxx</i> bitmasks that are defined in <i>Regstr.h</i>.
 
 
-##### - Property.SPDRP_DEVICE_POWER_DATA
-
-(Windows XP and later) The function retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541989">CM_POWER_DATA</a> structure that contains the device's power management information.
-
-
 ##### - Property.SPDRP_DEVICEDESC
 
 The function retrieves a REG_SZ string that contains the description of a device. 
 
 
+##### - Property.SPDRP_DEVICE_POWER_DATA
+
+(Windows XP and later) The function retrieves a <a href="https://msdn.microsoft.com/38fea22b-4d9a-4b03-bbb7-c22578f60def">CM_POWER_DATA</a> structure that contains the device's power management information.
+
+
 ##### - Property.SPDRP_DEVTYPE
 
-The function retrieves a DWORD value that represents the device's type. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
+The function retrieves a DWORD value that represents the device's type. For more information, see <a href="https://msdn.microsoft.com/32e179f9-ab11-4360-b2fd-4276c6b6b3a0">Specifying Device Types</a>.
 
 
 ##### - Property.SPDRP_DRIVER
@@ -583,7 +584,7 @@ The function retrieves a REG_SZ string that contains the name of the device's <a
 
 ##### - Property.SPDRP_EXCLUSIVE
 
-The function retrieves a DWORD value that indicates whether a user can obtain exclusive use of the device. The returned value is one if exclusive use is allowed, or zero otherwise. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>.
+The function retrieves a DWORD value that indicates whether a user can obtain exclusive use of the device. The returned value is one if exclusive use is allowed, or zero otherwise. For more information, see <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>.
 
 
 ##### - Property.SPDRP_FRIENDLYNAME
@@ -598,7 +599,7 @@ The function retrieves a REG_MULTI_SZ string that contains the list of hardware 
 
 ##### - Property.SPDRP_INSTALL_STATE
 
-(Windows XP and later) The function retrieves a DWORD value that indicates the installation state of a device. The installation state is represented by one of the CM_INSTALL_STATE_<i>Xxx</i> values that are defined in <i>Cfgmgr32.h</i>. The CM_INSTALL_STATE_<i>Xxx</i> values correspond to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543130">DEVICE_INSTALL_STATE</a> enumeration values. 
+(Windows XP and later) The function retrieves a DWORD value that indicates the installation state of a device. The installation state is represented by one of the CM_INSTALL_STATE_<i>Xxx</i> values that are defined in <i>Cfgmgr32.h</i>. The CM_INSTALL_STATE_<i>Xxx</i> values correspond to the <a href="https://msdn.microsoft.com/82b702ae-ea62-4bc1-ad92-467eba027e3d">DEVICE_INSTALL_STATE</a> enumeration values. 
 
 
 ##### - Property.SPDRP_LEGACYBUSTYPE
@@ -628,7 +629,7 @@ The function retrieves a REG_SZ string that contains the name of the device manu
 
 ##### - Property.SPDRP_PHYSICAL_DEVICE_OBJECT_NAME
 
-The function retrieves a REG_SZ string that contains the name that is associated with the device's PDO. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>.
+The function retrieves a REG_SZ string that contains the name that is associated with the device's PDO. For more information, see <a href="https://msdn.microsoft.com/54ca9dc8-8095-4b62-9ebc-f297abb429ca">IoCreateDevice</a>.
 
 
 ##### - Property.SPDRP_REMOVAL_POLICY
@@ -648,7 +649,7 @@ The function retrieves a REG_SZ string that contains the name that is associated
 
 ##### - Property.SPDRP_SECURITY
 
-The function retrieves a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure for a device.
+The function retrieves a <a href="https://msdn.microsoft.com/0af0685c-d3a3-4c76-8fca-fb38f60411bf">SECURITY_DESCRIPTOR</a> structure for a device.
 
 
 ##### - Property.SPDRP_SECURITY_SDS
@@ -663,7 +664,7 @@ The function retrieves a REG_SZ string that contains the service name for a devi
 
 ##### - Property.SPDRP_UI_NUMBER
 
-The function retrieves a DWORD value set to the value of the <b>UINumber</b> member of the device's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure.
+The function retrieves a DWORD value set to the value of the <b>UINumber</b> member of the device's <a href="https://msdn.microsoft.com/1edae050-8e72-42e7-9dc9-8f449699969c">DEVICE_CAPABILITIES</a> structure.
 
 
 ##### - Property.SPDRP_UI_NUMBER_DESC_FORMAT
@@ -690,19 +691,19 @@ The function retrieves a REG_MULTI_SZ string that contains the names of a device
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549203">IoGetDeviceProperty</a>
+<a href="https://msdn.microsoft.com/8c3b7f81-ea6e-47ae-a396-58826d097f1f">IoGetDeviceProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551097">SetupDiGetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552135">SetupDiSetClassRegistryProperty</a>
+<a href="https://msdn.microsoft.com/78457461-11ef-44ec-aa60-1adf4a48db8c">SetupDiSetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552169">SetupDiSetDeviceRegistryProperty</a>
+<a href="https://msdn.microsoft.com/2686f416-3eb5-4e6b-87c8-ab10608ab406">SetupDiSetDeviceRegistryProperty</a>
  
 
  

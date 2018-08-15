@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -140,7 +141,7 @@ The transformation applies to the points, but not the pen width.
 Object transformation occurs before view transformation.
 
 It is problematic to call this method in response to SENT message.  Test whether you are processing a SENT message
-			  by calling <a href="https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
+			  by calling <a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
 
 
 
@@ -158,7 +159,7 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="tablet.iinkrenderer">IInkRenderer</a>
 
 
 

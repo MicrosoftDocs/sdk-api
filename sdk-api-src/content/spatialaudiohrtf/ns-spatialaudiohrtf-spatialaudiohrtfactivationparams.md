@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ Specifies the activation parameters for an <a href="https://msdn.microsoft.com/9
 
 ### -field ObjectFormat
 
-Format descriptor for spatial audio objects associated with the stream. All objects must have the same format and must be of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>.
+Format descriptor for spatial audio objects associated with the stream. All objects must have the same format and must be of type <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245">WAVEFORMATEXTENSIBLE</a>.
 
 
 ### -field StaticObjectTypeMask

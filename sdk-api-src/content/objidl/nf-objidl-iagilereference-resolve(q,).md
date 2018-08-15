@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -71,14 +72,14 @@ Gets the interface ID of an agile reference to an object.
 
 
 
-#### - riid [in]
-
-The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
-
-
 #### - ppvObjectReference [out, retval]
 
 On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
+
+
+#### - riid [in]
+
+The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
 
 
 ## -returns

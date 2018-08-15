@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>IOpcSignatureCustomObjectEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/51dd3758-26c6-4d4f-a956-61a9ff1f67c5">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the current <b>IOpcSignatureCustomObjectEnumerator</b> interface pointer and all its descendants.

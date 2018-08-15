@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FilterVolumeFindNext</b> function continues a volume search started by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>.
+The <b>FilterVolumeFindNext</b> function continues a volume search started by a call to <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ The <b>FilterVolumeFindNext</b> function continues a volume search started by a 
 
 ### -param hVolumeFind [in]
 
-Volume search handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>.
+Volume search handle returned by a previous call to <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>.
 
 
 ### -param dwInformationClass [in]
@@ -79,7 +80,7 @@ Type of information requested. This parameter can be one of the following values
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541631">FILTER_VOLUME_BASIC_INFORMATION</a> structure for the volume.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/f6b5ccc2-81d6-47be-94dd-cf92842de51c">FILTER_VOLUME_BASIC_INFORMATION</a> structure for the volume.
 
 </td>
 </tr>
@@ -89,7 +90,7 @@ The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541647">FILTER_VOLUME_STANDARD_INFORMATION</a> structure for the volume. This structure is available starting with Windows Vista.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/51f2f837-7d67-4a9d-a365-d9d1b24977e5">FILTER_VOLUME_STANDARD_INFORMATION</a> structure for the volume. This structure is available starting with Windows Vista.
 
 </td>
 </tr>
@@ -166,9 +167,9 @@ No more volumes were found in the list of volumes known to the filter manager.
 
 
 
-After the search handle is established by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>, use the <b>FilterVolumeFindNext</b> function to search for other volumes.  <b>FilterVolumeFindNext</b> finds one volume per call.
+After the search handle is established by calling <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>, use the <b>FilterVolumeFindNext</b> function to search for other volumes.  <b>FilterVolumeFindNext</b> finds one volume per call.
 
-Note that when using <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a> and <b>FilterVolumeFindNext</b> to enumerate the list of volumes known to the filter manager, it is possible for two or more of the volumes in the list to have the same name.  For more information, see <a href="ifsk.understanding_volume_enumerations_with_duplicate_volume_names">Understanding Volume Enumerations with Duplicate Volume Names</a>.
+Note that when using <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a> and <b>FilterVolumeFindNext</b> to enumerate the list of volumes known to the filter manager, it is possible for two or more of the volumes in the list to have the same name.  For more information, see <a href="ifsk.understanding_volume_enumerations_with_duplicate_volume_names">Understanding Volume Enumerations with Duplicate Volume Names</a>.
 
 
 
@@ -178,19 +179,19 @@ Note that when using <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541631">FILTER_VOLUME_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/f6b5ccc2-81d6-47be-94dd-cf92842de51c">FILTER_VOLUME_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541647">FILTER_VOLUME_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/51f2f837-7d67-4a9d-a365-d9d1b24977e5">FILTER_VOLUME_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
+<a href="https://msdn.microsoft.com/18b707a0-2d34-46a9-a77c-b356aba44d72">FilterVolumeFindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
+<a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>
  
 
  

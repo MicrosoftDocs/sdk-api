@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dmodshow.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -76,7 +77,7 @@ The <b>IDMOWrapperFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://msdn.microsoft.com/45f305b5-82bc-44c1-9af7-93aab371ed33">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the DMO Wrapper filter with the specified DMO.

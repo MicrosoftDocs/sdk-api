@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -51,9 +52,9 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>.
+In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> and <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>.
 
-The <b>ITextFont2</b> interface extends <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>, providing the programming equivalent of the Microsoft Word format-font dialog.
+The <b>ITextFont2</b> interface extends <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>, providing the programming equivalent of the Microsoft Word format-font dialog.
 
 
 ## -inheritance
@@ -136,7 +137,7 @@ Gets the client cookie.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/0caca891-7c25-4b04-bda3-47de2f0ab6ce">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of extra properties in this character formatting collection.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -110,7 +111,7 @@ Returns the disk pack to which the current disk is a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://msdn.microsoft.com/d2046a26-852d-46b2-b060-98b4a2a92387">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property details of a disk.
@@ -128,7 +129,7 @@ Returns all extents on a disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
+<a href="https://msdn.microsoft.com/0ede6a22-b15c-4afd-8d49-c963ea7e2052">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the flags of a disk.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Specifies credential information that has been serialized by using the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
+Specifies credential information that has been serialized by using the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -struct-fields

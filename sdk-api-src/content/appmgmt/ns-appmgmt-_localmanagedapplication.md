@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -70,7 +71,7 @@ This is the user-friendly name of the group policy object (GPO) from which the a
 
 ### -field pszProductId
 
-This is a Unicode string that gives the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> product code GUID for the application.
+This is a Unicode string that gives the <a href="setup.windows_installer_start_page">Windows Installer</a> product code GUID for the application.
 
 
 ### -field dwState

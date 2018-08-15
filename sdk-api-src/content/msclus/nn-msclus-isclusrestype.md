@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -106,12 +107,12 @@ Deletes the resource type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">Cluster</a>
+<a href="https://msdn.microsoft.com/bc9808fb-e517-4d59-a506-07abb9cecd4e">Cluster</a>
 
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> associated with the resource 
+Returns the <a href="c_gly.htm">cluster</a> associated with the resource 
      type.
 
 </td>
@@ -154,7 +155,7 @@ Returns a <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e
 <td align="left" width="63%">
 Returns a 
      <a href="https://msdn.microsoft.com/be22d5b1-8c61-40a5-883c-f49651ba623d">ClusResTypePossibleOwnerNodes</a> 
-     collection containing the <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a> <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of the resource type.
+     collection containing the <a href="p_gly.htm">possible owner</a> <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of the resource type.
 
 </td>
 </tr>

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tom.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -548,26 +549,26 @@ List is ordered with uppercase Roman letters (I, II, III, ...).
 
 ### -field tomListNumberAsSequence
 
-The value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb773987(v=VS.85).aspx">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
+The value returned by <a href="https://msdn.microsoft.com/e797f494-bc34-4529-a773-22d1ebfe1250">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
 
 
 ### -field tomListNumberedCircle
 
 List is ordered with Unicode circled numbers 
 
-<img alt="Unicode numbers in a circle." src="./images/unicodecirclednumbers.png"/>
+<img alt="Unicode numbers in a circle." src="images/unicodecirclednumbers.png"/>
 
 ### -field tomListNumberedBlackCircleWingding
 
 List is ordered with Wingdings black circled digits 
 
-<img alt="Circled black digits." src="./images/wingdingblackcircleddigits.png"/>
+<img alt="Circled black digits." src="images/wingdingblackcircleddigits.png"/>
 
 ### -field tomListNumberedWhiteCircleWingding
 
 List is ordered with Wingdings white circled digits:
 
-<img alt="White digits in a black circle." src="./images/wingdingwhitecircleddigits.png"/>
+<img alt="White digits in a black circle." src="images/wingdingwhitecircleddigits.png"/>
 
 ### -field tomListNumberedArabicWide
 
@@ -3002,44 +3003,9 @@ Changes cell width(s) or cell count (for changing column widths and inserting/de
 The actual height of a table row.
 
 
-#### - tomTeX
+#### - tomChemicalFormula
 
-Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDefault</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScriptCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptScript</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScriptCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleScript</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleTextCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleText</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplayCramped</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomStyleDisplay</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecDecSize</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomDecSize</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncSize</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomIncIncSize</a></dd>
-</dl>
-
-
-
-#### - tomNeedTermOp
-
-A terminating operator is needed. Only used with a degenerate range for formula autobuildup.
-
-
-#### - tomMathAlphabetics
-
-Use math alphabetics for English/Greek letters except for math function names.
-
-
-#### - tomMathSingleChar
-
-Single character typed for build up.
-
-
-#### - tomPlain
-
-Build down for plain text.
+Use chemical formula conversions.
 
 
 #### - tomHaveDelimiter
@@ -3047,19 +3013,69 @@ Build down for plain text.
 A delimiter follows insertion points (formula automatic buildup).
 
 
-#### - tomUseOperandPrec
+#### - tomMathAlignBreakCenter
 
-Use operand precedence.
+Center text following a manual break.
 
 
-#### - tomMathCollapseSel
+#### - tomMathAlignBreakLeft
 
-Collapse the selection after build up or build down.
+Align text following a manual break to the left.
+
+
+#### - tomMathAlignBreakRight
+
+Align text following a manual break to the right.
+
+
+#### - tomMathAlphabetics
+
+Use math alphabetics for English/Greek letters except for math function names.
+
+
+#### - tomMathApplyTemplate
+
+Apply an object template to a range.
+
+
+#### - tomMathArabicAlphabetics
+
+Use Arabic math alphabetics for variables.
+
+
+#### - tomMathAutoComplete
+
+Show a tooltip with options for math autocompletions.
 
 
 #### - tomMathAutoCorrect
 
 Internal math autocorrect standard math \ keywords.
+
+
+#### - tomMathAutoCorrectExt
+
+Invoke external autocorrect in manual build up.
+
+
+#### - tomMathAutoCorrectOpPairs
+
+Autocorrect operator pairs.
+
+
+#### - tomMathBackspace
+
+Handle the Backspace key inside a math object.
+
+
+#### - tomMathBuildDown
+
+Build down instead of up.
+
+
+#### - tomMathBuildDownOutermost
+
+Build down only outermost objects.
 
 
 #### - tomMathBuildUpArgOrZone
@@ -3072,84 +3088,34 @@ Build up insertion points argument or zone.
 Enable recursive build up.
 
 
-#### - tomMathBuildDownOutermost
-
-Build down only outermost objects.
-
-
-#### - tomChemicalFormula
-
-Use chemical formula conversions.
-
-
-#### - tomMathBuildDown
-
-Build down instead of up.
-
-
-#### - tomMathApplyTemplate
-
-Apply an object template to a range.
-
-
-#### - tomMathRemoveOutermost
-
-Build down the outermost object without its characters.
-
-
 #### - tomMathChangeMask
 
 Mask for specifying changes to make during math linearization (build down). It can be a combination of the following values. 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsRowBefore</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsRowAfter</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsColBefore</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathInsColAfter</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteRow</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteCol</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg1</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg2</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeFracLinear</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeFracStacked</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeFracSlashed</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeLeftSubSup</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathMakeSubSup</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathBackspace</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathEnter</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathShiftTab</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathTab</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathSubscript</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathSuperscript</a>
+<a href="tomconstants.htm">tomMathInsRowBefore</a>
+<a href="tomconstants.htm">tomMathInsRowAfter</a>
+<a href="tomconstants.htm">tomMathInsColBefore</a>
+<a href="tomconstants.htm">tomMathInsColAfter</a>
+<a href="tomconstants.htm">tomMathDeleteRow</a>
+<a href="tomconstants.htm">tomMathDeleteCol</a>
+<a href="tomconstants.htm">tomMathDeleteArg</a>
+<a href="tomconstants.htm">tomMathDeleteArg1</a>
+<a href="tomconstants.htm">tomMathDeleteArg2</a>
+<a href="tomconstants.htm">tomMathMakeFracLinear</a>
+<a href="tomconstants.htm">tomMathMakeFracStacked</a>
+<a href="tomconstants.htm">tomMathMakeFracSlashed</a>
+<a href="tomconstants.htm">tomMathMakeLeftSubSup</a>
+<a href="tomconstants.htm">tomMathMakeSubSup</a>
+<a href="tomconstants.htm">tomMathBackspace</a>
+<a href="tomconstants.htm">tomMathEnter</a>
+<a href="tomconstants.htm">tomMathShiftTab</a>
+<a href="tomconstants.htm">tomMathTab</a>
+<a href="tomconstants.htm">tomMathSubscript</a>
+<a href="tomconstants.htm">tomMathSuperscript</a>
 
-#### - tomMathInsRowBefore
+#### - tomMathCollapseSel
 
-Insert a row above the insertion point.
-
-
-#### - tomMathInsRowAfter
-
-Insert a row below the insertion point.
-
-
-#### - tomMathInsColBefore
-
-Insert a column or separator before the current argument.
-
-
-#### - tomMathInsColAfter
-
-Insert a column or separator after the current argument.
-
-
-#### - tomMathDeleteRow
-
-Delete a row.
-
-
-#### - tomMathDeleteCol
-
-Delete a column.
+Collapse the selection after build up or build down.
 
 
 #### - tomMathDeleteArg
@@ -3167,19 +3133,54 @@ Delete argument 1 (0-based count).
 Delete argument 2 (0-based count).
 
 
+#### - tomMathDeleteCol
+
+Delete a column.
+
+
+#### - tomMathDeleteRow
+
+Delete a row.
+
+
+#### - tomMathEnter
+
+Handle the Enter key inside a math object.
+
+
+#### - tomMathInsColAfter
+
+Insert a column or separator after the current argument.
+
+
+#### - tomMathInsColBefore
+
+Insert a column or separator before the current argument.
+
+
+#### - tomMathInsRowAfter
+
+Insert a row below the insertion point.
+
+
+#### - tomMathInsRowBefore
+
+Insert a row above the insertion point.
+
+
 #### - tomMathMakeFracLinear
 
 Change to a linear fraction.
 
 
-#### - tomMathMakeFracStacked
-
-Change to a stacked fraction.
-
-
 #### - tomMathMakeFracSlashed
 
 Change to a slashed fraction.
+
+
+#### - tomMathMakeFracStacked
+
+Change to a stacked fraction.
 
 
 #### - tomMathMakeLeftSubSup
@@ -3192,14 +3193,14 @@ Change from <b>tomSubSup</b> to <b>tomLeftSubSup</b>.
 Change <b>tomLeftSubSup</b> to <b>tomSubSup</b>.
 
 
-#### - tomMathBackspace
+#### - tomMathRemoveOutermost
 
-Handle the Backspace key inside a math object.
+Build down the outermost object without its characters.
 
 
-#### - tomMathEnter
+#### - tomMathRichEdit
 
-Handle the Enter key inside a math object.
+Handle minor differences between the rich edit control and Word.
 
 
 #### - tomMathShiftTab
@@ -3207,24 +3208,9 @@ Handle the Enter key inside a math object.
 Handle the Shift+Tab key combination inside a math object.
 
 
-#### - tomMathTab
+#### - tomMathSingleChar
 
-Handle the Tab key inside a math object.
-
-
-#### - tomMathAlignBreakLeft
-
-Align text following a manual break to the left.
-
-
-#### - tomMathAlignBreakCenter
-
-Center text following a manual break.
-
-
-#### - tomMathAlignBreakRight
-
-Align text following a manual break to the right.
+Single character typed for build up.
 
 
 #### - tomMathSubscript
@@ -3237,19 +3223,19 @@ Handle the Ctrl+= key combination in a math zone.
 Handle the Ctrl+Shift+= key combination in a math zone.
 
 
-#### - tomMathArabicAlphabetics
+#### - tomMathTab
 
-Use Arabic math alphabetics for variables.
-
-
-#### - tomMathAutoCorrectOpPairs
-
-Autocorrect operator pairs.
+Handle the Tab key inside a math object.
 
 
-#### - tomMathAutoCorrectExt
+#### - tomNeedTermOp
 
-Invoke external autocorrect in manual build up.
+A terminating operator is needed. Only used with a degenerate range for formula autobuildup.
+
+
+#### - tomPlain
+
+Build down for plain text.
 
 
 #### - tomShowEmptyArgPlaceholders
@@ -3257,17 +3243,32 @@ Invoke external autocorrect in manual build up.
 Don't hide empty argument  placeholders on build-up.
 
 
-#### - tomMathAutoComplete
-
-Show a tooltip with options for math autocompletions.
-
-
-#### - tomMathRichEdit
-
-Handle minor differences between the rich edit control and Word.
-
-
 #### - tomSpecialChar
 
 The character is treated as part of the current operand.
+
+
+#### - tomTeX
+
+Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
+<dd><a href="tomconstants.htm">tomStyleDefault</a></dd>
+<dd><a href="tomconstants.htm">tomStyleScriptScriptCramped</a></dd>
+<dd><a href="tomconstants.htm">tomStyleScriptScript</a></dd>
+<dd><a href="tomconstants.htm">tomStyleScriptCramped</a></dd>
+<dd><a href="tomconstants.htm">tomStyleScript</a></dd>
+<dd><a href="tomconstants.htm">tomStyleTextCramped</a></dd>
+<dd><a href="tomconstants.htm">tomStyleText</a></dd>
+<dd><a href="tomconstants.htm">tomStyleDisplayCramped</a></dd>
+<dd><a href="tomconstants.htm">tomStyleDisplay</a></dd>
+<dd><a href="tomconstants.htm">tomDecDecSize</a></dd>
+<dd><a href="tomconstants.htm">tomDecSize</a></dd>
+<dd><a href="tomconstants.htm">tomIncSize</a></dd>
+<dd><a href="tomconstants.htm">tomIncIncSize</a></dd>
+</dl>
+
+
+
+#### - tomUseOperandPrec
+
+Use operand precedence.
 

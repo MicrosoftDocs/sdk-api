@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -53,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Contains information about a disk partition.
 <div class="alert"><b>Note</b>  <b>PARTITION_INFORMATION</b> has been superseded by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
+<a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -99,14 +100,14 @@ If this member is <b>TRUE</b>, the partition is of a recognized type.
 ### -field RewritePartition
 
 If this member is <b>TRUE</b>, the partition information has changed. When you change a partition (with 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560408">IOCTL_DISK_SET_DRIVE_LAYOUT</a>), the system uses this member to determine which partitions have changed and need their information rewritten.
+<a href="https://msdn.microsoft.com/8cace6a5-666a-4d35-a557-6bf0564dbe58">IOCTL_DISK_SET_DRIVE_LAYOUT</a>), the system uses this member to determine which partitions have changed and need their information rewritten.
 
 
 ## -remarks
 
 
 
-If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560408">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
+If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="https://msdn.microsoft.com/8cace6a5-666a-4d35-a557-6bf0564dbe58">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
 
 
 
@@ -120,27 +121,27 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560361">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
+<a href="https://msdn.microsoft.com/6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560373">IOCTL_DISK_GET_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/24053a1a-8cf8-4aa8-a611-15c9fae0a36d">IOCTL_DISK_GET_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560408">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
+<a href="https://msdn.microsoft.com/8cace6a5-666a-4d35-a557-6bf0564dbe58">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560413">IOCTL_DISK_SET_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/868cad92-fa88-4a5a-98bb-92e73c115a22">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a>
  
 
  

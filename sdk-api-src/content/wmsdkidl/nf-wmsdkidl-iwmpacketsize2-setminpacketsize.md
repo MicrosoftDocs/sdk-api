@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -55,7 +56,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>SetMinPacketSize</b> method sets the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
+The <b>SetMinPacketSize</b> method sets the minimum <a href="wmformat_glossary.htm">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
 
 
 

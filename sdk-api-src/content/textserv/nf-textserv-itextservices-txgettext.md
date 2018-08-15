@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -116,7 +117,7 @@ Could not allocate memory for copy of the text.
 
 The host (caller) takes ownership of the returned <b>BSTR</b>.
 
-Other ways to retrieve plain text data are to use <a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a> or the Text Object Model (TOM) <a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a> method.
+Other ways to retrieve plain text data are to use <a href="https://msdn.microsoft.com/117c3d6d-24cd-462f-bdb0-b65d8914273a">WM_GETTEXT</a> or the Text Object Model (TOM) <a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">GetText</a> method.
 
 If there is no text in the control, the <b>BSTR</b> is allocated and 0x000D is returned in it.
 
@@ -134,11 +135,11 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926850">GetText</a>
+<a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">GetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
 
 
 
@@ -150,11 +151,11 @@ The returned text will <i>not</i> necessarily be null-terminated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632627(v=VS.85).aspx">WM_GETTEXT</a>
+<a href="https://msdn.microsoft.com/117c3d6d-24cd-462f-bdb0-b65d8914273a">WM_GETTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

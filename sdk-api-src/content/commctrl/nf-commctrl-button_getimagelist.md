@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a> message explicitly. 
+Gets the <a href="https://msdn.microsoft.com/c3a790ee-e247-47c1-9578-2b351cf725cd">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/79383758-53d4-4955-b472-befd338cbec6">BCM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -69,14 +70,14 @@ A handle to the button control.
 
 Type: <b>PBUTTON_IMAGELIST</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a> structure that contains image list information. 
+A pointer to a <a href="https://msdn.microsoft.com/c3a790ee-e247-47c1-9578-2b351cf725cd">BUTTON_IMAGELIST</a> structure that contains image list information. 
 
 
 ## -remarks
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -86,11 +87,11 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/79383758-53d4-4955-b472-befd338cbec6">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775953(v=VS.85).aspx">BUTTON_IMAGELIST</a>
+<a href="https://msdn.microsoft.com/c3a790ee-e247-47c1-9578-2b351cf725cd">BUTTON_IMAGELIST</a>
 
 
 

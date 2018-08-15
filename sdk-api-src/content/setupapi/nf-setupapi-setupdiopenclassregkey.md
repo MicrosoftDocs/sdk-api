@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: DesktopFor universal, call CM_Open_Class_Key
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -90,7 +91,7 @@ This function does not create a registry key if it does not already exist.
 
 The handle returned from this function must be closed by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=194543">RegCloseKey</a>.
 
-To open the interface class registry key or a specific interface class subkey, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552067">SetupDiOpenClassRegKeyEx</a>.
+To open the interface class registry key or a specific interface class subkey, call <a href="https://msdn.microsoft.com/c931f906-8237-4203-b9b6-4dd54a93ca8b">SetupDiOpenClassRegKeyEx</a>.
 
 
 
@@ -100,11 +101,11 @@ To open the interface class registry key or a specific interface class subkey, c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552067">SetupDiOpenClassRegKeyEx</a>
+<a href="https://msdn.microsoft.com/c931f906-8237-4203-b9b6-4dd54a93ca8b">SetupDiOpenClassRegKeyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552079">SetupDiOpenDevRegKey</a>
+<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
  
 
  

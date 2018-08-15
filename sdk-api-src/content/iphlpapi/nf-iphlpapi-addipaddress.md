@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -205,7 +206,7 @@ For information about the <b>IPAddr</b> and <b>IPMask</b> data types, see
 <a href="https://msdn.microsoft.com/7d6df658-9d83-45c7-97e7-b2a016a73847">inet_addr</a> and 
 <a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a> functions.
 
-On Windows Vista and later, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546227">CreateUnicastIpAddressEntry</a> function can be used to add a new unicast IPv4 or IPv6 address entry on a local computer. 
+On Windows Vista and later, the <a href="https://msdn.microsoft.com/8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0">CreateUnicastIpAddressEntry</a> function can be used to add a new unicast IPv4 or IPv6 address entry on a local computer. 
 
 
 #### Examples
@@ -360,7 +361,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546227">CreateUnicastIpAddressEntry</a>
+<a href="https://msdn.microsoft.com/8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0">CreateUnicastIpAddressEntry</a>
 
 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>AuditSetPerUserPolicy</b> function sets per-user audit policy in one or m
 
 ### -param pSid [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure associated with the principal for which to set  audit policy. Per-user policy for group SIDs is not currently supported.
+A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure associated with the principal for which to set  audit policy. Per-user policy for group SIDs is not currently supported.
 
 
 ### -param pAuditPolicy [in]
@@ -124,7 +125,7 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> structure specified by the <i>pSID</i> parameter is not associated with an existing user.
+The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure specified by the <i>pSID</i> parameter is not associated with an existing user.
 
 </td>
 </tr>

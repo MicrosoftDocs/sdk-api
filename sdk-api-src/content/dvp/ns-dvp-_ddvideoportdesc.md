@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -91,7 +92,7 @@ Specifies the maximum pixel rate per second.
 
 ### -field dwVideoPortID
 
-Specifies the ID of the hardware video port to be used. This ID should range from 0 to (<b>dwMaxVideoPorts</b> -1), where <b>dwMaxVideoPorts</b> is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a> structure.
+Specifies the ID of the hardware video port to be used. This ID should range from 0 to (<b>dwMaxVideoPorts</b> -1), where <b>dwMaxVideoPorts</b> is a member of the <a href="https://msdn.microsoft.com/529d60b5-658d-4d55-a599-fa35386c01a7">DDCORECAPS</a> structure.
 
 
 ### -field dwReserved1
@@ -101,7 +102,7 @@ Reserved for system use and should be ignored by the driver.
 
 ### -field VideoPortType
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550388">DDVIDEOPORTCONNECT</a> structure describing the connection characteristics of the hardware video port.
+Specifies a <a href="https://msdn.microsoft.com/54c1bb05-37a8-4841-808b-2eb9d1ecd7a3">DDVIDEOPORTCONNECT</a> structure describing the connection characteristics of the hardware video port.
 
 
 ### -field dwReserved2
@@ -119,11 +120,11 @@ Reserved for future use and should be ignored by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
+<a href="https://msdn.microsoft.com/529d60b5-658d-4d55-a599-fa35386c01a7">DDCORECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550388">DDVIDEOPORTCONNECT</a>
+<a href="https://msdn.microsoft.com/54c1bb05-37a8-4841-808b-2eb9d1ecd7a3">DDVIDEOPORTCONNECT</a>
  
 
  

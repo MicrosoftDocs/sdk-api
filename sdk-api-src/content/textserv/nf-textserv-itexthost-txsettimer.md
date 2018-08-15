@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -90,7 +91,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<i>idTimer</i> is used in <a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">ITextHost::TxKillTimer</a>.
+<i>idTimer</i> is used in <a href="https://msdn.microsoft.com/eb3f01eb-1b95-49d7-9417-a29fb58d6805">ITextHost::TxKillTimer</a>.
 
 
 
@@ -104,7 +105,7 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -112,11 +113,11 @@ Return <b>FALSE</b> if the method fails.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787708(v=VS.85).aspx">TxKillTimer</a>
+<a href="https://msdn.microsoft.com/eb3f01eb-1b95-49d7-9417-a29fb58d6805">TxKillTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

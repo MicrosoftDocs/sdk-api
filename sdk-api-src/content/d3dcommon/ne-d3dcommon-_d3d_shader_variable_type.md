@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -497,7 +498,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-These flags are used by a shader-type description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172439(v=VS.85).aspx">D3D10_SHADER_TYPE_DESC</a>) and an effect-type description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205054(v=VS.85).aspx">D3D10_EFFECT_TYPE_DESC</a>).
+These flags are used by a shader-type description (see <a href="https://msdn.microsoft.com/bb52dbcd-d735-4ddf-a99b-670d21e17acf">D3D10_SHADER_TYPE_DESC</a>) and an effect-type description (see <a href="https://msdn.microsoft.com/6ed4c32f-26f7-47c0-b8dc-6520364113e9">D3D10_EFFECT_TYPE_DESC</a>).
 
 The types in a structured buffer describe the structure of the elements in the buffer. The layout of these types generally match their C++ struct counterparts. The following examples show structured buffers:
 
@@ -533,7 +534,7 @@ typedef D3D_SHADER_VARIABLE_TYPE D3D10_SHADER_VARIABLE_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

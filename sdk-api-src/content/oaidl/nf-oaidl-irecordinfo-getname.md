@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -132,7 +133,7 @@ The state of the type library is not valid for this operation.
 
 
 
-The caller must free the BSTR by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the BSTR by calling <a href="8F230EE3-5F6E-4CB9-A910-9C90B754DCD3">SysFreeString</a>.
 
 
 

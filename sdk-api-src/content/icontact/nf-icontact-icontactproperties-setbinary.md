@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Sets the binary data at a specified property to the contents of a specified <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>, 
+Sets the binary data at a specified property to the contents of a specified <a href="_stg_istream">IStream interface [Structured Storage]</a>, 
 		which contains a null-terminated string (as MIME type) data. 
 
 
@@ -85,7 +86,7 @@ Specifies null-terminated string representing MIME type to store when CGD_DEFAUL
 
 Type: <b>IStream*</b>
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> object containing data to place at this node. 
+Pointer to <a href="_stg_istream">IStream interface [Structured Storage]</a> object containing data to place at this node. 
 				NOTE: IStream::Read is called for the data until it succeeds with a zero-length read. 
 				Any other return value results in a failure and no change. 
 

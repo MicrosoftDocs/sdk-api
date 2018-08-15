@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -162,7 +163,7 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633511(v=VS.85).aspx">GetProcessDefaultLayout</a>
+<a href="https://msdn.microsoft.com/c6ddc7e8-aa64-4296-b10b-8f0e2f4612b8">GetProcessDefaultLayout</a>
 
 
 
@@ -178,7 +179,7 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

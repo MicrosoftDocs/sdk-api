@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -150,13 +151,13 @@ The <b>BluetoothGATTBeginReliableWrite</b> function notifies the Bluetooth stack
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450806">BluetoothGATTSetCharacteristicValue</a>
+<a href="https://msdn.microsoft.com/114C1FCD-95F8-4358-8178-C9B283CA7323">BluetoothGATTSetCharacteristicValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450794">BluetoothGATTEndReliableWrite</a>
+<a href="https://msdn.microsoft.com/4A3CB135-55D7-41BA-8067-D4B865D05733">BluetoothGATTEndReliableWrite</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450791">BluetoothGATTAbortReliableWrite</a>
+<a href="https://msdn.microsoft.com/6EC1D80A-6327-4D5A-8460-87C339669BDA">BluetoothGATTAbortReliableWrite</a>
 </li>
 </ul>
 

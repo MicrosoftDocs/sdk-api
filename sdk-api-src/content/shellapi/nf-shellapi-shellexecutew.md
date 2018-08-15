@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -176,7 +177,7 @@ Activates the window and displays it in its current size and position.
 
 #### SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 
@@ -215,6 +216,11 @@ Displays a window in its most recent size and position. The active window remain
 Activates and displays a window. If the window is minimized or maximized, Windows restores it to its original size and position. An application should specify this flag when displaying the window for the first time.
 
 
+##### - lpOperation.NULL
+
+The default verb is used, if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+
+
 ##### - lpOperation.edit
 
 Launches an editor and opens the document for editing. If <i>lpFile</i> is not a document file, the function will fail.
@@ -238,11 +244,6 @@ Opens the item specified by the <i>lpFile</i> parameter. The item can be a file 
 ##### - lpOperation.print
 
 Prints the file specified by <i>lpFile</i>. If <i>lpFile</i> is not a document file, the function fails.
-
-
-##### - lpOperation.NULL
-
-The default verb is used, if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
 
 
 ##### - nShowCmd.SW_HIDE (0)
@@ -272,7 +273,7 @@ Activates the window and displays it in its current size and position.
 
 ##### - nShowCmd.SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 ##### - nShowCmd.SW_SHOWMAXIMIZED (3)

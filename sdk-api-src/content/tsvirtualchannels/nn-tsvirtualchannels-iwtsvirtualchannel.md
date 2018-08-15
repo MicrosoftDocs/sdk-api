@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -73,7 +74,7 @@ The <b>IWTSVirtualChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/b900789d-c7da-4974-8c46-72ea8ffd6892">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the channel.
@@ -82,7 +83,7 @@ Closes the channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://msdn.microsoft.com/fef7067c-6d81-42b7-8534-191bc98906d4">Write</a>
 </td>
 <td align="left" width="63%">
 Starts a write request on the channel.

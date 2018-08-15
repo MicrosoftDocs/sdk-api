@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -71,7 +72,7 @@ Variable of type <b>ULONG</b> that specifies the list of entries that can be add
 
 Type: <b>LPENTRYID</b>
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms629445(v=VS.85).aspx">ENTRYID</a> that specifies the container that will supply the list of <a href="https://docs.microsoft.com/">one-off</a> entries that can be added to the recipient wells of the address book's common dialog box. The address book container that <b>lpABContEntryID</b> points to determines what is listed in the edit box within the dialog box that holds possible recipient names. Usually, <b>lpABContEntryID</b> is <b>NULL</b>, indicating the use of a custom recipient provider.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/5d00a02c-c6d1-4ee7-80ce-bfedbaa0cf84">ENTRYID</a> that specifies the container that will supply the list of <a href="https://docs.microsoft.com/">one-off</a> entries that can be added to the recipient wells of the address book's common dialog box. The address book container that <b>lpABContEntryID</b> points to determines what is listed in the edit box within the dialog box that holds possible recipient names. Usually, <b>lpABContEntryID</b> is <b>NULL</b>, indicating the use of a custom recipient provider.
 
 
 ### -field ulFlags
@@ -108,7 +109,7 @@ Causes a modal dialog box to be displayed. The client must set either this flag 
 
 #### DIALOG_SDI
 
-Causes a modeless dialog box to be displayed. This call returns immediately and thus does not modify the <a href="https://msdn.microsoft.com/en-us/library/ms629442(v=VS.85).aspx">ADRLIST</a> structure passed in. The caller must set either this flag or <b>DIALOG_MODAL</b>, but not both.
+Causes a modeless dialog box to be displayed. This call returns immediately and thus does not modify the <a href="https://msdn.microsoft.com/4c9cc1a8-3379-4f01-9125-16ac6bbdd54b">ADRLIST</a> structure passed in. The caller must set either this flag or <b>DIALOG_MODAL</b>, but not both.
 
 
 ### -field lpReserved
@@ -136,14 +137,14 @@ Type: <b>LPFNABSDI</b>
 
 Pointer to a WAB function based on the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> prototype (see MAPI documentation), or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
 
-Clients building an <b>ADRPARM</b> structure to pass to <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> must always set the <b>lpfnABSDI</b> member to <b>NULL</b>. If the <b>DIALOG_SDI</b> flag is set, WAB then sets it to a valid function before returning. Clients call this function from within their message loop to ensure that accelerators in the address book dialog box work. When the dialog box is dismissed and WAB calls the function to which the <b>lpfnDismiss</b> member points, clients should unhook the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> function from their message loop.
+Clients building an <b>ADRPARM</b> structure to pass to <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> must always set the <b>lpfnABSDI</b> member to <b>NULL</b>. If the <b>DIALOG_SDI</b> flag is set, WAB then sets it to a valid function before returning. Clients call this function from within their message loop to ensure that accelerators in the address book dialog box work. When the dialog box is dismissed and WAB calls the function to which the <b>lpfnDismiss</b> member points, clients should unhook the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> function from their message loop.
 
 
 ### -field lpfnDismiss
 
 Type: <b>LPFNDISMISS</b>
 
-Pointer to a function based on the <a href="c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> (see MAPI documentation) prototype, or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set. WAB calls the DISMISSMODELESS function when the user dismisses the modeless address dialog box, informing a client calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> that the dialog box is no longer active.
+Pointer to a function based on the <a href="c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> (see MAPI documentation) prototype, or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set. WAB calls the DISMISSMODELESS function when the user dismisses the modeless address dialog box, informing a client calling <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> that the dialog box is no longer active.
 
 
 ### -field lpvDismissContext
@@ -192,14 +193,14 @@ Variable of type <b>ULONG</b> that specifies the field in the address book dialo
 
 Type: <b>LPTSTR*</b>
 
-Pointer to an array of variables of type <b>LPTSTR</b> that specify the text titles to be displayed in the recipient-name edit boxes of the address book dialog box. The size of the array is the value of <b>cDestFields</b>. If the <b>lppszDestTitles</b> member is <b>NULL</b>, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> method chooses default titles.
+Pointer to an array of variables of type <b>LPTSTR</b> that specify the text titles to be displayed in the recipient-name edit boxes of the address book dialog box. The size of the array is the value of <b>cDestFields</b>. If the <b>lppszDestTitles</b> member is <b>NULL</b>, the <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> method chooses default titles.
 
 
 ### -field lpulDestComps
 
 Type: <b>ULONG*</b>
 
-Pointer to an array of variables of type <b>ULONG</b> that specify the recipient types—such as MAPI_TO, MAPI_CC, and MAPI_BCC—associated with each recipient-name edit box. The size of the array is the value of <b>cDestFields</b>. If the <b>lpulDestComps</b> member is <b>NULL</b>, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> method chooses default recipient types.
+Pointer to an array of variables of type <b>ULONG</b> that specify the recipient types—such as MAPI_TO, MAPI_CC, and MAPI_BCC—associated with each recipient-name edit box. The size of the array is the value of <b>cDestFields</b>. If the <b>lpulDestComps</b> member is <b>NULL</b>, the <a href="715e0dd3-266f-403f-b31f-2f4d92f0a499">Address</a> method chooses default recipient types.
 
 
 ### -field lpContRestriction

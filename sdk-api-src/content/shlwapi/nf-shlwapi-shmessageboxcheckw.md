@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -88,7 +89,7 @@ A pointer to a null-terminated string that contains the title of the message box
 
 Type: <b>UINT</b>
 
-The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
+The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
 
 
 You must specify the buttons to be displayed by setting one and only one of the following flags.
@@ -157,6 +158,31 @@ Type: <b>LPCTSTR</b>
 A pointer to a null-terminated string that contains a unique string value to associate with this message. To avoid collisions with values used by Microsoft, this string should include a GUID. This string must not exceed REGSTR_MAX_VALUE_LENGTH characters in length, including the terminating null character.
 
 
+##### - uType.MB_ICONEXCLAMATION
+
+Display an exclamation-point icon.
+
+
+##### - uType.MB_ICONHAND
+
+Display a stop-sign icon.
+
+
+##### - uType.MB_ICONINFORMATION
+
+Display an icon with a lowercase "i" in a circle.
+
+
+##### - uType.MB_ICONQUESTION
+
+Display a question-mark icon.
+
+
+##### - uType.MB_OK
+
+Display a message box with an <b>OK</b> button.
+
+
 ##### - uType.MB_OKCANCEL
 
 Display a message box with <b>OK</b> and <b>Cancel</b> buttons.
@@ -165,31 +191,6 @@ Display a message box with <b>OK</b> and <b>Cancel</b> buttons.
 ##### - uType.MB_YESNO
 
 Display a message box with <b>Yes</b> and <b>No</b> buttons.
-
-
-##### - uType.MB_OK
-
-Display a message box with an <b>OK</b> button.
-
-
-##### - uType.MB_ICONHAND
-
-Display a stop-sign icon.
-
-
-##### - uType.MB_ICONQUESTION
-
-Display a question-mark icon.
-
-
-##### - uType.MB_ICONEXCLAMATION
-
-Display an exclamation-point icon.
-
-
-##### - uType.MB_ICONINFORMATION
-
-Display an icon with a lowercase "i" in a circle.
 
 
 ## -returns

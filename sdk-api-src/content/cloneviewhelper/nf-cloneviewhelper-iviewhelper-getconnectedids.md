@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -196,7 +197,7 @@ The array that was passed in the <i>pulID</i> parameter cannot hold all of the d
 
 In the first call to <b>GetConnectedIDs</b>, the <i>pulID </i>parameter is set to <b>NULL</b>, and the number of entries in the array of identifiers is retrieved in the variable that the <i>pulCount</i> parameter points to. In the second call to <b>GetConnectedIDs</b>, the number of entries that was retrieved in the first call is passed in the variable that <i>pulCount</i> points to, and an allocated array is passed to <i>pulCount</i>. This allocated array receives the identifiers of the targets or sources. 
 
-<b>GetConnectedIDs</b> is called when a new second monitor is detected. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff568174">IViewHelper::SetActiveTopology</a> method must then be called to set the display on the adapter to clone view. The adapter name is the string that was obtained from the <b>DeviceKey</b> member of the DISPLAY_DEVICE structure in a call to the <b>EnumDisplayDevices</b> function. For more information about DISPLAY_DEVICE and <b>EnumDisplayDevices</b>, see the Windows SDK documentation.
+<b>GetConnectedIDs</b> is called when a new second monitor is detected. The <a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a> method must then be called to set the display on the adapter to clone view. The adapter name is the string that was obtained from the <b>DeviceKey</b> member of the DISPLAY_DEVICE structure in a call to the <b>EnumDisplayDevices</b> function. For more information about DISPLAY_DEVICE and <b>EnumDisplayDevices</b>, see the Windows SDK documentation.
 
 
 
@@ -206,7 +207,7 @@ In the first call to <b>GetConnectedIDs</b>, the <i>pulID </i>parameter is set t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568174">IViewHelper::SetActiveTopology</a>
+<a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a>
  
 
  

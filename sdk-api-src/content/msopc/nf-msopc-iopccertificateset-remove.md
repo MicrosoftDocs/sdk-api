@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -108,7 +109,7 @@ The <i>certificate</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt484158">Certificates</a>
+<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
 
 
 

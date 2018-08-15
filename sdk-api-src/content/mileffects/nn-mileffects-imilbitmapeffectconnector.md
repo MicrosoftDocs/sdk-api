@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,16 +72,16 @@ The <b>IMILBitmapEffectConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735304(v=VS.85).aspx">GetBitmapEffect</a>
+<a href="https://msdn.microsoft.com/00abf251-81a1-41de-bf0e-9ea77f0ac5f0">GetBitmapEffect</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> associated with the connector.
+Gets the <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> associated with the connector.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735306(v=VS.85).aspx">IsConnected</a>
+<a href="https://msdn.microsoft.com/42ecc47d-cfea-41b8-bc0c-f346a9e18611">IsConnected</a>
 </td>
 <td align="left" width="63%">
 Determines whether the connector is connected to an effect.

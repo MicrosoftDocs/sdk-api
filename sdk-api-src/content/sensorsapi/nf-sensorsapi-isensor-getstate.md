@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -61,7 +62,7 @@ Retrieves the current operational state of the sensor.
 
 ### -param pState [out]
 
-Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545708">SensorState</a> variable that receives the current state.
+Address of a <a href="https://msdn.microsoft.com/4cf993ba-d767-4ef8-94a9-e819cc210360">SensorState</a> variable that receives the current state.
 
 
 ## -returns

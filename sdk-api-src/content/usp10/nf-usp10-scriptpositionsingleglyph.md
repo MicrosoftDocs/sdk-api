@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -143,7 +144,7 @@ A typical use of this function is the slight adjustment of the margin to account
 
 The following examples demonstrate this effect. The first example shows strict alignment; the next two examples show an adjustment of the initial "T" to the left. The adjustments are by one pixel and two pixels, respectively. The magnified images to the right show how the "T" pushes slightly farther into the left margin in each successive case.
 
-<img alt="Illustration showing the same block of text three times, with enlargements of each showing slightly different alignment" border="" src="./images/HAlign.gif"/>
+<img alt="Illustration showing the same block of text three times, with enlargements of each showing slightly different alignment" border="" src="images/HAlign.gif"/>
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 

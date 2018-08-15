@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -99,7 +100,7 @@ To view an example that retrieves the <b>MIB_IPADDRTABLE</b> structure and then 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365949(v=VS.85).aspx">GetIpAddrTable</a>
+<a href="_iphlp_getipaddrtable">GetIpAddrTable</a>
 
 
 

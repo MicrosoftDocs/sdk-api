@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -70,7 +71,7 @@ Specifies the direction to navigate. This direction is in <i>spatial</i> order, 
 
 Type: <b>VARIANT</b>
 
-Specifies whether the starting object of the navigation is the object itself or one of the object's children. This parameter is either CHILDID_SELF (to start from the object) or a child ID (to start from one of the object's child elements). For more information about initializing the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Specifies whether the starting object of the navigation is the object itself or one of the object's children. This parameter is either CHILDID_SELF (to start from the object) or a child ID (to start from one of the object's child elements). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param pvarEndUpAt
@@ -84,7 +85,7 @@ Specifies whether the starting object of the navigation is the object itself or 
 
 Type: <b>VARIANT*</b>
 
-[out, retval] Address of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure that receives information about the destination object. The following table describes the information that is returned in <i>pvarEnd</i>.
+[out, retval] Address of a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> structure that receives information about the destination object. The following table describes the information that is returned in <i>pvarEnd</i>.
 
 <table>
 <tr>
@@ -189,7 +190,7 @@ The <b>accNavigate</b> method retrieves UI elements that have a defined screen l
 
 This method does not change the selection or focus. To change the focus or to select an object, use <a href="https://msdn.microsoft.com/ae55831c-0dfa-4901-b241-27e2cdf1035f">IAccessible::accSelect</a>.
 
-To prevent looping when traversing screen elements, <b>accNavigate</b> returns S_FALSE with VT_EMPTY when you specify <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_NEXT</a> on the last element, or <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_PREVIOUS</a> on the first element.
+To prevent looping when traversing screen elements, <b>accNavigate</b> returns S_FALSE with VT_EMPTY when you specify <a href="navigation_constants.htm">NAVDIR_NEXT</a> on the last element, or <a href="navigation_constants.htm">NAVDIR_PREVIOUS</a> on the first element.
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
@@ -240,7 +241,7 @@ Then, call <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a9
 </table>
  
 
-The following table describes navigation flags <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_FIRSTCHILD</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_LASTCHILD</a>. It does not include entries for navigating to a first or last child when the starting point is a simple element because simple elements cannot have children.
+The following table describes navigation flags <a href="navigation_constants.htm">NAVDIR_FIRSTCHILD</a> and <a href="navigation_constants.htm">NAVDIR_LASTCHILD</a>. It does not include entries for navigating to a first or last child when the starting point is a simple element because simple elements cannot have children.
 
 <table>
 <tr>
@@ -399,7 +400,7 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>
+<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
  
 
  

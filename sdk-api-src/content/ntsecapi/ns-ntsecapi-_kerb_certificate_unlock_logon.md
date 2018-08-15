@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -71,7 +72,7 @@ The <b>MessageType</b> member of the <a href="https://msdn.microsoft.com/e6aa004
 
 ### -field LogonId
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> structure that identifies the logon session to unlock. This member is set by <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a>.
+A <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> structure that identifies the logon session to unlock. This member is set by <a href="https://msdn.microsoft.com/232d1dcc-5388-480c-8d27-caf8ded4575d">Winlogon</a>.
 
 
 ## -see-also

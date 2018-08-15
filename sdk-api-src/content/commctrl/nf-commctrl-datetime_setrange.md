@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761780(v=VS.85).aspx">DTM_SETRANGE</a> message explicitly. 
+Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/ef0f48f2-906e-4ae0-839d-177e0fb7f14e">DTM_SETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -111,7 +112,7 @@ A pointer to a two-element array of <a href="https://msdn.microsoft.com/f77cdf86
 
 
 
-The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://msdn.microsoft.com/en-us/library/Bb761813(v=VS.85).aspx">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
+The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://msdn.microsoft.com/9ac12f31-09d8-4220-939c-24fbb92cb6ed">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
 
 
 

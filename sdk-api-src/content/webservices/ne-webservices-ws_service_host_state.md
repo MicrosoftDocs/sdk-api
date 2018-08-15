@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -83,7 +84,7 @@ The states that a service host can be in.
 
 The following are the state transitions for a service host
 
-<img alt="" src="./images/ServiceHostStates.png"/>
+<img alt="" src="images/ServiceHostStates.png"/>
 
 
 

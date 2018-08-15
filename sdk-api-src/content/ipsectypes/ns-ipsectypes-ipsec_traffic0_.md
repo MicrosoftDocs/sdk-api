@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -63,7 +64,7 @@ The <b>IPSEC_TRAFFIC0</b> structure specifies parameters to describe IPsec traff
 
 Internet Protocol (IP) version. 
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> for more information.
+See <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a> for more information.
 
 
 ### -field localV4Address
@@ -140,7 +141,7 @@ For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a>
+<a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a>
 
 
 

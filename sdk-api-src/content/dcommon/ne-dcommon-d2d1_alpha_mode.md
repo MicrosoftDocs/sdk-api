@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcommon.h
 req.include-header: D2d1.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -107,7 +108,7 @@ If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a rend
 You can use the <a href="https://msdn.microsoft.com/be6161ed-d797-4090-9bf0-5d6ee11cac0e">SetTextAntialiasMode</a> method to change the text antialias mode  back to <a href="https://msdn.microsoft.com/d2c829d7-9892-4cbb-9993-12bb7d77fc25">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>, but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques. 
 
 <ul>
-<li>Use the <a href="https://msdn.microsoft.com/8b777425-07b1-4494-889a-0c947fb61315">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a> method and specify an opaque color, then render your text.</li>
+<li>Use the <a href="https://msdn.microsoft.com/8b777425-07b1-4494-889a-0c947fb61315">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://msdn.microsoft.com/3bfec923-17fc-479a-a760-9baab2ff3a56">Clear</a> method and specify an opaque color, then render your text.</li>
 <li>Use <a href="https://msdn.microsoft.com/3f8c0754-fa68-4b5b-812f-24d8b544ba6e">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
 </ul>
 

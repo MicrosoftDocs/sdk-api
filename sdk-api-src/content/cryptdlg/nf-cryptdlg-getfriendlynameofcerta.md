@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -79,14 +80,14 @@ TBD
 
 
 
-#### - pwch [out]
-
-A pointer to a character string that receives the display name for the certificate.
-
-
 #### - cwch [in]
 
 Number of characters allocated for <i>pchBuffer</i>, including the terminating <b>NULL</b> character.
+
+
+#### - pwch [out]
+
+A pointer to a character string that receives the display name for the certificate.
 
 
 ## -returns

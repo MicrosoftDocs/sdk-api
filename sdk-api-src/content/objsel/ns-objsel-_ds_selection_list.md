@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objsel.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -51,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>DS_SELECTION_LIST</b> structure contains data about the objects the user selected from an object picker dialog box. This structure is supplied by the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface supplied by the <a href="https://msdn.microsoft.com/76192a35-10e1-46e3-8724-7637d47d8eca">IDsObjectPicker::InvokeDialog</a> method in the <a href="https://msdn.microsoft.com/cd634e3b-0eb7-4144-b9e1-1d27a322f72c">CFSTR_DSOP_DS_SELECTION_LIST</a> data format.
+The <b>DS_SELECTION_LIST</b> structure contains data about the objects the user selected from an object picker dialog box. This structure is supplied by the <a href="_ole_idataobject">IDataObject</a> interface supplied by the <a href="https://msdn.microsoft.com/76192a35-10e1-46e3-8724-7637d47d8eca">IDsObjectPicker::InvokeDialog</a> method in the <a href="https://msdn.microsoft.com/cd634e3b-0eb7-4144-b9e1-1d27a322f72c">CFSTR_DSOP_DS_SELECTION_LIST</a> data format.
 
 
 
@@ -94,7 +95,7 @@ Contains an array of <a href="https://msdn.microsoft.com/7a587997-0423-450f-a845
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

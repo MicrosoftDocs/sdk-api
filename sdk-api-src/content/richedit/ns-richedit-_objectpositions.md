@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -61,7 +62,7 @@ Contains object position information.
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification code being sent. 
 
@@ -84,7 +85,7 @@ The object positions.
 
 
 
-This is used in the <a href="https://msdn.microsoft.com/en-us/library/Bb787977(v=VS.85).aspx">EN_OBJECTPOSITIONS</a> notification. 
+This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a> notification. 
 
 
 
@@ -94,11 +95,11 @@ This is used in the <a href="https://msdn.microsoft.com/en-us/library/Bb787977(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787977(v=VS.85).aspx">EN_OBJECTPOSITIONS</a>
+<a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
 
 
 

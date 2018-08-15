@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -144,7 +145,7 @@ When using WOF_PROVIDER_FILE, the operation may fail with ERROR_COMPRESSION_NOT_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632443">FSCTL_SET_EXTERNAL_BACKING</a>
+<a href="https://msdn.microsoft.com/5CB9FD4D-AF29-4438-B0B5-49871102968A">FSCTL_SET_EXTERNAL_BACKING</a>
  
 
  

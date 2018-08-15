@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -77,5 +78,5 @@ Optional. File handle to the open file to be verified. This handle must be to a 
 
 ### -field pgKnownSubject
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
+Optional. Pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
 

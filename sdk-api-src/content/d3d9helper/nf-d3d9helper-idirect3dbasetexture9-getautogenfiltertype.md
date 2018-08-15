@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,9 +66,9 @@ Get the filter type that is used for automatically generated mipmap sublevels.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx">D3DTEXTUREFILTERTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4e0420fa-ac76-4be4-90d7-944d8d5a5de1">D3DTEXTUREFILTERTYPE</a></b>
 
-Filter type. See <a href="https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx">D3DTEXTUREFILTERTYPE</a>. A texture must be created with <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_AUTOGENMIPMAP</a> to use this method. Any other usage value will cause this method to return D3DTEXF_NONE.
+Filter type. See <a href="https://msdn.microsoft.com/4e0420fa-ac76-4be4-90d7-944d8d5a5de1">D3DTEXTUREFILTERTYPE</a>. A texture must be created with <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE_AUTOGENMIPMAP</a> to use this method. Any other usage value will cause this method to return D3DTEXF_NONE.
 
 
 
@@ -78,9 +79,9 @@ Filter type. See <a href="https://msdn.microsoft.com/en-us/library/Bb172615(v=VS
 
 Changing the filter type "dirties" the mipmap sublevels and causes them to be regenerated.
 
-The (default) filter type set at texture creation time is D3DTEXF_LINEAR. If the driver doesn't support a linear filter, the filter type will be set to D3DTEXF_POINT. All filter types supported by the driver for regular texture filtering are supported for autogeneration except D3DTEXF_NONE. For each resource type, drivers should support all the filter types reported in the corresponding texture, CubeTexture, and volumetexture filter caps. For more information about texture types, see <a href="https://msdn.microsoft.com/en-us/library/Bb172615(v=VS.85).aspx">D3DTEXTUREFILTERTYPE</a>.
+The (default) filter type set at texture creation time is D3DTEXF_LINEAR. If the driver doesn't support a linear filter, the filter type will be set to D3DTEXF_POINT. All filter types supported by the driver for regular texture filtering are supported for autogeneration except D3DTEXF_NONE. For each resource type, drivers should support all the filter types reported in the corresponding texture, CubeTexture, and volumetexture filter caps. For more information about texture types, see <a href="https://msdn.microsoft.com/4e0420fa-ac76-4be4-90d7-944d8d5a5de1">D3DTEXTUREFILTERTYPE</a>.
 
-This method has no effect if the texture is not created with <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_AUTOGENMIPMAP</a>.
+This method has no effect if the texture is not created with <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE_AUTOGENMIPMAP</a>.
 
 
 
@@ -90,15 +91,15 @@ This method has no effect if the texture is not created with <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174323(v=VS.85).aspx">GenerateMipSubLevels</a>
+<a href="https://msdn.microsoft.com/4fd7fcb3-d3fc-4db9-a56b-d5008e32c0c7">GenerateMipSubLevels</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
+<a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174327(v=VS.85).aspx">SetAutoGenFilterType</a>
+<a href="https://msdn.microsoft.com/fa742bfe-e4b2-48f6-8d84-3772b519aab3">SetAutoGenFilterType</a>
  
 
  

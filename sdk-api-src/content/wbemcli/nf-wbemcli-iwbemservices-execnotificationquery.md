@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -94,8 +95,8 @@ This parameter must be set to both <b>WBEM_FLAG_RETURN_IMMEDIATELY</b> and <b>WB
 #### WBEM_FLAG_FORWARD_ONLY
 
 This flag causes a forward-only enumerator to be returned. Forward-only enumerators are generally much faster and use less memory than conventional enumerators but do not allow calls to 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>.
+<a href="https://msdn.microsoft.com/a323c662-e005-44aa-a903-1eb7d6ddff9e">Clone</a> or 
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a>.
 
 
 
@@ -116,7 +117,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 If no error occurs, this parameter receives the enumerator that allows the caller to retrieve the instances in the result set of the query. The caller periodically calls 
 <a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to see if any events are available. Notice that, in this usage, 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> does not move the enumerator back to the beginning of the event sequence; it has no effect. The parameter can continue to receive events until <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> is called on the returned enumerator.
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a> does not move the enumerator back to the beginning of the event sequence; it has no effect. The parameter can continue to receive events until <a href="_com_iunknown_release">Release</a> is called on the returned enumerator.
 
 
 ## -returns

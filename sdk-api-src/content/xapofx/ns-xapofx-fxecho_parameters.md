@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ Amount of output to feed back into input.
 
 ### -field Delay
 
-Delay to all channels in milliseconds. This value must be between <b>FXECHO_MIN_DELAY</b> and <a href="https://msdn.microsoft.com/en-us/library/Hh405045(v=VS.85).aspx">FXECHO_INITDATA</a>.<b>MaxDelay</b>.
+Delay to all channels in milliseconds. This value must be between <b>FXECHO_MIN_DELAY</b> and <a href="https://msdn.microsoft.com/3bbb0a77-7d42-4823-a5f4-bda7af5eaa2c">FXECHO_INITDATA</a>.<b>MaxDelay</b>.
 
 
 ## -remarks
@@ -91,7 +92,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
  
 
  

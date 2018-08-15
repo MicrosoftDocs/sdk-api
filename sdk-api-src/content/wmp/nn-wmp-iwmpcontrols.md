@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -59,7 +60,7 @@ The <b>IWMPControls</b> interface provides a way to manipulate the playback of a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPControls</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPControls</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -137,7 +138,7 @@ Retrieves a value indicating whether a specified type of information is availabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">next</a>
+<a href="https://msdn.microsoft.com/1f0bbc77-b271-4076-8089-92fe7745d9a8">next</a>
 </td>
 <td align="left" width="63%">
 Sets the current item to the next item in the playlist.
@@ -146,7 +147,7 @@ Sets the current item to the next item in the playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">pause</a>
+<a href="https://msdn.microsoft.com/ef8a3f0e-b424-43ab-bb42-83e9f80f5d19">pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback of the media item.
@@ -209,7 +210,7 @@ Specifies the current position in the media item in seconds from the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">stop</a>
+<a href="https://msdn.microsoft.com/97ab009d-5ad9-4049-a212-1ef95941f951">stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback of the media item.
@@ -249,7 +250,7 @@ Retrieve a pointer to an <b>IWMPControls</b> interface with the following method
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
  
 
  

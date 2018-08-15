@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -124,6 +125,11 @@ The source file is compressed with LZ compression.
 The source file is compressed with MSZIP compression.
 
 
+##### - CompressionType.FILE_COMPRESSION_MSZIP
+
+The source file is compressed with MSZIP compression.
+
+
 ##### - CompressionType.FILE_COMPRESSION_NONE
 
 The source file is not compressed with a recognized compression algorithm.
@@ -132,11 +138,6 @@ The source file is not compressed with a recognized compression algorithm.
 ##### - CompressionType.FILE_COMPRESSION_WINLZA
 
 The source file is compressed with LZ compression.
-
-
-##### - CompressionType.FILE_COMPRESSION_MSZIP
-
-The source file is compressed with MSZIP compression.
 
 
 ## -returns
@@ -169,7 +170,7 @@ Because
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

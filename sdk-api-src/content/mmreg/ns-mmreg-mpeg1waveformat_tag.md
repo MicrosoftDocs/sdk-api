@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,7 +66,7 @@ The <code>MPEG1WAVEFORMAT</code> structure describes the format of MPEG-1 audio 
 ### -field wfx
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that contains information about the audio format. See Remarks.
+<a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure that contains information about the audio format. See Remarks.
 
 
 ### -field fwHeadLayer
@@ -329,7 +330,7 @@ Specifies the most significant bit of the PTS. The <b>dwPTSLow</b> and <b>dwPTSH
 
 
 
-For MPEG-1 audio, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure defined in the <b>wfx</b> member must have the following values.
+For MPEG-1 audio, the <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure defined in the <b>wfx</b> member must have the following values.
 
 <table>
 <tr>
@@ -372,7 +373,7 @@ If the bit rate is variable or the sampling frequency is 44.1 kHz, the audio fra
 </tr>
 <tr>
 <td><b>cbSize</b></td>
-<td>Specifies the size of the format data after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, in bytes. For the standard <b>MPEG1WAVEFORMAT</b> structure, this value is 22 bytes.</td>
+<td>Specifies the size of the format data after the <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure, in bytes. For the standard <b>MPEG1WAVEFORMAT</b> structure, this value is 22 bytes.</td>
 </tr>
 </table>
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -66,7 +67,7 @@ The length of this structure, in bytes.
 
 ### -field pUserSid
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> of the user who created the certificate. This member is optional and can be <b>NULL</b>.
+The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> of the user who created the certificate. This member is optional and can be <b>NULL</b>.
 
 
 ### -field pHash

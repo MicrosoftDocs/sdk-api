@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761757(v=VS.85).aspx">DTM_GETIDEALSIZE</a> message explicitly.
+Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/15ec26a1-645b-4a96-af66-1031e1a46c6c">DTM_GETIDEALSIZE</a> message explicitly.
 
 
 ## -parameters
@@ -67,7 +68,7 @@ A handle to the DTP control.
 
 ### -param psize [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a></b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a> structure to receive the size. The caller is responsible for allocating this structure.
+A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure to receive the size. The caller is responsible for allocating this structure.
 

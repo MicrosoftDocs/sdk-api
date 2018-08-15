@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the length of a string in the list in a combo box.  You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775864(v=VS.85).aspx">CB_GETLBTEXTLEN</a> message explicitly.
+Gets the length of a string in the list in a combo box.  You can use this macro or send the <a href="https://msdn.microsoft.com/f0fe0eef-f9db-4d9f-9a42-5bb2aeae30a0">CB_GETLBTEXTLEN</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +78,7 @@ The zero-based index of the item.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775864(v=VS.85).aspx">CB_GETLBTEXTLEN</a>.
+For more information, see <a href="https://msdn.microsoft.com/f0fe0eef-f9db-4d9f-9a42-5bb2aeae30a0">CB_GETLBTEXTLEN</a>.
 	
 
 

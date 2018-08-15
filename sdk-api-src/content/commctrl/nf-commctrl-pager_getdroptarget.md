@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves a pager control's <a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a> interface pointer. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760872(v=VS.85).aspx">PGM_GETDROPTARGET</a> message explicitly. 
+Retrieves a pager control's <a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a> interface pointer. You can use this macro or send the <a href="https://msdn.microsoft.com/6b548c30-2d32-4372-90e4-346a27dda218">PGM_GETDROPTARGET</a> message explicitly. 
 
 
 ## -parameters

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -67,7 +68,7 @@ A handle to a <a href="devinst.device_information_sets">device information set</
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 
 ### -param Scope [in]
@@ -123,16 +124,6 @@ The handle to an open INF file that contains an <a href="devinst.inf_ddinstall_s
 The name of an INF <i>DDInstall</i> section in the INF file specified by <i>InfHandle</i>. This section is executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfHandle</i> must be specified as well.
 
 
-##### - Scope.DICS_FLAG_GLOBAL
-
-Create a key to store global configuration information. This information is not specific to a particular hardware profile. On NT-based operating systems this creates a key that is rooted at <b>HKEY_LOCAL_MACHINE</b>. The exact key opened depends on the value of the <i>KeyType</i> parameter.
-
-
-##### - Scope.DICS_FLAG_CONFIGSPECIFIC
-
-Create a key to store hardware profile-specific configuration information. This key is rooted at one of the hardware-profile specific branches, instead of <b>HKEY_LOCAL_MACHINE</b>.
-
-
 ##### - KeyType.DIREG_DEV
 
 Create a <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a> for the device. 
@@ -141,6 +132,16 @@ Create a <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd2
 ##### - KeyType.DIREG_DRV
 
 Create a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> for the device.
+
+
+##### - Scope.DICS_FLAG_CONFIGSPECIFIC
+
+Create a key to store hardware profile-specific configuration information. This key is rooted at one of the hardware-profile specific branches, instead of <b>HKEY_LOCAL_MACHINE</b>.
+
+
+##### - Scope.DICS_FLAG_GLOBAL
+
+Create a key to store global configuration information. This information is not specific to a particular hardware profile. On NT-based operating systems this creates a key that is rooted at <b>HKEY_LOCAL_MACHINE</b>. The exact key opened depends on the value of the <i>KeyType</i> parameter.
 
 
 ## -returns
@@ -162,7 +163,7 @@ Close the handle returned from <b>SetupDiCreateDevRegKey</b> by calling <a href=
 
 If the specified key already exists, <b>SetupDiCreateDevRegKey</b> returns a handle to that key. Otherwise, <b>SetupDiCreateDevRegKey</b> creates the specified key and returns a handle to the new key. For Windows Server 2003 and later versions of Windows, the key handle has KEY_READ and KEY_WRITE access only. For previous Windows versions, this handle has KEY_ALL_ACCESS access. 
 
-The specified device instance must be registered before <b>SetupDiCreateDevRegKey</b> is called. Note, however, that the operating system automatically registers PnP device instances. For information about how to register non-PnP device instances, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552091">SetupDiRegisterDeviceInfo</a>.
+The specified device instance must be registered before <b>SetupDiCreateDevRegKey</b> is called. Note, however, that the operating system automatically registers PnP device instances. For information about how to register non-PnP device instances, see <a href="https://msdn.microsoft.com/76b2d1ab-3efb-46e6-8c44-d6913b0eecd5">SetupDiRegisterDeviceInfo</a>.
 
 For installations that use layout files (specified by the <b>LayoutFile</b> entry in an <a href="https://msdn.microsoft.com/53e30950-28a3-4ae3-a351-a917b02c84a5">INF Version section</a>), the layout file must be opened by a call to <b>SetupOpenAppendInfFile</b> (described in the Microsoft Windows SDK documentation) before <b>SetupDiCreateDevRegKey</b> is called.
 
@@ -176,19 +177,19 @@ If the supplied device information set contains device information elements for 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550952">SetupDiCreateDeviceInfo</a>
+<a href="https://msdn.microsoft.com/7d42167f-9af4-4aee-b641-a93ade1e3969">SetupDiCreateDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551997">SetupDiGetHwProfileList</a>
+<a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552079">SetupDiOpenDevRegKey</a>
+<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552091">SetupDiRegisterDeviceInfo</a>
+<a href="https://msdn.microsoft.com/76b2d1ab-3efb-46e6-8c44-d6913b0eecd5">SetupDiRegisterDeviceInfo</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 The 
-<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="https://msdn.microsoft.com/en-us/library/Aa390793(v=VS.85).aspx">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
+<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="gloss_c.htm">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
 
 An object of type 
 <b>IEnumWbemClassObject</b> is received from calls to the following methods:
@@ -71,8 +72,8 @@ An object of type
 </li>
 </ul>CIM objects are retrieved from an enumeration as objects of type 
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> by calling the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> method. You can reset an enumeration back to the beginning by calling the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> method.
+<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">Next</a> method. You can reset an enumeration back to the beginning by calling the 
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a> method.
 
 
 ## -inheritance
@@ -92,7 +93,7 @@ The <b>IEnumWbemClassObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/a323c662-e005-44aa-a903-1eb7d6ddff9e">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator.
@@ -101,7 +102,7 @@ Makes a copy of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next object or objects in the enumeration starting from the current position.
@@ -120,7 +121,7 @@ Retrieves the next object or objects using asynchronous integration with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/571b7067-676f-4e9e-9694-268ec10dc60b">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets an enumeration sequence back to the beginning.
@@ -129,11 +130,11 @@ Resets an enumeration sequence back to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/9579086c-cd45-4b3c-bd43-de0b89745b02">Skip</a>
 </td>
 <td align="left" width="63%">
 Causes the enumeration to skip ahead so that future calls to the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a> method retrieve objects one, or more, ahead of the current location in the enumeration.
+<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">Next</a> method retrieve objects one, or more, ahead of the current location in the enumeration.
 
 </td>
 </tr>

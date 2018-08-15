@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xapo.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -71,7 +72,7 @@ The <b>IXAPO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418449(v=VS.85).aspx">CalcInputFrames</a>
+<a href="https://msdn.microsoft.com/F2F7D490-1306-46A0-9547-30F7AB16825C">CalcInputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of input frames required to generate the given number of output frames.
@@ -80,7 +81,7 @@ Returns the number of input frames required to generate the given number of outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418450(v=VS.85).aspx">CalcOutputFrames</a>
+<a href="https://msdn.microsoft.com/A7DD6AD8-6EF4-46D2-B7B1-3D70A9408E78">CalcOutputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of output frames that will be generated from a given number of input frames.
@@ -89,7 +90,7 @@ Returns the number of output frames that will be generated from a given number o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn425142">GetRegistrationProperties</a>
+<a href="https://msdn.microsoft.com/F9922DF3-3E7D-4847-A6B1-C2AE99C6ADEC">GetRegistrationProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the registration properties of an XAPO. 
@@ -98,7 +99,7 @@ Returns the registration properties of an XAPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/4C975ED7-5656-4C48-A402-99011B7D37AF">Initialize</a>
 </td>
 <td align="left" width="63%">
 Performs any effect-specific initialization.
@@ -107,7 +108,7 @@ Performs any effect-specific initialization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418453(v=VS.85).aspx">IsInputFormatSupported</a>
+<a href="https://msdn.microsoft.com/3CD26BF0-9EA5-434F-9B97-D375FB6B7D21">IsInputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific input format is supported for a given output format.
@@ -116,7 +117,7 @@ Queries if a specific input format is supported for a given output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418454(v=VS.85).aspx">IsOutputFormatSupported</a>
+<a href="https://msdn.microsoft.com/5921C1C2-91DF-4E1F-A179-786CEB997BAF">IsOutputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific output format is supported for a given input format.
@@ -125,16 +126,16 @@ Queries if a specific output format is supported for a given input format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a>
+<a href="https://msdn.microsoft.com/2143A204-342F-4A78-A6D7-D319360A3948">LockForProcess</a>
 </td>
 <td align="left" width="63%">
-Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a> is called on the realtime thread.
+Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a> is called on the realtime thread.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn756307">Process</a>
+<a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a>
 </td>
 <td align="left" width="63%">
 Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
@@ -143,7 +144,7 @@ Runs the XAPO's digital signal processing (DSP) code on the given input and outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/10AF806C-B560-4B65-9C39-E4CE5EC23476">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets variables dependent on frame history.
@@ -152,10 +153,10 @@ Resets variables dependent on frame history.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418460(v=VS.85).aspx">UnlockForProcess</a>
+<a href="https://msdn.microsoft.com/1D70B361-6EB6-4591-9AD2-2E802F6EE341">UnlockForProcess</a>
 </td>
 <td align="left" width="63%">
-Deallocates variables that were allocated with the <a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a> method.
+Deallocates variables that were allocated with the <a href="https://msdn.microsoft.com/2143A204-342F-4A78-A6D7-D319360A3948">LockForProcess</a> method.
 
 </td>
 </tr>
@@ -177,7 +178,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">Interfaces</a>
  
 
  

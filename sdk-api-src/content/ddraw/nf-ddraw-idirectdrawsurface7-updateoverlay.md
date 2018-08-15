@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -63,21 +64,6 @@ Repositions or modifies the visual attributes of an overlay surface. These surfa
 
 
 
-
-
-#### - lpSrcRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the x, y, width, and height of the region on the source surface being used as the overlay. This parameter can be NULL to hide an overlay or to indicate that the entire overlay surface is to be used and that the overlay surface conforms to any boundary and size-alignment restrictions imposed by the device driver.
-
-
-#### - lpDDDestSurface [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
-
-
-#### - lpDestRect [in]
-
-A pointer to a <b>RECT</b> structure that defines the width, x, and height, y, of the region on the destination surface that the overlay should be moved to. This parameter can be NULL to hide the overlay.
 
 
 #### - dwFlags [in]
@@ -242,9 +228,24 @@ Redraws all dirty rectangles on an emulated overlayed surface.
 Turns on this overlay.
 
 
+#### - lpDDDestSurface [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
+
+
 #### - lpDDOverlayFx [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/83b56211-0483-4e22-90b4-83ac5eaaa2f4">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
+
+
+#### - lpDestRect [in]
+
+A pointer to a <b>RECT</b> structure that defines the width, x, and height, y, of the region on the destination surface that the overlay should be moved to. This parameter can be NULL to hide the overlay.
+
+
+#### - lpSrcRect [in]
+
+A pointer to a <b>RECT</b> structure that defines the x, y, width, and height of the region on the source surface being used as the overlay. This parameter can be NULL to hide an overlay or to indicate that the entire overlay surface is to be used and that the overlay surface conforms to any boundary and size-alignment restrictions imposed by the device driver.
 
 
 ## -returns

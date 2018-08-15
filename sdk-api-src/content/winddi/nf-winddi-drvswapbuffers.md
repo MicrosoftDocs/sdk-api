@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -61,12 +62,12 @@ The <b>DrvSwapBuffers</b> function displays the contents of the window's associa
 
 ### -param pso
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that identifies the target surface to be modified for display.
+Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure that identifies the target surface to be modified for display.
 
 
 ### -param pwo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570599">WNDOBJ</a> structure that defines the region on the target surface with which the back buffer will be swapped.
+Pointer to the <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure that defines the region on the target surface with which the back buffer will be swapped.
 
 
 ## -returns
@@ -94,7 +95,7 @@ This function is required if the driver supports a pixel format with double buff
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556190">DrvDescribePixelFormat</a>
+<a href="https://msdn.microsoft.com/7c630694-e076-4ab2-a2c9-262c7c5da988">DrvDescribePixelFormat</a>
  
 
  

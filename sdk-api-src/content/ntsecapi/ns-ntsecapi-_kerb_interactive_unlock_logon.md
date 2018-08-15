@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -66,7 +67,7 @@ A <a href="https://msdn.microsoft.com/96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe">KERB
 
 ### -field LogonId
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
+A <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
 
 
 ## -see-also

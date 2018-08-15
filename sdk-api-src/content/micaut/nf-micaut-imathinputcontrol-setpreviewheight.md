@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -114,12 +115,12 @@ The following image shows the Math Input Control with the default preview height
 
 
 
-<img alt="Math input control with default preview height" src="./images/mic.png"/>
+<img alt="Math input control with default preview height" src="images/mic.png"/>
 The following image shows the Math Input Control with a custom preview height.
 
 
 
-<img alt="Math input control with custom preview height" src="./images/mic_big_preview.png"/>
+<img alt="Math input control with custom preview height" src="images/mic_big_preview.png"/>
 
 #### Examples
 

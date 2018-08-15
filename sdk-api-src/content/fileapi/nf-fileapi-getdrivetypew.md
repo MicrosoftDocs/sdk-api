@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -64,7 +65,7 @@ Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or netw
     drive.
 
 To determine whether a drive is a USB-type drive, call 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a> 
+    <a href="https://msdn.microsoft.com/d42269dc-57b5-4303-94d9-02f6ee16a96f">SetupDiGetDeviceRegistryProperty</a> 
     and specify the <b>SPDRP_REMOVAL_POLICY</b> property.
 
 

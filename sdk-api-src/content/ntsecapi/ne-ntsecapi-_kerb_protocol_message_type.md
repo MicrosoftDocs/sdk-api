@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -164,7 +165,7 @@ This constant is reserved.
 
 ### -field KerbTransferCredentialsMessage
 
-The dispatch routine transfers credentials from one <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> to another <b>LUID</b>. The <b>SeTcbPrivilege</b> is required. 
+The dispatch routine transfers credentials from one <a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> to another <b>LUID</b>. The <b>SeTcbPrivilege</b> is required. 
 
 
 <b>Windows Server 2003 and Windows XP:  </b>This constant is not supported.

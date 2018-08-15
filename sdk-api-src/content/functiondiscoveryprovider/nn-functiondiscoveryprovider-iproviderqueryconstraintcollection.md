@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -74,7 +75,7 @@ The <b>IProviderQueryConstraintCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/30b66ed6-ef02-4a47-baa0-dc48b6d84187">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified query constraint, by name.
@@ -83,7 +84,7 @@ Gets the value of the specified query constraint, by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/401e1723-751a-490b-bcb6-d1e0f2f73dfb">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the collection.
@@ -92,7 +93,7 @@ Gets the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/db8840db-365a-485d-9097-ef98a9d875bc">Item</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the specified query constraint, by index.
@@ -101,7 +102,7 @@ Gets the name and value of the specified query constraint, by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://msdn.microsoft.com/5dd03e98-5367-4434-aa68-be36cb7aaf24">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the next query  constraint in the collection.
@@ -110,7 +111,7 @@ Gets the name and value of the next query  constraint in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
+<a href="https://msdn.microsoft.com/56bd143b-b3eb-4273-854b-4d6876ad5e4d">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current index to the start of the collection.
@@ -119,7 +120,7 @@ Resets the current index to the start of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926952">Skip</a>
+<a href="https://msdn.microsoft.com/18c25f6d-387e-46bf-97b6-6bcf195b15e8">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the next item in the collection.

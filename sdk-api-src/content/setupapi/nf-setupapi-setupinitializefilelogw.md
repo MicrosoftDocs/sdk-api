@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -96,11 +97,6 @@ If the log file exists, overwrite it. If the log file exists and this flag is no
 Open the log file for querying only.
 
 
-##### - Flags.SPFILELOG_SYSTEMLOG
-
-Use the system file log. The user must be an Administrator to specify this option unless SPFILELOG_QUERYONLY is specified and <i>LogFileName</i> is not specified. Do not specify SPFILELOG_SYSTEMLOG in combination with SPFILELOG_FORCENEW.
-
-
 ##### - Flags.SPFILELOG_FORCENEW
 
 If the log file exists, overwrite it. If the log file exists and this flag is not specified, any new files that are installed are added to the list in the existing log file. Do not specify in combination with SPFILELOG_SYSTEMLOG.
@@ -109,6 +105,11 @@ If the log file exists, overwrite it. If the log file exists and this flag is no
 ##### - Flags.SPFILELOG_QUERYONLY
 
 Open the log file for querying only.
+
+
+##### - Flags.SPFILELOG_SYSTEMLOG
+
+Use the system file log. The user must be an Administrator to specify this option unless SPFILELOG_QUERYONLY is specified and <i>LogFileName</i> is not specified. Do not specify SPFILELOG_SYSTEMLOG in combination with SPFILELOG_FORCENEW.
 
 
 ## -returns
@@ -126,7 +127,7 @@ The function returns the handle to the log file if it is successful. Otherwise, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
 
 
 

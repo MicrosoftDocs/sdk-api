@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP3, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -83,7 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6
 
 If <i>ppfti</i> points to a valid structure, <i>pidlRoot</i> represents a folder shortcut.
 
-If <i>ppfti</i> is set to <b>NULL</b>, <i>pidlRoot</i> represents a normal folder. In that case, <b>InitializeEx</b> should behave as if <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> had been called.
+If <i>ppfti</i> is set to <b>NULL</b>, <i>pidlRoot</i> represents a normal folder. In that case, <b>InitializeEx</b> should behave as if <a href="https://msdn.microsoft.com/179f13c9-7306-4ed5-935e-2620616b46c1">Initialize</a> had been called.
 
 
 ## -returns

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -60,12 +61,12 @@ The DDGETKERNELCAPSOUT structure contains the capabilities of the Microsoft Dire
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a> function for <a href="https://msdn.microsoft.com/library/windows/hardware/ff550629">DD_DXAPI_GETKERNELCAPS</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for <a href="https://msdn.microsoft.com/8cb0fd51-cca3-442d-8988-ef0ae6fcb1b7">DD_DXAPI_GETKERNELCAPS</a> operations. A return code of DD_OK indicates success.
 
 
 ### -field dwCaps
 
-Can be any combination of the capabilities in the <b>dwCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549593">DDKERNELCAPS</a> structure.
+Can be any combination of the capabilities in the <b>dwCaps</b> member of the <a href="https://msdn.microsoft.com/d02d26f5-34cf-4a3c-b67c-0f9191bb854b">DDKERNELCAPS</a> structure.
 
 
 ### -field dwIRQCaps
@@ -78,11 +79,11 @@ Can be a combination of the flags in the <b>dwIRQCaps</b> member of DDKERNELCAPS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550629">DD_DXAPI_GETKERNELCAPS</a>
+<a href="https://msdn.microsoft.com/8cb0fd51-cca3-442d-8988-ef0ae6fcb1b7">DD_DXAPI_GETKERNELCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
+<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
  
 
  

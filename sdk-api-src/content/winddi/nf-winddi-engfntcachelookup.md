@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ On success, this function returns a pointer to the cached data. Otherwise, it re
 
 
 
-The font engine calls the font driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a> entry point when a font file is first loaded. It is in this call that the font driver receives a value for <i>FastCheckSum</i>, which it subsequently uses when it calls this function.
+The font engine calls the font driver's <a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a> entry point when a font file is first loaded. It is in this call that the font driver receives a value for <i>FastCheckSum</i>, which it subsequently uses when it calls this function.
 
 
 
@@ -92,15 +93,15 @@ The font engine calls the font driver's <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556247">DrvLoadFontFile</a>
+<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564877">EngFntCacheAlloc</a>
+<a href="https://msdn.microsoft.com/fd0765e0-decd-46fb-872e-4c750713abe6">EngFntCacheAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564882">EngFntCacheFault</a>
+<a href="https://msdn.microsoft.com/27a44779-64df-4a3f-b8b8-9e0417010969">EngFntCacheFault</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -61,7 +62,7 @@ The <b>EngFindImageProcAddress</b> function returns the address of a function wi
 
 ### -param h
 
-Handle to the image in which the function can be found. This handle was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564963">EngLoadImage</a>. This parameter can be <b>NULL</b> on Windows NT 4.0 SP3 and later versions, which includes Windows 2000 and later operating system versions.
+Handle to the image in which the function can be found. This handle was obtained by calling <a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>. This parameter can be <b>NULL</b> on Windows NT 4.0 SP3 and later versions, which includes Windows 2000 and later operating system versions.
 
 
 ### -param procname [in]
@@ -73,11 +74,11 @@ Pointer to the string that specifies the name of the function to be located.
 
 
 
-A driver must previously have loaded the image into kernel-mode through a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564963">EngLoadImage</a>.
+A driver must previously have loaded the image into kernel-mode through a call to <a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>.
 
 The function identified by <i>lpProcName</i> must be exported by the loaded module. This is accomplished by using the EXPORTS key in the module's <i>.DEF</i> file.
 
-A driver cannot call <b>EngFindImageProcAddress</b> with <i>hModule</i> set to <b>NULL</b> on any version of Windows NT 4.0 prior to SP3. Consequently, the driver must do version checking to ensure that the system is running that version or Windows 2000 or later. Specifically, if the <i>iEngineVersion</i> value passed to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556210">DrvEnableDriver</a> function is greater than or equal to DDI_DRIVER_VERSION_SP3, the driver can call <b>EngFindImageProcAddress</b> with a <b>NULL</b> value for <i>hModule</i>.
+A driver cannot call <b>EngFindImageProcAddress</b> with <i>hModule</i> set to <b>NULL</b> on any version of Windows NT 4.0 prior to SP3. Consequently, the driver must do version checking to ensure that the system is running that version or Windows 2000 or later. Specifically, if the <i>iEngineVersion</i> value passed to the driver's <a href="https://msdn.microsoft.com/b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e">DrvEnableDriver</a> function is greater than or equal to DDI_DRIVER_VERSION_SP3, the driver can call <b>EngFindImageProcAddress</b> with a <b>NULL</b> value for <i>hModule</i>.
 
 To obtain the address of a GDI service routine that is new to Windows 2000 and later operating system versions, the driver can call <b>EngFindImageProcAddress</b> with the function's string name and <i>hModule</i> set to <b>NULL</b>. The <i>lpProcName</i> parameter can be the text string equivalent of any of the following functions when <i>hModule</i> is <b>NULL</b>: 
 
@@ -343,11 +344,11 @@ To obtain the address of a GDI service routine that is new to Windows 2000 and l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556210">DrvEnableDriver</a>
+<a href="https://msdn.microsoft.com/b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e">DrvEnableDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564963">EngLoadImage</a>
+<a href="https://msdn.microsoft.com/03b1835a-5c4e-4f38-93b1-e557a2975be7">EngLoadImage</a>
  
 
  

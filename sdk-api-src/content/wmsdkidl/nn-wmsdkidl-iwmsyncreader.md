@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -82,7 +83,7 @@ The <b>IWMSyncReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://msdn.microsoft.com/98f5a44f-dc34-4732-b497-5528de6af1c3">Close</a>
 </td>
 <td align="left" width="63%">
 Removes a file from the synchronous reader.
@@ -199,7 +200,7 @@ Retrieves whether or not a particular stream is selected for sample delivery.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://msdn.microsoft.com/dab1a9c4-487c-4b20-909e-05f3504698f5">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a file for reading.
@@ -280,7 +281,7 @@ For information on which interfaces can be obtained by calling the QueryInterfac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn965732">Interfaces</a>
+<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
  
 
  

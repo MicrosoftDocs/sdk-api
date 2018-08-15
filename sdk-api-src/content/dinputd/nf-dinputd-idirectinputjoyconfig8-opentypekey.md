@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,6 +66,11 @@ The <b>IDirectInputJoyConfig8::OpenTypeKey </b>method opens the registry key ass
 
 
 
+#### - phk
+
+Points to the opened registry key, on success. 
+
+
 #### - pwszType
 
 Points to the name of the type. The name of the type cannot exceed MAX_PATH characters, including the terminating null character. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput. 
@@ -73,11 +79,6 @@ Points to the name of the type. The name of the type cannot exceed MAX_PATH char
 #### - regsam
 
 Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first have been acquired. If only read access is requested, then acquisition is not required. 
-
-
-#### - phk
-
-Points to the opened registry key, on success. 
 
 
 ## -returns
@@ -98,7 +99,7 @@ Returns DI_OK if successful; otherwise, returns one of the following COM error v
 </dl>
 </td>
 <td width="60%">
-Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540978">IDirectInputJoyConfig8::Acquire</a> before you can open a joystick type configuration key for writing. 
+Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/1df2eb92-9c55-4371-84c7-a4fb879efb7e">IDirectInputJoyConfig8::Acquire</a> before you can open a joystick type configuration key for writing. 
 
 </td>
 </tr>

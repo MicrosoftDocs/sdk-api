@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -57,9 +58,9 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Resumes the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> activity of a 
+    <a href="c_gly.htm">cluster</a> activity of a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> after it has been 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">paused</a> by the 
+    <a href="p_gly.htm">paused</a> by the 
     <a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">ClusNode.Pause</a> method.
 
 

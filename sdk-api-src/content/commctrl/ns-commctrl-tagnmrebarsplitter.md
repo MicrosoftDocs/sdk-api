@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used to handle an <a href="https://msdn.microsoft.com/en-us/library/Bb774427(v=VS.85).aspx">RBN_SPLITTERDRAG</a> notification code.
+Contains information used to handle an <a href="https://msdn.microsoft.com/7827c971-6a92-452f-b961-1abe6ae66d2a">RBN_SPLITTERDRAG</a> notification code.
 
 
 ## -struct-fields
@@ -60,14 +61,14 @@ Contains information used to handle an <a href="https://msdn.microsoft.com/en-us
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field rcSizing
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that indicates the size the rebar will be after the drag operation completes.
+An <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a> structure that indicates the size the rebar will be after the drag operation completes.
 

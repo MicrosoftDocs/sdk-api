@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -110,9 +111,9 @@ Boolean specifying whether the new window is visible. <b>TRUE</b> means the new 
 Boolean value specifying whether the call is being made before or after the overlay-related change. <b>TRUE</b> specifies before, <b>FALSE</b> specifies after.
 
 
-#### - prcSrcOld [in]
+#### - prcDestNew [in]
 
-Pointer to the rectangle representing the old source position of the DirectDraw surface.
+Pointer to the rectangle representing the new destination position of the rectangle in the overlay surface.
 
 
 #### - prcDestOld [in]
@@ -125,9 +126,9 @@ Pointer to the rectangle representing the old destination position of the rectan
 Pointer to the rectangle representing the new source position of the DirectDraw surface.
 
 
-#### - prcDestNew [in]
+#### - prcSrcOld [in]
 
-Pointer to the rectangle representing the new destination position of the rectangle in the overlay surface.
+Pointer to the rectangle representing the old source position of the DirectDraw surface.
 
 
 ## -returns

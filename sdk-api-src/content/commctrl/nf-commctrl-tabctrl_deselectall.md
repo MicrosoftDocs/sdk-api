@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Resets items in a tab control, clearing any that were set to the <a href="Tab_Control_Item_States.htm">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760579(v=VS.85).aspx">TCM_DESELECTALL</a> message explicitly. 
+Resets items in a tab control, clearing any that were set to the <a href="Tab_Control_Item_States.htm">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/cc2e5131-3c1b-473a-a0ca-274a2d39a2f1">TCM_DESELECTALL</a> message explicitly. 
 
 
 ## -parameters

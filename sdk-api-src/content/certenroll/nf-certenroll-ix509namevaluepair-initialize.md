@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -83,7 +84,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-You can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a> properties to retrieve the values initialized by calling this method.
+You can call the <a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c98b4187723">Name</a> and <a href="https://msdn.microsoft.com/769eb16b-68c7-4540-bd1d-d04585ba0dfd">Value</a> properties to retrieve the values initialized by calling this method.
 
 
 
@@ -97,11 +98,11 @@ You can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c98b4187723">Name</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/769eb16b-68c7-4540-bd1d-d04585ba0dfd">Value</a>
  
 
  

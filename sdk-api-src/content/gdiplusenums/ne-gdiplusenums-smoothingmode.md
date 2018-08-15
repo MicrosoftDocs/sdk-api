@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,8 +52,8 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a> methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
+The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a> and <a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a> methods of the 
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class.
 
 
 ## -enum-fields
@@ -114,11 +115,11 @@ Smoothing performed by an 8 X 4 box filter gives better results for nearly verti
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a>
  
 
  

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -52,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface and returns an interface pointer to the new interface.
+The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/9f3e94bc-fa90-4e3d-97c5-17e57055de0e">IEnumWIA_FORMAT_INFO</a> interface and returns an interface pointer to the new interface.
 
 
 ## -parameters
@@ -62,9 +63,9 @@ The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of 
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/9f3e94bc-fa90-4e3d-97c5-17e57055de0e">IEnumWIA_FORMAT_INFO</a>**</b>
 
-Pointer to a new <a href="https://msdn.microsoft.com/en-us/library/ms630158(v=VS.85).aspx">IEnumWIA_FORMAT_INFO</a> interface. 
+Pointer to a new <a href="https://msdn.microsoft.com/9f3e94bc-fa90-4e3d-97c5-17e57055de0e">IEnumWIA_FORMAT_INFO</a> interface. 
 
 
 ## -returns

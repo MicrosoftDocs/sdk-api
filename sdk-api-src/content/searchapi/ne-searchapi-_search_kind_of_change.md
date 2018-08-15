@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 
+req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -77,7 +78,7 @@ An item was modified.
 
 ### -field SEARCH_CHANGE_MOVE_RENAME
 
-An item was moved or renamed. Not currently supported for use with <a href="https://msdn.microsoft.com/en-us/library/Bb231455(v=VS.85).aspx">ISearchPersistentItemsChangedSink::OnItemsChanged</a>. 
+An item was moved or renamed. Not currently supported for use with <a href="https://msdn.microsoft.com/975f687f-65c7-4086-b99c-c1b1419a701b">ISearchPersistentItemsChangedSink::OnItemsChanged</a>. 
 
 
 ### -field SEARCH_CHANGE_SEMANTICS_DIRECTORY
@@ -109,7 +110,7 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965367(v=VS.85).aspx">INLINE_NOTIFY_DATA_CHANGE_ENTRY</a>
+<a href="https://msdn.microsoft.com/95ab0424-e21a-4a5f-b1ce-f40423790125">INLINE_NOTIFY_DATA_CHANGE_ENTRY</a>
 
 
 
@@ -117,7 +118,7 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965371(v=VS.85).aspx">SEARCH_ITEM_CHANGE</a>
+<a href="https://msdn.microsoft.com/83ed1c76-7210-4d0b-a6e2-461bc331e168">SEARCH_ITEM_CHANGE</a>
  
 
  

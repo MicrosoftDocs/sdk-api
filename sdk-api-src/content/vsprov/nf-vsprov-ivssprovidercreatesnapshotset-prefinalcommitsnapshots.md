@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -54,7 +55,7 @@ req.product: Windows UI
 The 
    <b>PreFinalCommitSnapshots</b> 
    method enables providers to support 
-   <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> shadow 
+   <a href="vssgloss_a.htm">auto-recover</a> shadow 
    copies. If the shadow copy has the <b>VSS_VOLSNAP_ATTR_AUTORECOVER</b> flag set in 
    the context, the volume can receive a large number of writes during the auto-recovery operation.
 
@@ -141,7 +142,7 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 This method was added to enable binary compatibility when the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> feature was introduced in 
+    <a href="vssgloss_a.htm">auto-recover</a> feature was introduced in 
     Windows Server 2003 with Service Pack 1 (SP1).
 
 <div class="alert"><b>Note</b>  For Windows Server 2003, it is recommended that hardware providers implement this method using 

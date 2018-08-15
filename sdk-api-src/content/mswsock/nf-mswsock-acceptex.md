@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -157,7 +158,7 @@ Using a single buffer improves performance. When using
 <a href="https://msdn.microsoft.com/df2679a5-cdd9-468b-823a-f98044189f65">getpeername</a> function.
 
 The buffer size for the local and remote address must be 16 bytes more than the size of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure for the transport protocol in use because the addresses are written in an internal format. For example, the size of a <b>sockaddr_in</b> (the address structure for TCP/IP) is 16 bytes. Therefore, a buffer size of at least 32 bytes must be specified for the local and remote addresses.
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure for the transport protocol in use because the addresses are written in an internal format. For example, the size of a <b>sockaddr_in</b> (the address structure for TCP/IP) is 16 bytes. Therefore, a buffer size of at least 32 bytes must be specified for the local and remote addresses.
 
 The 
 <b>AcceptEx</b> function uses overlapped I/O, unlike the 
@@ -179,7 +180,7 @@ Another key difference between the
 The <i>sAcceptSocket</i> parameter must be an open socket that is neither bound nor connected.
 
 The <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function or the 
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function or the 
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function indicates the number of bytes received in the request.
 
 
@@ -187,10 +188,10 @@ When this operation is successfully completed, <i>sAcceptSocket</i> can be passe
 
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
 </dd>
 <dd>
 <a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>
@@ -476,7 +477,7 @@ There are important issues associated with connection setup when using Asynchron
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
@@ -512,7 +513,7 @@ There are important issues associated with connection setup when using Asynchron
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>
+<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
  
 
  

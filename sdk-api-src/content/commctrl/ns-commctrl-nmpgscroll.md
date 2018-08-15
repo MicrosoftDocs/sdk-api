@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains and receives information that the pager control uses when scrolling the contained window. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760866(v=VS.85).aspx">PGN_SCROLL</a> notification. 
+Contains and receives information that the pager control uses when scrolling the contained window. It is used with the <a href="https://msdn.microsoft.com/3d40e75e-c445-4885-b807-8cfcb92cb2d9">PGN_SCROLL</a> notification. 
 
 
 ## -struct-fields
@@ -60,10 +61,10 @@ Contains and receives information that the pager control uses when scrolling the
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field fwKeys
@@ -123,7 +124,7 @@ The ALT key is down.
 
 ### -field rcParent
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 Contains the client rectangle of the pager control. 
 

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -64,12 +65,12 @@ The <b>IComponentData::CompareObjects</b> method enables a snap-in to compare tw
 ### -param lpDataObjectA [in]
 
 A pointer to the first data object exposing an 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that is to be compared.
+<a href="_ole_idataobject">IDataObject</a> interface that is to be compared.
 
 
 ### -param lpDataObjectB [in]
 
-A pointer to the second data object exposing an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that is to be compared.
+A pointer to the second data object exposing an <a href="_ole_idataobject">IDataObject</a> interface that is to be compared.
 
 
 ## -returns

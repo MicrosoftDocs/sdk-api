@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -174,7 +175,7 @@ The specified edit cookie is invalid.
 
 
 
-<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="./images/RngFig01.gif"/>
+<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="images/RngFig01.gif"/>
 By default, the method will return a range positioned at 0 for point 1 and TF_E_INVALIDPOINT for point 2. If the <i>dwFlags</i> parameter is set to <a href="https://msdn.microsoft.com/e69e5a4c-65e6-4d9b-8cb0-962524aa5d39">GXFPF_ROUND_NEAREST</a>, the method returns range position 1 for point 1. If the <i>dwFlags</i> parameter is set to GXFPF_NEAREST then the method returns range position 2 for point 2.
 
 

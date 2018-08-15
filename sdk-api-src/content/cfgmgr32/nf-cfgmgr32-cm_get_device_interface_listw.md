@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -79,7 +80,7 @@ Caller-supplied pointer to a buffer that receives multiple, NULL-terminated Unic
 
 ### -param BufferLen [in]
 
-Caller-supplied value that specifies the length, in characters, of the buffer pointed to by <i>Buffer</i>. Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538471">CM_Get_Device_Interface_List_Size</a> to determine the required buffer size.
+Caller-supplied value that specifies the length, in characters, of the buffer pointed to by <i>Buffer</i>. Call <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade2efb3998">CM_Get_Device_Interface_List_Size</a> to determine the required buffer size.
 
 
 ### -param ulFlags [in]
@@ -145,7 +146,7 @@ The <i>Buffer</i> buffer is too small to hold the requested list of device inter
 
 
 
-Between calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538471">CM_Get_Device_Interface_List_Size</a> to get the size of the list and calling <b>CM_Get_Device_Interface_List</b> to get the list, a new device interface can be added to the system causing the size returned to no longer be valid.  Callers should be robust to that condition and retry getting the size and the list if <b>CM_Get_Device_Interface_List</b> returns <b>CR_BUFFER_SMALL</b>.
+Between calling <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade2efb3998">CM_Get_Device_Interface_List_Size</a> to get the size of the list and calling <b>CM_Get_Device_Interface_List</b> to get the list, a new device interface can be added to the system causing the size returned to no longer be valid.  Callers should be robust to that condition and retry getting the size and the list if <b>CM_Get_Device_Interface_List</b> returns <b>CR_BUFFER_SMALL</b>.
 
 
 #### Examples
@@ -212,7 +213,7 @@ This snippet illustrates retrying getting the size and the list as described in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538471">CM_Get_Device_Interface_List_Size</a>
+<a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade2efb3998">CM_Get_Device_Interface_List_Size</a>
  
 
  

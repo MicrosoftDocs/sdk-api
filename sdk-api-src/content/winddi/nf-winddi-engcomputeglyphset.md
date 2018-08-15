@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -81,7 +82,7 @@ Specifies the number of ANSI characters supported.
 
 
 
-If the glyph set is computed successfully, the function returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
+If the glyph set is computed successfully, the function returns a pointer to an <a href="https://msdn.microsoft.com/af56f2a0-92a6-4217-8121-944a0b4f26f6">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
 
 
 
@@ -92,7 +93,7 @@ If the glyph set is computed successfully, the function returns a pointer to an 
 
 A driver can use <b>EngComputeGlyphSet</b> to compute the glyph set for a font that contains only glyphs in the code page described by <i>nCodePage</i>.
 
-The driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564895">EngFreeMem</a> to free memory when it is done using the FD_GLYPHSET structure returned by <b>EngComputeGlyphSet</b>.
+The driver must call <a href="https://msdn.microsoft.com/04428d7e-4150-4e68-a660-0a9e246c82ae">EngFreeMem</a> to free memory when it is done using the FD_GLYPHSET structure returned by <b>EngComputeGlyphSet</b>.
 
 
 
@@ -102,11 +103,11 @@ The driver must call <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564895">EngFreeMem</a>
+<a href="https://msdn.microsoft.com/04428d7e-4150-4e68-a660-0a9e246c82ae">EngFreeMem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a>
+<a href="https://msdn.microsoft.com/af56f2a0-92a6-4217-8121-944a0b4f26f6">FD_GLYPHSET</a>
  
 
  

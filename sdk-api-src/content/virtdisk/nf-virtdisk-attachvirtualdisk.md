@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -69,7 +70,7 @@ A handle to an open virtual disk. For information on how to open a virtual disk,
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> to apply to the attached 
+      <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> to apply to the attached 
       virtual disk. If this parameter is <b>NULL</b>, the security descriptor of the virtual disk 
       image file is used.
 

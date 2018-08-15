@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -85,11 +86,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365920(v=VS.85).aspx">GetBestInterface</a>
+<a href="_iphlp_getbestinterface">GetBestInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365924(v=VS.85).aspx">GetBestRoute</a>
+<a href="_iphlp_getbestroute">GetBestRoute</a>
  
 
  

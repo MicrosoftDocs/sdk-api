@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 
+req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -51,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Exposes methods that define an an out <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Exposes methods that define an an out <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object.
 
 
 ## -inheritance
@@ -71,7 +72,7 @@ The <b>IMILBitmapEffectImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735275(v=VS.85).aspx">GetInputBitmapSource</a>
+<a href="https://msdn.microsoft.com/89c25f96-e328-48eb-a169-3e946e02f1a0">GetInputBitmapSource</a>
 </td>
 <td align="left" width="63%">
 Gets the input bitmap source of the effect of the given render context.
@@ -80,16 +81,16 @@ Gets the input bitmap source of the effect of the given render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735276(v=VS.85).aspx">GetInputSource</a>
+<a href="https://msdn.microsoft.com/f82a879c-a764-4a28-a9db-7784e2966837">GetInputSource</a>
 </td>
 <td align="left" width="63%">
-Retrieves the input <a href="https://msdn.microsoft.com/en-us/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
+Retrieves the input <a href="_wic_codec_iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735277(v=VS.85).aspx">GetInputSourceBounds</a>
+<a href="https://msdn.microsoft.com/0c52c6ed-fdbb-41fa-a7b9-f916240c4647">GetInputSourceBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the bounds of the input source.
@@ -98,7 +99,7 @@ Gets the bounds of the input source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735278(v=VS.85).aspx">GetOutputBitmapSource</a>
+<a href="https://msdn.microsoft.com/f7b82680-97da-430f-83a6-4d61d30060e1">GetOutputBitmapSource</a>
 </td>
 <td align="left" width="63%">
 Gets the output bitmap source of the effect of the given render context.
@@ -107,7 +108,7 @@ Gets the output bitmap source of the effect of the given render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://msdn.microsoft.com/97b5fd4e-cab0-4d64-a650-ca8451082975">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the effect with the given object.
@@ -116,7 +117,7 @@ Initializes the effect with the given object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735282(v=VS.85).aspx">IsInPlaceModificationAllowed</a>
+<a href="https://msdn.microsoft.com/03217107-6200-45cc-8101-eb912b3f4722">IsInPlaceModificationAllowed</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect allows in-place modifications.
@@ -125,7 +126,7 @@ Determines whether the effect allows in-place modifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735283(v=VS.85).aspx">SetParentEffect</a>
+<a href="https://msdn.microsoft.com/57b0f1e3-5feb-4407-a0d5-ec547619d4ec">SetParentEffect</a>
 </td>
 <td align="left" width="63%">
 Sets the parent of the effect.
@@ -139,7 +140,7 @@ Sets the parent of the effect.
 
 
 
-This interface must be implemented if a custom effect also exposes <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>.
+This interface must be implemented if a custom effect also exposes <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>.
 
 
 

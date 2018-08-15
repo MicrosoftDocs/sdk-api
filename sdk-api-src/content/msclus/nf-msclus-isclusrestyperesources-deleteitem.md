@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -59,7 +60,7 @@ req.product: GDI+ 1.1
 
 Deletes a 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and removes it from a 
+    <a href="c_gly.htm">cluster</a> and removes it from a 
     <a href="https://msdn.microsoft.com/3164f2ee-7230-4d77-8c7c-cfba3aaee9d4">ClusResTypeResources</a> collection.
 
 
@@ -71,7 +72,7 @@ Deletes a
 ### -param varIndex
 
 Integer that identifies an object in the collection by name or numeric index. Index numbers range from 1 to 
-      object.<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>.
+      object.<a href="https://msdn.microsoft.com/ccd8739e-9309-4630-92cd-5b2894eb416a">Count</a>.
 
 
 ## -returns

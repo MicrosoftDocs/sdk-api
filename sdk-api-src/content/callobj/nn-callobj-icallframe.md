@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -59,7 +60,7 @@ An instance of the <b>ICallFrame</b> interface can perform various transformatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrame</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallFrame</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrame</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ICallFrame</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +75,7 @@ The <b>ICallFrame</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544217">Copy</a>
+<a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">Copy</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of this call frame and all of its associated data.
@@ -110,7 +111,7 @@ Retrieves the interface ID or the method number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://msdn.microsoft.com/807b4542-c18d-48e4-8493-c40a85e5e1de">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the call frame.

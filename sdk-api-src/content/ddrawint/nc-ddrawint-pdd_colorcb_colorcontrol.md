@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
+req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -69,7 +70,7 @@ The <b>DdControlColor</b> callback function controls the luminance and brightnes
 
 #### - lpColorControl
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550525">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
+Points to a <a href="https://msdn.microsoft.com/7c983faa-de9d-4a04-ac8d-d37fb182a662">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
 
 
 ## -returns
@@ -95,7 +96,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55052
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550525">DD_COLORCONTROLDATA</a>
+<a href="https://msdn.microsoft.com/7c983faa-de9d-4a04-ac8d-d37fb182a662">DD_COLORCONTROLDATA</a>
  
 
  

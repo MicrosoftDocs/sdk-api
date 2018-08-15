@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -64,7 +65,7 @@ The
 ### -param lpThreadId [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
 <a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a>.
 
 
@@ -90,7 +91,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,12 +117,12 @@ A successful
 The 
 <b>WPUCloseThread</b> function is used in a layered service provider to deallocate the resources that were initiated in a call by the 
 <a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a> function. The 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a> structure in the <i>lpThreadId</i> is the thread to deallocate.
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure in the <i>lpThreadId</i> is the thread to deallocate.
 
 Every call to 
 <a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a> must have a call to 
 <b>WPUCloseThread</b>. These two functions are used when the overlapped functions, such as 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>, are called in a lower layer of the service provider than the current thread.
+<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>, are called in a lower layer of the service provider than the current thread.
 
 
 
@@ -135,7 +136,7 @@ Every call to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565964">WSATHREADID</a>
+<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a>
  
 
  

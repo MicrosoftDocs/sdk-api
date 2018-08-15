@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -65,7 +66,7 @@ This property is read/write.
 
 
 
-When reading or writing XML, the data of a COM handler is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt427307">Data</a> element of the Task Scheduler schema.
+When reading or writing XML, the data of a COM handler is specified in the <a href="https://msdn.microsoft.com/352cb92b-54bb-4bb0-8a43-123c88c80962">Data</a> element of the Task Scheduler schema.
 
 
 

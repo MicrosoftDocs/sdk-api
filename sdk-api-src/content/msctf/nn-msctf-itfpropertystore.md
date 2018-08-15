@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -71,7 +72,7 @@ The <b>ITfPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
+<a href="https://msdn.microsoft.com/0f51a37f-e340-441e-a1f1-e67791b9c008">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an exact copy of the property store object.
@@ -89,7 +90,7 @@ Called when the text covered by the property is split into two ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://msdn.microsoft.com/190506ea-4f15-4976-a337-bfd873e58aff">GetData</a>
 </td>
 <td align="left" width="63%">
 Obtains the property store data.
@@ -116,7 +117,7 @@ Obtains the class identifier of the property store owner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+<a href="https://msdn.microsoft.com/e0b6b1b7-1994-4876-9f15-7e1c6a4f0e4b">GetType</a>
 </td>
 <td align="left" width="63%">
 Obtains the property identifier.
@@ -163,7 +164,7 @@ Called when the text that the property store applies to is truncated.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

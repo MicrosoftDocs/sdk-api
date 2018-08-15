@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rectypes.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -88,7 +89,7 @@ Requests descender metrics. For an example that shows the decender line of a seg
 
 The following example shows the baseline, midline, ascender line, and descender line of a segment.
 
-<img alt="Illustration showing components of line metrics" border="" src="./images/af81489d-317e-499e-a78b-702519efe530.gif"/>
+<img alt="Illustration showing components of line metrics" border="" src="images/af81489d-317e-499e-a78b-702519efe530.gif"/>
 For East Asian languages written horizontally, the descender line and baseline are located at the bottom of the characters and the ascender line at the top of the characters. The midline is between the ascender and descender lines.
 
 For East Asian languages written vertically, the descender line is the leftmost edge, the ascender line is the rightmost edge, and baseline is between the descender and ascender lines. The midline for Komoji characters is the leftmost edge and the location for punctuation characters depends on the character.

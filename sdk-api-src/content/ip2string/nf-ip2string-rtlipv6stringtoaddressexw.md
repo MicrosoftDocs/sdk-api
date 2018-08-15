@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -150,7 +151,7 @@ When both UNICODE and _UNICODE are not defined, <b>RtlIpv6StringToAddressEx</b> 
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a> structure is defined in the In6addr.h header file.
+The <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a> structure is defined in the In6addr.h header file.
 
 An import library containing the <b>RtlIpv6StringToAddressEx</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv6StringToAddressEx</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
 
@@ -170,7 +171,7 @@ An import library containing the <b>RtlIpv6StringToAddressEx</b> function is not
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554787">IN6_ADDR</a>
+<a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">IN6_ADDR</a>
 
 
 

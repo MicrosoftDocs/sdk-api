@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -223,14 +224,14 @@ the <a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">Ce
 <a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure. The structure contains the information necessary to acquire the recipient's private key by calling 
 <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a>, using the <b>pwszContainerName</b>, <b>pwszProvName</b>, <b>dwProvType</b>, and <b>dwFlags</b> members of the <b>CRYPT_KEY_PROV_INFO</b> structure. The <b>hCryptProv</b> acquired and the <b>dwKeySpec</b> member of the <b>CRYPT_KEY_PROV_INFO</b> structure are passed to 
 the <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> structure as a member of the 
-<a href="https://msdn.microsoft.com/eb9b1daa-b04f-419a-88e3-7c772f9e62eb">CMSG_CTRL_DECRYPT_PARA</a> structure to permit the start of the decryption of the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a>. The streaming code will then perform the decryption as the data is input. The resulting blocks of <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> are passed to the callback function specified by the <b>pfnStreamOutput</b> member of the <a href="https://msdn.microsoft.com/a4e7f6e8-351f-4981-b223-50b65f503394">CMSG_STREAM_INFO</a> structure to handle the output of the decrypted message.
+<a href="https://msdn.microsoft.com/eb9b1daa-b04f-419a-88e3-7c772f9e62eb">CMSG_CTRL_DECRYPT_PARA</a> structure to permit the start of the decryption of the <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a>. The streaming code will then perform the decryption as the data is input. The resulting blocks of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> are passed to the callback function specified by the <b>pfnStreamOutput</b> member of the <a href="https://msdn.microsoft.com/a4e7f6e8-351f-4981-b223-50b65f503394">CMSG_STREAM_INFO</a> structure to handle the output of the decrypted message.
 
 
 <div class="alert"><b>Note</b>  Streamed decoding of an enveloped message queues the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">ciphertext</a> in memory until <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> is called to start the decryption. The application must initiate decrypting in a timely manner so that the data can be saved to disk or routed elsewhere before the accumulated <i>ciphertext</i> becomes too large and the system runs out of memory.</div>
 <div> </div>
 
 
-In the case of a signed message enclosed in an enveloped message, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn965962">plaintext</a> output from the streaming decode of the enveloped message can be fed into another streaming decode to process the signed message.
+In the case of a signed message enclosed in an enveloped message, the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> output from the streaming decode of the enveloped message can be fed into another streaming decode to process the signed message.
 
 
 ## -returns
@@ -298,11 +299,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

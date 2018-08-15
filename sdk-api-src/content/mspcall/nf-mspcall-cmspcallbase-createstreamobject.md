@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -55,7 +56,7 @@ The
 <b>CreateStreamObject</b> method is called by 
 <a href="https://msdn.microsoft.com/6f9cef2e-36dd-4095-9060-b6d37ccbc6d7">InternalCreateStream</a>. The derived class should <b>CreateInstance</b> on its stream object, do an ATL <b>_InternalQueryInterface</b> to obtain an 
 <a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> pointer from the stream object, and call the stream object's 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a> method (on the stream object pointer, not the 
+<a href="https://msdn.microsoft.com/bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda">Init</a> method (on the stream object pointer, not the 
 <b>ITStream</b> pointer).
 
 
@@ -73,7 +74,7 @@ The
 ### -param Direction
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547596">Direction</a> of stream.
+<a href="https://msdn.microsoft.com/55ef9df3-1b85-439b-8ecb-28e5069390b9">Direction</a> of stream.
 
 
 ### -param pGraph

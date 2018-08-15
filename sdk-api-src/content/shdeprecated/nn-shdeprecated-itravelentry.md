@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -89,7 +90,7 @@ Deprecated. Invokes the travel entry, navigating to that page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927294">Update</a>
+<a href="https://msdn.microsoft.com/49861eb7-0e8e-41d9-b9b7-3b9bd35d0e52">Update</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Updates the travel entry.

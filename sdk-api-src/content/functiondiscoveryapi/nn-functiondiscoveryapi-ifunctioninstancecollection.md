@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -73,7 +74,7 @@ The <b>IFunctionInstanceCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://msdn.microsoft.com/c77729f2-2524-4502-82d6-3a3be8344d94">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a function instance to the collection.
@@ -100,7 +101,7 @@ Removes all function instances from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
+<a href="https://msdn.microsoft.com/3f3db880-a765-4a18-91ac-d091728cbb39">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the specified function instance and its index from the collection.
@@ -109,7 +110,7 @@ Gets the specified function instance and its index from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://msdn.microsoft.com/d74d10b1-dab1-4f7e-8dbc-434570bf9c79">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of function instances in the collection.
@@ -118,7 +119,7 @@ Gets the number of function instances in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://msdn.microsoft.com/b79b7cb2-c02a-4474-bd48-8907ebb118fa">Item</a>
 </td>
 <td align="left" width="63%">
 Gets the specified function instance, by index.
@@ -127,7 +128,7 @@ Gets the specified function instance, by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://msdn.microsoft.com/e5abe3e0-a07c-45e4-a590-133f6b30a7f7">Remove</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified function instance and returns a pointer to the function instance being removed.

@@ -14,6 +14,7 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -92,7 +93,7 @@ Returns DWORD that ...
 The <i>Arbitrate</i> entry-point function is implemented for 
      <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resources</a> only. Expect this function to 
      be called only after both <a href="https://msdn.microsoft.com/b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3">Startup</a> and 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> have been called.
+     <a href="https://msdn.microsoft.com/0a5c10c5-0380-4638-b49d-396be3b3c0dd">Open</a> have been called.
 
 Implementations of <b>Arbitrate</b> should take less than 300 
      milliseconds to complete.
