@@ -112,7 +112,7 @@ These remarks are divided into the following topics:
 
 For example, consider the buffer illustrated in the following diagram. If a <a href="https://msdn.microsoft.com/9c63067b-c7ac-412c-ad49-c35d4fba1d68">Draw</a> call has been issued that uses vertices 4-6, then an application that calls <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a> on this buffer must ensure that it does not write to the vertices that the <b>Draw</b> call will access during rendering.
 
-<img alt="Diagram of a buffer that includes vertices in different stages of utilization" src="images/D3D10_map_nooverwrite.png"/>
+<img alt="Diagram of a buffer that includes vertices in different stages of utilization" src="./images/D3D10_map_nooverwrite.png"/>
 However, ensuring this can be difficult, because the GPU is often many frames behind the CPU in terms of which frame it is currently processing. Keeping track of which sections of a resource are being used because of calls made 2 to 5 frames ago is difficult and error-prone. Because of this, it is recommended that applications only write to the uninitialized portions of a resource when using <b>D3D11_MAP_WRITE_NO_OVERWRITE</b>.
 
 <h3><a id="DISCARD_NO_OVERWRITE_USES"></a><a id="discard_no_overwrite_uses"></a>Common Usage of D3D11_MAP_WRITE_DISCARD with D3D11_MAP_WRITE_NO_OVERWRITE</h3>

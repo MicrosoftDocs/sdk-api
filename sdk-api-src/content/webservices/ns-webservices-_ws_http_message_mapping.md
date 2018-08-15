@@ -125,7 +125,7 @@ The following diagram shows how HTTP headers are mapped into
                 the headers of a message.
             
 
-<img alt="" src="images/MappedHeaders.png"/>
+<img alt="" src="./images/MappedHeaders.png"/>
 
 When a message is received, the HTTP channel
                 will automatically copy the specified HTTP headers from the request
